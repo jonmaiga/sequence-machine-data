@@ -2450,7 +2450,7 @@ end A028814
 
 The programs for A028815, the canonical program `A028815.P810525423351225743` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028815 has offset 0).
 
-The definition of A028815 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A028815 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A028815.anchor (n : ℕ) : A028815 n = if n = 0 then 2 else (Nat.nth Nat.Prime (n - 1) : ℤ) + 1` in `Proof.A028.A028815`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A028815.P810525423351225743

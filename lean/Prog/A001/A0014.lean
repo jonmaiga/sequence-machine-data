@@ -2550,7 +2550,7 @@ end A001413.P16515756660407381983
 
 The programs for A001414, the canonical program `A001414.P8293929508439252105` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001414 has offset 1).
 
-The definition of A001414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A001414 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A001414.anchor (n : ℕ) (hn : 1 ≤ n) : A001414 n = ((∑ p ∈ n.primeFactors, p * n.factorization p : ℕ) : ℤ)` in `Proof.A001.A001414`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001414.P8293929508439252105
@@ -3002,6 +3002,12 @@ namespace A001414
 /-- `A059975(n+1)+A001222(n+1)` -/
 def P7313962865598862449.Spec : Prop :=
   ∀ n, P7313962865598862449.a n = A001414 (n + 1)
+
+theorem P7313962865598862449.correct : P7313962865598862449.Spec := by
+  intro n
+  simp only [A001414, Nat.add_sub_cancel, A001414.P7313962865598862449.a, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A059975, A059975.P3594971538098503590.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A001414
 

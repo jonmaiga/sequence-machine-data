@@ -9047,7 +9047,7 @@ end A117866
 /-!
 # A117867: Number of palindromes (in base 8) below 8^n.
 
-The programs for A117867, the canonical program `A117867.P2057922221138345553` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117867 has offset 1).
+The programs for A117867, the canonical program `A117867.P2057922221138345553` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117867 has offset 1).
 
 The definition of A117867 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9056,7 +9056,7 @@ The definition of A117867 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+8*a(n-2)-8*a(n-3)` with `a(0)=7, a(1)=14, a(2)=70`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A117867
@@ -9273,7 +9273,7 @@ end A117867
 /-!
 # A117868: Number of palindromes (in base 9) below 9^n.
 
-The programs for A117868, the canonical program `A117868.P6242398759922463825` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117868 has offset 1).
+The programs for A117868, the canonical program `A117868.P6242398759922463825` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117868 has offset 1).
 
 The definition of A117868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9282,7 +9282,7 @@ The definition of A117868 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*3^n+2*(-3)^n-2`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A117868

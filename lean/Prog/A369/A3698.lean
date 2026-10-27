@@ -6671,7 +6671,7 @@ end A369888.P7231546768383728387
 
 The programs for A369889, the canonical program `A369889.P3040492947822450392` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369889 has offset 1).
 
-The definition of A369889 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, A048250, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A369889 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A369889.P3040492947822450392

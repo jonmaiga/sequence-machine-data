@@ -2929,7 +2929,7 @@ end A329443.P9275891422505926596
 
 The programs for A329445, the canonical program `A329445.P891337881195672988` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329445 has offset 1).
 
-The definition of A329445 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, A182938, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A329445 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A182938, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A329445.P891337881195672988
@@ -5969,7 +5969,7 @@ end A329483.P6508599265779774305
 
 The programs for A329484, the canonical program `A329484.P836157745753398396` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329484 has offset 1).
 
-The definition of A329484 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A329484 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A329484.P836157745753398396

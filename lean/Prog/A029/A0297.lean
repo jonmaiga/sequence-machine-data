@@ -419,6 +419,12 @@ namespace A029707
 def P1241343204466263505.Spec : Prop :=
   ∀ n, P1241343204466263505.a n = A029707 (n + 1)
 
+theorem P1241343204466263505.correct : P1241343204466263505.Spec := by
+  intro n
+  simp only [A029707, Nat.add_sub_cancel, A029707.P1241343204466263505.a, A029707.P9008410581696676488.a, A107770, A107770.P11208098202551847983.a, A155752, A155752.P6228689506561445427.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A006512, A006512.P8157243218962949380.a, A001359, A001359.P8865495035699438537.a, A077800, A077800.P16009445446139691322.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A029707
 
 /-! ## A029707.P9157915946838587551
@@ -5152,7 +5158,7 @@ end A029738.P5436617341872395580
 
 The programs for A029739, the canonical program `A029739.P13820620008039963941` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029739 has offset 1).
 
-The definition of A029739 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A029739 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A029739.anchor (n : ℕ) (hn : 1 ≤ n) : A029739 n = (Nat.nth (fun k => k % 6 ∈ ({1, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A029.A029739`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A029739.P13820620008039963941

@@ -367,7 +367,7 @@ end A393408.P11677751265731092525
 
 The programs for A393414, the canonical program `A393414.P10739002018828388705` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393414 has offset 0).
 
-The definition of A393414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A393414 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A393414.anchor : A393414 0 = 29 ∧ A393414 1 = 21 ∧ ∀ n, A393414 (n + 2) = A393414 (n + 1) + A393414 n` in `Proof.A393.A393414`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A393414.P10739002018828388705

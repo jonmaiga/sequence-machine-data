@@ -1416,7 +1416,7 @@ end A106314
 
 The programs for A106315, the canonical program `A106315.P6417438308466386050` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106315 has offset 1).
 
-The definition of A106315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A106315 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A106315.anchor (n : ℕ) (hn : 1 ≤ n) : A106315 n = ((n * n.divisors.card % ∑ d ∈ n.divisors, d : ℕ) : ℤ)` in `Proof.A106.A106315`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A106315.P4004196697983808007

@@ -4246,7 +4246,7 @@ end A001719.P14824588814099449678
 
 The programs for A001720, the canonical program `A001720.P88558306593264620` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001720 has offset 4).
 
-The definition of A001720 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A001720 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A001720.anchor (n : ℕ) : (A001720 (n + 4) : ℚ) = (Nat.factorial (n + 4) : ℚ) / 24` in `Proof.A001.A001720`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001720.P88558306593264620
@@ -11008,7 +11008,7 @@ end A001746
 
 The programs for A001747, the canonical program `A001747.P198467477273308856` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001747 has offset 1).
 
-The definition of A001747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A001747 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A001747.P198467477273308856
@@ -11506,6 +11506,12 @@ namespace A001747
 /-- `A022798(n+1)+A014238(n+1)` -/
 def P16201853830420218640.Spec : Prop :=
   ∀ n, P16201853830420218640.a n = A001747 (n + 1)
+
+theorem P16201853830420218640.correct : P16201853830420218640.Spec := by
+  intro n
+  simp only [A001747, Nat.add_sub_cancel, A001747.P16201853830420218640.a, A001747.P198467477273308856.a, A008578, A008578.P3639467937083264764.a, A014238, A014238.P784091901909873668.a, A022798, A022798.P9273272214686499992.a, A002808, A002808.P568819275912777150.f1, A002808.P568819275912777150.f2, A002808.P568819275912777150.a, A158611, A158611.P9275629407611603775.a, A000005, A000005.P16091521709108585461.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A001747
 

@@ -8512,7 +8512,7 @@ end A252892.P395936597444405280
 
 The programs for A252893, the canonical program `A252893.P10954994435886160219` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252893 has offset 1).
 
-The definition of A252893 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1086 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A252893 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A252893.anchor (n : ℕ) (hn : 1 ≤ n) : A252893 n = (Nat.nth (fun p => p.Prime ∧ p % 111 = 11) (n - 1) : ℤ)` in `Proof.A252.A252893`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A252893.P10954994435886160219

@@ -4804,6 +4804,12 @@ namespace A201734
 def P18308644808880214159.Spec : Prop :=
   ∀ n, (P18308644808880214159.a n : ℤ) = A201734 (n + 1)
 
+theorem P18308644808880214159.correct : P18308644808880214159.Spec := by
+  intro n
+  simp only [A201734, Nat.add_sub_cancel, A201734.P18308644808880214159.f1, A201734.P18308644808880214159.f2, A201734.P18308644808880214159.a, A201734.P3143725369021031847.f1, A201734.P3143725369021031847.f2, A201734.P3143725369021031847.a, A075743, A075743.P8124416718606607743.a, A082369, A082369.P8225602124362448131.a, A128468, A128468.P7859043567182606606.a, A007310, A007310.P9946423629536973135.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A201734
 
 /-! ## A201734.P13234334700387543767
@@ -5011,7 +5017,7 @@ end A201734
 
 The programs for A201739, the canonical program `A201739.P6931800238278113142` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201739 has offset 1).
 
-The definition of A201739 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A142327, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A201739 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A201739.P6931800238278113142

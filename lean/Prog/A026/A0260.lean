@@ -16345,7 +16345,7 @@ end A026056
 
 The programs for A026057, the canonical program `A026057.P5667498557132812741` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026057 has offset 0).
 
-The definition of A026057 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A026057 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A026057.anchor (n : ℕ) : (A026057 n : ℚ) = ((n : ℤ) * ((n ^ 2 + 12 * n : ℤ) - 25) : ℚ) / 6` in `Proof.A026.A026057`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A026057.P5667498557132812741

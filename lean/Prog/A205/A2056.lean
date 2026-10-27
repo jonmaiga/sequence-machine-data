@@ -3647,7 +3647,7 @@ end A205650
 
 The programs for A205651, the canonical program `A205651.P9301164766259284354` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205651 has offset 1).
 
-The definition of A205651 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A205651 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A205651.anchor (n : ℕ) (hn : 1 ≤ n) : A205651 n = (([1, 6, 5, 4, 9, 0].getD ((n - 1) % 6) 0 : ℕ) : ℤ)` in `Proof.A205.A205651`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A205651.P9301164766259284354

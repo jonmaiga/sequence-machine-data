@@ -5089,7 +5089,7 @@ end A032357
 
 The programs for A032358, the canonical program `A032358.P8457793188510615298` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032358 has offset 2).
 
-The definition of A032358 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003434, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A032358 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A032358.P5946138962495733244
@@ -5154,6 +5154,12 @@ namespace A032358
 /-- `A049108(n+2)-2` -/
 def P781773057253630745.Spec : Prop :=
   ∀ n, P781773057253630745.a n = A032358 (n + 2)
+
+theorem P781773057253630745.correct : P781773057253630745.Spec := by
+  intro n
+  simp only [A032358, Nat.add_sub_cancel, A032358.P781773057253630745.a, A032358.P8457793188510615298.a, A003434, A003434.P4346144669055339103.a, A049108, A049108.P3374025278854896554.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032358
 

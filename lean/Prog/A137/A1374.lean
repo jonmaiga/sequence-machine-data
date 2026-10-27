@@ -3328,6 +3328,12 @@ namespace A137427
 def P7592832029835437091.Spec : Prop :=
   ∀ n, P7592832029835437091.a n = A137427 (n + 1)
 
+theorem P7592832029835437091.correct : P7592832029835437091.Spec := by
+  intro n
+  simp only [A137427, Nat.add_sub_cancel, A137427.P7592832029835437091.a, A137427.P7977322006733834359.a, A002088, A002088.P11293466613211840242.a, A007913, A007913.P8131970495124731496.a, A069891, A069891.P9601038511984379204.a, A070236, A070236.P13553058838220906984.a, A000010, A000010.P4673923239450215316.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A137427
 
 /-! ## A137427.P846510521947454004
@@ -7007,7 +7013,7 @@ end A137457
 
 The programs for A137458, the canonical program `A137458.P10395638896452164860` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137458 has offset 1).
 
-The definition of A137458 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A137458 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A007913(n+1))` (program `A137458.P10395638896452164860`, by `A137458.P10395638896452164860.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A137458.P10395638896452164860

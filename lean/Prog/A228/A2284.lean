@@ -1154,7 +1154,7 @@ end A228408.P11187135806056381617
 
 The programs for A228409, the canonical program `A228409.P2380052288806591200` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228409 has offset 1).
 
-The definition of A228409 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A228409 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*A008683(n+1)+5` (program `A228409.P2380052288806591200`, by `A228409.P2380052288806591200.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228409.P2380052288806591200
@@ -1219,6 +1219,12 @@ namespace A228409
 /-- `4*A007423(n+1)+1` -/
 def P15930411736920435534.Spec : Prop :=
   ∀ n, P15930411736920435534.a n = A228409 (n + 1)
+
+theorem P15930411736920435534.correct : P15930411736920435534.Spec := by
+  intro n
+  simp only [A228409, Nat.add_sub_cancel, A228409.P15930411736920435534.a, A228409.P2380052288806591200.a, A007423, A007423.P17981127199039660822.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A228409
 
@@ -8979,7 +8985,7 @@ end A228495
 
 The programs for A228498, the canonical program `A228498.P13150910257080311854` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228498 has offset 1).
 
-The definition of A228498 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A228498 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203((n+1)²)+A000010((n+1)²)-2*(n+1)²` (program `A228498.P13150910257080311854`, by `A228498.P13150910257080311854.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228498.P14647113403333853024
@@ -9341,6 +9347,12 @@ namespace A228498
 /-- `A065387((n+1)²)-A001105(n+1)` -/
 def P14532040955201237988.Spec : Prop :=
   ∀ n, P14532040955201237988.a n = A228498 (n + 1)
+
+theorem P14532040955201237988.correct : P14532040955201237988.Spec := by
+  intro n
+  simp only [A228498, Nat.add_sub_cancel, A228498.P14532040955201237988.a, A228498.P13150910257080311854.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001105, A001105.P6098599260439307493.a, A065387, A065387.P11284875715279330998.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A228498
 

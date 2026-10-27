@@ -819,6 +819,12 @@ namespace A389204
 def P2897751149966805549.Spec : Prop :=
   ∀ n, P2897751149966805549.a n = A389204 (n + 1)
 
+theorem P2897751149966805549.correct : P2897751149966805549.Spec := by
+  intro n
+  simp only [A389204, Nat.add_sub_cancel, A389204.P2897751149966805549.a, A389204.P15149027481728119098.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A325973, A325973.P1592013717773654083.a, A325974, A325974.P5304343172121658747.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A048250, A048250.P17960441032552816313.f1, A048250.P17960441032552816313.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A389204
 
 /-! ## A389204.P430782795539531152
@@ -841,6 +847,12 @@ namespace A389204
 /-- `A000203(n+1)-2*A325974(n+1)` -/
 def P430782795539531152.Spec : Prop :=
   ∀ n, P430782795539531152.a n = A389204 (n + 1)
+
+theorem P430782795539531152.correct : P430782795539531152.Spec := by
+  intro n
+  simp only [A389204, Nat.add_sub_cancel, A389204.P430782795539531152.a, A389204.P15149027481728119098.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A325973, A325973.P1592013717773654083.a, A325974, A325974.P5304343172121658747.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A048250, A048250.P17960441032552816313.f1, A048250.P17960441032552816313.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A389204
 
@@ -4245,7 +4257,7 @@ end A389242.P7241034933281848677
 
 The programs for A389244, the canonical program `A389244.P9929055792756023973` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389244 has offset 1).
 
-The definition of A389244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A389244 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A057521((n+1)*(n+2))` (program `A389244.P9929055792756023973`, by `A389244.P9929055792756023973.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A389244.P9929055792756023973

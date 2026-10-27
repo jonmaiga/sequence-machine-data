@@ -7303,7 +7303,7 @@ end A112649.P6034267301575537334
 
 The programs for A112651, the canonical program `A112651.P5743016938550411569` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112651 has offset 1).
 
-The definition of A112651 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A112651 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A112651.anchor (n : ℕ) (hn : 1 ≤ n) : A112651 n = (Nat.nth (fun k : ℕ => k ^ 2 ≡ k [MOD 11]) (n - 1) : ℤ)` in `Proof.A112.A112651`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A112651.P5743016938550411569
@@ -8843,7 +8843,7 @@ end A112653
 
 The programs for A112654, the canonical program `A112654.P3817290245725075535` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112654 has offset 1).
 
-The definition of A112654 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A112654 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A112654.anchor (n : ℕ) (hn : 1 ≤ n) : A112654 n = (Nat.nth (fun k : ℕ => k ^ 3 ≡ k [MOD 11]) (n - 1) : ℤ)` in `Proof.A112.A112654`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A112654.P3817290245725075535

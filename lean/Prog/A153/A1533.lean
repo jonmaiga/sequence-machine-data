@@ -8275,6 +8275,12 @@ namespace A153343
 def P2452820966082146219.Spec : Prop :=
   ∀ n, P2452820966082146219.a n = A153343 (n + 1)
 
+theorem P2452820966082146219.correct : P2452820966082146219.Spec := by
+  intro n
+  simp only [A153343, Nat.add_sub_cancel, A153343.P2452820966082146219.a, A153343.P11659389129775803529.f1, A153343.P11659389129775803529.f2, A153343.P11659389129775803529.a, A005171, A005171.P15860856746370777121.a, A153088, A153088.P14487494430752831304.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A153343
 
 /-! ## A153343.P11659389129775803529
@@ -9328,7 +9334,7 @@ end A153348
 
 The programs for A153349, the canonical program `A153349.P5839048596204701455` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153349 has offset 0).
 
-The definition of A153349 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153349 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A153349.anchor (n : ℕ) : A153349 n = [1, 7, 4, 4, 7, 1].getD (n % 6) 0` in `Proof.A153.A153349`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153349.P5839048596204701455

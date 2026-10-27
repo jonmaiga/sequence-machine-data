@@ -760,7 +760,7 @@ end A280107.P3556700986802068797
 
 The programs for A280108, the canonical program `A280108.P11591801532326893364` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280108 has offset 1).
 
-The definition of A280108 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A280108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A280108.P11591801532326893364
@@ -3538,6 +3538,12 @@ namespace A280131
 /-- `∑[∏{d}[n+1, A065387(#)-A000203(#)]]` -/
 def P10789727329081039580.Spec : Prop :=
   ∀ n, P10789727329081039580.a n = A280131 (n + 1)
+
+theorem P10789727329081039580.correct : P10789727329081039580.Spec := by
+  intro n
+  simp only [A280131, Nat.add_sub_cancel, A280131.P10789727329081039580.f2, A280131.P10789727329081039580.f1, A280131.P10789727329081039580.a, A280131.P12740549784646320561.f1, A280131.P12740549784646320561.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A029940, A029940.P9006398651141651236.f1, A029940.P9006398651141651236.a, A065387, A065387.P11284875715279330998.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A280131
 

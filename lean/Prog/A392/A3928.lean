@@ -2922,7 +2922,7 @@ end A392871
 
 The programs for A392872, the canonical program `A392872.P9743280895304921278` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392872 has offset 1).
 
-The definition of A392872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A122111, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A392872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A122111, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A392872.P9743280895304921278
@@ -2987,6 +2987,12 @@ namespace A392872
 /-- `A122111(n+1)%A000040(A073093(n+1))` -/
 def P12120961287113863482.Spec : Prop :=
   ∀ n, P12120961287113863482.a n = A392872 (n + 1)
+
+theorem P12120961287113863482.correct : P12120961287113863482.Spec := by
+  intro n
+  simp only [A392872, Nat.add_sub_cancel, A392872.P12120961287113863482.a, A392872.P9743280895304921278.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A073093, A073093.P258081957281391684.a, A122111, A122111.P18124015185857335041.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P10934841406439867276.a, A008578, A008578.P3639467937083264764.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A158611, A158611.P9275629407611603775.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A392872
 

@@ -8800,7 +8800,7 @@ end A152178.P5445438129081904153
 
 The programs for A152179, the canonical program `A152179.P6529025807571915881` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152179 has offset 0).
 
-The definition of A152179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A152179 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A152179.anchor (n : ℕ) : A152179 n = (([8, 2, 7, 5, 5, 7, 2, 8, 7].getD (n % 9) 0 : ℕ) : ℤ)` in `Proof.A152.A152179`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A152179.P6529025807571915881

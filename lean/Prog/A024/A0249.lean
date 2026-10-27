@@ -3126,7 +3126,7 @@ end A024905
 
 The programs for A024906, the canonical program `A024906.P1505522596758710894` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024906 has offset 1).
 
-The definition of A024906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A024906 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A024906.anchor (n : ℕ) (hn : 1 ≤ n) : A024906 n = (Nat.nth (fun k => (9 * k + 1).Prime) (n - 1) : ℤ)` in `Proof.A024.A024906`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A024906.P1505522596758710894
@@ -4864,7 +4864,7 @@ end A024909
 
 The programs for A024910, the canonical program `A024910.P8101714270751029746` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024910 has offset 1).
 
-The definition of A024910 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A024910 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A024910.anchor (n : ℕ) (hn : 1 ≤ n) : A024910 n = (Nat.nth (fun k => (9 * k - 2).Prime) (n - 1) : ℤ)` in `Proof.A024.A024910`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A024910.P8101714270751029746
@@ -11533,7 +11533,7 @@ end A024933.P1842909169952426940
 
 The programs for A024934, the canonical program `A024934.P986363156688133824` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024934 has offset 0).
 
-The definition of A024934 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A105221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A024934 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A024934.P986363156688133824

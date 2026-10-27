@@ -3203,7 +3203,7 @@ end A190634.P9470827447974622049
 
 The programs for A190636, the canonical program `A190636.P11228244547234411370` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190636 has offset 1).
 
-The definition of A190636 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A190636 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A190636.anchor (n : ℕ) : (A190636 (n + 1) : ℚ) = ((n + 1) ^ 3 + 3 * (n + 1) ^ 7 : ℚ) / 4` in `Proof.A190.A190636`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A190636.P11228244547234411370

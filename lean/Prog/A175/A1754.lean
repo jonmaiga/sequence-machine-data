@@ -1277,7 +1277,7 @@ end A175415.P13511407312446282804
 
 The programs for A175417, the canonical program `A175417.P5052014933814601224` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175417 has offset 0).
 
-The definition of A175417 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A022559, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A175417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A175417.P5052014933814601224
@@ -1397,6 +1397,12 @@ namespace A175417
 /-- `A005187(n)-(A022559(n)+A000120(n))` -/
 def P5316211731363870587.Spec : Prop :=
   ∀ n, P5316211731363870587.a n = A175417 n
+
+theorem P5316211731363870587.correct : P5316211731363870587.Spec := by
+  intro n
+  simp only [A175417, Nat.add_sub_cancel, A175417.P5316211731363870587.a, A175417.P5052014933814601224.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, A011371, A011371.P12398255777927387864.a, A022559, A022559.P10554250414511796107.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A175417
 
@@ -5316,6 +5322,12 @@ namespace A175455
 /-- `A001008(n+1)*A003418(n+1)*A110566(n+1)` -/
 def P14880270367014897404.Spec : Prop :=
   ∀ n, P14880270367014897404.a n = A175455 (n + 1)
+
+theorem P14880270367014897404.correct : P14880270367014897404.Spec := by
+  intro n
+  simp only [A175455, Nat.add_sub_cancel, A175455.P14880270367014897404.a, A175455.P17277564749251597446.a, A001008, A001008.P14452720140578332173.a, A003418, A003418.P6976248655893080794.a, A025529, A025529.P506781626872594642.a, A110566, A110566.P14389672270171223314.a, A000254, A000254.P9428527937712228311.a, A002805, A002805.P15380155363923936140.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A175455
 

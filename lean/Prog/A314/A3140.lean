@@ -21591,7 +21591,7 @@ end A314097
 /-!
 # A314098: Coordination sequence Gal.6.339.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A314098, the canonical program `A314098.P9077349121147278503` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314098 has offset 0).
+The programs for A314098, the canonical program `A314098.P9077349121147278503` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314098 has offset 0).
 
 The definition of A314098 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2316 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21600,7 +21600,7 @@ The definition of A314098 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-2)-2*a(n-4)+a(n-6)+a(n-7)-a(n-8)` with `a(0)=1, a(1)=5, a(2)=11, a(3)=16, a(4)=20, a(5)=26, a(6)=30, a(7)=34, a(8)=40`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A314098

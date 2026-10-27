@@ -5822,6 +5822,12 @@ namespace A136673
 def P3278093873721837685.Spec : Prop :=
   ∀ n, P3278093873721837685.a n = A136673 n
 
+theorem P3278093873721837685.correct : P3278093873721837685.Spec := by
+  intro n
+  simp only [A136673, Nat.add_sub_cancel, A136673.P3278093873721837685.a, A136673.P7357129433119909946.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
 end A136673
 
 /-! ## A136673.P5679979097930920205

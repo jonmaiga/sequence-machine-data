@@ -2262,7 +2262,7 @@ end A294115.P12535210394233699393
 
 The programs for A294116, the canonical program `A294116.P16614992146902971364` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294116 has offset 0).
 
-The definition of A294116 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A294116 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A294116.anchor : A294116 0 = 2 ∧ A294116 1 = 21 ∧ ∀ n, A294116 (n + 2) = A294116 (n + 1) + A294116 n` in `Proof.A294.A294116`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A294116.P16614992146902971364
@@ -6843,7 +6843,7 @@ end A294156.P605512300573292649
 
 The programs for A294157, the canonical program `A294157.P6468335115368043153` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294157 has offset 0).
 
-The definition of A294157 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A294157 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A294157.anchor : A294157 0 = 2 ∧ A294157 1 = 8 ∧ ∀ n, A294157 (n + 2) = A294157 (n + 1) + A294157 n` in `Proof.A294.A294157`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A294157.P6468335115368043153

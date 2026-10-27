@@ -8791,7 +8791,7 @@ end A049558.P18154848728258712928
 
 The programs for A049559, the canonical program `A049559.P6342530742529976710` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049559 has offset 1).
 
-The definition of A049559 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A049559 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(n, A000010(n+1))` (program `A049559.P6342530742529976710`, by `A049559.P6342530742529976710.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A049559.P3255900488395573109
@@ -8856,6 +8856,12 @@ namespace A049559
 /-- `n+1-A318827(n+1)` -/
 def P14738370219306211332.Spec : Prop :=
   ∀ n, P14738370219306211332.a n = A049559 (n + 1)
+
+theorem P14738370219306211332.correct : P14738370219306211332.Spec := by
+  intro n
+  simp only [A049559, Nat.add_sub_cancel, A049559.P14738370219306211332.a, A049559.P6342530742529976710.a, A000010, A000010.P4673923239450215316.a, A318827, A318827.P912740374414188072.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A049559
 
@@ -14953,7 +14959,7 @@ end A049585
 
 The programs for A049586, the canonical program `A049586.P5434218238322190531` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049586 has offset 0).
 
-The definition of A049586 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A049586 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A049586.P5434218238322190531

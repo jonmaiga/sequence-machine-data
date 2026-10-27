@@ -4491,7 +4491,7 @@ end A109249
 /-!
 # A109250: Self-inverse integer permutation induced by Beatty sequences for 1+sqrt(2) and 1+1/sqrt(2).
 
-The programs for A109250, the canonical program `A109250.P6190560470805892054` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109250 has offset 1).
+The programs for A109250, the canonical program `A109250.P6190560470805892054` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109250 has offset 1).
 
 The definition of A109250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4500,7 +4500,7 @@ The definition of A109250 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A001953(n+1)/A006337(n+1))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109250
@@ -4799,7 +4799,7 @@ end A109253.P2083725008533982627
 
 The programs for A109255, the canonical program `A109255.P9671639298697881659` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109255 has offset 1).
 
-The definition of A109255 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002144, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A109255 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A109255.P9671639298697881659

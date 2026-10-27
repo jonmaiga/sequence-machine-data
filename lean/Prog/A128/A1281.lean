@@ -1711,7 +1711,7 @@ end A128115.P9345184157549757323
 /-!
 # A128116: A128064 * A122432 (unsigned).
 
-The programs for A128116, the canonical program `A128116.P12706371843886189910` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128116 has offset 1).
+The programs for A128116, the canonical program `A128116.P12706371843886189910` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128116 has offset 1).
 
 The definition of A128116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1720,7 +1720,7 @@ The definition of A128116 is `conjectured`: the Lean definition is a formula tha
 
 `A096037(n+1)-A101447(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A128116

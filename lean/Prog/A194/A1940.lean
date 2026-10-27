@@ -701,6 +701,12 @@ namespace A194003
 def P318086938962725034.Spec : Prop :=
   ∀ n, P318086938962725034.a n = A194003 n
 
+theorem P318086938962725034.correct : P318086938962725034.Spec := by
+  intro n
+  simp only [A194003, Nat.add_sub_cancel, A194003.P318086938962725034.a, A194003.P749613088496176937.a, A000007, A000007.P6599383543502402472.a, A193929, A193929.P1130408973914528788.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A194003
 
 /-! ## A194003.P15879354053429221781
@@ -4308,7 +4314,7 @@ end A194038.P15174537584472642368
 
 The programs for A194039, the canonical program `A194039.P14669893716291510677` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194039 has offset 1).
 
-The definition of A194039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023890, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A194039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A194039.P14669893716291510677

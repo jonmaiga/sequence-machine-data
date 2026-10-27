@@ -3827,7 +3827,7 @@ end A381190.P666801245216094422
 
 The programs for A381193, the canonical program `A381193.P5284170118730963565` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381193 has offset 1).
 
-The definition of A381193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A381193 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A381193.anchor (n : ℕ) : (A381193 (n + 1) : ℚ) = (((3 * (n + 1) : ℤ) - 1) * (((n + 1) ^ 4 : ℤ) - (18 * (n + 1) ^ 3 : ℤ) + (179 * (n + 1) ^ 2 : ℤ) - (582 * (n + 1) : ℤ) + 720) : ℚ) / 120` in `Proof.A381.A381193`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A381193.P5284170118730963565
@@ -3892,6 +3892,12 @@ namespace A381194
 /-- `A306905(n+1)+1-A000079(n)` -/
 def P9076999267802851527.Spec : Prop :=
   ∀ n, P9076999267802851527.a n = A381194 (n + 1)
+
+theorem P9076999267802851527.correct : P9076999267802851527.Spec := by
+  intro n
+  simp only [A381194, Nat.add_sub_cancel, A381194.P9076999267802851527.a, A381194.P16466113372331178624.a, A000079, A000079.P10855139691139572931.a, A000225, A000225.P6535533121115206393.a, A306905, A306905.P16718704859846573319.a, A000013, A000013.P13330308426199228881.f1, A000013.P13330308426199228881.a, A056303, A056303.P18308971732008802848.f1, A056303.P18308971732008802848.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A056295, A056295.P9438402425658344231.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381194
 

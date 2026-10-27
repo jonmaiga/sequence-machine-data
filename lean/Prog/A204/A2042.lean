@@ -12920,7 +12920,7 @@ end A204271
 
 The programs for A204272, the canonical program `A204272.P17163550386598823124` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204272 has offset 1).
 
-The definition of A204272 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A204272 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001157(n+1)*A000129(n+1)` (program `A204272.P17163550386598823124`, by `A204272.P17163550386598823124.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A204272.P17163550386598823124
@@ -13095,6 +13095,12 @@ namespace A204272
 /-- `(A067558(n+1)+(n+1)²)*A000129(n+1)` -/
 def P9023705490942235262.Spec : Prop :=
   ∀ n, P9023705490942235262.a n = A204272 (n + 1)
+
+theorem P9023705490942235262.correct : P9023705490942235262.Spec := by
+  intro n
+  simp only [A204272, Nat.add_sub_cancel, A204272.P9023705490942235262.a, A204272.P17163550386598823124.a, A000129, A000129.P3563729298025900801.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A067558, A067558.P16712056113848255202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A204272
 
@@ -13336,7 +13342,7 @@ end A204272
 
 The programs for A204273, the canonical program `A204273.P7938292393472508095` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204273 has offset 1).
 
-The definition of A204273 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001158, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A204273 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001158(n+1)*A000129(n+1)` (program `A204273.P7938292393472508095`, by `A204273.P7938292393472508095.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A204273.P7938292393472508095

@@ -4774,7 +4774,7 @@ end A172339.P14236204525744897093
 
 The programs for A172340, the canonical program `A172340.P16130337919900700311` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172340 has offset 1).
 
-The definition of A172340 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A172340 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A172340.anchor (n : ℕ) : (A172340 (n + 1) : ℚ) = (((2 ^ (n + 1) + 1) ^ (n + 1) : ℤ) - ((2 ^ (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ) / 2` in `Proof.A172.A172340`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A172340.P16130337919900700311
@@ -4797,7 +4797,7 @@ end A172340
 
 The programs for A172341, the canonical program `A172341.P14019343316806849403` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172341 has offset 1).
 
-The definition of A172341 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A172341 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A172341.anchor (n : ℕ) : (A172341 (n + 1) : ℚ) = (((2 ^ (n + 1) + 1) ^ (n + 1) : ℤ) + ((2 ^ (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ) / 2` in `Proof.A172.A172341`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A172341.P14019343316806849403

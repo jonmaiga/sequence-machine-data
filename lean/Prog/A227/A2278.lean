@@ -5825,7 +5825,7 @@ end A227861.P1755504275666062337
 
 The programs for A227863, the canonical program `A227863.P3190604365112794420` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227863 has offset 1).
 
-The definition of A227863 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A227863 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A227863.anchor (n : ℕ) (hn : 1 ≤ n) : A227863 n = (Nat.nth (fun k => k % 120 ∈ ({1, 49} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A227.A227863`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A227863.P3190604365112794420

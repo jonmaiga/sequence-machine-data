@@ -17,4 +17,8 @@ theorem roundAway_div_of_eq (x : ℚ) (d : ℚ) (z : ℤ) (hd : d ≠ 0) (h : x 
     SequenceMachineLib.roundAway (x / d) = z := by
   rw [h, mul_div_cancel_right₀ _ hd, roundAway_intCast]
 
+/-- An integer power with a nonnegative exponent is a natural power. -/
+theorem zpow_eq_pow_toNat {α : Type*} [DivisionRing α] (b : α) (z : ℤ) (h : 0 ≤ z) : b ^ z = b ^ z.toNat := by
+  rw [← zpow_natCast, Int.toNat_of_nonneg h]
+
 end SequenceProof

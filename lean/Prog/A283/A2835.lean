@@ -4729,7 +4729,7 @@ end A283550.P7708725266226261192
 
 The programs for A283551, the canonical program `A283551.P5575617590734609024` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283551 has offset 0).
 
-The definition of A283551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A283551 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A283551.anchor (n : ℕ) : (A283551 n : ℚ) = -1 + (5 * n : ℚ) / 6 + (n ^ 3 : ℚ) / 6` in `Proof.A283.A283551`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A283551.P5575617590734609024

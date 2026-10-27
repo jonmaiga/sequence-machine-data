@@ -4296,7 +4296,7 @@ end A144550
 
 The programs for A144551, the canonical program `A144551.P9471989750803673522` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144551 has offset 1).
 
-The definition of A144551 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A144551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A144551.P9471989750803673522
@@ -6611,7 +6611,7 @@ end A144569.P12047160476311384874
 
 The programs for A144570, the canonical program `A144570.P11118034758568014224` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144570 has offset 1).
 
-The definition of A144570 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A144570 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A144570.P11118034758568014224
@@ -6653,6 +6653,12 @@ namespace A144570
 /-- `A007821(n+1)-A168271(n+1)` -/
 def P2602753272453203260.Spec : Prop :=
   ∀ n, P2602753272453203260.a n = A144570 (n + 1)
+
+theorem P2602753272453203260.correct : P2602753272453203260.Spec := by
+  intro n
+  simp only [A144570, Nat.add_sub_cancel, A144570.P2602753272453203260.a, A144570.P11118034758568014224.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007821, A007821.P9323765795172173596.a, A141468, A141468.P3389662916050695948.f1, A141468.P3389662916050695948.a, A168271, A168271.P11427339168696885429.a, A018252, A018252.P16557407491482004301.f1, A018252.P16557407491482004301.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A144570
 
@@ -7360,7 +7366,7 @@ end A144572.P6090701365732010493
 
 The programs for A144573, the canonical program `A144573.P389422865237897508` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144573 has offset 1).
 
-The definition of A144573 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, A141468, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A144573 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A144573.P389422865237897508
@@ -8706,7 +8712,7 @@ end A144586.P16684703362214412944
 
 The programs for A144589, the canonical program `A144589.P2941130942787243636` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144589 has offset 1).
 
-The definition of A144589 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A144570, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A144589 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A144589.P2941130942787243636

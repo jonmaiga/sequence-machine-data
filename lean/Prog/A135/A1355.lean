@@ -8999,7 +8999,7 @@ end A135536
 
 The programs for A135537, the canonical program `A135537.P16434255838924037214` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135537 has offset 0).
 
-The definition of A135537 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A135537 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A135537.anchor (n : ℕ) : A135537 n = (([7, 5, 2, 4].getD (n % 4) 0 : ℕ) : ℤ)` in `Proof.A135.A135537`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A135537.P16434255838924037214

@@ -55,6 +55,7 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -167,7 +168,7 @@ end A109001
 /-!
 # A109002: Maximal difference between two n-digit numbers.
 
-The programs for A109002, the canonical program `A109002.P16848678298124710293` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109002 has offset 1).
+The programs for A109002, the canonical program `A109002.P16848678298124710293` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109002 has offset 1).
 
 The definition of A109002 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -176,7 +177,7 @@ The definition of A109002 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11*a(n-1)-10*a(n-2)` with `a(0)=9, a(1)=89, a(2)=899`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A109002
@@ -428,7 +429,7 @@ end A109003.P10445743148286829030
 /-!
 # A109004: Table of gcd(n, m) read by antidiagonals, n >= 0, m >= 0.
 
-The programs for A109004, the canonical program `A109004.P10845233505462579827` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109004 has offset 0).
+The programs for A109004, the canonical program `A109004.P10845233505462579827` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109004 has offset 0).
 
 The definition of A109004 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -437,7 +438,7 @@ The definition of A109004 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `gcd(col(n), row(n))`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A109004

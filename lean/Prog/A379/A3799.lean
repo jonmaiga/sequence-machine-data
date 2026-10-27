@@ -943,6 +943,12 @@ namespace A379921
 def P3304263713983643731.Spec : Prop :=
   ∀ n, P3304263713983643731.a n = A379921 (n + 1)
 
+theorem P3304263713983643731.correct : P3304263713983643731.Spec := by
+  intro n
+  simp only [A379921, Nat.add_sub_cancel, A379921.P3304263713983643731.f1, A379921.P3304263713983643731.a, A379921.P2332222602136164390.f2, A379921.P2332222602136164390.f1, A379921.P2332222602136164390.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A379921
 
 /-! ## A379921.P14516701832760052408
@@ -3511,7 +3517,7 @@ end A379965
 
 The programs for A379966, the canonical program `A379966.P12699400935038257798` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379966 has offset 1).
 
-The definition of A379966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A292273, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A379966 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A379966.P12699400935038257798
@@ -4206,6 +4212,12 @@ namespace A379967
 /-- `A003415(A076332(n+1)-A007947(n+1))` -/
 def P11291737161802655163.Spec : Prop :=
   ∀ n, P11291737161802655163.a n = A379967 (n + 1)
+
+theorem P11291737161802655163.correct : P11291737161802655163.Spec := by
+  intro n
+  simp only [A379967, Nat.add_sub_cancel, A379967.P11291737161802655163.a, A379967.P12250939003195279045.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A076332, A076332.P10547228136457690679.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, A000010, A000010.P4673923239450215316.a, A349394, A349394.P210516795435731064.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A379967
 

@@ -4714,7 +4714,7 @@ end A264447
 
 The programs for A264448, the canonical program `A264448.P10052184330128183376` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264448 has offset 0).
 
-The definition of A264448 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A264448 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A264448.anchor (n : ℕ) : (A264448 n : ℚ) = (n * (n + 11) * (n + 22) * (n + 33) : ℚ) / 24` in `Proof.A264.A264448`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A264448.P10052184330128183376
@@ -4737,7 +4737,7 @@ end A264448
 
 The programs for A264449, the canonical program `A264449.P5910090040537304062` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264449 has offset 0).
 
-The definition of A264449 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A264449 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A264449.anchor (n : ℕ) : (A264449 n : ℚ) = (n * (n + 7) * (n + 14) * (n + 21) * (n + 28) : ℚ) / 120` in `Proof.A264.A264449`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A264449.P5910090040537304062
@@ -4760,7 +4760,7 @@ end A264449
 
 The programs for A264450, the canonical program `A264450.P5918982435056207342` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264450 has offset 0).
 
-The definition of A264450 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A264450 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A264450.anchor (n : ℕ) : (A264450 n : ℚ) = (n * (n + 11) * (n + 22) * (n + 33) * (n + 44) : ℚ) / 120` in `Proof.A264.A264450`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A264450.P5918982435056207342

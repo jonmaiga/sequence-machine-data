@@ -7457,7 +7457,7 @@ end A293427
 
 The programs for A293428, the canonical program `A293428.P2335168149116602808` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293428 has offset 0).
 
-The definition of A293428 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A107078, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A293428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A293428.P2335168149116602808
@@ -7530,7 +7530,7 @@ end A293428
 
 The programs for A293429, the canonical program `A293429.P15331438234440877435` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293429 has offset 0).
 
-The definition of A293429 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A293429 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+A008966(4*n-1)-A008966(4*n+1)` (program `A293429.P15331438234440877435`, by `A293429.P15331438234440877435.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A293429.P15331438234440877435
@@ -9094,6 +9094,12 @@ namespace A293439
 def P8444604292319366069.Spec : Prop :=
   ∀ n, P8444604292319366069.a n = A293439 (n + 1)
 
+theorem P8444604292319366069.correct : P8444604292319366069.Spec := by
+  intro n
+  simp only [A293439, Nat.add_sub_cancel, A293439.P8444604292319366069.a, A293439.P5122133940352064495.f1, A293439.P5122133940352064495.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A010060, A010060.P3080921269106500717.a, A367512, A367512.P6814161711481593875.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A293439
 
 /-! ## A293439.P6814803019573379840
@@ -9672,7 +9678,7 @@ end A293441.P11492703110456633151
 
 The programs for A293442, the canonical program `A293442.P10456637239250951956` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293442 has offset 1).
 
-The definition of A293442 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A003961, A162642, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A293442 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A293442.P7099177626130185984

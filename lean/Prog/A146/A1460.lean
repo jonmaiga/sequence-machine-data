@@ -4531,7 +4531,7 @@ end A146075.P11876660774790922518
 
 The programs for A146076, the canonical program `A146076.P5513778411624192836` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146076 has offset 1).
 
-The definition of A146076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A146076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A146076.P5513778411624192836
@@ -4969,6 +4969,12 @@ namespace A146076
 def P1543185905992943913.Spec : Prop :=
   ∀ n, P1543185905992943913.a n = A146076 (n + 1)
 
+theorem P1543185905992943913.correct : P1543185905992943913.Spec := by
+  intro n
+  simp only [A146076, Nat.add_sub_cancel, A146076.P1543185905992943913.a, A146076.P5513778411624192836.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A000593, A000593.P10331878810394225172.f1, A000593.P10331878810394225172.a, A326050, A326050.P4515014402688933711.a, A326052, A326052.P4438226606935639787.a, A050452, A050452.P8848155708238405563.a, A082052, A082052.P17956952017327585217.f1, A082052.P17956952017327585217.a, A050449, A050449.P3812122387069373176.f1, A050449.P3812122387069373176.a, A166486, A166486.P13501783531280266850.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A146076
 
 /-! ## A146076.P9518379735627848015
@@ -4991,6 +4997,12 @@ namespace A146076
 /-- `A000593(n+1)-A002129(n+1)` -/
 def P9518379735627848015.Spec : Prop :=
   ∀ n, P9518379735627848015.a n = A146076 (n + 1)
+
+theorem P9518379735627848015.correct : P9518379735627848015.Spec := by
+  intro n
+  simp only [A146076, Nat.add_sub_cancel, A146076.P9518379735627848015.a, A146076.P5513778411624192836.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A000593, A000593.P10331878810394225172.f1, A000593.P10331878810394225172.a, A002129, A002129.P14132575705783117531.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A146076
 
@@ -5121,7 +5133,7 @@ end A146078
 
 The programs for A146079, the canonical program `A146079.P6492804251308497016` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146079 has offset 0).
 
-The definition of A146079 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A146079 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A146079.anchor (n : ℕ) : A146079 n = (([2, 4, 8, 5, 4, 5, 8, 4, 2].getD (n % 9) 0 : ℕ) : ℤ)` in `Proof.A146.A146079`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A146079.P6492804251308497016

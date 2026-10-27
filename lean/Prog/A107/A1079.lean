@@ -2747,7 +2747,7 @@ end A107907
 
 The programs for A107908, the canonical program `A107908.P16497855880628271054` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107908 has offset 0).
 
-The definition of A107908 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107908 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107908.anchor (n : ℕ) : (A107908 n : ℚ) = ((n + 1) * (n + 2) ^ 2 * (n + 3) ^ 2 * (n + 4) * (3 * n + 5) : ℚ) / 720` in `Proof.A107.A107908`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107908.P16497855880628271054
@@ -7876,7 +7876,7 @@ end A107958
 
 The programs for A107959, the canonical program `A107959.P10341362667604094017` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107959 has offset 0).
 
-The definition of A107959 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107959 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107959.anchor (n : ℕ) : (A107959 n : ℚ) = ((n + 1) * (n + 2) ^ 2 * (n + 3) ^ 2 * (n + 4) * (n ^ 2 + 5 * n + 5) : ℚ) / 720` in `Proof.A107.A107959`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107959.P10341362667604094017
@@ -8747,7 +8747,7 @@ end A107961.P5638043710930399191
 
 The programs for A107962, the canonical program `A107962.P12316333078426038034` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107962 has offset 0).
 
-The definition of A107962 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107962 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107962.anchor (n : ℕ) : (A107962 n : ℚ) = ((n + 1) * (n + 2) ^ 2 * (n + 3) * (n + 4) * (5 * n ^ 2 + 18 * n + 15) : ℚ) / 720` in `Proof.A107.A107962`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107962.P12316333078426038034
@@ -8963,7 +8963,7 @@ end A107962
 
 The programs for A107963, the canonical program `A107963.P15253967593779213479` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107963 has offset 0).
 
-The definition of A107963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107963 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107963.anchor (n : ℕ) : (A107963 n : ℚ) = ((n + 1) * (n + 2) * (n + 3) * (n + 4) * (5 * n ^ 2 + 19 * n + 15) : ℚ) / 360` in `Proof.A107.A107963`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107963.P15253967593779213479
@@ -10027,7 +10027,7 @@ end A107968
 
 The programs for A107969, the canonical program `A107969.P2529055249569877253` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107969 has offset 0).
 
-The definition of A107969 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107969 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107969.anchor (n : ℕ) : (A107969 n : ℚ) = ((n + 1) * (n + 2) ^ 2 * (n + 3) * (2 * n + 3) * (5 * n ^ 2 + 19 * n + 20) : ℚ) / 720` in `Proof.A107.A107969`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107969.P2529055249569877253
@@ -10165,7 +10165,7 @@ end A107969
 
 The programs for A107970, the canonical program `A107970.P13359431254483457399` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107970 has offset 0).
 
-The definition of A107970 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107970 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107970.anchor (n : ℕ) : (A107970 n : ℚ) = ((n + 1) * (n + 2) ^ 3 * (n + 3) * (2 * n + 3) * (2 * n + 5) : ℚ) / 360` in `Proof.A107.A107970`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107970.P13359431254483457399
@@ -10303,7 +10303,7 @@ end A107970
 
 The programs for A107971, the canonical program `A107971.P15452603625607884186` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107971 has offset 0).
 
-The definition of A107971 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107971 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107971.anchor (n : ℕ) : (A107971 n : ℚ) = ((n + 1) * (n + 2) * (n + 3) * (35 * n ^ 3 + 153 * n ^ 2 + 232 * n + 120) : ℚ) / 720` in `Proof.A107.A107971`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107971.P15452603625607884186
@@ -14402,7 +14402,7 @@ end A107993.P16178169796052996402
 
 The programs for A107994, the canonical program `A107994.P14297671034442261939` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107994 has offset 1).
 
-The definition of A107994 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141856, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A107994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A107994.P14297671034442261939

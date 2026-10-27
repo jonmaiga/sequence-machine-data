@@ -5304,7 +5304,7 @@ end A141129
 
 The programs for A141130, the canonical program `A141130.P15115507160674459778` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141130 has offset 0).
 
-The definition of A141130 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141130 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A000040(A000040(A000040(A000040(A028815(n)-1)-1)-1)-1)-1)-1` (program `A141130.P15115507160674459778`, by `A141130.P15115507160674459778.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141130.P15115507160674459778
@@ -5490,7 +5490,7 @@ end A141130
 
 The programs for A141132, the canonical program `A141132.P16379204966305241626` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141132 has offset 0).
 
-The definition of A141132 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141132 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A000040(A000040(A000040(A028815(n)-1)-1)-1)-1)-1` (program `A141132.P16379204966305241626`, by `A141132.P16379204966305241626.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141132.P16379204966305241626
@@ -5650,7 +5650,7 @@ end A141132
 
 The programs for A141133, the canonical program `A141133.P13051906493185686307` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141133 has offset 0).
 
-The definition of A141133 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141133 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A000040(A000040(A028815(n)-1)-1)-1)-1` (program `A141133.P13051906493185686307`, by `A141133.P13051906493185686307.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141133.P13051906493185686307
@@ -6088,7 +6088,7 @@ end A141135.P16009033194980032188
 
 The programs for A141136, the canonical program `A141136.P10009492963449235360` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141136 has offset 0).
 
-The definition of A141136 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141136 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A000040(A028815(n)-1)-1)-1` (program `A141136.P10009492963449235360`, by `A141136.P10009492963449235360.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141136.P10009492963449235360
@@ -6427,7 +6427,7 @@ end A141136
 
 The programs for A141138, the canonical program `A141138.P7125824368820176257` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141138 has offset 0).
 
-The definition of A141138 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141138 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A028815(n)-1)-1` (program `A141138.P7125824368820176257`, by `A141138.P7125824368820176257.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141138.P7125824368820176257
@@ -19370,7 +19370,7 @@ end A141193.P3021047351964714719
 
 The programs for A141194, the canonical program `A141194.P3921873644654613885` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141194 has offset 1).
 
-The definition of A141194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9832 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A141194 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A141194.anchor (n : ℕ) (hn : 1 ≤ n) : A141194 n = (Nat.nth (fun p => p.Prime ∧ p % 16 = 7) (n - 1) : ℤ)` in `Proof.A141.A141194`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141194.P3921873644654613885
@@ -19933,7 +19933,7 @@ end A141194
 
 The programs for A141195, the canonical program `A141195.P9133799144925653088` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141195 has offset 1).
 
-The definition of A141195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9815 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A141195 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A141195.anchor (n : ℕ) (hn : 1 ≤ n) : A141195 n = (Nat.nth (fun p => p.Prime ∧ p % 16 = 11) (n - 1) : ℤ)` in `Proof.A141.A141195`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141195.P9133799144925653088
@@ -20530,7 +20530,7 @@ end A141195
 
 The programs for A141196, the canonical program `A141196.P13853549410394302553` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141196 has offset 1).
 
-The definition of A141196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9807 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A141196 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A141196.anchor (n : ℕ) (hn : 1 ≤ n) : A141196 n = (Nat.nth (fun p => p.Prime ∧ p % 16 = 13) (n - 1) : ℤ)` in `Proof.A141.A141196`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141196.P13853549410394302553

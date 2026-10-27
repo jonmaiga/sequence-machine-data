@@ -30,7 +30,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -503,7 +502,7 @@ end A072805
 
 The programs for A072806, the canonical program `A072806.P3541746247059658521` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072806 has offset 1).
 
-The definition of A072806 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007091, A007528, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A072806 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007091, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A072806.P3541746247059658521
@@ -4261,6 +4260,12 @@ namespace A072831
 /-- `A055529(n)+A011371(n)` -/
 def P16834330861416430778.Spec : Prop :=
   ∀ n, P16834330861416430778.a n = A072831 n
+
+theorem P16834330861416430778.correct : P16834330861416430778.Spec := by
+  intro n
+  simp only [A072831, Nat.add_sub_cancel, A072831.P16834330861416430778.a, A072831.P2075451572801131696.a, A011371, A011371.P12398255777927387864.a, A055529, A055529.P12508370460568413740.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A072831
 

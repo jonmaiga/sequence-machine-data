@@ -2540,7 +2540,7 @@ end A350049.P4712165224340699109
 
 The programs for A350050, the canonical program `A350050.P14525690482896302436` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350050 has offset 0).
 
-The definition of A350050 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A350050 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A350050.anchor (n : ℕ) : (A350050 n : ℚ) = ((2 * n ^ 4 : ℤ) - 6 * (-1) ^ n * (n ^ 2 : ℤ) - (2 * n ^ 2 : ℤ) + 3 * (-1) ^ n - 3 : ℚ) / 96` in `Proof.A350.A350050`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A350050.P14525690482896302436

@@ -5257,7 +5257,7 @@ end A336550.P7479067532757000035
 
 The programs for A336551, the canonical program `A336551.P8666843674191054020` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336551 has offset 1).
 
-The definition of A336551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A336551 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A003557(n+1)-1` (program `A336551.P8666843674191054020`, by `A336551.P8666843674191054020.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A336551.P8666843674191054020
@@ -7142,7 +7142,7 @@ end A336562.P552665418944401605
 
 The programs for A336563, the canonical program `A336563.P9984757365447373313` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336563 has offset 1).
 
-The definition of A336563 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A336567, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A336563 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A336563.P1098058225893454660
@@ -7536,6 +7536,12 @@ namespace A336563
 def P16228725708771012373.Spec : Prop :=
   ∀ n, P16228725708771012373.a n = A336563 (n + 1)
 
+theorem P16228725708771012373.correct : P16228725708771012373.Spec := by
+  intro n
+  simp only [A336563, Nat.add_sub_cancel, A336563.P16228725708771012373.a, A336563.P9984757365447373313.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A335341, A335341.P15141081390874697399.a, A336567, A336567.P8607660645956000214.a, A047994, A047994.P3003493197761739884.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A336563
 
 /-! ## A336563.P9093519188246037768
@@ -7752,6 +7758,12 @@ namespace A336564
 /-- `A389170(n+1)-A034460(n+1)` -/
 def P8675749467491847151.Spec : Prop :=
   ∀ n, P8675749467491847151.a n = A336564 (n + 1)
+
+theorem P8675749467491847151.correct : P8675749467491847151.Spec := by
+  intro n
+  simp only [A336564, Nat.add_sub_cancel, A336564.P8675749467491847151.a, A336564.P7523591857433776956.a, A034460, A034460.P1958235575820581513.a, A308135, A308135.P17632068956087446165.a, A389170, A389170.P11666675562721126669.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A048146, A048146.P9985884013456677192.a, A057723, A057723.P9092718560045484766.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A336564
 
@@ -8294,7 +8306,7 @@ end A336566
 
 The programs for A336567, the canonical program `A336567.P8607660645956000214` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336567 has offset 1).
 
-The definition of A336567 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A335341, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A336567 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A336567.P16377504151011776375

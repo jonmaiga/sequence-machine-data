@@ -3247,7 +3247,7 @@ end A100111
 
 The programs for A100112, the canonical program `A100112.P5701663947279075001` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100112 has offset 1).
 
-The definition of A100112 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A013928, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A100112 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013928, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A100112.P5701663947279075001
@@ -3419,6 +3419,12 @@ namespace A100112
 /-- `A008966(n+1)*A107079(n+1)` -/
 def P15812180239222212775.Spec : Prop :=
   ∀ n, P15812180239222212775.a n = A100112 (n + 1)
+
+theorem P15812180239222212775.correct : P15812180239222212775.Spec := by
+  intro n
+  simp only [A100112, Nat.add_sub_cancel, A100112.P15812180239222212775.a, A100112.P5701663947279075001.a, A008966, A008966.P18444031257857153223.f1, A008966.P18444031257857153223.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, A107079, A107079.P8145768499534566836.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A100112
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -75,6 +76,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A299800: Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 4, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
@@ -1875,7 +1880,7 @@ end A299821.P3631030413104686533
 
 The programs for A299822, the canonical program `A299822.P17822751971997811856` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299822 has offset 1).
 
-The definition of A299822 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A299822 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000010(n+1)*A007947(n+1)` (program `A299822.P17822751971997811856`, by `A299822.P17822751971997811856.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A299822.P5516141074735190287
@@ -2291,6 +2296,12 @@ namespace A299822
 /-- `(A109606(n+1)+1)*A007947(n+1)` -/
 def P7308994604630900482.Spec : Prop :=
   ∀ n, P7308994604630900482.a n = A299822 (n + 1)
+
+theorem P7308994604630900482.correct : P7308994604630900482.Spec := by
+  intro n
+  simp only [A299822, Nat.add_sub_cancel, A299822.P7308994604630900482.a, A299822.P17822751971997811856.a, A000010, A000010.P4673923239450215316.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A299822
 

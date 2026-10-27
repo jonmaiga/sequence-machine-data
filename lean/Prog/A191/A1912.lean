@@ -11658,7 +11658,7 @@ end A191274.P620810130279239675
 
 The programs for A191275, the canonical program `A191275.P11393128651894986378` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191275 has offset 1).
 
-The definition of A191275 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A191275 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A191275.anchor (n : ℕ) (hn : 1 ≤ n) : A191275 n = (Nat.nth (fun k => k % 12 ∈ ({0, 1, 3, 5, 7, 9, 11} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A191.A191275`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A191275.P11393128651894986378

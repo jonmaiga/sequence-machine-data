@@ -6685,7 +6685,7 @@ end A259075.P5176415721183272642
 
 The programs for A259076, the canonical program `A259076.P15529394902504511682` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259076 has offset 0).
 
-The definition of A259076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A259076 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A259076.anchor (n : ℕ) : A259076 n = 80 ^ n` in `Proof.A259.A259076`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A259076.P15529394902504511682

@@ -13719,7 +13719,7 @@ end A244894.P1763853249085605361
 /-!
 # A244895: Period 5: repeat [0, 1, 1, -1, -1].
 
-The programs for A244895, the canonical program `A244895.P7331689240937634665` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244895 has offset 0).
+The programs for A244895, the canonical program `A244895.P7331689240937634665` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244895 has offset 0).
 
 The definition of A244895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13728,7 +13728,7 @@ The definition of A244895 is `conjectured`: the Lean definition is a formula tha
 
 `round(-cos((n+2)%5))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A244895

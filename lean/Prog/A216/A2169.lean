@@ -4084,6 +4084,12 @@ namespace A216954
 def P12040134203700312124.Spec : Prop :=
   ∀ n, P12040134203700312124.a n = (A216954 (n + 1) : ℚ)
 
+theorem P12040134203700312124.correct : P12040134203700312124.Spec := by
+  intro n
+  simp only [A216954, Nat.add_sub_cancel, A216954.P12040134203700312124.a, A216954.P1085504788512225851.f1, A216954.P1085504788512225851.a, A127093, A127093.P1089623250187861217.a, A216953, A216953.P10903731901757870173.f1, A216953.P10903731901757870173.a, A296302, A296302.P8637239320253714587.f1, A296302.P8637239320253714587.a, A034771, A034771.P14136708575511469544.f1, A034771.P14136708575511469544.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A034729, A034729.P14831145742905992677.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A055895, A055895.P2077075893561003355.f1, A055895.P2077075893561003355.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A216954
 
 /-! ## A216954.P17438206343348006111
@@ -6178,7 +6184,7 @@ end A216969.P1787638007193694519
 
 The programs for A216970, the canonical program `A216970.P7935546219236162330` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216970 has offset 1).
 
-The definition of A216970 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A216970 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A216970.anchor (n : ℕ) (hn : 1 ≤ n) : A216970 n = (Nat.nth (fun p => p.Prime ∧ p % 37 = 1) (n - 1) : ℤ)` in `Proof.A216.A216970`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A216970.P7935546219236162330

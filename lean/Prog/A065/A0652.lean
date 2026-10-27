@@ -795,7 +795,7 @@ end A065201
 
 The programs for A065202, the canonical program `A065202.P5763603207858660054` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065202 has offset 1).
 
-The definition of A065202 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051119, A107078, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065202 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051119, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A065202.P5763603207858660054

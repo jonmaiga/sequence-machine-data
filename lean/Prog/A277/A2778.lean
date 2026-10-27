@@ -11769,7 +11769,7 @@ end A277891.P5051890545283914469
 
 The programs for A277892, the canonical program `A277892.P15975992819171420890` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277892 has offset 2).
 
-The definition of A277892 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A048675, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A277892 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048675, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A277892.P15975992819171420890

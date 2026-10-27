@@ -947,6 +947,12 @@ namespace A105020
 def P3078681125367056060.Spec : Prop :=
   ∀ n, P3078681125367056060.a n = A105020 n
 
+theorem P3078681125367056060.correct : P3078681125367056060.Spec := by
+  intro n
+  simp only [A105020, Nat.add_sub_cancel, A105020.P3078681125367056060.a, A105020.P13422593106926396251.a, A002260, A002260.P9170571874073898642.a, A059036, A059036.P14090632459187506294.a, A081493, A081493.P4701708159405145004.a, A141418, A141418.P4080118135524004049.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A105020
 
 /-! ## A105020.P7615975207685171516

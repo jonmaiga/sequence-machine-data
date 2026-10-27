@@ -14728,6 +14728,12 @@ namespace A127779
 def P1540450219730438505.Spec : Prop :=
   ∀ n, P1540450219730438505.a n = A127779 (n + 1)
 
+theorem P1540450219730438505.correct : P1540450219730438505.Spec := by
+  intro n
+  simp only [A127779, Nat.add_sub_cancel, A127779.P1540450219730438505.a, A127779.P6962824600330842233.a, A086271, A086271.P16008910328647451104.a, A094053, A094053.P7632435431613033853.a, A129312, A129312.P198002191961826283.a, A139601, A139601.P14717086239868575484.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A127779
 
 /-! ## A127779.P6962824600330842233

@@ -1632,6 +1632,12 @@ namespace A132630
 def P18200454106030574402.Spec : Prop :=
   ∀ n, P18200454106030574402.a n = A132630 (n + 1)
 
+theorem P18200454106030574402.correct : P18200454106030574402.Spec := by
+  intro n
+  simp only [A132630, Nat.add_sub_cancel, A132630.P18200454106030574402.f1, A132630.P18200454106030574402.a, A132630.P11928070417678431762.f1, A132630.P11928070417678431762.a, A033879, A033879.P5965131822542929609.a, A033880, A033880.P6005875780263802708.a, A070010, A070010.P5053100523494625955.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A132630
 
 /-! ## A132630.P2306606846874019616
@@ -2776,7 +2782,7 @@ end A132636
 
 The programs for A132637, the canonical program `A132637.P17118528607186897140` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132637 has offset 1).
 
-The definition of A132637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A132637 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A132637.P17118528607186897140
@@ -4782,7 +4788,7 @@ end A132665
 
 The programs for A132677, the canonical program `A132677.P10492461102840906262` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132677 has offset 0).
 
-The definition of A132677 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132677 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132677.anchor (n : ℕ) : A132677 n = [1, 2, -3].getD (n % 3) 0` in `Proof.A132.A132677`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132677.P10492461102840906262

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -86,6 +87,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A300901: Number of closed meanders with 2n crossings and 5 digons.
@@ -1172,6 +1177,12 @@ namespace A300914
 def P4473890495154971218.Spec : Prop :=
   ∀ n, P4473890495154971218.a n = A300914 (n + 1)
 
+theorem P4473890495154971218.correct : P4473890495154971218.Spec := by
+  intro n
+  simp only [A300914, Nat.add_sub_cancel, A300914.P4473890495154971218.f1, A300914.P4473890495154971218.a, A300914.P11875812938548948969.f1, A300914.P11875812938548948969.a, A045763, A045763.P9156243808986750239.a, A046640, A046640.P10355392584185486359.a, A000005, A000005.P16091521709108585461.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A300914
 
 /-! ## A300914.P11067356295947623719
@@ -1273,6 +1284,12 @@ namespace A300914
 def P680081805312017732.Spec : Prop :=
   ∀ n, P680081805312017732.a n = A300914 (n + 1)
 
+theorem P680081805312017732.correct : P680081805312017732.Spec := by
+  intro n
+  simp only [A300914, Nat.add_sub_cancel, A300914.P680081805312017732.f1, A300914.P680081805312017732.a, A300914.P11875812938548948969.f1, A300914.P11875812938548948969.a, A046640, A046640.P10355392584185486359.a, A049820, A049820.P9428372222244335888.a, A109606, A109606.P2415810041766612210.a, A000005, A000005.P16091521709108585461.a, A000010, A000010.P4673923239450215316.a, A045763, A045763.P9156243808986750239.a, A003557, A003557.P6364735403900941810.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A300914
 
 /-! ## A300914.P7003854256775441000
@@ -1325,6 +1342,12 @@ namespace A300914
 def P9729849597509497775.Spec : Prop :=
   ∀ n, P9729849597509497775.a n = A300914 (n + 1)
 
+theorem P9729849597509497775.correct : P9729849597509497775.Spec := by
+  intro n
+  simp only [A300914, Nat.add_sub_cancel, A300914.P9729849597509497775.f1, A300914.P9729849597509497775.a, A300914.P11875812938548948969.f1, A300914.P11875812938548948969.a, A000005, A000005.P16091521709108585461.a, A046640, A046640.P10355392584185486359.a, A109606, A109606.P2415810041766612210.a, A000010, A000010.P4673923239450215316.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A045763, A045763.P9156243808986750239.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A300914
 
 /-!
@@ -1332,7 +1355,7 @@ end A300914
 
 The programs for A300915, the canonical program `A300915.P2814181824402378078` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300915 has offset 1).
 
-The definition of A300915 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000056, A060594, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A300915 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060594, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A300915.P2814181824402378078

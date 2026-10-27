@@ -669,7 +669,7 @@ end A047201
 
 The programs for A047202, the canonical program `A047202.P12705462691346672858` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047202 has offset 1).
 
-The definition of A047202 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047202 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047202.anchor (n : ℕ) (hn : 1 ≤ n) : A047202 n = (Nat.nth (fun k => k % 5 ∈ ({2, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047202`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047202.P10795991104485636294
@@ -1208,7 +1208,7 @@ end A047202
 
 The programs for A047203, the canonical program `A047203.P9378854928714187791` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047203 has offset 1).
 
-The definition of A047203 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047203 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047203.anchor (n : ℕ) (hn : 1 ≤ n) : A047203 n = (Nat.nth (fun k => k % 5 ∈ ({0, 2, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047203`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047203.P13735473288243021101
@@ -1737,7 +1737,7 @@ end A047203
 
 The programs for A047204, the canonical program `A047204.P10850442423767892952` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047204 has offset 1).
 
-The definition of A047204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047204 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047204.anchor (n : ℕ) (hn : 1 ≤ n) : A047204 n = (Nat.nth (fun k => k % 5 ∈ ({3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047204`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047204.P10850442423767892952
@@ -2209,7 +2209,7 @@ end A047204
 
 The programs for A047205, the canonical program `A047205.P15681585372041631801` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047205 has offset 1).
 
-The definition of A047205 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047205 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047205.anchor (n : ℕ) (hn : 1 ≤ n) : A047205 n = (Nat.nth (fun k => k % 5 ∈ ({0, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047205`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047205.P15681585372041631801
@@ -2752,7 +2752,7 @@ end A047205
 
 The programs for A047206, the canonical program `A047206.P5264832210253127635` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047206 has offset 1).
 
-The definition of A047206 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047206 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047206.anchor (n : ℕ) (hn : 1 ≤ n) : A047206 n = (Nat.nth (fun k => k % 5 ∈ ({1, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047206`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047206.P17899557183025702912
@@ -3265,7 +3265,7 @@ end A047206
 
 The programs for A047207, the canonical program `A047207.P5182596554560112218` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047207 has offset 1).
 
-The definition of A047207 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047207 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047207.anchor (n : ℕ) (hn : 1 ≤ n) : A047207 n = (Nat.nth (fun k => k % 5 ∈ ({0, 1, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047207`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047207.P16224315315479142663
@@ -3791,7 +3791,7 @@ end A047207
 
 The programs for A047208, the canonical program `A047208.P14497428806713299572` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047208 has offset 1).
 
-The definition of A047208 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047208 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047208.anchor (n : ℕ) (hn : 1 ≤ n) : A047208 n = (Nat.nth (fun k => k % 5 ∈ ({0, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047208`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047208.P14497428806713299572
@@ -4309,7 +4309,7 @@ end A047208
 
 The programs for A047209, the canonical program `A047209.P980479515713272986` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047209 has offset 1).
 
-The definition of A047209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047209 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047209.anchor (n : ℕ) (hn : 1 ≤ n) : A047209 n = (Nat.nth (fun k => k % 5 ∈ ({1, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047209`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047209.P980479515713272986
@@ -4962,7 +4962,7 @@ end A047210.P16840929838477763369
 
 The programs for A047211, the canonical program `A047211.P10684365419196022645` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047211 has offset 1).
 
-The definition of A047211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047211 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047211.anchor (n : ℕ) (hn : 1 ≤ n) : A047211 n = (Nat.nth (fun k => k % 5 ∈ ({2, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047211`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047211.P10684365419196022645
@@ -5466,7 +5466,7 @@ end A047211
 
 The programs for A047212, the canonical program `A047212.P2417433116165128359` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047212 has offset 1).
 
-The definition of A047212 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047212 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047212.anchor (n : ℕ) (hn : 1 ≤ n) : A047212 n = (Nat.nth (fun k => k % 5 ∈ ({0, 2, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047212`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047212.P8763313220923354243
@@ -5982,7 +5982,7 @@ end A047212
 
 The programs for A047215, the canonical program `A047215.P13086733239284223739` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047215 has offset 0).
 
-The definition of A047215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047215 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047215.anchor (n : ℕ) : A047215 n = (Nat.nth (fun k => k % 5 ∈ ({0, 2} : Finset ℕ)) (n) : ℤ)` in `Proof.A047.A047215`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047215.P13086733239284223739
@@ -6499,7 +6499,7 @@ end A047215
 
 The programs for A047216, the canonical program `A047216.P8081485729369326129` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047216 has offset 1).
 
-The definition of A047216 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047216 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047216.anchor (n : ℕ) (hn : 1 ≤ n) : A047216 n = (Nat.nth (fun k => k % 5 ∈ ({1, 2} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047216`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047216.P8081485729369326129
@@ -7028,7 +7028,7 @@ end A047216
 
 The programs for A047217, the canonical program `A047217.P5680528817059073200` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047217 has offset 1).
 
-The definition of A047217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047217 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047217.anchor (n : ℕ) (hn : 1 ≤ n) : A047217 n = (Nat.nth (fun k => k % 5 ∈ ({0, 1, 2} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047217`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047217.P5680528817059073200
@@ -7560,7 +7560,7 @@ end A047217
 
 The programs for A047218, the canonical program `A047218.P12362791311827323868` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047218 has offset 1).
 
-The definition of A047218 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047218 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047218.anchor (n : ℕ) (hn : 1 ≤ n) : A047218 n = (Nat.nth (fun k => k % 5 ∈ ({0, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047218`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047218.P12362791311827323868
@@ -8022,7 +8022,7 @@ end A047218
 
 The programs for A047219, the canonical program `A047219.P1237294872039489274` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047219 has offset 1).
 
-The definition of A047219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047219 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047219.anchor (n : ℕ) (hn : 1 ≤ n) : A047219 n = (Nat.nth (fun k => k % 5 ∈ ({1, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047219`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047219.P1237294872039489274
@@ -8476,7 +8476,7 @@ end A047219
 
 The programs for A047220, the canonical program `A047220.P4379332822883347461` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047220 has offset 1).
 
-The definition of A047220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047220 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047220.anchor (n : ℕ) (hn : 1 ≤ n) : A047220 n = (Nat.nth (fun k => k % 5 ∈ ({0, 1, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047220`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047220.P10100594416856096046
@@ -9016,7 +9016,7 @@ end A047220
 
 The programs for A047221, the canonical program `A047221.P6161046790502155535` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047221 has offset 1).
 
-The definition of A047221 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047221 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047221.anchor (n : ℕ) (hn : 1 ≤ n) : A047221 n = (Nat.nth (fun k => k % 5 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047221`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047221.P6161046790502155535
@@ -9525,7 +9525,7 @@ end A047221
 
 The programs for A047222, the canonical program `A047222.P6769316524413247814` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047222 has offset 1).
 
-The definition of A047222 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047222 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047222.anchor (n : ℕ) (hn : 1 ≤ n) : A047222 n = (Nat.nth (fun k => k % 5 ∈ ({0, 2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047222`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047222.P8451883002736698924
@@ -10066,7 +10066,7 @@ end A047222
 
 The programs for A047223, the canonical program `A047223.P7534616584620956338` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047223 has offset 1).
 
-The definition of A047223 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047223 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047223.anchor (n : ℕ) (hn : 1 ≤ n) : A047223 n = (Nat.nth (fun k => k % 5 ∈ ({1, 2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047223`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047223.P7534616584620956338
@@ -10614,7 +10614,7 @@ end A047223
 
 The programs for A047225, the canonical program `A047225.P18263311134364995427` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047225 has offset 1).
 
-The definition of A047225 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047225 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047225.anchor (n : ℕ) (hn : 1 ≤ n) : A047225 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047225`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047225.P18263311134364995427
@@ -11651,7 +11651,7 @@ end A047226
 
 The programs for A047227, the canonical program `A047227.P11666463329436393676` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047227 has offset 1).
 
-The definition of A047227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047227 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047227.anchor (n : ℕ) (hn : 1 ≤ n) : A047227 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047227`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047227.P11666463329436393676
@@ -12163,7 +12163,7 @@ end A047227
 
 The programs for A047228, the canonical program `A047228.P104193079783604670` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047228 has offset 1).
 
-The definition of A047228 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047228 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047228.anchor (n : ℕ) (hn : 1 ≤ n) : A047228 n = (Nat.nth (fun k => k % 6 ∈ ({2, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047228`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047228.P104193079783604670
@@ -12654,7 +12654,7 @@ end A047228
 
 The programs for A047229, the canonical program `A047229.P14164567933214653390` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047229 has offset 1).
 
-The definition of A047229 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047229 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047229.anchor (n : ℕ) (hn : 1 ≤ n) : A047229 n = (Nat.nth (fun k => k % 6 ∈ ({0, 2, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047229`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047229.P6019031539844011426
@@ -13180,7 +13180,7 @@ end A047229
 
 The programs for A047230, the canonical program `A047230.P12586353145580073766` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047230 has offset 1).
 
-The definition of A047230 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047230 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047230.anchor (n : ℕ) (hn : 1 ≤ n) : A047230 n = (Nat.nth (fun k => k % 6 ∈ ({3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047230`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047230.P12586353145580073766
@@ -13713,7 +13713,7 @@ end A047230
 
 The programs for A047231, the canonical program `A047231.P5841339266927411318` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047231 has offset 1).
 
-The definition of A047231 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047231 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047231.anchor (n : ℕ) (hn : 1 ≤ n) : A047231 n = (Nat.nth (fun k => k % 6 ∈ ({0, 3, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047231`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047231.P5841339266927411318
@@ -14231,7 +14231,7 @@ end A047231
 
 The programs for A047233, the canonical program `A047233.P16963656262737619274` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047233 has offset 1).
 
-The definition of A047233 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047233 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047233.anchor (n : ℕ) (hn : 1 ≤ n) : A047233 n = (Nat.nth (fun k => k % 6 ∈ ({0, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047233`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047233.P16963656262737619274
@@ -14759,7 +14759,7 @@ end A047233
 
 The programs for A047234, the canonical program `A047234.P14533108991925136628` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047234 has offset 1).
 
-The definition of A047234 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047234 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047234.anchor (n : ℕ) (hn : 1 ≤ n) : A047234 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047234`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047234.P14533108991925136628
@@ -15274,7 +15274,7 @@ end A047234
 
 The programs for A047235, the canonical program `A047235.P5560758299185322021` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047235 has offset 1).
 
-The definition of A047235 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047235 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047235.anchor (n : ℕ) (hn : 1 ≤ n) : A047235 n = (Nat.nth (fun k => k % 6 ∈ ({2, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047235`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047235.P5560758299185322021
@@ -15796,7 +15796,7 @@ end A047235
 
 The programs for A047236, the canonical program `A047236.P292911758985986532` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047236 has offset 1).
 
-The definition of A047236 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047236 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047236.anchor (n : ℕ) (hn : 1 ≤ n) : A047236 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047236`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047236.P292911758985986532
@@ -16318,7 +16318,7 @@ end A047236
 
 The programs for A047237, the canonical program `A047237.P11499323888522605392` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047237 has offset 1).
 
-The definition of A047237 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047237 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047237.anchor (n : ℕ) (hn : 1 ≤ n) : A047237 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047237`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047237.P11499323888522605392
@@ -16859,7 +16859,7 @@ end A047237
 
 The programs for A047238, the canonical program `A047238.P14260397073045125418` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047238 has offset 1).
 
-The definition of A047238 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047238 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047238.anchor (n : ℕ) (hn : 1 ≤ n) : A047238 n = (Nat.nth (fun k => k % 6 ∈ ({0, 2} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047238`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047238.P14260397073045125418
@@ -17367,7 +17367,7 @@ end A047238
 
 The programs for A047239, the canonical program `A047239.P15037001494177029940` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047239 has offset 1).
 
-The definition of A047239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047239 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047239.anchor (n : ℕ) (hn : 1 ≤ n) : A047239 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047239`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047239.P15037001494177029940
@@ -17894,7 +17894,7 @@ end A047239
 
 The programs for A047240, the canonical program `A047240.P12426326229461583847` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047240 has offset 1).
 
-The definition of A047240 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047240 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047240.anchor (n : ℕ) (hn : 1 ≤ n) : A047240 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047240`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047240.P12426326229461583847
@@ -18430,7 +18430,7 @@ end A047240
 
 The programs for A047241, the canonical program `A047241.P5476610723129142598` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047241 has offset 1).
 
-The definition of A047241 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047241 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047241.anchor (n : ℕ) (hn : 1 ≤ n) : A047241 n = (Nat.nth (fun k => k % 6 ∈ ({1, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047241`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047241.P10001175269920316629
@@ -18940,7 +18940,7 @@ end A047241
 
 The programs for A047242, the canonical program `A047242.P3888921886104642664` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047242 has offset 1).
 
-The definition of A047242 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047242 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047242.anchor (n : ℕ) (hn : 1 ≤ n) : A047242 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047242`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047242.P3888921886104642664
@@ -19468,7 +19468,7 @@ end A047242
 
 The programs for A047243, the canonical program `A047243.P5660519100337839406` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047243 has offset 1).
 
-The definition of A047243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047243 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047243.anchor (n : ℕ) (hn : 1 ≤ n) : A047243 n = (Nat.nth (fun k => k % 6 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047243`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047243.P5660519100337839406
@@ -19997,7 +19997,7 @@ end A047243
 
 The programs for A047244, the canonical program `A047244.P6841592920032044211` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047244 has offset 1).
 
-The definition of A047244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047244 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047244.anchor (n : ℕ) (hn : 1 ≤ n) : A047244 n = (Nat.nth (fun k => k % 6 ∈ ({0, 2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047244`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047244.P6841592920032044211
@@ -20511,7 +20511,7 @@ end A047244
 
 The programs for A047245, the canonical program `A047245.P17271376881862961864` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047245 has offset 1).
 
-The definition of A047245 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047245 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047245.anchor (n : ℕ) (hn : 1 ≤ n) : A047245 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047245`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047245.P17271376881862961864
@@ -20964,7 +20964,7 @@ end A047245
 
 The programs for A047246, the canonical program `A047246.P8842605921146798613` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047246 has offset 1).
 
-The definition of A047246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047246 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047246.anchor (n : ℕ) (hn : 1 ≤ n) : A047246 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047246`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047246.P8842605921146798613
@@ -21485,7 +21485,7 @@ end A047246
 
 The programs for A047247, the canonical program `A047247.P1831666042334594370` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047247 has offset 1).
 
-The definition of A047247 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047247 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047247.anchor (n : ℕ) (hn : 1 ≤ n) : A047247 n = (Nat.nth (fun k => k % 6 ∈ ({2, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047247`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047247.P1831666042334594370
@@ -22545,7 +22545,7 @@ end A047248
 
 The programs for A047249, the canonical program `A047249.P13199548698468958868` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047249 has offset 1).
 
-The definition of A047249 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047249 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047249.anchor (n : ℕ) (hn : 1 ≤ n) : A047249 n = (Nat.nth (fun k => k % 6 ∈ ({3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047249`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047249.P13199548698468958868
@@ -23046,7 +23046,7 @@ end A047249
 
 The programs for A047250, the canonical program `A047250.P17730186097441094621` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047250 has offset 1).
 
-The definition of A047250 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047250 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047250.anchor (n : ℕ) (hn : 1 ≤ n) : A047250 n = (Nat.nth (fun k => k % 6 ∈ ({0, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047250`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047250.P17730186097441094621
@@ -23579,7 +23579,7 @@ end A047250
 
 The programs for A047251, the canonical program `A047251.P12400982931357912050` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047251 has offset 1).
 
-The definition of A047251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047251 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047251.anchor (n : ℕ) (hn : 1 ≤ n) : A047251 n = (Nat.nth (fun k => k % 6 ∈ ({1, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047251`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047251.P6929729599776411857
@@ -24133,7 +24133,7 @@ end A047251
 
 The programs for A047252, the canonical program `A047252.P1494296195459283499` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047252 has offset 1).
 
-The definition of A047252 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047252 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047252.anchor (n : ℕ) (hn : 1 ≤ n) : A047252 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047252`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047252.P6763708410117730338
@@ -24653,7 +24653,7 @@ end A047252
 
 The programs for A047253, the canonical program `A047253.P308557480160559524` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047253 has offset 1).
 
-The definition of A047253 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047253 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047253.anchor (n : ℕ) (hn : 1 ≤ n) : A047253 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047253`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047253.P308557480160559524
@@ -25149,7 +25149,7 @@ end A047253
 
 The programs for A047254, the canonical program `A047254.P975492896153018350` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047254 has offset 1).
 
-The definition of A047254 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047254 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047254.anchor (n : ℕ) (hn : 1 ≤ n) : A047254 n = (Nat.nth (fun k => k % 6 ∈ ({2, 3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047254`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047254.P975492896153018350
@@ -25589,7 +25589,7 @@ end A047254
 
 The programs for A047255, the canonical program `A047255.P1071511240433996966` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047255 has offset 1).
 
-The definition of A047255 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047255 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047255.anchor (n : ℕ) (hn : 1 ≤ n) : A047255 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047255`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047255.P1071511240433996966
@@ -26131,7 +26131,7 @@ end A047255
 
 The programs for A047256, the canonical program `A047256.P10615447941484584023` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047256 has offset 1).
 
-The definition of A047256 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047256 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047256.anchor (n : ℕ) (hn : 1 ≤ n) : A047256 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2, 3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047256`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047256.P10615447941484584023
@@ -26671,7 +26671,7 @@ end A047256
 
 The programs for A047257, the canonical program `A047257.P17360872395196729872` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047257 has offset 1).
 
-The definition of A047257 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047257 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047257.anchor (n : ℕ) (hn : 1 ≤ n) : A047257 n = (Nat.nth (fun k => k % 6 ∈ ({4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047257`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047257.P17360872395196729872
@@ -27216,7 +27216,7 @@ end A047257
 
 The programs for A047258, the canonical program `A047258.P9073791806533743364` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047258 has offset 1).
 
-The definition of A047258 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047258 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047258.anchor (n : ℕ) (hn : 1 ≤ n) : A047258 n = (Nat.nth (fun k => k % 6 ∈ ({0, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047258`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047258.P14250669625525559742
@@ -27741,7 +27741,7 @@ end A047258
 
 The programs for A047259, the canonical program `A047259.P9768234234403488961` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047259 has offset 1).
 
-The definition of A047259 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047259 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047259.anchor (n : ℕ) (hn : 1 ≤ n) : A047259 n = (Nat.nth (fun k => k % 6 ∈ ({1, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047259`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047259.P9768234234403488961
@@ -28136,7 +28136,7 @@ end A047259
 
 The programs for A047260, the canonical program `A047260.P13222535487743843889` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047260 has offset 1).
 
-The definition of A047260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047260 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047260.anchor (n : ℕ) (hn : 1 ≤ n) : A047260 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047260`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047260.P13222535487743843889
@@ -28670,7 +28670,7 @@ end A047260
 
 The programs for A047261, the canonical program `A047261.P2974273248751901373` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047261 has offset 1).
 
-The definition of A047261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047261 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047261.anchor (n : ℕ) (hn : 1 ≤ n) : A047261 n = (Nat.nth (fun k => k % 6 ∈ ({2, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047261`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047261.P2974273248751901373
@@ -29143,7 +29143,7 @@ end A047261
 
 The programs for A047262, the canonical program `A047262.P17301446676815896594` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047262 has offset 1).
 
-The definition of A047262 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047262 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047262.anchor (n : ℕ) (hn : 1 ≤ n) : A047262 n = (Nat.nth (fun k => k % 6 ∈ ({0, 2, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047262`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047262.P17301446676815896594
@@ -29656,7 +29656,7 @@ end A047262
 
 The programs for A047263, the canonical program `A047263.P10177617567604490545` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047263 has offset 1).
 
-The definition of A047263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047263 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047263.anchor (n : ℕ) (hn : 1 ≤ n) : A047263 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047263`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047263.P10177617567604490545
@@ -30200,7 +30200,7 @@ end A047263
 
 The programs for A047264, the canonical program `A047264.P12676331808566527065` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047264 has offset 1).
 
-The definition of A047264 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047264 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047264.anchor (n : ℕ) (hn : 1 ≤ n) : A047264 n = (Nat.nth (fun k => k % 6 ∈ ({0, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047264`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047264.P12676331808566527065
@@ -30891,7 +30891,7 @@ end A047265.P639119307414821409
 
 The programs for A047266, the canonical program `A047266.P2940400626504877787` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047266 has offset 1).
 
-The definition of A047266 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047266 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047266.anchor (n : ℕ) (hn : 1 ≤ n) : A047266 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047266`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047266.P2940400626504877787
@@ -31408,7 +31408,7 @@ end A047266
 
 The programs for A047267, the canonical program `A047267.P9445888636316524669` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047267 has offset 1).
 
-The definition of A047267 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047267 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047267.anchor (n : ℕ) (hn : 1 ≤ n) : A047267 n = (Nat.nth (fun k => k % 6 ∈ ({0, 2, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047267`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047267.P6677117491817464499
@@ -31927,7 +31927,7 @@ end A047267
 
 The programs for A047268, the canonical program `A047268.P1846918975062122750` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047268 has offset 1).
 
-The definition of A047268 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047268 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047268.anchor (n : ℕ) (hn : 1 ≤ n) : A047268 n = (Nat.nth (fun k => k % 6 ∈ ({1, 2, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047268`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047268.P17033108652888992686
@@ -32452,7 +32452,7 @@ end A047268
 
 The programs for A047269, the canonical program `A047269.P17480727104788875` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047269 has offset 1).
 
-The definition of A047269 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047269 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047269.anchor (n : ℕ) (hn : 1 ≤ n) : A047269 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 2, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047269`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047269.P17480727104788875
@@ -32975,7 +32975,7 @@ end A047269
 
 The programs for A047270, the canonical program `A047270.P15727693448876190263` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047270 has offset 1).
 
-The definition of A047270 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047270 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047270.anchor (n : ℕ) (hn : 1 ≤ n) : A047270 n = (Nat.nth (fun k => k % 6 ∈ ({3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047270`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047270.P15727693448876190263
@@ -33497,7 +33497,7 @@ end A047270
 
 The programs for A047271, the canonical program `A047271.P4758711387469422698` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047271 has offset 1).
 
-The definition of A047271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047271 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047271.anchor (n : ℕ) (hn : 1 ≤ n) : A047271 n = (Nat.nth (fun k => k % 6 ∈ ({0, 3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047271`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047271.P4758711387469422698
@@ -34109,7 +34109,7 @@ end A047272.P13576918488985062621
 
 The programs for A047273, the canonical program `A047273.P5050912492785340480` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047273 has offset 1).
 
-The definition of A047273 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047273 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047273.anchor (n : ℕ) (hn : 1 ≤ n) : A047273 n = (Nat.nth (fun k => k % 6 ∈ ({0, 1, 3, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047273`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047273.P7576954966226836357
@@ -34626,7 +34626,7 @@ end A047273
 
 The programs for A047274, the canonical program `A047274.P7752692210425031981` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047274 has offset 1).
 
-The definition of A047274 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047274 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047274.anchor (n : ℕ) (hn : 1 ≤ n) : A047274 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047274`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047274.P7752692210425031981
@@ -35153,7 +35153,7 @@ end A047274
 
 The programs for A047275, the canonical program `A047275.P5945346147382635457` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047275 has offset 1).
 
-The definition of A047275 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047275 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047275.anchor (n : ℕ) (hn : 1 ≤ n) : A047275 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047275`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047275.P5945346147382635457
@@ -35670,7 +35670,7 @@ end A047275
 
 The programs for A047276, the canonical program `A047276.P16660168488954150378` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047276 has offset 1).
 
-The definition of A047276 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047276 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047276.anchor (n : ℕ) (hn : 1 ≤ n) : A047276 n = (Nat.nth (fun k => k % 7 ∈ ({2, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047276`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047276.P16660168488954150378
@@ -36131,7 +36131,7 @@ end A047276
 
 The programs for A047277, the canonical program `A047277.P1341365108916588062` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047277 has offset 1).
 
-The definition of A047277 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047277 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047277.anchor (n : ℕ) (hn : 1 ≤ n) : A047277 n = (Nat.nth (fun k => k % 7 ∈ ({0, 2, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047277`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047277.P1341365108916588062
@@ -37106,7 +37106,7 @@ end A047278
 
 The programs for A047279, the canonical program `A047279.P18291416891113894150` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047279 has offset 1).
 
-The definition of A047279 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047279 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047279.anchor (n : ℕ) (hn : 1 ≤ n) : A047279 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 2, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047279`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047279.P18291416891113894150
@@ -37636,7 +37636,7 @@ end A047279
 
 The programs for A047280, the canonical program `A047280.P12146941231578351570` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047280 has offset 1).
 
-The definition of A047280 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047280 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047280.anchor (n : ℕ) (hn : 1 ≤ n) : A047280 n = (Nat.nth (fun k => k % 7 ∈ ({3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047280`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047280.P12146941231578351570
@@ -38166,7 +38166,7 @@ end A047280
 
 The programs for A047281, the canonical program `A047281.P516580499956932432` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047281 has offset 1).
 
-The definition of A047281 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047281 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047281.anchor (n : ℕ) (hn : 1 ≤ n) : A047281 n = (Nat.nth (fun k => k % 7 ∈ ({0, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047281`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047281.P516580499956932432
@@ -38687,7 +38687,7 @@ end A047281
 
 The programs for A047282, the canonical program `A047282.P12566216436458773350` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047282 has offset 1).
 
-The definition of A047282 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047282 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047282.anchor (n : ℕ) (hn : 1 ≤ n) : A047282 n = (Nat.nth (fun k => k % 7 ∈ ({1, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047282`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047282.P12566216436458773350
@@ -39203,7 +39203,7 @@ end A047282
 
 The programs for A047283, the canonical program `A047283.P17203923763404339811` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047283 has offset 1).
 
-The definition of A047283 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047283 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047283.anchor (n : ℕ) (hn : 1 ≤ n) : A047283 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047283`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047283.P17203923763404339811
@@ -39723,7 +39723,7 @@ end A047283
 
 The programs for A047284, the canonical program `A047284.P9390719853575627462` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047284 has offset 1).
 
-The definition of A047284 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047284 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047284.anchor (n : ℕ) (hn : 1 ≤ n) : A047284 n = (Nat.nth (fun k => k % 7 ∈ ({2, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047284`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047284.P9390719853575627462
@@ -40254,7 +40254,7 @@ end A047284
 
 The programs for A047285, the canonical program `A047285.P368478031323496740` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047285 has offset 1).
 
-The definition of A047285 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047285 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047285.anchor (n : ℕ) (hn : 1 ≤ n) : A047285 n = (Nat.nth (fun k => k % 7 ∈ ({0, 2, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047285`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047285.P368478031323496740
@@ -40727,7 +40727,7 @@ end A047285
 
 The programs for A047286, the canonical program `A047286.P1797588909138045173` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047286 has offset 1).
 
-The definition of A047286 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047286 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047286.anchor (n : ℕ) (hn : 1 ≤ n) : A047286 n = (Nat.nth (fun k => k % 7 ∈ ({1, 2, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047286`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047286.P1797588909138045173
@@ -41249,7 +41249,7 @@ end A047286
 
 The programs for A047287, the canonical program `A047287.P1044627375723699757` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047287 has offset 1).
 
-The definition of A047287 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047287 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047287.anchor (n : ℕ) (hn : 1 ≤ n) : A047287 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 2, 3, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047287`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047287.P14259375290027866399
@@ -41732,7 +41732,7 @@ end A047287
 
 The programs for A047288, the canonical program `A047288.P5430313875407042524` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047288 has offset 1).
 
-The definition of A047288 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047288 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047288.anchor (n : ℕ) (hn : 1 ≤ n) : A047288 n = (Nat.nth (fun k => k % 7 ∈ ({4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047288`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047288.P5430313875407042524
@@ -42239,7 +42239,7 @@ end A047288
 
 The programs for A047289, the canonical program `A047289.P5125561655512386469` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047289 has offset 1).
 
-The definition of A047289 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047289 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047289.anchor (n : ℕ) (hn : 1 ≤ n) : A047289 n = (Nat.nth (fun k => k % 7 ∈ ({0, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047289`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047289.P5125561655512386469
@@ -42735,7 +42735,7 @@ end A047289
 
 The programs for A047290, the canonical program `A047290.P11639142767701479755` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047290 has offset 1).
 
-The definition of A047290 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047290 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047290.anchor (n : ℕ) (hn : 1 ≤ n) : A047290 n = (Nat.nth (fun k => k % 7 ∈ ({1, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047290`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047290.P11639142767701479755
@@ -43258,7 +43258,7 @@ end A047290
 
 The programs for A047291, the canonical program `A047291.P10386418737795824372` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047291 has offset 1).
 
-The definition of A047291 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047291 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047291.anchor (n : ℕ) (hn : 1 ≤ n) : A047291 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047291`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047291.P10386418737795824372
@@ -43784,7 +43784,7 @@ end A047291
 
 The programs for A047292, the canonical program `A047292.P3975331011880897353` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047292 has offset 1).
 
-The definition of A047292 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047292 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047292.anchor (n : ℕ) (hn : 1 ≤ n) : A047292 n = (Nat.nth (fun k => k % 7 ∈ ({2, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047292`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047292.P3975331011880897353
@@ -44769,7 +44769,7 @@ end A047293
 
 The programs for A047294, the canonical program `A047294.P7003508793639367296` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047294 has offset 1).
 
-The definition of A047294 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047294 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047294.anchor (n : ℕ) (hn : 1 ≤ n) : A047294 n = (Nat.nth (fun k => k % 7 ∈ ({1, 2, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047294`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047294.P3448157731031012963
@@ -45806,7 +45806,7 @@ end A047295
 
 The programs for A047296, the canonical program `A047296.P14236419836244817206` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047296 has offset 1).
 
-The definition of A047296 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047296 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047296.anchor (n : ℕ) (hn : 1 ≤ n) : A047296 n = (Nat.nth (fun k => k % 7 ∈ ({3, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047296`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047296.P14236419836244817206
@@ -46287,7 +46287,7 @@ end A047296
 
 The programs for A047297, the canonical program `A047297.P6545727981941344053` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047297 has offset 1).
 
-The definition of A047297 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047297 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047297.anchor (n : ℕ) (hn : 1 ≤ n) : A047297 n = (Nat.nth (fun k => k % 7 ∈ ({0, 3, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047297`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047297.P6545727981941344053
@@ -47272,7 +47272,7 @@ end A047298
 
 The programs for A047299, the canonical program `A047299.P833141866872838248` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047299 has offset 1).
 
-The definition of A047299 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047299 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047299.anchor (n : ℕ) (hn : 1 ≤ n) : A047299 n = (Nat.nth (fun k => k % 7 ∈ ({0, 1, 3, 4, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047299`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047299.P833141866872838248

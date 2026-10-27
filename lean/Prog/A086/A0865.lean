@@ -5152,7 +5152,7 @@ end A086566.P10622181909953533365
 
 The programs for A086568, the canonical program `A086568.P2444942067190828085` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086568 has offset 1).
 
-The definition of A086568 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A086568 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A086568.P2444942067190828085
@@ -5411,6 +5411,12 @@ namespace A086568
 def P4852415827755213432.Spec : Prop :=
   ∀ n, P4852415827755213432.a n = A086568 (n + 1)
 
+theorem P4852415827755213432.correct : P4852415827755213432.Spec := by
+  intro n
+  simp only [A086568, Nat.add_sub_cancel, A086568.P4852415827755213432.a, A086568.P2444942067190828085.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A002110, A002110.P13704446489392701398.a, A073093, A073093.P258081957281391684.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A086568
 
 /-! ## A086568.P16706217861332565195
@@ -5617,6 +5623,12 @@ namespace A086568
 /-- `A002110(A329348(n+1)-A331289(n+1))` -/
 def P8303081431877004168.Spec : Prop :=
   ∀ n, P8303081431877004168.a n = A086568 (n + 1)
+
+theorem P8303081431877004168.correct : P8303081431877004168.Spec := by
+  intro n
+  simp only [A086568, Nat.add_sub_cancel, A086568.P8303081431877004168.a, A086568.P2444942067190828085.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A002110, A002110.P13704446489392701398.a, A329348, A329348.P7234823264148255162.a, A331289, A331289.P2190627046310691994.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A117366, A117366.P12979558578758758009.a, A331188, A331188.P3991603324780884029.a, A006530, A006530.P13372528560459906635.a, A052126, A052126.P1944428405920482243.a, A108951, A108951.P1294613322156543690.a, A151800, A151800.P4570031678714564115.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A064989, A064989.P13349672914146769936.a, A070229, A070229.P5792893597916963980.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A086568
 

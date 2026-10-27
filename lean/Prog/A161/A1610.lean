@@ -281,7 +281,7 @@ end A161002.P7163392853531585238
 
 The programs for A161003, the canonical program `A161003.P1160852448560439033` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161003 has offset 1).
 
-The definition of A161003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A052369, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A161003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052369, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A161003.P1160852448560439033

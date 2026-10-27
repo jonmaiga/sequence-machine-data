@@ -14106,7 +14106,7 @@ end A020767.P2165879377063160551
 
 The programs for A020773, the canonical program `A020773.P8881837254021640327` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020773 has offset 0).
 
-The definition of A020773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A020773 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A020773.anchor (n : ℕ) : A020773 n = ((10 ^ (n + 1) / 4 % 10 : ℕ) : ℤ)` in `Proof.A020.A020773`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A020773.P8881837254021640327
@@ -14289,7 +14289,7 @@ end A020789.P10073149509187170049
 
 The programs for A020793, the canonical program `A020793.P1289407373664449665` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020793 has offset 0).
 
-The definition of A020793 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A020793 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A020793.anchor (n : ℕ) : A020793 n = ((10 ^ (n + 1) / 6 % 10 : ℕ) : ℤ)` in `Proof.A020.A020793`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A020793.P1289407373664449665

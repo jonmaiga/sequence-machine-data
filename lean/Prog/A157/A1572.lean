@@ -2451,7 +2451,7 @@ end A157227
 
 The programs for A157228, the canonical program `A157228.P6044199204996125931` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157228 has offset 1).
 
-The definition of A157228 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000089, A019590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A157228 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000089, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A157228.P6044199204996125931
@@ -3013,7 +3013,7 @@ end A157229.P15993175147241746346
 
 The programs for A157230, the canonical program `A157230.P2365165212862762183` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157230 has offset 1).
 
-The definition of A157230 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019590, A060594, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A157230 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060594, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A157230.P2365165212862762183
@@ -3473,7 +3473,7 @@ end A157230
 
 The programs for A157231, the canonical program `A157231.P4030601719210352928` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157231 has offset 1).
 
-The definition of A157231 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019590, A157226, A157228, A157230, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A157231 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A157226, A157228, A157230, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A157231.P4030601719210352928

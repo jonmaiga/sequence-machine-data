@@ -1318,7 +1318,7 @@ end A175607.P4205386459206000529
 
 The programs for A175608, the canonical program `A175608.P4410175477287556198` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175608 has offset 1).
 
-The definition of A175608 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A175608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A175608.P4410175477287556198
@@ -2574,7 +2574,7 @@ end A175620
 
 The programs for A175621, the canonical program `A175621.P9450483601849473088` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175621 has offset 1).
 
-The definition of A175621 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A175621 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^(A002808(n+1)-4))%A002808(n+1)` (program `A175621.P9450483601849473088`, by `A175621.P9450483601849473088.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175621.P9450483601849473088
@@ -5837,7 +5837,7 @@ end A175648
 
 The programs for A175649, the canonical program `A175649.P11283515364805416560` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175649 has offset 1).
 
-The definition of A175649 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A175649 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008472(n+1)+A008472(n+2)` (program `A175649.P11283515364805416560`, by `A175649.P11283515364805416560.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175649.P11283515364805416560
@@ -6355,7 +6355,7 @@ end A175649
 
 The programs for A175650, the canonical program `A175650.P8405905715889508886` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175650 has offset 1).
 
-The definition of A175650 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, A066031, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A175650 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066031, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A175650.P8405905715889508886

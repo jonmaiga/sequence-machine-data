@@ -1859,7 +1859,7 @@ end A206418.P16195804591541295016
 
 The programs for A206419, the canonical program `A206419.P7480489538668303579` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206419 has offset 1).
 
-The definition of A206419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A206419 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A206419.anchor : A206419 1 = 11 ∧ A206419 2 = 7 ∧ ∀ n, 1 ≤ n → A206419 (n + 2) = A206419 (n + 1) + A206419 n` in `Proof.A206.A206419`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A206419.P7480489538668303579
@@ -2326,7 +2326,7 @@ end A206419
 
 The programs for A206420, the canonical program `A206420.P3550530061030299848` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206420 has offset 1).
 
-The definition of A206420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A206420 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A206420.anchor : A206420 1 = 11 ∧ A206420 2 = 8 ∧ ∀ n, 1 ≤ n → A206420 (n + 2) = A206420 (n + 1) + A206420 n` in `Proof.A206.A206420`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A206420.P3550530061030299848
@@ -2929,7 +2929,7 @@ end A206421.P613445232087976988
 
 The programs for A206422, the canonical program `A206422.P17763430790334703902` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206422 has offset 1).
 
-The definition of A206422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A206422 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A206422.anchor : A206422 1 = 11 ∧ A206422 2 = 9 ∧ ∀ n, 1 ≤ n → A206422 (n + 2) = A206422 (n + 1) + A206422 n` in `Proof.A206.A206422`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A206422.P17763430790334703902
@@ -3393,7 +3393,7 @@ end A206422
 
 The programs for A206423, the canonical program `A206423.P167268090402775244` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206423 has offset 1).
 
-The definition of A206423 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A206423 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A206423.anchor : A206423 1 = 12 ∧ A206423 2 = 7 ∧ ∀ n, 1 ≤ n → A206423 (n + 2) = A206423 (n + 1) + A206423 n` in `Proof.A206.A206423`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A206423.P167268090402775244
@@ -8848,6 +8848,12 @@ namespace A206462
 def P15230843816918391618.Spec : Prop :=
   ∀ n, P15230843816918391618.a n = A206462 (n + 1)
 
+theorem P15230843816918391618.correct : P15230843816918391618.Spec := by
+  intro n
+  simp only [A206462, Nat.add_sub_cancel, A206462.P15230843816918391618.a, A206462.P3532272431253020228.f1, A206462.P3532272431253020228.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001043, A001043.P18269783162673735460.a, A008966, A008966.P18444031257857153223.f1, A008966.P18444031257857153223.a, A206329, A206329.P6902662214066965316.f1, A206329.P6902662214066965316.a, A206626, A206626.P17427154198684155407.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A206462
 
 /-!
@@ -9918,6 +9924,12 @@ namespace A206475
 def P616700702680584188.Spec : Prop :=
   ∀ n, P616700702680584188.a n = A206475 (n + 1)
 
+theorem P616700702680584188.correct : P616700702680584188.Spec := by
+  intro n
+  simp only [A206475, Nat.add_sub_cancel, A206475.P616700702680584188.f1, A206475.P616700702680584188.a, A206475.P1877464860005906929.a, A061020, A061020.P8856517168126816648.f1, A061020.P8856517168126816648.a, A206369, A206369.P2534442500048428716.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A298473, A298473.P4129261461603736948.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A206475
 
 /-! ## A206475.P12247076601010175065
@@ -9943,6 +9955,12 @@ namespace A206475
 /-- `1-Δ[A344439(n+1)]` -/
 def P12247076601010175065.Spec : Prop :=
   ∀ n, P12247076601010175065.a n = A206475 (n + 1)
+
+theorem P12247076601010175065.correct : P12247076601010175065.Spec := by
+  intro n
+  simp only [A206475, Nat.add_sub_cancel, A206475.P12247076601010175065.f1, A206475.P12247076601010175065.a, A206475.P1877464860005906929.a, A206369, A206369.P2534442500048428716.a, A344439, A344439.P15144765631107196480.a, A061020, A061020.P8856517168126816648.f1, A061020.P8856517168126816648.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A298473, A298473.P4129261461603736948.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A206475
 

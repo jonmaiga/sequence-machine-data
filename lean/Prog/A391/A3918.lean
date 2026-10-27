@@ -4109,7 +4109,7 @@ end A391878.P2029988473201524770
 
 The programs for A391883, the canonical program `A391883.P2614756072055188463` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391883 has offset 3).
 
-The definition of A391883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A048865, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A391883 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A391883.P2614756072055188463

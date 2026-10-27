@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -97,6 +98,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A213600: Triangle T(n,k) read by rows: Number of Dyck n-paths with midpoint at height k.
@@ -4221,6 +4226,12 @@ namespace A213642
 /-- `A000040(A153733(n)+1)` -/
 def P5700810756658460515.Spec : Prop :=
   ∀ n, P5700810756658460515.a n = A213642 (n + 1)
+
+theorem P5700810756658460515.correct : P5700810756658460515.Spec := by
+  intro n
+  simp only [A213642, Nat.add_sub_cancel, A213642.P5700810756658460515.a, A213642.P6358489440238174870.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000265, A000265.P16482698636471710744.a, A153733, A153733.P10755713114946739736.a, A331739, A331739.P457850794578440847.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A213642
 

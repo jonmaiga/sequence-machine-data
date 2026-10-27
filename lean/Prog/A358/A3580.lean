@@ -2891,7 +2891,7 @@ end A358038
 
 The programs for A358039, the canonical program `A358039.P2500782259090983351` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358039 has offset 1).
 
-The definition of A358039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A004709, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A358039.P2500782259090983351
@@ -5100,7 +5100,7 @@ end A358060.P15330516178421310497
 
 The programs for A358061, the canonical program `A358061.P11370879182037350058` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358061 has offset 1).
 
-The definition of A358061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358061 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000010(n+1)%A000005(n+1)` (program `A358061.P11370879182037350058`, by `A358061.P11370879182037350058.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A358061.P11370879182037350058
@@ -5174,6 +5174,12 @@ namespace A358061
 /-- `(A109606(n+1)+1)%∏{e}[n+1, #+1]` -/
 def P2301950466090943623.Spec : Prop :=
   ∀ n, P2301950466090943623.a n = A358061 (n + 1)
+
+theorem P2301950466090943623.correct : P2301950466090943623.Spec := by
+  intro n
+  simp only [A358061, Nat.add_sub_cancel, A358061.P2301950466090943623.f1, A358061.P2301950466090943623.a, A358061.P11370879182037350058.a, A000005, A000005.P16091521709108585461.a, A000010, A000010.P4673923239450215316.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358061
 
@@ -6859,6 +6865,12 @@ namespace A358089
 /-- `Δ[eq[1, A355447(n+1)]]` -/
 def P8432890669638257922.Spec : Prop :=
   ∀ n, P8432890669638257922.a n = A358089 (n + 1)
+
+theorem P8432890669638257922.correct : P8432890669638257922.Spec := by
+  intro n
+  simp only [A358089, Nat.add_sub_cancel, A358089.P8432890669638257922.f2, A358089.P8432890669638257922.f3, A358089.P8432890669638257922.f1, A358089.P8432890669638257922.a, A358089.P6226920074506255654.f1, A358089.P6226920074506255654.a, A126706, A126706.P11121898802900401573.f1, A126706.P11121898802900401573.f2, A126706.P11121898802900401573.a, A355447, A355447.P2177856951054736842.a, A008966, A008966.P18444031257857153223.f1, A008966.P18444031257857153223.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358089
 

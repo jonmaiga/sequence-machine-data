@@ -306,7 +306,7 @@ end A392317.P9105424065605761636
 
 The programs for A392318, the canonical program `A392318.P11358537660704665373` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392318 has offset 0).
 
-The definition of A392318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A392318 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A392318.anchor (n : ℕ) : A392318 n = ((37 * 10 ^ (n + 1) / 72 % 10 : ℕ) : ℤ)` in `Proof.A392.A392318`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A392318.P11358537660704665373

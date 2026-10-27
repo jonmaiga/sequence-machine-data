@@ -617,7 +617,7 @@ end A389313.P5765252141263920930
 
 The programs for A389314, the canonical program `A389314.P15676417665564126010` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389314 has offset 0).
 
-The definition of A389314 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A389314 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A389314.anchor (n : ℕ) : A389314 n = ((10 ^ (n + 1) / 3432 % 10 : ℕ) : ℤ)` in `Proof.A389.A389314`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A389314.P15676417665564126010

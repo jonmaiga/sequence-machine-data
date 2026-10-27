@@ -588,7 +588,7 @@ end A171501
 
 The programs for A171503, the canonical program `A171503.P12332767344742414734` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171503 has offset 0).
 
-The definition of A171503 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A171503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A171503.P12332767344742414734
@@ -12267,7 +12267,7 @@ end A171574
 
 The programs for A171575, the canonical program `A171575.P2892916473500616437` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171575 has offset 1).
 
-The definition of A171575 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A171575 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A171575.P2892916473500616437
@@ -12575,6 +12575,12 @@ namespace A171575
 def P12983842667928777984.Spec : Prop :=
   ∀ n, P12983842667928777984.a n = A171575 (n + 1)
 
+theorem P12983842667928777984.correct : P12983842667928777984.Spec := by
+  intro n
+  simp only [A171575, Nat.add_sub_cancel, A171575.P12983842667928777984.a, A171575.P2892916473500616437.a, A008578, A008578.P3639467937083264764.a, A141468, A141468.P3389662916050695948.f1, A141468.P3389662916050695948.a, A158611, A158611.P9275629407611603775.a, A163300, A163300.P6939037721526909123.a, A163751, A163751.P842914624202263356.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A171575
 
 /-! ## A171575.P17823093658924306288
@@ -12741,7 +12747,7 @@ end A171575
 
 The programs for A171576, the canonical program `A171576.P12426591826192478319` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171576 has offset 1).
 
-The definition of A171576 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A171576 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A171576.P12426591826192478319

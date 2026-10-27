@@ -1520,7 +1520,7 @@ end A078118.P1763750631655732841
 
 The programs for A078119, the canonical program `A078119.P5996308189816255006` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078119 has offset 1).
 
-The definition of A078119 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A078119 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(n+1)-A000010(n+3)` (program `A078119.P5996308189816255006`, by `A078119.P5996308189816255006.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A078119.P5996308189816255006
@@ -1617,6 +1617,12 @@ namespace A078119
 /-- `A065387(n+1)-A362334(n+1)` -/
 def P10242394322537224233.Spec : Prop :=
   ∀ n, P10242394322537224233.a n = A078119 (n + 1)
+
+theorem P10242394322537224233.correct : P10242394322537224233.Spec := by
+  intro n
+  simp only [A078119, Nat.add_sub_cancel, A078119.P10242394322537224233.a, A078119.P5996308189816255006.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A065387, A065387.P11284875715279330998.a, A362334, A362334.P13106116435762041529.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A078119
 
@@ -1741,6 +1747,12 @@ namespace A078119
 /-- `A088580(n+1)-A039649(n+3)` -/
 def P3636069506088111902.Spec : Prop :=
   ∀ n, P3636069506088111902.a n = A078119 (n + 1)
+
+theorem P3636069506088111902.correct : P3636069506088111902.Spec := by
+  intro n
+  simp only [A078119, Nat.add_sub_cancel, A078119.P3636069506088111902.a, A078119.P5996308189816255006.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A039649, A039649.P16717312505280968063.a, A088580, A088580.P3089093194242277422.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A078119
 

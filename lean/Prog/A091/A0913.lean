@@ -845,7 +845,7 @@ end A091303.P2223994658174995836
 
 The programs for A091304, the canonical program `A091304.P2772183700605411101` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091304 has offset 1).
 
-The definition of A091304 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A091304 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001222(2*n+1)` (program `A091304.P2772183700605411101`, by `A091304.P2772183700605411101.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A091304.P2772183700605411101
@@ -8839,7 +8839,7 @@ end A091368.P8495292372870136423
 
 The programs for A091369, the canonical program `A091369.P3969440163011087150` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091369 has offset 1).
 
-The definition of A091369 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063985, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A091369 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A091369.P3969440163011087150
@@ -9081,6 +9081,12 @@ namespace A091369
 /-- `A092249(n+1)+∑[n]` -/
 def P16651129490103981204.Spec : Prop :=
   ∀ n, P16651129490103981204.a n = A091369 (n + 1)
+
+theorem P16651129490103981204.correct : P16651129490103981204.Spec := by
+  intro n
+  simp only [A091369, Nat.add_sub_cancel, A091369.P16651129490103981204.f1, A091369.P16651129490103981204.a, A091369.P3969440163011087150.a, A063985, A063985.P3942861327483730228.a, A092249, A092249.P8919152455619656948.f1, A092249.P8919152455619656948.a, A000217, A000217.P10269402890581615239.a, A002088, A002088.P11293466613211840242.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A091369
 

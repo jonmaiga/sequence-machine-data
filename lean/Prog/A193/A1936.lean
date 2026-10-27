@@ -3514,6 +3514,12 @@ namespace A193641
 def P3137933960971653028.Spec : Prop :=
   ∀ n, (P3137933960971653028.a n : ℤ) = A193641 n
 
+theorem P3137933960971653028.correct : P3137933960971653028.Spec := by
+  intro n
+  simp only [A193641, Nat.add_sub_cancel, A193641.P3137933960971653028.a, A193641.P3318899875766667403.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
 end A193641
 
 /-! ## A193641.P5770961143313691779

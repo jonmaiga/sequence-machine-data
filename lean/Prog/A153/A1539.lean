@@ -4944,7 +4944,7 @@ end A153989.P631142776106154905
 
 The programs for A153990, the canonical program `A153990.P8826007654690186034` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153990 has offset 0).
 
-The definition of A153990 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153990 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A153990.anchor (n : ℕ) : A153990 n = (([1, 2, 5, 4, 7, 8].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A153.A153990`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153990.P8826007654690186034

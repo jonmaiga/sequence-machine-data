@@ -2974,7 +2974,7 @@ end A321746.P10248783630311480808
 
 The programs for A321747, the canonical program `A321747.P6789525213740818006` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321747 has offset 1).
 
-The definition of A321747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A008480, A056239, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A321747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008480, A056239, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A321747.P6789525213740818006

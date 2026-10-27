@@ -10617,7 +10617,7 @@ end A317990
 
 The programs for A317991, the canonical program `A317991.P6443215802569184834` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317991 has offset 2).
 
-The definition of A317991 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A003658, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A317991 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003658, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A317991.P1333235406774140562

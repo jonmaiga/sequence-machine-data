@@ -10896,7 +10896,7 @@ end A075856
 
 The programs for A075857, the canonical program `A075857.P13213587624051204763` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075857 has offset 1).
 
-The definition of A075857 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A009195, A051953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A075857 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A075857.P7163125867789802467
@@ -13427,6 +13427,12 @@ namespace A075875
 def P99266278786860660.Spec : Prop :=
   ∀ n, P99266278786860660.a n = A075875 (n + 1)
 
+theorem P99266278786860660.correct : P99266278786860660.Spec := by
+  intro n
+  simp only [A075875, Nat.add_sub_cancel, A075875.P99266278786860660.f1, A075875.P99266278786860660.f2, A075875.P99266278786860660.a, A075875.P16800868637644229346.f1, A075875.P16800868637644229346.f2, A075875.P16800868637644229346.a, A000096, A000096.P6925830517264718723.a, A000217, A000217.P10269402890581615239.a, A069904, A069904.P2434558843873151070.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A075875
 
 /-! ## A075875.P12378181708582668328
@@ -13816,7 +13822,7 @@ end A075880.P18410094171245329444
 
 The programs for A075881, the canonical program `A075881.P5081293527233532591` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075881 has offset 1).
 
-The definition of A075881 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A075881 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A075881.P5081293527233532591
@@ -14369,7 +14375,7 @@ end A075881
 
 The programs for A075882, the canonical program `A075882.P17629495467896949930` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075882 has offset 1).
 
-The definition of A075882 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A075882 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A075882.P17629495467896949930
@@ -14853,6 +14859,12 @@ namespace A075882
 /-- `A000010(A101301(n+1)+n+1)` -/
 def P6771668259710425216.Spec : Prop :=
   ∀ n, P6771668259710425216.a n = A075882 (n + 1)
+
+theorem P6771668259710425216.correct : P6771668259710425216.Spec := by
+  intro n
+  simp only [A075882, Nat.add_sub_cancel, A075882.P6771668259710425216.a, A075882.P17629495467896949930.a, A000010, A000010.P4673923239450215316.a, A007504, A007504.P14310834286015847203.a, A101301, A101301.P12618163721935666644.a, A003557, A003557.P6364735403900941810.a, A014284, A014284.P18183547548072881472.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A075882
 

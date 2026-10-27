@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -90,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A379701: Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(x) / (1 + x*exp(2*x)) ).
@@ -449,7 +454,7 @@ end A379714
 
 The programs for A379715, the canonical program `A379715.P5673123717441379169` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379715 has offset 1).
 
-The definition of A379715 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, A007434, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A379715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A379715.P5673123717441379169
@@ -815,7 +820,7 @@ end A379716.P11392412836693409005
 
 The programs for A379717, the canonical program `A379717.P10074037294569084625` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379717 has offset 1).
 
-The definition of A379717 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, A007434, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A379717 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A379717.P10074037294569084625
@@ -973,6 +978,12 @@ namespace A379717
 /-- `A001615(A004709(n+1))*A358039(n+1)` -/
 def P14748577597787878202.Spec : Prop :=
   ∀ n, P14748577597787878202.a n = A379717 (n + 1)
+
+theorem P14748577597787878202.correct : P14748577597787878202.Spec := by
+  intro n
+  simp only [A379717, Nat.add_sub_cancel, A379717.P14748577597787878202.a, A379717.P10074037294569084625.a, A001615, A001615.P12078511981713404634.a, A004709, A004709.P11605199300458361357.f1, A004709.P11605199300458361357.f2, A004709.P11605199300458361357.a, A007434, A007434.P3432859153295839493.a, A358039, A358039.P2500782259090983351.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A113061, A113061.P11150295760055610552.f1, A113061.P11150295760055610552.a, A003557, A003557.P6364735403900941810.a, A010057, A010057.P3441922768549040012.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A379717
 
@@ -4598,7 +4609,7 @@ end A379767.P7401962892307275697
 /-!
 # A379769: a(n) = (A006218(n) mod n).
 
-The programs for A379769, the canonical program `A379769.P2860525123367169776` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379769 has offset 1).
+The programs for A379769, the canonical program `A379769.P2860525123367169776` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379769 has offset 1).
 
 The definition of A379769 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A006218(n+1)%(n+1)` (program `A379769.P2860525123367169776`, by `A379769.P2860525123367169776.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4607,7 +4618,7 @@ The definition of A379769 is `verified`: the Lean definition is proven equivalen
 
 `A006218(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A379769

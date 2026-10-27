@@ -103,7 +103,7 @@ set_option linter.unreachableTactic false
 
 The programs for A100201, the canonical program `A100201.P2773877056917933815` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100201 has offset 1).
 
-The definition of A100201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A100201 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A100201.anchor (n : ℕ) (hn : 1 ≤ n) : A100201 n = (Nat.nth (fun p => p.Prime ∧ p % 23 = 3) (n - 1) : ℤ)` in `Proof.A100.A100201`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A100201.P2773877056917933815
@@ -672,7 +672,7 @@ end A100201
 
 The programs for A100202, the canonical program `A100202.P13240288785830389677` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100202 has offset 1).
 
-The definition of A100202 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6526 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A100202 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A100202.anchor (n : ℕ) (hn : 1 ≤ n) : A100202 n = (Nat.nth (fun p => p.Prime ∧ p % 13 = 3) (n - 1) : ℤ)` in `Proof.A100.A100202`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A100202.P12871275013649998110
@@ -1265,7 +1265,7 @@ end A100202
 
 The programs for A100203, the canonical program `A100203.P16095460631761891307` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100203 has offset 1).
 
-The definition of A100203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A100203 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A100203.anchor (n : ℕ) (hn : 1 ≤ n) : A100203 n = (Nat.nth (fun p => p.Prime ∧ p % 37 = 3) (n - 1) : ℤ)` in `Proof.A100.A100203`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A100203.P16095460631761891307
@@ -6570,7 +6570,7 @@ end A100241.P595247630817341578
 
 The programs for A100242, the canonical program `A100242.P17258774720473599640` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100242 has offset 0).
 
-The definition of A100242 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A100242 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A100242.anchor (n : ℕ) : (A100242 n : ℚ) = (n ^ 5 : ℚ) - ((n ^ 2 : ℤ) * ((n ^ 2 : ℤ) - 1) : ℚ) / 2` in `Proof.A100.A100242`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A100242.P17258774720473599640

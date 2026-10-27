@@ -10090,7 +10090,7 @@ end A239092
 
 The programs for A239094, the canonical program `A239094.P12982977801086125285` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239094 has offset 0).
 
-The definition of A239094 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A239094 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A239094.anchor (n : ℕ) : (A239094 n : ℚ) = ((5 * n ^ 9 : ℤ) - (30 * n ^ 7 : ℤ) + (63 * n ^ 5 : ℤ) - (50 * n ^ 3 : ℤ) + (12 * n : ℤ) : ℚ) / 360` in `Proof.A239.A239094`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A239094.P12982977801086125285
@@ -10260,7 +10260,7 @@ end A239094
 
 The programs for A239095, the canonical program `A239095.P5018079448449239445` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239095 has offset 0).
 
-The definition of A239095 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A239095 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A239095.anchor (n : ℕ) : (A239095 n : ℚ) = ((n ^ 7 : ℤ) - (21 * n ^ 3 : ℤ) + (20 * n : ℤ) : ℚ) / 210` in `Proof.A239.A239095`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A239095.P5018079448449239445

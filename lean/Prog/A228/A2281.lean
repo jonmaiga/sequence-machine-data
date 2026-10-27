@@ -1837,7 +1837,7 @@ end A228120.P18413713325529982647
 
 The programs for A228121, the canonical program `A228121.P1458711502036451659` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228121 has offset 1).
 
-The definition of A228121 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024893, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A228121 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A228121.P1458711502036451659
@@ -3917,7 +3917,7 @@ end A228136.P3381481608058176829
 
 The programs for A228137, the canonical program `A228137.P6373566349085021603` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228137 has offset 1).
 
-The definition of A228137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A228137 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A228137.anchor (n : ℕ) (hn : 1 ≤ n) : A228137 n = (Nat.nth (fun k => k % 12 ∈ ({1, 4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A228.A228137`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228137.P6373566349085021603
@@ -4926,7 +4926,7 @@ end A228140.P13669969804046860688
 
 The programs for A228141, the canonical program `A228141.P1067301133373405374` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228141 has offset 1).
 
-The definition of A228141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A228141 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A228141.anchor (n : ℕ) (hn : 1 ≤ n) : A228141 n = (Nat.nth (fun k => k % 20 ∈ ({1, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A228.A228141`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228141.P1067301133373405374

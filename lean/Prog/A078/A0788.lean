@@ -10950,7 +10950,7 @@ end A078875.P16223013187928534736
 
 The programs for A078876, the canonical program `A078876.P1746976397778396075` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078876 has offset 0).
 
-The definition of A078876 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A078876 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A078876.anchor (n : ℕ) : (A078876 n : ℚ) = ((n ^ 4 : ℤ) * ((n ^ 4 : ℤ) - 1) : ℚ) / 240` in `Proof.A078.A078876`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A078876.P1746976397778396075

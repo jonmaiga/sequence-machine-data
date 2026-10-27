@@ -5025,7 +5025,7 @@ end A011764
 
 The programs for A011765, the canonical program `A011765.P1093448086306446135` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011765 has offset 1).
 
-The definition of A011765 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A011765 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A011765.anchor (n : ℕ) (hn : 1 ≤ n) : A011765 n = (([0, 0, 0, 1].getD ((n - 1) % 4) 0 : ℕ) : ℤ)` in `Proof.A011.A011765`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A011765.P1093448086306446135
@@ -7775,7 +7775,7 @@ end A011782
 
 The programs for A011785, the canonical program `A011785.P6762515857050156421` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011785 has offset 1).
 
-The definition of A011785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046970, A063453, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A011785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063453, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A011785.P16049725564835910326

@@ -5234,7 +5234,7 @@ end A048243
 
 The programs for A048244, the canonical program `A048244.P17897497883723303943` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048244 has offset 1).
 
-The definition of A048244 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048106, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A048244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A048244.P17897497883723303943
@@ -5832,7 +5832,7 @@ end A048249.P12929856524166670151
 
 The programs for A048250, the canonical program `A048250.P17960441032552816313` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048250 has offset 1).
 
-The definition of A048250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A048250 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A048250.anchor (n : ℕ) (hn : 1 ≤ n) : A048250 n = ((∑ d ∈ n.divisors with Squarefree d, d : ℕ) : ℤ)` in `Proof.A048.A048250`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A048250.P6137918235727910070
@@ -6261,6 +6261,12 @@ namespace A048250
 /-- `n+1+A325313(n+1)` -/
 def P7991509505289119133.Spec : Prop :=
   ∀ n, P7991509505289119133.a n = A048250 (n + 1)
+
+theorem P7991509505289119133.correct : P7991509505289119133.Spec := by
+  intro n
+  simp only [A048250, Nat.add_sub_cancel, A048250.P7991509505289119133.a, A048250.P17960441032552816313.f1, A048250.P17960441032552816313.a, A325313, A325313.P16190563631669618661.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A048250
 
@@ -8889,6 +8895,12 @@ namespace A048272
 /-- `A325940(n+1)+A002129(n+1)` -/
 def P6872932529005360963.Spec : Prop :=
   ∀ n, P6872932529005360963.a n = A048272 (n + 1)
+
+theorem P6872932529005360963.correct : P6872932529005360963.Spec := by
+  intro n
+  simp only [A048272, Nat.add_sub_cancel, A048272.P6872932529005360963.a, A048272.P6639145440777643207.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A002129, A002129.P14132575705783117531.a, A183063, A183063.P14549643650991336837.a, A325940, A325940.P5826704247194185154.a, A000593, A000593.P10331878810394225172.f1, A000593.P10331878810394225172.a, A062011, A062011.P17525320077853469406.a, A099777, A099777.P11792433152824821401.a, A146076, A146076.P5513778411624192836.a, A000005, A000005.P16091521709108585461.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A048272
 

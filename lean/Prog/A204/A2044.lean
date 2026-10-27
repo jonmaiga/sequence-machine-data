@@ -6796,7 +6796,7 @@ end A204438.P15707001766041720477
 /-!
 # A204439: Symmetric matrix: f(i,j)=((i+j+2)^2 mod 3), by (constant) antidiagonals.
 
-The programs for A204439, the canonical program `A204439.P6324757113659901891` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204439 has offset 1).
+The programs for A204439, the canonical program `A204439.P6324757113659901891` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204439 has offset 1).
 
 The definition of A204439 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(col(n)+1+row(n)-col(n)+1+2)²%3` (program `A204439.P6324757113659901891`, by `A204439.P6324757113659901891.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6805,7 +6805,7 @@ The definition of A204439 is `verified`: the Lean definition is proven equivalen
 
 `(col(n)+1+row(n)-col(n)+1+2)²%3`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A204439
@@ -10088,7 +10088,7 @@ end A204452.P12561383352362340455
 /-!
 # A204453: Period length 14: [0, 1, 2, 3, 4, 5, 6, 0, 6, 5, 4, 3, 2, 1] repeated.
 
-The programs for A204453, the canonical program `A204453.P3552801562984708517` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204453 has offset 0).
+The programs for A204453, the canonical program `A204453.P3552801562984708517` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204453 has offset 0).
 
 The definition of A204453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10097,7 +10097,7 @@ The definition of A204453 is `conjectured`: the Lean definition is a formula tha
 
 `abs((6-(n+6)%14)%7)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A204453

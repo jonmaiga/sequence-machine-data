@@ -760,7 +760,7 @@ end A355815.P17175868320770236230
 
 The programs for A355816, the canonical program `A355816.P18014603131133608948` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355816 has offset 1).
 
-The definition of A355816 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A143731, A325964, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A355816 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A325964, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A355816.P18014603131133608948

@@ -2953,7 +2953,7 @@ end A164129.P10750477435633889165
 
 The programs for A164131, the canonical program `A164131.P5745600518702844297` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164131 has offset 1).
 
-The definition of A164131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A164131 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A164131.anchor (n : ℕ) (hn : 1 ≤ n) : A164131 n = (Nat.nth (fun k : ℕ => k ^ 2 ≡ 2 [MOD 31]) (n - 1) : ℤ)` in `Proof.A164.A164131`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A164131.P5745600518702844297
@@ -4248,7 +4248,7 @@ end A164134.P11219119252759969383
 
 The programs for A164135, the canonical program `A164135.P7674206916984917697` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164135 has offset 1).
 
-The definition of A164135 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A164135 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A164135.anchor (n : ℕ) (hn : 1 ≤ n) : A164135 n = (Nat.nth (fun k : ℕ => k ^ 2 ≡ 2 [MOD 47]) (n - 1) : ℤ)` in `Proof.A164.A164135`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A164135.P7418094342221644195

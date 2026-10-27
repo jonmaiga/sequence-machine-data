@@ -1152,7 +1152,7 @@ end A126108.P7941624825414239960
 /-!
 # A126109: a(n) = (5*10^n + 1)/3.
 
-The programs for A126109, the canonical program `A126109.P10452884679083135415` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126109 has offset 0).
+The programs for A126109, the canonical program `A126109.P10452884679083135415` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126109 has offset 0).
 
 The definition of A126109 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*10^n+1)/3` (program `A126109.P16866888521609201602`, by `A126109.P16866888521609201602.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1203,7 +1203,7 @@ end A126109
 
 `10*a(n-1)-3` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A126109
@@ -1680,7 +1680,7 @@ end A126112.P16192717673563129786
 /-!
 # A126114: Ultimate fixed-point under the mapping n->f(n), where f(n)=n if n is square else f(n)=n-Floor(Sqrt(n)).
 
-The programs for A126114, the canonical program `A126114.P16208900852689156505` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126114 has offset 1).
+The programs for A126114, the canonical program `A126114.P16208900852689156505` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126114 has offset 1).
 
 The definition of A126114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1689,7 +1689,7 @@ The definition of A126114 is `conjectured`: the Lean definition is a formula tha
 
 `(n%floor(sqrt(n+1))+1)²`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A126114

@@ -1367,6 +1367,12 @@ namespace A176915
 def P14650837562003562615.Spec : Prop :=
   ∀ n, P14650837562003562615.a n = (A176915 (n + 1) : ℚ)
 
+theorem P14650837562003562615.correct : P14650837562003562615.Spec := by
+  intro n
+  simp only [A176915, Nat.add_sub_cancel, A176915.P14650837562003562615.a, A176915.P10687562346099040879.a, A014574, A014574.P4587706211531852143.a, A054735, A054735.P17392456198016609014.a, A078571, A078571.P1736636003966483613.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A129297, A129297.P6596998359982084627.f1, A129297.P6596998359982084627.f2, A129297.P6596998359982084627.a, A000010, A000010.P4673923239450215316.a, A063919, A063919.P11181265949704613022.a, A166597, A166597.P14552351031517696526.a, A000007, A000007.P6599383543502402472.a, A003557, A003557.P6364735403900941810.a, A034460, A034460.P1958235575820581513.a, A054541, A054541.P347795157194570387.a, A095117, A095117.P12920599782158258117.f2, A095117.P12920599782158258117.f1, A095117.P12920599782158258117.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A176915
 
 /-! ## A176915.P365542776877882916
@@ -1389,6 +1395,12 @@ namespace A176915
 /-- `A111046(n+1)/4-A078571(n+1)` -/
 def P365542776877882916.Spec : Prop :=
   ∀ n, P365542776877882916.a n = (A176915 (n + 1) : ℚ)
+
+theorem P365542776877882916.correct : P365542776877882916.Spec := by
+  intro n
+  simp only [A176915, Nat.add_sub_cancel, A176915.P365542776877882916.a, A176915.P10687562346099040879.a, A014574, A014574.P4587706211531852143.a, A078571, A078571.P1736636003966483613.a, A111046, A111046.P4495621465565882332.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A054735, A054735.P17392456198016609014.a, A129297, A129297.P6596998359982084627.f1, A129297.P6596998359982084627.f2, A129297.P6596998359982084627.a, A000010, A000010.P4673923239450215316.a, A063919, A063919.P11181265949704613022.a, A166597, A166597.P14552351031517696526.a, A000007, A000007.P6599383543502402472.a, A003557, A003557.P6364735403900941810.a, A034460, A034460.P1958235575820581513.a, A054541, A054541.P347795157194570387.a, A095117, A095117.P12920599782158258117.f2, A095117.P12920599782158258117.f1, A095117.P12920599782158258117.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A176915
 
@@ -4057,7 +4069,7 @@ end A176962.P3586059650037437031
 /-!
 # A176963: a(n) = (10*4^n - 3*(-4)^n - 22)/30.
 
-The programs for A176963, the canonical program `A176963.P1137379381152008517` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176963 has offset 1).
+The programs for A176963, the canonical program `A176963.P1137379381152008517` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176963 has offset 1).
 
 The definition of A176963 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10*4^(n+1)-3*(-4)^(n+1)-22)/30` (program `A176963.P12615328682470765563`, by `A176963.P12615328682470765563.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4108,7 +4120,7 @@ end A176963
 
 `16*a(n-2)+11` with `a(0)=1, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A176963
@@ -4404,7 +4416,7 @@ end A176964.P10070816146989763040
 /-!
 # A176965: a(n) = 2^(n-1) - (2^n*(-1)^n + 2)/3.
 
-The programs for A176965, the canonical program `A176965.P12016747531622511461` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176965 has offset 1).
+The programs for A176965, the canonical program `A176965.P12016747531622511461` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176965 has offset 1).
 
 The definition of A176965 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n-(2^(n+1)*(-1)^(n+1)+2)/3` (program `A176965.P116604102258624171`, by `A176965.P116604102258624171.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4576,7 +4588,7 @@ end A176965
 
 `2*(2^n-1-a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A176965

@@ -735,7 +735,7 @@ end A072327.P7933676909728797939
 
 The programs for A072328, the canonical program `A072328.P902276230658173347` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072328 has offset 0).
 
-The definition of A072328 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 549 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A072328 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A072328.anchor : A072328 0 = 3 ∧ A072328 1 = 0 ∧ A072328 2 = 2 ∧ ∀ n, A072328 (n + 3) = A072328 (n + 1) + 2 * A072328 n` in `Proof.A072.A072328`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A072328.P15414953280892821517

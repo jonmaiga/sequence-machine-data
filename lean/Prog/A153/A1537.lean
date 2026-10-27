@@ -1978,6 +1978,12 @@ namespace A153733
 def P3038898480160503165.Spec : Prop :=
   ∀ n, P3038898480160503165.a n = A153733 n
 
+theorem P3038898480160503165.correct : P3038898480160503165.Spec := by
+  intro n
+  simp only [A153733, Nat.add_sub_cancel, A153733.P3038898480160503165.a, A153733.P10755713114946739736.a, A000265, A000265.P16482698636471710744.a, A331739, A331739.P457850794578440847.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A153733
 
 /-! ## A153733.P10755713114946739736
@@ -5489,7 +5495,7 @@ end A153766
 /-!
 # A153767: Primes p such that 8*p - 9 is also prime.
 
-The programs for A153767, the canonical program `A153767.P9865033134181886686` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153767 has offset 1).
+The programs for A153767, the canonical program `A153767.P9865033134181886686` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153767 has offset 1).
 
 The definition of A153767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1362 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5498,7 +5504,7 @@ The definition of A153767 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A153766(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153767
@@ -7986,7 +7992,7 @@ end A153774
 /-!
 # A153775: Sequence S such that 1 is in S and if x is in S, then 3x-1 and 3x are in S.
 
-The programs for A153775, the canonical program `A153775.P10416961851045421435` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153775 has offset 1).
+The programs for A153775, the canonical program `A153775.P10416961851045421435` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153775 has offset 1).
 
 The definition of A153775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8067,7 +8073,7 @@ end A153775
 
 `A005823(n+2)-A132140(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153775
@@ -8661,7 +8667,7 @@ end A153776
 /-!
 # A153777: Sequence S such that 1 is in S and if x is in S, then 5x-1 and 5x+1 are in S.
 
-The programs for A153777, the canonical program `A153777.P14713501118659462030` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153777 has offset 1).
+The programs for A153777, the canonical program `A153777.P14713501118659462030` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153777 has offset 1).
 
 The definition of A153777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8670,7 +8676,7 @@ The definition of A153777 is `conjectured`: the Lean definition is a formula tha
 
 `A033042(n+1)-A033042(n+1-A006257(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153777

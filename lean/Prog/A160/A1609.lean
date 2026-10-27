@@ -1017,7 +1017,7 @@ end A160907
 
 The programs for A160908, the canonical program `A160908.P5544833388897247786` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160908 has offset 1).
 
-The definition of A160908 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A069093, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A160908 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A160908.P5544833388897247786
@@ -7422,7 +7422,7 @@ end A160952.P17484369679119944381
 
 The programs for A160953, the canonical program `A160953.P8938375607108306963` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160953 has offset 1).
 
-The definition of A160953 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A069094, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A160953 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069094, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A160953.P8938375607108306963
@@ -7730,7 +7730,7 @@ end A160956
 
 The programs for A160957, the canonical program `A160957.P14327442583971557876` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160957 has offset 1).
 
-The definition of A160957 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A069095, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A160957 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069095, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A160957.P14327442583971557876

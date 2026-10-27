@@ -5015,7 +5015,7 @@ end A218151
 
 The programs for A218152, the canonical program `A218152.P17199265241831325520` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218152 has offset 0).
 
-The definition of A218152 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A218152 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A218152.anchor (n : ℕ) : (A218152 n : ℚ) = (1 + n : ℚ) + (((n : ℤ) - 1) * (n ^ 2 : ℤ) : ℚ) / 2` in `Proof.A218.A218152`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A218152.P17199265241831325520
@@ -5581,7 +5581,7 @@ end A218153.P4258237933535594261
 
 The programs for A218155, the canonical program `A218155.P8459060637168522418` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218155 has offset 1).
 
-The definition of A218155 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A218155 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A218155.anchor (n : ℕ) (hn : 1 ≤ n) : A218155 n = (Nat.nth (fun k => k % 12 ∈ ({2, 3, 6, 11} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A218.A218155`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A218155.P8459060637168522418

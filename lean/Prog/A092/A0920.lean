@@ -42,6 +42,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -341,6 +342,12 @@ namespace A092021
 def P9297308733634570050.Spec : Prop :=
   ∀ n, (P9297308733634570050.a n : ℤ) = A092021 (n + 1)
 
+theorem P9297308733634570050.correct : P9297308733634570050.Spec := by
+  intro n
+  simp only [A092021, Nat.add_sub_cancel, A092021.P9297308733634570050.f1, A092021.P9297308733634570050.f2, A092021.P9297308733634570050.a, A092021.P17155201923802105509.f1, A092021.P17155201923802105509.f2, A092021.P17155201923802105509.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A006093, A006093.P2906174024863549003.a, A133796, A133796.P4942108177998988067.a, A186621, A186621.P5089299060388261365.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001358, A001358.P632087320844056370.a, A088707, A088707.P7291141647877559993.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A092021
 
 /-! ## A092021.P11600518491517936302
@@ -406,7 +413,7 @@ end A092021
 
 The programs for A092022, the canonical program `A092022.P1203849625117540271` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092022 has offset 1).
 
-The definition of A092022 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091968, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A092022 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A092022.anchor (n : ℕ) (hn : 1 ≤ n) : A092022 n = (Nat.nth (fun k => (16 * k + 3).Prime) (n - 1) : ℤ)` in `Proof.A092.A092022`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A092022.P1203849625117540271
@@ -5879,7 +5886,7 @@ end A092073.P18119586118240903065
 
 The programs for A092074, the canonical program `A092074.P13786195185324527531` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092074 has offset 1).
 
-The definition of A092074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4895 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A092074 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A092074.anchor (n : ℕ) (hn : 1 ≤ n) : A092074 n = (Nat.nth (fun p => p.Prime ∧ p % 17 = 3) (n - 1) : ℤ)` in `Proof.A092.A092074`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A092074.P13786195185324527531

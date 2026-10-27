@@ -1355,7 +1355,7 @@ end A140317
 
 The programs for A140318, the canonical program `A140318.P14291702275352180720` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140318 has offset 0).
 
-The definition of A140318 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A140318 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140318.anchor (n : ℕ) : A140318 n = [0, 1, -1, 1, 0, -1, 1, -1, 0, 0, -1, 1, -1, 0, 1, -1, 1, 0].getD (n % 18) 0` in `Proof.A140.A140318`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140318.P14291702275352180720
@@ -6624,7 +6624,7 @@ end A140363.P9486270491142174519
 
 The programs for A140365, the canonical program `A140365.P10973033398787177259` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140365 has offset 1).
 
-The definition of A140365 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A140365 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A140365.P10973033398787177259
@@ -6882,7 +6882,7 @@ end A140365
 
 The programs for A140366, the canonical program `A140366.P6586416998045081192` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140366 has offset 1).
 
-The definition of A140366 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A140366 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A010051(6*(n+1)-1)+2*A010051(6*(n+1)-5)` (program `A140366.P6586416998045081192`, by `A140366.P6586416998045081192.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140366.P6586416998045081192
@@ -9118,7 +9118,7 @@ end A140370
 
 The programs for A140371, the canonical program `A140371.P8695306409615514492` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140371 has offset 1).
 
-The definition of A140371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A140371 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140371.anchor (n : ℕ) (hn : 1 ≤ n) : A140371 n = (Nat.nth (fun p => p.Prime ∧ p % 26 ∈ ({7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A140.A140371`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140371.P8695306409615514492
@@ -9639,7 +9639,7 @@ end A140371
 
 The programs for A140372, the canonical program `A140372.P4605066223831443741` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140372 has offset 1).
 
-The definition of A140372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A140372 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140372.anchor (n : ℕ) (hn : 1 ≤ n) : A140372 n = (Nat.nth (fun p => p.Prime ∧ p % 26 ∈ ({9} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A140.A140372`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140372.P4605066223831443741
@@ -10208,7 +10208,7 @@ end A140372
 
 The programs for A140373, the canonical program `A140373.P1707321820406862748` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140373 has offset 1).
 
-The definition of A140373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A140373 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140373.anchor (n : ℕ) (hn : 1 ≤ n) : A140373 n = (Nat.nth (fun p => p.Prime ∧ p % 26 ∈ ({11} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A140.A140373`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140373.P1707321820406862748
@@ -10756,7 +10756,7 @@ end A140373
 
 The programs for A140374, the canonical program `A140374.P8397756464974821000` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140374 has offset 1).
 
-The definition of A140374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A140374 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140374.anchor (n : ℕ) (hn : 1 ≤ n) : A140374 n = (Nat.nth (fun p => p.Prime ∧ p % 26 ∈ ({15} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A140.A140374`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140374.P8397756464974821000
@@ -11337,7 +11337,7 @@ end A140374
 
 The programs for A140375, the canonical program `A140375.P5255106742283819564` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140375 has offset 1).
 
-The definition of A140375 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A140375 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140375.anchor (n : ℕ) (hn : 1 ≤ n) : A140375 n = (Nat.nth (fun p => p.Prime ∧ p % 26 ∈ ({23} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A140.A140375`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140375.P5255106742283819564
@@ -11906,6 +11906,12 @@ namespace A140376
 /-- `record[A171435(A008595(2*n)+1)]` -/
 def P278601564767634484.Spec : Prop :=
   ∀ n, P278601564767634484.a n = A140376 (n + 1)
+
+theorem P278601564767634484.correct : P278601564767634484.Spec := by
+  intro n
+  simp only [A140376, Nat.add_sub_cancel, A140376.P278601564767634484.f1, A140376.P278601564767634484.a, A140376.P14382105918377167922.f1, A140376.P14382105918377167922.a, A008595, A008595.P16021929412859907016.a, A171435, A171435.P13410132754094429905.a, A190991, A190991.P11410187498899268460.a, A113646, A113646.P14709912826224621284.a, A299149, A299149.P8105708395331444992.a, A000265, A000265.P16482698636471710744.a, A014683, A014683.P4274130993241959458.a, A317848, A317848.P7082509478538958365.f1, A317848.P7082509478538958365.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A140376
 

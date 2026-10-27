@@ -104,7 +104,7 @@ import SequenceMachineLib.Triangle
 
 The programs for A319100, the canonical program `A319100.P5580130370207246504` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319100 has offset 1).
 
-The definition of A319100 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A293483, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A319100 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A293483, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A319100.P17875270125052409818
@@ -8336,7 +8336,7 @@ end A319182.P14607223322630732830
 
 The programs for A319183, the canonical program `A319183.P15126436683614476302` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319183 has offset 2).
 
-The definition of A319183 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A319183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A319183.P15126436683614476302

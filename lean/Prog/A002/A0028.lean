@@ -2028,7 +2028,7 @@ end A002807
 
 The programs for A002808, the canonical program `A002808.P568819275912777150` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002808 has offset 1).
 
-The definition of A002808 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A002808 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A002808.anchor (n : ℕ) (hn : 1 ≤ n) : A002808 n = (Nat.nth (fun k => 1 < k ∧ ¬ k.Prime) (n - 1) : ℤ)` in `Proof.A002.A002808`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A002808.P449999546100251884
@@ -2325,6 +2325,12 @@ namespace A002808
 def P6453576201208276133.Spec : Prop :=
   ∀ n, P6453576201208276133.a n = A002808 (n + 1)
 
+theorem P6453576201208276133.correct : P6453576201208276133.Spec := by
+  intro n
+  simp only [A002808, Nat.add_sub_cancel, A002808.P6453576201208276133.a, A002808.P568819275912777150.f1, A002808.P568819275912777150.f2, A002808.P568819275912777150.a, A000005, A000005.P16091521709108585461.a, A072668, A072668.P5648318357023435289.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A002808
 
 /-! ## A002808.P6389886485319985940
@@ -2449,6 +2455,12 @@ namespace A002808
 /-- `n+1+A073169(n+1)` -/
 def P5884665941586385377.Spec : Prop :=
   ∀ n, P5884665941586385377.a n = A002808 (n + 1)
+
+theorem P5884665941586385377.correct : P5884665941586385377.Spec := by
+  intro n
+  simp only [A002808, Nat.add_sub_cancel, A002808.P5884665941586385377.a, A002808.P568819275912777150.f1, A002808.P568819275912777150.f2, A002808.P568819275912777150.a, A000005, A000005.P16091521709108585461.a, A073169, A073169.P14738260624206914448.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A002808
 

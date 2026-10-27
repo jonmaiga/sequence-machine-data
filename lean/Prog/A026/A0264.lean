@@ -2782,6 +2782,12 @@ namespace A026424
 def P7246533517946548917.Spec : Prop :=
   ∀ n, P7246533517946548917.a n = (A026424 (n + 1) : ℚ)
 
+theorem P7246533517946548917.correct : P7246533517946548917.Spec := by
+  intro n
+  simp only [A026424, Nat.add_sub_cancel, A026424.P7246533517946548917.a, A026424.P11341999496382344124.f1, A026424.P11341999496382344124.a, A061019, A061019.P3085281496578978067.a, A063745, A063745.P6674532134331063017.a, A008836, A008836.P691704047226663751.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A026424
 
 /-! ## A026424.P11341999496382344124
@@ -3772,7 +3778,7 @@ end A026429.P14140887971856052042
 
 The programs for A026430, the canonical program `A026430.P14890685957938381463` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026430 has offset 0).
 
-The definition of A026430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A026430 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A026430.anchor (n : ℕ) : A026430 n = ((∑ i ∈ Finset.range n, (1 + (Nat.digits 2 i).sum % 2) : ℕ) : ℤ)` in `Proof.A026.A026430`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A026430.P4654403379852210456

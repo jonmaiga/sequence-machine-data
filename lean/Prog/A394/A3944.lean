@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -84,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A394400: Number of graphs with n vertices that have no induced regular subgraph of order 4 or greater.
@@ -1861,7 +1866,7 @@ end A394452.P4126538027029134360
 
 The programs for A394454, the canonical program `A394454.P627526309176184517` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394454 has offset 1).
 
-The definition of A394454 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A394454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A394454.P627526309176184517
@@ -2034,7 +2039,7 @@ end A394465.P17950525994576461561
 
 The programs for A394470, the canonical program `A394470.P12281335905416762997` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394470 has offset 1).
 
-The definition of A394470 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056169, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A394470 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A394470.P12281335905416762997
@@ -2286,6 +2291,12 @@ namespace A394481
 def P1813443253736398081.Spec : Prop :=
   ∀ n, P1813443253736398081.a n = A394481 (n + 1)
 
+theorem P1813443253736398081.correct : P1813443253736398081.Spec := by
+  intro n
+  simp only [A394481, Nat.add_sub_cancel, A394481.P1813443253736398081.a, A394481.P10475431677930788014.a, A000005, A000005.P16091521709108585461.a, A007503, A007503.P13484425310514315912.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A395435, A395435.P18346761836883339857.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, A000010, A000010.P4673923239450215316.a, A055231, A055231.P8962300905713718501.a, A057521, A057521.P7284310941140114823.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A394481
 
 /-! ## A394481.P5526202433599525160
@@ -2308,6 +2319,12 @@ namespace A394481
 /-- `A000005(n+1)+A000203(n+1)-A395435(n+1)` -/
 def P5526202433599525160.Spec : Prop :=
   ∀ n, P5526202433599525160.a n = A394481 (n + 1)
+
+theorem P5526202433599525160.correct : P5526202433599525160.Spec := by
+  intro n
+  simp only [A394481, Nat.add_sub_cancel, A394481.P5526202433599525160.a, A394481.P10475431677930788014.a, A000005, A000005.P16091521709108585461.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A395435, A395435.P18346761836883339857.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, A000010, A000010.P4673923239450215316.a, A055231, A055231.P8962300905713718501.a, A057521, A057521.P7284310941140114823.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A394481
 

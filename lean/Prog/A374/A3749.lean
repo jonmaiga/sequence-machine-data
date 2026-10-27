@@ -2934,7 +2934,7 @@ end A374928.P14690667232392829255
 
 The programs for A374929, the canonical program `A374929.P3218884029634741329` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374929 has offset 2).
 
-The definition of A374929 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001158, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A374929 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A374929.P3218884029634741329
@@ -4295,6 +4295,12 @@ namespace A374969
 /-- `A094472(n+1)-A046520(n+1)` -/
 def P14256061870625796538.Spec : Prop :=
   ∀ n, P14256061870625796538.a n = A374969 (n + 1)
+
+theorem P14256061870625796538.correct : P14256061870625796538.Spec := by
+  intro n
+  simp only [A374969, Nat.add_sub_cancel, A374969.P14256061870625796538.a, A374969.P4381911814034986725.a, A000005, A000005.P16091521709108585461.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A046520, A046520.P408125302691526791.a, A094472, A094472.P13859718929151834946.a, A000010, A000010.P4673923239450215316.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A374969
 

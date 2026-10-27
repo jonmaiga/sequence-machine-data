@@ -9156,7 +9156,7 @@ end A268370
 
 The programs for A268374, the canonical program `A268374.P9921754921464293632` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268374 has offset 1).
 
-The definition of A268374 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A267116, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A268374 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A267116, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A268374.P9921754921464293632
@@ -15289,6 +15289,12 @@ namespace A268398
 /-- `∑[gcd(A000027(n+1), A003415(n+1))]` -/
 def P11173287038921702347.Spec : Prop :=
   ∀ n, (P11173287038921702347.a n : ℤ) = A268398 (n + 1)
+
+theorem P11173287038921702347.correct : P11173287038921702347.Spec := by
+  intro n
+  simp only [A268398, Nat.add_sub_cancel, A268398.P11173287038921702347.f1, A268398.P11173287038921702347.a, A268398.P16108927674745858169.f1, A268398.P16108927674745858169.a, A000027, A000027.P10331202704469894836.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A085731, A085731.P17818604226734037125.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, A000010, A000010.P4673923239450215316.a, A349394, A349394.P210516795435731064.a, A003557, A003557.P6364735403900941810.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A268398
 

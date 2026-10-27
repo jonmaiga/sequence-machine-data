@@ -2947,7 +2947,7 @@ end A351942
 
 The programs for A351943, the canonical program `A351943.P14893176643367496958` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351943 has offset 1).
 
-The definition of A351943 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069359, A181819, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A351943 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A351943.P14893176643367496958

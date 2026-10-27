@@ -1417,7 +1417,7 @@ end A247512.P8849289439484590407
 
 The programs for A247513, the canonical program `A247513.P11269454306953394611` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247513 has offset 1).
 
-The definition of A247513 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A247513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A247513.P11269454306953394611
@@ -8904,7 +8904,7 @@ end A247582.P16026008873464766030
 
 The programs for A247584, the canonical program `A247584.P3464871262619672896` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247584 has offset 0).
 
-The definition of A247584 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 303 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A247584 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A247584.anchor : A247584 0 = 1 ∧ A247584 1 = 1 ∧ A247584 2 = 1 ∧ A247584 3 = 1 ∧ A247584 4 = 1 ∧ ∀ n, A247584 (n + 5) = 5 * A247584 (n + 4) - 10 * A247584 (n + 3) + 10 * A247584 (n + 2) - 5 * A247584 (n + 1) + 3 * A247584 n` in `Proof.A247.A247584`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A247584.P3464871262619672896

@@ -5571,7 +5571,7 @@ end A093349.P10377403380019373251
 
 The programs for A093350, the canonical program `A093350.P6153094955691601461` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093350 has offset 1).
 
-The definition of A093350 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A093350 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A093350.anchor (n : ℕ) (hn : 1 ≤ n) : A093350 n = (Nat.nth (fun p => p.Prime ∧ p % 13 ∈ ({6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A093.A093350`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A093350.P6153094955691601461
@@ -7827,7 +7827,7 @@ end A093357
 
 The programs for A093359, the canonical program `A093359.P15132916093607665240` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093359 has offset 1).
 
-The definition of A093359 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6509 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A093359 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A093359.anchor (n : ℕ) (hn : 1 ≤ n) : A093359 n = (Nat.nth (fun p => p.Prime ∧ p % 28 = 1) (n - 1) : ℤ)` in `Proof.A093.A093359`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A093359.P7715915376482634221

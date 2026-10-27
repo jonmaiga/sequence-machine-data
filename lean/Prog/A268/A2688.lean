@@ -4632,6 +4632,12 @@ namespace A268836
 def P5860201827860104540.Spec : Prop :=
   ∀ n, P5860201827860104540.a n = A268836 n
 
+theorem P5860201827860104540.correct : P5860201827860104540.Spec := by
+  intro n
+  simp only [A268836, Nat.add_sub_cancel, A268836.P5860201827860104540.f1, A268836.P5860201827860104540.a, A268836.P2302670208971616926.f1, A268836.P2302670208971616926.a, A066194, A066194.P15313669370463354763.a, A268716, A268716.P9381113325776133009.a, A006068, A006068.P433290056721054414.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A268836
 
 /-! ## A268836.P8410515497074097741
@@ -4658,6 +4664,12 @@ namespace A268836
 def P8410515497074097741.Spec : Prop :=
   ∀ n, P8410515497074097741.a n = A268836 n
 
+theorem P8410515497074097741.correct : P8410515497074097741.Spec := by
+  intro n
+  simp only [A268836, Nat.add_sub_cancel, A268836.P8410515497074097741.f1, A268836.P8410515497074097741.a, A268836.P2302670208971616926.f1, A268836.P2302670208971616926.a, A006068, A006068.P433290056721054414.a, A066194, A066194.P15313669370463354763.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A268836
 
 /-! ## A268836.P10640914505559904620
@@ -4683,6 +4695,12 @@ namespace A268836
 /-- `∑[2*(A286546(n)+n)]` -/
 def P10640914505559904620.Spec : Prop :=
   ∀ n, P10640914505559904620.a n = A268836 n
+
+theorem P10640914505559904620.correct : P10640914505559904620.Spec := by
+  intro n
+  simp only [A268836, Nat.add_sub_cancel, A268836.P10640914505559904620.f1, A268836.P10640914505559904620.a, A268836.P2302670208971616926.f1, A268836.P2302670208971616926.a, A066194, A066194.P15313669370463354763.a, A286546, A286546.P17363262112593177841.a, A006068, A006068.P433290056721054414.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A268836
 
@@ -5848,7 +5866,7 @@ end A268853.P11362866891131758035
 
 The programs for A268858, the canonical program `A268858.P6072330885185032074` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268858 has offset 1).
 
-The definition of A268858 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1970 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A268858 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A268858.anchor (n : ℕ) (hn : 1 ≤ n) : A268858 n = (Nat.nth (fun p => p.Prime ∧ p % 100 = 39) (n - 1) : ℤ)` in `Proof.A268.A268858`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A268858.P2829455959385737970
@@ -6412,7 +6430,7 @@ end A268858
 
 The programs for A268859, the canonical program `A268859.P16369049766799216394` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268859 has offset 1).
 
-The definition of A268859 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1937 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A268859 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A268859.anchor (n : ℕ) (hn : 1 ≤ n) : A268859 n = (Nat.nth (fun p => p.Prime ∧ p % 100 = 21) (n - 1) : ℤ)` in `Proof.A268.A268859`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A268859.P7669049344394215292
@@ -7009,7 +7027,7 @@ end A268859
 
 The programs for A268860, the canonical program `A268860.P17754547523521005011` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268860 has offset 1).
 
-The definition of A268860 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1976 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A268860 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A268860.anchor (n : ℕ) (hn : 1 ≤ n) : A268860 n = (Nat.nth (fun p => p.Prime ∧ p % 100 = 27) (n - 1) : ℤ)` in `Proof.A268.A268860`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A268860.P52075726586152721

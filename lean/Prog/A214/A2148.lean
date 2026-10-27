@@ -11559,7 +11559,7 @@ end A214887
 
 The programs for A214888, the canonical program `A214888.P4270454209454101815` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214888 has offset 1).
 
-The definition of A214888 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A214888 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A214888.anchor (n : ℕ) (hn : 1 ≤ n) : A214888 n = (Nat.nth (fun p => p.Prime ∧ p % 11 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A214.A214888`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A214888.P4270454209454101815
@@ -12145,7 +12145,7 @@ end A214888
 
 The programs for A214889, the canonical program `A214889.P17095536773520948583` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214889 has offset 1).
 
-The definition of A214889 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A214889 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A214889.anchor (n : ℕ) (hn : 1 ≤ n) : A214889 n = (Nat.nth (fun p => p.Prime ∧ p % 13 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A214.A214889`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A214889.P17095536773520948583
@@ -12727,7 +12727,7 @@ end A214889
 
 The programs for A214890, the canonical program `A214890.P17674179342821707442` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214890 has offset 1).
 
-The definition of A214890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A214890 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A214890.anchor (n : ℕ) (hn : 1 ≤ n) : A214890 n = (Nat.nth (fun p => p.Prime ∧ p % 17 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A214.A214890`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A214890.P17674179342821707442

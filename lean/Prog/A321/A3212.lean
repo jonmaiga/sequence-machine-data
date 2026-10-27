@@ -948,7 +948,7 @@ end A321211.P15084113422554237040
 
 The programs for A321212, the canonical program `A321212.P7524854719207607179` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321212 has offset 1).
 
-The definition of A321212 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A321212 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A321212.anchor (n : ℕ) (hn : 1 ≤ n) : A321212 n = (Nat.nth (fun k => k % 16 ∈ ({2, 3} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A321.A321212`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A321212.P7524854719207607179

@@ -6140,7 +6140,7 @@ end A131669
 
 The programs for A131670, the canonical program `A131670.P13682296779180814845` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131670 has offset 0).
 
-The definition of A131670 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A131670 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131670.anchor (n : ℕ) : A131670 n = [1, 0, -1, 0, 1].getD (n % 5) 0` in `Proof.A131.A131670`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A131670.P13682296779180814845

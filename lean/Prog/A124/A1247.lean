@@ -8455,6 +8455,12 @@ namespace A124757
 def P10906380368930599709.Spec : Prop :=
   ∀ n, P10906380368930599709.a n = A124757 n
 
+theorem P10906380368930599709.correct : P10906380368930599709.Spec := by
+  intro n
+  simp only [A124757, Nat.add_sub_cancel, A124757.P10906380368930599709.a, A124757.P9485539278718531348.f2, A124757.P9485539278718531348.f1, A124757.P9485539278718531348.a, A011371, A011371.P12398255777927387864.a, A283981, A283981.P14600652629483997425.a, A283982, A283982.P10832225324888640207.a, A000120, A000120.P2816527436160941581.a, A029931, A029931.P9873769426762813119.a, A280700, A280700.P14793683405892301722.a, A005187, A005187.P3874015513960485494.a, A029930, A029930.P3707852897458008637.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A124757
 
 /-! ## A124757.P1332781152946142185
@@ -14532,7 +14538,7 @@ end A124784.P17662475804116369915
 
 The programs for A124785, the canonical program `A124785.P12034700023160662055` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124785 has offset 1).
 
-The definition of A124785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, A115585, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A124785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A115585, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A124785.P12034700023160662055

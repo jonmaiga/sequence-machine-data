@@ -21101,7 +21101,7 @@ end A074593
 
 The programs for A074594, the canonical program `A074594.P12974540694644133885` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074594 has offset 1).
 
-The definition of A074594 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A024619, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A074594 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024619, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A074594.P12974540694644133885
@@ -21616,7 +21616,7 @@ end A074594
 
 The programs for A074595, the canonical program `A074595.P16093768430276289458` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074595 has offset 1).
 
-The definition of A074595 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A024619, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A074595 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024619, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A074595.P16093768430276289458

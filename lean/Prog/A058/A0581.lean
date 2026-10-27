@@ -23,7 +23,6 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3226,7 +3225,7 @@ end A058160.P17617073343631918934
 
 The programs for A058161, the canonical program `A058161.P7672839083223615589` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058161 has offset 1).
 
-The definition of A058161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002618, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A058161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A058161.P10778362485055123617

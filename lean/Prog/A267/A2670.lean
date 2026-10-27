@@ -9342,7 +9342,7 @@ end A267075.P10792106799927389246
 
 The programs for A267084, the canonical program `A267084.P13753241132986256046` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267084 has offset 1).
 
-The definition of A267084 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A267084 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(A007504(n+1)/(n+1))-floor(A007504(n+1)/(n+1))` (program `A267084.P13753241132986256046`, by `A267084.P13753241132986256046.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A267084.P13753241132986256046
@@ -10011,7 +10011,7 @@ end A267086.P16143526874491882377
 
 The programs for A267087, the canonical program `A267087.P15838477372030421436` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267087 has offset 1).
 
-The definition of A267087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A267087 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(A007504(n+1)/(n+1))+floor(A007504(n+1)/(n+1))` (program `A267087.P15838477372030421436`, by `A267087.P15838477372030421436.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A267087.P15838477372030421436

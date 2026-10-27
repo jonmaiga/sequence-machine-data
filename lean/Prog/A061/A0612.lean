@@ -5718,7 +5718,7 @@ end A061235.P16549123682780510835
 
 The programs for A061237, the canonical program `A061237.P5052601919176040914` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061237 has offset 1).
 
-The definition of A061237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061237 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061237.anchor (n : ℕ) (hn : 1 ≤ n) : A061237 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 1) (n - 1) : ℤ)` in `Proof.A061.A061237`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061237.P5052601919176040914
@@ -6210,7 +6210,7 @@ end A061237
 
 The programs for A061238, the canonical program `A061238.P9986579764843766772` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061238 has offset 1).
 
-The definition of A061238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061238 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061238.anchor (n : ℕ) (hn : 1 ≤ n) : A061238 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 2) (n - 1) : ℤ)` in `Proof.A061.A061238`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061238.P9986579764843766772
@@ -6738,7 +6738,7 @@ end A061238
 
 The programs for A061239, the canonical program `A061239.P10670666317298072189` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061239 has offset 1).
 
-The definition of A061239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061239 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061239.anchor (n : ℕ) (hn : 1 ≤ n) : A061239 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 4) (n - 1) : ℤ)` in `Proof.A061.A061239`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061239.P10670666317298072189
@@ -7233,7 +7233,7 @@ end A061239
 
 The programs for A061240, the canonical program `A061240.P124253332193619625` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061240 has offset 1).
 
-The definition of A061240 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061240 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061240.anchor (n : ℕ) (hn : 1 ≤ n) : A061240 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 5) (n - 1) : ℤ)` in `Proof.A061.A061240`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061240.P124253332193619625
@@ -7747,7 +7747,7 @@ end A061240
 
 The programs for A061241, the canonical program `A061241.P2300920093397169680` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061241 has offset 1).
 
-The definition of A061241 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061241 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061241.anchor (n : ℕ) (hn : 1 ≤ n) : A061241 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 7) (n - 1) : ℤ)` in `Proof.A061.A061241`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061241.P2300920093397169680
@@ -8242,7 +8242,7 @@ end A061241
 
 The programs for A061242, the canonical program `A061242.P14932047030331021065` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061242 has offset 1).
 
-The definition of A061242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A061242 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A061242.anchor (n : ℕ) (hn : 1 ≤ n) : A061242 n = (Nat.nth (fun p => p.Prime ∧ p % 9 = 8) (n - 1) : ℤ)` in `Proof.A061.A061242`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061242.P14932047030331021065

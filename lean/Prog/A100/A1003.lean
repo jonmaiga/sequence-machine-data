@@ -10484,6 +10484,12 @@ namespace A100367
 def P17665474083112890883.Spec : Prop :=
   ∀ n, P17665474083112890883.a n = A100367 (n + 1)
 
+theorem P17665474083112890883.correct : P17665474083112890883.Spec := by
+  intro n
+  simp only [A100367, Nat.add_sub_cancel, A100367.P17665474083112890883.a, A100367.P14256185625619579639.f1, A100367.P14256185625619579639.f2, A100367.P14256185625619579639.a, A336101, A336101.P16851114515148450517.f1, A336101.P16851114515148450517.f2, A336101.P16851114515148450517.a, A340373, A340373.P14030435413002856022.a, A209229, A209229.P14119267658822519212.f1, A209229.P14119267658822519212.a, A340363, A340363.P15438000431600784952.a, A000265, A000265.P16482698636471710744.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A100367
 
 /-! ## A100367.P14256185625619579639
@@ -11568,7 +11574,7 @@ end A100370.P12008921098645557372
 
 The programs for A100371, the canonical program `A100371.P1765266703165715938` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100371 has offset 1).
 
-The definition of A100371 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066781, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A100371 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A100371.P1765266703165715938
@@ -11635,6 +11641,12 @@ namespace A100371
 /-- `A243305(n+1)-2` -/
 def P5321804985561097610.Spec : Prop :=
   ∀ n, P5321804985561097610.a n = A100371 (n + 1)
+
+theorem P5321804985561097610.correct : P5321804985561097610.Spec := by
+  intro n
+  simp only [A100371, Nat.add_sub_cancel, A100371.P5321804985561097610.a, A100371.P1765266703165715938.a, A066781, A066781.P13882244352398290553.a, A243305, A243305.P11485261021790212205.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A100371
 
@@ -12032,6 +12044,12 @@ namespace A100371
 /-- `A243306(n+1)+A109606(n+1)` -/
 def P9324814608857267781.Spec : Prop :=
   ∀ n, P9324814608857267781.a n = A100371 (n + 1)
+
+theorem P9324814608857267781.correct : P9324814608857267781.Spec := by
+  intro n
+  simp only [A100371, Nat.add_sub_cancel, A100371.P9324814608857267781.a, A100371.P1765266703165715938.a, A066781, A066781.P13882244352398290553.a, A109606, A109606.P2415810041766612210.a, A243306, A243306.P11123591734652521989.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A100371
 

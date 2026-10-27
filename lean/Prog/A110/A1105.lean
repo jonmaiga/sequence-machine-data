@@ -7829,7 +7829,7 @@ end A110550
 
 The programs for A110551, the canonical program `A110551.P12701354640565623473` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110551 has offset 0).
 
-The definition of A110551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A110551 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A110551.anchor (n : ℕ) : A110551 n = (([1, 3, 5, 5, 3, 1].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A110.A110551`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A110551.P12701354640565623473
@@ -10612,7 +10612,7 @@ end A110567
 
 The programs for A110568, the canonical program `A110568.P3014510797621896198` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110568 has offset 0).
 
-The definition of A110568 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A110568 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A110568.anchor (n : ℕ) : A110568 n = (([1, 0, 2, 2, 0, 1].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A110.A110568`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A110568.P3014510797621896198
@@ -10639,7 +10639,7 @@ end A110568
 
 The programs for A110569, the canonical program `A110569.P3393559627300077741` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110569 has offset 0).
 
-The definition of A110569 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A110569 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A110569.anchor (n : ℕ) : A110569 n = (([2, 1, 3, 3, 1, 2].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A110.A110569`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A110569.P3393559627300077741

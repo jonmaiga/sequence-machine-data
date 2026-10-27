@@ -1145,7 +1145,7 @@ end A340225.P8925709392865980553
 
 The programs for A340227, the canonical program `A340227.P47039189013440188` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340227 has offset 1).
 
-The definition of A340227 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A074816, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A340227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A340227.P47039189013440188
@@ -3947,7 +3947,7 @@ end A340264.P8973456577793740316
 
 The programs for A340265, the canonical program `A340265.P16762526161692690489` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340265 has offset 1).
 
-The definition of A340265 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A340265 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+2-a(A000010(n+1)-1)` (program `A340265.P16762526161692690489`, by `A340265.P16762526161692690489.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A340265.P16762526161692690489
@@ -4038,6 +4038,12 @@ namespace A340265
 /-- `n+2-a(n-A051953(n+1))` -/
 def P13470195165092171907.Spec : Prop :=
   ∀ n, P13470195165092171907.a n = A340265 (n + 1)
+
+theorem P13470195165092171907.correct : P13470195165092171907.Spec := by
+  intro n
+  simp only [A340265, Nat.add_sub_cancel, A340265.P13470195165092171907.a, A340265.P16762526161692690489.a, A000010, A000010.P4673923239450215316.a, A051953, A051953.P11179276897610979764.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A340265
 
@@ -6443,7 +6449,7 @@ end A340295.P13544311465374616110
 
 The programs for A340297, the canonical program `A340297.P13267164341199688447` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340297 has offset 2).
 
-The definition of A340297 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, A023896, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A340297 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023896, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A340297.P13267164341199688447

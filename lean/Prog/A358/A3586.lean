@@ -1552,7 +1552,7 @@ end A358620
 /-!
 # A358622: Regular triangle read by rows. T(n, k) = [[n, k]], where [[n, k]] are the second order Stirling cycle numbers (or second order reciprocal Stirling numbers). T(n, k) for 0 <= k <= n.
 
-The programs for A358622, the canonical program `A358622.P17009841927911290961` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358622 has offset 0).
+The programs for A358622, the canonical program `A358622.P17009841927911290961` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358622 has offset 0).
 
 The definition of A358622 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2557 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1561,7 +1561,7 @@ The definition of A358622 is `conjectured`: the Lean definition is a formula tha
 
 `(row(n)-1)*(T(n-1,k)+T(n-2,k-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A358622
@@ -1602,7 +1602,7 @@ end A358622
 /-!
 # A358623: Regular triangle read by rows. T(n, k) = {{n, k}}, where {{n, k}} are the second order Stirling set numbers (or second order Stirling numbers). T(n, k) for 0 <= k <= n.
 
-The programs for A358623, the canonical program `A358623.P1549674181836001857` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358623 has offset 0).
+The programs for A358623, the canonical program `A358623.P1549674181836001857` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358623 has offset 0).
 
 The definition of A358623 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1611,7 +1611,7 @@ The definition of A358623 is `conjectured`: the Lean definition is a formula tha
 
 `(row(n)-1)*T(n-2,k-1)+col(n)*T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A358623
@@ -2535,7 +2535,7 @@ end A358654
 /-!
 # A358655: a(n) is the number of distinct scalar products which can be formed by pairs of signed permutations (V, W) of [n].
 
-The programs for A358655, the canonical program `A358655.P12169393783642234653` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358655 has offset 0).
+The programs for A358655, the canonical program `A358655.P12169393783642234653` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358655 has offset 0).
 
 The definition of A358655 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2544,7 +2544,7 @@ The definition of A358655 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=7, a(3)=24, a(4)=61, a(5)=111, a(6)=183, a(7)=281`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A358655
@@ -4517,6 +4517,12 @@ namespace A358680
 /-- `1-A165560(n)` -/
 def P17377524191234376235.Spec : Prop :=
   ∀ n, P17377524191234376235.a n = A358680 n
+
+theorem P17377524191234376235.correct : P17377524191234376235.Spec := by
+  intro n
+  simp only [A358680, Nat.add_sub_cancel, A358680.P17377524191234376235.a, A358680.P17815025508061281044.a, A165560, A165560.P13564864469092298929.a, A353494, A353494.P3598383137759262776.a, A353495, A353495.P17772211378509351063.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, A000010, A000010.P4673923239450215316.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A358680
 

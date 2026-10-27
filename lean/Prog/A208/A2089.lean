@@ -6129,7 +6129,7 @@ end A208950
 
 The programs for A208954, the canonical program `A208954.P13398151489296596241` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208954 has offset 1).
 
-The definition of A208954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A208954 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A208954.anchor (n : ℕ) : (A208954 (n + 1) : ℚ) = ((n + 1) ^ 4 * n * (n + 2) : ℚ) / 12` in `Proof.A208.A208954`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A208954.P13398151489296596241

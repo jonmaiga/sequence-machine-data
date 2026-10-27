@@ -4097,7 +4097,7 @@ end A171140
 
 The programs for A171141, the canonical program `A171141.P3600065989061138362` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171141 has offset 1).
 
-The definition of A171141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A171141 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A171141.anchor (n : ℕ) (hn : 1 ≤ n) : A171141 n = (Nat.nth (fun k => k % 41 ∈ ({6, 33} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A171.A171141`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A171141.P3600065989061138362
@@ -5538,6 +5538,12 @@ namespace A171153
 def P7829647971808437044.Spec : Prop :=
   ∀ n, P7829647971808437044.a n = A171153 (n + 1)
 
+theorem P7829647971808437044.correct : P7829647971808437044.Spec := by
+  intro n
+  simp only [A171153, Nat.add_sub_cancel, A171153.P7829647971808437044.a, A171153.P4763760712593806838.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A308833, A308833.P17401601876213426740.f1, A308833.P17401601876213426740.f2, A308833.P17401601876213426740.a, A000007, A000007.P6599383543502402472.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A171153
 
 /-! ## A171153.P2871063628385273817
@@ -6180,7 +6186,7 @@ end A171156.P1966209124422125518
 
 The programs for A171157, the canonical program `A171157.P8672816315949041848` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171157 has offset 1).
 
-The definition of A171157 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A171157 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A171157.P11947267265824899883

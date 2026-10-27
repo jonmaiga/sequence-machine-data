@@ -3985,7 +3985,7 @@ end A362948.P17604250061170391071
 
 The programs for A362951, the canonical program `A362951.P3946018214728712457` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362951 has offset 1).
 
-The definition of A362951 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A169814, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A362951 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A362951.P3946018214728712457
@@ -5838,6 +5838,12 @@ namespace A362983
 /-- `A001222(n+1)-A067029(n+1)` -/
 def P985398595454489324.Spec : Prop :=
   ∀ n, P985398595454489324.a n = A362983 (n + 1)
+
+theorem P985398595454489324.correct : P985398595454489324.Spec := by
+  intro n
+  simp only [A362983, Nat.add_sub_cancel, A362983.P985398595454489324.a, A362983.P10540663005040928729.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A067029, A067029.P17255758945913048832.a, A329600, A329600.P5147459895201057700.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A122111, A122111.P18124015185857335041.a, A181821, A181821.P11277667539367847379.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P10934841406439867276.a, A108951, A108951.P1294613322156543690.a, A008578, A008578.P3639467937083264764.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A362983
 

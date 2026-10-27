@@ -4492,6 +4492,12 @@ namespace A065515
 def P11680270826087325318.Spec : Prop :=
   ∀ n, P11680270826087325318.a n = A065515 (n + 1)
 
+theorem P11680270826087325318.correct : P11680270826087325318.Spec := by
+  intro n
+  simp only [A065515, Nat.add_sub_cancel, A065515.P11680270826087325318.a, A065515.P15129427044826637405.a, A025528, A025528.P16007803137134117632.f1, A025528.P16007803137134117632.a, A025532, A025532.P16291911250862818187.a, A073093, A073093.P258081957281391684.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A065515
 
 /-!
@@ -6170,7 +6176,7 @@ end A065523.P755128461263347172
 
 The programs for A065524, the canonical program `A065524.P4182551559051557307` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065524 has offset 0).
 
-The definition of A065524 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065524 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A065524.P4182551559051557307
@@ -6243,7 +6249,7 @@ end A065524
 
 The programs for A065525, the canonical program `A065525.P5304963212479784431` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065525 has offset 0).
 
-The definition of A065525 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A065525.P5304963212479784431
@@ -8074,7 +8080,7 @@ end A065551.P9733147006471966094
 
 The programs for A065552, the canonical program `A065552.P7008903542737235417` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065552 has offset 0).
 
-The definition of A065552 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065552 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(A000010(10^n)*A000203(10^n)+10^(3*n)))` (program `A065552.P7008903542737235417`, by `A065552.P7008903542737235417.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A065552.P7008903542737235417

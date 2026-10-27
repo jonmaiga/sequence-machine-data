@@ -316,7 +316,7 @@ end A337203
 
 The programs for A337204, the canonical program `A337204.P12446267727106483087` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337204 has offset 1).
 
-The definition of A337204 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, A108951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A337204 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A108951, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A337204.P12446267727106483087
@@ -4902,6 +4902,12 @@ namespace A337257
 /-- `A153823(n)+1-A336940(n)` -/
 def P4948603998447776768.Spec : Prop :=
   ∀ n, P4948603998447776768.a n = A337257 n
+
+theorem P4948603998447776768.correct : P4948603998447776768.Spec := by
+  intro n
+  simp only [A337257, Nat.add_sub_cancel, A337257.P4948603998447776768.a, A337257.P14876870470645707118.a, A027423, A027423.P14066705804803784298.a, A153823, A153823.P12958428199370976494.a, A336940, A336940.P4983532060712905772.a, A000005, A000005.P16091521709108585461.a, A000142, A000142.P3272619076580183195.a, A011371, A011371.P12398255777927387864.a, A000120, A000120.P2816527436160941581.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A337257
 

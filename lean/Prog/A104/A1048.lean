@@ -9113,6 +9113,12 @@ namespace A104895
 def P12048893683978829349.Spec : Prop :=
   ∀ n, P12048893683978829349.a n = A104895 n
 
+theorem P12048893683978829349.correct : P12048893683978829349.Spec := by
+  intro n
+  simp only [A104895, Nat.add_sub_cancel, A104895.P12048893683978829349.a, A104895.P16075429497420938870.a, A065620, A065620.P132964274324401119.a, A246159, A246159.P1140588628071788846.a, A246160, A246160.P12838974675095138970.a, A006068, A006068.P433290056721054414.a, A010059, A010059.P6338678923093357896.a, A010060, A010060.P3080921269106500717.a, A245710, A245710.P15631509805562168488.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P15313669370463354763.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A104895
 
 /-! ## A104895.P7971029097051210997
@@ -9236,6 +9242,12 @@ namespace A104895
 /-- `A065620(n)/A057428(n+1)` -/
 def P13991815573619378722.Spec : Prop :=
   ∀ n, P13991815573619378722.a n = (A104895 n : ℚ)
+
+theorem P13991815573619378722.correct : P13991815573619378722.Spec := by
+  intro n
+  simp only [A104895, Nat.add_sub_cancel, A104895.P13991815573619378722.a, A104895.P16075429497420938870.a, A057428, A057428.P2999489532230392221.a, A065620, A065620.P132964274324401119.a, A010060, A010060.P3080921269106500717.a, A057427, A057427.P3058147525557661423.a, A265263, A265263.P13560857298709796040.a, A000007, A000007.P6599383543502402472.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P15313669370463354763.a, A005187, A005187.P3874015513960485494.a, A006068, A006068.P433290056721054414.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A104895
 
@@ -9837,7 +9849,7 @@ end A104896
 
 The programs for A104897, the canonical program `A104897.P16686351449696100309` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104897 has offset 1).
 
-The definition of A104897 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014688, A104860, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A104897 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A104860, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A104897.P16686351449696100309

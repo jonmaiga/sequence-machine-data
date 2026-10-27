@@ -9983,6 +9983,12 @@ namespace A324966
 def P18347287905901509988.Spec : Prop :=
   ∀ n, P18347287905901509988.a n = A324966 (n + 1)
 
+theorem P18347287905901509988.correct : P18347287905901509988.Spec := by
+  intro n
+  simp only [A324966, Nat.add_sub_cancel, A324966.P18347287905901509988.a, A324966.P17813762556776200563.f1, A324966.P17813762556776200563.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A071986, A071986.P16196602093413610135.a, A324967, A324967.P4569383054327288296.a, A000035, A000035.P2023072528413494694.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A324966
 
 /-! ## A324966.P17813762556776200563
@@ -10465,7 +10471,7 @@ end A324966
 
 The programs for A324967, the canonical program `A324967.P4569383054327288296` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324967 has offset 1).
 
-The definition of A324967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A324966, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A324967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A324966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A324967.P4569383054327288296
@@ -10876,6 +10882,12 @@ namespace A324967
 /-- `A345278(n+1)-A344908(n+1)` -/
 def P12827096396619732871.Spec : Prop :=
   ∀ n, P12827096396619732871.a n = A324967 (n + 1)
+
+theorem P12827096396619732871.correct : P12827096396619732871.Spec := by
+  intro n
+  simp only [A324967, Nat.add_sub_cancel, A324967.P12827096396619732871.a, A324967.P4569383054327288296.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A324966, A324966.P17813762556776200563.f1, A324966.P17813762556776200563.a, A344908, A344908.P7773285099346039389.f1, A344908.P7773285099346039389.a, A345278, A345278.P16777163800638418964.a, A071986, A071986.P16196602093413610135.a, A000035, A000035.P2023072528413494694.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A324967
 

@@ -106,7 +106,7 @@ set_option linter.unreachableTactic false
 
 The programs for A248800, the canonical program `A248800.P743230182510841737` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248800 has offset 0).
 
-The definition of A248800 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A248800 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A248800.anchor (n : ℕ) : (A248800 n : ℚ) = ((2 * n ^ 2 + 3 : ℤ) + (-1) ^ n : ℚ) / 2` in `Proof.A248.A248800`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A248800.P743230182510841737

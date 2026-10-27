@@ -10834,7 +10834,7 @@ end A072760.P13463586946371314649
 
 The programs for A072762, the canonical program `A072762.P10691074695677222829` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072762 has offset 1).
 
-The definition of A072762 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A072762 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A072762.P10691074695677222829
@@ -11082,6 +11082,12 @@ namespace A072762
 def P3416481310357506903.Spec : Prop :=
   ∀ n, P3416481310357506903.a n = A072762 (n + 1)
 
+theorem P3416481310357506903.correct : P3416481310357506903.Spec := by
+  intro n
+  simp only [A072762, Nat.add_sub_cancel, A072762.P3416481310357506903.a, A072762.P10691074695677222829.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, A118255, A118255.P6599881384483095827.a, A126646, A126646.P3746310572697910447.a, A000225, A000225.P6535533121115206393.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A072762
 
 /-! ## A072762.P7231320371792949511
@@ -11104,6 +11110,12 @@ namespace A072762
 /-- `A000225(n+1)-A118255(n+1)` -/
 def P7231320371792949511.Spec : Prop :=
   ∀ n, P7231320371792949511.a n = A072762 (n + 1)
+
+theorem P7231320371792949511.correct : P7231320371792949511.Spec := by
+  intro n
+  simp only [A072762, Nat.add_sub_cancel, A072762.P7231320371792949511.a, A072762.P10691074695677222829.a, A000225, A000225.P6535533121115206393.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, A118255, A118255.P6599881384483095827.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A072762
 
@@ -14321,7 +14333,7 @@ end A072778
 
 The programs for A072779, the canonical program `A072779.P6312362607993792786` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072779 has offset 1).
 
-The definition of A072779 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A001157, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A072779 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001157(n+1)+A000010(n+1)*A000203(n+1)` (program `A072779.P6312362607993792786`, by `A072779.P6312362607993792786.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A072779.P6312362607993792786
@@ -14416,6 +14428,12 @@ namespace A072779
 def P17692705425776379946.Spec : Prop :=
   ∀ n, P17692705425776379946.a n = A072779 (n + 1)
 
+theorem P17692705425776379946.correct : P17692705425776379946.Spec := by
+  intro n
+  simp only [A072779, Nat.add_sub_cancel, A072779.P17692705425776379946.a, A072779.P6312362607993792786.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A062354, A062354.P12090896162141185075.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A072779
 
 /-! ## A072779.P1312803223036304626
@@ -14438,6 +14456,12 @@ namespace A072779
 /-- `A001157(n+1)+n²-A324331(n+1)` -/
 def P1312803223036304626.Spec : Prop :=
   ∀ n, P1312803223036304626.a n = A072779 (n + 1)
+
+theorem P1312803223036304626.correct : P1312803223036304626.Spec := by
+  intro n
+  simp only [A072779, Nat.add_sub_cancel, A072779.P1312803223036304626.a, A072779.P6312362607993792786.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A324331, A324331.P7732218609313798886.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A072779
 
@@ -14469,7 +14493,7 @@ end A072779
 
 The programs for A072780, the canonical program `A072780.P8498790961619866691` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072780 has offset 1).
 
-The definition of A072780 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A001157, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A072780 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001157(n+1)+A000010(n+1)*A000203(n+1)-2*(n+1)²` (program `A072780.P8498790961619866691`, by `A072780.P8498790961619866691.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A072780.P8498790961619866691
@@ -14535,6 +14559,12 @@ namespace A072780
 def P3452318476665337395.Spec : Prop :=
   ∀ n, P3452318476665337395.a n = A072780 (n + 1)
 
+theorem P3452318476665337395.correct : P3452318476665337395.Spec := by
+  intro n
+  simp only [A072780, Nat.add_sub_cancel, A072780.P3452318476665337395.a, A072780.P8498790961619866691.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A067558, A067558.P16712056113848255202.a, A069249, A069249.P7873536691773802356.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A072780
 
 /-! ## A072780.P14925732068034116651
@@ -14557,6 +14587,12 @@ namespace A072780
 /-- `A001157(n+1)-(A069249(n+1)+(n+1)²)` -/
 def P14925732068034116651.Spec : Prop :=
   ∀ n, P14925732068034116651.a n = A072780 (n + 1)
+
+theorem P14925732068034116651.correct : P14925732068034116651.Spec := by
+  intro n
+  simp only [A072780, Nat.add_sub_cancel, A072780.P14925732068034116651.a, A072780.P8498790961619866691.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A069249, A069249.P7873536691773802356.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A072780
 

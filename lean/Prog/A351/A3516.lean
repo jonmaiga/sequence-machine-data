@@ -594,6 +594,12 @@ namespace A351602
 def P10598369668406646589.Spec : Prop :=
   ∀ n, P10598369668406646589.a n = A351602 (n + 1)
 
+theorem P10598369668406646589.correct : P10598369668406646589.Spec := by
+  intro n
+  simp only [A351602, Nat.add_sub_cancel, A351602.P10598369668406646589.a, A351602.P15349090548129750929.a, A000027, A000027.P10331202704469894836.a, A328271, A328271.P2516295972375005117.f1, A328271.P2516295972375005117.a, A057660, A057660.P308819105178745283.a, A206369, A206369.P2534442500048428716.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A061020, A061020.P8856517168126816648.f1, A061020.P8856517168126816648.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A298473, A298473.P4129261461603736948.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A351602
 
 /-! ## A351602.P905397635259208272
@@ -4847,7 +4853,7 @@ end A351646.P11568934649279766892
 
 The programs for A351647, the canonical program `A351647.P10795607768851863414` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351647 has offset 1).
 
-The definition of A351647 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050999, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A351647 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A351647.P10795607768851863414

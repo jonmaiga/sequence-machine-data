@@ -5757,7 +5757,7 @@ end A141041
 
 The programs for A141042, the canonical program `A141042.P12825020349384849254` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141042 has offset 1).
 
-The definition of A141042 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A141042 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*A001223(n+1)` (program `A141042.P12825020349384849254`, by `A141042.P12825020349384849254.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141042.P12825020349384849254
@@ -7691,6 +7691,12 @@ namespace A141056
 /-- `A176591(n)-A159075(n)` -/
 def P11637660659605034862.Spec : Prop :=
   ∀ n, P11637660659605034862.a n = A141056 n
+
+theorem P11637660659605034862.correct : P11637660659605034862.Spec := by
+  intro n
+  simp only [A141056, Nat.add_sub_cancel, A141056.P11637660659605034862.a, A141056.P945056089172605289.f1, A141056.P945056089172605289.a, A089026, A089026.P9133057752167928232.a, A159075, A159075.P2143252049747790800.f1, A159075.P2143252049747790800.a, A176591, A176591.P1285427356219146765.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A014963, A014963.P5975177236000282614.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A080304, A080304.P9910366703239988167.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A141056
 

@@ -2827,7 +2827,7 @@ end A323914.P15477859173184805913
 
 The programs for A323915, the canonical program `A323915.P7457930734356691176` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323915 has offset 0).
 
-The definition of A323915 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A023900, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A323915 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A323915.P7457930734356691176

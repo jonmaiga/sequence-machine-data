@@ -472,7 +472,7 @@ end A336704.P6814785384773782779
 /-!
 # A336705: Coordination sequence for the half-Manhattan lattice.
 
-The programs for A336705, the canonical program `A336705.P9753560575267502364` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336705 has offset 0).
+The programs for A336705, the canonical program `A336705.P9753560575267502364` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336705 has offset 0).
 
 The definition of A336705 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -481,7 +481,7 @@ The definition of A336705 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=1, a(1)=3, a(2)=7, a(3)=12, a(4)=16`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A336705
@@ -3227,7 +3227,7 @@ end A336745.P5268527342390664306
 /-!
 # A336751: Smallest side of integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336751, the canonical program `A336751.P13144755315143841523` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336751 has offset 1).
+The programs for A336751, the canonical program `A336751.P13144755315143841523` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336751 has offset 1).
 
 The definition of A336751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3236,7 +3236,7 @@ The definition of A336751 is `conjectured`: the Lean definition is a formula tha
 
 `n%floor(sqrt(n+1))+floor(sqrt(n))+2`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A336751

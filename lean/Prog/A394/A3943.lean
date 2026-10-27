@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -69,6 +70,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A394301: a(n) is the number of unit squares in the square lattice, divided by 4, that have 1 vertex strictly inside and 3 vertices strictly outside the circle (x-1/2)^2 + (y-1/2)^2 = n, i.e., the circle centered at the deep hole.
@@ -1955,6 +1960,12 @@ namespace A394381
 /-- `A264810(floor(exp(n+1)))` -/
 def P6595561684834118036.Spec : Prop :=
   ∀ n, P6595561684834118036.a n = A394381 (n + 1)
+
+theorem P6595561684834118036.correct : P6595561684834118036.Spec := by
+  intro n
+  simp only [A394381, Nat.add_sub_cancel, A394381.P6595561684834118036.a, A394381.P15980332945039088340.a, A000149, A000149.P348263657615241890.a, A264810, A264810.P5749480952070146331.f1, A264810.P5749480952070146331.a, A264739, A264739.P12611076801907111291.f1, A264739.P12611076801907111291.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A394381
 

@@ -3606,7 +3606,7 @@ end A139512.P9386106287942214779
 
 The programs for A139513, the canonical program `A139513.P838455076749893020` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139513 has offset 1).
 
-The definition of A139513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A139513 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A139513.anchor (n : ℕ) (hn : 1 ≤ n) : A139513 n = (Nat.nth (fun p => p.Prime ∧ p % 20 ∈ ({1, 3, 7, 9} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A139.A139513`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A139513.P838455076749893020
@@ -5997,7 +5997,7 @@ end A139528
 
 The programs for A139529, the canonical program `A139529.P12100689754848944619` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139529 has offset 1).
 
-The definition of A139529 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A139530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A139529 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A139529.anchor (n : ℕ) (hn : 1 ≤ n) : A139529 n = (Nat.nth (fun k => (24 * k + 13).Prime) (n - 1) : ℤ)` in `Proof.A139.A139529`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A139529.P12100689754848944619
@@ -6546,7 +6546,7 @@ end A139529
 
 The programs for A139530, the canonical program `A139530.P2484004356892186038` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139530 has offset 1).
 
-The definition of A139530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9832 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A139530 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A139530.anchor (n : ℕ) (hn : 1 ≤ n) : A139530 n = (Nat.nth (fun p => p.Prime ∧ p % 24 = 13) (n - 1) : ℤ)` in `Proof.A139.A139530`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A139530.P2776335509328761725
@@ -10532,7 +10532,7 @@ end A139554
 
 The programs for A139555, the canonical program `A139555.P14310044146815000922` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139555 has offset 1).
 
-The definition of A139555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038610, A073093, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A139555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038610, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A139555.P3798586215199614673

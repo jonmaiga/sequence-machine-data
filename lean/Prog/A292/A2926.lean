@@ -113,7 +113,7 @@ set_option linter.unreachableTactic false
 
 The programs for A292600, the canonical program `A292600.P3914548694480041296` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292600 has offset 0).
 
-The definition of A292600 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006068, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A292600 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A006068(floor(n/2))` (program `A292600.P3914548694480041296`, by `A292600.P3914548694480041296.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A292600.P3914548694480041296
@@ -155,6 +155,12 @@ namespace A292600
 /-- `n-A292601(n)` -/
 def P1900672156745615370.Spec : Prop :=
   ∀ n, P1900672156745615370.a n = A292600 n
+
+theorem P1900672156745615370.correct : P1900672156745615370.Spec := by
+  intro n
+  simp only [A292600, Nat.add_sub_cancel, A292600.P1900672156745615370.a, A292600.P3914548694480041296.a, A006068, A006068.P433290056721054414.a, A292601, A292601.P906998299720976826.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A292600
 
@@ -270,6 +276,12 @@ namespace A292600
 /-- `A268716(A004526(n))/2` -/
 def P17708939320100931585.Spec : Prop :=
   ∀ n, P17708939320100931585.a n = (A292600 n : ℚ)
+
+theorem P17708939320100931585.correct : P17708939320100931585.Spec := by
+  intro n
+  simp only [A292600, Nat.add_sub_cancel, A292600.P17708939320100931585.a, A292600.P3914548694480041296.a, A004526, A004526.P10084182425416171735.a, A006068, A006068.P433290056721054414.a, A268716, A268716.P9381113325776133009.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A292600
 
@@ -432,6 +444,12 @@ namespace A292600
 def P74226560803360953.Spec : Prop :=
   ∀ n, P74226560803360953.a n = (A292600 n : ℚ)
 
+theorem P74226560803360953.correct : P74226560803360953.Spec := by
+  intro n
+  simp only [A292600, Nat.add_sub_cancel, A292600.P74226560803360953.a, A292600.P3914548694480041296.a, A006068, A006068.P433290056721054414.a, A008619, A008619.P16053834178911111118.a, A268716, A268716.P9381113325776133009.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A292600
 
 /-! ## A292600.P17472124429487537633
@@ -577,7 +595,7 @@ end A292600
 
 The programs for A292601, the canonical program `A292601.P906998299720976826` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292601 has offset 0).
 
-The definition of A292601 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A292600, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A292601 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n-A292600(n)` (program `A292601.P906998299720976826`, by `A292601.P906998299720976826.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A292601.P906998299720976826

@@ -6872,7 +6872,7 @@ end A290076.P11759517592045772972
 
 The programs for A290077, the canonical program `A290077.P1811018423005109397` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290077 has offset 0).
 
-The definition of A290077 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A005940, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A290077 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A290077.P1811018423005109397
@@ -6914,6 +6914,12 @@ namespace A290077
 /-- `A364568(n)+A364567(n)` -/
 def P12342078569978592287.Spec : Prop :=
   ∀ n, P12342078569978592287.a n = A290077 n
+
+theorem P12342078569978592287.correct : P12342078569978592287.Spec := by
+  intro n
+  simp only [A290077, Nat.add_sub_cancel, A290077.P12342078569978592287.a, A290077.P1811018423005109397.a, A000010, A000010.P4673923239450215316.a, A005940, A005940.P5942875842694471387.a, A364567, A364567.P9242672006614262804.a, A364568, A364568.P5776167922759784493.a, A003557, A003557.P6364735403900941810.a, A122111, A122111.P18124015185857335041.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A253563, A253563.P3695549317124564486.a, A297112, A297112.P4192810520716380487.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000120, A000120.P2816527436160941581.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A025480, A025480.P15873863116418380882.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P10934841406439867276.a, A131577, A131577.P3998309598604981540.a, A297113, A297113.P441289280190658386.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A005187, A005187.P3874015513960485494.a, A006519, A006519.P10435570611646570274.a, A008578, A008578.P3639467937083264764.a, A046660, A046660.P3614759855976580945.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A290077
 

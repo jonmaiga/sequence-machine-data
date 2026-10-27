@@ -3377,7 +3377,7 @@ end A185639.P13220915010969471372
 
 The programs for A185642, the canonical program `A185642.P16752680788415332136` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185642 has offset 2).
 
-The definition of A185642 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A008472, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A185642 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A185642.P16752680788415332136
@@ -3937,7 +3937,7 @@ end A185646.P4956057461637649744
 /-!
 # A185647: Expansion of (1+2x)*(1+2*x^2)/((1-x)*(1+x)*(1-2*x^2)).
 
-The programs for A185647, the canonical program `A185647.P13761977297937491829` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185647 has offset 0).
+The programs for A185647, the canonical program `A185647.P13761977297937491829` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185647 has offset 0).
 
 The definition of A185647 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+2x+2x^2+4x^3)/(1-3x^2+2x^4))` (program `A185647.P13761977297937491829`, by `A185647.P13761977297937491829.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3946,7 +3946,7 @@ The definition of A185647 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+2x+2x^2+4x^3)/(1-3x^2+2x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A185647
@@ -5150,7 +5150,7 @@ end A185664.P16785418404847617387
 /-!
 # A185669: a(n) = 4*n^2 + 3*n + 2.
 
-The programs for A185669, the canonical program `A185669.P13041267673244999932` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185669 has offset 0).
+The programs for A185669, the canonical program `A185669.P13041267673244999932` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185669 has offset 0).
 
 The definition of A185669 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*n²+3*n+2` (program `A185669.P13041267673244999932`, by `A185669.P13041267673244999932.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5188,7 +5188,7 @@ end A185669
 
 `4*n²+3*n+2`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A185669
@@ -5661,7 +5661,7 @@ end A185669
 
 The programs for A185670, the canonical program `A185670.P7671735460308608982` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185670 has offset 1).
 
-The definition of A185670 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063985, A100613, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A185670 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A100613, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A185670.P7671735460308608982
@@ -5761,6 +5761,12 @@ namespace A185670
 /-- `A063985(n+1)-n` -/
 def P8589696992868574936.Spec : Prop :=
   ∀ n, P8589696992868574936.a n = A185670 (n + 1)
+
+theorem P8589696992868574936.correct : P8589696992868574936.Spec := by
+  intro n
+  simp only [A185670, Nat.add_sub_cancel, A185670.P8589696992868574936.a, A185670.P7671735460308608982.a, A063985, A063985.P3942861327483730228.a, A100613, A100613.P7468063633472476903.a, A000217, A000217.P10269402890581615239.a, A002088, A002088.P11293466613211840242.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A185670
 
@@ -5862,6 +5868,12 @@ namespace A185670
 /-- `(A100613(n+1)-n)/2` -/
 def P10974417340775772095.Spec : Prop :=
   ∀ n, P10974417340775772095.a n = (A185670 (n + 1) : ℚ)
+
+theorem P10974417340775772095.correct : P10974417340775772095.Spec := by
+  intro n
+  simp only [A185670, Nat.add_sub_cancel, A185670.P10974417340775772095.a, A185670.P7671735460308608982.a, A063985, A063985.P3942861327483730228.a, A100613, A100613.P7468063633472476903.a, A000217, A000217.P10269402890581615239.a, A002088, A002088.P11293466613211840242.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A185670
 
@@ -6156,6 +6168,12 @@ namespace A185670
 /-- `A161680(n)-A015613(n+1)` -/
 def P17154723761590427284.Spec : Prop :=
   ∀ n, P17154723761590427284.a n = A185670 (n + 1)
+
+theorem P17154723761590427284.correct : P17154723761590427284.Spec := by
+  intro n
+  simp only [A185670, Nat.add_sub_cancel, A185670.P17154723761590427284.a, A185670.P7671735460308608982.a, A015613, A015613.P10342117008868844032.a, A063985, A063985.P3942861327483730228.a, A100613, A100613.P7468063633472476903.a, A161680, A161680.P17206074215489759881.a, A000217, A000217.P10269402890581615239.a, A002088, A002088.P11293466613211840242.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A185670
 

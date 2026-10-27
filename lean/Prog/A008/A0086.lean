@@ -101,7 +101,7 @@ set_option linter.unreachableTactic false
 
 The programs for A008600, the canonical program `A008600.P8081908058967824863` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008600 has offset 0).
 
-The definition of A008600 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008600 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008600.anchor (n : ℕ) : A008600 n = 18 * n` in `Proof.A008.A008600`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008600.P8081908058967824863
@@ -128,7 +128,7 @@ end A008600
 
 The programs for A008601, the canonical program `A008601.P146696909524110912` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008601 has offset 0).
 
-The definition of A008601 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008601 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008601.anchor (n : ℕ) : A008601 n = 19 * n` in `Proof.A008.A008601`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008601.P146696909524110912
@@ -155,7 +155,7 @@ end A008601
 
 The programs for A008602, the canonical program `A008602.P10803716924039054280` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008602 has offset 0).
 
-The definition of A008602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008602 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008602.anchor (n : ℕ) : A008602 n = 20 * n` in `Proof.A008.A008602`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008602.P10803716924039054280
@@ -182,7 +182,7 @@ end A008602
 
 The programs for A008603, the canonical program `A008603.P13373765567278526098` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008603 has offset 0).
 
-The definition of A008603 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008603 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008603.anchor (n : ℕ) : A008603 n = 21 * n` in `Proof.A008.A008603`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008603.P13373765567278526098
@@ -209,7 +209,7 @@ end A008603
 
 The programs for A008604, the canonical program `A008604.P4469911331699551473` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008604 has offset 0).
 
-The definition of A008604 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008604 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008604.anchor (n : ℕ) : A008604 n = 22 * n` in `Proof.A008.A008604`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008604.P4469911331699551473
@@ -236,7 +236,7 @@ end A008604
 
 The programs for A008605, the canonical program `A008605.P5066899400796399337` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008605 has offset 0).
 
-The definition of A008605 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008605 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008605.anchor (n : ℕ) : A008605 n = 23 * n` in `Proof.A008.A008605`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008605.P5066899400796399337
@@ -263,7 +263,7 @@ end A008605
 
 The programs for A008606, the canonical program `A008606.P331422733914118461` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008606 has offset 0).
 
-The definition of A008606 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008606 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008606.anchor (n : ℕ) : A008606 n = 24 * n` in `Proof.A008.A008606`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008606.P331422733914118461
@@ -290,7 +290,7 @@ end A008606
 
 The programs for A008607, the canonical program `A008607.P4608234580437606002` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008607 has offset 0).
 
-The definition of A008607 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008607 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008607.anchor (n : ℕ) : A008607 n = 25 * n` in `Proof.A008.A008607`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008607.P4608234580437606002
@@ -19115,7 +19115,7 @@ end A008682
 
 The programs for A008683, the canonical program `A008683.P10736294816071761024` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008683 has offset 1).
 
-The definition of A008683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A008683 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008683.anchor (n : ℕ) (hn : 1 ≤ n) : A008683 n = ArithmeticFunction.moebius n` in `Proof.A008.A008683`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008683.P4196062366343329730
@@ -19432,6 +19432,12 @@ namespace A008683
 def P115523869281108849.Spec : Prop :=
   ∀ n, P115523869281108849.a n = A008683 (n + 1)
 
+theorem P115523869281108849.correct : P115523869281108849.Spec := by
+  intro n
+  simp only [A008683, Nat.add_sub_cancel, A008683.P115523869281108849.a, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A007423, A007423.P17981127199039660822.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A008683
 
 /-! ## A008683.P6807549752467484664
@@ -19454,6 +19460,12 @@ namespace A008683
 /-- `A080847(n+1)-2` -/
 def P6807549752467484664.Spec : Prop :=
   ∀ n, P6807549752467484664.a n = A008683 (n + 1)
+
+theorem P6807549752467484664.correct : P6807549752467484664.Spec := by
+  intro n
+  simp only [A008683, Nat.add_sub_cancel, A008683.P6807549752467484664.a, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A080847, A080847.P17042895332239696920.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A008683
 
@@ -19478,6 +19490,12 @@ namespace A008683
 def P11634581102269533687.Spec : Prop :=
   ∀ n, P11634581102269533687.a n = A008683 (n + 1)
 
+theorem P11634581102269533687.correct : P11634581102269533687.Spec := by
+  intro n
+  simp only [A008683, Nat.add_sub_cancel, A008683.P11634581102269533687.a, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A129979, A129979.P5213750874207387056.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A008683
 
 /-! ## A008683.P3016862492446876216
@@ -19500,6 +19518,12 @@ namespace A008683
 /-- `A231821(n+1)-3` -/
 def P3016862492446876216.Spec : Prop :=
   ∀ n, P3016862492446876216.a n = A008683 (n + 1)
+
+theorem P3016862492446876216.correct : P3016862492446876216.Spec := by
+  intro n
+  simp only [A008683, Nat.add_sub_cancel, A008683.P3016862492446876216.a, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A231821, A231821.P12304754178482988977.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A008683
 

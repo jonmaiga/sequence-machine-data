@@ -2171,7 +2171,7 @@ end A217529
 
 The programs for A217530, the canonical program `A217530.P16714677509817472332` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217530 has offset 2).
 
-The definition of A217530 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A217530 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217530.anchor (n : ℕ) : (A217530 (n + 2) : ℚ) = ((n + 2) ^ 4 : ℚ) / 2 - (5 * (n + 2) ^ 3 : ℚ) / 2 + (21 * (n + 2) : ℚ) - 30` in `Proof.A217.A217530`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A217530.P16714677509817472332
@@ -5440,7 +5440,7 @@ end A217570
 
 The programs for A217571, the canonical program `A217571.P698407989893242247` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217571 has offset 1).
 
-The definition of A217571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A217571 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217571.anchor (n : ℕ) : (A217571 (n + 1) : ℚ) = ((2 * (n + 1) * (n + 6) : ℤ) + (2 * (n + 1) + 1 : ℤ) * (-1) ^ (n + 1) - 1 : ℚ) / 8` in `Proof.A217.A217571`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A217571.P698407989893242247
@@ -8884,7 +8884,7 @@ end A217587
 
 The programs for A217588, the canonical program `A217588.P3017189928646110220` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217588 has offset 1).
 
-The definition of A217588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 415 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A217588 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217588.anchor (n : ℕ) (hn : 1 ≤ n) : A217588 n = (Nat.nth (fun p => p.Prime ∧ p % 2520 ∈ ({1} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A217.A217588`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A217588.P10480821626818083950

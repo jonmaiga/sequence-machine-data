@@ -4873,7 +4873,7 @@ end A227143.P15657849816734449183
 
 The programs for A227144, the canonical program `A227144.P16854350335752723226` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227144 has offset 1).
 
-The definition of A227144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A227144 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A227144.anchor (n : ℕ) (hn : 1 ≤ n) : A227144 n = (Nat.nth (fun k => k % 24 ∈ ({1, 2, 7, 17, 23} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A227.A227144`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A227144.P16854350335752723226
@@ -5656,7 +5656,7 @@ end A227145.P12649778684357597296
 
 The programs for A227146, the canonical program `A227146.P7191999084070203408` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227146 has offset 1).
 
-The definition of A227146 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A227146 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A227146.anchor (n : ℕ) (hn : 1 ≤ n) : A227146 n = (Nat.nth (fun k => k % 24 ∈ ({5, 11, 13, 14, 19} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A227.A227146`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A227146.P7191999084070203408

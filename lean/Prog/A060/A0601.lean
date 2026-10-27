@@ -1585,7 +1585,7 @@ end A060105
 
 The programs for A060106, the canonical program `A060106.P17042916321980568887` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060106 has offset 1).
 
-The definition of A060106 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A060106 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A060106.anchor (n : ℕ) (hn : 1 ≤ n) : A060106 n = (Nat.nth (fun k => k % 12 ∈ ({1, 4, 6, 9, 11} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A060.A060106`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A060106.P17042916321980568887
@@ -2085,7 +2085,7 @@ end A060106
 
 The programs for A060107, the canonical program `A060107.P5874100404945732616` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060107 has offset 1).
 
-The definition of A060107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A060107 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A060107.anchor (n : ℕ) (hn : 1 ≤ n) : A060107 n = (Nat.nth (fun k => k % 12 ∈ ({0, 2, 3, 5, 7, 8, 10} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A060.A060107`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A060107.P5874100404945732616
@@ -2587,7 +2587,7 @@ end A060107
 
 The programs for A060108, the canonical program `A060108.P5431568237961309099` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060108 has offset 1).
 
-The definition of A060108 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007522, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A060108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A060108.P5431568237961309099

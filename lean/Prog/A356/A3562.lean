@@ -451,7 +451,7 @@ end A356212.P14291905391749933374
 
 The programs for A356217, the canonical program `A356217.P6257912872114200972` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356217 has offset 1).
 
-The definition of A356217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356217 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A022839(A000201(n+1))` (program `A356217.P6257912872114200972`, by `A356217.P6257912872114200972.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356217.P6257912872114200972
@@ -4520,7 +4520,7 @@ end A356248
 
 The programs for A356249, the canonical program `A356249.P5630374803264959714` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356249 has offset 1).
 
-The definition of A356249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064603, A319086, A356125, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A356249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A319086, A356125, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A356249.P5630374803264959714

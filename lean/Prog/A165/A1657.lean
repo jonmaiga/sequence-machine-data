@@ -3548,7 +3548,7 @@ end A165730.P10933894618319939717
 
 The programs for A165734, the canonical program `A165734.P17144810099035719709` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165734 has offset 1).
 
-The definition of A165734 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A165734 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A165734.anchor (n : ℕ) (hn : 1 ≤ n) : A165734 n = [6, 30].getD ((n - 1) % 2) 0` in `Proof.A165.A165734`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A165734.P17144810099035719709

@@ -7463,7 +7463,7 @@ end A158745
 
 The programs for A158746, the canonical program `A158746.P16753522694152937982` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158746 has offset 1).
 
-The definition of A158746 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A132233, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A158746 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A158746.anchor (n : ℕ) (hn : 1 ≤ n) : A158746 n = (Nat.nth (fun k => (30 * k + 13).Prime) (n - 1) : ℤ)` in `Proof.A158.A158746`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A158746.P16753522694152937982
@@ -12753,7 +12753,7 @@ end A158785.P5640614272461191278
 
 The programs for A158791, the canonical program `A158791.P14882095896788264991` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158791 has offset 1).
 
-The definition of A158791 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A132235, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A158791 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A158791.P14882095896788264991

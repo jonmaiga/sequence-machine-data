@@ -183,7 +183,7 @@ end A177701.P3734058557329612521
 
 The programs for A177702, the canonical program `A177702.P3114234873330636102` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177702 has offset 0).
 
-The definition of A177702 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A177702 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A177702.anchor (n : ℕ) : A177702 n = (([1, 1, 2].getD (n % 3) 0 : ℕ) : ℤ)` in `Proof.A177.A177702`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A177702.P3114234873330636102
@@ -210,7 +210,7 @@ end A177702
 
 The programs for A177704, the canonical program `A177704.P8770811667183017524` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177704 has offset 0).
 
-The definition of A177704 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A177704 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A177704.anchor (n : ℕ) : A177704 n = (([1, 1, 1, 2].getD (n % 4) 0 : ℕ) : ℤ)` in `Proof.A177.A177704`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A177704.P8770811667183017524
@@ -237,7 +237,7 @@ end A177704
 
 The programs for A177706, the canonical program `A177706.P15820019009912401589` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177706 has offset 0).
 
-The definition of A177706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A177706 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A177706.anchor (n : ℕ) : A177706 n = (([1, 1, 1, 1, 2].getD (n % 5) 0 : ℕ) : ℤ)` in `Proof.A177.A177706`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A177706.P15820019009912401589
@@ -6022,6 +6022,12 @@ namespace A177754
 /-- `∑[1-A323410(n+1)+n]` -/
 def P6538884937346540537.Spec : Prop :=
   ∀ n, P6538884937346540537.a n = A177754 (n + 1)
+
+theorem P6538884937346540537.correct : P6538884937346540537.Spec := by
+  intro n
+  simp only [A177754, Nat.add_sub_cancel, A177754.P6538884937346540537.f1, A177754.P6538884937346540537.a, A177754.P10245631934257037110.f1, A177754.P10245631934257037110.a, A047994, A047994.P3003493197761739884.a, A323410, A323410.P6927638298555409235.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A177754
 

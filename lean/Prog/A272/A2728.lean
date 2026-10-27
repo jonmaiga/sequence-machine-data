@@ -7955,7 +7955,7 @@ end A272886.P4660742871366603214
 /-!
 # A272887: Number of ways to write prime(n) as (4*x + 2)*y + 4*x + 1 where x and y are nonnegative integers.
 
-The programs for A272887, the canonical program `A272887.P6057499258403771745` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272887 has offset 1).
+The programs for A272887, the canonical program `A272887.P6057499258403771745` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272887 has offset 1).
 
 The definition of A272887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8019,7 +8019,7 @@ end A272887
 
 `A091954(p?[xor(1, n)+1]+1)%(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A272887
@@ -9184,7 +9184,7 @@ end A272897.P11641169495180076868
 /-!
 # A272898: Numbers k such that 2^k has equal numbers of odd and even decimal digits.
 
-The programs for A272898, the canonical program `A272898.P8267313110356408480` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272898 has offset 1).
+The programs for A272898, the canonical program `A272898.P8267313110356408480` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272898 has offset 1).
 
 The definition of A272898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9193,7 +9193,7 @@ The definition of A272898 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A272896(n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A272898

@@ -323,7 +323,7 @@ end A198513.P921130961626935397
 
 The programs for A198517, the canonical program `A198517.P1758663260048626451` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198517 has offset 0).
 
-The definition of A198517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A198517 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A198517.anchor (n : ℕ) : A198517 n = (([1, 0, 1, 0, 0].getD (n % 5) 0 : ℕ) : ℤ)` in `Proof.A198.A198517`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A198517.P1758663260048626451

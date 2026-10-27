@@ -268,7 +268,7 @@ end A057702.P9943807286378996431
 
 The programs for A057703, the canonical program `A057703.P9441875660912202182` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057703 has offset 0).
 
-The definition of A057703 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A057703 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A057703.anchor (n : ℕ) : (A057703 n : ℚ) = ((n : ℤ) * ((94 + 5 * n + 25 * n ^ 2 : ℤ) - (5 * n ^ 3 : ℤ) + (n ^ 4 : ℤ)) : ℚ) / 120` in `Proof.A057.A057703`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A057703.P9441875660912202182
@@ -3919,6 +3919,12 @@ namespace A057723
 /-- `A389170(n+1)+A048146(n+1)` -/
 def P5414608046403433019.Spec : Prop :=
   ∀ n, P5414608046403433019.a n = A057723 (n + 1)
+
+theorem P5414608046403433019.correct : P5414608046403433019.Spec := by
+  intro n
+  simp only [A057723, Nat.add_sub_cancel, A057723.P5414608046403433019.a, A057723.P9092718560045484766.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048146, A048146.P9985884013456677192.a, A389170, A389170.P11666675562721126669.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A057723
 

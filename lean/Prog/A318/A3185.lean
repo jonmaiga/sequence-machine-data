@@ -1282,6 +1282,12 @@ namespace A318509
 def P9875589660867723085.Spec : Prop :=
   ∀ n, P9875589660867723085.a n = A318509 (n + 1)
 
+theorem P9875589660867723085.correct : P9875589660867723085.Spec := by
+  intro n
+  simp only [A318509, Nat.add_sub_cancel, A318509.P9875589660867723085.a, A318509.P16676407723879251455.f1, A318509.P16676407723879251455.a, A002487, A002487.P6236436194084017932.a, A014963, A014963.P5975177236000282614.a, A317839, A317839.P17371659085018084050.f1, A317839.P17371659085018084050.a, A317840, A317840.P16169374628325330660.a, A319687, A319687.P11150699516326577001.a, A000120, A000120.P2816527436160941581.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A168081, A168081.P16359451533663323532.a, A317838, A317838.P14369629829777606586.a, A005187, A005187.P3874015513960485494.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A080304, A080304.P9910366703239988167.a, A317837, A317837.P16143556663053745700.f1, A317837.P16143556663053745700.a, A055615, A055615.P8993130195977213181.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A318509
 
 /-! ## A318509.P4137549313844266480
@@ -3514,7 +3520,7 @@ end A318518.P288858620147664869
 
 The programs for A318519, the canonical program `A318519.P15155889368844815815` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318519 has offset 1).
 
-The definition of A318519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A318519 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000005(n+1)*A003557(n+1)` (program `A318519.P15155889368844815815`, by `A318519.P15155889368844815815.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A318519.P15155889368844815815
@@ -3902,6 +3908,12 @@ namespace A318519
 /-- `(A048105(n+1)+A034444(n+1))*A003557(n+1)` -/
 def P3704357318064374087.Spec : Prop :=
   ∀ n, P3704357318064374087.a n = A318519 (n + 1)
+
+theorem P3704357318064374087.correct : P3704357318064374087.Spec := by
+  intro n
+  simp only [A318519, Nat.add_sub_cancel, A318519.P3704357318064374087.a, A318519.P15155889368844815815.a, A000005, A000005.P16091521709108585461.a, A003557, A003557.P6364735403900941810.a, A034444, A034444.P6574915864346323298.a, A048105, A048105.P14513846835403787716.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A318519
 

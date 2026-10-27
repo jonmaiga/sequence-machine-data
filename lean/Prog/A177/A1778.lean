@@ -6934,7 +6934,7 @@ end A177882
 
 The programs for A177883, the canonical program `A177883.P14335341884129606724` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177883 has offset 0).
 
-The definition of A177883 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A177883 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A177883.anchor (n : ℕ) : A177883 n = (([4, 5, 7, 2, 1, 8].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A177.A177883`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A177883.P14335341884129606724
@@ -8269,6 +8269,12 @@ namespace A177891
 /-- `eq[2, A001222(A001065(n+2))]+2` -/
 def P13105603288546136933.Spec : Prop :=
   ∀ n, (P13105603288546136933.a n : ℤ) = A177891 (n + 1)
+
+theorem P13105603288546136933.correct : P13105603288546136933.Spec := by
+  intro n
+  simp only [A177891, Nat.add_sub_cancel, A177891.P13105603288546136933.f1, A177891.P13105603288546136933.f2, A177891.P13105603288546136933.a, A177891.P10399352112052943989.f1, A177891.P10399352112052943989.f2, A177891.P10399352112052943989.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A177891
 

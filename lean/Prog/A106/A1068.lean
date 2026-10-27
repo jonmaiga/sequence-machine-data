@@ -6234,7 +6234,7 @@ end A106838
 
 The programs for A106839, the canonical program `A106839.P12314086640576211792` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106839 has offset 0).
 
-The definition of A106839 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A106839 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A106839.anchor (n : ℕ) : A106839 n = (Nat.nth (fun k => k % 16 ∈ ({11} : Finset ℕ)) (n) : ℤ)` in `Proof.A106.A106839`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A106839.P12314086640576211792

@@ -11107,7 +11107,7 @@ end A316386
 
 The programs for A316388, the canonical program `A316388.P10220908694329927643` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316388 has offset 1).
 
-The definition of A316388 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A316388 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(A000010(n+1)-1)+a(n-A000010(n+1))` (program `A316388.P10220908694329927643`, by `A316388.P10220908694329927643.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A316388.P4019904871240066925
@@ -11130,6 +11130,12 @@ namespace A316388
 /-- `a(A000010(n+1)-1)+a(A051953(n+1)-1)` -/
 def P4019904871240066925.Spec : Prop :=
   ∀ n, (P4019904871240066925.a n : ℤ) = A316388 (n + 1)
+
+theorem P4019904871240066925.correct : P4019904871240066925.Spec := by
+  intro n
+  simp only [A316388, Nat.add_sub_cancel, A316388.P4019904871240066925.a, A316388.P10220908694329927643.a, A000010, A000010.P4673923239450215316.a, A051953, A051953.P11179276897610979764.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A316388
 

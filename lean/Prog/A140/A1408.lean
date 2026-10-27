@@ -19727,7 +19727,7 @@ end A140898
 
 The programs for A140899, the canonical program `A140899.P7742577458487525964` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140899 has offset 0).
 
-The definition of A140899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A140899 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140899.anchor (n : ℕ) : A140899 n = (([7, 9, 5, 1, 3, 3, 1, 5, 9, 7].getD (n % 10) 0 : ℕ) : ℤ)` in `Proof.A140.A140899`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140899.P7742577458487525964

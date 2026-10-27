@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -94,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A145801: Number of islands of ones fitting in an n X n array with all ones connected only either two adjacent vertically or two adjacent horizontally.
@@ -3114,7 +3119,7 @@ end A145832.P6166319566980705203
 
 The programs for A145834, the canonical program `A145834.P17774255891438695893` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145834 has offset 1).
 
-The definition of A145834 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A075255, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A145834 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A145834.P17774255891438695893
@@ -3300,6 +3305,12 @@ namespace A145834
 /-- `A075255(A072668(n+1)+1)` -/
 def P9017032818341302266.Spec : Prop :=
   ∀ n, P9017032818341302266.a n = A145834 (n + 1)
+
+theorem P9017032818341302266.correct : P9017032818341302266.Spec := by
+  intro n
+  simp only [A145834, Nat.add_sub_cancel, A145834.P9017032818341302266.a, A145834.P17774255891438695893.a, A002808, A002808.P568819275912777150.f1, A002808.P568819275912777150.f2, A002808.P568819275912777150.a, A072668, A072668.P5648318357023435289.a, A075255, A075255.P12137973761347593222.a, A000005, A000005.P16091521709108585461.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A145834
 

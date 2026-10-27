@@ -5147,7 +5147,7 @@ end A205549
 /-!
 # A205550: Symmetric matrix by antidiagonals: C(max(g(i),g(j)),min(g(i),g(j))), where g(k)=2k-1.
 
-The programs for A205550, the canonical program `A205550.P12428340349728459363` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205550 has offset 1).
+The programs for A205550, the canonical program `A205550.P12428340349728459363` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205550 has offset 1).
 
 The definition of A205550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5156,7 +5156,7 @@ The definition of A205550 is `conjectured`: the Lean definition is a formula tha
 
 `A258993(A143182(n)+A057944(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205550
@@ -7562,7 +7562,7 @@ end A205564.P8737118645427262594
 /-!
 # A205565: Number of ways of writing n = u + v with u <= v, and u,v having in ternary representation no 3.
 
-The programs for A205565, the canonical program `A205565.P12968844545537805874` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205565 has offset 0).
+The programs for A205565, the canonical program `A205565.P12968844545537805874` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205565 has offset 0).
 
 The definition of A205565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7571,7 +7571,7 @@ The definition of A205565 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A120880(n)/2)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205565

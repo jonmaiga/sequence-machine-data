@@ -4741,7 +4741,7 @@ end A052628.P2983994442273308908
 
 The programs for A052629, the canonical program `A052629.P13429982903937823352` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052629 has offset 0).
 
-The definition of A052629 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018902, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A052629 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A052629.P13429982903937823352

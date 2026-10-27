@@ -3988,7 +3988,7 @@ end A006635
 
 The programs for A006636, the canonical program `A006636.P13460480404409758572` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006636 has offset 0).
 
-The definition of A006636 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A006636 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A006636.anchor (n : ℕ) : (A006636 n : ℚ) = ((n + 1) * (n + 2) * (n + 4) * (n + 8) * (n + 15) : ℚ) / 120` in `Proof.A006.A006636`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A006636.P13460480404409758572

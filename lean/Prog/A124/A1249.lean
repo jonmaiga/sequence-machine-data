@@ -6325,7 +6325,7 @@ end A124960
 
 The programs for A124961, the canonical program `A124961.P13095389198274275718` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124961 has offset 1).
 
-The definition of A124961 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A124961 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008683(col(n)+1)*T(n-1,k)+T(n-1,k-1)` (program `A124961.P13095389198274275718`, by `A124961.P13095389198274275718.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A124961.P13095389198274275718

@@ -584,7 +584,7 @@ end A162509.P2973951463031728
 
 The programs for A162510, the canonical program `A162510.P14867611667462240532` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162510 has offset 1).
 
-The definition of A162510 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046660, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A162510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A162510.P14867611667462240532
@@ -1068,7 +1068,7 @@ end A162510
 
 The programs for A162511, the canonical program `A162511.P10433238674007229868` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162511 has offset 1).
 
-The definition of A162511 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, A076479, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A162511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A162511.P10433238674007229868

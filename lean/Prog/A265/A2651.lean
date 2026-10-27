@@ -6523,6 +6523,12 @@ namespace A265160
 def P18056348942857936961.Spec : Prop :=
   ∀ n, P18056348942857936961.a n = A265160 (n + 1)
 
+theorem P18056348942857936961.correct : P18056348942857936961.Spec := by
+  intro n
+  simp only [A265160, Nat.add_sub_cancel, A265160.P18056348942857936961.a, A265160.P10322053366351731000.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A014193, A014193.P13203047333368208104.a, A062777, A062777.P8405652242778700290.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A265160
 
 /-! ## A265160.P18077433692707140854

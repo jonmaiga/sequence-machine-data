@@ -2431,7 +2431,7 @@ end A219028
 
 The programs for A219029, the canonical program `A219029.P12345475859855343114` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219029 has offset 1).
 
-The definition of A219029 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A219029 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n-A000010(A000010(n+1))` (program `A219029.P12345475859855343114`, by `A219029.P12345475859855343114.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A219029.P2789950166791163468
@@ -2695,6 +2695,12 @@ namespace A219029
 /-- `n+1-A039649(A039649(n+1)-1)` -/
 def P17106067421877550340.Spec : Prop :=
   ∀ n, P17106067421877550340.a n = A219029 (n + 1)
+
+theorem P17106067421877550340.correct : P17106067421877550340.Spec := by
+  intro n
+  simp only [A219029, Nat.add_sub_cancel, A219029.P17106067421877550340.a, A219029.P12345475859855343114.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A219029
 
@@ -5255,7 +5261,7 @@ end A219069
 
 The programs for A219070, the canonical program `A219070.P14543158143249078882` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219070 has offset 0).
 
-The definition of A219070 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A219070 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A219070.anchor (n : ℕ) : (A219070 n : ℚ) = ((46 * n ^ 5 + 30 * n ^ 4 + 15 * n ^ 3 : ℤ) - (n : ℤ) : ℚ) / 30` in `Proof.A219.A219070`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A219070.P14543158143249078882

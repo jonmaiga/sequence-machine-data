@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -96,6 +97,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307100: a(n) = Sum_{d|n} (tau(d)*pod(d)) where tau(k) = the number of divisors of k (A000005) and pod(k) = the product of the divisors of k (A007955).
@@ -3690,6 +3695,12 @@ namespace A307150
 def P12882610200890331488.Spec : Prop :=
   ∀ n, P12882610200890331488.a n = A307150 (n + 1)
 
+theorem P12882610200890331488.correct : P12882610200890331488.Spec := by
+  intro n
+  simp only [A307150, Nat.add_sub_cancel, A307150.P12882610200890331488.a, A307150.P1332541620232911485.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A007913, A007913.P8131970495124731496.a, A008833, A008833.P11016767941717339701.f1, A008833.P11016767941717339701.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A307150
 
 /-! ## A307150.P17382387617491820542
@@ -4008,7 +4019,7 @@ end A307151
 
 The programs for A307152, the canonical program `A307152.P11500915941825313180` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307152 has offset 1).
 
-The definition of A307152 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002144, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A307152 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((A002144(n+1)+19)/24)` (program `A307152.P11500915941825313180`, by `A307152.P11500915941825313180.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A307152.P11500915941825313180

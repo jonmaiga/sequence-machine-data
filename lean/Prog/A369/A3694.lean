@@ -2744,7 +2744,7 @@ end A369427
 /-!
 # A369428: The number of exponents in the prime factorization of n that are squares.
 
-The programs for A369428, the canonical program `A369428.P15870185605642581641` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369428 has offset 1).
+The programs for A369428, the canonical program `A369428.P15870185605642581641` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369428 has offset 1).
 
 The definition of A369428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2753,7 +2753,7 @@ The definition of A369428 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A010052(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A369428
@@ -5122,6 +5122,12 @@ namespace A369458
 /-- `A369465(A364258(n)+n)` -/
 def P17740873079275958193.Spec : Prop :=
   ∀ n, P17740873079275958193.a n = A369458 n
+
+theorem P17740873079275958193.correct : P17740873079275958193.Spec := by
+  intro n
+  simp only [A369458, Nat.add_sub_cancel, A369458.P17740873079275958193.a, A369458.P12459843309324393945.a, A163511, A163511.P5635496813650871695.a, A364258, A364258.P6786196179042320049.a, A369465, A369465.P18253036522274647247.a, A000265, A000265.P16482698636471710744.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A145342, A145342.P11180459690303212781.a, A253563, A253563.P3695549317124564486.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000120, A000120.P2816527436160941581.a, A025480, A025480.P15873863116418380882.a, A145341, A145341.P17834554394848515737.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, A000010, A000010.P4673923239450215316.a, A005187, A005187.P3874015513960485494.a, A006519, A006519.P10435570611646570274.a, A030101, A030101.P16184294017372777612.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A369458
 

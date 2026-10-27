@@ -2345,7 +2345,7 @@ end A055928
 
 The programs for A055929, the canonical program `A055929.P14119917498007259059` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055929 has offset 1).
 
-The definition of A055929 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048855, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A055929 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A055929.P14119917498007259059
@@ -14978,7 +14978,7 @@ end A055992.P18192377843626377317
 
 The programs for A055993, the canonical program `A055993.P16266584228034744191` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055993 has offset 1).
 
-The definition of A055993 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055772, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A055993 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A055993.P16266584228034744191
@@ -15020,6 +15020,12 @@ namespace A055993
 /-- `A056630(n+1)+A056629(n+1)` -/
 def P15854596371284395233.Spec : Prop :=
   ∀ n, P15854596371284395233.a n = A055993 (n + 1)
+
+theorem P15854596371284395233.correct : P15854596371284395233.Spec := by
+  intro n
+  simp only [A055993, Nat.add_sub_cancel, A055993.P15854596371284395233.a, A055993.P16266584228034744191.a, A000005, A000005.P16091521709108585461.a, A055772, A055772.P17344968557640667669.a, A056629, A056629.P11889635236478649752.a, A056630, A056630.P5612160869139664206.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A034444, A034444.P6574915864346323298.a, A055071, A055071.P16321007213921378376.a, A056627, A056627.P7295245360470113496.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A008833, A008833.P11016767941717339701.f1, A008833.P11016767941717339701.a, A055230, A055230.P2629812307315848114.a, A055204, A055204.P17370574123234970740.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A055993
 
@@ -15066,6 +15072,12 @@ namespace A055993
 /-- `A027423(n+1)-A056596(n+1)` -/
 def P14959401241159665067.Spec : Prop :=
   ∀ n, P14959401241159665067.a n = A055993 (n + 1)
+
+theorem P14959401241159665067.correct : P14959401241159665067.Spec := by
+  intro n
+  simp only [A055993, Nat.add_sub_cancel, A055993.P14959401241159665067.a, A055993.P16266584228034744191.a, A000005, A000005.P16091521709108585461.a, A027423, A027423.P14066705804803784298.a, A055772, A055772.P17344968557640667669.a, A056596, A056596.P5937118824382541668.a, A000142, A000142.P3272619076580183195.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A055071, A055071.P16321007213921378376.a, A008833, A008833.P11016767941717339701.f1, A008833.P11016767941717339701.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A055993
 

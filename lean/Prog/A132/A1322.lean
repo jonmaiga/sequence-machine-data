@@ -3866,7 +3866,7 @@ end A132229.P11791563268872103640
 
 The programs for A132230, the canonical program `A132230.P4618418594459579216` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132230 has offset 1).
 
-The definition of A132230 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9807 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132230 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132230.anchor (n : ℕ) (hn : 1 ≤ n) : A132230 n = (Nat.nth (fun p => p.Prime ∧ p % 30 = 1) (n - 1) : ℤ)` in `Proof.A132.A132230`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132230.P8293355564093668128
@@ -4445,7 +4445,7 @@ end A132230
 
 The programs for A132231, the canonical program `A132231.P11772431074694670776` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132231 has offset 1).
 
-The definition of A132231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132231 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132231.anchor (n : ℕ) (hn : 1 ≤ n) : A132231 n = (Nat.nth (fun p => p.Prime ∧ p % 30 ∈ ({7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A132.A132231`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132231.P16737396200708838550
@@ -5024,7 +5024,7 @@ end A132231
 
 The programs for A132232, the canonical program `A132232.P17181212716862781830` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132232 has offset 1).
 
-The definition of A132232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9810 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132232 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132232.anchor (n : ℕ) (hn : 1 ≤ n) : A132232 n = (Nat.nth (fun p => p.Prime ∧ p % 30 = 11) (n - 1) : ℤ)` in `Proof.A132.A132232`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132232.P12869494045548537204
@@ -5573,7 +5573,7 @@ end A132232
 
 The programs for A132233, the canonical program `A132233.P2149782464708551670` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132233 has offset 1).
 
-The definition of A132233 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9824 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132233 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132233.anchor (n : ℕ) (hn : 1 ≤ n) : A132233 n = (Nat.nth (fun p => p.Prime ∧ p % 30 = 13) (n - 1) : ℤ)` in `Proof.A132.A132233`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132233.P14722022479868783092
@@ -6701,7 +6701,7 @@ end A132234
 
 The programs for A132235, the canonical program `A132235.P10341566646599893326` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132235 has offset 1).
 
-The definition of A132235 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9840 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132235 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132235.anchor (n : ℕ) (hn : 1 ≤ n) : A132235 n = (Nat.nth (fun p => p.Prime ∧ p % 30 = 23) (n - 1) : ℤ)` in `Proof.A132.A132235`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132235.P9757391820934128404
@@ -7287,7 +7287,7 @@ end A132235
 
 The programs for A132236, the canonical program `A132236.P8388629359003525466` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132236 has offset 1).
 
-The definition of A132236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9805 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A132236 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132236.anchor (n : ℕ) (hn : 1 ≤ n) : A132236 n = (Nat.nth (fun p => p.Prime ∧ p % 30 = 29) (n - 1) : ℤ)` in `Proof.A132.A132236`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132236.P4753198332838772294
@@ -12133,6 +12133,12 @@ namespace A132247
 def P11835961840035284133.Spec : Prop :=
   ∀ n, P11835961840035284133.a n = A132247 (n + 1)
 
+theorem P11835961840035284133.correct : P11835961840035284133.Spec := by
+  intro n
+  simp only [A132247, Nat.add_sub_cancel, A132247.P11835961840035284133.a, A132247.P15172244579046915172.a, A001097, A001097.P13187098143555915233.a, A171688, A171688.P7072917769576396976.a, A171821, A171821.P6124203405807324285.a, A077800, A077800.P16009445446139691322.a, A130706, A130706.P15856520674389082666.a, A096281, A096281.P9870488552655544131.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A132247
 
 /-! ## A132247.P14128812196462249129
@@ -12276,6 +12282,12 @@ namespace A132247
 /-- `A171821(n+5)` -/
 def P12351946904642325627.Spec : Prop :=
   ∀ n, P12351946904642325627.a n = A132247 (n + 1)
+
+theorem P12351946904642325627.correct : P12351946904642325627.Spec := by
+  intro n
+  simp only [A132247, Nat.add_sub_cancel, A132247.P12351946904642325627.a, A132247.P15172244579046915172.a, A001097, A001097.P13187098143555915233.a, A171821, A171821.P6124203405807324285.a, A077800, A077800.P16009445446139691322.a, A130706, A130706.P15856520674389082666.a, A096281, A096281.P9870488552655544131.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A132247
 

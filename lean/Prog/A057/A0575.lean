@@ -4527,7 +4527,7 @@ end A057520.P13100401510134085242
 
 The programs for A057521, the canonical program `A057521.P7284310941140114823` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057521 has offset 1).
 
-The definition of A057521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A057521 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A057521.anchor (n : ℕ) (hn : 1 ≤ n) : A057521 n = ((∏ p ∈ n.primeFactors with 2 ≤ n.factorization p, p ^ n.factorization p : ℕ) : ℤ)` in `Proof.A057.A057521`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A057521.P10522796459808370021

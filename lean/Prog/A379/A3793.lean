@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -86,6 +87,10 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A379300: Number of prime indices of n that are composite.
 
@@ -114,6 +119,12 @@ namespace A379300
 /-- `A001222(n+1)-A379311(n+1)` -/
 def P13678646584841804484.Spec : Prop :=
   ∀ n, P13678646584841804484.a n = A379300 (n + 1)
+
+theorem P13678646584841804484.correct : P13678646584841804484.Spec := by
+  intro n
+  simp only [A379300, Nat.add_sub_cancel, A379300.P13678646584841804484.a, A379300.P4239644402952488053.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A087436, A087436.P13287701826401831056.a, A360329, A360329.P2369050767270655281.a, A379311, A379311.P6504775159606680234.a, A007814, A007814.P13537437864234730737.a, A360325, A360325.P5141515659105753962.a, A001511, A001511.P17146462531039486101.a, A003602, A003602.P7612175048291952394.a, A003963, A003963.P6853423646423809573.a, A321874, A321874.P10299144503015706191.a, A006519, A006519.P10435570611646570274.a, A064988, A064988.P936164228496250104.f1, A064988.P936164228496250104.a, A110963, A110963.P3344771894533151408.a, A156552, A156552.P4268073137713085227.a, A243499, A243499.P13821279400790425584.a, A304203, A304203.P18269401981959007266.f1, A304203.P18269401981959007266.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A379300
 
@@ -205,6 +216,12 @@ namespace A379300
 /-- `A007814(n+1)+A087436(n+1)-A379311(n+1)` -/
 def P17483987835253693832.Spec : Prop :=
   ∀ n, P17483987835253693832.a n = A379300 (n + 1)
+
+theorem P17483987835253693832.correct : P17483987835253693832.Spec := by
+  intro n
+  simp only [A379300, Nat.add_sub_cancel, A379300.P17483987835253693832.a, A379300.P4239644402952488053.a, A007814, A007814.P13537437864234730737.a, A087436, A087436.P13287701826401831056.a, A360329, A360329.P2369050767270655281.a, A379311, A379311.P6504775159606680234.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001511, A001511.P17146462531039486101.a, A360325, A360325.P5141515659105753962.a, A003602, A003602.P7612175048291952394.a, A003963, A003963.P6853423646423809573.a, A006519, A006519.P10435570611646570274.a, A321874, A321874.P10299144503015706191.a, A064988, A064988.P936164228496250104.f1, A064988.P936164228496250104.a, A110963, A110963.P3344771894533151408.a, A156552, A156552.P4268073137713085227.a, A171977, A171977.P14092944863121073856.a, A243499, A243499.P13821279400790425584.a, A304203, A304203.P18269401981959007266.f1, A304203.P18269401981959007266.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A379300
 
@@ -690,7 +707,7 @@ end A379310.P4953694671954253217
 
 The programs for A379311, the canonical program `A379311.P6504775159606680234` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379311 has offset 1).
 
-The definition of A379311 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A379300, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A379311 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A379300, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A379311.P6504775159606680234

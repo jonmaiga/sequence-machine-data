@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -78,6 +79,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A253301: Complement of the Beatty sequence for sqrt(Pi*phi), where phi is the golden ratio.
@@ -1350,6 +1355,12 @@ namespace A253315
 /-- `A261283(A004526(n))+A000038(n+1)` -/
 def P11546202438839745408.Spec : Prop :=
   ∀ n, P11546202438839745408.a n = A253315 n
+
+theorem P11546202438839745408.correct : P11546202438839745408.Spec := by
+  intro n
+  simp only [A253315, Nat.add_sub_cancel, A253315.P11546202438839745408.a, A253315.P14136227825810400919.a, A000038, A000038.P13734959004655594922.a, A004526, A004526.P10084182425416171735.a, A261283, A261283.P16041338717505093880.a, A000007, A000007.P6599383543502402472.a, A006068, A006068.P433290056721054414.a, A355340, A355340.P14945894853618665035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A253315
 

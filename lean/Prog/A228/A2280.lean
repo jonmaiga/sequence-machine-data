@@ -8301,7 +8301,7 @@ end A228091.P9291423172488148658
 
 The programs for A228093, the canonical program `A228093.P7511362443758941122` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228093 has offset 1).
 
-The definition of A228093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1653 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A228093 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A228093.anchor (n : ℕ) (hn : 1 ≤ n) : A228093 n = (Nat.nth (fun p => p.Prime ∧ p % 504 ∈ ({5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A228.A228093`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228093.P7511362443758941122

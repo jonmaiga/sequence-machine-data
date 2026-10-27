@@ -13991,7 +13991,7 @@ end A156094
 /-!
 # A156095: 5 F(2n) (F(2n) + 1) + 1 where F(n) denotes the n-th Fibonacci number.
 
-The programs for A156095, the canonical program `A156095.P2818468788260809205` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156095 has offset 0).
+The programs for A156095, the canonical program `A156095.P2818468788260809205` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156095 has offset 0).
 
 The definition of A156095 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*A000045(2*n)*(A000045(2*n)+1)+1` (program `A156095.P2818468788260809205`, by `A156095.P2818468788260809205.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14000,7 +14000,7 @@ The definition of A156095 is `verified`: the Lean definition is proven equivalen
 
 `5*A000045(2*n)*(A000045(2*n)+1)+1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A156095

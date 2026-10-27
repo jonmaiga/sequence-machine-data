@@ -9677,7 +9677,7 @@ end A091691
 
 The programs for A091692, the canonical program `A091692.P6763474380622233412` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091692 has offset 0).
 
-The definition of A091692 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A091692 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A091692.anchor (n : ℕ) : (A091692 n : ℚ) = (((10 ^ n : ℤ) - 1) * (n + 9 : ℤ) : ℚ) / 9` in `Proof.A091.A091692`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A091692.P6763474380622233412
@@ -10288,6 +10288,12 @@ namespace A091696
 /-- `A059076(n+1)+A029744(n+2)-1` -/
 def P15239510296441022472.Spec : Prop :=
   ∀ n, P15239510296441022472.a n = A091696 (n + 1)
+
+theorem P15239510296441022472.correct : P15239510296441022472.Spec := by
+  intro n
+  simp only [A091696, Nat.add_sub_cancel, A091696.P15239510296441022472.a, A091696.P12943437932525177728.a, A029744, A029744.P1115822501332250061.a, A056342, A056342.P16520513500978853199.a, A059076, A059076.P1559801332482280449.a, A000029, A000029.P13945956715463538310.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P16360813507758205577.f1, A059966.P16360813507758205577.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A091696
 

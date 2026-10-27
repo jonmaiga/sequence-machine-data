@@ -3806,6 +3806,12 @@ namespace A000116
 def P2909916270326152062.Spec : Prop :=
   ∀ n, P2909916270326152062.a n = A000116 n
 
+theorem P2909916270326152062.correct : P2909916270326152062.Spec := by
+  intro n
+  simp only [A000116, Nat.add_sub_cancel, A000116.P2909916270326152062.a, A000116.P2749059370860222834.a, A000013, A000013.P13330308426199228881.f1, A000013.P13330308426199228881.a, A045674, A045674.P8510068775620534225.f1, A045674.P8510068775620534225.a, A045677, A045677.P7167331430785454104.a, A028310, A028310.P18130301328277559831.a, A045683, A045683.P14787099194818843150.a, A056303, A056303.P18308971732008802848.f1, A056303.P18308971732008802848.a, A000048, A000048.P16452762028424782785.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A045686, A045686.P11325912773679884789.a, A056295, A056295.P9438402425658344231.a, A000016, A000016.P8500875009608658723.a, A008965, A008965.P16924218572130557635.a, A056476, A056476.P12632563156965169968.a, A233583, A233583.P15026547221992958741.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A000116
 
 /-! ## A000116.P17200799293704570938
@@ -3828,6 +3834,12 @@ namespace A000116
 /-- `A115118(2*n)+A000048(2*n)` -/
 def P17200799293704570938.Spec : Prop :=
   ∀ n, P17200799293704570938.a n = A000116 n
+
+theorem P17200799293704570938.correct : P17200799293704570938.Spec := by
+  intro n
+  simp only [A000116, Nat.add_sub_cancel, A000116.P17200799293704570938.a, A000116.P2749059370860222834.a, A000013, A000013.P13330308426199228881.f1, A000013.P13330308426199228881.a, A000048, A000048.P16452762028424782785.a, A115118, A115118.P6546194884082821130.a, A056303, A056303.P18308971732008802848.f1, A056303.P18308971732008802848.a, A233583, A233583.P15026547221992958741.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A056295, A056295.P9438402425658344231.a, A000016, A000016.P8500875009608658723.a, A008965, A008965.P16924218572130557635.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A000116
 
@@ -5165,6 +5177,12 @@ namespace A000120
 /-- `n-A011371(n)` -/
 def P2049139522769655220.Spec : Prop :=
   ∀ n, P2049139522769655220.a n = A000120 n
+
+theorem P2049139522769655220.correct : P2049139522769655220.Spec := by
+  intro n
+  simp only [A000120, Nat.add_sub_cancel, A000120.P2049139522769655220.a, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, A011371, A011371.P12398255777927387864.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A000120
 
@@ -17815,7 +17833,7 @@ end A000187.P12488823261977490208
 
 The programs for A000188, the canonical program `A000188.P18128357374562736993` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000188 has offset 1).
 
-The definition of A000188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A000188 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000188.anchor (n : ℕ) (hn : 1 ≤ n) : ∃ k : ℕ, A000188 n = k ∧ IsGreatest {d : ℕ | d ^ 2 ∣ n} k` in `Proof.A000.A000188`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A000188.P7486858720566838181
@@ -17975,6 +17993,12 @@ namespace A000188
 /-- `A057918(n+1)+1` -/
 def P7071724769007119423.Spec : Prop :=
   ∀ n, P7071724769007119423.a n = A000188 (n + 1)
+
+theorem P7071724769007119423.correct : P7071724769007119423.Spec := by
+  intro n
+  simp only [A000188, Nat.add_sub_cancel, A000188.P7071724769007119423.a, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A057918, A057918.P8779601029509101892.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A000188
 

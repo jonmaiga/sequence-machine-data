@@ -480,6 +480,12 @@ namespace A107303
 def P12240625526684450822.Spec : Prop :=
   ∀ n, P12240625526684450822.a n = A107303 (n + 1)
 
+theorem P12240625526684450822.correct : P12240625526684450822.Spec := by
+  intro n
+  simp only [A107303, Nat.add_sub_cancel, A107303.P12240625526684450822.a, A107303.P6905371674303678170.a, A034936, A034936.P1115765045630556781.a, A153218, A153218.P3785772997736358194.f1, A153218.P3785772997736358194.f2, A153218.P3785772997736358194.a, A245838, A245838.P8667444233947326687.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A016777, A016777.P9931792138852554157.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A107303
 
 /-! ## A107303.P3169840401410412516
@@ -11574,7 +11580,7 @@ end A107389
 
 The programs for A107390, the canonical program `A107390.P7923518412452108324` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107390 has offset 1).
 
-The definition of A107390 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A107390 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A107390.P7923518412452108324

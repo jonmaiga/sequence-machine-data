@@ -1746,7 +1746,7 @@ end A323510.P1829485338986397264
 
 The programs for A323511, the canonical program `A323511.P13166536761734004681` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323511 has offset 1).
 
-The definition of A323511 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A048675, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A323511 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048675, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A323511.P13166536761734004681
@@ -8860,6 +8860,12 @@ namespace A323599
 /-- `A180253(n+1)-(A329375(n+1)+A328260(n+1))` -/
 def P4163397712745529511.Spec : Prop :=
   ∀ n, P4163397712745529511.a n = A323599 (n + 1)
+
+theorem P4163397712745529511.correct : P4163397712745529511.Spec := by
+  intro n
+  simp only [A323599, Nat.add_sub_cancel, A323599.P4163397712745529511.a, A323599.P7337034044960425061.f1, A323599.P7337034044960425061.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A180253, A180253.P5766954473390724664.f1, A180253.P5766954473390724664.a, A328260, A328260.P5916290271217475718.a, A329375, A329375.P559970247339746563.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A065967, A065967.P9165261899428571397.f1, A065967.P9165261899428571397.a, A329354, A329354.P424931253356111511.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A323599
 

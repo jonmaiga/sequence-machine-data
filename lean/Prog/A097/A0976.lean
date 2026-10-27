@@ -883,7 +883,7 @@ end A097603.P6317969119125252452
 
 The programs for A097604, the canonical program `A097604.P5712816953416192181` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097604 has offset 1).
 
-The definition of A097604 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A097604 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(A000010(n+1)*sqrt(2*(n+1)))-(n+1)` (program `A097604.P12856192427490033839`, by `A097604.P12856192427490033839.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A097604.P5712816953416192181

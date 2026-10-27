@@ -7721,7 +7721,7 @@ end A134429
 
 The programs for A134430, the canonical program `A134430.P12772919969290294464` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134430 has offset 0).
 
-The definition of A134430 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A134430 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134430.anchor (n : ℕ) : A134430 n = [1, -2, -2, 1].getD (n % 4) 0` in `Proof.A134.A134430`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A134430.P12772919969290294464
@@ -13505,6 +13505,12 @@ namespace A134467
 def P9192119024771405035.Spec : Prop :=
   ∀ n, P9192119024771405035.a n = A134467 n
 
+theorem P9192119024771405035.correct : P9192119024771405035.Spec := by
+  intro n
+  simp only [A134467, Nat.add_sub_cancel, A134467.P9192119024771405035.a, A134467.P13825419003851249081.a, A000120, A000120.P2816527436160941581.a, A011371, A011371.P12398255777927387864.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A134467
 
 /-! ## A134467.P11467903532744792952
@@ -13837,6 +13843,12 @@ namespace A134467
 /-- `A002378(n)+A011371(n)-n` -/
 def P6202511478392583492.Spec : Prop :=
   ∀ n, P6202511478392583492.a n = A134467 n
+
+theorem P6202511478392583492.correct : P6202511478392583492.Spec := by
+  intro n
+  simp only [A134467, Nat.add_sub_cancel, A134467.P6202511478392583492.a, A134467.P13825419003851249081.a, A000120, A000120.P2816527436160941581.a, A002378, A002378.P6342434596694243671.a, A011371, A011371.P12398255777927387864.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A134467
 

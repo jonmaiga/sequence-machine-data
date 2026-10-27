@@ -1411,7 +1411,7 @@ end A248209.P2362257939825324521
 
 The programs for A248211, the canonical program `A248211.P6041066512751082017` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248211 has offset 1).
 
-The definition of A248211 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A248211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A248211.P6041066512751082017
@@ -1961,6 +1961,12 @@ namespace A248211
 /-- `Δ[A083399(n+1)]` -/
 def P1721267356524839709.Spec : Prop :=
   ∀ n, P1721267356524839709.a n = A248211 (n + 1)
+
+theorem P1721267356524839709.correct : P1721267356524839709.Spec := by
+  intro n
+  simp only [A248211, Nat.add_sub_cancel, A248211.P1721267356524839709.f1, A248211.P1721267356524839709.a, A248211.P6041066512751082017.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A083399, A083399.P16148020281325742632.a, A000005, A000005.P16091521709108585461.a, A055212, A055212.P14412881054625885538.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A033273, A033273.P18420659424697249895.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A248211
 
@@ -3428,7 +3434,7 @@ end A248220.P9447747403957123732
 
 The programs for A248221, the canonical program `A248221.P13614101816324531720` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248221 has offset 1).
 
-The definition of A248221 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A142508, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A248221 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A248221.anchor (n : ℕ) (hn : 1 ≤ n) : A248221 n = (Nat.nth (fun k => (52 * k + 1).Prime) (n - 1) : ℤ)` in `Proof.A248.A248221`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A248221.P13614101816324531720

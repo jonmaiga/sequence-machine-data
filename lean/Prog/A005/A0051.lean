@@ -3184,7 +3184,7 @@ end A005116.P9820174421406108956
 
 The programs for A005117, the canonical program `A005117.P8954503998193661401` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005117 has offset 1).
 
-The definition of A005117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A005117 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A005117.anchor (n : ℕ) (hn : 1 ≤ n) : A005117 n = (Nat.nth Squarefree (n - 1) : ℤ)` in `Proof.A005.A005117`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A005117.P1656282683679404455
@@ -3407,6 +3407,12 @@ namespace A005117
 def P7932785405563101613.Spec : Prop :=
   ∀ n, P7932785405563101613.a n = A005117 (n + 1)
 
+theorem P7932785405563101613.correct : P7932785405563101613.Spec := by
+  intro n
+  simp only [A005117, Nat.add_sub_cancel, A005117.P7932785405563101613.a, A005117.P8954503998193661401.f1, A005117.P8954503998193661401.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A243348, A243348.P5579662287376898014.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A005117
 
 /-! ## A005117.P13747517874483829690
@@ -3487,6 +3493,12 @@ namespace A005117
 /-- `A161203(n+1)-(n+1)²` -/
 def P6531558222696957500.Spec : Prop :=
   ∀ n, P6531558222696957500.a n = A005117 (n + 1)
+
+theorem P6531558222696957500.correct : P6531558222696957500.Spec := by
+  intro n
+  simp only [A005117, Nat.add_sub_cancel, A005117.P6531558222696957500.a, A005117.P8954503998193661401.f1, A005117.P8954503998193661401.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A161203, A161203.P2424508890754984712.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A005117
 
@@ -3964,7 +3976,7 @@ end A005121.P12960990447615875667
 
 The programs for A005122, the canonical program `A005122.P2819458909718632145` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005122 has offset 1).
 
-The definition of A005122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A005122 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A005122.anchor (n : ℕ) (hn : 1 ≤ n) : A005122 n = (Nat.nth (fun k => (8 * k - 1).Prime) (n - 1) : ℤ)` in `Proof.A005.A005122`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A005122.P2819458909718632145
@@ -4491,7 +4503,7 @@ end A005122
 
 The programs for A005123, the canonical program `A005123.P4885488379496739982` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005123 has offset 1).
 
-The definition of A005123 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007519, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A005123 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A005123.anchor (n : ℕ) (hn : 1 ≤ n) : A005123 n = (Nat.nth (fun k => (8 * k + 1).Prime) (n - 1) : ℤ)` in `Proof.A005.A005123`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A005123.P4885488379496739982
@@ -10520,7 +10532,7 @@ end A005169.P12008610737360017906
 
 The programs for A005171, the canonical program `A005171.P15860856746370777121` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005171 has offset 1).
 
-The definition of A005171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A005171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A005171.P15860856746370777121
@@ -13922,6 +13934,12 @@ namespace A005187
 /-- `n+A011371(n)` -/
 def P17035303687713367404.Spec : Prop :=
   ∀ n, P17035303687713367404.a n = A005187 n
+
+theorem P17035303687713367404.correct : P17035303687713367404.Spec := by
+  intro n
+  simp only [A005187, Nat.add_sub_cancel, A005187.P17035303687713367404.a, A005187.P3874015513960485494.a, A011371, A011371.P12398255777927387864.a, A000120, A000120.P2816527436160941581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A005187
 

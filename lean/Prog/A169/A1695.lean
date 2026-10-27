@@ -3504,7 +3504,7 @@ end A169596.P12940590376679785213
 
 The programs for A169597, the canonical program `A169597.P16863427561022920987` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169597 has offset 1).
 
-The definition of A169597 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A169597 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A169597.anchor (n : ℕ) (hn : 1 ≤ n) : A169597 n = (Nat.nth (fun k => k % 19 ∈ ({2, 15} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A169.A169597`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A169597.P16863427561022920987
@@ -4002,7 +4002,7 @@ end A169597
 
 The programs for A169598, the canonical program `A169598.P16274772301720858273` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169598 has offset 1).
 
-The definition of A169598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A169598 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A169598.anchor (n : ℕ) (hn : 1 ≤ n) : A169598 n = (Nat.nth (fun k => k % 23 ∈ ({3, 18} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A169.A169598`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A169598.P16274772301720858273
@@ -4494,7 +4494,7 @@ end A169598
 
 The programs for A169599, the canonical program `A169599.P14272095727077025928` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169599 has offset 1).
 
-The definition of A169599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A169599 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A169599.anchor (n : ℕ) (hn : 1 ≤ n) : A169599 n = (Nat.nth (fun k => k % 29 ∈ ({4, 23} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A169.A169599`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A169599.P14272095727077025928

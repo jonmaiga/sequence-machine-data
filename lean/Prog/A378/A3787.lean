@@ -29,6 +29,7 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1111,7 +1112,7 @@ end A378723.P5905155038425070859
 /-!
 # A378724: The number of root fires on a rooted undirected infinite ternary tree with a self-loop at the root, when the chip-firing process starts with 3n chips at the root.
 
-The programs for A378724, the canonical program `A378724.P14155618765579295738` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378724 has offset 1).
+The programs for A378724, the canonical program `A378724.P14155618765579295738` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378724 has offset 1).
 
 The definition of A378724 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1120,7 +1121,7 @@ The definition of A378724 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor((n-1)/3))+n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A378724
@@ -1687,7 +1688,7 @@ end A378726.P8976225927013167910
 /-!
 # A378727: The total number of fires in a rooted undirected infinite 4-ary tree with a self-loop at the root, when the chip-firing process starts with (4^n-1)/3 chips at the root.
 
-The programs for A378727, the canonical program `A378727.P10417953451389191869` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378727 has offset 0).
+The programs for A378727, the canonical program `A378727.P10417953451389191869` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378727 has offset 0).
 
 The definition of A378727 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1696,7 +1697,7 @@ The definition of A378727 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-33*a(n-2)+40*a(n-3)-16*a(n-4)` with `a(0)=0, a(1)=1, a(2)=10, a(3)=67`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A378727
@@ -1731,6 +1732,26 @@ namespace A378727
 /-- `((3*(n+1)-5)*4^(n+1)+3*(n+1)+5)/27` -/
 def P14437574405529664904.Spec : Prop :=
   ∀ n, P14437574405529664904.a n = (A378727 n : ℚ)
+
+theorem P14437574405529664904.correct : P14437574405529664904.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A378727, Nat.add_sub_cancel, A378727.P14437574405529664904.a, A378727.P10417953451389191869.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A378727, Nat.add_sub_cancel, A378727.P14437574405529664904.a, A378727.P10417953451389191869.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A378727
 
@@ -1850,7 +1871,7 @@ end A378727
 /-!
 # A378728: The total number of fires in a rooted undirected infinite 5-ary tree with a self-loop at the root, when the chip-firing process starts with (5^n-1)/4 chips at the root.
 
-The programs for A378728, the canonical program `A378728.P5571620223108738075` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378728 has offset 1).
+The programs for A378728, the canonical program `A378728.P5571620223108738075` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378728 has offset 1).
 
 The definition of A378728 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1859,7 +1880,7 @@ The definition of A378728 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*a(n-1)-46*a(n-2)+60*a(n-3)-25*a(n-4)` with `a(0)=0, a(1)=1, a(2)=12, a(3)=98`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A378728
@@ -3299,6 +3320,12 @@ namespace A378747
 def P14135253158168775488.Spec : Prop :=
   ∀ n, P14135253158168775488.a n = A378747 (n + 1)
 
+theorem P14135253158168775488.correct : P14135253158168775488.Spec := by
+  intro n
+  simp only [A378747, Nat.add_sub_cancel, A378747.P14135253158168775488.a, A378747.P2612506612617413863.a, A001065, A001065.P4097147489331274860.a, A033879, A033879.P5965131822542929609.a, A048673, A048673.P16342935298832955059.a, A349573, A349573.P7179832196050588632.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A045965, A045965.P3274931299755745232.a, A003961, A003961.P5996473960037614004.a, A253885, A253885.P8852473244354028115.f1, A253885.P8852473244354028115.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A378747
 
 /-! ## A378747.P10176672740478502327
@@ -3335,7 +3362,7 @@ end A378747
 
 The programs for A378748, the canonical program `A378748.P8742583333347776614` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378748 has offset 1).
 
-The definition of A378748 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, A378521, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A378748 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A378521, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A378748.P8742583333347776614

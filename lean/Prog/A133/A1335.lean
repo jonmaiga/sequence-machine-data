@@ -2185,7 +2185,7 @@ end A133512.P17738359493665719184
 
 The programs for A133513, the canonical program `A133513.P15860712933780427246` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133513 has offset 0).
 
-The definition of A133513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A133513 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A133513.anchor (n : ℕ) : A133513 n = [0, 1, -3, 0, -1, 3].getD (n % 6) 0` in `Proof.A133.A133513`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A133513.P15860712933780427246
@@ -9973,7 +9973,7 @@ end A133554.P14208091897278458814
 
 The programs for A133555, the canonical program `A133555.P10224486640532332811` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133555 has offset 2).
 
-The definition of A133555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066246, A113709, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A133555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A113709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A133555.P10224486640532332811

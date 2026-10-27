@@ -1946,7 +1946,7 @@ end A353809
 
 The programs for A353810, the canonical program `A353810.P10357715078653884361` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353810 has offset 1).
 
-The definition of A353810 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058063, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A353810 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A353810.P10357715078653884361
@@ -2396,7 +2396,7 @@ end A353810
 
 The programs for A353811, the canonical program `A353811.P62770870440473012` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353811 has offset 1).
 
-The definition of A353811 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A353810, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A353811 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A353811.P13658690391888815795
@@ -2442,6 +2442,12 @@ namespace A353811
 /-- `A347870(n+1)-A353812(n+1)` -/
 def P17016646801044787279.Spec : Prop :=
   ∀ n, P17016646801044787279.a n = A353811 (n + 1)
+
+theorem P17016646801044787279.correct : P17016646801044787279.Spec := by
+  intro n
+  simp only [A353811, Nat.add_sub_cancel, A353811.P17016646801044787279.a, A353811.P62770870440473012.a, A053866, A053866.P7754923131584660837.a, A347870, A347870.P16417163983135192984.a, A353810, A353810.P10357715078653884361.a, A353812, A353812.P18155869108031714769.a, A000035, A000035.P2023072528413494694.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A058063, A058063.P11490708493934352292.a, A063524, A063524.P5631347671191003537.a, A286357, A286357.P14769850405548421969.a, A000007, A000007.P6599383543502402472.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001511, A001511.P17146462531039486101.a, A300251, A300251.P9104168606851773387.f1, A300251.P9104168606851773387.a, A000010, A000010.P4673923239450215316.a, A006519, A006519.P10435570611646570274.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A353811
 
@@ -2863,7 +2869,7 @@ end A353811
 
 The programs for A353812, the canonical program `A353812.P18155869108031714769` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353812 has offset 1).
 
-The definition of A353812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A347870, A353811, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A353812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A347870, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A353812.P18155869108031714769

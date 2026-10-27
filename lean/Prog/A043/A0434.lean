@@ -3674,7 +3674,7 @@ end A043436.P14326073451116266766
 /-!
 # A043437: Numbers having one 4 in base 8.
 
-The programs for A043437, the canonical program `A043437.P12782922583909026684` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043437 has offset 1).
+The programs for A043437, the canonical program `A043437.P12782922583909026684` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043437 has offset 1).
 
 The definition of A043437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1372 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3683,7 +3683,7 @@ The definition of A043437 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A316865(A007094(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043437

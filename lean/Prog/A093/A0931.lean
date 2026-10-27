@@ -324,7 +324,7 @@ end A093101
 
 The programs for A093103, the canonical program `A093103.P9715137212583301055` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093103 has offset 1).
 
-The definition of A093103 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A093103 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A093103.anchor : A093103 1 = 1 ∧ A093103 2 = 8 ∧ ∀ n, 1 ≤ n → A093103 (n + 2) = 8 * A093103 (n + 1) + 21 * A093103 n` in `Proof.A093.A093103`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A093103.P9715137212583301055
@@ -13064,7 +13064,7 @@ end A093190.P11492578392725812838
 
 The programs for A093191, the canonical program `A093191.P2249662244197298181` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093191 has offset 1).
 
-The definition of A093191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A093191 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A093191.anchor (n : ℕ) (hn : 1 ≤ n) : A093191 n = (Nat.nth (fun p => p.Prime ∧ p % 13 ∈ ({4} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A093.A093191`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A093191.P2249662244197298181

@@ -6486,7 +6486,7 @@ end A184958.P8687570617379336322
 
 The programs for A184959, the canonical program `A184959.P7984108584746166401` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184959 has offset 0).
 
-The definition of A184959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A184959 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A184959.anchor : A184959 0 = 10 ∧ A184959 1 = 9 ∧ ∀ n, A184959 (n + 2) = A184959 (n + 1) + A184959 n` in `Proof.A184.A184959`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A184959.P13728702106622192398

@@ -6537,28 +6537,17 @@ end A179780.P9808462153096865692
 /-!
 # A179781: a(n) = AP(n) is the total number of aperiodic k-palindromes of n, 1 <= k <= n.
 
-The programs for A179781, the canonical program `A179781.P966849526946660983` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179781 has offset 1).
+The programs for A179781, the canonical program `A179781.P16822267324910251204` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179781 has offset 1).
 
-The definition of A179781 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000046, A308706, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A179781 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A179781.P16822267324910251204
 
 `∑{d}[n+1, A008683((n+1)/#)*2^floor(#/2)]`
+
+The canonical program, it is in `Seq.B001.C007`.
 -/
-
-namespace A179781.P16822267324910251204
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), (A008683 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat : ℚ) * (2 : ℚ) ^ (⌊(d : ℚ) / 2⌋ : ℤ)
-
-end
-
-end A179781.P16822267324910251204
 
 namespace A179781
 
@@ -6571,19 +6560,23 @@ end A179781
 /-! ## A179781.P966849526946660983
 
 `A000046(n+1)-A308706(n+1)`
-
-The canonical program, it is in `Seq.B011.C000`.
 -/
+
+namespace A179781.P966849526946660983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000046 (n + 1) - A308706 (n + 1)
+
+end
+
+end A179781.P966849526946660983
 
 namespace A179781
 
 /-- `A000046(n+1)-A308706(n+1)` -/
 def P966849526946660983.Spec : Prop :=
   ∀ n, P966849526946660983.a n = A179781 (n + 1)
-
-theorem P966849526946660983.correct : P966849526946660983.Spec := by
-  intro n
-  simp only [A179781, Nat.add_sub_cancel]
 
 end A179781
 

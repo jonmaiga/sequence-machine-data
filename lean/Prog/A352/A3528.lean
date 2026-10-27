@@ -2271,6 +2271,12 @@ namespace A352824
 def P566869565699552527.Spec : Prop :=
   ∀ n, P566869565699552527.a n = A352824 (n + 1)
 
+theorem P566869565699552527.correct : P566869565699552527.Spec := by
+  intro n
+  simp only [A352824, Nat.add_sub_cancel, A352824.P566869565699552527.a, A352824.P9497561774546337623.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A087436, A087436.P13287701826401831056.a, A130727, A130727.P13789160544353432.f1, A130727.P13789160544353432.a, A352825, A352825.P16191883043105001800.a, A007814, A007814.P13537437864234730737.a, A001511, A001511.P17146462531039486101.a, A006519, A006519.P10435570611646570274.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A352824
 
 /-! ## A352824.P12248567643401110833
@@ -2719,7 +2725,7 @@ end A352824
 
 The programs for A352825, the canonical program `A352825.P16191883043105001800` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352825 has offset 1).
 
-The definition of A352825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A352824, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A352825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A352824, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A352825.P16191883043105001800

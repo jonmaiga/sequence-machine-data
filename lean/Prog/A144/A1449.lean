@@ -1821,7 +1821,7 @@ end A144924.P2094361735280559777
 
 The programs for A144925, the canonical program `A144925.P4715798082617986794` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144925 has offset 1).
 
-The definition of A144925 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A070824, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A144925 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A070824, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A144925.P4715798082617986794
@@ -2297,6 +2297,12 @@ namespace A144925
 /-- `A163838(n+1)/(A022798(n+1)-A008578(n+1))` -/
 def P8406306775386085679.Spec : Prop :=
   ∀ n, P8406306775386085679.a n = (A144925 (n + 1) : ℚ)
+
+theorem P8406306775386085679.correct : P8406306775386085679.Spec := by
+  intro n
+  simp only [A144925, Nat.add_sub_cancel, A144925.P8406306775386085679.a, A144925.P4715798082617986794.a, A002808, A002808.P568819275912777150.f1, A002808.P568819275912777150.f2, A002808.P568819275912777150.a, A008578, A008578.P3639467937083264764.a, A022798, A022798.P9273272214686499992.a, A070824, A070824.P6802822783910193033.f1, A070824.P6802822783910193033.a, A163838, A163838.P7117750658777831456.a, A000005, A000005.P16091521709108585461.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A144925
 

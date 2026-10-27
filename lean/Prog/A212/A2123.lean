@@ -10306,7 +10306,7 @@ end A212372
 
 The programs for A212374, the canonical program `A212374.P12859019626991539473` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212374 has offset 1).
 
-The definition of A212374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3577 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A212374 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A212374.anchor (n : ℕ) (hn : 1 ≤ n) : A212374 n = (Nat.nth (fun p => p.Prime ∧ p % 23 = 1) (n - 1) : ℤ)` in `Proof.A212.A212374`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A212374.P12859019626991539473
@@ -11062,7 +11062,7 @@ end A212377.P2804242805343583068
 
 The programs for A212378, the canonical program `A212378.P1742329795883171186` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212378 has offset 1).
 
-The definition of A212378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1276 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A212378 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A212378.anchor (n : ℕ) (hn : 1 ≤ n) : A212378 n = (Nat.nth (fun p => p.Prime ∧ p % 61 = 1) (n - 1) : ℤ)` in `Proof.A212.A212378`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A212378.P1742329795883171186

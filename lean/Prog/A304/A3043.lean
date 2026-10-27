@@ -1936,6 +1936,12 @@ namespace A304327
 def P8159494134459830778.Spec : Prop :=
   ∀ n, P8159494134459830778.a n = A304327 (n + 1)
 
+theorem P8159494134459830778.correct : P8159494134459830778.Spec := by
+  intro n
+  simp only [A304327, Nat.add_sub_cancel, A304327.P8159494134459830778.a, A304327.P8179685896533217852.f1, A304327.P8179685896533217852.a, A034444, A034444.P6574915864346323298.a, A091050, A091050.P13434770891422209589.f1, A091050.P13434770891422209589.a, A271102, A271102.P3010353493992336101.f1, A271102.P3010353493992336101.a, A304326, A304326.P14717502684146888168.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A075802, A075802.P15418155707765850726.a, A069623, A069623.P16188465153472375596.a, A076411, A076411.P17634982879801196163.f2, A076411.P17634982879801196163.f1, A076411.P17634982879801196163.a, A007916, A007916.P1021710988916154839.f1, A007916.P1021710988916154839.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A304327
 
 /-! ## A304327.P1311930554509527312
@@ -6789,7 +6795,7 @@ end A304374
 
 The programs for A304375, the canonical program `A304375.P15898070538892034458` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304375 has offset 1).
 
-The definition of A304375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A304375 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A304375.anchor (n : ℕ) : (A304375 (n + 1) : ℚ) = (27 * (n + 1) ^ 2 : ℚ) / 2 + (45 * (n + 1) : ℚ) / 2 - 12` in `Proof.A304.A304375`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A304375.P15898070538892034458

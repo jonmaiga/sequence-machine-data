@@ -23,6 +23,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -44,6 +45,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -14503,7 +14505,7 @@ end A018185
 
 The programs for A018186, the canonical program `A018186.P12887403914497736875` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018186 has offset 0).
 
-The definition of A018186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A018186 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A018186.anchor : A018186 0 = 1 ∧ A018186 1 = 3 ∧ A018186 2 = 6 ∧ A018186 3 = 9 ∧ ∀ n, A018186 (n + 4) = 3 * A018186 (n + 2) + A018186 n` in `Proof.A018.A018186`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A018186.P2836814432005662956

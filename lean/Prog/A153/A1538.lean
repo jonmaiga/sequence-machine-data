@@ -2771,6 +2771,12 @@ namespace A153823
 def P1764785616181400538.Spec : Prop :=
   ∀ n, P1764785616181400538.a n = A153823 n
 
+theorem P1764785616181400538.correct : P1764785616181400538.Spec := by
+  intro n
+  simp only [A153823, Nat.add_sub_cancel, A153823.P1764785616181400538.a, A153823.P12958428199370976494.a, A027423, A027423.P14066705804803784298.a, A336940, A336940.P4983532060712905772.a, A337257, A337257.P14876870470645707118.a, A000005, A000005.P16091521709108585461.a, A000142, A000142.P3272619076580183195.a, A011371, A011371.P12398255777927387864.a, A000120, A000120.P2816527436160941581.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A153823
 
 /-! ## A153823.P14256633515345631570
@@ -4099,7 +4105,7 @@ end A153847.P8519076073889428558
 /-!
 # A153848: a(n) = 7*(10^(2*n) - 1)/33.
 
-The programs for A153848, the canonical program `A153848.P12709393412551249424` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153848 has offset 1).
+The programs for A153848, the canonical program `A153848.P12709393412551249424` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153848 has offset 1).
 
 The definition of A153848 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4108,7 +4114,7 @@ The definition of A153848 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21*A094028(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153848

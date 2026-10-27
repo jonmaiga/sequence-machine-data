@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -83,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A358800: Number of (undirected) paths in the grid graph P_4 X P_n.
@@ -830,7 +835,7 @@ end A358818.P186963703046116015
 
 The programs for A358821, the canonical program `A358821.P15868055063124338799` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358821 has offset 2).
 
-The definition of A358821 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008833, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358821 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A358821.P10491375461205096304
@@ -1062,6 +1067,12 @@ namespace A358821
 /-- `A000188((n+2)²-1)²` -/
 def P16607245650493512397.Spec : Prop :=
   ∀ n, P16607245650493512397.a n = A358821 (n + 2)
+
+theorem P16607245650493512397.correct : P16607245650493512397.Spec := by
+  intro n
+  simp only [A358821, Nat.add_sub_cancel, A358821.P16607245650493512397.a, A358821.P15868055063124338799.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A008833, A008833.P11016767941717339701.f1, A008833.P11016767941717339701.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358821
 

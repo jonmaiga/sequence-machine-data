@@ -29,7 +29,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -3311,7 +3310,7 @@ end A175827
 
 The programs for A175828, the canonical program `A175828.P12571766228937245729` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175828 has offset 0).
 
-The definition of A175828 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175828 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175828.anchor (n : ℕ) : (A175828 n : ℚ) = ((n * (6 * n + 1) : ℤ) + (n + 2 : ℤ) * (-1) ^ n : ℚ) / 2` in `Proof.A175.A175828`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175828.P12571766228937245729
@@ -10720,7 +10719,7 @@ end A175884
 
 The programs for A175885, the canonical program `A175885.P3656749870854080995` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175885 has offset 1).
 
-The definition of A175885 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175885 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175885.anchor (n : ℕ) (hn : 1 ≤ n) : A175885 n = (Nat.nth (fun k => k % 11 ∈ ({1, 10} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A175.A175885`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175885.P3656749870854080995
@@ -11249,7 +11248,7 @@ end A175885
 
 The programs for A175886, the canonical program `A175886.P13612719249372281489` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175886 has offset 1).
 
-The definition of A175886 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175886 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175886.anchor (n : ℕ) (hn : 1 ≤ n) : A175886 n = (Nat.nth (fun k => k % 13 ∈ ({1, 12} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A175.A175886`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175886.P13612719249372281489
@@ -11766,7 +11765,7 @@ end A175886
 
 The programs for A175887, the canonical program `A175887.P11857836302056305642` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175887 has offset 1).
 
-The definition of A175887 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175887 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175887.anchor (n : ℕ) (hn : 1 ≤ n) : A175887 n = (Nat.nth (fun k => k % 15 ∈ ({1, 14} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A175.A175887`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175887.P11857836302056305642

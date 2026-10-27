@@ -5256,7 +5256,7 @@ end A209634
 
 The programs for A209635, the canonical program `A209635.P16478505308631433079` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209635 has offset 1).
 
-The definition of A209635 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A209635 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008683(A000265(n+1))` (program `A209635.P16478505308631433079`, by `A209635.P16478505308631433079.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A209635.P8841600617020015109
@@ -5574,6 +5574,12 @@ namespace A209635
 /-- `A008683(A153733(n)+1)` -/
 def P1075324683013705845.Spec : Prop :=
   ∀ n, P1075324683013705845.a n = A209635 (n + 1)
+
+theorem P1075324683013705845.correct : P1075324683013705845.Spec := by
+  intro n
+  simp only [A209635, Nat.add_sub_cancel, A209635.P1075324683013705845.a, A209635.P16478505308631433079.a, A000265, A000265.P16482698636471710744.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A153733, A153733.P10755713114946739736.a, A331739, A331739.P457850794578440847.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A209635
 

@@ -853,6 +853,12 @@ namespace A395435
 def P1222653438368675380.Spec : Prop :=
   ∀ n, P1222653438368675380.a n = A395435 (n + 1)
 
+theorem P1222653438368675380.correct : P1222653438368675380.Spec := by
+  intro n
+  simp only [A395435, Nat.add_sub_cancel, A395435.P1222653438368675380.a, A395435.P18346761836883339857.a, A000005, A000005.P16091521709108585461.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007503, A007503.P13484425310514315912.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A034448, A034448.P11229265544409245030.f1, A034448.P11229265544409245030.a, A394481, A394481.P10475431677930788014.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A254503, A254503.P16877197465467938331.a, A002618, A002618.P8397693677428532773.a, A384050, A384050.P7808103291810137926.a, A000010, A000010.P4673923239450215316.a, A055231, A055231.P8962300905713718501.a, A057521, A057521.P7284310941140114823.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A395435
 
 /-! ## A395435.P4082959011352247385
@@ -2035,7 +2041,7 @@ end A395489.P13923476246842857894
 
 The programs for A395491, the canonical program `A395491.P9780452655082946417` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395491 has offset 1).
 
-The definition of A395491 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056169, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A395491 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A395491.P9780452655082946417
@@ -2077,6 +2083,12 @@ namespace A395491
 /-- `A000005(n+1)+A038040(n+1)-A394470(n+1)` -/
 def P16918945187190493855.Spec : Prop :=
   ∀ n, P16918945187190493855.a n = A395491 (n + 1)
+
+theorem P16918945187190493855.correct : P16918945187190493855.Spec := by
+  intro n
+  simp only [A395491, Nat.add_sub_cancel, A395491.P16918945187190493855.a, A395491.P9780452655082946417.a, A000005, A000005.P16091521709108585461.a, A038040, A038040.P16512896840577774730.a, A056169, A056169.P17430176249366647977.a, A394470, A394470.P12281335905416762997.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A055231, A055231.P8962300905713718501.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A071773, A071773.P10551485978970375506.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A395491
 

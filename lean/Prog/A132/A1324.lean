@@ -100,7 +100,7 @@ set_option linter.unreachableTactic false
 
 The programs for A132400, the canonical program `A132400.P3460378576876306140` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132400 has offset 0).
 
-The definition of A132400 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132400 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132400.anchor (n : ℕ) : A132400 n = (([1, 5, 3, 1].getD (n % 4) 0 : ℕ) : ℤ)` in `Proof.A132.A132400`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132400.P3460378576876306140
@@ -3199,7 +3199,7 @@ end A132428.P16292196453623602953
 
 The programs for A132429, the canonical program `A132429.P8089814914253259062` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132429 has offset 0).
 
-The definition of A132429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132429 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132429.anchor (n : ℕ) : A132429 n = [3, 1, -1, -3].getD (n % 4) 0` in `Proof.A132.A132429`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132429.P8089814914253259062

@@ -4194,6 +4194,12 @@ namespace A010848
 def P14103915645023004986.Spec : Prop :=
   ∀ n, P14103915645023004986.a n = A010848 (n + 1)
 
+theorem P14103915645023004986.correct : P14103915645023004986.Spec := by
+  intro n
+  simp only [A010848, Nat.add_sub_cancel, A010848.P14103915645023004986.a, A010848.P2527659660694357650.a, A003557, A003557.P6364735403900941810.a, A033879, A033879.P5965131822542929609.a, A326188, A326188.P6516130972128088373.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A010848
 
 /-! ## A010848.P14028466711066770612
@@ -4216,6 +4222,12 @@ namespace A010848
 /-- `A300720(n+1)+A300718(n+1)` -/
 def P14028466711066770612.Spec : Prop :=
   ∀ n, P14028466711066770612.a n = A010848 (n + 1)
+
+theorem P14028466711066770612.correct : P14028466711066770612.Spec := by
+  intro n
+  simp only [A010848, Nat.add_sub_cancel, A010848.P14028466711066770612.a, A010848.P2527659660694357650.a, A003557, A003557.P6364735403900941810.a, A300718, A300718.P14759680827716810888.a, A300720, A300720.P15695279460942759688.a, A000010, A000010.P4673923239450215316.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A300717, A300717.P9620325396379969828.f1, A300717.P9620325396379969828.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A010848
 
@@ -4412,6 +4424,12 @@ namespace A010848
 /-- `A000010(n+1)+A300720(n+1)-A300717(n+1)` -/
 def P10005582396747704804.Spec : Prop :=
   ∀ n, P10005582396747704804.a n = A010848 (n + 1)
+
+theorem P10005582396747704804.correct : P10005582396747704804.Spec := by
+  intro n
+  simp only [A010848, Nat.add_sub_cancel, A010848.P10005582396747704804.a, A010848.P2527659660694357650.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A300717, A300717.P9620325396379969828.f1, A300717.P9620325396379969828.a, A300720, A300720.P15695279460942759688.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A300718, A300718.P14759680827716810888.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A010848
 
@@ -5558,7 +5576,7 @@ end A010881
 
 The programs for A010882, the canonical program `A010882.P12866504876025852019` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010882 has offset 0).
 
-The definition of A010882 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010882 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010882.anchor (n : ℕ) : A010882 n = (([1, 2, 3].getD (n % 3) 0 : ℕ) : ℤ)` in `Proof.A010.A010882`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010882.P12866504876025852019
@@ -5612,7 +5630,7 @@ end A010883
 
 The programs for A010884, the canonical program `A010884.P17857103080983399926` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010884 has offset 0).
 
-The definition of A010884 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010884 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010884.anchor (n : ℕ) : A010884 n = (([1, 2, 3, 4, 5].getD (n % 5) 0 : ℕ) : ℤ)` in `Proof.A010.A010884`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010884.P17857103080983399926
@@ -5639,7 +5657,7 @@ end A010884
 
 The programs for A010885, the canonical program `A010885.P6294167033700654399` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010885 has offset 0).
 
-The definition of A010885 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010885 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010885.anchor (n : ℕ) : A010885 n = (([1, 2, 3, 4, 5, 6].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A010.A010885`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010885.P6294167033700654399
@@ -5666,7 +5684,7 @@ end A010885
 
 The programs for A010886, the canonical program `A010886.P5632040166952466962` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010886 has offset 0).
 
-The definition of A010886 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010886 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010886.anchor (n : ℕ) : A010886 n = (([1, 2, 3, 4, 5, 6, 7].getD (n % 7) 0 : ℕ) : ℤ)` in `Proof.A010.A010886`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010886.P5632040166952466962
@@ -5693,7 +5711,7 @@ end A010886
 
 The programs for A010887, the canonical program `A010887.P10383982529202379133` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010887 has offset 0).
 
-The definition of A010887 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010887 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010887.anchor (n : ℕ) : A010887 n = (([1, 2, 3, 4, 5, 6, 7, 8].getD (n % 8) 0 : ℕ) : ℤ)` in `Proof.A010.A010887`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010887.P10383982529202379133

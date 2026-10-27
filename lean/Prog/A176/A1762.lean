@@ -6892,6 +6892,12 @@ namespace A176241
 def P2875856748627150236.Spec : Prop :=
   ∀ n, (P2875856748627150236.a n : ℤ) = A176241 (n + 1)
 
+theorem P2875856748627150236.correct : P2875856748627150236.Spec := by
+  intro n
+  simp only [A176241, Nat.add_sub_cancel, A176241.P2875856748627150236.f1, A176241.P2875856748627150236.f2, A176241.P2875856748627150236.a, A176241.P3332778446777319815.f1, A176241.P3332778446777319815.f2, A176241.P3332778446777319815.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001358, A001358.P632087320844056370.a, A175708, A175708.P9200072279870982.a, A000027, A000027.P10331202704469894836.a, A088707, A088707.P7291141647877559993.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A072000, A072000.P3706059858088101648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A176241
 
 /-! ## A176241.P6052452619281519933
@@ -7226,7 +7232,7 @@ end A176244.P10568495045267606767
 
 The programs for A176246, the canonical program `A176246.P14955082673946823167` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176246 has offset 1).
 
-The definition of A176246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A176246 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001223(n+2)-1` (program `A176246.P14955082673946823167`, by `A176246.P14955082673946823167.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A176246.P14955082673946823167
@@ -9678,7 +9684,7 @@ end A176259
 
 The programs for A176260, the canonical program `A176260.P750230549755017519` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176260 has offset 0).
 
-The definition of A176260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A176260 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A176260.anchor (n : ℕ) : A176260 n = (([5, 1].getD (n % 2) 0 : ℕ) : ℤ)` in `Proof.A176.A176260`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A176260.P750230549755017519

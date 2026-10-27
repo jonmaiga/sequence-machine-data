@@ -11677,6 +11677,12 @@ namespace A128245
 def P1696279841599294843.Spec : Prop :=
   ∀ n, P1696279841599294843.a n = A128245 (n + 1)
 
+theorem P1696279841599294843.correct : P1696279841599294843.Spec := by
+  intro n
+  simp only [A128245, Nat.add_sub_cancel, A128245.P1696279841599294843.f1, A128245.P1696279841599294843.a, A128245.P15864719787506353209.f1, A128245.P15864719787506353209.a, A002264, A002264.P5647656940077635922.a, A008620, A008620.P16090772857505074278.a, A101203, A101203.P14556017355783921895.a, A191558, A191558.P14009675995309042097.a, A061397, A061397.P17730824645895443051.a, A000027, A000027.P10331202704469894836.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A128245
 
 /-! ## A128245.P13924478030906192656
@@ -12064,7 +12070,7 @@ end A128250.P1095765324857550021
 
 The programs for A128251, the canonical program `A128251.P3815899443712150694` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128251 has offset 2).
 
-The definition of A128251 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008835, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A128251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A128251.P3815899443712150694

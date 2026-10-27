@@ -1345,6 +1345,12 @@ namespace A053806
 def P14803387866247427655.Spec : Prop :=
   ∀ n, P14803387866247427655.a n = A053806 (n + 1)
 
+theorem P14803387866247427655.correct : P14803387866247427655.Spec := by
+  intro n
+  simp only [A053806, Nat.add_sub_cancel, A053806.P14803387866247427655.a, A053806.P5470582851069519396.a, A053797, A053797.P12604746864527782063.a, A072284, A072284.P10214590110291181418.f1, A072284.P10214590110291181418.a, A120992, A120992.P11139390425260994503.a, A007913, A007913.P8131970495124731496.a, A105570, A105570.P6688953478002029428.f1, A105570.P6688953478002029428.a, A378619, A378619.P2385869951809444344.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A070321, A070321.P7130479332265893626.a, A005117, A005117.P8954503998193661401.f1, A005117.P8954503998193661401.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A053806
 
 /-! ## A053806.P561888929921815490
@@ -5541,6 +5547,12 @@ namespace A053818
 def P3535935737681528905.Spec : Prop :=
   ∀ n, P3535935737681528905.a n = A053818 (n + 1)
 
+theorem P3535935737681528905.correct : P3535935737681528905.Spec := by
+  intro n
+  simp only [A053818, Nat.add_sub_cancel, A053818.P3535935737681528905.a, A053818.P14105696247088462319.f1, A053818.P14105696247088462319.a, A000330, A000330.P6574240937923917945.a, A023896, A023896.P10594219463258781009.f1, A023896.P10594219463258781009.f2, A023896.P10594219463258781009.a, A057789, A057789.P16127120602619535770.a, A334657, A334657.P15465611070505972424.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A053818
 
 /-! ## A053818.P14105696247088462319
@@ -6532,6 +6544,12 @@ namespace A053824
 def P4355402586917793462.Spec : Prop :=
   ∀ n, P4355402586917793462.a n = A053824 n
 
+theorem P4355402586917793462.correct : P4355402586917793462.Spec := by
+  intro n
+  simp only [A053824, Nat.add_sub_cancel, A053824.P4355402586917793462.a, A053824.P3010568683746929224.a, A011371, A011371.P12398255777927387864.a, A027868, A027868.P16736331187050993761.a, A096289, A096289.P10983530805932168913.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A053824
 
 /-! ## A053824.P11692353725906795984
@@ -7033,7 +7051,7 @@ end A053825
 
 The programs for A053826, the canonical program `A053826.P4926407818501957237` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053826 has offset 1).
 
-The definition of A053826 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A053826 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A053826.P4926407818501957237

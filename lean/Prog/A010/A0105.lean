@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,6 +49,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A010503: Decimal expansion of 1/sqrt(2).
@@ -1351,7 +1356,7 @@ end A010553
 
 The programs for A010554, the canonical program `A010554.P11993721654035451912` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010554 has offset 1).
 
-The definition of A010554 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A010554 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000010(A000010(n+1))` (program `A010554.P11993721654035451912`, by `A010554.P11993721654035451912.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010554.P11993721654035451912
@@ -1419,6 +1424,12 @@ namespace A010554
 /-- `n-A219029(n+1)` -/
 def P12729935970701920276.Spec : Prop :=
   ∀ n, P12729935970701920276.a n = A010554 (n + 1)
+
+theorem P12729935970701920276.correct : P12729935970701920276.Spec := by
+  intro n
+  simp only [A010554, Nat.add_sub_cancel, A010554.P12729935970701920276.a, A010554.P11993721654035451912.a, A000010, A000010.P4673923239450215316.a, A219029, A219029.P12345475859855343114.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A010554
 
@@ -1642,6 +1653,12 @@ namespace A010554
 def P14399414210123777364.Spec : Prop :=
   ∀ n, P14399414210123777364.a n = A010554 (n + 1)
 
+theorem P14399414210123777364.correct : P14399414210123777364.Spec := by
+  intro n
+  simp only [A010554, Nat.add_sub_cancel, A010554.P14399414210123777364.a, A010554.P11993721654035451912.a, A000010, A000010.P4673923239450215316.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A010554
 
 /-! ## A010554.P12986050303976811703
@@ -1664,6 +1681,12 @@ namespace A010554
 /-- `A039649(A039649(n+1)-1)-1` -/
 def P12986050303976811703.Spec : Prop :=
   ∀ n, P12986050303976811703.a n = A010554 (n + 1)
+
+theorem P12986050303976811703.correct : P12986050303976811703.Spec := by
+  intro n
+  simp only [A010554, Nat.add_sub_cancel, A010554.P12986050303976811703.a, A010554.P11993721654035451912.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A010554
 
@@ -1833,7 +1856,7 @@ end A010554
 
 The programs for A010555, the canonical program `A010555.P8824829674371752059` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010555 has offset 1).
 
-The definition of A010555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A353629, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A010555 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A010555.P8824829674371752059

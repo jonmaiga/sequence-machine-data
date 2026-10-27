@@ -1772,7 +1772,7 @@ end A323217.P16288783311892696878
 
 The programs for A323218, the canonical program `A323218.P13955551984394260381` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323218 has offset 0).
 
-The definition of A323218 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A323218 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A323218.anchor (n : ℕ) : (A323218 n : ℚ) = (4 * n ^ 3 + 30 * n ^ 2 + 50 * n : ℚ) / 3 + 1` in `Proof.A323.A323218`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A323218.P13955551984394260381
@@ -2062,7 +2062,7 @@ end A323219.P8282196780762505549
 
 The programs for A323220, the canonical program `A323220.P13662285328539052818` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323220 has offset 0).
 
-The definition of A323220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A323220 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A323220.anchor (n : ℕ) : (A323220 n : ℚ) = (n * (n + 5) * (n + 7) * (n + 10) : ℚ) / 24 + 1` in `Proof.A323.A323220`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A323220.P13662285328539052818
@@ -2379,7 +2379,7 @@ end A323220
 
 The programs for A323221, the canonical program `A323221.P1160006221664677187` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323221 has offset 0).
 
-The definition of A323221 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A323221 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A323221.anchor (n : ℕ) : (A323221 n : ℚ) = (n * (n + 5) * (n + 7) : ℚ) / 6 + 1` in `Proof.A323.A323221`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A323221.P1160006221664677187

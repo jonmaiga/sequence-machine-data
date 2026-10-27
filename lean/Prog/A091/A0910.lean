@@ -11495,7 +11495,7 @@ end A091073.P15293014798067326981
 
 The programs for A091074, the canonical program `A091074.P7445868260934044872` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091074 has offset 1).
 
-The definition of A091074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 472 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A091074 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A091074.anchor : A091074 1 = 12 ∧ A091074 2 = 67 ∧ ∀ n, 1 ≤ n → A091074 (n + 2) = A091074 (n + 1) + A091074 n` in `Proof.A091.A091074`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A091074.P7445868260934044872

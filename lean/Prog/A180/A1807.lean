@@ -55,6 +55,7 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -67,8 +68,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3573,16 +3572,16 @@ end A180749.P2453781298138275029
 /-!
 # A180750: a(n) = DP(n) is the total number of k-double-palindromes of n, where 2 <= k <= n.
 
-The programs for A180750, the canonical program `A180750.P8982842106611708069` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180750 has offset 1).
+The programs for A180750, the canonical program `A180750.P8982842106611708069` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180750 has offset 1).
 
-The definition of A180750 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A179781, A180249, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A180750 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A180249, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A180750.P8982842106611708069
 
 `A180249(n+1)-A179781(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A180750
@@ -5640,6 +5639,12 @@ namespace A180772
 /-- `A024000(n+4)+A174088(n+1)+2` -/
 def P3776057149632764441.Spec : Prop :=
   ∀ n, P3776057149632764441.a n = A180772 (n + 1)
+
+theorem P3776057149632764441.correct : P3776057149632764441.Spec := by
+  intro n
+  simp only [A180772, Nat.add_sub_cancel, A180772.P3776057149632764441.a, A180772.P1089154253406948827.a, A024000, A024000.P8748414335487061084.a, A174088, A174088.P3336557888488504044.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A018804, A018804.P15177010680010264719.f1, A018804.P15177010680010264719.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A001065, A001065.P4097147489331274860.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A180772
 

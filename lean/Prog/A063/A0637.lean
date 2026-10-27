@@ -5788,7 +5788,7 @@ end A063735
 
 The programs for A063736, the canonical program `A063736.P12274259142301944562` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063736 has offset 0).
 
-The definition of A063736 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A063736 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A063736.P12274259142301944562
@@ -7242,7 +7242,7 @@ end A063750.P13322841606026416954
 
 The programs for A063751, the canonical program `A063751.P2691294571101834722` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063751 has offset 1).
 
-The definition of A063751 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A063751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A063751.P2691294571101834722
@@ -7539,7 +7539,7 @@ end A063752
 
 The programs for A063754, the canonical program `A063754.P8530571032129736586` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063754 has offset 1).
 
-The definition of A063754 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, A029935, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A063754 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A063754.P8530571032129736586
@@ -12567,7 +12567,7 @@ end A063774.P496147433191001589
 
 The programs for A063775, the canonical program `A063775.P4217061199488976379` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063775 has offset 1).
 
-The definition of A063775 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A063775 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A063775.P4217061199488976379
@@ -12730,6 +12730,12 @@ namespace A063775
 /-- `A046951(A057918(n+1)+1)` -/
 def P13063039551818774752.Spec : Prop :=
   ∀ n, P13063039551818774752.a n = A063775 (n + 1)
+
+theorem P13063039551818774752.correct : P13063039551818774752.Spec := by
+  intro n
+  simp only [A063775, Nat.add_sub_cancel, A063775.P13063039551818774752.a, A063775.P4217061199488976379.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A046951, A046951.P12586408086602964063.a, A057918, A057918.P8779601029509101892.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A063775
 

@@ -7896,7 +7896,7 @@ end A139486.P11602934635812625180
 
 The programs for A139487, the canonical program `A139487.P1787232498596544969` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139487 has offset 1).
 
-The definition of A139487 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007522, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A139487 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A139487.anchor (n : ℕ) (hn : 1 ≤ n) : A139487 n = (Nat.nth (fun k => (8 * k + 7).Prime) (n - 1) : ℤ)` in `Proof.A139.A139487`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A139487.P1787232498596544969

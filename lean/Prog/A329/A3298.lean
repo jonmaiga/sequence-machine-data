@@ -5934,23 +5934,39 @@ end A329853.P17034649771466481633
 /-!
 # A329854: Triangle read by rows: T(n,k) = ((n - k)*(n + k - 1) + 2)/2, 0 <= k <= n.
 
-The programs for A329854, the canonical program `A329854.P12652795941192421266` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329854 has offset 0).
+The programs for A329854, the canonical program `A329854.P1382106108254141432` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329854 has offset 0).
 
-The definition of A329854 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A329854 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((row(n)-col(n))*(row(n)+col(n)-1)+2)/2` (program `A329854.P12652795941192421266`, by `A329854.P12652795941192421266.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A329854.P12652795941192421266
 
 `((row(n)-col(n))*(row(n)+col(n)-1)+2)/2`
 
-The canonical program, it is in `Seq.B000.C037`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A329854.P12652795941192421266
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) * ((SequenceMachineLib.triRow n + SequenceMachineLib.triCol n : ℤ) - 1) + 2 : ℚ) / 2
+
+end
+
+end A329854.P12652795941192421266
 
 namespace A329854
 
 /-- `((row(n)-col(n))*(row(n)+col(n)-1)+2)/2` -/
 def P12652795941192421266.Spec : Prop :=
   ∀ n, P12652795941192421266.a n = (A329854 n : ℚ)
+
+theorem P12652795941192421266.correct : P12652795941192421266.Spec := by
+  intro n
+  simp only [A329854, Nat.add_sub_cancel, A329854.P12652795941192421266.a, A329854.P1382106108254141432.a, A049777, A049777.P8069278756495172327.a, A294317, A294317.P6597418737474744620.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A329854
 
@@ -6118,23 +6134,19 @@ end A329854
 /-! ## A329854.P1382106108254141432
 
 `A049777(n+1)-A294317(n)`
+
+The canonical program, it is in `Seq.B001.C012`.
 -/
-
-namespace A329854.P1382106108254141432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049777 (n + 1) - A294317 n
-
-end
-
-end A329854.P1382106108254141432
 
 namespace A329854
 
 /-- `A049777(n+1)-A294317(n)` -/
 def P1382106108254141432.Spec : Prop :=
   ∀ n, P1382106108254141432.a n = A329854 n
+
+theorem P1382106108254141432.correct : P1382106108254141432.Spec := by
+  intro n
+  simp only [A329854]
 
 end A329854
 

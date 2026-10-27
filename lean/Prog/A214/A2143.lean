@@ -9577,7 +9577,7 @@ end A214394
 
 The programs for A214395, the canonical program `A214395.P9654829491974510543` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214395 has offset 0).
 
-The definition of A214395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A214395 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A214395.anchor (n : ℕ) : A214395 n = ((16 * 10 ^ (n + 1) / 27 % 10 : ℕ) : ℤ)` in `Proof.A214.A214395`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A214395.P9654829491974510543

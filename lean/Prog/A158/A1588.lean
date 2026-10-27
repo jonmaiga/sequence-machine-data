@@ -220,7 +220,7 @@ end A158801.P12140865647653569372
 
 The programs for A158803, the canonical program `A158803.P1606808208767845752` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158803 has offset 1).
 
-The definition of A158803 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A158803 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A158803.anchor (n : ℕ) (hn : 1 ≤ n) : A158803 n = (Nat.nth (fun k : ℕ => k ^ 2 ≡ 2 [MOD 41]) (n - 1) : ℤ)` in `Proof.A158.A158803`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A158803.P6736026665246922713
@@ -5085,7 +5085,7 @@ end A158841
 
 The programs for A158842, the canonical program `A158842.P5650998236462169322` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158842 has offset 0).
 
-The definition of A158842 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A158842 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A158842.anchor (n : ℕ) : (A158842 n : ℚ) = 1 + ((n * (n + 1) : ℤ) * ((n : ℤ) - 1) : ℚ) / 2` in `Proof.A158.A158842`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A158842.P5650998236462169322
@@ -5562,7 +5562,7 @@ end A158848
 
 The programs for A158850, the canonical program `A158850.P4164223774133924455` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158850 has offset 1).
 
-The definition of A158850 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A132236, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A158850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A158850.P4164223774133924455

@@ -2087,7 +2087,7 @@ end A296715.P2123316275918010009
 
 The programs for A296716, the canonical program `A296716.P4695475035178069096` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296716 has offset 1).
 
-The definition of A296716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A296716 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A296716.anchor (n : ℕ) (hn : 1 ≤ n) : A296716 n = (Nat.nth (fun k => k % 30 ∈ ({7, 11, 13, 29} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A296.A296716`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A296716.P4695475035178069096

@@ -111,7 +111,7 @@ set_option linter.unreachableTactic false
 
 The programs for A169600, the canonical program `A169600.P9442727120419948484` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169600 has offset 1).
 
-The definition of A169600 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A169600 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A169600.anchor (n : ℕ) (hn : 1 ≤ n) : A169600 n = (Nat.nth (fun k => k % 31 ∈ ({4, 25} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A169.A169600`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A169600.P9442727120419948484
@@ -2609,6 +2609,12 @@ namespace A169611
 /-- `A001222(n+1)-A106799(n+1)` -/
 def P9249055431262299457.Spec : Prop :=
   ∀ n, P9249055431262299457.a n = A169611 (n + 1)
+
+theorem P9249055431262299457.correct : P9249055431262299457.Spec := by
+  intro n
+  simp only [A169611, Nat.add_sub_cancel, A169611.P9249055431262299457.a, A169611.P2401651306699804100.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A007814, A007814.P13537437864234730737.a, A007949, A007949.P16509802526550351827.a, A106799, A106799.P9008647857558368840.a, A001511, A001511.P17146462531039486101.a, A087436, A087436.P13287701826401831056.a, A006519, A006519.P10435570611646570274.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A169611
 
@@ -6371,7 +6377,7 @@ end A169642
 
 The programs for A169643, the canonical program `A169643.P16723077689636949144` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169643 has offset 1).
 
-The definition of A169643 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014574, A066246, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A169643 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014574, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A169643.P16723077689636949144

@@ -2900,7 +2900,7 @@ end A252231.P540020431257201409
 
 The programs for A252233, the canonical program `A252233.P13324621536471140803` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252233 has offset 1).
 
-The definition of A252233 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, A008966, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A252233 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A252233.P13324621536471140803

@@ -6602,7 +6602,7 @@ end A133141.P16965991655997170294
 
 The programs for A133145, the canonical program `A133145.P3731618436186570124` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133145 has offset 0).
 
-The definition of A133145 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A133145 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A133145.anchor (n : ℕ) : A133145 n = (([1, 2, 4, 8].getD (n % 4) 0 : ℕ) : ℤ)` in `Proof.A133.A133145`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A133145.P3731618436186570124
@@ -10203,7 +10203,7 @@ end A133185.P4035941523312697996
 
 The programs for A133186, the canonical program `A133186.P16626045180948105930` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133186 has offset 0).
 
-The definition of A133186 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A133186 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A133186.anchor (n : ℕ) : A133186 n = [1, 2, 1, -4].getD (n % 4) 0` in `Proof.A133.A133186`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A133186.P16626045180948105930

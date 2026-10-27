@@ -5665,7 +5665,7 @@ end A197649
 
 The programs for A197652, the canonical program `A197652.P3108215014647559544` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197652 has offset 1).
 
-The definition of A197652 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A197652 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A197652.anchor (n : ℕ) (hn : 1 ≤ n) : A197652 n = (Nat.nth (fun k => k % 10 ∈ ({0, 1} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A197.A197652`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A197652.P3108215014647559544

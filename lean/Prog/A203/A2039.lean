@@ -4271,7 +4271,7 @@ end A203966.P5316273282187695818
 
 The programs for A203967, the canonical program `A203967.P2609417184401849939` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203967 has offset 1).
 
-The definition of A203967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, A010055, A100995, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A203967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010055, A100995, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A203967.P2609417184401849939

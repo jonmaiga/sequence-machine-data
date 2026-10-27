@@ -504,7 +504,7 @@ end A270305.P14470581834415386771
 /-!
 # A270307: Expansion of -(4*x^3+8*x^2+4*x+1)/(2*x^4+4*x^3+2*x^2-x-1).
 
-The programs for A270307, the canonical program `A270307.P6454519374419731181` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270307 has offset 0).
+The programs for A270307, the canonical program `A270307.P6454519374419731181` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270307 has offset 0).
 
 The definition of A270307 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+4x+8x^2+4x^3)/(1+x-2x^2-4x^3-2x^4))` (program `A270307.P6454519374419731181`, by `A270307.P6454519374419731181.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -513,7 +513,7 @@ The definition of A270307 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+4x+8x^2+4x^3)/(1+x-2x^2-4x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A270307
@@ -4938,7 +4938,7 @@ end A270368.P7219820943652951748
 /-!
 # A270369: Expansion of g.f. (1-7*x)/(1-9*x).
 
-The programs for A270369, the canonical program `A270369.P13136369714176242248` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270369 has offset 0).
+The programs for A270369, the canonical program `A270369.P13136369714176242248` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270369 has offset 0).
 
 The definition of A270369 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-7x)/(1-9x))` (program `A270369.P13136369714176242248`, by `A270369.P13136369714176242248.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4947,7 +4947,7 @@ The definition of A270369 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-7x)/(1-9x))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A270369

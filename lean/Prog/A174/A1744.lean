@@ -291,6 +291,12 @@ namespace A174405
 def P656416331658480154.Spec : Prop :=
   ∀ n, P656416331658480154.a n = A174405 (n + 1)
 
+theorem P656416331658480154.correct : P656416331658480154.Spec := by
+  intro n
+  simp only [A174405, Nat.add_sub_cancel, A174405.P656416331658480154.f1, A174405.P656416331658480154.a, A174405.P5773883220253665986.f1, A174405.P5773883220253665986.a, A057660, A057660.P308819105178745283.a, A365076, A365076.P14072161056249924003.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P17878717581134609993.f1, A001157.P17878717581134609993.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A174405
 
 /-! ## A174405.P2724727868063465151
@@ -3640,7 +3646,7 @@ end A174432.P8185823679622540964
 
 The programs for A174433, the canonical program `A174433.P6249315358605907435` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174433 has offset 1).
 
-The definition of A174433 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A174433 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(row(n)+1)%A001223(col(n)+1)` (program `A174433.P6249315358605907435`, by `A174433.P6249315358605907435.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A174433.P6249315358605907435
@@ -4075,7 +4081,7 @@ end A174437.P11996357066310531822
 
 The programs for A174438, the canonical program `A174438.P2825161695768805897` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174438 has offset 1).
 
-The definition of A174438 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A174438 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A174438.anchor (n : ℕ) (hn : 1 ≤ n) : A174438 n = (Nat.nth (fun k => k % 9 ∈ ({0, 2, 5, 8} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A174.A174438`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A174438.P2825161695768805897

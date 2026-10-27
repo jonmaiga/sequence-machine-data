@@ -2451,7 +2451,7 @@ end A175920
 
 The programs for A175921, the canonical program `A175921.P3859275622482665056` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175921 has offset 1).
 
-The definition of A175921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A175921 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175921.anchor (n : ℕ) (hn : 1 ≤ n) : A175921 n = [1, 2, 2, -1, 1].getD ((n - 1) % 5) 0` in `Proof.A175.A175921`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175921.P3859275622482665056
@@ -2478,7 +2478,7 @@ end A175921
 
 The programs for A175922, the canonical program `A175922.P3752116205992474079` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175922 has offset 1).
 
-The definition of A175922 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175922 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175922.anchor (n : ℕ) (hn : 1 ≤ n) : A175922 n = [1, 1, 2, -1, 2].getD ((n - 1) % 5) 0` in `Proof.A175.A175922`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175922.P3752116205992474079

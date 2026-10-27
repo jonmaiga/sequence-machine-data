@@ -10420,7 +10420,7 @@ end A314144
 /-!
 # A314145: Coordination sequence Gal.4.145.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A314145, the canonical program `A314145.P14892891408194481811` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314145 has offset 0).
+The programs for A314145, the canonical program `A314145.P14892891408194481811` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314145 has offset 0).
 
 The definition of A314145 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10452,7 +10452,7 @@ end A314145
 
 `∑[floor(a(n-5))]+n` with `a(0)=1, a(1)=3, a(2)=5, a(3)=4, a(4)=5, a(5)=4, a(6)=4`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A314145

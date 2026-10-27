@@ -8588,7 +8588,7 @@ end A115359
 
 The programs for A115360, the canonical program `A115360.P12689632081260922629` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115360 has offset 0).
 
-The definition of A115360 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A115360 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A115360.anchor (n : ℕ) : A115360 n = [1, -1, 1, 0, 0, 0].getD (n % 6) 0` in `Proof.A115.A115360`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A115360.P12689632081260922629

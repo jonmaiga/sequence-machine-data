@@ -9905,7 +9905,7 @@ end A236397.P5853246173247201495
 
 The programs for A236398, the canonical program `A236398.P14561171844355061157` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236398 has offset 1).
 
-The definition of A236398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A236398 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A236398.anchor (n : ℕ) (hn : 1 ≤ n) : A236398 n = (([1, 1, 2, 1].getD ((n - 1) % 4) 0 : ℕ) : ℤ)` in `Proof.A236.A236398`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A236398.P14561171844355061157

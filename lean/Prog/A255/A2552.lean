@@ -172,7 +172,7 @@ end A255200.P17602335121398078785
 
 The programs for A255201, the canonical program `A255201.P10260826747868353202` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255201 has offset 1).
 
-The definition of A255201 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A255201 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A255201.P10260826747868353202
@@ -240,6 +240,12 @@ namespace A255201
 /-- `2*∑{e}[n+1, #]` -/
 def P14643069582101523613.Spec : Prop :=
   ∀ n, (P14643069582101523613.a n : ℤ) = A255201 (n + 1)
+
+theorem P14643069582101523613.correct : P14643069582101523613.Spec := by
+  intro n
+  simp only [A255201, Nat.add_sub_cancel, A255201.P14643069582101523613.f1, A255201.P14643069582101523613.a, A255201.P10260826747868353202.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A255201
 
@@ -370,6 +376,12 @@ namespace A255201
 /-- `∑{e}[n+1, #]/sqrt(1/4)` -/
 def P16731597962248231238.Spec : Prop :=
   ∀ n, P16731597962248231238.a n = (A255201 (n + 1) : ℝ)
+
+theorem P16731597962248231238.correct : P16731597962248231238.Spec := by
+  intro n
+  simp only [A255201, Nat.add_sub_cancel, A255201.P16731597962248231238.f1, A255201.P16731597962248231238.a, A255201.P10260826747868353202.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A255201
 

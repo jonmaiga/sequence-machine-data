@@ -71,7 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5051,7 +5050,7 @@ end A328636.P13254002401411857707
 
 The programs for A328639, the canonical program `A328639.P9947470006572070281` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328639 has offset 1).
 
-The definition of A328639 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, A008836, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A328639 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A328639.P9947470006572070281
@@ -5306,7 +5305,7 @@ end A328639
 
 The programs for A328640, the canonical program `A328640.P17783510671791457242` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328640 has offset 1).
 
-The definition of A328640 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, A008836, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A328640 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A328640.P17783510671791457242
@@ -9332,6 +9331,12 @@ namespace A328688
 def P11073682230291093828.Spec : Prop :=
   ∀ n, P11073682230291093828.a n = A328688 (n + 1)
 
+theorem P11073682230291093828.correct : P11073682230291093828.Spec := by
+  intro n
+  simp only [A328688, Nat.add_sub_cancel, A328688.P11073682230291093828.a, A328688.P10993305875677652707.f1, A328688.P10993305875677652707.a, A180249, A180249.P11033069558763702019.a, A180322, A180322.P10246016222357682006.a, A056493, A056493.P14823141332440776708.f1, A056493.P14823141332440776708.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A164090, A164090.P6257059095248151761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A328688
 
 /-! ## A328688.P10993305875677652707
@@ -9396,6 +9401,12 @@ namespace A328688
 /-- `A001478(n+1)+A180249(n+1)+n` -/
 def P13368870805122093673.Spec : Prop :=
   ∀ n, P13368870805122093673.a n = A328688 (n + 1)
+
+theorem P13368870805122093673.correct : P13368870805122093673.Spec := by
+  intro n
+  simp only [A328688, Nat.add_sub_cancel, A328688.P13368870805122093673.a, A328688.P10993305875677652707.f1, A328688.P10993305875677652707.a, A001478, A001478.P11279598861711037921.a, A180249, A180249.P11033069558763702019.a, A180322, A180322.P10246016222357682006.a, A056493, A056493.P14823141332440776708.f1, A056493.P14823141332440776708.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A164090, A164090.P6257059095248151761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A328688
 

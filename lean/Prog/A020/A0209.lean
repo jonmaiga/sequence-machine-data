@@ -14158,6 +14158,12 @@ namespace A020965
 def P14867865540472216445.Spec : Prop :=
   ∀ n, P14867865540472216445.a n = A020965 (n + 1)
 
+theorem P14867865540472216445.correct : P14867865540472216445.Spec := by
+  intro n
+  simp only [A020965, Nat.add_sub_cancel, A020965.P14867865540472216445.a, A020965.P8785795445900425784.a, A005187, A005187.P3874015513960485494.a, A011371, A011371.P12398255777927387864.a, A049472, A049472.P13396613520496134978.a, A155689, A155689.P2139899322435435333.a, A000120, A000120.P2816527436160941581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A020965
 
 /-! ## A020965.P8785795445900425784

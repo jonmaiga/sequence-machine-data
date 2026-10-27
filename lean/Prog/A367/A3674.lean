@@ -3587,7 +3587,7 @@ end A367451.P11668871244258063786
 
 The programs for A367452, the canonical program `A367452.P7767134623481376132` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367452 has offset 1).
 
-The definition of A367452 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, A086971, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A367452 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A367452.P7767134623481376132

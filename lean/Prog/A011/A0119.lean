@@ -7976,7 +7976,7 @@ end A011946
 /-!
 # A011947: Number of Barlow packings with group P63/mmc(O) that repeat after 4n+2 layers.
 
-The programs for A011947, the canonical program `A011947.P14935983523207937062` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011947 has offset 0).
+The programs for A011947, the canonical program `A011947.P14935983523207937062` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011947 has offset 0).
 
 The definition of A011947 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8086,7 +8086,7 @@ end A011947
 
 `A179781(Δ[n²])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A011947

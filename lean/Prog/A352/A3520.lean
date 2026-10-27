@@ -2228,6 +2228,12 @@ namespace A352032
 def P3881694232866800021.Spec : Prop :=
   ∀ n, P3881694232866800021.a n = A352032 (n + 1)
 
+theorem P3881694232866800021.correct : P3881694232866800021.Spec := by
+  intro n
+  simp only [A352032, Nat.add_sub_cancel, A352032.P3881694232866800021.a, A352032.P7584704654108786312.a, A000035, A000035.P2023072528413494694.a, A000583, A000583.P14547500281748394449.a, A051001, A051001.P2883852462470465960.a, A000265, A000265.P16482698636471710744.a, A001159, A001159.P9898895530264138649.f1, A001159.P9898895530264138649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A352032
 
 /-! ## A352032.P14760277189118660725
@@ -3398,7 +3404,7 @@ end A352046.P9204468441067594573
 
 The programs for A352047, the canonical program `A352047.P11793424880118639784` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352047 has offset 1).
 
-The definition of A352047 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A352047 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A352047.P11793424880118639784
@@ -3856,7 +3862,7 @@ end A352047
 
 The programs for A352048, the canonical program `A352048.P2446368549956049368` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352048 has offset 1).
 
-The definition of A352048 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050999, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A352048 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A352048.P2446368549956049368
@@ -5733,7 +5739,7 @@ end A352059.P16351826892006289011
 
 The programs for A352060, the canonical program `A352060.P16517942845462648918` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352060 has offset 1).
 
-The definition of A352060 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A352060 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!*A001221(n+1)` (program `A352060.P16517942845462648918`, by `A352060.P16517942845462648918.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A352060.P16517942845462648918

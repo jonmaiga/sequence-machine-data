@@ -108,7 +108,7 @@ set_option linter.unreachableTactic false
 
 The programs for A132708, the canonical program `A132708.P9807569525499884766` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132708 has offset 0).
 
-The definition of A132708 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132708 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132708.anchor (n : ℕ) : A132708 n = [4, 2, 1, -4, -2, -1].getD (n % 6) 0` in `Proof.A132.A132708`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132708.P9807569525499884766

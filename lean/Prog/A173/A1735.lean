@@ -3590,6 +3590,12 @@ namespace A173523
 def P15604618432918650524.Spec : Prop :=
   ∀ n, P15604618432918650524.a n = A173523 (n + 1)
 
+theorem P15604618432918650524.correct : P15604618432918650524.Spec := by
+  intro n
+  simp only [A173523, Nat.add_sub_cancel, A173523.P15604618432918650524.a, A173523.P2383759421144788857.a, A053735, A053735.P3640341592284089632.a, A063787, A063787.P13236937262237871159.a, A180017, A180017.P1955405444060819929.a, A000120, A000120.P2816527436160941581.a, A011371, A011371.P12398255777927387864.a, A054861, A054861.P6137810495506521191.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A173523
 
 /-!
@@ -10684,7 +10690,7 @@ end A173556
 
 The programs for A173557, the canonical program `A173557.P308518469657070908` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173557 has offset 1).
 
-The definition of A173557 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A173557 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A173557.anchor (n : ℕ) (hn : 1 ≤ n) : A173557 n = ∏ p ∈ n.primeFactors, ((p : ℤ) - 1)` in `Proof.A173.A173557`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A173557.P16871788838928965716
@@ -10997,6 +11003,12 @@ namespace A173557
 /-- `1-A318841(n+1)+n` -/
 def P6808502757677388639.Spec : Prop :=
   ∀ n, P6808502757677388639.a n = A173557 (n + 1)
+
+theorem P6808502757677388639.correct : P6808502757677388639.Spec := by
+  intro n
+  simp only [A173557, Nat.add_sub_cancel, A173557.P6808502757677388639.a, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A318841, A318841.P6517978691631055757.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A173557
 
@@ -14143,7 +14155,7 @@ end A173597.P1274125892421170259
 
 The programs for A173598, the canonical program `A173598.P9996692439297068335` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173598 has offset 0).
 
-The definition of A173598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A173598 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A173598.anchor (n : ℕ) : A173598 n = (([1, 8, 7, 2, 4, 5].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A173.A173598`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A173598.P9996692439297068335

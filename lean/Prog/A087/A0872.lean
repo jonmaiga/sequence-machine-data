@@ -61,7 +61,6 @@ import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -215,7 +214,7 @@ end A087200.P2774597590779716501
 
 The programs for A087204, the canonical program `A087204.P12496729143361995151` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087204 has offset 0).
 
-The definition of A087204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A087204 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A087204.anchor (n : ℕ) : A087204 n = [2, 1, -1, -2, -1, 1].getD (n % 6) 0` in `Proof.A087.A087204`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A087204.P12496729143361995151
@@ -18105,6 +18104,12 @@ namespace A087298
 /-- `3*(n+1)-A036555(n+1)` -/
 def P6510046344218744925.Spec : Prop :=
   ∀ n, P6510046344218744925.a n = A087298 (n + 1)
+
+theorem P6510046344218744925.correct : P6510046344218744925.Spec := by
+  intro n
+  simp only [A087298, Nat.add_sub_cancel, A087298.P6510046344218744925.a, A087298.P12395846992639470447.a, A011371, A011371.P12398255777927387864.a, A036555, A036555.P297954735964110707.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A087298
 

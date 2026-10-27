@@ -2775,6 +2775,12 @@ namespace A195017
 def P8508177589115442338.Spec : Prop :=
   ∀ n, P8508177589115442338.a n = A195017 (n + 1)
 
+theorem P8508177589115442338.correct : P8508177589115442338.Spec := by
+  intro n
+  simp only [A195017, Nat.add_sub_cancel, A195017.P8508177589115442338.a, A195017.P8196782963761862228.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A257991, A257991.P9003885035180655311.f1, A257991.P9003885035180655311.a, A257992, A257992.P14262373692572386717.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A014963, A014963.P5975177236000282614.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A080304, A080304.P9910366703239988167.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A195017
 
 /-! ## A195017.P125194582595425677
@@ -2797,6 +2803,12 @@ namespace A195017
 /-- `A001222(n+1)-2*A257992(n+1)` -/
 def P125194582595425677.Spec : Prop :=
   ∀ n, P125194582595425677.a n = A195017 (n + 1)
+
+theorem P125194582595425677.correct : P125194582595425677.Spec := by
+  intro n
+  simp only [A195017, Nat.add_sub_cancel, A195017.P125194582595425677.a, A195017.P8196782963761862228.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A257991, A257991.P9003885035180655311.f1, A257991.P9003885035180655311.a, A257992, A257992.P14262373692572386717.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A014963, A014963.P5975177236000282614.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A080304, A080304.P9910366703239988167.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A195017
 
@@ -16492,7 +16504,7 @@ end A195061.P12441410177517788873
 
 The programs for A195062, the canonical program `A195062.P223126978538632503` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195062 has offset 1).
 
-The definition of A195062 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A195062 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A195062.anchor (n : ℕ) (hn : 1 ≤ n) : A195062 n = [1, 0, 1, 0, 1, 0, 1].getD ((n - 1) % 7) 0` in `Proof.A195.A195062`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A195062.P223126978538632503
@@ -21275,6 +21287,12 @@ namespace A195087
 /-- `eq[3, A001222(A003557(n+1))]+1` -/
 def P8317391272636700605.Spec : Prop :=
   ∀ n, (P8317391272636700605.a n : ℤ) = A195087 (n + 1)
+
+theorem P8317391272636700605.correct : P8317391272636700605.Spec := by
+  intro n
+  simp only [A195087, Nat.add_sub_cancel, A195087.P8317391272636700605.f1, A195087.P8317391272636700605.f2, A195087.P8317391272636700605.a, A195087.P7404361549987766515.f1, A195087.P7404361549987766515.f2, A195087.P7404361549987766515.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A003557, A003557.P6364735403900941810.a, A336551, A336551.P8666843674191054020.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A195087
 

@@ -10599,6 +10599,12 @@ namespace A295881
 def P14917860270944828235.Spec : Prop :=
   ∀ n, P14917860270944828235.a n = A295881 (n + 1)
 
+theorem P14917860270944828235.correct : P14917860270944828235.Spec := by
+  intro n
+  simp only [A295881, Nat.add_sub_cancel, A295881.P14917860270944828235.a, A295881.P4822389694980892212.a, A033879, A033879.P5965131822542929609.a, A033880, A033880.P6005875780263802708.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A295881
 
 /-! ## A295881.P3815135660681422383
@@ -10629,7 +10635,7 @@ end A295881
 
 The programs for A295883, the canonical program `A295883.P17471904832755178086` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295883 has offset 1).
 
-The definition of A295883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A295659, A295884, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A295883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A295659, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A295883.P17471904832755178086
@@ -11056,7 +11062,7 @@ end A295883
 
 The programs for A295884, the canonical program `A295884.P5953786868987589474` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295884 has offset 1).
 
-The definition of A295884 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056170, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A295884 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A295884.P6881617851064324842
@@ -11121,6 +11127,12 @@ namespace A295884
 /-- `A295659(n+1)-A295883(n+1)` -/
 def P13042322752059309617.Spec : Prop :=
   ∀ n, P13042322752059309617.a n = A295884 (n + 1)
+
+theorem P13042322752059309617.correct : P13042322752059309617.Spec := by
+  intro n
+  simp only [A295884, Nat.add_sub_cancel, A295884.P13042322752059309617.a, A295884.P5953786868987589474.a, A056170, A056170.P910878729848546389.a, A062378, A062378.P530133715863786862.a, A295659, A295659.P13397304505922019688.a, A295883, A295883.P17471904832755178086.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A003557, A003557.P6364735403900941810.a, A053150, A053150.P12506958821739849534.a, A056169, A056169.P17430176249366647977.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A000189, A000189.P11210685475351648118.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A050985, A050985.P12411912326700818488.f1, A050985.P12411912326700818488.a, A055231, A055231.P8962300905713718501.a, A053149, A053149.P4125189005957149122.a, A071773, A071773.P10551485978970375506.a, A073185, A073185.P13146702220439815820.a, A210826, A210826.P1982609276010569986.f1, A210826.P1982609276010569986.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A295884
 

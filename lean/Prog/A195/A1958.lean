@@ -1424,7 +1424,7 @@ end A195818
 
 The programs for A195819, the canonical program `A195819.P17425551630920011679` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195819 has offset 0).
 
-The definition of A195819 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A195819 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A195819.anchor (n : ℕ) : A195819 n = 29 * n` in `Proof.A195.A195819`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A195819.P17425551630920011679

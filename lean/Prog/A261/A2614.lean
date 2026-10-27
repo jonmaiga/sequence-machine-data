@@ -3519,7 +3519,7 @@ end A261446.P11272036749226735798
 
 The programs for A261447, the canonical program `A261447.P2588180063038653049` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261447 has offset 2).
 
-The definition of A261447 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A032741, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A261447 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A032741, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A261447.P15741958336778510888
@@ -3542,6 +3542,12 @@ namespace A261447
 /-- `A001221(A000005(n+2)-1)` -/
 def P15741958336778510888.Spec : Prop :=
   ∀ n, P15741958336778510888.a n = A261447 (n + 2)
+
+theorem P15741958336778510888.correct : P15741958336778510888.Spec := by
+  intro n
+  simp only [A261447, Nat.add_sub_cancel, A261447.P15741958336778510888.a, A261447.P2588180063038653049.a, A000005, A000005.P16091521709108585461.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A261447
 

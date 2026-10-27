@@ -2781,7 +2781,7 @@ end A155851.P426400078037103108
 
 The programs for A155853, the canonical program `A155853.P16741750777501655828` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155853 has offset 1).
 
-The definition of A155853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A155853 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A155853.anchor (n : ℕ) (hn : 1 ≤ n) : A155853 n = (Nat.nth (fun k => (13 * k + 3).Prime) (n - 1) : ℤ)` in `Proof.A155.A155853`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A155853.P16741750777501655828

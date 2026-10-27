@@ -559,7 +559,7 @@ end A228804.P6053026363633253841
 
 The programs for A228807, the canonical program `A228807.P16255660433747809993` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228807 has offset 0).
 
-The definition of A228807 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A228807 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000010(a(n-1)+a(n-2)+1)` (program `A228807.P16255660433747809993`, by `A228807.P16255660433747809993.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A228807.P16255660433747809993
@@ -6109,7 +6109,7 @@ end A228870.P10218313195335249303
 /-!
 # A228871: Odd numbers producing 3 out-of-order odd numbers in the Collatz (3x+1) iteration.
 
-The programs for A228871, the canonical program `A228871.P3781957026361510476` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228871 has offset 1).
+The programs for A228871, the canonical program `A228871.P3781957026361510476` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228871 has offset 1).
 
 The definition of A228871 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6118,7 +6118,7 @@ The definition of A228871 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `65*a(n-1)-64*a(n-2)` with `a(0)=3, a(1)=227`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A228871
@@ -7663,7 +7663,7 @@ end A228878.P11423726588272071837
 /-!
 # A228879: a(n+2) = 3*a(n), starting 4,7.
 
-The programs for A228879, the canonical program `A228879.P14610952875641749760` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228879 has offset 0).
+The programs for A228879, the canonical program `A228879.P14610952875641749760` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228879 has offset 0).
 
 The definition of A228879 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7672,7 +7672,7 @@ The definition of A228879 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^((n-1)/2)*(4*sqrt(3)+7+(-1)^n*(4*sqrt(3)-7))/2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A228879

@@ -1171,7 +1171,7 @@ end A358216
 
 The programs for A358217, the canonical program `A358217.P15146793602575622930` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358217 has offset 1).
 
-The definition of A358217 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A319627, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358217 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A319627, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A358217.P15146793602575622930
@@ -1236,6 +1236,12 @@ namespace A358217
 /-- `A001222(A064989(n+1)/A330749(n+1))` -/
 def P8829979606548275030.Spec : Prop :=
   ∀ n, P8829979606548275030.a n = A358217 (n + 1)
+
+theorem P8829979606548275030.correct : P8829979606548275030.Spec := by
+  intro n
+  simp only [A358217, Nat.add_sub_cancel, A358217.P8829979606548275030.a, A358217.P15146793602575622930.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A064989, A064989.P13349672914146769936.a, A319627, A319627.P4809772185258266634.a, A330749, A330749.P2089364656519205452.a, A008578, A008578.P3639467937083264764.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A070229, A070229.P5792893597916963980.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358217
 
@@ -5184,6 +5190,12 @@ namespace A358260
 def P1948878797570118680.Spec : Prop :=
   ∀ n, P1948878797570118680.a n = A358260 (n + 1)
 
+theorem P1948878797570118680.correct : P1948878797570118680.Spec := by
+  intro n
+  simp only [A358260, Nat.add_sub_cancel, A358260.P1948878797570118680.a, A358260.P17846008224269893161.f1, A358260.P17846008224269893161.f2, A358260.P17846008224269893161.a, A046951, A046951.P12586408086602964063.a, A358261, A358261.P13898711941004689551.a, A000005, A000005.P16091521709108585461.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A358260
 
 /-! ## A358260.P725268591372769776
@@ -5240,7 +5252,7 @@ end A358260
 
 The programs for A358261, the canonical program `A358261.P13898711941004689551` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358261 has offset 1).
 
-The definition of A358261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046951, A358260, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A358260, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A358261.P13898711941004689551

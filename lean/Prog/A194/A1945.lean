@@ -4121,7 +4121,7 @@ end A194531.P11191131550911079025
 
 The programs for A194532, the canonical program `A194532.P2568676926494303915` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194532 has offset 1).
 
-The definition of A194532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007434, A069091, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A194532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069091, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A194532.P2568676926494303915

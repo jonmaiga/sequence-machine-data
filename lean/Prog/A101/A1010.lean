@@ -108,7 +108,7 @@ set_option linter.unreachableTactic false
 
 The programs for A101000, the canonical program `A101000.P8769212031880855485` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101000 has offset 0).
 
-The definition of A101000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A101000 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A101000.anchor (n : ℕ) : A101000 n = [0, 1, 3].getD (n % 3) 0` in `Proof.A101.A101000`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A101000.P8769212031880855485
@@ -2251,6 +2251,12 @@ namespace A101035
 def P6848211619483654109.Spec : Prop :=
   ∀ n, P6848211619483654109.a n = A101035 (n + 1)
 
+theorem P6848211619483654109.correct : P6848211619483654109.Spec := by
+  intro n
+  simp only [A101035, Nat.add_sub_cancel, A101035.P6848211619483654109.a, A101035.P3462403393033249231.f1, A101035.P3462403393033249231.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A018804, A018804.P15177010680010264719.f1, A018804.P15177010680010264719.a, A347095, A347095.P13848354769774225057.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A001065, A001065.P4097147489331274860.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A101035
 
 /-! ## A101035.P318910924736556430
@@ -3224,7 +3230,7 @@ end A101039.P869494437726003336
 
 The programs for A101040, the canonical program `A101040.P6430529822999703701` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101040 has offset 1).
 
-The definition of A101040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, A064911, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A101040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064911, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A101040.P6430529822999703701
@@ -10544,7 +10550,7 @@ end A101093
 
 The programs for A101094, the canonical program `A101094.P7729936501534296794` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101094 has offset 1).
 
-The definition of A101094 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A101094 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A101094.anchor (n : ℕ) : (A101094 (n + 1) : ℚ) = ((n + 1) * (n + 2) * (n + 3) * (n + 4) * (1 + 3 * (n + 1) + (n + 1) ^ 2) : ℚ) / 120` in `Proof.A101.A101094`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A101094.P7729936501534296794

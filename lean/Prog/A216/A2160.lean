@@ -3393,7 +3393,7 @@ end A216055.P7744640427643409219
 
 The programs for A216057, the canonical program `A216057.P3710212579143236931` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216057 has offset 1).
 
-The definition of A216057 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A045356, A045429, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A216057 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A045356, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A216057.P3710212579143236931

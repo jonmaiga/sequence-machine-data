@@ -6895,7 +6895,7 @@ end A282776.P8973300609260667098
 /-!
 # A282777: Expansion of phi_{16, 1}(x) where phi_{r, s}(x) = Sum_{n, m>0} m^r * n^s * x^{m*n}.
 
-The programs for A282777, the canonical program `A282777.P9475512054048796476` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282777 has offset 0).
+The programs for A282777, the canonical program `A282777.P9475512054048796476` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282777 has offset 0).
 
 The definition of A282777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6904,7 +6904,7 @@ The definition of A282777 is `conjectured`: the Lean definition is a formula tha
 
 `n*∑{d}[n, (#^3)^5]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A282777
@@ -7043,7 +7043,7 @@ end A282778.P16081786362961709056
 /-!
 # A282779: Period of cubes mod n.
 
-The programs for A282779, the canonical program `A282779.P5011115645249712439` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282779 has offset 1).
+The programs for A282779, the canonical program `A282779.P5011115645249712439` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282779 has offset 1).
 
 The definition of A282779 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7052,7 +7052,7 @@ The definition of A282779 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(n+1, lcm(3, C(n², 3)))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A282779

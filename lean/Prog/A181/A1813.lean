@@ -1898,6 +1898,12 @@ namespace A181314
 def P4413307992342478970.Spec : Prop :=
   ∀ n, P4413307992342478970.a n = A181314 (n + 1)
 
+theorem P4413307992342478970.correct : P4413307992342478970.Spec := by
+  intro n
+  simp only [A181314, Nat.add_sub_cancel, A181314.P4413307992342478970.a, A181314.P4228565367849305824.a, A056498, A056498.P10808203384033100118.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A000007, A000007.P6599383543502402472.a, A000038, A000038.P13734959004655594922.a, A056493, A056493.P14823141332440776708.f1, A056493.P14823141332440776708.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A164090, A164090.P6257059095248151761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A181314
 
 /-! ## A181314.P7793880842377508373
@@ -1948,6 +1954,12 @@ namespace A181314
 def P5857464263637374580.Spec : Prop :=
   ∀ n, P5857464263637374580.a n = A181314 (n + 1)
 
+theorem P5857464263637374580.correct : P5857464263637374580.Spec := by
+  intro n
+  simp only [A181314, Nat.add_sub_cancel, A181314.P5857464263637374580.a, A181314.P4228565367849305824.a, A056493, A056493.P14823141332440776708.f1, A056493.P14823141332440776708.a, A056498, A056498.P10808203384033100118.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A000007, A000007.P6599383543502402472.a, A000038, A000038.P13734959004655594922.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A164090, A164090.P6257059095248151761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A181314
 
 /-! ## A181314.P14222366245145895637
@@ -1970,6 +1982,12 @@ namespace A181314
 /-- `A056493(n+1)-(A057428(n)+2)` -/
 def P14222366245145895637.Spec : Prop :=
   ∀ n, P14222366245145895637.a n = A181314 (n + 1)
+
+theorem P14222366245145895637.correct : P14222366245145895637.Spec := by
+  intro n
+  simp only [A181314, Nat.add_sub_cancel, A181314.P14222366245145895637.a, A181314.P4228565367849305824.a, A056493, A056493.P14823141332440776708.f1, A056493.P14823141332440776708.a, A056498, A056498.P10808203384033100118.a, A057428, A057428.P2999489532230392221.a, A000038, A000038.P13734959004655594922.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A057427, A057427.P3058147525557661423.a, A164090, A164090.P6257059095248151761.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A181314
 
@@ -4765,7 +4783,7 @@ end A181342
 
 The programs for A181343, the canonical program `A181343.P16401128473370767170` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181343 has offset 1).
 
-The definition of A181343 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A181343 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A181343.anchor (n : ℕ) : (A181343 (n + 1) : ℚ) = ((35 * (n + 1) ^ 4 : ℤ) - (35 * (n + 1) ^ 3 : ℤ) + (55 * (n + 1) ^ 2 : ℤ) - (25 * (n + 1) : ℤ) + 6 : ℚ) / 6` in `Proof.A181.A181343`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A181343.P16401128473370767170
@@ -7705,7 +7723,7 @@ end A181362.P3040658348167720604
 
 The programs for A181363, the canonical program `A181363.P272929501792705759` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181363 has offset 1).
 
-The definition of A181363 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A181363 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A181363.P272929501792705759

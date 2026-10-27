@@ -861,7 +861,7 @@ end A378512.P11952267181925275510
 
 The programs for A378514, the canonical program `A378514.P5051623705849836862` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378514 has offset 1).
 
-The definition of A378514 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A378514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A378514.P5051623705849836862
@@ -1295,7 +1295,7 @@ end A378520.P8443485108113203699
 
 The programs for A378521, the canonical program `A378521.P13111043884927909752` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378521 has offset 1).
 
-The definition of A378521 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048673, A072451, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A378521 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048673, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A378521.P13111043884927909752
@@ -1383,6 +1383,12 @@ namespace A378521
 /-- `A378748(n+1)+A051953(n+1)` -/
 def P4845757796841608564.Spec : Prop :=
   ∀ n, P4845757796841608564.a n = A378521 (n + 1)
+
+theorem P4845757796841608564.correct : P4845757796841608564.Spec := by
+  intro n
+  simp only [A378521, Nat.add_sub_cancel, A378521.P4845757796841608564.a, A378521.P13111043884927909752.a, A048673, A048673.P16342935298832955059.a, A051953, A051953.P11179276897610979764.a, A072451, A072451.P2994685750961621523.a, A378748, A378748.P8742583333347776614.a, A000010, A000010.P4673923239450215316.a, A045965, A045965.P3274931299755745232.a, A055034, A055034.P3174201009977773822.a, A003557, A003557.P6364735403900941810.a, A003961, A003961.P5996473960037614004.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A253885, A253885.P8852473244354028115.f1, A253885.P8852473244354028115.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A378521
 

@@ -8478,7 +8478,7 @@ end A226275
 
 The programs for A226276, the canonical program `A226276.P8575891235439915675` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226276 has offset 0).
 
-The definition of A226276 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A226276 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A226276.anchor (n : ℕ) : A226276 n = (([8, 4, 4, 4].getD (n % 4) 0 : ℕ) : ℤ)` in `Proof.A226.A226276`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A226276.P8575891235439915675
@@ -10797,7 +10797,7 @@ end A226293.P7040250137324727523
 
 The programs for A226294, the canonical program `A226294.P7008621033274043662` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226294 has offset 0).
 
-The definition of A226294 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A226294 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A226294.anchor (n : ℕ) : A226294 n = (([6, 4].getD (n % 2) 0 : ℕ) : ℤ)` in `Proof.A226.A226294`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A226294.P7008621033274043662

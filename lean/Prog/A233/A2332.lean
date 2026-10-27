@@ -61,6 +61,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -6848,7 +6849,7 @@ end A233278.P10078167520837837557
 
 The programs for A233279, the canonical program `A233279.P10877154597455539139` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233279 has offset 0).
 
-The definition of A233279 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006068, A063946, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A233279 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063946, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A233279.P10877154597455539139
@@ -6890,6 +6891,12 @@ namespace A233279
 /-- `A038558(n)-A053644(n)` -/
 def P13303159874827720143.Spec : Prop :=
   ∀ n, P13303159874827720143.a n = A233279 n
+
+theorem P13303159874827720143.correct : P13303159874827720143.Spec := by
+  intro n
+  simp only [A233279, Nat.add_sub_cancel, A233279.P13303159874827720143.a, A233279.P10877154597455539139.a, A006068, A006068.P433290056721054414.a, A038558, A038558.P636742692231698886.a, A053644, A053644.P1707366427427647095.a, A063946, A063946.P14831572246508618093.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A233279
 
@@ -8302,7 +8309,7 @@ end A233284.P1330339937816504555
 /-!
 # A233285: a(n) = largest m such that m! divides n-th Fibonacci number; a(n) = A055881(A000045(n)).
 
-The programs for A233285, the canonical program `A233285.P7127810014733158196` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233285 has offset 1).
+The programs for A233285, the canonical program `A233285.P7127810014733158196` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233285 has offset 1).
 
 The definition of A233285 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055881, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8311,7 +8318,7 @@ The definition of A233285 is `conditional`: the Lean definition is an OEIS formu
 
 `A055881(A000045(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A233285

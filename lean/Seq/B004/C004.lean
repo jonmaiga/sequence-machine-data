@@ -190,14 +190,14 @@ noncomputable section
 
 /-- A398543: a(n) = A008683(A000026(n)).
 
-Offset 1, canonical program `A398543.P3266382039981285700`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+Offset 1, canonical program `A398543.P3266382039981285700`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A398543 (n : ℕ) : ℤ :=
   A398543.P3266382039981285700.a (n - 1)
 
 end
 
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A398543.provenance : SequenceMachineLib.Provenance := .conditional
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A398543.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A398576.P17709678476820359098
 
@@ -220,14 +220,14 @@ noncomputable section
 
 /-- A398576: a(n) = A008836(A000026(n)).
 
-Offset 1, canonical program `A398576.P17709678476820359098`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+Offset 1, canonical program `A398576.P17709678476820359098`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A398576 (n : ℕ) : ℤ :=
   A398576.P17709678476820359098.a (n - 1)
 
 end
 
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A398576.provenance : SequenceMachineLib.Provenance := .conditional
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A398576.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A396409.P16372428509261204668
 

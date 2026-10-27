@@ -15211,7 +15211,7 @@ end A139787.P11483617024973974464
 
 The programs for A139788, the canonical program `A139788.P10386899195689942366` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139788 has offset 0).
 
-The definition of A139788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A139788 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A139788.anchor (n : ℕ) : A139788 n = (([1, 7, 3, 9, 5].getD (n % 5) 0 : ℕ) : ℤ)` in `Proof.A139.A139788`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A139788.P10386899195689942366

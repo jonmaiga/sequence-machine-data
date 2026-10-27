@@ -1399,6 +1399,12 @@ namespace A057105
 def P18347501837233313720.Spec : Prop :=
   ∀ n, P18347501837233313720.a n = A057105 (n + 1)
 
+theorem P18347501837233313720.correct : P18347501837233313720.Spec := by
+  intro n
+  simp only [A057105, Nat.add_sub_cancel, A057105.P18347501837233313720.a, A057105.P18280102893373418042.a, A002260, A002260.P9170571874073898642.a, A055461, A055461.P13333228572909301680.a, A144650, A144650.P1368958266719371934.a, A205016, A205016.P2286842531164054448.a, A193974, A193974.P14269232743332111222.a, A131783, A131783.P16711198060458241591.a, A025581, A025581.P16112744757063613497.a, A049777, A049777.P8069278756495172327.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A057105
 
 /-! ## A057105.P17976649067479906799
@@ -4970,7 +4976,7 @@ end A057129
 
 The programs for A057130, the canonical program `A057130.P4790251004886061017` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057130 has offset 1).
 
-The definition of A057130 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007528, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A057130 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A057130.P4003992036202615863
@@ -5107,7 +5113,7 @@ end A057130
 
 The programs for A057131, the canonical program `A057131.P9189334889060454335` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057131 has offset 1).
 
-The definition of A057131 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057130, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A057131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A057131.P9189334889060454335

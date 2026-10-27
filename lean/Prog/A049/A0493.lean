@@ -4585,7 +4585,7 @@ end A049346.P7472340611280291970
 
 The programs for A049347, the canonical program `A049347.P9996747395155426839` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049347 has offset 0).
 
-The definition of A049347 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A049347 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A049347.anchor (n : ℕ) : A049347 n = [1, -1, 0].getD (n % 3) 0` in `Proof.A049.A049347`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A049347.P9996747395155426839

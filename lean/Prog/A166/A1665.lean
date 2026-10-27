@@ -10317,7 +10317,7 @@ end A166546
 
 The programs for A166547, the canonical program `A166547.P12175533422904995910` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166547 has offset 1).
 
-The definition of A166547 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1977 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A166547 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A166547.anchor (n : ℕ) (hn : 1 ≤ n) : A166547 n = (Nat.nth (fun p => p.Prime ∧ p % 100 ∈ ({7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A166.A166547`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A166547.P12175533422904995910

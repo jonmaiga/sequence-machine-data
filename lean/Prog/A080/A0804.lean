@@ -105,7 +105,7 @@ set_option linter.unreachableTactic false
 
 The programs for A080400, the canonical program `A080400.P13567147294335765646` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080400 has offset 1).
 
-The definition of A080400 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A080400 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A080400.P13567147294335765646
@@ -541,6 +541,12 @@ namespace A080400
 def P17855239503514278769.Spec : Prop :=
   ∀ n, P17855239503514278769.a n = A080400 (n + 1)
 
+theorem P17855239503514278769.correct : P17855239503514278769.Spec := by
+  intro n
+  simp only [A080400, Nat.add_sub_cancel, A080400.P17855239503514278769.a, A080400.P13567147294335765646.a, A000010, A000010.P4673923239450215316.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A219428, A219428.P9184341513320465947.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A080400
 
 /-! ## A080400.P13084794926368182673
@@ -563,6 +569,12 @@ namespace A080400
 /-- `A007947(n+1-A051953(n+1))` -/
 def P13084794926368182673.Spec : Prop :=
   ∀ n, P13084794926368182673.a n = A080400 (n + 1)
+
+theorem P13084794926368182673.correct : P13084794926368182673.Spec := by
+  intro n
+  simp only [A080400, Nat.add_sub_cancel, A080400.P13084794926368182673.a, A080400.P13567147294335765646.a, A000010, A000010.P4673923239450215316.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A051953, A051953.P11179276897610979764.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A080400
 
@@ -5311,7 +5323,7 @@ end A080424
 
 The programs for A080425, the canonical program `A080425.P8074646199606280446` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080425 has offset 0).
 
-The definition of A080425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A080425 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A080425.anchor (n : ℕ) : A080425 n = (([0, 2, 1].getD (n % 3) 0 : ℕ) : ℤ)` in `Proof.A080.A080425`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A080425.P8074646199606280446

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -86,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A377000: Array read by ascending antidiagonals: T(n,k) = number of n-esthetic numbers with k digits.
@@ -3885,6 +3890,12 @@ namespace A377071
 /-- `A376567(n+1)-A378181(n+1)` -/
 def P4716727811004866029.Spec : Prop :=
   ∀ n, P4716727811004866029.a n = A377071 (n + 1)
+
+theorem P4716727811004866029.correct : P4716727811004866029.Spec := by
+  intro n
+  simp only [A377071, Nat.add_sub_cancel, A377071.P4716727811004866029.a, A377071.P12918428740894715970.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A297155, A297155.P1611206963555320167.a, A376567, A376567.P9640430291992892874.a, A378181, A378181.P11540481461231249369.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A046660, A046660.P3614759855976580945.a, A061395, A061395.P8431317036300486107.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A377071
 

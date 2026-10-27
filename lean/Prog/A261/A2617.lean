@@ -4868,7 +4868,7 @@ end A261766.P15918366155801728326
 
 The programs for A261768, the canonical program `A261768.P4235035151799676691` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261768 has offset 1).
 
-The definition of A261768 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A062981, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A261768 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A261768.P4235035151799676691

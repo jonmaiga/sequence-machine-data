@@ -104,7 +104,7 @@ set_option linter.unreachableTactic false
 
 The programs for A225202, the canonical program `A225202.P2491244517041771249` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225202 has offset 1).
 
-The definition of A225202 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A225202 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A225202.P2491244517041771249
@@ -2623,7 +2623,7 @@ end A225229.P15800586328886063116
 
 The programs for A225230, the canonical program `A225230.P5717106397182085981` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225230 has offset 1).
 
-The definition of A225230 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A051903, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A225230 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A225230.P5717106397182085981
@@ -2665,6 +2665,12 @@ namespace A225230
 /-- `A083399(n+1)-A067132(n+1)` -/
 def P9207689891544804720.Spec : Prop :=
   ∀ n, P9207689891544804720.a n = A225230 (n + 1)
+
+theorem P9207689891544804720.correct : P9207689891544804720.Spec := by
+  intro n
+  simp only [A225230, Nat.add_sub_cancel, A225230.P9207689891544804720.a, A225230.P5717106397182085981.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A067132, A067132.P2149404699775634079.a, A083399, A083399.P16148020281325742632.a, A000005, A000005.P16091521709108585461.a, A055212, A055212.P14412881054625885538.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A033273, A033273.P18420659424697249895.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A225230
 
@@ -2712,6 +2718,12 @@ namespace A225230
 def P18365791145707829243.Spec : Prop :=
   ∀ n, P18365791145707829243.a n = A225230 (n + 1)
 
+theorem P18365791145707829243.correct : P18365791145707829243.Spec := by
+  intro n
+  simp only [A225230, Nat.add_sub_cancel, A225230.P18365791145707829243.a, A225230.P5717106397182085981.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A067132, A067132.P2149404699775634079.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A225230
 
 /-! ## A225230.P13233744513142810018
@@ -2734,6 +2746,12 @@ namespace A225230
 /-- `A083399(n+1)-(A051903(n+1)+1)` -/
 def P13233744513142810018.Spec : Prop :=
   ∀ n, P13233744513142810018.a n = A225230 (n + 1)
+
+theorem P13233744513142810018.correct : P13233744513142810018.Spec := by
+  intro n
+  simp only [A225230, Nat.add_sub_cancel, A225230.P13233744513142810018.a, A225230.P5717106397182085981.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A083399, A083399.P16148020281325742632.a, A000005, A000005.P16091521709108585461.a, A055212, A055212.P14412881054625885538.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A033273, A033273.P18420659424697249895.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A225230
 

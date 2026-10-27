@@ -5872,7 +5872,7 @@ end A366487.P8531260952768702525
 
 The programs for A366488, the canonical program `A366488.P10110916196873006906` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366488 has offset 0).
 
-The definition of A366488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A366488 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A366488.anchor (n : ℕ) : (A366488 n : ℚ) = ((n ^ 11 : ℤ) - (n : ℤ) : ℚ) / 11` in `Proof.A366.A366488`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A366488.P10110916196873006906
@@ -5895,7 +5895,7 @@ end A366488
 
 The programs for A366489, the canonical program `A366489.P13230996808277506270` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366489 has offset 0).
 
-The definition of A366489 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A366489 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A366489.anchor (n : ℕ) : (A366489 n : ℚ) = ((n ^ 13 : ℤ) - (n : ℤ) : ℚ) / 13` in `Proof.A366.A366489`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A366489.P13230996808277506270
@@ -5918,7 +5918,7 @@ end A366489
 
 The programs for A366490, the canonical program `A366490.P18095061105171444197` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366490 has offset 0).
 
-The definition of A366490 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A366490 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A366490.anchor (n : ℕ) : (A366490 n : ℚ) = ((n ^ 17 : ℤ) - (n : ℤ) : ℚ) / 17` in `Proof.A366.A366490`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A366490.P18095061105171444197
@@ -5970,7 +5970,7 @@ end A366490
 
 The programs for A366491, the canonical program `A366491.P7121023607802350257` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366491 has offset 0).
 
-The definition of A366491 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A366491 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A366491.anchor (n : ℕ) : (A366491 n : ℚ) = ((n ^ 19 : ℤ) - (n : ℤ) : ℚ) / 19` in `Proof.A366.A366491`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A366491.P7121023607802350257
