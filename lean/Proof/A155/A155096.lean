@@ -1,0 +1,40 @@
+import Prog.A155.A1550
+import Proof.Lib.ModMem
+
+/-- A155096: Numbers k such that k^2 == -1 (mod 29). -/
+theorem A155096.anchor (n : ℕ) (hn : 1 ≤ n) :
+    A155096 n = (Nat.nth (fun k : ℕ => (k : ℤ) ^ 2 ≡ -1 [ZMOD 29]) (n - 1) : ℤ) := by
+  have cf : ∀ n, A155096.P17751544122654514715.a n = 29 * (n / 2) + [12, 17].getD (n % 2) 0 := by
+    intro n
+    induction n using Nat.strong_induction_on with
+    | _ n ih =>
+      match n with
+      | 0 | 1 =>
+        simp only [A155096.P17751544122654514715.a]
+        rw [SequenceMachineLib.rec_of_lt _ _ (by simp)]
+        rfl
+      | m + 2 =>
+        have h2 := ih m (by omega)
+        simp only [A155096.P17751544122654514715.a] at h2 ⊢
+        rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+        simp only [show m + 2 - 2 = m by omega, show m < m + 2 by omega, ↓reduceIte]
+        rw [h2]
+        rcases (by omega : m % 2 = 0 ∨ m % 2 = 1) with hm | hm
+        · rw [show m % 2 = 0 by omega, show (m + 2) % 2 = 0 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 2 = 1 by omega, show (m + 2) % 2 = 1 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+  have hp : (fun k : ℕ => (k : ℤ) ^ 2 ≡ -1 [ZMOD 29]) = (fun k => k % 29 ∈ [12, 17]) := by
+    funext k
+    apply propext
+    rw [Int.ModEq, show (-1 : ℤ) % 29 = 28 by rfl]
+    have e : (k : ℤ) ^ 2 % 29 = 28 ↔ k ^ 2 % 29 = 28 := by norm_cast
+    rw [e, Nat.pow_mod]
+    have hk := Nat.mod_lt k (show 0 < 29 by norm_num)
+    generalize k % 29 = x at hk ⊢
+    revert x
+    decide
+  rw [hp, SequenceProof.nth_mod_mem 29 2 [12, 17] rfl (by decide) (by decide) (by norm_num)]
+  simp only [A155096, cf]

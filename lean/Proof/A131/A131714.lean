@@ -1,0 +1,40 @@
+import Prog.A131.A1317
+
+/-- A131714 is periodic with period 6, repeating 1, -2, 2, -1, 2, -2. -/
+theorem A131714.anchor (n : ℕ) :
+    A131714 n = [1, -2, 2, -1, 2, -2].getD (n % 6) 0 := by
+  have cf : ∀ n, A131714.P965059567562823147.a n = [1, -2, 2, -1, 2, -2].getD (n % 6) 0 := by
+    intro n
+    induction n using Nat.strong_induction_on with
+    | _ n ih =>
+      match n with
+      | 0 | 1 | 2 =>
+        simp only [A131714.P965059567562823147.a]
+        rw [SequenceMachineLib.rec_of_lt _ _ (by simp)]
+        rfl
+      | m + 3 =>
+        have h3 := ih m (by omega)
+        simp only [A131714.P965059567562823147.a] at h3 ⊢
+        rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+        simp only [show m + 3 - 3 = m by omega, show m < m + 3 by omega, ↓reduceIte]
+        rw [h3]
+        rcases (by omega : m % 6 = 0 ∨ m % 6 = 1 ∨ m % 6 = 2 ∨ m % 6 = 3 ∨ m % 6 = 4 ∨ m % 6 = 5) with hm | hm | hm | hm | hm | hm
+        · rw [show m % 6 = 0 by omega, show (m + 3) % 6 = 3 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 6 = 1 by omega, show (m + 3) % 6 = 4 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 6 = 2 by omega, show (m + 3) % 6 = 5 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 6 = 3 by omega, show (m + 3) % 6 = 0 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 6 = 4 by omega, show (m + 3) % 6 = 1 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+        · rw [show m % 6 = 5 by omega, show (m + 3) % 6 = 2 by omega]
+          all_goals (try simp only [List.getD_cons_succ, List.getD_cons_zero])
+          all_goals first | omega | (push_cast; omega) | norm_num
+  simp only [A131714, cf]
