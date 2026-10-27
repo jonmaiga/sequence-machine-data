@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |2*a(n-1) - a(n-2) - 2|, with a(0) = 0 and a(1) = 1.",
+  "id": "A400150",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002378",
+    "A003991",
+    "A094053",
+    "A323186"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

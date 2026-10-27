@@ -1,0 +1,20 @@
+{
+  "description": "Total number of triangles in all distinct simple graphs on n unlabeled vertices.",
+  "id": "A401216",
+  "mentions": [
+    "A263340",
+    "A278704",
+    "A401211",
+    "A401214"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

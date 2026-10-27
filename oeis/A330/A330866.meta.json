@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d",
+  "description": "a(n) = Sum_{d|n, d<n} (n/d) * (n-d).",
   "id": "A330866",
   "mentions": [
     "A000005",

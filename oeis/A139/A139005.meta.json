@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that there exist primes p'",
+  "description": "Primes p such that there exist primes p'<p\"<p\"'<p\"\"<p such that the concatenation of any two among the {p,...,p\"\"} is prime.",
   "id": "A139005",
   "mentions": [],
   "tags": [

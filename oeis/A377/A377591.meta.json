@@ -1,5 +1,5 @@
 {
-  "description": "Powerful numbers k that are not prime powers such that there exist no numbers m such that rad(m) | k and Omega(m) > Omega(k), where rad = A007947 and Omega = A001222.",
+  "description": "Powerful numbers k that are not prime powers such that there exist no numbers m <= k such that rad(m) | k and Omega(m) > Omega(k), where rad = A007947 and Omega = A001222.",
   "id": "A377591",
   "mentions": [
     "A001222",

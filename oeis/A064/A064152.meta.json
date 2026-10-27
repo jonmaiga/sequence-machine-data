@@ -1,5 +1,5 @@
 {
-  "description": "Erdős primes: primes p such that all p-k! for 1 <= k! < p are composite.",
+  "description": "Erdős primes: primes p such that all p-k! for 1 <= k! < p are nonprime.",
   "id": "A064152",
   "mentions": [
     "A000142",

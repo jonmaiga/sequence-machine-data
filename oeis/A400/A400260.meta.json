@@ -1,0 +1,32 @@
+{
+  "description": "Square array read by falling antidiagonals: A(n,k) = the (k+1)-th least significant digit of arithmetic derivative of n when it is read in primorial base, A049345.",
+  "id": "A400260",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A003415",
+    "A049345",
+    "A165560",
+    "A276086",
+    "A327859",
+    "A400258",
+    "A400259",
+    "A400261",
+    "A400262",
+    "A400263",
+    "A400265",
+    "A400267"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

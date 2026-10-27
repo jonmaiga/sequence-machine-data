@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of colors that can be used in an edge-coloring of K_n containing no rainbow copy of the k-vertex path P_k, for 3 <= k <= n.",
+  "id": "A399683",
+  "mentions": [
+    "A399687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

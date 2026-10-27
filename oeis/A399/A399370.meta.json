@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal j for k such that p^p divides k for some prime p and there exists j < k such that A376418(j) = A376418(k).",
+  "id": "A399370",
+  "mentions": [
+    "A100716",
+    "A129252",
+    "A376418",
+    "A392878",
+    "A392879",
+    "A399369"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

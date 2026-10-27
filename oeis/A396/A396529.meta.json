@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that the set of parts of each composition covers an interval and parts appear in order.",
+  "id": "A396529",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A126347",
+    "A383253",
+    "A383713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

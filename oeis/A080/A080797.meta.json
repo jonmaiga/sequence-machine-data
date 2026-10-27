@@ -1,5 +1,5 @@
 {
-  "description": "Starting with a(0)=5, a(n) = smallest squarefree number k such that, for all a(m) with m",
+  "description": "Starting with a(0)=5, a(n) = smallest squarefree number k such that, for all a(m) with m<n, k+a(m) is not squarefree.",
   "id": "A080797",
   "mentions": [
     "A077225"

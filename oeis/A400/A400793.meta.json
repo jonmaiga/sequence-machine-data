@@ -1,0 +1,18 @@
+{
+  "description": "Positions of primes in A400792.",
+  "id": "A400793",
+  "mentions": [
+    "A400792",
+    "A400794"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

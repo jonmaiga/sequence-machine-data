@@ -1,0 +1,22 @@
+{
+  "description": "Length of the longest run of consecutive positive integers < 2^n that take the same number of Collatz steps to reach 1.",
+  "id": "A400985",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A078417",
+    "A078441",
+    "A277109",
+    "A400487"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

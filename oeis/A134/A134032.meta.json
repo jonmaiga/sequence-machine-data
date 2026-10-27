@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array T(n,k) read by antidiagonals. Row n consists of numbers k for which {k*tau}",
+  "description": "Rectangular array T(n,k) read by antidiagonals. Row n consists of numbers k for which {k*tau}<n/k, where tau=(1+sqrt(5))/2 and { } denotes fractional part.",
   "id": "A134032",
   "mentions": [
     "A133585",

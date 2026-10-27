@@ -1,0 +1,18 @@
+{
+  "description": "Number of reducible flow graphs on n labeled nodes whose entry node 1 is a global source and node n is a global sink (node 1 = node n when n = 1).",
+  "id": "A397967",
+  "mentions": [
+    "A350790",
+    "A397470",
+    "A398465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square roots of the central entries in a six-square 3 X 3 magic-square construction from primitive Pythagorean triangles with prime hypotenuse.",
+  "id": "A400365",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A400363",
+    "A400364"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

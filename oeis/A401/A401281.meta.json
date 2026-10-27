@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n X k binary matrices with all column sums 2 and row sums at most 2.",
+  "id": "A401281",
+  "mentions": [
+    "A000012",
+    "A000537",
+    "A001499",
+    "A008300",
+    "A161680",
+    "A401282",
+    "A401283",
+    "A401284"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

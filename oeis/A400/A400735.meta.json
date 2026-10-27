@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that start a run of 17 consecutive odd numbers that are all exponentially odd numbers (A268335).",
+  "id": "A400735",
+  "mentions": [
+    "A268335",
+    "A325058",
+    "A376218",
+    "A398951"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

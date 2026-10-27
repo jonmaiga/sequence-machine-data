@@ -3,14 +3,21 @@
   "id": "A141236",
   "mentions": [
     "A141233",
+    "A141234",
+    "A141235",
+    "A141237",
+    "A141238",
+    "A141239",
     "A141240"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

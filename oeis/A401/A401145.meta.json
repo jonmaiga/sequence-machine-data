@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into distinct parts such that n plus the product of the parts is prime.",
+  "id": "A401145",
+  "mentions": [
+    "A000009",
+    "A057562"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

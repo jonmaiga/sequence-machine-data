@@ -1,0 +1,19 @@
+{
+  "description": "Squares visited by a \"Priest\" (Fers + Knight) moving on a spirally numbered board always to the lowest available unvisited square.",
+  "id": "A398717",
+  "mentions": [
+    "A316667",
+    "A316884",
+    "A398779",
+    "A398965"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

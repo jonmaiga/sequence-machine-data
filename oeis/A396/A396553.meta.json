@@ -2,6 +2,7 @@
   "description": "Numbers k such that EulerPhi(psi(k)) is a power of 2, where psi = A002322 is the reduced totient function.",
   "id": "A396553",
   "mentions": [
+    "A000010",
     "A002322",
     "A003401",
     "A335120",

@@ -1,9 +1,10 @@
 {
-  "description": "C(2*n,n)*stirling2(2*n,n).",
+  "description": "a(n) = C(2*n,n) * Stirling2(2*n,n).",
   "id": "A124103",
   "mentions": [
     "A000984",
     "A007820",
+    "A090683",
     "A226775"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

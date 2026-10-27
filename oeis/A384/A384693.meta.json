@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of lattice points (r,s) such that 0",
+  "description": "a(n) is the number of lattice points (r,s) such that 0<r,s<=n and ((r^2+s^2)*d - r*d^2)/r is a square for some integer d with 0<d<r.",
   "id": "A384693",
   "mentions": [
     "A033996"

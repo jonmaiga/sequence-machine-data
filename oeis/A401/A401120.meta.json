@@ -1,0 +1,31 @@
+{
+  "description": "Array A(n,k), n >= 1, k >= 2, read by antidiagonals: number of edges in the k^n cubic grid.",
+  "id": "A401120",
+  "mentions": [
+    "A000027",
+    "A001787",
+    "A046092",
+    "A059986",
+    "A076728",
+    "A124932",
+    "A160538",
+    "A212697",
+    "A212698",
+    "A212699",
+    "A212700",
+    "A212701",
+    "A212702",
+    "A212703",
+    "A212704"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

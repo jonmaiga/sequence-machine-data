@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-3x)(1-6x)(1-10x)(1-15x)).",
+  "description": "Expansion of 1/((1-x)*(1-3x)*(1-6x)*(1-10x)*(1-15x)).",
   "id": "A226941",
   "mentions": [
     "A003462",
@@ -8,12 +8,13 @@
     "A080248"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

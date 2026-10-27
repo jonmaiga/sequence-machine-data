@@ -1,5 +1,5 @@
 {
-  "description": "Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n shells.",
+  "description": "Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n sections, where the area of the shadows are A006128(n), A006128(n) and A000217(n).",
   "id": "A210970",
   "mentions": [
     "A000217",
@@ -24,6 +24,6 @@
   "terms": {
     "offset": 0,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

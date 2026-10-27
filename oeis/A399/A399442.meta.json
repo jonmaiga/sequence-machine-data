@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p - A062329(p) is also a prime.",
+  "id": "A399442",
+  "mentions": [
+    "A038611",
+    "A038614",
+    "A038617",
+    "A038618",
+    "A062329",
+    "A399441",
+    "A399489",
+    "A399496"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

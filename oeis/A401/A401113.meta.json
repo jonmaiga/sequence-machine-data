@@ -1,0 +1,22 @@
+{
+  "description": "Primes p at which the running sum Sum_{q prime <= p} Kronecker(5,q) sets a new record high.",
+  "id": "A401113",
+  "mentions": [
+    "A080891",
+    "A321857",
+    "A326615",
+    "A392295",
+    "A392296",
+    "A392297",
+    "A392298",
+    "A392299"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

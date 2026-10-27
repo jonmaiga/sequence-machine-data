@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers such that every adjacent pair of digits sums to exactly 9.",
+  "id": "A400126",
+  "mentions": [
+    "A007088",
+    "A052223",
+    "A198486"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

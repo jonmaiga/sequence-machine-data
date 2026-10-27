@@ -1,0 +1,16 @@
+{
+  "description": "Number of aperiodic binary bracelets of length n having no three consecutive equal beads.",
+  "id": "A399073",
+  "mentions": [
+    "A000029",
+    "A001644"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

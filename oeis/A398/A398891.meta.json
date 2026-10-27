@@ -1,0 +1,23 @@
+{
+  "description": "Cluster series for site percolation on the square lattice with knight connected sites.",
+  "id": "A398891",
+  "mentions": [
+    "A003203",
+    "A018842",
+    "A030444",
+    "A398887",
+    "A398889",
+    "A398892",
+    "A398893"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

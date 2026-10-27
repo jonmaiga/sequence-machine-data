@@ -1,0 +1,17 @@
+{
+  "description": "Number of toroidal n X n binary arrays with exactly n 1's, allowing rotation and/or reflection of rows and/or columns as well as matrix transposition.",
+  "id": "A397912",
+  "mentions": [
+    "A093466",
+    "A255016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

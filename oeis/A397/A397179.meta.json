@@ -2,13 +2,13 @@
   "description": "The rows of triangle A397178 converge to this sequence.",
   "id": "A397179",
   "mentions": [
-    "A394611",
     "A397173",
     "A397175",
     "A397176",
     "A397178",
     "A397180",
-    "A397471"
+    "A397471",
+    "A399995"
   ],
   "tags": [
     "more",

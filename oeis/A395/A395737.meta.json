@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist four integers 0",
+  "description": "Integers x such that there exist four integers 0<y<=z<=t<=w such that sigma(x)^3*psi(x)*phi(x) = x^5 + y^5 + z^5 + t^5 + w^5.",
   "id": "A395737",
   "mentions": [
     "A000010",

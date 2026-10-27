@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide the digit reversal of k!.",
+  "id": "A398949",
+  "mentions": [
+    "A000142",
+    "A004086",
+    "A004154"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

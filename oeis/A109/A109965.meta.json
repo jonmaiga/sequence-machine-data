@@ -1,5 +1,5 @@
 {
-  "description": "Sum_i {i",
+  "description": "Sum_i {i<n} floor(sqrt(a(i))) with a(0) = 1.",
   "id": "A109965",
   "mentions": [
     "A002984",

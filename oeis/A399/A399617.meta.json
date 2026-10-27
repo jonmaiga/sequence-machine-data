@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered n-tuples of nonempty subsets of an n-element set (repetitions allowed) such that every two entries have nonempty intersection.",
+  "id": "A399617",
+  "mentions": [
+    "A051185"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

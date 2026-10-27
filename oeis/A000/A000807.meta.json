@@ -2,7 +2,9 @@
   "description": "Quadratic invariants.",
   "id": "A000807",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A020557",
+    "A033306"
   ],
   "tags": [
     "formulas",

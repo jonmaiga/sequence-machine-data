@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are palindromic in more bases b, 1",
+  "description": "Numbers n which are palindromic in more bases b, 1<b<n, than any previous number.",
   "id": "A107129",
   "mentions": [
     "A037183",

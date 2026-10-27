@@ -1,0 +1,17 @@
+{
+  "description": "Number of reducible flow graphs on n labeled nodes whose entry node 1 is a global source (in-degree 0, reaches every node).",
+  "id": "A394955",
+  "mentions": [
+    "A350792",
+    "A398465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

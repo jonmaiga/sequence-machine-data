@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p such that n divides p-q for some prime q satisfying 5<=q",
+  "description": "Least prime p such that n divides p-q for some prime q satisfying 5<=q<p.",
   "id": "A204910",
   "mentions": [
     "A204892",

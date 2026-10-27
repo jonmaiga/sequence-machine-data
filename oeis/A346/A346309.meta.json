@@ -1,5 +1,5 @@
 {
-  "description": "Positions of words in A076478 such that #0's - #1's is odd.",
+  "description": "Positions of words in A076478 such that number of 0's - number of 1's is odd.",
   "id": "A346309",
   "mentions": [
     "A007931",

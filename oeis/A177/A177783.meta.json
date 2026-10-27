@@ -1,5 +1,5 @@
 {
-  "description": "Wolstenholme quotient of prime p=A000040(n), i.e., such integer m",
+  "description": "Wolstenholme quotient of prime p=A000040(n), i.e., such integer m<p that harmonic number H(p-1) == m*p^2 (mod p^3).",
   "id": "A177783",
   "mentions": [
     "A000040",

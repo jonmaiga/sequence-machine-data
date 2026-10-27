@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (1/2) * Sum_{|k|",
+  "description": "a(n) = (1/2) * Sum_{|k|<2*sqrt(p)} A297122(4*p-k^2) where p is n-th prime.",
   "id": "A297127",
   "mentions": [
     "A000594",

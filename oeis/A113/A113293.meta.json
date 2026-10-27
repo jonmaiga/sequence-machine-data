@@ -1,9 +1,7 @@
 {
-  "description": "First differences of Lucas 3-step numbers.",
+  "description": "Numbers expressible as the difference of two Lucas 3-step numbers.",
   "id": "A113293",
   "mentions": [
-    "A000040",
-    "A001358",
     "A001644",
     "A113188",
     "A113194",

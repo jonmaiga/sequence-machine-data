@@ -1,0 +1,19 @@
+{
+  "description": "Composite integers k whose set of digits is equal to the union of the sets of digits of its divisors.",
+  "id": "A397677",
+  "mentions": [
+    "A002808",
+    "A011531",
+    "A092911",
+    "A092912"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

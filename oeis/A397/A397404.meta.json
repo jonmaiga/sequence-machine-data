@@ -1,0 +1,19 @@
+{
+  "description": "Number of inversions of the (2*n)-th Josephus permutation with step 2.",
+  "id": "A397404",
+  "mentions": [
+    "A000217",
+    "A129527",
+    "A321298"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of base 31 n-digit numbers with adjacent digits differing by two or less.",
   "id": "A126418",
   "mentions": [
+    "A126371",
     "A126385"
   ],
   "tags": [

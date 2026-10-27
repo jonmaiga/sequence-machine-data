@@ -2,10 +2,14 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*5^j.",
   "id": "A038259",
   "mentions": [
-    "A001020"
+    "A000351",
+    "A000400",
+    "A001020",
+    "A007318"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

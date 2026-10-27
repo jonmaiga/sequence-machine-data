@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a chess king moving on the square spiral, always moving to an adjacent unvisited square whose number has the smallest digit sum; ties are resolved by choosing the lowest number.",
+  "id": "A400598",
+  "mentions": [
+    "A007953",
+    "A333713",
+    "A335661",
+    "A335816",
+    "A335856",
+    "A400599"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

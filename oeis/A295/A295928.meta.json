@@ -2,7 +2,7 @@
   "description": "Number of triangular matrices T(n,i,k), k <= i <= n, with entries \"0\" or \"1\" with the property that each triple {T(n,i,k), T(n,i,k+1), T(n,i-1,k)} containing a single \"0\" can be successively replaced by {1, 1, 1} until finally no \"0\" entry remains.",
   "id": "A295928",
   "mentions": [
-    "A001960",
+    "A001906",
     "A101481"
   ],
   "tags": [

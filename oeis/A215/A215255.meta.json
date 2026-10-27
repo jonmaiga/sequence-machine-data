@@ -1,5 +1,5 @@
 {
-  "description": "Let S be the binary string consisting of the first n digits of (100101)*; a(n) = number of ways of writing S as a product of palindromes.",
+  "description": "Let S be the binary string consisting of the first n+1 digits of (100101)*; a(n) = number of ways of writing S as a product of palindromes.",
   "id": "A215255",
   "mentions": [
     "A215244",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

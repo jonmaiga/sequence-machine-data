@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that p^p divides k for some prime p and there exists j < k such that A376418(j) = A376418(k).",
+  "id": "A399369",
+  "mentions": [
+    "A003415",
+    "A100716",
+    "A129252",
+    "A376418",
+    "A379240",
+    "A392878",
+    "A392879",
+    "A399370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

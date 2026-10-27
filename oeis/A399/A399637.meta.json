@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic right-Euclidean relations on n elements.",
+  "id": "A399637",
+  "mentions": [
+    "A048194",
+    "A398718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

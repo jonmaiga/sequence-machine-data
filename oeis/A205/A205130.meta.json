@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j",
+  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=2*j^2-j, the j-th hexagonal number.",
   "id": "A205130",
   "mentions": [
     "A000384",

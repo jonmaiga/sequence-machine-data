@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the minimum cardinality of an inclusion-maximal Sidon subset of the set of positive divisors of n.",
+  "id": "A399469",
+  "mentions": [
+    "A000005",
+    "A325879",
+    "A382397",
+    "A398434",
+    "A398435",
+    "A398577",
+    "A399118",
+    "A399119",
+    "A399470",
+    "A399471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

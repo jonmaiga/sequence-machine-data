@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = rad(k) * q(k) such that A008479(k) = 5, where rad = A007947 and q(k) the 4th smallest distinct prime factor of k.",
+  "id": "A399954",
+  "mentions": [
+    "A005408",
+    "A007947",
+    "A008479",
+    "A398864",
+    "A399320"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

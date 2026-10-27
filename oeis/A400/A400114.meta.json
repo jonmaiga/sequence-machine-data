@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose substrings are pairwise coprime.",
+  "id": "A400114",
+  "mentions": [
+    "A061116",
+    "A138708"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

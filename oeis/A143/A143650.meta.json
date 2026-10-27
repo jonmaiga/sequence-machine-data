@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m,n such that UnitaryPhi(n)=UnitaryPhi(m)=3/4*(m*n)^(1/2), m<=n; sequence gives values of m.",
+  "description": "Lesser of pairs of numbers k <= m such that uphi(k) = uphi(m) = 3*(k*m)^(1/2)/4, where uphi = A047994.",
   "id": "A143650",
   "mentions": [
     "A047994",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

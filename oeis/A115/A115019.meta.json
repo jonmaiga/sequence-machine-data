@@ -1,7 +1,9 @@
 {
-  "description": "Position of the first n-digit prime in the decimal expansion of e=exp(1).",
+  "description": "Position (starting at 0 with the initial 2) of the first block of n consecutive decimal digits of e whose integer value is prime, allowing leading zeros.",
   "id": "A115019",
-  "mentions": [],
+  "mentions": [
+    "A272304"
+  ],
   "tags": [
     "base",
     "nonn"

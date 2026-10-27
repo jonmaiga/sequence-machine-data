@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Product{prime(k)^2/(prime(k)^2 - 1) | 0",
+  "description": "Numerator of Product{prime(k)^2/(prime(k)^2 - 1) | 0<k<=n}, Denominator: A072045.",
   "id": "A072044",
   "mentions": [
     "A000040",

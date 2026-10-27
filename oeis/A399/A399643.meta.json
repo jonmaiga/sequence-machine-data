@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g^7/(5-4*g)^4, where g = 1+x*g^5 is the g.f. of A002294.",
+  "id": "A399643",
+  "mentions": [
+    "A002294",
+    "A079678",
+    "A395665",
+    "A399641",
+    "A399642",
+    "A399644",
+    "A399645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

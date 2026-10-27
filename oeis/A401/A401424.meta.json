@@ -1,0 +1,23 @@
+{
+  "description": "The sum of coreful divisors of the smallest coreful infinitary divisor of n.",
+  "id": "A401424",
+  "mentions": [
+    "A005117",
+    "A006519",
+    "A057723",
+    "A284318",
+    "A365296",
+    "A401423"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients in expansion of (2+3x)^n.",
+  "description": "Triangle of coefficients in expansion of (2+3*x)^n.",
   "id": "A013620",
   "mentions": [
     "A000079",

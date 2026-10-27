@@ -2,9 +2,11 @@
   "description": "Numbers k such that sigma(k) - usigma(k) > 2k.",
   "id": "A063846",
   "mentions": [
+    "A000203",
     "A034448",
     "A034683",
     "A048146",
+    "A063875",
     "A064597"
   ],
   "tags": [
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

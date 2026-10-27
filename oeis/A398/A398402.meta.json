@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime that is the sum of n distinct elements from the union of primes and cubes.",
+  "id": "A398402",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A399290",
+    "A399546",
+    "A399803",
+    "A400148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = (1/n) * Sum_{x in (Z_n)^k} exp(2*Pi*i*det(circ(x))/n).",
+  "id": "A399450",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A007789",
+    "A007790",
+    "A007791",
+    "A007792",
+    "A098178"
+  ],
+  "tags": [
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

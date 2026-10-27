@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integer solutions to the equation 2*x^2 + 3*y^2 = n.",
+  "id": "A399595",
+  "mentions": [
+    "A002480",
+    "A084863",
+    "A108563",
+    "A119395"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

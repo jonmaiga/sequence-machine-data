@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the smallest positive solution of Phi(x^6; x^4) = 0.",
+  "id": "A401308",
+  "mentions": [
+    "A400282"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

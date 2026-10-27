@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d",
+  "description": "a(n) = Sum_{d|n, d<n} A002487(d).",
   "id": "A317837",
   "mentions": [
     "A001222",

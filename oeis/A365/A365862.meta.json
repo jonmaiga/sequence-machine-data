@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4-fold rotationally symmetric pentomino tilings of the 5n X 5n square such that no two tiles can be replaced with two pentomominoes in a new configuration.",
+  "description": "Number of 4-fold rotationally symmetric pentomino tilings of the 5n X 5n square such that no two tiles can be replaced with two pentominoes in a new configuration.",
   "id": "A365862",
   "mentions": [],
   "tags": [

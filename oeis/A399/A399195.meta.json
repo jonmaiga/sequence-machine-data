@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent self-dual Boolean functions of n variables with trivial automorphism group under permutations of the variables.",
+  "id": "A399195",
+  "mentions": [
+    "A001531"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

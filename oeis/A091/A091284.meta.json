@@ -1,5 +1,5 @@
 {
-  "description": "Exponent of 2 in -1+prime[n]^s, if s is an exponent of form 16k-8. Except a(1)=0, a(n)=1+A091283(n).",
+  "description": "Exponent of 2 in the prime factorization of prime(n)^8 - 1.",
   "id": "A091284",
   "mentions": [
     "A007814",
@@ -8,14 +8,17 @@
     "A090739",
     "A090740",
     "A091282",
-    "A091283"
+    "A091283",
+    "A179645"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 93,
+    "source": "oeis-bfile"
   }
 }

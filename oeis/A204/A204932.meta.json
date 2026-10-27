@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides k!-j! for some j satisfying 1<=j",
+  "description": "Least k such that n divides k!-j! for some j satisfying 1<=j<k.",
   "id": "A204932",
   "mentions": [
     "A000142",

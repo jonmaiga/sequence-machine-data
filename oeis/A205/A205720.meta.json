@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which 10 divides prime(k)-prime(j) for some j",
+  "description": "Numbers k for which 10 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.",
   "id": "A205720",
   "mentions": [
     "A000040",

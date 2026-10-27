@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element group C8 X C2 = .",
+  "description": "Cogrowth sequence of the 16-element group C8 X C2 = <S,T | S^8, T^2, [S,T]>.",
   "id": "A377840",
   "mentions": [
     "A007582",

@@ -1,0 +1,16 @@
+{
+  "description": "Number of monomials in the algebraic normal form (Zhegalkin polynomial over GF(2)) of the Boolean function that is 1 if and only if at least ceiling(n/2) of its n variables are 1.",
+  "id": "A397434",
+  "mentions": [
+    "A000225"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

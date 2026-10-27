@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs of finite sequences of polynomials over GF(2), each polynomial of degree 1 or 2 and each sequence of total degree n, having the same continuant.",
+  "id": "A398229",
+  "mentions": [
+    "A000045",
+    "A063727",
+    "A085449"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

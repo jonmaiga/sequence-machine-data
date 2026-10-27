@@ -1,13 +1,17 @@
 {
   "description": "Number of n X n binary arrays with rows, considered as binary numbers, in strictly increasing order, and columns, considered as binary numbers, in nondecreasing order.",
   "id": "A151801",
-  "mentions": [],
+  "mentions": [
+    "A089006",
+    "A162100"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

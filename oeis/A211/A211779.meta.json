@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d_",
+  "description": "a(n) = Sum_{d_<n | n} sigma(d_<n), where d_<n = divisors of n that are less than n, sigma(x) = A000203(x).",
   "id": "A211779",
   "mentions": [
     "A000203",

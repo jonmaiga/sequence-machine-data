@@ -1,5 +1,5 @@
 {
-  "description": "Rotated binary incrementing: For n",
+  "description": "Rotated binary incrementing: For n<2 a(n)=n, if n=(2^k)-1, a(n)=(n+1)/2, otherwise a(n)=n+1.",
   "id": "A153152",
   "mentions": [
     "A002487",

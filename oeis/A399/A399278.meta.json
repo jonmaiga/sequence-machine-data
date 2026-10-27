@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where there are exactly n nonnegative integer solutions to x^2 + 6*y^2 = k.",
+  "id": "A399278",
+  "mentions": [
+    "A216513",
+    "A374285",
+    "A374286",
+    "A374288",
+    "A391361",
+    "A399198",
+    "A399202",
+    "A399215",
+    "A399267",
+    "A399274"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

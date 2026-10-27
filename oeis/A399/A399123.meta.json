@@ -1,0 +1,16 @@
+{
+  "description": "Squares that are the concatenation of a prime and a square.",
+  "id": "A399123",
+  "mentions": [
+    "A300105"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

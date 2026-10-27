@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the maximum cardinality of a Sidon subset of the set of distinct multinomial coefficient values of order n.",
+  "id": "A398429",
+  "mentions": [
+    "A070289",
+    "A143824",
+    "A210237",
+    "A241688",
+    "A241689",
+    "A241690",
+    "A309370",
+    "A390813",
+    "A394031",
+    "A398230",
+    "A398231",
+    "A398232",
+    "A398233",
+    "A398237",
+    "A398238",
+    "A398263",
+    "A398265",
+    "A398434"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

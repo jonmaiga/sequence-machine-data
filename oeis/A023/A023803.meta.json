@@ -1,11 +1,16 @@
 {
   "description": "Xenodromes: all digits in base 8 are different.",
   "id": "A023803",
-  "mentions": [],
+  "mentions": [
+    "A010784",
+    "A023798",
+    "A023799"
+  ],
   "tags": [
     "base",
     "easy",
     "fini",
+    "formulas",
     "nonn"
   ],
   "terms": {

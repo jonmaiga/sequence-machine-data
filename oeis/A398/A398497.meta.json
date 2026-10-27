@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of rooted binary leaf-labeled simplex time-consistent galled trees with n leaves and exactly k galls, 0 <= k <= floor((n-1)/2).",
+  "id": "A398497",
+  "mentions": [
+    "A001147",
+    "A397264",
+    "A398145"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

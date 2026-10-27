@@ -1,0 +1,28 @@
+{
+  "description": "Size of Type A palindromes of star triples in the Spectre aperiodic monotile tiling.",
+  "id": "A400811",
+  "mentions": [
+    "A001076",
+    "A014445",
+    "A397115",
+    "A397116",
+    "A397117",
+    "A397118",
+    "A397119",
+    "A397120",
+    "A400810",
+    "A400812",
+    "A400822",
+    "A400824"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(m,n) = Sum_{-m= n >= 1.",
+  "description": "Triangle read by rows: T(m,n) = Sum_{-m<i<m, -n<j<n, gcd{i,j}=1} (m-|i|)*(n-|j|)/2, m >= n >= 1.",
   "id": "A332351",
   "mentions": [
     "A114043",

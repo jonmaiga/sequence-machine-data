@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist three integers 0",
+  "description": "Integers x such that there exist three integers 0<x<=y and 0<z<=t such that psi(x)^3 = psi(y)^3 = x^3 + y^3 + z^3 + t^3.",
   "id": "A391534",
   "mentions": [
     "A001615",

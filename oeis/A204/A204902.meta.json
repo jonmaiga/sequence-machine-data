@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p such that n divides p-q for some odd prime q",
+  "description": "Least prime p such that n divides p-q for some odd prime q<p.",
   "id": "A204902",
   "mentions": [
     "A204892",

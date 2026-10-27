@@ -1,5 +1,5 @@
 {
-  "description": "Cototient(totient(n)) - totient(cototient(n)).",
+  "description": "a(n) = cototient(totient(n)) - totient(cototient(n)).",
   "id": "A065152",
   "mentions": [
     "A000010",

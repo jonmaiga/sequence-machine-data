@@ -1,0 +1,18 @@
+{
+  "description": "Exponents e for which there is a unique integer k > 1 such that S(k^e) = k, where S(n) is the sum of digits of n.",
+  "id": "A398596",
+  "mentions": [
+    "A003101",
+    "A061209",
+    "A133509"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

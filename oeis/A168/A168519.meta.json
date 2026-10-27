@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2n-digit primes that are concatenation of n two-digit distinct primes p_1...p_n: 1098.",
+  "description": "Number of 2n-digit primes that are concatenation of n two-digit distinct primes p_1...p_n: 10<p_1<p_2<...<p_n>98.",
   "id": "A168519",
   "mentions": [
     "A168513"

@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of points that can be chosen from the n X n discrete torus Z_n X Z_n so that no three of them lie on a line and no two lie in the same row or column.",
+  "id": "A400964",
+  "mentions": [
+    "A000769",
+    "A400437"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

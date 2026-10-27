@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,k) = number of partitions of n for which (maximal term)-(minimal term)=k, if 0<=k",
+  "description": "Triangular array: T(n,k) = number of partitions of n for which (maximal term)-(minimal term)=k, if 0<=k<n, and T(n,n)=1.",
   "id": "A209354",
   "mentions": [
     "A000041"

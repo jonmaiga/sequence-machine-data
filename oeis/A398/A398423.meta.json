@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer of the form r^k whose weighted base-n digit sum is r and whose number of base-n digits is k.",
+  "id": "A398423",
+  "mentions": [
+    "A395541",
+    "A396781",
+    "A397879"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "joeis"
+  }
+}

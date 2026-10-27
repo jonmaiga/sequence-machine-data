@@ -1,0 +1,21 @@
+{
+  "description": "The binomial matrix of the Motzkin numbers. Square array read by ascending antidiagonals.",
+  "id": "A398996",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A058987",
+    "A126120",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

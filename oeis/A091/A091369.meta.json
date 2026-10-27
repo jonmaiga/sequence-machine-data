@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{i=1..n} phi(i)*ceiling(n/i).",
   "id": "A091369",
   "mentions": [
+    "A000010",
     "A063985"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the integral dx/sqrt(1-x^8), x=0..1.",
+  "id": "A399597",
+  "mentions": [
+    "A002161",
+    "A085565",
+    "A203142",
+    "A203144"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

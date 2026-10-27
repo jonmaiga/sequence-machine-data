@@ -1,0 +1,21 @@
+{
+  "description": "Self-locating strings within the golden ratio phi: numbers j such that the string j is at position j in the decimal digits of phi, where the initial digit 1 is at position 0.",
+  "id": "A398325",
+  "mentions": [
+    "A001622",
+    "A057680",
+    "A117431",
+    "A205648"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

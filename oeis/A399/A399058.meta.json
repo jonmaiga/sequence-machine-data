@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the sizes of the odd indexed blocks minus sum of the sizes of the even indexed blocks in all set partitions of [n].",
+  "id": "A399058",
+  "mentions": [
+    "A000110",
+    "A120325",
+    "A270236",
+    "A346772"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

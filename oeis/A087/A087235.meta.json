@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest number in the set of solutions to n=x/pi(x), where pi(x)=A000720(x).",
+  "description": "a(n) is the largest number in the set of solutions to n = x/pi(x), where pi(x) = A000720(x).",
   "id": "A087235",
   "mentions": [
     "A000720",

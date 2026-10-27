@@ -2,6 +2,7 @@
   "description": "a(n) is the number of triples (u,v,w) of divisors of n with u/v = v/w, and u < v < w.",
   "id": "A360012",
   "mentions": [
+    "A000005",
     "A002620",
     "A005059",
     "A091009",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

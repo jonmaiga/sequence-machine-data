@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 2 (most significant digit on right).",
+  "description": "Numbers k such that k divides the (left) concatenation of all numbers <= k written in base 2 (most significant digit on right).",
   "id": "A061955",
   "mentions": [
     "A029447",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

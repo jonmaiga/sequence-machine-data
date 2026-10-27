@@ -1,5 +1,5 @@
 {
-  "description": "Sequence shifts left ten places under Weigh transform with a(n) = signum(n) for n",
+  "description": "Sequence shifts left ten places under Weigh transform with a(n) = signum(n) for n<10.",
   "id": "A316082",
   "mentions": [
     "A057427",

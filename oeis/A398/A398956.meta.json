@@ -1,0 +1,22 @@
+{
+  "description": "Starts of runs of 26 consecutive odd numbers that are all cubefree.",
+  "id": "A398956",
+  "mentions": [
+    "A004709",
+    "A007675",
+    "A281546",
+    "A381822",
+    "A398951",
+    "A398953"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

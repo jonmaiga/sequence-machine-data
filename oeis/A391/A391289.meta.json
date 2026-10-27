@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist three integers 00 such that psi(x)^2 = psi(y)^2 = psi(z)^2 = x^2 + y^2 + z^2 + t^2.",
+  "description": "Integers x such that there exist three integers 0<x<=y<=z and t>0 such that psi(x)^2 = psi(y)^2 = psi(z)^2 = x^2 + y^2 + z^2 + t^2.",
   "id": "A391289",
   "mentions": [
     "A000414",

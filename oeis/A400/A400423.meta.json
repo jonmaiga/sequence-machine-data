@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as +- 1^2 +- 2^2 +- 3^2 +- ... +- n^2 in exactly n ways, or -1 if no such integer exists.",
+  "id": "A400423",
+  "mentions": [
+    "A000330",
+    "A298467",
+    "A369886"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

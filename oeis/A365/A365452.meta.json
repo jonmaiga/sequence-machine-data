@@ -2,7 +2,8 @@
   "description": "Largest number whose digits, in some base, sum to n and include no zeros.",
   "id": "A365452",
   "mentions": [
-    "A000225"
+    "A000225",
+    "A111111"
   ],
   "tags": [
     "base",

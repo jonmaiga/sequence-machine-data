@@ -1,0 +1,23 @@
+{
+  "description": "Number of isomorphism classes of asymmetric maximal intersecting families of subsets of an n-element set.",
+  "id": "A399241",
+  "mentions": [
+    "A001206",
+    "A008840",
+    "A059090",
+    "A107765",
+    "A305856",
+    "A305857"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

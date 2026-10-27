@@ -1,0 +1,16 @@
+{
+  "description": "Positive numbers k that can be written as k=x*y*z*u, x>y>z>u>1, in at least one way.",
+  "id": "A400877",
+  "mentions": [
+    "A081957",
+    "A122181"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

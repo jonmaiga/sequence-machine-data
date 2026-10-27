@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,0)=0 and T(n,k) = -A028421(n-1,k-1), 0",
+  "description": "Triangle T(n,0)=0 and T(n,k) = -A028421(n-1,k-1), 0<k<=n.",
   "id": "A136426",
   "mentions": [
     "A000254",

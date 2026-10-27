@@ -1,0 +1,31 @@
+{
+  "description": "The sum of divisors d of n such that gcud(d, n/d) is a square, where gcud is the greatest common unitary divisor.",
+  "id": "A399836",
+  "mentions": [
+    "A000290",
+    "A013664",
+    "A077610",
+    "A165430",
+    "A188999",
+    "A225174",
+    "A365172",
+    "A384244",
+    "A399830",
+    "A399834",
+    "A399835",
+    "A399837",
+    "A399838",
+    "A399839"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

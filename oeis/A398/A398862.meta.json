@@ -1,0 +1,18 @@
+{
+  "description": "Number of points with even coordinate sum in the cube [-n,n]^3 having an odd number of lattice neighbors inside the cube.",
+  "id": "A398862",
+  "mentions": [
+    "A397964",
+    "A397966"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

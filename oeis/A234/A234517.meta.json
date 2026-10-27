@@ -1,10 +1,15 @@
 {
-  "description": "Sequence of numbers from A234515 such that A234515(n) > A234515(k) for all k < n.",
+  "description": "Numbers k > 1 such that for all m >= k, e(m) <= e(k), where e(m) = log_m(sigma(m)), the exponent such that m^e(m) = sigma(m), and sigma is the sum of divisors function, A000203.",
   "id": "A234517",
   "mentions": [
     "A000203",
     "A002182",
-    "A002473",
+    "A004394",
+    "A004490",
+    "A017665",
+    "A017666",
+    "A033880",
+    "A140522",
     "A234515",
     "A234516",
     "A234518",

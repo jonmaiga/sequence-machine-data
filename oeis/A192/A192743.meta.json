@@ -1,5 +1,5 @@
 {
-  "description": "The numbers n in s=n^2 + (n+1)^2 that satisfy the requirement for two consecutive squares c,d with c",
+  "description": "The numbers n in s=n^2 + (n+1)^2 that satisfy the requirement for two consecutive squares c,d with c<d with d-c being the sum of two consecutive squares that c<s<d will give s-c and d-s both being squares.",
   "id": "A192743",
   "mentions": [],
   "tags": [

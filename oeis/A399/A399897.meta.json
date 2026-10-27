@@ -1,0 +1,20 @@
+{
+  "description": "First elements of the rows of the grasshopper infinite barrycade (recursively defined family of permutations of the positive integers having pairwise disjoint sets of partial sums).",
+  "id": "A399897",
+  "mentions": [
+    "A399898",
+    "A399899",
+    "A399900",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

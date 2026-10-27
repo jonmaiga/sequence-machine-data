@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime lucky numbers",
+  "description": "Number of prime lucky numbers <10^n.",
   "id": "A055728",
   "mentions": [
     "A000040",

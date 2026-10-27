@@ -1,5 +1,5 @@
 {
-  "description": "Number of palindromic divisors d of n-th decimal palindrome m, such that 9",
+  "description": "Number of palindromic divisors d of n-th decimal palindrome m, such that 9<d<m.",
   "id": "A083868",
   "mentions": [
     "A000005",

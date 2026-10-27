@@ -1,7 +1,19 @@
 {
   "description": "a(n) = ceiling(n^2/5).",
   "id": "A036404",
-  "mentions": [],
+  "mentions": [
+    "A000982",
+    "A001622",
+    "A004652",
+    "A008747",
+    "A008810",
+    "A036405",
+    "A036406",
+    "A036407",
+    "A036408",
+    "A036409",
+    "A036410"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "joeis"
+    "size": 59,
+    "source": "oeis-bfile"
   }
 }

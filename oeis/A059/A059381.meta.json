@@ -1,10 +1,16 @@
 {
-  "description": "Product J_2(i), i=1..n.",
+  "description": "a(n) = Product_{i=1..n} J_2(i).",
   "id": "A059381",
   "mentions": [
     "A001088",
     "A007434",
-    "A175836"
+    "A059382",
+    "A059383",
+    "A059384",
+    "A124175",
+    "A175836",
+    "A239672",
+    "A272028"
   ],
   "tags": [
     "formulas",

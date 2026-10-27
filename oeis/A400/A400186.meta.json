@@ -1,0 +1,22 @@
+{
+  "description": "Walk along the hexagonal spiral, with its cells numbered starting at 0, as in A395362. Three players, Black, Cyan, and Red, take turns. When it is Black's turn, he places a (Glinski) queen at the smallest unoccupied cell not attacked by an existing Cyan or Red queen; when it is Cyan's turn, he places a queen at the smallest unoccupied cell not attacked by an existing Black or Red queen, and when it is Red's turn, he places a queen at the smallest unoccupied cell not attacked by an existing Black or Cyan queen. Sequence lists cells occupied by Black queens.",
+  "id": "A400186",
+  "mentions": [
+    "A395362",
+    "A396292",
+    "A396294",
+    "A396295",
+    "A396296",
+    "A400187",
+    "A400188",
+    "A400189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

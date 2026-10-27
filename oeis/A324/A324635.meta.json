@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [n] such that eight is the maximum of the number of elements in any integer interval [p(i)..i+n*[i",
+  "description": "Number of permutations p of [n] such that eight is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].",
   "id": "A324635",
   "mentions": [
     "A324563"

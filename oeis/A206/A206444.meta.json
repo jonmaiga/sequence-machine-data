@@ -1,5 +1,5 @@
 {
-  "description": "Least n such that L(n)<-1 and L(n)",
+  "description": "Least n such that L(n)<-1 and L(n)<L(n-1), where L(k) means the least root of the polynomial p(k,x) defined at A206284, and a(1)=13.",
   "id": "A206444",
   "mentions": [
     "A072197",

@@ -1,0 +1,16 @@
+{
+  "description": "Number of nonisomorphic asymmetric antisymmetric binary relations on an n-element set.",
+  "id": "A399388",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

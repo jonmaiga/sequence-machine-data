@@ -1,0 +1,18 @@
+{
+  "description": "Number of complete non-ambiguous trees with n leaves whose maximum weight is 0.",
+  "id": "A398579",
+  "mentions": [
+    "A002190",
+    "A399327",
+    "A399444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

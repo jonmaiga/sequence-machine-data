@@ -2,6 +2,7 @@
   "description": "Number of solutions x to n * pi(x) = x, where pi(x) = number of primes <= x.",
   "id": "A038627",
   "mentions": [
+    "A000720",
     "A038623",
     "A038624",
     "A038625",

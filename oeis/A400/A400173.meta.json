@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of the arithmetic derivative with Liouville's lambda.",
+  "id": "A400173",
+  "mentions": [
+    "A003415",
+    "A008836",
+    "A136141",
+    "A195055",
+    "A206369",
+    "A300251",
+    "A347395",
+    "A349394",
+    "A400833"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

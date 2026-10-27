@@ -2,22 +2,25 @@
   "description": "Number of n-dimensional unimodular lattices (or quadratic forms).",
   "id": "A005134",
   "mentions": [
+    "A018843",
     "A054907",
     "A054908",
     "A054909",
     "A054911",
     "A241121",
-    "A241122"
+    "A241122",
+    "A380746"
   ],
   "tags": [
     "formulas",
     "hard",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

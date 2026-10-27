@@ -2,7 +2,9 @@
   "description": "a(n) = smallest m such that 2n-1 | 2^m+1, or 0 if no such m exists.",
   "id": "A216440",
   "mentions": [
-    "A002326"
+    "A002326",
+    "A007814",
+    "A014663"
   ],
   "tags": [
     "nonn"

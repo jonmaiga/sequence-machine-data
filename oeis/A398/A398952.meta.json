@@ -1,0 +1,21 @@
+{
+  "description": "Smaller members in pairs of successive 5-rough numbers that are both squarefree numbers.",
+  "id": "A398952",
+  "mentions": [
+    "A005117",
+    "A007310",
+    "A007674",
+    "A065474",
+    "A069977",
+    "A276378"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

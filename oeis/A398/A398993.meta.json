@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the Bell numbers. Square array read by ascending antidiagonals.",
+  "id": "A398993",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A005493",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

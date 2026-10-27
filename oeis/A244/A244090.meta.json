@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is a factorion (A014080, equal to the sum of the factorials of its digits), in at least one base b.",
+  "description": "Numbers k such that k is a factorion (A014080, equal to the sum of the factorials of its digits), in at least one base b.",
   "id": "A244090",
   "mentions": [
     "A014080",
@@ -8,12 +8,11 @@
   "tags": [
     "base",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

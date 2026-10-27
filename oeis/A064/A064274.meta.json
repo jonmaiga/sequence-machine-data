@@ -2,10 +2,13 @@
   "description": "Inverse of sequence A035513 considered as a permutation of the nonnegative integers.",
   "id": "A064274",
   "mentions": [
-    "A035513"
+    "A003603",
+    "A035513",
+    "A360485"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

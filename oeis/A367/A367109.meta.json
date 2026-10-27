@@ -2,16 +2,16 @@
   "description": "Triangle of number of interval-closed sets T(m,n) in the product of two chains [m]x[n], for m <= n, read by rows.",
   "id": "A367109",
   "mentions": [
+    "A367316",
     "A369313"
   ],
   "tags": [
-    "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

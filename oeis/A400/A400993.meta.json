@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (prime index of the n-th prime power)^(exponent of the n-th prime power) (cf. A000961).",
+  "id": "A400993",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A003963",
+    "A024622",
+    "A025473",
+    "A025474",
+    "A330669"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

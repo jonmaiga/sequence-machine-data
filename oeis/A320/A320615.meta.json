@@ -2,9 +2,12 @@
   "description": "Number of ordered set partitions of [n] where k = two is minimal such that for each block b the smallest integer interval containing b has at most k elements.",
   "id": "A320615",
   "mentions": [
+    "A000142",
+    "A240172",
     "A276891"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

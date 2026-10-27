@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, T(n,k) = T(n-1,k) + T(n-1,k-1), 1",
+  "description": "Triangle, T(n,k) = T(n-1,k) + T(n-1,k-1), 1<k<n with borders given by the Tetrahedral numbers.",
   "id": "A134637",
   "mentions": [
     "A000292",

@@ -2,6 +2,7 @@
   "description": "Numbers k such that phi(k) divides sigma_12(k).",
   "id": "A015770",
   "mentions": [
+    "A000010",
     "A013960",
     "A015759",
     "A015761",
@@ -26,7 +27,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

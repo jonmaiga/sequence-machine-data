@@ -1,0 +1,20 @@
+{
+  "description": "Number of free, vertex-based polyominoes that fit inside a disc of radius sqrt(A001481(n)) centered on a lattice site.",
+  "id": "A398782",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A001481",
+    "A004018"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

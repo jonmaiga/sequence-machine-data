@@ -1,8 +1,14 @@
 {
-  "description": "High-temperature expansion of susceptibility mu_2 for 4-d cubic lattice.",
+  "description": "High-temperature expansion of Ising model susceptibility mu_2 for 4-d cubic lattice.",
   "id": "A010044",
-  "mentions": [],
+  "mentions": [
+    "A010041",
+    "A010042",
+    "A010043",
+    "A010047"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

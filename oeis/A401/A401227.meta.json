@@ -1,0 +1,20 @@
+{
+  "description": "The least prime p >= prime(n+1) such that prime(n)# + p is composite, where prime(n)# = A002110(n), the n-th primorial.",
+  "id": "A401227",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005235",
+    "A035346",
+    "A038771"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

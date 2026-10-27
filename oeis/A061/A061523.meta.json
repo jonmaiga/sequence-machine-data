@@ -2,15 +2,17 @@
   "description": "Integer part of the blowup factor for A025587(n).",
   "id": "A061523",
   "mentions": [
+    "A025586",
     "A025587",
     "A295163"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

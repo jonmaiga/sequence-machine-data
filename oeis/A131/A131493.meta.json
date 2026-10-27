@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that Pi^n starts with the digits n.",
+  "description": "Numbers k such that Pi^k starts with the digits of k.",
   "id": "A131493",
   "mentions": [
     "A100129",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

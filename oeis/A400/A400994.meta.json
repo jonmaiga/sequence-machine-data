@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the circulant matrix formed by their decimal digits and the one formed by the decimal digits of the sum of their divisors have the same determinant.",
+  "id": "A400994",
+  "mentions": [
+    "A000203"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

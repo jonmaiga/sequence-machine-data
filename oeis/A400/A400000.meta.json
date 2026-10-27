@@ -1,0 +1,38 @@
+{
+  "description": "The city-building sequence: a(n) = the height h of the shortest building which can see exactly h earlier buildings.",
+  "id": "A400000",
+  "mentions": [
+    "A397493",
+    "A397740",
+    "A397809",
+    "A397831",
+    "A398355",
+    "A399194",
+    "A399763",
+    "A399949",
+    "A399950",
+    "A399965",
+    "A399977",
+    "A400110",
+    "A400111",
+    "A400121",
+    "A400133",
+    "A400134",
+    "A400183",
+    "A400184",
+    "A400185",
+    "A400190",
+    "A400708",
+    "A400709"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

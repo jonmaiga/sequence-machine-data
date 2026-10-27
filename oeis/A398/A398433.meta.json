@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the set of positive divisors of k is not a Sidon set, but the set of positive divisors of every proper divisor of k is a Sidon set.",
+  "id": "A398433",
+  "mentions": [
+    "A000005",
+    "A091011",
+    "A119357",
+    "A119425",
+    "A129521",
+    "A398434",
+    "A398435",
+    "A398577"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

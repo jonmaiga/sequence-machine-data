@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least k such that s(k)=n, where s=A030717.",
+  "description": "a(n) is the least k such that s(k) = n, where s = A030717.",
   "id": "A030720",
   "mentions": [
     "A030717"

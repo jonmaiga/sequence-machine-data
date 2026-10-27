@@ -1,0 +1,18 @@
+{
+  "description": "Largest square in a corner of a simple perfect squared rectangle of order n.",
+  "id": "A400467",
+  "mentions": [
+    "A002839",
+    "A195984",
+    "A400444"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

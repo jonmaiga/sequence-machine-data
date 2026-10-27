@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of the slowest decreasing sequence of unit fractions whose partial sums have a prime numerator.",
+  "description": "Denominators of the slowest decreasing sequence of unit fractions whose partial sums have a prime numerator (or 1 in the first sum).",
   "id": "A076474",
   "mentions": [
     "A076475",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

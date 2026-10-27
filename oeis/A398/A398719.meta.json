@@ -1,0 +1,18 @@
+{
+  "description": "Number of even words of length 2n over the positive integers such that no proper nonempty prefix is even and the letters first appear in increasing order.",
+  "id": "A398719",
+  "mentions": [
+    "A005046",
+    "A124321",
+    "A156289"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

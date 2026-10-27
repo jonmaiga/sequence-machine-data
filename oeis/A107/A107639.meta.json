@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime a such that (a*b)^2 + a*b -1 is prime with b prime = 2^(2*n) - 2^n - 1, see A098845 for n.",
+  "description": "a(n) is the smallest odd prime such that (a(n)*b(n))^2 + a(n)*b(n) - 1 is prime, where b(n) = 2^(2*A098845(n)) - 2^A098845(n) - 1 is prime.",
   "id": "A107639",
   "mentions": [
     "A098845"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

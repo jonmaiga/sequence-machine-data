@@ -1,0 +1,27 @@
+{
+  "description": "Squares visited by knight moves on a diagonally numbered Q1 board and always taking the available unvisited square with the shortest Euclidean distance to the starting square (1,1). In the case of a tie, first squares with the shortest distance to the Q1 bisecting line are preferred, second the square with smaller row index is preferred. Starting square is labeled 1.",
+  "id": "A400771",
+  "mentions": [
+    "A316588",
+    "A316667",
+    "A326916",
+    "A326918",
+    "A326922",
+    "A326924",
+    "A328908",
+    "A328909",
+    "A399236",
+    "A399929",
+    "A399930"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

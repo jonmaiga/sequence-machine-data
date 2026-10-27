@@ -1,0 +1,20 @@
+{
+  "description": "Number of free ouroboros polycubes with 2*n cells.",
+  "id": "A399392",
+  "mentions": [
+    "A359706",
+    "A363202",
+    "A399393",
+    "A399394"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

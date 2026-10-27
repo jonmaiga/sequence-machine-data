@@ -1,16 +1,15 @@
 {
-  "description": "A triangular sequence from an expansion of coefficients of the function: p(x,t)=Exp(x*g*(t))*(1-f(t)^2);f(t)=1/Sqrt[1 - 14*t^4 + t^8];g(t)=t. (Based on the Weierstrass functions of Schwarz's minimal surface which is identified with a cube.)",
+  "description": "Triangle read by rows: T(n, k) = n! * [t^n*x^k] (1-1/(1-14*t^4+t^8)) * exp(t*x).",
   "id": "A137522",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of maximal success probability of the CHSH game.",
+  "description": "Decimal expansion of maximal quantum success probability of the CHSH game.",
   "id": "A201488",
   "mentions": [
+    "A010466",
     "A019863",
     "A020765",
     "A210066"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled loopless digraphs on 2n vertices such that (deg^-(v), deg^+(v)) is either (1,2) or (2,1) for every vertex v.",
+  "id": "A400910",
+  "mentions": [
+    "A400907",
+    "A400909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

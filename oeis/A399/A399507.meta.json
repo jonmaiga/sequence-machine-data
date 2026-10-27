@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/((5*k)!)^2.",
+  "id": "A399507",
+  "mentions": [
+    "A001044",
+    "A001113",
+    "A070910",
+    "A073743",
+    "A143819",
+    "A269296",
+    "A332890",
+    "A332892",
+    "A334381",
+    "A399505",
+    "A399506",
+    "A399508"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

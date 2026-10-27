@@ -1,5 +1,5 @@
 {
-  "description": "A086892(11*n).",
+  "description": "a(n) = A086892(11*n).",
   "id": "A141460",
   "mentions": [
     "A086892"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

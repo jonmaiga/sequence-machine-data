@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d",
+  "description": "a(n) = Sum_{d|n, d<n} A294898(d), where A294898(d) = A005187(d) - sigma(d).",
   "id": "A318447",
   "mentions": [
     "A000203",

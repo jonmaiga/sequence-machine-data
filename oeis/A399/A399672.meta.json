@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k of the form lpf(k) * q(k)^n * rad(k) such that A008479(k) is minimized, where q(k) is the second smallest distinct prime factor of k and rad = A007947.",
+  "id": "A399672",
+  "mentions": [
+    "A000096",
+    "A007947",
+    "A008479",
+    "A020639",
+    "A119288"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

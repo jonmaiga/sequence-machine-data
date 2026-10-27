@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that if x = Sum_{j|k, j",
+  "description": "Numbers k such that if x = Sum_{j|k, j<k} (sigma(j) - j) then k = Sum_{j|x, j<x} (sigma(j) - j).",
   "id": "A238765",
   "mentions": [
     "A000203",

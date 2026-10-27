@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator(Sum_{k=1..n} beta(floor(n/k))/floor(n/k)), where beta(n) = A206369(n) is the alternating sum of divisors of n.",
+  "id": "A398704",
+  "mentions": [
+    "A206369",
+    "A294649",
+    "A398698",
+    "A398705",
+    "A398706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

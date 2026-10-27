@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the number of positive integers x such that there are exactly k divisors d of n with x<=d and gcd(x,d)=1, 1 <= k <= A000005(n), read by rows.",
+  "id": "A397786",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A202479",
+    "A397318",
+    "A398171"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

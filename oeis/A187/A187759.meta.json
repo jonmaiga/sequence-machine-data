@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (0",
+  "description": "Number of ways to write n=x+y (0<x<y<n) with 6x-1, 6x+1, 6y-1 and 6y+1 all prime.",
   "id": "A187759",
   "mentions": [
     "A001359",

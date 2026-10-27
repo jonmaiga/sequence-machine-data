@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of the 5-dimensional geode array: a(n) = G(n,n,n,n,n).",
+  "id": "A398883",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A383439",
+    "A394082"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

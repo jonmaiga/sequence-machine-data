@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,d) read by rows: the number of mixed trees with n>=1 nodes and 0<=d",
+  "description": "Triangle T(n,d) read by rows: the number of mixed trees with n>=1 nodes and 0<=d<n arcs.",
   "id": "A335362",
   "mentions": [
     "A000055",

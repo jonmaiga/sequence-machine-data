@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary relations on an n-set having the diamond property.",
+  "id": "A399673",
+  "mentions": [
+    "A398789"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

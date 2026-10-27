@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = s(k), where k is the n-th number such that s(j)",
+  "description": "a(n) = s(k), where k is the n-th number such that s(j)<s(k) for all j<k, where s = A026177.",
   "id": "A026180",
   "mentions": [
     "A026177",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of Gaussian primes a+b*i in the first quadrant (a>0,b>=0) such that n",
+  "description": "Number of Gaussian primes a+b*i in the first quadrant (a>0,b>=0) such that n<norm<=1+n.",
   "id": "A134653",
   "mentions": [
     "A055026"

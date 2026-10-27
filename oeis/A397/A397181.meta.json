@@ -2,9 +2,9 @@
   "description": "Length of row n in the irregular triangle A397173.",
   "id": "A397181",
   "mentions": [
-    "A394611",
     "A397173",
-    "A397180"
+    "A397180",
+    "A399995"
   ],
   "tags": [
     "nonn"

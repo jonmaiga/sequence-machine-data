@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled Ferrers relations on an n-element set having trivial automorphism group.",
+  "id": "A399545",
+  "mentions": [
+    "A048163",
+    "A399544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

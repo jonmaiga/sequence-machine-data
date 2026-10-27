@@ -2,15 +2,20 @@
   "description": "Number of admissible sequences of order j; related to 5x+1 problem.",
   "id": "A174795",
   "mentions": [
-    "A100982"
+    "A000108",
+    "A028508",
+    "A046104",
+    "A100982",
+    "A174796"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

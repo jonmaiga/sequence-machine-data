@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2; for n >= 1, a(n+1) is the least prime p_m such that a(n)=p_m-p_{m-1}+...+(-1)^{m-k}p_k for some 0",
+  "description": "a(1)=2; for n >= 1, a(n+1) is the least prime p_m such that a(n)=p_m-p_{m-1}+...+(-1)^{m-k}p_k for some 0<k<m.",
   "id": "A222532",
   "mentions": [
     "A000040",

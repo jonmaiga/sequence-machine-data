@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n, m) read by antidiagonals downwards: T(n, m) is the m-th n-Knödel number, for n >= 1 and m >= 1.",
+  "id": "A398539",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A033553",
+    "A050990",
+    "A050992",
+    "A050993",
+    "A208154",
+    "A208155",
+    "A208156",
+    "A208157",
+    "A208158"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

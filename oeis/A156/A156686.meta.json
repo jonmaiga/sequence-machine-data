@@ -1,5 +1,5 @@
 {
-  "description": "The ordered set of a + b - c as (a,b,c) runs through all Pythagorean triples with a",
+  "description": "The ordered set of a + b - c as (a,b,c) runs through all Pythagorean triples with a<b<c.",
   "id": "A156686",
   "mentions": [
     "A020887"

@@ -2,7 +2,8 @@
   "description": "Number of palindromes of length n (in base 4).",
   "id": "A117856",
   "mentions": [
-    "A050683"
+    "A050683",
+    "A213173"
   ],
   "tags": [
     "base",

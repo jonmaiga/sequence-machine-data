@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*n - 5 is a square.",
+  "description": "Numbers k such that 3*k - 5 is a square.",
   "id": "A271713",
   "mentions": [
     "A001082",

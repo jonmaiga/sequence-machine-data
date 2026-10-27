@@ -2,6 +2,7 @@
   "description": "Numbers k such that 2^(2*k-3) - 3 is prime.",
   "id": "A138577",
   "mentions": [
+    "A050414",
     "A138578",
     "A138579",
     "A138580",
@@ -20,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

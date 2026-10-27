@@ -1,0 +1,18 @@
+{
+  "description": "Number of unordered pairs of distinct nonzero integer vectors u,v in R^3 with components bounded by [-n,n] such that u and v are orthogonal.",
+  "id": "A399584",
+  "mentions": [
+    "A018806",
+    "A209981",
+    "A272718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

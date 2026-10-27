@@ -2,7 +2,11 @@
   "description": "Indices of 2's in A090822.",
   "id": "A157041",
   "mentions": [
-    "A090822"
+    "A090822",
+    "A156799",
+    "A157076",
+    "A157107",
+    "A157644"
   ],
   "tags": [
     "nonn"

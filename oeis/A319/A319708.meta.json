@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A276086(d).",
   "id": "A319708",
   "mentions": [
     "A001065",

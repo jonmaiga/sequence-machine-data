@@ -2,6 +2,7 @@
   "description": "Xenodromes: numbers such that all digits in base 6 are different.",
   "id": "A023801",
   "mentions": [
+    "A010784",
     "A023798",
     "A023810"
   ],
@@ -9,6 +10,7 @@
     "base",
     "easy",
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

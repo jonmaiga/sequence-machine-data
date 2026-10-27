@@ -6,16 +6,18 @@
     "A331852",
     "A331853",
     "A331854",
-    "A331855"
+    "A331855",
+    "A397651"
   ],
   "tags": [
     "base",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

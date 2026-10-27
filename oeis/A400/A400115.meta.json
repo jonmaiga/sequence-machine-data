@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least k such that A399194(n)-A399194(1) <> A399194(n+k)-A399194(1+k).",
+  "id": "A400115",
+  "mentions": [
+    "A399194"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

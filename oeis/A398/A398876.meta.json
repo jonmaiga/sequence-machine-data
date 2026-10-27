@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2, a(2) = 3; for n > 2, a(n) is the prime k-p, where k is the smallest even number >=4 that cannot be generated as the sum of two (not necessarily distinct) terms from {a(1), ... ,a(n-1)}, and p is the earliest-added term in {a(1), ... ,a(n-1)} for which k-p is prime.",
+  "id": "A398876",
+  "mentions": [
+    "A105170",
+    "A118371",
+    "A358798",
+    "A395012"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

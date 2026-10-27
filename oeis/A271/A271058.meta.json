@@ -1,5 +1,5 @@
 {
-  "description": "Least m such that n equals a sum of binomial coefficients C(m,k1)+C(m,k2)+C(m,k3)+... with 0<=k1",
+  "description": "Least m such that n equals a sum of binomial coefficients C(m,k1)+C(m,k2)+C(m,k3)+... with 0<=k1<k2<k3<...<=m.",
   "id": "A271058",
   "mentions": [],
   "tags": [

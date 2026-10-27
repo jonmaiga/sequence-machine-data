@@ -2,6 +2,7 @@
   "description": "Number of ways to place a non-attacking white and black queen on n X n chessboard.",
   "id": "A035291",
   "mentions": [
+    "A036464",
     "A052149"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

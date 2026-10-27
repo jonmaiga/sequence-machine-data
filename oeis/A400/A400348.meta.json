@@ -1,0 +1,23 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = [x^n] 1/(1 - k^2*x/(1 - x))^(n/k), with k > 0.",
+  "id": "A400348",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A062158",
+    "A182626",
+    "A378551",
+    "A378552",
+    "A400349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

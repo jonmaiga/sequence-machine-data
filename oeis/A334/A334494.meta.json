@@ -1,5 +1,5 @@
 {
-  "description": "Positions k of addition steps in Recamán's sequence A005132 where A005132(k-1)",
+  "description": "Positions k of addition steps in Recamán's sequence A005132 where A005132(k-1)<k.",
   "id": "A334494",
   "mentions": [
     "A005132",

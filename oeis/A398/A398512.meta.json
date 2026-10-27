@@ -1,0 +1,19 @@
+{
+  "description": "n is the start of a run of exactly a(n) consecutive numbers all containing a repeated digit.",
+  "id": "A398512",
+  "mentions": [
+    "A398513",
+    "A398514",
+    "A398515"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

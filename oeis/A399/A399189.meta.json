@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^3 - A283626(n): number of lattice points in the cube [1,n]^3 not covered by any box [1,p] X [1,q] X [1,r] with p*q*r = n.",
+  "id": "A399189",
+  "mentions": [
+    "A138808",
+    "A283626",
+    "A398812"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

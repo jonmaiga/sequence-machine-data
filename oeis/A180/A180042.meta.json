@@ -1,5 +1,5 @@
 {
-  "description": "The possible orders of cyclic groups that can be realized as holonomy groups of crystallographic groups in dimension 7.",
+  "description": "Possible orders of cyclic groups that can be realized as holonomy groups of crystallographic groups in dimension 7.",
   "id": "A180042",
   "mentions": [
     "A006226",

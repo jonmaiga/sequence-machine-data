@@ -1,0 +1,21 @@
+{
+  "description": "Number of cycles of the discrete Arnold cat map on an n X n array.",
+  "id": "A399298",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001175",
+    "A004146",
+    "A032170",
+    "A281230"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

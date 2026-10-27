@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: T(n,1) = A400843(n), T(n,k>1) = the (k-1)-th largest prime q <= T(n,1) such that 1+2*((T(n,1)#/T(n,1)) / (q#/q)) is a multiple of T(n,1), with n >= 1, 1 <= k <= 1+A401053(A401059(n)). Here p# = A034386(p).",
+  "id": "A401051",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A276085",
+    "A373487",
+    "A400843",
+    "A401053",
+    "A401054",
+    "A401055",
+    "A401059",
+    "A401062",
+    "A401228",
+    "A401229"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of inequivalent lattice triangles containing n lattice points, with no boundary lattice points other than their three vertices.",
+  "id": "A401192",
+  "mentions": [
+    "A000086",
+    "A034017",
+    "A058026",
+    "A065474",
+    "A070554",
+    "A372217",
+    "A372218",
+    "A401110"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

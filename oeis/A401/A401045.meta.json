@@ -1,0 +1,20 @@
+{
+  "description": "Sexy roots: Numbers k such that k^2 is the sum of a pair of sexy primes (p,p'=p+6).",
+  "id": "A401045",
+  "mentions": [
+    "A023201",
+    "A046117",
+    "A086776",
+    "A104010",
+    "A152786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Antidiagonal sums of the binomial matrix of the factorial numbers.",
+  "id": "A398986",
+  "mentions": [
+    "A398999",
+    "A399000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

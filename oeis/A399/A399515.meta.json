@@ -1,0 +1,20 @@
+{
+  "description": "Numbers a for which there are smaller integers b > c > d > 0 such that c^2 = a + d and d^2 = b + c.",
+  "id": "A399515",
+  "mentions": [
+    "A080827",
+    "A085913",
+    "A099392",
+    "A196126",
+    "A399516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest increasing sequence of positive integers such that A001222(a(i)+a(j)) = A001222(a(i)) + A001222(a(j)) for all 1<=i",
+  "description": "Lexicographically earliest increasing sequence of positive integers such that A001222(a(i)+a(j)) = A001222(a(i)) + A001222(a(j)) for all 1<=i<j.",
   "id": "A059363",
   "mentions": [
     "A001222",

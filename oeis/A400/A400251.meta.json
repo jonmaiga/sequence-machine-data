@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A400249(k) is not zero, where A400249 is Möbius transform of A085731, with A085731(n) = gcd(n,n'), and n' the arithmetic derivative of n.",
+  "id": "A400251",
+  "mentions": [
+    "A001694",
+    "A085731",
+    "A400249"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

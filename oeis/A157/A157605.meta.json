@@ -2,6 +2,7 @@
   "description": "a(2)=1. a(n) = the largest integer coprime to a(n-1) and less than the n-th Fibonacci number.",
   "id": "A157605",
   "mentions": [
+    "A000045",
     "A157420",
     "A157604",
     "A157606"

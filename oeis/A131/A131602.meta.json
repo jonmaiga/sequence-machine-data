@@ -2,16 +2,18 @@
   "description": "Hexadecimal expansion of golden ratio phi = (1 + sqrt 5) / 2.",
   "id": "A131602",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A068432"
   ],
   "tags": [
     "base",
+    "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

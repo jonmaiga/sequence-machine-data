@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of the matrix [Jacobi(i^2+5*i*j+5*j^2,2*n+1)]_{1",
+  "description": "Determinant of the matrix [Jacobi(i^2+5*i*j+5*j^2,2*n+1)]_{1<i,j<2*n}, where Jacobi(a,m) denotes the Jacobi symbol (a/m).",
   "id": "A372394",
   "mentions": [
     "A000290",

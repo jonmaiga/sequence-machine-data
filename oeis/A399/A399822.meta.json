@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled neighborhood-Sperner graphs on n vertices.",
+  "id": "A399822",
+  "mentions": [
+    "A399817"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

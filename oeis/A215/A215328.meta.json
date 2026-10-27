@@ -4,14 +4,17 @@
   "mentions": [
     "A001037",
     "A027376",
-    "A215327"
+    "A215327",
+    "A215330",
+    "A215332",
+    "A215334"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

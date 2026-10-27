@@ -1,0 +1,16 @@
+{
+  "description": "Perimeters belonging to more than one Pythagorean triple with at least two of those triples having a side in common.",
+  "id": "A400477",
+  "mentions": [
+    "A009129",
+    "A010814"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

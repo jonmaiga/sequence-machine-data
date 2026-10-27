@@ -2,6 +2,7 @@
   "description": "Number of n X 2 binary arrays with all 1s connected, a path of 1s from top row to lower right corner, and no 1 having more than two 1s adjacent.",
   "id": "A163695",
   "mentions": [
+    "A000032",
     "A163714",
     "A163733",
     "A288219",

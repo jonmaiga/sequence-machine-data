@@ -1,5 +1,5 @@
 {
-  "description": "The number s(j) such that n divides s(k)-s(j), where s(j) is the j-th Lucas number and k is the least positive integer for which such a j with 0",
+  "description": "The number s(j) such that n divides s(k)-s(j), where s(j) is the j-th Lucas number and k is the least positive integer for which such a j with 0<j<k exists.",
   "id": "A205117",
   "mentions": [
     "A204892",

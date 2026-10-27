@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct prime-factors of {2*n-p: 2",
+  "description": "Number of distinct prime-factors of {2*n-p: 2<p<2*n, p prime}.",
   "id": "A084767",
   "mentions": [
     "A084766"

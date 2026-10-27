@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of the Taylor series of arccosh(z)/sqrt(2(x-1)) about 1.",
+  "description": "Denominators of the coefficients in the expansion of arccosh(x)/sqrt(2*(x-1)) about x=1.",
   "id": "A091019",
   "mentions": [
     "A055786"

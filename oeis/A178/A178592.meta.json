@@ -2,11 +2,15 @@
   "description": "Decimal expansion of sqrt(165).",
   "id": "A178592",
   "mentions": [
+    "A002163",
+    "A002194",
     "A010213",
+    "A010468",
     "A178591"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

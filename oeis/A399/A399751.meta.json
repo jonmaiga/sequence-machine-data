@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 5^k/(5*k)! (reciprocals of A210278).",
+  "id": "A399751",
+  "mentions": [
+    "A001113",
+    "A210278",
+    "A395537",
+    "A399749",
+    "A399750",
+    "A399752",
+    "A399753"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

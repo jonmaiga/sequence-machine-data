@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least positive integer not a(k) or a(k)+floor(k/2) for any k",
+  "description": "a(n)=least positive integer not a(k) or a(k)+floor(k/2) for any k<n.",
   "id": "A102528",
   "mentions": [
     "A102529",

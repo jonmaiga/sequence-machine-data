@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is at least one x",
+  "description": "Numbers n such that there is at least one x<n such that phi(x)sigma(x)=phi(n)sigma(n).",
   "id": "A069824",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Number of domino towers in 3 dimensions consisting of n blocks 2 X 1 X 1, connected and supported, counted up to horizontal translation.",
+  "id": "A398005",
+  "mentions": [
+    "A000244",
+    "A090458"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

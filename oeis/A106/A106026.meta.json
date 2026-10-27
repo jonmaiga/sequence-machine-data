@@ -1,5 +1,5 @@
 {
-  "description": "A fractal transform of Pell numbers : a(1)=1 then if b(n)",
+  "description": "A fractal transform of Pell numbers : a(1)=1 then if b(n)<k<=b(n+1) a(k)=b(n+1)-a(k-b(n)) where b(n)=A000129(n).",
   "id": "A106026",
   "mentions": [
     "A000129",

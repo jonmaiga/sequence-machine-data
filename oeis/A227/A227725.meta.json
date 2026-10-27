@@ -8,13 +8,13 @@
     "A227722"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

@@ -2,13 +2,17 @@
   "description": "Least number that begins an n-term arithmetic progression with common difference 2 in which all terms have the same prime signature.",
   "id": "A113457",
   "mentions": [
+    "A034173",
+    "A075382",
+    "A087306",
     "A092209",
     "A113456",
+    "A113459",
+    "A113465",
     "A113466"
   ],
   "tags": [
     "hard",
-    "less",
     "nonn"
   ],
   "terms": {

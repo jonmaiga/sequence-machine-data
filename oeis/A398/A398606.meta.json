@@ -1,0 +1,15 @@
+{
+  "description": "Primitive terms of A348713.",
+  "id": "A398606",
+  "mentions": [
+    "A348713"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

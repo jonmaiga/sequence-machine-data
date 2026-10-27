@@ -1,0 +1,19 @@
+{
+  "description": "Hexadecimal expansion of the tribonacci constant A058265.",
+  "id": "A401294",
+  "mentions": [
+    "A000073",
+    "A019712",
+    "A058265"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

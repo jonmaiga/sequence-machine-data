@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of 4*n in which the sum of the even parts equals the sum of the odd parts.",
+  "id": "A401109",
+  "mentions": [
+    "A098123",
+    "A239261"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

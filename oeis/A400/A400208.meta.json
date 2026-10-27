@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that m^2 = p! * q! * r! for some p > q > r > 1.",
+  "id": "A400208",
+  "mentions": [
+    "A000142",
+    "A000197",
+    "A226955",
+    "A349079",
+    "A388851",
+    "A389553",
+    "A389555"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

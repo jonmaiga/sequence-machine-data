@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into consecutive initial prime numbers.",
+  "id": "A401039",
+  "mentions": [
+    "A000607",
+    "A034707",
+    "A049084",
+    "A172491"
+  ],
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

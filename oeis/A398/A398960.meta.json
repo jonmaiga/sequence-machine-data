@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairings {(b(1), c(1)), (b(2), c(2)), ..., (b(n), c(n))} of the first 2*n positive integers satisfying b(i) < c(i) and such that the 2*n numbers c(i)+b(i)-1 and c(i)-b(i) are all distinct.",
+  "id": "A398960",
+  "mentions": [
+    "A002968",
+    "A033148",
+    "A260189"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

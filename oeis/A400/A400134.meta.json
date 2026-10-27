@@ -1,0 +1,17 @@
+{
+  "description": "Irregular table T(n, k), n > 1, k = 1..A400000(n); the n-th row lists the indices of the buildings visible from A400000(n).",
+  "id": "A400134",
+  "mentions": [
+    "A397809",
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

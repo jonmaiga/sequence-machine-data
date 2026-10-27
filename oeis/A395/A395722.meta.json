@@ -1,0 +1,18 @@
+{
+  "description": "Product of the distinct entries on the two main diagonals of the (2*n + 1) X (2*n + 1) square array formed by the integers 1, 2, ..., (2*n + 1)^2 in order.",
+  "id": "A395722",
+  "mentions": [
+    "A393855",
+    "A399589",
+    "A399777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

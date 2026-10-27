@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of Boolean functions of n variables whose minimum AND-inverter graph size is k, for 0 <= k <= A057241(n).",
+  "id": "A401174",
+  "mentions": [
+    "A000370",
+    "A001146",
+    "A056287",
+    "A057241",
+    "A058759"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

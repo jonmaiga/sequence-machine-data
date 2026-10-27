@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 3^k/(3*k)! (reciprocals of A210277).",
+  "id": "A399749",
+  "mentions": [
+    "A001113",
+    "A210277",
+    "A395537",
+    "A399750",
+    "A399751",
+    "A399752",
+    "A399753"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with prime factors less than 2*spf(n), where spf(m) is the smallest prime factor of m (A020639).",
+  "description": "Numbers k with prime factors less than 2*lpf(k), where lpf(k) is the least prime factor of k (A020639).",
   "id": "A081306",
   "mentions": [
     "A006530",

@@ -1,0 +1,14 @@
+{
+  "description": "Minimum total search cost of an optimal binary search tree over n keys in sorted order, where key i has access frequency i.",
+  "id": "A398471",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

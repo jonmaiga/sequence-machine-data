@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=1..n} sigma(k,k).",
+  "id": "A399685",
+  "mentions": [
+    "A002109",
+    "A023887",
+    "A236329",
+    "A245466",
+    "A308652",
+    "A319194",
+    "A399686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

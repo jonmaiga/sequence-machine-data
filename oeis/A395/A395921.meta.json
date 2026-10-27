@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} (-1)^n*eta^(n)(n)/n!, where eta^(n) denotes the n-th derivative of the Dirichlet eta function.",
+  "id": "A395921",
+  "mentions": [
+    "A037077",
+    "A157852",
+    "A173273"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

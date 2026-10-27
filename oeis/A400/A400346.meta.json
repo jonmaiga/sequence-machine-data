@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(2*n) = a(2*n-2) + a(n), a(2*n+1) = Sum_{j=0..n} a(j) * a(n-j).",
+  "id": "A400346",
+  "mentions": [
+    "A002487",
+    "A073711",
+    "A086450",
+    "A400350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

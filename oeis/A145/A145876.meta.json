@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k-1 alternating descents (1<=k<=n). The index i is an alternating descent of a permutation p if either i is odd and p(i)>p(i+1), or i is even and p(i)",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k-1 alternating descents (1<=k<=n). The index i is an alternating descent of a permutation p if either i is odd and p(i)>p(i+1), or i is even and p(i)<p(i+1).",
   "id": "A145876",
   "mentions": [
     "A000111",

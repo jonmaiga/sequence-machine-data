@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. (1 - x)^(exp(-x) - 1).",
+  "id": "A401330",
+  "mentions": [
+    "A002741",
+    "A353995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

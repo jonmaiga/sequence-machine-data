@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n, k) read by rows: the n-th row gives the greatest common infinitary divisor of n and k, n >= 1, 1 < = k <= n.",
+  "id": "A400137",
+  "mentions": [
+    "A050376",
+    "A050873",
+    "A064379",
+    "A064380",
+    "A077609",
+    "A165430",
+    "A225174",
+    "A384047",
+    "A384245",
+    "A384246"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

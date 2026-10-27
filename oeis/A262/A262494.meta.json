@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k",
+  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k<n) is the number of permutations of n things that require k stack-sorts.",
   "id": "A262494",
   "mentions": [
     "A000012",

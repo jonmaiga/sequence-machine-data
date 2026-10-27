@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/(1 - x*A(x)^(x^2)).",
+  "id": "A400551",
+  "mentions": [
+    "A362571",
+    "A375826",
+    "A400548",
+    "A400552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,18 @@
 {
-  "description": "Even numbers n such that the sum of the digits is prime, n/2 is prime and the sum of the digits of n/2 is also prime.",
+  "description": "Even numbers k such that the sum of the digits is prime, k/2 is prime and the sum of the digits of k/2 is also prime.",
   "id": "A084195",
   "mentions": [
-    "A084194"
+    "A084194",
+    "A084201"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

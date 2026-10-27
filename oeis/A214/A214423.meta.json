@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n palindromic in only one base b, 2 <= b <= 10.",
+  "description": "Numbers k palindromic in only one base b, 2 <= b <= 10.",
   "id": "A214423",
   "mentions": [
     "A050812",

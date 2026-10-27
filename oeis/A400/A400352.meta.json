@@ -1,0 +1,20 @@
+{
+  "description": "Least integer m > 1 that does not occur as a denominator in any representation of 1 as a sum of n distinct unit fractions.",
+  "id": "A400352",
+  "mentions": [
+    "A000058",
+    "A006585",
+    "A097048",
+    "A097049"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

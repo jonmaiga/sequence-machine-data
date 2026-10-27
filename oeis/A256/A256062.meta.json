@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the pairwise differences of elements are distinct, and for 1",
+  "description": "a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the pairwise differences of elements are distinct, and for 1<m<n, a(m) does not divide a(n).",
   "id": "A256062",
   "mentions": [
     "A005282"

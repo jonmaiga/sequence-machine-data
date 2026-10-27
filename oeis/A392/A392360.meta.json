@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquarefree numbers that are neither squareful or biquadratefree.",
+  "description": "Nonsquarefree numbers that are neither squareful nor biquadratefree.",
   "id": "A392360",
   "mentions": [
     "A013929",

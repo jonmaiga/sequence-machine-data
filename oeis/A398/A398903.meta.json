@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of {1,...,3*n} into 3-element subsets {x,y,z} satisfying x+y<=z.",
+  "id": "A398903",
+  "mentions": [
+    "A108235",
+    "A398904",
+    "A398910"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "a(1)=32 and, for n > 1, a(n) = 9*a(n-1) + 32.",
   "id": "A173952",
   "mentions": [
+    "A002452",
     "A024101",
+    "A125857",
     "A173951"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

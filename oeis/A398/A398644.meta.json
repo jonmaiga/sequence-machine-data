@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of n into 3 parts 1 <= x <= y <= z such that x^2 + y^2 + z^2 = 3*m^2 for some integer m.",
+  "id": "A398644",
+  "mentions": [
+    "A008585"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{m>=1} (Sum_{k>=0} 1/(k*m)!).",
+  "id": "A398977",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A073743",
+    "A143819",
+    "A269296",
+    "A332890",
+    "A332892",
+    "A397191"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

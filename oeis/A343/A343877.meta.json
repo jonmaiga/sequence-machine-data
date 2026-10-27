@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs (d1, d2) of divisors of n such that d1",
+  "description": "Number of pairs (d1, d2) of divisors of n such that d1<d2, d1|n, d2|n, and d1 + d2 <= n.",
   "id": "A343877",
   "mentions": [
     "A000005",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

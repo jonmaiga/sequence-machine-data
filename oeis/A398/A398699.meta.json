@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} sigma(floor(n/k))/floor(n/k)), where sigma(n) = A000203(n) is the sum of divisors of n.",
+  "id": "A398699",
+  "mentions": [
+    "A000203",
+    "A017666",
+    "A398533",
+    "A398698",
+    "A398700"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

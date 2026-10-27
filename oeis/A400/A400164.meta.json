@@ -1,0 +1,31 @@
+{
+  "description": "The index of the largest prime dividing A380459(n), with a(1) = 0 by convention.",
+  "id": "A400164",
+  "mentions": [
+    "A000720",
+    "A061395",
+    "A235224",
+    "A246655",
+    "A349394",
+    "A380459",
+    "A400163",
+    "A400165",
+    "A400166",
+    "A400167",
+    "A400168",
+    "A400169",
+    "A400170",
+    "A400250",
+    "A400262"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

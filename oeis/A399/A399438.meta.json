@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected graphs on 2n unlabeled nodes all having odd degree.",
+  "id": "A399438",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A002854",
+    "A003049",
+    "A182012",
+    "A210346"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

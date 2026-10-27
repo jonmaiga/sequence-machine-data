@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x with 2^(m-1)",
+  "description": "Numbers x with 2^(m-1)<x<=2^m which can unambiguously be constructed with given points 0,1 on the x-axis and m circles.",
   "id": "A379972",
   "mentions": [],
   "tags": [

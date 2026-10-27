@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form p^2*q*r where p, q, r are primes with p > q > r, such that A003415(p^2*q*r) divides A276085(p^2*q*r), where A276085 is fully additive with a(p) = p#/p, and A003415 is the arithmetic derivative.",
+  "id": "A401371",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A373487",
+    "A401229",
+    "A401230",
+    "A401231"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = nn where xy is a right associative hyperoperation.",
+  "description": "a(n) = n<n>n where x<n>y is a right associative hyperoperation.",
   "id": "A264930",
   "mentions": [
     "A054871",

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle in which the n-th row contains distinct values of A399722 that have the same periodicity 2^(A020914(n)-1).",
+  "id": "A398441",
+  "mentions": [
+    "A001047",
+    "A020914",
+    "A177789",
+    "A260590",
+    "A351122",
+    "A398646",
+    "A399722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled vertices with feedback vertex set number k and without endpoints, 0 <= k < n.",
+  "id": "A399012",
+  "mentions": [
+    "A004108",
+    "A398242",
+    "A399013"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

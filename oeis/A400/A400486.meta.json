@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers m < 2^n - 1 such that the Collatz trajectories of m and m+1 meet within n steps, after equal numbers of halving steps and before either reaches 1.",
+  "id": "A400486",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A006666",
+    "A078417",
+    "A078441",
+    "A398792",
+    "A400487"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

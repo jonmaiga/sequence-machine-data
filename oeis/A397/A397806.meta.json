@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of lists of n distinct real numbers in [0, 1) that produce the same list when Gaston's algorithm is applied to them.",
+  "id": "A397806",
+  "mentions": [
+    "A397807"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

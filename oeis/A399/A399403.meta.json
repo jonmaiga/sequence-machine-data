@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x - (1/2) * ( A(x)^2 + A(x^2) ).",
+  "id": "A399403",
+  "mentions": [
+    "A001190",
+    "A226909"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

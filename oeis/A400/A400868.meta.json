@@ -1,0 +1,18 @@
+{
+  "description": "Number of deals of n cards numbered 1 to n between two players for which the card game War never ends, when the winner of each turn puts the losing card and then the winning card at the bottom of their pile.",
+  "id": "A400868",
+  "mentions": [
+    "A000079",
+    "A400411"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

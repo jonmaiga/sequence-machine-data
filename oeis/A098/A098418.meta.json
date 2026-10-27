@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime triples (p,q,r) with p",
+  "description": "Number of prime triples (p,q,r) with p<q<r=p+6, containing the n-th prime.",
   "id": "A098418",
   "mentions": [
     "A000040",

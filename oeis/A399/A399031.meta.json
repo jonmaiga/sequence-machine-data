@@ -1,0 +1,17 @@
+{
+  "description": "Least positive k such that some nontrivial proper divisor d of n satisfies d+k | n+k; 0 if no such k exists.",
+  "id": "A399031",
+  "mentions": [
+    "A082772",
+    "A082773"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

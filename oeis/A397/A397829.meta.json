@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] such that the lengths of increasing and of decreasing runs are bounded by 3.",
+  "id": "A397829",
+  "mentions": [
+    "A001250",
+    "A001251",
+    "A058258",
+    "A117158"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

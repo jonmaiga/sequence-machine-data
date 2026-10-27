@@ -1,5 +1,5 @@
 {
-  "description": "Smallest m such that {n+k*(n-1): 0",
+  "description": "Smallest m such that {n+k*(n-1): 0<k<=m} contains exactly as many primes as <= n.",
   "id": "A088573",
   "mentions": [
     "A000720"

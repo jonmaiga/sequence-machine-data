@@ -1,8 +1,9 @@
 {
-  "description": "Triangle of coefficients, read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (1+x) - x^2*(1+x)^3 + xy*f(x,y)^3.",
+  "description": "Triangle of coefficients, read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (1+x) - x^2*(1+x)^3 + x*y*f(x,y)^3.",
   "id": "A086634",
   "mentions": [
     "A001764",
+    "A086612",
     "A086632",
     "A086635"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

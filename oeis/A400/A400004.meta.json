@@ -1,0 +1,18 @@
+{
+  "description": "Half the minimum surface area of a rectangular box with positive integer side lengths and volume at least n.",
+  "id": "A400004",
+  "mentions": [
+    "A075777",
+    "A193416"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that Mertens's function of n (A002321) is divisible by phi(n).",
+  "description": "Numbers k such that Mertens's function of k (A002321) is divisible by phi(k).",
   "id": "A062982",
   "mentions": [
+    "A000010",
     "A002321",
-    "A028442"
+    "A028442",
+    "A062983"
   ],
   "tags": [
     "nonn"

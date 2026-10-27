@@ -1,0 +1,20 @@
+{
+  "description": "Irregular array where the n-th row is the trajectory obtained when starting with t = 1; then if t is odd add 2*n-1; if even divide by 2. Stop when you reach 1.",
+  "id": "A400617",
+  "mentions": [
+    "A001122",
+    "A051733",
+    "A165783",
+    "A217948"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

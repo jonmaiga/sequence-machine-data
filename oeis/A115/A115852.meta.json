@@ -1,18 +1,18 @@
 {
-  "description": "Dihedral D3 elliptical invariant transform on A000045: a[n+1]/a[n]= Phi^4=((1+Sqrt[5])/2)^4.",
+  "description": "a(n) = ceiling((F(n)^4-1)^2 / (4*F(n)^4)) where F(n) = A000045(n) are the Fibonacci numbers.",
   "id": "A115852",
   "mentions": [
     "A000045",
     "A079962"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "easy",
+    "less",
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
   }
 }

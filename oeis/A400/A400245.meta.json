@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^2/(1 - x)^3) / (1 - x)^3, with A(0) = 1.",
+  "id": "A400245",
+  "mentions": [
+    "A354695",
+    "A400241",
+    "A400243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

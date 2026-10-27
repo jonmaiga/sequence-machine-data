@@ -1,10 +1,11 @@
 {
-  "description": "Numbers whose arithmetic derivative is equal to the sum of some fixed power of their digits.",
+  "description": "Numbers >= 3 whose arithmetic derivative is equal to the sum of some fixed power of their digits.",
   "id": "A269719",
   "mentions": [
     "A003415"
   ],
   "tags": [
+    "base",
     "easy",
     "nonn"
   ],

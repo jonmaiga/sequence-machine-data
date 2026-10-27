@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime q such that gcd(q+1, A400109(n)+1) = 2*n.",
+  "id": "A397895",
+  "mentions": [
+    "A038700",
+    "A358127",
+    "A400109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

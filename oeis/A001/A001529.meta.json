@@ -1,9 +1,11 @@
 {
-  "description": "NPN-equivalence classes of threshold functions of n or fewer variables.",
+  "description": "Number of NPN-equivalence classes of threshold functions of n or fewer variables.",
   "id": "A001529",
   "mentions": [
     "A000371",
+    "A000617",
     "A001530",
+    "A001532",
     "A002077",
     "A002078",
     "A002079"
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

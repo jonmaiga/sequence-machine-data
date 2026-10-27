@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist three integers 0",
+  "description": "Integers x such that there exist three integers 0<x<=y and 0<z<=t such that sigma(x)*psi(x)*phi(x)^2 = sigma(y)*psi(y)*phi(y)^2 = x^3 + y^3 + z^3 + t^3.",
   "id": "A396635",
   "mentions": [
     "A000010",

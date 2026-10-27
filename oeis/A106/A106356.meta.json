@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) 0<=k",
+  "description": "Triangle T(n,k) 0<=k<n : Number of compositions of n with k adjacent equal parts.",
   "id": "A106356",
   "mentions": [
     "A000079",
@@ -20,6 +20,7 @@
     "A333382"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

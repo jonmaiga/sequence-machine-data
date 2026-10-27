@@ -1,5 +1,5 @@
 {
-  "description": "Greatest k",
+  "description": "Greatest k<n with mu(n-k)=mu(n)=mu(n+k), where mu=A008683 (Moebius function).",
   "id": "A081236",
   "mentions": [
     "A008683",

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1, and T(n,k) = NAND(T(n-1,k-1), T(n-1,k)) for 0 < k < n, where NAND is the Boolean logic gate.",
+  "id": "A401030",
+  "mentions": [
+    "A000012",
+    "A047999",
+    "A103451",
+    "A275365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

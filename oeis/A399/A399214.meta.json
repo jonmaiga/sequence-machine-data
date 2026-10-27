@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 9*y^2 = k.",
+  "id": "A399214",
+  "mentions": [
+    "A004018",
+    "A200977",
+    "A328151",
+    "A374158",
+    "A374159",
+    "A374160",
+    "A374161",
+    "A399191",
+    "A399212",
+    "A399213",
+    "A399215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

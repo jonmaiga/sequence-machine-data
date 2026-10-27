@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of multisets of k positive integers that occur as the side lengths of a simple polygon inscribed in a circle of radius n, where 3 <= k <= A398490(n).",
+  "id": "A398489",
+  "mentions": [
+    "A009003",
+    "A057886",
+    "A218431",
+    "A233315",
+    "A376348",
+    "A389414",
+    "A396223",
+    "A398490"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

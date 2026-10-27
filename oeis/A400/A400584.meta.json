@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of labelings of the internal vertices of the complete plane binary tree of depth n by + or min, with every leaf equal to 1, that evaluate to k at the root (n >= 1, 1 <= k <= 2^n).",
+  "id": "A400584",
+  "mentions": [
+    "A000079",
+    "A004171",
+    "A058891",
+    "A076628",
+    "A100441",
+    "A167424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Square array read by antidiagonals: T(n,k) = Sum_{j = 0..n*k} binomial(n+j-1,j)*2^j; n,k >= 0.",
   "id": "A333560",
   "mentions": [
+    "A119258",
     "A119259",
     "A333561",
     "A333562",

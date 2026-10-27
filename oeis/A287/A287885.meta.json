@@ -1,14 +1,17 @@
 {
-  "description": "Rooted labeled Ptolemaic graphs on n nodes.",
+  "description": "Number of rooted labeled Ptolemaic graphs on n nodes.",
   "id": "A287885",
-  "mentions": [],
+  "mentions": [
+    "A287886"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

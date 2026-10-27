@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] in which exactly the first k terms satisfy the up-down property, i.e., p(1)p(3), p(3)",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] in which exactly the first k terms satisfy the up-down property, i.e., p(1)<p(2), p(2)>p(3), p(3)<p(4), ...",
   "id": "A092580",
   "mentions": [
     "A000111",

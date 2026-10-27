@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of pairs k,g with k",
+  "description": "Sequence of pairs k,g with k<3*2^n the smallest such that 3*2^n+k, 3*2^n+k+g, 3*2^n+k+2*g are three consecutive primes in arithmetic progression starting at n=5 as there is not any solution for n<5.",
   "id": "A227856",
   "mentions": [
     "A230699",

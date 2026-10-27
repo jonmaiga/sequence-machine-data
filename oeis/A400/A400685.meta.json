@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways to divide a 2*n X 2*n square into two connected regions of equal area, each having the same perimeter as the square, by a simple lattice path, up to the symmetries of the square.",
+  "id": "A400685",
+  "mentions": [
+    "A000108",
+    "A001850",
+    "A068392",
+    "A113900",
+    "A348456",
+    "A400686"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

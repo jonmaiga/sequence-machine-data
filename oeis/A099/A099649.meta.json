@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to A099648(k) > k, i.e., numbers such that the largest term in the iteration of the A003132() function strictly exceeds the initial value.",
+  "description": "Solutions to A099648(k) > k; i.e., numbers such that the largest term in the iteration of the A003132() function strictly exceeds the initial value.",
   "id": "A099649",
   "mentions": [
     "A003132",
@@ -9,11 +9,13 @@
   ],
   "tags": [
     "base",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

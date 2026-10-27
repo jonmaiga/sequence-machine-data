@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that there exists an integer 0",
+  "description": "Integers k such that there exists an integer 0<m<k such that sigma(m)*sigma(k) = (m+k)^2.",
   "id": "A383932",
   "mentions": [
     "A063990",

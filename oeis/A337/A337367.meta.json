@@ -1,17 +1,19 @@
 {
-  "description": "Sum of square end-to-end distance over all self-avoiding n-step walks on a square lattice where no adjacent points are allowed, except those for consecutive steps.",
+  "description": "Sum of squared end-to-end distances over all n-step self-avoiding walks on the square lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A337367",
   "mentions": [
     "A001411",
-    "A173380"
+    "A173380",
+    "A336448"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

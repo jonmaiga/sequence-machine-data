@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum value of row n of A399982.",
+  "id": "A400280",
+  "mentions": [
+    "A399981",
+    "A399982"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

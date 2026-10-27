@@ -1,0 +1,15 @@
+{
+  "description": "Number of non-isomorphic perfect hierarchical matching (PHM) trees on 2^n vertices.",
+  "id": "A399615",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

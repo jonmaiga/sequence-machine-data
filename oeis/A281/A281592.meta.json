@@ -1,5 +1,5 @@
 {
-  "description": "Products of three distinct primes p1, p2 and p3 (sphenic numbers) with p1",
+  "description": "Products of three distinct primes p1, p2 and p3 (sphenic numbers) with p1<p2 and p3 is the concatenation of p1 with p2.",
   "id": "A281592",
   "mentions": [
     "A007304",

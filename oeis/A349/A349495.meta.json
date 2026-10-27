@@ -1,5 +1,5 @@
 {
-  "description": "Numbers p^2*q, p (2,3).",
+  "description": "Numbers p^2*q, p<q primes such that p divides q-1 and p^2 does not divide q-1, with (p,q) <> (2,3).",
   "id": "A349495",
   "mentions": [
     "A002145",

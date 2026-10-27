@@ -1,0 +1,23 @@
+{
+  "description": "Start with a set of two adjacent points in a hexagonal lattice. At each iteration, add to the set the lattice points which are adjacent to exactly two points already in the set, but only if those two points are adjacent to each other. The sequence gives the number of points in the set after n iterations.",
+  "id": "A400002",
+  "mentions": [
+    "A008458",
+    "A338097",
+    "A374338",
+    "A400699",
+    "A400700",
+    "A400701",
+    "A400975",
+    "A400977"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

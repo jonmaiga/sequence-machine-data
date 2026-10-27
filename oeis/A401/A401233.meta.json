@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k with no p^p factors and such that A006530(k) divides A276085(k), where A006530(k) is the largest prime dividing k (with 1 if k is 1), and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401233",
+  "mentions": [
+    "A006530",
+    "A048103",
+    "A276085",
+    "A276086",
+    "A359550",
+    "A401229",
+    "A401231",
+    "A401232",
+    "A401234",
+    "A401237"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

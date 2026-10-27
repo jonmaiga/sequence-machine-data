@@ -1,0 +1,17 @@
+{
+  "description": "Total number of induced cycles in all connected labeled graphs on n vertices.",
+  "id": "A401179",
+  "mentions": [
+    "A401098",
+    "A401099",
+    "A401178"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

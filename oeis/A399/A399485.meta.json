@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * AO(k) / (2*k-1), where AO(k) = A007509(k)/A352395(k) is the k-th alternating odd harmonic number (or skew-harmonic number of the second kind).",
+  "id": "A399485",
+  "mentions": [
+    "A007509",
+    "A244854",
+    "A352395"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0",
+  "description": "Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0<k<=3} which never go above the line y=x.",
   "id": "A175883",
   "mentions": [
     "A000108",
     "A122951"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

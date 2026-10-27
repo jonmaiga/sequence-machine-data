@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of times n appears in A091508.",
+  "id": "A398786",
+  "mentions": [
+    "A000005",
+    "A066843",
+    "A091508",
+    "A394797",
+    "A394973"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

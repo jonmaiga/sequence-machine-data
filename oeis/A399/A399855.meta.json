@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k > 1 such that the factorial base expansion of n appears as a substring in that of k*n.",
+  "id": "A399855",
+  "mentions": [
+    "A086064",
+    "A399856"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

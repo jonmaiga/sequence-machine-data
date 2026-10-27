@@ -1,0 +1,32 @@
+{
+  "description": "The number of divisors d of n such that gcud(d, n/d) is a powerful number (A001694), where gcud is the greatest common unitary divisor.",
+  "id": "A399829",
+  "mentions": [
+    "A001620",
+    "A001694",
+    "A077610",
+    "A165430",
+    "A225174",
+    "A286324",
+    "A369310",
+    "A384244",
+    "A393893",
+    "A399828",
+    "A399830",
+    "A399831",
+    "A399832",
+    "A399833",
+    "A399835"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

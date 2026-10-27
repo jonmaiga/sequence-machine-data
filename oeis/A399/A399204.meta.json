@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations that give the minimum number of comparisons for sorting n elements by binary insertion.",
+  "id": "A399204",
+  "mentions": [
+    "A035327",
+    "A061168",
+    "A080079",
+    "A152423",
+    "A395685",
+    "A398374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

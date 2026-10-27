@@ -1,16 +1,18 @@
 {
-  "description": "G.f. A(x) = 1 + x*A(3x)^2.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(3*x)^2.",
   "id": "A135869",
   "mentions": [
     "A135867",
-    "A135870"
+    "A135870",
+    "A143045"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

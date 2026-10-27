@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(x^2)^2).",
+  "id": "A400527",
+  "mentions": [
+    "A052750",
+    "A138292",
+    "A217925",
+    "A400528",
+    "A400529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{0<=m",
+  "description": "a(n) = Sum_{0<=m<n} Product_{-m<=j<=m} (n-j).",
   "id": "A279127",
   "mentions": [
     "A003470"

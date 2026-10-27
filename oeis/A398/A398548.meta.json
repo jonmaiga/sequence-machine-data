@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = Max{Min{a(m/p)+1 | p is a prime factor of m} | n<=m<2n} with a(1)=0.",
+  "id": "A398548",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

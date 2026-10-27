@@ -1,5 +1,5 @@
 {
-  "description": "Numbers z such that there exist two integers 0",
+  "description": "Numbers z such that there exist two integers 0<x<y<z such that (1/sigma(x) + 1/sigma(y) + 1/sigma(z))*(x + y + z) = 3.",
   "id": "A385155",
   "mentions": [
     "A000203",

@@ -1,0 +1,25 @@
+{
+  "description": "a(0)=a(1)=1, a(n) = a(n-1) + 1 + per(a(n-2)), where per(n) is the multiplicative persistence of n.",
+  "id": "A401191",
+  "mentions": [
+    "A000027",
+    "A001477",
+    "A002113",
+    "A003001",
+    "A004086",
+    "A007953",
+    "A031346"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

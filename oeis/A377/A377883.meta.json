@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element modular group M4(2) = .",
+  "description": "Cogrowth sequence of the 16-element modular group M4(2) = <S,T | S^8, T^2, STS^3T>.",
   "id": "A377883",
   "mentions": [
     "A007582",

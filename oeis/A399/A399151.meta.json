@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: (Sum_{k>=1} x^(k^4)/(1 - x^(k^4))) * Product_{k>=1} (1 + x^k).",
+  "id": "A399151",
+  "mentions": [
+    "A000009",
+    "A001620",
+    "A063775",
+    "A305082",
+    "A399146",
+    "A399149",
+    "A399150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

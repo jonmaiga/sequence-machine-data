@@ -1,5 +1,5 @@
 {
-  "description": "Product_{d|n, d 0} prime(A007431(d)), where A007431 is the Möbius transform of Euler's totient function.",
+  "description": "Product_{d|n, d<n, A007431(d) > 0} prime(A007431(d)), where A007431 is the Möbius transform of Euler's totient function.",
   "id": "A318836",
   "mentions": [
     "A007431",

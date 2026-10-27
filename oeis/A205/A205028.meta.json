@@ -1,5 +1,5 @@
 {
-  "description": "The index j",
+  "description": "The index j<k such that n divides s(k)-s(j), where k is the least index (A205018) for which such j exists, and s(k)=k*(k+1).",
   "id": "A205028",
   "mentions": [
     "A204892",

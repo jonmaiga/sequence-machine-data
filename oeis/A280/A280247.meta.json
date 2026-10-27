@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of A280246 (Product_{d|n} psi(d)).",
+  "description": "Partial sums of A280246, where A280246(n) = Product_{d|n} A023896(d).",
   "id": "A280247",
   "mentions": [
     "A023896",

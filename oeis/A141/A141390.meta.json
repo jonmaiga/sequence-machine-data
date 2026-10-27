@@ -2,10 +2,11 @@
   "description": "Overpseudoprimes to base 5.",
   "id": "A141390",
   "mentions": [
-    "A020229",
     "A020231",
+    "A123692",
     "A141232",
-    "A141350"
+    "A141350",
+    "A400102"
   ],
   "tags": [
     "nonn"

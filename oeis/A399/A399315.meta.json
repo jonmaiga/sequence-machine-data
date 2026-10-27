@@ -1,0 +1,27 @@
+{
+  "description": "Squares visited by a \"Squirrel\" (Knight + Dabbaba + Alfil) moving on a spirally numbered board always to the lowest available unvisited square.",
+  "id": "A399315",
+  "mentions": [
+    "A000027",
+    "A005408",
+    "A316667",
+    "A316884",
+    "A317467",
+    "A396103",
+    "A398194",
+    "A398717",
+    "A398779",
+    "A398965",
+    "A399158",
+    "A399160",
+    "A399167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

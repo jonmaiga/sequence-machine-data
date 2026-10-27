@@ -6,12 +6,11 @@
     "A086860"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 52,
+    "source": "joeis"
   }
 }

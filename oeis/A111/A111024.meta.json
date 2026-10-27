@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,s), 0<=s",
+  "description": "Triangle read by rows: T(n,s), 0<=s<n, = 1 if there exist in the Euclidean plane n lines with exactly s points of intersection of these lines on each line, otherwise 0.",
   "id": "A111024",
   "mentions": [],
   "tags": [

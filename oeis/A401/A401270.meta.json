@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 10^(2*k+4) + 777*10^(k+1) + 1 is prime.",
+  "id": "A401270",
+  "mentions": [
+    "A002385",
+    "A232448"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

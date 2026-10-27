@@ -2,16 +2,18 @@
   "description": "Let d(1)=1 and d(n) = d(n-1)*n^(2n-2)*(2n-1)^(3-2n). Then a(n) = denominator(d(n)).",
   "id": "A114877",
   "mentions": [
+    "A074962",
     "A114876"
   ],
   "tags": [
     "easy",
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

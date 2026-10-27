@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected cubic simple graphs on 2n unlabeled nodes with chromatic index 3.",
+  "id": "A398326",
+  "mentions": [
+    "A002851",
+    "A357446"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

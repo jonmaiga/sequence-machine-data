@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + 4*x*A(x)^(7/2).",
+  "id": "A400356",
+  "mentions": [
+    "A135863",
+    "A214377",
+    "A214553",
+    "A399165",
+    "A399168"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

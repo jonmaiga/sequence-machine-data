@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + Sum{a(k): 1<=k",
+  "description": "a(n) = n + Sum{a(k): 1<=k<n and a(k) divides n}.",
   "id": "A090978",
   "mentions": [],
   "tags": [

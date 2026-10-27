@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum size of a subset of the distinct entries in row n of Pascal's triangle such that no selected entry divides another.",
+  "id": "A399060",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A020475",
+    "A217607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

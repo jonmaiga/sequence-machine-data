@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of {1..2n} such that p[2k-1] p[2k]",
+  "description": "Number of permutations p of {1..2n} such that p[2k-1]<p[2k] <=> p[2k]<p[2k+1].",
   "id": "A261683",
   "mentions": [
     "A122647",

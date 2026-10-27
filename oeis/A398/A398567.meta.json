@@ -1,0 +1,27 @@
+{
+  "description": "Number of perfect matchings in a 2n X 3 grid graph on the Klein bottle.",
+  "id": "A398567",
+  "mentions": [
+    "A005178",
+    "A020878",
+    "A048788",
+    "A162485",
+    "A263200",
+    "A351635",
+    "A397309",
+    "A398672",
+    "A399275",
+    "A399311",
+    "A399564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

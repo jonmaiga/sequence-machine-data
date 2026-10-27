@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle: T(n, k) = k! modulo prime(n), 1",
+  "description": "Irregular triangle: T(n, k) = k! modulo prime(n), 1<k<prime(n), 1<n.",
   "id": "A212320",
   "mentions": [
     "A062169",

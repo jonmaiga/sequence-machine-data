@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic Y-graphs Y(n:i,j,k) on 4n vertices (or nodes) for 1<=i,j,k",
+  "description": "Number of nonisomorphic Y-graphs Y(n:i,j,k) on 4n vertices (or nodes) for 1<=i,j,k<n/2.",
   "id": "A112921",
   "mentions": [
     "A107452",

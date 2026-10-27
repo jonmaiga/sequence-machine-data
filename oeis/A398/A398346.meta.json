@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with at least two digits, whose second and last digits are nonzero, that divide every number obtained by inserting any number of 0's between their first and second digits.",
+  "id": "A398346",
+  "mentions": [
+    "A285176",
+    "A394974"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

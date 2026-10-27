@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = greatest k with -3",
+  "description": "a(n) = greatest k with -3<k<2*n such that n*(n+1)+k and n*(n+1)+k+2 are twin primes.",
   "id": "A200653",
   "mentions": [
     "A200652"

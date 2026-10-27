@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1 and then least squarefree number such that every partial concatenation of 2 or more terms is a prime.",
+  "description": "a(1) = 1 and then least squarefree number larger than the previous term such that the concatenation of all existing terms and the new number is a prime.",
   "id": "A086475",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "joeis"
   }
 }

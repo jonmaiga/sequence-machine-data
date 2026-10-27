@@ -1,0 +1,21 @@
+{
+  "description": "On Artin's conjecture, (a(n)/A399883(n))*C is the relative density of primes with primitive root -n among the primes, where C = A005596 is Artin's constant.",
+  "id": "A399882",
+  "mentions": [
+    "A005596",
+    "A120629",
+    "A399880",
+    "A399881",
+    "A399883"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

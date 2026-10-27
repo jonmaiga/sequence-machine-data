@@ -2,10 +2,12 @@
   "description": "Decimal expansion of the square of cosine of 1 degree.",
   "id": "A111590",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A111486"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

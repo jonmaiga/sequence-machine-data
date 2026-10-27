@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n >= 1 gives coefficients in expansion of the polynomial Sum_{k=1..n} (1/n)*binomial(n,k)*binomial(n,k-1)*x^(2k)*(1+x)^(2n-2k) / x^2 in powers of x.",
+  "description": "Triangle read by rows in which row n >= 1 gives coefficients in expansion of the polynomial Sum_{k=1..n} (1/n) * binomial(n,k) * binomial(n,k-1) * x^(2k) * (1+x)^(2n-2k) / x^2 in powers of x.",
   "id": "A086873",
   "mentions": [
     "A059231"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} A056971(n)/n! where A056971(n) is the number of (binary) heaps on n elements.",
+  "id": "A401203",
+  "mentions": [
+    "A000142",
+    "A056971",
+    "A132862",
+    "A401202"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

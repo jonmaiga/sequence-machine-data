@@ -1,5 +1,5 @@
 {
-  "description": "The squares visited on a square (Ulam) spiral, with a(1) = 1 and a(2) = 2, when stepping to the closest unvisited square containing a number that shares a common divisor > 1 with the number in the current square. If two or more such squares are the same distance from the current square then the one with the smallest number is chosen.",
+  "description": "The squares visited on a square spiral, with a(1) = 1 and a(2) = 2, when stepping to the closest unvisited square containing a number that shares a common divisor > 1 with the number in the current square. If two or more such squares are the same distance from the current square then the one with the smallest number is chosen.",
   "id": "A335661",
   "mentions": [
     "A000005",

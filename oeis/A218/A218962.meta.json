@@ -1,14 +1,17 @@
 {
   "description": "Total number of maximal abelian subgroups of the alternating group, counting conjugates as distinct.",
   "id": "A218962",
-  "mentions": [],
+  "mentions": [
+    "A058162",
+    "A218957"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

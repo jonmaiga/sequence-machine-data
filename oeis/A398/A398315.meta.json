@@ -1,0 +1,18 @@
+{
+  "description": "Number of asymmetric semicomplete digraphs with n nodes.",
+  "id": "A398315",
+  "mentions": [
+    "A047656",
+    "A051504"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

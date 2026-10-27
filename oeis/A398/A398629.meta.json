@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be obtained by removing the first and last digits of a square.",
+  "id": "A398629",
+  "mentions": [
+    "A000290",
+    "A077355",
+    "A399299",
+    "A400353"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

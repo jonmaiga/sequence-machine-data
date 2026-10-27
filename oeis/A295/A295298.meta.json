@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sum of the divisors (A000203) and the binary weight of n (A000120) have the same parity.",
+  "description": "Numbers k for which sum of the divisors (A000203) and the binary weight of k (A000120) have the same parity.",
   "id": "A295298",
   "mentions": [
     "A000069",
@@ -20,6 +20,7 @@
     "A295299"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

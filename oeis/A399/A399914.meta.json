@@ -1,0 +1,21 @@
+{
+  "description": "Take the record low points among the negative terms in A399184, and negate them.",
+  "id": "A399914",
+  "mentions": [
+    "A164888",
+    "A399184",
+    "A399623",
+    "A399886",
+    "A399887",
+    "A399915"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

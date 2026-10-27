@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Hamiltonian cycles in the k-twisted n X n torus grid graph, 0 <= k < n.",
+  "id": "A399399",
+  "mentions": [
+    "A222199",
+    "A399398",
+    "A399400"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

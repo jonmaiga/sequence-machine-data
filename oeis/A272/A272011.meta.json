@@ -14,12 +14,13 @@
     "A272020"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
+    "size": 88,
     "source": "oeis-bfile"
   }
 }

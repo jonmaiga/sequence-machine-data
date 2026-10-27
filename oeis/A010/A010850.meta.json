@@ -2,7 +2,9 @@
   "description": "Constant sequence: a(n) = 11.",
   "id": "A010850",
   "mentions": [
-    "A244593"
+    "A099821",
+    "A244593",
+    "A367360"
   ],
   "tags": [
     "easy",

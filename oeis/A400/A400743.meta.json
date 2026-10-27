@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the multiplicative order of 16 modulo p is even.",
+  "id": "A400743",
+  "mentions": [
+    "A094407",
+    "A105876",
+    "A302141"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

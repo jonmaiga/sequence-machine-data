@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of exp(1+exp(1)+exp(1+exp(1))).",
+  "id": "A399373",
+  "mentions": [
+    "A000007",
+    "A001113",
+    "A061354",
+    "A061355",
+    "A235214",
+    "A399371"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 20,
+    "size": 105,
+    "source": "joeis"
+  }
+}

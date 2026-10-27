@@ -1,8 +1,10 @@
 {
-  "description": "Unbalanced strings of length n.",
+  "description": "Number of unbalanced strings of length n.",
   "id": "A027556",
   "mentions": [
     "A000079",
+    "A000225",
+    "A004526",
     "A027383"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
-    "source": "joeis"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

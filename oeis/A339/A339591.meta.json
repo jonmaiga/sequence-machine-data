@@ -1,14 +1,18 @@
 {
   "description": "Number of independent sets in Pascal graph on n nodes.",
   "id": "A339591",
-  "mentions": [],
+  "mentions": [
+    "A058891",
+    "A339592",
+    "A339593"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

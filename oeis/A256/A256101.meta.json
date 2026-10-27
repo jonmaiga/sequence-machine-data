@@ -2,7 +2,8 @@
   "description": "The broken eggs problem.",
   "id": "A256101",
   "mentions": [
-    "A017041"
+    "A017041",
+    "A241746"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

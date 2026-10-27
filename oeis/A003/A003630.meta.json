@@ -1,5 +1,5 @@
 {
-  "description": "Inert rational primes in Q[sqrt(3)].",
+  "description": "Inert rational primes in Q(sqrt(3)).",
   "id": "A003630",
   "mentions": [
     "A010527",

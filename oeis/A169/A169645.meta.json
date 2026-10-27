@@ -1,5 +1,5 @@
 {
-  "description": "Primes p = prime(k) whose decimal expansion contains the string 13 and such that digsum(p) = disgum(k) where digsum = A007953 is the sum of digits function.",
+  "description": "Primes p = prime(k) whose decimal expansion contains the string 13 and such that digsum(p) = digsum(k) where digsum = A007953 is the sum of digits function.",
   "id": "A169645",
   "mentions": [
     "A007953",

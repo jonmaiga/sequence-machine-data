@@ -1,0 +1,16 @@
+{
+  "description": "Number of nonisomorphic directed acyclic graphs (DAGs) on n vertices with trivial automorphism group.",
+  "id": "A397814",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

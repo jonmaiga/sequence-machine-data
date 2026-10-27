@@ -1,5 +1,5 @@
 {
-  "description": "Number of edges in an diagonal-edged (or diamond-shaped) checkerboard with width and height 2*n-1 (see Comments in A333434 for definition).",
+  "description": "Number of edges in a diagonal-edged (or diamond-shaped) checkerboard with width and height 2*n-1 (see Comments in A333434 for definition).",
   "id": "A333460",
   "mentions": [
     "A333027",

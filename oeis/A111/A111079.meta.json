@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(F(n), product{k|n,k",
+  "description": "a(n) = gcd(F(n), product{k|n,k<n} F(k)), where F(k) is k-th Fibonacci number.",
   "id": "A111079",
   "mentions": [
     "A000045"

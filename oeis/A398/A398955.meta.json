@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k+1, and k+2 are all cubefree.",
+  "id": "A398955",
+  "mentions": [
+    "A004709",
+    "A047603",
+    "A328016",
+    "A340152",
+    "A389137"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

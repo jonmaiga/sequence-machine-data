@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number such that for, all m",
+  "description": "a(n) is the smallest number such that for, all m<n, both a(n)*a(m) and a(n)+a(m) are nonsquares.",
   "id": "A064765",
   "mentions": [],
   "tags": [

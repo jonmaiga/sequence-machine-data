@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are products of exactly two positive decimal repunits, allowing equal factors and the factor 1.",
+  "id": "A400298",
+  "mentions": [
+    "A002275",
+    "A002477",
+    "A308365"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

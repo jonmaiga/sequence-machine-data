@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 20-element group C10 X C2 = .",
+  "description": "Cogrowth sequence of the 20-element group C10 X C2 = <S,T | S^10, T^2, [S,T]>.",
   "id": "A378254",
   "mentions": [
     "A078789",

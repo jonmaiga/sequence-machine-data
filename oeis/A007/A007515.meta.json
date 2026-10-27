@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for Wirsing's constant.",
+  "description": "Continued fraction for Gauss-Kuzmin-Wirsing's constant.",
   "id": "A007515",
   "mentions": [
     "A038517"

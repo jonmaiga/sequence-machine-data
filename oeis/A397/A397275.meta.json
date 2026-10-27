@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row m lists the full period of triangular numbers modulo m.",
+  "id": "A397275",
+  "mentions": [
+    "A000217",
+    "A008954",
+    "A022998",
+    "A105332",
+    "A105340",
+    "A332749"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

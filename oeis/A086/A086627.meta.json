@@ -1,5 +1,5 @@
 {
-  "description": "Main diagonal of square table A086626 of coefficients of x^n*y^k in f(x,y) that satisfies f(x,y) = (1-xy)/[(1-x)(1-y)] + xy*f(x,y)^3.",
+  "description": "Main diagonal of square table A086626 of coefficients of x^n*y^k in f(x,y) that satisfies f(x,y) = (1-x*y)/((1-x)*(1-y)) + x*y*f(x,y)^3.",
   "id": "A086627",
   "mentions": [
     "A086626",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "joeis"
   }
 }

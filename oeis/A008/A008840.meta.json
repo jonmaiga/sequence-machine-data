@@ -8,6 +8,7 @@
     "A108803"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Number of parts that are multiples of 3 in all partitions of n.",
   "id": "A116635",
   "mentions": [
+    "A001620",
     "A116633"
   ],
   "tags": [

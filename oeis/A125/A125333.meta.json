@@ -2,7 +2,8 @@
   "description": "Number of base 23 circular n-digit numbers with adjacent digits differing by 3 or less.",
   "id": "A125333",
   "mentions": [
-    "A025012"
+    "A025012",
+    "A126371"
   ],
   "tags": [
     "base",

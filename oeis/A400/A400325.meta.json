@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ordered pairs (x,y) modulo prime(n) satisfying the equation of the Lemniscate of Bernoulli (x^2+y^2)^2 = x^2-y^2.",
+  "id": "A400325",
+  "mentions": [
+    "A064853",
+    "A076390",
+    "A085565",
+    "A353049"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

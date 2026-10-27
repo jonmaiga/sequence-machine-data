@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of points that can be chosen from an n X n grid so that no four of them form an isosceles trapezium (rectangles included) and no four lie on a common line.",
+  "id": "A399894",
+  "mentions": [
+    "A072567",
+    "A227133",
+    "A271906",
+    "A271907",
+    "A272651",
+    "A395821"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

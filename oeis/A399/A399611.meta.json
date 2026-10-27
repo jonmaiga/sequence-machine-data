@@ -1,0 +1,20 @@
+{
+  "description": "Number of factorizations of (p*q*r)^n into parts > 1 containing at least one part divisible by p*q*r, where p, q, and r are distinct primes.",
+  "id": "A399611",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A219678",
+    "A395808",
+    "A398553"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

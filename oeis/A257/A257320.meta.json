@@ -2,15 +2,17 @@
   "description": "a(0) = 1, a(n+1) = (a(n)-th prime) + 1.",
   "id": "A257320",
   "mentions": [
-    "A007097"
+    "A007097",
+    "A119533"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

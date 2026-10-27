@@ -1,0 +1,13 @@
+{
+  "description": "A heap of stones can be split into two heaps of equal size, possibly with an extra stone added to one of the heaps. Starting from a heap of 3*n stones, define a(n) to be the fewest splittings needed so the heaps can be recombined into three exactly equal pieces.",
+  "id": "A398898",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

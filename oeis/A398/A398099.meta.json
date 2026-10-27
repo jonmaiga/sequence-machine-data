@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of inequivalent n X n symmetric nonnegative integer matrices with each row sum nonzero and at most k, up to simultaneous row and column permutations, n >= 0, k >= 0.",
+  "id": "A398099",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A005581",
+    "A167625",
+    "A333893",
+    "A397930",
+    "A398074",
+    "A398100",
+    "A398101",
+    "A398102",
+    "A398103"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x * cosh(x)^2).",
+  "id": "A399061",
+  "mentions": [
+    "A003727",
+    "A081294",
+    "A399062",
+    "A399063"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

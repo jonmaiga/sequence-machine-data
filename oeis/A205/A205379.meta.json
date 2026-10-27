@@ -1,5 +1,5 @@
 {
-  "description": "The index j",
+  "description": "The index j<k such that n divides s(k)-s(j) for some j, where s(j)=(2j-1)^2.",
   "id": "A205379",
   "mentions": [
     "A204892",

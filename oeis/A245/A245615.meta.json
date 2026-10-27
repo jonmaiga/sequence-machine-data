@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{lpf(j)=11, 11",
+  "description": "Sum_{lpf(j)=11, 11<j<=11*prime(n)}(-1)^(A000120(j)+1), where lpf=least prime factor.",
   "id": "A245615",
   "mentions": [
     "A000120"

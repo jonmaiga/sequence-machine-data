@@ -1,5 +1,5 @@
 {
-  "description": "Fundamental discriminants of real quadratic fields; indices of primitive positive Dirichlet L-series.",
+  "description": "Indices of primitive positive Dirichlet L-series; 1 and the fundamental discriminants of real quadratic fields.",
   "id": "A003658",
   "mentions": [
     "A000924",

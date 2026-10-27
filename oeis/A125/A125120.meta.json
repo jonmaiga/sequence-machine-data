@@ -1,5 +1,5 @@
 {
-  "description": "Sum of values of repunits of length n in base b representation with 1",
+  "description": "Sum of values of repunits of length n in base b representation with 1<b<=n+1.",
   "id": "A125120",
   "mentions": [
     "A076015",

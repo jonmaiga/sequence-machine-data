@@ -1,5 +1,5 @@
 {
-  "description": "Number of multiplex juggling sequences of length n, base state and hand capacity 3.",
+  "description": "Number of multiplex juggling sequences of length n, base state <2,1> and hand capacity 3.",
   "id": "A136785",
   "mentions": [
     "A136786"

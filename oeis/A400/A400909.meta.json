@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled loopless digraphs on 2n vertices such that deg^+(v) + deg^-(v) = 3 for every vertex v.",
+  "id": "A400909",
+  "mentions": [
+    "A400907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

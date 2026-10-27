@@ -1,0 +1,19 @@
+{
+  "description": "Number of halting compressed register-machine programs of total length 7*n bits.",
+  "id": "A400878",
+  "mentions": [
+    "A079365",
+    "A100264"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

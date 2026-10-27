@@ -1,0 +1,18 @@
+{
+  "description": "Number of disconnected quasi-cubic graphs on 2*n + 1 vertices.",
+  "id": "A398674",
+  "mentions": [
+    "A005638",
+    "A398638",
+    "A398639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

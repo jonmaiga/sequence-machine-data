@@ -1,7 +1,10 @@
 {
   "description": "Number of (undirected) cycles in the n-triangular honeycomb bishop graph.",
   "id": "A290782",
-  "mentions": [],
+  "mentions": [
+    "A290774",
+    "A307931"
+  ],
   "tags": [
     "more",
     "nonn"

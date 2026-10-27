@@ -1,5 +1,5 @@
 {
-  "description": "Fixed point if [nonzero-digit product]-function at initial-value=C[2n,n]=central binomial coefficient is iterated.",
+  "description": "Fixed point if the nonzero-digit-product function is iterated starting from the central binomial coefficient C(2n,n).",
   "id": "A086356",
   "mentions": [
     "A000984",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

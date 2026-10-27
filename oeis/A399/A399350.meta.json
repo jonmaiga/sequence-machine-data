@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of independent vertex sets in the n X k projective plane graph.",
+  "id": "A399350",
+  "mentions": [
+    "A053602",
+    "A089980",
+    "A152113",
+    "A286513",
+    "A399101",
+    "A399103",
+    "A399349",
+    "A399351",
+    "A399352",
+    "A399353"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

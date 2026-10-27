@@ -1,0 +1,17 @@
+{
+  "description": "The number of 3-connected cubic planar graphs on 2n-4 vertices that can be strongly embedded on the torus.",
+  "id": "A399362",
+  "mentions": [
+    "A399361",
+    "A399363"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

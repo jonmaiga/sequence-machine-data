@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees with total node weight n where nodes have positive integer weights and no adjacent nodes have the same weight.",
+  "id": "A399985",
+  "mentions": [
+    "A000055",
+    "A036250",
+    "A384747",
+    "A384748",
+    "A396080"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of eight fourth powers in exactly one ways.",
+  "description": "Numbers that are the sum of eight fourth powers in exactly one way.",
   "id": "A345833",
   "mentions": [
     "A003342",

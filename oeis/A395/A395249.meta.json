@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number m such that m + 12*j is a sum of two distinct nonzero nonunit squares for all j from 0 to n-1, but m + 12*n is not, or -1 if no such number exists.",
+  "id": "A395249",
+  "mentions": [
+    "A000290",
+    "A025426",
+    "A085989",
+    "A168559",
+    "A355769",
+    "A397416"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

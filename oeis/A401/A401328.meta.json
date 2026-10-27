@@ -1,0 +1,14 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals downwards, where A(n,k) is the number of distinct values of s_k(n+1), ..., s_k(n+k), and s_k(m) is the largest divisor of m with all prime factors less than k.",
+  "id": "A401328",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

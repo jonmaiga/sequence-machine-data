@@ -1,5 +1,5 @@
 {
-  "description": "Bernoulli number B_{2n} has denominator 6.",
+  "description": "Numbers m such that the Bernoulli number B_{2m} has denominator 6.",
   "id": "A045979",
   "mentions": [
     "A051222",

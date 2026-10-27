@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of semiconvergents of log_2(5).",
+  "id": "A400205",
+  "mentions": [
+    "A028508",
+    "A046104",
+    "A174795",
+    "A206788"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

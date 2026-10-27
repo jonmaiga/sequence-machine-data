@@ -1,0 +1,20 @@
+{
+  "description": "Number of spanning trees of the 3 X n grid graph that are invariant under rotation by 180 degrees.",
+  "id": "A398679",
+  "mentions": [
+    "A006238",
+    "A161495",
+    "A398678",
+    "A398680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

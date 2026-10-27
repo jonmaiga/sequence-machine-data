@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} prime(1+A003415(d)), where A003415(d) gives arithmetic derivative of d.",
   "id": "A319356",
   "mentions": [
     "A000040",

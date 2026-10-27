@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that two successive terms have no common digit and have distinct prime signature.",
+  "description": "Lexicographically earliest sequence of distinct numbers such that two successive terms have no common digit and have distinct prime signature.",
   "id": "A086305",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

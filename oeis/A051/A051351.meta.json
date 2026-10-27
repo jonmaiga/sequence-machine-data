@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = a(n-1) + sum of digits of n-th prime.",
+  "description": "a(n) = a(n-1) + sum of digits of n-th prime; a(0) = 0.",
   "id": "A051351",
   "mentions": [
-    "A007605"
+    "A007605",
+    "A095375"
   ],
   "tags": [
     "base",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

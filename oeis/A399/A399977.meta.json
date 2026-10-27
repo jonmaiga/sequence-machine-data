@@ -1,0 +1,16 @@
+{
+  "description": "a(n) gives the number of appropriate values when computing A400000(n).",
+  "id": "A399977",
+  "mentions": [
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

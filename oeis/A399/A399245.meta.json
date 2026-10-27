@@ -1,0 +1,33 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: c(n, k) = 1 if floor(k*x^n) = floor(m*x) for some positive integer m, where x = (1 + sqrt(5))/2, and c(n, k) = 0 otherwise.",
+  "id": "A399245",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A128440",
+    "A399246",
+    "A399247",
+    "A399248",
+    "A399249",
+    "A399252",
+    "A399253",
+    "A399254",
+    "A399255",
+    "A399256",
+    "A399257",
+    "A399258",
+    "A399259"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

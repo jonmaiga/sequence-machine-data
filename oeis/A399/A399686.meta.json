@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{k=1..oo} sigma(k,k) / k^k.",
+  "id": "A399686",
+  "mentions": [
+    "A002109",
+    "A023887",
+    "A399685"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

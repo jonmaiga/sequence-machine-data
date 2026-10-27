@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = total sum of parts in the last section of the set of partitions of n after k-th stage.",
+  "description": "Triangle read by rows: T(n,k) is the total sum of parts in the last section of the modular table of partitions of n after k-th stage.",
   "id": "A211025",
   "mentions": [
     "A135010",

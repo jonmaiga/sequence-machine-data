@@ -1,0 +1,19 @@
+{
+  "description": "Table read by rows: T(n,k) is the number of Chvátal-Erdős graphs with degree n and order k.",
+  "id": "A399459",
+  "mentions": [
+    "A399460",
+    "A399461"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

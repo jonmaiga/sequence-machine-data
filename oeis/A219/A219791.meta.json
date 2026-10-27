@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (0",
+  "description": "Number of ways to write n=x+y (0<x<=y) with (xy)^2+1 prime.",
   "id": "A219791",
   "mentions": [
     "A091182",

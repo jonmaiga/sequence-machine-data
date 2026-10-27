@@ -1,5 +1,5 @@
 {
-  "description": "a(n-1)*a(n-4) + a(n-2)*a(n-5) + a(n-3)*a(n-6), with a(k",
+  "description": "a(n-1)*a(n-4) + a(n-2)*a(n-5) + a(n-3)*a(n-6), with a(k<6) = 1.",
   "id": "A118330",
   "mentions": [
     "A111288",

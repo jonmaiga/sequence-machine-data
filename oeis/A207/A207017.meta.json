@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m for which there exists a number 1k, where operation <+> is defined in A206853.",
+  "description": "Numbers m for which there exists a number 1<k=k(m)<m, such that m is in the sequence: b_1 = k, b_(n+1) = b_n<+>k, where operation <+> is defined in A206853.",
   "id": "A207017",
   "mentions": [
     "A000225",

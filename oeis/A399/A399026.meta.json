@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of inequivalent ways of choosing 4 points on an n X n grid that form a square up to rotations and reflections.",
+  "id": "A399026",
+  "mentions": [
+    "A002415",
+    "A399025"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

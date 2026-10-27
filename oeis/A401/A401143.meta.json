@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps starting from 2*n-1 until the first repeated value under the map k -> (5*k+3)/2^v_2(5*k+3) if k == 1 (mod 4) and k -> (5*k+1)/2^v_2(5*k+1) if k == 3 (mod 4) where v_2(k) = A007814(k); or -1 if no value ever repeats.",
+  "id": "A401143",
+  "mentions": [
+    "A005408",
+    "A007814",
+    "A399120",
+    "A399761",
+    "A400174"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

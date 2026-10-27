@@ -1,5 +1,5 @@
 {
-  "description": "Number of practical numbers p",
+  "description": "Number of practical numbers p<n with n-p and n+p both prime or both practical.",
   "id": "A209312",
   "mentions": [
     "A005153",

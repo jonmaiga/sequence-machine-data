@@ -1,0 +1,19 @@
+{
+  "description": "Sprague-Grundy values of the take-away game in which a player may remove between 1 and floor(sqrt(n)) stones from a pile of n stones.",
+  "id": "A401017",
+  "mentions": [
+    "A002960",
+    "A006257",
+    "A025480"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in whose binary expansion there is exactly one run of 1-bits with an odd length, while all other run of 1-bits are of an even length (or absent).",
+  "description": "Numbers in whose binary expansion there is exactly one run of 1-bits with an odd length, while all other runs of 1-bits are of an even length (or absent).",
   "id": "A391733",
   "mentions": [
     "A000079",

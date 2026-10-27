@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (A400184(n)-1)/2.",
+  "id": "A400133",
+  "mentions": [
+    "A400000",
+    "A400183",
+    "A400184"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

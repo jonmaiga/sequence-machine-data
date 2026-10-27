@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of 4 distinct nonzero squares: of form w^2+x^2+y^2+z^2 with 0",
+  "description": "Numbers that are the sum of 4 distinct nonzero squares: of form w^2+x^2+y^2+z^2 with 0<w<x<y<z.",
   "id": "A004433",
   "mentions": [
     "A000290",

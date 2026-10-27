@@ -1,0 +1,22 @@
+{
+  "description": "Level of n in a poset graph that assigns the next lower level to a divisor <= sqrt(n).",
+  "id": "A399607",
+  "mentions": [
+    "A008578",
+    "A033676",
+    "A033677",
+    "A067029",
+    "A083647"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

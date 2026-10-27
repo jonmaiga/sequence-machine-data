@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of permutations p of [n] such that n-k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i=0, 0<=k<=n, read by rows.",
+  "description": "Number T(n,k) of permutations p of [n] such that n-k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i<p(i)]]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A324564",
   "mentions": [
     "A000007",

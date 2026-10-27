@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if every exponent in the prime-factorization of n is coprime to n and if the sum of these prime-factorization exponents divides n.",
+  "description": "A positive integer k is included if every exponent in the prime factorization of k is coprime to k and if the sum of these prime-factorization exponents divides k.",
   "id": "A144147",
   "mentions": [
     "A074946",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

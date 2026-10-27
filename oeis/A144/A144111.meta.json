@@ -1,5 +1,5 @@
 {
-  "description": "Number of different pairs of primes p and q with p",
+  "description": "Number of different pairs of primes p and q with p<q such that 6*r(n)=p+q with r(i)=i-th prime.",
   "id": "A144111",
   "mentions": [],
   "tags": [

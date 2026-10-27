@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of positive integers <= n with no prime factors of form 4*k+1.",
+  "id": "A398671",
+  "mentions": [
+    "A004144",
+    "A005089",
+    "A102548",
+    "A244659",
+    "A244662",
+    "A397450",
+    "A398087"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

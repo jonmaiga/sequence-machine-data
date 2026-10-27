@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of semiconvergents to log_2(7), which equals log(7)/log(2).",
+  "id": "A400665",
+  "mentions": [
+    "A006013",
+    "A028509",
+    "A174796",
+    "A206788",
+    "A400205"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

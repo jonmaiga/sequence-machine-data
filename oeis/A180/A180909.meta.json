@@ -1,5 +1,5 @@
 {
-  "description": "Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=4*i and -4",
+  "description": "Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=4*i and -4<p(i)-p(i-1)<=4.",
   "id": "A180909",
   "mentions": [
     "A180915"

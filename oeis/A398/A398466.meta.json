@@ -1,0 +1,20 @@
+{
+  "description": "Numbers from A250070 with the property that the first three digits are the same as the second three digits.",
+  "id": "A398466",
+  "mentions": [
+    "A237271",
+    "A237593",
+    "A249351",
+    "A250070"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

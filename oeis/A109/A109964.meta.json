@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(sqrt(Sum_{i",
+  "description": "a(n) = floor(sqrt(Sum_{i<n} a(i))), with a(0)=1.",
   "id": "A109964",
   "mentions": [
     "A109965"

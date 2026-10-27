@@ -1,5 +1,5 @@
 {
-  "description": "Detour index of the n X n black bishop graph.",
+  "description": "a(n) = m*(m-1)^2/2, where m = ceiling(n^2/2).",
   "id": "A387645",
   "mentions": [],
   "tags": [

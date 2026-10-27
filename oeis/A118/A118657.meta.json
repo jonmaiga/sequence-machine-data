@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_[k unrelated to n and k",
+  "description": "a(n) = Sum_[k unrelated to n and k<n] a(k) = Sum_[k < n such that GCD(k,n) != 1 and k does not divide n ] a(k); a(1) = a(2) = a(3) = a(4) = 1.",
   "id": "A118657",
   "mentions": [
     "A002033",

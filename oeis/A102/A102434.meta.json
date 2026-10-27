@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=1..n} {number of partitions of n into powers k^m where 0<=m",
+  "description": "Sum_{k=1..n} {number of partitions of n into powers k^m where 0<=m<n}.",
   "id": "A102434",
   "mentions": [
     "A001700",

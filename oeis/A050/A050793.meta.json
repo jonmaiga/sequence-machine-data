@@ -1,5 +1,5 @@
 {
-  "description": "Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1",
+  "description": "Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1<x<y<z) or 'Fermat near misses'. Arrange solutions by increasing values of z (see A050791), and increasing values of y in case of ties. Sequence gives values of y.",
   "id": "A050793",
   "mentions": [
     "A050791",

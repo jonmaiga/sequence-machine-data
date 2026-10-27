@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree k whose third smallest distinct prime factor is smaller than the square of the least prime factor.",
+  "id": "A397821",
+  "mentions": [
+    "A002110",
+    "A005408",
+    "A070826",
+    "A350352",
+    "A392008"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,17 +1,16 @@
 {
-  "description": "Three-part semi-chaotic binary digit sum/product sequence modeled on a Rudin-Shapiro-type sequence like A014081.",
+  "description": "a(n) = Sum_{k=1..floor(n*log(2))} (1 + (n - floor(n/2^k)) * (n - 1 - floor(n/2^(k - 1))) mod 2).",
   "id": "A136546",
   "mentions": [
     "A014081"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 69,
+    "source": "joeis"
   }
 }

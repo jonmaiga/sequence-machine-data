@@ -1,0 +1,18 @@
+{
+  "description": "Number of square (0,1)-matrices with n ones, no zero rows or columns, and the same multiset of row sums as of column sums.",
+  "id": "A399186",
+  "mentions": [
+    "A321733",
+    "A321735",
+    "A321739"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

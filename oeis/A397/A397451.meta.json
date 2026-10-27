@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sigma(k) * log(k) / k^4, where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A397451",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A073002",
+    "A074962",
+    "A183700",
+    "A243263",
+    "A398011"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = max_{1 <= k < n} (k + tau(k)) - n, where tau(k) is the number of positive divisors of k.",
+  "id": "A400986",
+  "mentions": [
+    "A000005",
+    "A062249",
+    "A087280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

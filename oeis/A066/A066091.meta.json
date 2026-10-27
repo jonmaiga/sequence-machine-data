@@ -1,5 +1,5 @@
 {
-  "description": "a(n+2) = a(n+1)*a(n)*(a(n+1)+a(n)).",
+  "description": "a(n+2) = a(n+1)*a(n)*(a(n+1)+a(n)), with a(0)=1 and a(1)=2.",
   "id": "A066091",
   "mentions": [],
   "tags": [

@@ -1,15 +1,19 @@
 {
   "description": "Number of reduced contexts on n unlabeled objects.",
   "id": "A047684",
-  "mentions": [],
+  "mentions": [
+    "A006966",
+    "A235604"
+  ],
   "tags": [
     "hard",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

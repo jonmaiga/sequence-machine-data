@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct nonzero coefficients of (1+x+x^(-1)+y+y^(-1))^n.",
+  "id": "A399796",
+  "mentions": [
+    "A201805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

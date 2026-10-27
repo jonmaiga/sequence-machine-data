@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with longest induced path having k nodes.",
+  "id": "A399100",
+  "mentions": [
+    "A001349",
+    "A056309",
+    "A309524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

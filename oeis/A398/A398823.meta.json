@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the powerful parts (A057521) of both k and k+1 are cubes that are larger than 1.",
+  "id": "A398823",
+  "mentions": [
+    "A002117",
+    "A057521",
+    "A065474",
+    "A398822"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers k",
+  "description": "Number of integers k<n with k-1 and k+1 both prime, and k and k*n both practical.",
   "id": "A210452",
   "mentions": [
     "A005153",

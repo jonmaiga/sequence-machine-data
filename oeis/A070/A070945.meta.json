@@ -2,7 +2,9 @@
   "description": "Number of permutations on n letters that have only cycles of length 4 or less.",
   "id": "A070945",
   "mentions": [
+    "A000085",
     "A057693",
+    "A070946",
     "A070947"
   ],
   "tags": [

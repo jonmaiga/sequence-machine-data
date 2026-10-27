@@ -1,0 +1,19 @@
+{
+  "description": "Table listed by rows: row n consists of the numbers x such that A075254(x) = A050778(n).",
+  "id": "A400780",
+  "mentions": [
+    "A050703",
+    "A050778",
+    "A075254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

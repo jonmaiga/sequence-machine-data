@@ -1,5 +1,5 @@
 {
-  "description": "The nonzero terms of the cogrowth sequence of (Z/5Z)^*2 = * with respect to the generating set {(x,1), (1,y)}.",
+  "description": "The nonzero terms of the cogrowth sequence of (Z/5Z)^*2 = <x|x^5=1> * <y|y^5=1> with respect to the generating set {(x,1), (1,y)}.",
   "id": "A304979",
   "mentions": [
     "A002294",

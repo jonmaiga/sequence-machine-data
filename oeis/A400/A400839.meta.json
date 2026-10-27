@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that prime(1+k) divides 1+2*prime(k)#/prime(i)# for some i in range 1..k, where prime(n)# = A002110(n) is the n-th primorial number.",
+  "id": "A400839",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A373487",
+    "A400838",
+    "A400842",
+    "A401050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

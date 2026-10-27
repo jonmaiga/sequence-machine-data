@@ -1,9 +1,10 @@
 {
-  "description": "Number of steps to go from n to 1 in a variant of the Collatz iteration x -> (x / 5 if 5 divides x, x + (x+(5-(x mod 5)))/5 otherwise), or -1 if 1 is never reached.",
+  "description": "Number of steps to go from n to 1 in a variant of the Collatz iteration \"f(x) := x/5 if 5 divides x, x+ceiling(x/5) otherwise\", or -1 if 1 is never reached.",
   "id": "A370350",
   "mentions": [
     "A006666",
-    "A368136"
+    "A368136",
+    "A398755"
   ],
   "tags": [
     "easy",

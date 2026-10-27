@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n + 1)*(n!)^2.",
+  "id": "A399384",
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A005408",
+    "A007680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

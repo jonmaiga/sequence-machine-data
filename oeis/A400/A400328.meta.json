@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the log-sine integral S_3.",
+  "id": "A400328",
+  "mentions": [
+    "A399646"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

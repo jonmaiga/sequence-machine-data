@@ -2,8 +2,10 @@
   "description": "Number of partitions of n with even crank minus number of partitions of n with odd crank.",
   "id": "A124226",
   "mentions": [
+    "A000700",
     "A124227",
     "A124228",
+    "A132969",
     "A132970"
   ],
   "tags": [

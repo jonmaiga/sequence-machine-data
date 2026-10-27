@@ -1,5 +1,5 @@
 {
-  "description": "The common value of sigma_2 for square-amicable numbers, sigma_2(m)=sigma_2(n), m",
+  "description": "The common value of sigma_2 for square-amicable numbers, sigma_2(m)=sigma_2(n), m<n.",
   "id": "A110929",
   "mentions": [
     "A001157",

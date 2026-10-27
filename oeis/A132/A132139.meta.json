@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = f(n,1) with f(m,x) = if m",
+  "description": "a(n) = f(n,1) with f(m,x) = if m<3 then (if m=1 then x else 0) else (if m mod 3 = 0 then 0 else f([m/3], x*(1 + m mod 3) + 1)).",
   "id": "A132139",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Least k(k+1)/2 such that n divides k(k+1)/2-j(j+1)/2 for some j",
+  "description": "Least k(k+1)/2 such that n divides k(k+1)/2-j(j+1)/2 for some j<k.",
   "id": "A205004",
   "mentions": [
     "A204892",

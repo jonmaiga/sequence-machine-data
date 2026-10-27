@@ -1,0 +1,20 @@
+{
+  "description": "Symmetric array read by ascending antidiagonals: A(n,m) = numerator(B(n,m)), where B is defined as B(n,1)=1, B(1,m)=1 and B(n,m) = 1 + (1/(n*m))*Sum_{j=1..n-1} Sum_{k=1..m-1} B(j,k), with m > 0.",
+  "id": "A400944",
+  "mentions": [
+    "A000012",
+    "A165367",
+    "A400945"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

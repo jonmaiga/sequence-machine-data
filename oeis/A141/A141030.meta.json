@@ -1,15 +1,14 @@
 {
-  "description": "a(n)=If[Prime[n + 1]^2 - Prime[n]*Prime[n + 2] > 0, If[Mod[Prime[n]*Sqrt[5], 1] >= 0.5, 0, 1], If[Mod[Prime[n]*Sqrt[7], 1] >= 0.5, 2, 3]].",
+  "description": "a(n) is the class of prime(n) according to the rule given in comments.",
   "id": "A141030",
   "mentions": [],
   "tags": [
     "less",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

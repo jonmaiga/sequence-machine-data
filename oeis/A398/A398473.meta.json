@@ -1,0 +1,19 @@
+{
+  "description": "Maximum dropping time for numbers between 2^n and 2^(n+1)-1 under the Collatz map A014682.",
+  "id": "A398473",
+  "mentions": [
+    "A014682",
+    "A126241",
+    "A398447"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

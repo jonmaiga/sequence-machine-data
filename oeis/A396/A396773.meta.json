@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected directed 3-regular graphs on n nodes without directed 2-cycles.",
+  "id": "A396773",
+  "mentions": [
+    "A219894",
+    "A219895",
+    "A396810",
+    "A399193"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

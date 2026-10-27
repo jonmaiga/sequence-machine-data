@@ -1,5 +1,5 @@
 {
-  "description": "Number of uniquely solveable n X m nonograms (hanjie), read by antidiagonals.",
+  "description": "Number of uniquely solvable n X m nonograms (hanjie), read by antidiagonals.",
   "id": "A384764",
   "mentions": [
     "A000012",

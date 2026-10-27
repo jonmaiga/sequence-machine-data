@@ -1,5 +1,5 @@
 {
-  "description": "10-digit numbers d_1d_2...d_10 such that all the nine numbers d_1...d_i + d_(i+1)...d_10 (0",
+  "description": "10-digit numbers d_1d_2...d_10 such that all the nine numbers d_1...d_i + d_(i+1)...d_10 (0<i<10) are primes.",
   "id": "A129616",
   "mentions": [
     "A089392"

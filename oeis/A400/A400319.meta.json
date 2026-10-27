@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x)^4 * A(x^4 * (1 + x)), with A(0) = 1.",
+  "id": "A400319",
+  "mentions": [
+    "A369554",
+    "A400271",
+    "A400316",
+    "A400318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers k such that the string k is found at position k-3 in the decimal digits of Pi.",
   "id": "A153221",
   "mentions": [
+    "A000796",
     "A057679",
     "A057680",
     "A109513",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

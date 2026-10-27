@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both preceded and followed by runs of 7 consecutive exponentially odd numbers (A268335).",
+  "id": "A400733",
+  "mentions": [
+    "A007814",
+    "A017113",
+    "A068088",
+    "A268335",
+    "A325058"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

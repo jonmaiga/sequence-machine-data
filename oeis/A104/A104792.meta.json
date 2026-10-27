@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = A000330(n-k), n>=1, 0<=k",
+  "description": "Triangle T(n,k) = A000330(n-k), n>=1, 0<=k<n, read by rows.",
   "id": "A104792",
   "mentions": [
     "A000330",

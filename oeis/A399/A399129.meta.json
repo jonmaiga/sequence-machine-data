@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the forms 10*k+1 and 10*k+9 for which the number of primes of the forms 10*k+1 and 10*k+9 are equal.",
+  "id": "A399129",
+  "mentions": [
+    "A000040",
+    "A030430",
+    "A030433"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

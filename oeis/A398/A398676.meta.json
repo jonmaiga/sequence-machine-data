@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(3*k+2) > sigma(3*k), where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A398676",
+  "mentions": [
+    "A000203",
+    "A082957",
+    "A144613",
+    "A144615",
+    "A325423",
+    "A398677"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

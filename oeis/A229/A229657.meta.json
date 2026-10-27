@@ -1,5 +1,5 @@
 {
-  "description": "7-section a(7n+k) gives k-th differences of a for k=0..6 with a(n)=0 for n",
+  "description": "7-section a(7n+k) gives k-th differences of a for k=0..6 with a(n)=0 for n<6 and a(6)=1.",
   "id": "A229657",
   "mentions": [
     "A005590",

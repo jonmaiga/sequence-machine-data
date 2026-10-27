@@ -1,5 +1,5 @@
 {
-  "description": "A004736(signed) * A007318.",
+  "description": "Matrix product of (-1)^(n-k) * A004736(n+1,k+1) with A007318 (Pascal's triangle).",
   "id": "A128256",
   "mentions": [
     "A004736",
@@ -12,8 +12,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 55,
+    "offset": 0,
+    "size": 78,
     "source": "joeis"
   }
 }

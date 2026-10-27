@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of (3/4)*sqrt(2).",
   "id": "A093577",
-  "mentions": [],
+  "mentions": [
+    "A002193"
+  ],
   "tags": [
     "cons",
     "formulas",

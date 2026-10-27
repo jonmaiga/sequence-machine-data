@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m in A396684 such that there does not exist k such that the multiplicative group of squares modulo k is cyclic of order m.",
+  "id": "A400857",
+  "mentions": [
+    "A002174",
+    "A396684",
+    "A400852",
+    "A400856"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

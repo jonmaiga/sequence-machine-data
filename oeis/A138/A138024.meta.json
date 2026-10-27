@@ -1,16 +1,16 @@
 {
-  "description": "A triangular sequence of coefficients of an expansion of a Mach wave as a traveling wave in a medium: (vt')^2 = vp*vg = c^2 - (gamma-1)/(gamma+1)*vt^2; Substituting: vt -> exp(t*x); gamma->t; c->1; p(x,t) = 1 - exp(2*x*t)*(t - 1)/(1 + t).",
+  "description": "Triangle read by rows: T(n,k) = (n!/2) * [t^n*x^k] (1 - exp(2*x*t)*(t - 1)/(1 + t)), 0 <= k <= n.",
   "id": "A138024",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

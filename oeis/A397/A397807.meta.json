@@ -1,0 +1,16 @@
+{
+  "description": "Number of iterations of Gaston's algorithm required for every list of n distinct real numbers in [0, 1) to be either sorted or to never become sorted.",
+  "id": "A397807",
+  "mentions": [
+    "A397806"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

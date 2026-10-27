@@ -1,5 +1,5 @@
 {
-  "description": "Write n in base 10 as d1d2d3.....dk; for a list of primes P = (p1,p2,p3,....pk) with p1B(p,n) if it exists, otherwise 0.",
+  "description": "Write n in base 10 as d1d2d3.....dk; for a list of primes P = (p1,p2,p3,....pk) with p1<p2<p3<.....<pk, let A(P,n)=(p1^d1)*(p2^d2)*(p3^d3)*.....(pk^dk) and B(P,n)= concatenation of primes and powers = p1&d1&p2&d2&p3&d3&.......&pk&dk. Then a(n) is the smallest number A(P,n) such that A(P,n)>B(p,n) if it exists, otherwise 0.",
   "id": "A134328",
   "mentions": [],
   "tags": [

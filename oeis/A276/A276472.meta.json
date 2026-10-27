@@ -1,5 +1,5 @@
 {
-  "description": "Modified Pascal's triangle read by rows: T(n,k) = T(n-1,k) + T(n-1,k-1), 12. T(n,n) = T(n,n-1) + T(n-1,n-1), n>1. T(1,1) = 1, T(2,1) = 1. n>=1.",
+  "description": "Modified Pascal's triangle read by rows: T(n,k) = T(n-1,k) + T(n-1,k-1), 1<k<n. T(n,1) = T(n-1,1) + T(n,2), n>2. T(n,n) = T(n,n-1) + T(n-1,n-1), n>1. T(1,1) = 1, T(2,1) = 1. n>=1.",
   "id": "A276472",
   "mentions": [
     "A000045",

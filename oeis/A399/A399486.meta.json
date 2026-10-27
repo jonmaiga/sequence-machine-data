@@ -1,0 +1,22 @@
+{
+  "description": "Number of strict triangular plane partitions of n.",
+  "id": "A399486",
+  "mentions": [
+    "A000217",
+    "A000219",
+    "A005118",
+    "A323431",
+    "A323529"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

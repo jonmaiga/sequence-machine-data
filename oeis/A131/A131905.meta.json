@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that sigma_2(k)=sigma_2(x) for some 0",
+  "description": "Integers x such that sigma_2(k)=sigma_2(x) for some 0<k<x, where A001157=sigma_2 is the sum of squares of divisors.",
   "id": "A131905",
   "mentions": [
     "A001157",

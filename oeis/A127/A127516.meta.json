@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator of sum{k=1 to n} 1/A127515(k).",
+  "description": "a(n) = numerator of Sum_{k=1..n} 1/A127515(k).",
   "id": "A127516",
   "mentions": [
     "A127515",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

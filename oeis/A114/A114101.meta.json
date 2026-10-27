@@ -1,5 +1,5 @@
 {
-  "description": "Begin with prime(1), then prime(2). After prime(j) write all the primes of the form prime(i) concatenated with prime(j) with i",
+  "description": "Begin with prime(1), then prime(2). After prime(j) write all the primes of the form prime(i) concatenated with prime(j) with i<j; then prime(j+1).",
   "id": "A114101",
   "mentions": [
     "A114007"

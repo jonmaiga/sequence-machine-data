@@ -1,7 +1,10 @@
 {
-  "description": "Triangle of coefficients in expansion of (6+7x)^n.",
+  "description": "Triangle of coefficients in expansion of (6+7*x)^n.",
   "id": "A013627",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A000420"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "joeis"
   }
 }

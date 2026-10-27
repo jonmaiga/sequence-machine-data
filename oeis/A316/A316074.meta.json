@@ -1,5 +1,5 @@
 {
-  "description": "Sequence a_k of column k shifts left k places under Weigh transform and equals signum(n) for n=1, 1<=k<=n, read by rows.",
+  "description": "Sequence a_k of column k shifts left k places under Weigh transform and equals signum(n) for n<k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
   "id": "A316074",
   "mentions": [
     "A000009",

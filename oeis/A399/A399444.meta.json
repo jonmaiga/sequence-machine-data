@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of complete non-ambiguous trees with n+1 leaves and maximum weight 0, refined by the degree k of the minimal vertex of the associated fully tiered tree.",
+  "id": "A399444",
+  "mentions": [
+    "A000142",
+    "A055303",
+    "A180119",
+    "A398579",
+    "A399443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

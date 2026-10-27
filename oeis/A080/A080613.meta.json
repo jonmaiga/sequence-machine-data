@@ -1,5 +1,5 @@
 {
-  "description": "Minimal sequence such that Omega(a(m))<=Omega(a(n)) for m",
+  "description": "Minimal sequence such that Omega(a(m))<=Omega(a(n)) for m<n, where Omega=A001222 (sum of exponents in prime factorization).",
   "id": "A080613",
   "mentions": [
     "A000523",

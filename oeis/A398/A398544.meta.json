@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^q + q^p divisible by 3, where p and q are primes.",
+  "id": "A398544",
+  "mentions": [
+    "A008585",
+    "A056824",
+    "A097058",
+    "A173056"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

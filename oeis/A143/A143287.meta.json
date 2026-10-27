@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary words of length n containing at least one subword 10^{7}1 and no subwords 10^{i}1 with i",
+  "description": "Number of binary words of length n containing at least one subword 10^{7}1 and no subwords 10^{i}1 with i<7.",
   "id": "A143287",
   "mentions": [
     "A005710",

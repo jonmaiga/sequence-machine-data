@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of one or more consecutive positive odd squares in exactly n ways.",
+  "id": "A400222",
+  "mentions": [
+    "A016754",
+    "A068314",
+    "A234311",
+    "A298467"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

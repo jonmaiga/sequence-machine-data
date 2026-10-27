@@ -1,0 +1,15 @@
+{
+  "description": "Number of transmission irregular trees with n unlabeled vertices.",
+  "id": "A399322",
+  "mentions": [
+    "A000055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

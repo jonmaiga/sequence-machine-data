@@ -1,14 +1,18 @@
 {
   "description": "The Isis problem: Array a(i,j) (by antidiagonals) of differences between area and perimeter of rectangle with sides (i,j).",
   "id": "A201006",
-  "mentions": [],
+  "mentions": [
+    "A003057",
+    "A003991"
+  ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

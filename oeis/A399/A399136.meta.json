@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number of cells in a polycube that has a cavity consisting of exactly n cells.",
+  "id": "A399136",
+  "mentions": [
+    "A001931",
+    "A283056",
+    "A355966",
+    "A357083",
+    "A396101"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

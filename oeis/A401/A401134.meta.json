@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct equality patterns among compositions of n.",
+  "id": "A401134",
+  "mentions": [
+    "A088314",
+    "A088887"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

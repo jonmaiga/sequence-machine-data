@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{1 0} n/k.",
+  "description": "Numerator of Sum_{1<k<n, n mod k > 0} n/k.",
   "id": "A079076",
   "mentions": [
     "A024816",

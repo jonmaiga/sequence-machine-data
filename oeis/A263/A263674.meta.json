@@ -1,5 +1,5 @@
 {
-  "description": "Double interprimes: a(n) = (q+r)/2 = (p+s)/2 with p",
+  "description": "Double interprimes: a(n) = (q+r)/2 = (p+s)/2 with p<q<r<s consecutive primes.",
   "id": "A263674",
   "mentions": [
     "A022885",

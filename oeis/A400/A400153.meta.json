@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=a(1)=1, after which a(n) = p^{the most significant digit of n' in primorial base, A049345}, where p is the corresponding radix prime of the most significant digit, and n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A400153",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A053585",
+    "A327859",
+    "A400152",
+    "A400154"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

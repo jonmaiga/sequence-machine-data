@@ -1,5 +1,5 @@
 {
-  "description": "Smallest short legs 'A' of exactly n primitive Pythagorean triangles.",
+  "description": "Smallest short legs 'A' of exactly n primitive Pythagorean triangles or 0 if no such number exists.",
   "id": "A132404",
   "mentions": [
     "A024359"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

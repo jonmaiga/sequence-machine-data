@@ -15,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

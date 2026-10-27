@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n-1 and n-2 have the same prime signature.",
+  "description": "Numbers k such that k, k-1 and k-2 have the same prime signature.",
   "id": "A086337",
   "mentions": [
     "A083793"

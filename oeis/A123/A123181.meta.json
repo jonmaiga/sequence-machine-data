@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that (-1)Sigma(m)*UnitarySigma(m)= k*UnitaryPhi(m)*m for some integer k.",
+  "description": "Numbers m such that (-1)Sigma(m)*UnitarySigma(m) = k*UnitaryPhi(m)*m for some integer k.",
   "id": "A123181",
   "mentions": [
     "A034448",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

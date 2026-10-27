@@ -1,9 +1,13 @@
 {
-  "description": "Numbers n such that sigma(n) = reversal(n).",
+  "description": "Numbers k such that sigma(k) = reversal(k).",
   "id": "A069216",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A004086"
+  ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

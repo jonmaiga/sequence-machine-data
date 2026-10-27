@@ -1,0 +1,24 @@
+{
+  "description": "The total sum of infinitary divisors of the infinitary divisors of n.",
+  "id": "A400874",
+  "mentions": [
+    "A007429",
+    "A037445",
+    "A049417",
+    "A077609",
+    "A107759",
+    "A375230",
+    "A400873"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

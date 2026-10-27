@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximum number of unordered representations of an integer as a sum of two positive divisors of n.",
+  "id": "A398577",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A250068",
+    "A398433",
+    "A398434",
+    "A398435"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

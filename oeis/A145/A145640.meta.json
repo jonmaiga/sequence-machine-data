@@ -1,5 +1,5 @@
 {
-  "description": "Denominator the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=16.",
+  "description": "Denominator of the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=16.",
   "id": "A145640",
   "mentions": [
     "A145609",

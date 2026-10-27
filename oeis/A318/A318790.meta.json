@@ -1,5 +1,5 @@
 {
-  "description": "One-half of the number of permutations sigma of {1,2,...,n^2 + 1} such that |sigma(i+j)-sigma(i)| >= n for 1 <= i <= n^2 + 1 - j, 1 <= j <= n - 1.",
+  "description": "One-half of the number of permutations sigma of [n^2 + 1] such that |sigma(i+j)-sigma(i)| >= n for 1 <= i <= n^2 + 1 - j, 1 <= j <= n - 1.",
   "id": "A318790",
   "mentions": [
     "A002464",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

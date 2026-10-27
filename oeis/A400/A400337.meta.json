@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/G(-x), where G(x) is g.f. for A225543.",
+  "id": "A400337",
+  "mentions": [
+    "A002290",
+    "A225543",
+    "A399317",
+    "A400338",
+    "A400339",
+    "A400360"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + floor(Sum_{k",
+  "description": "a(n) = n + floor(Sum_{k<n} a(k)/2) with a(0)=0.",
   "id": "A079719",
   "mentions": [
     "A005428",

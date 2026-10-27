@@ -1,0 +1,21 @@
+{
+  "description": "Number of equivalence classes of n X n binary matrices with all row sums and column sums equal to 4, under row permutations, column permutations, and transposition.",
+  "id": "A396732",
+  "mentions": [
+    "A000513",
+    "A000843",
+    "A004066",
+    "A333730",
+    "A333732",
+    "A396753"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

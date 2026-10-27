@@ -1,5 +1,5 @@
 {
-  "description": "Consider sets of 3 consecutive primes a",
+  "description": "Consider sets of 3 consecutive primes a<b<c such that c - a = 200. The sequence gives the values of b.",
   "id": "A217655",
   "mentions": [
     "A166251",

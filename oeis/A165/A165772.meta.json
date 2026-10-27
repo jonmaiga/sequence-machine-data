@@ -1,5 +1,5 @@
 {
-  "description": "Numbers d*p where d is a perfect number and p",
+  "description": "Numbers d*p where d is a perfect number and p<d a prime not dividing d.",
   "id": "A165772",
   "mentions": [
     "A000396",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of n-th powers of unitary divisors of n is congruent to -1 modulo n.",
+  "description": "Numbers k such that the sum of k-th powers of unitary divisors of k is congruent to -1 modulo k.",
   "id": "A238983",
   "mentions": [
     "A034448",

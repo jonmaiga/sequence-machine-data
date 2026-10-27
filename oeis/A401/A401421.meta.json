@@ -1,0 +1,26 @@
+{
+  "description": "The sum of coreful divisors of n (A284318) that are cubefree (A004709).",
+  "id": "A401421",
+  "mentions": [
+    "A001694",
+    "A004709",
+    "A005117",
+    "A007948",
+    "A013929",
+    "A057723",
+    "A276378",
+    "A284318",
+    "A323308"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

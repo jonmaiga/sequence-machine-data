@@ -1,0 +1,15 @@
+{
+  "description": "Antidiagonal sums of the binomial matrix of the Catalan numbers (A399000).",
+  "id": "A398915",
+  "mentions": [
+    "A399000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

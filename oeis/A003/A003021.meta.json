@@ -2,11 +2,12 @@
   "description": "Largest prime factor of 10^n + 1.",
   "id": "A003021",
   "mentions": [
+    "A001271",
     "A006530",
+    "A038371",
     "A062397"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],

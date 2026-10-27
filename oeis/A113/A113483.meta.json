@@ -1,13 +1,16 @@
 {
-  "description": "a(n)=Prime(a(n-2)+Pi(a(n-1))), where Prime(n) means n-th prime and Pi(n) means number of primes<=n.",
+  "description": "a(n) = prime(a(n-2)+pi(a(n-1))) with a(1) = 2 and a(2) = 3, where prime(n) is the n-th prime and pi(n) is the number of primes <= n.",
   "id": "A113483",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000720"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

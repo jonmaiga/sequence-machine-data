@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n - A004185(n)) / 9.",
+  "id": "A398334",
+  "mentions": [
+    "A004185",
+    "A037860",
+    "A037878",
+    "A283001"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

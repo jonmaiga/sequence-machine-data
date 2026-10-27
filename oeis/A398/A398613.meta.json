@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the midradius of a canonical (dual-uniform) 9-gonal trapezohedron with unit short edge length.",
+  "id": "A398613",
+  "mentions": [
+    "A332437",
+    "A395166",
+    "A398610",
+    "A398611",
+    "A398612",
+    "A398614",
+    "A398615",
+    "A398616",
+    "A398617",
+    "A398618"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

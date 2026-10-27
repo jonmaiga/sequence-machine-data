@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, 0 <= k <= A399194(n)) = number of earlier buildings in A400000 that can be seen by an observer at the top of a hypothetical building of height k in the n-th position.",
+  "id": "A400111",
+  "mentions": [
+    "A399194",
+    "A400000"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

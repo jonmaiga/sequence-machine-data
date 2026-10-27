@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k<n and s(k)=A000045(k+1) (Fibonacci numbers).",
   "id": "A206713",
   "mentions": [
     "A000045"

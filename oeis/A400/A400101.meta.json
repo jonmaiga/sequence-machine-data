@@ -1,0 +1,15 @@
+{
+  "description": "Among A377091(0), ..., A377091(n-1), there are a(n) terms at square distance from A377091(n).",
+  "id": "A400101",
+  "mentions": [
+    "A377091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 42*10^(k+2) + 43.",
+  "id": "A399161",
+  "mentions": [
+    "A399810"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real solution to x^5 - 5*x^4 - 10*x^3 - 10*x^2 - 5*x - 1 = 0.",
+  "id": "A400963",
+  "mentions": [
+    "A005531",
+    "A005533",
+    "A007318",
+    "A011093",
+    "A011101"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

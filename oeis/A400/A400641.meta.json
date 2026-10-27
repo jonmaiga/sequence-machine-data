@@ -1,0 +1,20 @@
+{
+  "description": "Number of equivalence classes of self-dual monotone Boolean functions of n variables under cyclic rotations of the variables.",
+  "id": "A400641",
+  "mentions": [
+    "A001206",
+    "A008840",
+    "A400640"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

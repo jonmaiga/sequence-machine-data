@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows, where row n gives the lengths of consecutive same species move blocks in the solution of the Frogs and Toads interchange puzzle with n frogs and n toads.",
+  "id": "A400324",
+  "mentions": [
+    "A005563"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

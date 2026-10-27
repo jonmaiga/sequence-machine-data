@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w<x+y and x<y.",
   "id": "A212980",
   "mentions": [
     "A002620",

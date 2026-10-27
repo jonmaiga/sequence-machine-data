@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{0",
+  "description": "Sum_{0<j<k<=n} (k^4-j^4).",
   "id": "A206811",
   "mentions": [
     "A206810",

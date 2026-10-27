@@ -2,11 +2,11 @@
   "description": "The rows of A397173 converge to this sequence.",
   "id": "A397174",
   "mentions": [
-    "A394611",
     "A397173",
     "A397175",
     "A397176",
-    "A397471"
+    "A397471",
+    "A399995"
   ],
   "tags": [
     "formulas",

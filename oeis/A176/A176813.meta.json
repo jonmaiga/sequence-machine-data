@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*A077800(2n-1)",
+  "description": "Numbers n such that 3*A077800(2n-1)<p and p+2<3*A077800(2n) where A077800 is list of twin primes {p,p+2}.",
   "id": "A176813",
   "mentions": [
     "A001359",

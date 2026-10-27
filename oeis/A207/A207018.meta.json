@@ -2,16 +2,17 @@
   "description": "Number of permutations in S_n with major index equal to inversion number.",
   "id": "A207018",
   "mentions": [
+    "A001809",
+    "A008302",
     "A195924"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

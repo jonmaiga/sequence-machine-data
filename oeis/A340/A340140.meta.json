@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = -1, for n > 1, a(n) = Sum_{d|n, d",
+  "description": "a(1) = -1, for n > 1, a(n) = Sum_{d|n, d<n} A340197(n/d) * a(d).",
   "id": "A340140",
   "mentions": [
     "A023900",

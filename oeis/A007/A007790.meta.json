@@ -1,18 +1,20 @@
 {
-  "description": "From a problem concerning circulant matrices and Gauss sums.",
+  "description": "a(n) = (1/n)*Sum_{x in (Z/nZ)^4} e^(2*Pi*i*det(circ(x))/n), the normalized Gauss sum of the 4 X 4 circulant determinant.",
   "id": "A007790",
   "mentions": [
     "A007789",
     "A007791",
-    "A007792"
+    "A007792",
+    "A399450"
   ],
   "tags": [
-    "more",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
   }
 }

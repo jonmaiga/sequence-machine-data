@@ -1,0 +1,36 @@
+{
+  "description": "The sum of the unitary divisors d of n such that n/d is odd.",
+  "id": "A399738",
+  "mentions": [
+    "A000035",
+    "A002117",
+    "A002131",
+    "A013661",
+    "A034448",
+    "A068068",
+    "A192066",
+    "A246601",
+    "A306633",
+    "A360156",
+    "A363289",
+    "A399732",
+    "A399733",
+    "A399734",
+    "A399735",
+    "A399736",
+    "A399737",
+    "A399739",
+    "A399740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

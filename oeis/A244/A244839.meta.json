@@ -1,8 +1,13 @@
 {
-  "description": "Decimal expansion of the Euler double sum sum_(m>0)(sum_(n>0)((-1)^(m+n-1)/((2m-1)(m+n-1)^3))).",
+  "description": "Decimal expansion of the Euler double sum Sum_{m>0}(Sum_{n>0}((-1)^(m+n-1)/((2*m-1)*(m+n-1)^3))) (negated).",
   "id": "A244839",
   "mentions": [
-    "A099218"
+    "A002117",
+    "A002162",
+    "A013661",
+    "A099218",
+    "A350669",
+    "A350670"
   ],
   "tags": [
     "cons",

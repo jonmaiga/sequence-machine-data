@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d_1|n, d_2|n} gcud(d_1, d_2), where gcud is the greatest common unitary divisor.",
+  "id": "A400397",
+  "mentions": [
+    "A060724",
+    "A077610",
+    "A165430",
+    "A400391"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Maximum cycle size in range [A014137(n-1)..A014138(n-1)] of permutations A074681/A074682 & A074683/A074684.",
+  "description": "Maximum cycle size in range [A014137(n-1)..A014138(n-1)] of permutations A074681/A074682 and A074683/A074684.",
   "id": "A086586",
   "mentions": [
     "A014137",

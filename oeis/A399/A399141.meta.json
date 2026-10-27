@@ -1,0 +1,15 @@
+{
+  "description": "Smallest prime factor of F(n) = 10^(10^n)+1.",
+  "id": "A399141",
+  "mentions": [
+    "A093179"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

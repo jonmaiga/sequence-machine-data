@@ -1,9 +1,7 @@
 {
   "description": "\"Densities\" of the four-dimensional starry polytopes.",
   "id": "A048789",
-  "mentions": [
-    "A008284"
-  ],
+  "mentions": [],
   "tags": [
     "fini",
     "full",

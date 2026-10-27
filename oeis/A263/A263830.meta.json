@@ -2,10 +2,13 @@
   "description": "The number c_{Z^3,pi_1(B_2)}(2n) of 3-torus 2n-coverings over the second amphicosm.",
   "id": "A263830",
   "mentions": [
+    "A001001",
+    "A007429",
     "A263825",
     "A263832"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

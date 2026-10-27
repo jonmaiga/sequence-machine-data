@@ -2,10 +2,12 @@
   "description": "a(n) = n-th nonnegative integer k satisfying sin(k) < sin(k+1).",
   "id": "A026309",
   "mentions": [
+    "A026311",
     "A246293",
     "A246297",
     "A246298",
-    "A246299"
+    "A246299",
+    "A398936"
   ],
   "tags": [
     "easy",

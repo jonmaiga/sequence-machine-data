@@ -1,5 +1,5 @@
 {
-  "description": "n-th primorial (A002110) + prime(n + 1).",
+  "description": "a(n) = primorial(n) + prime(n + 1), where primorial(n) = A002110(n).",
   "id": "A060881",
   "mentions": [
     "A000040",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

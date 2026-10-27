@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/((4*k)!)^3.",
+  "id": "A400118",
+  "mentions": [
+    "A000442",
+    "A271574",
+    "A400116",
+    "A400117",
+    "A400119",
+    "A400120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

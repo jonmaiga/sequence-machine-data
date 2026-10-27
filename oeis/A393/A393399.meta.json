@@ -1,5 +1,5 @@
 {
-  "description": "The number of quintuplets where a!b!c!d!n! is a perfect square, with 0",
+  "description": "The number of quintuplets where a!b!c!d!n! is a perfect square, with 0<a<b<c<d<n.",
   "id": "A393399",
   "mentions": [
     "A000142",

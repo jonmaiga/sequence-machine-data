@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest size of a pairwise coprime subset of {1, ..., n} to which no further element can be added.",
+  "id": "A399347",
+  "mentions": [
+    "A000720",
+    "A036234",
+    "A084422",
+    "A319187",
+    "A339115",
+    "A343659"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

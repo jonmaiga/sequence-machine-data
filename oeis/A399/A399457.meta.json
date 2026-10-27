@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter a(n) is the least unused squarefree positive integer that has a common factor with a(n-1), is coprime to a(n-2), and has a prime factor not dividing a(n-1).",
+  "id": "A399457",
+  "mentions": [
+    "A336957",
+    "A338833"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

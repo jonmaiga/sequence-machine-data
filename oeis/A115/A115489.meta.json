@@ -2,6 +2,7 @@
   "description": "Number of monic irreducible polynomials of degree 3 in GF(2^n)[x].",
   "id": "A115489",
   "mentions": [
+    "A016131",
     "A115457",
     "A115505"
   ],

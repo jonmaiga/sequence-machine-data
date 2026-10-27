@@ -1,5 +1,5 @@
 {
-  "description": "Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb where a",
+  "description": "Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb where a<b<c.",
   "id": "A212580",
   "mentions": [
     "A174072",

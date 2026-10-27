@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least m >= 1 such that n*m^2 - 1 and n*m^2 + 1 are both prime, or 0 if there is no such m.",
+  "id": "A400606",
+  "mentions": [
+    "A001359",
+    "A014574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

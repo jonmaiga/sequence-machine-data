@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(-log_10(kappa(n))), where kappa(n) is the infimum of Q(f)/||f||^2 over nonzero smooth f(u) supported in (-log(n)/2, log(n)/2), Q being the Weil quadratic form of the Riemann zeta function; a(n) = 0 if kappa(n) <= 0.",
+  "id": "A401172",
+  "mentions": [
+    "A016873"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

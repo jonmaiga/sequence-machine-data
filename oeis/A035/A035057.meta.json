@@ -2,7 +2,8 @@
   "description": "Numbers k such that 2^k does not contain the digit 1 (probably finite).",
   "id": "A035057",
   "mentions": [
-    "A035064"
+    "A035064",
+    "A065712"
   ],
   "tags": [
     "base",

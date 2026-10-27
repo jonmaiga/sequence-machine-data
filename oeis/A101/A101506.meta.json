@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that log(n!) is closer to an integer than is log(m!) for any m with 2",
+  "description": "Numbers n such that log(n!) is closer to an integer than is log(m!) for any m with 2<m<n.",
   "id": "A101506",
   "mentions": [
     "A046654",

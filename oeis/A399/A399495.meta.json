@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - log(1 - x) * (exp(-x) - 1)).",
+  "id": "A399495",
+  "mentions": [
+    "A002741",
+    "A353994",
+    "A401330"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

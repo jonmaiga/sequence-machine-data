@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the height of a canonical (dual-uniform) 10-gonal trapezohedron with unit short edge length.",
+  "id": "A398942",
+  "mentions": [
+    "A019979",
+    "A134972",
+    "A398938",
+    "A398939",
+    "A398940",
+    "A398941",
+    "A398943",
+    "A398944",
+    "A398945",
+    "A398946"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

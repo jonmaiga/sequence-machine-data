@@ -1,5 +1,5 @@
 {
-  "description": "Primes in a millennium reach a record minimum: numbers n such that A038823(n) is lower than all A038823(k) with k",
+  "description": "Primes in a millennium reach a record minimum: numbers n such that A038823(n) is lower than all A038823(k) with k<n.",
   "id": "A157082",
   "mentions": [
     "A038823"

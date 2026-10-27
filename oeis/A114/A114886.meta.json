@@ -1,5 +1,5 @@
 {
-  "description": "Root numbers n after which the absolute value of (the extremum of XiFunction[1/2+I t[n]] between t[n] and t[n+1]) decreases.",
+  "description": "Indices n >= 1 for which M_n < M_(n-1), where M_n is the maximum of abs(xi(1/2 + i*t)) on [t_n,t_(n+1)].",
   "id": "A114886",
   "mentions": [],
   "tags": [

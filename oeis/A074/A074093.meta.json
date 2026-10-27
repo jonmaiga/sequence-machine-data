@@ -1,5 +1,5 @@
 {
-  "description": "Number of values of k such that n = k - largest divisor of k (",
+  "description": "Number of values of k such that n = k - largest divisor of k (<k).",
   "id": "A074093",
   "mentions": [
     "A060681",

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that k and k+2 are both Ulam numbers.",
+  "id": "A400867",
+  "mentions": [
+    "A002858"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

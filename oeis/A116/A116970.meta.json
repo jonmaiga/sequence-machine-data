@@ -3,7 +3,8 @@
   "id": "A116970",
   "mentions": [
     "A003462",
-    "A063679"
+    "A063679",
+    "A277105"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 25,
+    "size": 28,
     "source": "joeis"
   }
 }

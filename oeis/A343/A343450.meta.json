@@ -1,5 +1,5 @@
 {
-  "description": "Integers whose nonincreasing digits are at most one more than their position.",
+  "description": "Integers whose nonincreasing digits are nonzero and at most one more than their position.",
   "id": "A343450",
   "mentions": [
     "A000108",
@@ -8,7 +8,6 @@
   "tags": [
     "base",
     "easy",
-    "fini",
     "nonn"
   ],
   "terms": {

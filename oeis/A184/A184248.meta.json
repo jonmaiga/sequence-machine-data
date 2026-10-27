@@ -1,5 +1,5 @@
 {
-  "description": "Primes, q, such that for three consecutive primes, p, q & r, with p",
+  "description": "Primes, q, such that for three consecutive primes, p, q & r, with p<q<r, (r - q)/(q - p) is an integer.",
   "id": "A184248",
   "mentions": [
     "A006562",

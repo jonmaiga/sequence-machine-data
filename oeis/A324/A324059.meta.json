@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)/(phi(n) + tau(n)) is a record.",
+  "description": "Numbers m such that sigma(m)/(phi(m) + tau(m)) is a record.",
   "id": "A324059",
   "mentions": [
     "A000005",

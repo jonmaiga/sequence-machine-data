@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{d|n} Sum_{j|d} a(d) * a(n/d) * a(d/j).",
+  "id": "A400604",
+  "mentions": [
+    "A038044",
+    "A144817"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

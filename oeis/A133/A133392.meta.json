@@ -1,5 +1,5 @@
 {
-  "description": "Start with a(1)=1; for n >= 1, a(n+1)=a(n)+a(k) with k=[n-n-th digit of \"e\"]. If k",
+  "description": "Start with a(1)=1; for n >= 1, a(n+1)=a(n)+a(k) with k=[n-n-th digit of \"e\"]. If k<0 or k=0, then a(k)=0.",
   "id": "A133392",
   "mentions": [],
   "tags": [

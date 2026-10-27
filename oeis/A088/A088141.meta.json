@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the largest k such that, if k samples are taken from a group of n items, with replacement, a duplication is unlikely (p",
+  "description": "a(n) = the largest k such that, if k samples are taken from a group of n items, with replacement, a duplication is unlikely (p<1/2).",
   "id": "A088141",
   "mentions": [
     "A033810",

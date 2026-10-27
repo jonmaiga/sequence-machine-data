@@ -1,0 +1,27 @@
+{
+  "description": "The total sum of square divisors of the square divisors of n.",
+  "id": "A401085",
+  "mentions": [
+    "A002117",
+    "A007429",
+    "A010052",
+    "A035316",
+    "A046951",
+    "A078434",
+    "A107759",
+    "A388067",
+    "A400874",
+    "A401084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic connected Eulerian simple graphs on n vertices with trivial automorphism group.",
+  "id": "A399209",
+  "mentions": [
+    "A002854",
+    "A003049",
+    "A003400"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

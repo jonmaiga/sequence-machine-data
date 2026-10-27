@@ -1,0 +1,17 @@
+{
+  "description": "Parking Schröder numbers.",
+  "id": "A400516",
+  "mentions": [
+    "A000272",
+    "A006318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

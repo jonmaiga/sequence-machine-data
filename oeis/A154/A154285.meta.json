@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples satisfying p+L_s+L_t=n, where p is an odd prime, s and t are nonnegative and the Lucas number L_s or L_t is odd.",
+  "description": "Number of ordered triples <p,s,t> satisfying p+L_s+L_t=n, where p is an odd prime, s and t are nonnegative and the Lucas number L_s or L_t is odd.",
   "id": "A154285",
   "mentions": [
     "A000032",

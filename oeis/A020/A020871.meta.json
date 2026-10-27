@@ -2,6 +2,8 @@
   "description": "Number of spanning trees in a Moebius ladder M_n with 2n vertices.",
   "id": "A020871",
   "mentions": [
+    "A001075",
+    "A006235",
     "A121401"
   ],
   "tags": [

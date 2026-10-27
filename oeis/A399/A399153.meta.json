@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the numerator of the permanent of I + H where I is the n X n identity matrix and H is the n X n Hilbert matrix.",
+  "id": "A399153",
+  "mentions": [
+    "A295426",
+    "A295427",
+    "A399154"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

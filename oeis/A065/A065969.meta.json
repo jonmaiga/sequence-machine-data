@@ -2,16 +2,20 @@
   "description": "a(n) = n^2 * Sum_{primes p dividing n} (1 + 1/p^2).",
   "id": "A065969",
   "mentions": [
+    "A001221",
     "A065967",
     "A065968",
-    "A065970"
+    "A065970",
+    "A322078"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

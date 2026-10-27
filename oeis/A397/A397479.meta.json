@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the least m such that moving the rightmost digit of m to the left end multiplies m by k, where m is written in base n; n >= 2, 1 <= k <= n-1.",
+  "id": "A397479",
+  "mentions": [
+    "A087502",
+    "A092697",
+    "A097717",
+    "A160116",
+    "A249596",
+    "A249597",
+    "A249598",
+    "A249599"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

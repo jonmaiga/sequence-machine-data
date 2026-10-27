@@ -1,0 +1,20 @@
+{
+  "description": "n appears in the a(n)-th row of A382747.",
+  "id": "A399395",
+  "mentions": [
+    "A382747",
+    "A382748",
+    "A382749",
+    "A399396",
+    "A399397"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

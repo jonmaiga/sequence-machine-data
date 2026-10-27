@@ -2,6 +2,7 @@
   "description": "Prime corresponding to largest prime power factor of n, a(1)=1.",
   "id": "A088387",
   "mentions": [
+    "A014963",
     "A034699",
     "A088388",
     "A307641",

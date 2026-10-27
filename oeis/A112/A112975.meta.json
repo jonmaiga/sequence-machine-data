@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest permutation of the natural numbers such that each term has a common divisor with at least two earlier terms, a(n)=n for n",
+  "description": "Lexicographically earliest permutation of the natural numbers such that each term has a common divisor with at least two earlier terms, a(n)=n for n<4.",
   "id": "A112975",
   "mentions": [
     "A000040",

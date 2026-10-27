@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are the sum of 3 cubes of primes in at least 5 ways.",
+  "id": "A401035",
+  "mentions": [
+    "A385316"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=2, otherwise a(n) is the sum of the preceding terms a(j), 1<=j",
+  "description": "a(1)=1, a(2)=2, otherwise a(n) is the sum of the preceding terms a(j), 1<=j<n, where gcd(n,j)=1.",
   "id": "A082866",
   "mentions": [],
   "tags": [

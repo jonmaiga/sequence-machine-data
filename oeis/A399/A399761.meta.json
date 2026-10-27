@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps starting from the n-th positive integer not divisible by 3 until the first repeated value under the reduced residue-dependent 4k + {1,2} map, or -1 if no value ever repeats.",
+  "id": "A399761",
+  "mentions": [
+    "A001651",
+    "A007949",
+    "A399120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

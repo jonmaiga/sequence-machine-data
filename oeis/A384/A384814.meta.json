@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that there exists an integer 0",
+  "description": "Integers k such that there exists an integer 0<m<k such that (1/sigma(m) + 1/sigma(k))*(m+k) = 2.",
   "id": "A384814",
   "mentions": [
     "A000203",

@@ -1,0 +1,18 @@
+{
+  "description": "The number of integers k such that 2^n+2^k-1 is a prime, for 0 < k < n.",
+  "id": "A400475",
+  "mentions": [
+    "A000040",
+    "A188713",
+    "A239712",
+    "A346146"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

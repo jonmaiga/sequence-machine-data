@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the minimum integral perimeter of a polygon that has n intersections and has its vertices on the square lattice.",
+  "id": "A400960",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

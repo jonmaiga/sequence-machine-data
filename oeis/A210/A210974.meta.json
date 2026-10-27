@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the angle (in degrees) between an edge and (the normal of) a face of the regular tetrahedron.",
+  "description": "Decimal expansion of the angle (in degrees) between an edge and a face not containing that edge of the regular tetrahedron.",
   "id": "A210974",
   "mentions": [
     "A072097",

@@ -2,7 +2,13 @@
   "description": "Numbers k such that a type-5 Gaussian normal basis over GF(2^k) exists.",
   "id": "A137311",
   "mentions": [
-    "A136415"
+    "A054639",
+    "A071642",
+    "A101284",
+    "A136415",
+    "A137310",
+    "A137313",
+    "A137314"
   ],
   "tags": [
     "nonn"
@@ -10,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

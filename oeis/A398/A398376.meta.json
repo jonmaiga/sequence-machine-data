@@ -1,0 +1,16 @@
+{
+  "description": "Number of congruence classes of nonsingular n X n matrices over GF(2).",
+  "id": "A398376",
+  "mentions": [
+    "A002884"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

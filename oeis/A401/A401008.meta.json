@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of odd non-divisors of n in 1..n.",
+  "id": "A401008",
+  "mentions": [
+    "A001227",
+    "A049820",
+    "A065033",
+    "A401009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

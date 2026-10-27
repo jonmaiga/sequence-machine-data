@@ -1,11 +1,15 @@
 {
-  "description": "Squares satisfying sigma(n)==0 (mod 3).",
+  "description": "Squares m satisfying sigma(m) == 0 (mod 3).",
   "id": "A074216",
   "mentions": [
+    "A000203",
+    "A000290",
     "A002476",
+    "A013661",
     "A065764",
     "A067051",
-    "A072864"
+    "A072864",
+    "A087943"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(phi(n)) = phi(sigma(n)) where phi is Euler's totient and sigma is the multiplicative sum-of-divisors function.",
+  "description": "Numbers k such that phi(phi(k)) = phi(sigma(k)) where phi is Euler's totient and sigma is the multiplicative sum-of-divisors function.",
   "id": "A065555",
   "mentions": [
     "A000010",

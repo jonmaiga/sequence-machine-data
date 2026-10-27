@@ -5,11 +5,13 @@
     "A046072"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-bfile"
+    "size": 12,
+    "source": "oeis-entry"
   }
 }

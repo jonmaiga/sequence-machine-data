@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number k such that there are exactly n pairs (p,q) of primes with p",
+  "description": "a(n) is the least number k such that there are exactly n pairs (p,q) of primes with p<q such that p+q = 2*k and that 2*k+p, 2*k+q, p*q-2*k and p*q+2*k are primes.",
   "id": "A354462",
   "mentions": [
     "A045917",

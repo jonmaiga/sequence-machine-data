@@ -2,12 +2,15 @@
   "description": "Numbers k such that sigma(sigma(k))-phi(phi(k)) = 2k.",
   "id": "A138154",
   "mentions": [
+    "A000010",
+    "A000203",
     "A136131",
     "A136132",
     "A137600"
   ],
   "tags": [
     "bref",
+    "hard",
     "more",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of reduced infinitary amicable pairs (i,j) with i",
+  "description": "Number of reduced infinitary amicable pairs (i,j) with i<j and i<=10^n.",
   "id": "A124663",
   "mentions": [
     "A037445",

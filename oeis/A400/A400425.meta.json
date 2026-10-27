@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [n] whose distinct cycle lengths have equal multiplicities.",
+  "id": "A400425",
+  "mentions": [
+    "A047966",
+    "A400421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

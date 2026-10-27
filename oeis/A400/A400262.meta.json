@@ -1,0 +1,26 @@
+{
+  "description": "The length of primorial base (A049345) representation of the arithmetic derivative of n; a(0) = a(1) = 0 by convention.",
+  "id": "A400262",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A055396",
+    "A061395",
+    "A235224",
+    "A327859",
+    "A400153",
+    "A400260",
+    "A400261"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

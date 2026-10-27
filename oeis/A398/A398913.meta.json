@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: the number of functions f: [n] -> [n] where the longest initial run of strictly increasing values has length k.",
+  "id": "A398913",
+  "mentions": [
+    "A000312",
+    "A005563",
+    "A052182",
+    "A398912"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

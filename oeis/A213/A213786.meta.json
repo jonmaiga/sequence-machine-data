@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1<=i",
+  "description": "a(n) = Sum_{1<=i<j<=n} b(i)*b(j), where b(k) = A020985(k).",
   "id": "A213786",
   "mentions": [
     "A020985",

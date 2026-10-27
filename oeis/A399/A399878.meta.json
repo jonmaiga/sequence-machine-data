@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k = 1..n, k does not divide n} (gcd(n, floor(n/k) + 1) - gcd(n, floor(n/k))).",
+  "id": "A399878",
+  "mentions": [
+    "A000040",
+    "A016742",
+    "A018804",
+    "A384628",
+    "A385398",
+    "A385402"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

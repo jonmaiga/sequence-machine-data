@@ -1,8 +1,12 @@
 {
   "description": "E.g.f.: (sin(3^2*x) + sin(4^2*x)) / sin(5^2*x).",
   "id": "A272462",
-  "mentions": [],
+  "mentions": [
+    "A002439",
+    "A060082"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,27 @@
+{
+  "description": "Let p = prime(1+n); a(n) is the number of primes q <= p such that ((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
+  "id": "A401056",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A034386",
+    "A400266",
+    "A400836",
+    "A400837",
+    "A401050",
+    "A401053",
+    "A401057",
+    "A401058",
+    "A401061"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

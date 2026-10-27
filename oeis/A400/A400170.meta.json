@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that A235224(A003415(k)) > A400164(k), where A235224 is the length of primorial base representation, A400164(n) = Max_{d|n, d is a prime power} A235224(n/d), and A003415 is the arithmetic derivative.",
+  "id": "A400170",
+  "mentions": [
+    "A003415",
+    "A006530",
+    "A235224",
+    "A327859",
+    "A380459",
+    "A392879",
+    "A400157",
+    "A400164",
+    "A400165",
+    "A400168",
+    "A400169",
+    "A400250",
+    "A400260",
+    "A400262"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

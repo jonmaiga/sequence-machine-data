@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = LCM_{d|n, d",
+  "description": "a(n) = LCM_{d|n, d<n} A276086(d), where A276086 is the primorial base exp-function.",
   "id": "A393059",
   "mentions": [
     "A276086",

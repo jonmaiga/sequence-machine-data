@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that Sum_{k=primes",
+  "description": "Primes p such that Sum_{k=primes<p} (k mod p) and Sum_{k=primes<p} (p mod k) are both prime.",
   "id": "A274025",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist two integers 0",
+  "description": "Integers x such that there exist two integers 0<x<=y<=z such that psi(x) = psi(y) = psi(z) = x + y + z.",
   "id": "A385852",
   "mentions": [
     "A001615",

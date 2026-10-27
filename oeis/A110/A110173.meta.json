@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that phi(n) = phi(k) + phi(n-k) for 0",
+  "description": "Least k such that phi(n) = phi(k) + phi(n-k) for 0<k<n, or 0 if there is no such k, where phi is Euler's totient function.",
   "id": "A110173",
   "mentions": [
     "A066426",

@@ -1,5 +1,5 @@
 {
-  "description": "Let the binary expansion of n be [b_d, b_{d-1}, ..., b_3, b_2, b_1, b_0]_2, where (if n>0) b_d = 1, b_i = 0 or 1 for i",
+  "description": "Let the binary expansion of n be [b_d, b_{d-1}, ..., b_3, b_2, b_1, b_0]_2, where (if n>0) b_d = 1, b_i = 0 or 1 for i<d. To get a(n) concatenate the decimal numbers 2^(b_i) (if b_i = 1) or 0 (if b_i = 0).",
   "id": "A302205",
   "mentions": [
     "A063012"

@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the Riordan array (1/(1-3*x)^2, x/(1-3*x)^3).",
+  "id": "A400754",
+  "mentions": [
+    "A124820",
+    "A192810",
+    "A400753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of right-Euclidean relations on an n-element labeled set having no isolated nonreflexive elements.",
+  "id": "A398475",
+  "mentions": [
+    "A001831"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

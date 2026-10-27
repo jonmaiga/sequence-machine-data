@@ -1,5 +1,5 @@
 {
-  "description": "USUP perfect numbers.",
+  "description": "Ratios m/A109712(m) for USUP perfect numbers m (A092760).",
   "id": "A092788",
   "mentions": [
     "A092760",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

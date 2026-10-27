@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of generalized Eulerian numbers T(n,k) = _2 read by rows, n >= 1, 0 <= k < 2*n.",
+  "description": "Triangle of generalized Eulerian numbers T(n,k) = <n,k>_2 read by rows, n >= 1, 0 <= k < 2*n.",
   "id": "A269742",
   "mentions": [
     "A000012",

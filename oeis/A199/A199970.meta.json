@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest number m with the smallest non-divisor n such that 1",
+  "description": "a(n) = the smallest number m with the smallest non-divisor n such that 1<n<m, or 0 if no such m exists.",
   "id": "A199970",
   "mentions": [
     "A003418",

@@ -1,0 +1,15 @@
+{
+  "description": "Number of orbits of exponents d, 1 <= d <= 2^n-2, under multiplication by 2 modulo 2^n-1, such that the power map x -> x^d on GF(2^n) is almost perfect nonlinear (APN).",
+  "id": "A400802",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

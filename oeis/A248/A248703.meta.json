@@ -1,5 +1,5 @@
 {
-  "description": "Strict Peak Primes: Smallest prime to have n strictly decreasing prime gaps on either side of a(n).",
+  "description": "a(n) is the smallest prime p to have n strictly decreasing prime gaps on either side of p.",
   "id": "A248703",
   "mentions": [
     "A248701",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

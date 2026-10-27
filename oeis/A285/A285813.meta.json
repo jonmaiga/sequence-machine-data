@@ -1,5 +1,5 @@
 {
-  "description": "Let p_1",
+  "description": "Let p_1<p_2<... be primes such that 2*n-p_i is prime. a(n) is the smallest i such that 2*n+(odd part of p_i-1) is prime or a(n)=0 if there is no such i.",
   "id": "A285813",
   "mentions": [
     "A284919",

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of \"Farey fraction\" approximations to Pi/2.",
+  "id": "A399717",
+  "mentions": [
+    "A019669",
+    "A053300",
+    "A063674",
+    "A097545",
+    "A399718"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

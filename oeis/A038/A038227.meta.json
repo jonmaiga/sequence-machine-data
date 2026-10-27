@@ -1,15 +1,21 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*3^(i-j)*9^j.",
   "id": "A038227",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A001019",
+    "A001021",
+    "A007318"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 45,
     "source": "joeis"
   }
 }

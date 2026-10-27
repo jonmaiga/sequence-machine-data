@@ -1,0 +1,19 @@
+{
+  "description": "Numbers containing at least one prime substring without leading zero of every possible length.",
+  "id": "A399297",
+  "mentions": [
+    "A000040",
+    "A085823",
+    "A244282",
+    "A400114"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

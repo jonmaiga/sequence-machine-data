@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the smallest prime not dividing A003415(n) [the arithmetic derivative of n], with a(0) = a(1) = 1 by convention.",
+  "id": "A399372",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A020639",
+    "A053669",
+    "A086134",
+    "A235991",
+    "A276086",
+    "A327859",
+    "A391845",
+    "A393041",
+    "A393043",
+    "A393044",
+    "A393045",
+    "A393046",
+    "A393047",
+    "A399374",
+    "A399376",
+    "A399377"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

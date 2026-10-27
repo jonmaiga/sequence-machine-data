@@ -2,6 +2,7 @@
   "description": "Nested floor product of n and fractions (k+1)/k for all k>0 (mod 4), divided by 4.",
   "id": "A073361",
   "mentions": [
+    "A042968",
     "A073359",
     "A073360"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

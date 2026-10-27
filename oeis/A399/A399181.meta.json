@@ -1,0 +1,17 @@
+{
+  "description": "Absolute values of A379078.",
+  "id": "A399181",
+  "mentions": [
+    "A175629",
+    "A377091",
+    "A379078"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

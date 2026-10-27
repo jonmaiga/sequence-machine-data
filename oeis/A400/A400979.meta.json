@@ -1,0 +1,17 @@
+{
+  "description": "Maximum of r + s - n over positive integers r and s such that r!*s! divides n!.",
+  "id": "A400979",
+  "mentions": [
+    "A000142",
+    "A400980",
+    "A400981"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

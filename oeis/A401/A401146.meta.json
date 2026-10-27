@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the iterates of A302338 starting at n, up to the first power of 2.",
+  "id": "A401146",
+  "mentions": [
+    "A000265",
+    "A006370",
+    "A006666",
+    "A006667",
+    "A007814",
+    "A078719",
+    "A302338",
+    "A351122",
+    "A400965"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Cuts-resistance of n: number of applications of Lernormand's \"raboter\" map needed to transform the binary expansion of n to the empty string.",
+  "description": "Cuts-resistance of n: number of applications of Lenormand's \"raboter\" map needed to transform the binary expansion of n to the empty string.",
   "id": "A319416",
   "mentions": [
     "A000975",

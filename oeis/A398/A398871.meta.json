@@ -1,0 +1,19 @@
+{
+  "description": "Total number of nodes with in-degree 1 in all acyclic digraphs on n labeled nodes.",
+  "id": "A398871",
+  "mentions": [
+    "A003024",
+    "A081064",
+    "A245654",
+    "A361718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

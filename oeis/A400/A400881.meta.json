@@ -1,0 +1,17 @@
+{
+  "description": "Number of s-meandric permutations of length n.",
+  "id": "A400881",
+  "mentions": [
+    "A393122",
+    "A400882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

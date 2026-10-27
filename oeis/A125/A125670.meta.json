@@ -1,5 +1,5 @@
 {
-  "description": "Number of bicyclic skeletons with n carbon atoms and the parameter 'alpha' having the value of 1. See the paper by Hendrickson and Parks for details.",
+  "description": "The number of saturated spiro hydrocarbons C_nH_(2n-2) with two rings sharing one carbon atom (spiro[a.b]alkanes and their alkyl derivatives), not counting stereoisomers.",
   "id": "A125670",
   "mentions": [
     "A000598",
@@ -11,6 +11,7 @@
     "A125064"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of the number of partitions of [n] with distinct block sizes.",
+  "id": "A398404",
+  "mentions": [
+    "A007837",
+    "A014322",
+    "A032312",
+    "A320567"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

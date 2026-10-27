@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Möbius transform of A351830.",
+  "id": "A397772",
+  "mentions": [
+    "A247041",
+    "A351830"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

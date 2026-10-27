@@ -1,0 +1,18 @@
+{
+  "description": "Numbers containing at least one zero and divisible by the product of their nonzero digits.",
+  "id": "A398422",
+  "mentions": [
+    "A007602",
+    "A055471",
+    "A342855"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

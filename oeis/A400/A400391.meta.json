@@ -1,0 +1,29 @@
+{
+  "description": "Irregular table read by rows: T(n, k) = gcud(d(n, k), n/d(n, k)), where d(n, k) = A027750(n, k) is the k-th divisor of n, and gcud is the greatest common unitary divisor.",
+  "id": "A400391",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A056624",
+    "A071974",
+    "A077610",
+    "A165430",
+    "A222266",
+    "A225174",
+    "A268335",
+    "A286324",
+    "A400390",
+    "A400392"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

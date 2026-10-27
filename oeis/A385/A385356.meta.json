@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that there exist two integers 00 such that sigma(x)^2 = sigma(y)^2 = x^2 + y^2 + z^2.",
+  "description": "Numbers x such that there exist two integers 0<x<=y and z>0 such that sigma(x)^2 = sigma(y)^2 = x^2 + y^2 + z^2.",
   "id": "A385356",
   "mentions": [
     "A000203",

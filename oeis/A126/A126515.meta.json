@@ -2,6 +2,7 @@
   "description": "Number of base 20 n-digit numbers with adjacent digits differing by four or less.",
   "id": "A126515",
   "mentions": [
+    "A126371",
     "A126374",
     "A126407",
     "A126488"

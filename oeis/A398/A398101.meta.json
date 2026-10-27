@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent n X n symmetric nonnegative integer matrices with each row sum nonzero and at most 2, up to simultaneous row and column permutations.",
+  "id": "A398101",
+  "mentions": [
+    "A023003",
+    "A398066",
+    "A398096",
+    "A398099",
+    "A398102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

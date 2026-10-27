@@ -1,0 +1,14 @@
+{
+  "description": "Number of Hotelling protocols in a two-person game where each player has n distinguishable moves (e.g. \"announce a price\", \"announce a location\", etc.).",
+  "id": "A397139",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions 0",
+  "description": "Number of solutions 0<k<n to the equation phi(n) = phi(k) + phi(n-k), where phi is Euler's totient function.",
   "id": "A110174",
   "mentions": [
     "A110173",

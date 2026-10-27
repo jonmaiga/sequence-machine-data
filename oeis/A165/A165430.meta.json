@@ -1,13 +1,15 @@
 {
-  "description": "Table T(n,m) read by rows: the greatest common unitary divisor of n and m, n>=1, 1<=m<=n.",
+  "description": "Table T(n,m) read by rows: the greatest common unitary divisor of n and m, n >= 1, 1 <= m <= n.",
   "id": "A165430",
   "mentions": [
     "A034444",
     "A077610",
+    "A116550",
     "A275254"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to give each of n cars an ordered pair of (not necessarily distinct) spots in [n] so that all cars park, where each car in turn takes its first choice if free, else its second choice if free, else the first free spot after its second choice.",
+  "id": "A401128",
+  "mentions": [
+    "A000272",
+    "A002674",
+    "A177784",
+    "A370832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

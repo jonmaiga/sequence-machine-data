@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(sinh(x) + sinh(x)^2).",
+  "id": "A399027",
+  "mentions": [
+    "A047974",
+    "A066532",
+    "A136630",
+    "A189420",
+    "A396108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

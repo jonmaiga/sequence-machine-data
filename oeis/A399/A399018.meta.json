@@ -1,0 +1,23 @@
+{
+  "description": "Number of solid unit triangles in the hexagonal cross-section of the first iteration of the generalized Menger sponge with subdivision 2n+1, cut through the center perpendicular to a space diagonal.",
+  "id": "A399018",
+  "mentions": [
+    "A028387",
+    "A033570",
+    "A103532",
+    "A195018",
+    "A299916",
+    "A395241",
+    "A399019"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "E.g.f. equals the series reversion of arcsinh(x) / exp(x).",
   "id": "A227463",
   "mentions": [
-    "A227464"
+    "A136630",
+    "A227464",
+    "A293022",
+    "A334856"
   ],
   "tags": [
     "formulas",

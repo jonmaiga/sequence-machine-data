@@ -1,5 +1,5 @@
 {
-  "description": "(p^p)^p, where p is prime(n).",
+  "description": "a(n) = (p^p)^p, where p is prime(n).",
   "id": "A060205",
   "mentions": [
     "A002489"

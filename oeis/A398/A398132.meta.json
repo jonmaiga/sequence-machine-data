@@ -1,0 +1,17 @@
+{
+  "description": "Primes which are internal nodes in the conjectured tree of primes of sequences A398129 and A398130. Also primes in the sequence A129758.",
+  "id": "A398132",
+  "mentions": [
+    "A129758",
+    "A398129",
+    "A398130"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

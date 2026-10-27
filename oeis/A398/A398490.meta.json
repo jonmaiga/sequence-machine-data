@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum number of sides of a simple polygon with positive integer side lengths inscribed in a circle of radius n.",
+  "id": "A398490",
+  "mentions": [
+    "A009003",
+    "A218431",
+    "A386538",
+    "A386539",
+    "A396223",
+    "A398489"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

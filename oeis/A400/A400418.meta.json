@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A007947(floor(n/k)).",
+  "id": "A400418",
+  "mentions": [
+    "A000010",
+    "A006218",
+    "A007947",
+    "A065463"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

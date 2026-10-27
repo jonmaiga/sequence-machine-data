@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-12 representation has the same nonzero number of 1's and 5's.",
   "id": "A039607",
-  "mentions": [],
+  "mentions": [
+    "A039223"
+  ],
   "tags": [
     "base",
     "easy",

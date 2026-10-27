@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number permutations p of [n] that are k-dist-increasing but not j-dist-increasing for any j=0 and p(i)=0, 0<=k<=n, read by rows.",
+  "description": "T(n,k) is the number permutations p of [n] that are k-dist-increasing but not j-dist-increasing for any j<k, where p is j-dist-increasing if j>=0 and p(i)<p(i+j) for all i in [n-j]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A370507",
   "mentions": [
     "A000007",

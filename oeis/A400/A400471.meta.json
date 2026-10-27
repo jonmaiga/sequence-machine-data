@@ -1,0 +1,22 @@
+{
+  "description": "Write the positive squares 1, 4, 9, 16, ... in base 2 and juxtapose.",
+  "id": "A400471",
+  "mentions": [
+    "A000290",
+    "A001191",
+    "A001737",
+    "A019521",
+    "A030190",
+    "A191232"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

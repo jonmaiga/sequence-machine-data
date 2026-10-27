@@ -1,5 +1,5 @@
 {
-  "description": "Those positive integers n that contain both odd-lengthed and even-lengthed runs of 0's and 1's when n is represented in binary.",
+  "description": "Positive integers that contain both odd- and even-length runs of 0's and 1's in their binary representation.",
   "id": "A160531",
   "mentions": [
     "A001196",

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; sequence of digits of a(n)^2 is a subsequence of the sequence of digits of a(n+1)^2.",
+  "description": "a(1) = 1; for n > 1, a(n) is the least integer > a(n-1) such that the sequence of digits of a(n-1)^2 is a subsequence of the sequence of digits of a(n)^2.",
   "id": "A067633",
   "mentions": [
     "A014563",

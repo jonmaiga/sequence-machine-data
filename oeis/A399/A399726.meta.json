@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct configurations of n matryoshkas that are also allowed to stack.",
+  "id": "A399726",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A008277",
+    "A124426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

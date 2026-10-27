@@ -44,11 +44,12 @@
     "A376604"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

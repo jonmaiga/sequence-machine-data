@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (13*3^n-1)/2.",
+  "description": "a(n) = (13*3^n - 1)/2.",
   "id": "A238055",
   "mentions": [
     "A000244",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

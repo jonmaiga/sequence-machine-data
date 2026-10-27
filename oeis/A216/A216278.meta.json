@@ -1,18 +1,24 @@
 {
-  "description": "Number of solutions to the equation x^2+2y^2 = n with x and y > 0.",
+  "description": "Number of solutions to the equation x^2 + 2*y^2 = n with x and y > 0.",
   "id": "A216278",
   "mentions": [
     "A000161",
     "A025426",
+    "A063725",
     "A092573",
-    "A119395"
+    "A119395",
+    "A216510",
+    "A216511",
+    "A374017"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 120,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
   }
 }

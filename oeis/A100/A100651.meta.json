@@ -5,11 +5,12 @@
     "A100652"
   ],
   "tags": [
+    "frac",
     "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

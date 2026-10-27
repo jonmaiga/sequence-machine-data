@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of maps f: {0,1}^n -> {0,1}^n under conjugation by cyclic rotations of coordinates.",
+  "id": "A397971",
+  "mentions": [
+    "A000010",
+    "A001372",
+    "A057156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows, where row n is the lexicographically earliest sequence starting with T(n,1) = n, allowed integers are >= n, and each term T(n,k) is banned for the next T(n,k) terms in that row. If the sequence for row n is eventually periodic, the row terminates at the end of the first period; however, if it is not eventually periodic, the row is infinite.",
+  "id": "A398589",
+  "mentions": [
+    "A364447",
+    "A364449",
+    "A399708",
+    "A399709"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

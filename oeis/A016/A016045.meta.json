@@ -1,17 +1,18 @@
 {
-  "description": "a(n) is the smallest prime p(k) such that the gaps between the primes p(k), p(k+1), p(k+2), ..., p(k+n) are 2, 4, 6, ... 2n.",
+  "description": "a(n) is the smallest prime prime(k) such that the gaps between the primes prime(k), prime(k+1), prime(k+2), ..., prime(k+n) are 2, 4, 6, ... 2n.",
   "id": "A016045",
   "mentions": [
     "A263049"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

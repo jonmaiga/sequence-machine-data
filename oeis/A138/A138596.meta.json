@@ -14,15 +14,17 @@
     "A138600",
     "A138601",
     "A138602",
-    "A138603"
+    "A138603",
+    "A379020"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

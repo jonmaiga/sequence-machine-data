@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of order n avoiding the consecutive pattern egfh with e",
+  "description": "Number of permutations of order n avoiding the consecutive pattern egfh with e<f, e<h, g<f and g<h.",
   "id": "A177480",
   "mentions": [
     "A117156",

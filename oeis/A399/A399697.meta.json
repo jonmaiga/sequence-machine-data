@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of delta_1(n), the density of the integers having exactly one divisor in the open interval (n, 2n).",
+  "id": "A399697",
+  "mentions": [
+    "A074738",
+    "A397433",
+    "A399440",
+    "A399690",
+    "A399691",
+    "A399698"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

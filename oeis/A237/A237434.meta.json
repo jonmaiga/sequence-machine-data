@@ -1,5 +1,5 @@
 {
-  "description": "Primitive, symmetric octuples of distinct numbers a,b,c,d,x,y,z,w with 0",
+  "description": "Primitive, symmetric octuples of distinct numbers a,b,c,d,x,y,z,w with 0<a<b<c<d and a<x<y<z<w<d such that a^k + b^k + c^k + d^k = x^k + y^k + z^k + w^k, for k = 1,2,3.",
   "id": "A237434",
   "mentions": [
     "A237435",

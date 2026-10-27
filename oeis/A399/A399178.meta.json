@@ -1,0 +1,16 @@
+{
+  "description": "The sequence R(n) defined by Alkan et al. (2020).",
+  "id": "A399178",
+  "mentions": [
+    "A399177"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

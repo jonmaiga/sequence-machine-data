@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest number such that both a(n) and a(n) - n are 5-smooth numbers, or 0 if no such number exists.",
+  "description": "a(n) is the largest number such that both a(n) and a(n) - n are 13-smooth numbers, or 0 if no such number exists.",
   "id": "A396428",
   "mentions": [
     "A002072",

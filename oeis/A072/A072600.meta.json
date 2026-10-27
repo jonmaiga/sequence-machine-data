@@ -15,11 +15,12 @@
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

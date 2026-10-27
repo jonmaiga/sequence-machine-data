@@ -2,7 +2,8 @@
   "description": "Numbers whose cube is the sum of 4 positive cubes.",
   "id": "A274334",
   "mentions": [
-    "A003327"
+    "A003327",
+    "A384132"
   ],
   "tags": [
     "easy",

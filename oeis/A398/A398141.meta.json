@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (sin(k))^k sets a new record low.",
+  "id": "A398141",
+  "mentions": [
+    "A096456",
+    "A382815",
+    "A383229",
+    "A383540",
+    "A399200"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

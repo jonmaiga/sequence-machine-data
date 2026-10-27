@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/2 * (((1 + 4*x)/(1 - 4*x))^(1/4) - 1).",
+  "description": "Expansion of (1/2) * (((1 + 4*x)/(1 - 4*x))^(1/4) - 1).",
   "id": "A305608",
   "mentions": [
     "A001405",

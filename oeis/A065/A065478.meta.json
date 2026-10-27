@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Product_{p prime} (1 - p/(p^3-1)).",
+  "description": "Decimal expansion of Stephens' constant: Product_{p prime} (1 - p/(p^3-1)).",
   "id": "A065478",
   "mentions": [
     "A001692",

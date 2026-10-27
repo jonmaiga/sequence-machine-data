@@ -3,13 +3,14 @@
   "id": "A037708",
   "mentions": [],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "joeis"
   }
 }

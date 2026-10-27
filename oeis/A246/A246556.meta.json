@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest prime which divides Pell(n) = A000129(n) but does not divide any Pell(k) for k",
+  "description": "a(n) = smallest prime which divides Pell(n) = A000129(n) but does not divide any Pell(k) for k<n, or -1 if no such prime exists.",
   "id": "A246556",
   "mentions": [
     "A000129",

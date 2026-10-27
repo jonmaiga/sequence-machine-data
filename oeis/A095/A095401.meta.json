@@ -1,12 +1,12 @@
 {
-  "description": "number of steps required to reach 1 if the following modified juggler map is iterated: a[n]=(1-Mod[n, 2])*Floor[n^(3/4)]+Mod[n, 2]*Floor[n^(4/3)]; original exponents {1/2, 3/2} are replaced with {3/4, 4/3}.",
+  "description": "Number of steps required to reach 1 if the following modified juggler map is iterated: n -> (1 - (n mod 2)) * floor(n^(3/4)) + (n mod 2) * floor(n^(4/3)); original exponents {1/2, 3/2} are replaced with {3/4, 4/3}.",
   "id": "A095401",
   "mentions": [
     "A007320",
-    "A094396",
-    "A094400",
     "A094683",
-    "A094716"
+    "A094716",
+    "A095396",
+    "A095400"
   ],
   "tags": [
     "nonn"

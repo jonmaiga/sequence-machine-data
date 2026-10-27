@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k > n such that Lpf(n) = Lpf(k) where Lpf(x) denotes the largest prime factor in x factorization.",
+  "description": "Smallest k > n such that gpf(n) = gpf(k) where gpf = A006530 (greatest prime factor).",
   "id": "A071830",
   "mentions": [
     "A002808",

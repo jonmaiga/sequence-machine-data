@@ -1,9 +1,11 @@
 {
-  "description": "Total counts of distinct (undirected) cycles for all simple graphs of order n.",
+  "description": "Total number of (undirected) cycles for all simple graphs of order n.",
   "id": "A234601",
   "mentions": [
     "A124964",
-    "A193352"
+    "A193352",
+    "A288430",
+    "A401212"
   ],
   "tags": [
     "more",

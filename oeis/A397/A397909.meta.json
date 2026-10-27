@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of 1 + (product of first n semiprimes).",
+  "id": "A397909",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002585",
+    "A006530",
+    "A112141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

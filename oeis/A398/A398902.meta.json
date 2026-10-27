@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 2^(1+1/2)^(1+1/2^2)^(1+1/2^3)^...",
+  "id": "A398902",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A010466"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

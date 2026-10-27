@@ -1,0 +1,16 @@
+{
+  "description": "Number of upper triangular n X n binary matrices having all row and column sums in {0,1,2}.",
+  "id": "A400344",
+  "mentions": [
+    "A396698"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

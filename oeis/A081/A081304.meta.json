@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers m <= n with prime factors less than 2*spf(m), where spf(m) is the smallest prime factor of m (A020639).",
+  "description": "Number of numbers m <= n with prime factors less than 2*lpf(m), where lpf(m) is the least prime factor of m (A020639).",
   "id": "A081304",
   "mentions": [
     "A020639",
@@ -8,6 +8,7 @@
     "A081306"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

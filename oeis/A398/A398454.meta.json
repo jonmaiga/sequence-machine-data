@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (A383505(n)+1)/n.",
+  "id": "A398454",
+  "mentions": [
+    "A000430",
+    "A383505"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

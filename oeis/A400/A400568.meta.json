@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic dimonoids of order n.",
+  "id": "A400568",
+  "mentions": [
+    "A027851",
+    "A400569",
+    "A400570"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

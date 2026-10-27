@@ -1,5 +1,5 @@
 {
-  "description": "Number of primitive multiplex juggling sequences of length n, base state and hand capacity 3.",
+  "description": "Number of primitive multiplex juggling sequences of length n, base state <2,1> and hand capacity 3.",
   "id": "A136786",
   "mentions": [
     "A136785"

@@ -1,5 +1,5 @@
 {
-  "description": "Indices m such that A114850(m)+A114850(k) is prime for some k",
+  "description": "Indices m such that A114850(m)+A114850(k) is prime for some k<m.",
   "id": "A140052",
   "mentions": [
     "A000040",

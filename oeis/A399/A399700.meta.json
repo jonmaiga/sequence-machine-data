@@ -1,0 +1,18 @@
+{
+  "description": "Array read by diagonals. Consider a wheel constructed from a circle of diameter 2n+1 units, surrounded by a rim. Cross the circle with horizontal bars, each of thickness 1 unit, and each at 1 unit from the next. Superimpose another identical wheel. The n-th row of the array, referring to wheels of n bars, maps the variation over time of the number of resulting holes as the second wheel rotates.",
+  "id": "A399700",
+  "mentions": [
+    "A007590",
+    "A399701",
+    "A399702"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

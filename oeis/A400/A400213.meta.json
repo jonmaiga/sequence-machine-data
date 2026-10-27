@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct areas of triangles formed by three vertices of a regular n-gon.",
+  "id": "A400213",
+  "mentions": [
+    "A004526",
+    "A005044",
+    "A008642",
+    "A069905",
+    "A079978",
+    "A174257",
+    "A371973"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of numbers of prime-factors {2*n-p: 2",
+  "description": "Sum of numbers of prime-factors {2*n-p: 2<p<2*n, p prime}, with repetitions.",
   "id": "A084766",
   "mentions": [
     "A001222",

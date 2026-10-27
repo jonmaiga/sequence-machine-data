@@ -2,6 +2,7 @@
   "description": "Numbers k such that all coprime quadratic residues modulo k are squares.",
   "id": "A303704",
   "mentions": [
+    "A018253",
     "A046073",
     "A057828",
     "A214583",

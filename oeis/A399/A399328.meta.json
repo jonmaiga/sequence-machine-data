@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} A399342(n-1, k), n >= 1; a(0) = 0.",
+  "id": "A399328",
+  "mentions": [
+    "A002190",
+    "A398579",
+    "A399342",
+    "A399444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum number of entries in row n of Pascal's triangle divisible by the same prime.",
+  "id": "A400534",
+  "mentions": [
+    "A000961",
+    "A001316",
+    "A006047",
+    "A007318",
+    "A048967",
+    "A278568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

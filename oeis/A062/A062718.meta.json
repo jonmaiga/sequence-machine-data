@@ -1,5 +1,5 @@
 {
-  "description": "p and p^2 + 6 are both prime.",
+  "description": "Primes p such that p^2 + 6 is also prime.",
   "id": "A062718",
   "mentions": [
     "A137270"

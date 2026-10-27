@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*A117366(n)/spf(n), where A117366(n) is the smallest prime larger than all prime factors of n, and spf is the smallest prime factor of n (or 1 if n = 1).",
+  "description": "a(n) = n*A117366(n)/lpf(n), where A117366(n) is the smallest prime larger than all prime factors of n, and lpf is the least prime factor of n (or 1 if n = 1).",
   "id": "A285639",
   "mentions": [
     "A003961",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of circular arrangements of 1, 2, ..., 2n such that every pair of adjacent numbers sums to a prime and every pair of antipodal (diametrically opposite) numbers differs by n, up to rotations and reflections.",
+  "id": "A397413",
+  "mentions": [
+    "A051252"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

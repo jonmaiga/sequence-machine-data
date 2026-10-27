@@ -1,7 +1,10 @@
 {
   "description": "Number of pairs (s,t) with s and t squarefree, 1 <= s < t <= n and s | t.",
   "id": "A358088",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A005117"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

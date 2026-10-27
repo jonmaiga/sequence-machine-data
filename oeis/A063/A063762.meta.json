@@ -1,5 +1,5 @@
 {
-  "description": "Sqrt(n)-rough nonprimes: largest prime factor of n (A006530) >= sqrt(n).",
+  "description": "Composite integers k whose largest prime factor >= sqrt(k).",
   "id": "A063762",
   "mentions": [
     "A006530",

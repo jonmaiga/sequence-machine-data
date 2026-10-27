@@ -2,7 +2,8 @@
   "description": "E.g.f. equals the series reversion of sin(x) / exp(x).",
   "id": "A227464",
   "mentions": [
-    "A227463"
+    "A227463",
+    "A293191"
   ],
   "tags": [
     "formulas",

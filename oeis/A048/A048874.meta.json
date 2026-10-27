@@ -1,5 +1,5 @@
 {
-  "description": "Almost-cubes: numbers n such that n/s(n) >= k/s(k) for all k",
+  "description": "Almost-cubes: numbers n such that n/s(n) >= k/s(k) for all k<n, where s(m) is the least surface area of a rectangular parallelepiped with integer side lengths and volume m.",
   "id": "A048874",
   "mentions": [
     "A033501"

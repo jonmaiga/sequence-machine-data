@@ -19,15 +19,16 @@
     "A330235",
     "A330236",
     "A330282",
-    "A330295"
+    "A330295",
+    "A399419"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

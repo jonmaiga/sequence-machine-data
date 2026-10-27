@@ -1,5 +1,5 @@
 {
-  "description": "Number of length-7 0..k arrays connected end-around, with no sequence of L",
+  "description": "Number of length-7 0..k arrays connected end-around, with no sequence of L<n elements immediately followed by itself (periodic \"squarefree\").",
   "id": "A215230",
   "mentions": [
     "A215228"

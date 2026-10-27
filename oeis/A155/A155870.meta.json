@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, if a(n-1) has m digits, a(n) has m mod 9 number of \"m mod 9\" followed by \"m mod 9\" zeros if a(n) is not equal to some a(x), x",
+  "description": "a(1)=1, if a(n-1) has m digits, a(n) has m mod 9 number of \"m mod 9\" followed by \"m mod 9\" zeros if a(n) is not equal to some a(x), x<n; otherwise a(n)=prescribed a(n) + n.",
   "id": "A155870",
   "mentions": [],
   "tags": [

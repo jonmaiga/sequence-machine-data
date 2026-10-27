@@ -1,5 +1,5 @@
 {
-  "description": "Minimum of n-th row of A076221.",
+  "description": "Minimum of the n-th row of A076221.",
   "id": "A076223",
   "mentions": [
     "A076221"

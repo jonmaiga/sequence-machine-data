@@ -1,0 +1,19 @@
+{
+  "description": "Six times the maximum area of the convex hull of a polyhex with n cells, where each hexagonal cell has area 1.",
+  "id": "A399934",
+  "mentions": [
+    "A000228",
+    "A001207",
+    "A122133"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromic Carlitz compositions of n with parts in standard order.",
+  "id": "A397141",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A016116",
+    "A107429",
+    "A383253",
+    "A383751"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

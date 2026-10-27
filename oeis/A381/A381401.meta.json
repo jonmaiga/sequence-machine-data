@@ -2,6 +2,7 @@
   "description": "a(n) is the number of (possibly non-distinct) prime elements in the multiset of bases and exponents in the prime factorization of n.",
   "id": "A381401",
   "mentions": [
+    "A010051",
     "A106490",
     "A349281",
     "A381398",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

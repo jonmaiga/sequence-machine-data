@@ -1,0 +1,17 @@
+{
+  "description": "Number of integer partitions whose Bridge-and-Torch optimum crossing time is n.",
+  "id": "A398784",
+  "mentions": [
+    "A026791",
+    "A318271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

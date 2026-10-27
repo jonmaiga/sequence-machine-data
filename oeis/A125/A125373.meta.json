@@ -2,6 +2,7 @@
   "description": "Number of base 10 circular n-digit numbers with adjacent digits differing by 5 or less.",
   "id": "A125373",
   "mentions": [
+    "A126371",
     "A257286"
   ],
   "tags": [

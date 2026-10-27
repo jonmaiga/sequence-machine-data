@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A399666(n, k).",
+  "id": "A399667",
+  "mentions": [
+    "A399666"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

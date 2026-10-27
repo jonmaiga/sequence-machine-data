@@ -2,14 +2,18 @@
   "description": "Number of solutions to x^2 + y^2 + z^2 + w^2 <= n, where x, y, z, w are positive odd integers.",
   "id": "A372613",
   "mentions": [
+    "A008437",
     "A008438",
     "A046895",
+    "A098108",
     "A224213",
+    "A290081",
     "A349611",
     "A372511",
     "A372512"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

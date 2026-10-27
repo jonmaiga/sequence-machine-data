@@ -1,0 +1,21 @@
+{
+  "description": "Omit zero digits from the product of first n primes (cf. A002110).",
+  "id": "A399842",
+  "mentions": [
+    "A002110",
+    "A004719",
+    "A079099",
+    "A356757",
+    "A399843"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

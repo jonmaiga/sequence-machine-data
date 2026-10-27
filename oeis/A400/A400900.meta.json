@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected simple unlabeled bipartite Eulerian graphs on 2*n vertices that admit an automorphism interchanging the two parts of the bipartition.",
+  "id": "A400900",
+  "mentions": [
+    "A243320",
+    "A400899"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m having at least one pair (x,y) of divisors with x",
+  "description": "Numbers m having at least one pair (x,y) of divisors with x<y such that x+y is also a divisor of m but no proper divisor of m has this property.",
   "id": "A323640",
   "mentions": [
     "A001504",

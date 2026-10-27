@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(tanh(sinh(x))).",
+  "description": "Expansion of e.g.f.: exp(tanh(sinh(x))).",
   "id": "A009259",
   "mentions": [],
   "tags": [

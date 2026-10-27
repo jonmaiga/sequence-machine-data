@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that can be written with a single digit in base 10 as well as in some base b",
+  "description": "Numbers that can be written with a single digit in base 10 as well as in some base b<10.",
   "id": "A145461",
   "mentions": [],
   "tags": [

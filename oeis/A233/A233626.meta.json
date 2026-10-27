@@ -1,5 +1,5 @@
 {
-  "description": "Least member of an amicable n-tuple: (x[1],...,x[n]) such that sigma(x[1])=...=sigma(x[n])=x[1]+...+x[n], x[i]",
+  "description": "Least member of an amicable n-tuple: (x[1],...,x[n]) such that sigma(x[1])=...=sigma(x[n])=x[1]+...+x[n], x[i]<x[i+1].",
   "id": "A233626",
   "mentions": [
     "A002025",

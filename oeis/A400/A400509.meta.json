@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct integer-sided triangles that can be placed with their vertices on three different sides of a square of side n.",
+  "id": "A400509",
+  "mentions": [
+    "A002620",
+    "A002623",
+    "A005044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of involutive Baxter permutations of length n.",
+  "id": "A398688",
+  "mentions": [
+    "A000085",
+    "A001181",
+    "A151374",
+    "A383372"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

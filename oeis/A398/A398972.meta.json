@@ -1,0 +1,17 @@
+{
+  "description": "Weak Carmichael numbers of the form (6*m+1)*(12*m+1)*(18*m+1) where exactly two linear factors are composite.",
+  "id": "A398972",
+  "mentions": [
+    "A225498",
+    "A242980",
+    "A398970"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

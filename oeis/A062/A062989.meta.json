@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+6, 6) - n - 1.",
+  "description": "a(n) = binomial(n+6, 6) - n - 1.",
   "id": "A062989",
   "mentions": [
     "A062985",

@@ -1,5 +1,5 @@
 {
-  "description": "arcsin(tan(sin(x)))=x+2/3!*x^3+16/5!*x^5+440/7!*x^7+27904/9!*x^9...",
+  "description": "Expansion of e.g.f. arcsin(tan(sin(x))) (only odd powers).",
   "id": "A012146",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

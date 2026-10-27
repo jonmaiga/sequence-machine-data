@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of subsets S of [n] such that |S|*(n-|S|) = k, 0<=k<=A002620(n), n>=0.",
+  "id": "A399727",
+  "mentions": [
+    "A000079",
+    "A001815",
+    "A002620",
+    "A040000",
+    "A047863",
+    "A103424",
+    "A128014",
+    "A274497"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

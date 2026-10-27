@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with maximal up-step k; n>=1, 0<=k",
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with maximal up-step k; n>=1, 0<=k<n.",
   "id": "A225084",
   "mentions": [
     "A000041",

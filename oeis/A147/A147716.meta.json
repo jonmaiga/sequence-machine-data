@@ -2,6 +2,7 @@
   "description": "Triangle of coefficients in expansion of (14 + x)^n.",
   "id": "A147716",
   "mentions": [
+    "A001023",
     "A001024",
     "A007318",
     "A023531",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of bases 1",
+  "description": "Number of bases 1<b<n and coprime to n, such that b^n == b (mod n).",
   "id": "A348259",
   "mentions": [
     "A000040",

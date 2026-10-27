@@ -1,5 +1,5 @@
 {
-  "description": "The number of edges minus the number of leafs in the rooted tree with Matula-Goebel number n.",
+  "description": "The number of edges minus the number of leaves in the rooted tree with Matula-Goebel number n.",
   "id": "A366388",
   "mentions": [
     "A000265",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^4",
+  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^4<x^4+y^4.",
   "id": "A211652",
   "mentions": [
     "A211422"

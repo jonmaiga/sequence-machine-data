@@ -1,5 +1,5 @@
 {
-  "description": "Scan decimal expansion of Pi until all n-digit strings have been seen; a(n) is number of digits that must be scanned.",
+  "description": "Least k such that the decimal expansion of floor(Pi*10^k) contains every n-digit string.",
   "id": "A036903",
   "mentions": [
     "A000796",

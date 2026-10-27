@@ -3,6 +3,8 @@
   "id": "A153160",
   "mentions": [
     "A007916",
+    "A008683",
+    "A052409",
     "A113851",
     "A153147",
     "A153157",
@@ -10,11 +12,12 @@
     "A153159"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

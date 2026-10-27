@@ -1,5 +1,5 @@
 {
-  "description": "Take the rightmost three binary digits of n (for n",
+  "description": "Take the rightmost three binary digits of n (for n<4 padded with leading zeros) and rotate left 1 digit.",
   "id": "A080413",
   "mentions": [
     "A004442",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled loopless simple regular digraphs on n vertices.",
+  "id": "A397915",
+  "mentions": [
+    "A000166",
+    "A007107",
+    "A364068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

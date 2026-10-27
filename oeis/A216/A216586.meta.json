@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: exp( Sum_{n>=1} A002426(n)/2 * A002426(n) * x^n/n ), where A002426 is the central binomial coefficients and A002426 is the central trinomial coefficients.",
+  "description": "G.f.: exp( Sum_{n>=1} A000984(n)/2 * A002426(n) * x^n/n ), where A000984 is the central binomial coefficients and A002426 is the central trinomial coefficients.",
   "id": "A216586",
   "mentions": [
     "A000984",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

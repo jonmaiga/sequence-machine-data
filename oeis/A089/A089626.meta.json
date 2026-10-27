@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1/h(n) where {h(n)} is the Hankel transform of {t(n)}; t(n) is defined by the expansion of tan(x)= Sum_n>0, t(n)*x^(2*n-1); |x|",
+  "description": "a(n) = 1/h(n) where {h(n)} is the Hankel transform of {t(n)}; t(n) is defined by the expansion of tan(x)= Sum_n>0, t(n)*x^(2*n-1); |x|<Pi/2.",
   "id": "A089626",
   "mentions": [
     "A001906",

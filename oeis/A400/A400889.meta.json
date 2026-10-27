@@ -1,0 +1,16 @@
+{
+  "description": "Least k such that n divides A400888(k).",
+  "id": "A400889",
+  "mentions": [
+    "A400888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

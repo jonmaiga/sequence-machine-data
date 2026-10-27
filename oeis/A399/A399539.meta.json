@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + tau(k)^4.",
+  "id": "A399539",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001615",
+    "A398971"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

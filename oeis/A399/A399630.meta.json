@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number m with exactly n divisors d whose first digit equals the last digit of m.",
+  "id": "A399630",
+  "mentions": [
+    "A005179",
+    "A335491",
+    "A357300",
+    "A399629"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

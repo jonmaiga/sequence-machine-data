@@ -1,5 +1,5 @@
 {
-  "description": "Numbers d such that a!*b!*c!*d! is a perfect square for some 1<=a",
+  "description": "Numbers d such that a!*b!*c!*d! is a perfect square for some 1<=a<b<c<d.",
   "id": "A387184",
   "mentions": [
     "A013929",

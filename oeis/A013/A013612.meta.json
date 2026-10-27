@@ -1,8 +1,10 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+5x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+5*x)^n.",
   "id": "A013612",
   "mentions": [
+    "A000351",
     "A000400",
+    "A007318",
     "A038243"
   ],
   "tags": [

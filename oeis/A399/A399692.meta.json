@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows of Knuth's deltas for comparison trees used in a uniform binary search.",
+  "id": "A399692",
+  "mentions": [
+    "A008619",
+    "A070941",
+    "A110655",
+    "A132292"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

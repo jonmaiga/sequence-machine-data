@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that r(n^2)=r(n)^2, where r is the cyclic replacement map of the digits d of n in base 12, that is, d->d+1 if d0 if d=11.",
+  "description": "Positive integers n such that r(n^2)=r(n)^2, where r is the cyclic replacement map of the digits d of n in base 12, that is, d->d+1 if d<11 and d->0 if d=11.",
   "id": "A127858",
   "mentions": [
     "A117755",

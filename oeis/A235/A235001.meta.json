@@ -5,14 +5,18 @@
     "A000069",
     "A000290",
     "A159918",
-    "A231431"
+    "A231431",
+    "A235331"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

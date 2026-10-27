@@ -1,9 +1,8 @@
 {
-  "description": "First differences of Lucas 4-step numbers.",
+  "description": "Numbers expressible as the difference of two Lucas 4-step numbers.",
   "id": "A113294",
   "mentions": [
     "A000040",
-    "A001644",
     "A073817",
     "A113188",
     "A113194",

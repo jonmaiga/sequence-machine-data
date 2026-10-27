@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -Sum_{n>=1} mu(n)*(n^(1/n) - 1), where mu is the Moebius function.",
+  "id": "A400904",
+  "mentions": [
+    "A008683",
+    "A037077",
+    "A363704"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

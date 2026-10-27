@@ -1,0 +1,17 @@
+{
+  "description": "Number of asymmetric transitive relations on an n-element set.",
+  "id": "A399404",
+  "mentions": [
+    "A091073"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

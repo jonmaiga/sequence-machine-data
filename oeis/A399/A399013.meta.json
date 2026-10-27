@@ -1,0 +1,17 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices with feedback vertex set number 1 and without endpoints.",
+  "id": "A399013",
+  "mentions": [
+    "A398243",
+    "A399012"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

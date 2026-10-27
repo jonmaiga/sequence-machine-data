@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer-sided triangles with sides a,b,c, a",
+  "description": "Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that are right triangles.",
   "id": "A024155",
   "mentions": [
     "A005044",

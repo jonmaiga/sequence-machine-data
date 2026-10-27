@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that A400000(k + 1) = A400000(k) + 1.",
+  "id": "A399263",
+  "mentions": [
+    "A400000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

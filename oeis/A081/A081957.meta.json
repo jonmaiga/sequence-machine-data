@@ -2,9 +2,13 @@
   "description": "Triangle whose n-th row contains the n smallest numbers that are products of n distinct integers > 1, read by rows.",
   "id": "A081957",
   "mentions": [
+    "A000027",
+    "A000142",
+    "A080257",
     "A081958",
     "A081959",
-    "A081960"
+    "A081960",
+    "A122181"
   ],
   "tags": [
     "nonn",

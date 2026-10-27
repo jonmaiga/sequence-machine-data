@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of set partitions of n elements with k connectors, 0<=k",
+  "description": "Triangle read by rows: number of set partitions of n elements with k connectors, 0<=k<n.",
   "id": "A185982",
   "mentions": [
     "A000012",

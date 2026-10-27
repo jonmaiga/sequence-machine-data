@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the determinant of the k X k Hankel matrix whose generic entry is M(i,j,n) = (i + j - 1)^n, with 0 <= k <= n + 1.",
+  "id": "A399156",
+  "mentions": [
+    "A000012",
+    "A002024",
+    "A003992",
+    "A005061",
+    "A399157"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

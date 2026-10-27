@@ -3,19 +3,19 @@
   "id": "A038747",
   "mentions": [
     "A033155",
+    "A033323",
     "A038746",
     "A038749",
     "A047057"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

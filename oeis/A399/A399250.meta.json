@@ -1,0 +1,22 @@
+{
+  "description": "Product of the x- and y-coordinates of a point moving in a square spiral.",
+  "id": "A399250",
+  "mentions": [
+    "A174344",
+    "A180714",
+    "A214526",
+    "A274923",
+    "A336336",
+    "A391618"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

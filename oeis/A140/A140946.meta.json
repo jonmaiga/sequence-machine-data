@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = (-2)^n*(-1)^k if k",
+  "description": "Triangle T(n,k) = (-2)^n*(-1)^k if k<n; T(n,n) = (-1)^(n+1)*A001045(n+1).",
   "id": "A140946",
   "mentions": [
     "A001045",

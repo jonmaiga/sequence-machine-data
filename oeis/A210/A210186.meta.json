@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least integer m>1 such that m divides none of P_i + P_j with 0",
+  "description": "a(n) = least integer m>1 such that m divides none of P_i + P_j with 0<i<j<=n where P_k is the product of the first k primes.",
   "id": "A210186",
   "mentions": [
     "A000040",

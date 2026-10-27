@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of nonempty, longest nonoverlapping properly nested substrings into which the k-th string of parentheses of length n can be split into, where strings within a row are in reverse lexicographical order.",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of nonempty, longest nonoverlapping properly nested substrings into which the k-th string of parentheses of length n can be split, where strings within a row are in reverse lexicographical order.",
   "id": "A370942",
   "mentions": [
     "A000079",

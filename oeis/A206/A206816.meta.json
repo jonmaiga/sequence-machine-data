@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{0",
+  "description": "a(n) = Sum_{0<j<n} (n!-j!).",
   "id": "A206816",
   "mentions": [
     "A000142",

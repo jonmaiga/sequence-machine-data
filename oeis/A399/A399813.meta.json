@@ -1,0 +1,17 @@
+{
+  "description": "Palindromic numbers with exactly one non-palindromic divisor.",
+  "id": "A399813",
+  "mentions": [
+    "A002113",
+    "A062687"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

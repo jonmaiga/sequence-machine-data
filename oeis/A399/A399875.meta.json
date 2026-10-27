@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled reducible flow graphs with n nodes containing a global source and a global sink, self-loops disallowed.",
+  "id": "A399875",
+  "mentions": [
+    "A102599",
+    "A350794",
+    "A397968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes that are one more or one less than the sum of four consecutive composite numbers.",
+  "description": "Primes that are one more or one less than the sum of four consecutive numbers that are all composite.",
   "id": "A318157",
   "mentions": [
     "A296012"

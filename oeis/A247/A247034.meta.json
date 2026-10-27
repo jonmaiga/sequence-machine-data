@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer x such that the number of integers y sigma(x)/x is exactly n.",
+  "description": "Smallest integer x such that the number of integers y<x satisfying sigma(y)/y > sigma(x)/x is exactly n.",
   "id": "A247034",
   "mentions": [
     "A000203",

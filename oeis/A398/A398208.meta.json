@@ -1,0 +1,16 @@
+{
+  "description": "Least prime with exactly n steps in the Collatz (3x+1) problem, or 0 if there is no such prime.",
+  "id": "A398208",
+  "mentions": [
+    "A006577",
+    "A127824"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

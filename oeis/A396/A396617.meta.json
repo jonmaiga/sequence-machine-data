@@ -1,5 +1,5 @@
 {
-  "description": "Squares visited by a knight moving on an upper half-plane spiral numbered board, starring from square 1, and where the knight moves to the smallest numbered unvisited square.",
+  "description": "Squares visited by a knight moving on an upper half-plane spiral numbered board, starting from square 1, and where the knight moves to the smallest numbered unvisited square.",
   "id": "A396617",
   "mentions": [
     "A306527",

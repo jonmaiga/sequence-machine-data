@@ -2,7 +2,7 @@
   "description": "Decimal expansion of e^(-(cosine of 1 degree)).",
   "id": "A111717",
   "mentions": [
-    "A019810"
+    "A019898"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=433640083; a(n+1)= the largest prime factor of a(n)+b(n)+c(n), where a(n)",
+  "description": "a(1)=433640083; a(n+1)= the largest prime factor of a(n)+b(n)+c(n), where a(n)<b(n)<c(n) and a(n),b(n) and c(n) are three consecutive primes.",
   "id": "A117631",
   "mentions": [
     "A109756"

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime that is the sum of n distinct elements from the union of powers of 2 and factorials.",
+  "id": "A400148",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000142",
+    "A399546",
+    "A399803"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

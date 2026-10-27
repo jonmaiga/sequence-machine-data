@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of odd terms in the probability of obtaining an acute triangle by picking n points at random in the unit n-ball.",
+  "description": "Numerators of odd terms in the probability of obtaining an acute triangle by picking three independent uniform points in the unit n-ball.",
   "id": "A093756",
   "mentions": [
     "A093757",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "frac",
+    "more",
     "nonn"
   ],
   "terms": {

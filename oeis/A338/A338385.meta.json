@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows, in which the n-th row lists the primitive solutions (k, q), k",
+  "description": "Table read by rows, in which the n-th row lists the primitive solutions (k, q), k<q, such that k*tau(k) = q*tau(q) = A338384(n).",
   "id": "A338385",
   "mentions": [
     "A000005",

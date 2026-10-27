@@ -1,5 +1,5 @@
 {
-  "description": "Number of errors that occur when choosing n as modulus in French INSEE code (0",
+  "description": "Number of errors that occur when choosing n as modulus in French INSEE code (0<n<100).",
   "id": "A137385",
   "mentions": [],
   "tags": [

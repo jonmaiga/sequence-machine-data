@@ -7,12 +7,13 @@
     "A258901"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

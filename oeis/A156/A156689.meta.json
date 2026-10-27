@@ -1,5 +1,5 @@
 {
-  "description": "Inradii of primitive Pythagorean triples a^2+b^2=c^2, 0",
+  "description": "Inradii of primitive Pythagorean triples a^2+b^2=c^2, 0<a<b<c with gcd(a,b)=1, and sorted to correspond to increasing a (given in A020884).",
   "id": "A156689",
   "mentions": [
     "A020884",

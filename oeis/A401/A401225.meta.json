@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets S of n+6 points of the 5 X n grid such that any two distinct rectangles with all four corners at grid points (tilted rectangles included) have distinct sets of corners outside S.",
+  "id": "A401225",
+  "mentions": [
+    "A397315",
+    "A399580",
+    "A401223",
+    "A401224"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A(n,n) = 1, A(n,k) = A(n,k+1)*k / gcd(A(n,k+1),k)^2 if n>k, A(n,k) = A(n,k-1)*k / gcd(A(n,k-1),k)^2 if n=1, k>=1, read by antidiagonals.",
+  "description": "A(n,n) = 1, A(n,k) = A(n,k+1)*k / gcd(A(n,k+1),k)^2 if n>k, A(n,k) = A(n,k-1)*k / gcd(A(n,k-1),k)^2 if n<k; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
   "id": "A249831",
   "mentions": [
     "A000012",

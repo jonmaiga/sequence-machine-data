@@ -1,0 +1,30 @@
+{
+  "description": "Primes p for which there exists a prime q <= p for which 2*((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
+  "id": "A400843",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A034386",
+    "A276085",
+    "A400842",
+    "A401051",
+    "A401053",
+    "A401054",
+    "A401057",
+    "A401059",
+    "A401060",
+    "A401061",
+    "A401062",
+    "A401063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table read by rows: The number of k-faced polyhedra, where k >= 4, created when an n-bipyramid, formed from two n-gonal pyraminds joined at the base, is internally cut by all the planes defined by any three of its vertices.",
+  "description": "Irregular table read by rows: The number of k-faced polyhedra, where k >= 4, created when an n-bipyramid, formed from two n-gonal pyramids joined at the base, is internally cut by all the planes defined by any three of its vertices.",
   "id": "A338825",
   "mentions": [
     "A333543",

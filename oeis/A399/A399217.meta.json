@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} binomial(2*k,k)^2/(16^k*(2*k+1)).",
+  "id": "A399217",
+  "mentions": [
+    "A000984",
+    "A253191",
+    "A350669",
+    "A350670",
+    "A355022",
+    "A399218",
+    "A399219"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

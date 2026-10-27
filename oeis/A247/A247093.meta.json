@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(m,n) = smallest odd prime p such that (m^p-n^p)/(m-n) is prime (0",
+  "description": "Triangle read by rows: T(m,n) = smallest odd prime p such that (m^p-n^p)/(m-n) is prime (0<n<m), or 0 if no such p exists.",
   "id": "A247093",
   "mentions": [
     "A000043",

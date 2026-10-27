@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= A000265(3*(a(n-1)+a(n-2))/2 +1) starting at a(1)=1, a(2)=3.",
+  "description": "a(n) = A000265(3*(a(n-1)+a(n-2))/2 +1) starting at a(1)=1, a(2)=3.",
   "id": "A124138",
   "mentions": [
     "A000012",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Rearrangement of even numbers such that a(n) + a(n+1) + 1 and a(n)*a(n+1) + 1 are primes for all n.",
+  "description": "Lexicographically first sequence of even positive numbers such that a(n) + a(n+1) + 1 and a(n)*a(n+1) + 1 are primes for all n.",
   "id": "A073665",
   "mentions": [
     "A073661",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

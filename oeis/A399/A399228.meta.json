@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*(n - k)!*(n + k)!.",
+  "id": "A399228",
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A009445",
+    "A110468"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

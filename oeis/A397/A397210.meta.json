@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted unlabeled 7-gonal cacti having n blocks.",
+  "id": "A397210",
+  "mentions": [
+    "A332648",
+    "A398575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

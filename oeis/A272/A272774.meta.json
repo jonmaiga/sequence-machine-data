@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n, k) = (n-k)*T(n-1, k-1) + k*T(n-1, k+1) except that T(n, k) = 0 if kn and T(n, n) = 1, for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows, T(n, k) = (n-k)*T(n-1, k-1) + k*T(n-1, k+1) except that T(n, k) = 0 if k<1 or k>n and T(n, n) = 1, for n>=0 and 0<=k<=n.",
   "id": "A272774",
   "mentions": [
     "A000522"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum number of residues mod M = 2n+1 left uncovered when, for every divisor d > 1 of M, exactly one residue class mod d is removed.",
+  "id": "A399152",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005408"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

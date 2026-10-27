@@ -1,13 +1,13 @@
 {
-  "description": "Determinant of the n X n matrix m(i,j)=C(i+j,abs(i-j)).",
+  "description": "Determinant of the n X n matrix m(i,j) = C(i+j,abs(i-j)).",
   "id": "A079660",
   "mentions": [],
   "tags": [
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
-    "source": "joeis"
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
   }
 }

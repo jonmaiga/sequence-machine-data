@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. sech(x)/(1-x).",
   "id": "A119884",
   "mentions": [
+    "A093178",
     "A119879",
     "A122045"
   ],

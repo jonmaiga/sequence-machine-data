@@ -2,9 +2,13 @@
   "description": "E.g.f. equals the series reversion of arctan(x) / exp(x).",
   "id": "A227465",
   "mentions": [
-    "A227466"
+    "A059419",
+    "A227466",
+    "A334854",
+    "A334855"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

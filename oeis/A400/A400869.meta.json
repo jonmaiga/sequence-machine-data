@@ -1,0 +1,30 @@
+{
+  "description": "The number of ordered pairs (k_1, k_2) of nonnegative integers bitwise covered by n such that k_1 + k_2 is also bitwise covered by n.",
+  "id": "A400869",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A003714",
+    "A004780",
+    "A007283",
+    "A007582",
+    "A007814",
+    "A014081",
+    "A069010",
+    "A080099",
+    "A090971",
+    "A245562",
+    "A400870"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

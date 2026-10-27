@@ -2,6 +2,7 @@
   "description": "Binary encoding of factorizations, alternative 2, a(n) = bef2(n);.",
   "id": "A048676",
   "mentions": [
+    "A000720",
     "A048623",
     "A048639",
     "A048672",

@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative integers x such that x^y+y^x is not prime for any integer y>1, y",
+  "description": "Nonnegative integers x such that x^y+y^x is not prime for any integer y>1, y<x.",
   "id": "A160044",
   "mentions": [
     "A094133",

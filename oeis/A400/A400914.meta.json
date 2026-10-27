@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic g-dimonoids of order n.",
+  "id": "A400914",
+  "mentions": [
+    "A027851",
+    "A400568",
+    "A400569",
+    "A400570",
+    "A400915"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

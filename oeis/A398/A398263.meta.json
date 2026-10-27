@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum number of unordered representations with repetition of an integer as x + y, where x and y are chosen from the set of distinct multinomial coefficient values of order n.",
+  "id": "A398263",
+  "mentions": [
+    "A070289",
+    "A210237",
+    "A398230",
+    "A398231",
+    "A398232",
+    "A398233",
+    "A398237",
+    "A398238",
+    "A398265",
+    "A398429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Digital roots of squares of Fibonacci numbers.",
   "id": "A216676",
   "mentions": [
+    "A000045",
     "A007598",
     "A010888",
     "A030132"

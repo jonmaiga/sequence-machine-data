@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k not divisible by any p^p and for which A003415(k) >= A276085(k), where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A400172",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A276085",
+    "A359550",
+    "A392869",
+    "A400171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that divide A400874(k).",
+  "id": "A401188",
+  "mentions": [
+    "A007358",
+    "A049417",
+    "A054862",
+    "A068978",
+    "A400874",
+    "A401189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

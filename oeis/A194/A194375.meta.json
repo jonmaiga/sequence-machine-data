@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(5) and < > denotes fractional part.",
+  "description": "Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(5) and < > denotes fractional part.",
   "id": "A194375",
   "mentions": [
     "A194368",

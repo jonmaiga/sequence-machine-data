@@ -1,0 +1,23 @@
+{
+  "description": "The maximum exponent in the prime factorization of the number preceding the n-th squarefree number.",
+  "id": "A399089",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A023504",
+    "A051903",
+    "A065469",
+    "A071403",
+    "A399088"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 89,
+    "source": "joeis"
+  }
+}

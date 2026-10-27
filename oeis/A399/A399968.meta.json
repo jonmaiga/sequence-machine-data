@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3*Pi^2/64.",
+  "id": "A399968",
+  "mentions": [
+    "A111003",
+    "A244854",
+    "A268508",
+    "A399485"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

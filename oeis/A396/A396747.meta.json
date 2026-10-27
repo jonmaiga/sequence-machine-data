@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m that are vampire numbers in at least one base b.",
+  "id": "A396747",
+  "mentions": [
+    "A014575",
+    "A394373"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

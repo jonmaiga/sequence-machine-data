@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the minimum of a cycle in the map x -> A257850(x) + A257297(x).",
+  "id": "A394429",
+  "mentions": [
+    "A257297",
+    "A257850",
+    "A368062"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

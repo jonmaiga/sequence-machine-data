@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: The Bell transform of the least common multiple of {1, 2, ..., n}. (LCM(n) = A003418(n)).",
+  "id": "A399666",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000914",
+    "A001303",
+    "A003418",
+    "A132393",
+    "A264428",
+    "A354794",
+    "A399667"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

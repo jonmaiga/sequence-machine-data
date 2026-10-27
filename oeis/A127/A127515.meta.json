@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest positive integer which does not occur earlier in the sequence and is such that sum{k=1 to n} 1/a(k) has a numerator which is prime (or is 1).",
+  "description": "a(n) is the smallest positive integer which does not occur earlier in the sequence and is such that Sum_{k=1..n} 1/a(k) has a numerator which is prime (or is 1).",
   "id": "A127515",
   "mentions": [
     "A076474",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

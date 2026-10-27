@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n using 1's and 2's such that the number of 1's and 2's differ by 0 or 1.",
+  "id": "A401031",
+  "mentions": [
+    "A001405",
+    "A002264",
+    "A008611"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

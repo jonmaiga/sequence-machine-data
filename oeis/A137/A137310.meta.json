@@ -2,14 +2,23 @@
   "description": "Numbers k such that a type-4 Gaussian normal basis over GF(2^k) exists.",
   "id": "A137310",
   "mentions": [
-    "A136415"
+    "A054639",
+    "A071642",
+    "A101284",
+    "A136415",
+    "A137311",
+    "A137313",
+    "A137314",
+    "A163777",
+    "A213050"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

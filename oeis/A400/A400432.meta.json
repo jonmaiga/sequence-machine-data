@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + 3*x*A(3*x)^(1/3).",
+  "id": "A400432",
+  "mentions": [
+    "A135866"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

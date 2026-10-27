@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A006530(k) divides A276085(k), where A006530(k) is the largest prime dividing k, 1 if k is 1, and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401232",
+  "mentions": [
+    "A006530",
+    "A276085",
+    "A373361",
+    "A401066",
+    "A401229",
+    "A401231",
+    "A401233",
+    "A401234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

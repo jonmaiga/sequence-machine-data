@@ -1,0 +1,20 @@
+{
+  "description": "Number self-conjugate skew Ferrers diagrams with n cells that are edge-connected.",
+  "id": "A400668",
+  "mentions": [
+    "A006958",
+    "A075125",
+    "A161492",
+    "A400281",
+    "A400669"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

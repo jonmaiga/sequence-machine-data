@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers k < 2^n that take the same number of Collatz steps to reach 1 as k-1 or k+1.",
+  "id": "A400487",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A078417",
+    "A078441",
+    "A277109",
+    "A400486"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, where column k is the increasing list of all primes p such that (p+k)^2+k is prime but (p+j)^2+j is not prime for all 0",
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, where column k is the increasing list of all primes p such that (p+k)^2+k is prime but (p+j)^2+j is not prime for all 0<j<k.",
   "id": "A238086",
   "mentions": [
     "A157468",

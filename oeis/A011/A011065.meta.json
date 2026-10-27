@@ -1,10 +1,13 @@
 {
   "description": "Decimal expansion of 4th root of 73.",
   "id": "A011065",
-  "mentions": [],
+  "mentions": [
+    "A010525"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,14 +1,17 @@
 {
   "description": "Number of 2-split Berge perfect graphs on n nodes.",
   "id": "A123470",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A052431"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

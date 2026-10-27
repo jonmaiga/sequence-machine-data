@@ -1,0 +1,20 @@
+{
+  "description": "Number of strict partitions of n such that if k is the number of parts then no part is divisible by k.",
+  "id": "A398979",
+  "mentions": [
+    "A000009",
+    "A240855",
+    "A240861",
+    "A399879"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

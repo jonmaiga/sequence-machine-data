@@ -2,15 +2,20 @@
   "description": "Number of (n+1) X (1+1) 0..1 arrays with each 2 X 2 subblock having clockwise pattern 0000 0011 or 0101.",
   "id": "A259215",
   "mentions": [
+    "A000045",
+    "A000079",
+    "A003714",
+    "A259216",
     "A259222"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 33,
     "source": "joeis"
   }
 }

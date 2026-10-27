@@ -1,0 +1,20 @@
+{
+  "description": "Power chains: Number of essentially different linear (non-circular) permutations of the numbers 1 to n such that the sum of adjacent numbers is a perfect power, while the sum of the first and last numbers is not a perfect power.",
+  "id": "A399783",
+  "mentions": [
+    "A001597",
+    "A398909",
+    "A399784",
+    "A399785",
+    "A399786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

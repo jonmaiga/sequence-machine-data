@@ -2,6 +2,7 @@
   "description": "Triangle of coefficients in expansion of (1 + 13*x)^n.",
   "id": "A123187",
   "mentions": [
+    "A001022",
     "A001023",
     "A013609",
     "A013610",
@@ -11,6 +12,7 @@
     "A038222"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

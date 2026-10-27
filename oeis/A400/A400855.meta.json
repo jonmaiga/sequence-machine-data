@@ -1,0 +1,20 @@
+{
+  "description": "Values taken by A046073.",
+  "id": "A400855",
+  "mentions": [
+    "A046073",
+    "A079612",
+    "A396684",
+    "A398925",
+    "A399566",
+    "A400852"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

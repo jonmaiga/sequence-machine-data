@@ -1,0 +1,16 @@
+{
+  "description": "Number of minimal connected dominating sets in the n-antiprism graph.",
+  "id": "A399233",
+  "mentions": [
+    "A137495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 32,
+    "source": "joeis"
+  }
+}

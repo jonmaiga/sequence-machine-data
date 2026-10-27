@@ -1,5 +1,5 @@
 {
-  "description": "Sign(n) (with offset -1): a(n) = 1 if n>0, = -1 if n",
+  "description": "Sign(n) (with offset -1): a(n) = 1 if n>0, = -1 if n<0, = 0 if n = 0.",
   "id": "A261012",
   "mentions": [
     "A000004",

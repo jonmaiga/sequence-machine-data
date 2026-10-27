@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of (sqrt(33) - 3)/8.",
+  "id": "A400357",
+  "mentions": [
+    "A002194",
+    "A010488",
+    "A010701",
+    "A019913",
+    "A020760",
+    "A020761",
+    "A020773",
+    "A152422",
+    "A399814",
+    "A400358",
+    "A400359"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

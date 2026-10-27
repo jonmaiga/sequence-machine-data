@@ -2,8 +2,10 @@
   "description": "Number of partitions of n with exactly one repeated part and that part is even.",
   "id": "A341496",
   "mentions": [
+    "A001620",
     "A090867",
     "A116680",
+    "A305082",
     "A341494",
     "A341495",
     "A341497"

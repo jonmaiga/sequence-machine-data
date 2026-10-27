@@ -1,15 +1,17 @@
 {
-  "description": "Primes of the form perfect_power(n)+n.",
+  "description": "Primes of the form perfect_power(k) + k.",
   "id": "A075781",
   "mentions": [
-    "A001597"
+    "A001597",
+    "A074321"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

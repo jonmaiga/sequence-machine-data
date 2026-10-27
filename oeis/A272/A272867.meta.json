@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = GegenbauerC(m,-n,-2) where m = k if k=0 and 0<=k<=2n.",
+  "description": "Triangle read by rows, T(n,k) = GegenbauerC(m,-n,-2) where m = k if k<n else 2*n-k, for n>=0 and 0<=k<=2n.",
   "id": "A272867",
   "mentions": [
     "A005572",

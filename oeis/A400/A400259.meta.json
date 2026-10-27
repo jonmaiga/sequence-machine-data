@@ -1,0 +1,26 @@
+{
+  "description": "Sum of digits when n' [the arithmetic derivative of n] is written in primorial base (A049345).",
+  "id": "A400259",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A049345",
+    "A276150",
+    "A327859",
+    "A328232",
+    "A400258",
+    "A400260",
+    "A400262"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

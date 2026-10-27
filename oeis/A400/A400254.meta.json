@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose k-th arithmetic derivative is zero for some k, but which themselves are not derivative of any number.",
+  "id": "A400254",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A098700",
+    "A099302",
+    "A099307",
+    "A099308",
+    "A189760",
+    "A400255"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

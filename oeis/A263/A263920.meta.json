@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is in this sequence iff arctan(n)^2 can be represented as Sum_{0",
+  "description": "A positive integer n is in this sequence iff arctan(n)^2 can be represented as Sum_{0<k<n} c(k)*arctan(k)^2 with rational c(k). The terms are in increasing order.",
   "id": "A263920",
   "mentions": [
     "A002312",

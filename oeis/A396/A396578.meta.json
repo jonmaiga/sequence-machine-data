@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of labeled directed acyclic graphs on [n] with no isolated points.",
+  "id": "A396578",
+  "mentions": [
+    "A003024",
+    "A399479"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

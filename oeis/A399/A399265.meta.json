@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having two factor pairs whose absolute pairwise differences form the legs of a primitive Pythagorean triple.",
+  "id": "A399265",
+  "mentions": [
+    "A002378",
+    "A008606",
+    "A020882",
+    "A020883",
+    "A020884",
+    "A094807"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Created by removing all integers which take an odd number of nested digit sums to reach",
+  "description": "Created by removing all integers which take an odd number of nested digit sums to reach <10.",
   "id": "A075517",
   "mentions": [
     "A007953",

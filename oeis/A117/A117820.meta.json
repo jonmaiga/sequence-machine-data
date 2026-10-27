@@ -1,8 +1,10 @@
 {
-  "description": "Numbers such that UnitaryPhi(2*UnitaryPhi(n)) = n.",
+  "description": "Numbers k such that UnitaryPhi(2*UnitaryPhi(k)) = k.",
   "id": "A117820",
   "mentions": [
-    "A047994"
+    "A019434",
+    "A047994",
+    "A120453"
   ],
   "tags": [
     "nonn"

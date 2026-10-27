@@ -2,13 +2,15 @@
   "description": "Sum of every 4th entry of row n in Pascal's triangle, starting at \"n choose 0\".",
   "id": "A038503",
   "mentions": [
+    "A000225",
     "A000749",
     "A024493",
     "A024494",
     "A024495",
     "A038504",
     "A038505",
-    "A098173"
+    "A098173",
+    "A146559"
   ],
   "tags": [
     "easy",

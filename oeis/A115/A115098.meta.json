@@ -2,7 +2,8 @@
   "description": "a(0) = 2, a(n) = 3*a(n-1) - 3.",
   "id": "A115098",
   "mentions": [
-    "A067771"
+    "A067771",
+    "A178674"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

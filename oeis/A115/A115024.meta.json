@@ -2,12 +2,16 @@
   "description": "Natural numbers n such that the number of prime factors of n (counted with multiplicity) is equal to the number of decimal digits of n.",
   "id": "A115024",
   "mentions": [
+    "A001222",
+    "A036338",
+    "A055642",
     "A165256",
     "A167050"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * O(k,2)/k, where O(k,2) = A120268(k)/A128492(k) is the k-th odd harmonic number (or harmonic number of the second kind) of order 2.",
+  "id": "A399224",
+  "mentions": [
+    "A002117",
+    "A006752",
+    "A120268",
+    "A128492",
+    "A393257"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled Ferrers relations on an n-element set.",
+  "id": "A399544",
+  "mentions": [
+    "A048163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

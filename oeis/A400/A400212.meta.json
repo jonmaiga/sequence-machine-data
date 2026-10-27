@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k > R(k) such that k - R(k) = floor(k/10) where R(k) is the digit reversal of k.",
+  "id": "A400212",
+  "mentions": [
+    "A004086",
+    "A113602"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

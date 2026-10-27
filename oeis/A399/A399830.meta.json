@@ -1,0 +1,30 @@
+{
+  "description": "The number of divisors d of n such that gcud(d, n/d) is a square, where gcud is the greatest common unitary divisor.",
+  "id": "A399830",
+  "mentions": [
+    "A000290",
+    "A077610",
+    "A165430",
+    "A225174",
+    "A286324",
+    "A365171",
+    "A384244",
+    "A399828",
+    "A399829",
+    "A399831",
+    "A399832",
+    "A399833",
+    "A399836"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

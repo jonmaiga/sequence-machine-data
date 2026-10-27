@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) = phi(k) + tau(k)^5.",
+  "id": "A399944",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A055932",
+    "A399226",
+    "A399540"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

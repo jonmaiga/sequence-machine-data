@@ -1,5 +1,5 @@
 {
-  "description": "Total counts of distinct (directed) Hamiltonian cycles for all simple graphs of order n.",
+  "description": "Total number of (directed) Hamiltonian cycles for all simple graphs of order n.",
   "id": "A124964",
   "mentions": [
     "A193352",

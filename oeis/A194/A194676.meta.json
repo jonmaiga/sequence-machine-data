@@ -1,5 +1,5 @@
 {
-  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part.",
+  "description": "Number of k in [1,n] for which <e^n>+<e^k> > 1, where < > = fractional part.",
   "id": "A194676",
   "mentions": [
     "A194675",

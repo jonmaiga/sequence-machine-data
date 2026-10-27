@@ -1,0 +1,20 @@
+{
+  "description": "Number of antichains of nonempty subsets of [n] whose elements have size at most 3.",
+  "id": "A399624",
+  "mentions": [
+    "A000372",
+    "A014466",
+    "A039718",
+    "A379712"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

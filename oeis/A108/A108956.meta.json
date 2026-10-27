@@ -1,9 +1,7 @@
 {
   "description": "a(n) = floor(R(2n) - R(n)).",
   "id": "A108956",
-  "mentions": [
-    "A108955"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

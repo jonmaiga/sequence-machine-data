@@ -2,7 +2,8 @@
   "description": "Least k such that k*2^m + 1 has a covering set with precisely n primes.",
   "id": "A206001",
   "mentions": [
-    "A076336"
+    "A076336",
+    "A206430"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 6,
-    "size": 4,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

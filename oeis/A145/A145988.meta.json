@@ -1,8 +1,8 @@
 {
-  "description": "Ending prime: n-th prime in the first occurrence of n consecutive primes of the form 4k + 3.",
+  "description": "n-th prime in the first occurrence of at least n consecutive primes of the form 4k + 3.",
   "id": "A145988",
   "mentions": [
-    "A054624",
+    "A054678",
     "A055623",
     "A055624",
     "A145986",
@@ -14,11 +14,13 @@
     "A145994"
   ],
   "tags": [
+    "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

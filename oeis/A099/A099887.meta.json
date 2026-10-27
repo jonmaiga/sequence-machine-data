@@ -2,6 +2,7 @@
   "description": "XOR difference triangle of the powers of 3, read by rows.",
   "id": "A099887",
   "mentions": [
+    "A000244",
     "A047999",
     "A099884",
     "A099888"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

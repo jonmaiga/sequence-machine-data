@@ -1,0 +1,18 @@
+{
+  "description": "Number of Gauss diagrams of meander curves with 2n+1 crossings.",
+  "id": "A399316",
+  "mentions": [
+    "A005316",
+    "A338660"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

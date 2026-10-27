@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals giving number of paths up and left from (0,0) to (n,k) where x/y",
+  "description": "Array read by antidiagonals giving number of paths up and left from (0,0) to (n,k) where x/y<n/k (except at start and finish).",
   "id": "A071202",
   "mentions": [
     "A000108",

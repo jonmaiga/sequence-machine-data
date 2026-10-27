@@ -1,0 +1,24 @@
+{
+  "description": "Final term in n-fold commas sequence started at 1, or -1 if that sequence is infinite.",
+  "id": "A400683",
+  "mentions": [
+    "A121805",
+    "A365872",
+    "A365873",
+    "A365874",
+    "A400678",
+    "A400681",
+    "A400682"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of rational numbers p/q such that 0",
+  "description": "Number of rational numbers p/q such that 0<p<q<=n and p/q<=(greatest quotient of consecutive Fibonacci numbers having denominator <= n).",
   "id": "A207524",
   "mentions": [
     "A207525"

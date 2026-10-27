@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of triangular array: T(n,1)=T(n,n)=1/n and T(n,k)=T(n-1,k-1)+T(n-1,k), 1",
+  "description": "Numerators of triangular array: T(n,1)=T(n,n)=1/n and T(n,k)=T(n-1,k-1)+T(n-1,k), 1<k<n.",
   "id": "A080044",
   "mentions": [
     "A007318",

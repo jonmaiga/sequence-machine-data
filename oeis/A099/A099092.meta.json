@@ -2,6 +2,7 @@
   "description": "Riordan array (1,2+4x).",
   "id": "A099092",
   "mentions": [
+    "A000079",
     "A026729",
     "A038210",
     "A052907",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 69,
+    "size": 66,
     "source": "joeis"
   }
 }

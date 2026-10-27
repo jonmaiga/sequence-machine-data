@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k of the form q(k)^2 * rad(k), where rad = A007947, and q(k) the second smallest distinct prime factor of k.",
+  "id": "A398802",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A007947",
+    "A119288",
+    "A120944",
+    "A124010",
+    "A126706",
+    "A332785",
+    "A360793",
+    "A397487",
+    "A398302",
+    "A398375",
+    "A398442",
+    "A400801"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

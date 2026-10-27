@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the arithmetic mean of the unitary divisors of n is a prime number.",
+  "description": "Numbers k such that the arithmetic mean of the unitary divisors of k is a prime number.",
   "id": "A192577",
   "mentions": [
     "A000215",

@@ -1,0 +1,43 @@
+{
+  "description": "a(n) is the number of distinct nonzero eigenvalues of the n X n matrix M with M(i,j) = 1 if |i-j| <= 3 and M(i,j) = 0 otherwise.",
+  "id": "A394665",
+  "mentions": [
+    "A124999",
+    "A125316",
+    "A125317",
+    "A125318",
+    "A125319",
+    "A125320",
+    "A125321",
+    "A125322",
+    "A125323",
+    "A125324",
+    "A125325",
+    "A125326",
+    "A125327",
+    "A125328",
+    "A125329",
+    "A125330",
+    "A125331",
+    "A125332",
+    "A125333",
+    "A125334",
+    "A125335",
+    "A125336",
+    "A125337",
+    "A125338",
+    "A125339",
+    "A125340",
+    "A125341",
+    "A125342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

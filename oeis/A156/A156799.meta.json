@@ -2,7 +2,11 @@
   "description": "Indices of 1's in Gijswijt's sequence A090822.",
   "id": "A156799",
   "mentions": [
-    "A090822"
+    "A090822",
+    "A157041",
+    "A157107",
+    "A157334",
+    "A157644"
   ],
   "tags": [
     "nonn"

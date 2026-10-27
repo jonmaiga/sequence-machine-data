@@ -1,5 +1,5 @@
 {
-  "description": "Take n-th prime p, let P = all primes having same digits; a(n) = q-p where q is smallest prime in P >p if q exists; otherwise a(n) = p-r where r is largest prime in P",
+  "description": "Take n-th prime p, let P = all primes having same digits; a(n) = q-p where q is smallest prime in P >p if q exists; otherwise a(n) = p-r where r is largest prime in P <p if r exists; otherwise a(n) = 0.",
   "id": "A052495",
   "mentions": [
     "A052494",

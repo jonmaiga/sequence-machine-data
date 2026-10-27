@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x satisfying x^2 - 4 = csc(x) and 0",
+  "description": "Decimal expansion of least x satisfying x^2 - 4 = csc(x) and 0<x<Pi.",
   "id": "A201737",
   "mentions": [
     "A201564",

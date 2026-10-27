@@ -1,13 +1,17 @@
 {
-  "description": "Sum{gcd(k^2 + t^2, n) * cos(2*Pi*(k^2 + t^2)/n): 0",
+  "description": "a(n) = Sum_{0 < k,t <= n} gcd(k^2 + t^2, n) * cos(2*Pi*(k^2 + t^2)/n).",
   "id": "A239444",
-  "mentions": [],
+  "mentions": [
+    "A334427"
+  ],
   "tags": [
+    "formulas",
+    "mult",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

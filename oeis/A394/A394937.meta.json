@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n lists in increasing order the distinct entries m of the n X n multiplication table that can be written in the form (n-u)*(n-v), where 1 <= u <= v, u+v <= n, and u*v <= n.",
+  "id": "A394937",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A006218",
+    "A091627",
+    "A394016",
+    "A398590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

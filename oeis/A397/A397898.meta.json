@@ -1,0 +1,17 @@
+{
+  "description": "Values of the discriminant b^2 - 4*a*c of the quadratic equation a*x^2 + b*x + c = 0 for triples (a, b, c) of positive numbers, ordered first by their sum and then component-wise.",
+  "id": "A397898",
+  "mentions": [
+    "A057557",
+    "A379597"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes q",
+  "description": "Number of primes q<prime(n) such that q+1 divides prime(n)+1.",
   "id": "A084196",
   "mentions": [
     "A049084",

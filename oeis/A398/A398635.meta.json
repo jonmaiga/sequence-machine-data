@@ -1,0 +1,18 @@
+{
+  "description": "Number of interior lattice points of [0,2n]^2 visible from all four vertices.",
+  "id": "A398635",
+  "mentions": [
+    "A049691",
+    "A300778",
+    "A339400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the expected number of zeros of a+b*e^z satisfying |z|",
+  "description": "Decimal expansion of the expected number of zeros of a+b*e^z satisfying |z|<1, a and b being random complex Gaussian coefficients.",
   "id": "A242052",
   "mentions": [],
   "tags": [

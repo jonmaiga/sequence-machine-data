@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic posets on n elements with trivial automorphism group.",
+  "id": "A399107",
+  "mentions": [
+    "A000112",
+    "A091070"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

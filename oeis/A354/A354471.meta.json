@@ -5,13 +5,12 @@
     "A348305"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

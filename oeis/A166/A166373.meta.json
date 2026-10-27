@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows for floor(j^2 / n) with n >= 2 and 1<=j",
+  "description": "Triangle read by rows for floor(j^2 / n) with n >= 2 and 1<=j<n.",
   "id": "A166373",
   "mentions": [
     "A165974",

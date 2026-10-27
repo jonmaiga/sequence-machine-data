@@ -1,5 +1,5 @@
 {
-  "description": "Let S be the sequence Fibonacci(2n), n>0 (cf. A001906); sequence lists the differences S(j)-S(i) for i",
+  "description": "Let S be the sequence Fibonacci(2n), n>0 (cf. A001906); sequence lists the differences S(j)-S(i) for i<j.",
   "id": "A169690",
   "mentions": [
     "A000045",

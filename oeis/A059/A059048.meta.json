@@ -3,14 +3,17 @@
   "id": "A059048",
   "mentions": [
     "A059049",
-    "A059052"
+    "A059052",
+    "A059119"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 69,
+    "source": "oeis-bfile"
   }
 }

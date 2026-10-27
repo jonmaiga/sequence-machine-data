@@ -1,5 +1,5 @@
 {
-  "description": "Unitary untouchable numbers: us(x) = n has no solution where us(x) (A063919) is the sum of the proper unitary divisors of x.",
+  "description": "Unitary untouchable numbers: Numbers k such that us(x) = k has no solution where us(x) (A063919) is the sum of the proper unitary divisors of x.",
   "id": "A063948",
   "mentions": [
     "A034448",

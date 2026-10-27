@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,m) = (binomial(n-1,m)/(n-1))*Sum_{j=0..m} binomial(m,j)*binomial(2*(n-m-1),m-j-1)*2^(2*n-3*m+j-1), with 1 <= m <= n - 1.",
+  "id": "A399034",
+  "mentions": [
+    "A000012",
+    "A000302",
+    "A399033"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

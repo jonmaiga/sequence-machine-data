@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^3*sech(sqrt(3)*Pi/2)/4.",
+  "id": "A401344",
+  "mentions": [
+    "A010527",
+    "A019669",
+    "A091925",
+    "A401343",
+    "A401345",
+    "A401346",
+    "A401347"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

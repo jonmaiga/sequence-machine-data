@@ -1,5 +1,5 @@
 {
-  "description": "Total surface area of all rectangular prisms with dimensions p X q X q, where p and q are prime, n = p+q and p",
+  "description": "Total surface area of all rectangular prisms with dimensions p X q X q, where p and q are prime, n = p+q and p<q.",
   "id": "A335188",
   "mentions": [
     "A010051"

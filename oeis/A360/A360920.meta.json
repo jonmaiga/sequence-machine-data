@@ -2,10 +2,13 @@
   "description": "Array read by antidiagonals: T(m,n) is the maximum number of vertices in an induced tree in the grid graph P_m X P_n.",
   "id": "A360920",
   "mentions": [
+    "A000027",
+    "A007494",
     "A360915",
     "A360917",
     "A360918",
-    "A360921"
+    "A360921",
+    "A398270"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "9-section a(9n+k) gives k-th differences of a for k=0..8 with a(n)=0 for n",
+  "description": "9-section a(9n+k) gives k-th differences of a for k=0..8 with a(n)=0 for n<8 and a(8)=1.",
   "id": "A229659",
   "mentions": [
     "A005590",

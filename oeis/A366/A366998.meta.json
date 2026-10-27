@@ -1,11 +1,13 @@
 {
-  "description": "a(n) is the numerator of the maximum expected number of steps of a random walk on the square lattice until it lands on a mined lattice point, given that mines are placed on all but n points.",
+  "description": "a(n) is the numerator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyomino island.",
   "id": "A366998",
   "mentions": [
+    "A000105",
     "A365964",
     "A366999",
     "A369368",
-    "A369370"
+    "A369370",
+    "A397795"
   ],
   "tags": [
     "frac",

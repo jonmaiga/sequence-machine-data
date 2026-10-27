@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected quasi-cubic graphs on 2*n + 1 vertices.",
+  "id": "A398639",
+  "mentions": [
+    "A005638",
+    "A398638",
+    "A398640",
+    "A398641",
+    "A399015"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of k-element subsets S of {1,...,n} such that mean(S)",
+  "description": "Number of k-element subsets S of {1,...,n} such that mean(S)<median(S).",
   "id": "A212149",
   "mentions": [
     "A212139",

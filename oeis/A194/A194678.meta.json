@@ -1,5 +1,5 @@
 {
-  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part; row sums of A164677.",
+  "description": "Number of k in [1,n] for which <n*e>+<k*e> > 1, where < > = fractional part; row sums of A164677.",
   "id": "A194678",
   "mentions": [
     "A164677",

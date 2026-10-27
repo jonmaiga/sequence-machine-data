@@ -2,7 +2,11 @@
   "description": "Decimal expansion of Varga's constant.",
   "id": "A073007",
   "mentions": [
-    "A072558"
+    "A072558",
+    "A193219",
+    "A261976",
+    "A261977",
+    "A261978"
   ],
   "tags": [
     "cons",

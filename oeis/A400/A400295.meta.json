@@ -1,0 +1,23 @@
+{
+  "description": "Successor function of Conway's POLYGAME FRACTRAN program, with -1 for values where it isn't defined.",
+  "id": "A400295",
+  "mentions": [
+    "A202138",
+    "A203363",
+    "A203907",
+    "A350555",
+    "A350556",
+    "A350663",
+    "A350664",
+    "A395539"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

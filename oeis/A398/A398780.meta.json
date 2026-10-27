@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonequivalent neighborhood-Sperner graphs on n vertices.",
+  "id": "A398780",
+  "mentions": [
+    "A399817",
+    "A399822"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

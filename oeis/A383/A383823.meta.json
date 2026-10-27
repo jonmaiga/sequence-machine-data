@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of secondary GL(4) invariants contructed from n+3 distinct four component vectors.",
+  "description": "a(n) is the number of secondary GL(4) invariants constructed from n+3 distinct four component vectors.",
   "id": "A383823",
   "mentions": [
     "A000891",

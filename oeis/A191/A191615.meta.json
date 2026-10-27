@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) is the smallest number such that a(n)-a(n-1) = A085392 (m), where A085392(m) is the largest noncomposite divisor",
+  "description": "a(1) = 1; a(n) is the smallest number such that a(n)-a(n-1) = A085392 (m), where A085392(m) is the largest noncomposite divisor <m of m.",
   "id": "A191615",
   "mentions": [
     "A085392",

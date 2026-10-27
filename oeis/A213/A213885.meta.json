@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime numbers of the form (10^k-1)*10^n-1 with 0",
+  "description": "Number of prime numbers of the form (10^k-1)*10^n-1 with 0<k<=2*n.",
   "id": "A213885",
   "mentions": [
     "A213886"

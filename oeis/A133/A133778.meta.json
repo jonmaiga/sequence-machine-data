@@ -1,5 +1,5 @@
 {
-  "description": "Odd primitive abundant numbers of the form (2*P)^2+2*P+p^2 with P and p primes and p^2",
+  "description": "Odd primitive abundant numbers of the form (2*P)^2+2*P+p^2 with P and p primes and p^2<4*P.",
   "id": "A133778",
   "mentions": [
     "A006038"

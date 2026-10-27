@@ -1,5 +1,5 @@
 {
-  "description": "First of a pair of twin primes of the form n^2+x with x",
+  "description": "First of a pair of twin primes of the form n^2+x with x<2*n, or 0 if no such prime exist.",
   "id": "A143509",
   "mentions": [
     "A091592"

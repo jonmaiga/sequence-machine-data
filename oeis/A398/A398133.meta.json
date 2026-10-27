@@ -1,0 +1,30 @@
+{
+  "description": "The binomial matrix of the Bernoulli numbers, square array read by ascending antidiagonals, the numerators.",
+  "id": "A398133",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A014781",
+    "A027642",
+    "A085737",
+    "A085738",
+    "A110501",
+    "A164555",
+    "A164558",
+    "A196838",
+    "A297703",
+    "A398134",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

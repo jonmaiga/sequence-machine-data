@@ -2,9 +2,13 @@
   "description": "Smallest prime dividing 2^n - 1.",
   "id": "A049479",
   "mentions": [
+    "A000043",
     "A005420",
+    "A016027",
+    "A016047",
     "A020639",
-    "A236769"
+    "A236769",
+    "A292559"
   ],
   "tags": [
     "formulas",

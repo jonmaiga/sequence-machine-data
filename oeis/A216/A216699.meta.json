@@ -2,13 +2,16 @@
   "description": "Digital root of cubes of Fibonacci numbers.",
   "id": "A216699",
   "mentions": [
+    "A000045",
     "A004090",
+    "A010888",
     "A056570",
     "A216676"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,15 @@
+{
+  "description": "Number of integers r, 1<=r<n, such that L(n*r) < L(n*r+1) where L(x) is the largest divisor of x <= the square root of x.",
+  "id": "A398333",
+  "mentions": [
+    "A033676"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -5,17 +5,23 @@
     "A000108",
     "A000245",
     "A000682",
-    "A067324"
+    "A046726",
+    "A067324",
+    "A259689",
+    "A259698",
+    "A259703",
+    "A331499",
+    "A339179",
+    "A400429"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

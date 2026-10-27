@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected transitive relations on n unlabeled points with no isolated point and exactly k related pairs, 1 <= k <= n^2.",
+  "id": "A399913",
+  "mentions": [
+    "A091073",
+    "A122086",
+    "A125702",
+    "A296105",
+    "A399030",
+    "A399304",
+    "A399767",
+    "A399771"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

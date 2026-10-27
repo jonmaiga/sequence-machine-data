@@ -9,15 +9,17 @@
     "A007814",
     "A070939",
     "A209229",
-    "A215673"
+    "A215673",
+    "A401246"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

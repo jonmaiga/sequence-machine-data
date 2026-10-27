@@ -1,9 +1,15 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*7^(i-j)*5^j.",
   "id": "A038271",
-  "mentions": [],
+  "mentions": [
+    "A000351",
+    "A000420",
+    "A001021",
+    "A007318"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

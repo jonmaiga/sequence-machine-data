@@ -1,5 +1,5 @@
 {
-  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(2).",
+  "description": "Number of k in [1,n] for which <r^n>+<r^k> > 1, where < > = fractional part and r = sqrt(2).",
   "id": "A194663",
   "mentions": [
     "A194664",

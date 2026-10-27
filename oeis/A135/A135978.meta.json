@@ -2,7 +2,9 @@
   "description": "Primes p such that 2^p-1 has exactly 2 prime factors.",
   "id": "A135978",
   "mentions": [
+    "A000043",
     "A000225",
+    "A000668",
     "A054723",
     "A065341",
     "A134852",
@@ -11,6 +13,7 @@
     "A135977"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

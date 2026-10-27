@@ -1,0 +1,19 @@
+{
+  "description": "The binomial matrix of the Lucas numbers. Square array read by ascending antidiagonals.",
+  "id": "A398987",
+  "mentions": [
+    "A000032",
+    "A005248",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

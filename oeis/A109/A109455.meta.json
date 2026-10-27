@@ -2,6 +2,7 @@
   "description": "Number of equivalence classes of threshold functions under permutations of the variables.",
   "id": "A109455",
   "mentions": [
+    "A000609",
     "A000617",
     "A001529",
     "A002078"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

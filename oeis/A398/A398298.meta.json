@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists the numbers whose binary representation forms a valid row/column on a 2*n X 2*n Takuzu board.",
+  "id": "A398298",
+  "mentions": [
+    "A063037",
+    "A072601",
+    "A177790",
+    "A253316"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

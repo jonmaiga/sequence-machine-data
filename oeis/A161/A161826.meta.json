@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal vertex-independent sets in the hypergraph with nodes V = {1, 2, ..., n} and \"edges\" consisting of the triples (X,Y,Z) with X",
+  "description": "Number of maximal vertex-independent sets in the hypergraph with nodes V = {1, 2, ..., n} and \"edges\" consisting of the triples (X,Y,Z) with X<Y<Z and X+Y=Z.",
   "id": "A161826",
   "mentions": [
     "A002848",

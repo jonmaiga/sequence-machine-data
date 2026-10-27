@@ -1,0 +1,22 @@
+{
+  "description": "The exponent of the highest power of 2 dividing the number preceding the n-th squarefree number.",
+  "id": "A400525",
+  "mentions": [
+    "A005117",
+    "A007814",
+    "A023506",
+    "A339813",
+    "A399089",
+    "A400524"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 92,
+    "source": "joeis"
+  }
+}

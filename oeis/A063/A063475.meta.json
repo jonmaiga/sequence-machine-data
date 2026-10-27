@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d | H(n)} d^2, where H(n) is the Half-Totient function (A023022).",
+  "description": "a(n) = Sum_{d | H(n)} d^2, where H(n) is the half-totient function (A023022).",
   "id": "A063475",
   "mentions": [
     "A023022"

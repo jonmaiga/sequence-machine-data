@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k<n and s(k)=k(k+1)(k+2)/6.",
   "id": "A206826",
   "mentions": [
     "A206590"

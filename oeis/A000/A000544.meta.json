@@ -1,7 +1,8 @@
 {
-  "description": "Number of permutations of length n by rises.",
+  "description": "One-half of the number of permutations p of [n] having exactly two runs of adjacent entries differing by 1.",
   "id": "A000544",
   "mentions": [
+    "A000239",
     "A010030"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 4,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

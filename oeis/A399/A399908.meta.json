@@ -1,0 +1,18 @@
+{
+  "description": "First elements of the rows of the greedy infinite quasi-barrycade (recursively defined family of quasi-permutations having pairwise disjoint sets of partial sums).",
+  "id": "A399908",
+  "mentions": [
+    "A399897",
+    "A399907",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

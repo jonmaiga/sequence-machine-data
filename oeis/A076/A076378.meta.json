@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k!-x!-1 is never prime for x",
+  "description": "Numbers k such that k!-x!-1 is never prime for x<k.",
   "id": "A076378",
   "mentions": [
     "A076379"

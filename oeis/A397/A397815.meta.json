@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of different ways to tile an n X n square lattice with corners, up to rotations and reflections.",
+  "id": "A397815",
+  "mentions": [
+    "A006125",
+    "A059487",
+    "A134438",
+    "A220054",
+    "A372145",
+    "A374153"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

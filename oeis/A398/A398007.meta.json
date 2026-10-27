@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the largest k such that the vertices of a k X k grid can be painted in n colors without having any 3 collinear vertices of the same color.",
+  "id": "A398007",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

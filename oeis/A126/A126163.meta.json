@@ -1,5 +1,5 @@
 {
-  "description": "Number of super unitary amicable pairs (i,j) with i",
+  "description": "Number of super unitary amicable pairs (i,j) with i<j and i<=10^n.",
   "id": "A126163",
   "mentions": [
     "A045613",

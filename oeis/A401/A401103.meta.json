@@ -1,0 +1,18 @@
+{
+  "description": "Limit of A401100(n)/(5/2)^n.",
+  "id": "A401103",
+  "mentions": [
+    "A083286",
+    "A390321",
+    "A401100"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

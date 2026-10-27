@@ -1,14 +1,19 @@
 {
   "description": "Number of BIP* perfect graphs on n nodes.",
   "id": "A123407",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A033995",
+    "A052431",
+    "A123405"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

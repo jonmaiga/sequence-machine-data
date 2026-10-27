@@ -1,0 +1,15 @@
+{
+  "description": "The number of order-preserving or reversing partial permutations of an n-element set.",
+  "id": "A400941",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Number of cribbage hands with score n.",
+  "description": "Number of cribbage hands with score n when flush points are omitted.",
   "id": "A143133",
   "mentions": [
     "A066354"
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

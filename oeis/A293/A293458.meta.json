@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of probability that a permutation of elements of some subset of set {1,2,...,n} is a permutation of elements of some set of the form 1..k, k <= n.",
+  "description": "Numerator of (Sum_{k=0..n} k!)/(Sum_{k=0..n} binomial(n,k)!).",
   "id": "A293458",
   "mentions": [
     "A014288",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit Proth numbers.",
+  "id": "A399746",
+  "mentions": [
+    "A080075",
+    "A080076",
+    "A398340"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

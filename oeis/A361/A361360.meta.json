@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonequivalent noncrossing caterpillars with n edges up to rotation and relection.",
+  "description": "Number of nonequivalent noncrossing caterpillars with n edges up to rotation and reflection.",
   "id": "A361360",
   "mentions": [
     "A296533",

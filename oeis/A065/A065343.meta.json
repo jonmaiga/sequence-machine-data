@@ -2,6 +2,7 @@
   "description": "Smallest k such that usigma(n+k) = usigma(k).",
   "id": "A065343",
   "mentions": [
+    "A007365",
     "A034448"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

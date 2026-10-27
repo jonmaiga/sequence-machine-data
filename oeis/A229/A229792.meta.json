@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that there exists an m such that n is the sum of m distinct nonzero digits (with 1",
+  "description": "Numbers n with the property that there exists an m such that n is the sum of m distinct nonzero digits (with 1<m<10) in a unique way.",
   "id": "A229792",
   "mentions": [],
   "tags": [

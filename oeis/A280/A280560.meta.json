@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (-1)^n * 2 if n!=0, with a(0) = 1.",
+  "description": "a(n) = (-1)^n * 2 except for a(0) = 1.",
   "id": "A280560",
   "mentions": [
     "A033999",

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p + reversal of p) - 1 is prime.",
+  "id": "A399028",
+  "mentions": [
+    "A004086",
+    "A061227",
+    "A333081"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

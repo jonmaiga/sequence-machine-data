@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hausdorff set systems on an n-set with neither the empty set nor the full set.",
+  "id": "A398881",
+  "mentions": [
+    "A059088",
+    "A059523",
+    "A326961"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Transposition sequence of the Tchoukaillon array of order infinity (A344009).",
+  "id": "A399877",
+  "mentions": [
+    "A000960",
+    "A002491",
+    "A114579",
+    "A344009",
+    "A399764"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(3*x^2+x+1)/((x-1)*(2*x-1)*(x+1)).",
+  "description": "Expansion of g.f. x*(3*x^2+x+1)/((x-1)*(2*x-1)*(x+1)).",
   "id": "A192033",
   "mentions": [
     "A240802"

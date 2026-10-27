@@ -1,5 +1,5 @@
 {
-  "description": "Digits of composite k start as k', where k' is the arithmetic derivative of k.",
+  "description": "Digits of composite k start as k', where k' is the arithmetic derivative of k, but k' <> k.",
   "id": "A375801",
   "mentions": [
     "A003415",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

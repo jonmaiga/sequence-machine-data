@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of iterations of f(n) = sigma(n) if sigma(n) < 2n (n deficient), else n / spf(n) (where spf(n) is the smallest prime factor), needed to reach a cycle, for n >= 2.",
+  "description": "a(n) = number of iterations of f(n) = sigma(n) if sigma(n) < 2n (n deficient), else n / lpf(n) (where lpf(n) is the least prime factor), needed to reach a cycle, for n >= 2.",
   "id": "A394453",
   "mentions": [
     "A000203",

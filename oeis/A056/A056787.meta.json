@@ -1,5 +1,5 @@
 {
-  "description": "Number of incongruental unlabeled undirected trees with n nodes on a square lattice and edges of length 1 or sqrt(2) admitted to the 4 nearest or 4 2nd nearest neighbors.",
+  "description": "Number of incongruent unlabeled undirected trees with n nodes on a square lattice and edges of length 1 or sqrt(2) admitted to the 4 nearest or 4 2nd nearest neighbors.",
   "id": "A056787",
   "mentions": [
     "A056840",

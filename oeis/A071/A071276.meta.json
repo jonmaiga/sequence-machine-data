@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) = smallest palindrome which is a nontrivial product of n distinct palindromes.",
+  "description": "a(n) = smallest palindrome which is a product of n distinct palindromes > 1.",
   "id": "A071276",
   "mentions": [
     "A071277",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

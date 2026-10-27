@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that there exists k such that the multiplicative group of squares modulo k is cyclic of order m.",
+  "id": "A400856",
+  "mentions": [
+    "A396684",
+    "A400852",
+    "A400857"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

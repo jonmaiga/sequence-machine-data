@@ -1,0 +1,21 @@
+{
+  "description": "Indices in A399184 of the record low points in A399184 listed in A399914.",
+  "id": "A399915",
+  "mentions": [
+    "A164888",
+    "A399184",
+    "A399623",
+    "A399886",
+    "A399887",
+    "A399914"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

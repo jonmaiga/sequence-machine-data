@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of odd terms in a 2-dense sublist of divisors of n.",
+  "id": "A400195",
+  "mentions": [
+    "A001511",
+    "A237271",
+    "A384222",
+    "A384225",
+    "A400194"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

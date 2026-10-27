@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number k such that 2*(u*n+k) = Sum_{d|n} (u*d+k), where u and k are coprime and not both are 0.",
+  "id": "A398982",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A005101",
+    "A398713",
+    "A398981"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

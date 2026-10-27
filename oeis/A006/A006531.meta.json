@@ -1,5 +1,5 @@
 {
-  "description": "Semiorders on n elements.",
+  "description": "Number of semiorders on n labeled elements.",
   "id": "A006531",
   "mentions": [
     "A000010",

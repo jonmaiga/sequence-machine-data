@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the largest possible volume of an apex-split hexagonal bi-pyramid whose 9 vertices lie on a sphere with radius 1.",
+  "id": "A401263",
+  "mentions": [
+    "A339261"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

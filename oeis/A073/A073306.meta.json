@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{2i",
+  "description": "a(n) = Product_{2i<n} binomial(2*n-2*i-1, 2*i).",
   "id": "A073306",
   "mentions": [
     "A055068",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form x^^y + w^^z, where x, y, w, z are integers greater than 1 and ^^ denotes tetration.",
+  "id": "A399068",
+  "mentions": [
+    "A275211",
+    "A321312",
+    "A364270",
+    "A393643"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

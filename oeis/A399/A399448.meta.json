@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes having k distinct vertex transmissions.",
+  "id": "A399448",
+  "mentions": [
+    "A001349",
+    "A395986",
+    "A399449"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

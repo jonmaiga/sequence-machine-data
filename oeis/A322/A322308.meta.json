@@ -1,9 +1,10 @@
 {
-  "description": "Number of permutations sigma such that |sigma(i+j)-sigma(i)| >= 5 for 1 <= i <= n - j, 1 <= j <= 4.",
+  "description": "Number of permutations sigma of [n] such that |sigma(i+j)-sigma(i)| >= 5 for 1 <= i <= n - j, 1 <= j <= 4.",
   "id": "A322308",
   "mentions": [
     "A179958",
     "A279214",
+    "A318790",
     "A322281"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to tile an equilateral triangle of side n in the triangular grid with n congruent polyiamonds, up to rotation and reflection of the triangle.",
+  "id": "A397706",
+  "mentions": [
+    "A000577",
+    "A328020",
+    "A337415",
+    "A363381",
+    "A399345"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

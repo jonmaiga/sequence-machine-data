@@ -1,0 +1,20 @@
+{
+  "description": "Two-color Green-Tao numbers grt_2(3,n).",
+  "id": "A398345",
+  "mentions": [
+    "A005115",
+    "A171081",
+    "A343118"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

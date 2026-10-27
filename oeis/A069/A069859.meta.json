@@ -1,5 +1,5 @@
 {
-  "description": "(Largest prime factor of n) modulo (smallest prime factor of n).",
+  "description": "a(n) = (greatest prime factor of n) modulo (least prime factor of n).",
   "id": "A069859",
   "mentions": [
     "A006530",

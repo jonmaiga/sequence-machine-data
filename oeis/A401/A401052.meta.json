@@ -1,0 +1,21 @@
+{
+  "description": "Largest such q listed for each prime p (A400842) for which there exists an odd prime q <= p such that 2*((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
+  "id": "A401052",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A400838",
+    "A400839",
+    "A400842",
+    "A401062"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

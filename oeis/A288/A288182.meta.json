@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of arrangements of k non-attacking bishops on the white squares of an n X n board with every square controlled by at least one bishop (1<=k",
+  "description": "Triangle read by rows: T(n,k) = number of arrangements of k non-attacking bishops on the white squares of an n X n board with every square controlled by at least one bishop (1<=k<n).",
   "id": "A288182",
   "mentions": [
     "A122749",

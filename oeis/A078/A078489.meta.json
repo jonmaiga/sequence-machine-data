@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=j such that binomial(n,j)",
+  "description": "a(n)=j such that binomial(n,j)<binomial(n-1,j-2).",
   "id": "A078489",
   "mentions": [
     "A003258"

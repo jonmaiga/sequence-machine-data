@@ -1,18 +1,20 @@
 {
-  "description": "Coefficients in q-expansion of (9*E_2(q^3)-E_2(q))/8.",
+  "description": "Coefficients in q-expansion of (9*E_2(q^3) - E_2(q))/8.",
   "id": "A282031",
   "mentions": [
     "A006352",
+    "A061347",
     "A122858",
     "A229616"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

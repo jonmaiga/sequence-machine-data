@@ -1,7 +1,9 @@
 {
   "description": "Numbers that are congruent to {0, 1, 2, 4, 6} mod 7.",
   "id": "A047295",
-  "mentions": [],
+  "mentions": [
+    "A077340"
+  ],
   "tags": [
     "formulas",
     "nonn"

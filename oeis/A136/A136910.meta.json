@@ -1,7 +1,12 @@
 {
   "description": "Numbers k such that k and k^2 use only the digits 0, 2 and 5.",
   "id": "A136910",
-  "mentions": [],
+  "mentions": [
+    "A014417",
+    "A136808",
+    "A136810",
+    "A137147"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

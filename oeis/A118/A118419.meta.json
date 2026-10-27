@@ -1,5 +1,5 @@
 {
-  "description": "Glaisher-primes: numbers n such that the concatenation of the first n decimal digits of the Glaisher-Kinkelin constant is prime.",
+  "description": "Glaisher-primes: primes formed from initial decimal digits of the Glaisher-Kinkelin constant.",
   "id": "A118419",
   "mentions": [
     "A074962",

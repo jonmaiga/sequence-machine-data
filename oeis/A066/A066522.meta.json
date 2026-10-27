@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose divisors less than or equal to sqrt(n) are consecutive, from 1 up to some number k.",
+  "description": "Numbers m whose divisors less than or equal to sqrt(m) are consecutive, from 1 up to some number k.",
   "id": "A066522",
   "mentions": [
     "A000196",

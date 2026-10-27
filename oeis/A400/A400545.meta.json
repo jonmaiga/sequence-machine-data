@@ -1,0 +1,18 @@
+{
+  "description": "Number of asymmetric Boolean functions of n variables up to cyclic permutations of the variables.",
+  "id": "A400545",
+  "mentions": [
+    "A000031",
+    "A322037",
+    "A397652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

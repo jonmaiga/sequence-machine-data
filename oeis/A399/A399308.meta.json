@@ -1,0 +1,24 @@
+{
+  "description": "The periodic cycle of 70 in the \"Lucas-Collatz\" function: a(0)=70; for n>0, if a(n-1) is Lucas-odd (A399306), then a(n)=2*a(n-1); if a(n-1) is Lucas-even (A399305), then a(n) is the integer whose minimal Lucas representation (A130310) results from removing the final 0 of A130310(a(n-1)).",
+  "id": "A399308",
+  "mentions": [
+    "A000032",
+    "A003124",
+    "A008884",
+    "A130310",
+    "A399305",
+    "A399306",
+    "A399307",
+    "A399721"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

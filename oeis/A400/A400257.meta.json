@@ -1,0 +1,21 @@
+{
+  "description": "If n is in A400256, then a(n) is the number of steps to reach 1 when iterating A003415 (arithmetic derivative), otherwise a(n) = 0.",
+  "id": "A400257",
+  "mentions": [
+    "A003415",
+    "A010051",
+    "A051903",
+    "A328248",
+    "A400158",
+    "A400256"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

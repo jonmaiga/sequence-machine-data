@@ -1,0 +1,19 @@
+{
+  "description": "Word representation of the precise grasshopper infinite barrycade (recursively defined family of permutations of the positive integers having pairwise disjoint sets of partial sums).",
+  "id": "A399901",
+  "mentions": [
+    "A399897",
+    "A399900",
+    "A399902",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

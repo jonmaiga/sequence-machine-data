@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways that an integer partition of n can be reduced to the empty partition with exactly k Chomp moves.",
+  "id": "A401279",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000085",
+    "A182724",
+    "A393310",
+    "A401217",
+    "A401278",
+    "A401280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

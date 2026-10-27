@@ -2,6 +2,7 @@
   "description": "Smallest prime prime(m) such that floor(prime(m)/m) = n.",
   "id": "A062743",
   "mentions": [
+    "A000720",
     "A038607",
     "A038623",
     "A038625",

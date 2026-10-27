@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gamma(1/4)/Gamma(3/4).",
+  "id": "A401132",
+  "mentions": [
+    "A002897",
+    "A004018",
+    "A014549",
+    "A062539",
+    "A091670"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

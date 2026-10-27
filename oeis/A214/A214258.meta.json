@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of compositions of n where the difference between largest and smallest parts equals k; triangle T(n,k), n>=1, 0<=k",
+  "description": "Number T(n,k) of compositions of n where the difference between largest and smallest parts equals k; triangle T(n,k), n>=1, 0<=k<n, read by rows.",
   "id": "A214258",
   "mentions": [
     "A000005",

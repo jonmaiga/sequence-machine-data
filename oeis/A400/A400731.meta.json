@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 - 1 is an exponentially odd number (A268335).",
+  "id": "A400731",
+  "mentions": [
+    "A067874",
+    "A268335",
+    "A307868",
+    "A367695",
+    "A400730",
+    "A400732"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

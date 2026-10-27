@@ -1,5 +1,5 @@
 {
-  "description": "Places n where A214030(n) = n-2.",
+  "description": "Indices k where A214030(k) = k-2.",
   "id": "A214032",
   "mentions": [
     "A000057",
@@ -8,6 +8,7 @@
     "A214031"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

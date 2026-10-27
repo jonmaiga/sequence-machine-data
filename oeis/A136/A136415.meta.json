@@ -1,9 +1,14 @@
 {
-  "description": "Numbers n such that a type-3 Gaussian normal basis over GF(2^n) exists.",
+  "description": "Numbers k such that a type-3 Gaussian normal basis over GF(2^k) exists.",
   "id": "A136415",
   "mentions": [
     "A054639",
-    "A071642"
+    "A071642",
+    "A101284",
+    "A137310",
+    "A137311",
+    "A137313",
+    "A137314"
   ],
   "tags": [
     "nonn"

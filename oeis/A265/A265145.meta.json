@@ -1,5 +1,5 @@
 {
-  "description": "Number of lambda-parking functions of the unique strict partition lambda with parts i_1",
+  "description": "Number of lambda-parking functions of the unique strict partition lambda with parts i_1<i_2<...<i_m and encoding n = Product_{j=1..m} prime(i_j-j+1).",
   "id": "A265145",
   "mentions": [
     "A000009",

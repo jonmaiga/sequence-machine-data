@@ -1,5 +1,5 @@
 {
-  "description": "Number of triples (p,q,r) of primes with pr, q+r>p and r+p>q.",
+  "description": "Number of triples (p,q,r) of primes with p<q<r<=prime(n), p+q>r, q+r>p and r+p>q.",
   "id": "A138226",
   "mentions": [
     "A138225"

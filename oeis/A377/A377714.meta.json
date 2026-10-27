@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence for the 8-element group C4 X C2 = .",
+  "description": "Cogrowth sequence for the 8-element group C4 X C2 = <S,T | S^4, T^2, [S,T]>.",
   "id": "A377714",
   "mentions": [
     "A377627"

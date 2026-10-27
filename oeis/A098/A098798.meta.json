@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1",
+  "description": "a(n) = Sum_{1<k<n and k not dividing n} floor(n/k).",
   "id": "A098798",
   "mentions": [
     "A000203",

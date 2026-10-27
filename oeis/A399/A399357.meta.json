@@ -1,0 +1,17 @@
+{
+  "description": "Number of independent vertex sets in the 4 X n Klein bottle graph.",
+  "id": "A399357",
+  "mentions": [
+    "A399101"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

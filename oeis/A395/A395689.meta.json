@@ -1,0 +1,18 @@
+{
+  "description": "Number of idempotent Latin squares of order n.",
+  "id": "A395689",
+  "mentions": [
+    "A000166",
+    "A002860",
+    "A395690",
+    "A398445"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

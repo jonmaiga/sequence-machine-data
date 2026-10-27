@@ -1,5 +1,5 @@
 {
-  "description": "Psi(n) mod n, where Psi is the Dedekind psi function (A001615).",
+  "description": "a(n) = psi(n) mod n, where psi is the Dedekind psi function (A001615).",
   "id": "A253628",
   "mentions": [
     "A000040",

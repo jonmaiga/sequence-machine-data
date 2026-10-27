@@ -1,15 +1,19 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*11^(i-j)*1^j.",
   "id": "A038315",
-  "mentions": [],
+  "mentions": [
+    "A001020",
+    "A007318"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 45,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the Euler tangent numbers, square array read by ascending antidiagonals.",
+  "id": "A399331",
+  "mentions": [
+    "A000182",
+    "A009832",
+    "A350972",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

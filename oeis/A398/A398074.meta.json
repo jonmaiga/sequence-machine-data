@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonisomorphic n X n symmetric nonnegative integer matrices with each row sum nonzero and at most k, under row and column permutations, n >= 0, k >= 0.",
+  "id": "A398074",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A333737",
+    "A397930",
+    "A398075",
+    "A398096",
+    "A398097",
+    "A398098",
+    "A398099"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

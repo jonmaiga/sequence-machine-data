@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the maximal-order elements (",
+  "description": "Irregular triangle read by rows in which row n lists the maximal-order elements (<n) mod n.",
   "id": "A251865",
   "mentions": [
     "A001918",

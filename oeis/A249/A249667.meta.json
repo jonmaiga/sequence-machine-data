@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of n and the largest primen is also prime.",
+  "description": "Numbers n such that the sum of n and the largest prime<n is prime, and the sum of n and the least prime>n is also prime.",
   "id": "A249667",
   "mentions": [
     "A249624",

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form i*j, where i and j both have m digits and i*j = 10^m*R(i) + j, R being the digit reversal (A004086); j may end in 0.",
+  "id": "A398801",
+  "mentions": [
+    "A004086",
+    "A009944",
+    "A014575",
+    "A048935",
+    "A397756"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

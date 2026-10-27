@@ -1,0 +1,27 @@
+{
+  "description": "The number of coreful divisors of the smallest coreful infinitary divisor of n.",
+  "id": "A401423",
+  "mentions": [
+    "A005361",
+    "A006519",
+    "A268335",
+    "A284318",
+    "A365296",
+    "A366742",
+    "A370077",
+    "A370080",
+    "A372331",
+    "A401424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

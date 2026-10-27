@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that there are exactly n primes q with A161351(q) = p.",
+  "id": "A399613",
+  "mentions": [
+    "A038618",
+    "A161351",
+    "A399608"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

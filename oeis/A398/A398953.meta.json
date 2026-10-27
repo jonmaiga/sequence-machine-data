@@ -1,0 +1,23 @@
+{
+  "description": "Starts of runs of 32 successive 5-rough numbers that are squarefree.",
+  "id": "A398953",
+  "mentions": [
+    "A005117",
+    "A007310",
+    "A007675",
+    "A276378",
+    "A398951",
+    "A398952",
+    "A398956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

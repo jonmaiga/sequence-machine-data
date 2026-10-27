@@ -1,5 +1,5 @@
 {
-  "description": "Number of lattice paths from (0,0) to (n,n) using steps S={(1,0),(0,1),(r,r)|0",
+  "description": "Number of lattice paths from (0,0) to (n,n) using steps S={(1,0),(0,1),(r,r)|0<r<=2} that never go above the line y=x.",
   "id": "A175934",
   "mentions": [
     "A000108",

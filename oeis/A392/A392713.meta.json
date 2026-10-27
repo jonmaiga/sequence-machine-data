@@ -1,5 +1,5 @@
 {
-  "description": "Least part ofter the leading zero in row n of A391983 (the 0-based partial alternating sums of the n-th composition in standard order).",
+  "description": "Least part after the leading zero in row n of A391983 (the 0-based partial alternating sums of the n-th composition in standard order).",
   "id": "A392713",
   "mentions": [
     "A003242",
@@ -44,6 +44,6 @@
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

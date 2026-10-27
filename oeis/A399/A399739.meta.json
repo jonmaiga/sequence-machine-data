@@ -1,0 +1,32 @@
+{
+  "description": "The sum of the unitary divisors d of n such that n/d is a power of 2.",
+  "id": "A399739",
+  "mentions": [
+    "A034448",
+    "A038712",
+    "A040001",
+    "A129527",
+    "A209229",
+    "A363289",
+    "A385047",
+    "A399732",
+    "A399733",
+    "A399734",
+    "A399735",
+    "A399736",
+    "A399737",
+    "A399738",
+    "A399740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

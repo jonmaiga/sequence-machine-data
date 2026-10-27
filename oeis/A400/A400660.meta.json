@@ -1,0 +1,19 @@
+{
+  "description": "Number of bases b in range 2 <= b <= prime(n) in which prime(n) is a two-sided truncatable prime.",
+  "id": "A400660",
+  "mentions": [
+    "A000040",
+    "A020994",
+    "A076586"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

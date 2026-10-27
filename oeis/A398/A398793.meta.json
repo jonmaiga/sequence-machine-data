@@ -1,0 +1,20 @@
+{
+  "description": "Number of residues r mod 2^(n+1) such that r and r+1 have the same image and the same number of odd terms after n+1 iterations of the Collatz map (A014682) and such that r mod 2^n does not already have this property at level n.",
+  "id": "A398793",
+  "mentions": [
+    "A014682",
+    "A076227",
+    "A398792",
+    "A398794",
+    "A398795"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

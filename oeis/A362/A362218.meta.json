@@ -1,5 +1,5 @@
 {
-  "description": "Three-column array read by rows: row n gives the unique ordered primitive Pythagorean triple (a,b,c) with a",
+  "description": "Three-column array read by rows: row n gives the unique ordered primitive Pythagorean triple (a,b,c) with a<b such that (b+c)/a = n.",
   "id": "A362218",
   "mentions": [
     "A022998",

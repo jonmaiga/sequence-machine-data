@@ -2,10 +2,10 @@
   "description": "Primes of the form F(i)^2 + F(j)^3, where F() are Fibonacci numbers.",
   "id": "A045705",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A066649"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

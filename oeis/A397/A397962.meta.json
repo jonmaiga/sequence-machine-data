@@ -1,0 +1,21 @@
+{
+  "description": "Complement of A397805: numbers that have fewer than 3 divisors that are smaller than the square of their least prime factor.",
+  "id": "A397962",
+  "mentions": [
+    "A000961",
+    "A088377",
+    "A119288",
+    "A119315",
+    "A253569",
+    "A397805"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

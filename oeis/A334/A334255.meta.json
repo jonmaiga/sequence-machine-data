@@ -7,15 +7,18 @@
     "A326961",
     "A326979",
     "A334253",
-    "A334254"
+    "A334254",
+    "A398926",
+    "A398927"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

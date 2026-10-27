@@ -1,11 +1,13 @@
 {
-  "description": "a(n) = n^2*a(n-1)+(-1)^n.",
+  "description": "a(n) = n^2*a(n-1) + (-1)^n.",
   "id": "A073701",
   "mentions": [
     "A000166",
-    "A006040"
+    "A006040",
+    "A074702"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

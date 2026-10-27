@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Maple 9.5, Maple 10, Maple 11 and Maple 12 give the wrong answers for the number of partitions of n.",
+  "description": "Numbers k such that Maple 9.5, Maple 10, Maple 11 and Maple 12 give the wrong answers for the number of partitions of k.",
   "id": "A110375",
   "mentions": [
     "A000041"

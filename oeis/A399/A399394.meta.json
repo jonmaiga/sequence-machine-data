@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed ouroboros polycubes with 2*n cells.",
+  "id": "A399394",
+  "mentions": [
+    "A118339",
+    "A121769",
+    "A399392",
+    "A399393"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

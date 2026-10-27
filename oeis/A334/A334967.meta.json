@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the every subsequence (not necessarily contiguous) of the k-th composition in standard order (A066099) has a different sum.",
+  "description": "Numbers k such that every subsequence (not necessarily contiguous) of the k-th composition in standard order (A066099) has a different sum.",
   "id": "A334967",
   "mentions": [
     "A000120",

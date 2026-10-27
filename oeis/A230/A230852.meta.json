@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k",
+  "description": "Smallest k<3*2^n such that 3*2^n+k is the smallest of four consecutive primes in arithmetic progression or 0 if no solution.",
   "id": "A230852",
   "mentions": [
     "A054800",

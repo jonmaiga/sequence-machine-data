@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of semi-meanders with n crossings and winding number 2*(k-1) + (n mod 2), for n >= 2, 1 <= k <= floor(n/2).",
+  "id": "A400429",
+  "mentions": [
+    "A000136",
+    "A000682",
+    "A005315",
+    "A005316",
+    "A006661",
+    "A046726",
+    "A076876",
+    "A077054",
+    "A077460",
+    "A259689",
+    "A259698",
+    "A259703",
+    "A287548",
+    "A331499",
+    "A339179",
+    "A400631",
+    "A400632",
+    "A400633",
+    "A400634",
+    "A400635",
+    "A400636",
+    "A400637",
+    "A400638",
+    "A400639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

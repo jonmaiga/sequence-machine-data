@@ -1,5 +1,5 @@
 {
-  "description": "Diagonals of a Euclidian solid such that there exists a Pythagorean quadruple d^2=a^2+b^2+c^2 that is more cube-like than any prior value of d.",
+  "description": "Diagonals of a Euclidean solid such that there exists a Pythagorean quadruple d^2=a^2+b^2+c^2 that is more cube-like than any prior value of d.",
   "id": "A375098",
   "mentions": [
     "A001653",

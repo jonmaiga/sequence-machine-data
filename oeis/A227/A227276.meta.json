@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which p^2 + p - 1 = q*r (q",
+  "description": "Primes p for which p^2 + p - 1 = q*r (q<r) such that q, r, p^2 + q - 1 and p^2 + r - 1 are primes.",
   "id": "A227276",
   "mentions": [
     "A226770",

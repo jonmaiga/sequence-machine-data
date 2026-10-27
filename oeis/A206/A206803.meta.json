@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{0",
+  "description": "Sum_{0<j<k<=n} P(k)-P(j), where P(j)=A065091(j) is the j-th odd prime.",
   "id": "A206803",
   "mentions": [
     "A065091",

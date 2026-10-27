@@ -1,14 +1,17 @@
 {
   "description": "Number of partner-graph triangle-free perfect graphs on n nodes.",
   "id": "A123444",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A052431"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

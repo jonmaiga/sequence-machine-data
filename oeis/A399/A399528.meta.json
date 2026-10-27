@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least Loeschian number A003136 that is at the end of an arithmetic progression of exactly n such numbers.",
+  "id": "A399528",
+  "mentions": [
+    "A003136",
+    "A005115",
+    "A093364",
+    "A093365",
+    "A093366",
+    "A398603",
+    "A398604",
+    "A399529",
+    "A399530",
+    "A399531"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

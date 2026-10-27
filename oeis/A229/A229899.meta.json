@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0",
+  "description": "a(n) = |{0<g<p_n: g-1, g, g+1 are primitive roots mod p_n}|, where p_n denotes the n-th prime.",
   "id": "A229899",
   "mentions": [
     "A001918"

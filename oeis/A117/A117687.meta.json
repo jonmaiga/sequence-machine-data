@@ -3,15 +3,17 @@
   "id": "A117687",
   "mentions": [
     "A000290",
-    "A000578"
+    "A000578",
+    "A004159",
+    "A053667"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Rank-2 Enots-Wolley sequence: the lexicographically earliest sequence of distinct positive integers beginning 1, 2 such that every later term has exactly two distinct prime factors, shares a prime factor with the previous term but none with the term two places back, and has a prime factor not dividing the previous term.",
+  "id": "A399694",
+  "mentions": [
+    "A001221",
+    "A007774",
+    "A336957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

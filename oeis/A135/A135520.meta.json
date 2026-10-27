@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*a(n-2).",
+  "description": "a(n) = 4*a(n-2) starting with a(0)=2 and a(1)=1.",
   "id": "A135520",
   "mentions": [
     "A000079",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

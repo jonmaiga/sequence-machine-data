@@ -1,0 +1,17 @@
+{
+  "description": "Number of monic polynomials g(x) of degree n over GF(2) such that g(x^2+x) is a primitive polynomial.",
+  "id": "A400741",
+  "mentions": [
+    "A000048"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "\"EGJ\" (unordered, element, labeled) transform of 3,3,3,3...",
   "id": "A032314",
-  "mentions": [],
+  "mentions": [
+    "A007837",
+    "A032312"
+  ],
   "tags": [
     "formulas",
     "nonn"

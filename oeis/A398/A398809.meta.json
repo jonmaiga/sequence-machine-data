@@ -1,0 +1,17 @@
+{
+  "description": "Number of integer quadruples (w,x,y,z), all > 0, such that w <= s, x <= t, y <= u, z <= v for some factorization n = s*t*u*v.",
+  "id": "A398809",
+  "mentions": [
+    "A138808",
+    "A283626"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

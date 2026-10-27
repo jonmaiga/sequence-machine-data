@@ -11,11 +11,12 @@
   ],
   "tags": [
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

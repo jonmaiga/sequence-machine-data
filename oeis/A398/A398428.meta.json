@@ -1,0 +1,22 @@
+{
+  "description": "Number of P-partitions of n where P is the labeled poset defined by a covers b if f(a) > f(b) where f(i) = floor(sqrt(2*i) + 1/2).",
+  "id": "A398428",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A002024",
+    "A002260",
+    "A066099",
+    "A392995",
+    "A397206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

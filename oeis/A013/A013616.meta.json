@@ -1,7 +1,9 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+9x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+9*x)^n.",
   "id": "A013616",
   "mentions": [
+    "A001019",
+    "A007318",
     "A011557"
   ],
   "tags": [

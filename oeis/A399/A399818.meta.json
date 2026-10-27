@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonequivalent neighborhood-Hausdorff graphs on n vertices.",
+  "id": "A399818",
+  "mentions": [
+    "A398780",
+    "A399195",
+    "A399817",
+    "A399822"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

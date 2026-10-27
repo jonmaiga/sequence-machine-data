@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n upper triangular binary matrices in which every row and every column has sum 0 or 2.",
+  "id": "A396698",
+  "mentions": [
+    "A001499",
+    "A195885",
+    "A399291",
+    "A400302",
+    "A400344"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

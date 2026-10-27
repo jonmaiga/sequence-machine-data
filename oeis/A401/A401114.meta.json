@@ -1,0 +1,18 @@
+{
+  "description": "Numbers r such that r and r+2 are both terms of A179502.",
+  "id": "A401114",
+  "mentions": [
+    "A001359",
+    "A048161",
+    "A056809",
+    "A179502"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

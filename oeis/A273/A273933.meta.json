@@ -1,5 +1,5 @@
 {
-  "description": "Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1",
+  "description": "Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x4 numbers.",
   "id": "A273933",
   "mentions": [
     "A036471",

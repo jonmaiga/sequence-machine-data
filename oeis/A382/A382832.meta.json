@@ -2,10 +2,12 @@
   "description": "Least k such that there exist two distinct subsets of {0, ..., k-1} with the same sum of m-th powers for 0 <= m <= n.",
   "id": "A382832",
   "mentions": [
+    "A323395",
     "A382382",
     "A382833"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer that, for every k with 1 <= k <= n, is the volume of a k-dimensional rectangular box with lattice-point vertices, integral edge lengths, and every edge having nonzero components in all k coordinate directions.",
+  "id": "A398934",
+  "mentions": [
+    "A009003",
+    "A327269",
+    "A327272",
+    "A338886"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

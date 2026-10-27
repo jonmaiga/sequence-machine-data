@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Card( k, 0",
+  "description": "a(n) = Card( k, 0<k<=n such that k is relatively prime to tau(k)=A000005(k)).",
   "id": "A070546",
   "mentions": [
     "A000005",

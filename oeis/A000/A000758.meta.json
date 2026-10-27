@@ -1,14 +1,19 @@
 {
-  "description": "Related to cumulative height of rooted plane trees.",
+  "description": "Sum over rooted plane trees with n edges of (height - 1); height = measured edges.",
   "id": "A000758",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A080936",
+    "A136439",
+    "A261003"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=1..n-k+1} binomial(n, i) * binomial(n, i-1) * T(n-i, k-1) * Sum_{j=0..i-1} T(i-1, j) for k > 0, T(n, 0) = 0^n.",
+  "id": "A399327",
+  "mentions": [
+    "A002190",
+    "A399444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

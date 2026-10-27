@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A276085(k) is a multiple of A003415(k), where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "description": "Numbers k such that A276085(k) is a multiple of A003415(k), where A003415 is the arithmetic derivative and A276085 is fully additive with a(p) = p#/p.",
   "id": "A373487",
   "mentions": [
     "A000040",
@@ -15,7 +15,12 @@
     "A373489",
     "A380527",
     "A381035",
-    "A391845"
+    "A391845",
+    "A400156",
+    "A401055",
+    "A401063",
+    "A401230",
+    "A401371"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest integer >= n such that (n-1)*n/2 + a(n) divides (n-1)! * a(n).",
+  "id": "A399704",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A057568",
+    "A063520",
+    "A065015",
+    "A104173",
+    "A119690",
+    "A175567",
+    "A399852"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 67,
+    "source": "joeis"
+  }
+}

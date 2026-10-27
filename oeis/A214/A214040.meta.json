@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(n-1)+floor((a(n-2)+a(n-3))/2), with a(n)=n for n",
+  "description": "a(n)=a(n-1)+floor((a(n-2)+a(n-3))/2), with a(n)=n for n<3.",
   "id": "A214040",
   "mentions": [
     "A214039",

@@ -1,0 +1,32 @@
+{
+  "description": "The sum of divisors d of n such that gcud(d, n/d) is a power of 2, where gcud is the greatest common unitary divisor.",
+  "id": "A399839",
+  "mentions": [
+    "A000079",
+    "A002117",
+    "A013661",
+    "A077610",
+    "A107749",
+    "A165430",
+    "A188999",
+    "A225174",
+    "A384244",
+    "A399833",
+    "A399834",
+    "A399835",
+    "A399836",
+    "A399837",
+    "A399838"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Quadrisection A157334(4n+3).",
+  "description": "A quadrisection of A157334: a(n) = A157334(4*(n+1)).",
   "id": "A157339",
   "mentions": [
     "A157276",

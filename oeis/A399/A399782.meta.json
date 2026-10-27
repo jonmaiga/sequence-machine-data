@@ -1,0 +1,19 @@
+{
+  "description": "(1/72)*number of ways to express n as the determinant of a 4 X 4 matrix containing all permutations of the multiset {1^4, 2^4, 3^4, 4^4}.",
+  "id": "A399782",
+  "mentions": [
+    "A034841",
+    "A301371",
+    "A309799"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

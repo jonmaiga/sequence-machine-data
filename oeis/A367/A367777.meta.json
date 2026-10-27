@@ -2,7 +2,9 @@
   "description": "a(n) = |Stirling1(2*n + 1, n)|.",
   "id": "A367777",
   "mentions": [
-    "A132393"
+    "A132393",
+    "A187646",
+    "A202343"
   ],
   "tags": [
     "formulas",

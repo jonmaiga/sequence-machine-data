@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of Dyck paths of semilength n+1 up to permutation of primitive components, and permutations and reflection of nested primitive components.",
+  "id": "A400758",
+  "mentions": [
+    "A005217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

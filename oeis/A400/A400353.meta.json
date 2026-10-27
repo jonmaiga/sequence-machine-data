@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest infinite sequence of distinct integers such that the concatenation of a(n-1)'s last digit, a(n), and a(n+1)'s first digit is a square.",
+  "id": "A400353",
+  "mentions": [
+    "A000290",
+    "A398629",
+    "A399299"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

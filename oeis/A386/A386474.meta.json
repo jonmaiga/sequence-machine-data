@@ -1,5 +1,5 @@
 {
-  "description": "Number of sets of lists of [n] such that no list is longer than than the total number of lists.",
+  "description": "Number of sets of lists of [n] such that no list is longer than the total number of lists.",
   "id": "A386474",
   "mentions": [
     "A000262",

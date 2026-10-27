@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 is a sum k-th prime + k for some k.",
+  "description": "Numbers k such that k^2 = prime(m) + m for some m.",
   "id": "A086968",
   "mentions": [
     "A064371"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "joeis"
   }
 }

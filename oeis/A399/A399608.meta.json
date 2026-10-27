@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that A161351(p) is a prime.",
+  "id": "A399608",
+  "mentions": [
+    "A161351",
+    "A267277",
+    "A399442",
+    "A399603",
+    "A399604",
+    "A399606"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps for the Rule 30 middle-column random walk to reach distance n.",
+  "id": "A400323",
+  "mentions": [
+    "A051023",
+    "A110240",
+    "A269160",
+    "A327982",
+    "A327984",
+    "A327985"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

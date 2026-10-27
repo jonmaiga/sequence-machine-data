@@ -1,0 +1,16 @@
+{
+  "description": "Complement of A395718.",
+  "id": "A399144",
+  "mentions": [
+    "A395718"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

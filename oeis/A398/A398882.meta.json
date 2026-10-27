@@ -1,0 +1,18 @@
+{
+  "description": "Number of strict chains from e to S_n in the subgroup lattice of S_n.",
+  "id": "A398882",
+  "mentions": [
+    "A218923",
+    "A218927",
+    "A398405"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

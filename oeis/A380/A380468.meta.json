@@ -2,6 +2,7 @@
   "description": "Numbers k such that A380459(k) has no divisors of the form p^p, for any prime p.",
   "id": "A380468",
   "mentions": [
+    "A000040",
     "A001222",
     "A005117",
     "A019565",
@@ -24,7 +25,13 @@
     "A380525",
     "A380528",
     "A392603",
-    "A392604"
+    "A392604",
+    "A400157",
+    "A400160",
+    "A400162",
+    "A400169",
+    "A400250",
+    "A400260"
   ],
   "tags": [
     "base",

@@ -1,8 +1,14 @@
 {
-  "description": "Numbers n such that a type-8 Gaussian normal basis exists for GF(2^n) over GF(2).",
+  "description": "Numbers k such that a type-8 Gaussian normal basis exists for GF(2^k) over GF(2).",
   "id": "A101284",
   "mentions": [
-    "A136415"
+    "A054639",
+    "A071642",
+    "A136415",
+    "A137310",
+    "A137311",
+    "A137313",
+    "A137314"
   ],
   "tags": [
     "nonn"
@@ -10,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

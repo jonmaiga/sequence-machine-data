@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that nextprime(3*n)",
+  "description": "Numbers n such that nextprime(3*n)<3*nextprime(n) (if p is prime then nextprime(p)=p).",
   "id": "A117097",
   "mentions": [],
   "tags": [

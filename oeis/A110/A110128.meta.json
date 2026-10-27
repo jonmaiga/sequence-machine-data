@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of 1,2,...,n satisfying |p(i+2)-p(i)| not equal to 2 for all 0",
+  "description": "Number of permutations p of 1,2,...,n satisfying |p(i+2)-p(i)| not equal to 2 for all 0<i<n-1.",
   "id": "A110128",
   "mentions": [
     "A002464",

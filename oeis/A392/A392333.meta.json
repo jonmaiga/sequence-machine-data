@@ -1,5 +1,5 @@
 {
-  "description": "Non-semiprime composite numbers e such that there is no 0",
+  "description": "Non-semiprime composite numbers e such that there is no 0<a<b<c<d<e for which a! * b! * c! * d! * e! is a perfect square.",
   "id": "A392333",
   "mentions": [
     "A001358",

@@ -11,6 +11,7 @@
     "A086008",
     "A086009",
     "A086017",
+    "A268643",
     "A269242",
     "A269243",
     "A269244",
@@ -23,11 +24,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 96,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

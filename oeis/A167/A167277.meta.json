@@ -1,5 +1,5 @@
 {
-  "description": "Largest nonprime",
+  "description": "Largest nonprime<n-th single (or isolated or non-twin) prime.",
   "id": "A167277",
   "mentions": [
     "A007510"

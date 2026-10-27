@@ -1,0 +1,16 @@
+{
+  "description": "Second derivative of n-th cyclotomic polynomial Phi_n(x) evaluated at x = 1.",
+  "id": "A398557",
+  "mentions": [
+    "A020500",
+    "A092502"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

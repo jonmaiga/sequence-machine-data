@@ -1,0 +1,26 @@
+{
+  "description": "The total sum of exponential divisors of the exponential divisors of n.",
+  "id": "A400873",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A007429",
+    "A049419",
+    "A051377",
+    "A107759",
+    "A322791",
+    "A400872",
+    "A400874"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

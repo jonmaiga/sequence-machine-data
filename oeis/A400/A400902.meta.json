@@ -1,0 +1,17 @@
+{
+  "description": "Semi-Carmichael numbers: composite numbers k such that d^k == d (mod k) for every divisor d of k.",
+  "id": "A400902",
+  "mentions": [
+    "A002997",
+    "A005117",
+    "A400903"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

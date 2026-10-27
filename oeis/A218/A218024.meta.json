@@ -1,5 +1,5 @@
 {
-  "description": "Shifts 7 places left under Euler transform with a(0)=0 and a(n)=1 for n",
+  "description": "Shifts 7 places left under Euler transform with a(0)=0 and a(n)=1 for n<7.",
   "id": "A218024",
   "mentions": [
     "A144018",

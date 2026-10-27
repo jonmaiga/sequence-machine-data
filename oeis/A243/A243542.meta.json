@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the list of divisors of n contains 9 distinct digits (in base 10).",
+  "description": "Numbers k such that the list of divisors of k contains 9 distinct digits (in base 10).",
   "id": "A243542",
   "mentions": [
     "A037278",

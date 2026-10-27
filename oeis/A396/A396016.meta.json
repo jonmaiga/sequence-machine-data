@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic serial binary relations on an n-set having the diamond property.",
+  "id": "A396016",
+  "mentions": [
+    "A398789"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the sizes of the largest components over all functions on n unlabeled nodes.",
+  "id": "A399951",
+  "mentions": [
+    "A001372",
+    "A217860",
+    "A399664"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of quasi-regular graphs on 2*n + 1 vertices.",
+  "id": "A398642",
+  "mentions": [
+    "A398638",
+    "A398640",
+    "A398643",
+    "A399014"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

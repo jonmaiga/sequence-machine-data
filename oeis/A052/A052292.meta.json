@@ -2,7 +2,12 @@
   "description": "Primes of form 4*p^2 + 1, p prime.",
   "id": "A052292",
   "mentions": [
-    "A052291"
+    "A000040",
+    "A001358",
+    "A052291",
+    "A060429",
+    "A100484",
+    "A400572"
   ],
   "tags": [
     "formulas",

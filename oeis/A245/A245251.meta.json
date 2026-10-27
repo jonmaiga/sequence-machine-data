@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(a,b) read by rows: sum_{k=1..a-1} floor(k*b/a).",
+  "description": "Triangle T(a,b) read by rows: Sum_{k=1..a-1} floor(k*b/a).",
   "id": "A245251",
   "mentions": [
     "A000217"

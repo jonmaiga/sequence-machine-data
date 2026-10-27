@@ -1,8 +1,13 @@
 {
-  "description": "E.g.f.: 1/((1+LambertW(-x))*(1-x)).",
+  "description": "Expansion of e.g.f. 1/((1+LambertW(-x))*(1-x)).",
   "id": "A277506",
   "mentions": [
-    "A277507"
+    "A000142",
+    "A000312",
+    "A027686",
+    "A063170",
+    "A277507",
+    "A374844"
   ],
   "tags": [
     "formulas",

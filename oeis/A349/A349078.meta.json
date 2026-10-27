@@ -1,5 +1,5 @@
 {
-  "description": "List of positive integer triples a, b, c with the property a^2 + b^2 = c^4 and a",
+  "description": "List of positive integer triples a, b, c with the property a^2 + b^2 = c^4 and a<b.",
   "id": "A349078",
   "mentions": [
     "A009000"

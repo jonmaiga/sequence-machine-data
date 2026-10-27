@@ -1,5 +1,5 @@
 {
-  "description": "Fractional noise-like sequence: a(n)=a(n-a(n-1))+a(Floor[a0*n/b0]): a0",
+  "description": "Fractional noise-like sequence: a(n)=a(n-a(n-1))+a(Floor[a0*n/b0]): a0<b0:a0=1;b0=8.",
   "id": "A140474",
   "mentions": [
     "A004001"

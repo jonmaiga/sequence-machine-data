@@ -25,12 +25,13 @@
     "A332834"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "joeis"
   }
 }

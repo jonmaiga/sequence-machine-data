@@ -2,8 +2,11 @@
   "description": "Halting time for Wolfram's 2-state 2-symbol Turing machine 3626 when started with n on the tape.",
   "id": "A393210",
   "mentions": [
+    "A000010",
     "A010684",
     "A037227",
+    "A069517",
+    "A296306",
     "A392245"
   ],
   "tags": [

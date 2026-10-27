@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: (Sum_{k>=1} x^(3*k)/(1 + x^(3*k))) / Product_{k>=1} (1 - x^k).",
+  "id": "A399111",
+  "mentions": [
+    "A000041",
+    "A048272",
+    "A116635",
+    "A209423",
+    "A305121",
+    "A399112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

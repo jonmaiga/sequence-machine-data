@@ -1,5 +1,5 @@
 {
-  "description": "Sort the primes (except 2) according to the multiplicative order of 2 modulo that prime. If two primes have the same order of 2, they are arranged numerically.",
+  "description": "Table read by rows, where n-th row composed of odd primes p with the multiplicative order of 2 modulo p equal n.",
   "id": "A108974",
   "mentions": [
     "A000043",
@@ -7,10 +7,13 @@
     "A001348",
     "A014664",
     "A059912",
-    "A086251"
+    "A086251",
+    "A112927"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

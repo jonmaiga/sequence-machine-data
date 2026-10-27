@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^A006666(n) - n*3^A006667(n).",
+  "id": "A400965",
+  "mentions": [
+    "A002450",
+    "A006370",
+    "A006666",
+    "A006667",
+    "A007814",
+    "A302338"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

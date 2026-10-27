@@ -1,5 +1,5 @@
 {
-  "description": "Primes p with the property that if q",
+  "description": "Primes p with the property that if q<p is the least part of a partition of p into primes, then p has at least one other prime partition with the same least part.",
   "id": "A332861",
   "mentions": [
     "A000607",

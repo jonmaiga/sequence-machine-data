@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n>1, a(n)=n/(largest prime dividing n).",
+  "description": "a(1) = 1; for n>1, a(n)=n/(greatest prime dividing n).",
   "id": "A052126",
   "mentions": [
     "A000040",

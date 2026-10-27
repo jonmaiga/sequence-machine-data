@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which A107758(k) > 2*k, but for all whose proper divisors d|k, d",
+  "description": "Numbers k for which A107758(k) > 2*k, but for all whose proper divisors d|k, d<k, A107758(d) <= 2*d.",
   "id": "A387722",
   "mentions": [
     "A091191",

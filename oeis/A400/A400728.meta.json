@@ -1,0 +1,17 @@
+{
+  "description": "The sequence of side lengths that occur when drawing a sequence of squares in the plane with integer side lengths such that the bottom-left corner of the k-th square is at the nonnegative integer point (k, y_k) and the square has side length a(k), subject to the conditions that (1) every initial segment has the property that the interior of each square has a distinct pattern made by the perimeters of the other squares, and (2) we greedily minimize the side length and then minimize the y-value.",
+  "id": "A400728",
+  "mentions": [
+    "A400229",
+    "A400230",
+    "A400729"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

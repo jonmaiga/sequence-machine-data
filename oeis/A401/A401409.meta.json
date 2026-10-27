@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A209615.",
+  "id": "A401409",
+  "mentions": [
+    "A005811",
+    "A037481",
+    "A043291",
+    "A062756",
+    "A068639",
+    "A209615",
+    "A318682",
+    "A401408",
+    "A401437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

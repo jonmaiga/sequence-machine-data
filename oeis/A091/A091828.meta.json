@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n-2*valuation(A000254(n),3).",
+  "description": "a(n) = n - 2*valuation(A000254(n),3).",
   "id": "A091828",
   "mentions": [
     "A000254",

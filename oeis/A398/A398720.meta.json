@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) in which the n-th row lists the weight distribution of square Single Parity Check Product (SPCP) [(n+1)^2, n^2, 4] code, 0 <= k <= n*floor(n/2).",
+  "id": "A398720",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000537",
+    "A002416",
+    "A093353",
+    "A179058",
+    "A340312",
+    "A393842",
+    "A396317",
+    "A396321",
+    "A397935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

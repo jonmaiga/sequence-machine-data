@@ -1,0 +1,21 @@
+{
+  "description": "Pascal's cube: entries in the 3-dimensional multivariate Pascal matrix, read by cubes, slices, and rows.",
+  "id": "A399550",
+  "mentions": [
+    "A007318",
+    "A046816",
+    "A086754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of induced subgraphs of the n X n rook graph with k connected components.",
+  "id": "A399048",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A002416",
+    "A086266",
+    "A183109",
+    "A262307",
+    "A286189",
+    "A360873",
+    "A399043",
+    "A399044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

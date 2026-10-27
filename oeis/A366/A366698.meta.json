@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = (1 + x)^2 + x*A(x)^4.",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x)^2 + x*A(x)^4.",
   "id": "A366698",
   "mentions": [
     "A364621",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

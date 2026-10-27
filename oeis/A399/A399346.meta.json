@@ -1,0 +1,18 @@
+{
+  "description": "Placid Platypus function PP(n): Minimal number of states of all 2-symbol Turing machines that print exactly n ones then halt.",
+  "id": "A399346",
+  "mentions": [
+    "A028444",
+    "A060843"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

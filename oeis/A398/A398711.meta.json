@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled n-element posets whose linear-extension-majority digraph contains a simple directed cycle.",
+  "id": "A398711",
+  "mentions": [
+    "A000112"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

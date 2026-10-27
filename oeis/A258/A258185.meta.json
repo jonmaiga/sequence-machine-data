@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p^2 - q + 1 is prime, where p, q are consecutive primes and p",
+  "description": "Primes p such that p^2 - q + 1 is prime, where p, q are consecutive primes and p<q.",
   "id": "A258185",
   "mentions": [
     "A000040",

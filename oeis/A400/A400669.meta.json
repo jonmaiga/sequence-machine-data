@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of self-conjugate edge-connected skew Ferrers diagrams with n cells and k rows. By convention T(0,0) = T(2,0) = T(2,1) = 0.",
+  "id": "A400669",
+  "mentions": [
+    "A400668"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

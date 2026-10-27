@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number m such that 2im+1 is composite for all i, 0",
+  "description": "a(n) is the smallest number m such that 2im+1 is composite for all i, 0<i<n+1.",
   "id": "A244433",
   "mentions": [
     "A071576",

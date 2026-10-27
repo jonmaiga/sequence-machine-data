@@ -1,5 +1,5 @@
 {
-  "description": "Minimum of { k0 is strong prime to n}, or zero if this set is empty.",
+  "description": "Minimum of { k<n | k>0 is strong prime to n}, or zero if this set is empty.",
   "id": "A181839",
   "mentions": [
     "A181830",

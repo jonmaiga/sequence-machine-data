@@ -2,7 +2,8 @@
   "description": "Number of harmoniously labeled graphs with n edges and at most n vertices.",
   "id": "A329910",
   "mentions": [
-    "A085526"
+    "A085526",
+    "A281997"
   ],
   "tags": [
     "easy",

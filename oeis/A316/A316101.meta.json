@@ -1,5 +1,5 @@
 {
-  "description": "Sequence a_k of column k shifts left when Weigh transform is applied k times with a_k(n) = n for n=0, k>=0, read by antidiagonals.",
+  "description": "Sequence a_k of column k shifts left when Weigh transform is applied k times with a_k(n) = n for n<2; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
   "id": "A316101",
   "mentions": [
     "A000004",

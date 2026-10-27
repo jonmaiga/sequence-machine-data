@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; a(n) = sum of a(j)'s, j",
+  "description": "a(0) = 1; a(n) = sum of a(j)'s, j<n, where n is divisible by a(j).",
   "id": "A055934",
   "mentions": [
     "A055935"

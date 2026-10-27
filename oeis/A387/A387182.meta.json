@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers k where, for zeta_k a primitive k-th root of unity, the set S_k = {(1-zeta_k^i)/(1-zeta_k) : 1",
+  "description": "Positive integers k where, for zeta_k a primitive k-th root of unity, the set S_k = {(1-zeta_k^i)/(1-zeta_k) : 1<i<k/2, GCD(i,k)=1} has a nontrivial (multiplicative) dependence relation.",
   "id": "A387182",
   "mentions": [],
   "tags": [

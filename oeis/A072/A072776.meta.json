@@ -2,11 +2,16 @@
   "description": "Exponents of powers of squarefree numbers.",
   "id": "A072776",
   "mentions": [
+    "A051903",
+    "A051904",
     "A052409",
     "A072774",
-    "A072775"
+    "A072775",
+    "A253641"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

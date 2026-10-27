@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that the digit set D = (0, 1, -n) used in base 3 expansions of the form Sum_{ -N < j < oo} d_j 3^{-j}, all d_j in D, can represent all real numbers.",
+  "description": "Integers k such that the digit set D = (0, 1, -k) used in base 3 expansions of the form Sum_{ -N < j < oo} d_j 3^{-j}, all d_j in D, can represent all real numbers.",
   "id": "A110081",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/(5 - 4*cosh(x)).",
+  "description": "Expansion of e.g.f. 1/(5 - 4*cosh(x)).",
   "id": "A249939",
   "mentions": [
     "A028296",
@@ -16,6 +16,7 @@
     "A250915"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

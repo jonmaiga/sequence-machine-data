@@ -1,7 +1,8 @@
 {
-  "description": "Indices of records in A367601.",
+  "description": "Terms in A037124 leading to records in A367601.",
   "id": "A367603",
   "mentions": [
+    "A037124",
     "A121805",
     "A330128",
     "A330129",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=p_m-p_{m-1}+...+(-1)^{m-k}p_k with k",
+  "description": "Number of ways to write n=p_m-p_{m-1}+...+(-1)^{m-k}p_k with k<m and p_m<=3n, and p_m+1 and p_k-1 both practical, where p_j denotes the j-th prime.",
   "id": "A222580",
   "mentions": [
     "A000040",

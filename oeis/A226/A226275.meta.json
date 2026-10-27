@@ -2,13 +2,16 @@
   "description": "Number of new rationals produced at the n-th iteration by applying the map t -> {t+1, -1/t} to nonzero terms, starting with S[0] = {1}.",
   "id": "A226275",
   "mentions": [
+    "A000930",
     "A003410",
     "A058278",
     "A097333",
     "A226080",
     "A226081",
     "A226130",
+    "A226131",
     "A226136",
+    "A226137",
     "A226271",
     "A226274"
   ],

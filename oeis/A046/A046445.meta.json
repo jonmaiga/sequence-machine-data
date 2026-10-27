@@ -1,5 +1,5 @@
 {
-  "description": "Smallest composite with n prime factors that are distinct in length.",
+  "description": "Smallest number with n prime factors that are distinct in length, where length is the number of decimal digits.",
   "id": "A046445",
   "mentions": [
     "A003617",
@@ -10,11 +10,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-entry"
   }
 }

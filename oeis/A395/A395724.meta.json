@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/2)} (-1)^k * binomial(n,2*k+1)^2 * a(n-2*k-1).",
+  "id": "A395724",
+  "mentions": [
+    "A000111",
+    "A000275",
+    "A352470",
+    "A398875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Primes that divide at least one term in every Fibonacci sequence.",
   "id": "A000057",
   "mentions": [
+    "A000045",
     "A001175",
     "A001602",
     "A064414",

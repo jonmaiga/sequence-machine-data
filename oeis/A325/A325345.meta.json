@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n with odd minimal part and even maximal part.",
+  "description": "Number of partitions of n with even minimal part and odd maximal part.",
   "id": "A325345",
   "mentions": [
     "A000041",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

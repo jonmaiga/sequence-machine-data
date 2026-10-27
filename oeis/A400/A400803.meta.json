@@ -1,0 +1,19 @@
+{
+  "description": "Number of independent linear relations among the columns of the adjacency matrix of the divisor graph on {2,...,n}, after removing isolated vertices.",
+  "id": "A400803",
+  "mentions": [
+    "A337125",
+    "A344497",
+    "A356831",
+    "A400804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

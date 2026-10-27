@@ -1,5 +1,5 @@
 {
-  "description": "Primes n that are concatenation of two 3-digit primes p",
+  "description": "Primes n that are concatenation of two 3-digit primes p<q.",
   "id": "A168529",
   "mentions": [
     "A105184"

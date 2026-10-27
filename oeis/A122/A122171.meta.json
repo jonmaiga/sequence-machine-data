@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that there are exactly n primes of form m+p for primes p",
+  "description": "Smallest number m such that there are exactly n primes of form m+p for primes p<2m.",
   "id": "A122171",
   "mentions": [
     "A122170"

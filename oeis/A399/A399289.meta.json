@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] avoiding simultaneously consecutive patterns 1234 and 321.",
+  "id": "A399289",
+  "mentions": [
+    "A011656",
+    "A173938",
+    "A173939",
+    "A173940",
+    "A397829"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

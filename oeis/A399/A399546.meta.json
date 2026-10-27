@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime that is the sum of n distinct elements from the union of primes and powers of 2.",
+  "id": "A399546",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A061712",
+    "A068873",
+    "A174090"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

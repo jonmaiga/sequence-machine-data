@@ -1,13 +1,17 @@
 {
   "description": "Number of similarity classes of descendants created by bisection refinement from an initial n-simplex.",
   "id": "A019999",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A000142"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 2,
     "size": 16,
     "source": "oeis-bfile"
   }

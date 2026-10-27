@@ -1,15 +1,16 @@
 {
-  "description": "Numbers (M_k+2)/3 where M_k is a Mersenne prime > 6.",
+  "description": "a(n) = (M_n + 2)/3 where M_n is the n-th Mersenne prime.",
   "id": "A107290",
   "mentions": [
     "A000668"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 2,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

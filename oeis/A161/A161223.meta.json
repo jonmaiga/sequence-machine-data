@@ -2,6 +2,7 @@
   "description": "Lengths of successive runs in A116909.",
   "id": "A161223",
   "mentions": [
+    "A090822",
     "A116909"
   ],
   "tags": [

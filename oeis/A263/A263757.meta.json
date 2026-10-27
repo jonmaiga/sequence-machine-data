@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k",
+  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k<n) is the number of permutations of n with maximal difference k between elements in the same cycle.",
   "id": "A263757",
   "mentions": [
     "A000071",

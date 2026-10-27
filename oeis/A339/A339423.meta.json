@@ -1,5 +1,5 @@
 {
-  "description": "If n = p_1 * ... * p_m with primes p_i <= p_{i+1}, a(n) = Sum_{k",
+  "description": "If n = p_1 * ... * p_m with primes p_i <= p_{i+1}, a(n) = Sum_{k<m} Product_{j <= k} p_j.",
   "id": "A339423",
   "mentions": [
     "A001222"

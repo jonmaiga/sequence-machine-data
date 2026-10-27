@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A008966(n^2 + 3).",
+  "id": "A400697",
+  "mentions": [
+    "A008966",
+    "A117950",
+    "A400695",
+    "A400696"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

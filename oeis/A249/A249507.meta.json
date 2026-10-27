@@ -1,5 +1,5 @@
 {
-  "description": "Length of full iterated word (direct branch and reverse branch) of the Kolakoski sequence A000002 initiated at A000002(n). If the reverse branch is longer than the direct branch, the total length is counted negatively: if A000002(n) = 2, a(n) = 0; if A000002(n) = 1, a(n) = (ld+lr-1)*sign(ld-lr) with ld = max { k | A000002(n-i+1) = A000002(i), 0",
+  "description": "Length of full iterated word (direct branch and reverse branch) of the Kolakoski sequence A000002 initiated at A000002(n). If the reverse branch is longer than the direct branch, the total length is counted negatively: if A000002(n) = 2, a(n) = 0; if A000002(n) = 1, a(n) = (ld+lr-1)*sign(ld-lr) with ld = max { k | A000002(n-i+1) = A000002(i), 0<i<=k } and lr = max { k | A000002(n-i+1) = A000002(i), 0<i<=k }.",
   "id": "A249507",
   "mentions": [
     "A000002",

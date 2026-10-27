@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of iterations of the map n -> A053188(n) needed to reach 0, starting from n.",
+  "id": "A400179",
+  "mentions": [
+    "A000058",
+    "A053188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

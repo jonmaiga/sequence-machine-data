@@ -2,10 +2,10 @@
   "description": "Composite numbers n with the property that the symmetric representation of sigma(n) has two parts.",
   "id": "A244894",
   "mentions": [
+    "A174973",
     "A237270",
     "A237271",
     "A237593",
-    "A238443",
     "A238524",
     "A239660",
     "A239929",

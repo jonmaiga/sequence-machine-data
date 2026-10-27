@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that Sum_{i",
+  "description": "Numbers such that Sum_{i<j, i,j =1..r} d(i)*d(j) is a prime number, where the d(i) are digits of n (n = concatenation of d(1), ..., d(r)).",
   "id": "A187234",
   "mentions": [
     "A187559"

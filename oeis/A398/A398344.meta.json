@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive number that can be written in exactly n ways as a sum or a difference of two squares > 0.",
+  "id": "A398344",
+  "mentions": [
+    "A016032",
+    "A047696",
+    "A094191"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

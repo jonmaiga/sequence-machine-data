@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected, claw-free planar graphs with n vertices.",
+  "id": "A399955",
+  "mentions": [
+    "A399956",
+    "A399957",
+    "A399958"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

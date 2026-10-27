@@ -2,6 +2,7 @@
   "description": "a(1) = 2; a(n) = smallest palindromic number of the form k*a(n-1) + 1 with k > 1.",
   "id": "A069506",
   "mentions": [
+    "A000042",
     "A069505",
     "A069507",
     "A069508",

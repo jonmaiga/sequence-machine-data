@@ -1,5 +1,5 @@
 {
-  "description": "Number of a(i), 0<=i",
+  "description": "Number of a(i), 0<=i<n, that are equal to A053615(n).",
   "id": "A107261",
   "mentions": [
     "A032531",

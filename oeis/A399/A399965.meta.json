@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A397493.",
+  "id": "A399965",
+  "mentions": [
+    "A397493",
+    "A400000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

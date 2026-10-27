@@ -1,0 +1,20 @@
+{
+  "description": "Period 6: repeat [1, 6, 5, 4, 3, 2].",
+  "id": "A401139",
+  "mentions": [
+    "A070352",
+    "A070402",
+    "A385491",
+    "A385634"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

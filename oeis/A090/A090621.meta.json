@@ -14,12 +14,13 @@
     "A090622"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

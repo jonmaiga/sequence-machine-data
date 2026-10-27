@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the products of all pairs of divisors of n, (d1,d2), such that d1|n, d2|n, d1|d2 and d1",
+  "description": "Sum of the products of all pairs of divisors of n, (d1,d2), such that d1|n, d2|n, d1|d2 and d1<d2.",
   "id": "A337329",
   "mentions": [
     "A001001",

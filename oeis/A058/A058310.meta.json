@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (1/2)*(n^2+n+2)*(n^2+3*n+1).",
   "id": "A058310",
-  "mentions": [],
+  "mentions": [
+    "A000124",
+    "A028387"
+  ],
   "tags": [
     "easy",
     "formulas",

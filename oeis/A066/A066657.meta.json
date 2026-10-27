@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of rational numbers produced in order by A066720(j)/A066720(i) for i >= 1, 1 <= j",
+  "description": "Numerators of rational numbers produced in order by A066720(j)/A066720(i) for i >= 1, 1 <= j <i.",
   "id": "A066657",
   "mentions": [
     "A066658",

@@ -2,7 +2,8 @@
   "description": "Squares with digital root 4.",
   "id": "A061100",
   "mentions": [
-    "A056991"
+    "A056991",
+    "A063289"
   ],
   "tags": [
     "base",

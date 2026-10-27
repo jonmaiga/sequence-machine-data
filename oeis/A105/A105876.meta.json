@@ -2,12 +2,15 @@
   "description": "Primes for which -4 is a primitive root.",
   "id": "A105876",
   "mentions": [
+    "A005596",
     "A114564",
     "A163778",
     "A216371",
+    "A294434",
     "A302141"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

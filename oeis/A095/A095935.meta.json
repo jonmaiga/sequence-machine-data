@@ -2,7 +2,10 @@
   "description": "First prime of length n encountered in the decimal representation of e.",
   "id": "A095935",
   "mentions": [
-    "A007512"
+    "A001113",
+    "A007512",
+    "A104841",
+    "A272304"
   ],
   "tags": [
     "base",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

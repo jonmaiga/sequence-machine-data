@@ -1,0 +1,20 @@
+{
+  "description": "Scan decimal expansion of sqrt(2) until all n-digit strings have been seen; a(n) is last string seen.",
+  "id": "A400382",
+  "mentions": [
+    "A002193",
+    "A036900",
+    "A036906",
+    "A400381"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

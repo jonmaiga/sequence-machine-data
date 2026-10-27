@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_(d_",
+  "description": "Numbers n such that Sum_(d_<n | n) tau(d_<n) / (d_<n) is an integer, where d_<n = divisors of n that are less than n, tau(x) = A000005(x).",
   "id": "A211781",
   "mentions": [
     "A000005",

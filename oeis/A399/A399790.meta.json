@@ -1,0 +1,18 @@
+{
+  "description": "Number of spanning trees in the knight graph on an n X n chessboard.",
+  "id": "A399790",
+  "mentions": [
+    "A033996",
+    "A288951",
+    "A288957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The eventual period of the RATS sequence in base n starting from 1; 0 is for infinity.",
+  "description": "Eventual period of the RATS sequence in base n starting from 1; 0 is for infinity.",
   "id": "A288536",
   "mentions": [
     "A004000",

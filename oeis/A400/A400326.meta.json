@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled biconnected bipartite planar graphs with n vertices.",
+  "id": "A400326",
+  "mentions": [
+    "A004100",
+    "A096331",
+    "A122113",
+    "A397517",
+    "A400247"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

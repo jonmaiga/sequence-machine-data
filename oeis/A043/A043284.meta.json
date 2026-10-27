@@ -2,6 +2,7 @@
   "description": "Maximal run length in base-10 representation of n.",
   "id": "A043284",
   "mentions": [
+    "A002275",
     "A005811",
     "A030556",
     "A030561",
@@ -11,6 +12,7 @@
     "A043290",
     "A083230",
     "A101211",
+    "A152724",
     "A227186",
     "A227188"
   ],

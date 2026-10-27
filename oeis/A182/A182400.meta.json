@@ -1,5 +1,5 @@
 {
-  "description": "Integral factorial ratio sequence: a(n) = (2*n)!*(8*n)!/(n!*(4*n)!*(5*n)!).",
+  "description": "a(n) = (2*n)!*(8*n)!/(n!*(4*n)!*(5*n)!).",
   "id": "A182400",
   "mentions": [
     "A000984",

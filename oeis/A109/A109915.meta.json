@@ -1,5 +1,5 @@
 {
-  "description": "Product of all composite numbers k such that n",
+  "description": "Product of all composite numbers k such that n<k<prime(r) where prime(r-1)<=n, or 1 if this set of k is empty.",
   "id": "A109915",
   "mentions": [
     "A092435",

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime of the form 1+n*(n+n_2)*...*(n+n_n) with 1<=n_2",
+  "description": "Smallest prime of the form 1+n*(n+n_2)*...*(n+n_n) with 1<=n_2<n_3<...<n_n. A089308 gives terms of products.",
   "id": "A089307",
   "mentions": [
     "A089308"

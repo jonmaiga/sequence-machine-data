@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A007504(k) - 1 is a perfect square.",
+  "id": "A400132",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A007504",
+    "A264858"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "7-rough squarefree numbers: squarefree numbers whose prime factors are all greater than 5.",
+  "id": "A398954",
+  "mentions": [
+    "A005117",
+    "A007775",
+    "A018255",
+    "A056911",
+    "A059956",
+    "A090417",
+    "A236435",
+    "A236436",
+    "A276378"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

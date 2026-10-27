@@ -1,5 +1,5 @@
 {
-  "description": "The Hyper-Wiener index of a link of n fullerenes C_{20} (see the Ghorbani and Hosseinzadeh reference).",
+  "description": "The hyper-Wiener index of a link of n fullerenes C_{20} (see the Ghorbani and Hosseinzadeh reference).",
   "id": "A216115",
   "mentions": [
     "A216114"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

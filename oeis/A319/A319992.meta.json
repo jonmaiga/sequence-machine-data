@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A019565(d)^[2 == d mod 3].",
   "id": "A319992",
   "mentions": [
     "A007814",

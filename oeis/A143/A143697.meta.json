@@ -1,5 +1,5 @@
 {
-  "description": "Least square k^2 such that n^2-k^2 = p*q with p and q odd primes and p= 4.",
+  "description": "Least square k^2 such that n^2-k^2 = p*q with p and q odd primes and p<q for n>= 4.",
   "id": "A143697",
   "mentions": [
     "A078496",

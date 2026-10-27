@@ -1,5 +1,5 @@
 {
-  "description": "Number of ones in the binary representation of the middle member q of the prime triple (p,q,r) with p",
+  "description": "Number of ones in the binary representation of the middle member q of the prime triple (p,q,r) with p<q<r=p+6.",
   "id": "A166007",
   "mentions": [
     "A014499",

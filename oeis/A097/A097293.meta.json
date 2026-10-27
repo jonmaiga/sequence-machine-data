@@ -1,5 +1,5 @@
 {
-  "description": "Contains exactly once every triple i,j,k such that 0",
+  "description": "Contains exactly once every triple i,j,k such that 0<i<j<k.",
   "id": "A097293",
   "mentions": [
     "A001399",

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers > 100 such that all the substrings of length = 2 are primes and are all distinct.",
+  "id": "A398710",
+  "mentions": [
+    "A019546",
+    "A035232",
+    "A211681",
+    "A211683",
+    "A397784"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

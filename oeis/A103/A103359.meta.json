@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = Max{p: prime p divides m where n-k<=m<=n+k}, triangle read by rows: 0<=k",
+  "description": "T(n,k) = Max{p: prime p divides m where n-k<=m<=n+k}, triangle read by rows: 0<=k<n.",
   "id": "A103359",
   "mentions": [
     "A006530",

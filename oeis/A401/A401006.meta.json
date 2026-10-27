@@ -1,0 +1,26 @@
+{
+  "description": "a(1)=1; for n >= 2, a(n) = n if n is prime; otherwise, a(n) is the decimal concatenation of n/p followed by p, where p is the largest prime factor of n.",
+  "id": "A401006",
+  "mentions": [
+    "A006530",
+    "A037274",
+    "A037276",
+    "A052126",
+    "A055642",
+    "A080670",
+    "A084796",
+    "A195264",
+    "A230305"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

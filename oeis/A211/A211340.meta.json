@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer pairs (x,y) such that 1",
+  "description": "Number of integer pairs (x,y) such that 1<x<=y<=n and x^2+y^2<=n^2.",
   "id": "A211340",
   "mentions": [
     "A046080",

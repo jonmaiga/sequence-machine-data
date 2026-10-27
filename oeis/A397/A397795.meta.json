@@ -1,7 +1,8 @@
 {
-  "description": "Numerator of the maximum expected number of steps of a knight's random walk on an infinite chessboard before it lands on a mined square, given that all but n squares are mined.",
+  "description": "a(n) is the numerator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyknight island.",
   "id": "A397795",
   "mentions": [
+    "A030446",
     "A326954",
     "A366998",
     "A397796"
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

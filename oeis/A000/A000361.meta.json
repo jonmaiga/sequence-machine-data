@@ -1,19 +1,20 @@
 {
-  "description": "From a fractal set of positive Lebesgue measure, a self-replicating tiling with holes, the 4-reptile following the 2-reptile of Paul Levy.",
+  "description": "Binary encodings of the successive columns of the Gosper-Lafitte triangle.",
   "id": "A000361",
   "mentions": [
     "A000360",
-    "A000876"
+    "A000876",
+    "A002487",
+    "A284556"
   ],
   "tags": [
     "eigen",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

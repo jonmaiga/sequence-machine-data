@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted trees with total node weight n where nodes have positive integer weights and no node has the same weight as its parent node.",
+  "id": "A396080",
+  "mentions": [
+    "A000081",
+    "A036249",
+    "A384747",
+    "A384748",
+    "A399985"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

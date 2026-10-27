@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = 1 + Sum_{k} a(e_k) where n = Sum_{k} 2^(e_k) is the binary expansion of n.",
+  "id": "A397704",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A063787",
+    "A070939",
+    "A108530",
+    "A116549"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

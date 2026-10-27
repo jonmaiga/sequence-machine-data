@@ -1,9 +1,7 @@
 {
   "description": "a(n) = 3*n^2-2*n+6.",
   "id": "A047915",
-  "mentions": [
-    "A010581"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

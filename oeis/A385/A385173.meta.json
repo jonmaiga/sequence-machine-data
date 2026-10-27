@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number of vertices for which n nonisomorphic connected cubic symmetric graphs exist.",
+  "description": "Smallest number of vertices for which there exist exactly n nonisomorphic connected cubic symmetric graphs.",
   "id": "A385173",
   "mentions": [
     "A059282"

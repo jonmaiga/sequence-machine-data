@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: (8 - 7*cosh(x)) / (13 - 12*cosh(x)).",
+  "description": "Expansion of e.g.f. (8 - 7*cosh(x)) / (13 - 12*cosh(x)).",
   "id": "A247082",
   "mentions": [
     "A050351",
@@ -10,6 +10,7 @@
     "A250915"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes n = p*q, p",
+  "description": "Semiprimes n = p*q, p<q, such that both numbers n + p - 1 and n + q - 1 are prime.",
   "id": "A227129",
   "mentions": [
     "A006881",

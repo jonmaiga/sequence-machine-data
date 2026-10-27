@@ -1,9 +1,10 @@
 {
-  "description": "a(1)=3; for n>1, if n is odd a(n) = spf(Product_{k=1..n-1}(a(k))+1) else a(n) = spf(Product_{k=1..n-1}(a(k))-1), where spf is \"smallest prime factor\".",
+  "description": "a(1)=3; for n>1, if n is odd a(n) = lpf(Product_{k=1..n-1}(a(k))+1) else a(n) = lpf(Product_{k=1..n-1}(a(k))-1), where lpf = A020639 (least prime factor).",
   "id": "A265009",
   "mentions": [
     "A000945",
-    "A005265"
+    "A005265",
+    "A020639"
   ],
   "tags": [
     "nonn"

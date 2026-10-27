@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose trajectory under repeated application of the map x -> sigma(x) - x is not strictly decreasing.",
+  "id": "A400703",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A003023",
+    "A005100",
+    "A005101",
+    "A023196",
+    "A080907",
+    "A126016"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

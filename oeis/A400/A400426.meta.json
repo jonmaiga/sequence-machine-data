@@ -1,0 +1,21 @@
+{
+  "description": "Self-locating strings within e: numbers j such that the string j is at position j in the decimal digits of e, where the initial digit 2 is at position 1.",
+  "id": "A400426",
+  "mentions": [
+    "A001113",
+    "A057679",
+    "A117431",
+    "A205648",
+    "A358211"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

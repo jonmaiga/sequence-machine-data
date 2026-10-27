@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [4+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(4+n)*[i",
+  "description": "Number of permutations p of [4+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(4+n)*[i<p(i)]].",
   "id": "A324624",
   "mentions": [
     "A004307",

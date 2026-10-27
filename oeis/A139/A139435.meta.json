@@ -1,5 +1,5 @@
 {
-  "description": "Largest m",
+  "description": "Largest m<n such that first terms of the Collatz trajectory of m sum up to n; a(n)=0 if no such m exists.",
   "id": "A139435",
   "mentions": [
     "A004523",

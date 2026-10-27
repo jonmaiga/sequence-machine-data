@@ -1,18 +1,21 @@
 {
-  "description": "Least prime p^2 such that n divides p^2-q^2 for some prime q satisfying q",
+  "description": "Square of the least prime p such that n divides p^2-q^2 for some prime q satisfying q<p.",
   "id": "A204918",
   "mentions": [
+    "A001248",
     "A204892",
     "A204900",
     "A204908",
     "A204916"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

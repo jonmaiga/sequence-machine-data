@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyforms with n cells in the Josehedron honeycomb.",
+  "id": "A398959",
+  "mentions": [
+    "A038119",
+    "A385028",
+    "A397708",
+    "A397709",
+    "A398957",
+    "A398958"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

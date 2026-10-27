@@ -1,11 +1,12 @@
 {
-  "description": "Reduced numerators of the (2n-1)th raw moment of the distribution of line lengths of points picked at random in a unit square.",
+  "description": "Reduced numerators of the 2n-th raw moment of the distance between two independent uniformly distributed points in the unit square.",
   "id": "A103304",
   "mentions": [
     "A103305"
   ],
   "tags": [
     "frac",
+    "more",
     "nonn"
   ],
   "terms": {

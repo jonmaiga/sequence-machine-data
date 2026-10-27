@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, G(n) <> G(a(n)) (where G denotes the Golomb's sequence A001462).",
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, G(n) <> G(a(n)) (where G denotes Golomb's sequence A001462).",
   "id": "A306230",
   "mentions": [
     "A001462",

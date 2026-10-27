@@ -1,0 +1,17 @@
+{
+  "description": "Total number of induced paths in all connected labeled graphs on n vertices, singleton paths excluded.",
+  "id": "A401178",
+  "mentions": [
+    "A401098",
+    "A401099",
+    "A401179"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

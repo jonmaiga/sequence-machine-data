@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of standard hexagonal Young tableaux with n cells whose major index is congruent to m modulo n.",
+  "id": "A398980",
+  "mentions": [
+    "A173258",
+    "A370665",
+    "A370666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

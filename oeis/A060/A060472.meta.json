@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive a(n) such that the number of solutions to a(n)=a(j)+a(k), j",
+  "description": "Smallest positive a(n) such that the number of solutions to a(n)=a(j)+a(k), j<k<n is four or less.",
   "id": "A060472",
   "mentions": [
     "A033627",

@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that n^3 - p is semiprime.",
+  "id": "A397155",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A398353"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 82,
+    "source": "joeis"
+  }
+}

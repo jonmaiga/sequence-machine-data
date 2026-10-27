@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is no divisor m of n with m",
+  "description": "Numbers n such that there is no divisor m of n with m<n and A083752(n) = (n/m)A083752(m).",
   "id": "A085018",
   "mentions": [
     "A083752",

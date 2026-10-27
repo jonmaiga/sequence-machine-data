@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2*Pi^2/(9*Cl_2(2*Pi/3)), where Cl_2(x) = - Integral_{u=0..x} log(2*sin(u/2)) du.",
+  "id": "A401026",
+  "mentions": [
+    "A019693",
+    "A164102"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

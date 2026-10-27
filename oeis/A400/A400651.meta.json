@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-uniform honeycombs of Euclidean 3-space by convex uniform polyhedra having n different vertex stars.",
+  "id": "A400651",
+  "mentions": [
+    "A068599",
+    "A068600",
+    "A242941"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic doppelsemigroups of order n.",
+  "id": "A399676",
+  "mentions": [
+    "A027851",
+    "A399678",
+    "A399679"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

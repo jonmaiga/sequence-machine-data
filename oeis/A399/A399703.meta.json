@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (-1)^(n-k-1) * binomial(n,k) * k^(k*(n-k)) * a(k).",
+  "id": "A399703",
+  "mentions": [
+    "A003024",
+    "A082157",
+    "A082158",
+    "A188457",
+    "A385549",
+    "A398633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

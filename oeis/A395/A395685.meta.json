@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 1; for k != 0, T(0,k) = 0; T(n,k) = T(n-1,k-1)*b(n) + T(n-1,k)*(n-b(n)) where b(n) = 2^ceiling(log_2(n)) - n.",
+  "id": "A395685",
+  "mentions": [
+    "A000142",
+    "A001855",
+    "A035327",
+    "A061168",
+    "A182220",
+    "A261125",
+    "A398374"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

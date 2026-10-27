@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T with T(n,n)=n, T(n,n-1)=-(n-1) and otherwise T(n,k)=0; 0",
+  "description": "Triangle T with T(n,n)=n, T(n,n-1)=-(n-1) and otherwise T(n,k)=0; 0<k<=n.",
   "id": "A128064",
   "mentions": [
     "A002260",

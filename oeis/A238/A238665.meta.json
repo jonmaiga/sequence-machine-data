@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that (p+3)^2+3 is prime but (p+j)^2+j is not prime for all 0",
+  "description": "Primes p such that (p+3)^2+3 is prime but (p+j)^2+j is not prime for all 0<j<3.",
   "id": "A238665",
   "mentions": [
     "A238086"

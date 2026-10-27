@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that floor[(10^n)/k] is prime.",
+  "description": "Least k such that floor((10^n)/k) is prime.",
   "id": "A090517",
   "mentions": [
     "A090518",

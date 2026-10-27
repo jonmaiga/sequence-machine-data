@@ -1,0 +1,26 @@
+{
+  "description": "The exponent of the highest power of 2 dividing the n-th number whose number of divisors is a power of 2 (A036537).",
+  "id": "A400522",
+  "mentions": [
+    "A007814",
+    "A036537",
+    "A372466",
+    "A373550",
+    "A383004",
+    "A383005",
+    "A383006",
+    "A383007",
+    "A383029",
+    "A386536"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

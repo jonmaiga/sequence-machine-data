@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least nonnegative integer not a(k) and not a(k)+floor(a(k)/2) for k",
+  "description": "a(n) = least nonnegative integer not a(k) and not a(k)+floor(a(k)/2) for k<n.",
   "id": "A072756",
   "mentions": [
     "A072757",

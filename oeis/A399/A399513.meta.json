@@ -1,0 +1,22 @@
+{
+  "description": "Trajectory of 3 under Conway's PIGAME function.",
+  "id": "A399513",
+  "mentions": [
+    "A350555",
+    "A350556",
+    "A395539",
+    "A399511",
+    "A399512",
+    "A399514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

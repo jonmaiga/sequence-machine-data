@@ -1,5 +1,5 @@
 {
-  "description": "arcsin(tanh(x)*arctan(x))=2/2!*x^2-16/4!*x^4+440/6!*x^6-25856/8!*x^8...",
+  "description": "Expansion of e.g.f. arcsin(tanh(x)*arctan(x)) (only even powers).",
   "id": "A012678",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "joeis"
   }
 }

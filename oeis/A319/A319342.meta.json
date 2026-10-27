@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} prime(A318881(d)), where A318881(d) records the prime signature of A000010(d).",
   "id": "A319342",
   "mentions": [
     "A000010",

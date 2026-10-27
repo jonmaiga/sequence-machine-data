@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 4th root of 59.",
   "id": "A011052",
-  "mentions": [],
+  "mentions": [
+    "A010512"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

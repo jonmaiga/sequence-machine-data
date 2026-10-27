@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = length of period of transformation sum-digit-square: given a number m(k) define m(k+1) to be the sum of the squares of the decimal digits of m(k) and iterate until m(s) is found such that m(s)=m(k) with k",
+  "description": "a(n) = length of period of transformation sum-digit-square: given a number m(k) define m(k+1) to be the sum of the squares of the decimal digits of m(k) and iterate until m(s) is found such that m(s)=m(k) with k<s. Numbers repeat periodically with a period of length a(n).",
   "id": "A160862",
   "mentions": [
     "A152077"

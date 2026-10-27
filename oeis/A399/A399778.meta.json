@@ -1,0 +1,17 @@
+{
+  "description": "Diagonal product divided by the central-cross sum in the (2*n + 1) X (2*n + 1) square array formed by the integers 1, 2, ..., (2*n + 1)^2 in order.",
+  "id": "A399778",
+  "mentions": [
+    "A393855",
+    "A399589"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

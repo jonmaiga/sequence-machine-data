@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1324-avoiding L-griddings with n points.",
+  "id": "A398542",
+  "mentions": [
+    "A000108",
+    "A000139",
+    "A061552"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

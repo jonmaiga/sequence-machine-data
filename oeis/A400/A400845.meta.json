@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of log(4)/log(2 + sqrt(2)).",
+  "id": "A400845",
+  "mentions": [
+    "A002193",
+    "A016627"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

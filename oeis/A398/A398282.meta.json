@@ -1,0 +1,18 @@
+{
+  "description": "Let Ab_k be the set of abelian groups of order k, M_k the set of rings Z/mZ such that phi(m) = k, and let f_k : M_k -> Ab_k be the map such that f_k(Z/mZ) = (Z/mZ)*, the group of units of Z/mZ. a(n) is the least r such that f_k is injective for k = p*2^r, p the n-th prime. a(n) = -1 if no such number exists.",
+  "id": "A398282",
+  "mentions": [
+    "A019434",
+    "A057192",
+    "A394532",
+    "A398299"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

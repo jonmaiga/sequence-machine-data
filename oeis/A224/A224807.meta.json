@@ -1,5 +1,5 @@
 {
-  "description": "(-1)^((p-1)/2)*Binomial(p-1,(p-1)/2) mod p^3 where p is the n-th prime.",
+  "description": "(-1)^((p-1)/2)*binomial(p-1,(p-1)/2) mod p^3 where p is the n-th prime.",
   "id": "A224807",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 29,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

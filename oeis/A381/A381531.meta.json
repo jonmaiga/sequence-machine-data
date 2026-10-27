@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of [n] having the maximal possible number of pairs of integers i",
+  "description": "Number of permutations of [n] having the maximal possible number of pairs of integers i<j in [n] such that their cycle minima have opposite sorting order.",
   "id": "A381531",
   "mentions": [
     "A000178",

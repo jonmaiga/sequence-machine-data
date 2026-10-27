@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle: n-th row is the prime factorization of the first n digits of Pi.",
+  "id": "A400906",
+  "mentions": [
+    "A000796",
+    "A005042",
+    "A011545",
+    "A027746",
+    "A046974"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

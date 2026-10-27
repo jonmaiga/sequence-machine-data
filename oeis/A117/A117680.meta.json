@@ -1,14 +1,21 @@
 {
   "description": "Squares for which the sum of the digits, the product of the digits, the digital root and the multiplicative digital root are all squares.",
   "id": "A117680",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A004159",
+    "A010888",
+    "A031347",
+    "A053667",
+    "A056992"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^4 - 99*n^3 + 3441*n^2 - 49259*n + 247889, for n >= 0.",
+  "id": "A398559",
+  "mentions": [
+    "A121887",
+    "A177695",
+    "A241607",
+    "A330363"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

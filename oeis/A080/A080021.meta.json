@@ -1,5 +1,5 @@
 {
-  "description": "log(n) is closer to an integer than is log(m) for any m with 2<=m",
+  "description": "log(n) is closer to an integer than is log(m) for any m with 2<=m<n.",
   "id": "A080021",
   "mentions": [
     "A080022",

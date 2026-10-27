@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the number defined by the continued fraction shown below.",
   "id": "A086774",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "cons",
     "easy",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

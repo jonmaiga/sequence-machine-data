@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n^k * (n - 1)^(n - k).",
+  "id": "A398483",
+  "mentions": [
+    "A000312",
+    "A055897",
+    "A065440",
+    "A066274",
+    "A085283"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

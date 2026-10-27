@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the least positive root of the equation 2025*x^8 - 11970*x^6 + 17009*x^4 - 9000x^2 + 2000.",
+  "id": "A399919",
+  "mentions": [
+    "A093577",
+    "A399918"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

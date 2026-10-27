@@ -1,0 +1,18 @@
+{
+  "description": "Number of involutions of length n avoiding the patterns 4321 and 4231.",
+  "id": "A399659",
+  "mentions": [
+    "A000085",
+    "A001006",
+    "A230556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

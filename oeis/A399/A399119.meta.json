@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct cardinalities of inclusion-maximal Sidon subsets of {1, ..., n}.",
+  "id": "A399119",
+  "mentions": [
+    "A143824",
+    "A325879",
+    "A382397",
+    "A399118"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

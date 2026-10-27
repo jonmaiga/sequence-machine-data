@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that x^y + y^x is prime, for some y>1, y",
+  "description": "Numbers x such that x^y + y^x is prime, for some y>1, y<x.",
   "id": "A162488",
   "mentions": [
     "A094133",

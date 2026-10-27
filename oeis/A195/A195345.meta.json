@@ -2,18 +2,16 @@
   "description": "Decimal expansion of shortest length, (B), of segment from side BC through incenter to side BA in right triangle ABC with sidelengths (a,b,c)=(1,3,sqrt(10)).",
   "id": "A195345",
   "mentions": [
-    "A195284",
-    "A195344",
-    "A195346",
-    "A195347"
+    "A195284"
   ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

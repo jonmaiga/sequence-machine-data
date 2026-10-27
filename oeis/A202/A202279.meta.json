@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the sum of digits^3 of k equals Sum_{d|k, 1",
+  "description": "Numbers k such that the sum of digits^3 of k equals Sum_{d|k, 1<d<k} d.",
   "id": "A202279",
   "mentions": [
     "A048050",

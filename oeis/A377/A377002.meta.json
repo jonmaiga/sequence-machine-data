@@ -1,5 +1,5 @@
 {
-  "description": "Integers k equal to the sum over A024816(t) mod t, for some steps, starting with t = k and then using the result to feed the next calculation.",
+  "description": "Integers k equal to the sum over A024816(t) mod t, for some steps, starting with t = k and then using the result for the next calculation.",
   "id": "A377002",
   "mentions": [
     "A000203",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + (1+a(n-2))*a(n-3) for n>1, a(1) = 1, a(n) = 0 for n",
+  "description": "a(n) = a(n-1) + (1+a(n-2))*a(n-3) for n>1, a(1) = 1, a(n) = 0 for n<1.",
   "id": "A209286",
   "mentions": [],
   "tags": [

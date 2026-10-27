@@ -1,5 +1,5 @@
 {
-  "description": "Sigma(n)/n for n such that sigma(n) is divisible by n.",
+  "description": "Sigma(k)/k for k such that sigma(k) is divisible by k.",
   "id": "A054030",
   "mentions": [
     "A000203",

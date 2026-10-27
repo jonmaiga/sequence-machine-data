@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 0<=k<=n, read by rows, defined by: T(0,0)=1,T(n,k)= 0 if n",
+  "description": "Triangle T(n,k), 0<=k<=n, read by rows, defined by: T(0,0)=1,T(n,k)= 0 if n<k, T(n,k) = (-1)^n*T(n-1,k) + T(n-1,k-1) + T(n-1,k+1).",
   "id": "A108149",
   "mentions": [
     "A005213"

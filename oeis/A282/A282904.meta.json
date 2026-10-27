@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of the numbers of elements of P{1}, P{1, 2}, P{1, 2, 3}, ..., P{1, 2, 3, ..., n}; where P{A} denote the power set of set A ordered by the size of the subsets, and in each subset, following the increasing order.",
+  "description": "Concatenation of the numbers of elements of P{1}, P{1, 2}, P{1, 2, 3}, ..., P{1, 2, 3, ..., n}; where P{A} denotes the power set of set A ordered by the size of the subsets, and in each subset, following the increasing order.",
   "id": "A282904",
   "mentions": [
     "A193360",

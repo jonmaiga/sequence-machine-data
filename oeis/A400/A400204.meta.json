@@ -1,0 +1,17 @@
+{
+  "description": "Minimum perimeter of a right-angled triangle with integer sides whose area is divisible by the n-th prime.",
+  "id": "A400204",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

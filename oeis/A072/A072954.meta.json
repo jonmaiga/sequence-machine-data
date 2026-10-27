@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n without letters a, i, l or t.",
+  "description": "Numbers without letters a, i, l or t.",
   "id": "A072954",
   "mentions": [],
   "tags": [
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple connected graphs on n nodes with clique cover number 2.",
+  "id": "A399099",
+  "mentions": [
+    "A399098"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

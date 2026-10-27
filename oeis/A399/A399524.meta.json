@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of two successive powerful numbers (A001694) that are both Achilles numbers (A052486).",
+  "id": "A399524",
+  "mentions": [
+    "A001694",
+    "A052486",
+    "A272714",
+    "A399522",
+    "A399525"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

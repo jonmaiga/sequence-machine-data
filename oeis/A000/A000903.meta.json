@@ -18,7 +18,8 @@
     "A037224",
     "A099952",
     "A122670",
-    "A263685"
+    "A263685",
+    "A399006"
   ],
   "tags": [
     "formulas",
@@ -26,8 +27,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

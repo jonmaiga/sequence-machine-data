@@ -1,5 +1,5 @@
 {
-  "description": "Smallest value a for Diophantine 1-triples (a,b,c) ordered by smallest c,b.",
+  "description": "Smallest value a in Diophantine 1-triples (a,b,c), with 0 < a < b < c, ordered lexicographically by (c,a,b).",
   "id": "A050273",
   "mentions": [
     "A050274",

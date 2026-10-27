@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors d of n such that n/d is a perfect power (A001597).",
+  "id": "A399747",
+  "mentions": [
+    "A001597",
+    "A008683",
+    "A069208",
+    "A076752",
+    "A091050",
+    "A091051",
+    "A327626",
+    "A380398",
+    "A399740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

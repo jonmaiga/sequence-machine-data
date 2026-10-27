@@ -2,7 +2,9 @@
   "description": "Number of iterations needed to reach 1 under the map n -> Omega(n).",
   "id": "A036430",
   "mentions": [
+    "A001222",
     "A029908",
+    "A069277",
     "A073855"
   ],
   "tags": [

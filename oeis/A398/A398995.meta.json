@@ -1,0 +1,22 @@
+{
+  "description": "The binomial matrix of the Pell numbers. Square array read by ascending antidiagonals.",
+  "id": "A398995",
+  "mentions": [
+    "A000129",
+    "A007052",
+    "A007070",
+    "A016116",
+    "A077957",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

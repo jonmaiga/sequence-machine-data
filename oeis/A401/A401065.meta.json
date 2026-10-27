@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that for p = prime(1+k), there is at least one prime q <= p such that ((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
+  "id": "A401065",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A034386",
+    "A400266",
+    "A400836",
+    "A400837",
+    "A401056",
+    "A401059",
+    "A401061"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

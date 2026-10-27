@@ -1,0 +1,18 @@
+{
+  "description": "Number of one-sided left-handed polymarquises with n cells.",
+  "id": "A400999",
+  "mentions": [
+    "A400403",
+    "A400998",
+    "A401000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

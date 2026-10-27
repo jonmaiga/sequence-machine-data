@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that is the sum of n distinct elements from the union of primes and factorials.",
+  "id": "A399803",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A399546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

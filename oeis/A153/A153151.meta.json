@@ -1,5 +1,5 @@
 {
-  "description": "Rotated binary decrementing: For n",
+  "description": "Rotated binary decrementing: For n<2 a(n) = n, if n=2^k, a(n) = 2*n-1, otherwise a(n) = n-1.",
   "id": "A153151",
   "mentions": [
     "A002487",

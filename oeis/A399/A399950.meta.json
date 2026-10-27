@@ -1,0 +1,19 @@
+{
+  "description": "Indices of record high points in A400000.",
+  "id": "A399950",
+  "mentions": [
+    "A397493",
+    "A399949",
+    "A400000",
+    "A400121"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

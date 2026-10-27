@@ -1,0 +1,22 @@
+{
+  "description": "Largest m such that one defective in an m-item set and one in a disjoint 5-item set can always be identified in at most n adaptive tests, each returning the number of defectives in a selected subset (0 if no positive m is feasible).",
+  "id": "A400600",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000325",
+    "A132824",
+    "A400594",
+    "A400595"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,15 @@
 {
   "description": "Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 3,1.",
   "id": "A037587",
-  "mentions": [],
+  "mentions": [
+    "A007094",
+    "A037583",
+    "A037584",
+    "A037585",
+    "A037586",
+    "A037588",
+    "A037589"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

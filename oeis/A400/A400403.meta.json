@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polymarquises with n cells.",
+  "id": "A400403",
+  "mentions": [
+    "A000988",
+    "A030445",
+    "A400402",
+    "A400404",
+    "A400999"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the long/short edge length ratio of a canonical (dual-uniform) 9-gonal trapezohedron.",
+  "id": "A398615",
+  "mentions": [
+    "A398610",
+    "A398611",
+    "A398612",
+    "A398613",
+    "A398614",
+    "A398616",
+    "A398617",
+    "A398618"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

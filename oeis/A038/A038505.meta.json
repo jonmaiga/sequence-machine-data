@@ -2,6 +2,7 @@
   "description": "Sum of every 4th entry of row n in Pascal's triangle, starting at binomial(n,2).",
   "id": "A038505",
   "mentions": [
+    "A000225",
     "A000749",
     "A004525",
     "A009116",

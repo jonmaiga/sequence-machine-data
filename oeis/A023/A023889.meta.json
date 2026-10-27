@@ -2,10 +2,14 @@
   "description": "Sum of the prime power divisors of n (not including 1).",
   "id": "A023889",
   "mentions": [
+    "A000203",
     "A001221",
-    "A023888"
+    "A001222",
+    "A023888",
+    "A246655"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,14 +1,16 @@
 {
   "description": "Numbers n such that d(1)^1 + d(2)^2 +... + d(p)^p is a power of 2, where d(i), i=1..p, are the decimal digits of n.",
   "id": "A178330",
-  "mentions": [],
+  "mentions": [
+    "A178332"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

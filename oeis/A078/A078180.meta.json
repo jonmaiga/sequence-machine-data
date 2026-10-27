@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest integer that can't be written as p*a(i)+1, for any prime p and 0 a(n-1).",
+  "description": "a(n) = smallest integer that can't be written as p*a(i)+1, for any prime p and 0<i<n, where a(1)=1 and a(n) > a(n-1).",
   "id": "A078180",
   "mentions": [],
   "tags": [

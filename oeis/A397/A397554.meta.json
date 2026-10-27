@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that sigma(k) > sigma(k-1)*n, where sigma(k) = A000203(k) is sum of divisors of k.",
+  "id": "A397554",
+  "mentions": [
+    "A000203",
+    "A025487",
+    "A397578"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

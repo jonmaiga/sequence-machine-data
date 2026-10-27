@@ -1,16 +1,19 @@
 {
-  "description": "Number of distinct pairs of partially ordered sets and legal permutations on labeled directed acyclic graphs (DAGs) with n nodes.",
+  "description": "Number of distinct pairs of partially ordered sets and legal permutations on labeled directed acyclic graphs (DAGs) with n nodes and up to n edges.",
   "id": "A353922",
   "mentions": [
-    "A003024"
+    "A000142",
+    "A003024",
+    "A011266",
+    "A369192"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

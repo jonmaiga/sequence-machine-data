@@ -2,6 +2,8 @@
   "description": "Decimal expansion of log_12 (7).",
   "id": "A153622",
   "mentions": [
+    "A016630",
+    "A016635",
     "A152778",
     "A153015",
     "A153105",
@@ -26,6 +28,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

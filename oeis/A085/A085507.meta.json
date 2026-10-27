@@ -1,7 +1,13 @@
 {
   "description": "Stirling transform of the prime characteristic function.",
   "id": "A085507",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A008277",
+    "A010051",
+    "A048993"
+  ],
   "tags": [
     "formulas",
     "nonn"

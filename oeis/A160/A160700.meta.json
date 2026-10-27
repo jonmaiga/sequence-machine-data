@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if n",
+  "description": "a(n) = if n<16 then n else a(floor(n/16)) XOR (n mod 16).",
   "id": "A160700",
   "mentions": [
     "A000079",

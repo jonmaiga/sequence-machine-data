@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of pairs (i,j) with mu(i) = mu(j), 1 <= i,j <= n, where mu = A008683 (Moebius function).",
+  "id": "A398144",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A013928",
+    "A057627",
+    "A070548",
+    "A070549",
+    "A124579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

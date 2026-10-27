@@ -1,0 +1,31 @@
+{
+  "description": "The sum of the unitary divisors d of n such that n/d is a perfect power (A001597).",
+  "id": "A399740",
+  "mentions": [
+    "A001597",
+    "A008683",
+    "A034448",
+    "A363289",
+    "A380398",
+    "A380400",
+    "A399732",
+    "A399733",
+    "A399734",
+    "A399735",
+    "A399736",
+    "A399737",
+    "A399738",
+    "A399739",
+    "A399747"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Values of 2x + y, where x^2 + xy + y^2=p (x",
+  "description": "Values of 2x + y, where x^2 + xy + y^2=p (x<y) is a prime of the form 6n + 1 (=A002476).",
   "id": "A088298",
   "mentions": [
     "A002476",

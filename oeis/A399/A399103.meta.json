@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of independent vertex sets in the n X k Moebius strip graph.",
+  "id": "A399103",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A089980",
+    "A123231",
+    "A152113",
+    "A182143",
+    "A286513",
+    "A399101",
+    "A399104",
+    "A399349",
+    "A399350",
+    "A399352",
+    "A399354",
+    "A399355",
+    "A399356"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

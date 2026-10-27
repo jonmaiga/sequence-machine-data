@@ -2,6 +2,7 @@
   "description": "Numerators of coefficients of Maclaurin series for (1-x-x^2)^(-1/2).",
   "id": "A178694",
   "mentions": [
+    "A005187",
     "A046161",
     "A178693"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic primitive strongly regular graphs on n vertices.",
+  "id": "A399774",
+  "mentions": [
+    "A076435",
+    "A398317",
+    "A398319"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

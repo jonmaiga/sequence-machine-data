@@ -1,8 +1,12 @@
 {
-  "description": "3rd Bernoulli polynomial evaluated at x=n!.",
+  "description": "Third Bernoulli polynomial evaluated at x=n!.",
   "id": "A020545",
-  "mentions": [],
+  "mentions": [
+    "A020543",
+    "A020547"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

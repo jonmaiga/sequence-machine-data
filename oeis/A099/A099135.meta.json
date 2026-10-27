@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number m, not occurring earlier, such that a(k)+m is a square for some k",
+  "description": "a(n) = smallest number m, not occurring earlier, such that a(k)+m is a square for some k<n; a(1) = 1.",
   "id": "A099135",
   "mentions": [
     "A048761",

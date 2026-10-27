@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the smallest solution of Gamma(log(x)) = log(Gamma(x)).",
+  "description": "Decimal expansion of the smallest solution of Gamma(log(x)) = log(Gamma(x)) for x > 1.",
   "id": "A261999",
   "mentions": [],
   "tags": [

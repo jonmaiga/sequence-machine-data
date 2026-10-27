@@ -2,9 +2,12 @@
   "description": "Number of arrangements of n indistinguishable balls in n boxes with the maximum number of balls in any box equal to 3.",
   "id": "A180283",
   "mentions": [
+    "A002426",
+    "A005725",
     "A180281"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

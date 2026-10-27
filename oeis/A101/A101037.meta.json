@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,1) = T(n,n) = n and for 1",
+  "description": "Triangle read by rows: T(n,1) = T(n,n) = n and for 1<k<n: T(n,k) = floor((T(n-1,k-1)+T(n-1,k))/2).",
   "id": "A101037",
   "mentions": [
     "A007590"

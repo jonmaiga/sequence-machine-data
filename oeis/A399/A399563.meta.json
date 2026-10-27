@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the tens digit of k^2 equals the units digit of 2*k.",
+  "id": "A399563",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

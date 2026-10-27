@@ -1,0 +1,20 @@
+{
+  "description": "First elements of the rows of the greedy grasshopper infinite barrycade (recursively defined family of permutations of the positive integers having pairwise disjoint sets of partial sums).",
+  "id": "A399902",
+  "mentions": [
+    "A399897",
+    "A399901",
+    "A399903",
+    "A399904",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

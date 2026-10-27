@@ -6,15 +6,18 @@
     "A226080",
     "A226130",
     "A226131",
-    "A226137"
+    "A226137",
+    "A226274",
+    "A226275"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "joeis"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=B(2n,4)/B(2n) (see comment).",
+  "description": "a(n) = B(2n,4)/B(2n) (see comment).",
   "id": "A096047",
   "mentions": [
     "A096045",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

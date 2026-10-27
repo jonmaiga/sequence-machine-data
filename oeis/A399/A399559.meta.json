@@ -1,0 +1,16 @@
+{
+  "description": "Norm from Q(zeta_n) to Q of F(zeta_n), where F(q) = Sum_{k>=0} (q;q)_k is the Kontsevich-Zagier series and zeta_n is a primitive n-th root of unity.",
+  "id": "A399559",
+  "mentions": [
+    "A022493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

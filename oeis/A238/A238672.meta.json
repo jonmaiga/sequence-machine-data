@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that (p+10)^2+10 is prime but (p+j)^2+j is not prime for all 0",
+  "description": "Primes p such that (p+10)^2+10 is prime but (p+j)^2+j is not prime for all 0<j<10.",
   "id": "A238672",
   "mentions": [
     "A238086"

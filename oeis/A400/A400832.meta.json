@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A400831(i) = A400831(j), for all i, j >= 1, where A400831(n) = Product_{d|n} A276086(A300251(d)).",
+  "id": "A400832",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A276086",
+    "A300251",
+    "A305800",
+    "A380460",
+    "A400831",
+    "A400834"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

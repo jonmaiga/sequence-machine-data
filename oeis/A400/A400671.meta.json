@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n + binomial(k, 2).",
+  "id": "A400671",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A005581",
+    "A145018",
+    "A152948",
+    "A152949",
+    "A152950",
+    "A168396"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

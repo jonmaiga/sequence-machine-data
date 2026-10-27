@@ -1,0 +1,16 @@
+{
+  "description": "The sequence P(n) defined by Alkan et al. (2020).",
+  "id": "A399177",
+  "mentions": [
+    "A399178"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

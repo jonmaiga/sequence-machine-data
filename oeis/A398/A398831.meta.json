@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of k-element subsets of {1, ..., n - 1} that occur as the complete digit set of both m and m + Rev_n(m) in base n for some positive integer m, where 1 <= k <= n - 1.",
+  "id": "A398831",
+  "mentions": [
+    "A004086",
+    "A056964",
+    "A066450"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

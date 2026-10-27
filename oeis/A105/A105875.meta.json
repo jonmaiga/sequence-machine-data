@@ -2,6 +2,7 @@
   "description": "Primes for which -3 is a primitive root.",
   "id": "A105875",
   "mentions": [
+    "A005596",
     "A105874"
   ],
   "tags": [

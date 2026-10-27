@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k < n, k squarefree and relatively prime to n} (-1)^(k-1).",
+  "description": "a(n) = Sum_{k = 1..n, k squarefree and relatively prime to n} (-1)^(k-1).",
   "id": "A304576",
   "mentions": [
     "A000010",
@@ -16,11 +16,12 @@
     "A304575"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

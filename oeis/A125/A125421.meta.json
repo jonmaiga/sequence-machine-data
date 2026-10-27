@@ -1,7 +1,9 @@
 {
   "description": "Number of base 9 circular n-digit numbers with adjacent digits differing by 7 or less.",
   "id": "A125421",
-  "mentions": [],
+  "mentions": [
+    "A126371"
+  ],
   "tags": [
     "base",
     "formulas",

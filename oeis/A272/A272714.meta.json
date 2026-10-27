@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that both n and n+1 are Achilles numbers (A052486).",
+  "description": "Numbers k such that both k and k+1 are Achilles numbers (A052486).",
   "id": "A272714",
   "mentions": [
     "A052486",
+    "A060355",
     "A227297",
     "A247246"
   ],
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

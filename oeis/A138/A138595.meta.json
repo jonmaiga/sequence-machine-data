@@ -2,6 +2,7 @@
   "description": "Numbers k such that 2^(2*k-21) - 21 is prime.",
   "id": "A138595",
   "mentions": [
+    "A096820",
     "A138577",
     "A138578",
     "A138579",
@@ -22,7 +23,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

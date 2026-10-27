@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which pi_{8,7}(p) - pi_{8,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "description": "Primes p == 1, 7 (mod 8) for which pi_{8,7}(p) - pi_{8,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A295354",
   "mentions": [
     "A007350",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+11x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+11*x)^n.",
   "id": "A013618",
   "mentions": [
     "A001020",

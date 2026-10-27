@@ -2,7 +2,6 @@
   "description": "Eventual period of the RATS sequence, where 0 indicates a divergent sequence.",
   "id": "A114611",
   "mentions": [
-    "A001651",
     "A036839",
     "A114612",
     "A114613",

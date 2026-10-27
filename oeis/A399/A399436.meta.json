@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the denominator of the probability that two heads will turn up in succession in tossing n times a coin.",
+  "id": "A399436",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A399435"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

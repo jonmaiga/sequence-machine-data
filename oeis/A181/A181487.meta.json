@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that Sum_{d|k, d k.",
+  "description": "Numbers k such that Sum_{d|k, d<k, d not occurring before} d > k.",
   "id": "A181487",
   "mentions": [
     "A000396",

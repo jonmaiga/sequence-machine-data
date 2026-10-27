@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; thereafter a(n) is the smallest prime divisor of the number C(6n+1) formeded from the concatenation of 1,2,3,...,6n+1.",
+  "description": "a(0) = 1; thereafter a(n) is the smallest prime divisor of the number C(6n+1) formed from the concatenation of 1,2,3,...,6n+1.",
   "id": "A320571",
   "mentions": [
     "A007908",

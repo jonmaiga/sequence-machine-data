@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that there exists an elliptic cuve E/Q with good reduction away from p.",
+  "description": "Primes p such that there exists an elliptic curve E/Q with good reduction away from p.",
   "id": "A375818",
   "mentions": [
     "A005788",

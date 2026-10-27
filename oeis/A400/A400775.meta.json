@@ -1,0 +1,22 @@
+{
+  "description": "Fast-growing hierarchy {f_n(k)} read by antidiagonals, n >= 0, k >= 0.",
+  "id": "A400775",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A005843",
+    "A007395",
+    "A036289",
+    "A154714"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

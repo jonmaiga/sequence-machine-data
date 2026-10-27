@@ -1,7 +1,9 @@
 {
-  "description": "Indices of record low-water marks of the sequence abs((cos n)^n).",
+  "description": "Indices of record low-water marks of the sequence abs((cos(k))^k).",
   "id": "A383283",
   "mentions": [
+    "A002485",
+    "A002486",
     "A382564",
     "A383229"
   ],
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

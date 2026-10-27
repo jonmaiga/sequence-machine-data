@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), n>=1, 1<=k<=n, read by rows: T(n,k) is the number of positive integers j",
+  "description": "Triangle T(n,k), n>=1, 1<=k<=n, read by rows: T(n,k) is the number of positive integers j<k such that j,k,n are pairwise coprime.",
   "id": "A186230",
   "mentions": [
     "A000010",

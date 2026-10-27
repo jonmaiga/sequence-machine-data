@@ -1,8 +1,13 @@
 {
-  "description": "Decimal expansion of the smallest positive root of the function lambda(x) = sum_{n=0..infinity} (-1)^n*x^n/(2^(n*(n-1)/2)*n!).",
+  "description": "Decimal expansion of the smallest positive root of the function lambda(x) = Sum_{n>=0} (-1)^n*x^n/(2^(n*(n-1)/2)*n!).",
   "id": "A245654",
   "mentions": [
-    "A003024"
+    "A003024",
+    "A026586",
+    "A188455",
+    "A188456",
+    "A245655",
+    "A350415"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2^n == 11 (mod n).",
+  "description": "Integers k such that 2^k == 11 (mod k).",
   "id": "A033982",
   "mentions": [
     "A015910",
@@ -13,6 +13,7 @@
     "A125000"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 6/e.",
   "id": "A135006",
-  "mentions": [],
+  "mentions": [
+    "A135003"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by a chess king moving on the square spiral, always moving to an adjacent unvisited square whose number has the greatest prime factor; ties are resolved by choosing the lowest number.",
+  "id": "A400593",
+  "mentions": [
+    "A006530",
+    "A333713",
+    "A335661",
+    "A335816",
+    "A335856"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

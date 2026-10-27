@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as n = u*v*w with 1<=u<=v",
+  "description": "Number of ways to write n as n = u*v*w with 1<=u<=v<w.",
   "id": "A088433",
   "mentions": [
     "A000430",

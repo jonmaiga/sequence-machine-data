@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) is the smallest unused positive integer k such that (number of earlier terms smaller than k that are coprime to k) - (number of earlier terms larger than k that share a factor with k) = 1.",
+  "id": "A400792",
+  "mentions": [
+    "A064413",
+    "A280985",
+    "A339671",
+    "A364164",
+    "A384275",
+    "A397358",
+    "A400793",
+    "A400794"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

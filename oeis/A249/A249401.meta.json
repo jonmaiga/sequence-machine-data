@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = OP(sum{i=0,...,n} OP(binomial(n,i))), where OP(n) is the odd part of n (A000265).",
+  "description": "a(n) = OP(Sum_{i=0..n} OP(binomial(n,i))), where OP(n) is the odd part of n (A000265).",
   "id": "A249401",
   "mentions": [
     "A000120",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

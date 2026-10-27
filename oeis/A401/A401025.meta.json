@@ -1,0 +1,22 @@
+{
+  "description": "Maximum absolute difference between consecutive terms of n/gcd(n,k), k = 1..n-1.",
+  "id": "A401025",
+  "mentions": [
+    "A054531",
+    "A078701",
+    "A108738",
+    "A277227",
+    "A397676",
+    "A397783"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

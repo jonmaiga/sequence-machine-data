@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4 X n binary matrices without unit columns up to row and column permutations.",
+  "description": "Number of 4 X n binary matrices without singleton columns up to row and column permutations.",
   "id": "A057223",
   "mentions": [
     "A001752",

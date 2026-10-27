@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the infinite power tower with base square root of phi.",
+  "id": "A394032",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A139339",
+    "A231096"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g^9/(7-6*g)^4, where g = 1+x*g^7 is the g.f. of A002296.",
+  "id": "A399645",
+  "mentions": [
+    "A002296",
+    "A079563",
+    "A395667",
+    "A399641",
+    "A399642",
+    "A399643",
+    "A399644"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

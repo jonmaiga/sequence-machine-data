@@ -1,5 +1,5 @@
 {
-  "description": "Minimal number of V-trominoes needed to prevent any further V-trominoe from being placed on an n X n grid.",
+  "description": "Minimal number of V-trominoes needed to prevent any further V-tromino from being placed on an n X n grid.",
   "id": "A238381",
   "mentions": [
     "A226918"

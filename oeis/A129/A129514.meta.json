@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(Sum_{k|n} k, Sum_{1",
+  "description": "a(n) = gcd(Sum_{k|n} k, Sum_{1<k<n, k does not divide n} k) = gcd(sigma(n), n(n+1)/2 - sigma(n)) = gcd(sigma(n), n(n+1)/2), where sigma(n) = A000203(n).",
   "id": "A129514",
   "mentions": [
     "A000203",

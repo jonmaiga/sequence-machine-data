@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{1<=i",
+  "description": "a(n) = Product_{1<=i<j<=n} (4*sin(i*Pi/(2*n+1))^2 + 4*sin(j*Pi/(2*n+1))^2).",
   "id": "A340052",
   "mentions": [
     "A006752",

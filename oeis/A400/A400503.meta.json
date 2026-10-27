@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of alpha_N, the unique minimizer of Sum_{n >= 2} 1/(n*log(n)^alpha) for alpha > 1.",
+  "id": "A400503",
+  "mentions": [
+    "A115563",
+    "A137245",
+    "A400502"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

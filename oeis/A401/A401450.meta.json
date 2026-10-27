@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of square partial products of a strictly increasing sequence of positive integers not exceeding n.",
+  "id": "A401450",
+  "mentions": [
+    "A006255",
+    "A092487"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

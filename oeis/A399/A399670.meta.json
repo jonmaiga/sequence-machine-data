@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with at least 6 divisors.",
+  "id": "A399670",
+  "mentions": [
+    "A000005",
+    "A002808",
+    "A030515",
+    "A058080",
+    "A080257",
+    "A282671"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

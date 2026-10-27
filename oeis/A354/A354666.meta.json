@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = T(n-1,k) + T(n-2,k-1) + 2*T(n-2,k-2) - T(n-3,k-1) - T(n-3,k-2) + T(n-4,k-1) + T(n-4,k-2) - T(n-4,k-3) - T(n-4,k-4) + delta(n,0)*delta(k,0) - delta(n,2)*(delta(k,1) + delta(k,2)), T(n",
+  "description": "Triangle read by rows, T(n,k) = T(n-1,k) + T(n-2,k-1) + 2*T(n-2,k-2) - T(n-3,k-1) - T(n-3,k-2) + T(n-4,k-1) + T(n-4,k-2) - T(n-4,k-3) - T(n-4,k-4) + delta(n,0)*delta(k,0) - delta(n,2)*(delta(k,1) + delta(k,2)), T(n<k,k) = T(n,k<0) = 0.",
   "id": "A354666",
   "mentions": [
     "A007318",

@@ -1,0 +1,24 @@
+{
+  "description": "Number of n X n (0,1)-matrices of rank 3 over the real numbers.",
+  "id": "A401074",
+  "mentions": [
+    "A002416",
+    "A046747",
+    "A055165",
+    "A060867",
+    "A379105",
+    "A401073",
+    "A401076",
+    "A401077"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,17 +1,16 @@
 {
-  "description": "Minimal elements of pairs of \"(-1)sigma amicable numbers\", sorted by their minimal elements.",
+  "description": "Lesser members of pairs of \"(-1)sigma amicable numbers\", sorted by their lesser members.",
   "id": "A051595",
   "mentions": [
     "A049060",
     "A051594"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

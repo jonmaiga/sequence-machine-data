@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1<=i",
+  "description": "Number of 1<=i<n such that i*n-1 is prime.",
   "id": "A086686",
   "mentions": [],
   "tags": [

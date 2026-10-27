@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to x^2 + 4*y^2 = n in positive integers x and y.",
+  "id": "A399169",
+  "mentions": [
+    "A063725",
+    "A092573",
+    "A216278",
+    "A216510",
+    "A216511",
+    "A374017"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

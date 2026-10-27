@@ -1,0 +1,17 @@
+{
+  "description": "Number of construction sequences of the complete 3-uniform hypergraph on n labeled vertices.",
+  "id": "A398636",
+  "mentions": [
+    "A374928"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

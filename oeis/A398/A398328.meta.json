@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations p of [n] having exactly k runs of consecutive integers in either direction (n >= 0, 0 <= k <= floor(n/2)).",
+  "id": "A398328",
+  "mentions": [
+    "A000142",
+    "A000239",
+    "A000544",
+    "A001282",
+    "A002464",
+    "A010030",
+    "A398330",
+    "A398331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

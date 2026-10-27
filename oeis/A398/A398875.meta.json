@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (-1)^(n-k-1) * binomial(2*n,2*k)^2 * a(k).",
+  "id": "A398875",
+  "mentions": [
+    "A000275",
+    "A000364",
+    "A352467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

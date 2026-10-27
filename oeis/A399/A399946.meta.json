@@ -1,0 +1,22 @@
+{
+  "description": "Maximum terminal value in the Gilbreath reduction of graceful paths of order n.",
+  "id": "A399946",
+  "mentions": [
+    "A006967",
+    "A036262",
+    "A229693",
+    "A398093"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

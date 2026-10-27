@@ -1,0 +1,16 @@
+{
+  "description": "Integer circumradii of non-isosceles cyclic quadrilaterals with integer sides.",
+  "id": "A400499",
+  "mentions": [
+    "A210250",
+    "A233315"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

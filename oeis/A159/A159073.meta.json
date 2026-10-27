@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the k in the range 1",
+  "description": "Sum of the k in the range 1<k<=n such that set of proper divisors of k is a subset of the set of proper divisors of n.",
   "id": "A159073",
   "mentions": [
     "A000040",

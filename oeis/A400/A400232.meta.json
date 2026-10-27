@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of boundary lattice points minus the number of interior lattice points of the cube [0,n] X [0,n] X [0,n].",
+  "id": "A400232",
+  "mentions": [
+    "A342831",
+    "A400233",
+    "A400235"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

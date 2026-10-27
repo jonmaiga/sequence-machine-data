@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k coprime to 10 such that the decimal expansion of i/k has the same period for i = 1..k-1; also overpseudoprimes to base 10.",
+  "id": "A400102",
+  "mentions": [
+    "A007732",
+    "A020236",
+    "A045616",
+    "A141232",
+    "A141350",
+    "A141390"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

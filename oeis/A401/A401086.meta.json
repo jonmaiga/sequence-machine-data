@@ -1,0 +1,21 @@
+{
+  "description": "The number of ordered pairs of exponentially odd divisors (d_1, d_2) of n such that d_1 * d_2 is a divisor of n.",
+  "id": "A401086",
+  "mentions": [
+    "A268335",
+    "A365345",
+    "A401083",
+    "A401087"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

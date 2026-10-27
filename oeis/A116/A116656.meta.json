@@ -1,5 +1,5 @@
 {
-  "description": "Slowest growing sequence of semiprimes having the semiprime-pairwise-sum property: for any i",
+  "description": "Slowest growing sequence of semiprimes having the semiprime-pairwise-sum property: for any i<j, a(i)+a(j) is semiprime.",
   "id": "A116656",
   "mentions": [
     "A001358",

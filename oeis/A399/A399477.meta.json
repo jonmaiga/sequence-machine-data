@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 9*binomial(n,8) + 49*binomial(n,7) + 75*binomial(n,6) + 35*binomial(n,5) + 3*binomial(n,4).",
+  "id": "A399477",
+  "mentions": [
+    "A005732"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 33,
+    "source": "joeis"
+  }
+}

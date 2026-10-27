@@ -1,5 +1,5 @@
 {
-  "description": "\"Canada perfect numbers\": n such that the sum of digits^2 of n equals the sum of d|n, 1",
+  "description": "\"Canada perfect numbers\": n such that the sum of digits^2 of n equals the sum of d|n, 1<d<n.",
   "id": "A070308",
   "mentions": [],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partial matchings of n points on a circle up to rotation.",
+  "id": "A400335",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A007769",
+    "A054499",
+    "A061417",
+    "A400336"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

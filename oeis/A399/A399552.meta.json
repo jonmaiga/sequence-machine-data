@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (Sum_{d|k} gpf(d)) / gpf(k), where k = A399551(n) and gpf = A006530.",
+  "id": "A399552",
+  "mentions": [
+    "A006530",
+    "A387279",
+    "A399551"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

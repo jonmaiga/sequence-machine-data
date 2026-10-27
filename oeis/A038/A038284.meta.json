@@ -1,9 +1,14 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*8^(i-j)*6^j.",
   "id": "A038284",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A001018",
+    "A007318"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

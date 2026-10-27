@@ -1,5 +1,5 @@
 {
-  "description": "Consider pairs of primes p",
+  "description": "Consider pairs of primes p<q such that p|q^2 + q + 1 and q|p^2 + p + 1; sequence gives q values.",
   "id": "A264612",
   "mentions": [
     "A101368",

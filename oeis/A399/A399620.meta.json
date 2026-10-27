@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of monochromatic axis-parallel rectangles in a 2-coloring of an n X n grid.",
+  "id": "A399620",
+  "mentions": [
+    "A191873",
+    "A191965",
+    "A399621"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

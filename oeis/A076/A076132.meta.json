@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n > 1, a(n) = Sum{a(n-k)^k | 0",
+  "description": "a(1) = 1; for n > 1, a(n) = Sum{a(n-k)^k | 0<k<n}.",
   "id": "A076132",
   "mentions": [],
   "tags": [

@@ -1,15 +1,17 @@
 {
-  "description": "Exponent of 2 in prime(n)^2 - 1.",
+  "description": "Exponent of 2 in the prime factorization of prime(n)^2 - 1.",
   "id": "A091282",
   "mentions": [
     "A007814",
     "A023506",
     "A023512",
+    "A084920",
     "A091283",
     "A091284",
     "A233930"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

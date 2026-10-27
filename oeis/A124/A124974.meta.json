@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2^n == 17 (mod n).",
+  "description": "Integers k such that 2^k == 17 (mod k).",
   "id": "A124974",
   "mentions": [
     "A015911",

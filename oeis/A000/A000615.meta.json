@@ -1,5 +1,5 @@
 {
-  "description": "Threshold functions of exactly n variables.",
+  "description": "Number of threshold functions of exactly n variables.",
   "id": "A000615",
   "mentions": [
     "A000371",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

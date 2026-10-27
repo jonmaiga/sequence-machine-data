@@ -1,5 +1,5 @@
 {
-  "description": "Least 2^k such that n divides 2^k-2^j for some j",
+  "description": "Least 2^k such that n divides 2^k-2^j for some j<k.",
   "id": "A204989",
   "mentions": [
     "A204892",

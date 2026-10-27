@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that p^2 is the concatenation of two primes in exactly n different ways.",
+  "id": "A399003",
+  "mentions": [
+    "A106582",
+    "A173935",
+    "A213072"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

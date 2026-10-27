@@ -1,5 +1,5 @@
 {
-  "description": "Indices of Bernoulli numbers of the form 4k+2 whose fractional part is < 2/3.",
+  "description": "Indices n = 4*k+2 for which 1/6 < frac(B_n) < 2/3, where B_n is the n-th Bernoulli number.",
   "id": "A155125",
   "mentions": [
     "A155126"

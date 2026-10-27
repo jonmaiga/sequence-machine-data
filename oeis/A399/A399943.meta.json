@@ -1,0 +1,22 @@
+{
+  "description": "Number of endofunctions on [n] having at least two isolated fixed points.",
+  "id": "A399943",
+  "mentions": [
+    "A000312",
+    "A069856",
+    "A348590",
+    "A350079",
+    "A350134",
+    "A350212"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

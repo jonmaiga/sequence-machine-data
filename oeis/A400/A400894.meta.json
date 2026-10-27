@@ -1,0 +1,21 @@
+{
+  "description": "Bipartition of the positive odd numbers depending on the parity of the 2-adic valuation A007814(3*k + 2). Here the part with even valuation based on A400891.",
+  "id": "A400894",
+  "mentions": [
+    "A005408",
+    "A007814",
+    "A075677",
+    "A400891",
+    "A400893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) on 4n vertices for 1<=k",
+  "description": "Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) on 4n vertices for 1<=k<n.",
   "id": "A107452",
   "mentions": [
     "A077105",

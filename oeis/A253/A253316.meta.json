@@ -2,8 +2,8 @@
   "description": "Number of 2n X 2n Takuzu grids.",
   "id": "A253316",
   "mentions": [
-    "A003440",
-    "A058527"
+    "A058527",
+    "A177790"
   ],
   "tags": [
     "more",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Greatest prime factor of all differences prime(n)-q, q prime and q",
+  "description": "Greatest prime factor of all differences prime(n)-q, q prime and q<prime(n); a(1)=0.",
   "id": "A089730",
   "mentions": [
     "A000040",

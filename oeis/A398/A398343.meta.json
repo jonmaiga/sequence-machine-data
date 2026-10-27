@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Sum_{d|k} rad(d)) / rad(k), where k = A398342(n) and rad = A007947.",
+  "id": "A398343",
+  "mentions": [
+    "A007947",
+    "A054030",
+    "A191750",
+    "A398342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

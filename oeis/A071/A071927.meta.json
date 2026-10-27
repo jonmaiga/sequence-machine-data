@@ -1,5 +1,5 @@
 {
-  "description": "Barely abundant numbers: abundant n such that sigma(n)/n < sigma(m)/m for all abundant numbers m",
+  "description": "Barely abundant numbers: abundant n such that sigma(n)/n < sigma(m)/m for all abundant numbers m<n, sigma(n) being the sum of the divisors of n.",
   "id": "A071927",
   "mentions": [
     "A004394",

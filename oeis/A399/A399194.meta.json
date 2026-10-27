@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least integer h >= 0 such that a building of height h at position n sees the buildings of height A400000(k) at position k for k = 1..n-1.",
+  "id": "A399194",
+  "mentions": [
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

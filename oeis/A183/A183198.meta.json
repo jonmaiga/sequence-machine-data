@@ -1,5 +1,5 @@
 {
-  "description": "Least integer k such that Floor(k*(n+1)^(2/3))",
+  "description": "Least integer k such that Floor(k*(n+1)^(2/3))<k*n^(2/3).",
   "id": "A183198",
   "mentions": [
     "A183197"

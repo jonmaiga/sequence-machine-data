@@ -1,13 +1,13 @@
 {
-  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=3i and g(j)=j(j+1)/2 (triangular number). Complement of A186357.",
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=3i and g(j)=j(j+1)/2 (triangular number). Complement of A186356.",
   "id": "A186357",
   "mentions": [
-    "A186356",
-    "A186554",
-    "A186555",
-    "A186556"
+    "A186354",
+    "A186355",
+    "A186356"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

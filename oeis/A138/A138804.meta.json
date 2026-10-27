@@ -1,13 +1,15 @@
 {
   "description": "Let X denote the 2 X 2 matrix [0,1; 1,exp(1)], let Y = X^n; a(n) = floor(Y[1,1]).",
   "id": "A138804",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

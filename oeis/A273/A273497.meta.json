@@ -4,15 +4,18 @@
   "mentions": [
     "A001097",
     "A001359",
-    "A006512"
+    "A006512",
+    "A049035",
+    "A093683"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

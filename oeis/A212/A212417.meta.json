@@ -1,5 +1,5 @@
 {
-  "description": "Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac where a",
+  "description": "Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac where a<b<c.",
   "id": "A212417",
   "mentions": [
     "A210667",
@@ -8,12 +8,11 @@
     "A210671"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

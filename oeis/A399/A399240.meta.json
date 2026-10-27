@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) is the number of rooted trees on n nodes where every node has at most k children.",
+  "id": "A399240",
+  "mentions": [
+    "A000081",
+    "A244372",
+    "A292553",
+    "A299038",
+    "A299039"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

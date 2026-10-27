@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the number of consecutive values m = 0, 1, 2, ... for which |3*m^2 + 3*m - k| is prime is larger than for every smaller k.",
+  "id": "A399348",
+  "mentions": [
+    "A003215",
+    "A005846",
+    "A007637",
+    "A014556"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

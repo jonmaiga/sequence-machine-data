@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A019565(A003714(d)), where A003714(n) is the n-th Fibbinary number.",
   "id": "A300834",
   "mentions": [
     "A001222",

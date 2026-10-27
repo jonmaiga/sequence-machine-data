@@ -2,12 +2,14 @@
   "description": "Overpseudoprimes to base 3.",
   "id": "A141350",
   "mentions": [
-    "A001262",
     "A006694",
+    "A014127",
     "A020229",
     "A062117",
     "A137576",
-    "A141232"
+    "A141232",
+    "A141390",
+    "A400102"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the reversal of all six numbers n^k, k",
+  "description": "Numbers n such that the reversal of all six numbers n^k, k<7 are primes.",
   "id": "A165698",
   "mentions": [
     "A118212",

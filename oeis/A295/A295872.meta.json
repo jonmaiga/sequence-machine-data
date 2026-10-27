@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of the first Ramanujan trigonometric constant (negated).",
   "id": "A295872",
-  "mentions": [],
+  "mentions": [
+    "A073052",
+    "A232736",
+    "A362922"
+  ],
   "tags": [
     "cons",
     "formulas",

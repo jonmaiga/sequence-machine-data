@@ -1,10 +1,14 @@
 {
-  "description": "The number of meandering curves of order n, with both extremity covered by its arcs.",
+  "description": "The number of meandering curves of order n with both extremities covered by their arcs.",
   "id": "A217318",
   "mentions": [
     "A000034",
+    "A000682",
     "A005315",
-    "A223095"
+    "A005316",
+    "A217310",
+    "A223095",
+    "A227167"
   ],
   "tags": [
     "formulas",

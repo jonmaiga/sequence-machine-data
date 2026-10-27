@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding lattice paths from (0,0) to (n,n) in an n X n square grid such that no two consecutive maximal straight segments have equal length.",
+  "id": "A400112",
+  "mentions": [
+    "A007764",
+    "A265132"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

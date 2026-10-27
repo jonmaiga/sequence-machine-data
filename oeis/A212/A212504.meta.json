@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w2z.",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w<2x and y>2z.",
   "id": "A212504",
   "mentions": [
     "A002620",

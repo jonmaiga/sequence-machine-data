@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled point-determining (mating) graphs on n vertices with no vertices of degree 1.",
+  "id": "A399728",
+  "mentions": [
+    "A006024",
+    "A059167",
+    "A101390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

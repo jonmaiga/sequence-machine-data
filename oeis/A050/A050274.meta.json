@@ -1,5 +1,5 @@
 {
-  "description": "Middle value b for Diophantine 1-triples (a,b,c) ordered by smallest c,b.",
+  "description": "Middle value b in Diophantine 1-triples (a,b,c), with 0 < a < b < c, ordered lexicographically by (c,a,b).",
   "id": "A050274",
   "mentions": [
     "A050273",

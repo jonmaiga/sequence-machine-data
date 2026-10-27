@@ -1,5 +1,5 @@
 {
-  "description": "Maximum length of Euclidean algorithm starting with n and any nonnegative i",
+  "description": "Maximum length of Euclidean algorithm starting with n and any nonnegative i<n.",
   "id": "A034883",
   "mentions": [
     "A051010",

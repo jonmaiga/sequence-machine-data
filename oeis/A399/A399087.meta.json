@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k and k+1 are both biquadratefree numbers that are not cubefree (A375072).",
+  "id": "A399087",
+  "mentions": [
+    "A004709",
+    "A007674",
+    "A046100",
+    "A051903",
+    "A071318",
+    "A176313",
+    "A369020",
+    "A372691",
+    "A375072"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Golden semiprimes: a(n)=p*q and abs(p*phi-q)",
+  "description": "Golden semiprimes: a(n)=p*q and abs(p*phi-q)<1, where phi = golden ratio = (1+sqrt(5))/2.",
   "id": "A108540",
   "mentions": [
     "A000040",

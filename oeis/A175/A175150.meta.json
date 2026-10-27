@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0. If d(n)>d(n-1), then a(n)=a(n-1)+1. If d(n)",
+  "description": "a(1)=0. If d(n)>d(n-1), then a(n)=a(n-1)+1. If d(n)<d(n-1), then a(n)=a(n-1)-1. If d(n)=d(n-1), then a(n)=a(n-1). (d(n) is the number of divisors of n.)",
   "id": "A175150",
   "mentions": [
     "A000005",

@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that M(n) = Sum_{i=1..n} mu(phi(i)) where M(n) is the Mertens function A002321(n).",
+  "description": "Numbers k such that M(k) = Sum_{i=1..k} mu(phi(i)) where M(k) is the Mertens function A002321(k).",
   "id": "A067196",
   "mentions": [
-    "A002321"
+    "A000010",
+    "A002321",
+    "A008683"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -5,17 +5,19 @@
     "A007605",
     "A007953",
     "A033548",
+    "A049084",
     "A090431",
     "A090433",
     "A090456"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

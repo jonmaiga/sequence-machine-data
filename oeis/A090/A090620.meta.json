@@ -1,5 +1,5 @@
 {
-  "description": "Highest power of 13 dividing n!.",
+  "description": "Exponent of highest power of 13 dividing n!.",
   "id": "A090620",
   "mentions": [
     "A011371",

@@ -2,6 +2,7 @@
   "description": "Number of distinct quadratic residues mod 8^n.",
   "id": "A039305",
   "mentions": [
+    "A000224",
     "A001018"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

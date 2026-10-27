@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal dominating sets in the 4 X n king graph.",
+  "id": "A398105",
+  "mentions": [
+    "A286849",
+    "A286850",
+    "A398104"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

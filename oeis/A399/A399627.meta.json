@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of residues modulo 2^n counted by A396966 that are not lifts of a residue counted by A396966 modulo 2^(n-1).",
+  "id": "A399627",
+  "mentions": [
+    "A007814",
+    "A394480",
+    "A396966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

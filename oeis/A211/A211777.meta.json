@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that Sum_{d_",
+  "description": "Numbers k such that Sum_{d_<k | k} phi(d_<k) / (d_<k) is an integer, where d_<k = divisors of k that are less than k, phi(x) = A000010(x).",
   "id": "A211777",
   "mentions": [
     "A000010",

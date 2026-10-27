@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that sigma(n) = sigma(k) + sigma(n-k) for 0",
+  "description": "Least k such that sigma(n) = sigma(k) + sigma(n-k) for 0<k<n, or 0 if there is no such k, where sigma is the sum of divisors function.",
   "id": "A110176",
   "mentions": [
     "A066435",

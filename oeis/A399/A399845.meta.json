@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = A306646(n,k) mod n (n >= 2, 1 <= k <= floor(n/2)).",
+  "id": "A399845",
+  "mentions": [
+    "A213060",
+    "A215339",
+    "A306646",
+    "A399840",
+    "A399841"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

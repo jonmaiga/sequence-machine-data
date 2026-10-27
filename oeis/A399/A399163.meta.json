@@ -1,0 +1,14 @@
+{
+  "description": "Number of roots modulo the n-th prime of x^6+2*x^5+2*x^4+2*x^3+x^2+1.",
+  "id": "A399163",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

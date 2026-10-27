@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (p*(q-1)+(p-1)*q)/2 is prime, where p and q are consecutive odd primes, p",
+  "description": "Numbers n such that (p*(q-1)+(p-1)*q)/2 is prime, where p and q are consecutive odd primes, p<q and p_n is the n-th prime.",
   "id": "A098142",
   "mentions": [
     "A099911"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1<=i",
+  "description": "a(n) = Sum_{1<=i<j<k<=n} F(i)*F(j)*F(k), where F(m) is the m-th Fibonacci number.",
   "id": "A213787",
   "mentions": [
     "A000045",

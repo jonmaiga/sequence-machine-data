@@ -1,0 +1,14 @@
+{
+  "description": "Numbers k >= 2 such that sqrt(k*b + c) = sqrt(b) + c for some integers b >= 1 and 0 <= c < k.",
+  "id": "A396700",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

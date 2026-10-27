@@ -2,6 +2,7 @@
   "description": "a(n) is the n-th number m that divides n^m + 1 (or 0 if m does not exist).",
   "id": "A333430",
   "mentions": [
+    "A015968",
     "A333429",
     "A333433"
   ],

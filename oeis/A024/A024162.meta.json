@@ -1,5 +1,5 @@
 {
-  "description": "Number of incongruent integer-sided triangles with sides a,b,c, a",
+  "description": "Number of incongruent integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that gcd(a,b,c)=1.",
   "id": "A024162",
   "mentions": [
     "A005044",

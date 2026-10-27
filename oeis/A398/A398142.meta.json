@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of set partitions of [n] in which each distinct block size occurs exactly k times, n >= 0, 0 <= k <= n.",
+  "id": "A398142",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A007837",
+    "A400421",
+    "A400428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

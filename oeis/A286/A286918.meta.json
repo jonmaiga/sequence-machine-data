@@ -1,5 +1,5 @@
 {
-  "description": "Total number of nodes summed over all lattice paths from (0,0) to (n,n) using steps {(k,0), (0,k) | 0",
+  "description": "Total number of nodes summed over all lattice paths from (0,0) to (n,n) using steps {(k,0), (0,k) | 0<k<=4} which never go above the diagonal x=y.",
   "id": "A286918",
   "mentions": [
     "A175891"

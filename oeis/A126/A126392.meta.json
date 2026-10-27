@@ -2,7 +2,8 @@
   "description": "Number of base 5 n-digit numbers with adjacent digits differing by two or less.",
   "id": "A126392",
   "mentions": [
-    "A057960"
+    "A057960",
+    "A126371"
   ],
   "tags": [
     "base",

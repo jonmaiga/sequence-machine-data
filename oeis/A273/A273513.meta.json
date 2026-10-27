@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of arithmetic triples n",
+  "description": "a(n) is the number of arithmetic triples n<p<q (three numbers in arithmetic progression) such that p and q contain no 2's in their ternary representation.",
   "id": "A273513",
   "mentions": [
     "A000119",

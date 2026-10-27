@@ -1,5 +1,5 @@
 {
-  "description": "Star numbers (A003154) that are also triangular numbers (A000217).",
+  "description": "Indices of star numbers (A003154) that are also triangular numbers (A000217).",
   "id": "A156712",
   "mentions": [
     "A000217",

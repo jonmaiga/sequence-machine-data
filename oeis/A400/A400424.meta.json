@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as +- 2 +- 3 +- 5 +- ... +- prime(n) in exactly n ways, or -1 if no such integer exists.",
+  "id": "A400424",
+  "mentions": [
+    "A007504",
+    "A054859",
+    "A369886"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

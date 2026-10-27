@@ -2,10 +2,12 @@
   "description": "Numbers k such that both k and k+1 are not exponentially odd numbers.",
   "id": "A342187",
   "mentions": [
+    "A065463",
     "A068140",
     "A068781",
     "A072587",
     "A268335",
+    "A307868",
     "A342188",
     "A342189"
   ],

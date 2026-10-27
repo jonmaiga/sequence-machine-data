@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-avoiding walks between two antipodal vertices on a hexagon of size n in the triangular grid.",
+  "id": "A398323",
+  "mentions": [
+    "A003215",
+    "A007764",
+    "A045945",
+    "A271741",
+    "A343307",
+    "A351994",
+    "A356610"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

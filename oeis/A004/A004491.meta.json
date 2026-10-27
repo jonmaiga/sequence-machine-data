@@ -2,7 +2,6 @@
   "description": "Number of bent functions of 2n variables.",
   "id": "A004491",
   "mentions": [
-    "A004483",
     "A099090"
   ],
   "tags": [

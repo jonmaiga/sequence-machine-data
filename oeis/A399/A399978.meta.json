@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = omega(n) + sopf(n), where omega(n) is the number of distinct prime factors of n (A001221) and sopf(n) is the sum of the distinct primes dividing n (A008472).",
+  "id": "A399978",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A007504",
+    "A007947",
+    "A008472"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

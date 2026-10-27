@@ -2,11 +2,13 @@
   "description": "n-th nonnegative integer k satisfying cos(k) > cos(k+1).",
   "id": "A026311",
   "mentions": [
+    "A026309",
     "A246293",
     "A246300",
     "A246301",
     "A246302",
-    "A246303"
+    "A246303",
+    "A398937"
   ],
   "tags": [
     "easy",

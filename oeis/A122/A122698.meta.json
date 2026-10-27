@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=a(2)=1 then a(n) = Sum_{d|n, 1",
+  "description": "a(1)=a(2)=1 then a(n) = Sum_{d|n, 1<d<n} a(d)*a(n/d).",
   "id": "A122698",
   "mentions": [
     "A000108"

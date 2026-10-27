@@ -1,0 +1,17 @@
+{
+  "description": "Number of independent vertex sets in the n X 3 projective plane graph.",
+  "id": "A399353",
+  "mentions": [
+    "A399350"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

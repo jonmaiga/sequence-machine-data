@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: Row n >= 2 lists numbers 1 <= k <= 2^n such that chi_{2^n,k}(k) = 1, where chi_{N,k} is the Dirichlet character modulo N with label k in the Conrey labeling system.",
+  "id": "A400562",
+  "mentions": [
+    "A400563"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

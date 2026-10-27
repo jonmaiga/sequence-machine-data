@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=number of primes q",
+  "description": "a(n)=number of primes q<p having (p mod q)=3, where p=n-th prime.",
   "id": "A039737",
   "mentions": [],
   "tags": [

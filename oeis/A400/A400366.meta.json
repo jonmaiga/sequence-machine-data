@@ -1,0 +1,18 @@
+{
+  "description": "Number of Proth numbers <= n.",
+  "id": "A400366",
+  "mentions": [
+    "A080075",
+    "A347697",
+    "A399746"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

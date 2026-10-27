@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n dividing the sum of n-th powers of unitary divisors of n.",
+  "description": "Numbers k dividing the sum of k-th powers of unitary divisors of k.",
   "id": "A238982",
   "mentions": [
     "A034448",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(i=1,n)(i-th i-almost prime). Cumulative sums of A101695.",
+  "description": "a(n) = Sum_{i=1,n} (i-th i-almost prime). Cumulative sums of A101695.",
   "id": "A101696",
   "mentions": [
     "A000040",
@@ -34,7 +34,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

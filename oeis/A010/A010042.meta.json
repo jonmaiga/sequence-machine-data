@@ -1,13 +1,18 @@
 {
-  "description": "High-temperature expansion of susceptibility mu_2 for square lattice.",
+  "description": "High-temperature expansion of Ising model susceptibility mu_2 for square lattice.",
   "id": "A010042",
-  "mentions": [],
+  "mentions": [
+    "A010039",
+    "A010043",
+    "A010044",
+    "A010045"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

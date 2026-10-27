@@ -1,5 +1,5 @@
 {
-  "description": "Numbers j such that (3^j)*(47#) -1 is prime.",
+  "description": "Numbers j such that (3^j)*(47#) - 1 is prime.",
   "id": "A110116",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

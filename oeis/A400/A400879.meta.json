@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n binary Riordan matrices that are poset matrices (labeled Riordan posets with n elements).",
+  "id": "A400879",
+  "mentions": [
+    "A000112",
+    "A006455",
+    "A379608"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

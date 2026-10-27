@@ -1,5 +1,5 @@
 {
-  "description": "Sequence shifts left when Weigh transform is applied four times with a(n) = n for n",
+  "description": "Sequence shifts left when Weigh transform is applied four times with a(n) = n for n<2.",
   "id": "A316104",
   "mentions": [
     "A144036",

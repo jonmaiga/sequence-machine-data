@@ -5,19 +5,21 @@
     "A022006",
     "A022007",
     "A086140",
+    "A125517",
     "A350826",
     "A350827",
     "A350828"
   ],
   "tags": [
     "base",
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

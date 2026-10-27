@@ -1,8 +1,12 @@
 {
-  "description": "C(2n,n)^(2n).",
+  "description": "a(n) = C(2n,n)^(2n).",
   "id": "A079711",
-  "mentions": [],
+  "mentions": [
+    "A000984",
+    "A224733"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

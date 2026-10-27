@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place k non-attacking wazirs on an n x n cylindrical chessboard, summed over all k >= 0.",
+  "description": "Number of ways to place k non-attacking wazirs on an n X n cylindrical chessboard, summed over all k >= 0.",
   "id": "A212270",
   "mentions": [
     "A006506",

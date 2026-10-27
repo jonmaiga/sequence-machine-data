@@ -2,17 +2,19 @@
   "description": "Number of connected strongly regular simple graphs on n nodes.",
   "id": "A088741",
   "mentions": [
+    "A000005",
     "A005177",
     "A076435",
     "A294405"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

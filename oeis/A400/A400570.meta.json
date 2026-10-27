@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic rectangular dimonoids of order n.",
+  "id": "A400570",
+  "mentions": [
+    "A027851",
+    "A390162",
+    "A400568",
+    "A400569"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

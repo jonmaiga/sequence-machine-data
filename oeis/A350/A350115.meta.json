@@ -1,5 +1,5 @@
 {
-  "description": "Numbers p^2*q, p",
+  "description": "Numbers p^2*q, p<q primes such that p^2 divides q-1.",
   "id": "A350115",
   "mentions": [
     "A030078",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Number of composite numbers less than the n-th primorial that have a common factor greater than 1 with the (n-1)-th primorial.",
+  "id": "A398650",
+  "mentions": [
+    "A000040",
+    "A000849",
+    "A002110",
+    "A005867",
+    "A053144",
+    "A065898",
+    "A066264",
+    "A072236",
+    "A398562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

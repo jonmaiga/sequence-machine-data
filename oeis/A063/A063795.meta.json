@@ -2,6 +2,8 @@
   "description": "Numbers k such that usigma(k) = phi(k)*omega(k), where omega(k) is the number of distinct prime divisors of k.",
   "id": "A063795",
   "mentions": [
+    "A000010",
+    "A001221",
     "A034448"
   ],
   "tags": [
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

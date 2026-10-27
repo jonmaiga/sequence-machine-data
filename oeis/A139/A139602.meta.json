@@ -1,5 +1,5 @@
 {
-  "description": "The smallest prime p that makes the pair p+/-6n both primes while no other pair of p+/-6k+6*n, 0",
+  "description": "The smallest prime p that makes the pair p+/-6n both primes while no other pair of p+/-6k+6*n, 0<k<n both primes.",
   "id": "A139602",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of 1 into fractions i/j with 1<=i",
+  "description": "Number of partitions of 1 into fractions i/j with 1<=i<j<=n and i,j coprime.",
   "id": "A115855",
   "mentions": [
     "A000041",

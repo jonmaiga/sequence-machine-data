@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that omega(n)=M(n) where omega(n) is A001221(n) and M(n) is the Mertens function A002321(n).",
+  "description": "Numbers k such that omega(k) = M(k) where omega(k) is A001221(k) and M(n) is the Mertens function A002321(k).",
   "id": "A067266",
   "mentions": [
     "A001221",

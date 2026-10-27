@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of independent vertex sets in the n X k Klein bottle graph.",
+  "id": "A399101",
+  "mentions": [
+    "A000012",
+    "A006497",
+    "A006506",
+    "A152113",
+    "A182143",
+    "A286513",
+    "A399102",
+    "A399103",
+    "A399349",
+    "A399350",
+    "A399357"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions 0",
+  "description": "Number of solutions 0<k<n to the equation sigma(n) = sigma(k) + sigma(n-k), where sigma is the sum of divisors function.",
   "id": "A110177",
   "mentions": [
     "A110174",

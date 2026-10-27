@@ -5,15 +5,18 @@
     "A001597",
     "A025478",
     "A025479",
+    "A072102",
+    "A136141",
     "A157986"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 49,
     "source": "oeis-bfile"
   }
 }

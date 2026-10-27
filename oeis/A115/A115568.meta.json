@@ -1,10 +1,13 @@
 {
-  "description": "Maximal Fibonacci exponent in prime factorization of n, or 1 if there is no Fibonacci exponent.",
+  "description": "Maximum Fibonacci exponent in prime factorization of n, or 1 if there is no Fibonacci exponent.",
   "id": "A115568",
   "mentions": [
     "A000045",
     "A010056",
-    "A122895"
+    "A036967",
+    "A116545",
+    "A122895",
+    "A369939"
   ],
   "tags": [
     "easy",

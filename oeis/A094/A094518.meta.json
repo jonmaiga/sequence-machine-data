@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs (x,y) of divisors of n with x",
+  "description": "Number of pairs (x,y) of divisors of n with x<y such that also x+y is a divisor of n.",
   "id": "A094518",
   "mentions": [
     "A091009",

@@ -1,8 +1,9 @@
 {
-  "description": "Exponent of 2 (value of i) in n-th number of form 2^i*3^j, i >= 0, j >= 0 (see A003586).",
+  "description": "Exponent of 2 (value of i) in n-th number of the form 2^i*3^j, i >= 0, j >= 0 (see A003586).",
   "id": "A022328",
   "mentions": [
     "A003586",
+    "A007814",
     "A022329",
     "A022338",
     "A033485",
@@ -15,6 +16,7 @@
     "A255975"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

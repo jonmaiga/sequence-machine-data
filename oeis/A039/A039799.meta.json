@@ -1,5 +1,5 @@
 {
-  "description": "For S a subset of [ n ] = {1,2,3,...n}, let B_S = {x+y : x,y in S, x",
+  "description": "For S a subset of [ n ] = {1,2,3,...n}, let B_S = {x+y : x,y in S, x<y}; then a(n) is maximal cardinality of B_S intersect B_{[ n ]-S}.",
   "id": "A039799",
   "mentions": [],
   "tags": [

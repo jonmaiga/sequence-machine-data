@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having at least one pair (x,y) of divisors with x",
+  "description": "Numbers having at least one pair (x,y) of divisors with x<y such that x+y is also a divisor.",
   "id": "A094519",
   "mentions": [
     "A002378",

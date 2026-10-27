@@ -2,7 +2,8 @@
   "description": "Expansion of (1+2*x+3*x^2)/((1-x)*(1-x^2)^2).",
   "id": "A014255",
   "mentions": [
-    "A002620"
+    "A002620",
+    "A008794"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Indices of records in A046932: numbers n such that A046932(n)>A046932(k) for all k",
+  "description": "Indices of records in A046932: numbers n such that A046932(n)>A046932(k) for all k<n.",
   "id": "A181046",
   "mentions": [
     "A046932"

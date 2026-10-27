@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{0<=i",
+  "description": "a(n) = Sum_{0<=i<j<k<=n} L(i)*L(j)*L(k), where L(m) is the m-th Lucas number A000032(m).",
   "id": "A213807",
   "mentions": [
     "A000032",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

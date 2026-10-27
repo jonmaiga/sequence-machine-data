@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows formed by the nested recurrences H_m(n) = 1 + max_{1 <= j <= m} H_m(n - H_m(n-j)), with H_m(1) = ... = H_m(m) = 1.",
+  "id": "A399094",
+  "mentions": [
+    "A000217",
+    "A002024"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

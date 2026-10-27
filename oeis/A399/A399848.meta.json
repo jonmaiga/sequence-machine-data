@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n! * [x^n] log(x+1)^k/(k*(1 - log(x+1))^(k+1)), with 1 <= k <= n.",
+  "id": "A399848",
+  "mentions": [
+    "A000142",
+    "A320344",
+    "A399849"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

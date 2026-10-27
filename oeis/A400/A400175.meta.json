@@ -1,0 +1,28 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = n! * [x^n] ((1 + k*x)/(1 - k*x))^(1/k), with 1 <= k <= n.",
+  "id": "A400175",
+  "mentions": [
+    "A000012",
+    "A007395",
+    "A010709",
+    "A063886",
+    "A098558",
+    "A110491",
+    "A303537",
+    "A303538",
+    "A304915",
+    "A305608",
+    "A400176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

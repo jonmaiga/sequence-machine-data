@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: numbers of twisted cubics on Calabi-Yao hypersurfaces. Row n refers to hypersurfaces of degree n+1 in P^n, the entries in that row being indexed by partitions of n-4.",
+  "description": "Irregular triangle read by rows: numbers of twisted cubics on Calabi-Yau hypersurfaces. Row n refers to hypersurfaces of degree n+1 in P^n, the entries in that row being indexed by partitions of n-4.",
   "id": "A331446",
   "mentions": [
     "A331445"

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sigma(k)/(k^2*(k+1)), where sigma(k) = A000203(k) is the sum of divisors of k.",
+  "id": "A398700",
+  "mentions": [
+    "A000203",
+    "A398534",
+    "A398698",
+    "A398699"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

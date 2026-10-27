@@ -1,0 +1,20 @@
+{
+  "description": "Number of equivalence classes of monotone Boolean functions of n variables that contain their duals.",
+  "id": "A400672",
+  "mentions": [
+    "A000372",
+    "A001206",
+    "A003182",
+    "A003183"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

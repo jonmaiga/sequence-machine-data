@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n, k >= 1, read by ascending antidiagonals, where row n is the ordered set {r*m : rad(m) | r} for squarefree r = A397739(n), where rad = A007947.",
+  "id": "A395978",
+  "mentions": [
+    "A000977",
+    "A005117",
+    "A007947",
+    "A008479",
+    "A020639",
+    "A033845",
+    "A033849",
+    "A033850",
+    "A033851",
+    "A119288",
+    "A143207",
+    "A284457",
+    "A397710",
+    "A397739",
+    "A397742",
+    "A397805",
+    "A400427"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

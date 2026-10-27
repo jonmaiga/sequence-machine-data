@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums missed by the greedy grasshopper infinite barrycade (recursively defined family of permutations of the positive integers having pairwise disjoint sets of partial sums).",
+  "id": "A399903",
+  "mentions": [
+    "A399897",
+    "A399902",
+    "A399904",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

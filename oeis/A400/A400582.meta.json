@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of the number of dissections of a convex (n+2)-gon into triangles and quadrilaterals by nonintersecting diagonals (A001002).",
+  "id": "A400582",
+  "mentions": [
+    "A001002",
+    "A022558",
+    "A037223",
+    "A052706",
+    "A111111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

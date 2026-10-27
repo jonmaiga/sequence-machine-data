@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A401409.",
+  "id": "A401437",
+  "mentions": [
+    "A000695",
+    "A062880",
+    "A209615",
+    "A401409"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

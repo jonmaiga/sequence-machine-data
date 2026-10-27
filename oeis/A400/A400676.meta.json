@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A365874, divided by 4.",
+  "id": "A400676",
+  "mentions": [
+    "A365874",
+    "A400677"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

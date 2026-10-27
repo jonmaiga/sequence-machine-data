@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled connected planar simple graphs G on n vertices for which there exist a vertex v of degree 5 and a proper 4-coloring of G-v in which all four colors occur on the neighbors of v.",
+  "id": "A400129",
+  "mentions": [
+    "A003094",
+    "A400130"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

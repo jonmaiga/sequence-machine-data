@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the signed count of consecutive monotonic prime gaps starting after the n-th prime (increasing = +1, decreasing = -1, constant = 0).",
+  "id": "A397914",
+  "mentions": [
+    "A001223",
+    "A006560",
+    "A063535",
+    "A122535",
+    "A147812",
+    "A158939",
+    "A158940"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

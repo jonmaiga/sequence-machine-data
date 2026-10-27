@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest term of either A233010 or A233572 such that |n-a(n)|",
+  "description": "a(n) is the smallest term of either A233010 or A233572 such that |n-a(n)|<a(n) is a term of one of the two sequences.",
   "id": "A233574",
   "mentions": [
     "A002113",

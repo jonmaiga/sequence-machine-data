@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is 1 if A008846(n) is congruent to 5 modulo 8, and 0 if A008846(n) is congruent to 1 modulo 8.",
+  "id": "A399705",
+  "mentions": [
+    "A004770",
+    "A008846",
+    "A017077"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

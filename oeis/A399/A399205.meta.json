@@ -1,0 +1,17 @@
+{
+  "description": "Number of Pillai primes (A063980) less than 2^n.",
+  "id": "A399205",
+  "mentions": [
+    "A000079",
+    "A063980"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

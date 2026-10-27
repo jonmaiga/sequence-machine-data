@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) + prime(n+1) is divisible by 2n + 1.",
+  "description": "Numbers k such that prime(k) + prime(k+1) is divisible by 2*k + 1.",
   "id": "A278693",
   "mentions": [
     "A000040",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

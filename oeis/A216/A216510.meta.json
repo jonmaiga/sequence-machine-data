@@ -2,14 +2,26 @@
   "description": "Number of positive integer solutions to the equation a^2 + 6*b^2 = n.",
   "id": "A216510",
   "mentions": [
-    "A155716"
+    "A000007",
+    "A002481",
+    "A010052",
+    "A046113",
+    "A063725",
+    "A092573",
+    "A155716",
+    "A216278",
+    "A216511",
+    "A216513",
+    "A374017"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 87,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

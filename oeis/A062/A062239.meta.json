@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that every digit is a prime factor of n.",
+  "description": "Numbers k such that every digit is a prime factor of k.",
   "id": "A062239",
   "mentions": [],
   "tags": [

@@ -2,14 +2,19 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A001511, the 2-adic valuation of 2n.",
   "id": "A318449",
   "mentions": [
+    "A000265",
     "A001511",
     "A001620",
+    "A001790",
+    "A046643",
     "A317937",
-    "A318450"
+    "A318450",
+    "A318453"
   ],
   "tags": [
     "formulas",
     "frac",
+    "mult",
     "nonn"
   ],
   "terms": {

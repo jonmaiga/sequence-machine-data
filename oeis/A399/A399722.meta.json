@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3^(m-1) + Sum_{i=2..m} 3^(m-i)*2^(d(1)+...d(i-1)) where m=A122458(n) and d(i)=A351122(n,i-1) for 1<=i<m.",
+  "id": "A399722",
+  "mentions": [
+    "A060565",
+    "A122458",
+    "A260590",
+    "A260592",
+    "A351122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

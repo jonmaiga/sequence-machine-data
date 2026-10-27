@@ -6,17 +6,19 @@
     "A087981",
     "A088672",
     "A151801",
+    "A162100",
     "A180985",
     "A374525"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

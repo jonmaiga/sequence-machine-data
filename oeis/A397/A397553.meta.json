@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic relations on an n-set having the diamond property.",
+  "id": "A397553",
+  "mentions": [
+    "A396016",
+    "A398789",
+    "A399673"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

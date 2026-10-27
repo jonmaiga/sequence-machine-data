@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,1)=7n-6; T(n,m)= 1+n-m, 1",
+  "description": "Triangle read by rows: T(n,1)=7n-6; T(n,m)= 1+n-m, 1<m<=n.",
   "id": "A158893",
   "mentions": [],
   "tags": [

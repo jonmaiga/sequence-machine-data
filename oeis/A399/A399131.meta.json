@@ -1,0 +1,22 @@
+{
+  "description": "Number of moves to solve the Tower of Hanoi whose disks are the prime factors of n.",
+  "id": "A399131",
+  "mentions": [
+    "A000225",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A008683",
+    "A051903",
+    "A383159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

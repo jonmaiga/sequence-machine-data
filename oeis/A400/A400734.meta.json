@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 4*(2*k+1)^2 is both preceded and followed by runs of 7 consecutive exponentially odd numbers (A268335).",
+  "id": "A400734",
+  "mentions": [
+    "A268335",
+    "A400733"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

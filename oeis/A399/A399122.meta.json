@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive index k such that k^2 - k + n has at least three prime factors counted with multiplicity.",
+  "id": "A399122",
+  "mentions": [
+    "A001222",
+    "A014556",
+    "A020639",
+    "A331940"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

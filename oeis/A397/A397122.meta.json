@@ -1,0 +1,19 @@
+{
+  "description": "Prime reached by iterating A401006 starting at n, or -1 if no prime is reached.",
+  "id": "A397122",
+  "mentions": [
+    "A037274",
+    "A195264",
+    "A401006"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

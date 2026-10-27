@@ -1,13 +1,17 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with all 1s connected, and all vertexes 1.",
+  "description": "Number of nXnXn triangular binary arrays with all 1s connected, and all vertices 1.",
   "id": "A163880",
-  "mentions": [],
+  "mentions": [
+    "A163046",
+    "A163879",
+    "A288722"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

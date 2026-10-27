@@ -2,12 +2,12 @@
   "description": "The 17 pure prime dates of each leap year of the form concatenate(month,day) with month and day also prime numbers.",
   "id": "A327919",
   "mentions": [
+    "A131687",
     "A165243",
     "A165292",
     "A165555",
     "A167187",
     "A327349",
-    "A327915",
     "A327918",
     "A327920"
   ],

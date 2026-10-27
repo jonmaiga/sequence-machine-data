@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts such that the sum of primepi(k) over the parts k equals primepi(n).",
+  "id": "A399937",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A394248",
+    "A395082",
+    "A395091",
+    "A395096",
+    "A395097",
+    "A395111",
+    "A399938"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Distinct values of A399023 in order of appearance.",
+  "id": "A399445",
+  "mentions": [
+    "A399023",
+    "A399465"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

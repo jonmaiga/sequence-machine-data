@@ -1,5 +1,5 @@
 {
-  "description": "Iterated golden sieve: Iterate indefinitively the procedure giving A099267 (S2) from the natural numbers (S1) with the single difference that the rank of the deleted terms is f(n) + (p-2) to get Sp from Sp-1.",
+  "description": "Iterated golden sieve: Iterate indefinitely the procedure giving A099267 (S2) from the natural numbers (S1) with the single difference that the rank of the deleted terms is f(n) + (p-2) to get Sp from Sp-1.",
   "id": "A131512",
   "mentions": [
     "A099267"

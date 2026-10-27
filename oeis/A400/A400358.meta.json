@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of (3 - sqrt(6))/2.",
+  "id": "A400358",
+  "mentions": [
+    "A002194",
+    "A010464",
+    "A010701",
+    "A019913",
+    "A020760",
+    "A020761",
+    "A020773",
+    "A152422",
+    "A379800",
+    "A393353",
+    "A399815",
+    "A400357",
+    "A400359"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

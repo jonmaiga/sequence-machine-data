@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n if n",
+  "description": "a(n) = n if n<2; a(n) = |a(n/2)-a(n/2-1)| if n is even, and a(n) = a((n-1)/2) + a((n-1)/2+1) if n is odd.",
   "id": "A068915",
   "mentions": [],
   "tags": [

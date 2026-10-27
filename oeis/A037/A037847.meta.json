@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Sum{d(i-1)-d(i): d(i)",
+  "description": "a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.",
   "id": "A037847",
   "mentions": [
     "A037856",

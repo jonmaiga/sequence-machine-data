@@ -17,17 +17,18 @@
     "A173380",
     "A174319",
     "A182644",
+    "A323037",
+    "A323063",
     "A336492"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

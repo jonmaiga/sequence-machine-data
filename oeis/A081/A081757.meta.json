@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as i*j+i-j, 0",
+  "description": "Number of ways to write n as i*j+i-j, 0<i<j<=n.",
   "id": "A081757",
   "mentions": [
     "A072670"

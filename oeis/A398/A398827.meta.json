@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of tilings of a 9 X 10n rectangle into L-pentominoes (no reflections, only rotations).",
+  "id": "A398827",
+  "mentions": [
+    "A264280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

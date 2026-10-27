@@ -2,7 +2,8 @@
   "description": "Number of ways to place 2 nonattacking bishops on an n X n board.",
   "id": "A172123",
   "mentions": [
-    "A036464"
+    "A036464",
+    "A176060"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 38,
     "source": "joeis"
   }
 }

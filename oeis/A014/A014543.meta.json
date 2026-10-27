@@ -1,9 +1,9 @@
 {
-  "description": "Toroidal crossing number of complete graph.",
+  "description": "Crossing counts in toroidal drawings of K_n exhibited by Guy, Jenkyns and Schaer (1968).",
   "id": "A014543",
   "mentions": [],
   "tags": [
-    "more",
+    "fini",
     "nice",
     "nonn"
   ],

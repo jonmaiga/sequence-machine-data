@@ -1,0 +1,25 @@
+{
+  "description": "Primes p for which there exists an odd prime q <= p such that 2*((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
+  "id": "A400842",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A034386",
+    "A400839",
+    "A400843",
+    "A401052",
+    "A401060",
+    "A401061",
+    "A401063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "A bisection of A002326.",
   "id": "A274298",
   "mentions": [
-    "A002326"
+    "A002326",
+    "A274299"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

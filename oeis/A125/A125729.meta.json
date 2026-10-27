@@ -5,13 +5,14 @@
     "A023000"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

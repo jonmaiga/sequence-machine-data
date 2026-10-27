@@ -1,5 +1,5 @@
 {
-  "description": "Write n=3i+j, 0<=j",
+  "description": "Write n=3i+j, 0<=j<3; a(n) = number of Hamiltonian cycles on square grid of points of size 2i+2 X 2i+2 (if j=0), 2i+2 X 2i+3 (j=1) or 2i+3 X 2i+4 (j=2).",
   "id": "A222201",
   "mentions": [
     "A003763",

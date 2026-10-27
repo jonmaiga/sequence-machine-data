@@ -1,5 +1,5 @@
 {
-  "description": "Product_{d|n, d",
+  "description": "Product_{d|n, d<n} A276086(phi(d)), where A276086 is primorial base exp-function, and phi is Euler totient function.",
   "id": "A353564",
   "mentions": [
     "A000010",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that there are exactly n numbers k such that A175508(k) = p.",
+  "id": "A401020",
+  "mentions": [
+    "A175508",
+    "A399707"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

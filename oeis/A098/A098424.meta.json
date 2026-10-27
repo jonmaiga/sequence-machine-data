@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime triples (p,q,r) <= n with p",
+  "description": "Number of prime triples (p,q,r) <= n with p<q<r=p+6.",
   "id": "A098424",
   "mentions": [
     "A000040",

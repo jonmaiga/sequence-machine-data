@@ -1,19 +1,18 @@
 {
-  "description": "A triangular sequence of coefficients based on the expansion of an Hamiltonian resolvent or Green's function: p(x,t)=Exp[x*t]/(x-t); where t is taken as the Hamiltonian variable and x as the complex variable.",
+  "description": "Triangle read by rows: T(n,k) = n! * [t^n*x^k] x^(n+1) * exp(x*t) / (x-t), 0 <= k <= 2*n.",
   "id": "A138108",
   "mentions": [
     "A000522",
     "A094587"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
   }
 }

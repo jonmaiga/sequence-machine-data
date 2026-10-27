@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of alpha_P, the unique minimizer of Sum_{p prime} 1/(p*log(p)^alpha) for alpha > 0.",
+  "id": "A400502",
+  "mentions": [
+    "A137245",
+    "A221711",
+    "A319231",
+    "A354954",
+    "A400503"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

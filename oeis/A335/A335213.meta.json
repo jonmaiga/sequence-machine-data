@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n)*b(n), where C(n) is the n-th Catalan number and b(n) is the probability p_n(x",
+  "description": "a(n) = C(n)*b(n), where C(n) is the n-th Catalan number and b(n) is the probability p_n(x<y) closest to 1/2 with x,y taken from the Catalan poset P_n.",
   "id": "A335213",
   "mentions": [
     "A000108",

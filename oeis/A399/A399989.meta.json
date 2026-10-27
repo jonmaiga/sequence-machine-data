@@ -1,0 +1,17 @@
+{
+  "description": "Number of fixed point free involutions in S_{2n} (or perfect matchings on [2n]) which avoid the permutations {123, 213, 231}.",
+  "id": "A399989",
+  "mentions": [
+    "A000108",
+    "A001147"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + max_{0 <= i",
+  "description": "a(n) = n + max_{0 <= i <n} ((n-i)*a(i)), a(0) = 1.",
   "id": "A008609",
   "mentions": [
     "A000792"

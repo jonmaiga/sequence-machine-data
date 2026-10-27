@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p(n)# + p(n+1)# -1 is prime, where p(n)# is the product of first n primes (A002110).",
+  "description": "Numbers k such that p(k)# + p(k+1)# - 1 is prime, where p(k)# is the product of first k primes (A002110).",
   "id": "A128420",
   "mentions": [
     "A002110",
@@ -7,11 +7,13 @@
     "A128421"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 2 under the map x -> x + (sum of decimal digits of x)*(product of nonzero decimal digits of x).",
+  "id": "A399961",
+  "mentions": [
+    "A007953",
+    "A051801",
+    "A062331"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

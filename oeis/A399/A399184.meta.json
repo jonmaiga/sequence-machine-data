@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A164888.",
+  "id": "A399184",
+  "mentions": [
+    "A164888",
+    "A399623",
+    "A399886",
+    "A399887",
+    "A399914",
+    "A399915"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that decimal expansion of n^n has only one zero.",
+  "description": "Numbers k such that decimal expansion of k^k has only one zero.",
   "id": "A228951",
   "mentions": [
     "A131495",

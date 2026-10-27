@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2, a(2) = 3 and a(k+1) is the least prime not already chosen that divides some a(i)*a(j)+1, where 1<=i",
+  "description": "a(1) = 2, a(2) = 3 and a(k+1) is the least prime not already chosen that divides some a(i)*a(j)+1, where 1<=i<j<=k.",
   "id": "A063904",
   "mentions": [
     "A063884"

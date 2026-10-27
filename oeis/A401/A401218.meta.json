@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct primes in the Pratt primality certificate for the n-th prime.",
+  "id": "A401218",
+  "mentions": [
+    "A019434",
+    "A037202",
+    "A130790",
+    "A366927",
+    "A401219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that if p < q < r are consecutive primes, p + 2*q*r, q + 2*p*r, and r + 2*p*q are all primes.",
+  "id": "A399287",
+  "mentions": [
+    "A000040",
+    "A072192",
+    "A111071",
+    "A176877",
+    "A268593",
+    "A391512"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

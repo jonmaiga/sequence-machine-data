@@ -1,5 +1,5 @@
 {
-  "description": "Length of n-th run of digit 2 in A030341.",
+  "description": "Length of the n-th run of the digit 2 in A030341.",
   "id": "A030348",
   "mentions": [
     "A030341"

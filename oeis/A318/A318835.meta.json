@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence transform of A318834, product_{d|n, d",
+  "description": "Restricted growth sequence transform of A318834, product_{d|n, d<n} A019565(A000010(d)).",
   "id": "A318835",
   "mentions": [
     "A000010",

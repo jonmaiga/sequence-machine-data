@@ -1,0 +1,19 @@
+{
+  "description": "Sum of absolute differences of consecutive terms of n/gcd(n,k), k = 1..n-1.",
+  "id": "A397676",
+  "mentions": [
+    "A054531",
+    "A057660",
+    "A058026",
+    "A277227"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

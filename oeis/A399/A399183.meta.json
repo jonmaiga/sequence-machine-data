@@ -1,0 +1,18 @@
+{
+  "description": "Indices of 0's in A379078 and A399181.",
+  "id": "A399183",
+  "mentions": [
+    "A377091",
+    "A379078",
+    "A399181",
+    "A399182"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

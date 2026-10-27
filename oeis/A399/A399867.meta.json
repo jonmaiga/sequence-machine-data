@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of 0-1 matrices with n distinct rows and distinct nonzero columns, under row and column permutations.",
+  "id": "A399867",
+  "mentions": [
+    "A049311",
+    "A059084",
+    "A059089",
+    "A094000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Values of v in the (2,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to 1 + u^3 = v^2 + w^3, in positive integers, with m",
+  "description": "Values of v in the (2,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to 1 + u^3 = v^2 + w^3, in positive integers, with m<v; see A386217.",
   "id": "A386628",
   "mentions": [
     "A385882",

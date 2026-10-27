@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2; for n >= 2, n = Sum_{1<=k",
+  "description": "a(1) = 2; for n >= 2, n = Sum_{1<=k<n, gcd(k,n)=1} a(k).",
   "id": "A070963",
   "mentions": [
     "A045545"

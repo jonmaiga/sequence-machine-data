@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1 and for 0",
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1 and for 0<k<n: T(n,k) = if k<=n/2 then T(n-k,0)+T(n-k,k) else T(k,n-k)+T(k,n).",
   "id": "A110570",
   "mentions": [
     "A004197",

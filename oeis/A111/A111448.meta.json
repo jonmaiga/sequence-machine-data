@@ -1,9 +1,9 @@
 {
-  "description": "a(n) = A110447(n)^(1/3).",
+  "description": "a(n) = A111447(n)^(1/3).",
   "id": "A111448",
   "mentions": [
     "A077744",
-    "A110447"
+    "A111447"
   ],
   "tags": [
     "base",

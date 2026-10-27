@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted binary unlabeled simplex time-consistent galled trees with n leaves.",
+  "id": "A397952",
+  "mentions": [
+    "A001190",
+    "A380211",
+    "A398145"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

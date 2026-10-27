@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary words of length n containing at least one subword 1000001 and no subwords 10^{i}1 with i",
+  "description": "Number of binary words of length n containing at least one subword 1000001 and no subwords 10^{i}1 with i<5.",
   "id": "A143285",
   "mentions": [
     "A005708",

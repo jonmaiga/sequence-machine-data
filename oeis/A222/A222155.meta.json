@@ -1,9 +1,12 @@
 {
-  "description": "Numbers n such that there are four distinct triples (k, k+n, k+2n) of squares.",
+  "description": "Numbers m such that there are at least 4 distinct triples (k, k+m, k+2m) of squares.",
   "id": "A222155",
   "mentions": [
     "A198387",
-    "A222154"
+    "A214155",
+    "A222154",
+    "A226858",
+    "A226954"
   ],
   "tags": [
     "nonn"

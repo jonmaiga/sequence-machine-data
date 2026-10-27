@@ -1,5 +1,5 @@
 {
-  "description": "Pairs (j, k) of numbers j",
+  "description": "Pairs (j, k) of numbers j<k such that phi(j) = phi(k), sigma(j) = sigma(k), d(j) = d(k).",
   "id": "A134922",
   "mentions": [
     "A000005",

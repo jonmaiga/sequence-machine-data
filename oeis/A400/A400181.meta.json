@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = D_n - A_n, where D_n is the descending permutation and A_n is the ascending permutation of n copies of each decimal digit 0..9.",
+  "id": "A400181",
+  "mentions": [
+    "A099009",
+    "A151949",
+    "A214559"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

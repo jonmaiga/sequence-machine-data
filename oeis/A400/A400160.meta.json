@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that either the smallest prime q for which valuation(A380459(k),q) >= q is their smallest nonunitary prime factor, or such prime q does not exist (in which case k is by necessity squarefree).",
+  "id": "A400160",
+  "mentions": [
+    "A129252",
+    "A249739",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A380468",
+    "A380528",
+    "A400159",
+    "A400162"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

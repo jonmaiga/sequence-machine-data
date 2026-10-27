@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of rooted labeled trees on n nodes with exactly k vertices whose unique descendent is a leaf, n >= 1, 0 <= k <= floor((n-1)/2) + delta_{2,n}.",
+  "description": "Triangular array read by rows. T(n,k) is the number of rooted labeled trees on n nodes with exactly k vertices whose unique descendant is a leaf, n >= 1, 0 <= k <= floor((n-1)/2) + delta_{2,n}.",
   "id": "A284417",
   "mentions": [
     "A000169",

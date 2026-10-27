@@ -1,0 +1,16 @@
+{
+  "description": "Number of 2n X n binary matrices with all column sums 2 and row sums at most 2.",
+  "id": "A401283",
+  "mentions": [
+    "A401281"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

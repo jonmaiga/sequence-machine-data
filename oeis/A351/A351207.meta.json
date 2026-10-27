@@ -2,8 +2,11 @@
   "description": "Number of ordered pairs of divisors of n whose sum is squarefree.",
   "id": "A351207",
   "mentions": [
+    "A005117",
     "A008683",
-    "A008966"
+    "A008966",
+    "A049098",
+    "A400307"
   ],
   "tags": [
     "formulas",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

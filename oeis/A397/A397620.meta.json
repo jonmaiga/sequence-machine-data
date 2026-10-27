@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d | n^3} d^3 * lambda(d) / Sum_{d | n^3} d * lambda(d), where lambda(n) denotes Liouville's function A008836(n).",
+  "id": "A397620",
+  "mentions": [
+    "A000578",
+    "A008836",
+    "A077454"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

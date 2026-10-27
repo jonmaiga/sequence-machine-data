@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k, k+2, and k+4 are all squarefree.",
+  "id": "A398950",
+  "mentions": [
+    "A005117",
+    "A007675",
+    "A056911",
+    "A069977",
+    "A206256"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

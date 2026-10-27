@@ -1,5 +1,5 @@
 {
-  "description": "First position of n in the continued fraction's of Catalan's constant.",
+  "description": "First position of n in the continued fraction of Catalan's constant.",
   "id": "A196461",
   "mentions": [
     "A014538"

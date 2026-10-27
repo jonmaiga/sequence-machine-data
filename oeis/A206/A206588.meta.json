@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions k of prime(k)=prime(n) (mod n), where 1<=k",
+  "description": "Number of solutions k of prime(k)=prime(n) (mod n), where 1<=k<n.",
   "id": "A206588",
   "mentions": [
     "A057918",

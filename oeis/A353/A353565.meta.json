@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A353564(i) = A353564(j), where A353564(n) = Product_{d|n, d",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A353564(i) = A353564(j), where A353564(n) = Product_{d|n, d<n} A276086(phi(d)).",
   "id": "A353565",
   "mentions": [
     "A000010",

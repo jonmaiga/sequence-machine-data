@@ -1,0 +1,22 @@
+{
+  "description": "Number of transitive relations on n unlabeled points with no isolated point.",
+  "id": "A399304",
+  "mentions": [
+    "A000112",
+    "A001930",
+    "A006905",
+    "A079265",
+    "A091073",
+    "A296105",
+    "A399030"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

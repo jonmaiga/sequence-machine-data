@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w<x*y*z.",
   "id": "A212057",
   "mentions": [
     "A061201",

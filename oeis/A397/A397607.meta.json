@@ -1,0 +1,19 @@
+{
+  "description": "Bernoulli-primitive primes: p such that denominator(B_{p-1})/p is not the denominator of any Bernoulli number B_k.",
+  "id": "A397607",
+  "mentions": [
+    "A002322",
+    "A027642",
+    "A065091",
+    "A248614",
+    "A317210"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

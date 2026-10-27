@@ -1,5 +1,5 @@
 {
-  "description": "The size of the smallest boundary square in simple perfect squared rectangles of order n.",
+  "description": "The size of the smallest boundary square in the simple perfect squared rectangles of order n.",
   "id": "A195984",
   "mentions": [
     "A002839"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 9,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

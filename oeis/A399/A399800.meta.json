@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime of the form p^n + 2 where p is prime, or -1 if there is no such prime.",
+  "id": "A399800",
+  "mentions": [
+    "A051783",
+    "A087575",
+    "A095302"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

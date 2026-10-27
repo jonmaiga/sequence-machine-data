@@ -2,8 +2,8 @@
   "description": "Numbers k such that cos(k) < cos(k+1).",
   "id": "A246303",
   "mentions": [
-    "A026304",
     "A026311",
+    "A246304",
     "A246305",
     "A246306"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "Number of values 0 <= r < 2^n such that the trajectories of r and r+1 under the Collatz map f (A014682), satisfy f^(n)(r) = f^(n)(r+1) and contain the same number of odd terms among the first n iterates.",
+  "id": "A398792",
+  "mentions": [
+    "A006877",
+    "A014682",
+    "A076227",
+    "A100982",
+    "A398793",
+    "A398794",
+    "A398795"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{-n",
+  "description": "a(n) = Sum_{-n<i<n, -n<j<n, gcd{i,j}=2} (n-|i|)*(n-|j|).",
   "id": "A331772",
   "mentions": [
     "A331773"

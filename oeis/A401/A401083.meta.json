@@ -1,0 +1,30 @@
+{
+  "description": "The total number of exponentially odd divisors of the exponentially odd divisors of n.",
+  "id": "A401083",
+  "mentions": [
+    "A001620",
+    "A007425",
+    "A008805",
+    "A033634",
+    "A074816",
+    "A082633",
+    "A268335",
+    "A295316",
+    "A322483",
+    "A369307",
+    "A375230",
+    "A388067",
+    "A401084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

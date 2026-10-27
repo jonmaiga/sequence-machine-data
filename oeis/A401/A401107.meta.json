@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) = max{d : 1 <= d <= n and d | binomial(n,k)}, for n >= 2 and 1 <= k < n.",
+  "id": "A401107",
+  "mentions": [
+    "A401108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

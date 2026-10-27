@@ -1,0 +1,18 @@
+{
+  "description": "Number of independent vertex sets in the 3 X n Moebius strip graph.",
+  "id": "A399354",
+  "mentions": [
+    "A399103",
+    "A399356"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "phi(n) is equal to the sum of prime factors and exponents of n-1.",
+  "description": "Numbers k such that phi(k) is equal to the sum of prime factors and exponents of k-1.",
   "id": "A039773",
   "mentions": [
     "A000010",
     "A008474"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

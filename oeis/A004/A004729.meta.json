@@ -1,5 +1,5 @@
 {
-  "description": "Divisors of 2^32 - 1 (for a(1) to a(31), the 31 regular polygons with an odd number of sides constructible with ruler and compass).",
+  "description": "Divisors of 2^32 - 1 (for a(1) to a(31), the 31 known regular polygons with an odd number of sides constructible with ruler and compass).",
   "id": "A004729",
   "mentions": [
     "A000010",

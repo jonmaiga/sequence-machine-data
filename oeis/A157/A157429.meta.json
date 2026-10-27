@@ -1,5 +1,5 @@
 {
-  "description": "Lower left-hand y-coordinates of invisible 2x2 squares with 0 < x < y.",
+  "description": "Lower left-hand y-coordinates of invisible 2x2 squares with 0 < y < x.",
   "id": "A157429",
   "mentions": [
     "A157426",

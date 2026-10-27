@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose prime exponents generates rotationally symmetric XOR-triangles.",
+  "description": "Numbers whose prime exponents generate rotationally symmetric XOR-triangles.",
   "id": "A335019",
   "mentions": [
     "A019565",

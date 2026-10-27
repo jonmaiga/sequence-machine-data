@@ -1,5 +1,5 @@
 {
-  "description": "Indices n=pqr of flat cyclotomic polynomials, where p",
+  "description": "Indices n=pqr of flat cyclotomic polynomials, where p<q<r are primes.",
   "id": "A160350",
   "mentions": [
     "A075819",

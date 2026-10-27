@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic rectangular ideal extensions of order n of left zero (trivial) doppelsemigroups by null quotients.",
+  "id": "A399601",
+  "mentions": [
+    "A027851",
+    "A390162",
+    "A397782",
+    "A399676",
+    "A399678",
+    "A399679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

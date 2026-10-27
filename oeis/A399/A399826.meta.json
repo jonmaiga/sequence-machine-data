@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled graphs whose family of open neighborhoods is connected.",
+  "id": "A399826",
+  "mentions": [
+    "A001187",
+    "A001832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

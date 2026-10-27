@@ -1,11 +1,13 @@
 {
-  "description": "Least s(k) such that n divides s(k)-s(j) for some j",
+  "description": "Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j) = 3^j-2^j = A001047(j).",
   "id": "A205108",
   "mentions": [
+    "A001047",
     "A204892",
     "A205000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) in which n-th row lists the parts i_1=1, 1<=k<=A001222(n).",
+  "description": "Triangle T(n,k) in which n-th row lists the parts i_1<i_2<...<i_m of the unique strict partition with encoding n = Product_{j=1..m} prime(i_j-j+1); n>=1, 1<=k<=A001222(n).",
   "id": "A265146",
   "mentions": [
     "A000009",

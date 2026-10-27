@@ -1,5 +1,5 @@
 {
-  "description": "Eulerian numbers of the second kind: <>.",
+  "description": "Eulerian numbers of the second kind: <<n+3, n>>.",
   "id": "A002539",
   "mentions": [
     "A000460",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty sets of pairwise commuting permutations of [n] generating a transitive group.",
+  "id": "A400379",
+  "mentions": [
+    "A000688",
+    "A034382",
+    "A058162",
+    "A399972"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Greatest common divisor of n/spf(n) and n/gpf(n) where spf(n) is the smallest and gpf(n) is the greatest prime factor of n (see A020639, A006530).",
+  "description": "Greatest common divisor of n/lpf(n) and n/gpf(n) where lpf(n) is the least and gpf(n) is the greatest prime factor of n (see A020639, A006530).",
   "id": "A073752",
   "mentions": [
     "A000961",

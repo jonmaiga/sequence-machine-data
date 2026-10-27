@@ -1,0 +1,20 @@
+{
+  "description": "The smallest integer k greater than n such that c(k) is divisible by c(n), where c(n) is formed by concatenating 1, 2, 3, ..., n.",
+  "id": "A400666",
+  "mentions": [
+    "A007908",
+    "A075019",
+    "A332867"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

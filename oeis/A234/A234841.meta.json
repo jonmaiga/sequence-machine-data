@@ -1,9 +1,16 @@
 {
-  "description": "Integers n such that digits in n and n^2 are in nondecreasing order.",
+  "description": "Integers k such that the digits of k and k^2 are in nondecreasing order.",
   "id": "A234841",
   "mentions": [
     "A009994",
-    "A028819"
+    "A028819",
+    "A067275",
+    "A093137",
+    "A126109",
+    "A133473",
+    "A173766",
+    "A199690",
+    "A398453"
   ],
   "tags": [
     "base",

@@ -1,7 +1,9 @@
 {
   "description": "Metadromes: digits in base 7 are in strict ascending order.",
   "id": "A023776",
-  "mentions": [],
+  "mentions": [
+    "A023802"
+  ],
   "tags": [
     "base",
     "easy",

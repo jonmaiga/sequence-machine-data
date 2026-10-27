@@ -2,11 +2,14 @@
   "description": "Coefficients of polynomials (n-1)!*P(n,k), P(n,k) = Sum_{i=0..n} Stirling2(n,i)*binomial(k+i-1,k).",
   "id": "A059604",
   "mentions": [
+    "A000142",
+    "A005493",
     "A059605",
     "A059606",
     "A320962"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

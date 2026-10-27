@@ -1,5 +1,5 @@
 {
-  "description": "p^2 + 2 where p is a prime.",
+  "description": "a(n) = p^2 + 2 where p is the n-th prime.",
   "id": "A061725",
   "mentions": [
     "A000040",

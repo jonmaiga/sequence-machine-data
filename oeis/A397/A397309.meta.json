@@ -1,0 +1,21 @@
+{
+  "description": "Number of perfect matchings of the 5 X 2n grid graph embedded on the Klein bottle.",
+  "id": "A397309",
+  "mentions": [
+    "A398567",
+    "A398672",
+    "A399275",
+    "A399311",
+    "A399564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

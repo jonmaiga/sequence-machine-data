@@ -1,0 +1,17 @@
+{
+  "description": "Starting with a(0)=0, the sequence continues with the smallest integer that cannot be formed by the sum of any tuple of consecutive digits taken from the terms already present.",
+  "id": "A399805",
+  "mentions": [
+    "A033627",
+    "A398424"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

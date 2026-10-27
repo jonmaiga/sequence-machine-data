@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + x)^tan(x).",
+  "id": "A400342",
+  "mentions": [
+    "A006229",
+    "A009249",
+    "A009269",
+    "A399237"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

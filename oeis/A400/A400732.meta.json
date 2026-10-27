@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 - 1 and k^2 + 1 are both exponentially odd numbers (A268335).",
+  "id": "A400732",
+  "mentions": [
+    "A268335",
+    "A375497",
+    "A400730",
+    "A400731"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

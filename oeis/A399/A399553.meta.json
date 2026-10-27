@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least odd k such that neither k nor the odd part of k + 1 is yet in the sequence.",
+  "id": "A399553",
+  "mentions": [
+    "A000265",
+    "A059009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -16,12 +16,11 @@
   "tags": [
     "base",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 59,
-    "source": "joeis"
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

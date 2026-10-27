@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w^3",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w^3<x^3+y^3+z^3.",
   "id": "A212097",
   "mentions": [
     "A211795",

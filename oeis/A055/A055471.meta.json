@@ -1,12 +1,14 @@
 {
-  "description": "Divisible by the product of its nonzero digits.",
+  "description": "Numbers that are divisible by the product of their nonzero digits.",
   "id": "A055471",
   "mentions": [
     "A007088",
-    "A007602"
+    "A007602",
+    "A398422"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers n such that the central-cross sum divides the diagonal product in the (2*n + 1) X (2*n + 1) square spiral.",
+  "id": "A399777",
+  "mentions": [
+    "A016754",
+    "A033951",
+    "A053755",
+    "A054552",
+    "A054554",
+    "A054556",
+    "A054567",
+    "A054569",
+    "A399038",
+    "A399589",
+    "A399778",
+    "A400618"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

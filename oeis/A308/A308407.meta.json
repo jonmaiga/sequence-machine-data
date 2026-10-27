@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct terms such that reading one-by-one the central pair of digit of each term is the same as reading one-by-one the successive pairs of digits of the sequence itself.",
+  "description": "Lexicographically earliest sequence of distinct terms such that reading one-by-one the central pair of digits of each term is the same as reading one-by-one the successive pairs of digits of the sequence itself.",
   "id": "A308407",
   "mentions": [
     "A308406"

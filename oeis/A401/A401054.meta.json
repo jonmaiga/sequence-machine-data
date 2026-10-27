@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*(product of first n primes) modulo prime(n+1).",
+  "id": "A401054",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A062347"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

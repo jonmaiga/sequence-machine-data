@@ -1,5 +1,5 @@
 {
-  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part, and r=(1+sqrt(3))/2; row sums of A164685.",
+  "description": "Number of k in [1,n] for which <n*r>+<k*r> > 1, where < > = fractional part, and r=(1+sqrt(3))/2; row sums of A164685.",
   "id": "A194686",
   "mentions": [
     "A164685",

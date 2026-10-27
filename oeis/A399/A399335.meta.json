@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the swinging factorial (A056040). Square array read by ascending antidiagonals.",
+  "id": "A399335",
+  "mentions": [
+    "A056040",
+    "A163650",
+    "A163865",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

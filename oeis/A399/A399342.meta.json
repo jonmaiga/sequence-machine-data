@@ -1,0 +1,23 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (1/k) * Sum_{j=0..n} A(n-j, k-1) * A(j, 1) * binomial(n+k, j+1) * binomial(n, j) for k >= 2, A(0, k) = 1, A(n, 0) = 0^n, and A(n, 1) = Sum_{j=1..n} j! * A(n-j, j).",
+  "id": "A399342",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A006011",
+    "A398579",
+    "A399328",
+    "A399341",
+    "A399444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

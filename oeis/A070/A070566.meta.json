@@ -2,7 +2,6 @@
   "description": "\"Compact\" numbers: see reference for definition.",
   "id": "A070566",
   "mentions": [
-    "A062329",
     "A079603",
     "A145554"
   ],

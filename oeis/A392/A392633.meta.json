@@ -2,7 +2,9 @@
   "description": "Totient numbers where a record gap appears in the list (A002202).",
   "id": "A392633",
   "mentions": [
+    "A000010",
     "A002202",
+    "A083533",
     "A383889",
     "A383890"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

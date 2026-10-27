@@ -1,0 +1,16 @@
+{
+  "description": "Minimum number of rainbow spanning trees of K_n, over all JL-colorings.",
+  "id": "A398788",
+  "mentions": [
+    "A099396"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

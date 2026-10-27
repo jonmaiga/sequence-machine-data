@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m containing no zeros in base n representation but at least one zero in all base b representations with 1",
+  "description": "Smallest number m containing no zeros in base n representation but at least one zero in all base b representations with 1<b<n.",
   "id": "A106372",
   "mentions": [
     "A106370",

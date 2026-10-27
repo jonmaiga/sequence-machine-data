@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers whose 3rd smallest divisor is less than the square of their least prime factor.",
+  "id": "A397805",
+  "mentions": [
+    "A002808",
+    "A007947",
+    "A088377",
+    "A119316",
+    "A138109",
+    "A253567",
+    "A292269",
+    "A395978",
+    "A397739",
+    "A397962"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

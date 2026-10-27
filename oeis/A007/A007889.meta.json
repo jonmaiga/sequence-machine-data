@@ -1,5 +1,5 @@
 {
-  "description": "Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i",
+  "description": "Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i<j<k are both (i,j) and (j,k) edges.",
   "id": "A007889",
   "mentions": [
     "A029847",

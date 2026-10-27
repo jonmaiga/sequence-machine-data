@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 12-element group A4 = .",
+  "description": "Cogrowth sequence of the 12-element group A4 = <S,T | S^3, T^2, (ST)^3>.",
   "id": "A377626",
   "mentions": [
     "A007583",

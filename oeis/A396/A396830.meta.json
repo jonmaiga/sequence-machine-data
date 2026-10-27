@@ -2,12 +2,16 @@
   "description": "a(n) = Sum_{1 <= x_1, x_2, x_3, x_4, x_5 <= n} gcd(x_1, x_2, x_3, x_4, n)/gcd(x_1, x_2, x_3, x_4, x_5, n).",
   "id": "A396830",
   "mentions": [
+    "A013662",
+    "A013663",
+    "A013664",
     "A059377",
     "A373059",
     "A373061",
     "A396757"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
@@ -15,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

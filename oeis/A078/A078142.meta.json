@@ -2,10 +2,12 @@
   "description": "a(n) is the sum of the differences of the distinct prime factors p of n and the next square larger than p.",
   "id": "A078142",
   "mentions": [
-    "A028871"
+    "A028871",
+    "A068527"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

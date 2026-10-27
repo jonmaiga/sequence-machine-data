@@ -1,18 +1,20 @@
 {
-  "description": "Number of digits in the least n-transposable number.",
+  "description": "Number of digits in the least n-parasitic number.",
   "id": "A094224",
   "mentions": [
+    "A055642",
     "A092697"
   ],
   "tags": [
     "base",
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 8,
+    "offset": 1,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the number of endofunctions n^n, square array read by ascending antidiagonals.",
+  "id": "A398988",
+  "mentions": [
+    "A000312",
+    "A069856",
+    "A086331",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

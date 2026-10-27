@@ -1,5 +1,5 @@
 {
-  "description": "Number of independent sets of nodes in graph C_5 x P_n (n >= 0).",
+  "description": "Number of independent sets of nodes in graph C_5 X P_n (n >= 0).",
   "id": "A181989",
   "mentions": [
     "A286513"

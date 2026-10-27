@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k in A055932 such that k/rad(k) != m/rad(m) for m < k, where rad = A007947.",
+  "id": "A398301",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A003557",
+    "A006530",
+    "A007947",
+    "A055932",
+    "A181800",
+    "A396938",
+    "A397499",
+    "A397500",
+    "A398314"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of unordered factorizations of n into exactly k squarefree factors, where k is the maximum exponent in the prime factorization of n.",
+  "id": "A396710",
+  "mentions": [
+    "A005117",
+    "A007947",
+    "A025487",
+    "A046523",
+    "A050320",
+    "A050326",
+    "A051903",
+    "A284464",
+    "A316439",
+    "A323022"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Proper divisors of 24.",
+  "description": "Aliquot divisors of 24.",
   "id": "A323383",
   "mentions": [
     "A000005",

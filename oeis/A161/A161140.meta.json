@@ -2,6 +2,7 @@
   "description": "Numbers which can be expressed as the product of numbers made of only twos.",
   "id": "A161140",
   "mentions": [
+    "A002276",
     "A084034",
     "A161141",
     "A161142",

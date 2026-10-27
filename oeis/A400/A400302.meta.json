@@ -1,0 +1,19 @@
+{
+  "description": "Number T(n,k) of bipartite graphs on vertices {L_1,...,L_n} U {R_1,...,R_n} with exactly k cycles, where (L_i,R_j) can be an edge only if i <= j and all vertex degrees are in {0,2}; triangle T(n,k), n>=0, 0<=k<=max(0,floor((n-1)/2)), read by rows.",
+  "id": "A400302",
+  "mentions": [
+    "A000012",
+    "A370228",
+    "A396698",
+    "A399291"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

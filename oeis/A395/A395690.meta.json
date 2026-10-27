@@ -1,0 +1,18 @@
+{
+  "description": "Number of idempotent Latin squares of order n up to simultaneous permutation of rows, columns and symbols.",
+  "id": "A395690",
+  "mentions": [
+    "A058175",
+    "A395689",
+    "A398445"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

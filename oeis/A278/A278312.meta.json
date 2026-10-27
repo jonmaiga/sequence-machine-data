@@ -2,15 +2,17 @@
   "description": "a(n) = denominator of n/(2^(2*n+1)).",
   "id": "A278312",
   "mentions": [
-    "A000265"
+    "A000265",
+    "A007814"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

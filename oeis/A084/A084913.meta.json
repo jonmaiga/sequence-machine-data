@@ -7,13 +7,11 @@
     "A086163"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

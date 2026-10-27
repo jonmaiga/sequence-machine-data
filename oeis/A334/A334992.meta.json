@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number larger than a(n-1) whose a(i)-th binary digit is 0 for all i",
+  "description": "a(n) is the smallest number larger than a(n-1) whose a(i)-th binary digit is 0 for all i<n, with a(1)=1.",
   "id": "A334992",
   "mentions": [
     "A335033"

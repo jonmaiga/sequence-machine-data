@@ -1,0 +1,18 @@
+{
+  "description": "An analog of A400000 for buildings, or, more precisely, poles, on the square spiral on an infinite chessboard.",
+  "id": "A400185",
+  "mentions": [
+    "A274641",
+    "A308884",
+    "A400000"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

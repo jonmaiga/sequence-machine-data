@@ -1,5 +1,5 @@
 {
-  "description": "Ordered z such that, for 0",
+  "description": "Ordered z such that, for 0<x<y<z, the primitive quadruples (x,y,z,w) satisfy x^3 + y^3 + z^3 = w^3.",
   "id": "A096545",
   "mentions": [
     "A095867",

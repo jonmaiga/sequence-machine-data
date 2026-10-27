@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = (1+sqrt(5))/2 (the golden ratio).",
+  "description": "Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r = (1+sqrt(5))/2 (the golden ratio).",
   "id": "A194661",
   "mentions": [
     "A194662",

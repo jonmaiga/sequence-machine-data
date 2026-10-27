@@ -1,5 +1,5 @@
 {
-  "description": "Reduced sequence related to reciprocal Pythagorean triples: 1/a(n)^2 + 1/k^2 = 1/j^2 has an integer solution (k,j) with k",
+  "description": "Reduced sequence related to reciprocal Pythagorean triples: 1/a(n)^2 + 1/k^2 = 1/j^2 has an integer solution (k,j) with k<a(n) and a(n) not a multiple of 20.",
   "id": "A065709",
   "mentions": [
     "A065607"

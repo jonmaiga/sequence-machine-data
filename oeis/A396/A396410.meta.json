@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are both highly factorable numbers (A033833) and highly composite numbers (A002182).",
+  "id": "A396410",
+  "mentions": [
+    "A002182",
+    "A033833"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

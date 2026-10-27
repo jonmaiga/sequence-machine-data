@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(1)=1; at n>1 a(n) = a(n-1) + (sum of numbers",
+  "description": "a(0)=0, a(1)=1; at n>1 a(n) = a(n-1) + (sum of numbers<n among a(0),a(1),..,a(n-1) which are coprime to n).",
   "id": "A122965",
   "mentions": [
     "A122847"

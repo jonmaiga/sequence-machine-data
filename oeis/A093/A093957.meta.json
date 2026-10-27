@@ -1,5 +1,5 @@
 {
-  "description": "A091799(n) - 3.",
+  "description": "a(n) = A091799(n) - 3.",
   "id": "A093957",
   "mentions": [
     "A090822",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least k>=0 such that 1+(prime(n)#/prime(k)#) is a multiple of prime(1+n), or -1 if no such k exists, where prime(n)# = A002110(n) is the n-th primorial number.",
+  "id": "A400266",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A034386",
+    "A058233",
+    "A400836",
+    "A400837",
+    "A401056",
+    "A401057",
+    "A401061"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

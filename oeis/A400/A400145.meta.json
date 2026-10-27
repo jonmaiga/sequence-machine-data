@@ -1,0 +1,26 @@
+{
+  "description": "The sum of divisors d of n such that gcid(d, n/d) is odd, where gcid is the greatest common infinitary divisor.",
+  "id": "A400145",
+  "mentions": [
+    "A000203",
+    "A001317",
+    "A049417",
+    "A069184",
+    "A399838",
+    "A400137",
+    "A400142",
+    "A400144",
+    "A400146"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

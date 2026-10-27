@@ -1,0 +1,24 @@
+{
+  "description": "Number of tripartite (or 3-dimensional vector) partitions of (n, n, n) into distinct parts containing at least one mixed part.",
+  "id": "A399851",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A219560",
+    "A219585",
+    "A219678",
+    "A395808",
+    "A396961",
+    "A398607",
+    "A399611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

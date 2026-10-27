@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j",
+  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=j(3j-1)/2, the j-th pentagonal number.",
   "id": "A205138",
   "mentions": [
     "A000326",

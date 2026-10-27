@@ -1,5 +1,5 @@
 {
-  "description": "Noncube perfect powers. [Warning: definition does not match the DATA.].",
+  "description": "Noncube perfect powers, excluding squares m^2, where m > 3 is a nonpower, such that the interval [(m-1)^2, m^2) contains exactly one perfect power that is not the square of a nonpower.",
   "id": "A239870",
   "mentions": [
     "A001597",
@@ -11,8 +11,7 @@
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "obsc"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

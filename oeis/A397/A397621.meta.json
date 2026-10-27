@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the linear complexity over GF(2) of the binary expansion of n (as computed by the Berlekamp-Massey algorithm).",
+  "id": "A397621",
+  "mentions": [
+    "A000120",
+    "A001317",
+    "A007088",
+    "A070939",
+    "A080079"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

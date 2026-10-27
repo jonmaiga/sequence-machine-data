@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be obtained by concatenating the decimal representations of x, y, and x*y for x >= 1 and y >= 0.",
+  "id": "A398647",
+  "mentions": [
+    "A302575",
+    "A398566",
+    "A398649"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

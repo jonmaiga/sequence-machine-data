@@ -1,5 +1,5 @@
 {
-  "description": "Sum(m^p, m=1..p-1)/p as p runs through the odd primes.",
+  "description": "Sum_{m=1..p-1} m^p/p as p runs through the odd primes.",
   "id": "A219550",
   "mentions": [
     "A055030",

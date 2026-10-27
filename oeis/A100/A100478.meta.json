@@ -1,10 +1,12 @@
 {
-  "description": "Pentanacci pi function: a(1)=a(2)=a(3)=a(4)=a(5)=1; for n>5, a(n) = pi(Sum_{j=1..5} a(n-j)) where pi = A000720.",
+  "description": "a(1)=a(2)=a(3)=a(4)=a(5)=1; for n>5, a(n) = pi(Sum_{j=1..5} a(n-j)) where pi = A000720.",
   "id": "A100478",
   "mentions": [
     "A000720",
     "A001591",
-    "A038607"
+    "A038607",
+    "A038625",
+    "A038626"
   ],
   "tags": [
     "easy",

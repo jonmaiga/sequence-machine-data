@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which pi_{24,19}(p) - pi_{24,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "description": "Primes p == 1, 19 (mod 24) for which pi_{24,19}(p) - pi_{24,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A298821",
   "mentions": [
     "A295355",

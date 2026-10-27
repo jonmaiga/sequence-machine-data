@@ -1,0 +1,42 @@
+{
+  "description": "Lower (1, 1/2)-midsequence of triangular numbers (A000217) and tetrahedral numbers (A000330); see Comments.",
+  "id": "A398651",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A007290",
+    "A016061",
+    "A035006",
+    "A051925",
+    "A135713",
+    "A160378",
+    "A163815",
+    "A398652",
+    "A398653",
+    "A398654",
+    "A398655",
+    "A398656",
+    "A398657",
+    "A398658",
+    "A398659",
+    "A398660",
+    "A398661",
+    "A398662",
+    "A398663",
+    "A398664",
+    "A398727",
+    "A398728",
+    "A398729",
+    "A398730"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

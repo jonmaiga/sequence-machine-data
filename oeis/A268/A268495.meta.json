@@ -1,5 +1,5 @@
 {
-  "description": "\"Late birds\" (a(n)n) in A268630 (= a(n)^2+a(n+1) is prime).",
+  "description": "\"Late birds\" (a(n)<a(k) for all k>n) in A268630 (= a(n)^2+a(n+1) is prime).",
   "id": "A268495",
   "mentions": [
     "A268494",

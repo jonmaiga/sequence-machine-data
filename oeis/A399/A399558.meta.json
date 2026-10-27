@@ -1,0 +1,19 @@
+{
+  "description": "Number of strongly connected labeled loopless digraphs on n vertices having period greater than 1.",
+  "id": "A399558",
+  "mentions": [
+    "A003030",
+    "A070322",
+    "A186081",
+    "A367948"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

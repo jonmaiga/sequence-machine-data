@@ -1,9 +1,11 @@
 {
-  "description": "(A007318 * A133080 + A133080 * A007318) - A007318.",
+  "description": "Triangle read by rows, A007318 * A133080 + A133080 * A007318 - A007318, as infinite lower triangular matrices.",
   "id": "A133571",
   "mentions": [
     "A007318",
     "A133080",
+    "A133084",
+    "A133087",
     "A133572"
   ],
   "tags": [
@@ -12,8 +14,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

@@ -1,11 +1,10 @@
 {
-  "description": "Number of ways to represent 2n - 1 as p^2 + q^2 + r with p, q, and r prime, and p >= q.",
+  "description": "Number of ways to represent 2*n - 1 as p^2 + q^2 + r with p, q, and r prime, and p >= q.",
   "id": "A262436",
   "mentions": [
     "A212292"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

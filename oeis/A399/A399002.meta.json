@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the fixed-content bracelet counts over the distinct multiplicity-collapse profiles of the integer partitions of n.",
+  "id": "A399002",
+  "mentions": [
+    "A005651",
+    "A072605",
+    "A213943",
+    "A396575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

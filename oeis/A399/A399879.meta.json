@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that if k is the number of parts then no part is divisible by k.",
+  "id": "A399879",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A229816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

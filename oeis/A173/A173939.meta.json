@@ -1,5 +1,5 @@
 {
-  "description": "The number of permutations avoiding simultaneously consecutive patterns 132 and 213.",
+  "description": "The number of permutations of [n] avoiding simultaneously consecutive patterns 132 and 213.",
   "id": "A173939",
   "mentions": [],
   "tags": [

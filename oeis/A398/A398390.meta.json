@@ -1,0 +1,19 @@
+{
+  "description": "Number of factorizations of (p*q*r*s)^n into squarefree factors > 1 where none of p, q, r, or s are permitted as factors, for any four distinct primes p, q, r, and s.",
+  "id": "A398390",
+  "mentions": [
+    "A011863",
+    "A050320",
+    "A175707",
+    "A398816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

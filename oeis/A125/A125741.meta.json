@@ -1,10 +1,11 @@
 {
-  "description": "The ratio of A117731(n) and A082687(n) when they are different.",
+  "description": "The ratio of A117731(k) and A082687(k) when they are different.",
   "id": "A125741",
   "mentions": [
     "A082687",
     "A117731",
-    "A125740"
+    "A125740",
+    "A126563"
   ],
   "tags": [
     "formulas",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

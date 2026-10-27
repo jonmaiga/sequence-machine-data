@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that n^2 + 1 and (n+1)^2 + 1 are divisible by a square.",
+  "description": "Numbers k such that k^2 + 1 and (k+1)^2 + 1 are divisible by a square.",
   "id": "A217798",
   "mentions": [
     "A002522",
     "A008683",
     "A049532",
-    "A068781"
+    "A068781",
+    "A335963"
   ],
   "tags": [
     "nonn"

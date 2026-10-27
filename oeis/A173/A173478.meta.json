@@ -2,14 +2,21 @@
   "description": "a(n) = the smallest number ending in n-1 zeros divisible by n.",
   "id": "A173478",
   "mentions": [
+    "A007814",
+    "A112765",
+    "A173479",
+    "A173481",
     "A173486"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

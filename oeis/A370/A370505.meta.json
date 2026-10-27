@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the difference between the number of k-dist-increasing and (k-1)-dist-increasing permutations of [n], where p is k-dist-increasing if k>=0 and p(i)=0, 0<=k<=n, read by rows.",
+  "description": "T(n,k) is the difference between the number of k-dist-increasing and (k-1)-dist-increasing permutations of [n], where p is k-dist-increasing if k>=0 and p(i)<p(i+k) for all i in [n-k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A370505",
   "mentions": [
     "A000007",

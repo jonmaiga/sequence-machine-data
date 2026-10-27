@@ -1,5 +1,5 @@
 {
-  "description": "The number of different shuffle square roots of the prefix of length 2n of the infinte word 00110011001100...",
+  "description": "The number of different shuffle square roots of the prefix of length 2n of the infinite word 00110011001100...",
   "id": "A384728",
   "mentions": [
     "A191755"

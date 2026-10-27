@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of tilings of a 10 X 5n rectangle into Y-pentominoes (no reflections, only rotations).",
+  "id": "A398811",
+  "mentions": [
+    "A001622",
+    "A094214",
+    "A188168",
+    "A247118"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

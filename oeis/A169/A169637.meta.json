@@ -1,5 +1,5 @@
 {
-  "description": "The number of permutations of the first n elements of the Hofstaedter Q-sequence (A005185), augmented by Q(0)=1.",
+  "description": "The number of permutations of the first n elements of the Hofstadter Q-sequence (A005185), augmented by Q(0)=1.",
   "id": "A169637",
   "mentions": [
     "A005185",

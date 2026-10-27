@@ -3,19 +3,23 @@
   "id": "A182644",
   "mentions": [
     "A002013",
+    "A038746",
     "A151514",
     "A151523",
     "A151524",
     "A151526",
     "A151527",
+    "A173380",
     "A182646"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

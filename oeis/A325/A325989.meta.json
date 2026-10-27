@@ -3,6 +3,7 @@
   "id": "A325989",
   "mentions": [
     "A002033",
+    "A074206",
     "A103300",
     "A292886",
     "A325685",
@@ -14,11 +15,12 @@
   ],
   "tags": [
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "gpf(m) - 2*spf(m), where gpf(m) is the greatest and spf(m) is the smallest prime factor of m (A006530, A020639).",
+  "description": "a(n) = gpf(n) - 2*lpf(n), where gpf(n) is the greatest and lpf(n) is the least prime factor of n (A006530, A020639).",
   "id": "A081303",
   "mentions": [
     "A006530",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

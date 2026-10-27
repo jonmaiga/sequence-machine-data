@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (x,y) modulo n satisfying y^2 == x^3 - x (mod n).",
+  "id": "A399789",
+  "mentions": [
+    "A060457",
+    "A098513",
+    "A276730",
+    "A278720"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

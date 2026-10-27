@@ -1,0 +1,20 @@
+{
+  "description": "A knight starts at the origin on an infinite chessboard. In each step, it makes a knight's move to the unvisited point in the first quadrant (x, y >= 0) that is closest to the origin, avoiding steps that inevitably lead to a dead end at some point in the future. See comments for how ties are resolved. a(n) is the x-coordinate of the knight after the n-th step.",
+  "id": "A399929",
+  "mentions": [
+    "A393433",
+    "A396936",
+    "A397388",
+    "A397392",
+    "A399236",
+    "A399930"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

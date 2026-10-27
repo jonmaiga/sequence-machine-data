@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k > 1 whose trajectory under the Collatz map A014682 contains k+1.",
+  "id": "A400984",
+  "mentions": [
+    "A014682",
+    "A126241",
+    "A393502"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

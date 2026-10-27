@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..A007782(n), read by rows; the n-th row lists the earliest starting offsets of the A007782(n) distinct subwords of length n in the Kolakoski sequence (A000002).",
+  "id": "A399023",
+  "mentions": [
+    "A000002",
+    "A007782",
+    "A283511",
+    "A376677",
+    "A399022",
+    "A399445"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

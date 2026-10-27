@@ -1,5 +1,5 @@
 {
-  "description": "Numbers z such that there exist two integers 0",
+  "description": "Numbers z such that there exist two integers 0<x<=y<=z such that (x^2/sigma(x)^2 + y^2/sigma(y)^2 + z^2/sigma(z)^2) * (x + y + z)^2 = x^2 + y^2 + z^2.",
   "id": "A385749",
   "mentions": [
     "A000203",

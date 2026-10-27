@@ -1,0 +1,31 @@
+{
+  "description": "Squares visited by knight moves on a diagonally numbered Q1 board and always taking the available unvisited square with the shortest distance to the bisecting line of Q1. In the case of a tie, first squares with the smaller row index are preferred, second the square with larger column index is preferred. Starting square is labeled 1.",
+  "id": "A400946",
+  "mentions": [
+    "A001844",
+    "A204459",
+    "A204467",
+    "A253513",
+    "A316588",
+    "A316667",
+    "A326916",
+    "A326922",
+    "A326924",
+    "A328908",
+    "A328909",
+    "A399236",
+    "A399929",
+    "A399930",
+    "A400771",
+    "A400937"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

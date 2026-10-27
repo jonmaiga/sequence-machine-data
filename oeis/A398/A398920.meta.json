@@ -1,0 +1,16 @@
+{
+  "description": "Number of solutions of the Diophantine inequality a*b+b*c+c*d <= n, with a,b,c >= 1.",
+  "id": "A398920",
+  "mentions": [
+    "A002133"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

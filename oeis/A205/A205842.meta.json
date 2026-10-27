@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which 3 divides s(k)-s(j) for some j",
+  "description": "Numbers k for which 3 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.",
   "id": "A205842",
   "mentions": [
     "A204892",

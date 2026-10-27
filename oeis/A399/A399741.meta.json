@@ -1,0 +1,26 @@
+{
+  "description": "Starting with 2, each term is the sum, over all preceding terms, of the least and greatest prime factors of each term.",
+  "id": "A399741",
+  "mentions": [
+    "A000458",
+    "A000792",
+    "A006530",
+    "A020639",
+    "A074320",
+    "A074867",
+    "A076271",
+    "A116917",
+    "A400214",
+    "A401453"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

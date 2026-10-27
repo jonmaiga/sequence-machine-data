@@ -1,10 +1,14 @@
 {
   "description": "Decimal expansion of 1/sqrt(91).",
   "id": "A020848",
-  "mentions": [],
+  "mentions": [
+    "A020764",
+    "A020770"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

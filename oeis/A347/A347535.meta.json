@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimum dominating sets in the complete bipartite graph K_n,n.",
+  "description": "Number of minimum dominating sets in the complete bipartite graph K_{n,n}.",
   "id": "A347535",
   "mentions": [
     "A000290"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

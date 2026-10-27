@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that for some y, a divisor of x such that 1",
+  "description": "Numbers x such that for some y, a divisor of x such that 1<y<x, the following four numbers are prime: x*y+1, x*y-1, x/y+1, x/y-1.",
   "id": "A392559",
   "mentions": [
     "A000040",

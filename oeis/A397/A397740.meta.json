@@ -1,0 +1,16 @@
+{
+  "description": "Partial sums of A400000.",
+  "id": "A397740",
+  "mentions": [
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

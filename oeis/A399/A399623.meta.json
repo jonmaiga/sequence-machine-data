@@ -1,0 +1,18 @@
+{
+  "description": "For each positive integer value v, place three copies of v at the earliest available positions k, k+v, k+2v; any unoccupied positions are set to 0.",
+  "id": "A399623",
+  "mentions": [
+    "A026242",
+    "A164888",
+    "A305326",
+    "A307664"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

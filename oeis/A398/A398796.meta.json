@@ -1,0 +1,17 @@
+{
+  "description": "Number of reducible flow graphs on n unlabeled nodes with self-loops allowed, counted up to isomorphism fixing the entry.",
+  "id": "A398796",
+  "mentions": [
+    "A351052",
+    "A397968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

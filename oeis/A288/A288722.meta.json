@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected (non-null) inducted subgraphs in the n-triangular grid graph.",
+  "description": "Number of connected (non-null) induced subgraphs in the n-triangular grid graph.",
   "id": "A288722",
   "mentions": [
     "A288721"

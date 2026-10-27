@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of set partitions of [n] having exactly k pairs (i,j) with i=0, 0<=k<=n*(n-1)/2 read by rows.",
+  "description": "Number T(n,k) of set partitions of [n] having exactly k pairs (i,j) with i<j such that i and j are in the same block; triangle T(n,k), n>=0, 0<=k<=n*(n-1)/2 read by rows.",
   "id": "A271023",
   "mentions": [
     "A000012",

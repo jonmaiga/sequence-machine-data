@@ -1,0 +1,16 @@
+{
+  "description": "Number of maps from {0,1}^n to {0,1}^n under permutations of variables in the domain and range.",
+  "id": "A400752",
+  "mentions": [
+    "A000653"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

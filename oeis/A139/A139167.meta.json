@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: the coefficient [x^k] of the polynomial (n-1)! *sum_{i=0..n} Fibonacci(i)*binomial(x,n-i), read by rows, 0<=k",
+  "description": "Triangle T(n,k) read by rows: the coefficient [x^k] of the polynomial (n-1)! *sum_{i=0..n} Fibonacci(i)*binomial(x,n-i), read by rows, 0<=k<n.",
   "id": "A139167",
   "mentions": [
     "A000045",

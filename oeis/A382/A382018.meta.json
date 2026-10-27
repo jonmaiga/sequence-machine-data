@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

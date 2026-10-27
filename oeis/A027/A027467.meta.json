@@ -2,6 +2,7 @@
   "description": "Triangle whose (n,k)-th entry is 15^(n-k)*binomial(n,k).",
   "id": "A027467",
   "mentions": [
+    "A001024",
     "A007318",
     "A027465",
     "A027466",
@@ -18,6 +19,7 @@
     "A147716"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

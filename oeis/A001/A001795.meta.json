@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of Legendre polynomials.",
+  "description": "Coefficient of P_0(x) in the Legendre expansion of x^n.",
   "id": "A001795",
   "mentions": [
     "A000108",

@@ -1,0 +1,17 @@
+{
+  "description": "Least positive number which can be expressed as the sum of some of its anti-divisors in exactly n ways.",
+  "id": "A399072",
+  "mentions": [
+    "A096356",
+    "A192270",
+    "A392895"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Cube root of n-th partial sum of A090960.",
+  "description": "Cube root of the n-th partial sum of A090960.",
   "id": "A090961",
   "mentions": [
     "A090960"

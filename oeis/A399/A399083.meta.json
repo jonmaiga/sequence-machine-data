@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((8+2n)!*360^n/8!) * Integral_V |x|^(2n) dx, where V is the Voronoi cell of the E_8 lattice.",
+  "id": "A399083",
+  "mentions": [
+    "A004009",
+    "A004017",
+    "A008340",
+    "A008350",
+    "A108091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

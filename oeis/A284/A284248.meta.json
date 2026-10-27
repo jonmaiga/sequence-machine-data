@@ -1,7 +1,9 @@
 {
   "description": "Every binary string w of length n has a subword of length a(n) that appears at least twice in w.",
   "id": "A284248",
-  "mentions": [],
+  "mentions": [
+    "A103354"
+  ],
   "tags": [
     "easy",
     "formulas",

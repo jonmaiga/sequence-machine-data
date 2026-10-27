@@ -5,7 +5,8 @@
     "A047993",
     "A064173",
     "A064174",
-    "A077229"
+    "A077229",
+    "A098124"
   ],
   "tags": [
     "easy",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 32,
+    "offset": 0,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

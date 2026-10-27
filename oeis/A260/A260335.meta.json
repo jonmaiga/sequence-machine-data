@@ -1,11 +1,11 @@
 {
-  "description": "Prime determinants of forms with class number > 2.",
+  "description": "Prime determinants of forms with class number greater than 2.",
   "id": "A260335",
   "mentions": [
-    "A002052"
+    "A002052",
+    "A278837"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {

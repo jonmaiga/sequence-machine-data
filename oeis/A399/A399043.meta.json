@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the total number of connected components in all induced subgraphs of the rook graph K_n X K_m.",
+  "id": "A399043",
+  "mentions": [
+    "A000225",
+    "A183109",
+    "A262307",
+    "A286189",
+    "A360873",
+    "A399039",
+    "A399044",
+    "A399045",
+    "A399046",
+    "A399047",
+    "A399048"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

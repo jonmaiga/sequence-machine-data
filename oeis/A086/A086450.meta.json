@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1, a(2n+1) = a(n), a(2n) = a(n) + a(n-1) + ... + a(n-m) + ... where a(n",
+  "description": "a(0) = 1, a(2n+1) = a(n), a(2n) = a(n) + a(n-1) + ... + a(n-m) + ... where a(n<0) = 0.",
   "id": "A086450",
   "mentions": [
     "A002487",

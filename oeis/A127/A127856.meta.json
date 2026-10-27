@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that if n is a square, then so is r(n), where r(n) is the nonnegative integer defined by cyclic replacement of the digits d of n in base 12, that is, d->d+1 if d0 if d=11.",
+  "description": "Positive integers n such that if n is a square, then so is r(n), where r(n) is the nonnegative integer defined by cyclic replacement of the digits d of n in base 12, that is, d->d+1 if d<11 and d->0 if d=11.",
   "id": "A127856",
   "mentions": [
     "A117755",

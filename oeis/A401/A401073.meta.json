@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n (0,1)-matrices of rank 2 over the real numbers.",
+  "id": "A401073",
+  "mentions": [
+    "A002416",
+    "A046747",
+    "A055165",
+    "A060867",
+    "A379105"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

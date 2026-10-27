@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k! + k!! - 1 is prime, where k!! denotes double factorial (A006882).",
+  "id": "A397845",
+  "mentions": [
+    "A006882"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

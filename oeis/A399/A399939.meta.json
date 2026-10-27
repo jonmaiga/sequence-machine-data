@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n such that the Hankel matrix of any subsequence of an odd number of consecutive terms is nonsingular.",
+  "id": "A399939",
+  "mentions": [
+    "A000142",
+    "A350364",
+    "A399940"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

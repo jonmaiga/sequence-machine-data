@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the 2-adic valuation of 3*k+2 is odd.",
+  "id": "A400890",
+  "mentions": [
+    "A005408",
+    "A007814",
+    "A400893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

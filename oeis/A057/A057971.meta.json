@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5 x n binary matrices with 2 unit columns up to row and column permutations.",
+  "description": "Number of 5 X n binary matrices with exactly 2 singleton columns up to row and column permutations.",
   "id": "A057971",
   "mentions": [
     "A001752",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 22,
+    "size": 26,
     "source": "joeis"
   }
 }

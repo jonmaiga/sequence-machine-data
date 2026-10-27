@@ -1,9 +1,14 @@
 {
   "description": "Floor of arithmetic-geometric mean of n and 2n.",
   "id": "A062005",
-  "mentions": [],
+  "mentions": [
+    "A068521",
+    "A076145",
+    "A231603"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

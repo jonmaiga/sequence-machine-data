@@ -1,9 +1,10 @@
 {
-  "description": "Number of oriented prime alternating tangles.",
+  "description": "Expansion of q^2 in powers of g, where q is the elliptic nome in Zinn-Justin and Zuber's enumeration of oriented prime alternating tangles.",
   "id": "A104252",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

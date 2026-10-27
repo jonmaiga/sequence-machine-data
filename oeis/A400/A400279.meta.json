@@ -1,0 +1,14 @@
+{
+  "description": "The number of skipped edges in the regular (n+1)-gon when the regular (n+2)-gon is drawn in a particular polygon spiral (see comments).",
+  "id": "A400279",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

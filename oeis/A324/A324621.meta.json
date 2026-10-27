@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [1+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(1+n)*[i",
+  "description": "Number of permutations p of [1+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(1+n)*[i<p(i)]].",
   "id": "A324621",
   "mentions": [
     "A000166",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that C(k,5) = C(x,5) + C(y,5) + C(z,5) is solvable, where k > x >= y >= z > 5.",
+  "id": "A398683",
+  "mentions": [
+    "A000389",
+    "A010330"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "n - A400185(n).",
+  "id": "A400190",
+  "mentions": [
+    "A400000",
+    "A400185"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

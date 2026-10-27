@@ -1,11 +1,13 @@
 {
-  "description": "Numbers such that 2*UnitaryPhi(2*UnitaryPhi(n)) = n.",
+  "description": "Numbers k such that 2*UnitaryPhi(2*UnitaryPhi(k)) = k.",
   "id": "A120453",
   "mentions": [
+    "A019434",
     "A047994",
     "A117820"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

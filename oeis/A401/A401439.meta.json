@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled strongly connected digraphs with n arcs.",
+  "id": "A401439",
+  "mentions": [
+    "A003030",
+    "A057273",
+    "A350752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

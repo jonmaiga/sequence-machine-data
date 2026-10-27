@@ -1,9 +1,10 @@
 {
-  "description": "Number of 6 X n Latin rectangles.",
+  "description": "Number of reduced 6 X n Latin rectangles.",
   "id": "A275922",
   "mentions": [
     "A000179",
     "A000186",
+    "A001009",
     "A001623",
     "A275921"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 6,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,13 @@
 {
   "description": "Expansion of (1 + 10*x + 20*x^2 + 10*x^3 + x^4)/(1-x)^5.",
   "id": "A160747",
-  "mentions": [],
+  "mentions": [
+    "A001263",
+    "A005408",
+    "A005891",
+    "A063490",
+    "A271942"
+  ],
   "tags": [
     "easy",
     "formulas",

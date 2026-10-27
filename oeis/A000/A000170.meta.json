@@ -2,6 +2,7 @@
   "description": "Number of ways of placing n nonattacking queens on an n X n board.",
   "id": "A000170",
   "mentions": [
+    "A002464",
     "A002562",
     "A006717",
     "A036464",

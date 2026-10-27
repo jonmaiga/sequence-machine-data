@@ -1,0 +1,23 @@
+{
+  "description": "Least N such that {1,...,N} contains an n-element subset whose set of subset sums contains no 3-term arithmetic progression (the Erdős-Sárközy function g_3(n)).",
+  "id": "A399720",
+  "mentions": [
+    "A002426",
+    "A003002",
+    "A005318",
+    "A276661",
+    "A318821",
+    "A318863"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

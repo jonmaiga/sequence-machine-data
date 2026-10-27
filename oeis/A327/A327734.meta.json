@@ -1,18 +1,19 @@
 {
-  "description": "Number of n-bead bracelet structures using exactly two different colored beads that are not self-equivalent under either a nonzero rotation or reversal (turning over bracelet).",
+  "description": "Number of n-bead bracelets of exactly two colors having no nonidentity symmetry under rotation, reflection, and color permutation.",
   "id": "A327734",
   "mentions": [
+    "A001037",
+    "A032239",
     "A056295",
     "A056357",
     "A324802"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

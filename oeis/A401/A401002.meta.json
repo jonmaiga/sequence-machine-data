@@ -1,0 +1,22 @@
+{
+  "description": "Pythagorean primes p = x^2 + y^2 with integers x > y > 0 for which one Pell-type recurrence step (x, y) -> (2*x + y, x) gives another Pythagorean prime q = (2*x + y)^2 + x^2.",
+  "id": "A401002",
+  "mentions": [
+    "A000129",
+    "A002144",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401003",
+    "A401004"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

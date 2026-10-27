@@ -2,17 +2,18 @@
   "description": "Number of n X n ortho-projection matrices over GF(2). Also, the number of labeled ortho-projection graphs on n vertices.",
   "id": "A081080",
   "mentions": [
+    "A002884",
     "A081081",
-    "A081082"
+    "A081082",
+    "A086812"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

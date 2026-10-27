@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least missing value from the Heraclitus transform of the first n positive square numbers.",
+  "id": "A399979",
+  "mentions": [
+    "A377091",
+    "A383442"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is that generation of the rule-30 1D cellular automaton started from a single ON cell in which n successive OFF cells appears for the first time after a(n-1).",
+  "description": "a(n) is that generation of the rule-30 1D cellular automaton started from a single ON cell in which n successive OFF cells appear for the first time after a(n-1).",
   "id": "A319606",
   "mentions": [
     "A317530"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A019565(A289813(A295882(d))); a product obtained from the 1's present in balanced ternary representation of the deficiencies of the proper divisors of n.",
   "id": "A296071",
   "mentions": [
     "A019565",

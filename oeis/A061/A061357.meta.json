@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0",
+  "description": "Number of 0<k<n such that n-k and n+k are both primes.",
   "id": "A061357",
   "mentions": [
     "A001477",

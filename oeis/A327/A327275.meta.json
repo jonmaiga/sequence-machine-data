@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) = Sum_{d|n, d",
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d<n} psi(n/d) * a(d), where psi = A001615.",
   "id": "A327275",
   "mentions": [
     "A001615",

@@ -1,5 +1,5 @@
 {
-  "description": "n can be represented the sum of a(n) distinct factorials. (If there is no such representation, a(n) = 0.)",
+  "description": "a(n) = k if n can be written as the sum of the factorials of k distinct positive integers. Otherwise, a(n) = 0.",
   "id": "A301593",
   "mentions": [
     "A000142",

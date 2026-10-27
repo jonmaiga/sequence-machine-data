@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if n",
+  "description": "a(n) = if n<6 then n else 6*a(floor(n/6)) + 5 - n mod 6.",
   "id": "A115306",
   "mentions": [
     "A054429",

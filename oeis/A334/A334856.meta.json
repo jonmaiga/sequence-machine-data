@@ -2,10 +2,14 @@
   "description": "E.g.f. A(x) satisfies: A(x) = sin(x * exp(A(x))).",
   "id": "A334856",
   "mentions": [
+    "A136630",
     "A227463",
-    "A227465"
+    "A227464",
+    "A227465",
+    "A293021"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

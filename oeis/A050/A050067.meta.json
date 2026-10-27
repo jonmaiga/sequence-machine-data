@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p= 4.",
+  "description": "a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.",
   "id": "A050067",
   "mentions": [
     "A050027",

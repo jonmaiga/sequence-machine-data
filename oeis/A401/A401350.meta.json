@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polyominoes with 4n cells that can be quadrisected into four congruent polyominoes.",
+  "id": "A401350",
+  "mentions": [
+    "A000105",
+    "A399996",
+    "A400883"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

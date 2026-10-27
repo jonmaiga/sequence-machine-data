@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of digits of k in base b is not prime for any base b in the range 2 <= b <= floor(sqrt(k)).",
+  "id": "A401001",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A007953",
+    "A052294"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

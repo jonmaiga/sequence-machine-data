@@ -2,8 +2,13 @@
   "description": "Partial sums of A001159: Sum_{j=1..n} sigma_4(j).",
   "id": "A064604",
   "mentions": [
+    "A000538",
     "A001159",
-    "A064607"
+    "A024916",
+    "A064602",
+    "A064603",
+    "A064607",
+    "A248076"
   ],
   "tags": [
     "formulas",

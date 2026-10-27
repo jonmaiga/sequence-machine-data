@@ -1,0 +1,21 @@
+{
+  "description": "Start with a set of four adjacent collinear points in a hexagonal lattice. Every iteration, add to the set the points in the lattice which are adjacent to at least two points already in the set. This sequence gives the number of points in the set after n iterations.",
+  "id": "A400700",
+  "mentions": [
+    "A008458",
+    "A338097",
+    "A374338",
+    "A400699",
+    "A400701"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

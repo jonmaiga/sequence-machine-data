@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of monotone Boolean functions of n variables under cyclic rotations of the variables.",
+  "id": "A400640",
+  "mentions": [
+    "A000372",
+    "A003182"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

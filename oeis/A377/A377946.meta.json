@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element group C2^2:C4 = .",
+  "description": "Cogrowth sequence of the 16-element group C2^2:C4 = <S,T | S^4, T^2, (ST)^2, (S^2T)^2>.",
   "id": "A377946",
   "mentions": [
     "A054879",

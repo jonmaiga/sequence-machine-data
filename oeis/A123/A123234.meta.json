@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n Latin squares up to row and column permutation (or \"RC-equivalence\").",
+  "description": "Number of n X n Latin squares up to row and column permutation (also known as \"principal isotopy\", \"principal isotopism\" or \"RC-equivalence\").",
   "id": "A123234",
   "mentions": [
     "A000315",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

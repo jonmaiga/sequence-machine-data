@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive integer divisible by at least n distinct entries of a single row of Pascal's triangle.",
+  "id": "A399069",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A007318",
+    "A048619",
+    "A061799",
+    "A096179",
+    "A179661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

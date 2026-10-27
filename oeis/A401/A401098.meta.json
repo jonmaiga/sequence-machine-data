@@ -1,0 +1,20 @@
+{
+  "description": "Total number of (non-null) connected induced subgraphs in all connected labeled graphs on n vertices.",
+  "id": "A401098",
+  "mentions": [
+    "A401091",
+    "A401097",
+    "A401099",
+    "A401178",
+    "A401179",
+    "A401180"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

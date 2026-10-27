@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3*Pi^2/(16*G), where G = A006752.",
+  "id": "A401027",
+  "mentions": [
+    "A002388",
+    "A006752",
+    "A222068",
+    "A401026",
+    "A401028"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

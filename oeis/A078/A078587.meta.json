@@ -1,5 +1,5 @@
 {
-  "description": "Largest prime p such that p",
+  "description": "Largest prime p such that p<n and 2n-p is also prime.",
   "id": "A078587",
   "mentions": [
     "A078496",

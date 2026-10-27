@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Product_{p odd prime, 3 <= p <= n} p^(floor(log(n) /log(p)) - v_p(k)), where v_p(k) - p-adic valuation and T(1,1) = T(2,1) = T(2,2) = 1.",
+  "id": "A399081",
+  "mentions": [
+    "A000265",
+    "A003418",
+    "A025547",
+    "A217858",
+    "A387183",
+    "A398928"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

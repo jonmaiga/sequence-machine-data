@@ -1,5 +1,5 @@
 {
-  "description": "Simple periodic sequence: repeat 1,2,3,4.",
+  "description": "Simple periodic sequence: repeat [1, 2, 3, 4].",
   "id": "A010883",
   "mentions": [
     "A002264",

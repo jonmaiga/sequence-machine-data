@@ -1,7 +1,10 @@
 {
-  "description": "Triangle of coefficients in expansion of (3+5x)^n.",
+  "description": "Triangle of coefficients in expansion of (3+5*x)^n.",
   "id": "A013622",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A000351"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 45,
     "source": "joeis"
   }
 }

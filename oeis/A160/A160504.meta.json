@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of ordered pairs (i,j) such that a(i)+a(j)",
+  "description": "a(n) = number of ordered pairs (i,j) such that a(i)+a(j)<n, i<j<n; a(1)=a(2)=1.",
   "id": "A160504",
   "mentions": [],
   "tags": [

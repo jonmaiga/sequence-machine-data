@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1<=i",
+  "description": "a(n) = Sum_{1<=i<j<k<=n} P(i)*P(j)*P(k), where P(m) is the k-th Pell number A000129(m).",
   "id": "A213788",
   "mentions": [
     "A000129",

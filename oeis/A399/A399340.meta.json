@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{j=0..n-1} binomial(n + j, n).",
+  "id": "A399340",
+  "mentions": [
+    "A036740",
+    "A107254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

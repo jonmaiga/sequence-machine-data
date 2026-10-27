@@ -1,0 +1,22 @@
+{
+  "description": "Number of composite numbers less than the n-th primorial that are relatively prime to the (n-1)-th primorial.",
+  "id": "A398562",
+  "mentions": [
+    "A000849",
+    "A002110",
+    "A005867",
+    "A065898",
+    "A066264",
+    "A072236"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

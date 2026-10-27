@@ -1,18 +1,20 @@
 {
-  "description": "From a problem concerning circulant matrices and Gauss sums.",
+  "description": "a(n) = (1/n)*Sum_{x in (Z/nZ)^6} e^(2*Pi*i*det(circ(x))/n), the normalized Gauss sum of the 6 X 6 circulant determinant.",
   "id": "A007792",
   "mentions": [
     "A007789",
     "A007790",
-    "A007791"
+    "A007791",
+    "A399450"
   ],
   "tags": [
-    "more",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 19,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

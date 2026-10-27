@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the double infinite sum (negated) sum_{m=1..infinity} sum_{k=0..infinity} (-1)^m/((2k+1)^2+m^2).",
+  "description": "Decimal expansion of the double infinite sum (negated) Sum_{m=1..oo} Sum_{k=0..oo} (-1)^m/((2k+1)^2+m^2).",
   "id": "A251992",
   "mentions": [
     "A175573",

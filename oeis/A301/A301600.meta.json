@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Primorial(n) / Product_{k prime",
+  "description": "a(n) = Primorial(n) / Product_{k prime<n} k.",
   "id": "A301600",
   "mentions": [
     "A002110",

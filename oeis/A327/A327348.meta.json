@@ -2,11 +2,11 @@
   "description": "The 66 prime dates in each non-leap year of the form concatenate (month,day) without leading zeros for days.",
   "id": "A327348",
   "mentions": [
+    "A131687",
     "A327346",
     "A327347",
     "A327349",
-    "A327914",
-    "A327915"
+    "A327914"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest 2-dense number (A174973) with n odd divisors.",
+  "id": "A398694",
+  "mentions": [
+    "A000040",
+    "A001227",
+    "A008776",
+    "A025192",
+    "A174973",
+    "A237271",
+    "A237593",
+    "A279387",
+    "A384222",
+    "A400412"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

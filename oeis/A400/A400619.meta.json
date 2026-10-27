@@ -1,0 +1,23 @@
+{
+  "description": "Primes p at which 4*x - p sets a record, where x is the smallest denominator occurring in any solution of 4/p = 1/x + 1/y + 1/z in positive integers.",
+  "id": "A400619",
+  "mentions": [
+    "A073101",
+    "A075245",
+    "A257839",
+    "A292581",
+    "A292624",
+    "A392469",
+    "A392470",
+    "A400620"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

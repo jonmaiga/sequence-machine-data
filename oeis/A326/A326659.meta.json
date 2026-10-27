@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = [0=0]; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "description": "T(n,k) = [0<k<=n] * n*(T(n-1,k-1)+T(n-1,k)) + [k=0 and n>=0]; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
   "id": "A326659",
   "mentions": [
     "A000012",

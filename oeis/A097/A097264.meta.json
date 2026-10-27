@@ -1,5 +1,5 @@
 {
-  "description": "Primitive Pythagorean Quadruples a^2+b^2+c^2=d^2, 0",
+  "description": "Primitive Pythagorean Quadruples a^2+b^2+c^2=d^2, 0<a<=b<=c<=d, gcd(a,b,c,d)=1, sorted by d, then c, then b; sequence gives short even leg values.",
   "id": "A097264",
   "mentions": [
     "A096907",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k) = A002808(n) mod A002808(k), 0",
+  "description": "Triangle read by rows: R(n,k) = A002808(n) mod A002808(k), 0<k<=n.",
   "id": "A118508",
   "mentions": [
     "A002808"

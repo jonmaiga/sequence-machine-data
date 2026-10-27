@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0. For n>1, a(n) = smallest number > a(n-1) such that, for all m,r",
+  "description": "a(1)=0. For n>1, a(n) = smallest number > a(n-1) such that, for all m,r<n, a(n) != a(m)^2 + a(r)^2.",
   "id": "A261604",
   "mentions": [
     "A022544",

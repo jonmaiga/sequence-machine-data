@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + tau(k)^9.",
+  "id": "A398806",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001615",
+    "A398648",
+    "A398797",
+    "A398971",
+    "A399539",
+    "A399540",
+    "A399541",
+    "A399910"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

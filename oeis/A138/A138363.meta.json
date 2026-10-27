@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime powers p^e with e>1 and 0",
+  "description": "Number of prime powers p^e with e>1 and 0<prime(n)-p^e<p.",
   "id": "A138363",
   "mentions": [
     "A000040",

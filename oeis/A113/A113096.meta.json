@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 3) and t_{i+1} <= 4*t_i for 1",
+  "description": "Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 3) and t_{i+1} <= 4*t_i for 1<i<n.",
   "id": "A113096",
   "mentions": [
     "A008934",

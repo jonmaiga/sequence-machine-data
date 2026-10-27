@@ -1,0 +1,16 @@
+{
+  "description": "Composite numbers k such that A351207(k) = 2.",
+  "id": "A400307",
+  "mentions": [
+    "A049098",
+    "A351207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

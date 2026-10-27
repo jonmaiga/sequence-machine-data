@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1. For n > 1, choose the least k >= 1 such that 2^k*a(n-1) - 1 has a divisor not previously occurring in the sequence; a(n) is the least such unused divisor.",
+  "id": "A399458",
+  "mentions": [
+    "A398414"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

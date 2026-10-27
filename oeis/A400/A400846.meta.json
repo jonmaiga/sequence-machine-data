@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of ordered set partitions of [n] whose associated composition c is such that f(c)=k, 0<=k<=binomial(n,2), n>=0 (where associated composition and f(c) are defined below in the comments section).",
+  "id": "A400846",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A240796",
+    "A240797",
+    "A271024",
+    "A334282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

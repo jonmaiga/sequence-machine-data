@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator of b(n), where b(1)=1, b(n) = Sum_{1<=k",
+  "description": "a(n) = denominator of b(n), where b(1)=1, b(n) = Sum_{1<=k<n, gcd(k,n)=1} 1/b(k).",
   "id": "A127942",
   "mentions": [
     "A127941"

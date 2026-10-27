@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of Hamiltonian cycles in a polyhex with n cells.",
+  "id": "A399932",
+  "mentions": [
+    "A000228",
+    "A036418",
+    "A399931",
+    "A399933"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Numbers p from A001125 such that 2*p-3 is prime.",
   "id": "A063939",
   "mentions": [
-    "A001125"
+    "A001125",
+    "A063908"
   ],
   "tags": [
     "easy",

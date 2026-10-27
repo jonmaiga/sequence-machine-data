@@ -1,5 +1,5 @@
 {
-  "description": "Number of k such that prime(n) divides T(k), the central trinomial coefficient A002426(k), with 0",
+  "description": "Number of k such that prime(n) divides T(k), the central trinomial coefficient A002426(k), with 0<k<prime(n).",
   "id": "A113302",
   "mentions": [
     "A002426",

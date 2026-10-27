@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. log((1 - log(1+x))/(1 - 2*log(1+x)))/(1 - log(1+x)).",
+  "id": "A399849",
+  "mentions": [
+    "A103213",
+    "A399848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

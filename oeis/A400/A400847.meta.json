@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (p^2 + nextprime(p))/2 is also prime.",
+  "id": "A400847",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A001223",
+    "A151800"
+  ],
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

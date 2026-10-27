@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the first twin-prime in the earliest chain of 2n-1 consecutive twin-primes whose sum is a twin-prime.",
+  "id": "A401141",
+  "mentions": [
+    "A001097",
+    "A013918",
+    "A053845",
+    "A070934",
+    "A071151",
+    "A077800",
+    "A089793",
+    "A400578",
+    "A400738"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

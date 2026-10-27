@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest composite number c greater than all previous terms such that the product of the previous terms plus c is prime.",
+  "id": "A398436",
+  "mentions": [
+    "A000040",
+    "A387687"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

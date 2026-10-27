@@ -1,11 +1,10 @@
 {
-  "description": "Fixed points of A378226, where A278226 is XOR-Moebius transform of A318457, and A318457(n) = n XOR (sigma(n)-n).",
+  "description": "Fixed points of A378226, where A378226 is XOR-Moebius transform of A318457, and A318457(n) = n XOR (sigma(n)-n).",
   "id": "A378441",
   "mentions": [
     "A000040",
     "A001065",
     "A003987",
-    "A278226",
     "A318457",
     "A378226"
   ],

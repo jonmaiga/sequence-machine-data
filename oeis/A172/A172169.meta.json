@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of solution to x=Fibonacci(x) with 0",
+  "description": "Decimal expansion of solution to x=Fibonacci(x) with 0<x<1.",
   "id": "A172169",
   "mentions": [
     "A000796",

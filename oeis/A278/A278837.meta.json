@@ -2,7 +2,11 @@
   "description": "Primes p such that the ring of algebraic integers of Q(sqrt(p)) does not have unique factorization.",
   "id": "A278837",
   "mentions": [
-    "A146209"
+    "A002496",
+    "A003174",
+    "A028871",
+    "A146209",
+    "A260335"
   ],
   "tags": [
     "nonn"

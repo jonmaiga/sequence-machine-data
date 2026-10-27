@@ -1,5 +1,5 @@
 {
-  "description": "Length of the shorts leg in the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "Length of the short leg in the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
   "id": "A380821",
   "mentions": [
     "A000032",
