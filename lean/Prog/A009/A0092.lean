@@ -2,12 +2,11 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -15,22 +14,23 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C043
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +41,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -49,7 +48,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -63,11 +61,12 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +91,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A009200: E.g.f. exp(sin(log(1+x))).
@@ -709,6 +707,29 @@ namespace A009205
 /-- `A009278(n+1)/(A057020(n+1)*A057021(n+1))` -/
 def P16405573390933202175.Spec : Prop :=
   ∀ n, P16405573390933202175.a n = (A009205 (n + 1) : ℚ)
+
+end A009205
+
+/-! ## A009205.P8550623284877698615
+
+`A336839(n+1)*A336856(n+1)/A057021(n+1)`
+-/
+
+namespace A009205.P8550623284877698615
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A336839 (n + 1) * A336856 (n + 1) : ℚ) / (A057021 (n + 1) : ℚ)
+
+end
+
+end A009205.P8550623284877698615
+
+namespace A009205
+
+/-- `A336839(n+1)*A336856(n+1)/A057021(n+1)` -/
+def P8550623284877698615.Spec : Prop :=
+  ∀ n, P8550623284877698615.a n = (A009205 (n + 1) : ℚ)
 
 end A009205
 
@@ -2278,7 +2299,7 @@ end A009229.P12332645486599779232
 /-!
 # A009230: a(n) = lcm(n, d(n)).
 
-The programs for A009230, the canonical program `A009230.P1819466597498337279` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009230 has offset 1).
+The programs for A009230, the canonical program `A009230.P1819466597498337279` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009230 has offset 1).
 
 The definition of A009230 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2287,7 +2308,7 @@ The definition of A009230 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, ∏{e}[n+1, #+1])`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A009230
@@ -3106,6 +3127,32 @@ namespace A009242
 /-- `A064987(n+1)/A009194(n+1)` -/
 def P9816838993410678013.Spec : Prop :=
   ∀ n, P9816838993410678013.a n = (A009242 (n + 1) : ℚ)
+
+end A009242
+
+/-! ## A009242.P13241373757300026779
+
+`lcm(n+1, ∑{d}[n+1, #])`
+-/
+
+namespace A009242.P13241373757300026779
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lcm (n + 1) (∑ d ∈ Nat.divisors (f1 n), d)
+
+end
+
+end A009242.P13241373757300026779
+
+namespace A009242
+
+/-- `lcm(n+1, ∑{d}[n+1, #])` -/
+def P13241373757300026779.Spec : Prop :=
+  ∀ n, (P13241373757300026779.a n : ℤ) = A009242 (n + 1)
 
 end A009242
 
@@ -5435,7 +5482,7 @@ end A009278
 /-!
 # A009279: a(n) = lcm(d(n), phi(n)).
 
-The programs for A009279, the canonical program `A009279.P8551515990557863358` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009279 has offset 1).
+The programs for A009279, the canonical program `A009279.P8551515990557863358` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009279 has offset 1).
 
 The definition of A009279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5444,7 +5491,7 @@ The definition of A009279 is `conjectured`: the Lean definition is a formula tha
 
 `lcm((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], ∑{d}[n+1, ((#+1)%2)!])`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A009279

@@ -7,13 +7,15 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C015
+import Seq.B000.C025
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C007
 import Seq.B002.C003
 import Seq.B003.C002
 import Seq.B004.C000
@@ -23,20 +25,18 @@ import Seq.B006.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C006
+import Seq.Opaque.C005
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -486,8 +486,29 @@ end A172631.P14661258562380563375
 /-!
 # A172634: Number of n X 3 0..2 arrays with row sums 3 and column sums n.
 
-The programs for A172634, there is no canonical definition to state claims against.
+The programs for A172634, the canonical program `A172634.P5672896076105477540` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172634 has offset 0).
+
+The definition of A172634 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A172634.P5672896076105477540
+
+`∑{#}[n, (-1)^(n+#)*C(n, #)*A000172(#)]`
+
+The canonical program, it is in `Seq.B001.C007`.
+-/
+
+namespace A172634
+
+/-- `∑{#}[n, (-1)^(n+#)*C(n, #)*A000172(#)]` -/
+def P5672896076105477540.Spec : Prop :=
+  ∀ n, P5672896076105477540.a n = A172634 n
+
+theorem P5672896076105477540.correct : P5672896076105477540.Spec := by
+  intro n
+  simp only [A172634]
+
+end A172634
 
 /-! ## A172634.P7301987077146038950
 
@@ -507,6 +528,14 @@ end
 
 end A172634.P7301987077146038950
 
+namespace A172634
+
+/-- `A328747(∑[n+3]+n+3)` -/
+def P7301987077146038950.Spec : Prop :=
+  ∀ n, P7301987077146038950.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P465997798114747283
 
 `A334549(∑[n+3]+6)`
@@ -525,6 +554,14 @@ end
 
 end A172634.P465997798114747283
 
+namespace A172634
+
+/-- `A334549(∑[n+3]+6)` -/
+def P465997798114747283.Spec : Prop :=
+  ∀ n, P465997798114747283.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P13827262061327713854
 
 `or(1, A334549(A046691(n+2)))`
@@ -540,6 +577,14 @@ end
 
 end A172634.P13827262061327713854
 
+namespace A172634
+
+/-- `or(1, A334549(A046691(n+2)))` -/
+def P13827262061327713854.Spec : Prop :=
+  ∀ n, P13827262061327713854.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P16810687112918553633
 
 `A275122(A081435(n))`
@@ -554,6 +599,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172634.P16810687112918553633
+
+namespace A172634
+
+/-- `A275122(A081435(n))` -/
+def P16810687112918553633.Spec : Prop :=
+  ∀ n, P16810687112918553633.a n = A172634 n
+
+end A172634
 
 /-!
 # A172636: Number of n X 7 0..2 arrays with row sums 7 and column sums n.

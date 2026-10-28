@@ -4,32 +4,35 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,10 +54,11 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +82,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -87,7 +90,7 @@ set_option linter.unreachableTactic false
 /-!
 # A253301: Complement of the Beatty sequence for sqrt(Pi*phi), where phi is the golden ratio.
 
-The programs for A253301, the canonical program `A253301.P1879963797802955260` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253301 has offset 1).
+The programs for A253301, the canonical program `A253301.P1879963797802955260` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253301 has offset 1).
 
 The definition of A253301 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -96,7 +99,7 @@ The definition of A253301 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*sqrt(π*ϕ)/(sqrt(π*ϕ)-1))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A253301
@@ -356,27 +359,53 @@ end A253303.P3221684683528092376
 /-!
 # A253304: Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the octagonal number O(m) for some m.
 
-The programs for A253304, the canonical program `A253304.P17523641261589992296` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253304 has offset 1).
+The programs for A253304, the canonical program `A253304.P9352522508536238177` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253304 has offset 1).
 
-The definition of A253304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A253304 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A253304.P9352522508536238177
+
+`ogf((1+21x-7x^2-3x^3)/(1-x-62x^2+62x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A253304
+
+/-- `ogf((1+21x-7x^2-3x^3)/(1-x-62x^2+62x^3+x^4-x^5))` -/
+def P9352522508536238177.Spec : Prop :=
+  ∀ n, P9352522508536238177.a n = A253304 (n + 1)
+
+theorem P9352522508536238177.correct : P9352522508536238177.Spec := by
+  intro n
+  simp only [A253304, Nat.add_sub_cancel]
+
+end A253304
 
 /-! ## A253304.P17523641261589992296
 
 `∑[A010684(n)*A070997(n)]`
-
-The canonical program, it is in `Seq.B001.C010`.
 -/
+
+namespace A253304.P17523641261589992296
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010684 n * A070997 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A253304.P17523641261589992296
 
 namespace A253304
 
 /-- `∑[A010684(n)*A070997(n)]` -/
 def P17523641261589992296.Spec : Prop :=
   ∀ n, P17523641261589992296.a n = A253304 (n + 1)
-
-theorem P17523641261589992296.correct : P17523641261589992296.Spec := by
-  intro n
-  simp only [A253304, Nat.add_sub_cancel]
 
 end A253304
 
@@ -480,6 +509,33 @@ def P6207302596062432885.Spec : Prop :=
   ∀ n, P6207302596062432885.a n = A253304 (n + 1)
 
 end A253304
+
+/-!
+# A253305: Numbers n such that the octagonal number O(n) is equal to the sum of the heptagonal numbers H(m) and H(m+1) for some m.
+
+The programs for A253305, the canonical program `A253305.P4333566737309396120` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253305 has offset 1).
+
+The definition of A253305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A253305.P4333566737309396120
+
+`ogf((2+27x-53x^2+3x^3+x^4)/(1-x-62x^2+62x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A253305
+
+/-- `ogf((2+27x-53x^2+3x^3+x^4)/(1-x-62x^2+62x^3+x^4-x^5))` -/
+def P4333566737309396120.Spec : Prop :=
+  ∀ n, P4333566737309396120.a n = A253305 (n + 1)
+
+theorem P4333566737309396120.correct : P4333566737309396120.Spec := by
+  intro n
+  simp only [A253305, Nat.add_sub_cancel]
+
+end A253305
 
 /-!
 # A253306: Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically, diagonally and antidiagonally.
@@ -4159,21 +4215,6 @@ end
 
 end A253350.P9091436853667954235
 
-/-! ## A253350.P2279820362138714714
-
-`A204616(n+1)-A136546(A022177(n))`
--/
-
-namespace A253350.P2279820362138714714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204616 (n + 1) - A136546 (A022177 n).toNat
-
-end
-
-end A253350.P2279820362138714714
-
 /-!
 # A253351: Number of (2+1) X (n+1) 0..1 arrays with every 2 X 2 subblock diagonal maximum minus antidiagonal maximum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
 
@@ -6149,6 +6190,36 @@ end
 
 end A253385.P14499338786785176220
 
+/-! ## A253385.P9032348872963968590
+
+`A379093(A062399(n+1))`
+-/
+
+namespace A253385.P9032348872963968590
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379093 (A062399 (n + 1)).toNat
+
+end
+
+end A253385.P9032348872963968590
+
+/-! ## A253385.P10370114781783552448
+
+`A379093(A351870(n+1))`
+-/
+
+namespace A253385.P10370114781783552448
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379093 (A351870 (n + 1)).toNat
+
+end
+
+end A253385.P10370114781783552448
+
 /-!
 # A253387: A "mod sequence" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (Sum_{k=1..m-1} b(k)) mod m.
 
@@ -6772,16 +6843,39 @@ end A253390.P10374529704024544956
 /-!
 # A253391: Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock antidiagonal maximum minus diagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal minimum nondecreasing vertically.
 
-The programs for A253391, the canonical program `A253391.P15356625066980703189` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253391 has offset 1).
+The programs for A253391, the canonical program `A253391.P15356625066980703189` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253391 has offset 1).
 
 The definition of A253391 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A253391.P5928372933401827158
+
+`ogf((44+14x-61x^2-x^3+16x^4+4x^5+2x^6-2x^7)/(1-2x+2x^3-x^4))`
+-/
+
+namespace A253391.P5928372933401827158
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [44, 14, -61, -1, 16, 4, 2, -2] [1, -2, 0, 2, -1] n
+
+end
+
+end A253391.P5928372933401827158
+
+namespace A253391
+
+/-- `ogf((44+14x-61x^2-x^3+16x^4+4x^5+2x^6-2x^7)/(1-2x+2x^3-x^4))` -/
+def P5928372933401827158.Spec : Prop :=
+  ∀ n, P5928372933401827158.a n = A253391 (n + 1)
+
+end A253391
 
 /-! ## A253391.P15356625066980703189
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=44, a(1)=102, a(2)=143, a(3)=197, a(4)=250, a(5)=320, a(6)=391, a(7)=477`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A253391
@@ -6877,7 +6971,7 @@ end A253391
 /-!
 # A253392: Number of (n+1) X (3+1) 0..1 arrays with every 2 X 2 subblock antidiagonal maximum minus diagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal minimum nondecreasing vertically.
 
-The programs for A253392, the canonical program `A253392.P10326156744416589657` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253392 has offset 1).
+The programs for A253392, the canonical program `A253392.P10326156744416589657` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253392 has offset 1).
 
 The definition of A253392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6886,7 +6980,7 @@ The definition of A253392 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=96, a(1)=143, a(2)=174, a(3)=246, a(4)=316, a(5)=419, a(6)=520, a(7)=651`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A253392

@@ -2,17 +2,17 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C006
-import Seq.B000.C017
-import Seq.B000.C023
+import Seq.B000.C019
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C045
 import Seq.B001.C003
 import Seq.B002.C001
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -20,14 +20,14 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C009
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
-import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A388622: Decimal expansion of 4 - 2*sqrt(2).
@@ -64,21 +64,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388622.P14267147550000250249
-
-/-! ## A388622.P10677445980647561060
-
-`9-A090488(n^A043531(and(1, a(n-1))+1))` with `a(0)=1`
--/
-
-namespace A388622.P10677445980647561060
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  9 - A090488 ((SequenceMachineLib.roundAway ((n : ℚ) ^ (A043531 (Int.land 1 (a (n - 1)) + 1).toNat : ℤ))).toNat + 1)
-
-end
-
-end A388622.P10677445980647561060
 
 /-!
 # A388650: Numbers k such that psi(k) = phi(k) + pi(k).

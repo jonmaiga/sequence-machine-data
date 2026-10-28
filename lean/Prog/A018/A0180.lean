@@ -17,29 +17,35 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
@@ -54,19 +60,19 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1202,6 +1208,29 @@ namespace A018002
 /-- `A017982(2*n)+A000035(A092942(n))` -/
 def P12186880053242090460.Spec : Prop :=
   ∀ n, P12186880053242090460.a n = A018002 n
+
+end A018002
+
+/-! ## A018002.P3720591661656930954
+
+`A018000(n)+A102283(n²)`
+-/
+
+namespace A018002.P3720591661656930954
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018000 n + A102283 (n ^ 2)
+
+end
+
+end A018002.P3720591661656930954
+
+namespace A018002
+
+/-- `A018000(n)+A102283(n²)` -/
+def P3720591661656930954.Spec : Prop :=
+  ∀ n, P3720591661656930954.a n = A018002 n
 
 end A018002
 
@@ -9352,6 +9381,29 @@ theorem P6300633340148434142.correct : P6300633340148434142.Spec := by
 
 end A018036
 
+/-! ## A018036.P2184198145137493094
+
+`A018038(n)-A102283(n²)`
+-/
+
+namespace A018036.P2184198145137493094
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018038 n - A102283 (n ^ 2)
+
+end
+
+end A018036.P2184198145137493094
+
+namespace A018036
+
+/-- `A018038(n)-A102283(n²)` -/
+def P2184198145137493094.Spec : Prop :=
+  ∀ n, P2184198145137493094.a n = A018036 n
+
+end A018036
+
 /-!
 # A018037: Powers of cube root of 21 rounded to nearest integer.
 
@@ -9887,10 +9939,33 @@ def P8543535688541584733.Spec : Prop :=
 
 end A018039
 
+/-! ## A018039.P11011337086597654329
+
+`A018041(n)-A102283(n²)`
+-/
+
+namespace A018039.P11011337086597654329
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018041 n - A102283 (n ^ 2)
+
+end
+
+end A018039.P11011337086597654329
+
+namespace A018039
+
+/-- `A018041(n)-A102283(n²)` -/
+def P11011337086597654329.Spec : Prop :=
+  ∀ n, P11011337086597654329.a n = A018039 n
+
+end A018039
+
 /-!
 # A018040: Powers of cube root of 22 rounded to nearest integer.
 
-The programs for A018040, the canonical program `A018040.P12584903542677254656` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018040 has offset 0).
+The programs for A018040, the canonical program `A018040.P12584903542677254656` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018040 has offset 0).
 
 The definition of A018040 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9899,7 +9974,7 @@ The definition of A018040 is `conjectured`: the Lean definition is a formula tha
 
 `round(22^(n/3))%A106257(n+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A018040

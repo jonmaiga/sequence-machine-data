@@ -11,6 +11,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -23,16 +24,20 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,20 +45,22 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -65,6 +72,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,8 +96,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3340,6 +3347,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035436.P17355561940192160376
+
+/-! ## A035436.P13039402049683914388
+
+`A029290(A187829(n+1))`
+-/
+
+namespace A035436.P13039402049683914388
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029290 (A187829 (n + 1)).toNat
+
+end
+
+end A035436.P13039402049683914388
 
 /-!
 # A035437: Number of partitions of n into parts 7k+3 or 7k+6.
@@ -6683,7 +6705,7 @@ end A035468.P1025723763679699414
 /-!
 # A035469: Triangle read by rows, the Bell transform of the triple factorial numbers A007559(n+1) without column 0.
 
-The programs for A035469, the canonical program `A035469.P4946721225458458436` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035469 has offset 1).
+The programs for A035469, the canonical program `A035469.P4946721225458458436` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035469 has offset 1).
 
 The definition of A035469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1092 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6692,7 +6714,7 @@ The definition of A035469 is `conjectured`: the Lean definition is a formula tha
 
 `T(n-1,k-1)+(3*row(n)+col(n)+1)*T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A035469
@@ -6839,16 +6861,39 @@ end A035470.P12604210035742917094
 /-!
 # A035471: Coordination sequence for lattice D*_4 (with edges defined by l_1 norm = 1).
 
-The programs for A035471, the canonical program `A035471.P11443095032712327449` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035471 has offset 0).
+The programs for A035471, the canonical program `A035471.P11443095032712327449` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035471 has offset 0).
 
 The definition of A035471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A035471.P3035203265585696088
+
+`ogf((1+4x+22x^2+4x^3+x^4)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A035471.P3035203265585696088
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 22, 4, 1] [1, -4, 6, -4, 1] n
+
+end
+
+end A035471.P3035203265585696088
+
+namespace A035471
+
+/-- `ogf((1+4x+22x^2+4x^3+x^4)/(1-4x+6x^2-4x^3+x^4))` -/
+def P3035203265585696088.Spec : Prop :=
+  ∀ n, P3035203265585696088.a n = A035471 n
+
+end A035471
 
 /-! ## A035471.P11443095032712327449
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=8, a(2)=48, a(3)=152, a(4)=352`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A035471
@@ -7263,55 +7308,59 @@ def P14290892240512474593.Spec : Prop :=
 
 end A035471
 
-/-! ## A035471.P11303475300179009428
-
-`A103290(2*n+1)+A000007(n)-A103290(2*n)`
--/
-
-namespace A035471.P11303475300179009428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103290 (2 * n + 1) + (A000007 n - A103290 (2 * n))
-
-end
-
-end A035471.P11303475300179009428
-
-namespace A035471
-
-/-- `A103290(2*n+1)+A000007(n)-A103290(2*n)` -/
-def P11303475300179009428.Spec : Prop :=
-  ∀ n, P11303475300179009428.a n = A035471 n
-
-end A035471
-
 /-!
 # A035472: Coordination sequence for lattice D*_6 (with edges defined by l_1 norm = 1).
 
-The programs for A035472, there is no canonical definition to state claims against.
+The programs for A035472, the canonical program `A035472.P2704380375565114234` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035472 has offset 0).
+
+The definition of A035472 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A035472.P3267402834318188733
+/-! ## A035472.P2704380375565114234
 
-`A130347(A008000(n)²)`
+`ogf((1+6x+15x^2+84x^3+15x^4+6x^5+x^6)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
-namespace A035472.P3267402834318188733
-noncomputable section
+namespace A035472
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130347 (A008000 n ^ 2).toNat
+/-- `ogf((1+6x+15x^2+84x^3+15x^4+6x^5+x^6)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))` -/
+def P2704380375565114234.Spec : Prop :=
+  ∀ n, P2704380375565114234.a n = A035472 n
 
-end
+theorem P2704380375565114234.correct : P2704380375565114234.Spec := by
+  intro n
+  simp only [A035472]
 
-end A035472.P3267402834318188733
+end A035472
 
 /-!
 # A035473: Coordination sequence for lattice D*_8 (with edges defined by l_1 norm = 1).
 
-The programs for A035473, there is no canonical definition to state claims against.
+The programs for A035473, the canonical program `A035473.P5108328577916297162` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035473 has offset 0).
+
+The definition of A035473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A035473.P5108328577916297162
+
+`ogf((1+8x+28x^2+56x^3+326x^4+56x^5+28x^6+8x^7+x^8)/(1-8x+28x^2-56x^3+70x^4-56x^5+28x^6-8x^7+x^8))`
+
+The canonical program, it is in `Seq.B000.C007`.
+-/
+
+namespace A035473
+
+/-- `ogf((1+8x+28x^2+56x^3+326x^4+56x^5+28x^6+8x^7+x^8)/(1-8x+28x^2-56x^3+70x^4-56x^5+28x^6-8x^7+x^8))` -/
+def P5108328577916297162.Spec : Prop :=
+  ∀ n, P5108328577916297162.a n = A035473 n
+
+theorem P5108328577916297162.correct : P5108328577916297162.Spec := by
+  intro n
+  simp only [A035473]
+
+end A035473
 
 /-! ## A035473.P2039452130248125514
 
@@ -7328,6 +7377,14 @@ end
 
 end A035473.P2039452130248125514
 
+namespace A035473
+
+/-- `2*A045651(n)-A008416(n)` -/
+def P2039452130248125514.Spec : Prop :=
+  ∀ n, P2039452130248125514.a n = A035473 n
+
+end A035473
+
 /-! ## A035473.P6007239659828631213
 
 `A045651(n)+A010369(n)%A008416(n)`
@@ -7342,6 +7399,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035473.P6007239659828631213
+
+namespace A035473
+
+/-- `A045651(n)+A010369(n)%A008416(n)` -/
+def P6007239659828631213.Spec : Prop :=
+  ∀ n, P6007239659828631213.a n = A035473 n
+
+end A035473
 
 /-!
 # A035475: Coordination sequence for lattice D*_12 (with edges defined by l_1 norm = 1).
@@ -7568,20 +7633,23 @@ end A035478.P11262202626254209591
 The programs for A035480, there is no canonical definition to state claims against.
 -/
 
-/-! ## A035480.P7824807899811224224
+/-! ## A035480.P2148406134401993130
 
-`A007621(A157334(2*(n+2))+n+1)`
+`filter[A237287(n+1), A210455(#)]`
 -/
 
-namespace A035480.P7824807899811224224
+namespace A035480.P2148406134401993130
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237287 (n + 1)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007621 (A157334 (2 * (n + 2)) + (n + 1 : ℤ)).toNat
+  f1 (SequenceMachineLib.nth (fun j => A210455 (f1 j).toNat = 1) n)
 
 end
 
-end A035480.P7824807899811224224
+end A035480.P2148406134401993130
 
 /-! ## A035480.P8484687651313755173
 
@@ -7748,6 +7816,21 @@ end
 
 end A035482.P1391507941993733558
 
+/-! ## A035482.P5014207925008717905
+
+`n!*A035481(n)`
+-/
+
+namespace A035482.P5014207925008717905
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℤ) * A035481 n
+
+end
+
+end A035482.P5014207925008717905
+
 /-! ## A035482.P8953920107653491308
 
 `A000142(n)*A035481(n)`
@@ -7792,24 +7875,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035482.P10262863874432964552
-
-/-! ## A035482.P9923903180121239731
-
-`∏{d}[floor(2^(n-1)), A000005(#)]*A035481(n)`
--/
-
-namespace A035482.P9923903180121239731
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∏ d ∈ Nat.divisors (f1 n).natAbs, A000005 d) * A035481 n
-
-end
-
-end A035482.P9923903180121239731
 
 /-!
 # A035483: Number of 2n X 2n symmetric matrices whose first row is 1..2n and whose rows and columns are all permutations of 1..2n.
@@ -9380,7 +9445,7 @@ end A035491.P9930220565623886372
 /-!
 # A035492: Position of card 1 after n-th shuffle in Guy's shuffling problem (A035485).
 
-The programs for A035492, the canonical program `A035492.P4305810262129971172` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035492 has offset 0).
+The programs for A035492, the canonical program `A035492.P4305810262129971172` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035492 has offset 0).
 
 The definition of A035492 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9389,7 +9454,7 @@ The definition of A035492 is `conjectured`: the Lean definition is a formula tha
 
 `(2*a(n-1))%Δ[n²]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A035492

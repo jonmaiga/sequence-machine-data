@@ -3,26 +3,32 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C033
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -32,12 +38,10 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -67,7 +71,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A147400: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1000-1110-0111-0001 pattern in any orientation.
@@ -403,6 +406,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A147408.P3291582296252395436
+
+/-! ## A147408.P5727595429319605955
+
+`A084616(A068042(n+1))`
+-/
+
+namespace A147408.P5727595429319605955
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084616 (A068042 (n + 1)).toNat
+
+end
+
+end A147408.P5727595429319605955
 
 /-!
 # A147409: Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 1001-1001-1111 pattern in any orientation.
@@ -2286,21 +2304,6 @@ end A147450.P17145736128622382939
 The programs for A147451, there is no canonical definition to state claims against.
 -/
 
-/-! ## A147451.P3640549702221881984
-
-`A086434(A323352(n+1))`
--/
-
-namespace A147451.P3640549702221881984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086434 (A323352 (n + 1)).toNat
-
-end
-
-end A147451.P3640549702221881984
-
 /-! ## A147451.P9980485086033814256
 
 `A147112(2*(n+3))+1-A147106(n+1)`
@@ -2315,21 +2318,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A147451.P9980485086033814256
-
-/-! ## A147451.P9463585671734467898
-
-`or(A000322(n), A345167(A000322(n)))`
--/
-
-namespace A147451.P9463585671734467898
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000322 n) (A345167 (A000322 n).toNat)
-
-end
-
-end A147451.P9463585671734467898
 
 /-! ## A147451.P6829806375737119578
 

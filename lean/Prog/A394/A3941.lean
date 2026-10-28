@@ -5,29 +5,36 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C018
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -35,14 +42,13 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B003.C006
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -55,6 +61,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -67,7 +74,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A394110: a(n) = binomial(3*n, n)*(7*n+3)/((n+1)*(2*n+1)).
@@ -334,41 +340,26 @@ end
 
 end A394112.P7582498751835381020
 
-/-! ## A394112.P3611526766598584919
+/-! ## A394112.P14773723183590566751
 
-`A187188(A316983(2*n+3)+A001690(n+5))`
+`A007852(n+1)+A000108(n)`
 -/
 
-namespace A394112.P3611526766598584919
+namespace A394112.P14773723183590566751
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187188 (A316983 (2 * n + 3) + A001690 (n + 5)).toNat
+  A007852 (n + 1) + A000108 n
 
 end
 
-end A394112.P3611526766598584919
+end A394112.P14773723183590566751
 
 /-!
 # A394113: G.f. A(x) satisfies A(x)^4-(x+1)*A(x)^3+4*x*A(x)^2-(x^2+x)*A(x)+x^2=0.
 
 The programs for A394113, there is no canonical definition to state claims against.
 -/
-
-/-! ## A394113.P3574949693929081171
-
-`A241086(A264938(n))`
--/
-
-namespace A394113.P3574949693929081171
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241086 (A264938 n).toNat
-
-end
-
-end A394113.P3574949693929081171
 
 /-! ## A394113.P1756961717409866001
 
@@ -510,6 +501,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394116.P12852760342205801006
+
+/-!
+# A394117: G.f. A(x) satisfies A(x)^5+(2x-2)*A(x)^4+A(x)^3+(4x^2-2x)*A(x)^2+x^3=0.
+
+The programs for A394117, there is no canonical definition to state claims against.
+-/
+
+/-! ## A394117.P6581535355261141326
+
+`A283827(n²+n+1)`
+-/
+
+namespace A394117.P6581535355261141326
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283827 (n ^ 2 + (n + 1))
+
+end
+
+end A394117.P6581535355261141326
+
+/-! ## A394117.P10682256928461679081
+
+`eq[A076228(n+1), A336350(n)]`
+-/
+
+namespace A394117.P10682256928461679081
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076228 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336350 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A394117.P10682256928461679081
 
 /-!
 # A394118: G.f. A(x) satisfies A(x)^5-2*A(x)^4+(4x+1)*A(x)^3-5x*A(x)^2+(2x^2+x)*A(x)-x^2=0.
@@ -768,27 +801,6 @@ end
 end A394125.P18353427324747340784
 
 /-!
-# A394126: G.f. A(x) satisfies A(x)^6-3*A(x)^5+(x+3)*A(x)^4-(4x+1)*A(x)^3+4x*A(x)^2-x*A(x)+x^2=0.
-
-The programs for A394126, there is no canonical definition to state claims against.
--/
-
-/-! ## A394126.P14558376406293175627
-
-`A398724(A389614(n))`
--/
-
-namespace A394126.P14558376406293175627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A398724 (A389614 n).toNat
-
-end
-
-end A394126.P14558376406293175627
-
-/-!
 # A394127: G.f. A(x) satisfies A(x)^3+(x-2)*A(x)^2+(1-x)*A(x)+x^2-x=0.
 
 The programs for A394127, there is no canonical definition to state claims against.
@@ -1016,21 +1028,6 @@ end
 
 end A394134.P3056336080098455871
 
-/-! ## A394134.P12524861780896762950
-
-`A373067(A008227(n))`
--/
-
-namespace A394134.P12524861780896762950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373067 (A008227 n).toNat
-
-end
-
-end A394134.P12524861780896762950
-
 /-!
 # A394135: G.f. A(x) satisfies A(x)^4-2*A(x)^3+(1-4x)*A(x)^2-x^2=0.
 
@@ -1205,21 +1202,6 @@ end A394140.P18180345867558098820
 The programs for A394142, there is no canonical definition to state claims against.
 -/
 
-/-! ## A394142.P11653327613611206039
-
-`A241085(A397985(n))`
--/
-
-namespace A394142.P11653327613611206039
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241085 (A397985 n).toNat
-
-end
-
-end A394142.P11653327613611206039
-
 /-! ## A394142.P1457641034736861268
 
 `Δ[A001462(A275557(n))]`
@@ -1237,6 +1219,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394142.P1457641034736861268
+
+/-! ## A394142.P736453375319208288
+
+`A230493(A026375(n+1))`
+-/
+
+namespace A394142.P736453375319208288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230493 (A026375 (n + 1)).toNat
+
+end
+
+end A394142.P736453375319208288
 
 /-!
 # A394144: G.f. A(x) satisfies (1-x)*A(x)^4+x*A(x)^3+(4x^2-2x)*A(x)^2+x^2*A(x)+x^3=0.
@@ -1465,21 +1462,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394150.P210480388818252743
-
-/-! ## A394150.P11094785241362344558
-
-`A000254(n)-A333762(A001997(n))`
--/
-
-namespace A394150.P11094785241362344558
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000254 n - A333762 (A001997 n).toNat
-
-end
-
-end A394150.P11094785241362344558
 
 /-!
 # A394151: G.f. A(x) satisfies A(x)^6-2*A(x)^5+(2x+1)*A(x)^4-3x*A(x)^3+5x^2*A(x)^2-x^2*A(x)+x^3=0.
@@ -2261,7 +2243,7 @@ end A394184.P7807933196343926219
 /-!
 # A394185: a(n) = n^3/6 + 3*n^2 + 41*n/6 + 3.
 
-The programs for A394185, the canonical program `A394185.P5619514107203186845` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394185 has offset 0).
+The programs for A394185, the canonical program `A394185.P5619514107203186845` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394185 has offset 0).
 
 The definition of A394185 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A394185.anchor (n : ℕ) : (A394185 n : ℚ) = (n ^ 3 : ℚ) / 6 + (3 * n ^ 2 : ℚ) + (41 * n : ℚ) / 6 + 3` in `Proof.A394.A394185`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2270,7 +2252,7 @@ The definition of A394185 is `verified`: an anchor theorem with a hand-written p
 
 `n^3/6+3*n²+41*n/6+3`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A394185
@@ -2652,16 +2634,39 @@ end A394189.P4073816807277723653
 /-!
 # A394192: a(n) = n^3 - n^2 + 5*n + 2.
 
-The programs for A394192, the canonical program `A394192.P9267180659231015820` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394192 has offset 0).
+The programs for A394192, the canonical program `A394192.P9267180659231015820` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394192 has offset 0).
 
 The definition of A394192 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^3-n²+5*n+2` (program `A394192.P9267180659231015820`, by `A394192.P9267180659231015820.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A394192.P10039327950935959151
+
+`ogf((2-x+5x^3)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A394192.P10039327950935959151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -1, 0, 5] [1, -4, 6, -4, 1] n
+
+end
+
+end A394192.P10039327950935959151
+
+namespace A394192
+
+/-- `ogf((2-x+5x^3)/(1-4x+6x^2-4x^3+x^4))` -/
+def P10039327950935959151.Spec : Prop :=
+  ∀ n, P10039327950935959151.a n = A394192 n
+
+end A394192
 
 /-! ## A394192.P9267180659231015820
 
 `n^3-n²+5*n+2`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A394192

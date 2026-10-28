@@ -7,31 +7,31 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C025
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -59,7 +59,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A155300: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 4,2 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.

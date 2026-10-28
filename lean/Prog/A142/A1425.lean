@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -30,6 +29,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -38,7 +38,12 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,6 +56,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -61,19 +67,21 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,11 +101,11 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -106,7 +114,7 @@ set_option linter.unreachableTactic false
 /-!
 # A142500: Primes congruent to 40 mod 51.
 
-The programs for A142500, the canonical program `A142500.P7476568207579945483` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142500 has offset 1).
+The programs for A142500, the canonical program `A142500.P7476568207579945483` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142500 has offset 1).
 
 The definition of A142500 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142500.anchor (n : ℕ) (hn : 1 ≤ n) : A142500 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 40) (n - 1) : ℤ)` in `Proof.A142.A142500`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -115,7 +123,7 @@ The definition of A142500 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-11]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142500
@@ -452,6 +460,36 @@ def P3214128871776637095.Spec : Prop :=
 
 end A142500
 
+/-! ## A142500.P12692054853617605103
+
+`∩[A140545(n+1), A354936(n+1)]`
+-/
+
+namespace A142500.P12692054853617605103
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140545 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354936 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142500.P12692054853617605103
+
+namespace A142500
+
+/-- `∩[A140545(n+1), A354936(n+1)]` -/
+def P12692054853617605103.Spec : Prop :=
+  ∀ n, (P12692054853617605103.a n : ℤ) = A142500 (n + 1)
+
+end A142500
+
 /-! ## A142500.P14668642669924503660
 
 `∩[A137827(n+1), A140545(n+1)]`
@@ -665,7 +703,7 @@ end A142500
 /-!
 # A142501: Primes congruent to 41 mod 51.
 
-The programs for A142501, the canonical program `A142501.P7513274774437985626` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142501 has offset 1).
+The programs for A142501, the canonical program `A142501.P7513274774437985626` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142501 has offset 1).
 
 The definition of A142501 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142501.anchor (n : ℕ) (hn : 1 ≤ n) : A142501 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 41) (n - 1) : ℤ)` in `Proof.A142.A142501`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -674,7 +712,7 @@ The definition of A142501 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-10]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142501
@@ -1254,7 +1292,7 @@ end A142501
 /-!
 # A142502: Primes congruent to 43 mod 51.
 
-The programs for A142502, the canonical program `A142502.P2963416091824763281` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142502 has offset 1).
+The programs for A142502, the canonical program `A142502.P2963416091824763281` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142502 has offset 1).
 
 The definition of A142502 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142502.anchor (n : ℕ) (hn : 1 ≤ n) : A142502 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 43) (n - 1) : ℤ)` in `Proof.A142.A142502`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1263,7 +1301,7 @@ The definition of A142502 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-8]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142502
@@ -1604,6 +1642,36 @@ def P5780664857994647129.Spec : Prop :=
 
 end A142502
 
+/-! ## A142502.P11901201770414551628
+
+`∩[A138631(n+1), A354936(n+1)]`
+-/
+
+namespace A142502.P11901201770414551628
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138631 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354936 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142502.P11901201770414551628
+
+namespace A142502
+
+/-- `∩[A138631(n+1), A354936(n+1)]` -/
+def P11901201770414551628.Spec : Prop :=
+  ∀ n, (P11901201770414551628.a n : ℤ) = A142502 (n + 1)
+
+end A142502
+
 /-! ## A142502.P5281272141262811897
 
 `∩[A137827(n+1), A138631(n+1)]`
@@ -1814,40 +1882,10 @@ def P14124328409050397402.Spec : Prop :=
 
 end A142502
 
-/-! ## A142502.P1021589089573107614
-
-`∩[A279815(n+1), A154612(n)+2]`
--/
-
-namespace A142502.P1021589089573107614
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279815 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154612 n + 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A142502.P1021589089573107614
-
-namespace A142502
-
-/-- `∩[A279815(n+1), A154612(n)+2]` -/
-def P1021589089573107614.Spec : Prop :=
-  ∀ n, (P1021589089573107614.a n : ℤ) = A142502 (n + 1)
-
-end A142502
-
 /-!
 # A142503: Primes congruent to 44 mod 51.
 
-The programs for A142503, the canonical program `A142503.P714404954567768703` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142503 has offset 1).
+The programs for A142503, the canonical program `A142503.P714404954567768703` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142503 has offset 1).
 
 The definition of A142503 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142503.anchor (n : ℕ) (hn : 1 ≤ n) : A142503 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 44) (n - 1) : ℤ)` in `Proof.A142.A142503`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1856,7 +1894,7 @@ The definition of A142503 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-7]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142503
@@ -2424,7 +2462,7 @@ end A142503
 /-!
 # A142504: Primes congruent to 46 mod 51.
 
-The programs for A142504, the canonical program `A142504.P16442748406109015156` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142504 has offset 1).
+The programs for A142504, the canonical program `A142504.P16442748406109015156` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142504 has offset 1).
 
 The definition of A142504 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142504.anchor (n : ℕ) (hn : 1 ≤ n) : A142504 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 46) (n - 1) : ℤ)` in `Proof.A142.A142504`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2433,7 +2471,7 @@ The definition of A142504 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-5]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142504
@@ -2774,6 +2812,36 @@ def P15042394258830715676.Spec : Prop :=
 
 end A142504
 
+/-! ## A142504.P7855169438452155423
+
+`∩[A138625(n+1), A354936(n+1)]`
+-/
+
+namespace A142504.P7855169438452155423
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354936 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142504.P7855169438452155423
+
+namespace A142504
+
+/-- `∩[A138625(n+1), A354936(n+1)]` -/
+def P7855169438452155423.Spec : Prop :=
+  ∀ n, (P7855169438452155423.a n : ℤ) = A142504 (n + 1)
+
+end A142504
+
 /-! ## A142504.P10502636075025468078
 
 `∩[A138625(n+1), A374135(n+1)]`
@@ -2980,36 +3048,10 @@ def P13546052176695231352.Spec : Prop :=
 
 end A142504
 
-/-! ## A142504.P11028960304460344080
-
-`record[A020639(4*n+98*n+97)]`
--/
-
-namespace A142504.P11028960304460344080
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (4 * n + (98 * n + 97))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A142504.P11028960304460344080
-
-namespace A142504
-
-/-- `record[A020639(4*n+98*n+97)]` -/
-def P11028960304460344080.Spec : Prop :=
-  ∀ n, P11028960304460344080.a n = A142504 (n + 1)
-
-end A142504
-
 /-!
 # A142505: Primes congruent to 47 mod 51.
 
-The programs for A142505, the canonical program `A142505.P12520781874869629303` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142505 has offset 1).
+The programs for A142505, the canonical program `A142505.P12520781874869629303` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142505 has offset 1).
 
 The definition of A142505 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142505.anchor (n : ℕ) (hn : 1 ≤ n) : A142505 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 47) (n - 1) : ℤ)` in `Proof.A142.A142505`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3018,7 +3060,7 @@ The definition of A142505 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-4]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142505
@@ -3598,7 +3640,7 @@ end A142505
 /-!
 # A142506: Primes congruent to 49 mod 51.
 
-The programs for A142506, the canonical program `A142506.P5353581045395565899` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142506 has offset 1).
+The programs for A142506, the canonical program `A142506.P5353581045395565899` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142506 has offset 1).
 
 The definition of A142506 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142506.anchor (n : ℕ) (hn : 1 ≤ n) : A142506 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 49) (n - 1) : ℤ)` in `Proof.A142.A142506`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3607,7 +3649,7 @@ The definition of A142506 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-2]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142506
@@ -3974,6 +4016,36 @@ def P3636767288274821931.Spec : Prop :=
 
 end A142506
 
+/-! ## A142506.P2558846756160951441
+
+`∩[A140543(n+1), A354936(n+1)]`
+-/
+
+namespace A142506.P2558846756160951441
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140543 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354936 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142506.P2558846756160951441
+
+namespace A142506
+
+/-- `∩[A140543(n+1), A354936(n+1)]` -/
+def P2558846756160951441.Spec : Prop :=
+  ∀ n, (P2558846756160951441.a n : ℤ) = A142506 (n + 1)
+
+end A142506
+
 /-! ## A142506.P5524560997954938036
 
 `∩[A137827(n+1), A140543(n+1)]`
@@ -4150,40 +4222,10 @@ def P10054987600021978579.Spec : Prop :=
 
 end A142506
 
-/-! ## A142506.P3285672457641462286
-
-`∩[A004611(n+1), A140543(n+1)]`
--/
-
-namespace A142506.P3285672457641462286
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004611 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140543 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A142506.P3285672457641462286
-
-namespace A142506
-
-/-- `∩[A004611(n+1), A140543(n+1)]` -/
-def P3285672457641462286.Spec : Prop :=
-  ∀ n, (P3285672457641462286.a n : ℤ) = A142506 (n + 1)
-
-end A142506
-
 /-!
 # A142507: Primes congruent to 50 mod 51.
 
-The programs for A142507, the canonical program `A142507.P7060105591973240231` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142507 has offset 1).
+The programs for A142507, the canonical program `A142507.P7060105591973240231` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142507 has offset 1).
 
 The definition of A142507 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142507.anchor (n : ℕ) (hn : 1 ≤ n) : A142507 n = (Nat.nth (fun p => p.Prime ∧ p % 51 = 50) (n - 1) : ℤ)` in `Proof.A142.A142507`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4192,7 +4234,7 @@ The definition of A142507 is `verified`: an anchor theorem with a hand-written p
 
 `p?[51*n-1]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142507
@@ -4713,10 +4755,40 @@ def P474577274728325118.Spec : Prop :=
 
 end A142507
 
+/-! ## A142507.P14065341683797454380
+
+`∩[A082406(n+1), A140541(n+1)]`
+-/
+
+namespace A142507.P14065341683797454380
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082406 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140541 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142507.P14065341683797454380
+
+namespace A142507
+
+/-- `∩[A082406(n+1), A140541(n+1)]` -/
+def P14065341683797454380.Spec : Prop :=
+  ∀ n, (P14065341683797454380.a n : ℤ) = A142507 (n + 1)
+
+end A142507
+
 /-!
 # A142508: Primes congruent to 1 mod 52.
 
-The programs for A142508, the canonical program `A142508.P10837616515559294826` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142508 has offset 1).
+The programs for A142508, the canonical program `A142508.P10837616515559294826` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142508 has offset 1).
 
 The definition of A142508 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142508.anchor (n : ℕ) (hn : 1 ≤ n) : A142508 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 1) (n - 1) : ℤ)` in `Proof.A142.A142508`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4725,7 +4797,7 @@ The definition of A142508 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+1]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142508
@@ -5209,6 +5281,96 @@ namespace A142508
 /-- `∩[A125018(n+1), A268753(n+1)]` -/
 def P5779046107645330568.Spec : Prop :=
   ∀ n, (P5779046107645330568.a n : ℤ) = A142508 (n + 1)
+
+end A142508
+
+/-! ## A142508.P13997871885314768916
+
+`∩[A230779(n+1), A268753(n+1)]`
+-/
+
+namespace A142508.P13997871885314768916
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230779 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268753 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142508.P13997871885314768916
+
+namespace A142508
+
+/-- `∩[A230779(n+1), A268753(n+1)]` -/
+def P13997871885314768916.Spec : Prop :=
+  ∀ n, (P13997871885314768916.a n : ℤ) = A142508 (n + 1)
+
+end A142508
+
+/-! ## A142508.P18007776940930391929
+
+`∩[A268753(n+1), A281292(n+1)]`
+-/
+
+namespace A142508.P18007776940930391929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268753 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281292 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142508.P18007776940930391929
+
+namespace A142508
+
+/-- `∩[A268753(n+1), A281292(n+1)]` -/
+def P18007776940930391929.Spec : Prop :=
+  ∀ n, (P18007776940930391929.a n : ℤ) = A142508 (n + 1)
+
+end A142508
+
+/-! ## A142508.P10715985167716467299
+
+`∩[A224450(n+1), A268753(n+1)]`
+-/
+
+namespace A142508.P10715985167716467299
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224450 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268753 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142508.P10715985167716467299
+
+namespace A142508
+
+/-- `∩[A224450(n+1), A268753(n+1)]` -/
+def P10715985167716467299.Spec : Prop :=
+  ∀ n, (P10715985167716467299.a n : ℤ) = A142508 (n + 1)
 
 end A142508
 
@@ -5804,7 +5966,7 @@ end A142509
 /-!
 # A142510: Primes congruent to 5 mod 52.
 
-The programs for A142510, the canonical program `A142510.P15793601626251418668` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142510 has offset 1).
+The programs for A142510, the canonical program `A142510.P15793601626251418668` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142510 has offset 1).
 
 The definition of A142510 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142510.anchor (n : ℕ) (hn : 1 ≤ n) : A142510 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 5) (n - 1) : ℤ)` in `Proof.A142.A142510`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5813,7 +5975,7 @@ The definition of A142510 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+5]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142510
@@ -6296,10 +6458,100 @@ def P1626412287747230656.Spec : Prop :=
 
 end A142510
 
+/-! ## A142510.P18152078996327979173
+
+`∩[A002144(n+1), A154609(n)]`
+-/
+
+namespace A142510.P18152078996327979173
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002144 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154609 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142510.P18152078996327979173
+
+namespace A142510
+
+/-- `∩[A002144(n+1), A154609(n)]` -/
+def P18152078996327979173.Spec : Prop :=
+  ∀ n, (P18152078996327979173.a n : ℤ) = A142510 (n + 1)
+
+end A142510
+
+/-! ## A142510.P7368793813231508934
+
+`∩[A002313(n+1), A154609(n)]`
+-/
+
+namespace A142510.P7368793813231508934
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002313 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154609 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142510.P7368793813231508934
+
+namespace A142510
+
+/-- `∩[A002313(n+1), A154609(n)]` -/
+def P7368793813231508934.Spec : Prop :=
+  ∀ n, (P7368793813231508934.a n : ℤ) = A142510 (n + 1)
+
+end A142510
+
+/-! ## A142510.P14738848618795008926
+
+`∩[A055025(n+1), A154609(n)]`
+-/
+
+namespace A142510.P14738848618795008926
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154609 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142510.P14738848618795008926
+
+namespace A142510
+
+/-- `∩[A055025(n+1), A154609(n)]` -/
+def P14738848618795008926.Spec : Prop :=
+  ∀ n, (P14738848618795008926.a n : ℤ) = A142510 (n + 1)
+
+end A142510
+
 /-!
 # A142511: Primes congruent to 7 mod 52.
 
-The programs for A142511, the canonical program `A142511.P4190831569276020721` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142511 has offset 1).
+The programs for A142511, the canonical program `A142511.P4190831569276020721` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142511 has offset 1).
 
 The definition of A142511 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142511.anchor (n : ℕ) (hn : 1 ≤ n) : A142511 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 7) (n - 1) : ℤ)` in `Proof.A142.A142511`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6308,7 +6560,7 @@ The definition of A142511 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+7]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142511
@@ -6896,7 +7148,7 @@ end A142511
 /-!
 # A142512: Primes congruent to 9 mod 52.
 
-The programs for A142512, the canonical program `A142512.P8180680481272329230` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142512 has offset 1).
+The programs for A142512, the canonical program `A142512.P8180680481272329230` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142512 has offset 1).
 
 The definition of A142512 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142512.anchor (n : ℕ) (hn : 1 ≤ n) : A142512 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 9) (n - 1) : ℤ)` in `Proof.A142.A142512`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6905,7 +7157,7 @@ The definition of A142512 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+9]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142512
@@ -7485,7 +7737,7 @@ end A142512
 /-!
 # A142513: Primes congruent to 11 mod 52.
 
-The programs for A142513, the canonical program `A142513.P12294925522220628780` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142513 has offset 1).
+The programs for A142513, the canonical program `A142513.P12294925522220628780` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142513 has offset 1).
 
 The definition of A142513 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142513.anchor (n : ℕ) (hn : 1 ≤ n) : A142513 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 11) (n - 1) : ℤ)` in `Proof.A142.A142513`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7494,7 +7746,7 @@ The definition of A142513 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+11]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142513
@@ -8078,7 +8330,7 @@ end A142513
 /-!
 # A142514: Primes congruent to 15 mod 52.
 
-The programs for A142514, the canonical program `A142514.P336309929502532069` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142514 has offset 1).
+The programs for A142514, the canonical program `A142514.P336309929502532069` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142514 has offset 1).
 
 The definition of A142514 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142514.anchor (n : ℕ) (hn : 1 ≤ n) : A142514 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 15) (n - 1) : ℤ)` in `Proof.A142.A142514`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8087,7 +8339,7 @@ The definition of A142514 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+15]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142514
@@ -9260,7 +9512,7 @@ end A142515
 /-!
 # A142516: Primes congruent to 19 mod 52.
 
-The programs for A142516, the canonical program `A142516.P4987968122826076168` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142516 has offset 1).
+The programs for A142516, the canonical program `A142516.P4987968122826076168` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142516 has offset 1).
 
 The definition of A142516 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142516.anchor (n : ℕ) (hn : 1 ≤ n) : A142516 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 19) (n - 1) : ℤ)` in `Proof.A142.A142516`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9269,7 +9521,7 @@ The definition of A142516 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-33]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142516
@@ -10442,7 +10694,7 @@ end A142517
 /-!
 # A142518: Primes congruent to 23 mod 52.
 
-The programs for A142518, the canonical program `A142518.P4932496381653817914` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142518 has offset 1).
+The programs for A142518, the canonical program `A142518.P4932496381653817914` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142518 has offset 1).
 
 The definition of A142518 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142518.anchor (n : ℕ) (hn : 1 ≤ n) : A142518 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 23) (n - 1) : ℤ)` in `Proof.A142.A142518`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10451,7 +10703,7 @@ The definition of A142518 is `verified`: an anchor theorem with a hand-written p
 
 `p?[4*13*n+23]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142518
@@ -11027,7 +11279,7 @@ end A142518
 /-!
 # A142519: Primes congruent to 25 mod 52.
 
-The programs for A142519, the canonical program `A142519.P13521085752232109429` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142519 has offset 1).
+The programs for A142519, the canonical program `A142519.P13521085752232109429` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142519 has offset 1).
 
 The definition of A142519 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142519.anchor (n : ℕ) (hn : 1 ≤ n) : A142519 n = (Nat.nth (fun p => p.Prime ∧ p % 52 ∈ ({25} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A142.A142519`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11036,7 +11288,7 @@ The definition of A142519 is `verified`: an anchor theorem with a hand-written p
 
 `p?[a(n-1)+52]` with `a(0)=25`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142519
@@ -11612,7 +11864,7 @@ end A142519
 /-!
 # A142520: Primes congruent to 27 mod 52.
 
-The programs for A142520, the canonical program `A142520.P15613139593981992254` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142520 has offset 1).
+The programs for A142520, the canonical program `A142520.P15613139593981992254` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142520 has offset 1).
 
 The definition of A142520 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142520.anchor (n : ℕ) (hn : 1 ≤ n) : A142520 n = (Nat.nth (fun p => p.Prime ∧ p % 52 ∈ ({27} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A142.A142520`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11621,7 +11873,7 @@ The definition of A142520 is `verified`: an anchor theorem with a hand-written p
 
 `p?[a(n-1)+52]` with `a(0)=27`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142520
@@ -12139,6 +12391,32 @@ namespace A142520
 /-- `∩[A094179(n+1), A268753(n+1)]` -/
 def P17568279425217386055.Spec : Prop :=
   ∀ n, (P17568279425217386055.a n : ℤ) = A142520 (n + 1)
+
+end A142520
+
+/-! ## A142520.P9005054066731024090
+
+`filter[A268753(n+1), A359152(#)]`
+-/
+
+namespace A142520.P9005054066731024090
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268753 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359152 (f1 j).toNat = 1) n)
+
+end
+
+end A142520.P9005054066731024090
+
+namespace A142520
+
+/-- `filter[A268753(n+1), A359152(#)]` -/
+def P9005054066731024090.Spec : Prop :=
+  ∀ n, P9005054066731024090.a n = A142520 (n + 1)
 
 end A142520
 
@@ -12738,7 +13016,7 @@ end A142521
 /-!
 # A142522: Primes congruent to 31 mod 52.
 
-The programs for A142522, the canonical program `A142522.P11018006263627097626` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142522 has offset 1).
+The programs for A142522, the canonical program `A142522.P11018006263627097626` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142522 has offset 1).
 
 The definition of A142522 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142522.anchor (n : ℕ) (hn : 1 ≤ n) : A142522 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 31) (n - 1) : ℤ)` in `Proof.A142.A142522`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12747,7 +13025,7 @@ The definition of A142522 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-21]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142522
@@ -13335,7 +13613,7 @@ end A142522
 /-!
 # A142523: Primes congruent to 33 mod 52.
 
-The programs for A142523, the canonical program `A142523.P2913508382872282978` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142523 has offset 1).
+The programs for A142523, the canonical program `A142523.P2913508382872282978` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142523 has offset 1).
 
 The definition of A142523 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142523.anchor (n : ℕ) (hn : 1 ≤ n) : A142523 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 33) (n - 1) : ℤ)` in `Proof.A142.A142523`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13344,7 +13622,7 @@ The definition of A142523 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n+33]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142523
@@ -13932,7 +14210,7 @@ end A142523
 /-!
 # A142524: Primes congruent to 35 mod 52.
 
-The programs for A142524, the canonical program `A142524.P6988949787904789520` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142524 has offset 1).
+The programs for A142524, the canonical program `A142524.P6988949787904789520` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142524 has offset 1).
 
 The definition of A142524 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142524.anchor (n : ℕ) (hn : 1 ≤ n) : A142524 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 35) (n - 1) : ℤ)` in `Proof.A142.A142524`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13941,7 +14219,7 @@ The definition of A142524 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-17]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142524
@@ -14517,7 +14795,7 @@ end A142524
 /-!
 # A142525: Primes congruent to 37 mod 52.
 
-The programs for A142525, the canonical program `A142525.P15563797761922430760` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142525 has offset 1).
+The programs for A142525, the canonical program `A142525.P15563797761922430760` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142525 has offset 1).
 
 The definition of A142525 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142525.anchor (n : ℕ) (hn : 1 ≤ n) : A142525 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 37) (n - 1) : ℤ)` in `Proof.A142.A142525`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14526,7 +14804,7 @@ The definition of A142525 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-15]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142525
@@ -15114,7 +15392,7 @@ end A142525
 /-!
 # A142526: Primes congruent to 41 mod 52.
 
-The programs for A142526, the canonical program `A142526.P4135253918980577179` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142526 has offset 1).
+The programs for A142526, the canonical program `A142526.P4135253918980577179` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142526 has offset 1).
 
 The definition of A142526 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142526.anchor (n : ℕ) (hn : 1 ≤ n) : A142526 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 41) (n - 1) : ℤ)` in `Proof.A142.A142526`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15123,7 +15401,7 @@ The definition of A142526 is `verified`: an anchor theorem with a hand-written p
 
 `p?[2*26*n-11]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142526
@@ -15707,7 +15985,7 @@ end A142526
 /-!
 # A142527: Primes congruent to 43 mod 52.
 
-The programs for A142527, the canonical program `A142527.P5267497133949724872` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142527 has offset 1).
+The programs for A142527, the canonical program `A142527.P5267497133949724872` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142527 has offset 1).
 
 The definition of A142527 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142527.anchor (n : ℕ) (hn : 1 ≤ n) : A142527 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 43) (n - 1) : ℤ)` in `Proof.A142.A142527`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15716,7 +15994,7 @@ The definition of A142527 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-9]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142527
@@ -16296,7 +16574,7 @@ end A142527
 /-!
 # A142528: Primes congruent to 45 mod 52.
 
-The programs for A142528, the canonical program `A142528.P8263013899178342337` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142528 has offset 1).
+The programs for A142528, the canonical program `A142528.P8263013899178342337` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142528 has offset 1).
 
 The definition of A142528 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142528.anchor (n : ℕ) (hn : 1 ≤ n) : A142528 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 45) (n - 1) : ℤ)` in `Proof.A142.A142528`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16305,7 +16583,7 @@ The definition of A142528 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-7]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142528
@@ -16885,7 +17163,7 @@ end A142528
 /-!
 # A142529: Primes congruent to 47 mod 52.
 
-The programs for A142529, the canonical program `A142529.P6649407907332709917` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142529 has offset 1).
+The programs for A142529, the canonical program `A142529.P6649407907332709917` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142529 has offset 1).
 
 The definition of A142529 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142529.anchor (n : ℕ) (hn : 1 ≤ n) : A142529 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 47) (n - 1) : ℤ)` in `Proof.A142.A142529`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16894,7 +17172,7 @@ The definition of A142529 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-5]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142529
@@ -17482,7 +17760,7 @@ end A142529
 /-!
 # A142530: Primes congruent to 49 mod 52.
 
-The programs for A142530, the canonical program `A142530.P11059090855863787082` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142530 has offset 1).
+The programs for A142530, the canonical program `A142530.P11059090855863787082` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142530 has offset 1).
 
 The definition of A142530 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142530.anchor (n : ℕ) (hn : 1 ≤ n) : A142530 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 49) (n - 1) : ℤ)` in `Proof.A142.A142530`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17491,7 +17769,7 @@ The definition of A142530 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-3]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142530
@@ -18067,7 +18345,7 @@ end A142530
 /-!
 # A142531: Primes congruent to 51 mod 52.
 
-The programs for A142531, the canonical program `A142531.P10237233937896600726` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142531 has offset 1).
+The programs for A142531, the canonical program `A142531.P10237233937896600726` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142531 has offset 1).
 
 The definition of A142531 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142531.anchor (n : ℕ) (hn : 1 ≤ n) : A142531 n = (Nat.nth (fun p => p.Prime ∧ p % 52 = 51) (n - 1) : ℤ)` in `Proof.A142.A142531`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18076,7 +18354,7 @@ The definition of A142531 is `verified`: an anchor theorem with a hand-written p
 
 `p?[52*n-1]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142531
@@ -18597,10 +18875,66 @@ def P16568760220817362720.Spec : Prop :=
 
 end A142531
 
+/-! ## A142531.P6053281403503535032
+
+`filter[A141859(n+1), A359152(#)]`
+-/
+
+namespace A142531.P6053281403503535032
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141859 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359152 (f1 j).toNat = 1) n)
+
+end
+
+end A142531.P6053281403503535032
+
+namespace A142531
+
+/-- `filter[A141859(n+1), A359152(#)]` -/
+def P6053281403503535032.Spec : Prop :=
+  ∀ n, P6053281403503535032.a n = A142531 (n + 1)
+
+end A142531
+
+/-! ## A142531.P1102458326345912924
+
+`∩[A141859(n+1), A380787(n+1)]`
+-/
+
+namespace A142531.P1102458326345912924
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141859 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380787 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142531.P1102458326345912924
+
+namespace A142531
+
+/-- `∩[A141859(n+1), A380787(n+1)]` -/
+def P1102458326345912924.Spec : Prop :=
+  ∀ n, (P1102458326345912924.a n : ℤ) = A142531 (n + 1)
+
+end A142531
+
 /-!
 # A142532: Primes congruent to 2 mod 53.
 
-The programs for A142532, the canonical program `A142532.P13946379631833110420` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142532 has offset 1).
+The programs for A142532, the canonical program `A142532.P13946379631833110420` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142532 has offset 1).
 
 The definition of A142532 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142532.anchor (n : ℕ) (hn : 1 ≤ n) : A142532 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 2) (n - 1) : ℤ)` in `Proof.A142.A142532`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18609,7 +18943,7 @@ The definition of A142532 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+2]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142532
@@ -18809,7 +19143,7 @@ end A142532
 /-!
 # A142533: Primes congruent to 3 mod 53.
 
-The programs for A142533, the canonical program `A142533.P16568516609180451398` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142533 has offset 1).
+The programs for A142533, the canonical program `A142533.P16568516609180451398` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142533 has offset 1).
 
 The definition of A142533 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142533.anchor (n : ℕ) (hn : 1 ≤ n) : A142533 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 3) (n - 1) : ℤ)` in `Proof.A142.A142533`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18818,7 +19152,7 @@ The definition of A142533 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+3]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142533
@@ -18992,7 +19326,7 @@ end A142533
 /-!
 # A142534: Primes congruent to 4 mod 53.
 
-The programs for A142534, the canonical program `A142534.P10082379553316276253` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142534 has offset 1).
+The programs for A142534, the canonical program `A142534.P10082379553316276253` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142534 has offset 1).
 
 The definition of A142534 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142534.anchor (n : ℕ) (hn : 1 ≤ n) : A142534 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 4) (n - 1) : ℤ)` in `Proof.A142.A142534`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19001,7 +19335,7 @@ The definition of A142534 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+4]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142534
@@ -19357,7 +19691,7 @@ end A142534
 /-!
 # A142535: Primes congruent to 5 mod 53.
 
-The programs for A142535, the canonical program `A142535.P11369600720982195924` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142535 has offset 1).
+The programs for A142535, the canonical program `A142535.P11369600720982195924` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142535 has offset 1).
 
 The definition of A142535 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142535.anchor (n : ℕ) (hn : 1 ≤ n) : A142535 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 5) (n - 1) : ℤ)` in `Proof.A142.A142535`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19366,7 +19700,7 @@ The definition of A142535 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+5]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142535
@@ -19488,7 +19822,7 @@ end A142535
 /-!
 # A142536: Primes congruent to 6 mod 53.
 
-The programs for A142536, the canonical program `A142536.P6532909762030871676` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142536 has offset 1).
+The programs for A142536, the canonical program `A142536.P6532909762030871676` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142536 has offset 1).
 
 The definition of A142536 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142536.anchor (n : ℕ) (hn : 1 ≤ n) : A142536 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 6) (n - 1) : ℤ)` in `Proof.A142.A142536`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19497,7 +19831,7 @@ The definition of A142536 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+6]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142536
@@ -19593,7 +19927,7 @@ end A142536
 /-!
 # A142537: Primes congruent to 7 mod 53.
 
-The programs for A142537, the canonical program `A142537.P10942053936895890549` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142537 has offset 1).
+The programs for A142537, the canonical program `A142537.P10942053936895890549` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142537 has offset 1).
 
 The definition of A142537 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142537.anchor (n : ℕ) (hn : 1 ≤ n) : A142537 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 7) (n - 1) : ℤ)` in `Proof.A142.A142537`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19602,7 +19936,7 @@ The definition of A142537 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+7]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142537
@@ -19724,7 +20058,7 @@ end A142537
 /-!
 # A142538: Primes congruent to 8 mod 53.
 
-The programs for A142538, the canonical program `A142538.P10793442619171687906` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142538 has offset 1).
+The programs for A142538, the canonical program `A142538.P10793442619171687906` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142538 has offset 1).
 
 The definition of A142538 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142538.anchor (n : ℕ) (hn : 1 ≤ n) : A142538 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 8) (n - 1) : ℤ)` in `Proof.A142.A142538`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19733,7 +20067,7 @@ The definition of A142538 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+8]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142538
@@ -19985,7 +20319,7 @@ end A142538
 /-!
 # A142539: Primes congruent to 9 mod 53.
 
-The programs for A142539, the canonical program `A142539.P11762698342472285005` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142539 has offset 1).
+The programs for A142539, the canonical program `A142539.P11762698342472285005` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142539 has offset 1).
 
 The definition of A142539 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142539.anchor (n : ℕ) (hn : 1 ≤ n) : A142539 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 9) (n - 1) : ℤ)` in `Proof.A142.A142539`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19994,7 +20328,7 @@ The definition of A142539 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+9]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142539
@@ -20272,7 +20606,7 @@ end A142539
 /-!
 # A142540: Primes congruent to 10 mod 53.
 
-The programs for A142540, the canonical program `A142540.P2217964675190997392` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142540 has offset 1).
+The programs for A142540, the canonical program `A142540.P2217964675190997392` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142540 has offset 1).
 
 The definition of A142540 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142540.anchor (n : ℕ) (hn : 1 ≤ n) : A142540 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 10) (n - 1) : ℤ)` in `Proof.A142.A142540`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20281,7 +20615,7 @@ The definition of A142540 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+10]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142540
@@ -20481,7 +20815,7 @@ end A142540
 /-!
 # A142541: Primes congruent to 11 mod 53.
 
-The programs for A142541, the canonical program `A142541.P7515019460399577004` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142541 has offset 1).
+The programs for A142541, the canonical program `A142541.P7515019460399577004` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142541 has offset 1).
 
 The definition of A142541 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142541.anchor (n : ℕ) (hn : 1 ≤ n) : A142541 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 11) (n - 1) : ℤ)` in `Proof.A142.A142541`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20490,7 +20824,7 @@ The definition of A142541 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+11]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142541
@@ -20638,7 +20972,7 @@ end A142541
 /-!
 # A142542: Primes congruent to 12 mod 53.
 
-The programs for A142542, the canonical program `A142542.P533235712252162130` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142542 has offset 1).
+The programs for A142542, the canonical program `A142542.P533235712252162130` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142542 has offset 1).
 
 The definition of A142542 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142542.anchor (n : ℕ) (hn : 1 ≤ n) : A142542 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 12) (n - 1) : ℤ)` in `Proof.A142.A142542`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20647,7 +20981,7 @@ The definition of A142542 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+12]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142542
@@ -20795,7 +21129,7 @@ end A142542
 /-!
 # A142543: Primes congruent to 13 mod 53.
 
-The programs for A142543, the canonical program `A142543.P13721539067979919973` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142543 has offset 1).
+The programs for A142543, the canonical program `A142543.P13721539067979919973` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142543 has offset 1).
 
 The definition of A142543 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142543.anchor (n : ℕ) (hn : 1 ≤ n) : A142543 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 13) (n - 1) : ℤ)` in `Proof.A142.A142543`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20804,7 +21138,7 @@ The definition of A142543 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+13]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142543
@@ -20978,7 +21312,7 @@ end A142543
 /-!
 # A142544: Primes congruent to 14 mod 53.
 
-The programs for A142544, the canonical program `A142544.P2515203654304685136` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142544 has offset 1).
+The programs for A142544, the canonical program `A142544.P2515203654304685136` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142544 has offset 1).
 
 The definition of A142544 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142544.anchor (n : ℕ) (hn : 1 ≤ n) : A142544 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 14) (n - 1) : ℤ)` in `Proof.A142.A142544`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20987,7 +21321,7 @@ The definition of A142544 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+14]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142544
@@ -21265,7 +21599,7 @@ end A142544
 /-!
 # A142545: Primes congruent to 15 mod 53.
 
-The programs for A142545, the canonical program `A142545.P10300672822079420733` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142545 has offset 1).
+The programs for A142545, the canonical program `A142545.P10300672822079420733` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142545 has offset 1).
 
 The definition of A142545 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142545.anchor (n : ℕ) (hn : 1 ≤ n) : A142545 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 15) (n - 1) : ℤ)` in `Proof.A142.A142545`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21274,7 +21608,7 @@ The definition of A142545 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+15]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142545
@@ -21552,7 +21886,7 @@ end A142545
 /-!
 # A142546: Primes congruent to 16 mod 53.
 
-The programs for A142546, the canonical program `A142546.P18148107209974160927` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142546 has offset 1).
+The programs for A142546, the canonical program `A142546.P18148107209974160927` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142546 has offset 1).
 
 The definition of A142546 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142546.anchor (n : ℕ) (hn : 1 ≤ n) : A142546 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 16) (n - 1) : ℤ)` in `Proof.A142.A142546`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21561,7 +21895,7 @@ The definition of A142546 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+16]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142546
@@ -21709,7 +22043,7 @@ end A142546
 /-!
 # A142547: Primes congruent to 17 mod 53.
 
-The programs for A142547, the canonical program `A142547.P9271317736826490547` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142547 has offset 1).
+The programs for A142547, the canonical program `A142547.P9271317736826490547` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142547 has offset 1).
 
 The definition of A142547 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142547.anchor (n : ℕ) (hn : 1 ≤ n) : A142547 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 17) (n - 1) : ℤ)` in `Proof.A142.A142547`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21718,7 +22052,7 @@ The definition of A142547 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+17]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142547
@@ -21844,7 +22178,7 @@ end A142547
 /-!
 # A142548: Primes congruent to 18 mod 53.
 
-The programs for A142548, the canonical program `A142548.P13639296875527498970` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142548 has offset 1).
+The programs for A142548, the canonical program `A142548.P13639296875527498970` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142548 has offset 1).
 
 The definition of A142548 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142548.anchor (n : ℕ) (hn : 1 ≤ n) : A142548 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 18) (n - 1) : ℤ)` in `Proof.A142.A142548`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21853,7 +22187,7 @@ The definition of A142548 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+18]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142548
@@ -22157,7 +22491,7 @@ end A142548
 /-!
 # A142549: Primes congruent to 19 mod 53.
 
-The programs for A142549, the canonical program `A142549.P8502377864127700655` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142549 has offset 1).
+The programs for A142549, the canonical program `A142549.P8502377864127700655` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142549 has offset 1).
 
 The definition of A142549 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142549.anchor (n : ℕ) (hn : 1 ≤ n) : A142549 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 19) (n - 1) : ℤ)` in `Proof.A142.A142549`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22166,7 +22500,7 @@ The definition of A142549 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+19]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142549
@@ -22340,7 +22674,7 @@ end A142549
 /-!
 # A142550: Primes congruent to 20 mod 53.
 
-The programs for A142550, the canonical program `A142550.P14879884511883009788` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142550 has offset 1).
+The programs for A142550, the canonical program `A142550.P14879884511883009788` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142550 has offset 1).
 
 The definition of A142550 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142550.anchor (n : ℕ) (hn : 1 ≤ n) : A142550 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 20) (n - 1) : ℤ)` in `Proof.A142.A142550`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22349,7 +22683,7 @@ The definition of A142550 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+20]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142550
@@ -22705,7 +23039,7 @@ end A142550
 /-!
 # A142551: Primes congruent to 21 mod 53.
 
-The programs for A142551, the canonical program `A142551.P57321066052564490` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142551 has offset 1).
+The programs for A142551, the canonical program `A142551.P57321066052564490` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142551 has offset 1).
 
 The definition of A142551 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142551.anchor (n : ℕ) (hn : 1 ≤ n) : A142551 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 21) (n - 1) : ℤ)` in `Proof.A142.A142551`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22714,7 +23048,7 @@ The definition of A142551 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+21]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142551
@@ -23070,7 +23404,7 @@ end A142551
 /-!
 # A142552: Primes congruent to 22 mod 53.
 
-The programs for A142552, the canonical program `A142552.P10742857382744305642` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142552 has offset 1).
+The programs for A142552, the canonical program `A142552.P10742857382744305642` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142552 has offset 1).
 
 The definition of A142552 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142552.anchor (n : ℕ) (hn : 1 ≤ n) : A142552 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 22) (n - 1) : ℤ)` in `Proof.A142.A142552`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23079,7 +23413,7 @@ The definition of A142552 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-31]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142552
@@ -23409,7 +23743,7 @@ end A142552
 /-!
 # A142553: Primes congruent to 23 mod 53.
 
-The programs for A142553, the canonical program `A142553.P16008129457823151344` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142553 has offset 1).
+The programs for A142553, the canonical program `A142553.P16008129457823151344` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142553 has offset 1).
 
 The definition of A142553 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142553.anchor (n : ℕ) (hn : 1 ≤ n) : A142553 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 23) (n - 1) : ℤ)` in `Proof.A142.A142553`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23418,7 +23752,7 @@ The definition of A142553 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+23]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142553
@@ -23511,6 +23845,32 @@ def P5389559463617312161.Spec : Prop :=
 
 end A142553
 
+/-! ## A142553.P17083873666364162996
+
+`filter[A155107(2*n+1), A324290(#)]`
+-/
+
+namespace A142553.P17083873666364162996
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324290 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P17083873666364162996
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A324290(#)]` -/
+def P17083873666364162996.Spec : Prop :=
+  ∀ n, P17083873666364162996.a n = A142553 (n + 1)
+
+end A142553
+
 /-! ## A142553.P14940269254800956102
 
 `record[A020639(53*n+23)]`
@@ -23563,10 +23923,244 @@ def P15814358872002055523.Spec : Prop :=
 
 end A142553
 
+/-! ## A142553.P3313521297281709335
+
+`filter[A155107(2*n+1), A069513(#)]`
+-/
+
+namespace A142553.P3313521297281709335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A069513 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P3313521297281709335
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A069513(#)]` -/
+def P3313521297281709335.Spec : Prop :=
+  ∀ n, P3313521297281709335.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P16583465898624120771
+
+`filter[A155107(2*n+1), A355937(#)]`
+-/
+
+namespace A142553.P16583465898624120771
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A355937 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P16583465898624120771
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A355937(#)]` -/
+def P16583465898624120771.Spec : Prop :=
+  ∀ n, P16583465898624120771.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P16844015296935870152
+
+`filter[A155107(2*n+1), A174897(#)]`
+-/
+
+namespace A142553.P16844015296935870152
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A174897 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P16844015296935870152
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A174897(#)]` -/
+def P16844015296935870152.Spec : Prop :=
+  ∀ n, P16844015296935870152.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P5176610947296976764
+
+`filter[A155107(2*n+1), A302777(#)]`
+-/
+
+namespace A142553.P5176610947296976764
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A302777 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P5176610947296976764
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A302777(#)]` -/
+def P5176610947296976764.Spec : Prop :=
+  ∀ n, P5176610947296976764.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P6530372363387261021
+
+`filter[A155107(2*n+1), A323152(#)]`
+-/
+
+namespace A142553.P6530372363387261021
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323152 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P6530372363387261021
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A323152(#)]` -/
+def P6530372363387261021.Spec : Prop :=
+  ∀ n, P6530372363387261021.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P5551435720702685451
+
+`filter[A155107(2*n+1), A323153(#)]`
+-/
+
+namespace A142553.P5551435720702685451
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323153 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P5551435720702685451
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A323153(#)]` -/
+def P5551435720702685451.Spec : Prop :=
+  ∀ n, P5551435720702685451.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P4436677992120431339
+
+`filter[A155107(2*n+1), A324823(#)]`
+-/
+
+namespace A142553.P4436677992120431339
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324823 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P4436677992120431339
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A324823(#)]` -/
+def P4436677992120431339.Spec : Prop :=
+  ∀ n, P4436677992120431339.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P1031244767532151161
+
+`filter[A155107(2*n+1), A345950(#)]`
+-/
+
+namespace A142553.P1031244767532151161
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A345950 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P1031244767532151161
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A345950(#)]` -/
+def P1031244767532151161.Spec : Prop :=
+  ∀ n, P1031244767532151161.a n = A142553 (n + 1)
+
+end A142553
+
+/-! ## A142553.P15541764086209723751
+
+`filter[A155107(2*n+1), A353817(#)]`
+-/
+
+namespace A142553.P15541764086209723751
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155107 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353817 (f1 j).toNat = 1) n)
+
+end
+
+end A142553.P15541764086209723751
+
+namespace A142553
+
+/-- `filter[A155107(2*n+1), A353817(#)]` -/
+def P15541764086209723751.Spec : Prop :=
+  ∀ n, P15541764086209723751.a n = A142553 (n + 1)
+
+end A142553
+
 /-!
 # A142554: Primes congruent to 24 mod 53.
 
-The programs for A142554, the canonical program `A142554.P5046670377294890160` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142554 has offset 1).
+The programs for A142554, the canonical program `A142554.P5046670377294890160` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142554 has offset 1).
 
 The definition of A142554 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142554.anchor (n : ℕ) (hn : 1 ≤ n) : A142554 n = (Nat.nth (fun p => p.Prime ∧ p % 53 ∈ ({24} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A142.A142554`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23575,7 +24169,7 @@ The definition of A142554 is `verified`: an anchor theorem with a hand-written p
 
 `p?[a(n-1)+53]` with `a(0)=24`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142554
@@ -23697,7 +24291,7 @@ end A142554
 /-!
 # A142555: Primes congruent to 25 mod 53.
 
-The programs for A142555, the canonical program `A142555.P4054102190725040796` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142555 has offset 1).
+The programs for A142555, the canonical program `A142555.P4054102190725040796` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142555 has offset 1).
 
 The definition of A142555 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142555.anchor (n : ℕ) (hn : 1 ≤ n) : A142555 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 25) (n - 1) : ℤ)` in `Proof.A142.A142555`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23706,7 +24300,7 @@ The definition of A142555 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-28]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142555
@@ -24010,7 +24604,7 @@ end A142555
 /-!
 # A142556: Primes congruent to 26 mod 53.
 
-The programs for A142556, the canonical program `A142556.P7315416885756247894` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142556 has offset 1).
+The programs for A142556, the canonical program `A142556.P7315416885756247894` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142556 has offset 1).
 
 The definition of A142556 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142556.anchor (n : ℕ) (hn : 1 ≤ n) : A142556 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 26) (n - 1) : ℤ)` in `Proof.A142.A142556`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24019,7 +24613,7 @@ The definition of A142556 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+26]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142556
@@ -24271,7 +24865,7 @@ end A142556
 /-!
 # A142557: Primes congruent to 27 mod 53.
 
-The programs for A142557, the canonical program `A142557.P17053330527406815909` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142557 has offset 1).
+The programs for A142557, the canonical program `A142557.P17053330527406815909` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142557 has offset 1).
 
 The definition of A142557 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142557.anchor (n : ℕ) (hn : 1 ≤ n) : A142557 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 27) (n - 1) : ℤ)` in `Proof.A142.A142557`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24280,7 +24874,7 @@ The definition of A142557 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-26]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142557
@@ -24662,7 +25256,7 @@ end A142557
 /-!
 # A142558: Primes congruent to 28 mod 53.
 
-The programs for A142558, the canonical program `A142558.P15611946228353489870` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142558 has offset 1).
+The programs for A142558, the canonical program `A142558.P15611946228353489870` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142558 has offset 1).
 
 The definition of A142558 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142558.anchor (n : ℕ) (hn : 1 ≤ n) : A142558 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 28) (n - 1) : ℤ)` in `Proof.A142.A142558`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24671,7 +25265,7 @@ The definition of A142558 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+28]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142558
@@ -24793,7 +25387,7 @@ end A142558
 /-!
 # A142559: Primes congruent to 29 mod 53.
 
-The programs for A142559, the canonical program `A142559.P8067734731705167456` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142559 has offset 1).
+The programs for A142559, the canonical program `A142559.P8067734731705167456` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142559 has offset 1).
 
 The definition of A142559 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142559.anchor (n : ℕ) (hn : 1 ≤ n) : A142559 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 29) (n - 1) : ℤ)` in `Proof.A142.A142559`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24802,7 +25396,7 @@ The definition of A142559 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-24]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142559
@@ -24950,7 +25544,7 @@ end A142559
 /-!
 # A142560: Primes congruent to 30 mod 53.
 
-The programs for A142560, the canonical program `A142560.P2547294110501529911` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142560 has offset 1).
+The programs for A142560, the canonical program `A142560.P2547294110501529911` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142560 has offset 1).
 
 The definition of A142560 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142560.anchor (n : ℕ) (hn : 1 ≤ n) : A142560 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 30) (n - 1) : ℤ)` in `Proof.A142.A142560`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24959,7 +25553,7 @@ The definition of A142560 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-23]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142560
@@ -25266,7 +25860,7 @@ end A142560
 /-!
 # A142561: Primes congruent to 31 mod 53.
 
-The programs for A142561, the canonical program `A142561.P5495587934823750673` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142561 has offset 1).
+The programs for A142561, the canonical program `A142561.P5495587934823750673` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142561 has offset 1).
 
 The definition of A142561 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142561.anchor (n : ℕ) (hn : 1 ≤ n) : A142561 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 31) (n - 1) : ℤ)` in `Proof.A142.A142561`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25275,7 +25869,7 @@ The definition of A142561 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n+31]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142561
@@ -25423,7 +26017,7 @@ end A142561
 /-!
 # A142562: Primes congruent to 32 mod 53.
 
-The programs for A142562, the canonical program `A142562.P3809062214029627843` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142562 has offset 1).
+The programs for A142562, the canonical program `A142562.P3809062214029627843` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142562 has offset 1).
 
 The definition of A142562 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142562.anchor (n : ℕ) (hn : 1 ≤ n) : A142562 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 32) (n - 1) : ℤ)` in `Proof.A142.A142562`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25432,7 +26026,7 @@ The definition of A142562 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-21]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142562
@@ -25528,7 +26122,7 @@ end A142562
 /-!
 # A142563: Primes congruent to 33 mod 53.
 
-The programs for A142563, the canonical program `A142563.P12359353660996850255` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142563 has offset 1).
+The programs for A142563, the canonical program `A142563.P12359353660996850255` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142563 has offset 1).
 
 The definition of A142563 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142563.anchor (n : ℕ) (hn : 1 ≤ n) : A142563 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 33) (n - 1) : ℤ)` in `Proof.A142.A142563`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25537,7 +26131,7 @@ The definition of A142563 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-20]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142563
@@ -25711,7 +26305,7 @@ end A142563
 /-!
 # A142564: Primes congruent to 34 mod 53.
 
-The programs for A142564, the canonical program `A142564.P501766830947275686` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142564 has offset 1).
+The programs for A142564, the canonical program `A142564.P501766830947275686` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142564 has offset 1).
 
 The definition of A142564 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142564.anchor (n : ℕ) (hn : 1 ≤ n) : A142564 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 34) (n - 1) : ℤ)` in `Proof.A142.A142564`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25720,7 +26314,7 @@ The definition of A142564 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-19]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142564
@@ -25894,7 +26488,7 @@ end A142564
 /-!
 # A142565: Primes congruent to 35 mod 53.
 
-The programs for A142565, the canonical program `A142565.P15807843790863738585` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142565 has offset 1).
+The programs for A142565, the canonical program `A142565.P15807843790863738585` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142565 has offset 1).
 
 The definition of A142565 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142565.anchor (n : ℕ) (hn : 1 ≤ n) : A142565 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 35) (n - 1) : ℤ)` in `Proof.A142.A142565`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25903,7 +26497,7 @@ The definition of A142565 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-18]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142565
@@ -26051,7 +26645,7 @@ end A142565
 /-!
 # A142566: Primes congruent to 36 mod 53.
 
-The programs for A142566, the canonical program `A142566.P5463133517147334273` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142566 has offset 1).
+The programs for A142566, the canonical program `A142566.P5463133517147334273` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142566 has offset 1).
 
 The definition of A142566 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142566.anchor (n : ℕ) (hn : 1 ≤ n) : A142566 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 36) (n - 1) : ℤ)` in `Proof.A142.A142566`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26060,7 +26654,7 @@ The definition of A142566 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-17]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142566
@@ -26367,7 +26961,7 @@ end A142566
 /-!
 # A142567: Primes congruent to 37 mod 53.
 
-The programs for A142567, the canonical program `A142567.P9068125809523552776` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142567 has offset 1).
+The programs for A142567, the canonical program `A142567.P9068125809523552776` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142567 has offset 1).
 
 The definition of A142567 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142567.anchor (n : ℕ) (hn : 1 ≤ n) : A142567 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 37) (n - 1) : ℤ)` in `Proof.A142.A142567`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26376,7 +26970,7 @@ The definition of A142567 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-16]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142567
@@ -26502,7 +27096,7 @@ end A142567
 /-!
 # A142568: Primes congruent to 38 mod 53.
 
-The programs for A142568, the canonical program `A142568.P6146946396043828447` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142568 has offset 1).
+The programs for A142568, the canonical program `A142568.P6146946396043828447` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142568 has offset 1).
 
 The definition of A142568 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142568.anchor (n : ℕ) (hn : 1 ≤ n) : A142568 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 38) (n - 1) : ℤ)` in `Proof.A142.A142568`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26511,7 +27105,7 @@ The definition of A142568 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-15]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142568
@@ -26763,7 +27357,7 @@ end A142568
 /-!
 # A142569: Primes congruent to 39 mod 53.
 
-The programs for A142569, the canonical program `A142569.P2898584343019619820` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142569 has offset 1).
+The programs for A142569, the canonical program `A142569.P2898584343019619820` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142569 has offset 1).
 
 The definition of A142569 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142569.anchor (n : ℕ) (hn : 1 ≤ n) : A142569 n = (Nat.nth (fun p => p.Prime ∧ p % 53 ∈ ({39} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A142.A142569`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26772,7 +27366,7 @@ The definition of A142569 is `verified`: an anchor theorem with a hand-written p
 
 `p?[a(n-1)+53]` with `a(0)=39`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142569
@@ -26894,7 +27488,7 @@ end A142569
 /-!
 # A142570: Primes congruent to 40 mod 53.
 
-The programs for A142570, the canonical program `A142570.P6421627408665633642` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142570 has offset 1).
+The programs for A142570, the canonical program `A142570.P6421627408665633642` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142570 has offset 1).
 
 The definition of A142570 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142570.anchor (n : ℕ) (hn : 1 ≤ n) : A142570 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 40) (n - 1) : ℤ)` in `Proof.A142.A142570`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26903,7 +27497,7 @@ The definition of A142570 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-13]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142570
@@ -27051,7 +27645,7 @@ end A142570
 /-!
 # A142571: Primes congruent to 41 mod 53.
 
-The programs for A142571, the canonical program `A142571.P10702951705278210587` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142571 has offset 1).
+The programs for A142571, the canonical program `A142571.P10702951705278210587` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142571 has offset 1).
 
 The definition of A142571 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142571.anchor (n : ℕ) (hn : 1 ≤ n) : A142571 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 41) (n - 1) : ℤ)` in `Proof.A142.A142571`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27060,7 +27654,7 @@ The definition of A142571 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-12]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142571
@@ -27260,7 +27854,7 @@ end A142571
 /-!
 # A142572: Primes congruent to 42 mod 53.
 
-The programs for A142572, the canonical program `A142572.P13859309934733515950` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142572 has offset 1).
+The programs for A142572, the canonical program `A142572.P13859309934733515950` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142572 has offset 1).
 
 The definition of A142572 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142572.anchor (n : ℕ) (hn : 1 ≤ n) : A142572 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 42) (n - 1) : ℤ)` in `Proof.A142.A142572`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27269,7 +27863,7 @@ The definition of A142572 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-11]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142572
@@ -27365,7 +27959,7 @@ end A142572
 /-!
 # A142573: Primes congruent to 43 mod 53.
 
-The programs for A142573, the canonical program `A142573.P10774366854094148211` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142573 has offset 1).
+The programs for A142573, the canonical program `A142573.P10774366854094148211` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142573 has offset 1).
 
 The definition of A142573 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142573.anchor (n : ℕ) (hn : 1 ≤ n) : A142573 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 43) (n - 1) : ℤ)` in `Proof.A142.A142573`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27374,7 +27968,7 @@ The definition of A142573 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-10]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142573
@@ -27574,7 +28168,7 @@ end A142573
 /-!
 # A142574: Primes congruent to 44 mod 53.
 
-The programs for A142574, the canonical program `A142574.P11859166775549771955` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142574 has offset 1).
+The programs for A142574, the canonical program `A142574.P11859166775549771955` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142574 has offset 1).
 
 The definition of A142574 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142574.anchor (n : ℕ) (hn : 1 ≤ n) : A142574 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 44) (n - 1) : ℤ)` in `Proof.A142.A142574`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27583,7 +28177,7 @@ The definition of A142574 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-9]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142574
@@ -27705,7 +28299,7 @@ end A142574
 /-!
 # A142575: Primes congruent to 45 mod 53.
 
-The programs for A142575, the canonical program `A142575.P6606832954996549449` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142575 has offset 1).
+The programs for A142575, the canonical program `A142575.P6606832954996549449` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142575 has offset 1).
 
 The definition of A142575 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142575.anchor (n : ℕ) (hn : 1 ≤ n) : A142575 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 45) (n - 1) : ℤ)` in `Proof.A142.A142575`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27714,7 +28308,7 @@ The definition of A142575 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-8]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142575
@@ -28018,7 +28612,7 @@ end A142575
 /-!
 # A142576: Primes congruent to 46 mod 53.
 
-The programs for A142576, the canonical program `A142576.P13179964568967412309` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142576 has offset 1).
+The programs for A142576, the canonical program `A142576.P13179964568967412309` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142576 has offset 1).
 
 The definition of A142576 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142576.anchor (n : ℕ) (hn : 1 ≤ n) : A142576 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 46) (n - 1) : ℤ)` in `Proof.A142.A142576`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28027,7 +28621,7 @@ The definition of A142576 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-7]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142576
@@ -28268,7 +28862,7 @@ end A142576
 /-!
 # A142577: Primes congruent to 47 mod 53.
 
-The programs for A142577, the canonical program `A142577.P15722763317461293928` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142577 has offset 1).
+The programs for A142577, the canonical program `A142577.P15722763317461293928` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142577 has offset 1).
 
 The definition of A142577 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142577.anchor (n : ℕ) (hn : 1 ≤ n) : A142577 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 47) (n - 1) : ℤ)` in `Proof.A142.A142577`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28277,7 +28871,7 @@ The definition of A142577 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-6]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142577
@@ -28457,7 +29051,7 @@ end A142577
 /-!
 # A142578: Primes congruent to 48 mod 53.
 
-The programs for A142578, the canonical program `A142578.P15952431760153792585` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142578 has offset 1).
+The programs for A142578, the canonical program `A142578.P15952431760153792585` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142578 has offset 1).
 
 The definition of A142578 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142578.anchor (n : ℕ) (hn : 1 ≤ n) : A142578 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 48) (n - 1) : ℤ)` in `Proof.A142.A142578`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28466,7 +29060,7 @@ The definition of A142578 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-5]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142578
@@ -28692,7 +29286,7 @@ end A142578
 /-!
 # A142579: Primes congruent to 49 mod 53.
 
-The programs for A142579, the canonical program `A142579.P9845563896040826654` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142579 has offset 1).
+The programs for A142579, the canonical program `A142579.P9845563896040826654` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142579 has offset 1).
 
 The definition of A142579 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142579.anchor (n : ℕ) (hn : 1 ≤ n) : A142579 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 49) (n - 1) : ℤ)` in `Proof.A142.A142579`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28701,7 +29295,7 @@ The definition of A142579 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-4]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142579
@@ -28927,7 +29521,7 @@ end A142579
 /-!
 # A142580: Primes congruent to 50 mod 53.
 
-The programs for A142580, the canonical program `A142580.P12216637443681934440` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142580 has offset 1).
+The programs for A142580, the canonical program `A142580.P12216637443681934440` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142580 has offset 1).
 
 The definition of A142580 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142580.anchor (n : ℕ) (hn : 1 ≤ n) : A142580 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 50) (n - 1) : ℤ)` in `Proof.A142.A142580`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28936,7 +29530,7 @@ The definition of A142580 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-3]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142580
@@ -29192,7 +29786,7 @@ end A142580
 /-!
 # A142581: Primes congruent to 51 mod 53.
 
-The programs for A142581, the canonical program `A142581.P17450910249963365285` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142581 has offset 1).
+The programs for A142581, the canonical program `A142581.P17450910249963365285` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142581 has offset 1).
 
 The definition of A142581 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142581.anchor (n : ℕ) (hn : 1 ≤ n) : A142581 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 51) (n - 1) : ℤ)` in `Proof.A142.A142581`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -29201,7 +29795,7 @@ The definition of A142581 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-2]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142581
@@ -29375,7 +29969,7 @@ end A142581
 /-!
 # A142582: Primes congruent to 52 mod 53.
 
-The programs for A142582, the canonical program `A142582.P1423104978536918347` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142582 has offset 1).
+The programs for A142582, the canonical program `A142582.P1423104978536918347` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142582 has offset 1).
 
 The definition of A142582 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A142582.anchor (n : ℕ) (hn : 1 ≤ n) : A142582 n = (Nat.nth (fun p => p.Prime ∧ p % 53 = 52) (n - 1) : ℤ)` in `Proof.A142.A142582`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -29384,7 +29978,7 @@ The definition of A142582 is `verified`: an anchor theorem with a hand-written p
 
 `p?[53*n-1]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142582
@@ -30031,25 +30625,17 @@ end A142584
 /-!
 # A142585: Inverse binomial transform of A014217.
 
-The programs for A142585, the canonical program `A142585.P4790948912570679400` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142585 has offset 0).
+The programs for A142585, the canonical program `A142585.P12245037328497569780` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142585 has offset 0).
 
-The definition of A142585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A142585 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A142585.P12245037328497569780
 
 `ogf((1+3x+2x^2+x^3)/(1+3x+x^2-2x^3))`
+
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A142585.P12245037328497569780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 3, 2, 1] [1, 3, 1, -2] n
-
-end
-
-end A142585.P12245037328497569780
 
 namespace A142585
 
@@ -30057,24 +30643,32 @@ namespace A142585
 def P12245037328497569780.Spec : Prop :=
   ∀ n, P12245037328497569780.a n = A142585 n
 
+theorem P12245037328497569780.correct : P12245037328497569780.Spec := by
+  intro n
+  simp only [A142585]
+
 end A142585
 
 /-! ## A142585.P4790948912570679400
 
 `(A303427(2*n)-A011782(n))*(-1)^n`
-
-The canonical program, it is in `Seq.B001.C006`.
 -/
+
+namespace A142585.P4790948912570679400
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A303427 (2 * n) - A011782 n) * (-1) ^ n
+
+end
+
+end A142585.P4790948912570679400
 
 namespace A142585
 
 /-- `(A303427(2*n)-A011782(n))*(-1)^n` -/
 def P4790948912570679400.Spec : Prop :=
   ∀ n, P4790948912570679400.a n = A142585 n
-
-theorem P4790948912570679400.correct : P4790948912570679400.Spec := by
-  intro n
-  simp only [A142585]
 
 end A142585
 
@@ -30147,9 +30741,9 @@ def P15801090346445057811.Spec : Prop :=
 
 theorem P15801090346445057811.correct : P15801090346445057811.Spec := by
   intro n
-  simp only [A142585, Nat.add_sub_cancel, A142585.P15801090346445057811.a, A142585.P4790948912570679400.a, A011782, A011782.P7461078519819856082.a, A142586, A142586.P3948802429237657865.a, A142710, A142710.P15116843330980903994.a, A303427, A303427.P18184235038652700757.a, SequenceMachineLib.memo_apply]
+  simp only [A142585, Nat.add_sub_cancel, A142585.P15801090346445057811.a, A142585.P12245037328497569780.a, A142586, A142586.P3948802429237657865.a, A142710, A142710.P15116843330980903994.a, SequenceMachineLib.memo_apply]
   try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A142585
 
@@ -30179,16 +30773,39 @@ end A142585
 /-!
 # A142586: Binomial transform of A014217.
 
-The programs for A142586, the canonical program `A142586.P3948802429237657865` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142586 has offset 0).
+The programs for A142586, the canonical program `A142586.P3948802429237657865` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142586 has offset 0).
 
 The definition of A142586 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A142586.P11379592403806417362
+
+`ogf((1-3x+2x^2+x^3)/(1-5x+7x^2-2x^3))`
+-/
+
+namespace A142586.P11379592403806417362
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, 2, 1] [1, -5, 7, -2] n
+
+end
+
+end A142586.P11379592403806417362
+
+namespace A142586
+
+/-- `ogf((1-3x+2x^2+x^3)/(1-5x+7x^2-2x^3))` -/
+def P11379592403806417362.Spec : Prop :=
+  ∀ n, P11379592403806417362.a n = A142586 n
+
+end A142586
 
 /-! ## A142586.P3948802429237657865
 
 `5*a(n-1)-7*a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=2, a(2)=5, a(3)=14`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A142586
@@ -30321,9 +30938,9 @@ def P12635676624736526550.Spec : Prop :=
 
 theorem P12635676624736526550.correct : P12635676624736526550.Spec := by
   intro n
-  simp only [A142586, Nat.add_sub_cancel, A142586.P12635676624736526550.a, A142586.P3948802429237657865.a, A142585, A142585.P4790948912570679400.a, A142710, A142710.P15116843330980903994.a, A011782, A011782.P7461078519819856082.a, A303427, A303427.P18184235038652700757.a, SequenceMachineLib.memo_apply]
+  simp only [A142586, Nat.add_sub_cancel, A142586.P12635676624736526550.a, A142586.P3948802429237657865.a, A142585, A142585.P12245037328497569780.a, A142710, A142710.P15116843330980903994.a, SequenceMachineLib.memo_apply]
   try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A142586
 
@@ -30605,12 +31222,6 @@ namespace A142586
 def P7422995413840681729.Spec : Prop :=
   ∀ n, P7422995413840681729.a n = A142586 n
 
-theorem P7422995413840681729.correct : P7422995413840681729.Spec := by
-  intro n
-  simp only [A142586, Nat.add_sub_cancel, A142586.P7422995413840681729.a, A142586.P3948802429237657865.a, A054452, A054452.P9025492193241379960.a, A226433, A226433.P15475771026139554794.a, A000045, A000045.P11838749114346432762.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A142586
 
 /-! ## A142586.P15930454461406946901
@@ -30643,6 +31254,29 @@ The programs for A142588, the canonical program `A142588.P14446721395174826203` 
 
 The definition of A142588 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A142588.P4934746557606150546
+
+`ogf(5x/(1-14x-x^2))`
+-/
+
+namespace A142588.P4934746557606150546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 5] [1, -14, -1] n
+
+end
+
+end A142588.P4934746557606150546
+
+namespace A142588
+
+/-- `ogf(5x/(1-14x-x^2))` -/
+def P4934746557606150546.Spec : Prop :=
+  ∀ n, P4934746557606150546.a n = A142588 n
+
+end A142588
 
 /-! ## A142588.P7824530262820737045
 
@@ -30683,29 +31317,6 @@ def P14446721395174826203.Spec : Prop :=
 theorem P14446721395174826203.correct : P14446721395174826203.Spec := by
   intro n
   simp only [A142588]
-
-end A142588
-
-/-! ## A142588.P4934746557606150546
-
-`ogf(5x/(1-14x-x^2))`
--/
-
-namespace A142588.P4934746557606150546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 5] [1, -14, -1] n
-
-end
-
-end A142588.P4934746557606150546
-
-namespace A142588
-
-/-- `ogf(5x/(1-14x-x^2))` -/
-def P4934746557606150546.Spec : Prop :=
-  ∀ n, P4934746557606150546.a n = A142588 n
 
 end A142588
 
@@ -31013,6 +31624,29 @@ The programs for A142590, the canonical program `A142590.P16542359510751384512` 
 
 The definition of A142590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A142590.P7586284163855700313
+
+`ogf((21x+15x^2+117x^3+12x^4+222x^5+54x^6+174x^7+6x^8+45x^9+3x^10-3x^11)/(1-3x^4+3x^8-x^12))`
+-/
+
+namespace A142590.P7586284163855700313
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 21, 15, 117, 12, 222, 54, 174, 6, 45, 3, -3] [1, 0, 0, 0, -3, 0, 0, 0, 3, 0, 0, 0, -1] n
+
+end
+
+end A142590.P7586284163855700313
+
+namespace A142590
+
+/-- `ogf((21x+15x^2+117x^3+12x^4+222x^5+54x^6+174x^7+6x^8+45x^9+3x^10-3x^11)/(1-3x^4+3x^8-x^12))` -/
+def P7586284163855700313.Spec : Prop :=
+  ∀ n, P7586284163855700313.a n = A142590 n
+
+end A142590
 
 /-! ## A142590.P17788541178248868181
 
@@ -31512,6 +32146,28 @@ end
 
 end A142591.P17256106199089638219
 
+/-! ## A142591.P13107174195862161369
+
+`∩[A061367(n+1), A342418(n+1)]`
+-/
+
+namespace A142591.P13107174195862161369
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061367 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342418 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A142591.P13107174195862161369
+
 /-! ## A142591.P453945150257911980
 
 `∩[A130871(n+1), A321182(n+1)]`
@@ -31709,28 +32365,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A142591.P3726751947843088718
-
-/-! ## A142591.P7440357473583954440
-
-`∩[A321182(n+1), A238232(n+1)]`
--/
-
-namespace A142591.P7440357473583954440
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321182 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238232 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A142591.P7440357473583954440
 
 /-!
 # A142592: Primes congruent to 29 mod 54.
@@ -32650,27 +33284,50 @@ end A142598.P16282314583682975129
 /-!
 # A142599: Second trisection of A061037.
 
-The programs for A142599, the canonical program `A142599.P10304847295712391913` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142599 has offset 1).
+The programs for A142599, the canonical program `A142599.P7710800207587796516` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142599 has offset 1).
 
-The definition of A142599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A142599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A142599.P7710800207587796516
+
+`ogf((5+2x+77x^2+35x^3+206x^4+14x^5+206x^6+38x^7+77x^8+2x^9+5x^10-x^11)/(1-3x^4+3x^8-x^12))`
+
+The canonical program, it is in `Seq.B000.C024`.
+-/
+
+namespace A142599
+
+/-- `ogf((5+2x+77x^2+35x^3+206x^4+14x^5+206x^6+38x^7+77x^8+2x^9+5x^10-x^11)/(1-3x^4+3x^8-x^12))` -/
+def P7710800207587796516.Spec : Prop :=
+  ∀ n, P7710800207587796516.a n = A142599 (n + 1)
+
+theorem P7710800207587796516.correct : P7710800207587796516.Spec := by
+  intro n
+  simp only [A142599, Nat.add_sub_cancel]
+
+end A142599
 
 /-! ## A142599.P10304847295712391913
 
 `A176672(n)*A302773(n+1)`
-
-The canonical program, it is in `Seq.B001.C006`.
 -/
+
+namespace A142599.P10304847295712391913
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176672 n * A302773 (n + 1)
+
+end
+
+end A142599.P10304847295712391913
 
 namespace A142599
 
 /-- `A176672(n)*A302773(n+1)` -/
 def P10304847295712391913.Spec : Prop :=
   ∀ n, P10304847295712391913.a n = A142599 (n + 1)
-
-theorem P10304847295712391913.correct : P10304847295712391913.Spec := by
-  intro n
-  simp only [A142599, Nat.add_sub_cancel]
 
 end A142599
 

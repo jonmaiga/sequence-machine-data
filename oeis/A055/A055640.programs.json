@@ -16,6 +16,18 @@
       "tags": [
         "proven"
       ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "∑{digits}[n, round(atan(#))]",
+      "mt": 10000,
+      "px": [
+        "n",
+        "#",
+        "atan",
+        "round",
+        "∑{digits}"
+      ]
     }
   ]
 }

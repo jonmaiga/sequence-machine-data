@@ -6,40 +6,42 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C035
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
-import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B006.C000
+import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -50,7 +52,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -790,6 +792,24 @@ end A009333.P3760254830764868715
 
 The programs for A009334, there is no canonical definition to state claims against.
 -/
+
+/-! ## A009334.P13468739176767723425
+
+`∑{#}[n-1, (-1)^#*C(n, #+1)*A000111(#)]`
+-/
+
+namespace A009334.P13468739176767723425
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1) ^ k * (Nat.choose n (k + 1) : ℤ) * A000111 k
+
+end
+
+end A009334.P13468739176767723425
 
 /-! ## A009334.P3923585586931358363
 
@@ -2165,6 +2185,24 @@ end A009389.P4751069236508026928
 
 The programs for A009390, there is no canonical definition to state claims against.
 -/
+
+/-! ## A009390.P17808781091663450754
+
+`∑{#}[floor((n-1)/2), A028296(#)]`
+-/
+
+namespace A009390.P17808781091663450754
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊((n : ℤ) - 1 : ℚ) / 2⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, A028296 k
+
+end
+
+end A009390.P17808781091663450754
 
 /-! ## A009390.P10171651410413903854
 

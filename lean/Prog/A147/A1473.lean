@@ -10,23 +10,30 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C044
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,30 +43,28 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,7 +90,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A147301: a(n) = smallest value of parameter m such that the function rad(m n (n - m)) has maximal value n=2,3,4..., 0 < m < n where the function rad(k) (also called radical(k)) is the product of distinct prime divisors of k.
@@ -2753,6 +2757,21 @@ end
 
 end A147341.P12088797367319908329
 
+/-! ## A147341.P11293401507622201240
+
+`A084827(A191789(n))`
+-/
+
+namespace A147341.P11293401507622201240
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084827 (A191789 n).toNat
+
+end
+
+end A147341.P11293401507622201240
+
 /-!
 # A147342: Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 0100-0100-1111-0010-0010 pattern in any orientation.
 
@@ -3289,27 +3308,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A147351.P7189200470752385984
-
-/-!
-# A147352: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 01010-11111-00100 pattern in any orientation.
-
-The programs for A147352, there is no canonical definition to state claims against.
--/
-
-/-! ## A147352.P16897848751721687530
-
-`A351004(A032020(n+1)%A000105(n))`
--/
-
-namespace A147352.P16897848751721687530
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351004 (Int.tmod (A032020 (n + 1)) (A000105 n)).toNat
-
-end
-
-end A147352.P16897848751721687530
 
 /-!
 # A147353: Number of n X n binary arrays with all ones connected only in a 0110-0110-1111 pattern in any orientation.

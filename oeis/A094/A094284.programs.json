@@ -21,6 +21,18 @@
         "proven",
         "definition"
       ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "ceil(exp(acot(atan(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "atan",
+        "acot",
+        "exp",
+        "ceil"
+      ]
     }
   ]
 }

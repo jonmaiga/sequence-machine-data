@@ -3,11 +3,11 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -17,20 +17,27 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,6 +51,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,11 +66,11 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,6 +78,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +104,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -623,7 +631,7 @@ end A325803
 /-!
 # A325804: Positions of nonzero terms of Product_{k=0..floor(log_2(n))} (1 + A004718(floor(n/(2^k)))).
 
-The programs for A325804, the canonical program `A325804.P9678205006070702569` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325804 has offset 1).
+The programs for A325804, the canonical program `A325804.P9678205006070702569` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325804 has offset 1).
 
 The definition of A325804 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -632,7 +640,7 @@ The definition of A325804 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, abs(A329893(n))]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A325804
@@ -1364,6 +1372,29 @@ def P255509125670812564.Spec : Prop :=
 theorem P255509125670812564.correct : P255509125670812564.Spec := by
   intro n
   simp only [A325813, Nat.add_sub_cancel]
+
+end A325813
+
+/-! ## A325813.P11058327198525268110
+
+`gcd(A033879(n+1), A034460(n+1))`
+-/
+
+namespace A325813.P11058327198525268110
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A033879 (n + 1)) (A034460 (n + 1))
+
+end
+
+end A325813.P11058327198525268110
+
+namespace A325813
+
+/-- `gcd(A033879(n+1), A034460(n+1))` -/
+def P11058327198525268110.Spec : Prop :=
+  ∀ n, (P11058327198525268110.a n : ℤ) = A325813 (n + 1)
 
 end A325813
 
@@ -2453,21 +2484,6 @@ end
 
 end A325817.P6268803405244738986
 
-/-! ## A325817.P4443075051421371023
-
-`A029837(n+1)+A163298(n+1)-A325818(n+1)`
--/
-
-namespace A325817.P4443075051421371023
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029837 (n + 1) + (A163298 (n + 1) - A325818 (n + 1))
-
-end
-
-end A325817.P4443075051421371023
-
 /-! ## A325817.P7117264315962588271
 
 `A163297(n+1)-(A325818(n+1)+A029837(n+1))`
@@ -2482,6 +2498,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325817.P7117264315962588271
+
+/-! ## A325817.P4443075051421371023
+
+`A029837(n+1)+A163298(n+1)-A325818(n+1)`
+-/
+
+namespace A325817.P4443075051421371023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029837 (n + 1) + (A163298 (n + 1) - A325818 (n + 1))
+
+end
+
+end A325817.P4443075051421371023
 
 /-! ## A325817.P3740037097656838304
 
@@ -3751,21 +3782,6 @@ end
 
 end A325826.P9920519169222321436
 
-/-! ## A325826.P9516683295182332308
-
-`A325967(n+1)+A325969(n+1)-A325817(n+1)`
--/
-
-namespace A325826.P9516683295182332308
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325967 (n + 1) + (A325969 (n + 1) - A325817 (n + 1))
-
-end
-
-end A325826.P9516683295182332308
-
 /-! ## A325826.P7522991751369080811
 
 `A325968(n+1)-(A325959(n+1)+A325817(n+1))`
@@ -3780,6 +3796,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325826.P7522991751369080811
+
+/-! ## A325826.P9516683295182332308
+
+`A325967(n+1)+A325969(n+1)-A325817(n+1)`
+-/
+
+namespace A325826.P9516683295182332308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325967 (n + 1) + (A325969 (n + 1) - A325817 (n + 1))
+
+end
+
+end A325826.P9516683295182332308
 
 /-! ## A325826.P4998282004772088480
 
@@ -5459,21 +5490,6 @@ end A325839.P9485803988780635283
 The programs for A325840, there is no canonical definition to state claims against.
 -/
 
-/-! ## A325840.P2148941341721228077
-
-`A325665(n+1)-A325675(n+1)`
--/
-
-namespace A325840.P2148941341721228077
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325665 (n + 1) - A325675 (n + 1)
-
-end
-
-end A325840.P2148941341721228077
-
 /-! ## A325840.P1074566428874449817
 
 `A325674(n+1)-A325664(n+1)`
@@ -5488,6 +5504,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325840.P1074566428874449817
+
+/-! ## A325840.P2148941341721228077
+
+`A325665(n+1)-A325675(n+1)`
+-/
+
+namespace A325840.P2148941341721228077
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325665 (n + 1) - A325675 (n + 1)
+
+end
+
+end A325840.P2148941341721228077
 
 /-! ## A325840.P4626886950506872810
 
@@ -6593,21 +6624,6 @@ end
 
 end A325862.P8304680282519325818
 
-/-! ## A325862.P2733268852384285130
-
-`A373953(A185235(n))+A023026(n+6)`
--/
-
-namespace A325862.P2733268852384285130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373953 (A185235 n).toNat + A023026 (n + 6)
-
-end
-
-end A325862.P2733268852384285130
-
 /-! ## A325862.P6256271376833007890
 
 `A000196(A094023(n)²)-A000094(A008619(n))`
@@ -6637,6 +6653,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325862.P4861254867895867786
+
+/-! ## A325862.P16767076894445521257
+
+`A347520(A304712(n))`
+-/
+
+namespace A325862.P16767076894445521257
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347520 (A304712 n).toNat
+
+end
+
+end A325862.P16767076894445521257
 
 /-!
 # A325863: Number of integer partitions of n such that every distinct non-singleton submultiset has a different sum.
@@ -6673,21 +6704,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325863.P4150592057483821335
-
-/-! ## A325863.P4488613733370799468
-
-`A346705(A329696(n))+A108917(n)`
--/
-
-namespace A325863.P4488613733370799468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346705 (A329696 n).toNat + A108917 n
-
-end
-
-end A325863.P4488613733370799468
 
 /-! ## A325863.P2757762209748687390
 
@@ -7270,21 +7286,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325875.P2947013585861399048
-
-/-! ## A325875.P16094771276492986327
-
-`A335433(A008965(n+1)-A025818(3*(n+1)))`
--/
-
-namespace A325875.P16094771276492986327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335433 (A008965 (n + 1) - A025818 (3 * (n + 1))).toNat
-
-end
-
-end A325875.P16094771276492986327
 
 /-! ## A325875.P14483687150688954658
 

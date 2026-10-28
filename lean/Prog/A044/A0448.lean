@@ -11,6 +11,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -23,15 +24,19 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +46,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -57,7 +61,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -68,6 +71,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +95,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -3586,6 +3589,28 @@ end
 
 end A044825.P9498520040135418013
 
+/-! ## A044825.P77102384944659143
+
+`∩[A048338(n), A080681(n+1)]`
+-/
+
+namespace A044825.P77102384944659143
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048338 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044825.P77102384944659143
+
 /-!
 # A044826: Positive integers having distinct base-15 run lengths.
 
@@ -5575,6 +5600,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A044852.P11509786889391201049
+
+/-! ## A044852.P14605231160157320266
+
+`∩[A044822(n+1), A367612(n+1)]`
+-/
+
+namespace A044852.P14605231160157320266
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A044822 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367612 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044852.P14605231160157320266
 
 /-!
 # A044853: Positive integers having no fewer base-12 runs of even length than odd.
@@ -8460,21 +8507,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A044880.P7208578554789464155
-
-/-! ## A044880.P145509609792620260
-
-`A340625(n+1)+A340586(A316650(n+1))`
--/
-
-namespace A044880.P145509609792620260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340625 (n + 1) + A340586 (A316650 (n + 1)).toNat
-
-end
-
-end A044880.P145509609792620260
 
 /-!
 # A044881: Numbers having, in base 10, (sum of even run lengths)=(sum of odd run lengths).

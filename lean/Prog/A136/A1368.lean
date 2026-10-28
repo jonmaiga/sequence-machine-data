@@ -4,26 +4,29 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
-import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C007
+import Seq.B000.C009
+import Seq.B000.C010
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C017
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
@@ -39,10 +42,10 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -63,7 +66,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -76,7 +78,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -85,7 +86,7 @@ set_option linter.unreachableTactic false
 /-!
 # A136800: Number of composites in prime gaps of size 3 or larger, in order of appearance.
 
-The programs for A136800, the canonical program `A136800.P8889398827105192195` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136800 has offset 1).
+The programs for A136800, the canonical program `A136800.P8889398827105192195` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136800 has offset 1).
 
 The definition of A136800 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A136798, A136799, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -94,7 +95,7 @@ The definition of A136800 is `conditional`: the Lean definition is an OEIS formu
 
 `A136799(n+1)-A136798(n+1)+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A136800
@@ -3433,6 +3434,28 @@ end
 
 end A136816.P16640540637629072965
 
+/-! ## A136816.P8720564966255430838
+
+`∩[A136819(n+1), A321702(n+1)]`
+-/
+
+namespace A136816.P8720564966255430838
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136819 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136816.P8720564966255430838
+
 /-!
 # A136817: Numbers k such that k and k^2 use only the digits 0, 1, 2, 4 and 5.
 
@@ -4543,6 +4566,28 @@ end
 
 end A136827.P12445397203131602730
 
+/-! ## A136827.P12301481227239220428
+
+`∩[A109827(n), A136830(n+1)]`
+-/
+
+namespace A136827.P12301481227239220428
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109827 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136830 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136827.P12301481227239220428
+
 /-! ## A136827.P10178128375216888298
 
 `∩[A136828(n+1), A345358(n+1)]`
@@ -4759,24 +4804,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A136830.P786108325087736274
-
-/-! ## A136830.P12975314719117231477
-
-`record[and(-A278157(n+1), A103181(n))]`
--/
-
-namespace A136830.P12975314719117231477
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-A278157 (n + 1)) (A103181 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A136830.P12975314719117231477
 
 /-! ## A136830.P186445214293114951
 
@@ -6188,29 +6215,10 @@ end A136852.P14592980974746842310
 /-!
 # A136853: Numbers k such that k and k^2 use only the digits 0, 1, 3, and 9.
 
-The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
+The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
 
 The definition of A136853 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A136853.P9307651076024166048
-
-`10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=3`
-
-The canonical program, it is in `Seq.B000.C020`.
--/
-
-namespace A136853
-
-/-- `10*a(n-2)` -/
-def P9307651076024166048.Spec : Prop :=
-  ∀ n, (P9307651076024166048.a n : ℤ) = A136853 (n + 1)
-
-theorem P9307651076024166048.correct : P9307651076024166048.Spec := by
-  intro n
-  simp only [A136853, Nat.add_sub_cancel]
-
-end A136853
 
 /-! ## A136853.P14952790367315427193
 
@@ -6232,6 +6240,25 @@ namespace A136853
 /-- `ogf((x+3x^2)/(1-10x^2))` -/
 def P14952790367315427193.Spec : Prop :=
   ∀ n, P14952790367315427193.a n = A136853 (n + 1)
+
+end A136853
+
+/-! ## A136853.P9307651076024166048
+
+`10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=3`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A136853
+
+/-- `10*a(n-2)` -/
+def P9307651076024166048.Spec : Prop :=
+  ∀ n, (P9307651076024166048.a n : ℤ) = A136853 (n + 1)
+
+theorem P9307651076024166048.correct : P9307651076024166048.Spec := by
+  intro n
+  simp only [A136853, Nat.add_sub_cancel]
 
 end A136853
 
@@ -7316,6 +7343,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A136867.P5794424934535844727
+
+/-! ## A136867.P4773641664928197341
+
+`∩[A131417(n+1), A136852(n+1)]`
+-/
+
+namespace A136867.P4773641664928197341
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131417 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136852 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136867.P4773641664928197341
+
+/-! ## A136867.P6191931525414839040
+
+`∩[A136852(n+1), A166498(n+1)]`
+-/
+
+namespace A136867.P6191931525414839040
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136852 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166498 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136867.P6191931525414839040
 
 /-!
 # A136868: Table read by antidiagonals: T(n,k) is the number of connected directed multigraphs with loops with n arcs and k vertices, which are transitive (the existence of a path between two points implies the existence of an arc between those two points).
@@ -8881,6 +8952,36 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 6] fun n a =>
 end
 
 end A136893.P13143289636420491563
+
+/-! ## A136893.P6814911136308137360
+
+`A136936(A064704(n+1))`
+-/
+
+namespace A136893.P6814911136308137360
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136936 (A064704 (n + 1)).toNat
+
+end
+
+end A136893.P6814911136308137360
+
+/-! ## A136893.P13928725141410172870
+
+`A136936(A083136(n+1))`
+-/
+
+namespace A136893.P13928725141410172870
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136936 (A083136 (n + 1)).toNat
+
+end
+
+end A136893.P13928725141410172870
 
 /-!
 # A136894: Numbers k such that k and k^2 use only the digits 0, 2, 3, 6 and 9.

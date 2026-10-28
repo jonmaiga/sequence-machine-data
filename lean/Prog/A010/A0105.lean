@@ -4,14 +4,15 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
-import Seq.B000.C016
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C018
-import Seq.B000.C024
+import Seq.B000.C020
 import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -31,24 +32,23 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C020
-import Seq.Opaque.C022
+import Seq.Opaque.C021
+import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -689,6 +689,36 @@ namespace A010552
 /-- `round((comp[∑[n+1]]-n)*a(n-1))` -/
 def P555135625634485580.Spec : Prop :=
   ∀ n, P555135625634485580.a n = A010552 n
+
+end A010552
+
+/-! ## A010552.P4542625118238399229
+
+`a(n-1)*∑[char[a(n-1)+n]]` with `a(0)=1`
+-/
+
+namespace A010552.P4542625118238399229
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f2 =>
+  f2 (n - 1) + n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = n then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A010552.P4542625118238399229
+
+namespace A010552
+
+/-- `a(n-1)*∑[char[a(n-1)+n]]` -/
+def P4542625118238399229.Spec : Prop :=
+  ∀ n, (P4542625118238399229.a n : ℤ) = A010552 n
 
 end A010552
 

@@ -4,30 +4,37 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C007
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C031
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -39,11 +46,12 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -56,8 +64,55 @@ import Seq.Opaque.C022
 /-!
 # A012000: Expansion of 1/sqrt(1 - 4*x + 16*x^2).
 
-The programs for A012000, there is no canonical definition to state claims against.
+The programs for A012000, the canonical program `A012000.P17516733029076567775` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A012000 has offset 0).
+
+The definition of A012000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A012000.P17516733029076567775
+
+`∑{#}[floor(n/2), C(n, #)*C(2*(n-#), n)*(-4)^#]`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A012000
+
+/-- `∑{#}[floor(n/2), C(n, #)*C(2*(n-#), n)*(-4)^#]` -/
+def P17516733029076567775.Spec : Prop :=
+  ∀ n, P17516733029076567775.a n = A012000 n
+
+theorem P17516733029076567775.correct : P17516733029076567775.Spec := by
+  intro n
+  simp only [A012000]
+
+end A012000
+
+/-! ## A012000.P11110853239265166605
+
+`(-1)^n*∑{#}[n, C(n, #)²*(-3)^#]`
+-/
+
+namespace A012000.P11110853239265166605
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (-1) ^ n * (∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k ^ 2 : ℤ) * (-3) ^ k)
+
+end
+
+end A012000.P11110853239265166605
+
+namespace A012000
+
+/-- `(-1)^n*∑{#}[n, C(n, #)²*(-3)^#]` -/
+def P11110853239265166605.Spec : Prop :=
+  ∀ n, P11110853239265166605.a n = A012000 n
+
+end A012000
 
 /-! ## A012000.P734789351243326112
 
@@ -74,6 +129,14 @@ end
 
 end A012000.P734789351243326112
 
+namespace A012000
+
+/-- `(-1)^n*A116091(n)` -/
+def P734789351243326112.Spec : Prop :=
+  ∀ n, P734789351243326112.a n = A012000 n
+
+end A012000
+
 /-! ## A012000.P3538462998957192430
 
 `A116091(n)/A033999(n)`
@@ -88,6 +151,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A012000.P3538462998957192430
+
+namespace A012000
+
+/-- `A116091(n)/A033999(n)` -/
+def P3538462998957192430.Spec : Prop :=
+  ∀ n, P3538462998957192430.a n = (A012000 n : ℚ)
+
+end A012000
 
 /-! ## A012000.P12067199052795487969
 
@@ -104,6 +175,14 @@ end
 
 end A012000.P12067199052795487969
 
+namespace A012000
+
+/-- `A116091(n)/A057428(n)^n` -/
+def P12067199052795487969.Spec : Prop :=
+  ∀ n, P12067199052795487969.a n = (A012000 n : ℚ)
+
+end A012000
+
 /-! ## A012000.P4574490451701886054
 
 `A116092(n)/2^n*A033999(n)`
@@ -119,6 +198,14 @@ end
 
 end A012000.P4574490451701886054
 
+namespace A012000
+
+/-- `A116092(n)/2^n*A033999(n)` -/
+def P4574490451701886054.Spec : Prop :=
+  ∀ n, P4574490451701886054.a n = (A012000 n : ℚ)
+
+end A012000
+
 /-! ## A012000.P16052806578599574318
 
 `A116092(n)/2^n*A008683(A323503(n))`
@@ -133,6 +220,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A012000.P16052806578599574318
+
+namespace A012000
+
+/-- `A116092(n)/2^n*A008683(A323503(n))` -/
+def P16052806578599574318.Spec : Prop :=
+  ∀ n, P16052806578599574318.a n = (A012000 n : ℚ)
+
+end A012000
 
 /-! ## A012000.P9891835048820361867
 
@@ -151,6 +246,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012000.P9891835048820361867
+
+namespace A012000
+
+/-- `A105812(n+3)*A307884(∑[n+3]+n+3)` -/
+def P9891835048820361867.Spec : Prop :=
+  ∀ n, P9891835048820361867.a n = A012000 n
+
+end A012000
 
 /-!
 # A012001: E.g.f.: -tan(log(cos(x))), even powers only.

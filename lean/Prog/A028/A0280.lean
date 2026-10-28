@@ -5,15 +5,16 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C007
+import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B003.C000
+import Seq.B001.C010
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C008
@@ -327,7 +328,7 @@ end A028002.P12891167376201588469
 /-!
 # A028003: Expansion of 1/((1-2x)(1-6x)(1-10x)(1-12x)).
 
-The programs for A028003, the canonical program `A028003.P8682461671152515831` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028003 has offset 0).
+The programs for A028003, the canonical program `A028003.P8682461671152515831` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028003 has offset 0).
 
 The definition of A028003 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -336,7 +337,7 @@ The definition of A028003 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(576*12^n-625*10^n+90*6^n-2^n)/40`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028003
@@ -497,7 +498,7 @@ end A028003
 /-!
 # A028004: Expansion of 1/((1-2x)(1-6x)(1-11x)(1-12x)).
 
-The programs for A028004, the canonical program `A028004.P8885431873324431264` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028004 has offset 0).
+The programs for A028004, the canonical program `A028004.P8885431873324431264` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028004 has offset 0).
 
 The definition of A028004 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -506,7 +507,7 @@ The definition of A028004 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6*12^(n+3)-8*11^(n+3)+3*6^(n+3)-2^(n+3))/360`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028004
@@ -638,7 +639,7 @@ end A028004
 /-!
 # A028005: Expansion of 1/((1-2x)(1-7x)(1-8x)(1-9x)).
 
-The programs for A028005, the canonical program `A028005.P13155927876554615617` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028005 has offset 0).
+The programs for A028005, the canonical program `A028005.P13155927876554615617` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028005 has offset 0).
 
 The definition of A028005 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -647,7 +648,7 @@ The definition of A028005 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(15*9^(n+3)-35*8^(n+3)+3*7^(n+4)-2^(n+3))/210`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028005
@@ -828,7 +829,7 @@ end A028005
 /-!
 # A028006: Expansion of 1/((1-2x)(1-7x)(1-8x)(1-10x)).
 
-The programs for A028006, the canonical program `A028006.P4345146394146014032` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028006 has offset 0).
+The programs for A028006, the canonical program `A028006.P4345146394146014032` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028006 has offset 0).
 
 The definition of A028006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -837,7 +838,7 @@ The definition of A028006 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*10^(n+3)-20*8^(n+3)+16*7^(n+3)-2^(n+3))/240`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028006
@@ -992,7 +993,7 @@ end A028006
 /-!
 # A028007: Expansion of 1/((1-2x)(1-7x)(1-8x)(1-11x)).
 
-The programs for A028007, the canonical program `A028007.P9691698827847657066` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028007 has offset 0).
+The programs for A028007, the canonical program `A028007.P9691698827847657066` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028007 has offset 0).
 
 The definition of A028007 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1001,7 +1002,7 @@ The definition of A028007 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*11^(n+3)-30*8^(n+3)+27*7^(n+3)-2^(n+4))/540`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028007
@@ -1156,7 +1157,7 @@ end A028007
 /-!
 # A028008: Expansion of 1/((1-2x)(1-7x)(1-8x)(1-12x)).
 
-The programs for A028008, the canonical program `A028008.P7439928837201268552` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028008 has offset 0).
+The programs for A028008, the canonical program `A028008.P7439928837201268552` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028008 has offset 0).
 
 The definition of A028008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1165,7 +1166,7 @@ The definition of A028008 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*12^(n+3)-25*8^(n+3)+24*7^(n+3)-2^(n+4))/600`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028008
@@ -1618,7 +1619,7 @@ end A028011.P9944540387628854441
 /-!
 # A028012: Expansion of 1/((1-2x)(1-7x)(1-10x)(1-11x)).
 
-The programs for A028012, the canonical program `A028012.P10957122250842599850` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028012 has offset 0).
+The programs for A028012, the canonical program `A028012.P10957122250842599850` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028012 has offset 0).
 
 The definition of A028012 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1627,7 +1628,7 @@ The definition of A028012 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10*11^(n+3)-15*10^(n+3)+6*7^(n+3)-2^(n+3))/360`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028012
@@ -1901,7 +1902,7 @@ end A028013.P12988077024804157822
 /-!
 # A028014: Expansion of 1/((1-2x)(1-7x)(1-11x)(1-12x)).
 
-The programs for A028014, the canonical program `A028014.P7518189498338103450` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028014 has offset 0).
+The programs for A028014, the canonical program `A028014.P7518189498338103450` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028014 has offset 0).
 
 The definition of A028014 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1910,7 +1911,7 @@ The definition of A028014 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(18*12^(n+3)-25*11^(n+3)+9*7^(n+3)-2^(n+4))/900`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028014
@@ -2042,7 +2043,7 @@ end A028014
 /-!
 # A028015: Expansion of 1/((1-2x)(1-8x)(1-9x)(1-10x)).
 
-The programs for A028015, the canonical program `A028015.P13197273361062074034` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028015 has offset 0).
+The programs for A028015, the canonical program `A028015.P13197273361062074034` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028015 has offset 0).
 
 The definition of A028015 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2051,7 +2052,7 @@ The definition of A028015 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(21*10^(n+3)-48*9^(n+3)+28*8^(n+3)-2^(n+3))/336`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028015
@@ -2255,7 +2256,7 @@ end A028015
 /-!
 # A028016: Expansion of 1/((1-2x)(1-8x)(1-9x)(1-11x)).
 
-The programs for A028016, the canonical program `A028016.P7444843843300628289` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028016 has offset 0).
+The programs for A028016, the canonical program `A028016.P7444843843300628289` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028016 has offset 0).
 
 The definition of A028016 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2264,7 +2265,7 @@ The definition of A028016 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7*11^(n+3)-3*9^(n+4)+21*8^(n+3)-2^(n+3))/378`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028016
@@ -2419,7 +2420,7 @@ end A028016
 /-!
 # A028017: Expansion of 1/((1-2x)(1-8x)(1-9x)(1-12x)).
 
-The programs for A028017, the canonical program `A028017.P17563709142539021129` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028017 has offset 0).
+The programs for A028017, the canonical program `A028017.P17563709142539021129` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028017 has offset 0).
 
 The definition of A028017 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2428,7 +2429,7 @@ The definition of A028017 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7*12^(n+3)-40*9^(n+3)+35*8^(n+3)-2^(n+4))/840`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028017
@@ -2583,7 +2584,7 @@ end A028017
 /-!
 # A028018: Expansion of 1/((1-2x)(1-8x)(1-10x)(1-11x)).
 
-The programs for A028018, the canonical program `A028018.P3000566333833015566` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028018 has offset 0).
+The programs for A028018, the canonical program `A028018.P3000566333833015566` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028018 has offset 0).
 
 The definition of A028018 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2592,7 +2593,7 @@ The definition of A028018 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(16*11^(n+3)-27*10^(n+3)+12*8^(n+3)-2^(n+3))/432`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028018
@@ -2747,7 +2748,7 @@ end A028018
 /-!
 # A028019: Expansion of 1/((1-2x)(1-8x)(1-10x)(1-12x)).
 
-The programs for A028019, the canonical program `A028019.P1757697459447434439` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028019 has offset 0).
+The programs for A028019, the canonical program `A028019.P1757697459447434439` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028019 has offset 0).
 
 The definition of A028019 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2756,7 +2757,7 @@ The definition of A028019 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6*12^(n+3)-15*10^(n+3)+10*8^(n+3)-2^(n+3))/480`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028019
@@ -3045,7 +3046,7 @@ end A028020.P1039513790552585665
 /-!
 # A028021: Expansion of 1/((1-2x)(1-9x)(1-10x)(1-11x)).
 
-The programs for A028021, the canonical program `A028021.P13457334057264455486` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028021 has offset 0).
+The programs for A028021, the canonical program `A028021.P13457334057264455486` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028021 has offset 0).
 
 The definition of A028021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3054,7 +3055,7 @@ The definition of A028021 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(28*11^(n+3)-63*10^(n+3)+36*9^(n+3)-2^(n+3))/504`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028021
@@ -3417,7 +3418,7 @@ end A028022.P4037840404079224088
 /-!
 # A028023: Expansion of 1/((1-2x)(1-9x)(1-11x)(1-12x)).
 
-The programs for A028023, the canonical program `A028023.P8177061928968976377` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028023 has offset 0).
+The programs for A028023, the canonical program `A028023.P8177061928968976377` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028023 has offset 0).
 
 The definition of A028023 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3426,7 +3427,7 @@ The definition of A028023 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(21*12^(n+3)-35*11^(n+3)+15*9^(n+3)-2^(n+3))/630`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028023
@@ -3604,7 +3605,7 @@ end A028023
 /-!
 # A028024: Expansion of 1/((1-2x)(1-10x)(1-11x)(1-12x)).
 
-The programs for A028024, the canonical program `A028024.P11342237976681919125` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028024 has offset 0).
+The programs for A028024, the canonical program `A028024.P11342237976681919125` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028024 has offset 0).
 
 The definition of A028024 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3613,7 +3614,7 @@ The definition of A028024 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(36*12^(n+3)-80*11^(n+3)+45*10^(n+3)-2^(n+3))/720`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028024
@@ -4034,7 +4035,7 @@ end A028025
 /-!
 # A028026: Expansion of 1/((1-3x)(1-4x)(1-5x)(1-7x)).
 
-The programs for A028026, the canonical program `A028026.P17713287493122255422` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028026 has offset 0).
+The programs for A028026, the canonical program `A028026.P17713287493122255422` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028026 has offset 0).
 
 The definition of A028026 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4043,7 +4044,7 @@ The definition of A028026 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7^(n+3)-6*5^(n+3)+8*4^(n+3)-3^(n+4))/24`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028026
@@ -4178,7 +4179,7 @@ end A028026
 /-!
 # A028027: Expansion of 1 / ((1 - 3*x)*(1 - 4*x)*(1 - 5*x)*(1 - 8*x)).
 
-The programs for A028027, the canonical program `A028027.P12816828639631211538` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028027 has offset 0).
+The programs for A028027, the canonical program `A028027.P12816828639631211538` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028027 has offset 0).
 
 The definition of A028027 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4187,7 +4188,7 @@ The definition of A028027 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8^(n+3)-10*5^(n+3)+15*4^(n+3)-6*3^(n+3))/60`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028027
@@ -4319,7 +4320,7 @@ end A028027
 /-!
 # A028028: Expansion of 1/((1-3*x)*(1-4*x)*(1-5*x)*(1-9*x)).
 
-The programs for A028028, the canonical program `A028028.P12018773882128858980` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028028 has offset 0).
+The programs for A028028, the canonical program `A028028.P12018773882128858980` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028028 has offset 0).
 
 The definition of A028028 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4328,7 +4329,7 @@ The definition of A028028 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `243/40*9^n-125/8*5^n+64/5*4^n-9/4*3^n`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028028
@@ -4394,7 +4395,7 @@ end A028028
 /-!
 # A028029: Expansion of 1/((1-3x)(1-4x)(1-5x)(1-10x)).
 
-The programs for A028029, the canonical program `A028029.P5114941386363700503` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028029 has offset 0).
+The programs for A028029, the canonical program `A028029.P5114941386363700503` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028029 has offset 0).
 
 The definition of A028029 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4403,7 +4404,7 @@ The definition of A028029 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+3)-21*5^(n+3)+35*4^(n+3)-15*3^(n+3))/210`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028029
@@ -4538,7 +4539,7 @@ end A028029
 /-!
 # A028030: Expansion of 1/((1-3x)(1-4x)(1-5x)(1-11x)).
 
-The programs for A028030, the canonical program `A028030.P17354880496093594523` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028030 has offset 0).
+The programs for A028030, the canonical program `A028030.P17354880496093594523` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028030 has offset 0).
 
 The definition of A028030 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4547,7 +4548,7 @@ The definition of A028030 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^(n+3)-28*5^(n+3)+48*4^(n+3)-21*3^(n+3))/336`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028030
@@ -4676,7 +4677,7 @@ end A028030
 /-!
 # A028031: Expansion of 1/((1-3x)(1-4x)(1-5x)(1-12x)).
 
-The programs for A028031, the canonical program `A028031.P10857721197199582604` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028031 has offset 0).
+The programs for A028031, the canonical program `A028031.P10857721197199582604` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028031 has offset 0).
 
 The definition of A028031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4685,7 +4686,7 @@ The definition of A028031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+3)-36*5^(n+3)+63*4^(n+3)-28*3^(n+3))/504`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028031
@@ -4863,7 +4864,7 @@ end A028031
 /-!
 # A028032: Expansion of 1/((1-3x)(1-4x)(1-6x)(1-7x)).
 
-The programs for A028032, the canonical program `A028032.P17711119966446657567` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028032 has offset 0).
+The programs for A028032, the canonical program `A028032.P17711119966446657567` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028032 has offset 0).
 
 The definition of A028032 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4872,7 +4873,7 @@ The definition of A028032 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7^(n+3)-2*6^(n+3)+2*4^(n+3)-3^(n+3))/12`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028032
@@ -5221,7 +5222,7 @@ end A028033
 /-!
 # A028034: Expansion of 1/((1-3x)(1-4x)(1-6x)(1-9x)).
 
-The programs for A028034, the canonical program `A028034.P11537605159952484375` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028034 has offset 0).
+The programs for A028034, the canonical program `A028034.P11537605159952484375` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028034 has offset 0).
 
 The definition of A028034 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5230,7 +5231,7 @@ The definition of A028034 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(9^(n+3)-5*6^(n+3)+9*4^(n+3)-5*3^(n+3))/90`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028034
@@ -5362,7 +5363,7 @@ end A028034
 /-!
 # A028035: Expansion of 1/((1-3x)(1-4x)(1-6x)(1-10x)).
 
-The programs for A028035, the canonical program `A028035.P10814708552198430760` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028035 has offset 0).
+The programs for A028035, the canonical program `A028035.P10814708552198430760` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028035 has offset 0).
 
 The definition of A028035 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5371,7 +5372,7 @@ The definition of A028035 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+3)-7*6^(n+3)+14*4^(n+3)-8*3^(n+3))/168`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028035
@@ -5584,7 +5585,7 @@ end A028036.P1022960984553458881
 /-!
 # A028037: Expansion of 1/((1-3x)(1-4x)(1-6x)(1-12x)).
 
-The programs for A028037, the canonical program `A028037.P4655326577807636979` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028037 has offset 0).
+The programs for A028037, the canonical program `A028037.P4655326577807636979` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028037 has offset 0).
 
 The definition of A028037 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5593,7 +5594,7 @@ The definition of A028037 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+3)-12*6^(n+3)+27*4^(n+3)-16*3^(n+3))/432`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028037
@@ -5722,7 +5723,7 @@ end A028037
 /-!
 # A028038: Expansion of 1/((1-3x)(1-4x)(1-7x)(1-8x)).
 
-The programs for A028038, the canonical program `A028038.P13657263197382989896` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028038 has offset 0).
+The programs for A028038, the canonical program `A028038.P13657263197382989896` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028038 has offset 0).
 
 The definition of A028038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5731,7 +5732,7 @@ The definition of A028038 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*8^(n+3)-5*7^(n+3)+5*4^(n+3)-3^(n+4))/60`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028038
@@ -6011,7 +6012,7 @@ end A028039
 /-!
 # A028040: Expansion of g.f. 1/((1-3*x)*(1-4*x)*(1-7*x)*(1-10*x)).
 
-The programs for A028040, the canonical program `A028040.P7225720076472788256` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028040 has offset 0).
+The programs for A028040, the canonical program `A028040.P7225720076472788256` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028040 has offset 0).
 
 The definition of A028040 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6020,7 +6021,7 @@ The definition of A028040 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*10^(n+3)-7^(n+4)+14*4^(n+3)-3^(n+5))/252`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028040
@@ -6271,7 +6272,7 @@ end A028041.P16698652451815451333
 /-!
 # A028042: Expansion of 1/((1-3x)(1-4x)(1-7x)(1-12x)).
 
-The programs for A028042, the canonical program `A028042.P12878343662682153614` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028042 has offset 0).
+The programs for A028042, the canonical program `A028042.P12878343662682153614` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028042 has offset 0).
 
 The definition of A028042 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6280,7 +6281,7 @@ The definition of A028042 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+3)-6*7^(n+3)+15*4^(n+3)-10*3^(n+3))/360`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028042
@@ -6606,7 +6607,7 @@ end A028043
 /-!
 # A028044: Expansion of 1/((1-3x)(1-4x)(1-8x)(1-10x)).
 
-The programs for A028044, the canonical program `A028044.P9657594243599804500` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028044 has offset 0).
+The programs for A028044, the canonical program `A028044.P9657594243599804500` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028044 has offset 0).
 
 The definition of A028044 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6615,7 +6616,7 @@ The definition of A028044 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+4)-21*8^(n+3)+35*4^(n+3)-8*3^(n+4))/840`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028044
@@ -7201,7 +7202,7 @@ end A028049.P15310630211037216076
 /-!
 # A028050: Expansion of 1/((1-3x)(1-4x)(1-10x)(1-11x)).
 
-The programs for A028050, the canonical program `A028050.P7305795736568797690` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028050 has offset 0).
+The programs for A028050, the canonical program `A028050.P7305795736568797690` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028050 has offset 0).
 
 The definition of A028050 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7210,7 +7211,7 @@ The definition of A028050 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*11^(n+3)-4*10^(n+3)+4^(n+4)-3^(n+4))/168`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028050
@@ -7486,21 +7487,6 @@ end
 
 end A028052.P7769476195150744155
 
-/-! ## A028052.P16064659355847435930
-
-`2*A028073(n)-A028129(n)`
--/
-
-namespace A028052.P16064659355847435930
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A028073 n - A028129 n
-
-end
-
-end A028052.P16064659355847435930
-
 /-! ## A028052.P1295523382600964754
 
 `(A028154(n)+A028042(n))/2`
@@ -7515,6 +7501,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A028052.P1295523382600964754
+
+/-! ## A028052.P16064659355847435930
+
+`2*A028073(n)-A028129(n)`
+-/
+
+namespace A028052.P16064659355847435930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A028073 n - A028129 n
+
+end
+
+end A028052.P16064659355847435930
 
 /-! ## A028052.P15703629330598748204
 
@@ -7537,7 +7538,7 @@ end A028052.P15703629330598748204
 /-!
 # A028053: Expansion of 1/((1-3x)(1-5x)(1-6x)(1-7x)).
 
-The programs for A028053, the canonical program `A028053.P10191691300794784146` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028053 has offset 0).
+The programs for A028053, the canonical program `A028053.P10191691300794784146` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028053 has offset 0).
 
 The definition of A028053 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7546,7 +7547,7 @@ The definition of A028053 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*7^(n+3)-8*6^(n+3)+6*5^(n+3)-3^(n+3))/24`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028053
@@ -7681,7 +7682,7 @@ end A028053
 /-!
 # A028054: Expansion of 1/((1-3x)(1-5x)(1-6x)(1-8x)).
 
-The programs for A028054, the canonical program `A028054.P4347206416303005116` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028054 has offset 0).
+The programs for A028054, the canonical program `A028054.P4347206416303005116` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028054 has offset 0).
 
 The definition of A028054 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7690,7 +7691,7 @@ The definition of A028054 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8^(n+3)-5*6^(n+3)+5^(n+4)-3^(n+3))/30`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028054
@@ -7799,7 +7800,7 @@ end A028054
 /-!
 # A028055: Expansion of 1/((1-3x)(1-5x)(1-6x)(1-9x)).
 
-The programs for A028055, the canonical program `A028055.P14844360270570848733` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028055 has offset 0).
+The programs for A028055, the canonical program `A028055.P14844360270570848733` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028055 has offset 0).
 
 The definition of A028055 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7808,7 +7809,7 @@ The definition of A028055 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(9^(n+3)-8*6^(n+3)+9*5^(n+3)-2*3^(n+3))/72`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028055
@@ -8108,7 +8109,7 @@ end A028056
 /-!
 # A028057: Expansion of 1/((1-3x)(1-5x)(1-6x)(1-11x)).
 
-The programs for A028057, the canonical program `A028057.P8380822359520795287` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028057 has offset 0).
+The programs for A028057, the canonical program `A028057.P8380822359520795287` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028057 has offset 0).
 
 The definition of A028057 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8117,7 +8118,7 @@ The definition of A028057 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^(n+3)-16*6^(n+3)+20*5^(n+3)-5*3^(n+3))/240`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028057
@@ -8406,7 +8407,7 @@ end A028058.P10211443864072125716
 /-!
 # A028059: Expansion of 1/((1-3x)(1-5x)(1-7x)(1-8x)).
 
-The programs for A028059, the canonical program `A028059.P1043984379278065322` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028059 has offset 0).
+The programs for A028059, the canonical program `A028059.P1043984379278065322` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028059 has offset 0).
 
 The definition of A028059 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8415,7 +8416,7 @@ The definition of A028059 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8^(n+4)-15*7^(n+3)+2*5^(n+4)-3^(n+4))/120`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028059
@@ -8616,7 +8617,7 @@ end A028059
 /-!
 # A028060: Expansion of 1/((1-3x)(1-5x)(1-7x)(1-9x)).
 
-The programs for A028060, the canonical program `A028060.P12974437117252257621` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028060 has offset 0).
+The programs for A028060, the canonical program `A028060.P12974437117252257621` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028060 has offset 0).
 
 The definition of A028060 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8625,7 +8626,7 @@ The definition of A028060 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(9^(n+3)-3*7^(n+3)+3*5^(n+3)-3^(n+3))/48`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028060
@@ -8751,29 +8752,6 @@ def P10173598913955714274.Spec : Prop :=
 
 end A028060
 
-/-! ## A028060.P10941301158898295460
-
-`A028062(n)+A028069(n)-A028094(n)`
--/
-
-namespace A028060.P10941301158898295460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028062 n + (A028069 n - A028094 n)
-
-end
-
-end A028060.P10941301158898295460
-
-namespace A028060
-
-/-- `A028062(n)+A028069(n)-A028094(n)` -/
-def P10941301158898295460.Spec : Prop :=
-  ∀ n, P10941301158898295460.a n = A028060 n
-
-end A028060
-
 /-! ## A028060.P13180520563141572192
 
 `A028064(n)+A028069(n)-A028091(n)`
@@ -8794,6 +8772,29 @@ namespace A028060
 /-- `A028064(n)+A028069(n)-A028091(n)` -/
 def P13180520563141572192.Spec : Prop :=
   ∀ n, P13180520563141572192.a n = A028060 n
+
+end A028060
+
+/-! ## A028060.P10941301158898295460
+
+`A028062(n)+A028069(n)-A028094(n)`
+-/
+
+namespace A028060.P10941301158898295460
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028062 n + (A028069 n - A028094 n)
+
+end
+
+end A028060.P10941301158898295460
+
+namespace A028060
+
+/-- `A028062(n)+A028069(n)-A028094(n)` -/
+def P10941301158898295460.Spec : Prop :=
+  ∀ n, P10941301158898295460.a n = A028060 n
 
 end A028060
 
@@ -8991,7 +8992,7 @@ end A028061
 /-!
 # A028062: Expansion of 1/((1-3x)(1-5x)(1-7x)(1-11x)).
 
-The programs for A028062, the canonical program `A028062.P13222406792845821253` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028062 has offset 0).
+The programs for A028062, the canonical program `A028062.P13222406792845821253` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028062 has offset 0).
 
 The definition of A028062 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9000,7 +9001,7 @@ The definition of A028062 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^(n+3)-6*7^(n+3)+8*5^(n+3)-3^(n+4))/192`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028062
@@ -9248,7 +9249,7 @@ end A028063.P10286521613534255365
 /-!
 # A028064: Expansion of 1/((1-3x)(1-5x)(1-8x)(1-9x)).
 
-The programs for A028064, the canonical program `A028064.P11888194564065538857` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028064 has offset 0).
+The programs for A028064, the canonical program `A028064.P11888194564065538857` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028064 has offset 0).
 
 The definition of A028064 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9257,7 +9258,7 @@ The definition of A028064 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*9^(n+3)-8^(n+4)+5^(n+4)-2*3^(n+3))/120`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028064
@@ -9389,7 +9390,7 @@ end A028064
 /-!
 # A028065: Expansion of 1/((1-3x)(1-5x)(1-8x)(1-10x)).
 
-The programs for A028065, the canonical program `A028065.P8386349304357331608` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028065 has offset 0).
+The programs for A028065, the canonical program `A028065.P8386349304357331608` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028065 has offset 0).
 
 The definition of A028065 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9398,7 +9399,7 @@ The definition of A028065 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*10^(n+3)-7*8^(n+3)+7*5^(n+3)-3^(n+4))/210`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028065
@@ -9530,7 +9531,7 @@ end A028065
 /-!
 # A028066: Expansion of 1/((1-3x)(1-5x)(1-8x)(1-11x)).
 
-The programs for A028066, the canonical program `A028066.P5942038051149849148` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028066 has offset 0).
+The programs for A028066, the canonical program `A028066.P5942038051149849148` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028066 has offset 0).
 
 The definition of A028066 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9539,7 +9540,7 @@ The definition of A028066 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*11^(n+3)-2*8^(n+4)+4*5^(n+4)-3^(n+5))/720`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028066
@@ -9878,7 +9879,7 @@ end A028068.P17176541020915807553
 /-!
 # A028069: Expansion of 1/((1-3x)(1-5x)(1-9x)(1-11x)).
 
-The programs for A028069, the canonical program `A028069.P14645588829537545698` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028069 has offset 0).
+The programs for A028069, the canonical program `A028069.P14645588829537545698` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028069 has offset 0).
 
 The definition of A028069 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9887,7 +9888,7 @@ The definition of A028069 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^(n+3)-2*9^(n+3)+2*5^(n+3)-3^(n+3))/96`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028069
@@ -10402,7 +10403,7 @@ end A028073.P14151664666410840906
 /-!
 # A028074: Expansion of 1/((1-3x)(1-6x)(1-7x)(1-8x)).
 
-The programs for A028074, the canonical program `A028074.P14642307180855068707` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028074 has offset 0).
+The programs for A028074, the canonical program `A028074.P14642307180855068707` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028074 has offset 0).
 
 The definition of A028074 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10411,7 +10412,7 @@ The definition of A028074 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6*8^(n+3)-15*7^(n+3)+10*6^(n+3)-3^(n+3))/60`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028074
@@ -10592,7 +10593,7 @@ end A028074
 /-!
 # A028075: Expansion of 1/((1-3x)(1-6x)(1-7x)(1-9x)).
 
-The programs for A028075, the canonical program `A028075.P15754860589753895336` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028075 has offset 0).
+The programs for A028075, the canonical program `A028075.P15754860589753895336` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028075 has offset 0).
 
 The definition of A028075 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10601,7 +10602,7 @@ The definition of A028075 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*9^(n+3)-9*7^(n+3)+8*6^(n+3)-3^(n+3))/72`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028075
@@ -10756,7 +10757,7 @@ end A028075
 /-!
 # A028076: Expansion of 1/((1-3x)(1-6x)(1-7x)(1-10x)).
 
-The programs for A028076, the canonical program `A028076.P5201439453501136997` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028076 has offset 0).
+The programs for A028076, the canonical program `A028076.P5201439453501136997` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028076 has offset 0).
 
 The definition of A028076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10765,7 +10766,7 @@ The definition of A028076 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+3)-7^(n+4)+7*6^(n+3)-3^(n+3))/84`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028076
@@ -11112,21 +11113,6 @@ end
 
 end A028078.P9871397503380398320
 
-/-! ## A028078.P10019524443630157186
-
-`2*A028082(n)-A028092(n)`
--/
-
-namespace A028078.P10019524443630157186
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A028082 n - A028092 n
-
-end
-
-end A028078.P10019524443630157186
-
 /-! ## A028078.P15952416775542558653
 
 `(A028095(n)+A028075(n))/2`
@@ -11141,6 +11127,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A028078.P15952416775542558653
+
+/-! ## A028078.P10019524443630157186
+
+`2*A028082(n)-A028092(n)`
+-/
+
+namespace A028078.P10019524443630157186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A028082 n - A028092 n
+
+end
+
+end A028078.P10019524443630157186
 
 /-! ## A028078.P2050511878747562025
 
@@ -11175,7 +11176,7 @@ end A028078.P14787225915758010546
 /-!
 # A028079: Expansion of 1/((1-3x)(1-6x)(1-8x)(1-9x)).
 
-The programs for A028079, the canonical program `A028079.P17034925631279124755` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028079 has offset 0).
+The programs for A028079, the canonical program `A028079.P17034925631279124755` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028079 has offset 0).
 
 The definition of A028079 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11184,7 +11185,7 @@ The definition of A028079 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*9^(n+3)-9*8^(n+3)+5*6^(n+3)-3^(n+3))/90`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028079
@@ -11503,7 +11504,7 @@ end A028080.P16505924259246485258
 /-!
 # A028081: Expansion of 1/((1-3x)(1-6x)(1-8x)(1-11x)).
 
-The programs for A028081, the canonical program `A028081.P3928408445716120454` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028081 has offset 0).
+The programs for A028081, the canonical program `A028081.P3928408445716120454` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028081 has offset 0).
 
 The definition of A028081 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11512,7 +11513,7 @@ The definition of A028081 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^(n+3)-4*8^(n+3)+4*6^(n+3)-3^(n+3))/120`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028081
@@ -12066,7 +12067,7 @@ end A028084.P16077438078712321564
 /-!
 # A028085: Expansion of 1/((1-3x)(1-6x)(1-9x)(1-12x)).
 
-The programs for A028085, the canonical program `A028085.P4564347766142793042` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028085 has offset 0).
+The programs for A028085, the canonical program `A028085.P4564347766142793042` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028085 has offset 0).
 
 The definition of A028085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12075,7 +12076,7 @@ The definition of A028085 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+3)-3*9^(n+3)+3*6^(n+3)-3^(n+3))/162`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028085
@@ -12599,7 +12600,7 @@ end A028088.P254977037535938467
 /-!
 # A028089: Expansion of 1/((1-3x)(1-7x)(1-8x)(1-9x)).
 
-The programs for A028089, the canonical program `A028089.P7234174416746759796` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028089 has offset 0).
+The programs for A028089, the canonical program `A028089.P7234174416746759796` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028089 has offset 0).
 
 The definition of A028089 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12608,7 +12609,7 @@ The definition of A028089 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10*9^(n+3)-24*8^(n+3)+15*7^(n+3)-3^(n+3))/120`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028089
@@ -12789,7 +12790,7 @@ end A028089
 /-!
 # A028090: Expansion of 1/((1-3x)(1-7x)(1-8x)(1-10x)).
 
-The programs for A028090, the canonical program `A028090.P10288038321226916636` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028090 has offset 0).
+The programs for A028090, the canonical program `A028090.P10288038321226916636` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028090 has offset 0).
 
 The definition of A028090 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12798,7 +12799,7 @@ The definition of A028090 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+4)-42*8^(n+3)+5*7^(n+4)-3^(n+4))/420`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028090
@@ -12930,7 +12931,7 @@ end A028090
 /-!
 # A028091: Expansion of 1/((1-3x)(1-7x)(1-8x)(1-11x)).
 
-The programs for A028091, the canonical program `A028091.P9287121259074471476` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028091 has offset 0).
+The programs for A028091, the canonical program `A028091.P9287121259074471476` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028091 has offset 0).
 
 The definition of A028091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12939,7 +12940,7 @@ The definition of A028091 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*11^(n+3)-32*8^(n+3)+30*7^(n+3)-3^(n+4))/480`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028091
@@ -13022,29 +13023,6 @@ def P12201344211538243061.Spec : Prop :=
 
 end A028091
 
-/-! ## A028091.P1220527806316265175
-
-`A028057(n)+A028077(n)-A028059(n)`
--/
-
-namespace A028091.P1220527806316265175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028057 n + (A028077 n - A028059 n)
-
-end
-
-end A028091.P1220527806316265175
-
-namespace A028091
-
-/-- `A028057(n)+A028077(n)-A028059(n)` -/
-def P1220527806316265175.Spec : Prop :=
-  ∀ n, P1220527806316265175.a n = A028091 n
-
-end A028091
-
 /-! ## A028091.P14177864634525105460
 
 `A028060(n)+A028069(n)-A028059(n)`
@@ -13065,6 +13043,29 @@ namespace A028091
 /-- `A028060(n)+A028069(n)-A028059(n)` -/
 def P14177864634525105460.Spec : Prop :=
   ∀ n, P14177864634525105460.a n = A028091 n
+
+end A028091
+
+/-! ## A028091.P1220527806316265175
+
+`A028057(n)+A028077(n)-A028059(n)`
+-/
+
+namespace A028091.P1220527806316265175
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028057 n + (A028077 n - A028059 n)
+
+end
+
+end A028091.P1220527806316265175
+
+namespace A028091
+
+/-- `A028057(n)+A028077(n)-A028059(n)` -/
+def P1220527806316265175.Spec : Prop :=
+  ∀ n, P1220527806316265175.a n = A028091 n
 
 end A028091
 
@@ -13094,7 +13095,7 @@ end A028091
 /-!
 # A028092: Expansion of 1/((1-3x)(1-7x)(1-8x)(1-12x)).
 
-The programs for A028092, the canonical program `A028092.P1923259636261706114` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028092 has offset 0).
+The programs for A028092, the canonical program `A028092.P1923259636261706114` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028092 has offset 0).
 
 The definition of A028092 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13103,7 +13104,7 @@ The definition of A028092 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+3)-9*8^(n+3)+9*7^(n+3)-3^(n+3))/180`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028092
@@ -13258,7 +13259,7 @@ end A028092
 /-!
 # A028093: Expansion of 1/((1-3x)(1-7x)(1-9x)(1-10x)).
 
-The programs for A028093, the canonical program `A028093.P9886859239768555841` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028093 has offset 0).
+The programs for A028093, the canonical program `A028093.P9886859239768555841` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028093 has offset 0).
 
 The definition of A028093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13267,7 +13268,7 @@ The definition of A028093 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8*10^(n+3)-14*9^(n+3)+7^(n+4)-3^(n+3))/168`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028093
@@ -13422,7 +13423,7 @@ end A028093
 /-!
 # A028094: Expansion of 1/((1-3x)(1-7x)(1-9x)(1-11x)).
 
-The programs for A028094, the canonical program `A028094.P2023324370129026564` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028094 has offset 0).
+The programs for A028094, the canonical program `A028094.P2023324370129026564` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028094 has offset 0).
 
 The definition of A028094 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13431,7 +13432,7 @@ The definition of A028094 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*11^(n+3)-8*9^(n+3)+6*7^(n+3)-3^(n+3))/192`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028094
@@ -13633,7 +13634,7 @@ end A028095.P2776244197956227396
 /-!
 # A028096: Expansion of 1/((1-3x)(1-7x)(1-10x)(1-11x)).
 
-The programs for A028096, the canonical program `A028096.P11721842921896235933` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028096 has offset 0).
+The programs for A028096, the canonical program `A028096.P11721842921896235933` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028096 has offset 0).
 
 The definition of A028096 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13642,7 +13643,7 @@ The definition of A028096 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(21*11^(n+3)-32*10^(n+3)+2*7^(n+4)-3^(n+4))/672`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028096
@@ -13954,7 +13955,7 @@ end A028098.P4355206346226742193
 /-!
 # A028099: Expansion of 1/((1 - 3*x)*(1 - 8*x)*(1 - 9*x)*(1 - 10*x)).
 
-The programs for A028099, the canonical program `A028099.P1391782388765886958` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028099 has offset 0).
+The programs for A028099, the canonical program `A028099.P1391782388765886958` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028099 has offset 0).
 
 The definition of A028099 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13963,7 +13964,7 @@ The definition of A028099 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(15*10^(n+3)-35*9^(n+3)+21*8^(n+3)-3^(n+3))/210`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A028099

@@ -2,53 +2,60 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -217,21 +224,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301105.P4284625295110488167
-
-/-! ## A301105.P4237080871966412783
-
-`A008000(n)-A325699(A001358(3*n+2))`
--/
-
-namespace A301105.P4237080871966412783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008000 n - A325699 (A001358 (3 * n + 2)).toNat
-
-end
-
-end A301105.P4237080871966412783
 
 /-!
 # A301108: Coordination sequence T8 for Zeolite Code IWW.
@@ -844,25 +836,85 @@ end
 end A301134.P5939222895807992112
 
 /-!
+# A301137: Coordination sequence T1 for Zeolite Code NAB.
+
+The programs for A301137, the canonical program `A301137.P7974557138332433787` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301137 has offset 0).
+
+The definition of A301137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A301137.P7974557138332433787
+
+`ogf((1+4x+9x^2+16x^3+28x^4+28x^5+26x^6+7x^7-x^9+2x^11)/(1-3x^3+3x^6-x^9))`
+
+The canonical program, it is in `Seq.B000.C042`.
+-/
+
+namespace A301137
+
+/-- `ogf((1+4x+9x^2+16x^3+28x^4+28x^5+26x^6+7x^7-x^9+2x^11)/(1-3x^3+3x^6-x^9))` -/
+def P7974557138332433787.Spec : Prop :=
+  ∀ n, P7974557138332433787.a n = A301137 n
+
+theorem P7974557138332433787.correct : P7974557138332433787.Spec := by
+  intro n
+  simp only [A301137]
+
+end A301137
+
+/-!
+# A301138: Coordination sequence T2 for Zeolite Code NAB.
+
+The programs for A301138, the canonical program `A301138.P9442094132741063075` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301138 has offset 0).
+
+The definition of A301138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A301138.P9442094132741063075
+
+`ogf((1+4x+8x^2+18x^3+31x^4+32x^5+35x^6+22x^7+4x^8+4x^9+x^10)/(1-2x^3-x^4+x^6+2x^7-x^10))`
+
+The canonical program, it is in `Seq.B000.C042`.
+-/
+
+namespace A301138
+
+/-- `ogf((1+4x+8x^2+18x^3+31x^4+32x^5+35x^6+22x^7+4x^8+4x^9+x^10)/(1-2x^3-x^4+x^6+2x^7-x^10))` -/
+def P9442094132741063075.Spec : Prop :=
+  ∀ n, P9442094132741063075.a n = A301138 n
+
+theorem P9442094132741063075.correct : P9442094132741063075.Spec := by
+  intro n
+  simp only [A301138]
+
+end A301138
+
+/-!
 # A301139: Coordination sequence T1 for Zeolite Code NPO.
 
-The programs for A301139, there is no canonical definition to state claims against.
+The programs for A301139, the canonical program `A301139.P4143244814413161815` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301139 has offset 0).
+
+The definition of A301139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A301139.P10937962026611272221
+/-! ## A301139.P4143244814413161815
 
-`A047951(n)-A086520(A041165(n))`
+`ogf((1+4x+10x^2+20x^3+31x^4+46x^5+52x^6+48x^7+45x^8+24x^9+6x^10+4x^11-x^12-2x^13)/(1-3x^4+3x^8-x^12))`
+
+The canonical program, it is in `Seq.B000.C042`.
 -/
 
-namespace A301139.P10937962026611272221
-noncomputable section
+namespace A301139
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047951 n - A086520 (A041165 n).toNat
+/-- `ogf((1+4x+10x^2+20x^3+31x^4+46x^5+52x^6+48x^7+45x^8+24x^9+6x^10+4x^11-x^12-2x^13)/(1-3x^4+3x^8-x^12))` -/
+def P4143244814413161815.Spec : Prop :=
+  ∀ n, P4143244814413161815.a n = A301139 n
 
-end
+theorem P4143244814413161815.correct : P4143244814413161815.Spec := by
+  intro n
+  simp only [A301139]
 
-end A301139.P10937962026611272221
+end A301139
 
 /-! ## A301139.P8200005413343893856
 
@@ -879,11 +931,40 @@ end
 
 end A301139.P8200005413343893856
 
+namespace A301139
+
+/-- `A067029(A343245(floor(2*n/5)))+A008013(n)` -/
+def P8200005413343893856.Spec : Prop :=
+  ∀ n, P8200005413343893856.a n = A301139 n
+
+end A301139
+
 /-!
 # A301141: Coordination sequence T2 for Zeolite Code NSI.
 
-The programs for A301141, there is no canonical definition to state claims against.
+The programs for A301141, the canonical program `A301141.P13328045722741407979` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301141 has offset 0).
+
+The definition of A301141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A301141.P13328045722741407979
+
+`ogf((1+4x+14x^2+32x^3+59x^4+88x^5+116x^6+123x^7+116x^8+88x^9+59x^10+32x^11+14x^12+4x^13+x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))`
+
+The canonical program, it is in `Seq.B000.C042`.
+-/
+
+namespace A301141
+
+/-- `ogf((1+4x+14x^2+32x^3+59x^4+88x^5+116x^6+123x^7+116x^8+88x^9+59x^10+32x^11+14x^12+4x^13+x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))` -/
+def P13328045722741407979.Spec : Prop :=
+  ∀ n, P13328045722741407979.a n = A301141 n
+
+theorem P13328045722741407979.correct : P13328045722741407979.Spec := by
+  intro n
+  simp only [A301141]
+
+end A301141
 
 /-! ## A301141.P2960487126625119545
 
@@ -899,6 +980,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301141.P2960487126625119545
+
+namespace A301141
+
+/-- `xor(A025581(n), A082447(A101094(n+1)))` -/
+def P2960487126625119545.Spec : Prop :=
+  ∀ n, P2960487126625119545.a n = A301141 n
+
+end A301141
 
 /-!
 # A301148: Coordination sequence T1 for Zeolite Code OSO.

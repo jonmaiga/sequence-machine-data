@@ -7,25 +7,23 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C018
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,13 +31,14 @@ import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C011
-import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C003
 import Seq.B005.C000
@@ -50,7 +49,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,8 +72,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A354600: a(n) = Product_{k=0..9} floor((n+k)/10).
@@ -584,16 +581,39 @@ end A354607.P17074262471526198637
 /-!
 # A354608: Number of quadruples (p_1, ..., p_4) of positive integers such that p_{i-1} <= p_i <= n^(i-1).
 
-The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
+The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
 
 The definition of A354608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A354608.P6902218475605470885
+
+`ogf((x+37x^2+254x^3+338x^4+89x^5+x^6)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))`
+-/
+
+namespace A354608.P6902218475605470885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 37, 254, 338, 89, 1] [1, -7, 21, -35, 35, -21, 7, -1] n
+
+end
+
+end A354608.P6902218475605470885
+
+namespace A354608
+
+/-- `ogf((x+37x^2+254x^3+338x^4+89x^5+x^6)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))` -/
+def P6902218475605470885.Spec : Prop :=
+  ∀ n, P6902218475605470885.a n = A354608 n
+
+end A354608
 
 /-! ## A354608.P10661157815454466776
 
 `(((((6*n-6)*n+3)*n+4)*n-3)*n+2)*n/6`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A354608
@@ -682,29 +702,6 @@ namespace A354608
 /-- `A355576(A141214(n+1)+7)` -/
 def P5662516186892524204.Spec : Prop :=
   ∀ n, P5662516186892524204.a n = A354608 n
-
-end A354608
-
-/-! ## A354608.P9148902409183073417
-
-`A355576(A055999(n+1)+10)`
--/
-
-namespace A354608.P9148902409183073417
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355576 (A055999 (n + 1) + 10).toNat
-
-end
-
-end A354608.P9148902409183073417
-
-namespace A354608
-
-/-- `A355576(A055999(n+1)+10)` -/
-def P9148902409183073417.Spec : Prop :=
-  ∀ n, P9148902409183073417.a n = A354608 n
 
 end A354608
 
@@ -2575,21 +2572,6 @@ end
 
 end A354661.P16831513403336265703
 
-/-! ## A354661.P5591249222552050450
-
-`A319935(A319911(n+1))%46`
--/
-
-namespace A354661.P5591249222552050450
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A319935 (A319911 (n + 1)).toNat) 46
-
-end
-
-end A354661.P5591249222552050450
-
 /-! ## A354661.P434352718361909142
 
 `A349127(A000045(n-∏{digits}[n, #]+3+n)+1)`
@@ -2658,21 +2640,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354662.P11267661395534877867
-
-/-! ## A354662.P15389068764529938766
-
-`(n+1)*A340854(A000110(n))`
--/
-
-namespace A354662.P15389068764529938766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A340854 (A000110 n).toNat
-
-end
-
-end A354662.P15389068764529938766
 
 /-!
 # A354665: Triangle read by rows, T(n,k) = T(n-1,k) + T(n-1,k-1) - T(n-2,k-1) + T(n-2,k-2) + T(n-3,k-1) - T(n-3,k-3) + delta(n,0)*delta(k,0) - delta(n,1)*delta(k,1), T(n<k,k) = T(n,k<0) = 0.
@@ -3001,16 +2968,39 @@ end A354668.P1981478775188786914
 /-!
 # A354673: Smallest number of unit cells that must be removed from an n X n square board in order to avoid any cycles.
 
-The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
+The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
 
 The definition of A354673 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A354673.P11919674481947045566
+
+`ogf((x+x^3+2x^5-x^6+x^7-x^8+x^9)/(1-2x+x^2-x^6+2x^7-x^8))`
+-/
+
+namespace A354673.P11919674481947045566
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, 1, 0, 2, -1, 1, -1, 1] [1, -2, 1, 0, 0, 0, -1, 2, -1] n
+
+end
+
+end A354673.P11919674481947045566
+
+namespace A354673
+
+/-- `ogf((x+x^3+2x^5-x^6+x^7-x^8+x^9)/(1-2x+x^2-x^6+2x^7-x^8))` -/
+def P11919674481947045566.Spec : Prop :=
+  ∀ n, P11919674481947045566.a n = A354673 (n + 1)
+
+end A354673
 
 /-! ## A354673.P15005755192682061621
 
 `2*a(n-1)-a(n-2)+a(n-6)-2*a(n-7)+a(n-8)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4, a(4)=6, a(5)=10, a(6)=13, a(7)=18, a(8)=22, a(9)=28`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A354673

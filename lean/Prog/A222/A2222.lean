@@ -10,37 +10,41 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C001
 import Seq.B003.C001
 import Seq.B005.C000
@@ -53,7 +57,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -61,14 +64,13 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5240,7 +5242,7 @@ end A222255.P9267594189623925012
 /-!
 # A222256: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 6 consecutive terms is always divisible by 6.
 
-The programs for A222256, the canonical program `A222256.P15888438300221709581` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222256 has offset 0).
+The programs for A222256, the canonical program `A222256.P15888438300221709581` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222256 has offset 0).
 
 The definition of A222256 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5249,7 +5251,7 @@ The definition of A222256 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-2)*(n%3)!+2`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222256
@@ -5261,6 +5263,29 @@ def P15888438300221709581.Spec : Prop :=
 theorem P15888438300221709581.correct : P15888438300221709581.Spec := by
   intro n
   simp only [A222256]
+
+end A222256
+
+/-! ## A222256.P11380326759794405412
+
+`ogf((x+2x^2+3x^3+2x^4+4x^5)/(1-2x^3+x^6))`
+-/
+
+namespace A222256.P11380326759794405412
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 3, 2, 4] [1, 0, 0, -2, 0, 0, 1] n
+
+end
+
+end A222256.P11380326759794405412
+
+namespace A222256
+
+/-- `ogf((x+2x^2+3x^3+2x^4+4x^5)/(1-2x^3+x^6))` -/
+def P11380326759794405412.Spec : Prop :=
+  ∀ n, P11380326759794405412.a n = A222256 n
 
 end A222256
 
@@ -5693,33 +5718,10 @@ def P16499641514713609038.Spec : Prop :=
 
 end A222256
 
-/-! ## A222256.P2175506193321608675
-
-`(A131531(2*(n+1))+n)*A131556(2*n)`
--/
-
-namespace A222256.P2175506193321608675
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A131531 (2 * (n + 1)) + (n : ℤ)) * A131556 (2 * n)
-
-end
-
-end A222256.P2175506193321608675
-
-namespace A222256
-
-/-- `(A131531(2*(n+1))+n)*A131556(2*n)` -/
-def P2175506193321608675.Spec : Prop :=
-  ∀ n, P2175506193321608675.a n = A222256 n
-
-end A222256
-
 /-!
 # A222257: Lexicographically earliest injective sequence of positive integers such that the sum of 6 consecutive terms is always divisible by 6.
 
-The programs for A222257, the canonical program `A222257.P837831485803070787` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222257 has offset 0).
+The programs for A222257, the canonical program `A222257.P837831485803070787` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222257 has offset 0).
 
 The definition of A222257 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5728,7 +5730,7 @@ The definition of A222257 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-2)*(n%3)!+3`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222257
@@ -5740,6 +5742,29 @@ def P837831485803070787.Spec : Prop :=
 theorem P837831485803070787.correct : P837831485803070787.Spec := by
   intro n
   simp only [A222257]
+
+end A222257
+
+/-! ## A222257.P12705326914960982632
+
+`ogf((1+2x+3x^2+2x^3+x^4+3x^5)/(1-2x^3+x^6))`
+-/
+
+namespace A222257.P12705326914960982632
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3, 2, 1, 3] [1, 0, 0, -2, 0, 0, 1] n
+
+end
+
+end A222257.P12705326914960982632
+
+namespace A222257
+
+/-- `ogf((1+2x+3x^2+2x^3+x^4+3x^5)/(1-2x^3+x^6))` -/
+def P12705326914960982632.Spec : Prop :=
+  ∀ n, P12705326914960982632.a n = A222257 n
 
 end A222257
 
@@ -6103,7 +6128,7 @@ end A222257
 /-!
 # A222258: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 8 consecutive terms is always divisible by 8.
 
-The programs for A222258, the canonical program `A222258.P17652540115013236761` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222258 has offset 0).
+The programs for A222258, the canonical program `A222258.P17652540115013236761` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222258 has offset 0).
 
 The definition of A222258 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6112,7 +6137,7 @@ The definition of A222258 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-4)-a(n-8)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=5, a(6)=6, a(7)=11`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222258
@@ -6124,6 +6149,29 @@ def P17652540115013236761.Spec : Prop :=
 theorem P17652540115013236761.correct : P17652540115013236761.Spec := by
   intro n
   simp only [A222258]
+
+end A222258
+
+/-! ## A222258.P7625073024812913083
+
+`ogf((x+2x^2+3x^3+4x^4+3x^5+2x^6+5x^7)/(1-2x^4+x^8))`
+-/
+
+namespace A222258.P7625073024812913083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 3, 4, 3, 2, 5] [1, 0, 0, 0, -2, 0, 0, 0, 1] n
+
+end
+
+end A222258.P7625073024812913083
+
+namespace A222258
+
+/-- `ogf((x+2x^2+3x^3+4x^4+3x^5+2x^6+5x^7)/(1-2x^4+x^8))` -/
+def P7625073024812913083.Spec : Prop :=
+  ∀ n, P7625073024812913083.a n = A222258 n
 
 end A222258
 
@@ -6484,7 +6532,7 @@ end A222258
 /-!
 # A222259: Lexicographically earliest injective sequence of positive integers such that the sum of 8 consecutive terms is always divisible by 8.
 
-The programs for A222259, the canonical program `A222259.P13271339923932653629` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222259 has offset 1).
+The programs for A222259, the canonical program `A222259.P13271339923932653629` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222259 has offset 1).
 
 The definition of A222259 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6493,7 +6541,7 @@ The definition of A222259 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-4)-a(n-8)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=12`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222259
@@ -6505,6 +6553,29 @@ def P13271339923932653629.Spec : Prop :=
 theorem P13271339923932653629.correct : P13271339923932653629.Spec := by
   intro n
   simp only [A222259, Nat.add_sub_cancel]
+
+end A222259
+
+/-! ## A222259.P8930792439098070565
+
+`ogf((1+2x+3x^2+4x^3+3x^4+2x^5+x^6+4x^7)/(1-2x^4+x^8))`
+-/
+
+namespace A222259.P8930792439098070565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3, 4, 3, 2, 1, 4] [1, 0, 0, 0, -2, 0, 0, 0, 1] n
+
+end
+
+end A222259.P8930792439098070565
+
+namespace A222259
+
+/-- `ogf((1+2x+3x^2+4x^3+3x^4+2x^5+x^6+4x^7)/(1-2x^4+x^8))` -/
+def P8930792439098070565.Spec : Prop :=
+  ∀ n, P8930792439098070565.a n = A222259 (n + 1)
 
 end A222259
 
@@ -6753,7 +6824,7 @@ end A222259
 /-!
 # A222260: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 10 consecutive terms is always divisible by 10.
 
-The programs for A222260, the canonical program `A222260.P8224998973582597758` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222260 has offset 0).
+The programs for A222260, the canonical program `A222260.P8224998973582597758` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222260 has offset 0).
 
 The definition of A222260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6762,7 +6833,7 @@ The definition of A222260 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-5)-a(n-10)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=5, a(6)=6, a(7)=7, a(8)=8, a(9)=14`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222260
@@ -6774,6 +6845,29 @@ def P8224998973582597758.Spec : Prop :=
 theorem P8224998973582597758.correct : P8224998973582597758.Spec := by
   intro n
   simp only [A222260]
+
+end A222260
+
+/-! ## A222260.P4780685594806851334
+
+`ogf((x+2x^2+3x^3+4x^4+5x^5+4x^6+3x^7+2x^8+6x^9)/(1-2x^5+x^10))`
+-/
+
+namespace A222260.P4780685594806851334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 3, 4, 5, 4, 3, 2, 6] [1, 0, 0, 0, 0, -2, 0, 0, 0, 0, 1] n
+
+end
+
+end A222260.P4780685594806851334
+
+namespace A222260
+
+/-- `ogf((x+2x^2+3x^3+4x^4+5x^5+4x^6+3x^7+2x^8+6x^9)/(1-2x^5+x^10))` -/
+def P4780685594806851334.Spec : Prop :=
+  ∀ n, P4780685594806851334.a n = A222260 n
 
 end A222260
 
@@ -7028,7 +7122,7 @@ end A222260
 /-!
 # A222261: Lexicographically earliest injective sequence of positive integers such that the sum of 10 consecutive terms is always divisible by 10.
 
-The programs for A222261, the canonical program `A222261.P5777319055320810028` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222261 has offset 1).
+The programs for A222261, the canonical program `A222261.P5777319055320810028` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222261 has offset 1).
 
 The definition of A222261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7037,7 +7131,7 @@ The definition of A222261 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-5)-a(n-10)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=8, a(8)=9, a(9)=15`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222261
@@ -7049,6 +7143,29 @@ def P5777319055320810028.Spec : Prop :=
 theorem P5777319055320810028.correct : P5777319055320810028.Spec := by
   intro n
   simp only [A222261, Nat.add_sub_cancel]
+
+end A222261
+
+/-! ## A222261.P6066372271730801669
+
+`ogf((1+2x+3x^2+4x^3+5x^4+4x^5+3x^6+2x^7+x^8+5x^9)/(1-2x^5+x^10))`
+-/
+
+namespace A222261.P6066372271730801669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3, 4, 5, 4, 3, 2, 1, 5] [1, 0, 0, 0, 0, -2, 0, 0, 0, 0, 1] n
+
+end
+
+end A222261.P6066372271730801669
+
+namespace A222261
+
+/-- `ogf((1+2x+3x^2+4x^3+5x^4+4x^5+3x^6+2x^7+x^8+5x^9)/(1-2x^5+x^10))` -/
+def P6066372271730801669.Spec : Prop :=
+  ∀ n, P6066372271730801669.a n = A222261 (n + 1)
 
 end A222261
 
@@ -8180,6 +8297,21 @@ end A222275.P17165883675771926480
 The programs for A222276, there is no canonical definition to state claims against.
 -/
 
+/-! ## A222276.P16821576421289717613
+
+`ogf((25-95x)/(1-92x+335x^2))`
+-/
+
+namespace A222276.P16821576421289717613
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [25, -95] [1, -92, 335] n
+
+end
+
+end A222276.P16821576421289717613
+
 /-! ## A222276.P6684327970597560000
 
 `A222281(∑[n+2]+4)`
@@ -8242,21 +8374,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222276.P1825858430537027973
-
-/-! ## A222276.P9339571033998346058
-
-`or(A057427(n), A222281(A167614(n+1)))`
--/
-
-namespace A222276.P9339571033998346058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A057427 n) (A222281 (A167614 (n + 1)).toNat)
-
-end
-
-end A222276.P9339571033998346058
 
 /-!
 # A222277: Number of n X 4 0..5 arrays with no entry increasing mod 6 by 5 rightwards or downwards, starting with upper left zero.
@@ -9334,21 +9451,6 @@ end
 
 end A222290.P17081070522062368487
 
-/-! ## A222290.P5390744325620549241
-
-`A331166(A222275(n+1))%A090748(3*n+4)`
--/
-
-namespace A222290.P5390744325620549241
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A331166 (A222275 (n + 1)).toNat) (A090748 (3 * n + 4))
-
-end
-
-end A222290.P5390744325620549241
-
 /-!
 # A222291: Least number whose Collatz (3x+1) trajectory has a number greater than 10^n.
 
@@ -9465,27 +9567,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222294.P13680824225706240298
-
-/-!
-# A222298: Length of the Gaussian prime spiral beginning at the n-th positive real Gaussian prime (A002145).
-
-The programs for A222298, there is no canonical definition to state claims against.
--/
-
-/-! ## A222298.P14787532199681991977
-
-`A137311(2*A063431(n+1))`
--/
-
-namespace A222298.P14787532199681991977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137311 (2 * A063431 (n + 1)).toNat
-
-end
-
-end A222298.P14787532199681991977
 
 /-!
 # A222299: Number of different Gaussian primes in the Gaussian prime spiral beginning at the n-th positive real Gaussian prime (A002145).

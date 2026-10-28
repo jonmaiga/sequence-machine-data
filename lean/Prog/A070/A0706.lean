@@ -8,24 +8,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C011
+import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -39,15 +44,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -61,8 +68,8 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
-import Seq.Opaque.C015
+import Seq.Opaque.C014
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -70,7 +77,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -160,7 +166,7 @@ end A070600.P7913814548166763688
 /-!
 # A070601: n^5 mod 17.
 
-The programs for A070601, the canonical program `A070601.P15890532136264960557` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070601 has offset 0).
+The programs for A070601, the canonical program `A070601.P15890532136264960557` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070601 has offset 0).
 
 The definition of A070601 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%17` (program `A070601.P15890532136264960557`, by `A070601.P15890532136264960557.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -169,7 +175,7 @@ The definition of A070601 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%17`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070601
@@ -187,7 +193,7 @@ end A070601
 /-!
 # A070602: a(n) = n^5 mod 18.
 
-The programs for A070602, the canonical program `A070602.P10752447907995977523` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070602 has offset 0).
+The programs for A070602, the canonical program `A070602.P10752447907995977523` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070602 has offset 0).
 
 The definition of A070602 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%18` (program `A070602.P10752447907995977523`, by `A070602.P10752447907995977523.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -196,7 +202,7 @@ The definition of A070602 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%18`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070602
@@ -214,7 +220,7 @@ end A070602
 /-!
 # A070603: a(n) = n^5 mod 19.
 
-The programs for A070603, the canonical program `A070603.P480176259783977788` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070603 has offset 0).
+The programs for A070603, the canonical program `A070603.P480176259783977788` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070603 has offset 0).
 
 The definition of A070603 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%19` (program `A070603.P480176259783977788`, by `A070603.P480176259783977788.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -223,7 +229,7 @@ The definition of A070603 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%19`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070603
@@ -241,7 +247,7 @@ end A070603
 /-!
 # A070604: a(n) = n^5 mod 20.
 
-The programs for A070604, the canonical program `A070604.P17152098815249427293` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070604 has offset 0).
+The programs for A070604, the canonical program `A070604.P17152098815249427293` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070604 has offset 0).
 
 The definition of A070604 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%20` (program `A070604.P17152098815249427293`, by `A070604.P17152098815249427293.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -250,7 +256,7 @@ The definition of A070604 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%20`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070604
@@ -268,7 +274,7 @@ end A070604
 /-!
 # A070605: n^5 mod 21.
 
-The programs for A070605, the canonical program `A070605.P5615555639683985544` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070605 has offset 0).
+The programs for A070605, the canonical program `A070605.P5615555639683985544` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070605 has offset 0).
 
 The definition of A070605 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%21` (program `A070605.P5615555639683985544`, by `A070605.P5615555639683985544.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -277,7 +283,7 @@ The definition of A070605 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%21`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070605
@@ -295,7 +301,7 @@ end A070605
 /-!
 # A070606: a(n) = n^5 mod 22.
 
-The programs for A070606, the canonical program `A070606.P10540796150880092643` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070606 has offset 0).
+The programs for A070606, the canonical program `A070606.P10540796150880092643` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070606 has offset 0).
 
 The definition of A070606 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%22` (program `A070606.P10540796150880092643`, by `A070606.P10540796150880092643.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -304,7 +310,7 @@ The definition of A070606 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%22`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070606
@@ -322,7 +328,7 @@ end A070606
 /-!
 # A070607: a(n) = n^5 mod 23.
 
-The programs for A070607, the canonical program `A070607.P15348654201308153211` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070607 has offset 0).
+The programs for A070607, the canonical program `A070607.P15348654201308153211` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070607 has offset 0).
 
 The definition of A070607 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%23` (program `A070607.P15348654201308153211`, by `A070607.P15348654201308153211.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -331,7 +337,7 @@ The definition of A070607 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%23`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070607
@@ -349,7 +355,7 @@ end A070607
 /-!
 # A070609: a(n) = n^5 mod 25.
 
-The programs for A070609, the canonical program `A070609.P10232034111706142340` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070609 has offset 0).
+The programs for A070609, the canonical program `A070609.P10232034111706142340` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070609 has offset 0).
 
 The definition of A070609 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%25` (program `A070609.P10232034111706142340`, by `A070609.P10232034111706142340.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -358,7 +364,7 @@ The definition of A070609 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%25`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070609
@@ -376,23 +382,29 @@ end A070609
 /-!
 # A070610: Number of positive integers k such that sigma(k) divides sigma(n).
 
-The programs for A070610, there is no canonical definition to state claims against.
+The programs for A070610, the canonical program `A070610.P5818742011114903418` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070610 has offset 1).
+
+The definition of A070610 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A070610.P5818742011114903418
 
 `A074754(A000203(n+1))`
+
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
-namespace A070610.P5818742011114903418
-noncomputable section
+namespace A070610
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074754 (A000203 (n + 1)).toNat
+/-- `A074754(A000203(n+1))` -/
+def P5818742011114903418.Spec : Prop :=
+  ∀ n, P5818742011114903418.a n = A070610 (n + 1)
 
-end
+theorem P5818742011114903418.correct : P5818742011114903418.Spec := by
+  intro n
+  simp only [A070610, Nat.add_sub_cancel]
 
-end A070610.P5818742011114903418
+end A070610
 
 /-! ## A070610.P322265166540509447
 
@@ -412,6 +424,14 @@ end
 
 end A070610.P322265166540509447
 
+namespace A070610
+
+/-- `A074754(∑{d}[n+1, #])` -/
+def P322265166540509447.Spec : Prop :=
+  ∀ n, P322265166540509447.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P17511197397581690843
 
 `A074754(A039653(n+1)+1)`
@@ -426,6 +446,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P17511197397581690843
+
+namespace A070610
+
+/-- `A074754(A039653(n+1)+1)` -/
+def P17511197397581690843.Spec : Prop :=
+  ∀ n, P17511197397581690843.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P14940101371585992684
 
@@ -442,6 +470,20 @@ end
 
 end A070610.P14940101371585992684
 
+namespace A070610
+
+/-- `A074754(A088580(n+1)-1)` -/
+def P14940101371585992684.Spec : Prop :=
+  ∀ n, P14940101371585992684.a n = A070610 (n + 1)
+
+theorem P14940101371585992684.correct : P14940101371585992684.Spec := by
+  intro n
+  simp only [A070610, Nat.add_sub_cancel, A070610.P14940101371585992684.a, A070610.P5818742011114903418.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A074754, A074754.P14534040090181209810.f1, A074754.P14534040090181209810.a, A088580, A088580.P3089093194242277422.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A070610
+
 /-! ## A070610.P10404457592525436062
 
 `A074754(A239050(n+1)/4)`
@@ -456,6 +498,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P10404457592525436062
+
+namespace A070610
+
+/-- `A074754(A239050(n+1)/4)` -/
+def P10404457592525436062.Spec : Prop :=
+  ∀ n, P10404457592525436062.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P3071970521174861335
 
@@ -472,6 +522,14 @@ end
 
 end A070610.P3071970521174861335
 
+namespace A070610
+
+/-- `A074754(A274535(n+1)/5)` -/
+def P3071970521174861335.Spec : Prop :=
+  ∀ n, P3071970521174861335.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P8629081102026229895
 
 `A074754(A326122(n+1)/10)`
@@ -486,6 +544,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P8629081102026229895
+
+namespace A070610
+
+/-- `A074754(A326122(n+1)/10)` -/
+def P8629081102026229895.Spec : Prop :=
+  ∀ n, P8629081102026229895.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P6114585860892064341
 
@@ -502,6 +568,20 @@ end
 
 end A070610.P6114585860892064341
 
+namespace A070610
+
+/-- `A074754(A001065(n+1)+1+n)` -/
+def P6114585860892064341.Spec : Prop :=
+  ∀ n, P6114585860892064341.a n = A070610 (n + 1)
+
+theorem P6114585860892064341.correct : P6114585860892064341.Spec := by
+  intro n
+  simp only [A070610, Nat.add_sub_cancel, A070610.P6114585860892064341.a, A070610.P5818742011114903418.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A074754, A074754.P14534040090181209810.f1, A074754.P14534040090181209810.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A070610
+
 /-! ## A070610.P1635615554051833733
 
 `A074754(A064987(n+1)/(n+1))`
@@ -516,6 +596,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P1635615554051833733
+
+namespace A070610
+
+/-- `A074754(A064987(n+1)/(n+1))` -/
+def P1635615554051833733.Spec : Prop :=
+  ∀ n, P1635615554051833733.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P9726543018243363800
 
@@ -535,6 +623,14 @@ end
 
 end A070610.P9726543018243363800
 
+namespace A070610
+
+/-- `∑{d}[A000203(n+1), A054973(#)]` -/
+def P9726543018243363800.Spec : Prop :=
+  ∀ n, P9726543018243363800.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P7613779147305873046
 
 `∑{d}[1-A088580(n+1), A054973(#)]`
@@ -552,6 +648,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P7613779147305873046
+
+namespace A070610
+
+/-- `∑{d}[1-A088580(n+1), A054973(#)]` -/
+def P7613779147305873046.Spec : Prop :=
+  ∀ n, P7613779147305873046.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P5179000413319857037
 
@@ -571,6 +675,14 @@ end
 
 end A070610.P5179000413319857037
 
+namespace A070610
+
+/-- `∑{d}[A245092(2*n+1), A054973(#)]` -/
+def P5179000413319857037.Spec : Prop :=
+  ∀ n, P5179000413319857037.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P6052818439480919445
 
 `∑{d}[A001065(n+1)+1+n, A054973(#)]`
@@ -588,6 +700,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P6052818439480919445
+
+namespace A070610
+
+/-- `∑{d}[A001065(n+1)+1+n, A054973(#)]` -/
+def P6052818439480919445.Spec : Prop :=
+  ∀ n, P6052818439480919445.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P477211770626986333
 
@@ -607,6 +727,14 @@ end
 
 end A070610.P477211770626986333
 
+namespace A070610
+
+/-- `∑{d}[A155085(n+1)-(n+1), A054973(#)]` -/
+def P477211770626986333.Spec : Prop :=
+  ∀ n, P477211770626986333.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P8240728789754367727
 
 `∑{d}[A064987(n+1)/(n+1), A054973(#)]`
@@ -624,6 +752,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070610.P8240728789754367727
+
+namespace A070610
+
+/-- `∑{d}[A064987(n+1)/(n+1), A054973(#)]` -/
+def P8240728789754367727.Spec : Prop :=
+  ∀ n, P8240728789754367727.a n = A070610 (n + 1)
+
+end A070610
 
 /-! ## A070610.P6141771886080029317
 
@@ -643,6 +779,14 @@ end
 
 end A070610.P6141771886080029317
 
+namespace A070610
+
+/-- `∑{d}[A088001(n+1)+A088000(n+1), A054973(#)]` -/
+def P6141771886080029317.Spec : Prop :=
+  ∀ n, P6141771886080029317.a n = A070610 (n + 1)
+
+end A070610
+
 /-! ## A070610.P11621804924914404926
 
 `∑{d}[A162296(n+1)+A048250(n+1), A054973(#)]`
@@ -661,10 +805,18 @@ end
 
 end A070610.P11621804924914404926
 
+namespace A070610
+
+/-- `∑{d}[A162296(n+1)+A048250(n+1), A054973(#)]` -/
+def P11621804924914404926.Spec : Prop :=
+  ∀ n, P11621804924914404926.a n = A070610 (n + 1)
+
+end A070610
+
 /-!
 # A070611: a(n) = n^5 mod 27.
 
-The programs for A070611, the canonical program `A070611.P11658201062847179891` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070611 has offset 0).
+The programs for A070611, the canonical program `A070611.P11658201062847179891` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070611 has offset 0).
 
 The definition of A070611 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%27` (program `A070611.P11658201062847179891`, by `A070611.P11658201062847179891.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -673,7 +825,7 @@ The definition of A070611 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%27`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070611
@@ -691,7 +843,7 @@ end A070611
 /-!
 # A070612: n^5 mod 28.
 
-The programs for A070612, the canonical program `A070612.P3663876166421854294` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070612 has offset 0).
+The programs for A070612, the canonical program `A070612.P3663876166421854294` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070612 has offset 0).
 
 The definition of A070612 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%28` (program `A070612.P3663876166421854294`, by `A070612.P3663876166421854294.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -700,7 +852,7 @@ The definition of A070612 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%28`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070612
@@ -718,7 +870,7 @@ end A070612
 /-!
 # A070613: a(n) = n^5 mod 29.
 
-The programs for A070613, the canonical program `A070613.P9604283639497680894` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070613 has offset 0).
+The programs for A070613, the canonical program `A070613.P9604283639497680894` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070613 has offset 0).
 
 The definition of A070613 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%29` (program `A070613.P9604283639497680894`, by `A070613.P9604283639497680894.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -727,7 +879,7 @@ The definition of A070613 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%29`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070613
@@ -745,7 +897,7 @@ end A070613
 /-!
 # A070614: a(n) = n^5 mod 31.
 
-The programs for A070614, the canonical program `A070614.P1153951477243074511` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070614 has offset 0).
+The programs for A070614, the canonical program `A070614.P1153951477243074511` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070614 has offset 0).
 
 The definition of A070614 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%31` (program `A070614.P1153951477243074511`, by `A070614.P1153951477243074511.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -754,7 +906,7 @@ The definition of A070614 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%31`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070614
@@ -838,7 +990,7 @@ end A070615.P8509223374997430428
 /-!
 # A070616: a(n) = n^5 mod 33.
 
-The programs for A070616, the canonical program `A070616.P9172666136454872006` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070616 has offset 0).
+The programs for A070616, the canonical program `A070616.P9172666136454872006` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070616 has offset 0).
 
 The definition of A070616 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%33` (program `A070616.P9172666136454872006`, by `A070616.P9172666136454872006.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -847,7 +999,7 @@ The definition of A070616 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%33`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070616
@@ -865,7 +1017,7 @@ end A070616
 /-!
 # A070617: a(n) = n^5 mod 34.
 
-The programs for A070617, the canonical program `A070617.P6815704200243328263` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070617 has offset 0).
+The programs for A070617, the canonical program `A070617.P6815704200243328263` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070617 has offset 0).
 
 The definition of A070617 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%34` (program `A070617.P6815704200243328263`, by `A070617.P6815704200243328263.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -874,7 +1026,7 @@ The definition of A070617 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%34`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070617
@@ -892,7 +1044,7 @@ end A070617
 /-!
 # A070618: a(n) = n^5 mod 35.
 
-The programs for A070618, the canonical program `A070618.P5472341875136748655` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070618 has offset 0).
+The programs for A070618, the canonical program `A070618.P5472341875136748655` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070618 has offset 0).
 
 The definition of A070618 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%35` (program `A070618.P5472341875136748655`, by `A070618.P5472341875136748655.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -901,7 +1053,7 @@ The definition of A070618 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%35`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070618
@@ -919,7 +1071,7 @@ end A070618
 /-!
 # A070619: a(n) = n^5 mod 36.
 
-The programs for A070619, the canonical program `A070619.P3909071996074613635` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070619 has offset 0).
+The programs for A070619, the canonical program `A070619.P3909071996074613635` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070619 has offset 0).
 
 The definition of A070619 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%36` (program `A070619.P3909071996074613635`, by `A070619.P3909071996074613635.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -928,7 +1080,7 @@ The definition of A070619 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%36`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070619
@@ -946,7 +1098,7 @@ end A070619
 /-!
 # A070620: a(n) = n^5 mod 37.
 
-The programs for A070620, the canonical program `A070620.P10817786413629746444` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070620 has offset 0).
+The programs for A070620, the canonical program `A070620.P10817786413629746444` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070620 has offset 0).
 
 The definition of A070620 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%37` (program `A070620.P10817786413629746444`, by `A070620.P10817786413629746444.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -955,7 +1107,7 @@ The definition of A070620 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%37`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070620
@@ -973,7 +1125,7 @@ end A070620
 /-!
 # A070621: a(n) = n^5 mod 38.
 
-The programs for A070621, the canonical program `A070621.P613864729482269334` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070621 has offset 0).
+The programs for A070621, the canonical program `A070621.P613864729482269334` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070621 has offset 0).
 
 The definition of A070621 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%38` (program `A070621.P613864729482269334`, by `A070621.P613864729482269334.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -982,7 +1134,7 @@ The definition of A070621 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%38`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070621
@@ -1000,7 +1152,7 @@ end A070621
 /-!
 # A070622: a(n) = n^5 mod 39.
 
-The programs for A070622, the canonical program `A070622.P5989575180887111861` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070622 has offset 0).
+The programs for A070622, the canonical program `A070622.P5989575180887111861` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070622 has offset 0).
 
 The definition of A070622 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%39` (program `A070622.P5989575180887111861`, by `A070622.P5989575180887111861.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1009,7 +1161,7 @@ The definition of A070622 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%39`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070622
@@ -1027,7 +1179,7 @@ end A070622
 /-!
 # A070623: a(n) = n^5 mod 40.
 
-The programs for A070623, the canonical program `A070623.P16155948804434859538` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070623 has offset 0).
+The programs for A070623, the canonical program `A070623.P16155948804434859538` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070623 has offset 0).
 
 The definition of A070623 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%40` (program `A070623.P16155948804434859538`, by `A070623.P16155948804434859538.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1036,7 +1188,7 @@ The definition of A070623 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%40`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070623
@@ -1054,7 +1206,7 @@ end A070623
 /-!
 # A070624: a(n) = n^5 mod 41.
 
-The programs for A070624, the canonical program `A070624.P12215836320204559886` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070624 has offset 0).
+The programs for A070624, the canonical program `A070624.P12215836320204559886` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070624 has offset 0).
 
 The definition of A070624 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%41` (program `A070624.P12215836320204559886`, by `A070624.P12215836320204559886.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1063,7 +1215,7 @@ The definition of A070624 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%41`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070624
@@ -1081,7 +1233,7 @@ end A070624
 /-!
 # A070625: a(n) = n^5 mod 42.
 
-The programs for A070625, the canonical program `A070625.P7186550585686977704` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070625 has offset 0).
+The programs for A070625, the canonical program `A070625.P7186550585686977704` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070625 has offset 0).
 
 The definition of A070625 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%42` (program `A070625.P7186550585686977704`, by `A070625.P7186550585686977704.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1090,7 +1242,7 @@ The definition of A070625 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%42`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070625
@@ -1108,7 +1260,7 @@ end A070625
 /-!
 # A070626: a(n) = n^5 mod 43.
 
-The programs for A070626, the canonical program `A070626.P6219294263075521353` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070626 has offset 0).
+The programs for A070626, the canonical program `A070626.P6219294263075521353` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070626 has offset 0).
 
 The definition of A070626 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%43` (program `A070626.P6219294263075521353`, by `A070626.P6219294263075521353.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1117,7 +1269,7 @@ The definition of A070626 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%43`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070626
@@ -1135,7 +1287,7 @@ end A070626
 /-!
 # A070627: a(n) = n^5 mod 44.
 
-The programs for A070627, the canonical program `A070627.P7012231911529578705` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070627 has offset 0).
+The programs for A070627, the canonical program `A070627.P7012231911529578705` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070627 has offset 0).
 
 The definition of A070627 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%44` (program `A070627.P7012231911529578705`, by `A070627.P7012231911529578705.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1144,7 +1296,7 @@ The definition of A070627 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%44`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070627
@@ -1162,7 +1314,7 @@ end A070627
 /-!
 # A070628: a(n) = n^5 mod 45.
 
-The programs for A070628, the canonical program `A070628.P2215670471522195395` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070628 has offset 0).
+The programs for A070628, the canonical program `A070628.P2215670471522195395` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070628 has offset 0).
 
 The definition of A070628 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%45` (program `A070628.P2215670471522195395`, by `A070628.P2215670471522195395.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1171,7 +1323,7 @@ The definition of A070628 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%45`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070628
@@ -1189,7 +1341,7 @@ end A070628
 /-!
 # A070629: a(n) = n^5 mod 46.
 
-The programs for A070629, the canonical program `A070629.P11584025810604400116` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070629 has offset 0).
+The programs for A070629, the canonical program `A070629.P11584025810604400116` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070629 has offset 0).
 
 The definition of A070629 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%46` (program `A070629.P11584025810604400116`, by `A070629.P11584025810604400116.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1198,7 +1350,7 @@ The definition of A070629 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%46`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070629
@@ -1216,7 +1368,7 @@ end A070629
 /-!
 # A070630: a(n) = n^5 mod 47.
 
-The programs for A070630, the canonical program `A070630.P4103104186709486095` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070630 has offset 0).
+The programs for A070630, the canonical program `A070630.P4103104186709486095` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070630 has offset 0).
 
 The definition of A070630 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%47` (program `A070630.P4103104186709486095`, by `A070630.P4103104186709486095.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1225,7 +1377,7 @@ The definition of A070630 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%47`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070630
@@ -1243,7 +1395,7 @@ end A070630
 /-!
 # A070631: a(n) = n^5 mod 48.
 
-The programs for A070631, the canonical program `A070631.P8401728629825013714` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070631 has offset 0).
+The programs for A070631, the canonical program `A070631.P8401728629825013714` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070631 has offset 0).
 
 The definition of A070631 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^5)%48` (program `A070631.P8401728629825013714`, by `A070631.P8401728629825013714.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1252,7 +1404,7 @@ The definition of A070631 is `verified`: the Lean definition is proven equivalen
 
 `(n^5)%48`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070631
@@ -1435,7 +1587,7 @@ end A070633.P10235845391460558929
 /-!
 # A070634: a(n) = n^6 mod 11.
 
-The programs for A070634, the canonical program `A070634.P5221792269490572766` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070634 has offset 0).
+The programs for A070634, the canonical program `A070634.P5221792269490572766` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070634 has offset 0).
 
 The definition of A070634 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%11` (program `A070634.P5221792269490572766`, by `A070634.P5221792269490572766.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1444,7 +1596,7 @@ The definition of A070634 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%11`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070634
@@ -1483,6 +1635,32 @@ def P9037631964849950479.Spec : Prop :=
 theorem P9037631964849950479.correct : P9037631964849950479.Spec := by
   intro n
   simp only [A070635, Nat.add_sub_cancel]
+
+end A070635
+
+/-! ## A070635.P8407493001577331723
+
+`(n+1)%∑{digits}[n+1, #]`
+-/
+
+namespace A070635.P8407493001577331723
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) % ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).sum
+
+end
+
+end A070635.P8407493001577331723
+
+namespace A070635
+
+/-- `(n+1)%∑{digits}[n+1, #]` -/
+def P8407493001577331723.Spec : Prop :=
+  ∀ n, (P8407493001577331723.a n : ℤ) = A070635 (n + 1)
 
 end A070635
 
@@ -1558,10 +1736,33 @@ def P1155852829320992099.Spec : Prop :=
 
 end A070635
 
+/-! ## A070635.P18322886941722517428
+
+`A125960(n+1)%A115299(n+1)`
+-/
+
+namespace A070635.P18322886941722517428
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A125960 (n + 1)) (A115299 (n + 1))
+
+end
+
+end A070635.P18322886941722517428
+
+namespace A070635
+
+/-- `A125960(n+1)%A115299(n+1)` -/
+def P18322886941722517428.Spec : Prop :=
+  ∀ n, P18322886941722517428.a n = A070635 (n + 1)
+
+end A070635
+
 /-!
 # A070636: a(n) = n^6 mod 13.
 
-The programs for A070636, the canonical program `A070636.P458347136884930074` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070636 has offset 0).
+The programs for A070636, the canonical program `A070636.P458347136884930074` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070636 has offset 0).
 
 The definition of A070636 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%13` (program `A070636.P458347136884930074`, by `A070636.P458347136884930074.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1570,7 +1771,7 @@ The definition of A070636 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%13`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070636
@@ -1588,7 +1789,7 @@ end A070636
 /-!
 # A070637: a(n) = n^6 mod 14.
 
-The programs for A070637, the canonical program `A070637.P13297676816007351529` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070637 has offset 0).
+The programs for A070637, the canonical program `A070637.P13297676816007351529` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070637 has offset 0).
 
 The definition of A070637 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%14` (program `A070637.P13297676816007351529`, by `A070637.P13297676816007351529.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1597,7 +1798,7 @@ The definition of A070637 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%14`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070637
@@ -1615,8 +1816,25 @@ end A070637
 /-!
 # A070639: a(n) = (1/phi(n))*Sum_{k=1..n} phi(n*k).
 
-The programs for A070639, there is no canonical definition to state claims against.
+The programs for A070639, the canonical program `A070639.P15383179853556692180` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070639 has offset 1).
+
+The definition of A070639 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A070639.P15383179853556692180
+
+`1/A000010(n+1)*∑{#}[n, A000010((n+1)*(#+1))]`
+
+The canonical program, it is in `Seq.B003.C001`.
+-/
+
+namespace A070639
+
+/-- `1/A000010(n+1)*∑{#}[n, A000010((n+1)*(#+1))]` -/
+def P15383179853556692180.Spec : Prop :=
+  ∀ n, P15383179853556692180.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
 
 /-! ## A070639.P12138034659439877190
 
@@ -1633,6 +1851,14 @@ end
 
 end A070639.P12138034659439877190
 
+namespace A070639
+
+/-- `A372608(n+1)/A000010(n+1)` -/
+def P12138034659439877190.Spec : Prop :=
+  ∀ n, P12138034659439877190.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
+
 /-! ## A070639.P18296614024569771241
 
 `A372608(n+1)/(A002088(n+1)-A002088(n))`
@@ -1647,6 +1873,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A070639.P18296614024569771241
+
+namespace A070639
+
+/-- `A372608(n+1)/(A002088(n+1)-A002088(n))` -/
+def P18296614024569771241.Spec : Prop :=
+  ∀ n, P18296614024569771241.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
 
 /-! ## A070639.P11142681360590338406
 
@@ -1663,6 +1897,14 @@ end
 
 end A070639.P11142681360590338406
 
+namespace A070639
+
+/-- `A372608(n+1)/(A076363(n+1)+A061498(n+1))` -/
+def P11142681360590338406.Spec : Prop :=
+  ∀ n, P11142681360590338406.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
+
 /-! ## A070639.P3116336700701608398
 
 `A372608(n+1)/(A000040(n+1)-A104192(n+1))`
@@ -1677,6 +1919,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A070639.P3116336700701608398
+
+namespace A070639
+
+/-- `A372608(n+1)/(A000040(n+1)-A104192(n+1))` -/
+def P3116336700701608398.Spec : Prop :=
+  ∀ n, P3116336700701608398.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
 
 /-! ## A070639.P13373444527546473409
 
@@ -1693,6 +1943,14 @@ end
 
 end A070639.P13373444527546473409
 
+namespace A070639
+
+/-- `A372608(n+1)/A067541(2*n+1)` -/
+def P13373444527546473409.Spec : Prop :=
+  ∀ n, P13373444527546473409.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
+
 /-! ## A070639.P12605123101078579876
 
 `A372608(n+1)/(A345674(n+1)+A046144(n+1))`
@@ -1707,6 +1965,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A070639.P12605123101078579876
+
+namespace A070639
+
+/-- `A372608(n+1)/(A345674(n+1)+A046144(n+1))` -/
+def P12605123101078579876.Spec : Prop :=
+  ∀ n, P12605123101078579876.a n = (A070639 (n + 1) : ℚ)
+
+end A070639
 
 /-! ## A070639.P6045993529231584300
 
@@ -1723,10 +1989,18 @@ end
 
 end A070639.P6045993529231584300
 
+namespace A070639
+
+/-- `A372619((n+1)²+n²)` -/
+def P6045993529231584300.Spec : Prop :=
+  ∀ n, P6045993529231584300.a n = A070639 (n + 1)
+
+end A070639
+
 /-!
 # A070640: a(n) = n^6 mod 17.
 
-The programs for A070640, the canonical program `A070640.P13352665983296541484` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070640 has offset 0).
+The programs for A070640, the canonical program `A070640.P13352665983296541484` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070640 has offset 0).
 
 The definition of A070640 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%17` (program `A070640.P13352665983296541484`, by `A070640.P13352665983296541484.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1735,7 +2009,7 @@ The definition of A070640 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%17`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070640
@@ -1753,7 +2027,7 @@ end A070640
 /-!
 # A070641: a(n) = n^6 mod 18.
 
-The programs for A070641, the canonical program `A070641.P1536320297944298394` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070641 has offset 0).
+The programs for A070641, the canonical program `A070641.P1536320297944298394` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070641 has offset 0).
 
 The definition of A070641 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%18` (program `A070641.P1536320297944298394`, by `A070641.P1536320297944298394.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1762,7 +2036,7 @@ The definition of A070641 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%18`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070641
@@ -1780,7 +2054,7 @@ end A070641
 /-!
 # A070642: a(n) = n^6 mod 19.
 
-The programs for A070642, the canonical program `A070642.P13065058208812181642` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070642 has offset 0).
+The programs for A070642, the canonical program `A070642.P13065058208812181642` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070642 has offset 0).
 
 The definition of A070642 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%19` (program `A070642.P13065058208812181642`, by `A070642.P13065058208812181642.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1789,7 +2063,7 @@ The definition of A070642 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%19`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070642
@@ -1807,7 +2081,7 @@ end A070642
 /-!
 # A070644: a(n) = n^6 mod 21.
 
-The programs for A070644, the canonical program `A070644.P1859451650697066523` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070644 has offset 0).
+The programs for A070644, the canonical program `A070644.P1859451650697066523` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070644 has offset 0).
 
 The definition of A070644 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%21` (program `A070644.P1859451650697066523`, by `A070644.P1859451650697066523.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1816,7 +2090,7 @@ The definition of A070644 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%21`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070644
@@ -1834,7 +2108,7 @@ end A070644
 /-!
 # A070645: a(n) = n^6 mod 22.
 
-The programs for A070645, the canonical program `A070645.P7843175072023001332` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070645 has offset 0).
+The programs for A070645, the canonical program `A070645.P7843175072023001332` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070645 has offset 0).
 
 The definition of A070645 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%22` (program `A070645.P7843175072023001332`, by `A070645.P7843175072023001332.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1843,7 +2117,7 @@ The definition of A070645 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%22`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070645
@@ -1861,7 +2135,7 @@ end A070645
 /-!
 # A070646: a(n) = n^6 mod 23.
 
-The programs for A070646, the canonical program `A070646.P5507643922852492635` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070646 has offset 0).
+The programs for A070646, the canonical program `A070646.P5507643922852492635` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070646 has offset 0).
 
 The definition of A070646 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%23` (program `A070646.P5507643922852492635`, by `A070646.P5507643922852492635.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1870,7 +2144,7 @@ The definition of A070646 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%23`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070646
@@ -2159,6 +2433,29 @@ def P2755733026496388863.Spec : Prop :=
 
 end A070647
 
+/-! ## A070647.P5719122133472255733
+
+`A002034(A006881(n+1))`
+-/
+
+namespace A070647.P5719122133472255733
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002034 (A006881 (n + 1)).toNat
+
+end
+
+end A070647.P5719122133472255733
+
+namespace A070647
+
+/-- `A002034(A006881(n+1))` -/
+def P5719122133472255733.Spec : Prop :=
+  ∀ n, P5719122133472255733.a n = A070647 (n + 1)
+
+end A070647
+
 /-! ## A070647.P6567362582976709024
 
 `A006530(eq[2, A066882(n)])`
@@ -2275,39 +2572,10 @@ def P10854691705968529158.Spec : Prop :=
 
 end A070647
 
-/-! ## A070647.P17725368129790041617
-
-`A006530(eq[2, A008480(n+1)]+1)`
--/
-
-namespace A070647.P17725368129790041617
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008480 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
-
-end
-
-end A070647.P17725368129790041617
-
-namespace A070647
-
-/-- `A006530(eq[2, A008480(n+1)]+1)` -/
-def P17725368129790041617.Spec : Prop :=
-  ∀ n, P17725368129790041617.a n = A070647 (n + 1)
-
-end A070647
-
 /-!
 # A070648: a(n) = n^6 mod 25.
 
-The programs for A070648, the canonical program `A070648.P3587089535205217080` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070648 has offset 0).
+The programs for A070648, the canonical program `A070648.P3587089535205217080` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070648 has offset 0).
 
 The definition of A070648 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%25` (program `A070648.P3587089535205217080`, by `A070648.P3587089535205217080.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2316,7 +2584,7 @@ The definition of A070648 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%25`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070648
@@ -2334,7 +2602,7 @@ end A070648
 /-!
 # A070649: a(n) = n^6 mod 26.
 
-The programs for A070649, the canonical program `A070649.P5497107033750592366` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070649 has offset 0).
+The programs for A070649, the canonical program `A070649.P5497107033750592366` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070649 has offset 0).
 
 The definition of A070649 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%26` (program `A070649.P5497107033750592366`, by `A070649.P5497107033750592366.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2343,7 +2611,7 @@ The definition of A070649 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%26`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070649
@@ -2361,7 +2629,7 @@ end A070649
 /-!
 # A070650: a(n) = n^6 mod 27.
 
-The programs for A070650, the canonical program `A070650.P11488115335532773492` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070650 has offset 0).
+The programs for A070650, the canonical program `A070650.P11488115335532773492` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070650 has offset 0).
 
 The definition of A070650 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%27` (program `A070650.P11488115335532773492`, by `A070650.P11488115335532773492.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2370,7 +2638,7 @@ The definition of A070650 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%27`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070650
@@ -2388,7 +2656,7 @@ end A070650
 /-!
 # A070651: a(n) = n^6 mod 28.
 
-The programs for A070651, the canonical program `A070651.P6834262170941446172` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070651 has offset 0).
+The programs for A070651, the canonical program `A070651.P6834262170941446172` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070651 has offset 0).
 
 The definition of A070651 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%28` (program `A070651.P6834262170941446172`, by `A070651.P6834262170941446172.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2397,7 +2665,7 @@ The definition of A070651 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%28`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070651
@@ -2415,7 +2683,7 @@ end A070651
 /-!
 # A070652: a(n) = n^6 mod 29.
 
-The programs for A070652, the canonical program `A070652.P310716294929853020` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070652 has offset 0).
+The programs for A070652, the canonical program `A070652.P310716294929853020` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070652 has offset 0).
 
 The definition of A070652 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%29` (program `A070652.P310716294929853020`, by `A070652.P310716294929853020.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2424,7 +2692,7 @@ The definition of A070652 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%29`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070652
@@ -2442,7 +2710,7 @@ end A070652
 /-!
 # A070654: a(n) = n^6 mod 31.
 
-The programs for A070654, the canonical program `A070654.P12274703441497918566` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070654 has offset 0).
+The programs for A070654, the canonical program `A070654.P12274703441497918566` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070654 has offset 0).
 
 The definition of A070654 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%31` (program `A070654.P12274703441497918566`, by `A070654.P12274703441497918566.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2451,7 +2719,7 @@ The definition of A070654 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%31`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070654
@@ -2469,7 +2737,7 @@ end A070654
 /-!
 # A070656: a(n) = n^6 mod 33.
 
-The programs for A070656, the canonical program `A070656.P6639742064117952948` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070656 has offset 0).
+The programs for A070656, the canonical program `A070656.P6639742064117952948` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070656 has offset 0).
 
 The definition of A070656 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%33` (program `A070656.P6639742064117952948`, by `A070656.P6639742064117952948.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2478,7 +2746,7 @@ The definition of A070656 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%33`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070656
@@ -2496,7 +2764,7 @@ end A070656
 /-!
 # A070657: a(n) = n^6 mod 34.
 
-The programs for A070657, the canonical program `A070657.P16779415762482396601` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070657 has offset 0).
+The programs for A070657, the canonical program `A070657.P16779415762482396601` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070657 has offset 0).
 
 The definition of A070657 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%34` (program `A070657.P16779415762482396601`, by `A070657.P16779415762482396601.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2505,7 +2773,7 @@ The definition of A070657 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%34`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070657
@@ -2523,7 +2791,7 @@ end A070657
 /-!
 # A070658: a(n) = n^6 mod 35.
 
-The programs for A070658, the canonical program `A070658.P18190876774045248567` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070658 has offset 0).
+The programs for A070658, the canonical program `A070658.P18190876774045248567` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070658 has offset 0).
 
 The definition of A070658 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%35` (program `A070658.P18190876774045248567`, by `A070658.P18190876774045248567.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2532,7 +2800,7 @@ The definition of A070658 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%35`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070658
@@ -2550,7 +2818,7 @@ end A070658
 /-!
 # A070659: a(n) = n^6 mod 36.
 
-The programs for A070659, the canonical program `A070659.P1785876431740346656` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070659 has offset 0).
+The programs for A070659, the canonical program `A070659.P1785876431740346656` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070659 has offset 0).
 
 The definition of A070659 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%36` (program `A070659.P1785876431740346656`, by `A070659.P1785876431740346656.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2559,7 +2827,7 @@ The definition of A070659 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%36`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070659
@@ -2577,7 +2845,7 @@ end A070659
 /-!
 # A070660: a(n) = n^6 mod 37.
 
-The programs for A070660, the canonical program `A070660.P1805974761973614416` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070660 has offset 0).
+The programs for A070660, the canonical program `A070660.P1805974761973614416` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070660 has offset 0).
 
 The definition of A070660 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%37` (program `A070660.P1805974761973614416`, by `A070660.P1805974761973614416.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2586,7 +2854,7 @@ The definition of A070660 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%37`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070660
@@ -2604,7 +2872,7 @@ end A070660
 /-!
 # A070661: a(n) = n^6 mod 38.
 
-The programs for A070661, the canonical program `A070661.P16583307289542981959` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070661 has offset 0).
+The programs for A070661, the canonical program `A070661.P16583307289542981959` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070661 has offset 0).
 
 The definition of A070661 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%38` (program `A070661.P16583307289542981959`, by `A070661.P16583307289542981959.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2613,7 +2881,7 @@ The definition of A070661 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%38`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070661
@@ -2631,7 +2899,7 @@ end A070661
 /-!
 # A070662: a(n) = n^6 mod 39.
 
-The programs for A070662, the canonical program `A070662.P8335392568474009620` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070662 has offset 0).
+The programs for A070662, the canonical program `A070662.P8335392568474009620` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070662 has offset 0).
 
 The definition of A070662 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%39` (program `A070662.P8335392568474009620`, by `A070662.P8335392568474009620.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2640,7 +2908,7 @@ The definition of A070662 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%39`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070662
@@ -2658,7 +2926,7 @@ end A070662
 /-!
 # A070663: a(n) = n^6 mod 40.
 
-The programs for A070663, the canonical program `A070663.P2197963365928174202` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070663 has offset 0).
+The programs for A070663, the canonical program `A070663.P2197963365928174202` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070663 has offset 0).
 
 The definition of A070663 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%40` (program `A070663.P2197963365928174202`, by `A070663.P2197963365928174202.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2667,7 +2935,7 @@ The definition of A070663 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%40`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070663
@@ -2685,7 +2953,7 @@ end A070663
 /-!
 # A070664: a(n) = n^6 mod 41.
 
-The programs for A070664, the canonical program `A070664.P5376344737634216751` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070664 has offset 0).
+The programs for A070664, the canonical program `A070664.P5376344737634216751` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070664 has offset 0).
 
 The definition of A070664 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%41` (program `A070664.P5376344737634216751`, by `A070664.P5376344737634216751.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2694,7 +2962,7 @@ The definition of A070664 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%41`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070664
@@ -2712,7 +2980,7 @@ end A070664
 /-!
 # A070665: a(n) = n^6 mod 42.
 
-The programs for A070665, the canonical program `A070665.P6349313733821803319` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070665 has offset 0).
+The programs for A070665, the canonical program `A070665.P6349313733821803319` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070665 has offset 0).
 
 The definition of A070665 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%42` (program `A070665.P6349313733821803319`, by `A070665.P6349313733821803319.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2721,7 +2989,7 @@ The definition of A070665 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%42`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070665
@@ -2739,7 +3007,7 @@ end A070665
 /-!
 # A070666: n^6 mod 43.
 
-The programs for A070666, the canonical program `A070666.P18326583946273921184` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070666 has offset 0).
+The programs for A070666, the canonical program `A070666.P18326583946273921184` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070666 has offset 0).
 
 The definition of A070666 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%43` (program `A070666.P18326583946273921184`, by `A070666.P18326583946273921184.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2748,7 +3016,7 @@ The definition of A070666 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%43`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070666
@@ -2877,20 +3145,20 @@ end
 
 end A070667.P3260168224601815367
 
-/-! ## A070667.P15311830636024207171
+/-! ## A070667.P4173367838594388795
 
-`gcd(A215653(n+1)+A002944(n+1), A002944(n+1))`
+`gcd(A002944(n+1), A215653(n+1))`
 -/
 
-namespace A070667.P15311830636024207171
+namespace A070667.P4173367838594388795
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A215653 (n + 1) + A002944 (n + 1)) (A002944 (n + 1))
+  Int.gcd (A002944 (n + 1)) (A215653 (n + 1))
 
 end
 
-end A070667.P15311830636024207171
+end A070667.P4173367838594388795
 
 /-! ## A070667.P11389135948787591586
 
@@ -3993,6 +4261,44 @@ end
 
 end A070679.P3803727139807399897
 
+/-! ## A070679.P1418181689033716848
+
+`char[A080513(3*n)]*A007740(n+1)`
+-/
+
+namespace A070679.P1418181689033716848
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080513 (3 * n)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A007740 (n + 1)
+
+end
+
+end A070679.P1418181689033716848
+
+/-! ## A070679.P3599859947250305005
+
+`char[A080513(3*n)]*A054717(n+1)`
+-/
+
+namespace A070679.P3599859947250305005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080513 (3 * n)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A054717 (n + 1)
+
+end
+
+end A070679.P3599859947250305005
+
 /-! ## A070679.P4283178809938701707
 
 `lcm(A054717(n+1), A131736(A103517(n)))`
@@ -4622,7 +4928,7 @@ end A070683.P7403313892059693306
 /-!
 # A070684: n^6 mod 44.
 
-The programs for A070684, the canonical program `A070684.P15363693857418800498` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070684 has offset 0).
+The programs for A070684, the canonical program `A070684.P15363693857418800498` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070684 has offset 0).
 
 The definition of A070684 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%44` (program `A070684.P15363693857418800498`, by `A070684.P15363693857418800498.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4631,7 +4937,7 @@ The definition of A070684 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%44`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070684
@@ -4649,7 +4955,7 @@ end A070684
 /-!
 # A070685: n^6 mod 45.
 
-The programs for A070685, the canonical program `A070685.P359627259987455179` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070685 has offset 0).
+The programs for A070685, the canonical program `A070685.P359627259987455179` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070685 has offset 0).
 
 The definition of A070685 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%45` (program `A070685.P359627259987455179`, by `A070685.P359627259987455179.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4658,7 +4964,7 @@ The definition of A070685 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%45`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070685
@@ -4676,7 +4982,7 @@ end A070685
 /-!
 # A070686: n^6 mod 46.
 
-The programs for A070686, the canonical program `A070686.P1552370197948955069` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070686 has offset 0).
+The programs for A070686, the canonical program `A070686.P1552370197948955069` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070686 has offset 0).
 
 The definition of A070686 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%46` (program `A070686.P1552370197948955069`, by `A070686.P1552370197948955069.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4685,7 +4991,7 @@ The definition of A070686 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%46`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070686
@@ -4703,7 +5009,7 @@ end A070686
 /-!
 # A070687: n^6 mod 47.
 
-The programs for A070687, the canonical program `A070687.P4975730223566079817` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070687 has offset 0).
+The programs for A070687, the canonical program `A070687.P4975730223566079817` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070687 has offset 0).
 
 The definition of A070687 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%47` (program `A070687.P4975730223566079817`, by `A070687.P4975730223566079817.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4712,7 +5018,7 @@ The definition of A070687 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%47`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070687
@@ -4730,7 +5036,7 @@ end A070687
 /-!
 # A070688: a(n) = n^6 mod 48.
 
-The programs for A070688, the canonical program `A070688.P10431114025521317803` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070688 has offset 0).
+The programs for A070688, the canonical program `A070688.P10431114025521317803` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070688 has offset 0).
 
 The definition of A070688 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^6)%48` (program `A070688.P10431114025521317803`, by `A070688.P10431114025521317803.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4739,7 +5045,7 @@ The definition of A070688 is `verified`: the Lean definition is proven equivalen
 
 `(n^6)%48`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070688
@@ -5486,7 +5792,7 @@ end A070691.P5220701376234973616
 /-!
 # A070692: a(n) = n^7 mod 9.
 
-The programs for A070692, the canonical program `A070692.P370804864202959523` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070692 has offset 0).
+The programs for A070692, the canonical program `A070692.P370804864202959523` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070692 has offset 0).
 
 The definition of A070692 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^7)%9` (program `A070692.P370804864202959523`, by `A070692.P370804864202959523.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5495,7 +5801,7 @@ The definition of A070692 is `verified`: the Lean definition is proven equivalen
 
 `(n^7)%9`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070692
@@ -5513,7 +5819,7 @@ end A070692
 /-!
 # A070693: a(n) = n^7 mod 11.
 
-The programs for A070693, the canonical program `A070693.P10884968805276210041` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070693 has offset 0).
+The programs for A070693, the canonical program `A070693.P10884968805276210041` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070693 has offset 0).
 
 The definition of A070693 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^7)%11` (program `A070693.P10884968805276210041`, by `A070693.P10884968805276210041.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5522,7 +5828,7 @@ The definition of A070693 is `verified`: the Lean definition is proven equivalen
 
 `(n^7)%11`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070693
@@ -5568,7 +5874,7 @@ end A070694.P10509624770310118797
 /-!
 # A070695: a(n) = n^7 mod 13.
 
-The programs for A070695, the canonical program `A070695.P18227276242851458959` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070695 has offset 0).
+The programs for A070695, the canonical program `A070695.P18227276242851458959` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070695 has offset 0).
 
 The definition of A070695 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^7)%13` (program `A070695.P18227276242851458959`, by `A070695.P18227276242851458959.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5577,7 +5883,7 @@ The definition of A070695 is `verified`: the Lean definition is proven equivalen
 
 `(n^7)%13`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070695
@@ -5595,7 +5901,7 @@ end A070695
 /-!
 # A070696: a(n) = n mod 14.
 
-The programs for A070696, the canonical program `A070696.P17461699990521764694` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070696 has offset 0).
+The programs for A070696, the canonical program `A070696.P17461699990521764694` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070696 has offset 0).
 
 The definition of A070696 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n%14` (program `A070696.P17461699990521764694`, by `A070696.P17461699990521764694.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5604,7 +5910,7 @@ The definition of A070696 is `verified`: the Lean definition is proven equivalen
 
 `n%14`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070696
@@ -5778,7 +6084,7 @@ end A070698.P6286149289854948098
 /-!
 # A070699: a(n) = n^7 mod 17.
 
-The programs for A070699, the canonical program `A070699.P13261662225779214439` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070699 has offset 0).
+The programs for A070699, the canonical program `A070699.P13261662225779214439` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070699 has offset 0).
 
 The definition of A070699 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^7)%17` (program `A070699.P13261662225779214439`, by `A070699.P13261662225779214439.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5787,7 +6093,7 @@ The definition of A070699 is `verified`: the Lean definition is proven equivalen
 
 `(n^7)%17`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A070699

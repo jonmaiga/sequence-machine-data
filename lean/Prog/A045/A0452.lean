@@ -3,26 +3,29 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
-import Seq.B000.C007
+import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -32,12 +35,13 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -50,9 +54,9 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -60,7 +64,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A045200: Numbers whose base-5 representation contains exactly three 0's and one 3.
@@ -4818,6 +4821,60 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045247.P5632928942335729405
+
+/-! ## A045247.P17214065849286152241
+
+`filter[A045229(n+1), A253513(#)]`
+-/
+
+namespace A045247.P17214065849286152241
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045229 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A253513 (f1 j).toNat = 1) n)
+
+end
+
+end A045247.P17214065849286152241
+
+/-! ## A045247.P2946434302124388433
+
+`filter[A045265(n+1), A253513(#)]`
+-/
+
+namespace A045247.P2946434302124388433
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045265 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A253513 (f1 j).toNat = 1) n)
+
+end
+
+end A045247.P2946434302124388433
+
+/-! ## A045247.P15850501904935909593
+
+`filter[A045229(n+1), A011765(#)]`
+-/
+
+namespace A045247.P15850501904935909593
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045229 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A011765 (f1 j).toNat = 1) n)
+
+end
+
+end A045247.P15850501904935909593
 
 /-!
 # A045248: Numbers whose base-5 representation contains no 1's and exactly one 4.

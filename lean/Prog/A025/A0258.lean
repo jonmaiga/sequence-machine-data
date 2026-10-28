@@ -12,13 +12,13 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -27,23 +27,28 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
@@ -55,20 +60,16 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C006
-import Seq.Opaque.C007
-import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C013
-import Seq.Opaque.C014
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -23894,32 +23895,6 @@ namespace A025882
 /-- `A025877(n+1)+A025877(n)-A025876(n+1)` -/
 def P3124184519987937530.Spec : Prop :=
   ∀ n, P3124184519987937530.a n = A025882 n
-
-end A025882
-
-/-! ## A025882.P2223223132894706533
-
-`ceil(A029394(n)%p?[A240852(n)]/2)`
--/
-
-namespace A025882.P2223223132894706533
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240852 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(Int.tmod (A029394 n) (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)) : ℚ) / 2⌉
-
-end
-
-end A025882.P2223223132894706533
-
-namespace A025882
-
-/-- `ceil(A029394(n)%p?[A240852(n)]/2)` -/
-def P2223223132894706533.Spec : Prop :=
-  ∀ n, P2223223132894706533.a n = A025882 n
 
 end A025882
 

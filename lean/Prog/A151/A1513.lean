@@ -20,21 +20,27 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,6 +54,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -62,7 +69,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -90,7 +96,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -718,6 +723,32 @@ def P9833426233473443279.Spec : Prop :=
 
 end A151312
 
+/-! ## A151312.P18120332012407312434
+
+`∑{#}[n, C(n, #)*A001405(#)*A001405(n)]`
+-/
+
+namespace A151312.P18120332012407312434
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A001405 k * A001405 n
+
+end
+
+end A151312.P18120332012407312434
+
+namespace A151312
+
+/-- `∑{#}[n, C(n, #)*A001405(#)*A001405(n)]` -/
+def P18120332012407312434.Spec : Prop :=
+  ∀ n, P18120332012407312434.a n = A151312 n
+
+end A151312
+
 /-! ## A151312.P12787237545827913063
 
 `(A005774(n)+A001006(n))*A001405(n)`
@@ -738,12 +769,6 @@ namespace A151312
 /-- `(A005774(n)+A001006(n))*A001405(n)` -/
 def P12787237545827913063.Spec : Prop :=
   ∀ n, P12787237545827913063.a n = A151312 n
-
-theorem P12787237545827913063.correct : P12787237545827913063.Spec := by
-  intro n
-  simp only [A151312, Nat.add_sub_cancel, A151312.P12787237545827913063.a, A151312.P7620929976732303030.a, A001006, A001006.P11199602840237397285.a, A001405, A001405.P5205018418992951678.a, A005773, A005773.P2300326801340372225.a, A005774, A005774.P11674759060284518255.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A151312
 
@@ -988,23 +1013,29 @@ end A151317.P8648460113131600935
 /-!
 # A151318: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0) and consisting of n steps taken from {(-1, 1), (-1, 0), (0, 1), (1, 0), (1, 1)}.
 
-The programs for A151318, there is no canonical definition to state claims against.
+The programs for A151318, the canonical program `A151318.P3693881019179690856` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151318 has offset 0).
+
+The definition of A151318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A151318.P3693881019179690856
 
 `A084605(n)+2*A098520(n)`
+
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
-namespace A151318.P3693881019179690856
-noncomputable section
+namespace A151318
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084605 n + 2 * A098520 n
+/-- `A084605(n)+2*A098520(n)` -/
+def P3693881019179690856.Spec : Prop :=
+  ∀ n, P3693881019179690856.a n = A151318 n
 
-end
+theorem P3693881019179690856.correct : P3693881019179690856.Spec := by
+  intro n
+  simp only [A151318]
 
-end A151318.P3693881019179690856
+end A151318
 
 /-! ## A151318.P5011996820733876043
 
@@ -1024,6 +1055,14 @@ end
 
 end A151318.P5011996820733876043
 
+namespace A151318
+
+/-- `A307855(2*n+∑[n+3]+7)+2*A098520(n)` -/
+def P5011996820733876043.Spec : Prop :=
+  ∀ n, P5011996820733876043.a n = A151318 n
+
+end A151318
+
 /-! ## A151318.P17667615410376476542
 
 `sqrt(A322240(n))+2*A098520(n)`
@@ -1039,6 +1078,14 @@ end
 
 end A151318.P17667615410376476542
 
+namespace A151318
+
+/-- `sqrt(A322240(n))+2*A098520(n)` -/
+def P17667615410376476542.Spec : Prop :=
+  ∀ n, P17667615410376476542.a n = (A151318 n : ℝ)
+
+end A151318
+
 /-! ## A151318.P18315787766834939068
 
 `A084605(n)+A005843(A098520(n))`
@@ -1053,6 +1100,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151318.P18315787766834939068
+
+namespace A151318
+
+/-- `A084605(n)+A005843(A098520(n))` -/
+def P18315787766834939068.Spec : Prop :=
+  ∀ n, P18315787766834939068.a n = A151318 n
+
+end A151318
 
 /-!
 # A151319: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0) and consisting of n steps taken from {(-1, 0), (0, -1), (0, 1), (1, 0), (1, 1)}.
@@ -2636,27 +2691,6 @@ end
 end A151346.P7881300560633609717
 
 /-!
-# A151350: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of n steps taken from {(-1, -1), (-1, 0), (0, 1), (1, -1), (1, 1)}.
-
-The programs for A151350, there is no canonical definition to state claims against.
--/
-
-/-! ## A151350.P12917761007154503669
-
-`A373075(A171182(n+1)+A005449(n))`
--/
-
-namespace A151350.P12917761007154503669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373075 (A171182 (n + 1) + A005449 n).toNat
-
-end
-
-end A151350.P12917761007154503669
-
-/-!
 # A151354: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of n steps taken from {(-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 0)}.
 
 The programs for A151354, there is no canonical definition to state claims against.
@@ -2782,21 +2816,6 @@ end
 
 end A151356.P13539500800879963033
 
-/-! ## A151356.P4282768076121135036
-
-`A321702(A082594(n+1))`
--/
-
-namespace A151356.P4282768076121135036
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321702 (A082594 (n + 1)).toNat
-
-end
-
-end A151356.P4282768076121135036
-
 /-!
 # A151358: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of n steps taken from {(-1, -1), (-1, 0), (-1, 1), (0, 1), (1, -1), (1, 0)}.
 
@@ -2832,21 +2851,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0, 1, 3, 7] fun n a =>
 end
 
 end A151358.P7863633943720781051
-
-/-! ## A151358.P2097892166212146395
-
-`A324696(2*a(n-1)+a(n-2)-a(n-3)+1)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=3, a(4)=7`
--/
-
-namespace A151358.P2097892166212146395
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0, 1, 3, 7] fun n a =>
-  A324696 (2 * a (n - 1) + (a (n - 2) - a (n - 3)) + 1).toNat
-
-end
-
-end A151358.P2097892166212146395
 
 /-!
 # A151359: Triangle read by rows: T(n,k) = number of partitions of [1..k] into n nonempty clumps of sizes 1, 2, 3, 4, 5 or 6 (n >= 0, 0 <= k <= 6n).

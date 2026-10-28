@@ -4,6 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -11,24 +12,29 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C038
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,8 +44,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C012
+import Seq.B001.C009
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
@@ -53,22 +60,22 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -77,14 +84,13 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 /-!
 # A205600: Start with first run [1,2] then, for n >= 2, the n-th run is a(n) times [a(1),...,a(n-1)].
@@ -2087,7 +2093,7 @@ end A205632.P16818434395584713913
 /-!
 # A205633: Expansion of f(x^3, x^7) in powers of x where f() is Ramanujan's two-variable theta function.
 
-The programs for A205633, the canonical program `A205633.P3131482922578761219` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205633 has offset 0).
+The programs for A205633, the canonical program `A205633.P3131482922578761219` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205633 has offset 0).
 
 The definition of A205633 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010052, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2096,7 +2102,7 @@ The definition of A205633 is `conditional`: the Lean definition is an OEIS formu
 
 `A010052(5*n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A205633
@@ -3094,7 +3100,7 @@ end A205640.P10963203609289882746
 /-!
 # A205646: Number of empty faces in Freij's family of Hansen polytopes.
 
-The programs for A205646, the canonical program `A205646.P14950017872745976362` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205646 has offset 0).
+The programs for A205646, the canonical program `A205646.P14950017872745976362` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205646 has offset 0).
 
 The definition of A205646 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3103,7 +3109,7 @@ The definition of A205646 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^n+16`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A205646
@@ -3618,7 +3624,7 @@ end A205649
 /-!
 # A205650: Period 12: repeat (1, 6, 8, 6, 1, 9, 8, 3, 1, 3, 8, 9).
 
-The programs for A205650, the canonical program `A205650.P6988856271426545041` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205650 has offset 1).
+The programs for A205650, the canonical program `A205650.P6988856271426545041` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205650 has offset 1).
 
 The definition of A205650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3627,7 +3633,7 @@ The definition of A205650 is `conjectured`: the Lean definition is a formula tha
 
 `dr(∑[A156637(2*n+1)])`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A205650
@@ -3645,7 +3651,7 @@ end A205650
 /-!
 # A205651: Period 6: repeat [1, 6, 5, 4, 9, 0].
 
-The programs for A205651, the canonical program `A205651.P9301164766259284354` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205651 has offset 1).
+The programs for A205651, the canonical program `A205651.P9301164766259284354` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205651 has offset 1).
 
 The definition of A205651 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A205651.anchor (n : ℕ) (hn : 1 ≤ n) : A205651 n = (([1, 6, 5, 4, 9, 0].getD ((n - 1) % 6) 0 : ℕ) : ℤ)` in `Proof.A205.A205651`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3654,7 +3660,7 @@ The definition of A205651 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-6)` with `a(0)=1, a(1)=6, a(2)=5, a(3)=4, a(4)=9, a(5)=0`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A205651
@@ -7898,6 +7904,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205688.P3091357242354787949
+
+/-! ## A205688.P16691552298318865064
+
+`filter[A204890(n+1), A079998(#)]`
+-/
+
+namespace A205688.P16691552298318865064
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204890 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A079998 (f1 j).toNat = 1) n)
+
+end
+
+end A205688.P16691552298318865064
 
 /-!
 # A205689: Prime(A205685(n)), the n-th number s(j) such that 5 divides s(k)-s(j), where the pairs (k,j) are given by A205684 and A205685.

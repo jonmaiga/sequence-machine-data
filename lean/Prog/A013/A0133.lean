@@ -1,29 +1,31 @@
-import SequenceMachineLib
+import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -31,34 +33,35 @@ import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C001
+import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 /-!
 # A013300: -arcsinh(log(x+1)-arctanh(x))=1/2!*x^2+6/4!*x^4+105/6!*x^6+3780/8!*x^8...
@@ -601,45 +604,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013315.P5059789142025549248
-
-/-!
-# A013317: Expansion of e.g.f.: tanh(exp(x) - cos(x)) = x + (2/2!)*x^2 - (1/3!)*x^3 - (24/4!)*x^4 - (123/5!)*x^5 + ...
-
-The programs for A013317, there is no canonical definition to state claims against.
--/
-
-/-! ## A013317.P8682727930306714243
-
-`record[A376132(n+1)]-A000244(n)`
--/
-
-namespace A013317.P8682727930306714243
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376132 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) - A000244 n
-
-end
-
-end A013317.P8682727930306714243
-
-/-! ## A013317.P4379279283252329372
-
-`abs(n*xor(n, -1))-A345167(A088354(n))`
--/
-
-namespace A013317.P4379279283252329372
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(n : ℤ) * Int.xor (n : ℤ) (-1)| - A345167 (A088354 n).toNat
-
-end
-
-end A013317.P4379279283252329372
 
 /-!
 # A013318: arctanh(exp(x)-cos(x))=x+2/2!*x^2+3/3!*x^3+24/4!*x^4+165/5!*x^5...
@@ -1262,20 +1226,20 @@ end
 
 end A013340.P3628605318120792575
 
-/-! ## A013340.P7001315115562141446
+/-! ## A013340.P7486882282650883010
 
-`lcm(n, A039735(ceil(16^(n/3))))`
+`A383042(A303714(n+2))`
 -/
 
-namespace A013340.P7001315115562141446
+namespace A013340.P7486882282650883010
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (n : ℤ) (A039735 ⌈(16 : ℝ) ^ ((n : ℚ) / 3 : ℝ)⌉.toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383042 (A303714 (n + 2)).toNat
 
 end
 
-end A013340.P7001315115562141446
+end A013340.P7486882282650883010
 
 /-!
 # A013341: E.g.f.: exp(sin(x)-log(x+1)).

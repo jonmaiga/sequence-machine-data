@@ -3,42 +3,43 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C002
@@ -52,6 +53,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -67,7 +69,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -3832,21 +3833,6 @@ end
 
 end A015352.P16892821657918315301
 
-/-! ## A015352.P5791762492030088058
-
-`A010076(C(2, A373069(n+1)))`
--/
-
-namespace A015352.P5791762492030088058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010076 (Nat.choose 2 (A373069 (n + 1)).toNat)
-
-end
-
-end A015352.P5791762492030088058
-
 /-! ## A015352.P16712789275364952513
 
 `C(2, A087087(A326544(n+4)))`
@@ -4217,51 +4203,6 @@ end
 
 end A015358.P15506010855768444383
 
-/-! ## A015358.P18046332920527179473
-
-`A003056(C(2, A241069(n)))`
--/
-
-namespace A015358.P18046332920527179473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (Nat.choose 2 (A241069 n).toNat)
-
-end
-
-end A015358.P18046332920527179473
-
-/-! ## A015358.P17362321663866384770
-
-`A010060(C(2, A241069(n)))`
--/
-
-namespace A015358.P17362321663866384770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010060 (Nat.choose 2 (A241069 n).toNat)
-
-end
-
-end A015358.P17362321663866384770
-
-/-! ## A015358.P1068834890826450382
-
-`A071858(C(2, A241069(n)))`
--/
-
-namespace A015358.P1068834890826450382
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071858 (Nat.choose 2 (A241069 n).toNat)
-
-end
-
-end A015358.P1068834890826450382
-
 /-! ## A015358.P5648841068218102344
 
 `A010054(∑[n]*A135661(n+5))`
@@ -4339,6 +4280,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015358.P11184247263184177038
+
+/-! ## A015358.P13838091027612085929
+
+`∑[A340851(A390677(n+1))]%2`
+-/
+
+namespace A015358.P13838091027612085929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340851 (A390677 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (∑ j ∈ Finset.range (n + 1), f1 j) 2
+
+end
+
+end A015358.P13838091027612085929
 
 /-!
 # A015362: Inverse of 1353rd cyclotomic polynomial.

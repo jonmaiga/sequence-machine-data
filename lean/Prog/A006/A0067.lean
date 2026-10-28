@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -19,18 +18,23 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,20 +46,20 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -85,7 +89,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A006701: Exponentiation of g.f. for Fibonacci numbers.
@@ -1828,24 +1831,6 @@ end
 
 end A006731.P6715188988880746687
 
-/-! ## A006731.P15611257872163319388
-
-`∑[A302505(A241727(n))]`
--/
-
-namespace A006731.P15611257872163319388
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302505 (A241727 (n + 45)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A006731.P15611257872163319388
-
 /-! ## A006731.P16241927578666439685
 
 `record[A129705(A029177(n))]`
@@ -1878,6 +1863,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006731.P11357963996061609472
+
+/-! ## A006731.P183417648841972960
+
+`A111654(A048770(n))`
+-/
+
+namespace A006731.P183417648841972960
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111654 (A048770 n).toNat
+
+end
+
+end A006731.P183417648841972960
 
 /-!
 # A006732: Series for first parallel moment of square lattice.
@@ -3790,24 +3790,6 @@ end A006765.P5533997452783259745
 The programs for A006766, there is no canonical definition to state claims against.
 -/
 
-/-! ## A006766.P2271356819991610315
-
-`A038119(n+1)-Δ[A173271(n)]`
--/
-
-namespace A006766.P2271356819991610315
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173271 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038119 (n + 1) - (f1 (n + 1) - f1 n)
-
-end
-
-end A006766.P2271356819991610315
-
 /-! ## A006766.P9607433366153896756
 
 `A038119(n+1)-A000105(n+1)`
@@ -3837,6 +3819,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006766.P9368200651625095411
+
+/-! ## A006766.P2271356819991610315
+
+`A038119(n+1)-Δ[A173271(n)]`
+-/
+
+namespace A006766.P2271356819991610315
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173271 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038119 (n + 1) - (f1 (n + 1) - f1 n)
+
+end
+
+end A006766.P2271356819991610315
 
 /-! ## A006766.P18091675592462785212
 
@@ -5918,21 +5918,6 @@ end A006797.P17549819401591627420
 
 The programs for A006798, there is no canonical definition to state claims against.
 -/
-
-/-! ## A006798.P1170866128562323393
-
-`A241093(A206246(n+1))+A126796(n+1)`
--/
-
-namespace A006798.P1170866128562323393
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241093 (A206246 (n + 1)).toNat + A126796 (n + 1)
-
-end
-
-end A006798.P1170866128562323393
 
 /-! ## A006798.P17463151243527219145
 

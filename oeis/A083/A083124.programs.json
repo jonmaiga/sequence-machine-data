@@ -17,6 +17,28 @@
       ]
     },
     {
+      "d": "2026-10-26",
+      "ix": "contfrac[tanh(acos(0))]",
+      "mt": 91,
+      "px": [
+        "0",
+        "acos",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[tanh(asin(1))]",
+      "mt": 91,
+      "px": [
+        "1",
+        "asin",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "contfrac[sin(atan(sinh(acos(0))))]",
       "mt": 91,

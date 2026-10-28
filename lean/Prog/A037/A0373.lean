@@ -3,23 +3,24 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +37,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -73,7 +75,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -8797,6 +8798,35 @@ def P8640044235184784008.Spec : Prop :=
 
 end A037336
 
+/-! ## A037336.P63286248121606141
+
+`eq[A053830(n), A007953(A123108(2*n))]`
+-/
+
+namespace A037336.P63286248121606141
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053830 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A123108 (2 * n)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A037336.P63286248121606141
+
+namespace A037336
+
+/-- `eq[A053830(n), A007953(A123108(2*n))]` -/
+def P63286248121606141.Spec : Prop :=
+  ∀ n, (P63286248121606141.a n : ℤ) = A037336 (n + 1)
+
+end A037336
+
 /-! ## A037336.P4677070346346297263
 
 `eq[A004092(A008706(n)), A053830(n)]`
@@ -9748,6 +9778,21 @@ end
 
 end A037347.P12196321546622329023
 
+/-! ## A037347.P8498028541569988738
+
+`A039573(A062399(n+1))`
+-/
+
+namespace A037347.P8498028541569988738
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039573 (A062399 (n + 1)).toNat
+
+end
+
+end A037347.P8498028541569988738
+
 /-!
 # A037348: Numbers whose base-3 and base-7 expansions have no digits in common.
 
@@ -10409,33 +10454,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A037362.P12749863983323738032
-
-/-!
-# A037365: Numbers whose base-6 and base-9 expansions have no digits in common.
-
-The programs for A037365, there is no canonical definition to state claims against.
--/
-
-/-! ## A037365.P11348794409313439170
-
-`lt[A134374(A049502(n)), A051056(n)]`
--/
-
-namespace A037365.P11348794409313439170
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134374 (A049502 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051056 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A037365.P11348794409313439170
 
 /-!
 # A037367: Numbers whose base-7 and base-8 expansions have no digits in common.
@@ -11360,4 +11378,19 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037398.P9700174605387235223
+
+/-! ## A037398.P2031518926423251641
+
+`A048331(A004906(n+2))`
+-/
+
+namespace A037398.P2031518926423251641
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048331 (A004906 (n + 2)).toNat
+
+end
+
+end A037398.P2031518926423251641
 

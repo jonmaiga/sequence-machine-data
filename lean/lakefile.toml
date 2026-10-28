@@ -32,3 +32,10 @@ globs = ["Prog.+"]
 [[lean_lib]]
 name = "Proof"
 globs = ["Proof.+"]
+# The generated proofs (scripts/lean-anchors) try alternatives, e.g. `first | omega | norm_num`, and share simp sets
+# across a family, these linters flag what one proof doesn't use. Weak: Batteries and Mathlib define them, the options
+# are read before the imports.
+leanOptions.weak.linter.unusedTactic = false
+leanOptions.weak.linter.unreachableTactic = false
+leanOptions.weak.linter.unnecessarySeqFocus = false
+leanOptions.linter.unusedSimpArgs = false

@@ -1,9 +1,9 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -16,13 +16,10 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -30,9 +27,13 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,12 +50,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,6 +68,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -92,36 +94,54 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A008000: Coordination sequence T1 for Zeolite Code ABW and ATN.
 
-The programs for A008000, the canonical program `A008000.P14598701383781270205` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008000 has offset 0).
+The programs for A008000, the canonical program `A008000.P7378627453975402357` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008000 has offset 0).
 
-The definition of A008000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A008000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008000.P7378627453975402357
+
+`ogf((1+3x+6x^2+9x^3+9x^4+6x^5+3x^6+x^7)/(1-x-2x^3+2x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008000
+
+/-- `ogf((1+3x+6x^2+9x^3+9x^4+6x^5+3x^6+x^7)/(1-x-2x^3+2x^4+x^6-x^7))` -/
+def P7378627453975402357.Spec : Prop :=
+  ∀ n, P7378627453975402357.a n = A008000 n
+
+theorem P7378627453975402357.correct : P7378627453975402357.Spec := by
+  intro n
+  simp only [A008000]
+
+end A008000
 
 /-! ## A008000.P14598701383781270205
 
 `A008130(n)+A005893(n)`
-
-The canonical program, it is in `Seq.B001.C000`.
 -/
+
+namespace A008000.P14598701383781270205
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008130 n + A005893 n
+
+end
+
+end A008000.P14598701383781270205
 
 namespace A008000
 
 /-- `A008130(n)+A005893(n)` -/
 def P14598701383781270205.Spec : Prop :=
   ∀ n, P14598701383781270205.a n = A008000 n
-
-theorem P14598701383781270205.correct : P14598701383781270205.Spec := by
-  intro n
-  simp only [A008000]
 
 end A008000
 
@@ -168,12 +188,6 @@ namespace A008000
 /-- `A008255(n)-A008130(n)` -/
 def P12153877482068313368.Spec : Prop :=
   ∀ n, P12153877482068313368.a n = A008000 n
-
-theorem P12153877482068313368.correct : P12153877482068313368.Spec := by
-  intro n
-  simp only [A008000, Nat.add_sub_cancel, A008000.P12153877482068313368.a, A008000.P14598701383781270205.a, A005893, A005893.P12560717778126936227.a, A008130, A008130.P6850248859462288160.a, A008255, A008255.P12648646354425310951.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A008000
 
@@ -223,12 +237,6 @@ namespace A008000
 /-- `(A008255(n)+A005893(n))/2` -/
 def P14471639870206825216.Spec : Prop :=
   ∀ n, P14471639870206825216.a n = (A008000 n : ℚ)
-
-theorem P14471639870206825216.correct : P14471639870206825216.Spec := by
-  intro n
-  simp only [A008000, Nat.add_sub_cancel, A008000.P14471639870206825216.a, A008000.P14598701383781270205.a, A005893, A005893.P12560717778126936227.a, A008130, A008130.P6850248859462288160.a, A008255, A008255.P12648646354425310951.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A008000
 
@@ -283,27 +291,6 @@ end A008000
 
 The programs for A008001, there is no canonical definition to state claims against.
 -/
-
-/-! ## A008001.P10898118322792573193
-
-`∑[∑[A330861(A005318(n))]]`
--/
-
-namespace A008001.P10898118322792573193
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330861 (A005318 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A008001.P10898118322792573193
 
 /-! ## A008001.P9274994072233956672
 
@@ -1031,10 +1018,29 @@ end A008012.P7929035731542057047
 /-!
 # A008013: Coordination sequence occurring in Zeolite Codes AFG, CAN, LIO, LOS.
 
-The programs for A008013, the canonical program `A008013.P14464025922531573754` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008013 has offset 0).
+The programs for A008013, the canonical program `A008013.P16966791329821012535` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008013 has offset 0).
 
-The definition of A008013 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A008013 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008013.P16966791329821012535
+
+`ogf((1+3x+6x^2+10x^3+14x^4+18x^5+18x^6+14x^7+10x^8+6x^9+3x^10+x^11)/(1-x-2x^5+2x^6+x^10-x^11))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008013
+
+/-- `ogf((1+3x+6x^2+10x^3+14x^4+18x^5+18x^6+14x^7+10x^8+6x^9+3x^10+x^11)/(1-x-2x^5+2x^6+x^10-x^11))` -/
+def P16966791329821012535.Spec : Prop :=
+  ∀ n, P16966791329821012535.a n = A008013 n
+
+theorem P16966791329821012535.correct : P16966791329821012535.Spec := by
+  intro n
+  simp only [A008013]
+
+end A008013
 
 /-! ## A008013.P16930061830335493554
 
@@ -1056,12 +1062,6 @@ namespace A008013
 /-- `A008265(n)-A008738(n)` -/
 def P16930061830335493554.Spec : Prop :=
   ∀ n, P16930061830335493554.a n = A008013 n
-
-theorem P16930061830335493554.correct : P16930061830335493554.Spec := by
-  intro n
-  simp only [A008013, Nat.add_sub_cancel, A008013.P16930061830335493554.a, A008013.P14464025922531573754.a, A005893, A005893.P12560717778126936227.a, A008265, A008265.P14370154735591299047.a, A008363, A008363.P1720988674792954549.a, A008738, A008738.P66942315527363512.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A008013
 
@@ -1094,19 +1094,23 @@ end A008013
 /-! ## A008013.P14464025922531573754
 
 `A005893(n)+2*A008363(n)`
-
-The canonical program, it is in `Seq.B001.C000`.
 -/
+
+namespace A008013.P14464025922531573754
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005893 n + 2 * A008363 n
+
+end
+
+end A008013.P14464025922531573754
 
 namespace A008013
 
 /-- `A005893(n)+2*A008363(n)` -/
 def P14464025922531573754.Spec : Prop :=
   ∀ n, P14464025922531573754.a n = A008013 n
-
-theorem P14464025922531573754.correct : P14464025922531573754.Spec := by
-  intro n
-  simp only [A008013]
 
 end A008013
 
@@ -1228,8 +1232,29 @@ end A008013
 /-!
 # A008014: Coordination sequence T1 for Zeolite Code AFI.
 
-The programs for A008014, there is no canonical definition to state claims against.
+The programs for A008014, the canonical program `A008014.P9131690888562410806` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008014 has offset 0).
+
+The definition of A008014 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008014.P9131690888562410806
+
+`ogf((1+2x+4x^2+3x^3+4x^4+4x^5+6x^6+4x^7+4x^8+3x^9+4x^10+2x^11+x^12)/(1-2x+x^2-x^10+2x^11-x^12))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008014
+
+/-- `ogf((1+2x+4x^2+3x^3+4x^4+4x^5+6x^6+4x^7+4x^8+3x^9+4x^10+2x^11+x^12)/(1-2x+x^2-x^10+2x^11-x^12))` -/
+def P9131690888562410806.Spec : Prop :=
+  ∀ n, P9131690888562410806.a n = A008014 n
+
+theorem P9131690888562410806.correct : P9131690888562410806.Spec := by
+  intro n
+  simp only [A008014]
+
+end A008014
 
 /-! ## A008014.P11729245764593593932
 
@@ -1252,6 +1277,14 @@ end
 
 end A008014.P11729245764593593932
 
+namespace A008014
+
+/-- `∑[∑[A043557(A001248(3*n+1))]]` -/
+def P11729245764593593932.Spec : Prop :=
+  ∀ n, P11729245764593593932.a n = A008014 n
+
+end A008014
+
 /-! ## A008014.P2562262515049645704
 
 `A299258(n)-A002620(A276142(n+1))`
@@ -1266,6 +1299,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008014.P2562262515049645704
+
+namespace A008014
+
+/-- `A299258(n)-A002620(A276142(n+1))` -/
+def P2562262515049645704.Spec : Prop :=
+  ∀ n, P2562262515049645704.a n = A008014 n
+
+end A008014
 
 /-! ## A008014.P2447566817626955332
 
@@ -1285,20 +1326,13 @@ end
 
 end A008014.P2447566817626955332
 
-/-! ## A008014.P15480953088217345338
+namespace A008014
 
-`A330063(A051336(n+1))`
--/
+/-- `floor(sqrt(∑[A014540(3*n+5)]))` -/
+def P2447566817626955332.Spec : Prop :=
+  ∀ n, P2447566817626955332.a n = A008014 n
 
-namespace A008014.P15480953088217345338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330063 (A051336 (n + 1)).toNat
-
-end
-
-end A008014.P15480953088217345338
+end A008014
 
 /-!
 # A008015: Coordination sequence T1 for Zeolite Code AFO.
@@ -2054,8 +2088,29 @@ end A008029.P12753698852609835549
 /-!
 # A008031: Coordination sequence T1 for Zeolite Code ANA.
 
-The programs for A008031, there is no canonical definition to state claims against.
+The programs for A008031, the canonical program `A008031.P8982211890060867105` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008031 has offset 0).
+
+The definition of A008031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008031.P8982211890060867105
+
+`ogf((1+2x+4x^2+8x^3+9x^4+11x^5+13x^6+12x^7+11x^8+11x^9+8x^10+3x^11+2x^12+3x^13-4x^14+2x^15)/(1-2x+2x^2-2x^3+2x^4-3x^5+4x^6-4x^7+3x^8-2x^9+2x^10-2x^11+2x^12-x^13))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008031
+
+/-- `ogf((1+2x+4x^2+8x^3+9x^4+11x^5+13x^6+12x^7+11x^8+11x^9+8x^10+3x^11+2x^12+3x^13-4x^14+2x^15)/(1-2x+2x^2-2x^3+2x^4-3x^5+4x^6-4x^7+3x^8-2x^9+2x^10-2x^11+2x^12-x^13))` -/
+def P8982211890060867105.Spec : Prop :=
+  ∀ n, P8982211890060867105.a n = A008031 n
+
+theorem P8982211890060867105.correct : P8982211890060867105.Spec := by
+  intro n
+  simp only [A008031]
+
+end A008031
 
 /-! ## A008031.P12377142914932719871
 
@@ -2072,6 +2127,14 @@ end
 
 end A008031.P12377142914932719871
 
+namespace A008031
+
+/-- `A276571(A128806(n²))` -/
+def P12377142914932719871.Spec : Prop :=
+  ∀ n, P12377142914932719871.a n = A008031 n
+
+end A008031
+
 /-! ## A008031.P8236789323370405927
 
 `A276571(A309372(n)+A053699(n))`
@@ -2086,6 +2149,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008031.P8236789323370405927
+
+namespace A008031
+
+/-- `A276571(A309372(n)+A053699(n))` -/
+def P8236789323370405927.Spec : Prop :=
+  ∀ n, P8236789323370405927.a n = A008031 n
+
+end A008031
 
 /-! ## A008031.P8957168633837459792
 
@@ -2102,20 +2173,13 @@ end
 
 end A008031.P8957168633837459792
 
-/-! ## A008031.P11132551536662715207
+namespace A008031
 
-`A321333(n²)+A000065(n)`
--/
+/-- `A116668(n)-A003434(A148861(n))` -/
+def P8957168633837459792.Spec : Prop :=
+  ∀ n, P8957168633837459792.a n = A008031 n
 
-namespace A008031.P11132551536662715207
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321333 (n ^ 2) + A000065 n
-
-end
-
-end A008031.P11132551536662715207
+end A008031
 
 /-!
 # A008032: Coordination sequence T1 for Zeolite Code APC.
@@ -2421,6 +2485,60 @@ end
 end A008035.P8536498756988220775
 
 /-!
+# A008036: Coordination sequence T1 for Zeolite Code AST.
+
+The programs for A008036, the canonical program `A008036.P13031042578396756708` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008036 has offset 0).
+
+The definition of A008036 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A008036.P13031042578396756708
+
+`ogf((1+2x+5x^2+10x^3+12x^4+15x^5+15x^6+12x^7+10x^8+5x^9+2x^10+x^11)/(1-2x+4x^2-7x^3+8x^4-10x^5+10x^6-8x^7+7x^8-4x^9+2x^10-x^11))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008036
+
+/-- `ogf((1+2x+5x^2+10x^3+12x^4+15x^5+15x^6+12x^7+10x^8+5x^9+2x^10+x^11)/(1-2x+4x^2-7x^3+8x^4-10x^5+10x^6-8x^7+7x^8-4x^9+2x^10-x^11))` -/
+def P13031042578396756708.Spec : Prop :=
+  ∀ n, P13031042578396756708.a n = A008036 n
+
+theorem P13031042578396756708.correct : P13031042578396756708.Spec := by
+  intro n
+  simp only [A008036]
+
+end A008036
+
+/-!
+# A008037: Coordination sequence T2 for Zeolite Code AST.
+
+The programs for A008037, the canonical program `A008037.P7864402406066610337` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008037 has offset 0).
+
+The definition of A008037 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A008037.P7864402406066610337
+
+`ogf((1+3x+10x^2+11x^3+23x^4+26x^5+32x^6+26x^7+23x^8+11x^9+10x^10+3x^11+x^12)/(1-x+2x^2-3x^3+x^4-2x^5+2x^7-x^8+3x^9-2x^10+x^11-x^12))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008037
+
+/-- `ogf((1+3x+10x^2+11x^3+23x^4+26x^5+32x^6+26x^7+23x^8+11x^9+10x^10+3x^11+x^12)/(1-x+2x^2-3x^3+x^4-2x^5+2x^7-x^8+3x^9-2x^10+x^11-x^12))` -/
+def P7864402406066610337.Spec : Prop :=
+  ∀ n, P7864402406066610337.a n = A008037 n
+
+theorem P7864402406066610337.correct : P7864402406066610337.Spec := by
+  intro n
+  simp only [A008037]
+
+end A008037
+
+/-!
 # A008038: Coordination sequence T1 for Zeolite Code ATS.
 
 The programs for A008038, there is no canonical definition to state claims against.
@@ -2509,6 +2627,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008038.P1463654838585981528
+
+/-!
+# A008039: Coordination sequence T2 for Zeolite Code ATS.
+
+The programs for A008039, the canonical program `A008039.P6483600140012846385` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008039 has offset 0).
+
+The definition of A008039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A008039.P6483600140012846385
+
+`ogf((1+4x+10x^2+19x^3+28x^4+37x^5+45x^6+45x^7+37x^8+28x^9+19x^10+10x^11+4x^12+x^13)/(1-x^3-2x^5+2x^8+x^10-x^13))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008039
+
+/-- `ogf((1+4x+10x^2+19x^3+28x^4+37x^5+45x^6+45x^7+37x^8+28x^9+19x^10+10x^11+4x^12+x^13)/(1-x^3-2x^5+2x^8+x^10-x^13))` -/
+def P6483600140012846385.Spec : Prop :=
+  ∀ n, P6483600140012846385.a n = A008039 n
+
+theorem P6483600140012846385.correct : P6483600140012846385.Spec := by
+  intro n
+  simp only [A008039]
+
+end A008039
 
 /-!
 # A008040: Coordination sequence T3 for Zeolite Code ATS.
@@ -2828,8 +2973,29 @@ end A008045.P4023613887071187412
 /-!
 # A008048: Coordination sequence T2 for Zeolite Code BIK.
 
-The programs for A008048, there is no canonical definition to state claims against.
+The programs for A008048, the canonical program `A008048.P7181232173344371626` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008048 has offset 0).
+
+The definition of A008048 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008048.P7181232173344371626
+
+`ogf((1+4x+14x^2+32x^3+58x^4+90x^5+117x^6+136x^7+121x^8+106x^9+58x^10+40x^11+6x^12+4x^13-3x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008048
+
+/-- `ogf((1+4x+14x^2+32x^3+58x^4+90x^5+117x^6+136x^7+121x^8+106x^9+58x^10+40x^11+6x^12+4x^13-3x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))` -/
+def P7181232173344371626.Spec : Prop :=
+  ∀ n, P7181232173344371626.a n = A008048 n
+
+theorem P7181232173344371626.correct : P7181232173344371626.Spec := by
+  intro n
+  simp only [A008048]
+
+end A008048
 
 /-! ## A008048.P9671565265535007763
 
@@ -2845,6 +3011,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A008048.P9671565265535007763
+
+namespace A008048
+
+/-- `2*A225489(a(n-1)+2)` -/
+def P9671565265535007763.Spec : Prop :=
+  ∀ n, P9671565265535007763.a n = A008048 n
+
+end A008048
 
 /-! ## A008048.P8830180061403101889
 
@@ -2864,20 +3038,13 @@ end
 
 end A008048.P8830180061403101889
 
-/-! ## A008048.P15356520639868227637
+namespace A008048
 
-`A324702(n+1)-A143621(A001426(n))`
--/
+/-- `A351626(∑[A354956(n+1)])` -/
+def P8830180061403101889.Spec : Prop :=
+  ∀ n, P8830180061403101889.a n = A008048 n
 
-namespace A008048.P15356520639868227637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324702 (n + 1) - A143621 (A001426 n).toNat
-
-end
-
-end A008048.P15356520639868227637
+end A008048
 
 /-!
 # A008049: Coordination sequence T1 for Zeolite Code BOG.
@@ -3007,21 +3174,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008050.P12081542862571471489
-
-/-! ## A008050.P2826314839011493426
-
-`and(-A290977(n+1), A008000(n))`
--/
-
-namespace A008050.P2826314839011493426
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-A290977 (n + 1)) (A008000 n)
-
-end
-
-end A008050.P2826314839011493426
 
 /-!
 # A008052: Coordination sequence T4 for Zeolite Code BOG.
@@ -3509,27 +3661,50 @@ end A008064.P15157594902702550341
 /-!
 # A008066: Coordination sequence T1 for Zeolite Code CHA.
 
-The programs for A008066, the canonical program `A008066.P16344384066505485400` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008066 has offset 0).
+The programs for A008066, the canonical program `A008066.P17033291601657261267` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008066 has offset 0).
 
-The definition of A008066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 201 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A008066 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008066.P17033291601657261267
+
+`ogf((1+2x+3x^2+5x^3+6x^4+6x^5+5x^6+3x^7+2x^8+x^9)/(1-2x+2x^2-2x^3+x^4-x^5+2x^6-2x^7+2x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008066
+
+/-- `ogf((1+2x+3x^2+5x^3+6x^4+6x^5+5x^6+3x^7+2x^8+x^9)/(1-2x+2x^2-2x^3+x^4-x^5+2x^6-2x^7+2x^8-x^9))` -/
+def P17033291601657261267.Spec : Prop :=
+  ∀ n, P17033291601657261267.a n = A008066 n
+
+theorem P17033291601657261267.correct : P17033291601657261267.Spec := by
+  intro n
+  simp only [A008066]
+
+end A008066
 
 /-! ## A008066.P16344384066505485400
 
 `A008260(n)-A042948(A002620(n))`
-
-The canonical program, it is in `Seq.B001.C000`.
 -/
+
+namespace A008066.P16344384066505485400
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008260 n - A042948 (A002620 n).toNat
+
+end
+
+end A008066.P16344384066505485400
 
 namespace A008066
 
 /-- `A008260(n)-A042948(A002620(n))` -/
 def P16344384066505485400.Spec : Prop :=
   ∀ n, P16344384066505485400.a n = A008066 n
-
-theorem P16344384066505485400.correct : P16344384066505485400.Spec := by
-  intro n
-  simp only [A008066]
 
 end A008066
 
@@ -3959,8 +4134,29 @@ end A008082.P14762545912026962152
 /-!
 # A008084: Coordination sequence T1 for Zeolite Code ACO, ASV, EDI, and THO.
 
-The programs for A008084, there is no canonical definition to state claims against.
+The programs for A008084, the canonical program `A008084.P6288788917088088195` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008084 has offset 0).
+
+The definition of A008084 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008084.P6288788917088088195
+
+`ogf((1+2x+3x^2+6x^3+6x^4+3x^5+2x^6+x^7)/(1-2x+2x^2-3x^3+3x^4-2x^5+2x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008084
+
+/-- `ogf((1+2x+3x^2+6x^3+6x^4+3x^5+2x^6+x^7)/(1-2x+2x^2-3x^3+3x^4-2x^5+2x^6-x^7))` -/
+def P6288788917088088195.Spec : Prop :=
+  ∀ n, P6288788917088088195.a n = A008084 n
+
+theorem P6288788917088088195.correct : P6288788917088088195.Spec := by
+  intro n
+  simp only [A008084]
+
+end A008084
 
 /-! ## A008084.P17637535429657896605
 
@@ -3977,6 +4173,14 @@ end
 
 end A008084.P17637535429657896605
 
+namespace A008084
+
+/-- `A267528(A008266(n))-A077043(n)` -/
+def P17637535429657896605.Spec : Prop :=
+  ∀ n, P17637535429657896605.a n = A008084 n
+
+end A008084
+
 /-! ## A008084.P15327046881268848046
 
 `A267528(A008266(n))+1-A084684(n)`
@@ -3991,6 +4195,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008084.P15327046881268848046
+
+namespace A008084
+
+/-- `A267528(A008266(n))+1-A084684(n)` -/
+def P15327046881268848046.Spec : Prop :=
+  ∀ n, P15327046881268848046.a n = A008084 n
+
+end A008084
 
 /-! ## A008084.P12614894079560011726
 
@@ -4007,6 +4219,14 @@ end
 
 end A008084.P12614894079560011726
 
+namespace A008084
+
+/-- `A267528(A008266(n))+A001478(A077043(n)+1)+1` -/
+def P12614894079560011726.Spec : Prop :=
+  ∀ n, P12614894079560011726.a n = A008084 n
+
+end A008084
+
 /-! ## A008084.P4495510440840586966
 
 `A130481(A001105(n))+A098178(n)`
@@ -4022,26 +4242,40 @@ end
 
 end A008084.P4495510440840586966
 
-/-! ## A008084.P6889134626594024793
+namespace A008084
 
-`A235452(A005893(n))-A007877(n)`
--/
+/-- `A130481(A001105(n))+A098178(n)` -/
+def P4495510440840586966.Spec : Prop :=
+  ∀ n, P4495510440840586966.a n = A008084 n
 
-namespace A008084.P6889134626594024793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235452 (A005893 n).toNat - A007877 n
-
-end
-
-end A008084.P6889134626594024793
+end A008084
 
 /-!
 # A008085: Coordination sequence T2 for Zeolite Code EDI.
 
-The programs for A008085, there is no canonical definition to state claims against.
+The programs for A008085, the canonical program `A008085.P2512484347620631963` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008085 has offset 0).
+
+The definition of A008085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A008085.P2512484347620631963
+
+`ogf((1+2x+2x^2+7x^3+3x^4+10x^5-2x^6+5x^7-8x^8+4x^9)/(1-2x+2x^2-3x^3+3x^4-2x^5+2x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A008085
+
+/-- `ogf((1+2x+2x^2+7x^3+3x^4+10x^5-2x^6+5x^7-8x^8+4x^9)/(1-2x+2x^2-3x^3+3x^4-2x^5+2x^6-x^7))` -/
+def P2512484347620631963.Spec : Prop :=
+  ∀ n, P2512484347620631963.a n = A008085 n
+
+theorem P2512484347620631963.correct : P2512484347620631963.Spec := by
+  intro n
+  simp only [A008085]
+
+end A008085
 
 /-! ## A008085.P746733229698351949
 
@@ -4058,6 +4292,14 @@ end
 
 end A008085.P746733229698351949
 
+namespace A008085
+
+/-- `2*n²+A000122(A014138(n))` -/
+def P746733229698351949.Spec : Prop :=
+  ∀ n, P746733229698351949.a n = A008085 n
+
+end A008085
+
 /-! ## A008085.P3447136021961521197
 
 `A008441(A041010(n))+A001105(n)`
@@ -4072,6 +4314,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008085.P3447136021961521197
+
+namespace A008085
+
+/-- `A008441(A041010(n))+A001105(n)` -/
+def P3447136021961521197.Spec : Prop :=
+  ∀ n, P3447136021961521197.a n = A008085 n
+
+end A008085
 
 /-! ## A008085.P12075181317027168383
 
@@ -4088,20 +4338,13 @@ end
 
 end A008085.P12075181317027168383
 
-/-! ## A008085.P7563225922249269508
+namespace A008085
 
-`A086937(A229428(2*n+1))+A001105(n)`
--/
+/-- `A138811(A014138(n))+A001105(n)` -/
+def P12075181317027168383.Spec : Prop :=
+  ∀ n, P12075181317027168383.a n = A008085 n
 
-namespace A008085.P7563225922249269508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086937 (A229428 (2 * n + 1)).toNat + A001105 n
-
-end
-
-end A008085.P7563225922249269508
+end A008085
 
 /-!
 # A008086: Coordination sequence T1 for Zeolite Code EMT.

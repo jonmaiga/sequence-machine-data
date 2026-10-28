@@ -26,6 +26,10 @@
         "^",
         "*",
         "∑{d}"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

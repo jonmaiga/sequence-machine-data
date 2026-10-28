@@ -13,9 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -24,9 +22,9 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -35,8 +33,13 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,9 +48,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -57,8 +60,10 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -70,7 +75,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -82,15 +86,14 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2321,10 +2324,29 @@ end A184417
 /-!
 # A184418: Convolution square of A040001.
 
-The programs for A184418, the canonical program `A184418.P11752725616120910994` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184418 has offset 0).
+The programs for A184418, the canonical program `A184418.P558784470050211911` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184418 has offset 0).
 
-The definition of A184418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A184418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A184418.P558784470050211911
+
+`ogf((1+2x+3x^2+2x^3+x^4)/(1-2x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A184418
+
+/-- `ogf((1+2x+3x^2+2x^3+x^4)/(1-2x^2+x^4))` -/
+def P558784470050211911.Spec : Prop :=
+  ∀ n, P558784470050211911.a n = A184418 n
+
+theorem P558784470050211911.correct : P558784470050211911.Spec := by
+  intro n
+  simp only [A184418]
+
+end A184418
 
 /-! ## A184418.P6649378514414716907
 
@@ -2352,19 +2374,23 @@ end A184418
 /-! ## A184418.P11752725616120910994
 
 `gcd(2, n)+a(n-2)+3` with `a(0)=1, a(1)=2, a(2)=5`
-
-The canonical program, it is in `Seq.B000.C026`.
 -/
+
+namespace A184418.P11752725616120910994
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 5] fun n a =>
+  Nat.gcd 2 n + (a (n - 2) + 3)
+
+end
+
+end A184418.P11752725616120910994
 
 namespace A184418
 
 /-- `gcd(2, n)+a(n-2)+3` -/
 def P11752725616120910994.Spec : Prop :=
   ∀ n, (P11752725616120910994.a n : ℤ) = A184418 n
-
-theorem P11752725616120910994.correct : P11752725616120910994.Spec := by
-  intro n
-  simp only [A184418]
 
 end A184418
 
@@ -2766,29 +2792,6 @@ namespace A184418
 /-- `A134479(n)-A191967(n)` -/
 def P9783522104582864984.Spec : Prop :=
   ∀ n, P9783522104582864984.a n = A184418 n
-
-end A184418
-
-/-! ## A184418.P9636474061295787775
-
-`A265284(n)-A093353(n)`
--/
-
-namespace A184418.P9636474061295787775
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265284 n - A093353 n
-
-end
-
-end A184418.P9636474061295787775
-
-namespace A184418
-
-/-- `A265284(n)-A093353(n)` -/
-def P9636474061295787775.Spec : Prop :=
-  ∀ n, P9636474061295787775.a n = A184418 n
 
 end A184418
 
@@ -3452,6 +3455,32 @@ theorem P3303203828994434715.correct : P3303203828994434715.Spec := by
 
 end A184423
 
+/-! ## A184423.P8555198226311474278
+
+`∑{#}[n, A184424(#)*A184424(n-#)]`
+-/
+
+namespace A184423.P8555198226311474278
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A184424 k * A184424 (n - k)
+
+end
+
+end A184423.P8555198226311474278
+
+namespace A184423
+
+/-- `∑{#}[n, A184424(#)*A184424(n-#)]` -/
+def P8555198226311474278.Spec : Prop :=
+  ∀ n, P8555198226311474278.a n = A184423 n
+
+end A184423
+
 /-! ## A184423.P15358224060047158912
 
 `(2*n)!*(3*n)!/n!^5`
@@ -3584,6 +3613,35 @@ def P909721173262771656.Spec : Prop :=
 
 end A184423
 
+/-! ## A184423.P5474226968180475190
+
+`A000984(n)*A006480(n)`
+-/
+
+namespace A184423.P5474226968180475190
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000984 n * A006480 n
+
+end
+
+end A184423.P5474226968180475190
+
+namespace A184423
+
+/-- `A000984(n)*A006480(n)` -/
+def P5474226968180475190.Spec : Prop :=
+  ∀ n, P5474226968180475190.a n = A184423 n
+
+theorem P5474226968180475190.correct : P5474226968180475190.Spec := by
+  intro n
+  simp only [A184423, Nat.add_sub_cancel, A184423.P5474226968180475190.a, A184423.P3303203828994434715.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A184423
+
 /-! ## A184423.P4456026607779943700
 
 `A000984(n)²*A005809(n)`
@@ -3610,52 +3668,6 @@ theorem P4456026607779943700.correct : P4456026607779943700.Spec := by
   simp only [A184423, Nat.add_sub_cancel, A184423.P4456026607779943700.a, A184423.P3303203828994434715.a, A000984, A000984.P7946844122574426130.a, A005809, A005809.P15087077436016713419.a, A006480, A006480.P12463522902644750404.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
-end A184423
-
-/-! ## A184423.P2435236148481659078
-
-`A001405(2*n)*A006480(n)`
--/
-
-namespace A184423.P2435236148481659078
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001405 (2 * n) * A006480 n
-
-end
-
-end A184423.P2435236148481659078
-
-namespace A184423
-
-/-- `A001405(2*n)*A006480(n)` -/
-def P2435236148481659078.Spec : Prop :=
-  ∀ n, P2435236148481659078.a n = A184423 n
-
-end A184423
-
-/-! ## A184423.P13903010753857166158
-
-`A006480(n)/A005809(n)*A006480(n)`
--/
-
-namespace A184423.P13903010753857166158
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006480 n : ℚ) / (A005809 n : ℚ) * (A006480 n : ℚ)
-
-end
-
-end A184423.P13903010753857166158
-
-namespace A184423
-
-/-- `A006480(n)/A005809(n)*A006480(n)` -/
-def P13903010753857166158.Spec : Prop :=
-  ∀ n, P13903010753857166158.a n = (A184423 n : ℚ)
 
 end A184423
 
@@ -4192,7 +4204,7 @@ end A184426.P17574532240824689557
 /-!
 # A184427: Lower s-Wythoff sequence of A000290 (the squares). Complement of A184428.
 
-The programs for A184427, the canonical program `A184427.P18072499117235604643` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184427 has offset 1).
+The programs for A184427, the canonical program `A184427.P18072499117235604643` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184427 has offset 1).
 
 The definition of A184427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4201,7 +4213,7 @@ The definition of A184427 is `conjectured`: the Lean definition is a formula tha
 
 `comp[round(n*(n-atan(1)))]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A184427
@@ -4504,31 +4516,25 @@ end
 
 end A184428.P16522805894645569284
 
-/-! ## A184428.P12468730076860168801
+/-! ## A184428.P9268080471126688826
 
-`∑[∑[A091412(A014313(n+1)+1)]]`
+`A132913(A008354(n+1))`
 -/
 
-namespace A184428.P12468730076860168801
+namespace A184428.P9268080471126688826
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091412 (A014313 (n + 1) + 1).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A132913 (A008354 (n + 1)).toNat
 
 end
 
-end A184428.P12468730076860168801
+end A184428.P9268080471126688826
 
 /-!
 # A184429: Lower s-Wythoff sequence of A184429 (quarter-squares). Complement of A184430.
 
-The programs for A184429, the canonical program `A184429.P5122746667245986841` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184429 has offset 1).
+The programs for A184429, the canonical program `A184429.P5122746667245986841` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184429 has offset 1).
 
 The definition of A184429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4668,7 +4674,7 @@ end A184429
 
 `A135665(A315303(n)+1)+1+n`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A184429
@@ -11412,8 +11418,29 @@ end A184488.P7000122147691729238
 /-!
 # A184489: Number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock sum greater than 4.
 
-The programs for A184489, there is no canonical definition to state claims against.
+The programs for A184489, the canonical program `A184489.P1125180652814526653` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184489 has offset 1).
+
+The definition of A184489 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 142 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A184489.P1125180652814526653
+
+`ogf((31+72x-44x^2-96x^3)/(1-3x-11x^2+4x^3+12x^4))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A184489
+
+/-- `ogf((31+72x-44x^2-96x^3)/(1-3x-11x^2+4x^3+12x^4))` -/
+def P1125180652814526653.Spec : Prop :=
+  ∀ n, P1125180652814526653.a n = A184489 (n + 1)
+
+theorem P1125180652814526653.correct : P1125180652814526653.Spec := by
+  intro n
+  simp only [A184489, Nat.add_sub_cancel]
+
+end A184489
 
 /-! ## A184489.P559684077450515811
 
@@ -11433,6 +11460,14 @@ end
 
 end A184489.P559684077450515811
 
+namespace A184489
+
+/-- `A184497(∑[n]+1)` -/
+def P559684077450515811.Spec : Prop :=
+  ∀ n, P559684077450515811.a n = A184489 (n + 1)
+
+end A184489
+
 /-! ## A184489.P682855449623379623
 
 `record[A176226(n)*A184497(n+1)]`
@@ -11450,6 +11485,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184489.P682855449623379623
+
+namespace A184489
+
+/-- `record[A176226(n)*A184497(n+1)]` -/
+def P682855449623379623.Spec : Prop :=
+  ∀ n, P682855449623379623.a n = A184489 (n + 1)
+
+end A184489
 
 /-! ## A184489.P2127675390448764478
 
@@ -11469,6 +11512,14 @@ end
 
 end A184489.P2127675390448764478
 
+namespace A184489
+
+/-- `record[root(A184497(n+1), A008279(n))]` -/
+def P2127675390448764478.Spec : Prop :=
+  ∀ n, P2127675390448764478.a n = (A184489 (n + 1) : ℝ)
+
+end A184489
+
 /-! ## A184489.P1055013872092162286
 
 `record[gcd(A002262(n), A184497(n+1))]`
@@ -11487,23 +11538,13 @@ end
 
 end A184489.P1055013872092162286
 
-/-! ## A184489.P5737329516195609273
+namespace A184489
 
-`record[A184497(n+1)/A166962(n+1)]`
--/
+/-- `record[gcd(A002262(n), A184497(n+1))]` -/
+def P1055013872092162286.Spec : Prop :=
+  ∀ n, (P1055013872092162286.a n : ℤ) = A184489 (n + 1)
 
-namespace A184489.P5737329516195609273
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A184497 (n + 1) : ℚ) / (A166962 (n + 1) : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A184489.P5737329516195609273
+end A184489
 
 /-!
 # A184490: Number of (n+1)X3 0..2 arrays with every 2X2 subblock sum greater than 4.

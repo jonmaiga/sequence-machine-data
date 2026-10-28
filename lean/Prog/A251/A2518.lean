@@ -3,30 +3,32 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C043
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,22 +47,19 @@ import Seq.B007.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A251802: Number of (2+1)X(n+1) 0..3 arrays with no 2X2 subblock having x11-x00 less than x10-x01.
@@ -3843,19 +3842,57 @@ end
 
 end A251857.P3518440194066258658
 
+/-! ## A251857.P3092441441953547799
+
+`A251858(A141214(n+1))`
+-/
+
+namespace A251857.P3092441441953547799
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251858 (A141214 (n + 1)).toNat
+
+end
+
+end A251857.P3092441441953547799
+
 /-!
 # A251861: Number of non-palindromic words (length n>0) over the alphabet of 26 letters.
 
-The programs for A251861, the canonical program `A251861.P12595956357876353781` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251861 has offset 1).
+The programs for A251861, the canonical program `A251861.P12595956357876353781` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251861 has offset 1).
 
 The definition of A251861 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A251861.P11394977182870628135
+
+`ogf(650x/(1-26x-26x^2+676x^3))`
+-/
+
+namespace A251861.P11394977182870628135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 650] [1, -26, -26, 676] n
+
+end
+
+end A251861.P11394977182870628135
+
+namespace A251861
+
+/-- `ogf(650x/(1-26x-26x^2+676x^3))` -/
+def P11394977182870628135.Spec : Prop :=
+  ∀ n, P11394977182870628135.a n = A251861 (n + 1)
+
+end A251861
 
 /-! ## A251861.P12595956357876353781
 
 `26^(n+1)-26^ceil((n+1)/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A251861
@@ -3990,16 +4027,39 @@ end A251864.P12394601541713734738
 /-!
 # A251867: Numbers n such that n^2 + (n+1)^2 is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 
-The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
+The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
 
 The definition of A251867 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A251867.P4885139264656575323
+
+`ogf((14x+2x^2)/(1-35x+35x^2-x^3))`
+-/
+
+namespace A251867.P4885139264656575323
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 14, 2] [1, -35, 35, -1] n
+
+end
+
+end A251867.P4885139264656575323
+
+namespace A251867
+
+/-- `ogf((14x+2x^2)/(1-35x+35x^2-x^3))` -/
+def P4885139264656575323.Spec : Prop :=
+  ∀ n, P4885139264656575323.a n = A251867 (n + 1)
+
+end A251867
 
 /-! ## A251867.P16106857954171248714
 
 `35*a(n-1)-35*a(n-2)+a(n-3)` with `a(0)=0, a(1)=14, a(2)=492`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A251867
@@ -4195,29 +4255,6 @@ namespace A251867
 /-- `A182190(2*n)/2` -/
 def P5677270468010596926.Spec : Prop :=
   ∀ n, P5677270468010596926.a n = (A251867 (n + 1) : ℚ)
-
-end A251867
-
-/-! ## A251867.P4057233251756731654
-
-`floor(A001653(2*n+1)/2)`
--/
-
-namespace A251867.P4057233251756731654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A001653 (2 * n + 1) : ℚ) / 2⌋
-
-end
-
-end A251867.P4057233251756731654
-
-namespace A251867
-
-/-- `floor(A001653(2*n+1)/2)` -/
-def P4057233251756731654.Spec : Prop :=
-  ∀ n, P4057233251756731654.a n = A251867 (n + 1)
 
 end A251867
 

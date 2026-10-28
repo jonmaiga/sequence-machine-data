@@ -6,8 +6,9 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C012
-import Seq.B000.C018
+import Seq.B000.C006
+import Seq.B000.C013
+import Seq.B000.C020
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -16,7 +17,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C013
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

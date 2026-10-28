@@ -1,40 +1,44 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C008
+import Seq.B000.C010
+import Seq.B000.C014
 import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C001
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -43,6 +47,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -55,7 +60,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -75,7 +79,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A374806: a(n) is the smallest number which can be represented as the sum of 3 distinct nonzero triangular numbers in exactly n ways, or -1 if no such number exists.
@@ -995,7 +998,7 @@ end A374842.P5632252493448326849
 /-!
 # A374844: a(n) = n! * Sum_{k=1..n} k^k / k!.
 
-The programs for A374844, the canonical program `A374844.P3064299584962008638` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374844 has offset 0).
+The programs for A374844, the canonical program `A374844.P3064299584962008638` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374844 has offset 0).
 
 The definition of A374844 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1004,7 +1007,7 @@ The definition of A374844 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+n^n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A374844
@@ -1039,6 +1042,32 @@ namespace A374844
 /-- `A277506(n)-n!` -/
 def P3709676120838453168.Spec : Prop :=
   ∀ n, P3709676120838453168.a n = A374844 n
+
+end A374844
+
+/-! ## A374844.P13567376022479022577
+
+`∑{#}[n-1, C(n, #+1)*(#+1)^(#+1)*(n-(#+1))!]`
+-/
+
+namespace A374844.P13567376022479022577
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (k + 1) * (k + 1) ^ (k + 1) * Nat.factorial ((n : ℤ) - (k + 1 : ℤ)).toNat
+
+end
+
+end A374844.P13567376022479022577
+
+namespace A374844
+
+/-- `∑{#}[n-1, C(n, #+1)*(#+1)^(#+1)*(n-(#+1))!]` -/
+def P13567376022479022577.Spec : Prop :=
+  ∀ n, (P13567376022479022577.a n : ℤ) = A374844 n
 
 end A374844
 
@@ -2784,7 +2813,7 @@ end A374875.P13213832532106348961
 /-!
 # A374877: Obverse convolution (3n+1)**(3n+1); see Comments.
 
-The programs for A374877, the canonical program `A374877.P7559172055930114456` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374877 has offset 0).
+The programs for A374877, the canonical program `A374877.P7559172055930114456` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374877 has offset 0).
 
 The definition of A374877 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2793,7 +2822,7 @@ The definition of A374877 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n+2)^(n+1)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A374877
@@ -2880,7 +2909,7 @@ end A374877
 /-!
 # A374878: Obverse convolution (3n+2)**(3n+2); see Comments.
 
-The programs for A374878, the canonical program `A374878.P16956368285606481330` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374878 has offset 0).
+The programs for A374878, the canonical program `A374878.P16956368285606481330` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374878 has offset 0).
 
 The definition of A374878 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2889,7 +2918,7 @@ The definition of A374878 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n+4)^(n+1)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A374878

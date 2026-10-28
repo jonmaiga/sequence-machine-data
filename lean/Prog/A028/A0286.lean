@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,26 +13,30 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C012
 import Seq.B002.C000
@@ -46,6 +51,7 @@ import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -79,7 +85,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A028600: Expansion of (theta_3(z)*theta_3(8z)+theta_2(z)*theta_2(8z))^4.
@@ -1658,21 +1663,6 @@ end
 
 end A028618.P16922726987619720072
 
-/-! ## A028618.P16711566359660067221
-
-`A028622(2*n+1)+and(A028622(2*n), A086776(2*(n+1)))`
--/
-
-namespace A028618.P16711566359660067221
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028622 (2 * n + 1) + Int.land (A028622 (2 * n)) (A086776 (2 * (n + 1)))
-
-end
-
-end A028618.P16711566359660067221
-
 /-!
 # A028619: Expansion of (theta_3(z)*theta_3(13z)+theta_2(z)*theta_2(13z))^3.
 
@@ -3153,21 +3143,6 @@ end
 
 end A028639.P14821927111933433350
 
-/-! ## A028639.P1263573329896966718
-
-`A028647(A120634(n))*A052409(A341446(n+1))`
--/
-
-namespace A028639.P1263573329896966718
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028647 (A120634 n).toNat * A052409 (A341446 (n + 1)).toNat
-
-end
-
-end A028639.P1263573329896966718
-
 /-! ## A028639.P10184280128031046846
 
 `A028647(A120634(n))*A204697(n*(n+1))`
@@ -3959,21 +3934,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A028650.P9219853008552831039
-
-/-! ## A028650.P16474049160967574714
-
-`and(A028618(n), A086776(A005843(n+1)))`
--/
-
-namespace A028650.P16474049160967574714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A028618 n) (A086776 (A005843 (n + 1)).toNat)
-
-end
-
-end A028650.P16474049160967574714
 
 /-!
 # A028651: Expansion of (theta_3(z)*theta_3(21z)+theta_2(z)*theta_2(21z))^3.

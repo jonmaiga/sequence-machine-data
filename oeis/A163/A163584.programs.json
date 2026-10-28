@@ -117,15 +117,15 @@
       ]
     },
     {
-      "d": "2026-10-20",
-      "ix": "floor(atan(exp(round(tan(n)))))",
+      "d": "2026-10-26",
+      "ix": "floor(asin(abs(Δ[cos(n)])))",
       "mt": 76,
       "px": [
         "n",
-        "tan",
-        "round",
-        "exp",
-        "atan",
+        "cos",
+        "Δ",
+        "abs",
+        "asin",
         "floor"
       ]
     }

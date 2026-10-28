@@ -17,6 +17,28 @@
       ]
     },
     {
+      "d": "2026-10-26",
+      "ix": "contfrac[exp(atan(1))]",
+      "mt": 98,
+      "px": [
+        "1",
+        "atan",
+        "exp",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[exp(acot(1))]",
+      "mt": 98,
+      "px": [
+        "1",
+        "acot",
+        "exp",
+        "contfrac"
+      ]
+    },
+    {
       "d": "2022-08-06",
       "ix": "contfrac[sqrt(sqrt(exp(π)))]%(n+64)",
       "mt": 98,

@@ -16,6 +16,26 @@
       ]
     },
     {
+      "d": "2026-10-26",
+      "ix": "contfrac[acos(0)]",
+      "mt": 89,
+      "px": [
+        "0",
+        "acos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[asin(1)]",
+      "mt": 89,
+      "px": [
+        "1",
+        "asin",
+        "contfrac"
+      ]
+    },
+    {
       "d": "2021-11-30",
       "ix": "root(contfrac[2*atan(1)], 2)²",
       "mt": 89,
@@ -125,32 +145,6 @@
         "²",
         "contfrac",
         "^"
-      ]
-    },
-    {
-      "d": "2026-10-23",
-      "ix": "root(contfrac[C019669], contfrac[ϕ²])",
-      "mt": 89,
-      "px": [
-        "C019669",
-        "contfrac",
-        "ϕ",
-        "²",
-        "contfrac",
-        "root"
-      ]
-    },
-    {
-      "d": "2026-10-23",
-      "ix": "contfrac[acos(0)]%nc[π]",
-      "mt": 87,
-      "px": [
-        "0",
-        "acos",
-        "contfrac",
-        "π",
-        "nc",
-        "%"
       ]
     }
   ]

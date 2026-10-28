@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,17 +15,16 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -32,9 +32,12 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -46,18 +49,21 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -65,11 +71,11 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -78,7 +84,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -540,6 +545,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039503.P9008874215729605883
+
+/-! ## A039503.P3300199973523024078
+
+`filter[2*n+1, A056957(#)]`
+-/
+
+namespace A039503.P3300199973523024078
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A056957 (f1 j) = 1) n)
+
+end
+
+end A039503.P3300199973523024078
 
 /-! ## A039503.P12392101411059967834
 
@@ -5497,27 +5520,6 @@ end
 
 end A039572.P9622462492416843443
 
-/-! ## A039572.P15747569879024748612
-
-`eq[A086993(A338803(n)), A338803(n)]`
--/
-
-namespace A039572.P15747569879024748612
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086993 (A338803 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A338803 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A039572.P15747569879024748612
-
 /-!
 # A039573: Numbers whose base-6 representation has the same number of 0's, 1's and 2's.
 
@@ -6085,47 +6087,26 @@ end
 
 end A039579.P6700938090656201471
 
-/-! ## A039579.P16878669156983194215
+/-! ## A039579.P66771040533064303
 
-`eq[0, A045843(A321702(n+1))]`
+`eq[A227833(n), A248908(n+1)]`
 -/
 
-namespace A039579.P16878669156983194215
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045843 (A321702 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A039579.P16878669156983194215
-
-/-! ## A039579.P2495170245192997459
-
-`lt[A045843(A321702(n+1)), A085006(n+2)]`
--/
-
-namespace A039579.P2495170245192997459
+namespace A039579.P66771040533064303
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045843 (A321702 (n + 1)).toNat
+  A227833 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085006 (n + 2)
+  A248908 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A039579.P2495170245192997459
+end A039579.P66771040533064303
 
 /-!
 # A039580: Numbers whose base-6 representation has the same number of 0's, 3's and 4's.
@@ -6775,27 +6756,6 @@ end
 
 end A039586.P5920779946750970577
 
-/-! ## A039586.P4598475898270322240
-
-`eq[0, A103181(A321702(n+1))]`
--/
-
-namespace A039586.P4598475898270322240
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103181 (A321702 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A039586.P4598475898270322240
-
 /-! ## A039586.P15072158183875578188
 
 `A039592(A032555(n+1))+A039591(n+1)`
@@ -7275,27 +7235,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039591.P11018322043146522331
-
-/-! ## A039591.P9222018926915903587
-
-`eq[A007092(n), A107128(A321702(n+1))]`
--/
-
-namespace A039591.P9222018926915903587
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007092 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107128 (A321702 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A039591.P9222018926915903587
 
 /-! ## A039591.P16387036109813520959
 
@@ -7935,10 +7874,46 @@ end
 
 end A039597.P11586057836195674140
 
+/-! ## A039597.P17482051873824019487
+
+`filter[A274292(n), A178226(#)]`
+-/
+
+namespace A039597.P17482051873824019487
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274292 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A178226 (f1 j).toNat = 1) n)
+
+end
+
+end A039597.P17482051873824019487
+
+/-! ## A039597.P2519861060815654228
+
+`filter[A274292(n), A254377(#)]`
+-/
+
+namespace A039597.P2519861060815654228
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274292 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A254377 (f1 j).toNat = 1) n)
+
+end
+
+end A039597.P2519861060815654228
+
 /-!
 # A039598: Triangle formed from odd-numbered columns of triangle of expansions of powers of x in terms of Chebyshev polynomials U_n(x). Sometimes called Catalan's triangle.
 
-The programs for A039598, the canonical program `A039598.P16588512501723952154` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039598 has offset 0).
+The programs for A039598, the canonical program `A039598.P16588512501723952154` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039598 has offset 0).
 
 The definition of A039598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7947,7 +7922,7 @@ The definition of A039598 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k-1)+2*T(n-1,k)+T(n-1,k+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A039598
@@ -8237,7 +8212,7 @@ end A039598
 /-!
 # A039599: Triangle formed from even-numbered columns of triangle of expansions of powers of x in terms of Chebyshev polynomials U_n(x).
 
-The programs for A039599, the canonical program `A039599.P15889498867143993827` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039599 has offset 0).
+The programs for A039599, the canonical program `A039599.P15889498867143993827` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039599 has offset 0).
 
 The definition of A039599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8246,7 +8221,7 @@ The definition of A039599 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*col(n)+1)*C(2*row(n), row(n)-col(n))/(row(n)+col(n)+1)`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A039599

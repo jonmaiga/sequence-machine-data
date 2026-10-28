@@ -1,17 +1,18 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C024
-import Seq.B000.C030
+import Seq.B000.C008
+import Seq.B000.C010
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C022
+import Seq.B000.C027
 import Seq.B000.C033
-import Seq.B001.C000
+import Seq.B000.C038
 import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B005.C000
@@ -24,6 +25,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -36,10 +38,8 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A159100: Number of permutations of 1..n containing the relative rank sequence { 135462 } at any spacing.
@@ -555,27 +555,6 @@ end
 end A159139.P6197134063837781454
 
 /-!
-# A159140: Number of permutations of 1..n containing the relative rank sequence { 213564 } at any spacing.
-
-The programs for A159140, there is no canonical definition to state claims against.
--/
-
-/-! ## A159140.P16454279151995775127
-
-`A241320(A243241(n+1))+A159091(n+6)`
--/
-
-namespace A159140.P16454279151995775127
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241320 (A243241 (n + 1)).toNat + A159091 (n + 6)
-
-end
-
-end A159140.P16454279151995775127
-
-/-!
 # A159141: Number of permutations of 1..n containing the relative rank sequence { 214365 } at any spacing.
 
 The programs for A159141, there is no canonical definition to state claims against.
@@ -637,27 +616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159152.P10663738856208285483
-
-/-!
-# A159159: Number of permutations of 1..n containing the relative rank sequence { 246513 } at any spacing.
-
-The programs for A159159, there is no canonical definition to state claims against.
--/
-
-/-! ## A159159.P7826041872034300546
-
-`A159147(n+6)-A241745(A014137(n))`
--/
-
-namespace A159159.P7826041872034300546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159147 (n + 6) - A241745 (A014137 n).toNat
-
-end
-
-end A159159.P7826041872034300546
 
 /-!
 # A159162: Number of permutations of 1..n containing the relative rank sequence { 251634 } at any spacing.

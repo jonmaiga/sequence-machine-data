@@ -1,23 +1,24 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C008
+import Seq.B000.C010
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C007
 import Seq.Opaque.C001
-import Seq.Opaque.C015
+import Seq.Opaque.C014
 
 /-!
 # A021503: Expansion of 1/((1-x)(1-3x)(1-6x)(1-8x)).
@@ -470,6 +471,33 @@ theorem P18286176894673684441.correct : P18286176894673684441.Spec := by
   simp only [A021509]
 
 end A021509
+
+/-!
+# A021510: Decimal expansion of 1/506.
+
+The programs for A021510, the canonical program `A021510.P6455396104866369863` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021510 has offset 0).
+
+The definition of A021510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A021510.P6455396104866369863
+
+`ogf((x^2+8x^3-2x^4-x^5-4x^6+6x^7-4x^8+x^9+3x^10-4x^11+5x^12)/(1-x+x^11-x^12))`
+
+The canonical program, it is in `Seq.B000.C004`.
+-/
+
+namespace A021510
+
+/-- `ogf((x^2+8x^3-2x^4-x^5-4x^6+6x^7-4x^8+x^9+3x^10-4x^11+5x^12)/(1-x+x^11-x^12))` -/
+def P6455396104866369863.Spec : Prop :=
+  ∀ n, P6455396104866369863.a n = A021510 n
+
+theorem P6455396104866369863.correct : P6455396104866369863.Spec := by
+  intro n
+  simp only [A021510]
+
+end A021510
 
 /-!
 # A021514: Expansion of 1/((1-x)(1-3x)(1-6x)(1-10x)).

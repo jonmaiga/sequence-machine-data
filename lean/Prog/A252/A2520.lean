@@ -13,25 +13,26 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C018
+import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C032
-import Seq.B000.C039
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C037
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,6 +47,8 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -53,10 +56,12 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -66,7 +71,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -340,28 +345,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252005.P13143895464546792479
-
-/-! ## A252005.P8203708864406442662
-
-`∩[A227199(n+1), A321702(n+1)]`
--/
-
-namespace A252005.P8203708864406442662
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227199 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321702 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252005.P8203708864406442662
 
 /-!
 # A252006: a(n) = sum of digits of A252005(n) and A252005(n+1).
@@ -5997,7 +5980,7 @@ end A252087.P12271167146815870051
 /-!
 # A252089: Primes p such that p + 26 is prime.
 
-The programs for A252089, the canonical program `A252089.P2043731028031642140` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252089 has offset 1).
+The programs for A252089, the canonical program `A252089.P2043731028031642140` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252089 has offset 1).
 
 The definition of A252089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1402 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6006,7 +5989,7 @@ The definition of A252089 is `conjectured`: the Lean definition is a formula tha
 
 `p?[p?[2*n+1]-26]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A252089
@@ -6267,7 +6250,7 @@ end A252089
 /-!
 # A252090: Primes p such that p + 28 is also prime.
 
-The programs for A252090, the canonical program `A252090.P3190800062160782735` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252090 has offset 1).
+The programs for A252090, the canonical program `A252090.P3190800062160782735` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252090 has offset 1).
 
 The definition of A252090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6276,7 +6259,7 @@ The definition of A252090 is `conjectured`: the Lean definition is a formula tha
 
 `p?[p?[2*n+1]-28]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A252090
@@ -6676,7 +6659,7 @@ end A252090
 /-!
 # A252091: Primes p such that p + 34 is prime.
 
-The programs for A252091, the canonical program `A252091.P17698577421013009874` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252091 has offset 1).
+The programs for A252091, the canonical program `A252091.P17698577421013009874` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252091 has offset 1).
 
 The definition of A252091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1357 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6711,7 +6694,7 @@ end A252091
 
 `p?[p?[2*n+1]-34]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A252091

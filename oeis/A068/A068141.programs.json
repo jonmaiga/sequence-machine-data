@@ -17,6 +17,28 @@
       ]
     },
     {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(acos(0))]",
+      "mt": 80,
+      "px": [
+        "0",
+        "acos",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(asin(1))]",
+      "mt": 80,
+      "px": [
+        "1",
+        "asin",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
       "d": "2022-10-20",
       "ix": "root(contfrac[C069998]^3, 3)",
       "mt": 80,

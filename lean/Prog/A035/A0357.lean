@@ -8,37 +8,39 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C015
+import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -60,15 +62,16 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -663,7 +666,7 @@ end A035705.P14441480677536602054
 /-!
 # A035706: Coordination sequence for 11-dimensional cubic lattice.
 
-The programs for A035706, the canonical program `A035706.P322796382435352986` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035706 has offset 0).
+The programs for A035706, the canonical program `A035706.P322796382435352986` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035706 has offset 0).
 
 The definition of A035706 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -691,7 +694,7 @@ def P15521607748836140662.Spec : Prop :=
 
 theorem P15521607748836140662.correct : P15521607748836140662.Spec := by
   intro n
-  simp only [A035706, Nat.add_sub_cancel, A035706.P15521607748836140662.a, A035706.P322796382435352986.f1, A035706.P322796382435352986.a, A008420, A008420.P15915323523869300231.a, A035606, A035606.P15826716796151369121.f1, A035606.P15826716796151369121.a, A035708, A035708.P6521280316452753711.a, A008416, A008416.P15332718079879402736.a, A035603, A035603.P5033389381879539558.a, A035605, A035605.P8746881321390343686.f1, A035605.P8746881321390343686.a, A008415, A008415.P5760122249089442523.a, A035604, A035604.P40572468847417807.a, A099196, A099196.P16367201159128015509.a, A008414, A008414.P48295776868654470.a, SequenceMachineLib.memo_apply]
+  simp only [A035706, Nat.add_sub_cancel, A035706.P15521607748836140662.a, A035706.P322796382435352986.f1, A035706.P322796382435352986.a, A008420, A008420.P15915323523869300231.a, A035606, A035606.P15826716796151369121.f1, A035606.P15826716796151369121.a, A035708, A035708.P6521280316452753711.a, A008416, A008416.P15332718079879402736.a, A035603, A035603.P5033389381879539558.a, A035605, A035605.P8746881321390343686.f1, A035605.P8746881321390343686.a, A008415, A008415.P5760122249089442523.a, A035604, A035604.P40572468847417807.a, A099196, A099196.P16367201159128015509.a, A008414, A008414.P16668829362682073999.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -701,7 +704,7 @@ end A035706
 
 `∑[2*A008420(n)]-A008420(n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A035706
@@ -883,7 +886,7 @@ end A035706
 /-!
 # A035707: Coordination sequence for 12-dimensional cubic lattice.
 
-The programs for A035707, the canonical program `A035707.P923925604679129048` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035707 has offset 0).
+The programs for A035707, the canonical program `A035707.P923925604679129048` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035707 has offset 0).
 
 The definition of A035707 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -892,7 +895,7 @@ The definition of A035707 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*A035706(n)]-A035706(n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A035707
@@ -1074,7 +1077,7 @@ end A035707
 /-!
 # A035708: Coordination sequence for 13-dimensional cubic lattice.
 
-The programs for A035708, the canonical program `A035708.P6521280316452753711` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035708 has offset 0).
+The programs for A035708, the canonical program `A035708.P6521280316452753711` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035708 has offset 0).
 
 The definition of A035708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1083,7 +1086,7 @@ The definition of A035708 is `conjectured`: the Lean definition is a formula tha
 
 `A035706(n)+2*A035606(n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A035708
@@ -1311,7 +1314,7 @@ end A035708
 /-!
 # A035709: Coordination sequence for 14-dimensional cubic lattice.
 
-The programs for A035709, the canonical program `A035709.P749298596689994425` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035709 has offset 0).
+The programs for A035709, the canonical program `A035709.P749298596689994425` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035709 has offset 0).
 
 The definition of A035709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1320,7 +1323,7 @@ The definition of A035709 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*A035708(n)]-A035708(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A035709
@@ -1453,7 +1456,7 @@ end A035709
 /-!
 # A035710: Coordination sequence for 15-dimensional cubic lattice.
 
-The programs for A035710, the canonical program `A035710.P13564547953895892364` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035710 has offset 0).
+The programs for A035710, the canonical program `A035710.P13564547953895892364` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035710 has offset 0).
 
 The definition of A035710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1462,7 +1465,7 @@ The definition of A035710 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*A035709(n)]-A035709(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A035710
@@ -4099,7 +4102,7 @@ end A035743.P17131833288566115238
 /-!
 # A035746: Coordination sequence for C_9 lattice.
 
-The programs for A035746, the canonical program `A035746.P11342363624555630469` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035746 has offset 0).
+The programs for A035746, the canonical program `A035746.P11342363624555630469` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035746 has offset 0).
 
 The definition of A035746 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008418, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4108,7 +4111,7 @@ The definition of A035746 is `conditional`: the Lean definition is an OEIS formu
 
 `A008418(2*n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A035746
@@ -4146,7 +4149,7 @@ def P9086043629844068423.Spec : Prop :=
 
 theorem P9086043629844068423.correct : P9086043629844068423.Spec := by
   intro n
-  simp only [A035746, Nat.add_sub_cancel, A035746.P9086043629844068423.a, A035746.P11342363624555630469.a, A000007, A000007.P6599383543502402472.a, A008418, A008418.P12679540654999658898.a, A008415, A008415.P5760122249089442523.a, A035602, A035602.P11295284103592876625.a, A008414, A008414.P48295776868654470.a, A099195, A099195.P14002362411851695594.a, A008412, A008412.P13878766666542366952.a, A069038, A069038.P11696173579921960810.a, SequenceMachineLib.memo_apply]
+  simp only [A035746, Nat.add_sub_cancel, A035746.P9086043629844068423.a, A035746.P11342363624555630469.a, A000007, A000007.P6599383543502402472.a, A008418, A008418.P12679540654999658898.a, A008415, A008415.P5760122249089442523.a, A035602, A035602.P11295284103592876625.a, A008414, A008414.P16668829362682073999.a, A099195, A099195.P14002362411851695594.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -4319,7 +4322,7 @@ end A035746
 /-!
 # A035747: Coordination sequence for C_10 lattice.
 
-The programs for A035747, the canonical program `A035747.P14738988222165584094` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035747 has offset 0).
+The programs for A035747, the canonical program `A035747.P14738988222165584094` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035747 has offset 0).
 
 The definition of A035747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008420, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4328,7 +4331,7 @@ The definition of A035747 is `conditional`: the Lean definition is an OEIS formu
 
 `A008420(2*n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A035747
@@ -4568,7 +4571,7 @@ end A035747
 /-!
 # A035748: Coordination sequence for C_11 lattice.
 
-The programs for A035748, the canonical program `A035748.P7453906693344743949` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035748 has offset 0).
+The programs for A035748, the canonical program `A035748.P7453906693344743949` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035748 has offset 0).
 
 The definition of A035748 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4577,7 +4580,7 @@ The definition of A035748 is `conjectured`: the Lean definition is a formula tha
 
 `A035706(2*n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A035748
@@ -4849,7 +4852,7 @@ end A035748
 /-!
 # A035749: Coordination sequence for C_12 lattice.
 
-The programs for A035749, the canonical program `A035749.P1987702224880848281` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035749 has offset 0).
+The programs for A035749, the canonical program `A035749.P1987702224880848281` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035749 has offset 0).
 
 The definition of A035749 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4858,7 +4861,7 @@ The definition of A035749 is `conjectured`: the Lean definition is a formula tha
 
 `A035707(2*n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A035749
@@ -4925,29 +4928,6 @@ def P10374150786753241367.Spec : Prop :=
 
 end A035749
 
-/-! ## A035749.P18140173644016886683
-
-`A035606(2*n+1)+A035606(2*n)-A035708(2*n)`
--/
-
-namespace A035749.P18140173644016886683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035606 (2 * n + 1) + (A035606 (2 * n) - A035708 (2 * n))
-
-end
-
-end A035749.P18140173644016886683
-
-namespace A035749
-
-/-- `A035606(2*n+1)+A035606(2*n)-A035708(2*n)` -/
-def P18140173644016886683.Spec : Prop :=
-  ∀ n, P18140173644016886683.a n = A035749 n
-
-end A035749
-
 /-! ## A035749.P14321106847118000161
 
 `A035606(2*n+1)-(A035706(2*n)+A035606(2*n))`
@@ -4968,6 +4948,29 @@ namespace A035749
 /-- `A035606(2*n+1)-(A035706(2*n)+A035606(2*n))` -/
 def P14321106847118000161.Spec : Prop :=
   ∀ n, P14321106847118000161.a n = A035749 n
+
+end A035749
+
+/-! ## A035749.P18140173644016886683
+
+`A035606(2*n+1)+A035606(2*n)-A035708(2*n)`
+-/
+
+namespace A035749.P18140173644016886683
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035606 (2 * n + 1) + (A035606 (2 * n) - A035708 (2 * n))
+
+end
+
+end A035749.P18140173644016886683
+
+namespace A035749
+
+/-- `A035606(2*n+1)+A035606(2*n)-A035708(2*n)` -/
+def P18140173644016886683.Spec : Prop :=
+  ∀ n, P18140173644016886683.a n = A035749 n
 
 end A035749
 
@@ -4997,7 +5000,7 @@ end A035749
 /-!
 # A035750: Coordination sequence for C_13 lattice.
 
-The programs for A035750, the canonical program `A035750.P17272532631500132304` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035750 has offset 0).
+The programs for A035750, the canonical program `A035750.P17272532631500132304` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035750 has offset 0).
 
 The definition of A035750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5006,7 +5009,7 @@ The definition of A035750 is `conjectured`: the Lean definition is a formula tha
 
 `A035708(2*n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A035750
@@ -5174,7 +5177,7 @@ end A035750
 /-!
 # A035751: Coordination sequence for C_14 lattice.
 
-The programs for A035751, the canonical program `A035751.P3779261215358215633` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035751 has offset 0).
+The programs for A035751, the canonical program `A035751.P3779261215358215633` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035751 has offset 0).
 
 The definition of A035751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5183,7 +5186,7 @@ The definition of A035751 is `conjectured`: the Lean definition is a formula tha
 
 `A035709(2*n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A035751
@@ -5221,32 +5224,6 @@ namespace A035751
 /-- `record[A035709(n%4+n)]` -/
 def P989842221036994333.Spec : Prop :=
   ∀ n, P989842221036994333.a n = A035751 n
-
-end A035751
-
-/-! ## A035751.P1480871383731712289
-
-`record[A035709(n--n%4)]`
--/
-
-namespace A035751.P1480871383731712289
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035709 ((n : ℤ) - Int.tmod (-(n : ℤ)) 4).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A035751.P1480871383731712289
-
-namespace A035751
-
-/-- `record[A035709(n--n%4)]` -/
-def P1480871383731712289.Spec : Prop :=
-  ∀ n, P1480871383731712289.a n = A035751 n
 
 end A035751
 
@@ -5331,7 +5308,7 @@ end A035751
 /-!
 # A035752: Coordination sequence for C_15 lattice.
 
-The programs for A035752, the canonical program `A035752.P195142504757365663` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035752 has offset 0).
+The programs for A035752, the canonical program `A035752.P195142504757365663` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035752 has offset 0).
 
 The definition of A035752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5340,7 +5317,7 @@ The definition of A035752 is `conjectured`: the Lean definition is a formula tha
 
 `A035710(2*n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A035752
@@ -10542,6 +10519,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A035789.P10992279987896569127
+
+/-! ## A035789.P9570624686392449063
+
+`∩[A051634(n+1), A069453(n+1)]`
+-/
+
+namespace A035789.P9570624686392449063
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051634 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069453 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A035789.P9570624686392449063
 
 /-!
 # A035791: Start of a string of exactly 3 consecutive (but disjoint) pairs of twin primes.

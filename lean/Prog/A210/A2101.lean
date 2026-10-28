@@ -11,31 +11,33 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C042
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -56,6 +58,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +69,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -77,7 +79,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -86,16 +87,39 @@ set_option linter.unreachableTactic false
 /-!
 # A210100: Number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having one or three distinct values, and new values 0..2 introduced in row major order.
 
-The programs for A210100, the canonical program `A210100.P8529661348548323236` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210100 has offset 1).
+The programs for A210100, the canonical program `A210100.P8529661348548323236` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210100 has offset 1).
 
 The definition of A210100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A210100.P14295862535864007480
+
+`ogf((7-12x+4x^2)/(1-6x+7x^2-2x^3))`
+-/
+
+namespace A210100.P14295862535864007480
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, -12, 4] [1, -6, 7, -2] n
+
+end
+
+end A210100.P14295862535864007480
+
+namespace A210100
+
+/-- `ogf((7-12x+4x^2)/(1-6x+7x^2-2x^3))` -/
+def P14295862535864007480.Spec : Prop :=
+  ∀ n, P14295862535864007480.a n = A210100 (n + 1)
+
+end A210100
 
 /-! ## A210100.P8529661348548323236
 
 `6*a(n-1)-7*a(n-2)+2*a(n-3)` with `a(0)=7, a(1)=30, a(2)=135`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A210100
@@ -246,8 +270,29 @@ end A210100
 /-!
 # A210101: Number of (n+1) X 3 0..2 arrays with every 2 X 2 subblock having one or three distinct values, and new values 0..2 introduced in row major order.
 
-The programs for A210101, there is no canonical definition to state claims against.
+The programs for A210101, the canonical program `A210101.P12131139202197085780` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210101 has offset 1).
+
+The definition of A210101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A210101.P12131139202197085780
+
+`ogf((30-15x-20x^2)/(1-8x+3x^2+4x^3))`
+
+The canonical program, it is in `Seq.B000.C032`.
+-/
+
+namespace A210101
+
+/-- `ogf((30-15x-20x^2)/(1-8x+3x^2+4x^3))` -/
+def P12131139202197085780.Spec : Prop :=
+  ∀ n, P12131139202197085780.a n = A210101 (n + 1)
+
+theorem P12131139202197085780.correct : P12131139202197085780.Spec := by
+  intro n
+  simp only [A210101, Nat.add_sub_cancel]
+
+end A210101
 
 /-! ## A210101.P16680703151011003851
 
@@ -263,6 +308,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A210101.P16680703151011003851
+
+namespace A210101
+
+/-- `A210128(n+1)-A210080(n+1)` -/
+def P16680703151011003851.Spec : Prop :=
+  ∀ n, P16680703151011003851.a n = A210101 (n + 1)
+
+end A210101
 
 /-! ## A210101.P6092556533670829184
 
@@ -282,6 +335,14 @@ end
 
 end A210101.P6092556533670829184
 
+namespace A210101
+
+/-- `A210107(∑[n+1]+2)` -/
+def P6092556533670829184.Spec : Prop :=
+  ∀ n, P6092556533670829184.a n = A210101 (n + 1)
+
+end A210101
+
 /-! ## A210101.P4661137955695045249
 
 `record[A210107(A101881(n)+1)]`
@@ -299,6 +360,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A210101.P4661137955695045249
+
+namespace A210101
+
+/-- `record[A210107(A101881(n)+1)]` -/
+def P4661137955695045249.Spec : Prop :=
+  ∀ n, P4661137955695045249.a n = A210101 (n + 1)
+
+end A210101
 
 /-! ## A210101.P13227488800977433826
 
@@ -318,23 +387,13 @@ end
 
 end A210101.P13227488800977433826
 
-/-! ## A210101.P15121391994454992988
+namespace A210101
 
-`A210128(n+1)-A210086(∑[n+1]+2)`
--/
+/-- `A210134(∑[n+1]+2)-A210080(n+1)` -/
+def P13227488800977433826.Spec : Prop :=
+  ∀ n, P13227488800977433826.a n = A210101 (n + 1)
 
-namespace A210101.P15121391994454992988
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210128 (n + 1) - A210086 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
-
-end
-
-end A210101.P15121391994454992988
+end A210101
 
 /-!
 # A210102: Number of (n+1) X 4 0..2 arrays with every 2 X 2 subblock having one or three distinct values, and new values 0..2 introduced in row major order.
@@ -1280,16 +1339,39 @@ end A210117.P5304545825003064062
 /-!
 # A210118: Number of (n+1) X 2 0..3 arrays with every 2 X 2 subblock having two or four distinct values, and new values 0..3 introduced in row major order.
 
-The programs for A210118, the canonical program `A210118.P17884981273127460951` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210118 has offset 1).
+The programs for A210118, the canonical program `A210118.P17884981273127460951` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210118 has offset 1).
 
 The definition of A210118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A210118.P7734047695479765477
+
+`ogf((8-36x-23x^2)/(1-10x+19x^2+14x^3))`
+-/
+
+namespace A210118.P7734047695479765477
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, -36, -23] [1, -10, 19, 14] n
+
+end
+
+end A210118.P7734047695479765477
+
+namespace A210118
+
+/-- `ogf((8-36x-23x^2)/(1-10x+19x^2+14x^3))` -/
+def P7734047695479765477.Spec : Prop :=
+  ∀ n, P7734047695479765477.a n = A210118 (n + 1)
+
+end A210118
 
 /-! ## A210118.P17884981273127460951
 
 `10*a(n-1)-19*a(n-2)-14*a(n-3)` with `a(0)=8, a(1)=44, a(2)=265`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A210118
@@ -1382,32 +1464,6 @@ namespace A210118
 /-- `record[root(A210125(n+1), A007318(n))]` -/
 def P15137278154127478597.Spec : Prop :=
   ∀ n, P15137278154127478597.a n = (A210118 (n + 1) : ℝ)
-
-end A210118
-
-/-! ## A210118.P11793181445952064345
-
-`record[root(A210125(n+1), A143007(n))]`
--/
-
-namespace A210118.P11793181445952064345
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A210125 (n + 1) : ℝ) ^ (1 / (A143007 n : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A210118.P11793181445952064345
-
-namespace A210118
-
-/-- `record[root(A210125(n+1), A143007(n))]` -/
-def P11793181445952064345.Spec : Prop :=
-  ∀ n, P11793181445952064345.a n = (A210118 (n + 1) : ℝ)
 
 end A210118
 
@@ -1927,6 +1983,21 @@ end A210126.P6661351525780929406
 The programs for A210127, there is no canonical definition to state claims against.
 -/
 
+/-! ## A210127.P16515097812144731755
+
+`ogf((8-15x-3x^2)/(1-12x+9x^2+2x^3))`
+-/
+
+namespace A210127.P16515097812144731755
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, -15, -3] [1, -12, 9, 2] n
+
+end
+
+end A210127.P16515097812144731755
+
 /-! ## A210127.P1876609815246560013
 
 `12*a(n-1)-9*a(n-2)-2*a(n-3)` with `a(0)=8, a(1)=81, a(2)=897`
@@ -1986,21 +2057,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A210127.P15060833246880275630
-
-/-! ## A210127.P8856926832458310575
-
-`A210107(A025747(n))+A210079(n+1)`
--/
-
-namespace A210127.P8856926832458310575
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210107 (A025747 n).toNat + A210079 (n + 1)
-
-end
-
-end A210127.P8856926832458310575
 
 /-!
 # A210128: Number of (n+1) X 3 0..3 arrays with every 2 X 2 subblock having one, three or four distinct values, and new values 0..3 introduced in row major order.
@@ -3540,6 +3596,21 @@ end A210148.P6950940122110043009
 The programs for A210149, there is no canonical definition to state claims against.
 -/
 
+/-! ## A210149.P14720192605104525239
+
+`ogf((57+193x+141x^2-42x^3-32x^4)/(1-11x-46x^2-36x^3+10x^4+8x^5))`
+-/
+
+namespace A210149.P14720192605104525239
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [57, 193, 141, -42, -32] [1, -11, -46, -36, 10, 8] n
+
+end
+
+end A210149.P14720192605104525239
+
 /-! ## A210149.P9390046109350335880
 
 `A210156(∑[n]+1)`
@@ -3608,24 +3679,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A210149.P5106786841083457552
-
-/-! ## A210149.P13384018480520455341
-
-`record[root(A210156(n+1), A106198(n))]`
--/
-
-namespace A210149.P13384018480520455341
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A210156 (n + 1) : ℝ) ^ (1 / (A106198 n : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A210149.P13384018480520455341
 
 /-!
 # A210150: 1/4 the number of (n+1) X 3 0..3 arrays with every 2 X 2 subblock having one, three or four distinct clockwise edge differences.
@@ -4889,6 +4942,21 @@ end A210175.P5178531534078209816
 The programs for A210176, there is no canonical definition to state claims against.
 -/
 
+/-! ## A210176.P17878940047929486303
+
+`ogf((1+37x+56x^2+20x^3)/(1-14x+26x^2+68x^3+24x^4))`
+-/
+
+namespace A210176.P17878940047929486303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 37, 56, 20] [1, -14, 26, 68, 24] n
+
+end
+
+end A210176.P17878940047929486303
+
 /-! ## A210176.P15597992248460902921
 
 `A210406(n+1)-A183603(A000124(n))`
@@ -4957,24 +5025,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A210176.P11263289969742260465
-
-/-! ## A210176.P7199696674925833033
-
-`record[root(A210183(n+1), A124927(n))]`
--/
-
-namespace A210176.P7199696674925833033
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A210183 (n + 1) : ℝ) ^ (1 / (A124927 n : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A210176.P7199696674925833033
 
 /-!
 # A210177: Number of (n+1)X3 0..3 arrays containing all values 0..3 with every 2X2 subblock having three or four distinct values, and new values 0..3 introduced in row major order.
@@ -6750,29 +6800,6 @@ namespace A210197
 /-- `abs(A257597(comp[floor((n/2)²)]))` -/
 def P3680336974841579989.Spec : Prop :=
   ∀ n, P3680336974841579989.a n = A210197 (n + 1)
-
-end A210197
-
-/-! ## A210197.P1776272982050366428
-
-`or(1, A350349(A207629(n+1)))`
--/
-
-namespace A210197.P1776272982050366428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A350349 (A207629 (n + 1)).toNat)
-
-end
-
-end A210197.P1776272982050366428
-
-namespace A210197
-
-/-- `or(1, A350349(A207629(n+1)))` -/
-def P1776272982050366428.Spec : Prop :=
-  ∀ n, P1776272982050366428.a n = A210197 (n + 1)
 
 end A210197
 

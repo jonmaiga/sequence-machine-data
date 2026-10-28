@@ -6,31 +6,32 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C021
 import Seq.B000.C026
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -40,7 +41,9 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -52,10 +55,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,7 +73,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -90,7 +93,7 @@ set_option linter.unreachableTactic false
 /-!
 # A104908: a(n) = floor(sqrt(a(n-1)^2 + a(n-2)^2)), a(1)=100, a(2)=300.
 
-The programs for A104908, the canonical program `A104908.P7531716399826030557` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104908 has offset 1).
+The programs for A104908, the canonical program `A104908.P7531716399826030557` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104908 has offset 1).
 
 The definition of A104908 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(a(n-1)²+a(n-2)²))` (program `A104908.P7531716399826030557`, by `A104908.P7531716399826030557.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -99,7 +102,7 @@ The definition of A104908 is `verified`: the Lean definition is proven equivalen
 
 `floor(sqrt(a(n-1)²+a(n-2)²))` with `a(0)=100, a(1)=300`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A104908
@@ -1450,7 +1453,7 @@ end A104915.P11335556050715682650
 /-!
 # A104934: Expansion of (1-x)/(1 - 3*x - 2*x^2).
 
-The programs for A104934, the canonical program `A104934.P17881540940133053384` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104934 has offset 0).
+The programs for A104934, the canonical program `A104934.P17881540940133053384` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104934 has offset 0).
 
 The definition of A104934 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-3x-2x^2))` (program `A104934.P17881540940133053384`, by `A104934.P17881540940133053384.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1459,7 +1462,7 @@ The definition of A104934 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-3x-2x^2))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A104934
@@ -2084,6 +2087,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A104935.P5401877066029798246
+
+/-! ## A104935.P10215545601462598049
+
+`∩[A107606(n+1), A400416(n+1)]`
+-/
+
+namespace A104935.P10215545601462598049
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107606 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400416 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A104935.P10215545601462598049
 
 /-! ## A104935.P7235567159712450924
 
@@ -2905,7 +2930,7 @@ end A104948.P8722020974169164885
 /-!
 # A104967: Matrix inverse of triangle A104219, read by rows, where A104219(n,k) equals the number of Schroeder paths of length 2n having k peaks at height 1.
 
-The programs for A104967, the canonical program `A104967.P4683815472343647144` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104967 has offset 0).
+The programs for A104967, the canonical program `A104967.P4683815472343647144` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104967 has offset 0).
 
 The definition of A104967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2914,7 +2939,7 @@ The definition of A104967 is `conjectured`: the Lean definition is a formula tha
 
 `T(n-1,k)+T(n-1,k-1)-2*T(n-2,k-1)` with `a(0)=1, a(1)=-1`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A104967
@@ -3048,7 +3073,7 @@ end A104968.P11095074293180872678
 /-!
 # A104969: Sum of squares of terms in rows of triangle A104967.
 
-The programs for A104969, the canonical program `A104969.P1333012050977968884` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104969 has offset 0).
+The programs for A104969, the canonical program `A104969.P1333012050977968884` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104969 has offset 0).
 
 The definition of A104969 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3080,7 +3105,7 @@ end A104969
 
 `A000034(n)*A104970(A004526(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A104969
@@ -3392,6 +3417,34 @@ def P18091864899793637507.Spec : Prop :=
   ∀ n, P18091864899793637507.a n = A104970 n
 
 end A104970
+
+/-!
+# A104971: Numbers with 4 distinct digits {1,2,3,4} such that all adjacent digits(as well as first and last digits) are coprime.
+
+The programs for A104971, there is no canonical definition to state claims against.
+-/
+
+/-! ## A104971.P17519488611437716927
+
+`∩[A030299(n+1), A351877(n+1)]`
+-/
+
+namespace A104971.P17519488611437716927
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030299 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351877 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A104971.P17519488611437716927
 
 /-!
 # A104972: Numbers with 5 distinct digits {1,2,3,4,5} such that all adjacent digits (as well as first and last digits) are coprime.
@@ -5020,6 +5073,21 @@ end A104991.P9138806013945695079
 
 The programs for A104992, there is no canonical definition to state claims against.
 -/
+
+/-! ## A104992.P14516998766498943987
+
+`A086968(n+1)²`
+-/
+
+namespace A104992.P14516998766498943987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086968 (n + 1) ^ 2
+
+end
+
+end A104992.P14516998766498943987
 
 /-! ## A104992.P10454227184370847031
 

@@ -12,20 +12,21 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C039
+import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B001.C000
-import Seq.B001.C002
+import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -46,12 +47,10 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -73,7 +72,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A010330: Numbers k such that C(k,3) = C(x,3) + C(y,3) is solvable.
@@ -116,6 +114,24 @@ end A010330.P914051256223956560
 
 The programs for A010333, there is no canonical definition to state claims against.
 -/
+
+/-! ## A010333.P8426388949138787012
+
+`filter[A013943(n+1), A000035(#)]`
+-/
+
+namespace A010333.P8426388949138787012
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013943 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A010333.P8426388949138787012
 
 /-! ## A010333.P9558275092128916975
 
@@ -188,6 +204,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010333.P9902360251705496841
+
+/-! ## A010333.P14059203060474370728
+
+`filter[A003285(n+1), A000035(#)]`
+-/
+
+namespace A010333.P14059203060474370728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003285 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A010333.P14059203060474370728
 
 /-! ## A010333.P11229623543372009359
 
@@ -1446,24 +1480,6 @@ end
 
 end A010349.P2319877166098071611
 
-/-! ## A010349.P13256320948564554762
-
-`∑[A086617(A287141(n))]`
--/
-
-namespace A010349.P13256320948564554762
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086617 (A287141 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A010349.P13256320948564554762
-
 /-! ## A010349.P3185473446379499540
 
 `∑[A239700(A148244(n))]`
@@ -2696,7 +2712,7 @@ end A010366.P2970719993904519323
 /-!
 # A010368: Number of points of L1 norm 2n in Hamming code version of E_8 lattice.
 
-The programs for A010368, the canonical program `A010368.P5465867737350595894` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010368 has offset 0).
+The programs for A010368, the canonical program `A010368.P5465867737350595894` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010368 has offset 0).
 
 The definition of A010368 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2705,7 +2721,7 @@ The definition of A010368 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A019564(n)/8)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A010368
@@ -2815,23 +2831,29 @@ end A010368
 /-!
 # A010369: Number of points of L1 norm 2n in root system version of E_8 lattice.
 
-The programs for A010369, there is no canonical definition to state claims against.
+The programs for A010369, the canonical program `A010369.P18079969665524213003` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010369 has offset 0).
+
+The definition of A010369 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2794 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A010369.P18079969665524213003
 
 `A045651(n)%A008416(A257143(n))`
+
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
-namespace A010369.P18079969665524213003
-noncomputable section
+namespace A010369
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A045651 n) (A008416 (A257143 n).toNat)
+/-- `A045651(n)%A008416(A257143(n))` -/
+def P18079969665524213003.Spec : Prop :=
+  ∀ n, P18079969665524213003.a n = A010369 n
 
-end
+theorem P18079969665524213003.correct : P18079969665524213003.Spec := by
+  intro n
+  simp only [A010369]
 
-end A010369.P18079969665524213003
+end A010369
 
 /-!
 # A010370: a(n) = binomial(2*n, n)^2 / (1-2*n).

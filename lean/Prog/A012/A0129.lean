@@ -2,31 +2,29 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C010
-import Seq.B000.C014
+import Seq.B000.C011
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B008.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -35,16 +33,14 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
+import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
-import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 /-!
 # A012900: Expansion of e.g.f.: arcsin(arcsin(x)+log(x+1))=2*x-1/2!*x^2+11/3!*x^3-30/4!*x^4+471/5!*x^5...
@@ -817,42 +813,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012929.P13866102997450838105
-
-/-!
-# A012930: arcsinh(tan(x)+log(x+1)) = 2*x-1/2!*x^2-4/3!*x^3+18/4!*x^4+138/5!*x^5...
-
-The programs for A012930, there is no canonical definition to state claims against.
--/
-
-/-! ## A012930.P10637925608056928512
-
-`A124801(A215035(n+1))-A124758(n)`
--/
-
-namespace A012930.P10637925608056928512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124801 (A215035 (n + 1)).toNat - A124758 n
-
-end
-
-end A012930.P10637925608056928512
-
-/-! ## A012930.P12752383904067859616
-
-`A124801(A215035(n+1))-A064989(n+1)`
--/
-
-namespace A012930.P12752383904067859616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124801 (A215035 (n + 1)).toNat - A064989 (n + 1)
-
-end
-
-end A012930.P12752383904067859616
 
 /-!
 # A012931: Tanh(tan(x)+log(x+1)) = 2*x - 1/2!*x^2 - 12/3!*x^3 + 42/4!*x^4 + 172/5!*x^5 - ...

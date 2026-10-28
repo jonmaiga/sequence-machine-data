@@ -7,7 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -30,8 +30,10 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +45,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -67,6 +70,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +96,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1069,6 +1072,29 @@ def P201256771714153080.Spec : Prop :=
 
 end A213911
 
+/-! ## A213911.P13125670890651601793
+
+`A007895(n-A003849(n))`
+-/
+
+namespace A213911.P13125670890651601793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007895 ((n : ℤ) - A003849 n).toNat
+
+end
+
+end A213911.P13125670890651601793
+
+namespace A213911
+
+/-- `A007895(n-A003849(n))` -/
+def P13125670890651601793.Spec : Prop :=
+  ∀ n, P13125670890651601793.a n = A213911 n
+
+end A213911
+
 /-! ## A213911.P14521159716168293115
 
 `A058065(n)-A219640(n)`
@@ -1409,35 +1435,6 @@ namespace A213911
 /-- `A007895(A026273(n+1)-(n+1))` -/
 def P7845018845084129453.Spec : Prop :=
   ∀ n, P7845018845084129453.a n = A213911 n
-
-end A213911
-
-/-! ## A213911.P14529800445161861557
-
-`A287659(n+1)-A288625(n+1)`
--/
-
-namespace A213911.P14529800445161861557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287659 (n + 1) - A288625 (n + 1)
-
-end
-
-end A213911.P14529800445161861557
-
-namespace A213911
-
-/-- `A287659(n+1)-A288625(n+1)` -/
-def P14529800445161861557.Spec : Prop :=
-  ∀ n, P14529800445161861557.a n = A213911 n
-
-theorem P14529800445161861557.correct : P14529800445161861557.Spec := by
-  intro n
-  simp only [A213911, Nat.add_sub_cancel, A213911.P14529800445161861557.a, A213911.P10704289243874186372.a, A003849, A003849.P15070805603138295355.a, A007895, A007895.P13159574906702943091.a, A287659, A287659.P10046964900207517982.a, A288625, A288625.P5745602300368746224.a, A143299, A143299.P15563677956109418683.a, A066628, A066628.P4571683134443220888.f1, A066628.P4571683134443220888.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A213911
 
@@ -4935,16 +4932,39 @@ end A213966.P13656023252770521828
 /-!
 # A213967: a(n)=n for n<=3; thereafter a(n)=a(n-1)+a(n-2)+a(n-3)+1.
 
-The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
+The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
 
 The definition of A213967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)+a(n-3)+1` (program `A213967.P458744745567570496`, by `A213967.P458744745567570496.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A213967.P16702728597554010439
+
+`ogf((x-x^3+x^4)/(1-2x+x^4))`
+-/
+
+namespace A213967.P16702728597554010439
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -1, 1] [1, -2, 0, 0, 1] n
+
+end
+
+end A213967.P16702728597554010439
+
+namespace A213967
+
+/-- `ogf((x-x^3+x^4)/(1-2x+x^4))` -/
+def P16702728597554010439.Spec : Prop :=
+  ∀ n, P16702728597554010439.a n = A213967 n
+
+end A213967
 
 /-! ## A213967.P458744745567570496
 
 `a(n-1)+a(n-2)+a(n-3)+1` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A213967

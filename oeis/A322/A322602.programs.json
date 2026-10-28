@@ -22,29 +22,67 @@
       ]
     },
     {
-      "d": "2025-06-07",
-      "ix": "ceil(log(cosh(contfrac[cosh(γ)])))",
+      "d": "2026-10-26",
+      "ix": "contfrac[cosh(γ)]",
       "mt": 95,
       "px": [
         "γ",
         "cosh",
-        "contfrac",
-        "cosh",
-        "log",
-        "ceil"
+        "contfrac"
       ]
     },
     {
-      "d": "2026-10-23",
-      "ix": "contfrac[cosh(γ)]%nc[π]",
-      "mt": 87,
+      "d": "2026-10-26",
+      "ix": "contfrac[exp(γ)-sinh(γ)]",
+      "mt": 95,
       "px": [
         "γ",
-        "cosh",
-        "contfrac",
-        "π",
-        "nc",
-        "%"
+        "exp",
+        "γ",
+        "sinh",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sinh(γ)/tanh(γ)]",
+      "mt": 95,
+      "px": [
+        "γ",
+        "sinh",
+        "γ",
+        "tanh",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(sinh(γ)²+1)]",
+      "mt": 95,
+      "px": [
+        "γ",
+        "sinh",
+        "²",
+        "1",
+        "+",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sinh(γ)+exp(-γ)]",
+      "mt": 95,
+      "px": [
+        "γ",
+        "sinh",
+        "γ",
+        "neg",
+        "exp",
+        "+",
+        "contfrac"
       ]
     }
   ]

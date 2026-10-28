@@ -26,15 +26,20 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,7 +73,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -77,7 +81,6 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -94,7 +97,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1988,7 +1990,7 @@ end A029605
 /-!
 # A029606: Odd numbers in the (2,3)-Pascal triangle A029600 that are different from 3.
 
-The programs for A029606, the canonical program `A029606.P4750095902787503063` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029606 has offset 0).
+The programs for A029606, the canonical program `A029606.P4750095902787503063` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029606 has offset 0).
 
 The definition of A029606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1997,7 +1999,7 @@ The definition of A029606 is `conjectured`: the Lean definition is a formula tha
 
 `A029604(lt[A319998(n+1), A029652(n+1)])`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A029606
@@ -4778,7 +4780,7 @@ end A029616
 /-!
 # A029617: Table read by rows: list of even numbers to the right of the central elements of the (2,3)-Pascal triangle A029600.
 
-The programs for A029617, the canonical program `A029617.P8795002400070431540` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029617 has offset 0).
+The programs for A029617, the canonical program `A029617.P8795002400070431540` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029617 has offset 0).
 
 The definition of A029617 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4787,7 +4789,7 @@ The definition of A029617 is `conjectured`: the Lean definition is a formula tha
 
 `2*A051432(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A029617
@@ -5086,6 +5088,29 @@ def P10489059941068420010.Spec : Prop :=
 theorem P10489059941068420010.correct : P10489059941068420010.Spec := by
   intro n
   simp only [A029618]
+
+end A029618
+
+/-! ## A029618.P4199528508294785252
+
+`T(n-1,k)+T(n-1,k-1)` with `a(0)=1, a(1)=3, a(2)=2`
+-/
+
+namespace A029618.P4199528508294785252
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 3, 2] fun n a =>
+  SequenceMachineLib.triUp a n + SequenceMachineLib.triUpLeft a n
+
+end
+
+end A029618.P4199528508294785252
+
+namespace A029618
+
+/-- `T(n-1,k)+T(n-1,k-1)` -/
+def P4199528508294785252.Spec : Prop :=
+  ∀ n, (P4199528508294785252.a n : ℤ) = A029618 n
 
 end A029618
 
@@ -5590,7 +5615,7 @@ end A029621
 /-!
 # A029622: Odd numbers in (3,2)-Pascal triangle A029618.
 
-The programs for A029622, the canonical program `A029622.P170867044904776595` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029622 has offset 0).
+The programs for A029622, the canonical program `A029622.P170867044904776595` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029622 has offset 0).
 
 The definition of A029622 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2272 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5599,7 +5624,7 @@ The definition of A029622 is `conjectured`: the Lean definition is a formula tha
 
 `A029618(eq[1, A290452(n)])`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A029622
@@ -5878,7 +5903,7 @@ end A029622
 /-!
 # A029623: Even numbers in (3,2)-Pascal triangle A029618.
 
-The programs for A029623, the canonical program `A029623.P11351172865891342749` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029623 has offset 0).
+The programs for A029623, the canonical program `A029623.P11351172865891342749` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029623 has offset 0).
 
 The definition of A029623 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7728 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5979,7 +6004,7 @@ end A029623
 
 `A029618(eq[0, A290452(n)])`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A029623
@@ -6124,7 +6149,7 @@ end A029623
 /-!
 # A029624: Odd numbers in (3,2)-Pascal triangle A029618 that are different from 3.
 
-The programs for A029624, the canonical program `A029624.P13598685353401142756` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029624 has offset 0).
+The programs for A029624, the canonical program `A029624.P13598685353401142756` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029624 has offset 0).
 
 The definition of A029624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9473 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6133,7 +6158,7 @@ The definition of A029624 is `conjectured`: the Lean definition is a formula tha
 
 `A029622(lt[0, xor(3, A029622(n))])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A029624
@@ -6268,7 +6293,7 @@ end A029624
 /-!
 # A029625: Even numbers in (3,2)-Pascal triangle A029618 that are different from 2.
 
-The programs for A029625, the canonical program `A029625.P8414473659430485930` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029625 has offset 0).
+The programs for A029625, the canonical program `A029625.P8414473659430485930` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029625 has offset 0).
 
 The definition of A029625 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9844 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6421,7 +6446,7 @@ end A029625
 
 `A029623(lt[2, A029623(n)])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A029625
@@ -8937,6 +8962,29 @@ theorem P8447122039939684101.correct : P8447122039939684101.Spec := by
 
 end A029635
 
+/-! ## A029635.P15324108981861566062
+
+`T(n-2,k-1)+T(n-2,k)+T(n-1,k-1)` with `a(0)=2, a(1)=1, a(2)=2, a(3)=1`
+-/
+
+namespace A029635.P15324108981861566062
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2, 1, 2, 1] fun n a =>
+  SequenceMachineLib.triUp2Left a n + SequenceMachineLib.triUp2 a n + SequenceMachineLib.triUpLeft a n
+
+end
+
+end A029635.P15324108981861566062
+
+namespace A029635
+
+/-- `T(n-2,k-1)+T(n-2,k)+T(n-1,k-1)` -/
+def P15324108981861566062.Spec : Prop :=
+  ∀ n, (P15324108981861566062.a n : ℤ) = A029635 n
+
+end A029635
+
 /-! ## A029635.P14447282759070454877
 
 `A097805(n)+A007318(n)`
@@ -9348,29 +9396,6 @@ namespace A029635
 /-- `2/A130321(n)²*A193735(n)` -/
 def P741865392283080263.Spec : Prop :=
   ∀ n, P741865392283080263.a n = (A029635 n : ℚ)
-
-end A029635
-
-/-! ## A029635.P17701148516133182693
-
-`2*A200139(n)/sqrt(A262616(n))`
--/
-
-namespace A029635.P17701148516133182693
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  2 * ((A200139 n : ℝ) / Real.sqrt (A262616 n : ℝ))
-
-end
-
-end A029635.P17701148516133182693
-
-namespace A029635
-
-/-- `2*A200139(n)/sqrt(A262616(n))` -/
-def P17701148516133182693.Spec : Prop :=
-  ∀ n, P17701148516133182693.a n = (A029635 n : ℝ)
 
 end A029635
 
@@ -14033,6 +14058,29 @@ def P18329504621269205530.Spec : Prop :=
 
 end A029653
 
+/-! ## A029653.P5293229655480407127
+
+`T(n-2,k-1)+T(n-2,k)+T(n-1,k-1)` with `a(0)=1, a(1)=2, a(2)=1, a(3)=2`
+-/
+
+namespace A029653.P5293229655480407127
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 1, 2] fun n a =>
+  SequenceMachineLib.triUp2Left a n + SequenceMachineLib.triUp2 a n + SequenceMachineLib.triUpLeft a n
+
+end
+
+end A029653.P5293229655480407127
+
+namespace A029653
+
+/-- `T(n-2,k-1)+T(n-2,k)+T(n-1,k-1)` -/
+def P5293229655480407127.Spec : Prop :=
+  ∀ n, (P5293229655480407127.a n : ℤ) = A029653 n
+
+end A029653
+
 /-! ## A029653.P15740320911286042854
 
 `A028326(n)-A097805(n)`
@@ -14459,29 +14507,6 @@ namespace A029653
 /-- `A000007(n)+A029618(n)-A007318(n)` -/
 def P2271060673868194295.Spec : Prop :=
   ∀ n, P2271060673868194295.a n = A029653 n
-
-end A029653
-
-/-! ## A029653.P416716017465310672
-
-`A007318(n)+A093561(n)-A093560(n)`
--/
-
-namespace A029653.P416716017465310672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 n + (A093561 n - A093560 n)
-
-end
-
-end A029653.P416716017465310672
-
-namespace A029653
-
-/-- `A007318(n)+A093561(n)-A093560(n)` -/
-def P416716017465310672.Spec : Prop :=
-  ∀ n, P416716017465310672.a n = A029653 n
 
 end A029653
 
@@ -16149,7 +16174,7 @@ end A029660.P17864722263884043373
 /-!
 # A029661: Even numbers to the right of the central numbers of the (2,1)-Pascal triangle A029653.
 
-The programs for A029661, the canonical program `A029661.P15382218229631797000` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029661 has offset 0).
+The programs for A029661, the canonical program `A029661.P15382218229631797000` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029661 has offset 0).
 
 The definition of A029661 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16158,7 +16183,7 @@ The definition of A029661 is `conjectured`: the Lean definition is a formula tha
 
 `2*A051430(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A029661
@@ -18108,7 +18133,7 @@ end A029667
 /-!
 # A029668: Odd numbers to the right of the central elements of the (2,1)-Pascal triangle A029653 that are different from 1.
 
-The programs for A029668, the canonical program `A029668.P4792847328152490897` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029668 has offset 0).
+The programs for A029668, the canonical program `A029668.P4792847328152490897` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029668 has offset 0).
 
 The definition of A029668 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4535 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18117,7 +18142,7 @@ The definition of A029668 is `conjectured`: the Lean definition is a formula tha
 
 `A029657(lt[A029624(n+1), A029624(n)])`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A029668
@@ -20265,6 +20290,29 @@ The programs for A029699, the canonical program `A029699.P1867875014966050622` i
 
 The definition of A029699 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A029699.P17920764793178135202
+
+`ogf((x+22x^2-5x^3)/(1-5x+10x^2-10x^3+5x^4-x^5))`
+-/
+
+namespace A029699.P17920764793178135202
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 22, -5] [1, -5, 10, -10, 5, -1] n
+
+end
+
+end A029699.P17920764793178135202
+
+namespace A029699
+
+/-- `ogf((x+22x^2-5x^3)/(1-5x+10x^2-10x^3+5x^4-x^5))` -/
+def P17920764793178135202.Spec : Prop :=
+  ∀ n, P17920764793178135202.a n = A029699 (n + 1)
+
+end A029699
 
 /-! ## A029699.P7917841497478154832
 

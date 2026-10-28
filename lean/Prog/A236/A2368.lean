@@ -5,34 +5,39 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,8 +48,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,13 +56,12 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1796,20 +1798,20 @@ end
 
 end A236824.P11997836291194345337
 
-/-! ## A236824.P11986575550730558741
+/-! ## A236824.P3714076266001525883
 
-`A236828(A155212(n)+5)`
+`A236828(A141214(n+1))`
 -/
 
-namespace A236824.P11986575550730558741
+namespace A236824.P3714076266001525883
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236828 (A155212 n + 5).toNat
+  A236828 (A141214 (n + 1)).toNat
 
 end
 
-end A236824.P11986575550730558741
+end A236824.P3714076266001525883
 
 /-!
 # A236825: Number of (n+1)X(5+1) 0..2 arrays with the maximum plus the minimum minus the lower median of every 2X2 subblock equal.
@@ -2395,21 +2397,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A236833.P1370479333953612607
-
-/-! ## A236833.P15230961917289839017
-
-`A010766(gcd(A250120(n), A262049(3*n+2)))`
--/
-
-namespace A236833.P15230961917289839017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010766 (Int.gcd (A250120 n) (A262049 (3 * n + 2)))
-
-end
-
-end A236833.P15230961917289839017
 
 /-! ## A236833.P5246043340392180458
 
@@ -3306,7 +3293,7 @@ end A236839.P9744685991987994983
 /-!
 # A236840: n minus number of runs in the binary expansion of n: a(n) = n - A005811(n).
 
-The programs for A236840, the canonical program `A236840.P5330150570220508668` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236840 has offset 0).
+The programs for A236840, the canonical program `A236840.P5330150570220508668` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236840 has offset 0).
 
 The definition of A236840 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3338,7 +3325,7 @@ end A236840
 
 `n-A005811(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A236840
@@ -5739,6 +5726,24 @@ end
 
 end A236855.P275447406466906462
 
+/-! ## A236855.P14421960122302003089
+
+`∑{digits}[A239903(n), #]`
+-/
+
+namespace A236855.P14421960122302003089
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239903 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f1 n).natAbs).map fun (x : ℕ) => x).sum
+
+end
+
+end A236855.P14421960122302003089
+
 /-! ## A236855.P7419225738885242367
 
 `A171960(A237449(n)+A171960(n))`
@@ -6313,7 +6318,7 @@ end A236856
 /-!
 # A236857: Each n occurs the least common multiple (LCM) of {1, 2, ..., n} (= A003418(n)) times.
 
-The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
+The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
 
 The definition of A236857 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6322,7 +6327,7 @@ The definition of A236857 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[lcm(n, a(n-1))]]]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A236857
@@ -6535,6 +6540,52 @@ namespace A236857
 /-- `∑[char[∑[∏[A014963(∏{p}[n, #])]]]]` -/
 def P14099862243139747502.Spec : Prop :=
   ∀ n, (P14099862243139747502.a n : ℤ) = A236857 n
+
+end A236857
+
+/-! ## A236857.P12018493377014765331
+
+`A029837(A400766(A070939(A400766(n+1))))`
+-/
+
+namespace A236857.P12018493377014765331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029837 (A400766 (A070939 (A400766 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A236857.P12018493377014765331
+
+namespace A236857
+
+/-- `A029837(A400766(A070939(A400766(n+1))))` -/
+def P12018493377014765331.Spec : Prop :=
+  ∀ n, P12018493377014765331.a n = A236857 n
+
+end A236857
+
+/-! ## A236857.P5406966397515363930
+
+`A029837(A400766(A029837(A400766(n+2))))`
+-/
+
+namespace A236857.P5406966397515363930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029837 (A400766 (A029837 (A400766 (n + 2)).toNat).toNat).toNat
+
+end
+
+end A236857.P5406966397515363930
+
+namespace A236857
+
+/-- `A029837(A400766(A029837(A400766(n+2))))` -/
+def P5406966397515363930.Spec : Prop :=
+  ∀ n, P5406966397515363930.a n = A236857 n
 
 end A236857
 
@@ -10481,20 +10532,20 @@ end
 
 end A236898.P11113324991149770440
 
-/-! ## A236898.P7585654901198561398
+/-! ## A236898.P17269239139531771362
 
-`A236902(A155212(n)+5)`
+`A236902(A141214(n+1))`
 -/
 
-namespace A236898.P7585654901198561398
+namespace A236898.P17269239139531771362
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236902 (A155212 n + 5).toNat
+  A236902 (A141214 (n + 1)).toNat
 
 end
 
-end A236898.P7585654901198561398
+end A236898.P17269239139531771362
 
 /-!
 # A236899: Number of (n+1)X(5+1) 0..2 arrays with the maximum plus the upper median of every 2X2 subblock equal.

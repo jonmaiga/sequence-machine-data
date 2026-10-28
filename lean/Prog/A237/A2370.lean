@@ -3,16 +3,15 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -21,21 +20,25 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -59,6 +62,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A237000: Number of (n+1) X (1+1) 0..3 arrays with the upper median plus the lower median of every 2 X 2 subblock equal.
@@ -2668,8 +2671,29 @@ end A237032.P452887803173941624
 /-!
 # A237036: Size of the smallest conjugacy class of size greater than 1 of the alternating group of degree n.
 
-The programs for A237036, there is no canonical definition to state claims against.
+The programs for A237036, the canonical program `A237036.P5097138219934544455` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237036 has offset 4).
+
+The definition of A237036 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A237036.P5097138219934544455
+
+`ogf((3+10x^2-30x^3+20x^4+20x^5-42x^6+28x^7-7x^8)/(1-4x+6x^2-4x^3+x^4))`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A237036
+
+/-- `ogf((3+10x^2-30x^3+20x^4+20x^5-42x^6+28x^7-7x^8)/(1-4x+6x^2-4x^3+x^4))` -/
+def P5097138219934544455.Spec : Prop :=
+  ∀ n, P5097138219934544455.a n = A237036 (n + 4)
+
+theorem P5097138219934544455.correct : P5097138219934544455.Spec := by
+  intro n
+  simp only [A237036, Nat.add_sub_cancel]
+
+end A237036
 
 /-! ## A237036.P7393953971318431069
 
@@ -2686,20 +2710,13 @@ end
 
 end A237036.P7393953971318431069
 
-/-! ## A237036.P5612839654537287648
+namespace A237036
 
-`(A020639(A279887(n+1))+n)*A134535(n+1)`
--/
+/-- `A000015(n+3)*A324918(A008864(3*(n+1)))` -/
+def P7393953971318431069.Spec : Prop :=
+  ∀ n, P7393953971318431069.a n = A237036 (n + 4)
 
-namespace A237036.P5612839654537287648
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A020639 (A279887 (n + 1)).toNat + (n : ℤ)) * A134535 (n + 1)
-
-end
-
-end A237036.P5612839654537287648
+end A237036
 
 /-!
 # A237037: Numbers k such that (2*k)^3 + 1 is a semiprime.
@@ -2950,6 +2967,21 @@ end
 
 end A237037.P6965867751483141234
 
+/-! ## A237037.P3919657437620473138
+
+`A001281(A096173(n+1))`
+-/
+
+namespace A237037.P3919657437620473138
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001281 (A096173 (n + 1)).toNat
+
+end
+
+end A237037.P3919657437620473138
+
 /-! ## A237037.P13001766996982934627
 
 `A000463(A096173(n+1)-1)`
@@ -3045,27 +3077,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A237037.P5827047624273354606
-
-/-! ## A237037.P10757426044447065701
-
-`eq[A051612(2*n+1), A278251(2*n)]`
--/
-
-namespace A237037.P10757426044447065701
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051612 (2 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278251 (2 * n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A237037.P10757426044447065701
 
 /-!
 # A237038: Primes p such that (2*p)^3 + 1 is a semiprime.
@@ -4454,6 +4465,38 @@ def P4969254728386939819.Spec : Prop :=
 
 end A237046
 
+/-! ## A237046.P17924212909705927820
+
+`lt[∑{d}[n, #]+1, 2*n]`
+-/
+
+namespace A237046.P17924212909705927820
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f2 n), d + 1
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
+
+end
+
+end A237046.P17924212909705927820
+
+namespace A237046
+
+/-- `lt[∑{d}[n, #]+1, 2*n]` -/
+def P17924212909705927820.Spec : Prop :=
+  ∀ n, (P17924212909705927820.a n : ℤ) = A237046 (n + 1)
+
+end A237046
+
 /-!
 # A237047: Number of compositions of n minus the number of overpartitions of n.
 
@@ -4707,6 +4750,21 @@ end
 
 end A237048.P10016659265477686941
 
+/-! ## A237048.P16698396068756801195
+
+`A196020(n+1)%2`
+-/
+
+namespace A237048.P16698396068756801195
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A196020 (n + 1)) 2
+
+end
+
+end A237048.P16698396068756801195
+
 /-! ## A237048.P16432256611013741114
 
 `and(1, A196020(Δ[n²]-n))`
@@ -4724,6 +4782,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A237048.P16432256611013741114
+
+/-! ## A237048.P6132511147908451529
+
+`A000035(A196020(n+1))`
+-/
+
+namespace A237048.P6132511147908451529
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A196020 (n + 1)).toNat
+
+end
+
+end A237048.P6132511147908451529
 
 /-! ## A237048.P15336252800122705767
 
@@ -4889,36 +4962,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A237048.P2032465577580267920
-
-/-! ## A237048.P9977503192009762259
-
-`ceil(A196020(n+1)/(A005843(n)+1))`
--/
-
-namespace A237048.P9977503192009762259
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A196020 (n + 1) : ℚ) / (A005843 n + 1 : ℚ)⌉
-
-end
-
-end A237048.P9977503192009762259
-
-/-! ## A237048.P190157723163448554
-
-`A211343(n+1)/A235791(n+1)`
--/
-
-namespace A237048.P190157723163448554
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A211343 (n + 1) : ℚ) / (A235791 (n + 1) : ℚ)
-
-end
-
-end A237048.P190157723163448554
 
 /-!
 # A237049: Number of ordered ways to write n = i + j + k (0 < i <= j <= k) with i,j,k not all equal such that sigma(i)*sigma(j)*sigma(k) is a cube, where sigma(m) denotes the sum of all positive divisors of m.
@@ -5298,7 +5341,7 @@ end A237053.P14190457002465627634
 /-!
 # A237054: a(1)=1, a(n) = (a(n-1) + n) XOR n.
 
-The programs for A237054, the canonical program `A237054.P17895621016256963119` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237054 has offset 1).
+The programs for A237054, the canonical program `A237054.P17895621016256963119` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237054 has offset 1).
 
 The definition of A237054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5307,7 +5350,7 @@ The definition of A237054 is `conjectured`: the Lean definition is a formula tha
 
 `xor(n+1, a(n-1)+1+n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A237054

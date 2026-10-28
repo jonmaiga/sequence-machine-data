@@ -210,6 +210,45 @@
         "1",
         "+"
       ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "runs[cosh(floor(sqrt(∑[n])))]",
+      "mt": 200,
+      "px": [
+        "n",
+        "∑",
+        "sqrt",
+        "floor",
+        "cosh",
+        "runs"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "runs[sinh(floor(sqrt(∑[n])))]",
+      "mt": 200,
+      "px": [
+        "n",
+        "∑",
+        "sqrt",
+        "floor",
+        "sinh",
+        "runs"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "runs[tanh(floor(sqrt(∑[n])))]",
+      "mt": 100,
+      "px": [
+        "n",
+        "∑",
+        "sqrt",
+        "floor",
+        "tanh",
+        "runs"
+      ]
     }
   ]
 }

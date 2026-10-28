@@ -2,17 +2,21 @@
   "oi": 53188,
   "ps": [
     {
-      "d": "2023-06-21",
-      "ix": "abs(n-round(sqrt(n))²)",
+      "d": "2026-10-28",
+      "ix": "abs(round(sqrt(n))²-n)",
       "mt": 10000,
       "px": [
-        "n",
         "n",
         "sqrt",
         "round",
         "²",
+        "n",
         "sub",
         "abs"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

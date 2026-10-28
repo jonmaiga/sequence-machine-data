@@ -1,22 +1,20 @@
 import SequenceMachineLib
 import Seq.B000.C000
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
-import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C010
+import Seq.B000.C018
+import Seq.B000.C022
+import Seq.B000.C028
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C005
 import Seq.B003.C001
 import Seq.Opaque.C001
-import Seq.Opaque.C004
+import Seq.Opaque.C003
 import Seq.Opaque.C009
 import Seq.Opaque.C022
 
@@ -471,25 +469,25 @@ end A021114
 /-!
 # A021115: Decimal expansion of 1/111.
 
-The programs for A021115, the canonical program `A021115.P18404869153156329283` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
+The programs for A021115, the canonical program `A021115.P15263700971865995502` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
 
 The definition of A021115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A021115.P18404869153156329283
+/-! ## A021115.P15263700971865995502
 
-`4*n%3-2*(n+1)%3+(n+2)%3`
+`ogf(9x^2/(1-x^3))`
 
 The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A021115
 
-/-- `4*n%3-2*(n+1)%3+(n+2)%3` -/
-def P18404869153156329283.Spec : Prop :=
-  ∀ n, P18404869153156329283.a n = A021115 n
+/-- `ogf(9x^2/(1-x^3))` -/
+def P15263700971865995502.Spec : Prop :=
+  ∀ n, P15263700971865995502.a n = A021115 n
 
-theorem P18404869153156329283.correct : P18404869153156329283.Spec := by
+theorem P15263700971865995502.correct : P15263700971865995502.Spec := by
   intro n
   simp only [A021115]
 
@@ -546,23 +544,29 @@ end A021117.P5131799180181636537
 /-!
 # A021119: Decimal expansion of 1/115.
 
-The programs for A021119, there is no canonical definition to state claims against.
+The programs for A021119, the canonical program `A021119.P6737584527098804853` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021119 has offset 0).
+
+The definition of A021119 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A021119.P6724596652999424032
+/-! ## A021119.P6737584527098804853
 
-`A021096(A253145(n)-A000217(n))`
+`ogf((8x^2-2x^3+3x^4-4x^5+x^6-x^7-3x^8-x^9+6x^10-4x^11+6x^12)/(1-x+x^11-x^12))`
+
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
-namespace A021119.P6724596652999424032
-noncomputable section
+namespace A021119
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A021096 (A253145 n - A000217 n).toNat
+/-- `ogf((8x^2-2x^3+3x^4-4x^5+x^6-x^7-3x^8-x^9+6x^10-4x^11+6x^12)/(1-x+x^11-x^12))` -/
+def P6737584527098804853.Spec : Prop :=
+  ∀ n, P6737584527098804853.a n = A021119 n
 
-end
+theorem P6737584527098804853.correct : P6737584527098804853.Spec := by
+  intro n
+  simp only [A021119]
 
-end A021119.P6724596652999424032
+end A021119
 
 /-!
 # A021121: Decimal expansion of 1/117.

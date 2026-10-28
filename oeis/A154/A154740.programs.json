@@ -21,6 +21,90 @@
       ]
     },
     {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(1-cos(atan(1)))]",
+      "mt": 90,
+      "px": [
+        "1",
+        "1",
+        "atan",
+        "cos",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(1-sin(atan(1)))]",
+      "mt": 90,
+      "px": [
+        "1",
+        "1",
+        "atan",
+        "sin",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(1-cos(acot(1)))]",
+      "mt": 90,
+      "px": [
+        "1",
+        "1",
+        "acot",
+        "cos",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(1-sin(acot(1)))]",
+      "mt": 90,
+      "px": [
+        "1",
+        "1",
+        "acot",
+        "sin",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sin(acos(root(2, -4)))]",
+      "mt": 90,
+      "px": [
+        "2",
+        "4",
+        "neg",
+        "root",
+        "acos",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[cos(asin(root(2, -4)))]",
+      "mt": 90,
+      "px": [
+        "2",
+        "4",
+        "neg",
+        "root",
+        "asin",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
       "d": "2025-06-14",
       "ix": "contfrac[C154739]%A000070(n)",
       "mt": 90,
@@ -50,19 +134,6 @@
       "px": [
         "n",
         "A332998",
-        "A376556",
-        "C154739",
-        "contfrac",
-        "+"
-      ]
-    },
-    {
-      "d": "2026-08-16",
-      "ix": "A376556(A376556(n))+contfrac[C154739]",
-      "mt": 90,
-      "px": [
-        "n",
-        "A376556",
         "A376556",
         "C154739",
         "contfrac",

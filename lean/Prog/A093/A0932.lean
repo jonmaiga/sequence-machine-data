@@ -1,22 +1,20 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
+import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C024
+import Seq.B000.C011
+import Seq.B000.C017
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C026
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C029
+import Seq.B000.C039
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C006
-import Seq.B002.C001
 import Seq.B003.C000
-import Seq.B006.C000
-import Seq.Opaque.C002
 import Seq.Opaque.C005
-import Seq.Opaque.C007
 
 /-!
 # A093210: Row sums of A092964.
@@ -258,6 +256,24 @@ end
 
 end A093230.P1097494956476600056
 
+/-! ## A093230.P8652618765297236776
+
+`∑{#}[n-1, 9*10^(2*n-#)]`
+-/
+
+namespace A093230.P8652618765297236776
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, 9 * (10 : ℚ) ^ ((2 * n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A093230.P8652618765297236776
+
 /-! ## A093230.P13779770155746893253
 
 `A013715(n)-10^(n+1)`
@@ -305,27 +321,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A093230.P10142073551726413232
-
-/-! ## A093230.P414993181483136035
-
-`Δ[A138147(n+1)]%(10^Δ[n²])`
--/
-
-namespace A093230.P414993181483136035
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138147 (n + 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (n + 1) - f1 n) (SequenceMachineLib.roundAway ((10 : ℚ) ^ ((f2 (n + 1) : ℤ) - (f2 n : ℤ) : ℤ)))
-
-end
-
-end A093230.P414993181483136035
 
 /-!
 # A093250: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 50.

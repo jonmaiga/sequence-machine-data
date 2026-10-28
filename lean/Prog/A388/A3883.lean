@@ -1,8 +1,8 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C008
-import Seq.B000.C024
-import Seq.B000.C033
+import Seq.B000.C009
+import Seq.B000.C027
+import Seq.B000.C038
 import Seq.B001.C004
 import Seq.B002.C001
 import Seq.B003.C003
@@ -13,10 +13,10 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004
-import Seq.Opaque.C006
-import Seq.Opaque.C019
+import Seq.Opaque.C005
+import Seq.Opaque.C018
+import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A388304: Numbers that have several prime factors and all prime factors have the same exponent > 2.
@@ -600,6 +600,24 @@ end
 
 end A388306.P13313265948369120650
 
+/-! ## A388306.P2812421548866229788
+
+`filter[A089229(n+1), A319988(#)]`
+-/
+
+namespace A388306.P2812421548866229788
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089229 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A319988 (f1 j).toNat = 1) n)
+
+end
+
+end A388306.P2812421548866229788
+
 /-! ## A388306.P3260602837362457289
 
 `∩[A070003(n+1), A089229(n+1)]`
@@ -621,6 +639,42 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A388306.P3260602837362457289
+
+/-! ## A388306.P6478480187768122264
+
+`filter[A000037(n+1), A319988(#)]`
+-/
+
+namespace A388306.P6478480187768122264
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000037 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A319988 (f1 j).toNat = 1) n)
+
+end
+
+end A388306.P6478480187768122264
+
+/-! ## A388306.P18010827435219715592
+
+`filter[A164514(n+1), A319988(#)]`
+-/
+
+namespace A388306.P18010827435219715592
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164514 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A319988 (f1 j).toNat = 1) n)
+
+end
+
+end A388306.P18010827435219715592
 
 /-! ## A388306.P8701136170993936324
 

@@ -2,14 +2,14 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
-import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B010.C000
 import Seq.Opaque.C002
-import Seq.Opaque.C010
-import Seq.Opaque.C021
+import Seq.Opaque.C009
+import Seq.Opaque.C020
 
 /-!
 # A031694: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 16.

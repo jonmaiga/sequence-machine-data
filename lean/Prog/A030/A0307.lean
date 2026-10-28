@@ -11,46 +11,50 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
+import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C006
+import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -67,7 +71,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A030700: Decimal expansion of 3^n contains no zeros (probably finite).
@@ -6040,21 +6043,6 @@ end
 
 end A030757.P18036344282197454419
 
-/-! ## A030757.P7422664737615009416
-
-`A051120(A004280(n+1))`
--/
-
-namespace A030757.P7422664737615009416
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051120 (A004280 (n + 1)).toNat
-
-end
-
-end A030757.P7422664737615009416
-
 /-! ## A030757.P16642140167105656786
 
 `A051120(A004275(n)+1)`
@@ -6069,6 +6057,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030757.P16642140167105656786
+
+/-! ## A030757.P7422664737615009416
+
+`A051120(A004280(n+1))`
+-/
+
+namespace A030757.P7422664737615009416
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051120 (A004280 (n + 1)).toNat
+
+end
+
+end A030757.P7422664737615009416
 
 /-! ## A030757.P18129874798281707455
 
@@ -6311,21 +6314,6 @@ end
 
 end A030762.P2584961811796633734
 
-/-! ## A030762.P5889782217275616043
-
-`A030712(n+2)-(A057428(n)+2)`
--/
-
-namespace A030762.P5889782217275616043
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030712 (n + 2) - (A057428 n + 2)
-
-end
-
-end A030762.P5889782217275616043
-
 /-! ## A030762.P9087222217175039083
 
 `A057427(n)+A030712(n+2)-2`
@@ -6340,6 +6328,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030762.P9087222217175039083
+
+/-! ## A030762.P5889782217275616043
+
+`A030712(n+2)-(A057428(n)+2)`
+-/
+
+namespace A030762.P5889782217275616043
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030712 (n + 2) - (A057428 n + 2)
+
+end
+
+end A030762.P5889782217275616043
 
 /-! ## A030762.P17617700218055456061
 
@@ -9773,32 +9776,6 @@ namespace A030799
 /-- `floor((n+1)!*sqrt(e))` -/
 def P7989899278777952158.Spec : Prop :=
   ∀ n, P7989899278777952158.a n = A030799 (n + 1)
-
-end A030799
-
-/-! ## A030799.P11561921866990192328
-
-`floor(sqrt(e)*∏[n+1])`
--/
-
-namespace A030799.P11561921866990192328
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sqrt (Real.exp 1) * ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ)⌋
-
-end
-
-end A030799.P11561921866990192328
-
-namespace A030799
-
-/-- `floor(sqrt(e)*∏[n+1])` -/
-def P11561921866990192328.Spec : Prop :=
-  ∀ n, P11561921866990192328.a n = A030799 (n + 1)
 
 end A030799
 

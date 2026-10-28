@@ -3,27 +3,33 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
-import Seq.B000.C004
-import Seq.B000.C007
+import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C021
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,12 +53,13 @@ import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -71,7 +78,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -79,16 +85,42 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
+# A040923: Continued fraction for sqrt(954).
+
+The programs for A040923, the canonical program `A040923.P16373884863386675841` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040923 has offset 0).
+
+The definition of A040923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040923.P16373884863386675841
+
+`ogf((30+x+7x^2+x^3+5x^4+3x^5+2x^6+6x^7+2x^8+3x^9+5x^10+x^11+7x^12+x^13+30x^14)/(1-x^14))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040923
+
+/-- `ogf((30+x+7x^2+x^3+5x^4+3x^5+2x^6+6x^7+2x^8+3x^9+5x^10+x^11+7x^12+x^13+30x^14)/(1-x^14))` -/
+def P16373884863386675841.Spec : Prop :=
+  ∀ n, P16373884863386675841.a n = A040923 n
+
+theorem P16373884863386675841.correct : P16373884863386675841.Spec := by
+  intro n
+  simp only [A040923]
+
+end A040923
+
+/-!
 # A040928: Continued fraction for sqrt(959).
 
-The programs for A040928, the canonical program `A040928.P3484594305526774822` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040928 has offset 0).
+The programs for A040928, the canonical program `A040928.P3484594305526774822` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040928 has offset 0).
 
 The definition of A040928 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -97,7 +129,7 @@ The definition of A040928 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)` with `a(0)=30, a(1)=1, a(2)=29, a(3)=1, a(4)=60`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A040928
@@ -113,27 +145,216 @@ theorem P3484594305526774822.correct : P3484594305526774822.Spec := by
 end A040928
 
 /-!
-# A040960: Continued fraction for sqrt(992).
+# A040930: Continued fraction for sqrt(962).
 
-The programs for A040960, the canonical program `A040960.P17555520016820167343` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040960 has offset 0).
+The programs for A040930, the canonical program `A040930.P5188171532351413658` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040930 has offset 0).
 
-The definition of A040960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A040930 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A040960.P17555520016820167343
+/-! ## A040930.P5188171532351413658
 
-`a(n-2)` with `a(0)=31, a(1)=2, a(2)=62`
+`ogf((31+31x)/(1-x))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040930
+
+/-- `ogf((31+31x)/(1-x))` -/
+def P5188171532351413658.Spec : Prop :=
+  ∀ n, P5188171532351413658.a n = A040930 n
+
+theorem P5188171532351413658.correct : P5188171532351413658.Spec := by
+  intro n
+  simp only [A040930]
+
+end A040930
+
+/-!
+# A040938: Continued fraction for sqrt(970).
+
+The programs for A040938, the canonical program `A040938.P11032802044006233254` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040938 has offset 0).
+
+The definition of A040938 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040938.P11032802044006233254
+
+`ogf((31+6x+x^2+9x^3+x^4+x^5+9x^6+x^7+6x^8+31x^9)/(1-x^9))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040938
+
+/-- `ogf((31+6x+x^2+9x^3+x^4+x^5+9x^6+x^7+6x^8+31x^9)/(1-x^9))` -/
+def P11032802044006233254.Spec : Prop :=
+  ∀ n, P11032802044006233254.a n = A040938 n
+
+theorem P11032802044006233254.correct : P11032802044006233254.Spec := by
+  intro n
+  simp only [A040938]
+
+end A040938
+
+/-!
+# A040951: Continued fraction for sqrt(983).
+
+The programs for A040951, the canonical program `A040951.P602105326527027200` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040951 has offset 0).
+
+The definition of A040951 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040951.P602105326527027200
+
+`ogf((31+2x+x^2+5x^3+31x^4+5x^5+x^6+2x^7+31x^8)/(1-x^8))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040951
+
+/-- `ogf((31+2x+x^2+5x^3+31x^4+5x^5+x^6+2x^7+31x^8)/(1-x^8))` -/
+def P602105326527027200.Spec : Prop :=
+  ∀ n, P602105326527027200.a n = A040951 n
+
+theorem P602105326527027200.correct : P602105326527027200.Spec := by
+  intro n
+  simp only [A040951]
+
+end A040951
+
+/-!
+# A040952: Continued fraction for sqrt(984).
+
+The programs for A040952, the canonical program `A040952.P3587023971906073595` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040952 has offset 0).
+
+The definition of A040952 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040952.P3587023971906073595
+
+`ogf((31+2x+x^2+2x^3+2x^4+7x^5+2x^6+2x^7+x^8+2x^9+31x^10)/(1-x^10))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040952
+
+/-- `ogf((31+2x+x^2+2x^3+2x^4+7x^5+2x^6+2x^7+x^8+2x^9+31x^10)/(1-x^10))` -/
+def P3587023971906073595.Spec : Prop :=
+  ∀ n, P3587023971906073595.a n = A040952 n
+
+theorem P3587023971906073595.correct : P3587023971906073595.Spec := by
+  intro n
+  simp only [A040952]
+
+end A040952
+
+/-!
+# A040953: Continued fraction for sqrt(985).
+
+The programs for A040953, the canonical program `A040953.P14217446970753609062` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040953 has offset 0).
+
+The definition of A040953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040953.P14217446970753609062
+
+`ogf((31+2x+x^2+x^3+2x^4+31x^5)/(1-x^5))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040953
+
+/-- `ogf((31+2x+x^2+x^3+2x^4+31x^5)/(1-x^5))` -/
+def P14217446970753609062.Spec : Prop :=
+  ∀ n, P14217446970753609062.a n = A040953 n
+
+theorem P14217446970753609062.correct : P14217446970753609062.Spec := by
+  intro n
+  simp only [A040953]
+
+end A040953
+
+/-!
+# A040954: Continued fraction for sqrt(986).
+
+The programs for A040954, the canonical program `A040954.P11261132817050676625` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040954 has offset 0).
+
+The definition of A040954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040954.P11261132817050676625
+
+`ogf((31+2x+2x^2+31x^3)/(1-x^3))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040954
+
+/-- `ogf((31+2x+2x^2+31x^3)/(1-x^3))` -/
+def P11261132817050676625.Spec : Prop :=
+  ∀ n, P11261132817050676625.a n = A040954 n
+
+theorem P11261132817050676625.correct : P11261132817050676625.Spec := by
+  intro n
+  simp only [A040954]
+
+end A040954
+
+/-!
+# A040958: Continued fraction for sqrt(990).
+
+The programs for A040958, the canonical program `A040958.P8989757765418432645` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040958 has offset 0).
+
+The definition of A040958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040958.P8989757765418432645
+
+`ogf((31+2x+6x^2+2x^3+31x^4)/(1-x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040958
+
+/-- `ogf((31+2x+6x^2+2x^3+31x^4)/(1-x^4))` -/
+def P8989757765418432645.Spec : Prop :=
+  ∀ n, P8989757765418432645.a n = A040958 n
+
+theorem P8989757765418432645.correct : P8989757765418432645.Spec := by
+  intro n
+  simp only [A040958]
+
+end A040958
+
+/-!
+# A040960: Continued fraction for sqrt(992).
+
+The programs for A040960, the canonical program `A040960.P16101827735330910683` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040960 has offset 0).
+
+The definition of A040960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040960.P16101827735330910683
+
+`ogf((31+2x+31x^2)/(1-x^2))`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A040960
 
-/-- `a(n-2)` -/
-def P17555520016820167343.Spec : Prop :=
-  ∀ n, (P17555520016820167343.a n : ℤ) = A040960 n
+/-- `ogf((31+2x+31x^2)/(1-x^2))` -/
+def P16101827735330910683.Spec : Prop :=
+  ∀ n, P16101827735330910683.a n = A040960 n
 
-theorem P17555520016820167343.correct : P17555520016820167343.Spec := by
+theorem P16101827735330910683.correct : P16101827735330910683.Spec := by
   intro n
   simp only [A040960]
 
@@ -142,7 +363,7 @@ end A040960
 /-!
 # A040961: Continued fraction for sqrt(993).
 
-The programs for A040961, the canonical program `A040961.P12239413092404773850` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040961 has offset 0).
+The programs for A040961, the canonical program `A040961.P12239413092404773850` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040961 has offset 0).
 
 The definition of A040961 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -151,7 +372,7 @@ The definition of A040961 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)` with `a(0)=31, a(1)=1, a(2)=1, a(3)=20, a(4)=1, a(5)=1, a(6)=62`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A040961
@@ -165,6 +386,87 @@ theorem P12239413092404773850.correct : P12239413092404773850.Spec := by
   simp only [A040961]
 
 end A040961
+
+/-!
+# A040962: Continued fraction for sqrt(994).
+
+The programs for A040962, the canonical program `A040962.P736435234673363651` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040962 has offset 0).
+
+The definition of A040962 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040962.P736435234673363651
+
+`ogf((31+x+x^2+8x^3+x^4+x^5+31x^6)/(1-x^6))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040962
+
+/-- `ogf((31+x+x^2+8x^3+x^4+x^5+31x^6)/(1-x^6))` -/
+def P736435234673363651.Spec : Prop :=
+  ∀ n, P736435234673363651.a n = A040962 n
+
+theorem P736435234673363651.correct : P736435234673363651.Spec := by
+  intro n
+  simp only [A040962]
+
+end A040962
+
+/-!
+# A040963: Continued fraction for sqrt(995).
+
+The programs for A040963, the canonical program `A040963.P1569205701450205742` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040963 has offset 0).
+
+The definition of A040963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040963.P1569205701450205742
+
+`ogf((31+x+x^2+5x^3+4x^4+3x^5+12x^6+3x^7+4x^8+5x^9+x^10+x^11+31x^12)/(1-x^12))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040963
+
+/-- `ogf((31+x+x^2+5x^3+4x^4+3x^5+12x^6+3x^7+4x^8+5x^9+x^10+x^11+31x^12)/(1-x^12))` -/
+def P1569205701450205742.Spec : Prop :=
+  ∀ n, P1569205701450205742.a n = A040963 n
+
+theorem P1569205701450205742.correct : P1569205701450205742.Spec := by
+  intro n
+  simp only [A040963]
+
+end A040963
+
+/-!
+# A040965: Continued fraction for sqrt(997).
+
+The programs for A040965, the canonical program `A040965.P18040460587395626798` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040965 has offset 0).
+
+The definition of A040965 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A040965.P18040460587395626798
+
+`ogf((31+x+x^2+2x^3+x^4+4x^5+x^6+x^7+4x^8+x^9+2x^10+x^11+x^12+31x^13)/(1-x^13))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A040965
+
+/-- `ogf((31+x+x^2+2x^3+x^4+4x^5+x^6+x^7+4x^8+x^9+2x^10+x^11+x^12+31x^13)/(1-x^13))` -/
+def P18040460587395626798.Spec : Prop :=
+  ∀ n, P18040460587395626798.a n = A040965 n
+
+theorem P18040460587395626798.correct : P18040460587395626798.Spec := by
+  intro n
+  simp only [A040965]
+
+end A040965
 
 /-!
 # A040969: Primes p such that x^5 = 12 has no solution mod p.
@@ -1313,6 +1615,29 @@ theorem P12924738158848757762.correct : P12924738158848757762.Spec := by
 
 end A040977
 
+/-! ## A040977.P14835511347657424060
+
+`ogf((1+x)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))`
+-/
+
+namespace A040977.P14835511347657424060
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -7, 21, -35, 35, -21, 7, -1] n
+
+end
+
+end A040977.P14835511347657424060
+
+namespace A040977
+
+/-- `ogf((1+x)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))` -/
+def P14835511347657424060.Spec : Prop :=
+  ∀ n, P14835511347657424060.a n = A040977 n
+
+end A040977
+
 /-! ## A040977.P10319210785179346591
 
 `C(n+5, 5)+2*C(n+5, 6)`
@@ -1387,6 +1712,35 @@ def P17094286001024075111.Spec : Prop :=
 theorem P17094286001024075111.correct : P17094286001024075111.Spec := by
   intro n
   simp only [A040977]
+
+end A040977
+
+/-! ## A040977.P5080089946409920857
+
+`(n+3)*C(n+5, 5)/3`
+-/
+
+namespace A040977.P5080089946409920857
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 3) * Nat.choose (n + 5) 5 : ℚ) / 3
+
+end
+
+end A040977.P5080089946409920857
+
+namespace A040977
+
+/-- `(n+3)*C(n+5, 5)/3` -/
+def P5080089946409920857.Spec : Prop :=
+  ∀ n, P5080089946409920857.a n = (A040977 n : ℚ)
+
+theorem P5080089946409920857.correct : P5080089946409920857.Spec := by
+  intro n
+  simp only [A040977, Nat.add_sub_cancel, A040977.P5080089946409920857.a, A040977.P17094286001024075111.a, A000579, A000579.P13663713855180125612.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A040977
 
@@ -1757,61 +2111,6 @@ def P4113226544185810673.Spec : Prop :=
 
 end A040977
 
-/-! ## A040977.P15217819673516287026
-
-`∑[A081284(2*(n+1))]`
--/
-
-namespace A040977.P15217819673516287026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081284 (2 * (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A040977.P15217819673516287026
-
-namespace A040977
-
-/-- `∑[A081284(2*(n+1))]` -/
-def P15217819673516287026.Spec : Prop :=
-  ∀ n, P15217819673516287026.a n = A040977 n
-
-end A040977
-
-/-! ## A040977.P16201293309708577554
-
-`∑[record[A213561(n+1)]]`
--/
-
-namespace A040977.P16201293309708577554
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213561 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A040977.P16201293309708577554
-
-namespace A040977
-
-/-- `∑[record[A213561(n+1)]]` -/
-def P16201293309708577554.Spec : Prop :=
-  ∀ n, P16201293309708577554.a n = A040977 n
-
-end A040977
-
 /-!
 # A040978: Primes p such that x^5 = 17 has a solution mod p.
 
@@ -2058,6 +2357,51 @@ end
 
 end A040980.P1748465126361562942
 
+/-! ## A040980.P4101747302403182775
+
+`A082876(A040982(n+1))`
+-/
+
+namespace A040980.P4101747302403182775
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082876 (A040982 (n + 1)).toNat
+
+end
+
+end A040980.P4101747302403182775
+
+/-! ## A040980.P7266058012472714482
+
+`and(A040982(n+1), A152388(n+1))`
+-/
+
+namespace A040980.P7266058012472714482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A040982 (n + 1)) (A152388 (n + 1))
+
+end
+
+end A040980.P7266058012472714482
+
+/-! ## A040980.P14618781706898605518
+
+`and(A040982(n+1), A383046(n+3))`
+-/
+
+namespace A040980.P14618781706898605518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A040982 (n + 1)) (A383046 (n + 3))
+
+end
+
+end A040980.P14618781706898605518
+
 /-!
 # A040981: Primes p such that x^5 = 18 has no solution mod p.
 
@@ -2224,6 +2568,24 @@ end
 
 end A040983.P4489234884410727850
 
+/-! ## A040983.P3437980399361439043
+
+`filter[A371421(n+1), A185705(#)]`
+-/
+
+namespace A040983.P3437980399361439043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371421 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A185705 (f1 j).toNat = 1) n)
+
+end
+
+end A040983.P3437980399361439043
+
 /-! ## A040983.P4674010252914423114
 
 `p?[record[A168459(A236919(n+1))]]`
@@ -2244,24 +2606,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040983.P4674010252914423114
-
-/-! ## A040983.P13903515222850196019
-
-`p?[A017281(n)*A077742(n+1)]`
--/
-
-namespace A040983.P13903515222850196019
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017281 n * A077742 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A040983.P13903515222850196019
 
 /-!
 # A040984: Primes p such that x^23 = 2 has no solution mod p.
@@ -3650,7 +3994,7 @@ end A040995.P7196331845263919370
 /-!
 # A040996: Maximum number of distinct functions at the bottom of a Boolean (or Binary) Decision Diagram (or BDD) with negation by pointer complementation.
 
-The programs for A040996, the canonical program `A040996.P3148709121378466287` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040996 has offset 0).
+The programs for A040996, the canonical program `A040996.P3148709121378466287` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040996 has offset 0).
 
 The definition of A040996 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3659,7 +4003,7 @@ The definition of A040996 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^2^n*(2^2^n-1)/2`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A040996
@@ -4045,29 +4389,6 @@ namespace A040997
 /-- `A241494(n+1)^A194262(A069289(n+1)+6)` -/
 def P9132844699499333602.Spec : Prop :=
   ∀ n, P9132844699499333602.a n = (A040997 (n + 1) : ℚ)
-
-end A040997
-
-/-! ## A040997.P9474487661716091410
-
-`A054055(n+1)-A257297(n+1)/A054055(n+1)`
--/
-
-namespace A040997.P9474487661716091410
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A054055 (n + 1) : ℚ) - (A257297 (n + 1) : ℚ) / (A054055 (n + 1) : ℚ)
-
-end
-
-end A040997.P9474487661716091410
-
-namespace A040997
-
-/-- `A054055(n+1)-A257297(n+1)/A054055(n+1)` -/
-def P9474487661716091410.Spec : Prop :=
-  ∀ n, P9474487661716091410.a n = (A040997 (n + 1) : ℚ)
 
 end A040997
 

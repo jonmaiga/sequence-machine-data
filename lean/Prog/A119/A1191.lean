@@ -6,18 +6,20 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C012
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C012
@@ -25,23 +27,23 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C001
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -49,9 +51,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 /-!
 # A119100: Numbers k such that the k-th triangular number contains only digits {1,2,4}.
@@ -528,20 +528,20 @@ end
 
 end A119107.P8371659565370956326
 
-/-! ## A119107.P1225829373402869738
+/-! ## A119107.P2441176637226117720
 
-`C(A119108(A000027(n+1))+1, 2)`
+`C(A119108(n+1)+1, 2)`
 -/
 
-namespace A119107.P1225829373402869738
+namespace A119107.P2441176637226117720
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119108 (A000027 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119108 (n + 1) + 1).toNat 2
 
 end
 
-end A119107.P1225829373402869738
+end A119107.P2441176637226117720
 
 /-! ## A119107.P7876101134540710494
 
@@ -1140,20 +1140,20 @@ end
 
 end A119119.P15042967323769457382
 
-/-! ## A119119.P12632378283702187202
+/-! ## A119119.P12451187734832304952
 
-`C(A119120(A000027(n+1))+1, 2)`
+`C(A119120(n+1)+1, 2)`
 -/
 
-namespace A119119.P12632378283702187202
+namespace A119119.P12451187734832304952
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119120 (A000027 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119120 (n + 1) + 1).toNat 2
 
 end
 
-end A119119.P12632378283702187202
+end A119119.P12451187734832304952
 
 /-!
 # A119120: Numbers k such that the k-th triangular number contains only digits {1,3,8}.
@@ -1239,20 +1239,20 @@ end
 
 end A119123.P18341076358279298997
 
-/-! ## A119123.P15747746841251266728
+/-! ## A119123.P12362727971098760482
 
-`C(A119124(A000027(n+1))+1, 2)`
+`C(A119124(n+1)+1, 2)`
 -/
 
-namespace A119123.P15747746841251266728
+namespace A119123.P12362727971098760482
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119124 (A000027 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119124 (n + 1) + 1).toNat 2
 
 end
 
-end A119123.P15747746841251266728
+end A119123.P12362727971098760482
 
 /-! ## A119123.P4401324745946795785
 
@@ -1341,20 +1341,20 @@ end
 
 end A119125.P15047699390354698666
 
-/-! ## A119125.P8046444784781822465
+/-! ## A119125.P14310756988314685367
 
-`C(A119126(A000027(n+1))+1, 2)`
+`C(A119126(n+1)+1, 2)`
 -/
 
-namespace A119125.P8046444784781822465
+namespace A119125.P14310756988314685367
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119126 (A000027 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119126 (n + 1) + 1).toNat 2
 
 end
 
-end A119125.P8046444784781822465
+end A119125.P14310756988314685367
 
 /-! ## A119125.P4074108787826230253
 
@@ -1984,20 +1984,20 @@ end
 
 end A119136.P11010430141342260667
 
-/-! ## A119136.P6620044972946955579
+/-! ## A119136.P8935690617878411725
 
-`C(A119137(A000027(n+1))+1, 2)`
+`C(A119137(n+1)+1, 2)`
 -/
 
-namespace A119136.P6620044972946955579
+namespace A119136.P8935690617878411725
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119137 (A000027 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119137 (n + 1) + 1).toNat 2
 
 end
 
-end A119136.P6620044972946955579
+end A119136.P8935690617878411725
 
 /-! ## A119136.P16731596354275597329
 
@@ -2746,20 +2746,20 @@ end
 
 end A119148.P913720737142540317
 
-/-! ## A119148.P7800712698831485815
+/-! ## A119148.P5100507840050175201
 
-`C(A119149(A348519(n+1))+1, 2)`
+`C(A119149(n+1)+1, 2)`
 -/
 
-namespace A119148.P7800712698831485815
+namespace A119148.P5100507840050175201
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119149 (A348519 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119149 (n + 1) + 1).toNat 2
 
 end
 
-end A119148.P7800712698831485815
+end A119148.P5100507840050175201
 
 /-!
 # A119149: Numbers k such that the k-th triangular number contains only digits {1,7,9}.
@@ -3044,20 +3044,20 @@ end
 
 end A119154.P1455342434146615130
 
-/-! ## A119154.P16078282914640373214
+/-! ## A119154.P3385231564678324024
 
-`C(A119155(n+1)+A033999(n)², 2)`
+`C(A119155(n+1)+1, 2)`
 -/
 
-namespace A119154.P16078282914640373214
+namespace A119154.P3385231564678324024
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119155 (n + 1) + A033999 n ^ 2).toNat 2
+  Nat.choose (A119155 (n + 1) + 1).toNat 2
 
 end
 
-end A119154.P16078282914640373214
+end A119154.P3385231564678324024
 
 /-! ## A119154.P16900144504104371418
 
@@ -3630,20 +3630,20 @@ end
 
 end A119172.P4449074753687169374
 
-/-! ## A119172.P3337977281963795863
+/-! ## A119172.P2367345426513712634
 
-`C(A119173(A269171(n+1))+1, 2)`
+`C(A119173(n+1)+1, 2)`
 -/
 
-namespace A119172.P3337977281963795863
+namespace A119172.P2367345426513712634
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A119173 (A269171 (n + 1)).toNat + 1).toNat 2
+  Nat.choose (A119173 (n + 1) + 1).toNat 2
 
 end
 
-end A119172.P3337977281963795863
+end A119172.P2367345426513712634
 
 /-!
 # A119173: Numbers k such that the k-th triangular number contains only digits {2,6,7}.

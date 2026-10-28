@@ -1,47 +1,51 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C022
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
@@ -50,11 +54,10 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +83,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A150000: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, -1, 0), (0, 0, -1), (0, 1, 0), (1, 0, 1)}.
@@ -478,6 +480,21 @@ end
 
 end A150012.P7785767591055586172
 
+/-! ## A150012.P11242680313555420697
+
+`A150013(A001096(n))`
+-/
+
+namespace A150012.P11242680313555420697
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A150013 (A001096 n).toNat
+
+end
+
+end A150012.P11242680313555420697
+
 /-!
 # A150014: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, -1, 0), (0, 1, -1), (0, 1, 0), (1, 0, 1)}.
 
@@ -706,6 +723,21 @@ end A150020.P16503519549495230020
 The programs for A150021, there is no canonical definition to state claims against.
 -/
 
+/-! ## A150021.P6409293756326373655
+
+`A398582(A303071(n))`
+-/
+
+namespace A150021.P6409293756326373655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398582 (A303071 n).toNat
+
+end
+
+end A150021.P6409293756326373655
+
 /-! ## A150021.P109790553298235586
 
 `A320536(A081914(n+1))`
@@ -720,21 +752,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A150021.P109790553298235586
-
-/-! ## A150021.P8599029408007956146
-
-`A008676(10*A114121(n))`
--/
-
-namespace A150021.P8599029408007956146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008676 (10 * A114121 n).toNat
-
-end
-
-end A150021.P8599029408007956146
 
 /-!
 # A150022: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 1, -1), (0, 1, 1), (1, -1, 0), (1, 0, 0)}.
@@ -922,6 +939,21 @@ end A150027.P3241721001747627470
 The programs for A150028, there is no canonical definition to state claims against.
 -/
 
+/-! ## A150028.P5800285281788851659
+
+`A383308(n²)+n`
+-/
+
+namespace A150028.P5800285281788851659
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383308 (n ^ 2) + (n : ℤ)
+
+end
+
+end A150028.P5800285281788851659
+
 /-! ## A150028.P8948564918811601380
 
 `A349151(A018093(n))`
@@ -936,21 +968,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A150028.P8948564918811601380
-
-/-! ## A150028.P2675595412737706708
-
-`A356940(A263002(n))`
--/
-
-namespace A150028.P2675595412737706708
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356940 (A263002 n).toNat
-
-end
-
-end A150028.P2675595412737706708
 
 /-!
 # A150029: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, 1, 1), (1, 0, 0), (1, 0, 1)}.
@@ -1282,21 +1299,6 @@ end
 
 end A150037.P14785857900023073114
 
-/-! ## A150037.P15120341994502037756
-
-`A135874(A150038(n))`
--/
-
-namespace A150037.P15120341994502037756
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135874 (A150038 n).toNat
-
-end
-
-end A150037.P15120341994502037756
-
 /-! ## A150037.P4659150228438662967
 
 `A150038(A171596(n))`
@@ -1311,6 +1313,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A150037.P4659150228438662967
+
+/-! ## A150037.P11841335432731120797
+
+`A150038(A004868(n+1))`
+-/
+
+namespace A150037.P11841335432731120797
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A150038 (A004868 (n + 1)).toNat
+
+end
+
+end A150037.P11841335432731120797
 
 /-!
 # A150038: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 1, -1), (0, 0, 1), (0, 1, 1), (1, 0, -1)}.
@@ -2698,20 +2715,20 @@ end A150072.P13074384319472912068
 The programs for A150073, there is no canonical definition to state claims against.
 -/
 
-/-! ## A150073.P2586023569301182884
+/-! ## A150073.P8336872258448842797
 
-`A348520(A052329(n+1))+A251708(2*n+4)`
+`A348520(A052329(n+1))+A251708(2*(n+2))`
 -/
 
-namespace A150073.P2586023569301182884
+namespace A150073.P8336872258448842797
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348520 (A052329 (n + 1)).toNat + A251708 (2 * n + 4)
+  A348520 (A052329 (n + 1)).toNat + A251708 (2 * (n + 2))
 
 end
 
-end A150073.P2586023569301182884
+end A150073.P8336872258448842797
 
 /-! ## A150073.P9826879204554579844
 

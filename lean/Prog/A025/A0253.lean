@@ -1,27 +1,33 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C040
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C048
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -34,14 +40,20 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
+import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -54,6 +66,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -61,7 +74,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A025300: Numbers that are the sum of 2 nonzero squares in 9 or more ways.
@@ -115,7 +127,7 @@ end A025301.P16951055666679057161
 /-!
 # A025302: Numbers that are the sum of 2 distinct nonzero squares in exactly 1 way.
 
-The programs for A025302, the canonical program `A025302.P9122936174072266987` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025302 has offset 1).
+The programs for A025302, the canonical program `A025302.P9122936174072266987` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025302 has offset 1).
 
 The definition of A025302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -124,7 +136,7 @@ The definition of A025302 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A230779(n+1), A232438(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A025302
@@ -923,7 +935,7 @@ end A025303
 /-!
 # A025304: Numbers that are the sum of 2 distinct nonzero squares in exactly 3 ways.
 
-The programs for A025304, the canonical program `A025304.P15644327718625747142` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025304 has offset 1).
+The programs for A025304, the canonical program `A025304.P15644327718625747142` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025304 has offset 1).
 
 The definition of A025304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1048,7 +1060,7 @@ end A025304
 
 `eq[6, A002654(A028310(n))]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A025304
@@ -1060,6 +1072,58 @@ def P15644327718625747142.Spec : Prop :=
 theorem P15644327718625747142.correct : P15644327718625747142.Spec := by
   intro n
   simp only [A025304, Nat.add_sub_cancel]
+
+end A025304
+
+/-! ## A025304.P2506677103805338435
+
+`filter[A164282(n+1), A353812(#)]`
+-/
+
+namespace A025304.P2506677103805338435
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164282 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353812 (f1 j).toNat = 1) n)
+
+end
+
+end A025304.P2506677103805338435
+
+namespace A025304
+
+/-- `filter[A164282(n+1), A353812(#)]` -/
+def P2506677103805338435.Spec : Prop :=
+  ∀ n, P2506677103805338435.a n = A025304 (n + 1)
+
+end A025304
+
+/-! ## A025304.P13703844087903083238
+
+`filter[A164282(n+1), A354032(#)]`
+-/
+
+namespace A025304.P13703844087903083238
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164282 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A354032 (f1 j).toNat = 1) n)
+
+end
+
+end A025304.P13703844087903083238
+
+namespace A025304
+
+/-- `filter[A164282(n+1), A354032(#)]` -/
+def P13703844087903083238.Spec : Prop :=
+  ∀ n, P13703844087903083238.a n = A025304 (n + 1)
 
 end A025304
 
@@ -8051,27 +8115,6 @@ end
 
 end A025374.P5111469706349408670
 
-/-! ## A025374.P15996919571743738137
-
-`lt[8, A002635(n)+-A000164(n)%A212461(n+1)]`
--/
-
-namespace A025374.P15996919571743738137
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002635 n + Int.tmod (-A000164 n) (A212461 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A025374.P15996919571743738137
-
 /-!
 # A025375: Numbers that are the sum of 4 nonzero squares in 10 or more ways.
 
@@ -10665,21 +10708,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A025397.P14311321725089425697
-
-/-! ## A025397.P13687931548184907110
-
-`A025398(gcd(A022293(n), A074200(n+1)))`
--/
-
-namespace A025397.P13687931548184907110
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025398 (Int.gcd (A022293 n) (A074200 (n + 1)))
-
-end
-
-end A025397.P13687931548184907110
 
 /-! ## A025397.P12476263153769964797
 

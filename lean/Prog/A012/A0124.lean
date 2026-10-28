@@ -3,28 +3,26 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C005
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B005.C000
@@ -36,16 +34,17 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A012401: Expansion of e.g.f.: sinh(arctan(x)*log(x+1))=2/2!*x^2-3/3!*x^3-10/5!*x^5+328/6!*x^6...
@@ -1574,31 +1573,27 @@ end A012490.P17239697333217254126
 /-!
 # A012493: Take every 5th term of Padovan sequence A000931, beginning with the fifth term.
 
-The programs for A012493, the canonical program `A012493.P17492376463677172932` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A012493 has offset 0).
+The programs for A012493, the canonical program `A012493.P7495610391333742434` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A012493 has offset 0).
 
-The definition of A012493 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A012493 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A012493.P7495610391333742434
 
 `ogf((2x-x^2)/(1-5x+4x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C002`.
 -/
-
-namespace A012493.P7495610391333742434
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 2, -1] [1, -5, 4, -1] n
-
-end
-
-end A012493.P7495610391333742434
 
 namespace A012493
 
 /-- `ogf((2x-x^2)/(1-5x+4x^2-x^3))` -/
 def P7495610391333742434.Spec : Prop :=
   ∀ n, P7495610391333742434.a n = A012493 n
+
+theorem P7495610391333742434.correct : P7495610391333742434.Spec := by
+  intro n
+  simp only [A012493]
 
 end A012493
 
@@ -1631,19 +1626,26 @@ end A012493
 /-! ## A012493.P17492376463677172932
 
 `Δ[A000931(5*n)]`
-
-The canonical program, it is in `Seq.B001.C000`.
 -/
+
+namespace A012493.P17492376463677172932
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000931 (5 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A012493.P17492376463677172932
 
 namespace A012493
 
 /-- `Δ[A000931(5*n)]` -/
 def P17492376463677172932.Spec : Prop :=
   ∀ n, P17492376463677172932.a n = A012493 n
-
-theorem P17492376463677172932.correct : P17492376463677172932.Spec := by
-  intro n
-  simp only [A012493]
 
 end A012493
 

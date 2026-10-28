@@ -4,7 +4,7 @@ import Seq.B001.C003
 import Seq.B011.C000
 import Seq.Opaque.C004
 import Seq.Opaque.C006
-import Seq.Opaque.C009
+import Seq.Opaque.C008
 
 /-!
 # A170300: 

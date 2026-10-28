@@ -7,60 +7,61 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C031
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A252100: Number of (n+2)X(3+2) 0..3 arrays with every 3X3 subblock row and column sum equal to 0 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum not equal to 0 3 4 6 or 7.
@@ -4507,6 +4508,36 @@ end
 
 end A252168.P16785185775373909748
 
+/-! ## A252168.P16456347248326961214
+
+`gcd(A137784(n+1), A276417(n))`
+-/
+
+namespace A252168.P16456347248326961214
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A137784 (n + 1)) (A276417 n)
+
+end
+
+end A252168.P16456347248326961214
+
+/-! ## A252168.P4727287626658970341
+
+`gcd(A107928(n+1), A276417(n))`
+-/
+
+namespace A252168.P4727287626658970341
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A107928 (n + 1)) (A276417 n)
+
+end
+
+end A252168.P4727287626658970341
+
 /-! ## A252168.P2904326271300779647
 
 `A276417(n)+A049084(A364546(2*n+3))`
@@ -4537,40 +4568,10 @@ end
 
 end A252168.P13402692826382408788
 
-/-! ## A252168.P16973030661536564972
-
-`A001511(A240690(2*(n+1))+A055587(2*(n+1)))`
--/
-
-namespace A252168.P16973030661536564972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001511 (A240690 (2 * (n + 1)) + A055587 (2 * (n + 1))).toNat
-
-end
-
-end A252168.P16973030661536564972
-
-/-! ## A252168.P14758102214891120754
-
-`A028920(A056449(n)-A276417(n))`
--/
-
-namespace A252168.P14758102214891120754
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028920 (A056449 n - A276417 n).toNat
-
-end
-
-end A252168.P14758102214891120754
-
 /-!
 # A252169: Beatty sequence for sqrt(Pi*phi) where phi is the golden ratio A001622.
 
-The programs for A252169, the canonical program `A252169.P14682295271147615884` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252169 has offset 1).
+The programs for A252169, the canonical program `A252169.P14682295271147615884` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252169 has offset 1).
 
 The definition of A252169 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4579,7 +4580,7 @@ The definition of A252169 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*sqrt(π*ϕ))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A252169
@@ -5369,16 +5370,39 @@ end A252176.P11639238040256218384
 /-!
 # A252178: Number of length 2+2 0..n arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A252178, the canonical program `A252178.P5229348059605843036` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252178 has offset 1).
+The programs for A252178, the canonical program `A252178.P5229348059605843036` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252178 has offset 1).
 
 The definition of A252178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252178.P6302645900030879334
+
+`ogf((12-11x+7x^2-5x^3+x^4)/(1-5x+10x^2-10x^3+5x^4-x^5))`
+-/
+
+namespace A252178.P6302645900030879334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [12, -11, 7, -5, 1] [1, -5, 10, -10, 5, -1] n
+
+end
+
+end A252178.P6302645900030879334
+
+namespace A252178
+
+/-- `ogf((12-11x+7x^2-5x^3+x^4)/(1-5x+10x^2-10x^3+5x^4-x^5))` -/
+def P6302645900030879334.Spec : Prop :=
+  ∀ n, P6302645900030879334.a n = A252178 (n + 1)
+
+end A252178
 
 /-! ## A252178.P5229348059605843036
 
 `(n+1)^4/6+7*(n+1)^3/3+29*(n+1)²/6+11*(n+1)/3+1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A252178
@@ -5418,8 +5442,29 @@ end A252178
 /-!
 # A252179: Number of length 3+2 0..n arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A252179, there is no canonical definition to state claims against.
+The programs for A252179, the canonical program `A252179.P11442488222726550840` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252179 has offset 1).
+
+The definition of A252179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252179.P11442488222726550840
+
+`ogf((12+47x+15x^2-9x^3-41x^4-13x^5+3x^6+3x^7-x^8)/(1-3x+8x^3-6x^4-6x^5+8x^6-3x^8+x^9))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A252179
+
+/-- `ogf((12+47x+15x^2-9x^3-41x^4-13x^5+3x^6+3x^7-x^8)/(1-3x+8x^3-6x^4-6x^5+8x^6-3x^8+x^9))` -/
+def P11442488222726550840.Spec : Prop :=
+  ∀ n, P11442488222726550840.a n = A252179 (n + 1)
+
+theorem P11442488222726550840.correct : P11442488222726550840.Spec := by
+  intro n
+  simp only [A252179, Nat.add_sub_cancel]
+
+end A252179
 
 /-! ## A252179.P15570741379834360938
 
@@ -5439,6 +5484,14 @@ end
 
 end A252179.P15570741379834360938
 
+namespace A252179
+
+/-- `A252177(∑[n+2]+4)` -/
+def P15570741379834360938.Spec : Prop :=
+  ∀ n, P15570741379834360938.a n = A252179 (n + 1)
+
+end A252179
+
 /-! ## A252179.P17034150319073181141
 
 `record[A252177(A152950(n+1))]`
@@ -5456,6 +5509,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252179.P17034150319073181141
+
+namespace A252179
+
+/-- `record[A252177(A152950(n+1))]` -/
+def P17034150319073181141.Spec : Prop :=
+  ∀ n, P17034150319073181141.a n = A252179 (n + 1)
+
+end A252179
 
 /-! ## A252179.P10380583900406505518
 
@@ -5475,6 +5536,14 @@ end
 
 end A252179.P10380583900406505518
 
+namespace A252179
+
+/-- `record[A252177(A000124(n)+2)]` -/
+def P10380583900406505518.Spec : Prop :=
+  ∀ n, P10380583900406505518.a n = A252179 (n + 1)
+
+end A252179
+
 /-! ## A252179.P12682880367265124004
 
 `record[A252177(A000217(n)+3)]`
@@ -5493,24 +5562,13 @@ end
 
 end A252179.P12682880367265124004
 
-/-! ## A252179.P16118366672983516220
+namespace A252179
 
-`A252177(A167614(n+1))+char[17]`
--/
+/-- `record[A252177(A000217(n)+3)]` -/
+def P12682880367265124004.Spec : Prop :=
+  ∀ n, P12682880367265124004.a n = A252179 (n + 1)
 
-namespace A252179.P16118366672983516220
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  17
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252177 (A167614 (n + 1)).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A252179.P16118366672983516220
+end A252179
 
 /-!
 # A252180: Number of length 4+2 0..n arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.

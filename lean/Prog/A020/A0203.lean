@@ -3,31 +3,31 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C031
-import Seq.B000.C037
-import Seq.B000.C040
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -42,7 +42,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -55,13 +55,15 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1188,7 +1190,7 @@ end A020332
 /-!
 # A020333: Numbers whose base-5 representation is the juxtaposition of two identical strings.
 
-The programs for A020333, the canonical program `A020333.P8708679268539003984` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020333 has offset 1).
+The programs for A020333, the canonical program `A020333.P8708679268539003984` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020333 has offset 1).
 
 The definition of A020333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3276 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1197,7 +1199,7 @@ The definition of A020333 is `conjectured`: the Lean definition is a formula tha
 
 `(∑[A092509(5*(n+1))]+1)*(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A020333
@@ -1342,6 +1344,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020334.P15489188358386912402
+
+/-! ## A020334.P3422605262019116784
+
+`(n+1)*A197297(A401051(A034386(n)))`
+-/
+
+namespace A020334.P3422605262019116784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A197297 (A401051 (A034386 n).toNat).toNat
+
+end
+
+end A020334.P3422605262019116784
 
 /-!
 # A020335: Numbers whose base-7 representation is the juxtaposition of two identical strings.
@@ -2201,6 +2218,29 @@ namespace A020346
 /-- `5^(n+1)/3-32*8^n/3+10^(n+1)` -/
 def P12811642035565518265.Spec : Prop :=
   ∀ n, P12811642035565518265.a n = (A020346 n : ℚ)
+
+end A020346
+
+/-! ## A020346.P10575468075132360387
+
+`18*a(n-1)-80*a(n-2)+5^n` with `a(0)=1, a(1)=23`
+-/
+
+namespace A020346.P10575468075132360387
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 23] fun n a =>
+  18 * a (n - 1) - 80 * a (n - 2) + (5 ^ n : ℤ)
+
+end
+
+end A020346.P10575468075132360387
+
+namespace A020346
+
+/-- `18*a(n-1)-80*a(n-2)+5^n` -/
+def P10575468075132360387.Spec : Prop :=
+  ∀ n, P10575468075132360387.a n = A020346 n
 
 end A020346
 

@@ -14,34 +14,34 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -66,6 +66,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +93,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A194301: Triangular array: g(n,k)=number of fractional parts (i*sqrt(5)) in interval [(k-1)/n, k/n], for 1<=i<=n, 1<=k<=n.
@@ -3905,8 +3906,25 @@ end A194345.P16788909895496726843
 /-!
 # A194349: E.g.f.: -log( sqrt(1-x^2) - x ).
 
-The programs for A194349, there is no canonical definition to state claims against.
+The programs for A194349, the canonical program `A194349.P10534286862702129531` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194349 has offset 1).
+
+The definition of A194349 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A194349.P10534286862702129531
+
+`n!/2^(n+1)*∑{#}[floor((n+2)/2), C(n+2, #)*A000129(n+2-2*#)]`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A194349
+
+/-- `n!/2^(n+1)*∑{#}[floor((n+2)/2), C(n+2, #)*A000129(n+2-2*#)]` -/
+def P10534286862702129531.Spec : Prop :=
+  ∀ n, P10534286862702129531.a n = (A194349 (n + 1) : ℚ)
+
+end A194349
 
 /-! ## A194349.P10770945776453404624
 
@@ -3923,25 +3941,18 @@ end
 
 end A194349.P10770945776453404624
 
-/-! ## A194349.P15883880792448186984
+namespace A194349
 
-`A277211(n)-A059841(A007017(n))`
--/
+/-- `A100097(n+2)*n!/2^(n+1)` -/
+def P10770945776453404624.Spec : Prop :=
+  ∀ n, P10770945776453404624.a n = (A194349 (n + 1) : ℚ)
 
-namespace A194349.P15883880792448186984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277211 n - A059841 (A007017 n).toNat
-
-end
-
-end A194349.P15883880792448186984
+end A194349
 
 /-!
 # A194350: Numbers covering A000027: a(n) = (1, 1, 2, 5) * A011557(n).
 
-The programs for A194350, the canonical program `A194350.P8431382199481923968` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194350 has offset 1).
+The programs for A194350, the canonical program `A194350.P8431382199481923968` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194350 has offset 1).
 
 The definition of A194350 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3950,7 +3961,7 @@ The definition of A194350 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A194350
@@ -3962,6 +3973,29 @@ def P8431382199481923968.Spec : Prop :=
 theorem P8431382199481923968.correct : P8431382199481923968.Spec := by
   intro n
   simp only [A194350, Nat.add_sub_cancel]
+
+end A194350
+
+/-! ## A194350.P7322188631254265911
+
+`ogf((1+x+2x^2+5x^3)/(1-10x^4))`
+-/
+
+namespace A194350.P7322188631254265911
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 2, 5] [1, 0, 0, 0, -10] n
+
+end
+
+end A194350.P7322188631254265911
+
+namespace A194350
+
+/-- `ogf((1+x+2x^2+5x^3)/(1-10x^4))` -/
+def P7322188631254265911.Spec : Prop :=
+  ∀ n, P7322188631254265911.a n = A194350 (n + 1)
 
 end A194350
 
@@ -6583,27 +6617,6 @@ end
 
 end A194375.P6033686481107850344
 
-/-! ## A194375.P2047427757933285494
-
-`lt[A089120(A392697(n+4)), A392735(n+1)]`
--/
-
-namespace A194375.P2047427757933285494
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089120 (A392697 (n + 4)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392735 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A194375.P2047427757933285494
-
 /-! ## A194375.P4940486768658686626
 
 `lt[log2(A173305(n)), A379308(n)]`
@@ -6675,25 +6688,6 @@ The programs for A194376, the canonical program `A194376.P8742211185253626047` i
 The definition of A194376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A194376.P8742211185253626047
-
-`record[gcd(2*(n+1), A327255(n+1))]`
-
-The canonical program, it is in `Seq.B002.C004`.
--/
-
-namespace A194376
-
-/-- `record[gcd(2*(n+1), A327255(n+1))]` -/
-def P8742211185253626047.Spec : Prop :=
-  ∀ n, (P8742211185253626047.a n : ℤ) = A194376 (n + 1)
-
-theorem P8742211185253626047.correct : P8742211185253626047.Spec := by
-  intro n
-  simp only [A194376, Nat.add_sub_cancel]
-
-end A194376
-
 /-! ## A194376.P11285787354952005076
 
 `record[(2*(n+1))%A327254(n+2)]`
@@ -6717,6 +6711,25 @@ namespace A194376
 /-- `record[(2*(n+1))%A327254(n+2)]` -/
 def P11285787354952005076.Spec : Prop :=
   ∀ n, P11285787354952005076.a n = A194376 (n + 1)
+
+end A194376
+
+/-! ## A194376.P8742211185253626047
+
+`record[gcd(2*(n+1), A327255(n+1))]`
+
+The canonical program, it is in `Seq.B002.C004`.
+-/
+
+namespace A194376
+
+/-- `record[gcd(2*(n+1), A327255(n+1))]` -/
+def P8742211185253626047.Spec : Prop :=
+  ∀ n, (P8742211185253626047.a n : ℤ) = A194376 (n + 1)
+
+theorem P8742211185253626047.correct : P8742211185253626047.Spec := by
+  intro n
+  simp only [A194376, Nat.add_sub_cancel]
 
 end A194376
 
@@ -7421,19 +7434,19 @@ end
 
 end A194384.P3349061274661593764
 
-/-! ## A194384.P6731717000517141832
+/-! ## A194384.P1188683487840406590
 
-`∩[A190337(n+1), A300957(n+1)]`
+`∩[A190337(n+1), A399397(n+1)]`
 -/
 
-namespace A194384.P6731717000517141832
+namespace A194384.P1188683487840406590
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A190337 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300957 (n + 1)
+  A399397 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7441,25 +7454,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A194384.P6731717000517141832
-
-/-! ## A194384.P5660649712891105862
-
-`∑[A086522(A331899(n+1))]+n`
--/
-
-namespace A194384.P5660649712891105862
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086522 (A331899 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + (n : ℤ)
-
-end
-
-end A194384.P5660649712891105862
+end A194384.P1188683487840406590
 
 /-!
 # A194385: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(10) and < > denotes fractional part.

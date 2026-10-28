@@ -12,24 +12,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -38,14 +44,13 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -55,16 +60,16 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +95,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A015700: Inverse of 1691st cyclotomic polynomial.
@@ -906,27 +910,6 @@ end
 end A015709.P3338635168880005962
 
 /-!
-# A015710: Least k >= 0 such that phi(n) * sigma(n) + k^2 is a perfect square, or -1 if impossible.
-
-The programs for A015710, there is no canonical definition to state claims against.
--/
-
-/-! ## A015710.P9372614501007903536
-
-`A329644(n+1)-A340655(A328588(2*(n+2)))`
--/
-
-namespace A015710.P9372614501007903536
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329644 (n + 1) - A340655 (A328588 (2 * (n + 2))).toNat
-
-end
-
-end A015710.P9372614501007903536
-
-/-!
 # A015711: Inverse of 1702nd cyclotomic polynomial.
 
 The programs for A015711, there is no canonical definition to state claims against.
@@ -1494,19 +1477,19 @@ end
 
 end A015713.P17992533471304453643
 
-/-! ## A015713.P14562696477015856691
+/-! ## A015713.P6135516806293514349
 
-`∩[A066499(n+1), A371013(n+1)]`
+`∩[A066499(n+1), A320137(n+1)]`
 -/
 
-namespace A015713.P14562696477015856691
+namespace A015713.P6135516806293514349
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A066499 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371013 (n + 1)
+  A320137 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1514,7 +1497,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A015713.P14562696477015856691
+end A015713.P6135516806293514349
 
 /-!
 # A015714: Inverse of 1705th cyclotomic polynomial.
@@ -1801,24 +1784,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A015716.P2073786003795751131
-
-/-! ## A015716.P6170925520266787916
-
-`A238450(n+1)+Δ[A004197(n)]^A296548(n)`
--/
-
-namespace A015716.P6170925520266787916
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004197 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A238450 (n + 1) : ℚ) + (f1 (n + 1) - f1 n : ℚ) ^ (A296548 n : ℤ)
-
-end
-
-end A015716.P6170925520266787916
 
 /-!
 # A015717: Inverse of 1708th cyclotomic polynomial.
@@ -2236,6 +2201,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015723.P15659918238099366623
+
+/-! ## A015723.P2646433427457050871
+
+`∑{#}[n, A048272(#+1)*A000009(n+1-(#+1))]`
+-/
+
+namespace A015723.P2646433427457050871
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A048272 (k + 1) * A000009 (n + 1 - (k + 1))
+
+end
+
+end A015723.P2646433427457050871
 
 /-! ## A015723.P8389457095810300032
 
@@ -3319,49 +3302,41 @@ end
 
 end A015730.P981626249983975132
 
-/-! ## A015730.P2311932142680657225
+/-! ## A015730.P6383919615378833268
 
-`∩[A337343(n+1), A345167(n+1)]`
+`filter[A353694(n+1), A379111(#)]`
 -/
 
-namespace A015730.P2311932142680657225
+namespace A015730.P6383919615378833268
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337343 (n + 1)
+  A353694 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379111 (f1 j).toNat = 1) n)
 
 end
 
-end A015730.P2311932142680657225
+end A015730.P6383919615378833268
 
-/-! ## A015730.P8000706048159999822
+/-! ## A015730.P1544041440619970126
 
-`∩[A345167(n+1), A379112(n+1)]`
+`filter[A346151(n), A379111(#)]`
 -/
 
-namespace A015730.P8000706048159999822
+namespace A015730.P1544041440619970126
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (n + 1)
+  A346151 n
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379112 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379111 (f1 j).toNat = 1) n)
 
 end
 
-end A015730.P8000706048159999822
+end A015730.P1544041440619970126
 
 /-!
 # A015731: Inverse of 1722nd cyclotomic polynomial.
@@ -3447,7 +3422,7 @@ end A015731.P3678944355092673749
 /-!
 # A015732: Even numbers k such that d(k) | phi(k).
 
-The programs for A015732, the canonical program `A015732.P9248841914472335492` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015732 has offset 1).
+The programs for A015732, the canonical program `A015732.P9248841914472335492` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015732 has offset 1).
 
 The definition of A015732 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4688 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3543,7 +3518,7 @@ end A015732
 
 `∩[2*n, A069237(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A015732
@@ -4041,7 +4016,7 @@ end A015732
 /-!
 # A015733: Numbers k such that d(k) does not divide phi(k).
 
-The programs for A015733, the canonical program `A015733.P12502680278738575132` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015733 has offset 1).
+The programs for A015733, the canonical program `A015733.P12502680278738575132` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015733 has offset 1).
 
 The definition of A015733 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2077 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4079,7 +4054,7 @@ end A015733
 
 `1+eq[0, A286627(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A015733
@@ -4308,7 +4283,7 @@ end A015733
 /-!
 # A015734: Odd numbers k such that d(k) does not divide phi(k).
 
-The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
+The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
 
 The definition of A015734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1837 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4377,7 +4352,7 @@ end A015734
 
 `A015733(eq[1, A015733(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A015734
@@ -4389,6 +4364,32 @@ def P13178663633944902549.Spec : Prop :=
 theorem P13178663633944902549.correct : P13178663633944902549.Spec := by
   intro n
   simp only [A015734, Nat.add_sub_cancel]
+
+end A015734
+
+/-! ## A015734.P10878900831847883706
+
+`filter[A015733(n+1), A353569(#)]`
+-/
+
+namespace A015734.P10878900831847883706
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015733 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353569 (f1 j).toNat = 1) n)
+
+end
+
+end A015734.P10878900831847883706
+
+namespace A015734
+
+/-- `filter[A015733(n+1), A353569(#)]` -/
+def P10878900831847883706.Spec : Prop :=
+  ∀ n, P10878900831847883706.a n = A015734 (n + 1)
 
 end A015734
 
@@ -4833,39 +4834,36 @@ def P7895833306023317879.Spec : Prop :=
 
 end A015734
 
-/-! ## A015734.P12587940092915160333
+/-! ## A015734.P2972175723965557225
 
-`eq[A286627(n+1), A319998(n+1)]+1`
+`filter[A015733(n+1), A266070(#)]`
 -/
 
-namespace A015734.P12587940092915160333
+namespace A015734.P2972175723965557225
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286627 (n + 1)
+  A015733 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319998 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266070 (f1 j).toNat = 1) n)
 
 end
 
-end A015734.P12587940092915160333
+end A015734.P2972175723965557225
 
 namespace A015734
 
-/-- `eq[A286627(n+1), A319998(n+1)]+1` -/
-def P12587940092915160333.Spec : Prop :=
-  ∀ n, (P12587940092915160333.a n : ℤ) = A015734 (n + 1)
+/-- `filter[A015733(n+1), A266070(#)]` -/
+def P2972175723965557225.Spec : Prop :=
+  ∀ n, P2972175723965557225.a n = A015734 (n + 1)
 
 end A015734
 
 /-!
 # A015735: Row sums of triangle A004747.
 
-The programs for A015735, the canonical program `A015735.P12224051859578603978` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015735 has offset 1).
+The programs for A015735, the canonical program `A015735.P12224051859578603978` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015735 has offset 1).
 
 The definition of A015735 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4874,7 +4872,7 @@ The definition of A015735 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*(n-1)*a(n-1)-(3*(n+1)-8)*(3*(n+1)-7)*a(n-2)+a(n-3)` with `a(0)=1, a(1)=3, a(2)=17`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A015735
@@ -6589,6 +6587,21 @@ end
 
 end A015749.P1609692205650716269
 
+/-! ## A015749.P4256562400952897328
+
+`A015869(n)^(n+1)^n`
+-/
+
+namespace A015749.P4256562400952897328
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015869 n ^ (n + 1) ^ n
+
+end
+
+end A015749.P4256562400952897328
+
 /-! ## A015749.P4628423761631199271
 
 `A016229(n)^(n+1)^n`
@@ -6603,36 +6616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015749.P4628423761631199271
-
-/-! ## A015749.P5768719972614675793
-
-`A015869(n)^A367221(n+4)`
--/
-
-namespace A015749.P5768719972614675793
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A015869 n : ℚ) ^ (A367221 (n + 4) : ℤ)
-
-end
-
-end A015749.P5768719972614675793
-
-/-! ## A015749.P13136147360196509998
-
-`A015869(n)^A210324(A002024(3*n+4))`
--/
-
-namespace A015749.P13136147360196509998
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A015869 n : ℚ) ^ (A210324 (A002024 (3 * n + 4)).toNat : ℤ)
-
-end
-
-end A015749.P13136147360196509998
 
 /-! ## A015749.P11806747549297894306
 
@@ -8076,6 +8059,21 @@ end
 
 end A015760.P5556775522221911774
 
+/-! ## A015760.P5791762492030088058
+
+`A010076(C(2, A373069(n+1)))`
+-/
+
+namespace A015760.P5791762492030088058
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010076 (Nat.choose 2 (A373069 (n + 1)).toNat)
+
+end
+
+end A015760.P5791762492030088058
+
 /-! ## A015760.P18137156642957007576
 
 `C(A054977(n+1), ∑[A015161(n)])`
@@ -9141,21 +9139,6 @@ end A015778.P13596831619928941428
 
 The programs for A015779, there is no canonical definition to state claims against.
 -/
-
-/-! ## A015779.P482304925002834143
-
-`A015839(n)^A324695(n+1)`
--/
-
-namespace A015779.P482304925002834143
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A015839 n : ℚ) ^ (A324695 (n + 1) : ℤ)
-
-end
-
-end A015779.P482304925002834143
 
 /-! ## A015779.P18247327359475071246
 

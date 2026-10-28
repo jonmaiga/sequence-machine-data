@@ -6,31 +6,33 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C016
+import Seq.B000.C012
+import Seq.B000.C013
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
@@ -50,8 +52,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -64,7 +66,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A004802: Numbers that are the sum of 2 nonzero 10th powers.
@@ -5512,6 +5513,28 @@ end
 
 end A004853.P15596749367986485358
 
+/-! ## A004853.P13677364098605390902
+
+`∪[A003358(n+1), A000578(n²)]`
+-/
+
+namespace A004853.P13677364098605390902
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000578 (n ^ 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A004853.P13677364098605390902
+
 /-! ## A004853.P2401791905170678965
 
 `∩[A004854(n+1)-1, A004854(n+1)]`
@@ -5642,21 +5665,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004853.P15405913084272764561
-
-/-! ## A004853.P11066481158788463369
-
-`A055015(A329447(n))+A007949(A040984(n+1))`
--/
-
-namespace A004853.P11066481158788463369
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055015 (A329447 n).toNat + A007949 (A040984 (n + 1)).toNat
-
-end
-
-end A004853.P11066481158788463369
 
 /-!
 # A004854: Numbers that are the sum of at most 3 nonzero 6th powers.
@@ -7746,6 +7754,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004870.P6246741780346993364
+
+/-! ## A004870.P8792683997392086594
+
+`A333223(A024661(n+1))`
+-/
+
+namespace A004870.P8792683997392086594
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333223 (A024661 (n + 1)).toNat
+
+end
+
+end A004870.P8792683997392086594
 
 /-!
 # A004871: Numbers that are the sum of at most 9 positive 7th powers.

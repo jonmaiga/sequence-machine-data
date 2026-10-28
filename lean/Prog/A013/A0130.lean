@@ -1,14 +1,15 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C002
+import Seq.B000.C007
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C011
+import Seq.B000.C013
+import Seq.B000.C015
+import Seq.B000.C019
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B002.C000
@@ -21,15 +22,15 @@ import Seq.Opaque.C000
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 
 /-!
 # A013001: cos(arctan(x)+tan(x))=1-4/2!*x^2+16/4!*x^4-544/6!*x^6+25344/8!*x^8...

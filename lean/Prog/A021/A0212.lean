@@ -6,13 +6,13 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B001.C000
 import Seq.B001.C007
 import Seq.Opaque.C001
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 
 /-!
 # A021202: Expansion of 1/((1-x)(1-2x)(1-6x)(1-10x)).
@@ -2156,6 +2156,60 @@ def P13325285442844934654.Spec : Prop :=
 end A021268
 
 /-!
+# A021269: Decimal expansion of 1/265.
+
+The programs for A021269, the canonical program `A021269.P3737158085322512315` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021269 has offset 0).
+
+The definition of A021269 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A021269.P3737158085322512315
+
+`ogf((3x^2+7x^3+7x^4+3x^5+5x^6+8x^7+4x^8+9x^9+5x^11+6x^12+6x^13)/(1-x^13))`
+
+The canonical program, it is in `Seq.B000.C004`.
+-/
+
+namespace A021269
+
+/-- `ogf((3x^2+7x^3+7x^4+3x^5+5x^6+8x^7+4x^8+9x^9+5x^11+6x^12+6x^13)/(1-x^13))` -/
+def P3737158085322512315.Spec : Prop :=
+  ∀ n, P3737158085322512315.a n = A021269 n
+
+theorem P3737158085322512315.correct : P3737158085322512315.Spec := by
+  intro n
+  simp only [A021269]
+
+end A021269
+
+/-!
+# A021270: Decimal expansion of 1/266.
+
+The programs for A021270, the canonical program `A021270.P17359872750321190541` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021270 has offset 0).
+
+The definition of A021270 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A021270.P17359872750321190541
+
+`ogf((3x^2+4x^3-2x^4+4x^5-6x^6+6x^7-x^8-4x^9+5x^10)/(1-x+x^9-x^10))`
+
+The canonical program, it is in `Seq.B000.C004`.
+-/
+
+namespace A021270
+
+/-- `ogf((3x^2+4x^3-2x^4+4x^5-6x^6+6x^7-x^8-4x^9+5x^10)/(1-x+x^9-x^10))` -/
+def P17359872750321190541.Spec : Prop :=
+  ∀ n, P17359872750321190541.a n = A021270 n
+
+theorem P17359872750321190541.correct : P17359872750321190541.Spec := by
+  intro n
+  simp only [A021270]
+
+end A021270
+
+/-!
 # A021274: Expansion of g.f. 1/((1 - x)*(1 - 2*x)*(1 - 8*x)*(1 - 11*x)).
 
 The programs for A021274, there is no canonical definition to state claims against.
@@ -2319,6 +2373,33 @@ theorem P14660464025190811463.correct : P14660464025190811463.Spec := by
   simp only [A021275]
 
 end A021275
+
+/-!
+# A021276: Decimal expansion of 1/272.
+
+The programs for A021276, the canonical program `A021276.P7473866945350936603` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021276 has offset 0).
+
+The definition of A021276 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A021276.P7473866945350936603
+
+`ogf((3x^2+3x^3+x^4-x^5-2x^6+3x^7-7x^8+5x^9+6x^10+3x^11-5x^12)/(1-x+x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C004`.
+-/
+
+namespace A021276
+
+/-- `ogf((3x^2+3x^3+x^4-x^5-2x^6+3x^7-7x^8+5x^9+6x^10+3x^11-5x^12)/(1-x+x^8-x^9))` -/
+def P7473866945350936603.Spec : Prop :=
+  ∀ n, P7473866945350936603.a n = A021276 n
+
+theorem P7473866945350936603.correct : P7473866945350936603.Spec := by
+  intro n
+  simp only [A021276]
+
+end A021276
 
 /-!
 # A021277: Decimal expansion of 1/273.

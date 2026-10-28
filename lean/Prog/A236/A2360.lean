@@ -9,23 +9,23 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,24 +33,22 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -68,8 +66,9 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -941,8 +940,29 @@ end A236010.P1007795718398683787
 /-!
 # A236011: Number of (n+1) X (1+1) 0..2 arrays colored with the sum of the maximum and minimum values of each 2 X 2 subblock.
 
-The programs for A236011, there is no canonical definition to state claims against.
+The programs for A236011, the canonical program `A236011.P10256934506238513382` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236011 has offset 1).
+
+The definition of A236011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A236011.P10256934506238513382
+
+`ogf((81+306x+547x^2+784x^3+586x^4+300x^5+64x^6)/(1-9x^2-14x^3-30x^4-16x^5-8x^6))`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A236011
+
+/-- `ogf((81+306x+547x^2+784x^3+586x^4+300x^5+64x^6)/(1-9x^2-14x^3-30x^4-16x^5-8x^6))` -/
+def P10256934506238513382.Spec : Prop :=
+  ∀ n, P10256934506238513382.a n = A236011 (n + 1)
+
+theorem P10256934506238513382.correct : P10256934506238513382.Spec := by
+  intro n
+  simp only [A236011, Nat.add_sub_cancel]
+
+end A236011
 
 /-! ## A236011.P1992212802757378580
 
@@ -962,6 +982,14 @@ end
 
 end A236011.P1992212802757378580
 
+namespace A236011
+
+/-- `A236018(∑[n]+1)` -/
+def P1992212802757378580.Spec : Prop :=
+  ∀ n, P1992212802757378580.a n = A236011 (n + 1)
+
+end A236011
+
 /-! ## A236011.P8301364844124143856
 
 `record[A236018(n+1)]`
@@ -980,6 +1008,14 @@ end
 
 end A236011.P8301364844124143856
 
+namespace A236011
+
+/-- `record[A236018(n+1)]` -/
+def P8301364844124143856.Spec : Prop :=
+  ∀ n, P8301364844124143856.a n = A236011 (n + 1)
+
+end A236011
+
 /-! ## A236011.P10624247486211331269
 
 `lcm(A000034(n), A236018(A000124(n)))`
@@ -994,6 +1030,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A236011.P10624247486211331269
+
+namespace A236011
+
+/-- `lcm(A000034(n), A236018(A000124(n)))` -/
+def P10624247486211331269.Spec : Prop :=
+  ∀ n, (P10624247486211331269.a n : ℤ) = A236011 (n + 1)
+
+end A236011
 
 /-! ## A236011.P15374505048274858090
 
@@ -1010,20 +1054,13 @@ end
 
 end A236011.P15374505048274858090
 
-/-! ## A236011.P18128384452688525902
+namespace A236011
 
-`A236018(A000124(n))+A000007(n+1)`
--/
+/-- `or(A000007(n), A236018(A000124(n)))` -/
+def P15374505048274858090.Spec : Prop :=
+  ∀ n, P15374505048274858090.a n = A236011 (n + 1)
 
-namespace A236011.P18128384452688525902
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236018 (A000124 n).toNat + A000007 (n + 1)
-
-end
-
-end A236011.P18128384452688525902
+end A236011
 
 /-!
 # A236012: Number of (n+1)X(2+1) 0..2 arrays colored with the sum of the maximum and minimum values of each 2X2 subblock.
@@ -1705,20 +1742,27 @@ end
 
 end A236021.P16798793345361785822
 
-/-! ## A236021.P16001252384564646737
+/-! ## A236021.P4782044417769684682
 
-`A094348(A138302(n+1)%A335557(2*n+1))`
+`∩[A032769(n+1), A094348(n+1)]`
 -/
 
-namespace A236021.P16001252384564646737
+namespace A236021.P4782044417769684682
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094348 (Int.tmod (A138302 (n + 1)) (A335557 (2 * n + 1))).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032769 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A236021.P16001252384564646737
+end A236021.P4782044417769684682
 
 /-!
 # A236024: Record values in A236022.
@@ -2862,7 +2906,7 @@ end A236042.P10152302415115823622
 /-!
 # A236043: Number of triangular numbers <= 10^n.
 
-The programs for A236043, the canonical program `A236043.P13256490886630527600` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236043 has offset 0).
+The programs for A236043, the canonical program `A236043.P13256490886630527600` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236043 has offset 0).
 
 The definition of A236043 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2871,7 +2915,7 @@ The definition of A236043 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(2*10^n+1)+1/2)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A236043
@@ -3644,8 +3688,29 @@ end A236047.P9563104782981676875
 /-!
 # A236048: Number of (n+1) X (1+1) 0..2 arrays colored with the difference of the maximum and minimum in each 2 X 2 subblock.
 
-The programs for A236048, there is no canonical definition to state claims against.
+The programs for A236048, the canonical program `A236048.P15547855403334354202` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236048 has offset 1).
+
+The definition of A236048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 179 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A236048.P15547855403334354202
+
+`ogf((81+292x+383x^2+808x^3+596x^4+560x^5+176x^6+64x^7)/(1-9x^2-4x^3-24x^4-12x^5-8x^6))`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A236048
+
+/-- `ogf((81+292x+383x^2+808x^3+596x^4+560x^5+176x^6+64x^7)/(1-9x^2-4x^3-24x^4-12x^5-8x^6))` -/
+def P15547855403334354202.Spec : Prop :=
+  ∀ n, P15547855403334354202.a n = A236048 (n + 1)
+
+theorem P15547855403334354202.correct : P15547855403334354202.Spec := by
+  intro n
+  simp only [A236048, Nat.add_sub_cancel]
+
+end A236048
 
 /-! ## A236048.P16710151604241240108
 
@@ -3665,6 +3730,14 @@ end
 
 end A236048.P16710151604241240108
 
+namespace A236048
+
+/-- `A236055(∑[n]+1)` -/
+def P16710151604241240108.Spec : Prop :=
+  ∀ n, P16710151604241240108.a n = A236048 (n + 1)
+
+end A236048
+
 /-! ## A236048.P7853230074056644136
 
 `record[A236055(n+1)]`
@@ -3683,6 +3756,14 @@ end
 
 end A236048.P7853230074056644136
 
+namespace A236048
+
+/-- `record[A236055(n+1)]` -/
+def P7853230074056644136.Spec : Prop :=
+  ∀ n, P7853230074056644136.a n = A236048 (n + 1)
+
+end A236048
+
 /-! ## A236048.P5669611084022558780
 
 `or(2, A236055(A000124(n)))-2`
@@ -3697,6 +3778,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236048.P5669611084022558780
+
+namespace A236048
+
+/-- `or(2, A236055(A000124(n)))-2` -/
+def P5669611084022558780.Spec : Prop :=
+  ∀ n, P5669611084022558780.a n = A236048 (n + 1)
+
+end A236048
 
 /-! ## A236048.P8961418859127998291
 
@@ -3713,20 +3802,13 @@ end
 
 end A236048.P8961418859127998291
 
-/-! ## A236048.P17947171364273256054
+namespace A236048
 
-`A236055(A000124(n))+A000007(n+1)`
--/
+/-- `or(A000007(n), A236055(A000124(n)))` -/
+def P8961418859127998291.Spec : Prop :=
+  ∀ n, P8961418859127998291.a n = A236048 (n + 1)
 
-namespace A236048.P17947171364273256054
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236055 (A000124 n).toNat + A000007 (n + 1)
-
-end
-
-end A236048.P17947171364273256054
+end A236048
 
 /-!
 # A236049: Number of (n+1) X (2+1) 0..2 arrays colored with the difference of the maximum and minimum in each 2 X 2 subblock.

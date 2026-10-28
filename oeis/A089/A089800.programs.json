@@ -290,18 +290,18 @@
       ]
     },
     {
-      "d": "2025-04-13",
-      "ix": "floor(tan(sinh(char[∑[2*n]])))",
+      "d": "2026-10-26",
+      "ix": "ceil(acos(char[comp[∑[2*n]]]))",
       "mt": 10000,
       "px": [
         "2",
         "n",
         "*",
         "∑",
+        "comp",
         "char",
-        "sinh",
-        "tan",
-        "floor"
+        "acos",
+        "ceil"
       ]
     }
   ]

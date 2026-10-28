@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -27,7 +26,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -36,10 +34,16 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
@@ -55,22 +59,22 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,11 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A047100: Array T read by diagonals: T(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and touches the line y=x/3 only at lattice points.
@@ -1395,36 +1394,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047111.P1830864519167675539
-
-/-! ## A047111.P10308397638582235588
-
-`A345167(A000045(n+2))+A321649(2*n+5)`
--/
-
-namespace A047111.P10308397638582235588
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (A000045 (n + 2)).toNat + A321649 (2 * n + 5)
-
-end
-
-end A047111.P10308397638582235588
-
-/-! ## A047111.P14859999767559416707
-
-`A345167(A000045(n+2))+A048996(A189186(n+3))`
--/
-
-namespace A047111.P14859999767559416707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (A000045 (n + 2)).toNat + A048996 (A189186 (n + 3)).toNat
-
-end
-
-end A047111.P14859999767559416707
 
 /-!
 # A047112: T(n,n), array T as in A047110.
@@ -8009,6 +7978,21 @@ end
 
 end A047166.P11121085115951796910
 
+/-! ## A047166.P8392134496953494069
+
+`A108377(A153234(n))`
+-/
+
+namespace A047166.P8392134496953494069
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108377 (A153234 n).toNat
+
+end
+
+end A047166.P8392134496953494069
+
 /-!
 # A047167: Number of nonempty subsets of {1,2,...,n} in which exactly 3/5 of the elements are <= n/2.
 
@@ -8375,12 +8359,6 @@ namespace A047171
 def P9900322074066477380.Spec : Prop :=
   ∀ n, P9900322074066477380.a n = A047171 n
 
-theorem P9900322074066477380.correct : P9900322074066477380.Spec := by
-  intro n
-  simp only [A047171, Nat.add_sub_cancel, A047171.P9900322074066477380.a, A047171.P3617621157085985974.a, A037952, A037952.P12527518621144432041.f1, A037952.P12527518621144432041.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A000007, A000007.P6599383543502402472.a, A191529, A191529.P15028808747650929508.f2, A191529.P15028808747650929508.f1, A191529.P15028808747650929508.a, A001405, A001405.P5205018418992951678.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A047171
 
 /-! ## A047171.P5407445092204136364
@@ -8472,12 +8450,6 @@ namespace A047171
 /-- `A037952(n)-(1-A000007(n))` -/
 def P10499336968032722.Spec : Prop :=
   ∀ n, P10499336968032722.a n = A047171 n
-
-theorem P10499336968032722.correct : P10499336968032722.Spec := by
-  intro n
-  simp only [A047171, Nat.add_sub_cancel, A047171.P10499336968032722.a, A047171.P3617621157085985974.a, A000007, A000007.P6599383543502402472.a, A037952, A037952.P12527518621144432041.f1, A037952.P12527518621144432041.a, A057428, A057428.P2999489532230392221.a, A057427, A057427.P3058147525557661423.a, A191529, A191529.P15028808747650929508.f2, A191529.P15028808747650929508.f1, A191529.P15028808747650929508.a, A001405, A001405.P5205018418992951678.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A047171
 
@@ -8809,6 +8781,32 @@ namespace A047171
 /-- `A014495(n+1)-(A057427(n)+A014495(n))` -/
 def P5349188621032224058.Spec : Prop :=
   ∀ n, P5349188621032224058.a n = A047171 n
+
+end A047171
+
+/-! ## A047171.P4538898721943108096
+
+`C(n, floor(∑[n]/(n+2)))-1`
+-/
+
+namespace A047171.P4538898721943108096
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n ⌊((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ) / (n + 2 : ℚ)⌋.toNat : ℤ) - 1
+
+end
+
+end A047171.P4538898721943108096
+
+namespace A047171
+
+/-- `C(n, floor(∑[n]/(n+2)))-1` -/
+def P4538898721943108096.Spec : Prop :=
+  ∀ n, P4538898721943108096.a n = A047171 n
 
 end A047171
 
@@ -9241,26 +9239,26 @@ end
 
 end A047177.P10615592150014807169
 
+/-! ## A047177.P9971347588489534130
+
+`A048077(A032555(n+1))`
+-/
+
+namespace A047177.P9971347588489534130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048077 (A032555 (n + 1)).toNat
+
+end
+
+end A047177.P9971347588489534130
+
 /-!
 # A047178: Number of nonempty subsets of {1,2,...,n} in which exactly 3/5 of the elements are <= (n-1)/2.
 
 The programs for A047178, there is no canonical definition to state claims against.
 -/
-
-/-! ## A047178.P17896661415967231962
-
-`A330299(n)+A330300(n)%A330308(n+1)`
--/
-
-namespace A047178.P17896661415967231962
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330299 n + Int.tmod (A330300 n) (A330308 (n + 1))
-
-end
-
-end A047178.P17896661415967231962
 
 /-! ## A047178.P690988466783890970
 
@@ -9324,6 +9322,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047178.P458887585231717146
+
+/-! ## A047178.P17736753085952641983
+
+`A193814(A369290(n))`
+-/
+
+namespace A047178.P17736753085952641983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193814 (A369290 n).toNat
+
+end
+
+end A047178.P17736753085952641983
 
 /-!
 # A047179: Number of nonempty subsets of {1,2,...,n} in which exactly 4/5 of the elements are <= (n-1)/2.
