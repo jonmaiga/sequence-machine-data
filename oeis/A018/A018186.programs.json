@@ -16,6 +16,9 @@
         "3",
         "3",
         "ogf"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
@@ -38,6 +41,10 @@
         "sub",
         "a",
         "+"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

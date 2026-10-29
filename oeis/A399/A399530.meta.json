@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least Loeschian number A003136 that is the n-th term of an arithmetic progression of such numbers.",
+  "id": "A399530",
+  "mentions": [
+    "A003136",
+    "A399528",
+    "A399531"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

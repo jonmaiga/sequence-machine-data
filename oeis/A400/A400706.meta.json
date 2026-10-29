@@ -1,0 +1,16 @@
+{
+  "description": "A version of the building sequence A400000 for positive- and negative-integer numbered plots: this sequence gives the heights of the buildings at nonnegative-numbered plots, in order.",
+  "id": "A400706",
+  "mentions": [
+    "A400000",
+    "A400705"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

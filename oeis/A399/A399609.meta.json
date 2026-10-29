@@ -1,0 +1,24 @@
+{
+  "description": "Table of T(n, k) read by antidiagonals: k-dimensional simplex coordinate; repeat j exactly binomial(j+k-1, k-1) times, for n >= 0, k >= 1.",
+  "id": "A399609",
+  "mentions": [
+    "A003056",
+    "A007664",
+    "A056556",
+    "A067586",
+    "A127321",
+    "A137688",
+    "A182058",
+    "A397675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle of coefficients of perimeter polynomials for fixed polyknights: T(n,k) is the number of fixed polyknights with n cells and (site) perimeter k; n >= 1, A398889(n) <= k <= 6*n+2.",
+  "id": "A398887",
+  "mentions": [
+    "A030444",
+    "A338210",
+    "A398888",
+    "A398889"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of partitions of n having exactly 1 part that appears exactly once.",
   "id": "A116596",
   "mentions": [
+    "A007690",
     "A116595"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

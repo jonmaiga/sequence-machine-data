@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the distinct cycle sizes over all permutations of [n].",
+  "id": "A398726",
+  "mentions": [
+    "A000254",
+    "A001563",
+    "A014153",
+    "A059841",
+    "A132961",
+    "A180119",
+    "A293211",
+    "A350175"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

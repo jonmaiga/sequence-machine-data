@@ -2,6 +2,7 @@
   "description": "Number of oriented trees with n nodes.",
   "id": "A000238",
   "mentions": [
+    "A000055",
     "A000060",
     "A000081",
     "A000151",

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive integers omitted from the rows of the greedy infinite quasi-barrycade (recursively defined family of quasi-permutations having pairwise disjoint sets of partial sums).",
+  "id": "A399907",
+  "mentions": [
+    "A399897",
+    "A399908",
+    "A399909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

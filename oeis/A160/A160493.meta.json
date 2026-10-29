@@ -1,5 +1,5 @@
 {
-  "description": "Maximum height of the third-order cyclotomic polynomial Phi(pqr,x) with p",
+  "description": "Maximum height of the third-order cyclotomic polynomial Phi(pqr,x) with p<q<r distinct odd primes, ordered by pq.",
   "id": "A160493",
   "mentions": [
     "A046388",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = A120070(n,m)-A143814(n,m) read by rows, 1<=m",
+  "description": "Triangle T(n,m) = A120070(n,m)-A143814(n,m) read by rows, 1<=m<n.",
   "id": "A141695",
   "mentions": [
     "A005563",

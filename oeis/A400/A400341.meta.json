@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + x)^sinh(x).",
+  "id": "A400341",
+  "mentions": [
+    "A003724",
+    "A007118",
+    "A007119",
+    "A009198",
+    "A009231"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

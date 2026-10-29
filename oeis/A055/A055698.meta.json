@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | (sigma_4(n) + phi(n)^4).",
+  "description": "Numbers k such that k | (sigma_4(k) + phi(k)^4).",
   "id": "A055698",
   "mentions": [
     "A001159"

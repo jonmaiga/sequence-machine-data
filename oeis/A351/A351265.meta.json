@@ -2,6 +2,8 @@
   "description": "Sum of the squares of the squarefree divisors of n.",
   "id": "A351265",
   "mentions": [
+    "A001157",
+    "A007947",
     "A008683",
     "A034444",
     "A048250",

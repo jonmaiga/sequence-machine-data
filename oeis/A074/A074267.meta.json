@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form p^n + k, where p is prime, n>1 and 0",
+  "description": "Primes of form p^n + k, where p is prime, n>1 and 0<k<p.",
   "id": "A074267",
   "mentions": [
     "A049084",

@@ -1,5 +1,5 @@
 {
-  "description": "Coordination sequence for 600-cell: number of vertices at graph distance n from a given vertex on the skeleton of the regular 600-cell (or {5,3,3}).",
+  "description": "Coordination sequence for 600-cell: number of vertices at graph distance n from a given vertex on the skeleton of the regular 600-cell (or {3,3,5}).",
   "id": "A118785",
   "mentions": [
     "A108997",

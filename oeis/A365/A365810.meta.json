@@ -1,5 +1,5 @@
 {
-  "description": "Squareferee numbers ordered factorization-wise by Blue code: a(n) = A019565(A193231(n)).",
+  "description": "Squarefree numbers ordered factorization-wise by Blue code: a(n) = A019565(A193231(n)).",
   "id": "A365810",
   "mentions": [
     "A005117",

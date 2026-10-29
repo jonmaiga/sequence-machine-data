@@ -2,6 +2,7 @@
   "description": "a(n) = maximal value of C(i, j) * C(n-j, n-i) for 0 <= j <= i <= n.",
   "id": "A094291",
   "mentions": [
+    "A081009",
     "A094349",
     "A094350",
     "A094824",
@@ -10,11 +11,12 @@
     "A094862"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

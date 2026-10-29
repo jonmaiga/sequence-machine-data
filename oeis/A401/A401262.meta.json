@@ -1,0 +1,19 @@
+{
+  "description": "Triangle J(m,k) of hyperharmonic integers, read by ascending antidiagonals. k >= 0, m >= 2.",
+  "id": "A401262",
+  "mentions": [
+    "A001047",
+    "A001705",
+    "A020594"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

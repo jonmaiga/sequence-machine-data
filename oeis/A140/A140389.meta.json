@@ -1,5 +1,5 @@
 {
-  "description": "Composites of the form (3*x*y-y-6)/(3*x+1), where x=composite and y=composite.",
+  "description": "Composite numbers k = 6*x - 5 such that x and 6*x - 1 are also composite.",
   "id": "A140389",
   "mentions": [
     "A000040",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

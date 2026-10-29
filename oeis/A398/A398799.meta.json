@@ -1,0 +1,13 @@
+{
+  "description": "Start with a list of positive integers, L. At step n, swap L(n) with the least multiple of L(n)+1 that has not previously been used as a swap target. The sequence consists of the successive swap targets divided by 2.",
+  "id": "A398799",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

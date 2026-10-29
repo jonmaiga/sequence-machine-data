@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k",
+  "description": "a(n) = Sum_{k<n} ((2^n-1) mod (2^k-1)).",
   "id": "A329162",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the size of the central part of the symmetric representation of sigma(n), or 0 if such a part does not exits.",
+  "description": "a(n) is the size of the central part of the symmetric representation of sigma(n), or 0 if such a part does not exist.",
   "id": "A377462",
   "mentions": [
     "A000203",

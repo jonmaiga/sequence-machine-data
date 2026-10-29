@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the value d=4.",
+  "description": "a(n) is the value d<n/2 maximizing the expression d!*(d + 1)!*2^(n-2*d-1)*stirling2(n-d, d+1), for n>=4.",
   "id": "A285524",
   "mentions": [
     "A285525",

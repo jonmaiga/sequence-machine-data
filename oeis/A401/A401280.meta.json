@@ -1,0 +1,15 @@
+{
+  "description": "Number of ways that an integer partition of n can be reduced to the empty partition with Chomp moves.",
+  "id": "A401280",
+  "mentions": [
+    "A401279"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

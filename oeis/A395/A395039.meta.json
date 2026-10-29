@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the u-th arithmetic derivative of k is zero for some u and A276085(k) has no divisors of the form p^p, otherwise 0, where A276085 is fully additive with a(p) = p#/p.",
+  "description": "Numbers k such that the u-th arithmetic derivative of k is zero for some u and A276085(k) has no divisors of the form p^p, where A276085 is fully additive with a(p) = p#/p.",
   "id": "A395039",
   "mentions": [
     "A000040",

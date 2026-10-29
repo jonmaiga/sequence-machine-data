@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k, such that Sum_{d|k} rad(d) is a multiple of rad(k), where rad = A007947.",
+  "id": "A398342",
+  "mentions": [
+    "A007947",
+    "A191750"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

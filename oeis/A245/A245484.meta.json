@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{(d",
+  "description": "a(n) = Sum_{(d<n)|n} d*sigma(d).",
   "id": "A245484",
   "mentions": [
     "A000203",

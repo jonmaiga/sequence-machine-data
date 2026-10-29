@@ -1,12 +1,11 @@
 import SequenceMachineLib
 import Mathlib.Tactic
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C020
+import Seq.B000.C023
 import Seq.Opaque.C001
-import Seq.Opaque.C019
-import Seq.Opaque.C025
+import Seq.Opaque.C018
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

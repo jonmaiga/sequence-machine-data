@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows T(n,k) = n^2 - binomial(k+1,2), n>=1, k",
+  "description": "Triangle read by rows T(n,k) = n^2 - binomial(k+1,2), n>=1, k<n.",
   "id": "A365904",
   "mentions": [
     "A000217",

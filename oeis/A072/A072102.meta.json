@@ -1,8 +1,12 @@
 {
-  "description": "Decimal expansion of sum of reciprocal perfect powers (excluding 1).",
+  "description": "Decimal expansion of the sum of the reciprocal of the perfect powers (excluding 1).",
   "id": "A072102",
   "mentions": [
-    "A001597"
+    "A001597",
+    "A002378",
+    "A007916",
+    "A008683",
+    "A045542"
   ],
   "tags": [
     "cons",

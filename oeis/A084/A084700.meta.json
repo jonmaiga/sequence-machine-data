@@ -2,6 +2,7 @@
   "description": "Smallest k such that k*prime(i)+1 is prime for i = 1 to n.",
   "id": "A084700",
   "mentions": [
+    "A035096",
     "A084701"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

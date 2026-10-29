@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4^((n-1)*n) * Product_{1<=j",
+  "description": "a(n) = 4^((n-1)*n) * Product_{1<=j<k<=n} (1 - sin(j*Pi/(2*n+1))^2 * sin(k*Pi/(2*n+1))^2).",
   "id": "A340293",
   "mentions": [
     "A006752",

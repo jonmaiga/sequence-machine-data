@@ -1,0 +1,19 @@
+{
+  "description": "Number of S_3 orbits of nonnegative integer vectors (x, y, z) != (0,0,0) having coordinate sum equal to n.",
+  "id": "A400564",
+  "mentions": [
+    "A003293",
+    "A144677",
+    "A400544"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

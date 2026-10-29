@@ -1,5 +1,5 @@
 {
-  "description": "Triangle lc(n,k): the number of purely line-connected k-partitions of [n], n>=4, 3<=k",
+  "description": "Triangle lc(n,k): the number of purely line-connected k-partitions of [n], n>=4, 3<=k<n.",
   "id": "A305874",
   "mentions": [
     "A005564",

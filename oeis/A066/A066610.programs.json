@@ -17,6 +17,10 @@
         "6",
         "^",
         "%"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

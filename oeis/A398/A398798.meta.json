@@ -1,0 +1,17 @@
+{
+  "description": "Number of reducible flow graphs on n unlabeled nodes with distinguished entry r and exit t reachable from every node (r = t if n = 1, else r != t), counted up to isomorphism fixing r and t.",
+  "id": "A398798",
+  "mentions": [
+    "A345258",
+    "A397968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

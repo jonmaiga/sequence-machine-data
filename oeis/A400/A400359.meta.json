@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 9 - 5*sqrt(3) - 7*sqrt(6)/2 + 6*sqrt(2).",
+  "id": "A400359",
+  "mentions": [
+    "A002194",
+    "A010524",
+    "A010701",
+    "A019913",
+    "A020760",
+    "A020761",
+    "A020773",
+    "A115754",
+    "A152422",
+    "A399816",
+    "A400357",
+    "A400358"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

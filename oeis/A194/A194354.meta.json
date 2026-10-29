@@ -1,5 +1,5 @@
 {
-  "description": "Up-down permutations on [n] whose peaks have k rises.",
+  "description": "Number of up-down permutations on [n] whose peaks have k rises.",
   "id": "A194354",
   "mentions": [
     "A000111",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 49,
+    "size": 56,
     "source": "oeis-entry"
   }
 }

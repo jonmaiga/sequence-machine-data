@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Pi^5/32)*Product_{j=1..4} csc(Pi*exp(j*i*Pi/5)/2), where i = sqrt(-1).",
+  "id": "A401346",
+  "mentions": [
+    "A001622",
+    "A019669",
+    "A401343",
+    "A401344",
+    "A401345",
+    "A401347"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

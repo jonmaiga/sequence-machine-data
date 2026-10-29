@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of dessins d'enfants with n edges under known Galois invariants.",
+  "id": "A398668",
+  "mentions": [
+    "A057005"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

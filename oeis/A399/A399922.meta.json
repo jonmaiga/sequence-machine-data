@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of n X n binary matrices with distinct rows and distinct columns under simultaneous permutation of rows and columns.",
+  "id": "A399922",
+  "mentions": [
+    "A088310",
+    "A399867"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

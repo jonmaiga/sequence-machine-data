@@ -1,0 +1,19 @@
+{
+  "description": "Total number of connected components in all induced subgraphs of the n X 2 rook graph.",
+  "id": "A399045",
+  "mentions": [
+    "A024036",
+    "A028243",
+    "A399044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

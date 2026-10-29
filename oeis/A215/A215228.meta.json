@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = number of length-n 0..k arrays connected end-around, with no sequence of L",
+  "description": "T(n,k) = number of length-n 0..k arrays connected end-around, with no sequence of L<n elements immediately followed by itself (periodic \"squarefree\").",
   "id": "A215228",
   "mentions": [
     "A002378",

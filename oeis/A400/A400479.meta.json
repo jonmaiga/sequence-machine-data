@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x^3))^3.",
+  "id": "A400479",
+  "mentions": [
+    "A400476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

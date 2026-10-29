@@ -2,16 +2,19 @@
   "description": "a(n) = (8^n - 1)*4/7.",
   "id": "A108019",
   "mentions": [
-    "A020988"
+    "A020988",
+    "A023001",
+    "A125835"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "joeis"
   }
 }

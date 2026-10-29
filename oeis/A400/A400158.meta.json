@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, a(2) = 2, and for n > 2, a(n) is the least number whose (n-1)-th arithmetic derivative (A003415) is one and A051903(n) = n-2, where A051903(n) is the largest exponent in the prime factorization of n.",
+  "id": "A400158",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A003415",
+    "A048103",
+    "A051903",
+    "A151800",
+    "A189760",
+    "A394885",
+    "A400256",
+    "A400257",
+    "A400828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

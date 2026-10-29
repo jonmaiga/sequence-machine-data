@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of trees with n unlabeled vertices with at most two peripheral vertices.",
+  "id": "A399148",
+  "mentions": [
+    "A000055",
+    "A034853",
+    "A324263",
+    "A399096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

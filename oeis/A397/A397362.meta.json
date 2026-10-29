@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of words of length n over an infinite alphabet with c(1) = k, such that all prefixes satisfy c(i) >= c(j) if f(i) < f(j) where c(i) is the number of occurrences of the letter i and f(i) = floor(sqrt(2*i) + 1/2).",
+  "id": "A397362",
+  "mentions": [
+    "A000085",
+    "A002024",
+    "A290518",
+    "A392551",
+    "A395140",
+    "A397206"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

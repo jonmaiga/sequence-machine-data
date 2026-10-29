@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n*binomial(n*(n+1), n)/(2*(n^2 + n - 1)).",
+  "id": "A398985",
+  "mentions": [
+    "A110331",
+    "A135860",
+    "A398983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

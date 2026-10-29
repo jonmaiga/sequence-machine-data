@@ -1,7 +1,9 @@
 {
   "description": "Binary expansion of a Chaitin Omega number Omega_U.",
   "id": "A079365",
-  "mentions": [],
+  "mentions": [
+    "A400878"
+  ],
   "tags": [
     "base",
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the mean of the digits in n is an integer m and n is divisible by m.",
+  "description": "Numbers k such that the mean of the digits in k is an integer m and k is divisible by m.",
   "id": "A190296",
   "mentions": [
     "A010785",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

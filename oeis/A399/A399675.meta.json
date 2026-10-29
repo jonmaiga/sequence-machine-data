@@ -1,0 +1,20 @@
+{
+  "description": "Number of monotone Boolean functions of n variables with exactly 11 mincuts.",
+  "id": "A399675",
+  "mentions": [
+    "A016269",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A059119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

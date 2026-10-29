@@ -1,5 +1,5 @@
 {
-  "description": "Second-order Eulerian numbers <>.",
+  "description": "Second-order Eulerian numbers <<n,2>>.",
   "id": "A004301",
   "mentions": [
     "A008517",

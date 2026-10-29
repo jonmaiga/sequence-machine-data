@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m having exactly one representation m = x^i + x^j with 1",
+  "description": "Numbers m having exactly one representation m = x^i + x^j with 1<x<=m and 0<=i<=j.",
   "id": "A088905",
   "mentions": [
     "A088904"

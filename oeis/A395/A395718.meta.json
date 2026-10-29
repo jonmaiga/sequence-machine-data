@@ -1,0 +1,24 @@
+{
+  "description": "Numbers admitted by the golden exclusion sieve.",
+  "id": "A395718",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A003849",
+    "A005206",
+    "A095076",
+    "A099267",
+    "A285520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

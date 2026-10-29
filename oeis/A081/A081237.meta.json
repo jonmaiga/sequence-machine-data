@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with no k, 0",
+  "description": "Numbers n with no k, 0<k<n, such that mu(n-k)=mu(n)=mu(n+k), where mu=A008683 (Moebius function).",
   "id": "A081237",
   "mentions": [
     "A008683",

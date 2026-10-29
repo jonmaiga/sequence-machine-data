@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a canonical (dual-uniform) 9-gonal trapezohedron.",
+  "id": "A398618",
+  "mentions": [
+    "A019879",
+    "A395169",
+    "A395170",
+    "A398610",
+    "A398611",
+    "A398612",
+    "A398613",
+    "A398614",
+    "A398615",
+    "A398616",
+    "A398617"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of squares not less than n-k and not greater n+k, 0<=k",
+  "description": "Triangle read by rows: T(n,k) = number of squares not less than n-k and not greater n+k, 0<=k<n.",
   "id": "A088231",
   "mentions": [
     "A000196",

@@ -1,5 +1,5 @@
 {
-  "description": "n / Max{a(k): 1<=k",
+  "description": "n / Max{a(k): 1<=k<n and a(k) divides n}, a(1) = 1.",
   "id": "A096776",
   "mentions": [
     "A075384"

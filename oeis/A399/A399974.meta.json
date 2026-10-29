@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonempty sets of pairwise commuting involutions on [n].",
+  "id": "A399974",
+  "mentions": [
+    "A008275",
+    "A022166",
+    "A362824",
+    "A362825",
+    "A399972"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

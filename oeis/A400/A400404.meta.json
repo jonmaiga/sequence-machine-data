@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polymarquises with n cells.",
+  "id": "A400404",
+  "mentions": [
+    "A000105",
+    "A030446",
+    "A400402",
+    "A400403",
+    "A401000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

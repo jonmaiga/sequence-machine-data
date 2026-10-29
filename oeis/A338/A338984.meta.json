@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the sum of (q mod p) for pairs of primes p",
+  "description": "a(n) is the sum of (q mod p) for pairs of primes p<q such that p+q=2*n.",
   "id": "A338984",
   "mentions": [
     "A010051"

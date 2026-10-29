@@ -1,5 +1,5 @@
 {
-  "description": "Pseudo anti-perfect numbers.",
+  "description": "Pseudo-antiperfect numbers.",
   "id": "A192270",
   "mentions": [
     "A005835",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

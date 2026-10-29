@@ -1,5 +1,5 @@
 {
-  "description": "Numbers never equal to the number of partitions of any p into k parts (2",
+  "description": "Numbers never equal to the number of partitions of any p into k parts (2<k<=n).",
   "id": "A140609",
   "mentions": [
     "A000041",

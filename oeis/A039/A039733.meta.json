@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=k such that prime(k) is the prime q",
+  "description": "a(n)=k such that prime(k) is the prime q<prime(n) for which (prime(n) mod q) is maximal.",
   "id": "A039733",
   "mentions": [
     "A039734"

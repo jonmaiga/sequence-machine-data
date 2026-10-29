@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct acute lattice trapezia of area at most n/2 with horizontal base.",
+  "id": "A398923",
+  "mentions": [
+    "A398922"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

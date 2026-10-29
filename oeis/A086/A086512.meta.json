@@ -2,6 +2,7 @@
   "description": "Rearrangement of natural numbers such that every (2n-1)-th partial sum is prime. Every 2n-th term is the smallest number not included earlier.",
   "id": "A086512",
   "mentions": [
+    "A086496",
     "A086513"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

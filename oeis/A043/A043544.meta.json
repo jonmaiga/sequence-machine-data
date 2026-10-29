@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that s(k)",
+  "description": "Numbers k such that s(k)<s(k-1), where s(k)=sum of all digits in all base b representations of k, for 2<=b<=k.",
   "id": "A043544",
   "mentions": [
     "A043306"

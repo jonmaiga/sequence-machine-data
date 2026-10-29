@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n (real) {-1,1}-matrices having determinant A003433(n).",
+  "description": "Number of (n+1) X (n+1) (real) {-1,1}-matrices having determinant A003433(n+1).",
   "id": "A188895",
   "mentions": [
     "A003433",

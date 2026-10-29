@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 0 <= k <= n, read by rows, defined by: T(0,0) = 1, T(n,k) = 0 if n= 1: T(n,k) = T(n-1,k-1) + x*T(n-1,k) + T(n-1,k+1) with x = 3.",
+  "description": "Triangle T(n,k), 0 <= k <= n, read by rows, defined by: T(0,0) = 1, T(n,k) = 0 if n<k, T(n,0) = T(n-1,0) + T(n-1,1) and for k >= 1: T(n,k) = T(n-1,k-1) + x*T(n-1,k) + T(n-1,k+1) with x = 3.",
   "id": "A110877",
   "mentions": [
     "A002212",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [5+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(5+n)*[i",
+  "description": "Number of permutations p of [5+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(5+n)*[i<p(i)]].",
   "id": "A324625",
   "mentions": [
     "A184965",

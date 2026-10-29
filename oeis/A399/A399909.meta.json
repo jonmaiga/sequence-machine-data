@@ -1,0 +1,17 @@
+{
+  "description": "Word representation of the greedy infinite quasi-barrycade (recursively defined family of quasi-permutations having pairwise disjoint sets of partial sums).",
+  "id": "A399909",
+  "mentions": [
+    "A399897",
+    "A399908"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

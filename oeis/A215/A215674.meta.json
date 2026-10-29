@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(n) = 2 if 1",
+  "description": "a(1) = 1, a(n) = 2 if 1<n<=3, a(3n) = a(n)+1, a(3n+1) = a(3n+2) = a(n)+a(n+1)+1 otherwise.",
   "id": "A215674",
   "mentions": [
     "A215673",

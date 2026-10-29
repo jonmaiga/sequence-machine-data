@@ -1,0 +1,24 @@
+{
+  "description": "Number of unordered 5-element sets of partitions summing to n.",
+  "id": "A400784",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A036039",
+    "A061260",
+    "A281357",
+    "A400782",
+    "A400783",
+    "A400790"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

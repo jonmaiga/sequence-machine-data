@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A399629: integers m whose number of divisors d such that the first digit of d equals the last digit of m sets a new record.",
+  "id": "A399631",
+  "mentions": [
+    "A342833",
+    "A355592",
+    "A399629",
+    "A399630"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

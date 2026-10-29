@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least prime p such that p^valuation(A327859(n),p) does not divide n, or 1 if no such p exists.",
+  "id": "A399377",
+  "mentions": [
+    "A003415",
+    "A006530",
+    "A020639",
+    "A067019",
+    "A276086",
+    "A327859",
+    "A370115",
+    "A370117",
+    "A399372"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

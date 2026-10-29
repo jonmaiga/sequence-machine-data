@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of the 2-dimensional vector (n, n) into strictly distinct parts with nonnegative components, excluding elementary basis vectors (1,0) and (0,1).",
+  "id": "A398329",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A002774",
+    "A219554",
+    "A219585",
+    "A397646",
+    "A399303"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

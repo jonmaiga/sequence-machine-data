@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A085731, where A085731(n) = gcd(n,n'), and n' is the arithmetic derivative of n.",
+  "id": "A400249",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A085731",
+    "A369068",
+    "A400248",
+    "A400251"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

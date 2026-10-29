@@ -1,0 +1,15 @@
+{
+  "description": "Number of reducible flow graphs on n unlabeled nodes: digraphs with a distinguished entry from which every node is reachable and in which every cycle has a unique entry node, counted up to isomorphism fixing the entry.",
+  "id": "A397968",
+  "mentions": [
+    "A351052"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

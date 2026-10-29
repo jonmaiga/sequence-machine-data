@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator(Sum_{k=1..n} psi(floor(n/k))/floor(n/k)), where psi the Dedekind psi function (A001615).",
+  "id": "A398701",
+  "mentions": [
+    "A001615",
+    "A332880",
+    "A398698",
+    "A398702",
+    "A398703"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

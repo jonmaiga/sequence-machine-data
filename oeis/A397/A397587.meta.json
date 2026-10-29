@@ -2,6 +2,7 @@
   "description": "Square array read by antidiagonals upwards: T(n, k) is the smallest number v in A001284 with n+1 middle divisors and whose symmetric representation of sigma, SRS(v), consists of 2*k-1 parts, or 0 if no such number exists, n >= 1, k >= 1.",
   "id": "A397587",
   "mentions": [
+    "A001283",
     "A001284",
     "A003056",
     "A067742",
@@ -12,8 +13,7 @@
     "A237593",
     "A320066",
     "A320137",
-    "A341969",
-    "A397585"
+    "A341969"
   ],
   "tags": [
     "formulas",

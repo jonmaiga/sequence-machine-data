@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} cos(k)/(1 + k^2).",
+  "id": "A399285",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A019609",
+    "A068985",
+    "A216707"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

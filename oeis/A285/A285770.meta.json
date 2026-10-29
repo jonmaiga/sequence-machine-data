@@ -1,5 +1,5 @@
 {
-  "description": "Let q_1",
+  "description": "Let q_1<q_2<... be primes not dividing 2n+1 such that 2n-q_i + 1 is twice a prime. a(n) is smallest i such that 2n+2q_i+1 is prime or a(n)=0 if there is no such i.",
   "id": "A285770",
   "mentions": [
     "A277688"

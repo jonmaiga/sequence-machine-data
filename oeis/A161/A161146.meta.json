@@ -2,6 +2,7 @@
   "description": "Numbers which can be expressed as the product of numbers made of only eights.",
   "id": "A161146",
   "mentions": [
+    "A002282",
     "A084034",
     "A161140",
     "A161141",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

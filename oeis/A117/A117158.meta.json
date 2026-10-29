@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations avoiding the consecutive pattern 1234.",
+  "description": "Number of permutations of [n] avoiding the consecutive pattern 1234.",
   "id": "A117158",
   "mentions": [
     "A022558",

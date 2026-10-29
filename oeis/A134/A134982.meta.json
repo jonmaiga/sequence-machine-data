@@ -1,5 +1,5 @@
 {
-  "description": "Number of elements in the n-th column of Medeleiev's periodic system of elements.",
+  "description": "Number of elements in the n-th column of Mendeleev's periodic system of elements.",
   "id": "A134982",
   "mentions": [
     "A093907",

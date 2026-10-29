@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime p such that all the n numbers reversal(p^k), k",
+  "description": "a(n) is the smallest prime p such that all the n numbers reversal(p^k), k<n+1 are primes.",
   "id": "A165697",
   "mentions": [
     "A118212",

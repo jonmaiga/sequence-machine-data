@@ -1,0 +1,18 @@
+{
+  "description": "Minimum edge (or bond) perimeter of a polyknight with n cells.",
+  "id": "A398890",
+  "mentions": [
+    "A027709",
+    "A030446",
+    "A398889"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

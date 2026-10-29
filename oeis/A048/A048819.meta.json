@@ -1,9 +1,11 @@
 {
-  "description": "Decimal expansion of one of four fixed points (mod 1) of Minkowski's question mark function.",
+  "description": "Decimal expansion of the Minkowski-Bower constant.",
   "id": "A048819",
   "mentions": [
     "A048817",
-    "A048822"
+    "A048822",
+    "A058914",
+    "A120221"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,25 @@
+{
+  "description": "The total number of exponential divisors of the exponential divisors of n.",
+  "id": "A400872",
+  "mentions": [
+    "A007425",
+    "A049419",
+    "A056624",
+    "A074816",
+    "A322791",
+    "A375230",
+    "A388067",
+    "A400873"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

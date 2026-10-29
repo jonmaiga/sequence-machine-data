@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the average of the lower and upper end of the earliest prime gap of length 2*n that does not contain a semiprime A001358.",
+  "id": "A399781",
+  "mentions": [
+    "A000230",
+    "A001358",
+    "A002386",
+    "A005250",
+    "A136344",
+    "A359636"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

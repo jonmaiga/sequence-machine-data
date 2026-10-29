@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (negative of) real solution -1",
+  "description": "Decimal expansion of (negative of) real solution -1<x<1 to zeta(x)=sin(x).",
   "id": "A069815",
   "mentions": [],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sin(x) - sin(x)^2).",
+  "id": "A398978",
+  "mentions": [
+    "A000045",
+    "A002969",
+    "A029585",
+    "A136630"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(3*n)=2*n, a(3*n+1)=a(n)+n, a(3*n+2)=2*a(n), a(n)=0 for n",
+  "description": "a(3*n)=2*n, a(3*n+1)=a(n)+n, a(3*n+2)=2*a(n), a(n)=0 for n<3.",
   "id": "A138002",
   "mentions": [
     "A025480",

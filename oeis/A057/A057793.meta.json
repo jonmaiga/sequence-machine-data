@@ -1,13 +1,16 @@
 {
   "description": "Integer nearest Riemann(10^n), where Riemann(x) = Sum_{k=1..infinity} mu(k)/k * Integral Log( x^(1/k) ).",
   "id": "A057793",
-  "mentions": [],
+  "mentions": [
+    "A006880",
+    "A057794"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

@@ -3,41 +3,39 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C025
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
+import Seq.B001.C005
+import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C004
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C001
-import Seq.B006.C002
+import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -50,6 +48,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -60,8 +59,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A155300: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 4,2 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -147,20 +144,23 @@ end A155302.P18014573192541190949
 The programs for A155305, there is no canonical definition to state claims against.
 -/
 
-/-! ## A155305.P5796646198361541432
+/-! ## A155305.P6482968653652029228
 
-`A160556(A370798(n))-1`
+`∑[A007496(2*n+3)]*n+1`
 -/
 
-namespace A155305.P5796646198361541432
+namespace A155305.P6482968653652029228
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007496 (2 * n + 3)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160556 (A370798 n).toNat - 1
+  (∑ j ∈ Finset.range (n + 1), f1 j) * (n : ℤ) + 1
 
 end
 
-end A155305.P5796646198361541432
+end A155305.P6482968653652029228
 
 /-!
 # A155307: Number of ways to place zero or more nonadjacent 0,0 1,0 2,1 3,0 3,1 4,0 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -937,24 +937,6 @@ end
 
 end A155337.P7487891620301915889
 
-/-! ## A155337.P12033314973769816011
-
-`filter[A155402(n+5), A078650(#)]`
--/
-
-namespace A155337.P12033314973769816011
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155402 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A078650 (f1 j).toNat = 1) n)
-
-end
-
-end A155337.P12033314973769816011
-
 /-!
 # A155338: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 4,2 5,2 6,2 polyhexes in any orientation on a planar nXnXn triangular grid.
 
@@ -1334,48 +1316,6 @@ end
 end A155348.P349180611152080090
 
 /-!
-# A155349: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 3,1 4,2 5,1 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155349, there is no canonical definition to state claims against.
--/
-
-/-! ## A155349.P1580622837244968819
-
-`record[A237109(A155437(n+5))]`
--/
-
-namespace A155349.P1580622837244968819
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A237109 (A155437 (n + 5)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A155349.P1580622837244968819
-
-/-! ## A155349.P11411647085867414480
-
-`filter[A155437(n+5), A011655(#)]`
--/
-
-namespace A155349.P11411647085867414480
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155437 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A011655 (f1 j).toNat = 1) n)
-
-end
-
-end A155349.P11411647085867414480
-
-/-!
 # A155350: Number of ways to place zero or more nonadjacent 0,0 1,0 2,1 3,2 4,2 5,2 6,3 polyhexes in any orientation on a planar nXnXn triangular grid.
 
 The programs for A155350, there is no canonical definition to state claims against.
@@ -1427,52 +1367,6 @@ end
 end A155351.P5766381067046371243
 
 /-!
-# A155352: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 2,2 3,0 4,1 4,2 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155352, there is no canonical definition to state claims against.
--/
-
-/-! ## A155352.P6368901628734381449
-
-`filter[A155409(n+5), A011655(#)]`
--/
-
-namespace A155352.P6368901628734381449
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155409 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A011655 (f1 j).toNat = 1) n)
-
-end
-
-end A155352.P6368901628734381449
-
-/-! ## A155352.P9256028034759978970
-
-`∩[A155406(n+5), A155409(n+5)]`
--/
-
-namespace A155352.P9256028034759978970
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155406 (n + 5)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155409 (n + 5)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A155352.P9256028034759978970
-
-/-!
 # A155353: Number of ways to place zero or more nonadjacent 2,1 2,2 3,0 3,1 3,3 4,2 4,3 polyhexes in any orientation on a planar nXnXn triangular grid.
 
 The programs for A155353, there is no canonical definition to state claims against.
@@ -1495,24 +1389,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A155353.P4019788970750196436
-
-/-! ## A155353.P5347541431663626890
-
-`filter[A155358(n+4), A010060(#)]`
--/
-
-namespace A155353.P5347541431663626890
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155358 (n + 4)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010060 (f1 j).toNat = 1) n)
-
-end
-
-end A155353.P5347541431663626890
 
 /-!
 # A155354: Number of ways to place zero or more nonadjacent 2,0 3,1 4,2 4,3 4,4 5,2 6,2 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -2040,66 +1916,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155371.P6802757020738329583
-
-/-!
-# A155372: Number of ways to place zero or more nonadjacent 1,1 2,1 3,0 3,1 3,2 3,3 4,2 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155372, there is no canonical definition to state claims against.
--/
-
-/-! ## A155372.P16153604591996044689
-
-`filter[A155373(n+5), A023532(#)]`
--/
-
-namespace A155372.P16153604591996044689
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155373 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A023532 (f1 j).toNat = 1) n)
-
-end
-
-end A155372.P16153604591996044689
-
-/-! ## A155372.P11181786905101452949
-
-`filter[A155373(n+5), A050073(#)]`
--/
-
-namespace A155372.P11181786905101452949
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155373 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A050073 (f1 j).toNat = 1) n)
-
-end
-
-end A155372.P11181786905101452949
-
-/-! ## A155372.P7573418272290146901
-
-`filter[A155373(n+5), A080111(#)]`
--/
-
-namespace A155372.P7573418272290146901
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155373 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A080111 (f1 j).toNat = 1) n)
-
-end
-
-end A155372.P7573418272290146901
 
 /-!
 # A155374: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 2,1 3,0 3,1 4,1 5,1 polyhexes in any orientation on a planar nXnXn triangular grid.

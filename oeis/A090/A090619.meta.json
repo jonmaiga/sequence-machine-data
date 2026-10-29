@@ -1,5 +1,5 @@
 {
-  "description": "Highest power of 12 dividing n!.",
+  "description": "Exponent of highest power of 12 dividing n!.",
   "id": "A090619",
   "mentions": [
     "A011371",

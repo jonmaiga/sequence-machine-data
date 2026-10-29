@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the numbers of sets of ordered lists of an n-set (A000262). Square array read by ascending antidiagonals.",
+  "id": "A398989",
+  "mentions": [
+    "A000262",
+    "A052844",
+    "A052845",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

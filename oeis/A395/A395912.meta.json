@@ -1,0 +1,14 @@
+{
+  "description": "Numbers of real-algebra involutions of the multicomplex numbers that map each element of its canonical monomial basis to a signed monomial.",
+  "id": "A395912",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

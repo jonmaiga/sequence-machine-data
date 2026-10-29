@@ -1,0 +1,16 @@
+{
+  "description": "Cardinality of the unique largest subdirectly irreducible factor of the lattice of partitions of n under the dominance order.",
+  "id": "A398693",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 13,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d1|n, d2|n, d1",
+  "description": "a(n) = Sum_{d1|n, d2|n, d1<d2} (1 - [d1 + 1 = d2]), where [ ] is the Iverson bracket.",
   "id": "A337363",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of writing n in the form i*j+k*m with 0",
+  "description": "Number of ways of writing n in the form i*j+k*m with 0<i<=j, 0<k<=m, and (j<m or j=m and i<k).",
   "id": "A212597",
   "mentions": [
     "A007875",

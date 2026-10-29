@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with ordered prime signature (1,1,2).",
+  "id": "A398863",
+  "mentions": [
+    "A006530",
+    "A007304",
+    "A008479",
+    "A085987",
+    "A095990",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

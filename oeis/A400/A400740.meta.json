@@ -1,0 +1,16 @@
+{
+  "description": "Number of invertible self-dual Boolean functions of n variables.",
+  "id": "A400740",
+  "mentions": [
+    "A000725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

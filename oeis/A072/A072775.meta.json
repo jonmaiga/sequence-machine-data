@@ -2,12 +2,14 @@
   "description": "Squarefree kernels of powers of squarefree numbers.",
   "id": "A072775",
   "mentions": [
+    "A005117",
     "A007947",
     "A052410",
     "A072774",
     "A072776"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

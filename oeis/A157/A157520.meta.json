@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,2) read by row with T(n,2)=least j",
+  "description": "Table T(n,2) read by row with T(n,2)=least j<k, T(n,1)=k such that sum j+k is the least such that 6*p(k)*p(j)^n -1 and +1 are twin primes with p(i)=i-th prime.",
   "id": "A157520",
   "mentions": [],
   "tags": [

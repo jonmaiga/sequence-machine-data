@@ -1,10 +1,11 @@
 {
-  "description": "Binary XOR of prime divisors of n.",
+  "description": "Binary XOR of the distinct prime divisors of n.",
   "id": "A293212",
   "mentions": [
     "A000040",
     "A072594",
-    "A178910"
+    "A178910",
+    "A399975"
   ],
   "tags": [
     "base",

@@ -1,0 +1,19 @@
+{
+  "description": "Least degree of a nonzero polynomial P(t) over GF(2) such that x^n - 1 divides P(1 + x + x^3).",
+  "id": "A400863",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A001045"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

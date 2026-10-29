@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: permutations on 123...n with one abc pattern and no aj pattern with j<=k, n>2, k",
+  "description": "Triangle T(n,k) read by rows: permutations on 123...n with one abc pattern and no aj pattern with j<=k, n>2, k<n-1.",
   "id": "A084249",
   "mentions": [
     "A001089",

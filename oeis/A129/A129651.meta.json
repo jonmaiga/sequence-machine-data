@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest position k at which b_n(i)=k, where b_n(m) is the largest order of a permutation of m elements with exactly n cycles.",
+  "description": "a(n) is the smallest position k at which b_n(i)<b_n(i+1) for all i>=k, where b_n(m) is the largest order of a permutation of m elements with exactly n cycles.",
   "id": "A129651",
   "mentions": [
     "A000793",

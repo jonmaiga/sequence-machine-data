@@ -2,7 +2,8 @@
   "description": "Number of chordless cycles in the n-triangular honeycomb bishop graph.",
   "id": "A370228",
   "mentions": [
-    "A370224"
+    "A370224",
+    "A400302"
   ],
   "tags": [
     "nonn"

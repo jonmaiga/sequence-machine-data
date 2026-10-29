@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of edges in the Hasse diagram of a lattice with n elements.",
+  "id": "A400615",
+  "mentions": [
+    "A002620"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

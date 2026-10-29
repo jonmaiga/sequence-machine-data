@@ -1,0 +1,19 @@
+{
+  "description": "Order of the projective special semilinear group PSigmaL_2(K), where K is the finite field with q = A246655(n) elements.",
+  "id": "A399261",
+  "mentions": [
+    "A246655",
+    "A329119",
+    "A352807",
+    "A399260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

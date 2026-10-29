@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive integer k such that digsum(k') = n * digsum(k), where k' = A003415(k) is the arithmetic derivative of k and digsum(x) = A007953(x) is the sum of decimal digits of x.",
+  "id": "A400610",
+  "mentions": [
+    "A000079",
+    "A003415",
+    "A007953",
+    "A025487",
+    "A055932",
+    "A400611"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled Eulerian point-determining (mating) graphs on n vertices.",
+  "id": "A399730",
+  "mentions": [
+    "A006024",
+    "A007833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

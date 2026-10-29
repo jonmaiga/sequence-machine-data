@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sopf(n) * phi(n), where sopf = A008472 and phi = A000010.",
+  "id": "A396113",
+  "mentions": [
+    "A000010",
+    "A008472"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

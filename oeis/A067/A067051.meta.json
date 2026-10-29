@@ -1,9 +1,10 @@
 {
-  "description": "The smallest k>1 such that k divides sigma(k*n) is equal to 3.",
+  "description": "The smallest k > 1 such that k divides sigma(k*n) is equal to 3.",
   "id": "A067051",
   "mentions": [
     "A000203",
     "A001105",
+    "A013661",
     "A028982",
     "A049605",
     "A072862",

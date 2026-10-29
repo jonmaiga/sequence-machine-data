@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the denominator of R(n,k), where R(n,0) = R(n,n) = 1 and R(n+1,k) = 1/R(n,k-1) + 1/R(n,k).",
+  "id": "A397827",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A393538"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

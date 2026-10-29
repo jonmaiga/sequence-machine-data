@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{p|n, p",
+  "description": "a(n) = Product_{p|n, p<n, p prime} omega(n/p).",
   "id": "A334933",
   "mentions": [
     "A001221"

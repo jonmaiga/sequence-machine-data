@@ -1,14 +1,17 @@
 {
   "description": "Number of independent sets in Catalan graph on n nodes.",
   "id": "A339593",
-  "mentions": [],
+  "mentions": [
+    "A339591",
+    "A339592"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

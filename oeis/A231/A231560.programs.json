@@ -2,14 +2,13 @@
   "oi": 231560,
   "ps": [
     {
-      "d": "2026-08-12",
-      "ix": "round(sqrt(sqrt(sqrt(n))))",
+      "d": "2026-10-26",
+      "ix": "round(root(n, 8))",
       "mt": 807,
       "px": [
         "n",
-        "sqrt",
-        "sqrt",
-        "sqrt",
+        "8",
+        "root",
         "round"
       ]
     }

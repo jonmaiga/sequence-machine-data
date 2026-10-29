@@ -2,7 +2,8 @@
   "description": "Number of tilings by lozenges of hexagon with sides n, n+1, n, n+1, n, n+1 and central triangle removed.",
   "id": "A069788",
   "mentions": [
-    "A071091"
+    "A071091",
+    "A074962"
   ],
   "tags": [
     "easy",

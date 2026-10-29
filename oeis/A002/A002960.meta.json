@@ -2,7 +2,12 @@
   "description": "The square sieve.",
   "id": "A002960",
   "mentions": [
-    "A274089"
+    "A000037",
+    "A006257",
+    "A025480",
+    "A274004",
+    "A274089",
+    "A401017"
   ],
   "tags": [
     "formulas",
@@ -11,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

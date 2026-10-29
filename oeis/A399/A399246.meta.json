@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: r(n, k) = floor(k*x^n), where x = 1+sqrt(2).",
+  "id": "A399246",
+  "mentions": [
+    "A001951",
+    "A002193",
+    "A128440",
+    "A399245"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of boundary lattice points minus the number of interior lattice points of the 4-dimensional cube [0,n]^4.",
+  "id": "A400233",
+  "mentions": [
+    "A342831",
+    "A400232",
+    "A400235"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the largest root of x^5 + x^4 - 7*x^3 - 7*x^2 + 9*x + 8.",
+  "id": "A399719",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

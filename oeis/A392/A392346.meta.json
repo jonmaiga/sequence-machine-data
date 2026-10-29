@@ -1,5 +1,5 @@
 {
-  "description": "The smallest k >= 0 that can be represented as a linear combination of 1, 2, ..., n with coefficients +-1 and that cannot be represented using 1, 2, ..., m with 1<=m",
+  "description": "The smallest k >= 0 that can be represented as a linear combination of 1, 2, ..., n with coefficients +-1 and that cannot be represented using 1, 2, ..., m with 1<=m<n.",
   "id": "A392346",
   "mentions": [
     "A000027",

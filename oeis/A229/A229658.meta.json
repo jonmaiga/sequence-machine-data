@@ -1,5 +1,5 @@
 {
-  "description": "8-section a(8n+k) gives k-th differences of a for k=0..7 with a(n)=0 for n",
+  "description": "8-section a(8n+k) gives k-th differences of a for k=0..7 with a(n)=0 for n<7 and a(7)=1.",
   "id": "A229658",
   "mentions": [
     "A005590",

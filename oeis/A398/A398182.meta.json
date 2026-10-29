@@ -1,0 +1,20 @@
+{
+  "description": "Degree of the minimal polynomial whose root is the sidelength of the largest n-cube that fits inside a unit (n+1)-cube.",
+  "id": "A398182",
+  "mentions": [
+    "A000396",
+    "A093577",
+    "A243309",
+    "A243313"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

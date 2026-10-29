@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of abs(Gamma(1 - exp(2*Pi*i/3)/2))^2, where i = sqrt(-1).",
+  "id": "A401348",
+  "mentions": [
+    "A019693",
+    "A401349"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

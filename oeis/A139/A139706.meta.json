@@ -2,6 +2,8 @@
   "description": "Take n in binary. Rotate the binary digits to the right until a 1 once again appears as the leftmost digit. Convert back into decimal for a(n).",
   "id": "A139706",
   "mentions": [
+    "A003602",
+    "A092323",
     "A139707",
     "A139708",
     "A272919"
@@ -9,6 +11,7 @@
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

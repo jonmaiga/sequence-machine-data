@@ -1,5 +1,5 @@
 {
-  "description": "Number of independent sets of nodes in graph C_8 x P_n (n>=0).",
+  "description": "Number of independent sets of nodes in graph C_8 X P_n (n>=0).",
   "id": "A182019",
   "mentions": [
     "A286513"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

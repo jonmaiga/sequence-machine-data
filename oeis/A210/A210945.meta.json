@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of parts in the k-th column of the mirror of the last shell of the partitions of n.",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of parts in the k-th column of the mirror of the last section of the partitions of n.",
   "id": "A210945",
   "mentions": [
     "A000041",

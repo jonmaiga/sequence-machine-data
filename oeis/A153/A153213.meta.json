@@ -2,6 +2,7 @@
   "description": "Primes p such that both p-2 and p+2 are not squarefree.",
   "id": "A153213",
   "mentions": [
+    "A005596",
     "A039787",
     "A049097",
     "A049282",
@@ -9,7 +10,8 @@
     "A153207",
     "A153208",
     "A153209",
-    "A153210"
+    "A153210",
+    "A271780"
   ],
   "tags": [
     "nonn"

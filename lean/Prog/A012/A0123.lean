@@ -2,27 +2,32 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C009
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B010.C000
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -31,12 +36,12 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -44,7 +49,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A012301: Expansion of e.g.f. arctanh(sin(x)*sin(x)), even powers only.
@@ -892,20 +896,23 @@ end
 
 end A012324.P1486400299291828029
 
-/-! ## A012324.P18300428225618078707
+/-! ## A012324.P13854961488159384494
 
-`A373067(A266335(n))`
+`filter[A109243(n), A130047(#)]`
 -/
 
-namespace A012324.P18300428225618078707
+namespace A012324.P13854961488159384494
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109243 n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373067 (A266335 n).toNat
+  f1 (SequenceMachineLib.nth (fun j => A130047 (f1 j).toNat = 1) n)
 
 end
 
-end A012324.P18300428225618078707
+end A012324.P13854961488159384494
 
 /-!
 # A012325: cosh(arcsin(x)*exp(x))=1+1/2!*x^2+6/3!*x^3+29/4!*x^4+140/5!*x^5...
@@ -1663,44 +1670,26 @@ end
 
 end A012361.P5018512743597016490
 
-/-! ## A012361.P13399044370104425476
+/-! ## A012361.P11079405320924400415
 
-`n*A091543(A000111(n))`
+`n*A005984(A007558(n))`
 -/
 
-namespace A012361.P13399044370104425476
+namespace A012361.P11079405320924400415
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A091543 (A000111 n).toNat
+  (n : ℤ) * A005984 (A007558 n).toNat
 
 end
 
-end A012361.P13399044370104425476
+end A012361.P11079405320924400415
 
 /-!
 # A012363: arctanh(tan(x)*exp(x))=x+2/2!*x^2+7/3!*x^3+36/4!*x^4+285/5!*x^5...
 
 The programs for A012363, there is no canonical definition to state claims against.
 -/
-
-/-! ## A012363.P11384862239753226174
-
-`Δ[A241086(A289004(n))]`
--/
-
-namespace A012363.P11384862239753226174
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241086 (A289004 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A012363.P11384862239753226174
 
 /-! ## A012363.P6477193230769245560
 

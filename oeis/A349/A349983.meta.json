@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest k such A000792(k) <= n.",
+  "description": "a(n) is the largest k such that A000792(k) <= n.",
   "id": "A349983",
   "mentions": [
     "A000792",

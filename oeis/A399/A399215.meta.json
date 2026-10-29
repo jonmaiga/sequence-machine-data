@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 6*y^2 = k.",
+  "id": "A399215",
+  "mentions": [
+    "A200977",
+    "A216510",
+    "A328151",
+    "A374158",
+    "A374159",
+    "A374160",
+    "A374161",
+    "A399191",
+    "A399214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

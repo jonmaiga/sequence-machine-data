@@ -1,5 +1,5 @@
 {
-  "description": "Pendular trinomial triangle (p=0), read by rows of 2n+1 terms (n>=0), defined by the recurrence : if 0",
+  "description": "Pendular trinomial triangle (p=0), read by rows of 2n+1 terms (n>=0), defined by the recurrence : if 0<k<n T(n,k)= T(n-1,k) + p*T(n,2n-1-k); else if n-1<k<2n-1, T(n,k)= T(n-1,k) + T(n,2n-2-k); with T(n,0) = T(n+1,2n) = 1 and T(n+1,2n+1) = T(n+1,2n+2) = 0.",
   "id": "A167769",
   "mentions": [
     "A000108",

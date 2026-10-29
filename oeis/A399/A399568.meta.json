@@ -1,0 +1,15 @@
+{
+  "description": "Number of permutations p of [n] such that p(j) does not divide Sum_{i=1..j} p(i) for 2 <= j < n.",
+  "id": "A399568",
+  "mentions": [
+    "A067957"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

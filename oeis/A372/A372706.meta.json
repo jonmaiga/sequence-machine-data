@@ -3,9 +3,9 @@
   "id": "A372706",
   "mentions": [
     "A002321",
-    "A008663",
     "A008683",
     "A013929",
+    "A112399",
     "A372700"
   ],
   "tags": [
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 92,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

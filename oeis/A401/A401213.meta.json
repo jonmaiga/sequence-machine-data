@@ -1,0 +1,18 @@
+{
+  "description": "Total number of undirected paths in all labeled graphs on n vertices, singleton paths excluded.",
+  "id": "A401213",
+  "mentions": [
+    "A288430",
+    "A401178",
+    "A401212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

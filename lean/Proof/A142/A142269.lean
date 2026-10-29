@@ -1,0 +1,30 @@
+import Prog.A142.A1422
+import Proof.Lib.PrimesMod
+
+/-- A142269 lists the primes congruent to 20 mod 43. -/
+theorem A142269.anchor (n : ℕ) (hn : 1 ≤ n) :
+    A142269 n = (Nat.nth (fun p => p.Prime ∧ p % 43 = 20) (n - 1) : ℤ) := by
+  simp only [A142269, A142269.P5167647981052454786.a, SequenceMachineLib.memo_apply, SequenceMachineLib.nth_eq]
+  congr 1
+  exact SequenceProof.nth_primes_mod_of_prime _ 43 20 (by norm_num) (by norm_num) (by norm_num)
+    (fun i j h => by simp only [A142269.P5167647981052454786.f1, SequenceMachineLib.memo_apply]; omega)
+    (fun i hp => by
+      have h2 := SequenceProof.prime_mod_eq_self hp 2 (by norm_num)
+      have h3 := SequenceProof.prime_mod_eq_self hp 3 (by norm_num)
+      have h5 := SequenceProof.prime_mod_eq_self hp 5 (by norm_num)
+      have h7 := SequenceProof.prime_mod_eq_self hp 7 (by norm_num)
+      have h11 := SequenceProof.prime_mod_eq_self hp 11 (by norm_num)
+      have h13 := SequenceProof.prime_mod_eq_self hp 13 (by norm_num)
+      have h43 := SequenceProof.prime_mod_eq_self hp 43 (by norm_num)
+      simp only [A142269.P5167647981052454786.f1, SequenceMachineLib.memo_apply] at hp h2 h3 h5 h7 h11 h13 h43 ⊢
+      omega)
+    (fun x hp hx => ⟨(x - 63) / 43, by
+      have h2 := SequenceProof.prime_mod_eq_self hp 2 (by norm_num)
+      have h3 := SequenceProof.prime_mod_eq_self hp 3 (by norm_num)
+      have h5 := SequenceProof.prime_mod_eq_self hp 5 (by norm_num)
+      have h7 := SequenceProof.prime_mod_eq_self hp 7 (by norm_num)
+      have h11 := SequenceProof.prime_mod_eq_self hp 11 (by norm_num)
+      have h13 := SequenceProof.prime_mod_eq_self hp 13 (by norm_num)
+      have h43 := SequenceProof.prime_mod_eq_self hp 43 (by norm_num)
+      simp only [A142269.P5167647981052454786.f1, SequenceMachineLib.memo_apply]
+      omega⟩) _

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x satisfying 3*x^2 = csc(x) and 0",
+  "description": "Decimal expansion of least x satisfying 3*x^2 = csc(x) and 0<x<Pi.",
   "id": "A201585",
   "mentions": [
     "A201564",

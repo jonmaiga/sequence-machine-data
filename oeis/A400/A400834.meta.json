@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A400833(i) = A400833(j), for all i, j >= 1, where A400833(n) = Product_{d|n, d squarefree} A276086(A400173(n/d)).",
+  "id": "A400834",
+  "mentions": [
+    "A003415",
+    "A008836",
+    "A008966",
+    "A276085",
+    "A276086",
+    "A305800",
+    "A327859",
+    "A380460",
+    "A392878",
+    "A400173",
+    "A400832",
+    "A400833"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

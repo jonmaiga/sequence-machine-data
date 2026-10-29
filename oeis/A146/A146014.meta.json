@@ -6,13 +6,12 @@
     "A145975"
   ],
   "tags": [
-    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 90,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

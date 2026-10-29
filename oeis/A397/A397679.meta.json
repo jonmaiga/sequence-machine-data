@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of tilings of a 8 X 5n rectangle into I-pentominoes.",
+  "id": "A397679",
+  "mentions": [
+    "A247117",
+    "A247218",
+    "A397885",
+    "A398870",
+    "A398879"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

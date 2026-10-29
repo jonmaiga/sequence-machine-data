@@ -1,5 +1,5 @@
 {
-  "description": "Number of different values in n-th row of A076221.",
+  "description": "Number of different values in the n-th row of A076221.",
   "id": "A076222",
   "mentions": [
     "A076221"

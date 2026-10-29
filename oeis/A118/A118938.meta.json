@@ -1,5 +1,5 @@
 {
-  "description": "Sub-Kaprekar numbers (2): n such that n=r-q and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r",
+  "description": "Sub-Kaprekar numbers (2): n such that n=r-q and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r<10^m, with n not a power of 10.",
   "id": "A118938",
   "mentions": [
     "A006886",

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A401407: a(n) = Sum_{k=1..n} lambda(k)*chi_{-4}(k), where lambda is Liouville's function A008836 and chi_{-4} = A101455 is the nonprincipal Dirichlet character modulo 4.",
+  "id": "A401365",
+  "mentions": [
+    "A002819",
+    "A008836",
+    "A101455",
+    "A212496",
+    "A401407",
+    "A401408"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic connected bipartite H-graphs H(n:i,j;k,m) with girth 6 on 6n vertices (or nodes) for 1<=i,j,k,m",
+  "description": "Number of nonisomorphic connected bipartite H-graphs H(n:i,j;k,m) with girth 6 on 6n vertices (or nodes) for 1<=i,j,k,m<n/2.",
   "id": "A112920",
   "mentions": [
     "A112917",

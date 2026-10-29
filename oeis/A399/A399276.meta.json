@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways writing the n-th semiprime as a sum of two primes.",
+  "id": "A399276",
+  "mentions": [
+    "A001358",
+    "A002375",
+    "A061358",
+    "A062721",
+    "A089268",
+    "A157931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

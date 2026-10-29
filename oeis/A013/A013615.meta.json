@@ -1,8 +1,10 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+8x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+8*x)^n.",
   "id": "A013615",
   "mentions": [
-    "A001019"
+    "A001018",
+    "A001019",
+    "A007318"
   ],
   "tags": [
     "easy",

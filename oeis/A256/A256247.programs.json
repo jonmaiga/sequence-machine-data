@@ -19,6 +19,10 @@
         "A000040",
         "+",
         "sqrt"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

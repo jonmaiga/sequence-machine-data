@@ -1,5 +1,5 @@
 {
-  "description": "The binary expansion of a(n) tracks where the merge operations occurs in a Tim sort algorithm applied to n blocks.",
+  "description": "The binary expansion of a(n) tracks where the merge operations occur in a Tim sort algorithm applied to n blocks.",
   "id": "A376613",
   "mentions": [
     "A000079",

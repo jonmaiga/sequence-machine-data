@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer k:s for which max{x^(k-x) | x integer, 0",
+  "description": "Number of integer k:s for which max{x^(k-x) | x integer, 0<x<k} = n^(k-n).",
   "id": "A108414",
   "mentions": [],
   "tags": [

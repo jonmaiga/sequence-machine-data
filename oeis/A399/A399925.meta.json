@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A007429(k) is even.",
+  "id": "A399925",
+  "mentions": [
+    "A007429",
+    "A399924"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

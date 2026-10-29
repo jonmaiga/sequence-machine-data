@@ -2,16 +2,19 @@
   "description": "Number of fusion rings of rank 4 and multiplicity n.",
   "id": "A354472",
   "mentions": [
-    "A348305"
+    "A348305",
+    "A354471",
+    "A354473",
+    "A354475",
+    "A354476",
+    "A354477"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

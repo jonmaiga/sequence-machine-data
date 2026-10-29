@@ -1,0 +1,17 @@
+{
+  "description": "Smallest Ramanujan's largely composite number (A067128) which is divisible by prime(n).",
+  "id": "A399920",
+  "mentions": [
+    "A000005",
+    "A025487",
+    "A067128"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

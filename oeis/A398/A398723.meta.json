@@ -1,0 +1,18 @@
+{
+  "description": "Maximum population of a Conway still life in an n X n square whose live cells are connected by king moves.",
+  "id": "A398723",
+  "mentions": [
+    "A055397"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

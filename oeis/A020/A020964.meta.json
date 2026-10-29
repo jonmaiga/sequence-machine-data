@@ -1,13 +1,15 @@
 {
-  "description": "Sum of Floor[ 3*(1+sqrt(2))^(n-k) ] for k from 1 to infinity.",
+  "description": "a(n) = Sum_{k>=1} floor( 3*(1+sqrt(2))^(n-k) ).",
   "id": "A020964",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 26,
+    "offset": 0,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

@@ -1,13 +1,18 @@
 {
-  "description": "Greatest exponent in prime-power factorization of p(n)*p(n-1) + 1.",
+  "description": "Greatest exponent in prime-power factorization of prime(n)*prime(n-1) + 1; a(1) = 1.",
   "id": "A023526",
-  "mentions": [],
+  "mentions": [
+    "A023523",
+    "A051903"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled connected simple cubic graphs on 2*n vertices containing neither a 4-cycle nor an 8-cycle.",
+  "id": "A400704",
+  "mentions": [
+    "A002851",
+    "A185131",
+    "A198303",
+    "A398417"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

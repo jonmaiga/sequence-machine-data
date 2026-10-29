@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: consider the sequence a(m) = a(m-1) + sum_{0",
+  "description": "Triangle T(n,k) read by rows: consider the sequence a(m) = a(m-1) + sum_{0<j<=m/n} a(m-j*n) with a(0)=1. Row n of T(n,k) is formed by the coefficients of the recurrence relation of sequence b(i) = a(n*i).",
   "id": "A113445",
   "mentions": [
     "A000384",

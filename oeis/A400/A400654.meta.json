@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k divides 17^k + 1.",
+  "id": "A400654",
+  "mentions": [
+    "A224384",
+    "A333429"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

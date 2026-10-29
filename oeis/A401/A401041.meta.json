@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=4..n, k composite} (pi(lpf(k)) - 1), where lpf(k) = A020639(k) is the least prime factor of k.",
+  "id": "A401041",
+  "mentions": [
+    "A000720",
+    "A020639",
+    "A182843",
+    "A401040",
+    "A401042",
+    "A401043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

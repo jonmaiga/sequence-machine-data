@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sinh(x) - sinh(x)^2).",
+  "id": "A396108",
+  "mentions": [
+    "A000045",
+    "A136630",
+    "A398978",
+    "A399027"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

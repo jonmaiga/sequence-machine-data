@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form pqr, where p",
+  "description": "Numbers of the form pqr, where p<q<r are primes such that r = +/-1 (mod pq).",
   "id": "A160352",
   "mentions": [
     "A007304",

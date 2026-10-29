@@ -1,7 +1,10 @@
 {
   "description": "Sum of n-th powers of divisors of 21.",
   "id": "A034663",
-  "mentions": [],
+  "mentions": [
+    "A034472",
+    "A034491"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct proper side-crossing points among regular polygons inscribed in a common circle and aligned by their side midpoints.",
+  "id": "A399147",
+  "mentions": [
+    "A006579",
+    "A018804",
+    "A399145"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

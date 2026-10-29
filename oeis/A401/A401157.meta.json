@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the wheel Ramsey number R(W_n,W_k).",
+  "id": "A401157",
+  "mentions": [
+    "A005408",
+    "A059442",
+    "A361261",
+    "A389310",
+    "A399857",
+    "A401158"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

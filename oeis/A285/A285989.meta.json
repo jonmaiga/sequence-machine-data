@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(n) = Sum_{0 0.",
+  "description": "a(0) = 0, a(n) = Sum_{0<d|n, n/d odd} d^4 for n > 0.",
   "id": "A285989",
   "mentions": [
     "A000035",

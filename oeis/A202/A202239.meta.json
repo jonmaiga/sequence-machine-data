@@ -1,5 +1,5 @@
 {
-  "description": "n such that the sum of the factorials of the digits of n equals the sum of d|n, 1",
+  "description": "n such that the sum of the factorials of the digits of n equals the sum of d|n, 1<d<n.",
   "id": "A202239",
   "mentions": [
     "A000142",

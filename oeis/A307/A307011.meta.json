@@ -1,5 +1,5 @@
 {
-  "description": "First coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. Second and third coordinates are given in A307012 and A345978.",
+  "description": "First coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on a hexagonal grid. Second and third coordinates are given in A307012 and A345978.",
   "id": "A307011",
   "mentions": [
     "A000567",

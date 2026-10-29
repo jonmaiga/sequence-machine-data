@@ -2,6 +2,47 @@
   "oi": 104856,
   "ps": [
     {
+      "d": "2026-10-25",
+      "ix": "C(row(n), col(n))*C(col(n), floor(col(n)/2))*C(row(n)-col(n), floor((row(n)-col(n))/2))",
+      "mt": 58,
+      "px": [
+        "n",
+        "row",
+        "n",
+        "col",
+        "C",
+        "n",
+        "col",
+        "n",
+        "col",
+        "2",
+        "/",
+        "floor",
+        "C",
+        "*",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "2",
+        "/",
+        "floor",
+        "C",
+        "*"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2022-01-07",
       "ix": "A001405(A002262(n))*A107230(n)",
       "mt": 58,

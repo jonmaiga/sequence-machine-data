@@ -1,5 +1,5 @@
 {
-  "description": "Values (y-x-1)/2, where x^2+y^2=p,(x",
+  "description": "Values (y-x-1)/2, where x^2+y^2=p,(x<y) runs over the Pythagorean primes A002144.",
   "id": "A096030",
   "mentions": [
     "A002144",

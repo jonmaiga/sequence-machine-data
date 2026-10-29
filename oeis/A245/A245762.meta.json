@@ -1,8 +1,9 @@
 {
-  "description": "Maximal number of edges in a C_4 free subgraph of the n-cube.",
+  "description": "Maximum number of edges in a C_4 free subgraph of the n-cube.",
   "id": "A245762",
   "mentions": [],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

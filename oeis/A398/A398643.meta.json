@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected quasi-regular graphs on 2*n + 1 vertices.",
+  "id": "A398643",
+  "mentions": [
+    "A398639",
+    "A398641",
+    "A398642",
+    "A399015"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

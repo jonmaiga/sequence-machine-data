@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number with multiplicative partition persistence n (see A398037).",
+  "id": "A398813",
+  "mentions": [
+    "A001055",
+    "A003001",
+    "A006050",
+    "A025487",
+    "A330991",
+    "A398037",
+    "A398817"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

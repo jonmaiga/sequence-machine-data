@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1)=a(n)/x+x, with x = Max(a(k): 0<=k",
+  "description": "a(n+1)=a(n)/x+x, with x = Max(a(k): 0<=k<n and a(k)|a(n)), a(0)=a(1)=1.",
   "id": "A101504",
   "mentions": [
     "A101505"

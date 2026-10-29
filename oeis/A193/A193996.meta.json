@@ -2,6 +2,7 @@
   "description": "Numbers that require exactly 8 iterations to determine that they are happy or not (A007770 and A031177).",
   "id": "A193996",
   "mentions": [
+    "A003132",
     "A007770",
     "A031177",
     "A039943"

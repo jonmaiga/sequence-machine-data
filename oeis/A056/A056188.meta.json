@@ -1,9 +1,10 @@
 {
-  "description": "a(1) = 1; for n>1, sum of binomial(n,k) as k runs over RRS(n), the reduced residue system of n.",
+  "description": "a(1) = 1; for n > 1, sum of binomial(n,k) as k runs over RRS(n), the reduced residue system of n.",
   "id": "A056188",
   "mentions": [
     "A056045",
-    "A056189"
+    "A056189",
+    "A098792"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "joeis"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

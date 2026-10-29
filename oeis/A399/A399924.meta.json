@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A007429(k) is odd.",
+  "id": "A399924",
+  "mentions": [
+    "A007429",
+    "A028982",
+    "A399925"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

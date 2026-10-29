@@ -6,18 +6,20 @@
     "A008683",
     "A013929",
     "A030059",
+    "A030229",
     "A174891",
     "A246716",
     "A332785",
     "A353629"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

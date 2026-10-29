@@ -1,0 +1,20 @@
+{
+  "description": "Minimum site perimeter of a polyknight with n cells.",
+  "id": "A398889",
+  "mentions": [
+    "A030446",
+    "A261491",
+    "A398887",
+    "A398888",
+    "A398890"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

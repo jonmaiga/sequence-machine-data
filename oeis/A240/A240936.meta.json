@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to partition the (vertex) set {1,2,...,n} into any number of classes and then select some unordered pairs (edges) such that a and b are in distinct classes of the partition.",
+  "description": "Number of ways to partition the (vertex) set {1,2,...,n} into any number of classes and then select some unordered pairs (edges) <a,b> such that a and b are in distinct classes of the partition.",
   "id": "A240936",
   "mentions": [
     "A000569",

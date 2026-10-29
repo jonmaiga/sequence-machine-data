@@ -2,6 +2,7 @@
   "description": "a(n) is the least prime such that the multiplicative order of 4 mod a(n) equals n.",
   "id": "A112092",
   "mentions": [
+    "A002322",
     "A007138",
     "A064080",
     "A112927",

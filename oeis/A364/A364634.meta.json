@@ -2,15 +2,17 @@
   "description": "a(n) = n * LegendreP(n, 3).",
   "id": "A364634",
   "mentions": [
+    "A001850",
     "A364361"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

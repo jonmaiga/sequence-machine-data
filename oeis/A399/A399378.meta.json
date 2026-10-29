@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that are multiples of A399376(k), where A399376(k) = {Smallest prime not dividing k'}^{the least significant nonzero digit in primorial base representation of k'}, and k' stands for A003415(k), the arithmetic derivative of k.",
+  "id": "A399378",
+  "mentions": [
+    "A003415",
+    "A016825",
+    "A028233",
+    "A053669",
+    "A276086",
+    "A276088",
+    "A327859",
+    "A370115",
+    "A399376",
+    "A399379",
+    "A400154"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

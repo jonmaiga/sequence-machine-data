@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 12-element group C6 X C2 = .",
+  "description": "Cogrowth sequence of the 12-element group C6 X C2 = <S,T | S^6, T^2, [S,T]>.",
   "id": "A377627",
   "mentions": [
     "A007583",

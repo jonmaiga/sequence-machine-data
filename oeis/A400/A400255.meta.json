@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = k for those numbers [sequence A400254] whose k-th arithmetic derivative is zero for some k, but which themselves are not derivative of any number.",
+  "id": "A400255",
+  "mentions": [
+    "A003415",
+    "A098700",
+    "A099302",
+    "A099307",
+    "A099308",
+    "A189760",
+    "A400254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

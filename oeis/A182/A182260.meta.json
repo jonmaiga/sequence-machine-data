@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w",
+  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w<x+y.",
   "id": "A182260",
   "mentions": [
     "A055232",

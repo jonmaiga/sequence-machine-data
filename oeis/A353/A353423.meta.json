@@ -1,5 +1,5 @@
 {
-  "description": "For even n, a(n) = -Sum_{d|n, d",
+  "description": "For even n, a(n) = -Sum_{d|n, d<n} a(n/2) * a(d), and for odd n, a(n) = a(A064989(n)), with a(1) = 1.",
   "id": "A353423",
   "mentions": [
     "A000265",

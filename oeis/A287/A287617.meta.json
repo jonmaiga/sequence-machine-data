@@ -2,7 +2,8 @@
   "description": "Main diagonal of A045847.",
   "id": "A287617",
   "mentions": [
-    "A045847"
+    "A045847",
+    "A157136"
   ],
   "tags": [
     "formulas",

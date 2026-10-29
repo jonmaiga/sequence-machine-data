@@ -1,13 +1,18 @@
 {
-  "description": "Number of solutions in nonnegative integers of x*y+x*z+y*z = n.",
+  "description": "Number of ordered triples (x,y,z) of nonnegative integers such that x*y+x*z+y*z = n.",
   "id": "A067751",
   "mentions": [
+    "A000005",
+    "A058305",
+    "A058306",
+    "A066851",
     "A067752",
     "A067753",
     "A067754"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

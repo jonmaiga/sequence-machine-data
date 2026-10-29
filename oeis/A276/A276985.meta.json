@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of k-dimensional elements in an n-dimensional cross-polytope, n>=1, 0<=k",
+  "description": "Triangle read by rows: T(n,k) = number of k-dimensional elements in an n-dimensional cross-polytope, n>=1, 0<=k<n.",
   "id": "A276985",
   "mentions": [
     "A000079",

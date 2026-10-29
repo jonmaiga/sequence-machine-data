@@ -1,0 +1,20 @@
+{
+  "description": "Labels of successive landing squares of a rook on the Ulam spiral, starting at 2 and repeatedly moving to the smallest prime reachable without revisiting or passing over an earlier landing square.",
+  "id": "A399612",
+  "mentions": [
+    "A336413",
+    "A336446",
+    "A336447"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

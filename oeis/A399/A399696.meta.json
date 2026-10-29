@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered antichain covers of a labeled n-element set.",
+  "id": "A399696",
+  "mentions": [
+    "A006126",
+    "A008277",
+    "A037843",
+    "A056164"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

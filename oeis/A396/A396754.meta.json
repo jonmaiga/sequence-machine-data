@@ -1,0 +1,20 @@
+{
+  "description": "Number of point-determining (also called mating, or twin-free) diameter-2-critical graphs with n nodes.",
+  "id": "A396754",
+  "mentions": [
+    "A001349",
+    "A004110",
+    "A006024",
+    "A330333"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

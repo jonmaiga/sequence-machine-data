@@ -1,5 +1,5 @@
 {
-  "description": "Occurrences of most frequently occurring number in 1-to-n multiplication table.",
+  "description": "Number of occurrences of the most frequently occurring number in a 1-to-n multiplication table.",
   "id": "A057142",
   "mentions": [
     "A025487",

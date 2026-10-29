@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of points that can be chosen from an n X n grid so that no four of them lie on a common circle or on a common line.",
+  "id": "A395821",
+  "mentions": [
+    "A072567",
+    "A227133",
+    "A271906",
+    "A271907",
+    "A272651",
+    "A399894"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

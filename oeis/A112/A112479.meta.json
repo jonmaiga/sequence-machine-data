@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 + sum{p=primes",
+  "description": "a(n) = 1 + sum{p=primes<n, p does not divide n} a(p).",
   "id": "A112479",
   "mentions": [],
   "tags": [

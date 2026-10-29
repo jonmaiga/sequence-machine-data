@@ -1,0 +1,21 @@
+{
+  "description": "Hexadecimal expansion of square root of 5.",
+  "id": "A401247",
+  "mentions": [
+    "A002163",
+    "A040002",
+    "A131602",
+    "A398406",
+    "A400759"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

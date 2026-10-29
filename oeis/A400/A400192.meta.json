@@ -1,0 +1,20 @@
+{
+  "description": "Double-commas-successor to n: second term of double commas sequence if initial term is n, or -1 if there is no second term.",
+  "id": "A400192",
+  "mentions": [
+    "A121805",
+    "A365872",
+    "A366487",
+    "A367338",
+    "A400191"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

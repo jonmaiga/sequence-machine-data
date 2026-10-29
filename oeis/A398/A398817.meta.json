@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with multiplicative partition persistence 3.",
+  "id": "A398817",
+  "mentions": [
+    "A001055",
+    "A330991",
+    "A398037",
+    "A398813"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

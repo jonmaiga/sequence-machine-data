@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n/m for the smallest m such that denominator(B_{2m}) = denominator(B_{2n}), where B_k is the k-th Bernoulli number.",
+  "id": "A397480",
+  "mentions": [
+    "A002322",
+    "A002445",
+    "A027642",
+    "A045979",
+    "A119480",
+    "A248614"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

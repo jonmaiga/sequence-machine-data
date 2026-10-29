@@ -1,0 +1,20 @@
+{
+  "description": "The sequence of binary decisions that defines the unique infinite path in the base-10 comma child graph.",
+  "id": "A400003",
+  "mentions": [
+    "A121805",
+    "A367338",
+    "A367346",
+    "A367620"
+  ],
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

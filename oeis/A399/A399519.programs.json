@@ -1,0 +1,28 @@
+{
+  "oi": 399519,
+  "ps": [
+    {
+      "d": "2026-10-28",
+      "ix": "n+1-round(exp(round(log(n+1))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "n",
+        "1",
+        "+",
+        "log",
+        "round",
+        "exp",
+        "round",
+        "sub"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    }
+  ]
+}

@@ -2,15 +2,16 @@
   "description": "Determinant of the symmetric n X n matrix A defined by A[i,j] = abs(i^2 - j^2) for 1 <= i,j <= n.",
   "id": "A085799",
   "mentions": [
-    "A085750"
+    "A085750",
+    "A278858"
   ],
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
+    "offset": 0,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

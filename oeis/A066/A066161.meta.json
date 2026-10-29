@@ -1,5 +1,5 @@
 {
-  "description": "Let p = n-th prime; sequence gives ((p-2)!-1)/p.",
+  "description": "a(n) = ((p-2)! - 1)/p, where p is the n-th prime.",
   "id": "A066161",
   "mentions": [],
   "tags": [

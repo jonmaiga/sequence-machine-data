@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k with the property that the concatenation of the representations of k and k+1 in at least one base b (where 2 <= b <= k-2) forms a perfect square (Sastry number).",
+  "id": "A400880",
+  "mentions": [
+    "A030465"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m whose binary representation contains representatives of all binary words of length n up to reversal.",
+  "id": "A399587",
+  "mentions": [
+    "A247241",
+    "A400127"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

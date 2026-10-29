@@ -1,5 +1,5 @@
 {
-  "description": "Maximum of { k>0 | k",
+  "description": "Maximum of { k>0 | k<n and k is strongly prime to n }, or zero if this set is empty.",
   "id": "A181840",
   "mentions": [
     "A181830",

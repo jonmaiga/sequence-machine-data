@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A382881(n, 1) = -Sum_{d|n, 1= 2, otherwise n.",
+  "description": "a(n) = A382881(n, 1) = -Sum_{d|n, 1<d} A382881(n, d) for n >= 2, otherwise n.",
   "id": "A382883",
   "mentions": [
     "A000012",

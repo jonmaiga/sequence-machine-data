@@ -1,0 +1,16 @@
+{
+  "description": "Indices of record terms of A400415.",
+  "id": "A400416",
+  "mentions": [
+    "A001248",
+    "A400415"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -5,67 +5,63 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C025
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B002.C000
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B002.C003
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B005.C000
-import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A031000: Position of n-th 1 in A030998.
@@ -4007,7 +4003,7 @@ end
 end A031035.P3505016949784804945
 
 /-!
-# A031036: Position of n-th 0 in A031035.
+# A031036: Position of the n-th 0 in A031035.
 
 The programs for A031036, there is no canonical definition to state claims against.
 -/
@@ -5797,24 +5793,6 @@ end
 
 end A031045.P18261930610343334669
 
-/-! ## A031045.P5960054389356929878
-
-`A054634(record[A008612(A302505(n+1))])`
--/
-
-namespace A031045.P5960054389356929878
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008612 (A302505 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054634 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A031045.P5960054389356929878
-
 /-! ## A031045.P11083425672764356688
 
 `A054634(A004727(n)%A384322(3*n+1))`
@@ -5967,30 +5945,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031046.P14598519804839113408
-
-/-! ## A031046.P3736360257964013181
-
-`∑{d}[lt[A031045(n), 1], A000010(#)]`
--/
-
-namespace A031046.P3736360257964013181
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031045 n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < (f3 j : ℤ)) n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A000010 d
-
-end
-
-end A031046.P3736360257964013181
 
 /-! ## A031046.P15774908701363580803
 
@@ -11459,7 +11413,7 @@ end
 end A031092.P15796448031064162264
 
 /-!
-# A031093: Position of n-th 5 in A031087.
+# A031093: Position of the n-th 5 in A031087.
 
 The programs for A031093, there is no canonical definition to state claims against.
 -/

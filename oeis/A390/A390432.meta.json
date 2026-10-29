@@ -27,11 +27,12 @@
     "A390568"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 3,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence gives k numbers in A123181.",
+  "description": "Values of k in A123181 in the order of their appearance.",
   "id": "A123182",
   "mentions": [
     "A034448",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

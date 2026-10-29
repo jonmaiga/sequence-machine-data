@@ -1,5 +1,5 @@
 {
-  "description": "Composite integers k such that largest prime factor of k > sqrt(k).",
+  "description": "Composite integers k whose largest prime factor > sqrt(k).",
   "id": "A063763",
   "mentions": [
     "A006530",

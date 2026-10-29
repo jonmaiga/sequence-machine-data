@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = k implies that there exists a set S of positive integers such that Sum_{ s_i in S } 1/s_i = n, max(S) = k and no set S' exists with the same sum and a smaller maximal element.",
+  "description": "a(n) = k implies that there exists a set S of positive integers such that Sum_{s in S} 1/s = n, max(S) = k and no set S' exists with the same sum and a smaller maximal element.",
   "id": "A101877",
   "mentions": [
     "A002387"
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

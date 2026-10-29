@@ -2,15 +2,18 @@
   "description": "Number of planar graphs with n nodes and chromatic number 2.",
   "id": "A164099",
   "mentions": [
+    "A005470",
+    "A033995",
     "A243321"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

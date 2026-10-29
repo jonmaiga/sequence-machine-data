@@ -1,0 +1,21 @@
+{
+  "description": "Number of directed 4-regular graphs on n nodes without directed 2-cycles.",
+  "id": "A396810",
+  "mentions": [
+    "A219894",
+    "A219895",
+    "A396773",
+    "A399193"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

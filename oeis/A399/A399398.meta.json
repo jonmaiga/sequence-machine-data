@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of spanning trees in the k-twisted n X n torus grid graph, 0 <= k < n.",
+  "id": "A399398",
+  "mentions": [
+    "A212800",
+    "A399399",
+    "A399400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

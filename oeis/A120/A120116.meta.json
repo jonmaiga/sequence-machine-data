@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that sigma(uphi(n)) = n where uphi is the unitary totient (or unitary phi) function (see A047994).",
+  "description": "Numbers k such that sigma(uphi(k)) = k where uphi is the unitary totient (or unitary phi) function (see A047994).",
   "id": "A120116",
   "mentions": [
+    "A000203",
     "A019434",
     "A047994"
   ],

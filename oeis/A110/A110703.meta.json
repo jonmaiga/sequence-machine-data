@@ -1,5 +1,5 @@
 {
-  "description": "Numbers S with two neighboring run sums (sum of positive integer runs) S = a+(a+1)+..+b=(b+1)+(b+2)...+c, 0",
+  "description": "Numbers S with two neighboring run sums (sum of positive integer runs) S = a+(a+1)+..+b=(b+1)+(b+2)...+c, 0<a<b<c.",
   "id": "A110703",
   "mentions": [
     "A000217",

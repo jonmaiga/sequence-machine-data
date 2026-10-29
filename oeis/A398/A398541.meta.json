@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that every {+1,-1}-coloring of {1,...,k} contains an n-term arithmetic progression whose signed sum has absolute value >= 2.",
+  "id": "A398541",
+  "mentions": [
+    "A005346",
+    "A121894",
+    "A181740",
+    "A237695"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

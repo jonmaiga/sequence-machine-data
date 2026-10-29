@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number that differs from all previous terms at at least half of its binary digit positions; a(1) = 0.",
+  "description": "Smallest number that differs from all previous terms in at least half of its binary digit positions; a(1) = 0.",
   "id": "A394688",
   "mentions": [],
   "tags": [

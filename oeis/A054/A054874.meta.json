@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(Sum_{i",
+  "description": "a(n) = 2^(Sum_{i<n} a(i)).",
   "id": "A054874",
   "mentions": [
     "A014221",

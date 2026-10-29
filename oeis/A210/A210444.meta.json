@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0",
+  "description": "a(n) = |{0<k<n: k*n is practical, k*n-1 and k*n+1 are twin primes}|.",
   "id": "A210444",
   "mentions": [
     "A005153",

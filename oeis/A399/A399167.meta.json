@@ -1,0 +1,24 @@
+{
+  "description": "Squares visited by a \"Leopard\" (Knight + Fers + Alfil) moving on a spirally numbered board always to the lowest available unvisited square.",
+  "id": "A399167",
+  "mentions": [
+    "A000027",
+    "A316667",
+    "A316884",
+    "A317467",
+    "A396103",
+    "A398717",
+    "A398779",
+    "A398965",
+    "A399158",
+    "A399160"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

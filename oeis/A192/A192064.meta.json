@@ -1,13 +1,16 @@
 {
   "description": "Number of primes in the range [2^n-n, 2^n].",
   "id": "A192064",
-  "mentions": [],
+  "mentions": [
+    "A192542"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 79,
-    "source": "oeis-entry"
+    "size": 92,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k whose binary XOR of their distinct prime divisors is 0.",
+  "id": "A399975",
+  "mentions": [
+    "A072595",
+    "A293212"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

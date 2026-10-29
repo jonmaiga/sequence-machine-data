@@ -1,0 +1,18 @@
+{
+  "description": "Next prime after the n-th semiprime.",
+  "id": "A398131",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A151800"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

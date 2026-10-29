@@ -2,6 +2,7 @@
   "description": "a(n) = A049341(n)/3.",
   "id": "A049342",
   "mentions": [
+    "A000045",
     "A049341"
   ],
   "tags": [

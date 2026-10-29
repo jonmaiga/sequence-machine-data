@@ -1,0 +1,20 @@
+{
+  "description": "Sum of cubes of A069268: a(n) = Sum_{k=1..n} gcd(k!, k*(k+1)/2)^3.",
+  "id": "A400693",
+  "mentions": [
+    "A000217",
+    "A069268",
+    "A398065",
+    "A400687"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

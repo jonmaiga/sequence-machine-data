@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -8,65 +9,62 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C008
+import Seq.B001.C003
+import Seq.B001.C006
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A041101: Denominators of continued fraction convergents to sqrt(58).
@@ -107,46 +105,37 @@ end
 
 end A041101.P5361422882467060229
 
-/-! ## A041101.P16634882049548096575
-
-`C(A225394(n), A051064(A003480(n)))`
--/
-
-namespace A041101.P16634882049548096575
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A225394 n).toNat (A051064 (A003480 n).toNat).toNat
-
-end
-
-end A041101.P16634882049548096575
-
 /-!
 # A041104: Numerators of continued fraction convergents to sqrt(60).
 
-The programs for A041104, there is no canonical definition to state claims against.
+The programs for A041104, the canonical program `A041104.P9221153074372748139` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041104 has offset 0).
+
+The definition of A041104 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A041104.P16277478246387491935
+/-! ## A041104.P9221153074372748139
 
-`A266193(3*A041172(n))`
+`ogf((7+8x+23x^2+31x^3+23x^4-8x^5+7x^6-x^7)/(1-62x^4+x^8))`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
-namespace A041104.P16277478246387491935
-noncomputable section
+namespace A041104
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266193 (3 * A041172 n).toNat
+/-- `ogf((7+8x+23x^2+31x^3+23x^4-8x^5+7x^6-x^7)/(1-62x^4+x^8))` -/
+def P9221153074372748139.Spec : Prop :=
+  ∀ n, P9221153074372748139.a n = A041104 n
 
-end
+theorem P9221153074372748139.correct : P9221153074372748139.Spec := by
+  intro n
+  simp only [A041104]
 
-end A041104.P16277478246387491935
+end A041104
 
 /-!
 # A041105: Denominators of continued fraction convergents to sqrt(60).
 
-The programs for A041105, the canonical program `A041105.P5042149144408666189` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041105 has offset 0).
+The programs for A041105, the canonical program `A041105.P5042149144408666189` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041105 has offset 0).
 
 The definition of A041105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -155,7 +144,7 @@ The definition of A041105 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `62*a(n-4)-a(n-8)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=4, a(4)=59, a(5)=63, a(6)=185, a(7)=248`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041105
@@ -167,6 +156,29 @@ def P5042149144408666189.Spec : Prop :=
 theorem P5042149144408666189.correct : P5042149144408666189.Spec := by
   intro n
   simp only [A041105]
+
+end A041105
+
+/-! ## A041105.P16704374910449136453
+
+`ogf((1+x+3x^2+4x^3-3x^4+x^5-x^6)/(1-62x^4+x^8))`
+-/
+
+namespace A041105.P16704374910449136453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 3, 4, -3, 1, -1] [1, 0, 0, 0, -62, 0, 0, 0, 1] n
+
+end
+
+end A041105.P16704374910449136453
+
+namespace A041105
+
+/-- `ogf((1+x+3x^2+4x^3-3x^4+x^5-x^6)/(1-62x^4+x^8))` -/
+def P16704374910449136453.Spec : Prop :=
+  ∀ n, P16704374910449136453.a n = A041105 n
 
 end A041105
 
@@ -190,29 +202,6 @@ namespace A041105
 /-- `A004277(A041351(n))-A041741(n)` -/
 def P13512035671422977995.Spec : Prop :=
   ∀ n, P13512035671422977995.a n = A041105 n
-
-end A041105
-
-/-! ## A041105.P74269822479697558
-
-`A004277(A041465(n))-A042081(n)`
--/
-
-namespace A041105.P74269822479697558
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 (A041465 n).toNat - A042081 n
-
-end
-
-end A041105.P74269822479697558
-
-namespace A041105
-
-/-- `A004277(A041465(n))-A042081(n)` -/
-def P74269822479697558.Spec : Prop :=
-  ∀ n, P74269822479697558.a n = A041105 n
 
 end A041105
 
@@ -252,34 +241,42 @@ end
 
 end A041109.P7234153375231317915
 
-/-! ## A041109.P9773795690030823820
-
-`A004526(A041259(n)+A041023(n))`
--/
-
-namespace A041109.P9773795690030823820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A041259 n + A041023 n).toNat
-
-end
-
-end A041109.P9773795690030823820
-
 /-!
 # A041110: Numerators of continued fraction convergents to sqrt(63).
 
-The programs for A041110, the canonical program `A041110.P5647184166633301588` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041110 has offset 0).
+The programs for A041110, the canonical program `A041110.P5647184166633301588` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041110 has offset 0).
 
 The definition of A041110 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041110.P8469928729988418838
+
+`ogf((7+8x+7x^2-x^3)/(1-16x^2+x^4))`
+-/
+
+namespace A041110.P8469928729988418838
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, 8, 7, -1] [1, 0, -16, 0, 1] n
+
+end
+
+end A041110.P8469928729988418838
+
+namespace A041110
+
+/-- `ogf((7+8x+7x^2-x^3)/(1-16x^2+x^4))` -/
+def P8469928729988418838.Spec : Prop :=
+  ∀ n, P8469928729988418838.a n = A041110 n
+
+end A041110
 
 /-! ## A041110.P5647184166633301588
 
 `16*a(n-2)-a(n-4)` with `a(0)=7, a(1)=8, a(2)=119, a(3)=127`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041110
@@ -330,16 +327,39 @@ end A041110
 /-!
 # A041111: Denominators of continued fraction convergents to sqrt(63).
 
-The programs for A041111, the canonical program `A041111.P6815192844580179073` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041111 has offset 0).
+The programs for A041111, the canonical program `A041111.P6815192844580179073` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041111 has offset 0).
 
 The definition of A041111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041111.P17799056478017144026
+
+`ogf((1+x-x^2)/(1-16x^2+x^4))`
+-/
+
+namespace A041111.P17799056478017144026
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, -1] [1, 0, -16, 0, 1] n
+
+end
+
+end A041111.P17799056478017144026
+
+namespace A041111
+
+/-- `ogf((1+x-x^2)/(1-16x^2+x^4))` -/
+def P17799056478017144026.Spec : Prop :=
+  ∀ n, P17799056478017144026.a n = A041111 n
+
+end A041111
 
 /-! ## A041111.P6815192844580179073
 
 `16*a(n-2)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=15, a(3)=16`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041111
@@ -613,29 +633,10 @@ end A041111
 /-!
 # A041112: Numerators of continued fraction convergents to sqrt(65).
 
-The programs for A041112, the canonical program `A041112.P7179192648694745073` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041112 has offset 0).
+The programs for A041112, the canonical program `A041112.P7179192648694745073` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041112 has offset 0).
 
 The definition of A041112 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A041112.P7179192648694745073
-
-`16*a(n-1)+a(n-2)` with `a(0)=8, a(1)=129`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A041112
-
-/-- `16*a(n-1)+a(n-2)` -/
-def P7179192648694745073.Spec : Prop :=
-  ∀ n, (P7179192648694745073.a n : ℤ) = A041112 n
-
-theorem P7179192648694745073.correct : P7179192648694745073.Spec := by
-  intro n
-  simp only [A041112]
-
-end A041112
 
 /-! ## A041112.P3842309937107459558
 
@@ -657,6 +658,25 @@ namespace A041112
 /-- `ogf((8+x)/(1-16x-x^2))` -/
 def P3842309937107459558.Spec : Prop :=
   ∀ n, P3842309937107459558.a n = A041112 n
+
+end A041112
+
+/-! ## A041112.P7179192648694745073
+
+`16*a(n-1)+a(n-2)` with `a(0)=8, a(1)=129`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041112
+
+/-- `16*a(n-1)+a(n-2)` -/
+def P7179192648694745073.Spec : Prop :=
+  ∀ n, (P7179192648694745073.a n : ℤ) = A041112 n
+
+theorem P7179192648694745073.correct : P7179192648694745073.Spec := by
+  intro n
+  simp only [A041112]
 
 end A041112
 
@@ -810,16 +830,39 @@ end A041112
 /-!
 # A041113: Denominators of continued fraction convergents to sqrt(65).
 
-The programs for A041113, the canonical program `A041113.P11877642920065015939` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041113 has offset 0).
+The programs for A041113, the canonical program `A041113.P11877642920065015939` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041113 has offset 0).
 
 The definition of A041113 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041113.P11472386630896943162
+
+`ogf(1/(1-16x-x^2))`
+-/
+
+namespace A041113.P11472386630896943162
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -16, -1] n
+
+end
+
+end A041113.P11472386630896943162
+
+namespace A041113
+
+/-- `ogf(1/(1-16x-x^2))` -/
+def P11472386630896943162.Spec : Prop :=
+  ∀ n, P11472386630896943162.a n = A041113 n
+
+end A041113
 
 /-! ## A041113.P11877642920065015939
 
 `16*a(n-1)+a(n-2)` with `a(0)=1, a(1)=16`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041113
@@ -855,28 +898,24 @@ namespace A041113
 def P12830615722152951713.Spec : Prop :=
   ∀ n, P12830615722152951713.a n = (A041113 n : ℝ)
 
-end A041113
-
-/-! ## A041113.P11472386630896943162
-
-`ogf(1/(1-16x-x^2))`
--/
-
-namespace A041113.P11472386630896943162
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1] [1, -16, -1] n
-
-end
-
-end A041113.P11472386630896943162
-
-namespace A041113
-
-/-- `ogf(1/(1-16x-x^2))` -/
-def P11472386630896943162.Spec : Prop :=
-  ∀ n, P11472386630896943162.a n = A041113 n
+theorem P12830615722152951713.correct : P12830615722152951713.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A041113, Nat.add_sub_cancel, A041113.P12830615722152951713.a, A041113.P11877642920065015939.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A041113, Nat.add_sub_cancel, A041113.P12830615722152951713.a, A041113.P11877642920065015939.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A041113
 
@@ -1120,56 +1159,52 @@ end
 end A041115.P12321719607030890634
 
 /-!
-# A041117: Denominators of continued fraction convergents to sqrt(67).
-
-The programs for A041117, there is no canonical definition to state claims against.
--/
-
-/-! ## A041117.P16528821771514904425
-
-`A314127(eq[A314081(n), A314091(n)])`
--/
-
-namespace A041117.P16528821771514904425
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A314081 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A314091 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A314127 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A041117.P16528821771514904425
-
-/-!
 # A041118: Numerators of continued fraction convergents to sqrt(68).
 
-The programs for A041118, the canonical program `A041118.P17350065025436226560` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041118 has offset 0).
+The programs for A041118, the canonical program `A041118.P2883714512623568296` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041118 has offset 0).
 
-The definition of A041118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041118.P2883714512623568296
+
+`ogf((8+33x+8x^2-x^3)/(1-66x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041118
+
+/-- `ogf((8+33x+8x^2-x^3)/(1-66x^2+x^4))` -/
+def P2883714512623568296.Spec : Prop :=
+  ∀ n, P2883714512623568296.a n = A041118 n
+
+theorem P2883714512623568296.correct : P2883714512623568296.Spec := by
+  intro n
+  simp only [A041118]
+
+end A041118
 
 /-! ## A041118.P17350065025436226560
 
 `gcd(2, n)*A041024(n)`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A041118.P17350065025436226560
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.gcd 2 n : ℤ) * A041024 n
+
+end
+
+end A041118.P17350065025436226560
 
 namespace A041118
 
 /-- `gcd(2, n)*A041024(n)` -/
 def P17350065025436226560.Spec : Prop :=
   ∀ n, P17350065025436226560.a n = A041118 n
-
-theorem P17350065025436226560.correct : P17350065025436226560.Spec := by
-  intro n
-  simp only [A041118]
 
 end A041118
 
@@ -1363,16 +1398,39 @@ end A041118
 /-!
 # A041119: Denominators of continued fraction convergents to sqrt(68).
 
-The programs for A041119, the canonical program `A041119.P13741683469650599664` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041119 has offset 0).
+The programs for A041119, the canonical program `A041119.P13741683469650599664` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041119 has offset 0).
 
 The definition of A041119 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041119.P5711411045143943569
+
+`ogf((1+4x-x^2)/(1-66x^2+x^4))`
+-/
+
+namespace A041119.P5711411045143943569
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, -1] [1, 0, -66, 0, 1] n
+
+end
+
+end A041119.P5711411045143943569
+
+namespace A041119
+
+/-- `ogf((1+4x-x^2)/(1-66x^2+x^4))` -/
+def P5711411045143943569.Spec : Prop :=
+  ∀ n, P5711411045143943569.a n = A041119 n
+
+end A041119
 
 /-! ## A041119.P13741683469650599664
 
 `66*a(n-2)-a(n-4)` with `a(0)=1, a(1)=4, a(2)=65, a(3)=264`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041119
@@ -1833,27 +1891,50 @@ end A041125.P8204080259714904593
 /-!
 # A041126: Numerators of continued fraction convergents to sqrt(72).
 
-The programs for A041126, the canonical program `A041126.P9338441565477157576` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041126 has offset 0).
+The programs for A041126, the canonical program `A041126.P1088187785607999636` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041126 has offset 0).
 
-The definition of A041126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 130 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041126 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041126.P1088187785607999636
+
+`ogf((8+17x+8x^2-x^3)/(1-34x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041126
+
+/-- `ogf((8+17x+8x^2-x^3)/(1-34x^2+x^4))` -/
+def P1088187785607999636.Spec : Prop :=
+  ∀ n, P1088187785607999636.a n = A041126 n
+
+theorem P1088187785607999636.correct : P1088187785607999636.Spec := by
+  intro n
+  simp only [A041126]
+
+end A041126
 
 /-! ## A041126.P9338441565477157576
 
 `gcd(2, n)*A041026(n)`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
+
+namespace A041126.P9338441565477157576
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.gcd 2 n : ℤ) * A041026 n
+
+end
+
+end A041126.P9338441565477157576
 
 namespace A041126
 
 /-- `gcd(2, n)*A041026(n)` -/
 def P9338441565477157576.Spec : Prop :=
   ∀ n, P9338441565477157576.a n = A041126 n
-
-theorem P9338441565477157576.correct : P9338441565477157576.Spec := by
-  intro n
-  simp only [A041126]
 
 end A041126
 
@@ -2001,16 +2082,39 @@ end A041126
 /-!
 # A041127: Denominators of continued fraction convergents to sqrt(72).
 
-The programs for A041127, the canonical program `A041127.P17322848482928432042` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041127 has offset 0).
+The programs for A041127, the canonical program `A041127.P17322848482928432042` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041127 has offset 0).
 
 The definition of A041127 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041127.P11518473469760162642
+
+`ogf((1+2x-x^2)/(1-34x^2+x^4))`
+-/
+
+namespace A041127.P11518473469760162642
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -1] [1, 0, -34, 0, 1] n
+
+end
+
+end A041127.P11518473469760162642
+
+namespace A041127
+
+/-- `ogf((1+2x-x^2)/(1-34x^2+x^4))` -/
+def P11518473469760162642.Spec : Prop :=
+  ∀ n, P11518473469760162642.a n = A041127 n
+
+end A041127
 
 /-! ## A041127.P17322848482928432042
 
 `34*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=33, a(3)=68`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041127
@@ -2329,9 +2433,36 @@ end
 end A041129.P4965257945183090550
 
 /-!
+# A041130: Numerators of continued fraction convergents to sqrt(74).
+
+The programs for A041130, the canonical program `A041130.P14022006085657353170` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041130 has offset 0).
+
+The definition of A041130 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A041130.P14022006085657353170
+
+`ogf((8+9x+17x^2+26x^3+43x^4+26x^5-17x^6+9x^7-8x^8+x^9)/(1-86x^5-x^10))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041130
+
+/-- `ogf((8+9x+17x^2+26x^3+43x^4+26x^5-17x^6+9x^7-8x^8+x^9)/(1-86x^5-x^10))` -/
+def P14022006085657353170.Spec : Prop :=
+  ∀ n, P14022006085657353170.a n = A041130 n
+
+theorem P14022006085657353170.correct : P14022006085657353170.Spec := by
+  intro n
+  simp only [A041130]
+
+end A041130
+
+/-!
 # A041131: Denominators of continued fraction convergents to sqrt(74).
 
-The programs for A041131, the canonical program `A041131.P5251432017907947157` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041131 has offset 0).
+The programs for A041131, the canonical program `A041131.P5251432017907947157` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041131 has offset 0).
 
 The definition of A041131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2340,7 +2471,7 @@ The definition of A041131 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `86*a(n-5)+a(n-10)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=83, a(6)=88, a(7)=171, a(8)=259, a(9)=430`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041131
@@ -2352,6 +2483,29 @@ def P5251432017907947157.Spec : Prop :=
 theorem P5251432017907947157.correct : P5251432017907947157.Spec := by
   intro n
   simp only [A041131]
+
+end A041131
+
+/-! ## A041131.P184770100381711047
+
+`ogf((1+x+2x^2+3x^3+5x^4-3x^5+2x^6-x^7+x^8)/(1-86x^5-x^10))`
+-/
+
+namespace A041131.P184770100381711047
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 2, 3, 5, -3, 2, -1, 1] [1, 0, 0, 0, 0, -86, 0, 0, 0, 0, -1] n
+
+end
+
+end A041131.P184770100381711047
+
+namespace A041131
+
+/-- `ogf((1+x+2x^2+3x^3+5x^4-3x^5+2x^6-x^7+x^8)/(1-86x^5-x^10))` -/
+def P184770100381711047.Spec : Prop :=
+  ∀ n, P184770100381711047.a n = A041131 n
 
 end A041131
 
@@ -2378,57 +2532,32 @@ def P9449899351768702470.Spec : Prop :=
 
 end A041131
 
-/-! ## A041131.P5002541541192835256
-
-`A026741(A041343(n)+A041019(n))`
--/
-
-namespace A041131.P5002541541192835256
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026741 (A041343 n + A041019 n).toNat
-
-end
-
-end A041131.P5002541541192835256
-
-namespace A041131
-
-/-- `A026741(A041343(n)+A041019(n))` -/
-def P5002541541192835256.Spec : Prop :=
-  ∀ n, P5002541541192835256.a n = A041131 n
-
-end A041131
-
-/-! ## A041131.P8285895964058117899
-
-`A078898(A041343(n)+A041019(n))`
--/
-
-namespace A041131.P8285895964058117899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078898 (A041343 n + A041019 n).toNat
-
-end
-
-end A041131.P8285895964058117899
-
-namespace A041131
-
-/-- `A078898(A041343(n)+A041019(n))` -/
-def P8285895964058117899.Spec : Prop :=
-  ∀ n, P8285895964058117899.a n = A041131 n
-
-end A041131
-
 /-!
 # A041132: Numerators of continued fraction convergents to sqrt(75).
 
-The programs for A041132, there is no canonical definition to state claims against.
+The programs for A041132, the canonical program `A041132.P11729379597918032814` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041132 has offset 0).
+
+The definition of A041132 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041132.P11729379597918032814
+
+`ogf((8+9x+17x^2+26x^3+17x^4-9x^5+8x^6-x^7)/(1-52x^4+x^8))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041132
+
+/-- `ogf((8+9x+17x^2+26x^3+17x^4-9x^5+8x^6-x^7)/(1-52x^4+x^8))` -/
+def P11729379597918032814.Spec : Prop :=
+  ∀ n, P11729379597918032814.a n = A041132 n
+
+theorem P11729379597918032814.correct : P11729379597918032814.Spec := by
+  intro n
+  simp only [A041132]
+
+end A041132
 
 /-! ## A041132.P16848893304458532305
 
@@ -2445,10 +2574,18 @@ end
 
 end A041132.P16848893304458532305
 
+namespace A041132
+
+/-- `a(n-2)+a(n-1)*A010153(n)` -/
+def P16848893304458532305.Spec : Prop :=
+  ∀ n, P16848893304458532305.a n = A041132 n
+
+end A041132
+
 /-!
 # A041133: Denominators of continued fraction convergents to sqrt(75).
 
-The programs for A041133, the canonical program `A041133.P5086742199320334834` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041133 has offset 0).
+The programs for A041133, the canonical program `A041133.P5086742199320334834` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041133 has offset 0).
 
 The definition of A041133 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2457,7 +2594,7 @@ The definition of A041133 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `52*a(n-4)-a(n-8)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=50, a(5)=53, a(6)=103, a(7)=156`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041133
@@ -2469,6 +2606,29 @@ def P5086742199320334834.Spec : Prop :=
 theorem P5086742199320334834.correct : P5086742199320334834.Spec := by
   intro n
   simp only [A041133]
+
+end A041133
+
+/-! ## A041133.P17203107975505085691
+
+`ogf((1+x+2x^2+3x^3-2x^4+x^5-x^6)/(1-52x^4+x^8))`
+-/
+
+namespace A041133.P17203107975505085691
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 2, 3, -2, 1, -1] [1, 0, 0, 0, -52, 0, 0, 0, 1] n
+
+end
+
+end A041133.P17203107975505085691
+
+namespace A041133
+
+/-- `ogf((1+x+2x^2+3x^3-2x^4+x^5-x^6)/(1-52x^4+x^8))` -/
+def P17203107975505085691.Spec : Prop :=
+  ∀ n, P17203107975505085691.a n = A041133 n
 
 end A041133
 
@@ -2492,52 +2652,6 @@ namespace A041133
 /-- `a(n-2)+a(n-1)*A010153(n)` -/
 def P1275048380510662200.Spec : Prop :=
   ∀ n, P1275048380510662200.a n = A041133 n
-
-end A041133
-
-/-! ## A041133.P1331578400833489725
-
-`A004525(A042367(n)+A041401(n))`
--/
-
-namespace A041133.P1331578400833489725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004525 (A042367 n + A041401 n).toNat
-
-end
-
-end A041133.P1331578400833489725
-
-namespace A041133
-
-/-- `A004525(A042367(n)+A041401(n))` -/
-def P1331578400833489725.Spec : Prop :=
-  ∀ n, P1331578400833489725.a n = A041133 n
-
-end A041133
-
-/-! ## A041133.P17349570431917580761
-
-`A004526(A042367(n)+A041401(n))`
--/
-
-namespace A041133.P17349570431917580761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A042367 n + A041401 n).toNat
-
-end
-
-end A041133.P17349570431917580761
-
-namespace A041133
-
-/-- `A004526(A042367(n)+A041401(n))` -/
-def P17349570431917580761.Spec : Prop :=
-  ∀ n, P17349570431917580761.a n = A041133 n
 
 end A041133
 
@@ -2577,21 +2691,6 @@ end
 
 end A041135.P13644796373519550019
 
-/-! ## A041135.P2109090244914798182
-
-`A308158(n+1)+A275331(A011782(n))`
--/
-
-namespace A041135.P2109090244914798182
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308158 (n + 1) + A275331 (A011782 n).toNat
-
-end
-
-end A041135.P2109090244914798182
-
 /-!
 # A041137: Denominators of continued fraction convergents to sqrt(77).
 
@@ -2616,7 +2715,7 @@ end A041137.P9457338213196590496
 /-!
 # A041138: Numerators of continued fraction convergents to sqrt(78).
 
-The programs for A041138, the canonical program `A041138.P16460031689754476247` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041138 has offset 0).
+The programs for A041138, the canonical program `A041138.P16460031689754476247` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041138 has offset 0).
 
 The definition of A041138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2625,7 +2724,7 @@ The definition of A041138 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+gcd(4, n)²*a(n-1)` with `a(0)=8, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041138
@@ -2640,33 +2739,10 @@ theorem P16460031689754476247.correct : P16460031689754476247.Spec := by
 
 end A041138
 
-/-! ## A041138.P16935480476687565614
-
-`A026741(A041140(n)+A041132(n))`
--/
-
-namespace A041138.P16935480476687565614
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026741 (A041140 n + A041132 n).toNat
-
-end
-
-end A041138.P16935480476687565614
-
-namespace A041138
-
-/-- `A026741(A041140(n)+A041132(n))` -/
-def P16935480476687565614.Spec : Prop :=
-  ∀ n, P16935480476687565614.a n = A041138 n
-
-end A041138
-
 /-!
 # A041139: Denominators of continued fraction convergents to sqrt(78).
 
-The programs for A041139, the canonical program `A041139.P1183526581158809571` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041139 has offset 0).
+The programs for A041139, the canonical program `A041139.P1183526581158809571` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041139 has offset 0).
 
 The definition of A041139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2675,7 +2751,7 @@ The definition of A041139 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `106*a(n-4)-a(n-8)` with `a(0)=1, a(1)=1, a(2)=5, a(3)=6, a(4)=101, a(5)=107, a(6)=529, a(7)=636`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041139
@@ -2758,16 +2834,39 @@ end A041141.P10509720435568377551
 /-!
 # A041142: Numerators of continued fraction convergents to sqrt(80).
 
-The programs for A041142, the canonical program `A041142.P7352067332013008151` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041142 has offset 0).
+The programs for A041142, the canonical program `A041142.P7352067332013008151` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041142 has offset 0).
 
 The definition of A041142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041142.P11321535242705110540
+
+`ogf((8+9x+8x^2-x^3)/(1-18x^2+x^4))`
+-/
+
+namespace A041142.P11321535242705110540
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, 9, 8, -1] [1, 0, -18, 0, 1] n
+
+end
+
+end A041142.P11321535242705110540
+
+namespace A041142
+
+/-- `ogf((8+9x+8x^2-x^3)/(1-18x^2+x^4))` -/
+def P11321535242705110540.Spec : Prop :=
+  ∀ n, P11321535242705110540.a n = A041142 n
+
+end A041142
 
 /-! ## A041142.P7352067332013008151
 
 `18*a(n-2)-a(n-4)` with `a(0)=8, a(1)=9, a(2)=152, a(3)=161`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041142
@@ -2779,6 +2878,29 @@ def P7352067332013008151.Spec : Prop :=
 theorem P7352067332013008151.correct : P7352067332013008151.Spec := by
   intro n
   simp only [A041142]
+
+end A041142
+
+/-! ## A041142.P3076255731295724933
+
+`(5-3*(-1)^(n+1))*A000032(3*(n+1))/4`
+-/
+
+namespace A041142.P3076255731295724933
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 - 3 * (-1) ^ (n + 1)) * A000032 (3 * (n + 1)) : ℚ) / 4
+
+end
+
+end A041142.P3076255731295724933
+
+namespace A041142
+
+/-- `(5-3*(-1)^(n+1))*A000032(3*(n+1))/4` -/
+def P3076255731295724933.Spec : Prop :=
+  ∀ n, P3076255731295724933.a n = (A041142 n : ℚ)
 
 end A041142
 
@@ -3012,29 +3134,6 @@ def P15800252867581905754.Spec : Prop :=
 
 end A041142
 
-/-! ## A041142.P3076255731295724933
-
-`(5-3*(-1)^(n+1))*A000032(3*(n+1))/4`
--/
-
-namespace A041142.P3076255731295724933
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((5 - 3 * (-1) ^ (n + 1)) * A000032 (3 * (n + 1)) : ℚ) / 4
-
-end
-
-end A041142.P3076255731295724933
-
-namespace A041142
-
-/-- `(5-3*(-1)^(n+1))*A000032(3*(n+1))/4` -/
-def P3076255731295724933.Spec : Prop :=
-  ∀ n, P3076255731295724933.a n = (A041142 n : ℚ)
-
-end A041142
-
 /-! ## A041142.P10013584532157063730
 
 `A041030(n)*A006519(n²+2)`
@@ -3061,16 +3160,39 @@ end A041142
 /-!
 # A041143: Denominators of continued fraction convergents to sqrt(80).
 
-The programs for A041143, the canonical program `A041143.P9037026930062718726` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041143 has offset 0).
+The programs for A041143, the canonical program `A041143.P9037026930062718726` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041143 has offset 0).
 
 The definition of A041143 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041143.P11489721467981955292
+
+`ogf((1+x-x^2)/(1-18x^2+x^4))`
+-/
+
+namespace A041143.P11489721467981955292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, -1] [1, 0, -18, 0, 1] n
+
+end
+
+end A041143.P11489721467981955292
+
+namespace A041143
+
+/-- `ogf((1+x-x^2)/(1-18x^2+x^4))` -/
+def P11489721467981955292.Spec : Prop :=
+  ∀ n, P11489721467981955292.a n = A041143 n
+
+end A041143
 
 /-! ## A041143.P9037026930062718726
 
 `18*a(n-2)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=17, a(3)=18`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041143
@@ -3082,6 +3204,29 @@ def P9037026930062718726.Spec : Prop :=
 theorem P9037026930062718726.correct : P9037026930062718726.Spec := by
   intro n
   simp only [A041143]
+
+end A041143
+
+/-! ## A041143.P16819686610878549792
+
+`(5+3*(-1)^n)*A000045(3*(n+1))/16`
+-/
+
+namespace A041143.P16819686610878549792
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 + 3 * (-1) ^ n) * A000045 (3 * (n + 1)) : ℚ) / 16
+
+end
+
+end A041143.P16819686610878549792
+
+namespace A041143
+
+/-- `(5+3*(-1)^n)*A000045(3*(n+1))/16` -/
+def P16819686610878549792.Spec : Prop :=
+  ∀ n, P16819686610878549792.a n = (A041143 n : ℚ)
 
 end A041143
 
@@ -3471,29 +3616,10 @@ end A041143
 /-!
 # A041144: Numerators of continued fraction convergents to sqrt(82).
 
-The programs for A041144, the canonical program `A041144.P15159387347847258268` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041144 has offset 0).
+The programs for A041144, the canonical program `A041144.P15159387347847258268` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041144 has offset 0).
 
 The definition of A041144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A041144.P15159387347847258268
-
-`18*a(n-1)+a(n-2)` with `a(0)=9, a(1)=163`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A041144
-
-/-- `18*a(n-1)+a(n-2)` -/
-def P15159387347847258268.Spec : Prop :=
-  ∀ n, (P15159387347847258268.a n : ℤ) = A041144 n
-
-theorem P15159387347847258268.correct : P15159387347847258268.Spec := by
-  intro n
-  simp only [A041144]
-
-end A041144
 
 /-! ## A041144.P1036666295760245564
 
@@ -3515,6 +3641,25 @@ namespace A041144
 /-- `ogf((9+x)/(1-18x-x^2))` -/
 def P1036666295760245564.Spec : Prop :=
   ∀ n, P1036666295760245564.a n = A041144 n
+
+end A041144
+
+/-! ## A041144.P15159387347847258268
+
+`18*a(n-1)+a(n-2)` with `a(0)=9, a(1)=163`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041144
+
+/-- `18*a(n-1)+a(n-2)` -/
+def P15159387347847258268.Spec : Prop :=
+  ∀ n, (P15159387347847258268.a n : ℤ) = A041144 n
+
+theorem P15159387347847258268.correct : P15159387347847258268.Spec := by
+  intro n
+  simp only [A041144]
 
 end A041144
 
@@ -3619,29 +3764,10 @@ end A041144
 /-!
 # A041145: Denominators of continued fraction convergents to sqrt(82).
 
-The programs for A041145, the canonical program `A041145.P849536448268898359` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041145 has offset 0).
+The programs for A041145, the canonical program `A041145.P849536448268898359` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041145 has offset 0).
 
 The definition of A041145 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A041145.P849536448268898359
-
-`18*a(n-1)+a(n-2)` with `a(0)=1, a(1)=18`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A041145
-
-/-- `18*a(n-1)+a(n-2)` -/
-def P849536448268898359.Spec : Prop :=
-  ∀ n, (P849536448268898359.a n : ℤ) = A041145 n
-
-theorem P849536448268898359.correct : P849536448268898359.Spec := by
-  intro n
-  simp only [A041145]
-
-end A041145
 
 /-! ## A041145.P2883669710219137645
 
@@ -3663,6 +3789,25 @@ namespace A041145
 /-- `ogf(1/(1-18x-x^2))` -/
 def P2883669710219137645.Spec : Prop :=
   ∀ n, P2883669710219137645.a n = A041145 n
+
+end A041145
+
+/-! ## A041145.P849536448268898359
+
+`18*a(n-1)+a(n-2)` with `a(0)=1, a(1)=18`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041145
+
+/-- `18*a(n-1)+a(n-2)` -/
+def P849536448268898359.Spec : Prop :=
+  ∀ n, (P849536448268898359.a n : ℤ) = A041145 n
+
+theorem P849536448268898359.correct : P849536448268898359.Spec := by
+  intro n
+  simp only [A041145]
 
 end A041145
 
@@ -4048,7 +4193,7 @@ end A041148.P17509102327818868350
 /-!
 # A041149: Denominators of continued fraction convergents to sqrt(84).
 
-The programs for A041149, the canonical program `A041149.P10538210814641834334` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041149 has offset 0).
+The programs for A041149, the canonical program `A041149.P10538210814641834334` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041149 has offset 0).
 
 The definition of A041149 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4057,7 +4202,7 @@ The definition of A041149 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `110*a(n-2)-a(n-4)` with `a(0)=1, a(1)=6, a(2)=109, a(3)=660`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041149
@@ -4310,8 +4455,29 @@ end A041151.P7505044639927903340
 /-!
 # A041154: Numerators of continued fraction convergents to sqrt(87).
 
-The programs for A041154, there is no canonical definition to state claims against.
+The programs for A041154, the canonical program `A041154.P18024653867967636222` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041154 has offset 0).
+
+The definition of A041154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041154.P18024653867967636222
+
+`ogf((9+28x+9x^2-x^3)/(1-56x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041154
+
+/-- `ogf((9+28x+9x^2-x^3)/(1-56x^2+x^4))` -/
+def P18024653867967636222.Spec : Prop :=
+  ∀ n, P18024653867967636222.a n = A041154 n
+
+theorem P18024653867967636222.correct : P18024653867967636222.Spec := by
+  intro n
+  simp only [A041154]
+
+end A041154
 
 /-! ## A041154.P2718863878006202304
 
@@ -4331,6 +4497,14 @@ end
 
 end A041154.P2718863878006202304
 
+namespace A041154
+
+/-- `A042510(n)/Δ[A014601(n)]` -/
+def P2718863878006202304.Spec : Prop :=
+  ∀ n, P2718863878006202304.a n = (A041154 n : ℚ)
+
+end A041154
+
 /-! ## A041154.P13848068460373804328
 
 `A042510(n)/A010684(n+1)`
@@ -4346,6 +4520,14 @@ end
 
 end A041154.P13848068460373804328
 
+namespace A041154
+
+/-- `A042510(n)/A010684(n+1)` -/
+def P13848068460373804328.Spec : Prop :=
+  ∀ n, P13848068460373804328.a n = (A041154 n : ℚ)
+
+end A041154
+
 /-! ## A041154.P12485686339160639489
 
 `A042510(n)/gcd(3, A042498(n))`
@@ -4360,6 +4542,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041154.P12485686339160639489
+
+namespace A041154
+
+/-- `A042510(n)/gcd(3, A042498(n))` -/
+def P12485686339160639489.Spec : Prop :=
+  ∀ n, P12485686339160639489.a n = (A041154 n : ℚ)
+
+end A041154
 
 /-! ## A041154.P14071177132334999470
 
@@ -4379,6 +4569,14 @@ end
 
 end A041154.P14071177132334999470
 
+namespace A041154
+
+/-- `A042510(n)/Δ[A042964(n+2)]` -/
+def P14071177132334999470.Spec : Prop :=
+  ∀ n, P14071177132334999470.a n = (A041154 n : ℚ)
+
+end A041154
+
 /-! ## A041154.P3646902397138674188
 
 `A042510(n)/A010883(2*(n+1))`
@@ -4394,19 +4592,50 @@ end
 
 end A041154.P3646902397138674188
 
+namespace A041154
+
+/-- `A042510(n)/A010883(2*(n+1))` -/
+def P3646902397138674188.Spec : Prop :=
+  ∀ n, P3646902397138674188.a n = (A041154 n : ℚ)
+
+end A041154
+
 /-!
 # A041155: Denominators of continued fraction convergents to sqrt(87).
 
-The programs for A041155, the canonical program `A041155.P4241069790150363583` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041155 has offset 0).
+The programs for A041155, the canonical program `A041155.P4241069790150363583` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041155 has offset 0).
 
 The definition of A041155 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041155.P15726169464956101205
+
+`ogf((1+3x-x^2)/(1-56x^2+x^4))`
+-/
+
+namespace A041155.P15726169464956101205
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, -1] [1, 0, -56, 0, 1] n
+
+end
+
+end A041155.P15726169464956101205
+
+namespace A041155
+
+/-- `ogf((1+3x-x^2)/(1-56x^2+x^4))` -/
+def P15726169464956101205.Spec : Prop :=
+  ∀ n, P15726169464956101205.a n = A041155 n
+
+end A041155
 
 /-! ## A041155.P4241069790150363583
 
 `56*a(n-2)-a(n-4)` with `a(0)=1, a(1)=3, a(2)=55, a(3)=168`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041155
@@ -4589,21 +4818,6 @@ end
 
 end A041156.P1273126303227169632
 
-/-! ## A041156.P18235273553246477445
-
-`A081502(A042784(n))`
--/
-
-namespace A041156.P18235273553246477445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081502 (A042784 n).toNat
-
-end
-
-end A041156.P18235273553246477445
-
 /-!
 # A041157: Denominators of continued fraction convergents to sqrt(88).
 
@@ -4640,38 +4854,47 @@ end
 
 end A041157.P18158995802301816221
 
-/-! ## A041157.P10315699384400081399
-
-`A281408(∑[A084860(C(n, 5))])`
--/
-
-namespace A041157.P10315699384400081399
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084860 (Nat.choose n 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A281408 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A041157.P10315699384400081399
-
 /-!
 # A041160: Numerators of continued fraction convergents to sqrt(90).
 
-The programs for A041160, the canonical program `A041160.P4958274173460617149` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041160 has offset 0).
+The programs for A041160, the canonical program `A041160.P6638922006076426262` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041160 has offset 0).
 
-The definition of A041160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041160 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041160.P6638922006076426262
+
+`ogf((9+19x+9x^2-x^3)/(1-38x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041160
+
+/-- `ogf((9+19x+9x^2-x^3)/(1-38x^2+x^4))` -/
+def P6638922006076426262.Spec : Prop :=
+  ∀ n, P6638922006076426262.a n = A041160 n
+
+theorem P6638922006076426262.correct : P6638922006076426262.Spec := by
+  intro n
+  simp only [A041160]
+
+end A041160
 
 /-! ## A041160.P4958274173460617149
 
 `((-1)^n+2)*((3-sqrt(10))^(n+1)+(3+sqrt(10))^(n+1))/2`
-
-The canonical program, it is in `Seq.B000.C007`.
 -/
+
+namespace A041160.P4958274173460617149
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((-1) ^ n + 2 : ℝ) * (((3 - Real.sqrt (10 : ℝ)) ^ (n + 1) + (3 + Real.sqrt (10 : ℝ)) ^ (n + 1)) / 2)
+
+end
+
+end A041160.P4958274173460617149
 
 namespace A041160
 
@@ -4776,16 +4999,39 @@ end A041160
 /-!
 # A041161: Denominators of continued fraction convergents to sqrt(90).
 
-The programs for A041161, the canonical program `A041161.P9967215436243591298` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041161 has offset 0).
+The programs for A041161, the canonical program `A041161.P9967215436243591298` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041161 has offset 0).
 
 The definition of A041161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041161.P12796548586581072930
+
+`ogf((1+2x-x^2)/(1-38x^2+x^4))`
+-/
+
+namespace A041161.P12796548586581072930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -1] [1, 0, -38, 0, 1] n
+
+end
+
+end A041161.P12796548586581072930
+
+namespace A041161
+
+/-- `ogf((1+2x-x^2)/(1-38x^2+x^4))` -/
+def P12796548586581072930.Spec : Prop :=
+  ∀ n, P12796548586581072930.a n = A041161 n
+
+end A041161
 
 /-! ## A041161.P9967215436243591298
 
 `38*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=37, a(3)=76`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041161
@@ -4987,95 +5233,6 @@ def P138288059905510748.Spec : Prop :=
 
 end A041161
 
-/-! ## A041161.P6113528995393702336
-
-`gcd(∑[A097315(n)], A078469(n+1))`
--/
-
-namespace A041161.P6113528995393702336
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097315 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (∑ j ∈ Finset.range (n + 1), f1 j) (A078469 (n + 1))
-
-end
-
-end A041161.P6113528995393702336
-
-namespace A041161
-
-/-- `gcd(∑[A097315(n)], A078469(n+1))` -/
-def P6113528995393702336.Spec : Prop :=
-  ∀ n, (P6113528995393702336.a n : ℤ) = A041161 n
-
-end A041161
-
-/-!
-# A041162: Numerators of continued fraction convergents to sqrt(91).
-
-The programs for A041162, there is no canonical definition to state claims against.
--/
-
-/-! ## A041162.P16582175368655742113
-
-`A196108(A112912(n)%A006450(2*n+1))`
--/
-
-namespace A041162.P16582175368655742113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196108 (Int.tmod (A112912 n) (A006450 (2 * n + 1))).toNat
-
-end
-
-end A041162.P16582175368655742113
-
-/-!
-# A041164: Numerators of continued fraction convergents to sqrt(92).
-
-The programs for A041164, there is no canonical definition to state claims against.
--/
-
-/-! ## A041164.P9452412135071442349
-
-`A358725(A351813(n))+A052852(n)`
--/
-
-namespace A041164.P9452412135071442349
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358725 (A351813 n).toNat + A052852 n
-
-end
-
-end A041164.P9452412135071442349
-
-/-!
-# A041166: Numerators of continued fraction convergents to sqrt(93).
-
-The programs for A041166, there is no canonical definition to state claims against.
--/
-
-/-! ## A041166.P8466677954152167369
-
-`A328320(n+1)+A005877(A062207(n))`
--/
-
-namespace A041166.P8466677954152167369
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328320 (n + 1) + A005877 (A062207 n).toNat
-
-end
-
-end A041166.P8466677954152167369
-
 /-!
 # A041167: Denominators of continued fraction convergents to sqrt(93).
 
@@ -5098,9 +5255,36 @@ end
 end A041167.P9967784352762186853
 
 /-!
+# A041170: Numerators of continued fraction convergents to sqrt(95).
+
+The programs for A041170, the canonical program `A041170.P5520537733315919770` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041170 has offset 0).
+
+The definition of A041170 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A041170.P5520537733315919770
+
+`ogf((9+10x+29x^2+39x^3+29x^4-10x^5+9x^6-x^7)/(1-78x^4+x^8))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041170
+
+/-- `ogf((9+10x+29x^2+39x^3+29x^4-10x^5+9x^6-x^7)/(1-78x^4+x^8))` -/
+def P5520537733315919770.Spec : Prop :=
+  ∀ n, P5520537733315919770.a n = A041170 n
+
+theorem P5520537733315919770.correct : P5520537733315919770.Spec := by
+  intro n
+  simp only [A041170]
+
+end A041170
+
+/-!
 # A041171: Denominators of continued fraction convergents to sqrt(95).
 
-The programs for A041171, the canonical program `A041171.P6429405310128368168` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041171 has offset 0).
+The programs for A041171, the canonical program `A041171.P6429405310128368168` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041171 has offset 0).
 
 The definition of A041171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5109,7 +5293,7 @@ The definition of A041171 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `78*a(n-4)-a(n-8)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=4, a(4)=75, a(5)=79, a(6)=233, a(7)=312`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041171
@@ -5121,6 +5305,29 @@ def P6429405310128368168.Spec : Prop :=
 theorem P6429405310128368168.correct : P6429405310128368168.Spec := by
   intro n
   simp only [A041171]
+
+end A041171
+
+/-! ## A041171.P10547325240616984226
+
+`ogf((1+x+3x^2+4x^3-3x^4+x^5-x^6)/(1-78x^4+x^8))`
+-/
+
+namespace A041171.P10547325240616984226
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 3, 4, -3, 1, -1] [1, 0, 0, 0, -78, 0, 0, 0, 1] n
+
+end
+
+end A041171.P10547325240616984226
+
+namespace A041171
+
+/-- `ogf((1+x+3x^2+4x^3-3x^4+x^5-x^6)/(1-78x^4+x^8))` -/
+def P10547325240616984226.Spec : Prop :=
+  ∀ n, P10547325240616984226.a n = A041171 n
 
 end A041171
 
@@ -5147,77 +5354,37 @@ def P6896082754581456541.Spec : Prop :=
 
 end A041171
 
-/-! ## A041171.P10243233181598055955
-
-`A001281(A041465(n)+A041021(n))`
--/
-
-namespace A041171.P10243233181598055955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001281 (A041465 n + A041021 n).toNat
-
-end
-
-end A041171.P10243233181598055955
-
-namespace A041171
-
-/-- `A001281(A041465(n)+A041021(n))` -/
-def P10243233181598055955.Spec : Prop :=
-  ∀ n, P10243233181598055955.a n = A041171 n
-
-end A041171
-
-/-! ## A041171.P10579479974761958301
-
-`A004525(A041253(n)+A041105(n))`
--/
-
-namespace A041171.P10579479974761958301
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004525 (A041253 n + A041105 n).toNat
-
-end
-
-end A041171.P10579479974761958301
-
-namespace A041171
-
-/-- `A004525(A041253(n)+A041105(n))` -/
-def P10579479974761958301.Spec : Prop :=
-  ∀ n, P10579479974761958301.a n = A041171 n
-
-end A041171
-
 /-!
 # A041172: Numerators of continued fraction convergents to sqrt(96).
 
-The programs for A041172, there is no canonical definition to state claims against.
+The programs for A041172, the canonical program `A041172.P1231726723273878460` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041172 has offset 0).
+
+The definition of A041172 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A041172.P3329216471356326341
+/-! ## A041172.P1231726723273878460
 
-`A004525(A041728(n)*A095062(n+1))`
+`ogf((9+10x+39x^2+49x^3+39x^4-10x^5+9x^6-x^7)/(1-98x^4+x^8))`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
-namespace A041172.P3329216471356326341
-noncomputable section
+namespace A041172
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004525 (A041728 n * A095062 (n + 1)).toNat
+/-- `ogf((9+10x+39x^2+49x^3+39x^4-10x^5+9x^6-x^7)/(1-98x^4+x^8))` -/
+def P1231726723273878460.Spec : Prop :=
+  ∀ n, P1231726723273878460.a n = A041172 n
 
-end
+theorem P1231726723273878460.correct : P1231726723273878460.Spec := by
+  intro n
+  simp only [A041172]
 
-end A041172.P3329216471356326341
+end A041172
 
 /-!
 # A041173: Denominators of continued fraction convergents to sqrt(96).
 
-The programs for A041173, the canonical program `A041173.P260030892562612781` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041173 has offset 0).
+The programs for A041173, the canonical program `A041173.P260030892562612781` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041173 has offset 0).
 
 The definition of A041173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5226,7 +5393,7 @@ The definition of A041173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `98*a(n-4)-a(n-8)` with `a(0)=1, a(1)=1, a(2)=4, a(3)=5, a(4)=94, a(5)=99, a(6)=391, a(7)=490`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041173
@@ -5238,6 +5405,29 @@ def P260030892562612781.Spec : Prop :=
 theorem P260030892562612781.correct : P260030892562612781.Spec := by
   intro n
   simp only [A041173]
+
+end A041173
+
+/-! ## A041173.P12575128339133043675
+
+`ogf((1+x+4x^2+5x^3-4x^4+x^5-x^6)/(1-98x^4+x^8))`
+-/
+
+namespace A041173.P12575128339133043675
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 4, 5, -4, 1, -1] [1, 0, 0, 0, -98, 0, 0, 0, 1] n
+
+end
+
+end A041173.P12575128339133043675
+
+namespace A041173
+
+/-- `ogf((1+x+4x^2+5x^3-4x^4+x^5-x^6)/(1-98x^4+x^8))` -/
+def P12575128339133043675.Spec : Prop :=
+  ∀ n, P12575128339133043675.a n = A041173 n
 
 end A041173
 
@@ -5263,73 +5453,6 @@ def P12999593162151832949.Spec : Prop :=
   ∀ n, P12999593162151832949.a n = A041173 n
 
 end A041173
-
-/-! ## A041173.P4908445538671797031
-
-`A004525(A041409(n)+A041037(n))`
--/
-
-namespace A041173.P4908445538671797031
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004525 (A041409 n + A041037 n).toNat
-
-end
-
-end A041173.P4908445538671797031
-
-namespace A041173
-
-/-- `A004525(A041409(n)+A041037(n))` -/
-def P4908445538671797031.Spec : Prop :=
-  ∀ n, P4908445538671797031.a n = A041173 n
-
-end A041173
-
-/-! ## A041173.P5341928914392525901
-
-`A004526(A041409(n)+A041037(n))`
--/
-
-namespace A041173.P5341928914392525901
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A041409 n + A041037 n).toNat
-
-end
-
-end A041173.P5341928914392525901
-
-namespace A041173
-
-/-- `A004526(A041409(n)+A041037(n))` -/
-def P5341928914392525901.Spec : Prop :=
-  ∀ n, P5341928914392525901.a n = A041173 n
-
-end A041173
-
-/-!
-# A041174: Numerators of continued fraction convergents to sqrt(97).
-
-The programs for A041174, there is no canonical definition to state claims against.
--/
-
-/-! ## A041174.P8410760536413478114
-
-`A182846(A226818(n+1)+A003961(3*(n+1)))`
--/
-
-namespace A041174.P8410760536413478114
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182846 (A226818 (n + 1) + A003961 (3 * (n + 1))).toNat
-
-end
-
-end A041174.P8410760536413478114
 
 /-!
 # A041175: Denominators of continued fraction convergents to sqrt(97).
@@ -5399,23 +5522,6 @@ end
 
 end A041175.P12662160732839422720
 
-/-! ## A041175.P9432970267592567210
-
-`A000194((a(n-1)-round(-a(n-2)))²)` with `a(0)=1, a(1)=1, a(2)=6`
-
-`round` is left out, it is the identity on integers.
--/
-
-namespace A041175.P9432970267592567210
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 6] fun n a =>
-  A000194 ((a (n - 1) - (-a (n - 2))) ^ 2).toNat
-
-end
-
-end A041175.P9432970267592567210
-
 /-!
 # A041177: Denominators of continued fraction convergents to sqrt(98).
 
@@ -5455,27 +5561,53 @@ end A041177.P647715338400075548
 /-!
 # A041178: Numerators of continued fraction convergents to sqrt(99).
 
-The programs for A041178, the canonical program `A041178.P9895779201738330733` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041178 has offset 0).
+The programs for A041178, the canonical program `A041178.P1006599862422733848` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041178 has offset 0).
 
-The definition of A041178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041178 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041178.P1006599862422733848
+
+`ogf((9+10x+9x^2-x^3)/(1-20x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041178
+
+/-- `ogf((9+10x+9x^2-x^3)/(1-20x^2+x^4))` -/
+def P1006599862422733848.Spec : Prop :=
+  ∀ n, P1006599862422733848.a n = A041178 n
+
+theorem P1006599862422733848.correct : P1006599862422733848.Spec := by
+  intro n
+  simp only [A041178]
+
+end A041178
 
 /-! ## A041178.P9895779201738330733
 
 `Δ[A014601(n)]*A041014(n)`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A041178.P9895779201738330733
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014601 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) - f1 n) * A041014 n
+
+end
+
+end A041178.P9895779201738330733
 
 namespace A041178
 
 /-- `Δ[A014601(n)]*A041014(n)` -/
 def P9895779201738330733.Spec : Prop :=
   ∀ n, P9895779201738330733.a n = A041178 n
-
-theorem P9895779201738330733.correct : P9895779201738330733.Spec := by
-  intro n
-  simp only [A041178]
 
 end A041178
 
@@ -5626,16 +5758,39 @@ end A041178
 /-!
 # A041179: Denominators of continued fraction convergents to sqrt(99).
 
-The programs for A041179, the canonical program `A041179.P17684239972321436015` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041179 has offset 0).
+The programs for A041179, the canonical program `A041179.P17684239972321436015` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041179 has offset 0).
 
 The definition of A041179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041179.P7539097159176619353
+
+`ogf((1+x-x^2)/(1-20x^2+x^4))`
+-/
+
+namespace A041179.P7539097159176619353
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, -1] [1, 0, -20, 0, 1] n
+
+end
+
+end A041179.P7539097159176619353
+
+namespace A041179
+
+/-- `ogf((1+x-x^2)/(1-20x^2+x^4))` -/
+def P7539097159176619353.Spec : Prop :=
+  ∀ n, P7539097159176619353.a n = A041179 n
+
+end A041179
 
 /-! ## A041179.P17684239972321436015
 
 `20*a(n-2)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=19, a(3)=20`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041179
@@ -5823,29 +5978,10 @@ end A041179
 /-!
 # A041180: Numerators of continued fraction convergents to sqrt(101).
 
-The programs for A041180, the canonical program `A041180.P2630406197751419655` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041180 has offset 0).
+The programs for A041180, the canonical program `A041180.P2630406197751419655` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041180 has offset 0).
 
 The definition of A041180 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A041180.P2630406197751419655
-
-`20*a(n-1)+a(n-2)` with `a(0)=10, a(1)=201`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A041180
-
-/-- `20*a(n-1)+a(n-2)` -/
-def P2630406197751419655.Spec : Prop :=
-  ∀ n, (P2630406197751419655.a n : ℤ) = A041180 n
-
-theorem P2630406197751419655.correct : P2630406197751419655.Spec := by
-  intro n
-  simp only [A041180]
-
-end A041180
 
 /-! ## A041180.P7051313741588271799
 
@@ -5867,6 +6003,25 @@ namespace A041180
 /-- `ogf((10+x)/(1-20x-x^2))` -/
 def P7051313741588271799.Spec : Prop :=
   ∀ n, P7051313741588271799.a n = A041180 n
+
+end A041180
+
+/-! ## A041180.P2630406197751419655
+
+`20*a(n-1)+a(n-2)` with `a(0)=10, a(1)=201`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041180
+
+/-- `20*a(n-1)+a(n-2)` -/
+def P2630406197751419655.Spec : Prop :=
+  ∀ n, (P2630406197751419655.a n : ℤ) = A041180 n
+
+theorem P2630406197751419655.correct : P2630406197751419655.Spec := by
+  intro n
+  simp only [A041180]
 
 end A041180
 
@@ -6069,29 +6224,10 @@ end A041180
 /-!
 # A041181: Denominators of continued fraction convergents to sqrt(101).
 
-The programs for A041181, the canonical program `A041181.P7418229576895434928` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041181 has offset 0).
+The programs for A041181, the canonical program `A041181.P7418229576895434928` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041181 has offset 0).
 
 The definition of A041181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A041181.P7418229576895434928
-
-`20*a(n-1)+a(n-2)` with `a(0)=1, a(1)=20`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A041181
-
-/-- `20*a(n-1)+a(n-2)` -/
-def P7418229576895434928.Spec : Prop :=
-  ∀ n, (P7418229576895434928.a n : ℤ) = A041181 n
-
-theorem P7418229576895434928.correct : P7418229576895434928.Spec := by
-  intro n
-  simp only [A041181]
-
-end A041181
 
 /-! ## A041181.P5928073121530218788
 
@@ -6113,6 +6249,25 @@ namespace A041181
 /-- `ogf(1/(1-20x-x^2))` -/
 def P5928073121530218788.Spec : Prop :=
   ∀ n, P5928073121530218788.a n = A041181 n
+
+end A041181
+
+/-! ## A041181.P7418229576895434928
+
+`20*a(n-1)+a(n-2)` with `a(0)=1, a(1)=20`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041181
+
+/-- `20*a(n-1)+a(n-2)` -/
+def P7418229576895434928.Spec : Prop :=
+  ∀ n, (P7418229576895434928.a n : ℤ) = A041181 n
+
+theorem P7418229576895434928.correct : P7418229576895434928.Spec := by
+  intro n
+  simp only [A041181]
 
 end A041181
 
@@ -6595,7 +6750,7 @@ end A041186.P6067154021313657770
 /-!
 # A041187: Denominators of continued fraction convergents to sqrt(104).
 
-The programs for A041187, the canonical program `A041187.P9437160457134202649` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041187 has offset 0).
+The programs for A041187, the canonical program `A041187.P9437160457134202649` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041187 has offset 0).
 
 The definition of A041187 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6604,7 +6759,7 @@ The definition of A041187 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `102*a(n-2)-a(n-4)` with `a(0)=1, a(1)=5, a(2)=101, a(3)=510`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041187
@@ -6832,8 +6987,29 @@ end A041187
 /-!
 # A041188: Numerators of continued fraction convergents to sqrt(105).
 
-The programs for A041188, there is no canonical definition to state claims against.
+The programs for A041188, the canonical program `A041188.P10514664142406107702` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041188 has offset 0).
+
+The definition of A041188 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041188.P10514664142406107702
+
+`ogf((10+41x+10x^2-x^3)/(1-82x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041188
+
+/-- `ogf((10+41x+10x^2-x^3)/(1-82x^2+x^4))` -/
+def P10514664142406107702.Spec : Prop :=
+  ∀ n, P10514664142406107702.a n = A041188 n
+
+theorem P10514664142406107702.correct : P10514664142406107702.Spec := by
+  intro n
+  simp only [A041188]
+
+end A041188
 
 /-! ## A041188.P10455314066023270340
 
@@ -6849,6 +7025,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041188.P10455314066023270340
+
+namespace A041188
+
+/-- `A041798(n)/gcd(2, n)` -/
+def P10455314066023270340.Spec : Prop :=
+  ∀ n, P10455314066023270340.a n = (A041188 n : ℚ)
+
+end A041188
 
 /-! ## A041188.P6640805581733514158
 
@@ -6868,6 +7052,14 @@ end
 
 end A041188.P6640805581733514158
 
+namespace A041188
+
+/-- `A041798(n)/Δ[A007494(n)]` -/
+def P6640805581733514158.Spec : Prop :=
+  ∀ n, P6640805581733514158.a n = (A041188 n : ℚ)
+
+end A041188
+
 /-! ## A041188.P14760166003114100379
 
 `A041798(n)/A000034(n+1)`
@@ -6882,6 +7074,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041188.P14760166003114100379
+
+namespace A041188
+
+/-- `A041798(n)/A000034(n+1)` -/
+def P14760166003114100379.Spec : Prop :=
+  ∀ n, P14760166003114100379.a n = (A041188 n : ℚ)
+
+end A041188
 
 /-! ## A041188.P6107947010705123050
 
@@ -6898,6 +7098,14 @@ end
 
 end A041188.P6107947010705123050
 
+namespace A041188
+
+/-- `A041798(n)/A040001(n+2)` -/
+def P6107947010705123050.Spec : Prop :=
+  ∀ n, P6107947010705123050.a n = (A041188 n : ℚ)
+
+end A041188
+
 /-! ## A041188.P12971677956072389774
 
 `A000034(n)/2*A041798(n)`
@@ -6912,6 +7120,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041188.P12971677956072389774
+
+namespace A041188
+
+/-- `A000034(n)/2*A041798(n)` -/
+def P12971677956072389774.Spec : Prop :=
+  ∀ n, P12971677956072389774.a n = (A041188 n : ℚ)
+
+end A041188
 
 /-! ## A041188.P16044133307261922650
 
@@ -6931,6 +7147,14 @@ end
 
 end A041188.P16044133307261922650
 
+namespace A041188
+
+/-- `A041798(n)/A006519(record[xor(2, n)])` -/
+def P16044133307261922650.Spec : Prop :=
+  ∀ n, P16044133307261922650.a n = (A041188 n : ℚ)
+
+end A041188
+
 /-! ## A041188.P16786972003766930005
 
 `A041798(n)/A006519(A006519(n+1)+1)`
@@ -6945,6 +7169,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041188.P16786972003766930005
+
+namespace A041188
+
+/-- `A041798(n)/A006519(A006519(n+1)+1)` -/
+def P16786972003766930005.Spec : Prop :=
+  ∀ n, P16786972003766930005.a n = (A041188 n : ℚ)
+
+end A041188
 
 /-! ## A041188.P17791967735163830158
 
@@ -6961,6 +7193,14 @@ end
 
 end A041188.P17791967735163830158
 
+namespace A041188
+
+/-- `A041798(n)/A001511(n²+2)` -/
+def P17791967735163830158.Spec : Prop :=
+  ∀ n, P17791967735163830158.a n = (A041188 n : ℚ)
+
+end A041188
+
 /-! ## A041188.P16450532042315891349
 
 `A041798(n)/A006519(n²+2)`
@@ -6976,19 +7216,50 @@ end
 
 end A041188.P16450532042315891349
 
+namespace A041188
+
+/-- `A041798(n)/A006519(n²+2)` -/
+def P16450532042315891349.Spec : Prop :=
+  ∀ n, P16450532042315891349.a n = (A041188 n : ℚ)
+
+end A041188
+
 /-!
 # A041189: Denominators of continued fraction convergents to sqrt(105).
 
-The programs for A041189, the canonical program `A041189.P6225501342174578916` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041189 has offset 0).
+The programs for A041189, the canonical program `A041189.P6225501342174578916` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041189 has offset 0).
 
 The definition of A041189 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041189.P10304055243090506223
+
+`ogf((1+4x-x^2)/(1-82x^2+x^4))`
+-/
+
+namespace A041189.P10304055243090506223
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, -1] [1, 0, -82, 0, 1] n
+
+end
+
+end A041189.P10304055243090506223
+
+namespace A041189
+
+/-- `ogf((1+4x-x^2)/(1-82x^2+x^4))` -/
+def P10304055243090506223.Spec : Prop :=
+  ∀ n, P10304055243090506223.a n = A041189 n
+
+end A041189
 
 /-! ## A041189.P6225501342174578916
 
 `82*a(n-2)-a(n-4)` with `a(0)=1, a(1)=4, a(2)=81, a(3)=328`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041189
@@ -7145,27 +7416,6 @@ def P11883582663604804540.Spec : Prop :=
 end A041189
 
 /-!
-# A041190: Numerators of continued fraction convergents to sqrt(106).
-
-The programs for A041190, there is no canonical definition to state claims against.
--/
-
-/-! ## A041190.P509263956818083578
-
-`A054404(A042434(n))+n`
--/
-
-namespace A041190.P509263956818083578
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054404 (A042434 n).toNat + (n : ℤ)
-
-end
-
-end A041190.P509263956818083578
-
-/-!
 # A041191: Denominators of continued fraction convergents to sqrt(106).
 
 The programs for A041191, there is no canonical definition to state claims against.
@@ -7216,21 +7466,6 @@ end
 
 end A041191.P18349779191879597782
 
-/-! ## A041191.P8437430677616876648
-
-`A002024(A042343(n)*A042343(n))`
--/
-
-namespace A041191.P8437430677616876648
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A042343 n * A042343 n).toNat
-
-end
-
-end A041191.P8437430677616876648
-
 /-!
 # A041192: Numerators of continued fraction convergents to sqrt(107).
 
@@ -7253,27 +7488,6 @@ end
 end A041192.P14434470283567423609
 
 /-!
-# A041194: Numerators of continued fraction convergents to sqrt(108).
-
-The programs for A041194, there is no canonical definition to state claims against.
--/
-
-/-! ## A041194.P3333125479436173179
-
-`or(A000110(n+2), A360555(A038872(2*(n+1))))`
--/
-
-namespace A041194.P3333125479436173179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000110 (n + 2)) (A360555 (A038872 (2 * (n + 1))).toNat)
-
-end
-
-end A041194.P3333125479436173179
-
-/-!
 # A041197: Denominators of continued fraction convergents to sqrt(109).
 
 The programs for A041197, there is no canonical definition to state claims against.
@@ -7294,34 +7508,42 @@ end
 
 end A041197.P8318278917553301820
 
-/-! ## A041197.P3831147939159972278
-
-`A082962(A028986(n+1))`
--/
-
-namespace A041197.P3831147939159972278
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082962 (A028986 (n + 1)).toNat
-
-end
-
-end A041197.P3831147939159972278
-
 /-!
 # A041198: Numerators of continued fraction convergents to sqrt(110).
 
-The programs for A041198, the canonical program `A041198.P17033337696546334705` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041198 has offset 0).
+The programs for A041198, the canonical program `A041198.P17033337696546334705` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041198 has offset 0).
 
 The definition of A041198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041198.P614100952489674892
+
+`ogf((10+21x+10x^2-x^3)/(1-42x^2+x^4))`
+-/
+
+namespace A041198.P614100952489674892
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [10, 21, 10, -1] [1, 0, -42, 0, 1] n
+
+end
+
+end A041198.P614100952489674892
+
+namespace A041198
+
+/-- `ogf((10+21x+10x^2-x^3)/(1-42x^2+x^4))` -/
+def P614100952489674892.Spec : Prop :=
+  ∀ n, P614100952489674892.a n = A041198 n
+
+end A041198
 
 /-! ## A041198.P17033337696546334705
 
 `42*a(n-2)-a(n-4)` with `a(0)=10, a(1)=21, a(2)=430, a(3)=881`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A041198
@@ -7526,27 +7748,50 @@ end A041198
 /-!
 # A041199: Denominators of continued fraction convergents to sqrt(110).
 
-The programs for A041199, the canonical program `A041199.P323986147853554014` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041199 has offset 0).
+The programs for A041199, the canonical program `A041199.P16928882617088267696` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041199 has offset 0).
 
-The definition of A041199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041199.P16928882617088267696
+
+`ogf((1+2x-x^2)/(1-42x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A041199
+
+/-- `ogf((1+2x-x^2)/(1-42x^2+x^4))` -/
+def P16928882617088267696.Spec : Prop :=
+  ∀ n, P16928882617088267696.a n = A041199 n
+
+theorem P16928882617088267696.correct : P16928882617088267696.Spec := by
+  intro n
+  simp only [A041199]
+
+end A041199
 
 /-! ## A041199.P323986147853554014
 
 `gcd(2, n+1)*A041839(n)`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A041199.P323986147853554014
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.gcd 2 (n + 1) : ℤ) * A041839 n
+
+end
+
+end A041199.P323986147853554014
 
 namespace A041199
 
 /-- `gcd(2, n+1)*A041839(n)` -/
 def P323986147853554014.Spec : Prop :=
   ∀ n, P323986147853554014.a n = A041199 n
-
-theorem P323986147853554014.correct : P323986147853554014.Spec := by
-  intro n
-  simp only [A041199]
 
 end A041199
 

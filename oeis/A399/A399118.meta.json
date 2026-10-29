@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of inclusion-maximal Sidon subsets of {1, ..., n} having cardinality k, where A382397(n) <= k <= A143824(n).",
+  "id": "A399118",
+  "mentions": [
+    "A143823",
+    "A143824",
+    "A325879",
+    "A382395",
+    "A382397",
+    "A398429",
+    "A399119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

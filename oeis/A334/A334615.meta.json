@@ -2,17 +2,25 @@
   "description": "a(n) is the number of semi-meanders with n top arches that has no arch of length 1 at the ends of the top arch configuration and no arch of length 1 adjacent to the center of the top arch configuration.",
   "id": "A334615",
   "mentions": [
+    "A000560",
     "A000682",
-    "A301620"
+    "A001010",
+    "A005316",
+    "A217310",
+    "A223093",
+    "A223094",
+    "A227167",
+    "A259702",
+    "A301620",
+    "A337581"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

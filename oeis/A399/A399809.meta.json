@@ -1,0 +1,18 @@
+{
+  "description": "Number of Hausdorff antichains of nonempty proper subsets of an n-set.",
+  "id": "A399809",
+  "mentions": [
+    "A000372",
+    "A398881"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

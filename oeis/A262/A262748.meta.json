@@ -1,5 +1,5 @@
 {
-  "description": "Composite odd numbers m such that q is not equal to -1 (mod p) for every pair p,q",
+  "description": "Composite odd numbers m such that q is not equal to -1 (mod p) for every pair p,q<m satisfying the following two conditions: p is a prime divisor of m, and if a prime divides q then it divides m. These are called present numbers.",
   "id": "A262748",
   "mentions": [
     "A135506",

@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct nonegative integers whose binary values, when written on a square spiral, one bit per square, high order bits first, contain no pair of 1 bits that are diagonally adjacent.",
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers whose binary values, when written on a square spiral, one bit per square, high order bits first, contain no pair of 1 bits that are diagonally adjacent.",
   "id": "A396607",
   "mentions": [
     "A007088",

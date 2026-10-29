@@ -1,7 +1,11 @@
 {
   "description": "a(n) = 2^((2 + n + n^2)/2).",
   "id": "A217994",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A000124",
+    "A006125"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

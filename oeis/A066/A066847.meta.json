@@ -1,7 +1,9 @@
 {
   "description": "Integers of the form m! + n!, m and n = positive integers.",
   "id": "A066847",
-  "mentions": [],
+  "mentions": [
+    "A301523"
+  ],
   "tags": [
     "easy",
     "nonn"

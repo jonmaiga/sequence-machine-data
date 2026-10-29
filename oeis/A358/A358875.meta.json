@@ -1,5 +1,5 @@
 {
-  "description": "Regular table of distinct nonnegative integers built by greedy algorithm such the binary expansions of two distinct terms in the same row have no common 1's.",
+  "description": "Regular table of distinct nonnegative integers built by greedy algorithm such that the binary expansions of two distinct terms in the same row have no common 1's.",
   "id": "A358875",
   "mentions": [
     "A076034",

@@ -1,10 +1,13 @@
 {
-  "description": "Average of four primes that have nonnegative integer Schwartzian derivative.",
+  "description": "a(n) = half the sum of primes n-3 to n when their Schwarzian-type difference is nonnegative, else 0.",
   "id": "A094902",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
-    "formulas",
-    "nonn"
+    "less",
+    "nonn",
+    "uned"
   ],
   "terms": {
     "offset": 4,

@@ -2,6 +2,8 @@
   "description": "Related to enumeration of quantum states (see reference for precise definition).",
   "id": "A144677",
   "mentions": [
+    "A000110",
+    "A000217",
     "A000292",
     "A006918",
     "A014125",
@@ -9,7 +11,11 @@
     "A144679",
     "A159797",
     "A180662",
-    "A190717"
+    "A190717",
+    "A211534",
+    "A397811",
+    "A398390",
+    "A398816"
   ],
   "tags": [
     "easy",

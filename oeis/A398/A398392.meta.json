@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of inequivalent placements of 4 nonattacking rooks on an n X n board, up to rotations.",
+  "id": "A398392",
+  "mentions": [
+    "A277226",
+    "A398393",
+    "A399010"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

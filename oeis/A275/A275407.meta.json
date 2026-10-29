@@ -1,5 +1,5 @@
 {
-  "description": "Let e_n(k)>=0 denote the exponent of prime(k) in the prime power representation of n. The sequence lists 1 followed by numbers n for which e_n(2*i-1)=e_n(2*i), for all i>=1.",
+  "description": "Let e_m(k) >= 0 denote the exponent of prime(k) in the prime power representation of m. The sequence lists 1 followed by numbers m for which e_m(2*i-1) = e_m(2*i), for all i >= 1.",
   "id": "A275407",
   "mentions": [
     "A000040",
@@ -14,6 +14,7 @@
     "A275253"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

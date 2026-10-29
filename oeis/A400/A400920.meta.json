@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p+2, (p-1)^2+1, (p-1)^2+3, (p-1)^4+1, (p-1)^4+3 and (p-1)^8+1 are all prime.",
+  "id": "A400920",
+  "mentions": [
+    "A002496",
+    "A400684"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

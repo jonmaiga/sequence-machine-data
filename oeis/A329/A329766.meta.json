@@ -17,11 +17,12 @@
     "A329749"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

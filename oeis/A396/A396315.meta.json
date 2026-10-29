@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{r=0..n} 2^(r*(n-r))*Sum_{s=0..r} 2^(s*(r-s)).",
+  "id": "A396315",
+  "mentions": [
+    "A058873",
+    "A213442"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(cosh(x) - x).",
+  "id": "A397938",
+  "mentions": [
+    "A119884",
+    "A200309",
+    "A399115",
+    "A399116",
+    "A399117"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

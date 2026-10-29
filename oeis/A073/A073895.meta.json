@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1. a(n)=a(n-1)+k(n). If a(n-1) is nonprime, k(n) is the smallest composite not in the set {k(i),i",
+  "description": "a(1)=1. a(n)=a(n-1)+k(n). If a(n-1) is nonprime, k(n) is the smallest composite not in the set {k(i),i<n}. If a(n-1) is prime, k(n) is the smallest prime not in the set {k(i),i<n}.",
   "id": "A073895",
   "mentions": [],
   "tags": [

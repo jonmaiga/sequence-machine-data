@@ -1,5 +1,5 @@
 {
-  "description": "Let p(k) = k-th prime. a(n) = smallest prime p(j) such that number of solutions to p(k)-p(k-1)=m is n, where 1",
+  "description": "Let p(k) = k-th prime. a(n) = smallest prime p(j) such that number of solutions to p(k)-p(k-1)=m is n, where 1<k<=j.",
   "id": "A103966",
   "mentions": [
     "A001223"

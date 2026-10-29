@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n-th prime have only one common digit = 5.",
+  "description": "Numbers k such that k and k-th prime have only one common digit = 5.",
   "id": "A107936",
   "mentions": [
     "A107930",

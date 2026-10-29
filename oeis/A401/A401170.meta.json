@@ -1,0 +1,15 @@
+{
+  "description": "Number of distinct adjacency eigenvalues of the n X n grid graph P_n X P_n.",
+  "id": "A401170",
+  "mentions": [
+    "A395911"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

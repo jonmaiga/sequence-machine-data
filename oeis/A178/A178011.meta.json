@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with no element e[i>=2]",
+  "description": "Number of permutations of 1..n with no element e[i>=2]<e[1+floor((i-2)/6)] (6-way heap).",
   "id": "A178011",
   "mentions": [
     "A056971",

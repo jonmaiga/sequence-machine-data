@@ -1,5 +1,5 @@
 {
-  "description": "2*a(n) is the least number where k sets a new record such that 2*a(n)-k and 2*a(n)+k are prime and at least one of 2*a(n)-j and 2*a(n)+j is composite for all 0",
+  "description": "2*a(n) is the least number where k sets a new record such that 2*a(n)-k and 2*a(n)+k are prime and at least one of 2*a(n)-j and 2*a(n)+j is composite for all 0<j<k.",
   "id": "A307881",
   "mentions": [
     "A065978",

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k of the form lpf(k)^4 * rad(k), where rad = A007947, and lpf is the least prime factor.",
+  "id": "A398443",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A007947",
+    "A050997",
+    "A124010",
+    "A195088",
+    "A375396",
+    "A386808",
+    "A397458",
+    "A398302"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

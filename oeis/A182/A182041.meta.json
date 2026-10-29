@@ -1,7 +1,9 @@
 {
   "description": "Number of independent sets of nodes in C_5 X C_n (n >= 1).",
   "id": "A182041",
-  "mentions": [],
+  "mentions": [
+    "A399349"
+  ],
   "tags": [
     "easy",
     "formulas",

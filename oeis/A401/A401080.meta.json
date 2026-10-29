@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that binomial(k,2) equals another nontrivial binomial coefficient.",
+  "id": "A401080",
+  "mentions": [
+    "A003015",
+    "A007318",
+    "A098565",
+    "A161680"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

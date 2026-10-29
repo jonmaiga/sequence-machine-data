@@ -7,12 +7,14 @@
     "A389624"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
+    "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

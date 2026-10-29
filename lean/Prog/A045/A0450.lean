@@ -3,55 +3,60 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C032
-import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B008.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,10 +64,8 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -71,7 +74,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A045000: Numbers whose base-3 representation contains exactly two 0's and one 2.
@@ -2034,6 +2036,21 @@ end
 
 end A045008.P17314770092555381903
 
+/-! ## A045008.P2785852771677537901
+
+`A030127(A044984(n+1))`
+-/
+
+namespace A045008.P2785852771677537901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030127 (A044984 (n + 1)).toNat
+
+end
+
+end A045008.P2785852771677537901
+
 /-! ## A045008.P8668061797719321455
 
 `2*A119353(A045032(n+1))`
@@ -2078,24 +2095,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045008.P15741757220028199230
-
-/-! ## A045008.P7814905791784368025
-
-`filter[A044980(n+2), A057215(#)]`
--/
-
-namespace A045008.P7814905791784368025
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044980 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A057215 (f1 j).toNat = 1) n)
-
-end
-
-end A045008.P7814905791784368025
 
 /-!
 # A045009: Numbers whose base-3 representation contains exactly four 0's and no 2's.
@@ -2816,6 +2815,29 @@ def P14053750891372798625.Spec : Prop :=
 
 end A045012
 
+/-! ## A045012.P5558809136232751513
+
+`A030127(A044988(n+1))`
+-/
+
+namespace A045012.P5558809136232751513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030127 (A044988 (n + 1)).toNat
+
+end
+
+end A045012.P5558809136232751513
+
+namespace A045012
+
+/-- `A030127(A044988(n+1))` -/
+def P5558809136232751513.Spec : Prop :=
+  ∀ n, P5558809136232751513.a n = A045012 (n + 1)
+
+end A045012
+
 /-! ## A045012.P12851470877752849905
 
 `2*A119353(A045036(n+1))`
@@ -2859,29 +2881,6 @@ namespace A045012
 /-- `2*A044988(A187829(n+1))` -/
 def P1358734046636586400.Spec : Prop :=
   ∀ n, P1358734046636586400.a n = A045012 (n + 1)
-
-end A045012
-
-/-! ## A045012.P12797949982997083740
-
-`A044985(A187829(n+1)+6)`
--/
-
-namespace A045012.P12797949982997083740
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044985 (A187829 (n + 1) + 6).toNat
-
-end
-
-end A045012.P12797949982997083740
-
-namespace A045012
-
-/-- `A044985(A187829(n+1)+6)` -/
-def P12797949982997083740.Spec : Prop :=
-  ∀ n, P12797949982997083740.a n = A045012 (n + 1)
 
 end A045012
 
@@ -7105,27 +7104,6 @@ end
 
 end A045046.P7824265064864926818
 
-/-! ## A045046.P5890680377265632458
-
-`A045153(lt[A285782(n), n])`
--/
-
-namespace A045046.P5890680377265632458
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285782 n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045153 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n)
-
-end
-
-end A045046.P5890680377265632458
-
 /-! ## A045046.P10348416864080009128
 
 `A045153(2*A032555(n+1)+1)`
@@ -7140,27 +7118,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045046.P10348416864080009128
-
-/-! ## A045046.P10152720240100694276
-
-`A045153(lt[A112123(n+1), 1]+1)`
--/
-
-namespace A045046.P10152720240100694276
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112123 (n + 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045153 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1)
-
-end
-
-end A045046.P10152720240100694276
 
 /-!
 # A045047: Numbers whose base-4 representation contains exactly two 0's and no 2's.
@@ -9143,7 +9100,7 @@ end A045065.P11388205122120245958
 /-!
 # A045066: Numbers whose base-4 representation contains exactly one 0 and no 3's.
 
-The programs for A045066, the canonical program `A045066.P6394012223862104434` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045066 has offset 1).
+The programs for A045066, the canonical program `A045066.P6394012223862104434` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045066 has offset 1).
 
 The definition of A045066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1843 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9152,7 +9109,7 @@ The definition of A045066 is `conjectured`: the Lean definition is a formula tha
 
 `A023717(eq[1, A077267(n)])`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045066
@@ -9587,35 +9544,6 @@ def P9482322729894947926.Spec : Prop :=
 
 end A045067
 
-/-! ## A045067.P17483359918415554201
-
-`eq[A160380(n)^A292373(n), A160383(n)]`
--/
-
-namespace A045067.P17483359918415554201
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A160380 n : ℚ) ^ (A292373 n : ℤ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160383 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℚ)) n
-
-end
-
-end A045067.P17483359918415554201
-
-namespace A045067
-
-/-- `eq[A160380(n)^A292373(n), A160383(n)]` -/
-def P17483359918415554201.Spec : Prop :=
-  ∀ n, (P17483359918415554201.a n : ℤ) = A045067 (n + 1)
-
-end A045067
-
 /-! ## A045067.P11955371774869211492
 
 `eq[A160383(n)^A292370(n), A160380(n)]`
@@ -9642,6 +9570,35 @@ namespace A045067
 /-- `eq[A160383(n)^A292370(n), A160380(n)]` -/
 def P11955371774869211492.Spec : Prop :=
   ∀ n, (P11955371774869211492.a n : ℤ) = A045067 (n + 1)
+
+end A045067
+
+/-! ## A045067.P17483359918415554201
+
+`eq[A160380(n)^A292373(n), A160383(n)]`
+-/
+
+namespace A045067.P17483359918415554201
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A160380 n : ℚ) ^ (A292373 n : ℤ)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160383 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℚ)) n
+
+end
+
+end A045067.P17483359918415554201
+
+namespace A045067
+
+/-- `eq[A160380(n)^A292373(n), A160383(n)]` -/
+def P17483359918415554201.Spec : Prop :=
+  ∀ n, (P17483359918415554201.a n : ℤ) = A045067 (n + 1)
 
 end A045067
 
@@ -11187,23 +11144,41 @@ end
 
 end A045079.P5054376325121835731
 
-/-! ## A045079.P5283290317732161026
+/-! ## A045079.P8083848136019737740
 
-`filter[A045052(2*(n+1)), A115517(#)]`
+`filter[A023708(n+1), A115517(#)]`
 -/
 
-namespace A045079.P5283290317732161026
+namespace A045079.P8083848136019737740
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045052 (2 * (n + 1))
+  A023708 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A115517 (f1 j).toNat = 1) n)
 
 end
 
-end A045079.P5283290317732161026
+end A045079.P8083848136019737740
+
+/-! ## A045079.P6357681719632924023
+
+`filter[A045052(n+1), A115517(#)]`
+-/
+
+namespace A045079.P6357681719632924023
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045052 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A115517 (f1 j).toNat = 1) n)
+
+end
+
+end A045079.P6357681719632924023
 
 /-! ## A045079.P3948000059696986455
 
@@ -11240,21 +11215,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045079.P1025377504800035860
-
-/-! ## A045079.P2813857928279366093
-
-`A001281(3*A045055(n+1))`
--/
-
-namespace A045079.P2813857928279366093
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001281 (3 * A045055 (n + 1)).toNat
-
-end
-
-end A045079.P2813857928279366093
 
 /-!
 # A045080: Numbers whose base-4 representation contains exactly three 0's and four 3's.
@@ -11885,7 +11845,7 @@ end A045085.P11766490641426823298
 /-!
 # A045086: Numbers whose base-4 representation contains no 1's and exactly one 2.
 
-The programs for A045086, the canonical program `A045086.P17864132043894525623` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045086 has offset 1).
+The programs for A045086, the canonical program `A045086.P17864132043894525623` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045086 has offset 1).
 
 The definition of A045086 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11894,7 +11854,7 @@ The definition of A045086 is `conjectured`: the Lean definition is a formula tha
 
 `A023709(A023692(n+1)+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045086
@@ -12419,7 +12379,7 @@ end A045086
 /-!
 # A045087: Numbers whose base-4 representation contains no 1's and exactly two 2's.
 
-The programs for A045087, the canonical program `A045087.P3584374173035891200` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045087 has offset 1).
+The programs for A045087, the canonical program `A045087.P3584374173035891200` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045087 has offset 1).
 
 The definition of A045087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2304 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12451,7 +12411,7 @@ end A045087
 
 `A023709(eq[2, A062756(n)]+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A045087
@@ -12998,7 +12958,7 @@ end A045088.P14028212456266601722
 /-!
 # A045089: Numbers whose base-4 representation contains no 1's and exactly four 2's.
 
-The programs for A045089, the canonical program `A045089.P4664350553262061469` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045089 has offset 1).
+The programs for A045089, the canonical program `A045089.P4664350553262061469` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045089 has offset 1).
 
 The definition of A045089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13007,7 +12967,7 @@ The definition of A045089 is `conjectured`: the Lean definition is a formula tha
 
 `A023709(A023695(n+1)+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A045089
@@ -13256,7 +13216,7 @@ end A045089
 /-!
 # A045090: Numbers whose base-4 representation contains exactly one 1 and no 2's.
 
-The programs for A045090, the canonical program `A045090.P11088706688697243182` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045090 has offset 1).
+The programs for A045090, the canonical program `A045090.P11088706688697243182` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045090 has offset 1).
 
 The definition of A045090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13265,7 +13225,7 @@ The definition of A045090 is `conjectured`: the Lean definition is a formula tha
 
 `A023713(A023692(n+1)+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045090
@@ -14674,7 +14634,7 @@ end A045094.P5715702502640719167
 /-!
 # A045095: Numbers whose base-4 representation contains exactly two 1's and no 2's.
 
-The programs for A045095, the canonical program `A045095.P15217836163504484556` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045095 has offset 1).
+The programs for A045095, the canonical program `A045095.P15217836163504484556` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045095 has offset 1).
 
 The definition of A045095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2304 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14683,7 +14643,7 @@ The definition of A045095 is `conjectured`: the Lean definition is a formula tha
 
 `A023713(A023693(n+1)+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045095
@@ -15046,6 +15006,27 @@ end
 
 end A045096.P16219108589519831934
 
+/-! ## A045096.P13187412977456701396
+
+`eq[4, A174980(A319652(n))]`
+-/
+
+namespace A045096.P13187412977456701396
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174980 (A319652 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A045096.P13187412977456701396
+
 /-! ## A045096.P16086108297220970541
 
 `eq[23, A319652(A319652(n)+1)]`
@@ -15171,48 +15152,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A045096.P3017498542442692310
-
-/-! ## A045096.P13187412977456701396
-
-`eq[4, A174980(A319652(n))]`
--/
-
-namespace A045096.P13187412977456701396
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174980 (A319652 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A045096.P13187412977456701396
-
-/-! ## A045096.P15913919929045918747
-
-`eq[2, A160381(n)+A005129(n)]`
--/
-
-namespace A045096.P15913919929045918747
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160381 n + A005129 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A045096.P15913919929045918747
 
 /-! ## A045096.P17404967695554332710
 
@@ -15379,6 +15318,32 @@ namespace A045097
 /-- `∩[A023715(n+1), A039280(n+1)]` -/
 def P12625283781668700509.Spec : Prop :=
   ∀ n, (P12625283781668700509.a n : ℤ) = A045097 (n + 1)
+
+end A045097
+
+/-! ## A045097.P12820136927634517360
+
+`filter[A039280(n+1), A374646(#)]`
+-/
+
+namespace A045097.P12820136927634517360
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039280 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A374646 (f1 j).toNat = 1) n)
+
+end
+
+end A045097.P12820136927634517360
+
+namespace A045097
+
+/-- `filter[A039280(n+1), A374646(#)]` -/
+def P12820136927634517360.Spec : Prop :=
+  ∀ n, P12820136927634517360.a n = A045097 (n + 1)
 
 end A045097
 
@@ -15695,24 +15660,6 @@ end A045098.P15880076904308727221
 
 The programs for A045099, there is no canonical definition to state claims against.
 -/
-
-/-! ## A045099.P9263155810537280203
-
-`record[A062050(A045104(n+1)-1)]`
--/
-
-namespace A045099.P9263155810537280203
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062050 (A045104 (n + 1) - 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A045099.P9263155810537280203
 
 /-! ## A045099.P15947683633337336642
 

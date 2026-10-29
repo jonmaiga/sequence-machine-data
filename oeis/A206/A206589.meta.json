@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of p(k+1)=p(n+1) (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of p(k+1)=p(n+1) (mod n), where 1<=k<n.",
   "id": "A206589",
   "mentions": [
     "A206588"

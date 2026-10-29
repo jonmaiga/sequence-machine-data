@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the sum of (q mod p) for pairs of primes p",
+  "description": "Numbers k such that the sum of (q mod p) for pairs of primes p<q such that p+q=2*k is prime.",
   "id": "A357122",
   "mentions": [
     "A338984"

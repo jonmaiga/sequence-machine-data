@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(2) = 2; a(n) = n - max{k",
+  "description": "a(1) = 1; a(2) = 2; a(n) = n - max{k<n | a(k) = m(n)}, where m(n) is the largest term so far if a(n-1) is odd, the second largest term so far if a(n-1) is even.",
   "id": "A327759",
   "mentions": [
     "A059100",

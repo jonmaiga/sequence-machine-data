@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k=(a+b)*c=a*b+c for more than one triple (a,b,c) with 1",
+  "description": "Numbers k such that k=(a+b)*c=a*b+c for more than one triple (a,b,c) with 1<c<a<=b.",
   "id": "A329169",
   "mentions": [
     "A191676"

@@ -1,5 +1,5 @@
 {
-  "description": "Least x satisfying n^3 + x^3 + y^3 = z^3, where (n,x,y,z),n",
+  "description": "Least x satisfying n^3 + x^3 + y^3 = z^3, where (n,x,y,z),n<x<y<z forms a primitive quadruple.",
   "id": "A120930",
   "mentions": [
     "A120931",

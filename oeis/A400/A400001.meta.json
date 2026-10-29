@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of congruence classes of nondegenerate triangles whose vertices are points of an n X n X n grid.",
+  "id": "A400001",
+  "mentions": [
+    "A028419",
+    "A028492",
+    "A103426",
+    "A103428",
+    "A103429",
+    "A103499",
+    "A189979",
+    "A190021",
+    "A190022",
+    "A241231",
+    "A241232",
+    "A241233",
+    "A241234"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of strict T1 closure systems on n labeled points with a fixed extreme point.",
+  "id": "A398926",
+  "mentions": [
+    "A334255",
+    "A398927"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

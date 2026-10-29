@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that P = 2^k - 1 - Sum_{primes p",
+  "description": "Numbers k such that P = 2^k - 1 - Sum_{primes p<k} 2^(p-1) is prime.",
   "id": "A215891",
   "mentions": [
     "A215888"

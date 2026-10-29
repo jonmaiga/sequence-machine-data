@@ -5,26 +5,32 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C019
+import Seq.B000.C015
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C034
-import Seq.B001.C003
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B001.C000
 import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B003.C000
 import Seq.B004.C000
-import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -36,16 +42,15 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A095501: a(n) = 54 written in base 10 - n.
@@ -2066,21 +2071,6 @@ end A095569.P5141355244308409037
 The programs for A095571, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095571.P1623676598223118591
-
-`(A095569(n)+1)%A095559(n)`
--/
-
-namespace A095571.P1623676598223118591
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A095569 n + 1) (A095559 n)
-
-end
-
-end A095571.P1623676598223118591
-
 /-! ## A095571.P18023939539084974891
 
 `A095569(n)%A095557(n)+1`
@@ -2095,6 +2085,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095571.P18023939539084974891
+
+/-! ## A095571.P1623676598223118591
+
+`(A095569(n)+1)%A095559(n)`
+-/
+
+namespace A095571.P1623676598223118591
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A095569 n + 1) (A095559 n)
+
+end
+
+end A095571.P1623676598223118591
 
 /-! ## A095571.P14418398466447589984
 
@@ -2162,20 +2167,20 @@ end
 
 end A095573.P6999459422159183632
 
-/-! ## A095573.P6017579704289684187
+/-! ## A095573.P3450681895492729352
 
-`A232740(A095569(n+3))+A095571(n)`
+`A095569(n)+A091787(A000984(n+2))`
 -/
 
-namespace A095573.P6017579704289684187
+namespace A095573.P3450681895492729352
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232740 (A095569 (n + 3)).toNat + A095571 n
+  A095569 n + A091787 (A000984 (n + 2)).toNat
 
 end
 
-end A095573.P6017579704289684187
+end A095573.P3450681895492729352
 
 /-!
 # A095575: a(n) = 91 written in base 15 - n.

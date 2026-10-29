@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with odd curling numbers of their binary representations, cf. A181935.",
+  "description": "Numbers whose binary representations have odd curling numbers, cf. A181935.",
   "id": "A212441",
   "mentions": [
     "A181935",

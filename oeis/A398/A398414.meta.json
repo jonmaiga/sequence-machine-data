@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2. For n > 1, choose the least k >= 1 such that 2^k*a(n-1) - 1 has a prime factor not previously occurring in the sequence; a(n) is the least such unused factor.",
+  "id": "A398414",
+  "mentions": [
+    "A174161",
+    "A399458"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

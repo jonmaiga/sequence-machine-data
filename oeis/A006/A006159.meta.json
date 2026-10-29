@@ -1,13 +1,15 @@
 {
-  "description": "a(n)=a(a(n-4))+a(n-a(n-4)).",
+  "description": "a(n) = a(a(n-4)) + a(n-a(n-4)).",
   "id": "A006159",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

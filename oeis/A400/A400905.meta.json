@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the Flint Hills series: Sum_{n > 0} 1/(n^3 * sin(n)^2).",
+  "id": "A400905",
+  "mentions": [
+    "A002117",
+    "A002485",
+    "A046947"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

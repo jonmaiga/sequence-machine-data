@@ -1,0 +1,21 @@
+{
+  "description": "Number of spanning trees in the n-Fibonacci cube graph.",
+  "id": "A399788",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A014417",
+    "A245825",
+    "A289998",
+    "A291935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

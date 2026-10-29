@@ -2,6 +2,7 @@
   "description": "Number of idempotent 3 X 3 0..n matrices of rank 2.",
   "id": "A224334",
   "mentions": [
+    "A056220",
     "A224333"
   ],
   "tags": [

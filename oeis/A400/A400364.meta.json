@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the fourth powers of the legs of the primitive Pythagorean triangle with prime hypotenuse A002144(n).",
+  "id": "A400364",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A002645",
+    "A400363",
+    "A400365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

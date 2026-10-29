@@ -1,9 +1,12 @@
 {
-  "description": "Number of 3^m between 2^n and 2^(n+1).",
+  "description": "Number of numbers of the form 3^m between 2^n and 2^(n+1).",
   "id": "A022924",
   "mentions": [
+    "A014682",
     "A020915",
-    "A136409"
+    "A100982",
+    "A136409",
+    "A387214"
   ],
   "tags": [
     "nonn"

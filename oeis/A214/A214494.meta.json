@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows ; T(n,k) = C(n,k) - 2*C(n,k-1) where C(n,k) is a binomial coefficient .",
+  "description": "Triangle read by rows ; T(n,k) = C(n,k) - 2*C(n,k-1) where C(n,k) is a binomial coefficient.",
   "id": "A214494",
   "mentions": [
     "A007318",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
+    "size": 70,
     "source": "oeis-entry"
   }
 }

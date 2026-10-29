@@ -1,0 +1,22 @@
+{
+  "description": "Number of spanning trees of the 3 X n grid graph up to automorphisms.",
+  "id": "A398680",
+  "mentions": [
+    "A001906",
+    "A006238",
+    "A349718",
+    "A363165",
+    "A398678",
+    "A398679"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

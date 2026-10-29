@@ -1,5 +1,5 @@
 {
-  "description": "List of 4-tuples of twin primes q, p, p+2 and q+2 such that 3*q",
+  "description": "List of 4-tuples of twin primes q, p, p+2 and q+2 such that 3*q<p<(p+2)<3*(q+2).",
   "id": "A177335",
   "mentions": [
     "A174920",

@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in n-fold commas sequence started at 1.",
+  "id": "A400682",
+  "mentions": [
+    "A121805",
+    "A365872",
+    "A365873",
+    "A365874",
+    "A400678",
+    "A400681",
+    "A400683"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

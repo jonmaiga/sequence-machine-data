@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2, a(n+1)=a(n)+p, where p is the largest prime a(n) if a(n) is even.",
+  "description": "a(1)=2, a(n+1)=a(n)+p, where p is the largest prime <a(n) if a(n) is odd or the smallest prime >a(n) if a(n) is even.",
   "id": "A277263",
   "mentions": [
     "A277224"

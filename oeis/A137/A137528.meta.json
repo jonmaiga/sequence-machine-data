@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of coefficients based on an expansion of a Skew Catenoid of Matthius Weber like Sheffer expansion function: g(t) = x*(3 + t^2)/(t^2 - 1); f(t) = (3 + t^2)/(t^2 - 1); p(x,t) = Exp[x*(t)]*(1 - f(t)2).",
+  "description": "A triangular sequence of coefficients based on an expansion of a Skew Catenoid of Matthias Weber like Sheffer expansion function: g(t) = x*(3 + t^2)/(t^2 - 1); f(t) = (3 + t^2)/(t^2 - 1); p(x,t) = Exp[x*(t)]*(1 - f(t)2).",
   "id": "A137528",
   "mentions": [],
   "tags": [

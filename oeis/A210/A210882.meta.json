@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n)=a(n-1)-1 if a(n-1)-1 > 0 is not in the set {a(k)| 1<=k",
+  "description": "a(1)=1, a(n)=a(n-1)-1 if a(n-1)-1 > 0 is not in the set {a(k)| 1<=k<n}, else a(n)=p, where p is the least prime number not yet in the sequence.",
   "id": "A210882",
   "mentions": [
     "A000040",

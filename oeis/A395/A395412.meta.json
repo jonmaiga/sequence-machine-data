@@ -1,19 +1,22 @@
 {
-  "description": "a(n) = number of k's that make A002110(n)/A005117(k)+A005117(k) prime, A005117(k)",
+  "description": "a(n) = number of integers k that make A002110(n)/A005117(k)+A005117(k) prime, A005117(k)<prime(n).",
   "id": "A395412",
   "mentions": [
     "A002110",
     "A005117",
+    "A059956",
+    "A073004",
     "A182987",
     "A295741",
     "A394782"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

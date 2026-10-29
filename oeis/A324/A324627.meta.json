@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [7+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(7+n)*[i",
+  "description": "Number of permutations p of [7+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(7+n)*[i<p(i)]].",
   "id": "A324627",
   "mentions": [
     "A324563",

@@ -1,0 +1,46 @@
+{
+  "description": "Irregular triangle read by upward antidiagonals in which row n is the (finite) Goodstein trajectory of n.",
+  "id": "A399175",
+  "mentions": [
+    "A001477",
+    "A056004",
+    "A056193",
+    "A057650",
+    "A059933",
+    "A059934",
+    "A059935",
+    "A059936",
+    "A211378",
+    "A215409",
+    "A222117",
+    "A266201",
+    "A266204",
+    "A266205",
+    "A271554",
+    "A271555",
+    "A271556",
+    "A271557",
+    "A271558",
+    "A271559",
+    "A271560",
+    "A271561",
+    "A271562",
+    "A271975",
+    "A271976",
+    "A271977",
+    "A271978",
+    "A271979",
+    "A271985",
+    "A271986",
+    "A296441"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

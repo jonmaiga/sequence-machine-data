@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic 3-uniform hypergraphs on n vertices whose 2-section is a primitive strongly regular graph.",
+  "id": "A398319",
+  "mentions": [
+    "A076435",
+    "A398317"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

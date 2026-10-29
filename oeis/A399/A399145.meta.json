@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct proper side-crossing points among regular polygons inscribed in a common circle and sharing a common vertex.",
+  "id": "A399145",
+  "mentions": [
+    "A006579",
+    "A018804"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

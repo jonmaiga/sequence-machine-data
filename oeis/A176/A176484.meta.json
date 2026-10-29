@@ -1,5 +1,5 @@
 {
-  "description": "Triangle t(n,m) read by rows: t(n,n)= 1, t(n,m) = (-1)^(n+m)*(m+1), 0<=m",
+  "description": "Triangle t(n,m) read by rows: t(n,n)= 1, t(n,m) = (-1)^(n+m)*(m+1), 0<=m<n.",
   "id": "A176484",
   "mentions": [
     "A144328"

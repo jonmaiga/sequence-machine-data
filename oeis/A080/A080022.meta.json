@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that log_pi(n) is closer to an integer than is log_pi(m) for any m with 2<=m",
+  "description": "Numbers n such that log_pi(n) is closer to an integer than is log_pi(m) for any m with 2<=m<n.",
   "id": "A080022",
   "mentions": [
     "A080021",

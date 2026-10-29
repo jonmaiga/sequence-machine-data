@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A276085(n) mod 360, where A276085 is the primorial base log-function.",
+  "description": "a(n) = A276085(n) mod 360, where A276085 is fully additive with a(p) = p#/p.",
   "id": "A372576",
   "mentions": [
     "A002110",

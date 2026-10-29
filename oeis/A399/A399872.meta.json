@@ -1,0 +1,20 @@
+{
+  "description": "Cyclically smooth Lyndon words with 6 colors.",
+  "id": "A399872",
+  "mentions": [
+    "A208775",
+    "A215335",
+    "A215336",
+    "A215337",
+    "A215338"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

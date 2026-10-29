@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the powerful parts (A057521) of both k and k+1 are cubes.",
+  "id": "A398819",
+  "mentions": [
+    "A002117",
+    "A007674",
+    "A057521",
+    "A372690",
+    "A391397",
+    "A398818"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

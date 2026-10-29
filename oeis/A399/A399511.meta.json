@@ -1,0 +1,21 @@
+{
+  "description": "Trajectory of 1 under Conway's PIGAME.",
+  "id": "A399511",
+  "mentions": [
+    "A350555",
+    "A350556",
+    "A395539",
+    "A399512",
+    "A399514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

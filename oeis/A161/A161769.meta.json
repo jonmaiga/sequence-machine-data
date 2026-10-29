@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if the greatest common divisor of (the sum of the distinct primes dividing n) and (the sum of the exponents in the prime-factorization of n) is > 1.",
+  "description": "A positive integer k is included if the greatest common divisor of (the sum of the distinct primes dividing k) and (the sum of the exponents in the prime factorization of k) is > 1.",
   "id": "A161769",
   "mentions": [
     "A001222",
@@ -7,11 +7,12 @@
     "A161606"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

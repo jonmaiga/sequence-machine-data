@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, a generalization of Ramanujan's Q function. T(n, k) = numerator(Q(n, k)), where Q(n, k) = Sum_{i=0..n-k} falling_factorial(n - k, i) / n^i.",
+  "id": "A398484",
+  "mentions": [
+    "A066324",
+    "A090878",
+    "A364870",
+    "A398135",
+    "A398136",
+    "A398187",
+    "A398192",
+    "A398485"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

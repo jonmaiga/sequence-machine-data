@@ -2,6 +2,7 @@
   "description": "The total number of fires in a rooted undirected infinite 4-ary tree with a self-loop at the root, when the chip-firing process starts with (4^n-1)/3 chips at the root.",
   "id": "A378727",
   "mentions": [
+    "A002450",
     "A014916",
     "A045618",
     "A212337",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
+    "offset": 0,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Hexadecimal expansion of the square root of 2.",
+  "id": "A398406",
+  "mentions": [
+    "A002193",
+    "A004539",
+    "A004545",
+    "A070197"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

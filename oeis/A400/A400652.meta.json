@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1)*a(floor(n/2)) + n for n >= 1.",
+  "id": "A400652",
+  "mentions": [
+    "A000123"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

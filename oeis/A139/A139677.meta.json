@@ -1,5 +1,5 @@
 {
-  "description": "Estimate of the sum of twin prime pairs < 10^n = 4*Pi2(10^2n).",
+  "description": "a(n) = 4*Pi2(2*n) where Pi2 is the twin-prime counting function (A007508).",
   "id": "A139677",
   "mentions": [
     "A007508",

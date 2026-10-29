@@ -1,5 +1,5 @@
 {
-  "description": "Average of n-th group in A075383.",
+  "description": "Average of the n-th group in A075383.",
   "id": "A075390",
   "mentions": [
     "A075383",

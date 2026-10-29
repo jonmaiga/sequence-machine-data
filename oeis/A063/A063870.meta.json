@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) - usigma(n) = 3n/2.",
+  "description": "Numbers k such that sigma(k) - usigma(k) = 3*k/2.",
   "id": "A063870",
   "mentions": [
     "A000203",
@@ -9,6 +9,7 @@
     "A064591"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

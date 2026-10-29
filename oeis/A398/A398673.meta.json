@@ -1,0 +1,21 @@
+{
+  "description": "Number of disconnected quasi-regular graphs on 2*n + 1 vertices.",
+  "id": "A398673",
+  "mentions": [
+    "A005638",
+    "A165626",
+    "A165628",
+    "A398642",
+    "A398643"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

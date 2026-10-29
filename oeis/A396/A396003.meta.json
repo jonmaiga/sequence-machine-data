@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the decimal digits of all distinct n-digit numbers that are products of two positive decimal repunits.",
+  "id": "A396003",
+  "mentions": [
+    "A002275",
+    "A002477",
+    "A007953",
+    "A023855",
+    "A080151",
+    "A400298"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

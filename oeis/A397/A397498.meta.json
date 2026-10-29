@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of j(sqrt(-14)).",
+  "id": "A397498",
+  "mentions": [
+    "A397822"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 11,
+    "size": 87,
+    "source": "joeis"
+  }
+}

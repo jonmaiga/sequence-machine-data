@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of primes not less than n-k and not greater than n+k, 0<=k",
+  "description": "Triangle read by rows: T(n,k) is the number of primes not less than n-k and not greater than n+k, 0<=k<n.",
   "id": "A088239",
   "mentions": [
     "A000720",

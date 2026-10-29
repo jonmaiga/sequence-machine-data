@@ -1,0 +1,15 @@
+{
+  "description": "Number of length-n overlap-free ternary words.",
+  "id": "A398805",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

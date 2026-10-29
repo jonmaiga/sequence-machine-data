@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the unique real solution c > 1 of (c-1)*exp(2*c) = 2*(c+1).",
+  "id": "A397714",
+  "mentions": [
+    "A085984",
+    "A392715"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

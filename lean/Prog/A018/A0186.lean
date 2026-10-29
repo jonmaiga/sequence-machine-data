@@ -10,50 +10,61 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C005
+import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A018600: Divisors of 704.
@@ -1736,23 +1747,23 @@ end
 
 end A018623.P7912911136395008208
 
-/-! ## A018623.P3209942392970024198
+/-! ## A018623.P5382567636016422380
 
-`record[A161710(n)-A326444(n)]`
+`filter[A102705(n+1), A336923(#)]`
 -/
 
-namespace A018623.P3209942392970024198
+namespace A018623.P5382567636016422380
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161710 n - A326444 n
+  A102705 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  f1 (SequenceMachineLib.nth (fun j => A336923 (f1 j).toNat = 1) n)
 
 end
 
-end A018623.P3209942392970024198
+end A018623.P5382567636016422380
 
 /-!
 # A018624: Divisors of 747.
@@ -4476,39 +4487,26 @@ end
 
 end A018662.P15507382397173327450
 
-/-! ## A018662.P7443171651269120842
+/-! ## A018662.P6486355319483089833
 
-`∪[lt[(48*n)%(n+1), 1]+1, A008599(lt[(48*n)%(n+1), 1]+1)]`
+`eq[51, A106617(lcm(51, n))]`
 -/
 
-namespace A018662.P7443171651269120842
+namespace A018662.P6486355319483089833
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  48 * n % (n + 1)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < f3 j) n + 1
+  51
 
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  48 * n % (n + 1)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106617 (Nat.lcm 51 n)
 
-def f6 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008599 (SequenceMachineLib.nth (fun j => f5 j < f6 j) n + 1)
-
-open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
 
 end
 
-end A018662.P7443171651269120842
+end A018662.P6486355319483089833
 
 /-!
 # A018663: Divisors of 819.
@@ -4654,21 +4652,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018664.P15820952684077599441
-
-/-! ## A018664.P15784833967633906830
-
-`A345167(A188920(n))+A106798(n)`
--/
-
-namespace A018664.P15784833967633906830
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (A188920 n).toNat + A106798 n
-
-end
-
-end A018664.P15784833967633906830
 
 /-!
 # A018665: Divisors of 822.

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A276086(A035345(n)), where A276086 is the primorial base exp-function, and A035345 is the smallest prime > 1 + (prime(1)*prime(2)*...*prime(n)).",
+  "id": "A401236",
+  "mentions": [
+    "A000040",
+    "A005235",
+    "A035345",
+    "A049345",
+    "A276086",
+    "A373846",
+    "A401235"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

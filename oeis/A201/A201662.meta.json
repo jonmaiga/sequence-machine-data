@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of greatest x satisfying 10*x^2 = csc(x) and 0",
+  "description": "Decimal expansion of greatest x satisfying 10*x^2 = csc(x) and 0 <x< Pi.",
   "id": "A201662",
   "mentions": [
     "A201564",

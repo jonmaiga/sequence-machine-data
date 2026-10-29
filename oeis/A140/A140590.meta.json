@@ -2,7 +2,8 @@
   "description": "Exchange successive pairs of terms of A000051.",
   "id": "A140590",
   "mentions": [
-    "A000051"
+    "A000051",
+    "A135520"
   ],
   "tags": [
     "easy",

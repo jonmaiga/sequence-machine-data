@@ -1,11 +1,10 @@
 {
-  "description": "a(n) is the position in A344953 of the reversal of the n-th word in A344953.",
+  "description": "a(n) is the position in A341258 of the reversal of the n-th word in A341258.",
   "id": "A344962",
   "mentions": [
     "A341258",
     "A342910",
-    "A344682",
-    "A344953"
+    "A344682"
   ],
   "tags": [
     "base",

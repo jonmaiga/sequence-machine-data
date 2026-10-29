@@ -2,11 +2,12 @@
   "description": "First occurrence of n consecutive n's in the decimal expansion of sqrt(2).",
   "id": "A224871",
   "mentions": [
-    "A000129"
+    "A002193"
   ],
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

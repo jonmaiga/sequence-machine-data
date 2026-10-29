@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the generalized continued fraction 2/(4+6/(8+10/(12+14/(16+...)))), using every even integer.",
+  "id": "A181051",
+  "mentions": [
+    "A113014",
+    "A181050",
+    "A367120"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

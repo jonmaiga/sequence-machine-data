@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-attacking knights on an n X n board with all non-perimeteral squares removed.",
+  "description": "Maximum number of non-attacking knights on an n X n board with all interior squares removed.",
   "id": "A086663",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

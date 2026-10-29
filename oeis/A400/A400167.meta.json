@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A235224(k) = A400164(k), where A235224(n) is the length of primorial base representation of n, and A400164(n) = Max_{d|n, d is a prime power} A235224(n/d).",
+  "id": "A400167",
+  "mentions": [
+    "A235224",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A400164",
+    "A400165",
+    "A400166",
+    "A400169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

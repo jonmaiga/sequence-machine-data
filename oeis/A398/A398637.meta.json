@@ -1,0 +1,19 @@
+{
+  "description": "Number of smooth points modulo n on the affine Cayley cubic x^2+y^2+z^2-x*y*z = 4.",
+  "id": "A398637",
+  "mentions": [
+    "A385118",
+    "A389137"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

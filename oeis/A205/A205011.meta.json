@@ -1,5 +1,5 @@
 {
-  "description": "The index j",
+  "description": "The index j<k such that n divides C(2k-2,k-1)-C(2j-2,j-1), where k is the least index (A205010) for which such j exists.",
   "id": "A205011",
   "mentions": [
     "A204892",

@@ -1,8 +1,15 @@
 {
-  "description": "Numbers k such that usigma(k) - 1 is a prime (cf. A034448).",
+  "description": "Numbers k such that usigma(k) - 1 is a prime.",
   "id": "A065872",
   "mentions": [
-    "A034448"
+    "A023208",
+    "A023213",
+    "A023221",
+    "A023231",
+    "A034448",
+    "A065871",
+    "A089440",
+    "A157974"
   ],
   "tags": [
     "nonn"
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

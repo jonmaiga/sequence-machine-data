@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} prime(A286378(d)-1).",
   "id": "A317942",
   "mentions": [
     "A008578",

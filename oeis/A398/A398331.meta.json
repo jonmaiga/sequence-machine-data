@@ -1,0 +1,16 @@
+{
+  "description": "One-half of the number of permutations p of [n] having exactly five runs of adjacent entries differing by 1.",
+  "id": "A398331",
+  "mentions": [
+    "A398328"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

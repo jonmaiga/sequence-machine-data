@@ -1,0 +1,16 @@
+{
+  "description": "RUNS transform of A400708.",
+  "id": "A400709",
+  "mentions": [
+    "A400708"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primitive terms of A388012: Numbers k such that sigma(k)/k >= 5/3, but for all whose proper divisors d|k, d",
+  "description": "Primitive terms of A388012: Numbers k such that sigma(k)/k >= 5/3, but for all whose proper divisors d|k, d<k, sigma(d)/d < 5/3.",
   "id": "A388014",
   "mentions": [
     "A000203",

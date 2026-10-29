@@ -2,9 +2,14 @@
   "description": "Least k such that the Collatz (3x+1) iteration starting with k has \"dropping time\" A122437(n).",
   "id": "A122442",
   "mentions": [
-    "A122437"
+    "A020914",
+    "A060412",
+    "A122437",
+    "A177789",
+    "A243115"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

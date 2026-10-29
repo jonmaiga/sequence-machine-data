@@ -1,5 +1,5 @@
 {
-  "description": "Table T(m,k)=m^k-k^m (with 0^0 taken to be 1) as square array read by antidiagonals.",
+  "description": "Table T(m,k) = m^k - k^m (with 0^0 taken to be 1) as square array read by antidiagonals.",
   "id": "A055651",
   "mentions": [
     "A000004",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 69,
+    "size": 78,
     "source": "joeis"
   }
 }

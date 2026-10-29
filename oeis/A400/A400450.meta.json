@@ -1,0 +1,31 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is prime.",
+  "id": "A400450",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A007875",
+    "A034444",
+    "A069733",
+    "A118914",
+    "A365171",
+    "A365173",
+    "A365207",
+    "A365208",
+    "A365210",
+    "A369310",
+    "A400390",
+    "A400451",
+    "A400452"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

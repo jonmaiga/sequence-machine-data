@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(n, phi(n)), where phi(n) is the Euler totient function.",
+  "description": "a(n) = binomial(n, phi(n)), where phi(n) is the Euler totient function.",
   "id": "A066449",
   "mentions": [
     "A000010",

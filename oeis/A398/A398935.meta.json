@@ -1,0 +1,18 @@
+{
+  "description": "Least number of reversals of increasing or decreasing runs sufficient to sort any permutation of [n].",
+  "id": "A398935",
+  "mentions": [
+    "A058986",
+    "A399896"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The largest number with an arithmetic mean of divisors equal to n or 0 is there is no such number.",
+  "description": "The largest number with an arithmetic mean of divisors equal to n, or 0 if there is no such number.",
   "id": "A391373",
   "mentions": [
     "A000005",

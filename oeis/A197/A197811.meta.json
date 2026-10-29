@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of x",
+  "description": "Decimal expansion of x<0 having x^2+x=3*cos(x), negated.",
   "id": "A197811",
   "mentions": [
     "A197737",

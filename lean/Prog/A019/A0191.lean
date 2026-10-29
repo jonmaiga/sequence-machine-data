@@ -2,22 +2,21 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C018
-import Seq.B001.C006
-import Seq.B001.C007
-import Seq.B005.C002
+import Seq.B000.C021
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B001.C010
 import Seq.B006.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
-import Seq.Opaque.C014
 import Seq.Opaque.C020
 
 /-!
@@ -296,24 +295,6 @@ end
 
 end A019189.P8618657338907118156
 
-/-! ## A019189.P16088607192314932022
-
-`filter[A019244(n+3), A228710(#)]`
--/
-
-namespace A019189.P16088607192314932022
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019244 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A228710 (f1 j).toNat = 1) n)
-
-end
-
-end A019189.P16088607192314932022
-
 /-!
 # A019192: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T7 atom.
 
@@ -364,22 +345,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019192.P11000338872506882922
-
-/-! ## A019192.P13697747618838192110
-
-`filter[A019246(n+3), A373834(#)]`
--/
-
-namespace A019192.P13697747618838192110
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019246 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373834 (f1 j).toNat = 1) n)
-
-end
-
-end A019192.P13697747618838192110
 

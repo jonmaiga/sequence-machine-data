@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers k such that A006530(k) divides A276085(k), where A006530(k) is the largest prime dividing k (with 1 if k is 1), and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401234",
+  "mentions": [
+    "A005117",
+    "A006530",
+    "A008966",
+    "A276085",
+    "A401232",
+    "A401233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

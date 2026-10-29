@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = A053120(n+2,k)-2*A053120(n+1,k)+A053120(n,k) read by rows, 0<=k",
+  "description": "Triangle T(n,k) = A053120(n+2,k)-2*A053120(n+1,k)+A053120(n,k) read by rows, 0<=k<n.",
   "id": "A140876",
   "mentions": [
     "A053120",

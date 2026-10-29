@@ -1,5 +1,5 @@
 {
-  "description": "Let d(1)",
+  "description": "Let d(1)<d(2)<...<d(q) denote the divisors of an integer k. a(n) = k is the smallest k such that the sum of its first n divisors, s = d(1) + ... + d(n), is also a divisor of k.",
   "id": "A375574",
   "mentions": [
     "A000005",

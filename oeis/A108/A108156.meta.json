@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that a(n) is prime, where a(n) = a(n-1) + a(n-2), a(1) = 3794765361567513, a(2) = 20615674205555510.",
+  "description": "Numbers k such that f(k) is prime, where f(k) = f(k-1) + f(k-2), f(1) = 3794765361567513, f(2) = 20615674205555510.",
   "id": "A108156",
   "mentions": [
     "A083216"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

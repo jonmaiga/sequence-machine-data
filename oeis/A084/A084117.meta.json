@@ -1,5 +1,5 @@
 {
-  "description": "Multiplicity of the factor (1+x+x^2) in the characteristic polynomial modulo 2 of the symmetric matrix with entries binomial(i+j,i), 0<=i,j",
+  "description": "Multiplicity of the factor (1+x+x^2) in the characteristic polynomial modulo 2 of the symmetric matrix with entries binomial(i+j,i), 0<=i,j<n.",
   "id": "A084117",
   "mentions": [
     "A085015"

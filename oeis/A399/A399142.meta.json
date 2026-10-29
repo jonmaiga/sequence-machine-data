@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) counts trees on [n] rooted at 1 together with a level assignment L:[n]->{0,...,k} that uses every level, has L(1)=0, and strictly increases from parent to child, 0<=k<=n-1.",
+  "id": "A399142",
+  "mentions": [
+    "A000272",
+    "A001044",
+    "A008826",
+    "A080108",
+    "A154372",
+    "A185298",
+    "A292062"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

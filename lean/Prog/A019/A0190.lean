@@ -5,32 +5,38 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C016
+import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C003
+import Seq.B001.C008
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
-import Seq.B012.C000
+import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -44,6 +50,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -54,7 +61,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -476,6 +482,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019021.P9391303006950352441
+
+/-!
+# A019022: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3[Al3Si3O12].1.5H2O starting with a T2 atom.
+
+The programs for A019022, there is no canonical definition to state claims against.
+-/
+
+/-! ## A019022.P16197871080843005996
+
+`A219838(A207163(n+1))*A378040(n+1)`
+-/
+
+namespace A019022.P16197871080843005996
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219838 (A207163 (n + 1)).toNat * A378040 (n + 1)
+
+end
+
+end A019022.P16197871080843005996
 
 /-!
 # A019023: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3[Al3Si3O12].1.5H2O starting with a T1 atom.

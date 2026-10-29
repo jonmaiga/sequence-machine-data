@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer-sided triangles with sides a,b,c, a",
+  "description": "Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that n divides abc.",
   "id": "A024157",
   "mentions": [],
   "tags": [

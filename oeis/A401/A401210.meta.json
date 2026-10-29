@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled vertices rooted at a k-clique.",
+  "id": "A401210",
+  "mentions": [
+    "A000088",
+    "A000666",
+    "A126122",
+    "A277219",
+    "A339832",
+    "A401211",
+    "A401214"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

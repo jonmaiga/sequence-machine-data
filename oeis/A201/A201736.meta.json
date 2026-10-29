@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of greatest x satisfying x^2 - 3 = csc(x) and 0",
+  "description": "Decimal expansion of greatest x satisfying x^2 - 3 = csc(x) and 0<x<Pi.",
   "id": "A201736",
   "mentions": [
     "A201564",

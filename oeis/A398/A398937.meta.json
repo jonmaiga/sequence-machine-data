@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers k satisfying cos(k) < cos(k+1) < cos(k+2) < cos(k+3) < cos(k+4) > cos(k+5).",
+  "id": "A398937",
+  "mentions": [
+    "A026311",
+    "A246300",
+    "A246301",
+    "A246302",
+    "A390937",
+    "A398936"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

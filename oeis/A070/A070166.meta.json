@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows giving T(n,k) = number of rooted graphs on n + 1 nodes with k edges (n >= 0, 0 <= k <= n(n-1)/2).",
+  "description": "Irregular triangle read by rows giving T(n,k) = number of rooted graphs on n + 1 nodes with k edges (n >= 0, 0 <= k <= n(n+1)/2).",
   "id": "A070166",
   "mentions": [
     "A000666",

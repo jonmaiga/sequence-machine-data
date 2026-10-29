@@ -1,0 +1,20 @@
+{
+  "description": "Number of independent vertex sets in the n X n projective plane graph.",
+  "id": "A399351",
+  "mentions": [
+    "A006506",
+    "A027683",
+    "A212270",
+    "A399102",
+    "A399104",
+    "A399350"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

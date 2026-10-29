@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: S_D(n,k) = `Type D' Stirling numbers of the second kind.",
+  "description": "Triangle read by rows: S_D(n,k) = \"Type D\" Stirling numbers of the second kind.",
   "id": "A086364",
   "mentions": [
     "A085483",

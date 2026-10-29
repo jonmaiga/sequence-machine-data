@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator(1 + 2*(4^n - 1)*zeta(2*n)/Pi^(2*n)).",
+  "id": "A398873",
+  "mentions": [
+    "A000302",
+    "A001025",
+    "A002432",
+    "A024036",
+    "A036279",
+    "A046988"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

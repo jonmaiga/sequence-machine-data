@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers such that all a(i)*a(j) with i",
+  "description": "Odd numbers such that all a(i)*a(j) with i<j are distinct.",
   "id": "A080429",
   "mentions": [
     "A062090"

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(r)/log(phi), where r is the plastic number and phi is the golden ratio.",
+  "id": "A397844",
+  "mentions": [
+    "A001622",
+    "A060006"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

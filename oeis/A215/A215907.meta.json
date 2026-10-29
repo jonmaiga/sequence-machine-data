@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n such that the Lucas number L(n) is the sum of two squares.",
+  "description": "Odd numbers m such that the Lucas number L(m) is the sum of two squares.",
   "id": "A215907",
   "mentions": [
     "A000032",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

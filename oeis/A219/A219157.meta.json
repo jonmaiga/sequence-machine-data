@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime pairs {p,q} with p>q and p-2,q+2 also prime such that p+(1+mod(-n,6))q=n if n is not congruent to 2 mod 6, and p-q=n and q",
+  "description": "Number of prime pairs {p,q} with p>q and p-2,q+2 also prime such that p+(1+mod(-n,6))q=n if n is not congruent to 2 mod 6, and p-q=n and q<n/2 if n=2 (mod 6).",
   "id": "A219157",
   "mentions": [
     "A001359",

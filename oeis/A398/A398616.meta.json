@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the small face angle, in radians, of a canonical (dual-uniform) 9-gonal trapezohedron.",
+  "id": "A398616",
+  "mentions": [
+    "A019859",
+    "A019879",
+    "A398610",
+    "A398611",
+    "A398612",
+    "A398613",
+    "A398614",
+    "A398615",
+    "A398617",
+    "A398618"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

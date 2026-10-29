@@ -2,6 +2,7 @@
   "description": "Number of primes in the n-th row of the triangle in A117530.",
   "id": "A117531",
   "mentions": [
+    "A003173",
     "A010051",
     "A117530"
   ],

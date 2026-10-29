@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n+1} k*(n - k + 1)*hypergeom([k-n, (1+n)/k], [2], -k^2).",
+  "id": "A400349",
+  "mentions": [
+    "A400348"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

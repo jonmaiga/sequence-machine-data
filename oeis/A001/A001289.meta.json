@@ -6,13 +6,12 @@
   ],
   "tags": [
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "If k appears, 6*k does not.",
+  "id": "A398781",
+  "mentions": [
+    "A003159",
+    "A007417",
+    "A007814",
+    "A007949",
+    "A171948",
+    "A382744",
+    "A382745",
+    "A382746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

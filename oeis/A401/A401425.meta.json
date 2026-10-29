@@ -1,0 +1,23 @@
+{
+  "description": "The largest infinitary divisor of n whose number of divisors is a power of 2.",
+  "id": "A401425",
+  "mentions": [
+    "A007814",
+    "A036537",
+    "A350389",
+    "A372379",
+    "A392628",
+    "A401426"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

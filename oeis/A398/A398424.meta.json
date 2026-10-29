@@ -1,0 +1,17 @@
+{
+  "description": "Start with a(0) = 0. Thereafter, a(n) is the smallest integer that cannot be formed by concatenation (read from left to right or right to left) or by the sum of any tuple of consecutive digits taken from the terms already present.",
+  "id": "A398424",
+  "mentions": [
+    "A033627",
+    "A399805"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

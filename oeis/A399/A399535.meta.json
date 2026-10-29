@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled semitransitive binary relations on an n-element set.",
+  "id": "A399535",
+  "mentions": [
+    "A006905",
+    "A047656"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

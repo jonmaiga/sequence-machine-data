@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A397887.",
+  "id": "A397693",
+  "mentions": [
+    "A022447",
+    "A025010",
+    "A026238",
+    "A397887"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

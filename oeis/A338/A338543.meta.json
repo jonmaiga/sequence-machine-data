@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 1 + Product_{i",
+  "description": "Numbers k such that 1 + Product_{i<k} prime(i) is divisible by prime(k).",
   "id": "A338543",
   "mentions": [
     "A002110",

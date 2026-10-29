@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(m,n) read by rows: the number of homomorphisms of the complete graph on n vertices to the quasi-complete graph on m vertices, m>=3, 3<=n",
+  "description": "Triangle T(m,n) read by rows: the number of homomorphisms of the complete graph on n vertices to the quasi-complete graph on m vertices, m>=3, 3<=n<m.",
   "id": "A360961",
   "mentions": [],
   "tags": [

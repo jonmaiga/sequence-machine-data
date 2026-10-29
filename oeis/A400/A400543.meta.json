@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of Boolean functions of n variables under cyclic permutations and independent complementations of variables.",
+  "id": "A400543",
+  "mentions": [
+    "A397652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

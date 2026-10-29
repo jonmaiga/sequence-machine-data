@@ -1,17 +1,18 @@
 {
-  "description": "List of values of d in infinite family of points on Mordell curve x^3-y^2=d over quadratic field Sqrt[13].",
+  "description": "List of values of d in infinite family of points on Mordell curve x^3-y^2=d over quadratic field sqrt(13).",
   "id": "A233391",
   "mentions": [
     "A233379",
     "A233392"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

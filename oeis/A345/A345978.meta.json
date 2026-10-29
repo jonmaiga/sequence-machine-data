@@ -1,5 +1,5 @@
 {
-  "description": "Third coordinate of the points of a counterclockwise spiral on an hexagonal grid in a symmetric redundant hexagonal coordinate system.",
+  "description": "Third coordinate of the points of a counterclockwise spiral on a hexagonal grid in a symmetric redundant hexagonal coordinate system.",
   "id": "A345978",
   "mentions": [
     "A307011",

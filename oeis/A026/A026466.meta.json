@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n > 1, a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 for 1<=i",
+  "description": "a(1) = 1; for n > 1, a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 for 1<=i<j<=n-1.",
   "id": "A026466",
   "mentions": [],
   "tags": [

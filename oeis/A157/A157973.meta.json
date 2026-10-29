@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n > 1 with spf(n) < n such that there is a number k, n < k <= 2*n, with k - spf(k) = n - spf(n).",
+  "description": "Numbers m > 1 with sopfr(m) < m such that there is a number k, m < k <= 2*m, with k - sopfr(k) = m - sopfr(m), where sopfr = A001414.",
   "id": "A157973",
   "mentions": [
     "A001414"

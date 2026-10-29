@@ -1,0 +1,18 @@
+{
+  "description": "Number of unordered representations of 2^n as a sum of two numbers, each an odd prime multiplied by a power of 2.",
+  "id": "A401105",
+  "mentions": [
+    "A006307",
+    "A038550",
+    "A401106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

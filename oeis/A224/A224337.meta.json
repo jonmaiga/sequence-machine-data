@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent 6X6 0..n matrices of rank 5.",
+  "description": "Number of idempotent 6 X 6 0..n matrices of rank 5.",
   "id": "A224337",
   "mentions": [
     "A224333"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "joeis"
   }
 }

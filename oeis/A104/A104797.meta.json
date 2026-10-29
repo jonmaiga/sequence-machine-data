@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = Fib(n-k+4)-n-k-3, n>=1, 0<=k",
+  "description": "Triangle T(n,k) = Fib(n-k+4)-n-k-3, n>=1, 0<=k<n, read by rows.",
   "id": "A104797",
   "mentions": [
     "A001924",

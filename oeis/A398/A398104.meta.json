@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal dominating sets in the 3 X n king graph.",
+  "id": "A398104",
+  "mentions": [
+    "A286849",
+    "A286850",
+    "A398105"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

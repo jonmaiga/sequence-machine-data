@@ -2,18 +2,20 @@
   "description": "Number of strongly regular simple graphs on n nodes.",
   "id": "A076435",
   "mentions": [
+    "A000005",
     "A005176",
     "A076434",
     "A088741"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

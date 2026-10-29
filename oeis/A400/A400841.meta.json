@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A360121(i) = A360121(j), for all i, j >= 1, where A360121 is Dirichlet convolution of A342001 with A342002.",
+  "id": "A400841",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A276086",
+    "A305800",
+    "A342001",
+    "A342002",
+    "A360121",
+    "A360122"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

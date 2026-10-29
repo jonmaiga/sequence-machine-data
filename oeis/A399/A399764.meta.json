@@ -1,0 +1,16 @@
+{
+  "description": "The main diagonal of the infinite Tchoukaillon array.",
+  "id": "A399764",
+  "mentions": [
+    "A344009",
+    "A399780"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

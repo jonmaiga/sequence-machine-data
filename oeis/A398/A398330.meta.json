@@ -1,0 +1,16 @@
+{
+  "description": "One-half of the number of permutations p of [n] having exactly four runs of adjacent entries differing by 1.",
+  "id": "A398330",
+  "mentions": [
+    "A398328"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the radius of the circle tangent to the curve y=cos(4x) at points (x,y) and (-x,y), where 0",
+  "description": "Decimal expansion of the radius of the circle tangent to the curve y=cos(4x) at points (x,y) and (-x,y), where 0<x<1.",
   "id": "A197022",
   "mentions": [
     "A196021",

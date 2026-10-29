@@ -2,10 +2,12 @@
   "description": "Square array read by descending antidiagonals: T(n, k) = mu^n(k) where mu^1(k) = mu(k) = A008683(k) and for each n >= 1, mu^(n+1)(k) is the Dirichlet convolution of mu(k) and mu^n(k).",
   "id": "A346148",
   "mentions": [
+    "A006752",
     "A007427",
     "A007428",
     "A008683",
     "A077592",
+    "A101455",
     "A163767",
     "A247343",
     "A341831",

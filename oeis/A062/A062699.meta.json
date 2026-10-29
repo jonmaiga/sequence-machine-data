@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) = 2*phi(n).",
+  "description": "Numbers k such that sigma(k) = 2*phi(k).",
   "id": "A062699",
   "mentions": [
     "A028983",

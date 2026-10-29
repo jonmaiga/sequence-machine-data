@@ -1,0 +1,18 @@
+{
+  "description": "Minimum difference between positive integers x, y with x * y = n! and gcd(x, y) = 2.",
+  "id": "A400330",
+  "mentions": [
+    "A000142",
+    "A076388",
+    "A085692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

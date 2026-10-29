@@ -2,6 +2,7 @@
   "description": "Heinz number of the multiset of run-sums of the prime indices of n.",
   "id": "A353832",
   "mentions": [
+    "A000720",
     "A001221",
     "A001222",
     "A005811",
@@ -44,6 +45,7 @@
   ],
   "tags": [
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

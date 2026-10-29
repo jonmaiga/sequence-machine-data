@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of {1,...,4*n} into 4-element subsets {w,x,y,z} satisfying w+x=y+z.",
+  "id": "A397573",
+  "mentions": [
+    "A108235",
+    "A397415"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

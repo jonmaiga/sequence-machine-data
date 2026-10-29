@@ -1,0 +1,21 @@
+{
+  "description": "Sum of cubefree numbers <= n.",
+  "id": "A399053",
+  "mentions": [
+    "A060431",
+    "A066779",
+    "A212793",
+    "A336277",
+    "A358038",
+    "A389950"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

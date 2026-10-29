@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to cut a right triangle into n self-similar parts.",
+  "id": "A399770",
+  "mentions": [
+    "A399765",
+    "A399999",
+    "A400510",
+    "A400511"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

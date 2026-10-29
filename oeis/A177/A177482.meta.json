@@ -1,5 +1,5 @@
 {
-  "description": "Suppose e",
+  "description": "Suppose e<f, e<h, g<f and g<h. To avoid fegh means not to have four consecutive letters such that the second and the third letters are less than the first and the fourth letters.",
   "id": "A177482",
   "mentions": [],
   "tags": [

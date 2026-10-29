@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of involutions p of {1,...,n} such that inv(p) + rlmin(p) - n = k, where inv is the number of inversions and rlmin the number of right-to-left minima.",
+  "id": "A400309",
+  "mentions": [
+    "A000045",
+    "A000085",
+    "A001629",
+    "A016116",
+    "A129178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

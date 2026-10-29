@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist two integers 0",
+  "description": "Integers x such that there exist two integers 0<y<=z such that sigma(x)*psi(x)*phi(x) = x^3 + y^3 + z^3.",
   "id": "A395007",
   "mentions": [
     "A000010",

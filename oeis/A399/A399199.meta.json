@@ -1,0 +1,23 @@
+{
+  "description": "Table of T(n, k) read by antidiagonals: Exact inverse of Pascal's triangle (A007318) such that T(binomial(N, k), k) = N, for n >= 0, k >= 1.",
+  "id": "A399199",
+  "mentions": [
+    "A000027",
+    "A002024",
+    "A007318",
+    "A137695",
+    "A194847",
+    "A194882",
+    "A399609"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

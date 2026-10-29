@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of coprimes (n-i,n+i), 1",
+  "description": "Number of pairs of coprimes (n-i,n+i), 1<i<n.",
   "id": "A085599",
   "mentions": [
     "A000010",

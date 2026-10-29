@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of k^3=n^3 (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of k^3=n^3 (mod n), where 1<=k<n.",
   "id": "A206590",
   "mentions": [
     "A206825"

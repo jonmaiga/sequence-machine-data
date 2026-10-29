@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime factor of (2*n)^(4*n^2) + 1.",
+  "id": "A400673",
+  "mentions": [
+    "A000215",
+    "A002489",
+    "A007814",
+    "A093179"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

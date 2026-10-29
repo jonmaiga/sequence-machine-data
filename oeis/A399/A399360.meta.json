@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers equal to the sum of the fourth powers of their first k divisors for some k.",
+  "id": "A399360",
+  "mentions": [
+    "A000583",
+    "A064510",
+    "A185584",
+    "A185960"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

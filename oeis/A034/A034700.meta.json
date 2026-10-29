@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest prime == 1 (mod 4) such that a(n) is a square mod a(i), all i",
+  "description": "a(n) = smallest prime == 1 (mod 4) such that a(n) is a square mod a(i), all i<n.",
   "id": "A034700",
   "mentions": [
     "A002144",

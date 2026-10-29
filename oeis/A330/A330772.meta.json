@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 for n= 0, a(n+1) = 2*a(n-a(n)).",
+  "description": "a(n) = 1 for n<1; for n >= 0, a(n+1) = 2*a(n-a(n)).",
   "id": "A330772",
   "mentions": [
     "A004001",

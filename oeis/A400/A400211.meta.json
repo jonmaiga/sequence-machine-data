@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = x^3 - m*(m+1)*x, where m = floor(sqrt(n)) and x = n - m*(m+1).",
+  "id": "A400211",
+  "mentions": [
+    "A002378",
+    "A400150"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

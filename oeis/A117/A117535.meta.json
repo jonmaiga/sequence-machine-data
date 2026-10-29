@@ -2,7 +2,9 @@
   "description": "Number of ways of writing n as a sum of powers of 3, each power being used at most 4 times.",
   "id": "A117535",
   "mentions": [
+    "A002487",
     "A054390",
+    "A062051",
     "A085376"
   ],
   "tags": [

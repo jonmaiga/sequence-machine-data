@@ -9,6 +9,7 @@
     "A206778"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

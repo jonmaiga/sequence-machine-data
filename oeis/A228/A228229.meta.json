@@ -2,6 +2,7 @@
   "description": "Recurrence a(n) = n*(n + 1)*a(n-1) + 1 with a(0) = 1.",
   "id": "A228229",
   "mentions": [
+    "A000166",
     "A006040",
     "A096789",
     "A099597",

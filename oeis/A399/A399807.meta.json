@@ -1,0 +1,18 @@
+{
+  "description": "Start with the positive integers; at the k-th sieving step, remove every (2k+1)-th term of the sequence remaining after the (k-1)-st sieving step; iterate.",
+  "id": "A399807",
+  "mentions": [
+    "A000960",
+    "A073359",
+    "A099072"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

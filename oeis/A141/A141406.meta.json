@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where the sum of all of its divisors < sqrt(n) exceeds the sum of all the divisors of m < sqrt(m) for all m",
+  "description": "Numbers n where the sum of all of its divisors < sqrt(n) exceeds the sum of all the divisors of m < sqrt(m) for all m<n.",
   "id": "A141406",
   "mentions": [
     "A141037"

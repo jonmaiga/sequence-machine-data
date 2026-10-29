@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = 2^(k-1)*n*binomial(n-k,2*k-2)/(n-3*k+3) if k",
+  "description": "Triangle T(n,k) = 2^(k-1)*n*binomial(n-k,2*k-2)/(n-3*k+3) if k<n/3+1, else T(n,k)=1.",
   "id": "A173988",
   "mentions": [],
   "tags": [

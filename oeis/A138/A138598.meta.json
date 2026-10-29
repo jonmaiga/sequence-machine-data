@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that 2^(2*k-27)-27 is prime.",
   "id": "A138598",
-  "mentions": [],
+  "mentions": [
+    "A399706"
+  ],
   "tags": [
     "more",
     "nonn"

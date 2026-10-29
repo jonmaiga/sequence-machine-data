@@ -1,17 +1,15 @@
 {
-  "description": "Numbers n such that A033493(n)/n is an integer.",
+  "description": "Numbers k such that A033493(k)/k is an integer.",
   "id": "A254783",
   "mentions": [
     "A033493"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

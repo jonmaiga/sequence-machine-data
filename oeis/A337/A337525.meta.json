@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d1|n, d2|n, d1",
+  "description": "a(n) = Sum_{d1|n, d2|n, d1<d2} [omega(d1) = omega(d2)], where omega is the number of distinct prime factors of n (A001221) and [ ] is the Iverson bracket.",
   "id": "A337525",
   "mentions": [
     "A001221"

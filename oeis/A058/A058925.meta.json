@@ -2,7 +2,9 @@
   "description": "Number of independent dominating sets in labeled trees with n nodes.",
   "id": "A058925",
   "mentions": [
-    "A058924"
+    "A058924",
+    "A399451",
+    "A399452"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (17-(-1)^n)/2.",
   "id": "A010732",
-  "mentions": [],
+  "mentions": [
+    "A176459"
+  ],
   "tags": [
     "easy",
     "formulas",

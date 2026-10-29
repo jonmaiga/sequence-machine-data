@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; for n>0: a(n) = sum{a(i)*n^i : 0<=i",
+  "description": "a(0) = 1; for n>0: a(n) = sum{a(i)*n^i : 0<=i<n}.",
   "id": "A066976",
   "mentions": [],
   "tags": [

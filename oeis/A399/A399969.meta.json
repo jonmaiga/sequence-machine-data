@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the number of divisors of k divides k + 2.",
+  "id": "A399969",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A272872",
+    "A354711",
+    "A354714",
+    "A354715"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

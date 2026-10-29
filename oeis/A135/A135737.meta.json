@@ -1,5 +1,5 @@
 {
-  "description": "Ulam type (1-additive) sequences u[1]=2, u[2]=2n+1, u[k+1] is least unique sum u[i]+u[j]>u[k], 1<=i",
+  "description": "Ulam type (1-additive) sequences u[1]=2, u[2]=2n+1, u[k+1] is least unique sum u[i]+u[j]>u[k], 1<=i<j<=k; formatted as a table and read by descending antidiagonals.",
   "id": "A135737",
   "mentions": [
     "A001857",

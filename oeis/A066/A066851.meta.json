@@ -2,11 +2,16 @@
   "description": "Number of ordered solutions (x,y,z) to xy + yz + zx = n with x,y,z >= 1.",
   "id": "A066851",
   "mentions": [
+    "A000005",
     "A025052",
-    "A066958"
+    "A058305",
+    "A058306",
+    "A066958",
+    "A067751"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

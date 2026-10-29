@@ -1,0 +1,19 @@
+{
+  "description": "Total number of cliques in all distinct simple graphs on n unlabeled vertices.",
+  "id": "A401215",
+  "mentions": [
+    "A055542",
+    "A086314",
+    "A401214",
+    "A401216"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

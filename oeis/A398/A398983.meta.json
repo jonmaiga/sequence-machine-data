@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = k*binomial((k+1)*n, n)/((k + 1)*n - 1), with k > 0.",
+  "id": "A398983",
+  "mentions": [
+    "A000108",
+    "A002378",
+    "A020725",
+    "A024485",
+    "A027903",
+    "A130564",
+    "A130565",
+    "A234466",
+    "A234513",
+    "A234573",
+    "A235340",
+    "A337291",
+    "A337292",
+    "A398984",
+    "A398985"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

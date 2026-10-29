@@ -2,9 +2,12 @@
   "description": "E.g.f.: 1-1/B(x) where B(x) is e.g.f. for A003024.",
   "id": "A082403",
   "mentions": [
-    "A003024"
+    "A003024",
+    "A245654",
+    "A245655"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

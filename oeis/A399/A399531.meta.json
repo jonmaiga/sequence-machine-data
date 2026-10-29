@@ -1,0 +1,18 @@
+{
+  "description": "Gaps associated with the arithmetic progressions in A399530.",
+  "id": "A399531",
+  "mentions": [
+    "A003136",
+    "A399529",
+    "A399530"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors d of n such that gcid(d, n/d) is a power of 2, where gcid is the greatest common infinitary divisor.",
+  "id": "A400146",
+  "mentions": [
+    "A000203",
+    "A049417",
+    "A107749",
+    "A399839",
+    "A400137",
+    "A400143",
+    "A400144",
+    "A400145"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

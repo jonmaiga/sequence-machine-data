@@ -1,5 +1,5 @@
 {
-  "description": "Number of invertible (-1,0,1) n X n matrices having (Tij=-Tji; i",
+  "description": "Number of invertible (-1,0,1) n X n matrices having (Tij=-Tji; i<j) such that all T^k (k= 1..12) are also (-1,0,1) invertible matrices having (Tij=-Tji; i<j).",
   "id": "A086243",
   "mentions": [
     "A072110"

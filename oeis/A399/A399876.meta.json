@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled cacti with blocks of sizes 5, 6 and 7, having n blocks.",
+  "id": "A399876",
+  "mentions": [
+    "A397250",
+    "A398035",
+    "A399759"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

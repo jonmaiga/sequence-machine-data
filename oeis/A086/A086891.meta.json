@@ -1,17 +1,18 @@
 {
-  "description": "Denominator of 4*(Integral_{x=0..1} (1-x^2)^((2n-1)/2) dx)/Pi.",
+  "description": "Denominator of 3 * sqrt(2) * (Integral_{x=0..1} (1+x^2)^((2n-1)/2) dx - ((2n-1)!! / (2n)!!) * arcsinh(1) ).",
   "id": "A086891",
   "mentions": [
     "A076729",
     "A087547"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

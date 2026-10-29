@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct positive distances from the origin to points of (1/n)*Z^2 in the closed disc of radius sqrt(2) that do not occur for (1/m)*Z^2 with any m < n.",
+  "id": "A400227",
+  "mentions": [
+    "A000010",
+    "A001481",
+    "A007434",
+    "A064533",
+    "A102548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

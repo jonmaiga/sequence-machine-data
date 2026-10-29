@@ -1,0 +1,19 @@
+{
+  "description": "The size of the smallest boundary square in the simple perfect squared squares of order n.",
+  "id": "A400470",
+  "mentions": [
+    "A002839",
+    "A006983",
+    "A195984",
+    "A400444"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 21,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

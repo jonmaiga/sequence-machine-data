@@ -1,0 +1,22 @@
+{
+  "description": "Number of free polyominoes with 2n cells that can be dissected into two congruent polyominoes.",
+  "id": "A399996",
+  "mentions": [
+    "A000105",
+    "A400883",
+    "A401350",
+    "A401351",
+    "A401352"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

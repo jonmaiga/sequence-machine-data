@@ -1,8 +1,9 @@
 {
-  "description": "Decimal expansion of a non-random Chaitin's constant.",
+  "description": "Decimal expansion of Calude et al.'s non-random Chaitin's constant.",
   "id": "A100264",
   "mentions": [
-    "A079365"
+    "A079365",
+    "A400878"
   ],
   "tags": [
     "cons",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

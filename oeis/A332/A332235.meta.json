@@ -1,5 +1,5 @@
 {
-  "description": "Least integer t such that every binary word of length t+1 contains an split occurrence of an n-overlap.",
+  "description": "Least integer t such that every binary word of length t+1 contains a split occurrence of an n-overlap.",
   "id": "A332235",
   "mentions": [
     "A332234"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of tilings of a 10 X n rectangle into P-pentominoes (no reflections, only rotations).",
+  "id": "A398868",
+  "mentions": [
+    "A247119",
+    "A398865"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

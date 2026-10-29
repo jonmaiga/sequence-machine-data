@@ -1,0 +1,21 @@
+{
+  "description": "The binomial matrix of the Fubini numbers. Square array read by ascending antidiagonals.",
+  "id": "A398991",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A052841",
+    "A089677",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Number of free tetrablocks that contain n regular tetrahedra.",
   "id": "A393787",
   "mentions": [
-    "A038119"
+    "A038119",
+    "A276272"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4^n + (-3)^n is prime.",
+  "description": "Numbers m such that 4^m + (-3)^m is prime.",
   "id": "A286348",
   "mentions": [
     "A059801",
@@ -8,6 +8,7 @@
     "A285929"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

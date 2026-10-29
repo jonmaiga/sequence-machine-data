@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4-dimensional vector partitions of (n, n, n, n) into parts with nonnegative components (not all zero).",
+  "id": "A397811",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A001055",
+    "A002774",
+    "A219678",
+    "A219727",
+    "A398816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

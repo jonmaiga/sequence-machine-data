@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of {1,...,5*n} into 5-element subsets {v,w,x,y,z} satisfying v+w=x+y+z.",
+  "id": "A397415",
+  "mentions": [
+    "A108235",
+    "A397573"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

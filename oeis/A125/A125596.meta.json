@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1. a(n) = Sum_{1<=k",
+  "description": "a(1)=1. a(n) = Sum_{1<=k<n, gcd(k,n(n+1))=1} a(k).",
   "id": "A125596",
   "mentions": [
     "A125597"

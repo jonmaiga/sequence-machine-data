@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of |A225543| and |A400338|.",
+  "id": "A400339",
+  "mentions": [
+    "A000007",
+    "A002290",
+    "A014969",
+    "A225543",
+    "A399317",
+    "A400337",
+    "A400338"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

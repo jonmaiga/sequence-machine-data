@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Product_{d|n} A276086(A300251(d)), where A300251 is Möbius transform of arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A400831",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A276086",
+    "A300251",
+    "A327859",
+    "A380459",
+    "A392878",
+    "A400832",
+    "A400833"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

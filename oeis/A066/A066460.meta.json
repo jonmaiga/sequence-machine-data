@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least positive integer k such that k is a repdigit number in exactly n different bases B, where 1",
+  "description": "a(n) is the least positive integer k such that k is a repdigit number in exactly n different bases B, where 1<B<k.",
   "id": "A066460",
   "mentions": [
     "A066044",

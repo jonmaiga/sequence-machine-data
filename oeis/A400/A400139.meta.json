@@ -1,0 +1,29 @@
+{
+  "description": "The number of divisors d of n such that gcid(d, n/d) is a powerful number (A001694), where gcid is the greatest common infinitary divisor.",
+  "id": "A400139",
+  "mentions": [
+    "A000120",
+    "A001694",
+    "A037445",
+    "A369310",
+    "A376887",
+    "A399829",
+    "A400137",
+    "A400138",
+    "A400140",
+    "A400141",
+    "A400142",
+    "A400143"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

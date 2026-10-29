@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 0<=k<=n, defined by : T(n,k)=0 if kn,T(0,0)=1, T(1,0)=1, T(1,1)=-1, T(n,k)=T(n-1,k-1)+T(n-1,k)+T(n-2,k).",
+  "description": "Triangle T(n,k), 0<=k<=n, defined by : T(n,k)=0 if k<0, T(n,k)=0 if k>n,T(0,0)=1, T(1,0)=1, T(1,1)=-1, T(n,k)=T(n-1,k-1)+T(n-1,k)+T(n-2,k).",
   "id": "A122837",
   "mentions": [
     "A000045",

@@ -1,0 +1,21 @@
+{
+  "description": "Mersenne prime exponents k such that 2^k-2 is not a practical number.",
+  "id": "A399847",
+  "mentions": [
+    "A000043",
+    "A005153",
+    "A064078",
+    "A267124",
+    "A399756"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

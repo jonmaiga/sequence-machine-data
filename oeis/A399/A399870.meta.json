@@ -1,0 +1,23 @@
+{
+  "description": "Smooth necklaces with 6 colors.",
+  "id": "A399870",
+  "mentions": [
+    "A208775",
+    "A215327",
+    "A215329",
+    "A215331",
+    "A215333",
+    "A399871",
+    "A399872"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

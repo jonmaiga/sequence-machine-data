@@ -1,5 +1,5 @@
 {
-  "description": "Coordination sequence for the 120-cell: number of vertices n steps away from a given vertex on the regular 120-cell (hecatonicosachoron or {3,3,5}).",
+  "description": "Coordination sequence for the 120-cell: number of vertices n steps away from a given vertex on the regular 120-cell (hecatonicosachoron or {5,3,3}).",
   "id": "A108997",
   "mentions": [
     "A118785",

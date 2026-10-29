@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) = number of permutations of that end with k, such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime. (n > 0, 1 <= k <= n).",
+  "description": "Triangle read by rows: T(n, k) = number of permutations <p(1), p(2), ..., p(n)> of <1, 2, ..., n> that end with k, such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime. (n > 0, 1 <= k <= n).",
   "id": "A097278",
   "mentions": [
     "A097277"

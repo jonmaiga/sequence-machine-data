@@ -4,6 +4,8 @@
   "mentions": [
     "A000290",
     "A007916",
+    "A008683",
+    "A052409",
     "A062503",
     "A076467",
     "A124010",
@@ -21,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

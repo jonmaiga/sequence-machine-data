@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} (-1)^(k+1) * binomial(4*n-3*k,k) * (n-k+1)^k * a(n-k).",
+  "id": "A400662",
+  "mentions": [
+    "A000272",
+    "A002293",
+    "A210096",
+    "A400661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

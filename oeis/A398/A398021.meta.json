@@ -1,0 +1,18 @@
+{
+  "description": "Number of values of k for which n eventually enters a non-elementary loop under a trajectory x -> x / k if k divides x and x -> x + ceiling(x / k) otherwise.",
+  "id": "A398021",
+  "mentions": [
+    "A368136"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of maps f: {0,1}^n -> {0,1}^n under conjugation by permutations of coordinates.",
+  "id": "A399203",
+  "mentions": [
+    "A057156",
+    "A397971"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of positive numbers",
+  "description": "Number of positive numbers <n that are coprime to all anti-divisors of n.",
   "id": "A241006",
   "mentions": [
     "A066272",

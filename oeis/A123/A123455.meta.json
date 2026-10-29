@@ -1,14 +1,19 @@
 {
   "description": "Number of slightly triangulated perfect graphs on n nodes.",
   "id": "A123455",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A048193",
+    "A052431",
+    "A123472"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

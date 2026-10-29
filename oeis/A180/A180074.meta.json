@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree semiprimes s=p*q, p",
+  "description": "Squarefree semiprimes s=p*q, p<q, such that 2^s mod s = 2^p.",
   "id": "A180074",
   "mentions": [
     "A006881",

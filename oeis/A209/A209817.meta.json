@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of 3n in which every part is",
+  "description": "Number of partitions of 3n in which every part is <n.",
   "id": "A209817",
   "mentions": [
     "A209818"

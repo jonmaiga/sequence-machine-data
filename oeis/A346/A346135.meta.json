@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and 4k, taken together, contain all digits 1 though 9 at least once.",
+  "description": "Numbers k such that k and 4k, taken together, contain all digits 1 through 9 at least once.",
   "id": "A346135",
   "mentions": [
     "A115929"

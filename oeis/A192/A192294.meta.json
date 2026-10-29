@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum(1/d*_n)>Sum(1/d*_m) for all m",
+  "description": "Numbers n such that Sum(1/d*_n)>Sum(1/d*_m) for all m<n, where d*_n and d*_m are the anti-divisors of n and m.",
   "id": "A192294",
   "mentions": [
     "A004394",

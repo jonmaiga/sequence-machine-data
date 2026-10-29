@@ -2,7 +2,12 @@
   "description": "Number of fusion rings of rank 5 and multiplicity n.",
   "id": "A354473",
   "mentions": [
-    "A348305"
+    "A348305",
+    "A354471",
+    "A354472",
+    "A354475",
+    "A354476",
+    "A354477"
   ],
   "tags": [
     "hard",
@@ -11,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

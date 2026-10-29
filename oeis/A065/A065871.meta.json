@@ -2,7 +2,14 @@
   "description": "Numbers k such that usigma(k) + 1 is a prime.",
   "id": "A065871",
   "mentions": [
-    "A034448"
+    "A001359",
+    "A023209",
+    "A023214",
+    "A023222",
+    "A023232",
+    "A034448",
+    "A065872",
+    "A089443"
   ],
   "tags": [
     "nonn"
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

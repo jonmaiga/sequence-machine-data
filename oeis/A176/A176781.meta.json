@@ -2,6 +2,7 @@
   "description": "Smallest prime prime(i) such that concatenation 2//0_(n)//prime(i) is prime.",
   "id": "A176781",
   "mentions": [
+    "A101951",
     "A164968",
     "A173291",
     "A176316"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

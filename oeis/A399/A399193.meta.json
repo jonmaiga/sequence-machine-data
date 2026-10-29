@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected directed 2-regular graphs on n nodes without directed 2-cycles.",
+  "id": "A399193",
+  "mentions": [
+    "A219894",
+    "A219895",
+    "A396773",
+    "A396810"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

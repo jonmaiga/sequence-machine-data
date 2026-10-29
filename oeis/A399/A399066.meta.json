@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x*cosh(x)^4).",
+  "id": "A399066",
+  "mentions": [
+    "A092812",
+    "A205571",
+    "A399064",
+    "A399065"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

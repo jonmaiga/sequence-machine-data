@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples (i,j,k) with 0 <= i,j,k < 3^n such that no two of i, j, k have digit 1 in the same base-3 position, and gcd(i,j,k) = 1.",
+  "id": "A399364",
+  "mentions": [
+    "A009964",
+    "A071778",
+    "A088453",
+    "A396934"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

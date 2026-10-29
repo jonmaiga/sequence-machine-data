@@ -2,6 +2,7 @@
   "description": "Number of permutations of n elements with an odd number of fixed points.",
   "id": "A063083",
   "mentions": [
+    "A000142",
     "A062282"
   ],
   "tags": [

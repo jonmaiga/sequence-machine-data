@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^2*q where p and q are primes, with p taken from the first column of irregular array A401051, and q from the subsequent columns.",
+  "id": "A401228",
+  "mentions": [
+    "A095990",
+    "A373487",
+    "A400843",
+    "A401051",
+    "A401229"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

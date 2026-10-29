@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=2, a(n)=(a(n-1)+prime(n))*prime(n) for n > 1.",
+  "id": "A401038",
+  "mentions": [
+    "A098206"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Pairs (i,j) of positive integers where j",
+  "description": "Pairs (i,j) of positive integers where j<10.",
   "id": "A162520",
   "mentions": [],
   "tags": [

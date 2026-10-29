@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of n X n binary matrices under cyclic permutations of rows and complementations of columns.",
+  "id": "A400518",
+  "mentions": [
+    "A179043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

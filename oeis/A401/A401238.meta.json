@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n mod A008578(1+A235224(n)).",
+  "id": "A401238",
+  "mentions": [
+    "A008578",
+    "A235224",
+    "A276086",
+    "A401066",
+    "A401237"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

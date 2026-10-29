@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of n X n {-1,1} matrices that are equivalent to their transposes under independent permutations of rows and columns and multiplication of rows and columns by -1.",
+  "id": "A397916",
+  "mentions": [
+    "A352099",
+    "A353052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

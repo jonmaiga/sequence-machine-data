@@ -1,0 +1,16 @@
+{
+  "description": "The smallest number k such that the concatenation of the squares of the numbers from k to k + n is a prime number, or zero if such a k does not exist.",
+  "id": "A399269",
+  "mentions": [
+    "A017257",
+    "A087351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

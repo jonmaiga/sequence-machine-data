@@ -11,8 +11,8 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,30 +23,40 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -55,14 +65,10 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A015802: 
@@ -509,6 +514,66 @@ end
 end A015804.P2669746006178979705
 
 /-!
+# A015806: Numbers k not congruent to 0 (mod 3) such that phi(k) + 4 | sigma(k).
+
+The programs for A015806, there is no canonical definition to state claims against.
+-/
+
+/-! ## A015806.P13311989838796039798
+
+`filter[A015793(n+1), A011655(#)]`
+-/
+
+namespace A015806.P13311989838796039798
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015793 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A011655 (f1 j).toNat = 1) n)
+
+end
+
+end A015806.P13311989838796039798
+
+/-! ## A015806.P13592787839196326337
+
+`filter[A015793(n+1), A267208(#)]`
+-/
+
+namespace A015806.P13592787839196326337
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015793 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267208 (f1 j).toNat = 1) n)
+
+end
+
+end A015806.P13592787839196326337
+
+/-! ## A015806.P10285750853097797235
+
+`filter[A015793(n+1), A286801(#)]`
+-/
+
+namespace A015806.P10285750853097797235
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015793 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A286801 (f1 j).toNat = 1) n)
+
+end
+
+end A015806.P10285750853097797235
+
+/-!
 # A015807: Inverse of 1798th cyclotomic polynomial.
 
 The programs for A015807, there is no canonical definition to state claims against.
@@ -544,6 +609,21 @@ end
 
 end A015807.P8005989953906256948
 
+/-! ## A015807.P17947641647244612115
+
+`A016155(n)^A104847(A000326(n+3))`
+-/
+
+namespace A015807.P17947641647244612115
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A016155 n : ℚ) ^ (A104847 (A000326 (n + 3)).toNat : ℤ)
+
+end
+
+end A015807.P17947641647244612115
+
 /-! ## A015807.P9044017704977510957
 
 `Δ[and(1, A070971(n+2))]`
@@ -562,25 +642,10 @@ end
 
 end A015807.P9044017704977510957
 
-/-! ## A015807.P18062533762367996268
-
-`A016303(A281873(n+2))`
--/
-
-namespace A015807.P18062533762367996268
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016303 (A281873 (n + 2)).toNat
-
-end
-
-end A015807.P18062533762367996268
-
 /-!
 # A015809: Odd numbers k such that phi(k) | sigma_3(k).
 
-The programs for A015809, the canonical program `A015809.P1146351289713362011` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015809 has offset 1).
+The programs for A015809, the canonical program `A015809.P1146351289713362011` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015809 has offset 1).
 
 The definition of A015809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2868 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -589,7 +654,7 @@ The definition of A015809 is `conjectured`: the Lean definition is a formula tha
 
 `A015761(eq[1, A015761(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015809
@@ -1104,7 +1169,7 @@ end A015813.P14225569241061932740
 /-!
 # A015814: Numbers k such that phi(k + 1) divides sigma(k).
 
-The programs for A015814, the canonical program `A015814.P2308272231266712354` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015814 has offset 1).
+The programs for A015814, the canonical program `A015814.P2308272231266712354` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015814 has offset 1).
 
 The definition of A015814 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 311 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1113,7 +1178,7 @@ The definition of A015814 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A000203(n+1)%A000010(n+2))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015814
@@ -1157,19 +1222,19 @@ def P15208548123104935958.Spec : Prop :=
 
 end A015814
 
-/-! ## A015814.P10135606781339933644
+/-! ## A015814.P8933577999773394992
 
-`lt[∑{d}[n+1, #]%A000010(A000027(n+1)+1), 1]+1`
+`lt[∑{d}[n+1, #]%A000010(n+2), 1]+1`
 -/
 
-namespace A015814.P10135606781339933644
+namespace A015814.P8933577999773394992
 noncomputable section
 
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((∑ d ∈ Nat.divisors (f2 n), d : ℕ) : ℤ) (A000010 (A000027 (n + 1) + 1).toNat)
+  Int.tmod ((∑ d ∈ Nat.divisors (f2 n), d : ℕ) : ℤ) (A000010 (n + 2))
 
 def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   1
@@ -1179,13 +1244,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A015814.P10135606781339933644
+end A015814.P8933577999773394992
 
 namespace A015814
 
-/-- `lt[∑{d}[n+1, #]%A000010(A000027(n+1)+1), 1]+1` -/
-def P10135606781339933644.Spec : Prop :=
-  ∀ n, (P10135606781339933644.a n : ℤ) = A015814 (n + 1)
+/-- `lt[∑{d}[n+1, #]%A000010(n+2), 1]+1` -/
+def P8933577999773394992.Spec : Prop :=
+  ∀ n, (P8933577999773394992.a n : ℤ) = A015814 (n + 1)
 
 end A015814
 
@@ -1320,24 +1385,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015816.P7907089722622132831
-
-/-! ## A015816.P9623272016655200346
-
-`∏{e}[A124751(n), A168084(#)]`
--/
-
-namespace A015816.P9623272016655200346
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124751 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A168084 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A015816.P9623272016655200346
 
 /-! ## A015816.P1335475338900471392
 
@@ -1685,7 +1732,7 @@ end A015819.P10228882950514399554
 /-!
 # A015820: Numbers k such that phi(k + 4) | sigma(k).
 
-The programs for A015820, the canonical program `A015820.P11788765630809446508` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015820 has offset 1).
+The programs for A015820, the canonical program `A015820.P11788765630809446508` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015820 has offset 1).
 
 The definition of A015820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 641 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1694,7 +1741,7 @@ The definition of A015820 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+1)%A000010(n+5), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015820
@@ -1733,7 +1780,7 @@ end A015821.P9050314923269743768
 /-!
 # A015823: Numbers k such that phi(k + 7) | sigma(k).
 
-The programs for A015823, the canonical program `A015823.P14101664896886442128` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015823 has offset 1).
+The programs for A015823, the canonical program `A015823.P14101664896886442128` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015823 has offset 1).
 
 The definition of A015823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 946 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1742,7 +1789,7 @@ The definition of A015823 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+1)%A000010(n+8), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015823
@@ -2210,7 +2257,7 @@ end A015829.P9361350304542744673
 /-!
 # A015834: Numbers k such that phi(k) | sigma(k + 1).
 
-The programs for A015834, the canonical program `A015834.P6187228522220576603` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015834 has offset 1).
+The programs for A015834, the canonical program `A015834.P6187228522220576603` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015834 has offset 1).
 
 The definition of A015834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2219,7 +2266,7 @@ The definition of A015834 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A000203(n+2)%A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015834
@@ -2374,6 +2421,21 @@ end
 
 end A015835.P16945915201332393443
 
+/-! ## A015835.P5041009032858017409
+
+`A010815(A005448(n+1)-A285100(n+1))`
+-/
+
+namespace A015835.P5041009032858017409
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010815 (A005448 (n + 1) - A285100 (n + 1)).toNat
+
+end
+
+end A015835.P5041009032858017409
+
 /-! ## A015835.P11722921832472102344
 
 `(-A015120(n))^A156723(n+1)`
@@ -2428,7 +2490,7 @@ end A015836.P7904589977398426134
 /-!
 # A015837: Numbers k such that phi(k) | sigma(k + 2).
 
-The programs for A015837, the canonical program `A015837.P10061482123831038346` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015837 has offset 1).
+The programs for A015837, the canonical program `A015837.P10061482123831038346` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015837 has offset 1).
 
 The definition of A015837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2437,7 +2499,7 @@ The definition of A015837 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+3)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015837
@@ -3042,7 +3104,7 @@ end A015846.P8134346268516572394
 /-!
 # A015847: Numbers k such that phi(k + 4) | sigma(k) for k not congruent to 0 (mod 3).
 
-The programs for A015847, the canonical program `A015847.P12490505763805221842` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015847 has offset 1).
+The programs for A015847, the canonical program `A015847.P12490505763805221842` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015847 has offset 1).
 
 The definition of A015847 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3051,7 +3113,7 @@ The definition of A015847 is `conjectured`: the Lean definition is a formula tha
 
 `A015820(eq[1, gcd(3, A015820(n+1))]+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015847
@@ -3319,7 +3381,7 @@ end A015847
 /-!
 # A015848: Numbers k such that phi(k + 7) | sigma(k) for k not congruent to 0 (mod 3).
 
-The programs for A015848, the canonical program `A015848.P1385661765807216180` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015848 has offset 1).
+The programs for A015848, the canonical program `A015848.P1385661765807216180` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015848 has offset 1).
 
 The definition of A015848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 254 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3328,7 +3390,7 @@ The definition of A015848 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001651(n+1), A015823(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015848
@@ -3452,6 +3514,36 @@ namespace A015848
 /-- `filter[A015823(n+1), A267208(#)]` -/
 def P2994695431797043364.Spec : Prop :=
   ∀ n, P2994695431797043364.a n = A015848 (n + 1)
+
+end A015848
+
+/-! ## A015848.P13756550566864810861
+
+`∩[A015823(n+1), A008619(3*n)]`
+-/
+
+namespace A015848.P13756550566864810861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015823 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (3 * n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A015848.P13756550566864810861
+
+namespace A015848
+
+/-- `∩[A015823(n+1), A008619(3*n)]` -/
+def P13756550566864810861.Spec : Prop :=
+  ∀ n, (P13756550566864810861.a n : ℤ) = A015848 (n + 1)
 
 end A015848
 
@@ -3820,7 +3912,7 @@ end A015852.P9374916665510441476
 /-!
 # A015853: Numbers k such that phi(k) | sigma(k + 9).
 
-The programs for A015853, the canonical program `A015853.P2283416451843243793` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015853 has offset 1).
+The programs for A015853, the canonical program `A015853.P2283416451843243793` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015853 has offset 1).
 
 The definition of A015853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 269 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3829,7 +3921,7 @@ The definition of A015853 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+10)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A015853
@@ -5700,6 +5792,21 @@ end
 
 end A015895.P6102801230315186796
 
+/-! ## A015895.P2659529962182584130
+
+`A015987(n)%A260651(n+2)`
+-/
+
+namespace A015895.P2659529962182584130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A015987 n) (A260651 (n + 2))
+
+end
+
+end A015895.P2659529962182584130
+
 /-!
 # A015896: Inverse of 1887th cyclotomic polynomial.
 
@@ -5736,6 +5843,21 @@ end
 
 end A015896.P14461316189942904757
 
+/-! ## A015896.P12908266928758921084
+
+`A336118(A016116(n))+A016100(n)`
+-/
+
+namespace A015896.P12908266928758921084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336118 (A016116 n).toNat + A016100 n
+
+end
+
+end A015896.P12908266928758921084
+
 /-! ## A015896.P14777915334048240637
 
 `A011649(n)*A033999(n)`
@@ -5765,21 +5887,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015896.P2224554646221417901
-
-/-! ## A015896.P13330530513987183305
-
-`A016202(n)%A037300(n)`
--/
-
-namespace A015896.P13330530513987183305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A016202 n) (A037300 n)
-
-end
-
-end A015896.P13330530513987183305
 
 /-!
 # A015897: Numbers k such that k | 8^k + 8.

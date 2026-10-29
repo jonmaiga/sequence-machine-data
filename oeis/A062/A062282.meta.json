@@ -2,6 +2,7 @@
   "description": "Number of permutations of n elements with an even number of fixed points.",
   "id": "A062282",
   "mentions": [
+    "A000142",
     "A000166",
     "A000387",
     "A000475",

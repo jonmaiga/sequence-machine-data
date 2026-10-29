@@ -1,0 +1,19 @@
+{
+  "description": "Least m such that the divisor graph on {2,...,m}, after removing isolated vertices, has at least n independent linear relations among the columns of its adjacency matrix.",
+  "id": "A400804",
+  "mentions": [
+    "A337125",
+    "A344497",
+    "A356831",
+    "A400803"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

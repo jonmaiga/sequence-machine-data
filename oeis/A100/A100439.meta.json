@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct values of i*j + j*k + k*i with 1 <= i",
+  "description": "Number of distinct values of i*j + j*k + k*i with 1 <= i<j<k <= n.",
   "id": "A100439",
   "mentions": [
     "A027430",

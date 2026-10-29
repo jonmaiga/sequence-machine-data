@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal chains in the subgroup lattice of S_n.",
+  "id": "A398405",
+  "mentions": [
+    "A066115",
+    "A218923",
+    "A218927",
+    "A290138"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if n",
+  "description": "a(n) = if n<9 then n else 9*a(floor(n/9)) + 8 - n mod 9.",
   "id": "A115309",
   "mentions": [
     "A054429",

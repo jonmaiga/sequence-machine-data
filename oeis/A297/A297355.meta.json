@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which pi_{12,5}(p) - pi_{12,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "description": "Primes p == 1 (mod 4) for which pi_{12,5}(p) - pi_{12,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A297355",
   "mentions": [
     "A007350",

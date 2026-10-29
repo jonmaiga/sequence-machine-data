@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n, k) * T(k), where T(n) = A000081(n) for n >= 1, T(0) = 1.",
+  "id": "A399239",
+  "mentions": [
+    "A000081",
+    "A399238"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

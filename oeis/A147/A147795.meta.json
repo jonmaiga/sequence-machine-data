@@ -1,5 +1,5 @@
 {
-  "description": "If n=A000695(k_n)+2*A000695(l_n), then a(n) is the number of nonnegative integers m",
+  "description": "If n=A000695(k_n)+2*A000695(l_n), then a(n) is the number of nonnegative integers m<n such that k_m differs from k_n and l_m differs from l_n.",
   "id": "A147795",
   "mentions": [
     "A000695",

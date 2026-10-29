@@ -2,6 +2,7 @@
   "description": "Xenodromes: all digits in base 5 are different.",
   "id": "A023800",
   "mentions": [
+    "A010784",
     "A023798",
     "A023810"
   ],
@@ -9,6 +10,7 @@
     "base",
     "easy",
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

@@ -2,16 +2,8 @@
   "description": "Smallest number such that n*a(n) is a concatenation of n consecutive integers; or 0 if no such number exists.",
   "id": "A075000",
   "mentions": [
-    "A036377",
-    "A073086",
-    "A074991",
-    "A074992",
-    "A074993",
-    "A074994",
-    "A074995",
-    "A074996",
-    "A074999",
     "A075001",
+    "A075002",
     "A077306"
   ],
   "tags": [
@@ -21,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

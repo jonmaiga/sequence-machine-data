@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Card( k, 0",
+  "description": "a(n) = Card( k, 0<k<=n such that k is relatively prime to sigma(k)).",
   "id": "A070545",
   "mentions": [
     "A000203",

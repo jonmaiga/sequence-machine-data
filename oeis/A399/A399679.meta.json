@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic strong doppelsemigroups of order n.",
+  "id": "A399679",
+  "mentions": [
+    "A001426",
+    "A027851",
+    "A399676",
+    "A399678"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

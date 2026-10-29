@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n such that each part divides the number of parts.",
+  "id": "A401251",
+  "mentions": [
+    "A100346",
+    "A340693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

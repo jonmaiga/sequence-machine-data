@@ -1,7 +1,8 @@
 {
-  "description": "T(n,n-1), array T as in A054115.",
+  "description": "a(n) = T(n,n-1), array T as in A054115.",
   "id": "A054116",
   "mentions": [
+    "A000142",
     "A007489",
     "A054115"
   ],

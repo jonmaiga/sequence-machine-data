@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k+1 divides phi(k)^2 + 1 where phi is Euler's totient function (A000010).",
+  "id": "A400287",
+  "mentions": [
+    "A000010",
+    "A046144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

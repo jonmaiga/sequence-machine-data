@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form a^b+b^a, a and b are primes.",
+  "description": "Numbers of the form p^q + q^p, where p and q are primes.",
   "id": "A173056",
   "mentions": [
     "A076980",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "joeis"
   }
 }

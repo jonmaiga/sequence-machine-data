@@ -1,0 +1,21 @@
+{
+  "description": "Number of Baxter permutations of length n equivalent under the action of dihedral group of the square D_4 on the permutation matrix.",
+  "id": "A398832",
+  "mentions": [
+    "A000108",
+    "A001181",
+    "A151374",
+    "A383372",
+    "A397853",
+    "A398688"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

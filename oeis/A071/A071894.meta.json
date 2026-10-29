@@ -1,5 +1,5 @@
 {
-  "description": "Largest positive primitive root (",
+  "description": "Largest positive primitive root (<p) of n-th prime p.",
   "id": "A071894",
   "mentions": [
     "A000040",

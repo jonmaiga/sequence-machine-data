@@ -1,5 +1,5 @@
 {
-  "description": "Factorial splitting: write n! = x*y*z with x",
+  "description": "Factorial splitting: write n! = x*y*z with x<y<z and x maximal and z is minimal; sequence gives value of z.",
   "id": "A061032",
   "mentions": [
     "A060776",

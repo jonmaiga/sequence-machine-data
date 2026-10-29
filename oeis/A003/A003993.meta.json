@@ -2,7 +2,8 @@
   "description": "Sequence b_3 (n) arising from homology of partitions with even number of blocks.",
   "id": "A003993",
   "mentions": [
-    "A003994"
+    "A003994",
+    "A024023"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Total number of distinct least common multiples of (i,j) with 1<=i",
+  "description": "Total number of distinct least common multiples of (i,j) with 1<=i<j<=n.",
   "id": "A236309",
   "mentions": [
     "A202479"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k",
+  "description": "a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k<n.",
   "id": "A026482",
   "mentions": [
     "A026477",

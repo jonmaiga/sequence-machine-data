@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = numerator of Sum_{k = 1..n} 2^ceiling(log_2(k))/k.",
+  "id": "A398928",
+  "mentions": [
+    "A181497",
+    "A217858"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

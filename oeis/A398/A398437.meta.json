@@ -1,0 +1,17 @@
+{
+  "description": "Least value of x+y for 0<x<y such that (x^p+y^p)/(x+y) is prime, where p=prime(n), n>1; -1, if no such pair exists.",
+  "id": "A398437",
+  "mentions": [
+    "A000040",
+    "A000978",
+    "A057173"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

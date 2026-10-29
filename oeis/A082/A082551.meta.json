@@ -1,5 +1,5 @@
 {
-  "description": "Denote sigma(n)-n by s(n); a(n)=1 if s(n)>n, a(n)=0 if s(n)=n, a(n)=-1 if s(n)",
+  "description": "Denote sigma(n)-n by s(n); a(n)=1 if s(n)>n, a(n)=0 if s(n)=n, a(n)=-1 if s(n)<n.",
   "id": "A082551",
   "mentions": [
     "A000203",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that j(n)*phi(n) = usigma(n), where j(n) = A033831, usigma(n) = sum of unitary divisors of n (A034448).",
+  "description": "Numbers k such that j(k)*phi(k) = usigma(k), where j(k) = A033831(k), and usigma(k) = sum of unitary divisors of k (A034448).",
   "id": "A033857",
   "mentions": [
     "A000010",

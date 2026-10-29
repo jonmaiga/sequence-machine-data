@@ -1,5 +1,5 @@
 {
-  "description": "Integers for which the Goldbach factorization graph contains exceptional autonomous component (see link for definitions).",
+  "description": "Integers for which the Goldbach factorization graph contains an exceptional autonomous component (see link for definitions).",
   "id": "A327772",
   "mentions": [
     "A306746"

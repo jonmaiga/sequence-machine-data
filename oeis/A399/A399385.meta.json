@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2n+1 X 2n+1 off-diagonally symmetric alternating sign matrices.",
+  "id": "A399385",
+  "mentions": [
+    "A005156",
+    "A005163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [10+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(10+n)*[i",
+  "description": "Number of permutations p of [10+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(10+n)*[i<p(i)]].",
   "id": "A324630",
   "mentions": [
     "A324563",

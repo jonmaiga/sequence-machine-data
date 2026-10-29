@@ -1,16 +1,19 @@
 {
-  "description": "a(0)=0; for n>0, a(n) = (A163778(n)-1)/2.",
+  "description": "a(n) = (A163778(n)-1)/2.",
   "id": "A294434",
   "mentions": [
+    "A105876",
+    "A114564",
     "A163778",
     "A294673"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/(1 - x*A(x))^(x^3*A(x)^3).",
+  "id": "A400407",
+  "mentions": [
+    "A184949",
+    "A371147",
+    "A400408",
+    "A400409"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

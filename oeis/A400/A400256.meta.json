@@ -1,0 +1,21 @@
+{
+  "description": "Numbers where the iteration of map k -> A003415(k) leads to a prime (and thus to 1 and 0) in the shortest possible time, with the maximal exponent of k (A051903) decreasing by 1 on each iteration until a prime is encountered.",
+  "id": "A400256",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A048103",
+    "A051903",
+    "A099308",
+    "A400158",
+    "A400257"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

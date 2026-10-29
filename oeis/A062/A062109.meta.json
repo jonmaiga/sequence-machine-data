@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of ((1-x)/(1-2*x))^4.",
+  "description": "Expansion of g.f. ((1-x)/(1-2*x))^4.",
   "id": "A062109",
   "mentions": [
     "A002623",

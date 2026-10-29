@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; a(1) = 1; thereafter a(n) = a(n-1) - 1 if that is not already in the sequence, otherwise a(n) = a(n-1) + floor(sqrt(a(n-1))).",
+  "id": "A399084",
+  "mentions": [
+    "A000196",
+    "A020703",
+    "A038722"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

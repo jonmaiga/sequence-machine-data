@@ -1,8 +1,9 @@
 {
-  "description": "Partial sums of the sum of the 5th powers of the divisors of n: Sum_{i=1..n} sigma_5(i).",
+  "description": "Partial sums of A001160: Sum_{j=1..n} sigma_5(j).",
   "id": "A248076",
   "mentions": [
     "A000203",
+    "A000539",
     "A001157",
     "A001158",
     "A001159",

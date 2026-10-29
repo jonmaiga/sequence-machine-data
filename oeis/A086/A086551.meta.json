@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k such that tau(k)= n*tau(k-1) where tau(k) = number of divisors of k, or 0 if no such number exists.",
+  "description": "a(n) = smallest k such that tau(k) = n*tau(k-1) where tau(k) = number of divisors of k, or 0 if no such number exists.",
   "id": "A086551",
   "mentions": [
     "A086550"

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers t such that t+1, t+3, t+7, t+9 are four primes.",
+  "id": "A398878",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A125855",
+    "A226109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

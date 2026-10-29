@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that Sum_{d_",
+  "description": "Composite numbers n such that Sum_{d_<n | n} phi(d_<n) / (d_<n) is an integer, where d_<n = divisors of n that are less than n, phi(x) = A000010(x).",
   "id": "A211778",
   "mentions": [
     "A000010",

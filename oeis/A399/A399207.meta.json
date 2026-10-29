@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic asymmetric intersecting families of subsets of an n-element set.",
+  "id": "A399207",
+  "mentions": [
+    "A051185",
+    "A305856",
+    "A330294"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

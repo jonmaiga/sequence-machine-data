@@ -1,5 +1,5 @@
 {
-  "description": "Indices of record high-water marks of the sequence abs((cos p)^p) where p is the numerator of the n-th convergent to Pi (A002485), starting from n = 1.",
+  "description": "Indices of record high-water marks of the sequence abs((cos(p))^p) where p is the numerator of the n-th convergent to Pi (A002485), starting from n = 1.",
   "id": "A383117",
   "mentions": [
     "A002485",

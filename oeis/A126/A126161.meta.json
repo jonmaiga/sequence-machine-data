@@ -1,5 +1,5 @@
 {
-  "description": "Number of augmented amicable pairs (m,n) with m",
+  "description": "Number of augmented amicable pairs (m,n) with m<n and for which m<=10^k, k=1,2,3,...",
   "id": "A126161",
   "mentions": [
     "A007992",

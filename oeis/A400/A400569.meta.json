@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic commutative dimonoids of order n.",
+  "id": "A400569",
+  "mentions": [
+    "A001426",
+    "A027851",
+    "A400568",
+    "A400570"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

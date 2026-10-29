@@ -1,5 +1,5 @@
 {
-  "description": "Triangle A(n,k) read by rows: A(n,1)=A(n,n)=1 and A(n,k) = A(n-2,k-1) - 2*A(n,k-1) + 1 for 1",
+  "description": "Triangle A(n,k) read by rows: A(n,1)=A(n,n)=1 and A(n,k) = A(n-2,k-1) - 2*A(n,k-1) + 1 for 1<k<n.",
   "id": "A144451",
   "mentions": [],
   "tags": [

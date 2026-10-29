@@ -1,0 +1,19 @@
+{
+  "description": "Number of strongly connected components of a directed graph Gamma_{2,n}(Z) related to wild frieze patterns.",
+  "id": "A400275",
+  "mentions": [
+    "A000108",
+    "A001683",
+    "A004526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array T(n,k) read by antidiagonals. Row n consists of numbers k for which {k*sqrt(2)}",
+  "description": "Rectangular array T(n,k) read by antidiagonals. Row n consists of numbers k for which {k*sqrt(2)}<n/k, where { } denotes fractional part.",
   "id": "A134033",
   "mentions": [
     "A134032"

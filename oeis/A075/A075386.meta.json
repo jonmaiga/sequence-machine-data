@@ -1,5 +1,5 @@
 {
-  "description": "Sum of terms of n-th group in A075383.",
+  "description": "Sum of the n-th group in A075383.",
   "id": "A075386",
   "mentions": [
     "A075383",

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m>0 having n representations m = x^i + x^j with 1",
+  "description": "Smallest number m>0 having n representations m = x^i + x^j with 1<x<=m and 0<=i<=j.",
   "id": "A088906",
   "mentions": [
     "A088904"

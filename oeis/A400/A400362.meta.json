@@ -1,0 +1,19 @@
+{
+  "description": "Smallest base in which the n-th Brazilian number (A125134) is a repdigit.",
+  "id": "A400362",
+  "mentions": [
+    "A059711",
+    "A125134"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = k smallest exponent of N = 2^k of first prime(1) = 2 where string \"p(1) ... p(n)\" appears in the decimal representation of N (n=1,2,...).",
+  "description": "a(n) = k smallest exponent of N = 2^k of first prime(1) = 2 where string \"p(1) ... p(n)\" appears in the decimal representation of N (n = 1,2,...).",
   "id": "A173550",
   "mentions": [
     "A000079",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

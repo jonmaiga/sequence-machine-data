@@ -1,9 +1,9 @@
 {
-  "description": "First number to occur at least n times in Weinstein's W sequence (A394611).",
+  "description": "First number to occur at least n times in Weinstein's W sequence (A399995).",
   "id": "A393702",
   "mentions": [
-    "A394611",
-    "A397175"
+    "A397175",
+    "A399995"
   ],
   "tags": [
     "nonn"

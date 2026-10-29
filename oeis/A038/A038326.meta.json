@@ -1,9 +1,13 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*11^(i-j)*12^j.",
   "id": "A038326",
-  "mentions": [],
+  "mentions": [
+    "A001020",
+    "A001021"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

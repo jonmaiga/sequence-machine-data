@@ -2,6 +2,7 @@
   "description": "If decimal expansion of n-th prime is x1 x2 ... xk, sort the xi into nonincreasing order, y1 y2 ... yk; then a(n) = |y1-y2-y3...-yk|.",
   "id": "A041000",
   "mentions": [
+    "A000040",
     "A007953",
     "A040164",
     "A054055"

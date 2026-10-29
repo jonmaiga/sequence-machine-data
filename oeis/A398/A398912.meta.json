@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: Number of functions f: [n] -> [n] where the longest nondecreasing initial run has length k.",
+  "id": "A398912",
+  "mentions": [
+    "A000312",
+    "A001700",
+    "A070896",
+    "A081131",
+    "A088218",
+    "A110609",
+    "A398914"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,m) = (1/n)*Sum_{i=1..n} C(n,i-1)*C(n,i)*C(n,m+1-i), T(0,0)=0, m",
+  "description": "Triangle read by rows, T(n,m) = (1/n)*Sum_{i=1..n} C(n,i-1)*C(n,i)*C(n,m+1-i), T(0,0)=0, m<2n.",
   "id": "A296186",
   "mentions": [],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Number of right-Euclidean relations on an n-element labeled set.",
+  "id": "A398718",
+  "mentions": [
+    "A001831",
+    "A398475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

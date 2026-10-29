@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = n*k*(n^2 - k^2)/6, with n, k >= 0.",
+  "id": "A399542",
+  "mentions": [
+    "A000004",
+    "A000290",
+    "A000292",
+    "A000330",
+    "A040977",
+    "A077415",
+    "A350689"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

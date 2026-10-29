@@ -2,6 +2,7 @@
   "description": "a(n) is the maximum number of nonzero entries in an n X n sign-restricted matrix.",
   "id": "A340648",
   "mentions": [
+    "A047255",
     "A225231"
   ],
   "tags": [

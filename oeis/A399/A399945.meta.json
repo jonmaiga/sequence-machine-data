@@ -1,0 +1,23 @@
+{
+  "description": "Highest frequency of a digit (0, 1 or 2) in the ternary representation of n.",
+  "id": "A399945",
+  "mentions": [
+    "A003462",
+    "A062756",
+    "A077267",
+    "A081603",
+    "A081604",
+    "A152724"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

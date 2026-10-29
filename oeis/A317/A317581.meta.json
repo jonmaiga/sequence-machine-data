@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n > 1) = 1 + Sum_{d|n, d",
+  "description": "a(1) = 1; a(n > 1) = 1 + Sum_{d|n, d<n} mu(n/d) a(d).",
   "id": "A317581",
   "mentions": [
     "A001678",

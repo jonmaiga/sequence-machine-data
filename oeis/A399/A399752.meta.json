@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 6^k/(6*k)! (reciprocals of A210279).",
+  "id": "A399752",
+  "mentions": [
+    "A001113",
+    "A210279",
+    "A395537",
+    "A399749",
+    "A399750",
+    "A399751",
+    "A399753"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

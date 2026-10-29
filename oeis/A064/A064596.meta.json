@@ -1,5 +1,5 @@
 {
-  "description": "Smallest nonunitary multiperfect number of index n; i.e., smallest k such that sigma(k) - usigma(k) = nk.",
+  "description": "Smallest nonunitary multiperfect number of index n; i.e., smallest k such that sigma(k) - usigma(k) = n*k.",
   "id": "A064596",
   "mentions": [
     "A048146",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

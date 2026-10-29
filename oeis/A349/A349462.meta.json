@@ -1,5 +1,5 @@
 {
-  "description": "The a_i coefficients of the standard form decomposition of U(1,X), the Ulam sequence starting with 1, X in the ordered abelian group of linear integer polynomials in X, where the ordering is lexigraphical.",
+  "description": "The a_i coefficients of the standard form decomposition of U(1,X), the Ulam sequence starting with 1, X in the ordered abelian group of linear integer polynomials in X, where the ordering is lexicographical.",
   "id": "A349462",
   "mentions": [
     "A002858",

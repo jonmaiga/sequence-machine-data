@@ -2,8 +2,12 @@
   "description": "Numbers k such that 10*k-1 is a square.",
   "id": "A220082",
   "mentions": [
+    "A001622",
     "A001844",
+    "A002378",
     "A002522",
+    "A047211",
+    "A047221",
     "A062317",
     "A063226",
     "A085787",

@@ -1,0 +1,19 @@
+{
+  "description": "Near-repdigit Smith numbers.",
+  "id": "A399754",
+  "mentions": [
+    "A006753",
+    "A104166",
+    "A164937",
+    "A210666"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k for which a chain of linked rods of length 1, ..., k can be folded in half in exactly n dictinct ways.",
+  "description": "Smallest k for which a chain of linked rods of length 1, ..., k can be folded in half in exactly n distinct ways.",
   "id": "A390056",
   "mentions": [
     "A000217",

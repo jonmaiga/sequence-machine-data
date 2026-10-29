@@ -1,0 +1,24 @@
+{
+  "description": "Minimum difference between two composite numbers whose sum is prime(n).",
+  "id": "A399575",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A024683",
+    "A060254",
+    "A069142",
+    "A096677",
+    "A176831",
+    "A240569"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 87,
+    "source": "joeis"
+  }
+}

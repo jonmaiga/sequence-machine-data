@@ -1,5 +1,5 @@
 {
-  "description": "Triangular numbers of form a(a+1)(a+2).",
+  "description": "Triangular numbers of form a*(a+1)*(a+2).",
   "id": "A001219",
   "mentions": [
     "A000217",

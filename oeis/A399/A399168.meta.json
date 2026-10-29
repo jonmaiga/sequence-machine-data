@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + 4*x*A(x)^7)^(1/2).",
+  "id": "A399168",
+  "mentions": [
+    "A078531",
+    "A182122",
+    "A245112",
+    "A399165",
+    "A400356"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

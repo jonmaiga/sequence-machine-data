@@ -3,14 +3,16 @@
   "id": "A057596",
   "mentions": [
     "A000045",
-    "A039834"
+    "A039834",
+    "A399576"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

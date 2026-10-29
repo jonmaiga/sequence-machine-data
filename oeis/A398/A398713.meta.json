@@ -1,0 +1,23 @@
+{
+  "description": "Table read by descending antidiagonals: T(n, k) = smallest number m such that 2*(n*m+k) = Sum_{d|m} (n*d+k), n>=0, k>=0.",
+  "id": "A398713",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000079",
+    "A000203",
+    "A000396",
+    "A066229"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

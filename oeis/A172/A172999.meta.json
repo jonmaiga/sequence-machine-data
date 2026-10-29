@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=4; for n>=3, a(n) is the smallest number larger than a(n-1) such that, for every k",
+  "description": "a(1)=1, a(2)=4; for n>=3, a(n) is the smallest number larger than a(n-1) such that, for every k<n, a(n) is relatively prime to a(k) iff n is relatively prime to k.",
   "id": "A172999",
   "mentions": [
     "A151976",

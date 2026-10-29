@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 2^(5/4)*sqrt(Pi)*exp(Pi/8)/Gamma(1/4)^2.",
+  "description": "Decimal expansion of the Weierstrass constant, 2^(5/4)*sqrt(Pi)*exp(Pi/8)/Gamma(1/4)^2.",
   "id": "A094692",
   "mentions": [],
   "tags": [

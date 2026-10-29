@@ -1,0 +1,23 @@
+{
+  "description": "Number of S_3-symmetric unrestricted 3-dimensional vector partitions of (n, n, n).",
+  "id": "A400544",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A003293",
+    "A144677",
+    "A219678",
+    "A219727",
+    "A400564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

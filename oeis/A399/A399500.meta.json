@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n gives the n consecutive integers centered at n, excluding n if n is even.",
+  "id": "A399500",
+  "mentions": [
+    "A008619",
+    "A032766",
+    "A398929",
+    "A398933",
+    "A399262",
+    "A399490"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

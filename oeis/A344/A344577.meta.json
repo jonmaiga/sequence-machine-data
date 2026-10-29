@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d= 2.",
+  "description": "a(n) = Sum_{d|n, d<n} phi(n-d) for n >= 2.",
   "id": "A344577",
   "mentions": [
     "A000010"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 2,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

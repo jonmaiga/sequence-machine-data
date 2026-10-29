@@ -26,7 +26,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -34,43 +33,48 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A047100: Array T read by diagonals: T(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and touches the line y=x/3 only at lattice points.
@@ -312,25 +315,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A047102.P3095623360114506815
-
-/-! ## A047102.P4623107198100194398
-
-`char[A025581(n)]*A047100(A046092(n))`
--/
-
-namespace A047102.P4623107198100194398
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025581 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A047100 (A046092 n).toNat
-
-end
-
-end A047102.P4623107198100194398
 
 /-! ## A047102.P761975810269971957
 
@@ -1410,36 +1394,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047111.P1830864519167675539
-
-/-! ## A047111.P10308397638582235588
-
-`A345167(A000045(n+2))+A321649(2*n+5)`
--/
-
-namespace A047111.P10308397638582235588
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (A000045 (n + 2)).toNat + A321649 (2 * n + 5)
-
-end
-
-end A047111.P10308397638582235588
-
-/-! ## A047111.P14859999767559416707
-
-`A345167(A000045(n+2))+A048996(A189186(n+3))`
--/
-
-namespace A047111.P14859999767559416707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345167 (A000045 (n + 2)).toNat + A048996 (A189186 (n + 3)).toNat
-
-end
-
-end A047111.P14859999767559416707
 
 /-!
 # A047112: T(n,n), array T as in A047110.
@@ -8024,41 +7978,20 @@ end
 
 end A047166.P11121085115951796910
 
-/-! ## A047166.P6608795854908646583
+/-! ## A047166.P8392134496953494069
 
-`filter[A028725(n+2), A102609(#)]`
+`A108377(A153234(n))`
 -/
 
-namespace A047166.P6608795854908646583
+namespace A047166.P8392134496953494069
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028725 (n + 2)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
+  A108377 (A153234 n).toNat
 
 end
 
-end A047166.P6608795854908646583
-
-/-! ## A047166.P14202564849720336202
-
-`filter[A028725(n+2), A103583(#)]`
--/
-
-namespace A047166.P14202564849720336202
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028725 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A103583 (f1 j).toNat = 1) n)
-
-end
-
-end A047166.P14202564849720336202
+end A047166.P8392134496953494069
 
 /-!
 # A047167: Number of nonempty subsets of {1,2,...,n} in which exactly 3/5 of the elements are <= n/2.
@@ -8851,6 +8784,32 @@ def P5349188621032224058.Spec : Prop :=
 
 end A047171
 
+/-! ## A047171.P4538898721943108096
+
+`C(n, floor(∑[n]/(n+2)))-1`
+-/
+
+namespace A047171.P4538898721943108096
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n ⌊((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ) / (n + 2 : ℚ)⌋.toNat : ℤ) - 1
+
+end
+
+end A047171.P4538898721943108096
+
+namespace A047171
+
+/-- `C(n, floor(∑[n]/(n+2)))-1` -/
+def P4538898721943108096.Spec : Prop :=
+  ∀ n, P4538898721943108096.a n = A047171 n
+
+end A047171
+
 /-!
 # A047172: Number of nonempty subsets of {1,2,...,n} in which exactly 1/3 of the elements are <= (n-1)/2.
 
@@ -9280,44 +9239,26 @@ end
 
 end A047177.P10615592150014807169
 
-/-! ## A047177.P15650235720578666230
+/-! ## A047177.P9971347588489534130
 
-`filter[A048077(n+1), A103583(#)]`
+`A048077(A032555(n+1))`
 -/
 
-namespace A047177.P15650235720578666230
+namespace A047177.P9971347588489534130
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048077 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A103583 (f1 j).toNat = 1) n)
+  A048077 (A032555 (n + 1)).toNat
 
 end
 
-end A047177.P15650235720578666230
+end A047177.P9971347588489534130
 
 /-!
 # A047178: Number of nonempty subsets of {1,2,...,n} in which exactly 3/5 of the elements are <= (n-1)/2.
 
 The programs for A047178, there is no canonical definition to state claims against.
 -/
-
-/-! ## A047178.P17896661415967231962
-
-`A330299(n)+A330300(n)%A330308(n+1)`
--/
-
-namespace A047178.P17896661415967231962
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330299 n + Int.tmod (A330300 n) (A330308 (n + 1))
-
-end
-
-end A047178.P17896661415967231962
 
 /-! ## A047178.P690988466783890970
 
@@ -9381,6 +9322,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047178.P458887585231717146
+
+/-! ## A047178.P17736753085952641983
+
+`A193814(A369290(n))`
+-/
+
+namespace A047178.P17736753085952641983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193814 (A369290 n).toNat
+
+end
+
+end A047178.P17736753085952641983
 
 /-!
 # A047179: Number of nonempty subsets of {1,2,...,n} in which exactly 4/5 of the elements are <= (n-1)/2.

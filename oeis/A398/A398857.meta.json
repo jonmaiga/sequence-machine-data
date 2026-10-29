@@ -1,0 +1,20 @@
+{
+  "description": "Upper (2/3, 1)-midsequence of triangular numbers (A000217) and pentagonal numbers (A000326); see Comments.",
+  "id": "A398857",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A398836",
+    "A398856"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

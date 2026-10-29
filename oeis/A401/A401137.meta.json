@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of distinct equality patterns among compositions of n into exactly k parts, 1 <= k <= n.",
+  "id": "A401137",
+  "mentions": [
+    "A088887",
+    "A401134"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a(n,k) = C(n,k)*(2^(n-k) - 1) for k= n, where k=0..max(n-1,0).",
+  "description": "Triangle read by rows: a(n,k) = C(n,k)*(2^(n-k) - 1) for k<n, a(n,k) = 0 for k >= n, where k=0..max(n-1,0).",
   "id": "A091913",
   "mentions": [
     "A000225",

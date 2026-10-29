@@ -1,5 +1,5 @@
 {
-  "description": "Isomorphism classes of connected 2-in 2-out digraphs, allowing parallel edges but not loops.",
+  "description": "Number of isomorphism classes of connected 2-in 2-out digraphs, allowing parallel edges but not loops.",
   "id": "A306827",
   "mentions": [
     "A219889",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 12,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of jumps in A399515, where first differences A399515(n+1) - A399515(n) are > 1.",
+  "id": "A399516",
+  "mentions": [
+    "A080827",
+    "A099392",
+    "A196126",
+    "A281706",
+    "A399515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

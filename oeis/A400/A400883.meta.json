@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyominoes with 3n cells that can be trisected into three congruent polyominoes.",
+  "id": "A400883",
+  "mentions": [
+    "A000105",
+    "A399996"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

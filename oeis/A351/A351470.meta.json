@@ -2,6 +2,7 @@
   "description": "Numbers m such that the largest digit in the decimal expansion of 1/m is 4.",
   "id": "A351470",
   "mentions": [
+    "A277966",
     "A333236",
     "A333237",
     "A333402",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

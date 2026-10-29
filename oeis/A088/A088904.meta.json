@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n = x^i + x^j with 1",
+  "description": "Number of ways to write n = x^i + x^j with 1<x<=n and 0<=i<=j.",
   "id": "A088904",
   "mentions": [
     "A088905",

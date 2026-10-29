@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 2 copies of 1..n with no element e[i>=2]",
+  "description": "Number of permutations of 2 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/2)] (2-way heap).",
   "id": "A178012",
   "mentions": [
     "A056971"

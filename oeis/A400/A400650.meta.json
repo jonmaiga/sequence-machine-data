@@ -1,0 +1,18 @@
+{
+  "description": "Values A327008(q) at indices q for which A327008(q+1) = A327008(q) - 1.",
+  "id": "A400650",
+  "mentions": [
+    "A327008",
+    "A400649"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

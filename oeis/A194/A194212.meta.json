@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(Sum_{k=1..n} ), where < > = fractional part.",
+  "description": "a(n) = floor(Sum_{k=1..n} <2*k*Pi>), where < > = fractional part.",
   "id": "A194212",
   "mentions": [
     "A194213"

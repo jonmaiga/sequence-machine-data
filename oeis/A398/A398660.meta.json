@@ -1,0 +1,20 @@
+{
+  "description": "Upper (1, 6/5) midsequence of triangular numbers (A000217) and tetrahedral numbers (A000330); see Comments.",
+  "id": "A398660",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A398651",
+    "A398659"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

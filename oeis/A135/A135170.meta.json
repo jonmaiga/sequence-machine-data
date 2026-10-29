@@ -1,9 +1,11 @@
 {
-  "description": "Primes equal to a sum c1+c2 of two consecutive composite numbers such that lpf(c1)-spf(c1)+lpf(c2)-spf(c2) from their largest and smallest prime factors is prime.",
+  "description": "Primes equal to a sum c1+c2 of two consecutive composite numbers such that gpf(c1) - lpf(c1) + gpf(c2) - lpf(c2) from their greatest and least prime factors is prime.",
   "id": "A135170",
   "mentions": [
     "A000040",
     "A002808",
+    "A006530",
+    "A020639",
     "A046665",
     "A060254",
     "A111426"
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

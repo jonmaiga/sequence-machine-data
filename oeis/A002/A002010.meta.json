@@ -1,7 +1,8 @@
 {
-  "description": "Almost trivalent maps.",
+  "description": "Number of rooted planar maps with 2n trivalent vertices and a root vertex of valence 8.",
   "id": "A002010",
   "mentions": [
+    "A002005",
     "A002006",
     "A002007",
     "A002008",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

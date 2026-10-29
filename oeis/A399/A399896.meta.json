@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [n] requiring the greatest number of reversals of increasing or decreasing runs to sort.",
+  "id": "A399896",
+  "mentions": [
+    "A398935"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

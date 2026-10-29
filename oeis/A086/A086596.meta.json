@@ -1,5 +1,5 @@
 {
-  "description": "An invariant of the set {Log(2), Log(3), Log(5),..., Log(Prime(2n)), Log(Prime(2n+1))}.",
+  "description": "An invariant of the set {log(2), log(3), log(5),..., log(prime(2n)), log(prime(2n+1))}.",
   "id": "A086596",
   "mentions": [
     "A068101"
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

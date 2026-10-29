@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that the permutation of the first m natural numbers S_m(n) = if(1<=n",
+  "description": "Numbers m such that the permutation of the first m natural numbers S_m(n) = if(1<=n<m-pi(m),c(n),prime(n-m-pi(m))) is a cyclic permutation where c(k) is the k-th composite number and prime(0)=1(for each natural number k, c(k)=A002808(k)).",
   "id": "A108516",
   "mentions": [
     "A002808",

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are Münchhausen numbers in at least one base b with 2 <= b <= n-2.",
+  "id": "A398118",
+  "mentions": [
+    "A016038",
+    "A046253",
+    "A166623"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

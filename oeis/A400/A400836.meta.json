@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if prime(n)# == -1 mod prime(1+n), otherwise the smallest prime(k) such that prime(1+n)#/prime(k)# == -1 mod prime(1+n), and 0 in all other cases. Here prime(n)# = A002110(n).",
+  "id": "A400836",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A008578",
+    "A058233",
+    "A400266",
+    "A400838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

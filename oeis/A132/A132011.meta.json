@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into distinct parts such that 3*u<=v for all pairs (u,v) of parts with u",
+  "description": "Number of partitions of n into distinct parts such that 3*u<=v for all pairs (u,v) of parts with u<v.",
   "id": "A132011",
   "mentions": [
     "A000009",

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the unique positive solution to 1/x + 1/(x+1) + 1/(x+2) + 1/(x+3) = 1.",
+  "id": "A399888",
+  "mentions": [
+    "A001622",
+    "A164889",
+    "A305326"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of partitions of n, where two partitions are equivalent if and only if their multisets of part multiplicities are isomorphic.",
+  "id": "A397825",
+  "mentions": [
+    "A056556",
+    "A088887"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d |C(n)} d^2, where C(n) is the Cototient function n - phi(n) (A051953).",
+  "description": "a(n) = Sum_{d |C(n)} d^2, where C(n) is the Cototient function n - phi(n) (A051953).",
   "id": "A063476",
   "mentions": [
     "A051953"

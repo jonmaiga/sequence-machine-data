@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Max(Min(k: m+prime(n)*k is prime): 1<=m",
+  "description": "a(n) = Max(Min(k: m+prime(n)*k is prime): 1<=m<prime(n)).",
   "id": "A089884",
   "mentions": [],
   "tags": [

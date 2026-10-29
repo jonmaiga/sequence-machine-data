@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that nextprime(p)=p+4 and previousprime(p)",
+  "description": "Primes p such that nextprime(p)=p+4 and previousprime(p)<p-4.",
   "id": "A131499",
   "mentions": [],
   "tags": [

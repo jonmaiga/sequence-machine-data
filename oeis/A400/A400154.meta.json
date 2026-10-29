@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that are multiples of A400153(k).",
+  "id": "A400154",
+  "mentions": [
+    "A003415",
+    "A370115",
+    "A399378",
+    "A399379",
+    "A400152",
+    "A400153"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

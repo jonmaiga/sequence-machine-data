@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(6)/(1 + sqrt(2)).",
+  "id": "A399918",
+  "mentions": [
+    "A002193",
+    "A010464",
+    "A014176",
+    "A093577",
+    "A399919"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

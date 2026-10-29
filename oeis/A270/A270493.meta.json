@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that the n-th prime divides the n-th Pell number (A000129(n)).",
+  "description": "Integers k such that the k-th prime divides the k-th Pell number (A000129(k)).",
   "id": "A270493",
   "mentions": [
     "A000040",

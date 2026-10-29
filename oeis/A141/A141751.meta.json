@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, where T(n,k) = [T(n-1,k-1)*T(n-1,k) + 1]/T(n-2,k-1) for 0=0 and T(n,0) = Fibonacci(2*n-1) for n>=1.",
+  "description": "Triangle, read by rows, where T(n,k) = [T(n-1,k-1)*T(n-1,k) + 1]/T(n-2,k-1) for 0<k<n with T(n,n) = 1 for n>=0 and T(n,0) = Fibonacci(2*n-1) for n>=1.",
   "id": "A141751",
   "mentions": [
     "A001519",

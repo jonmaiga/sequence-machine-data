@@ -2,16 +2,24 @@
   "description": "Number of n-step self-avoiding walks on the square lattice having exactly 2 pairs of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A033323",
   "mentions": [
-    "A033155"
+    "A001411",
+    "A033155",
+    "A038728",
+    "A038746",
+    "A038747",
+    "A046788",
+    "A049230",
+    "A173380",
+    "A336492"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to arrange 1..2n in a circle, up to rotation and reflection, such that the product of any two adjacent entries plus 1 is prime.",
+  "id": "A398356",
+  "mentions": [
+    "A051252",
+    "A397619"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Almost trivalent maps.",
+  "description": "Number of rooted planar maps with three trivalent vertices and a root vertex of degree 2*n - 1.",
   "id": "A002012",
   "mentions": [
     "A002005",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

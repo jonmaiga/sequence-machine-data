@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n} psi(d), where psi(m) is the sum of totatives of m (A023896).",
+  "description": "a(n) = Product_{d|n} A023896(d), where A023896(m) is the sum of totatives of m.",
   "id": "A280246",
   "mentions": [
     "A023896",
@@ -8,7 +8,6 @@
     "A280248"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

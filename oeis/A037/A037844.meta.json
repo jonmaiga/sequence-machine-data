@@ -1,5 +1,5 @@
 {
-  "description": "Sum{d(i-1)-d(i): d(i)",
+  "description": "Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.",
   "id": "A037844",
   "mentions": [
     "A037853",

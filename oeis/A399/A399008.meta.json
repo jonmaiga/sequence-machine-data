@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of inequivalent ways to place k non-attacking rooks on an n X n board up to rectangular symmetries of the board.",
+  "id": "A399008",
+  "mentions": [
+    "A000012",
+    "A006010",
+    "A008794",
+    "A144084",
+    "A262480",
+    "A399006",
+    "A399009",
+    "A399010"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

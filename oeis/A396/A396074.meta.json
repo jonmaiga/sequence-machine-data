@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number P such that there exists a partition of P with K parts that has exactly n parts p, with the property that each p appears in exactly P*K/100 parts.",
+  "description": "a(n) is the smallest number P such that for some number K there exists a partition of P with K parts that has exactly n parts p with the property that each p appears in exactly P*K/100 parts.",
   "id": "A396074",
   "mentions": [
     "A000041",

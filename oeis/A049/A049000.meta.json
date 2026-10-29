@@ -1,5 +1,5 @@
 {
-  "description": "Sum of sigma(j) for 1<=j",
+  "description": "Sum of sigma(j) for 1<=j<10^n, where sigma(j) is the sum of divisors of j.",
   "id": "A049000",
   "mentions": [
     "A000203",

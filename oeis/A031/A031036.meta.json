@@ -1,5 +1,5 @@
 {
-  "description": "Position of n-th 0 in A031035.",
+  "description": "Position of the n-th 0 in A031035.",
   "id": "A031036",
   "mentions": [
     "A031035"

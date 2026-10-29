@@ -1,0 +1,19 @@
+{
+  "description": "Integers that can be expressed as the sum of 5 factorials.",
+  "id": "A400436",
+  "mentions": [
+    "A000142",
+    "A066847",
+    "A111222",
+    "A400435"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected self-dual unlabeled posets on n elements.",
+  "id": "A400626",
+  "mentions": [
+    "A000608",
+    "A133983",
+    "A323658"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

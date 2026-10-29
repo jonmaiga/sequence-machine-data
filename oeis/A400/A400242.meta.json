@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^3/(1 - x)^4) / (1 - x), with A(0) = 1.",
+  "id": "A400242",
+  "mentions": [
+    "A352066",
+    "A400226",
+    "A400241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

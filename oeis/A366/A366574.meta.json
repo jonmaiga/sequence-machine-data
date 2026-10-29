@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n > 1, a(n) is the maximum positive k such that all terms a(t), a(t-m), a(t-2*m), ..., a(t-(k-1)*m), for 0=1, are equal.",
+  "description": "a(1) = 1; for n > 1, a(n) is the maximum positive k such that all terms a(t), a(t-m), a(t-2*m), ..., a(t-(k-1)*m), for 0<t<n and any m>=1, are equal.",
   "id": "A366574",
   "mentions": [
     "A178976",

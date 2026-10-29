@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. x*(1-x)/((1-4*x)*(1-5*x-5*x^2)).",
+  "id": "A400512",
+  "mentions": [
+    "A057088",
+    "A397105"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-step walks on cubic lattice (no points repeated, no adjacent points unless consecutive in path).",
+  "description": "Number of n-step self-avoiding walks on the simple cubic lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A174319",
   "mentions": [
     "A002934",
@@ -12,14 +12,13 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nice",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

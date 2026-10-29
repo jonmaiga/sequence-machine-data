@@ -1,0 +1,20 @@
+{
+  "description": "Numbers for which repeatedly subtracting the greatest prime factor (A006530) to reach 0 takes fewer steps than repeatedly subtracting the squarefree kernel (A007947).",
+  "id": "A399135",
+  "mentions": [
+    "A006530",
+    "A007947",
+    "A013929",
+    "A175126",
+    "A255326",
+    "A309892"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

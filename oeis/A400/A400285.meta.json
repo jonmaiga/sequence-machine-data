@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [q^n] (J0(q) - J1(q)), where J0 and J1 are q-series defined by Flajolet and Sedgewick.",
+  "id": "A400285",
+  "mentions": [
+    "A301735",
+    "A400283",
+    "A400284"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

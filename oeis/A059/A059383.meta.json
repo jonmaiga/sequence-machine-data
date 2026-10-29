@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product J_4(i), i=1..n.",
+  "description": "a(n) = Product_{i=1..n} J_4(i).",
   "id": "A059383",
   "mentions": [
     "A001088",
@@ -7,9 +7,11 @@
     "A059381",
     "A059382",
     "A059384",
-    "A175836"
+    "A175836",
+    "A239672"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

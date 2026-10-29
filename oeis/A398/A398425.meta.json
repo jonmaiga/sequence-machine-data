@@ -1,0 +1,19 @@
+{
+  "description": "Number of regular (rotationally asymmetric) orbits of chord diagrams on 2n vertices under the action of the cyclic group C_(2n).",
+  "id": "A398425",
+  "mentions": [
+    "A001147",
+    "A007769",
+    "A054499",
+    "A398917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

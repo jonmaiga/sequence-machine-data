@@ -1,16 +1,19 @@
 {
-  "description": "The index j",
+  "description": "The least index j < k such that n divides s(k) - s(j), where s(m) = 3^m - 2^m = A001047(m) and k = A205000(n) is the least index for which such j exists.",
   "id": "A205107",
   "mentions": [
+    "A001047",
     "A204892",
-    "A205000"
+    "A205000",
+    "A205108"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 89,
     "source": "joeis"
   }
 }

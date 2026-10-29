@@ -1,0 +1,29 @@
+{
+  "description": "The sum of divisors d of n such that gcud(d, n/d) is odd, where gcud is the greatest common unitary divisor.",
+  "id": "A399838",
+  "mentions": [
+    "A069184",
+    "A077610",
+    "A165430",
+    "A188999",
+    "A225174",
+    "A384244",
+    "A399832",
+    "A399834",
+    "A399835",
+    "A399836",
+    "A399837",
+    "A399839"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

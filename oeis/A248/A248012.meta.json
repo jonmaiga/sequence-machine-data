@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=p1^(p2^(p3^(p4^...)))... where p1",
+  "description": "a(n)=p1^(p2^(p3^(p4^...)))... where p1<p2<p3<... are the distinct prime factors of n.",
   "id": "A248012",
   "mentions": [
     "A027748"

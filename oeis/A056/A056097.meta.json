@@ -1,13 +1,29 @@
 {
-  "description": "Numbers n such that phi(n) + 1 | sigma(n).",
+  "description": "Numbers k such that phi(k) + 1 | sigma(k).",
   "id": "A056097",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A015792",
+    "A015793",
+    "A015796",
+    "A015797",
+    "A015798",
+    "A015799",
+    "A015800",
+    "A015801",
+    "A015804",
+    "A015805",
+    "A015812",
+    "A050414",
+    "A059608"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

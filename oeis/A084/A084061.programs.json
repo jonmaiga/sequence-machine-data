@@ -1,0 +1,43 @@
+{
+  "oi": 84061,
+  "ps": [
+    {
+      "d": "2026-10-25",
+      "ix": "((col(n)-sqrt(row(n)-col(n)))^col(n)+(col(n)+sqrt(row(n)-col(n)))^col(n))/2",
+      "mt": 1710,
+      "px": [
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "sqrt",
+        "sub",
+        "n",
+        "col",
+        "^",
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "sqrt",
+        "+",
+        "n",
+        "col",
+        "^",
+        "+",
+        "2",
+        "/"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
+      ]
+    }
+  ]
+}

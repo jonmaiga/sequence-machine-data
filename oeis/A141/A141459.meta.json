@@ -2,7 +2,11 @@
   "description": "a(n) = Product_{p-1 divides n} p, where p is an odd prime.",
   "id": "A141459",
   "mentions": [
+    "A000225",
     "A001897",
+    "A002445",
+    "A007947",
+    "A027642",
     "A027760",
     "A141056",
     "A157779",

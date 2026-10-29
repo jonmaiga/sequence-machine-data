@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of labeled triangle-free graphs on n nodes with exactly k edges, 0 <= k <= floor(n^2/4).",
+  "id": "A396974",
+  "mentions": [
+    "A002620",
+    "A084546",
+    "A213434",
+    "A399108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

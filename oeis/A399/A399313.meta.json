@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = rad(k) * p(k) * q(k) such that A008479(k) = 5, where rad = A007947, p = least prime factor of k, q = second smallest distinct prime factor of k.",
+  "id": "A399313",
+  "mentions": [
+    "A007947",
+    "A008479",
+    "A020639",
+    "A119288",
+    "A398444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

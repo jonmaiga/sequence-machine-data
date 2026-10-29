@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of order-n row-magic triangles formed by arranging the integers from 1 to n*(n+1)/2 exactly once in a triangular array, such that, for every k from 2 to n, the sums of the three corner-anchored triangular subarrays of side length k are equal, counted up to rotations and reflections.",
+  "id": "A396693",
+  "mentions": [
+    "A342467",
+    "A355119",
+    "A356643"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

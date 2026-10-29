@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2-generated groups of order n: groups that have a generating set of size <=2, i.e., are cyclic or of the form .",
+  "description": "Number of 2-generated groups of order n: groups that have a generating set of size <=2, i.e., are cyclic or of the form <a,b>.",
   "id": "A066389",
   "mentions": [
     "A000001"

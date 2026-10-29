@@ -1,0 +1,14 @@
+{
+  "description": "Numbers k such that all of the digits of k are not represented in the Collatz pathway from n to 1.",
+  "id": "A398712",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

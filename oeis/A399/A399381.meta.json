@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimum positive integer k such that k*n-1 is squarefree.",
+  "id": "A399381",
+  "mentions": [
+    "A005117",
+    "A007424",
+    "A008966",
+    "A013661",
+    "A399382",
+    "A399639",
+    "A399682"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

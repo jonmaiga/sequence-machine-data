@@ -1,18 +1,22 @@
 {
-  "description": "Sum of square displacements over all n-step self-avoiding walks on a 2D square lattice.",
+  "description": "Sum of squared end-to-end distances over all n-step self-avoiding walks on the square lattice.",
   "id": "A336448",
   "mentions": [
     "A001411",
     "A046661",
-    "A078797"
+    "A078797",
+    "A121783",
+    "A121784",
+    "A337367"
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

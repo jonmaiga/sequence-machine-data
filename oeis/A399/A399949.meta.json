@@ -1,0 +1,18 @@
+{
+  "description": "Record high points in A400000.",
+  "id": "A399949",
+  "mentions": [
+    "A397493",
+    "A399950",
+    "A400000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

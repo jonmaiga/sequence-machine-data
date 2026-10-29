@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the Grundy value of \"Bit Deletion\" game at state n (see comments).",
+  "id": "A398916",
+  "mentions": [],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

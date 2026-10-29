@@ -1,5 +1,5 @@
 {
-  "description": "Number of length-n 0..2 arrays connected end-around, with no sequence of L",
+  "description": "Number of length-n 0..2 arrays connected end-around, with no sequence of L<n elements immediately followed by itself (periodic \"squarefree\"), and new values introduced in order 0..2.",
   "id": "A215395",
   "mentions": [
     "A215401"

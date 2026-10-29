@@ -1,5 +1,5 @@
 {
-  "description": "Define a(4)=3 then a(n+1)is the smallest prime P such that a(n)<=P< n with 2*n-P=Q prime and if not possible a(n+1) is the smallest prime P such that P",
+  "description": "Define a(4)=3 then a(n+1)is the smallest prime P such that a(n)<=P< n with 2*n-P=Q prime and if not possible a(n+1) is the smallest prime P such that P<a(n)<n with 2*n-P=Q prime.",
   "id": "A235649",
   "mentions": [
     "A002373",

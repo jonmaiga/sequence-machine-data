@@ -1,5 +1,5 @@
 {
-  "description": "Prime times: primes of the form HMM with primes H, MM, 0",
+  "description": "Prime times: primes of the form HMM with primes H, MM, 0<H<24, 0<MM<60.",
   "id": "A159911",
   "mentions": [
     "A050246",

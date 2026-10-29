@@ -1,0 +1,19 @@
+{
+  "description": "Least integer such that floor(R(a(n))) = n, where R(x) is the Riemann prime counting function (slightly truncated).",
+  "id": "A397443",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A070769",
+    "A121046"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

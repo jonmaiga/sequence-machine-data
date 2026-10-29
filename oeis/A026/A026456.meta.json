@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i",
+  "description": "a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i<j<=n.",
   "id": "A026456",
   "mentions": [
     "A026453"

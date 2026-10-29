@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..A005942(n), read by rows; the n-th row lists the earliest starting offsets of the A005942(n) distinct subwords of length n in the Thue-Morse sequence (A010060).",
+  "id": "A399466",
+  "mentions": [
+    "A004759",
+    "A005942",
+    "A010060",
+    "A399022",
+    "A399467"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

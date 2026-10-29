@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of n(n+3)/(4(n+1)(n+2)) = sum(k=1..n, 1/(k(k+1)(k+2)) ).",
+  "description": "Numerator of n*(n+3)/(4*(n+1)*(n+2)) = Sum_{k=1..n} 1/(k*(k+1)*(k+2)).",
   "id": "A125650",
   "mentions": [
     "A106609",

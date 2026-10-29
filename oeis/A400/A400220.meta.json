@@ -1,0 +1,16 @@
+{
+  "description": "Nondecreasing sequence of positive integers in which each k >= 1 occurs exactly Sum_{d|k} a(d) times.",
+  "id": "A400220",
+  "mentions": [
+    "A001462"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

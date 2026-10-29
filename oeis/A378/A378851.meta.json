@@ -1,5 +1,5 @@
 {
-  "description": "Values of p for which x_p = s_p/p in the modified Göbel sequence is nonintegral.",
+  "description": "Primes p dividing the reduced denominator of g(p), where g(n) is Goebel's sequence.",
   "id": "A378851",
   "mentions": [
     "A003504",

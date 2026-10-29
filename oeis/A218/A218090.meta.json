@@ -11,12 +11,12 @@
     "A232700"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

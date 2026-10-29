@@ -2,6 +2,8 @@
   "description": "The 2-adic valuation of A318450.",
   "id": "A318451",
   "mentions": [
+    "A000265",
+    "A005187",
     "A007814",
     "A046645",
     "A317946",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k",
+  "description": "a(n) = Sum_{k<n, k!==0 (mod n)} k!/n.",
   "id": "A110416",
   "mentions": [],
   "tags": [

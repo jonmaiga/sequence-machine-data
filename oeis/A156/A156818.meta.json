@@ -1,5 +1,5 @@
 {
-  "description": "Last digit d of a(n) is present in a(n+1+d); a(1)=1; a(n)",
+  "description": "Last digit d of a(n) is present in a(n+1+d); a(1)=1; a(n)<a(n+1).",
   "id": "A156818",
   "mentions": [
     "A156819"

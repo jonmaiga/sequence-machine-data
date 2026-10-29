@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polymarquises with n cells.",
+  "id": "A400402",
+  "mentions": [
+    "A001168",
+    "A030444",
+    "A400403",
+    "A400404",
+    "A400998"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

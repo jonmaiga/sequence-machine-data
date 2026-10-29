@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = p^{the most significant digit of n in primorial base, A049345}, where p is the corresponding radix prime; a(0) = 1.",
+  "id": "A400152",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A049345",
+    "A053585",
+    "A235224",
+    "A276086",
+    "A276153",
+    "A400153"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

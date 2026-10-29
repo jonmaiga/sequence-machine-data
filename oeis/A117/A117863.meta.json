@@ -2,7 +2,10 @@
   "description": "Number of palindromes (in base 4) below 4^n.",
   "id": "A117863",
   "mentions": [
-    "A050250"
+    "A000302",
+    "A050250",
+    "A061547",
+    "A118595"
   ],
   "tags": [
     "base",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

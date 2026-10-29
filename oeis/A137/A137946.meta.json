@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients associate with the expansion of the K_3 graph matric characteristic polynomial as a Sheffer sequence: M = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}} f(t)=-t^3+3t+2 p(x,t)=1/(2*t^3+3*t^2-1)^x=1/(t^3*f(1/t))^x.",
+  "description": "Triangle of coefficients associated with the expansion of the K_3 graph matrix characteristic polynomial as a Sheffer sequence: M = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}} f(t)=-t^3+3t+2 p(x,t)=1/(2*t^3+3*t^2-1)^x=1/(t^3*f(1/t))^x.",
   "id": "A137946",
   "mentions": [
     "A000045"

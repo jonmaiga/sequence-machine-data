@@ -12,8 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -24,39 +23,41 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,12 +75,12 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A222800: Number of 7Xn 0..3 arrays with exactly floor(7Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order.
@@ -429,25 +430,6 @@ end
 
 end A222806.P11150377403784501436
 
-/-! ## A222806.P17505740872706033230
-
-`A222804(comp[or(1, n)])+C(n, 64)`
--/
-
-namespace A222806.P17505740872706033230
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222804 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n) + (Nat.choose n 64 : ℤ)
-
-end
-
-end A222806.P17505740872706033230
-
 /-! ## A222806.P13899392737216265975
 
 `and(-1, A222804(A005843(n)))`
@@ -492,6 +474,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222806.P10342540075727260798
+
+/-! ## A222806.P16757429563725504367
+
+`filter[A222804(n), A005171(#)]`
+-/
+
+namespace A222806.P16757429563725504367
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A222804 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
+
+end
+
+end A222806.P16757429563725504367
 
 /-!
 # A222807: Number of subsets A of {0,1,...,n-1} with |A+A| > |A-A|.
@@ -2726,16 +2726,39 @@ end A222833.P2336979412888382217
 /-!
 # A222834: Number of n X 4 0..3 arrays with no element equal to another at a city block distance of exactly two, and new values 0..3 introduced in row major order.
 
-The programs for A222834, the canonical program `A222834.P3887171148257155712` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222834 has offset 1).
+The programs for A222834, the canonical program `A222834.P3887171148257155712` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222834 has offset 1).
 
 The definition of A222834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 236 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A222834.P16462646120238767685
+
+`ogf((7+82x+10x^2-17x^3)/(1-2x-2x^2+x^3))`
+-/
+
+namespace A222834.P16462646120238767685
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, 82, 10, -17] [1, -2, -2, 1] n
+
+end
+
+end A222834.P16462646120238767685
+
+namespace A222834
+
+/-- `ogf((7+82x+10x^2-17x^3)/(1-2x-2x^2+x^3))` -/
+def P16462646120238767685.Spec : Prop :=
+  ∀ n, P16462646120238767685.a n = A222834 (n + 1)
+
+end A222834
 
 /-! ## A222834.P3887171148257155712
 
 `2*a(n-1)+2*a(n-2)-a(n-3)` with `a(0)=7, a(1)=96, a(2)=216, a(3)=600`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222834
@@ -2823,29 +2846,6 @@ namespace A222834
 /-- `A222838(A000096(n+2)+5)+char[23]` -/
 def P8816680853709446890.Spec : Prop :=
   ∀ n, P8816680853709446890.a n = A222834 (n + 1)
-
-end A222834
-
-/-! ## A222834.P8772997861726971433
-
-`A007318(C(3, n))*A222838(A000096(n+2)+5)`
--/
-
-namespace A222834.P8772997861726971433
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 3 n) * A222838 (A000096 (n + 2) + 5).toNat
-
-end
-
-end A222834.P8772997861726971433
-
-namespace A222834
-
-/-- `A007318(C(3, n))*A222838(A000096(n+2)+5)` -/
-def P8772997861726971433.Spec : Prop :=
-  ∀ n, P8772997861726971433.a n = A222834 (n + 1)
 
 end A222834
 
@@ -4952,16 +4952,39 @@ end A222866.P18406696831944637911
 /-!
 # A222867: Number of n X 1 0..5 arrays with no element equal to another at a city block distance of exactly two, and new values 0..5 introduced in row major order.
 
-The programs for A222867, the canonical program `A222867.P14462431900445029518` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222867 has offset 1).
+The programs for A222867, the canonical program `A222867.P14462431900445029518` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222867 has offset 1).
 
 The definition of A222867 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A222867.P13033631990459720577
+
+`ogf((1-9x+22x^2-5x^3-26x^4+11x^5)/(1-11x+41x^2-61x^3+30x^4))`
+-/
+
+namespace A222867.P13033631990459720577
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -9, 22, -5, -26, 11] [1, -11, 41, -61, 30] n
+
+end
+
+end A222867.P13033631990459720577
+
+namespace A222867
+
+/-- `ogf((1-9x+22x^2-5x^3-26x^4+11x^5)/(1-11x+41x^2-61x^3+30x^4))` -/
+def P13033631990459720577.Spec : Prop :=
+  ∀ n, P13033631990459720577.a n = A222867 (n + 1)
+
+end A222867
 
 /-! ## A222867.P14462431900445029518
 
 `11*a(n-1)-41*a(n-2)+61*a(n-3)-30*a(n-4)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=7, a(4)=20, a(5)=67`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A222867
@@ -5054,37 +5077,26 @@ def P1702299057890893650.Spec : Prop :=
 
 end A222867
 
-/-! ## A222867.P13419816037945942438
-
-`record[A222871(A286235(n+1))]`
--/
-
-namespace A222867.P13419816037945942438
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222871 (A286235 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A222867.P13419816037945942438
-
-namespace A222867
-
-/-- `record[A222871(A286235(n+1))]` -/
-def P13419816037945942438.Spec : Prop :=
-  ∀ n, P13419816037945942438.a n = A222867 (n + 1)
-
-end A222867
-
 /-!
 # A222868: Number of n X 2 0..5 arrays with no element equal to another at a city block distance of exactly two, and new values 0..5 introduced in row major order.
 
 The programs for A222868, there is no canonical definition to state claims against.
 -/
+
+/-! ## A222868.P7568946068387655292
+
+`ogf((2-35x+55x^2+116x^3-48x^4)/(1-21x+84x^2-64x^3))`
+-/
+
+namespace A222868.P7568946068387655292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -35, 55, 116, -48] [1, -21, 84, -64] n
+
+end
+
+end A222868.P7568946068387655292
 
 /-! ## A222868.P5246647283839601247
 
@@ -5151,24 +5163,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222868.P10484185798811482291
-
-/-! ## A222868.P4797327831150014260
-
-`record[A222871(n+2)/A163626(n)]`
--/
-
-namespace A222868.P4797327831150014260
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A222871 (n + 2) : ℚ) / (A163626 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A222868.P4797327831150014260
 
 /-!
 # A222869: Number of n X 3 0..5 arrays with no element equal to another at a city block distance of exactly two, and new values 0..5 introduced in row major order.

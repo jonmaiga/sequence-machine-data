@@ -2,9 +2,14 @@
   "description": "Numbers with a composite number of prime factors (counted with multiplicity).",
   "id": "A067028",
   "mentions": [
+    "A014613",
+    "A046306",
+    "A046310",
+    "A046312",
     "A063989"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

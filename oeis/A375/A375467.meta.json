@@ -1,10 +1,11 @@
 {
-  "description": "Triangle read by rows: Number of unlabeled rooted trees with n vertices where the level of a vertex is bounded by k.",
+  "description": "Triangle read by rows: number of unlabeled rooted trees with n vertices where the level of a vertex is bounded by k.",
   "id": "A375467",
   "mentions": [
     "A000081",
     "A034781",
-    "A375468"
+    "A375468",
+    "A375546"
   ],
   "tags": [
     "formulas",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

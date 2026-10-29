@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2, a(2)=3, thereafter a(n) is the sum of the two largest primes <= a(n-1).",
+  "id": "A401078",
+  "mentions": [
+    "A001043",
+    "A007917",
+    "A011974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

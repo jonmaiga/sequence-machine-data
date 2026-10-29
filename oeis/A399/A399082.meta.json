@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 5^5^(n+1) + 5^5^n + 1.",
+  "id": "A399082",
+  "mentions": [
+    "A000351",
+    "A137841",
+    "A220161"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

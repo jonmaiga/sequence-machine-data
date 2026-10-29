@@ -1,0 +1,16 @@
+{
+  "description": "Number of nonempty subsets S of {1,...,n} such that Sum_{k in S} k = min(S)*max(S).",
+  "id": "A399537",
+  "mentions": [
+    "A061278"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

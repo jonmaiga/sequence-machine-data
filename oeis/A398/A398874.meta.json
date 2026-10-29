@@ -1,0 +1,19 @@
+{
+  "description": "Number of recursive calls made by the binary Fredricksen-Kessler-Maiorana (FKM) recursive generator when generating a de Bruijn sequence of order n.",
+  "id": "A398874",
+  "mentions": [
+    "A000040",
+    "A001036",
+    "A001037",
+    "A062692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

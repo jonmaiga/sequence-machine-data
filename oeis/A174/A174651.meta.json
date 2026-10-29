@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{k=1..n} k*Mobius(k) = n.",
+  "description": "Numbers m such that Sum_{k=1..m} k*Mobius(k) = m.",
   "id": "A174651",
   "mentions": [
     "A002321",
@@ -8,6 +8,8 @@
     "A068340"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

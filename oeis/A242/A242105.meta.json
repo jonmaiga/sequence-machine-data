@@ -1,5 +1,5 @@
 {
-  "description": "Number of sequences (x(k))_{k=1..n}, of n strictly increasing terms of nonnegative integers {x(1)",
+  "description": "Number of sequences (x(k))_{k=1..n}, of n strictly increasing terms of nonnegative integers {x(1)<x(2)<...<x(n)}, satisfying x(k) <= k^2 for all k.",
   "id": "A242105",
   "mentions": [
     "A261897"

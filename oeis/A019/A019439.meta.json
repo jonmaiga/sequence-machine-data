@@ -2,7 +2,6 @@
   "description": "Number of ways of tiling a 2 X n rectangle with dominoes and trominoes.",
   "id": "A019439",
   "mentions": [
-    "A007737",
     "A364457"
   ],
   "tags": [

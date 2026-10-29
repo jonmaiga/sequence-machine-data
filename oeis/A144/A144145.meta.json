@@ -1,14 +1,19 @@
 {
-  "description": "A positive integer n is included if n contains the same number of 0's as 1's when represented in binary and the number of 0's (or the number of 1's) divides n.",
+  "description": "A positive integer k is included if n contains the same number of 0's as 1's when represented in binary and the number of 0's (or the number of 1's) divides k.",
   "id": "A144145",
-  "mentions": [],
+  "mentions": [
+    "A031443",
+    "A049445",
+    "A117890"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

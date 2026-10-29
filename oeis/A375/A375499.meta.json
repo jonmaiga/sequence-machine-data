@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number of straight lines needed to intersect all points (k, d(k)) for k = 1..n (where d is the sum-of-divisors function A000005).",
+  "description": "a(n) is the smallest number of straight lines needed to intersect all points (k, d(k)) for k = 1..n (where d is the number-of-divisors function A000005).",
   "id": "A375499",
   "mentions": [
     "A000005",

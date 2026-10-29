@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are a sum of three triangular numbers whose indices are in arithmetic progression; i.e., numbers of the form 3*T(k) + d^2, where T(k) = k*(k+1)/2 and k, d are integers.",
+  "id": "A397012",
+  "mentions": [
+    "A000075",
+    "A000217",
+    "A002480",
+    "A084865"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

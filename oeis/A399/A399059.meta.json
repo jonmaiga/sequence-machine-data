@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} d(k-1)/prime(k)!.",
+  "id": "A399059",
+  "mentions": [
+    "A000005",
+    "A039716",
+    "A051021",
+    "A371133"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

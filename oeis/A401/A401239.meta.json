@@ -1,0 +1,29 @@
+{
+  "description": "The number of prime powers with odd exponents (A246551) that divide n.",
+  "id": "A401239",
+  "mentions": [
+    "A000430",
+    "A001222",
+    "A005117",
+    "A019554",
+    "A053143",
+    "A083342",
+    "A110654",
+    "A154945",
+    "A162642",
+    "A246551",
+    "A353817",
+    "A362412",
+    "A376885"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

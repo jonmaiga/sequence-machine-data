@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k, such that Sum_{d|k} gpf(d) is a multiple of gpf(k), where gpf = A006530.",
+  "id": "A399551",
+  "mentions": [
+    "A006530",
+    "A387279",
+    "A399552"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

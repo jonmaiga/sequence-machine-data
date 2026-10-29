@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element dicyclic group Q16 = .",
+  "description": "Cogrowth sequence of the 16-element dicyclic group Q16 = <S,T | S^8, T^4, (ST)^4, TST^3S>.",
   "id": "A377944",
   "mentions": [
     "A007582",

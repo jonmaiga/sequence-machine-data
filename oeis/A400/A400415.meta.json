@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2*n-sigma(n))/gcd(tau(n), 2*n-sigma(n)), tau = A000005, sigma = A000203.",
+  "id": "A400415",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A033879",
+    "A400416"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

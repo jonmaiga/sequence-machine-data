@@ -1,5 +1,5 @@
 {
-  "description": "Values y corresponding to least x (A120930) of primitive quadruple(n,x,y,z),n",
+  "description": "Values y corresponding to least x (A120930) of primitive quadruple(n,x,y,z),n<x<y<z satisfying n^3 + x^3 + y^3 = z^3.",
   "id": "A120931",
   "mentions": [
     "A120930"

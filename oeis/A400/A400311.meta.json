@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that all triangles determined by the points (n, a(n)) have distinct positive areas.",
+  "id": "A400311",
+  "mentions": [
+    "A236335",
+    "A303331",
+    "A322740"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

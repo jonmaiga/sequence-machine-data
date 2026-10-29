@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (Sum_{0",
+  "description": "a(n) = (Sum_{0<x<y<n} x*y) mod n.",
   "id": "A259748",
   "mentions": [
     "A000914",

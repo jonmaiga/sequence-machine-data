@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = n-(exponent of highest power of 3 dividing n!).",
+  "description": "a(n) = n - (exponent of highest power of 3 dividing n!).",
   "id": "A089792",
   "mentions": [
     "A007949",
+    "A053735",
     "A054861",
     "A125824"
   ],
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
-    "source": "joeis"
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

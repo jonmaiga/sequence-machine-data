@@ -2,7 +2,8 @@
   "description": "Number of base 17 circular n-digit numbers with adjacent digits differing by 4 or less.",
   "id": "A125354",
   "mentions": [
-    "A025014"
+    "A025014",
+    "A126371"
   ],
   "tags": [
     "base",

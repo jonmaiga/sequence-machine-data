@@ -1,0 +1,17 @@
+{
+  "description": "Number of sum-indecomposable s-meandric permutations of length n.",
+  "id": "A400882",
+  "mentions": [
+    "A393122",
+    "A400881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

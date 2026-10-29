@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic connected Y-graphs Y(n:i,j,k) on 4n vertices (or nodes) for 1<=i,j,k",
+  "description": "Number of nonisomorphic connected Y-graphs Y(n:i,j,k) on 4n vertices (or nodes) for 1<=i,j,k<n/2.",
   "id": "A112922",
   "mentions": [
     "A112921",

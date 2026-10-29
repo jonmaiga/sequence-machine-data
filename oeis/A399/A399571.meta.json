@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2^p-1 has a divisor d with 1<d<2^p-1 and d == 1 (mod 2*p^2).",
+  "id": "A399571",
+  "mentions": [
+    "A001348",
+    "A065341",
+    "A135975",
+    "A398494"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

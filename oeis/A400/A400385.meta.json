@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled simple graphs on [n] whose automorphism group acts semiregularly on the vertices.",
+  "id": "A400385",
+  "mentions": [
+    "A003400",
+    "A330343"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

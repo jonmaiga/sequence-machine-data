@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) = Sum_{d|n, d",
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d<n} tau(n/d) * a(d), where tau = A000005.",
   "id": "A325211",
   "mentions": [
     "A000005",

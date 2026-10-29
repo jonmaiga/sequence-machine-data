@@ -1,5 +1,5 @@
 {
-  "description": "Let N = pq (p",
+  "description": "Let N = pq (p<q) = A006881(n). Then a(n) = | (p^2-q)(q-1)/2 |.",
   "id": "A192599",
   "mentions": [
     "A006881",

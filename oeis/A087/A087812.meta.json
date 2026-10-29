@@ -2,14 +2,17 @@
   "description": "Sum of MoebiusMu for numbers between n and 2n inclusive.",
   "id": "A087812",
   "mentions": [
+    "A002321",
     "A008683"
   ],
   "tags": [
+    "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 103,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

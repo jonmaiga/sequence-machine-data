@@ -7,29 +7,30 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C013
-import Seq.B000.C017
+import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C007
 import Seq.B002.C000
-import Seq.B002.C002
+import Seq.B002.C001
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B005.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -44,12 +45,11 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A250900: Number of (2+1) X (n+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
@@ -2563,21 +2563,6 @@ end
 
 end A250944.P11302935553708682280
 
-/-! ## A250944.P1550284889967891416
-
-`A007318(and(1, -n))*A250942(A133263(n+1))`
--/
-
-namespace A250944.P1550284889967891416
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Int.land 1 (-(n : ℤ))).toNat * A250942 (A133263 (n + 1)).toNat
-
-end
-
-end A250944.P1550284889967891416
-
 /-!
 # A250945: Number of (3+1) X (n+1) 0..2 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
@@ -3725,6 +3710,21 @@ end
 
 end A250961.P15078384027478699831
 
+/-! ## A250961.P17348310426467400133
+
+`A250965(A141214(n+1))`
+-/
+
+namespace A250961.P17348310426467400133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250965 (A141214 (n + 1)).toNat
+
+end
+
+end A250961.P17348310426467400133
+
 /-! ## A250961.P6491541031775866601
 
 `A250965(A027379(n+2))`
@@ -4427,8 +4427,29 @@ end A250974.P15885450773627636314
 /-!
 # A250975: Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
 
-The programs for A250975, there is no canonical definition to state claims against.
+The programs for A250975, the canonical program `A250975.P601089595799035481` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250975 has offset 1).
+
+The definition of A250975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250975.P601089595799035481
+
+`ogf((71-77x+111x^2-53x^3+9x^4)/(1-9x+10x^2-13x^3+6x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A250975
+
+/-- `ogf((71-77x+111x^2-53x^3+9x^4)/(1-9x+10x^2-13x^3+6x^4-x^5))` -/
+def P601089595799035481.Spec : Prop :=
+  ∀ n, P601089595799035481.a n = A250975 (n + 1)
+
+theorem P601089595799035481.correct : P601089595799035481.Spec := by
+  intro n
+  simp only [A250975, Nat.add_sub_cancel]
+
+end A250975
 
 /-! ## A250975.P12358154790357919329
 
@@ -4448,6 +4469,14 @@ end
 
 end A250975.P12358154790357919329
 
+namespace A250975
+
+/-- `A250982(∑[n]+1)` -/
+def P12358154790357919329.Spec : Prop :=
+  ∀ n, P12358154790357919329.a n = A250975 (n + 1)
+
+end A250975
+
 /-! ## A250975.P532026044612619970
 
 `record[A010054(n)*A250982(n+1)]`
@@ -4466,6 +4495,14 @@ end
 
 end A250975.P532026044612619970
 
+namespace A250975
+
+/-- `record[A010054(n)*A250982(n+1)]` -/
+def P532026044612619970.Spec : Prop :=
+  ∀ n, P532026044612619970.a n = A250975 (n + 1)
+
+end A250975
+
 /-! ## A250975.P8237670876975291993
 
 `record[root(A250982(n+1), A033282(n+3))]`
@@ -4483,6 +4520,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A250975.P8237670876975291993
+
+namespace A250975
+
+/-- `record[root(A250982(n+1), A033282(n+3))]` -/
+def P8237670876975291993.Spec : Prop :=
+  ∀ n, P8237670876975291993.a n = (A250975 (n + 1) : ℝ)
+
+end A250975
 
 /-!
 # A250976: Number of (n+1)X(2+1) 0..2 arrays with no 2X2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
@@ -4998,8 +5043,29 @@ end A250986.P11232722803159318596
 /-!
 # A250987: Number of (n+1) X (1+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250987, there is no canonical definition to state claims against.
+The programs for A250987, the canonical program `A250987.P6650806411397819807` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250987 has offset 1).
+
+The definition of A250987 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250987.P6650806411397819807
+
+`ogf((40-82x-56x^2+77x^3+56x^4+9x^5)/(1-6x+7x^2+8x^3-7x^4-6x^5-x^6))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A250987
+
+/-- `ogf((40-82x-56x^2+77x^3+56x^4+9x^5)/(1-6x+7x^2+8x^3-7x^4-6x^5-x^6))` -/
+def P6650806411397819807.Spec : Prop :=
+  ∀ n, P6650806411397819807.a n = A250987 (n + 1)
+
+theorem P6650806411397819807.correct : P6650806411397819807.Spec := by
+  intro n
+  simp only [A250987, Nat.add_sub_cancel]
+
+end A250987
 
 /-! ## A250987.P9405602620860879972
 
@@ -5019,6 +5085,14 @@ end
 
 end A250987.P9405602620860879972
 
+namespace A250987
+
+/-- `A250994(∑[n+1])` -/
+def P9405602620860879972.Spec : Prop :=
+  ∀ n, P9405602620860879972.a n = A250987 (n + 1)
+
+end A250987
+
 /-! ## A250987.P16835857328610151128
 
 `record[A250994(A130270(n+1))]`
@@ -5036,6 +5110,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250987.P16835857328610151128
+
+namespace A250987
+
+/-- `record[A250994(A130270(n+1))]` -/
+def P16835857328610151128.Spec : Prop :=
+  ∀ n, P16835857328610151128.a n = A250987 (n + 1)
+
+end A250987
 
 /-! ## A250987.P18177313107570706436
 
@@ -5055,6 +5137,14 @@ end
 
 end A250987.P18177313107570706436
 
+namespace A250987
+
+/-- `record[A023531(n)*A250994(n+1)]` -/
+def P18177313107570706436.Spec : Prop :=
+  ∀ n, P18177313107570706436.a n = A250987 (n + 1)
+
+end A250987
+
 /-! ## A250987.P16736109582812628886
 
 `record[A103452(n)*A250994(n+1)]`
@@ -5073,23 +5163,13 @@ end
 
 end A250987.P16736109582812628886
 
-/-! ## A250987.P12114687618858075172
+namespace A250987
 
-`record[A112295(n)*A250994(n+1)]`
--/
+/-- `record[A103452(n)*A250994(n+1)]` -/
+def P16736109582812628886.Spec : Prop :=
+  ∀ n, P16736109582812628886.a n = A250987 (n + 1)
 
-namespace A250987.P12114687618858075172
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112295 n * A250994 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A250987.P12114687618858075172
+end A250987
 
 /-!
 # A250988: Number of (n+1)X(2+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
@@ -5579,8 +5659,29 @@ end A250993.P14756178510566198470
 /-!
 # A250995: Number of (1+1) X (n+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250995, there is no canonical definition to state claims against.
+The programs for A250995, the canonical program `A250995.P16026508920375765628` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250995 has offset 1).
+
+The definition of A250995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 204 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250995.P16026508920375765628
+
+`ogf((40-71x-88x^2+146x^3+94x^4-48x^5-27x^6)/(1-6x+7x^2+12x^3-15x^4-11x^5+5x^6+3x^7))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A250995
+
+/-- `ogf((40-71x-88x^2+146x^3+94x^4-48x^5-27x^6)/(1-6x+7x^2+12x^3-15x^4-11x^5+5x^6+3x^7))` -/
+def P16026508920375765628.Spec : Prop :=
+  ∀ n, P16026508920375765628.a n = A250995 (n + 1)
+
+theorem P16026508920375765628.correct : P16026508920375765628.Spec := by
+  intro n
+  simp only [A250995, Nat.add_sub_cancel]
+
+end A250995
 
 /-! ## A250995.P10227070748499295603
 
@@ -5599,6 +5700,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250995.P10227070748499295603
+
+namespace A250995
+
+/-- `A250994(∑[n]+1)` -/
+def P10227070748499295603.Spec : Prop :=
+  ∀ n, P10227070748499295603.a n = A250995 (n + 1)
+
+end A250995
 
 /-! ## A250995.P16386190920352623386
 
@@ -5619,6 +5728,14 @@ end
 
 end A250995.P16386190920352623386
 
+namespace A250995
+
+/-- `or(char[1], A250994(A000124(n)))` -/
+def P16386190920352623386.Spec : Prop :=
+  ∀ n, P16386190920352623386.a n = A250995 (n + 1)
+
+end A250995
+
 /-! ## A250995.P2077798128948317269
 
 `record[A010054(n)*A250994(n+1)]`
@@ -5636,6 +5753,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250995.P2077798128948317269
+
+namespace A250995
+
+/-- `record[A010054(n)*A250994(n+1)]` -/
+def P2077798128948317269.Spec : Prop :=
+  ∀ n, P2077798128948317269.a n = A250995 (n + 1)
+
+end A250995
 
 /-! ## A250995.P5327216183476019056
 
@@ -5655,23 +5780,13 @@ end
 
 end A250995.P5327216183476019056
 
-/-! ## A250995.P5382008785690412450
+namespace A250995
 
-`record[A250994(n+1)/A008279(n)]`
--/
+/-- `record[A250994(n+1)/A007754(n)]` -/
+def P5327216183476019056.Spec : Prop :=
+  ∀ n, P5327216183476019056.a n = (A250995 (n + 1) : ℚ)
 
-namespace A250995.P5382008785690412450
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A250994 (n + 1) : ℚ) / (A008279 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A250995.P5382008785690412450
+end A250995
 
 /-!
 # A250996: Number of (2+1)X(n+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.

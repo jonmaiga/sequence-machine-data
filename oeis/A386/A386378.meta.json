@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist four integers 00 and w>0 such that sigma(x)^3 = sigma(y)^3 = sigma(z)^3 = x^3 + y^3 + z^3 + t^3 + w^3.",
+  "description": "Integers x such that there exist four integers 0<x<=y<=z, t>0 and w>0 such that sigma(x)^3 = sigma(y)^3 = sigma(z)^3 = x^3 + y^3 + z^3 + t^3 + w^3.",
   "id": "A386378",
   "mentions": [
     "A000203",

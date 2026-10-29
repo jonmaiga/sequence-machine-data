@@ -1,0 +1,17 @@
+{
+  "description": "Paired Comma Sequence: Interlaced pair of sequences of positive numbers with the property that, for each sequence in the pair, the sequence formed by the pairs of digits adjacent to the commas between the terms is the same as the successive differences between each term and the previous term of the other sequence, and starting with a(1) = 1 and b(1) = 2.",
+  "id": "A400586",
+  "mentions": [
+    "A121805"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

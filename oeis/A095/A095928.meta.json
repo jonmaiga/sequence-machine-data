@@ -1,5 +1,5 @@
 {
-  "description": "Max{GreatestPrimeFactor(prime(i)+prime(n-i)): 1<=i",
+  "description": "Max{GreatestPrimeFactor(prime(i)+prime(n-i)): 1<=i<n}, a(1)=1.",
   "id": "A095928",
   "mentions": [
     "A000040",

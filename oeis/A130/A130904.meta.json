@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the trajectory of the map n -> (n + lpf(n)) / 2 reaches 3, where lpf(n) is the least prime factor of n (A020639).",
+  "description": "Numbers k such that the trajectory of the map k -> (k + lpf(k)) / 2 reaches 3, where lpf(k) is the least prime factor of k (A020639).",
   "id": "A130904",
   "mentions": [
     "A020639",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

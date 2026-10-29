@@ -1,5 +1,5 @@
 {
-  "description": "The number of 2-noncrossing permutations of n elements.",
+  "description": "Number of 2-noncrossing permutations of n elements.",
   "id": "A169584",
   "mentions": [
     "A000108",

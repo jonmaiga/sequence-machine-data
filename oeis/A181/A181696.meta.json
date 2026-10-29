@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations p -> ap+b needed to get a composite number, starting with p=prime(n) and the least even a>0 and odd b0 such that a*prime(n)+b is prime.",
+  "description": "Number of iterations p -> ap+b needed to get a composite number, starting with p=prime(n) and the least even a>0 and odd b<a, b>0 such that a*prime(n)+b is prime.",
   "id": "A181696",
   "mentions": [],
   "tags": [

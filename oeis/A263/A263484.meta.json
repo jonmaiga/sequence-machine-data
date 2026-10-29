@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k",
+  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k<n) is the number of permutations of n elements with n-k elements in its connectivity set.",
   "id": "A263484",
   "mentions": [
     "A000142",

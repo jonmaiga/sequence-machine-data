@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Integral_{t=0..Pi/2} sqrt(tan(t)) dt.",
+  "description": "Decimal expansion of Pi/sqrt(2).",
   "id": "A247719",
   "mentions": [
     "A063448",

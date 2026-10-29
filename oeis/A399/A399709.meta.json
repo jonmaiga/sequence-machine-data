@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence where a(1) = 3, allowed integers are >= 3, and each term a(n) is banned for the next a(n) terms.",
+  "id": "A399709",
+  "mentions": [
+    "A364447",
+    "A372704",
+    "A398589",
+    "A399708"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

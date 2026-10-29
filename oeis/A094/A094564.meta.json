@@ -1,5 +1,5 @@
 {
-  "description": "Triple products of distinct Fibonacci numbers: F(i)F(j)F(k), 2<=i",
+  "description": "Triple products of distinct Fibonacci numbers: F(i)F(j)F(k), 2<=i<j<k.",
   "id": "A094564",
   "mentions": [
     "A000045",

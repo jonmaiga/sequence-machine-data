@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct simple Baxter permutations of length n up to action of the dihedral group of the square D_4 on the permutation matrix.",
+  "id": "A399210",
+  "mentions": [
+    "A001181",
+    "A111111",
+    "A340984",
+    "A397853",
+    "A398832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

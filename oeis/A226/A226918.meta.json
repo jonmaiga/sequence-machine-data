@@ -1,5 +1,5 @@
 {
-  "description": "Minimal number of 1X3 I-trominoes needed to prevent any further I-trominoe from being placed on an n X n grid.",
+  "description": "Minimal number of 1X3 I-trominoes needed to prevent any further I-tromino from being placed on an n X n grid.",
   "id": "A226918",
   "mentions": [],
   "tags": [

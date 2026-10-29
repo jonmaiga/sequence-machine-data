@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator of Sum_{k in A030059} 1/k^(2n).",
+  "description": "Numerators of Pi^(2*n)*Sum_{k in A030059} 1/k^(2*n).",
   "id": "A093595",
   "mentions": [
     "A030059",

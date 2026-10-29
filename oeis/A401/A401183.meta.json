@@ -1,0 +1,22 @@
+{
+  "description": "Total number of independent vertex sets in all connected labeled graphs on n vertices.",
+  "id": "A401183",
+  "mentions": [
+    "A001187",
+    "A079491",
+    "A394610",
+    "A399451",
+    "A401180",
+    "A401185",
+    "A401187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

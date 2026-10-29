@@ -5,37 +5,41 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C011
+import Seq.B000.C013
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C002
-import Seq.B001.C006
+import Seq.B001.C001
+import Seq.B001.C003
+import Seq.B001.C005
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -44,17 +48,19 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C014
+import Seq.Opaque.C013
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A012101: Expansion of tan(arcsin(sinh(x))) (odd powers only).
@@ -151,6 +157,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012101.P7348203543807740772
+
+/-!
+# A012103: cos(arcsin(sinh(x))) = 1-1/2!*x^2-7/4!*x^4-121/6!*x^6-5167/8!*x^8...
+
+The programs for A012103, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012103.P786240005678300393
+
+`A012086(n*A012111(n))`
+-/
+
+namespace A012103.P786240005678300393
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012086 ((n : ℤ) * A012111 n).toNat
+
+end
+
+end A012103.P786240005678300393
 
 /-!
 # A012104: sinh(arcsin(sinh(x)))=x+3/3!*x^3+41/5!*x^5+1403/7!*x^7+90641/9!*x^9...
@@ -1138,7 +1165,7 @@ end A012131.P9450412878517812165
 /-!
 # A012132: Numbers z such that x*(x+1) + y*(y+1) = z*(z+1) is solvable in positive integers x,y.
 
-The programs for A012132, the canonical program `A012132.P13113475380317075671` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A012132 has offset 1).
+The programs for A012132, the canonical program `A012132.P13113475380317075671` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A012132 has offset 1).
 
 The definition of A012132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1147,7 +1174,7 @@ The definition of A012132 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A027861(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A012132
@@ -1701,6 +1728,38 @@ def P4795462254257534446.Spec : Prop :=
 
 end A012132
 
+/-! ## A012132.P14903510969813784961
+
+`lt[2, ∑{e}[(2*n+1)²+1, #]]`
+-/
+
+namespace A012132.P14903510969813784961
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1) ^ 2 + 1
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ p ∈ Nat.primeFactors (f3 n), Nat.factorization (f3 n) p
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A012132.P14903510969813784961
+
+namespace A012132
+
+/-- `lt[2, ∑{e}[(2*n+1)²+1, #]]` -/
+def P14903510969813784961.Spec : Prop :=
+  ∀ n, (P14903510969813784961.a n : ℤ) = A012132 (n + 1)
+
+end A012132
+
 /-!
 # A012134: exp(arcsin(arctanh(x)))=1+x+1/2!*x^2+4/3!*x^3+13/4!*x^4+84/5!*x^5...
 
@@ -2027,21 +2086,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012143.P15480164607017889180
-
-/-! ## A012143.P17527945380572646461
-
-`A012134(A004277(n))/A007318(and(2, n-2))`
--/
-
-namespace A012143.P17527945380572646461
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A012134 (A004277 n).toNat : ℚ) / (A007318 (Int.land 2 ((n : ℤ) - 2)).toNat : ℚ)
-
-end
-
-end A012143.P17527945380572646461
 
 /-!
 # A012144: sec(arcsin(arctanh(x)))=1+1/2!*x^2+17/4!*x^4+769/6!*x^6+66849/8!*x^8...

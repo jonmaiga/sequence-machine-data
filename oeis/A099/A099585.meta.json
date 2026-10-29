@@ -1,5 +1,5 @@
 {
-  "description": "Remove all 3s from prime(n) - 1.",
+  "description": "Remove all factors of 3 from prime(n) - 1.",
   "id": "A099585",
   "mentions": [
     "A006093",

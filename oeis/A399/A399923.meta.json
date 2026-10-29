@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals: A(n,k) is the number of k-dimensional vector partitions of (n, n, ..., n) into parts with nonnegative components, excluding the k elementary basis vectors.",
+  "id": "A399923",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000296",
+    "A002865",
+    "A219585",
+    "A219727",
+    "A397646",
+    "A397804",
+    "A398553",
+    "A398816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

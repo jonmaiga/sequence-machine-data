@@ -1,5 +1,5 @@
 {
-  "description": "List of triples a,b,c that are sidelengths of a scalene triangle; a",
+  "description": "List of triples a,b,c that are sidelengths of a scalene triangle; a<b<c, lexically by perimeter.",
   "id": "A107572",
   "mentions": [
     "A005044",

@@ -1,0 +1,17 @@
+{
+  "description": "Integers that need one iteration of 180-degree Rotate and Add to reach a strobogrammatic number (7-segment calculator-style numerals).",
+  "id": "A398714",
+  "mentions": [
+    "A018846",
+    "A065206"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

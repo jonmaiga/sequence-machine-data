@@ -1,0 +1,21 @@
+{
+  "description": "Squares k such that A161351(k) is a square.",
+  "id": "A399603",
+  "mentions": [
+    "A161351",
+    "A399441",
+    "A399604",
+    "A399606",
+    "A399608"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -10,12 +10,13 @@
     "A366722"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: 1/(cos(x) - x).",
+  "description": "Expansion of e.g.f. 1/(cos(x) - x).",
   "id": "A200309",
   "mentions": [
     "A003957",

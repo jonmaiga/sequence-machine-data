@@ -1,0 +1,18 @@
+{
+  "description": "Successor function of the FRACTRAN program COLLATZGAME (A365328/A365329).",
+  "id": "A400288",
+  "mentions": [
+    "A014682",
+    "A365328",
+    "A365329"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

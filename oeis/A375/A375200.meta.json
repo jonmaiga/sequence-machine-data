@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array read by rows. The n-th row gives the elementary divisors of the group of units in the quotient ring F_2[x]/.",
+  "description": "Irregular triangular array read by rows. The n-th row gives the elementary divisors of the group of units in the quotient ring F_2[x]/<x^n>.",
   "id": "A375200",
   "mentions": [
     "A375312"

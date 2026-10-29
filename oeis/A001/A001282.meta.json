@@ -1,15 +1,18 @@
 {
-  "description": "Number of permutations of length n by rises.",
+  "description": "One-half of the number of permutations p of [n] having exactly three runs of adjacent entries differing by 1.",
   "id": "A001282",
   "mentions": [
+    "A000239",
+    "A000544",
     "A010030"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 16,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

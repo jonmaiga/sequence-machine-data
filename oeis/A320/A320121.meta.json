@@ -2,7 +2,8 @@
   "description": "Numbers k such that the product (m+n)*p, where m,n are the first and the last digits of k, and p is the number which is the part of k between m and n, is a divisor of k.",
   "id": "A320121",
   "mentions": [
-    "A320292"
+    "A320292",
+    "A395913"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

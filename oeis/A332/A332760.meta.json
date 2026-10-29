@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of number of connected graphs with n>=2 nodes and maximum degree 1<=k",
+  "description": "Triangle of number of connected graphs with n>=2 nodes and maximum degree 1<=k<n.",
   "id": "A332760",
   "mentions": [
     "A000088",

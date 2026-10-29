@@ -2,15 +2,21 @@
   "description": "a(n) = C(6*n+1,n).",
   "id": "A079590",
   "mentions": [
-    "A052203"
+    "A001700",
+    "A002295",
+    "A045721",
+    "A052203",
+    "A079589",
+    "A399644"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

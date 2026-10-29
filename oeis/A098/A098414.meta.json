@@ -1,5 +1,5 @@
 {
-  "description": "Middle members q of prime triples (p,q,r) with p",
+  "description": "Middle members q of prime triples (p,q,r) with p<q<r=p+6.",
   "id": "A098414",
   "mentions": [],
   "tags": [

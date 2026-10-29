@@ -2,7 +2,6 @@
   "description": "Let n = 2^e_2 * 3^e_3 * 5^e_5 * ... be the prime factorization of n; sequence gives n such that 1 + max{e_2, e_3, ...} is a prime.",
   "id": "A096432",
   "mentions": [
-    "A004555",
     "A060476",
     "A074661"
   ],

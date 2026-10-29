@@ -1,12 +1,15 @@
 {
-  "description": "a(n) = smallest number obtainable by permuting the exponents in the prime factorization of n.",
+  "description": "a(n) is the smallest number obtainable by permuting the exponents in the prime factorization of n.",
   "id": "A089247",
   "mentions": [
+    "A007947",
     "A027748",
     "A046523",
     "A071364",
     "A085079",
-    "A124010"
+    "A118914",
+    "A124010",
+    "A242031"
   ],
   "tags": [
     "easy",

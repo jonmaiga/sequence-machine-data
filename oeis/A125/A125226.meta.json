@@ -1,5 +1,5 @@
 {
-  "description": "Array, read by antidiagonals, where A(1,1) = A(1,2) = A(2,1) = A(2,2) = 1, A(n,k) = 0 if n",
+  "description": "Array, read by antidiagonals, where A(1,1) = A(1,2) = A(2,1) = A(2,2) = 1, A(n,k) = 0 if n<1 or k<1, otherwise A(n,k) = A(n-2,k-2) + A(n-1,k-2) + A(n-2,k-1) + A(n-1,k-1).",
   "id": "A125226",
   "mentions": [
     "A051292",

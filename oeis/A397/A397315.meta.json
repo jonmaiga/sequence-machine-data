@@ -1,0 +1,20 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = maximum number of points that can be blacked out of an n X k grid of points so that every rectangle with all four vertices on grid points (tilted rectangles included) is uniquely identifiable from its set of visible vertices; n, k >= 2.",
+  "id": "A397315",
+  "mentions": [
+    "A001787",
+    "A085582",
+    "A289832",
+    "A399580"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

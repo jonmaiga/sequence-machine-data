@@ -2,17 +2,21 @@
   "description": "Number of bipartite graphs associated with connected transitive oriented graphs.",
   "id": "A323658",
   "mentions": [
+    "A000608",
     "A006455",
-    "A323502"
+    "A133983",
+    "A323502",
+    "A400626"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

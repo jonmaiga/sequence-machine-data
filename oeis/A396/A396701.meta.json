@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{d|n} tau_3(d) * sigma(n/d).",
+  "id": "A396701",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A007425",
+    "A007426",
+    "A007429",
+    "A007430",
+    "A061200",
+    "A396702"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

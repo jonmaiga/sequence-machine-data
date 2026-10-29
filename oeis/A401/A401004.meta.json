@@ -1,0 +1,23 @@
+{
+  "description": "Square roots of the central entries in a six-square 3 X 3 magic-square construction from Pythagorean primes using a Pell-type recurrence.",
+  "id": "A401004",
+  "mentions": [
+    "A000129",
+    "A002144",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + log(1 - x) * cosh(x)).",
+  "id": "A399966",
+  "mentions": [
+    "A002104",
+    "A002741",
+    "A009416",
+    "A351881",
+    "A399948",
+    "A400376",
+    "A400377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

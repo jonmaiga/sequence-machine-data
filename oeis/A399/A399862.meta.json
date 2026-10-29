@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n-k+1, 2) - [n-k+1 > k] * binomial(n-2*k+1, 2), k = 1..n, where brackets are Iverson.",
+  "id": "A399862",
+  "mentions": [
+    "A000217",
+    "A141419",
+    "A399863"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

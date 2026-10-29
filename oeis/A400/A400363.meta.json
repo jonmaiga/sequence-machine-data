@@ -1,0 +1,21 @@
+{
+  "description": "Pythagorean primes p such that the sum of the fourth powers of the legs of the primitive Pythagorean triangle with hypotenuse p is prime.",
+  "id": "A400363",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A002645",
+    "A400364",
+    "A400365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

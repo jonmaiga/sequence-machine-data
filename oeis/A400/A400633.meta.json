@@ -1,0 +1,27 @@
+{
+  "description": "Number of semi-meanders with n crossings and winding number n-10, for n >= 10.",
+  "id": "A400633",
+  "mentions": [
+    "A005315",
+    "A005316",
+    "A400429",
+    "A400630",
+    "A400631",
+    "A400632",
+    "A400634",
+    "A400635",
+    "A400636",
+    "A400637",
+    "A400638",
+    "A400639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest increasing sequence of nonnegative integers such that no two distinct terms differ by a perfect cube.",
+  "id": "A397817",
+  "mentions": [
+    "A007412",
+    "A030193"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

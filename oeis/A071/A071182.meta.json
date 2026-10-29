@@ -1,7 +1,9 @@
 {
-  "description": "SPF(n+1)-SPF(n), where SPF(n) denotes the smallest prime factor of n.",
+  "description": "a(n) = lpf(n+1) - lpf(n), where lpf = A020639.",
   "id": "A071182",
-  "mentions": [],
+  "mentions": [
+    "A020639"
+  ],
   "tags": [
     "sign"
   ],

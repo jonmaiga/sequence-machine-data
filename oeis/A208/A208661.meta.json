@@ -2,9 +2,11 @@
   "description": "Number of paths through the subset array of {1,2,...,n} that have range a subset of {1,2}; see Comments at A208650.",
   "id": "A208661",
   "mentions": [
+    "A074962",
     "A208650"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

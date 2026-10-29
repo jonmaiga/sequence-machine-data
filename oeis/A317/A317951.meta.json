@@ -1,5 +1,5 @@
 {
-  "description": "An S-automatic sequence for the system S = (a*b*, {a,b}, a",
+  "description": "An S-automatic sequence for the system S = (a*b*, {a,b}, a<b).",
   "id": "A317951",
   "mentions": [
     "A000217",

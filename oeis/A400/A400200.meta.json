@@ -1,0 +1,32 @@
+{
+  "description": "H_x(y, z), the x-th hyperoperation of y and z, where (x, y, z) is the triple with index n+1 in the lexicographic shell ordering of N^3 given by A057556.",
+  "id": "A400200",
+  "mentions": [
+    "A001695",
+    "A054871",
+    "A057556",
+    "A144625",
+    "A144627",
+    "A144628",
+    "A144629",
+    "A189896",
+    "A213619",
+    "A253855",
+    "A255176",
+    "A256131",
+    "A261143",
+    "A399497",
+    "A400199"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

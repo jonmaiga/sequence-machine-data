@@ -1,41 +1,44 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C018
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B008.C000
+import Seq.B004.C003
+import Seq.B006.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -49,16 +52,19 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A019201: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NAT = Natrolite Na16[Al16Si24O80].16H2O starting from a T2 atom.
@@ -714,6 +720,29 @@ The programs for A019274, the canonical program `A019274.P14139806031149399444` 
 The definition of A019274 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A019274.P678812582712135658
+
+`ogf(2x^2/(1-2x+x^3))`
+-/
+
+namespace A019274.P678812582712135658
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 2] [1, -2, 0, 1] n
+
+end
+
+end A019274.P678812582712135658
+
+namespace A019274
+
+/-- `ogf(2x^2/(1-2x+x^3))` -/
+def P678812582712135658.Spec : Prop :=
+  ∀ n, P678812582712135658.a n = A019274 (n + 1)
+
+end A019274
+
 /-! ## A019274.P14139806031149399444
 
 `a(n-1)+a(n-2)+2` with `a(0)=0, a(1)=0`
@@ -779,26 +808,26 @@ def P1119603416219997577.Spec : Prop :=
 
 end A019274
 
-/-! ## A019274.P678812582712135658
+/-! ## A019274.P6590142549293988930
 
-`ogf(2x^2/(1-2x+x^3))`
+`2*A000045(n+1)-2`
 -/
 
-namespace A019274.P678812582712135658
+namespace A019274.P6590142549293988930
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 0, 2] [1, -2, 0, 1] n
+  2 * A000045 (n + 1) - 2
 
 end
 
-end A019274.P678812582712135658
+end A019274.P6590142549293988930
 
 namespace A019274
 
-/-- `ogf(2x^2/(1-2x+x^3))` -/
-def P678812582712135658.Spec : Prop :=
-  ∀ n, P678812582712135658.a n = A019274 (n + 1)
+/-- `2*A000045(n+1)-2` -/
+def P6590142549293988930.Spec : Prop :=
+  ∀ n, P6590142549293988930.a n = A019274 (n + 1)
 
 end A019274
 
@@ -822,6 +851,35 @@ namespace A019274
 /-- `floor(ϕ*(a(n-1)+1))` -/
 def P11135126183667786364.Spec : Prop :=
   ∀ n, P11135126183667786364.a n = A019274 (n + 1)
+
+end A019274
+
+/-! ## A019274.P9624640952401523028
+
+`2+a(n-1)+a(n-2)` with `a(0)=0, a(1)=0`
+-/
+
+namespace A019274.P9624640952401523028
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 0] fun n a =>
+  2 + a (n - 1) + a (n - 2)
+
+end
+
+end A019274.P9624640952401523028
+
+namespace A019274
+
+/-- `2+a(n-1)+a(n-2)` -/
+def P9624640952401523028.Spec : Prop :=
+  ∀ n, (P9624640952401523028.a n : ℤ) = A019274 (n + 1)
+
+theorem P9624640952401523028.correct : P9624640952401523028.Spec := by
+  intro n
+  simp only [A019274, Nat.add_sub_cancel, A019274.P9624640952401523028.a, A019274.P14139806031149399444.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A019274
 
@@ -1135,52 +1193,6 @@ namespace A019274
 /-- `A006355(n+2)-2` -/
 def P991312827708089870.Spec : Prop :=
   ∀ n, P991312827708089870.a n = A019274 (n + 1)
-
-end A019274
-
-/-! ## A019274.P14154706151568538018
-
-`A118658(n+2)-2`
--/
-
-namespace A019274.P14154706151568538018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118658 (n + 2) - 2
-
-end
-
-end A019274.P14154706151568538018
-
-namespace A019274
-
-/-- `A118658(n+2)-2` -/
-def P14154706151568538018.Spec : Prop :=
-  ∀ n, P14154706151568538018.a n = A019274 (n + 1)
-
-end A019274
-
-/-! ## A019274.P2030914809406260163
-
-`A163733(n+3)-2`
--/
-
-namespace A019274.P2030914809406260163
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163733 (n + 3) - 2
-
-end
-
-end A019274.P2030914809406260163
-
-namespace A019274
-
-/-- `A163733(n+3)-2` -/
-def P2030914809406260163.Spec : Prop :=
-  ∀ n, P2030914809406260163.a n = A019274 (n + 1)
 
 end A019274
 
@@ -1563,23 +1575,20 @@ end
 
 end A019280.P15628273079307009134
 
-/-! ## A019280.P1593736660764010482
+/-! ## A019280.P5723898535596514704
 
-`record[A090748(A269393(n+1))]`
+`A134713(n+1)+A032513(n)`
 -/
 
-namespace A019280.P1593736660764010482
+namespace A019280.P5723898535596514704
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090748 (A269393 (n + 1)).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A134713 (n + 1) + A032513 n
 
 end
 
-end A019280.P1593736660764010482
+end A019280.P5723898535596514704
 
 /-!
 # A019283: Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (2,6)-perfect numbers.
@@ -1756,6 +1765,29 @@ The programs for A019298, the canonical program `A019298.P3510953320221201697` i
 
 The definition of A019298 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A019298.P9301877659852557750
+
+`ogf((x+x^2+x^3)/(1-3x+2x^2+2x^3-3x^4+x^5))`
+-/
+
+namespace A019298.P9301877659852557750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 1, 1] [1, -3, 2, 2, -3, 1] n
+
+end
+
+end A019298.P9301877659852557750
+
+namespace A019298
+
+/-- `ogf((x+x^2+x^3)/(1-3x+2x^2+2x^3-3x^4+x^5))` -/
+def P9301877659852557750.Spec : Prop :=
+  ∀ n, P9301877659852557750.a n = A019298 n
+
+end A019298
 
 /-! ## A019298.P3510953320221201697
 
@@ -2091,32 +2123,6 @@ namespace A019298
 /-- `∑[∑[∑[3-a(n-1)]]]` -/
 def P9257951367610240989.Spec : Prop :=
   ∀ n, P9257951367610240989.a n = A019298 n
-
-end A019298
-
-/-! ## A019298.P2053679819947532907
-
-`∑[ogf((x+x^2+x^3)/(1-2x+2x^3-x^4))]`
--/
-
-namespace A019298.P2053679819947532907
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 1, 1, 1] [1, -2, 0, 2, -1] n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A019298.P2053679819947532907
-
-namespace A019298
-
-/-- `∑[ogf((x+x^2+x^3)/(1-2x+2x^3-x^4))]` -/
-def P2053679819947532907.Spec : Prop :=
-  ∀ n, P2053679819947532907.a n = A019298 n
 
 end A019298
 

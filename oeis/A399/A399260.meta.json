@@ -1,0 +1,19 @@
+{
+  "description": "Order of the general semilinear group GammaL_2(K), where K is the finite field with q = A246655(n) elements.",
+  "id": "A399260",
+  "mentions": [
+    "A059238",
+    "A246655",
+    "A352807",
+    "A399261"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

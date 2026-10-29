@@ -2,7 +2,8 @@
   "description": "Number of n X 1 0..1 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.",
   "id": "A222855",
   "mentions": [
-    "A222862"
+    "A222862",
+    "A392714"
   ],
   "tags": [
     "nonn"

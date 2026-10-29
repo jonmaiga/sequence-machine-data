@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows where row n consists of all k in the range 0",
+  "description": "Table read by rows where row n consists of all k in the range 0<k < A006094(n+1) such that k*A002110(n)-1 are lower twin primes.",
   "id": "A088329",
   "mentions": [
     "A001359",

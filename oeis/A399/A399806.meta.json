@@ -1,0 +1,20 @@
+{
+  "description": "Numbers r such that r = (m-1)/ord_m(2) for some base-2 Fermat pseudoprime m.",
+  "id": "A399806",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A174590",
+    "A300101",
+    "A306413"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

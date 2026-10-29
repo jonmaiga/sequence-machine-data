@@ -2,6 +2,8 @@
   "description": "Number of perfect cube parts in all partitions of n.",
   "id": "A264392",
   "mentions": [
+    "A061704",
+    "A073336",
     "A264391"
   ],
   "tags": [

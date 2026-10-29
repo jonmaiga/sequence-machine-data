@@ -1,13 +1,19 @@
 {
   "description": "a(n) = sum of exponents in prime-power factorization of 2*prime(n)+1.",
   "id": "A023595",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A023588",
+    "A072055"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

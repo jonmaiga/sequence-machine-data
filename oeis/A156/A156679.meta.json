@@ -1,5 +1,5 @@
 {
-  "description": "Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B",
+  "description": "Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B<C); sequence gives values of C, sorted to correspond to increasing A (A020884(n)).",
   "id": "A156679",
   "mentions": [
     "A008846",

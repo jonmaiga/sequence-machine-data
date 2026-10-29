@@ -1,0 +1,21 @@
+{
+  "description": "Grundy value of n in the impartial game in which from even n the only move is to n/2, from odd n > 1 the moves are to 3n+1 or to (3n+1)/2, and 1 has no moves.",
+  "id": "A400826",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A007814",
+    "A014682",
+    "A096268"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

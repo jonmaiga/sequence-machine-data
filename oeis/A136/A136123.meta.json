@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k maximal strings of increasing consecutive integers (0<=k<=floor(n/2)).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k maximal strings of increasing consecutive integers (0<=k<=floor(n/2)).",
   "id": "A136123",
   "mentions": [
     "A000142",
@@ -9,7 +9,8 @@
     "A001279",
     "A001280",
     "A001564",
-    "A010029"
+    "A010029",
+    "A398328"
   ],
   "tags": [
     "formulas",

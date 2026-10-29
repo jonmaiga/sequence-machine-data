@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{0<=a",
+  "description": "Sum_{0<=a<24*n, 0<=b<24*n} (a+b*i)^(24*n) (mod 24*n), where i is the imaginary unit.",
   "id": "A230309",
   "mentions": [
     "A230308",

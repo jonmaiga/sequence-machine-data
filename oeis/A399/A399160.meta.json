@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a \"Falafel\" (Fers + Alfil) moving on a spirally numbered board always to the lowest available unvisited square.",
+  "id": "A399160",
+  "mentions": [
+    "A316667",
+    "A316884",
+    "A317467",
+    "A396103",
+    "A398717",
+    "A398779",
+    "A398965",
+    "A399158"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

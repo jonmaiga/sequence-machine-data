@@ -1,0 +1,31 @@
+{
+  "description": "The least start of the longest possible run of successive prime(n)-rough numbers that are all squarefree.",
+  "id": "A399526",
+  "mentions": [
+    "A000027",
+    "A002110",
+    "A005117",
+    "A005408",
+    "A005867",
+    "A007310",
+    "A007675",
+    "A007775",
+    "A008364",
+    "A048669",
+    "A048670",
+    "A286941",
+    "A398951",
+    "A398953",
+    "A399527"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

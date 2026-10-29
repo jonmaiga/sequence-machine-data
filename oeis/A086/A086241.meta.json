@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of value to which Sum_{k>=2} d(k)/prime(k) appears to converge, where d(k)=-1 if p mod 3 = 1, d(k)=+1 if p mod 3 = 2 and d(k)=0 if p mod 3 = 0.",
+  "description": "Decimal expansion of value to which Sum_{k>=1} d(k)/prime(k) appears to converge, where d(k)=-1 if p mod 3 = 1, d(k)=+1 if p mod 3 = 2 and d(k)=0 if p mod 3 = 0.",
   "id": "A086241",
   "mentions": [
     "A161529",

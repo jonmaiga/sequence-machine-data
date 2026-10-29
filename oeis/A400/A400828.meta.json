@@ -1,0 +1,22 @@
+{
+  "description": "Least number whose (n-1)-th arithmetic derivative (A003415) is one, and for n > 1, the (n-2)-th derivative, which by necessity is prime, is distinct from the corresponding primes that occur for all other terms of the sequence.",
+  "id": "A400828",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A099308",
+    "A189760",
+    "A400829",
+    "A400830"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

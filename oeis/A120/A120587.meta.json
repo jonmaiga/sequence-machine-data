@@ -1,14 +1,17 @@
 {
   "description": "Number of inequivalent (under the group of permutations and \"inversion of variables\") nondegenerate monotone Boolean functions of n variables.",
   "id": "A120587",
-  "mentions": [],
+  "mentions": [
+    "A003183"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

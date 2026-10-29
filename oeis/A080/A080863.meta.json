@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that spf(n)-2 = spf(n+2), where spf=A020639 (smallest prime factor).",
+  "description": "Numbers k such that lpf(k)-2 = lpf(k+2), where lpf=A020639 (least prime factor).",
   "id": "A080863",
   "mentions": [
     "A001359",
@@ -8,6 +8,7 @@
     "A080864"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

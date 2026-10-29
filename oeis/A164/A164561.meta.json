@@ -1,5 +1,5 @@
 {
-  "description": "Triangle with elements A120070(m,n)/A120072(m,n) read by rows, m>=2, 1<=n",
+  "description": "Triangle with elements A120070(m,n)/A120072(m,n) read by rows, m>=2, 1<=n<m.",
   "id": "A164561",
   "mentions": [
     "A120070",

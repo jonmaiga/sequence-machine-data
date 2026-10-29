@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p",
+  "description": "Number of primes p<n with p-1 and p+1 both practical, and n-p prime or practical.",
   "id": "A210480",
   "mentions": [
     "A002372",

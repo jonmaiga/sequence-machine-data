@@ -1,0 +1,14 @@
+{
+  "description": "Number of labeled simple graphs G on n vertices whose open-neighborhood hypergraph is Hausdorff.",
+  "id": "A399817",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

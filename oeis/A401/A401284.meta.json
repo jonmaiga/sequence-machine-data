@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonisomorphic n X k binary matrices with all column sums 2 and row sums at most 2, under row and column permutations.",
+  "id": "A401284",
+  "mentions": [
+    "A000990",
+    "A002865",
+    "A401281"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

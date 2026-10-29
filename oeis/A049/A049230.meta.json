@@ -1,19 +1,22 @@
 {
-  "description": "Configurations of linear chains in a cubic lattice.",
+  "description": "Number of n-step self-avoiding walks on the simple cubic lattice having exactly 2 pairs of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A049230",
   "mentions": [
-    "A033155",
+    "A001412",
     "A033323",
-    "A034006",
-    "A038729"
+    "A038728",
+    "A046788",
+    "A047057",
+    "A174319"
   ],
   "tags": [
-    "more",
-    "nonn"
+    "formulas",
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

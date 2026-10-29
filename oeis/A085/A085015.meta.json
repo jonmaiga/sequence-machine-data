@@ -1,5 +1,5 @@
 {
-  "description": "Multiplicity of the root 1 in the characteristic polynomial mod 2 of the n X n matrix with entries binomial(i+j,i), 0<=i,j",
+  "description": "Multiplicity of the root 1 in the characteristic polynomial mod 2 of the n X n matrix with entries binomial(i+j,i), 0<=i,j<n.",
   "id": "A085015",
   "mentions": [
     "A084117"

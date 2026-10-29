@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the position, in the row of A077569 where it appears, of the least integer with same prime signature as n.",
+  "id": "A400108",
+  "mentions": [
+    "A000005",
+    "A025487",
+    "A046523",
+    "A077569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

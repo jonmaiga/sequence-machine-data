@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the total number of standard Young tableaux over all basic skew shapes with n boxes whose major index is congruent to k modulo n. (n >= 1, 0 <= k <= n-1).",
+  "id": "A399982",
+  "mentions": [
+    "A225114",
+    "A370666",
+    "A399981",
+    "A400280"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

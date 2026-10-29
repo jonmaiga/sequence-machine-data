@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,3) read by rows: T(n,1)*T(n,2)^n*(T(n,2)^n-1)+T(n,3) is the smallest possible prime with 1",
+  "description": "Table T(n,3) read by rows: T(n,1)*T(n,2)^n*(T(n,2)^n-1)+T(n,3) is the smallest possible prime with 1<T(n,2)<10 and T(n,3)=-1 or +1.",
   "id": "A153096",
   "mentions": [
     "A152414",

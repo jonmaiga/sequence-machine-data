@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 4 and then least composite such that every partial concatenation of 2 or more terms is a prime.",
+  "description": "a(1) = 4 and then least composite such that the concatenation of all previous terms and the new term is a prime.",
   "id": "A086474",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

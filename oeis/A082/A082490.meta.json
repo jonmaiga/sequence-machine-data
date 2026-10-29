@@ -1,5 +1,5 @@
 {
-  "description": "Exponent of highest power of 3 dividing sum(0<=k",
+  "description": "Exponent of highest power of 3 dividing sum(0<=k<n, C(2n,n)).",
   "id": "A082490",
   "mentions": [
     "A000989",

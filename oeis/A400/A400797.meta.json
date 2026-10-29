@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A400796(n) mod 5.",
+  "id": "A400797",
+  "mentions": [
+    "A080891",
+    "A400796"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

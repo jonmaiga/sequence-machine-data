@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A365872, divided by 2.",
+  "id": "A400191",
+  "mentions": [
+    "A121805",
+    "A365872"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

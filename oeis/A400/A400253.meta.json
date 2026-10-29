@@ -1,0 +1,21 @@
+{
+  "description": "The exponent of the highest power of 3 dividing A380459(n).",
+  "id": "A400253",
+  "mentions": [
+    "A007949",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A400252",
+    "A400263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

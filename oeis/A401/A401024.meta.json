@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that A075255(k) = p for some k.",
+  "id": "A401024",
+  "mentions": [
+    "A075255",
+    "A146764"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that there exists at least one prime q",
+  "description": "Primes p such that there exists at least one prime q<p with q+1 dividing p+1.",
   "id": "A084197",
   "mentions": [
     "A049084",

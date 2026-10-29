@@ -1,5 +1,5 @@
 {
-  "description": "Values of n for which pi_{8,5}(p_n) - pi_{8,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "description": "Values of n for which p_n == 1 (mod 4) and pi_{8,5}(p_n) - pi_{8,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A297447",
   "mentions": [
     "A007350",

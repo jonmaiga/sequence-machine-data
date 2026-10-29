@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the distinct entries in the central row and central column of the (2*n + 1) X (2*n + 1) square spiral.",
+  "id": "A400618",
+  "mentions": [
+    "A033951",
+    "A054552",
+    "A054556",
+    "A054567",
+    "A114254",
+    "A393855",
+    "A399038",
+    "A399777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

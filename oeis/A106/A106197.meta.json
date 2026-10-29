@@ -2,8 +2,7 @@
   "description": "Analog of A094091 for S=4.",
   "id": "A106197",
   "mentions": [
-    "A094091",
-    "A105306"
+    "A094091"
   ],
   "tags": [
     "fini",

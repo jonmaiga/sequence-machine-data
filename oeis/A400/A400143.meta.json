@@ -1,0 +1,30 @@
+{
+  "description": "The number of divisors d of n such that gcid(d, n/d) is a power of 2, where gcid is the greatest common infinitary divisor.",
+  "id": "A400143",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A001316",
+    "A037445",
+    "A365207",
+    "A399833",
+    "A400137",
+    "A400138",
+    "A400139",
+    "A400140",
+    "A400141",
+    "A400142",
+    "A400146"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

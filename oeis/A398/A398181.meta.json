@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (Pi/32) * (1 + log(2)).",
+  "id": "A398181",
+  "mentions": [
+    "A336308",
+    "A384541"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

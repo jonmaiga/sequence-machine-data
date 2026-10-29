@@ -1,0 +1,16 @@
+{
+  "description": "Number of regions of an n-question Venn diagram that can be filled by multisets of positive integers. Question k of n: Do one or more elements of the multiset sum to k?",
+  "id": "A398966",
+  "mentions": [
+    "A000079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

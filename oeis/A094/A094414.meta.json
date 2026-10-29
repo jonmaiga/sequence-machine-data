@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T read by rows: dot product * .",
+  "description": "Triangle T read by rows: dot product <1,2,...,r> * <s+1,s+2,...,r,1,2,...,s>.",
   "id": "A094414",
   "mentions": [
     "A000330",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that there is no Carmichael number pqr, p",
+  "description": "Primes p such that there is no Carmichael number pqr, p<q<r q, r primes.",
   "id": "A051663",
   "mentions": [],
   "tags": [

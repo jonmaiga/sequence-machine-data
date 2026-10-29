@@ -1,8 +1,10 @@
 {
-  "description": "Semiprimes n such that lpf(n)^spf(n)+1 is also semiprime, where lpf(n) is larger prime factor of n and spf(n) is smaller prime factor of n.",
+  "description": "Semiprimes k such that gpf(k)^lpf(k)+1 is also semiprime, where gpf = A006530 and lpf = A020639.",
   "id": "A085712",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A006530",
+    "A020639"
   ],
   "tags": [
     "nonn"

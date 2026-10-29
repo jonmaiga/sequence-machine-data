@@ -1,5 +1,5 @@
 {
-  "description": "Nonprime numbers squared.",
+  "description": "Positive nonprime numbers squared.",
   "id": "A062312",
   "mentions": [
     "A002808",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the unique k >= 1 such that A400792(k) = n, or -1 if no such k exists.",
+  "id": "A397358",
+  "mentions": [
+    "A400792"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

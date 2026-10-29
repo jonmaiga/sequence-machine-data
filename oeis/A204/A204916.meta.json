@@ -16,11 +16,12 @@
     "A204921"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "size": 83,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic simple hypergraphs with n vertices and trivial automorphism group, allowing isolated vertices and excluding the empty edge.",
+  "id": "A399419",
+  "mentions": [
+    "A330229",
+    "A330282",
+    "A330294",
+    "A330295",
+    "A330343"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

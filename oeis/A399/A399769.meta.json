@@ -1,0 +1,15 @@
+{
+  "description": "Maximum length of a strictly increasing sequence of positive divisors d_1, ..., d_k of n such that d_i divides d_{i+1} - 1 for 1 <= i < k.",
+  "id": "A399769",
+  "mentions": [
+    "A400930"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

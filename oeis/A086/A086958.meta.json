@@ -1,5 +1,5 @@
 {
-  "description": "m such that A086956(m)=n and A086956(k)=n for exactly one k",
+  "description": "m such that A086956(m)=n and A086956(k)=n for exactly one k<m (k=A086957(n)).",
   "id": "A086958",
   "mentions": [
     "A086938",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

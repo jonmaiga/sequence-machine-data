@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers that can be written as half the sum of three squares in exactly one unique way.",
+  "id": "A398900",
+  "mentions": [
+    "A000040",
+    "A003173",
+    "A094942"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

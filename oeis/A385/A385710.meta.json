@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the first zero of Re(P(x)) with x",
+  "description": "Decimal expansion of the first zero of Re(P(x)) with x<1, where P(x) is prime zeta function.",
   "id": "A385710",
   "mentions": [
     "A358968",

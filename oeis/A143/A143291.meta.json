@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), n>=2, 0<=k<=n-2, read by rows: numbers of binary words of length n containing at least one subword 10^{k}1 and no subwords 10^{i}1 with i",
+  "description": "Triangle T(n,k), n>=2, 0<=k<=n-2, read by rows: numbers of binary words of length n containing at least one subword 10^{k}1 and no subwords 10^{i}1 with i<k.",
   "id": "A143291",
   "mentions": [
     "A000295",

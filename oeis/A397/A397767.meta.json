@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of {1,...,4*n} into 4-element subsets {w,x,y,z} satisfying w+x=y+z, where the common sum is prime.",
+  "id": "A397767",
+  "mentions": [
+    "A000341",
+    "A397573"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

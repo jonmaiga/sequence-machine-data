@@ -2,6 +2,7 @@
   "description": "Numbers k such that 2^(2*k-9) - 9 is prime.",
   "id": "A138579",
   "mentions": [
+    "A059610",
     "A138577",
     "A138578",
     "A138580",
@@ -15,12 +16,14 @@
     "A138603"
   ],
   "tags": [
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

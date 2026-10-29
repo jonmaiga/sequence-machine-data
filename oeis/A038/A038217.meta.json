@@ -2,10 +2,14 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*2^(i-j)*11^j.",
   "id": "A038217",
   "mentions": [
-    "A001022"
+    "A000079",
+    "A001020",
+    "A001022",
+    "A007318"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

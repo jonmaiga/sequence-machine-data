@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, 0<=k",
+  "description": "Triangle read by rows, 0<=k<n: T(n,k) = #{p prime: b(k)=1 and 2^(n-1) <= p=Sum(b(i)*2^i:0<=b(i)<2) < 2^n}.",
   "id": "A096369",
   "mentions": [
     "A036378",

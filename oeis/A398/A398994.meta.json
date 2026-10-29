@@ -1,0 +1,19 @@
+{
+  "description": "The binomial matrix of the Schröder numbers A006318. Square array read by ascending antidiagonals.",
+  "id": "A398994",
+  "mentions": [
+    "A006318",
+    "A052709",
+    "A174347",
+    "A399000"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

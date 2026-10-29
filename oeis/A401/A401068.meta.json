@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A276085(k) is squarefree, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401068",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A008966",
+    "A276085",
+    "A373846",
+    "A377869",
+    "A401069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Maximum size of a subset of {1, 2, ..., n} containing n, such that the sum of any two distinct elements is a perfect power.",
+  "id": "A398602",
+  "mentions": [
+    "A001597"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "Number of primes < 3^prime(n).",
   "id": "A086692",
   "mentions": [
-    "A055729"
+    "A000040",
+    "A000720",
+    "A055729",
+    "A057901"
   ],
   "tags": [
     "easy",
@@ -10,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 15,
     "source": "oeis-entry"
   }

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1. a(n) = smallest integer > a(n-1) that is coprime to n and is coprime to every (nonzero) exponent in the prime factorization of n.",
+  "description": "a(1) = 1. a(n) = smallest integer > a(n-1) that is coprime to n and is coprime to every (nonzero) exponent in the prime factorization of n.",
   "id": "A138308",
   "mentions": [
     "A138309",

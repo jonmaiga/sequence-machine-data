@@ -1,0 +1,17 @@
+{
+  "description": "Size of the largest subset of {1..n} having no 3-element subset with all pairwise LCMs equal.",
+  "id": "A401118",
+  "mentions": [
+    "A068509",
+    "A399779"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

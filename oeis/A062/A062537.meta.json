@@ -2,6 +2,7 @@
   "description": "Nodes in riff (rooted index-functional forest) for n.",
   "id": "A062537",
   "mentions": [
+    "A000720",
     "A001221",
     "A027748",
     "A049084",

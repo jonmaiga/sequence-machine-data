@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.",
+  "description": "Number of n X 3 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.",
   "id": "A199144",
   "mentions": [
     "A199149"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

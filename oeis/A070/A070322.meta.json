@@ -2,17 +2,17 @@
   "description": "Number of primitive n X n real (0,1)-matrices.",
   "id": "A070322",
   "mentions": [
-    "A003030"
+    "A003030",
+    "A399558"
   ],
   "tags": [
     "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

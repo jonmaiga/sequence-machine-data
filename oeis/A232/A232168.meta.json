@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is a deficient number and there exists a prime number p greater than the largest prime factor of n such that p*n is abundant.",
+  "description": "Numbers k such that k is a deficient number and there exists a prime number p greater than the largest prime factor of k such that p*k is abundant.",
   "id": "A232168",
   "mentions": [
     "A005100",

@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j",
+  "description": "Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=3^j-2^j.",
   "id": "A205000",
   "mentions": [
     "A001047",
@@ -13,11 +13,12 @@
     "A205111"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

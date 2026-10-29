@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of rational approximation to Pi/4 from Machins's formula.",
+  "description": "Numerators of rational approximation to Pi/4 from Machin's formula.",
   "id": "A096954",
   "mentions": [
     "A003881",

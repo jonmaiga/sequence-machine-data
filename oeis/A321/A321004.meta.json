@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of primes (i,j) with i",
+  "description": "Number of pairs of primes (i,j) with i<j<n such that i*j == 1 mod n.",
   "id": "A321004",
   "mentions": [
     "A320276",

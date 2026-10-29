@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form x^^y + w^^z, where x, y, w, z >= 2 and ^^ denotes tetration.",
+  "id": "A393643",
+  "mentions": [
+    "A275211",
+    "A321312",
+    "A364270",
+    "A396947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

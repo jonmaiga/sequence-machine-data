@@ -1,8 +1,9 @@
 {
-  "description": "Sum of unitary divisors of n^3 is a square.",
+  "description": "Numbers k such that the sum of unitary divisors of k^3 is a square.",
   "id": "A064501",
   "mentions": [
-    "A034448"
+    "A034448",
+    "A034677"
   ],
   "tags": [
     "nonn"

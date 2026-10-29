@@ -1,5 +1,5 @@
 {
-  "description": "z(sigma(n)) = 2n, where z(n) = A048146.",
+  "description": "Numbers k such that z(sigma(k)) = 2*k, where z(k) = A048146(k).",
   "id": "A063885",
   "mentions": [
     "A000203",

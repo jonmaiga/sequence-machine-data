@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic rings Z/nZ/(x^2 - A, y^2 - B, y*x - a - b*x - c*y - d*x*y) of order n^4.",
+  "description": "Number of nonisomorphic rings Z/nZ<x,y>/(x^2 - A, y^2 - B, y*x - a - b*x - c*y - d*x*y) of order n^4.",
   "id": "A342305",
   "mentions": [
     "A000005",

@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = number of maximum blackouts of the n X k grid of points, where a blackout deletes points so that every rectangle with all four vertices on grid points remains uniquely identifiable from its visible vertices, and maximum blackouts are those of size A397315(n,k); n, k >= 2.",
+  "id": "A399580",
+  "mentions": [
+    "A001787",
+    "A085582",
+    "A289832",
+    "A397315"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

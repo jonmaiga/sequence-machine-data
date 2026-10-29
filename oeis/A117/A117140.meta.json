@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=5, a(2)=7; for n >= 3, a(n) is smallest number which is uniquely of the form a(j)+a(k) with 1<=j",
+  "description": "a(1)=5, a(2)=7; for n >= 3, a(n) is smallest number which is uniquely of the form a(j)+a(k) with 1<=j<k<n.",
   "id": "A117140",
   "mentions": [
     "A002858",

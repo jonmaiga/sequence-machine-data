@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum((1-x)^(2*l)*Sum(x^((2*l-1)*k)/(1-2*x+x^k)^(2*l),k=1..infinity),l=1..infinity).",
+  "description": "Number of compositions of n such that the greatest part occurs with odd multiplicity.",
   "id": "A105205",
   "mentions": [
     "A105200",

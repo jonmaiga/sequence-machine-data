@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of Hamiltonian cycles in a polyiamond with 2*n cells.",
+  "id": "A399933",
+  "mentions": [
+    "A000577",
+    "A006774",
+    "A399931",
+    "A399932"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

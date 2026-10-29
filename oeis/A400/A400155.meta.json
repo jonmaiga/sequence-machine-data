@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that are multiples of A342002(k), where A342002(k) = A342001(A276086(k)).",
+  "id": "A400155",
+  "mentions": [
+    "A083345",
+    "A276086",
+    "A342001",
+    "A342002",
+    "A380527",
+    "A399379",
+    "A399380"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

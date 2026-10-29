@@ -1,0 +1,14 @@
+{
+  "description": "T(n,k) is the k-th term obtained by greedily selecting the smallest number in {1..n} whose sorted distances to previously selected terms are lexicographically maximal, triangle read by rows.",
+  "id": "A399715",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

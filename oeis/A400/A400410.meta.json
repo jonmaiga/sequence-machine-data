@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/(1 - x^4*A(x)^4)^(x*A(x)).",
+  "id": "A400410",
+  "mentions": [
+    "A184949",
+    "A376350",
+    "A400409"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

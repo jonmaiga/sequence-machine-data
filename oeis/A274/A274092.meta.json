@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = nearest integer to k^2*sin(sqrt(k)+j*Pi/2) where n = 3*k+j, 0<=j",
+  "description": "a(n) = nearest integer to k^2*sin(sqrt(k)+j*Pi/2) where n = 3*k+j, 0<=j<3.",
   "id": "A274092",
   "mentions": [
     "A272695",

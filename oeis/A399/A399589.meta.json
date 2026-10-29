@@ -1,0 +1,17 @@
+{
+  "description": "Product of the distinct entries in the central row and column of the (2*n + 1) X (2*n + 1) square array formed by the integers 1, 2, ..., (2*n + 1)^2 in order.",
+  "id": "A399589",
+  "mentions": [
+    "A395722",
+    "A399777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 1, a(n) is the smallest twin prime representable as the sum of 2*n - 1 consecutive terms of A077800.",
+  "id": "A400738",
+  "mentions": [
+    "A001097",
+    "A013918",
+    "A053845",
+    "A071151",
+    "A077800",
+    "A400578"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

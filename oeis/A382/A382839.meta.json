@@ -5,12 +5,12 @@
     "A382693"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A019565(d)^[moebius(n/d) = +1].",
   "id": "A300831",
   "mentions": [
     "A008683",

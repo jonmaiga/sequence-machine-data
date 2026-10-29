@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m coprime to 3 such that, for k >= 0, sopfr(3^k*m) <= sopfr(j) for j > 3^k*m, where sopfr is A001414; numbers dividing 40 or 1024.",
+  "id": "A398336",
+  "mentions": [
+    "A000244",
+    "A000792",
+    "A001113",
+    "A001414"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

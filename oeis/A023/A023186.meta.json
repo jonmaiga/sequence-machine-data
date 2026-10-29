@@ -2,6 +2,7 @@
   "description": "Lonely (or isolated) primes: increasing distance to nearest prime.",
   "id": "A023186",
   "mentions": [
+    "A006562",
     "A023187",
     "A023188",
     "A046929",

@@ -1,0 +1,21 @@
+{
+  "description": "The \"quintuple commas\" sequence, a variant of A121805.",
+  "id": "A400678",
+  "mentions": [
+    "A121805",
+    "A365872",
+    "A365874",
+    "A400679",
+    "A400680"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

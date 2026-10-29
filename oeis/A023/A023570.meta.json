@@ -1,13 +1,19 @@
 {
-  "description": "Greatest exponent in prime-power factorization of p(n)-3.",
+  "description": "Greatest exponent in prime-power factorization of prime(n)-3; a(1) = a(2) = 0.",
   "id": "A023570",
-  "mentions": [],
+  "mentions": [
+    "A023577",
+    "A051903",
+    "A086801"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

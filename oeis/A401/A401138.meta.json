@@ -1,0 +1,20 @@
+{
+  "description": "Thickness of the complete graph K_n with respect to the contact graph of the first n pennies of the hexagonal spiral of A047931.",
+  "id": "A401138",
+  "mentions": [
+    "A047931",
+    "A047932",
+    "A124156"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

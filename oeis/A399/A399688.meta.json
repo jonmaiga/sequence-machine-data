@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the value of a series for Pi used by Newton.",
+  "id": "A399688",
+  "mentions": [
+    "A000796",
+    "A019691"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

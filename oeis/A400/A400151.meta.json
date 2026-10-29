@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A328571(A003415(n)).",
+  "id": "A400151",
+  "mentions": [
+    "A003415",
+    "A007947",
+    "A083346",
+    "A327859",
+    "A328571",
+    "A399379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

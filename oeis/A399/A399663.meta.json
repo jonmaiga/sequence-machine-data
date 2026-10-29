@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..floor(n/k)} T(n-j*k, k-1) * T(j, 1), T(n, 1) = Sum_{j=1..n} T(n-j, 1) * A000081(j), T(n, k) = 1 if n = 0 and 0 if k = 0 and n > 1.",
+  "id": "A399663",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A001372",
+    "A001373",
+    "A217860",
+    "A399662"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = lambda(2^n + 1) + 1, where lambda is the Carmichael function A002322.",
+  "id": "A399070",
+  "mentions": [
+    "A000051",
+    "A000978",
+    "A000979",
+    "A002322",
+    "A002587",
+    "A007583",
+    "A019434",
+    "A052539",
+    "A092506",
+    "A112092",
+    "A387107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

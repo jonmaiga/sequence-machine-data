@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of distinct prime divisors of n+k greater than k, over all integers k >= 0.",
+  "id": "A401013",
+  "mentions": [
+    "A001221",
+    "A401014"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

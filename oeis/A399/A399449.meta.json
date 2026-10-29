@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled nodes that are transmission regular.",
+  "id": "A399449",
+  "mentions": [
+    "A399448"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

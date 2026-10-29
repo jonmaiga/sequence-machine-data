@@ -1,5 +1,5 @@
 {
-  "description": "Let Sn=p1+....+pn and zn=Sn/pn. (zn) is not increasing; we have z1",
+  "description": "Let Sn=p1+....+pn and zn=Sn/pn. (zn) is not increasing; we have z1<z2<...<z30 then zn<zn-1 for the first time for p31=127, the second time for p35=149 and so on...",
   "id": "A178088",
   "mentions": [],
   "tags": [

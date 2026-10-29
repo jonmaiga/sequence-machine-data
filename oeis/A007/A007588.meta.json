@@ -2,6 +2,7 @@
   "description": "Stella octangula numbers: a(n) = n*(2*n^2 - 1).",
   "id": "A007588",
   "mentions": [
+    "A000292",
     "A000447",
     "A000578",
     "A001653",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n gives Legendre symbol (k,p) for 0",
+  "description": "Triangle read by rows in which row n gives Legendre symbol (k,p) for 0<k<=p where p = n-th prime.",
   "id": "A097343",
   "mentions": [
     "A011582",

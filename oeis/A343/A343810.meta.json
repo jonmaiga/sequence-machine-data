@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that contain only the digits 0,4,8. Permutable multiples of 4: numbers k such that every permutation of the digits of k is a multiple of 4.",
+  "description": "Numbers that contain only the digits 0,4,8.",
   "id": "A343810",
   "mentions": [
     "A003459",
@@ -17,8 +17,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

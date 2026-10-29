@@ -1,5 +1,5 @@
 {
-  "description": "Pairs of distinct numbers m and n, m",
+  "description": "Pairs of distinct numbers m and n, m<n, such that sigma_2(m)=sigma_2(n), where sigma_2(n) is the sum of the squares of all divisors of n.",
   "id": "A110928",
   "mentions": [
     "A001157",

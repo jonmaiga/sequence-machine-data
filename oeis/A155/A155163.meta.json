@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k): the coefficient of [x^k] of the series -(x-1)^(2*n+1) *Sum_{j>=0} (j+1)^n *binomial(j,n) * x^(j-n); columns 0<=k",
+  "description": "Triangle T(n,k): the coefficient of [x^k] of the series -(x-1)^(2*n+1) *Sum_{j>=0} (j+1)^n *binomial(j,n) * x^(j-n); columns 0<=k<n.",
   "id": "A155163",
   "mentions": [
     "A001813",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice points of the tetrakis hexahedron whose vertices are (+-3n,0,0), (0,+-3n,0), (0,0,+-3n) and (+-2n,+-2n,+-2n).",
+  "id": "A400539",
+  "mentions": [
+    "A046142",
+    "A371515",
+    "A371532"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number k such that 2*(k*n+v) = Sum_{d|n} (k*d+v), where k and v are coprime and not both are 0.",
+  "id": "A398981",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A398713",
+    "A398982"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

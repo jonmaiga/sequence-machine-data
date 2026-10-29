@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients a(n) in the unique expansion sin(1) = Sum[a(n)/n!, n>=1], where a(n) satisfies 0<=a(n)",
+  "description": "Coefficients a(n) in the unique expansion sin(1) = Sum[a(n)/n!, n>=1], where a(n) satisfies 0<=a(n)<n.",
   "id": "A078112",
   "mentions": [
     "A077814"

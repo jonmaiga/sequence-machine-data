@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of divisors d of n such that the first digit of d is equal to the last digit of n.",
+  "id": "A399629",
+  "mentions": [
+    "A008592",
+    "A017281",
+    "A017283",
+    "A017329",
+    "A045327",
+    "A062332",
+    "A330348",
+    "A357299"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

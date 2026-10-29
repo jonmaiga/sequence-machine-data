@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n+1) is the least prime factor of 1 + Product_{k=1..n, a(k)<=a(n)} a(k) which is not yet in the sequence.",
+  "id": "A400347",
+  "mentions": [
+    "A000945",
+    "A020639"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

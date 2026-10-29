@@ -2,6 +2,8 @@
   "description": "Number of ordered T_0-antichains on an unlabeled n-set; labeled T_1-hypergraphs with n (not necessarily empty) distinct hyperedges.",
   "id": "A059051",
   "mentions": [
+    "A037843",
+    "A048994",
     "A059048",
     "A059050",
     "A059052"
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

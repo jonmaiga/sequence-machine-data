@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{k in A026424} 1/k^(2n).",
+  "description": "Numerators of (Sum_{k in A026424} 1/k^(2*n))/Pi^(2*n).",
   "id": "A093597",
   "mentions": [
     "A026424",

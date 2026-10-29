@@ -1,0 +1,23 @@
+{
+  "description": "Number of bipartite partitions of (n, n) into distinct parts containing at least one part with both coordinates strictly positive.",
+  "id": "A396961",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A002774",
+    "A219554",
+    "A395808",
+    "A397646",
+    "A398329"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

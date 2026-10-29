@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j",
+  "description": "Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j<k<n is three or less.",
   "id": "A060471",
   "mentions": [
     "A033627",

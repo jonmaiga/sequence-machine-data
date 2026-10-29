@@ -2,9 +2,12 @@
   "description": "Integers of the form 2*x + 3*y with nonnegative x and y, with repetitions.",
   "id": "A216522",
   "mentions": [
+    "A001399",
     "A086419"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

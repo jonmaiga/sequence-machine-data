@@ -1,8 +1,9 @@
 {
-  "description": "Exponent of 3 (value of j) in n-th number of form 2^i*3^j (see A003586).",
+  "description": "Exponent of 3 (value of j) in n-th number of the form 2^i*3^j (see A003586).",
   "id": "A022329",
   "mentions": [
     "A003586",
+    "A007949",
     "A022328",
     "A069352",
     "A191476"

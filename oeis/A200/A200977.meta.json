@@ -1,15 +1,24 @@
 {
-  "description": "Smallest number expressible in the form a^2 + 2b^2, with positive integers a and b, in exactly n ways.",
+  "description": "Smallest number expressible in the form a^2 + 2*b^2, with positive integers a and b, in exactly n ways.",
   "id": "A200977",
   "mentions": [
-    "A154777"
+    "A154777",
+    "A216278",
+    "A328151",
+    "A374158",
+    "A374159",
+    "A374160",
+    "A374161",
+    "A374285",
+    "A399191"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

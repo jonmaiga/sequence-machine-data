@@ -1,5 +1,5 @@
 {
-  "description": "Wiener index of the n-sun graph.",
+  "description": "a(n) = n*(4*n-5).",
   "id": "A180863",
   "mentions": [
     "A033951",

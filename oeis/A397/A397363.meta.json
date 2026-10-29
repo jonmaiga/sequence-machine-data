@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the trace of the product of two Hankel n X n matrices M_n and N_n whose M[i,j] and N[i,j] generic elements are respectively (i+j) in base 10 and (i+j) written in base 3 but then read as it were written in base 10.",
+  "id": "A397363",
+  "mentions": [
+    "A007089",
+    "A398535"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

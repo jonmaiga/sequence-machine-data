@@ -1,7 +1,14 @@
 {
   "description": "Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 3,1.",
   "id": "A037585",
-  "mentions": [],
+  "mentions": [
+    "A037583",
+    "A037584",
+    "A037586",
+    "A037587",
+    "A037588",
+    "A037589"
+  ],
   "tags": [
     "base",
     "easy",

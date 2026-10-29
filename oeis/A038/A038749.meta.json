@@ -1,18 +1,20 @@
 {
-  "description": "Coefficients arising in the enumeration of configurations of linear chains.",
+  "description": "Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the cubic lattice that use all three coordinate axes and have exactly one pair of nonconsecutive vertices adjacent in the lattice.",
   "id": "A038749",
   "mentions": [
     "A033155",
     "A038747",
+    "A038748",
     "A047057"
   ],
   "tags": [
-    "more",
-    "nonn"
+    "formulas",
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

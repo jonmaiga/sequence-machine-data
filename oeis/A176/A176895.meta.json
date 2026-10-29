@@ -2,7 +2,8 @@
   "description": "Period 4: repeat [1, 4, 2, 4].",
   "id": "A176895",
   "mentions": [
-    "A056594"
+    "A056594",
+    "A109008"
   ],
   "tags": [
     "easy",

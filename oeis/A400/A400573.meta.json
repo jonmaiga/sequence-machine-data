@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that lpf(p*R(p)) is the n-th prime, where R(p) is the digit reversal of p.",
+  "id": "A400573",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A020639"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

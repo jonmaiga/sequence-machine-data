@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k!! + k + 1 is prime.",
+  "id": "A398791",
+  "mentions": [
+    "A006882",
+    "A118743"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

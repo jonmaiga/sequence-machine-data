@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ways to divide a 2*n X 2*n square into two congruent connected parts, each having the same perimeter as the square, by a simple lattice path, up to the symmetries of the square.",
+  "id": "A400686",
+  "mentions": [
+    "A000108",
+    "A001850",
+    "A068392",
+    "A113900",
+    "A323189",
+    "A400685"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

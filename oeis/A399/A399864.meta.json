@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k in A024619 such that A376846(k) = 0.",
+  "id": "A399864",
+  "mentions": [
+    "A001222",
+    "A007947",
+    "A024619",
+    "A162306",
+    "A376846",
+    "A377590",
+    "A377591",
+    "A377713"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

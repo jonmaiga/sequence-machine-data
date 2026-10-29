@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that when n unit-diameter circles are arranged non-overlapping in the plane, and those circles are then enclosed in a rectangle, the area of the rectangle must be at least n.",
+  "description": "Numbers k such that when k unit-diameter circles are arranged non-overlapping in the plane, and those circles are then enclosed in a rectangle, the area of the rectangle must be at least k.",
   "id": "A247397",
-  "mentions": [],
+  "mentions": [
+    "A084616"
+  ],
   "tags": [
     "fini",
     "full",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = chi_{n,-1}(-1), where chi_{n,-1} is the Dirichlet character modulo n with label -1 in the Conrey labeling system.",
+  "id": "A400531",
+  "mentions": [
+    "A400587",
+    "A400588"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Indices of the perfect powers (A001597) in the sequence of powerful numbers (A001694).",
+  "id": "A399523",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A090699",
+    "A217038",
+    "A361936",
+    "A371185",
+    "A371186",
+    "A399522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

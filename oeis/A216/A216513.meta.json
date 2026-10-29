@@ -2,9 +2,24 @@
   "description": "Number of nonnegative integer solutions to the equation x^2 + 6*y^2 = n.",
   "id": "A216513",
   "mentions": [
-    "A002481"
+    "A000007",
+    "A000925",
+    "A002481",
+    "A010052",
+    "A046113",
+    "A119395",
+    "A216282",
+    "A216283",
+    "A216510",
+    "A216512",
+    "A399197",
+    "A399266",
+    "A399270",
+    "A399278"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

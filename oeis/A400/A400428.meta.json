@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [n] such that all distinct block sizes have the same multiplicity.",
+  "id": "A400428",
+  "mentions": [
+    "A398142"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

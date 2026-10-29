@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{0<=i",
+  "description": "a(n) = Sum_{0<=i<j<=n}L(i)*L(j), where L(k)=A000032(k) is the k-th Lucas number.",
   "id": "A242300",
   "mentions": [
     "A000032",

@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers k for which the sum of digits equals the product of digits in at least one base b from 4 to floor(sqrt(k)).",
+  "id": "A400667",
+  "mentions": [
+    "A034710"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

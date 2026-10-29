@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist two integers 0",
+  "description": "Integers x such that there exist two integers 0<y<=z such that psi(x)^3 = x^3 + y^3 + z^3.",
   "id": "A391290",
   "mentions": [
     "A001615",

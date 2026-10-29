@@ -2,7 +2,6 @@
   "description": "Numbers k such that cos(k) > cos(k+1) < cos(k+2).",
   "id": "A246304",
   "mentions": [
-    "A026303",
     "A026311",
     "A246303",
     "A246305",

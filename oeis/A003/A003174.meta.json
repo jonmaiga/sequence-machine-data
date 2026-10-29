@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers D such that Q[sqrt(D)] is a quadratic field which is norm-Euclidean.",
+  "description": "Positive squarefree integers D such that Q[sqrt(D)] is a quadratic field which is norm-Euclidean.",
   "id": "A003174",
   "mentions": [
     "A000924",

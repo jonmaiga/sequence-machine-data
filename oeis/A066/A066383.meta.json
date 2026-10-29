@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} C(n*(n+1)/2,k).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n*(n+1)/2,k).",
   "id": "A066383",
   "mentions": [
     "A000085",

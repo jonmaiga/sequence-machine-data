@@ -1,0 +1,32 @@
+{
+  "description": "The number of divisors of n that are prime powers (A246655) whose number of divisors is a power of 2.",
+  "id": "A401241",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000523",
+    "A001221",
+    "A036537",
+    "A064380",
+    "A069513",
+    "A077761",
+    "A176509",
+    "A209229",
+    "A246655",
+    "A359473",
+    "A372380",
+    "A372502",
+    "A375272",
+    "A385378"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

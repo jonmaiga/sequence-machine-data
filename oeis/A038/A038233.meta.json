@@ -2,6 +2,8 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*3^j.",
   "id": "A038233",
   "mentions": [
+    "A000244",
+    "A000302",
     "A038207",
     "A038285"
   ],

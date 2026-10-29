@@ -1,0 +1,20 @@
+{
+  "description": "Last terms of the record runs of consecutive numbers all with repeated digits shown in A398513 and A398514.",
+  "id": "A398515",
+  "mentions": [
+    "A398512",
+    "A398513",
+    "A398514"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

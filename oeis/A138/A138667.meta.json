@@ -1,5 +1,5 @@
 {
-  "description": "Values of x in solutions (x,y,z) to the Diophantine equation x^3-x^2+y^3-y^2=z^3-z^2, with 1",
+  "description": "Values of x in solutions (x,y,z) to the Diophantine equation x^3-x^2+y^3-y^2=z^3-z^2, with 1<x<y<z.",
   "id": "A138667",
   "mentions": [
     "A045991",

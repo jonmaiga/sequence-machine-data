@@ -1,0 +1,16 @@
+{
+  "description": "Number of set partitions of [n] into subsets whose element sums are primes.",
+  "id": "A398349",
+  "mentions": [
+    "A000040",
+    "A399244"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

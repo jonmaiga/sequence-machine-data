@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 20-element Frobenius group Frob20 = .",
+  "description": "Cogrowth sequence of the 20-element Frobenius group Frob20 = <S,T | S^5, T^4, (ST)^4>.",
   "id": "A378278",
   "mentions": [
     "A078789",

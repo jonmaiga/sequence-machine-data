@@ -1,9 +1,10 @@
 {
-  "description": "Semiprimes pq with pq - 1 divisible by p + q.",
+  "description": "Semiprimes p*q with p*q - 1 divisible by p + q.",
   "id": "A164643",
   "mentions": [
     "A000058",
-    "A001358"
+    "A001358",
+    "A225150"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,24 @@
+{
+  "description": "Number of nonnegative integer solutions to the equation x^2 + 9*y^2 = n.",
+  "id": "A399270",
+  "mentions": [
+    "A000925",
+    "A119395",
+    "A216282",
+    "A216283",
+    "A216512",
+    "A216513",
+    "A399197",
+    "A399266"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

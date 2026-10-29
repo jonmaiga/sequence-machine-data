@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f.: Sum_{n>=0} Product_{k=1..n} (exp((2*k-1)*x) - 1).",
   "id": "A215066",
   "mentions": [
+    "A002114",
     "A053250",
     "A158690",
     "A207569",

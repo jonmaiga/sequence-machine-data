@@ -1,40 +1,46 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
-import Seq.B000.C022
+import Seq.B000.C011
+import Seq.B000.C014
+import Seq.B000.C015
+import Seq.B000.C025
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B002.C000
+import Seq.B001.C002
+import Seq.B001.C007
+import Seq.B002.C003
+import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C006
+import Seq.Opaque.C005
 import Seq.Opaque.C008
-import Seq.Opaque.C010
+import Seq.Opaque.C009
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A172603: a(n) = (7n)!/(7!^n).
@@ -297,7 +303,7 @@ end A172623.P16884069370344365641
 /-!
 # A172624: Numbers k such that 2*A000005(k) = 3*A000005(k+1).
 
-The programs for A172624, the canonical program `A172624.P1675348428344907413` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172624 has offset 1).
+The programs for A172624, the canonical program `A172624.P1675348428344907413` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172624 has offset 1).
 
 The definition of A172624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -306,7 +312,7 @@ The definition of A172624 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A145154(n)/A062011(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A172624
@@ -347,6 +353,12 @@ namespace A172624
 /-- `eq[6, A145154(n)/A000005(n+1)]` -/
 def P7308463696132315652.Spec : Prop :=
   ∀ n, (P7308463696132315652.a n : ℤ) = A172624 (n + 1)
+
+theorem P7308463696132315652.correct : P7308463696132315652.Spec := by
+  intro n
+  simp only [A172624, Nat.add_sub_cancel, A172624.P7308463696132315652.f1, A172624.P7308463696132315652.f2, A172624.P7308463696132315652.a, A172624.P1675348428344907413.f1, A172624.P1675348428344907413.f2, A172624.P1675348428344907413.a, A000005, A000005.P16091521709108585461.a, A062011, A062011.P17525320077853469406.a, A145154, A145154.P3148683332276423765.f1, A145154.P3148683332276423765.f2, A145154.P3148683332276423765.a, A007504, A007504.P14310834286015847203.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A014284, A014284.P18183547548072881472.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A172624
 
@@ -474,8 +486,29 @@ end A172631.P14661258562380563375
 /-!
 # A172634: Number of n X 3 0..2 arrays with row sums 3 and column sums n.
 
-The programs for A172634, there is no canonical definition to state claims against.
+The programs for A172634, the canonical program `A172634.P5672896076105477540` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172634 has offset 0).
+
+The definition of A172634 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A172634.P5672896076105477540
+
+`∑{#}[n, (-1)^(n+#)*C(n, #)*A000172(#)]`
+
+The canonical program, it is in `Seq.B001.C007`.
+-/
+
+namespace A172634
+
+/-- `∑{#}[n, (-1)^(n+#)*C(n, #)*A000172(#)]` -/
+def P5672896076105477540.Spec : Prop :=
+  ∀ n, P5672896076105477540.a n = A172634 n
+
+theorem P5672896076105477540.correct : P5672896076105477540.Spec := by
+  intro n
+  simp only [A172634]
+
+end A172634
 
 /-! ## A172634.P7301987077146038950
 
@@ -495,6 +528,14 @@ end
 
 end A172634.P7301987077146038950
 
+namespace A172634
+
+/-- `A328747(∑[n+3]+n+3)` -/
+def P7301987077146038950.Spec : Prop :=
+  ∀ n, P7301987077146038950.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P465997798114747283
 
 `A334549(∑[n+3]+6)`
@@ -513,6 +554,14 @@ end
 
 end A172634.P465997798114747283
 
+namespace A172634
+
+/-- `A334549(∑[n+3]+6)` -/
+def P465997798114747283.Spec : Prop :=
+  ∀ n, P465997798114747283.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P13827262061327713854
 
 `or(1, A334549(A046691(n+2)))`
@@ -528,6 +577,14 @@ end
 
 end A172634.P13827262061327713854
 
+namespace A172634
+
+/-- `or(1, A334549(A046691(n+2)))` -/
+def P13827262061327713854.Spec : Prop :=
+  ∀ n, P13827262061327713854.a n = A172634 n
+
+end A172634
+
 /-! ## A172634.P16810687112918553633
 
 `A275122(A081435(n))`
@@ -542,6 +599,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172634.P16810687112918553633
+
+namespace A172634
+
+/-- `A275122(A081435(n))` -/
+def P16810687112918553633.Spec : Prop :=
+  ∀ n, P16810687112918553633.a n = A172634 n
+
+end A172634
 
 /-!
 # A172636: Number of n X 7 0..2 arrays with row sums 7 and column sums n.

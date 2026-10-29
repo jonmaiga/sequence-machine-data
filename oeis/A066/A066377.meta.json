@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers m <= n such that floor(sqrt(m)) divides m.",
+  "description": "Sum of the first n numbers k such that floor(sqrt(k)) divides k.",
   "id": "A066377",
   "mentions": [
     "A006446"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
+    "size": 53,
     "source": "joeis"
   }
 }

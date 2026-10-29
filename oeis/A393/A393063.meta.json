@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A276085(LCM_{d|n, d",
+  "description": "a(n) = A276085(LCM_{d|n, d<n} A276086(d)), where LCM is the least common multiple, A276086 is the primorial base exp-function, and A276085 is its left inverse.",
   "id": "A393063",
   "mentions": [
     "A276085",

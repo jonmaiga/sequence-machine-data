@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that cos(k) > cos(k+1) > cos(k+2) > cos(k+3) > cos(k+4).",
+  "id": "A398486",
+  "mentions": [
+    "A026311",
+    "A246303",
+    "A246304",
+    "A246305",
+    "A246306"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

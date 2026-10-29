@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5 applications of \"Reverse and Subtract\" lead to n, whereas fewer than 5 applications do not lead to n.",
+  "description": "Numbers k such that 5 applications of \"Reverse and Subtract\" lead to k, whereas fewer than 5 applications do not lead to k.",
   "id": "A292635",
   "mentions": [
     "A072142",
@@ -17,12 +17,11 @@
   "tags": [
     "base",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

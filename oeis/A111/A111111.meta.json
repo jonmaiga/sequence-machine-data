@@ -2,6 +2,7 @@
   "description": "Number of simple permutations of degree n.",
   "id": "A111111",
   "mentions": [
+    "A000142",
     "A059372",
     "A280780",
     "A280781"
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

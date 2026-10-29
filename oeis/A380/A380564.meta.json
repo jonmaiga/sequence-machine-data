@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows q(b1,b2) with 1",
+  "description": "Triangle read by rows q(b1,b2) with 1<b1<b2 with q(b1,b2) being the least integer k equal to or greater than b1 such that all the digits of k read in base b2 are the beginning digits of k read in base b1; or 0 iff b2 is perfect power, m^k (A001597), and b1 is m^j, 0<j<k.",
   "id": "A380564",
   "mentions": [
     "A001597",

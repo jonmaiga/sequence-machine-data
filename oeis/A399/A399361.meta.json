@@ -1,0 +1,17 @@
+{
+  "description": "The number of 3-connected cubic planar graphs on 2n-4 vertices that can be strongly embedded on the projective plane.",
+  "id": "A399361",
+  "mentions": [
+    "A399362",
+    "A399363"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

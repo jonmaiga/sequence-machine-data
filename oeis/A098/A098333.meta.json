@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/sqrt(1 - 2x + 13x^2).",
+  "description": "Expansion of 1/sqrt(1 - 2*x + 13*x^2).",
   "id": "A098333",
   "mentions": [
     "A012000",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

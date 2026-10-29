@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, Lah numbers of order 3, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+((n-1)^3+k^3)*T(n-1, k), for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows, Lah numbers of order 3, T(n,n) = 1, T(n,k) = 0 if k<0 or k>n, otherwise T(n,k) = T(n-1,k-1)+((n-1)^3+k^3)*T(n-1, k), for n>=0 and 0<=k<=n.",
   "id": "A269946",
   "mentions": [
     "A038207",

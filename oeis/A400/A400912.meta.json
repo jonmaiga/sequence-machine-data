@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n into parts of the form Fibonacci(k) - 1, k >= 3.",
+  "id": "A400912",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A076739",
+    "A357451"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.",
+  "description": "a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1), for n >= 4.",
   "id": "A050058",
   "mentions": [
     "A050034"

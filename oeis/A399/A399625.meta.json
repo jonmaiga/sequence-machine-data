@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent ways (up to rotations and reflections of the board) to place 2 pawns on an n X n board such that n+2 nonattacking queens can be placed on the remaining squares.",
+  "id": "A399625",
+  "mentions": [
+    "A103330",
+    "A129551",
+    "A129552",
+    "A129553",
+    "A399501"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

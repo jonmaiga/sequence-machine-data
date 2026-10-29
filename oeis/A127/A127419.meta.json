@@ -2,6 +2,7 @@
   "description": "Recurrence: a(n) = a(n-1) + floor( (sqrt(8 * a(n-1) - 7) - 1)/2 ) for n>=2 with a(0)=1, a(1)=2.",
   "id": "A127419",
   "mentions": [
+    "A007664",
     "A103354"
   ],
   "tags": [

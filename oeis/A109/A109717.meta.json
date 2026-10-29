@@ -1,15 +1,24 @@
 {
   "description": "Number of unlabeled graphs with n nodes and an invertible adjacency matrix.",
   "id": "A109717",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A004110",
+    "A103869",
+    "A133206",
+    "A133279",
+    "A140981",
+    "A141040"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

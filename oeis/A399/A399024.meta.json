@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the exponential growth rate of A396406.",
+  "id": "A399024",
+  "mentions": [
+    "A396406"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

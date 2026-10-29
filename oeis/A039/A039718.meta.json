@@ -3,13 +3,15 @@
   "id": "A039718",
   "mentions": [],
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence transform of A300834, product_{d|n, d",
+  "description": "Restricted growth sequence transform of A300834, product_{d|n, d<n} A019565(A003714(d)); Filter sequence related to Zeckendorf-representations of proper divisors of n.",
   "id": "A300835",
   "mentions": [
     "A001065",

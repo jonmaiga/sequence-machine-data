@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * O(k)/(k*(k+1))^2, where O(k) = A350669(k)/A350670(k) is the k-th odd harmonic number (or harmonic number of the second kind).",
+  "id": "A399650",
+  "mentions": [
+    "A002162",
+    "A013661",
+    "A350669",
+    "A350670",
+    "A399649",
+    "A399652",
+    "A399653"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

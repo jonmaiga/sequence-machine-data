@@ -1,0 +1,23 @@
+{
+  "description": "Number of unordered 3-element sets of partitions summing to n.",
+  "id": "A400782",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A061260",
+    "A281357",
+    "A400783",
+    "A400784",
+    "A400790"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

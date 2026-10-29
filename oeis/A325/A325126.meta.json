@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) = -Sum_{d|n, d",
+  "description": "a(1) = 1; a(n) = -Sum_{d|n, d<n} rad(n/d) * a(d), where rad = A007947.",
   "id": "A325126",
   "mentions": [
     "A007947",

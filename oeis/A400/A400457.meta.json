@@ -1,0 +1,23 @@
+{
+  "description": "Number of fixed polyforms with n cells in the honeycomb of the 11-faced Voronoi cell of the point (0, 0, 1/4) under space group I-43d (No. 220).",
+  "id": "A400457",
+  "mentions": [
+    "A385028",
+    "A397707",
+    "A397709",
+    "A398957",
+    "A398958",
+    "A398959",
+    "A400458",
+    "A400459"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

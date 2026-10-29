@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.",
+  "description": "Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.",
   "id": "A194685",
   "mentions": [
     "A194683",

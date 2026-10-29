@@ -1,10 +1,11 @@
 {
-  "description": "One-half the sum of the first 2n + 1 primes.",
+  "description": "One-half the sum of the first 2*n + 1 primes.",
   "id": "A321178",
   "mentions": [
     "A000040",
     "A001223",
     "A007504",
+    "A058296",
     "A109723"
   ],
   "tags": [

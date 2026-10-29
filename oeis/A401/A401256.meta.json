@@ -1,0 +1,27 @@
+{
+  "description": "Number of fixed polyforms with n cells in the honeycomb of the 11-faced Voronoi cell of the point (1/12, 3/8, 3/8) under space group Pn-3m (No. 224, origin choice 1).",
+  "id": "A401256",
+  "mentions": [
+    "A385028",
+    "A397707",
+    "A397709",
+    "A398957",
+    "A398958",
+    "A398959",
+    "A400457",
+    "A400461",
+    "A401255",
+    "A401257",
+    "A401258"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

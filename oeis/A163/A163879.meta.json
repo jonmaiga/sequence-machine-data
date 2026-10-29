@@ -1,13 +1,18 @@
 {
   "description": "Number of nXnXn triangular binary arrays with all 1s connected, and a path of 1s from peak vertex to anywhere on the bottom side.",
   "id": "A163879",
-  "mentions": [],
+  "mentions": [
+    "A163011",
+    "A163880",
+    "A163881",
+    "A288722"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

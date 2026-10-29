@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{i=0..n-k} binomial(n,i)*|Stirling1(n-i,k)|*k^i, for n >= 0 and 0 <= k <= n.",
+  "id": "A399383",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A000522",
+    "A001008",
+    "A002104",
+    "A002805",
+    "A009198",
+    "A030019",
+    "A045943",
+    "A052888",
+    "A132393",
+    "A191365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of length n over the 12 Quarter Turn Metric (QTM) generators {U,D,L,R,F,B,U',D',L',R',F',B'} whose product in the Rubik's Cube group has the maximum order among all words of that length.",
+  "id": "A398895",
+  "mentions": [
+    "A338883",
+    "A398318",
+    "A398896"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

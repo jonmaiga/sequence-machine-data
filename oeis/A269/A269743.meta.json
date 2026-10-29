@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of generalized Eulerian numbers T(n,k) = _3 read by rows, n >= 1, 0 <= k <= 3*(n-1).",
+  "description": "Triangle of generalized Eulerian numbers T(n,k) = <n,k>_3 read by rows, n >= 1, 0 <= k <= 3*(n-1).",
   "id": "A269743",
   "mentions": [
     "A000012",

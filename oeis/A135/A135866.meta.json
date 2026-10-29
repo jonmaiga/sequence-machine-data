@@ -1,16 +1,17 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + x*A(9x)^(1/3).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(9*x)^(1/3).",
   "id": "A135866",
   "mentions": [
     "A135863",
     "A135864"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

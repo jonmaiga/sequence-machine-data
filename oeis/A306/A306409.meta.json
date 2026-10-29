@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -Sum_{0<=i",
+  "description": "a(n) = -Sum_{0<=i<j<=n} (-1)^(i+j) * (i+j)!/(i!*j!).",
   "id": "A306409",
   "mentions": [
     "A000108",

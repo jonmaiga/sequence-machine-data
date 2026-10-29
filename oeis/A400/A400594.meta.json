@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of items among which exactly two defectives can always be identified in at most n adaptive tests, each returning the number of defectives in a selected subset.",
+  "id": "A400594",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000325",
+    "A132824",
+    "A400595",
+    "A400600"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

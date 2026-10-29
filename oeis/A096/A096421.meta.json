@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; for n > 1, a(n) = Sum_{1<=j",
+  "description": "a(1)=1; for n > 1, a(n) = Sum_{1<=j<n, gcd(j,n)=1} a(j)*a(n-j).",
   "id": "A096421",
   "mentions": [
     "A097365",

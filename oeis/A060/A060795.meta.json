@@ -1,5 +1,5 @@
 {
-  "description": "Write product of first n primes as x*y with x",
+  "description": "Write product of first n primes as x*y with x<y and x maximal; sequence gives value of x.",
   "id": "A060795",
   "mentions": [
     "A000196",

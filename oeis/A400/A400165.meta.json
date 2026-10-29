@@ -1,0 +1,22 @@
+{
+  "description": "The largest prime dividing A380459(n), with a(1) = 1 by convention.",
+  "id": "A400165",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A235224",
+    "A246655",
+    "A380459",
+    "A400164"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Sum_{n>=0} a(n) * x^n / (n!)^2 = exp(Si(x)), where Si(x) = Integral_{t=0..x} sin(t) / t dt.",
+  "id": "A400224",
+  "mentions": [
+    "A002017",
+    "A061079"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

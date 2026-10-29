@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5p - 2q where p and q are successive primes (p",
+  "description": "Primes of the form 5p - 2q where p and q are successive primes (p<q) ordered by increasing p.",
   "id": "A098973",
   "mentions": [],
   "tags": [

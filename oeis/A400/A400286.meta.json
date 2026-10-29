@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the maximum cardinality of an antichain in {sigma(d) : d divides n}, ordered by divisibility.",
+  "id": "A400286",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A096825",
+    "A096826",
+    "A173439",
+    "A184395",
+    "A206028",
+    "A206030",
+    "A285573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

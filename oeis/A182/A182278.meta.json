@@ -1,5 +1,5 @@
 {
-  "description": "Indices n such that A068869(n)",
+  "description": "Indices n such that A068869(n)<A068869(n-1).",
   "id": "A182278",
   "mentions": [
     "A068869"

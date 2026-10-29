@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of n and the largest prime",
+  "description": "Numbers n such that the sum of n and the largest prime<n (A151799(n)) is prime.",
   "id": "A249666",
   "mentions": [
     "A151799",

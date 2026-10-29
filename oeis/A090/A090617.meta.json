@@ -7,16 +7,18 @@
     "A054861",
     "A054896",
     "A090616",
+    "A090621",
     "A090622",
     "A244413"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

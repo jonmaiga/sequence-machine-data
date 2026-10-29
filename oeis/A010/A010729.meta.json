@@ -2,7 +2,8 @@
   "description": "a(n) = 8 - (-1)^n.",
   "id": "A010729",
   "mentions": [
-    "A173512"
+    "A173512",
+    "A176442"
   ],
   "tags": [
     "easy",

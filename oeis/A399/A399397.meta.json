@@ -1,0 +1,19 @@
+{
+  "description": "Initial terms of rows of A382747 that contain no 0's, i.e., primitive elements of full rank in the greedy convolution of length 4.",
+  "id": "A399397",
+  "mentions": [
+    "A382747",
+    "A382748",
+    "A382749",
+    "A399395",
+    "A399396"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

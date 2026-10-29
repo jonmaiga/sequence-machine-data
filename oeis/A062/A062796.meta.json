@@ -2,8 +2,10 @@
   "description": "Inverse Moebius transform of f(n) = n^n (A000312).",
   "id": "A062796",
   "mentions": [
+    "A000203",
     "A000312",
-    "A023879"
+    "A023879",
+    "A028982"
   ],
   "tags": [
     "formulas",

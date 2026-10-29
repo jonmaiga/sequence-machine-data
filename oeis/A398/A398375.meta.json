@@ -1,0 +1,28 @@
+{
+  "description": "Numbers divisible by the square of their second smallest distinct prime factor.",
+  "id": "A398375",
+  "mentions": [
+    "A024619",
+    "A070003",
+    "A119288",
+    "A124010",
+    "A283050",
+    "A286708",
+    "A351563",
+    "A375397",
+    "A398442",
+    "A398444",
+    "A398802",
+    "A400773"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,12 @@
 {
-  "description": "a(n) is the denominator of the maximum expected number of steps of a random walk on the square lattice until it lands on a mined lattice point, given that mines are placed on all but n points.",
+  "description": "a(n) is the denominator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyomino island.",
   "id": "A366999",
   "mentions": [
+    "A000105",
     "A366998",
     "A369369",
-    "A369371"
+    "A369371",
+    "A397796"
   ],
   "tags": [
     "frac",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered n-edge multihypergraphs on n labeled vertices with no isolated vertex and with at least one vertex contained in every edge.",
+  "id": "A399619",
+  "mentions": [
+    "A055601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

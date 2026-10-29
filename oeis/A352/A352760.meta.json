@@ -1,5 +1,5 @@
 {
-  "description": "Lexigraphically earliest sequence of distinct nonnegative integers such that for any n >= 0, among the ternary digits of n and a(n) (counted with multiplicity) there are as many 1's as 2's.",
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, among the ternary digits of n and a(n) (counted with multiplicity) there are as many 1's as 2's.",
   "id": "A352760",
   "mentions": [
     "A004488",

@@ -1,8 +1,13 @@
 {
-  "description": "6th Fibonacci polynomial evaluated at x=n!.",
+  "description": "Sixth Fibonacci polynomial evaluated at x=n!.",
   "id": "A020552",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A020549"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

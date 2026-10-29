@@ -1,0 +1,21 @@
+{
+  "description": "Starts of runs of 8 consecutive odd numbers that are all squarefree.",
+  "id": "A398951",
+  "mentions": [
+    "A005117",
+    "A007675",
+    "A056911",
+    "A069977",
+    "A398950"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

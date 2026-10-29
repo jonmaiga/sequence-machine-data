@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct terminal state loops of Rule 30 cellular automaton in a cyclic universe of width n.",
+  "id": "A399055",
+  "mentions": [
+    "A334496",
+    "A334497"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

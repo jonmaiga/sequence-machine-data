@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = mu(n^2 + 3).",
+  "id": "A400695",
+  "mentions": [
+    "A008683",
+    "A117950",
+    "A400694",
+    "A400697"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

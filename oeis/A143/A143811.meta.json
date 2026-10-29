@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers k",
+  "description": "Number of numbers k<p such that k^(p-1)-1 is divisible by p^2, p = prime(n).",
   "id": "A143811",
   "mentions": [
     "A134307",

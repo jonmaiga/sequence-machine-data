@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that x' = n has no integer solution, where x' is the arithmetic derivative of x.",
+  "description": "Numbers k such that x' = k has no integer solution, where x' is the arithmetic derivative of x.",
   "id": "A098700",
   "mentions": [
     "A002620",

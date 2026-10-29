@@ -1,0 +1,20 @@
+{
+  "description": "Number of P-partitions of n where P is the labeled poset defined by a covers b if A360010(a) > A360010(b).",
+  "id": "A397781",
+  "mentions": [
+    "A000009",
+    "A000293",
+    "A056556",
+    "A360010",
+    "A398428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

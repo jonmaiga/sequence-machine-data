@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = sum_{0<=j<=k/2} A034867(k,j)*prime(n)^j, read by rows, 0<=k",
+  "description": "Triangle T(n,k) = sum_{0<=j<=k/2} A034867(k,j)*prime(n)^j, read by rows, 0<=k<n.",
   "id": "A140894",
   "mentions": [
     "A034867",

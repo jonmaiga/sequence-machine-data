@@ -2,16 +2,19 @@
   "description": "Number of quasitransitive relations on n labeled nodes.",
   "id": "A347914",
   "mentions": [
+    "A000112",
+    "A001035",
     "A006905"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

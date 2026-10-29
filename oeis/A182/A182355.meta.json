@@ -1,5 +1,5 @@
 {
-  "description": "Table of triangular arguments such that if A002262(14*k) = \"r\" then the product A182441(k,i + 1) *A182441(k,i + 2) equals \"r\" + a(k,i)*(a(k,i) + 1)/2 for i3.",
+  "description": "Table of triangular arguments such that if A002262(14*k) = \"r\" then the product A182441(k,i + 1) *A182441(k,i + 2) equals \"r\" + a(k,i)*(a(k,i) + 1)/2 for i<4, while a(k,i) = 0 for i>3.",
   "id": "A182355",
   "mentions": [
     "A002262",

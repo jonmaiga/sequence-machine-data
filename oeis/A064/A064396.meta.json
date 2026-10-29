@@ -1,8 +1,12 @@
 {
   "description": "Primes p for which the exponent of the highest power of 2 dividing p! is equal to prevprime(prevprime(p)).",
   "id": "A064396",
-  "mentions": [],
+  "mentions": [
+    "A011371",
+    "A151799"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

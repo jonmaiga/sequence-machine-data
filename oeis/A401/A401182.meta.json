@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of k-cliques in all simple connected labeled graphs on n vertices.",
+  "id": "A401182",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A053549",
+    "A058877",
+    "A094594",
+    "A277219",
+    "A401180",
+    "A401181"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

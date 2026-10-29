@@ -6,22 +6,31 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -31,30 +40,31 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +90,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A015100: Carlitz-Riordan q-Catalan numbers (recurrence version) for q=-5.
@@ -606,30 +615,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015103.P6703213240805541591
-
-/-!
-# A015104: Inverse of 1095th cyclotomic polynomial.
-
-The programs for A015104, there is no canonical definition to state claims against.
--/
-
-/-! ## A015104.P14562911468263171146
-
-`∑{e}[A386036(3*n+1), #]*A015254(n)`
--/
-
-namespace A015104.P14562911468263171146
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386036 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ) * A015254 n
-
-end
-
-end A015104.P14562911468263171146
 
 /-!
 # A015105: Carlitz-Riordan q-Catalan numbers (recurrence version) for q=-8.
@@ -1564,6 +1549,21 @@ end
 
 end A015120.P9636039829047586879
 
+/-! ## A015120.P8420189789268325635
+
+`A086299(n²)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A015120.P8420189789268325635
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A086299 (n ^ 2) * a (n - 1)
+
+end
+
+end A015120.P8420189789268325635
+
 /-! ## A015120.P8793917500583048897
 
 `A019590(∑[A341022(n)])`
@@ -1840,6 +1840,21 @@ end
 
 end A015122.P5870024684335481484
 
+/-! ## A015122.P6618845696739333572
+
+`A003415(A069681(n+1))*A015668(n)`
+-/
+
+namespace A015122.P6618845696739333572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003415 (A069681 (n + 1)).toNat * A015668 n
+
+end
+
+end A015122.P6618845696739333572
+
 /-! ## A015122.P2070557846230380677
 
 `A016202(A171596(n))`
@@ -1869,21 +1884,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015122.P6932995022554216230
-
-/-! ## A015122.P15211078822258247373
-
-`A015248(n)%A157439(n)`
--/
-
-namespace A015122.P15211078822258247373
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A015248 n) (A157439 n)
-
-end
-
-end A015122.P15211078822258247373
 
 /-!
 # A015123: Triangle of q-binomial coefficients for q=-10.
@@ -3031,24 +3031,6 @@ end
 
 end A015130.P2445962933383376961
 
-/-! ## A015130.P2218352725866875116
-
-`A127243(∑[A328981(n+1)]²)`
--/
-
-namespace A015130.P2218352725866875116
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328981 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127243 ((∑ j ∈ Finset.range (n + 1), f1 j) ^ 2).toNat
-
-end
-
-end A015130.P2218352725866875116
-
 /-! ## A015130.P9836995643712701213
 
 `A121373(∑[A212619(2*(n+2))]²)`
@@ -3802,24 +3784,6 @@ end
 
 end A015142.P5870551381447842463
 
-/-! ## A015142.P4155360354790320846
-
-`∏{p}[A326524(n), A373976(#)]`
--/
-
-namespace A015142.P4155360354790320846
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326524 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A373976 p
-
-end
-
-end A015142.P4155360354790320846
-
 /-! ## A015142.P433271822790976834
 
 `C(2, A268395(A248782(n+1)))`
@@ -4193,6 +4157,21 @@ end
 
 end A015153.P17027862204597381422
 
+/-! ## A015153.P16245567841706930981
+
+`A014581(A186813(n))`
+-/
+
+namespace A015153.P16245567841706930981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014581 (A186813 n).toNat
+
+end
+
+end A015153.P16245567841706930981
+
 /-! ## A015153.P12131298710655524427
 
 `A014581(A057979(n+1))`
@@ -4222,6 +4201,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015153.P13438899426219221797
+
+/-! ## A015153.P16277336989581724188
+
+`A014581(A174239(n+1))`
+-/
+
+namespace A015153.P16277336989581724188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014581 (A174239 (n + 1)).toNat
+
+end
+
+end A015153.P16277336989581724188
 
 /-!
 # A015154: Sum of (Gaussian) q-binomial coefficients for q=-3.
@@ -4315,21 +4309,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015156.P14853070188819301037
-
-/-! ## A015156.P17172003436603189774
-
-`A015936(A335433(n+1))`
--/
-
-namespace A015156.P17172003436603189774
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015936 (A335433 (n + 1)).toNat
-
-end
-
-end A015156.P17172003436603189774
 
 /-! ## A015156.P14873250542744911084
 
@@ -5786,6 +5765,21 @@ end
 
 end A015175.P12071894579641724469
 
+/-! ## A015175.P11219839138973429876
+
+`A003415(A069681(n+1))*A015615(n)`
+-/
+
+namespace A015175.P11219839138973429876
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003415 (A069681 (n + 1)).toNat * A015615 n
+
+end
+
+end A015175.P11219839138973429876
+
 /-! ## A015175.P352937214036507402
 
 `A015751(lt[A136252(n+4), A283477(n+2)])`
@@ -6119,6 +6113,21 @@ end A015179.P809931123706767121
 The programs for A015182, there is no canonical definition to state claims against.
 -/
 
+/-! ## A015182.P16946052910514719977
+
+`A016100(n)-A016124(A174159(n+1))`
+-/
+
+namespace A015182.P16946052910514719977
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016100 n - A016124 (A174159 (n + 1)).toNat
+
+end
+
+end A015182.P16946052910514719977
+
 /-! ## A015182.P14376877684713863247
 
 `A016010(A004917(n+1))`
@@ -6184,27 +6193,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015182.P4412244462941898166
-
-/-! ## A015182.P4108373121974189322
-
-`A049347(lt[A248982(n+1), A051062(3*n+1)])`
--/
-
-namespace A015182.P4108373121974189322
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A248982 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051062 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049347 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A015182.P4108373121974189322
 
 /-!
 # A015186: Inverse of 1177th cyclotomic polynomial.
@@ -6472,7 +6460,7 @@ end A015194.P13999289051253911034
 /-!
 # A015195: Sum of Gaussian binomial coefficients for q=9.
 
-The programs for A015195, the canonical program `A015195.P2569711752939892422` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015195 has offset 0).
+The programs for A015195, the canonical program `A015195.P2569711752939892422` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015195 has offset 0).
 
 The definition of A015195 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6481,7 +6469,7 @@ The definition of A015195 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+(9^(n-1)-1)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A015195
@@ -6495,7 +6483,7 @@ end A015195
 /-!
 # A015196: Sum of Gaussian binomial coefficients for q=10.
 
-The programs for A015196, the canonical program `A015196.P5794910707825965742` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015196 has offset 0).
+The programs for A015196, the canonical program `A015196.P5794910707825965742` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015196 has offset 0).
 
 The definition of A015196 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6504,7 +6492,7 @@ The definition of A015196 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+(10^(n-1)-1)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A015196
@@ -6518,7 +6506,7 @@ end A015196
 /-!
 # A015197: Sum of Gaussian binomial coefficients for q=11.
 
-The programs for A015197, the canonical program `A015197.P12984991222081966108` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015197 has offset 0).
+The programs for A015197, the canonical program `A015197.P12984991222081966108` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015197 has offset 0).
 
 The definition of A015197 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6527,7 +6515,7 @@ The definition of A015197 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+(11^(n-1)-1)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A015197
@@ -6587,25 +6575,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015198.P17354017120465476704
-
-/-! ## A015198.P6850174689066294056
-
-`A015970(comp[A324694(3*n+5)]+1)`
--/
-
-namespace A015198.P6850174689066294056
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324694 (3 * n + 5)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015970 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A015198.P6850174689066294056
 
 /-! ## A015198.P15969158934378161699
 

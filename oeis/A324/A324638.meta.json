@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [2n] such that n is the maximum of 0 and the number of elements in any integer interval [p(i)..i+2n*[i",
+  "description": "Number of permutations p of [2n] such that n is the maximum of 0 and the number of elements in any integer interval [p(i)..i+2n*[i<p(i)]].",
   "id": "A324638",
   "mentions": [
     "A324563",

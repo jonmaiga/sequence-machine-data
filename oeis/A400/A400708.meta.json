@@ -1,0 +1,16 @@
+{
+  "description": "Number of adjacent and contiguous buildings that can be seen from a flagpole of height n placed just left of the City Buildings shown in sequence A400000 (see Comments for precise definition).",
+  "id": "A400708",
+  "mentions": [
+    "A400000",
+    "A400709"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

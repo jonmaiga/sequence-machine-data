@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,1)=T(n,n)=n, for 1",
+  "description": "Triangular array: T(n,1)=T(n,n)=n, for 1<k<n: T(n,k) = concatenation of T(n-1,k-1) and T(n-1,k) in binary representation.",
   "id": "A079661",
   "mentions": [],
   "tags": [

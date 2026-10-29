@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Card(k, 0",
+  "description": "a(n) = Card(k, 0<k<n such that phi(k) divides phi(n-k)).",
   "id": "A070547",
   "mentions": [
     "A000010"

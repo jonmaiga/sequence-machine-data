@@ -2,52 +2,56 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C013
-import Seq.B000.C019
+import Seq.B000.C011
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B001.C000
-import Seq.B001.C003
-import Seq.B001.C009
+import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B005.C001
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -61,7 +65,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
 
 /-!
 # A177500: Divisors of 8064.
@@ -147,19 +150,19 @@ end
 
 end A177500.P2615739947969059688
 
-/-! ## A177500.P2147860942123478382
+/-! ## A177500.P13451390645479679153
 
-`∩[A108319(n+1), A333762(n+1)]`
+`∩[A295235(n+1), A356955(n+1)]`
 -/
 
-namespace A177500.P2147860942123478382
+namespace A177500.P13451390645479679153
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108319 (n + 1)
+  A295235 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333762 (n + 1)
+  A356955 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -167,7 +170,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A177500.P2147860942123478382
+end A177500.P13451390645479679153
 
 /-!
 # A177501: The number of entries in row n of table A174625 which are multiples of n.
@@ -721,23 +724,20 @@ end A177512.P16832368102846646480
 The programs for A177513, there is no canonical definition to state claims against.
 -/
 
-/-! ## A177513.P5706618849460691724
+/-! ## A177513.P12840421594124332499
 
-`p?[A375261(n+2)]`
+`A133554(A222776(n+1))`
 -/
 
-namespace A177513.P5706618849460691724
+namespace A177513.P12840421594124332499
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375261 (n + 2)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+  A133554 (A222776 (n + 1)).toNat
 
 end
 
-end A177513.P5706618849460691724
+end A177513.P12840421594124332499
 
 /-!
 # A177516: Odd numbers m = p*q such that p and q are distinct primes and (p-1) divides (q-1).
@@ -2045,24 +2045,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A177525.P8529337806304982405
-
-/-! ## A177525.P18417709731917330294
-
-`filter[A177532(n), A105597(#)]`
--/
-
-namespace A177525.P18417709731917330294
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177532 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A177525.P18417709731917330294
 
 /-!
 # A177526: Number of permutations of {1,...,n} avoiding adjacent step pattern up, down, down, up, down.

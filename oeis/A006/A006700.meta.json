@@ -1,5 +1,5 @@
 {
-  "description": "T(n,3,1), where T(n,k,s) with 0<=s=0 such that b_0,...,b_i contain at most k elements equal to b_i.",
+  "description": "T(n,3,1), where T(n,k,s) with 0<=s<n is the number of sequences a_1,...,a_(k*n+s) of integers 0,1,...,n such that the 'bumped' sequence b_1,...,b_(k*n+s) has exactly s n's, where b_i=a_i + j (mod n+1) with minimal j>=0 such that b_0,...,b_i contain at most k elements equal to b_i.",
   "id": "A006700",
   "mentions": [
     "A006698",

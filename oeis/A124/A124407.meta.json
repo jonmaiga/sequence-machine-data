@@ -1,5 +1,5 @@
 {
-  "description": "For n >= 1, 1 = Sum_{n/2<=k",
+  "description": "For n >= 1, 1 = Sum_{n/2<=k<n, gcd(k,n)=1} a(k).",
   "id": "A124407",
   "mentions": [
     "A124406"

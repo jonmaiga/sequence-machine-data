@@ -8,13 +8,12 @@
     "A129912"
   ],
   "tags": [
-    "hard",
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

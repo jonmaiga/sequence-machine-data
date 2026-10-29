@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that exp(n) has a smaller relative error abs(exp(n)/m!-1) in approximating the closest factorial m!>1 than exp(k) for any k with 1",
+  "description": "Numbers n such that exp(n) has a smaller relative error abs(exp(n)/m!-1) in approximating the closest factorial m!>1 than exp(k) for any k with 1<k<n.",
   "id": "A101507",
   "mentions": [
     "A101506"

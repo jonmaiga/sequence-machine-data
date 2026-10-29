@@ -22,16 +22,77 @@
       ]
     },
     {
-      "d": "2026-10-23",
-      "ix": "contfrac[sinh(γ)]%nc[π]",
+      "d": "2026-10-26",
+      "ix": "contfrac[sinh(γ)]",
       "mt": 86,
       "px": [
         "γ",
         "sinh",
-        "contfrac",
-        "π",
-        "nc",
-        "%"
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[tan(asin(tanh(γ)))]",
+      "mt": 86,
+      "px": [
+        "γ",
+        "tanh",
+        "asin",
+        "tan",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[cot(acos(tanh(γ)))]",
+      "mt": 86,
+      "px": [
+        "γ",
+        "tanh",
+        "acos",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[exp(γ)-cosh(γ)]",
+      "mt": 86,
+      "px": [
+        "γ",
+        "exp",
+        "γ",
+        "cosh",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[cosh(γ)*tanh(γ)]",
+      "mt": 86,
+      "px": [
+        "γ",
+        "cosh",
+        "γ",
+        "tanh",
+        "*",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[sqrt(cosh(γ)²-1)]",
+      "mt": 86,
+      "px": [
+        "γ",
+        "cosh",
+        "²",
+        "1",
+        "sub",
+        "sqrt",
+        "contfrac"
       ]
     }
   ]

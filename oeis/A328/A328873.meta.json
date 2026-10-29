@@ -1,5 +1,5 @@
 {
-  "description": "Maximal size of a set of pairwise mutually orthogonal diagonal Latin squares of order n.",
+  "description": "Maximum size of a set of pairwise mutually orthogonal diagonal Latin squares of order n.",
   "id": "A328873",
   "mentions": [
     "A001438",

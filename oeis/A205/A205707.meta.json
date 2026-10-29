@@ -1,5 +1,5 @@
 {
-  "description": "Prime(A205705(n)), the n-th number s(k) such that 8 divides s(k)-s(j) for some j",
+  "description": "Prime(A205705(n)), the n-th number s(k) such that 8 divides s(k)-s(j) for some j<k, where s(j)=prime(j).",
   "id": "A205707",
   "mentions": [
     "A204890",

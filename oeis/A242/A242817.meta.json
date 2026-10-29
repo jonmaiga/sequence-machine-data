@@ -2,7 +2,10 @@
   "description": "a(n) = B(n,n), where B(n,x) = Sum_{k=0..n} Stirling2(n,k)*x^k are the Bell polynomials (also known as exponential polynomials or Touchard polynomials).",
   "id": "A242817",
   "mentions": [
+    "A006153",
+    "A030019",
     "A035051",
+    "A052888",
     "A189233",
     "A292860",
     "A292866",

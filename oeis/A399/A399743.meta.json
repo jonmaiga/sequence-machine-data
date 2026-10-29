@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum number of entries from row n of Pascal's triangle needed to represent Fibonacci(n) as a signed sum, with each position used at most once.",
+  "id": "A399743",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A058978",
+    "A399744",
+    "A399745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

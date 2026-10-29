@@ -1,5 +1,5 @@
 {
-  "description": "Least K such that J*p(n+1)#-K*p(n)#-1 and J*p(n+1)#-K*p(n)#+1 are twin primes for least J>0, K>0 and K",
+  "description": "Least K such that J*p(n+1)#-K*p(n)#-1 and J*p(n+1)#-K*p(n)#+1 are twin primes for least J>0, K>0 and K<p(n+1), with p(n)=n-th prime and p(n)#=product of the first n primes = primorial(n).",
   "id": "A129193",
   "mentions": [
     "A129192"

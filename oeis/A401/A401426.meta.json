@@ -1,0 +1,26 @@
+{
+  "description": "The sum of infinitary divisors of n that are numbers whose number of divisors is a power of 2.",
+  "id": "A401426",
+  "mentions": [
+    "A005117",
+    "A007814",
+    "A036537",
+    "A049417",
+    "A077609",
+    "A368471",
+    "A390370",
+    "A392628",
+    "A401425"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

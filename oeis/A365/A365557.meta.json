@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. 1 / (7 - 6 * exp(x))^(5/6).",
   "id": "A365557",
   "mentions": [
+    "A008543",
     "A094419",
     "A346985",
     "A354252",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

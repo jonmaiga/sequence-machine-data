@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( 1 - x*exp( x*( exp(A(x)-1)-1 ) ) ).",
+  "id": "A400553",
+  "mentions": [
+    "A400554",
+    "A400555",
+    "A400556",
+    "A400557"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

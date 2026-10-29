@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = min_{1 <= k < n} max{d : 1 <= d <= n and d | binomial(n,k)}.",
+  "id": "A401108",
+  "mentions": [
+    "A401107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

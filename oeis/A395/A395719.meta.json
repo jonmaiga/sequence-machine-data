@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) the number of semi-meanders with n top arches and k arches without a covering arch.",
+  "id": "A395719",
+  "mentions": [
+    "A000682",
+    "A259689"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

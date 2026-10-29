@@ -1,5 +1,5 @@
 {
-  "description": "Number of k, 0",
+  "description": "Number of k, 0<k<=n, such that the resultant of the k-th cyclotomic polynomial and the n-th cyclotomic polynomial is equal to 1.",
   "id": "A075795",
   "mentions": [
     "A000010",

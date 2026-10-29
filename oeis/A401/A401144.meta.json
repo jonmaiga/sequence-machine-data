@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps starting from n until the first repeated value under the map k -> (floor(6*k/5)+1)/5^v_5(floor(6*k/5)+1), where v_5(m) is the 5-adic valuation of m; or -1 if no value ever repeats.",
+  "id": "A401144",
+  "mentions": [
+    "A399120",
+    "A399761",
+    "A400174",
+    "A401143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

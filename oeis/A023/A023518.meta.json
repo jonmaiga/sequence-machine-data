@@ -1,13 +1,18 @@
 {
-  "description": "Greatest exponent in prime-power factorization of prime(n)*prime(n-1) - 1.",
+  "description": "Greatest exponent in prime-power factorization of prime(n)*prime(n-1) - 1; a(1) = 0.",
   "id": "A023518",
-  "mentions": [],
+  "mentions": [
+    "A023515",
+    "A051903"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

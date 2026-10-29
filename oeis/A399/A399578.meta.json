@@ -1,0 +1,28 @@
+{
+  "description": "Number of self-conjugate 2-dimensional vector partitions of (n, n) into strictly distinct parts.",
+  "id": "A399578",
+  "mentions": [
+    "A000009",
+    "A000700",
+    "A001055",
+    "A002774",
+    "A003293",
+    "A026007",
+    "A219554",
+    "A219585",
+    "A263140",
+    "A397646",
+    "A398329",
+    "A398609"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

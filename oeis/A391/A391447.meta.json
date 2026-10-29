@@ -10,11 +10,13 @@
     "A392263"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "joeis"
   }
 }

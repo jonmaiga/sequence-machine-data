@@ -1,17 +1,16 @@
 {
-  "description": "Isomorphism classes of 2-in 2-out regular digraphs, allowing parallel edges but not loops.",
+  "description": "Number of isomorphism classes of 2-in 2-out regular digraphs, allowing parallel edges but not loops.",
   "id": "A307180",
   "mentions": [
     "A306827"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

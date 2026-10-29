@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma (phi ( n ) ) = sigma (sigma (n ) ) where phi is Euler's totient and sigma is the multiplicative sum-of-divisors function.",
+  "description": "Numbers k such that sigma (phi(k) ) = sigma (sigma(k) ) where phi is Euler's totient and sigma is the multiplicative sum-of-divisors function.",
   "id": "A065556",
   "mentions": [
     "A000010",
@@ -7,12 +7,11 @@
     "A033632"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

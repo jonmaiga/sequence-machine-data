@@ -1,8 +1,12 @@
 {
   "description": "G.f.: Sum_{n>=0} x^n / Product_{k=n..2*n-1} (1 - k*x).",
   "id": "A249636",
-  "mentions": [],
+  "mentions": [
+    "A143405",
+    "A367549"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

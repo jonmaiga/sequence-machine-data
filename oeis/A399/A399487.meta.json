@@ -1,0 +1,20 @@
+{
+  "description": "Initial digit of the decimal expansion of n^(n^(n^8)).",
+  "id": "A399487",
+  "mentions": [
+    "A395745",
+    "A395747",
+    "A398667"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

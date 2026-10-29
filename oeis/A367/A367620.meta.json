@@ -1,10 +1,11 @@
 {
-  "description": "The lexicographically earliest infinite sequence of positive numbers in which each term is a comma-child of the previous term.",
+  "description": "The unique infinite sequence of positive numbers in which each term is a comma-child of the previous term.",
   "id": "A367620",
   "mentions": [
     "A121805",
     "A367338",
-    "A367346"
+    "A367346",
+    "A400003"
   ],
   "tags": [
     "base",

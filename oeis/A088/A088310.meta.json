@@ -2,6 +2,7 @@
   "description": "Number of n X n (0,1)-matrices with all rows distinct and all columns distinct.",
   "id": "A088310",
   "mentions": [
+    "A000142",
     "A059202",
     "A088229",
     "A088309",

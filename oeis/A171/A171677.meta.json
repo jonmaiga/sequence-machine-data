@@ -1,5 +1,5 @@
 {
-  "description": "Period 9:repeat 7,5,7,4,2,4,1,8,1.",
+  "description": "Period 9: repeat [7, 5, 7, 4, 2, 4, 1, 8, 1].",
   "id": "A171677",
   "mentions": [
     "A141425",

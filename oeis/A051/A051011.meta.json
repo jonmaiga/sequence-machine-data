@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of average of number of steps in Euclidean algorithm for all gcd(m,n) with 0<=m",
+  "description": "Numerator of average of number of steps in Euclidean algorithm for all gcd(m,n) with 0<=m<n.",
   "id": "A051011",
   "mentions": [
     "A034883",

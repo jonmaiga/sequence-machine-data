@@ -2,7 +2,8 @@
   "description": "Number of distinct quadratic residues mod 5^n.",
   "id": "A039302",
   "mentions": [
-    "A000224"
+    "A000224",
+    "A000351"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

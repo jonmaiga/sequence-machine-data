@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled Eulerian point-determining graphs on n vertices.",
+  "id": "A398645",
+  "mentions": [
+    "A004110",
+    "A006024",
+    "A399730"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

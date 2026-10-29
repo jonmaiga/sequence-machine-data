@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that floor[n!/k] is prime.",
+  "description": "Least k such that floor(n!/k) is prime.",
   "id": "A090521",
   "mentions": [
     "A090522"

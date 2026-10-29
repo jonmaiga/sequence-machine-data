@@ -2,7 +2,9 @@
   "description": "Number of n-node labeled weakly connected acyclic digraphs.",
   "id": "A082402",
   "mentions": [
-    "A003024"
+    "A003024",
+    "A245654",
+    "A245655"
   ],
   "tags": [
     "formulas",

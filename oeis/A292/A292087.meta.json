@@ -1,5 +1,5 @@
 {
-  "description": "Limit of the number of (unlabeled) rooted trees without unary nodes where n is the difference between the number of leafs and the maximal outdegree as the tree size increases.",
+  "description": "Limit of the number of (unlabeled) rooted trees without unary nodes where n is the difference between the number of leaves and the maximal outdegree as the tree size increases.",
   "id": "A292087",
   "mentions": [
     "A292086"

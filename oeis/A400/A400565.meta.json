@@ -1,0 +1,24 @@
+{
+  "description": "Nonsquarefree numbers k such that sigma(k) = phi(k) + tau(k)^8.",
+  "id": "A400565",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A013929",
+    "A398797",
+    "A399226",
+    "A399944",
+    "A400368"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

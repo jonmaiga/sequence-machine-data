@@ -1,0 +1,36 @@
+{
+  "description": "The sum of the unitary divisors d of n such that n/d is a cube.",
+  "id": "A399737",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A013664",
+    "A013665",
+    "A033634",
+    "A034448",
+    "A077610",
+    "A327626",
+    "A363289",
+    "A380395",
+    "A380396",
+    "A399732",
+    "A399733",
+    "A399734",
+    "A399735",
+    "A399736",
+    "A399738",
+    "A399739",
+    "A399740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

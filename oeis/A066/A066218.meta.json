@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that sigma(k) = Sum_{j|k, j",
+  "description": "Numbers k such that sigma(k) = Sum_{j|k, j<k} sigma(j).",
   "id": "A066218",
   "mentions": [
     "A000203",

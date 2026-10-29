@@ -1,7 +1,11 @@
 {
   "description": "a(1)=1, a(n)=n-a(n-a(n-a(n-1))).",
   "id": "A076502",
-  "mentions": [],
+  "mentions": [
+    "A000931",
+    "A060006",
+    "A357471"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

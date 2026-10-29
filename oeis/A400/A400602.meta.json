@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{k=1..n-1} a(gcd(n,k)) * a(k/gcd(n,k)).",
+  "id": "A400602",
+  "mentions": [
+    "A006874",
+    "A333613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

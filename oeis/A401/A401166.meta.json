@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions of n in which the multiplicity of each part is divisible by that part.",
+  "id": "A401166",
+  "mentions": [
+    "A001156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

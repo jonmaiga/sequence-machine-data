@@ -1,7 +1,7 @@
 import SequenceMachineLib.Basic
-import Seq.B001.C000
-import Seq.Opaque.C007
-import Seq.Opaque.C011
+import Seq.B000.C031
+import Seq.B001.C001
+import Seq.Opaque.C006
 
 /-!
 # A016547: Continued fraction for log(39/2).

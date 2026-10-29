@@ -1,0 +1,17 @@
+{
+  "description": "Maximum possible smallest part in a partition of n into 3-smooth numbers, no part dividing another.",
+  "id": "A401291",
+  "mentions": [
+    "A003586",
+    "A355915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

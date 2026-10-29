@@ -2,6 +2,7 @@
   "description": "Index j of prime p(j) such that floor(p(j)/j) = n is first satisfied.",
   "id": "A062742",
   "mentions": [
+    "A000720",
     "A038606",
     "A038624",
     "A038625",

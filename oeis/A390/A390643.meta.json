@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of connected cubic graphs on 2n vertices with crossing number k for n >= 2, k >= 0.",
+  "description": "Triangle read by rows: T(n,k) = number of connected cubic graphs on 2n vertices with crossing number k for n >= 1, k >= 0.",
   "id": "A390643",
   "mentions": [
     "A002851",

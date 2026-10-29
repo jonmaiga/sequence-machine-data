@@ -4,62 +4,71 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A044001: Numbers k such that 0 and 6 occur juxtaposed in the base-10 representation of k but not of k+1.
@@ -419,21 +427,6 @@ end A044010.P8622190923335938953
 
 The programs for A044011, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044011.P3969662947496661910
-
-`or(A043231(n+1), A130069(A052905(n)))`
--/
-
-namespace A044011.P3969662947496661910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A043231 (n + 1)) (A130069 (A052905 n).toNat)
-
-end
-
-end A044011.P3969662947496661910
 
 /-! ## A044011.P6113093596852537564
 
@@ -1134,7 +1127,7 @@ end A044041.P1451848348437901883
 /-!
 # A044042: Primes congruent to {1, 2, 3, 4, 5} (mod 7).
 
-The programs for A044042, the canonical program `A044042.P9099708772331727754` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044042 has offset 1).
+The programs for A044042, the canonical program `A044042.P9099708772331727754` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044042 has offset 1).
 
 The definition of A044042 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1143,7 +1136,7 @@ The definition of A044042 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*floor(n/5)+1+n]`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A044042
@@ -1428,36 +1421,6 @@ def P14870689011386325403.Spec : Prop :=
 
 end A044042
 
-/-! ## A044042.P1749855210692181319
-
-`∪[A045368(n+1), A045337(n+1)]`
--/
-
-namespace A044042.P1749855210692181319
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045368 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045337 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A044042.P1749855210692181319
-
-namespace A044042
-
-/-- `∪[A045368(n+1), A045337(n+1)]` -/
-def P1749855210692181319.Spec : Prop :=
-  ∀ n, (P1749855210692181319.a n : ℤ) = A044042 (n + 1)
-
-end A044042
-
 /-! ## A044042.P14303444434702044562
 
 `∪[A045387(n+1), A045313(n+1)]`
@@ -1485,6 +1448,36 @@ namespace A044042
 /-- `∪[A045387(n+1), A045313(n+1)]` -/
 def P14303444434702044562.Spec : Prop :=
   ∀ n, (P14303444434702044562.a n : ℤ) = A044042 (n + 1)
+
+end A044042
+
+/-! ## A044042.P1749855210692181319
+
+`∪[A045368(n+1), A045337(n+1)]`
+-/
+
+namespace A044042.P1749855210692181319
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045368 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044042.P1749855210692181319
+
+namespace A044042
+
+/-- `∪[A045368(n+1), A045337(n+1)]` -/
+def P1749855210692181319.Spec : Prop :=
+  ∀ n, (P1749855210692181319.a n : ℤ) = A044042 (n + 1)
 
 end A044042
 
@@ -1700,6 +1693,33 @@ def P9551109521974206482.Spec : Prop :=
   ∀ n, P9551109521974206482.a n = A044042 (n + 1)
 
 end A044042
+
+/-!
+# A044043: Number of tilings of 2 X n rectangle with polyominoes, each of which has area = # of adjacent polyominoes.
+
+The programs for A044043, the canonical program `A044043.P16259568280465499173` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044043 has offset 1).
+
+The definition of A044043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 407 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A044043.P16259568280465499173
+
+`ogf((2x^2+5x^3+3x^4+3x^5+4x^6+4x^7+2x^10)/(1-3x^3-2x^4-x^5-3x^6-4x^7-2x^10))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A044043
+
+/-- `ogf((2x^2+5x^3+3x^4+3x^5+4x^6+4x^7+2x^10)/(1-3x^3-2x^4-x^5-3x^6-4x^7-2x^10))` -/
+def P16259568280465499173.Spec : Prop :=
+  ∀ n, P16259568280465499173.a n = A044043 (n + 1)
+
+theorem P16259568280465499173.correct : P16259568280465499173.Spec := by
+  intro n
+  simp only [A044043, Nat.add_sub_cancel]
+
+end A044043
 
 /-!
 # A044044: Catafusenes (see reference for precise definition).
@@ -2672,24 +2692,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A044050.P7545151542113398378
-
-/-! ## A044050.P12006629464141744104
-
-`A098008(A173455(n+1))+∑{e}[A020639(n+1), #]`
--/
-
-namespace A044050.P12006629464141744104
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A098008 (A173455 (n + 1)).toNat + ((∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044050.P12006629464141744104
 
 /-! ## A044050.P3054343968542710604
 
@@ -4598,28 +4600,6 @@ end
 
 end A044067.P6761533783243200355
 
-/-! ## A044067.P14188201791244049446
-
-`∩[A055043(n+1), A377989(n+1)]`
--/
-
-namespace A044067.P14188201791244049446
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055043 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377989 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A044067.P14188201791244049446
-
 /-!
 # A044068: Numbers n such that string 1,3 occurs in the base 4 representation of n but not of n-1.
 
@@ -5143,28 +5123,6 @@ end
 
 end A044073.P1977889203917067775
 
-/-! ## A044073.P12048685334207792766
-
-`∩[A043102(n+1), A354038(n+1)]`
--/
-
-namespace A044073.P12048685334207792766
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043102 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354038 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A044073.P12048685334207792766
-
 /-! ## A044073.P575357763424253125
 
 `∩[A043102(n+1), A337080(n+1)]`
@@ -5186,6 +5144,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A044073.P575357763424253125
+
+/-! ## A044073.P11944563241071935100
+
+`∩[A043102(n+1), A374189(n+1)]`
+-/
+
+namespace A044073.P11944563241071935100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374189 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044073.P11944563241071935100
 
 /-!
 # A044074: Numbers k such that string 3,1 occurs in the base 4 representation of k but not of k-1.
@@ -5244,35 +5224,35 @@ end
 
 end A044074.P13521311821151197174
 
-/-! ## A044074.P15567938155150652256
+/-! ## A044074.P8502839096302389325
 
-`A044454(n+1)+A010051(A128066(n+1))`
+`A044454(n+1)+A001221(A128066(n+1))`
 -/
 
-namespace A044074.P15567938155150652256
+namespace A044074.P8502839096302389325
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044454 (n + 1) + A010051 (A128066 (n + 1)).toNat
+  A044454 (n + 1) + A001221 (A128066 (n + 1)).toNat
 
 end
 
-end A044074.P15567938155150652256
+end A044074.P8502839096302389325
 
-/-! ## A044074.P8766049889963054233
+/-! ## A044074.P18121964722869727296
 
-`A325509(A145882(n+1))+A044454(n+1)`
+`A044454(n+1)+A001221(A168110(n+1))`
 -/
 
-namespace A044074.P8766049889963054233
+namespace A044074.P18121964722869727296
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325509 (A145882 (n + 1)).toNat + A044454 (n + 1)
+  A044454 (n + 1) + A001221 (A168110 (n + 1)).toNat
 
 end
 
-end A044074.P8766049889963054233
+end A044074.P18121964722869727296
 
 /-!
 # A044075: Numbers k such that the string 3,2 occurs in the base-4 representation of k but not of k-1.

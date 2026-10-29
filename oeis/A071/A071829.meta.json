@@ -1,7 +1,9 @@
 {
-  "description": "Smallest s > 0 such that Lpf(n) = Lpf(n+s) where Lpf(x) denotes the largest prime factor in x factorization.",
+  "description": "Smallest s > 0 such that gpf(n) = gpf(n+s) where gpf = A006530 (greatest prime factor).",
   "id": "A071829",
-  "mentions": [],
+  "mentions": [
+    "A006530"
+  ],
   "tags": [
     "easy",
     "nonn"

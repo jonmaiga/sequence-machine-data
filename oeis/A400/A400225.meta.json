@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: 1 = Sum_{n>=0} a(n) * x^n / (1 + 2^n*x)^(2^n).",
+  "id": "A400225",
+  "mentions": [
+    "A000272",
+    "A001192",
+    "A003024",
+    "A188455"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

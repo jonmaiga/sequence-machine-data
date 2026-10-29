@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that there exist two integers 0",
+  "description": "Numbers k such that there exist two integers 0<i<j<k such that i/sigma(i) + j/sigma(j) + k/sigma(k) = 1.",
   "id": "A384487",
   "mentions": [
     "A000203",

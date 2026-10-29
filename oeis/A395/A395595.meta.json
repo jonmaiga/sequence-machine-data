@@ -1,0 +1,22 @@
+{
+  "description": "Number of orbits of rowmotion on the order ideals of the Boolean lattice B_n.",
+  "id": "A395595",
+  "mentions": [
+    "A000372",
+    "A269699",
+    "A305716",
+    "A348260",
+    "A369313"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

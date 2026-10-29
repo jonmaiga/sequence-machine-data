@@ -2,7 +2,6 @@
   "description": "Analog of A094091 for S=3.",
   "id": "A096094",
   "mentions": [
-    "A052273",
     "A094091",
     "A106197"
   ],

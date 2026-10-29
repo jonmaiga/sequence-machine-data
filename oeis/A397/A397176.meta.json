@@ -1,10 +1,10 @@
 {
-  "description": "Index in A394611 of the first appearance of A397175(n).",
+  "description": "Index in A399995 of the first appearance of A397175(n).",
   "id": "A397176",
   "mentions": [
-    "A394611",
     "A397175",
-    "A397471"
+    "A397471",
+    "A399995"
   ],
   "tags": [
     "nonn"

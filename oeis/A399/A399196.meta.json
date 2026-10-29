@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is obtained by appending the smallest decimal digit to a(n-1) such that the resulting number is deficient, with a(1) = 1.",
+  "id": "A399196",
+  "mentions": [
+    "A005100",
+    "A005101"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

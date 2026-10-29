@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p",
+  "description": "Number of primes p<n such that n^2-n+p and n^2+n-p are both prime.",
   "id": "A219023",
   "mentions": [
     "A000040"

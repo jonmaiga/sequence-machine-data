@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest integer k such that k*prime(n) == 1 mod j for each integer j with 1",
+  "description": "a(n) = smallest integer k such that k*prime(n) == 1 mod j for each integer j with 1<j<prime(n).",
   "id": "A099794",
   "mentions": [
     "A094998",

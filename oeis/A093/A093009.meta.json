@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that m is prime iff n is not prime and the binary representation of m equals n with appended trailing 1's.",
+  "description": "Smallest number m such that m is prime iff n is not prime and the binary representation of m equals n with appended trailing 1's, or 0 is no such m exists.",
   "id": "A093009",
   "mentions": [
     "A000120",
@@ -9,11 +9,12 @@
     "A093008"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,15 +2,22 @@
   "description": "Number of minimal covers on n objects with 9 members.",
   "id": "A046169",
   "mentions": [
-    "A035348"
+    "A003468",
+    "A016111",
+    "A035348",
+    "A046166",
+    "A046167",
+    "A046168",
+    "A057668"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of primes of the form 2^b + 2n +- 2^k +- 1 and 2^(b+2) - 2^b - 2n +- 2^k +- 1, where b is the length of the binary representation of 2n, and 0",
+  "description": "a(n) is the number of primes of the form 2^b + 2n +- 2^k +- 1 and 2^(b+2) - 2^b - 2n +- 2^k +- 1, where b is the length of the binary representation of 2n, and 0<k<=b.",
   "id": "A232190",
   "mentions": [
     "A196697",

@@ -1,0 +1,17 @@
+{
+  "description": "Period 7: repeat 0,1,2,1,2,1,0.",
+  "id": "A399180",
+  "mentions": [
+    "A175629"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

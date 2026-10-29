@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [q^n] J_1(q), where J_1(q) is the q-series of Flajolet and Sedgewick.",
+  "id": "A400284",
+  "mentions": [
+    "A301735",
+    "A400281",
+    "A400283",
+    "A400285"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

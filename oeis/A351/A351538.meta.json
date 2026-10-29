@@ -2,6 +2,7 @@
   "description": "Numbers k such that both k and sigma(k) are congruent to 2 modulo 4 and the 3-adic valuation of sigma(k) is exactly 1.",
   "id": "A351538",
   "mentions": [
+    "A065302",
     "A191218",
     "A329963",
     "A349745",

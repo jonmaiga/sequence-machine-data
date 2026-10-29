@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of 3 distinct nonzero squares in two ways with symmetrical differences: a(n) = (p-a)^2+p^2+(p+b)^2 = (q-b)^2+q^2+(q+a)^2, p, q, a, b, positive integer, a",
+  "description": "Numbers that are the sum of 3 distinct nonzero squares in two ways with symmetrical differences: a(n) = (p-a)^2+p^2+(p+b)^2 = (q-b)^2+q^2+(q+a)^2, p, q, a, b, positive integer, a<b, p<q.",
   "id": "A282241",
   "mentions": [
     "A004432",

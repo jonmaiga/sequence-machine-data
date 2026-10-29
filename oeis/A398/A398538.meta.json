@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-tuples (a_1, ..., a_n) in (Z/3Z)^n such that M(a_1)*M(a_2)*...*M(a_n) = -I, where M(a) = [a, -1; 1, 0].",
+  "id": "A398538",
+  "mentions": [
+    "A001045",
+    "A002452"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

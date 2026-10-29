@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n in binary representation has a block of exactly a nontrivial triangular number number of zeros.",
+  "description": "Numbers whose binary representation has a block of exactly a nontrivial triangular number of zeros.",
   "id": "A110474",
   "mentions": [
     "A000217",

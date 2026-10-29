@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = if n>=4*k and n",
+  "description": "Triangle read by rows: T(n,k) = if n>=4*k and n<4*k*A014963(k) then k else 1; T(n,0)=1.",
   "id": "A139553",
   "mentions": [
     "A003418",

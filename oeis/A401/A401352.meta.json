@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polycubes with 3n cells that can be trisected into three congruent polycubes.",
+  "id": "A401352",
+  "mentions": [
+    "A038119",
+    "A400883",
+    "A401351"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

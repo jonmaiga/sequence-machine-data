@@ -1,0 +1,20 @@
+{
+  "description": "Record high-points in A398512.",
+  "id": "A398513",
+  "mentions": [
+    "A398512",
+    "A398514",
+    "A398515"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer matrices with a total of n rows and columns with each row sum and column sum nonzero and at most 2.",
+  "id": "A397928",
+  "mentions": [
+    "A147766",
+    "A397926",
+    "A397929"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

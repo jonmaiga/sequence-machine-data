@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p_m such that n = p_m-p_{m-1}+...+(-1)^(m-k)*p_k for some 0",
+  "description": "Least prime p_m such that n = p_m-p_{m-1}+...+(-1)^(m-k)*p_k for some 0<k<m, where p_j denotes the j-th prime.",
   "id": "A225889",
   "mentions": [
     "A000040",

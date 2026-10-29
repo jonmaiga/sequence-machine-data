@@ -1,0 +1,16 @@
+{
+  "description": "Largest elements of integral Diophantine quadruples, among which one plus the product of any two distinct terms is a square.",
+  "id": "A399970",
+  "mentions": [
+    "A030063"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

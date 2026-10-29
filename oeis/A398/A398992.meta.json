@@ -1,0 +1,22 @@
+{
+  "description": "The binomial matrix of the central binomial numbers. Square array read by ascending antidiagonals.",
+  "id": "A398992",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A026375",
+    "A163774",
+    "A163844",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

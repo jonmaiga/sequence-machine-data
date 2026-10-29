@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of integers in [1,n] having no prime factor <= prime(k), for n >= 2 and 1 <= k <= pi(n).",
+  "id": "A401040",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A007310",
+    "A008364",
+    "A020639",
+    "A092695",
+    "A110654",
+    "A182843",
+    "A401041",
+    "A401042",
+    "A401043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 92,
+    "source": "joeis"
+  }
+}

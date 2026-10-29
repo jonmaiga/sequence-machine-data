@@ -1,5 +1,5 @@
 {
-  "description": "Binary expansion of AGM(1,sqrt(2)) where AGM(x,y) denote the arithmetic-geometric mean of (x,y).",
+  "description": "Binary expansion of AGM(1,sqrt(2)) where AGM(x,y) denotes the arithmetic-geometric mean of (x,y).",
   "id": "A071004",
   "mentions": [
     "A053004"

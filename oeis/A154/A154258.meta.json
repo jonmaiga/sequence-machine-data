@@ -1,5 +1,5 @@
 {
-  "description": "Number of triples such that p+F_s+(F_t)^2=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.",
+  "description": "Number of triples <p,s,t> such that p+F_s+(F_t)^2=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.",
   "id": "A154258",
   "mentions": [
     "A000040",

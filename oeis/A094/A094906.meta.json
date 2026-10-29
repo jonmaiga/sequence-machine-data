@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that m^3-k^3 is a square for some k",
+  "description": "Numbers m such that m^3-k^3 is a square for some k<m.",
   "id": "A094906",
   "mentions": [],
   "tags": [

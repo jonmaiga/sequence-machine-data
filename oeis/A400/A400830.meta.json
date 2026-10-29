@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = A400828(n) if k = 1, otherwise T(n, k) = A003415(T(n,k-1)), n >= 1, 1 <= k <= n.",
+  "id": "A400830",
+  "mentions": [
+    "A000012",
+    "A003415",
+    "A048103",
+    "A400828",
+    "A400829",
+    "A400840"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

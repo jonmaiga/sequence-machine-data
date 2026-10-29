@@ -1,0 +1,26 @@
+{
+  "description": "The number of ordered pairs of infinitary divisors (d_1, d_2) of n such that d_1*d_2 is also an infinitary divisor of n.",
+  "id": "A400870",
+  "mentions": [
+    "A003714",
+    "A007425",
+    "A037445",
+    "A050376",
+    "A074816",
+    "A077609",
+    "A375230",
+    "A400869",
+    "A400871"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

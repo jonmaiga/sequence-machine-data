@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} gcd(n,d+1).",
+  "id": "A400779",
+  "mentions": [
+    "A000203",
+    "A018804",
+    "A399878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

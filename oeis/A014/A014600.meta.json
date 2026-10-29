@@ -1,5 +1,5 @@
 {
-  "description": "Class numbers h(D) of imaginary quadratic orders with discriminant D == 0 or 1 mod 4, D",
+  "description": "Class numbers h(D) of imaginary quadratic orders with discriminant D == 0 or 1 mod 4, D<0.",
   "id": "A014600",
   "mentions": [
     "A000003",

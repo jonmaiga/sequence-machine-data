@@ -1,0 +1,37 @@
+{
+  "description": "Table read by antidiagonals: T(n,m) = Zarankiewicz number z(n,m;2,2) (n >= 2, m >= 2).",
+  "id": "A400558",
+  "mentions": [
+    "A001197",
+    "A001198",
+    "A006613",
+    "A006614",
+    "A006615",
+    "A006616",
+    "A006617",
+    "A006618",
+    "A006619",
+    "A006620",
+    "A006621",
+    "A006622",
+    "A006623",
+    "A006624",
+    "A006625",
+    "A006626",
+    "A072567",
+    "A339635",
+    "A347472",
+    "A350296",
+    "A376167"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

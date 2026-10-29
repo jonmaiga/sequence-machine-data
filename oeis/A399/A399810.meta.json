@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 42*10^(k+2) + 43 is prime.",
+  "id": "A399810",
+  "mentions": [
+    "A399161"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

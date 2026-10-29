@@ -3,15 +3,17 @@
   "id": "A023588",
   "mentions": [
     "A001222",
+    "A023595",
     "A076274"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

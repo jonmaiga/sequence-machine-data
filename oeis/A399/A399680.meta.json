@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, for n >= 2; a(n) = the greatest integer k < n such that all divisors of k are exactly the first divisors of n in increasing order.",
+  "id": "A399680",
+  "mentions": [
+    "A235875",
+    "A256017"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

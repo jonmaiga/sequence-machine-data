@@ -1,0 +1,22 @@
+{
+  "description": "Number of 0's in the binary expansion of n^3.",
+  "id": "A398974",
+  "mentions": [
+    "A000578",
+    "A023416",
+    "A118736",
+    "A192085",
+    "A214560"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

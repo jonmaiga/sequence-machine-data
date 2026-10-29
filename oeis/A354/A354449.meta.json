@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of pairs of primes (p,q) with p",
+  "description": "a(n) is the number of pairs of primes (p,q) with p<q such that p+q = 2*n and that 2*n+p, 2*n+q, p*q-2*n and p*q+2*n are primes.",
   "id": "A354449",
   "mentions": [
     "A045917",

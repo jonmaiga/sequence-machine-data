@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{d|4} phi(d)*n^(4/d).",
   "id": "A054603",
   "mentions": [
+    "A006528",
     "A185651"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of permutations of [n] where the first increasing run has length k and the last increasing run has length n-k-1, 0",
+  "description": "Triangle read by rows: T(n,k) = number of permutations of [n] where the first increasing run has length k and the last increasing run has length n-k-1, 0<k<n-1.",
   "id": "A110952",
   "mentions": [
     "A000217",

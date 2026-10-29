@@ -1,5 +1,5 @@
 {
-  "description": "Binomial centered tridigonal matrices as a triangular sequence: t(n,m.d)=If[n + m - 1 == d, binomial[d - 1, n - 1], If[n + m == d, -1, If[n + m - 2 == d, -1, 0]]].",
+  "description": "Binomial centered tridiagonal matrices as a triangular sequence: t(n,m.d)=If[n + m - 1 == d, binomial[d - 1, n - 1], If[n + m == d, -1, If[n + m - 2 == d, -1, 0]]].",
   "id": "A124030",
   "mentions": [],
   "tags": [

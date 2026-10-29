@@ -1,0 +1,21 @@
+{
+  "description": "Sum of fifth powers of A069268: a(n) = Sum_{k=1..n} gcd(k!, k*(k+1)/2)^5.",
+  "id": "A398268",
+  "mentions": [
+    "A000217",
+    "A069268",
+    "A398065",
+    "A400687",
+    "A400693"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

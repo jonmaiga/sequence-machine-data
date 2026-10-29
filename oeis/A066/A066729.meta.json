@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} d if n is composite, n otherwise.",
   "id": "A066729",
   "mentions": [
     "A000040",

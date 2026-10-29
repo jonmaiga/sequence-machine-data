@@ -1,5 +1,5 @@
 {
-  "description": "Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type C.",
+  "description": "Number of chiral pairs of dissectible polyhedra with n tetrahedral cells and symmetry of type C.",
   "id": "A047774",
   "mentions": [
     "A001764",

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 2 + 2*sqrt(3) + 2*sqrt(33)/3.",
+  "id": "A399814",
+  "mentions": [
+    "A002194",
+    "A010469",
+    "A010488",
+    "A010502",
+    "A343199",
+    "A399815",
+    "A399816",
+    "A400357"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

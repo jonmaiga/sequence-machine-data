@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-attacking bishop positions on a cylindrical 2 X 2n chessboard.",
+  "description": "Number of non-attacking bishop positions on a cylindrical 2 X 2*n chessboard.",
   "id": "A286810",
   "mentions": [
     "A081069"

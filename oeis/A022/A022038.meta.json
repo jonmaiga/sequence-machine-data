@@ -1,5 +1,5 @@
 {
-  "description": "Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}= 0. This is T(8,57).",
+  "description": "Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}<a_{n+1}/a_n for n >= 0. This is T(8,57).",
   "id": "A022038",
   "mentions": [],
   "tags": [

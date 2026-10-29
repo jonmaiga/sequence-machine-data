@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = 1+2*m of odd numbers read along rows, 0<=m",
+  "description": "Triangle T(n,m) = 1+2*m of odd numbers read along rows, 0<=m<n.",
   "id": "A158405",
   "mentions": [
     "A000027",

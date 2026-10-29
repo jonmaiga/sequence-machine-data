@@ -1,8 +1,12 @@
 {
-  "description": "Expansion of e.g.f. log(1+x)*cosh(x).",
+  "description": "Expansion of e.g.f. log(1+x) * cosh(x).",
   "id": "A009416",
   "mentions": [
-    "A009410"
+    "A002104",
+    "A002741",
+    "A009410",
+    "A177699",
+    "A381016"
   ],
   "tags": [
     "easy",

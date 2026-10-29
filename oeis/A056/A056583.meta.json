@@ -1,5 +1,5 @@
 {
-  "description": "Solution to a(n)^(n^2/a(n)) = gcd(n^n, Product_{k",
+  "description": "Solution to a(n)^(n^2/a(n)) = gcd(n^n, Product_{k<n} k^k) where a(n) and n^2/a(n) are integers, or 0 if no such integers exist.",
   "id": "A056583",
   "mentions": [
     "A000312",

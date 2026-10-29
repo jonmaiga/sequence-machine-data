@@ -1,8 +1,9 @@
 {
-  "description": "Bell convolution triangle, T(n,k) = A000110(n-k)*A000110(k).",
+  "description": "Bell convolution triangle, T(n,k) = A000110(n-k) * A000110(k).",
   "id": "A144155",
   "mentions": [
     "A000110",
+    "A001247",
     "A014322"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

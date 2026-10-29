@@ -1,0 +1,17 @@
+{
+  "description": "Number of spanning trees in the Klein bottle graph K_{3,2n}.",
+  "id": "A400234",
+  "mentions": [
+    "A006235",
+    "A020871"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

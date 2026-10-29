@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n which represent Chomp positions with Sprague-Grundy value k, 0 <= k < n.",
+  "id": "A401278",
+  "mentions": [
+    "A000041",
+    "A112470",
+    "A225366",
+    "A284687",
+    "A284688",
+    "A284689",
+    "A284690",
+    "A284692",
+    "A284693",
+    "A284780",
+    "A284781",
+    "A284782",
+    "A284784",
+    "A401217"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

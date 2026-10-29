@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=1..10^n} (-1)^BigOmega(i)*(-1)^BigOmega(i+1), where BigOmega(n) = A001222(n).",
+  "id": "A400959",
+  "mentions": [
+    "A001222",
+    "A349229"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

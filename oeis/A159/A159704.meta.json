@@ -1,5 +1,5 @@
 {
-  "description": "Number of different pairs of primes p,q such that : p",
+  "description": "Number of different pairs of primes p,q such that : p<q, p is a cousin prime of p-4 or p+4 and q is a cousin prime of q-4 or q+4, 2*n=p+q.",
   "id": "A159704",
   "mentions": [],
   "tags": [

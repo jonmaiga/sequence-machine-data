@@ -2,8 +2,7 @@
   "description": "A version of the Chebyshev function theta(n): a(n) = ceiling(Sum_{primes p <= n } log(p)).",
   "id": "A083535",
   "mentions": [
-    "A035158",
-    "A083235"
+    "A035158"
   ],
   "tags": [
     "formulas",

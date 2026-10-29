@@ -1,7 +1,9 @@
 {
   "description": "Primes of the form k!! + k - 1.",
   "id": "A118744",
-  "mentions": [],
+  "mentions": [
+    "A398814"
+  ],
   "tags": [
     "nonn"
   ],

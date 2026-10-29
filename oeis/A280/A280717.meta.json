@@ -1,5 +1,5 @@
 {
-  "description": "Given a prime number p, let b = -p and c = p^2. Assuming that the polynomial P(x) := x^2+b*x+c takes at least one prime value for some positive integer x",
+  "description": "Given a prime number p, let b = -p and c = p^2. Assuming that the polynomial P(x) := x^2+b*x+c takes at least one prime value for some positive integer x<p, we define the next term of the sequence to be the maximal element in the set S := {P(x) : x is an integer, 0 < x < p, and P(x) is a prime number}. The first term of the present sequence is p=3.",
   "id": "A280717",
   "mentions": [],
   "tags": [

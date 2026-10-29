@@ -1,0 +1,19 @@
+{
+  "description": "Number T(n,k) of n X n upper triangular binary matrices with row sums and column sums in {0, 2} and exactly k zero rows; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A399291",
+  "mentions": [
+    "A000007",
+    "A000129",
+    "A396698",
+    "A400302"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

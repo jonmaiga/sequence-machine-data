@@ -3,15 +3,18 @@
   "id": "A182058",
   "mentions": [
     "A007664",
-    "A007665"
+    "A007665",
+    "A027608",
+    "A127321"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 59,
+    "source": "oeis-bfile"
   }
 }

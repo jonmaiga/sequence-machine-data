@@ -6,13 +6,12 @@
     "A296626"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

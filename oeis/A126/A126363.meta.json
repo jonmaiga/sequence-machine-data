@@ -1,7 +1,9 @@
 {
   "description": "Number of base 9 n-digit numbers with adjacent digits differing by one or less.",
   "id": "A126363",
-  "mentions": [],
+  "mentions": [
+    "A126371"
+  ],
   "tags": [
     "base",
     "formulas",

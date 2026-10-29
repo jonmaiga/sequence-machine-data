@@ -1,7 +1,9 @@
 {
-  "description": "Number of 2-enumeration of 4n X 4n quarter-turn symmetric alternating-sign matrices.",
+  "description": "2-enumeration of 4n X 4n quarter-turn symmetric alternating-sign matrices.",
   "id": "A059487",
-  "mentions": [],
+  "mentions": [
+    "A057170"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,10 @@
   "description": "Let m be the n-th hyperoperation applied to n (see A189896). a(n) is the m-th hyperoperation applied to n and m.",
   "id": "A213619",
   "mentions": [
-    "A189896"
+    "A189896",
+    "A400199",
+    "A400200",
+    "A400456"
   ],
   "tags": [
     "bref",

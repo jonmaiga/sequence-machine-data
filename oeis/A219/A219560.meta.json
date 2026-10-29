@@ -7,16 +7,16 @@
     "A219561",
     "A219565",
     "A219585",
-    "A219678"
+    "A219678",
+    "A398607"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

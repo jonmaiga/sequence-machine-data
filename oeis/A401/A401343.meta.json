@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Pi^2*csch(Pi/2)/4.",
+  "id": "A401343",
+  "mentions": [
+    "A002388",
+    "A019669",
+    "A091476",
+    "A367959",
+    "A369880",
+    "A401344",
+    "A401345",
+    "A401346",
+    "A401347"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

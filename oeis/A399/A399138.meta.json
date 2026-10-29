@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = maximum number of points in an n X n X n grid with no three collinear.",
+  "id": "A399138",
+  "mentions": [
+    "A000769",
+    "A157882",
+    "A280537",
+    "A393939"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

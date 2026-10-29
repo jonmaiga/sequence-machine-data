@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of independent vertex sets of size k in all simple connected labeled graphs on n vertices.",
+  "id": "A401185",
+  "mentions": [
+    "A001187",
+    "A053549",
+    "A277219",
+    "A401182",
+    "A401183",
+    "A401184"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

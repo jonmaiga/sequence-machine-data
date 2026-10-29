@@ -1,0 +1,15 @@
+{
+  "description": "Position of the first appearance of n in A394762.",
+  "id": "A399475",
+  "mentions": [
+    "A394762"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

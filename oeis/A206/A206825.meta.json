@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of k^4=n^4 (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of k^4=n^4 (mod n), where 1<=k<n.",
   "id": "A206825",
   "mentions": [
     "A206590"

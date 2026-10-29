@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2*(Pi - sqrt(3))/(sqrt(15) + sqrt(7) - 2*sqrt(3)).",
+  "id": "A399456",
+  "mentions": [
+    "A010465",
+    "A010469",
+    "A010472",
+    "A060708",
+    "A202473"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

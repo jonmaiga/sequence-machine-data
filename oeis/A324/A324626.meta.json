@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [6+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(6+n)*[i",
+  "description": "Number of permutations p of [6+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(6+n)*[i<p(i)]].",
   "id": "A324626",
   "mentions": [
     "A324563",

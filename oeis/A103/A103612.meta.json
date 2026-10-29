@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions to 5+B^2=p^2+q^2 with B=2n, p,q>0 and 2p^2",
+  "description": "Number of solutions to 5+B^2=p^2+q^2 with B=2n, p,q>0 and 2p^2<5+B^2.",
   "id": "A103612",
   "mentions": [
     "A104768"

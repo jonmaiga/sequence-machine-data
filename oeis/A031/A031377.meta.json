@@ -1,7 +1,10 @@
 {
   "description": "a(n) = prime(3n-2).",
   "id": "A031377",
-  "mentions": [],
+  "mentions": [
+    "A031336",
+    "A031369"
+  ],
   "tags": [
     "nonn"
   ],

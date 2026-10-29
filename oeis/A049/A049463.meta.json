@@ -1,7 +1,9 @@
 {
   "description": "Number of basic interval orders of length n.",
   "id": "A049463",
-  "mentions": [],
+  "mentions": [
+    "A022493"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

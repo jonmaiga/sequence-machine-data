@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that the canonical prime factorizations of both k and k+1 contain only exponents that are congruent to 1 modulo 3.",
+  "id": "A398825",
+  "mentions": [
+    "A002117",
+    "A007674",
+    "A016777",
+    "A340152",
+    "A366762",
+    "A367695",
+    "A372690",
+    "A391396",
+    "A398161",
+    "A398162",
+    "A398163",
+    "A398164",
+    "A398165",
+    "A398166",
+    "A398167",
+    "A398168",
+    "A398169",
+    "A398170"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

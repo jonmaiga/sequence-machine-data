@@ -6,11 +6,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n=a+b+c+d such that 0",
+  "description": "Numbers n=a+b+c+d such that 0<a<b<c<d and concatenation(n,a,b,c,d) is a permutation of the digits 0,...,9.",
   "id": "A203603",
   "mentions": [],
   "tags": [

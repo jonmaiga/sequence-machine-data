@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = T(n-1, k-1) + T(n-2, k) if k is odd, T(n-1, k-1) + T(n-1, k) if k is even, for k<=0<=n and n>=2 with T(0,0)=T(1,0)=T(1,1)=0 and T(n,k)=0 when k>n, k",
+  "description": "Triangle read by rows, T(n,k) = T(n-1, k-1) + T(n-2, k) if k is odd, T(n-1, k-1) + T(n-1, k) if k is even, for k<=0<=n and n>=2 with T(0,0)=T(1,0)=T(1,1)=0 and T(n,k)=0 when k>n, k<0, or n<0.",
   "id": "A276696",
   "mentions": [
     "A169623"

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum size of a subset of {1,...,n} in which no prime divides more than 3 elements.",
+  "id": "A399139",
+  "mentions": [
+    "A000720",
+    "A036234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

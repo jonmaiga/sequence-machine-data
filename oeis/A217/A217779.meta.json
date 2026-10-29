@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-4x+4*x^2)/((1-5x+5*x^2)*(1-3x+x^2)).",
+  "description": "Expansion of (1 - 4*x + 4*x^2)/((1 - 5*x + 5*x^2)*(1 - 3*x + x^2)).",
   "id": "A217779",
   "mentions": [
     "A217770",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

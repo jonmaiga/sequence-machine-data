@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions of x^3 + y^3 = z^2 in (Z/nZ)^3.",
+  "id": "A398964",
+  "mentions": [
+    "A099426",
+    "A115075",
+    "A351600"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

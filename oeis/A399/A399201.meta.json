@@ -1,0 +1,17 @@
+{
+  "description": "Number of terms of A003714 that are less than n.",
+  "id": "A399201",
+  "mentions": [
+    "A003714",
+    "A085357"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted trees on n unlabeled nodes with exactly 1 node of maximum height.",
+  "id": "A399447",
+  "mentions": [
+    "A000081",
+    "A399097",
+    "A399148"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that in base m no number greater than 1 exists such that the sum of the digits of its divisors equals m.",
+  "description": "Numbers m such that in base m no number k > 1 exists such that the sum of the digits of its divisors equals k.",
   "id": "A346561",
   "mentions": [
     "A027750",

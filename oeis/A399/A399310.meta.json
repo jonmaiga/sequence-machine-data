@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct entries in a slice of Pascal's square pyramid (A086754).",
+  "id": "A399310",
+  "mentions": [
+    "A008805",
+    "A046816",
+    "A086753",
+    "A086754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

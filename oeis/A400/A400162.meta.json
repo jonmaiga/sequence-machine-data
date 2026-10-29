@@ -1,0 +1,27 @@
+{
+  "description": "Nonsquarefree numbers k such that their smallest non-unitary prime factor is also the smallest prime q for which valuation(A380459(k),q) >= q.",
+  "id": "A400162",
+  "mentions": [
+    "A008586",
+    "A008683",
+    "A013929",
+    "A129252",
+    "A249739",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A380468",
+    "A380528",
+    "A400160",
+    "A400161"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

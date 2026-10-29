@@ -1,0 +1,21 @@
+{
+  "description": "Table of D(p, n) read by antidiagonals: Difference sequence of the generalized p-peg Tower of Hanoi (Frame-Stewart algorithm).",
+  "id": "A397675",
+  "mentions": [
+    "A007665",
+    "A137688",
+    "A137695",
+    "A182058",
+    "A399199"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

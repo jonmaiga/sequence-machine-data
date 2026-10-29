@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by falling antidiagonals: A(n,k) = valuation(A380459(n), prime(k)).",
+  "id": "A400250",
+  "mentions": [
+    "A276086",
+    "A349394",
+    "A380459",
+    "A380479",
+    "A380480",
+    "A392879",
+    "A400157",
+    "A400163",
+    "A400164",
+    "A400165",
+    "A400252",
+    "A400253",
+    "A400260"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor(abs(1/sin(A070751(n)))).",
+  "description": "a(n) = floor(abs(1/sin(A070751(n)))).",
   "id": "A086869",
   "mentions": [
     "A070751"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 85,
+    "source": "joeis"
   }
 }

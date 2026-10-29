@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are not sqrt(n-1)-smooth: largest prime factor of n (=A006530(n)) >= sqrt(n).",
+  "description": "Numbers k that are not sqrt(k-1)-smooth: largest prime factor of k (A006530(k)) >= sqrt(k).",
   "id": "A063538",
   "mentions": [
     "A000005",

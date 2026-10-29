@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (number of times a(n-1) has already appeared) + (number of times a(n-2) has already appeared) + (number of times a(n-3) has already appeared), starting with a(n) = n for n",
+  "description": "a(n) = (number of times a(n-1) has already appeared) + (number of times a(n-2) has already appeared) + (number of times a(n-3) has already appeared), starting with a(n) = n for n<3.",
   "id": "A330332",
   "mentions": [
     "A133622",

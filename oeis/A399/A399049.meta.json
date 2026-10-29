@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) is the smallest integer greater than a(n) such that: a(k) + a(k+4) is not a term for any k.",
+  "id": "A399049",
+  "mentions": [
+    "A001651",
+    "A394576",
+    "A394676",
+    "A399801",
+    "A399866"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

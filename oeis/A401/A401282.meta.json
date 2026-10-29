@@ -1,0 +1,15 @@
+{
+  "description": "Number of binary matrices with n rows, all column sums 2 and row sums at most 2.",
+  "id": "A401282",
+  "mentions": [
+    "A401281"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

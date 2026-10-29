@@ -1,5 +1,5 @@
 {
-  "description": "Superior highly composite numbers: positive integers n for which there is an e > 0 such that d(n)/n^e >= d(k)/k^e for all k > 1, where the function d(n) counts the divisors of n (A000005).",
+  "description": "Superior highly composite numbers: integers n > 1 for which there is an e > 0 such that d(n)/n^e >= d(k)/k^e for all k > 1, where the function d(n) counts the divisors of n (A000005).",
   "id": "A002201",
   "mentions": [
     "A000005",

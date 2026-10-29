@@ -1,0 +1,14 @@
+{
+  "description": "Number of adjacent differences less than 1/n in the sorted list with multiplicity of the fractional parts of sqrt(k) for n <= k <= 2n.",
+  "id": "A397696",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

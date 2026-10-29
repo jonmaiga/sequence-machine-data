@@ -2,7 +2,8 @@
   "description": "a(n) is the smallest n-powerful number, that is, the smallest positive integer such that {1,2,...,a(n)} admits a partition into A and B so that the sum of the j-th powers of A equals the sum of the j-th powers of B, for all j = 0, 1, ..., n.",
   "id": "A323395",
   "mentions": [
-    "A222193"
+    "A222193",
+    "A382832"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

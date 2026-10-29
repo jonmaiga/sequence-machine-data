@@ -1,5 +1,5 @@
 {
-  "description": "Joint-rank array of prime powers: p(i)^j, i>=1, j>=1, read by antidiagonals.",
+  "description": "Joint-rank array of prime powers: prime(i)^j, i>=1, j>=1, read by antidiagonals.",
   "id": "A182869",
   "mentions": [
     "A000961",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

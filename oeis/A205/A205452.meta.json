@@ -1,5 +1,5 @@
 {
-  "description": "Least s(k) such that n divides s(k)-s(j) for some j",
+  "description": "Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=Fibonacci(2j).",
   "id": "A205452",
   "mentions": [
     "A204892",

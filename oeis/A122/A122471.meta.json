@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = 7*a(n-1)-n for n> 0, a(0)=1.",
+  "description": "a(n) = 7*a(n-1) - n for n>0, a(0)=1.",
   "id": "A122471",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

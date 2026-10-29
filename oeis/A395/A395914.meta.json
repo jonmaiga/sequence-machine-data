@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k such that 2^(n-1) <= k < 2^n at which |M(k)|/sqrt(k) attains its maximum value in that interval, where M is the Mertens function A002321.",
+  "id": "A395914",
+  "mentions": [
+    "A002321",
+    "A008683"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the analog of Lévy's constant in case of the nearest integer continued fraction of -1/2",
+  "description": "Decimal expansion of the analog of Lévy's constant in case of the nearest integer continued fraction of -1/2<x<1/2.",
   "id": "A247039",
   "mentions": [
     "A086702"

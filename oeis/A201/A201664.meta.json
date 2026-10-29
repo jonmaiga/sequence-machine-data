@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x satisfying 2*x^2 - 1 = csc(x) and 0",
+  "description": "Decimal expansion of least x satisfying 2*x^2 - 1 = csc(x) and 0<x<Pi.",
   "id": "A201664",
   "mentions": [
     "A201564",

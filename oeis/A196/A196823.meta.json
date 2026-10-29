@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the number c for which the curve y=1/(1+x^2) is tangent to the curve y=-c+cos(x), and 0",
+  "description": "Decimal expansion of the number c for which the curve y=1/(1+x^2) is tangent to the curve y=-c+cos(x), and 0<x<2*Pi.",
   "id": "A196823",
   "mentions": [
     "A196822",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (A, S, R), where A is an acyclic digraph on n labeled nodes and a distinguished node r, S and R are subsets of V(A), r has no out-edge in A and belongs to R, such that adding a new node h with edges h -> S and R -> h gives a strongly connected digraph D reducible as a flow graph from every node, r has exactly one in-edge in D, and D - r is strongly connected.",
+  "id": "A400124",
+  "mentions": [
+    "A003030",
+    "A052873",
+    "A400123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

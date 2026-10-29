@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2; for n > 1 if n is even a(n) = spf(1 + Product_{odd m,m",
+  "description": "a(1) = 2; for n > 1 if n is even a(n) = spf(1 + Product_{odd m,m<n}a(m)), while if n is odd a(n) = spf(1 + Product_{even m,m<n}a(m)).",
   "id": "A260218",
   "mentions": [
     "A000945",

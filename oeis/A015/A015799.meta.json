@@ -1,5 +1,5 @@
 {
-  "description": "phi(n) + 8 | sigma(n).",
+  "description": "Numbers k such that phi(k) + 8 | sigma(k).",
   "id": "A015799",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 51,
     "source": "joeis"
   }
 }

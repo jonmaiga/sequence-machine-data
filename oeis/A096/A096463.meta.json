@@ -2,6 +2,7 @@
   "description": "Denominators of convergents to Pi/2.",
   "id": "A096463",
   "mentions": [
+    "A019669",
     "A053300",
     "A096456"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Twin primes equal to the sum of the first k twin primes (represented as the list 3, 5, 5, 7, 11, 13, ...) for some k.",
+  "id": "A400578",
+  "mentions": [
+    "A001097",
+    "A013918",
+    "A053845",
+    "A071151",
+    "A077800"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

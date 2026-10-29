@@ -1,0 +1,34 @@
+{
+  "description": "The number of divisors d of n such that gcid(d, n/d) is a square, where gcid is the greatest common infinitary divisor.",
+  "id": "A400140",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001620",
+    "A029578",
+    "A037445",
+    "A065472",
+    "A268335",
+    "A365171",
+    "A376887",
+    "A399830",
+    "A400137",
+    "A400138",
+    "A400139",
+    "A400141",
+    "A400142",
+    "A400143",
+    "A400144"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

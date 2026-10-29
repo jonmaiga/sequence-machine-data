@@ -1,0 +1,17 @@
+{
+  "description": "Minimum over monic polynomials g of degree n over GF(2) of the number of polynomials p with deg(p) < n and gcd(p, g) = 1 such that every partial quotient of the continued fraction expansion of g/p has degree at most 2.",
+  "id": "A399762",
+  "mentions": [
+    "A063727",
+    "A398229"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

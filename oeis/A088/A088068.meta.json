@@ -2,14 +2,17 @@
   "description": "Squares sandwiched between two numbers divisible by squares.",
   "id": "A088068",
   "mentions": [
+    "A080666",
     "A088069"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

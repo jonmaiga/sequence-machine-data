@@ -1,9 +1,10 @@
 {
-  "description": "Numbers m such that both roots of x^2 - x - 1 modulo m are primitive roots modulo m.",
+  "description": "Prime numbers p such that both roots of x^2 - x - 1 modulo p are primitive roots modulo p.",
   "id": "A384490",
   "mentions": [
     "A001175",
-    "A015134"
+    "A015134",
+    "A106963"
   ],
   "tags": [
     "nonn"
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

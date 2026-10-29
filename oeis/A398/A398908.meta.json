@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{i,j,k>=0} (-1)^(i+j+k) * i!*j!*k!/(i+j+k+2)!.",
+  "id": "A398908",
+  "mentions": [
+    "A002162",
+    "A002391",
+    "A013661",
+    "A091476",
+    "A266576",
+    "A355234"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

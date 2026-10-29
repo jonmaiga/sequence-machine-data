@@ -1,5 +1,5 @@
 {
-  "description": "Distinct primes in increasing order interleaved with primes of the form concatenation two or more previous terms say all a(i), a(j) i",
+  "description": "Distinct primes in increasing order interleaved with primes of the form concatenation two or more previous terms say all a(i), a(j) i<j, then all a(i), a(j), a(k) i < j < k etc. Once all the concatenations have exhausted then the least prime that has not occurred earlier.",
   "id": "A114007",
   "mentions": [],
   "tags": [

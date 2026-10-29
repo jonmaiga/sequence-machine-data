@@ -1,5 +1,5 @@
 {
-  "description": "Next m>n such that m is divisible by lpf(n), lpf=A006530 largest prime factor.",
+  "description": "Next m>n such that m is divisible by gpf(n), gpf=A006530 (greatest prime factor).",
   "id": "A070229",
   "mentions": [
     "A006530",

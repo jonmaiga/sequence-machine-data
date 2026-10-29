@@ -1,0 +1,21 @@
+{
+  "description": "The binomial matrix of the number of involutions (A000085). Square array read by ascending antidiagonals.",
+  "id": "A398997",
+  "mentions": [
+    "A000085",
+    "A005425",
+    "A123023",
+    "A378100",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

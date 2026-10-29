@@ -2,6 +2,7 @@
   "description": "Number of types of Boolean functions of n variables under a certain group.",
   "id": "A028402",
   "mentions": [
+    "A007582",
     "A063376"
   ],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "Deterministic version of the random Fibonacci sequence, with signs from A076478 and the seed as (1,0).",
+  "id": "A400469",
+  "mentions": [
+    "A000045",
+    "A076478",
+    "A078416",
+    "A400370",
+    "A400405"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

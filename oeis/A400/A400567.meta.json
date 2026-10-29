@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of an n-element set whose number of blocks is a Sophie Germain prime.",
+  "id": "A400567",
+  "mentions": [
+    "A000110",
+    "A005384",
+    "A008277",
+    "A010051",
+    "A085507"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

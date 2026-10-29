@@ -5,12 +5,13 @@
     "A060187"
   ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

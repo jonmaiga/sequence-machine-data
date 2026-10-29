@@ -1,5 +1,5 @@
 {
-  "description": "Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 0",
+  "description": "Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 0<a<b<c.",
   "id": "A380807",
   "mentions": [
     "A000926",

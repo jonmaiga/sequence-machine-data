@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)+a(n-2)+3a(n-3), with a(0)=a(1)=a(2)=1.",
+  "description": "a(n) = a(n-1) + a(n-2) + 3*a(n-3), with a(0) = a(1) = a(2) = 1.",
   "id": "A099213",
   "mentions": [
     "A099212",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
-    "source": "joeis"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

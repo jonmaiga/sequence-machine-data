@@ -1,14 +1,16 @@
 {
-  "description": "Coefficients of q-series associated with the colored tetrahedron graph J_{6j,0}.",
+  "description": "Coefficients of q-series associated with the colored tetrahedron graph J_{6j,0}. Also the q-series J0(q,1) of Flajolet and Sedgewick.",
   "id": "A301735",
-  "mentions": [],
+  "mentions": [
+    "A400284"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

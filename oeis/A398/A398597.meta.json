@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the book Ramsey number R(B_2,B_n).",
+  "id": "A398597",
+  "mentions": [
+    "A399857"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

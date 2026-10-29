@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-partite partitions of {n}^n into distinct n-tuples.",
+  "id": "A394672",
+  "mentions": [
+    "A002110",
+    "A045778",
+    "A181555",
+    "A219585",
+    "A322488"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of cap height at which the area of a circular segment equals 1/4 that of the entire circle.",
+  "description": "Decimal expansion of cap height for a unit-radius circle at which the area of the circular segment equals 1/4 that of the entire circle.",
   "id": "A133742",
   "mentions": [],
   "tags": [

@@ -16,12 +16,13 @@
     "A305857"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

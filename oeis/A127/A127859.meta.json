@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = r(A127858(n)), where r if the cyclic replacement map of the digits d of n in base 12 defined by d->d+1 if d0 if d=11.",
+  "description": "a(n) = r(A127858(n)), where r if the cyclic replacement map of the digits d of n in base 12 defined by d->d+1 if d<11 and d->0 if d=11.",
   "id": "A127859",
   "mentions": [
     "A117755",

@@ -1,5 +1,5 @@
 {
-  "description": "Least prime q such that (r-q)/(q-p), where p",
+  "description": "Least prime q such that (r-q)/(q-p), where p<q<r are three consecutive primes, produces a new ratio <= 1, arranged by Farey fractions A038566/A038567.",
   "id": "A279067",
   "mentions": [
     "A038566",

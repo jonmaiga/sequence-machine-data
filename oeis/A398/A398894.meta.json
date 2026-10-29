@@ -1,0 +1,19 @@
+{
+  "description": "Minimum value of k such that there exists a subset S of {1, ..., k} of size n for which the average of every nonempty subset of S is an integer.",
+  "id": "A398894",
+  "mentions": [
+    "A003418",
+    "A051293",
+    "A081528"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of S_3-symmetric 3-dimensional vector partitions of (n, n, n) into strictly distinct parts.",
+  "id": "A398347",
+  "mentions": [
+    "A000009",
+    "A399578",
+    "A400544",
+    "A400564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

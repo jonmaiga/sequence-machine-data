@@ -1,0 +1,17 @@
+{
+  "description": "Number of independent vertex sets in the 4 X n Moebius strip graph.",
+  "id": "A399355",
+  "mentions": [
+    "A399103"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

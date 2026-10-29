@@ -2,7 +2,10 @@
   "description": "Numbers n such that the lunar product of the distinct lunar prime divisors of n is >= n.",
   "id": "A088480",
   "mentions": [
-    "A087061"
+    "A087061",
+    "A088477",
+    "A088479",
+    "A088481"
   ],
   "tags": [
     "nonn"

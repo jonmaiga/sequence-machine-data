@@ -1,10 +1,9 @@
 {
-  "description": "Positions of words in A344953 starting with 1 and ending with 0.",
+  "description": "Positions of words in A341258 starting with 1 and ending with 0.",
   "id": "A344958",
   "mentions": [
     "A341258",
     "A342910",
-    "A344953",
     "A344956",
     "A344957",
     "A344959"

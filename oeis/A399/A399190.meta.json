@@ -1,0 +1,19 @@
+{
+  "description": "Number of numbers equal to the sum of the swinging factorials (A056040) of their base-n digits.",
+  "id": "A399190",
+  "mentions": [
+    "A014080",
+    "A056040",
+    "A260651"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

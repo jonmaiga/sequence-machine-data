@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n the representation of which in base 3 ends in 2*k or 2*k+1 zeros, where k is odd.",
+  "description": "Numbers m the representation of which in base 3 ends in 2*k or 2*k+1 zeros, where k is odd.",
   "id": "A217373",
   "mentions": [
+    "A007949",
+    "A010873",
     "A036554",
     "A050376",
     "A145204",

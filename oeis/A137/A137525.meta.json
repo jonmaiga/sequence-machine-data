@@ -1,16 +1,16 @@
 {
-  "description": "A triangular sequence of coefficients based on an expansion of a Catenoid like Sheffer expansion function: g(t) = t; f(t) = -1/t; p(x,t) = Exp[x*(t)]*(1 - f(t)^2).",
+  "description": "Triangle read by rows: T(n, k) = n! * [t^n*x^k] (1-1/t^2) * exp(t*x), 0 <= k <= n + 2.",
   "id": "A137525",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

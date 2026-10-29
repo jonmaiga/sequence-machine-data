@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-conjugate skew partitions of n whose diagrams have no empty rows and columns.",
+  "id": "A400281",
+  "mentions": [
+    "A000700",
+    "A225114",
+    "A399982",
+    "A400283"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of transitive relations on n labeled points with k ordered pairs, 0 <= k <= n^2.",
+  "id": "A399095",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A006905",
+    "A348634",
+    "A349849",
+    "A349919",
+    "A349927",
+    "A392460",
+    "A393216",
+    "A393238",
+    "A393295",
+    "A393925",
+    "A393974",
+    "A394722",
+    "A394732",
+    "A394769",
+    "A395093",
+    "A395544"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

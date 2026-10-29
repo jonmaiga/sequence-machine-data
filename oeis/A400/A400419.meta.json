@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions on [n] whose connected components have the same size.",
+  "id": "A400419",
+  "mentions": [
+    "A001865",
+    "A209324",
+    "A350135"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

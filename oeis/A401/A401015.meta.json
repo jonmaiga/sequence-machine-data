@@ -1,0 +1,25 @@
+{
+  "description": "Digital roots of A006527(n), the number of unit tetrahedra in a regular tetrahedron subdivided into a tetrahedral-octahedral lattice.",
+  "id": "A401015",
+  "mentions": [
+    "A000292",
+    "A000330",
+    "A005900",
+    "A006003",
+    "A006527",
+    "A007588",
+    "A010888",
+    "A267017"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "joeis"
+  }
+}

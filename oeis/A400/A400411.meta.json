@@ -1,0 +1,22 @@
+{
+  "description": "Number of deals of n cards numbered 1 to n between two players for which the card game War never ends.",
+  "id": "A400411",
+  "mentions": [
+    "A000375",
+    "A006519",
+    "A029744",
+    "A110017",
+    "A240567",
+    "A400868"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

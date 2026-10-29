@@ -1,0 +1,17 @@
+{
+  "description": "Numbers j, such that there exists no k, k<j, where 2*k-sigma(k) = 2*j-sigma(j) and tau(k) = tau(j).",
+  "id": "A398830",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A033879"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

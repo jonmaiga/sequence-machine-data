@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: number of permutations in S_n avoiding all k-length patterns starting with fixed m, 2",
+  "description": "Triangle T(n,k) read by rows: number of permutations in S_n avoiding all k-length patterns starting with fixed m, 2<k<=n, 1<=m<=k.",
   "id": "A104001",
   "mentions": [
     "A000079",

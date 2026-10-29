@@ -1,0 +1,16 @@
+{
+  "description": "Refactorable numbers k (A033950) such that d(k/d(k)) = d(d(k)), where d(x) is the number of divisors of x (A000005).",
+  "id": "A400850",
+  "mentions": [
+    "A000005",
+    "A033950"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

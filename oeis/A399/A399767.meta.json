@@ -1,0 +1,28 @@
+{
+  "description": "Number of transitive relations on unlabeled points with no isolated point and no connected component consisting of a single arrow, having defect n, where the defect of a relation with v points and e related pairs is 2*e - v.",
+  "id": "A399767",
+  "mentions": [
+    "A022016",
+    "A091073",
+    "A125697",
+    "A125700",
+    "A125701",
+    "A296105",
+    "A342447",
+    "A399030",
+    "A399304",
+    "A399771",
+    "A399913"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

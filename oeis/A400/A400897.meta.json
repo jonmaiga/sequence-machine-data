@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator(1 - (n^2 - n + 2)/2^n).",
+  "id": "A400897",
+  "mentions": [
+    "A000079",
+    "A386480",
+    "A400896"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

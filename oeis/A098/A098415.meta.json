@@ -1,5 +1,5 @@
 {
-  "description": "Greatest members r of prime triples (p,q,r) with p",
+  "description": "Greatest members r of prime triples (p,q,r) with p<q<r=p+6.",
   "id": "A098415",
   "mentions": [
     "A007529",

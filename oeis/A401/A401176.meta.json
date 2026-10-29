@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n - min_{k > n, k composite} (k - lpf(k)), where lpf(k) is the least prime factor of k.",
+  "id": "A401176",
+  "mentions": [
+    "A020639",
+    "A322292"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

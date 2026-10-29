@@ -2,11 +2,13 @@
   "description": "Primes p such that both p+-4 are not squarefree.",
   "id": "A155140",
   "mentions": [
+    "A005596",
     "A049282",
     "A153213",
     "A155139",
     "A155141",
-    "A155142"
+    "A155142",
+    "A271780"
   ],
   "tags": [
     "nonn"

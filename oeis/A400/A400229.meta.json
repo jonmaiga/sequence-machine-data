@@ -1,0 +1,17 @@
+{
+  "description": "The sequence of side-lengths that occur when drawing a sequence of squares in the plane with integer side lengths such that the bottom-left corner of the k-th square is at the nonnegative integer point (k, y_k), subject to the conditions that (1) the interior of each square has a distinct pattern made by the perimeters of the other squares, and (2) the sequence (a(0), y_0, a(1), y_1, a(2), y_2, ...) is the lexicographically earliest such infinite sequence.",
+  "id": "A400229",
+  "mentions": [
+    "A400230",
+    "A400728",
+    "A400729"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

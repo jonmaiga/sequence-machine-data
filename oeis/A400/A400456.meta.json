@@ -1,0 +1,20 @@
+{
+  "description": "Let m be the n-th hyperoperation applied to n (see A189896). a(n) is the n-th hyperoperation applied to m.",
+  "id": "A400456",
+  "mentions": [
+    "A189896",
+    "A213619",
+    "A399497",
+    "A400199",
+    "A400200"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

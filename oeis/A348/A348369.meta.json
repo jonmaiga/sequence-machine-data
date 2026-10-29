@@ -2,7 +2,6 @@
   "description": "Number of ways A328596(n) (the reversed binary expansion is an aperiodic necklace) can be expressed as sum A328596(k) + A328596(m) with 0 < k,m < n. The cases A328596(k) + A328596(m) and A328596(m) + A328596(k) are considered equal.",
   "id": "A348369",
   "mentions": [
-    "A000040",
     "A328596",
     "A348268",
     "A348352"

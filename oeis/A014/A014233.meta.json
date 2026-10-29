@@ -1,5 +1,5 @@
 {
-  "description": "Smallest odd number for which Miller-Rabin primality test on bases <= n-th prime does not reveal compositeness.",
+  "description": "Smallest odd composite number that is a strong pseudoprime to each of the first n prime bases.",
   "id": "A014233",
   "mentions": [
     "A006945"

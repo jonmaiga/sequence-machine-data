@@ -1,5 +1,5 @@
 {
-  "description": "Number of signed trees with n nodes and p positive edges. Triangle T(n,p) read by rows, 0<=p",
+  "description": "Number of signed trees with n nodes and p positive edges. Triangle T(n,p) read by rows, 0<=p<n.",
   "id": "A302939",
   "mentions": [
     "A000055",

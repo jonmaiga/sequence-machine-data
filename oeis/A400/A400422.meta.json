@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the (n+1) X (n+1) circulant matrix whose rows are formed by successively rotating the vector (binomial(n,0), ..., binomial(n,n)) right.",
+  "id": "A400422",
+  "mentions": [
+    "A199572",
+    "A392131",
+    "A392132"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

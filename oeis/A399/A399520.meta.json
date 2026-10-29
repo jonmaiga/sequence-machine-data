@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - A000149(A000195(n)), where A000149 = floor o exp, A000195 = floor o log.",
+  "id": "A399520",
+  "mentions": [
+    "A000149",
+    "A000195",
+    "A004790",
+    "A057427"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

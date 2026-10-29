@@ -2,6 +2,7 @@
   "description": "The minimum number of 1's in the relation n*[n,1,1,...,1,n] = [x,...,x] between simple continued fractions.",
   "id": "A213648",
   "mentions": [
+    "A000045",
     "A000057",
     "A001177",
     "A213891",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 2,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

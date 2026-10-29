@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer pairs (x,y) such that 0",
+  "description": "Number of integer pairs (x,y) such that 0<x<y<=n and x*y=floor(n/2).",
   "id": "A211263",
   "mentions": [
     "A056924",

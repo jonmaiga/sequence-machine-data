@@ -1,5 +1,5 @@
 {
-  "description": "Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> cba where a",
+  "description": "Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> cba where a<b<c.",
   "id": "A212418",
   "mentions": [
     "A210669"

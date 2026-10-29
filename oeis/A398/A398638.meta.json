@@ -1,0 +1,19 @@
+{
+  "description": "Number of quasi-cubic graphs on 2*n + 1 vertices.",
+  "id": "A398638",
+  "mentions": [
+    "A398639",
+    "A398640",
+    "A398641",
+    "A399014"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

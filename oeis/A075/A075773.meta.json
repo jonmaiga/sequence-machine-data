@@ -1,5 +1,5 @@
 {
-  "description": "Let {b(n)} be the sequence of perfect powers (A001597); then a(n) = max { b(n)-b(n-1), b(n+1)-b(n) }.",
+  "description": "Let {b(n)} be the sequence of perfect powers (A001597), with b(0) = 0; then a(n) = max { b(n)-b(n-1), b(n+1)-b(n) }.",
   "id": "A075773",
   "mentions": [
     "A001597",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

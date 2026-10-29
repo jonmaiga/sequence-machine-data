@@ -1,17 +1,20 @@
 {
-  "description": "Triangle of counts of s-clusters in n X n (0,1)-matrices for s=0, 1, ....",
+  "description": "Triangle read by rows: T(n,s) is the number of s-clusters in n X n (0,1)-matrices, s=0..A000982(n).",
   "id": "A086266",
   "mentions": [
+    "A000982",
+    "A002416",
+    "A059525",
     "A086265"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

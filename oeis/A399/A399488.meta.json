@@ -1,0 +1,15 @@
+{
+  "description": "Number of permutations p of [n] such that lcm(i, p(i)) >= n for all i in [n].",
+  "id": "A399488",
+  "mentions": [
+    "A354756"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

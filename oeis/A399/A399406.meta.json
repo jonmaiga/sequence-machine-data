@@ -1,0 +1,29 @@
+{
+  "description": "Order array, U, of the array W given by w(n, k) = k*(n + e), for n >= 1, k >= 1, a rectangular array, read by descending antidiagonals; see Comments.",
+  "id": "A399406",
+  "mentions": [
+    "A001113",
+    "A399407",
+    "A399408",
+    "A399409",
+    "A399410",
+    "A399411",
+    "A399412",
+    "A399413",
+    "A399414",
+    "A399415",
+    "A399416",
+    "A399417",
+    "A399418"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

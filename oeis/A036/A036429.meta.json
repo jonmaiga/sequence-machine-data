@@ -1,5 +1,5 @@
 {
-  "description": "Primes related to Carmichael numbers of the form pqr, p",
+  "description": "Primes related to Carmichael numbers of the form pqr, p<q<r and p-1 a divisor of both q-1 and r-1.",
   "id": "A036429",
   "mentions": [],
   "tags": [

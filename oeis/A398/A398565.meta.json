@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3^(2^n - 1).",
+  "id": "A398565",
+  "mentions": [
+    "A000225"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

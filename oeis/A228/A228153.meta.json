@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by columns: T(n,k) = maximal external path length of AVL trees of height n with k (leaf-) nodes, k>=1, A029837(k)<=n",
+  "description": "Triangle read by columns: T(n,k) = maximal external path length of AVL trees of height n with k (leaf-) nodes, k>=1, A029837(k)<=n<A072649(k).",
   "id": "A228153",
   "mentions": [
     "A003314",

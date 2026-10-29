@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) = a(a(n-1)) + a(n-a(n-1)) + (-1)^n.",
+  "id": "A399773",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A005229",
+    "A092526",
+    "A394051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes occurring in exactly three prime triples (p,q,r) with p",
+  "description": "Primes occurring in exactly three prime triples (p,q,r) with p<q<r=p+6.",
   "id": "A098423",
   "mentions": [
     "A000040",

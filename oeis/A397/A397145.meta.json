@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] where k is the product of the number of odd weak excedances and the number of even weak excedances of p; triangle T(n,k), n>=0, 0 <= k <= floor(n^2/4), read by rows.",
+  "id": "A397145",
+  "mentions": [
+    "A000142",
+    "A002620",
+    "A010551",
+    "A123125",
+    "A178420",
+    "A360288",
+    "A360289",
+    "A395245"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

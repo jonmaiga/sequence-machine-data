@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs (d, e) of divisors of n with d < e < 2*d.",
+  "id": "A399440",
+  "mentions": [
+    "A000005",
+    "A174903",
+    "A397433"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

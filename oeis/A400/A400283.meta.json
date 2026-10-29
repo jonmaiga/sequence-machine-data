@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/sqrt(x0), where x0 is the smallest positive x with J_0(x) = J_1(x).",
+  "id": "A400283",
+  "mentions": [
+    "A301735",
+    "A400281",
+    "A400284"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

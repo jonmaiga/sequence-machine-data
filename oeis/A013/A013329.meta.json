@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. arcsin(exp(x) - sec(x)).",
+  "description": "Expansion of e.g.f.: arcsin(exp(x) - sec(x)).",
   "id": "A013329",
   "mentions": [],
   "tags": [

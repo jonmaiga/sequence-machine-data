@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^n * exp(1/n) * Gamma(n - k + 1, 1/n) for n >= 1, a(0) = 1. Row sums of A398480.",
+  "id": "A398481",
+  "mentions": [
+    "A398480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

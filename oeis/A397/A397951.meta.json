@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using L and T tetrominoes that are indecomposable with respect to the second dimension.",
+  "id": "A397951",
+  "mentions": [
+    "A233191",
+    "A348909"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

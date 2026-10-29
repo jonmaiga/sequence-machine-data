@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of permutations of , such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime.",
+  "description": "a(n) = number of permutations <p(1), p(2), ..., p(n)> of <1, 2, ..., n>, such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime.",
   "id": "A097277",
   "mentions": [
     "A097278"

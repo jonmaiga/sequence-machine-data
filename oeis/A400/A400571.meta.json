@@ -1,0 +1,24 @@
+{
+  "description": "Array A(n,k) read by antidiagonals, where A(n,k) is the surface area of an n-dimensional hyperrectangle obtained from the unit n-cube by adding k unit layers, one dimension at a time, maximizing the surface area at each step.",
+  "id": "A400571",
+  "mentions": [
+    "A005843",
+    "A007395",
+    "A008590",
+    "A016825",
+    "A030511",
+    "A057711",
+    "A152072"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

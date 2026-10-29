@@ -2,15 +2,20 @@
   "description": "Numbers whose base-3 representation contains exactly one 0 and no 1's.",
   "id": "A044970",
   "mentions": [
-    "A007089"
+    "A002024",
+    "A004736",
+    "A007089",
+    "A044994"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "joeis"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

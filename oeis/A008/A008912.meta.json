@@ -1,5 +1,5 @@
 {
-  "description": "Truncated triangular numbers (of form n*(n-3)/2 - k^2+k*n+1 for 1<=k",
+  "description": "Truncated triangular numbers (of form n*(n-3)/2 - k^2+k*n+1 for 1<=k<n).",
   "id": "A008912",
   "mentions": [
     "A008867"

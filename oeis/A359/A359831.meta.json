@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimitive elements of A235992: numbers k such that their arithmetic derivative (A003415) is even, and also for some divisor d|k, 1",
+  "description": "Nonprimitive elements of A235992: numbers k such that their arithmetic derivative (A003415) is even, and also for some divisor d|k, 1<d<k, both d and k/d have even derivative.",
   "id": "A359831",
   "mentions": [
     "A003415",

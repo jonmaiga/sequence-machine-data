@@ -1,9 +1,7 @@
 {
   "description": "Take the first 2n integers and using each integer once and only once as either a numerator or a denominator, construct n fractions whose sum is an integer; a(n) = number of distinct solutions for n.",
   "id": "A060146",
-  "mentions": [
-    "A048298"
-  ],
+  "mentions": [],
   "tags": [
     "nonn"
   ],

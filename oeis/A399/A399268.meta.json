@@ -1,0 +1,22 @@
+{
+  "description": "Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the 6-dimensional hypercubic lattice that use all six coordinate axes and have no pair of nonconsecutive vertices that are adjacent in the lattice.",
+  "id": "A399268",
+  "mentions": [
+    "A038729",
+    "A038746",
+    "A038748",
+    "A323037",
+    "A323063"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

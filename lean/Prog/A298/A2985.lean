@@ -9,53 +9,56 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,8 +83,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A298500: Number of nX7 0..1 arrays with every element equal to 0, 1, 3, 4 or 7 king-move adjacent elements, with upper left element zero.
@@ -1057,27 +1058,6 @@ end
 end A298509.P10528478870377342277
 
 /-!
-# A298510: a(n) = (n!)*2^(n-1)*mu_h(n) where mu_h is the hypergeometric Moebius function associated to the Dirichlet character modulo 4 h={1,0,-1,0,1,...} (see comment).
-
-The programs for A298510, there is no canonical definition to state claims against.
--/
-
-/-! ## A298510.P9527061847044529998
-
-`A366937(n+1)-A241457(A238626(n+5))`
--/
-
-namespace A298510.P9527061847044529998
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366937 (n + 1) - A241457 (A238626 (n + 5)).toNat
-
-end
-
-end A298510.P9527061847044529998
-
-/-!
 # A298511: Central Lehmer-Comtet numbers of the first kind: a(n) = A008296(2n,n).
 
 The programs for A298511, there is no canonical definition to state claims against.
@@ -1527,56 +1507,6 @@ end
 
 end A298536.P12610955221944211958
 
-/-! ## A298536.P13406527932237318291
-
-`lt[A356655(2*n), comp[A356626(n)]]`
--/
-
-namespace A298536.P13406527932237318291
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356655 (2 * n)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356626 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A298536.P13406527932237318291
-
-/-! ## A298536.P17229090919074291524
-
-`lt[A356655(2*n), comp[A356632(n)]]`
--/
-
-namespace A298536.P17229090919074291524
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356655 (2 * n)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356632 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A298536.P17229090919074291524
-
 /-! ## A298536.P14003471551785374243
 
 `eq[A266174(n), A293896(A027642(n))]`
@@ -1597,60 +1527,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A298536.P14003471551785374243
-
-/-!
-# A298537: Number of unlabeled rooted trees with n nodes such that every branch of the root has the same number of nodes.
-
-The programs for A298537, there is no canonical definition to state claims against.
--/
-
-/-! ## A298537.P10402583468451185481
-
-`A283970(A374686(n))`
--/
-
-namespace A298537.P10402583468451185481
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283970 (A374686 n).toNat
-
-end
-
-end A298537.P10402583468451185481
-
-/-! ## A298537.P1409584794868468187
-
-`A283970(A397379(n))`
--/
-
-namespace A298537.P1409584794868468187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283970 (A397379 n).toNat
-
-end
-
-end A298537.P1409584794868468187
-
-/-! ## A298537.P16423498180403709894
-
-`∑[A086826(n)-A051766(n+1)²]`
--/
-
-namespace A298537.P16423498180403709894
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086826 n - A051766 (n + 1) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A298537.P16423498180403709894
 
 /-!
 # A298538: Matula-Goebel numbers of rooted trees such that every branch of the root has the same number of nodes.
@@ -3711,16 +3587,39 @@ end A298563.P15889171357448815988
 /-!
 # A298564: a(n) = (3^(n+2)+11)/2 - 5*2^(n+1) + 2*n.
 
-The programs for A298564, the canonical program `A298564.P17143947217949679530` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298564 has offset 0).
+The programs for A298564, the canonical program `A298564.P17143947217949679530` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298564 has offset 0).
 
 The definition of A298564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A298564.P11563709154612849130
+
+`ogf((x+3x^2)/(1-7x+17x^2-17x^3+6x^4))`
+-/
+
+namespace A298564.P11563709154612849130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 3] [1, -7, 17, -17, 6] n
+
+end
+
+end A298564.P11563709154612849130
+
+namespace A298564
+
+/-- `ogf((x+3x^2)/(1-7x+17x^2-17x^3+6x^4))` -/
+def P11563709154612849130.Spec : Prop :=
+  ∀ n, P11563709154612849130.a n = A298564 n
+
+end A298564
 
 /-! ## A298564.P17143947217949679530
 
 `(3^(n+2)+11)/2-5*2^(n+1)+2*n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A298564
@@ -4014,7 +3913,7 @@ end A298568.P8149818433518169462
 /-!
 # A298569: Number of nX2 0..1 arrays with every element equal to 0, 2, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
 
-The programs for A298569, the canonical program `A298569.P3385328400592347379` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298569 has offset 1).
+The programs for A298569, the canonical program `A298569.P3385328400592347379` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298569 has offset 1).
 
 The definition of A298569 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4023,7 +3922,7 @@ The definition of A298569 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+8*a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A298569
@@ -5666,6 +5565,24 @@ end
 
 end A298590.P8808679427741932863
 
+/-! ## A298590.P14205868310390641072
+
+`∑{#}[A291481(n)-1, A293630(#+1)]`
+-/
+
+namespace A298590.P14205868310390641072
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291481 n - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, A293630 (k + 1)
+
+end
+
+end A298590.P14205868310390641072
+
 /-! ## A298590.P10341756949735549342
 
 `2*eq[23, lcm(23, lcm(8, n)/8)]+1`
@@ -5686,21 +5603,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A298590.P10341756949735549342
-
-/-! ## A298590.P6760889062440806774
-
-`2*A018323(n+1)+1`
--/
-
-namespace A298590.P6760889062440806774
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A018323 (n + 1) + 1
-
-end
-
-end A298590.P6760889062440806774
 
 /-!
 # A298592: Triangle read by rows: T(n,k) = number of parking functions of length n whose lead number is k.
@@ -6114,6 +6016,21 @@ end
 
 end A298596.P8689555327749845934
 
+/-! ## A298596.P17014005699913992267
+
+`(A033148(3*n+5)-A002865(n))%2`
+-/
+
+namespace A298596.P17014005699913992267
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A033148 (3 * n + 5) - A002865 n) 2
+
+end
+
+end A298596.P17014005699913992267
+
 /-! ## A298596.P2765532223320783817
 
 `∏{p}[A084376(n), A089045(#)]`
@@ -6131,21 +6048,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298596.P2765532223320783817
-
-/-! ## A298596.P17014005699913992267
-
-`(A033148(3*n+5)-A002865(n))%2`
--/
-
-namespace A298596.P17014005699913992267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A033148 (3 * n + 5) - A002865 n) 2
-
-end
-
-end A298596.P17014005699913992267
 
 /-! ## A298596.P4393700699143498351
 

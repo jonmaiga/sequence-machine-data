@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that there are exactly n primes p such that (k/p)^2 + 1 is prime.",
+  "id": "A398897",
+  "mentions": [
+    "A359249",
+    "A400135"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

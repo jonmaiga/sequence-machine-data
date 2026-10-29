@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct unordered pairwise sums with repetition of the distinct multinomial coefficient values of order n having more than one representation.",
+  "id": "A398238",
+  "mentions": [
+    "A070289",
+    "A210237",
+    "A398230",
+    "A398231",
+    "A398232",
+    "A398233",
+    "A398237",
+    "A398263",
+    "A398265",
+    "A398429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

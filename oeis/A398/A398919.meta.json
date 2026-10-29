@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty sets of pairwise commuting derangements of [n].",
+  "id": "A398919",
+  "mentions": [
+    "A000166",
+    "A160870",
+    "A399972"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

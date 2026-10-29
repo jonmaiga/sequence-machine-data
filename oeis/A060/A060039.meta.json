@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = 1 if k-th prime is a square mod the n-th prime, otherwise 0, for 1<=k",
+  "description": "Triangle T(n,k) = 1 if k-th prime is a square mod the n-th prime, otherwise 0, for 1<=k<n.",
   "id": "A060039",
   "mentions": [
     "A060038"

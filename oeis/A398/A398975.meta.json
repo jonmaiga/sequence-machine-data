@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that a(n) equals the number of fixed points within distance a(n) of n.",
+  "id": "A398975",
+  "mentions": [
+    "A000069",
+    "A010060",
+    "A104248",
+    "A143331"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

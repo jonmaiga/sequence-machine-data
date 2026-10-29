@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = 2^(n - 1) (n - mod(n, 2)).",
+  "description": "a(n) = 2^(n - 1) * (n - mod(n, 2)).",
   "id": "A291938",
   "mentions": [
-    "A004526"
+    "A004526",
+    "A134353",
+    "A274497"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 32,
     "source": "joeis"
   }
 }

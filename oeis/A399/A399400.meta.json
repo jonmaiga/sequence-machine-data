@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of perfect matchings in the k-twisted 2*n X 2*n torus grid graph, 0 <= k <= n.",
+  "id": "A399400",
+  "mentions": [
+    "A335586",
+    "A399398",
+    "A399399"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

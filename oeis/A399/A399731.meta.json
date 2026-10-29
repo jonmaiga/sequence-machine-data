@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled point-determining (mating) graphs on 2n vertices in which every vertex has odd degree.",
+  "id": "A399731",
+  "mentions": [
+    "A006024",
+    "A122067",
+    "A399730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

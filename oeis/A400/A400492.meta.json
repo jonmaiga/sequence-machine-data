@@ -1,0 +1,21 @@
+{
+  "description": "Consider the finite sequence S(n) consisting of those primes in which every suffix is prime and there is no run of more than n consecutive zeros; a(n) is the number of terms in S(n).",
+  "id": "A400492",
+  "mentions": [
+    "A024785",
+    "A033664",
+    "A308711",
+    "A400420"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

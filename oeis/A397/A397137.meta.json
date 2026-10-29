@@ -1,0 +1,18 @@
+{
+  "description": "Sum of excess shadings of all permutations of [n] using a reflected interval shading.",
+  "id": "A397137",
+  "mentions": [
+    "A395245",
+    "A398003"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

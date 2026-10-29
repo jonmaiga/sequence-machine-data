@@ -1,5 +1,5 @@
 {
-  "description": "A fractal transform of the Lucas numbers: define a(1)=1, then if L(n)",
+  "description": "A fractal transform of the Lucas numbers: define a(1)=1, then if L(n)<k<=L(n+1) a(k) = L(n+1) - a(k-L(n)) where L(n) = A000032(n).",
   "id": "A118287",
   "mentions": [
     "A000032",

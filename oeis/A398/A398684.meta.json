@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of two-dimensional minimum-variance onion constant.",
+  "id": "A398684",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

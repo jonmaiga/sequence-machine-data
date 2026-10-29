@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions k of C(2k,k)=C(2n,n) (mod n), where 1<=k",
+  "description": "Number of solutions k of C(2k,k)=C(2n,n) (mod n), where 1<=k<n.",
   "id": "A206828",
   "mentions": [
     "A206588"

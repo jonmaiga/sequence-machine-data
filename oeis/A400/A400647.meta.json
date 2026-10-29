@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2; a(n+1) is the least prime factor of 1 + Product_{k=1..n, a(k) active} a(k) which is not yet in the sequence, where a(k) becomes permanently inactive as soon as some later a(j), j>k, is less than a(k).",
+  "id": "A400647",
+  "mentions": [
+    "A000945",
+    "A020639",
+    "A400347"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

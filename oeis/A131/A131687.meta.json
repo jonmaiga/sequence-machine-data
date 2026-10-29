@@ -1,12 +1,20 @@
 {
-  "description": "Days of the year that are prime numbers in format mmdd (2-digit month followed by 2-digit year).",
+  "description": "Days of the year that are prime numbers in format mmdd (2-digit month followed by 2-digit day).",
   "id": "A131687",
-  "mentions": [],
+  "mentions": [
+    "A327346",
+    "A327347",
+    "A327348",
+    "A327349",
+    "A327914",
+    "A327915"
+  ],
   "tags": [
     "base",
     "easy",
     "fini",
     "full",
+    "less",
     "nonn"
   ],
   "terms": {

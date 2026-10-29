@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle in which the n-th row contains the distinct possible parity vectors of length A020914(n) under the Collatz map A014682.",
+  "id": "A398646",
+  "mentions": [
+    "A014682",
+    "A020914",
+    "A070168",
+    "A122437",
+    "A177789",
+    "A260592"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

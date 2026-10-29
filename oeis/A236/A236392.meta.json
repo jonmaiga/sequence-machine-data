@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (x+x^3+x^4)/(1-x-x^3-2*x^4).",
+  "description": "Expansion of g.f. (x+x^3+x^4)/(1-x-x^3-2*x^4).",
   "id": "A236392",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

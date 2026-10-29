@@ -1,5 +1,5 @@
 {
-  "description": "Pi*denominators of odd raw moments in the distribution of line lengths for lines picked at random in the unit disk.",
+  "description": "Denominators of Pi times the odd raw moments in the distribution of line lengths for lines picked at random in the unit disk.",
   "id": "A093529",
   "mentions": [
     "A093070",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled mating graphs whose family of open neighborhoods is connected.",
+  "id": "A399827",
+  "mentions": [
+    "A006024",
+    "A092430",
+    "A232700",
+    "A399826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

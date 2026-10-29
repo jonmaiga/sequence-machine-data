@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of length n over the 18 Half Turn Metric (HTM/FTM) generators {U,D,L,R,F,B,U',D',L',R',F',B',U2,D2,L2,R2,F2,B2} whose product in the Rubik's Cube group has the maximum order among all words of that length.",
+  "id": "A398896",
+  "mentions": [
+    "A338883",
+    "A398318",
+    "A398895"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

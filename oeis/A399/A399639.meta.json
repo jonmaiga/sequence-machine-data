@@ -1,0 +1,19 @@
+{
+  "description": "Index of the first occurrence of n in A399381.",
+  "id": "A399639",
+  "mentions": [
+    "A005117",
+    "A399381",
+    "A399640"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

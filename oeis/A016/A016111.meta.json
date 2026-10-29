@@ -1,14 +1,23 @@
 {
-  "description": "Expansion of 1/((1-11x)(1-12x)(1-13x)(1-14x)(1-15x)).",
+  "description": "Expansion of g.f. 1/((1-11*x)*(1-12*x)*(1-13*x)*(1-14*x)*(1-15*x)).",
   "id": "A016111",
-  "mentions": [],
+  "mentions": [
+    "A003468",
+    "A035348",
+    "A046166",
+    "A046167",
+    "A046168",
+    "A046169",
+    "A057668"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

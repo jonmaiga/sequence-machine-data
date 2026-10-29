@@ -1,5 +1,5 @@
 {
-  "description": "Smaller member of a prime pair (n, n+6) with a square sum.",
+  "description": "Smaller member of a prime pair (p, p+6) with a square sum.",
   "id": "A086776",
   "mentions": [
     "A023201",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

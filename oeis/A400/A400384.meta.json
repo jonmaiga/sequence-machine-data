@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers whose divisors can be partitioned into two disjoint subsets with sums differing by 5.",
+  "id": "A400384",
+  "mentions": [
+    "A028982",
+    "A083207",
+    "A103977",
+    "A379503"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

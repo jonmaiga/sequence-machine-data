@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form k*2^m-1 with k",
+  "description": "Numbers of the form k*2^m-1 with k<2^m and k odd.",
   "id": "A112714",
   "mentions": [
     "A080075"

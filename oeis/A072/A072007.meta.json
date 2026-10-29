@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0; for n>=1, a(n)=least nonnegative integer x such that |x-a(n-1)|>=n and x is not a(k) for any k",
+  "description": "a(0) = 0; for n>=1, a(n)=least nonnegative integer x such that |x-a(n-1)|>=n and x is not a(k) for any k<n.",
   "id": "A072007",
   "mentions": [
     "A072008",

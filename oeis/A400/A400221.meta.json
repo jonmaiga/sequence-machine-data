@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors of 3360^n.",
+  "id": "A400221",
+  "mentions": [
+    "A000005",
+    "A000567",
+    "A000583",
+    "A001622",
+    "A001792",
+    "A002117",
+    "A005408",
+    "A016756",
+    "A103532"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the partition numbers. Square array read by ascending antidiagonals.",
+  "id": "A398990",
+  "mentions": [
+    "A000041",
+    "A218481",
+    "A281425",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

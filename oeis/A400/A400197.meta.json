@@ -1,0 +1,18 @@
+{
+  "description": "The union of the squares (A000290) and the integer 2.",
+  "id": "A400197",
+  "mentions": [
+    "A000290",
+    "A377091",
+    "A400196"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

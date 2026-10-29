@@ -1,19 +1,24 @@
 {
-  "description": "Total number of neighbor contacts for n-step self-avoiding walks on a 2D square lattice.",
+  "description": "Total number of nearest-neighbor contacts over all n-step self-avoiding walks on the square lattice.",
   "id": "A336492",
   "mentions": [
+    "A001411",
     "A033155",
+    "A033323",
+    "A038746",
     "A038747",
     "A047057",
     "A173380",
     "A174319"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

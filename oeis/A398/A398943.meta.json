@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the long/short edge length ratio of a canonical (dual-uniform) 10-gonal trapezohedron.",
+  "id": "A398943",
+  "mentions": [
+    "A188593",
+    "A398938",
+    "A398939",
+    "A398940",
+    "A398941",
+    "A398942",
+    "A398944",
+    "A398945",
+    "A398946"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

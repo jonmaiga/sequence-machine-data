@@ -1,5 +1,5 @@
 {
-  "description": "Prime(A205712(n)), the n-th number s(k) such that 9 divides s(k)-s(j) for some j",
+  "description": "Prime(A205712(n)), the n-th number s(k) such that 9 divides s(k)-s(j) for some j<k, where s(j)=prime(j).",
   "id": "A205714",
   "mentions": [
     "A204890",

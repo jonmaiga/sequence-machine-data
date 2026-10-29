@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic rectangular doppelsemigroups of order n.",
+  "id": "A397782",
+  "mentions": [
+    "A027851",
+    "A390162",
+    "A399676",
+    "A399678",
+    "A399679"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

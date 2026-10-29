@@ -19,6 +19,10 @@
         "gcd",
         "^",
         "∑{d}"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

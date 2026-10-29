@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = p*q^2, where p and q are distinct primes, such that k+1 is a prime power with exponent >= 2.",
+  "id": "A399632",
+  "mentions": [
+    "A004061",
+    "A054753",
+    "A086122",
+    "A246547"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

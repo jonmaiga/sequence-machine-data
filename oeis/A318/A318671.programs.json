@@ -275,6 +275,19 @@
         "A053994",
         "gcd"
       ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "round(sin(runs[contfrac[tanh(9)]]))",
+      "mt": 63,
+      "px": [
+        "9",
+        "tanh",
+        "contfrac",
+        "runs",
+        "sin",
+        "round"
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write 2n as the sum of two integers each of which has an odd number of prime factors counted with multiplicity.",
+  "id": "A400541",
+  "mentions": [
+    "A001222",
+    "A002375",
+    "A008836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

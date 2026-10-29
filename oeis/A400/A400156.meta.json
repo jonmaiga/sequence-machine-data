@@ -1,0 +1,24 @@
+{
+  "description": "Intersection of A373487 and A399379.",
+  "id": "A400156",
+  "mentions": [
+    "A003415",
+    "A007947",
+    "A048103",
+    "A276085",
+    "A276086",
+    "A369650",
+    "A373487",
+    "A399379"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p",
+  "description": "Number of primes p<n such that 6n-p and 6n+p are both prime.",
   "id": "A219025",
   "mentions": [
     "A000040",

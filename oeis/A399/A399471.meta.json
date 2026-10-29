@@ -1,0 +1,27 @@
+{
+  "description": "Irregular array read by rows: T(n, k) is the number of inclusion-maximal Sidon subsets of the set of positive divisors of n having cardinality k, for A399469(n) <= k <= A398434(n).",
+  "id": "A399471",
+  "mentions": [
+    "A000005",
+    "A325879",
+    "A382397",
+    "A398433",
+    "A398434",
+    "A398435",
+    "A398577",
+    "A399118",
+    "A399119",
+    "A399469",
+    "A399470"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

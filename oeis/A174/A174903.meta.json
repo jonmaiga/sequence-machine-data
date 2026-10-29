@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors d of n such that d",
+  "description": "Number of divisors d of n such that d<e<2*d for at least another divisor e of n.",
   "id": "A174903",
   "mentions": [
     "A000005",

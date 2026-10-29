@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of tilings of a 5 X 2n rectangle into Z-tetrominoes and U-pentominoes.",
+  "id": "A399185",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

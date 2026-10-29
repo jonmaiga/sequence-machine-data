@@ -6,61 +6,66 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -277,16 +282,16 @@ end A161002.P7163392853531585238
 /-!
 # A161003: A list of the composite numbers divided by their largest prime factors.
 
-The programs for A161003, the canonical program `A161003.P1160852448560439033` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161003 has offset 1).
+The programs for A161003, the canonical program `A161003.P1160852448560439033` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161003 has offset 1).
 
-The definition of A161003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A052369, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A161003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052369, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A161003.P1160852448560439033
 
 `A002808(n+1)/A052369(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A161003
@@ -996,25 +1001,10 @@ end A161006.P12101422897569952463
 /-!
 # A161007: a(n+1) = 2*a(n) + 16*a(n-1), a(0)=0, a(1)=1.
 
-The programs for A161007, the canonical program `A161007.P2914204989081213446` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161007 has offset 0).
+The programs for A161007, the canonical program `A161007.P2914204989081213446` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161007 has offset 0).
 
 The definition of A161007 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A161007.P2914204989081213446
-
-`((1+sqrt(17))^n-(1-sqrt(17))^n)/(2*sqrt(17))`
-
-The canonical program, it is in `Seq.B000.C023`.
--/
-
-namespace A161007
-
-/-- `((1+sqrt(17))^n-(1-sqrt(17))^n)/(2*sqrt(17))` -/
-def P2914204989081213446.Spec : Prop :=
-  ∀ n, P2914204989081213446.a n = (A161007 n : ℝ)
-
-end A161007
 
 /-! ## A161007.P5637157931475362675
 
@@ -1036,6 +1026,21 @@ namespace A161007
 /-- `ogf(x/(1-2x-16x^2))` -/
 def P5637157931475362675.Spec : Prop :=
   ∀ n, P5637157931475362675.a n = A161007 n
+
+end A161007
+
+/-! ## A161007.P2914204989081213446
+
+`((1+sqrt(17))^n-(1-sqrt(17))^n)/(2*sqrt(17))`
+
+The canonical program, it is in `Seq.B000.C026`.
+-/
+
+namespace A161007
+
+/-- `((1+sqrt(17))^n-(1-sqrt(17))^n)/(2*sqrt(17))` -/
+def P2914204989081213446.Spec : Prop :=
+  ∀ n, P2914204989081213446.a n = (A161007 n : ℝ)
 
 end A161007
 
@@ -1308,7 +1313,7 @@ end A161020.P16098097892996661015
 /-!
 # A161025: a(n) = Sum_{d|n} Moebius(n/d)*d^(b-1)/phi(n) for b = 15.
 
-The programs for A161025, the canonical program `A161025.P16166816335795081500` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161025 has offset 1).
+The programs for A161025, the canonical program `A161025.P16166816335795081500` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161025 has offset 1).
 
 The definition of A161025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1317,7 +1322,7 @@ The definition of A161025 is `conjectured`: the Lean definition is a formula tha
 
 `A160897(n+1)*A351302(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A161025
@@ -1578,21 +1583,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161027.P7694757031786519492
-
-/-! ## A161027.P8471781628182072629
-
-`A216278(A075497(n+1))+A101417(n)`
--/
-
-namespace A161027.P8471781628182072629
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216278 (A075497 (n + 1)).toNat + A101417 n
-
-end
-
-end A161027.P8471781628182072629
 
 /-! ## A161027.P16671755178699984130
 
@@ -2158,6 +2148,21 @@ end
 
 end A161033.P17197243044246086557
 
+/-! ## A161033.P16949826655660585494
+
+`A161084(n+1)%A000105(n)`
+-/
+
+namespace A161033.P16949826655660585494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A161084 (n + 1)) (A000105 n)
+
+end
+
+end A161033.P16949826655660585494
+
 /-! ## A161033.P4556221729020806406
 
 `or(A025469(A161336(n)), A161084(n+1))`
@@ -2226,24 +2231,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161033.P5803450648234532252
-
-/-! ## A161033.P18247002036837735482
-
-`∑{d}[n+1, A161314(#)*A369926((n+1)/#-1)]`
--/
-
-namespace A161033.P18247002036837735482
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A161314 d * A369926 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ) - 1)).toNat
-
-end
-
-end A161033.P18247002036837735482
 
 /-!
 # A161034: Number of partitions of n into positive Fibonacci numbers where every part appears at least 10 times.
@@ -2358,6 +2345,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161034.P955747091995423590
+
+/-! ## A161034.P17350777892153501589
+
+`A161085(n+1)%A000105(n)`
+-/
+
+namespace A161034.P17350777892153501589
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A161085 (n + 1)) (A000105 n)
+
+end
+
+end A161034.P17350777892153501589
 
 /-! ## A161034.P2897513901868837698
 
@@ -2500,6 +2502,21 @@ end
 
 end A161035.P13235575012540980878
 
+/-! ## A161035.P14238434292886851389
+
+`A161086(n+1)%A000664(n)`
+-/
+
+namespace A161035.P14238434292886851389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A161086 (n + 1)) (A000664 n)
+
+end
+
+end A161035.P14238434292886851389
+
 /-! ## A161035.P9458576213065588682
 
 `A161302(n+1)%A000664(n)`
@@ -2514,21 +2531,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161035.P9458576213065588682
-
-/-! ## A161035.P18217575624299998677
-
-`A001222(A163588(n+1))*A161316(n+1)`
--/
-
-namespace A161035.P18217575624299998677
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A163588 (n + 1)).toNat * A161316 (n + 1)
-
-end
-
-end A161035.P18217575624299998677
 
 /-!
 # A161036: Number of partitions of n into Fibonacci numbers where every part appears at least 12 times.
@@ -2674,20 +2676,20 @@ end
 
 end A161036.P12075625160121476456
 
-/-! ## A161036.P35429873484691530
+/-! ## A161036.P12149396708434015758
 
-`A161303(n+1)%A000105(n)`
+`A161087(n+1)%A000105(n)`
 -/
 
-namespace A161036.P35429873484691530
+namespace A161036.P12149396708434015758
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A161303 (n + 1)) (A000105 n)
+  Int.tmod (A161087 (n + 1)) (A000105 n)
 
 end
 
-end A161036.P35429873484691530
+end A161036.P12149396708434015758
 
 /-!
 # A161037: Number of partitions of n into Fibonacci numbers where every part appears at least 13 times.
@@ -2962,21 +2964,6 @@ end
 
 end A161039.P11920227492174656433
 
-/-! ## A161039.P12599537007172312971
-
-`A089850(A161104(n+1)%A007792(n))`
--/
-
-namespace A161039.P12599537007172312971
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089850 (Int.tmod (A161104 (n + 1)) (A007792 n)).toNat
-
-end
-
-end A161039.P12599537007172312971
-
 /-! ## A161039.P10750729932418790132
 
 `A267528(A161065(n+1))%A008619(A034297(n))`
@@ -3070,20 +3057,20 @@ end
 
 end A161041.P9442992219219524399
 
-/-! ## A161041.P6528160681879821393
+/-! ## A161041.P8601758089925478726
 
-`A161106(n+1)+A010051(A080438(n+1))`
+`A161067(n+1)^A362377(A070682(n))`
 -/
 
-namespace A161041.P6528160681879821393
+namespace A161041.P8601758089925478726
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161106 (n + 1) + A010051 (A080438 (n + 1)).toNat
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A161067 (n + 1) : ℚ) ^ (A362377 (A070682 n).toNat : ℤ)
 
 end
 
-end A161041.P6528160681879821393
+end A161041.P8601758089925478726
 
 /-!
 # A161042: Number of partitions of n into odd numbers where every part appears at least 6 times.
@@ -4226,7 +4213,7 @@ end A161050.P15430612309030241205
 /-!
 # A161051: Number of partitions of 2n into powers of two where every part appears at least twice.
 
-The programs for A161051, the canonical program `A161051.P17687368643804515329` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161051 has offset 1).
+The programs for A161051, the canonical program `A161051.P17687368643804515329` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161051 has offset 1).
 
 The definition of A161051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4235,7 +4222,7 @@ The definition of A161051 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[a(n-1)+a(A113497(n)%n)]` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A161051
@@ -4476,21 +4463,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161052.P2860132447659229782
-
-/-! ## A161052.P15826324485377548743
-
-`A161256(n+1)%A006521(A299277(n))`
--/
-
-namespace A161052.P15826324485377548743
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A161256 (n + 1)) (A006521 (A299277 n).toNat)
-
-end
-
-end A161052.P15826324485377548743
 
 /-! ## A161052.P8069697052107148568
 
@@ -5281,6 +5253,21 @@ end
 
 end A161059.P9988246647481051323
 
+/-! ## A161059.P16868145613923471048
+
+`A161263(n+1)%A000105(n)`
+-/
+
+namespace A161059.P16868145613923471048
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A161263 (n + 1)) (A000105 n)
+
+end
+
+end A161059.P16868145613923471048
+
 /-! ## A161059.P2620625172928479914
 
 `A161263(A209755(A252820(A000124(n+1))))`
@@ -5295,24 +5282,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161059.P2620625172928479914
-
-/-! ## A161059.P13247827718290038654
-
-`∑{d}[n+1, A161263(#)*A330055((n+1)/#-1)]`
--/
-
-namespace A161059.P13247827718290038654
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A161263 d * A330055 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ) - 1)).toNat
-
-end
-
-end A161059.P13247827718290038654
 
 /-!
 # A161060: Number of partitions of n into powers of two where every part appears at least 11 times.
@@ -5446,6 +5415,21 @@ end
 
 end A161060.P2204887889973053764
 
+/-! ## A161060.P8896791226735406128
+
+`A161264(n+1)%A000105(n)`
+-/
+
+namespace A161060.P8896791226735406128
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A161264 (n + 1)) (A000105 n)
+
+end
+
+end A161060.P8896791226735406128
+
 /-! ## A161060.P14029576201239097944
 
 `and(A153788(n*A161264(n+1)), A161264(n+1))`
@@ -5460,21 +5444,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161060.P14029576201239097944
-
-/-! ## A161060.P17200606033246438182
-
-`A001222(2^A161264(n+1))`
--/
-
-namespace A161060.P17200606033246438182
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (A161264 (n + 1) : ℤ))).toNat
-
-end
-
-end A161060.P17200606033246438182
 
 /-!
 # A161061: Number of partitions of n into powers of two where every part appears at least 12 times.
@@ -6286,6 +6255,21 @@ end
 
 end A161068.P14298416952248259783
 
+/-! ## A161068.P12589545565397431919
+
+`and(A161107(n+1), A399707(n))`
+-/
+
+namespace A161068.P12589545565397431919
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A161107 (n + 1)) (A399707 n)
+
+end
+
+end A161068.P12589545565397431919
+
 /-! ## A161068.P10294879911827838038
 
 `and(A060412(n+1), A161107(n+1))`
@@ -6315,21 +6299,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161068.P14201143779396620397
-
-/-! ## A161068.P10089602744715238482
-
-`and(A145038(n+1), A161107(n+1))`
--/
-
-namespace A161068.P10089602744715238482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A145038 (n + 1)) (A161107 (n + 1))
-
-end
-
-end A161068.P10089602744715238482
 
 /-!
 # A161069: Number of partitions of n into powers of two minus one where every part appears at least 7 times.
@@ -7020,27 +6989,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161074.P13988272455972187948
-
-/-! ## A161074.P3624089683776753935
-
-`∑{e}[∏{d}[3^A161113(n+1), A020639(#)], #]`
--/
-
-namespace A161074.P3624089683776753935
-noncomputable section
-
-def f2 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 : ℚ) ^ (A161113 (n + 1) : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (SequenceMachineLib.roundAway (f2 n)).natAbs, A020639 d
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p
-
-end
-
-end A161074.P3624089683776753935
 
 /-! ## A161074.P12378885669993238446
 

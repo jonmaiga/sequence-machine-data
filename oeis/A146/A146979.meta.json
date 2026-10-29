@@ -1,5 +1,5 @@
 {
-  "description": "Number of Pythagorean triples (a,b,c), a^2+b^2=c^2, with a,b,c all n-digit numbers, a",
+  "description": "Number of Pythagorean triples (a,b,c), a^2+b^2=c^2, with a,b,c all n-digit numbers, a<b.",
   "id": "A146979",
   "mentions": [],
   "tags": [

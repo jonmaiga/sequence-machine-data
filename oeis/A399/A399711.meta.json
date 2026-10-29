@@ -1,0 +1,19 @@
+{
+  "description": "Maximum, over all subsets S,T of {1,...,n}, of the number of positive integers m for which m = s*t has exactly one solution (s,t) in S X T.",
+  "id": "A399711",
+  "mentions": [
+    "A027424",
+    "A397205"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

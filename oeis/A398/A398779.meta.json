@@ -1,0 +1,19 @@
+{
+  "description": "Squares visited by a \"(1,2)+(2,2)Leaper\" (Knight + Alfil) moving on a spirally numbered board always to the lowest available unvisited square.",
+  "id": "A398779",
+  "mentions": [
+    "A316667",
+    "A317466",
+    "A317467",
+    "A398717"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

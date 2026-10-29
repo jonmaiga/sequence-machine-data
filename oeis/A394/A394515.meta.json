@@ -1,0 +1,25 @@
+{
+  "description": "Number of mixed partitions of an n-element set with at least one unlabeled block and at least one labeled block.",
+  "id": "A394515",
+  "mentions": [
+    "A000110",
+    "A000670",
+    "A001710",
+    "A001715",
+    "A002411",
+    "A005493",
+    "A008277",
+    "A049020",
+    "A083374",
+    "A108650"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

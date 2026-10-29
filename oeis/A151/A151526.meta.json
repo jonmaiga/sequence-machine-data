@@ -11,11 +11,13 @@
     "A182646"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

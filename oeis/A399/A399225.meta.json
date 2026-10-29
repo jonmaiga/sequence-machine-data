@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} AH(2*k-1)/(2*k-1)^2, where AH(k) = A058313(k)/A058312(k) is the k-th alternating harmonic number.",
+  "id": "A399225",
+  "mentions": [
+    "A002117",
+    "A058312",
+    "A058313",
+    "A352769"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

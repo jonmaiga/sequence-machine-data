@@ -1,0 +1,22 @@
+{
+  "description": "The factorial base expansion of a(n) corresponds to the winning position in Tchoukaillon (or Mancala) solitaire for n stones.",
+  "id": "A399916",
+  "mentions": [
+    "A028931",
+    "A028932",
+    "A028933",
+    "A034968",
+    "A082447",
+    "A084558"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

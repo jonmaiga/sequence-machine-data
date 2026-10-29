@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with rows and columns in nondecreasing order.",
+  "description": "Number of n X 7 binary arrays with rows and columns in nondecreasing order.",
   "id": "A184142",
   "mentions": [
     "A180985"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

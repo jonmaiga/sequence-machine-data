@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{m>=2} (-1)^m / log(m*(m+1)/2).",
+  "id": "A400105",
+  "mentions": [
+    "A000217",
+    "A239354",
+    "A399988"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

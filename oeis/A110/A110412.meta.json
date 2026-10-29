@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d",
+  "description": "Sum_{d<n is a divisor of n} tau(n-d).",
   "id": "A110412",
   "mentions": [
     "A007425"

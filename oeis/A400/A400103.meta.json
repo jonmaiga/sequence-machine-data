@@ -1,0 +1,20 @@
+{
+  "description": "Number of endofunctions on [n] whose second-largest component has size 1.",
+  "id": "A400103",
+  "mentions": [
+    "A000312",
+    "A001865",
+    "A350078",
+    "A350079"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

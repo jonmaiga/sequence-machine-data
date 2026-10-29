@@ -1,5 +1,5 @@
 {
-  "description": "Number of representations of n as a sum of products of distinct pairs of positive integers >=2, n = Sum_{k=1..m} i_k*j_k with 2<=i_k<=j_k, i_k",
+  "description": "Number of representations of n as a sum of products of distinct pairs of positive integers >=2, n = Sum_{k=1..m} i_k*j_k with 2<=i_k<=j_k, i_k<i_{k+1}, j_k<j_{k+1}.",
   "id": "A212219",
   "mentions": [
     "A066739",

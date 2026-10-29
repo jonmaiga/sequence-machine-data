@@ -1,0 +1,15 @@
+{
+  "description": "Value to the left of the rightmost longest series of 0-bits of n in binary.",
+  "id": "A397963",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

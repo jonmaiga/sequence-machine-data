@@ -1,0 +1,24 @@
+{
+  "description": "After the initial 0, numbers k such that k is a multiple of A007947(A327860(k)).",
+  "id": "A400835",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A276156",
+    "A327860",
+    "A328110",
+    "A380527",
+    "A381037",
+    "A400155"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

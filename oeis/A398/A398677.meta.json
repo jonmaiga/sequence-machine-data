@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(4*k+1) > sigma(4*k), where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A398677",
+  "mentions": [
+    "A000203",
+    "A082957",
+    "A112610",
+    "A193553",
+    "A325423",
+    "A398676"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Related to reciprocal Pythagorean triples: 1/a(n)^2 + 1/k^2 = 1/j^2 has an integer solution (k,j) with k",
+  "description": "Related to reciprocal Pythagorean triples: 1/a(n)^2 + 1/k^2 = 1/j^2 has an integer solution (k,j) with k<a(n).",
   "id": "A065607",
   "mentions": [],
   "tags": [

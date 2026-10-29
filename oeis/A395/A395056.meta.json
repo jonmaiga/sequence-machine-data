@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the minimum, over all k >= 1, of the number of terms omitted from the first k terms of A008578 (1 followed by the primes) so that the remaining terms sum to n.",
+  "id": "A395056",
+  "mentions": [
+    "A008578",
+    "A014284"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

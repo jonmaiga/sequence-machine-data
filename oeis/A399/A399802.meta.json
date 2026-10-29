@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree numbers with four prime factors whose positive divisors have inclusion-maximal Sidon subsets of nonconsecutive sizes.",
+  "id": "A399802",
+  "mentions": [
+    "A005117",
+    "A046386",
+    "A398433",
+    "A398434",
+    "A398435",
+    "A398577",
+    "A399469",
+    "A399470",
+    "A399471"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

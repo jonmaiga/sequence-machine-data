@@ -1,5 +1,5 @@
 {
-  "description": "Consider pairs (p,k) such that p is a prime, q and r are the two primes following p, 0",
+  "description": "Consider pairs (p,k) such that p is a prime, q and r are the two primes following p, 0<k<q and k*primorial(p)+q and k*primorial(p)+r are consecutive primes; sequence gives values of p.",
   "id": "A087418",
   "mentions": [
     "A002110",

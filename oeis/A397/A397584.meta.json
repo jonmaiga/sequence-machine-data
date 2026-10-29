@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 divides A001008(k), the numerator of the k-th harmonic number H(k), for some k < p-1.",
+  "id": "A397584",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A092194",
+    "A322434"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

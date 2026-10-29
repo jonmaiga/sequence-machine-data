@@ -1,18 +1,18 @@
 {
-  "description": "Numbers n such that sum of exponents in prime factorization of n is > log(n).",
+  "description": "Numbers k such that sum of exponents in prime factorization of k is > log(k).",
   "id": "A067712",
   "mentions": [
+    "A001222",
     "A067715",
     "A081209"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

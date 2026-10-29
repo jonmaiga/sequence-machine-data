@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number m with n divisors such that m+1 has 2*n divisors; or 0 if no such number exists.",
+  "id": "A398670",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A229384",
+    "A343018",
+    "A343144"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

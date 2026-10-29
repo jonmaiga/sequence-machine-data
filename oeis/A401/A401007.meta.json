@@ -1,0 +1,20 @@
+{
+  "description": "Minimum height of n lattice points with x-coordinates 1..n such that pairwise slopes are distinct.",
+  "id": "A401007",
+  "mentions": [
+    "A000769",
+    "A213222",
+    "A236266",
+    "A255709",
+    "A393993"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

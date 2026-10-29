@@ -2,7 +2,8 @@
   "description": "Smallest squarefree number of the form n*k + 1.",
   "id": "A076986",
   "mentions": [
-    "A005117"
+    "A005117",
+    "A399382"
   ],
   "tags": [
     "easy",

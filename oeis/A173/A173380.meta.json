@@ -1,7 +1,8 @@
 {
-  "description": "Number of n-step walks on square lattice (no points repeated, no adjacent points unless consecutive in path).",
+  "description": "Number of n-step self-avoiding walks on the square lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A173380",
   "mentions": [
+    "A001411",
     "A002932",
     "A033155",
     "A033323",
@@ -12,8 +13,10 @@
     "A042949",
     "A046788",
     "A047057",
+    "A049230",
     "A174319",
-    "A182644"
+    "A182644",
+    "A336492"
   ],
   "tags": [
     "formulas",
@@ -23,7 +26,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence for the 18-element group C6 X C3 = .",
+  "description": "Cogrowth sequence for the 18-element group C6 X C3 = <S,T | S^6, T^3, [S,T]>.",
   "id": "A378031",
   "mentions": [
     "A007613",

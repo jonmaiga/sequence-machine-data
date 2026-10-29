@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with diameter k (0<=k",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with diameter k (0<=k<n).",
   "id": "A294522",
   "mentions": [
     "A000007",

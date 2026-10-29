@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle by rows, T(n,k) = A005614(n-k+1)*A144023(k-1).",
+  "description": "Eigentriangle by rows, T(n,k) = A005614(n-k)*b(k-1), where b(0)=1 and b(j)=A144023(j) for j >= 1.",
   "id": "A144024",
   "mentions": [
     "A005614",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: the coefficient of [x^k] of the polynomial 1-(x-1)^n in row n and column k, 0<=k",
+  "description": "Triangle read by rows: the coefficient of [x^k] of the polynomial 1-(x-1)^n in row n and column k, 0<=k<n.",
   "id": "A140575",
   "mentions": [
     "A007318",

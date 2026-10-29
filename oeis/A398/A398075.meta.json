@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic n X n symmetric nonnegative integer matrices with each row sum nonzero and at most n, under row and column permutations.",
+  "id": "A398075",
+  "mentions": [
+    "A397931",
+    "A398074",
+    "A398100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

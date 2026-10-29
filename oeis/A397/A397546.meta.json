@@ -1,0 +1,16 @@
+{
+  "description": "Number of rooted unlabeled 8-gonal cacti having n blocks.",
+  "id": "A397546",
+  "mentions": [
+    "A332648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Number of excursions of length n with Motzkin-steps forbidding all consecutive steps of length 2 except UD and HH.",
   "id": "A329684",
   "mentions": [
+    "A000012",
     "A141044",
+    "A185012",
     "A261143",
     "A294619",
     "A329680",

@@ -2,15 +2,21 @@
   "description": "Smooth necklaces with 7 colors.",
   "id": "A215333",
   "mentions": [
-    "A215327"
+    "A208776",
+    "A215327",
+    "A215329",
+    "A215331",
+    "A215334",
+    "A215338"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

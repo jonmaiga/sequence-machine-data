@@ -1,5 +1,5 @@
 {
-  "description": "C(n+3)=2*C(n), where C(n) is Cototient(n) := n - phi(n) (A051953).",
+  "description": "Numbers k such that cototient(k+3) = 2*cototient(k), where cototient(k) = k - phi(k) (A051953).",
   "id": "A063480",
   "mentions": [
     "A051953",

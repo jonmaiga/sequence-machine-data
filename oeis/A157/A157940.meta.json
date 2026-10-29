@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by the largest prime <= sqrt(n) which are not in A001248 (primes squared) or A006094 (product of two consecutive primes).",
+  "description": "Numbers m divisible by the largest prime <= sqrt(m) which are not in A001248 (primes squared) or A006094 (product of two consecutive primes).",
   "id": "A157940",
   "mentions": [
     "A001248",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 59,
     "source": "oeis-entry"
   }
 }

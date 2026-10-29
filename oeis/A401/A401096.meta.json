@@ -1,0 +1,20 @@
+{
+  "description": "Number of bicolored trees on n unlabeled vertices in which every path between two black vertices contains no other black vertices.",
+  "id": "A401096",
+  "mentions": [
+    "A000055",
+    "A038056",
+    "A401092",
+    "A401094",
+    "A401095"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows : T(n,0) = n+1, T(n,k)=0 if kn, T(n,k) = k*T(n-1,k) - T(n-1,k-1).",
+  "description": "Triangle read by rows : T(n,0) = n+1, T(n,k)=0 if k<0 or if k>n, T(n,k) = k*T(n-1,k) - T(n-1,k-1).",
   "id": "A159881",
   "mentions": [
     "A000027",

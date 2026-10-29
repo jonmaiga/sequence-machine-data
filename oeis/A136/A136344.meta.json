@@ -1,15 +1,17 @@
 {
-  "description": "Least primes p1 such that gap between p1 and p2=nextprime(p1) contains no semiprimes. Gap is 1 for n=0 (first term) and 2n for n=1..30.",
+  "description": "Least primes p1 such that gap between p1 and p2=nextprime(p1) contains no semiprimes. Gap is 1 for n=0 (first term) and 2n for n>0.",
   "id": "A136344",
   "mentions": [
-    "A133478"
+    "A133478",
+    "A399781"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
+    "offset": 0,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic ways a loop can cross a road (running East-West) 2n times.",
+  "description": "Number of closed meanders (loops crossing a road 2n times) that are nonisomorphic under reflection and rotation.",
   "id": "A077460",
   "mentions": [
     "A000682",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

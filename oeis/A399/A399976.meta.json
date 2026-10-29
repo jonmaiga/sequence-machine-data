@@ -1,0 +1,17 @@
+{
+  "description": "Number of sublattices of index n in generic n-dimensional lattice.",
+  "id": "A399976",
+  "mentions": [
+    "A128119",
+    "A160870"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

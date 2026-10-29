@@ -1,0 +1,21 @@
+{
+  "description": "Maximum, over all placements of 2 pawns on an n X n board, of the number of ways to place n+2 nonattacking queens on the remaining squares.",
+  "id": "A399626",
+  "mentions": [
+    "A103330",
+    "A129551",
+    "A129552",
+    "A129553",
+    "A399501"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

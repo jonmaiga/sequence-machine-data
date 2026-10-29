@@ -2,14 +2,19 @@
   "description": "Number of positive integer solutions to the equation a^2 + 7*b^2 = n.",
   "id": "A216511",
   "mentions": [
-    "A155717"
+    "A092573",
+    "A155717",
+    "A216279",
+    "A374017",
+    "A374159"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 87,
-    "source": "joeis"
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(m,n) giving of number of steps in the Euclidean algorithm for gcd(m,n) with 0<=m",
+  "description": "Triangle T(m,n) giving of number of steps in the Euclidean algorithm for gcd(m,n) with 0<=m<n.",
   "id": "A051010",
   "mentions": [
     "A034883",

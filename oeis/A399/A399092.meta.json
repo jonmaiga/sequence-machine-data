@@ -1,0 +1,21 @@
+{
+  "description": "The maximum exponent in the prime factorization of the nonsquarefree numbers k such that k+1 is also nonsquarefree.",
+  "id": "A399092",
+  "mentions": [
+    "A013661",
+    "A013929",
+    "A051903",
+    "A068781",
+    "A368713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

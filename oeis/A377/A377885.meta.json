@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element quasihedral group SD16 = .",
+  "description": "Cogrowth sequence of the 16-element quasihedral group SD16 = <S,T | S^8, T^2, STS^5T>.",
   "id": "A377885",
   "mentions": [
     "A007582",

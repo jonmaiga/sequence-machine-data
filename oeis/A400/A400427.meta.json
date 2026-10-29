@@ -1,0 +1,23 @@
+{
+  "description": "3rd least distinct prime factor of numbers with 3 or more distinct prime factors.",
+  "id": "A400427",
+  "mentions": [
+    "A000977",
+    "A020639",
+    "A027748",
+    "A028234",
+    "A089992",
+    "A115561",
+    "A284411"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

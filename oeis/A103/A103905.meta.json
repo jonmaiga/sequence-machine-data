@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k) read by antidiagonals: number of tilings of an hexagon.",
+  "description": "Square array T(n,k) read by antidiagonals: number of tilings of an <n,k,n> hexagon.",
   "id": "A103905",
   "mentions": [
     "A000178",

@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k for which A348717(A163511(k)) <= A348717(k).",
+  "id": "A399375",
+  "mentions": [
+    "A000668",
+    "A163511",
+    "A348717",
+    "A364293",
+    "A364297"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

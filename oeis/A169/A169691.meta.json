@@ -1,5 +1,5 @@
 {
-  "description": "Let T be the sequence Fibonacci(2n+1), n>=0 (cf. A001519); sequence lists the differences T(j)-T(i) for i",
+  "description": "Let T be the sequence Fibonacci(2n+1), n>=0 (cf. A001519); sequence lists the differences T(j)-T(i) for i<j.",
   "id": "A169691",
   "mentions": [
     "A000045",

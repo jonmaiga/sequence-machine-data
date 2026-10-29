@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic neighborhood-Hausdorff graphs on n vertices.",
+  "id": "A399953",
+  "mentions": [
+    "A399817",
+    "A399818"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

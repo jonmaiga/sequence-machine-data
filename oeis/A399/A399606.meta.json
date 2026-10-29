@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that A161351(p) is a square.",
+  "id": "A399606",
+  "mentions": [
+    "A161351",
+    "A399489",
+    "A399603",
+    "A399604",
+    "A399608"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

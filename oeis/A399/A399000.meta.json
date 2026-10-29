@@ -1,0 +1,21 @@
+{
+  "description": "The binomial matrix of the Catalan numbers, square array read by ascending antidiagonals.",
+  "id": "A399000",
+  "mentions": [
+    "A000108",
+    "A005043",
+    "A007317",
+    "A106640",
+    "A398915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

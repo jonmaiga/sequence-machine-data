@@ -1,5 +1,5 @@
 {
-  "description": "Slowest growing sequence of numbers having the prime-pairwise-average property: if i",
+  "description": "Slowest growing sequence of numbers having the prime-pairwise-average property: if i<j, (a(i)+a(j))/2 is prime.",
   "id": "A115760",
   "mentions": [
     "A103828",

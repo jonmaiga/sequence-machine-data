@@ -1,5 +1,5 @@
 {
-  "description": "Handsome numbers (A007532) representable as a sum of any positive powers of their digits in two distinct ways, not counting different powers of duplicated digits as distinct.",
+  "description": "Handsome numbers (A007532) representable as a sum of any positive powers of their digits in exactly two distinct ways, not counting different powers of duplicated digits as distinct.",
   "id": "A050240",
   "mentions": [
     "A007532",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

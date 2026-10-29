@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers in the Padovan sequence A000931.",
+  "id": "A399572",
+  "mentions": [
+    "A000217",
+    "A000931",
+    "A039595",
+    "A248506"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of integers >= 2 where a(1) = 2 and each term a(n) is banned for the next a(n) terms.",
+  "id": "A399708",
+  "mentions": [
+    "A364447",
+    "A372704",
+    "A398589",
+    "A399709"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Numbers whose greedy alternating digit sum is 0 (in base 10).",
+  "id": "A400375",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

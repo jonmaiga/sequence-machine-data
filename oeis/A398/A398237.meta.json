@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of distinct unordered pairwise sums with repetition of the distinct coefficient values in the expansion of (x_1 + ... + x_k)^n having more than one representation, 1 <= k <= n.",
+  "id": "A398237",
+  "mentions": [
+    "A398230",
+    "A398231",
+    "A398232",
+    "A398233",
+    "A398238",
+    "A398263",
+    "A398265",
+    "A398429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

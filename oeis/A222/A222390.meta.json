@@ -2,9 +2,11 @@
   "description": "Nonnegative integers m such that 10*m*(m+1)+1 is a square.",
   "id": "A222390",
   "mentions": [
+    "A000217",
     "A001477",
     "A001652",
     "A001921",
+    "A002378",
     "A014601",
     "A053141",
     "A053606",

@@ -1,0 +1,21 @@
+{
+  "description": "Number of equivalence classes of n X n binary matrices with all row sums and column sums equal to 5, under row permutations, column permutations, and transposition.",
+  "id": "A396753",
+  "mentions": [
+    "A000516",
+    "A004066",
+    "A333731",
+    "A333732",
+    "A396732",
+    "A399446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(x * cosh(x)^3).",
+  "id": "A399062",
+  "mentions": [
+    "A003727",
+    "A054879",
+    "A399061",
+    "A399063",
+    "A399065"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

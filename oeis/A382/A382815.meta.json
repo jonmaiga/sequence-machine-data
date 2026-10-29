@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that abs((sin k)^k) sets a new record.",
+  "description": "Positive numbers k such that abs((sin(k))^k) sets a new record.",
   "id": "A382815",
   "mentions": [
     "A004112",

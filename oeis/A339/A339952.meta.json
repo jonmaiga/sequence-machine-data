@@ -2,10 +2,12 @@
   "description": "Numbers that are the sum of an even square > 0 and an odd square.",
   "id": "A339952",
   "mentions": [
+    "A000217",
     "A000404",
     "A010052",
     "A016742",
     "A016754",
+    "A020882",
     "A057653",
     "A097269"
   ],
@@ -16,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

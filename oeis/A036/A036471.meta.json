@@ -1,5 +1,5 @@
 {
-  "description": "Four numbers (a,b,c,d) with a",
+  "description": "Four numbers (a,b,c,d) with a<b<c<d that satisfy sigma(a) = sigma(b) = sigma(c) = sigma(d) = a+b+c+d are called an amicable quadruple. We order these quadruples according to the common value of sigma. The values of (a, b, c, d, sigma) are in (this sequence, A036472, A036473, A036474, A116148) respectively.",
   "id": "A036471",
   "mentions": [
     "A036472",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which e_n(2*i)=e_n(2*i+1), for all i>=1, where e_n(k)>=0 denote the exponent of prime(k) in the prime power representation of n.",
+  "description": "Numbers m for which e_m(2*i) = e_m(2*i+1), for all i >= 1, where e_m(k) >= 0 denote the exponent of prime(k) in the prime power representation of m.",
   "id": "A275474",
   "mentions": [
     "A000040",
@@ -14,6 +14,7 @@
     "A275407"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

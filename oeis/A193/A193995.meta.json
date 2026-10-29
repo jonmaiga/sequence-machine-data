@@ -1,13 +1,18 @@
 {
-  "description": "Maximum number of terms required to determine whether a number is happy or not (A007770 or A031177).",
+  "description": "a(n) = number of (distinct) terms required to determine whether n is a happy number or not (A007770 or A031177).",
   "id": "A193995",
   "mentions": [
+    "A003132",
     "A007770",
+    "A031176",
     "A031177",
-    "A193996"
+    "A099645",
+    "A193996",
+    "A364682"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

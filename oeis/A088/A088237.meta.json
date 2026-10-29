@@ -4,7 +4,9 @@
   "mentions": [
     "A085000",
     "A088214",
-    "A088216"
+    "A088216",
+    "A088238",
+    "A325900"
   ],
   "tags": [
     "fini",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

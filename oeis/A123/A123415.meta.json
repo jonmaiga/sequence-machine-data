@@ -1,14 +1,18 @@
 {
   "description": "Number of cograph contraction perfect graphs on n nodes.",
   "id": "A123415",
-  "mentions": [],
+  "mentions": [
+    "A000084",
+    "A000088",
+    "A052431"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

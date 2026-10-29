@@ -1,0 +1,18 @@
+{
+  "description": "Number of points with even coordinate sum in the 5-dimensional hypercube [-n,n]^5 having an odd number of lattice neighbors inside the hypercube.",
+  "id": "A397966",
+  "mentions": [
+    "A397964",
+    "A398862"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

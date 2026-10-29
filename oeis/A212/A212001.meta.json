@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = sum of all parts of the last n-k+1 shells of n.",
+  "description": "Triangle read by rows: T(n,k) is the sum of all parts of the last n-k+1 sections of the modular table of partitions of n.",
   "id": "A212001",
   "mentions": [
     "A000041",

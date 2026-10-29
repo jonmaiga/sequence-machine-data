@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n that form a Pythagorean quadruple with n', n'' and sqrt(n^2 + n'^2 + n''^2), where n' and n'' are the first and the second arithmetic derivative of n.",
+  "description": "Numbers k that form a Pythagorean quadruple with k', k'' and sqrt(k^2 + k'^2 + k''^2), where k' and k'' are the first and the second arithmetic derivative of k.",
   "id": "A230543",
   "mentions": [
     "A003415",
     "A009003",
     "A009004",
+    "A051674",
     "A068346",
     "A096907",
     "A096909",
@@ -14,12 +15,12 @@
     "A211176"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

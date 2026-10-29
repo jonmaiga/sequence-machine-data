@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes k such that largest prime factor of k > k^(2/3).",
+  "description": "Nonprimes k whose largest prime factor > k^(2/3).",
   "id": "A063764",
   "mentions": [
     "A006530"

@@ -1,9 +1,14 @@
 {
   "description": "Number of 0's following directly the first 1 in the binary representation of n.",
   "id": "A290255",
-  "mentions": [],
+  "mentions": [
+    "A000523",
+    "A062050",
+    "A065120"
+  ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

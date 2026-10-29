@@ -1,0 +1,23 @@
+{
+  "description": "Least number that is the sum of 2 positive cubes in exactly n ways and also the sum of 2 positive squares in exactly n ways.",
+  "id": "A273354",
+  "mentions": [
+    "A001235",
+    "A003825",
+    "A011541",
+    "A016032",
+    "A155960",
+    "A272701"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

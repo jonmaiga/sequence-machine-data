@@ -1,0 +1,29 @@
+{
+  "description": "Number of prime-free self-conjugate 2-dimensional vector partitions of (n, n).",
+  "id": "A398609",
+  "mentions": [
+    "A000219",
+    "A000700",
+    "A002774",
+    "A002865",
+    "A003293",
+    "A035528",
+    "A074962",
+    "A219554",
+    "A219585",
+    "A397646",
+    "A398329",
+    "A398607",
+    "A399303"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

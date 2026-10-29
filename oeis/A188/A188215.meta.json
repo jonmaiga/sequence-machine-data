@@ -2,7 +2,10 @@
   "description": "Starting with an empty list, n is inserted after the a(n)th element such that the binary representations of the list's elements are always sorted lexicographically.",
   "id": "A188215",
   "mentions": [
+    "A006257",
+    "A023416",
     "A075427",
+    "A080791",
     "A131577",
     "A264596"
   ],
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 59,
+    "size": 71,
     "source": "oeis-bfile"
   }
 }

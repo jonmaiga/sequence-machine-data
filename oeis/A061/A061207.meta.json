@@ -1,5 +1,5 @@
 {
-  "description": "Number of subgroups of index n of the braid group on 3 strands = , the fundamental group of the complement of a trefoil knot.",
+  "description": "Number of subgroups of index n of the braid group on 3 strands <a,b|aba=bab>= <c,d|c^2=d^3>, the fundamental group of the complement of a trefoil knot.",
   "id": "A061207",
   "mentions": [],
   "tags": [

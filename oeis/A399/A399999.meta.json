@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to cut a 30-60-90 triangle into n 30-60-90 triangles.",
+  "id": "A399999",
+  "mentions": [
+    "A399765",
+    "A399770",
+    "A400510",
+    "A400511"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

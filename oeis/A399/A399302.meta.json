@@ -1,0 +1,15 @@
+{
+  "description": "Number of equivalence classes of n X n matrices over {0,1,2} with exactly two 1s and two 2s in each row and column.",
+  "id": "A399302",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

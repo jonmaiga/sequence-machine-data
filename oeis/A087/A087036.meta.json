@@ -2,7 +2,9 @@
   "description": "Lunar cubes: n*n*n, where * is lunar multiplication.",
   "id": "A087036",
   "mentions": [
-    "A087061"
+    "A087019",
+    "A087061",
+    "A087062"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

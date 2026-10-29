@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that M(n) = Sum_{i=1..n} mu(sigma(i)) where M(n) is the Mertens function A002321(n).",
+  "description": "Numbers k such that M(k) = Sum_{i=1..k} mu(sigma(i)) where M(k) is the Mertens function A002321(k).",
   "id": "A067195",
   "mentions": [
     "A000203",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

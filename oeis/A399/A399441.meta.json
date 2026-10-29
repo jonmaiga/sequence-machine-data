@@ -1,0 +1,20 @@
+{
+  "description": "Squares k such that k - A062329(k) is also a square.",
+  "id": "A399441",
+  "mentions": [
+    "A062329",
+    "A399442",
+    "A399489",
+    "A399496"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

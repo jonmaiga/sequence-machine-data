@@ -9,11 +9,12 @@
     "A350223"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

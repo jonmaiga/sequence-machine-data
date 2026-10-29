@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that all p-k!! are composite for 1<=k!!",
+  "description": "Primes p such that all p-k!! are composite for 1<=k!!<p.",
   "id": "A208325",
   "mentions": [
     "A006882",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 51,
     "source": "oeis-entry"
   }

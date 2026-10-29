@@ -1,5 +1,5 @@
 {
-  "description": "Total number of occurrences of the pattern 1",
+  "description": "Total number of occurrences of the pattern 1<2 in all preferential arrangements (or ordered partitions) of n elements.",
   "id": "A240796",
   "mentions": [
     "A000670",

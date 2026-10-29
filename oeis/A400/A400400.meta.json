@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the solution to I_0(t*sqrt(2)) = I_1(t*sqrt(2))*sqrt(2), where I_k is the order-k modified Bessel function of the first kind.",
+  "id": "A400400",
+  "mentions": [
+    "A400399",
+    "A400401"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

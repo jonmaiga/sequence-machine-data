@@ -1,0 +1,17 @@
+{
+  "description": "Primes p that are a concatenation of a number B whose nonzero digits are prime and a prime number C that is the sum of the digits of B.",
+  "id": "A395949",
+  "mentions": [
+    "A000040",
+    "A108773"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = round(sqrt(a(n)^2 + a(n-1)^2 + a(n-2)^2)).",
+  "id": "A400644",
+  "mentions": [
+    "A000073",
+    "A058265",
+    "A063827",
+    "A400645"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

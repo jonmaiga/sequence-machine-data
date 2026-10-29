@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps to reach 1 starting from n when the function f(x) = x/7 if 7 divides x, and x+ceiling(x/7) otherwise is iterated, or -1 if 1 is never reached.",
+  "id": "A398755",
+  "mentions": [
+    "A006666",
+    "A368136",
+    "A370350"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

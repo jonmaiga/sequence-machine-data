@@ -2,6 +2,37 @@
   "oi": 360858,
   "ps": [
     {
+      "d": "2026-10-25",
+      "ix": "C(row(n)+1, ceil(col(n)/2))*C(row(n), floor(col(n)/2))",
+      "mt": 55,
+      "px": [
+        "n",
+        "row",
+        "1",
+        "+",
+        "n",
+        "col",
+        "2",
+        "/",
+        "ceil",
+        "C",
+        "n",
+        "row",
+        "n",
+        "col",
+        "2",
+        "/",
+        "floor",
+        "C",
+        "*"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2023-08-03",
       "ix": "A088459(lt[(ceil(sqrt(n))²-n)², n])",
       "mt": 55,

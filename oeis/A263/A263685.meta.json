@@ -8,7 +8,8 @@
     "A000900",
     "A000901",
     "A000902",
-    "A000903"
+    "A000903",
+    "A399010"
   ],
   "tags": [
     "formulas",
@@ -16,8 +17,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,15 +1,17 @@
 {
-  "description": "Least number k such that (n!-k)/(n-k) is an integer.",
+  "description": "Least positive number k such that (n!-k)/(n-k) is an integer.",
   "id": "A242560",
   "mentions": [
+    "A032742",
     "A060681"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

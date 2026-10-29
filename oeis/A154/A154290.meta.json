@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples satisfying p+F_s+L_t = n, where p is an odd prime, s >= 2 and F_s or L_t is odd.",
+  "description": "Number of ordered triples <p,s,t> satisfying p+F_s+L_t = n, where p is an odd prime, s >= 2 and F_s or L_t is odd.",
   "id": "A154290",
   "mentions": [
     "A000032",

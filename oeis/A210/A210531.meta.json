@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integers k",
+  "description": "Number of nonnegative integers k<n with n+k^3 practical.",
   "id": "A210531",
   "mentions": [
     "A005153",

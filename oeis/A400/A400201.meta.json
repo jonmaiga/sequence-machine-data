@@ -1,0 +1,22 @@
+{
+  "description": "Palindrome with an odd number of digits, based on a sequence of odd digits.",
+  "id": "A400201",
+  "mentions": [
+    "A002477",
+    "A005408",
+    "A057139",
+    "A141518",
+    "A173426",
+    "A398426"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

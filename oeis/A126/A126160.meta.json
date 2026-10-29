@@ -1,5 +1,5 @@
 {
-  "description": "Number of betrothed pairs (m,n) with m <=10^k (and k=1,2,3,...), where a betrothed pair satisfies sigma(m)=sigma(n)=m+n+1 and m",
+  "description": "Number of betrothed pairs (m,n) with m <=10^k (and k=1,2,3,...), where a betrothed pair satisfies sigma(m)=sigma(n)=m+n+1 and m<n.",
   "id": "A126160",
   "mentions": [
     "A003502",

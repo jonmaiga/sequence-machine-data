@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of arctan(2/Pi) - Pi/4 (negated).",
+  "id": "A397865",
+  "mentions": [
+    "A003881",
+    "A019669",
+    "A197727",
+    "A232182",
+    "A232247"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

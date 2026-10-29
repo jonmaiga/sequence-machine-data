@@ -1,10 +1,10 @@
 {
-  "description": "Nearest integer to R(n) - pi(n), where R(x) is the Riemann prime counting function.",
+  "description": "Nearest integer to R(n) - pi(n), where R(x) is Riemann's R function.",
   "id": "A052434",
   "mentions": [
     "A052435",
-    "A096624",
-    "A096625"
+    "A057794",
+    "A399820"
   ],
   "tags": [
     "sign"

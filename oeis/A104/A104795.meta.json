@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = C(n,k)+1 for k",
+  "description": "Triangle T(n,k) = C(n,k)+1 for k<n; T(n,k) = 1 for k=n, read by rows.",
   "id": "A104795",
   "mentions": [
     "A006127",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of even non-divisors of n in 1..n.",
+  "id": "A401009",
+  "mentions": [
+    "A004526",
+    "A049820",
+    "A183063",
+    "A401008"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

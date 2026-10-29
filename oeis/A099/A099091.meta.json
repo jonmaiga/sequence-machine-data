@@ -1,7 +1,8 @@
 {
-  "description": "Riordan array (1,2+3x).",
+  "description": "Riordan array (1, 2+3x).",
   "id": "A099091",
   "mentions": [
+    "A000079",
     "A002447",
     "A015518"
   ],
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
-    "source": "joeis"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

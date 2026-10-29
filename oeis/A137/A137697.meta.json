@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = x(n) * 2^((n mod 2 - 1)/2), with x(n)=Sum(x(k)*x(n-k-1):0<=k",
+  "description": "a(n) = x(n) * 2^((n mod 2 - 1)/2), with x(n)=Sum(x(k)*x(n-k-1):0<=k<n), x(0)=SQRT(2).",
   "id": "A137697",
   "mentions": [
     "A000108"

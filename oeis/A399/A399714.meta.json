@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -1 - A010815(n-1) - Sum_{k=1..n-2} A010815(k)*2^(n-2-k) for n >= 3.",
+  "id": "A399714",
+  "mentions": [
+    "A000225",
+    "A000740",
+    "A001318",
+    "A010815",
+    "A048651",
+    "A152537",
+    "A178841"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 35,
+    "source": "joeis"
+  }
+}

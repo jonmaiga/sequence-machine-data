@@ -1,12 +1,10 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
-import Seq.Opaque.C011
-import Seq.Opaque.C015
+import Seq.Opaque.C010
 
 /-!
 # A169114: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^26 = I.
@@ -64,21 +62,6 @@ end A169114.P14564259562845022945
 
 The programs for A169160, there is no canonical definition to state claims against.
 -/
-
-/-! ## A169160.P364517620789676767
-
-`A003945(n)-A241469(A036370(n))`
--/
-
-namespace A169160.P364517620789676767
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003945 n - A241469 (A036370 n).toNat
-
-end
-
-end A169160.P364517620789676767
 
 /-! ## A169160.P5610986351483841605
 

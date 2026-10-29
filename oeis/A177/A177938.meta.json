@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = (-1)^(k+n)*A054655(n,n-k), 0<=k",
+  "description": "Triangle T(n,k) = (-1)^(k+n)*A054655(n,n-k), 0<=k<n, read by rows.",
   "id": "A177938",
   "mentions": [
     "A001813",

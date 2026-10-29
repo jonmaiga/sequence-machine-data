@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the largest k in range 0..n such that 1+(prime(n)#/prime(k)#) is a multiple of prime(1+n), or -1 if no such k exists, where prime(n)# = A002110(n) is the n-th primorial number.",
+  "id": "A400837",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A034386",
+    "A400266",
+    "A400838",
+    "A401056",
+    "A401057",
+    "A401061",
+    "A401064",
+    "A401065"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

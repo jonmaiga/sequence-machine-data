@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the sum of the primes <= p exceeds li(p^2), where li is the logarithmic integral.",
+  "id": "A397911",
+  "mentions": [
+    "A007504",
+    "A397910"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

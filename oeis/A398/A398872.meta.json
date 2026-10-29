@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least x + y + z such that (x*y*z) / (x + y + z) = n, for positive integers x,y,z.",
+  "id": "A398872",
+  "mentions": [
+    "A008586"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

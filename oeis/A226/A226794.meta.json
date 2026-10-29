@@ -2,6 +2,7 @@
   "description": "Numbers of the form (5^j + 9^k)/2, for j and k >= 0.",
   "id": "A226794",
   "mentions": [
+    "A226790",
     "A226829"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

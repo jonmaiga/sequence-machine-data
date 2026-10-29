@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n+mu(n), where mu is the Moebius function (A008683).",
+  "description": "Primes of the form k+mu(k), where mu is the Moebius function (A008683).",
   "id": "A075431",
   "mentions": [
     "A008683",

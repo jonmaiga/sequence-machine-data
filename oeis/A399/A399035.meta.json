@@ -1,0 +1,20 @@
+{
+  "description": "The unique sequence a(n) such that A000296(n) = a(n) + a(n+1).",
+  "id": "A399035",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A011968",
+    "A011969",
+    "A011970"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

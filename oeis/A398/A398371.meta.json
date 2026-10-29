@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of numerators of coefficients of the polynomials generating the rows in A398004.",
+  "id": "A398371",
+  "mentions": [
+    "A001710",
+    "A398004",
+    "A398372"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

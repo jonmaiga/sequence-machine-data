@@ -2,7 +2,8 @@
   "description": "Triangle partitions of order n: topologically distinct ways to dissect a triangle into n triangles.",
   "id": "A056814",
   "mentions": [
-    "A053740"
+    "A053740",
+    "A106683"
   ],
   "tags": [
     "hard",

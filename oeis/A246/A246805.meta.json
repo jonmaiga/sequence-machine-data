@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct terms such that, when i",
+  "description": "Lexicographically earliest sequence of distinct terms such that, when i<j, at least one of a(i) U a(j) or a(j) U a(i) is prime (where U denotes concatenation).",
   "id": "A246805",
   "mentions": [
     "A156770",

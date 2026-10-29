@@ -1,18 +1,19 @@
 {
-  "description": "Orchard problem with 5 trees in a row (may not have all been proved optimal).",
+  "description": "Orchard problem with 5 trees in a row.",
   "id": "A008997",
   "mentions": [
     "A003035",
     "A006065"
   ],
   "tags": [
+    "hard",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

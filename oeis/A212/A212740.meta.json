@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {0,...,n} and max{w,x,y,z}",
+  "description": "Number of (w,x,y,z) with all terms in {0,...,n} and max{w,x,y,z}<2*min{w,x,y,z}.",
   "id": "A212740",
   "mentions": [
     "A211795",

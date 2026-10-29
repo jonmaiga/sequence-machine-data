@@ -1,0 +1,20 @@
+{
+  "description": "Half the number of changes in the cyclic column words of the Gosper-Lafitte triangle.",
+  "id": "A401018",
+  "mentions": [
+    "A000360",
+    "A000361",
+    "A002487",
+    "A400888"
+  ],
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

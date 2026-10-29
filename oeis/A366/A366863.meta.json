@@ -1,9 +1,10 @@
 {
-  "description": "Minimal values of a corresponding to the numbers c listed in A366862, i.e., such that there exist integers a > b > c such that ab+c, ac+b and bc+a are perfect squares.",
+  "description": "Minimal values of a corresponding to the numbers c listed in A366862, i.e., for which there exist integers a > b > c such that a*b+c, a*c+b and b*c+a are perfect squares.",
   "id": "A366863",
   "mentions": [
     "A366861",
-    "A366862"
+    "A366862",
+    "A366865"
   ],
   "tags": [
     "nonn"

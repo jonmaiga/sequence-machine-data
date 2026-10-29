@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of 2n in which every part is",
+  "description": "Number of partitions of 2n in which every part is <n; also, the number of partitions of 2 into rational numbers a/b such that 0<a<b<=n and b divides n.",
   "id": "A209815",
   "mentions": [
     "A008284",

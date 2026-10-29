@@ -1,5 +1,5 @@
 {
-  "description": "Write n=3i+j, 0<=j",
+  "description": "Write n=3i+j, 0<=j<3; a(n) = number of ways to cover the r X s grid graph by vertex disjoint cycles, where (r,s) = (2i+2, 2i+2) (if j=0), (2i+2, 2i+3) (if j=1) or (2i+3, 2i+4) (if j=2).",
   "id": "A222204",
   "mentions": [
     "A222202",

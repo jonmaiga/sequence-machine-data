@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 5*Pi^2/(36*Cl_2(Pi/3)), where Cl_2(x) = - Integral_{u=0..x} log(2*sin(u/2)) du.",
+  "id": "A401028",
+  "mentions": [
+    "A002388",
+    "A019670",
+    "A086729",
+    "A102753"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

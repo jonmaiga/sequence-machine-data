@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = k if k",
+  "description": "Triangle T(n,k) = k if k<n and k|n, = 0 otherwise, 1 <= k <= n; read by rows.",
   "id": "A176891",
   "mentions": [
     "A127093",

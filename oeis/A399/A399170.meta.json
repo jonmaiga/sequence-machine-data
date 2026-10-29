@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted binary unlabeled general galled trees with n leaves and exactly k galls, 0 <= k <= n-1.",
+  "id": "A399170",
+  "mentions": [
+    "A001190",
+    "A395661",
+    "A396352"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

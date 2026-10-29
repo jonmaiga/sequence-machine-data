@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with 1<=x",
+  "description": "Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with 1<=x<m.",
   "id": "A338445",
   "mentions": [
     "A174824",

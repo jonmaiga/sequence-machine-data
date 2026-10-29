@@ -1,10 +1,9 @@
 {
-  "description": "a(n) is the number of runs in the n-th word in A344953.",
+  "description": "a(n) is the number of runs in the n-th word in A341258.",
   "id": "A344961",
   "mentions": [
     "A341258",
-    "A342910",
-    "A344953"
+    "A342910"
   ],
   "tags": [
     "base",

@@ -13,6 +13,10 @@
         "+",
         "10",
         "%"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

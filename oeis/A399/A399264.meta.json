@@ -1,0 +1,19 @@
+{
+  "description": "Number of asymmetric connected bipartite graphs with n vertices.",
+  "id": "A399264",
+  "mentions": [
+    "A005142",
+    "A124059"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

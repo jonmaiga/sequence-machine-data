@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0, for n > 1 if n = prime(k), then a(n) = k, otherwise a(n) = Sum_{d|n, d",
+  "description": "a(1) = 0, for n > 1 if n = prime(k), then a(n) = k, otherwise a(n) = Sum_{d|n, d<n} a(d).",
   "id": "A082666",
   "mentions": [
     "A049084"

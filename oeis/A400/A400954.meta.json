@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of distinct ways to get the minimum runtime for k threads to complete n tasks, where time(n_i) = 2^(i-1), with 1 <= i <= n.",
+  "id": "A400954",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A000392",
+    "A000453",
+    "A000481",
+    "A008277",
+    "A295989",
+    "A400950",
+    "A400951",
+    "A400952",
+    "A400953",
+    "A400955"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

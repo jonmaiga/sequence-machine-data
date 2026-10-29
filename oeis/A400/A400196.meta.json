@@ -1,0 +1,18 @@
+{
+  "description": "The Heraclitus transform of the squares and 2: a(0) = 0; thereafter a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference between a(n-1) and a(n) is either a square or 2; in case of a tie, preference is given to the positive value.",
+  "id": "A400196",
+  "mentions": [
+    "A000290",
+    "A377091",
+    "A383442",
+    "A400197"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

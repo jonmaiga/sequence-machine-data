@@ -1,0 +1,16 @@
+{
+  "description": "Partial sums of A052434.",
+  "id": "A399820",
+  "mentions": [
+    "A052434"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

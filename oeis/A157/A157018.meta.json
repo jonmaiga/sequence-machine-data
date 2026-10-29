@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: number of k-lists (ordered k-sets) of disjoint 2-subsets of an n-set, n>1, 0",
+  "description": "Triangle T(n,k) read by rows: number of k-lists (ordered k-sets) of disjoint 2-subsets of an n-set, n>1, 0<k<=floor(n/2).",
   "id": "A157018",
   "mentions": [
     "A000262",

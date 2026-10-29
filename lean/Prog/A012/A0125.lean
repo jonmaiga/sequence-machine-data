@@ -2,25 +2,23 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C005
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C010
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B001.C000
-import Seq.B001.C001
+import Seq.B000.C016
+import Seq.B000.C021
+import Seq.B000.C028
+import Seq.B000.C038
 import Seq.B001.C002
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C004
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B002.C003
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B005.C000
 import Seq.B007.C000
-import Seq.B008.C001
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -34,17 +32,16 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A012501: cos(cos(x)*arctan(x))=1-1/2!*x^2+21/4!*x^4-645/6!*x^6+34153/8!*x^8...

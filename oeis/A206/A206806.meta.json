@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{0",
+  "description": "Sum_{0<j<k<=n} s(k)-s(j), where s(j)=A002620(j) is the j-th quarter-square.",
   "id": "A206806",
   "mentions": [
     "A002620",

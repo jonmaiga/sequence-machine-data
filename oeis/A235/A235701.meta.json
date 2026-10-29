@@ -1,5 +1,5 @@
 {
-  "description": "Number of n step walks (each step +/- 1 starting from 0) which are never more than 6 or less than -6.",
+  "description": "Number of n step walks (each step +- 1 starting from 0) which are never more than 6 or less than -6.",
   "id": "A235701",
   "mentions": [
     "A068911",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

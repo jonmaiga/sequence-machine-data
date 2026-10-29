@@ -1,0 +1,20 @@
+{
+  "description": "Contents of the quarter-turn corrected Stern vectors associated with the column words of the Gosper-Lafitte triangle.",
+  "id": "A400888",
+  "mentions": [
+    "A000360",
+    "A000361",
+    "A002487",
+    "A284556"
+  ],
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

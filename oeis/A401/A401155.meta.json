@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number that is a primitive root modulo both p = A001359(n) and p+2 = A006512(n).",
+  "id": "A401155",
+  "mentions": [
+    "A001359",
+    "A001918",
+    "A006512"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

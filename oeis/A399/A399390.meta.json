@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + (3/2) * ( A(x)^2 + A(x^2) ).",
+  "id": "A399390",
+  "mentions": [
+    "A001190",
+    "A226909"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

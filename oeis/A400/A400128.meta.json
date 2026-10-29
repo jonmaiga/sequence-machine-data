@@ -1,0 +1,17 @@
+{
+  "description": "Number of recursively defined forms of weight n, where a form is either a unit, an ordered fusion of two forms, or a propagation of one form whose weight is tripled.",
+  "id": "A400128",
+  "mentions": [
+    "A000108",
+    "A226909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

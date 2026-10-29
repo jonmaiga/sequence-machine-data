@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p <= (prime(n)+1)/2 such that the harmonic number H(p-1) = sum_{0",
+  "description": "Number of primes p <= (prime(n)+1)/2 such that the harmonic number H(p-1) = sum_{0<k<p} 1/k is a primitive root modulo prime(n), or 0 if such a prime p does not exist.",
   "id": "A242222",
   "mentions": [
     "A000040",

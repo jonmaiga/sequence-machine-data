@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered outcomes with product k when two independent fair n-sided dice, each with faces 0,...,n-1, are rolled, for 0 <= k <= (n-1)^2.",
+  "id": "A399086",
+  "mentions": [
+    "A002522",
+    "A005408",
+    "A027424",
+    "A095026",
+    "A393470",
+    "A394016",
+    "A395373"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

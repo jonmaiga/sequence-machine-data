@@ -1,0 +1,18 @@
+{
+  "description": "The number of distinct regions in a regular n-gon with all diagonals, up to dihedral automorphisms of the n-gon.",
+  "id": "A399503",
+  "mentions": [
+    "A000035",
+    "A007678",
+    "A187781"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

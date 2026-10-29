@@ -1,5 +1,5 @@
 {
-  "description": "Number of dissectable polyhedra with n tetrahedral cells and symmetry of type F.",
+  "description": "Number of dissectible polyhedra with n tetrahedral cells and symmetry of type F.",
   "id": "A047760",
   "mentions": [
     "A001764",

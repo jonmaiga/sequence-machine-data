@@ -1,0 +1,20 @@
+{
+  "description": "Column index of n in the Tchoukaillon array of order infinity (A344009).",
+  "id": "A399874",
+  "mentions": [
+    "A000960",
+    "A100287",
+    "A344009",
+    "A344012",
+    "A399873"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

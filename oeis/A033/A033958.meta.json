@@ -1,5 +1,5 @@
 {
-  "description": "In the '3x+1' problem, these values for the starting value set new records for number of steps to reach 1.",
+  "description": "In the '3x+1' problem, these starting values set new records for number of tripling steps to reach a power of 2.",
   "id": "A033958",
   "mentions": [
     "A006667",

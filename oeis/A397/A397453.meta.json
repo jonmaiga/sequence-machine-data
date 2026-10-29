@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that, writing m = floor(sqrt(k)), both k-m^2 and k+m^2 are perfect squares.",
+  "id": "A397453",
+  "mentions": [
+    "A005240",
+    "A005241",
+    "A048760"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

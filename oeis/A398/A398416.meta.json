@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of coins needed to pay n cents using coins of sizes 1, 5, 10, 25, 50, 100 cents if the payee gives change.",
+  "id": "A398416",
+  "mentions": [
+    "A011542"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

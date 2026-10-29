@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum size of a subset S of {1,...,n} that contains n and in which no two distinct x, y in S have x+y dividing 2*x*y.",
+  "id": "A398691",
+  "mentions": [
+    "A384927",
+    "A398582"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

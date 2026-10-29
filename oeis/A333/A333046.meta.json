@@ -2,16 +2,20 @@
   "description": "a(1) = 1; a(n) = n * Sum_{d|n, d < n, gcd(d, n/d) = 1} a(d) / d.",
   "id": "A333046",
   "mentions": [
+    "A000670",
     "A000961",
+    "A001221",
     "A050369",
     "A325446"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

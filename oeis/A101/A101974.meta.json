@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of Dyck paths of semilength n with k peaks before the first return (1<= k",
+  "description": "Triangle read by rows: number of Dyck paths of semilength n with k peaks before the first return (1<= k <n).",
   "id": "A101974",
   "mentions": [
     "A000108",

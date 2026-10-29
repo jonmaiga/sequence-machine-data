@@ -1,0 +1,28 @@
+{
+  "description": "Odd numbers of the form p^2*s, where p is prime, s is squarefree, gcd(p,s) = 1, and A001221(s) >= 2.",
+  "id": "A398569",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005408",
+    "A054753",
+    "A072357",
+    "A179119",
+    "A185199",
+    "A360769",
+    "A363217",
+    "A391025",
+    "A398316",
+    "A398421",
+    "A398787"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

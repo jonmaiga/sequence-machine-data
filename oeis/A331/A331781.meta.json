@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(m,n) = Sum_{0= n >= 1.",
+  "description": "Triangle read by rows: T(m,n) = Sum_{0<i<m, 0<j<n, gcd{i,j}=1} 1, where m >= n >= 1.",
   "id": "A331781",
   "mentions": [
     "A018805",

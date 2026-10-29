@@ -23,12 +23,11 @@
   ],
   "tags": [
     "look",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

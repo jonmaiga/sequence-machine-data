@@ -1,5 +1,5 @@
 {
-  "description": "Number of segments needed to draw (on the infinite square grid) a diagram of regions and partitions of n.",
+  "description": "Number of segments needed to draw on the infinite square grid a diagram of regions and partitions of n.",
   "id": "A211026",
   "mentions": [
     "A000041",

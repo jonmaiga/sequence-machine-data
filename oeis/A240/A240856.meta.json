@@ -1,18 +1,16 @@
 {
-  "description": "Number of partitions p of n into distinct parts not including 2*(number of parts).",
+  "description": "Number of partitions p of n into distinct parts including 2*(number of parts).",
   "id": "A240856",
   "mentions": [
-    "A000009",
     "A240854"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

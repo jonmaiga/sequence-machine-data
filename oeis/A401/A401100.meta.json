@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, thereafter a(n+1) = ceiling(5*a(n)/2).",
+  "id": "A401100",
+  "mentions": [
+    "A024632",
+    "A061418",
+    "A061419",
+    "A087192",
+    "A390254",
+    "A401103"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

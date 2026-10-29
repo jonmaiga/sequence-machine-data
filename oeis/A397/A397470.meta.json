@@ -1,0 +1,17 @@
+{
+  "description": "Number of strongly connected digraphs on n labeled nodes that are reducible as a flow graph with entry node 1.",
+  "id": "A397470",
+  "mentions": [
+    "A003030",
+    "A398465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

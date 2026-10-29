@@ -1,0 +1,21 @@
+{
+  "description": "Smallest exponent k >= 1 such that (product of the first n-1 primes)*prime(n)^k - 1 is prime; or -1 if no such prime exists.",
+  "id": "A400659",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A002110",
+    "A003307",
+    "A006794",
+    "A057704"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

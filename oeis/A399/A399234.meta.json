@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to build a contiguous building with n L-shaped LEGO blocks of size 2 X 2 up to rotations.",
+  "id": "A399234",
+  "mentions": [
+    "A112389",
+    "A123818"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

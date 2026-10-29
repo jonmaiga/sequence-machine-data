@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = N(1,p)-N(-1,p)-N(0,p) where p is the n-th odd prime and N(j,p) is the number of i with 0<=i",
+  "description": "a(n) = N(1,p)-N(-1,p)-N(0,p) where p is the n-th odd prime and N(j,p) is the number of i with 0<=i<A106291(p) for which the Legendre symbol (A000032(i)/p)=j.",
   "id": "A394455",
   "mentions": [
     "A000032",

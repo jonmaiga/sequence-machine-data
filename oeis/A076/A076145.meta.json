@@ -2,9 +2,11 @@
   "description": "Floor of arithmetic-geometric mean of n and n^2.",
   "id": "A076145",
   "mentions": [
-    "A061979"
+    "A061979",
+    "A231603"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

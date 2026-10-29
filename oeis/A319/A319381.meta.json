@@ -15,12 +15,11 @@
     "A319436"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

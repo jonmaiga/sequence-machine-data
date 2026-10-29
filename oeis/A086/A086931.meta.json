@@ -1,16 +1,17 @@
 {
-  "description": "a(0) = 1, a(n) = spf(n)*a(n-spf(n)), where spf=A020639 (smallest prime factor).",
+  "description": "a(0) = 1, a(n) = lpf(n)*a(n-lpf(n)), where lpf=A020639 (least prime factor).",
   "id": "A086931",
   "mentions": [
     "A020639",
     "A046022"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
-    "source": "joeis"
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

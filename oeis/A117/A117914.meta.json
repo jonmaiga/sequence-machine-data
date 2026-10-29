@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the sum of the reciprocals of all positive integers having distinct digits (there are exactly 8877690 such integers).",
   "id": "A117914",
   "mentions": [
+    "A010784",
     "A073531"
   ],
   "tags": [

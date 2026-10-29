@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that there exists an integer 0",
+  "description": "Integers k such that there exists an integer 0<m<k such that sigma(k) = sigma(m) = m + 2*k.",
   "id": "A383239",
   "mentions": [
     "A000203",

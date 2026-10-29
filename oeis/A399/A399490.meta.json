@@ -1,0 +1,21 @@
+{
+  "description": "Sum of squares of the elements of R(n), where R(n) is the set of n consecutive integers centered at n, with the center n omitted when n is even.",
+  "id": "A399490",
+  "mentions": [
+    "A000330",
+    "A001844",
+    "A398929",
+    "A398933",
+    "A399500"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

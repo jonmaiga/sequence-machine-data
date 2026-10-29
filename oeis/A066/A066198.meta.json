@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where phi changes as fast as sigma, i.e., abs(phi(n+1) - phi(n)) = abs(sigma(n+1) - sigma(n)).",
+  "description": "Numbers k where phi changes as fast as sigma, i.e., abs(phi(k+1) - phi(k)) = abs(sigma(k+1) - sigma(k)).",
   "id": "A066198",
   "mentions": [
     "A065387",

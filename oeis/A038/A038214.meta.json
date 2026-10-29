@@ -1,15 +1,21 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*2^(i-j)*8^j.",
   "id": "A038214",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A001018",
+    "A007318",
+    "A011557"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 45,
     "source": "joeis"
   }
 }

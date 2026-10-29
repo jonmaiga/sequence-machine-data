@@ -21,6 +21,19 @@
       "tags": [
         "proven"
       ]
+    },
+    {
+      "d": "2026-10-26",
+      "ix": "contfrac[cot(atan(e)/2)]",
+      "mt": 96,
+      "px": [
+        "e",
+        "atan",
+        "2",
+        "/",
+        "cot",
+        "contfrac"
+      ]
     }
   ]
 }

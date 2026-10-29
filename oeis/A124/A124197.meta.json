@@ -1,5 +1,5 @@
 {
-  "description": "Number of subsets S of {1,2,3,...,n}, including the empty subset, such that if x and y are in S with x",
+  "description": "Number of subsets S of {1,2,3,...,n}, including the empty subset, such that if x and y are in S with x<y and x+y even, then (x+y)/2 is also in S.",
   "id": "A124197",
   "mentions": [
     "A001227",

@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonzero digits in primorial base representation of n' [where n' stands for the arithmetic derivative of n, A003415].",
+  "id": "A400258",
+  "mentions": [
+    "A001221",
+    "A003415",
+    "A267263",
+    "A327859",
+    "A328232",
+    "A400259",
+    "A400260",
+    "A400262"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

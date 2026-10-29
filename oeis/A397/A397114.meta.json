@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of terms in A055932 that have the same prime signature as A025487(n).",
+  "id": "A397114",
+  "mentions": [
+    "A025487",
+    "A055932",
+    "A096903"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

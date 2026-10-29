@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of boundary lattice points minus the number of interior lattice points of the regular tetrahedron with vertices (0,0,0), (n,n,0), (n,0,n) and (0,n,n).",
+  "id": "A400967",
+  "mentions": [
+    "A005893",
+    "A006527",
+    "A342831",
+    "A400232",
+    "A400968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

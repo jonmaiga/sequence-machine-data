@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least proper multiple of n whose factorial base expansion contains that of n as a substring.",
+  "id": "A399856",
+  "mentions": [
+    "A002034",
+    "A087217",
+    "A153880",
+    "A230403",
+    "A399855"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

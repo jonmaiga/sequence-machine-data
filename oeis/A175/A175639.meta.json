@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Product_{p prime} (1-3/p^3+2/p^4+1/p^5-1/p^6).",
+  "description": "Decimal expansion of Taniguchi's constant: Product_{p prime} (1 - 3/p^3 + 2/p^4 + 1/p^5 - 1/p^6).",
   "id": "A175639",
   "mentions": [
     "A000040",

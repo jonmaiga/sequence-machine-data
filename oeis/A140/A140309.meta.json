@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n binary matrices containing no more than six 1s in any 3 X 3 sub-block.",
+  "description": "Number of n X n binary matrices containing no more than six 1s in any 3 X 3 subblock.",
   "id": "A140309",
   "mentions": [
     "A139810"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

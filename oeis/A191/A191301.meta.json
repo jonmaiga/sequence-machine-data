@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(x*arcsin(x)) = sum_{n>=0} a(n)*x^(2n)/product(k, 0",
+  "description": "Expansion of exp(x*arcsin(x)) = sum_{n>=0} a(n)*x^(2n)/product(k, 0<k<2n).",
   "id": "A191301",
   "mentions": [
     "A042972"

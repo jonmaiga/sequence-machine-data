@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1+(x+1)^k+(x+1)^n is a primitive polynomial over GF(2) for some k where 0",
+  "description": "Numbers n such that 1+(x+1)^k+(x+1)^n is a primitive polynomial over GF(2) for some k where 0<k<n.",
   "id": "A136416",
   "mentions": [
     "A073571",

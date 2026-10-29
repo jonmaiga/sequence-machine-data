@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0; for n > 1, a(n) = Product_{d|n, d>1, d",
+  "description": "a(1) = 0; for n > 1, a(n) = Product_{d|n, d>1, d<n} prime(1+A297167(d)).",
   "id": "A324193",
   "mentions": [
     "A000005",

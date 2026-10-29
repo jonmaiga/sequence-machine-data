@@ -1,5 +1,5 @@
 {
-  "description": "Least s(k) such that n divides s(k)-s(j) for some j",
+  "description": "Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=(1/2)C(2j,j).",
   "id": "A205388",
   "mentions": [
     "A204892",

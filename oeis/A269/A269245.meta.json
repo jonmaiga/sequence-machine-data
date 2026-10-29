@@ -19,15 +19,17 @@
     "A269247",
     "A269248",
     "A269249",
-    "A269250"
+    "A269250",
+    "A316866"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 96,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

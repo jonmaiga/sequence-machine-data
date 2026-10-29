@@ -1,5 +1,5 @@
 {
-  "description": "Brier numbers with at least three minimal covering sets.",
+  "description": "Brier numbers with at least three minimal distinct covering sets.",
   "id": "A397300",
   "mentions": [
     "A076335",

@@ -2,6 +2,7 @@
   "description": "Column k = 1 of the triangle A225471; Sheffer ((1 - 3*x)^(-3/4), (-1/4)*log(1 - 4*x)).",
   "id": "A286723",
   "mentions": [
+    "A001620",
     "A008545",
     "A225471"
   ],

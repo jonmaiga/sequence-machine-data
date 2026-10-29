@@ -1,0 +1,18 @@
+{
+  "description": "Indices of new terms in A400000.",
+  "id": "A400121",
+  "mentions": [
+    "A397493",
+    "A399763",
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

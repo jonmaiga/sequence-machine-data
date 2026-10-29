@@ -2,8 +2,13 @@
   "description": "a(n) begins the first chain of n consecutive positive integers that have equal h-values, where h(k) is the length of the finite sequence k, f(k), f(f(k)), ...., 1 in the Collatz (or 3x + 1) problem. (The earliest \"1\" is meant.)",
   "id": "A078441",
   "mentions": [
+    "A006577",
+    "A006666",
     "A008908",
-    "A153330"
+    "A078417",
+    "A153330",
+    "A277109",
+    "A400487"
   ],
   "tags": [
     "nonn"

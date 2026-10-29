@@ -1,5 +1,5 @@
 {
-  "description": "nextprime(n) - prevprime(n).",
+  "description": "a(n) = nextprime(n) - prevprime(n).",
   "id": "A013633",
   "mentions": [
     "A007917",

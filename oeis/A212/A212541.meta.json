@@ -1,5 +1,5 @@
 {
-  "description": "Let p_n=prime(n), n>=1. Then a(n) is the maximal prime p which differs from p_n, for which the intervals (p/2,p_n/2), (p,p_n], if pp_n, contain the same number of primes, and a(n)=0, if no such prime p exists.",
+  "description": "Let p_n=prime(n), n>=1. Then a(n) is the maximal prime p which differs from p_n, for which the intervals (p/2,p_n/2), (p,p_n], if p<p_n, or the intervals (p_n/2,p/2), (p_n,p], if p>p_n, contain the same number of primes, and a(n)=0, if no such prime p exists.",
   "id": "A212541",
   "mentions": [
     "A080359",

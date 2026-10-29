@@ -1,16 +1,15 @@
 {
-  "description": "Spiral tiling numbers.",
+  "description": "Spiral tiling numbers: union of {3*4^k, k>=0}, {4*9^k, k>=0}, and {6*7^k, k>=0}.",
   "id": "A137333",
   "mentions": [
     "A003401"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

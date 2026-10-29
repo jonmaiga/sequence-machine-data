@@ -2,7 +2,9 @@
   "description": "Number of distinct quadratic residues mod 9^n.",
   "id": "A039306",
   "mentions": [
+    "A000224",
     "A000993",
+    "A001019",
     "A023105",
     "A039300",
     "A039301",

@@ -2,14 +2,16 @@
   "description": "Smallest positive integer for each n such that the sequences a(n), a(n)+n, a(n)+2n, and a(n)+3n have no repeated terms.",
   "id": "A164889",
   "mentions": [
-    "A164888"
+    "A164888",
+    "A399888"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

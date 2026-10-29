@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma_5(n)/sigma_1(n) is prime.",
+  "description": "Numbers k such that sigma_5(k)/sigma_1(k) is prime.",
   "id": "A065817",
   "mentions": [],
   "tags": [

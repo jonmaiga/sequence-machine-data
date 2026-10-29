@@ -1,0 +1,18 @@
+{
+  "description": "Number of acyclic digraphs A on n labeled nodes together with node sets S and R such that adding a new node h with edges from h to every node of S and from every node of R to h yields a strongly connected digraph that is reducible as a flow graph rooted at every node.",
+  "id": "A400560",
+  "mentions": [
+    "A003030",
+    "A052873",
+    "A400123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

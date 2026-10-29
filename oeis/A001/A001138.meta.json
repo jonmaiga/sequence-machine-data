@@ -1,5 +1,5 @@
 {
-  "description": "Red rooted red-black trees with n internal nodes.",
+  "description": "Number of red rooted red-black trees with n internal nodes.",
   "id": "A001138",
   "mentions": [],
   "tags": [

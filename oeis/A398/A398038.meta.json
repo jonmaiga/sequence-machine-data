@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of closed binary operations * on a set N of n elements such that t*(t*t)=(t*t)*t for every t in N (up to equality of operations as functions on N X N into N; i.e., labeled case of elements).",
+  "id": "A398038",
+  "mentions": [
+    "A002489",
+    "A023813",
+    "A023814",
+    "A090588"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

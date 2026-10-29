@@ -1,0 +1,32 @@
+{
+  "description": "The sum of divisors d of n such that gcud(d, n/d) is an exponentially odd number (A268335), where gcud is the greatest common unitary divisor.",
+  "id": "A399837",
+  "mentions": [
+    "A013664",
+    "A077610",
+    "A165430",
+    "A188999",
+    "A225174",
+    "A268335",
+    "A365170",
+    "A365174",
+    "A384244",
+    "A399831",
+    "A399834",
+    "A399835",
+    "A399836",
+    "A399838",
+    "A399839"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

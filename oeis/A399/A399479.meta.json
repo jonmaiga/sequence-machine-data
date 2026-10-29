@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled acyclic digraphs on [n] that have exactly k isolated points, n>=0, 0<=k<=n.",
+  "id": "A399479",
+  "mentions": [
+    "A003024",
+    "A396578"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

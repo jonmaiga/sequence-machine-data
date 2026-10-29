@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a(1,1)=1. a(m,n) = a(m-1,n) + (sum of all terms in row m-1), for n",
+  "description": "Triangle read by rows: a(1,1)=1. a(m,n) = a(m-1,n) + (sum of all terms in row m-1), for n<m. a(m,m) = sum of all terms in row m-1.",
   "id": "A159930",
   "mentions": [
     "A001710",

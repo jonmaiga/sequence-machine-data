@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = b_n(p_(n+1)) where p_n is the n-th prime, b_n(1)=1, b_n(2)=p_n, and for k>=3, b_n(k) is the smallest number larger than b_n(k-1) such that, for all i",
+  "description": "a(n) = b_n(p_(n+1)) where p_n is the n-th prime, b_n(1)=1, b_n(2)=p_n, and for k>=3, b_n(k) is the smallest number larger than b_n(k-1) such that, for all i<k, b_n(k) is relatively prime to b_n(i) iff k is relatively prime to i.",
   "id": "A173381",
   "mentions": [
     "A000040",

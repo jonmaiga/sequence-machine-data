@@ -1,20 +1,18 @@
 import SequenceMachineLib
 import Seq.B000.C000
-import Seq.B000.C004
-import Seq.B000.C009
-import Seq.B000.C024
+import Seq.B000.C005
+import Seq.B000.C010
+import Seq.B000.C021
+import Seq.B000.C027
+import Seq.B000.C031
 import Seq.B001.C000
-import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B004.C000
-import Seq.B006.C001
+import Seq.B003.C000
+import Seq.B005.C001
 import Seq.Opaque.C006
 import Seq.Opaque.C012
-import Seq.Opaque.C013
-import Seq.Opaque.C016
-import Seq.Opaque.C021
+import Seq.Opaque.C015
+import Seq.Opaque.C020
 
 /-!
 # A172802: Number of n X n 0..4 arrays with row sums 16 and column sums 16.

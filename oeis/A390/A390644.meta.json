@@ -2,9 +2,10 @@
   "description": "Triangle read by rows: T(n,k) = number of connected quartic graphs on n vertices with crossing number k for n >= 1, k >= 0.",
   "id": "A390644",
   "mentions": [
-    "A002851",
+    "A006820",
     "A072552",
     "A389263",
+    "A389265",
     "A390643"
   ],
   "tags": [

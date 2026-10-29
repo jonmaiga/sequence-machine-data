@@ -1,17 +1,19 @@
 {
-  "description": "Numbers n such that there are five distinct triples (k, k+n, k+2n) of squares.",
+  "description": "Numbers m such that there are at least 5 distinct triples (k, k+m, k+2m) of squares.",
   "id": "A214155",
   "mentions": [
-    "A198387",
     "A222154",
-    "A222155"
+    "A222155",
+    "A226858",
+    "A226954",
+    "A256418"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "description": "Nonsquarefree numbers that are not divisible by the square of their least prime factor.",
+  "id": "A400801",
+  "mentions": [
+    "A013929",
+    "A071365",
+    "A229099",
+    "A247180",
+    "A258211",
+    "A283050",
+    "A283071",
+    "A332785",
+    "A375397",
+    "A398442",
+    "A398802",
+    "A398864",
+    "A398948"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

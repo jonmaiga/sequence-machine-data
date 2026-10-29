@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that nextprime(2*n)",
+  "description": "Numbers n such that nextprime(2*n)<2*nextprime(n) (if p is prime then nextprime(p)=p).",
   "id": "A117096",
   "mentions": [],
   "tags": [

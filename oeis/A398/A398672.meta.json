@@ -1,0 +1,23 @@
+{
+  "description": "Number of domino tilings (perfect matchings) of the 4 X 2n grid graph embedded on the Klein bottle.",
+  "id": "A398672",
+  "mentions": [
+    "A011922",
+    "A103999",
+    "A397309",
+    "A398567",
+    "A399275",
+    "A399311",
+    "A399564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

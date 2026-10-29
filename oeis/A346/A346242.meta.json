@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet inverse of A324198, where A324198(n) = gcd(n, A276086(n)).",
+  "description": "Dirichlet inverse of A324198, where A324198(n) = gcd(n, A276086(n)), and A276086 is the primorial base exp-function.",
   "id": "A346242",
   "mentions": [
     "A000035",
@@ -19,10 +19,12 @@
     "A354814",
     "A354822",
     "A354823",
-    "A354824"
+    "A354824",
+    "A366296"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "sign"
   ],

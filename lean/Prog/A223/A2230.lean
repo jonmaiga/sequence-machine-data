@@ -1,6 +1,7 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
@@ -8,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,36 +18,42 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C032
-import Seq.B000.C037
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C038
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
+import Seq.B001.C003
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C002
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -55,6 +63,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -67,8 +76,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 /-!
 # A223000: T(n,k)=Number of nXk 0..2 arrays with no more than floor(nXk/2) elements equal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..2 order.
@@ -2602,7 +2610,7 @@ end A223034.P18019879820340780169
 /-!
 # A223035: Prime numbers whose digits squared sum to a square.
 
-The programs for A223035, the canonical program `A223035.P17125103435558196622` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223035 has offset 1).
+The programs for A223035, the canonical program `A223035.P17125103435558196622` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223035 has offset 1).
 
 The definition of A223035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 901 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2611,7 +2619,7 @@ The definition of A223035 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A175396(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A223035
@@ -3162,7 +3170,7 @@ end
 end A223043.P10265501596989235926
 
 /-!
-# A223044: Number of nX1 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
+# A223044: Number of n X 1 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
 
 The programs for A223044, there is no canonical definition to state claims against.
 -/
@@ -5380,27 +5388,6 @@ end
 end A223081.P17490203421725075903
 
 /-!
-# A223082: Number of n-digit numbers N with distinct digits such that N divides the reversal of N.
-
-The programs for A223082, there is no canonical definition to state claims against.
--/
-
-/-! ## A223082.P7257177796752623424
-
-`a(2%n)` with `a(0)=9, a(1)=0, a(2)=0, a(3)=2, a(4)=1`
--/
-
-namespace A223082.P7257177796752623424
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [9, 0, 0, 2, 1] fun n a =>
-  a (2 % n)
-
-end
-
-end A223082.P7257177796752623424
-
-/-!
 # A223083: Trajectory of 64 under the map n-> A006369(n).
 
 The programs for A223083, there is no canonical definition to state claims against.
@@ -6166,21 +6153,6 @@ end A223092.P4126888882179380059
 The programs for A223093, there is no canonical definition to state claims against.
 -/
 
-/-! ## A223093.P1529831833733913069
-
-`A000682(n+2)-A077014(n+1)`
--/
-
-namespace A223093.P1529831833733913069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000682 (n + 2) - A077014 (n + 1)
-
-end
-
-end A223093.P1529831833733913069
-
 /-! ## A223093.P2701408432678162977
 
 `A223094(n+1)-A223095(n+1)`
@@ -6196,56 +6168,86 @@ end
 
 end A223093.P2701408432678162977
 
-/-! ## A223093.P13804895143766371835
+/-! ## A223093.P1529831833733913069
 
-`A223094(n+1)-A000034(n)*A217318(n+1)`
+`A000682(n+2)-A077014(n+1)`
 -/
 
-namespace A223093.P13804895143766371835
+namespace A223093.P1529831833733913069
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223094 (n + 1) - A000034 n * A217318 (n + 1)
+  A000682 (n + 2) - A077014 (n + 1)
 
 end
 
-end A223093.P13804895143766371835
+end A223093.P1529831833733913069
 
-/-! ## A223093.P3193598569819954315
+/-! ## A223093.P12782146072087245985
 
-`A000136(n+1)-(A223094(n+1)+A077014(n+1))`
+`A000682(n+2)-(2-(n+1)%2)*A005316(n+1)`
 -/
 
-namespace A223093.P3193598569819954315
+namespace A223093.P12782146072087245985
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000136 (n + 1) - (A223094 (n + 1) + A077014 (n + 1))
+  A000682 (n + 2) - (2 - (((n + 1) % 2 : ℕ) : ℤ)) * A005316 (n + 1)
 
 end
 
-end A223093.P3193598569819954315
+end A223093.P12782146072087245985
 
-/-! ## A223093.P2356544059817134603
+/-! ## A223093.P2567759631470551798
 
-`A000136(n+1)-(A223095(n+1)+A000682(n+2))`
+`A217310(n+1)/A040001(n)`
 -/
 
-namespace A223093.P2356544059817134603
+namespace A223093.P2567759631470551798
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000136 (n + 1) - (A223095 (n + 1) + A000682 (n + 2))
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A217310 (n + 1) : ℚ) / (A040001 n : ℚ)
 
 end
 
-end A223093.P2356544059817134603
+end A223093.P2567759631470551798
+
+/-! ## A223093.P16115255562715236136
+
+`A217310(n+1)/A000034(n+1)`
+-/
+
+namespace A223093.P16115255562715236136
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A217310 (n + 1) : ℚ) / (A000034 (n + 1) : ℚ)
+
+end
+
+end A223093.P16115255562715236136
 
 /-!
 # A223094: Number of foldings of n labeled stamps in which leaf n is inwards.
 
 The programs for A223094, there is no canonical definition to state claims against.
 -/
+
+/-! ## A223094.P8271812460342607198
+
+`A223093(n+1)+A223095(n+1)`
+-/
+
+namespace A223094.P8271812460342607198
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223093 (n + 1) + A223095 (n + 1)
+
+end
+
+end A223094.P8271812460342607198
 
 /-! ## A223094.P8504894180526241852
 
@@ -6309,21 +6311,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223094.P14769999715390852148
-
-/-! ## A223094.P7518270449815747978
-
-`A223095(n+1)+A223093(n+1)`
--/
-
-namespace A223094.P7518270449815747978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223095 (n + 1) + A223093 (n + 1)
-
-end
-
-end A223094.P7518270449815747978
 
 /-!
 # A223095: Number of foldings of n labeled stamps in which both end leaves are inwards.

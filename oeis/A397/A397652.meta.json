@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of Boolean functions of n variables under cyclic rotations of the variables.",
+  "id": "A397652",
+  "mentions": [
+    "A000031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

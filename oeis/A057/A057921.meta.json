@@ -1,7 +1,8 @@
 {
-  "description": "d(n+1) divides d(n), where d(n) is number of positive divisors of n.",
+  "description": "Numbers k such that d(k+1) divides d(k), where d(k) is number of positive divisors of k.",
   "id": "A057921",
   "mentions": [
+    "A000005",
     "A005237",
     "A057922"
   ],
@@ -9,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
     "source": "oeis-bfile"
   }

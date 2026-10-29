@@ -2,7 +2,7 @@
   "description": "Number of unimodal maps [1..n]->[0..3].",
   "id": "A223659",
   "mentions": [
-    "A071920",
+    "A071921",
     "A223663",
     "A223718"
   ],

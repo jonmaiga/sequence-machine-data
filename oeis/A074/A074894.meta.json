@@ -2,7 +2,6 @@
   "description": "Full list of counterexamples for the k=3 version of the malicious apprentice problem.",
   "id": "A074894",
   "mentions": [
-    "A030109",
     "A057716"
   ],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "Numbers k such that prime(k+1) == 1 (mod k).",
   "id": "A105286",
   "mentions": [
+    "A001223",
     "A004649",
     "A105287",
     "A105288",

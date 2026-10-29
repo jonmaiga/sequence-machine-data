@@ -1,0 +1,17 @@
+{
+  "description": "Earliest sequence of numbers k such that k * sin(k) is positive and decreases monotonically toward 0.",
+  "id": "A398583",
+  "mentions": [
+    "A046946",
+    "A337249"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

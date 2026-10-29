@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w<average{x,y,z}.",
   "id": "A212088",
   "mentions": [
     "A211795",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum number of terms in a representation of prime(n) as a sum of distinct primes, each of which is itself recursively representable as a sum of distinct primes. The recursion starts with 2 and 3. a(n)=0 if no such representation exists.",
+  "id": "A397903",
+  "mentions": [
+    "A001097",
+    "A006512",
+    "A054860",
+    "A070215",
+    "A124867",
+    "A224534"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Difference between nearest integer to Li(10^n) and pi(10^n), where Li(x) = integral of log(x) and pi(10^n) = number of primes <= 10^n (A006880).",
+  "description": "Difference between nearest integer to Li(10^n) and pi(10^n), where Li(x) is the principal-value integral of 1/log(t) from 0 to x and pi(10^n) = number of primes <= 10^n (A006880).",
   "id": "A057752",
   "mentions": [
     "A006880",

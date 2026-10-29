@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the generalized continued fraction 1/(3+5/(7+9/(11+13/(15+...)))), using every odd integer.",
+  "id": "A401075",
+  "mentions": [
+    "A113014",
+    "A181050",
+    "A367120"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by downward antidiagonals: T(n,k) is the conductor of chi_{n,k}, where chi_{n,k} is the Dirichlet character modulo n with label k in the Conrey labeling system; T(n,k) = 0 if n and k are not coprime.",
+  "id": "A400532",
+  "mentions": [
+    "A007431",
+    "A399106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals: T(n,k) is the number of simple labeled graphs G with vertex set V(G) = {v_1,...,v_n} along with a (coloring) function C:V(G) ->[k] such that v_i adjacent to v_j implies C(v_i) != C(v_j) and i=0, k>=0.",
+  "description": "Square array read by antidiagonals: T(n,k) is the number of simple labeled graphs G with vertex set V(G) = {v_1,...,v_n} along with a (coloring) function C:V(G) ->[k] such that v_i adjacent to v_j implies C(v_i) != C(v_j) and i<j implies C(v_i) <= C(v_j); n>=0, k>=0.",
   "id": "A337161",
   "mentions": [
     "A117402",

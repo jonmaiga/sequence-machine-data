@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple Baxter permutations of length n.",
+  "id": "A397853",
+  "mentions": [
+    "A001181",
+    "A111111",
+    "A340984"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

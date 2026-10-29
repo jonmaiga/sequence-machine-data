@@ -2,6 +2,7 @@
   "description": "Decimal expansion of sqrt(Pi)/2.",
   "id": "A019704",
   "mentions": [
+    "A002161",
     "A003881"
   ],
   "tags": [

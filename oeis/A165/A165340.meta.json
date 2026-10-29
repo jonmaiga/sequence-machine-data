@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,0) = smallest number m such that A165331(m)=n and A165330(m)=153; T(n,k+1) = sum of cubes of digits of T(n,k), 0<=k",
+  "description": "Triangle read by rows: T(n,0) = smallest number m such that A165331(m)=n and A165330(m)=153; T(n,k+1) = sum of cubes of digits of T(n,k), 0<=k<n.",
   "id": "A165340",
   "mentions": [
     "A008585",

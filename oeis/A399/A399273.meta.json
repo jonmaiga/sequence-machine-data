@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the positive root of exp(x) = 1 + 1/x.",
+  "id": "A399273",
+  "mentions": [
+    "A030178",
+    "A236229",
+    "A236230",
+    "A337057"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

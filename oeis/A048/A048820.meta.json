@@ -1,12 +1,14 @@
 {
-  "description": "Binary expansion of one of four fixed points (mod 1) of Minkowski's question mark function.",
+  "description": "Binary expansion of the Minkowski-Bower constant.",
   "id": "A048820",
   "mentions": [
     "A048817",
     "A048818",
     "A048819",
     "A048821",
-    "A048822"
+    "A048822",
+    "A058914",
+    "A120221"
   ],
   "tags": [
     "base",

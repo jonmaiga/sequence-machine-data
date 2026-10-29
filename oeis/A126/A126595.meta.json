@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(0,0)=1; for n>=1, 0<=k<=n, T(n,k) is the coefficient of x^k in the characteristic polynomial (-x)^n+... of the n X n matrix M(n)S(n), where M(n) is the n X n matrix with 0's on the diagonal and 1's elsewhere and S(n) is the n X n matrix whose (i,j) term is 0 for j=i, (-1)^(i+j) for i>j and (-1)^(i+j+1) for i",
+  "description": "Triangle read by rows: T(0,0)=1; for n>=1, 0<=k<=n, T(n,k) is the coefficient of x^k in the characteristic polynomial (-x)^n+... of the n X n matrix M(n)S(n), where M(n) is the n X n matrix with 0's on the diagonal and 1's elsewhere and S(n) is the n X n matrix whose (i,j) term is 0 for j=i, (-1)^(i+j) for i>j and (-1)^(i+j+1) for i<j.",
   "id": "A126595",
   "mentions": [
     "A000984"

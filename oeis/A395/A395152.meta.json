@@ -1,0 +1,17 @@
+{
+  "description": "Exponent k such that the largest alternating-digital-root number in base n (A397879) equals r^k.",
+  "id": "A395152",
+  "mentions": [
+    "A031435",
+    "A397879"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "joeis"
+  }
+}

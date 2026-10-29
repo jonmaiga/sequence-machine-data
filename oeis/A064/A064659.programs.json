@@ -20,6 +20,10 @@
         "*",
         "sub",
         "round"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "description": "List of arithmetic triples a",
+  "description": "List of arithmetic triples a<b<c (three numbers in arithmetic progression) such that a and b are contained in A005836.",
   "id": "A262256",
   "mentions": [
     "A005836",

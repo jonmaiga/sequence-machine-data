@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered representations of 2^n as a sum of two distinct positive integers, each an odd composite number multiplied by a power of 2.",
+  "id": "A401106",
+  "mentions": [
+    "A141100",
+    "A347202",
+    "A401105"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

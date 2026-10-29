@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime equal to n^2 + m^2 with n",
+  "description": "Smallest prime equal to n^2 + m^2 with n<m.",
   "id": "A068487",
   "mentions": [
     "A089489"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n)+n is a prime, where prime(n) denotes the n-th prime number.",
+  "description": "Numbers k such that prime(k) + k is prime, where prime(k) is the k-th prime.",
   "id": "A064402",
   "mentions": [
     "A014688",

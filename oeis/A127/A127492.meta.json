@@ -1,5 +1,5 @@
 {
-  "description": "Indices m of primes such that Sum_{k=0..2, k",
+  "description": "Indices m of primes such that Sum_{k=0..2, k<j<=3} prime(m+k)*prime(m+j)*prime(m+j+1) is twice a prime.",
   "id": "A127492",
   "mentions": [
     "A001043",

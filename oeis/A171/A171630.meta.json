@@ -1,14 +1,18 @@
 {
   "description": "a(n) = 10^n*(5+3*10^n)+3.",
   "id": "A171630",
-  "mentions": [],
+  "mentions": [
+    "A093143",
+    "A098608"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "joeis"
   }
 }

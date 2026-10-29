@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p - A062329(p) is a square.",
+  "id": "A399489",
+  "mentions": [
+    "A062329",
+    "A399441",
+    "A399442",
+    "A399496"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

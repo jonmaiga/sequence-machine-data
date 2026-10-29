@@ -1,5 +1,5 @@
 {
-  "description": "Triangle: T(n,k) equals the coefficient of x^n*y^k in the n-th iteration of x*(1+xy)/(1-x), for n>=1, 0<=k",
+  "description": "Triangle: T(n,k) equals the coefficient of x^n*y^k in the n-th iteration of x*(1+xy)/(1-x), for n>=1, 0<=k<n, as read by rows.",
   "id": "A185755",
   "mentions": [
     "A000169",

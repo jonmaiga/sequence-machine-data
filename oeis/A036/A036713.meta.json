@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=number of Gaussian integers z=a+bi satisfying |z|<=n+1/2, a>=0, 0<=b",
+  "description": "a(n)=number of Gaussian integers z=a+bi satisfying |z|<=n+1/2, a>=0, 0<=b<a.",
   "id": "A036713",
   "mentions": [],
   "tags": [

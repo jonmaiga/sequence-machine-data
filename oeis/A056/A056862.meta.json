@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have a decrease at index k (1<=k",
+  "description": "Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have a decrease at index k (1<=k<n).",
   "id": "A056862",
   "mentions": [
     "A005493",

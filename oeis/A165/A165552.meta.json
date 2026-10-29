@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, and then a(n) is sum of k*a(k) where k",
+  "description": "a(1) = 1, and then a(n) is sum of k*a(k) where k<n and k divides n.",
   "id": "A165552",
   "mentions": [
     "A002033",

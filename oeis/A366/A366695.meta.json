@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = (1 + x)^3 + x*A(x)^2.",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x)^3 + x*A(x)^2.",
   "id": "A366695",
   "mentions": [
     "A025227",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

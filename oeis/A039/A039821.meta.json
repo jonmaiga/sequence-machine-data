@@ -1,8 +1,19 @@
 {
-  "description": "Numerators in Stirling expansion of middle binomial coefficient.",
+  "description": "Numerators in Stirling expansion of central binomial coefficient C(2*n,n).",
   "id": "A039821",
   "mentions": [
-    "A000984"
+    "A000984",
+    "A002105",
+    "A006934",
+    "A008299",
+    "A008517",
+    "A027641",
+    "A027642",
+    "A068555",
+    "A088802",
+    "A123854",
+    "A143503",
+    "A253165"
   ],
   "tags": [
     "formulas",
@@ -10,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

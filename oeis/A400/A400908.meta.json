@@ -1,0 +1,19 @@
+{
+  "description": "Minimum of gcd(binomial(n,i), binomial(n,j)) over all pairs (i,j) with 2 <= i <= j <= floor(n/2).",
+  "id": "A400908",
+  "mentions": [
+    "A007318",
+    "A034868",
+    "A091963",
+    "A328202"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

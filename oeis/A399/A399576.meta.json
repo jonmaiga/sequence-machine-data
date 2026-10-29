@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with exactly k ascending runs and no ascending run of length 1; n >= 0, 0 <= k <= floor(n/2).",
+  "id": "A399576",
+  "mentions": [
+    "A000111",
+    "A000364",
+    "A046739",
+    "A057596",
+    "A097899",
+    "A109363"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

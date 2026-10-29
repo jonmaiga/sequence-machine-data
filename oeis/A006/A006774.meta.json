@@ -2,7 +2,9 @@
   "description": "Number of 2n-step polygons on honeycomb.",
   "id": "A006774",
   "mentions": [
-    "A005396"
+    "A002931",
+    "A005396",
+    "A036418"
   ],
   "tags": [
     "formulas",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

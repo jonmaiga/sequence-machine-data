@@ -1,0 +1,21 @@
+{
+  "description": "Distinct values of A400450 in increasing order.",
+  "id": "A400451",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A196525",
+    "A400390",
+    "A400450"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p^2 divides m!+1 for some integer m",
+  "description": "Primes p such that p^2 divides m!+1 for some integer m<p.",
   "id": "A115091",
   "mentions": [
     "A007540",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that cannot be written as sum of two or more consecutive nonprimes.",
+  "description": "Numbers that cannot be written as a sum of two or more consecutive nonprimes.",
   "id": "A366976",
   "mentions": [
     "A018252",

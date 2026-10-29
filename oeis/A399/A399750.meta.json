@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 4^k/(4*k)! (reciprocals of A067630).",
+  "id": "A399750",
+  "mentions": [
+    "A001113",
+    "A067630",
+    "A395537",
+    "A399749",
+    "A399751",
+    "A399752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

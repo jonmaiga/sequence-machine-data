@@ -1,9 +1,12 @@
 {
-  "description": "Numbers n such that there are three distinct triples (k, k+n, k+2n) of squares.",
+  "description": "Numbers m such that there are at least 3 distinct triples (k, k+m, k+2m) of squares.",
   "id": "A222154",
   "mentions": [
     "A198387",
-    "A222155"
+    "A214155",
+    "A222155",
+    "A226858",
+    "A226954"
   ],
   "tags": [
     "nonn"

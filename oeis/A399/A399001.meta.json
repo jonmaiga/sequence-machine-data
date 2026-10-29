@@ -1,0 +1,22 @@
+{
+  "description": "The binomial matrix of the Fibonacci numbers, square array read by upward antidiagonals.",
+  "id": "A399001",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A039834",
+    "A049601",
+    "A362067",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

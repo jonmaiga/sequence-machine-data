@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 0<=k<=n, formed from coefficients when formula for n-th diagonal of triangle in A059718 is written as a sum of binomial coefficients.",
+  "description": "Triangle T(n,k) with 0<=k<=n, formed from coefficients when formula for n-th diagonal of triangle in A059718 is written as a sum of binomial coefficients.",
   "id": "A059720",
   "mentions": [
     "A000111",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the wheel Ramsey number R(W_n,W_n).",
+  "id": "A401158",
+  "mentions": [
+    "A401157"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

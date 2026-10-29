@@ -2,6 +2,7 @@
   "description": "The 2-adic valuation of A318314.",
   "id": "A318315",
   "mentions": [
+    "A000120",
     "A007814",
     "A046645",
     "A317946",
@@ -10,6 +11,7 @@
     "A318455"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

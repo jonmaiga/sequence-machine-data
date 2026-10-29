@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of the n X n grid into n edge-connected regions such that there is exactly one way to place n stars, one in each row, column and region, with no two stars in adjacent cells, not even diagonally adjacent ones.",
+  "id": "A400547",
+  "mentions": [
+    "A000170",
+    "A002464",
+    "A145835",
+    "A172477",
+    "A387098",
+    "A389766",
+    "A395493"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

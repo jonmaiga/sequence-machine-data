@@ -1,0 +1,18 @@
+{
+  "description": "Integers r occurring in solutions of m^2 = p! * q! * r!, with p > q > r > 1, ordered by increasing m (A400208).",
+  "id": "A400609",
+  "mentions": [
+    "A400208",
+    "A400607",
+    "A400608"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

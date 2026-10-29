@@ -1,5 +1,5 @@
 {
-  "description": "The index j",
+  "description": "The index j<k such that n divides k^2-j^2, where k is the least index (A204905) for which such j exists.",
   "id": "A204995",
   "mentions": [
     "A204892",

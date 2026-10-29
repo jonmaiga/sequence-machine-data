@@ -1,5 +1,5 @@
 {
-  "description": "If n in base 10 is d_1 d_2 ... d_k then a(n) = d_1 + d_1d_2 + d_1d_2d_3 + ... + d_1...d_k.",
+  "description": "If n in base 10 is d_1 d_2 ... d_k then a(n) = d_1 + d_1.d_2 + d_1.d_2.d_3 + ... + d_1. ... .d_k, where the dot means the concatenation operation.",
   "id": "A065039",
   "mentions": [
     "A005187",
@@ -22,6 +22,6 @@
   "terms": {
     "offset": 0,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Least m such that every binary word of length n occurs as a contiguous subword of the binary representation of 3^k for some 0 <= k <= m.",
+  "id": "A400127",
+  "mentions": [
+    "A004656",
+    "A052944",
+    "A058891",
+    "A156301"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

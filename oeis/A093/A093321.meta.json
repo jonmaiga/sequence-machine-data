@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for m >= 2, a(m) =sum_{primes p",
+  "description": "a(1) = 1; for m >= 2, a(m) =sum_{primes p<m which do not divide m} a(pi(p)), where pi(p) is the order of p among the primes = the number of primes <= p.",
   "id": "A093321",
   "mentions": [
     "A093320",

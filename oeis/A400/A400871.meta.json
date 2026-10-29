@@ -1,0 +1,23 @@
+{
+  "description": "The number of ordered pairs of exponential divisors (d_1, d_2) of n^2 such d_1*d_2 is also an exponential divisor of n^2.",
+  "id": "A400871",
+  "mentions": [
+    "A007425",
+    "A049419",
+    "A074816",
+    "A322791",
+    "A385429",
+    "A400870"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

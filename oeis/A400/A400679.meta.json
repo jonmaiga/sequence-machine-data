@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A400678, divided by 5.",
+  "id": "A400679",
+  "mentions": [
+    "A400678",
+    "A400680"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

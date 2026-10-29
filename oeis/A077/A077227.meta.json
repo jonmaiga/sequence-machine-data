@@ -1,10 +1,11 @@
 {
-  "description": "Triangle of compositions of n into exactly k parts each no more than k.",
+  "description": "Triangle T(n,k) of compositions of n into exactly k parts each no more than k.",
   "id": "A077227",
   "mentions": [
     "A000312",
     "A000984",
     "A007318",
+    "A048775",
     "A077228",
     "A077229"
   ],
@@ -14,8 +15,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 82,
-    "source": "joeis"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

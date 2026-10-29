@@ -4,6 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -11,42 +12,47 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C047
 import Seq.B001.C000
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,7 +78,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A010400: Squares mod 39.
@@ -2068,24 +2073,26 @@ end
 
 end A010419.P16648184370952425566
 
-/-! ## A010419.P15682586138308207826
+/-! ## A010419.P13164237472330399319
 
-`comp[A028771(n+1)]`
+`lt[A011587(3*n+2), A011587(n)*(n+1)]`
 -/
 
-namespace A010419.P15682586138308207826
+namespace A010419.P13164237472330399319
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028771 (n + 1)
+  A011587 (3 * n + 2)
 
-open Classical in
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011587 n * (n + 1 : ℤ)
+
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A010419.P15682586138308207826
+end A010419.P13164237472330399319
 
 /-!
 # A010420: Squares mod 59.
@@ -5901,37 +5908,16 @@ end
 
 end A010456.P11920491891706107361
 
-/-! ## A010456.P11063665177364294294
+/-! ## A010456.P7241239167863541723
 
-`eq[0, A241382(A047813(2*(n+1)))]`
+`lt[A133437(A047813(2*(n+1))), 2]`
 -/
 
-namespace A010456.P11063665177364294294
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241382 (A047813 (2 * (n + 1))).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A010456.P11063665177364294294
-
-/-! ## A010456.P7441495706993156614
-
-`lt[A133437(A047813(2*n+2)), 2]`
--/
-
-namespace A010456.P7441495706993156614
+namespace A010456.P7241239167863541723
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133437 (A047813 (2 * n + 2)).toNat
+  A133437 (A047813 (2 * (n + 1))).toNat
 
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   2
@@ -5941,7 +5927,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A010456.P7441495706993156614
+end A010456.P7241239167863541723
 
 /-!
 # A010457: Squares mod 96.
@@ -6948,21 +6934,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010466.P16436099369958959361
-
-/-! ## A010466.P7391584541056835311
-
-`A090488(n^A043531(and(1, a(n-1))+1))` with `a(0)=2`
--/
-
-namespace A010466.P7391584541056835311
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  A090488 ((SequenceMachineLib.roundAway ((n : ℚ) ^ (A043531 (Int.land 1 (a (n - 1)) + 1).toNat : ℤ))).toNat + 1)
-
-end
-
-end A010466.P7391584541056835311
 
 /-! ## A010466.P10948677629671000737
 

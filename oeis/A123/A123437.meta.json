@@ -1,14 +1,19 @@
 {
   "description": "Number of opposition perfect graphs on n nodes.",
   "id": "A123437",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A052431",
+    "A123405",
+    "A123459"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

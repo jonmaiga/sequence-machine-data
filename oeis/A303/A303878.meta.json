@@ -1,5 +1,5 @@
 {
-  "description": "Consider the representation of some integer (>1) as the sum of distinct unit fraction (",
+  "description": "Consider the representation of some integer (>1) as the sum of distinct unit fraction (<1). The sum of these denominators is least.",
   "id": "A303878",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of inequivalent convex lattice polygons with n lattice points, k of them interior, 0 <= k <= n - 3.",
+  "id": "A401110",
+  "mentions": [
+    "A000086",
+    "A004526",
+    "A058026",
+    "A187015",
+    "A322343",
+    "A371917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

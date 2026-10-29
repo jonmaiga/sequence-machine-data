@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 4 copies of 1..n with no element e[i>=2]",
+  "description": "Number of permutations of 4 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/4)] (4-way heap).",
   "id": "A178024",
   "mentions": [
     "A056971"

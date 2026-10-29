@@ -1,5 +1,5 @@
 {
-  "description": "Values (X + Y - Z) sorted on Z, then on Y, where (X,Y,Z) is a primitive Pythagorean triple with X",
+  "description": "Values (X + Y - Z) sorted on Z, then on Y, where (X,Y,Z) is a primitive Pythagorean triple with X<Y<Z.",
   "id": "A087459",
   "mentions": [
     "A014498",

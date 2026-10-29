@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of distinct positive differences of an n-element subset of {0, 1, ..., n*(n-1)/2}.",
+  "id": "A399997",
+  "mentions": [
+    "A003022",
+    "A004137",
+    "A005282"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

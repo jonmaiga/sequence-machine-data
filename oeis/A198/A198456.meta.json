@@ -1,5 +1,5 @@
 {
-  "description": "Consider triples a<=b",
+  "description": "Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 1, ordered by a and then b; sequence gives c values.",
   "id": "A198456",
   "mentions": [
     "A000217",

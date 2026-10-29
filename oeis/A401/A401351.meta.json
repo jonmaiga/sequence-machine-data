@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polycubes with 2n cells that can be dissected into two congruent polycubes.",
+  "id": "A401351",
+  "mentions": [
+    "A038119",
+    "A399996",
+    "A401352"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

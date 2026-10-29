@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the number c for which the curve y=cos(x) is tangent to the curve y=(1/x)-c, and 0",
+  "description": "Decimal expansion of the number c for which the curve y=cos(x) is tangent to the curve y=(1/x)-c, and 0<x<2*Pi.",
   "id": "A196619",
   "mentions": [
     "A196612",

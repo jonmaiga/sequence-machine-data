@@ -1,0 +1,22 @@
+{
+  "description": "The number of semirings with n elements up to isomorphism.",
+  "id": "A401124",
+  "mentions": [
+    "A000001",
+    "A001423",
+    "A027623",
+    "A027851",
+    "A305858"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

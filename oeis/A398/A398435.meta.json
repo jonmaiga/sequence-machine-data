@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of collisions among unordered pairwise sums of positive divisors of n.",
+  "id": "A398435",
+  "mentions": [
+    "A000005",
+    "A091011",
+    "A119357",
+    "A119425",
+    "A398429",
+    "A398433",
+    "A398434",
+    "A398577"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

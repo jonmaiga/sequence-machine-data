@@ -1,5 +1,5 @@
 {
-  "description": "The smallest k >= 0 that can be represented as a linear combination of 1^3, 2^3, ..., n^3 with coefficients +-1 and that cannot be represented using 1^3, 2^3, ..., m^3 with 1<=m",
+  "description": "The smallest k >= 0 that can be represented as a linear combination of 1^3, 2^3, ..., n^3 with coefficients +-1 and that cannot be represented using 1^3, 2^3, ..., m^3 with 1<=m<n.",
   "id": "A392126",
   "mentions": [
     "A000537",

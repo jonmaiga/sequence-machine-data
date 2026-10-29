@@ -1,18 +1,20 @@
 {
-  "description": "E.g.f.: exp(x+5/2*x^2).",
+  "description": "Expansion of e.g.f. exp(x+5/2*x^2).",
   "id": "A115331",
   "mentions": [
+    "A057693",
     "A115327",
     "A115332",
     "A359762"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

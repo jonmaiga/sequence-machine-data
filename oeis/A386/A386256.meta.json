@@ -1,8 +1,10 @@
 {
-  "description": "Smallest semiprime p1*p2 such that p2 mod p1 = n and no prime is used more than once in the sequence.",
+  "description": "Smallest semiprime p * q such that p < q, q mod p = n, and neither p nor q divides any earlier term.",
   "id": "A386256",
   "mentions": [
     "A000040",
+    "A001358",
+    "A006881",
     "A064910"
   ],
   "tags": [

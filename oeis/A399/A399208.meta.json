@@ -1,0 +1,20 @@
+{
+  "description": "Minimum over all symmetric n X n {-1,1} matrices M with zero diagonal of the maximum of |Sum_{1 <= i < j <= n} M[i,j]*x[i]*x[j]| over all vectors x in {-1,1}^n.",
+  "id": "A399208",
+  "mentions": [
+    "A002854",
+    "A245230"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

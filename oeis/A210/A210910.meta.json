@@ -1,14 +1,17 @@
 {
   "description": "Number of n X n 0..2 symmetric matrices with every element equal to zero, two, three or four horizontal and vertical neighbors, and new values 0..2 introduced in lower triangle row major order.",
   "id": "A210910",
-  "mentions": [],
+  "mentions": [
+    "A211051"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

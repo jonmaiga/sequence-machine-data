@@ -2,13 +2,13 @@ import SequenceMachineLib.Basic
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
-import Seq.B000.C012
+import Seq.B000.C006
+import Seq.B000.C014
+import Seq.B000.C031
 import Seq.B006.C000
-import Seq.Opaque.C011
-import Seq.Opaque.C025
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -21,6 +21,29 @@ The programs for A019722, the canonical program `A019722.P8122024978519327586` i
 
 The definition of A019722 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A019722.P17684256054958011211
+
+`21*a(n-1)-108*a(n-2)+4^n` with `a(0)=1, a(1)=25`
+-/
+
+namespace A019722.P17684256054958011211
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 25] fun n a =>
+  21 * a (n - 1) - 108 * a (n - 2) + (4 ^ n : ℤ)
+
+end
+
+end A019722.P17684256054958011211
+
+namespace A019722
+
+/-- `21*a(n-1)-108*a(n-2)+4^n` -/
+def P17684256054958011211.Spec : Prop :=
+  ∀ n, P17684256054958011211.a n = A019722 n
+
+end A019722
 
 /-! ## A019722.P8122024978519327586
 

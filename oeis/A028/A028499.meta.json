@@ -1,5 +1,5 @@
 {
-  "description": "6-hyperperfect numbers: n = 6*(sigma(n) - n - 1) + 1.",
+  "description": "6-hyperperfect numbers: Integers m such that m = 6*(sigma(m) - m - 1) + 1.",
   "id": "A028499",
   "mentions": [
     "A000396",

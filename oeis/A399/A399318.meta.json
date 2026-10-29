@@ -1,0 +1,22 @@
+{
+  "description": "Row products of the triangle A107711.",
+  "id": "A399318",
+  "mentions": [
+    "A001142",
+    "A003989",
+    "A007318",
+    "A007778",
+    "A050873",
+    "A107711"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

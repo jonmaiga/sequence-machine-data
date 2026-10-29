@@ -1,5 +1,5 @@
 {
-  "description": "Primes obtained as a concatenation p,q,p where p and q are successive primes and p",
+  "description": "Primes obtained as a concatenation p,q,p where p and q are successive primes and p<q.",
   "id": "A068684",
   "mentions": [
     "A068683",

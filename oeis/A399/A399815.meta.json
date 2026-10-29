@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 4 + 2*sqrt(3) + 4*sqrt(6)/3.",
+  "id": "A399815",
+  "mentions": [
+    "A002194",
+    "A010469",
+    "A010502",
+    "A157697",
+    "A343199",
+    "A399814",
+    "A399816",
+    "A400358"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "joeis"
+  }
+}

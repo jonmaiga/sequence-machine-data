@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k is an automorphic number in at least one base b in the range [2, k-2].",
+  "id": "A400443",
+  "mentions": [
+    "A003226",
+    "A201918",
+    "A201921"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

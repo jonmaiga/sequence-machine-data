@@ -1,5 +1,5 @@
 {
-  "description": "Array: T(n,k)=k-n+1 for k>=n; T(n,k)=0 for k",
+  "description": "Array: T(n,k)=k-n+1 for k>=n; T(n,k)=0 for k<n; by antidiagonals.",
   "id": "A185914",
   "mentions": [
     "A144112",

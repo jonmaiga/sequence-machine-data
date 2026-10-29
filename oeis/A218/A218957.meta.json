@@ -1,14 +1,16 @@
 {
   "description": "Total number of maximal abelian subgroups of the symmetric group, counting conjugates as distinct.",
   "id": "A218957",
-  "mentions": [],
+  "mentions": [
+    "A058162"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

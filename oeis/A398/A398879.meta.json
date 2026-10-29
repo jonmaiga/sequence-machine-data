@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of tilings of a 9 X 5n rectangle into I-pentominoes.",
+  "id": "A398879",
+  "mentions": [
+    "A247117",
+    "A247218",
+    "A397679",
+    "A397885",
+    "A398870"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

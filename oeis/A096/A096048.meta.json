@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=B(2n,6)/B(2n) (see comment).",
+  "description": "a(n) = B(2n,6)/B(2n) (see comment).",
   "id": "A096048",
   "mentions": [
     "A096045",
@@ -7,12 +7,13 @@
     "A096047"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

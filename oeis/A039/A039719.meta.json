@@ -1,8 +1,11 @@
 {
-  "description": "Two-dimensional simplicial complexes on n unlabeled nodes.",
+  "description": "Number of two-dimensional simplicial complexes on n unlabeled nodes.",
   "id": "A039719",
-  "mentions": [],
+  "mentions": [
+    "A039718"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

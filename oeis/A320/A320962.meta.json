@@ -2,12 +2,15 @@
   "description": "a(n) = (-1)^(n-1)*(n-1)!*Sum_{i=0..n} Stirling2(n, i) if n > 0 and 0 otherwise.",
   "id": "A320962",
   "mentions": [
+    "A000110",
+    "A000142",
     "A000165",
     "A133942",
     "A320956",
     "A321398"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

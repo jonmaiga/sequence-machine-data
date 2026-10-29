@@ -1,0 +1,17 @@
+{
+  "description": "A permutation of the positive integers with no 4-term arithmetic progression as a subsequence (see Comments for the construction).",
+  "id": "A399656",
+  "mentions": [
+    "A003407",
+    "A368357",
+    "A368358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

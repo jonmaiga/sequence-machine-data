@@ -1,0 +1,17 @@
+{
+  "description": "The determinant of an n X n matrix formed by placing the first n^2 primes in L-shaped gnomons in alternating directions.",
+  "id": "A399187",
+  "mentions": [
+    "A067276",
+    "A363376"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

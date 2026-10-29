@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1 and for n>1: a(n) = n + Max{a(k): k",
+  "description": "a(1) = 1 and for n>1: a(n) = n + Max{a(k): k<n, gcd(n,a(k))=1}.",
   "id": "A083561",
   "mentions": [],
   "tags": [

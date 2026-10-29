@@ -1,5 +1,5 @@
 {
-  "description": "Neither n nor sigma(n) is squarefree.",
+  "description": "Neither k nor sigma(k) is squarefree.",
   "id": "A065303",
   "mentions": [
     "A000203",

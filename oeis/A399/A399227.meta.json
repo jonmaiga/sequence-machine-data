@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (2*n-1)*2^(w(2*n-1)-1) where w(m) = v_2(usigma(m)) = A007814(A034448(m)) for odd m.",
+  "id": "A399227",
+  "mentions": [
+    "A000265",
+    "A000396",
+    "A002827",
+    "A007814",
+    "A016813",
+    "A034448",
+    "A219931",
+    "A385054"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients arising in the enumeration of configurations of linear chains.",
+  "description": "Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the 5-dimensional hypercubic lattice that use all five coordinate axes and have no pair of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A323063",
   "mentions": [
     "A038726",
@@ -9,12 +9,14 @@
     "A323037"
   ],
   "tags": [
+    "formulas",
     "more",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Consider the set of divisors d of binomial(n-d-1,d-1) where gcd(n,d)>1 and 1",
+  "description": "Consider the set of divisors d of binomial(n-d-1,d-1) where gcd(n,d)>1 and 1<d<=n/2. If the smallest element of this set is 6, n is in the sequence.",
   "id": "A178110",
   "mentions": [
     "A138389",

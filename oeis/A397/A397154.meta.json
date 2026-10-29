@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic compositions of n with parts in standard order.",
+  "id": "A397154",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A016116",
+    "A107429",
+    "A383253"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

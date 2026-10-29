@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of indices k such that n belongs to the set R(k), where R(k) is the set of k consecutive integers centered at k, with k omitted when k is even.",
+  "id": "A399795",
+  "mentions": [
+    "A398929",
+    "A398933",
+    "A399262",
+    "A399490",
+    "A399500"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

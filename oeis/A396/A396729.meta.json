@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the first A000041(n) positive integers, n >= 0.",
+  "id": "A396729",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A037125",
+    "A071797",
+    "A086737",
+    "A194029",
+    "A221529",
+    "A396730",
+    "A396731"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

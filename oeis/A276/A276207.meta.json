@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = a(1) = 0. For n>1 a(n) is the smallest nonnegative integer such that there is no arithmetic progression m_1,m_2,...,m_i,n (2<=i",
+  "description": "a(0) = a(1) = 0. For n>1 a(n) is the smallest nonnegative integer such that there is no arithmetic progression m_1,m_2,...,m_i,n (2<=i<n) such that a(m_1)+a(m_2)+...+a(m_i) = a(n).",
   "id": "A276207",
   "mentions": [
     "A276204",

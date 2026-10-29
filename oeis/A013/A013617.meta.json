@@ -1,8 +1,12 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+10x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+10*x)^n.",
   "id": "A013617",
   "mentions": [
-    "A001020"
+    "A001019",
+    "A001020",
+    "A007318",
+    "A011557",
+    "A038303"
   ],
   "tags": [
     "easy",

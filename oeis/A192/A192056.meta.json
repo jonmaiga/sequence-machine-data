@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0",
+  "description": "a(n) = |{0<k<n/2: k^2+(n-k)^2-3(n-1 mod 2) is prime and JacobiSymbol[k,n+3(n-1 mod 2)]=1}|.",
   "id": "A192056",
   "mentions": [
     "A036468",

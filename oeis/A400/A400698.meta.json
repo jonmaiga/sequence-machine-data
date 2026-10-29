@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} mu(k^2 + 1).",
+  "id": "A400698",
+  "mentions": [
+    "A124808",
+    "A124897"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

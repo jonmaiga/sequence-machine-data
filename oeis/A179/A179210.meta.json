@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime q such that (r-q)/(q-p) = n, where p",
+  "description": "a(n) is the smallest prime q such that (r-q)/(q-p) = n, where p<q<r are consecutive primes (or 0 if no such prime exists).",
   "id": "A179210",
   "mentions": [
     "A001223",

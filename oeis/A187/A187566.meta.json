@@ -1,5 +1,5 @@
 {
-  "description": "Let A be the infinite lower triangular Toplitz matrix with Sigma(n) in every column; and B the diagonalized, signed variant of A002040 with the rest zeros. Sequence gives the triangle in the lower half of A*B read by rows.",
+  "description": "Let A be the infinite lower triangular Toeplitz matrix with Sigma(n) in every column; and B the diagonalized, signed variant of A002040 with the rest zeros. Sequence gives the triangle in the lower half of A*B read by rows.",
   "id": "A187566",
   "mentions": [
     "A000041",

@@ -1,5 +1,5 @@
 {
-  "description": "Complement of A119315.",
+  "description": "Noncomposites and numbers whose 3rd smallest divisor is prime; complement of A119315.",
   "id": "A119316",
   "mentions": [
     "A001221",
@@ -9,7 +9,8 @@
     "A119288",
     "A119313",
     "A119314",
-    "A119315"
+    "A119315",
+    "A397805"
   ],
   "tags": [
     "nonn"

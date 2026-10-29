@@ -27,12 +27,11 @@
     "A386581"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

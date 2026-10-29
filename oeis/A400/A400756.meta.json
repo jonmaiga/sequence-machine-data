@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows. T(n,k) is the number of compositions c of the integer n such that f(c) = k, 0<=k<=binomial(n,2), n>=0, where f(c) is defined in the comments below.",
+  "id": "A400756",
+  "mentions": [
+    "A000337",
+    "A011782",
+    "A055580",
+    "A069999",
+    "A161680",
+    "A335343"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n^2-n-1 for n>3; a(1)=1; a(2)=2; a(3)=3.",
+  "description": "a(n) = n^2 - n - 1 for n>3; a(1)=1; a(2)=2; a(3)=3.",
   "id": "A111802",
   "mentions": [
     "A000519",

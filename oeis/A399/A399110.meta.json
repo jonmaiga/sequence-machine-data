@@ -1,0 +1,16 @@
+{
+  "description": "Number of endofunctions on [2n] with exactly n isolated fixed points.",
+  "id": "A399110",
+  "mentions": [
+    "A350212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

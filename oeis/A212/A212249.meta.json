@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and 3w",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and 3w<x+y+z+n.",
   "id": "A212249",
   "mentions": [
     "A211795",

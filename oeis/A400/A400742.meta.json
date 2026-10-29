@@ -1,0 +1,18 @@
+{
+  "description": "Number of runs of at least two odd steps before the first drop of 4n+3 under T(x) = x/2 (x even), (3x+1)/2 (x odd).",
+  "id": "A400742",
+  "mentions": [
+    "A014682",
+    "A060412",
+    "A100982",
+    "A260590"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

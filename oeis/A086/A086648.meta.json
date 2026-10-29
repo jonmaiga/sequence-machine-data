@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the sum n^(-2n) for n=1 through infinity.",
+  "description": "Decimal expansion of the Sum_{k>=1} k^(-2*k).",
   "id": "A086648",
   "mentions": [
     "A062206",

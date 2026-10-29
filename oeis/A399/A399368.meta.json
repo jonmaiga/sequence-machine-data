@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (log(log(3)) - log(log(2)))/(log(3) - log(2)).",
+  "id": "A399368",
+  "mentions": [
+    "A002162",
+    "A002391",
+    "A074785",
+    "A194562"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

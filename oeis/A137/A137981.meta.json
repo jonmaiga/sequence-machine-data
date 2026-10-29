@@ -1,16 +1,16 @@
 {
-  "description": "Triangle read by rows: expansion of p(x,t) = b(x,t)*u(x,t)*h(x,t) where b(x,t) = t*exp(x*t)/(exp(t)-1), u(x,t) = 1/(1-2*x*t+t^2), and h(x,t) = exp(2*x*t-t^2).",
+  "description": "Triangle read by rows: T(n,k) = n! * (n+2)! * [t^n*x^k] (t*exp(x*t)/(exp(t) - 1)) * (exp(2*x*t - t^2)) / (1 - 2*x*t + t^2).",
   "id": "A137981",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

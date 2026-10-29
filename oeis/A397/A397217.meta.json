@@ -1,0 +1,18 @@
+{
+  "description": "The smallest number that is n grid steps horizontally or vertically from n in the square spiral as in A316667.",
+  "id": "A397217",
+  "mentions": [
+    "A174344",
+    "A316667",
+    "A392177"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

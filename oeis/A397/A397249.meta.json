@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that lambda(2^m - 1) + 1 is prime, where the Carmichael lambda function is A002322.",
+  "id": "A397249",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A002322",
+    "A005420",
+    "A019434",
+    "A092506",
+    "A387107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

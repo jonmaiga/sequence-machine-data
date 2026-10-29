@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest k <= n such that k divides sigma(n), where sigma = A000203.",
+  "id": "A399723",
+  "mentions": [
+    "A000203",
+    "A002476",
+    "A007691",
+    "A023194"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

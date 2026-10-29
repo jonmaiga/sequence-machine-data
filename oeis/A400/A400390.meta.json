@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: T(n, k) = gcd(d(n, k), n/d(n, k)), where d(n, k) = A027750(n, k) is the k-th divisor of n.",
+  "id": "A400390",
+  "mentions": [
+    "A000005",
+    "A000188",
+    "A005117",
+    "A027750",
+    "A034444",
+    "A046951",
+    "A050873",
+    "A055155",
+    "A400391"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

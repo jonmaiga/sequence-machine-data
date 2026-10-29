@@ -1,7 +1,9 @@
 {
   "description": "Number of base 22 circular n-digit numbers with adjacent digits differing by 6 or less.",
   "id": "A125410",
-  "mentions": [],
+  "mentions": [
+    "A126371"
+  ],
   "tags": [
     "base",
     "nonn"

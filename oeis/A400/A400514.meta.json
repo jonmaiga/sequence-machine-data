@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(k,d) is the number of nonisomorphic prime k-element posets (no nontrivial modules) of order dimension exactly d, where k >= 4 and 2 <= d <= floor(k/2).",
+  "id": "A400514",
+  "mentions": [
+    "A354693"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/((2*k)!)^3.",
+  "id": "A400116",
+  "mentions": [
+    "A134373",
+    "A271574",
+    "A400117",
+    "A400118",
+    "A400119",
+    "A400120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

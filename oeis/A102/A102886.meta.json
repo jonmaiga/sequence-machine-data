@@ -2,7 +2,9 @@
   "description": "Decimal expansion of Serret's integral: Integral_{x=0..1} log(x+1)/(x^2+1) dx.",
   "id": "A102886",
   "mentions": [
-    "A086054"
+    "A086054",
+    "A350669",
+    "A350670"
   ],
   "tags": [
     "cons",

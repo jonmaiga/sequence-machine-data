@@ -1,15 +1,18 @@
 {
-  "description": "Numbers of the form n=12s+7, where q=4s+3 is a prime for which the order of 2 is either q-1 or (q-1)/2.",
+  "description": "Numbers of the form 12s+7, where q=4s+3 is a prime for which the order of 2 is either q-1 or (q-1)/2.",
   "id": "A114564",
   "mentions": [
-    "A105876"
+    "A105876",
+    "A163778",
+    "A294434"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers whose number of digits and the number of digits in their largest prime factor are the same.",
+  "id": "A399286",
+  "mentions": [
+    "A006530",
+    "A084891"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

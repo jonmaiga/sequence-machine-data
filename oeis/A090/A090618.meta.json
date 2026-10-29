@@ -1,5 +1,5 @@
 {
-  "description": "Highest power of 9 dividing n!.",
+  "description": "Exponent of highest power of 9 dividing n!.",
   "id": "A090618",
   "mentions": [
     "A011371",
@@ -11,12 +11,13 @@
     "A090622"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

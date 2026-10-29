@@ -1,5 +1,5 @@
 {
-  "description": "Number of A095745-primes in range ]2^n,2^(n+1)].",
+  "description": "Number of A095745-primes in range [2^n,2^(n+1)].",
   "id": "A095755",
   "mentions": [
     "A036378",

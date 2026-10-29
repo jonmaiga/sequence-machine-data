@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum {0",
+  "description": "a(n) = Sum {0<d|n, n/d odd} d^11.",
   "id": "A096963",
   "mentions": [
     "A002131",

@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence of the 16-element Pauli group C4 o D4 = .",
+  "description": "Cogrowth sequence of the 16-element Pauli group C4 o D4 = <S,T,U | s^4, T^2, U^2, S^2(TU)^2, [S,T], [S,U]>.",
   "id": "A377943",
   "mentions": [
     "A047854",

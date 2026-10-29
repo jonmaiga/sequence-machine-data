@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest numbers k such that the decimal digits of k and k^2 taken together form a set where each distinct digit d appears at least d times, and this set of digits has not appeared in any previous term.",
+  "id": "A397780",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

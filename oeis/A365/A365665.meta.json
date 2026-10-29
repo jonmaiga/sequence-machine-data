@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Sum_{0",
+  "description": "Expansion of Sum_{0<i<j<k<l<m} q^(i+j+k+l+m)/( (1-q^i)*(1-q^j)*(1-q^k)*(1-q^l)*(1-q^m) )^2.",
   "id": "A365665",
   "mentions": [
     "A000203",

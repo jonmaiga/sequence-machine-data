@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence such that a(n) is coprime to the preceding 4 terms (or n-1 terms if n",
+  "description": "Lexicographically earliest sequence such that a(n) is coprime to the preceding 4 terms (or n-1 terms if n<5) and does not occur earlier.",
   "id": "A143345",
   "mentions": [
     "A084937",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k such that nk - 1 and nk + 1 are both composite.",
+  "description": "a(n) is the least k such that n*k - 1 and n*k + 1 are both composite.",
   "id": "A065865",
   "mentions": [],
   "tags": [

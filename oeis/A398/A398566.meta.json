@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be obtained by concatenating the decimal representations of x, y, and x-y for x >= 1 and 0 <= y <= x.",
+  "id": "A398566",
+  "mentions": [
+    "A193772",
+    "A290725",
+    "A352438",
+    "A398647",
+    "A398649",
+    "A399016"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

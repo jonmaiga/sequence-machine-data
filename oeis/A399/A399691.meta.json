@@ -1,0 +1,16 @@
+{
+  "description": "Denominator of delta(n), the density of the integers that are divisible by some integer in the open interval (n, 2n).",
+  "id": "A399691",
+  "mentions": [
+    "A399690"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

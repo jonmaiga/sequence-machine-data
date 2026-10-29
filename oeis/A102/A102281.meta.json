@@ -2,6 +2,7 @@
   "description": "a(n) is the largest number m such that m = pi(n*m).",
   "id": "A102281",
   "mentions": [
+    "A000720",
     "A038625",
     "A038626",
     "A038627",

@@ -1,0 +1,19 @@
+{
+  "description": "Integers whose minimal Lucas representation (A130310) ends in a 0 which if removed results in a valid minimal Lucas representation of another integer.",
+  "id": "A399305",
+  "mentions": [
+    "A000032",
+    "A130310",
+    "A324470",
+    "A342089",
+    "A399306"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

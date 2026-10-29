@@ -1,0 +1,17 @@
+{
+  "description": "Number of singular simple connected graphs on n unlabeled nodes.",
+  "id": "A398476",
+  "mentions": [
+    "A001349",
+    "A133206"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of antichains of subsets of an n-element set (Sperner families) that do not contain both a set and its complement.",
+  "id": "A396728",
+  "mentions": [
+    "A000372",
+    "A001047",
+    "A001206",
+    "A003182",
+    "A006126",
+    "A007363",
+    "A014466",
+    "A016269",
+    "A169974",
+    "A306020"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

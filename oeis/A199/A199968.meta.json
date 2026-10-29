@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest non-divisor h of n (1",
+  "description": "a(n) = the smallest non-divisor h of n (1<h<n), or 0 if no such h exists.",
   "id": "A199968",
   "mentions": [
     "A007978",

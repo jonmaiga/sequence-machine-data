@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Min_{0",
+  "description": "a(n) = Min_{0<i<n} (prime(n-i) + prime(n+i)).",
   "id": "A389676",
   "mentions": [
     "A000040",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 2,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

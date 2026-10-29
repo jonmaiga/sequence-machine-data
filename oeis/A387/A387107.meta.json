@@ -1,9 +1,13 @@
 {
-  "description": "a(n) = psi(2^n-1), where psi = A002322.",
+  "description": "a(n) = psi(2^n-1), where psi = A002322 is the Carmichael (lambda) function.",
   "id": "A387107",
   "mentions": [
     "A000225",
-    "A002322"
+    "A000918",
+    "A002322",
+    "A005420",
+    "A397249",
+    "A399070"
   ],
   "tags": [
     "formulas",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

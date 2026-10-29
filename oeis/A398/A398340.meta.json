@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, where T(n,k), n>0, k<=2^(n-1), is the smallest prime factor of (2*k-1)*2^n+1.",
+  "id": "A398340",
+  "mentions": [
+    "A000040",
+    "A035050",
+    "A080075",
+    "A080076"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

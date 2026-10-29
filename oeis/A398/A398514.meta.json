@@ -1,0 +1,19 @@
+{
+  "description": "Indices of record high-points in A398512.",
+  "id": "A398514",
+  "mentions": [
+    "A398512",
+    "A398515"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

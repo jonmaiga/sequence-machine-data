@@ -1,15 +1,14 @@
 {
-  "description": "Recursion based on Exp[Pi/4]: a(n)=Floor[a(n-1)*Exp[Pi/4]] Angular domain {0,Pi/4} is the smallest self-similar piece of a sine wave.",
+  "description": "a(1)=1, a(n) = floor(a(n-1) * exp(Pi/4)).",
   "id": "A136671",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "joeis"
   }
 }

@@ -1,13 +1,18 @@
 {
-  "description": "Greatest exponent in prime-power factorization of 2*p(n)-1.",
+  "description": "Greatest exponent in prime-power factorization of 2*prime(n)-1.",
   "id": "A023584",
-  "mentions": [],
+  "mentions": [
+    "A051903",
+    "A076274"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

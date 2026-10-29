@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric triangle of certain normalized products of decreasing factorials.",
+  "description": "Triangle read by rows: T(n, k) = (n!)^k * Product_{j=0..k-1} binomial(n + j, n).",
   "id": "A090441",
   "mentions": [
     "A000012",
@@ -9,8 +9,10 @@
     "A009963",
     "A010790",
     "A090443",
+    "A090444",
     "A090445",
-    "A090446"
+    "A090446",
+    "A107254"
   ],
   "tags": [
     "easy",

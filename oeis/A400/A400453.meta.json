@@ -1,0 +1,32 @@
+{
+  "description": "The sum of divisors d of n such that gcd(d, n/d) is a powerful number (A001694).",
+  "id": "A400453",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A013661",
+    "A013664",
+    "A013667",
+    "A013676",
+    "A034448",
+    "A069184",
+    "A107749",
+    "A365172",
+    "A365174",
+    "A365209",
+    "A365211",
+    "A369310",
+    "A400390"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

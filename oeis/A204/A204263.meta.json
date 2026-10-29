@@ -1,7 +1,8 @@
 {
-  "description": "Symmetric matrix: f(i,j)=(i+j mod 3), by antidiagonals.",
+  "description": "Symmetric matrix: T(i,j)=(i+j mod 3), by antidiagonals.",
   "id": "A204263",
   "mentions": [
+    "A002024",
     "A179079",
     "A204265",
     "A204267",
@@ -21,6 +22,7 @@
     "A204434"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

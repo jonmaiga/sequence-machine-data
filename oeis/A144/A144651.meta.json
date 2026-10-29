@@ -1,5 +1,5 @@
 {
-  "description": "Consider pairs of numbers m,n such that UnitaryPhi(m)=UnitaryPhi(n)= (3*m^(1/2)-2*n^(1/2))^2, m",
+  "description": "Consider pairs of numbers m,n such that UnitaryPhi(m)=UnitaryPhi(n)= (3*m^(1/2)-2*n^(1/2))^2, m<n. Sequence gives m.",
   "id": "A144651",
   "mentions": [
     "A047994",

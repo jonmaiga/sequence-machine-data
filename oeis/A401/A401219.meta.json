@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that has n distinct primes in its Pratt primality certificate.",
+  "id": "A401219",
+  "mentions": [
+    "A037231",
+    "A366929",
+    "A401218"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

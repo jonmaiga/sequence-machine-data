@@ -1,0 +1,29 @@
+{
+  "description": "The sum of divisors d of n such that gcid(d, n/d) is a square, where gcid is the greatest common infinitary divisor.",
+  "id": "A400144",
+  "mentions": [
+    "A000290",
+    "A002117",
+    "A013661",
+    "A013662",
+    "A049417",
+    "A365172",
+    "A376888",
+    "A399836",
+    "A400137",
+    "A400140",
+    "A400145",
+    "A400146"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

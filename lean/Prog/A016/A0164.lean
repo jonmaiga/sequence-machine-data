@@ -3,39 +3,39 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C014
+import Seq.B000.C015
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C029
-import Seq.B000.C038
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C047
 import Seq.B001.C000
-import Seq.B001.C002
-import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C003
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,7 +59,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A016401: 403rd cyclotomic polynomial.
@@ -267,21 +266,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A016402.P9673835517354705392
-
-/-! ## A016402.P11543300164711982516
-
-`A016355(n)/A016355(and(1, -n))`
--/
-
-namespace A016402.P11543300164711982516
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A016355 n : ℚ) / (A016355 (Int.land 1 (-(n : ℤ))).toNat : ℚ)
-
-end
-
-end A016402.P11543300164711982516
 
 /-! ## A016402.P10479409489671199448
 
@@ -2916,8 +2900,29 @@ end A016429.P13119913371962436208
 /-!
 # A016430: Coordination sequence T1 for Zeolite Code OSI.
 
-The programs for A016430, there is no canonical definition to state claims against.
+The programs for A016430, the canonical program `A016430.P18263300806686029482` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016430 has offset 0).
+
+The definition of A016430 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A016430.P18263300806686029482
+
+`ogf((1+2x+5x^2+8x^3+11x^4+13x^5+13x^6+11x^7+10x^8+9x^9+4x^10+x^11-2x^12-2x^13)/(1-2x+3x^2-5x^3+6x^4-7x^5+7x^6-6x^7+5x^8-3x^9+2x^10-x^11))`
+
+The canonical program, it is in `Seq.B000.C003`.
+-/
+
+namespace A016430
+
+/-- `ogf((1+2x+5x^2+8x^3+11x^4+13x^5+13x^6+11x^7+10x^8+9x^9+4x^10+x^11-2x^12-2x^13)/(1-2x+3x^2-5x^3+6x^4-7x^5+7x^6-6x^7+5x^8-3x^9+2x^10-x^11))` -/
+def P18263300806686029482.Spec : Prop :=
+  ∀ n, P18263300806686029482.a n = A016430 n
+
+theorem P18263300806686029482.correct : P18263300806686029482.Spec := by
+  intro n
+  simp only [A016430]
+
+end A016430
 
 /-! ## A016430.P14673781812492739310
 
@@ -2940,6 +2945,14 @@ end
 
 end A016430.P14673781812492739310
 
+namespace A016430
+
+/-- `∑[∑[A317713(A028817(n+1))]]` -/
+def P14673781812492739310.Spec : Prop :=
+  ∀ n, P14673781812492739310.a n = A016430 n
+
+end A016430
+
 /-! ## A016430.P914827540244616990
 
 `A038412(n)+A016389(A077229(n))`
@@ -2954,6 +2967,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016430.P914827540244616990
+
+namespace A016430
+
+/-- `A038412(n)+A016389(A077229(n))` -/
+def P914827540244616990.Spec : Prop :=
+  ∀ n, P914827540244616990.a n = A016430 n
+
+end A016430
 
 /-! ## A016430.P7409435196910060644
 
@@ -2970,6 +2991,14 @@ end
 
 end A016430.P7409435196910060644
 
+namespace A016430
+
+/-- `A217096(A003946(n))+A038412(n)` -/
+def P7409435196910060644.Spec : Prop :=
+  ∀ n, P7409435196910060644.a n = A016430 n
+
+end A016430
+
 /-! ## A016430.P1037850681294474589
 
 `A056239(A374621(n))+A005893(n)`
@@ -2985,20 +3014,13 @@ end
 
 end A016430.P1037850681294474589
 
-/-! ## A016430.P3534142408781591335
+namespace A016430
 
-`or(A038412(n), A307597(A004254(n)))`
--/
+/-- `A056239(A374621(n))+A005893(n)` -/
+def P1037850681294474589.Spec : Prop :=
+  ∀ n, P1037850681294474589.a n = A016430 n
 
-namespace A016430.P3534142408781591335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A038412 n) (A307597 (A004254 n).toNat)
-
-end
-
-end A016430.P3534142408781591335
+end A016430
 
 /-!
 # A016431: Coordination sequence T2 for Zeolite Code OSI.

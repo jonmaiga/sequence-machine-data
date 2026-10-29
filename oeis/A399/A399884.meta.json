@@ -1,0 +1,19 @@
+{
+  "description": "Variant of the Busy Beaver sequence for the Post correspondence problem.",
+  "id": "A399884",
+  "mentions": [
+    "A028444",
+    "A060843",
+    "A309250"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

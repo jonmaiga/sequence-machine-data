@@ -1,69 +1,70 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C038
+import Seq.B000.C047
 import Seq.B001.C000
-import Seq.B001.C001
-import Seq.B001.C002
-import Seq.B001.C005
-import Seq.B002.C000
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C006
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B008.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
-import Seq.Opaque.C022
+import Seq.Opaque.C021
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A223300: 4X4X4 triangular graph coloring a rectangular array: number of nX3 0..9 arrays where 0..9 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -2072,25 +2073,6 @@ end
 
 end A223332.P536306156202315877
 
-/-! ## A223332.P13023849173430268934
-
-`char[A002262(n)]*A223331(A167614(n+1))`
--/
-
-namespace A223332.P13023849173430268934
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A223331 (A167614 (n + 1)).toNat
-
-end
-
-end A223332.P13023849173430268934
-
 /-! ## A223332.P15540155088105404673
 
 `A223331(A167614(n+1))%A222441(n+1)`
@@ -2352,16 +2334,39 @@ end A223336.P10416958176797395732
 /-!
 # A223337: 5 X 5 X 5 triangular graph coloring a rectangular array: number of n X 1 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 6,10 6,11 7,11 10,11 7,12 8,12 11,12 11,12 8,13 9,13 12,13 9,14 13,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
+The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
 
 The definition of A223337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A223337.P2862039813992310279
+
+`ogf((15-36x^2)/(1-4x-4x^2+8x^3))`
+-/
+
+namespace A223337.P2862039813992310279
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [15, 0, -36] [1, -4, -4, 8] n
+
+end
+
+end A223337.P2862039813992310279
+
+namespace A223337
+
+/-- `ogf((15-36x^2)/(1-4x-4x^2+8x^3))` -/
+def P2862039813992310279.Spec : Prop :=
+  ∀ n, P2862039813992310279.a n = A223337 (n + 1)
+
+end A223337
 
 /-! ## A223337.P2831077391564944027
 
 `4*a(n-1)+4*a(n-2)-8*a(n-3)` with `a(0)=15, a(1)=60, a(2)=264`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223337
@@ -2448,32 +2453,6 @@ namespace A223337
 /-- `record[A010054(n)*A223344(n+1)]` -/
 def P3871001783017915936.Spec : Prop :=
   ∀ n, P3871001783017915936.a n = A223337 (n + 1)
-
-end A223337
-
-/-! ## A223337.P10955716022656427872
-
-`record[A103451(n)*A223344(n+1)]`
--/
-
-namespace A223337.P10955716022656427872
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103451 n * A223344 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A223337.P10955716022656427872
-
-namespace A223337
-
-/-- `record[A103451(n)*A223344(n+1)]` -/
-def P10955716022656427872.Spec : Prop :=
-  ∀ n, P10955716022656427872.a n = A223337 (n + 1)
 
 end A223337
 
@@ -2915,25 +2894,17 @@ end A223345.P1042919012087797176
 /-!
 # A223346: 3 X 3 X 3 triangular graph without horizontal edges coloring a rectangular array: number of n X 1 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,3 1,4 2,4 2,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223346, the canonical program `A223346.P16993182343780945087` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
+The programs for A223346, the canonical program `A223346.P2908638774498009666` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
 
-The definition of A223346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 284 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A223346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A223346.P2908638774498009666
 
 `ogf((6+12x-2x^2)/(1-5x^2))`
+
+The canonical program, it is in `Seq.B000.C034`.
 -/
-
-namespace A223346.P2908638774498009666
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [6, 12, -2] [1, 0, -5] n
-
-end
-
-end A223346.P2908638774498009666
 
 namespace A223346
 
@@ -2941,24 +2912,32 @@ namespace A223346
 def P2908638774498009666.Spec : Prop :=
   ∀ n, P2908638774498009666.a n = A223346 (n + 1)
 
+theorem P2908638774498009666.correct : P2908638774498009666.Spec := by
+  intro n
+  simp only [A223346, Nat.add_sub_cancel]
+
 end A223346
 
 /-! ## A223346.P16993182343780945087
 
 `5*a(n-2)` with `a(0)=6, a(1)=12, a(2)=28`
-
-The canonical program, it is in `Seq.B000.C029`.
 -/
+
+namespace A223346.P16993182343780945087
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [6, 12, 28] fun n a =>
+  5 * a (n - 2)
+
+end
+
+end A223346.P16993182343780945087
 
 namespace A223346
 
 /-- `5*a(n-2)` -/
 def P16993182343780945087.Spec : Prop :=
   ∀ n, (P16993182343780945087.a n : ℤ) = A223346 (n + 1)
-
-theorem P16993182343780945087.correct : P16993182343780945087.Spec := by
-  intro n
-  simp only [A223346, Nat.add_sub_cancel]
 
 end A223346
 
@@ -3961,16 +3940,39 @@ end A223362.P14268437700380779245
 /-!
 # A223363: 6 X 6 X 6 triangular graph coloring a rectangular array: number of n X 1 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
+The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
 
 The definition of A223363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A223363.P8951086415466964468
+
+`ogf((21-36x-36x^2)/(1-6x+4x^2+8x^3))`
+-/
+
+namespace A223363.P8951086415466964468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [21, -36, -36] [1, -6, 4, 8] n
+
+end
+
+end A223363.P8951086415466964468
+
+namespace A223363
+
+/-- `ogf((21-36x-36x^2)/(1-6x+4x^2+8x^3))` -/
+def P8951086415466964468.Spec : Prop :=
+  ∀ n, P8951086415466964468.a n = A223363 (n + 1)
+
+end A223363
 
 /-! ## A223363.P14137441231812979484
 
 `6*a(n-1)-4*a(n-2)-8*a(n-3)` with `a(0)=21, a(1)=90, a(2)=420`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223363
@@ -4541,7 +4543,7 @@ end A223371.P6570863994365664014
 /-!
 # A223372: 3X3 square grid graph coloring a rectangular array: number of nX1 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
+The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
 
 The definition of A223372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 220 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4550,7 +4552,7 @@ The definition of A223372 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-2)` with `a(0)=9, a(1)=24, a(2)=68`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223372
@@ -4660,7 +4662,7 @@ end A223372
 /-!
 # A223373: 3 X 3 square grid graph coloring a rectangular array: number of n X 2 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
+The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
 
 The definition of A223373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4692,7 +4694,7 @@ end A223373
 
 `7*a(n-1)-4*a(n-2)` with `a(0)=24, a(1)=144`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223373
@@ -5166,7 +5168,7 @@ end A223380.P13683885374848985264
 /-!
 # A223381: Number of n X 2 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.
 
-The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
+The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
 
 The definition of A223381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5198,7 +5200,7 @@ end A223381
 
 `8*a(n-1)-10*a(n-2)` with `a(0)=2, a(1)=9, a(2)=57`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223381
@@ -5297,6 +5299,21 @@ end A223381
 The programs for A223382, there is no canonical definition to state claims against.
 -/
 
+/-! ## A223382.P219397766440271821
+
+`ogf((5-38x+54x^2+x^3-22x^4)/(1-19x+72x^2-34x^3-44x^4))`
+-/
+
+namespace A223382.P219397766440271821
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -38, 54, 1, -22] [1, -19, 72, -34, -44] n
+
+end
+
+end A223382.P219397766440271821
+
 /-! ## A223382.P897164839569822620
 
 `A223387(∑[n+2]+4)`
@@ -5359,21 +5376,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A223382.P11571251737060607513
-
-/-! ## A223382.P17943933096317007771
-
-`or(A000007(n), A223387(A167614(n+1)))`
--/
-
-namespace A223382.P17943933096317007771
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A223387 (A167614 (n + 1)).toNat)
-
-end
-
-end A223382.P17943933096317007771
 
 /-!
 # A223383: Number of nX4 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.
@@ -5743,42 +5745,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223386.P6948381019775050044
-
-/-!
-# A223387: T(n,k)=Number of nXk 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.
-
-The programs for A223387, there is no canonical definition to state claims against.
--/
-
-/-! ## A223387.P11972679235420891699
-
-`A167662(A233073(n+1)%A055547(n+1))`
--/
-
-namespace A223387.P11972679235420891699
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167662 (Int.tmod (A233073 (n + 1)) (A055547 (n + 1))).toNat
-
-end
-
-end A223387.P11972679235420891699
-
-/-! ## A223387.P5663012847108846500
-
-`A167662(A274068(n+1)%A055547(n+1))`
--/
-
-namespace A223387.P5663012847108846500
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167662 (Int.tmod (A274068 (n + 1)) (A055547 (n + 1))).toNat
-
-end
-
-end A223387.P5663012847108846500
 
 /-!
 # A223388: Number of (n+2)X1 0..2 arrays with all rows having a nonnegative second derivative, and all columns having a positive second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
@@ -6179,16 +6145,39 @@ end A223394.P4024417999640105227
 /-!
 # A223395: 4 X 4 square grid graph coloring a rectangular array: number of n X 1 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
+The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
 
 The definition of A223395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A223395.P12560719828131792862
+
+`ogf((16-24x^2)/(1-3x-2x^2+4x^3))`
+-/
+
+namespace A223395.P12560719828131792862
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [16, 0, -24] [1, -3, -2, 4] n
+
+end
+
+end A223395.P12560719828131792862
+
+namespace A223395
+
+/-- `ogf((16-24x^2)/(1-3x-2x^2+4x^3))` -/
+def P12560719828131792862.Spec : Prop :=
+  ∀ n, P12560719828131792862.a n = A223395 (n + 1)
+
+end A223395
 
 /-! ## A223395.P2838998395562733388
 
 `3*a(n-1)+2*a(n-2)-4*a(n-3)` with `a(0)=16, a(1)=48, a(2)=152`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A223395
@@ -6295,6 +6284,26 @@ namespace A223395
 /-- `(8+(11-5*sqrt(5))*(1-sqrt(5))^(n+1)+(1+sqrt(5))^(n+1)*(11+5*sqrt(5)))/5` -/
 def P12486320163126497547.Spec : Prop :=
   ∀ n, P12486320163126497547.a n = (A223395 (n + 1) : ℝ)
+
+theorem P12486320163126497547.correct : P12486320163126497547.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A223395, Nat.add_sub_cancel, A223395.P12486320163126497547.a, A223395.P2838998395562733388.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A223395, Nat.add_sub_cancel, A223395.P12486320163126497547.a, A223395.P2838998395562733388.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A223395
 
@@ -6529,6 +6538,21 @@ end
 
 end A223398.P17171320265817014448
 
+/-! ## A223398.P16351417684793507827
+
+`A223402(A141214(n+1))`
+-/
+
+namespace A223398.P16351417684793507827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223402 (A141214 (n + 1)).toNat
+
+end
+
+end A223398.P16351417684793507827
+
 /-! ## A223398.P6097227379319470003
 
 `A223402(A374004(n+1))`
@@ -6543,21 +6567,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223398.P6097227379319470003
-
-/-! ## A223398.P9696801321169682366
-
-`A223402(A027379(n+2))`
--/
-
-namespace A223398.P9696801321169682366
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223402 (A027379 (n + 2)).toNat
-
-end
-
-end A223398.P9696801321169682366
 
 /-!
 # A223399: 4 X 4 square grid graph coloring a rectangular array: number of n X 5 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.

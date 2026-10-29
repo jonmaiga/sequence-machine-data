@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides 2^(k-1)-2^(j-1) for some j satisfying 1<=j",
+  "description": "Least k such that n divides 2^(k-1)-2^(j-1) for some j satisfying 1<=j<k.",
   "id": "A204979",
   "mentions": [
     "A000079",

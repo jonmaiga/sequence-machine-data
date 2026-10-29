@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are the concatenation of a prime and a square.",
+  "id": "A399105",
+  "mentions": [
+    "A055781",
+    "A055784",
+    "A105184",
+    "A399123"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} prime(1+A001414(d)), where A001414(d) gives the sum of prime factors of d, with repetition.",
   "id": "A319692",
   "mentions": [
     "A000040",

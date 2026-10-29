@@ -1,0 +1,19 @@
+{
+  "description": "Integers that can be expressed as the sum of 3 factorials.",
+  "id": "A400435",
+  "mentions": [
+    "A000142",
+    "A066847",
+    "A111222",
+    "A400436"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

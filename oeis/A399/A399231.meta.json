@@ -1,0 +1,19 @@
+{
+  "description": "2-anti-sigma-balanced numbers: numbers k such that (A066417(k-2) + A066417(k+2))/2 = A066417(k).",
+  "id": "A399231",
+  "mentions": [
+    "A066417",
+    "A099631",
+    "A399230"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

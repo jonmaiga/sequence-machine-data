@@ -2,7 +2,8 @@
   "description": "Number of equivalence classes of triangles in an n-dimensional hypercube, equivalent up to translation of difference vectors corresponding to edges.",
   "id": "A346796",
   "mentions": [
-    "A016212"
+    "A016212",
+    "A341590"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

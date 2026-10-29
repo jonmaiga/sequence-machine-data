@@ -2,6 +2,7 @@
   "description": "a(n) = p(1)*p(2)*...*p(n) - p(n+1)^2, where p(i) = i-th prime.",
   "id": "A064819",
   "mentions": [
+    "A000040",
     "A060882",
     "A062234",
     "A135734"
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

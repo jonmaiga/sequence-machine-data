@@ -1,0 +1,21 @@
+{
+  "description": "Sum of 2^(in-degree of v) over nodes v in all acyclic digraphs on n labeled nodes.",
+  "id": "A398866",
+  "mentions": [
+    "A003024",
+    "A081064",
+    "A245654",
+    "A245655",
+    "A397711",
+    "A397712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

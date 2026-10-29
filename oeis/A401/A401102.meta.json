@@ -1,0 +1,21 @@
+{
+  "description": "Base-5/2 expression (A024632) of 5*A401100(n).",
+  "id": "A401102",
+  "mentions": [
+    "A024632",
+    "A061419",
+    "A246057",
+    "A401100",
+    "A401101"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

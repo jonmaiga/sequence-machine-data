@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that exactly half of the a such that 0",
+  "description": "Numbers m such that exactly half of the a such that 0<a<m and (a,m)=1 satisfy a^(m-1) == 1 (mod m).",
   "id": "A191311",
   "mentions": [
     "A000010",

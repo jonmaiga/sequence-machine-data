@@ -1,0 +1,23 @@
+{
+  "description": "The binomial matrix of the factorial numbers. Square array read by ascending antidiagonals.",
+  "id": "A398999",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000522",
+    "A002467",
+    "A002627",
+    "A398986",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

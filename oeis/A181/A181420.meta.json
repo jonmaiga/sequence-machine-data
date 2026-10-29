@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form Fibonacci(p^c)/Fibonacci(p^b), where p is some prime and 1<=b",
+  "description": "Numbers of the form Fibonacci(p^c)/Fibonacci(p^b), where p is some prime and 1<=b<c are two integer exponents.",
   "id": "A181420",
   "mentions": [
     "A000045",

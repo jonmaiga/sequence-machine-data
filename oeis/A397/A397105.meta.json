@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3^(n-1)*(Fibonacci(n+2) - 1).",
+  "id": "A397105",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A016137",
+    "A016150",
+    "A105693",
+    "A140429"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

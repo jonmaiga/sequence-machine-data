@@ -1,5 +1,5 @@
 {
-  "description": "Sum of r in all pairs (r,s), 0<=r",
+  "description": "Sum of r in all pairs (r,s), 0<=r<s, r+s divides n.",
   "id": "A079249",
   "mentions": [
     "A008805"

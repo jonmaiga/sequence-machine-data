@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer k such that 2^k * prime(n) is the average of two consecutive primes (or -1 if no such k exists).",
+  "id": "A399130",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A024675",
+    "A226178",
+    "A340707"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

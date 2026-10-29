@@ -1,5 +1,5 @@
 {
-  "description": "Least j such that n divides s(k)-s(j) for some k>j, where s(j)=(prime(j))^2.",
+  "description": "Least j such that n divides s(A204916(n))-s(j), where s(j)=(prime(j))^2.",
   "id": "A204917",
   "mentions": [
     "A204892",
@@ -8,11 +8,12 @@
     "A204916"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

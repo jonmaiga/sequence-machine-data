@@ -1,5 +1,5 @@
 {
-  "description": "Number of primitive Pythagorean-like triples a^2+b^2=c^2+k for k=-5 with 0",
+  "description": "Number of primitive Pythagorean-like triples a^2+b^2=c^2+k for k=-5 with 0<c<=10^n.",
   "id": "A121087",
   "mentions": [
     "A101931"

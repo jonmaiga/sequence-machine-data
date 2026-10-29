@@ -2,7 +2,11 @@
   "description": "Expansion of e.g.f. exp( 1/(1-2*x)^(5/2) - 1 ).",
   "id": "A380213",
   "mentions": [
+    "A000079",
+    "A000110",
+    "A000351",
     "A049118",
+    "A132393",
     "A380212"
   ],
   "tags": [
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "joeis"
   }
 }

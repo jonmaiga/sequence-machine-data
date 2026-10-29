@@ -1,0 +1,16 @@
+{
+  "description": "Wreathed permutations of the cyclic group C_n with cycles of lengths 1, 1, 2, 3, 4, 5, ...",
+  "id": "A401121",
+  "mentions": [
+    "A399636"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

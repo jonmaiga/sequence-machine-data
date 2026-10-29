@@ -1,14 +1,16 @@
 {
-  "description": "Denominators of Pi-dependent part of even terms in the probability of obtaining an acute triangle by picking n points at random in the unit n-ball.",
+  "description": "Denominators of Pi-dependent part of even terms in the probability of obtaining an acute triangle by picking three independent uniform points in the unit n-ball.",
   "id": "A093761",
   "mentions": [
     "A093756",
     "A093757",
     "A093758",
-    "A093759"
+    "A093759",
+    "A093760"
   ],
   "tags": [
     "frac",
+    "more",
     "nonn"
   ],
   "terms": {

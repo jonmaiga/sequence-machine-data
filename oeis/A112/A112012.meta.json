@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there exists at least one number j and pi(m) = d_1 d_2 ... d_j*d_(j+1) d_(j+2) ... d_k where d_1 d_2 ...d_k is the decimal expansion of n.",
+  "description": "Numbers k such that there exists at least one number j and pi(k) = d(1) d(2) ... d(j)*d(j+1) d(j+2) ... d(t) where d(1) d(2) ... d(t) is the decimal expansion of k.",
   "id": "A112012",
   "mentions": [
     "A112013"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

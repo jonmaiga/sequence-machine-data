@@ -1,0 +1,17 @@
+{
+  "description": "Recamán's Choice. Take the integers 1..n and order them any way you choose to form a vector. Starting with the first element, add or subtract the numbers, keeping a running tally of the result. You must always use subtraction if you can, but the running tally can never be negative and can never duplicate a previous number in the running tally. a(n) is the largest possible final result of the running tally.",
+  "id": "A396112",
+  "mentions": [
+    "A000217",
+    "A005132"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

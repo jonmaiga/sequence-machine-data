@@ -1,5 +1,5 @@
 {
-  "description": "Bi-unitary deficient-perfect numbers: bi-unitary deficient numbers k for such that 2*k - bsigma(k) is a bi-unitary divisor of k, where bsigma(k) is the sum of bi-unitary divisors of k (A188999).",
+  "description": "Bi-unitary deficient-perfect numbers: bi-unitary deficient numbers k such that 2*k - bsigma(k) is a bi-unitary divisor of k, where bsigma(k) is the sum of bi-unitary divisors of k (A188999).",
   "id": "A303358",
   "mentions": [
     "A004171",

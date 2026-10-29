@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent ways to place zero or more non-attacking rooks on an n X n board up to rectangular symmetries of the board.",
+  "id": "A399009",
+  "mentions": [
+    "A399007",
+    "A399008",
+    "A399011"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

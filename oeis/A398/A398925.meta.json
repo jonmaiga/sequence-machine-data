@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree m, with 2*m being in the range of reduced totient function (A002322), such that there exists no k such that A046073(k) = m.",
+  "id": "A398925",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A046073",
+    "A079612",
+    "A396684",
+    "A399566",
+    "A400852",
+    "A400855"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

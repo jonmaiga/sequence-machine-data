@@ -1,5 +1,5 @@
 {
-  "description": "Smallest odd number k greater than 1 such that sigma_n(k)/k is an integer.",
+  "description": "a(n) = smallest odd number k greater than 1 such that sigma_n(k)/k is an integer.",
   "id": "A392925",
   "mentions": [
     "A000203",

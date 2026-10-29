@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3^(sum of a(i) where i",
+  "description": "a(n) = 3^(sum of a(i) where i<n).",
   "id": "A055590",
   "mentions": [
     "A055591"

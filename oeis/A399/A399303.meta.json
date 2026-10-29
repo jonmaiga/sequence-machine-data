@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of the 4-dimensional vector (n, n, n, n) into strictly distinct parts with nonnegative components, excluding elementary basis vectors (1,0,0,0), (0,1,0,0), (0,0,1,0), and (0,0,0,1).",
+  "id": "A399303",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A002774",
+    "A219585",
+    "A219678",
+    "A397646",
+    "A397811",
+    "A398329",
+    "A398553",
+    "A398816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

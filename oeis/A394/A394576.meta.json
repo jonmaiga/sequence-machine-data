@@ -1,8 +1,9 @@
 {
-  "description": "a(1) = 1; a(n+1) as the smallest positive integer greater than a(n) that avoids violating the condition a(k) + a(k+1) + a(k+2) is not term.",
+  "description": "a(1) = 1; a(n+1) is the smallest positive integer greater than a(n) that avoids violating the condition a(k) + a(k+1) + a(k+2) is not a term.",
   "id": "A394576",
   "mentions": [
-    "A042968"
+    "A042968",
+    "A394676"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

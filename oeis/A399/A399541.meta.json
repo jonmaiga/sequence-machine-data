@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + tau(k)^6.",
+  "id": "A399541",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001615",
+    "A398971",
+    "A399539",
+    "A399540"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

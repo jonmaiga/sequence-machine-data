@@ -1,0 +1,19 @@
+{
+  "description": "Number of homomorphisms from the figure-eight knot group to the symmetric group S_n.",
+  "id": "A394412",
+  "mentions": [
+    "A061207",
+    "A239837",
+    "A255515",
+    "A394222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

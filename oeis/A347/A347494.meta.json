@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of instances where tau(k)|tau(n); n>=1, k",
+  "description": "a(n) is the number of instances where tau(k)|tau(n); n>=1, k<n, where tau is the divisor counting function A000005.",
   "id": "A347494",
   "mentions": [
     "A000005",

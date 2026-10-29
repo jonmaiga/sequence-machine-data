@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs (D, h) where D is a digraph on n labeled nodes and h elects one node in each source SCC of D (an SCC receiving no external edge) such that attaching a virtual root joined to the elected nodes yields a reducible flow graph.",
+  "id": "A397965",
+  "mentions": [
+    "A053763",
+    "A398465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

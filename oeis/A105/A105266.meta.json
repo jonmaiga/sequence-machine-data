@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1 and, for n>1, a(n) is the smallest integer greater than a(n-1) such that no three terms x,y,z of the sequence, with x",
+  "description": "a(1)=1 and, for n>1, a(n) is the smallest integer greater than a(n-1) such that no three terms x,y,z of the sequence, with x<y<z, satisfy z-y=y-x+1.",
   "id": "A105266",
   "mentions": [
     "A003278"

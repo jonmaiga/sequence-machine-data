@@ -2,8 +2,10 @@
   "description": "(+2)-unitary sigma 3-multiple perfect number: numbers k such that (+2)usigma(k) = 3*k, where (+2)usigma(k) = A107759(k).",
   "id": "A054862",
   "mentions": [
+    "A034448",
     "A052396",
-    "A107759"
+    "A107759",
+    "A327158"
   ],
   "tags": [
     "more",

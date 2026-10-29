@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt(2) + 3^(1/3).",
+  "id": "A399121",
+  "mentions": [
+    "A002193",
+    "A002581"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of nonequivalent mating graphs on n vertices with connected open-neighborhood family.",
+  "id": "A399850",
+  "mentions": [
+    "A399827"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

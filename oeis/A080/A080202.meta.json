@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(b,k) read by rows, giving numbers of pairs of unequal permutations of all the digits 1, ..., k in base b (k",
+  "description": "Triangle T(b,k) read by rows, giving numbers of pairs of unequal permutations of all the digits 1, ..., k in base b (k<b) whose ratio is an integer.",
   "id": "A080202",
   "mentions": [
     "A080203"

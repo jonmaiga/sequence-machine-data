@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: S(n,m) is the maximal number of steps that an n-state m-symbol Turing machine can make on an initially blank tape before eventually halting.",
+  "id": "A400605",
+  "mentions": [
+    "A000027",
+    "A060843"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

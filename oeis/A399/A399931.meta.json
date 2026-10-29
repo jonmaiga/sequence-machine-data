@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of Hamiltonian cycles in a polyomino with 2*n cells.",
+  "id": "A399931",
+  "mentions": [
+    "A000105",
+    "A002931",
+    "A033676",
+    "A321172",
+    "A361288",
+    "A399932",
+    "A399933"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

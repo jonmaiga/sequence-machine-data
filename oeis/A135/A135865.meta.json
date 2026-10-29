@@ -1,16 +1,17 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + x*A(4x)^(1/2).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(4*x)^(1/2).",
   "id": "A135865",
   "mentions": [
     "A135863",
     "A135866"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

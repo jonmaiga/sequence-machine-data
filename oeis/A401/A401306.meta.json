@@ -1,0 +1,24 @@
+{
+  "description": "Powerful numbers preceded and followed by 3 consecutive squarefree numbers.",
+  "id": "A401306",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A068088",
+    "A078325",
+    "A373689",
+    "A376092",
+    "A378172",
+    "A387532",
+    "A390010"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

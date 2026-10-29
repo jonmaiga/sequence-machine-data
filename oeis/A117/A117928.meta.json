@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = smallest prime of the form (k+1)*prime(n) + k*i for some i>0, 0<=k",
+  "description": "Triangle read by rows: T(n,k) = smallest prime of the form (k+1)*prime(n) + k*i for some i>0, 0<=k<n.",
   "id": "A117928",
   "mentions": [
     "A000040",

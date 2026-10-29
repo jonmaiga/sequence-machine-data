@@ -2,7 +2,8 @@
   "description": "Number of labeled essential directed acyclic graphs (DAGs).",
   "id": "A026586",
   "mentions": [
-    "A003024"
+    "A003024",
+    "A245654"
   ],
   "tags": [
     "formulas",

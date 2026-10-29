@@ -1,7 +1,9 @@
 {
   "description": "Number of base 26 n-digit numbers with adjacent digits differing by one or less.",
   "id": "A126380",
-  "mentions": [],
+  "mentions": [
+    "A126371"
+  ],
   "tags": [
     "base",
     "nonn"

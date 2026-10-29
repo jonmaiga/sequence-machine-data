@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} kappa(p^3)/(p^4-1), where kappa(P) = P*log(P) - (P-1)*log(P-1).",
+  "id": "A399242",
+  "mentions": [
+    "A396759",
+    "A398284"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

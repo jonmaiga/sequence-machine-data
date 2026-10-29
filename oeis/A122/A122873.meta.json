@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = smallest number whose square has largest digit k in base n, 0<=k",
+  "description": "Triangle T(n,k) = smallest number whose square has largest digit k in base n, 0<=k<n.",
   "id": "A122873",
   "mentions": [
     "A000290",

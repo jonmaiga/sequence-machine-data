@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum absolute difference between the legs of a primitive Pythagorean triangle with larger Euclid parameter n.",
+  "id": "A399021",
+  "mentions": [
+    "A000129",
+    "A058529",
+    "A087056",
+    "A087059",
+    "A258149",
+    "A266504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

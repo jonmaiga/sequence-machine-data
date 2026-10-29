@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + x)^tanh(x).",
+  "id": "A399237",
+  "mentions": [
+    "A003723",
+    "A009249",
+    "A009269",
+    "A400342"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

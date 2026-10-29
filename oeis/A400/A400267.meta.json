@@ -1,0 +1,29 @@
+{
+  "description": "The fourth least significant digit of n' [the arithmetic derivative of n, A003415] in the primorial base, A049345.",
+  "id": "A400267",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A165560",
+    "A214411",
+    "A276086",
+    "A327859",
+    "A380459",
+    "A392879",
+    "A400253",
+    "A400260",
+    "A400263",
+    "A400265"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

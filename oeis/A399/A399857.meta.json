@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the book Ramsey number R(B_n,B_k).",
+  "id": "A399857",
+  "mentions": [
+    "A005408",
+    "A059442",
+    "A361261",
+    "A389310",
+    "A398597",
+    "A399858"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

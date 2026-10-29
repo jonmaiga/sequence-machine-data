@@ -1,22 +1,20 @@
 {
-  "description": "Minimal Goedel number of endofunctions on k points, by row and sorted within rows (number of points).",
+  "description": "Triangle read by rows: row n contains the minimal Goedel numbers of unlabeled endofunctions on n points.",
   "id": "A125024",
   "mentions": [
     "A001372",
     "A002110",
-    "A074736",
     "A076954",
     "A125023"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of largest sets S of points of the 4 X n grid such that any two distinct rectangles with all four corners at grid points (tilted rectangles included) have distinct sets of corners outside S.",
+  "id": "A401224",
+  "mentions": [
+    "A397315",
+    "A399580",
+    "A401223",
+    "A401225"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of increasing mobiles with n nodes, refined by the leaf-lineage composition of n-1, read by rows.",
+  "id": "A396576",
+  "mentions": [
+    "A008275",
+    "A011782",
+    "A029768",
+    "A055356",
+    "A132393"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 74,
+    "source": "joeis"
+  }
+}

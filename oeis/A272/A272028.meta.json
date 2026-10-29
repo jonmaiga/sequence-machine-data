@@ -2,10 +2,13 @@
   "description": "Decimal expansion of Product_{p prime} (1+1/p)^(1/p), an infinite product considered and computed by Marc Deléglise.",
   "id": "A272028",
   "mentions": [
+    "A124175",
+    "A175836",
     "A242623"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

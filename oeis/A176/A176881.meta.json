@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=p-q for n-th product of 2 distinct primes p and q (q",
+  "description": "a(n)=p-q for n-th product of 2 distinct primes p and q (q<p).",
   "id": "A176881",
   "mentions": [
     "A006530",

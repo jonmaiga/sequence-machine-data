@@ -1,17 +1,18 @@
 {
-  "description": "Least number k which can be written as k^2 * j, 0 < j <= k in n ways.",
+  "description": "Least number k which can be written as k^2 * j, 0 < j <= k in exactly n ways.",
   "id": "A104024",
   "mentions": [
     "A102354",
     "A104020",
-    "A104022"
+    "A104022",
+    "A104025"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

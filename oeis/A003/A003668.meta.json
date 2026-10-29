@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is smallest number which is uniquely a(j)+a(k), j",
+  "description": "a(n) is smallest number which is uniquely a(j)+a(k), j<k.",
   "id": "A003668",
   "mentions": [
     "A002858",

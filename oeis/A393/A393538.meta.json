@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the reduced fractions in the reciprocal-addition Pascal triangle, read by rows.",
+  "id": "A393538",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A397827"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

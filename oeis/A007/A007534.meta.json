@@ -1,5 +1,5 @@
 {
-  "description": "Positive even numbers that are not the sum of a pair of twin primes.",
+  "description": "Positive even numbers that cannot be written as p + q, where p and q are primes each belonging to a twin-prime pair (p = q is allowed).",
   "id": "A007534",
   "mentions": [
     "A001747",

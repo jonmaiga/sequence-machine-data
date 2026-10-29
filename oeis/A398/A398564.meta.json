@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the greatest common divisor of the numbers of ways to form j simultaneous cross-team handshakes between teams of n and k distinct people, with each person participating in at most one handshake, for 1 <= j <= k <= n.",
+  "id": "A398564",
+  "mentions": [
+    "A000085",
+    "A000166",
+    "A007947",
+    "A086885",
+    "A374433",
+    "A374443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: (Sum_{k>=1} x^(4*k)/(1 - x^(4*k))) * Product_{k>=1} (1 + x^k)/(1 - x^k).",
+  "id": "A399077",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A015128",
+    "A305102",
+    "A305104",
+    "A399076"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to represent 2n as the sum of two distinct k-almost primes: #{m",
+  "description": "Number of ways to represent 2n as the sum of two distinct k-almost primes: #{m<n | A001222(m)=A001222(2n-m)}.",
   "id": "A214154",
   "mentions": [
     "A001222",

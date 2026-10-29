@@ -1,9 +1,10 @@
 {
-  "description": "Number of 5 X n Latin rectangles.",
+  "description": "Number of reduced 5 X n Latin rectangles.",
   "id": "A275921",
   "mentions": [
     "A000179",
     "A000186",
+    "A001009",
     "A001623"
   ],
   "tags": [

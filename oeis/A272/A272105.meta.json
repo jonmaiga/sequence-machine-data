@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of [n] such that for each pair of blocks (b,c) with b",
+  "description": "Number of set partitions of [n] such that for each pair of blocks (b,c) with b<c at least one pair of consecutive numbers (i,i+1) exists with i member of b and i+1 member of c.",
   "id": "A272105",
   "mentions": [
     "A000110",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n X n matrices whose entries are a permutation of 1, ..., n^2, such that the determinant of the matrix is equal to the product of its terms on the main diagonal.",
+  "id": "A399271",
+  "mentions": [
+    "A085000",
+    "A180087"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

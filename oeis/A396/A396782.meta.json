@@ -1,0 +1,20 @@
+{
+  "description": "Index of 2^n - 1 in A007665.",
+  "id": "A396782",
+  "mentions": [
+    "A007664",
+    "A007665",
+    "A127419",
+    "A182058",
+    "A396783"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

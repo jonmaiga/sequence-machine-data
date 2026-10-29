@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n lists numbers in A055932 with n divisors.",
+  "id": "A399579",
+  "mentions": [
+    "A005179",
+    "A055932",
+    "A074206",
+    "A077569"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n+1) = a(n) + spf(Sum_{i=1..n} a(i)), where spf=A020639 (smallest prime factor).",
+  "description": "a(1)=1, a(n+1) = a(n) + lpf(Sum_{i=1..n} a(i)), where lpf=A020639 (least prime factor).",
   "id": "A080180",
   "mentions": [
     "A020639",

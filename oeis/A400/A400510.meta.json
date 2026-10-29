@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to cut an isosceles triangle into n self-similar triangles.",
+  "id": "A400510",
+  "mentions": [
+    "A399765",
+    "A399770",
+    "A399999",
+    "A400511"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

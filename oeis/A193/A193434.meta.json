@@ -1,5 +1,5 @@
 {
-  "description": "6*n/5 = (n written backwards), n > 0.",
+  "description": "Numbers k such that 6*k/5 = (k written backwards), k > 0.",
   "id": "A193434",
   "mentions": [
     "A001232",

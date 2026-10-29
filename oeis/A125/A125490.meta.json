@@ -1,5 +1,5 @@
 {
-  "description": "Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x",
+  "description": "Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x<y<z. We order these triples according to the common value of sigma. Sequence gives x numbers.",
   "id": "A125490",
   "mentions": [
     "A000203",

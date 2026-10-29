@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative integers m such that m^2-1 has no divisors d with 1",
+  "description": "Nonnegative integers m such that m^2-1 has no divisors d with 1<d<m-1.",
   "id": "A129297",
   "mentions": [
     "A014574",

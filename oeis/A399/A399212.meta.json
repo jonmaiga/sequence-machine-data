@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to x^2 + 9*y^2 = n in positive integers x and y.",
+  "id": "A399212",
+  "mentions": [
+    "A063725",
+    "A092573",
+    "A216278",
+    "A216510",
+    "A216511",
+    "A374017",
+    "A399169",
+    "A399211",
+    "A399214"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

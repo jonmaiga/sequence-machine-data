@@ -1,5 +1,5 @@
 {
-  "description": "The nonprime halfs of even single (or even isolated) numbers.",
+  "description": "The nonprime halves of even single (or even isolated) numbers.",
   "id": "A168544",
   "mentions": [
     "A008486",

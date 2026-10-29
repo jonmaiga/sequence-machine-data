@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n^2 + 4*Legendre(n,5))/5.",
+  "id": "A400796",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A007598",
+    "A080891",
+    "A118015",
+    "A400797"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

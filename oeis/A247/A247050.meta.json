@@ -1,8 +1,9 @@
 {
-  "description": "Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,1) to (n,k), where 0 >= k <= 2, consisting of segments given by the vectors (,1,1), (1,2), (1,-1).",
+  "description": "Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,1) to (n,k), where 0 <= k <= 2, consisting of segments given by the vectors (1,1), (1,2), (1,-1).",
   "id": "A247050",
   "mentions": [
     "A000045",
+    "A092220",
     "A247049"
   ],
   "tags": [

@@ -3,17 +3,20 @@
   "id": "A227724",
   "mentions": [
     "A000225",
+    "A022619",
     "A054724",
-    "A227725"
+    "A227725",
+    "A340259"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

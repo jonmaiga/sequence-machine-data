@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime-free knapsack 2-dimensional vector partitions of (n, n).",
+  "id": "A396565",
+  "mentions": [
+    "A002774",
+    "A002865",
+    "A108917",
+    "A292886",
+    "A397646"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

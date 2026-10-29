@@ -1,5 +1,5 @@
 {
-  "description": "n-th term is the length of a shortest common superstring of the binary representations of all natural numbers from 1 to n.",
+  "description": "a(n) is the length of a shortest common superstring of the binary representations of all natural numbers from 1 to n.",
   "id": "A175808",
   "mentions": [
     "A016031",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

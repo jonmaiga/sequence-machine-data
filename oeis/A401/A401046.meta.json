@@ -1,0 +1,22 @@
+{
+  "description": "Sexy squares: squares that are the sum of two primes differing by 6.",
+  "id": "A401046",
+  "mentions": [
+    "A000290",
+    "A023201",
+    "A037072",
+    "A046117",
+    "A086776",
+    "A104010",
+    "A401045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

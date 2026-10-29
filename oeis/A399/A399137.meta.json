@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-element subsets of {(x,y,z) in Z^3: |x|+|y|+|z| <= n} that are the vertices of a regular tetrahedron.",
+  "id": "A399137",
+  "mentions": [
+    "A001845",
+    "A103158",
+    "A269747",
+    "A342353"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

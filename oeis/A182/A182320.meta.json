@@ -1,5 +1,5 @@
 {
-  "description": "Primes p = prime(n) such that the equation prime(n+k) - prime(n) = 6^(k-1) has at least one solution, k>0.",
+  "description": "Primes p = prime(m) such that the equation prime(m+k) - prime(m) = 6^(k-1) has at least one solution, k>0.",
   "id": "A182320",
   "mentions": [
     "A001223",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

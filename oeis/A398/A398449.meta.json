@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k), (1 <= k <= n), equals the largest prime factor of prime(n)^prime(k) + prime(k)^prime(n).",
+  "id": "A398449",
+  "mentions": [
+    "A006530",
+    "A173056",
+    "A398544"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

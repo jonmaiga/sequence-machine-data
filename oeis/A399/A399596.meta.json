@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the integral dx/sqrt(1-x^6), x=0..1.",
+  "id": "A399596",
+  "mentions": [
+    "A002161",
+    "A073006",
+    "A085565",
+    "A175379"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

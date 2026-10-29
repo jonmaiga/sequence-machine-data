@@ -1,0 +1,15 @@
+{
+  "description": "Antidiagonal sums of the array A400175.",
+  "id": "A400176",
+  "mentions": [
+    "A400175"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{1<=k",
+  "description": "Sum_{1<=k<n} gcd(k!,n!/k!).",
   "id": "A014454",
   "mentions": [
     "A000142",

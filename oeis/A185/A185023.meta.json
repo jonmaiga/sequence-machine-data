@@ -2,14 +2,17 @@
   "description": "Number of steps to reach the number 1 of the map n -> n/3 if x==0 (mod 3), n -> (4n-1)/3 if x==1 (mod 3), n -> (4n+1)/3 if x==2 (mod 3).",
   "id": "A185023",
   "mentions": [
-    "A006577"
+    "A006369",
+    "A006577",
+    "A006666"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 74,
+    "size": 80,
     "source": "oeis-bfile"
   }
 }

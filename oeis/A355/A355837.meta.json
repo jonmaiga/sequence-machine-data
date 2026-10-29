@@ -2,9 +2,12 @@
   "description": "Dirichlet inverse of A322327.",
   "id": "A355837",
   "mentions": [
+    "A072587",
+    "A268335",
     "A322327"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

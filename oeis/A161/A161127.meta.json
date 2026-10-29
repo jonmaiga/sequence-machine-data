@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of fixed-point-free involutions of {1,2,...,2n} having k descents (n>=1; 1<=k",
+  "description": "Triangle read by rows: T(n,k) is the number of fixed-point-free involutions of {1,2,...,2n} having k descents (n>=1; 1<=k<2n-1).",
   "id": "A161127",
   "mentions": [
     "A001147",

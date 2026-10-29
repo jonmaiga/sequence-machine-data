@@ -2,6 +2,7 @@
   "description": "Almost trivalent maps.",
   "id": "A002007",
   "mentions": [
+    "A002005",
     "A002006",
     "A002008",
     "A002009",

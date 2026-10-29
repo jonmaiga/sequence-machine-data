@@ -1,5 +1,5 @@
 {
-  "description": "Least k^2 such that n divides k^2-j^2 for some j",
+  "description": "Least k^2 such that n divides k^2-j^2 for some j<k.",
   "id": "A204996",
   "mentions": [
     "A204892",

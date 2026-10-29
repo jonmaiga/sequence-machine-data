@@ -8,12 +8,13 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = denominator((n^2 - 2*n*k - k^2)/(n^2 + k^2)), with k > 0.",
+  "id": "A400876",
+  "mentions": [
+    "A000012",
+    "A399542",
+    "A400875"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

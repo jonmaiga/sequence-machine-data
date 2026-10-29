@@ -1,14 +1,17 @@
 {
-  "description": "a(n)=1 if a hexagonal number is a prime, otherwise 0.",
+  "description": "a(n)=1 if the n-th hexagonal number is a prime, otherwise 0.",
   "id": "A100656",
-  "mentions": [],
+  "mentions": [
+    "A003215"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "joeis"
   }
 }

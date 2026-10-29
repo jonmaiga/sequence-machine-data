@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that 1 + (sum of primes <= p) >= exp(gamma(n)), where gamma(n) is the imaginary part of the n-th nontrivial zero of the Riemann zeta function.",
+  "id": "A397910",
+  "mentions": [
+    "A002410",
+    "A007504",
+    "A397911"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

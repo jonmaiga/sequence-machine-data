@@ -2,7 +2,8 @@
   "description": "Primes of the form k!! + k + 1.",
   "id": "A118743",
   "mentions": [
-    "A006882"
+    "A006882",
+    "A398791"
   ],
   "tags": [
     "nonn"

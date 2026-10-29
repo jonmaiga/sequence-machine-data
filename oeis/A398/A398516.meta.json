@@ -1,0 +1,17 @@
+{
+  "description": "Orders of the sporadic simple groups, including the Tits group.",
+  "id": "A398516",
+  "mentions": [
+    "A001228"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [n] such that for each i in [n] we have: (i>1) and |p(i)-p(i-1)| = 1 or (i",
+  "description": "Number of permutations p of [n] such that for each i in [n] we have: (i>1) and |p(i)-p(i-1)| = 1 or (i<n) and |p(i)-p(i+1)| = 1.",
   "id": "A363181",
   "mentions": [
     "A002464",

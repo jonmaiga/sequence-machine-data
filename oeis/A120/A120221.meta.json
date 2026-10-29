@@ -1,7 +1,9 @@
 {
-  "description": "Continued fraction expansion of one of four fixed points (mod 1) of Minkowski's question mark function (specifically, the only positive fixed point (mod 1) greater than 1/2).",
+  "description": "Continued fraction expansion of one minus the Minkowski-Bower constant.",
   "id": "A120221",
   "mentions": [
+    "A048819",
+    "A048820",
     "A058914"
   ],
   "tags": [

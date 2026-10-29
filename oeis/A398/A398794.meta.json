@@ -1,0 +1,19 @@
+{
+  "description": "Number of values 0 <= r < 2^n such that the trajectories of r and r+1 under the 5x+1 map f (A185452), satisfy f^(n)(r) = f^(n)(r+1) and contain the same number of odd terms among the first n iterates.",
+  "id": "A398794",
+  "mentions": [
+    "A185452",
+    "A398792",
+    "A398793",
+    "A398795"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

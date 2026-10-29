@@ -1,5 +1,5 @@
 {
-  "description": "Decimal part of a(n)^(1/5) starts with n so that a(n)",
+  "description": "Decimal part of a(n)^(1/5) starts with n so that a(n)<a(n+1).",
   "id": "A034070",
   "mentions": [
     "A034060",

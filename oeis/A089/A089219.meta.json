@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form (p0^x)(p1^(x+1))(p2^(x+2))...(pk^(x+k)), where x and k are positive integers and p0,p1,...,pk are primes with p0",
+  "description": "Numbers of the form (p0^x)(p1^(x+1))(p2^(x+2))...(pk^(x+k)), where x and k are positive integers and p0,p1,...,pk are primes with p0<p1<...<pk.",
   "id": "A089219",
   "mentions": [],
   "tags": [

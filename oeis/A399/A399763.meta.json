@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = index of first appearance of a building of height n in the city-building sequence A400000.",
+  "id": "A399763",
+  "mentions": [
+    "A397831",
+    "A400000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

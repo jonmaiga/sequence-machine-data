@@ -1,8 +1,9 @@
 {
-  "description": "All distinct primes dividing n are consecutive.",
+  "description": "Numbers whose distinct prime factors are consecutive.",
   "id": "A066311",
   "mentions": [
-    "A066312"
+    "A066312",
+    "A073491"
   ],
   "tags": [
     "nonn"

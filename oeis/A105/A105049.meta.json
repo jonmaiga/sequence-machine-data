@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime p such that p+n! is prime and p differs from all a(i), i",
+  "description": "a(n) is the smallest prime p such that p+n! is prime and p differs from all a(i), i<n.",
   "id": "A105049",
   "mentions": [
     "A037153",

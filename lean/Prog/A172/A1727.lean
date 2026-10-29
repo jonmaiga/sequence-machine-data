@@ -1,16 +1,16 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C004
-import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C032
-import Seq.B001.C005
+import Seq.B000.C005
+import Seq.B000.C008
+import Seq.B000.C010
+import Seq.B000.C038
+import Seq.B001.C007
 import Seq.Opaque.C000
 import Seq.Opaque.C005
-import Seq.Opaque.C012
-import Seq.Opaque.C016
+import Seq.Opaque.C011
+import Seq.Opaque.C015
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A172729: Number of n X n 0..3 arrays with row sums 15 and column sums 15.

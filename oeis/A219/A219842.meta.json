@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as x+y (0",
+  "description": "Number of ways to write n as x+y (0<x<=y) with 2x*y+1 prime.",
   "id": "A219842",
   "mentions": [
     "A091182",

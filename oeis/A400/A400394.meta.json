@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{d|n} d * gcud(d, n/d), where gcud is the greatest common unitary divisor.",
+  "id": "A400394",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A013661",
+    "A077610",
+    "A165430",
+    "A183699",
+    "A268335",
+    "A337180",
+    "A400391"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

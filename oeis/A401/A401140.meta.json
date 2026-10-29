@@ -1,0 +1,15 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of common elements of {j*(n-j): 1 <= j <= floor(n/2)} and {j*(k-j): 1 <= j <= floor(k/2)}, for n >= 2 and 1 <= k < n.",
+  "id": "A401140",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

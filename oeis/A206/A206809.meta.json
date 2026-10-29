@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{0",
+  "description": "a(n) = Sum_{0<j<k<=n} k^3-j^3.",
   "id": "A206809",
   "mentions": [
     "A206808",

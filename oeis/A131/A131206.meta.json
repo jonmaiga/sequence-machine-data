@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(A002866(n+1) - A036691(n))/192.",
+  "description": "a(n) = (A002866(n+1) - A036691(n))/192.",
   "id": "A131206",
   "mentions": [
     "A002866",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

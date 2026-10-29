@@ -1,5 +1,5 @@
 {
-  "description": "Sum{k>=0, C(2^k-1,n-2*(2^k-1))}.",
+  "description": "a(n) = Sum_{k>=0} C(2^k-1,n-2*(2^k-1)).",
   "id": "A119969",
   "mentions": [
     "A036987"

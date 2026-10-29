@@ -1,17 +1,19 @@
 {
-  "description": "Numerators of mean number of s-clusters in an n X n (0,1)-matrix.",
+  "description": "Total number of s-clusters in all n X n (0,1)-matrices.",
   "id": "A086265",
   "mentions": [
-    "A002416"
+    "A002416",
+    "A086266",
+    "A086268",
+    "A399039"
   ],
   "tags": [
-    "frac",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

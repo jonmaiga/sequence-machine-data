@@ -1,5 +1,5 @@
 {
-  "description": "For n>=5, a(n) is the smallest m>=3 such that odd part of ((prime(n)^2 - prime(m)^2)/3) is prime, or a(n)=0 if there is no such m",
+  "description": "For n>=5, a(n) is the smallest m>=3 such that odd part of ((prime(n)^2 - prime(m)^2)/3) is prime, or a(n)=0 if there is no such m<n.",
   "id": "A282445",
   "mentions": [
     "A000265",

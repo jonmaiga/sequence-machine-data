@@ -1,0 +1,17 @@
+{
+  "description": "Product of the 8 nearest neighbors of n in the square spiral.",
+  "id": "A400761",
+  "mentions": [
+    "A214176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The binomial matrix of the LCM of {1, 2, ..., n}. Square array read by ascending antidiagonals.",
+  "id": "A399329",
+  "mentions": [
+    "A003418",
+    "A100442",
+    "A100443",
+    "A399000"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of excess shadings of all permutations of [n] using a special circular shading.",
+  "id": "A398003",
+  "mentions": [
+    "A000142",
+    "A002620",
+    "A077613",
+    "A145891",
+    "A306258"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

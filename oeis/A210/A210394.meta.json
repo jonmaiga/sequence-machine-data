@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least integer m>1 such that m divides none of S_i!+S_j! with 0",
+  "description": "a(n) = least integer m>1 such that m divides none of S_i!+S_j! with 0<i<j<=n where S_k is the sum of the first k primes.",
   "id": "A210394",
   "mentions": [
     "A000040",

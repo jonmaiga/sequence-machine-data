@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 0, and for any n > 0, a(n+1) = a(n) - A065363(n) + 1.",
+  "description": "a(0) = 0, and for any n > 0, a(n+1) = a(n) - A065363(n+1) + 1.",
   "id": "A343754",
   "mentions": [
     "A003462",

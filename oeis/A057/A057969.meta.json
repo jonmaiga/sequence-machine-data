@@ -1,5 +1,5 @@
 {
-  "description": "5 x n binary matrices without unit columns up to row and column permutations.",
+  "description": "Number of 5 X n binary matrices without singleton columns up to row and column permutations.",
   "id": "A057969",
   "mentions": [
     "A001752",

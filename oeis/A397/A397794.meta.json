@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the decimal encoding of the unique snowball numeral having value n.",
+  "description": "a(n) is the decimal encoding of the unique snowball numeral <d_k...d_1> having value n.",
   "id": "A397794",
   "mentions": [
     "A000108",

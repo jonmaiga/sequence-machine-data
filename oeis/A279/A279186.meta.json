@@ -1,5 +1,5 @@
 {
-  "description": "Maximal entry in n-th row of A279185.",
+  "description": "Maximal entry in the n-th row of A279185.",
   "id": "A279186",
   "mentions": [
     "A000010",

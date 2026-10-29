@@ -1,0 +1,19 @@
+{
+  "description": "Number of compact Numberlink solutions for an n X n grid, reduced for symmetry.",
+  "id": "A399971",
+  "mentions": [
+    "A000982",
+    "A002865",
+    "A004526"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers x such that there exist four integers 0",
+  "description": "Integers x such that there exist four integers 0<y<=z<=t<=w such that psi(x)^4 = x^4 + y^4 + z^4 + t^4 + w^4.",
   "id": "A391536",
   "mentions": [
     "A001615",

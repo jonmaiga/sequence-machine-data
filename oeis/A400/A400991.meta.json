@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(3*x/(1 + x)) / (1 + x).",
+  "id": "A400991",
+  "mentions": [
+    "A000587",
+    "A317996",
+    "A355081",
+    "A400992"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of functions f:[n] -> [n] such that f(i) = f(f(i)) = f(n+1-i) for all i in [n].",
+  "id": "A397734",
+  "mentions": [
+    "A000248",
+    "A078707",
+    "A275707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

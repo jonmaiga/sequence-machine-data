@@ -3,16 +3,16 @@
   "id": "A162544",
   "mentions": [
     "A001009",
-    "A040082"
+    "A040082",
+    "A393633"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

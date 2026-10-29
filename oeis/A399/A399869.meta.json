@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps required for n to reach 1 under repeated application of A048675, which encodes the exponents in the prime factorization of n as a binary integer; or -1 if 1 is never reached.",
+  "id": "A399869",
+  "mentions": [
+    "A019565",
+    "A048675",
+    "A087207",
+    "A285331",
+    "A288569"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

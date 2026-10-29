@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple chains with n-1 edges strongly embedded in a simple cubic lattice.",
+  "description": "Number of fixed linear polycubes with n cells.",
   "id": "A118339",
   "mentions": [
     "A174319",
@@ -9,12 +9,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

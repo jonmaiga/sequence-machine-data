@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the denominator of intersection number , n>=2.",
+  "description": "a(n) is the denominator of intersection number <tau_2^(3n-3)>, n>=2.",
   "id": "A278179",
   "mentions": [
     "A269418",

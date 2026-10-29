@@ -1,5 +1,5 @@
 {
-  "description": "Primes not occurring in prime triples (p,q,r) with p",
+  "description": "Primes not occurring in prime triples (p,q,r) with p<q<r=p+6.",
   "id": "A098419",
   "mentions": [
     "A000040",

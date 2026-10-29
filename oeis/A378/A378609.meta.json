@@ -1,5 +1,5 @@
 {
-  "description": "Number of weak orderings of (i,j), 1 <= i,j <= n, for which there is a set X = {x_1<...",
+  "description": "Number of weak orderings of (i,j), 1 <= i,j <= n, for which there is a set X = {x_1<...<x_n} of n real numbers with (i,j) < (k,m) if and only if x_i + x_j < x_k + x_m.",
   "id": "A378609",
   "mentions": [
     "A376162"

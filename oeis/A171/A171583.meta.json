@@ -2,10 +2,13 @@
   "description": "a(n) = 10^n*(4+3*10^n)+3.",
   "id": "A171583",
   "mentions": [
+    "A093141",
+    "A098608",
     "A171582"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

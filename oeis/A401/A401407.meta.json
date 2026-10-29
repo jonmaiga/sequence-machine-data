@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lambda(n)*chi_{-4}(n) = A008836(n)*A101455(n).",
+  "id": "A401407",
+  "mentions": [
+    "A008836",
+    "A101455",
+    "A209661",
+    "A401365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

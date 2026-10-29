@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the connective constant of the honeycomb lattice.",
+  "description": "Decimal expansion of the connective constant of the honeycomb net.",
   "id": "A179260",
   "mentions": [
     "A001668",
@@ -11,7 +11,8 @@
     "A144981",
     "A154739",
     "A302711",
-    "A302715"
+    "A302715",
+    "A387897"
   ],
   "tags": [
     "cons",

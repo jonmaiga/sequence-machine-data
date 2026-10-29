@@ -1,5 +1,5 @@
 {
-  "description": "Let A087788(n) = p*q*r, where p",
+  "description": "Let A087788(n) = p*q*r, where p<q<r, be the n-th 3-Carmichael number. Then a(n) = (p-1)*(p*q*r-1)/((q-1)*(r-1)).",
   "id": "A162290",
   "mentions": [
     "A002997",

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonempty sets of pairwise commuting permutations of [n].",
+  "id": "A399972",
+  "mentions": [
+    "A000792",
+    "A008275",
+    "A160870",
+    "A362826"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

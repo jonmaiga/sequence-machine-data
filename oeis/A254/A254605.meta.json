@@ -1,5 +1,5 @@
 {
-  "description": "The minimum absolute difference between k*m1 and m2 (m1",
+  "description": "The minimum absolute difference between k*m1 and m2 (m1<m2), where m1*m2 is the n-th term of A075362.",
   "id": "A254605",
   "mentions": [
     "A022267",

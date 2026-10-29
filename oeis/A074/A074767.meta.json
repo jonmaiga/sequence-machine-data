@@ -1,5 +1,5 @@
 {
-  "description": "Least m > n with spf(m) = gpf(n), where gpf(n) is the greatest prime factor of n and spf(m) is the smallest prime factor of m.",
+  "description": "Least m > n with lpf(m) = gpf(n), where gpf(n) is the greatest prime factor of n and lpf(m) is the least prime factor of m.",
   "id": "A074767",
   "mentions": [
     "A006530",

@@ -1,0 +1,22 @@
+{
+  "description": "Initial digit of the decimal expansion of 5^(5^(5^n)).",
+  "id": "A398667",
+  "mentions": [
+    "A000030",
+    "A111395",
+    "A241294",
+    "A395745",
+    "A395747"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

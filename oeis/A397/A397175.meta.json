@@ -1,10 +1,10 @@
 {
-  "description": "Numbers that appear in A394611.",
+  "description": "Numbers that appear in A399995.",
   "id": "A397175",
   "mentions": [
-    "A394611",
     "A397176",
-    "A397471"
+    "A397471",
+    "A399995"
   ],
   "tags": [
     "nonn"

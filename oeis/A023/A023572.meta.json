@@ -1,8 +1,14 @@
 {
   "description": "Exponent of 2 in prime factorization of prime(n) - 3.",
   "id": "A023572",
-  "mentions": [],
+  "mentions": [
+    "A007814",
+    "A023579",
+    "A086801"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

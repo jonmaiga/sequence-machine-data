@@ -1,7 +1,9 @@
 {
   "description": "Metadromes: numbers whose digits in base 5 are in strict ascending order.",
   "id": "A023774",
-  "mentions": [],
+  "mentions": [
+    "A023800"
+  ],
   "tags": [
     "base",
     "easy",

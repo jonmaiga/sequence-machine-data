@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients of polynomials giving the n-anacci constants.",
+  "description": "Triangle of coefficients, in increasing order of degree, of the denominator polynomials in Binet-type formulas for the n-step Fibonacci numbers.",
   "id": "A118745",
   "mentions": [],
   "tags": [

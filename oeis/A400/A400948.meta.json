@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p-1)/2 is either prime or a squarefree semiprime.",
+  "id": "A400948",
+  "mentions": [
+    "A005097",
+    "A005385",
+    "A006881",
+    "A063640"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Minimum number of L-seams needed to sew an optimal Mrs. Perkins's quilt of side length n.",
+  "id": "A398869",
+  "mentions": [
+    "A005670"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

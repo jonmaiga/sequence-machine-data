@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/(1-sinh(x)-x).",
+  "description": "Expansion of e.g.f.: 1/(1-sinh(x)-x).",
   "id": "A088181",
   "mentions": [
     "A006154"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

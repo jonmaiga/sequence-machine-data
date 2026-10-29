@@ -1,0 +1,28 @@
+{
+  "description": "Number of semi-meanders with n crossings and winding number n-4, for n >= 4.",
+  "id": "A400630",
+  "mentions": [
+    "A005315",
+    "A005316",
+    "A400429",
+    "A400631",
+    "A400632",
+    "A400633",
+    "A400634",
+    "A400635",
+    "A400636",
+    "A400637",
+    "A400638",
+    "A400639"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 53,
+    "source": "joeis"
+  }
+}

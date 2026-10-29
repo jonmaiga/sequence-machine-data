@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k), n >= 0, k = 0..n, read by rows; the n-th row lists the earliest starting offsets of the n+1 distinct subwords of length n in the infinite Fibonacci word (A003849).",
+  "id": "A399022",
+  "mentions": [
+    "A003849",
+    "A344953",
+    "A399023",
+    "A399466"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Even bisection gives sequence a itself, n->a(2*(5*n+k)-1) gives k-th differences of a for k=1..5 with a(n)=n for n",
+  "description": "Even bisection gives sequence a itself, n->a(2*(5*n+k)-1) gives k-th differences of a for k=1..5 with a(n)=n for n<2.",
   "id": "A229820",
   "mentions": [
     "A005590",

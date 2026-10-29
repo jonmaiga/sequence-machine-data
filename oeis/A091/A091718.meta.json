@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Max{gcd(P(n),P(k)): 0<=k",
+  "description": "a(n) = Max{gcd(P(n),P(k)): 0<=k<n}, P = partition function.",
   "id": "A091718",
   "mentions": [
     "A000041",

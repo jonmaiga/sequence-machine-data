@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct resistances that can be produced from a circuit of exactly n resistors, each of which is 1 ohm or 2 ohms, using only series and parallel combinations.",
+  "id": "A399054",
+  "mentions": [
+    "A048211"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

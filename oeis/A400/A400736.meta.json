@@ -1,0 +1,24 @@
+{
+  "description": "Three-dimensional multiplication table read by triangular shells.",
+  "id": "A400736",
+  "mentions": [
+    "A004247",
+    "A057556",
+    "A079904",
+    "A144625",
+    "A144627",
+    "A144628",
+    "A144629",
+    "A400199",
+    "A400200"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

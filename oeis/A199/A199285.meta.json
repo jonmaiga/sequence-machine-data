@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of x",
+  "description": "Decimal expansion of x<0 satisfying 3*x^2+2*x*cos(x)=1.",
   "id": "A199285",
   "mentions": [
     "A199170",

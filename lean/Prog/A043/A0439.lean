@@ -3,47 +3,49 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
-import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C008
+import Seq.B000.C010
+import Seq.B000.C012
+import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,7 +69,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A043900: Numbers k such that 0 and 5 occur juxtaposed in the base-6 representation of k but not of k+1.
@@ -332,21 +333,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043909.P10697939583842150779
-
-/-! ## A043909.P18178230899948135673
-
-`A202954(A002849(n+1))+A043129(n+1)`
--/
-
-namespace A043909.P18178230899948135673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202954 (A002849 (n + 1)).toNat + A043129 (n + 1)
-
-end
-
-end A043909.P18178230899948135673
 
 /-!
 # A043912: Numbers k such that 0 and 2 occur juxtaposed in the base-7 representation of k but not of k+1.
@@ -815,42 +801,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043924.P4649508324612484197
-
-/-!
-# A043925: Numbers k such that 2 and 6 occur juxtaposed in the base-7 representation of k but not of k+1.
-
-The programs for A043925, there is no canonical definition to state claims against.
--/
-
-/-! ## A043925.P2479369256878850773
-
-`A329975(A329840(n+1)+A276383(n+1))`
--/
-
-namespace A043925.P2479369256878850773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329975 (A329840 (n + 1) + A276383 (n + 1)).toNat
-
-end
-
-end A043925.P2479369256878850773
-
-/-! ## A043925.P17079568200486521551
-
-`A329975(A329840(n+1)+A329828(n+1))`
--/
-
-namespace A043925.P17079568200486521551
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329975 (A329840 (n + 1) + A329828 (n + 1)).toNat
-
-end
-
-end A043925.P17079568200486521551
 
 /-!
 # A043928: Numbers k such that 3 and 6 occur juxtaposed in the base-7 representation of k but not of k+1.

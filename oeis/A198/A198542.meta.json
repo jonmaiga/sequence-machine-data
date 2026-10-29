@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of x",
+  "description": "Decimal expansion of x<0 having 4*x^2+3x=2*sin(x).",
   "id": "A198542",
   "mentions": [
     "A198414"

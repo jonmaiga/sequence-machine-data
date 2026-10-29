@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to place n nonattacking rook-plus-range-2-diagonal pieces on an n X n chessboard with rotations and reflections counted separately.",
+  "id": "A396796",
+  "mentions": [
+    "A000170",
+    "A002464"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

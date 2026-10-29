@@ -1,5 +1,5 @@
 {
-  "description": "Brocard's problem: positive integers n such that n!+1 = m^2.",
+  "description": "Brocard's problem: positive integers k such that k!+1 is a square.",
   "id": "A146968",
   "mentions": [
     "A085692",

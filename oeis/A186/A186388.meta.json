@@ -1,5 +1,5 @@
 {
-  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=6i and g(j)=j(j+1)/2 (triangular number). Complement of A186387.",
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=6*i and g(j)=j*(j+1)/2 (triangular number). Complement of A186387.",
   "id": "A186388",
   "mentions": [
     "A186350",
@@ -8,6 +8,7 @@
     "A186390"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

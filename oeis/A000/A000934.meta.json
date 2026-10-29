@@ -1,5 +1,5 @@
 {
-  "description": "Chromatic number (or Heawood number) Chi(n) of surface of genus n.",
+  "description": "Chromatic number (or Heawood number) Chi(n) of a closed orientable surface of genus n.",
   "id": "A000934",
   "mentions": [
     "A000703",

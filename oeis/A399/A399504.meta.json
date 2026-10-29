@@ -1,0 +1,29 @@
+{
+  "description": "b - c - d where b >= c >= d >= 0 ordered by b then c then d.",
+  "id": "A399504",
+  "mentions": [
+    "A025581",
+    "A051162",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A070770",
+    "A070771",
+    "A070772",
+    "A079904",
+    "A094727",
+    "A399430",
+    "A399497"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

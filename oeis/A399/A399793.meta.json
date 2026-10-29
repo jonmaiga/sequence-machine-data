@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the largest size of a subset S of {1, ..., n} such that there does not exist a function f: S -> {-1,1} satisfying |Sum_{x in S} x*f(x)| <= 1.",
+  "id": "A399793",
+  "mentions": [
+    "A181176",
+    "A386820"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

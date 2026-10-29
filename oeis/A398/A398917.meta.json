@@ -1,0 +1,20 @@
+{
+  "description": "Number of regular (asymmetric) orbits of chord diagrams on 2n vertices under the action of the dihedral group D_(2n).",
+  "id": "A398917",
+  "mentions": [
+    "A001147",
+    "A054499",
+    "A390360",
+    "A392247"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

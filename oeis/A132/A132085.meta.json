@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into distinct parts such that (u+1)^2 <= v for all pairs (u,v) of parts with u",
+  "description": "Number of partitions of n into distinct parts such that (u+1)^2 <= v for all pairs (u,v) of parts with u<v.",
   "id": "A132085",
   "mentions": [
     "A000009",

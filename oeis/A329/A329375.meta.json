@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d",
+  "description": "a(n) = Sum_{d|n, d<n} d*omega(d).",
   "id": "A329375",
   "mentions": [
     "A001221",

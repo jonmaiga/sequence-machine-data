@@ -1,5 +1,5 @@
 {
-  "description": "Least m such that m^n <= Sum_{k",
+  "description": "Least m such that m^n <= Sum_{k<m} k^n.",
   "id": "A332101",
   "mentions": [
     "A030052",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -4,7 +4,8 @@
   "mentions": [
     "A007953",
     "A056658",
-    "A092571"
+    "A092571",
+    "A098088"
   ],
   "tags": [
     "base",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

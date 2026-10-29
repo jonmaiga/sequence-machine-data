@@ -1,0 +1,20 @@
+{
+  "description": "Every suffix is prime and no two consecutive digits are both zero.",
+  "id": "A400420",
+  "mentions": [
+    "A024785",
+    "A033664",
+    "A050987",
+    "A400492"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number of the form p*q*r with primes p,q,r, where p = prime(n), q == 1 (mod p), and r == 1 (mod p*q).",
+  "id": "A399963",
+  "mentions": [
+    "A000001",
+    "A035095"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

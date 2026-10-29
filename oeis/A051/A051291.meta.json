@@ -1,5 +1,5 @@
 {
-  "description": "Whitney number of level n of the lattice of the ideals of the fence of order 2 n + 1.",
+  "description": "Whitney number of level n of the lattice of the ideals of the fence of order 2*n + 1.",
   "id": "A051291",
   "mentions": [
     "A051286",

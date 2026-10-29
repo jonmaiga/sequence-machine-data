@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that 1+(k-2)*U_m(k,1)^2 does not divide n-k for any 3<=k=1, where U(k,1) is a Lucas sequence.",
+  "description": "Positive integers n such that 1+(k-2)*U_m(k,1)^2 does not divide n-k for any 3<=k<n and m>=1, where U(k,1) is a Lucas sequence.",
   "id": "A219186",
   "mentions": [
     "A164014"

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A003418(k)+-1 are a twin prime pair.",
+  "id": "A401177",
+  "mentions": [
+    "A003418",
+    "A049537",
+    "A057825"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

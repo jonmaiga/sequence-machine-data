@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part.",
+  "description": "Triangular array: T(n,k)=[<e^n>+<e^k>], where [ ] = floor, < > = fractional part.",
   "id": "A194675",
   "mentions": [
     "A194676",

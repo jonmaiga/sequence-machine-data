@@ -1,5 +1,5 @@
 {
-  "description": "Integers a(n) such that [a(n) - k] is a palindrome in base 10, with k",
+  "description": "Integers a(n) such that [a(n) - k] is a palindrome in base 10, with k <10.",
   "id": "A318535",
   "mentions": [
     "A260255",

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n+1)=a(spf(n))+a(gpf(n)), where spf(n) and gpf(n) are the smallest and greatest prime factors of n (A020639, A006530).",
+  "description": "a(1)=1, a(n+1)=a(lpf(n))+a(gpf(n)), where lpf(n) and gpf(n) are the least and greatest prime factors of n (A020639, A006530).",
   "id": "A078479",
   "mentions": [
     "A006530",

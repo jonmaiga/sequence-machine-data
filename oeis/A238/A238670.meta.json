@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that (p+8)^2+8 is prime but (p+j)^2+j is not prime for all 0",
+  "description": "Primes p such that (p+8)^2+8 is prime but (p+j)^2+j is not prime for all 0<j<8.",
   "id": "A238670",
   "mentions": [
     "A238086"

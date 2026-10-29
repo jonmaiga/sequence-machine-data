@@ -1,5 +1,5 @@
 {
-  "description": "Base-3 Fermat numbers: 3^(3^n) + 1.",
+  "description": "Base-3 Fermat numbers: a(n) = 3^(3^n) + 1.",
   "id": "A129290",
   "mentions": [
     "A000215",

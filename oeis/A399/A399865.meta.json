@@ -1,0 +1,20 @@
+{
+  "description": "Number of preclosures on an n-element labeled set; equivalently, number of extensive order-preserving self-maps of the Boolean lattice of rank n.",
+  "id": "A399865",
+  "mentions": [
+    "A000372",
+    "A000798",
+    "A014466",
+    "A102894",
+    "A102896"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

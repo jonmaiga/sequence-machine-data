@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j",
+  "description": "a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.",
   "id": "A151855",
   "mentions": [
     "A151843",

@@ -16,12 +16,13 @@
     "A133632"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

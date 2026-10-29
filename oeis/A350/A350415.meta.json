@@ -2,14 +2,18 @@
   "description": "Number of acyclic digraphs on n unlabeled nodes with a global source (or sink).",
   "id": "A350415",
   "mentions": [
+    "A003024",
     "A003025",
     "A003087",
+    "A026586",
     "A122078",
+    "A245654",
     "A345258",
     "A350360",
     "A350488"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

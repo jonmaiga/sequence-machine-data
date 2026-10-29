@@ -1,0 +1,26 @@
+{
+  "description": "Nonsquarefree numbers k that divide A400873(k).",
+  "id": "A401189",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A051377",
+    "A054862",
+    "A054979",
+    "A068978",
+    "A081770",
+    "A364999",
+    "A400873",
+    "A401188",
+    "A401190"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

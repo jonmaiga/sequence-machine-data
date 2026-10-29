@@ -1,8 +1,10 @@
 {
-  "description": "'3x+1' record-setters (blowup factor).",
+  "description": "'3x+1' record indices for the blowup factor A056959(k)/k, where A056959(k) is the maximum of the orbit of k under iterations of the Collatz map A006370.",
   "id": "A025587",
   "mentions": [
+    "A006370",
     "A006884",
+    "A056959",
     "A061523",
     "A070165",
     "A295163"
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Positions of primorials in A400792.",
+  "id": "A400794",
+  "mentions": [
+    "A400792",
+    "A400793"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

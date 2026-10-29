@@ -2,6 +2,7 @@
   "description": "Central column of triangle A065941.",
   "id": "A065942",
   "mentions": [
+    "A001850",
     "A005809",
     "A011973",
     "A045721",

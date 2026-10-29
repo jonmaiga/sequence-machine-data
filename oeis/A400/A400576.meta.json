@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/n) * Sum_{k=0..n-1} binomial(n+k-1,k) * binomial(n^2,n-k-1).",
+  "id": "A400576",
+  "mentions": [
+    "A006318",
+    "A007297",
+    "A064062",
+    "A107111",
+    "A366012"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

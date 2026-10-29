@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there are at least two Fermat primes F_i <= 65537 such that p*(F_i - 1) + 1 is prime.",
+  "id": "A398299",
+  "mentions": [
+    "A019434",
+    "A398282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

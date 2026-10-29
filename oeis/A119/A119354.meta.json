@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number which does not use digit n-1 written in base n, but does use digit b-1 written in base b for any 1",
+  "description": "Smallest number which does not use digit n-1 written in base n, but does use digit b-1 written in base b for any 1<b<n.",
   "id": "A119354",
   "mentions": [
     "A106372",

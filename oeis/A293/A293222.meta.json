@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{d|n, d",
+  "description": "a(n) = Product_{d|n, d<n} A019565(A289814(d)); a product obtained from the 2-digits present in ternary expansions of proper divisors of n.",
   "id": "A293222",
   "mentions": [
     "A019565",

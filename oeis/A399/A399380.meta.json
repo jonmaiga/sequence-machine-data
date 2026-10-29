@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that all radix primes corresponding to the nonzero digits in the primorial base expansion of k are also prime factors of the arithmetic derivative of k.",
+  "id": "A399380",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A049345",
+    "A328571",
+    "A369970",
+    "A369973",
+    "A380527",
+    "A399379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

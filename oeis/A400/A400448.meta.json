@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (5/2)*(5/3)^(1/5)*(2000/161967)^(3/5).",
+  "id": "A400448",
+  "mentions": [
+    "A020793"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

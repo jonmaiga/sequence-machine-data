@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (0",
+  "description": "Number of ways to write n=x+y (0<x<=y) with n^2-xy and n^2+xy both prime.",
   "id": "A219782",
   "mentions": [
     "A091182",

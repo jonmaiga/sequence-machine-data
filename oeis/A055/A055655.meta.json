@@ -1,5 +1,5 @@
 {
-  "description": "Efficient representation of n in \"square base\" where xyz means 9x+4y+z and z",
+  "description": "Efficient representation of n in \"square base\" where xyz means 9x+4y+z and z<4, y<9 and x<16 etc.",
   "id": "A055655",
   "mentions": [
     "A007961"
