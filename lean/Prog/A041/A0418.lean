@@ -5,22 +5,22 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
-import Seq.B000.C021
+import Seq.B000.C011
+import Seq.B000.C022
 import Seq.B000.C031
-import Seq.B000.C036
-import Seq.B000.C043
+import Seq.B000.C037
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -37,6 +37,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C020
+import Seq.Opaque.C022
 
 /-!
 # A041803: Denominators of continued fraction convergents to sqrt(422).
@@ -354,20 +355,20 @@ end
 
 end A041819.P16413638318544749502
 
-/-! ## A041819.P6555148042550195711
+/-! ## A041819.P3209650779157352820
 
-`A000010(A087312(n+1))-A299090(n+1)`
+`A333764(A354783(n+1)+A006882(n))`
 -/
 
-namespace A041819.P6555148042550195711
+namespace A041819.P3209650779157352820
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A087312 (n + 1)).toNat - A299090 (n + 1)
+  A333764 (A354783 (n + 1) + A006882 n).toNat
 
 end
 
-end A041819.P6555148042550195711
+end A041819.P3209650779157352820
 
 /-!
 # A041825: Denominators of continued fraction convergents to sqrt(433).

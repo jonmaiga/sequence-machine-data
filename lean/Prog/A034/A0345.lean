@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -17,46 +16,46 @@ import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C047
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1705,20 +1704,20 @@ end
 
 end A034515.P4960881582666239325
 
-/-! ## A034515.P4913735680153003935
+/-! ## A034515.P897683867374293238
 
-`A049581(A185255(n))`
+`and(12, -A185255(n))`
 -/
 
-namespace A034515.P4913735680153003935
+namespace A034515.P897683867374293238
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049581 (A185255 n).toNat
+  Int.land 12 (-A185255 n)
 
 end
 
-end A034515.P4913735680153003935
+end A034515.P897683867374293238
 
 /-!
 # A034516: Multiplicity of highest weight (or singular) vectors associated with character chi_128 of Monster module.
@@ -1857,6 +1856,29 @@ def P4555784559519111850.Spec : Prop :=
 
 end A034517
 
+/-! ## A034517.P5482813885258262041
+
+`(5^n+1)*A000051(n)`
+-/
+
+namespace A034517.P5482813885258262041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (5 ^ n + 1 : ℤ) * A000051 n
+
+end
+
+end A034517.P5482813885258262041
+
+namespace A034517
+
+/-- `(5^n+1)*A000051(n)` -/
+def P5482813885258262041.Spec : Prop :=
+  ∀ n, P5482813885258262041.a n = A034517 n
+
+end A034517
+
 /-! ## A034517.P14072516290886521552
 
 `A000051(n)*A034474(n)`
@@ -1877,6 +1899,29 @@ namespace A034517
 /-- `A000051(n)*A034474(n)` -/
 def P14072516290886521552.Spec : Prop :=
   ∀ n, P14072516290886521552.a n = A034517 n
+
+end A034517
+
+/-! ## A034517.P5365475066613479286
+
+`(A000079(n)+1)*A034474(n)`
+-/
+
+namespace A034517.P5365475066613479286
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A000079 n + 1) * A034474 n
+
+end
+
+end A034517.P5365475066613479286
+
+namespace A034517
+
+/-- `(A000079(n)+1)*A034474(n)` -/
+def P5365475066613479286.Spec : Prop :=
+  ∀ n, P5365475066613479286.a n = A034517 n
 
 end A034517
 
@@ -2686,6 +2731,21 @@ end A034527.P9137471836727899204
 The programs for A034528, there is no canonical definition to state claims against.
 -/
 
+/-! ## A034528.P3992831273705743015
+
+`A014586(A199840(n+1))*A111660(A034522(n+1))`
+-/
+
+namespace A034528.P3992831273705743015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014586 (A199840 (n + 1)).toNat * A111660 (A034522 (n + 1)).toNat
+
+end
+
+end A034528.P3992831273705743015
+
 /-! ## A034528.P13535531690125763799
 
 `A220527(A034521(n+1))`
@@ -2745,21 +2805,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034528.P4218153389049832607
-
-/-! ## A034528.P1044266101942568313
-
-`floor(A358373(2*n+1)/A235394(3*n+2))`
--/
-
-namespace A034528.P1044266101942568313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A358373 (2 * n + 1) : ℚ) / (A235394 (3 * n + 2) : ℚ)⌋
-
-end
-
-end A034528.P1044266101942568313
 
 /-!
 # A034529: Multiplicity of highest weight (or singular) vectors associated with character chi_141 of Monster module.
@@ -3423,6 +3468,21 @@ end
 
 end A034536.P3485008248173443591
 
+/-! ## A034536.P17103620257576411882
+
+`A167161(floor(A245092(n)/A161409(n+1)))`
+-/
+
+namespace A034536.P17103620257576411882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167161 ⌊(A245092 n : ℚ) / (A161409 (n + 1) : ℚ)⌋.toNat
+
+end
+
+end A034536.P17103620257576411882
+
 /-!
 # A034537: Multiplicity of highest weight (or singular) vectors associated with character chi_149 of Monster module.
 
@@ -3459,6 +3519,24 @@ end
 
 end A034537.P17586831973937657699
 
+/-! ## A034537.P6910790217706148044
+
+`floor((∑{d}[n+1, #]-(1+n))/A161409(n+4))`
+-/
+
+namespace A034537.P6910790217706148044
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(((∑ d ∈ Nat.divisors (f1 n), d : ℕ) : ℤ) - (1 + n : ℤ) : ℚ) / (A161409 (n + 4) : ℚ)⌋
+
+end
+
+end A034537.P6910790217706148044
+
 /-! ## A034537.P4224705546125258382
 
 `A334291(A034539(n+1))`
@@ -3488,21 +3566,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034537.P8355846370319975848
-
-/-! ## A034537.P9881553628810159156
-
-`A072088(A034548(n+2))`
--/
-
-namespace A034537.P9881553628810159156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072088 (A034548 (n + 2)).toNat
-
-end
-
-end A034537.P9881553628810159156
 
 /-!
 # A034538: Multiplicity of highest weight (or singular) vectors associated with character chi_150 of Monster module.
@@ -4238,20 +4301,20 @@ end
 
 end A034546.P17649067164936763405
 
-/-! ## A034546.P8223429645808814288
+/-! ## A034546.P6293253247652577359
 
-`A094382(A176388(n))`
+`A020665(n+2)%A175559(A185238(n+3))`
 -/
 
-namespace A034546.P8223429645808814288
+namespace A034546.P6293253247652577359
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094382 (A176388 n).toNat
+  Int.tmod (A020665 (n + 2)) (A175559 (A185238 (n + 3)).toNat)
 
 end
 
-end A034546.P8223429645808814288
+end A034546.P6293253247652577359
 
 /-!
 # A034547: Multiplicity of highest weight (or singular) vectors associated with character chi_159 of Monster module.
@@ -4571,23 +4634,20 @@ end
 
 end A034550.P4569360491086940757
 
-/-! ## A034550.P17500804006122129941
+/-! ## A034550.P10204318666744273159
 
-`3*∑[A185246(2*n+3)%3]`
+`9%A185238(n+4)!`
 -/
 
-namespace A034550.P17500804006122129941
+namespace A034550.P10204318666744273159
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A185246 (2 * n + 3)) 3
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * (∑ j ∈ Finset.range (n + 1), f1 j)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  9 % Nat.factorial (A185238 (n + 4)).toNat
 
 end
 
-end A034550.P17500804006122129941
+end A034550.P10204318666744273159
 
 /-!
 # A034551: Multiplicity of highest weight (or singular) vectors associated with character chi_163 of Monster module.
@@ -5237,6 +5297,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034558.P9531231693623385020
+
+/-! ## A034558.P14234854652544803793
+
+`A282629(n+4)%A365543(A034574(n+1))`
+-/
+
+namespace A034558.P14234854652544803793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A282629 (n + 4)) (A365543 (A034574 (n + 1)).toNat)
+
+end
+
+end A034558.P14234854652544803793
 
 /-!
 # A034559: Multiplicity of highest weight (or singular) vectors associated with character chi_171 of Monster module.

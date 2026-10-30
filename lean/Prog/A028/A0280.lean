@@ -7,6 +7,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C036
@@ -10223,6 +10224,21 @@ end A028071.P3829998327940648
 The programs for A028072, there is no canonical definition to state claims against.
 -/
 
+/-! ## A028072.P14101132989154281377
+
+`A020568(n)+3*a(n-1)` with `a(0)=1`
+-/
+
+namespace A028072.P14101132989154281377
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A020568 n + 3 * a (n - 1)
+
+end
+
+end A028072.P14101132989154281377
+
 /-! ## A028072.P8552992347455168051
 
 `2*A028067(n)-A028065(n)`
@@ -11668,20 +11684,20 @@ end A028081
 The programs for A028082, there is no canonical definition to state claims against.
 -/
 
-/-! ## A028082.P4856465034793219746
+/-! ## A028082.P8604377668331399685
 
-`a(n-1)+A020594(n)+2*a(n-1)` with `a(0)=1`
+`A020594(n)+3*a(n-1)` with `a(0)=1`
 -/
 
-namespace A028082.P4856465034793219746
+namespace A028082.P8604377668331399685
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (A020594 n + 2 * a (n - 1))
+  A020594 n + 3 * a (n - 1)
 
 end
 
-end A028082.P4856465034793219746
+end A028082.P8604377668331399685
 
 /-! ## A028082.P16451370284708525750
 
@@ -13651,6 +13667,29 @@ namespace A028096
 /-- `(21*11^(n+3)-32*10^(n+3)+2*7^(n+4)-3^(n+4))/672` -/
 def P11721842921896235933.Spec : Prop :=
   ∀ n, P11721842921896235933.a n = (A028096 n : ℚ)
+
+end A028096
+
+/-! ## A028096.P1058404533869296328
+
+`A018206(n)+7*a(n-1)` with `a(0)=1`
+-/
+
+namespace A028096.P1058404533869296328
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A018206 n + 7 * a (n - 1)
+
+end
+
+end A028096.P1058404533869296328
+
+namespace A028096
+
+/-- `A018206(n)+7*a(n-1)` -/
+def P1058404533869296328.Spec : Prop :=
+  ∀ n, P1058404533869296328.a n = A028096 n
 
 end A028096
 

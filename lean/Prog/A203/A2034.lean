@@ -13,35 +13,34 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,17 +48,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1244,7 +1243,7 @@ end A203410
 /-!
 # A203411: Discriminant of the cyclotomic binomial period polynomial for an odd prime.
 
-The programs for A203411, the canonical program `A203411.P13415533625920639516` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203411 has offset 2).
+The programs for A203411, the canonical program `A203411.P13415533625920639516` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203411 has offset 2).
 
 The definition of A203411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1253,7 +1252,7 @@ The definition of A203411 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+2)^((A000040(n+2)-3)/2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A203411
@@ -1351,29 +1350,32 @@ def P4757930969367105142.Spec : Prop :=
 
 end A203411
 
-/-! ## A203411.P8482329037403176900
+/-! ## A203411.P5083948018458436939
 
-`A193681(p?[2*n+1])`
+`record[∏{p}[2*n+3, C(#, #%(n+1))]^n]`
 -/
 
-namespace A203411.P8482329037403176900
+namespace A203411.P5083948018458436939
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 3
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193681 (f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n))
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (∏ p ∈ Nat.primeFactors (f2 n), Nat.choose p (p % (n + 1))) ^ n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A203411.P8482329037403176900
+end A203411.P5083948018458436939
 
 namespace A203411
 
-/-- `A193681(p?[2*n+1])` -/
-def P8482329037403176900.Spec : Prop :=
-  ∀ n, P8482329037403176900.a n = A203411 (n + 2)
+/-- `record[∏{p}[2*n+3, C(#, #%(n+1))]^n]` -/
+def P5083948018458436939.Spec : Prop :=
+  ∀ n, (P5083948018458436939.a n : ℤ) = A203411 (n + 2)
 
 end A203411
 
@@ -1464,7 +1466,7 @@ end A203413.P8544135961699645639
 /-!
 # A203414: a(n) = n*Pell(n) * Sum_{d|n} 1/(d*Pell(d)) where Pell(n) = A000129(n).
 
-The programs for A203414, the canonical program `A203414.P1649764585552215607` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203414 has offset 1).
+The programs for A203414, the canonical program `A203414.P1649764585552215607` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203414 has offset 1).
 
 The definition of A203414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1473,7 +1475,7 @@ The definition of A203414 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A000129(n+1)*∑{d}[n+1, 1/(#*A000129(#))]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A203414
@@ -1489,6 +1491,21 @@ end A203414
 
 The programs for A203415, there is no canonical definition to state claims against.
 -/
+
+/-! ## A203415.P814311102459731853
+
+`A203416(n)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A203415.P814311102459731853
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A203416 n * a (n - 1)
+
+end
+
+end A203415.P814311102459731853
 
 /-! ## A203415.P644224626038164081
 
@@ -1558,24 +1575,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203415.P6493883918750974590
-
-/-! ## A203415.P5700967361447643497
-
-`∏[A203416(n+1)]/A203416(n+1)`
--/
-
-namespace A203415.P5700967361447643497
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A203416 (n + 1)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((∏ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / (A203416 (n + 1) : ℚ)
-
-end
-
-end A203415.P5700967361447643497
 
 /-!
 # A203416: a(n) = A203415(n+1)/A203415(n).
@@ -1773,23 +1772,23 @@ end A203417.P12126184501546911292
 The programs for A203418, there is no canonical definition to state claims against.
 -/
 
-/-! ## A203418.P12467376838389871087
+/-! ## A203418.P11988665627225676194
 
-`∏[n*a(n-1)]*A203420(n+1)` with `a(0)=1`
+`∏[n!]*A203420(n+1)`
 -/
 
-namespace A203418.P12467376838389871087
+namespace A203418.P11988665627225676194
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f1 =>
-  n * f1 (n - 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A203420 (n + 1)
 
 end
 
-end A203418.P12467376838389871087
+end A203418.P11988665627225676194
 
 /-! ## A203418.P13438220437848864193
 
@@ -2053,7 +2052,7 @@ end A203420.P5499124387206119306
 /-!
 # A203421: Reciprocal of Vandermonde determinant of (1,1/2,...,1/n).
 
-The programs for A203421, the canonical program `A203421.P5234769032617968539` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203421 has offset 0).
+The programs for A203421, the canonical program `A203421.P5234769032617968539` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203421 has offset 0).
 
 The definition of A203421 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2062,7 +2061,7 @@ The definition of A203421 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A057077(n)*A002109(n)/n!`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A203421
@@ -2423,6 +2422,21 @@ end
 
 end A203425.P4651464947784864007
 
+/-! ## A203425.P13786118398572689146
+
+`(-A317108(n+2))^(n+1)/4`
+-/
+
+namespace A203425.P13786118398572689146
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-A317108 (n + 2)) ^ (n + 1) : ℚ) / 4
+
+end
+
+end A203425.P13786118398572689146
+
 /-! ## A203425.P6346348605647536738
 
 `(2*(n+2)/A008683(A151800(n)))^(n+1)/4`
@@ -2642,6 +2656,21 @@ end
 
 end A203429.P413108243551394082
 
+/-! ## A203429.P6243432435377960686
+
+`A000244(n)*(-(n+2))^(n+1)`
+-/
+
+namespace A203429.P6243432435377960686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000244 n * (-(n + 2 : ℤ)) ^ (n + 1)
+
+end
+
+end A203429.P6243432435377960686
+
 /-! ## A203429.P1113010623022163041
 
 `A001489(n+2)^(n+1)*3^n`
@@ -2671,21 +2700,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203429.P8011947853639143266
-
-/-! ## A203429.P16706739612609450193
-
-`A130472(2*n+3)^n*3^n*A130472(2*n+3)`
--/
-
-namespace A203429.P16706739612609450193
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130472 (2 * n + 3) ^ n * (3 ^ n : ℤ) * A130472 (2 * n + 3)
-
-end
-
-end A203429.P16706739612609450193
 
 /-!
 # A203430: Vandermonde determinant of the first n numbers (1,3,4,6,7,9,10,...) = (j+floor(j/2)).
@@ -6105,6 +6119,24 @@ end A203465.P14810765190677719510
 The programs for A203466, there is no canonical definition to state claims against.
 -/
 
+/-! ## A203466.P1657906324136100611
+
+`∏[A203308(n)]/A000178(n)`
+-/
+
+namespace A203466.P1657906324136100611
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A203308 n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((∏ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / (A000178 n : ℚ)
+
+end
+
+end A203466.P1657906324136100611
+
 /-! ## A203466.P635779397468740884
 
 `A203306(n+1)/A000178(n)`
@@ -6422,6 +6454,27 @@ end
 
 end A203469.P2347829395980487140
 
+/-! ## A203469.P3868075540094017328
+
+`∏[∑{#}[n, C(n+#, #)]]`
+-/
+
+namespace A203469.P3868075540094017328
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f2 n + 1), Nat.choose (n + k) k
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A203469.P3868075540094017328
+
 /-! ## A203469.P14150910487100410421
 
 `abs(∏[-C(2*n+1, n)])`
@@ -6478,24 +6531,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203469.P16006802563758873094
-
-/-! ## A203469.P10793121888773729748
-
-`C(Δ[n²], n)*a(n-1)` with `a(0)=1`
--/
-
-namespace A203469.P10793121888773729748
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  Nat.choose ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat n * a (n - 1)
-
-end
-
-end A203469.P10793121888773729748
 
 /-!
 # A203470: a(n) = Product_{2 <= i < j <= n+1} (i + j).
@@ -6689,6 +6724,21 @@ end A203471.P8609909638953022792
 The programs for A203472, there is no canonical definition to state claims against.
 -/
 
+/-! ## A203472.P13543793709804080340
+
+`A203473(n)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A203472.P13543793709804080340
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A203473 n * a (n - 1)
+
+end
+
+end A203472.P13543793709804080340
+
 /-! ## A203472.P13819259197612424629
 
 `∏[n!]*A203474(n+1)`
@@ -6754,24 +6804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203472.P15393632610730271257
-
-/-! ## A203472.P950361156391425691
-
-`∏{d}[2^n, A001222(#)!]*A203474(n+1)`
--/
-
-namespace A203472.P950361156391425691
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ d ∈ Nat.divisors (f1 n), Nat.factorial (A001222 d).toNat : ℕ) : ℤ) * A203474 (n + 1)
-
-end
-
-end A203472.P950361156391425691
 
 /-!
 # A203473: a(n) = v(n+1)/v(n), where v=A203472.
@@ -7929,7 +7961,7 @@ end
 end A203496.P7880412665902627878
 
 /-!
-# A203499: 
+# A203499: Number of n X n 0..6 arrays with every nonzero element less than or equal to some NW, E or S neighbor.
 
 The programs for A203499, there is no canonical definition to state claims against.
 -/

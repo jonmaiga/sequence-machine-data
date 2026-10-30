@@ -13,10 +13,11 @@ import Seq.B000.C028
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C006
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -34,7 +35,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A042805: Denominators of continued fraction convergents to sqrt(933).
@@ -233,6 +233,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042825.P542040091066050901
+
+/-!
+# A042826: Numerators of continued fraction convergents to sqrt(944).
+
+The programs for A042826, there is no canonical definition to state claims against.
+-/
+
+/-! ## A042826.P14666680120985230156
+
+`A248233(A041900(n))`
+-/
+
+namespace A042826.P14666680120985230156
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A248233 (A041900 n).toNat
+
+end
+
+end A042826.P14666680120985230156
 
 /-!
 # A042829: Denominators of continued fraction convergents to sqrt(945).

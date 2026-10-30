@@ -7,10 +7,10 @@ import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -18,32 +18,30 @@ import Seq.B000.C021
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
-import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C003
-import Seq.B011.C000
+import Seq.Opaque.C001
+import Seq.Opaque.C007
 import Seq.Opaque.C015
 import Seq.Opaque.C017
+import Seq.Opaque.C019
 
 /-!
 # A037700: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037700, the canonical program `A037700.P1811428850090887618` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037700 has offset 1).
+The programs for A037700, the canonical program `A037700.P1811428850090887618` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037700 has offset 1).
 
 The definition of A037700 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037700.anchor (n : ℕ) (hn : 1 ≤ n) : A037700 n = ((Nat.ofDigits 9 ((List.range n).reverse.map fun i => [1, 2, 3, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037700`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -75,7 +73,7 @@ end A037700
 
 `(n+1)%4+9*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037700
@@ -243,7 +241,7 @@ end A037700
 /-!
 # A037701: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037701, the canonical program `A037701.P2441783294571112015` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037701 has offset 1).
+The programs for A037701, the canonical program `A037701.P2441783294571112015` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037701 has offset 1).
 
 The definition of A037701 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -275,7 +273,7 @@ end A037701
 
 `10*a(n-1)+(n+1)%4` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037701
@@ -362,7 +360,7 @@ end A037701
 /-!
 # A037702: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037702, the canonical program `A037702.P10223338190471158410` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037702 has offset 1).
+The programs for A037702, the canonical program `A037702.P10223338190471158410` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037702 has offset 1).
 
 The definition of A037702 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -371,7 +369,7 @@ The definition of A037702 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-4x-x^4+4x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037702
@@ -550,7 +548,7 @@ end A037702
 /-!
 # A037703: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037703, the canonical program `A037703.P7726511576787246143` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037703 has offset 1).
+The programs for A037703, the canonical program `A037703.P7726511576787246143` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037703 has offset 1).
 
 The definition of A037703 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -559,7 +557,7 @@ The definition of A037703 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-5x-x^4+5x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037703
@@ -701,7 +699,7 @@ end A037703
 /-!
 # A037704: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037704, the canonical program `A037704.P7979360268403445826` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037704 has offset 1).
+The programs for A037704, the canonical program `A037704.P7979360268403445826` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037704 has offset 1).
 
 The definition of A037704 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -710,7 +708,7 @@ The definition of A037704 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-6x-x^4+6x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037704
@@ -849,7 +847,7 @@ end A037704
 /-!
 # A037705: Base-7 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037705, the canonical program `A037705.P13809088501581622702` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037705 has offset 1).
+The programs for A037705, the canonical program `A037705.P13809088501581622702` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037705 has offset 1).
 
 The definition of A037705 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -858,7 +856,7 @@ The definition of A037705 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-7x-x^4+7x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037705
@@ -1014,7 +1012,7 @@ end A037705
 /-!
 # A037706: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037706, the canonical program `A037706.P16437731658859273260` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037706 has offset 1).
+The programs for A037706, the canonical program `A037706.P16437731658859273260` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037706 has offset 1).
 
 The definition of A037706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1023,7 +1021,7 @@ The definition of A037706 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-8x-x^4+8x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037706
@@ -1231,7 +1229,7 @@ end A037706
 /-!
 # A037707: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037707, the canonical program `A037707.P1647831384274789895` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037707 has offset 1).
+The programs for A037707, the canonical program `A037707.P1647831384274789895` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037707 has offset 1).
 
 The definition of A037707 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1240,7 +1238,7 @@ The definition of A037707 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-9x-x^4+9x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037707
@@ -1396,7 +1394,7 @@ end A037707
 /-!
 # A037708: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,3,0,2.
 
-The programs for A037708, the canonical program `A037708.P17536968250922936537` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037708 has offset 1).
+The programs for A037708, the canonical program `A037708.P17536968250922936537` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037708 has offset 1).
 
 The definition of A037708 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1405,7 +1403,7 @@ The definition of A037708 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+2x^3)/(1-10x-x^4+10x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037708
@@ -1446,7 +1444,7 @@ end A037708
 /-!
 # A037709: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037709, the canonical program `A037709.P11302940829702997023` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037709 has offset 1).
+The programs for A037709, the canonical program `A037709.P11302940829702997023` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037709 has offset 1).
 
 The definition of A037709 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1455,7 +1453,7 @@ The definition of A037709 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x)/(1-5x+5x^2-5x^3+4x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037709
@@ -1905,10 +1903,33 @@ def P258162529352886876.Spec : Prop :=
 
 end A037709
 
+/-! ## A037709.P6473691113255502840
+
+`A224520(A247328(n+1))%A125945(n+1)`
+-/
+
+namespace A037709.P6473691113255502840
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A224520 (A247328 (n + 1)).toNat) (A125945 (n + 1))
+
+end
+
+end A037709.P6473691113255502840
+
+namespace A037709
+
+/-- `A224520(A247328(n+1))%A125945(n+1)` -/
+def P6473691113255502840.Spec : Prop :=
+  ∀ n, P6473691113255502840.a n = A037709 (n + 1)
+
+end A037709
+
 /-!
 # A037710: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037710, the canonical program `A037710.P6721493881183264277` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037710 has offset 1).
+The programs for A037710, the canonical program `A037710.P6721493881183264277` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037710 has offset 1).
 
 The definition of A037710 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037710.anchor (n : ℕ) (hn : 1 ≤ n) : A037710 n = ((Nat.ofDigits 5 ((List.range n).reverse.map fun i => [1, 3, 2, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037710`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1940,7 +1961,7 @@ end A037710
 
 `6*a(n-1)-6*a(n-2)+6*a(n-3)-5*a(n-4)` with `a(0)=1, a(1)=8, a(2)=42, a(3)=210`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037710
@@ -2131,7 +2152,7 @@ end A037710
 /-!
 # A037711: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037711, the canonical program `A037711.P18031921424756752135` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037711 has offset 1).
+The programs for A037711, the canonical program `A037711.P18031921424756752135` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037711 has offset 1).
 
 The definition of A037711 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2140,7 +2161,7 @@ The definition of A037711 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x)/(1-7x+7x^2-7x^3+6x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037711
@@ -2305,7 +2326,7 @@ end A037711
 /-!
 # A037712: Base-7 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037712, the canonical program `A037712.P2492734325855298356` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037712 has offset 1).
+The programs for A037712, the canonical program `A037712.P2492734325855298356` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037712 has offset 1).
 
 The definition of A037712 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037712.anchor (n : ℕ) (hn : 1 ≤ n) : A037712 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [1, 3, 2, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037712`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2337,7 +2358,7 @@ end A037712
 
 `8*a(n-1)-8*a(n-2)+8*a(n-3)-7*a(n-4)` with `a(0)=1, a(1)=10, a(2)=72, a(3)=504`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037712
@@ -2519,7 +2540,7 @@ end A037712
 /-!
 # A037713: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037713, the canonical program `A037713.P18308642478668122745` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037713 has offset 1).
+The programs for A037713, the canonical program `A037713.P18308642478668122745` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037713 has offset 1).
 
 The definition of A037713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2528,7 +2549,7 @@ The definition of A037713 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x)/(1-9x+9x^2-9x^3+8x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037713
@@ -2713,7 +2734,7 @@ end A037713
 /-!
 # A037714: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037714, the canonical program `A037714.P2051866495972747522` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037714 has offset 1).
+The programs for A037714, the canonical program `A037714.P2051866495972747522` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037714 has offset 1).
 
 The definition of A037714 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037714.anchor (n : ℕ) (hn : 1 ≤ n) : A037714 n = ((Nat.ofDigits 9 ((List.range n).reverse.map fun i => [1, 3, 2, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037714`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2745,7 +2766,7 @@ end A037714
 
 `10*a(n-1)-10*a(n-2)+10*a(n-3)-9*a(n-4)` with `a(0)=1, a(1)=12, a(2)=110, a(3)=990`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037714
@@ -2913,7 +2934,7 @@ end A037714
 /-!
 # A037715: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,3,2,0.
 
-The programs for A037715, the canonical program `A037715.P14293389903229229243` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037715 has offset 1).
+The programs for A037715, the canonical program `A037715.P14293389903229229243` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037715 has offset 1).
 
 The definition of A037715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2922,7 +2943,7 @@ The definition of A037715 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x)/(1-11x+11x^2-11x^3+10x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037715
@@ -2986,7 +3007,7 @@ end A037715
 /-!
 # A037716: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037716, the canonical program `A037716.P610278092653186979` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037716 has offset 1).
+The programs for A037716, the canonical program `A037716.P610278092653186979` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037716 has offset 1).
 
 The definition of A037716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2995,7 +3016,7 @@ The definition of A037716 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-5x+5x^2-5x^3+4x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037716
@@ -3249,6 +3270,29 @@ def P1887034554614324516.Spec : Prop :=
 
 end A037716
 
+/-! ## A037716.P10866499136944627727
+
+`xor(A000975(A317107(n+1)), A037772(n+1))`
+-/
+
+namespace A037716.P10866499136944627727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000975 (A317107 (n + 1)).toNat) (A037772 (n + 1))
+
+end
+
+end A037716.P10866499136944627727
+
+namespace A037716
+
+/-- `xor(A000975(A317107(n+1)), A037772(n+1))` -/
+def P10866499136944627727.Spec : Prop :=
+  ∀ n, P10866499136944627727.a n = A037716 (n + 1)
+
+end A037716
+
 /-! ## A037716.P16633863878361985360
 
 `A037709(n+3)-A002042(n+1)`
@@ -3275,7 +3319,7 @@ end A037716
 /-!
 # A037717: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037717, the canonical program `A037717.P11281649287548323827` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037717 has offset 1).
+The programs for A037717, the canonical program `A037717.P11281649287548323827` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037717 has offset 1).
 
 The definition of A037717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3284,7 +3328,7 @@ The definition of A037717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-6x+6x^2-6x^3+5x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037717
@@ -3452,7 +3496,7 @@ end A037717
 /-!
 # A037718: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037718, the canonical program `A037718.P12538141193399144113` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037718 has offset 1).
+The programs for A037718, the canonical program `A037718.P12538141193399144113` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037718 has offset 1).
 
 The definition of A037718 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3461,7 +3505,7 @@ The definition of A037718 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-7x+7x^2-7x^3+6x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037718
@@ -3525,7 +3569,7 @@ end A037718
 /-!
 # A037719: Base-7 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037719, the canonical program `A037719.P11049252179318265615` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037719 has offset 1).
+The programs for A037719, the canonical program `A037719.P11049252179318265615` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037719 has offset 1).
 
 The definition of A037719 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037719.anchor (n : ℕ) (hn : 1 ≤ n) : A037719 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [2, 0, 1, 3].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037719`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3557,7 +3601,7 @@ end A037719
 
 `8*a(n-1)-8*a(n-2)+8*a(n-3)-7*a(n-4)` with `a(0)=2, a(1)=14, a(2)=99, a(3)=696`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037719
@@ -3736,7 +3780,7 @@ end A037719
 /-!
 # A037720: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037720, the canonical program `A037720.P7997034748280373567` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037720 has offset 1).
+The programs for A037720, the canonical program `A037720.P7997034748280373567` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037720 has offset 1).
 
 The definition of A037720 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3745,7 +3789,7 @@ The definition of A037720 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-9x+9x^2-9x^3+8x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037720
@@ -3904,7 +3948,7 @@ end A037720
 /-!
 # A037721: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037721, the canonical program `A037721.P11604563279665909533` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037721 has offset 1).
+The programs for A037721, the canonical program `A037721.P11604563279665909533` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037721 has offset 1).
 
 The definition of A037721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3913,7 +3957,7 @@ The definition of A037721 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-10x+10x^2-10x^3+9x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037721
@@ -4052,7 +4096,7 @@ end A037721
 /-!
 # A037722: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,0,1,3.
 
-The programs for A037722, the canonical program `A037722.P6940843920895236318` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037722 has offset 1).
+The programs for A037722, the canonical program `A037722.P6940843920895236318` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037722 has offset 1).
 
 The definition of A037722 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4061,7 +4105,7 @@ The definition of A037722 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x+3x^2)/(1-11x+11x^2-11x^3+10x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037722
@@ -4125,7 +4169,7 @@ end A037722
 /-!
 # A037723: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037723, the canonical program `A037723.P1626295653162453297` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037723 has offset 1).
+The programs for A037723, the canonical program `A037723.P1626295653162453297` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037723 has offset 1).
 
 The definition of A037723 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4134,7 +4178,7 @@ The definition of A037723 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-4x-x^4+4x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037723
@@ -4477,7 +4521,7 @@ end A037723
 /-!
 # A037724: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037724, the canonical program `A037724.P14201222315406522302` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037724 has offset 1).
+The programs for A037724, the canonical program `A037724.P14201222315406522302` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037724 has offset 1).
 
 The definition of A037724 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4486,7 +4530,7 @@ The definition of A037724 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-5x-x^4+5x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037724
@@ -4622,7 +4666,7 @@ end A037724
 /-!
 # A037725: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037725, the canonical program `A037725.P4987109929232695822` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037725 has offset 1).
+The programs for A037725, the canonical program `A037725.P4987109929232695822` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037725 has offset 1).
 
 The definition of A037725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4631,7 +4675,7 @@ The definition of A037725 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-6x-x^4+6x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037725
@@ -4767,7 +4811,7 @@ end A037725
 /-!
 # A037726: Base-7 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037726, the canonical program `A037726.P12893086487659285427` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037726 has offset 1).
+The programs for A037726, the canonical program `A037726.P12893086487659285427` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037726 has offset 1).
 
 The definition of A037726 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4776,7 +4820,7 @@ The definition of A037726 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-7x-x^4+7x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037726
@@ -4955,7 +4999,7 @@ end A037726
 /-!
 # A037727: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037727, the canonical program `A037727.P8687615578888284068` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037727 has offset 1).
+The programs for A037727, the canonical program `A037727.P8687615578888284068` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037727 has offset 1).
 
 The definition of A037727 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4964,7 +5008,7 @@ The definition of A037727 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-8x-x^4+8x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037727
@@ -5100,7 +5144,7 @@ end A037727
 /-!
 # A037728: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037728, the canonical program `A037728.P4256546584028012834` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037728 has offset 1).
+The programs for A037728, the canonical program `A037728.P4256546584028012834` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037728 has offset 1).
 
 The definition of A037728 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5109,7 +5153,7 @@ The definition of A037728 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-9x-x^4+9x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037728
@@ -5248,7 +5292,7 @@ end A037728
 /-!
 # A037729: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,0,3,1.
 
-The programs for A037729, the canonical program `A037729.P2050644528896107051` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037729 has offset 1).
+The programs for A037729, the canonical program `A037729.P2050644528896107051` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037729 has offset 1).
 
 The definition of A037729 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5257,7 +5301,7 @@ The definition of A037729 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x^2+x^3)/(1-10x-x^4+10x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037729
@@ -5321,7 +5365,7 @@ end A037729
 /-!
 # A037730: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037730, the canonical program `A037730.P11489072760437707571` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037730 has offset 1).
+The programs for A037730, the canonical program `A037730.P11489072760437707571` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037730 has offset 1).
 
 The definition of A037730 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5330,7 +5374,7 @@ The definition of A037730 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-4x-x^4+4x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037730
@@ -5601,7 +5645,7 @@ end A037730
 /-!
 # A037731: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037731, the canonical program `A037731.P2604304113002117157` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037731 has offset 1).
+The programs for A037731, the canonical program `A037731.P2604304113002117157` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037731 has offset 1).
 
 The definition of A037731 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5610,7 +5654,7 @@ The definition of A037731 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-5x-x^4+5x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037731
@@ -5798,7 +5842,7 @@ end A037731
 /-!
 # A037732: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037732, the canonical program `A037732.P17916187482622814218` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037732 has offset 1).
+The programs for A037732, the canonical program `A037732.P17916187482622814218` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037732 has offset 1).
 
 The definition of A037732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5807,7 +5851,7 @@ The definition of A037732 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-6x-x^4+6x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037732
@@ -5940,7 +5984,7 @@ end A037732
 /-!
 # A037733: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037733, the canonical program `A037733.P14087160724179350944` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037733 has offset 1).
+The programs for A037733, the canonical program `A037733.P14087160724179350944` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037733 has offset 1).
 
 The definition of A037733 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5949,7 +5993,7 @@ The definition of A037733 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-7x-x^4+7x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037733
@@ -6131,7 +6175,7 @@ end A037733
 /-!
 # A037734: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037734, the canonical program `A037734.P15978334808081123923` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037734 has offset 1).
+The programs for A037734, the canonical program `A037734.P15978334808081123923` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037734 has offset 1).
 
 The definition of A037734 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6140,7 +6184,7 @@ The definition of A037734 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-8x-x^4+8x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037734
@@ -6345,7 +6389,7 @@ end A037734
 /-!
 # A037735: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037735, the canonical program `A037735.P10629987505678781596` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037735 has offset 1).
+The programs for A037735, the canonical program `A037735.P10629987505678781596` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037735 has offset 1).
 
 The definition of A037735 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6354,7 +6398,7 @@ The definition of A037735 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-9x-x^4+9x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037735
@@ -6536,7 +6580,7 @@ end A037735
 /-!
 # A037736: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,1,0,3.
 
-The programs for A037736, the canonical program `A037736.P7650104190066051481` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037736 has offset 1).
+The programs for A037736, the canonical program `A037736.P7650104190066051481` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037736 has offset 1).
 
 The definition of A037736 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6545,7 +6589,7 @@ The definition of A037736 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^3)/(1-10x-x^4+10x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037736
@@ -6655,7 +6699,7 @@ end A037736
 /-!
 # A037737: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037737, the canonical program `A037737.P8859717325163940023` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037737 has offset 1).
+The programs for A037737, the canonical program `A037737.P8859717325163940023` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037737 has offset 1).
 
 The definition of A037737 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037737.anchor (n : ℕ) (hn : 1 ≤ n) : A037737 n = ((Nat.ofDigits 4 ((List.range n).reverse.map fun i => [2, 1, 3, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037737`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6687,7 +6731,7 @@ end A037737
 
 `4*a(n-1)+a(n-4)-4*a(n-5)` with `a(0)=2, a(1)=9, a(2)=39, a(3)=156, a(4)=626`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037737
@@ -6921,7 +6965,7 @@ end A037737
 /-!
 # A037738: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037738, the canonical program `A037738.P3446544067045135378` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037738 has offset 1).
+The programs for A037738, the canonical program `A037738.P3446544067045135378` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037738 has offset 1).
 
 The definition of A037738 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6930,7 +6974,7 @@ The definition of A037738 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-5x-x^4+5x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037738
@@ -7104,7 +7148,7 @@ end A037738
 /-!
 # A037739: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037739, the canonical program `A037739.P15085791511708146820` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037739 has offset 1).
+The programs for A037739, the canonical program `A037739.P15085791511708146820` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037739 has offset 1).
 
 The definition of A037739 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7113,7 +7157,7 @@ The definition of A037739 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-6x-x^4+6x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037739
@@ -7333,7 +7377,7 @@ end A037739
 /-!
 # A037740: Base-7 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037740, the canonical program `A037740.P3387521871134128629` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037740 has offset 1).
+The programs for A037740, the canonical program `A037740.P3387521871134128629` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037740 has offset 1).
 
 The definition of A037740 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7342,7 +7386,7 @@ The definition of A037740 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-7x-x^4+7x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037740
@@ -7354,6 +7398,29 @@ def P3387521871134128629.Spec : Prop :=
 theorem P3387521871134128629.correct : P3387521871134128629.Spec := by
   intro n
   simp only [A037740, Nat.add_sub_cancel]
+
+end A037740
+
+/-! ## A037740.P5711582380054617934
+
+`ceil(3*A037712(n+1)/2)`
+-/
+
+namespace A037740.P5711582380054617934
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(3 * A037712 (n + 1) : ℚ) / 2⌉
+
+end
+
+end A037740.P5711582380054617934
+
+namespace A037740
+
+/-- `ceil(3*A037712(n+1)/2)` -/
+def P5711582380054617934.Spec : Prop :=
+  ∀ n, P5711582380054617934.a n = A037740 (n + 1)
 
 end A037740
 
@@ -7579,7 +7646,7 @@ end A037740
 /-!
 # A037741: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037741, the canonical program `A037741.P9332864592853786475` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037741 has offset 1).
+The programs for A037741, the canonical program `A037741.P9332864592853786475` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037741 has offset 1).
 
 The definition of A037741 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7588,7 +7655,7 @@ The definition of A037741 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-8x-x^4+8x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037741
@@ -7828,7 +7895,7 @@ end A037741
 /-!
 # A037742: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037742, the canonical program `A037742.P10091823546908050938` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037742 has offset 1).
+The programs for A037742, the canonical program `A037742.P10091823546908050938` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037742 has offset 1).
 
 The definition of A037742 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7837,7 +7904,7 @@ The definition of A037742 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-9x-x^4+9x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037742
@@ -7985,7 +8052,7 @@ end A037742
 /-!
 # A037743: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,1,3,0.
 
-The programs for A037743, the canonical program `A037743.P3037273198076751831` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037743 has offset 1).
+The programs for A037743, the canonical program `A037743.P3037273198076751831` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037743 has offset 1).
 
 The definition of A037743 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7994,7 +8061,7 @@ The definition of A037743 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+3x^2)/(1-10x-x^4+10x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037743
@@ -8035,7 +8102,7 @@ end A037743
 /-!
 # A037744: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037744, the canonical program `A037744.P2303553604766487134` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037744 has offset 1).
+The programs for A037744, the canonical program `A037744.P2303553604766487134` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037744 has offset 1).
 
 The definition of A037744 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037744.anchor (n : ℕ) (hn : 1 ≤ n) : A037744 n = ((Nat.ofDigits 4 ((List.range n).reverse.map fun i => [2, 3, 0, 1].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037744`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8067,7 +8134,7 @@ end A037744
 
 `4*a(n-1)+a(n-4)-4*a(n-5)` with `a(0)=2, a(1)=11, a(2)=44, a(3)=177, a(4)=710`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037744
@@ -8315,7 +8382,7 @@ end A037744
 /-!
 # A037745: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037745, the canonical program `A037745.P16806909000048906870` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037745 has offset 1).
+The programs for A037745, the canonical program `A037745.P16806909000048906870` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037745 has offset 1).
 
 The definition of A037745 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037745.anchor (n : ℕ) (hn : 1 ≤ n) : A037745 n = ((Nat.ofDigits 5 ((List.range n).reverse.map fun i => [2, 3, 0, 1].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037745`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8347,7 +8414,7 @@ end A037745
 
 `(n+2)%4+5*a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037745
@@ -8385,6 +8452,32 @@ def P17019579694360792978.Spec : Prop :=
 
 end A037745
 
+/-! ## A037745.P12803910137051381553
+
+`∑[xor(5*a(n-1), A176040(n))]` with `a(0)=2`
+-/
+
+namespace A037745.P12803910137051381553
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [2] fun n f1 =>
+  Int.xor (5 * f1 (n - 1)) (A176040 n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037745.P12803910137051381553
+
+namespace A037745
+
+/-- `∑[xor(5*a(n-1), A176040(n))]` -/
+def P12803910137051381553.Spec : Prop :=
+  ∀ n, P12803910137051381553.a n = A037745 (n + 1)
+
+end A037745
+
 /-! ## A037745.P5563335658846038243
 
 `A000034(n)+xor(1, 5*a(n-1))` with `a(0)=2`
@@ -8405,6 +8498,32 @@ namespace A037745
 /-- `A000034(n)+xor(1, 5*a(n-1))` -/
 def P5563335658846038243.Spec : Prop :=
   ∀ n, P5563335658846038243.a n = A037745 (n + 1)
+
+end A037745
+
+/-! ## A037745.P4650769679608350296
+
+`∑[xor(5*a(n-1), A153284(n+1))]` with `a(0)=2, a(1)=11`
+-/
+
+namespace A037745.P4650769679608350296
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [2, 11] fun n f1 =>
+  Int.xor (5 * f1 (n - 1)) (A153284 (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037745.P4650769679608350296
+
+namespace A037745
+
+/-- `∑[xor(5*a(n-1), A153284(n+1))]` -/
+def P4650769679608350296.Spec : Prop :=
+  ∀ n, P4650769679608350296.a n = A037745 (n + 1)
 
 end A037745
 
@@ -8457,7 +8576,7 @@ end A037745
 /-!
 # A037746: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037746, the canonical program `A037746.P1636314081189769102` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037746 has offset 1).
+The programs for A037746, the canonical program `A037746.P1636314081189769102` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037746 has offset 1).
 
 The definition of A037746 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037746.anchor (n : ℕ) (hn : 1 ≤ n) : A037746 n = ((Nat.ofDigits 6 ((List.range n).reverse.map fun i => [2, 3, 0, 1].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037746`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8489,7 +8608,7 @@ end A037746
 
 `(n+2)%4+6*a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037746
@@ -8602,7 +8721,7 @@ end A037746
 /-!
 # A037747: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037747, the canonical program `A037747.P6387786444260834050` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037747 has offset 1).
+The programs for A037747, the canonical program `A037747.P6387786444260834050` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037747 has offset 1).
 
 The definition of A037747 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037747.anchor (n : ℕ) (hn : 1 ≤ n) : A037747 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [2, 3, 0, 1].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037747`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8634,7 +8753,7 @@ end A037747
 
 `(n+2)%4+7*a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037747
@@ -8767,7 +8886,7 @@ end A037747
 /-!
 # A037748: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037748, the canonical program `A037748.P4446944910382343900` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037748 has offset 1).
+The programs for A037748, the canonical program `A037748.P4446944910382343900` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037748 has offset 1).
 
 The definition of A037748 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8776,7 +8895,7 @@ The definition of A037748 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x+x^3)/(1-8x-x^4+8x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037748
@@ -8912,7 +9031,7 @@ end A037748
 /-!
 # A037749: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037749, the canonical program `A037749.P3605029893484168651` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037749 has offset 1).
+The programs for A037749, the canonical program `A037749.P3605029893484168651` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037749 has offset 1).
 
 The definition of A037749 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8921,7 +9040,7 @@ The definition of A037749 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x+x^3)/(1-9x-x^4+9x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037749
@@ -9054,7 +9173,7 @@ end A037749
 /-!
 # A037750: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,3,0,1.
 
-The programs for A037750, the canonical program `A037750.P9236514660663508893` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037750 has offset 1).
+The programs for A037750, the canonical program `A037750.P9236514660663508893` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037750 has offset 1).
 
 The definition of A037750 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9063,7 +9182,7 @@ The definition of A037750 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x+x^3)/(1-10x-x^4+10x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037750
@@ -9150,7 +9269,7 @@ end A037750
 /-!
 # A037751: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037751, the canonical program `A037751.P2153075342136443245` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037751 has offset 1).
+The programs for A037751, the canonical program `A037751.P2153075342136443245` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037751 has offset 1).
 
 The definition of A037751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9159,7 +9278,7 @@ The definition of A037751 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-5x+5x^2-5x^3+4x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037751
@@ -9413,7 +9532,7 @@ end A037751
 /-!
 # A037752: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037752, the canonical program `A037752.P9858429477289651252` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037752 has offset 1).
+The programs for A037752, the canonical program `A037752.P9858429477289651252` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037752 has offset 1).
 
 The definition of A037752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9422,7 +9541,7 @@ The definition of A037752 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-6x+6x^2-6x^3+5x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037752
@@ -9593,7 +9712,7 @@ end A037752
 /-!
 # A037753: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037753, the canonical program `A037753.P9579834792944151264` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037753 has offset 1).
+The programs for A037753, the canonical program `A037753.P9579834792944151264` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037753 has offset 1).
 
 The definition of A037753 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9602,7 +9721,7 @@ The definition of A037753 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-7x+7x^2-7x^3+6x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037753
@@ -9770,7 +9889,7 @@ end A037753
 /-!
 # A037754: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037754, the canonical program `A037754.P17162124263066232591` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037754 has offset 1).
+The programs for A037754, the canonical program `A037754.P17162124263066232591` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037754 has offset 1).
 
 The definition of A037754 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037754.anchor (n : ℕ) (hn : 1 ≤ n) : A037754 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [2, 3, 1, 0].getD (i % 4) 0) : ℕ) : ℤ)` in `Proof.A037.A037754`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9802,7 +9921,7 @@ end A037754
 
 `8*a(n-1)-8*a(n-2)+8*a(n-3)-7*a(n-4)` with `a(0)=2, a(1)=17, a(2)=120, a(3)=840`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037754
@@ -10039,7 +10158,7 @@ end A037754
 /-!
 # A037755: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037755, the canonical program `A037755.P5849466138170986149` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037755 has offset 1).
+The programs for A037755, the canonical program `A037755.P5849466138170986149` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037755 has offset 1).
 
 The definition of A037755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10048,7 +10167,7 @@ The definition of A037755 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-9x+9x^2-9x^3+8x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037755
@@ -10282,7 +10401,7 @@ end A037755
 /-!
 # A037756: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037756, the canonical program `A037756.P7293180882690310681` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037756 has offset 1).
+The programs for A037756, the canonical program `A037756.P7293180882690310681` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037756 has offset 1).
 
 The definition of A037756 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10291,7 +10410,7 @@ The definition of A037756 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-10x+10x^2-10x^3+9x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037756
@@ -10508,7 +10627,7 @@ end A037756
 /-!
 # A037757: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,3,1,0.
 
-The programs for A037757, the canonical program `A037757.P12845655470685584654` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037757 has offset 1).
+The programs for A037757, the canonical program `A037757.P12845655470685584654` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037757 has offset 1).
 
 The definition of A037757 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10517,7 +10636,7 @@ The definition of A037757 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-11x+11x^2-11x^3+10x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037757
@@ -10581,7 +10700,7 @@ end A037757
 /-!
 # A037758: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1,2.
 
-The programs for A037758, the canonical program `A037758.P9892373585418365492` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037758 has offset 1).
+The programs for A037758, the canonical program `A037758.P9892373585418365492` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037758 has offset 1).
 
 The definition of A037758 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10590,7 +10709,7 @@ The definition of A037758 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+x^2+2x^3)/(1-4x-x^4+4x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037758
@@ -10887,7 +11006,7 @@ end A037758
 /-!
 # A037759: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1,2.
 
-The programs for A037759, the canonical program `A037759.P6350040421042672599` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037759 has offset 1).
+The programs for A037759, the canonical program `A037759.P6350040421042672599` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037759 has offset 1).
 
 The definition of A037759 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10896,7 +11015,7 @@ The definition of A037759 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+x^2+2x^3)/(1-5x-x^4+5x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037759
@@ -11052,7 +11171,7 @@ end A037759
 /-!
 # A037760: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1,2.
 
-The programs for A037760, the canonical program `A037760.P9682154987842928618` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037760 has offset 1).
+The programs for A037760, the canonical program `A037760.P9682154987842928618` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037760 has offset 1).
 
 The definition of A037760 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11061,7 +11180,7 @@ The definition of A037760 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+x^2+2x^3)/(1-6x-x^4+6x^5))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037760

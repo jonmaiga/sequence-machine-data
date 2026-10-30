@@ -3,12 +3,12 @@ import Seq.B000.C000
 import Seq.B000.C008
 import Seq.B001.C003
 import Seq.B011.C000
-import Seq.Opaque.C002
+import Seq.Opaque.C001
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 
 /-!
-# A170444: 
+# A170444: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^45 = I.
 
 The programs for A170444, there is no canonical definition to state claims against.
 -/
@@ -89,7 +89,7 @@ end
 end A170444.P11335892787767437956
 
 /-!
-# A170492: 
+# A170492: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^46 = I.
 
 The programs for A170492, there is no canonical definition to state claims against.
 -/

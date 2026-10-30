@@ -163,6 +163,32 @@ def P31069263202991355.Spec : Prop :=
 
 end A011000
 
+/-! ## A011000.P925298692517982311
+
+`∑{#}[n, A010976(#)*A010976(n-#)]`
+-/
+
+namespace A011000.P925298692517982311
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A010976 (k + 23) * A010976 (n - k + 23)
+
+end
+
+end A011000.P925298692517982311
+
+namespace A011000
+
+/-- `∑{#}[n, A010976(#)*A010976(n-#)]` -/
+def P925298692517982311.Spec : Prop :=
+  ∀ n, P925298692517982311.a n = A011000 (n + 47)
+
+end A011000
+
 /-!
 # A011001: Binomial coefficient C(n,48).
 

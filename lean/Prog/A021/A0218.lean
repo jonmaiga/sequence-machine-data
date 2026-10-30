@@ -5,11 +5,11 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
@@ -1316,6 +1316,24 @@ end
 
 end A021844.P3537375552327979243
 
+/-! ## A021844.P7809604603352034340
+
+`∑[(2^n+3^(n+1)*(2^n-1))*A000079(n)]`
+-/
+
+namespace A021844.P7809604603352034340
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((2 ^ n : ℤ) + (3 ^ (n + 1) : ℤ) * ((2 ^ n : ℤ) - 1)) * A000079 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A021844.P7809604603352034340
+
 /-! ## A021844.P11271874284744070006
 
 `∑[lcm(A001240(n+1), A122803(n))]`
@@ -2029,6 +2047,29 @@ The programs for A021880, the canonical program `A021880.P10973159702413613238` 
 
 The definition of A021880 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021880.anchor (n : ℕ) : A021880 n = ((10 ^ (n + 1) / 876 % 10 : ℕ) : ℤ)` in `Proof.A021.A021880`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021880.P11084846180238826208
+
+`ogf((x^2+3x^4-3x^5+5x^6)/(1-x+x^4-x^5))`
+-/
+
+namespace A021880.P11084846180238826208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, 0, 3, -3, 5] [1, -1, 0, 0, 1, -1] n
+
+end
+
+end A021880.P11084846180238826208
+
+namespace A021880
+
+/-- `ogf((x^2+3x^4-3x^5+5x^6)/(1-x+x^4-x^5))` -/
+def P11084846180238826208.Spec : Prop :=
+  ∀ n, P11084846180238826208.a n = A021880 n
+
+end A021880
 
 /-! ## A021880.P10973159702413613238
 

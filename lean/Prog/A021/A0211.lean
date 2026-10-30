@@ -5,17 +5,22 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C028
 import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C001
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C009
+import Seq.Opaque.C008
+import Seq.Opaque.C013
+import Seq.Opaque.C014
+import Seq.Opaque.C016
 import Seq.Opaque.C022
 
 /-!
@@ -25,6 +30,29 @@ The programs for A021100, the canonical program `A021100.P15508648509027999851` 
 
 The definition of A021100 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021100.anchor (n : ℕ) : A021100 n = ((10 ^ (n + 1) / 96 % 10 : ℕ) : ℤ)` in `Proof.A021.A021100`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021100.P7455477980488141884
+
+`ogf((x-x^2+4x^3-3x^4+5x^5)/(1-x))`
+-/
+
+namespace A021100.P7455477980488141884
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -1, 4, -3, 5] [1, -1] n
+
+end
+
+end A021100.P7455477980488141884
+
+namespace A021100
+
+/-- `ogf((x-x^2+4x^3-3x^4+5x^5)/(1-x))` -/
+def P7455477980488141884.Spec : Prop :=
+  ∀ n, P7455477980488141884.a n = A021100 n
+
+end A021100
 
 /-! ## A021100.P15508648509027999851
 
@@ -50,6 +78,21 @@ end A021100
 
 The programs for A021103, there is no canonical definition to state claims against.
 -/
+
+/-! ## A021103.P7893276191923550803
+
+`A239143(A224747(n)+n)`
+-/
+
+namespace A021103.P7893276191923550803
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239143 (A224747 n + (n : ℤ)).toNat
+
+end
+
+end A021103.P7893276191923550803
 
 /-! ## A021103.P10822069013764759598
 
@@ -80,6 +123,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021103.P6171841069325995245
+
+/-! ## A021103.P4693417874875294424
+
+`A105517(A274012(n+1)+A061602(n))`
+-/
+
+namespace A021103.P4693417874875294424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105517 (A274012 (n + 1) + A061602 n).toNat
+
+end
+
+end A021103.P4693417874875294424
 
 /-!
 # A021104: Expansion of g.f. 1/((1 - x)*(1 - 2*x)*(1 - 4*x)*(1 - 12*x)).
@@ -177,7 +235,7 @@ end A021104.P2791470848428881497
 /-!
 # A021105: Decimal expansion of 1/101.
 
-The programs for A021105, the canonical program `A021105.P7927055981486351382` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021105 has offset 0).
+The programs for A021105, the canonical program `A021105.P7927055981486351382` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021105 has offset 0).
 
 The definition of A021105 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021105.anchor (n : ℕ) : A021105 n = ((10 ^ (n + 1) / 101 % 10 : ℕ) : ℤ)` in `Proof.A021.A021105`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -186,7 +244,7 @@ The definition of A021105 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-1)-a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=9`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021105
@@ -204,7 +262,7 @@ end A021105
 /-!
 # A021108: Decimal expansion of 1/104.
 
-The programs for A021108, the canonical program `A021108.P10794516118075837223` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021108 has offset 0).
+The programs for A021108, the canonical program `A021108.P10794516118075837223` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021108 has offset 0).
 
 The definition of A021108 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021108.anchor (n : ℕ) : A021108 n = ((10 ^ (n + 1) / 104 % 10 : ℕ) : ℤ)` in `Proof.A021.A021108`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -213,7 +271,7 @@ The definition of A021108 is `verified`: an anchor theorem with a hand-written p
 
 `9-a(n-3)` with `a(0)=0, a(1)=0, a(2)=9, a(3)=6, a(4)=1, a(5)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021108
@@ -252,7 +310,7 @@ end A021109.P8566444606040516121
 /-!
 # A021112: Decimal expansion of 1/108.
 
-The programs for A021112, the canonical program `A021112.P582862242207834524` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021112 has offset 0).
+The programs for A021112, the canonical program `A021112.P582862242207834524` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021112 has offset 0).
 
 The definition of A021112 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021112.anchor (n : ℕ) : A021112 n = ((10 ^ (n + 1) / 108 % 10 : ℕ) : ℤ)` in `Proof.A021.A021112`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -261,7 +319,7 @@ The definition of A021112 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-3)` with `a(0)=0, a(1)=0, a(2)=9, a(3)=2, a(4)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021112
@@ -279,7 +337,7 @@ end A021112
 /-!
 # A021114: Expansion of 1/((1-x)*(1-2x)*(1-5x)*(1-6x)).
 
-The programs for A021114, the canonical program `A021114.P5974715316266371263` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021114 has offset 0).
+The programs for A021114, the canonical program `A021114.P5974715316266371263` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021114 has offset 0).
 
 The definition of A021114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -288,7 +346,7 @@ The definition of A021114 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*6^(n+3)-5^(n+4)+5*2^(n+3)-3)/60`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021114
@@ -469,7 +527,7 @@ end A021114
 /-!
 # A021115: Decimal expansion of 1/111.
 
-The programs for A021115, the canonical program `A021115.P15263700971865995502` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
+The programs for A021115, the canonical program `A021115.P15263700971865995502` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
 
 The definition of A021115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -478,7 +536,7 @@ The definition of A021115 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(9x^2/(1-x^3))`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021115
@@ -496,7 +554,7 @@ end A021115
 /-!
 # A021116: Decimal expansion of 1/112.
 
-The programs for A021116, the canonical program `A021116.P13328393724985619072` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021116 has offset 0).
+The programs for A021116, the canonical program `A021116.P13328393724985619072` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021116 has offset 0).
 
 The definition of A021116 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021116.anchor (n : ℕ) : A021116 n = ((10 ^ (n + 1) / 112 % 10 : ℕ) : ℤ)` in `Proof.A021.A021116`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -505,7 +563,7 @@ The definition of A021116 is `verified`: an anchor theorem with a hand-written p
 
 `9-a(n-3)` with `a(0)=0, a(1)=0, a(2)=8, a(3)=9, a(4)=2, a(5)=8, a(6)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021116
@@ -544,7 +602,7 @@ end A021117.P5131799180181636537
 /-!
 # A021119: Decimal expansion of 1/115.
 
-The programs for A021119, the canonical program `A021119.P6737584527098804853` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021119 has offset 0).
+The programs for A021119, the canonical program `A021119.P6737584527098804853` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021119 has offset 0).
 
 The definition of A021119 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -553,7 +611,7 @@ The definition of A021119 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((8x^2-2x^3+3x^4-4x^5+x^6-x^7-3x^8-x^9+6x^10-4x^11+6x^12)/(1-x+x^11-x^12))`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021119
@@ -571,16 +629,39 @@ end A021119
 /-!
 # A021121: Decimal expansion of 1/117.
 
-The programs for A021121, the canonical program `A021121.P4719174221967181459` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021121 has offset 0).
+The programs for A021121, the canonical program `A021121.P4719174221967181459` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021121 has offset 0).
 
 The definition of A021121 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021121.anchor (n : ℕ) : A021121 n = ((10 ^ (n + 1) / 117 % 10 : ℕ) : ℤ)` in `Proof.A021.A021121`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021121.P9276438016200927185
+
+`ogf((8x^2-3x^3+7x^4)/(1-x+x^2-x^3+x^4-x^5))`
+-/
+
+namespace A021121.P9276438016200927185
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 8, -3, 7] [1, -1, 1, -1, 1, -1] n
+
+end
+
+end A021121.P9276438016200927185
+
+namespace A021121
+
+/-- `ogf((8x^2-3x^3+7x^4)/(1-x+x^2-x^3+x^4-x^5))` -/
+def P9276438016200927185.Spec : Prop :=
+  ∀ n, P9276438016200927185.a n = A021121 n
+
+end A021121
 
 /-! ## A021121.P4719174221967181459
 
 `a(n-6)` with `a(0)=0, a(1)=0, a(2)=8, a(3)=5, a(4)=4, a(5)=7`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021121
@@ -619,7 +700,7 @@ end A021123.P5410738726812626559
 /-!
 # A021124: Expansion of 1/((1-x)*(1-2*x)*(1-5*x)*(1-7*x)).
 
-The programs for A021124, the canonical program `A021124.P506079275577940139` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021124 has offset 0).
+The programs for A021124, the canonical program `A021124.P506079275577940139` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021124 has offset 0).
 
 The definition of A021124 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -628,7 +709,7 @@ The definition of A021124 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*7^(n+3)-5^(n+4)+2^(n+6)-5)/120`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021124
@@ -806,7 +887,7 @@ end A021124
 /-!
 # A021127: Decimal expansion of 1/123.
 
-The programs for A021127, the canonical program `A021127.P11865276718559429158` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021127 has offset 0).
+The programs for A021127, the canonical program `A021127.P11865276718559429158` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021127 has offset 0).
 
 The definition of A021127 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021127.anchor (n : ℕ) : A021127 n = ((10 ^ (n + 1) / 123 % 10 : ℕ) : ℤ)` in `Proof.A021.A021127`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -815,7 +896,7 @@ The definition of A021127 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-5)` with `a(0)=0, a(1)=0, a(2)=8, a(3)=1, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021127
@@ -854,7 +935,7 @@ end A021128.P15366607721142483257
 /-!
 # A021129: Expansion of 1/((1-x)*(1-2*x)*(1-5*x)*(1-8*x)).
 
-The programs for A021129, the canonical program `A021129.P7121800306219978886` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021129 has offset 0).
+The programs for A021129, the canonical program `A021129.P7121800306219978886` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021129 has offset 0).
 
 The definition of A021129 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -863,7 +944,7 @@ The definition of A021129 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*8^(n+3)-7*5^(n+3)+14*2^(n+3)-9)/252`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021129
@@ -1108,7 +1189,7 @@ end A021129
 /-!
 # A021130: Decimal expansion of 1/126.
 
-The programs for A021130, the canonical program `A021130.P6240863585808759865` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021130 has offset 0).
+The programs for A021130, the canonical program `A021130.P6240863585808759865` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021130 has offset 0).
 
 The definition of A021130 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021130.anchor (n : ℕ) : A021130 n = ((10 ^ (n + 1) / 126 % 10 : ℕ) : ℤ)` in `Proof.A021.A021130`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1117,7 +1198,7 @@ The definition of A021130 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-6)` with `a(0)=0, a(1)=0, a(2)=7, a(3)=9, a(4)=3, a(5)=6, a(6)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021130
@@ -1135,7 +1216,7 @@ end A021130
 /-!
 # A021132: Decimal expansion of 1/128.
 
-The programs for A021132, the canonical program `A021132.P12200072428819835598` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021132 has offset 0).
+The programs for A021132, the canonical program `A021132.P12200072428819835598` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021132 has offset 0).
 
 The definition of A021132 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021132.anchor (n : ℕ) : A021132 n = ((10 ^ (n + 1) / 128 % 10 : ℕ) : ℤ)` in `Proof.A021.A021132`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1144,7 +1225,7 @@ The definition of A021132 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-1)` with `a(0)=0, a(1)=0, a(2)=7, a(3)=8, a(4)=1, a(5)=2, a(6)=5, a(7)=0`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021132
@@ -1162,7 +1243,7 @@ end A021132
 /-!
 # A021134: Expansion of 1/((1-x)*(1-2*x)*(1-5*x)*(1-9*x)).
 
-The programs for A021134, the canonical program `A021134.P7229365067704280566` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021134 has offset 0).
+The programs for A021134, the canonical program `A021134.P7229365067704280566` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021134 has offset 0).
 
 The definition of A021134 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1171,7 +1252,7 @@ The definition of A021134 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*9^(n+3)-14*5^(n+3)+32*2^(n+3)-21)/672`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021134
@@ -1390,16 +1471,39 @@ end A021134
 /-!
 # A021136: Decimal expansion of 1/132.
 
-The programs for A021136, the canonical program `A021136.P3665565447764531220` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021136 has offset 0).
+The programs for A021136, the canonical program `A021136.P3665565447764531220` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021136 has offset 0).
 
 The definition of A021136 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021136.anchor (n : ℕ) : A021136 n = ((10 ^ (n + 1) / 132 % 10 : ℕ) : ℤ)` in `Proof.A021.A021136`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021136.P9885485891129976255
+
+`ogf((7x^2+5x^3)/(1-x^2))`
+-/
+
+namespace A021136.P9885485891129976255
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 7, 5] [1, 0, -1] n
+
+end
+
+end A021136.P9885485891129976255
+
+namespace A021136
+
+/-- `ogf((7x^2+5x^3)/(1-x^2))` -/
+def P9885485891129976255.Spec : Prop :=
+  ∀ n, P9885485891129976255.a n = A021136 n
+
+end A021136
 
 /-! ## A021136.P3665565447764531220
 
 `a(n-2)` with `a(0)=0, a(1)=0, a(2)=7, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021136
@@ -1417,7 +1521,7 @@ end A021136
 /-!
 # A021139: Decimal expansion of 1/135.
 
-The programs for A021139, the canonical program `A021139.P5039972236594992909` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021139 has offset 0).
+The programs for A021139, the canonical program `A021139.P5039972236594992909` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021139 has offset 0).
 
 The definition of A021139 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021139.anchor (n : ℕ) : A021139 n = ((10 ^ (n + 1) / 135 % 10 : ℕ) : ℤ)` in `Proof.A021.A021139`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1426,7 +1530,7 @@ The definition of A021139 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-3)` with `a(0)=0, a(1)=0, a(2)=7, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021139
@@ -1444,7 +1548,7 @@ end A021139
 /-!
 # A021141: Decimal expansion of 1/137.
 
-The programs for A021141, the canonical program `A021141.P14541736035329085119` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021141 has offset 0).
+The programs for A021141, the canonical program `A021141.P14541736035329085119` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021141 has offset 0).
 
 The definition of A021141 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021141.anchor (n : ℕ) : A021141 n = ((10 ^ (n + 1) / 137 % 10 : ℕ) : ℤ)` in `Proof.A021.A021141`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1453,7 +1557,7 @@ The definition of A021141 is `verified`: an anchor theorem with a hand-written p
 
 `9-a(n-4)` with `a(0)=0, a(1)=0, a(2)=7, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021141
@@ -1471,7 +1575,7 @@ end A021141
 /-!
 # A021144: Expansion of 1/((1-x)*(1-2*x)*(1-5*x)*(1-10*x)).
 
-The programs for A021144, the canonical program `A021144.P14419249874044689641` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021144 has offset 0).
+The programs for A021144, the canonical program `A021144.P14419249874044689641` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021144 has offset 0).
 
 The definition of A021144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1480,7 +1584,7 @@ The definition of A021144 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+3)-6*5^(n+3)+15*2^(n+3)-10)/360`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021144
@@ -1638,16 +1742,39 @@ end A021144
 /-!
 # A021147: Decimal expansion of 1/143.
 
-The programs for A021147, the canonical program `A021147.P224464834440034346` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021147 has offset 0).
+The programs for A021147, the canonical program `A021147.P224464834440034346` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021147 has offset 0).
 
 The definition of A021147 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021147.anchor (n : ℕ) : A021147 n = ((10 ^ (n + 1) / 143 % 10 : ℕ) : ℤ)` in `Proof.A021.A021147`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021147.P12957383087648907452
+
+`ogf((6x^2+3x^3)/(1-x+x^3-x^4))`
+-/
+
+namespace A021147.P12957383087648907452
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 6, 3] [1, -1, 0, 1, -1] n
+
+end
+
+end A021147.P12957383087648907452
+
+namespace A021147
+
+/-- `ogf((6x^2+3x^3)/(1-x+x^3-x^4))` -/
+def P12957383087648907452.Spec : Prop :=
+  ∀ n, P12957383087648907452.a n = A021147 n
+
+end A021147
 
 /-! ## A021147.P224464834440034346
 
 `a(n-1)-a(n-3)+a(n-4)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021147
@@ -1665,16 +1792,39 @@ end A021147
 /-!
 # A021148: Decimal expansion of 1/144.
 
-The programs for A021148, the canonical program `A021148.P3141854408169131582` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021148 has offset 0).
+The programs for A021148, the canonical program `A021148.P3141854408169131582` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021148 has offset 0).
 
 The definition of A021148 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021148.anchor (n : ℕ) : A021148 n = ((10 ^ (n + 1) / 144 % 10 : ℕ) : ℤ)` in `Proof.A021.A021148`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021148.P8146209424651447139
+
+`ogf((6x^2+3x^3-5x^4)/(1-x))`
+-/
+
+namespace A021148.P8146209424651447139
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 6, 3, -5] [1, -1] n
+
+end
+
+end A021148.P8146209424651447139
+
+namespace A021148
+
+/-- `ogf((6x^2+3x^3-5x^4)/(1-x))` -/
+def P8146209424651447139.Spec : Prop :=
+  ∀ n, P8146209424651447139.a n = A021148 n
+
+end A021148
 
 /-! ## A021148.P3141854408169131582
 
 `a(n-1)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=9, a(4)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021148
@@ -1713,16 +1863,39 @@ end A021149.P14790688193005142464
 /-!
 # A021150: Decimal expansion of 1/146.
 
-The programs for A021150, the canonical program `A021150.P603292364300416278` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021150 has offset 0).
+The programs for A021150, the canonical program `A021150.P603292364300416278` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021150 has offset 0).
 
 The definition of A021150 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021150.anchor (n : ℕ) : A021150 n = ((10 ^ (n + 1) / 146 % 10 : ℕ) : ℤ)` in `Proof.A021.A021150`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021150.P13340096945474882775
+
+`ogf((6x^2+2x^3-4x^4+5x^5)/(1-x+x^4-x^5))`
+-/
+
+namespace A021150.P13340096945474882775
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 6, 2, -4, 5] [1, -1, 0, 0, 1, -1] n
+
+end
+
+end A021150.P13340096945474882775
+
+namespace A021150
+
+/-- `ogf((6x^2+2x^3-4x^4+5x^5)/(1-x+x^4-x^5))` -/
+def P13340096945474882775.Spec : Prop :=
+  ∀ n, P13340096945474882775.a n = A021150 n
+
+end A021150
 
 /-! ## A021150.P603292364300416278
 
 `a(n-1)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=8, a(4)=4, a(5)=9`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021150
@@ -1740,16 +1913,39 @@ end A021150
 /-!
 # A021152: Decimal expansion of 1/148.
 
-The programs for A021152, the canonical program `A021152.P17301726918520401182` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021152 has offset 0).
+The programs for A021152, the canonical program `A021152.P17301726918520401182` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021152 has offset 0).
 
 The definition of A021152 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021152.anchor (n : ℕ) : A021152 n = ((10 ^ (n + 1) / 148 % 10 : ℕ) : ℤ)` in `Proof.A021.A021152`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021152.P5264882408554167385
+
+`ogf((6x^2+7x^3+5x^4)/(1-x^3))`
+-/
+
+namespace A021152.P5264882408554167385
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 6, 7, 5] [1, 0, 0, -1] n
+
+end
+
+end A021152.P5264882408554167385
+
+namespace A021152
+
+/-- `ogf((6x^2+7x^3+5x^4)/(1-x^3))` -/
+def P5264882408554167385.Spec : Prop :=
+  ∀ n, P5264882408554167385.a n = A021152 n
+
+end A021152
 
 /-! ## A021152.P17301726918520401182
 
 `a(n-3)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=7, a(4)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021152
@@ -1884,7 +2080,7 @@ end A021154.P5087436678701279222
 /-!
 # A021158: Decimal expansion of 1/154.
 
-The programs for A021158, the canonical program `A021158.P14009844925172660601` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021158 has offset 0).
+The programs for A021158, the canonical program `A021158.P14009844925172660601` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021158 has offset 0).
 
 The definition of A021158 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021158.anchor (n : ℕ) : A021158 n = ((10 ^ (n + 1) / 154 % 10 : ℕ) : ℤ)` in `Proof.A021.A021158`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1893,7 +2089,7 @@ The definition of A021158 is `verified`: an anchor theorem with a hand-written p
 
 `9-a(n-3)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021158
@@ -1911,16 +2107,39 @@ end A021158
 /-!
 # A021160: Decimal expansion of 1/156.
 
-The programs for A021160, the canonical program `A021160.P10357539094273175482` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021160 has offset 0).
+The programs for A021160, the canonical program `A021160.P10357539094273175482` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021160 has offset 0).
 
 The definition of A021160 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021160.anchor (n : ℕ) : A021160 n = ((10 ^ (n + 1) / 156 % 10 : ℕ) : ℤ)` in `Proof.A021.A021160`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021160.P6432556783720427074
+
+`ogf((6x^2-8x^3+5x^4)/(1-2x+2x^2-x^3))`
+-/
+
+namespace A021160.P6432556783720427074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 6, -8, 5] [1, -2, 2, -1] n
+
+end
+
+end A021160.P6432556783720427074
+
+namespace A021160
+
+/-- `ogf((6x^2-8x^3+5x^4)/(1-2x+2x^2-x^3))` -/
+def P6432556783720427074.Spec : Prop :=
+  ∀ n, P6432556783720427074.a n = A021160 n
+
+end A021160
 
 /-! ## A021160.P10357539094273175482
 
 `2*a(n-1)-2*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=4, a(4)=1`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021160
@@ -2061,7 +2280,7 @@ end A021166.P10073810207417557977
 /-!
 # A021168: Decimal expansion of 1/164.
 
-The programs for A021168, the canonical program `A021168.P11682449875899542808` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021168 has offset 0).
+The programs for A021168, the canonical program `A021168.P11682449875899542808` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021168 has offset 0).
 
 The definition of A021168 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021168.anchor (n : ℕ) : A021168 n = ((10 ^ (n + 1) / 164 % 10 : ℕ) : ℤ)` in `Proof.A021.A021168`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2070,7 +2289,7 @@ The definition of A021168 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-5)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=0, a(4)=9, a(5)=7, a(6)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021168
@@ -2088,7 +2307,7 @@ end A021168
 /-!
 # A021169: Decimal expansion of 1/165.
 
-The programs for A021169, the canonical program `A021169.P13778284461279284757` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021169 has offset 0).
+The programs for A021169, the canonical program `A021169.P13778284461279284757` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021169 has offset 0).
 
 The definition of A021169 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021169.anchor (n : ℕ) : A021169 n = ((10 ^ (n + 1) / 165 % 10 : ℕ) : ℤ)` in `Proof.A021.A021169`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2097,7 +2316,7 @@ The definition of A021169 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-2)` with `a(0)=0, a(1)=0, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021169
@@ -2136,7 +2355,7 @@ end A021171.P8344588346003939366
 /-!
 # A021174: Expansion of 1/((1-x)(1-2x)(1-6x)(1-7x)).
 
-The programs for A021174, the canonical program `A021174.P4835487723145802356` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021174 has offset 0).
+The programs for A021174, the canonical program `A021174.P4835487723145802356` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021174 has offset 0).
 
 The definition of A021174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2145,7 +2364,7 @@ The definition of A021174 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*7^(n+3)-3*6^(n+3)+3*2^(n+3)-2)/60`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021174
@@ -2395,16 +2614,39 @@ end A021174
 /-!
 # A021179: Decimal expansion of 1/175.
 
-The programs for A021179, the canonical program `A021179.P9640181905789644497` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021179 has offset 0).
+The programs for A021179, the canonical program `A021179.P9640181905789644497` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021179 has offset 0).
 
 The definition of A021179 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021179.anchor (n : ℕ) : A021179 n = ((10 ^ (n + 1) / 175 % 10 : ℕ) : ℤ)` in `Proof.A021.A021179`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021179.P10972205921702734911
+
+`ogf((5x^2+2x^3-6x^4+8x^5)/(1-x+x^3-x^4))`
+-/
+
+namespace A021179.P10972205921702734911
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 5, 2, -6, 8] [1, -1, 0, 1, -1] n
+
+end
+
+end A021179.P10972205921702734911
+
+namespace A021179
+
+/-- `ogf((5x^2+2x^3-6x^4+8x^5)/(1-x+x^3-x^4))` -/
+def P10972205921702734911.Spec : Prop :=
+  ∀ n, P10972205921702734911.a n = A021179 n
+
+end A021179
 
 /-! ## A021179.P9640181905789644497
 
 `a(n-1)-a(n-3)+a(n-4)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=7, a(4)=1, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021179
@@ -2422,7 +2664,7 @@ end A021179
 /-!
 # A021180: Decimal expansion of 1/176.
 
-The programs for A021180, the canonical program `A021180.P15208185130561396968` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021180 has offset 0).
+The programs for A021180, the canonical program `A021180.P15208185130561396968` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021180 has offset 0).
 
 The definition of A021180 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021180.anchor (n : ℕ) : A021180 n = ((10 ^ (n + 1) / 176 % 10 : ℕ) : ℤ)` in `Proof.A021.A021180`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2431,7 +2673,7 @@ The definition of A021180 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-2)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=6, a(4)=8, a(5)=1`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021180
@@ -2470,7 +2712,7 @@ end A021182.P15149081282210995836
 /-!
 # A021184: Expansion of 1/((1-x)*(1-2*x)*(1-6*x)*(1-8*x)).
 
-The programs for A021184, the canonical program `A021184.P12059021720679907245` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021184 has offset 0).
+The programs for A021184, the canonical program `A021184.P12059021720679907245` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021184 has offset 0).
 
 The definition of A021184 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2479,7 +2721,7 @@ The definition of A021184 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10*8^(n+3)-21*6^(n+3)+35*2^(n+3)-24)/840`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021184
@@ -2591,7 +2833,7 @@ end A021184
 /-!
 # A021186: Decimal expansion of 1/182.
 
-The programs for A021186, the canonical program `A021186.P7973352669346027` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021186 has offset 0).
+The programs for A021186, the canonical program `A021186.P7973352669346027` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021186 has offset 0).
 
 The definition of A021186 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021186.anchor (n : ℕ) : A021186 n = ((10 ^ (n + 1) / 182 % 10 : ℕ) : ℤ)` in `Proof.A021.A021186`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2600,7 +2842,7 @@ The definition of A021186 is `verified`: an anchor theorem with a hand-written p
 
 `9-a(n-3)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021186
@@ -2618,7 +2860,7 @@ end A021186
 /-!
 # A021189: Decimal expansion of 1/185.
 
-The programs for A021189, the canonical program `A021189.P12990513210301284531` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021189 has offset 0).
+The programs for A021189, the canonical program `A021189.P12990513210301284531` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021189 has offset 0).
 
 The definition of A021189 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021189.anchor (n : ℕ) : A021189 n = ((10 ^ (n + 1) / 185 % 10 : ℕ) : ℤ)` in `Proof.A021.A021189`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2627,7 +2869,7 @@ The definition of A021189 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-3)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021189
@@ -2645,7 +2887,7 @@ end A021189
 /-!
 # A021193: Decimal expansion of 1/189.
 
-The programs for A021193, the canonical program `A021193.P522082127870387411` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021193 has offset 0).
+The programs for A021193, the canonical program `A021193.P522082127870387411` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021193 has offset 0).
 
 The definition of A021193 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021193.anchor (n : ℕ) : A021193 n = ((10 ^ (n + 1) / 189 % 10 : ℕ) : ℤ)` in `Proof.A021.A021193`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2654,7 +2896,7 @@ The definition of A021193 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-6)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=2, a(4)=9, a(5)=1`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021193
@@ -2672,7 +2914,7 @@ end A021193
 /-!
 # A021194: Expansion of 1/((1-x)*(1-2*x)*(1-6*x)*(1-9*x)).
 
-The programs for A021194, the canonical program `A021194.P11212070926629959612` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021194 has offset 0).
+The programs for A021194, the canonical program `A021194.P11212070926629959612` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021194 has offset 0).
 
 The definition of A021194 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2681,7 +2923,7 @@ The definition of A021194 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*9^(n+3)-14*6^(n+3)+30*2^(n+3)-21)/840`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021194
@@ -2836,16 +3078,39 @@ end A021194
 /-!
 # A021196: Decimal expansion of 1/192.
 
-The programs for A021196, the canonical program `A021196.P830391857349579451` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021196 has offset 0).
+The programs for A021196, the canonical program `A021196.P830391857349579451` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021196 has offset 0).
 
 The definition of A021196 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021196.anchor (n : ℕ) : A021196 n = ((10 ^ (n + 1) / 192 % 10 : ℕ) : ℤ)` in `Proof.A021.A021196`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021196.P4163756397996071973
+
+`ogf((5x^2-3x^3-2x^4+8x^5-5x^6)/(1-x))`
+-/
+
+namespace A021196.P4163756397996071973
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 5, -3, -2, 8, -5] [1, -1] n
+
+end
+
+end A021196.P4163756397996071973
+
+namespace A021196
+
+/-- `ogf((5x^2-3x^3-2x^4+8x^5-5x^6)/(1-x))` -/
+def P4163756397996071973.Spec : Prop :=
+  ∀ n, P4163756397996071973.a n = A021196 n
+
+end A021196
 
 /-! ## A021196.P830391857349579451
 
 `a(n-1)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=2, a(4)=0, a(5)=8, a(6)=3`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021196
@@ -2863,7 +3128,7 @@ end A021196
 /-!
 # A021199: Decimal expansion of 1/195.
 
-The programs for A021199, the canonical program `A021199.P10756791010868104540` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021199 has offset 0).
+The programs for A021199, the canonical program `A021199.P10756791010868104540` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021199 has offset 0).
 
 The definition of A021199 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021199.anchor (n : ℕ) : A021199 n = ((10 ^ (n + 1) / 195 % 10 : ℕ) : ℤ)` in `Proof.A021.A021199`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2872,7 +3137,7 @@ The definition of A021199 is `verified`: an anchor theorem with a hand-written p
 
 `9-(a(n-2)+a(n-4))` with `a(0)=0, a(1)=0, a(2)=5, a(3)=1, a(4)=2`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021199

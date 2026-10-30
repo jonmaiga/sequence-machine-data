@@ -7,34 +7,33 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C019
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A013800: 
+# A013800: a(n) = 14^(4*n + 1).
 
 The programs for A013800, there is no canonical definition to state claims against.
 -/
@@ -121,7 +120,7 @@ end
 end A013800.P11606040848291689273
 
 /-!
-# A013801: 
+# A013801: a(n) = 14^(4*n+3).
 
 The programs for A013801, there is no canonical definition to state claims against.
 -/
@@ -211,7 +210,7 @@ end
 end A013801.P7544474847359966187
 
 /-!
-# A013802: 
+# A013802: a(n) = 15^(4*n + 1).
 
 The programs for A013802, there is no canonical definition to state claims against.
 -/
@@ -304,7 +303,7 @@ end
 end A013802.P2259972323345982402
 
 /-!
-# A013803: 
+# A013803: a(n) = 15^(4*n + 3).
 
 The programs for A013803, there is no canonical definition to state claims against.
 -/
@@ -397,7 +396,7 @@ end
 end A013803.P9440479455945541268
 
 /-!
-# A013804: 
+# A013804: a(n) = 16^(4*n + 1).
 
 The programs for A013804, there is no canonical definition to state claims against.
 -/
@@ -484,7 +483,7 @@ end
 end A013804.P18040115333845544839
 
 /-!
-# A013805: 
+# A013805: a(n) = 16^(4*n + 3).
 
 The programs for A013805, there is no canonical definition to state claims against.
 -/
@@ -571,7 +570,7 @@ end
 end A013805.P1131164858894770615
 
 /-!
-# A013806: 
+# A013806: a(n) = 17^(4*n+1).
 
 The programs for A013806, there is no canonical definition to state claims against.
 -/
@@ -658,7 +657,7 @@ end
 end A013806.P12639820867327418671
 
 /-!
-# A013807: 
+# A013807: a(n) = 17^(4*n+3).
 
 The programs for A013807, there is no canonical definition to state claims against.
 -/
@@ -748,7 +747,7 @@ end
 end A013807.P3584677053309509324
 
 /-!
-# A013808: 
+# A013808: a(n) = 18^(4*n + 1).
 
 The programs for A013808, there is no canonical definition to state claims against.
 -/
@@ -835,7 +834,7 @@ end
 end A013808.P9022292015313920877
 
 /-!
-# A013809: 
+# A013809: a(n) = 18^(4*n + 3).
 
 The programs for A013809, there is no canonical definition to state claims against.
 -/
@@ -925,7 +924,7 @@ end
 end A013809.P17531546781337609792
 
 /-!
-# A013810: 
+# A013810: a(n) = 19^(4*n + 1).
 
 The programs for A013810, there is no canonical definition to state claims against.
 -/
@@ -1012,7 +1011,7 @@ end
 end A013810.P16830790744765269738
 
 /-!
-# A013811: 
+# A013811: a(n) = 19^(4*n + 3).
 
 The programs for A013811, there is no canonical definition to state claims against.
 -/
@@ -1102,7 +1101,7 @@ end
 end A013811.P6500978270386664137
 
 /-!
-# A013812: 
+# A013812: a(n) = 20^(4*n + 1).
 
 The programs for A013812, there is no canonical definition to state claims against.
 -/
@@ -1192,7 +1191,7 @@ end
 end A013812.P15942166225249843502
 
 /-!
-# A013813: 
+# A013813: a(n) = 20^(4*n + 3).
 
 The programs for A013813, there is no canonical definition to state claims against.
 -/
@@ -1285,7 +1284,7 @@ end
 end A013813.P2982213511334844291
 
 /-!
-# A013814: 
+# A013814: a(n) = 21^(4*n + 1).
 
 The programs for A013814, there is no canonical definition to state claims against.
 -/
@@ -1369,7 +1368,7 @@ end
 end A013814.P11941064945369635668
 
 /-!
-# A013815: 
+# A013815: a(n) = 21^(4*n + 3).
 
 The programs for A013815, there is no canonical definition to state claims against.
 -/
@@ -1459,7 +1458,7 @@ end
 end A013815.P7415299819489329982
 
 /-!
-# A013816: 
+# A013816: a(n) = 22^(4*n+1).
 
 The programs for A013816, there is no canonical definition to state claims against.
 -/
@@ -1546,7 +1545,7 @@ end
 end A013816.P15681891958461686964
 
 /-!
-# A013817: 
+# A013817: a(n) = 22^(4*n + 3).
 
 The programs for A013817, there is no canonical definition to state claims against.
 -/
@@ -1620,8 +1619,23 @@ end
 
 end A013817.P8487795392297424596
 
+/-! ## A013817.P2931083655082636234
+
+`A013777(n)*A013795(n)`
+-/
+
+namespace A013817.P2931083655082636234
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013777 n * A013795 n
+
+end
+
+end A013817.P2931083655082636234
+
 /-!
-# A013818: 
+# A013818: a(n) = 23^(4*n + 1).
 
 The programs for A013818, there is no canonical definition to state claims against.
 -/
@@ -1714,7 +1728,7 @@ end
 end A013818.P10825360378292839398
 
 /-!
-# A013819: 
+# A013819: a(n) = 23^(4*n + 3).
 
 The programs for A013819, there is no canonical definition to state claims against.
 -/
@@ -1801,7 +1815,7 @@ end
 end A013819.P1163311442640205730
 
 /-!
-# A013820: 
+# A013820: a(n) = 24^(4*n + 1).
 
 The programs for A013820, there is no canonical definition to state claims against.
 -/
@@ -1894,7 +1908,7 @@ end
 end A013820.P6334024039546405065
 
 /-!
-# A013821: 
+# A013821: a(n) = 24^(4*n + 3).
 
 The programs for A013821, there is no canonical definition to state claims against.
 -/
@@ -2072,7 +2086,7 @@ theorem P16219435347432863530.correct : P16219435347432863530.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013822
 
@@ -2335,7 +2349,7 @@ theorem P9682421061879669868.correct : P9682421061879669868.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013823
 
@@ -2598,7 +2612,7 @@ theorem P875894074671462372.correct : P875894074671462372.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013824
 
@@ -2867,7 +2881,7 @@ theorem P11215539330554528701.correct : P11215539330554528701.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013825
 
@@ -3116,7 +3130,7 @@ theorem P4789006994691677068.correct : P4789006994691677068.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013826
 
@@ -3156,7 +3170,7 @@ theorem P5030574567899173923.correct : P5030574567899173923.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013826
 
@@ -3222,7 +3236,7 @@ theorem P14622324648708380120.correct : P14622324648708380120.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013826
 
@@ -3289,7 +3303,7 @@ theorem P4242439482506417089.correct : P4242439482506417089.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013827
 
@@ -3358,7 +3372,7 @@ theorem P8819445760128350050.correct : P8819445760128350050.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013827
 
@@ -3451,7 +3465,7 @@ theorem P212945757678792419.correct : P212945757678792419.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013828
 
@@ -3605,7 +3619,7 @@ theorem P10092195745824147879.correct : P10092195745824147879.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013829
 
@@ -3759,7 +3773,7 @@ theorem P15764760109996727736.correct : P15764760109996727736.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013830
 
@@ -3895,7 +3909,7 @@ theorem P4157911019116743446.correct : P4157911019116743446.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013831
 
@@ -4040,7 +4054,7 @@ theorem P992038157256452538.correct : P992038157256452538.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013832
 
@@ -4080,7 +4094,7 @@ theorem P4450329243817530612.correct : P4450329243817530612.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013832
 
@@ -4350,7 +4364,7 @@ theorem P10887673982338278788.correct : P10887673982338278788.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013834
 
@@ -4390,7 +4404,7 @@ theorem P3449855578367940436.correct : P3449855578367940436.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013834
 
@@ -4430,7 +4444,7 @@ theorem P1501273194693285270.correct : P1501273194693285270.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013834
 
@@ -4523,7 +4537,7 @@ theorem P6173061934230079097.correct : P6173061934230079097.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013835
 
@@ -4580,7 +4594,7 @@ def P17093633850841252658.Spec : Prop :=
 end A013835
 
 /-!
-# A013836: 
+# A013836: a(n) = 5^(5*n + 3).
 
 The programs for A013836, there is no canonical definition to state claims against.
 -/
@@ -4664,7 +4678,7 @@ end
 end A013836.P2639536570943436152
 
 /-!
-# A013837: 
+# A013837: a(n) = 5^(5*n + 4).
 
 The programs for A013837, there is no canonical definition to state claims against.
 -/
@@ -4702,6 +4716,21 @@ end
 
 end A013837.P13995421501058110512
 
+/-! ## A013837.P4410469853876138065
+
+`5*A013836(n)`
+-/
+
+namespace A013837.P4410469853876138065
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * A013836 n
+
+end
+
+end A013837.P4410469853876138065
+
 /-! ## A013837.P2901666808087251838
 
 `A000351(5*n+4)`
@@ -4733,7 +4762,7 @@ end
 end A013837.P15927185627881531354
 
 /-!
-# A013838: 
+# A013838: a(n) = 6^(5*n + 1).
 
 The programs for A013838, there is no canonical definition to state claims against.
 -/
@@ -4768,6 +4797,21 @@ end
 
 end A013838.P663946860886303422
 
+/-! ## A013838.P17341888362332910590
+
+`A013839(n)/6`
+-/
+
+namespace A013838.P17341888362332910590
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013839 n : ℚ) / 6
+
+end
+
+end A013838.P17341888362332910590
+
 /-! ## A013838.P16045984823445896974
 
 `A000400(5*n+1)`
@@ -4799,7 +4843,7 @@ end
 end A013838.P2740678588358504444
 
 /-!
-# A013839: 
+# A013839: a(n) = 6^(5n+2).
 
 The programs for A013839, there is no canonical definition to state claims against.
 -/
@@ -4818,6 +4862,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013839.P15704939441991113147
+
+/-! ## A013839.P13503698805953216871
+
+`6*A013838(n)`
+-/
+
+namespace A013839.P13503698805953216871
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  6 * A013838 n
+
+end
+
+end A013839.P13503698805953216871
+
+/-! ## A013839.P4547248860317619181
+
+`A013840(n)/6`
+-/
+
+namespace A013839.P4547248860317619181
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013840 n : ℚ) / 6
+
+end
+
+end A013839.P4547248860317619181
 
 /-! ## A013839.P11558298445971681635
 
@@ -4850,7 +4924,7 @@ end
 end A013839.P765569423987365912
 
 /-!
-# A013840: 
+# A013840: a(n) = 6^(5*n + 3).
 
 The programs for A013840, there is no canonical definition to state claims against.
 -/
@@ -4869,6 +4943,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013840.P1496602640969038334
+
+/-! ## A013840.P889574985707100110
+
+`6*A013839(n)`
+-/
+
+namespace A013840.P889574985707100110
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  6 * A013839 n
+
+end
+
+end A013840.P889574985707100110
 
 /-! ## A013840.P9745664166295886369
 
@@ -4916,7 +5005,7 @@ end
 end A013840.P5771869516572596787
 
 /-!
-# A013841: 
+# A013841: a(n) = 6^(5*n + 4).
 
 The programs for A013841, there is no canonical definition to state claims against.
 -/
@@ -4936,6 +5025,21 @@ end
 
 end A013841.P10877914981920411084
 
+/-! ## A013841.P10334851213820968604
+
+`6*A013840(n)`
+-/
+
+namespace A013841.P10334851213820968604
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  6 * A013840 n
+
+end
+
+end A013841.P10334851213820968604
+
 /-! ## A013841.P14537323390940928331
 
 `A166027(10*(n+1))`
@@ -4950,6 +5054,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013841.P14537323390940928331
+
+/-! ## A013841.P16215669903835822865
+
+`6*6*A013839(n)`
+-/
+
+namespace A013841.P16215669903835822865
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  6 * (6 * A013839 n)
+
+end
+
+end A013841.P16215669903835822865
 
 /-! ## A013841.P13005863388068307560
 
@@ -4967,7 +5086,7 @@ end
 end A013841.P13005863388068307560
 
 /-!
-# A013842: 
+# A013842: a(n) = 7^(5*n + 1).
 
 The programs for A013842, there is no canonical definition to state claims against.
 -/
@@ -5002,6 +5121,21 @@ end
 
 end A013842.P2513768116613606344
 
+/-! ## A013842.P12803170029724731479
+
+`A013843(n)/7`
+-/
+
+namespace A013842.P12803170029724731479
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013843 n : ℚ) / 7
+
+end
+
+end A013842.P12803170029724731479
+
 /-! ## A013842.P3245749763103958301
 
 `A000420(5*n+1)`
@@ -5033,7 +5167,7 @@ end
 end A013842.P1314951447806104992
 
 /-!
-# A013843: 
+# A013843: a(n) = 7^(5*n + 2).
 
 The programs for A013843, there is no canonical definition to state claims against.
 -/
@@ -5052,6 +5186,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013843.P5059450566993257724
+
+/-! ## A013843.P8036165694766924281
+
+`7*A013842(n)`
+-/
+
+namespace A013843.P8036165694766924281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  7 * A013842 n
+
+end
+
+end A013843.P8036165694766924281
+
+/-! ## A013843.P5464579873510994933
+
+`A013844(n)/7`
+-/
+
+namespace A013843.P5464579873510994933
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013844 n : ℚ) / 7
+
+end
+
+end A013843.P5464579873510994933
 
 /-! ## A013843.P14176693469743896875
 
@@ -5084,7 +5248,7 @@ end
 end A013843.P5869257021411278018
 
 /-!
-# A013844: 
+# A013844: a(n) = 7^(5*n + 3).
 
 The programs for A013844, there is no canonical definition to state claims against.
 -/
@@ -5103,6 +5267,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013844.P17226992917198520281
+
+/-! ## A013844.P18151773218962836312
+
+`7*A013843(n)`
+-/
+
+namespace A013844.P18151773218962836312
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  7 * A013843 n
+
+end
+
+end A013844.P18151773218962836312
 
 /-! ## A013844.P1114967613228983045
 
@@ -5150,7 +5329,7 @@ end
 end A013844.P9058055965425097738
 
 /-!
-# A013845: 
+# A013845: a(n) = 7^(5*n + 4).
 
 The programs for A013845, there is no canonical definition to state claims against.
 -/
@@ -5169,6 +5348,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013845.P14779499632074090502
+
+/-! ## A013845.P13264450323344234676
+
+`7*A013844(n)`
+-/
+
+namespace A013845.P13264450323344234676
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  7 * A013844 n
+
+end
+
+end A013845.P13264450323344234676
 
 /-! ## A013845.P1893606833746538950
 
@@ -5222,7 +5416,7 @@ end
 end A013845.P6872862887360544060
 
 /-!
-# A013846: 
+# A013846: a(n) = 8^(5*n + 1).
 
 The programs for A013846, there is no canonical definition to state claims against.
 -/
@@ -5303,7 +5497,7 @@ end
 end A013846.P18384781909394616886
 
 /-!
-# A013847: 
+# A013847: a(n) = 8^(5*n + 2).
 
 The programs for A013847, there is no canonical definition to state claims against.
 -/
@@ -5384,7 +5578,7 @@ end
 end A013847.P17929875645845500114
 
 /-!
-# A013848: 
+# A013848: a(n) = 8^(5*n + 3).
 
 The programs for A013848, there is no canonical definition to state claims against.
 -/
@@ -5403,6 +5597,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013848.P164064597978804979
+
+/-! ## A013848.P16806699088070596928
+
+`8*A013847(n)`
+-/
+
+namespace A013848.P16806699088070596928
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  8 * A013847 n
+
+end
+
+end A013848.P16806699088070596928
 
 /-! ## A013848.P11621173954910126117
 
@@ -5450,7 +5659,7 @@ end
 end A013848.P10467673186082626606
 
 /-!
-# A013849: 
+# A013849: a(n) = 8^(5*n + 4).
 
 The programs for A013849, there is no canonical definition to state claims against.
 -/
@@ -5469,6 +5678,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013849.P5179646604646630507
+
+/-! ## A013849.P11016550781634571468
+
+`8*A013848(n)`
+-/
+
+namespace A013849.P11016550781634571468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  8 * A013848 n
+
+end
+
+end A013849.P11016550781634571468
 
 /-! ## A013849.P10051347560228281857
 
@@ -5516,7 +5740,7 @@ end
 end A013849.P8646910081246282837
 
 /-!
-# A013850: 
+# A013850: a(n) = 9^(5*n + 1).
 
 The programs for A013850, there is no canonical definition to state claims against.
 -/
@@ -5603,7 +5827,7 @@ end
 end A013850.P1663983583546819303
 
 /-!
-# A013851: 
+# A013851: a(n) = 9^(5*n + 2).
 
 The programs for A013851, there is no canonical definition to state claims against.
 -/
@@ -5671,8 +5895,23 @@ end
 
 end A013851.P7260885819302352584
 
+/-! ## A013851.P4192056023001099975
+
+`9*A013850(n)`
+-/
+
+namespace A013851.P4192056023001099975
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  9 * A013850 n
+
+end
+
+end A013851.P4192056023001099975
+
 /-!
-# A013852: 
+# A013852: a(n) = 9^(5*n + 3).
 
 The programs for A013852, there is no canonical definition to state claims against.
 -/
@@ -5762,7 +6001,7 @@ end
 end A013852.P5564417573050654808
 
 /-!
-# A013853: 
+# A013853: a(n) = 9^(5*n + 4).
 
 The programs for A013853, there is no canonical definition to state claims against.
 -/
@@ -5815,6 +6054,21 @@ end
 
 end A013853.P3919498771256463436
 
+/-! ## A013853.P16155256408239813699
+
+`9*A013852(n)`
+-/
+
+namespace A013853.P16155256408239813699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  9 * A013852 n
+
+end
+
+end A013853.P16155256408239813699
+
 /-! ## A013853.P4454212367629286514
 
 `A013828(Δ[n²])`
@@ -5834,7 +6088,7 @@ end
 end A013853.P4454212367629286514
 
 /-!
-# A013854: 
+# A013854: a(n) = 10^(5*n + 1).
 
 The programs for A013854, there is no canonical definition to state claims against.
 -/
@@ -5915,7 +6169,7 @@ end
 end A013854.P8274485178039828089
 
 /-!
-# A013855: 
+# A013855: a(n) = 10^(5*n + 2).
 
 The programs for A013855, there is no canonical definition to state claims against.
 -/
@@ -5934,6 +6188,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013855.P2942179774946790103
+
+/-! ## A013855.P1378178998670931035
+
+`10*A013854(n)`
+-/
+
+namespace A013855.P1378178998670931035
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  10 * A013854 n
+
+end
+
+end A013855.P1378178998670931035
 
 /-! ## A013855.P15904728290123922244
 
@@ -5981,7 +6250,7 @@ end
 end A013855.P2160715568136658971
 
 /-!
-# A013856: 
+# A013856: a(n) = 10^(5*n + 3).
 
 The programs for A013856, there is no canonical definition to state claims against.
 -/
@@ -6000,6 +6269,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013856.P8537044534210814857
+
+/-! ## A013856.P15082486235640417431
+
+`A013857(n)/10`
+-/
+
+namespace A013856.P15082486235640417431
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013857 n : ℚ) / 10
+
+end
+
+end A013856.P15082486235640417431
 
 /-! ## A013856.P7899663100207609252
 
@@ -6047,7 +6331,7 @@ end
 end A013856.P3438186041356022441
 
 /-!
-# A013857: 
+# A013857: a(n) = 10^(5*n + 4).
 
 The programs for A013857, there is no canonical definition to state claims against.
 -/
@@ -6128,7 +6412,7 @@ end
 end A013857.P15642980409452380682
 
 /-!
-# A013858: 
+# A013858: a(n) = 11^(5*n + 1).
 
 The programs for A013858, there is no canonical definition to state claims against.
 -/
@@ -6212,7 +6496,7 @@ end
 end A013858.P15023840415091385292
 
 /-!
-# A013859: 
+# A013859: a(n) = 11^(5*n + 2).
 
 The programs for A013859, there is no canonical definition to state claims against.
 -/
@@ -6293,7 +6577,7 @@ end
 end A013859.P10173521427343986965
 
 /-!
-# A013860: 
+# A013860: a(n) = 11^(5*n + 3).
 
 The programs for A013860, there is no canonical definition to state claims against.
 -/
@@ -6343,6 +6627,21 @@ end
 
 end A013860.P16215051679629866971
 
+/-! ## A013860.P9984766059717254041
+
+`A001020(n)*A013795(n)`
+-/
+
+namespace A013860.P9984766059717254041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001020 n * A013795 n
+
+end
+
+end A013860.P9984766059717254041
+
 /-! ## A013860.P16801548756097211618
 
 `A013716(n)*A013749(n)`
@@ -6359,7 +6658,7 @@ end
 end A013860.P16801548756097211618
 
 /-!
-# A013861: 
+# A013861: a(n) = 11^(5*n+4).
 
 The programs for A013861, there is no canonical definition to state claims against.
 -/
@@ -6440,7 +6739,7 @@ end
 end A013861.P10791425585315159633
 
 /-!
-# A013862: 
+# A013862: a(n) = 12^(5*n + 1).
 
 The programs for A013862, there is no canonical definition to state claims against.
 -/
@@ -6505,8 +6804,23 @@ end
 
 end A013862.P10280305052185367831
 
+/-! ## A013862.P11886408984418816072
+
+`A013822(n)*A013838(n)`
+-/
+
+namespace A013862.P11886408984418816072
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013822 n * A013838 n
+
+end
+
+end A013862.P11886408984418816072
+
 /-!
-# A013863: 
+# A013863: a(n) = 12^(5*n + 2).
 
 The programs for A013863, there is no canonical definition to state claims against.
 -/
@@ -6571,8 +6885,23 @@ end
 
 end A013863.P7611774323985505034
 
+/-! ## A013863.P9534506098479210301
+
+`A013823(n)*A013839(n)`
+-/
+
+namespace A013863.P9534506098479210301
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013823 n * A013839 n
+
+end
+
+end A013863.P9534506098479210301
+
 /-!
-# A013864: 
+# A013864: a(n) = 12^(5*n + 3).
 
 The programs for A013864, there is no canonical definition to state claims against.
 -/
@@ -6622,6 +6951,21 @@ end
 
 end A013864.P11862298816748342365
 
+/-! ## A013864.P9785173862354213910
+
+`A001021(n)*A013797(n)`
+-/
+
+namespace A013864.P9785173862354213910
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001021 n * A013797 n
+
+end
+
+end A013864.P9785173862354213910
+
 /-! ## A013864.P18403347225288510079
 
 `A013717(n)*A013751(n)`
@@ -6638,7 +6982,7 @@ end
 end A013864.P18403347225288510079
 
 /-!
-# A013865: 
+# A013865: a(n) = 12^(5*n + 4).
 
 The programs for A013865, there is no canonical definition to state claims against.
 -/
@@ -6688,6 +7032,21 @@ end
 
 end A013865.P3732644833272036315
 
+/-! ## A013865.P12217479140688013993
+
+`A013825(n)*A013841(n)`
+-/
+
+namespace A013865.P12217479140688013993
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013825 n * A013841 n
+
+end
+
+end A013865.P12217479140688013993
+
 /-! ## A013865.P2024775453487038930
 
 `A013825(n)²*A013829(n)`
@@ -6704,7 +7063,7 @@ end
 end A013865.P2024775453487038930
 
 /-!
-# A013866: 
+# A013866: a(n) = 13^(5*n + 1).
 
 The programs for A013866, there is no canonical definition to state claims against.
 -/
@@ -6785,7 +7144,7 @@ end
 end A013866.P4273255918886232801
 
 /-!
-# A013867: 
+# A013867: a(n) = 13^(5*n + 2).
 
 The programs for A013867, there is no canonical definition to state claims against.
 -/
@@ -6804,6 +7163,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013867.P1406066423052328712
+
+/-! ## A013867.P5121940554843927070
+
+`A013868(n)/13`
+-/
+
+namespace A013867.P5121940554843927070
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013868 n : ℚ) / 13
+
+end
+
+end A013867.P5121940554843927070
 
 /-! ## A013867.P11807332396977517124
 
@@ -6851,7 +7225,7 @@ end
 end A013867.P4638576103504977024
 
 /-!
-# A013868: 
+# A013868: a(n) = 13^(5*n + 3).
 
 The programs for A013868, there is no canonical definition to state claims against.
 -/
@@ -6932,7 +7306,7 @@ end
 end A013868.P12738015714412397589
 
 /-!
-# A013869: 
+# A013869: a(n) = 13^(5*n + 4).
 
 The programs for A013869, there is no canonical definition to state claims against.
 -/
@@ -6951,6 +7325,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013869.P6361605503529006021
+
+/-! ## A013869.P2547198322479444496
+
+`13*A013868(n)`
+-/
+
+namespace A013869.P2547198322479444496
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  13 * A013868 n
+
+end
+
+end A013869.P2547198322479444496
 
 /-! ## A013869.P11141797427092348215
 
@@ -6998,7 +7387,7 @@ end
 end A013869.P13218369473530393100
 
 /-!
-# A013870: 
+# A013870: a(n) = 14^(5*n + 1).
 
 The programs for A013870, there is no canonical definition to state claims against.
 -/
@@ -7079,7 +7468,7 @@ end
 end A013870.P7149954526190747563
 
 /-!
-# A013871: 
+# A013871: a(n) = 14^(5*n + 2).
 
 The programs for A013871, there is no canonical definition to state claims against.
 -/
@@ -7144,8 +7533,23 @@ end
 
 end A013871.P12871923186283498927
 
+/-! ## A013871.P929369301521422357
+
+`A013823(n)*A013843(n)`
+-/
+
+namespace A013871.P929369301521422357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013823 n * A013843 n
+
+end
+
+end A013871.P929369301521422357
+
 /-!
-# A013872: 
+# A013872: a(n) = 14^(5*n + 3).
 
 The programs for A013872, there is no canonical definition to state claims against.
 -/
@@ -7164,6 +7568,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013872.P9823214202622381284
+
+/-! ## A013872.P18035637524842367721
+
+`A013873(n)/14`
+-/
+
+namespace A013872.P18035637524842367721
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013873 n : ℚ) / 14
+
+end
+
+end A013872.P18035637524842367721
 
 /-! ## A013872.P12399765916992253190
 
@@ -7195,8 +7614,23 @@ end
 
 end A013872.P10199127878089020468
 
+/-! ## A013872.P9453529521694704029
+
+`A013719(n)*A013755(n)`
+-/
+
+namespace A013872.P9453529521694704029
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013719 n * A013755 n
+
+end
+
+end A013872.P9453529521694704029
+
 /-!
-# A013873: 
+# A013873: a(n) = 14^(5*n + 4).
 
 The programs for A013873, there is no canonical definition to state claims against.
 -/
@@ -7215,6 +7649,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013873.P123359446826044687
+
+/-! ## A013873.P7796008801044009751
+
+`14*A013872(n)`
+-/
+
+namespace A013873.P7796008801044009751
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  14 * A013872 n
+
+end
+
+end A013873.P7796008801044009751
 
 /-! ## A013873.P3234088340750562705
 
@@ -7246,8 +7695,23 @@ end
 
 end A013873.P7314400586717671011
 
+/-! ## A013873.P2740710042201421558
+
+`A013825(n)*A013845(n)`
+-/
+
+namespace A013873.P2740710042201421558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013825 n * A013845 n
+
+end
+
+end A013873.P2740710042201421558
+
 /-!
-# A013874: 
+# A013874: a(n) = 15^(5*n + 1).
 
 The programs for A013874, there is no canonical definition to state claims against.
 -/
@@ -7331,7 +7795,7 @@ end
 end A013874.P12394023078502232001
 
 /-!
-# A013875: 
+# A013875: a(n) = 15^(5*n + 2).
 
 The programs for A013875, there is no canonical definition to state claims against.
 -/
@@ -7412,7 +7876,7 @@ end
 end A013875.P15463512100509543092
 
 /-!
-# A013876: 
+# A013876: a(n) = 15^(5*n+3).
 
 The programs for A013876, there is no canonical definition to state claims against.
 -/
@@ -7493,7 +7957,7 @@ end
 end A013876.P837688047533338003
 
 /-!
-# A013877: 
+# A013877: a(n) = 15^(5*n + 4).
 
 The programs for A013877, there is no canonical definition to state claims against.
 -/
@@ -7543,6 +8007,21 @@ end
 
 end A013877.P17665112637226843825
 
+/-! ## A013877.P9354739787107901901
+
+`A013829(n)*A013837(n)`
+-/
+
+namespace A013877.P9354739787107901901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013829 n * A013837 n
+
+end
+
+end A013877.P9354739787107901901
+
 /-! ## A013877.P10212208972885885175
 
 `A017949(A004442(A017377(n)))`
@@ -7559,7 +8038,7 @@ end
 end A013877.P10212208972885885175
 
 /-!
-# A013878: 
+# A013878: a(n) = 16^(5*n + 1).
 
 The programs for A013878, there is no canonical definition to state claims against.
 -/
@@ -7643,7 +8122,7 @@ end
 end A013878.P10956514961573702696
 
 /-!
-# A013879: 
+# A013879: a(n) = 16^(5*n + 2).
 
 The programs for A013879, there is no canonical definition to state claims against.
 -/
@@ -7724,7 +8203,7 @@ end
 end A013879.P809286118952181963
 
 /-!
-# A013880: 
+# A013880: a(n) = 16^(5*n + 3).
 
 The programs for A013880, there is no canonical definition to state claims against.
 -/
@@ -7805,7 +8284,7 @@ end
 end A013880.P12231414746899460121
 
 /-!
-# A013881: 
+# A013881: a(n) = 16^(5*n+4).
 
 The programs for A013881, there is no canonical definition to state claims against.
 -/
@@ -7889,7 +8368,7 @@ end
 end A013881.P17157276501154468672
 
 /-!
-# A013882: 
+# A013882: a(n) = 17^(5*n + 1).
 
 The programs for A013882, there is no canonical definition to state claims against.
 -/
@@ -7908,6 +8387,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013882.P9336285408005273482
+
+/-! ## A013882.P10993108450723809796
+
+`(17^n)²*A013760(n)`
+-/
+
+namespace A013882.P10993108450723809796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((17 ^ n) ^ 2 : ℤ) * A013760 n
+
+end
+
+end A013882.P10993108450723809796
 
 /-! ## A013882.P12073905621571265962
 
@@ -7955,7 +8449,7 @@ end
 end A013882.P3160878026841635631
 
 /-!
-# A013883: 
+# A013883: a(n) = 17^(5*n + 2).
 
 The programs for A013883, there is no canonical definition to state claims against.
 -/
@@ -7974,6 +8468,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013883.P2724830769089973943
+
+/-! ## A013883.P3628600020573609599
+
+`(17^n)²*A013761(n)`
+-/
+
+namespace A013883.P3628600020573609599
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((17 ^ n) ^ 2 : ℤ) * A013761 n
+
+end
+
+end A013883.P3628600020573609599
 
 /-! ## A013883.P12214199870698257008
 
@@ -8021,7 +8530,7 @@ end
 end A013883.P7752714751184191956
 
 /-!
-# A013884: 
+# A013884: a(n) = 17^(5*n + 3).
 
 The programs for A013884, there is no canonical definition to state claims against.
 -/
@@ -8102,7 +8611,7 @@ end
 end A013884.P3457097727512700979
 
 /-!
-# A013885: 
+# A013885: a(n) = 17^(5*n + 4).
 
 The programs for A013885, there is no canonical definition to state claims against.
 -/
@@ -8167,8 +8676,23 @@ end
 
 end A013885.P4027593451255947704
 
+/-! ## A013885.P17367323900211375828
+
+`A013761(n)²/17^n`
+-/
+
+namespace A013885.P17367323900211375828
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013761 n ^ 2 : ℚ) / (17 ^ n : ℚ)
+
+end
+
+end A013885.P17367323900211375828
+
 /-!
-# A013886: 
+# A013886: a(n) = 18^(5*n + 1).
 
 The programs for A013886, there is no canonical definition to state claims against.
 -/
@@ -8187,6 +8711,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013886.P2295412063307442906
+
+/-! ## A013886.P8862895629352532786
+
+`A013887(n)/18`
+-/
+
+namespace A013886.P8862895629352532786
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013887 n : ℚ) / 18
+
+end
+
+end A013886.P8862895629352532786
 
 /-! ## A013886.P4362919303776854108
 
@@ -8234,7 +8773,7 @@ end
 end A013886.P6336417501557258632
 
 /-!
-# A013887: 
+# A013887: a(n) = 18^(5*n + 2).
 
 The programs for A013887, there is no canonical definition to state claims against.
 -/
@@ -8253,6 +8792,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013887.P1756042823833200194
+
+/-! ## A013887.P7041144897692098179
+
+`18*A013886(n)`
+-/
+
+namespace A013887.P7041144897692098179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  18 * A013886 n
+
+end
+
+end A013887.P7041144897692098179
 
 /-! ## A013887.P6865589941553221027
 
@@ -8287,8 +8841,23 @@ end
 
 end A013887.P5635574103545563074
 
+/-! ## A013887.P5095609872503108202
+
+`A013827(n)*A013839(n)`
+-/
+
+namespace A013887.P5095609872503108202
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013827 n * A013839 n
+
+end
+
+end A013887.P5095609872503108202
+
 /-!
-# A013888: 
+# A013888: a(n) = 18^(5*n + 3).
 
 The programs for A013888, there is no canonical definition to state claims against.
 -/
@@ -8308,8 +8877,68 @@ end
 
 end A013888.P15924872719604078390
 
+/-! ## A013888.P15907288375656246436
+
+`18*A013887(n)`
+-/
+
+namespace A013888.P15907288375656246436
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  18 * A013887 n
+
+end
+
+end A013888.P15907288375656246436
+
+/-! ## A013888.P17801709080859088901
+
+`A013889(n)/18`
+-/
+
+namespace A013888.P17801709080859088901
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013889 n : ℚ) / 18
+
+end
+
+end A013888.P17801709080859088901
+
+/-! ## A013888.P9815763818071375527
+
+`A013828(n)*A013840(n)`
+-/
+
+namespace A013888.P9815763818071375527
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013828 n * A013840 n
+
+end
+
+end A013888.P9815763818071375527
+
+/-! ## A013888.P9198557409350377771
+
+`A013824(n)*A013852(n)`
+-/
+
+namespace A013888.P9198557409350377771
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013824 n * A013852 n
+
+end
+
+end A013888.P9198557409350377771
+
 /-!
-# A013889: 
+# A013889: a(n) = 18^(5*n + 4).
 
 The programs for A013889, there is no canonical definition to state claims against.
 -/
@@ -8377,8 +9006,23 @@ end
 
 end A013889.P8477577232820974999
 
+/-! ## A013889.P5256816191227994396
+
+`A013829(n)*A013841(n)`
+-/
+
+namespace A013889.P5256816191227994396
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013829 n * A013841 n
+
+end
+
+end A013889.P5256816191227994396
+
 /-!
-# A013890: 
+# A013890: a(n) = 19^(5*n + 1).
 
 The programs for A013890, there is no canonical definition to state claims against.
 -/
@@ -8447,7 +9091,7 @@ end
 end A013890.P16356289782839888214
 
 /-!
-# A013891: 
+# A013891: a(n) = 19^(5*n + 2).
 
 The programs for A013891, there is no canonical definition to state claims against.
 -/
@@ -8497,8 +9141,23 @@ end
 
 end A013891.P1328602970303905089
 
+/-! ## A013891.P1641483196015829412
+
+`sqrt(A013890(n)*A013892(n))`
+-/
+
+namespace A013891.P1641483196015829412
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A013890 n * A013892 n : ℝ)
+
+end
+
+end A013891.P1641483196015829412
+
 /-!
-# A013892: 
+# A013892: a(n) = 19^(5*n + 3).
 
 The programs for A013892, there is no canonical definition to state claims against.
 -/
@@ -8548,8 +9207,23 @@ end
 
 end A013892.P3236524949013267796
 
+/-! ## A013892.P14439866410556013606
+
+`sqrt(A013891(n)*A013893(n))`
+-/
+
+namespace A013892.P14439866410556013606
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A013891 n * A013893 n : ℝ)
+
+end
+
+end A013892.P14439866410556013606
+
 /-!
-# A013893: 
+# A013893: a(n) = 19^(5*n + 4).
 
 The programs for A013893, there is no canonical definition to state claims against.
 -/
@@ -8584,6 +9258,21 @@ end
 
 end A013893.P9739060976740680134
 
+/-! ## A013893.P18198245016533133192
+
+`A013891(A318679(n+1))*A013891(n)`
+-/
+
+namespace A013893.P18198245016533133192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013891 (A318679 (n + 1)).toNat * A013891 n
+
+end
+
+end A013893.P18198245016533133192
+
 /-! ## A013893.P3514705541383211478
 
 `sqrt(19^A017365(n))`
@@ -8600,7 +9289,7 @@ end
 end A013893.P3514705541383211478
 
 /-!
-# A013894: 
+# A013894: a(n) = 20^(5*n + 1).
 
 The programs for A013894, there is no canonical definition to state claims against.
 -/
@@ -8665,8 +9354,23 @@ end
 
 end A013894.P15553991038184392428
 
+/-! ## A013894.P8997548627907877592
+
+`A013895(n)/20`
+-/
+
+namespace A013894.P8997548627907877592
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013895 n : ℚ) / 20
+
+end
+
+end A013894.P8997548627907877592
+
 /-!
-# A013895: 
+# A013895: a(n) = 20^(5*n + 2).
 
 The programs for A013895, there is no canonical definition to state claims against.
 -/
@@ -8685,6 +9389,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013895.P11153688438084076226
+
+/-! ## A013895.P18162512850670736428
+
+`20*A013894(n)`
+-/
+
+namespace A013895.P18162512850670736428
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  20 * A013894 n
+
+end
+
+end A013895.P18162512850670736428
+
+/-! ## A013895.P6114682770667011188
+
+`A013896(n)/20`
+-/
+
+namespace A013895.P6114682770667011188
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013896 n : ℚ) / 20
+
+end
+
+end A013895.P6114682770667011188
 
 /-! ## A013895.P14104327125819572823
 
@@ -8717,7 +9451,7 @@ end
 end A013895.P655440542654119331
 
 /-!
-# A013896: 
+# A013896: a(n) = 20^(5*n + 3).
 
 The programs for A013896, there is no canonical definition to state claims against.
 -/
@@ -8737,8 +9471,68 @@ end
 
 end A013896.P1396491496123376247
 
+/-! ## A013896.P3329919045116494933
+
+`20*A013895(n)`
+-/
+
+namespace A013896.P3329919045116494933
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  20 * A013895 n
+
+end
+
+end A013896.P3329919045116494933
+
+/-! ## A013896.P8354050719965752563
+
+`A013897(n)/20`
+-/
+
+namespace A013896.P8354050719965752563
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013897 n : ℚ) / 20
+
+end
+
+end A013896.P8354050719965752563
+
+/-! ## A013896.P11260526909015411389
+
+`A013725(n)*A013767(n)`
+-/
+
+namespace A013896.P11260526909015411389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013725 n * A013767 n
+
+end
+
+end A013896.P11260526909015411389
+
+/-! ## A013896.P5483230896700470081
+
+`A013832(n)*A013836(n)`
+-/
+
+namespace A013896.P5483230896700470081
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013832 n * A013836 n
+
+end
+
+end A013896.P5483230896700470081
+
 /-!
-# A013897: 
+# A013897: a(n) = 20^(5*n + 4).
 
 The programs for A013897, there is no canonical definition to state claims against.
 -/
@@ -8758,8 +9552,68 @@ end
 
 end A013897.P8225553682167177473
 
+/-! ## A013897.P3506291467770715362
+
+`20*A013896(n)`
+-/
+
+namespace A013897.P3506291467770715362
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  20 * A013896 n
+
+end
+
+end A013897.P3506291467770715362
+
+/-! ## A013897.P6479535166177360884
+
+`A013833(n)*A013837(n)`
+-/
+
+namespace A013897.P6479535166177360884
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013833 n * A013837 n
+
+end
+
+end A013897.P6479535166177360884
+
+/-! ## A013897.P17519886058868934684
+
+`A013825(n)*A013857(n)`
+-/
+
+namespace A013897.P17519886058868934684
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013825 n * A013857 n
+
+end
+
+end A013897.P17519886058868934684
+
+/-! ## A013897.P14589358243373004849
+
+`A013825(n)²*A013837(n)`
+-/
+
+namespace A013897.P14589358243373004849
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013825 n ^ 2 * A013837 n
+
+end
+
+end A013897.P14589358243373004849
+
 /-!
-# A013898: 
+# A013898: a(n) = 21^(5*n + 1).
 
 The programs for A013898, there is no canonical definition to state claims against.
 -/
@@ -8778,6 +9632,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013898.P949013005423263964
+
+/-! ## A013898.P16489283911378156195
+
+`A013899(n)/21`
+-/
+
+namespace A013898.P16489283911378156195
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013899 n : ℚ) / 21
+
+end
+
+end A013898.P16489283911378156195
 
 /-! ## A013898.P13919603619530124548
 
@@ -8809,8 +9678,23 @@ end
 
 end A013898.P5913913074066648411
 
+/-! ## A013898.P3087487304209229895
+
+`A013826(n)*A013842(n)`
+-/
+
+namespace A013898.P3087487304209229895
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013826 n * A013842 n
+
+end
+
+end A013898.P3087487304209229895
+
 /-!
-# A013899: 
+# A013899: a(n) = 21^(5*n + 2).
 
 The programs for A013899, there is no canonical definition to state claims against.
 -/
@@ -8829,6 +9713,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013899.P6717353824430861248
+
+/-! ## A013899.P2946345687409648457
+
+`21*A013898(n)`
+-/
+
+namespace A013899.P2946345687409648457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  21 * A013898 n
+
+end
+
+end A013899.P2946345687409648457
+
+/-! ## A013899.P9385979216370943022
+
+`A013900(n)/21`
+-/
+
+namespace A013899.P9385979216370943022
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013900 n : ℚ) / 21
+
+end
+
+end A013899.P9385979216370943022
 
 /-! ## A013899.P6461804359549499219
 

@@ -4,11 +4,10 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C014
 import Seq.B000.C019
-import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C042
+import Seq.B000.C031
+import Seq.B000.C036
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C006
 import Seq.B002.C001
@@ -21,6 +20,7 @@ import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C006
@@ -30,8 +30,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C020
-import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -61,20 +59,20 @@ end A042601.P5127671634528279790
 The programs for A042603, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042603.P13624375287705484942
+/-! ## A042603.P9842741170376486749
 
-`A151735(A365073(n)/A080853(n))`
+`1+A022333(A163632(n+1))*n`
 -/
 
-namespace A042603.P13624375287705484942
+namespace A042603.P9842741170376486749
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151735 (SequenceMachineLib.roundAway ((A365073 n : ℚ) / (A080853 n : ℚ))).toNat
+  1 + A022333 (A163632 (n + 1)).toNat * (n : ℤ)
 
 end
 
-end A042603.P13624375287705484942
+end A042603.P9842741170376486749
 
 /-!
 # A042609: Denominators of continued fraction convergents to sqrt(833).

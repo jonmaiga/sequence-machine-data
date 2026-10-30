@@ -4,7 +4,8 @@ import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C043
+import Seq.B000.C033
+import Seq.B000.C044
 import Seq.B002.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -411,6 +412,21 @@ end
 
 end A168970.P11384627252512784006
 
+/-! ## A168970.P593326515592661518
+
+`A003947(n)-A010894(A341847(n))`
+-/
+
+namespace A168970.P593326515592661518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003947 n - A010894 ((A341847 n).toNat + 21)
+
+end
+
+end A168970.P593326515592661518
+
 /-! ## A168970.P1210440094557764651
 
 `A003947(n)-A268584(A225910(n))`
@@ -440,22 +456,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A168970.P13438883574522945737
-
-/-! ## A168970.P13444573221868175443
-
-`A084215(Δ[n²])/2-A268584(A225910(n))`
--/
-
-namespace A168970.P13444573221868175443
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A084215 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat : ℚ) / 2 - (A268584 (A225910 n).toNat : ℚ)
-
-end
-
-end A168970.P13444573221868175443
 

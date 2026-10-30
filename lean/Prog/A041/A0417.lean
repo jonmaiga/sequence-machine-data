@@ -6,6 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C019
@@ -17,11 +18,10 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B011.C000
+import Seq.B004.C003
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -29,9 +29,9 @@ import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -315,6 +315,21 @@ end A041731.P6768245883406642089
 The programs for A041733, there is no canonical definition to state claims against.
 -/
 
+/-! ## A041733.P637874482824315849
+
+`A164297(A049774(n))+A140997(n+2)`
+-/
+
+namespace A041733.P637874482824315849
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164297 (A049774 n).toNat + A140997 (n + 2)
+
+end
+
+end A041733.P637874482824315849
+
 /-! ## A041733.P17482833634729782307
 
 `A326046(2*(n+1))+A164297(A049774(n))`
@@ -371,6 +386,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A041737.P11982445200976846080
+
+/-!
+# A041739: Denominators of continued fraction convergents to sqrt(389).
+
+The programs for A041739, there is no canonical definition to state claims against.
+-/
+
+/-! ## A041739.P12469844070291506709
+
+`A127286(A280000(n+1)+n)`
+-/
+
+namespace A041739.P12469844070291506709
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127286 (A280000 (n + 1) + (n : ℤ)).toNat
+
+end
+
+end A041739.P12469844070291506709
 
 /-!
 # A041741: Denominators of continued fraction convergents to sqrt(390).
@@ -1017,6 +1053,21 @@ end
 
 end A041766.P17648089782734837964
 
+/-! ## A041766.P8301652172854689832
+
+`A040000(A035363(n))*A041180(n)`
+-/
+
+namespace A041766.P8301652172854689832
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040000 (A035363 n).toNat * A041180 n
+
+end
+
+end A041766.P8301652172854689832
+
 /-!
 # A041767: Denominators of continued fraction convergents to sqrt(404).
 
@@ -1068,6 +1119,24 @@ end
 
 end A041767.P2079915771582400705
 
+/-! ## A041767.P3622095671175600477
+
+`A041181(n)/Δ[A001651(n+1)]`
+-/
+
+namespace A041767.P3622095671175600477
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001651 (n + 1)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041181 n : ℚ) / (f1 (n + 1) - f1 n : ℚ)
+
+end
+
+end A041767.P3622095671175600477
+
 /-! ## A041767.P16698813041751889041
 
 `A041181(n)/A001511(A081346(n))`
@@ -1082,6 +1151,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A041767.P16698813041751889041
+
+/-! ## A041767.P10678142074811600658
+
+`A041181(n)/A040000(A007814(n+1))`
+-/
+
+namespace A041767.P10678142074811600658
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041181 n : ℚ) / (A040000 (A007814 (n + 1)).toNat : ℚ)
+
+end
+
+end A041767.P10678142074811600658
 
 /-!
 # A041768: Numerators of continued fraction convergents to sqrt(405).
@@ -1248,6 +1332,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A041774.P16946134107374838203
+
+/-! ## A041774.P14046822757671586080
+
+`Δ[A007494(n)]*A041182(n)`
+-/
+
+namespace A041774.P14046822757671586080
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007494 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) - f1 n) * A041182 n
+
+end
+
+end A041774.P14046822757671586080
 
 /-! ## A041774.P10842322947053447266
 

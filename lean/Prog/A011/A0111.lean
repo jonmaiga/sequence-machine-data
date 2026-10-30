@@ -18,17 +18,16 @@ import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.Opaque.C000
@@ -37,6 +36,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C012
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -66,6 +66,29 @@ def P17481865900931100884.Spec : Prop :=
 theorem P17481865900931100884.correct : P17481865900931100884.Spec := by
   intro n
   simp only [A011117]
+
+end A011117
+
+/-! ## A011117.P16195269567603650274
+
+`T(n-1,k)+2*T(row(n), col(n)-1)-T(n-1,k-1)` with `a(0)=1`
+-/
+
+namespace A011117.P16195269567603650274
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  SequenceMachineLib.triUp a n + 2 * SequenceMachineLib.triAt a (SequenceMachineLib.triRow n : ℤ) ((SequenceMachineLib.triCol n : ℤ) - 1) - SequenceMachineLib.triUpLeft a n
+
+end
+
+end A011117.P16195269567603650274
+
+namespace A011117
+
+/-- `T(n-1,k)+2*T(row(n), col(n)-1)-T(n-1,k-1)` -/
+def P16195269567603650274.Spec : Prop :=
+  ∀ n, P16195269567603650274.a n = A011117 n
 
 end A011117
 
@@ -1226,29 +1249,29 @@ def P14097504807144907941.Spec : Prop :=
 
 end A011199
 
-/-! ## A011199.P5014761994846348828
+/-! ## A011199.P1737493572411653404
 
-`(2*n+1)*∑[a(n-1)+6]` with `a(0)=1`
+`(2*n+1)*∑[6+a(n-1)]` with `a(0)=1`
 -/
 
-namespace A011199.P5014761994846348828
+namespace A011199.P1737493572411653404
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f1 =>
-  f1 (n - 1) + 6
+  6 + f1 (n - 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   (2 * n + 1) * (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A011199.P5014761994846348828
+end A011199.P1737493572411653404
 
 namespace A011199
 
-/-- `(2*n+1)*∑[a(n-1)+6]` -/
-def P5014761994846348828.Spec : Prop :=
-  ∀ n, (P5014761994846348828.a n : ℤ) = A011199 n
+/-- `(2*n+1)*∑[6+a(n-1)]` -/
+def P1737493572411653404.Spec : Prop :=
+  ∀ n, (P1737493572411653404.a n : ℤ) = A011199 n
 
 end A011199
 

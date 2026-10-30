@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -18,7 +17,7 @@ import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
@@ -26,23 +25,26 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C044
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -53,7 +55,6 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -66,7 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1502,6 +1502,21 @@ end
 
 end A300315.P11786845235704618225
 
+/-! ## A300315.P7437974248297826406
+
+`A160338(n+1)*A300321(A001844(n))`
+-/
+
+namespace A300315.P7437974248297826406
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160338 (n + 1) * A300321 (A001844 n).toNat
+
+end
+
+end A300315.P7437974248297826406
+
 /-! ## A300315.P14662078325746119290
 
 `A300321(A001844(n))+A027656(A001844(n))`
@@ -2324,6 +2339,27 @@ end A300325.P16280410341249383961
 
 The programs for A300326, there is no canonical definition to state claims against.
 -/
+
+/-! ## A300326.P14900236817439475740
+
+`∑[∑{#}[n, #*(n+1)^#]]`
+-/
+
+namespace A300326.P14900236817439475740
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f2 n + 1), k * (n + 1) ^ k
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A300326.P14900236817439475740
 
 /-! ## A300326.P4815461312975333036
 
@@ -3608,20 +3644,20 @@ end
 
 end A300342.P11081975866269178776
 
-/-! ## A300342.P14053188242001086544
+/-! ## A300342.P3052633750181952502
 
-`or(A156241(A299721(3*n+1)), A299721(n+1))`
+`A299721(n+1)+A025469(A235413(n+1))`
 -/
 
-namespace A300342.P14053188242001086544
+namespace A300342.P3052633750181952502
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A156241 (A299721 (3 * n + 1)).toNat) (A299721 (n + 1))
+  A299721 (n + 1) + A025469 (A235413 (n + 1)).toNat
 
 end
 
-end A300342.P14053188242001086544
+end A300342.P3052633750181952502
 
 /-!
 # A300343: Number of n X n 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -4068,6 +4104,51 @@ end
 
 end A300347.P6910238253070844244
 
+/-! ## A300347.P4529059225824536758
+
+`A300350(A046691(n+3))+A000038(2*(n+2))`
+-/
+
+namespace A300347.P4529059225824536758
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300350 (A046691 (n + 3)).toNat + A000038 (2 * (n + 2))
+
+end
+
+end A300347.P4529059225824536758
+
+/-! ## A300347.P17567402295773553106
+
+`A300372(A000124(n))+A300350(A046691(n+3))`
+-/
+
+namespace A300347.P17567402295773553106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300372 (A000124 n).toNat + A300350 (A046691 (n + 3)).toNat
+
+end
+
+end A300347.P17567402295773553106
+
+/-! ## A300347.P13541483273160021388
+
+`A014963(A209149(3*n+4))*A300350(A046691(n+3))`
+-/
+
+namespace A300347.P13541483273160021388
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014963 (A209149 (3 * n + 4)).toNat * A300350 (A046691 (n + 3)).toNat
+
+end
+
+end A300347.P13541483273160021388
+
 /-!
 # A300348: Number of nX6 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
@@ -4368,6 +4449,21 @@ end
 
 end A300355.P2500551470278865208
 
+/-! ## A300355.P8570474455639908947
+
+`A293137(A000142(n))-A176866(2*(n+2))`
+-/
+
+namespace A300355.P8570474455639908947
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293137 (A000142 n).toNat - A176866 (2 * (n + 2))
+
+end
+
+end A300355.P8570474455639908947
+
 /-!
 # A300357: a(n) is the smallest number whose number of divisors is the n-th odd square.
 
@@ -4392,20 +4488,35 @@ end
 
 end A300357.P16700925027657030225
 
-/-! ## A300357.P9639588355324923308
+/-! ## A300357.P5208005431284986967
 
-`A061708(n+1)²`
+`A061708(1+n)²`
 -/
 
-namespace A300357.P9639588355324923308
+namespace A300357.P5208005431284986967
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061708 (n + 1) ^ 2
+  A061708 (1 + n) ^ 2
 
 end
 
-end A300357.P9639588355324923308
+end A300357.P5208005431284986967
+
+/-! ## A300357.P1515078662449850525
+
+`A061708(n+1)*A061708(n+1)`
+-/
+
+namespace A300357.P1515078662449850525
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061708 (n + 1) * A061708 (n + 1)
+
+end
+
+end A300357.P1515078662449850525
 
 /-! ## A300357.P17063915497790164828
 
@@ -4422,20 +4533,20 @@ end
 
 end A300357.P17063915497790164828
 
-/-! ## A300357.P2096560431669525568
+/-! ## A300357.P3144757613078743442
 
-`A061708(n+1)^A000005(A061733(n+1))`
+`A061708(n+1)^A000005(A212376(n+1))`
 -/
 
-namespace A300357.P2096560431669525568
+namespace A300357.P3144757613078743442
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A061708 (n + 1) : ℚ) ^ (A000005 (A061733 (n + 1)).toNat : ℤ)
+  (A061708 (n + 1) : ℚ) ^ (A000005 (A212376 (n + 1)).toNat : ℤ)
 
 end
 
-end A300357.P2096560431669525568
+end A300357.P3144757613078743442
 
 /-!
 # A300359: Primes of a056240-type 3.
@@ -4689,23 +4800,23 @@ end A300366.P3696831105605871187
 The programs for A300367, there is no canonical definition to state claims against.
 -/
 
-/-! ## A300367.P11181323197458492444
+/-! ## A300367.P5237153384791292971
 
-`A300372(∑[n+2]+4)`
+`A300372(∑[2+n]+4)`
 -/
 
-namespace A300367.P11181323197458492444
+namespace A300367.P5237153384791292971
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A300372 (∑ j ∈ Finset.range (n + 1), f1 j + 4)
 
 end
 
-end A300367.P11181323197458492444
+end A300367.P5237153384791292971
 
 /-! ## A300367.P12735489836180857587
 
@@ -5767,6 +5878,21 @@ end A300378.P7181887124742711021
 The programs for A300379, there is no canonical definition to state claims against.
 -/
 
+/-! ## A300379.P16568218371103167933
+
+`A300380(A302537(n)+27)`
+-/
+
+namespace A300379.P16568218371103167933
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300380 (A302537 n + 27).toNat
+
+end
+
+end A300379.P16568218371103167933
+
 /-! ## A300379.P13766618338017326592
 
 `A300380(A056119(n)+28)`
@@ -5832,21 +5958,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300379.P12103820106963941844
-
-/-! ## A300379.P13443089194097051386
-
-`A300380(A000217(n+6)+7)`
--/
-
-namespace A300379.P13443089194097051386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300380 (A000217 (n + 6) + 7).toNat
-
-end
-
-end A300379.P13443089194097051386
 
 /-!
 # A300380: T(n,k)=Number of nXk 0..1 arrays with every element equal to 0, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -6197,7 +6308,7 @@ end
 end A300393.P9439762722500335187
 
 /-!
-# A300396: 
+# A300396: Number of ways to write n^2 as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers and z <= w such that 2*x or y is a power of 4 (including 4^0 = 1) and x + 63*y = 2^(2k+1) for some k = 0,1,2,....
 
 The programs for A300396, there is no canonical definition to state claims against.
 -/

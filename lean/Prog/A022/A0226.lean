@@ -10,21 +10,22 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
@@ -32,7 +33,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.Opaque.C000
@@ -41,7 +41,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
@@ -53,6 +52,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 
 /-!
 # A022600: Expansion of Product_{m>=1} (1+q^m)^(-5).
@@ -248,6 +248,24 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A022601.P14260719254036432373
+
+/-! ## A022601.P9885458486060993613
+
+`∑{#}[n, A022598(#)*A022598(n-#)]`
+-/
+
+namespace A022601.P9885458486060993613
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022598 k * A022598 (n - k)
+
+end
+
+end A022601.P9885458486060993613
 
 /-! ## A022601.P271071526134094209
 
@@ -506,6 +524,24 @@ end A022604.P1750032741528396161
 
 The programs for A022605, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022605.P17936226409695645794
+
+`∑{#}[n, A022600(#)*A022600(n-#)]`
+-/
+
+namespace A022605.P17936226409695645794
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022600 k * A022600 (n - k)
+
+end
+
+end A022605.P17936226409695645794
 
 /-! ## A022605.P4726704190135524362
 
@@ -798,6 +834,24 @@ end A022608.P17923224255696566192
 The programs for A022609, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022609.P15956265928424950523
+
+`∑{#}[n, A022602(#)*A022602(n-#)]`
+-/
+
+namespace A022609.P15956265928424950523
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022602 k * A022602 (n - k)
+
+end
+
+end A022609.P15956265928424950523
+
 /-! ## A022609.P296772840888160761
 
 `A286352(eq[14, A025581(n)])`
@@ -1023,6 +1077,24 @@ end A022610.P14230137133657120955
 The programs for A022611, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022611.P17129369212654608494
+
+`∑{#}[n, A007259(#)*A007259(n-#)]`
+-/
+
+namespace A022611.P17129369212654608494
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A007259 k * A007259 (n - k)
+
+end
+
+end A022611.P17129369212654608494
+
 /-! ## A022611.P4367497098020110905
 
 `A286352(eq[16, A025581(n)])`
@@ -1239,6 +1311,24 @@ end A022612.P8313799892751238360
 The programs for A022613, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022613.P11214632567147876491
+
+`∑{#}[n, A022604(#)*A022604(n-#)]`
+-/
+
+namespace A022613.P11214632567147876491
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022604 k * A022604 (n - k)
+
+end
+
+end A022613.P11214632567147876491
+
 /-! ## A022613.P5762518505274942143
 
 `A286352(eq[19, A004736(n+1)])`
@@ -1329,6 +1419,24 @@ end A022614.P12947659783854869282
 The programs for A022615, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022615.P17768552451343138735
+
+`∑{#}[n, A022605(#)*A022605(n-#)]`
+-/
+
+namespace A022615.P17768552451343138735
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022605 k * A022605 (n - k)
+
+end
+
+end A022615.P17768552451343138735
+
 /-! ## A022615.P4620975175169380658
 
 `A286352(eq[20, A025581(n)])`
@@ -1349,6 +1457,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022615.P4620975175169380658
+
+/-!
+# A022617: Expansion of Product_{m>=1} (1+q^m)^(-22).
+
+The programs for A022617, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022617.P17433761751901793402
+
+`∑{#}[n, A022606(#)*A022606(n-#)]`
+-/
+
+namespace A022617.P17433761751901793402
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022606 k * A022606 (n - k)
+
+end
+
+end A022617.P17433761751901793402
 
 /-!
 # A022619: Triangle T(n,k)of numbers of asymmetric Boolean functions of n variables with exactly k = 0..2^n nonzero values (atoms) under action of complementing group C(n,2).
@@ -1437,6 +1569,24 @@ end A022619.P12407069014003062894
 The programs for A022621, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022621.P4017632550006817407
+
+`∑{#}[n, A022608(#)*A022608(n-#)]`
+-/
+
+namespace A022621.P4017632550006817407
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022608 k * A022608 (n - k)
+
+end
+
+end A022621.P4017632550006817407
+
 /-! ## A022621.P11893290668647329660
 
 `A286352(eq[27, A004736(n+1)])`
@@ -1463,6 +1613,24 @@ end A022621.P11893290668647329660
 
 The programs for A022623, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022623.P3489629073184800200
+
+`∑{#}[n, A022609(#)*A022609(n-#)]`
+-/
+
+namespace A022623.P3489629073184800200
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022609 k * A022609 (n - k)
+
+end
+
+end A022623.P3489629073184800200
 
 /-! ## A022623.P55681416822712812
 
@@ -1491,6 +1659,24 @@ end A022623.P55681416822712812
 The programs for A022625, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022625.P17032086170310292746
+
+`∑{#}[n, A022610(#)*A022610(n-#)]`
+-/
+
+namespace A022625.P17032086170310292746
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022610 k * A022610 (n - k)
+
+end
+
+end A022625.P17032086170310292746
+
 /-! ## A022625.P11285744202599954626
 
 `A286352(eq[31, A004736(n+1)])`
@@ -1511,6 +1697,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022625.P11285744202599954626
+
+/-!
+# A022627: Expansion of Product_{m>=1} (1+q^m)^(-32).
+
+The programs for A022627, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022627.P2363402726154761744
+
+`∑{#}[n, A022611(#)*A022611(n-#)]`
+-/
+
+namespace A022627.P2363402726154761744
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022611 k * A022611 (n - k)
+
+end
+
+end A022627.P2363402726154761744
 
 /-!
 # A022628: Expansion of 1/((1-x)*(1-5*x)*(1-8*x)*(1-11*x)).
@@ -1761,6 +1971,42 @@ end
 
 end A022629.P5736066184894657801
 
+/-! ## A022629.P906321404657561926
+
+`∑{#}[n, C(n, #)*A307260(#)]`
+-/
+
+namespace A022629.P906321404657561926
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A307260 k
+
+end
+
+end A022629.P906321404657561926
+
+/-! ## A022629.P9667022332006983117
+
+`∑{#}[n, (-1)^(n-#)*C(n, #)*A307259(#)]`
+-/
+
+namespace A022629.P9667022332006983117
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (A307259 k : ℚ)
+
+end
+
+end A022629.P9667022332006983117
+
 /-! ## A022629.P503902653250391956
 
 `A297321(∑[n+2]-1)`
@@ -1812,41 +2058,29 @@ end
 
 end A022629.P11058891329426899007
 
-/-! ## A022629.P16222336451485746584
-
-`A297321(A052905(n)-n)+A005843(n)%2`
--/
-
-namespace A022629.P16222336451485746584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A297321 (A052905 n - (n : ℤ)).toNat + Int.tmod (A005843 n) 2
-
-end
-
-end A022629.P16222336451485746584
-
-/-! ## A022629.P13903956509298611734
-
-`A094024(2*(n+1))*A297321(A034856(n+1))`
--/
-
-namespace A022629.P13903956509298611734
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094024 (2 * (n + 1)) * A297321 (A034856 (n + 1)).toNat
-
-end
-
-end A022629.P13903956509298611734
-
 /-!
 # A022630: Expansion of Product_{m>=1} (1 + m*q^m)^2.
 
 The programs for A022630, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022630.P448737546069974503
+
+`∑{#}[n, A022629(#)*A022629(n-#)]`
+-/
+
+namespace A022630.P448737546069974503
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022629 k * A022629 (n - k)
+
+end
+
+end A022630.P448737546069974503
 
 /-! ## A022630.P15383934066932110616
 
@@ -2055,6 +2289,24 @@ end A022631.P5418837900887765658
 The programs for A022632, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022632.P7876013433551349342
+
+`∑{#}[n, A022630(#)*A022630(n-#)]`
+-/
+
+namespace A022632.P7876013433551349342
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022630 k * A022630 (n - k)
+
+end
+
+end A022632.P7876013433551349342
+
 /-! ## A022632.P15407342885006504122
 
 `A297321(∑[n+5]+5)`
@@ -2216,21 +2468,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022632.P16120398730791527252
-
-/-! ## A022632.P10551864573095848202
-
-`A000035(2*n+1)*A297321(A052905(n+2))`
--/
-
-namespace A022632.P10551864573095848202
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (2 * n + 1) * A297321 (A052905 (n + 2)).toNat
-
-end
-
-end A022632.P10551864573095848202
 
 /-!
 # A022633: Expansion of Product_{m>=1} (1 + m*q^m)^5.
@@ -2405,6 +2642,24 @@ end A022633.P18395996759043032807
 
 The programs for A022634, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022634.P15214271901510548862
+
+`∑{#}[n, A022631(#)*A022631(n-#)]`
+-/
+
+namespace A022634.P15214271901510548862
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022631 k * A022631 (n - k)
+
+end
+
+end A022634.P15214271901510548862
 
 /-! ## A022634.P2887058952067720398
 
@@ -2733,6 +2988,24 @@ end A022635.P10032826478095838101
 The programs for A022636, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022636.P17486479002304114564
+
+`∑{#}[n, A022632(#)*A022632(n-#)]`
+-/
+
+namespace A022636.P17486479002304114564
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022632 k * A022632 (n - k)
+
+end
+
+end A022636.P17486479002304114564
+
 /-! ## A022636.P13798623346153157344
 
 `A297321(A134227(n+7)-3)`
@@ -2924,6 +3197,24 @@ end A022637.P7294656477932937746
 
 The programs for A022638, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022638.P7910247422514511004
+
+`∑{#}[n, A022633(#)*A022633(n-#)]`
+-/
+
+namespace A022638.P7910247422514511004
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022633 k * A022633 (n - k)
+
+end
+
+end A022638.P7910247422514511004
 
 /-! ## A022638.P2763394649888131405
 
@@ -3119,6 +3410,24 @@ end A022639.P12257016821668962697
 
 The programs for A022640, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022640.P15845659632662173218
+
+`∑{#}[n, A022634(#)*A022634(n-#)]`
+-/
+
+namespace A022640.P15845659632662173218
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022634 k * A022634 (n - k)
+
+end
+
+end A022640.P15845659632662173218
 
 /-! ## A022640.P9282557748386253582
 
@@ -3317,6 +3626,24 @@ end A022641.P1642660296410545972
 
 The programs for A022642, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022642.P5443394927028626959
+
+`∑{#}[n, A022635(#)*A022635(n-#)]`
+-/
+
+namespace A022642.P5443394927028626959
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022635 k * A022635 (n - k)
+
+end
+
+end A022642.P5443394927028626959
 
 /-! ## A022642.P5416647868658831400
 
@@ -3522,6 +3849,24 @@ end A022643.P5165096014766899391
 The programs for A022644, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022644.P13156075232538147531
+
+`∑{#}[n, A022636(#)*A022636(n-#)]`
+-/
+
+namespace A022644.P13156075232538147531
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022636 k * A022636 (n - k)
+
+end
+
+end A022644.P13156075232538147531
+
 /-! ## A022644.P9884094650881324940
 
 `A297321(eq[16, A025581(n)])`
@@ -3605,24 +3950,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022644.P4372889064535824953
-
-/-! ## A022644.P16395512786079856734
-
-`record[A297321(A132315(n+1))]`
--/
-
-namespace A022644.P16395512786079856734
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A297321 (A132315 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A022644.P16395512786079856734
 
 /-!
 # A022645: Expansion of Product_{m>=1} (1 + m*q^m)^17.
@@ -3741,6 +4068,24 @@ end A022645.P8115968885567786187
 The programs for A022646, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022646.P18161531685106376081
+
+`∑{#}[n, A022637(#)*A022637(n-#)]`
+-/
+
+namespace A022646.P18161531685106376081
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022637 k * A022637 (n - k)
+
+end
+
+end A022646.P18161531685106376081
+
 /-! ## A022646.P14916201372078886019
 
 `A297321(eq[19, A004736(n+1)])`
@@ -3794,6 +4139,24 @@ end A022647.P3862392630888824548
 
 The programs for A022648, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022648.P7125677830553049393
+
+`∑{#}[n, A022638(#)*A022638(n-#)]`
+-/
+
+namespace A022648.P7125677830553049393
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022638 k * A022638 (n - k)
+
+end
+
+end A022648.P7125677830553049393
 
 /-! ## A022648.P8131804644177927325
 
@@ -3865,10 +4228,52 @@ end
 end A022649.P416100836184142930
 
 /-!
+# A022650: Expansion of Product_{m>=1} (1+m*q^m)^22.
+
+The programs for A022650, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022650.P2518373445088249691
+
+`∑{#}[n, A022639(#)*A022639(n-#)]`
+-/
+
+namespace A022650.P2518373445088249691
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022639 k * A022639 (n - k)
+
+end
+
+end A022650.P2518373445088249691
+
+/-!
 # A022652: Expansion of Product_{m>=1} (1+m*q^m)^24.
 
 The programs for A022652, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022652.P14180538050453763963
+
+`∑{#}[n, A022640(#)*A022640(n-#)]`
+-/
+
+namespace A022652.P14180538050453763963
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022640 k * A022640 (n - k)
+
+end
+
+end A022652.P14180538050453763963
 
 /-! ## A022652.P8115494941465382949
 
@@ -3940,10 +4345,52 @@ end
 end A022653.P16308351743628640184
 
 /-!
+# A022654: Expansion of Product_{m>=1} (1+m*q^m)^26.
+
+The programs for A022654, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022654.P6957506325218827070
+
+`∑{#}[n, A022641(#)*A022641(n-#)]`
+-/
+
+namespace A022654.P6957506325218827070
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022641 k * A022641 (n - k)
+
+end
+
+end A022654.P6957506325218827070
+
+/-!
 # A022656: Expansion of Product_{m>=1} (1+m*q^m)^28.
 
 The programs for A022656, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022656.P16448141992136334349
+
+`∑{#}[n, A022642(#)*A022642(n-#)]`
+-/
+
+namespace A022656.P16448141992136334349
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022642 k * A022642 (n - k)
+
+end
+
+end A022656.P16448141992136334349
 
 /-! ## A022656.P5539981771776027157
 
@@ -4015,6 +4462,30 @@ end
 end A022657.P4488586434029768214
 
 /-!
+# A022658: Expansion of Product_{m>=1} (1+m*q^m)^30.
+
+The programs for A022658, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022658.P14067720438557096692
+
+`∑{#}[n, A022643(#)*A022643(n-#)]`
+-/
+
+namespace A022658.P14067720438557096692
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022643 k * A022643 (n - k)
+
+end
+
+end A022658.P14067720438557096692
+
+/-!
 # A022659: Expansion of Product_{m>=1} (1+m*q^m)^31.
 
 The programs for A022659, there is no canonical definition to state claims against.
@@ -4040,6 +4511,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022659.P4317824278124449007
+
+/-!
+# A022660: Expansion of Product_{m>=1} (1+m*q^m)^32.
+
+The programs for A022660, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022660.P6683615486701707200
+
+`∑{#}[n, A022644(#)*A022644(n-#)]`
+-/
+
+namespace A022660.P6683615486701707200
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022644 k * A022644 (n - k)
+
+end
+
+end A022660.P6683615486701707200
 
 /-!
 # A022661: Expansion of Product_{m>=1} (1-m*q^m).
@@ -4209,6 +4704,24 @@ end A022661.P7602698583154357865
 The programs for A022662, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022662.P810149811639870107
+
+`∑{#}[n, A022661(#)*A022661(n-#)]`
+-/
+
+namespace A022662.P810149811639870107
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022661 k * A022661 (n - k)
+
+end
+
+end A022662.P810149811639870107
+
 /-! ## A022662.P13344309331242357267
 
 `A297323(∑[n+3])`
@@ -4272,21 +4785,6 @@ end
 
 end A022662.P18434893450714492920
 
-/-! ## A022662.P10666422308769422669
-
-`A332281(n)+A297323(A141214(n))`
--/
-
-namespace A022662.P10666422308769422669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332281 n + A297323 (A141214 n).toNat
-
-end
-
-end A022662.P10666422308769422669
-
 /-!
 # A022663: Expansion of Product_{m>=1} (1 - m*q^m)^3.
 
@@ -4325,6 +4823,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022663.P7739286360174959141
+
+/-!
+# A022664: Expansion of Product_{m>=1} (1 - m*q^m)^4.
+
+The programs for A022664, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022664.P15648148442008073692
+
+`∑{#}[n, A022662(#)*A022662(n-#)]`
+-/
+
+namespace A022664.P15648148442008073692
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022662 k * A022662 (n - k)
+
+end
+
+end A022664.P15648148442008073692
 
 /-!
 # A022665: Expansion of Product_{m>=1} (1 - m*q^m)^5.
@@ -4390,37 +4912,364 @@ end
 end A022665.P17096921971736534794
 
 /-!
+# A022666: Expansion of Product_{m>=1} (1 - m*q^m)^6.
+
+The programs for A022666, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022666.P6089333859327824205
+
+`∑{#}[n, A022663(#)*A022663(n-#)]`
+-/
+
+namespace A022666.P6089333859327824205
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022663 k * A022663 (n - k)
+
+end
+
+end A022666.P6089333859327824205
+
+/-!
+# A022668: Expansion of Product_{m>=1} (1 - m*q^m)^8.
+
+The programs for A022668, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022668.P15298584837107379768
+
+`∑{#}[n, A022664(#)*A022664(n-#)]`
+-/
+
+namespace A022668.P15298584837107379768
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022664 k * A022664 (n - k)
+
+end
+
+end A022668.P15298584837107379768
+
+/-!
 # A022670: Expansion of Product_{m >= 1} (1-m*q^m)^10.
 
 The programs for A022670, there is no canonical definition to state claims against.
 -/
 
-/-! ## A022670.P10381216496488346964
+/-! ## A022670.P8533000552176688058
 
-`A341831(∑[∑[A081016(n)]])`
+`∑{#}[n, A022665(#)*A022665(n-#)]`
 -/
 
-namespace A022670.P10381216496488346964
+namespace A022670.P8533000552176688058
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081016 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341831 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+  ∑ k ∈ Finset.range (f1 n + 1), A022665 k * A022665 (n - k)
 
 end
 
-end A022670.P10381216496488346964
+end A022670.P8533000552176688058
+
+/-!
+# A022672: Expansion of Product_{m >= 1} (1-m*q^m)^12.
+
+The programs for A022672, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022672.P14360193127986135695
+
+`∑{#}[n, A022666(#)*A022666(n-#)]`
+-/
+
+namespace A022672.P14360193127986135695
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022666 k * A022666 (n - k)
+
+end
+
+end A022672.P14360193127986135695
+
+/-!
+# A022674: Expansion of Product_{m >= 1} (1-m*q^m)^14.
+
+The programs for A022674, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022674.P15127004688155303561
+
+`∑{#}[n, A022667(#)*A022667(n-#)]`
+-/
+
+namespace A022674.P15127004688155303561
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022667 k * A022667 (n - k)
+
+end
+
+end A022674.P15127004688155303561
+
+/-!
+# A022676: Expansion of Product_{m >= 1} (1-m*q^m)^16.
+
+The programs for A022676, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022676.P4266979270087114848
+
+`∑{#}[n, A022668(#)*A022668(n-#)]`
+-/
+
+namespace A022676.P4266979270087114848
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022668 k * A022668 (n - k)
+
+end
+
+end A022676.P4266979270087114848
+
+/-!
+# A022678: Expansion of Product_{m>=1} (1-m*q^m)^18.
+
+The programs for A022678, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022678.P16625627760818352692
+
+`∑{#}[n, A022669(#)*A022669(n-#)]`
+-/
+
+namespace A022678.P16625627760818352692
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022669 k * A022669 (n - k)
+
+end
+
+end A022678.P16625627760818352692
+
+/-!
+# A022680: Expansion of Product_{m>=1} (1-m*q^m)^20.
+
+The programs for A022680, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022680.P747584639783467136
+
+`∑{#}[n, A022670(#)*A022670(n-#)]`
+-/
+
+namespace A022680.P747584639783467136
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022670 k * A022670 (n - k)
+
+end
+
+end A022680.P747584639783467136
+
+/-!
+# A022682: Expansion of Product_{m>=1} (1-m*q^m)^22.
+
+The programs for A022682, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022682.P17516764804619420409
+
+`∑{#}[n, A022671(#)*A022671(n-#)]`
+-/
+
+namespace A022682.P17516764804619420409
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022671 k * A022671 (n - k)
+
+end
+
+end A022682.P17516764804619420409
+
+/-!
+# A022684: Expansion of Product_{m>=1} (1-m*q^m)^24.
+
+The programs for A022684, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022684.P10253821518380157804
+
+`∑{#}[n, A022672(#)*A022672(n-#)]`
+-/
+
+namespace A022684.P10253821518380157804
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022672 k * A022672 (n - k)
+
+end
+
+end A022684.P10253821518380157804
+
+/-!
+# A022686: Expansion of Product_{m>=1} (1-m*q^m)^26.
+
+The programs for A022686, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022686.P15063253733816183106
+
+`∑{#}[n, A022673(#)*A022673(n-#)]`
+-/
+
+namespace A022686.P15063253733816183106
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022673 k * A022673 (n - k)
+
+end
+
+end A022686.P15063253733816183106
+
+/-!
+# A022688: Expansion of Product_{m>=1} (1-m*q^m)^28.
+
+The programs for A022688, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022688.P17685971204971192014
+
+`∑{#}[n, A022674(#)*A022674(n-#)]`
+-/
+
+namespace A022688.P17685971204971192014
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022674 k * A022674 (n - k)
+
+end
+
+end A022688.P17685971204971192014
+
+/-!
+# A022690: Expansion of Product_{m>=1} (1-m*q^m)^30.
+
+The programs for A022690, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022690.P14760420878166456154
+
+`∑{#}[n, A022675(#)*A022675(n-#)]`
+-/
+
+namespace A022690.P14760420878166456154
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022675 k * A022675 (n - k)
+
+end
+
+end A022690.P14760420878166456154
+
+/-!
+# A022692: Expansion of Product_{m>=1} (1-m*q^m)^32.
+
+The programs for A022692, there is no canonical definition to state claims against.
+-/
+
+/-! ## A022692.P8054978149702091872
+
+`∑{#}[n, A022676(#)*A022676(n-#)]`
+-/
+
+namespace A022692.P8054978149702091872
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022676 k * A022676 (n - k)
+
+end
+
+end A022692.P8054978149702091872
 
 /-!
 # A022693: Expansion of Product_{m>=1} 1/(1 + m*q^m).
 
 The programs for A022693, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022693.P91745151008269188
+
+`∑{#}[n, (-1)^#*A368091(C(n+1, 2)+#)]`
+-/
+
+namespace A022693.P91745151008269188
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1) ^ k * A368091 (Nat.choose (n + 1) 2 + k)
+
+end
+
+end A022693.P91745151008269188
 
 /-! ## A022693.P2605974367957315791
 
@@ -4538,6 +5387,24 @@ end A022693.P8987935857442934906
 
 The programs for A022694, there is no canonical definition to state claims against.
 -/
+
+/-! ## A022694.P9216428221412680773
+
+`∑{#}[n, A022693(#)*A022693(n-#)]`
+-/
+
+namespace A022694.P9216428221412680773
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022693 k * A022693 (n - k)
+
+end
+
+end A022694.P9216428221412680773
 
 /-! ## A022694.P15155669866576753109
 
@@ -4786,6 +5653,24 @@ end A022695.P11302326440123634268
 The programs for A022696, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022696.P16826010499230418073
+
+`∑{#}[n, A022694(#)*A022694(n-#)]`
+-/
+
+namespace A022696.P16826010499230418073
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022694 k * A022694 (n - k)
+
+end
+
+end A022696.P16826010499230418073
+
 /-! ## A022696.P17794500873241213165
 
 `A297325(∑[n+5]+5)`
@@ -4982,6 +5867,24 @@ end A022697.P6885953810064548583
 The programs for A022698, there is no canonical definition to state claims against.
 -/
 
+/-! ## A022698.P17356619270339886839
+
+`∑{#}[n, A022695(#)*A022695(n-#)]`
+-/
+
+namespace A022698.P17356619270339886839
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A022695 k * A022695 (n - k)
+
+end
+
+end A022698.P17356619270339886839
+
 /-! ## A022698.P14245188426861536916
 
 `A297325(A052905(n+4)-2)`
@@ -5062,6 +5965,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022698.P15789828725347998265
+
+/-! ## A022698.P751887000412056308
+
+`A297325(A317439(n+1)+A167499(n+4))`
+-/
+
+namespace A022698.P751887000412056308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297325 (A317439 (n + 1) + A167499 (n + 4)).toNat
+
+end
+
+end A022698.P751887000412056308
 
 /-! ## A022698.P13360916098750874496
 

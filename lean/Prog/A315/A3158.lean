@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -18,33 +17,31 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
+import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
@@ -58,11 +55,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -175,26 +170,26 @@ def P10099217397494810869.Spec : Prop :=
 
 end A315801
 
-/-! ## A315801.P6236151195411959755
+/-! ## A315801.P8521027313738210881
 
-`A005843(A315798(n))-A315793(n)`
+`A004277(A315798(n))-A315793(n)`
 -/
 
-namespace A315801.P6236151195411959755
+namespace A315801.P8521027313738210881
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (A315798 n).toNat - A315793 n
+  A004277 (A315798 n).toNat - A315793 n
 
 end
 
-end A315801.P6236151195411959755
+end A315801.P8521027313738210881
 
 namespace A315801
 
-/-- `A005843(A315798(n))-A315793(n)` -/
-def P6236151195411959755.Spec : Prop :=
-  ∀ n, P6236151195411959755.a n = A315801 n
+/-- `A004277(A315798(n))-A315793(n)` -/
+def P8521027313738210881.Spec : Prop :=
+  ∀ n, P8521027313738210881.a n = A315801 n
 
 end A315801
 
@@ -483,6 +478,42 @@ theorem P6560214606252712380.correct : P6560214606252712380.Spec := by
   simp only [A315808]
 
 end A315808
+
+/-!
+# A315812: Coordination sequence Gal.4.8.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
+
+The programs for A315812, there is no canonical definition to state claims against.
+-/
+
+/-! ## A315812.P9494069561792068150
+
+`2*A315843(n)-A315927(n)`
+-/
+
+namespace A315812.P9494069561792068150
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A315843 n - A315927 n
+
+end
+
+end A315812.P9494069561792068150
+
+/-! ## A315812.P5824017433744511626
+
+`A004277(A315843(n))-A315927(n)`
+-/
+
+namespace A315812.P5824017433744511626
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A315843 n).toNat - A315927 n
+
+end
+
+end A315812.P5824017433744511626
 
 /-!
 # A315816: Coordination sequence Gal.6.505.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -1010,6 +1041,21 @@ end
 
 end A315819.P8189165460957277978
 
+/-! ## A315819.P15558789421014899098
+
+`A000007(n)+A315578(2*n)-A315578(n)`
+-/
+
+namespace A315819.P15558789421014899098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000007 n + (A315578 (2 * n) - A315578 n)
+
+end
+
+end A315819.P15558789421014899098
+
 /-! ## A315819.P6382060257940275576
 
 `A019590(n+2)+A315578(2*n)-A315578(n)`
@@ -1148,6 +1194,29 @@ namespace A315823
 /-- `2*A316071(n)-A008458(n)` -/
 def P17259747020193493626.Spec : Prop :=
   ∀ n, P17259747020193493626.a n = A315823 n
+
+end A315823
+
+/-! ## A315823.P9417887822881496744
+
+`A004277(A316071(n)-A008486(n))`
+-/
+
+namespace A315823.P9417887822881496744
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A316071 n - A008486 n).toNat
+
+end
+
+end A315823.P9417887822881496744
+
+namespace A315823
+
+/-- `A004277(A316071(n)-A008486(n))` -/
+def P9417887822881496744.Spec : Prop :=
+  ∀ n, P9417887822881496744.a n = A315823 n
 
 end A315823
 
@@ -1335,26 +1404,26 @@ def P1598257486922493147.Spec : Prop :=
 
 end A315823
 
-/-! ## A315823.P18328924843420468657
+/-! ## A315823.P6460164309825065523
 
-`A005843(A316071(n))-A008458(n)`
+`A004277(A316071(n))-A008458(n)`
 -/
 
-namespace A315823.P18328924843420468657
+namespace A315823.P6460164309825065523
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (A316071 n).toNat - A008458 n
+  A004277 (A316071 n).toNat - A008458 n
 
 end
 
-end A315823.P18328924843420468657
+end A315823.P6460164309825065523
 
 namespace A315823
 
-/-- `A005843(A316071(n))-A008458(n)` -/
-def P18328924843420468657.Spec : Prop :=
-  ∀ n, P18328924843420468657.a n = A315823 n
+/-- `A004277(A316071(n))-A008458(n)` -/
+def P6460164309825065523.Spec : Prop :=
+  ∀ n, P6460164309825065523.a n = A315823 n
 
 end A315823
 
@@ -1500,6 +1569,29 @@ namespace A315828
 /-- `2*A315959(n)-A008458(n)` -/
 def P9911424864393181865.Spec : Prop :=
   ∀ n, P9911424864393181865.a n = A315828 n
+
+end A315828
+
+/-! ## A315828.P15830816039390182330
+
+`A004277(A315959(n)-A008486(n))`
+-/
+
+namespace A315828.P15830816039390182330
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A315959 n - A008486 n).toNat
+
+end
+
+end A315828.P15830816039390182330
+
+namespace A315828
+
+/-- `A004277(A315959(n)-A008486(n))` -/
+def P15830816039390182330.Spec : Prop :=
+  ∀ n, P15830816039390182330.a n = A315828 n
 
 end A315828
 
@@ -2327,6 +2419,57 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A315842.P14338654426026446425
+
+/-!
+# A315843: Coordination sequence Gal.6.25.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
+
+The programs for A315843, there is no canonical definition to state claims against.
+-/
+
+/-! ## A315843.P7514307691698942535
+
+`(A315927(n)+A315812(n))/2`
+-/
+
+namespace A315843.P7514307691698942535
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A315927 n + A315812 n : ℚ) / 2
+
+end
+
+end A315843.P7514307691698942535
+
+/-! ## A315843.P13699597194992546513
+
+`A001281(A315927(n)+A315812(n))`
+-/
+
+namespace A315843.P13699597194992546513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001281 (A315927 n + A315812 n).toNat
+
+end
+
+end A315843.P13699597194992546513
+
+/-! ## A315843.P6969213838251282457
+
+`A004525(A315927(n)+A315812(n))`
+-/
+
+namespace A315843.P6969213838251282457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004525 (A315927 n + A315812 n).toNat
+
+end
+
+end A315843.P6969213838251282457
 
 /-!
 # A315845: Coordination sequence Gal.6.501.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -3230,26 +3373,26 @@ def P14068888517730868382.Spec : Prop :=
 
 end A315874
 
-/-! ## A315874.P1336805459012913884
+/-! ## A315874.P4041408437156785394
 
-`A005843(A315832(n))-A301690(n)`
+`A004277(A315832(n))-A301690(n)`
 -/
 
-namespace A315874.P1336805459012913884
+namespace A315874.P4041408437156785394
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (A315832 n).toNat - A301690 n
+  A004277 (A315832 n).toNat - A301690 n
 
 end
 
-end A315874.P1336805459012913884
+end A315874.P4041408437156785394
 
 namespace A315874
 
-/-- `A005843(A315832(n))-A301690(n)` -/
-def P1336805459012913884.Spec : Prop :=
-  ∀ n, P1336805459012913884.a n = A315874 n
+/-- `A004277(A315832(n))-A301690(n)` -/
+def P4041408437156785394.Spec : Prop :=
+  ∀ n, P4041408437156785394.a n = A315874 n
 
 end A315874
 
@@ -3407,6 +3550,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A315875.P4221496967762527671
+
+/-!
+# A315877: Coordination sequence Gal.6.464.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
+
+The programs for A315877, there is no canonical definition to state claims against.
+-/
+
+/-! ## A315877.P2059934170378438436
+
+`A035179(3*n+2)+∑[A000005(A155287(n+3))%9]`
+-/
+
+namespace A315877.P2059934170378438436
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000005 (A155287 (n + 3)).toNat) 9
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035179 (3 * n + 2) + ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A315877.P2059934170378438436
 
 /-!
 # A315880: Coordination sequence Gal.6.39.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -4274,6 +4441,36 @@ end A315894.P18277077583428899806
 The programs for A315896, there is no canonical definition to state claims against.
 -/
 
+/-! ## A315896.P4881045346749776776
+
+`2*A314445(n)-A311642(n)`
+-/
+
+namespace A315896.P4881045346749776776
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A314445 n - A311642 n
+
+end
+
+end A315896.P4881045346749776776
+
+/-! ## A315896.P15998218543126972388
+
+`A005843(A314445(n))-A311642(n)`
+-/
+
+namespace A315896.P15998218543126972388
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A314445 n).toNat - A311642 n
+
+end
+
+end A315896.P15998218543126972388
+
 /-! ## A315896.P6385614440865286474
 
 `A315190(n)-A055668(A083379(n+1))`
@@ -4396,4 +4593,19 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A315898.P8822202249816214997
+
+/-! ## A315898.P16090351191060330331
+
+`A315915(n)+A315902(n)-(2*n+A004396(A315796(n)))`
+-/
+
+namespace A315898.P16090351191060330331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A315915 n + A315902 n - ((2 * n : ℤ) + A004396 (A315796 n).toNat)
+
+end
+
+end A315898.P16090351191060330331
 

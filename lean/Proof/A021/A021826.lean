@@ -47,9 +47,9 @@ theorem A021826.anchor (n : ℕ) :
           all_goals first | omega | (push_cast; omega) | norm_num
   simp only [A021826, cf]
   by_cases hn : n < 1
-  · rw [if_pos hn]
+  · rw [ite_eq_left hn]
     interval_cases n <;> decide
-  · rw [if_neg hn]
+  · rw [ite_eq_right hn]
     have hd := SequenceProof.decimal_digit_mod_from 1 822 8 1 (by norm_num) (by norm_num) n (by omega)
     simp only [one_mul] at hd
     rw [hd]

@@ -9,38 +9,39 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C035
-import Seq.B000.C037
-import Seq.B000.C040
+import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C006
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -55,13 +56,14 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A013300: -arcsinh(log(x+1)-arctanh(x))=1/2!*x^2+6/4!*x^4+105/6!*x^6+3780/8!*x^8...
@@ -606,6 +608,45 @@ end
 end A013315.P5059789142025549248
 
 /-!
+# A013317: Expansion of e.g.f.: tanh(exp(x) - cos(x)) = x + (2/2!)*x^2 - (1/3!)*x^3 - (24/4!)*x^4 - (123/5!)*x^5 + ...
+
+The programs for A013317, there is no canonical definition to state claims against.
+-/
+
+/-! ## A013317.P12325373343610336186
+
+`A347397(n+1)-A399139(A399117(n))`
+-/
+
+namespace A013317.P12325373343610336186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347397 (n + 1) - A399139 (A399117 n).toNat
+
+end
+
+end A013317.P12325373343610336186
+
+/-! ## A013317.P12919233963291489775
+
+`∑[A337108(A011782(2*n+3))]-A000244(n)`
+-/
+
+namespace A013317.P12919233963291489775
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337108 (A011782 (2 * n + 3)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - A000244 n
+
+end
+
+end A013317.P12919233963291489775
+
+/-!
 # A013318: arctanh(exp(x)-cos(x))=x+2/2!*x^2+3/3!*x^3+24/4!*x^4+165/5!*x^5...
 
 The programs for A013318, there is no canonical definition to state claims against.
@@ -626,20 +667,32 @@ end
 
 end A013318.P2105172936602967785
 
-/-! ## A013318.P931881326152713397
+/-! ## A013318.P15122600595759525665
 
-`A051953(A045846(n)+n)`
+`n*A224489(∏[eq[n, ∏{d}[n, #]]])`
 -/
 
-namespace A013318.P931881326152713397
+namespace A013318.P15122600595759525665
 noncomputable section
 
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ d ∈ Nat.divisors (f4 n), d
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f2 j = f3 j) n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051953 (A045846 n + (n : ℤ)).toNat
+  (n : ℤ) * A224489 (∏ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A013318.P931881326152713397
+end A013318.P15122600595759525665
 
 /-!
 # A013319: E.g.f.: cosh(exp(x)-cos(x))=1+1/2!*x^2+6/3!*x^3+17/4!*x^4+40/5!*x^5...
@@ -1517,20 +1570,20 @@ end
 
 end A013347.P7693609992359573582
 
-/-! ## A013347.P15227288922031253815
+/-! ## A013347.P6655954294862853419
 
-`lcm(2, A013342(A144396(n+1)))`
+`-A013342(A144396(n+1))`
 -/
 
-namespace A013347.P15227288922031253815
+namespace A013347.P6655954294862853419
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A013342 (A144396 (n + 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -A013342 (A144396 (n + 1)).toNat
 
 end
 
-end A013347.P15227288922031253815
+end A013347.P6655954294862853419
 
 /-! ## A013347.P2018343438296070932
 

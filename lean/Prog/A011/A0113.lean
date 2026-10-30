@@ -6,15 +6,15 @@ import Seq.B000.C002
 import Seq.B000.C015
 import Seq.B000.C029
 import Seq.B000.C034
-import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C002
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -874,6 +874,24 @@ end
 
 end A011375.P3836469969051042998
 
+/-! ## A011375.P15729065720493683640
+
+`∑{digits}[A006960(n), A261913(#)]`
+-/
+
+namespace A011375.P15729065720493683640
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006960 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f1 n).natAbs).map fun (x : ℕ) => A261913 x).sum
+
+end
+
+end A011375.P15729065720493683640
+
 /-! ## A011375.P11306444319780417452
 
 `∑{digits}[A277338(n), A260340(#)]`
@@ -1081,41 +1099,41 @@ def P18404725372564779860.Spec : Prop :=
 
 end A011377
 
-/-! ## A011377.P12073866169080618165
+/-! ## A011377.P11842877750049009902
 
-`∑[2^n]+a(n-2)` with `a(0)=1, a(1)=3`
+`∑[2^n+a(n-2)]` with `a(0)=1, a(1)=2`
 -/
 
-namespace A011377.P12073866169080618165
+namespace A011377.P11842877750049009902
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 2] fun n f1 =>
+  2 ^ n + f1 (n - 2)
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 3] fun n a =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + a (n - 2)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A011377.P12073866169080618165
+end A011377.P11842877750049009902
 
 namespace A011377
 
-/-- `∑[2^n]+a(n-2)` -/
-def P12073866169080618165.Spec : Prop :=
-  ∀ n, (P12073866169080618165.a n : ℤ) = A011377 n
+/-- `∑[2^n+a(n-2)]` -/
+def P11842877750049009902.Spec : Prop :=
+  ∀ n, (P11842877750049009902.a n : ℤ) = A011377 n
 
 end A011377
 
-/-! ## A011377.P9889442249333175317
+/-! ## A011377.P9084873084486591938
 
-`∑[∑[2^n-a(n-1)]]` with `a(0)=1, a(1)=1`
+`∑[∑[2^n-a(n-1)]]` with `a(0)=1`
 -/
 
-namespace A011377.P9889442249333175317
+namespace A011377.P9084873084486591938
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n f2 =>
+def f2 : ℕ → ℤ := SequenceMachineLib.rec [1] fun n f2 =>
   (2 ^ n : ℤ) - f2 (n - 1)
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -1126,13 +1144,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A011377.P9889442249333175317
+end A011377.P9084873084486591938
 
 namespace A011377
 
 /-- `∑[∑[2^n-a(n-1)]]` -/
-def P9889442249333175317.Spec : Prop :=
-  ∀ n, P9889442249333175317.a n = A011377 n
+def P9084873084486591938.Spec : Prop :=
+  ∀ n, P9084873084486591938.a n = A011377 n
 
 end A011377
 

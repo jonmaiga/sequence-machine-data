@@ -5,26 +5,25 @@ import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -300,20 +299,20 @@ end A012621.P6236968460931348735
 The programs for A012626, there is no canonical definition to state claims against.
 -/
 
-/-! ## A012626.P4487154629977381771
+/-! ## A012626.P7368702331522255142
 
-`A012629(n)%A000027(A001026(n))`
+`A012629(n*A197364(n+3))`
 -/
 
-namespace A012626.P4487154629977381771
+namespace A012626.P7368702331522255142
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A012629 n) (A000027 (A001026 n).toNat)
+  A012629 ((n : ℤ) * A197364 (n + 3)).toNat
 
 end
 
-end A012626.P4487154629977381771
+end A012626.P7368702331522255142
 
 /-!
 # A012634: E.g.f.: exp(arcsinh(x)*cos(x))=1+x+1/2!*x^2-3/3!*x^3-15/4!*x^4-15/5!*x^5...
@@ -761,6 +760,21 @@ end
 
 end A012650.P10019784802124184056
 
+/-! ## A012650.P2184625833397564482
+
+`A012655(n)*A090996(A111578(3*n+1))`
+-/
+
+namespace A012650.P2184625833397564482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012655 n * A090996 (A111578 (3 * n + 1)).toNat
+
+end
+
+end A012650.P2184625833397564482
+
 /-!
 # A012651: Expansion of e.g.f. arcsin(tanh(x) * log(x+1)).
 
@@ -857,6 +871,21 @@ end A012651.P5702165132134227713
 
 The programs for A012652, there is no canonical definition to state claims against.
 -/
+
+/-! ## A012652.P11471881293474414141
+
+`A012655(n)*A155200(A127697(n))`
+-/
+
+namespace A012652.P11471881293474414141
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012655 n * A155200 (A127697 n).toNat
+
+end
+
+end A012652.P11471881293474414141
 
 /-! ## A012652.P13660696987653735793
 

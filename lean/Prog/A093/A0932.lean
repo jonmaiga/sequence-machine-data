@@ -2,15 +2,13 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C017
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C026
+import Seq.B000.C022
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C039
-import Seq.B000.C044
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B003.C000
@@ -108,6 +106,54 @@ end A093210.P9228787641268689003
 
 The programs for A093220, there is no canonical definition to state claims against.
 -/
+
+/-! ## A093220.P4925480434573702781
+
+`10*((10^n)²-10^n)-10*A178500(n)`
+-/
+
+namespace A093220.P4925480434573702781
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)) - 10 * A178500 n
+
+end
+
+end A093220.P4925480434573702781
+
+/-! ## A093220.P1824379602870454653
+
+`(2*10*((10^n)²-10^n))%A013715(n)`
+-/
+
+namespace A093220.P1824379602870454653
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (2 * (10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))) (A013715 n)
+
+end
+
+end A093220.P1824379602870454653
+
+/-! ## A093220.P15318537148945884121
+
+`(2*∑{#}[n-1, 9*10^(2*n-#)])%A178500(2*n+1)`
+-/
+
+namespace A093220.P15318537148945884121
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.roundAway (2 * (∑ k ∈ Finset.range (f1 n + 1).toNat, 9 * (10 : ℚ) ^ ((2 * n : ℤ) - (k : ℤ) : ℤ)))) (A178500 (2 * n + 1))
+
+end
+
+end A093220.P15318537148945884121
 
 /-! ## A093220.P17662821698676255772
 
@@ -220,20 +266,50 @@ end
 
 end A093225.P18374766743725190601
 
-/-! ## A093225.P18257548276626850340
+/-! ## A093225.P11439413643616184148
 
-`5*(A093260(n+1)+A093230(n+1))`
+`10*10*(A000533(n+1)-26)*floor(10^(n-1))`
 -/
 
-namespace A093225.P18257548276626850340
+namespace A093225.P11439413643616184148
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * (A093260 (n + 1) + A093230 (n + 1))
+  10 * (10 * ((A000533 (n + 1) - 26) * ⌊(10 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌋))
 
 end
 
-end A093225.P18257548276626850340
+end A093225.P11439413643616184148
+
+/-! ## A093225.P17824669587557908081
+
+`5*(A093260(n+1)+10*((10^n)²-10^n))`
+-/
+
+namespace A093225.P17824669587557908081
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * (A093260 (n + 1) + 10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))
+
+end
+
+end A093225.P17824669587557908081
+
+/-! ## A093225.P15697233612277995360
+
+`5*((4*10*((10^n)²-10^n))%A013715(n)+10*((10^n)²-10^n))`
+-/
+
+namespace A093225.P15697233612277995360
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * (Int.tmod (4 * (10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))) (A013715 n) + 10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))
+
+end
+
+end A093225.P15697233612277995360
 
 /-!
 # A093230: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 30.
@@ -274,6 +350,36 @@ end
 
 end A093230.P8652618765297236776
 
+/-! ## A093230.P14837130035057375068
+
+`lcm(2, 9*A163663(n))`
+-/
+
+namespace A093230.P14837130035057375068
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm 2 (9 * A163663 n)
+
+end
+
+end A093230.P14837130035057375068
+
+/-! ## A093230.P18388416166026431746
+
+`9*A093270(n+1)/7`
+-/
+
+namespace A093230.P18388416166026431746
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (9 * A093270 (n + 1) : ℚ) / 7
+
+end
+
+end A093230.P18388416166026431746
+
 /-! ## A093230.P13779770155746893253
 
 `A013715(n)-10^(n+1)`
@@ -289,38 +395,41 @@ end
 
 end A093230.P13779770155746893253
 
-/-! ## A093230.P2946971318354865908
+/-!
+# A093240: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 40.
 
-`A332190(n)+1-10^n`
+The programs for A093240, there is no canonical definition to state claims against.
 -/
 
-namespace A093230.P2946971318354865908
+/-! ## A093240.P8375817063392108208
+
+`A013715(n)-gcd(A013715(n), A093260(n+1))`
+-/
+
+namespace A093240.P8375817063392108208
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332190 n + 1 - (10 ^ n : ℤ)
+  A013715 n - (Int.gcd (A013715 n) (A093260 (n + 1)) : ℤ)
 
 end
 
-end A093230.P2946971318354865908
+end A093240.P8375817063392108208
 
-/-! ## A093230.P10142073551726413232
+/-! ## A093240.P5768955954121065656
 
-`lcm(10^n-1, Δ[A002275(n+1)])`
+`A013715(n)-gcd((4*10*((10^n)²-10^n))%A013715(n), A178500(2*n+1))`
 -/
 
-namespace A093230.P10142073551726413232
+namespace A093240.P5768955954121065656
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002275 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm ((10 ^ n : ℤ) - 1) (f1 (n + 1) - f1 n)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013715 n - (Int.gcd (Int.tmod (4 * (10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))) (A013715 n)) (A178500 (2 * n + 1)) : ℤ)
 
 end
 
-end A093230.P10142073551726413232
+end A093240.P5768955954121065656
 
 /-!
 # A093250: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 50.
@@ -343,26 +452,86 @@ end
 
 end A093250.P10518897855342889541
 
-/-! ## A093250.P16489620285255977809
+/-! ## A093250.P15750274858170945677
 
-`A093220(n+1)+A093260(n+1)-A093230(n+1)`
+`(5*10*((10^n)²-10^n))%A013715(n)`
 -/
 
-namespace A093250.P16489620285255977809
+namespace A093250.P15750274858170945677
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093220 (n + 1) + (A093260 (n + 1) - A093230 (n + 1))
+  Int.tmod (5 * (10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))) (A013715 n)
 
 end
 
-end A093250.P16489620285255977809
+end A093250.P15750274858170945677
+
+/-! ## A093250.P4097972761929432915
+
+`A093260(n+1)-10*A178500(n)`
+-/
+
+namespace A093250.P4097972761929432915
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093260 (n + 1) - 10 * A178500 n
+
+end
+
+end A093250.P4097972761929432915
+
+/-! ## A093250.P4264102222962879100
+
+`A093220(n+1)-30*A178500(n)`
+-/
+
+namespace A093250.P4264102222962879100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093220 (n + 1) - 30 * A178500 n
+
+end
+
+end A093250.P4264102222962879100
 
 /-!
 # A093260: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 60.
 
 The programs for A093260, there is no canonical definition to state claims against.
 -/
+
+/-! ## A093260.P18130164077355004819
+
+`(4*10*((10^n)²-10^n))%A013715(n)`
+-/
+
+namespace A093260.P18130164077355004819
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (4 * (10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)))) (A013715 n)
+
+end
+
+end A093260.P18130164077355004819
+
+/-! ## A093260.P15663445160034115246
+
+`10*((10^n)²-10^n)-30*A178500(n)`
+-/
+
+namespace A093260.P15663445160034115246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  10 * (((10 ^ n) ^ 2 : ℤ) - (10 ^ n : ℤ)) - 30 * A178500 n
+
+end
+
+end A093260.P15663445160034115246
 
 /-! ## A093260.P2069118328466267597
 
@@ -379,35 +548,20 @@ end
 
 end A093260.P2069118328466267597
 
-/-! ## A093260.P7010912196762456466
+/-! ## A093260.P13951207286050897906
 
-`A093230(n+1)+A093250(n+1)-A093220(n+1)`
+`(2*A093220(n+1))%A178500(2*n+1)`
 -/
 
-namespace A093260.P7010912196762456466
+namespace A093260.P13951207286050897906
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093230 (n + 1) + (A093250 (n + 1) - A093220 (n + 1))
+  Int.tmod (2 * A093220 (n + 1)) (A178500 (2 * n + 1))
 
 end
 
-end A093260.P7010912196762456466
-
-/-! ## A093260.P3985313123447091525
-
-`A093250(n+1)+gcd(A093250(n+1), A093280(n+1))`
--/
-
-namespace A093260.P3985313123447091525
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093250 (n + 1) + (Int.gcd (A093250 (n + 1)) (A093280 (n + 1)) : ℤ)
-
-end
-
-end A093260.P3985313123447091525
+end A093260.P13951207286050897906
 
 /-!
 # A093270: a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 70.

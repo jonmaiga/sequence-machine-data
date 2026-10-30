@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -17,32 +16,34 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -53,18 +54,17 @@ import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -349,6 +349,36 @@ end A218902.P13807817992019034848
 The programs for A218903, there is no canonical definition to state claims against.
 -/
 
+/-! ## A218903.P11334148150337563456
+
+`A218897(A302537(n)+27)`
+-/
+
+namespace A218903.P11334148150337563456
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218897 (A302537 n + 27).toNat
+
+end
+
+end A218903.P11334148150337563456
+
+/-! ## A218903.P11702594753992165898
+
+`A218897(A056119(n)+28)`
+-/
+
+namespace A218903.P11702594753992165898
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218897 (A056119 n + 28).toNat
+
+end
+
+end A218903.P11702594753992165898
+
 /-! ## A218903.P17404676359139202378
 
 `A218897(eq[11, A066657(n)])`
@@ -399,45 +429,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218903.P10756868735022331244
-
-/-! ## A218903.P14281385062872425807
-
-`A218897(eq[8, A131818(n+1)])`
--/
-
-namespace A218903.P14281385062872425807
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A218897 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A218903.P14281385062872425807
-
-/-! ## A218903.P12866237660693340538
-
-`A218897(A347525(n+5)+∑[n])`
--/
-
-namespace A218903.P12866237660693340538
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A218897 (A347525 (n + 5) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)).toNat
-
-end
-
-end A218903.P12866237660693340538
 
 /-!
 # A218904: Sum of the sizes of the kernels of all integer partitions of n.
@@ -598,23 +589,23 @@ end A218905.P10245113458064817663
 The programs for A218906, there is no canonical definition to state claims against.
 -/
 
-/-! ## A218906.P1320911624815128500
+/-! ## A218906.P16091920153958886459
 
-`∑[A000700(n+1)]`
+`∑[A000700(1+n)]`
 -/
 
-namespace A218906.P1320911624815128500
+namespace A218906.P16091920153958886459
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000700 (n + 1)
+  A000700 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A218906.P1320911624815128500
+end A218906.P16091920153958886459
 
 /-! ## A218906.P10560823139600938876
 
@@ -631,23 +622,23 @@ end
 
 end A218906.P10560823139600938876
 
-/-! ## A218906.P16391284286954543616
+/-! ## A218906.P4657023874446517149
 
-`∑[abs(A081362(n+1))]`
+`∑[abs(A081362(1+n))]`
 -/
 
-namespace A218906.P16391284286954543616
+namespace A218906.P4657023874446517149
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A081362 (n + 1)|
+  |A081362 (1 + n)|
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A218906.P16391284286954543616
+end A218906.P4657023874446517149
 
 /-! ## A218906.P15269665602134285619
 
@@ -1607,20 +1598,20 @@ end
 
 end A218920.P14600430907809506717
 
-/-! ## A218920.P17363381133347846147
+/-! ## A218920.P5451310462062274335
 
-`A064823(A206476(n+1)*A245373(n))`
+`A194508(A245153(n)+A000302(n))`
 -/
 
-namespace A218920.P17363381133347846147
+namespace A218920.P5451310462062274335
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064823 (A206476 (n + 1) * A245373 n).toNat
+  A194508 (A245153 n + A000302 n).toNat
 
 end
 
-end A218920.P17363381133347846147
+end A218920.P5451310462062274335
 
 /-!
 # A218921: Number of incidences in the poset of conjugacy classes of subgroups of the symmetric group.
@@ -2321,6 +2312,24 @@ end A218942.P9627217308610859865
 The programs for A218943, there is no canonical definition to state claims against.
 -/
 
+/-! ## A218943.P7820358482676852209
+
+`A088931(∑[A051013(n)])+1`
+-/
+
+namespace A218943.P7820358482676852209
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051013 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088931 (∑ j ∈ Finset.range (n + 1), f1 j).toNat + 1
+
+end
+
+end A218943.P7820358482676852209
+
 /-! ## A218943.P3766193030462613796
 
 `A239456(A000041(2*n+1)+floor(n/2)+4)`
@@ -2335,21 +2344,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218943.P3766193030462613796
-
-/-! ## A218943.P12073149847865438601
-
-`A337680(A000108(n))+A089423(n)`
--/
-
-namespace A218943.P12073149847865438601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337680 (A000108 n).toNat + A089423 n
-
-end
-
-end A218943.P12073149847865438601
 
 /-!
 # A218944: Total number of distinct solvable subgroups of the alternating group, counting conjugates as distinct.
@@ -2372,20 +2366,20 @@ end
 
 end A218944.P8530345026364272321
 
-/-! ## A218944.P1920756913669974722
+/-! ## A218944.P1679114106681879236
 
-`A115065(A062460(n+1))`
+`A070868(A355788(n))`
 -/
 
-namespace A218944.P1920756913669974722
+namespace A218944.P1679114106681879236
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115065 (A062460 (n + 1)).toNat
+  A070868 (A355788 n).toNat
 
 end
 
-end A218944.P1920756913669974722
+end A218944.P1679114106681879236
 
 /-!
 # A218945: Total number of supersolvable subgroups of the alternating group, counting conjugates as distinct.
@@ -2639,6 +2633,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218955.P1313616578074504799
+
+/-! ## A218955.P13948783204586385784
+
+`A218960(n)%A218999(n+2)`
+-/
+
+namespace A218955.P13948783204586385784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A218960 n) (A218999 (n + 2))
+
+end
+
+end A218955.P13948783204586385784
 
 /-!
 # A218956: Total number of maximal supersolvable subgroups of the symmetric group, counting conjugates as distinct.
@@ -3413,6 +3422,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218972.P8961327270361696590
+
+/-! ## A218972.P377525517477549987
+
+`A301475(A279406(n+1)+A242882(n))`
+-/
+
+namespace A218972.P377525517477549987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301475 (A279406 (n + 1) + A242882 n).toNat
+
+end
+
+end A218972.P377525517477549987
+
+/-! ## A218972.P8022812606076506639
+
+`A378809(A378818(n+1)+A378808(n+1))`
+-/
+
+namespace A218972.P8022812606076506639
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378809 (A378818 (n + 1) + A378808 (n + 1)).toNat
+
+end
+
+end A218972.P8022812606076506639
 
 /-!
 # A218975: Number of connected cyclic conjugacy classes of subgroups of the alternating group.
@@ -5962,6 +6001,32 @@ def P13989866703641655216.Spec : Prop :=
 
 end A218990
 
+/-! ## A218990.P862657765980708421
+
+`A084158(n+2)+∑[A084159(n)]`
+-/
+
+namespace A218990.P862657765980708421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084159 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084158 (n + 2) + ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A218990.P862657765980708421
+
+namespace A218990
+
+/-- `A084158(n+2)+∑[A084159(n)]` -/
+def P862657765980708421.Spec : Prop :=
+  ∀ n, P862657765980708421.a n = A218990 n
+
+end A218990
+
 /-! ## A218990.P2455977756125500056
 
 `A001109(n+2)-∑[A079291(n)]`
@@ -5985,6 +6050,32 @@ namespace A218990
 /-- `A001109(n+2)-∑[A079291(n)]` -/
 def P2455977756125500056.Spec : Prop :=
   ∀ n, P2455977756125500056.a n = A218990 n
+
+end A218990
+
+/-! ## A218990.P17503037516837353882
+
+`A084158(n+2)+Δ[A084158(n)]`
+-/
+
+namespace A218990.P17503037516837353882
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084158 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084158 (n + 2) + (f1 (n + 1) - f1 n)
+
+end
+
+end A218990.P17503037516837353882
+
+namespace A218990
+
+/-- `A084158(n+2)+Δ[A084158(n)]` -/
+def P17503037516837353882.Spec : Prop :=
+  ∀ n, P17503037516837353882.a n = A218990 n
 
 end A218990
 

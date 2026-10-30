@@ -6,35 +6,36 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
@@ -42,7 +43,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -50,10 +50,12 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,11 +81,12 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 /-!
 # A146100: Bell numbers (A000110) read mod 10.
 
-The programs for A146100, the canonical program `A146100.P5563382916504406745` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146100 has offset 0).
+The programs for A146100, the canonical program `A146100.P5563382916504406745` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146100 has offset 0).
 
 The definition of A146100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -92,7 +95,7 @@ The definition of A146100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%10`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146100
@@ -110,7 +113,7 @@ end A146100
 /-!
 # A146101: Bell numbers (A000110) read mod 11.
 
-The programs for A146101, the canonical program `A146101.P9905521527198011687` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146101 has offset 0).
+The programs for A146101, the canonical program `A146101.P9905521527198011687` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146101 has offset 0).
 
 The definition of A146101 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -119,7 +122,7 @@ The definition of A146101 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%11`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146101
@@ -307,7 +310,7 @@ end A146101
 /-!
 # A146102: Bell numbers (A000110) read mod 12.
 
-The programs for A146102, the canonical program `A146102.P924366332900484755` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146102 has offset 0).
+The programs for A146102, the canonical program `A146102.P924366332900484755` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146102 has offset 0).
 
 The definition of A146102 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -316,7 +319,7 @@ The definition of A146102 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%12`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146102
@@ -334,7 +337,7 @@ end A146102
 /-!
 # A146103: Bell numbers (A000110) read mod 13.
 
-The programs for A146103, the canonical program `A146103.P18229453342624043212` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146103 has offset 0).
+The programs for A146103, the canonical program `A146103.P18229453342624043212` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146103 has offset 0).
 
 The definition of A146103 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -343,7 +346,7 @@ The definition of A146103 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%13`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146103
@@ -589,7 +592,7 @@ end A146103
 /-!
 # A146104: Bell numbers (A000110) read mod 14.
 
-The programs for A146104, the canonical program `A146104.P18133127197390847768` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146104 has offset 0).
+The programs for A146104, the canonical program `A146104.P18133127197390847768` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146104 has offset 0).
 
 The definition of A146104 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -598,7 +601,7 @@ The definition of A146104 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%14`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146104
@@ -835,7 +838,7 @@ end A146104
 /-!
 # A146105: Bell numbers (A000110) read mod 15.
 
-The programs for A146105, the canonical program `A146105.P3535934600374162943` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146105 has offset 0).
+The programs for A146105, the canonical program `A146105.P3535934600374162943` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146105 has offset 0).
 
 The definition of A146105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -844,7 +847,7 @@ The definition of A146105 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%15`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146105
@@ -1055,7 +1058,7 @@ end A146105
 /-!
 # A146106: Bell numbers (A000110) read mod 16.
 
-The programs for A146106, the canonical program `A146106.P427579343279374716` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146106 has offset 0).
+The programs for A146106, the canonical program `A146106.P427579343279374716` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146106 has offset 0).
 
 The definition of A146106 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1064,7 +1067,7 @@ The definition of A146106 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%16`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146106
@@ -1082,7 +1085,7 @@ end A146106
 /-!
 # A146107: Bell numbers (A000110) read mod 17.
 
-The programs for A146107, the canonical program `A146107.P10643272300087789491` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146107 has offset 0).
+The programs for A146107, the canonical program `A146107.P10643272300087789491` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146107 has offset 0).
 
 The definition of A146107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1091,7 +1094,7 @@ The definition of A146107 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%17`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146107
@@ -1340,7 +1343,7 @@ end A146107
 /-!
 # A146108: Bell numbers (A000110) read mod 18.
 
-The programs for A146108, the canonical program `A146108.P15709170962079005620` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146108 has offset 0).
+The programs for A146108, the canonical program `A146108.P15709170962079005620` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146108 has offset 0).
 
 The definition of A146108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1349,7 +1352,7 @@ The definition of A146108 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%18`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146108
@@ -1367,7 +1370,7 @@ end A146108
 /-!
 # A146109: Bell numbers (A000110) read mod 19.
 
-The programs for A146109, the canonical program `A146109.P18411219671695953730` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146109 has offset 0).
+The programs for A146109, the canonical program `A146109.P18411219671695953730` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146109 has offset 0).
 
 The definition of A146109 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1376,7 +1379,7 @@ The definition of A146109 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%19`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146109
@@ -1570,7 +1573,7 @@ end A146109
 /-!
 # A146110: Bell numbers (A000110) read mod 20.
 
-The programs for A146110, the canonical program `A146110.P1710604547079191569` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146110 has offset 0).
+The programs for A146110, the canonical program `A146110.P1710604547079191569` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146110 has offset 0).
 
 The definition of A146110 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1579,7 +1582,7 @@ The definition of A146110 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%20`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146110
@@ -2112,7 +2115,7 @@ end A146112.P6872231064603587014
 /-!
 # A146113: Bell numbers (A000110) read mod 23.
 
-The programs for A146113, the canonical program `A146113.P10993359019740611459` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146113 has offset 0).
+The programs for A146113, the canonical program `A146113.P10993359019740611459` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146113 has offset 0).
 
 The definition of A146113 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2121,7 +2124,7 @@ The definition of A146113 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%23`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146113
@@ -2303,7 +2306,7 @@ end A146113
 /-!
 # A146114: Bell numbers (A000110) read mod 24.
 
-The programs for A146114, the canonical program `A146114.P17833982260531170022` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146114 has offset 0).
+The programs for A146114, the canonical program `A146114.P17833982260531170022` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146114 has offset 0).
 
 The definition of A146114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2312,7 +2315,7 @@ The definition of A146114 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%24`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146114
@@ -2330,7 +2333,7 @@ end A146114
 /-!
 # A146115: Bell numbers (A000110) read mod 25.
 
-The programs for A146115, the canonical program `A146115.P15356802500065920005` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146115 has offset 0).
+The programs for A146115, the canonical program `A146115.P15356802500065920005` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146115 has offset 0).
 
 The definition of A146115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2339,7 +2342,7 @@ The definition of A146115 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%25`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146115
@@ -2510,7 +2513,7 @@ end A146115
 /-!
 # A146116: Bell numbers (A000110) read mod 26.
 
-The programs for A146116, the canonical program `A146116.P15045300375888123456` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146116 has offset 0).
+The programs for A146116, the canonical program `A146116.P15045300375888123456` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146116 has offset 0).
 
 The definition of A146116 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2519,7 +2522,7 @@ The definition of A146116 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%26`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146116
@@ -2739,7 +2742,7 @@ end A146116
 /-!
 # A146117: Bell numbers (A000110) read mod 27.
 
-The programs for A146117, the canonical program `A146117.P1808314762881107789` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146117 has offset 0).
+The programs for A146117, the canonical program `A146117.P1808314762881107789` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146117 has offset 0).
 
 The definition of A146117 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2748,7 +2751,7 @@ The definition of A146117 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%27`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146117
@@ -2766,7 +2769,7 @@ end A146117
 /-!
 # A146118: Bell numbers (A000110) read mod 28.
 
-The programs for A146118, the canonical program `A146118.P5572118832429537208` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146118 has offset 0).
+The programs for A146118, the canonical program `A146118.P5572118832429537208` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146118 has offset 0).
 
 The definition of A146118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2775,7 +2778,7 @@ The definition of A146118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%28`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146118
@@ -3015,7 +3018,7 @@ end A146118
 /-!
 # A146119: Bell numbers (A000110) read mod 29.
 
-The programs for A146119, the canonical program `A146119.P10093737635167235879` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146119 has offset 0).
+The programs for A146119, the canonical program `A146119.P10093737635167235879` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146119 has offset 0).
 
 The definition of A146119 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3024,7 +3027,7 @@ The definition of A146119 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%29`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146119
@@ -3195,7 +3198,7 @@ end A146119
 /-!
 # A146120: Bell numbers (A000110) read mod 30.
 
-The programs for A146120, the canonical program `A146120.P10910258608344790140` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146120 has offset 0).
+The programs for A146120, the canonical program `A146120.P10910258608344790140` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146120 has offset 0).
 
 The definition of A146120 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3204,7 +3207,7 @@ The definition of A146120 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%30`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146120
@@ -3389,7 +3392,7 @@ end A146120
 /-!
 # A146121: Bell numbers (A000110) read mod 31.
 
-The programs for A146121, the canonical program `A146121.P1276232944455750762` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146121 has offset 0).
+The programs for A146121, the canonical program `A146121.P1276232944455750762` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146121 has offset 0).
 
 The definition of A146121 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3398,7 +3401,7 @@ The definition of A146121 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%31`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146121
@@ -3540,7 +3543,7 @@ end A146121
 /-!
 # A146122: Bell numbers (A000110) read mod 32.
 
-The programs for A146122, the canonical program `A146122.P1184175377577680424` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146122 has offset 0).
+The programs for A146122, the canonical program `A146122.P1184175377577680424` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146122 has offset 0).
 
 The definition of A146122 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3549,7 +3552,7 @@ The definition of A146122 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n)%32`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146122
@@ -4239,6 +4242,21 @@ end
 
 end A146138.P11625412873970856104
 
+/-! ## A146138.P17662947042963553404
+
+`A151552(A008667(n)!)+A147462(n+3)-A146367(n+1)`
+-/
+
+namespace A146138.P17662947042963553404
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151552 (Nat.factorial (A008667 n).toNat) + A147462 (n + 3) - A146367 (n + 1)
+
+end
+
+end A146138.P17662947042963553404
+
 /-!
 # A146139: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 5-point barb 1,1 1,2 2,2 2,3 3,2 in any orientation.
 
@@ -4436,6 +4454,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146141.P17685882532602023607
+
+/-! ## A146141.P11814035470319094987
+
+`or(A146193(A146370(n+1)), A146703(n+3))`
+-/
+
+namespace A146141.P11814035470319094987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A146193 (A146370 (n + 1)).toNat) (A146703 (n + 3))
+
+end
+
+end A146141.P11814035470319094987
 
 /-!
 # A146142: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 5-point barb 1,1 1,2 2,2 2,3 3,2 in any orientation.
@@ -5355,7 +5388,7 @@ end A146159.P17928543986077502950
 /-!
 # A146160: Period 4: repeat [1, 4, 1, 16].
 
-The programs for A146160, the canonical program `A146160.P4969135159180931567` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146160 has offset 1).
+The programs for A146160, the canonical program `A146160.P4969135159180931567` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146160 has offset 1).
 
 The definition of A146160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5387,7 +5420,7 @@ end A146160
 
 `gcd(4, n+1)²`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A146160
@@ -6003,6 +6036,27 @@ end
 
 end A146167.P17926014175534922676
 
+/-! ## A146167.P1307182619211246127
+
+`∑[C(col(∑{e}[n+1, #%2]), 1+n%2)]`
+-/
+
+namespace A146167.P1307182619211246127
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (SequenceMachineLib.triCol (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p % 2)) (1 + n % 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A146167.P1307182619211246127
+
 /-! ## A146167.P10223862854386469700
 
 `∑[(∑{e}[n+1, #]!/∏{e}[n+1, #!]-1)%gcd(2, n)]`
@@ -6027,47 +6081,26 @@ end
 
 end A146167.P10223862854386469700
 
-/-! ## A146167.P1641308747730792902
+/-! ## A146167.P14848236086020370010
 
-`∑[C(val(∑{e}[n+1, #²]+n+1, n+3), 3^(n%2))]`
+`∑[(n+1)%2*val(∑{e}[n+1, #²]+n+1, n+3)]`
 -/
 
-namespace A146167.P1641308747730792902
+namespace A146167.P14848236086020370010
 noncomputable section
 
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.valuation (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p ^ 2 + (n + 1)) (n + 3)) (3 ^ (n % 2))
+  (n + 1) % 2 * SequenceMachineLib.valuation (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p ^ 2 + (n + 1)) (n + 3)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A146167.P1641308747730792902
-
-/-! ## A146167.P580109376285197836
-
-`∑[xor(n, n+1)%3*val(∑{e}[n+1, #²]+n+1, n+3)]`
--/
-
-namespace A146167.P580109376285197836
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor n (n + 1) % 3 * SequenceMachineLib.valuation (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p ^ 2 + (n + 1)) (n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A146167.P580109376285197836
+end A146167.P14848236086020370010
 
 /-! ## A146167.P1440602762166210910
 
@@ -6429,6 +6462,36 @@ end
 
 end A146173.P569747914922003406
 
+/-! ## A146173.P13690780340302326818
+
+`A003557(A146186(n+1))*A146190(n+1)`
+-/
+
+namespace A146173.P13690780340302326818
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003557 (A146186 (n + 1)).toNat * A146190 (n + 1)
+
+end
+
+end A146173.P13690780340302326818
+
+/-! ## A146173.P1996764826224285086
+
+`A146652(n+1)+A160416(A309686(n))+1-A146857(n+1)`
+-/
+
+namespace A146173.P1996764826224285086
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146652 (n + 1) + (A160416 (A309686 n).toNat + 1) - A146857 (n + 1)
+
+end
+
+end A146173.P1996764826224285086
+
 /-!
 # A146174: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 110-100-111 pattern in any orientation.
 
@@ -6591,80 +6654,80 @@ end A146175.P12668681203270550858
 The programs for A146176, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146176.P4552609912393694645
+/-! ## A146176.P13138388621718950436
 
-`A146174(or(A004526(n), A378454(n+1)))`
+`A146174(A003108(2*(n+2))+1)`
 -/
 
-namespace A146176.P4552609912393694645
+namespace A146176.P13138388621718950436
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146174 (Int.lor (A004526 n) (A378454 (n + 1))).toNat
+  A146174 (A003108 (2 * (n + 2)) + 1).toNat
 
 end
 
-end A146176.P4552609912393694645
+end A146176.P13138388621718950436
 
-/-! ## A146176.P8894820046743692162
+/-! ## A146176.P11285609940338069190
 
-`A146174(A004526(n)+2-A055642(3*(n+1)))`
+`A146174(A130779(n)+A004526(n))`
 -/
 
-namespace A146176.P8894820046743692162
+namespace A146176.P11285609940338069190
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146174 (A004526 n + 2 - A055642 (3 * (n + 1))).toNat
+  A146174 (A130779 n + A004526 n).toNat
 
 end
 
-end A146176.P8894820046743692162
+end A146176.P11285609940338069190
 
-/-! ## A146176.P8968385554769651452
+/-! ## A146176.P6926332711924466274
 
-`or(A028422(A146250(n+1)), A146261(n+1))`
+`A146174(A130779(n)+A123108(n))`
 -/
 
-namespace A146176.P8968385554769651452
+namespace A146176.P6926332711924466274
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A028422 (A146250 (n + 1)).toNat) (A146261 (n + 1))
+  A146174 (A130779 n + A123108 n).toNat
 
 end
 
-end A146176.P8968385554769651452
+end A146176.P6926332711924466274
 
-/-! ## A146176.P4386179990185495458
+/-! ## A146176.P16860212498161210020
 
-`or(A028422(A146261(n+5)), A146261(n+1))`
+`A146174(gcd(A004526(n), A130779(n)))`
 -/
 
-namespace A146176.P4386179990185495458
+namespace A146176.P16860212498161210020
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A028422 (A146261 (n + 5)).toNat) (A146261 (n + 1))
+  A146174 (Int.gcd (A004526 n) (A130779 n))
 
 end
 
-end A146176.P4386179990185495458
+end A146176.P16860212498161210020
 
-/-! ## A146176.P2624073044304118572
+/-! ## A146176.P4317032357345079305
 
-`A056670(A146274(n+1))`
+`A146174(or(A123108(n), A130779(n)))`
 -/
 
-namespace A146176.P2624073044304118572
+namespace A146176.P4317032357345079305
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056670 (A146274 (n + 1)).toNat
+  A146174 (Int.lor (A123108 n) (A130779 n)).toNat
 
 end
 
-end A146176.P2624073044304118572
+end A146176.P4317032357345079305
 
 /-!
 # A146177: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 110-100-111 pattern in any orientation.
@@ -6804,7 +6867,7 @@ end A146178.P5297075386637963486
 /-!
 # A146179: Digit sums of Cullen numbers.
 
-The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
+The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
 
 The definition of A146179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6813,7 +6876,7 @@ The definition of A146179 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n*2^n+1, #]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A146179
@@ -7600,6 +7663,21 @@ end
 
 end A146187.P7633998307579621912
 
+/-! ## A146187.P2172417293520109525
+
+`A004525(C(A014522(n), A399114(n)))`
+-/
+
+namespace A146187.P2172417293520109525
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004525 (Nat.choose (A014522 n).toNat (A399114 n).toNat)
+
+end
+
+end A146187.P2172417293520109525
+
 /-!
 # A146188: Number of n X n binary arrays with all ones connected only in a 101-111-100 pattern in any orientation.
 
@@ -7965,6 +8043,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146193.P15757734131075741312
+
+/-! ## A146193.P7748191297310403319
+
+`A378662(A147016(n+5)²)+A147136(n+3)`
+-/
+
+namespace A146193.P7748191297310403319
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378662 (A147016 (n + 5) ^ 2).toNat + A147136 (n + 3)
+
+end
+
+end A146193.P7748191297310403319
+
+/-! ## A146193.P4905242880765930279
+
+`A146844(A066799(n+1)+∑[A066799(n+1)])`
+-/
+
+namespace A146193.P4905242880765930279
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066799 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146844 (A066799 (n + 1) + ∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A146193.P4905242880765930279
 
 /-!
 # A146195: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 101-111-100 pattern in any orientation.

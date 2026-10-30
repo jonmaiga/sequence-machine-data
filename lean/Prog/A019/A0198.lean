@@ -6,6 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C008
 import Seq.B001.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C010
 import Seq.Opaque.C014
 import Seq.Opaque.C018
@@ -34,6 +35,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019827.P11146431707708783089
+
+/-! ## A019827.P2119049572052210243
+
+`A019863(n)%(5*A040000(n))`
+-/
+
+namespace A019827.P2119049572052210243
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A019863 n) (5 * A040000 n)
+
+end
+
+end A019827.P2119049572052210243
 
 /-! ## A019827.P11227165524205584081
 
@@ -298,7 +314,7 @@ theorem P2756986808820818431.correct : P2756986808820818431.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019854
 
@@ -497,7 +513,7 @@ theorem P14230507828374258295.correct : P14230507828374258295.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019869
 

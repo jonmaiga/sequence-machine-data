@@ -6,1596 +6,6 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
-/-- A352108: Numbers k such that k and k+1 are both lazy-tribonacci-Niven numbers (A352107). -/
-opaque A352108 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352108.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352109: Starts of runs of 3 consecutive lazy-tribonacci-Niven numbers (A352107). -/
-opaque A352109 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352109.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352110: Starts of runs of 4 consecutive lazy-tribonacci-Niven numbers (A352107). -/
-opaque A352110 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352110.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352111: In the factorial base expansion of n, replace each place value, say k! with k > 0, by (-1)^(k-1) * k!. -/
-opaque A352111 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352111.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352112: In the primorial base expansion of n, replace each place value, say A002110(k) with k >= 0, by (-1)^k * A002110(k). -/
-opaque A352112 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352112.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352113: Expansion of e.g.f. (1 - log(1 - 3*x))^(1/3). -/
-opaque A352113 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352113.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352114: Expansion of e.g.f. (1 - log(1 - 4*x))^(1/4). -/
-opaque A352114 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352114.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352117: Expansion of e.g.f. 1/sqrt(2 - exp(2*x)). -/
-opaque A352117 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352117.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352118: Expansion of e.g.f. 1/(2 - exp(3*x))^(1/3). -/
-opaque A352118 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352118.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352119: Expansion of e.g.f. 1/(2 - exp(4*x))^(1/4). -/
-opaque A352119 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352119.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352121: Expansion of e.g.f. sqrt(2 - exp(-2*x)). -/
-opaque A352121 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352121.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352122: Expansion of e.g.f. (2 - exp(-3*x))^(1/3). -/
-opaque A352122 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352122.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352123: Expansion of e.g.f. (2 - exp(-4*x))^(1/4). -/
-opaque A352123 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352123.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352124: Fibonacci numbers k such that pi(k) is also a Fibonacci number. -/
-opaque A352124 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352124.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352125: Decimal expansion of Pi*sqrt(2)*sqrt(2 + sqrt(2))/8. -/
-opaque A352125 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352125.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352127: a(n) is the smallest even number whose n smallest divisors > 2 are all odd. -/
-opaque A352127 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352127.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352128: Number of strict integer partitions of n with (1) as many even parts as odd parts, and (2) as many even conjugate parts as odd conjugate parts. -/
-opaque A352128 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352128.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352129: Number of strict integer partitions of n with as many even conjugate parts as odd conjugate parts. -/
-opaque A352129 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352129.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352130: Number of strict integer partitions of n with as many odd parts as even conjugate parts. -/
-opaque A352130 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352130.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352131: Number of strict integer partitions of n with same number of even parts as odd conjugate parts. -/
-opaque A352131 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352131.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352133: Centered cube numbers that can be written as sums of two other cubes in at least one way. -/
-opaque A352133 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352133.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352134: Numbers k such that the centered cube number k^3 + (k+1)^3 is equal to at least one other sum of two cubes. -/
-opaque A352134 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352134.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352135: Numbers j in pairs (j,k), with j <> k +- 1, such that the sum of their cubes is equal to a centered cube number. -/
-opaque A352135 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352135.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352136: Numbers k in pairs (j,k), with j <> k +- 1, such that the sum of their cubes is equal to a centered cube number. -/
-opaque A352136 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352136.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352139: Expansion of e.g.f. 1/(exp(x) - log(1 - x)). -/
-opaque A352139 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352139.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352140: Numbers whose prime factorization has all even prime indices and all odd exponents. -/
-opaque A352140 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352140.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352141: Numbers whose prime factorization has all even indices and all even exponents. -/
-opaque A352141 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352141.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352143: Numbers whose prime indices and conjugate prime indices are all odd. -/
-opaque A352143 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352143.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352144: The number of interior points that are intersections of exactly two chords for a 2n-gon where all its vertices are joined by lines (cf. A006561). -/
-opaque A352144 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352144.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352145: Expansion of e.g.f. exp(-1 + cos(x) + sin(x)). -/
-opaque A352145 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352145.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352146: Expansion of e.g.f. 1/(exp(x) + log(1 - x)). -/
-opaque A352146 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352146.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352147: Expansion of e.g.f. 1/(exp(x) + log(1 + x)). -/
-opaque A352147 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352147.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352148: Integers m such that nonzero digits of A000217(m) are all the same. -/
-opaque A352148 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352148.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352151: Expansion of e.g.f. 1/(cos(x) - tan(x)). -/
-opaque A352151 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352151.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352152: Reverse each run of consecutive nonzero digits in the decimal expansion of n. -/
-opaque A352152 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352152.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352153: Smallest digit in the decimal expansion of 1/n, ignoring leading and trailing 0's. -/
-opaque A352153 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352153.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352154: Numbers m such that the decimal expansion of 1/m contains the digit 0, ignoring leading and trailing 0's. -/
-opaque A352154 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352154.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352155: Numbers m such that the smallest digit in the decimal expansion of 1/m is 1, ignoring leading and trailing 0's. -/
-opaque A352155 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352155.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352156: Numbers m such that the smallest digit in the decimal expansion of 1/m is 2, ignoring leading and trailing 0's. -/
-opaque A352156 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352156.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352157: Numbers m such that the smallest digit in the decimal expansion of 1/m is 3, ignoring leading and trailing 0's. -/
-opaque A352157 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352157.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352158: Numbers m such that the smallest digit in the decimal expansion of 1/m is 4, ignoring leading and trailing 0's. -/
-opaque A352158 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352158.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352159: Numbers m such that the smallest digit in the decimal expansion of 1/m is 5, ignoring leading and trailing 0's. -/
-opaque A352159 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352159.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352160: Numbers m such that the smallest digit in the decimal expansion of 1/m is k = 6, ignoring leading and trailing 0's. -/
-opaque A352160 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352160.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352161: Numbers m such that the smallest digit in the decimal expansion of 1/m is k = 8, ignoring leading and trailing 0's. -/
-opaque A352161 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352161.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352163: a(n) is the least prime p such that p+3 is divisible by exactly n distinct primes. -/
-opaque A352163 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352163.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352164: Expansion of e.g.f. 1/(cosh(x) - tanh(x)). -/
-opaque A352164 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352164.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352165: Number of partitions of n into odd prime powers (1 included). -/
-opaque A352165 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352165.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352166: Number of partitions of n into distinct odd prime powers (1 included). -/
-opaque A352166 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352166.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352168: a(n) = Sum_{p+q = 2n, p<=q, p,q prime} (p*q mod 2n). -/
-opaque A352168 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352168.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352169: Numbers k with a Goldbach partition (p,q) such that k/2 divides at least one of p*q +- 1. -/
-opaque A352169 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352169.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352170: Primes p such that p+4, 3*p+4 and 3*p+8 are also prime. -/
-opaque A352170 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352170.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352173: The number of Feynman graphs in phi^4 theory with n vertices, 2 external legs. -/
-opaque A352173 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352173.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352174: The number of connected Feynman graphs in phi^4 theory with n vertices, 2 external legs. -/
-opaque A352174 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352174.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352175: The number of Feynman graphs in phi^3 theory with 2n vertices, 2 external legs. -/
-opaque A352175 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352175.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352176: G.f. A(x) satisfies: 1 - x = Product_{n>=1} (1 + x^(2*n)*A(x)^2) / (1 + x^n*A(x)). -/
-opaque A352176 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352176.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352178: Let S = {t_1, t_2, ..., t_n} be a set of n distinct integers and consider the sums t_i + t_j (i<j); a(n) is the maximum number of such sums that are powers of 2, over all choices for S. -/
-opaque A352178 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352178.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352179: Numbers k such that the decimal expansion of 14^k begins with 14. -/
-opaque A352179 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352179.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352184: Coxeter-Catalan numbers for the Coxeter groups A_0, A_1, A_2, A_3 = D_3, D_4, D_5, E_6, E_7, E_8. -/
-opaque A352184 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352184.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352185: a(n) = smallest integer m for which there is an integer k, with 0 < k < m and gcd(k,m)=1, such that the arithmetic progression m+k, 2*m+k, ..., n*m+k contains only composite numbers. -/
-opaque A352185 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352185.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352186: The numbers k arising in A352185. -/
-opaque A352186 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352186.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352187: a(1)=1, a(2)=2; thereafter, a(n) is the smallest number m not yet in the sequence such that gcd(m,a(n-1)) > 1 and gcd(m,a(n-2))=1, except that the second condition is ignored if it would imply that no choice for m were possible. -/
-opaque A352187 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352187.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352188: When n appears in A352187, or -1 if n never appears. -/
-opaque A352188 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352188.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352189: Index of n-th prime in A352187. -/
-opaque A352189 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352189.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352190:  -/
-opaque A352190 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352190.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352191: Records in A352187. -/
-opaque A352191 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352191.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352192: Indices of records in A352187. -/
-opaque A352192 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352192.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352193: It seems that the n-th prime p will appear in A352187 at around position 2*p; if in fact A352187(w) = p then set a(n) = w-2*p, or set a(n) = -1 if p never appears in A352187. -/
-opaque A352193 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352193.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352194: It seems that the n-th prime p appears in A064413 at around position 2*p; if in fact A064413(w) = p then set a(n) = 2*p-w. -/
-opaque A352194 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352194.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352195: It seems that the n-th prime p appears in A098550 at around position 2*p; if in fact A098550(w) = p then set a(n) =w-2*p. -/
-opaque A352195 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352195.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352196: a(n) = number of steps for the standard mod-n Ackermann function to stabilize to a set consisting of only one value, or -1 if it does not stabilize. -/
-opaque A352196 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352196.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352197: Where n appears in A350359, or -1 if n does not appear. -/
-opaque A352197 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352197.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352198: Where n-th prime appears in A350359, or -1 if n-th prime does not appear. -/
-opaque A352198 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352198.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352200: a(0)=0, a(1)=1; thereafter, a(n) is the smallest number m not yet in the sequence such that the binary expansions of m and a(n-1) have a 1 in the same position, but the positions of the 1's in the binary expansions of m and a(n-2) are disjoint, except that the second condition is ignored if it would imply that no choice for m were possible. -/
-opaque A352200 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352200.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352201: a(n) = binary weight of A338833(n). -/
-opaque A352201 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352201.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352203: Records in A109812. -/
-opaque A352203 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352203.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352204: Indices of records in A109812. -/
-opaque A352204 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352204.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352205: a(0) = 0; for n>0, a(n) is the index of the last term in A109812 that is <= 2^n - 1. -/
-opaque A352205 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352205.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352206: a(n) = A109812(A352205(n) + 1). -/
-opaque A352206 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352206.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352207: a(1) = 2, a(2) = 48; for n >= 1, a(n+2) = c(n)*a(n+1)^2/a(n) where c(n) = 256*(2*n+3)^2*(4*n+1)*(4*n+3)^2*(4*n+5) / (27*(3*n+1)*(3*n+2)^2*(3*n+4)^2*(3*n+5)). -/
-opaque A352207 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352207.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352208: Largest number of maximal 3-colorable node-induced subgraphs of an n-node graph. -/
-opaque A352208 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352208.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352216: Largest number of maximal diamond-free node-induced subgraphs of an n-node graph. -/
-opaque A352216 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352216.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352217: Smallest power of 2 that is one more than a multiple of 2n-1. -/
-opaque A352217 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352217.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352218: a(n) = least k such that A003592(n) | 20^k. -/
-opaque A352218 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352218.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352219: a(n) is the least k such that A051037(n) | 60^k. -/
-opaque A352219 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352219.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352220: Centered cube numbers that can be written as sums of two other cubes in at least two ways. -/
-opaque A352220 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352220.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352221: Numbers k such that the centered cube number k^3 + (k+1)^3 is equal to at least two other sums of two cubes. -/
-opaque A352221 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352221.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352222: First members C of two non-consecutive numbers such that the sums of their cubes are equal to centered cube numbers and to at least one other sum of two cubes, i.e., A = B^3 + (B+1)^3 = C^3 + D^3 = E^3 + F^3. -/
-opaque A352222 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352222.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352223: Second members D of two non-consecutive numbers such that the sums of their cubes are equal to centered cube numbers and to at least one other sum of two cubes, i.e., A = B^3 + (B+1)^3 = C^3 + D^3 = E^3 + F^3. -/
-opaque A352223 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352223.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352224: First numbers E = a(n) of two non-consecutive numbers (E, F) different from (C, D) = (A352222(n), A352223(n)), such that the sums of their cubes are equal to centered cube numbers and to at least one other sum of two cubes, i.e. A = B^3 + (B+1)^3 = C^3 + D^3 = E^3 + F^3. -/
-opaque A352224 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352224.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352225: Second numbers F = a(n) of two non-consecutive numbers (E, F) different from (C, D) = (A352222(n), A352223(n)), such that the sums of their cubes are equal to centered cube numbers and to at least one other sum of two cubes, i.e. A = B^3 + (B+1)^3 = C^3 + D^3 = E^3 + F^3. -/
-opaque A352225 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352225.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352226: Consider a 2D sandpile model where each site with 2 or more grains, say at location (x, y), topples and transfers one grain of sand to the sites at locations (x+1, y) and (x, y+1). Let S(n) be the configuration after stabilization of a configuration with n grains at the origin. a(n) = Max_{ (x,y) in S(n) } (x+y). -/
-opaque A352226 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352226.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352229: Numbers that can be expressed as the sum of two primes in exactly 7 ways. -/
-opaque A352229 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352229.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352230: Numbers that can be expressed as the sum of two primes in exactly 8 ways. -/
-opaque A352230 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352230.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352231: Numbers that can be expressed as the sum of two primes in exactly 9 ways. -/
-opaque A352231 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352231.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352232: a(n) is the smallest positive integer k such that 1 + k * prime(n) is a power of two. -/
-opaque A352232 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352232.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352233: Numbers that can be expressed as the sum of two primes in exactly 10 ways. -/
-opaque A352233 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352233.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352235: G.f. A(x) satisfies: A(x) = 1 + x*A(x) / (A(x) - 3*x*A'(x)). -/
-opaque A352235 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352235.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352236: G.f. A(x) satisfies: A(x) = 1 + x*A(x)^2 / (A(x) - 2*x*A'(x)). -/
-opaque A352236 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352236.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352240: Even numbers with at least one pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352240 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352240.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352241: Maximal number of nonattacking black-square queens on an n X n chessboard. -/
-opaque A352241 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352241.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352243: Positive integers of the form (x-y)*(x^3-y^3). -/
-opaque A352243 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352243.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352245: a(0) = 1; for n >= 1, a(n) = the decimal value of the binary number of the index of where n first appears in the concatenation of all previous binary terms. If the binary value of n has not previously appeared then a(n) = 0. -/
-opaque A352245 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352245.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352246: Indices k where A352245(k) = 0. -/
-opaque A352246 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352246.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352248: Number of pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352248 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352248.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352250: Expansion of e.g.f. 1 / (1 - x * sin(x)) (even powers only). -/
-opaque A352250 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352250.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352252: Expansion of e.g.f. 1 / (1 - x * cos(x)). -/
-opaque A352252 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352252.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352253: Expansion of e.g.f. 1 / (1 - x * sinh(x) / 2) (even powers only). -/
-opaque A352253 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352253.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352254: Expansion of e.g.f. exp( x * sinh(x) / 2 ) (even powers only). -/
-opaque A352254 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352254.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352257: Sum of all parts of all partitions of n into an odd number of consecutive parts. -/
-opaque A352257 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352257.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352258: Number of symmetric binary n X n matrices with no 2 X 2 submatrix of all 1s. -/
-opaque A352258 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352258.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352259: Number of ways to write n as w^6 + x^2 + 2*y^2 + 3*z^2 + x*y*z, where w,x,y,z are nonnegative integers. -/
-opaque A352259 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352259.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352260: Integers that need 2 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352260 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352260.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352261: Integers that need 3 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352261 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352261.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352262: Integers that need 4 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352262 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352262.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352263: Integers that need 5 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352263 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352263.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352264: Integers that need 6 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352264 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352264.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352265: Integers that need 7 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352265 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352265.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352266: Integers that need 8 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352266 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352266.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352267: Integers that need 9 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352267 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352267.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352268: Integers that need 10 iterations of the map x->A352172(x) to reach 1. -/
-opaque A352268 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352268.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352269: Irregular triangle read by rows: T(n,k) is the number of parts in the partition of n into 2*k-1 consecutive parts, 1 <= k <= A351846(n). T(n,k) = 0 if no such partition exists. -/
-opaque A352269 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352269.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352270: Expansion of e.g.f. 1/(2 - exp(x) + log(1 - x)). -/
-opaque A352270 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352270.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352271: Expansion of e.g.f. 1/(2 - exp(x) - log(1 + x)). -/
-opaque A352271 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352271.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352272: Numbers whose squarefree part is congruent to 1 modulo 6. -/
-opaque A352272 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352272.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352274: Numbers whose squarefree part is congruent to 1 modulo 6 or 3 modulo 18. -/
-opaque A352274 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352274.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352275: a(0) = 1 and a(n) = Sum_{k = 0..2*n} n/(n + 2*k)*binomial(n + 2*k,k) for n >= 1. -/
-opaque A352275 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352275.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352276: a(0) = 1 and a(n) = Sum_{k = 0..3*n} n/(n + 2*k)*binomial(n + 2*k,k) for n >= 1. -/
-opaque A352276 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352276.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352279: a(0) = 1; a(n) = 2 * Sum_{k=0..floor((n-1)/2)} binomial(n-1,2*k) * a(n-2*k-1). -/
-opaque A352279 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352279.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352280: a(0) = 1; a(n) = 3 * Sum_{k=0..floor((n-1)/2)} binomial(n-1,2*k) * a(n-2*k-1). -/
-opaque A352280 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352280.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352281: Regular triangle read by rows, T(n,k) is the least integer m such that sigma(m)/m is greater than n + (k-1)/n. -/
-opaque A352281 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352281.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352282: Indices k where A225402(k) = 0. -/
-opaque A352282 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352282.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352283: Smallest nonnegative even integer with exactly n pairs of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352283 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352283.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352284: a(n) is 2^(2*n) times the derivative of order 2*n of the logarithm of I_0(x) (the modified Bessel function of the first kind of order zero) evaluated at zero. -/
-opaque A352284 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352284.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352285: a(n) is the number of steps in John Conway's game of life that it takes for the smallest square checkerboard pattern with a diagonal of n living cells to either die out or enter a cycle; or -1 if it never cycles. -/
-opaque A352285 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352285.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352286: Number of ways to write n as w + x^2 + 2*y^2 + 3*z^2 + x*y*z, where w is 0 or 1, and x,y,z are nonnegative integers. -/
-opaque A352286 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352286.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352287: Numbers k such that, for every prime p dividing k, k has a nontrivial divisor which is congruent to 1 (mod p). -/
-opaque A352287 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352287.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352288: Total cophenetic index of the rooted tree with Matula-Goebel number n. -/
-opaque A352288 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352288.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352290: Numbers m such that the greatest prime factor of m^2 + 1 is a Fibonacci number. -/
-opaque A352290 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352290.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352292: Expansion of e.g.f. 1/(2 - exp(x) - x/(1 - x)). -/
-opaque A352292 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352292.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352293: Expansion of e.g.f. 1/(2 - exp(x) - x/(1 + x)). -/
-opaque A352293 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352293.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352294: Expansion of e.g.f. 1/(exp(x) - x/(1 - x)). -/
-opaque A352294 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352294.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352296: Smallest number that can be expressed as the sum of two primes in exactly n ways or -1 if no such number exists. -/
-opaque A352296 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352296.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352297: Even numbers with exactly 1 pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352297 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352297.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352298: Conjectured largest number that can be expressed as the sum of two primes in exactly n ways or -1 if no such number exists. -/
-opaque A352298 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352298.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352299: Expansion of e.g.f. 1/(2 - exp(x) - x^3). -/
-opaque A352299 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352299.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352300: Expansion of e.g.f. 1/(2 - exp(x) - x^4). -/
-opaque A352300 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352300.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352302: Expansion of e.g.f. 1/(exp(x) - x^2). -/
-opaque A352302 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352302.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352303: Expansion of e.g.f. 1/(exp(x) - x^3). -/
-opaque A352303 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352303.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352304: Expansion of e.g.f. 1/(exp(x) - x^4). -/
-opaque A352304 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352304.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352305: a(n) is the (conjectured) largest even number that can be expressed as the sum of two distinct primes in exactly n ways. -/
-opaque A352305 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352305.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352306: Expansion of e.g.f. 1/(2 - exp(x) - x^2/2). -/
-opaque A352306 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352306.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352307: Expansion of e.g.f. 1/(2 - exp(x) - x^3/6). -/
-opaque A352307 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352307.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352308: Expansion of e.g.f. 1/(2 - exp(x) - x^4/24). -/
-opaque A352308 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352308.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352309: Expansion of e.g.f. 1/(exp(x) - x^2/2). -/
-opaque A352309 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352309.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352311: Expansion of e.g.f. 1/(exp(x) - x^4/24). -/
-opaque A352311 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352311.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352312: Start of the first run of exactly n consecutive primes using only prime digits. -/
-opaque A352312 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352312.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352313: a(n) is -2^(2n) times the derivative of order 2n of the logarithm of J_0(x) (the Bessel function of the first kind of order zero) evaluated at zero. -/
-opaque A352313 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352313.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352314: Primitive triples (a, b, c) of integer-sided triangles such that the distance d = OI between the circumcenter O and the incenter I is also a positive integer. The triples of sides (a, b, c) are in increasing order a <= b <= c. -/
-opaque A352314 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352314.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352315: a(n) is the distance d between the incenter I and the circumcenter O of the integer-sided triangle whose sides correspond to the n-th primitive triple of A352314. -/
-opaque A352315 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352315.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352316: Perimeter of primitive integer-sided triangles such that the distance d = OI between the circumcenter O and the incenter I is also a positive integer. -/
-opaque A352316 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352316.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352317: Numbers m such that A352688(m) = 1. -/
-opaque A352317 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352317.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352318: Numbers k such that 2520*k is a highly composite number. -/
-opaque A352318 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352318.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352319: Numbers whose minimal (or greedy) Pell representation (A317204) is palindromic. -/
-opaque A352319 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352319.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352320: Pell-Niven numbers: numbers that are divisible by the sum of the digits in their minimal (or greedy) representation in terms of the Pell numbers (A317204). -/
-opaque A352320 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352320.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352321: Numbers k such that k and k+1 are both Pell-Niven numbers (A352320). -/
-opaque A352321 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352321.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352322: Starts of runs of 3 consecutive Pell-Niven numbers (A352320). -/
-opaque A352322 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352322.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352323: Positive numbers that are not the sum of distinct Pell numbers (A000129). -/
-opaque A352323 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352323.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352324: Decimal expansion of 4*Pi / (5*sqrt(10-2*sqrt(5))). -/
-opaque A352324 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352324.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352325: Number of ways of placing A352241(n) nonattacking black-square queens on an n X n board. -/
-opaque A352325 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352325.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352326: Expansion of e.g.f.: 1/(2 - exp(x) - sinh(x)). -/
-opaque A352326 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352326.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352327: Expansion of e.g.f.: 1/(3 - exp(x) - cosh(x)). -/
-opaque A352327 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352327.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352328: Nonnegative numbers that are the sum of distinct Pell numbers (A000129). -/
-opaque A352328 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352328.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352329: Squares in A030299. -/
-opaque A352329 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352329.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352330: Squares whose arithmetic derivative (A003415) is a cube. -/
-opaque A352330 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352330.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352333: a(1) = 1. For n >= 2, a(n) is the number whose base a(n-1) + 1 digit values, written in base 10, are the terms from a(1) through a(n-1). -/
-opaque A352333 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352333.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352335: Numbers whose representation in the Fibonacci base is a cubefree word. -/
-opaque A352335 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352335.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352336: Define a sequence B = {b(i): i >= 1} by b(i) = smallest unused number when A109812(i) is being calculated, and then remove duplicates from B. -/
-opaque A352336 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352336.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352337: Numbers m such that A_m(j) = 1 for some value of j, where A_m(k+1) = 2*A_m(k) - sigma(A_m(k)), sigma(m) = sum of the divisors of m, and A_m(1) = m. -/
-opaque A352337 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352337.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352338: Prime numbers of the form (i+1)*A352185(i) + A352186(i) for some i > 0. -/
-opaque A352338 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352338.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352339: a(n) is the maximal (or lazy) Pell representation of n using a ternary system of vectors. -/
-opaque A352339 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352339.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352340: a(n) is the sum of digits of n in the maximal Pell representation of n (A352339). -/
-opaque A352340 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352340.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352341: Numbers whose maximal Pell representation (A352339) is palindromic. -/
-opaque A352341 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352341.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352342: Lazy-Pell-Niven numbers: numbers that are divisible by the sum of the digits in their maximal (or lazy) representation in terms of the Pell numbers (A352339). -/
-opaque A352342 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352342.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352343: Numbers k such that k and k+1 are both lazy-Pell-Niven numbers (A352342). -/
-opaque A352343 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352343.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352344: Starts of runs of 3 consecutive lazy-Pell-Niven numbers (A352342). -/
-opaque A352344 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352344.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352345: Starts of runs of 4 consecutive lazy-Pell-Niven numbers (A352342). -/
-opaque A352345 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352345.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352348: Maximum determinant of n X n matrix composed of {-1, 0, 1} with pairwise orthogonal rows. -/
-opaque A352348 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352348.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352350: a(n) is the largest number that is not the sum of distinct n-gonal pyramidal numbers. -/
-opaque A352350 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352350.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352351: Primes "p" corresponding to the even numbers with exactly 1 pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352351 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352351.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352352: Primes "q" corresponding to the even numbers with exactly 1 pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352352 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352352.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352353: Primes "r" corresponding to the even numbers with exactly 1 pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352353 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352353.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352354: Primes "s" corresponding to the even numbers with exactly 1 pair of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352354 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352354.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352355: a(n) is the least prime == prime(i-1) (mod prime(i)) for 2 <= i <= n. -/
-opaque A352355 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352355.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352356: Number of ways to write 12*n + 5 as 2*x^2 + 5*y^2 + 9*z^2 + x*y*z, where x, y and z are nonnegative integers. -/
-opaque A352356 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352356.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352357: Expansion of e.g.f. 1/(1 - Sum_{k>=1} binomial(k+2,3) * x^k/k!). -/
-opaque A352357 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352357.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352358: Expansion of e.g.f. 1/(1 - Sum_{k>=1} binomial(k+3,4) * x^k/k!). -/
-opaque A352358 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352358.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352359: Indices of local minima in A109812. -/
-opaque A352359 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352359.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352360: Three-column array giving list of primitive triples for integer-sided triangles with A < B < C < 2*Pi/3 and such that FA, FB, FC are also integers where F is the Fermat point of the triangle. -/
-opaque A352360 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352360.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352361: Array read by ascending antidiagonals. A(n, k) = Fibonacci(k, n), where Fibonacci(n, x) are the Fibonacci polynomials. -/
-opaque A352361 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352361.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352362: Array read by ascending antidiagonals. T(n, k) = L(k, n) where L are the Lucas polynomials. -/
-opaque A352362 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352362.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352363: Triangle read by rows. The incomplete Bell transform of the swinging factorials A056040. -/
-opaque A352363 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352363.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352364: Row sums of A352363. -/
-opaque A352364 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352364.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352366: Triangle read by rows. The incomplete Bell transform of the Catalan numbers. -/
-opaque A352366 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352366.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352367: Row sums of A352366. -/
-opaque A352367 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352367.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352369: Triangle read by rows. The incomplete Bell transform of the central binomial numbers. -/
-opaque A352369 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352369.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352370: Row sums of A352369. -/
-opaque A352370 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352370.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352371: Alternating row sums of A352369. -/
-opaque A352371 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352371.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352372: Triangle read by rows. Let R(n, k) = Y(n, k, B) where Y are the partial Bell polynomials and B is the list [Bernoulli(j, 1), j = 0..n]. T(n, k) are R(n, k) normalized by the lcm of the denominators of the terms in row n (A048803). -/
-opaque A352372 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352372.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352374: a(1) = 1. For n >= 2, a(n) is the least nonprime not already in the sequence such that there is at least one prime between a(n-1) and a(n). -/
-opaque A352374 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352374.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352379: Numbers k such that no nonzero digit of 2*k divides 2*k. -/
-opaque A352379 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352379.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352380: Numbers k such that no nonzero digit of 3*k divides 3*k. -/
-opaque A352380 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352380.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352381: Numbers k such that no nonzero digit of 4*k divides 4*k. -/
-opaque A352381 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352381.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352382: Numbers k such that no nonzero digit of 5*k divides 5*k. -/
-opaque A352382 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352382.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352383: G.f. A(x) satisfies: A(x) = (1 + 2*x*A(x)^3)^2 / (1 + x*A(x)^3). -/
-opaque A352383 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352383.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352384: G.f. A(x) satisfies: A(x) = (1 + 2*x*A(x))^6 / (1 + x*A(x))^3. -/
-opaque A352384 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352384.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352385: G.f. A(x) satisfies: A(x)^3 = (1-x) * (A(x) + x)^2. -/
-opaque A352385 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352385.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352387: Lexicographically earliest sequence of distinct positive integers such that the first digit of |a(n) - a(n+1)| is the n-th digit of the sequence (integers including a zero are excluded). -/
-opaque A352387 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352387.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352388: Number of solutions to Snake Number Problem for snakes with n-periodic instructions in an infinite square grid (see Comments). -/
-opaque A352388 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352388.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352389: Lexicographically earliest sequence of distinct positive integers such that the first digit of a(n)*a(n+1) is the n-th digit of the sequence (integers including a zero are excluded). -/
-opaque A352389 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352389.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352392: a(n) is the least prime prime(k) such that prime(k+n-1)^2 - prime(k)^2 + prime(i) for i=k..k+n-1 are consecutive primes. -/
-opaque A352392 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352392.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352393: Numbers k such that 3^k + 5^k + 7^k + 11^k + 13^k is prime. -/
-opaque A352393 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352393.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352398: Denominators of partial sums of the Madhava series for Pi/(2*sqrt(3)) = A093766. -/
-opaque A352398 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352398.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352399: Triangular array read by rows: T(n,k) is the number of partial order relations on [n] that have exactly k components, n>=0, 0<=k<=n. -/
-opaque A352399 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352399.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352400: a(n) is the left Aurifeuillian factor of p^p + 1 for A002145(n), where A002145 lists the primes congruent to 3 (mod 4). -/
-opaque A352400 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352400.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352401: The right Aurifeuillian factor of p^p + 1 for primes p congruent to 3 (mod 4). -/
-opaque A352401 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352401.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352404: Product_{n>=1} (1 + x^n)^(a(n)/n!) = 1 + log(1 + x). -/
-opaque A352404 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352404.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352406: The number of terms before reaching zero when starting at n and iterating: f(n) = n, f(n+1) = n+1; f(n+k) = (f(n+k-2) + f(n+k-1)) (mod (n+k)), where k>=2. -/
-opaque A352406 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352406.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352410: Expansion of e.g.f. LambertW( -x/(1-x) ) / (-x). -/
-opaque A352410 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352410.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352412: E.g.f.: 2*x / LambertW( 2*x/(1-x) ). -/
-opaque A352412 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352412.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352413: G.f. A(x) satisfies: A(x)^4 = (1-x) * (A(x) + x)^3. -/
-opaque A352413 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352413.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352416: A permutation related to minimal Pell representations: append a 0 after each 2 in the ternary expansion of n, and then replace each place value, say 3^k with k >= 0, by A000129(k+1). -/
-opaque A352416 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352416.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352417: Inverse permutation to A352416. -/
-opaque A352417 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352417.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352420: Number of distinct prime factors of sigma_n(n). -/
-opaque A352420 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352420.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352421: Number of tilings of a 5 X n rectangle using n pentominoes of shapes U, Y, Z. -/
-opaque A352421 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352421.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352422: Number of points available in a frame of snooker when there are n object balls remaining on the table. -/
-opaque A352422 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352422.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352423: Numbers that are the sum of some number of consecutive prime cubes. -/
-opaque A352423 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352423.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352426: Maximal number of nonattacking white-square queens on an n X n chessboard. -/
-opaque A352426 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352426.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352427: a(n) is the number of trailing 0's in the minimal representation of n in terms of the positive Pell numbers (A317204). -/
-opaque A352427 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352427.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352428: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/3)} binomial(n,3*k+1) * a(n-3*k-1). -/
-opaque A352428 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352428.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352429: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/4)} binomial(n,4*k+1) * a(n-4*k-1). -/
-opaque A352429 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352429.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352430: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/5)} binomial(n,5*k+1) * a(n-5*k-1). -/
-opaque A352430 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352430.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352431: Number T(n,k) of tilings of a 2k X n rectangle using dominoes and 2 X 2 tiles. -/
-opaque A352431 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352431.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352433: Number of tilings of a 5 X 2n rectangle using dominoes and 2 X 2 tiles. -/
-opaque A352433 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352433.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352434: The number of simple vertices on a diagonal of a regular 2n-gon when all its vertices are connected by lines and where the diagonal passes through the center of the 2n-gon. -/
-opaque A352434 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352434.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352435: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/2)} binomial(n,2*k+1) * a(k) * a(n-2*k-1). -/
-opaque A352435 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352435.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352436: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/3)} binomial(n,3*k+1) * a(k) * a(n-3*k-1). -/
-opaque A352436 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352436.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352437: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/4)} binomial(n,4*k+1) * a(k) * a(n-4*k-1). -/
-opaque A352437 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352437.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352438: Numbers k whose decimal expansion starts with the sum of the last two digits of k. -/
-opaque A352438 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352438.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352439: Numbers k whose decimal expansion ends in the sum of the first two digits of k. -/
-opaque A352439 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352439.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352440: Numbers k whose decimal expansion starts with the sum of the last three digits of k. -/
-opaque A352440 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352440.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352442: Largest prime "r" among all pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352442 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352442.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352443: Smallest prime "s" among all pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352443 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352443.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352444: Largest prime "q" among all pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352444 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352444.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352445: Smallest prime "p" among all pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite. -/
-opaque A352445 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352445.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352446: Total number of parts in all partitions of n into an even number of consecutive parts. -/
-opaque A352446 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352446.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352450: 2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k AND n > 0 (where AND denotes the bitwise AND operator). -/
-opaque A352450 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352450.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352451: 2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k+1 divides n. -/
-opaque A352451 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352451.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352452: 2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k+1 does not divide n. -/
-opaque A352452 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352452.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352453: Decimal expansion of the area of intersection of 4 unit-radius circles that have the vertices of a unit-side square as centers. -/
-opaque A352453 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352453.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352455: Decimal expansion of the surface area of the solid formed by the intersection of 8 unit-radius spheres that have the vertices of a unit-side cube as centers. -/
-opaque A352455 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352455.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352456: Smallest Matula-Goebel number of a rooted binary tree (everywhere 0 or 2 children) of n childless vertices. -/
-opaque A352456 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352456.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352458: 2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k AND n = 0 (where AND denotes the bitwise AND operator). -/
-opaque A352458 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352458.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352459: First of four consecutive primes p,q,r,s such that p+q+r+s is divisible by A001414(p+q). -/
-opaque A352459 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352459.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352460: Triangle read by rows: T(n,k), 2 <= k < n is the number of n-element k-ary unlabeled quasi-full rooted trees. -/
-opaque A352460 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352460.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352461: Numbers k whose decimal expansion starts with the sum of digits of k. -/
-opaque A352461 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352461.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A352462: Numbers k with the property that k ends in the sum of the digits of k. -/
 opaque A352462 : ℕ → ℤ
 
@@ -1739,6 +149,12 @@ opaque A352499 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352499.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A352500: Expansion of g.f.: 1/(Sum_{p prime} x^p)^2. -/
+opaque A352500 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A352500.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352501: a(n) is the distance from n to the nearest integer that can be added to n without carries in balanced ternary. -/
 opaque A352501 : ℕ → ℤ
@@ -2052,6 +468,12 @@ opaque A352560 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352560.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A352561: a(n) = number of modules with n elements over the ring of integers in the imaginary quadratic field of discriminant -3. -/
+opaque A352561 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A352561.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A352562: a(n) = number of modules with n elements over the ring of integers in the imaginary quadratic field of discriminant -4. -/
 opaque A352562 : ℕ → ℤ
 
@@ -2231,12 +653,6 @@ opaque A352599 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352599.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352601: a(n) = RisingFactorial(2*n, n) = A124320(2*n, n). -/
-opaque A352601 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352601.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352603: a(1) = 2; a(2) = 3; for n >= 3, a(n) = a(n-1) - (gpf(n-2) + gpf(n-1)) if a(n) >= 2 and has not previously appeared, otherwise a(n) = a(n-1) + (gpf(n-2) + gpf(n-1)), where gpf(k) = A006530(k) = greatest prime dividing k. -/
 opaque A352603 : ℕ → ℤ
@@ -2423,6 +839,12 @@ opaque A352642 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352642.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A352643: Expansion of e.g.f. exp(3 * x * cos(x)). -/
+opaque A352643 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A352643.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352644: Expansion of e.g.f. exp(2 * x * cosh(x)). -/
 opaque A352644 : ℕ → ℤ
@@ -2754,17 +1176,11 @@ opaque A352710 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352710.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A352711:  -/
+/-- A352711: The left Aurifeuillian factor of p^p - 1 for primes p congruent to 1 (mod 4). -/
 opaque A352711 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352711.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352713: Lexicographically earliest sequence of distinct nonnegative integers such that the binary expansions of two consecutive terms have no common 1, and the least value not yet in the sequence appears as soon as possible. -/
-opaque A352713 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352713.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352714: Inverse permutation to A352713. -/
 opaque A352714 : ℕ → ℤ
@@ -2832,7 +1248,7 @@ opaque A352727 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352727.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A352732:  -/
+/-- A352732: The right Aurifeuillian factor of p^p - 1, for primes p congruent to 1 (mod 4). -/
 opaque A352732 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -2915,6 +1331,12 @@ opaque A352760 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352760.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A352763: a(1) = 1; a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with a(n-1) and whose binary expansion has no 1-bit in common with the binary expansion of a(n-1). -/
+opaque A352763 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A352763.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352764: Smallest number of edges in an asymmetric n-node graph, or -1 if no such graph exists. -/
 opaque A352764 : ℕ → ℤ
@@ -3222,6 +1644,12 @@ opaque A352835 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352835.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A352836: Lexicographically earliest sequence of positive integers such that the binary expansions of two consecutive terms have a 1 at the same position and for any distinct m and n, {a(m), a(m+1)} <> {a(n), a(n+1)}. -/
+opaque A352836 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A352836.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A352837: Primes p such that, if q is the next prime, p + q^2 is a prime times a power of 10. -/
 opaque A352837 : ℕ → ℤ
 
@@ -3269,12 +1697,6 @@ opaque A352844 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352844.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352848: a(n) is the first prime p such that, with q the next prime, p + q^2 is 10^n times a prime. -/
-opaque A352848 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352848.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352850: E.g.f. A(x) satisfies: [x^k] A(x)^n = 0 for k = n*(n-1)/2 + 1 through n*(n+1)/2, for n > 1. -/
 opaque A352850 : ℕ → ℤ
@@ -3341,12 +1763,6 @@ opaque A352862 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352862.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A352863: a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n+3,k+3) * a(k). -/
-opaque A352863 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352863.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A352864: a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/2)} binomial(n-k,k) * a(n-2*k-1). -/
 opaque A352864 : ℕ → ℤ
@@ -3864,12 +2280,6 @@ opaque A352973 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A352973.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A352975: a(n) is the smallest number which can be represented as the sum of n distinct centered n-gonal numbers in exactly n ways, or -1 if no such number exists. -/
-opaque A352975 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A352975.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A352976: a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with max(a(n-2),a(n-1)). -/
 opaque A352976 : ℕ → ℤ
 
@@ -3983,6 +2393,12 @@ opaque A353012 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353012.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353025: Terms of A352991 which are perfect powers. -/
+opaque A353025 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353025.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353027: Tetrahedral (or triangular pyramidal) numbers which are products of four distinct primes. -/
 opaque A353027 : ℕ → ℤ
@@ -4517,6 +2933,12 @@ opaque A353180 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353180.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353181: Numbers in which more than half of the digits are the same. -/
+opaque A353181 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353181.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353184: Expansion of e.g.f. 1/(1 - Sum_{k>=1} x^(k^2) / (k^2)). -/
 opaque A353184 : ℕ → ℤ
@@ -5100,6 +3522,12 @@ opaque A353345 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353345.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A353347: Numbers k such that the elements of the continued fraction of phi(k)/k and phi(k+1)/(k+1) are anagrams of each other. -/
+opaque A353347 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353347.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A353348: Dirichlet inverse of A353350, where A353350 is the characteristic function for numbers k such that A048675(k) is a multiple of 3. -/
 opaque A353348 : ℕ → ℤ
 
@@ -5628,6 +4056,18 @@ opaque A353469 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353469.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A353475: a(n) = 1 if n is a semiprime of the form p * q, where p and q are primes with p^2 < q, otherwise 0. -/
+opaque A353475 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353475.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353476: a(n) = 1 if n is a semiprime of the form p * q, where p and q are (not necessarily distinct) primes with p <= q < p^2, otherwise 0. -/
+opaque A353476 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353476.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A353486: Primorial base exp-function reduced modulo 4. -/
 opaque A353486 : ℕ → ℤ
 
@@ -5651,6 +4091,36 @@ opaque A353489 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353489.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353490: The largest proper divisor of n, reduced modulo 4, with a(1) = 1. -/
+opaque A353490 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353490.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353491: a(1) = 1, and for n > 1, a(n) = 1 if the largest proper divisor of n is of the form 4k+1, otherwise 0. -/
+opaque A353491 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353491.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353492: a(1) = 0, and for n > 1, a(n) = 1 if the largest proper divisor of n is of the form 4k+3, otherwise 0. -/
+opaque A353492 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353492.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353496: The arithmetic derivative of the largest proper divisor of n, reduced modulo 4, with a(1) = 0. -/
+opaque A353496 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353496.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353497: The smallest prime factor of n, reduced modulo 4, with a(1) = 1. -/
+opaque A353497 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353497.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353500: Numbers that are the smallest number with product of prime exponents k for some k. Sorted positions of first appearances in A005361, unsorted version A085629. -/
 opaque A353500 : ℕ → ℤ
@@ -5693,12 +4163,6 @@ opaque A353506 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353506.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A353507:  -/
-opaque A353507 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353507.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353508: Number of integer compositions of n with no ones or runs of length 1. -/
 opaque A353508 : ℕ → ℤ
@@ -5808,7 +4272,7 @@ opaque A353528 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353528.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A353529:  -/
+/-- A353529: a(n) = 1 if A053669(n) [the smallest prime not dividing n] is of the form 4m+3, otherwise a(n) = 0. -/
 opaque A353529 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -5867,6 +4331,12 @@ opaque A353549 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353549.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A353560: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j), A001065(i) = A001065(j) and A051953(i) = A051953(j), for all i, j >= 1. -/
+opaque A353560 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353560.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353561: Prime shadows of colossally abundant numbers, A004490. -/
 opaque A353561 : ℕ → ℤ
@@ -6191,12 +4661,6 @@ opaque A353657 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353657.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A353658: Rectangular array by antidiagonals: row k lists the numbers whose Fibonacci-Lucas representation has k terms. -/
-opaque A353658 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353658.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353659: Rectangular array read by downwards antidiagonals: row k lists the numbers whose Lucas-Fibonacci representation has k terms. -/
 opaque A353659 : ℕ → ℤ
@@ -6726,12 +5190,6 @@ opaque A353808 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353808.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A353813:  -/
-opaque A353813 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353813.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A353821: Product_{n>=1} (1 + a(n)*x^n/n!) = 1 + arctanh(x). -/
 opaque A353821 : ℕ → ℤ
 
@@ -7038,12 +5496,6 @@ opaque A353873 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353873.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A353876: Irregular table read by rows: for each internal vertex of a regular n-gon with all diagonals drawn remove all the edges connected directly to the vertex and then count the sides in the polygon that surrounds it; row n gives the number of resulting k-sided polygons, for k>=4, for all internal vertices. -/
-opaque A353876 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353876.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A353877: Triangle read by rows: T(n,k) = number of tilings of a n X k rectangle using right trominoes, dominoes and 1 X 1 tiles, n >= 0, k = 0..n. -/
 opaque A353877 : ℕ → ℤ
 
@@ -7236,6 +5688,12 @@ opaque A353921 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353921.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A353923: Product_{n>=1} (1 + a(n)*x^n) = 1 + Sum_{n>=1} tau(n)*x^n, where tau = A000005. -/
+opaque A353923 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A353923.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A353927: Product_{n>=1} (1 + x^n)^a(n) = 1 + Sum_{n>=1} mu(n)*x^n, where mu = A008683. -/
 opaque A353927 : ℕ → ℤ
 
@@ -7386,12 +5844,6 @@ opaque A353963 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353963.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A353966: Lexicographically earliest sequence of distinct positive integers with no finite subset summing to a positive Fibonacci number. -/
-opaque A353966 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353966.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A353967: a(n) is the number of ways to write n as a sum of distinct terms of A353966. -/
 opaque A353967 : ℕ → ℤ
 
@@ -7463,12 +5915,6 @@ opaque A353980 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A353980.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A353981: a(n) is the number of ways to write n as a sum of distinct terms of A353980. -/
-opaque A353981 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A353981.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A353982: Numbers that are not the sum of distinct terms of A353980. -/
 opaque A353982 : ℕ → ℤ
@@ -7608,12 +6054,6 @@ opaque A354007 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354007.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A354009: Irregular triangle read by rows in which row n lists the partitions of n into an odd number of equal parts, in nonincreasing order. -/
-opaque A354009 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354009.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A354010: Triangle read by rows: T(k,n) (k >= 0, n = 0, ..., k) = number of tilings of a k X n rectangle using 2 X 2 tiles, right trominoes and dominoes. -/
 opaque A354010 : ℕ → ℤ
 
@@ -7680,6 +6120,12 @@ opaque A354025 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354025.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A354026: Primes that divide some k dividing 4^k + 3^k (A045584). -/
+opaque A354026 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354026.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A354040: a(n) is the least k such that A353709(k) has Hamming weight n. -/
 opaque A354040 : ℕ → ℤ
 
@@ -7691,12 +6137,6 @@ opaque A354041 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354041.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354042: Triangle read by rows. The Faulhaber numbers. F(0, k) = 1 and otherwise F(n, k) = (n + 1)!*(-1)^(k+1)*Sum_{j=0..floor((k-1)/2)} C(2*k-2*j, k+1)*C(2*n+1, 2*j+1) * Bernoulli(2*n-2*j) / (k - j). -/
-opaque A354042 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354042.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354043: Table read by rows: T(n, k) = (-1)^(n-k)*F(n, k)/k!, where F are the Faulhaber numbers A354042. -/
 opaque A354043 : ℕ → ℤ
@@ -8346,6 +6786,12 @@ opaque A354193 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354193.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A354194: Numbers k for which phi(A267099(k)) is equal to phi(k), but the number of 4m+1 and 4m+3 primes in the prime factorization of k (when counted with multiplicity) is not equal. Here A267099 is fully multiplicative involution swapping the positions of 4m+1 and 4m+3 primes, and phi is Euler totient function. -/
+opaque A354194 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354194.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A354200: Prime map that sends 2 to 5, and each 4k+1 and 4k+3 prime to the next larger prime of the same type. -/
 opaque A354200 : ℕ → ℤ
 
@@ -8633,12 +7079,6 @@ opaque A354266 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354266.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354267: A Fibonacci-Pascal triangle read by rows: T(n, n) = 1, T(n, n-1) = n - 1, T(n, 0) = T(n-1, 1) and T(n, k) = T(n-1, k-1) + T(n-1, k) for 0 < k < n-1. -/
-opaque A354267 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354267.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354268: Table read by rows. T(n, k) = (n + k)^(n - 1) for n >= 1 and 0 <= k <= n, T(0, 0) = 0. -/
 opaque A354268 : ℕ → ℤ
@@ -9288,6 +7728,12 @@ opaque A354433 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354433.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A354434: a(1) = 1; for n > 1, a(n) is the smallest unused square spiral number such that a(n) shares a factor with all existing numbers in its Moore neighborhood. -/
+opaque A354434 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354434.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A354435: Lexicographically earliest sequence of distinct positive integers on a square spiral such that any 3 X 3 square of numbers sums to a prime, and these primes are distinct. -/
 opaque A354435 : ℕ → ℤ
 
@@ -9431,6 +7877,12 @@ opaque A354470 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354470.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A354473: Number of fusion rings of rank 5 and multiplicity n. -/
+opaque A354473 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354473.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354474: Numbers that can be written as reversals in two different bases, where the bases are also reversals of each other. (Trailing zeros are not allowed.) -/
 opaque A354474 : ℕ → ℤ
@@ -10230,6 +8682,12 @@ opaque A354693 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354693.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A354694: Least Euler pseudoprime to base 2 through base prime(n). -/
+opaque A354694 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354694.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A354695: G.f. A(x) satisfies A(x) = 1 + x * A(x^3/(1 - x)^3) / (1 - x)^3. -/
 opaque A354695 : ℕ → ℤ
 
@@ -10331,12 +8789,6 @@ opaque A354725 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354725.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354726: a(1)=2. Thereafter a(n) is the least prime q>a(n-1) such that Omega(a(n-1)+a(n))=3. -/
-opaque A354726 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354726.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354727: a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared that shares a factor with a(n-1) and the difference a(n) - a(n-1) is distinct from all previous differences. -/
 opaque A354727 : ℕ → ℤ
@@ -10499,12 +8951,6 @@ opaque A354755 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354755.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354756: a(n) is the number of permutations p of [n] such that lcm(i, p(i)) <= n for all i in [n]. -/
-opaque A354756 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354756.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354757: a(n) = Sum_{k = ceiling(n/2)..n-1} A354169(k). -/
 opaque A354757 : ℕ → ℤ
@@ -10679,12 +9125,6 @@ opaque A354795 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354795.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354797: Triangle read by rows. T(n, k) = |Stirling1(n, k)| * Stirling2(n + k, n) = A132393(n, k) * A048993(n + k, n). -/
-opaque A354797 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354797.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354798: Indices of terms in A354169 that are not powers of 2. -/
 opaque A354798 : ℕ → ℤ
@@ -10872,6 +9312,12 @@ opaque A354836 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354836.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A354839: Beginning with 0, smallest positive integer not yet in the sequence such that the concatenation of two digits of the sequence separated by a comma is prime. -/
+opaque A354839 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A354839.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A354841: Number of primes between n and n+log(n), exclusive. -/
 opaque A354841 : ℕ → ℤ
 
@@ -10961,12 +9407,6 @@ opaque A354869 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354869.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A354870:  -/
-opaque A354870 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354870.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A354871: a(n) = gcd(A056239(n), A258851(n)). -/
 opaque A354871 : ℕ → ℤ
@@ -11394,12 +9834,6 @@ opaque A354983 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A354983.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A354984: Numbers that are 3 * prime powers congruent to 1 (mod 3). -/
-opaque A354984 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A354984.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A354985: a(n) = gcd(A047994(n), A344005(n)). -/
 opaque A354985 : ℕ → ℤ
 
@@ -11808,6 +10242,12 @@ opaque A355074 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355074.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355076: a(n) is the denominator of Sum_{k = 0..n} fusc(k)/fusc(k+1) (where fusc is Stern's diatomic series A002487). -/
+opaque A355076 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355076.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355078: a(n) is the smallest number k with exactly n divisors in A033075. -/
 opaque A355078 : ℕ → ℤ
 
@@ -12131,6 +10571,12 @@ opaque A355138 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355138.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355142: a(n) = 33648*3^n - 1. -/
+opaque A355142 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355142.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355143: Product of middle divisors of n, or 0 if there are no middle divisors of n. -/
 opaque A355143 : ℕ → ℤ
@@ -12492,24 +10938,6 @@ opaque A355217 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355217.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A355218: a(n) = Sum_{k>=1} (3*k - 1)^n / 2^k. -/
-opaque A355218 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A355218.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A355219: a(n) = Sum_{k>=1} (4*k - 2)^n / 2^k. -/
-opaque A355219 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A355219.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A355220: a(n) = Sum_{k>=1} (4*k - 1)^n / 2^k. -/
-opaque A355220 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A355220.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A355223: The k-th rightmost digit of a(n) is the least of the k rightmost digits of n. -/
 opaque A355223 : ℕ → ℤ
 
@@ -12678,6 +11106,12 @@ opaque A355252 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355252.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355253: Expansion of e.g.f. exp(2*(exp(x) - 1) - 3*x). -/
+opaque A355253 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355253.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355254: Expansion of e.g.f. exp(3*(exp(x) - 1) - x). -/
 opaque A355254 : ℕ → ℤ
 
@@ -12701,12 +11135,6 @@ opaque A355258 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355258.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A355260: Triangle read by rows, T(n, k) = Bell(k) * |Stirling1(n, k)|. -/
-opaque A355260 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A355260.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355265: Bicubeful numbers. -/
 opaque A355265 : ℕ → ℤ
@@ -13134,6 +11562,12 @@ opaque A355373 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355373.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355374: a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared such that the number of proper divisors of a(n) equals the number of 1-bits in the binary expansion of a(n-1). -/
+opaque A355374 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355374.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355376: a(n) = Sum_{k=0..n} k! * (-k)^(n-k) * Stirling2(n,k). -/
 opaque A355376 : ℕ → ℤ
 
@@ -13439,6 +11873,12 @@ opaque A355439 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355439.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355441: Numbers k such that the sum of the least prime factors of i=2..k is prime. -/
+opaque A355441 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355441.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355442: a(n) = gcd(A003961(n), A276086(n)), where A003961 is fully multiplicative with a(p) = nextprime(p), and A276086 is primorial base exp-function. -/
 opaque A355442 : ℕ → ℤ
@@ -14754,11 +13194,29 @@ opaque A355740 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355740.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355741: Number of ways to choose a sequence of prime factors, one of each prime index of n. -/
+opaque A355741 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355741.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355742: Number of ways to choose a sequence of prime-power divisors, one of each prime index of n. Product of bigomega over the prime indices of n, with multiplicity. -/
 opaque A355742 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355742.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355743: Numbers whose prime indices are all prime-powers. -/
+opaque A355743 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355743.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355744: Number of multisets that can be obtained by choosing a prime factor of each prime index of n. -/
+opaque A355744 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355744.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355745: Number of ways to choose a prime factor of each prime index of n (with multiplicity, in weakly increasing order) such that the result is also weakly increasing. -/
 opaque A355745 : ℕ → ℤ
@@ -15030,6 +13488,12 @@ opaque A355800 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355800.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355801: Irregular table read by rows: T(n,k) is the number of k-sided polygons, for k>=3, in a square when straight line segments connect the n-1 points between each corner that divide each edge into n equal parts to the n-1 points on the edge on the opposite side of the square. -/
+opaque A355801 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355801.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355802: A variant of Pascal's triangle (A007318) where new rows are added cyclically below, to the right and to the left. -/
 opaque A355802 : ℕ → ℤ
 
@@ -15137,6 +13601,12 @@ opaque A355827 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355827.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355829: Dirichlet inverse of A009194, the greatest common divisor of sigma(n) and n, where sigma is the sum of divisors function. -/
+opaque A355829 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355829.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355830: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A345000(i) = A345000(j) for all i, j >= 1. -/
 opaque A355830 : ℕ → ℤ
@@ -15293,6 +13763,12 @@ opaque A355863 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355863.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A355864: G.f.: Sum_{n=-oo..+oo} x^(n*(n+1)/2) * C(x)^(4*n-6), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108). -/
+opaque A355864 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355864.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A355865: Expansion of g.f. A(x) satisfying 0 = Sum_{n=-oo..+oo} x^n * (x^n - (-1)^n*2*A(x))^(2*n+1). -/
 opaque A355865 : ℕ → ℤ
@@ -15630,6 +14106,12 @@ opaque A355958 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A355958.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A355966: Number of 3-dimensional polyominoes (or polycubes) with n cells that have cavities (inclusions of empty space). -/
+opaque A355966 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A355966.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A355967: Indices of the primes that occur in A104589. -/
 opaque A355967 : ℕ → ℤ
 
@@ -15924,12 +14406,6 @@ opaque A356062 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356062.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A356063: a(n) is the new Lucas divisor that appears at the step A356062(n). -/
-opaque A356063 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A356063.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A356064: Numbers with a prime index other than 1 that is not a prime-power. Complement of A302492. -/
 opaque A356064 : ℕ → ℤ
 
@@ -16163,12 +14639,6 @@ opaque A356142 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356142.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A356145: Coefficients of the inverse refined Eulerian partition polynomials [E]^{-1}, partitional inverse to A145271. Irregular triangle read by row with lengths A000041. -/
-opaque A356145 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A356145.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356147: Lower twin primes whose sum of digits is a lower twin prime. -/
 opaque A356147 : ℕ → ℤ
@@ -16980,12 +15450,6 @@ opaque A356358 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356358.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A356359: Square array T(m,n) read by antidiagonals: T(m,n) = number of ways a knight can reach (0, 0) from (m, n) on an infinite chessboard while always decreasing its Manhattan distance from the origin, for nonnegative m, n. -/
-opaque A356359 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A356359.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A356361: a(n) = Sum_{k=0..floor(n/3)} n^k * |Stirling1(n,3*k)|. -/
 opaque A356361 : ℕ → ℤ
 
@@ -17040,12 +15504,6 @@ opaque A356371 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356371.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A356376: Main diagonal of the LORO variant of the array A035486; this is one of eight such sequences discussed in A007063. -/
-opaque A356376 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A356376.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A356377: Main diagonal of the ROLI variant of the array A035486; this is one of eight such sequences discussed in A007063. -/
 opaque A356377 : ℕ → ℤ
 
@@ -17087,6 +15545,12 @@ opaque A356387 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356387.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A356388: a(n) is the product of all parts in negaFibonacci representation of -n. -/
+opaque A356388 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356388.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356389: a(n) = n! * Sum_{k=1..n} ( Sum_{d|k} (-1)^(k/d + 1) ) /k. -/
 opaque A356389 : ℕ → ℤ
@@ -17334,6 +15798,12 @@ opaque A356440 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356440.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A356442: a(n) is the least positive even number that is the unordered sum of two primes congruent mod 10 in exactly n ways. -/
+opaque A356442 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356442.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A356443: Primes p such that the concatenation of p and 2*p is the average of a twin prime pair. -/
 opaque A356443 : ℕ → ℤ
 
@@ -17387,6 +15857,12 @@ opaque A356458 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356458.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A356459: a(n) = n! * Sum_{k=1..n} Sum_{d|k} d/(k/d)!. -/
+opaque A356459 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356459.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356460: Expansion of e.g.f. Product_{k>0} B(x^k)^k where B(x) = exp(exp(x)-1) = e.g.f. of Bell numbers. -/
 opaque A356460 : ℕ → ℤ
@@ -17526,6 +16002,12 @@ opaque A356507 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356507.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A356508: G.f. A(x) satisfies: 2 = Product_{n>=1} (1 + x^n*A(x)) * (1 + x^(n-1)/A(x)). -/
+opaque A356508 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356508.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A356511: Total number of distinct numbers that can be obtained by starting with 1 and applying the "Choix de Bruxelles", version 2 operation at most n times in duodecimal (base 12). -/
 opaque A356511 : ℕ → ℤ
 
@@ -17567,12 +16049,6 @@ opaque A356519 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356519.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A356521: The constant coefficient of (x + x*y + y + 1/(x*y))^n. -/
-opaque A356521 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A356521.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356522: Numbers that are nim cubes; numbers in A335170. -/
 opaque A356522 : ℕ → ℤ
@@ -17945,6 +16421,12 @@ opaque A356638 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356638.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A356639: Number of integer sequences b with b(1) = 1, b(m) > 0 and b(m+1) - b(m) > 0, of length n which transform under the map S into a nonnegative integer sequence. The transform c = S(b) is defined by c(m) = Product_{k=1..m} b(k) / Product_{k=2..m} (b(k) - b(k-1)). -/
+opaque A356639 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356639.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356640: a(n) is the least number k such that the least base in which k is a Niven number is n, i.e., A356552(k) = n, or -1 if no such k exists. -/
 opaque A356640 : ℕ → ℤ
@@ -18408,6 +16890,18 @@ opaque A356773 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356773.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A356775: Coefficients in the power series expansion of A(x) = Sum_{n=-oo..+oo} n*(n+1)/2 * x^(2*n) * (1 - x^n)^(n-2). -/
+opaque A356775 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356775.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A356777: G.f.: Sum_{n=-oo..+oo} x^(n^2) * C(x)^(2*n-1), where C(x) = 1 + x*C(x)^2 is a g.f. of the Catalan numbers (A000108). -/
+opaque A356777 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356777.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A356778: G.f.: Sum_{n=-oo..+oo} x^(n^2) * C(x)^(4*n-4), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108). -/
 opaque A356778 : ℕ → ℤ
 
@@ -18612,6 +17106,12 @@ opaque A356837 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356837.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A356838: The smallest of the most common prime factors of n. -/
+opaque A356838 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356838.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A356839: a(n) = A005132(2*n) + A005132(2*n+1). -/
 opaque A356839 : ℕ → ℤ
 
@@ -18803,6 +17303,12 @@ opaque A356886 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356886.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A356892: E.g.f. satisfies log(A(x)) = x^3 * (exp(x * A(x)) - 1) * A(x). -/
+opaque A356892 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356892.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A356900: a(n) = P(n, 1/2) where P(n, x) = x^(-n)*Sum_{k=0..n} A241171(n, k)*x^k. -/
 opaque A356900 : ℕ → ℤ
@@ -19044,6 +17550,12 @@ opaque A356945 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A356945.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A356947: Emirps p such that p == 1 (mod s) and R(p) == 1 (mod s), where R(p) is the digit reversal of p and s the sum of digits of p. -/
+opaque A356947 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A356947.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A356948: Sequence of scores adding to maximum break in snooker. -/
 opaque A356948 : ℕ → ℤ
 
@@ -19278,6 +17790,12 @@ opaque A357004 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357004.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357005: Smallest k that is cyclically equivalent (see Comment for definition) to n. -/
+opaque A357005 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357005.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357006: Numbers k that are the smallest of all numbers that are cyclically equivalent to k. -/
 opaque A357006 : ℕ → ℤ
 
@@ -19350,6 +17868,12 @@ opaque A357019 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357019.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357020: a(n) is the start of the first run of exactly n consecutive numbers not of the form x^2 + x*y + y^2. -/
+opaque A357020 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357020.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357021: First coordinate x of points in the triangular lattice, sorted first by the distance from the origin and then by the circumferential angle phi restricted to the sector 0 <= phi < Pi/6. y is given in A357022. -/
 opaque A357021 : ℕ → ℤ
 
@@ -19421,6 +17945,12 @@ opaque A357032 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357032.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357034: a(n) is the smallest number with exactly n divisors that are hoax numbers (A019506). -/
+opaque A357034 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357034.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357035: a(n) is the smallest number that has exactly n divisors that are digitally balanced numbers (A031443). -/
 opaque A357035 : ℕ → ℤ
@@ -19589,6 +18119,12 @@ opaque A357082 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357082.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357083: a(n) is the number of free polycubes of size n with holes. -/
+opaque A357083 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357083.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357084: E.g.f. satisfies log(A(x)) = (exp(x*A(x)) - 1)^2 * A(x). -/
 opaque A357084 : ℕ → ℤ
@@ -19991,6 +18527,12 @@ opaque A357166 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357166.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357169: Starts of runs of at least 4 consecutive odd numbers whose prime factors are all prime-indexed primes. -/
+opaque A357169 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357169.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357170: Primes p such that the minimum number of divisors among the numbers between p and NextPrime(p) is a prime power. -/
 opaque A357170 : ℕ → ℤ
@@ -20670,11 +19212,29 @@ opaque A357338 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357338.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357339: Triangle read by rows. T(n, k) = Sum_{j=0..n-k} binomial(-n, j) * A268437(n - k, j). -/
+opaque A357339 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357339.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357340: Triangle read by rows. T(n, k) = Sum_{j=0..n-k} binomial(-n, j) * A268438(n - k, j). -/
+opaque A357340 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357340.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357341: a(n) = Sum_{k=0..n} (-1)^(n - k) * A357340(n, k). -/
 opaque A357341 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357341.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357342: a(n) = Sum_{k=0..n} ((-1)^(n - k) * A357339(n, k)). -/
+opaque A357342 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357342.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357343: E.g.f. satisfies A(x) = -log(1 - x * exp(A(x))) * exp(A(x)). -/
 opaque A357343 : ℕ → ℤ
@@ -20777,12 +19337,6 @@ opaque A357364 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357364.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A357366: Expansion of Product_{k>=0} 1 / (1 - x^(2^k) - x^(2^(k+1)))^(2^k). -/
-opaque A357366 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357366.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357368: Triangle read by rows. Convolution triangle of the prime indicator sequence A089026. -/
 opaque A357368 : ℕ → ℤ
@@ -21072,11 +19626,23 @@ opaque A357428 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357428.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357430: a(n) is the least integer > 1 such that its digit representation in base n is equal to the digit representation in base n of the initial terms of its set of divisors in increasing order. -/
+opaque A357430 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357430.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357434: a(n) is the number of distinct Q-toothpicks after the n-th stage of the structure described in A211000. -/
 opaque A357434 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357434.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357436: Start with a(1)=2; to get a(n+1) insert in a(n) the smallest possible digit at the rightmost possible position such that the new number is a prime. -/
+opaque A357436 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357436.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357438: Triangle T(n,k) read by rows, defined by the equation f(x, y) := Sum_{n, k} T(n, k) * y^k * x^n = 1/(1 - x*y - x^2*y*f(x, y+1)). -/
 opaque A357438 : ℕ → ℤ
@@ -21372,6 +19938,12 @@ opaque A357514 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357514.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357516: Number of snake-like polyominoes in an n X n square that start at the NW corner and end at the SE corner and have the maximum length. -/
+opaque A357516 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357516.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357519: Number of compositions (ordered partitions) of n into Jacobsthal numbers 1,3,5,11,21,43, ... (A001045). -/
 opaque A357519 : ℕ → ℤ
 
@@ -21450,13 +20022,13 @@ opaque A357543 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357543.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A357544:  -/
+/-- A357544: Central terms of triangle A357540: a(n) = A357540(2*n,n). -/
 opaque A357544 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357544.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A357545:  -/
+/-- A357545: Central terms of triangle A357541: a(n) = A357541(2*n,n). -/
 opaque A357545 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -22062,6 +20634,12 @@ opaque A357694 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357694.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357697: Odd cubefree abundant numbers. -/
+opaque A357697 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357697.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357699: Noncubefree numbers k such that A357698(k) > k. -/
 opaque A357699 : ℕ → ℤ
 
@@ -22386,12 +20964,6 @@ opaque A357775 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357775.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A357776: Integer pairs that generate only odd prime sums (as described in comment). -/
-opaque A357776 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357776.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A357781: Semiprimes k such that k is congruent to 1 modulo k's index in the sequence of semiprimes. -/
 opaque A357781 : ℕ → ℤ
 
@@ -22494,6 +21066,12 @@ opaque A357802 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357802.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357803: a(n) = coefficient of x^(2*n) in A(x) such that A(x) = G(x)^2 where G(x) = 1 + Sum_{n>=1} (-1)^n * x^(4*n^2) * (F(x/2)^(2*n) + F(-x/2)^(2*n)), and F(x) is the g.f. of A357787. -/
+opaque A357803 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357803.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357806: a(n) = coefficient of x^(2*n) in A(x) = 1 + Sum_{n>=1} (-1)^n * x^(4*n^2) * (F(x/2)^(2*n) + F(-x/2)^(2*n)), where F(x) is the g.f. of A357787. -/
 opaque A357806 : ℕ → ℤ
 
@@ -22571,12 +21149,6 @@ opaque A357824 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357824.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A357825: Total number of n-tuples of semi-Dyck paths from (0,0) to (n,n-2*j) for j = 0..floor(n/2). -/
-opaque A357825 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357825.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357826: Base-10 weaker Skolem-Langford numbers. -/
 opaque A357826 : ℕ → ℤ
@@ -22968,6 +21540,12 @@ opaque A357901 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357901.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357902: a(n) = Sum_{k=0..floor(n/4)} |Stirling1(n - 3*k,k)|. -/
+opaque A357902 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357902.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357903: a(n) = Sum_{k=0..floor(n/3)} Stirling2(n - 2*k,k). -/
 opaque A357903 : ℕ → ℤ
 
@@ -23082,12 +21660,6 @@ opaque A357929 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357929.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A357930: a(0) = 0; for n > 0, let S = concatenation of a(0)..a(n-1); a(n) is the number of times the digit at a(n-1) digits back from the end of S appears in S. -/
-opaque A357930 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357930.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A357931: a(n) = Sum_{k=0..floor(n/3)} |Stirling1(n - 2*k,n - 3*k)|. -/
 opaque A357931 : ℕ → ℤ
 
@@ -23148,6 +21720,12 @@ opaque A357941 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357941.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A357942: a(1)=1, a(2)=2. Thereafter, if there are prime divisors p | a(n-1) that are coprime to a(n-2), a(n) is the least novel multiple of the product of these primes. Otherwise a(n) is the least novel multiple of the squarefree kernel of a(n-1). See comments. -/
+opaque A357942 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357942.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A357943: a(0) = 0; a(1) = 1, a(2) = 2; for n > 2, a(n) is the number of times the term a(n - 1 - a(n-1)) has appeared in the sequence. -/
 opaque A357943 : ℕ → ℤ
 
@@ -23159,6 +21737,12 @@ opaque A357944 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357944.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A357948: Expansion of e.g.f. exp( x * exp(-x^2) ). -/
+opaque A357948 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A357948.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357950: Maximum period of an elementary cellular automaton in a cyclic universe of width n. -/
 opaque A357950 : ℕ → ℤ
@@ -23322,12 +21906,6 @@ opaque A357986 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357986.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A357987: Lexicographically earliest sequence of positive integers such that no sum of consecutive terms is a square or higher power of an integer. -/
-opaque A357987 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357987.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A357988: a(n) is the unique k such that A357579(k) = prime(n) (the n-th prime number), or -1 if no such k exists. -/
 opaque A357988 : ℕ → ℤ
 
@@ -23351,12 +21929,6 @@ opaque A357993 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A357993.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A357994: a(1)=1, a(2)=2. Thereafter, if there are prime divisors p of a(n-1) which do not divide a(n-2), a(n) is the greatest least multiple of any such p which has not already occurred. Otherwise a(n) is the least novel multiple of the squarefree kernel of a(n-1). (see comments). -/
-opaque A357994 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A357994.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A357997: a(n) is the number of times in the format hh:mm that can be represented in a 7-segment display by using only n segments (version A010371). -/
 opaque A357997 : ℕ → ℤ
@@ -23730,12 +22302,6 @@ opaque A358090 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358090.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358092: Row sums of the convolution triangle of the Motzkin numbers (A202710). -/
-opaque A358092 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358092.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A358093: a(n) = n for 1 <= n <= 2; thereafter a(n) is the least unused m such that rad(m) = rad(rad(a(n-1)) + rad(a(n-2))), where rad(m) = A007947(m). -/
 opaque A358093 : ℕ → ℤ
 
@@ -23922,12 +22488,6 @@ opaque A358138 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358138.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358139: Numbers k > 0 sorted by k/A000120(k) in increasing order. A000120 is the binary weight of k. If k/A000120(k) yields equal values, the smaller k will appear first. -/
-opaque A358139 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358139.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A358140: Inverse permutation to A358121. -/
 opaque A358140 : ℕ → ℤ
 
@@ -24005,12 +22565,6 @@ opaque A358157 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358157.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A358158: a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i,j] = floor(i*j/3). -/
-opaque A358158 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358158.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A358159: a(n) is the permanent of the n X n matrix M(n) that is defined by M[i,j] = i*j - floor(i*j/3). -/
 opaque A358159 : ℕ → ℤ
@@ -25188,6 +23742,12 @@ opaque A358481 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358481.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A358483: Numbers k such that k, k+1 and k+2 are all infinitary abundant numbers (A129656). -/
+opaque A358483 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A358483.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A358486: a(n) is the minimal permanent of an n X n matrix using the integers 0 to n^2 - 1. -/
 opaque A358486 : ℕ → ℤ
 
@@ -25344,6 +23904,12 @@ opaque A358533 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358533.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A358536: a(n) is the least prime factor of 2^n-n-2. -/
+opaque A358536 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A358536.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A358537: For n > 0, a(n) is the total number of terms in all contiguous subsequences of the terms up to a(n-1) that sum to n; a(0) = 1. -/
 opaque A358537 : ℕ → ℤ
 
@@ -25361,12 +23927,6 @@ opaque A358539 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358539.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A358540: a(n) is the smallest number with exactly n divisors that are n-gonal pyramidal numbers. -/
-opaque A358540 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358540.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A358541: a(n) is the smallest number with exactly n divisors that are centered n-gonal numbers. -/
 opaque A358541 : ℕ → ℤ
@@ -25572,18 +24132,6 @@ opaque A358584 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358584.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358585: Number of ordered rooted trees with n nodes, most of which are leaves. -/
-opaque A358585 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358585.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A358586: Number of ordered rooted trees with n nodes, at least half of which are leaves. -/
-opaque A358586 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358586.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A358590: Number of square ordered rooted trees with n nodes. -/
 opaque A358590 : ℕ → ℤ
 
@@ -25734,7 +24282,7 @@ opaque A358647 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358647.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358648:  -/
+/-- A358648: Number of preference profiles of the stable roommates problem with 2n participants. -/
 opaque A358648 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -26004,12 +24552,6 @@ opaque A358723 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358723.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358724: Difference between the number of internal (non-leaf) nodes and the edge-height of the rooted tree with Matula-Goebel number n. -/
-opaque A358724 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358724.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A358725: Matula-Goebel numbers of rooted trees with a greater number of internal (non-leaf) vertices than edge-height. -/
 opaque A358725 : ℕ → ℤ
 
@@ -26033,12 +24575,6 @@ opaque A358728 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358728.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A358729: Difference between the number of nodes and the node-height of the rooted tree with Matula-Goebel number n. -/
-opaque A358729 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358729.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A358730: Positions of first appearances in A358729 (number of nodes minus node-height). -/
 opaque A358730 : ℕ → ℤ
@@ -26154,7 +24690,7 @@ opaque A358754 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358754.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A358755:  -/
+/-- A358755: a(n) = 1 if A053669(n) [the smallest prime not dividing n] is of the form 6m-1, otherwise a(n) = 0. -/
 opaque A358755 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -26285,12 +24821,6 @@ opaque A358797 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358797.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A358798: a(1) = 2, a(2) = 3; for n > 2, a(n) is the smallest prime that can be appended to the sequence so that the smallest even number >= 4 that cannot be generated as the sum of two (not necessarily distinct) terms from {a(1), ..., a(n-1)} can be generated from {a(1), ..., a(n)}. -/
-opaque A358798 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A358798.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A358799: a(0) = 0, and for any n >= 0, a(n+1) is the number of ways to write a(n) = a(i) XOR ... XOR a(j) with 0 <= i <= j <= n (where XOR denotes the bitwise XOR operator). -/
 opaque A358799 : ℕ → ℤ
@@ -26598,6 +25128,12 @@ opaque A358876 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358876.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A358878: Numbers k such that k! + (k!/2) - 1 is prime. -/
+opaque A358878 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A358878.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A358879: Primes p such that p^2 + 1 has more divisors than p^2 - 1. -/
 opaque A358879 : ℕ → ℤ
 
@@ -26813,6 +25349,12 @@ opaque A358921 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358921.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A358922: First of four consecutive primes p,q,r,s such that q*s - p*r is a square. -/
+opaque A358922 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A358922.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A358927: a(n) is the smallest tetrahedral number with exactly n prime factors (counted with multiplicity), or -1 if no such number exists. -/
 opaque A358927 : ℕ → ℤ
@@ -27090,6 +25632,12 @@ opaque A358998 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A358998.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A358999: Number of undirected cycles of the Platonic graphs (in the order of tetrahedral, cubical, octahedral, dodecahedral, and icosahedral graph). -/
+opaque A358999 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A358999.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A359002: Number of undirected n-cycles of the icosahedral graph. -/
 opaque A359002 : ℕ → ℤ
 
@@ -27197,6 +25745,12 @@ opaque A359029 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359029.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A359031: a(n+1) gives the number of occurrences of the mode of the digits of a(n) among all the digits of [a(0), a(1), ..., a(n)], with a(0)=0. -/
+opaque A359031 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359031.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359032: a(n) is the number of ways to place non-attacking queens on an n X n board with no queens above the main diagonal. -/
 opaque A359032 : ℕ → ℤ
@@ -27377,6 +25931,12 @@ opaque A359077 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359077.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A359078: a(n) is the first positive number that can be represented in exactly n ways as the sum of cubes of three distinct integers in arithmetic progression. -/
+opaque A359078 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359078.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359080: Numbers k such that A246600(k) = A000005(k). -/
 opaque A359080 : ℕ → ℤ
@@ -27630,12 +26190,6 @@ opaque A359174 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359174.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A359178: Numbers with a unique smallest prime exponent. -/
-opaque A359178 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359178.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A359181: Number of commutative BCK-algebras of order n up to isomorphism. -/
 opaque A359181 : ℕ → ℤ
 
@@ -27713,12 +26267,6 @@ opaque A359199 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359199.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A359200: Triangle read by rows: T(n, k) = A358125(n,k)*binomial(n-1, k), 0 <= k <= n-1. -/
-opaque A359200 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359200.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359201: Number of edges of regular m-polytopes for m >= 3. -/
 opaque A359201 : ℕ → ℤ
@@ -27809,12 +26357,6 @@ opaque A359224 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359224.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A359225: Numbers that can be expressed as (a^3 + b^3)/(a*b) with b > a >= 1. -/
-opaque A359225 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359225.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359226: a(n) is the least k >= 0 such that A006370^k(A070167(n)) = n (where A006370^k denotes the k-th iterate of A006370). -/
 opaque A359226 : ℕ → ℤ
@@ -28038,12 +26580,6 @@ opaque A359292 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359292.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A359293: a(n) = greatest prime < binomial(2n, n). -/
-opaque A359293 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359293.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A359294: a(n) = (least prime > binomial(2n, n)) - (greatest prime < binomial(2n, n)). -/
 opaque A359294 : ℕ → ℤ
 
@@ -28091,12 +26627,6 @@ opaque A359304 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359304.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A359313: Triangular array read by rows. T(n,k) is the number of Green's H-classes contained in the D-class of rank k matrices in the semigroup Mat_n(F_2) of n X n matrices over the field F_2. n>=0, 0<=k<=n. -/
-opaque A359313 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359313.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359315: a(n) is the smallest centered triangular number with binary weight n. -/
 opaque A359315 : ℕ → ℤ
@@ -28266,12 +26796,6 @@ opaque A359353 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359353.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A359355: a(n) = A359107(2*n, n) = Sum_{j=0..n} Stirling2(2*n, j) = Sum_{j=0..n} A048993(2*n, j). -/
-opaque A359355 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359355.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A359356: a(n-1) + a(n) has only digits also in a(n); lexicographically earliest such sequence of distinct nonnegative integers. -/
 opaque A359356 : ℕ → ℤ
 
@@ -28397,6 +26921,12 @@ opaque A359398 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359398.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A359399: a(1) = 1; a(n) = Sum_{k=2..n} k * a(floor(n/k)). -/
+opaque A359399 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359399.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359401: Nonnegative integers whose sum of positions of 1's in their binary expansion is greater than the sum of positions of 1's in their reversed binary expansion, where positions in a sequence are read starting with 1 from the left. -/
 opaque A359401 : ℕ → ℤ
@@ -28625,18 +27155,6 @@ opaque A359463 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359463.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A359467:  -/
-opaque A359467 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359467.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A359468: Numbers that are either multiples of 4 with their odd part squarefree, or that are not multiples of 4 and not squarefree. -/
-opaque A359468 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A359468.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359469: a(n) = A353459(n) mod 2. -/
 opaque A359469 : ℕ → ℤ
@@ -29334,6 +27852,12 @@ opaque A359655 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359655.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A359656: Irregular table read by rows: T(n,k) is the number of k-gons, k>=3, formed in a square with edge length 1 by straight line segments when connecting the internal edge points that divide the sides into segments with lengths equal to the Farey series of order n to the equivalent points on the opposite side of the square. -/
+opaque A359656 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359656.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A359661: a(n) is the number of free convex polyominoes of n cells. -/
 opaque A359661 : ℕ → ℤ
 
@@ -29633,6 +28157,18 @@ opaque A359728 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A359728.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A359734: Lexicographically earliest sequence of distinct nonnegative integers such that the sequence A051699(a(n)) (distance from the nearest prime) has the same sequence of digits. -/
+opaque A359734 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359734.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A359735: Let f(s,n) = 2^n + s*n, with s in {-1, 1}. Let c be the number of primes out of the pair f(-1,n), f(1,n). If only f(-1,n) is prime, a(n) = -1, otherwise a(n) = c. -/
+opaque A359735 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A359735.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A359739: a(n) = Sum_{j=0..n, j even} binomial(n, j) * oddfactorial(j/2) * n^j, where oddfactorial(n) = (2*n)! / (2^n*n!). -/
 opaque A359739 : ℕ → ℤ
@@ -30828,12 +29364,6 @@ opaque A360034 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360034.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A360037: Triangle read by rows. Number T(n, k) of partitions of the multiset [1, 1, 1, 2, 2, 2, ..., n, n, n] into k nonempty subsets, for 3 <= k <= 3n. -/
-opaque A360037 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A360037.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A360038: Triangle read by rows. Number T(n, k) of partitions of the multiset [1, 1, 1, 1, 2, 2, 2, 2, ..., n, n, n, n] into k nonempty subsets, for 4 <= k <= 4n. -/
 opaque A360038 : ℕ → ℤ
 
@@ -31061,12 +29591,6 @@ opaque A360108 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360108.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A360111:  -/
-opaque A360111 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A360111.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A360112: Number of solutions to m^(1 + 2^v(n-1)) == -m (mod n), where v(n) = A007814(n) is the 2-adic valuation of n, and 0 <= m < n. -/
 opaque A360112 : ℕ → ℤ
@@ -31362,7 +29886,7 @@ opaque A360207 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360207.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A360213:  -/
+/-- A360213: Number of distinct stable marriage problem instances up to gender exchange. -/
 opaque A360213 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -32490,6 +31014,12 @@ opaque A360523 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360523.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A360524: Numbers k such that A360522(k) = 2*k. -/
+opaque A360524 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A360524.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A360526: Odd numbers k such that A360522(k) > 2*k. -/
 opaque A360526 : ℕ → ℤ
 
@@ -32573,6 +31103,12 @@ opaque A360543 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360543.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A360546: Triangle read by rows: T(n, m) = (n+1-m)*C(2*n+2-m, m)*C(3*n-3*m+2, n-m+1)/(2*n-m+2). -/
+opaque A360546 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A360546.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A360550: Numbers > 1 whose distinct prime indices have integer median. -/
 opaque A360550 : ℕ → ℤ
@@ -32933,6 +31469,12 @@ opaque A360641 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360641.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A360642: a(n) is the least number k such that A093653(k)/A000120(k) = n. -/
+opaque A360642 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A360642.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A360643: a(n) is the least A000120-perfect number (A175522) whose binary weight (A000120) is n, or 0 if no such number exists. -/
 opaque A360643 : ℕ → ℤ
@@ -33335,6 +31877,12 @@ opaque A360744 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360744.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A360745: a(n) is the maximum number of locations 1..n-1 which can be reached starting from a(1)=1, where jumps from location i to i +- a(i) are permitted (within 1..n-1). See example. -/
+opaque A360745 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A360745.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A360746: a(n) is the maximum number of locations 1..n-1 which can be reached starting from a(n-1), where jumps from location i to i +- a(i) are permitted (within 1..n-1); a(1)=1. See example. -/
 opaque A360746 : ℕ → ℤ
@@ -33743,6 +32291,12 @@ opaque A360886 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A360886.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A360887: G.f. satisfies A(x) = 1 + x * (1 + x)^2 * A(x * (1 + x)). -/
+opaque A360887 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A360887.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A360888: G.f. satisfies A(x) = 1 + x * (1 + x^2)^2 * A(x * (1 + x^2)). -/
 opaque A360888 : ℕ → ℤ
@@ -34182,7 +32736,7 @@ opaque A361018 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361018.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A361021:  -/
+/-- A361021: Lexicographically earliest infinite sequence such that a(i) = a(j) => A007814(i) = A007814(j), A001065(i) = A001065(j) and A051953(i) = A051953(j), for all i, j >= 1. -/
 opaque A361021 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -34248,6 +32802,12 @@ opaque A361043 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361043.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361044: Triangle read by rows. T(n, k) is the k-th Lie-Betti number of the friendship (or windmill) graph, for n >= 1. -/
+opaque A361044 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361044.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361045: Array read by descending antidiagonals. A(n, k) is, if n > 0, the number of multiset combinations of {0, 1} whose type is defined in the comments. A(0, k) = k + 1. -/
 opaque A361045 : ℕ → ℤ
 
@@ -34284,6 +32844,18 @@ opaque A361050 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361050.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361051: Expansion of g.f. A(x) satisfying 3/x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)). -/
+opaque A361051 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361051.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A361052: Expansion of g.f. A(x) satisfying 4/x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)). -/
+opaque A361052 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361052.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361053: Expansion of e.g.f. A(x) satisfying A(x) = Sum_{n>=0} (A(x)^n + 2)^n * x^n/n!. -/
 opaque A361053 : ℕ → ℤ
 
@@ -34296,11 +32868,23 @@ opaque A361054 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361054.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361055: Expansion of e.g.f. A(x) satisfying A(x) = Sum_{n>=0} (A(x)^n + 4)^n * x^n/n!. -/
+opaque A361055 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361055.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361056: Expansion of e.g.f. A(x) satisfying A(x) = Sum_{n>=0} (2*A(x)^n + 1)^n * x^n/n!. -/
 opaque A361056 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361056.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A361057: Expansion of e.g.f. A(x) satisfying A(x) = Sum_{n>=0} (3*A(x)^n + 1)^n * x^n/n!. -/
+opaque A361057 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361057.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361058: Least totient number k > 1 such that n*k is a nontotient number, or 0 if no such number exists. -/
 opaque A361058 : ℕ → ℤ
@@ -34331,6 +32915,12 @@ opaque A361068 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361068.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A361069: E.g.f. satisfies A(x) = exp( x/((1-x) * A(x)^3) ). -/
+opaque A361069 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361069.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361070: a(n) is the number of occurrences of n in A360923. -/
 opaque A361070 : ℕ → ℤ
@@ -34404,7 +32994,7 @@ opaque A361085 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361085.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A361086:  -/
+/-- A361086: a(n) = a(n-1)*(a(n-1)^2 - 1) with a(0) = 2. -/
 opaque A361086 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -34445,6 +33035,12 @@ opaque A361094 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361094.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A361095: E.g.f. A(x) satisfies A(x) = exp( 1/(1 - x/A(x)) - 1 ). -/
+opaque A361095 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361095.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361097: E.g.f. A(x) satisfies A(x) = exp( 1/(1 - x/A(x)^3) - 1 ). -/
 opaque A361097 : ℕ → ℤ
@@ -34746,6 +33342,12 @@ opaque A361167 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361167.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361168: Number of cusps in Weierstrass curve with discriminant A079896(n) in moduli space M_4 of compact Riemann surfaces of genus 4. -/
+opaque A361168 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361168.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361169: Discriminants D of Prym-Teichmuller curves W_D(4) in genus 3. -/
 opaque A361169 : ℕ → ℤ
 
@@ -34776,13 +33378,19 @@ opaque A361174 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361174.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361175: The sum of the exponential infinitary divisors of n. -/
+opaque A361175 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361175.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361176: Numbers that are not exponentially cubefree: numbers with at least one noncubefree exponent in their canonical prime factorization. -/
 opaque A361176 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361176.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A361177:  -/
+/-- A361177: Exponentially powerful numbers: numbers whose exponents in their canonical prime factorization are all powerful numbers (A001694). -/
 opaque A361177 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -34836,6 +33444,12 @@ opaque A361190 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361190.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361191: Lexicographically earliest sequence of positive integers such that the sums SumXOR_{i = 1+k*2^e..(k+1)*2^e} a(i) with k, e >= 0 are all distinct (where SumXOR is the analog of summation under the binary XOR operation). -/
+opaque A361191 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361191.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361194: E.g.f. satisfies A(x) = exp( -3*x*A(x) ) / (1-x). -/
 opaque A361194 : ℕ → ℤ
 
@@ -34883,12 +33497,6 @@ opaque A361206 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361206.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A361207: An infinite 2d grid is filled with the positive integers by placing them clockwise around the lowest number with open neighbors. a(n) is then the n-th term when the grid is read as a clockwise square spiral. -/
-opaque A361207 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361207.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361208: Number of middle divisors of the n-th number whose divisors increase by a factor of 2 or less. -/
 opaque A361208 : ℕ → ℤ
@@ -35225,12 +33833,6 @@ opaque A361290 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361290.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A361292: Square array A(n, k), n, k >= 0, read by antidiagonals; A(0, 0) = 1, and otherwise A(n, k) is the sum of all terms in previous antidiagonals at one knight's move away. -/
-opaque A361292 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361292.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361294: A variant of payphone permutations: given a circular booth with n payphones, one of which is already occupied, a(n) is the number ways for n-1 people to choose the payphones in order, where each person chooses an unoccupied payphone such that the closest occupied payphone is as distant as possible, and a payphone adjacent to a single occupied payphone is preferred over a payphone sandwiched between two occupied payphones. -/
 opaque A361294 : ℕ → ℤ
@@ -35939,12 +34541,6 @@ opaque A361475 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361475.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A361476: Antidiagonal sums of A361475. -/
-opaque A361476 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361476.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361478: Irregular table T(n, k), n >= 0, k = 1..A361477(n), read by rows; the n-th row lists the integers whose binary expansions have the same multiset of run-lengths as that of n. -/
 opaque A361478 : ℕ → ℤ
@@ -36660,18 +35256,6 @@ opaque A361652 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361652.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A361653: Number of even-length integer partitions of n with integer median. -/
-opaque A361653 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361653.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A361654: Triangle read by rows where T(n,k) is the number of nonempty subsets of {1,...,2n-1} with median n and minimum k. -/
-opaque A361654 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361654.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A361655: Number of even-length integer partitions of 2n with integer mean. -/
 opaque A361655 : ℕ → ℤ
 
@@ -36792,6 +35376,12 @@ opaque A361687 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361687.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361688: a(n) = A361540(2*n,n) / binomial(2*n,n) for n >= 0. -/
+opaque A361688 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361688.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361690: Number of primes in the interval [2^n, 2^n + n]. -/
 opaque A361690 : ℕ → ℤ
 
@@ -36905,12 +35495,6 @@ opaque A361745 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361745.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A361747: Lexicographically earliest sequence of distinct positive integers such that a(n) and a(n-1) share at least one identical trit at the same position in their balanced ternary representations. -/
-opaque A361747 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361747.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361749: a(n) is the number of n X n matrices with nonnegative integer entries, row sums 1,2,...,n and column sums 1,2,...,n. -/
 opaque A361749 : ℕ → ℤ
@@ -37127,6 +35711,12 @@ opaque A361799 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361799.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A361800: Number of integer partitions of n with the same length as median. -/
+opaque A361800 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361800.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A361801: Number of nonempty subsets of {1..n} with median n/2. -/
 opaque A361801 : ℕ → ℤ
@@ -37542,6 +36132,12 @@ opaque A361897 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361897.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A361898: A set of 13 primes that form a covering set for a Sierpiński (or Riesel) number. -/
+opaque A361898 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A361898.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A361901: The number of linear extensions of n fork-join DAGs of width 3. -/
 opaque A361901 : ℕ → ℤ
 
@@ -37890,12 +36486,6 @@ opaque A361976 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A361976.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A361977: a(n) is the largest prime p such that 2^p - 1 <= 10^n. -/
-opaque A361977 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A361977.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A361978: Complement of A361337. -/
 opaque A361978 : ℕ → ℤ
 
@@ -38021,12 +36611,6 @@ opaque A362012 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362012.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362013: Triangular array read by rows. T(n,k) is the number of labeled directed graphs on [n] with exactly k strongly connected components of size 1 with outdegree zero, n>=0, 0<=k<=n. -/
-opaque A362013 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362013.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362015: a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that, given the list of primes that form the factors of all previous terms a(1)..a(n-1), is a multiple of the prime in that list which is a factor of the fewest previous terms. If two or more such primes exist the smallest is chosen. -/
 opaque A362015 : ℕ → ℤ
@@ -38232,6 +36816,12 @@ opaque A362068 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362068.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A362069: Numbers k such that k+digitsum(k^2) is a square. -/
+opaque A362069 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362069.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A362071: a(1) = 1, and thereafter a(n) is the number of terms with index m < n such that gpf(a(m)) = gpf(a(n-1)), where gpf(k) = A006530(k) is the greatest prime factor of k (or 1 if k=1). -/
 opaque A362071 : ℕ → ℤ
 
@@ -38345,6 +36935,12 @@ opaque A362097 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362097.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A362099: Numbers k such that 7^k starts with k. -/
+opaque A362099 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362099.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362103: a(n) = K(4,n), where K(M,n) = 2*(2*M+3)!*(4*n+2*M+1)!/((M+2)!*M!*n!*(3*n+2*M+3)!). -/
 opaque A362103 : ℕ → ℤ
@@ -38682,6 +37278,12 @@ opaque A362188 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362188.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A362189: Lexicographically earliest sequence of positive integers having the same concatenation of digits as the sequence 2^a(n). -/
+opaque A362189 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362189.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A362191: Lexicographically earliest sequence of distinct nonnegative integers having the same concatenation of digits as the sequence 2^a(n). -/
 opaque A362191 : ℕ → ℤ
 
@@ -38693,6 +37295,12 @@ opaque A362192 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362192.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A362198: a(n) = number of isogeny classes of abelian surfaces over the finite field of order prime(n). -/
+opaque A362198 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362198.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362202: Lexicographic earliest sequence of distinct positive integers having the same concatenation of digits as the sequence 2^a(n). -/
 opaque A362202 : ℕ → ℤ
@@ -38958,12 +37566,6 @@ opaque A362269 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362269.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362271: a(1) = 1, then add, subtract and multiply 2, 3, 4; 5, 6, 7; ... in that order. -/
-opaque A362271 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362271.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362272: a(1) = 1, then multiply, subtract, and add 2, 3, 4; 5, 6, 7; ... in that order. -/
 opaque A362272 : ℕ → ℤ
 
@@ -38975,12 +37577,6 @@ opaque A362274 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362274.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362275: Expansion of e.g.f. exp(x*exp(-x*exp(-x))). -/
-opaque A362275 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362275.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362277: Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * Sum_{j=0..floor(n/2)} (-k/2)^j * binomial(n-j,j)/(n-j)!. -/
 opaque A362277 : ℕ → ℤ
@@ -39156,12 +37752,6 @@ opaque A362329 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362329.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362330: The i-values of pairs (i, j) listed in A362329. -/
-opaque A362330 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362330.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362331: The j-values of pairs (i, j) listed in A362329. -/
 opaque A362331 : ℕ → ℤ
 
@@ -39234,12 +37824,6 @@ opaque A362369 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362369.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362370: Triangle read by rows. T(n, k) = ([x^k] P(n, x)) // k! where P(n, x) = Sum_{k=1..n} P(n - k, x) * x if n >= 1 and P(0, x) = 1. The notation 's // t' means integer division and is a shortcut for 'floor(s/t)'. -/
-opaque A362370 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362370.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362371: a(0)=0. For each digit in the sequence, append the smallest unused integer that contains that digit. -/
 opaque A362371 : ℕ → ℤ
 
@@ -39275,12 +37859,6 @@ opaque A362378 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362378.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362379: Convolution triangle of A052547(n). -/
-opaque A362379 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362379.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362380: E.g.f. satisfies A(x) = exp(x + 3*x^2/2 * A(x)). -/
 opaque A362380 : ℕ → ℤ
@@ -40026,12 +38604,6 @@ opaque A362584 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362584.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362585: Triangle read by rows, T(n, k) = A000670(n) * binomial(n, k). -/
-opaque A362585 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362585.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362586: Triangle read by rows, T(n, k) = A094088(n) * binomial(n, k). -/
 opaque A362586 : ℕ → ℤ
 
@@ -40128,12 +38700,6 @@ opaque A362612 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362612.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362613:  -/
-opaque A362613 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362613.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362614: Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k modes. -/
 opaque A362614 : ℕ → ℤ
 
@@ -40157,12 +38723,6 @@ opaque A362618 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362618.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362619:  -/
-opaque A362619 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362619.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362622: One and numbers whose prime factorization has its greatest part at a middle position. -/
 opaque A362622 : ℕ → ℤ
@@ -40313,6 +38873,12 @@ opaque A362654 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362654.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A362655: E.g.f. satisfies A(x) = exp( x * exp(x^3) * A(x) ). -/
+opaque A362655 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362655.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362657: Number of bracelets consisting of three instances each of n swappable colors. -/
 opaque A362657 : ℕ → ℤ
@@ -40530,17 +39096,17 @@ opaque A362735 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362735.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A362739: The smallest integer with three (not necessarily distinct) divisors that add to n. -/
+opaque A362739 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362739.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A362740: Dimension of the vector space of 4-invariants on simple 01-labeled graphs on n vertices. -/
 opaque A362740 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362740.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362741: Number of parking functions of size n avoiding the pattern 123. -/
-opaque A362741 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362741.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362744: Number of parking functions of size n avoiding the patterns 312 and 321. -/
 opaque A362744 : ℕ → ℤ
@@ -40668,6 +39234,12 @@ opaque A362776 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362776.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A362778: Triangular array read by rows: T(n,k) is the least prime factor of n!*k + 1, n >= 1, 1 <= k <= n. -/
+opaque A362778 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362778.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A362780: Numbers n having some (possibly non-canonical) base-phi representation x.y, where y is the reverse of x. -/
 opaque A362780 : ℕ → ℤ
 
@@ -40691,12 +39263,6 @@ opaque A362784 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362784.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A362786: Number of unordered triples of disjoint self-avoiding paths with nodes that cover all vertices of a convex n-gon; one node paths are not allowed. -/
-opaque A362786 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362786.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362791: Triangle of numbers read by rows, T(n, k) = (n*(n-1)*(n-2))*Stirling2(k, 3), for n >= 1 and 1 <= k <= n. -/
 opaque A362791 : ℕ → ℤ
@@ -40878,12 +39444,6 @@ opaque A362830 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362830.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A362831: Number of partitions of n into two distinct parts (s,t) such that pi(s) = pi(t). -/
-opaque A362831 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A362831.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A362832: Number of partitions of n into two distinct parts (s,t) such that phi(s) = phi(t). -/
 opaque A362832 : ℕ → ℤ
 
@@ -40931,6 +39491,12 @@ opaque A362840 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A362840.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A362841: Numbers with at least one 5 in their prime signature. -/
+opaque A362841 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A362841.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A362843: Numbers that are equal to the sum of their digits raised to consecutive odd numbered powers (1,3,5,7,...). -/
 opaque A362843 : ℕ → ℤ
@@ -41928,6 +40494,12 @@ opaque A363112 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363112.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A363113: Expansion of g.f. A(x) satisfying 1 = Sum_{n=-oo..+oo} x^n * (2*A(x) - x^n)^(3*n-1). -/
+opaque A363113 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363113.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A363115: Expansion of e.g.f. log(1 - log( sqrt(1-2*x) )). -/
 opaque A363115 : ℕ → ℤ
 
@@ -42282,6 +40854,12 @@ opaque A363204 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363204.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A363205: Number of polycubes with n cells, allowing face connections as well as corner connections, identifying mirror images. -/
+opaque A363205 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363205.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A363206: Number of polycubes with n cells, allowing edge connections as well as corner connections, identifying mirror images. -/
 opaque A363206 : ℕ → ℤ
 
@@ -42587,6 +41165,12 @@ opaque A363292 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363292.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363293: G.f. A(x) satisfies: A(x) = x * exp( A(x)^2/x - A(-x^2)^2/(2*x^2) + A(x^3)^2/(3*x^3) - A(-x^4)^2/(4*x^4) + ... ). -/
+opaque A363293 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363293.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363294: G.f. A(x) satisfies: A(x) = x * exp( A(x)^2/x + A(-x^2)^2/(2*x^2) + A(x^3)^2/(3*x^3) + A(-x^4)^2/(4*x^4) + ... ). -/
 opaque A363294 : ℕ → ℤ
@@ -43170,12 +41754,6 @@ opaque A363462 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363462.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A363464: Numbers k in A052294 with arithmetic derivative k' (A003415) in A052294. -/
-opaque A363464 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A363464.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A363465: G.f. A(x) satisfies: A(x) = x + x^2 * exp( Sum_{k>=1} A(x^k)^3 / (k*x^(2*k)) ). -/
 opaque A363465 : ℕ → ℤ
 
@@ -43199,6 +41777,12 @@ opaque A363469 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363469.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363470: G.f. satisfies A(x) = exp( 2 * Sum_{k>=1} A(-x^k) * x^k/k ). -/
+opaque A363470 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363470.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363472: Total number of blocks in all partitions of [n] where each block has at least one odd element and at least one even element. -/
 opaque A363472 : ℕ → ℤ
@@ -43283,12 +41867,6 @@ opaque A363491 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363491.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A363492: Numbers k such that the partition number p(k) = A000041(k) can be written as a product of smaller partition numbers. -/
-opaque A363492 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A363492.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363493: Number T(n,k) of partitions of [n] having exactly k parity changes within their blocks, n>=0, 0<=k<=max(0,n-1), read by rows. -/
 opaque A363493 : ℕ → ℤ
@@ -43433,12 +42011,6 @@ opaque A363530 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363530.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A363532: Number of integer partitions of n with weighted alternating sum 0. -/
-opaque A363532 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A363532.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363533: Least k such that n*F(k)+1 is prime, where F = A000045 is the Fibonacci sequence, or -1 if no such k exists. -/
 opaque A363533 : ℕ → ℤ
@@ -43710,6 +42282,12 @@ opaque A363602 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363602.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A363609: Minimum sum of the visible pips on a polycube made from n dice. -/
+opaque A363609 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363609.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A363619: Weighted alternating sum of the multiset of prime indices of n. -/
 opaque A363619 : ℕ → ℤ
 
@@ -43733,6 +42311,12 @@ opaque A363622 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363622.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363623: Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with reverse-weighted alternating sum k (leading and trailing 0's omitted). -/
+opaque A363623 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363623.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363624: Weighted alternating sum of the integer partition with Heinz number n. -/
 opaque A363624 : ℕ → ℤ
@@ -43859,6 +42443,12 @@ opaque A363680 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363680.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363682: Number of plane bipolar posets (i.e., plane bipolar orientations with no transitive edge) with n edges. -/
+opaque A363682 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363682.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363683: Square array A(n, k), n, k > 0, read by antidiagonals; A(n, k) is the least e > 0 such that n^e and k^e have the same initial digit, or -1 if no such e exists. -/
 opaque A363683 : ℕ → ℤ
@@ -44184,11 +42774,23 @@ opaque A363772 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363772.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A363774: Expansion of 1/(Sum_{k>=0} x^(k^2))^2. -/
+opaque A363774 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363774.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A363775: Expansion of 1/(Sum_{k>=0} x^(k^2))^3. -/
 opaque A363775 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363775.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363776: Expansion of 1/(Sum_{k>=0} x^(k^3))^2. -/
+opaque A363776 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363776.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363777: Expansion of 1/(Sum_{k>=0} x^(k^3))^3. -/
 opaque A363777 : ℕ → ℤ
@@ -44393,6 +42995,12 @@ opaque A363826 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363826.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A363830: Lesser of 2 successive sphenic numbers (k, k+4) sandwiching 3 consecutive nonsquarefree numbers. -/
+opaque A363830 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A363830.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A363837: Numbers k such that k-th Jacobsthal number A001045(k) is a semiprime. -/
 opaque A363837 : ℕ → ℤ
@@ -44748,12 +43356,6 @@ opaque A363975 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A363975.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A363976: Expansion of Sum_{k>0} x^(2*k) / (1 - x^(3*k))^3. -/
-opaque A363976 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A363976.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A363977: Expansion of Sum_{k>0} x^k / (1 - x^(4*k))^3. -/
 opaque A363977 : ℕ → ℤ
 
@@ -45017,6 +43619,12 @@ opaque A364062 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364062.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364068: Triangle T(n,k) read by rows: Number of traceless binary n X n matrices with all row and column sums equal to k, 0<=k<=n. -/
+opaque A364068 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364068.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364069: Dowling numbers: e.g.f. exp(x + (exp(b*x)-1)/b) with b = 63. -/
 opaque A364069 : ℕ → ℤ
@@ -45318,6 +43926,12 @@ opaque A364159 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364159.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364160: Numbers whose least prime factor has the greatest exponent. -/
+opaque A364160 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364160.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364161: G.f. satisfies A(x) = 1 + x*A(x)^2/(1 - x^3*A(x)). -/
 opaque A364161 : ℕ → ℤ
 
@@ -45377,6 +43991,12 @@ opaque A364186 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364186.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364191: Low co-mode in the multiset of prime indices of n. -/
+opaque A364191 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364191.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364192: High (i.e., greatest) co-mode in the multiset of prime indices of n. -/
 opaque A364192 : ℕ → ℤ
@@ -45654,6 +44274,12 @@ opaque A364274 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364274.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364276: A 5 X 5 magic square of squares with the smallest possible magic sum, read by rows. -/
+opaque A364276 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364276.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364277: Number of permutations of [n] such that no cycle contains its length as an element. -/
 opaque A364277 : ℕ → ℤ
 
@@ -45678,6 +44304,12 @@ opaque A364281 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364281.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364282: Number of partitions of [n] with distinct block sizes such that each block contains exactly one block size different from its own as an element. -/
+opaque A364282 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364282.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364283: Number of permutations of [n] with distinct cycle lengths such that each cycle contains exactly one cycle length different from its own as an element. -/
 opaque A364283 : ℕ → ℤ
 
@@ -45701,6 +44333,12 @@ opaque A364286 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364286.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364289: Numbers k such that A243071(k) >= k. -/
+opaque A364289 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364289.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364290: Numbers k such that A243071(k) < k. -/
 opaque A364290 : ℕ → ℤ
@@ -45810,11 +44448,17 @@ opaque A364316 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364316.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A364317: Irregular triangle T read by rows: T(n, k) gives the number of permutations of [n] = {1, 2, ..., n} with a cycle of length m = floor(n/2) + k = A138099(n, k), for 1 <= k <= n - floor(n/2) = ceiling(n/2). -/
-opaque A364317 : ℕ → ℤ
+/-- A364320: Prime numbers that are the exact average of eight consecutive odd semiprimes. -/
+opaque A364320 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A364317.provenance : SequenceMachineLib.Provenance := .undefined
+def A364320.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364321: Prime numbers that are the exact average of nine consecutive odd semiprimes. -/
+opaque A364321 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364321.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364322: Number of partitions of 2n with largest part n where each block of part i with multiplicity j is marked with a word of length i*j over a (2n)-ary alphabet whose letters appear in alphabetical order and all 2n letters occur exactly once in the partition. -/
 opaque A364322 : ℕ → ℤ
@@ -46794,6 +45438,12 @@ opaque A364603 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364603.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364604: Lexicographically earliest sequence, where after every appearance, a term is banned from re-appearing for twice as long as last time; first appearance bans it for 1 term. -/
+opaque A364604 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364604.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364606: Numbers k such that the average digit of 2^k is an integer. -/
 opaque A364606 : ℕ → ℤ
 
@@ -47412,6 +46062,12 @@ opaque A364804 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364804.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364805: a(n) is the smallest number k such that the number of distinct prime divisors of the n numbers from k through k+n-1 are in nondescending order. -/
+opaque A364805 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364805.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364807: Numbers k such that abs(k - Sum_{m=2..k} pi(prime(k)/m)) is a prime number, where pi(k) is number of primes <= k. -/
 opaque A364807 : ℕ → ℤ
 
@@ -47465,6 +46121,12 @@ opaque A364819 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364819.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364820: a(n) is the smallest prime factor of the n-th Pell number A000129(n). -/
+opaque A364820 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364820.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364822: Expansion of e.g.f. cosh(x) / (1 - 2*sinh(x)). -/
 opaque A364822 : ℕ → ℤ
@@ -47862,6 +46524,12 @@ opaque A364920 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364920.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364921: Number of conjugacy classes of subgroups of the group GL(2, Z_n) of invertible 2 X 2 matrices mod n. -/
+opaque A364921 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364921.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364923: G.f. satisfies A(x) = 1 + x*A(x)^4 / (1 - 2*x*A(x)^3). -/
 opaque A364923 : ℕ → ℤ
 
@@ -47885,6 +46553,12 @@ opaque A364926 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364926.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A364929: a(0) = 0; for n > 0, if n appears in the sequence then a(n) is the product of the indices of all previous appearances of n. Otherwise a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n. -/
+opaque A364929 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364929.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A364930: Products of primorials that are squareful but not prime powers. -/
 opaque A364930 : ℕ → ℤ
@@ -48120,6 +46794,12 @@ opaque A364986 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A364986.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A364990: Coreful triperfect numbers: numbers k such that csigma(k) = 3*k, where csigma(k) is the sum of the coreful divisors of k (A057723). -/
+opaque A364990 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A364990.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A364991: Primitive coreful 3-abundant numbers: coreful 3-abundant numbers (A340109) that are powerful numbers (A001694). -/
 opaque A364991 : ℕ → ℤ
 
@@ -48270,6 +46950,12 @@ opaque A365027 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365027.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365036: E.g.f. satisfies A(x) = exp(x * (1 + x/A(x)^2)). -/
+opaque A365036 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365036.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365039: E.g.f. satisfies A(x) = exp(x * (1 + x)/A(x)^2). -/
 opaque A365039 : ℕ → ℤ
 
@@ -48317,6 +47003,12 @@ opaque A365047 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365047.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365048: a(n) is the number of steps required for the n-th odd prime number to reach 3 when iterating the following hailstone map: If P+1 == 0 (mod 6), then the next number = smallest prime >= P + (P-1)/2; otherwise the next number = largest prime <= (P+1)/2. -/
+opaque A365048 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365048.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365049: a(n) is the number of distinct parallelograms with integer sides and area n, and where at least one height is an integer. -/
 opaque A365049 : ℕ → ℤ
@@ -48444,11 +47136,11 @@ opaque A365090 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365090.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A365093: Smallest k such that A365092(k) = n. -/
-opaque A365093 : ℕ → ℤ
+/-- A365092: Write out the canonical factorization of n and factorize the exponents in the factorization, the exponents in the factorizations of the exponents, ... until there are only prime numbers left. Replace each p in the factorization by (p-1)+1 and factorize each p-1 by the same process if p-1 > 1. Continue this process until there are only 1s left. a(n) is the number of 1s used. -/
+opaque A365092 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A365093.provenance : SequenceMachineLib.Provenance := .undefined
+def A365092.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365094: Triangle read by rows: T(n,k) is the number of n-sided cycles with the property that one makes k turns to the right while following its edges. -/
 opaque A365094 : ℕ → ℤ
@@ -48918,6 +47610,12 @@ opaque A365213 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365213.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365215: Largest k such that the binary representation of 3^k has exactly n 1's, or -1 if no such k exists. -/
+opaque A365215 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365215.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365217: Each term is a "Go down integer" (GDI), but a(n) + a(n+1) is always a "Go up integer" (GUI). More details in the Comments section. -/
 opaque A365217 : ℕ → ℤ
 
@@ -48959,6 +47657,12 @@ opaque A365229 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365229.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365231: Inverse permutation to A365230. -/
+opaque A365231 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365231.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365234: Primes not in A119993. -/
 opaque A365234 : ℕ → ℤ
@@ -49128,7 +47832,7 @@ opaque A365269 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365269.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A365270:  -/
+/-- A365270: Practical numbers that have middle divisors. -/
 opaque A365270 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -49446,6 +48150,12 @@ opaque A365360 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365360.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365361: Number of free 4-dimensional polyhypercubes with n cells, allowing edge- and 3-face-connections. -/
+opaque A365361 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365361.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365363: Number of free 4-dimensional polyhypercubes with n cells, allowing face- and 3-face-connections. -/
 opaque A365363 : ℕ → ℤ
 
@@ -49523,6 +48233,12 @@ opaque A365383 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365383.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365384: Lexicographically earliest infinite sequence such that a(i) = a(j) => A351251(i) = A351251(j) for all i, j >= 0, where A351251(n) is the denominator of n / A276086(n). -/
+opaque A365384 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365384.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365386: Lexicographically earliest infinite sequence such that a(i) = a(j) => A331410(i) = A331410(j) and A365385(i) = A365385(j) for all i, j >= 1. -/
 opaque A365386 : ℕ → ℤ
@@ -49980,6 +48696,12 @@ opaque A365528 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365528.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365529: a(n) = Sum_{k=0..floor((n-1)/5)} Stirling2(n,5*k+1). -/
+opaque A365529 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365529.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365531: a(n) = Sum_{k=0..floor((n-3)/5)} Stirling2(n,5*k+3). -/
 opaque A365531 : ℕ → ℤ
 
@@ -50039,12 +48761,6 @@ opaque A365548 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365548.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A365552:  -/
-opaque A365552 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A365552.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365553: Starting with a plane on which two parallel lines and two additional lines have been drawn such that the four lines form two noncongruent isosceles triangles, a(n) is the total number of intersections on the plane after the n-th step, where each step consists of drawing lines that connect every intersection of two lines. If more than 2 lines intersect at the same point it is only counted once. -/
 opaque A365553 : ℕ → ℤ
@@ -50111,6 +48827,12 @@ opaque A365565 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365565.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365566: Triangle read by rows: T(n,d) is the number of inequivalent properly d-dimensional n-polysticks (or polyedges), 1 <= d <= n. -/
+opaque A365566 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365566.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365567: Expansion of e.g.f. 1 / (5 - 4 * exp(x))^(3/4). -/
 opaque A365567 : ℕ → ℤ
@@ -50196,6 +48918,12 @@ opaque A365586 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365586.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365587: Expansion of e.g.f. 1 / (1 + 5 * log(1-x))^(4/5). -/
+opaque A365587 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365587.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365588: Expansion of e.g.f. 1 / (1 + 5 * log(1-x)). -/
 opaque A365588 : ℕ → ℤ
 
@@ -50207,6 +48935,12 @@ opaque A365589 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365589.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365590: Number of n X n Boolean relation matrices such that each of the diagonal blocks of its Frobenius normal form is either a 1 block or a 0 block. -/
+opaque A365590 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365590.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365591: Numbers k such that Sum_{i=1..k} prime(i) + i is prime. -/
 opaque A365591 : ℕ → ℤ
@@ -50333,18 +49067,6 @@ opaque A365626 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365626.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A365634: The number of divisors of n that are terms of A048102. -/
-opaque A365634 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A365634.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A365635: The largest divisor of n that is a term of A048102. -/
-opaque A365635 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A365635.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365636: a(n) is the smallest multiple of n that is a term of A072873. -/
 opaque A365636 : ℕ → ℤ
@@ -50514,6 +49236,12 @@ opaque A365671 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365671.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365672: Triangle read by rows. T(n, k) = 1 if k = 0, equals T(n, k-1) if k = n, and otherwise is (n - k + 1) * (2 * (n - k) + 1) * T(n, k - 1) + T(n - 1, k). -/
+opaque A365672 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365672.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365673: Array A(n, k) read by ascending antidiagonals. Polygonal number weighted generalized Catalan sequences. -/
 opaque A365673 : ℕ → ℤ
 
@@ -50646,11 +49374,23 @@ opaque A365705 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365705.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365708: a(n) for n >= 2 is the smallest term of A008578 m dividing n such that n/m is not a square, a(1) = 2. -/
+opaque A365708 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365708.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365709: Number of rigid configurations of n non-overlapping congruent spheres in three-dimensional Euclidean space. -/
 opaque A365709 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365709.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365710: a(n) = second smallest distinct prime factor of A126706(n). -/
+opaque A365710 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365710.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365711: Dirichlet inverse of balanced ternary enumeration of integers (A117966). -/
 opaque A365711 : ℕ → ℤ
@@ -51162,6 +49902,18 @@ opaque A365863 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365863.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365866: Integers that are divisible by the cube of their least prime factor. -/
+opaque A365866 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365866.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365867: Numbers k such that k and k+1 are both divisible by the cube of their least prime factor. -/
+opaque A365867 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365867.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365872: The "double commas" sequence, a variant of A121805. See the Comments and Example sections for detailed explanations. -/
 opaque A365872 : ℕ → ℤ
 
@@ -51216,6 +49968,18 @@ opaque A365882 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365882.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A365883: Numbers k whose least prime divisor is equal to its exponent in the prime factorization of k. -/
+opaque A365883 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365883.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365884: Numbers k such that k and k+1 are both terms of A365883. -/
+opaque A365884 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365884.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A365885: Starts of run of 3 consecutive integers that are terms of A365883. -/
 opaque A365885 : ℕ → ℤ
 
@@ -51233,6 +49997,12 @@ opaque A365887 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A365887.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A365891: Starts of run of 3 consecutive integers that are terms of A365889. -/
+opaque A365891 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A365891.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A365894: Expansion of e.g.f. exp( Sum_{k>=0} x^(3*k+4) / (3*k+4)! ). -/
 opaque A365894 : ℕ → ℤ
@@ -51732,6 +50502,12 @@ opaque A366029 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366029.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366030: Square array A(n, k), n, k > 0, read and filled by upwards antidiagonals the greedy way with distinct positive integers such that any two distinct terms in the same row or column or antidiagonal are coprime. -/
+opaque A366030 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366030.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366033: Successive digits of consecutive terms of the prime-counting function A000720. -/
 opaque A366033 : ℕ → ℤ
 
@@ -51821,6 +50597,12 @@ opaque A366080 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366080.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366081: Expansion of (1/x) * Series_Reversion( x*(1-x)^2/(1-x-x^2) ). -/
+opaque A366081 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366081.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366082: Expansion of (1/x) * Series_Reversion( x*(1-x)^3/(1-x-x^2) ). -/
 opaque A366082 : ℕ → ℤ
@@ -51930,6 +50712,12 @@ opaque A366110 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366110.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366111: a(1) = 1; a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared such that |a(n) - a(n-1)| is a divisor of a(n)*a(n-1), and where |a(n) - a(n-1)| > 1. -/
+opaque A366111 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366111.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366113: A fractal sequence. Pick any term t: exactly one of the t terms following t is larger than t. -/
 opaque A366113 : ℕ → ℤ
 
@@ -52032,11 +50820,11 @@ opaque A366142 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366142.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366150: a(n) = A366149(n, n). -/
-opaque A366150 : ℕ → ℤ
+/-- A366144: a(n) = n/d(n) if d(n) | n, otherwise a(n) = n*d(n), where d(n) = A000005(n) is the number of divisors of n. -/
+opaque A366144 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366150.provenance : SequenceMachineLib.Provenance := .undefined
+def A366144.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366152: a(n) = denominator(denominator(Bernoulli'(n, x)) / denominator(Bernoulli(n, 1))). -/
 opaque A366152 : ℕ → ℤ
@@ -52097,6 +50885,12 @@ opaque A366169 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366169.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366173: Triangle of coefficients of Caylerian polynomials. -/
+opaque A366173 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366173.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366176: G.f. A(x) satisfies A(x) = 1 + x*A(x)^3/(1 - x)^2. -/
 opaque A366176 : ℕ → ℤ
@@ -52290,25 +51084,13 @@ opaque A366235 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366235.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366242:  -/
-opaque A366242 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366242.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A366243: Numbers that are products of "Fermi-Dirac primes" (A050376) that are powers of primes with exponents that are not powers of 4. -/
-opaque A366243 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366243.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A366244: The largest infinitary divisor of n that is a term of A366242. -/
 opaque A366244 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366244.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366245:  -/
+/-- A366245: The largest infinitary divisor of n that is a term of A366243. -/
 opaque A366245 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
@@ -52362,17 +51144,11 @@ opaque A366261 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366261.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366263: Doudna sequence permuted by Blue code: a(n) = A005940(1+A193231(n)). -/
-opaque A366263 : ℕ → ℤ
+/-- A366262: Lexicographically earliest infinite sequence such that a(i) = a(j) => A366261(i) = A366261(j) for all i, j >= 0. -/
+opaque A366262 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366263.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A366264: Inverse of A366263, where A366263 is the Doudna sequence permuted by Blue code. -/
-opaque A366264 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366264.provenance : SequenceMachineLib.Provenance := .undefined
+def A366262.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366265: Dirichlet inverse of the sum of n/k over all prime powers k which divide n (including 1). -/
 opaque A366265 : ℕ → ℤ
@@ -52440,17 +51216,17 @@ opaque A366294 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366294.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366296: Lexicographically earliest infinite sequence such that a(i) = a(j) => A346242(i) = A346242(j) for all i, j >= 1, where A346242 is Dirichlet inverse of gcd(n, A276086(n)). -/
+opaque A366296 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366296.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366303: Square array A(n, k), n, k > 0, read and filled by upwards antidiagonals the greedy way with distinct positive integers such that any two distinct terms in the same row or column are coprime. -/
 opaque A366303 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366303.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A366307: Powerful numbers that are products of "Fermi-Dirac primes" (A050376) that are powers of primes with exponents that are powers of 4. -/
-opaque A366307 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366307.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366310: First of a sequence of exactly n consecutive primes whose squares have the same last digit. -/
 opaque A366310 : ℕ → ℤ
@@ -52704,6 +51480,12 @@ opaque A366377 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366377.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366380: Lexicographically earliest infinite sequence such that a(i) = a(j) => A336158(i) = A336158(j), A336466(i) = A336466(j) and A336467(i) = A336467(j) for all i, j >= 1, where A336466 is fully multiplicative with a(p) = oddpart(p-1) for any prime p and A336467 is fully multiplicative with a(2) = 1 and a(p) = oddpart(p+1) for odd primes, and A336158(n) gives the prime signature of the odd part of n. -/
+opaque A366380 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366380.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366381: Lexicographically earliest infinite sequence such that a(i) = a(j) => A336466(i) = A336466(j) and A336467(i) = A336467(j) for all i, j >= 1, where A336466 is fully multiplicative with a(p) = oddpart(p-1) for any prime p and A336467 is fully multiplicative with a(2) = 1 and a(p) = oddpart(p+1) for odd primes p. -/
 opaque A366381 : ℕ → ℤ
 
@@ -52722,11 +51504,11 @@ opaque A366386 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366386.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366388: The number of edges minus the number of leaves in the rooted tree with Matula-Goebel number n. -/
-opaque A366388 : ℕ → ℤ
+/-- A366387: Divide n by its smallest prime factor, then multiply with the index of that same prime; a(1) = 0 by convention. -/
+opaque A366387 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366388.provenance : SequenceMachineLib.Provenance := .undefined
+def A366387.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366389: Variant of bijective bit-reverse of n (A057889) for which it holds that a(n) == n (mod 3). -/
 opaque A366389 : ℕ → ℤ
@@ -53034,6 +51816,12 @@ opaque A366480 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366480.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366481: Number of conjugacy classes of elements of order n in the Monster group. -/
+opaque A366481 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366481.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366483: Place n equally spaced points on each side of an equilateral triangle, and join each of these points by a chord to the 2*n new points on the other two sides: sequence gives number of vertices in the resulting planar graph. -/
 opaque A366483 : ℕ → ℤ
 
@@ -53075,6 +51863,12 @@ opaque A366493 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366493.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366494: a(n) is the number of cycles of the map f(x) = 10*x mod (10*n - 1). -/
+opaque A366494 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366494.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366495: G.f. A(x) satisfies A(x) = 1 + x*(1+x)^(3/2)*A(x)^(5/2). -/
 opaque A366495 : ℕ → ℤ
@@ -53334,6 +52128,12 @@ opaque A366582 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366582.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366583: a(2) = a(3) = 1; for n >3, a(n) = smallest prime factor of n-th Tribonacci number. -/
+opaque A366583 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366583.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366596: Repdigit numbers that are divisible by 7. -/
 opaque A366596 : ℕ → ℤ
 
@@ -53460,6 +52260,12 @@ opaque A366633 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366633.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366636: Number of distinct prime divisors of 7^n + 1. -/
+opaque A366636 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366636.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366637: Number of divisors of 7^n+1. -/
 opaque A366637 : ℕ → ℤ
 
@@ -53585,6 +52391,12 @@ opaque A366679 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366679.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366681: Number of distinct prime divisors of 11^n - 1. -/
+opaque A366681 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366681.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366683: Number of divisors of 11^n-1. -/
 opaque A366683 : ℕ → ℤ
@@ -53910,6 +52722,12 @@ opaque A366774 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366774.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366775: Number of 2-distant 4-noncrossing partitions of {1,...,n}. -/
+opaque A366775 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366775.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366776: Number of 2-distant 5-noncrossing partitions of {1,...,n}. -/
 opaque A366776 : ℕ → ℤ
 
@@ -53928,11 +52746,11 @@ opaque A366779 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366779.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A366788: a(n) = A366388(A163511(n)). -/
-opaque A366788 : ℕ → ℤ
+/-- A366786: a(n) = A073481(n)*A005117(n). -/
+opaque A366786 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A366788.provenance : SequenceMachineLib.Provenance := .undefined
+def A366786.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366790: Lexicographically earliest infinite sequence such that a(i) = a(j) => A366789(i) = A366789(j) and A336158(i) = A336158(j), for all i, j >= 1. -/
 opaque A366790 : ℕ → ℤ
@@ -53993,6 +52811,12 @@ opaque A366806 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366806.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366807: a(n) = A020639(A120944(n))*A120944(n). -/
+opaque A366807 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366807.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366808: The number of divisors of prime(n)#-1 where p# is the product of all the primes from 2 to p inclusive. -/
 opaque A366808 : ℕ → ℤ
@@ -54126,6 +52950,12 @@ opaque A366855 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366855.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366858: Array read by ascending antidiagonals: A(n, k) = n! * [x^n] exp((k-1)*x)*(k*cosh(sqrt(k)*x) + sqrt(k)*sinh(sqrt(k)*x))/k, with 1 <= k <= n. -/
+opaque A366858 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366858.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366861: Largest elements of triples (a, b, c) with a > b > c = 1 such that ab+c, ac+b and bc+a are perfect squares. -/
 opaque A366861 : ℕ → ℤ
 
@@ -54215,6 +53045,12 @@ opaque A366889 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366889.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366891: Lexicographically earliest infinite sequence such that a(i) = a(j) => A365425(i) = A365425(j), A206787(A163511(i)) = A206787(A163511(j)) and A336651(A163511(n)) = A336651(A163511(j)) for all i, j >= 0. -/
+opaque A366891 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366891.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366895: Lexicographically earliest infinite sequence such that a(i) = a(j) => A366894(i) = A366894(j) for all i, j >= 0. -/
 opaque A366895 : ℕ → ℤ
@@ -54336,6 +53172,12 @@ opaque A366926 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366926.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366927: Number of distinct primes p used in the mapping of k = k - k/p terminating at 1, where p is any of the prime factors of k. -/
+opaque A366927 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366927.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366928: a(n) is the smallest nonnegative k such that A301573(k) = n. -/
 opaque A366928 : ℕ → ℤ
 
@@ -54366,11 +53208,23 @@ opaque A366935 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366935.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366943: Lexicographically earliest sequence of distinct terms > 0 such that any digit d jumping to the right over d digits lands on a nonprime digit. -/
+opaque A366943 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366943.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A366944: Lexicographically earliest sequence of distinct terms > 0 such that any digit d jumping to the right over d digits lands on an odd digit. -/
 opaque A366944 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366944.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366945: Lexicographically earliest sequence of distinct terms > 0 such that any digit d jumping to the right over d digits lands on an even digit. -/
+opaque A366945 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366945.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366946: Lexicographically earliest sequence of distinct terms > 0 such that any digit d jumping to the right over d digits lands on a square digit. -/
 opaque A366946 : ℕ → ℤ
@@ -54413,6 +53267,12 @@ opaque A366958 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366958.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A366964: Numbers whose difference between the largest and smallest digits is equal to 7. -/
+opaque A366964 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366964.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A366966: Numbers whose difference between the largest and smallest digits is equal to 9. -/
 opaque A366966 : ℕ → ℤ
@@ -54480,6 +53340,12 @@ opaque A366994 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A366994.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A366999: a(n) is the denominator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyomino island. -/
+opaque A366999 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A366999.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A367002: a(n) is the smallest prime factor of n*2^n-1. -/
 opaque A367002 : ℕ → ℤ
 
@@ -54527,6 +53393,12 @@ opaque A367020 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367020.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367027: G.f. A(x) satisfies A(x) = 1 + x*A(x)^3 - x^2*A(x)^5. -/
+opaque A367027 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367027.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367029: G.f. satisfies A(x) = 1 + x*A(x) - x^2*A(x)^4. -/
 opaque A367029 : ℕ → ℤ
@@ -54767,6 +53639,12 @@ opaque A367089 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367089.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367090: Numbers that cannot be written as a sum of distinct powers of 3 and distinct powers of 4. -/
+opaque A367090 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367090.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367091: Length of runs of consecutive numbers in A367090, i.e., size of gaps in the set of sums of distinct powers of 3 and distinct powers of 4. -/
 opaque A367091 : ℕ → ℤ
@@ -55086,6 +53964,18 @@ opaque A367167 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367167.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A367168: The largest unitary divisor of n that is a term of A138302. -/
+opaque A367168 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367168.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367171: The sum of divisors of the largest unitary divisor of n that is a term of A138302. -/
+opaque A367171 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367171.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A367172: a(n) = the maximum number of distinct tilings of a polyiamond of size n using any combination of polyiamond tiles of sizes 1 through n. -/
 opaque A367172 : ℕ → ℤ
 
@@ -55146,6 +54036,12 @@ opaque A367186 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367186.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A367187: Numbers which are the sum of a prime number and a Fibonacci number of index >1 in at least two ways. -/
+opaque A367187 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367187.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A367188: a(1) = 1, thereafter a(n) = a(n-1) - A007504(n-1) if positive and novel, else a(n-1) + A007504(n-1). -/
 opaque A367188 : ℕ → ℤ
 
@@ -55175,6 +54071,12 @@ opaque A367194 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367194.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367195: Primes p such that (2^(p-1)*(p+1) - 1) / p is prime. -/
+opaque A367195 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367195.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367197: Trace of addition table of group of divisors of n. -/
 opaque A367197 : ℕ → ℤ
@@ -55410,12 +54312,6 @@ opaque A367253 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367253.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367254: a(n) = binomial(2*n - 1, n - 1)*(2*n)^n. -/
-opaque A367254 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367254.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367256: a(n) = Sum_{k=0..n} binomial(n, k) * binomial(n - 1, k - 1) * n^(n - k). -/
 opaque A367256 : ℕ → ℤ
 
@@ -55446,11 +54342,23 @@ opaque A367261 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367261.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A367262: Lexicographically earliest sequence of distinct nonnegative integers such that the values a(0) XOR ... XOR a(k) (for some k >= 0) are all distinct (where XOR denotes the bitwise XOR operator). -/
+opaque A367262 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367262.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A367263: Inverse permutation to A367262. -/
 opaque A367263 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367263.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367264: a(n) = A367262(0) XOR ... XOR A367262(n) (where XOR denotes the bitwise XOR operator). -/
+opaque A367264 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367264.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367265: Numbers k such that there exists i >= 1 such that k divides 3^3^i - 1. -/
 opaque A367265 : ℕ → ℤ
@@ -55583,12 +54491,6 @@ opaque A367297 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367297.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367298: Triangular array T(n,k), read by rows: coefficients of strong divisibility sequence of polynomials p(1,x) = 1, p(2,x) = 2 + 4*x, p(n,x) = u*p(n-1,x) + v*p(n-2,x) for n >= 3, where u = p(2,x), v = 1 - 2*x - x^2. -/
-opaque A367298 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367298.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367299: Triangular array T(n,k), read by rows: coefficients of strong divisibility sequence of polynomials p(1,x) = 1, p(2,x) = 2 + 5*x, p(n,x) = u*p(n-1,x) + v*p(n-2,x) for n >= 3, where u = p(2,x), v = 1 - 2*x - x^2. -/
 opaque A367299 : ℕ → ℤ
@@ -55872,12 +54774,6 @@ opaque A367367 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367367.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367369: a(n) = A340556(2*n, n), the central terms of the second order Eulerian numbers. -/
-opaque A367369 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367369.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367371: Expansion of the e.g.f. (exp(x) / (3 - 2*exp(x)))^(2/3). -/
 opaque A367371 : ℕ → ℤ
 
@@ -55980,12 +54876,6 @@ opaque A367391 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367391.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367393: a(n) = A103136(2*n, n), the central terms of the inverse of the Delannoy triangle. -/
-opaque A367393 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367393.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367394: Number of integer partitions of n whose length is a semi-sum of the parts. -/
 opaque A367394 : ℕ → ℤ
 
@@ -56069,12 +54959,6 @@ opaque A367420 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367420.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367421: Numbers k such that k^5*2^k + 1 is a prime. -/
-opaque A367421 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367421.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367422: Number of inequivalent strict interval closure operators on a set of n elements. -/
 opaque A367422 : ℕ → ℤ
@@ -56364,6 +55248,18 @@ opaque A367511 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367511.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A367513: The exponentially evil part of n: the largest unitary divisor of n that is an exponentially evil number (A262675). -/
+opaque A367513 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367513.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367514: The exponentially odious part of n: the largest unitary divisor of n that is an exponentially odious number (A270428). -/
+opaque A367514 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367514.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A367518: Numerators of even-numbered Maclaurin coefficients of sqrt(tan(x)/x). -/
 opaque A367518 : ℕ → ℤ
 
@@ -56375,6 +55271,18 @@ opaque A367519 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367519.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367523: The number of ways of tiling the n X n grid up to the symmetries of the square by a tile that is fixed under 90-degree rotations, but not reflections. -/
+opaque A367523 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367523.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367526: The number of ways of tiling the n X n grid up to diagonal and antidiagonal reflections by two tiles that are each fixed under both of these reflections. -/
+opaque A367526 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367526.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367528: The number of ways of tiling the n X n grid up to diagonal and antidiagonal reflections by a tile that is fixed under 180-degree rotations but is not fixed under either reflection. -/
 opaque A367528 : ℕ → ℤ
@@ -57174,12 +56082,6 @@ opaque A367756 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367756.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367759: Number of free n-celled polyominoes with the least number (A367758(n)) of inequivalent cells. -/
-opaque A367759 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367759.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367760: a(n) is the numerator of the probability that the free polyomino with binary code A246521(n+1) appears in the Eden growth model on the square lattice, when n square cells have been added. -/
 opaque A367760 : ℕ → ℤ
 
@@ -57258,11 +56160,17 @@ opaque A367772 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367772.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367775: a(n) = Sum_{k=0..n} (-1)^(n - k) * A011971(n, k). -/
-opaque A367775 : ℕ → ℤ
+/-- A367773: a(n) = Sum_{k=0..n} A363914(n, k)*(-2)^(n - k). -/
+opaque A367773 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367775.provenance : SequenceMachineLib.Provenance := .undefined
+def A367773.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367774: a(n) = Sum_{k=0..n} A363914(n, k)*2^(n - k). -/
+opaque A367774 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367774.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367777: a(n) = |Stirling1(2*n + 1, n)|. -/
 opaque A367777 : ℕ → ℤ
@@ -57372,12 +56280,6 @@ opaque A367800 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367800.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367802:  -/
-opaque A367802 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367802.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367803: Exponentially evil squares. -/
 opaque A367803 : ℕ → ℤ
 
@@ -57407,18 +56309,6 @@ opaque A367807 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367807.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367808: a(n) = Sum_{k=0..n} A011971(n, k) * 2^(n - k). -/
-opaque A367808 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367808.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367809: a(n) = Sum_{k=0..n} A011971(n, k) * (-2)^(n - k). -/
-opaque A367809 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367809.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367810: Lexicographically earliest sequence of distinct positive terms not ending in 0 such that the Levenshtein distance (Ld) between a(n) and a(n+1) is equal to the last digit of a(n). -/
 opaque A367810 : ℕ → ℤ
@@ -57479,6 +56369,18 @@ opaque A367825 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367825.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367830: E.g.f. A(x) satisfies A(x) = (1 + (exp(x) - 1) * A(2*x)) / (1 - x). -/
+opaque A367830 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367830.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A367831: E.g.f. A(x) satisfies A(x) = (1 + (exp(x) - 1) * A(3*x)) / (1 - x). -/
+opaque A367831 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A367831.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367835: Expansion of e.g.f. 1/(2 - x - exp(2*x)). -/
 opaque A367835 : ℕ → ℤ
@@ -57665,30 +56567,6 @@ opaque A367887 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367887.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367888: Expansion of e.g.f. exp(3*(exp(x) - 1) - 2*x). -/
-opaque A367888 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367888.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367889: Expansion of e.g.f. exp(3*(exp(x) - 1) + 2*x). -/
-opaque A367889 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367889.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367890: Expansion of e.g.f. exp(3*(exp(x) - 1 - x)). -/
-opaque A367890 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367890.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367891: Expansion of e.g.f. exp(4*(exp(x) - 1 - x)). -/
-opaque A367891 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367891.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A367892: Total number of steps of Euclid's GCD algorithm to calculate gcd(x,y) for all pairs x,y in the range 1 <= y <= x <= n. -/
 opaque A367892 : ℕ → ℤ
@@ -58026,42 +56904,6 @@ opaque A367976 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A367976.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A367977: Expansion of e.g.f. exp(-x) / (2 - exp(2*x)). -/
-opaque A367977 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367977.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367979: Expansion of e.g.f. exp(-x) / (2 - exp(3*x)). -/
-opaque A367979 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367979.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367980: Expansion of e.g.f. exp(-2*x) / (2 - exp(3*x)). -/
-opaque A367980 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367980.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367981: Expansion of e.g.f. exp(-x) / (2 - exp(4*x)). -/
-opaque A367981 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367981.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367982: Expansion of e.g.f. exp(-2*x) / (2 - exp(4*x)). -/
-opaque A367982 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367982.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A367983: Expansion of e.g.f. exp(-3*x) / (2 - exp(4*x)). -/
-opaque A367983 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A367983.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A367984: Numbers that are the sum of a nonnegative cube and a fourth power of a nonnegative integer. -/
 opaque A367984 : ℕ → ℤ
 
@@ -58181,6 +57023,12 @@ opaque A368012 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368012.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368016: Expansion of e.g.f. exp(exp(x) - exp(2*x)). -/
+opaque A368016 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368016.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368017: Expansion of e.g.f. exp(exp(x) - exp(3*x)). -/
 opaque A368017 : ℕ → ℤ
@@ -58554,12 +57402,6 @@ opaque A368127 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368127.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A368128: a(n) is the y-coordinate of the n-th point in a square spiral mapped to a square grid rotated by Pi/4 using the symmetrized variant of the distance-limited strip bijection described in A368126. -/
-opaque A368128 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A368128.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A368129: A variant of A367146 with application of the distance minimization to the second of two symmetrized versions of the strip bijection between two square lattices as described in A368126. -/
 opaque A368129 : ℕ → ℤ
 
@@ -58589,6 +57431,12 @@ opaque A368134 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368134.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368136: Numbers k for which a generalized Collatz trajectory (x / k if k divides x, x + ceiling(x / k) otherwise) has non-elementary loops starting from a positive integer x_0 < k^2. -/
+opaque A368136 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368136.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368141: Number of ways of tiling the n X n torus up to diagonal and antidiagonal reflections of the square by a tile that is fixed under only 180-degree rotations. -/
 opaque A368141 : ℕ → ℤ
@@ -58643,6 +57491,12 @@ opaque A368156 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368156.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368157: Triangular array T(n,k), read by rows: coefficients of strong divisibility sequence of polynomials p(1,x) = 1, p(2,x) = 1 + 2*x, p(n,x) = u*p(n-1,x) + v*p(n-2,x) for n >= 3, where u = p(2,x), v = 1 + 2*x^2. -/
+opaque A368157 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368157.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368158: Irregular triangular array T, read by rows: T(n,k) = number of sums |x-y| + |y-z| = k, where x,y,z are in {1,2,...,n} and x <= y. -/
 opaque A368158 : ℕ → ℤ
@@ -59070,6 +57924,18 @@ opaque A368267 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368267.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A368272: Expansion of e.g.f. exp(-x) / (1 + x*exp(x)). -/
+opaque A368272 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368272.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368273: Expansion of e.g.f. exp(-2*x) / (1 + x*exp(x)). -/
+opaque A368273 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368273.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A368275: Fibonacci zig-zag function. -/
 opaque A368275 : ℕ → ℤ
 
@@ -59147,6 +58013,12 @@ opaque A368288 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368288.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368289: Expansion of e.g.f. exp(-2*x) / (1 - log(1 + x)). -/
+opaque A368289 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368289.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368290: a(n) is the length of the longest palindromic subsequence at symmetrically-spaced indices ending at a(n-1); a(1)=1. -/
 opaque A368290 : ℕ → ℤ
@@ -59243,12 +58115,6 @@ opaque A368314 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368314.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A368316: Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, a(n) and Sum_{k = 0..n-1} a(k) can be added without carries in balanced ternary. -/
-opaque A368316 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A368316.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368317: Expansion of e.g.f. exp(4*x) / (2 - exp(x)). -/
 opaque A368317 : ℕ → ℤ
@@ -59561,6 +58427,12 @@ opaque A368409 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368409.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368410: Number of non-isomorphic connected set-systems of weight n satisfying a strict version of the axiom of choice. -/
+opaque A368410 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368410.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A368412: Number of non-isomorphic connected multiset partitions of weight n satisfying a strict version of the axiom of choice. -/
 opaque A368412 : ℕ → ℤ
@@ -59988,6 +58860,12 @@ opaque A368538 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368538.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A368540: The smallest unitary divisor d of n such that n/d is a term of A138302. -/
+opaque A368540 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368540.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A368543: The number of divisors of n whose prime factors are all of the form 2^k + 1 (A092506). -/
 opaque A368543 : ℕ → ℤ
 
@@ -60005,4 +58883,1126 @@ opaque A368545 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A368545.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368546: Alternative version of the Markov tree A327345. -/
+opaque A368546 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368546.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368548: Number of palindromic partitions of n. -/
+opaque A368548 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368548.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368550: Numbers such that the square root of the sum of each digit cubed is equal to the digital sum of the number. -/
+opaque A368550 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368550.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368554: a(n) is the number of triangular partitions of size n with two removable cells. -/
+opaque A368554 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368554.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368556: a(n) is the number of triangular partitions of size n with just one removable cell. -/
+opaque A368556 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368556.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368558: Number of fractions i/n that are in the Cantor set. -/
+opaque A368558 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368558.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368562: Expansion of g.f. A(x) satisfying A(x - A(x)) = x^2 - x^3. -/
+opaque A368562 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368562.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368563: Table read by downward antidiagonals: ranked maximum r likelihood of the number of distinguishable marbles in an urn if repeated random sampling of one marble with replacement yields n different marbles before the first repeated marble. -/
+opaque A368563 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368563.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368564: a(n) = number of pairs (p,q) of partitions of n such that d(p,q) = o(p,q), where d and o are distance functions; see Comments. -/
+opaque A368564 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368564.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368565: a(n) = number of pairs (p,q) of partitions of n such that d(p,q) < o(p,q), where d and o are distance functions; see Comments. -/
+opaque A368565 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368565.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368566: a(n) = number of pairs (p,q) of partitions of n such that d(p,q) > o(p,q), where d and o are distance functions; see Comments. -/
+opaque A368566 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368566.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368569: Irregular triangle read by rows: T(n,k) is the number of essential graphs with n nodes and k (directed or undirected) edges (n >= 1, 0 <= k <= n*(n-1)/2). -/
+opaque A368569 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368569.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368570: Numbers k such that both k and k+1 are the sums of consecutive squares. -/
+opaque A368570 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368570.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368571: Triangle read by rows where T(n,k) is the number of positive integers M which have both n and k as factor differences, 1 <= k < n. -/
+opaque A368571 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368571.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368572: Number of refactorable numbers less than n that do not divide n. -/
+opaque A368572 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368572.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368573: a(n) = Sum_{k=0..n} k! * k^k. -/
+opaque A368573 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368573.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368579: Triangle read by rows. T(n, k) is the number of compositions of n where the first part k is the largest part and the last part is not 1. -/
+opaque A368579 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368579.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368581: The sum of weights of nondegenerated monotone Bacher representations of n. -/
+opaque A368581 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368581.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368586: a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * binomial(k+3,4) / k!. -/
+opaque A368586 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368586.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368590: Numbers k such that all of k, k+1 and k+2 are the sums of consecutive squares. -/
+opaque A368590 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368590.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368591: The sequence is both a succession of triples of monotonically increasing numbers and a succession of triples of monotonically increasing digits. This is the lexicographically earliest such sequence starting with a(1) = 0 formed by distinct number-triples. -/
+opaque A368591 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368591.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368593: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^2 - A(-x)^2)/2 + x*sqrt( (A(x)^4 + A(-x)^4)/2 ). -/
+opaque A368593 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368593.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368594: Number of Lucas numbers needed to get n by addition and subtraction. -/
+opaque A368594 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368594.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368596: Number of n-element sets of singletons or pairs of distinct elements of {1..n}, or loop graphs with n edges, such that it is not possible to choose a different element from each. -/
+opaque A368596 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368596.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368598: Number of non-isomorphic n-element sets of singletons or pairs of elements of {1..n}, or unlabeled loop-graphs with n edges and up to n vertices. -/
+opaque A368598 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368598.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368599: Number of non-isomorphic n-element sets of singletons or pairs of elements of {1..n} with union {1..n}, or unlabeled loop-graphs with n edges covering n vertices. -/
+opaque A368599 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368599.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368600: Number of ways to choose a set of n nonempty subsets of {1..n} such that it is not possible to choose a different element from each. -/
+opaque A368600 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368600.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368601: Number of ways to choose a set of n nonempty subsets of {1..n} such that it is possible to choose a different element from each. -/
+opaque A368601 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368601.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368602: Triangle read by rows where T(n,k) is the number of labeled acyclic digraphs on {1..n} with sinks {1..k}. -/
+opaque A368602 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368602.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368603: Products of odd primes of squarefree index. MM-numbers of set multipartitions. -/
+opaque A368603 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368603.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368604: Triangular array T, read by rows: T(n,k) = number of sums |x-y|+|y-z| = k, where x,y,z are in {1,2,...,n} and x < y and y > z. -/
+opaque A368604 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368604.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368606: Irregular triangular array T, read by rows: T(n,k) = number of sums |x-y| + |y-z| = k, where x,y,z are in {1,2,...,n} and x <= y and y >= z. -/
+opaque A368606 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368606.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368607: Irregular triangular array T, read by rows: T(n,k) = number of sums |x-y| + |y-z| = k, where x,y,z are in {1,2,...,n} and x != y and y < z. -/
+opaque A368607 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368607.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368609: a(n) = A368945(A071561(n)). -/
+opaque A368609 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368609.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368614: Number of n-step self-avoiding walks on a 2D square lattice where each visited lattice point is either a neighbor of the first visited lattice point, else the first visited lattice point is directly visible (cf. A358036) from the lattice point when it is first visited. -/
+opaque A368614 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368614.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368621: a(n) is the n-digit denominator of the fraction h/k with h and k coprime positive integers at which abs(h/k-e) is minimal. -/
+opaque A368621 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368621.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368626: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^2 - A(-x)^2)/2 + x*(A(x)^3 + A(-x)^3)/2. -/
+opaque A368626 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368626.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368627: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^2 + A(-x)^2)/2 + x*(A(x)^3 - A(-x)^3)/2. -/
+opaque A368627 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368627.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368628: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^2 - A(-x)^2)/2 + x*(A(x)^4 + A(-x)^4)/2. -/
+opaque A368628 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368628.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368629: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^2 + A(-x)^2)/2 + x*(A(x)^4 - A(-x)^4)/2. -/
+opaque A368629 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368629.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368630: Expansion of e.g.f. A(x) satisfying A(x/A(x)^2) = exp(x*A(x)). -/
+opaque A368630 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368630.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368631: Expansion of e.g.f. A(x) satisfying A(x/A(x)) = exp(x*A(x)^2). -/
+opaque A368631 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368631.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368632: Expansion of e.g.f. A(x) satisfying A(x/A(x)^2) = exp(x*A(x)^2). -/
+opaque A368632 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368632.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368633: Expansion of g.f. A(x) satisfying A(x) = 1 + 2*x*A(x)^2 - x*A(-x)^2. -/
+opaque A368633 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368633.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368634: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(3*A(x)^2 - A(-x)^2)/2. -/
+opaque A368634 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368634.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368635: Expansion of g.f. A(x) satisfying A(x) = 1 + 3*x*A(x)^2 - 2*x*A(-x)^2. -/
+opaque A368635 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368635.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368636: Number of modified ascent sequences of length n avoiding the pattern 221. -/
+opaque A368636 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368636.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368639: Number of lattice paths from (0,0) to (n,n) using steps (i,j) with i,j>=0 and gcd(i,j)=1. -/
+opaque A368639 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368639.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368640: a(0) = 2; for n > 0, a(n) is the smallest prime that differs from the next prime by 2n and is not part of a run of 3 or more consecutive primes in arithmetic progression, or -1 if no such prime exists. -/
+opaque A368640 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368640.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368644: Decimal expansion of the Mertens constant M(3,2) arising in the formula for the sum of reciprocals of primes p == 2 (mod 3). -/
+opaque A368644 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368644.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368645: Decimal expansion of the Mertens constant M(4,1) arising in the formula for the sum of reciprocals of primes p == 1 (mod 4) (negated). -/
+opaque A368645 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368645.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368651: Numbers k such that 2^sigma(k) - k is a prime. -/
+opaque A368651 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368651.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368657: Number of cycles in an n X n grid where the cycle cannot touch itself orthogonally or diagonally and must contain at least one inside point. -/
+opaque A368657 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368657.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368658: a(n) is the number of correct decimal digits of e obtained from the fraction A368618(n)/A368619(n). -/
+opaque A368658 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368658.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368660: Square array read by antidiagonals; the n-th row is the decimal expansion of the probability that the free polyomino with binary code A246521(n+1) appears in diffusion-limited aggregation on the square lattice. -/
+opaque A368660 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368660.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368662: Square array read by antidiagonals; the n-th row is the decimal expansion of the maximum probability that a particular free polyomino with n cells appears in diffusion-limited aggregation on the square lattice. -/
+opaque A368662 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368662.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368663: Decimal expansion of the probability that the L tromino appears when the 3rd cell is added in diffusion-limited aggregation on the square lattice. -/
+opaque A368663 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368663.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368664: Decimal expansion of the probability that the straight tromino appears when the 3rd cell is added in diffusion-limited aggregation on the square lattice. -/
+opaque A368664 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368664.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368665: Decimal expansion of the probability that the L tetromino appears when the 4th cell is added in diffusion-limited aggregation on the square lattice. -/
+opaque A368665 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368665.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368666: Decimal expansion of the probability that the square tetromino appears when the 4th cell is added in diffusion-limited aggregation on the square lattice. -/
+opaque A368666 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368666.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368668: Decimal expansion of the probability that the skew tetromino appears when the 4th cell is added in diffusion-limited aggregation on the square lattice. -/
+opaque A368668 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368668.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368672: Total number of lattice paths from (0,0) to (k,n-k) for k=0..n using steps (i,j) with i,j>=0 and gcd(i,j)=1. -/
+opaque A368672 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368672.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368675: Number of partitions of [n] whose block maxima sum to 2n. -/
+opaque A368675 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368675.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368677: Number of numbers k less than n and not dividing n such that n-k is squarefree. -/
+opaque A368677 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368677.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368680: Sum of the numbers k less than n and not dividing n such that n-k is squarefree. -/
+opaque A368680 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368680.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368681: Products of primorials that are perfect powers. -/
+opaque A368681 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368681.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368682: Products of primorials that are perfect powers but not prime powers. -/
+opaque A368682 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368682.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368687: Expansion of g.f. Sum_{n>=1} q^n/(1-q^n-q^(2*n)-q^(3*n)). -/
+opaque A368687 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368687.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368688: Expansion of g.f. Sum_{n>=1} q^n/(1-q^n-q^(3*n)). -/
+opaque A368688 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368688.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368689: Expansion of g.f. Sum_{n>=1} q^n/(1-q^(2*n)-q^(3*n)). -/
+opaque A368689 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368689.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368691: Primes p such that p + 4 * q is prime, where q is the next prime after p. -/
+opaque A368691 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368691.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368694: Dirichlet inverse of the highest power of two that divides sigma(n), applied to A163511(n). -/
+opaque A368694 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368694.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368697: Numbers that are divisible by the squares of two distinct primes and whose arithmetic derivative (A003415) is a squarefree number of the form 4k+2. -/
+opaque A368697 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368697.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368698: a(n) is the smallest positive k such that A005940(1+n) divides the oblong number k*(k+1). -/
+opaque A368698 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368698.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368699: a(n) = A354989(A005940(1+n)). -/
+opaque A368699 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368699.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368700: Partial sums of A368699. -/
+opaque A368700 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368700.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368701: a(n) = 1 if n satisfies the arithmetic differential equation 2n" - n' - 4 = 0, otherwise 0. Cf. A003415. -/
+opaque A368701 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368701.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368703: a(n) is the least integer k whose arithmetic derivative is equal to the n-th primorial, or 0 if no such k exists. -/
+opaque A368703 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368703.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368707: Number of length-n overlap-free binary words that are squares. -/
+opaque A368707 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368707.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368708: a(n) = hypergeom([-1 - n, -n, 1 - n], [2, 3], -2). -/
+opaque A368708 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368708.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368710: The maximal exponent in the prime factorization of the powerful numbers. -/
+opaque A368710 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368710.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368716: a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * k^3 / k!. -/
+opaque A368716 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368716.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368717: a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * k^4 / k!. -/
+opaque A368717 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368717.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368718: a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * k^5 / k!. -/
+opaque A368718 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368718.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368725: a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * k^n / k!. -/
+opaque A368725 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368725.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368726: Number of non-isomorphic connected multiset partitions of weight n into singletons or pairs. -/
+opaque A368726 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368726.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368727: Number of non-isomorphic connected multiset partitions of weight n into singletons or strict pairs. -/
+opaque A368727 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368727.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368728: Numbers whose prime indices are 1, prime, or semiprime. -/
+opaque A368728 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368728.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368729: Numbers whose prime indices are prime or semiprime. MM-numbers of labeled multigraphs with loops and half-loops without isolated (uncovered) nodes. -/
+opaque A368729 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368729.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368730: Number of n-element sets of singletons or pairs of distinct elements of {1..n} with union {1..n}, or loop-graphs covering n vertices with n edges, such that it is not possible to choose a different element from each. -/
+opaque A368730 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368730.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368731: Number of non-isomorphic n-element sets of nonempty subsets of {1..n}. -/
+opaque A368731 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368731.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368733: a(n) = hypergeom([-1 - n, -n, 1 - n], [2, 3], -3). -/
+opaque A368733 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368733.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368734: Four-column table read by rows where row n lists the entries of the 2 X 2 matrix M(n) used to form Bird tree and Drib tree rationals. -/
+opaque A368734 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368734.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368735: Table read by ascending antidiagonals: A(n,m) is the smallest number k such that k and k+1 have the n-th and m-th prime signatures, respectively, or -1 if no such k exists. -/
+opaque A368735 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368735.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368746: Compositions (ordered partitions) of n into odd parts where the first part must be a maximal part. -/
+opaque A368746 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368746.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368747: Self-describing bit sequences from the beta transform. -/
+opaque A368747 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368747.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368749: a(n) is the smallest prime p such that there are n numbers between p and nextprime(p) which are not prime powers. -/
+opaque A368749 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368749.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368750: Irregular triangle read by rows: T(n,k) is the number of atoms contained in the k-th balanced string of left/right parentheses of length 2*n, where strings within a row are in reverse lexicographical order. -/
+opaque A368750 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368750.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368751: Irregular triangle read by rows: T(n,k) is the number of co-atoms contained in the k-th balanced string of left/right parentheses of length 2*n, where strings within a row are in reverse lexicographical order. -/
+opaque A368751 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368751.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368752: Irregular triangle read by rows: T(n,k) is the number of atoms + co-atoms contained in the k-th balanced string of left/right parentheses of length 2*n, where strings within a row are in reverse lexicographical order. -/
+opaque A368752 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368752.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368753: Irregular triangle read by rows: T(n,k) is the defect of the k-th balanced string of left/right parentheses of length 2*n, where strings within a row are in reverse lexicographical order. -/
+opaque A368753 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368753.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368755: Number of regions in the hyperoctahedral (or cocktail party) graph of order n. -/
+opaque A368755 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368755.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368756: Number of vertices in the hyperoctahedral (or cocktail party) graph of order n. -/
+opaque A368756 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368756.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368757: Number of edges in the hyperoctahedral (or cocktail party) graph of order n. -/
+opaque A368757 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368757.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368759: Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * (1 + Sum_{j=0..n} j^k/j!). -/
+opaque A368759 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368759.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368761: Number of labeled split graphs on n vertices such that {1..k} is independent and {k+1..n} is a clique for some k in {0..n}. -/
+opaque A368761 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368761.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368773: Antidiagonal sums of A059450. -/
+opaque A368773 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368773.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368774: a(n) is the number of distinct real roots of the polynomial whose coefficients are the digits of the binary expansion of n. -/
+opaque A368774 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368774.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368777: a(n) is the largest divisor of n that is a term of the sequence A003418, the least common multiple of the first k natural numbers. -/
+opaque A368777 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368777.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368782: Comma transform of A366487. -/
+opaque A368782 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368782.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368783: Lexicographic rank of the permutation which is the Eytzinger array layout of n elements. -/
+opaque A368783 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368783.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368795: Lexicographically earliest sequence of nonnegative integers such that the doubly-infinite symmetric sequence b defined by b(n) = b(-n) = a(n) for any n >= 0 has no three equidistant terms in arithmetic progression. -/
+opaque A368795 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368795.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368798: Lexicographically earliest sequence of nonnegative integers such that the doubly-infinite symmetric sequence b defined by b(n) = b(-n) = a(n) for any n >= 0 has no three equidistant equal terms. -/
+opaque A368798 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368798.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368800: Lower independence number of the n X n torus grid graph C_n square C_n. -/
+opaque A368800 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368800.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368805: Primes whose digits are prime in both base 9 and base 10. -/
+opaque A368805 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368805.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368806: a(n) = Product_{i=1..j, j=1..k, k=1..n} i*j*k. -/
+opaque A368806 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368806.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368809: Number of 4 X n binary arrays with a path of adjacent 1's from top row to bottom row using only left, right, and downward steps. -/
+opaque A368809 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368809.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368811: a(n) = period length of the sequence A020639(n^k - 1), k >= 1. -/
+opaque A368811 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368811.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368812: Numbers m such that Sum_{k=0..m-1} exp(2*Pi*i*k^5/m) != 0. -/
+opaque A368812 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368812.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368813: Number of regions in a regular 2n-gon when all vertices are connected by straight lines except for the n lines joining diametrically opposite vertices. -/
+opaque A368813 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368813.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368814: Number of vertices in a regular 2n-gon when all vertices are connect by straight lines except for the n lines joining diametrically opposite vertices. -/
+opaque A368814 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368814.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368815: Number of edges in a regular 2n-gon when all vertices are connect by straight lines except for the n lines joining diametrically opposite vertices. -/
+opaque A368815 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368815.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368817: Sum of the refactorable numbers less than n that do not divide n. -/
+opaque A368817 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368817.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368821: Number of compositions of n into 2 refactorable parts. -/
+opaque A368821 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368821.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368822: Number of compositions of n into two non-refactorable parts. -/
+opaque A368822 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368822.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368830: Number of square unlabeled endofunctions from n points to themselves. -/
+opaque A368830 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368830.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368831: Irregular triangle read by rows: T(n,k) is the number of dominating subsets with cardinality k of the n X n rook graph (n >= 0, 0 <= k <= n^2). -/
+opaque A368831 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368831.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368832: Integers not of one of the 5 forms p^k, p*q^k, 2*p*q^k, p*q*r or 2*p*q*r with p, q, r distinct primes and k>=0. -/
+opaque A368832 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368832.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368833: Numbers whose prime indices are not 1, prime, or semiprime. -/
+opaque A368833 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368833.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368834: Number of unlabeled simple graphs covering n vertices such that it is possible to choose a different vertex from each edge (choosable). -/
+opaque A368834 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368834.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368835: Number of unlabeled n-edge loop-graphs with at most n vertices such that it is not possible to choose a different vertex from each edge. -/
+opaque A368835 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368835.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368836: Triangle read by rows where T(n,k) is the number of unlabeled loop-graphs on up to n vertices with k loops and n-k non-loops. -/
+opaque A368836 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368836.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368841: Nonnegative integers whose binary expansions (without leading zeros) have no three equally spaced equal digits. -/
+opaque A368841 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368841.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368842: a(n) gives the number of triples of equally spaced equal digits in the binary expansion of n (without leading zeros). -/
+opaque A368842 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368842.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368843: a(n) gives the number of triples of equally spaced 1's in the binary expansion of n. -/
+opaque A368843 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368843.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368844: a(n) gives the number of triples of equally spaced 0's in the binary expansion of n (without leading zeros). -/
+opaque A368844 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368844.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368845: Number of solutions to +- 1^3 +- 2^3 +- 3^3 +- ... +- n^3 = n^3. -/
+opaque A368845 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368845.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368847: Triangle read by rows: T(n, k) = numerator(M(n, k)) where M is the inverse matrix of A368846. -/
+opaque A368847 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368847.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368848: Triangle read by rows: T(n, k) = denominator(M(n, k)) where M is the inverse matrix of A368846. -/
+opaque A368848 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368848.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368849: Triangle read by rows: T(n, k) = binomial(n, k - 1)*(k - 1)^(k - 1)*(n - k)*(n - k + 1)^(n - k). -/
+opaque A368849 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368849.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368850: Primes that are equal to the sum of the first k proper prime powers for some k. -/
+opaque A368850 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368850.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368855: Index of the first occurrence of n in A076982. -/
+opaque A368855 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368855.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368857: a(n) gives the maximum number of equally spaced equal digits in the binary expansion of n (without leading zeros). -/
+opaque A368857 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368857.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368858: Number of perfect cube unlabeled endofunctions from n points to themselves. -/
+opaque A368858 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368858.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368859: Number of beta-stable isotopes of the n-th element. -/
+opaque A368859 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368859.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368860: Number of beta-stable isotones of neutron number n. -/
+opaque A368860 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368860.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368861: Even mass numbers with only one beta-stable isobar. -/
+opaque A368861 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368861.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368867: Number of labeled mappings from n points to themselves with unique square root (endofunctions). -/
+opaque A368867 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368867.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368869: Number of partitions of n into prime parts not greater than sqrt(n). -/
+opaque A368869 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368869.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368870: Number of partitions of n into nonprime parts not greater than sqrt(n). -/
+opaque A368870 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368870.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368871: Number of compositions (ordered partitions) of n into odd parts not greater than sqrt(n). -/
+opaque A368871 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368871.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368872: Number of compositions (ordered partitions) of n into prime parts not greater than sqrt(n). -/
+opaque A368872 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368872.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368873: Number of compositions (ordered partitions) of n into nonprime parts not greater than sqrt(n). -/
+opaque A368873 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368873.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368874: a(n) is the number of points with integer coordinates located strictly between the parabolas y = n - x^2 and y = x^2 - n. -/
+opaque A368874 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368874.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368876: a(n) is the number of ways n can be reached by the following method: we start with 1, then add or multiply alternately, and each operand must be 3 or 4 or 5. -/
+opaque A368876 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368876.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368877: a(n) = f^k(n) where f(n) = A014682(n), the Collatz map, and k = A070939(n), the length of n in base 2. -/
+opaque A368877 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368877.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368878: a(n) is the least k such that A368877^k(n) < n or -1 if no such k exists. -/
+opaque A368878 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368878.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368879: Primes that are in A070196. -/
+opaque A368879 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368879.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368880: Primes in A024528. -/
+opaque A368880 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368880.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368887: a(n) is the atomic number of the nuclide with the lowest energy among the isobars of mass number n. -/
+opaque A368887 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368887.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368896: Lower matching number of the n X n knight graph. -/
+opaque A368896 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368896.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368902: Numbers k for which A342001(k) is squarefree. -/
+opaque A368902 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368902.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368904: Numbers k for which there is no prime p such that p^p divides A342001(k). -/
+opaque A368904 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368904.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368907: a(n) = 1 if the k-th arithmetic derivative of A005940(1+n) is zero for some k >= 0, otherwise 0. Here A005940 is the Doudna sequence. -/
+opaque A368907 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368907.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368908: a(n) is the number of integers x in range 0..n such that the k-th arithmetic derivative of A005940(1+x) is zero for some k >= 0, where A005940 is the Doudna sequence. -/
+opaque A368908 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368908.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368912: a(n) = 1 if A342001(n) is squarefree, and 0 otherwise. -/
+opaque A368912 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368912.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368916: a(n) = 1 if there is no prime p such that p^p divides the arithmetic derivative of A276086(n), and 0 otherwise, where A276086 is the primorial base exp-function. -/
+opaque A368916 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368916.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368917: Numbers k for which there is no prime p such that p^p divides the arithmetic derivative of A276086(k), where A276086 is the primorial base exp-function. -/
+opaque A368917 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368917.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368918: a(n) is the number of integers m in the range 0..n such that the arithmetic derivative of A276086(m) has no divisors of the form p^p. -/
+opaque A368918 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368918.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368919: Number of terms of A368917 less than 10^n, where A368917 lists the numbers k for which there is no prime p such that p^p divides the arithmetic derivative of A276086(k), where A276086 is the primorial base exp-function. -/
+opaque A368919 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368919.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368920: Number of terms of A368904 less than 10^n, where A368904 gives the numbers k for which there is no prime p such that p^p divides A342001(k). -/
+opaque A368920 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368920.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368924: Triangle read by rows where T(n,k) is the number of labeled loop-graphs on n vertices with k loops and n-k non-loops such that it is possible to choose a different vertex from each edge. -/
+opaque A368924 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368924.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368925: The minimal exponent in the prime factorization of the powerful numbers. -/
+opaque A368925 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368925.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368926: Triangle read by rows where T(n,k) is the number of unlabeled loop-graphs on n vertices with k loops and n-k non-loops such that it is possible to choose a different element from each edge. -/
+opaque A368926 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368926.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368927: Number of labeled loop-graphs covering a subset of {1..n} such that it is possible to choose a different vertex from each edge. -/
+opaque A368927 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368927.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368935: Expansion of (1/x) * Series_Reversion( x * (1-x) * (1-x+x^3) ). -/
+opaque A368935 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368935.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368936: Expansion of (1/x) * Series_Reversion( x * (1-x) * (1-x+x^4) ). -/
+opaque A368936 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368936.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368937: Expansion of (1/x) * Series_Reversion( x * (1-x) * (1-x+x^5) ). -/
+opaque A368937 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368937.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368938: Expansion of (1/x) * Series_Reversion( x * (1-x)^2 * (1-x+x^2) ). -/
+opaque A368938 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368938.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368943: Number of unlabeled mappings from n points to themselves with unique square root (endofunctions). -/
+opaque A368943 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368943.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368944: Palindromes in base 10 that are the product of two repdigit numbers. -/
+opaque A368944 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368944.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368945: a(n) is the length of the central extent of width 0 for the symmetric representation of sigma, SRS(n), when that has an even number of parts otherwise -1. -/
+opaque A368945 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368945.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368946: Irregular triangle read by rows: row n lists the strings of the MIU formal system at the n-th level of the tree generated by recursively applying the system rules, starting from the MI string (see comments and example). -/
+opaque A368946 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368946.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368947: Row lengths of A368946: in the MIU formal system, number of (possibly not distinct) strings n steps distant from the MI string. -/
+opaque A368947 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368947.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368949: Complement of A368087 in A174905. -/
+opaque A368949 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368949.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368950: Numbers with 11 odd divisors. -/
+opaque A368950 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368950.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A368951: Number of connected labeled graphs with n edges and n vertices and with loops allowed. -/
+opaque A368951 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A368951.provenance : SequenceMachineLib.Provenance := .undefined
 

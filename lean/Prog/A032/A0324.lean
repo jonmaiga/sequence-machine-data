@@ -7,19 +7,20 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -27,37 +28,35 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C008
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -85,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 /-!
 # A032403: Numbers k such that 107*2^k+1 is prime.
@@ -227,6 +227,21 @@ end
 
 end A032416.P8813301769486081079
 
+/-! ## A032416.P11476603745145728228
+
+`A178858(A306523(n))+A000045(n+4)`
+-/
+
+namespace A032416.P11476603745145728228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178858 (A306523 n).toNat + A000045 (n + 4)
+
+end
+
+end A032416.P11476603745145728228
+
 /-!
 # A032417: Numbers k such that 135*2^k+1 is prime.
 
@@ -317,11 +332,98 @@ end
 
 end A032420.P8966379506568483972
 
+/-! ## A032420.P2187505829728515899
+
+`A321612(n+1)-A381603(A321625(n))`
+-/
+
+namespace A032420.P2187505829728515899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321612 (n + 1) - A381603 (A321625 n).toNat
+
+end
+
+end A032420.P2187505829728515899
+
+/-! ## A032420.P20665318872632847
+
+`eq[A096852(n), A300820(A373575(n+2))]`
+-/
+
+namespace A032420.P20665318872632847
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096852 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300820 (A373575 (n + 2)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A032420.P20665318872632847
+
 /-!
 # A032427: Coefficients of Jacobi elliptic function c(4,m).
 
 The programs for A032427, there is no canonical definition to state claims against.
 -/
+
+/-! ## A032427.P11357382951660254597
+
+`A060628(eq[4, row(n)-col(n)])`
+-/
+
+namespace A032427.P11357382951660254597
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060628 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A032427.P11357382951660254597
+
+/-! ## A032427.P5056563470052490769
+
+`A060628(A052905(2+n))`
+-/
+
+namespace A032427.P5056563470052490769
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060628 (A052905 (2 + n)).toNat
+
+end
+
+end A032427.P5056563470052490769
+
+/-! ## A032427.P17440178047030410003
+
+`A060628(A056115(n)+10)`
+-/
+
+namespace A032427.P17440178047030410003
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060628 (A056115 n + 10).toNat
+
+end
+
+end A032427.P17440178047030410003
 
 /-! ## A032427.P18379836799914121761
 
@@ -365,69 +467,6 @@ end
 
 end A032427.P12277872321117967428
 
-/-! ## A032427.P1644296112366000128
-
-`A060628(eq[5, A002260(n+1)])`
--/
-
-namespace A032427.P1644296112366000128
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002260 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060628 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A032427.P1644296112366000128
-
-/-! ## A032427.P8109734429466931453
-
-`A060628(Δ[Δ[A022815(n+1)]])`
--/
-
-namespace A032427.P8109734429466931453
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022815 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060628 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A032427.P8109734429466931453
-
-/-! ## A032427.P8052664916742079551
-
-`A060628(eq[3, A332954(n)])`
--/
-
-namespace A032427.P8052664916742079551
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060628 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A032427.P8052664916742079551
-
 /-!
 # A032428: Coefficients of Jacobi elliptic function c(5,m).
 
@@ -460,6 +499,48 @@ end A032428.P10954056564211684891
 
 The programs for A032429, there is no canonical definition to state claims against.
 -/
+
+/-! ## A032429.P7715359873934043707
+
+`A060628(eq[6, row(n)-col(n)])`
+-/
+
+namespace A032429.P7715359873934043707
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060628 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A032429.P7715359873934043707
+
+/-! ## A032429.P13400978268820270226
+
+`A060628(eq[13, A099375(n)])`
+-/
+
+namespace A032429.P13400978268820270226
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  13
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099375 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060628 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A032429.P13400978268820270226
 
 /-! ## A032429.P11525891032354465607
 
@@ -938,6 +1019,32 @@ def P10053767050262940599.Spec : Prop :=
 
 end A032438
 
+/-! ## A032438.P4123692095976134911
+
+`∑[n*gcd(2, n)]-n`
+-/
+
+namespace A032438.P4123692095976134911
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * Nat.gcd 2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - (n : ℤ)
+
+end
+
+end A032438.P4123692095976134911
+
+namespace A032438
+
+/-- `∑[n*gcd(2, n)]-n` -/
+def P4123692095976134911.Spec : Prop :=
+  ∀ n, P4123692095976134911.a n = A032438 n
+
+end A032438
+
 /-! ## A032438.P16165086346673941175
 
 `∑[∏{p}[n, #^val(2*n, #)]-1]`
@@ -964,32 +1071,6 @@ namespace A032438
 /-- `∑[∏{p}[n, #^val(2*n, #)]-1]` -/
 def P16165086346673941175.Spec : Prop :=
   ∀ n, P16165086346673941175.a n = A032438 n
-
-end A032438
-
-/-! ## A032438.P18214796030534670451
-
-`floor(∑[2*n/gcd(2, n+1)]-n)`
--/
-
-namespace A032438.P18214796030534670451
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 * n : ℚ) / (Nat.gcd 2 (n + 1) : ℚ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊∑ j ∈ Finset.range (n + 1), f1 j - (n : ℚ)⌋
-
-end
-
-end A032438.P18214796030534670451
-
-namespace A032438
-
-/-- `floor(∑[2*n/gcd(2, n+1)]-n)` -/
-def P18214796030534670451.Spec : Prop :=
-  ∀ n, P18214796030534670451.a n = A032438 n
 
 end A032438
 
@@ -2157,20 +2238,20 @@ end
 
 end A032442.P18292850959781233093
 
-/-! ## A032442.P5524848731053232252
+/-! ## A032442.P17047316686941544601
 
-`A348613(A109001(n))+A000712(n)`
+`A086080(A255610(n))+A000712(n)`
 -/
 
-namespace A032442.P5524848731053232252
+namespace A032442.P17047316686941544601
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348613 (A109001 n).toNat + A000712 n
+  A086080 (A255610 n).toNat + A000712 n
 
 end
 
-end A032442.P5524848731053232252
+end A032442.P17047316686941544601
 
 /-!
 # A032443: a(n) = Sum_{i=0..n} binomial(2*n, i).
@@ -3197,6 +3278,24 @@ end
 
 end A032448.P12263896317304327249
 
+/-! ## A032448.P7552986933555288172
+
+`A038700(record[A051698(n)])`
+-/
+
+namespace A032448.P7552986933555288172
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051698 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038700 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+
+end
+
+end A032448.P7552986933555288172
+
 /-! ## A032448.P12815059180793020230
 
 `A282049(lt[n, A282028(n)])`
@@ -3217,24 +3316,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032448.P12815059180793020230
-
-/-! ## A032448.P8194550655175961013
-
-`A038700(record[A014963(n+2)])`
--/
-
-namespace A032448.P8194550655175961013
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038700 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A032448.P8194550655175961013
 
 /-!
 # A032449: Every suffix is prime and no digit is 0 or 5.
@@ -3927,6 +4008,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032480.P18072835244946835293
+
+/-! ## A032480.P13119887014825832161
+
+`A174868(n)+A104369(A213224(3*n+5))`
+-/
+
+namespace A032480.P13119887014825832161
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174868 n + A104369 (A213224 (3 * n + 5)).toNat
+
+end
+
+end A032480.P13119887014825832161
 
 /-!
 # A032481: Numbers k such that 209*2^k+1 is prime.

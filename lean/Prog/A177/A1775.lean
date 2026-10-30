@@ -5,21 +5,23 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C043
-import Seq.B000.C045
+import Seq.B000.C044
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -27,7 +29,6 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
@@ -36,10 +37,11 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -65,6 +67,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 /-!
 # A177500: Divisors of 8064.
@@ -619,6 +622,27 @@ end A177510.P16531652766697388183
 The programs for A177512, there is no canonical definition to state claims against.
 -/
 
+/-! ## A177512.P5208194295903031745
+
+`lt[A210442(n), A335235(A367758(n+1))]`
+-/
+
+namespace A177512.P5208194295903031745
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210442 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335235 (A367758 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A177512.P5208194295903031745
+
 /-! ## A177512.P2352051207309989629
 
 `record[A053585(A001318(n+1))]`
@@ -700,24 +724,6 @@ end
 
 end A177512.P12511782169788703008
 
-/-! ## A177512.P16832368102846646480
-
-`record[A000015(A352774(n+1))]`
--/
-
-namespace A177512.P16832368102846646480
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000015 (A352774 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A177512.P16832368102846646480
-
 /-!
 # A177513: Smallest n-digit emirp with only prime digits.
 
@@ -781,23 +787,23 @@ end
 
 end A177516.P10041117986667530058
 
-/-! ## A177516.P13330414286396523464
+/-! ## A177516.P5211626955177420094
 
-`filter[A300117(n+1), A123927(#)]`
+`filter[A300117(1+n), A123927(#)]`
 -/
 
-namespace A177516.P13330414286396523464
+namespace A177516.P5211626955177420094
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300117 (n + 1)
+  A300117 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A123927 (f1 j).toNat = 1) n)
 
 end
 
-end A177516.P13330414286396523464
+end A177516.P5211626955177420094
 
 /-! ## A177516.P7328522211311334045
 
@@ -2046,6 +2052,24 @@ end
 
 end A177525.P8529337806304982405
 
+/-! ## A177525.P4658600847448578010
+
+`∏{e}[A000351(n), A177532(#)]`
+-/
+
+namespace A177525.P4658600847448578010
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000351 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A177532 (Nat.factorization (f1 n).natAbs p)
+
+end
+
+end A177525.P4658600847448578010
+
 /-!
 # A177526: Number of permutations of {1,...,n} avoiding adjacent step pattern up, down, down, up, down.
 
@@ -2956,20 +2980,20 @@ end
 
 end A177540.P8064083243283656968
 
-/-! ## A177540.P574539737789110834
+/-! ## A177540.P7248201605416604572
 
-`A000142(n)-A212091(A014375(2*n))`
+`A000142(n)-A241464(A378590(n))`
 -/
 
-namespace A177540.P574539737789110834
+namespace A177540.P7248201605416604572
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000142 n - A212091 (A014375 (2 * n)).toNat
+  A000142 n - A241464 (A378590 n).toNat
 
 end
 
-end A177540.P574539737789110834
+end A177540.P7248201605416604572
 
 /-!
 # A177541: Number of permutations of {1,...,n} avoiding adjacent step pattern up, down, down, up, up, up.

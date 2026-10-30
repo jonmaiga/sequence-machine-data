@@ -5,10 +5,11 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B001.C000
 import Seq.B006.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C016
 
 /-!
 # A021904: Expansion of 1/((1-x)(1-4x)(1-8x)(1-9x)).
@@ -397,6 +398,24 @@ end A021914
 
 The programs for A021924, there is no canonical definition to state claims against.
 -/
+
+/-! ## A021924.P15040111319194809831
+
+`∑[19*a(n-1)-88*a(n-2)+4^n]` with `a(0)=1, a(1)=23`
+-/
+
+namespace A021924.P15040111319194809831
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 23] fun n f1 =>
+  19 * f1 (n - 1) - 88 * f1 (n - 2) + (4 ^ n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A021924.P15040111319194809831
 
 /-! ## A021924.P5367042918540812666
 
@@ -1112,6 +1131,21 @@ end
 
 end A021974.P11229280108547449155
 
+/-! ## A021974.P2791748518051443587
+
+`a(n-1)+A019722(n)*A267936(n+2)` with `a(0)=1`
+-/
+
+namespace A021974.P2791748518051443587
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + A019722 n * A267936 (n + 2)
+
+end
+
+end A021974.P2791748518051443587
+
 /-!
 # A021979: Decimal expansion of 1/975.
 
@@ -1119,6 +1153,29 @@ The programs for A021979, the canonical program `A021979.P13417165036691263870` 
 
 The definition of A021979 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021979.anchor (n : ℕ) : A021979 n = ((10 ^ (n + 1) / 975 % 10 : ℕ) : ℤ)` in `Proof.A021.A021979`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A021979.P6548155139900364811
+
+`ogf((x^2-2x^3+4x^4)/(1-2x+2x^2-x^3))`
+-/
+
+namespace A021979.P6548155139900364811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, -2, 4] [1, -2, 2, -1] n
+
+end
+
+end A021979.P6548155139900364811
+
+namespace A021979
+
+/-- `ogf((x^2-2x^3+4x^4)/(1-2x+2x^2-x^3))` -/
+def P6548155139900364811.Spec : Prop :=
+  ∀ n, P6548155139900364811.a n = A021979 n
+
+end A021979
 
 /-! ## A021979.P13417165036691263870
 

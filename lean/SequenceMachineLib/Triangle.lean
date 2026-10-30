@@ -45,4 +45,8 @@ def triUp2 (t : ℕ → α) (i : ℕ) : α :=
 def triUp2Left (t : ℕ → α) (i : ℕ) : α :=
   if 0 < triCol i ∧ triCol i < triRow i then t (i - 2 * triRow i) else 0
 
+/-- `T(r,c)` of the triangle `t`, 0 outside of the triangle. -/
+def triAt (t : ℕ → α) (r c : ℤ) : α :=
+  if 0 ≤ c ∧ c ≤ r then t (r.toNat * (r.toNat + 1) / 2 + c.toNat) else 0
+
 end SequenceMachineLib

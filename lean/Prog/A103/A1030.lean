@@ -5,30 +5,33 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B004.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -1148,6 +1151,21 @@ end
 
 end A103026.P3177059268781087475
 
+/-! ## A103026.P5679213550941989707
+
+`A101518(A028310(n))+abs(A057428(3*n))`
+-/
+
+namespace A103026.P5679213550941989707
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101518 (A028310 n).toNat + |A057428 (3 * n)|
+
+end
+
+end A103026.P5679213550941989707
+
 /-! ## A103026.P6471152466482437135
 
 `A101518(A028310(n))+A000040(n+1)%2`
@@ -1180,21 +1198,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103026.P14358052727863624214
-
-/-! ## A103026.P5335184432590698420
-
-`A101518(A028310(n))+A000045(round(n/(n+1)))`
--/
-
-namespace A103026.P5335184432590698420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101518 (A028310 n).toNat + A000045 (SequenceMachineLib.roundAway ((n : ℚ) / (n + 1 : ℚ))).toNat
-
-end
-
-end A103026.P5335184432590698420
 
 /-!
 # A103027: Numbers n such that 6*10^n + R_n + 2 is prime, where R_n = 11...1 is the repunit (A002275) of length n.
@@ -2322,20 +2325,20 @@ end
 
 end A103055.P2472385745775037313
 
-/-! ## A103055.P17778074032189119684
+/-! ## A103055.P17643663984093330562
 
-`A199343(A101137(n+1))`
+`A199343(A101137(1+n))`
 -/
 
-namespace A103055.P17778074032189119684
+namespace A103055.P17643663984093330562
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A199343 (A101137 (n + 1)).toNat
+  A199343 (A101137 (1 + n)).toNat
 
 end
 
-end A103055.P17778074032189119684
+end A103055.P17643663984093330562
 
 /-!
 # A103056: Numbers k such that 7*10^k + 3*R_k + 6 is prime, where R_k = 11...1 is the repunit (A002275) of length k.
@@ -2372,6 +2375,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103056.P13209519509600184573
+
+/-! ## A103056.P11892351904800360260
+
+`A178334(n)+A101138(A028310(n))`
+-/
+
+namespace A103056.P11892351904800360260
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178334 n + A101138 (A028310 n).toNat
+
+end
+
+end A103056.P11892351904800360260
 
 /-! ## A103056.P9457581464736235094
 
@@ -3017,39 +3035,35 @@ end
 
 end A103070.P11046141770005836854
 
-/-! ## A103070.P12285610518126912680
+/-! ## A103070.P14716063945159493792
 
-`A101057(A028310(n))+char[A007318(n)]`
+`A101057(A028310(n))+A178334(n)`
 -/
 
-namespace A103070.P12285610518126912680
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101057 (A028310 n).toNat + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A103070.P12285610518126912680
-
-/-! ## A103070.P16426938866814387219
-
-`A101057(A028310(n))+A000040(n+1)%2`
--/
-
-namespace A103070.P16426938866814387219
+namespace A103070.P14716063945159493792
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101057 (A028310 n).toNat + Int.tmod (A000040 (n + 1)) 2
+  A101057 (A028310 n).toNat + A178334 n
 
 end
 
-end A103070.P16426938866814387219
+end A103070.P14716063945159493792
+
+/-! ## A103070.P4137503795641889054
+
+`A101057(A028310(n))+A057428(n)²`
+-/
+
+namespace A103070.P4137503795641889054
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101057 (A028310 n).toNat + A057428 n ^ 2
+
+end
+
+end A103070.P4137503795641889054
 
 /-!
 # A103071: Numbers n such that 8*10^n + R_n + 2 is prime, where R_n = 11...1 is the repunit (A002275) of length n.
@@ -3185,6 +3199,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103075.P10289167542197553324
+
+/-! ## A103075.P6459522009175420956
+
+`A066328(A296157(3*n+4)+A280041(n+1))`
+-/
+
+namespace A103075.P6459522009175420956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066328 (A296157 (3 * n + 4) + A280041 (n + 1)).toNat
+
+end
+
+end A103075.P6459522009175420956
 
 /-!
 # A103077: Numbers n such that 8*10^n + 2*R_n + 7 is prime, where R_n = 11...1 is the repunit (A002275) of length n.
@@ -3376,6 +3405,36 @@ end A103081.P3270217995763076506
 The programs for A103082, there is no canonical definition to state claims against.
 -/
 
+/-! ## A103082.P13674621226303878488
+
+`A178334(n)+A101069(A028310(n))`
+-/
+
+namespace A103082.P13674621226303878488
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178334 n + A101069 (A028310 n).toNat
+
+end
+
+end A103082.P13674621226303878488
+
+/-! ## A103082.P4144857547792744555
+
+`A101069(A028310(n))+A019426(2*n)`
+-/
+
+namespace A103082.P4144857547792744555
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101069 (A028310 n).toNat + A019426 (2 * n)
+
+end
+
+end A103082.P4144857547792744555
+
 /-! ## A103082.P17762267786143855266
 
 `eq[A079067(A008949(n)), A319703(n+1)]`
@@ -3550,6 +3609,21 @@ end
 
 end A103087.P14825200352724338396
 
+/-! ## A103087.P5202750780948436856
+
+`A178489(n)+A101074(A028310(n))`
+-/
+
+namespace A103087.P5202750780948436856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178489 n + A101074 (A028310 n).toNat
+
+end
+
+end A103087.P5202750780948436856
+
 /-! ## A103087.P14927144287239698852
 
 `A101074(A028310(n))+char[A007318(n)]`
@@ -3583,21 +3657,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103087.P5533625412461895956
-
-/-! ## A103087.P12420570835163017063
-
-`A008683(16*(n+1))+A101074(A028310(n))+ceil(n/(n+1))`
--/
-
-namespace A103087.P12420570835163017063
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (16 * (n + 1)) + (A101074 (A028310 n).toNat + ⌈(n : ℚ) / (n + 1 : ℚ)⌉)
-
-end
-
-end A103087.P12420570835163017063
 
 /-!
 # A103088: Numbers k such that 8*10^k + 6*R_k + 3 is prime, where R_k = 11...1 is the repunit (A002275) of length k.
@@ -3665,20 +3724,20 @@ end
 
 end A103088.P12123614588356490772
 
-/-! ## A103088.P12485123707851007427
+/-! ## A103088.P11057983625179558388
 
-`A101075(A028310(n))+A000040(n+1)%2`
+`or(A101075(A028310(n)), A178334(3*n))`
 -/
 
-namespace A103088.P12485123707851007427
+namespace A103088.P11057983625179558388
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101075 (A028310 n).toNat + Int.tmod (A000040 (n + 1)) 2
+  Int.lor (A101075 (A028310 n).toNat) (A178334 (3 * n))
 
 end
 
-end A103088.P12485123707851007427
+end A103088.P11057983625179558388
 
 /-!
 # A103090: Numbers k such that 8*10^k + 7*R_k - 4 is prime, where R_k = 11...1 is the repunit (A002275) of length k.
@@ -3773,6 +3832,21 @@ end
 
 end A103092.P8326525003298044464
 
+/-! ## A103092.P9701592065672232898
+
+`A101079(A028310(n))+abs(A134824(n))`
+-/
+
+namespace A103092.P9701592065672232898
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101079 (A028310 n).toNat + |A134824 n|
+
+end
+
+end A103092.P9701592065672232898
+
 /-! ## A103092.P11666087078756979720
 
 `A101079(A028310(n))+char[A007318(n)]`
@@ -3806,21 +3880,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103092.P15402567475128370795
-
-/-! ## A103092.P11786111817900405173
-
-`A101079(A028310(n))+A000045(ceil(n/(n+1)))`
--/
-
-namespace A103092.P11786111817900405173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101079 (A028310 n).toNat + A000045 ⌈(n : ℚ) / (n + 1 : ℚ)⌉.toNat
-
-end
-
-end A103092.P11786111817900405173
 
 /-!
 # A103093: Numbers n such that 9*10^n + 2*R_n - 1 is prime, where R_n = 11...1 is the repunit (A002275) of length n.

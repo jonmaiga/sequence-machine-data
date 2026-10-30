@@ -4,11 +4,12 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C011
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -17,40 +18,38 @@ import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -59,11 +58,13 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C022
+import SequenceMachineLib.Triangle
 
 /-!
-# A251401: 
+# A251401: Number of (n+1)X(7+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
 
 The programs for A251401, there is no canonical definition to state claims against.
 -/
@@ -896,20 +897,35 @@ end
 
 end A251414.P6465450067968015396
 
-/-! ## A251414.P12603188439660828506
+/-! ## A251414.P18424921337938505810
 
-`ceil(A251413(n+1)/2)`
+`ceil(A251413(1+n)/2)`
 -/
 
-namespace A251414.P12603188439660828506
+namespace A251414.P18424921337938505810
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A251413 (n + 1) : ℚ) / 2⌉
+  ⌈(A251413 (1 + n) : ℚ) / 2⌉
 
 end
 
-end A251414.P12603188439660828506
+end A251414.P18424921337938505810
+
+/-! ## A251414.P976378516786313950
+
+`round(A251413(n+1)/2)`
+-/
+
+namespace A251414.P976378516786313950
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A251413 (n + 1) : ℚ) / 2)
+
+end
+
+end A251414.P976378516786313950
 
 /-! ## A251414.P5689466711266545183
 
@@ -1093,6 +1109,24 @@ end A251416.P16172195365716682895
 
 The programs for A251417, there is no canonical definition to state claims against.
 -/
+
+/-! ## A251417.P8883450850571370990
+
+`runs[A251416(n+1)]`
+-/
+
+namespace A251417.P8883450850571370990
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251416 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n
+
+end
+
+end A251417.P8883450850571370990
 
 /-! ## A251417.P3207168143909145727
 
@@ -1300,6 +1334,29 @@ namespace A251418
 /-- `ogf((-2+2x+x^2+3x^7-3x^8)/(1-2x+x^2-x^7+2x^8-x^9))` -/
 def P11826692216955738734.Spec : Prop :=
   ∀ n, P11826692216955738734.a n = A251418 n
+
+end A251418
+
+/-! ## A251418.P16001391722282007315
+
+`floor(A052905(n)/7)-2`
+-/
+
+namespace A251418.P16001391722282007315
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A052905 n : ℚ) / 7⌋ - 2
+
+end
+
+end A251418.P16001391722282007315
+
+namespace A251418
+
+/-- `floor(A052905(n)/7)-2` -/
+def P16001391722282007315.Spec : Prop :=
+  ∀ n, P16001391722282007315.a n = A251418 n
 
 end A251418
 
@@ -2425,6 +2482,24 @@ end
 
 end A251427.P17008164669071738210
 
+/-! ## A251427.P11875495161023309658
+
+`A251428(Δ[A026054(4+n)])`
+-/
+
+namespace A251427.P11875495161023309658
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026054 (4 + n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251428 (f1 (n + 1) - f1 n).toNat
+
+end
+
+end A251427.P11875495161023309658
+
 /-! ## A251427.P6214429058366942985
 
 `A251428(A155212(n+3)+2)`
@@ -2439,21 +2514,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251427.P6214429058366942985
-
-/-! ## A251427.P12087879361712860166
-
-`A251428(A027379(n+5)-3)`
--/
-
-namespace A251427.P12087879361712860166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251428 (A027379 (n + 5) - 3).toNat
-
-end
-
-end A251427.P12087879361712860166
 
 /-!
 # A251429: Number of length 2+2 0..n arrays with the sum of the maximum minus twice the median plus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
@@ -3166,8 +3226,23 @@ end
 
 end A251438.P17227757224551641166
 
+/-! ## A251438.P10772284755148666724
+
+`A251442(A317107(n+1)+A167614(n+1))`
+-/
+
+namespace A251438.P10772284755148666724
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251442 (A317107 (n + 1) + A167614 (n + 1)).toNat
+
+end
+
+end A251438.P10772284755148666724
+
 /-!
-# A251440: 
+# A251440: Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having the minimum of its diagonal elements greater than the absolute difference of its antidiagonal elements.
 
 The programs for A251440, there is no canonical definition to state claims against.
 -/
@@ -3985,6 +4060,21 @@ end
 
 end A251455.P5058537960273245488
 
+/-! ## A251455.P8418819065421510576
+
+`A251459(A055999(n)+10)`
+-/
+
+namespace A251455.P8418819065421510576
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251459 (A055999 n + 10).toNat
+
+end
+
+end A251455.P8418819065421510576
+
 /-! ## A251455.P580356062090933519
 
 `A251459(A167614(n+2)+1)`
@@ -4014,21 +4104,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251455.P6400773254509202557
-
-/-! ## A251455.P3076279020562123763
-
-`A251459(A155212(n)+5)`
--/
-
-namespace A251455.P3076279020562123763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251459 (A155212 n + 5).toNat
-
-end
-
-end A251455.P3076279020562123763
 
 /-!
 # A251456: Number of (n+1)X(5+1) 0..3 arrays with every 2X2 subblock summing to a prime.
@@ -4169,7 +4244,7 @@ end
 end A251457.P16351149223963997237
 
 /-!
-# A251458: 
+# A251458: Number of (n+1) X (7+1) 0..3 arrays with every 2 X 2 subblock summing to a prime.
 
 The programs for A251458, there is no canonical definition to state claims against.
 -/
@@ -4212,6 +4287,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251460.P15082510334224606918
+
+/-! ## A251460.P8636957308255328119
+
+`record[gcd(col(n), A251467(n+1))]`
+-/
+
+namespace A251460.P8636957308255328119
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (SequenceMachineLib.triCol n : ℤ) (A251467 (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A251460.P8636957308255328119
 
 /-! ## A251460.P12566252217557523918
 
@@ -4263,24 +4356,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251460.P1867659211639820872
-
-/-! ## A251460.P6298544645637011279
-
-`record[A251467(n+1)/A001498(n)]`
--/
-
-namespace A251460.P6298544645637011279
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A251467 (n + 1) : ℚ) / (A001498 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A251460.P6298544645637011279
 
 /-!
 # A251461: Number of (n+1)X(2+1) 0..2 arrays with every 2X2 subblock summing to a prime and those sums nondecreasing in every row and column.
@@ -5586,6 +5661,21 @@ end
 
 end A251483.P14618707106955117977
 
+/-! ## A251483.P11612196074799692211
+
+`A009287(A085158(n))%A080054(A061799(3*n+1))`
+-/
+
+namespace A251483.P11612196074799692211
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A009287 (A085158 n).toNat) (A080054 (A061799 (3 * n + 1)).toNat)
+
+end
+
+end A251483.P11612196074799692211
+
 /-!
 # A251484: Number of (n+1) X (1+1) 0..3 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the minimum of its antidiagonal elements.
 
@@ -5764,7 +5854,7 @@ end
 end A251486.P12365314301004936236
 
 /-!
-# A251487: 
+# A251487: Number of (n+1)X(4+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the minimum of its antidiagonal elements.
 
 The programs for A251487, there is no canonical definition to state claims against.
 -/
@@ -5788,7 +5878,7 @@ end
 end A251487.P10965459480258238589
 
 /-!
-# A251488: 
+# A251488: Number of (n+1)X(5+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the minimum of its antidiagonal elements.
 
 The programs for A251488, there is no canonical definition to state claims against.
 -/
@@ -5815,7 +5905,7 @@ end
 end A251488.P12716265476762274382
 
 /-!
-# A251489: 
+# A251489: Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the minimum of its antidiagonal elements.
 
 The programs for A251489, there is no canonical definition to state claims against.
 -/
@@ -5842,7 +5932,7 @@ end
 end A251489.P11250489854726474819
 
 /-!
-# A251490: 
+# A251490: Number of (n+1)X(7+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the minimum of its antidiagonal elements.
 
 The programs for A251490, there is no canonical definition to state claims against.
 -/
@@ -6103,7 +6193,7 @@ end
 end A251495.P18147160498443826853
 
 /-!
-# A251496: 
+# A251496: Number of (n+1)X(5+1) 0..3 arrays with every 2X2 subblock summing to 4 5 6 7 or 8.
 
 The programs for A251496, there is no canonical definition to state claims against.
 -/
@@ -6124,7 +6214,7 @@ end
 end A251496.P6713156591699828315
 
 /-!
-# A251497: 
+# A251497: Number of (n+1) X (6+1) 0..3 arrays with every 2 X 2 subblock summing to 4 5 6 7 or 8.
 
 The programs for A251497, there is no canonical definition to state claims against.
 -/

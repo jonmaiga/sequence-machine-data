@@ -5,12 +5,12 @@ import Seq.B000.C002
 import Seq.B000.C007
 import Seq.B000.C015
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B002.C003
-import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -19,7 +19,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C014
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C020
 
 /-!
@@ -50,25 +50,31 @@ theorem P9526219666505486895.correct : P9526219666505486895.Spec := by
 end A036100
 
 /-!
-# A036101: 
+# A036101: Centered cube numbers: (n+1)^23 + n^23.
 
-The programs for A036101, there is no canonical definition to state claims against.
+The programs for A036101, the canonical program `A036101.P8464827539331932447` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036101 has offset 0).
+
+The definition of A036101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A036101.P8464827539331932447
 
 `(n+1)^23+n^23`
+
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
-namespace A036101.P8464827539331932447
-noncomputable section
+namespace A036101
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ 23 + n ^ 23
+/-- `(n+1)^23+n^23` -/
+def P8464827539331932447.Spec : Prop :=
+  ∀ n, (P8464827539331932447.a n : ℤ) = A036101 n
 
-end
+theorem P8464827539331932447.correct : P8464827539331932447.Spec := by
+  intro n
+  simp only [A036101]
 
-end A036101.P8464827539331932447
+end A036101
 
 /-! ## A036101.P10899351889624398076
 
@@ -91,6 +97,14 @@ end
 
 end A036101.P10899351889624398076
 
+namespace A036101
+
+/-- `record[Δ[A001057(n)^23]]` -/
+def P10899351889624398076.Spec : Prop :=
+  ∀ n, P10899351889624398076.a n = A036101 n
+
+end A036101
+
 /-! ## A036101.P11937480672108918683
 
 `record[∑[A001057(A004442(n))^23]]`
@@ -112,26 +126,40 @@ end
 
 end A036101.P11937480672108918683
 
-/-!
-# A036102: 
+namespace A036101
 
-The programs for A036102, there is no canonical definition to state claims against.
+/-- `record[∑[A001057(A004442(n))^23]]` -/
+def P11937480672108918683.Spec : Prop :=
+  ∀ n, P11937480672108918683.a n = A036101 n
+
+end A036101
+
+/-!
+# A036102: Centered cube numbers: (n+1)^24 + n^24.
+
+The programs for A036102, the canonical program `A036102.P10979115331135799931` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036102 has offset 0).
+
+The definition of A036102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A036102.P10979115331135799931
 
 `(n+1)^24+n^24`
+
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
-namespace A036102.P10979115331135799931
-noncomputable section
+namespace A036102
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ 24 + n ^ 24
+/-- `(n+1)^24+n^24` -/
+def P10979115331135799931.Spec : Prop :=
+  ∀ n, (P10979115331135799931.a n : ℤ) = A036102 n
 
-end
+theorem P10979115331135799931.correct : P10979115331135799931.Spec := by
+  intro n
+  simp only [A036102]
 
-end A036102.P10979115331135799931
+end A036102
 
 /-!
 # A036110: A summarize Fibonacci sequence starting with a(0)=2 and a(1)=2: summarize the previous two terms!.
@@ -157,7 +185,7 @@ end A036110.P6768938966716722342
 /-!
 # A036116: Numbers n such that the number of distinct primes dividing n is a square.
 
-The programs for A036116, the canonical program `A036116.P17962530961175835312` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
+The programs for A036116, the canonical program `A036116.P17962530961175835312` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
 
 The definition of A036116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4563 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -166,7 +194,7 @@ The definition of A036116 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A008683(A259936(n+1))]+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A036116
@@ -204,6 +232,33 @@ namespace A036116
 /-- `record[(n+1)/(A327076(A259936(n+1)+1)-1)]` -/
 def P7438236973144889881.Spec : Prop :=
   ∀ n, P7438236973144889881.a n = (A036116 (n + 1) : ℚ)
+
+end A036116
+
+/-! ## A036116.P16563146032593476002
+
+`comp[A064040(n+1)-1]+1`
+-/
+
+namespace A036116.P16563146032593476002
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064040 (n + 1) - 1
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
+
+end
+
+end A036116.P16563146032593476002
+
+namespace A036116
+
+/-- `comp[A064040(n+1)-1]+1` -/
+def P16563146032593476002.Spec : Prop :=
+  ∀ n, (P16563146032593476002.a n : ℤ) = A036116 (n + 1)
 
 end A036116
 

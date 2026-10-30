@@ -14,17 +14,19 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C042
+import Seq.B000.C037
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -34,11 +36,9 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -643,20 +643,20 @@ end A019269.P6084602913835831070
 The programs for A019273, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019273.P15550605750834345290
+/-! ## A019273.P9384628626341461912
 
-`A006558(n+1)+n`
+`A006558(1+n)+n`
 -/
 
-namespace A019273.P15550605750834345290
+namespace A019273.P9384628626341461912
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006558 (n + 1) + (n : ℤ)
+  A006558 (1 + n) + (n : ℤ)
 
 end
 
-end A019273.P15550605750834345290
+end A019273.P9384628626341461912
 
 /-! ## A019273.P9450930345960546807
 

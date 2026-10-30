@@ -4,17 +4,18 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C034
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C005
 import Seq.B003.C000
@@ -23,7 +24,6 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -40,7 +40,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C022
 
@@ -1142,6 +1141,21 @@ end
 
 end A010116.P7508477762601809222
 
+/-! ## A010116.P6198260934511718504
+
+`A010117(A007092(n))%A102274(2*n+5)`
+-/
+
+namespace A010116.P6198260934511718504
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A010117 (A007092 n).toNat) (A102274 (2 * n + 5))
+
+end
+
+end A010116.P6198260934511718504
+
 /-! ## A010116.P18410142708839326755
 
 `A005171(A005903(2*n))*A010117(A007092(n))`
@@ -1157,41 +1171,38 @@ end
 
 end A010116.P18410142708839326755
 
-/-! ## A010116.P13582346800408043930
+/-! ## A010116.P9741681359820065007
 
-`A014963(A068889(n+1))*A010117(A007092(n))`
+`A010117(A007092(n)%record[A010117(n)])`
 -/
 
-namespace A010116.P13582346800408043930
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A068889 (n + 1)).toNat * A010117 (A007092 n).toNat
-
-end
-
-end A010116.P13582346800408043930
-
-/-! ## A010116.P9410546201768258356
-
-`A010119(eq[A010153(n+1), A362113(n)])`
--/
-
-namespace A010116.P9410546201768258356
+namespace A010116.P9741681359820065007
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010153 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362113 n
+  A010117 n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010119 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A010117 (Int.tmod (A007092 n) (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
 
 end
 
-end A010116.P9410546201768258356
+end A010116.P9741681359820065007
+
+/-! ## A010116.P10499763824374186267
+
+`A005171(A068889(n+1))*A010117(A007092(n))`
+-/
+
+namespace A010116.P10499763824374186267
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005171 (A068889 (n + 1)).toNat * A010117 (A007092 n).toNat
+
+end
+
+end A010116.P10499763824374186267
 
 /-!
 # A010118: Magnetic susceptibility coefficients for square lattice spin 3/2 Ising model.

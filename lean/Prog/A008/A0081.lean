@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -15,38 +14,41 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C005
+import Seq.B001.C008
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -56,7 +58,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -460,6 +461,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008110.P13329370550138358888
+
+/-! ## A008110.P16981320638068333854
+
+`∑[A295298(2*n+1)+A326685(A316650(n+1))]`
+-/
+
+namespace A008110.P16981320638068333854
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295298 (2 * n + 1) + A326685 (A316650 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A008110.P16981320638068333854
 
 /-!
 # A008112: Coordination sequence T2 for Zeolite Code GOO.
@@ -1670,6 +1689,29 @@ def P1423896790403024125.Spec : Prop :=
 
 end A008130
 
+/-! ## A008130.P11619337349376110013
+
+`A130518(n+1)-A000217(A002264(n+1))`
+-/
+
+namespace A008130.P11619337349376110013
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130518 (n + 1) - A000217 (A002264 (n + 1)).toNat
+
+end
+
+end A008130.P11619337349376110013
+
+namespace A008130
+
+/-- `A130518(n+1)-A000217(A002264(n+1))` -/
+def P11619337349376110013.Spec : Prop :=
+  ∀ n, P11619337349376110013.a n = A008130 n
+
+end A008130
+
 /-! ## A008130.P10589130784552293411
 
 `A000212(n)-(A008133(n+1)+A008133(n))`
@@ -2822,6 +2864,29 @@ def P3284889700326624922.Spec : Prop :=
 
 end A008137
 
+/-! ## A008137.P3896964531370421550
+
+`A047497(A040000(n)+n²)`
+-/
+
+namespace A008137.P3896964531370421550
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047497 (A040000 n + (n ^ 2 : ℤ)).toNat
+
+end
+
+end A008137.P3896964531370421550
+
+namespace A008137
+
+/-- `A047497(A040000(n)+n²)` -/
+def P3896964531370421550.Spec : Prop :=
+  ∀ n, P3896964531370421550.a n = A008137 n
+
+end A008137
+
 /-!
 # A008138: Coordination sequence T1 for Zeolite Code LTL.
 
@@ -3448,6 +3513,21 @@ end A008153.P188786860204995912
 
 The programs for A008154, there is no canonical definition to state claims against.
 -/
+
+/-! ## A008154.P7285065401849039037
+
+`A276150(A001848(n))+A019298(n)`
+-/
+
+namespace A008154.P7285065401849039037
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276150 (A001848 n).toNat + A019298 n
+
+end
+
+end A008154.P7285065401849039037
 
 /-! ## A008154.P11057927905352673615
 
@@ -4190,20 +4270,20 @@ end
 
 end A008187.P18113703413066919593
 
-/-! ## A008187.P12971079339556153649
+/-! ## A008187.P12071362647183052593
 
-`A336839(n+1)+A324774(A007504(n))`
+`A355159(A000326(n))+A196210(n+1)`
 -/
 
-namespace A008187.P12971079339556153649
+namespace A008187.P12071362647183052593
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336839 (n + 1) + A324774 (A007504 n).toNat
+  A355159 (A000326 n).toNat + A196210 (n + 1)
 
 end
 
-end A008187.P12971079339556153649
+end A008187.P12071362647183052593
 
 /-!
 # A008188: Coordination sequence T3 for Zeolite Code MTN.

@@ -5,20 +5,20 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C017
+import Seq.B000.C011
 import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C027
-import Seq.B000.C033
-import Seq.B000.C038
+import Seq.B000.C034
+import Seq.B000.C039
 import Seq.B001.C002
 import Seq.B001.C007
+import Seq.B003.C004
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -30,7 +30,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -40,6 +39,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 
 /-!
 # A159100: Number of permutations of 1..n containing the relative rank sequence { 135462 } at any spacing.
@@ -440,6 +440,21 @@ end
 
 end A159139.P13195666644927099011
 
+/-! ## A159139.P10993020849498419466
+
+`A214152(C(n+6, 2)+6)`
+-/
+
+namespace A159139.P10993020849498419466
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214152 (Nat.choose (n + 6) 2 + 6)
+
+end
+
+end A159139.P10993020849498419466
+
 /-! ## A159139.P6702552027808975543
 
 `A214152(A166136(n+4))`
@@ -538,21 +553,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159139.P6437295099451028068
-
-/-! ## A159139.P6197134063837781454
-
-`A214152(A000108(C(2, n+2))+A046691(n+3)+9)`
--/
-
-namespace A159139.P6197134063837781454
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A000108 (Nat.choose 2 (n + 2)) + (A046691 (n + 3) + 9)).toNat
-
-end
-
-end A159139.P6197134063837781454
 
 /-!
 # A159141: Number of permutations of 1..n containing the relative rank sequence { 214365 } at any spacing.
@@ -743,6 +743,21 @@ end
 
 end A159175.P3180219312405054885
 
+/-! ## A159175.P6459355932639403639
+
+`A214152(C(n+7, 2)+7)`
+-/
+
+namespace A159175.P6459355932639403639
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214152 (Nat.choose (n + 7) 2 + 7)
+
+end
+
+end A159175.P6459355932639403639
+
 /-! ## A159175.P3001098859107188637
 
 `A214152(A056119(n)+28)`
@@ -779,35 +794,41 @@ end
 
 end A159175.P17861736680885487728
 
-/-! ## A159175.P9157838251794439389
+/-! ## A159175.P2477192490441590239
 
-`A214152(A167499(n+5)+2)`
+`A214152(A166136(n+5)+1)`
 -/
 
-namespace A159175.P9157838251794439389
+namespace A159175.P2477192490441590239
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A167499 (n + 5) + 2).toNat
+  A214152 (A166136 (n + 5) + 1).toNat
 
 end
 
-end A159175.P9157838251794439389
+end A159175.P2477192490441590239
 
-/-! ## A159175.P2655206864846555455
+/-!
+# A159179: Number of permutations of 1..n containing the relative rank sequence { 1564237 } at any spacing.
 
-`A214152(A167614(n+5)+4)`
+The programs for A159179, there is no canonical definition to state claims against.
 -/
 
-namespace A159175.P2655206864846555455
+/-! ## A159179.P17749608566803765254
+
+`A354050(A143554(n))+A159180(n+7)`
+-/
+
+namespace A159179.P17749608566803765254
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A167614 (n + 5) + 4).toNat
+  A354050 (A143554 n).toNat + A159180 (n + 7)
 
 end
 
-end A159175.P2655206864846555455
+end A159179.P17749608566803765254
 
 /-!
 # A159181: Number of permutations of 1..n containing the relative rank sequence { 1654327 } at any spacing.

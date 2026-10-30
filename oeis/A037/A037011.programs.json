@@ -32,14 +32,14 @@
       ]
     },
     {
-      "d": "2021-11-01",
-      "ix": "char[record[xor(n, 2*n)]]",
+      "d": "2026-10-28",
+      "ix": "char[record[xor(2*n, n)]]",
       "mt": 10000,
       "px": [
-        "n",
         "2",
         "n",
         "*",
+        "n",
         "xor",
         "record",
         "char"

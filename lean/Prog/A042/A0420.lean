@@ -4,12 +4,14 @@ import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
-import Seq.B000.C022
+import Seq.B000.C016
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -21,7 +23,6 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B005.C000
-import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C004
@@ -35,6 +36,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C024
 
 /-!
 # A042001: Denominators of continued fraction convergents to sqrt(523).
@@ -144,6 +146,29 @@ def P10071313279877997035.Spec : Prop :=
 theorem P10071313279877997035.correct : P10071313279877997035.Spec := by
   intro n
   simp only [A042010]
+
+end A042010
+
+/-! ## A042010.P9147689597510253916
+
+`gcd(2, n)*A041240(n)`
+-/
+
+namespace A042010.P9147689597510253916
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.gcd 2 n : ℤ) * A041240 n
+
+end
+
+end A042010.P9147689597510253916
+
+namespace A042010
+
+/-- `gcd(2, n)*A041240(n)` -/
+def P9147689597510253916.Spec : Prop :=
+  ∀ n, P9147689597510253916.a n = A042010 n
 
 end A042010
 
@@ -1464,20 +1489,20 @@ end A042089.P9483374410267149907
 The programs for A042091, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042091.P1110739239181628459
+/-! ## A042091.P4470514574714506424
 
-`A006846(n)*A010251(A006846(n))`
+`A397517(n)+A142150(A397514(n))`
 -/
 
-namespace A042091.P1110739239181628459
+namespace A042091.P4470514574714506424
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006846 n * A010251 (A006846 n).toNat
+  A397517 n + A142150 (A397514 n).toNat
 
 end
 
-end A042091.P1110739239181628459
+end A042091.P4470514574714506424
 
 /-!
 # A042092: Numerators of continued fraction convergents to sqrt(570).

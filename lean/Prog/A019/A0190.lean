@@ -13,27 +13,27 @@ import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C020
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C008
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
@@ -156,20 +156,20 @@ end A019005.P6950769900368008889
 The programs for A019010, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019010.P10141046110170296295
+/-! ## A019010.P5621470070004400504
 
-`A055034(A344615(n)+A001579(n))`
+`A059897(A057089(n))+A010052(n)`
 -/
 
-namespace A019010.P10141046110170296295
+namespace A019010.P5621470070004400504
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055034 (A344615 n + A001579 n).toNat
+  A059897 (A057089 n).toNat + A010052 n
 
 end
 
-end A019010.P10141046110170296295
+end A019010.P5621470070004400504
 
 /-!
 # A019012: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EDI = Edingtonite Ba2[Al4Si6O20].8H2O starting with a T1 atom.
@@ -841,7 +841,7 @@ theorem P7214495225942351875.correct : P7214495225942351875.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019040
 
@@ -935,7 +935,7 @@ theorem P9739387569843656408.correct : P9739387569843656408.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019041
 
@@ -1490,6 +1490,21 @@ end
 
 end A019074.P14485044680780651885
 
+/-! ## A019074.P7767819413498714102
+
+`A019075(A250044(n+2)-5)`
+-/
+
+namespace A019074.P7767819413498714102
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019075 (A250044 (n + 2) - 5).toNat
+
+end
+
+end A019074.P7767819413498714102
+
 /-! ## A019074.P14653414532450410352
 
 `A019075(A290848(n)+2+n)`
@@ -1520,26 +1535,26 @@ end
 
 end A019074.P16925520264667001413
 
-/-! ## A019074.P9883943286211924990
-
-`A019075(n+3)*A319099(n!)`
--/
-
-namespace A019074.P9883943286211924990
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019075 (n + 3) * A319099 (Nat.factorial n)
-
-end
-
-end A019074.P9883943286211924990
-
 /-!
 # A019092: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4[Be8Si20O52(OH)8].8H2O starting with a T2 atom.
 
 The programs for A019092, there is no canonical definition to state claims against.
 -/
+
+/-! ## A019092.P607114326387037649
+
+`A340090(n+1)+A122197(A000110(n))`
+-/
+
+namespace A019092.P607114326387037649
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340090 (n + 1) + A122197 (A000110 n).toNat
+
+end
+
+end A019092.P607114326387037649
 
 /-! ## A019092.P3657377926779046627
 

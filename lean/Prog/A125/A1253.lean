@@ -5,17 +5,18 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C044
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -23,15 +24,13 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C004
+import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B005.C001
+import Seq.B004.C004
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C001
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -46,12 +45,12 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -261,23 +260,23 @@ end A125301
 The programs for A125302, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125302.P6845857957550635908
+/-! ## A125302.P16466173990269375345
 
-`record[A191558(A305705(n+1))]`
+`record[A191558(A305705(1+n))]`
 -/
 
-namespace A125302.P6845857957550635908
+namespace A125302.P16466173990269375345
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191558 (A305705 (n + 1)).toNat
+  A191558 (A305705 (1 + n)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A125302.P6845857957550635908
+end A125302.P16466173990269375345
 
 /-! ## A125302.P5203653698128698687
 
@@ -460,6 +459,21 @@ end
 
 end A125306.P4603561522436340180
 
+/-! ## A125306.P12812917217300464023
+
+`A108954(A357639(n)+A002450(n))`
+-/
+
+namespace A125306.P12812917217300464023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108954 (A357639 n + A002450 n).toNat
+
+end
+
+end A125306.P12812917217300464023
+
 /-! ## A125306.P6690595930286412815
 
 `A108954(A008578(n+1)+A002450(n))`
@@ -490,21 +504,6 @@ end
 
 end A125306.P7055371835921340709
 
-/-! ## A125306.P11135289259749077934
-
-`A108954(A075643(n+1)+A002450(n))`
--/
-
-namespace A125306.P11135289259749077934
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108954 (A075643 (n + 1) + A002450 n).toNat
-
-end
-
-end A125306.P11135289259749077934
-
 /-!
 # A125307: Number of increasing trees with branches of height 1.
 
@@ -525,6 +524,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125307.P15656063368532702621
+
+/-! ## A125307.P9546024168459188914
+
+`(2-A040000(n)+n)*A194920(A000522(n))`
+-/
+
+namespace A125307.P9546024168459188914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 - A040000 n + (n : ℤ)) * A194920 (A000522 n).toNat
+
+end
+
+end A125307.P9546024168459188914
 
 /-! ## A125307.P4512693818543625632
 
@@ -1016,34 +1030,19 @@ end A125309.P17731667715000295755
 The programs for A125310, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125310.P13550560898778495477
+/-! ## A125310.P15682213213873871137
 
-`xor(A055762(A125297(n+1)), A247111(n+1))`
+`∪[A000396(n+1), A006480(A020555(n))]`
 -/
 
-namespace A125310.P13550560898778495477
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A055762 (A125297 (n + 1)).toNat) (A247111 (n + 1))
-
-end
-
-end A125310.P13550560898778495477
-
-/-! ## A125310.P18091203997195673749
-
-`∪[A000396(n+1), A341623(A341646(n+1))]`
--/
-
-namespace A125310.P18091203997195673749
+namespace A125310.P15682213213873871137
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A000396 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341623 (A341646 (n + 1)).toNat
+  A006480 (A020555 n).toNat
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1051,22 +1050,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A125310.P18091203997195673749
+end A125310.P15682213213873871137
 
-/-! ## A125310.P16249986920014306572
+/-! ## A125310.P4114546709255715636
 
-`xor(A055762(A008307(2*(n+2))), A247111(n+1))`
+`∪[A000396(n+1), A203734(A140107(n))]`
 -/
 
-namespace A125310.P16249986920014306572
+namespace A125310.P4114546709255715636
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A055762 (A008307 (2 * (n + 2))).toNat) (A247111 (n + 1))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A203734 (A140107 n).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A125310.P16249986920014306572
+end A125310.P4114546709255715636
+
+/-! ## A125310.P8971226377319861340
+
+`∪[A000396(n+1), A049389(A317196(n))]`
+-/
+
+namespace A125310.P8971226377319861340
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049389 (A317196 n).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A125310.P8971226377319861340
 
 /-!
 # A125311: Array giving number of (k,2)-noncrossing partitions of [n], read by antidiagonals.
@@ -1912,6 +1940,21 @@ end
 
 end A125323.P16103741768131526521
 
+/-! ## A125323.P10040441680779991939
+
+`A000265(A125322(n)+A025012(n))`
+-/
+
+namespace A125323.P10040441680779991939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000265 (A125322 n + A025012 n).toNat
+
+end
+
+end A125323.P10040441680779991939
+
 /-! ## A125323.P9292204276578961202
 
 `abs(A004277(A025012(n))-A125325(n))`
@@ -1926,21 +1969,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125323.P9292204276578961202
-
-/-! ## A125323.P13135009198822509075
-
-`2*A000265(A125324(n))-A025012(n)`
--/
-
-namespace A125323.P13135009198822509075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A000265 (A125324 n).toNat - A025012 n
-
-end
-
-end A125323.P13135009198822509075
 
 /-!
 # A125324: Number of base 14 circular n-digit numbers with adjacent digits differing by 3 or less.
@@ -1978,6 +2006,21 @@ end
 
 end A125324.P11875312187120206617
 
+/-! ## A125324.P9677447260154606828
+
+`2*A000265(A125322(n)+A025012(n))-A125322(n)`
+-/
+
+namespace A125324.P9677447260154606828
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A000265 (A125322 n + A025012 n).toNat - A125322 n
+
+end
+
+end A125324.P9677447260154606828
+
 /-!
 # A125325: Number of base 15 circular n-digit numbers with adjacent digits differing by 3 or less.
 
@@ -1999,20 +2042,20 @@ end
 
 end A125325.P8897044238883893093
 
-/-! ## A125325.P2053354306227494463
+/-! ## A125325.P10968948497597139757
 
-`A000265(A125324(n)+A025012(n))`
+`2*A125324(n)-A000265(A125322(n)+A025012(n))`
 -/
 
-namespace A125325.P2053354306227494463
+namespace A125325.P10968948497597139757
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (A125324 n + A025012 n).toNat
+  2 * A125324 n - A000265 (A125322 n + A025012 n).toNat
 
 end
 
-end A125325.P2053354306227494463
+end A125325.P10968948497597139757
 
 /-!
 # A125326: Number of base 16 circular n-digit numbers with adjacent digits differing by 3 or less.
@@ -2050,6 +2093,21 @@ end
 
 end A125326.P8682882402065559408
 
+/-! ## A125326.P10035031497925923609
+
+`2*A000265(A125322(n)+A025012(n))-A125320(n)`
+-/
+
+namespace A125326.P10035031497925923609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A000265 (A125322 n + A025012 n).toNat - A125320 n
+
+end
+
+end A125326.P10035031497925923609
+
 /-!
 # A125327: Number of base 17 circular n-digit numbers with adjacent digits differing by 3 or less.
 
@@ -2085,6 +2143,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125327.P11593161674556783466
+
+/-! ## A125327.P1267792002295514579
+
+`2*A000265(A125322(n)+A025012(n))-A125319(n)`
+-/
+
+namespace A125327.P1267792002295514579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A000265 (A125322 n + A025012 n).toNat - A125319 n
+
+end
+
+end A125327.P1267792002295514579
 
 /-!
 # A125328: Number of base 18 circular n-digit numbers with adjacent digits differing by 3 or less.
@@ -2841,26 +2914,26 @@ theorem P7931769635197584559.correct : P7931769635197584559.Spec := by
 
 end A125345
 
-/-! ## A125345.P10113633865086451661
+/-! ## A125345.P6962676981610607179
 
-`A125347(n)-A014682(A125351(n)-A125347(n))`
+`abs(A125347(n)-A004277(A025014(n)))`
 -/
 
-namespace A125345.P10113633865086451661
+namespace A125345.P6962676981610607179
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125347 n - A014682 (A125351 n - A125347 n).toNat
+  |A125347 n - A004277 (A025014 n).toNat|
 
 end
 
-end A125345.P10113633865086451661
+end A125345.P6962676981610607179
 
 namespace A125345
 
-/-- `A125347(n)-A014682(A125351(n)-A125347(n))` -/
-def P10113633865086451661.Spec : Prop :=
-  ∀ n, P10113633865086451661.a n = A125345 n
+/-- `abs(A125347(n)-A004277(A025014(n)))` -/
+def P6962676981610607179.Spec : Prop :=
+  ∀ n, P6962676981610607179.a n = A125345 n
 
 end A125345
 
@@ -3739,20 +3812,20 @@ end A125368.P11603745702825681378
 The programs for A125369, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125369.P15694467519215422499
+/-! ## A125369.P5434920774212306280
 
-`A004277(A125358(n))-A125347(n)`
+`A004277(A125357(n))-A125345(n)`
 -/
 
-namespace A125369.P15694467519215422499
+namespace A125369.P5434920774212306280
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 (A125358 n).toNat - A125347 n
+  A004277 (A125357 n).toNat - A125345 n
 
 end
 
-end A125369.P15694467519215422499
+end A125369.P5434920774212306280
 
 /-!
 # A125370: Number of base 7 circular n-digit numbers with adjacent digits differing by 5 or less.

@@ -19,8 +19,8 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -31,11 +31,12 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
@@ -47,6 +48,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -66,14 +68,14 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -248,7 +250,7 @@ end A151402.P17516656384467455661
 /-!
 # A151403: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of 2*n steps taken from {(-1, 0), (-1, 1), (1, 0), (1, 1)}.
 
-The programs for A151403, the canonical program `A151403.P4093610361949357865` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151403 has offset 0).
+The programs for A151403, the canonical program `A151403.P4093610361949357865` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151403 has offset 0).
 
 The definition of A151403 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -257,7 +259,7 @@ The definition of A151403 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^n*A000108(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A151403
@@ -269,6 +271,29 @@ def P4093610361949357865.Spec : Prop :=
 theorem P4093610361949357865.correct : P4093610361949357865.Spec := by
   intro n
   simp only [A151403]
+
+end A151403
+
+/-! ## A151403.P821460475919087006
+
+`C(2*n, n)/(n+1)*4^n`
+-/
+
+namespace A151403.P821460475919087006
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 * n) n : ℚ) / (n + 1 : ℚ) * (4 ^ n : ℚ)
+
+end
+
+end A151403.P821460475919087006
+
+namespace A151403
+
+/-- `C(2*n, n)/(n+1)*4^n` -/
+def P821460475919087006.Spec : Prop :=
+  ∀ n, P821460475919087006.a n = (A151403 n : ℚ)
 
 end A151403
 
@@ -292,29 +317,6 @@ namespace A151403
 /-- `4*(4-6/(n+1))*a(n-1)` -/
 def P9017698326621289965.Spec : Prop :=
   ∀ n, P9017698326621289965.a n = (A151403 n : ℚ)
-
-end A151403
-
-/-! ## A151403.P14723114040590238598
-
-`C(2*n, n)/(n+1)*2^n*2^n`
--/
-
-namespace A151403.P14723114040590238598
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (2 * n) n : ℚ) / (n + 1 : ℚ) * (2 ^ n : ℚ) * (2 ^ n : ℚ)
-
-end
-
-end A151403.P14723114040590238598
-
-namespace A151403
-
-/-- `C(2*n, n)/(n+1)*2^n*2^n` -/
-def P14723114040590238598.Spec : Prop :=
-  ∀ n, P14723114040590238598.a n = (A151403 n : ℚ)
 
 end A151403
 
@@ -471,29 +473,6 @@ theorem P7417146607471675196.correct : P7417146607471675196.Spec := by
   simp only [A151403, Nat.add_sub_cancel, A151403.P7417146607471675196.a, A151403.P4093610361949357865.a, A000108, A000108.P17551949696095299361.a, A000302, A000302.P5166485833484575275.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A151403
-
-/-! ## A151403.P14770593039551288655
-
-`A068875(n)*A081294(n)`
--/
-
-namespace A151403.P14770593039551288655
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068875 n * A081294 n
-
-end
-
-end A151403.P14770593039551288655
-
-namespace A151403
-
-/-- `A068875(n)*A081294(n)` -/
-def P14770593039551288655.Spec : Prop :=
-  ∀ n, P14770593039551288655.a n = A151403 n
 
 end A151403
 
@@ -743,7 +722,7 @@ end A151409.P3108472180798694598
 /-!
 # A151410: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of 2 n steps taken from {(-1, 0), (1, -1), (1, 0), (1, 1)}.
 
-The programs for A151410, the canonical program `A151410.P5653092627576698` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151410 has offset 0).
+The programs for A151410, the canonical program `A151410.P5653092627576698` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151410 has offset 0).
 
 The definition of A151410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -752,7 +731,7 @@ The definition of A151410 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n)*(A001006(n)+A001006(n+1))*(n+3)/6`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A151410
@@ -1451,6 +1430,24 @@ end
 
 end A151421.P12295247773591494396
 
+/-! ## A151421.P9367411112131529982
+
+`Δ[A105518(A000958(n+3))]`
+-/
+
+namespace A151421.P9367411112131529982
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105518 (A000958 (n + 3)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A151421.P9367411112131529982
+
 /-! ## A151421.P12450857282840449357
 
 `A065382(A157021(2*n+1)+2)`
@@ -1466,26 +1463,26 @@ end
 
 end A151421.P12450857282840449357
 
-/-! ## A151421.P5186834553718418673
-
-`A233764(A011782(n))-A325459(n)`
--/
-
-namespace A151421.P5186834553718418673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233764 (A011782 n).toNat - A325459 n
-
-end
-
-end A151421.P5186834553718418673
-
 /-!
 # A151422: Weight distribution of [128,50,28] extended binary primitive BCH (or XBCH) code.
 
 The programs for A151422, there is no canonical definition to state claims against.
 -/
+
+/-! ## A151422.P7278391436977342966
+
+`A147982(A001744(n+1))*A174708(n+1)`
+-/
+
+namespace A151422.P7278391436977342966
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147982 (A001744 (n + 1)).toNat * A174708 (n + 1)
+
+end
+
+end A151422.P7278391436977342966
 
 /-! ## A151422.P2721471800948095306
 
@@ -1837,6 +1834,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151432.P6753562365436553242
+
+/-!
+# A151433: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of 2 n steps taken from {(-1, -1), (-1, 0), (1, -1), (1, 0), (1, 1)}.
+
+The programs for A151433, there is no canonical definition to state claims against.
+-/
+
+/-! ## A151433.P17859233721209222753
+
+`A131058(A045531(n+1)+A028310(n))`
+-/
+
+namespace A151433.P17859233721209222753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131058 (A045531 (n + 1) + A028310 n).toNat
+
+end
+
+end A151433.P17859233721209222753
 
 /-!
 # A151434: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 1), (0, -1), (0, 1), (1, -1)}.
@@ -2712,6 +2730,21 @@ end
 
 end A151457.P4954225876409281739
 
+/-! ## A151457.P9151178332593422199
+
+`A148814(A073788(n))-A297241(A171596(3*(n+1)))`
+-/
+
+namespace A151457.P9151178332593422199
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A148814 (A073788 n).toNat - A297241 (A171596 (3 * (n + 1))).toNat
+
+end
+
+end A151457.P9151178332593422199
+
 /-!
 # A151458: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)}.
 
@@ -2898,20 +2931,20 @@ end
 
 end A151461.P11410212291869100285
 
-/-! ## A151461.P14514785872087048669
+/-! ## A151461.P8922817367895462980
 
-`A003056(A124642(n)*A338084(n))`
+`A134357(n)-A008683(A133316(n))`
 -/
 
-namespace A151461.P14514785872087048669
+namespace A151461.P8922817367895462980
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A124642 n * A338084 n).toNat
+  A134357 n - A008683 (A133316 n).toNat
 
 end
 
-end A151461.P14514785872087048669
+end A151461.P8922817367895462980
 
 /-!
 # A151462: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, 1), (0, 1), (1, -1), (1, 0), (1, 1)}.
@@ -2934,20 +2967,35 @@ end
 
 end A151462.P18383228707101251080
 
-/-! ## A151462.P7138575137225340486
+/-! ## A151462.P15427550754534894937
 
-`A095773(A188687(n))-A049344(n+1)`
+`A323795(n)+A097157(A062494(n))`
 -/
 
-namespace A151462.P7138575137225340486
+namespace A151462.P15427550754534894937
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095773 (A188687 n).toNat - A049344 (n + 1)
+  A323795 n + A097157 (A062494 n).toNat
 
 end
 
-end A151462.P7138575137225340486
+end A151462.P15427550754534894937
+
+/-! ## A151462.P17962346144525159603
+
+`A249025(A105865(n))-A105864(n)`
+-/
+
+namespace A151462.P17962346144525159603
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A249025 (A105865 n).toNat - A105864 n
+
+end
+
+end A151462.P17962346144525159603
 
 /-!
 # A151463: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1)}.
@@ -3553,6 +3601,24 @@ end A151476.P14585824020605813628
 The programs for A151477, there is no canonical definition to state claims against.
 -/
 
+/-! ## A151477.P8275645941552460561
+
+`A110656(A218511(2*n+1)+∑[A110679(n)])`
+-/
+
+namespace A151477.P8275645941552460561
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110679 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110656 (A218511 (2 * n + 1) + ∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A151477.P8275645941552460561
+
 /-! ## A151477.P2796572921134746447
 
 `A120836(a(n-1)+2^(n-1))` with `a(0)=1, a(1)=1`
@@ -3568,25 +3634,10 @@ end
 
 end A151477.P2796572921134746447
 
-/-! ## A151477.P4919486471444509044
-
-`A051889(A150974(n))`
--/
-
-namespace A151477.P4919486471444509044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051889 (A150974 n).toNat
-
-end
-
-end A151477.P4919486471444509044
-
 /-!
 # A151478: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 1)}.
 
-The programs for A151478, the canonical program `A151478.P13056534414797967315` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151478 has offset 0).
+The programs for A151478, the canonical program `A151478.P13056534414797967315` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151478 has offset 0).
 
 The definition of A151478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3595,7 +3646,7 @@ The definition of A151478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001006(n)*C(n, floor(n/2))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A151478
@@ -3607,6 +3658,35 @@ def P13056534414797967315.Spec : Prop :=
 theorem P13056534414797967315.correct : P13056534414797967315.Spec := by
   intro n
   simp only [A151478]
+
+end A151478
+
+/-! ## A151478.P10689466360966914965
+
+`C(n, floor(n/2))*A001006(n)`
+-/
+
+namespace A151478.P10689466360966914965
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n ⌊(n : ℚ) / 2⌋.toNat : ℤ) * A001006 n
+
+end
+
+end A151478.P10689466360966914965
+
+namespace A151478
+
+/-- `C(n, floor(n/2))*A001006(n)` -/
+def P10689466360966914965.Spec : Prop :=
+  ∀ n, P10689466360966914965.a n = A151478 n
+
+theorem P10689466360966914965.correct : P10689466360966914965.Spec := by
+  intro n
+  simp only [A151478, Nat.add_sub_cancel, A151478.P10689466360966914965.a, A151478.P13056534414797967315.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A151478
 
@@ -4042,35 +4122,6 @@ def P4533405345433526771.Spec : Prop :=
 
 end A151478
 
-/-! ## A151478.P8756954487599812136
-
-`(A245001(n+3)-A001405(n+1))*A001405(n)`
--/
-
-namespace A151478.P8756954487599812136
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A245001 (n + 3) - A001405 (n + 1)) * A001405 n
-
-end
-
-end A151478.P8756954487599812136
-
-namespace A151478
-
-/-- `(A245001(n+3)-A001405(n+1))*A001405(n)` -/
-def P8756954487599812136.Spec : Prop :=
-  ∀ n, P8756954487599812136.a n = A151478 n
-
-theorem P8756954487599812136.correct : P8756954487599812136.Spec := by
-  intro n
-  simp only [A151478, Nat.add_sub_cancel, A151478.P8756954487599812136.a, A151478.P13056534414797967315.a, A001006, A001006.P11199602840237397285.a, A001405, A001405.P5205018418992951678.a, A245001, A245001.P3349015915289072323.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
-end A151478
-
 /-!
 # A151479: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 1), (0, -1), (0, 1), (1, 0), (1, 1)}.
 
@@ -4200,7 +4251,7 @@ end A151482.P15928199055983254472
 /-!
 # A151483: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)}.
 
-The programs for A151483, the canonical program `A151483.P13399049736923005023` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151483 has offset 0).
+The programs for A151483, the canonical program `A151483.P13399049736923005023` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151483 has offset 0).
 
 The definition of A151483 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4209,7 +4260,7 @@ The definition of A151483 is `conjectured`: the Lean definition is a formula tha
 
 `2^n/(n+1)*A342912(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A151483
@@ -4352,6 +4403,21 @@ end
 
 end A151485.P5467628555530350434
 
+/-! ## A151485.P14919060851170602203
+
+`A069360(n+2)+A023833(A333882(2*(n+1)))`
+-/
+
+namespace A151485.P14919060851170602203
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069360 (n + 2) + A023833 (A333882 (2 * (n + 1))).toNat
+
+end
+
+end A151485.P14919060851170602203
+
 /-!
 # A151486: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, 0), (-1, 1), (0, -1), (1, -1), (1, 0), (1, 1)}.
 
@@ -4394,6 +4460,24 @@ end A151486.P5280115371096674261
 The programs for A151487, there is no canonical definition to state claims against.
 -/
 
+/-! ## A151487.P10772097889456563120
+
+`A344991(∑[a(n-2)+2])` with `a(0)=1, a(1)=0, a(2)=2, a(3)=1`
+-/
+
+namespace A151487.P10772097889456563120
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 2, 1] fun n f1 =>
+  f1 (n - 2) + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344991 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A151487.P10772097889456563120
+
 /-! ## A151487.P2139418498796022634
 
 `A107821(A149720(n))`
@@ -4408,21 +4492,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151487.P2139418498796022634
-
-/-! ## A151487.P10080014986775658545
-
-`or(1, A141204(A151469(n)))`
--/
-
-namespace A151487.P10080014986775658545
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A141204 (A151469 n).toNat)
-
-end
-
-end A151487.P10080014986775658545
 
 /-!
 # A151488: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)}.
@@ -4532,11 +4601,41 @@ end
 
 end A151490.P4084556802290452724
 
+/-! ## A151490.P12319064636524246282
+
+`A120893(n)+A027870(A005773(2*n))`
+-/
+
+namespace A151490.P12319064636524246282
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120893 n + A027870 (A005773 (2 * n)).toNat
+
+end
+
+end A151490.P12319064636524246282
+
 /-!
 # A151491: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, 0), (1, 1)}.
 
 The programs for A151491, there is no canonical definition to state claims against.
 -/
+
+/-! ## A151491.P10683558039621595591
+
+`A257978(2*A006013(n))`
+-/
+
+namespace A151491.P10683558039621595591
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257978 (2 * A006013 n).toNat
+
+end
+
+end A151491.P10683558039621595591
 
 /-! ## A151491.P7317694766131988373
 
@@ -4552,21 +4651,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151491.P7317694766131988373
-
-/-! ## A151491.P7540581764561362988
-
-`or(A052170(n), A345992(A262123(n+2)))`
--/
-
-namespace A151491.P7540581764561362988
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A052170 n) (A345992 (A262123 (n + 2)).toNat)
-
-end
-
-end A151491.P7540581764561362988
 
 /-!
 # A151492: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 0), (-1, 1), (0, -1), (1, -1), (1, 0), (1, 1)}.
@@ -4703,6 +4787,21 @@ end A151495.P5915476389728683080
 The programs for A151496, there is no canonical definition to state claims against.
 -/
 
+/-! ## A151496.P4810504821078559278
+
+`A262868(A000051(n)*A321143(n))`
+-/
+
+namespace A151496.P4810504821078559278
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262868 (A000051 n * A321143 n).toNat
+
+end
+
+end A151496.P4810504821078559278
+
 /-! ## A151496.P5655108540398157730
 
 `A260683(A339165(3*n+1)+A076227(3*n+2))`
@@ -4822,6 +4921,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151498.P9236968323130817768
+
+/-! ## A151498.P17244157889705606326
+
+`A166991(n)+A079978(A006024(n))`
+-/
+
+namespace A151498.P17244157889705606326
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166991 n + A079978 (A006024 n).toNat
+
+end
+
+end A151498.P17244157889705606326
 
 /-!
 # A151499: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (-1, 1), (0, -1), (1, 0)}.

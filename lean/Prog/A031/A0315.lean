@@ -3,29 +3,30 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C032
+import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B002.C003
+import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -36,6 +37,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C016
 import Seq.Opaque.C019
 import Seq.Opaque.C021
@@ -96,6 +98,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031500.P14855721323425183927
+
+/-! ## A031500.P17189480219441878607
+
+`A185255(3*(n+1))+A043526(n+1)`
+-/
+
+namespace A031500.P17189480219441878607
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185255 (3 * (n + 1)) + A043526 (n + 1)
+
+end
+
+end A031500.P17189480219441878607
 
 /-!
 # A031501: Triangle of numbers maxfit[ i ][ j ] = upper bound on number of incidences in a geometry with <= i points and <= j blocks.
@@ -259,35 +276,35 @@ end
 
 end A031505.P12653189249079958837
 
-/-! ## A031505.P12861970398863455339
+/-! ## A031505.P1841554236809928872
 
-`A046132(n+2)`
+`A046132(2+n)`
 -/
 
-namespace A031505.P12861970398863455339
+namespace A031505.P1841554236809928872
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046132 (n + 2)
+  A046132 (2 + n)
 
 end
 
-end A031505.P12861970398863455339
+end A031505.P1841554236809928872
 
-/-! ## A031505.P587646315383321126
+/-! ## A031505.P9829795960515554790
 
-`A087679(n+2)+2`
+`A087679(2+n)+2`
 -/
 
-namespace A031505.P587646315383321126
+namespace A031505.P9829795960515554790
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087679 (n + 2) + 2
+  A087679 (2 + n) + 2
 
 end
 
-end A031505.P587646315383321126
+end A031505.P9829795960515554790
 
 /-! ## A031505.P13498227642578767811
 
@@ -517,7 +534,7 @@ end A031505.P135367873430940762
 /-!
 # A031506: Number of consecutive integers placed in n bins under a certain packing scheme.
 
-The programs for A031506, the canonical program `A031506.P10158666197518081574` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031506 has offset 0).
+The programs for A031506, the canonical program `A031506.P10158666197518081574` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031506 has offset 0).
 
 The definition of A031506 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -526,7 +543,7 @@ The definition of A031506 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2-x^3)/(1-4x+4x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A031506
@@ -590,6 +607,32 @@ namespace A031506
 /-- `∑[floor(ϕ²*a(n-1))]` -/
 def P3242547986805346436.Spec : Prop :=
   ∀ n, P3242547986805346436.a n = A031506 n
+
+end A031506
+
+/-! ## A031506.P18353850534378765650
+
+`record[a(n-2)-1-a(n-1)]` with `a(0)=1, a(1)=-3, a(2)=-4`
+-/
+
+namespace A031506.P18353850534378765650
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, -3, -4] fun n f1 =>
+  f1 (n - 2) - 1 - f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A031506.P18353850534378765650
+
+namespace A031506
+
+/-- `record[a(n-2)-1-a(n-1)]` -/
+def P18353850534378765650.Spec : Prop :=
+  ∀ n, P18353850534378765650.a n = A031506 n
 
 end A031506
 
@@ -971,29 +1014,6 @@ namespace A031506
 /-- `A000285(2*n)-A130654(2*n+1)` -/
 def P1941782543151414018.Spec : Prop :=
   ∀ n, P1941782543151414018.a n = A031506 n
-
-end A031506
-
-/-! ## A031506.P3329267421450913907
-
-`A000285(2*n)-and(1, A000040(n+1))`
--/
-
-namespace A031506.P3329267421450913907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000285 (2 * n) - Int.land 1 (A000040 (n + 1))
-
-end
-
-end A031506.P3329267421450913907
-
-namespace A031506
-
-/-- `A000285(2*n)-and(1, A000040(n+1))` -/
-def P3329267421450913907.Spec : Prop :=
-  ∀ n, P3329267421450913907.a n = A031506 n
 
 end A031506
 
