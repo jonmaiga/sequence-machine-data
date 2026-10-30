@@ -1,17 +1,16 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C014
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B001.C000
-import Seq.B002.C008
+import Seq.B002.C007
 import Seq.B005.C002
-import Seq.B011.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C017
@@ -362,7 +361,7 @@ end A388538
 /-!
 # A388539: Sum of decimal digits of Fibonacci(n)^2.
 
-The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
+The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
 
 The definition of A388539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -371,7 +370,7 @@ The definition of A388539 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A007598(n))`
 
-The canonical program, it is in `Seq.B002.C008`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A388539

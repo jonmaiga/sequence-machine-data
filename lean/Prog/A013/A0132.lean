@@ -4,23 +4,25 @@ import Seq.B000.C001
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C048
+import Seq.B000.C027
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C039
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B008.C000
+import Seq.B006.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2549,20 +2551,20 @@ end
 
 end A013271.P15326640674392896794
 
-/-! ## A013271.P3905804060464567452
+/-! ## A013271.P4635198814606167840
 
-`A013275(n)+A000007(A000108(n))`
+`A013275(lcm(n, A002113(n+1)))`
 -/
 
-namespace A013271.P3905804060464567452
+namespace A013271.P4635198814606167840
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013275 n + A000007 (A000108 n).toNat
+  A013275 (Int.lcm (n : ℤ) (A002113 (n + 1)))
 
 end
 
-end A013271.P3905804060464567452
+end A013271.P4635198814606167840
 
 /-!
 # A013272: tan(log(x+1)-arcsinh(x))=-1/2!*x^2+3/3!*x^3-6/4!*x^4+15/5!*x^5...

@@ -6,18 +6,16 @@ import Seq.B000.C019
 import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C003
 import Seq.B002.C001
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C012
@@ -70,6 +68,25 @@ end A388622.P14267147550000250249
 
 The programs for A388650, there is no canonical definition to state claims against.
 -/
+
+/-! ## A388650.P587053790443801644
+
+`A067788(comp[A004320(n)])`
+-/
+
+namespace A388650.P587053790443801644
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004320 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067788 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+
+end
+
+end A388650.P587053790443801644
 
 /-! ## A388650.P7171904095953189840
 
@@ -141,27 +158,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388650.P16389426093900726883
-
-/-! ## A388650.P14000233546173209226
-
-`A067788(lt[A091203(n+2), A076203(n+1)])`
--/
-
-namespace A388650.P14000233546173209226
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091203 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076203 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067788 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A388650.P14000233546173209226
 
 /-!
 # A388653: Numbers k >= 0 such that the interval [A000217(k), A000217(k + 1)] contains at least one Fibonacci number (A000045).

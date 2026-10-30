@@ -1,4 +1,4 @@
-import SequenceMachineLib
+import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C004
 import Seq.B000.C005
@@ -6,21 +6,20 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C009
-import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C007
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C005
@@ -28,17 +27,20 @@ import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -58,20 +60,20 @@ import Seq.Opaque.C021
 The programs for A156401, there is no canonical definition to state claims against.
 -/
 
-/-! ## A156401.P7663134685767903194
+/-! ## A156401.P18339601648071284647
 
-`A000122(n)*A299240(A001541(n))`
+`A055672(A157306(n)+A002802(n))`
 -/
 
-namespace A156401.P7663134685767903194
+namespace A156401.P18339601648071284647
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000122 n * A299240 (A001541 n).toNat
+  A055672 (A157306 n + A002802 n).toNat
 
 end
 
-end A156401.P7663134685767903194
+end A156401.P18339601648071284647
 
 /-!
 # A156407: Number of 11 X 11 arrays of squares of integers, symmetric about the diagonal and under 90-degree rotation, with all rows summing to n.
@@ -274,6 +276,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A156430.P2634468679340958457
+
+/-!
+# A156432: Number of n X n arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to 3.
+
+The programs for A156432, there is no canonical definition to state claims against.
+-/
+
+/-! ## A156432.P14986036522540428365
+
+`A324383(A209930(n+1))`
+-/
+
+namespace A156432.P14986036522540428365
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324383 (A209930 (n + 1)).toNat
+
+end
+
+end A156432.P14986036522540428365
 
 /-!
 # A156433: Number of n X n arrays of squares of integers, symmetric under 90 degree rotation, with all rows summing to 3.
@@ -515,20 +538,20 @@ end A156442.P3969756776218647602
 The programs for A156445, there is no canonical definition to state claims against.
 -/
 
-/-! ## A156445.P11480480772708071477
+/-! ## A156445.P3030832514584962341
 
-`A011371(A060690(n)+A025052(2*n+1))`
+`A325683(A279570(n)+A023979(n))`
 -/
 
-namespace A156445.P11480480772708071477
+namespace A156445.P3030832514584962341
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011371 (A060690 n + A025052 (2 * n + 1)).toNat
+  A325683 (A279570 n + A023979 n).toNat
 
 end
 
-end A156445.P11480480772708071477
+end A156445.P3030832514584962341
 
 /-!
 # A156446: Number of n X n arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to 8.
@@ -660,20 +683,20 @@ end A156450.P15672063135552713181
 The programs for A156463, there is no canonical definition to state claims against.
 -/
 
-/-! ## A156463.P790923225022794137
+/-! ## A156463.P5729660487451349061
 
-`A345899(ceil(ϕ*a(n-1)))` with `a(0)=1`
+`A279249(a(n-1))` with `a(0)=1, a(1)=2, a(2)=4, a(3)=11`
 -/
 
-namespace A156463.P790923225022794137
+namespace A156463.P5729660487451349061
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A345899 ⌈Real.goldenRatio * (a (n - 1) : ℝ)⌉.toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 4, 11] fun n a =>
+  A279249 (a (n - 1)).toNat
 
 end
 
-end A156463.P790923225022794137
+end A156463.P5729660487451349061
 
 /-!
 # A156464: Number of n X n arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to 16.
@@ -723,6 +746,21 @@ end A156464.P762134596316895109
 The programs for A156465, there is no canonical definition to state claims against.
 -/
 
+/-! ## A156465.P15305064050361996334
+
+`A141100(A068786(n+1)+8)`
+-/
+
+namespace A156465.P15305064050361996334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141100 (A068786 (n + 1) + 8).toNat
+
+end
+
+end A156465.P15305064050361996334
+
 /-! ## A156465.P2686180002388584120
 
 `((n+5)*n!)%A039696(A147930(n+1))`
@@ -752,21 +790,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A156465.P7818346556204340385
-
-/-! ## A156465.P16259731466364551036
-
-`A036234(A118192(n))-A055396(n+1)`
--/
-
-namespace A156465.P16259731466364551036
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036234 (A118192 n).toNat - A055396 (n + 1)
-
-end
-
-end A156465.P16259731466364551036
 
 /-!
 # A156467: Number of n X n arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to 17.

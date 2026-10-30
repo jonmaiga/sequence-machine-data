@@ -10,24 +10,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B001.C000
-import Seq.B001.C001
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B011.C000
+import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -625,6 +621,21 @@ end A012316.P1055377709944014397
 
 The programs for A012317, there is no canonical definition to state claims against.
 -/
+
+/-! ## A012317.P6897035999335028988
+
+`A122204(A169764(n+5))+A076795(n)`
+-/
+
+namespace A012317.P6897035999335028988
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122204 (A169764 (n + 5)).toNat + A076795 n
+
+end
+
+end A012317.P6897035999335028988
 
 /-! ## A012317.P9405211463741161534
 
@@ -1244,20 +1255,26 @@ end A012342.P10555702263705320599
 The programs for A012344, there is no canonical definition to state claims against.
 -/
 
-/-! ## A012344.P2398288169578195817
+/-! ## A012344.P6373179948122768193
 
-`A000005(A000612(n))*A012003(n)`
+`(1-A283992(∏[(n%8)²+1]))*record[A009195(2*(n+1))]`
 -/
 
-namespace A012344.P2398288169578195817
+namespace A012344.P6373179948122768193
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n % 8) ^ 2 + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009195 (2 * (n + 1))
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A000612 n).toNat * A012003 n
+  (1 - A283992 (∏ j ∈ Finset.range (n + 1), f1 j)) * f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
 
 end
 
-end A012344.P2398288169578195817
+end A012344.P6373179948122768193
 
 /-!
 # A012345: Coefficients in the expansion sinh(arcsin(x)*arcsin(x)) = 2*x^2/2!+8*x^4/4!+248*x^6/6!+11328*x^8/8!+...
@@ -1517,6 +1534,21 @@ end
 
 end A012353.P9703451199857461201
 
+/-! ## A012353.P8207351161505302605
+
+`A012355(A181352(n))`
+-/
+
+namespace A012353.P8207351161505302605
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012355 (A181352 n).toNat
+
+end
+
+end A012353.P8207351161505302605
+
 /-! ## A012353.P10418862022777975275
 
 `A012355(A001633(n+1))`
@@ -1531,21 +1563,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012353.P10418862022777975275
-
-/-! ## A012353.P3539451850186278116
-
-`A012355(A282782(n+1))`
--/
-
-namespace A012353.P3539451850186278116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012355 (A282782 (n + 1)).toNat
-
-end
-
-end A012353.P3539451850186278116
 
 /-!
 # A012354: Expansion of e.g.f. tan(tan(x) * log(x+1)).
@@ -1705,6 +1722,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012363.P6477193230769245560
+
+/-! ## A012363.P7981622840581764535
+
+`A330918(A090351(n)+n)`
+-/
+
+namespace A012363.P7981622840581764535
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330918 (A090351 n + (n : ℤ)).toNat
+
+end
+
+end A012363.P7981622840581764535
 
 /-!
 # A012364: E.g.f.: sec(tan(x)*exp(x))=1+1/2!*x^2+6/3!*x^3+37/4!*x^4+260/5!*x^5...
@@ -1955,23 +1987,23 @@ end
 
 end A012393.P440208536005960857
 
-/-! ## A012393.P14927392116249170171
+/-! ## A012393.P17897997275065305059
 
-`record[lcm(A000831(n), A010673(n))]`
+`record[A000079(n)*A350972(n)]`
 -/
 
-namespace A012393.P14927392116249170171
+namespace A012393.P17897997275065305059
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A000831 n) (A010673 n)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n * A350972 n
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A012393.P14927392116249170171
+end A012393.P17897997275065305059
 
 /-!
 # A012396: Expansion of e.g.f. exp(arctan(x)*log(x+1)).

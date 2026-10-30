@@ -13,20 +13,19 @@ import Seq.B000.C014
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
-import Seq.B000.C040
+import Seq.B000.C036
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B008.C000
+import Seq.B003.C001
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -888,20 +887,20 @@ end
 
 end A042414.P7646131389112913584
 
-/-! ## A042414.P6876691657653861935
+/-! ## A042414.P16522880687905179114
 
-`A041022(A016789(n))-(3*n)%3`
+`and(-1, A041022(A016789(n)))`
 -/
 
-namespace A042414.P6876691657653861935
+namespace A042414.P16522880687905179114
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A041022 (A016789 n).toNat - ((3 * n % 3 : ℕ) : ℤ)
+  Int.land (-1) (A041022 (A016789 n).toNat)
 
 end
 
-end A042414.P6876691657653861935
+end A042414.P16522880687905179114
 
 /-! ## A042414.P7473691881646947436
 

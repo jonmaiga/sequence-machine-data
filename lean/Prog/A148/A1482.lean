@@ -10,16 +10,15 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -27,8 +26,10 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
@@ -36,25 +37,29 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B009.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -425,20 +430,20 @@ end
 
 end A148205.P4527061748739021938
 
-/-! ## A148205.P11759705266184311811
+/-! ## A148205.P17879214520901320481
 
-`A038142(n+1)-A305435(A085945(2*(n+1)))`
+`A038142(n+1)-A060510(A030226(n+2))`
 -/
 
-namespace A148205.P11759705266184311811
+namespace A148205.P17879214520901320481
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038142 (n + 1) - A305435 (A085945 (2 * (n + 1))).toNat
+  A038142 (n + 1) - A060510 (A030226 (n + 2)).toNat
 
 end
 
-end A148205.P11759705266184311811
+end A148205.P17879214520901320481
 
 /-!
 # A148206: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 1), (-1, 0, 1), (0, -1, 1), (0, 1, 0), (1, 1, -1)}.
@@ -1893,6 +1898,21 @@ end
 
 end A148237.P16788037004266239896
 
+/-! ## A148237.P4066452759340583914
+
+`A056892(A090344(n)*A226974(n))`
+-/
+
+namespace A148237.P4066452759340583914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056892 (A090344 n * A226974 n).toNat
+
+end
+
+end A148237.P4066452759340583914
+
 /-!
 # A148239: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, -1, 1), (-1, 1, 1), (0, 0, -1), (1, 0, 0)}.
 
@@ -1943,6 +1963,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148239.P6104623740602125858
+
+/-! ## A148239.P13161222985300483165
+
+`A062108(A138178(n))-A334201(n+1)`
+-/
+
+namespace A148239.P13161222985300483165
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062108 (A138178 n).toNat - A334201 (n + 1)
+
+end
+
+end A148239.P13161222985300483165
 
 /-!
 # A148240: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, -1, 1), (-1, 1, 1), (0, 1, -1), (1, 0, 0)}.
@@ -3570,6 +3605,24 @@ end A148280.P5065549010288601721
 The programs for A148281, there is no canonical definition to state claims against.
 -/
 
+/-! ## A148281.P1739506952620135828
+
+`∑{#}[n, (-1)^(n-#)*C(n, #)*A149937(#)]`
+-/
+
+namespace A148281.P1739506952620135828
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (A149937 k : ℚ)
+
+end
+
+end A148281.P1739506952620135828
+
 /-! ## A148281.P5957469058406201099
 
 `or(char[2^n-1], A323647(ceil(2^(n-1))))`
@@ -3880,6 +3933,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148286.P9690225875637973531
+
+/-! ## A148286.P12538777614455567053
+
+`A036765(n)-A335808(A161128(n))`
+-/
+
+namespace A148286.P12538777614455567053
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036765 n - A335808 (A161128 n).toNat
+
+end
+
+end A148286.P12538777614455567053
 
 /-!
 # A148287: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 1), (-1, 0, 1), (0, 0, -1), (0, 1, -1), (1, 0, 0)}.
@@ -4256,26 +4324,20 @@ end
 
 end A148294.P15553203128040206882
 
-/-! ## A148294.P9196440497107058479
+/-! ## A148294.P13934989521559968405
 
-`A051125(4*(4^n-(3*(3^n-2^n)+1))+(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1])`
+`or(A122288(A384654(3*n+1)), A272064(n))`
 -/
 
-namespace A148294.P9196440497107058479
+namespace A148294.P13934989521559968405
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051125 (SequenceMachineLib.roundAway ((4 * ((4 ^ n : ℤ) - (3 * ((3 ^ n : ℤ) - (2 ^ n : ℤ)) + 1)) : ℚ) + (n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))).toNat
+  Int.lor (A122288 (A384654 (3 * n + 1)).toNat) (A272064 n)
 
 end
 
-end A148294.P9196440497107058479
+end A148294.P13934989521559968405
 
 /-!
 # A148295: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, 0, 1), (-1, 1, 1), (0, 1, 0), (1, -1, 0)}.

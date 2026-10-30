@@ -9,23 +9,26 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C038
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C004
 import Seq.B003.C001
-import Seq.B003.C004
-import Seq.B004.C002
+import Seq.B003.C003
+import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -666,6 +669,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013133.P5665911691589547161
+
+/-! ## A013133.P16934372778505868976
+
+`A004277(Δ[A133476(n)]*A131577(n))`
+-/
+
+namespace A013133.P16934372778505868976
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133476 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 ((f1 (n + 1) - f1 n) * A131577 n).toNat
+
+end
+
+end A013133.P16934372778505868976
 
 /-!
 # A013134: sin(tanh(x)+tan(x))=2*x-8/3!*x^3+64/5!*x^5-2816/7!*x^7+80896/9!*x^9...
@@ -1577,6 +1598,27 @@ end A013172.P17294733189911678932
 The programs for A013174, there is no canonical definition to state claims against.
 -/
 
+/-! ## A013174.P2656512934417387402
+
+`record[2^∑{e}[1+n, #]*A226174(n+1)]`
+-/
+
+namespace A013174.P2656512934417387402
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p) : ℤ) * A226174 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A013174.P2656512934417387402
+
 /-! ## A013174.P7159407136116718209
 
 `∏[A085033(A365103(n))]`
@@ -1612,24 +1654,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013174.P10598017806611585677
-
-/-! ## A013174.P4130672728548213542
-
-`∏[dr(A006530(A005649(n)))]`
--/
-
-namespace A013174.P4130672728548213542
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A006530 (A005649 n).toNat)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A013174.P4130672728548213542
 
 /-!
 # A013175: sin(arctanh(x)+arctan(x))=2*x-8/3!*x^3+80/5!*x^5-4160/7!*x^7...

@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,32 +15,31 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C049
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C007
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -194,6 +192,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009602.P16434929343812982710
+
+/-! ## A009602.P3472639377873876477
+
+`or(n, A009238(A247328(n+1)))-n`
+-/
+
+namespace A009602.P3472639377873876477
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (n : ℤ) (A009238 (A247328 (n + 1)).toNat) - (n : ℤ)
+
+end
+
+end A009602.P3472639377873876477
 
 /-! ## A009602.P1818845003000591868
 
@@ -2039,6 +2052,51 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A009628.P12137615281554587973
+
+/-! ## A009628.P13069624688394234604
+
+`xor(1, (1+(-1)^n)/2-n*a(n-1))` with `a(0)=0`
+-/
+
+namespace A009628.P13069624688394234604
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  Int.xor 1 (SequenceMachineLib.roundAway ((1 + (-1) ^ n : ℚ) / 2 - ((n : ℤ) * a (n - 1) : ℚ)))
+
+end
+
+end A009628.P13069624688394234604
+
+/-! ## A009628.P3164305733308323546
+
+`1-(n*a(n-1)+1/2*(1+(-1)^n))` with `a(0)=0`
+-/
+
+namespace A009628.P3164305733308323546
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  1 - ((n : ℚ) * a (n - 1) + (1 : ℚ) / 2 * (1 + (-1) ^ n : ℚ))
+
+end
+
+end A009628.P3164305733308323546
+
+/-! ## A009628.P8910970723492575271
+
+`A000035(n)-a(n-1)/n^(-1)` with `a(0)=0`
+-/
+
+namespace A009628.P8910970723492575271
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  (A000035 n : ℚ) - a (n - 1) / (n : ℚ) ^ (-1 : ℤ)
+
+end
+
+end A009628.P8910970723492575271
 
 /-! ## A009628.P16766757060999474678
 

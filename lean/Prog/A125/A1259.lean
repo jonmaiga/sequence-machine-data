@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -14,24 +13,26 @@ import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C032
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C045
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -46,15 +47,15 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B003.C003
+import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -68,6 +69,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -77,6 +79,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -970,6 +973,21 @@ end
 
 end A125908.P6848144609593504830
 
+/-! ## A125908.P3537618886656779557
+
+`A158198(A167499(n+8)-14-A317107(n+1))`
+-/
+
+namespace A125908.P3537618886656779557
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158198 (A167499 (n + 8) - 14 - A317107 (n + 1)).toNat
+
+end
+
+end A125908.P3537618886656779557
+
 /-!
 # A125909: a(n) is the number of nonnegative integers k less than 10^n such that the decimal representation of k lacks the digit 1, at least one of the digits 2,3 and at least one of digits 4,5,6,7,8,9.
 
@@ -1105,7 +1123,7 @@ end A125910.P871445259688649813
 /-!
 # A125911: Product of the even divisors of n.
 
-The programs for A125911, the canonical program `A125911.P3841651622429786425` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125911 has offset 1).
+The programs for A125911, the canonical program `A125911.P3841651622429786425` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125911 has offset 1).
 
 The definition of A125911 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A136655, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1114,7 +1132,7 @@ The definition of A125911 is `conditional`: the Lean definition is an OEIS formu
 
 `A007955(n+1)/A136655(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A125911
@@ -1560,20 +1578,23 @@ end A125924.P15512270997589828655
 The programs for A125925, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125925.P9379874893219257025
+/-! ## A125925.P2901018836554540004
 
-`A260451(2^n)-1`
+`A233530(Δ[A007775(n+3)])`
 -/
 
-namespace A125925.P9379874893219257025
+namespace A125925.P2901018836554540004
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007775 (n + 3)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A260451 (2 ^ n) - 1
+  A233530 (f1 (n + 1) - f1 n).toNat
 
 end
 
-end A125925.P9379874893219257025
+end A125925.P2901018836554540004
 
 /-!
 # A125927: Sprague-Grundy values for octal game .53.
@@ -2548,7 +2569,7 @@ theorem P10403024427625683465.correct : P10403024427625683465.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [← h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A125962
 
@@ -4600,6 +4621,21 @@ end
 
 end A125987.P11927655714665769003
 
+/-! ## A125987.P5269381777174317229
+
+`A071661(n)-A002620(A051390(n+1))`
+-/
+
+namespace A125987.P5269381777174317229
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071661 n - A002620 (A051390 (n + 1)).toNat
+
+end
+
+end A125987.P5269381777174317229
+
 /-!
 # A125988: Signature-permutation of the square of A125986.
 
@@ -5483,18 +5519,18 @@ end
 
 end A125999.P17284676317680250368
 
-/-! ## A125999.P1383869453386369516
+/-! ## A125999.P13336623822739483077
 
-`A099076(A080697(n+1))`
+`A280457(A378270(n+1)%A321862(2*n+3))`
 -/
 
-namespace A125999.P1383869453386369516
+namespace A125999.P13336623822739483077
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099076 (A080697 (n + 1)).toNat
+  A280457 (Int.tmod (A378270 (n + 1)) (A321862 (2 * n + 3))).toNat
 
 end
 
-end A125999.P1383869453386369516
+end A125999.P13336623822739483077
 

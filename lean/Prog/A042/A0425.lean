@@ -4,12 +4,14 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C012
@@ -19,9 +21,8 @@ import Seq.B002.C002
 import Seq.B003.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -37,6 +38,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -299,6 +301,32 @@ namespace A042511
 /-- `A041155(n)/Δ[A042948(n)]` -/
 def P10777084107603428337.Spec : Prop :=
   ∀ n, P10777084107603428337.a n = (A042511 n : ℚ)
+
+end A042511
+
+/-! ## A042511.P1537112945202551874
+
+`A041155(n)/Δ[A338064(n+1)]`
+-/
+
+namespace A042511.P1537112945202551874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338064 (n + 1)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041155 n : ℚ) / (f1 (n + 1) - f1 n : ℚ)
+
+end
+
+end A042511.P1537112945202551874
+
+namespace A042511
+
+/-- `A041155(n)/Δ[A338064(n+1)]` -/
+def P1537112945202551874.Spec : Prop :=
+  ∀ n, P1537112945202551874.a n = (A042511 n : ℚ)
 
 end A042511
 
@@ -700,6 +728,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A042519.P9635890577664679922
+
+/-! ## A042519.P10458609703602370343
+
+`A041365(n)/A040001(n+1)`
+-/
+
+namespace A042519.P10458609703602370343
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041365 n : ℚ) / (A040001 (n + 1) : ℚ)
+
+end
+
+end A042519.P10458609703602370343
 
 /-! ## A042519.P8726536377202565155
 
@@ -1291,27 +1334,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042573.P6932198282022059567
-
-/-!
-# A042576: Numerators of continued fraction convergents to sqrt(817).
-
-The programs for A042576, there is no canonical definition to state claims against.
--/
-
-/-! ## A042576.P11364311884806834020
-
-`A042690(n)-A007953(A042005(n))`
--/
-
-namespace A042576.P11364311884806834020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042690 n - A007953 (A042005 n).toNat
-
-end
-
-end A042576.P11364311884806834020
 
 /-!
 # A042579: Denominators of continued fraction convergents to sqrt(818).

@@ -4,7 +4,7 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C021
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C010
 import Seq.B006.C000
 import Seq.B010.C000
@@ -14,7 +14,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C020
@@ -214,20 +213,20 @@ end
 
 end A019186.P2587389919141347275
 
-/-! ## A019186.P1609865235497228526
+/-! ## A019186.P1643378963685205017
 
-`A019243(n+3)+A000007(A149054(n))`
+`A069843(A000142(n))+A019187(n+3)`
 -/
 
-namespace A019186.P1609865235497228526
+namespace A019186.P1643378963685205017
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019243 (n + 3) + A000007 (A149054 n).toNat
+  A069843 (A000142 n).toNat + A019187 (n + 3)
 
 end
 
-end A019186.P1609865235497228526
+end A019186.P1643378963685205017
 
 /-!
 # A019189: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T4 atom.
@@ -345,4 +344,19 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019192.P11000338872506882922
+
+/-! ## A019192.P7080924637973581808
+
+`A019246(n+3)+A034543(n+1)*A192537(3*n+5)`
+-/
+
+namespace A019192.P7080924637973581808
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019246 (n + 3) + A034543 (n + 1) * A192537 (3 * n + 5)
+
+end
+
+end A019192.P7080924637973581808
 

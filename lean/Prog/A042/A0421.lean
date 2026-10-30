@@ -3,29 +3,32 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C036
+import Seq.B000.C026
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
@@ -53,6 +56,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 /-!
 # A042101: Denominators of continued fraction convergents to sqrt(574).
@@ -725,20 +729,20 @@ end
 
 end A042118.P11951152909299887729
 
-/-! ## A042118.P9267293694400587332
+/-! ## A042118.P7757960923041599996
 
-`A000034(n+1)*A041266(n)`
+`A000034(1+n)*A041266(n)`
 -/
 
-namespace A042118.P9267293694400587332
+namespace A042118.P7757960923041599996
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (n + 1) * A041266 n
+  A000034 (1 + n) * A041266 n
 
 end
 
-end A042118.P9267293694400587332
+end A042118.P7757960923041599996
 
 /-! ## A042118.P18201081966718288850
 
@@ -1697,20 +1701,23 @@ end A042135
 The programs for A042139, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042139.P1053491638214433258
+/-! ## A042139.P18446094255897978947
 
-`A272976(A125809(n))-n`
+`∑[A331742(A392192(n))]`
 -/
 
-namespace A042139.P1053491638214433258
+namespace A042139.P18446094255897978947
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331742 (A392192 n).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272976 (A125809 n).toNat - (n : ℤ)
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A042139.P1053491638214433258
+end A042139.P18446094255897978947
 
 /-!
 # A042141: Denominators of continued fraction convergents to sqrt(595).

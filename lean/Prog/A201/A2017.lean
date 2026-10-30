@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -26,18 +27,19 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,7 +48,7 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C003
@@ -56,13 +58,13 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -168,6 +170,29 @@ namespace A201701
 /-- `T(n-2,k-1)-2*(T(n-1,k)-2*T(n-1,k))` -/
 def P6200700073002193018.Spec : Prop :=
   ∀ n, P6200700073002193018.a n = A201701 n
+
+end A201701
+
+/-! ## A201701.P12135140103119002284
+
+`A124182(row(n)-2*col(n)+n)`
+-/
+
+namespace A201701.P12135140103119002284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124182 ((SequenceMachineLib.triRow n : ℤ) - (2 * SequenceMachineLib.triCol n : ℤ) + (n : ℤ)).toNat
+
+end
+
+end A201701.P12135140103119002284
+
+namespace A201701
+
+/-- `A124182(row(n)-2*col(n)+n)` -/
+def P12135140103119002284.Spec : Prop :=
+  ∀ n, P12135140103119002284.a n = A201701 n
 
 end A201701
 
@@ -478,6 +503,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201703.P14734511802242894083
+
+/-! ## A201703.P8209130958472002162
+
+`A359467(A001519(n))+A348676(n)`
+-/
+
+namespace A201703.P8209130958472002162
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359467 (A001519 n).toNat + A348676 n
+
+end
+
+end A201703.P8209130958472002162
 
 /-!
 # A201704: Primes of the form 8*k^2 + 7.
@@ -4784,7 +4824,7 @@ end
 end A201727.P11514284839832599195
 
 /-!
-# A201728: 
+# A201728: Number of nX7 0..4 arrays with rows and columns lexicographically nondecreasing and no element equal to the number of horizontal and vertical neighbors equal to itself.
 
 The programs for A201728, there is no canonical definition to state claims against.
 -/
@@ -4932,20 +4972,20 @@ end A201732.P14996104009126118098
 The programs for A201733, there is no canonical definition to state claims against.
 -/
 
-/-! ## A201733.P5711031624564446040
+/-! ## A201733.P17478175037349926178
 
-`A000001(n+1)-A185705(A169809(n))`
+`A000001(1+n)-A185705(A169809(n))`
 -/
 
-namespace A201733.P5711031624564446040
+namespace A201733.P17478175037349926178
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000001 (n + 1) - A185705 (A169809 n).toNat
+  A000001 (1 + n) - A185705 (A169809 n).toNat
 
 end
 
-end A201733.P5711031624564446040
+end A201733.P17478175037349926178
 
 /-! ## A201733.P3872107323947729248
 
@@ -5227,7 +5267,7 @@ end A201734
 /-!
 # A201739: Numbers n such that 90*n + 29 is prime.
 
-The programs for A201739, the canonical program `A201739.P6931800238278113142` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201739 has offset 1).
+The programs for A201739, the canonical program `A201739.P6931800238278113142` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201739 has offset 1).
 
 The definition of A201739 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5236,7 +5276,7 @@ The definition of A201739 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A142327(n+1)-29)/90`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A201739
@@ -5684,6 +5724,24 @@ end
 
 end A201777.P8862071592472744839
 
+/-! ## A201777.P4992372872456905901
+
+`A008619(A202339(3*n+1)%∏{p}[A149870(n)², #])`
+-/
+
+namespace A201777.P4992372872456905901
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A149870 n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (Int.tmod (A202339 (3 * n + 1)) ((∏ p ∈ Nat.primeFactors (f1 n).natAbs, p : ℕ) : ℤ)).toNat
+
+end
+
+end A201777.P4992372872456905901
+
 /-!
 # A201778: G.f. satisfies A(x/(1-x)) = x*(1-sqrt(1-4*A(x)))/(2*A(x)).
 
@@ -5846,30 +5904,30 @@ theorem P2130761859018812598.correct : P2130761859018812598.Spec := by
 
 end A201780
 
-/-! ## A201780.P723784862431603547
+/-! ## A201780.P11670470553006729846
 
-`T(n-1,k)+T(n-1,k-1)+T(n-1,k)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=1`
+`T(n-1,k)+T(n-1,k)+T(n-1,k-1)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=1`
 -/
 
-namespace A201780.P723784862431603547
+namespace A201780.P11670470553006729846
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 1, 1] fun n a =>
-  SequenceMachineLib.triUp a n + SequenceMachineLib.triUpLeft a n + SequenceMachineLib.triUp a n
+  SequenceMachineLib.triUp a n + (SequenceMachineLib.triUp a n + SequenceMachineLib.triUpLeft a n)
 
 end
 
-end A201780.P723784862431603547
+end A201780.P11670470553006729846
 
 namespace A201780
 
-/-- `T(n-1,k)+T(n-1,k-1)+T(n-1,k)` -/
-def P723784862431603547.Spec : Prop :=
-  ∀ n, (P723784862431603547.a n : ℤ) = A201780 n
+/-- `T(n-1,k)+T(n-1,k)+T(n-1,k-1)` -/
+def P11670470553006729846.Spec : Prop :=
+  ∀ n, (P11670470553006729846.a n : ℤ) = A201780 n
 
-theorem P723784862431603547.correct : P723784862431603547.Spec := by
+theorem P11670470553006729846.correct : P11670470553006729846.Spec := by
   intro n
-  simp only [A201780, Nat.add_sub_cancel, A201780.P723784862431603547.a, A201780.P2130761859018812598.a, SequenceMachineLib.memo_apply]
+  simp only [A201780, Nat.add_sub_cancel, A201780.P11670470553006729846.a, A201780.P2130761859018812598.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 
@@ -6556,6 +6614,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201784.P9727484710878712377
+
+/-! ## A201784.P9378244744654407659
+
+`filter[A109474(n²+1), A257531(#)]`
+-/
+
+namespace A201784.P9378244744654407659
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109474 (n ^ 2 + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A257531 (f1 j).toNat = 1) n)
+
+end
+
+end A201784.P9378244744654407659
 
 /-!
 # A201785: Primes of the form 5n^2 - 3.

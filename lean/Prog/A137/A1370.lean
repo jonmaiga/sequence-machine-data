@@ -7,7 +7,8 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C029
-import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C013
 import Seq.B002.C006
@@ -15,7 +16,7 @@ import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -561,6 +562,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A137027.P7703577387652208540
+
+/-! ## A137027.P13689732880480815156
+
+`A340224(A003946(n))+A188236(n+1)`
+-/
+
+namespace A137027.P13689732880480815156
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340224 (A003946 n).toNat + A188236 (n + 1)
+
+end
+
+end A137027.P13689732880480815156
 
 /-!
 # A137031: Numbers k such that k and k^2 use only the digits 1, 3, 4, 8 and 9.

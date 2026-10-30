@@ -5,20 +5,18 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C019
 import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B002.C003
-import Seq.B007.C000
-import Seq.B011.C000
+import Seq.B008.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -196,7 +194,7 @@ theorem P3869179742904066381.correct : P3869179742904066381.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019928
 
@@ -290,7 +288,7 @@ theorem P4623308934492313573.correct : P4623308934492313573.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019943
 
@@ -427,7 +425,7 @@ theorem P8170445649978857550.correct : P8170445649978857550.Spec := by
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019958
 
@@ -463,6 +461,21 @@ end A019958
 The programs for A019973, there is no canonical definition to state claims against.
 -/
 
+/-! ## A019973.P12925015918663503633
+
+`A090388(n-a(n-1)%-1)` with `a(0)=3`
+-/
+
+namespace A019973.P12925015918663503633
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
+  A090388 (((n : ℤ) - Int.tmod (a (n - 1)) (-1)).toNat + 1)
+
+end
+
+end A019973.P12925015918663503633
+
 /-! ## A019973.P8037218748395156780
 
 `A002194(A000038(n)+n)`
@@ -492,6 +505,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019973.P7302930029599483223
+
+/-! ## A019973.P7282434286385386028
+
+`A090388(A000038(n)+n)`
+-/
+
+namespace A019973.P7282434286385386028
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090388 ((A000038 n + (n : ℤ)).toNat + 1)
+
+end
+
+end A019973.P7282434286385386028
 
 /-! ## A019973.P3123911138027539356
 
@@ -733,36 +761,6 @@ end
 
 end A019973.P5315065805965279981
 
-/-! ## A019973.P15504830228408475133
-
-`A084642(n+1)+A002194(n)-A040001(n)`
--/
-
-namespace A019973.P15504830228408475133
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084642 (n + 1) + (A002194 (n + 1) - A040001 n)
-
-end
-
-end A019973.P15504830228408475133
-
-/-! ## A019973.P7417355085603829838
-
-`A002194(n)+A010469(n)-A343964(n+1)`
--/
-
-namespace A019973.P7417355085603829838
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002194 (n + 1) + (A010469 (n + 1) - A343964 (n + 1 + 2))
-
-end
-
-end A019973.P7417355085603829838
-
 /-!
 # A019988: Number of ways of embedding a connected graph with n edges in the square lattice.
 
@@ -783,6 +781,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019988.P15122561779639118466
+
+/-! ## A019988.P13056710513557616839
+
+`A366766(A166136(n+4))`
+-/
+
+namespace A019988.P13056710513557616839
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366766 (A166136 (n + 4)).toNat
+
+end
+
+end A019988.P13056710513557616839
 
 /-! ## A019988.P13075646546584032474
 
@@ -828,21 +841,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019988.P4594126998496913989
-
-/-! ## A019988.P5298024682481000991
-
-`A366766(A000217(n+5)+6)`
--/
-
-namespace A019988.P5298024682481000991
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366766 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A019988.P5298024682481000991
 
 /-!
 # A019989: Indices n such that A307672(2*n) = 0.
@@ -1556,25 +1554,31 @@ end
 end A019991.P11284742707766681797
 
 /-!
-# A019992: 
+# A019992: a(n) = 4*a(n-1) + a(n-2) - a(n-3) - a(n-5).
 
-The programs for A019992, there is no canonical definition to state claims against.
+The programs for A019992, the canonical program `A019992.P11630357714450839266` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019992 has offset 0).
+
+The definition of A019992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A019992.P11630357714450839266
 
 `ogf((5+x-x^2-x^4)/(1-4x-x^2+x^3+x^5))`
+
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
-namespace A019992.P11630357714450839266
-noncomputable section
+namespace A019992
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [5, 1, -1, 0, -1] [1, -4, -1, 1, 0, 1] n
+/-- `ogf((5+x-x^2-x^4)/(1-4x-x^2+x^3+x^5))` -/
+def P11630357714450839266.Spec : Prop :=
+  ∀ n, P11630357714450839266.a n = A019992 n
 
-end
+theorem P11630357714450839266.correct : P11630357714450839266.Spec := by
+  intro n
+  simp only [A019992]
 
-end A019992.P11630357714450839266
+end A019992
 
 /-!
 # A019998: From George Gilbert's marks problem: jumping 7 marks at a time (final positions).

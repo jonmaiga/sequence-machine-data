@@ -3,23 +3,25 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C013
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C023
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C007
 import Seq.B003.C001
-import Seq.B003.C004
-import Seq.B012.C000
+import Seq.B003.C003
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -36,7 +38,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -157,20 +158,20 @@ end A041505
 The programs for A041507, there is no canonical definition to state claims against.
 -/
 
-/-! ## A041507.P6526442567905541625
+/-! ## A041507.P5226667614664239275
 
-`A194640(A194680(2*n+1)+A194650(n+1))`
+`A194672(n+3)+A194640(A194650(n+1))`
 -/
 
-namespace A041507.P6526442567905541625
+namespace A041507.P5226667614664239275
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194640 (A194680 (2 * n + 1) + A194650 (n + 1)).toNat
+  A194672 (n + 3) + A194640 (A194650 (n + 1)).toNat
 
 end
 
-end A041507.P6526442567905541625
+end A041507.P5226667614664239275
 
 /-!
 # A041510: Numerators of continued fraction convergents to sqrt(272).
@@ -459,6 +460,29 @@ def P6997673176157051633.Spec : Prop :=
 theorem P6997673176157051633.correct : P6997673176157051633.Spec := by
   intro n
   simp only [A041511]
+
+end A041511
+
+/-! ## A041511.P13690074150712764794
+
+`A041025(n)/(1+n%2)²`
+-/
+
+namespace A041511.P13690074150712764794
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041025 n : ℚ) / (((1 + n % 2) ^ 2 : ℕ) : ℚ)
+
+end
+
+end A041511.P13690074150712764794
+
+namespace A041511
+
+/-- `A041025(n)/(1+n%2)²` -/
+def P13690074150712764794.Spec : Prop :=
+  ∀ n, P13690074150712764794.a n = (A041511 n : ℚ)
 
 end A041511
 

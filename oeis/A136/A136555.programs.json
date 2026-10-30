@@ -2,6 +2,32 @@
   "oi": 136555,
   "ps": [
     {
+      "d": "2026-10-29",
+      "ix": "C(2^col(n)+row(n)-col(n)-1, col(n))",
+      "mt": 230,
+      "px": [
+        "2",
+        "n",
+        "col",
+        "^",
+        "n",
+        "row",
+        "+",
+        "n",
+        "col",
+        "sub",
+        "1",
+        "sub",
+        "n",
+        "col",
+        "C"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
+      ]
+    },
+    {
       "d": "2026-10-28",
       "ix": "C(2^col(n)+row(n)-col(n)-1, col(n))",
       "mt": 230,
@@ -22,11 +48,7 @@
         "col",
         "C"
       ],
-      "s": "oeis",
-      "tags": [
-        "proven",
-        "definition"
-      ]
+      "s": "oeis"
     },
     {
       "d": "2022-08-06",

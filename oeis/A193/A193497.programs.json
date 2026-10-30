@@ -116,6 +116,32 @@
         "1",
         "+"
       ]
+    },
+    {
+      "d": "2026-10-29",
+      "ix": "floor(ratio[de[e]+10])",
+      "mt": 91,
+      "px": [
+        "e",
+        "de",
+        "10",
+        "+",
+        "ratio",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-10-29",
+      "ix": "floor(ratio[atan(exp(de[e]))])",
+      "mt": 91,
+      "px": [
+        "e",
+        "de",
+        "exp",
+        "atan",
+        "ratio",
+        "floor"
+      ]
     }
   ]
 }

@@ -9,42 +9,48 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -581,7 +587,7 @@ end A354607.P17074262471526198637
 /-!
 # A354608: Number of quadruples (p_1, ..., p_4) of positive integers such that p_{i-1} <= p_i <= n^(i-1).
 
-The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
+The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
 
 The definition of A354608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -613,7 +619,7 @@ end A354608
 
 `(((((6*n-6)*n+3)*n+4)*n-3)*n+2)*n/6`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A354608
@@ -797,20 +803,20 @@ end
 
 end A354611.P2778005570043904770
 
-/-! ## A354611.P17700894353135054150
+/-! ## A354611.P17644404746233085439
 
-`A000122(A002457(n))-A356906(n)`
+`A000122(A002110(n))-A356906(n)`
 -/
 
-namespace A354611.P17700894353135054150
+namespace A354611.P17644404746233085439
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000122 (A002457 n).toNat - A356906 n
+  A000122 (A002110 n).toNat - A356906 n
 
 end
 
-end A354611.P17700894353135054150
+end A354611.P17644404746233085439
 
 /-!
 # A354612: Expansion of e.g.f. exp(f(x) - 1) where f(x) = (1 + x)^x = e.g.f. for A007113.
@@ -833,20 +839,20 @@ end
 
 end A354612.P7826479342260603226
 
-/-! ## A354612.P2683681213012325631
+/-! ## A354612.P6381674910273141244
 
-`A033999(A039724(n))*A052830(n)`
+`A008836(A048143(n))*A052830(n)`
 -/
 
-namespace A354612.P2683681213012325631
+namespace A354612.P6381674910273141244
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033999 (A039724 n).toNat * A052830 n
+  A008836 (A048143 n).toNat * A052830 n
 
 end
 
-end A354612.P2683681213012325631
+end A354612.P6381674910273141244
 
 /-!
 # A354613: Expansion of e.g.f. 1/(2 - (1 + x)^x).
@@ -1255,6 +1261,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A354620.P17694495396645184424
+
+/-! ## A354620.P15862400191118603087
+
+`eq[A326625(n), A367622(A096111(2*n))]`
+-/
+
+namespace A354620.P15862400191118603087
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326625 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367622 (A096111 (2 * n)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A354620.P15862400191118603087
 
 /-!
 # A354621: Number of n-tuples (p_1, p_2, ..., p_n) of positive integers such that p_{i-1} <= p_i <= prime(i).
@@ -2620,6 +2647,21 @@ end
 
 end A354661.P465973974120108777
 
+/-! ## A354661.P8699532119147722103
+
+`and(A002321(A265393(n+1)), A042982(n+2))`
+-/
+
+namespace A354661.P8699532119147722103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A002321 (A265393 (n + 1)).toNat) (A042982 (n + 2))
+
+end
+
+end A354661.P8699532119147722103
+
 /-!
 # A354662: G.f. A(x) satisfies: 2 = Sum_{n=-oo..+oo} (-x)^(n*(n+1)/2) * A(x)^(n*(n-1)/2).
 
@@ -2968,7 +3010,7 @@ end A354668.P1981478775188786914
 /-!
 # A354673: Smallest number of unit cells that must be removed from an n X n square board in order to avoid any cycles.
 
-The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
+The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
 
 The definition of A354673 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3000,7 +3042,7 @@ end A354673
 
 `2*a(n-1)-a(n-2)+a(n-6)-2*a(n-7)+a(n-8)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4, a(4)=6, a(5)=10, a(6)=13, a(7)=18, a(8)=22, a(9)=28`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A354673

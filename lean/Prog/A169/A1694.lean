@@ -1,11 +1,11 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B001.C003
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B003.C003
 import Seq.B004.C001
 import Seq.Opaque.C001
@@ -21,6 +21,21 @@ import Seq.Opaque.C022
 
 The programs for A169400, there is no canonical definition to state claims against.
 -/
+
+/-! ## A169400.P4301351498383491133
+
+`xor(A028240(n)*A034574(n+1), A169448(n))`
+-/
+
+namespace A169400.P4301351498383491133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A028240 n * A034574 (n + 1)) (A169448 n)
+
+end
+
+end A169400.P4301351498383491133
 
 /-! ## A169400.P7075577627863392301
 
@@ -39,6 +54,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169400.P7075577627863392301
+
+/-! ## A169400.P387085774336844455
+
+`xor(A042950(n)-A028240(n)%2, A034574(n+1))`
+-/
+
+namespace A169400.P387085774336844455
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A042950 n - Int.tmod (A028240 n) 2) (A034574 (n + 1))
+
+end
+
+end A169400.P387085774336844455
 
 /-! ## A169400.P5398071497369906726
 
@@ -173,7 +203,7 @@ end
 end A169449.P18098352696573812499
 
 /-!
-# A169452: 
+# A169452: Number of reduced words of length n in Coxeter group on 7 generators S_i with relations (S_i)^2 = (S_i S_j)^33 = I.
 
 The programs for A169452, there is no canonical definition to state claims against.
 -/

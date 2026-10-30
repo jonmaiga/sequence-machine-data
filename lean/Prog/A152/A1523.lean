@@ -8,17 +8,16 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C044
+import Seq.B000.C029
+import Seq.B000.C036
+import Seq.B000.C039
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -30,20 +29,22 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -173,20 +174,20 @@ end
 
 end A152301.P5403097240652388081
 
-/-! ## A152301.P17708943084938423527
+/-! ## A152301.P4683922143263310866
 
-`A152389(gcd(n+1, C(2, n)))`
+`A152389(gcd(1+n, C(2, n)))`
 -/
 
-namespace A152301.P17708943084938423527
+namespace A152301.P4683922143263310866
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152389 (Nat.gcd (n + 1) (Nat.choose 2 n))
+  A152389 (Nat.gcd (1 + n) (Nat.choose 2 n))
 
 end
 
-end A152301.P17708943084938423527
+end A152301.P4683922143263310866
 
 /-! ## A152301.P13988621734758484165
 
@@ -853,7 +854,7 @@ end A152312.P10100932872647728983
 /-!
 # A152313: Primes without 0's or primes in their decimal expansion.
 
-The programs for A152313, the canonical program `A152313.P10045116747263746088` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152313 has offset 1).
+The programs for A152313, the canonical program `A152313.P10045116747263746088` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152313 has offset 1).
 
 The definition of A152313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 867 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -862,7 +863,7 @@ The definition of A152313 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A202268(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A152313
@@ -1845,6 +1846,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152323.P16295900780054604419
+
+/-! ## A152323.P17776402160696316810
+
+`A014320(A391061(n)+A174344(n+1))`
+-/
+
+namespace A152323.P17776402160696316810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014320 (A391061 n + A174344 (n + 1)).toNat
+
+end
+
+end A152323.P17776402160696316810
 
 /-!
 # A152326: Number of permutations of floor(i*8/5), i=0..n-1, with all sums of 3 adjacent terms unique.
@@ -3109,6 +3125,51 @@ end
 
 end A152373.P9832510801653155376
 
+/-! ## A152373.P16242530223240959861
+
+`A152381(n+1)+A091337(A152390(n))`
+-/
+
+namespace A152373.P16242530223240959861
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152381 (n + 1) + A091337 (A152390 n).toNat
+
+end
+
+end A152373.P16242530223240959861
+
+/-! ## A152373.P16697226612498010700
+
+`A152381(n+1)%A002144(A001181(n))`
+-/
+
+namespace A152373.P16697226612498010700
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A152381 (n + 1)) (A002144 (A001181 n).toNat)
+
+end
+
+end A152373.P16697226612498010700
+
+/-! ## A152373.P16880281818990960053
+
+`A152381(n+1)+A067255(A152428(n+3))`
+-/
+
+namespace A152373.P16880281818990960053
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152381 (n + 1) + A067255 (A152428 (n + 3)).toNat
+
+end
+
+end A152373.P16880281818990960053
+
 /-!
 # A152374: Number of permutations of floor(i*5/4), i=0..n-1, with all sums of 6 adjacent terms unique.
 
@@ -3129,6 +3190,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152374.P10796593093196489909
+
+/-! ## A152374.P6495508999157774513
+
+`A152380(n+1)+A091337(A152390(n))`
+-/
+
+namespace A152374.P6495508999157774513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152380 (n + 1) + A091337 (A152390 n).toNat
+
+end
+
+end A152374.P6495508999157774513
+
+/-! ## A152374.P10368598685483090398
+
+`A152380(n+1)+A067255(A152428(n+3))`
+-/
+
+namespace A152374.P10368598685483090398
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152380 (n + 1) + A067255 (A152428 (n + 3)).toNat
+
+end
+
+end A152374.P10368598685483090398
 
 /-!
 # A152375: Number of permutations of floor(i*6/5), i=0..n-1, with all sums of 6 adjacent terms unique.

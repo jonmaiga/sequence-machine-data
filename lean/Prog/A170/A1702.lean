@@ -67,3 +67,27 @@ end
 
 end A170252.P17275373401017889513
 
+/-!
+# A170279: Number of reduced words of length n in Coxeter group on 30 generators S_i with relations (S_i)^2 = (S_i S_j)^41 = I.
+
+The programs for A170279, there is no canonical definition to state claims against.
+-/
+
+/-! ## A170279.P2761824840253793597
+
+`A170327(n+1)-Δ[A170749(n)]`
+-/
+
+namespace A170279.P2761824840253793597
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170749 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170327 (n + 1) - (f1 (n + 1) - f1 n)
+
+end
+
+end A170279.P2761824840253793597
+

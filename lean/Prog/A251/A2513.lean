@@ -4,46 +4,47 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C001
-import Seq.B011.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -54,6 +55,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -313,7 +315,7 @@ end
 end A251304.P6629916238762562287
 
 /-!
-# A251306: 
+# A251306: Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements less than the maximum of its antidiagonal elements.
 
 The programs for A251306, there is no canonical definition to state claims against.
 -/
@@ -1941,6 +1943,27 @@ end
 
 end A251325.P8445706756591735291
 
+/-! ## A251325.P17439663088898957490
+
+`A251326(eq[11, A066657(n)])`
+-/
+
+namespace A251325.P17439663088898957490
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  11
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066657 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251326 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A251325.P17439663088898957490
+
 /-! ## A251325.P15271649008537301492
 
 `A251326(A166136(n+5)+1)`
@@ -1991,21 +2014,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251325.P13943904428546933335
-
-/-! ## A251325.P10613613006421253236
-
-`A251326(A055999(n+4))`
--/
-
-namespace A251325.P10613613006421253236
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251326 (A055999 (n + 4)).toNat
-
-end
-
-end A251325.P10613613006421253236
 
 /-!
 # A251326: T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock having one or two 1s.
@@ -2160,6 +2168,29 @@ namespace A251328
 /-- `A126473(n+2)+A000079(n+2)²` -/
 def P3214188972416696888.Spec : Prop :=
   ∀ n, P3214188972416696888.a n = A251328 (n + 1)
+
+end A251328
+
+/-! ## A251328.P11685775736252470363
+
+`A126473(n+2)+A011782(n+3)²`
+-/
+
+namespace A251328.P11685775736252470363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126473 (n + 2) + A011782 (n + 3) ^ 2
+
+end
+
+end A251328.P11685775736252470363
+
+namespace A251328
+
+/-- `A126473(n+2)+A011782(n+3)²` -/
+def P11685775736252470363.Spec : Prop :=
+  ∀ n, P11685775736252470363.a n = A251328 (n + 1)
 
 end A251328
 
@@ -3708,7 +3739,7 @@ end
 end A251349.P8875389847100890791
 
 /-!
-# A251350: 
+# A251350: Number of (n+1)X(7+1) 0..2 arrays with every 2X2 subblock summing to 3 4 or 5.
 
 The programs for A251350, there is no canonical definition to state claims against.
 -/
@@ -3945,7 +3976,7 @@ end
 end A251354.P15177825707071183558
 
 /-!
-# A251356: 
+# A251356: Number of (n+1)X(5+1) 0..3 arrays with no 2X2 subblock having its maximum diagonal element less than the absolute difference of its antidiagonal elements.
 
 The programs for A251356, there is no canonical definition to state claims against.
 -/
@@ -4002,7 +4033,7 @@ end
 end A251356.P4175791410926953138
 
 /-!
-# A251357: 
+# A251357: Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having its maximum diagonal element less than the absolute difference of its antidiagonal elements.
 
 The programs for A251357, there is no canonical definition to state claims against.
 -/
@@ -4023,7 +4054,7 @@ end
 end A251357.P9906107310338212255
 
 /-!
-# A251358: 
+# A251358: Number of (n+1)X(7+1) 0..3 arrays with no 2X2 subblock having its maximum diagonal element less than the absolute difference of its antidiagonal elements.
 
 The programs for A251358, there is no canonical definition to state claims against.
 -/
@@ -4089,26 +4120,26 @@ def P456730405745834131.Spec : Prop :=
 
 end A251364
 
-/-! ## A251364.P3928387711929838844
+/-! ## A251364.P482245357873746461
 
-`A145834(A024678(n+1)-1)`
+`A145834(A024678(1+n)-1)`
 -/
 
-namespace A251364.P3928387711929838844
+namespace A251364.P482245357873746461
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145834 (A024678 (n + 1) - 1).toNat
+  A145834 (A024678 (1 + n) - 1).toNat
 
 end
 
-end A251364.P3928387711929838844
+end A251364.P482245357873746461
 
 namespace A251364
 
-/-- `A145834(A024678(n+1)-1)` -/
-def P3928387711929838844.Spec : Prop :=
-  ∀ n, P3928387711929838844.a n = A251364 (n + 1)
+/-- `A145834(A024678(1+n)-1)` -/
+def P482245357873746461.Spec : Prop :=
+  ∀ n, P482245357873746461.a n = A251364 (n + 1)
 
 end A251364
 
@@ -4234,7 +4265,7 @@ def P16123504801298424567.Spec : Prop :=
 end A251364
 
 /-!
-# A251365: 
+# A251365: Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock summing to 1 2 3 4 5 6 or 7.
 
 The programs for A251365, there is no canonical definition to state claims against.
 -/
@@ -4630,23 +4661,23 @@ end
 
 end A251369.P16211072851765165343
 
-/-! ## A251369.P12581765782623059027
+/-! ## A251369.P16764293552832879379
 
-`A251373(A155212(n)+5)`
+`A251373(A141214(n+1))`
 -/
 
-namespace A251369.P12581765782623059027
+namespace A251369.P16764293552832879379
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251373 (A155212 n + 5).toNat
+  A251373 (A141214 (n + 1)).toNat
 
 end
 
-end A251369.P12581765782623059027
+end A251369.P16764293552832879379
 
 /-!
-# A251370: 
+# A251370: Number of (n+1)X(5+1) 0..2 arrays with every 2X2 subblock summing to 1 2 3 4 5 6 or 7.
 
 The programs for A251370, there is no canonical definition to state claims against.
 -/
@@ -4670,7 +4701,7 @@ end
 end A251370.P3944028237418396852
 
 /-!
-# A251371: 
+# A251371: Number of (n+1)X(6+1) 0..2 arrays with every 2X2 subblock summing to 1 2 3 4 5 6 or 7.
 
 The programs for A251371, there is no canonical definition to state claims against.
 -/
@@ -4691,7 +4722,7 @@ end
 end A251371.P3159663492210071020
 
 /-!
-# A251372: 
+# A251372: Number of (n+1) X (7+1) 0..2 arrays with every 2 X 2 subblock summing to 1 2 3 4 5 6 or 7.
 
 The programs for A251372, there is no canonical definition to state claims against.
 -/
@@ -5054,7 +5085,7 @@ end
 end A251378.P9986789074955191586
 
 /-!
-# A251380: 
+# A251380: Number of (n+1)X(7+1) 0..3 arrays with every 2X2 subblock summing to 5 6 or 7.
 
 The programs for A251380, there is no canonical definition to state claims against.
 -/
@@ -5075,7 +5106,7 @@ end
 end A251380.P9061645702813864190
 
 /-!
-# A251382: 
+# A251382: Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock summing to 2 3 4 5 or 6.
 
 The programs for A251382, there is no canonical definition to state claims against.
 -/
@@ -5470,7 +5501,7 @@ end
 end A251386.P1312081854770269022
 
 /-!
-# A251389: 
+# A251389: Number of (n+1)X(7+1) 0..2 arrays with every 2X2 subblock summing to 2 3 4 5 or 6.
 
 The programs for A251389, there is no canonical definition to state claims against.
 -/

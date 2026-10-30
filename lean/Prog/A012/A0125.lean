@@ -5,20 +5,20 @@ import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C028
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B007.C000
+import Seq.B006.C000
+import Seq.B008.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -42,6 +42,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A012501: cos(cos(x)*arctan(x))=1-1/2!*x^2+21/4!*x^4-645/6!*x^6+34153/8!*x^8...
@@ -1399,6 +1400,27 @@ end
 end A012569.P9476924104009101770
 
 /-!
+# A012570: sech(sinh(x)*cos(x))=1-1/2!*x^2+13/4!*x^4-277/6!*x^6+12185/8!*x^8...
+
+The programs for A012570, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012570.P5453473503964861800
+
+`or(A326458(A129323(n)), A400574(n))`
+-/
+
+namespace A012570.P5453473503964861800
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A326458 (A129323 n).toNat) (A400574 n)
+
+end
+
+end A012570.P5453473503964861800
+
+/-!
 # A012571: Expansion of arcsin(sinh(x)*sinh(x)).
 
 The programs for A012571, there is no canonical definition to state claims against.
@@ -1992,6 +2014,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012586.P6881002500948875860
+
+/-!
+# A012587: E.g.f.: tan(arcsinh(x)*exp(x))=x+2/2!*x^2+4/3!*x^3+24/4!*x^4+180/5!*x^5...
+
+The programs for A012587, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012587.P9976821536098746310
+
+`A000081(n)*A393058(A163921(n))`
+-/
+
+namespace A012587.P9976821536098746310
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000081 n * A393058 (A163921 n).toNat
+
+end
+
+end A012587.P9976821536098746310
 
 /-!
 # A012588: Expansion of e.g.f. arctan(arcsinh(x) * exp(x)).

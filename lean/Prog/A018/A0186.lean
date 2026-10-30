@@ -21,11 +21,12 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -35,10 +36,10 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -46,21 +47,19 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1666,6 +1665,24 @@ end A018622.P6033231826045124598
 The programs for A018623, there is no canonical definition to state claims against.
 -/
 
+/-! ## A018623.P927662220396053941
+
+`record[gcd(A139249(A139249(n+1)), n+1)]`
+-/
+
+namespace A018623.P927662220396053941
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A139249 (A139249 (n + 1)).toNat) (n + 1 : ℤ)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A018623.P927662220396053941
+
 /-! ## A018623.P4853900141252964716
 
 `eq[A029265(n), A087180(n)]`
@@ -1747,24 +1764,6 @@ end
 
 end A018623.P7912911136395008208
 
-/-! ## A018623.P5382567636016422380
-
-`filter[A102705(n+1), A336923(#)]`
--/
-
-namespace A018623.P5382567636016422380
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102705 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A336923 (f1 j).toNat = 1) n)
-
-end
-
-end A018623.P5382567636016422380
-
 /-!
 # A018624: Divisors of 747.
 
@@ -1795,20 +1794,20 @@ end A018624.P9531725551412450023
 The programs for A018625, there is no canonical definition to state claims against.
 -/
 
-/-! ## A018625.P7751460614988547553
+/-! ## A018625.P5091819684664246381
 
-`A235027(A018701(n+1))`
+`A057889(A018701(n+1))`
 -/
 
-namespace A018625.P7751460614988547553
+namespace A018625.P5091819684664246381
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235027 (A018701 (n + 1)).toNat
+  A057889 (A018701 (n + 1)).toNat
 
 end
 
-end A018625.P7751460614988547553
+end A018625.P5091819684664246381
 
 /-! ## A018625.P13312276165045332584
 
@@ -2796,6 +2795,27 @@ end A018637.P14413339513023304963
 
 The programs for A018638, there is no canonical definition to state claims against.
 -/
+
+/-! ## A018638.P17537702450381939833
+
+`eq[lcm(18, n)/18, A297321(lcm(18, n)/18)]`
+-/
+
+namespace A018638.P17537702450381939833
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.lcm 18 n : ℚ) / 18
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297321 (SequenceMachineLib.roundAway ((Nat.lcm 18 n : ℚ) / 18)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℚ)) n
+
+end
+
+end A018638.P17537702450381939833
 
 /-! ## A018638.P16205570861207586662
 
@@ -3980,6 +4000,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018655.P2906529239082727289
+
+/-! ## A018655.P2961078373767919989
+
+`A317108(A018698(n+1))-A018738(n+1)`
+-/
+
+namespace A018655.P2961078373767919989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317108 (A018698 (n + 1)).toNat - A018738 (n + 1)
+
+end
+
+end A018655.P2961078373767919989
 
 /-! ## A018655.P12227325144111740553
 

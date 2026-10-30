@@ -2,25 +2,24 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C007
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C017
 import Seq.B000.C022
 import Seq.B001.C000
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B003.C001
+import Seq.B004.C001
 import Seq.B008.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C018
 
 /-!
@@ -797,6 +796,32 @@ def P11901507158048907980.Spec : Prop :=
 
 end A010683
 
+/-! ## A010683.P2244446591463842967
+
+`∑{#}[n, A001003(#)*A001003(n-#)]`
+-/
+
+namespace A010683.P2244446591463842967
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A001003 k * A001003 (n - k)
+
+end
+
+end A010683.P2244446591463842967
+
+namespace A010683
+
+/-- `∑{#}[n, A001003(#)*A001003(n-#)]` -/
+def P2244446591463842967.Spec : Prop :=
+  ∀ n, P2244446591463842967.a n = A010683 n
+
+end A010683
+
 /-! ## A010683.P3007610166732009688
 
 `record[A011117(n)/A109449(n+1)]`
@@ -820,32 +845,6 @@ namespace A010683
 /-- `record[A011117(n)/A109449(n+1)]` -/
 def P3007610166732009688.Spec : Prop :=
   ∀ n, P3007610166732009688.a n = (A010683 n : ℚ)
-
-end A010683
-
-/-! ## A010683.P15548806460987821062
-
-`record[A011117(n)/A147315(n+1)]`
--/
-
-namespace A010683.P15548806460987821062
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A011117 n : ℚ) / (A147315 (n + 1) : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A010683.P15548806460987821062
-
-namespace A010683
-
-/-- `record[A011117(n)/A147315(n+1)]` -/
-def P15548806460987821062.Spec : Prop :=
-  ∀ n, P15548806460987821062.a n = (A010683 n : ℚ)
 
 end A010683
 

@@ -8,40 +8,43 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C001
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -50,11 +53,11 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -189,6 +192,21 @@ end
 
 end A223301.P5440049086943005912
 
+/-! ## A223301.P15050828043127114100
+
+`A223305(A000124(n+3)+3)`
+-/
+
+namespace A223301.P15050828043127114100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223305 (A000124 (n + 3) + 3).toNat
+
+end
+
+end A223301.P15050828043127114100
+
 /-! ## A223301.P13765866118970909784
 
 `A223305(eq[3, A002262(n)]+1)`
@@ -210,38 +228,20 @@ end
 
 end A223301.P13765866118970909784
 
-/-! ## A223301.P8599632167693257888
+/-! ## A223301.P11693443769416035849
 
-`A223305(Δ[A264443(n)-n²])`
+`A223305(A000217(n+4)-n)`
 -/
 
-namespace A223301.P8599632167693257888
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264443 n - (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223305 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223301.P8599632167693257888
-
-/-! ## A223301.P6149339387100650497
-
-`A223305(A141214(n+1))`
--/
-
-namespace A223301.P6149339387100650497
+namespace A223301.P11693443769416035849
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223305 (A141214 (n + 1)).toNat
+  A223305 (A000217 (n + 4) - (n : ℤ)).toNat
 
 end
 
-end A223301.P6149339387100650497
+end A223301.P11693443769416035849
 
 /-!
 # A223302: 4X4X4 triangular graph coloring a rectangular array: number of nX5 0..9 arrays where 0..9 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -409,7 +409,7 @@ end
 end A223303.P13131170202467245725
 
 /-!
-# A223304: 
+# A223304: 4X4X4 triangular graph coloring a rectangular array: number of nX7 0..9 arrays where 0..9 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
 The programs for A223304, there is no canonical definition to state claims against.
 -/
@@ -1251,6 +1251,21 @@ end
 
 end A223317.P4360886381972427843
 
+/-! ## A223317.P13940254933823967651
+
+`A157933(n)-(A112919(2*n+7)-1)`
+-/
+
+namespace A223317.P13940254933823967651
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A157933 n - (A112919 (2 * n + 7) - 1)
+
+end
+
+end A223317.P13940254933823967651
+
 /-! ## A223317.P13961627114636019728
 
 `A157933(n)+A054977(lcm(4, 2^(n+2))-(n+3))`
@@ -1280,21 +1295,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223317.P17727777023436473462
-
-/-! ## A223317.P16605832365679597769
-
-`A157933(n)+A089723(A078057(n))`
--/
-
-namespace A223317.P16605832365679597769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A157933 n + A089723 (A078057 n).toNat
-
-end
-
-end A223317.P16605832365679597769
 
 /-!
 # A223318: Rolling icosahedron footprints: number of n X 5 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or antidiagonal neighbor moves along an icosahedral edge.
@@ -1417,7 +1417,7 @@ end
 end A223319.P16785284532854601563
 
 /-!
-# A223320: 
+# A223320: Rolling icosahedron footprints: number of nX7 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or antidiagonal neighbor moves along an icosahedral edge.
 
 The programs for A223320, there is no canonical definition to state claims against.
 -/
@@ -1762,7 +1762,7 @@ end
 end A223325.P14537570474326017288
 
 /-!
-# A223326: 
+# A223326: Rolling icosahedron footprints: number of 6Xn 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or antidiagonal neighbor moves along an icosahedral edge.
 
 The programs for A223326, there is no canonical definition to state claims against.
 -/
@@ -1817,6 +1817,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223327.P16997936956020140113
+
+/-! ## A223327.P1964471789374919672
+
+`A223331(A001844(n))%A234379(n+1)`
+-/
+
+namespace A223327.P1964471789374919672
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A223331 (A001844 n).toNat) (A234379 (n + 1))
+
+end
+
+end A223327.P1964471789374919672
 
 /-!
 # A223328: Rolling cube footprints: number of n X 5 0..7 arrays starting with 0 where 0..7 label vertices of a cube and every array movement to a horizontal or antidiagonal neighbor moves along a corresponding cube edge.
@@ -2334,7 +2349,7 @@ end A223336.P10416958176797395732
 /-!
 # A223337: 5 X 5 X 5 triangular graph coloring a rectangular array: number of n X 1 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 6,10 6,11 7,11 10,11 7,12 8,12 11,12 11,12 8,13 9,13 12,13 9,14 13,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
+The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
 
 The definition of A223337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2366,7 +2381,7 @@ end A223337
 
 `4*a(n-1)+4*a(n-2)-8*a(n-3)` with `a(0)=15, a(1)=60, a(2)=264`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223337
@@ -2829,7 +2844,7 @@ end
 end A223342.P1855617621482897335
 
 /-!
-# A223343: 
+# A223343: 5X5X5 triangular graph coloring a rectangular array: number of nX7 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 6,10 6,11 7,11 10,11 7,12 8,12 11,12 11,12 8,13 9,13 12,13 9,14 13,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
 The programs for A223343, there is no canonical definition to state claims against.
 -/
@@ -2894,7 +2909,7 @@ end A223345.P1042919012087797176
 /-!
 # A223346: 3 X 3 X 3 triangular graph without horizontal edges coloring a rectangular array: number of n X 1 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,3 1,4 2,4 2,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223346, the canonical program `A223346.P2908638774498009666` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
+The programs for A223346, the canonical program `A223346.P2908638774498009666` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
 
 The definition of A223346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2903,7 +2918,7 @@ The definition of A223346 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((6+12x-2x^2)/(1-5x^2))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223346
@@ -3067,6 +3082,21 @@ end
 
 end A223347.P9000413849576254201
 
+/-! ## A223347.P5538007982587721904
+
+`A160338(n+1)*A223352(A167614(n+1))`
+-/
+
+namespace A223347.P5538007982587721904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160338 (n + 1) * A223352 (A167614 (n + 1)).toNat
+
+end
+
+end A223347.P5538007982587721904
+
 /-! ## A223347.P85937145916159720
 
 `A223352(A167614(n+1))%A223348(n+1)`
@@ -3184,6 +3214,36 @@ end
 
 end A223349.P12177406021934432832
 
+/-! ## A223349.P1699737417331901348
+
+`A223352(A167614(n+3)+2)`
+-/
+
+namespace A223349.P1699737417331901348
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223352 (A167614 (n + 3) + 2).toNat
+
+end
+
+end A223349.P1699737417331901348
+
+/-! ## A223349.P6517604767923983839
+
+`A223352(A000217(n+4)+5)`
+-/
+
+namespace A223349.P6517604767923983839
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223352 (A000217 (n + 4) + 5).toNat
+
+end
+
+end A223349.P6517604767923983839
+
 /-! ## A223349.P6874291436064893560
 
 `A223352(eq[6, A131818(n+1)])`
@@ -3219,45 +3279,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223349.P17819663117430363897
-
-/-! ## A223349.P15809032002553243943
-
-`A223352(eq[4, A193592(n)])`
--/
-
-namespace A223349.P15809032002553243943
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223352 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223349.P15809032002553243943
-
-/-! ## A223349.P14574333285335570152
-
-`A223352(Δ[A023545(n+1)])`
--/
-
-namespace A223349.P14574333285335570152
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223352 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223349.P14574333285335570152
 
 /-!
 # A223350: 3X3X3 triangular graph without horizontal edges coloring a rectangular array: number of nX6 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,3 1,4 2,4 2,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -3623,7 +3644,7 @@ end
 end A223355.P9729914168733998284
 
 /-!
-# A223356: 
+# A223356: Rolling cube footprints: number of nX7 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge.
 
 The programs for A223356, there is no canonical definition to state claims against.
 -/
@@ -3896,7 +3917,7 @@ end
 end A223361.P700364506506841765
 
 /-!
-# A223362: 
+# A223362: Rolling cube footprints: number of 7Xn 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge.
 
 The programs for A223362, there is no canonical definition to state claims against.
 -/
@@ -3940,7 +3961,7 @@ end A223362.P14268437700380779245
 /-!
 # A223363: 6 X 6 X 6 triangular graph coloring a rectangular array: number of n X 1 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
+The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
 
 The definition of A223363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3972,7 +3993,7 @@ end A223363
 
 `6*a(n-1)-4*a(n-2)-8*a(n-3)` with `a(0)=21, a(1)=90, a(2)=420`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223363
@@ -4478,7 +4499,7 @@ end
 end A223368.P17810965662785117661
 
 /-!
-# A223369: 
+# A223369: 6X6X6 triangular graph coloring a rectangular array: number of nX7 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
 The programs for A223369, there is no canonical definition to state claims against.
 -/
@@ -4543,7 +4564,7 @@ end A223371.P6570863994365664014
 /-!
 # A223372: 3X3 square grid graph coloring a rectangular array: number of nX1 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
+The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
 
 The definition of A223372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 220 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4552,7 +4573,7 @@ The definition of A223372 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-2)` with `a(0)=9, a(1)=24, a(2)=68`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223372
@@ -4662,7 +4683,7 @@ end A223372
 /-!
 # A223373: 3 X 3 square grid graph coloring a rectangular array: number of n X 2 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
+The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
 
 The definition of A223373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4694,7 +4715,7 @@ end A223373
 
 `7*a(n-1)-4*a(n-2)` with `a(0)=24, a(1)=144`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223373
@@ -4913,6 +4934,24 @@ end
 
 end A223375.P10575640720245664410
 
+/-! ## A223375.P12904617085339767692
+
+`A223379(Δ[A005286(n)]+5)`
+-/
+
+namespace A223375.P12904617085339767692
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005286 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223379 (f1 (n + 1) - f1 n + 5).toNat
+
+end
+
+end A223375.P12904617085339767692
+
 /-! ## A223375.P17134362792316021212
 
 `A223379(A167614(n+2)+1)`
@@ -4927,24 +4966,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223375.P17134362792316021212
-
-/-! ## A223375.P13288800064277358325
-
-`A223379(Δ[A023545(n+1)-n²])`
--/
-
-namespace A223375.P13288800064277358325
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1) - (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223379 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223375.P13288800064277358325
 
 /-!
 # A223376: 3X3 square grid graph coloring a rectangular array: number of nX5 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -5168,7 +5189,7 @@ end A223380.P13683885374848985264
 /-!
 # A223381: Number of n X 2 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.
 
-The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
+The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
 
 The definition of A223381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5200,7 +5221,7 @@ end A223381
 
 `8*a(n-1)-10*a(n-2)` with `a(0)=2, a(1)=9, a(2)=57`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223381
@@ -6145,7 +6166,7 @@ end A223394.P4024417999640105227
 /-!
 # A223395: 4 X 4 square grid graph coloring a rectangular array: number of n X 1 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
+The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
 
 The definition of A223395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6177,7 +6198,7 @@ end A223395
 
 `3*a(n-1)+2*a(n-2)-4*a(n-3)` with `a(0)=16, a(1)=48, a(2)=152`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A223395

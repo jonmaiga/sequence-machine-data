@@ -17,45 +17,43 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C049
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C013
+import Seq.B001.C012
+import Seq.B001.C014
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -533,6 +531,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301121.P13303505790788578714
+
+/-!
+# A301122: Coordination sequence T3 for Zeolite Code MAR.
+
+The programs for A301122, there is no canonical definition to state claims against.
+-/
+
+/-! ## A301122.P9323182018640119248
+
+`xor(A034432(A216886(n+1)), A301039(n))`
+-/
+
+namespace A301122.P9323182018640119248
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A034432 (A216886 (n + 1)).toNat) (A301039 n)
+
+end
+
+end A301122.P9323182018640119248
 
 /-!
 # A301124: Coordination sequence T2 for Zeolite Code MOZ.
@@ -1418,6 +1437,21 @@ end A301160.P6626685198965249605
 The programs for A301161, there is no canonical definition to state claims against.
 -/
 
+/-! ## A301161.P5752416036303274131
+
+`A124761(A008033(n))+A008119(n)`
+-/
+
+namespace A301161.P5752416036303274131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124761 (A008033 n).toNat + A008119 n
+
+end
+
+end A301161.P5752416036303274131
+
 /-! ## A301161.P13460141809103576763
 
 `A324731(A138292(n))+A008119(n)`
@@ -2128,6 +2162,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301191.P10357079422927897505
+
+/-! ## A301191.P730314080065836285
+
+`A341513(A319850(n+1))+A045943(n)`
+-/
+
+namespace A301191.P730314080065836285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341513 (A319850 (n + 1)).toNat + A045943 n
+
+end
+
+end A301191.P730314080065836285
 
 /-! ## A301191.P17973998174765011171
 

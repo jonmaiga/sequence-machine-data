@@ -8,25 +8,26 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B002.C000
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B005.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
@@ -42,7 +43,6 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 
@@ -1243,6 +1243,21 @@ end
 
 end A012477.P17000049207312042730
 
+/-! ## A012477.P13109068617976203412
+
+`or(n, A009338(A317439(n+1)))-n`
+-/
+
+namespace A012477.P13109068617976203412
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (n : ℤ) (A009338 (A317439 (n + 1)).toNat) - (n : ℤ)
+
+end
+
+end A012477.P13109068617976203412
+
 /-! ## A012477.P15712009553524546159
 
 `A009338(2*n+1)-A000007(n+1)`
@@ -1257,6 +1272,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012477.P15712009553524546159
+
+/-! ## A012477.P1932261414153494537
+
+`or(A000007(n), A009338(A317439(n+1)))`
+-/
+
+namespace A012477.P1932261414153494537
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A000007 n) (A009338 (A317439 (n + 1)).toNat)
+
+end
+
+end A012477.P1932261414153494537
+
+/-! ## A012477.P3604785388159731996
+
+`A009338(A317439(n+1))/A007318(∑[n])`
+-/
+
+namespace A012477.P3604785388159731996
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A009338 (A317439 (n + 1)).toNat : ℚ) / (A007318 (∑ j ∈ Finset.range (n + 1), f1 j) : ℚ)
+
+end
+
+end A012477.P3604785388159731996
 
 /-!
 # A012484: arctan(cos(x)*arcsin(x))=x-4/3!*x^3+68/5!*x^5-3064/7!*x^7+265936/9!*x^9...
@@ -1401,6 +1449,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012486.P2587801201964441044
+
+/-! ## A012486.P11728190441803830159
+
+`or(1, A012480(A247328(n+1)))`
+-/
+
+namespace A012486.P11728190441803830159
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 (A012480 (A247328 (n + 1)).toNat)
+
+end
+
+end A012486.P11728190441803830159
 
 /-!
 # A012489: arctanh(cos(x)*arcsin(x))=x-12/5!*x^5-168/7!*x^7+8144/9!*x^9...

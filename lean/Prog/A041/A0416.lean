@@ -8,27 +8,28 @@ import Seq.B000.C004
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C006
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -493,6 +494,35 @@ def P13546490986765677038.Spec : Prop :=
 
 end A041612
 
+/-! ## A041612.P14861424116505132452
+
+`Δ[floor(∑[A006497(3*n)/2])]`
+-/
+
+namespace A041612.P14861424116505132452
+noncomputable section
+
+def f2 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A006497 (3 * n) : ℚ) / 2
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊∑ j ∈ Finset.range (n + 1), f2 j⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A041612.P14861424116505132452
+
+namespace A041612
+
+/-- `Δ[floor(∑[A006497(3*n)/2])]` -/
+def P14861424116505132452.Spec : Prop :=
+  ∀ n, P14861424116505132452.a n = A041612 n
+
+end A041612
+
 /-! ## A041612.P10537398867697229270
 
 `lcm(A033999(n), A041018(A016897(n)))`
@@ -883,20 +913,20 @@ end
 
 end A041619.P10953973101854040509
 
-/-! ## A041619.P6001953386515418716
+/-! ## A041619.P16035623165896136798
 
-`A041145(n)/gcd(gcd(2, n+1), A209446(n))`
+`A041145(n)/gcd(2, A055998(2*(n+1)))`
 -/
 
-namespace A041619.P6001953386515418716
+namespace A041619.P16035623165896136798
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A041145 n : ℚ) / (Int.gcd (Nat.gcd 2 (n + 1) : ℤ) (A209446 n) : ℚ)
+  (A041145 n : ℚ) / (Int.gcd 2 (A055998 (2 * (n + 1))) : ℚ)
 
 end
 
-end A041619.P6001953386515418716
+end A041619.P16035623165896136798
 
 /-! ## A041619.P2674268257339227205
 

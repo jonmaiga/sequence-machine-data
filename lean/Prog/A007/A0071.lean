@@ -7,7 +7,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -15,21 +15,21 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
@@ -45,7 +45,6 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -55,8 +54,9 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -86,6 +86,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 /-!
 # A007102: Number of labeled disconnected trivalent (or cubic) graphs with 2n nodes.
@@ -243,38 +244,35 @@ end
 
 end A007105.P181850460352987170
 
-/-! ## A007105.P13310206125109441341
+/-! ## A007105.P1645231839639307378
 
-`A284990(A000217(n))^A000045(n²%(n+1))`
+`A284990(A000217(n))+A236417(n+1)`
 -/
 
-namespace A007105.P13310206125109441341
+namespace A007105.P1645231839639307378
 noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A284990 (A000217 n).toNat : ℚ) ^ (A000045 (n ^ 2 % (n + 1)) : ℤ)
-
-end
-
-end A007105.P13310206125109441341
-
-/-! ## A007105.P10671516546726203642
-
-`A284991(∑[n]+n)`
--/
-
-namespace A007105.P10671516546726203642
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284991 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+  A284990 (A000217 n).toNat + A236417 (n + 1)
 
 end
 
-end A007105.P10671516546726203642
+end A007105.P1645231839639307378
+
+/-! ## A007105.P18090371754030643825
+
+`A284990(A000217(n))-A284974(n+1)`
+-/
+
+namespace A007105.P18090371754030643825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284990 (A000217 n).toNat - A284974 (n + 1)
+
+end
+
+end A007105.P18090371754030643825
 
 /-!
 # A007106: Number of labeled odd degree trees with 2n nodes.
@@ -330,41 +328,41 @@ end
 
 end A007106.P10461023032821442179
 
-/-! ## A007106.P7097460718869704904
+/-! ## A007106.P13021663596292433964
 
-`record[A058014(A004442(n))]`
+`∑{#}[n, A370431(C(n+1, 2)+#)]`
 -/
 
-namespace A007106.P7097460718869704904
+namespace A007106.P13021663596292433964
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058014 (A004442 n).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  ∑ k ∈ Finset.range (f1 n + 1), A370431 (Nat.choose (n + 1) 2 + k)
 
 end
 
-end A007106.P7097460718869704904
+end A007106.P13021663596292433964
 
-/-! ## A007106.P10429260325865072761
+/-! ## A007106.P7358155205368594704
 
-`record[A058014(A000265(n+1))]`
+`∑{#}[n, A370433(C(n+1, 2)+#)]`
 -/
 
-namespace A007106.P10429260325865072761
+namespace A007106.P7358155205368594704
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058014 (A000265 (n + 1)).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  ∑ k ∈ Finset.range (f1 n + 1), A370433 (Nat.choose (n + 1) 2 + k)
 
 end
 
-end A007106.P10429260325865072761
+end A007106.P7358155205368594704
 
 /-!
 # A007107: Number of labeled 2-regular digraphs with n nodes.
@@ -390,65 +388,65 @@ end
 
 end A007107.P9923382919711908033
 
-/-! ## A007107.P17556534583559214301
+/-! ## A007107.P15811310578884615995
 
-`A284989(A000217(n))+A008683(16*(n+1))`
+`A284989(A000217(n))-A284974(n+1)`
 -/
 
-namespace A007107.P17556534583559214301
+namespace A007107.P15811310578884615995
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284989 (A000217 n).toNat + A008683 (16 * (n + 1))
+  A284989 (A000217 n).toNat - A284974 (n + 1)
 
 end
 
-end A007107.P17556534583559214301
+end A007107.P15811310578884615995
 
-/-! ## A007107.P4046015888000789837
+/-! ## A007107.P6114851840993304350
 
-`A000005(gcd(n, n+1))*A284989(A000217(n))`
+`A284989(A000217(n))-A285005(n+1)`
 -/
 
-namespace A007107.P4046015888000789837
+namespace A007107.P6114851840993304350
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (Nat.gcd n (n + 1)) * A284989 (A000217 n).toNat
+  A284989 (A000217 n).toNat - A285005 (n + 1)
 
 end
 
-end A007107.P4046015888000789837
+end A007107.P6114851840993304350
 
-/-! ## A007107.P10850079466011166472
+/-! ## A007107.P10898694207165536686
 
-`or(-1, A000041(n))²*A284989(A000217(n))`
+`A284989(A000217(n))-A285006(n+1)`
 -/
 
-namespace A007107.P10850079466011166472
+namespace A007107.P10898694207165536686
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (-1) (A000041 n) ^ 2 * A284989 (A000217 n).toNat
+  A284989 (A000217 n).toNat - A285006 (n + 1)
 
 end
 
-end A007107.P10850079466011166472
+end A007107.P10898694207165536686
 
-/-! ## A007107.P7496245008175778337
+/-! ## A007107.P1109370638683351420
 
-`A007318(C(n, n²)!)*A284989(A000217(n))`
+`A284989(A000217(n))-A285007(n+1)`
 -/
 
-namespace A007107.P7496245008175778337
+namespace A007107.P1109370638683351420
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.factorial (Nat.choose n (n ^ 2))) * A284989 (A000217 n).toNat
+  A284989 (A000217 n).toNat - A285007 (n + 1)
 
 end
 
-end A007107.P7496245008175778337
+end A007107.P1109370638683351420
 
 /-!
 # A007108: Number of connected labeled 2-regular digraphs with n nodes.
@@ -719,6 +717,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007111.P9531586224098991905
+
+/-! ## A007111.P16092660123029848281
+
+`round(A357265(n)/A304204(n+5))`
+-/
+
+namespace A007111.P16092660123029848281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A357265 n : ℚ) / (A304204 (n + 5) : ℚ))
+
+end
+
+end A007111.P16092660123029848281
 
 /-!
 # A007112: Number of connected unlabeled graphs with n nodes and degree >= 3.
@@ -1194,23 +1207,25 @@ end A007121.P923252729781285643
 /-!
 # A007122: Number of unlabeled identity connected unit interval graphs with n nodes.
 
-The programs for A007122, there is no canonical definition to state claims against.
+The programs for A007122, the canonical program `A007122.P1934921489793160333` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007122 has offset 1).
+
+The definition of A007122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A007122.P1934921489793160333
 
 `(A005043(n)-A005213(n))/2`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A007122.P1934921489793160333
-noncomputable section
+namespace A007122
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A005043 n - A005213 n : ℚ) / 2
+/-- `(A005043(n)-A005213(n))/2` -/
+def P1934921489793160333.Spec : Prop :=
+  ∀ n, P1934921489793160333.a n = (A007122 (n + 1) : ℚ)
 
-end
-
-end A007122.P1934921489793160333
+end A007122
 
 /-! ## A007122.P11437632181907717689
 
@@ -1227,6 +1242,14 @@ end
 
 end A007122.P11437632181907717689
 
+namespace A007122
+
+/-- `A005218(n+1)-A005213(A028310(n))` -/
+def P11437632181907717689.Spec : Prop :=
+  ∀ n, P11437632181907717689.a n = A007122 (n + 1)
+
+end A007122
+
 /-! ## A007122.P15567375589711585014
 
 `A005218(n+1)-A005213(n)%A005195(n)`
@@ -1241,6 +1264,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007122.P15567375589711585014
+
+namespace A007122
+
+/-- `A005218(n+1)-A005213(n)%A005195(n)` -/
+def P15567375589711585014.Spec : Prop :=
+  ∀ n, P15567375589711585014.a n = A007122 (n + 1)
+
+end A007122
 
 /-! ## A007122.P18296268425556837615
 
@@ -1257,6 +1288,14 @@ end
 
 end A007122.P18296268425556837615
 
+namespace A007122
+
+/-- `(A005043(n)-A005218(n+1))%A005190(n)` -/
+def P18296268425556837615.Spec : Prop :=
+  ∀ n, P18296268425556837615.a n = A007122 (n + 1)
+
+end A007122
+
 /-! ## A007122.P12938070886927415009
 
 `(A005218(n+1)-A005213(n))%A005190(n)`
@@ -1271,6 +1310,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007122.P12938070886927415009
+
+namespace A007122
+
+/-- `(A005218(n+1)-A005213(n))%A005190(n)` -/
+def P12938070886927415009.Spec : Prop :=
+  ∀ n, P12938070886927415009.a n = A007122 (n + 1)
+
+end A007122
 
 /-!
 # A007123: Number of connected unit interval graphs with n nodes; also number of bracelets (turnover necklaces) with n black beads and n-1 white beads.
@@ -1909,6 +1956,21 @@ end A007126.P13582567866460048146
 The programs for A007127, there is no canonical definition to state claims against.
 -/
 
+/-! ## A007127.P7227057798995845618
+
+`A043093(A069153(n+1)+A014500(n))`
+-/
+
+namespace A007127.P7227057798995845618
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043093 (A069153 (n + 1) + A014500 n).toNat
+
+end
+
+end A007127.P7227057798995845618
+
 /-! ## A007127.P8515563534446630646
 
 `A072451(A213100(n)+A001742(n+1))`
@@ -1923,21 +1985,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007127.P8515563534446630646
-
-/-! ## A007127.P7262294241997245233
-
-`A072451(A213100(n)+A008578(n+1))`
--/
-
-namespace A007127.P7262294241997245233
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072451 (A213100 n + A008578 (n + 1)).toNat
-
-end
-
-end A007127.P7262294241997245233
 
 /-!
 # A007128: Number of unlabeled strength 3 Eulerian graphs with n nodes.
@@ -2086,23 +2133,20 @@ end A007133.P1014394388188222779
 The programs for A007134, there is no canonical definition to state claims against.
 -/
 
-/-! ## A007134.P17112727219898750717
+/-! ## A007134.P18429438946535259741
 
-`∑[A333379(A389325(n)+1)]`
+`row(A128403(A002724(n)))`
 -/
 
-namespace A007134.P17112727219898750717
+namespace A007134.P18429438946535259741
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333379 (A389325 n + 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.triRow (A128403 (A002724 n).toNat).toNat
 
 end
 
-end A007134.P17112727219898750717
+end A007134.P18429438946535259741
 
 /-!
 # A007136: Number of symmetry sites in all planted 3-trees with n nodes.
@@ -2520,6 +2564,21 @@ end
 
 end A007141.P10894439081944002222
 
+/-! ## A007141.P15171938053109181348
+
+`A007143(n+1)+A003238(n+1)*A040000(n)`
+-/
+
+namespace A007141.P15171938053109181348
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007143 (n + 1) + A003238 (n + 1) * A040000 n
+
+end
+
+end A007141.P15171938053109181348
+
 /-! ## A007141.P3682074690301079000
 
 `A007143(n+1)+A020639(A007843(n))*A003238(n+1)`
@@ -2621,6 +2680,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007143.P12719557493657859226
+
+/-! ## A007143.P3404355749241980430
+
+`A007141(n+1)-A003238(n+1)*A040000(n)`
+-/
+
+namespace A007143.P3404355749241980430
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007141 (n + 1) - A003238 (n + 1) * A040000 n
+
+end
+
+end A007143.P3404355749241980430
 
 /-! ## A007143.P2761566109966199882
 
@@ -3823,7 +3897,7 @@ end
 end A007154.P13865817820674776142
 
 /-!
-# A007155: 
+# A007155: a(n) = (2^(2^n))*(3^(3^n - 2^n)).
 
 The programs for A007155, there is no canonical definition to state claims against.
 -/
@@ -4136,6 +4210,21 @@ end A007160
 The programs for A007161, there is no canonical definition to state claims against.
 -/
 
+/-! ## A007161.P6788996575719514644
+
+`A007167(n)-A030530(A007110(n))`
+-/
+
+namespace A007161.P6788996575719514644
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007167 n - A030530 (A007110 n).toNat
+
+end
+
+end A007161.P6788996575719514644
+
 /-! ## A007161.P782670667097776589
 
 `∑[A140486(a(n-1)+1)-3]` with `a(0)=1, a(1)=0, a(2)=3`
@@ -4153,21 +4242,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007161.P782670667097776589
-
-/-! ## A007161.P11014791807687676664
-
-`A247910(A001002(n))`
--/
-
-namespace A007161.P11014791807687676664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247910 (A001002 n).toNat
-
-end
-
-end A007161.P11014791807687676664
 
 /-!
 # A007162: Number of skeins with vertical symmetry.
@@ -4209,20 +4283,20 @@ end
 
 end A007162.P17459559203504909300
 
-/-! ## A007162.P6963526672693243614
+/-! ## A007162.P3076550605213291950
 
-`A188014(A007583(n))+A005754(n+1)`
+`A055641(A007863(n))+A005754(n+1)`
 -/
 
-namespace A007162.P6963526672693243614
+namespace A007162.P3076550605213291950
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188014 (A007583 n).toNat + A005754 (n + 1)
+  A055641 (A007863 n).toNat + A005754 (n + 1)
 
 end
 
-end A007162.P6963526672693243614
+end A007162.P3076550605213291950
 
 /-!
 # A007163: Number of P-graphs with vertical symmetry.
@@ -4658,6 +4732,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007173.P11005628996873688240
+
+/-! ## A007173.P13537704532305152518
+
+`A005843(A027610(n+1))-A371351(n+1)`
+-/
+
+namespace A007173.P13537704532305152518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A027610 (n + 1)).toNat - A371351 (n + 1)
+
+end
+
+end A007173.P13537704532305152518
 
 /-!
 # A007175: Number of simplicial 4-clusters with n cells.
@@ -5361,20 +5450,20 @@ end A007183
 The programs for A007185, there is no canonical definition to state claims against.
 -/
 
-/-! ## A007185.P12500974338397468765
+/-! ## A007185.P17447233349040435545
 
-`A216092(n+1)+1`
+`A216092(1+n)+1`
 -/
 
-namespace A007185.P12500974338397468765
+namespace A007185.P17447233349040435545
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216092 (n + 1) + 1
+  A216092 (1 + n) + 1
 
 end
 
-end A007185.P12500974338397468765
+end A007185.P17447233349040435545
 
 /-! ## A007185.P9671642256864056114
 
@@ -5625,20 +5714,23 @@ end
 
 end A007187.P18091918663485793124
 
-/-! ## A007187.P6696296704807095434
+/-! ## A007187.P7596162042547884761
 
-`A196369(A009908(n))`
+`Δ[round(A110610(3*n+4)/63)]-1`
 -/
 
-namespace A007187.P6696296704807095434
+namespace A007187.P7596162042547884761
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A110610 (3 * n + 4) : ℚ) / 63)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196369 (A009908 n).toNat
+  f1 (n + 1) - f1 n - 1
 
 end
 
-end A007187.P6696296704807095434
+end A007187.P7596162042547884761
 
 /-!
 # A007188: Multiplicative encoding of Pascal triangle: Product p(i+1)^C(n,i).
@@ -5681,6 +5773,30 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A007188.P16429815173047342142
+
+/-!
+# A007191: McKay-Thompson series of class 2B for the Monster group with a(0) = -24.
+
+The programs for A007191, there is no canonical definition to state claims against.
+-/
+
+/-! ## A007191.P3237685280670462108
+
+`∑{#}[n, A007249(#)*A007249(n-#)]`
+-/
+
+namespace A007191.P3237685280670462108
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A007249 k * A007249 (n - k)
+
+end
+
+end A007191.P3237685280670462108
 
 /-!
 # A007193: Number of strict n-node animals on cubic lattice.

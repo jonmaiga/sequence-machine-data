@@ -15,37 +15,39 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C035
-import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -54,18 +56,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,6 +90,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -479,7 +481,7 @@ end A271101.P13657892676009182995
 /-!
 # A271102: a(n) is multiplicative with a(p^e) = -1 if e=2, a(p^e) = 0 if e=1 or e>2.
 
-The programs for A271102, the canonical program `A271102.P3010353493992336101` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271102 has offset 1).
+The programs for A271102, the canonical program `A271102.P3010353493992336101` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271102 has offset 1).
 
 The definition of A271102 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -488,7 +490,7 @@ The definition of A271102 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, abs(A008683(#))*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A271102
@@ -992,7 +994,7 @@ end
 end A271104.P15082729772415861882
 
 /-!
-# A271105: 
+# A271105: Square 1000-gonal numbers (or square chiliagonal numbers): numbers that are square and chiliagonal (or 1000-gonal).
 
 The programs for A271105, there is no canonical definition to state claims against.
 -/
@@ -1421,6 +1423,27 @@ theorem P10500926701269547597.correct : P10500926701269547597.Spec := by
   simp only [A271114]
 
 end A271114
+
+/-!
+# A271115: Numbers whose square is a chiliagonal (or 1000-gonal) number.
+
+The programs for A271115, there is no canonical definition to state claims against.
+-/
+
+/-! ## A271115.P3577995494053189419
+
+`sqrt(A271105(n+1))`
+-/
+
+namespace A271115.P3577995494053189419
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A271105 (n + 1) : ℝ)
+
+end
+
+end A271115.P3577995494053189419
 
 /-!
 # A271116: Integers n such that round(3^n/12) is divisible by n.
@@ -3049,6 +3072,24 @@ end
 
 end A271133.P1601292241015114826
 
+/-! ## A271133.P837460680730895359
+
+`∑[A271135(abs(1-n))^(A040000(n)-1)]`
+-/
+
+namespace A271133.P837460680730895359
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A271135 |1 - (n : ℤ)|.toNat : ℚ) ^ (A040000 n - 1 : ℤ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A271133.P837460680730895359
+
 /-! ## A271133.P1956908788753384366
 
 `Δ[A271134(n)]-A271135(n)`
@@ -3396,6 +3437,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A271135.P5790406980196685982
+
+/-! ## A271135.P11003257419277993637
+
+`Δ[A040000(2*(n+1))+A016754(n+1)-A273266(n+1)]`
+-/
+
+namespace A271135.P11003257419277993637
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040000 (2 * (n + 1)) + (A016754 (n + 1) - A273266 (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A271135.P11003257419277993637
 
 /-! ## A271135.P5628138577823182936
 
@@ -3994,6 +4053,27 @@ end
 
 end A271143.P7627088490412303006
 
+/-! ## A271143.P261702556829820905
+
+`lt[A112239(A112220(n)), A061756(n+1)]`
+-/
+
+namespace A271143.P261702556829820905
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112239 (A112220 n).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061756 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A271143.P261702556829820905
+
 /-! ## A271143.P13782235384730766350
 
 `lt[A112239(A112220(n)), A112234(n+1)]`
@@ -4015,6 +4095,27 @@ end
 
 end A271143.P13782235384730766350
 
+/-! ## A271143.P8394665570621361347
+
+`lt[A112239(A112220(n)), A328623(n+1)]`
+-/
+
+namespace A271143.P8394665570621361347
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112239 (A112220 n).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328623 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A271143.P8394665570621361347
+
 /-! ## A271143.P6346943600181857359
 
 `lt[A112239(A112220(n)), A112212(n+3)]`
@@ -4035,48 +4136,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A271143.P6346943600181857359
-
-/-! ## A271143.P14910694653759632711
-
-`lt[A327109(n+1), A074373(A219110(n+5))]`
--/
-
-namespace A271143.P14910694653759632711
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327109 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074373 (A219110 (n + 5)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A271143.P14910694653759632711
-
-/-! ## A271143.P18388126272219352053
-
-`lt[A112802(3*(n+1)), A036036(A005117(n+1))]`
--/
-
-namespace A271143.P18388126272219352053
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112802 (3 * (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036036 (A005117 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A271143.P18388126272219352053
 
 /-!
 # A271148: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 297", based on the 5-celled von Neumann neighborhood.
@@ -6305,7 +6364,7 @@ end A271180
 /-!
 # A271182: a(n) = prime(n)^(2*n) - prime(n)^(n-1).
 
-The programs for A271182, the canonical program `A271182.P12076873598115533568` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271182 has offset 1).
+The programs for A271182, the canonical program `A271182.P12076873598115533568` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271182 has offset 1).
 
 The definition of A271182 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)^(2*(n+1))-A000040(n+1)^n` (program `A271182.P12076873598115533568`, by `A271182.P12076873598115533568.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6314,7 +6373,7 @@ The definition of A271182 is `verified`: the Lean definition is proven equivalen
 
 `A000040(n+1)^(2*(n+1))-A000040(n+1)^n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A271182
@@ -6390,7 +6449,7 @@ end A271182
 /-!
 # A271183: Löschian numbers (A003136) k such that k + 1 is also Löschian number.
 
-The programs for A271183, the canonical program `A271183.P13519153737086807592` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271183 has offset 1).
+The programs for A271183, the canonical program `A271183.P13519153737086807592` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271183 has offset 1).
 
 The definition of A271183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6399,7 +6458,7 @@ The definition of A271183 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A353816(A353816(n)+n)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A271183
@@ -6952,16 +7011,39 @@ end A271186.P11828967166089128996
 /-!
 # A271187: Triangle T(n,k) read by rows: T(n,k) is the squarefree part of C(n,k).
 
-The programs for A271187, the canonical program `A271187.P2014690052428888649` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271187 has offset 0).
+The programs for A271187, the canonical program `A271187.P2014690052428888649` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271187 has offset 0).
 
 The definition of A271187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A271187.P17766730370749195793
+
+`A007913(C(row(n), col(n)))`
+-/
+
+namespace A271187.P17766730370749195793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (Nat.choose (SequenceMachineLib.triRow n) (SequenceMachineLib.triCol n))
+
+end
+
+end A271187.P17766730370749195793
+
+namespace A271187
+
+/-- `A007913(C(row(n), col(n)))` -/
+def P17766730370749195793.Spec : Prop :=
+  ∀ n, P17766730370749195793.a n = A271187 n
+
+end A271187
 
 /-! ## A271187.P2014690052428888649
 
 `A007913(A007318(n))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A271187
@@ -7114,12 +7196,6 @@ namespace A271187
 /-- `A007913(A014473(n)+1)` -/
 def P6494029381212555740.Spec : Prop :=
   ∀ n, P6494029381212555740.a n = A271187 n
-
-theorem P6494029381212555740.correct : P6494029381212555740.Spec := by
-  intro n
-  simp only [A271187, Nat.add_sub_cancel, A271187.P6494029381212555740.a, A271187.P2014690052428888649.a, A007318, A007318.P11755526479805562006.a, A007913, A007913.P8131970495124731496.a, A014473, A014473.P9301799580602651200.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A271187
 
@@ -7399,32 +7475,6 @@ def P14769462551642473309.Spec : Prop :=
 
 end A271187
 
-/-! ## A271187.P16268295329928501826
-
-`∏{p}[A055491(A007318(n)), A006530(#)]`
--/
-
-namespace A271187.P16268295329928501826
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055491 (A007318 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A006530 p
-
-end
-
-end A271187.P16268295329928501826
-
-namespace A271187
-
-/-- `∏{p}[A055491(A007318(n)), A006530(#)]` -/
-def P16268295329928501826.Spec : Prop :=
-  ∀ n, P16268295329928501826.a n = A271187 n
-
-end A271187
-
 /-!
 # A271188: Number of nXnXn triangular 0..2 arrays with new values introduced in sequential zero-upwards order and exactly one upright 2x2x2 triangle having values all different.
 
@@ -7506,26 +7556,23 @@ end
 
 end A271188.P7963676618089526892
 
-/-! ## A271188.P4675381359474267354
+/-! ## A271188.P17042453278834995307
 
-`record[record[A271194(n+1)]^A033999(n)]`
+`record[A271194(n+1)/A208615(n)]`
 -/
 
-namespace A271188.P4675381359474267354
+namespace A271188.P17042453278834995307
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271194 (n + 1)
-
 def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n) : ℚ) ^ (A033999 n : ℤ)
+  (A271194 (n + 1) : ℚ) / (A208615 n : ℚ)
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A271188.P4675381359474267354
+end A271188.P17042453278834995307
 
 /-!
 # A271189: Number of n X n X n triangular 0..3 arrays with new values introduced in sequential zero-upwards order and exactly one upright 2 X 2 X 2 triangle having values all different.

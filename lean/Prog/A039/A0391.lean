@@ -18,6 +18,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -26,26 +27,24 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C049
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,7 +53,9 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -81,6 +82,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -92,6 +94,8 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 /-!
 # A039100: Numbers whose base-9 representation has the same number of 3's and 7's.
@@ -144,6 +148,25 @@ end
 
 end A039100.P16170752369426480365
 
+/-! ## A039100.P3284006235169850318
+
+`comp[floor((3+sqrt(2))*(n+1))-1]%A338121(n+3)`
+-/
+
+namespace A039100.P3284006235169850318
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(3 + Real.sqrt (2 : ℝ)) * (n + 1 : ℝ)⌋ - 1
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A338121 (n + 3))
+
+end
+
+end A039100.P3284006235169850318
+
 /-! ## A039100.P3533544830752276360
 
 `eq[1, A051064(A330139(n+1))]`
@@ -183,21 +206,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039100.P7709092099137091970
-
-/-! ## A039100.P17626902378225175540
-
-`A351831(A187328(n+1))`
--/
-
-namespace A039100.P17626902378225175540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351831 (A187328 (n + 1)).toNat
-
-end
-
-end A039100.P17626902378225175540
 
 /-!
 # A039101: Numbers whose base-9 representation has the same number of 3's and 8's.
@@ -306,6 +314,35 @@ end
 end A039101.P12581499235652357500
 
 /-!
+# A039102: Numbers whose base-9 representation has the same number of 4's and 5's.
+
+The programs for A039102, there is no canonical definition to state claims against.
+-/
+
+/-! ## A039102.P10781218061996459327
+
+`comp[A004519(comp[A039095(n+1)])]`
+-/
+
+namespace A039102.P10781218061996459327
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039095 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004519 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039102.P10781218061996459327
+
+/-!
 # A039103: Numbers whose base-9 representation has the same number of 4's and 6's.
 
 The programs for A039103, there is no canonical definition to state claims against.
@@ -356,11 +393,55 @@ end
 
 end A039103.P3374568499449103665
 
+/-! ## A039103.P4188145483785145663
+
+`lt[A001222(A151682(3*n)), A056992(n+4)]`
+-/
+
+namespace A039103.P4188145483785145663
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (A151682 (3 * n)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056992 (n + 4)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039103.P4188145483785145663
+
 /-!
 # A039104: Numbers whose base-9 representation has the same number of 4's and 7's.
 
 The programs for A039104, there is no canonical definition to state claims against.
 -/
+
+/-! ## A039104.P671184548290190552
+
+`comp[A004519(comp[A039096(n+1)])]`
+-/
+
+namespace A039104.P671184548290190552
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039096 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004519 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039104.P671184548290190552
 
 /-! ## A039104.P10066508564906038394
 
@@ -427,27 +508,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039104.P3485758165099773496
-
-/-! ## A039104.P9182677811063495837
-
-`lt[A102283(n), A000688(A058331(2*n))]`
--/
-
-namespace A039104.P9182677811063495837
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102283 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000688 (A058331 (2 * n)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039104.P9182677811063495837
 
 /-!
 # A039105: Numbers whose base-9 representation has the same number of 4's and 8's.
@@ -595,6 +655,30 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039106.P16682720280287240404
+
+/-! ## A039106.P4681236595931450671
+
+`lt[runs[A141765(n)], A141726(n+3)]`
+-/
+
+namespace A039106.P4681236595931450671
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141765 n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141726 (n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f3 j) n
+
+end
+
+end A039106.P4681236595931450671
 
 /-! ## A039106.P2014026985185901059
 
@@ -791,6 +875,21 @@ end
 
 end A039108.P18148569802486608290
 
+/-! ## A039108.P4999996828477797151
+
+`A039082(n+1)-A001221(A113188(n+1))`
+-/
+
+namespace A039108.P4999996828477797151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039082 (n + 1) - A001221 (A113188 (n + 1)).toNat
+
+end
+
+end A039108.P4999996828477797151
+
 /-! ## A039108.P9001794998078695708
 
 `eq[A007949(n+1), A007949(A033286(n+4))]`
@@ -811,27 +910,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039108.P9001794998078695708
-
-/-! ## A039108.P22914164605115360
-
-`lt[A011672(n), A065941(A343348(2*(n+1)))]`
--/
-
-namespace A039108.P22914164605115360
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011672 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065941 (A343348 (2 * (n + 1))).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039108.P22914164605115360
 
 /-!
 # A039109: Numbers whose base-9 representation has the same number of 6's and 7's.
@@ -1058,6 +1136,28 @@ end
 
 end A039111.P5233745427476413354
 
+/-! ## A039111.P9342558567210137827
+
+`∪[A037475(n), A050376(A121007(3*n))]`
+-/
+
+namespace A039111.P9342558567210137827
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037475 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050376 (A121007 (3 * n)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039111.P9342558567210137827
+
 /-! ## A039111.P14202679977774860953
 
 `A037475(n)+A033999(n)*A185255(A241065(n))`
@@ -1073,50 +1173,35 @@ end
 
 end A039111.P14202679977774860953
 
-/-! ## A039111.P8031307130708313478
+/-! ## A039111.P7470422299137342547
 
-`A031492(n+1)-A355341(A000217(n+2))`
+`A037475(n%A237711(n))`
 -/
 
-namespace A039111.P8031307130708313478
+namespace A039111.P7470422299137342547
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031492 (n + 1) - A355341 (A000217 (n + 2)).toNat
+  A037475 (Int.tmod (n : ℤ) (A237711 n)).toNat
 
 end
 
-end A039111.P8031307130708313478
+end A039111.P7470422299137342547
 
-/-! ## A039111.P16351042337753818254
+/-! ## A039111.P10644755700665027742
 
-`A031492(n+1)-A000035(A028387(2*(n+1)))`
+`A037475(n)%A134162(n+1)`
 -/
 
-namespace A039111.P16351042337753818254
+namespace A039111.P10644755700665027742
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031492 (n + 1) - A000035 (A028387 (2 * (n + 1))).toNat
+  Int.tmod (A037475 n) (A134162 (n + 1))
 
 end
 
-end A039111.P16351042337753818254
-
-/-! ## A039111.P11975080638761197952
-
-`A031492(n+1)-A040862(A000290(2*n+3))`
--/
-
-namespace A039111.P11975080638761197952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031492 (n + 1) - A040862 (A000290 (2 * n + 3)).toNat
-
-end
-
-end A039111.P11975080638761197952
+end A039111.P10644755700665027742
 
 /-!
 # A039112: Numbers whose base-10 representation has the same number of 0's and 1's.
@@ -1200,6 +1285,35 @@ namespace A039112
 /-- `eq[A055641(n), A102683(A055120(n))]` -/
 def P1157330910384900994.Spec : Prop :=
   ∀ n, (P1157330910384900994.a n : ℤ) = A039112 (n + 1)
+
+end A039112
+
+/-! ## A039112.P3507919219499206054
+
+`eq[A003132(n), A003132(A222210(n))]`
+-/
+
+namespace A039112.P3507919219499206054
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003132 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003132 (A222210 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039112.P3507919219499206054
+
+namespace A039112
+
+/-- `eq[A003132(n), A003132(A222210(n))]` -/
+def P3507919219499206054.Spec : Prop :=
+  ∀ n, (P3507919219499206054.a n : ℤ) = A039112 (n + 1)
 
 end A039112
 
@@ -3998,6 +4112,35 @@ namespace A039123
 /-- `eq[A003132(n), A003132(A222222(n))]` -/
 def P9548300233653576081.Spec : Prop :=
   ∀ n, (P9548300233653576081.a n : ℤ) = A039123 (n + 1)
+
+end A039123
+
+/-! ## A039123.P8484192435392949739
+
+`eq[A007953(n), A007953(A222222(n))]`
+-/
+
+namespace A039123.P8484192435392949739
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A222222 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039123.P8484192435392949739
+
+namespace A039123
+
+/-- `eq[A007953(n), A007953(A222222(n))]` -/
+def P8484192435392949739.Spec : Prop :=
+  ∀ n, (P8484192435392949739.a n : ℤ) = A039123 (n + 1)
 
 end A039123
 
@@ -9605,7 +9748,7 @@ end A039142
 /-!
 # A039143: Numbers whose base-10 representation has the same number of 4's and 7's.
 
-The programs for A039143, the canonical program `A039143.P17636215594540323729` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039143 has offset 1).
+The programs for A039143, the canonical program `A039143.P17636215594540323729` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039143 has offset 1).
 
 The definition of A039143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4871 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9614,7 +9757,7 @@ The definition of A039143 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A027387(n), A027388(n)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A039143
@@ -13086,6 +13229,21 @@ end
 
 end A039160.P5267221495838712567
 
+/-! ## A039160.P804953637761650436
+
+`floor(sqrt(A189301(3*(n+1))+A273465(3*n+4)+1))`
+-/
+
+namespace A039160.P804953637761650436
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.sqrt (A189301 (3 * (n + 1)) + (A273465 (3 * n + 4) + 1))
+
+end
+
+end A039160.P804953637761650436
+
 /-! ## A039160.P9242378360132164882
 
 `lt[A123124(A020483(n)), A160272(n)]`
@@ -13128,20 +13286,33 @@ end
 
 end A039160.P14262575503040622027
 
-/-! ## A039160.P16762822878354969254
+/-!
+# A039161: Numbers whose base-11 representation has the same number of 0's and 6's.
 
-`A052382(2*n+2)-(A054977(A073387(n+1))+n)`
+The programs for A039161, there is no canonical definition to state claims against.
 -/
 
-namespace A039160.P16762822878354969254
+/-! ## A039161.P12358402410553080064
+
+`∪[A032797(n+1), A399252(A342485(2*(n+2)))]`
+-/
+
+namespace A039161.P12358402410553080064
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052382 (2 * n + 2) - (A054977 (A073387 (n + 1)).toNat + (n : ℤ))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032797 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A399252 (A342485 (2 * (n + 2))).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A039160.P16762822878354969254
+end A039161.P12358402410553080064
 
 /-!
 # A039162: Numbers whose base-11 representation has the same number of 0's and 7's.
@@ -13373,6 +13544,25 @@ end
 
 end A039163.P9304817993780636071
 
+/-! ## A039163.P7395079460988185309
+
+`comp[A243520(A051168(n)%A108172(n+1))]`
+-/
+
+namespace A039163.P7395079460988185309
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243520 (Int.tmod (A051168 n) (A108172 (n + 1))).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039163.P7395079460988185309
+
 /-! ## A039163.P14809967914912775015
 
 `lt[A000503(2*n+1), A051064(A115642(n+1))]`
@@ -13492,27 +13682,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A039163.P3955340581406888245
-
-/-! ## A039163.P9680993930469161786
-
-`lt[A341052(n+1), A038608(A312721(2*n+3))]`
--/
-
-namespace A039163.P9680993930469161786
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341052 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038608 (A312721 (2 * n + 3)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039163.P9680993930469161786
 
 /-!
 # A039164: Numbers whose base-11 representation has the same number of 0's and 9's.
@@ -14018,6 +14187,27 @@ end
 
 end A039183.P1547190420447955112
 
+/-! ## A039183.P6774721000927671176
+
+`lt[A111900(A060948(n+1)), A141327(n+2)]`
+-/
+
+namespace A039183.P6774721000927671176
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111900 (A060948 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141327 (n + 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039183.P6774721000927671176
+
 /-! ## A039183.P14840864444924520260
 
 `lt[A020919(A196438(2*n+1)), A122271(n+4)]`
@@ -14144,26 +14334,26 @@ end
 
 end A039184.P5155754499060947813
 
-/-! ## A039184.P6512538724513187473
+/-! ## A039184.P3115655577481208011
 
-`lt[A037913(3*(n+1)), A001222(A048988(3*n+5))]`
+`lt[A037913(3*n+3), A000034(A014635(n))]`
 -/
 
-namespace A039184.P6512538724513187473
+namespace A039184.P3115655577481208011
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037913 (3 * (n + 1))
+  A037913 (3 * n + 3)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A048988 (3 * n + 5)).toNat
+  A000034 (A014635 n).toNat
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A039184.P6512538724513187473
+end A039184.P3115655577481208011
 
 /-!
 # A039185: Numbers whose base-11 representation has the same number of 3's and 7's.
@@ -14349,6 +14539,31 @@ end
 
 end A039187.P10428040869521960497
 
+/-! ## A039187.P5816821515128942736
+
+`comp[eq[2, A151950(3*n+4)]]`
+-/
+
+namespace A039187.P5816821515128942736
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151950 (3 * n + 4)
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f2 j : ℤ) = f3 j) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A039187.P5816821515128942736
+
 /-! ## A039187.P3097027772478870486
 
 `lt[A384149(2*n+5), A337227(A000265(2*n+5))]`
@@ -14369,6 +14584,102 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039187.P3097027772478870486
+
+/-!
+# A039188: Numbers whose base-11 representation has the same number of 3's and 10's.
+
+The programs for A039188, there is no canonical definition to state claims against.
+-/
+
+/-! ## A039188.P5819215920045425090
+
+`A054861(A144786(3*n+1))-A090618(n)`
+-/
+
+namespace A039188.P5819215920045425090
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054861 (A144786 (3 * n + 1)).toNat - A090618 n
+
+end
+
+end A039188.P5819215920045425090
+
+/-! ## A039188.P12531874437128718936
+
+`floor(A119797(3*n+1)/A007425(A256076(n+1)))`
+-/
+
+namespace A039188.P12531874437128718936
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A119797 (3 * n + 1) : ℚ) / (A007425 (A256076 (n + 1)).toNat : ℚ)⌋
+
+end
+
+end A039188.P12531874437128718936
+
+/-! ## A039188.P4006241389613040786
+
+`comp[A003250(col(n)+A271949(n))-1]`
+-/
+
+namespace A039188.P4006241389613040786
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003250 ((SequenceMachineLib.triCol n : ℤ) + A271949 n).toNat - 1
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039188.P4006241389613040786
+
+/-! ## A039188.P7293886432530136027
+
+`comp[A078649(2*(n+1))-A034254(3*n+2)]`
+-/
+
+namespace A039188.P7293886432530136027
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078649 (2 * (n + 1)) - A034254 (3 * n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039188.P7293886432530136027
+
+/-! ## A039188.P6471177998600545916
+
+`comp[A013948(2*(n+1))+Δ[n²]-A034254(3*n+2)]`
+-/
+
+namespace A039188.P6471177998600545916
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013948 (2 * (n + 1)) + ((f2 (n + 1) : ℤ) - (f2 n : ℤ)) - A034254 (3 * n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A039188.P6471177998600545916
 
 /-!
 # A039189: Numbers whose base-11 representation has the same number of 4's and 5's.
@@ -14508,6 +14819,25 @@ end
 
 end A039190.P3415084991249087296
 
+/-! ## A039190.P6083296678162547213
+
+`comp[A106387(n+1)]%A271660(n+1)`
+-/
+
+namespace A039190.P6083296678162547213
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106387 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A271660 (n + 1))
+
+end
+
+end A039190.P6083296678162547213
+
 /-! ## A039190.P5238792524146448792
 
 `lt[A322306(2*n+1), A038608(A313155(2*n+1))]`
@@ -14550,47 +14880,26 @@ end
 
 end A039190.P441074075512924213
 
-/-! ## A039190.P1140621277674994448
+/-! ## A039190.P17928289463606804147
 
-`lt[A332499(A332499(2*n+1)), A078822(n+2)]`
+`lt[A033568(n), A028610(A033568(n))]`
 -/
 
-namespace A039190.P1140621277674994448
+namespace A039190.P17928289463606804147
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332499 (A332499 (2 * n + 1)).toNat
+  A033568 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078822 (n + 2)
+  A028610 (A033568 n).toNat
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A039190.P1140621277674994448
-
-/-! ## A039190.P426138393055139132
-
-`lt[A016742(n), A064989(A003154(n+1))]`
--/
-
-namespace A039190.P426138393055139132
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016742 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064989 (A003154 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039190.P426138393055139132
+end A039190.P17928289463606804147
 
 /-!
 # A039191: Numbers whose base-11 representation has the same number of 4's and 7's.
@@ -14709,6 +15018,55 @@ end A039191.P527708446797320099
 The programs for A039192, there is no canonical definition to state claims against.
 -/
 
+/-! ## A039192.P18161957213934359815
+
+`comp[eq[A025875(n), A145568(n)]]`
+-/
+
+namespace A039192.P18161957213934359815
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025875 n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145568 n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f2 j = f3 j) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A039192.P18161957213934359815
+
+/-! ## A039192.P13853023921064763976
+
+`lt[Δ[A261913(2*n+3)], A355382(2*n+5)]`
+-/
+
+namespace A039192.P13853023921064763976
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261913 (2 * n + 3)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355382 (2 * n + 5)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
+
+end
+
+end A039192.P13853023921064763976
+
 /-! ## A039192.P7067048768670539391
 
 `A230149(A088481(2*n+3))+A004396(n)`
@@ -14759,27 +15117,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039192.P5613280873338320029
-
-/-! ## A039192.P7135171621857761978
-
-`lt[A236582(A265111(n+1)), A270613(n+2)]`
--/
-
-namespace A039192.P7135171621857761978
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236582 (A265111 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270613 (n + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039192.P7135171621857761978
 
 /-!
 # A039193: Numbers whose base-11 representation has the same number of 4's and 9's.
@@ -14841,6 +15178,21 @@ end
 
 end A039193.P7841975658101060348
 
+/-! ## A039193.P9473456977886311201
+
+`A059995(A113218(2*(n+1)))+n`
+-/
+
+namespace A039193.P9473456977886311201
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059995 (A113218 (2 * (n + 1))).toNat + (n : ℤ)
+
+end
+
+end A039193.P9473456977886311201
+
 /-! ## A039193.P14862448063223928947
 
 `A000196((∑[n]+n²)%A305672(n+1))`
@@ -14858,21 +15210,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039193.P14862448063223928947
-
-/-! ## A039193.P4159278734632286535
-
-`A277644(n+1)-A057427(A080856(n))`
--/
-
-namespace A039193.P4159278734632286535
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277644 (n + 1) - A057427 (A080856 n).toNat
-
-end
-
-end A039193.P4159278734632286535
 
 /-!
 # A039194: Numbers whose base-11 representation has the same number of 4's and 10's.
@@ -15276,6 +15613,27 @@ end
 
 end A039197.P17814814812383551635
 
+/-! ## A039197.P12336825829684829808
+
+`lt[A195911(2*n+3), A068953(A144845(n))]`
+-/
+
+namespace A039197.P12336825829684829808
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195911 (2 * n + 3)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068953 (A144845 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039197.P12336825829684829808
+
 /-!
 # A039198: Numbers whose base-11 representation has the same number of 5's and 9's.
 
@@ -15329,6 +15687,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039198.P4686383224368835580
+
+/-! ## A039198.P11640348079155976716
+
+`eq[A321538(2*n+1), A321581(A321537(n+2))]`
+-/
+
+namespace A039198.P11640348079155976716
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321538 (2 * n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321581 (A321537 (n + 2)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039198.P11640348079155976716
 
 /-! ## A039198.P12442284068260925850
 
@@ -15420,18 +15799,22 @@ end
 
 end A039199.P4908239082998115440
 
-/-! ## A039199.P16922755103622624321
+/-! ## A039199.P127327309729328908
 
-`A391618(A033568(n))`
+`comp[A178181(n+1)]`
 -/
 
-namespace A039199.P16922755103622624321
+namespace A039199.P127327309729328908
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391618 (A033568 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178181 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A039199.P16922755103622624321
+end A039199.P127327309729328908
 

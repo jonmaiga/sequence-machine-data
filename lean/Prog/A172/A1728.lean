@@ -2,16 +2,19 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C005
 import Seq.B000.C010
-import Seq.B000.C021
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B001.C000
 import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B005.C001
 import Seq.Opaque.C006
+import Seq.Opaque.C009
 import Seq.Opaque.C012
+import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C017
 import Seq.Opaque.C020
 
 /-!
@@ -55,6 +58,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172806.P2424677603821473334
+
+/-! ## A172806.P7633523688792577773
+
+`A257493(eq[3, A212551(n)])`
+-/
+
+namespace A172806.P7633523688792577773
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212551 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257493 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172806.P7633523688792577773
 
 /-! ## A172806.P13726916164978138034
 
@@ -118,27 +142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172806.P2779808101574128682
-
-/-! ## A172806.P5274691085694290782
-
-`A257493(eq[16, A130321(n)])`
--/
-
-namespace A172806.P5274691085694290782
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130321 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257493 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A172806.P5274691085694290782
 
 /-!
 # A172816: Number of n X 4 0..4 arrays with row sums 4 and column sums n.
@@ -305,6 +308,27 @@ end
 
 end A172862.P452763369787931588
 
+/-! ## A172862.P13855690569584707366
+
+`A257493(eq[6, A193739(n)])`
+-/
+
+namespace A172862.P13855690569584707366
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193739 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257493 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172862.P13855690569584707366
+
 /-! ## A172862.P17652225522790319655
 
 `A257493(eq[11, A099375(n)])`
@@ -326,23 +350,29 @@ end
 
 end A172862.P17652225522790319655
 
-/-! ## A172862.P8306622407700582160
+/-!
+# A172867: Number of n X 10 0..5 arrays with row sums 10 and column sums n.
 
-`A257493(Δ[A023551(n+1)])`
+The programs for A172867, there is no canonical definition to state claims against.
 -/
 
-namespace A172862.P8306622407700582160
+/-! ## A172867.P16703279258719987375
+
+`A172930(∑[A288580(n)²])`
+-/
+
+namespace A172867.P16703279258719987375
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023551 (n + 1)
+  A288580 n ^ 2
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257493 (f1 (n + 1) - f1 n).toNat
+  A172930 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
 
 end
 
-end A172862.P8306622407700582160
+end A172867.P16703279258719987375
 
 /-!
 # A172868: Number of n X 5 0..5 arrays with row sums 5 and column sums n.
@@ -436,6 +466,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172868.P2355763909856481714
+
+/-!
+# A172869: Number of n X 11 0..5 arrays with row sums 11 and column sums n.
+
+The programs for A172869, there is no canonical definition to state claims against.
+-/
+
+/-! ## A172869.P6784661491570401503
+
+`A172902((n+1)^∑{p}[n+1, A001222(#)])`
+-/
+
+namespace A172869.P6784661491570401503
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172902 (SequenceMachineLib.roundAway ((n + 1 : ℚ) ^ (∑ p ∈ Nat.primeFactors (f1 n), A001222 p : ℤ))).toNat
+
+end
+
+end A172869.P6784661491570401503
+
+/-!
+# A172870: Number of n X 12 0..5 arrays with row sums 12 and column sums n.
+
+The programs for A172870, there is no canonical definition to state claims against.
+-/
+
+/-! ## A172870.P14152671847207075812
+
+`A172949(A245910(n)+n)`
+-/
+
+namespace A172870.P14152671847207075812
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172949 (A245910 n + (n : ℤ)).toNat
+
+end
+
+end A172870.P14152671847207075812
 
 /-!
 # A172873: Number of n X n 0..5 arrays with row sums n and column sums n.
@@ -548,24 +623,18 @@ end
 
 end A172894.P10087928303130437667
 
-/-! ## A172894.P1703331865725961065
+/-! ## A172894.P10974297492977865037
 
-`A257493(eq[7, A004736(n+1)])`
+`A257493(A155212(n+3)+1)`
 -/
 
-namespace A172894.P1703331865725961065
+namespace A172894.P10974297492977865037
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004736 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257493 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+  A257493 (A155212 (n + 3) + 1).toNat
 
 end
 
-end A172894.P1703331865725961065
+end A172894.P10974297492977865037
 

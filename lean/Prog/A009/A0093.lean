@@ -16,32 +16,31 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C035
+import Seq.B000.C028
+import Seq.B000.C036
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B004.C002
+import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -136,6 +135,27 @@ end
 
 end A009302.P11111650485682730539
 
+/-! ## A009302.P10159538583114154874
+
+`A293606(∑{d}[n+1, #]-∏{p}[n+1, 1+#])+A005891(n)`
+-/
+
+namespace A009302.P10159538583114154874
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293606 (∑ d ∈ Nat.divisors (f1 n), d - ∏ p ∈ Nat.primeFactors (f2 n), (1 + p)) + A005891 n
+
+end
+
+end A009302.P10159538583114154874
+
 /-! ## A009302.P6631611827072199879
 
 `A138069(A000079(n))+A028895(n)`
@@ -150,21 +170,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009302.P6631611827072199879
-
-/-! ## A009302.P1352838794599920335
-
-`A303401(A131462(n+2))+A005891(n)`
--/
-
-namespace A009302.P1352838794599920335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303401 (A131462 (n + 2)).toNat + A005891 n
-
-end
-
-end A009302.P1352838794599920335
 
 /-!
 # A009303: If a, b in sequence, so is ab+4.

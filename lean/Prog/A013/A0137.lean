@@ -10,33 +10,30 @@ import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C045
+import Seq.B000.C040
+import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C002
@@ -99,6 +96,21 @@ end A013700.P17095323948265658393
 
 The programs for A013701, there is no canonical definition to state claims against.
 -/
+
+/-! ## A013701.P17110465848224664753
+
+`A080934(A139277(n+2)+1)`
+-/
+
+namespace A013701.P17110465848224664753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080934 (A139277 (n + 2) + 1).toNat
+
+end
+
+end A013701.P17110465848224664753
 
 /-! ## A013701.P12512608077738747019
 
@@ -390,7 +402,7 @@ theorem P10512183529154139491.correct : P10512183529154139491.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013708
 
@@ -649,7 +661,7 @@ theorem P10344243141510122528.correct : P10344243141510122528.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013708
 
@@ -903,7 +915,7 @@ theorem P1113482141097383334.correct : P1113482141097383334.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013709
 
@@ -1166,7 +1178,7 @@ theorem P2222999918125235853.correct : P2222999918125235853.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013710
 
@@ -1450,7 +1462,7 @@ theorem P15931123235095332760.correct : P15931123235095332760.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013711
 
@@ -1710,7 +1722,7 @@ theorem P12578052030693408003.correct : P12578052030693408003.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013712
 
@@ -1982,7 +1994,7 @@ theorem P8895205079659071436.correct : P8895205079659071436.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013713
 
@@ -2242,7 +2254,7 @@ theorem P9803357468826726101.correct : P9803357468826726101.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013714
 
@@ -2396,6 +2408,39 @@ def P11476515633830735801.Spec : Prop :=
 
 end A013714
 
+/-! ## A013714.P12129294937418471474
+
+`(3^runs[∑[char[n²]]])²`
+-/
+
+namespace A013714.P12129294937418471474
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f3 j = n then 1 else 0
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (3 ^ (SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n)) ^ 2
+
+end
+
+end A013714.P12129294937418471474
+
+namespace A013714
+
+/-- `(3^runs[∑[char[n²]]])²` -/
+def P12129294937418471474.Spec : Prop :=
+  ∀ n, (P12129294937418471474.a n : ℤ) = A013714 n
+
+end A013714
+
 /-!
 # A013715: a(n) = 10^(2*n+1).
 
@@ -2482,7 +2527,7 @@ theorem P8052982298155763803.correct : P8052982298155763803.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013715
 
@@ -2722,7 +2767,7 @@ theorem P12750872254875682631.correct : P12750872254875682631.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013716
 
@@ -2752,52 +2797,55 @@ def P280710604178847895.Spec : Prop :=
 
 end A013716
 
-/-! ## A013716.P18117115443859323723
+/-! ## A013716.P662000496513600097
 
-`record[11^n^(n%2)]`
+`11^runs[floor(sqrt(n))]`
 -/
 
-namespace A013716.P18117115443859323723
+namespace A013716.P662000496513600097
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11 ^ n ^ (n % 2)
+  Nat.sqrt n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  11 ^ (SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n)
+
+end
+
+end A013716.P662000496513600097
+
+namespace A013716
+
+/-- `11^runs[floor(sqrt(n))]` -/
+def P662000496513600097.Spec : Prop :=
+  ∀ n, (P662000496513600097.a n : ℤ) = A013716 n
+
+end A013716
+
+/-! ## A013716.P3970600961299770438
+
+`record[11*(-11)^n]`
+-/
+
+namespace A013716.P3970600961299770438
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  11 * (-11) ^ n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A013716.P18117115443859323723
+end A013716.P3970600961299770438
 
 namespace A013716
 
-/-- `record[11^n^(n%2)]` -/
-def P18117115443859323723.Spec : Prop :=
-  ∀ n, (P18117115443859323723.a n : ℤ) = A013716 n
-
-end A013716
-
-/-! ## A013716.P4540308363107046315
-
-`root(11, tan(acot(2*n+1)))`
--/
-
-namespace A013716.P4540308363107046315
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (11 : ℝ) ^ (1 / Real.tan (SequenceMachineLib.acot (2 * n + 1 : ℝ)))
-
-end
-
-end A013716.P4540308363107046315
-
-namespace A013716
-
-/-- `root(11, tan(acot(2*n+1)))` -/
-def P4540308363107046315.Spec : Prop :=
-  ∀ n, P4540308363107046315.a n = (A013716 n : ℝ)
+/-- `record[11*(-11)^n]` -/
+def P3970600961299770438.Spec : Prop :=
+  ∀ n, P3970600961299770438.a n = A013716 n
 
 end A013716
 
@@ -2864,7 +2912,7 @@ theorem P14804302545444269552.correct : P14804302545444269552.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013717
 
@@ -3006,7 +3054,7 @@ theorem P17917430831045141032.correct : P17917430831045141032.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013718
 
@@ -3148,7 +3196,7 @@ theorem P2557878172741829065.correct : P2557878172741829065.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013719
 
@@ -3290,7 +3338,7 @@ theorem P8855732700702339981.correct : P8855732700702339981.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013720
 
@@ -3320,6 +3368,32 @@ def P16156371400165366067.Spec : Prop :=
 
 end A013720
 
+/-! ## A013720.P2213827156618856023
+
+`15^runs[floor(sqrt(n))]`
+-/
+
+namespace A013720.P2213827156618856023
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  15 ^ (SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n)
+
+end
+
+end A013720.P2213827156618856023
+
+namespace A013720
+
+/-- `15^runs[floor(sqrt(n))]` -/
+def P2213827156618856023.Spec : Prop :=
+  ∀ n, (P2213827156618856023.a n : ℤ) = A013720 n
+
+end A013720
+
 /-! ## A013720.P5681861259077757033
 
 `record[15^n^(n%2)]`
@@ -3343,29 +3417,6 @@ namespace A013720
 /-- `record[15^n^(n%2)]` -/
 def P5681861259077757033.Spec : Prop :=
   ∀ n, (P5681861259077757033.a n : ℤ) = A013720 n
-
-end A013720
-
-/-! ## A013720.P4848543804610113653
-
-`root(15, tan(acot(2*n+1)))`
--/
-
-namespace A013720.P4848543804610113653
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (15 : ℝ) ^ (1 / Real.tan (SequenceMachineLib.acot (2 * n + 1 : ℝ)))
-
-end
-
-end A013720.P4848543804610113653
-
-namespace A013720
-
-/-- `root(15, tan(acot(2*n+1)))` -/
-def P4848543804610113653.Spec : Prop :=
-  ∀ n, P4848543804610113653.a n = (A013720 n : ℝ)
 
 end A013720
 
@@ -3432,7 +3483,7 @@ theorem P12533160979311961043.correct : P12533160979311961043.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013721
 
@@ -3600,7 +3651,7 @@ theorem P15073183960517488592.correct : P15073183960517488592.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013722
 
@@ -3745,7 +3796,7 @@ theorem P3987846819830151304.correct : P3987846819830151304.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013723
 
@@ -3890,7 +3941,7 @@ theorem P14646974876278663582.correct : P14646974876278663582.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013724
 
@@ -4032,7 +4083,7 @@ theorem P9428328259438061549.correct : P9428328259438061549.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013725
 
@@ -4177,7 +4228,7 @@ theorem P18159540443639986192.correct : P18159540443639986192.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013726
 
@@ -4322,7 +4373,7 @@ theorem P16506075404902589480.correct : P16506075404902589480.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013727
 
@@ -4467,7 +4518,7 @@ theorem P12294180541354898098.correct : P12294180541354898098.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013728
 
@@ -4533,7 +4584,7 @@ theorem P6980434730247264340.correct : P6980434730247264340.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013728
 
@@ -4626,7 +4677,7 @@ theorem P18403913103466717876.correct : P18403913103466717876.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013729
 
@@ -4765,7 +4816,7 @@ theorem P2357941398255762774.correct : P2357941398255762774.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013730
 
@@ -4932,7 +4983,7 @@ theorem P4267994567557936054.correct : P4267994567557936054.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013730
 
@@ -5296,7 +5347,7 @@ theorem P14532027995356065391.correct : P14532027995356065391.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013731
 
@@ -5798,7 +5849,7 @@ theorem P1313299276489261287.correct : P1313299276489261287.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013732
 
@@ -6047,7 +6098,7 @@ theorem P17124910560693137149.correct : P17124910560693137149.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013733
 
@@ -6310,7 +6361,7 @@ theorem P15927532097924041682.correct : P15927532097924041682.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013734
 
@@ -6564,7 +6615,7 @@ theorem P13091409504583023414.correct : P13091409504583023414.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013735
 
@@ -6801,7 +6852,7 @@ theorem P5636614448758119008.correct : P5636614448758119008.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013736
 
@@ -6841,7 +6892,7 @@ theorem P9834119305996289056.correct : P9834119305996289056.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013736
 
@@ -6907,7 +6958,7 @@ theorem P16963344151236146742.correct : P16963344151236146742.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013736
 
@@ -6974,7 +7025,7 @@ theorem P5689423706955800174.correct : P5689423706955800174.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013737
 
@@ -7066,7 +7117,7 @@ theorem P5483268664475800311.correct : P5483268664475800311.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013737
 
@@ -7133,7 +7184,7 @@ theorem P12094410370977436042.correct : P12094410370977436042.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013738
 
@@ -7173,7 +7224,7 @@ theorem P14526961231684517541.correct : P14526961231684517541.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013738
 
@@ -7239,7 +7290,7 @@ theorem P8523269429616864260.correct : P8523269429616864260.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013738
 
@@ -7306,7 +7357,7 @@ theorem P15882236940209522995.correct : P15882236940209522995.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013739
 
@@ -7375,7 +7426,7 @@ theorem P8921777934378387362.correct : P8921777934378387362.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013739
 
@@ -7468,7 +7519,7 @@ theorem P6823443089342992274.correct : P6823443089342992274.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013740
 
@@ -7508,7 +7559,7 @@ theorem P6046464867800288275.correct : P6046464867800288275.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013740
 
@@ -7627,7 +7678,7 @@ theorem P8248859672178474804.correct : P8248859672178474804.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013741
 
@@ -7775,7 +7826,7 @@ theorem P2180501205136601612.correct : P2180501205136601612.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013742
 
@@ -7841,7 +7892,7 @@ theorem P12725765133737796676.correct : P12725765133737796676.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013742
 
@@ -7937,7 +7988,7 @@ theorem P1821960146780141377.correct : P1821960146780141377.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013743
 
@@ -8085,7 +8136,7 @@ theorem P7474391413963314779.correct : P7474391413963314779.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013744
 
@@ -8227,7 +8278,7 @@ theorem P5990176879039490939.correct : P5990176879039490939.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013745
 
@@ -8366,7 +8417,7 @@ theorem P10623002550931273318.correct : P10623002550931273318.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013746
 
@@ -8406,7 +8457,7 @@ theorem P7121335470250940023.correct : P7121335470250940023.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013746
 
@@ -8522,7 +8573,7 @@ theorem P1212453366144565310.correct : P1212453366144565310.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013747
 
@@ -8670,7 +8721,7 @@ theorem P15389849757159297728.correct : P15389849757159297728.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013748
 
@@ -8710,7 +8761,7 @@ theorem P13814384251997173032.correct : P13814384251997173032.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013748
 
@@ -8966,7 +9017,7 @@ theorem P7153139189180259274.correct : P7153139189180259274.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013750
 
@@ -9265,7 +9316,7 @@ theorem P8606666583829097264.correct : P8606666583829097264.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013752
 
@@ -9521,7 +9572,7 @@ theorem P10222139340107943800.correct : P10222139340107943800.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013754
 
@@ -9561,7 +9612,7 @@ theorem P7589667268349301976.correct : P7589667268349301976.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013754
 
@@ -9615,7 +9666,7 @@ def P4199743317691970291.Spec : Prop :=
 end A013754
 
 /-!
-# A013755: 
+# A013755: a(n) = 14^(3*n + 2).
 
 The programs for A013755, there is no canonical definition to state claims against.
 -/
@@ -9767,7 +9818,7 @@ theorem P6434245509549173047.correct : P6434245509549173047.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013756
 
@@ -9847,7 +9898,7 @@ theorem P9272212867620253454.correct : P9272212867620253454.Spec := by
 end A013756
 
 /-!
-# A013757: 
+# A013757: a(n) = 15^(3*n + 2).
 
 The programs for A013757, there is no canonical definition to state claims against.
 -/
@@ -10033,7 +10084,7 @@ def P17060944641464818464.Spec : Prop :=
 end A013758
 
 /-!
-# A013759: 
+# A013759: a(n) = 16^(3n + 2).
 
 The programs for A013759, there is no canonical definition to state claims against.
 -/
@@ -10127,7 +10178,7 @@ end
 end A013759.P10267049176182024084
 
 /-!
-# A013760: 
+# A013760: a(n) = 17^(3*n + 1).
 
 The programs for A013760, there is no canonical definition to state claims against.
 -/
@@ -10162,6 +10213,21 @@ end
 
 end A013760.P2382774904638644465
 
+/-! ## A013760.P14733247986538011375
+
+`A013761(n)/17`
+-/
+
+namespace A013760.P14733247986538011375
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A013761 n : ℚ) / 17
+
+end
+
+end A013760.P14733247986538011375
+
 /-! ## A013760.P7247178858469099739
 
 `A001026(3*n+1)`
@@ -10193,7 +10259,7 @@ end
 end A013760.P11728466092225726280
 
 /-!
-# A013761: 
+# A013761: a(n) = 17^(3*n + 2).
 
 The programs for A013761, there is no canonical definition to state claims against.
 -/
@@ -10212,6 +10278,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013761.P1696180146097113267
+
+/-! ## A013761.P4469861960229466097
+
+`17*A013760(n)`
+-/
+
+namespace A013761.P4469861960229466097
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  17 * A013760 n
+
+end
+
+end A013761.P4469861960229466097
 
 /-! ## A013761.P3163876927520556583
 
@@ -10265,7 +10346,7 @@ end
 end A013761.P5616729177971150481
 
 /-!
-# A013762: 
+# A013762: a(n) = 18^(3*n + 1).
 
 The programs for A013762, there is no canonical definition to state claims against.
 -/
@@ -10355,7 +10436,7 @@ end
 end A013762.P1665130623451356568
 
 /-!
-# A013763: 
+# A013763: a(n) = 18^(3*n + 2).
 
 The programs for A013763, there is no canonical definition to state claims against.
 -/
@@ -10374,6 +10455,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013763.P18123499222828919037
+
+/-! ## A013763.P7840708972072691278
+
+`18*A013762(n)`
+-/
+
+namespace A013763.P7840708972072691278
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  18 * A013762 n
+
+end
+
+end A013763.P7840708972072691278
 
 /-! ## A013763.P8240981619116330997
 
@@ -10430,7 +10526,7 @@ end
 end A013763.P1653707797504098017
 
 /-!
-# A013764: 
+# A013764: a(n) = 19^(3*n + 1).
 
 The programs for A013764, there is no canonical definition to state claims against.
 -/
@@ -10511,7 +10607,7 @@ end
 end A013764.P9882535999543302678
 
 /-!
-# A013765: 
+# A013765: a(n) = 19^(3*n + 2).
 
 The programs for A013765, there is no canonical definition to state claims against.
 -/
@@ -10598,7 +10694,7 @@ end
 end A013765.P11401242481931811393
 
 /-!
-# A013766: 
+# A013766: a(n) = 20^(3*n + 1).
 
 The programs for A013766, there is no canonical definition to state claims against.
 -/
@@ -10682,7 +10778,7 @@ end
 end A013766.P7254822487492505160
 
 /-!
-# A013767: 
+# A013767: a(n) = 20^(3*n + 2).
 
 The programs for A013767, there is no canonical definition to state claims against.
 -/
@@ -10775,7 +10871,7 @@ end
 end A013767.P2719538983942070053
 
 /-!
-# A013768: 
+# A013768: a(n) = 21^(3*n + 1).
 
 The programs for A013768, there is no canonical definition to state claims against.
 -/
@@ -10859,7 +10955,7 @@ end
 end A013768.P13147855937260571177
 
 /-!
-# A013769: 
+# A013769: a(n) = 21^(3*n + 2).
 
 The programs for A013769, there is no canonical definition to state claims against.
 -/
@@ -10946,7 +11042,7 @@ end
 end A013769.P653298467732095410
 
 /-!
-# A013770: 
+# A013770: a(n) = 22^(3*n + 1).
 
 The programs for A013770, there is no canonical definition to state claims against.
 -/
@@ -11033,7 +11129,7 @@ end
 end A013770.P16180802249399749430
 
 /-!
-# A013771: 
+# A013771: a(n) = 22^(3*n + 2).
 
 The programs for A013771, there is no canonical definition to state claims against.
 -/
@@ -11117,7 +11213,7 @@ end
 end A013771.P631586406631325113
 
 /-!
-# A013772: 
+# A013772: a(n) = 23^(3*n + 1).
 
 The programs for A013772, there is no canonical definition to state claims against.
 -/
@@ -11198,7 +11294,7 @@ end
 end A013772.P5275162277796573140
 
 /-!
-# A013773: 
+# A013773: a(n) = 23^(3*n + 2).
 
 The programs for A013773, there is no canonical definition to state claims against.
 -/
@@ -11288,7 +11384,7 @@ end
 end A013773.P14180858515718804884
 
 /-!
-# A013774: 
+# A013774: a(n) = 24^(3*n + 1).
 
 The programs for A013774, there is no canonical definition to state claims against.
 -/
@@ -11375,7 +11471,7 @@ end
 end A013774.P9928739982104907728
 
 /-!
-# A013775: 
+# A013775: a(n) = 24^(3*n + 2).
 
 The programs for A013775, there is no canonical definition to state claims against.
 -/
@@ -11394,6 +11490,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013775.P4071669174337643028
+
+/-! ## A013775.P10234819046851742655
+
+`24*A013774(n)`
+-/
+
+namespace A013775.P10234819046851742655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  24 * A013774 n
+
+end
+
+end A013775.P10234819046851742655
 
 /-! ## A013775.P2609410589249908095
 
@@ -11529,7 +11640,7 @@ theorem P8305803703922612681.correct : P8305803703922612681.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013776
 
@@ -11801,7 +11912,7 @@ theorem P7572587616477874115.correct : P7572587616477874115.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013777
 
@@ -12061,7 +12172,7 @@ theorem P16052470322025677957.correct : P16052470322025677957.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013778
 
@@ -12153,7 +12264,7 @@ theorem P15055453499699421818.correct : P15055453499699421818.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013778
 
@@ -12344,7 +12455,7 @@ theorem P15692915814420858882.correct : P15692915814420858882.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013779
 
@@ -12587,7 +12698,33 @@ theorem P3111515685397428028.correct : P3111515685397428028.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A013780
+
+/-! ## A013780.P11340762050243189672
+
+`record[4*(-16)^n]`
+-/
+
+namespace A013780.P11340762050243189672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * (-16) ^ n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A013780.P11340762050243189672
+
+namespace A013780
+
+/-- `record[4*(-16)^n]` -/
+def P11340762050243189672.Spec : Prop :=
+  ∀ n, P11340762050243189672.a n = A013780 n
 
 end A013780
 
@@ -12627,7 +12764,7 @@ theorem P3577897097186435264.correct : P3577897097186435264.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013780
 
@@ -12651,29 +12788,6 @@ namespace A013780
 /-- `(2^or(1, 4*n))²` -/
 def P809205457999097269.Spec : Prop :=
   ∀ n, (P809205457999097269.a n : ℤ) = A013780 n
-
-end A013780
-
-/-! ## A013780.P3601401836803906302
-
-`(2^xor(1, 4*n))²`
--/
-
-namespace A013780.P3601401836803906302
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 ^ Nat.xor 1 (4 * n)) ^ 2
-
-end
-
-end A013780.P3601401836803906302
-
-namespace A013780
-
-/-- `(2^xor(1, 4*n))²` -/
-def P3601401836803906302.Spec : Prop :=
-  ∀ n, (P3601401836803906302.a n : ℤ) = A013780 n
 
 end A013780
 
@@ -12766,7 +12880,7 @@ theorem P14822086585437828214.correct : P14822086585437828214.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013781
 
@@ -12879,7 +12993,7 @@ theorem P7507807841082649810.correct : P7507807841082649810.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013782
 
@@ -13021,7 +13135,7 @@ theorem P10902607556024059702.correct : P10902607556024059702.Spec := by
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
       rw [h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A013783
 
@@ -13477,7 +13591,7 @@ theorem P9256324493906186884.correct : P9256324493906186884.Spec := by
 end A013786
 
 /-!
-# A013787: 
+# A013787: a(n) = 7^(4*n + 3).
 
 The programs for A013787, there is no canonical definition to state claims against.
 -/
@@ -13695,7 +13809,7 @@ def P8749477924978505370.Spec : Prop :=
 end A013788
 
 /-!
-# A013789: 
+# A013789: a(n) = 8^(4*n + 3).
 
 The programs for A013789, there is no canonical definition to state claims against.
 -/
@@ -13733,6 +13847,21 @@ end
 
 end A013789.P8160664080648482390
 
+/-! ## A013789.P1410169589839759124
+
+`2*A013759(n)`
+-/
+
+namespace A013789.P1410169589839759124
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A013759 n
+
+end
+
+end A013789.P1410169589839759124
+
 /-! ## A013789.P18395816101315852559
 
 `A013713(Δ[n²])`
@@ -13767,7 +13896,7 @@ end
 end A013789.P12797138506743003881
 
 /-!
-# A013790: 
+# A013790: a(n) = 9^(4*n + 1).
 
 The programs for A013790, there is no canonical definition to state claims against.
 -/
@@ -13854,7 +13983,7 @@ end
 end A013790.P13855947240117257862
 
 /-!
-# A013791: 
+# A013791: a(n) = 9^(4*n + 3).
 
 The programs for A013791, there is no canonical definition to state claims against.
 -/
@@ -13944,7 +14073,7 @@ end
 end A013791.P18410931359826553962
 
 /-!
-# A013792: 
+# A013792: a(n) = 10^(4*n + 1).
 
 The programs for A013792, there is no canonical definition to state claims against.
 -/
@@ -14037,7 +14166,7 @@ end
 end A013792.P8289450092045536774
 
 /-!
-# A013793: 
+# A013793: a(n) = 10^(4*n + 3).
 
 The programs for A013793, there is no canonical definition to state claims against.
 -/
@@ -14127,7 +14256,7 @@ end
 end A013793.P6674553839830168494
 
 /-!
-# A013794: 
+# A013794: a(n) = 11^(4n+1).
 
 The programs for A013794, there is no canonical definition to state claims against.
 -/
@@ -14223,7 +14352,7 @@ end
 end A013794.P12730108826846680817
 
 /-!
-# A013795: 
+# A013795: a(n) = 11^(4*n+3).
 
 The programs for A013795, there is no canonical definition to state claims against.
 -/
@@ -14313,7 +14442,7 @@ end
 end A013795.P17803678096474498758
 
 /-!
-# A013796: 
+# A013796: a(n) = 12^(4*n + 1).
 
 The programs for A013796, there is no canonical definition to state claims against.
 -/
@@ -14412,7 +14541,7 @@ end
 end A013796.P147921165613994138
 
 /-!
-# A013797: 
+# A013797: a(n) = 12^(4*n + 3).
 
 The programs for A013797, there is no canonical definition to state claims against.
 -/
@@ -14502,7 +14631,7 @@ end
 end A013797.P5905818771151651751
 
 /-!
-# A013798: 
+# A013798: a(n) = 13^(4*n + 1).
 
 The programs for A013798, there is no canonical definition to state claims against.
 -/
@@ -14595,7 +14724,7 @@ end
 end A013798.P11188283438464175165
 
 /-!
-# A013799: 
+# A013799: a(n) = 13^(4*n + 3).
 
 The programs for A013799, there is no canonical definition to state claims against.
 -/

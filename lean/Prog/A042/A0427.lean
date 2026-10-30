@@ -15,16 +15,18 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -1071,6 +1073,21 @@ end
 
 end A042763.P3730291586988353631
 
+/-! ## A042763.P4551768217575317494
+
+`A041425(n)/A040001(n+1)`
+-/
+
+namespace A042763.P4551768217575317494
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041425 n : ℚ) / (A040001 (n + 1) : ℚ)
+
+end
+
+end A042763.P4551768217575317494
+
 /-! ## A042763.P6280069485731904746
 
 `A041425(n)/A134451(n+1)`
@@ -1196,6 +1213,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042778.P13651439039713192574
+
+/-! ## A042778.P10112542265061511563
+
+`runs[A343229(n)]*A041428(n)`
+-/
+
+namespace A042778.P10112542265061511563
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343229 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n : ℕ) : ℤ) * A041428 n
+
+end
+
+end A042778.P10112542265061511563
 
 /-! ## A042778.P14696280444502341795
 

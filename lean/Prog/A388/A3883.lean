@@ -2,15 +2,15 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C009
 import Seq.B000.C027
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C004
 import Seq.B002.C001
 import Seq.B003.C003
 import Seq.B003.C005
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -465,32 +465,31 @@ end
 end A388304.P3815943717218310472
 
 /-!
-# A388305: 
+# A388305: Numbers divisible by at least 3 primes where not all exponents in the factorization are equal.
 
-The programs for A388305, there is no canonical definition to state claims against.
+The programs for A388305, the canonical program `A388305.P1899733816285087499` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388305 has offset 1).
+
+The definition of A388305 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A388305.P1899733816285087499
 
 `∩[A000977(n+1), A059404(n+1)]`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
-namespace A388305.P1899733816285087499
-noncomputable section
+namespace A388305
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000977 (n + 1)
+/-- `∩[A000977(n+1), A059404(n+1)]` -/
+def P1899733816285087499.Spec : Prop :=
+  ∀ n, (P1899733816285087499.a n : ℤ) = A388305 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059404 (n + 1)
+theorem P1899733816285087499.correct : P1899733816285087499.Spec := by
+  intro n
+  simp only [A388305, Nat.add_sub_cancel]
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A388305.P1899733816285087499
+end A388305
 
 /-!
 # A388306: Numbers that are not square but divisible by the square of their largest prime factor.

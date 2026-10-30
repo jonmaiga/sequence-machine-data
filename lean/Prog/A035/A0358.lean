@@ -10,32 +10,35 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C042
-import Seq.B001.C000
+import Seq.B000.C041
+import Seq.B000.C043
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -52,7 +55,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C022
 
@@ -206,6 +208,21 @@ end
 
 end A035838.P2739456556313857374
 
+/-! ## A035838.P3155455659733056040
+
+`A103881(A317107(n+9)+A052905(n+7))`
+-/
+
+namespace A035838.P3155455659733056040
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103881 (A317107 (n + 9) + A052905 (n + 7)).toNat
+
+end
+
+end A035838.P3155455659733056040
+
 /-!
 # A035839: Coordination sequence for A_13 lattice.
 
@@ -349,6 +366,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035840.P10938515600808742298
+
+/-! ## A035840.P10478781131655870910
+
+`A103881(A317107(n+10)+A052905(n+9))`
+-/
+
+namespace A035840.P10478781131655870910
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103881 (A317107 (n + 10) + A052905 (n + 9)).toNat
+
+end
+
+end A035840.P10478781131655870910
 
 /-! ## A035840.P5196969828806691783
 
@@ -2365,6 +2397,21 @@ end A035894.P1504708848276304065
 The programs for A035895, there is no canonical definition to state claims against.
 -/
 
+/-! ## A035895.P4623751009448227761
+
+`lcm(A035733(n), A309970(A160724(n)))`
+-/
+
+namespace A035895.P4623751009448227761
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A035733 n) (A309970 (A160724 n).toNat)
+
+end
+
+end A035895.P4623751009448227761
+
 /-! ## A035895.P5108971067941924264
 
 `A035263(2^n)*A035733(n)`
@@ -2428,21 +2475,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035895.P3466145458656349671
-
-/-! ## A035895.P10200750887338562005
-
-`A035733(n)*A056594(A084639(n))`
--/
-
-namespace A035895.P10200750887338562005
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035733 n * A056594 (A084639 n).toNat
-
-end
-
-end A035895.P10200750887338562005
 
 /-!
 # A035896: Coordination sequence for diamond structure D^+_40. (Edges defined by l_1 norm = 1.).

@@ -8,16 +8,17 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -25,18 +26,17 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C044
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
@@ -45,14 +45,15 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -1427,23 +1428,29 @@ end A252923.P17658643535272392453
 /-!
 # A252924: Number of n X 2 nonnegative integer arrays with upper left 0 and lower right n+2-6 and value increasing by 0 or 1 with every step right or down.
 
-The programs for A252924, there is no canonical definition to state claims against.
+The programs for A252924, the canonical program `A252924.P13623213647229370901` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252924 has offset 1).
+
+The definition of A252924 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A252924.P13623213647229370901
 
 `A212633(A155212(n+5))`
+
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
-namespace A252924.P13623213647229370901
-noncomputable section
+namespace A252924
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212633 (A155212 (n + 5)).toNat
+/-- `A212633(A155212(n+5))` -/
+def P13623213647229370901.Spec : Prop :=
+  ∀ n, P13623213647229370901.a n = A252924 (n + 1)
 
-end
+theorem P13623213647229370901.correct : P13623213647229370901.Spec := by
+  intro n
+  simp only [A252924, Nat.add_sub_cancel]
 
-end A252924.P13623213647229370901
+end A252924
 
 /-! ## A252924.P2071101322174522699
 
@@ -1460,6 +1467,14 @@ end
 
 end A252924.P2071101322174522699
 
+namespace A252924
+
+/-- `A212633(A052905(n+6)-3)` -/
+def P2071101322174522699.Spec : Prop :=
+  ∀ n, P2071101322174522699.a n = A252924 (n + 1)
+
+end A252924
+
 /-! ## A252924.P12760994303000698901
 
 `A212633(A046691(n+7)-4)`
@@ -1475,6 +1490,14 @@ end
 
 end A252924.P12760994303000698901
 
+namespace A252924
+
+/-- `A212633(A046691(n+7)-4)` -/
+def P12760994303000698901.Spec : Prop :=
+  ∀ n, P12760994303000698901.a n = A252924 (n + 1)
+
+end A252924
+
 /-! ## A252924.P6469882241631294231
 
 `A212633(A000124(n+9)-9)`
@@ -1489,6 +1512,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252924.P6469882241631294231
+
+namespace A252924
+
+/-- `A212633(A000124(n+9)-9)` -/
+def P6469882241631294231.Spec : Prop :=
+  ∀ n, P6469882241631294231.a n = A252924 (n + 1)
+
+end A252924
 
 /-! ## A252924.P13968725688238298795
 
@@ -1510,6 +1541,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252924.P13968725688238298795
+
+namespace A252924
+
+/-- `A212633(eq[6, A219347(n)])` -/
+def P13968725688238298795.Spec : Prop :=
+  ∀ n, P13968725688238298795.a n = A252924 (n + 1)
+
+end A252924
 
 /-!
 # A252925: Number of n X 3 nonnegative integer arrays with upper left 0 and lower right n+3-6 and value increasing by 0 or 1 with every step right or down.
@@ -2798,6 +2837,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252939.P144099313306521172
+
+/-!
+# A252940: Run lengths of A252939.
+
+The programs for A252940, there is no canonical definition to state claims against.
+-/
+
+/-! ## A252940.P9845609362002782701
+
+`runs[A252939(1+n)]`
+-/
+
+namespace A252940.P9845609362002782701
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252939 (1 + n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n
+
+end
+
+end A252940.P9845609362002782701
 
 /-!
 # A252941: Irregular triangle T(n,k) read by rows: T(1,1) = 1, otherwise row n lists the prime factors of A098550(n), with duplicates omitted.
@@ -5923,6 +5986,21 @@ end
 
 end A252977.P6844896728489783322
 
+/-! ## A252977.P2957233390680872967
+
+`A326455(n)+A252983(A001844(n))`
+-/
+
+namespace A252977.P2957233390680872967
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326455 n + A252983 (A001844 n).toNat
+
+end
+
+end A252977.P2957233390680872967
+
 /-! ## A252977.P4610939941485672578
 
 `lcm(A046854(n), A252983(A001844(n)))`
@@ -5938,6 +6016,21 @@ end
 
 end A252977.P4610939941485672578
 
+/-! ## A252977.P8514804920143627687
+
+`A033630(2*n+3)*A252983(A001844(n))`
+-/
+
+namespace A252977.P8514804920143627687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033630 (2 * n + 3) * A252983 (A001844 n).toNat
+
+end
+
+end A252977.P8514804920143627687
+
 /-! ## A252977.P6587406014598952190
 
 `A014963(C(n+2, 2))*A252983(A001844(n))`
@@ -5952,36 +6045,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252977.P6587406014598952190
-
-/-! ## A252977.P6930236458913224192
-
-`A000005(((-1)^n)²)*A252983(A001844(n))`
--/
-
-namespace A252977.P6930236458913224192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (((-1) ^ n) ^ 2).toNat * A252983 (A001844 n).toNat
-
-end
-
-end A252977.P6930236458913224192
-
-/-! ## A252977.P14065663834169921780
-
-`A014963(A061792(n))*A252983(A001844(n))`
--/
-
-namespace A252977.P14065663834169921780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A061792 n).toNat * A252983 (A001844 n).toNat
-
-end
-
-end A252977.P14065663834169921780
 
 /-!
 # A252978: Number of n X 3 nonnegative integer arrays with upper left 0 and lower right its king-move distance away minus 2 and every value increasing by 0 or 1 with every step right, diagonally se or down.
@@ -6678,20 +6741,23 @@ end
 
 end A252988.P9607981347814946639
 
-/-! ## A252988.P13851433860908788461
+/-! ## A252988.P16117947133027863986
 
-`A252993(A000096(n+1))+A185284(n)`
+`record[A252993(n+3)/A157208(n+3)]`
 -/
 
-namespace A252988.P13851433860908788461
+namespace A252988.P16117947133027863986
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252993 (A000096 (n + 1)).toNat + A185284 n
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A252993 (n + 3) : ℚ) / (A157208 (n + 3) : ℚ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A252988.P13851433860908788461
+end A252988.P16117947133027863986
 
 /-!
 # A252989: Number of (n+2)X(3+2) 0..2 arrays with every consecutive three elements in every row and column having exactly 2 distinct values, in every diagonal 1 or 2 distinct values, in every antidiagonal 2 or 3 distinct values, and new values 0 upwards introduced in row major order.
