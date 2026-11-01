@@ -10,32 +10,34 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -48,7 +50,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -61,6 +62,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -149,6 +151,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019005.P6950769900368008889
+
+/-!
+# A019008: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [Mg14Al52P66O264].7R.40H2O starting with a T4 atom.
+
+The programs for A019008, there is no canonical definition to state claims against.
+-/
+
+/-! ## A019008.P1727252389389096801
+
+`A008472(A163476(n))-A001221(n+1)`
+-/
+
+namespace A019008.P1727252389389096801
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008472 (A163476 n).toNat - A001221 (n + 1)
+
+end
+
+end A019008.P1727252389389096801
 
 /-!
 # A019010: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EAB = TMA-E (Aiello and Barrer)(1) (Me4N)2Na7[Al9Si27O7] starting with a T2 atom.
@@ -318,20 +341,20 @@ end
 
 end A019013.P13716832919457562631
 
-/-! ## A019013.P7230834554154794056
+/-! ## A019013.P860523188726320684
 
-`A019062(n+2)+A002819(A348810(n))`
+`A019062(A114800(n+1)+1)`
 -/
 
-namespace A019013.P7230834554154794056
+namespace A019013.P860523188726320684
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019062 (n + 2) + A002819 (A348810 n).toNat
+  A019062 (A114800 (n + 1) + 1).toNat
 
 end
 
-end A019013.P7230834554154794056
+end A019013.P860523188726320684
 
 /-!
 # A019014: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ERI = Erionite (Na2,Ca..)3.5K2[Al9Si27O72].27H2O starting with a T2 atom.
@@ -339,20 +362,20 @@ end A019013.P7230834554154794056
 The programs for A019014, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019014.P4711468890354904907
+/-! ## A019014.P11412788554704739838
 
-`A081166(3*n+4)/A005186(n)*n²+2`
+`A081166(3*n+4)*n²+2`
 -/
 
-namespace A019014.P4711468890354904907
+namespace A019014.P11412788554704739838
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A081166 (3 * n + 4) : ℚ) / (A005186 n : ℚ) * (n ^ 2 : ℚ) + 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A081166 (3 * n + 4) * (n ^ 2 : ℤ) + 2
 
 end
 
-end A019014.P4711468890354904907
+end A019014.P11412788554704739838
 
 /-!
 # A019016: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite FAU = Faujasite (Na2,Ca,Mg)29 [ Al58Si134O384 ] . 240 H2O.
@@ -489,20 +512,20 @@ end A019021.P9391303006950352441
 The programs for A019022, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019022.P16197871080843005996
+/-! ## A019022.P3970943790319318669
 
-`A219838(A207163(n+1))*A378040(n+1)`
+`4*A230980(A399981(n+1))`
 -/
 
-namespace A019022.P16197871080843005996
+namespace A019022.P3970943790319318669
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219838 (A207163 (n + 1)).toNat * A378040 (n + 1)
+  4 * A230980 (A399981 (n + 1)).toNat
 
 end
 
-end A019022.P16197871080843005996
+end A019022.P3970943790319318669
 
 /-!
 # A019023: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3[Al3Si3O12].1.5H2O starting with a T1 atom.
@@ -606,20 +629,26 @@ end A019026.P10253377183988768627
 The programs for A019027, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019027.P6247121623896289683
+/-! ## A019027.P8236982304753067352
 
-`A080513(A016273(n))-A006516(n)`
+`A003499(n)-∑[A182434(Δ[n²]^n)]`
 -/
 
-namespace A019027.P6247121623896289683
+namespace A019027.P8236982304753067352
 noncomputable section
 
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182434 (((f2 (n + 1) : ℤ) - (f2 n : ℤ)) ^ n).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080513 (A016273 n).toNat - A006516 n
+  A003499 n - ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A019027.P6247121623896289683
+end A019027.P8236982304753067352
 
 /-!
 # A019028: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9[Al18Si18O72] starting with a T2 atom.
@@ -1121,20 +1150,20 @@ end A019048.P8397374791621922269
 The programs for A019049, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019049.P5329424423945986829
+/-! ## A019049.P5640354703189964597
 
-`A283190(A001018(n))+A188003(n+1)`
+`A030604(A007501(n)+1)+A004987(n)`
 -/
 
-namespace A019049.P5329424423945986829
+namespace A019049.P5640354703189964597
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283190 (A001018 n).toNat + A188003 (n + 1)
+  A030604 (A007501 n + 1).toNat + A004987 n
 
 end
 
-end A019049.P5329424423945986829
+end A019049.P5640354703189964597
 
 /-!
 # A019050: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[Al152Si520O1344] starting with a T2 atom.

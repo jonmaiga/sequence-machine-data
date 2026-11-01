@@ -5,6 +5,7 @@ import Seq.B001.C003
 import Seq.B011.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 
 /-!
@@ -48,6 +49,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A170444.P1397524994510521543
+
+/-! ## A170444.P5956431570533035512
+
+`Δ[A170492(n)+A042950(A151811(n))]`
+-/
+
+namespace A170444.P5956431570533035512
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170492 n + A042950 (A151811 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A170444.P5956431570533035512
 
 /-! ## A170444.P1153496345651644858
 

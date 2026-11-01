@@ -9,27 +9,29 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B001.C000
@@ -50,6 +52,7 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -163,20 +166,20 @@ end
 
 end A153903.P6274155824012258592
 
-/-! ## A153903.P9647488301831936353
+/-! ## A153903.P15899357498797029291
 
-`A303297(A101296(n+1)+A000111(n))`
+`A030227(n)+A010060(A283108(n+1))`
 -/
 
-namespace A153903.P9647488301831936353
+namespace A153903.P15899357498797029291
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303297 (A101296 (n + 1) + A000111 n).toNat
+  A030227 n + A010060 (A283108 (n + 1)).toNat
 
 end
 
-end A153903.P9647488301831936353
+end A153903.P15899357498797029291
 
 /-!
 # A153906: Number of planar n X n X n binary triangular grids with mirror symmetry about one altitude with no more than 1 one in any 5 X 5 X 5 subtriangle.
@@ -361,20 +364,20 @@ end
 
 end A153909.P14031331526151954709
 
-/-! ## A153909.P3974790057241605029
+/-! ## A153909.P6563166996855644950
 
-`A333778(A245388(n+2))`
+`A333778(A245388(2+n))`
 -/
 
-namespace A153909.P3974790057241605029
+namespace A153909.P6563166996855644950
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333778 (A245388 (n + 2)).toNat
+  A333778 (A245388 (2 + n)).toNat
 
 end
 
-end A153909.P3974790057241605029
+end A153909.P6563166996855644950
 
 /-!
 # A153913: Number of planar n X n X n binary triangular grids symmetric both under 120 degree rotation and reflection with no more than 2 ones in any 3 X 3 X 3 subtriangle.
@@ -2002,20 +2005,20 @@ end A153973
 The programs for A153974, there is no canonical definition to state claims against.
 -/
 
-/-! ## A153974.P5869623923986816516
+/-! ## A153974.P8952659402730568220
 
-`2*A241808(n+1)`
+`2*A241808(1+n)`
 -/
 
-namespace A153974.P5869623923986816516
+namespace A153974.P8952659402730568220
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A241808 (n + 1)
+  2 * A241808 (1 + n)
 
 end
 
-end A153974.P5869623923986816516
+end A153974.P8952659402730568220
 
 /-! ## A153974.P532752262912315057
 
@@ -2083,6 +2086,24 @@ end
 
 end A153974.P14487307116454781552
 
+/-! ## A153974.P11558497365149994086
+
+`record[2*A241808(A152271(n))]`
+-/
+
+namespace A153974.P11558497365149994086
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A241808 (A152271 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A153974.P11558497365149994086
+
 /-! ## A153974.P17283355440829851196
 
 `A004277(A241808(n+1))`
@@ -2134,50 +2155,50 @@ end A153974.P15702663748492474158
 The programs for A153975, there is no canonical definition to state claims against.
 -/
 
-/-! ## A153975.P18023485266897233730
+/-! ## A153975.P16286876215653529634
 
-`sqrt(A153262(n+1))`
+`sqrt(A153262(1+n))`
 -/
 
-namespace A153975.P18023485266897233730
+namespace A153975.P16286876215653529634
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A153262 (n + 1) : ℝ)
+  Real.sqrt (A153262 (1 + n) : ℝ)
 
 end
 
-end A153975.P18023485266897233730
+end A153975.P16286876215653529634
 
-/-! ## A153975.P14613001697236435781
+/-! ## A153975.P12982284943968723380
 
-`2*A097698(n+1)`
+`2*A097698(1+n)`
 -/
 
-namespace A153975.P14613001697236435781
+namespace A153975.P12982284943968723380
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A097698 (n + 1)
+  2 * A097698 (1 + n)
 
 end
 
-end A153975.P14613001697236435781
+end A153975.P12982284943968723380
 
-/-! ## A153975.P8595108029052375006
+/-! ## A153975.P3173178983409837889
 
-`root(A153262(root(n+1, 2)²), 2)`
+`root(A153262(root(1+n, 2)²), 2)`
 -/
 
-namespace A153975.P8595108029052375006
+namespace A153975.P3173178983409837889
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A153262 (SequenceMachineLib.roundAway (((n + 1 : ℝ) ^ (1 / (2 : ℝ))) ^ 2)).toNat : ℝ) ^ (1 / (2 : ℝ))
+  (A153262 (SequenceMachineLib.roundAway (((1 + n : ℝ) ^ (1 / (2 : ℝ))) ^ 2)).toNat : ℝ) ^ (1 / (2 : ℝ))
 
 end
 
-end A153975.P8595108029052375006
+end A153975.P3173178983409837889
 
 /-! ## A153975.P14360327505025380140
 
@@ -2267,6 +2288,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153975.P7947620148849781901
+
+/-! ## A153975.P12213221768921590676
+
+`A103517(A097698(n+1)-1)`
+-/
+
+namespace A153975.P12213221768921590676
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103517 (A097698 (n + 1) - 1).toNat
+
+end
+
+end A153975.P12213221768921590676
 
 /-!
 # A153976: a(n) = n^3 + (n+2)^3.
@@ -2361,6 +2397,35 @@ namespace A153976
 /-- `4*A229183(n+1)` -/
 def P9555782298718027819.Spec : Prop :=
   ∀ n, P9555782298718027819.a n = A153976 n
+
+end A153976
+
+/-! ## A153976.P12203911037669687986
+
+`Δ[4*C(∑[n]+2, 2)]`
+-/
+
+namespace A153976.P12203911037669687986
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * Nat.choose (∑ j ∈ Finset.range (n + 1), f2 j + 2) 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A153976.P12203911037669687986
+
+namespace A153976
+
+/-- `Δ[4*C(∑[n]+2, 2)]` -/
+def P12203911037669687986.Spec : Prop :=
+  ∀ n, P12203911037669687986.a n = A153976 n
 
 end A153976
 
@@ -2474,35 +2539,6 @@ namespace A153976
 /-- `∑[2*(C(2*n, 2)+(n+2)²)]` -/
 def P416307363305443350.Spec : Prop :=
   ∀ n, (P416307363305443350.a n : ℤ) = A153976 n
-
-end A153976
-
-/-! ## A153976.P17184612186927703804
-
-`Δ[(C(n, 2)+n+3)*∑[2*n]]`
--/
-
-namespace A153976.P17184612186927703804
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (Nat.choose n 2 + (n + 3)) * (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
-
-end
-
-end A153976.P17184612186927703804
-
-namespace A153976
-
-/-- `Δ[(C(n, 2)+n+3)*∑[2*n]]` -/
-def P17184612186927703804.Spec : Prop :=
-  ∀ n, P17184612186927703804.a n = A153976 n
 
 end A153976
 
@@ -2927,29 +2963,29 @@ def P8982473625742691208.Spec : Prop :=
 
 end A153977
 
-/-! ## A153977.P10985875361973329108
+/-! ## A153977.P8045140674536607048
 
-`C(∑[n+1]+2, 2)-1`
+`C(∑[1+n]+2, 2)-1`
 -/
 
-namespace A153977.P10985875361973329108
+namespace A153977.P8045140674536607048
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   (Nat.choose (∑ j ∈ Finset.range (n + 1), f1 j + 2) 2 : ℤ) - 1
 
 end
 
-end A153977.P10985875361973329108
+end A153977.P8045140674536607048
 
 namespace A153977
 
-/-- `C(∑[n+1]+2, 2)-1` -/
-def P10985875361973329108.Spec : Prop :=
-  ∀ n, P10985875361973329108.a n = A153977 (n + 1)
+/-- `C(∑[1+n]+2, 2)-1` -/
+def P8045140674536607048.Spec : Prop :=
+  ∀ n, P8045140674536607048.a n = A153977 (n + 1)
 
 end A153977
 
@@ -3474,29 +3510,29 @@ def P4008785831296609799.Spec : Prop :=
 
 end A153978
 
-/-! ## A153978.P9865200715435895077
+/-! ## A153978.P7521026334669226942
 
-`∑[lcm(n+1, n²)]`
+`∑[lcm(1+n, n²)]`
 -/
 
-namespace A153978.P9865200715435895077
+namespace A153978.P7521026334669226942
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lcm (n + 1) (n ^ 2)
+  Nat.lcm (1 + n) (n ^ 2)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A153978.P9865200715435895077
+end A153978.P7521026334669226942
 
 namespace A153978
 
-/-- `∑[lcm(n+1, n²)]` -/
-def P9865200715435895077.Spec : Prop :=
-  ∀ n, (P9865200715435895077.a n : ℤ) = A153978 (n + 1)
+/-- `∑[lcm(1+n, n²)]` -/
+def P7521026334669226942.Spec : Prop :=
+  ∀ n, (P7521026334669226942.a n : ℤ) = A153978 (n + 1)
 
 end A153978
 
@@ -3921,26 +3957,26 @@ theorem P6961115840848148548.correct : P6961115840848148548.Spec := by
 
 end A153979
 
-/-! ## A153979.P11550066406314475825
+/-! ## A153979.P11556158420849731461
 
-`A001414(A046363(n+1))`
+`A001414(A046363(1+n))`
 -/
 
-namespace A153979.P11550066406314475825
+namespace A153979.P11556158420849731461
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001414 (A046363 (n + 1)).toNat
+  A001414 (A046363 (1 + n)).toNat
 
 end
 
-end A153979.P11550066406314475825
+end A153979.P11556158420849731461
 
 namespace A153979
 
-/-- `A001414(A046363(n+1))` -/
-def P11550066406314475825.Spec : Prop :=
-  ∀ n, P11550066406314475825.a n = A153979 (n + 1)
+/-- `A001414(A046363(1+n))` -/
+def P11556158420849731461.Spec : Prop :=
+  ∀ n, P11556158420849731461.a n = A153979 (n + 1)
 
 end A153979
 
@@ -4979,20 +5015,20 @@ end
 
 end A153989.P15593813141477656918
 
-/-! ## A153989.P631142776106154905
+/-! ## A153989.P13226361153317946743
 
-`A001222(A162435(n))+A000166(n)`
+`A031346(A120088(n))+A000166(n)`
 -/
 
-namespace A153989.P631142776106154905
+namespace A153989.P13226361153317946743
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A162435 n).toNat + A000166 n
+  A031346 (A120088 n).toNat + A000166 n
 
 end
 
-end A153989.P631142776106154905
+end A153989.P13226361153317946743
 
 /-!
 # A153990: Period 6: repeat [1, 2, 5, 4, 7, 8].
@@ -5042,6 +5078,21 @@ end
 
 end A153991.P12713837716814179282
 
+/-! ## A153991.P9516410664817520130
+
+`A182972(A088716(n))+round(2^n/3)`
+-/
+
+namespace A153991.P9516410664817520130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182972 (A088716 n).toNat + SequenceMachineLib.roundAway ((2 ^ n : ℚ) / 3)
+
+end
+
+end A153991.P9516410664817520130
+
 /-! ## A153991.P7726718997413615181
 
 `A054240(A339781(n)+A078937(n))`
@@ -5056,24 +5107,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153991.P7726718997413615181
-
-/-! ## A153991.P7080870301654025662
-
-`A327186(∏[A007918(n)])+A327186(n)`
--/
-
-namespace A153991.P7080870301654025662
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007918 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327186 (∏ j ∈ Finset.range (n + 1), f1 j).toNat + A327186 n
-
-end
-
-end A153991.P7080870301654025662
 
 /-!
 # A153992: Number of planar n X n X n binary triangular grids with mirror symmetry about one altitude with no more than 10 ones in any 5 X 5 X 5 subtriangle.

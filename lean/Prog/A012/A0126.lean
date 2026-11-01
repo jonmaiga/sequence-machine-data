@@ -7,23 +7,23 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C015
-import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
+import Seq.B005.C002
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -35,11 +35,11 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C018
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 /-!
 # A012606: arctanh(arcsinh(x)*arcsin(x))=2/2!*x^2+328/6!*x^6+1356192/10!*x^10...
@@ -188,20 +188,20 @@ end A012611.P16625005488984536467
 The programs for A012613, there is no canonical definition to state claims against.
 -/
 
-/-! ## A012613.P4366702627536806857
+/-! ## A012613.P239356839682828052
 
-`A109613(A012618(n))-1`
+`A245092(A012618(n))`
 -/
 
-namespace A012613.P4366702627536806857
+namespace A012613.P239356839682828052
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109613 (A012618 n).toNat - 1
+  A245092 (A012618 n).toNat
 
 end
 
-end A012613.P4366702627536806857
+end A012613.P239356839682828052
 
 /-!
 # A012615: cos(arcsinh(x)*tan(x))=1-12/4!*x^4-120/6!*x^6-5040/8!*x^8...
@@ -669,20 +669,20 @@ end A012648.P1762134148657499165
 The programs for A012649, there is no canonical definition to state claims against.
 -/
 
-/-! ## A012649.P9946979240586199586
+/-! ## A012649.P1578290322785166317
 
-`A008683(A012316(n+4))*A012346(n)`
+`A012346(n)*A062157(A389987(n+1))`
 -/
 
-namespace A012649.P9946979240586199586
+namespace A012649.P1578290322785166317
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (A012316 (n + 4)).toNat * A012346 n
+  A012346 n * A062157 (A389987 (n + 1)).toNat
 
 end
 
-end A012649.P9946979240586199586
+end A012649.P1578290322785166317
 
 /-!
 # A012650: Expansion of e.g.f. sin(tanh(x) * log(x+1)).
@@ -745,6 +745,21 @@ end
 
 end A012650.P10197914767723828020
 
+/-! ## A012650.P8811250426991381409
+
+`A353558(A000984(n))+A012655(n)`
+-/
+
+namespace A012650.P8811250426991381409
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353558 (A000984 n).toNat + A012655 n
+
+end
+
+end A012650.P8811250426991381409
+
 /-! ## A012650.P10019784802124184056
 
 `A056170(A360714(n))+A012655(n)`
@@ -759,21 +774,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012650.P10019784802124184056
-
-/-! ## A012650.P2184625833397564482
-
-`A012655(n)*A090996(A111578(3*n+1))`
--/
-
-namespace A012650.P2184625833397564482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012655 n * A090996 (A111578 (3 * n + 1)).toNat
-
-end
-
-end A012650.P2184625833397564482
 
 /-!
 # A012651: Expansion of e.g.f. arcsin(tanh(x) * log(x+1)).
@@ -851,20 +851,20 @@ end
 
 end A012651.P11699451358553882296
 
-/-! ## A012651.P5702165132134227713
+/-! ## A012651.P13734462404071916660
 
-`A012654(n)*A248416(A000217(n+3))`
+`A012654(n)+A000007(A000108(n))`
 -/
 
-namespace A012651.P5702165132134227713
+namespace A012651.P13734462404071916660
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012654 n * A248416 (A000217 (n + 3)).toNat
+  A012654 n + A000007 (A000108 n).toNat
 
 end
 
-end A012651.P5702165132134227713
+end A012651.P13734462404071916660
 
 /-!
 # A012652: Expansion of e.g.f.: tan(tanh(x) * log(x+1)).
@@ -1025,6 +1025,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012654.P1528222878510481448
+
+/-! ## A012654.P5329498546782855874
+
+`A009172(n)-A399237(n)`
+-/
+
+namespace A012654.P5329498546782855874
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009172 n - A399237 n
+
+end
+
+end A012654.P5329498546782855874
 
 /-!
 # A012659: Expansion of e.g.f. arcsin(tanh(x) * exp(x)).
@@ -1518,20 +1533,24 @@ end
 
 end A012698.P9479001419946675657
 
-/-! ## A012698.P13720044116044160080
+/-! ## A012698.P8493729450076436378
 
-`A012704(n)+A000007(A269657(n))`
+`char[A124944(n+1)]*A012704(n)`
 -/
 
-namespace A012698.P13720044116044160080
+namespace A012698.P8493729450076436378
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124944 (n + 1)
+
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012704 n + A000007 (A269657 n).toNat
+  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A012704 n
 
 end
 
-end A012698.P13720044116044160080
+end A012698.P8493729450076436378
 
 /-!
 # A012699: Expansion of e.g.f. arcsin(arctanh(x) * log(x+1)).

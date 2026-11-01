@@ -15,12 +15,12 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -33,6 +33,7 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -53,11 +54,10 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -133,26 +133,26 @@ def P14886303188790276877.Spec : Prop :=
 
 end A142600
 
-/-! ## A142600.P6492664193730536547
+/-! ## A142600.P12055694022043786631
 
-`A070262(3*n+2)`
+`A070262(2+3*n)`
 -/
 
-namespace A142600.P6492664193730536547
+namespace A142600.P12055694022043786631
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070262 (3 * n + 2)
+  A070262 (2 + 3 * n)
 
 end
 
-end A142600.P6492664193730536547
+end A142600.P12055694022043786631
 
 namespace A142600
 
-/-- `A070262(3*n+2)` -/
-def P6492664193730536547.Spec : Prop :=
-  ∀ n, P6492664193730536547.a n = A142600 (n + 1)
+/-- `A070262(2+3*n)` -/
+def P12055694022043786631.Spec : Prop :=
+  ∀ n, P12055694022043786631.a n = A142600 (n + 1)
 
 end A142600
 

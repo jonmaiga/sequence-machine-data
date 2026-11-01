@@ -8,7 +8,8 @@ import Seq.B000.C006
 import Seq.B000.C014
 import Seq.B000.C031
 import Seq.B006.C000
-import Seq.Opaque.C023
+import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -697,29 +698,58 @@ def P3266525797442774197.Spec : Prop :=
 
 end A019757
 
-/-! ## A019757.P5044946944404897262
+/-! ## A019757.P6818515198035850473
 
-`A193685(∑[n+2]+3)`
+`A193685(eq[2, col(n)])`
 -/
 
-namespace A019757.P5044946944404897262
+namespace A019757.P6818515198035850473
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.triCol n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193685 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+
+end
+
+end A019757.P6818515198035850473
+
+namespace A019757
+
+/-- `A193685(eq[2, col(n)])` -/
+def P6818515198035850473.Spec : Prop :=
+  ∀ n, P6818515198035850473.a n = A019757 n
+
+end A019757
+
+/-! ## A019757.P5869700004101974334
+
+`A193685(∑[2+n]+3)`
+-/
+
+namespace A019757.P5869700004101974334
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A193685 (∑ j ∈ Finset.range (n + 1), f1 j + 3)
 
 end
 
-end A019757.P5044946944404897262
+end A019757.P5869700004101974334
 
 namespace A019757
 
-/-- `A193685(∑[n+2]+3)` -/
-def P5044946944404897262.Spec : Prop :=
-  ∀ n, P5044946944404897262.a n = A019757 n
+/-- `A193685(∑[2+n]+3)` -/
+def P5869700004101974334.Spec : Prop :=
+  ∀ n, P5869700004101974334.a n = A019757 n
 
 end A019757
 
@@ -835,6 +865,29 @@ namespace A019783
 /-- `Δ[A016243(n)-A016233(n)]` -/
 def P3992261441130320658.Spec : Prop :=
   ∀ n, P3992261441130320658.a n = A019783 n
+
+end A019783
+
+/-! ## A019783.P12853440269190386776
+
+`round((A019928(n)+A019757(n))/2)`
+-/
+
+namespace A019783.P12853440269190386776
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A019928 n + A019757 n : ℚ) / 2)
+
+end
+
+end A019783.P12853440269190386776
+
+namespace A019783
+
+/-- `round((A019928(n)+A019757(n))/2)` -/
+def P12853440269190386776.Spec : Prop :=
+  ∀ n, P12853440269190386776.a n = A019783 n
 
 end A019783
 

@@ -8,16 +8,15 @@ import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C022
 import Seq.B000.C027
-import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C039
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -454,6 +453,21 @@ end A013213.P9468250022297632721
 The programs for A013214, there is no canonical definition to state claims against.
 -/
 
+/-! ## A013214.P10072848591923815489
+
+`A013221(n^A186754(n))`
+-/
+
+namespace A013214.P10072848591923815489
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013221 (SequenceMachineLib.roundAway ((n : ℚ) ^ (A186754 n : ℤ))).toNat
+
+end
+
+end A013214.P10072848591923815489
+
 /-! ## A013214.P9500596543028216369
 
 `A013221(n^A277604(n))`
@@ -498,21 +512,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013214.P2057980280664041876
-
-/-! ## A013214.P266153747217874717
-
-`A013221(n)^A211399(n)!`
--/
-
-namespace A013214.P266153747217874717
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013221 n ^ Nat.factorial (A211399 n).toNat
-
-end
-
-end A013214.P266153747217874717
 
 /-!
 # A013215: Expansion of e.g.f. sinh(log(x+1) - sin(x)).
@@ -1354,6 +1353,21 @@ end
 
 end A013238.P16556867448180891645
 
+/-! ## A013238.P11793644443573488563
+
+`A013245(n*A215341(n)!)`
+-/
+
+namespace A013238.P11793644443573488563
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013245 (n * Nat.factorial (A215341 n).toNat)
+
+end
+
+end A013238.P11793644443573488563
+
 /-! ## A013238.P4940463607560639975
 
 `A013245(n)^A320906(n)!`
@@ -1368,21 +1382,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013238.P4940463607560639975
-
-/-! ## A013238.P6343207640629645976
-
-`A013245(A276142(n+2)-2)`
--/
-
-namespace A013238.P6343207640629645976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013245 (A276142 (n + 2) - 2).toNat
-
-end
-
-end A013238.P6343207640629645976
 
 /-!
 # A013239: sinh(log(x+1)-tan(x)) = -1/2!*x^2 - 6/4!*x^4 + 8/5!*x^5 - 135/6!*x^6 + ...
@@ -2176,6 +2175,21 @@ end
 
 end A013261.P2144343731295123423
 
+/-! ## A013261.P8406766454457491940
+
+`A013265(A228326(n+1))`
+-/
+
+namespace A013261.P8406766454457491940
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013265 (A228326 (n + 1)).toNat
+
+end
+
+end A013261.P8406766454457491940
+
 /-! ## A013261.P13296324154359893737
 
 `A013265(A045918(n)-10)`
@@ -2205,21 +2219,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013261.P9139295458233891692
-
-/-! ## A013261.P2445010755845828726
-
-`A013265(n*A213217(n))`
--/
-
-namespace A013261.P2445010755845828726
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013265 ((n : ℤ) * A213217 n).toNat
-
-end
-
-end A013261.P2445010755845828726
 
 /-!
 # A013262: E.g.f.: cos(log(x+1)-sinh(x))=1-3/4!*x^4+10/5!*x^5-100/6!*x^6+693/7!*x^7...
@@ -3496,18 +3495,21 @@ end
 
 end A013299.P7161952389488423582
 
-/-! ## A013299.P2043886909531984758
+/-! ## A013299.P14444941298537737357
 
-`A079484(n)+((2*n)²-1)*a(n-1)` with `a(0)=1`
+`∑{#}[1, A079484(n)*C(n, #)]`
 -/
 
-namespace A013299.P2043886909531984758
+namespace A013299.P14444941298537737357
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A079484 n + (((2 * n) ^ 2 : ℤ) - 1) * a (n - 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A079484 n * (Nat.choose n k : ℤ)
 
 end
 
-end A013299.P2043886909531984758
+end A013299.P14444941298537737357
 

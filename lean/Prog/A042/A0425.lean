@@ -9,8 +9,7 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C017
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C035
+import Seq.B000.C024
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
@@ -18,11 +17,12 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B007.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -136,26 +136,26 @@ def P5396368259242314567.Spec : Prop :=
 
 end A042510
 
-/-! ## A042510.P17098794771673572371
+/-! ## A042510.P17600543486672621803
 
-`A010684(n+1)*A041154(n)`
+`A010684(1+n)*A041154(n)`
 -/
 
-namespace A042510.P17098794771673572371
+namespace A042510.P17600543486672621803
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010684 (n + 1) * A041154 n
+  A010684 (1 + n) * A041154 n
 
 end
 
-end A042510.P17098794771673572371
+end A042510.P17600543486672621803
 
 namespace A042510
 
-/-- `A010684(n+1)*A041154(n)` -/
-def P17098794771673572371.Spec : Prop :=
-  ∀ n, P17098794771673572371.a n = A042510 n
+/-- `A010684(1+n)*A041154(n)` -/
+def P17600543486672621803.Spec : Prop :=
+  ∀ n, P17600543486672621803.a n = A042510 n
 
 end A042510
 
@@ -618,20 +618,35 @@ end
 
 end A042518.P2257520541371331989
 
-/-! ## A042518.P15145587823363165507
+/-! ## A042518.P11866824912651141734
 
-`A000034(n+1)*A041364(n)`
+`A000034(1+n)*A041364(n)`
 -/
 
-namespace A042518.P15145587823363165507
+namespace A042518.P11866824912651141734
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (n + 1) * A041364 n
+  A000034 (1 + n) * A041364 n
 
 end
 
-end A042518.P15145587823363165507
+end A042518.P11866824912651141734
+
+/-! ## A042518.P8835613734175626872
+
+`A134451(n+2)*A041364(n)`
+-/
+
+namespace A042518.P8835613734175626872
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134451 (n + 2) * A041364 n
+
+end
+
+end A042518.P8835613734175626872
 
 /-! ## A042518.P6800549274426449092
 
@@ -662,6 +677,43 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042518.P915679559853426794
+
+/-! ## A042518.P14912561406085683056
+
+`Δ[A001651(n+2)]*A041364(n)`
+-/
+
+namespace A042518.P14912561406085683056
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001651 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) - f1 n) * A041364 n
+
+end
+
+end A042518.P14912561406085683056
+
+/-! ## A042518.P14378745316419719005
+
+`(2-char[A099375(n)])*A041364(n)`
+-/
+
+namespace A042518.P14378745316419719005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099375 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)) * A041364 n
+
+end
+
+end A042518.P14378745316419719005
 
 /-! ## A042518.P1350819314361302417
 
@@ -780,20 +832,20 @@ end A042519.P7844724636167345799
 The programs for A042526, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042526.P16359898367618180155
+/-! ## A042526.P10990240325921868337
 
-`A041156(3*n+2)`
+`A041156(2+n*3)`
 -/
 
-namespace A042526.P16359898367618180155
+namespace A042526.P10990240325921868337
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A041156 (3 * n + 2)
+  A041156 (2 + n * 3)
 
 end
 
-end A042526.P16359898367618180155
+end A042526.P10990240325921868337
 
 /-! ## A042526.P14555789204389159028
 
@@ -810,20 +862,20 @@ end
 
 end A042526.P14555789204389159028
 
-/-! ## A042526.P18339394234205553753
+/-! ## A042526.P14785890172213942699
 
-`A000034(n+1)*A041366(n)`
+`A000034(1+n)*A041366(n)`
 -/
 
-namespace A042526.P18339394234205553753
+namespace A042526.P14785890172213942699
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (n + 1) * A041366 n
+  A000034 (1 + n) * A041366 n
 
 end
 
-end A042526.P18339394234205553753
+end A042526.P14785890172213942699
 
 /-! ## A042526.P7224645094554216802
 
@@ -935,6 +987,27 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A042527.P4454018082403141957
+
+/-!
+# A042537: Denominators of continued fraction convergents to sqrt(797).
+
+The programs for A042537, there is no canonical definition to state claims against.
+-/
+
+/-! ## A042537.P1533371983228406848
+
+`round(A042536(n)/sqrt(797))`
+-/
+
+namespace A042537.P1533371983228406848
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A042536 n : ℝ) / Real.sqrt (797 : ℝ))
+
+end
+
+end A042537.P1533371983228406848
 
 /-!
 # A042543: Denominators of continued fraction convergents to sqrt(800).

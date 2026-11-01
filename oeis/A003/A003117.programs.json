@@ -19,6 +19,34 @@
       ]
     },
     {
+      "d": "2026-10-31",
+      "ix": "root(contfrac[root(3, 5)]^3, 3)",
+      "mt": 82,
+      "px": [
+        "3",
+        "5",
+        "root",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
+      "d": "2026-10-30",
+      "ix": "lcm(C(n, n), contfrac[C005532])",
+      "mt": 82,
+      "px": [
+        "n",
+        "n",
+        "C",
+        "C005532",
+        "contfrac",
+        "lcm"
+      ]
+    },
+    {
       "d": "2023-06-06",
       "ix": "contfrac[C005532]^contfrac[ϕ²]",
       "mt": 82,
@@ -29,6 +57,100 @@
         "²",
         "contfrac",
         "^"
+      ]
+    },
+    {
+      "d": "2026-11-01",
+      "ix": "round(contfrac[C005532]/contfrac[ϕ²])",
+      "mt": 82,
+      "px": [
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "/",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-10-31",
+      "ix": "contfrac[C005532]+val(contfrac[ϕ²], 3)",
+      "mt": 82,
+      "px": [
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "3",
+        "val",
+        "+"
+      ]
+    },
+    {
+      "d": "2026-10-30",
+      "ix": "contfrac[C005532]/(contfrac[ϕ²]-1)!",
+      "mt": 82,
+      "px": [
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "1",
+        "sub",
+        "!",
+        "/"
+      ]
+    },
+    {
+      "d": "2026-10-31",
+      "ix": "contfrac[C005532]*a(log2(contfrac[ϕ²]))",
+      "mt": 82,
+      "px": [
+        "1",
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "log2",
+        "a",
+        "*"
+      ]
+    },
+    {
+      "d": "2026-10-30",
+      "ix": "C(contfrac[C005532], col(contfrac[ϕ²]+1))",
+      "mt": 82,
+      "px": [
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "1",
+        "+",
+        "col",
+        "C"
+      ]
+    },
+    {
+      "d": "2026-10-30",
+      "ix": "contfrac[C005532]+(contfrac[ϕ²]-1)*n",
+      "mt": 82,
+      "px": [
+        "C005532",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "1",
+        "sub",
+        "n",
+        "*",
+        "+"
       ]
     }
   ]

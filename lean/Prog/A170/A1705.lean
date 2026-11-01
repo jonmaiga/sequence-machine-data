@@ -44,6 +44,42 @@ end
 
 end A170540.P12236226957681572758
 
+/-! ## A170540.P16850826905264647977
+
+`Δ[A003945(n)]-A090003(A151811(n))`
+-/
+
+namespace A170540.P16850826905264647977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003945 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n - A090003 (A151811 n).toNat
+
+end
+
+end A170540.P16850826905264647977
+
+/-! ## A170540.P16913509913736043609
+
+`Δ[A103204(n+1)]-A090003(A151811(n))`
+-/
+
+namespace A170540.P16913509913736043609
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103204 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n - A090003 (A151811 n).toNat
+
+end
+
+end A170540.P16913509913736043609
+
 /-! ## A170540.P16604858666869401566
 
 `Δ[Δ[A103204(n+1)-A196222(A196222(2*n+3))]]`

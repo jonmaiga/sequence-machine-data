@@ -2,13 +2,13 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C005
 import Seq.B000.C010
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B002.C002
 import Seq.B003.C000
-import Seq.B005.C001
 import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C012
@@ -44,20 +44,20 @@ end A172802.P14649531587453357922
 The programs for A172806, there is no canonical definition to state claims against.
 -/
 
-/-! ## A172806.P2424677603821473334
+/-! ## A172806.P15510604330568211586
 
-`A257493(A052905(n+2))`
+`A257493(A052905(2+n))`
 -/
 
-namespace A172806.P2424677603821473334
+namespace A172806.P15510604330568211586
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257493 (A052905 (n + 2)).toNat
+  A257493 (A052905 (2 + n)).toNat
 
 end
 
-end A172806.P2424677603821473334
+end A172806.P15510604330568211586
 
 /-! ## A172806.P7633523688792577773
 
@@ -431,6 +431,27 @@ end
 
 end A172868.P8169586475811604372
 
+/-! ## A172868.P9031144082293921886
+
+`A333901(eq[6, A128227(n)])`
+-/
+
+namespace A172868.P9031144082293921886
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128227 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333901 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172868.P9031144082293921886
+
 /-! ## A172868.P40003293374185520
 
 `A333901(eq[6, A193592(n)])`
@@ -451,21 +472,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172868.P40003293374185520
-
-/-! ## A172868.P2355763909856481714
-
-`A333901(A052905(n+3)+10)`
--/
-
-namespace A172868.P2355763909856481714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333901 (A052905 (n + 3) + 10).toNat
-
-end
-
-end A172868.P2355763909856481714
 
 /-!
 # A172869: Number of n X 11 0..5 arrays with row sums 11 and column sums n.

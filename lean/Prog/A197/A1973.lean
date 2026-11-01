@@ -18,22 +18,26 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B002.C001
@@ -46,17 +50,15 @@ import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,6 +83,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -177,6 +180,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A197300.P14659633114178689103
+
+/-! ## A197300.P15755813207286574578
+
+`A000040(comp[A093696(n+5)%A073692(5*(n+1)*n)])`
+-/
+
+namespace A197300.P15755813207286574578
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A093696 (n + 5)) (A073692 (5 * (n + 1) * n))
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+
+end
+
+end A197300.P15755813207286574578
 
 /-!
 # A197301: Number of n X n 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,4,0,2,1 for x=0,1,2,3,4.
@@ -446,6 +468,27 @@ end A197303.P13190682631236845776
 The programs for A197304, there is no canonical definition to state claims against.
 -/
 
+/-! ## A197304.P2528013335910512050
+
+`A197307(eq[5, 1+col(n)]+1)`
+-/
+
+namespace A197304.P2528013335910512050
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + SequenceMachineLib.triCol n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197307 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1)
+
+end
+
+end A197304.P2528013335910512050
+
 /-! ## A197304.P11832001785906969005
 
 `A197307(A374005(n+1))`
@@ -505,27 +548,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197304.P15544600019329999718
-
-/-! ## A197304.P8102189675299675379
-
-`A197307(eq[7, A066657(n)])`
--/
-
-namespace A197304.P8102189675299675379
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197307 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197304.P8102189675299675379
 
 /-!
 # A197305: Number of n X 6 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,4,0,2,1 for x=0,1,2,3,4.
@@ -635,6 +657,36 @@ end
 
 end A197306.P14193432220120459612
 
+/-! ## A197306.P13614493904469259862
+
+`A197307(A167487(n+5))`
+-/
+
+namespace A197306.P13614493904469259862
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197307 (A167487 (n + 5)).toNat
+
+end
+
+end A197306.P13614493904469259862
+
+/-! ## A197306.P716338054799528247
+
+`A197307(A302537(n)+27)`
+-/
+
+namespace A197306.P716338054799528247
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197307 (A302537 n + 27).toNat
+
+end
+
+end A197306.P716338054799528247
+
 /-! ## A197306.P1867915136700025693
 
 `A197307(A056119(n)+28)`
@@ -670,42 +722,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197306.P10111605158820646419
-
-/-! ## A197306.P1025725526319123516
-
-`A197307(A167499(n+5)+2)`
--/
-
-namespace A197306.P1025725526319123516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197307 (A167499 (n + 5) + 2).toNat
-
-end
-
-end A197306.P1025725526319123516
-
-/-! ## A197306.P12000752213666402719
-
-`A197307(eq[8, A131818(n+1)])`
--/
-
-namespace A197306.P12000752213666402719
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197307 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197306.P12000752213666402719
 
 /-!
 # A197307: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,4,0,2,1 for x=0,1,2,3,4.
@@ -1071,29 +1087,29 @@ theorem P7903512482529260935.correct : P7903512482529260935.Spec := by
 
 end A197311
 
-/-! ## A197311.P6908051708271772524
+/-! ## A197311.P7840834809495855950
 
-`A197317(∑[n+1]+2)`
+`A197317(∑[1+n]+2)`
 -/
 
-namespace A197311.P6908051708271772524
+namespace A197311.P7840834809495855950
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A197317 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
 
 end
 
-end A197311.P6908051708271772524
+end A197311.P7840834809495855950
 
 namespace A197311
 
-/-- `A197317(∑[n+1]+2)` -/
-def P6908051708271772524.Spec : Prop :=
-  ∀ n, P6908051708271772524.a n = A197311 (n + 1)
+/-- `A197317(∑[1+n]+2)` -/
+def P7840834809495855950.Spec : Prop :=
+  ∀ n, P7840834809495855950.a n = A197311 (n + 1)
 
 end A197311
 
@@ -1544,6 +1560,36 @@ end
 
 end A197316.P14405337380234250511
 
+/-! ## A197316.P7097690936965228240
+
+`A197317(A167487(n+5))`
+-/
+
+namespace A197316.P7097690936965228240
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197317 (A167487 (n + 5)).toNat
+
+end
+
+end A197316.P7097690936965228240
+
+/-! ## A197316.P11061303605048349299
+
+`A197317(A056119(n)+28)`
+-/
+
+namespace A197316.P11061303605048349299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197317 (A056119 n + 28).toNat
+
+end
+
+end A197316.P11061303605048349299
+
 /-! ## A197316.P13376305401089137981
 
 `A197317(eq[11, A066657(n)])`
@@ -1565,56 +1611,20 @@ end
 
 end A197316.P13376305401089137981
 
-/-! ## A197316.P9173491349744814353
+/-! ## A197316.P14304619314579372371
 
-`A197317(A133263(n+6)+5)`
+`A197317(A166136(n+5)+1)`
 -/
 
-namespace A197316.P9173491349744814353
+namespace A197316.P14304619314579372371
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197317 (A133263 (n + 6) + 5).toNat
+  A197317 (A166136 (n + 5) + 1).toNat
 
 end
 
-end A197316.P9173491349744814353
-
-/-! ## A197316.P2922926530626757097
-
-`A197317(eq[8, A131818(n+1)])`
--/
-
-namespace A197316.P2922926530626757097
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197317 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197316.P2922926530626757097
-
-/-! ## A197316.P10215038873756097072
-
-`A197317(A000124(n+7)-(n+1))`
--/
-
-namespace A197316.P10215038873756097072
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197317 (A000124 (n + 7) - (n + 1 : ℤ)).toNat
-
-end
-
-end A197316.P10215038873756097072
+end A197316.P14304619314579372371
 
 /-!
 # A197317: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 0,1,1,0,0 for x=0,1,2,3,4.
@@ -1696,6 +1706,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197318.P20558367095007563
+
+/-! ## A197318.P8093144730526427099
+
+`record[A007947(A027897(n+1))]`
+-/
+
+namespace A197318.P8093144730526427099
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (A027897 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A197318.P8093144730526427099
 
 /-! ## A197318.P7751697714290277163
 
@@ -1826,24 +1854,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197318.P1967691934340536807
-
-/-! ## A197318.P8245566905191975277
-
-`filter[A027897(n+1), A353519(#)]`
--/
-
-namespace A197318.P8245566905191975277
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027897 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353519 (f1 j).toNat = 1) n)
-
-end
-
-end A197318.P8245566905191975277
 
 /-!
 # A197320: a(n) = cosh(n*arccosh(2^n)).
@@ -3116,6 +3126,36 @@ end A197340.P8651654544716036282
 The programs for A197341, there is no canonical definition to state claims against.
 -/
 
+/-! ## A197341.P6546958867377419157
+
+`A197342(A167487(n+5))`
+-/
+
+namespace A197341.P6546958867377419157
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197342 (A167487 (n + 5)).toNat
+
+end
+
+end A197341.P6546958867377419157
+
+/-! ## A197341.P9860692495901453809
+
+`A197342(A302537(n)+27)`
+-/
+
+namespace A197341.P9860692495901453809
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197342 (A302537 n + 27).toNat
+
+end
+
+end A197341.P9860692495901453809
+
 /-! ## A197341.P3777397808918623581
 
 `A197342(A056119(n)+28)`
@@ -3152,56 +3192,41 @@ end
 
 end A197341.P8050230306075502964
 
-/-! ## A197341.P6210602250306761790
+/-! ## A197341.P9417330022255153530
 
-`A197342(A167499(n+5)+2)`
+`A197342(A166136(n+5)+1)`
 -/
 
-namespace A197341.P6210602250306761790
+namespace A197341.P9417330022255153530
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197342 (A167499 (n + 5) + 2).toNat
+  A197342 (A166136 (n + 5) + 1).toNat
 
 end
 
-end A197341.P6210602250306761790
-
-/-! ## A197341.P16386918011986703506
-
-`A197342(A167614(n+5)+4)`
--/
-
-namespace A197341.P16386918011986703506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197342 (A167614 (n + 5) + 4).toNat
-
-end
-
-end A197341.P16386918011986703506
-
-/-! ## A197341.P10919912245913013954
-
-`A197342(A000124(n+6)+6)`
--/
-
-namespace A197341.P10919912245913013954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197342 (A000124 (n + 6) + 6).toNat
-
-end
-
-end A197341.P10919912245913013954
+end A197341.P9417330022255153530
 
 /-!
 # A197342: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 3,3,2,1,2 for x=0,1,2,3,4.
 
 The programs for A197342, there is no canonical definition to state claims against.
 -/
+
+/-! ## A197342.P3242795923459885313
+
+`A225381(A283795(n)%A000978(2*(n+1)))`
+-/
+
+namespace A197342.P3242795923459885313
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225381 (Int.tmod (A283795 n) (A000978 (2 * (n + 1)))).toNat
+
+end
+
+end A197342.P3242795923459885313
 
 /-! ## A197342.P15219019004915281853
 
@@ -3262,24 +3287,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197342.P12902929511427887488
-
-/-! ## A197342.P4508549587269816170
-
-`A348459(∑{d}[A174691(n), #])`
--/
-
-namespace A197342.P4508549587269816170
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174691 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348459 (∑ d ∈ Nat.divisors (f1 n).natAbs, d)
-
-end
-
-end A197342.P4508549587269816170
 
 /-!
 # A197343: Number of n X n 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 3,3,1,1,0 for x=0,1,2,3,4.
@@ -3775,6 +3782,21 @@ end
 
 end A197348.P10795560474051466312
 
+/-! ## A197348.P4878729464552406693
+
+`A197350(A056115(n)+21)`
+-/
+
+namespace A197348.P4878729464552406693
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197350 (A056115 n + 21).toNat
+
+end
+
+end A197348.P4878729464552406693
+
 /-! ## A197348.P1832018486568368130
 
 `A197350(eq[7, A131818(n+1)])`
@@ -3811,27 +3833,6 @@ end
 
 end A197348.P9674988267460345856
 
-/-! ## A197348.P10303560292532562529
-
-`A197350(eq[3, A219347(n)])`
--/
-
-namespace A197348.P10303560292532562529
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197350 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197348.P10303560292532562529
-
 /-!
 # A197349: Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,3,1,1,0 for x=0,1,2,3,4.
 
@@ -3853,6 +3854,36 @@ end
 
 end A197349.P7641838517359422169
 
+/-! ## A197349.P16272729062788382268
+
+`A197350(A167487(n+5))`
+-/
+
+namespace A197349.P16272729062788382268
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197350 (A167487 (n + 5)).toNat
+
+end
+
+end A197349.P16272729062788382268
+
+/-! ## A197349.P2156293173999545588
+
+`A197350(A302537(n)+27)`
+-/
+
+namespace A197349.P2156293173999545588
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197350 (A302537 n + 27).toNat
+
+end
+
+end A197349.P2156293173999545588
+
 /-! ## A197349.P3070500615710722349
 
 `A197350(A056119(n)+28)`
@@ -3868,56 +3899,20 @@ end
 
 end A197349.P3070500615710722349
 
-/-! ## A197349.P5433591319243228163
+/-! ## A197349.P5426351610996440025
 
-`A197350(A141214(n+3)+10)`
+`A197350(A166136(n+5)+1)`
 -/
 
-namespace A197349.P5433591319243228163
+namespace A197349.P5426351610996440025
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197350 (A141214 (n + 3) + 10).toNat
+  A197350 (A166136 (n + 5) + 1).toNat
 
 end
 
-end A197349.P5433591319243228163
-
-/-! ## A197349.P905458555146897386
-
-`A197350(eq[8, A131818(n+1)])`
--/
-
-namespace A197349.P905458555146897386
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197350 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197349.P905458555146897386
-
-/-! ## A197349.P14305803081217676812
-
-`A197350(A055999(n+4))`
--/
-
-namespace A197349.P14305803081217676812
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197350 (A055999 (n + 4)).toNat
-
-end
-
-end A197349.P14305803081217676812
+end A197349.P5426351610996440025
 
 /-!
 # A197350: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 3,3,1,1,0 for x=0,1,2,3,4.
@@ -3925,20 +3920,65 @@ end A197349.P14305803081217676812
 The programs for A197350, there is no canonical definition to state claims against.
 -/
 
-/-! ## A197350.P15776469395009502721
+/-! ## A197350.P4010497829072351974
 
-`A197401(n+1)+A184159(A099594(n))`
+`A197401(n+1)+A186034(A022167(n))`
 -/
 
-namespace A197350.P15776469395009502721
+namespace A197350.P4010497829072351974
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197401 (n + 1) + A184159 (A099594 n).toNat
+  A197401 (n + 1) + A186034 (A022167 n).toNat
 
 end
 
-end A197350.P15776469395009502721
+end A197350.P4010497829072351974
+
+/-! ## A197350.P11416338882797104981
+
+`A197401(n+1)+A033264(A176791(n))`
+-/
+
+namespace A197350.P11416338882797104981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197401 (n + 1) + A033264 (A176791 n).toNat
+
+end
+
+end A197350.P11416338882797104981
+
+/-! ## A197350.P13337816889710935844
+
+`A197401(n+1)+A124763(A099594(n))`
+-/
+
+namespace A197350.P13337816889710935844
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197401 (n + 1) + A124763 (A099594 n).toNat
+
+end
+
+end A197350.P13337816889710935844
+
+/-! ## A197350.P1751644754144716383
+
+`A197401(n+1)+A124763(A174545(n))`
+-/
+
+namespace A197350.P1751644754144716383
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197401 (n + 1) + A124763 (A174545 n).toNat
+
+end
+
+end A197350.P1751644754144716383
 
 /-! ## A197350.P16193289475230600284
 
@@ -3954,51 +3994,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197350.P16193289475230600284
-
-/-! ## A197350.P238930350600659952
-
-`A197401(n+1)+A184159(A255256(n))`
--/
-
-namespace A197350.P238930350600659952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197401 (n + 1) + A184159 (A255256 n).toNat
-
-end
-
-end A197350.P238930350600659952
-
-/-! ## A197350.P5093674656723966241
-
-`A197401(n+1)+A124763(A331406(n))`
--/
-
-namespace A197350.P5093674656723966241
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197401 (n + 1) + A124763 (A331406 n).toNat
-
-end
-
-end A197350.P5093674656723966241
-
-/-! ## A197350.P6196447576633807915
-
-`and(3^A289651(n+1), A157179(n))`
--/
-
-namespace A197350.P6196447576633807915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (SequenceMachineLib.roundAway ((3 : ℚ) ^ (A289651 (n + 1) : ℤ))) (A157179 n)
-
-end
-
-end A197350.P6196447576633807915
 
 /-!
 # A197351: a(0)=0, a(1)=1, a(2n)=17*a(n), a(2n+1)=a(2n)+1.
@@ -5115,6 +5110,27 @@ end
 
 end A197362.P11778182635324157238
 
+/-! ## A197362.P13305277979588632946
+
+`A197364(eq[6, A256910(n)])`
+-/
+
+namespace A197362.P13305277979588632946
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256910 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197364 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A197362.P13305277979588632946
+
 /-! ## A197362.P11741027088378804558
 
 `A197364(A167499(n+4)+1)`
@@ -5129,21 +5145,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197362.P11741027088378804558
-
-/-! ## A197362.P7651824584252364538
-
-`A197364(A000096(n+4)+7)`
--/
-
-namespace A197362.P7651824584252364538
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197364 (A000096 (n + 4) + 7).toNat
-
-end
-
-end A197362.P7651824584252364538
 
 /-!
 # A197363: Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,3,1,1,1 for x=0,1,2,3,4.
@@ -5165,6 +5166,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197363.P5050386642167687700
+
+/-! ## A197363.P14613127142255605000
+
+`A197364(A167487(n+5))`
+-/
+
+namespace A197363.P14613127142255605000
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197364 (A167487 (n + 5)).toNat
+
+end
+
+end A197363.P14613127142255605000
+
+/-! ## A197363.P5254375366496495566
+
+`A197364(A302537(n)+27)`
+-/
+
+namespace A197363.P5254375366496495566
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197364 (A302537 n + 27).toNat
+
+end
+
+end A197363.P5254375366496495566
 
 /-! ## A197363.P8164995531349078105
 
@@ -5201,42 +5232,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197363.P16422023786965677459
-
-/-! ## A197363.P12752462834073094979
-
-`A197364(eq[8, A131818(n+1)])`
--/
-
-namespace A197363.P12752462834073094979
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197364 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197363.P12752462834073094979
-
-/-! ## A197363.P16562717324631876377
-
-`A197364(A055999(n+4))`
--/
-
-namespace A197363.P16562717324631876377
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197364 (A055999 (n + 4)).toNat
-
-end
-
-end A197363.P16562717324631876377
 
 /-!
 # A197364: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,3,1,1,1 for x=0,1,2,3,4.
@@ -5346,35 +5341,35 @@ end
 
 end A197366.P8917447756678509840
 
-/-! ## A197366.P12345250976486950517
+/-! ## A197366.P11222867293398879021
 
-`A380578(2*(n+1))`
+`A380578(2*(1+n))`
 -/
 
-namespace A197366.P12345250976486950517
+namespace A197366.P11222867293398879021
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380578 (2 * (n + 1))
+  A380578 (2 * (1 + n))
 
 end
 
-end A197366.P12345250976486950517
+end A197366.P11222867293398879021
 
-/-! ## A197366.P7868175366187505543
+/-! ## A197366.P6781430166151013593
 
-`A000688(2*(n+1))-A179229(n+1)`
+`A000688(2*(1+n))-A179229(n+1)`
 -/
 
-namespace A197366.P7868175366187505543
+namespace A197366.P6781430166151013593
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000688 (2 * (n + 1)) - A179229 (n + 1)
+  A000688 (2 * (1 + n)) - A179229 (n + 1)
 
 end
 
-end A197366.P7868175366187505543
+end A197366.P6781430166151013593
 
 /-! ## A197366.P17647557870260769500
 
@@ -5430,6 +5425,36 @@ end
 
 end A197367.P2561394872144703323
 
+/-! ## A197367.P8203910694499704378
+
+`A326549(n)+A197373(A001844(n))`
+-/
+
+namespace A197367.P8203910694499704378
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326549 n + A197373 (A001844 n).toNat
+
+end
+
+end A197367.P8203910694499704378
+
+/-! ## A197367.P14793467685283532642
+
+`A189006(n)*A197373(A001844(n))`
+-/
+
+namespace A197367.P14793467685283532642
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189006 n * A197373 (A001844 n).toNat
+
+end
+
+end A197367.P14793467685283532642
+
 /-! ## A197367.P3742194857851011771
 
 `A197373(A001844(n))%A332179(n)`
@@ -5462,36 +5487,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197367.P10236369298422034142
-
-/-! ## A197367.P11950038679438694755
-
-`A197373(A001844(n))/A160338(n+1)`
--/
-
-namespace A197367.P11950038679438694755
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A197373 (A001844 n).toNat : ℚ) / (A160338 (n + 1) : ℚ)
-
-end
-
-end A197367.P11950038679438694755
-
-/-! ## A197367.P13307289365531543012
-
-`A197373(A001844(n))+A008683(4*(n+1))`
--/
-
-namespace A197367.P13307289365531543012
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197373 (A001844 n).toNat + A008683 (4 * (n + 1))
-
-end
-
-end A197367.P13307289365531543012
 
 /-!
 # A197368: Number of n X 3 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 2,4,1,0,1 for x=0,1,2,3,4.
@@ -5894,6 +5889,51 @@ end
 
 end A197372.P5067531316608144134
 
+/-! ## A197372.P2545214256792041541
+
+`A197373(A167487(n+5))`
+-/
+
+namespace A197372.P2545214256792041541
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197373 (A167487 (n + 5)).toNat
+
+end
+
+end A197372.P2545214256792041541
+
+/-! ## A197372.P17525156856810319341
+
+`A197373(A302537(n)+27)`
+-/
+
+namespace A197372.P17525156856810319341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197373 (A302537 n + 27).toNat
+
+end
+
+end A197372.P17525156856810319341
+
+/-! ## A197372.P11089334617638383242
+
+`A197373(A056119(n)+28)`
+-/
+
+namespace A197372.P11089334617638383242
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197373 (A056119 n + 28).toNat
+
+end
+
+end A197372.P11089334617638383242
+
 /-! ## A197372.P5170506165157190856
 
 `A197373(eq[11, A066657(n)])`
@@ -5914,63 +5954,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197372.P5170506165157190856
-
-/-! ## A197372.P4310344243599508210
-
-`A197373(eq[8, A131818(n+1)])`
--/
-
-namespace A197372.P4310344243599508210
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197373 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197372.P4310344243599508210
-
-/-! ## A197372.P15544999649546601203
-
-`A197373(A055999(n+4))`
--/
-
-namespace A197372.P15544999649546601203
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197373 (A055999 (n + 4)).toNat
-
-end
-
-end A197372.P15544999649546601203
-
-/-! ## A197372.P14964459391665266267
-
-`A197373(eq[4, A219347(n)])`
--/
-
-namespace A197372.P14964459391665266267
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197373 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A197372.P14964459391665266267
 
 /-!
 # A197373: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 2,4,1,0,1 for x=0,1,2,3,4.
@@ -6238,6 +6221,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A197396.P10148053903385539294
+
+/-! ## A197396.P16078874008240606084
+
+`record[A197401(A286159(n+1))]`
+-/
+
+namespace A197396.P16078874008240606084
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197401 (A286159 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A197396.P16078874008240606084
 
 /-!
 # A197397: Number of nX4 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,3,1,1,1 for x=0,1,2,3,4.

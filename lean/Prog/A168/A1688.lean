@@ -2,7 +2,7 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.Opaque.C000
@@ -142,20 +142,53 @@ end
 
 end A168825.P15274194084007904524
 
-/-! ## A168825.P454936350141404755
+/-! ## A168825.P3657512055815074259
 
-`A173452(A236939(n+1))+A003946(n)`
+`record[3*(a(n-1)-A004198(A185044(n)))]` with `a(0)=1, a(1)=1, a(2)=4, a(3)=1, a(4)=4`
 -/
 
-namespace A168825.P454936350141404755
+namespace A168825.P3657512055815074259
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 4, 1, 4] fun n f1 =>
+  3 * (f1 (n - 1) - A004198 (A185044 n).toNat)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173452 (A236939 (n + 1 + 10)).toNat + A003946 n
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A168825.P454936350141404755
+end A168825.P3657512055815074259
+
+/-! ## A168825.P15912813719618423110
+
+`xor(A003946(n), A185255(A173925(n)))`
+-/
+
+namespace A168825.P15912813719618423110
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A003946 n) (A185255 (A173925 n).toNat)
+
+end
+
+end A168825.P15912813719618423110
+
+/-! ## A168825.P7384577389104362427
+
+`xor(A010894(A274157(n)), A168873(n))`
+-/
+
+namespace A168825.P7384577389104362427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A010894 ((A274157 n).toNat + 21)) (A168873 n)
+
+end
+
+end A168825.P7384577389104362427
 
 /-!
 # A168826: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^20 = I.
@@ -240,6 +273,66 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A168826.P8110580758107503783
+
+/-!
+# A168827: Number of reduced words of length n in Coxeter group on 6 generators S_i with relations (S_i)^2 = (S_i S_j)^20 = I.
+
+The programs for A168827, there is no canonical definition to state claims against.
+-/
+
+/-! ## A168827.P14510102905330282580
+
+`A003948(n)-A185044(∑[A185044(n)])`
+-/
+
+namespace A168827.P14510102905330282580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185044 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003948 n - A185044 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A168827.P14510102905330282580
+
+/-! ## A168827.P16106610656960036728
+
+`A168875(n)-A185044(∑[A185044(n)])`
+-/
+
+namespace A168827.P16106610656960036728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185044 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168875 n - A185044 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A168827.P16106610656960036728
+
+/-! ## A168827.P1296946251709240885
+
+`A168923(n)-A185044(∑[A185044(n)])`
+-/
+
+namespace A168827.P1296946251709240885
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185044 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168923 n - A185044 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A168827.P1296946251709240885
 
 /-!
 # A168872: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^21 = I.

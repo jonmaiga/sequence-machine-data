@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -35,14 +36,15 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +53,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -64,7 +65,6 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -73,9 +73,11 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -145,6 +147,29 @@ The programs for A123202, the canonical program `A123202.P17354685668513878885` 
 
 The definition of A123202 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1796 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A123202.P9277020899648213834
+
+`A002720(col(n))*A021009(n)`
+-/
+
+namespace A123202.P9277020899648213834
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002720 (SequenceMachineLib.triCol n) * A021009 n
+
+end
+
+end A123202.P9277020899648213834
+
+namespace A123202
+
+/-- `A002720(col(n))*A021009(n)` -/
+def P9277020899648213834.Spec : Prop :=
+  ∀ n, P9277020899648213834.a n = A123202 n
+
+end A123202
 
 /-! ## A123202.P17354685668513878885
 
@@ -336,32 +361,148 @@ theorem P16998584569561290195.correct : P16998584569561290195.Spec := by
 
 end A123203
 
-/-! ## A123203.P2186896495123437586
+/-! ## A123203.P13352412939548915460
 
-`∑[or(2, ∑[2^n])-2]`
+`∑[and(∑[2^n], -3)]`
 -/
 
-namespace A123203.P2186896495123437586
+namespace A123203.P13352412939548915460
 noncomputable section
 
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   2 ^ n
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.lor 2 (∑ j ∈ Finset.range (n + 1), f2 j) : ℤ) - 2
+  Int.land ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ) (-3)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A123203.P2186896495123437586
+end A123203.P13352412939548915460
 
 namespace A123203
 
-/-- `∑[or(2, ∑[2^n])-2]` -/
-def P2186896495123437586.Spec : Prop :=
-  ∀ n, P2186896495123437586.a n = A123203 (n + 1)
+/-- `∑[and(∑[2^n], -3)]` -/
+def P13352412939548915460.Spec : Prop :=
+  ∀ n, P13352412939548915460.a n = A123203 (n + 1)
+
+end A123203
+
+/-! ## A123203.P5763933768667654769
+
+`∑[∑[or(2, 2^n)-2]]`
+-/
+
+namespace A123203.P5763933768667654769
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.lor 2 (2 ^ n) : ℤ) - 2
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A123203.P5763933768667654769
+
+namespace A123203
+
+/-- `∑[∑[or(2, 2^n)-2]]` -/
+def P5763933768667654769.Spec : Prop :=
+  ∀ n, P5763933768667654769.a n = A123203 (n + 1)
+
+end A123203
+
+/-! ## A123203.P9725136024413536502
+
+`∑[xor(2, ∑[2^n])]-2`
+-/
+
+namespace A123203.P9725136024413536502
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor 2 (∑ j ∈ Finset.range (n + 1), f2 j)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 2
+
+end
+
+end A123203.P9725136024413536502
+
+namespace A123203
+
+/-- `∑[xor(2, ∑[2^n])]-2` -/
+def P9725136024413536502.Spec : Prop :=
+  ∀ n, P9725136024413536502.a n = A123203 (n + 1)
+
+end A123203
+
+/-! ## A123203.P14088032303550808555
+
+`∑[∑[(2%(n+1))^n]]`
+-/
+
+namespace A123203.P14088032303550808555
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 % (n + 1)) ^ n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A123203.P14088032303550808555
+
+namespace A123203
+
+/-- `∑[∑[(2%(n+1))^n]]` -/
+def P14088032303550808555.Spec : Prop :=
+  ∀ n, (P14088032303550808555.a n : ℤ) = A123203 (n + 1)
+
+end A123203
+
+/-! ## A123203.P10192556788663199059
+
+`∑[∑[gcd(2, T(n-1,k+1))^n]]` with `a(0)=1, a(1)=0`
+-/
+
+namespace A123203.P10192556788663199059
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.rec [1, 0] fun n f2 =>
+  Nat.gcd 2 (SequenceMachineLib.triUpRight f2 n) ^ n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A123203.P10192556788663199059
+
+namespace A123203
+
+/-- `∑[∑[gcd(2, T(n-1,k+1))^n]]` -/
+def P10192556788663199059.Spec : Prop :=
+  ∀ n, (P10192556788663199059.a n : ℤ) = A123203 (n + 1)
 
 end A123203
 
@@ -759,104 +900,6 @@ theorem P10240487076980905933.correct : P10240487076980905933.Spec := by
   simp only [A123203, Nat.add_sub_cancel, A123203.P10240487076980905933.a, A123203.P16998584569561290195.a, A320661, A320661.P10572897147368588178.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
-end A123203
-
-/-! ## A123203.P9690346313617650898
-
-`Δ[A048492(n)-n²]`
--/
-
-namespace A123203.P9690346313617650898
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048492 n - (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A123203.P9690346313617650898
-
-namespace A123203
-
-/-- `Δ[A048492(n)-n²]` -/
-def P9690346313617650898.Spec : Prop :=
-  ∀ n, P9690346313617650898.a n = A123203 (n + 1)
-
-end A123203
-
-/-! ## A123203.P14794772900553358142
-
-`A227712(n)%A051633(n)`
--/
-
-namespace A123203.P14794772900553358142
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A227712 n) (A051633 n)
-
-end
-
-end A123203.P14794772900553358142
-
-namespace A123203
-
-/-- `A227712(n)%A051633(n)` -/
-def P14794772900553358142.Spec : Prop :=
-  ∀ n, P14794772900553358142.a n = A123203 (n + 1)
-
-end A123203
-
-/-! ## A123203.P11704298062448978519
-
-`A250652(n+1)%A115618(n)`
--/
-
-namespace A123203.P11704298062448978519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A250652 (n + 1)) (A115618 n)
-
-end
-
-end A123203.P11704298062448978519
-
-namespace A123203
-
-/-- `A250652(n+1)%A115618(n)` -/
-def P11704298062448978519.Spec : Prop :=
-  ∀ n, P11704298062448978519.a n = A123203 (n + 1)
-
-end A123203
-
-/-! ## A123203.P6536239944276737180
-
-`∑[(4^n-a(n-1)²)/3]` with `a(0)=1`
--/
-
-namespace A123203.P6536239944276737180
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1] fun n f1 =>
-  ((4 ^ n : ℚ) - f1 (n - 1) ^ 2) / 3
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A123203.P6536239944276737180
-
-namespace A123203
-
-/-- `∑[(4^n-a(n-1)²)/3]` -/
-def P6536239944276737180.Spec : Prop :=
-  ∀ n, P6536239944276737180.a n = (A123203 (n + 1) : ℚ)
 
 end A123203
 
@@ -1830,29 +1873,29 @@ theorem P111728678039147481.correct : P111728678039147481.Spec := by
 
 end A123224
 
-/-! ## A123224.P14894615518818158866
+/-! ## A123224.P13238217499569483981
 
-`∑[A072881(2*(n+1))]`
+`∑[A072881(2*(1+n))]`
 -/
 
-namespace A123224.P14894615518818158866
+namespace A123224.P13238217499569483981
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072881 (2 * (n + 1))
+  A072881 (2 * (1 + n))
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A123224.P14894615518818158866
+end A123224.P13238217499569483981
 
 namespace A123224
 
-/-- `∑[A072881(2*(n+1))]` -/
-def P14894615518818158866.Spec : Prop :=
-  ∀ n, P14894615518818158866.a n = A123224 (n + 1)
+/-- `∑[A072881(2*(1+n))]` -/
+def P13238217499569483981.Spec : Prop :=
+  ∀ n, P13238217499569483981.a n = A123224 (n + 1)
 
 end A123224
 
@@ -1885,26 +1928,26 @@ def P714111245988960144.Spec : Prop :=
 
 end A123224
 
-/-! ## A123224.P2715442598852352127
+/-! ## A123224.P4241384792743907836
 
-`A072881(2*n+2)+a(n-1)` with `a(0)=1`
+`A072881(2*(n+1))+a(n-1)` with `a(0)=1`
 -/
 
-namespace A123224.P2715442598852352127
+namespace A123224.P4241384792743907836
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A072881 (2 * n + 2) + a (n - 1)
+  A072881 (2 * (n + 1)) + a (n - 1)
 
 end
 
-end A123224.P2715442598852352127
+end A123224.P4241384792743907836
 
 namespace A123224
 
-/-- `A072881(2*n+2)+a(n-1)` -/
-def P2715442598852352127.Spec : Prop :=
-  ∀ n, P2715442598852352127.a n = A123224 (n + 1)
+/-- `A072881(2*(n+1))+a(n-1)` -/
+def P4241384792743907836.Spec : Prop :=
+  ∀ n, P4241384792743907836.a n = A123224 (n + 1)
 
 end A123224
 
@@ -3432,50 +3475,68 @@ end A123231
 The programs for A123232, there is no canonical definition to state claims against.
 -/
 
-/-! ## A123232.P14799352407698816479
+/-! ## A123232.P8736251943273768233
 
-`A080149(n+1)/2`
+`A080149(1+n)/2`
 -/
 
-namespace A123232.P14799352407698816479
+namespace A123232.P8736251943273768233
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A080149 (n + 1) : ℚ) / 2
+  (A080149 (1 + n) : ℚ) / 2
 
 end
 
-end A123232.P14799352407698816479
+end A123232.P8736251943273768233
 
-/-! ## A123232.P12739635305312216315
+/-! ## A123232.P3864695402454905137
 
-`sqrt(A145823(n+1))/2`
+`sqrt(A145823(1+n))/2`
 -/
 
-namespace A123232.P12739635305312216315
+namespace A123232.P3864695402454905137
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A145823 (n + 1) : ℝ) / 2
+  Real.sqrt (A145823 (1 + n) : ℝ) / 2
 
 end
 
-end A123232.P12739635305312216315
+end A123232.P3864695402454905137
 
-/-! ## A123232.P1696552552555820107
+/-! ## A123232.P11826171260727113597
 
-`floor(sqrt(A145824(n+1))/2)`
+`floor(sqrt(A145824(1+n))/2)`
 -/
 
-namespace A123232.P1696552552555820107
+namespace A123232.P11826171260727113597
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sqrt (A145824 (n + 1) : ℝ) / 2⌋
+  ⌊Real.sqrt (A145824 (1 + n) : ℝ) / 2⌋
 
 end
 
-end A123232.P1696552552555820107
+end A123232.P11826171260727113597
+
+/-! ## A123232.P2839084455228294225
+
+`floor(A080149(Δ[n²]-n)/2)`
+-/
+
+namespace A123232.P2839084455228294225
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A080149 ((f1 (n + 1) : ℤ) - (f1 n : ℤ) - (n : ℤ)).toNat : ℚ) / 2⌋
+
+end
+
+end A123232.P2839084455228294225
 
 /-! ## A123232.P12705683954758574705
 
@@ -3899,21 +3960,21 @@ end A123239.P10463793365003254583
 /-!
 # A123240: Natural numbers with number of divisors not equal to a Fibonacci number.
 
-The programs for A123240, the canonical program `A123240.P10296889505221293768` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123240 has offset 1).
+The programs for A123240, the canonical program `A123240.P1764906877418052093` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123240 has offset 1).
 
 The definition of A123240 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6621 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A123240.P8240097018292155752
+/-! ## A123240.P13581432078440133424
 
-`comp[A123193(n+1)-1]+1`
+`comp[A123193(1+n)-1]+1`
 -/
 
-namespace A123240.P8240097018292155752
+namespace A123240.P13581432078440133424
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123193 (n + 1) - 1
+  A123193 (1 + n) - 1
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3921,32 +3982,90 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A123240.P8240097018292155752
+end A123240.P13581432078440133424
 
 namespace A123240
 
-/-- `comp[A123193(n+1)-1]+1` -/
-def P8240097018292155752.Spec : Prop :=
-  ∀ n, (P8240097018292155752.a n : ℤ) = A123240 (n + 1)
+/-- `comp[A123193(1+n)-1]+1` -/
+def P13581432078440133424.Spec : Prop :=
+  ∀ n, (P13581432078440133424.a n : ℤ) = A123240 (n + 1)
 
 end A123240
 
-/-! ## A123240.P10296889505221293768
+/-! ## A123240.P1764906877418052093
 
-`eq[0, A122895(n+1)]+1`
+`eq[0, A122895(1+n)]+1`
 
 The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A123240
 
-/-- `eq[0, A122895(n+1)]+1` -/
-def P10296889505221293768.Spec : Prop :=
-  ∀ n, (P10296889505221293768.a n : ℤ) = A123240 (n + 1)
+/-- `eq[0, A122895(1+n)]+1` -/
+def P1764906877418052093.Spec : Prop :=
+  ∀ n, (P1764906877418052093.a n : ℤ) = A123240 (n + 1)
 
-theorem P10296889505221293768.correct : P10296889505221293768.Spec := by
+theorem P1764906877418052093.correct : P1764906877418052093.Spec := by
   intro n
   simp only [A123240, Nat.add_sub_cancel]
+
+end A123240
+
+/-! ## A123240.P14680184907949771743
+
+`lt[A122895(n+1), 1]+1`
+-/
+
+namespace A123240.P14680184907949771743
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122895 (n + 1)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1
+
+end
+
+end A123240.P14680184907949771743
+
+namespace A123240
+
+/-- `lt[A122895(n+1), 1]+1` -/
+def P14680184907949771743.Spec : Prop :=
+  ∀ n, (P14680184907949771743.a n : ℤ) = A123240 (n + 1)
+
+end A123240
+
+/-! ## A123240.P18372563286863400893
+
+`eq[0, A122895(A028310(n))]`
+-/
+
+namespace A123240.P18372563286863400893
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122895 (A028310 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A123240.P18372563286863400893
+
+namespace A123240
+
+/-- `eq[0, A122895(A028310(n))]` -/
+def P18372563286863400893.Spec : Prop :=
+  ∀ n, (P18372563286863400893.a n : ℤ) = A123240 (n + 1)
 
 end A123240
 
@@ -4794,6 +4913,21 @@ end
 
 end A123245.P7995411597664189612
 
+/-! ## A123245.P16824835517413838743
+
+`A110592(round(A103999(n)/A127399(n+2))+2)`
+-/
+
+namespace A123245.P16824835517413838743
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110592 (SequenceMachineLib.roundAway ((A103999 n : ℚ) / (A127399 (n + 2) : ℚ)) + 2).toNat
+
+end
+
+end A123245.P16824835517413838743
+
 /-! ## A123245.P11892971409811351951
 
 `A043533(A112492(n))`
@@ -4824,21 +4958,6 @@ end
 
 end A123245.P5008952544329341204
 
-/-! ## A123245.P8669448622543839165
-
-`A055642(A210341(n)²)`
--/
-
-namespace A123245.P8669448622543839165
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055642 (A210341 n ^ 2).toNat
-
-end
-
-end A123245.P8669448622543839165
-
 /-!
 # A123246: a(n) = PrimePi(n) + (-1)^(PrimePi(n) + 1) (cf. A000720).
 
@@ -4862,49 +4981,104 @@ def P9440738482151598640.Spec : Prop :=
 
 end A123246
 
-/-! ## A123246.P3211400424635320600
+/-! ## A123246.P5682059026499653804
 
-`xor(1, A036234(n+1))-1`
+`-xor(1, -∑[∑{p}[n+1, floor(#/(n+1))]])`
 -/
 
-namespace A123246.P3211400424635320600
+namespace A123246.P5682059026499653804
 noncomputable section
 
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ p ∈ Nat.primeFactors (f2 n), ⌊(p : ℚ) / (n + 1 : ℚ)⌋
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor 1 (A036234 (n + 1)) - 1
+  -Int.xor 1 (-(∑ j ∈ Finset.range (n + 1), f1 j))
 
 end
 
-end A123246.P3211400424635320600
+end A123246.P5682059026499653804
 
 namespace A123246
 
-/-- `xor(1, A036234(n+1))-1` -/
-def P3211400424635320600.Spec : Prop :=
-  ∀ n, P3211400424635320600.a n = A123246 (n + 1)
+/-- `-xor(1, -∑[∑{p}[n+1, floor(#/(n+1))]])` -/
+def P5682059026499653804.Spec : Prop :=
+  ∀ n, P5682059026499653804.a n = A123246 (n + 1)
 
 end A123246
 
-/-! ## A123246.P16971224006181870239
+/-! ## A123246.P16219228581440006728
 
-`-xor(1, -A000720(n+1))`
+`xor(1, Δ[A002815(n)])-1`
 -/
 
-namespace A123246.P16971224006181870239
+namespace A123246.P16219228581440006728
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002815 n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -Int.xor 1 (-A000720 (n + 1))
+  Int.xor 1 (f1 (n + 1) - f1 n) - 1
 
 end
 
-end A123246.P16971224006181870239
+end A123246.P16219228581440006728
 
 namespace A123246
 
-/-- `-xor(1, -A000720(n+1))` -/
-def P16971224006181870239.Spec : Prop :=
-  ∀ n, P16971224006181870239.a n = A123246 (n + 1)
+/-- `xor(1, Δ[A002815(n)])-1` -/
+def P16219228581440006728.Spec : Prop :=
+  ∀ n, P16219228581440006728.a n = A123246 (n + 1)
+
+end A123246
+
+/-! ## A123246.P16196227396501337300
+
+`xor(1, A036234(1+n))-1`
+-/
+
+namespace A123246.P16196227396501337300
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor 1 (A036234 (1 + n)) - 1
+
+end
+
+end A123246.P16196227396501337300
+
+namespace A123246
+
+/-- `xor(1, A036234(1+n))-1` -/
+def P16196227396501337300.Spec : Prop :=
+  ∀ n, P16196227396501337300.a n = A123246 (n + 1)
+
+end A123246
+
+/-! ## A123246.P455739813317742876
+
+`-xor(1, -A000720(1+n))`
+-/
+
+namespace A123246.P455739813317742876
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -Int.xor 1 (-A000720 (1 + n))
+
+end
+
+end A123246.P455739813317742876
+
+namespace A123246
+
+/-- `-xor(1, -A000720(1+n))` -/
+def P455739813317742876.Spec : Prop :=
+  ∀ n, P455739813317742876.a n = A123246 (n + 1)
 
 end A123246
 
@@ -4931,6 +5105,59 @@ namespace A123246
 /-- `-xor(1, ∑[-A010051(n+1)])` -/
 def P10382870534681297976.Spec : Prop :=
   ∀ n, P10382870534681297976.a n = A123246 (n + 1)
+
+end A123246
+
+/-! ## A123246.P8121472080561111624
+
+`xor(1, A000720(n+1)+1)-1`
+-/
+
+namespace A123246.P8121472080561111624
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor 1 (A000720 (n + 1) + 1) - 1
+
+end
+
+end A123246.P8121472080561111624
+
+namespace A123246
+
+/-- `xor(1, A000720(n+1)+1)-1` -/
+def P8121472080561111624.Spec : Prop :=
+  ∀ n, P8121472080561111624.a n = A123246 (n + 1)
+
+end A123246
+
+/-! ## A123246.P8822734491048320682
+
+`-xor(1, -∑[char[A006093(n+1)]])`
+-/
+
+namespace A123246.P8822734491048320682
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006093 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -Int.xor 1 (-((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ))
+
+end
+
+end A123246.P8822734491048320682
+
+namespace A123246
+
+/-- `-xor(1, -∑[char[A006093(n+1)]])` -/
+def P8822734491048320682.Spec : Prop :=
+  ∀ n, P8822734491048320682.a n = A123246 (n + 1)
 
 end A123246
 
@@ -5207,98 +5434,6 @@ namespace A123246
 /-- `A000720(n+1)+A071986(n+1)-A131377(n+1)` -/
 def P342154901331083136.Spec : Prop :=
   ∀ n, P342154901331083136.a n = A123246 (n + 1)
-
-end A123246
-
-/-! ## A123246.P7919167022848074043
-
-`A000720(n+1)+A131378(n+1)-A131377(n+1)`
--/
-
-namespace A123246.P7919167022848074043
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (n + 1) + (A131378 (n + 1) - A131377 (n + 1))
-
-end
-
-end A123246.P7919167022848074043
-
-namespace A123246
-
-/-- `A000720(n+1)+A131378(n+1)-A131377(n+1)` -/
-def P7919167022848074043.Spec : Prop :=
-  ∀ n, P7919167022848074043.a n = A123246 (n + 1)
-
-end A123246
-
-/-! ## A123246.P9404660201346356947
-
-`A036234(n+1)-(A131377(n+1)+A131377(n+1))`
--/
-
-namespace A123246.P9404660201346356947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036234 (n + 1) - (A131377 (n + 1) + A131377 (n + 1))
-
-end
-
-end A123246.P9404660201346356947
-
-namespace A123246
-
-/-- `A036234(n+1)-(A131377(n+1)+A131377(n+1))` -/
-def P9404660201346356947.Spec : Prop :=
-  ∀ n, P9404660201346356947.a n = A123246 (n + 1)
-
-end A123246
-
-/-! ## A123246.P2071471429362693272
-
-`A071986(n+1)+A230980(n+1)-A131377(n+1)`
--/
-
-namespace A123246.P2071471429362693272
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071986 (n + 1) + (A230980 (n + 1) - A131377 (n + 1))
-
-end
-
-end A123246.P2071471429362693272
-
-namespace A123246
-
-/-- `A071986(n+1)+A230980(n+1)-A131377(n+1)` -/
-def P2071471429362693272.Spec : Prop :=
-  ∀ n, P2071471429362693272.a n = A123246 (n + 1)
-
-end A123246
-
-/-! ## A123246.P11955084271678523908
-
-`A131378(n+1)+A230980(n+1)-A131377(n+1)`
--/
-
-namespace A123246.P11955084271678523908
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131378 (n + 1) + (A230980 (n + 1) - A131377 (n + 1))
-
-end
-
-end A123246.P11955084271678523908
-
-namespace A123246
-
-/-- `A131378(n+1)+A230980(n+1)-A131377(n+1)` -/
-def P11955084271678523908.Spec : Prop :=
-  ∀ n, P11955084271678523908.a n = A123246 (n + 1)
 
 end A123246
 
@@ -5639,6 +5774,29 @@ namespace A123251
 /-- `ogf((1+4x+x^2+3x^3-x^4+4x^5-x^6+x^7)/(1-2x^4+x^8))` -/
 def P16760436296061459520.Spec : Prop :=
   ∀ n, P16760436296061459520.a n = A123251 (n + 1)
+
+end A123251
+
+/-! ## A123251.P5017325641205203108
+
+`(n-A131732(n))^and(1, n)`
+-/
+
+namespace A123251.P5017325641205203108
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) - A131732 n) ^ Nat.land 1 n
+
+end
+
+end A123251.P5017325641205203108
+
+namespace A123251
+
+/-- `(n-A131732(n))^and(1, n)` -/
+def P5017325641205203108.Spec : Prop :=
+  ∀ n, P5017325641205203108.a n = A123251 (n + 1)
 
 end A123251
 
@@ -6272,77 +6430,77 @@ end A123254
 /-!
 # A123255: Numbers k such that 4k+1, 4k+2, and 4k+3 are all semiprimes.
 
-The programs for A123255, the canonical program `A123255.P11098668165499929543` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123255 has offset 1).
+The programs for A123255, the canonical program `A123255.P11098668165499929543` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123255 has offset 1).
 
 The definition of A123255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 570 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A123255.P15711935604126125600
+/-! ## A123255.P9482912488788589114
 
-`floor(A086006(n+1)/2)`
+`floor(A086006(1+n)/2)`
 -/
 
-namespace A123255.P15711935604126125600
+namespace A123255.P9482912488788589114
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A086006 (n + 1) : ℚ) / 2⌋
+  ⌊(A086006 (1 + n) : ℚ) / 2⌋
 
 end
 
-end A123255.P15711935604126125600
+end A123255.P9482912488788589114
 
 namespace A123255
 
-/-- `floor(A086006(n+1)/2)` -/
-def P15711935604126125600.Spec : Prop :=
-  ∀ n, P15711935604126125600.a n = A123255 (n + 1)
+/-- `floor(A086006(1+n)/2)` -/
+def P9482912488788589114.Spec : Prop :=
+  ∀ n, P9482912488788589114.a n = A123255 (n + 1)
 
 end A123255
 
-/-! ## A123255.P12628194074529954581
+/-! ## A123255.P13546105944711645322
 
-`floor(A056809(n+1)/4)`
+`floor(A056809(1+n)/4)`
 -/
 
-namespace A123255.P12628194074529954581
+namespace A123255.P13546105944711645322
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A056809 (n + 1) : ℚ) / 4⌋
+  ⌊(A056809 (1 + n) : ℚ) / 4⌋
 
 end
 
-end A123255.P12628194074529954581
+end A123255.P13546105944711645322
 
 namespace A123255
 
-/-- `floor(A056809(n+1)/4)` -/
-def P12628194074529954581.Spec : Prop :=
-  ∀ n, P12628194074529954581.a n = A123255 (n + 1)
+/-- `floor(A056809(1+n)/4)` -/
+def P13546105944711645322.Spec : Prop :=
+  ∀ n, P13546105944711645322.a n = A123255 (n + 1)
 
 end A123255
 
-/-! ## A123255.P17876945844729879529
+/-! ## A123255.P8023161824169196392
 
-`floor(A086005(n+1)/4)`
+`floor(A086005(1+n)/4)`
 -/
 
-namespace A123255.P17876945844729879529
+namespace A123255.P8023161824169196392
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A086005 (n + 1) : ℚ) / 4⌋
+  ⌊(A086005 (1 + n) : ℚ) / 4⌋
 
 end
 
-end A123255.P17876945844729879529
+end A123255.P8023161824169196392
 
 namespace A123255
 
-/-- `floor(A086005(n+1)/4)` -/
-def P17876945844729879529.Spec : Prop :=
-  ∀ n, P17876945844729879529.a n = A123255 (n + 1)
+/-- `floor(A086005(1+n)/4)` -/
+def P8023161824169196392.Spec : Prop :=
+  ∀ n, P8023161824169196392.a n = A123255 (n + 1)
 
 end A123255
 
@@ -6366,6 +6524,75 @@ namespace A123255
 /-- `floor(A115393(n+1)/4)` -/
 def P2307854042725108269.Spec : Prop :=
   ∀ n, P2307854042725108269.a n = A123255 (n + 1)
+
+end A123255
+
+/-! ## A123255.P3317261217779538789
+
+`round(A056809(n+1)/4)`
+-/
+
+namespace A123255.P3317261217779538789
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A056809 (n + 1) : ℚ) / 4)
+
+end
+
+end A123255.P3317261217779538789
+
+namespace A123255
+
+/-- `round(A056809(n+1)/4)` -/
+def P3317261217779538789.Spec : Prop :=
+  ∀ n, P3317261217779538789.a n = A123255 (n + 1)
+
+end A123255
+
+/-! ## A123255.P8894425019373776042
+
+`(A086006(n+1)-1)/2`
+-/
+
+namespace A123255.P8894425019373776042
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A086006 (n + 1) - 1 : ℚ) / 2
+
+end
+
+end A123255.P8894425019373776042
+
+namespace A123255
+
+/-- `(A086006(n+1)-1)/2` -/
+def P8894425019373776042.Spec : Prop :=
+  ∀ n, P8894425019373776042.a n = (A123255 (n + 1) : ℚ)
+
+end A123255
+
+/-! ## A123255.P13115052068644714157
+
+`(A086005(n+1)-2)/4`
+-/
+
+namespace A123255.P13115052068644714157
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A086005 (n + 1) - 2 : ℚ) / 4
+
+end
+
+end A123255.P13115052068644714157
+
+namespace A123255
+
+/-- `(A086005(n+1)-2)/4` -/
+def P13115052068644714157.Spec : Prop :=
+  ∀ n, P13115052068644714157.a n = (A123255 (n + 1) : ℚ)
 
 end A123255
 
@@ -6419,7 +6646,7 @@ end A123255
 
 `(p?[A082130(n+1)]-1)/2`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A123255
@@ -6620,41 +6847,41 @@ end A123255
 The programs for A123256, there is no canonical definition to state claims against.
 -/
 
-/-! ## A123256.P9095555875473952709
+/-! ## A123256.P10330785503506664431
 
-`∑{d}[n+1, A000081(#)]`
+`∑{d}[1+n, A000081(#)]`
 -/
 
-namespace A123256.P9095555875473952709
+namespace A123256.P10330785503506664431
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ d ∈ Nat.divisors (f1 n), A000081 d
 
 end
 
-end A123256.P9095555875473952709
+end A123256.P10330785503506664431
 
-/-! ## A123256.P18313689628680479726
+/-! ## A123256.P1919197084034782161
 
-`∑{d}[n+1, A145550(#)]`
+`∑{d}[1+n, A145550(#)]`
 -/
 
-namespace A123256.P18313689628680479726
+namespace A123256.P1919197084034782161
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ d ∈ Nat.divisors (f1 n), A145550 d
 
 end
 
-end A123256.P18313689628680479726
+end A123256.P1919197084034782161
 
 /-! ## A123256.P3651571291257344831
 
@@ -6755,6 +6982,28 @@ end
 
 end A123258.P12404825493579627456
 
+/-! ## A123258.P15768582914473904818
+
+`A002182(∑[char[A192011(n)]])`
+-/
+
+namespace A123258.P15768582914473904818
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192011 n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002182 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A123258.P15768582914473904818
+
 /-! ## A123258.P188248230440586217
 
 `A061799(floor(sqrt(A273015(n+1))))`
@@ -6784,21 +7033,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123258.P17572003161731819532
-
-/-! ## A123258.P7825292973597589883
-
-`A389456(A005560(n+2))`
--/
-
-namespace A123258.P7825292973597589883
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389456 (A005560 (n + 2)).toNat
-
-end
-
-end A123258.P7825292973597589883
 
 /-!
 # A123259: a(n) = A123228(n)/2.
@@ -7043,35 +7277,35 @@ end
 
 end A123264.P2219871091309662236
 
-/-! ## A123264.P9283297267628422043
+/-! ## A123264.P17936394914056610056
 
-`A007318(n)%A007953(A223747(n+1))`
+`A004093(A008706(T(n-1,k)+T(n-1,k-1)))` with `a(0)=1, a(1)=1`
 -/
 
-namespace A123264.P9283297267628422043
+namespace A123264.P17936394914056610056
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007318 n) (A007953 (A223747 (n + 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A004093 (A008706 (SequenceMachineLib.triUp a n + SequenceMachineLib.triUpLeft a n).toNat).toNat
 
 end
 
-end A123264.P9283297267628422043
+end A123264.P17936394914056610056
 
-/-! ## A123264.P1111095307409126852
+/-! ## A123264.P14941388129613386164
 
-`abs(A108086(n))%A007953(A223747(n+1))`
+`A153679(A161594(T(n-1,k)+T(n-1,k-1)))` with `a(0)=1, a(1)=1`
 -/
 
-namespace A123264.P1111095307409126852
+namespace A123264.P14941388129613386164
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod |A108086 n| (A007953 (A223747 (n + 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A153679 (A161594 (SequenceMachineLib.triUp a n + SequenceMachineLib.triUpLeft a n).toNat).toNat
 
 end
 
-end A123264.P1111095307409126852
+end A123264.P14941388129613386164
 
 /-!
 # A123265: Fibonacci-Lucas triangle read by rows.
@@ -7143,6 +7377,29 @@ namespace A123265
 /-- `T(row(n)-2, col(n))+T(n-1,k-1)+T(n-1,k)` -/
 def P15526573462190028963.Spec : Prop :=
   ∀ n, (P15526573462190028963.a n : ℤ) = A123265 n
+
+end A123265
+
+/-! ## A123265.P10389356559832146341
+
+`T(n-2,k)+T(row(n)-1, col(n))+T(n-1,k-1)` with `a(0)=2, a(1)=1`
+-/
+
+namespace A123265.P10389356559832146341
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2, 1] fun n a =>
+  SequenceMachineLib.triUp2 a n + (SequenceMachineLib.triAt a ((SequenceMachineLib.triRow n : ℤ) - 1) (SequenceMachineLib.triCol n : ℤ) + SequenceMachineLib.triUpLeft a n)
+
+end
+
+end A123265.P10389356559832146341
+
+namespace A123265
+
+/-- `T(n-2,k)+T(row(n)-1, col(n))+T(n-1,k-1)` -/
+def P10389356559832146341.Spec : Prop :=
+  ∀ n, (P10389356559832146341.a n : ℤ) = A123265 n
 
 end A123265
 
@@ -7444,6 +7701,29 @@ def P4544988303182629892.Spec : Prop :=
 
 end A123270
 
+/-! ## A123270.P8072997017108707829
+
+`2*A015537(n)-a(n-1)` with `a(0)=1`
+-/
+
+namespace A123270.P8072997017108707829
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  2 * A015537 n - a (n - 1)
+
+end
+
+end A123270.P8072997017108707829
+
+namespace A123270
+
+/-- `2*A015537(n)-a(n-1)` -/
+def P8072997017108707829.Spec : Prop :=
+  ∀ n, P8072997017108707829.a n = A123270 n
+
+end A123270
+
 /-! ## A123270.P10993925152799022500
 
 `∑[A122690(n)]-A106567(n)`
@@ -7629,7 +7909,7 @@ end A123271.P73905805483569818
 /-!
 # A123272: Number of primes between consecutive terms of A105575.
 
-The programs for A123272, the canonical program `A123272.P13833021826799175583` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123272 has offset 1).
+The programs for A123272, the canonical program `A123272.P9864209116785066341` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123272 has offset 1).
 
 The definition of A123272 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7657,48 +7937,49 @@ def P8599558341797239952.Spec : Prop :=
 
 end A123272
 
-/-! ## A123272.P13833021826799175583
+/-! ## A123272.P8595780347009572127
 
-`char[A029709(n+1)-(n+4)]`
-
-The canonical program, it is in `Seq.B003.C002`.
+`char[A029709(1+n)-(n+4)]`
 -/
 
-namespace A123272
-
-/-- `char[A029709(n+1)-(n+4)]` -/
-def P13833021826799175583.Spec : Prop :=
-  ∀ n, (P13833021826799175583.a n : ℤ) = A123272 (n + 1)
-
-theorem P13833021826799175583.correct : P13833021826799175583.Spec := by
-  intro n
-  simp only [A123272, Nat.add_sub_cancel]
-
-end A123272
-
-/-! ## A123272.P648711857955228583
-
-`runs[floor(A000040(n+4)/6)]-1`
--/
-
-namespace A123272.P648711857955228583
+namespace A123272.P8595780347009572127
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A000040 (n + 4) : ℚ) / 6⌋
+  A029709 (1 + n) - (n + 4 : ℤ)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n : ℕ) : ℤ) - 1
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
 
 end
 
-end A123272.P648711857955228583
+end A123272.P8595780347009572127
 
 namespace A123272
 
-/-- `runs[floor(A000040(n+4)/6)]-1` -/
-def P648711857955228583.Spec : Prop :=
-  ∀ n, P648711857955228583.a n = A123272 (n + 1)
+/-- `char[A029709(1+n)-(n+4)]` -/
+def P8595780347009572127.Spec : Prop :=
+  ∀ n, (P8595780347009572127.a n : ℤ) = A123272 (n + 1)
+
+end A123272
+
+/-! ## A123272.P9864209116785066341
+
+`runs[floor(A000040(4+n)/6)]-1`
+
+The canonical program, it is in `Seq.B001.C005`.
+-/
+
+namespace A123272
+
+/-- `runs[floor(A000040(4+n)/6)]-1` -/
+def P9864209116785066341.Spec : Prop :=
+  ∀ n, P9864209116785066341.a n = A123272 (n + 1)
+
+theorem P9864209116785066341.correct : P9864209116785066341.Spec := by
+  intro n
+  simp only [A123272, Nat.add_sub_cancel]
 
 end A123272
 
@@ -7732,6 +8013,32 @@ namespace A123272
 /-- `char[eq[2, A028334(n+2)]-(n+2)]` -/
 def P8928616446060217898.Spec : Prop :=
   ∀ n, (P8928616446060217898.a n : ℤ) = A123272 (n + 1)
+
+end A123272
+
+/-! ## A123272.P4272176186253199239
+
+`round(3*runs[floor(A000040(n+4)/6)]/7)`
+-/
+
+namespace A123272.P4272176186253199239
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A000040 (n + 4) : ℚ) / 6⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (3 * (((SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n : ℕ) : ℚ) / 7))
+
+end
+
+end A123272.P4272176186253199239
+
+namespace A123272
+
+/-- `round(3*runs[floor(A000040(n+4)/6)]/7)` -/
+def P4272176186253199239.Spec : Prop :=
+  ∀ n, P4272176186253199239.a n = A123272 (n + 1)
 
 end A123272
 
@@ -7937,7 +8244,7 @@ end A123272
 /-!
 # A123273: a(0) = 1; a(n) = the number of earlier terms, a(k), where gcd(a(k), a(floor(k/2))) = 1.
 
-The programs for A123273, the canonical program `A123273.P16641897297011562504` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123273 has offset 0).
+The programs for A123273, the canonical program `A123273.P3539480498964277275` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123273 has offset 0).
 
 The definition of A123273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7975,22 +8282,51 @@ def P6667384415488246891.Spec : Prop :=
 
 end A123273
 
-/-! ## A123273.P16641897297011562504
+/-! ## A123273.P3539480498964277275
 
-`∑[Δ[C(and(n, -n), n)]²]+1`
+`∑[Δ[∏{p}[n, val(#, 2)]]²]+1`
 
 The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A123273
 
-/-- `∑[Δ[C(and(n, -n), n)]²]+1` -/
-def P16641897297011562504.Spec : Prop :=
-  ∀ n, P16641897297011562504.a n = A123273 n
+/-- `∑[Δ[∏{p}[n, val(#, 2)]]²]+1` -/
+def P3539480498964277275.Spec : Prop :=
+  ∀ n, P3539480498964277275.a n = A123273 n
 
-theorem P16641897297011562504.correct : P16641897297011562504.Spec := by
+theorem P3539480498964277275.correct : P3539480498964277275.Spec := by
   intro n
   simp only [A123273]
+
+end A123273
+
+/-! ## A123273.P17483762105029211338
+
+`1+∑[Δ[C(and(n, -n), n)]²]`
+-/
+
+namespace A123273.P17483762105029211338
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (Int.land (n : ℤ) (-(n : ℤ))).toNat n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((f2 (n + 1) : ℤ) - (f2 n : ℤ)) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A123273.P17483762105029211338
+
+namespace A123273
+
+/-- `1+∑[Δ[C(and(n, -n), n)]²]` -/
+def P17483762105029211338.Spec : Prop :=
+  ∀ n, P17483762105029211338.a n = A123273 n
 
 end A123273
 
@@ -8024,6 +8360,36 @@ def P6805188714311559179.Spec : Prop :=
 
 end A123273
 
+/-! ## A123273.P8039426994066780810
+
+`a(n-1)+abs(Δ[char[2^n]])` with `a(0)=1`
+-/
+
+namespace A123273.P8039426994066780810
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = n then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + |(f1 (n + 1) : ℤ) - (f1 n : ℤ)|
+
+end
+
+end A123273.P8039426994066780810
+
+namespace A123273
+
+/-- `a(n-1)+abs(Δ[char[2^n]])` -/
+def P8039426994066780810.Spec : Prop :=
+  ∀ n, P8039426994066780810.a n = A123273 n
+
+end A123273
+
 /-! ## A123273.P11388672241406590346
 
 `∑[round(acot(and(n+1, n-2)))]/2`
@@ -8047,65 +8413,6 @@ namespace A123273
 /-- `∑[round(acot(and(n+1, n-2)))]/2` -/
 def P11388672241406590346.Spec : Prop :=
   ∀ n, P11388672241406590346.a n = (A123273 n : ℚ)
-
-end A123273
-
-/-! ## A123273.P9081886152668551757
-
-`a(∑[char[or(2, n)+1]])+2` with `a(0)=1, a(1)=1, a(2)=2`
--/
-
-namespace A123273.P9081886152668551757
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 2 n + 1
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = n then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1, 2] fun n a =>
-  a (∑ j ∈ Finset.range (n + 1), f1 j) + 2
-
-end
-
-end A123273.P9081886152668551757
-
-namespace A123273
-
-/-- `a(∑[char[or(2, n)+1]])+2` -/
-def P9081886152668551757.Spec : Prop :=
-  ∀ n, (P9081886152668551757.a n : ℤ) = A123273 n
-
-end A123273
-
-/-! ## A123273.P5964719253958686296
-
-`a(n-∑[and(1, ∑[n])])+2` with `a(0)=1, a(1)=1, a(2)=2`
--/
-
-namespace A123273.P5964719253958686296
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land 1 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1, 2] fun n a =>
-  a (n - ∑ j ∈ Finset.range (n + 1), f1 j) + 2
-
-end
-
-end A123273.P5964719253958686296
-
-namespace A123273
-
-/-- `a(n-∑[and(1, ∑[n])])+2` -/
-def P5964719253958686296.Spec : Prop :=
-  ∀ n, (P5964719253958686296.a n : ℤ) = A123273 n
 
 end A123273
 
@@ -8136,29 +8443,6 @@ def P7414296852514061355.Spec : Prop :=
 
 end A123273
 
-/-! ## A123273.P2486930328278087607
-
-`a(n-1)+C(2, and(n+1, n-2)²)` with `a(0)=1`
--/
-
-namespace A123273.P2486930328278087607
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + Nat.choose 2 (Int.land (n + 1 : ℤ) ((n : ℤ) - 2) ^ 2).toNat
-
-end
-
-end A123273.P2486930328278087607
-
-namespace A123273
-
-/-- `a(n-1)+C(2, and(n+1, n-2)²)` -/
-def P2486930328278087607.Spec : Prop :=
-  ∀ n, (P2486930328278087607.a n : ℤ) = A123273 n
-
-end A123273
-
 /-! ## A123273.P15015625857199730362
 
 `abs(1-A349481(n+1))`
@@ -8179,6 +8463,32 @@ namespace A123273
 /-- `abs(1-A349481(n+1))` -/
 def P15015625857199730362.Spec : Prop :=
   ∀ n, P15015625857199730362.a n = A123273 n
+
+end A123273
+
+/-! ## A123273.P3183505628820927011
+
+`fp[A075427(n)+1]+1`
+-/
+
+namespace A123273.P3183505628820927011
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075427 n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 + 1
+
+end
+
+end A123273.P3183505628820927011
+
+namespace A123273
+
+/-- `fp[A075427(n)+1]+1` -/
+def P3183505628820927011.Spec : Prop :=
+  ∀ n, (P3183505628820927011.a n : ℤ) = A123273 n
 
 end A123273
 
@@ -8464,17 +8774,44 @@ end A123274
 /-!
 # A123275: Square array A(n,m) = largest divisor of m which is coprime to n, read by upwards antidiagonals.
 
-The programs for A123275, the canonical program `A123275.P16288348436701202687` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123275 has offset 1).
+The programs for A123275, the canonical program `A123275.P16659556303071463841` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123275 has offset 1).
 
-The definition of A123275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4726 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A123275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9720 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A123275.P16659556303071463841
+
+`A389099(lt[1, A208510(n+1)])`
+
+The canonical program, it is in `Seq.B005.C001`.
+-/
+
+namespace A123275
+
+/-- `A389099(lt[1, A208510(n+1)])` -/
+def P16659556303071463841.Spec : Prop :=
+  ∀ n, P16659556303071463841.a n = A123275 (n + 1)
+
+theorem P16659556303071463841.correct : P16659556303071463841.Spec := by
+  intro n
+  simp only [A123275, Nat.add_sub_cancel]
+
+end A123275
 
 /-! ## A123275.P16288348436701202687
 
 `A002260(n+1)/gcd(A002260(n+1), A009999(n))`
-
-The canonical program, it is in `Seq.B002.C003`.
 -/
+
+namespace A123275.P16288348436701202687
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002260 (n + 1) : ℚ) / (Int.gcd (A002260 (n + 1)) (A009999 n) : ℚ)
+
+end
+
+end A123275.P16288348436701202687
 
 namespace A123275
 
@@ -8642,6 +8979,35 @@ namespace A123275
 /-- `A112544(n+1)/gcd(A112544(n+1), A114448(n+1))` -/
 def P16785529591794839672.Spec : Prop :=
   ∀ n, P16785529591794839672.a n = (A123275 (n + 1) : ℚ)
+
+end A123275
+
+/-! ## A123275.P4319511155843640758
+
+`A389099(lt[1, A278984(n+1)])`
+-/
+
+namespace A123275.P4319511155843640758
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278984 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389099 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
+
+end
+
+end A123275.P4319511155843640758
+
+namespace A123275
+
+/-- `A389099(lt[1, A278984(n+1)])` -/
+def P4319511155843640758.Spec : Prop :=
+  ∀ n, P4319511155843640758.a n = A123275 (n + 1)
 
 end A123275
 
@@ -8947,41 +9313,62 @@ end A123279.P14822642458698220186
 The programs for A123280, there is no canonical definition to state claims against.
 -/
 
-/-! ## A123280.P2316363704262255440
+/-! ## A123280.P10862279970369402192
 
-`A059060(A033816(n))`
+`A059060((2*n+1)*(n+1)+2)`
 -/
 
-namespace A123280.P2316363704262255440
+namespace A123280.P10862279970369402192
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059060 (A033816 n).toNat
+  A059060 ((2 * n + 1) * (n + 1) + 2)
 
 end
 
-end A123280.P2316363704262255440
-
-/-! ## A123280.P16067443456229952455
-
-`A059060(A130883(n+1)+1)`
--/
-
-namespace A123280.P16067443456229952455
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059060 (A130883 (n + 1) + 1).toNat
-
-end
-
-end A123280.P16067443456229952455
+end A123280.P10862279970369402192
 
 /-!
 # A123281: Leading diagonal of A123260.
 
 The programs for A123281, there is no canonical definition to state claims against.
 -/
+
+/-! ## A123281.P1725733840307922869
+
+`A262307(fp[sqrt(2*n)])`
+-/
+
+namespace A123281.P1725733840307922869
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (2 * n : ℝ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262307 (SequenceMachineLib.nth (fun j => (n : ℝ) < f1 j) 0)
+
+end
+
+end A123281.P1725733840307922869
+
+/-! ## A123281.P9939485060563412700
+
+`A123260(∑[ceil((n+1)/2)])`
+-/
+
+namespace A123281.P9939485060563412700
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(n + 1 : ℚ) / 2⌉
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123260 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A123281.P9939485060563412700
 
 /-! ## A123281.P2776801790520288756
 
@@ -9012,39 +9399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123281.P9717487820283720403
-
-/-! ## A123281.P7259972329245202326
-
-`A123260(∑[A008619(n)])`
--/
-
-namespace A123281.P7259972329245202326
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123260 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A123281.P7259972329245202326
-
-/-! ## A123281.P169398149431891680
-
-`A123260(A087811(n+1))`
--/
-
-namespace A123281.P169398149431891680
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123260 (A087811 (n + 1)).toNat
-
-end
-
-end A123281.P169398149431891680
 
 /-! ## A123281.P11790960892454506852
 
@@ -9166,20 +9520,20 @@ end
 
 end A123283.P5986533106220051584
 
-/-! ## A123283.P14308885499737995062
+/-! ## A123283.P4615395311350113644
 
-`A168520(n+1)+A001078(n)`
+`A168520(1+n)+A001078(n)`
 -/
 
-namespace A123283.P14308885499737995062
+namespace A123283.P4615395311350113644
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168520 (n + 1) + A001078 n
+  A168520 (1 + n) + A001078 n
 
 end
 
-end A123283.P14308885499737995062
+end A123283.P4615395311350113644
 
 /-! ## A123283.P6791316660523372674
 
@@ -9343,20 +9697,20 @@ end
 
 end A123285.P2067549745955896409
 
-/-! ## A123285.P12441701573653740710
+/-! ## A123285.P17630325087776293982
 
-`A143212(A140736(A007598(n))+n)`
+`A083961(2*n+1)!*A217694(2*n)`
 -/
 
-namespace A123285.P12441701573653740710
+namespace A123285.P17630325087776293982
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143212 (A140736 (A007598 n).toNat + (n : ℤ)).toNat
+  (Nat.factorial (A083961 (2 * n + 1)).toNat : ℤ) * A217694 (2 * n)
 
 end
 
-end A123285.P12441701573653740710
+end A123285.P17630325087776293982
 
 /-!
 # A123287: Number of fusenes with 22 hexagons, C_(2h) symmetry and containing 2n carbon atoms.
@@ -9953,6 +10307,66 @@ def P14750671243759163941.Spec : Prop :=
 end A123290
 
 /-!
+# A123291: Numbers that are sum of a square and a nonnegative cube (with repetition).
+
+The programs for A123291, there is no canonical definition to state claims against.
+-/
+
+/-! ## A123291.P15562755165213992109
+
+`fp[A262872(n)]`
+-/
+
+namespace A123291.P15562755165213992109
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262872 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+
+end
+
+end A123291.P15562755165213992109
+
+/-! ## A123291.P15701748456226952068
+
+`fp[∑[A045634(n)]]`
+-/
+
+namespace A123291.P15701748456226952068
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045634 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+
+end
+
+end A123291.P15701748456226952068
+
+/-! ## A123291.P5723192695913255985
+
+`A022549(row(row(A181471(2*n+1))))`
+-/
+
+namespace A123291.P5723192695913255985
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022549 (SequenceMachineLib.triRow (SequenceMachineLib.triRow (A181471 (2 * n + 1)).toNat))
+
+end
+
+end A123291.P5723192695913255985
+
+/-!
 # A123292: Number of permutations of n distinct letters (ABCD...) each of which appears 4 times and having three fixed points.
 
 The programs for A123292, there is no canonical definition to state claims against.
@@ -10030,53 +10444,56 @@ end
 
 end A123293.P11304749307562371445
 
-/-! ## A123293.P7116551285110026674
+/-! ## A123293.P13823628010240159630
 
-`∑[A161680(n)]*128`
+`64*∑[lcm(1-n, n)]`
 -/
 
-namespace A123293.P7116551285110026674
+namespace A123293.P13823628010240159630
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161680 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (1 - (n : ℤ)) (n : ℤ)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j) * 128
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  64 * (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A123293.P7116551285110026674
+end A123293.P13823628010240159630
 
-/-! ## A123293.P12170053913278851910
+/-! ## A123293.P8507148299683035211
 
-`32*A006584(2*n)`
+`8*16*C(n+1, 3)`
 -/
 
-namespace A123293.P12170053913278851910
+namespace A123293.P8507148299683035211
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  32 * A006584 (2 * n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  8 * (16 * Nat.choose (n + 1) 3)
 
 end
 
-end A123293.P12170053913278851910
+end A123293.P8507148299683035211
 
-/-! ## A123293.P3346749429195563491
+/-! ## A123293.P11415595376333397339
 
-`64*A007290(n+1)`
+`64*A006463(∑[n])`
 -/
 
-namespace A123293.P3346749429195563491
+namespace A123293.P11415595376333397339
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  64 * A007290 (n + 1)
+  64 * A006463 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A123293.P3346749429195563491
+end A123293.P11415595376333397339
 
 /-!
 # A123294: Sum of 13 positive 5th powers.
@@ -10150,20 +10567,20 @@ end
 
 end A123294.P13819580297706886502
 
-/-! ## A123294.P16038348953311966320
+/-! ## A123294.P5834579502778756333
 
-`A304653(A000040(n+1))+A123295(n+1)`
+`A123295(n+1)-A185083(A151818(n)²)`
 -/
 
-namespace A123294.P16038348953311966320
+namespace A123294.P5834579502778756333
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304653 (A000040 (n + 1)).toNat + A123295 (n + 1)
+  A123295 (n + 1) - A185083 (A151818 n ^ 2).toNat
 
 end
 
-end A123294.P16038348953311966320
+end A123294.P5834579502778756333
 
 /-!
 # A123295: Sum of 14 positive 5th powers.
@@ -10234,20 +10651,20 @@ end
 
 end A123295.P5602114008971165360
 
-/-! ## A123295.P18405736756039268489
+/-! ## A123295.P17957489261719921070
 
-`A301598(A000040(n+1))+A123294(n+1)`
+`A348734(A168022(n))+A123294(n+1)`
 -/
 
-namespace A123295.P18405736756039268489
+namespace A123295.P17957489261719921070
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301598 (A000040 (n + 1)).toNat + A123294 (n + 1)
+  A348734 (A168022 n).toNat + A123294 (n + 1)
 
 end
 
-end A123295.P18405736756039268489
+end A123295.P17957489261719921070
 
 /-!
 # A123296: Number of permutations of n distinct letters (ABCD...) each of which appears 5 times and having n-2 fixed points.

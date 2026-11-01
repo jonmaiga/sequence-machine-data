@@ -91,20 +91,20 @@ end
 
 end A168920.P8726233566925362411
 
-/-! ## A168920.P15496229864082343425
+/-! ## A168920.P12311030522523880761
 
-`A003945(n)-A335520(A273903(n+2))`
+`A168968(n)-A185238(A307847(n+1))`
 -/
 
-namespace A168920.P15496229864082343425
+namespace A168920.P12311030522523880761
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003945 n - A335520 (A273903 (n + 2)).toNat
+  A168968 n - A185238 (A307847 (n + 1)).toNat
 
 end
 
-end A168920.P15496229864082343425
+end A168920.P12311030522523880761
 
 /-!
 # A168921: Number of reduced words of length n in Coxeter group on 4 generators S_i with relations (S_i)^2 = (S_i S_j)^22 = I.

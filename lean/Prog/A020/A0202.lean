@@ -7,6 +7,7 @@ import Seq.B000.C019
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
+import Seq.B001.C008
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C006
@@ -832,26 +833,20 @@ end
 
 end A020235.P11400500039850563285
 
-/-! ## A020235.P506847127661204311
+/-! ## A020235.P6989377180178157221
 
-`A005935(lt[A008483(n), A007318(n+3)])`
+`A005935(A189633(n+1)%A125310(n+1))`
 -/
 
-namespace A020235.P506847127661204311
+namespace A020235.P6989377180178157221
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008483 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (n + 3)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005935 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+  A005935 (Int.tmod (A189633 (n + 1)) (A125310 (n + 1))).toNat
 
 end
 
-end A020235.P506847127661204311
+end A020235.P6989377180178157221
 
 /-!
 # A020238: Strong pseudoprimes to base 12.
@@ -1201,6 +1196,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020275.P5720412693474193081
+
+/-! ## A020275.P14488239138559891592
+
+`A262054(A070124(n+1)%(A139071(3*n+5)+1))`
+-/
+
+namespace A020275.P14488239138559891592
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262054 (Int.tmod (A070124 (n + 1)) (A139071 (3 * n + 5) + 1)).toNat
+
+end
+
+end A020275.P14488239138559891592
 
 /-!
 # A020283: Strong pseudoprimes to base 57.

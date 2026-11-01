@@ -2,16 +2,15 @@
   "oi": 300402,
   "ps": [
     {
-      "d": "2026-10-23",
-      "ix": "round(root(∑[contfrac[π]], 6))",
+      "d": "2026-10-31",
+      "ix": "fp[sinh(nc[log(2)])]",
       "mt": 87,
       "px": [
-        "π",
-        "contfrac",
-        "∑",
-        "6",
-        "root",
-        "round"
+        "2",
+        "log",
+        "nc",
+        "sinh",
+        "fp"
       ]
     }
   ]

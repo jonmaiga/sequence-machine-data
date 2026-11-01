@@ -9,6 +9,7 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C006
 import Seq.B002.C000
@@ -16,12 +17,11 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C004
+import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C008
 import Seq.Opaque.C010
@@ -788,6 +788,21 @@ end
 
 end A042746.P14724839727230676078
 
+/-! ## A042746.P5945546303884128846
+
+`(A176059(n)-1)*A041420(n)`
+-/
+
+namespace A042746.P5945546303884128846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A176059 n - 1) * A041420 n
+
+end
+
+end A042746.P5945546303884128846
+
 /-! ## A042746.P15906389637619876451
 
 `2/A000034(n)*A041420(n)`
@@ -802,6 +817,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A042746.P15906389637619876451
+
+/-! ## A042746.P10410105735015103743
+
+`lcm(A000034(n+3), A041420(n))`
+-/
+
+namespace A042746.P10410105735015103743
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A000034 (n + 3)) (A041420 n)
+
+end
+
+end A042746.P10410105735015103743
 
 /-! ## A042746.P2764710788704555246
 
@@ -1043,6 +1073,21 @@ end A042762.P10134045520198277588
 The programs for A042763, there is no canonical definition to state claims against.
 -/
 
+/-! ## A042763.P3578576215320482978
+
+`A041425(n)/(1+n%2)`
+-/
+
+namespace A042763.P3578576215320482978
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041425 n : ℚ) / ((1 + n % 2 : ℕ) : ℚ)
+
+end
+
+end A042763.P3578576215320482978
+
 /-! ## A042763.P4962426154026081105
 
 `A041425(n)/A000034(n)`
@@ -1072,6 +1117,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A042763.P3730291586988353631
+
+/-! ## A042763.P1504088863238426317
+
+`A041425(n)/(A000035(n)+1)`
+-/
+
+namespace A042763.P1504088863238426317
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041425 n : ℚ) / (A000035 n + 1 : ℚ)
+
+end
+
+end A042763.P1504088863238426317
 
 /-! ## A042763.P4551768217575317494
 

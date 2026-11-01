@@ -13,16 +13,17 @@ import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C032
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -30,7 +31,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -40,7 +41,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
@@ -260,20 +261,20 @@ end
 
 end A042306.P16008995501656330313
 
-/-! ## A042306.P13622344491928018861
+/-! ## A042306.P3872960654462066977
 
-`A000034(n+1)*A041312(n)`
+`A000034(1+n)*A041312(n)`
 -/
 
-namespace A042306.P13622344491928018861
+namespace A042306.P3872960654462066977
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (n + 1) * A041312 n
+  A000034 (1 + n) * A041312 n
 
 end
 
-end A042306.P13622344491928018861
+end A042306.P3872960654462066977
 
 /-! ## A042306.P11658218496779751473
 
@@ -311,20 +312,20 @@ end A042306.P375778715928598055
 The programs for A042307, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042307.P15272027573046452262
+/-! ## A042307.P16933460827406104736
 
-`A041313(n)/gcd(2, n+1)`
+`A041313(n)/gcd(2, 1+n)`
 -/
 
-namespace A042307.P15272027573046452262
+namespace A042307.P16933460827406104736
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A041313 n : ℚ) / (Nat.gcd 2 (n + 1) : ℚ)
+  (A041313 n : ℚ) / (Nat.gcd 2 (1 + n) : ℚ)
 
 end
 
-end A042307.P15272027573046452262
+end A042307.P16933460827406104736
 
 /-! ## A042307.P11846358696934942606
 
@@ -560,20 +561,20 @@ end A042325
 The programs for A042335, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042335.P12693134004142126409
+/-! ## A042335.P5668749807930477638
 
-`A077581(A190297(n+1)+A187557(n))`
+`A205028(xor(n, A107841(n)))`
 -/
 
-namespace A042335.P12693134004142126409
+namespace A042335.P5668749807930477638
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077581 (A190297 (n + 1) + A187557 n).toNat
+  A205028 (Int.xor (n : ℤ) (A107841 n)).toNat
 
 end
 
-end A042335.P12693134004142126409
+end A042335.P5668749807930477638
 
 /-!
 # A042337: Denominators of continued fraction convergents to sqrt(695).

@@ -17,23 +17,21 @@ import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
@@ -46,6 +44,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,13 +53,14 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.Opaque.C000
@@ -94,7 +94,7 @@ set_option linter.unreachableTactic false
 /-!
 # A253301: Complement of the Beatty sequence for sqrt(Pi*phi), where phi is the golden ratio.
 
-The programs for A253301, the canonical program `A253301.P1879963797802955260` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253301 has offset 1).
+The programs for A253301, the canonical program `A253301.P1879963797802955260` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253301 has offset 1).
 
 The definition of A253301 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -103,7 +103,7 @@ The definition of A253301 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*sqrt(π*ϕ)/(sqrt(π*ϕ)-1))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A253301
@@ -118,16 +118,16 @@ theorem P1879963797802955260.correct : P1879963797802955260.Spec := by
 
 end A253301
 
-/-! ## A253301.P984157506319991458
+/-! ## A253301.P626470954178363538
 
-`comp[A252169(n+1)-1]+1`
+`comp[A252169(1+n)-1]+1`
 -/
 
-namespace A253301.P984157506319991458
+namespace A253301.P626470954178363538
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252169 (n + 1) - 1
+  A252169 (1 + n) - 1
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -135,13 +135,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A253301.P984157506319991458
+end A253301.P626470954178363538
 
 namespace A253301
 
-/-- `comp[A252169(n+1)-1]+1` -/
-def P984157506319991458.Spec : Prop :=
-  ∀ n, (P984157506319991458.a n : ℤ) = A253301 (n + 1)
+/-- `comp[A252169(1+n)-1]+1` -/
+def P626470954178363538.Spec : Prop :=
+  ∀ n, (P626470954178363538.a n : ℤ) = A253301 (n + 1)
 
 end A253301
 
@@ -363,7 +363,7 @@ end A253303.P3221684683528092376
 /-!
 # A253304: Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the octagonal number O(m) for some m.
 
-The programs for A253304, the canonical program `A253304.P9352522508536238177` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253304 has offset 1).
+The programs for A253304, the canonical program `A253304.P9352522508536238177` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253304 has offset 1).
 
 The definition of A253304 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -372,7 +372,7 @@ The definition of A253304 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+21x-7x^2-3x^3)/(1-x-62x^2+62x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A253304
@@ -517,7 +517,7 @@ end A253304
 /-!
 # A253305: Numbers n such that the octagonal number O(n) is equal to the sum of the heptagonal numbers H(m) and H(m+1) for some m.
 
-The programs for A253305, the canonical program `A253305.P4333566737309396120` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253305 has offset 1).
+The programs for A253305, the canonical program `A253305.P4333566737309396120` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253305 has offset 1).
 
 The definition of A253305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -526,7 +526,7 @@ The definition of A253305 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+27x-53x^2+3x^3+x^4)/(1-x-62x^2+62x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A253305
@@ -1803,23 +1803,23 @@ end A253319.P12539041727652169237
 The programs for A253320, there is no canonical definition to state claims against.
 -/
 
-/-! ## A253320.P4901104172544605141
+/-! ## A253320.P1665651042271230603
 
-`A253326(∑[n+2])`
+`A253326(∑[2+n])`
 -/
 
-namespace A253320.P4901104172544605141
+namespace A253320.P1665651042271230603
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A253326 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A253320.P4901104172544605141
+end A253320.P1665651042271230603
 
 /-! ## A253320.P10381124561804990098
 
@@ -2311,29 +2311,44 @@ end
 
 end A253326.P5722687731011593426
 
+/-! ## A253326.P5527659012351325187
+
+`A238255(n+1)-A307459(A359895(3*n+2))`
+-/
+
+namespace A253326.P5527659012351325187
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238255 (n + 1) - A307459 (A359895 (3 * n + 2)).toNat
+
+end
+
+end A253326.P5527659012351325187
+
 /-!
 # A253327: Number of (2+1)X(n+1) 0..1 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
 
 The programs for A253327, there is no canonical definition to state claims against.
 -/
 
-/-! ## A253327.P15958954288141412782
+/-! ## A253327.P17521830085277290104
 
-`A253326(∑[n+1]+2)`
+`A253326(∑[1+n]+2)`
 -/
 
-namespace A253327.P15958954288141412782
+namespace A253327.P17521830085277290104
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A253326 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
 
 end
 
-end A253327.P15958954288141412782
+end A253327.P17521830085277290104
 
 /-! ## A253327.P3001838422104567306
 
@@ -2623,80 +2638,23 @@ end A253330.P2883503776716844695
 The programs for A253331, there is no canonical definition to state claims against.
 -/
 
-/-! ## A253331.P17569304182866722164
+/-! ## A253331.P16504946581328704103
 
-`A253326(A056115(n)+21)`
+`A253326(∑[n+5]+16)`
 -/
 
-namespace A253331.P17569304182866722164
+namespace A253331.P16504946581328704103
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 5
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A056115 n + 21).toNat
+  A253326 (∑ j ∈ Finset.range (n + 1), f1 j + 16)
 
 end
 
-end A253331.P17569304182866722164
-
-/-! ## A253331.P4534613008094171672
-
-`A253326(A167499(n+4)+1)`
--/
-
-namespace A253331.P4534613008094171672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A167499 (n + 4) + 1).toNat
-
-end
-
-end A253331.P4534613008094171672
-
-/-! ## A253331.P9975589124948848466
-
-`A253326(A167614(n+4)+3)`
--/
-
-namespace A253331.P9975589124948848466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A167614 (n + 4) + 3).toNat
-
-end
-
-end A253331.P9975589124948848466
-
-/-! ## A253331.P11710075015149946474
-
-`A253326(A000124(n+5)+5)`
--/
-
-namespace A253331.P11710075015149946474
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A000124 (n + 5) + 5).toNat
-
-end
-
-end A253331.P11710075015149946474
-
-/-! ## A253331.P15444959866590144255
-
-`A253326(A000217(n+5)+6)`
--/
-
-namespace A253331.P15444959866590144255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A253331.P15444959866590144255
+end A253331.P16504946581328704103
 
 /-!
 # A253332: Number of (7+1)X(n+1) 0..1 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
@@ -2740,6 +2698,21 @@ end
 
 end A253332.P7051596791835676742
 
+/-! ## A253332.P11999321816309782788
+
+`A253326(A167499(n+5)+2)`
+-/
+
+namespace A253332.P11999321816309782788
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253326 (A167499 (n + 5) + 2).toNat
+
+end
+
+end A253332.P11999321816309782788
+
 /-! ## A253332.P5156903671320804515
 
 `A253326(A000124(n+6)+6)`
@@ -2769,21 +2742,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253332.P1152716655848371654
-
-/-! ## A253332.P4279835388882569266
-
-`A253326(A000217(n+6)+7)`
--/
-
-namespace A253332.P4279835388882569266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253326 (A000217 (n + 6) + 7).toNat
-
-end
-
-end A253332.P4279835388882569266
 
 /-!
 # A253333: Primes in the 7th-order Fibonacci numbers A060455.
@@ -3544,6 +3502,21 @@ end
 
 end A253341.P7519089321219453802
 
+/-! ## A253341.P8385035068537559219
+
+`A253342(A055999(n+4))`
+-/
+
+namespace A253341.P8385035068537559219
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253342 (A055999 (n + 4)).toNat
+
+end
+
+end A253341.P8385035068537559219
+
 /-! ## A253341.P16560379429054080868
 
 `A253342(eq[4, A219347(n)])`
@@ -3564,27 +3537,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253341.P16560379429054080868
-
-/-! ## A253341.P2070706633635372172
-
-`A253342(eq[6, A193592(n)])`
--/
-
-namespace A253341.P2070706633635372172
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253342 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A253341.P2070706633635372172
 
 /-!
 # A253343: Number of (n+1)X(n+1) 0..1 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
@@ -3646,38 +3598,41 @@ end
 
 end A253343.P8646074253280672630
 
-/-! ## A253343.P17531447168766269117
+/-! ## A253343.P6203254347545621750
 
-`record[gcd(A214292(n), A253350(n+1))]`
+`record[gcd(A114327(n), A253350(n+1))]`
 -/
 
-namespace A253343.P17531447168766269117
+namespace A253343.P6203254347545621750
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A214292 n) (A253350 (n + 1))
+  Int.gcd (A114327 n) (A253350 (n + 1))
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A253343.P17531447168766269117
+end A253343.P6203254347545621750
 
-/-! ## A253343.P3041103799251041164
+/-! ## A253343.P1379075565664545892
 
-`A253350(A001844(n))+A025442(n)`
+`record[root(A253350(n+1), A322550(n+1))]`
 -/
 
-namespace A253343.P3041103799251041164
+namespace A253343.P1379075565664545892
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253350 (A001844 n).toNat + A025442 n
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (A253350 (n + 1) : ℝ) ^ (1 / (A322550 (n + 1) : ℝ))
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A253343.P3041103799251041164
+end A253343.P1379075565664545892
 
 /-!
 # A253344: Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock diagonal maximum minus antidiagonal maximum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
@@ -5693,6 +5648,36 @@ end
 
 end A253370.P14950922876228971944
 
+/-! ## A253370.P3488073796321900842
+
+`A253375(A034856(n+2))/A135010(A219347(n))`
+-/
+
+namespace A253370.P3488073796321900842
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A253375 (A034856 (n + 2)).toNat : ℚ) / (A135010 (A219347 n).toNat : ℚ)
+
+end
+
+end A253370.P3488073796321900842
+
+/-! ## A253370.P14753911714538671752
+
+`A253375(A034856(n+2))/A193592(A193592(n))`
+-/
+
+namespace A253370.P14753911714538671752
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A253375 (A034856 (n + 2)).toNat : ℚ) / (A193592 (A193592 n).toNat : ℚ)
+
+end
+
+end A253370.P14753911714538671752
+
 /-!
 # A253371: Number of (n+1)X(4+1) 0..2 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
 
@@ -5810,6 +5795,24 @@ end
 
 end A253372.P16264073213446444992
 
+/-! ## A253372.P13772420465522459509
+
+`A253375(Δ[A023545(n+1)])%A253369(2*(n+2))`
+-/
+
+namespace A253372.P13772420465522459509
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023545 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A253375 (f1 (n + 1) - f1 n).toNat) (A253369 (2 * (n + 2)))
+
+end
+
+end A253372.P13772420465522459509
+
 /-!
 # A253373: Number of (n+1)X(6+1) 0..2 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
 
@@ -5915,23 +5918,41 @@ end A253374.P11130057549461294524
 The programs for A253376, there is no canonical definition to state claims against.
 -/
 
-/-! ## A253376.P1501110630214095583
+/-! ## A253376.P1402081536009567614
 
-`A253375(∑[n+1]+2)`
+`A253375(∑[1+n]+2)`
 -/
 
-namespace A253376.P1501110630214095583
+namespace A253376.P1402081536009567614
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A253375 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
 
 end
 
-end A253376.P1501110630214095583
+end A253376.P1402081536009567614
+
+/-! ## A253376.P12529007158595280176
+
+`record[A253375(A114091(n+1)+1)]`
+-/
+
+namespace A253376.P12529007158595280176
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253375 (A114091 (n + 1) + 1).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A253376.P12529007158595280176
 
 /-! ## A253376.P11164056002100615277
 
@@ -5951,6 +5972,24 @@ end
 
 end A253376.P11164056002100615277
 
+/-! ## A253376.P15348576040839371777
+
+`record[A253375(A286158(n+1)+2)]`
+-/
+
+namespace A253376.P15348576040839371777
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253375 (A286158 (n + 1) + 2).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A253376.P15348576040839371777
+
 /-! ## A253376.P420558707376223580
 
 `record[A010054(n)*A253375(n+2)]`
@@ -5968,45 +6007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253376.P420558707376223580
-
-/-! ## A253376.P1775150980036924175
-
-`record[root(A253375(n+2), A059575(n+1))]`
--/
-
-namespace A253376.P1775150980036924175
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A253375 (n + 2) : ℝ) ^ (1 / (A059575 (n + 1) : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A253376.P1775150980036924175
-
-/-! ## A253376.P8667314982694163258
-
-`record[A253375(A133263(∑[(-1)^(n%3)]))]`
--/
-
-namespace A253376.P8667314982694163258
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-1) ^ (n % 3)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253375 (A133263 (∑ j ∈ Finset.range (n + 1), f2 j).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A253376.P8667314982694163258
 
 /-!
 # A253377: Number of (3+1)X(n+1) 0..2 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
@@ -6050,6 +6050,43 @@ end
 
 end A253377.P3203779306493095240
 
+/-! ## A253377.P9500540515950141948
+
+`record[A253375(A286158(n+1)+3)]`
+-/
+
+namespace A253377.P9500540515950141948
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253375 (A286158 (n + 1) + 3).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A253377.P9500540515950141948
+
+/-! ## A253377.P6234705418991553871
+
+`A253375(A167614(n+1))+char[11]`
+-/
+
+namespace A253377.P6234705418991553871
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  11
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253375 (A167614 (n + 1)).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A253377.P6234705418991553871
+
 /-! ## A253377.P8238549078502695292
 
 `record[root(A253375(n+4), A110162(n))]`
@@ -6067,39 +6104,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A253377.P8238549078502695292
-
-/-! ## A253377.P4713746358210123461
-
-`record[root(A253375(n+4), A111418(n))]`
--/
-
-namespace A253377.P4713746358210123461
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A253375 (n + 4) : ℝ) ^ (1 / (A111418 n : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A253377.P4713746358210123461
-
-/-! ## A253377.P4125870510565023653
-
-`lcm((-1)^n, A253375(A167614(n+1)))`
--/
-
-namespace A253377.P4125870510565023653
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm ((-1) ^ n) (A253375 (A167614 (n + 1)).toNat)
-
-end
-
-end A253377.P4125870510565023653
 
 /-!
 # A253378: Number of (4+1)X(n+1) 0..2 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.
@@ -6302,35 +6306,35 @@ end
 
 end A253385.P14499338786785176220
 
-/-! ## A253385.P9032348872963968590
+/-! ## A253385.P7441109062939289683
 
-`A379093(A062399(n+1))`
+`A379093(n+1)%A298911(A108290(n))`
 -/
 
-namespace A253385.P9032348872963968590
+namespace A253385.P7441109062939289683
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379093 (A062399 (n + 1)).toNat
+  Int.tmod (A379093 (n + 1)) (A298911 (A108290 n).toNat)
 
 end
 
-end A253385.P9032348872963968590
+end A253385.P7441109062939289683
 
-/-! ## A253385.P10370114781783552448
+/-! ## A253385.P2123520598045719253
 
-`A379093(A351870(n+1))`
+`A304779(A005520(3*n+4))*A379093(n+1)`
 -/
 
-namespace A253385.P10370114781783552448
+namespace A253385.P2123520598045719253
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379093 (A351870 (n + 1)).toNat
+  A304779 (A005520 (3 * n + 4)).toNat * A379093 (n + 1)
 
 end
 
-end A253385.P10370114781783552448
+end A253385.P2123520598045719253
 
 /-!
 # A253387: A "mod sequence" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (Sum_{k=1..m-1} b(k)) mod m.
@@ -6955,7 +6959,7 @@ end A253390.P10374529704024544956
 /-!
 # A253391: Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock antidiagonal maximum minus diagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal minimum nondecreasing vertically.
 
-The programs for A253391, the canonical program `A253391.P15356625066980703189` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253391 has offset 1).
+The programs for A253391, the canonical program `A253391.P15356625066980703189` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253391 has offset 1).
 
 The definition of A253391 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6987,7 +6991,7 @@ end A253391
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=44, a(1)=102, a(2)=143, a(3)=197, a(4)=250, a(5)=320, a(6)=391, a(7)=477`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A253391
@@ -7083,7 +7087,7 @@ end A253391
 /-!
 # A253392: Number of (n+1) X (3+1) 0..1 arrays with every 2 X 2 subblock antidiagonal maximum minus diagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal minimum nondecreasing vertically.
 
-The programs for A253392, the canonical program `A253392.P10326156744416589657` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253392 has offset 1).
+The programs for A253392, the canonical program `A253392.P10326156744416589657` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253392 has offset 1).
 
 The definition of A253392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7092,7 +7096,7 @@ The definition of A253392 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=96, a(1)=143, a(2)=174, a(3)=246, a(4)=316, a(5)=419, a(6)=520, a(7)=651`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A253392
@@ -7967,20 +7971,20 @@ end
 
 end A253398.P5157829873003793149
 
-/-! ## A253398.P9991347352181770724
+/-! ## A253398.P11779606579942047123
 
-`A247479(A161847(n+1))`
+`A247479(A161847(1+n))`
 -/
 
-namespace A253398.P9991347352181770724
+namespace A253398.P11779606579942047123
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247479 (A161847 (n + 1)).toNat
+  A247479 (A161847 (1 + n)).toNat
 
 end
 
-end A253398.P9991347352181770724
+end A253398.P11779606579942047123
 
 /-! ## A253398.P3898912865408346043
 

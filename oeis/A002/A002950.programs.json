@@ -19,6 +19,49 @@
       ]
     },
     {
+      "d": "2026-11-01",
+      "ix": "root(contfrac[root(2, 5)], 2)²",
+      "mt": 86,
+      "px": [
+        "2",
+        "5",
+        "root",
+        "contfrac",
+        "2",
+        "root",
+        "²"
+      ]
+    },
+    {
+      "d": "2026-11-01",
+      "ix": "or(contfrac[root(2, 5)], char[8])",
+      "mt": 86,
+      "px": [
+        "2",
+        "5",
+        "root",
+        "contfrac",
+        "8",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2026-10-31",
+      "ix": "root(contfrac[root(2, 5)]^3, 3)",
+      "mt": 86,
+      "px": [
+        "2",
+        "5",
+        "root",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
       "d": "2022-10-20",
       "ix": "contfrac[C005531]^contfrac[ϕ²]",
       "mt": 86,

@@ -645,6 +645,21 @@ end
 
 end A021944.P5505499402348514418
 
+/-! ## A021944.P12879876466995603298
+
+`A019677(A028310(n))+a(n-1)` with `a(0)=1`
+-/
+
+namespace A021944.P12879876466995603298
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A019677 (A028310 n).toNat + a (n - 1)
+
+end
+
+end A021944.P12879876466995603298
+
 /-! ## A021944.P14149052653640313234
 
 `∑[∑[A001047(n+1)]*A000079(n)²]`
@@ -743,27 +758,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021944.P17260148946428053449
-
-/-! ## A021944.P13696360875376699134
-
-`∑[∑[A001047(n+1)]*A011782(2*n+1)]`
--/
-
-namespace A021944.P13696360875376699134
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001047 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f2 j) * A011782 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A021944.P13696360875376699134
 
 /-!
 # A021949: Decimal expansion of 1/945.

@@ -2,8 +2,8 @@ import SequenceMachineLib.Basic
 import Seq.B000.C005
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C038
-import Seq.B001.C007
+import Seq.B000.C039
+import Seq.B001.C008
 import Seq.Opaque.C000
 import Seq.Opaque.C005
 import Seq.Opaque.C011
@@ -54,20 +54,20 @@ end A172729.P16586579899619277642
 The programs for A172732, there is no canonical definition to state claims against.
 -/
 
-/-! ## A172732.P3810447918646290053
+/-! ## A172732.P7833681722440210053
 
-`A001500((n+1)*a(n-1))` with `a(0)=0, a(1)=0, a(2)=0`
+`A001500(or(4, a(n-1)))` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1`
 -/
 
-namespace A172732.P3810447918646290053
+namespace A172732.P7833681722440210053
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 0] fun n a =>
-  A001500 ((n + 1 : ℤ) * a (n - 1)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 0, 1] fun n a =>
+  A001500 (Int.lor 4 (a (n - 1))).toNat
 
 end
 
-end A172732.P3810447918646290053
+end A172732.P7833681722440210053
 
 /-!
 # A172737: Number of n X 7 0..3 arrays with row sums 7 and column sums n.

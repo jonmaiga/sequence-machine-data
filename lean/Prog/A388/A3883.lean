@@ -3,14 +3,13 @@ import Seq.B000.C000
 import Seq.B000.C009
 import Seq.B000.C027
 import Seq.B000.C039
-import Seq.B001.C004
-import Seq.B002.C001
+import Seq.B001.C002
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -467,7 +466,7 @@ end A388304.P3815943717218310472
 /-!
 # A388305: Numbers divisible by at least 3 primes where not all exponents in the factorization are equal.
 
-The programs for A388305, the canonical program `A388305.P1899733816285087499` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388305 has offset 1).
+The programs for A388305, the canonical program `A388305.P1899733816285087499` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388305 has offset 1).
 
 The definition of A388305 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -476,7 +475,7 @@ The definition of A388305 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A000977(n+1), A059404(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A388305
@@ -541,23 +540,23 @@ end
 
 end A388306.P6156953071994016284
 
-/-! ## A388306.P9395001165940592518
+/-! ## A388306.P1770157397626844832
 
-`filter[A070003(n+1), A049240(#)]`
+`filter[A070003(1+n), A049240(#)]`
 -/
 
-namespace A388306.P9395001165940592518
+namespace A388306.P1770157397626844832
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070003 (n + 1)
+  A070003 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A049240 (f1 j).toNat = 1) n)
 
 end
 
-end A388306.P9395001165940592518
+end A388306.P1770157397626844832
 
 /-! ## A388306.P14831335670859909298
 

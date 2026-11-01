@@ -9,13 +9,11 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C043
 import Seq.B001.C000
@@ -34,10 +32,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -496,26 +494,44 @@ end
 
 end A019266.P6165858532602493143
 
-/-! ## A019266.P2528320367923599958
+/-! ## A019266.P5083196935512905475
 
-`A034444(A126501(n))*A053530(n)`
+`A344418(n)+A010892(A169797(n))`
 -/
 
-namespace A019266.P2528320367923599958
+namespace A019266.P5083196935512905475
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034444 (A126501 n).toNat * A053530 n
+  A344418 n + A010892 (A169797 n).toNat
 
 end
 
-end A019266.P2528320367923599958
+end A019266.P5083196935512905475
 
 /-!
 # A019268: Let Dedekind's psi(m) = product of (p+1)p^(e-1) for primes p, where p^e is a factor of m. Iterating psi(m) eventually results in a number of form 2^x*3^y. a(n) is the smallest number that requires n steps to reach such a number.
 
 The programs for A019268, there is no canonical definition to state claims against.
 -/
+
+/-! ## A019268.P9334492102759915963
+
+`record[gcd(A000027(3*n+1), A247820(n+5))]`
+-/
+
+namespace A019268.P9334492102759915963
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A000027 (3 * n + 1)) (A247820 (n + 5))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A019268.P9334492102759915963
 
 /-! ## A019268.P6954427927838312622
 
@@ -531,21 +547,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A019268.P6954427927838312622
-
-/-! ## A019268.P13873256234782420772
-
-`A277749(A000079(n+3)*A094388(n))`
--/
-
-namespace A019268.P13873256234782420772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277749 (A000079 (n + 3) * A094388 n).toNat
-
-end
-
-end A019268.P13873256234782420772
 
 /-!
 # A019269: Let Dedekind's psi(m) = product of (p+1)p^(e-1) for primes p, where p^e is a factor of m. Iterating psi(m) eventually results in a number of form 2^a*3^b. a(n) is the number of steps to reach such a number.
@@ -1556,6 +1557,21 @@ end
 
 end A019280.P76114850538861467
 
+/-! ## A019280.P3020679490224197009
+
+`A000043(n+1)+floor(n/42)-1`
+-/
+
+namespace A019280.P3020679490224197009
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000043 (n + 1) + ⌊(n : ℚ) / 42⌋ - 1
+
+end
+
+end A019280.P3020679490224197009
+
 /-! ## A019280.P15628273079307009134
 
 `A061645(n+1)/2-(char[32]+1)²`
@@ -1574,21 +1590,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A019280.P15628273079307009134
-
-/-! ## A019280.P5723898535596514704
-
-`A134713(n+1)+A032513(n)`
--/
-
-namespace A019280.P5723898535596514704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134713 (n + 1) + A032513 n
-
-end
-
-end A019280.P5723898535596514704
 
 /-!
 # A019283: Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (2,6)-perfect numbers.
@@ -1808,16 +1809,16 @@ theorem P3510953320221201697.correct : P3510953320221201697.Spec := by
 
 end A019298
 
-/-! ## A019298.P11986587158684558110
+/-! ## A019298.P15297081860116191171
 
-`∑[∑[comp[lcm(3, n+1)]]]`
+`∑[∑[comp[lcm(1+n, 3)]]]`
 -/
 
-namespace A019298.P11986587158684558110
+namespace A019298.P15297081860116191171
 noncomputable section
 
 def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lcm 3 (n + 1)
+  Nat.lcm (1 + n) 3
 
 open Classical in
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1831,13 +1832,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A019298.P11986587158684558110
+end A019298.P15297081860116191171
 
 namespace A019298
 
-/-- `∑[∑[comp[lcm(3, n+1)]]]` -/
-def P11986587158684558110.Spec : Prop :=
-  ∀ n, (P11986587158684558110.a n : ℤ) = A019298 n
+/-- `∑[∑[comp[lcm(1+n, 3)]]]` -/
+def P15297081860116191171.Spec : Prop :=
+  ∀ n, (P15297081860116191171.a n : ℤ) = A019298 n
 
 end A019298
 
@@ -2026,6 +2027,38 @@ namespace A019298
 /-- `∑[∑[comp[3*C(n+1, n)]]]` -/
 def P13087386639579664814.Spec : Prop :=
   ∀ n, (P13087386639579664814.a n : ℤ) = A019298 n
+
+end A019298
+
+/-! ## A019298.P2690284934551152255
+
+`∑[∑[fp[n+1-n/3]]]`
+-/
+
+namespace A019298.P2690284934551152255
+noncomputable section
+
+def f3 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) - (n : ℚ) / 3
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f3 j) 0
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A019298.P2690284934551152255
+
+namespace A019298
+
+/-- `∑[∑[fp[n+1-n/3]]]` -/
+def P2690284934551152255.Spec : Prop :=
+  ∀ n, (P2690284934551152255.a n : ℤ) = A019298 n
 
 end A019298
 
@@ -2282,33 +2315,10 @@ def P5167031015627101696.Spec : Prop :=
 
 end A019298
 
-/-! ## A019298.P16692960001876799508
-
-`A212960(n)/4`
--/
-
-namespace A019298.P16692960001876799508
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A212960 n : ℚ) / 4
-
-end
-
-end A019298.P16692960001876799508
-
-namespace A019298
-
-/-- `A212960(n)/4` -/
-def P16692960001876799508.Spec : Prop :=
-  ∀ n, P16692960001876799508.a n = (A019298 n : ℚ)
-
-end A019298
-
 /-!
 # A019299: First n elements of Thue-Morse sequence A010059 read as a binary number.
 
-The programs for A019299, the canonical program `A019299.P4441328656889891956` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019299 has offset 0).
+The programs for A019299, the canonical program `A019299.P4167666125202457850` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019299 has offset 0).
 
 The definition of A019299 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2394,22 +2404,45 @@ def P10709374318504955788.Spec : Prop :=
 
 end A019299
 
-/-! ## A019299.P4441328656889891956
+/-! ## A019299.P4167666125202457850
 
-`or(2*a(n-1), A010059(n))` with `a(0)=1`
+`(n+a(floor(n/2)))%2+2*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A019299
 
-/-- `or(2*a(n-1), A010059(n))` -/
-def P4441328656889891956.Spec : Prop :=
-  ∀ n, P4441328656889891956.a n = A019299 n
+/-- `(n+a(floor(n/2)))%2+2*a(n-1)` -/
+def P4167666125202457850.Spec : Prop :=
+  ∀ n, (P4167666125202457850.a n : ℤ) = A019299 n
 
-theorem P4441328656889891956.correct : P4441328656889891956.Spec := by
+theorem P4167666125202457850.correct : P4167666125202457850.Spec := by
   intro n
   simp only [A019299]
+
+end A019299
+
+/-! ## A019299.P9959314789692184940
+
+`A010059(n)+2*a(n-1)` with `a(0)=1`
+-/
+
+namespace A019299.P9959314789692184940
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A010059 n + 2 * a (n - 1)
+
+end
+
+end A019299.P9959314789692184940
+
+namespace A019299
+
+/-- `A010059(n)+2*a(n-1)` -/
+def P9959314789692184940.Spec : Prop :=
+  ∀ n, P9959314789692184940.a n = A019299 n
 
 end A019299
 

@@ -9,6 +9,7 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -42,6 +43,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -668,6 +670,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012924.P11895489237316854927
+
+/-! ## A012924.P12628829572412322490
+
+`A009243(n)+∑{#}[n, C(n, #)*A009246(#)]`
+-/
+
+namespace A012924.P12628829572412322490
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009243 n + ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A009246 k
+
+end
+
+end A012924.P12628829572412322490
+
+/-! ## A012924.P13733026158718931025
+
+`A009243(n)+∑{#}[n, (-1)^(n-#)*C(n, #)*A009284(#)]`
+-/
+
+namespace A012924.P13733026158718931025
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A009243 n : ℚ) + ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (A009284 k : ℚ)
+
+end
+
+end A012924.P13733026158718931025
 
 /-! ## A012924.P10648218685083502328
 
@@ -1627,6 +1665,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012962.P8457582443584477900
+
+/-!
+# A012963: Expansion of e.g.f.: arctan(arctan(x)+log(x+1))=2*x-1/2!*x^2-16/3!*x^3+42/4!*x^4+756/5!*x^5...
+
+The programs for A012963, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012963.P5972944472433026410
+
+`A261596(A360233(n))+A013121(n)`
+-/
+
+namespace A012963.P5972944472433026410
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261596 (A360233 n).toNat + A013121 n
+
+end
+
+end A012963.P5972944472433026410
 
 /-!
 # A012965: Expansion of e.g.f. sinh(arctan(x) + log(x+1)).

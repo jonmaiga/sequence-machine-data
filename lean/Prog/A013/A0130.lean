@@ -5,14 +5,16 @@ import Seq.B000.C002
 import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -26,8 +28,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -1841,6 +1843,21 @@ end
 
 end A013084.P13327835886389943816
 
+/-! ## A013084.P7104844705757078665
+
+`A178863(A297464(a(n-2)))` with `a(0)=1, a(1)=2`
+-/
+
+namespace A013084.P7104844705757078665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
+  A178863 (A297464 (a (n - 2)).toNat).toNat
+
+end
+
+end A013084.P7104844705757078665
+
 /-! ## A013084.P16055284276366658136
 
 `A091202(A058837(n))+A000079(n)`
@@ -2096,6 +2113,21 @@ end
 
 end A013096.P15659521265167223011
 
+/-! ## A013096.P13776884142341308600
+
+`A013131(2*n)*A009001(2*n)`
+-/
+
+namespace A013096.P13776884142341308600
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013131 (2 * n) * A009001 (2 * n)
+
+end
+
+end A013096.P13776884142341308600
+
 /-! ## A013096.P2852433970327268848
 
 `A013131(A005843(n))/A033999(n)`
@@ -2110,19 +2142,4 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A013096.P2852433970327268848
-
-/-! ## A013096.P5733291693322772381
-
-`A013131(A005408(n)-1)/A033999(n)`
--/
-
-namespace A013096.P5733291693322772381
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A013131 (A005408 n - 1).toNat : ℚ) / (A033999 n : ℚ)
-
-end
-
-end A013096.P5733291693322772381
 
