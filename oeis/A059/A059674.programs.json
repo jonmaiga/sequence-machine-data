@@ -2,6 +2,64 @@
   "oi": 59674,
   "ps": [
     {
+      "d": "2026-10-31",
+      "ix": "C(max(col(n), row(n)-col(n)), min(col(n), row(n)-col(n)))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "max",
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "min",
+        "C"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
+      "d": "2026-10-31",
+      "ix": "C(max(row(n)-col(n), col(n)), min(row(n)-col(n), col(n)))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "col",
+        "max",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "col",
+        "min",
+        "C"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "gcd(A026729(n), A052553(n))",
       "mt": 10000,

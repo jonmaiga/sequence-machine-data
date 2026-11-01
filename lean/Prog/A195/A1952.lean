@@ -16,26 +16,28 @@ import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -52,7 +54,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,7 +76,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1293,7 +1294,7 @@ end A195219.P9724400851594512124
 /-!
 # A195221: Number of lower triangles of a 3 X 3 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once.
 
-The programs for A195221, the canonical program `A195221.P12046650192786114869` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195221 has offset 1).
+The programs for A195221, the canonical program `A195221.P12046650192786114869` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195221 has offset 1).
 
 The definition of A195221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1302,7 +1303,7 @@ The definition of A195221 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((91+501x+536x^2+70x^3+7x^4-x^5)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A195221
@@ -1646,23 +1647,23 @@ end A195225.P6220144628247569305
 The programs for A195226, there is no canonical definition to state claims against.
 -/
 
-/-! ## A195226.P17918615587975818328
+/-! ## A195226.P11800867186312447988
 
-`A195232(∑[n+2])`
+`A195232(∑[2+n])`
 -/
 
-namespace A195226.P17918615587975818328
+namespace A195226.P11800867186312447988
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A195232 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A195226.P17918615587975818328
+end A195226.P11800867186312447988
 
 /-! ## A195226.P4483462001332105131
 
@@ -2081,7 +2082,7 @@ end A195231.P16060131661892707454
 /-!
 # A195233: Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
 
-The programs for A195233, the canonical program `A195233.P5644972783792125391` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
+The programs for A195233, the canonical program `A195233.P5644972783792125391` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
 
 The definition of A195233 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2090,7 +2091,7 @@ The definition of A195233 is `conjectured`: the Lean definition is a formula tha
 
 `91*n+64`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A195233
@@ -2243,7 +2244,7 @@ end A195238
 /-!
 # A195241: Expansion of (1-x+19*x^3-3*x^4)/(1-x)^3.
 
-The programs for A195241, the canonical program `A195241.P387464294369737388` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195241 has offset 0).
+The programs for A195241, the canonical program `A195241.P387464294369737388` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195241 has offset 0).
 
 The definition of A195241 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x+19x^3-3x^4)/(1-3x+3x^2-x^3))` (program `A195241.P387464294369737388`, by `A195241.P387464294369737388.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2252,7 +2253,7 @@ The definition of A195241 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x+19x^3-3x^4)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A195241
@@ -2449,20 +2450,26 @@ end A195241
 The programs for A195242, there is no canonical definition to state claims against.
 -/
 
-/-! ## A195242.P11200199246228167952
+/-! ## A195242.P9991230498482716925
 
-`A065033(A245496(n))`
+`Δ[A248610(∑[n]*a(n-1))]` with `a(0)=0, a(1)=1, a(2)=2`
 -/
 
-namespace A195242.P11200199246228167952
+namespace A195242.P9991230498482716925
 noncomputable section
 
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 2] fun n f1 =>
+  A248610 (((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ) * f1 (n - 1)).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065033 (A245496 n).toNat
+  f1 (n + 1) - f1 n
 
 end
 
-end A195242.P11200199246228167952
+end A195242.P9991230498482716925
 
 /-!
 # A195243: Number of lower triangles of an n X n 0..3 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less.
@@ -2719,7 +2726,7 @@ end A195247.P3263459012651244963
 /-!
 # A195249: Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less.
 
-The programs for A195249, the canonical program `A195249.P239578507983523261` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195249 has offset 1).
+The programs for A195249, the canonical program `A195249.P239578507983523261` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195249 has offset 1).
 
 The definition of A195249 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2728,7 +2735,7 @@ The definition of A195249 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((64+601x+288x^2+94x^3)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A195249
@@ -2815,7 +2822,7 @@ end A195253.P9176207011880062371
 /-!
 # A195254: O.g.f.: Sum_{n>=0} 2*(n+2)^(n-1)*x^n/(1+n*x)^n.
 
-The programs for A195254, the canonical program `A195254.P12870713709375566738` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195254 has offset 0).
+The programs for A195254, the canonical program `A195254.P12870713709375566738` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195254 has offset 0).
 
 The definition of A195254 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2824,7 +2831,7 @@ The definition of A195254 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*a(n-1)-2*(n-2)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A195254
@@ -3112,6 +3119,39 @@ end
 
 end A195255.P10792439492687779051
 
+/-! ## A195255.P11120177163959014329
+
+`(n-1)*a(n-1)+Δ[A115098(n)]` with `a(0)=1`
+-/
+
+namespace A195255.P11120177163959014329
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115098 n
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ((n : ℤ) - 1) * a (n - 1) + (f1 (n + 1) - f1 n)
+
+end
+
+end A195255.P11120177163959014329
+
+/-! ## A195255.P7638817404067962664
+
+`(n-1)*a(n-1)+A024023(n)+1` with `a(0)=1`
+-/
+
+namespace A195255.P7638817404067962664
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ((n : ℤ) - 1) * a (n - 1) + A024023 n + 1
+
+end
+
+end A195255.P7638817404067962664
+
 /-! ## A195255.P8197579245762519835
 
 `n*a(n-1)+A000244(n)-a(n-1)` with `a(0)=1`
@@ -3333,6 +3373,21 @@ end
 
 end A195259.P2871489604335437227
 
+/-! ## A195259.P3183023723647286584
+
+`A008619(A024206(n+1)*a(n-1))` with `a(0)=1`
+-/
+
+namespace A195259.P3183023723647286584
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A008619 (A024206 (n + 1) * a (n - 1)).toNat
+
+end
+
+end A195259.P3183023723647286584
+
 /-! ## A195259.P16560186520435475401
 
 `A008619((∑[A008619(n)]-1)*a(n-1))` with `a(0)=1`
@@ -3350,21 +3405,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A195259.P16560186520435475401
-
-/-! ## A195259.P12547142956071227913
-
-`A215747(A208203(n))+A000142(n)`
--/
-
-namespace A195259.P12547142956071227913
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A215747 (A208203 n).toNat + A000142 n
-
-end
-
-end A195259.P12547142956071227913
 
 /-!
 # A195260: G.f.: A(x) = 1 + Sum_{n>=1} x^n*A(x)^(3^n).
@@ -3444,20 +3484,20 @@ end
 
 end A195261.P8787871663690806162
 
-/-! ## A195261.P11853317446004187074
+/-! ## A195261.P7092874525079081098
 
-`A386586(A264244(n+1))+A226316(n)`
+`A226316(n)+A083915(A135922(n))`
 -/
 
-namespace A195261.P11853317446004187074
+namespace A195261.P7092874525079081098
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386586 (A264244 (n + 1)).toNat + A226316 n
+  A226316 n + A083915 (A135922 n).toNat
 
 end
 
-end A195261.P11853317446004187074
+end A195261.P7092874525079081098
 
 /-!
 # A195262: G.f.: A(x) = Sum_{n>=0} x^n*A(x)^A001969(n+1), where A001969 lists numbers with an even number of 1's in their binary expansion.
@@ -3720,23 +3760,23 @@ end A195271.P3235606680801722764
 The programs for A195272, there is no canonical definition to state claims against.
 -/
 
-/-! ## A195272.P7641241244664992903
+/-! ## A195272.P17828850047840068708
 
-`A195278(∑[n+2])`
+`A195278(∑[2+n])`
 -/
 
-namespace A195272.P7641241244664992903
+namespace A195272.P17828850047840068708
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A195278 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A195272.P7641241244664992903
+end A195272.P17828850047840068708
 
 /-!
 # A195273: Number of lower triangles of an n X n integer array with each element differing from all of its vertical and horizontal neighbors by 3 or less and triangles differing by a constant counted only once.

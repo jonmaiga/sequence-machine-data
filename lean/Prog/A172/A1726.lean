@@ -9,7 +9,9 @@ import Seq.B000.C011
 import Seq.B000.C016
 import Seq.B000.C021
 import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -19,11 +21,12 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C000
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C008
@@ -422,6 +425,35 @@ theorem P7308463696132315652.correct : P7308463696132315652.Spec := by
 
 end A172624
 
+/-! ## A172624.P8752731175617666981
+
+`eq[A032741(n), A335457(A045778(n+1))]`
+-/
+
+namespace A172624.P8752731175617666981
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032741 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335457 (A045778 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A172624.P8752731175617666981
+
+namespace A172624
+
+/-- `eq[A032741(n), A335457(A045778(n+1))]` -/
+def P8752731175617666981.Spec : Prop :=
+  ∀ n, (P8752731175617666981.a n : ℤ) = A172624 (n + 1)
+
+end A172624
+
 /-! ## A172624.P10739557967722795831
 
 `eq[A032741(n), A061034(A061034(n+1))]`
@@ -557,6 +589,81 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172631.P11510824474001634142
+
+/-!
+# A172633: Number of n X 6 0..2 arrays with row sums 6 and column sums n.
+
+The programs for A172633, there is no canonical definition to state claims against.
+-/
+
+/-! ## A172633.P9348726117535085099
+
+`A334549(A166136(n+6))`
+-/
+
+namespace A172633.P9348726117535085099
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (A166136 (n + 6)).toNat
+
+end
+
+end A172633.P9348726117535085099
+
+/-! ## A172633.P16758524725656602127
+
+`A334549(eq[5, A219347(n)])`
+-/
+
+namespace A172633.P16758524725656602127
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219347 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172633.P16758524725656602127
+
+/-! ## A172633.P10272981160182296284
+
+`A334549(A155212(n+4)+1)`
+-/
+
+namespace A172633.P10272981160182296284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (A155212 (n + 4) + 1).toNat
+
+end
+
+end A172633.P10272981160182296284
+
+/-! ## A172633.P1697098542836856870
+
+`A334549(Δ[A264443(n+3)]-3)`
+-/
+
+namespace A172633.P1697098542836856870
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264443 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (f1 (n + 1) - f1 n - 3).toNat
+
+end
+
+end A172633.P1697098542836856870
 
 /-!
 # A172634: Number of n X 3 0..2 arrays with row sums 3 and column sums n.
@@ -707,6 +814,27 @@ end
 
 end A172636.P1997112585600764703
 
+/-! ## A172636.P13229608656290440114
+
+`A334549(eq[6, A219347(n)])`
+-/
+
+namespace A172636.P13229608656290440114
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219347 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172636.P13229608656290440114
+
 /-! ## A172636.P10284747230865524692
 
 `A334549(A051936(n+9)+1)`
@@ -779,6 +907,42 @@ end
 
 end A172639.P1671814790513877541
 
+/-! ## A172639.P3361791244817425703
+
+`A334549(A167499(n+5))`
+-/
+
+namespace A172639.P3361791244817425703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (A167499 (n + 5)).toNat
+
+end
+
+end A172639.P3361791244817425703
+
+/-! ## A172639.P12394500796981948687
+
+`A334549(eq[6, A128227(n)])`
+-/
+
+namespace A172639.P12394500796981948687
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128227 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172639.P12394500796981948687
+
 /-! ## A172639.P9085441667515790213
 
 `A334549(A155212(n+3)+2)`
@@ -794,26 +958,47 @@ end
 
 end A172639.P9085441667515790213
 
-/-! ## A172639.P8929951173005981506
+/-! ## A172639.P11110441339861587565
 
-`A334549(A052905(n+3)+10)`
+`A334549(A167614(n+5)+2)`
 -/
 
-namespace A172639.P8929951173005981506
+namespace A172639.P11110441339861587565
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334549 (A052905 (n + 3) + 10).toNat
+  A334549 (A167614 (n + 5) + 2).toNat
 
 end
 
-end A172639.P8929951173005981506
+end A172639.P11110441339861587565
 
 /-!
 # A172641: Number of n X 9 0..2 arrays with row sums 9 and column sums n.
 
 The programs for A172641, there is no canonical definition to state claims against.
 -/
+
+/-! ## A172641.P2652712912274297344
+
+`A334549(eq[10, A219347(n)])`
+-/
+
+namespace A172641.P2652712912274297344
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  10
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219347 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334549 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A172641.P2652712912274297344
 
 /-! ## A172641.P9685781189163482264
 
@@ -1048,4 +1233,22 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172675.P16832674245989529702
+
+/-! ## A172675.P15153279967869858420
+
+`record[A328345(lcm(3, A134199(n)))]`
+-/
+
+namespace A172675.P15153279967869858420
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328345 (Int.lcm 3 (A134199 n))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A172675.P15153279967869858420
 

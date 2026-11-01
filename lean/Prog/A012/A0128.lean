@@ -11,20 +11,20 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C030
+import Seq.B000.C041
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
+import Seq.B002.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.Opaque.C000
@@ -74,6 +74,21 @@ end
 
 end A012801.P13107082511935116571
 
+/-! ## A012801.P15609432010296283305
+
+`A319005(A381078(n!)+n)`
+-/
+
+namespace A012801.P15609432010296283305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319005 (A381078 (Nat.factorial n) + (n : ℤ)).toNat
+
+end
+
+end A012801.P15609432010296283305
+
 /-! ## A012801.P12344901124921970061
 
 `A065648(3^n*A111633(2*n+1))`
@@ -88,27 +103,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012801.P12344901124921970061
-
-/-! ## A012801.P5863190404271765038
-
-`A319005(eq[A060244(n+3), A118914(2*(n+1))])`
--/
-
-namespace A012801.P5863190404271765038
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060244 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118914 (2 * (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319005 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A012801.P5863190404271765038
 
 /-!
 # A012802: sin(sec(x)*arctan(x))=x+20/5!*x^5-784/7!*x^7+26256/9!*x^9...
@@ -1096,6 +1090,21 @@ end
 
 end A012816.P18356064415002692347
 
+/-! ## A012816.P9958319853515916708
+
+`A000364(n)*A108520(2*n)`
+-/
+
+namespace A012816.P9958319853515916708
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000364 n * A108520 (2 * n)
+
+end
+
+end A012816.P9958319853515916708
+
 /-! ## A012816.P8641304081329173338
 
 `A000364(n)*A009545(2*n+1)`
@@ -1125,21 +1134,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012816.P6064154570903796734
-
-/-! ## A012816.P15093952693514544601
-
-`A000111(2*n)*A009545(2*n+1)`
--/
-
-namespace A012816.P15093952693514544601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000111 (2 * n) * A009545 (2 * n + 1)
-
-end
-
-end A012816.P15093952693514544601
 
 /-!
 # A012818: arctanh(sec(x)*sinh(x))=x+6/3!*x^3+140/5!*x^5+8456/7!*x^7...
@@ -1216,29 +1210,47 @@ end
 
 end A012818.P12475438266380512968
 
-/-! ## A012818.P5252138772519405258
+/-! ## A012818.P8565137831366642346
 
-`record[A013068(n+1)]`
+`record[A013068(1+n)]`
 -/
 
-namespace A012818.P5252138772519405258
+namespace A012818.P8565137831366642346
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013068 (n + 1)
+  A013068 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A012818.P5252138772519405258
+end A012818.P8565137831366642346
 
 /-!
 # A012821: Expansion of e.g.f. exp(sec(x)*arcsinh(x)).
 
 The programs for A012821, there is no canonical definition to state claims against.
 -/
+
+/-! ## A012821.P11840648842586103201
+
+`A264974(∏[or(1, abs(1-n))])`
+-/
+
+namespace A012821.P11840648842586103201
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 |1 - (n : ℤ)|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264974 (∏ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A012821.P11840648842586103201
 
 /-! ## A012821.P12977898369296698507
 
@@ -1255,6 +1267,21 @@ end
 
 end A012821.P12977898369296698507
 
+/-! ## A012821.P777827550319656400
+
+`A264974(a(n-1)+(n-1)*(n-2)*a(n-2))` with `a(0)=1, a(1)=1`
+-/
+
+namespace A012821.P777827550319656400
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A264974 (a (n - 1) + ((n : ℤ) - 1) * ((n : ℤ) - 2) * a (n - 2)).toNat
+
+end
+
+end A012821.P777827550319656400
+
 /-! ## A012821.P15602123070680355
 
 `A264974(A000246(n))`
@@ -1269,24 +1296,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012821.P15602123070680355
-
-/-! ## A012821.P708682434079643911
-
-`A264974(A060523(∑[n]))`
--/
-
-namespace A012821.P708682434079643911
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264974 (A060523 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A012821.P708682434079643911
 
 /-!
 # A012822: sin(sec(x)*arcsinh(x))=x+1/3!*x^3+5/5!*x^5-499/7!*x^7-12055/9!*x^9...
@@ -1753,23 +1762,23 @@ end
 
 end A012837.P12853127077353299207
 
-/-! ## A012837.P8281155378744047079
+/-! ## A012837.P7284504283292335343
 
-`record[A009400(n+1)]`
+`record[A009400(1+n)]`
 -/
 
-namespace A012837.P8281155378744047079
+namespace A012837.P7284504283292335343
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009400 (n + 1)
+  A009400 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A012837.P8281155378744047079
+end A012837.P7284504283292335343
 
 /-! ## A012837.P601993525395946847
 
@@ -1821,6 +1830,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012837.P7397911456516624486
+
+/-!
+# A012838: sec(sec(x)*tanh(x))=1+1/2!*x^2+9/4!*x^4+297/6!*x^6+14385/8!*x^8...
+
+The programs for A012838, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012838.P12297357606842852305
+
+`A147125(3*n+1)*A147277(A077168(2*(n+2)))`
+-/
+
+namespace A012838.P12297357606842852305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147125 (3 * n + 1) * A147277 (A077168 (2 * (n + 2))).toNat
+
+end
+
+end A012838.P12297357606842852305
 
 /-!
 # A012840: exp(sec(x)*arctanh(x))=1+x+1/2!*x^2+6/3!*x^3+21/4!*x^4+120/5!*x^5...
@@ -2109,6 +2139,45 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012846.P796190856928971939
+
+/-! ## A012846.P11779256710511889367
+
+`record[A012840(A196020(n+1))]`
+-/
+
+namespace A012846.P11779256710511889367
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012840 (A196020 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A012846.P11779256710511889367
+
+/-!
+# A012847: arcsinh(sec(x)*arctanh(x))=x+4/3!*x^3+28/5!*x^5+152/7!*x^7+6928/9!*x^9...
+
+The programs for A012847, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012847.P14198203855411873036
+
+`lcm(A000079(n), A069013(A000129(2*(n+1))))`
+-/
+
+namespace A012847.P14198203855411873036
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A000079 n) (A069013 (A000129 (2 * (n + 1))).toNat)
+
+end
+
+end A012847.P14198203855411873036
 
 /-!
 # A012849: arctanh(sec(x)*arctanh(x))=x+7/3!*x^3+193/5!*x^5+13319/7!*x^7...
@@ -4110,6 +4179,24 @@ end
 
 end A012887.P10183358578601912488
 
+/-! ## A012887.P16211726014806113904
+
+`A009206(n)+∑{#}[n, C(n, #)*A009209(#)]`
+-/
+
+namespace A012887.P16211726014806113904
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009206 n + ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A009209 k
+
+end
+
+end A012887.P16211726014806113904
+
 /-!
 # A012890: Expansion of e.g.f. arctan(sin(x) + log(x+1)).
 
@@ -4434,21 +4521,21 @@ end
 
 end A012899.P10197492493046230186
 
-/-! ## A012899.P2707225753742125045
+/-! ## A012899.P2989091161596516054
 
-`∑[A325763(A000625(n))]`
+`∑[A081611(A129333(n))]`
 -/
 
-namespace A012899.P2707225753742125045
+namespace A012899.P2989091161596516054
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325763 (A000625 n).toNat
+  A081611 (A129333 n).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A012899.P2707225753742125045
+end A012899.P2989091161596516054
 

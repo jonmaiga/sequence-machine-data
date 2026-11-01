@@ -18,11 +18,13 @@ import Seq.B000.C029
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C010
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -30,7 +32,6 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -42,9 +43,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -62,11 +61,11 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
 
 /-!
 # A152300: A symmetrical triangle of coefficients of polynomials: q(x,n)=((1 - x)^(2*n)/(n*x))*Sum[Binomial[k + n - 1, k]*k^n*x^k, {k, 0, Infinity}]; p(x,n)=q(x,n)+x^(n-1)*q(1/x,n); t(n,m)=coefficients(p(x,n)).
@@ -140,27 +139,27 @@ end A152300.P1856744690345492324
 The programs for A152301, there is no canonical definition to state claims against.
 -/
 
-/-! ## A152301.P6848814804134684067
+/-! ## A152301.P814693086905065599
 
-`A098720(n+1)+1`
+`A098720(1+n)+1`
 -/
 
-namespace A152301.P6848814804134684067
+namespace A152301.P814693086905065599
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A098720 (n + 1) + 1
+  A098720 (1 + n) + 1
 
 end
 
-end A152301.P6848814804134684067
+end A152301.P814693086905065599
 
-/-! ## A152301.P5403097240652388081
+/-! ## A152301.P9439037836728461645
 
-`A152389(n+1)+char[2]`
+`A152389(1+n)+char[2]`
 -/
 
-namespace A152301.P5403097240652388081
+namespace A152301.P9439037836728461645
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -168,11 +167,11 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152389 (n + 1) + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
+  A152389 (1 + n) + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
 
 end
 
-end A152301.P5403097240652388081
+end A152301.P9439037836728461645
 
 /-! ## A152301.P4683922143263310866
 
@@ -282,20 +281,20 @@ end
 
 end A152301.P9241190271214340829
 
-/-! ## A152301.P744653735817939952
+/-! ## A152301.P2026811921612672282
 
-`A152389((n+1)%(A152389(n+1)²+2))`
+`max(A152389(n+1), A214665(n+1))`
 -/
 
-namespace A152301.P744653735817939952
+namespace A152301.P2026811921612672282
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152389 (Int.tmod (n + 1 : ℤ) (A152389 (n + 1) ^ 2 + 2)).toNat
+  max (A152389 (n + 1)) (A214665 (n + 1))
 
 end
 
-end A152301.P744653735817939952
+end A152301.P2026811921612672282
 
 /-!
 # A152303: a(n) = b(n) mod 10, where b(n) = b(n-1) + b(n-2) + floor(b(n-2)/10), b(0) = b(1) = 1.
@@ -1720,20 +1719,23 @@ end
 
 end A152320.P2399885072486972080
 
-/-! ## A152320.P16851313429618471470
+/-! ## A152320.P7295071078696175753
 
-`A130916(A130907(n)-A130902(n))`
+`A130372(∏[A304818(n+1)+1])`
 -/
 
-namespace A152320.P16851313429618471470
+namespace A152320.P7295071078696175753
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304818 (n + 1) + 1
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130916 (A130907 n - A130902 n).toNat
+  A130372 (∏ j ∈ Finset.range (n + 1), f1 j).toNat
 
 end
 
-end A152320.P16851313429618471470
+end A152320.P7295071078696175753
 
 /-!
 # A152321: Number of permutations of floor(i*7/3), i=0..n-1, with all sums of 3 adjacent terms unique.
@@ -1811,20 +1813,20 @@ end
 
 end A152322.P7701197170785269854
 
-/-! ## A152322.P14419647658184749239
+/-! ## A152322.P12365724931752348293
 
-`A349536(A150264(n))`
+`floor(sqrt(A366003(n+1)))+a(n-1)` with `a(0)=1`
 -/
 
-namespace A152322.P14419647658184749239
+namespace A152322.P12365724931752348293
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349536 (A150264 n).toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  Int.sqrt (A366003 (n + 1)) + a (n - 1)
 
 end
 
-end A152322.P14419647658184749239
+end A152322.P12365724931752348293
 
 /-!
 # A152323: Number of permutations of floor(i*7/5), i=0..n-1, with all sums of 3 adjacent terms unique.
@@ -1847,20 +1849,20 @@ end
 
 end A152323.P16295900780054604419
 
-/-! ## A152323.P17776402160696316810
+/-! ## A152323.P7112284122014556543
 
-`A014320(A391061(n)+A174344(n+1))`
+`A259431(A254103((n+1)*a(n-1)))` with `a(0)=1`
 -/
 
-namespace A152323.P17776402160696316810
+namespace A152323.P7112284122014556543
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014320 (A391061 n + A174344 (n + 1)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A259431 (A254103 ((n + 1 : ℤ) * a (n - 1)).toNat).toNat
 
 end
 
-end A152323.P17776402160696316810
+end A152323.P7112284122014556543
 
 /-!
 # A152326: Number of permutations of floor(i*8/5), i=0..n-1, with all sums of 3 adjacent terms unique.
@@ -2969,6 +2971,21 @@ end
 
 end A152369.P13294818445868003271
 
+/-! ## A152369.P17376886021912778615
+
+`A152387(n*A350470(n)+1)`
+-/
+
+namespace A152369.P17376886021912778615
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152387 ((n : ℤ) * A350470 n + 1).toNat
+
+end
+
+end A152369.P17376886021912778615
+
 /-!
 # A152370: Number of permutations of floor(i*3/2), i=0..n-1, with all sums of 6 adjacent terms unique.
 
@@ -3104,6 +3121,21 @@ end
 
 end A152372.P17531191818039822822
 
+/-! ## A152372.P11680657232935706490
+
+`A000035(A116903(n))*A152376(n+1)`
+-/
+
+namespace A152372.P11680657232935706490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A116903 n).toNat * A152376 (n + 1)
+
+end
+
+end A152372.P11680657232935706490
+
 /-!
 # A152373: Number of permutations of floor(i*5/3), i=0..n-1, with all sums of 6 adjacent terms unique.
 
@@ -3125,6 +3157,39 @@ end
 
 end A152373.P9832510801653155376
 
+/-! ## A152373.P11481556323690970273
+
+`A152381(n+1)%Δ[A057807(n)]`
+-/
+
+namespace A152373.P11481556323690970273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057807 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A152381 (n + 1)) (f1 (n + 1) - f1 n)
+
+end
+
+end A152373.P11481556323690970273
+
+/-! ## A152373.P17610341225880815088
+
+`A152381(n+1)+A020987(A018934(n))`
+-/
+
+namespace A152373.P17610341225880815088
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152381 (n + 1) + A020987 (A018934 n).toNat
+
+end
+
+end A152373.P17610341225880815088
+
 /-! ## A152373.P16242530223240959861
 
 `A152381(n+1)+A091337(A152390(n))`
@@ -3139,36 +3204,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152373.P16242530223240959861
-
-/-! ## A152373.P16697226612498010700
-
-`A152381(n+1)%A002144(A001181(n))`
--/
-
-namespace A152373.P16697226612498010700
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A152381 (n + 1)) (A002144 (A001181 n).toNat)
-
-end
-
-end A152373.P16697226612498010700
-
-/-! ## A152373.P16880281818990960053
-
-`A152381(n+1)+A067255(A152428(n+3))`
--/
-
-namespace A152373.P16880281818990960053
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152381 (n + 1) + A067255 (A152428 (n + 3)).toNat
-
-end
-
-end A152373.P16880281818990960053
 
 /-!
 # A152374: Number of permutations of floor(i*5/4), i=0..n-1, with all sums of 6 adjacent terms unique.
@@ -3191,6 +3226,36 @@ end
 
 end A152374.P10796593093196489909
 
+/-! ## A152374.P6515597251369032316
+
+`A152380(n*A350470(n)+1)`
+-/
+
+namespace A152374.P6515597251369032316
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152380 ((n : ℤ) * A350470 n + 1).toNat
+
+end
+
+end A152374.P6515597251369032316
+
+/-! ## A152374.P967535532745725168
+
+`A152380(n+1)+A000007(A241694(n))`
+-/
+
+namespace A152374.P967535532745725168
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152380 (n + 1) + A000007 (A241694 (n + 12)).toNat
+
+end
+
+end A152374.P967535532745725168
+
 /-! ## A152374.P6495508999157774513
 
 `A152380(n+1)+A091337(A152390(n))`
@@ -3205,21 +3270,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152374.P6495508999157774513
-
-/-! ## A152374.P10368598685483090398
-
-`A152380(n+1)+A067255(A152428(n+3))`
--/
-
-namespace A152374.P10368598685483090398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152380 (n + 1) + A067255 (A152428 (n + 3)).toNat
-
-end
-
-end A152374.P10368598685483090398
 
 /-!
 # A152375: Number of permutations of floor(i*6/5), i=0..n-1, with all sums of 6 adjacent terms unique.
@@ -3557,6 +3607,21 @@ end
 
 end A152389.P9205142607330651376
 
+/-! ## A152389.P5783159095804788141
+
+`A110910(n)-A110955(A221876(3*(n+1)))`
+-/
+
+namespace A152389.P5783159095804788141
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110910 n - A110955 (A221876 (3 * (n + 1))).toNat
+
+end
+
+end A152389.P5783159095804788141
+
 /-!
 # A152390: Arises in enumerating non-degenerate colorings in Brook's Theorem.
 
@@ -3742,6 +3807,21 @@ end
 
 end A152392.P200934401357634068
 
+/-! ## A152392.P12120999659915689245
+
+`A027642(2*n+3)*A152391(C(n+1, 2))`
+-/
+
+namespace A152392.P12120999659915689245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027642 (2 * n + 3) * A152391 (Nat.choose (n + 1) 2)
+
+end
+
+end A152392.P12120999659915689245
+
 /-! ## A152392.P7339582547376040043
 
 `gcd(A112316(n), A152391(A000217(n)))`
@@ -3771,21 +3851,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A152392.P10665079059688827850
-
-/-! ## A152392.P12040910246082000778
-
-`A152391(A000217(n))^abs(A057428(n))`
--/
-
-namespace A152392.P12040910246082000778
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A152391 (A000217 n).toNat : ℚ) ^ (|A057428 n| : ℤ)
-
-end
-
-end A152392.P12040910246082000778
 
 /-!
 # A152393: Column 1 of triangle A152391.

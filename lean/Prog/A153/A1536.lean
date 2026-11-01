@@ -18,13 +18,14 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
@@ -48,10 +49,13 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -596,20 +600,20 @@ end
 
 end A153631.P7210730911449528150
 
-/-! ## A153631.P14483031646233429348
+/-! ## A153631.P46974839409923752
 
-`A344375(A187829(n+1))`
+`A033677(A268044(n+5)^2)`
 -/
 
-namespace A153631.P14483031646233429348
+namespace A153631.P46974839409923752
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344375 (A187829 (n + 1)).toNat
+  A033677 (A268044 (n + 5) ^ 2).toNat
 
 end
 
-end A153631.P14483031646233429348
+end A153631.P46974839409923752
 
 /-!
 # A153632: Decimal expansion of log_21 (7).
@@ -3229,55 +3233,84 @@ def P1598841798403874040.Spec : Prop :=
 
 end A153647
 
-/-! ## A153647.P17872628883285301348
+/-! ## A153647.P15995853932871172358
 
-`∏[3*(n+2)]/3`
+`∏[3*(2+n)]/3`
 -/
 
-namespace A153647.P17872628883285301348
+namespace A153647.P15995853932871172358
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * (n + 2)
+  3 * (2 + n)
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
   ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ) / 3
 
 end
 
-end A153647.P17872628883285301348
+end A153647.P15995853932871172358
 
 namespace A153647
 
-/-- `∏[3*(n+2)]/3` -/
-def P17872628883285301348.Spec : Prop :=
-  ∀ n, P17872628883285301348.a n = (A153647 n : ℚ)
+/-- `∏[3*(2+n)]/3` -/
+def P15995853932871172358.Spec : Prop :=
+  ∀ n, P15995853932871172358.a n = (A153647 n : ℚ)
 
 end A153647
 
-/-! ## A153647.P8449644236446060629
+/-! ## A153647.P6997643558482258109
 
-`∏[a(n-1)+3]` with `a(0)=2, a(1)=9`
+`(2+n)!*3^n`
 -/
 
-namespace A153647.P8449644236446060629
+namespace A153647.P6997643558482258109
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (2 + n) * 3 ^ n
+
+end
+
+end A153647.P6997643558482258109
+
+namespace A153647
+
+/-- `(2+n)!*3^n` -/
+def P6997643558482258109.Spec : Prop :=
+  ∀ n, (P6997643558482258109.a n : ℤ) = A153647 n
+
+theorem P6997643558482258109.correct : P6997643558482258109.Spec := by
+  intro n
+  simp only [A153647, Nat.add_sub_cancel, A153647.P6997643558482258109.a, A153647.P8827689901360160188.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A153647
+
+/-! ## A153647.P7740085487691837939
+
+`∏[3+a(n-1)]` with `a(0)=2, a(1)=9`
+-/
+
+namespace A153647.P7740085487691837939
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.rec [2, 9] fun n f1 =>
-  f1 (n - 1) + 3
+  3 + f1 (n - 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   ∏ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A153647.P8449644236446060629
+end A153647.P7740085487691837939
 
 namespace A153647
 
-/-- `∏[a(n-1)+3]` -/
-def P8449644236446060629.Spec : Prop :=
-  ∀ n, (P8449644236446060629.a n : ℤ) = A153647 n
+/-- `∏[3+a(n-1)]` -/
+def P7740085487691837939.Spec : Prop :=
+  ∀ n, (P7740085487691837939.a n : ℤ) = A153647 n
 
 end A153647
 
@@ -3399,32 +3432,6 @@ namespace A153647
 /-- `∏[(n+2)*3%(n+2)!]` -/
 def P3217629501449615818.Spec : Prop :=
   ∀ n, (P3217629501449615818.a n : ℤ) = A153647 n
-
-end A153647
-
-/-! ## A153647.P17602516960236132810
-
-`∏[(n+2)*gcd(3, (n+2)!)]`
--/
-
-namespace A153647.P17602516960236132810
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 2) * Nat.gcd 3 (Nat.factorial (n + 2))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A153647.P17602516960236132810
-
-namespace A153647
-
-/-- `∏[(n+2)*gcd(3, (n+2)!)]` -/
-def P17602516960236132810.Spec : Prop :=
-  ∀ n, (P17602516960236132810.a n : ℤ) = A153647 n
 
 end A153647
 
@@ -3867,20 +3874,20 @@ end A153661
 The programs for A153662, there is no canonical definition to state claims against.
 -/
 
-/-! ## A153662.P9381779199418716104
+/-! ## A153662.P594059935000213557
 
-`A296612(3^A161412(n))`
+`A255573(or(11, C(5*a(n-2), n)))` with `a(0)=1, a(1)=2, a(2)=4, a(3)=7`
 -/
 
-namespace A153662.P9381779199418716104
+namespace A153662.P594059935000213557
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A296612 (SequenceMachineLib.roundAway ((3 : ℚ) ^ (A161412 n : ℤ))).toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 4, 7] fun n a =>
+  A255573 (Nat.lor 11 (Nat.choose (5 * a (n - 2)).toNat n))
 
 end
 
-end A153662.P9381779199418716104
+end A153662.P594059935000213557
 
 /-!
 # A153664: Numbers k such that the fractional part of (3/2)^k is greater than 1-(1/k).
@@ -3888,20 +3895,20 @@ end A153662.P9381779199418716104
 The programs for A153664, there is no canonical definition to state claims against.
 -/
 
-/-! ## A153664.P3002768438364256442
+/-! ## A153664.P6241359451917141342
 
-`A153663(A045979(n+1)-n)`
+`A153663(A035002(n+4)-A068340(2*n+1))`
 -/
 
-namespace A153664.P3002768438364256442
+namespace A153664.P6241359451917141342
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153663 (A045979 (n + 1) - (n : ℤ)).toNat
+  A153663 (A035002 (n + 4) - A068340 (2 * n + 1)).toNat
 
 end
 
-end A153664.P3002768438364256442
+end A153664.P6241359451917141342
 
 /-!
 # A153665: Greatest number m such that the fractional part of (3/2)^A081464(n) <= 1/m.
@@ -4005,6 +4012,21 @@ end
 
 end A153670.P10614916087370682366
 
+/-! ## A153670.P11349482890737946030
+
+`(n+1)*A228543(A147272(n+1))`
+-/
+
+namespace A153670.P11349482890737946030
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A228543 (A147272 (n + 1)).toNat
+
+end
+
+end A153670.P11349482890737946030
+
 /-! ## A153670.P398996629200193918
 
 `(n+1)*A002487(A072170(A052133(n)))`
@@ -4050,37 +4072,22 @@ end
 
 end A153670.P3127718471919939107
 
-/-! ## A153670.P9204595127900362298
-
-`lcm(A088568(A022327(n+1)), A282765(n+1))`
--/
-
-namespace A153670.P9204595127900362298
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A088568 (A022327 (n + 1)).toNat) (A282765 (n + 1))
-
-end
-
-end A153670.P9204595127900362298
-
 /-!
 # A153671: Minimal exponents m such that the fractional part of (101/100)^m obtains a maximum (when starting with m=1).
 
 The programs for A153671, there is no canonical definition to state claims against.
 -/
 
-/-! ## A153671.P15382813816538109524
+/-! ## A153671.P8660918046779900914
 
-`∪[A004736(A001019(n)), A090109(n+1)]`
+`∪[A004736((7+2*n)²²), A090109(n+1)]`
 -/
 
-namespace A153671.P15382813816538109524
+namespace A153671.P8660918046779900914
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004736 (A001019 n).toNat
+  A004736 (((7 + 2 * n) ^ 2) ^ 2)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A090109 (n + 1)
@@ -4091,7 +4098,22 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A153671.P15382813816538109524
+end A153671.P8660918046779900914
+
+/-! ## A153671.P10014794364843014893
+
+`A175070(A395366(n)*A396296(3*n))+1+n`
+-/
+
+namespace A153671.P10014794364843014893
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175070 (A395366 n * A396296 (3 * n)).toNat + 1 + (n : ℤ)
+
+end
+
+end A153671.P10014794364843014893
 
 /-!
 # A153675: Greatest number m such that the fractional part of (101/100)^A153671(m) >= 1-(1/m).
@@ -4143,6 +4165,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153675.P14420395387537837918
+
+/-! ## A153675.P16216739430188272802
+
+`ceil(A324749(n)/A013929(A296882(3*(n+1))))`
+-/
+
+namespace A153675.P16216739430188272802
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(A324749 n : ℚ) / (A013929 (A296882 (3 * (n + 1))).toNat : ℚ)⌉
+
+end
+
+end A153675.P16216739430188272802
 
 /-! ## A153675.P9411519058121763507
 
@@ -4243,20 +4280,20 @@ end
 
 end A153678.P526789738910825407
 
-/-! ## A153678.P3376056075484234874
+/-! ## A153678.P7696263705249666726
 
-`A008988(A145455(n))+n`
+`A008988(A000389(n))+n`
 -/
 
-namespace A153678.P3376056075484234874
+namespace A153678.P7696263705249666726
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008988 (A145455 n).toNat + (n : ℤ)
+  A008988 (A000389 n).toNat + (n : ℤ)
 
 end
 
-end A153678.P3376056075484234874
+end A153678.P7696263705249666726
 
 /-!
 # A153679: Minimal exponents m such that the fractional part of (1024/1000)^m obtains a maximum (when starting with m=1).
@@ -4540,6 +4577,42 @@ end
 
 end A153689.P595473846500374089
 
+/-! ## A153689.P12674331920268113250
+
+`record[A153690(A060384(n))*A266441(n)]`
+-/
+
+namespace A153689.P12674331920268113250
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153690 (A060384 n).toNat * A266441 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A153689.P12674331920268113250
+
+/-! ## A153689.P15920052516695991871
+
+`record[A153690(A060384(n))*A267845(n)]`
+-/
+
+namespace A153689.P15920052516695991871
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153690 (A060384 n).toNat * A267845 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A153689.P15920052516695991871
+
 /-!
 # A153690: Greatest number m such that the fractional part of (11/10)^A153686(n) <= 1/m.
 
@@ -4638,6 +4711,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153694.P17826265548620227314
+
+/-!
+# A153696: Numbers k such that the fractional part of (10/9)^k is greater than 1-(1/k).
+
+The programs for A153696, there is no canonical definition to state claims against.
+-/
+
+/-! ## A153696.P12559659059860290712
+
+`A153695(A100887(n)+A096922(n+1))`
+-/
+
+namespace A153696.P12559659059860290712
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153695 (A100887 n + A096922 (n + 1)).toNat
+
+end
+
+end A153696.P12559659059860290712
 
 /-!
 # A153699: Greatest number m such that the fractional part of (10/9)^A153695(m) >= 1-(1/m).

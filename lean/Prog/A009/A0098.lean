@@ -20,29 +20,27 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
@@ -76,7 +74,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -1709,6 +1706,24 @@ end
 
 end A009838.P2000572781255354594
 
+/-! ## A009838.P13511565089928051223
+
+`A398998(∑[n])-n*a(n-1)` with `a(0)=0`
+-/
+
+namespace A009838.P13511565089928051223
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  A398998 (∑ j ∈ Finset.range (n + 1), f1 j) - (n : ℤ) * a (n - 1)
+
+end
+
+end A009838.P13511565089928051223
+
 /-! ## A009838.P14509329140047146981
 
 `A209849(∑[n]+1)+(n-2*n)*a(n-1)` with `a(0)=0`
@@ -1758,27 +1773,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A009838.P18285085141909604343
-
-/-! ## A009838.P255857673408175703
-
-`A239005(eq[1, A268435(n)])+(n-2*n)*a(n-1)` with `a(0)=0`
--/
-
-namespace A009838.P255857673408175703
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268435 n
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  A239005 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n) + ((n : ℤ) - (2 * n : ℤ)) * a (n - 1)
-
-end
-
-end A009838.P255857673408175703
 
 /-!
 # A009839: Expansion of e.g.f.: tanh(x)/cos(log(1+x)).
@@ -2042,6 +2036,27 @@ end
 end A009845.P10028555153006799894
 
 /-!
+# A009850: Coordination sequence T1 for Zeolite Code -CLO.
+
+The programs for A009850, there is no canonical definition to state claims against.
+-/
+
+/-! ## A009850.P13323138467828213285
+
+`A007953(A241463(n+1))+A027379(n)+n`
+-/
+
+namespace A009850.P13323138467828213285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A241463 (n + 1)).toNat + (A027379 n + (n : ℤ))
+
+end
+
+end A009850.P13323138467828213285
+
+/-!
 # A009855: Coordination sequence T1 for Zeolite Code -PAR.
 
 The programs for A009855, there is no canonical definition to state claims against.
@@ -2064,6 +2079,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009855.P3416812366460347852
+
+/-! ## A009855.P9091092196157617695
+
+`∑[∑[A200647(A098960(n+1))]]`
+-/
+
+namespace A009855.P9091092196157617695
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A200647 (A098960 (n + 1)).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A009855.P9091092196157617695
 
 /-! ## A009855.P11055682626507900444
 
@@ -2103,6 +2139,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009855.P17402900539351702428
+
+/-! ## A009855.P9154952952217691793
+
+`∑[A000791(n+1)]-A049982(n+1)`
+-/
+
+namespace A009855.P9154952952217691793
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000791 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - A049982 (n + 1)
+
+end
+
+end A009855.P9154952952217691793
 
 /-!
 # A009857: Coordination sequence T3 for Zeolite Code -PAR.
@@ -2151,6 +2205,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009857.P1991488969154428101
+
+/-! ## A009857.P16316071976587897750
+
+`A384328(n)+A354581(A030154(n+1))`
+-/
+
+namespace A009857.P16316071976587897750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384328 n + A354581 (A030154 (n + 1)).toNat
+
+end
+
+end A009857.P16316071976587897750
 
 /-! ## A009857.P703246860151811563
 
@@ -2290,6 +2359,27 @@ end A009862.P1999944571759306116
 The programs for A009865, there is no canonical definition to state claims against.
 -/
 
+/-! ## A009865.P7399680595061454113
+
+`∑[∑[A352620(A215818(2*(n+1)))]]`
+-/
+
+namespace A009865.P7399680595061454113
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352620 (A215818 (2 * (n + 1))).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A009865.P7399680595061454113
+
 /-! ## A009865.P14631881616462817645
 
 `A185284(A000044(n))+A008026(n)`
@@ -2349,21 +2439,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009865.P5413994523317734656
-
-/-! ## A009865.P11046675254135739890
-
-`A244465(A244448(n))+A008026(n)`
--/
-
-namespace A009865.P11046675254135739890
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244465 (A244448 n).toNat + A008026 n
-
-end
-
-end A009865.P11046675254135739890
 
 /-!
 # A009866: Coordination sequence T1 for Zeolite Code AHT.
@@ -2533,11 +2608,47 @@ end
 
 end A009867.P4664794256827784019
 
+/-! ## A009867.P17734261906069065017
+
+`A301095(n)+A103226(A301100(n))`
+-/
+
+namespace A009867.P17734261906069065017
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301095 n + A103226 (A301100 n).toNat
+
+end
+
+end A009867.P17734261906069065017
+
 /-!
 # A009868: Coordination sequence T1 for Zeolite Code CON.
 
 The programs for A009868, there is no canonical definition to state claims against.
 -/
+
+/-! ## A009868.P9741146083048338433
+
+`∑[∑[A073093(A258097(n+1))]]`
+-/
+
+namespace A009868.P9741146083048338433
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073093 (A258097 (n + 1)).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A009868.P9741146083048338433
 
 /-! ## A009868.P8504556362884038832
 
@@ -2592,24 +2703,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009868.P13732042182777683894
-
-/-! ## A009868.P7332974689189998238
-
-`∑[ceil(log2(A290711(n+1)))]`
--/
-
-namespace A009868.P7332974689189998238
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.logb 2 (A290711 (n + 1) : ℝ)⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A009868.P7332974689189998238
 
 /-!
 # A009870: Coordination sequence T3 for Zeolite Code CON.
@@ -2688,6 +2781,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009871.P16720518652174293650
+
+/-! ## A009871.P657817982980311111
+
+`∑[∑[A001222(A360295(n+1))]]`
+-/
+
+namespace A009871.P657817982980311111
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (A360295 (n + 1)).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A009871.P657817982980311111
 
 /-! ## A009871.P8731271225370083403
 

@@ -19,13 +19,13 @@
       ]
     },
     {
-      "d": "2021-11-01",
-      "ix": "record[floor(exp(and(n, n+1)))]",
+      "d": "2026-10-30",
+      "ix": "record[floor(exp(and(n, 1+n)))]",
       "mt": 116,
       "px": [
         "n",
-        "n",
         "1",
+        "n",
         "+",
         "and",
         "exp",

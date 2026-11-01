@@ -1,21 +1,22 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C028
 import Seq.B000.C039
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B003.C003
+import Seq.B002.C005
 import Seq.B003.C004
 import Seq.B006.C000
 import Seq.B008.C000
@@ -362,6 +363,42 @@ end
 
 end A012509.P13307856860889682897
 
+/-! ## A012509.P18244922940981039189
+
+`record[2*n%2*A000111(n)]`
+-/
+
+namespace A012509.P18244922940981039189
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((2 * (n % 2) : ℕ) : ℤ) * A000111 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A012509.P18244922940981039189
+
+/-! ## A012509.P1387503172390430802
+
+`record[2*and(1, n)*A009006(n)]`
+-/
+
+namespace A012509.P1387503172390430802
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * Nat.land 1 n : ℤ) * A009006 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A012509.P1387503172390430802
+
 /-! ## A012509.P2571384149881599418
 
 `2*A008281(A084849(n))`
@@ -391,39 +428,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A012509.P6325660642507045349
-
-/-! ## A012509.P14905666853857948723
-
-`record[A000111(n)-A346838(n)]`
--/
-
-namespace A012509.P14905666853857948723
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000111 n - A346838 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A012509.P14905666853857948723
-
-/-! ## A012509.P10849860261421221074
-
-`2*A008281(A000124(2*n))`
--/
-
-namespace A012509.P10849860261421221074
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A008281 (A000124 (2 * n)).toNat
-
-end
-
-end A012509.P10849860261421221074
 
 /-!
 # A012511: Expansion of e.g.f.: arcsin(sinh(x)*log(x+1))=2/2!*x^2-3/3!*x^3+12/4!*x^4-40/5!*x^5...
@@ -695,6 +699,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012514.P9200926457286839103
+
+/-! ## A012514.P6876639774738289791
+
+`(A009231(n)-A400341(n))/2`
+-/
+
+namespace A012514.P6876639774738289791
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A009231 n - A400341 n : ℚ) / 2
+
+end
+
+end A012514.P6876639774738289791
 
 /-!
 # A012519: Expansion of e.g.f. arcsin(sinh(x) * exp(x)).

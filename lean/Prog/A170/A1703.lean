@@ -28,6 +28,66 @@ end
 
 end A170300.P7591412745055068720
 
+/-! ## A170300.P14607849023860099592
+
+`abs(A112316(A076303(n+1))-A003945(n))`
+-/
+
+namespace A170300.P14607849023860099592
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A112316 (A076303 (n + 1)).toNat - A003945 n|
+
+end
+
+end A170300.P14607849023860099592
+
+/-! ## A170300.P4586076657171326492
+
+`abs(A170348(n)-A112316(A076303(n+1)))`
+-/
+
+namespace A170300.P4586076657171326492
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A170348 n - A112316 (A076303 (n + 1)).toNat|
+
+end
+
+end A170300.P4586076657171326492
+
+/-! ## A170300.P11975871986326398066
+
+`abs(A170396(n)-A112316(A076303(n+1)))`
+-/
+
+namespace A170300.P11975871986326398066
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A170396 n - A112316 (A076303 (n + 1)).toNat|
+
+end
+
+end A170300.P11975871986326398066
+
+/-! ## A170300.P14399775332458525062
+
+`abs(A170444(n)-A112316(A076303(n+1)))`
+-/
+
+namespace A170300.P14399775332458525062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A170444 n - A112316 (A076303 (n + 1)).toNat|
+
+end
+
+end A170300.P14399775332458525062
+
 /-!
 # A170348: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^43 = I.
 

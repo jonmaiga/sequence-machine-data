@@ -14,16 +14,17 @@ import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C002
@@ -34,7 +35,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1436,6 +1436,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022615.P17768552451343138735
+
+/-! ## A022615.P10694102557342112777
+
+`A286352(A056119(n+15))`
+-/
+
+namespace A022615.P10694102557342112777
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286352 (A056119 (n + 15)).toNat
+
+end
+
+end A022615.P10694102557342112777
 
 /-! ## A022615.P4620975175169380658
 
@@ -4722,23 +4737,23 @@ end
 
 end A022662.P810149811639870107
 
-/-! ## A022662.P13344309331242357267
+/-! ## A022662.P8436572105573472099
 
-`A297323(∑[n+3])`
+`A297323(∑[3+n])`
 -/
 
-namespace A022662.P13344309331242357267
+namespace A022662.P8436572105573472099
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
+  3 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A297323 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A022662.P13344309331242357267
+end A022662.P8436572105573472099
 
 /-! ## A022662.P18277097097990180770
 

@@ -5,7 +5,7 @@ import Seq.B000.C005
 import Seq.B000.C023
 import Seq.Opaque.C001
 import Seq.Opaque.C018
-import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -122,6 +122,29 @@ namespace A016633
 /-- `A139740(n+1)/9+12*a(n-1)` -/
 def P9915652166086759198.Spec : Prop :=
   ∀ n, P9915652166086759198.a n = (A016633 n : ℚ)
+
+end A016633
+
+/-! ## A016633.P6547488161586371271
+
+`A016197(n+1)+a(n-1)+a(n-1)` with `a(0)=1`
+-/
+
+namespace A016633.P6547488161586371271
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016197 (n + 1) + a (n - 1) + a (n - 1)
+
+end
+
+end A016633.P6547488161586371271
+
+namespace A016633
+
+/-- `A016197(n+1)+a(n-1)+a(n-1)` -/
+def P6547488161586371271.Spec : Prop :=
+  ∀ n, P6547488161586371271.a n = A016633 n
 
 end A016633
 

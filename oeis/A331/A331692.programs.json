@@ -192,6 +192,19 @@
         "contfrac",
         "/"
       ]
+    },
+    {
+      "d": "2026-10-31",
+      "ix": "runs[fp[∑[contfrac[sqrt(ϕ)]]]]",
+      "mt": 102,
+      "px": [
+        "ϕ",
+        "sqrt",
+        "contfrac",
+        "∑",
+        "fp",
+        "runs"
+      ]
     }
   ]
 }

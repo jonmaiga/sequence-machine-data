@@ -1,14 +1,15 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C003
+import Seq.B000.C011
 import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B003.C000
 import Seq.B010.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C009
+import Seq.Opaque.C013
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 
@@ -32,6 +33,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031694.P6192755382968891411
+
+/-! ## A031694.P11181112944850320719
+
+`64*(n+1)²+A057077(A231100(n+1)²)+n`
+-/
+
+namespace A031694.P11181112944850320719
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (64 * (n + 1) ^ 2 : ℤ) + (A057077 (A231100 (n + 1) ^ 2).toNat + (n : ℤ))
+
+end
+
+end A031694.P11181112944850320719
 
 /-! ## A031694.P15528244375996348596
 
@@ -77,21 +93,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031694.P10946676438372850529
-
-/-! ## A031694.P5231034308114936855
-
-`A005843(A244082(n+1))+n+1`
--/
-
-namespace A031694.P5231034308114936855
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (A244082 (n + 1)).toNat + (n + 1 : ℤ)
-
-end
-
-end A031694.P5231034308114936855
 
 /-!
 # A031696: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 18.
@@ -144,6 +145,24 @@ end
 
 end A031696.P5827297933790121986
 
+/-! ## A031696.P14823967021927796351
+
+`A332893(∑[A158123(2*n+1)+A158123(2*n+1)])`
+-/
+
+namespace A031696.P14823967021927796351
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158123 (2 * n + 1) + A158123 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332893 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A031696.P14823967021927796351
+
 /-! ## A031696.P10424833013725385149
 
 `A016777(A244634(n+1))+n`
@@ -158,19 +177,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031696.P10424833013725385149
-
-/-! ## A031696.P4940812740916084431
-
-`A008585(A008585(A016766(n+1)))+n+1`
--/
-
-namespace A031696.P4940812740916084431
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008585 (A008585 (A016766 (n + 1)).toNat).toNat + (n + 1 : ℤ)
-
-end
-
-end A031696.P4940812740916084431
 

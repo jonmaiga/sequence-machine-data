@@ -6,7 +6,6 @@ import Seq.B000.C007
 import Seq.B000.C015
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B002.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
@@ -14,12 +13,8 @@ import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C004
-import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C014
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C020
 
 /-!
@@ -185,27 +180,56 @@ end A036110.P6768938966716722342
 /-!
 # A036116: Numbers n such that the number of distinct primes dividing n is a square.
 
-The programs for A036116, the canonical program `A036116.P17962530961175835312` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
+The programs for A036116, the canonical program `A036116.P800213295385691500` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
 
-The definition of A036116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4563 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A036116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A036116.P800213295385691500
+
+`lt[(A001221(n+1)-1)%3, 1]+1`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036116
+
+/-- `lt[(A001221(n+1)-1)%3, 1]+1` -/
+def P800213295385691500.Spec : Prop :=
+  ∀ n, (P800213295385691500.a n : ℤ) = A036116 (n + 1)
+
+theorem P800213295385691500.correct : P800213295385691500.Spec := by
+  intro n
+  simp only [A036116, Nat.add_sub_cancel]
+
+end A036116
 
 /-! ## A036116.P17962530961175835312
 
 `eq[1, A008683(A259936(n+1))]+1`
-
-The canonical program, it is in `Seq.B008.C000`.
 -/
+
+namespace A036116.P17962530961175835312
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008683 (A259936 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A036116.P17962530961175835312
 
 namespace A036116
 
 /-- `eq[1, A008683(A259936(n+1))]+1` -/
 def P17962530961175835312.Spec : Prop :=
   ∀ n, (P17962530961175835312.a n : ℤ) = A036116 (n + 1)
-
-theorem P17962530961175835312.correct : P17962530961175835312.Spec := by
-  intro n
-  simp only [A036116, Nat.add_sub_cancel]
 
 end A036116
 
@@ -1805,6 +1829,24 @@ end
 
 end A036163.P6780768120869801788
 
+/-! ## A036163.P537182318459129328
+
+`fo[A036119(n)-1]`
+-/
+
+namespace A036163.P537182318459129328
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036119 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036163.P537182318459129328
+
 /-!
 # A036164: Log base 5 (n) mod 23.
 
@@ -1825,6 +1867,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036164.P8493724867184136672
+
+/-! ## A036164.P4912730785357986323
+
+`fo[A036121(n)-1]`
+-/
+
+namespace A036164.P4912730785357986323
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036121 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036164.P4912730785357986323
 
 /-!
 # A036165: Log base 2 (n) mod 29.
@@ -1847,6 +1907,24 @@ end
 
 end A036165.P15269437826488789097
 
+/-! ## A036165.P14974149841821284942
+
+`fo[A036122(n)-1]`
+-/
+
+namespace A036165.P14974149841821284942
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036122 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036165.P14974149841821284942
+
 /-!
 # A036166: Log base 3 (n) mod 31.
 
@@ -1867,6 +1945,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036166.P3849796995604402534
+
+/-! ## A036166.P13806249870818112607
+
+`fo[A036123(n)-1]`
+-/
+
+namespace A036166.P13806249870818112607
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036123 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036166.P13806249870818112607
+
+/-!
+# A036167: Log base 2 (n) mod 37.
+
+The programs for A036167, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036167.P1218318582018220745
+
+`fo[A036124(n)-1]`
+-/
+
+namespace A036167.P1218318582018220745
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036124 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036167.P1218318582018220745
 
 /-!
 # A036168: Log base 6 (n) mod 41.
@@ -1889,6 +2009,216 @@ end
 
 end A036168.P3089540873916321972
 
+/-! ## A036168.P7116461592775990902
+
+`fo[A036125(n)-1]`
+-/
+
+namespace A036168.P7116461592775990902
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036125 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036168.P7116461592775990902
+
+/-!
+# A036169: Log base 3 (n) mod 43.
+
+The programs for A036169, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036169.P17162572711924819618
+
+`fo[A036126(n)-1]`
+-/
+
+namespace A036169.P17162572711924819618
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036126 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036169.P17162572711924819618
+
+/-!
+# A036170: Log base 5 (n) mod 47.
+
+The programs for A036170, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036170.P9078491260351295038
+
+`fo[A036127(n)-1]`
+-/
+
+namespace A036170.P9078491260351295038
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036127 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036170.P9078491260351295038
+
+/-!
+# A036171: Log base 2 (n) mod 53.
+
+The programs for A036171, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036171.P2085169699716986284
+
+`fo[A036128(n)-1]`
+-/
+
+namespace A036171.P2085169699716986284
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036128 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036171.P2085169699716986284
+
+/-!
+# A036172: Log base 2 (n) mod 59.
+
+The programs for A036172, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036172.P15600934145976042178
+
+`fo[A036129(n)-1]`
+-/
+
+namespace A036172.P15600934145976042178
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036129 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036172.P15600934145976042178
+
+/-!
+# A036173: Log base 2 (n) mod 61.
+
+The programs for A036173, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036173.P12560946693789481521
+
+`fo[A036130(n)-1]`
+-/
+
+namespace A036173.P12560946693789481521
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036130 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036173.P12560946693789481521
+
+/-!
+# A036174: Log base 2 (n) mod 67.
+
+The programs for A036174, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036174.P1543793988848942614
+
+`fo[A036131(n)-1]`
+-/
+
+namespace A036174.P1543793988848942614
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036131 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036174.P1543793988848942614
+
+/-!
+# A036175: Log base 7 (n) mod 71.
+
+The programs for A036175, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036175.P8914113968188074709
+
+`fo[A036132(n)-1]`
+-/
+
+namespace A036175.P8914113968188074709
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036132 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036175.P8914113968188074709
+
+/-!
+# A036176: Log base 5 (n) mod 73.
+
+The programs for A036176, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036176.P10364707114816703530
+
+`fo[A036133(n)-1]`
+-/
+
+namespace A036176.P10364707114816703530
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036133 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036176.P10364707114816703530
+
 /-!
 # A036177: Log base 3 (n) mod 79.
 
@@ -1909,6 +2239,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036177.P6464983082917765216
+
+/-! ## A036177.P11523389333531125288
+
+`fo[A036134(n)-1]`
+-/
+
+namespace A036177.P11523389333531125288
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036134 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036177.P11523389333531125288
 
 /-!
 # A036178: Log base 2 (n) mod 83.
@@ -1931,69 +2279,582 @@ end
 
 end A036178.P15409653992954702912
 
-/-!
-# A036190: Log base 2 (n) mod 149.
+/-! ## A036178.P8995789361906494700
 
-The programs for A036190, there is no canonical definition to state claims against.
+`fo[A036135(n)-1]`
 -/
 
-/-! ## A036190.P14949086006304122586
-
-`and(A133630(n+4), A142147(n!))`
--/
-
-namespace A036190.P14949086006304122586
+namespace A036178.P8995789361906494700
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A133630 (n + 4)) (A142147 (Nat.factorial n))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036135 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
 
 end
 
-end A036190.P14949086006304122586
+end A036178.P8995789361906494700
+
+/-!
+# A036179: Log base 3 (n) mod 89.
+
+The programs for A036179, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036179.P16390423694473632223
+
+`fo[A036136(n)-1]`
+-/
+
+namespace A036179.P16390423694473632223
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036136 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036179.P16390423694473632223
+
+/-!
+# A036180: Log base 5 (n) mod 97.
+
+The programs for A036180, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036180.P16160498987473317293
+
+`fo[A036137(n)-1]`
+-/
+
+namespace A036180.P16160498987473317293
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036137 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A036180.P16160498987473317293
+
+/-!
+# A036181: Log base 2 (n) mod 101.
+
+The programs for A036181, the canonical program `A036181.P8033685362193173688` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036181 has offset 1).
+
+The definition of A036181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036181.P8033685362193173688
+
+`fo[A036138(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036181
+
+/-- `fo[A036138(n)-1]` -/
+def P8033685362193173688.Spec : Prop :=
+  ∀ n, (P8033685362193173688.a n : ℤ) = A036181 (n + 1)
+
+theorem P8033685362193173688.correct : P8033685362193173688.Spec := by
+  intro n
+  simp only [A036181, Nat.add_sub_cancel]
+
+end A036181
+
+/-!
+# A036182: Log base 5 (n) mod 103.
+
+The programs for A036182, the canonical program `A036182.P4404643191014651201` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036182 has offset 1).
+
+The definition of A036182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036182.P4404643191014651201
+
+`fo[A036139(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036182
+
+/-- `fo[A036139(n)-1]` -/
+def P4404643191014651201.Spec : Prop :=
+  ∀ n, (P4404643191014651201.a n : ℤ) = A036182 (n + 1)
+
+theorem P4404643191014651201.correct : P4404643191014651201.Spec := by
+  intro n
+  simp only [A036182, Nat.add_sub_cancel]
+
+end A036182
+
+/-!
+# A036183: Log base 2 (n) mod 107.
+
+The programs for A036183, the canonical program `A036183.P11254564641217166717` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036183 has offset 1).
+
+The definition of A036183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036183.P11254564641217166717
+
+`fo[A036140(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036183
+
+/-- `fo[A036140(n)-1]` -/
+def P11254564641217166717.Spec : Prop :=
+  ∀ n, (P11254564641217166717.a n : ℤ) = A036183 (n + 1)
+
+theorem P11254564641217166717.correct : P11254564641217166717.Spec := by
+  intro n
+  simp only [A036183, Nat.add_sub_cancel]
+
+end A036183
+
+/-!
+# A036184: Log base 6 (n) mod 109.
+
+The programs for A036184, the canonical program `A036184.P17318985363815776618` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036184 has offset 1).
+
+The definition of A036184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036184.P17318985363815776618
+
+`fo[A036141(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036184
+
+/-- `fo[A036141(n)-1]` -/
+def P17318985363815776618.Spec : Prop :=
+  ∀ n, (P17318985363815776618.a n : ℤ) = A036184 (n + 1)
+
+theorem P17318985363815776618.correct : P17318985363815776618.Spec := by
+  intro n
+  simp only [A036184, Nat.add_sub_cancel]
+
+end A036184
+
+/-!
+# A036185: Log base 3 (n) mod 113.
+
+The programs for A036185, the canonical program `A036185.P3631408639681058234` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036185 has offset 1).
+
+The definition of A036185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036185.P3631408639681058234
+
+`fo[A036142(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036185
+
+/-- `fo[A036142(n)-1]` -/
+def P3631408639681058234.Spec : Prop :=
+  ∀ n, (P3631408639681058234.a n : ℤ) = A036185 (n + 1)
+
+theorem P3631408639681058234.correct : P3631408639681058234.Spec := by
+  intro n
+  simp only [A036185, Nat.add_sub_cancel]
+
+end A036185
+
+/-!
+# A036186: Log base 3 (n) mod 127.
+
+The programs for A036186, the canonical program `A036186.P4590984231515801874` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036186 has offset 1).
+
+The definition of A036186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036186.P4590984231515801874
+
+`fo[A036143(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036186
+
+/-- `fo[A036143(n)-1]` -/
+def P4590984231515801874.Spec : Prop :=
+  ∀ n, (P4590984231515801874.a n : ℤ) = A036186 (n + 1)
+
+theorem P4590984231515801874.correct : P4590984231515801874.Spec := by
+  intro n
+  simp only [A036186, Nat.add_sub_cancel]
+
+end A036186
+
+/-!
+# A036187: Log base 2 (n) mod 131.
+
+The programs for A036187, the canonical program `A036187.P6923269924545811191` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036187 has offset 1).
+
+The definition of A036187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 130 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036187.P6923269924545811191
+
+`fo[A036144(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036187
+
+/-- `fo[A036144(n)-1]` -/
+def P6923269924545811191.Spec : Prop :=
+  ∀ n, (P6923269924545811191.a n : ℤ) = A036187 (n + 1)
+
+theorem P6923269924545811191.correct : P6923269924545811191.Spec := by
+  intro n
+  simp only [A036187, Nat.add_sub_cancel]
+
+end A036187
+
+/-!
+# A036188: Log base 3 (n) mod 137.
+
+The programs for A036188, the canonical program `A036188.P15355253588005179696` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036188 has offset 1).
+
+The definition of A036188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036188.P15355253588005179696
+
+`fo[A036145(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036188
+
+/-- `fo[A036145(n)-1]` -/
+def P15355253588005179696.Spec : Prop :=
+  ∀ n, (P15355253588005179696.a n : ℤ) = A036188 (n + 1)
+
+theorem P15355253588005179696.correct : P15355253588005179696.Spec := by
+  intro n
+  simp only [A036188, Nat.add_sub_cancel]
+
+end A036188
+
+/-!
+# A036189: Log base 2 (n) mod 139.
+
+The programs for A036189, the canonical program `A036189.P11062983174061176205` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036189 has offset 1).
+
+The definition of A036189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036189.P11062983174061176205
+
+`fo[A036146(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036189
+
+/-- `fo[A036146(n)-1]` -/
+def P11062983174061176205.Spec : Prop :=
+  ∀ n, (P11062983174061176205.a n : ℤ) = A036189 (n + 1)
+
+theorem P11062983174061176205.correct : P11062983174061176205.Spec := by
+  intro n
+  simp only [A036189, Nat.add_sub_cancel]
+
+end A036189
+
+/-!
+# A036190: Log base 2 (n) mod 149.
+
+The programs for A036190, the canonical program `A036190.P17597972521163358062` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036190 has offset 1).
+
+The definition of A036190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036190.P17597972521163358062
+
+`fo[A036147(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036190
+
+/-- `fo[A036147(n)-1]` -/
+def P17597972521163358062.Spec : Prop :=
+  ∀ n, (P17597972521163358062.a n : ℤ) = A036190 (n + 1)
+
+theorem P17597972521163358062.correct : P17597972521163358062.Spec := by
+  intro n
+  simp only [A036190, Nat.add_sub_cancel]
+
+end A036190
+
+/-!
+# A036191: Log base 6 (n) mod 151.
+
+The programs for A036191, the canonical program `A036191.P5864845318594544277` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036191 has offset 1).
+
+The definition of A036191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 150 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036191.P5864845318594544277
+
+`fo[A036148(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036191
+
+/-- `fo[A036148(n)-1]` -/
+def P5864845318594544277.Spec : Prop :=
+  ∀ n, (P5864845318594544277.a n : ℤ) = A036191 (n + 1)
+
+theorem P5864845318594544277.correct : P5864845318594544277.Spec := by
+  intro n
+  simp only [A036191, Nat.add_sub_cancel]
+
+end A036191
+
+/-!
+# A036192: Log base 5 (n) mod 157.
+
+The programs for A036192, the canonical program `A036192.P8624999604332148524` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036192 has offset 1).
+
+The definition of A036192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 156 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036192.P8624999604332148524
+
+`fo[A036149(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036192
+
+/-- `fo[A036149(n)-1]` -/
+def P8624999604332148524.Spec : Prop :=
+  ∀ n, (P8624999604332148524.a n : ℤ) = A036192 (n + 1)
+
+theorem P8624999604332148524.correct : P8624999604332148524.Spec := by
+  intro n
+  simp only [A036192, Nat.add_sub_cancel]
+
+end A036192
+
+/-!
+# A036193: Log base 2 (n) mod 163.
+
+The programs for A036193, the canonical program `A036193.P6363094181363009367` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036193 has offset 1).
+
+The definition of A036193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036193.P6363094181363009367
+
+`fo[A036150(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036193
+
+/-- `fo[A036150(n)-1]` -/
+def P6363094181363009367.Spec : Prop :=
+  ∀ n, (P6363094181363009367.a n : ℤ) = A036193 (n + 1)
+
+theorem P6363094181363009367.correct : P6363094181363009367.Spec := by
+  intro n
+  simp only [A036193, Nat.add_sub_cancel]
+
+end A036193
+
+/-!
+# A036194: Log base 5 (n) mod 167.
+
+The programs for A036194, the canonical program `A036194.P6035480966416686349` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036194 has offset 1).
+
+The definition of A036194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036194.P6035480966416686349
+
+`fo[A036151(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036194
+
+/-- `fo[A036151(n)-1]` -/
+def P6035480966416686349.Spec : Prop :=
+  ∀ n, (P6035480966416686349.a n : ℤ) = A036194 (n + 1)
+
+theorem P6035480966416686349.correct : P6035480966416686349.Spec := by
+  intro n
+  simp only [A036194, Nat.add_sub_cancel]
+
+end A036194
+
+/-!
+# A036195: Log base 2 (n) mod 173.
+
+The programs for A036195, the canonical program `A036195.P2480296239220671353` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036195 has offset 1).
+
+The definition of A036195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036195.P2480296239220671353
+
+`fo[A036152(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036195
+
+/-- `fo[A036152(n)-1]` -/
+def P2480296239220671353.Spec : Prop :=
+  ∀ n, (P2480296239220671353.a n : ℤ) = A036195 (n + 1)
+
+theorem P2480296239220671353.correct : P2480296239220671353.Spec := by
+  intro n
+  simp only [A036195, Nat.add_sub_cancel]
+
+end A036195
 
 /-!
 # A036196: Log base 2 (n) mod 179.
 
-The programs for A036196, there is no canonical definition to state claims against.
+The programs for A036196, the canonical program `A036196.P8017371337314070093` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036196 has offset 1).
+
+The definition of A036196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 178 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A036196.P9286176788853265125
+/-! ## A036196.P8017371337314070093
 
-`A165085(lcm(A005408(n), A165104(n+5))-4)`
+`fo[A036153(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
-namespace A036196.P9286176788853265125
-noncomputable section
+namespace A036196
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165085 (Int.lcm (A005408 n) (A165104 (n + 5)) - 4)
+/-- `fo[A036153(n)-1]` -/
+def P8017371337314070093.Spec : Prop :=
+  ∀ n, (P8017371337314070093.a n : ℤ) = A036196 (n + 1)
 
-end
+theorem P8017371337314070093.correct : P8017371337314070093.Spec := by
+  intro n
+  simp only [A036196, Nat.add_sub_cancel]
 
-end A036196.P9286176788853265125
+end A036196
 
 /-!
 # A036197: Log base 2 (n) mod 181.
 
-The programs for A036197, there is no canonical definition to state claims against.
+The programs for A036197, the canonical program `A036197.P15215512483180084724` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036197 has offset 1).
+
+The definition of A036197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 180 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A036197.P9651831722609088301
+/-! ## A036197.P15215512483180084724
 
-`A238896(or(∏{e}[n+1, #+1], A077526(n+1)))`
+`fo[A036154(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
-namespace A036197.P9651831722609088301
-noncomputable section
+namespace A036197
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `fo[A036154(n)-1]` -/
+def P15215512483180084724.Spec : Prop :=
+  ∀ n, (P15215512483180084724.a n : ℤ) = A036197 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238896 (Int.lor ((∏ p ∈ Nat.primeFactors (f1 n), (Nat.factorization (f1 n) p + 1) : ℕ) : ℤ) (A077526 (n + 1))).toNat
+theorem P15215512483180084724.correct : P15215512483180084724.Spec := by
+  intro n
+  simp only [A036197, Nat.add_sub_cancel]
 
-end
+end A036197
 
-end A036197.P9651831722609088301
+/-!
+# A036198: Log base 19 (n) mod 191.
+
+The programs for A036198, the canonical program `A036198.P10813041386465815301` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036198 has offset 1).
+
+The definition of A036198 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036198.P10813041386465815301
+
+`fo[A036155(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036198
+
+/-- `fo[A036155(n)-1]` -/
+def P10813041386465815301.Spec : Prop :=
+  ∀ n, (P10813041386465815301.a n : ℤ) = A036198 (n + 1)
+
+theorem P10813041386465815301.correct : P10813041386465815301.Spec := by
+  intro n
+  simp only [A036198, Nat.add_sub_cancel]
+
+end A036198
+
+/-!
+# A036199: Log base 5 (n) mod 193.
+
+The programs for A036199, the canonical program `A036199.P13334371784203329939` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036199 has offset 1).
+
+The definition of A036199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A036199.P13334371784203329939
+
+`fo[A036156(n)-1]`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A036199
+
+/-- `fo[A036156(n)-1]` -/
+def P13334371784203329939.Spec : Prop :=
+  ∀ n, (P13334371784203329939.a n : ℤ) = A036199 (n + 1)
+
+theorem P13334371784203329939.correct : P13334371784203329939.Spec := by
+  intro n
+  simp only [A036199, Nat.add_sub_cancel]
+
+end A036199
 

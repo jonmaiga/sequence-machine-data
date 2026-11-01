@@ -18,16 +18,15 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -37,6 +36,7 @@ import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -51,17 +51,16 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -613,20 +612,20 @@ end
 
 end A296408.P4167251295068810372
 
-/-! ## A296408.P7736057634575786306
+/-! ## A296408.P15663960220926015358
 
-`A111776(A001519(n))`
+`A123108(15*(n+1)*a(n-1))` with `a(0)=1, a(1)=1, a(2)=1, a(3)=3, a(4)=20`
 -/
 
-namespace A296408.P7736057634575786306
+namespace A296408.P15663960220926015358
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111776 (A001519 n).toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1, 3, 20] fun n a =>
+  A123108 (15 * ((n + 1 : ℤ) * a (n - 1))).toNat
 
 end
 
-end A296408.P7736057634575786306
+end A296408.P15663960220926015358
 
 /-!
 # A296409: Number of digon-free cylindrical connected arrangements of n pseudo-circles on a sphere, in the sense that the union of the pseudo-circles is a connected set and two cells of the arrangement are separated by each of the pseudo-circles, reduced for mirror symmetry.
@@ -706,23 +705,20 @@ end A296410.P10527643362296779579
 The programs for A296411, there is no canonical definition to state claims against.
 -/
 
-/-! ## A296411.P18128438487249889218
+/-! ## A296411.P10982813657096969278
 
-`∑{d}[A369998(n), #-n]`
+`A054995((1+n!)²)`
 -/
 
-namespace A296411.P18128438487249889218
+namespace A296411.P10982813657096969278
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369998 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, ((d : ℤ) - (n : ℤ))
+  A054995 ((1 + Nat.factorial n) ^ 2)
 
 end
 
-end A296411.P18128438487249889218
+end A296411.P10982813657096969278
 
 /-!
 # A296412: Number of non-isomorphic digon-free cylindrical arrangements of n pairwise intersecting pseudo-circles on a sphere, in the sense that two cells of the arrangement are separated by each of the pseudo-circles, reduced for mirror symmetry.
@@ -1363,6 +1359,54 @@ end
 end A296422.P6588492277865561987
 
 /-!
+# A296423: Lexicographically earliest sequence of distinct positive terms such that, among any two consecutive terms, we have a p-smooth number and a (p+1)-rough number for some p > 0.
+
+The programs for A296423, there is no canonical definition to state claims against.
+-/
+
+/-! ## A296423.P902392008725922310
+
+`fo[A296424(n+1)-1]+1`
+-/
+
+namespace A296423.P902392008725922310
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296424 (n + 1) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0 + 1
+
+end
+
+end A296423.P902392008725922310
+
+/-!
+# A296424: Inverse to A296423.
+
+The programs for A296424, there is no canonical definition to state claims against.
+-/
+
+/-! ## A296424.P6058965664976422979
+
+`fo[A296423(n+1)-1]+1`
+-/
+
+namespace A296424.P6058965664976422979
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296423 (n + 1) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0 + 1
+
+end
+
+end A296424.P6058965664976422979
+
+/-!
 # A296435: Expansion of e.g.f. log(1 + arcsinh(x)).
 
 The programs for A296435, there is no canonical definition to state claims against.
@@ -1655,25 +1699,25 @@ end A296441.P18369977015551325371
 /-!
 # A296442: Initial digit of n-th Mersenne number.
 
-The programs for A296442, the canonical program `A296442.P15214103420429711918` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296442 has offset 1).
+The programs for A296442, the canonical program `A296442.P10743273766974249340` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296442 has offset 1).
 
 The definition of A296442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A296442.P15214103420429711918
+/-! ## A296442.P10743273766974249340
 
-`A008952(A000040(n+1))-A019590(n+1)`
+`A008952(A000040(1+n))-A019590(n+1)`
 
 The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296442
 
-/-- `A008952(A000040(n+1))-A019590(n+1)` -/
-def P15214103420429711918.Spec : Prop :=
-  ∀ n, P15214103420429711918.a n = A296442 (n + 1)
+/-- `A008952(A000040(1+n))-A019590(n+1)` -/
+def P10743273766974249340.Spec : Prop :=
+  ∀ n, P10743273766974249340.a n = A296442 (n + 1)
 
-theorem P15214103420429711918.correct : P15214103420429711918.Spec := by
+theorem P10743273766974249340.correct : P10743273766974249340.Spec := by
   intro n
   simp only [A296442, Nat.add_sub_cancel]
 
@@ -1809,6 +1853,21 @@ end A296442
 The programs for A296443, there is no canonical definition to state claims against.
 -/
 
+/-! ## A296443.P1057099922324413931
+
+`A372654(2^a(n-1)-1)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=7, a(4)=8`
+-/
+
+namespace A296443.P1057099922324413931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 6, 7, 8] fun n a =>
+  A372654 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (a (n - 1) : ℤ) - 1)).toNat
+
+end
+
+end A296443.P1057099922324413931
+
 /-! ## A296443.P18000191272046224362
 
 `A294375(A169829(n+2))`
@@ -1823,27 +1882,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A296443.P18000191272046224362
-
-/-! ## A296443.P4105099394965122913
-
-`A175501(∑[∑[A294251(n)]])`
--/
-
-namespace A296443.P4105099394965122913
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294251 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175501 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A296443.P4105099394965122913
 
 /-!
 # A296444: Numbers k such that 2*10^(2k) + 2*10^k + 1 are prime.
@@ -1866,23 +1904,20 @@ end
 
 end A296444.P15844996487453709596
 
-/-! ## A296444.P4422183463197113686
+/-! ## A296444.P3196731675949236011
 
-`record[A223486(A295943(n+1))]`
+`A388721(A384110(n))+n`
 -/
 
-namespace A296444.P4422183463197113686
+namespace A296444.P3196731675949236011
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223486 (A295943 (n + 1)).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A388721 (A384110 n).toNat + (n : ℤ)
 
 end
 
-end A296444.P4422183463197113686
+end A296444.P3196731675949236011
 
 /-!
 # A296447: Smallest integer N such that all numbers from 1 to n (n being N's rank in the sequence) can be built by the sum of contiguous digits of N.
@@ -2172,6 +2207,24 @@ end
 
 end A296467.P17479423623208637580
 
+/-! ## A296467.P6036232631528950842
+
+`abs(∑{#}[2*n+1, C(2*n+1, #)*A297211(#)])`
+-/
+
+namespace A296467.P6036232631528950842
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (2 * n + 1) k : ℤ) * A297211 k|
+
+end
+
+end A296467.P6036232631528950842
+
 /-! ## A296467.P12818811937928807143
 
 `A033999(n)*A110708(2*n+1)`
@@ -2217,21 +2270,6 @@ end
 
 end A296467.P267886518974246340
 
-/-! ## A296467.P12979166191397883910
-
-`gcd(A000122(3*n+2), A110708(2*n+1))`
--/
-
-namespace A296467.P12979166191397883910
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000122 (3 * n + 2)) (A110708 (2 * n + 1))
-
-end
-
-end A296467.P12979166191397883910
-
 /-!
 # A296484: Solution (a(n)) of the system of 3 complementary equations in Comments.
 
@@ -2271,20 +2309,20 @@ end
 
 end A296484.P13739786043027296913
 
-/-! ## A296484.P13351936581531404063
+/-! ## A296484.P17322069990225230112
 
-`A296502(n+1)-A297149(n)`
+`A296502(1+n)-A297149(n)`
 -/
 
-namespace A296484.P13351936581531404063
+namespace A296484.P17322069990225230112
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A296502 (n + 1) - A297149 n
+  A296502 (1 + n) - A297149 n
 
 end
 
-end A296484.P13351936581531404063
+end A296484.P17322069990225230112
 
 /-! ## A296484.P15074747467461209302
 

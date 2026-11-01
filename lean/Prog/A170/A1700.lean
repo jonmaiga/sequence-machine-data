@@ -2,12 +2,34 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C028
 import Seq.Opaque.C001
+import Seq.Opaque.C009
 
 /-!
 # A170012: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^36 = I.
 
 The programs for A170012, there is no canonical definition to state claims against.
 -/
+
+/-! ## A170012.P1581012667193667158
+
+`Δ[Δ[A170108(n)]%A170365(2*(n+2))]`
+-/
+
+namespace A170012.P1581012667193667158
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170108 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (f2 (n + 1) - f2 n) (A170365 (2 * (n + 2)))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A170012.P1581012667193667158
 
 /-! ## A170012.P17279731077578968951
 
@@ -38,4 +60,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A170012.P9722999067174796245
+
+/-! ## A170012.P4813035115828749208
+
+`A170108(n)-A169585(A031285(n)²)`
+-/
+
+namespace A170012.P4813035115828749208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170108 n - A169585 (A031285 n ^ 2).toNat
+
+end
+
+end A170012.P4813035115828749208
+
+/-! ## A170012.P15621797783567376943
+
+`A170300(n)-A169585(A031285(n)²)`
+-/
+
+namespace A170012.P15621797783567376943
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170300 n - A169585 (A031285 n ^ 2).toNat
+
+end
+
+end A170012.P15621797783567376943
 

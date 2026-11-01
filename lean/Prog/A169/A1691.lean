@@ -4,7 +4,9 @@ import Seq.B000.C010
 import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C012
 
 /-!
 # A169114: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^26 = I.
@@ -77,6 +79,66 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169160.P5610986351483841605
+
+/-! ## A169160.P1545713900579709539
+
+`A003945(n)-A002262(A210709(n+2))`
+-/
+
+namespace A169160.P1545713900579709539
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003945 n - A002262 (A210709 (n + 2)).toNat
+
+end
+
+end A169160.P1545713900579709539
+
+/-! ## A169160.P7136709052875170074
+
+`A169208(n)-A002262(A210709(n+2))`
+-/
+
+namespace A169160.P7136709052875170074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169208 n - A002262 (A210709 (n + 2)).toNat
+
+end
+
+end A169160.P7136709052875170074
+
+/-! ## A169160.P1804178876188338906
+
+`A169256(n)-A002262(A210709(n+2))`
+-/
+
+namespace A169160.P1804178876188338906
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169256 n - A002262 (A210709 (n + 2)).toNat
+
+end
+
+end A169160.P1804178876188338906
+
+/-! ## A169160.P5242011967261887806
+
+`A169304(n)-A002262(A210709(n+2))`
+-/
+
+namespace A169160.P5242011967261887806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169304 n - A002262 (A210709 (n + 2)).toNat
+
+end
+
+end A169160.P5242011967261887806
 
 /-!
 # A169161: Number of reduced words of length n in Coxeter group on 4 generators S_i with relations (S_i)^2 = (S_i S_j)^27 = I.

@@ -15,6 +15,7 @@ import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
@@ -23,11 +24,11 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C012
 import Seq.B002.C000
@@ -38,14 +39,17 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B005.C000
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -177,6 +181,36 @@ end A009302.P6631611827072199879
 The programs for A009303, there is no canonical definition to state claims against.
 -/
 
+/-! ## A009303.P13749310830885936354
+
+`A359411(A020989(n))+A236305(2*n)`
+-/
+
+namespace A009303.P13749310830885936354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359411 (A020989 n).toNat + A236305 (2 * n)
+
+end
+
+end A009303.P13749310830885936354
+
+/-! ## A009303.P3804261000206301149
+
+`A016933(A139250(n)%A128029(n+1))`
+-/
+
+namespace A009303.P3804261000206301149
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016933 (Int.tmod (A139250 n) (A128029 (n + 1))).toNat
+
+end
+
+end A009303.P3804261000206301149
+
 /-! ## A009303.P3614620428504605329
 
 `eq[A006337(A007318(n)), A318995(n+4)]`
@@ -197,27 +231,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A009303.P3614620428504605329
-
-/-! ## A009303.P9512185420148485226
-
-`A016933(lt[A000265(n+1), A307319(3*n+2)])`
--/
-
-namespace A009303.P9512185420148485226
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307319 (3 * n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016933 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A009303.P9512185420148485226
 
 /-!
 # A009304: If a, b in sequence, so is ab+5.
@@ -770,6 +783,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009331.P13346864402674633309
+
+/-! ## A009331.P1973297015944559877
+
+`A016873(eq[A061395(2*(n+2)), A305936(n+2)])`
+-/
+
+namespace A009331.P1973297015944559877
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061395 (2 * (n + 2))
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305936 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016873 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+
+end
+
+end A009331.P1973297015944559877
 
 /-!
 # A009333: Expansion of log(1+sin(x))*cosh(x).
@@ -1551,6 +1585,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009368.P2581931054190449561
+
+/-! ## A009368.P15266786380121635465
+
+`∑[A164126(A092558(n+1)-A151572(2*n))]`
+-/
+
+namespace A009368.P15266786380121635465
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164126 (A092558 (n + 1) - A151572 (2 * n)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A009368.P15266786380121635465
 
 /-!
 # A009370: Expansion of log(1+tan(x))*cosh(x).
@@ -2424,6 +2476,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009393.P181425537985119066
+
+/-! ## A009393.P9429175914787006913
+
+`Δ[gcd(2, A361480(3*(n+1)))-A009389(n)]`
+-/
+
+namespace A009393.P9429175914787006913
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Int.gcd 2 (A361480 (3 * (n + 1))) : ℤ) - A009389 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A009393.P9429175914787006913
 
 /-! ## A009393.P5466124575698080459
 

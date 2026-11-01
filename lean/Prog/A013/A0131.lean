@@ -15,22 +15,23 @@ import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -49,7 +50,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -102,6 +102,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013100.P2449196827400208779
+
+/-! ## A013100.P361396519108668058
+
+`∏{e}[A000302(n), A013091(#)]`
+-/
+
+namespace A013100.P361396519108668058
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000302 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A013091 (Nat.factorization (f1 n).natAbs p)
+
+end
+
+end A013100.P361396519108668058
 
 /-!
 # A013104: sin(arcsinh(x)+arctan(x))=2*x-11/3!*x^3+185/5!*x^5-6785/7!*x^7...
@@ -366,6 +384,24 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A013117.P9173899869366965386
+
+/-! ## A013117.P404338755063476859
+
+`A009263(n)+∑{#}[n, C(n, #)*A009266(#)]`
+-/
+
+namespace A013117.P404338755063476859
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009263 n + ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A009266 k
+
+end
+
+end A013117.P404338755063476859
 
 /-! ## A013117.P11587431750429354961
 
@@ -655,6 +691,39 @@ end
 
 end A013133.P8907820151658826793
 
+/-! ## A013133.P15737041471580764153
+
+`∑{#}[A179644(n+1), A139398(n)*C(n, #)]`
+-/
+
+namespace A013133.P15737041471580764153
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179644 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, A139398 n * (Nat.choose n k : ℤ)
+
+end
+
+end A013133.P15737041471580764153
+
+/-! ## A013133.P7364746185276660428
+
+`A004277(A131577(n)*A139398(n))`
+-/
+
+namespace A013133.P7364746185276660428
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A131577 n * A139398 n).toNat
+
+end
+
+end A013133.P7364746185276660428
+
 /-! ## A013133.P5665911691589547161
 
 `A245092(A000079(n)*A139398(n))`
@@ -669,24 +738,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013133.P5665911691589547161
-
-/-! ## A013133.P16934372778505868976
-
-`A004277(Δ[A133476(n)]*A131577(n))`
--/
-
-namespace A013133.P16934372778505868976
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133476 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 ((f1 (n + 1) - f1 n) * A131577 n).toNat
-
-end
-
-end A013133.P16934372778505868976
 
 /-!
 # A013134: sin(tanh(x)+tan(x))=2*x-8/3!*x^3+64/5!*x^5-2816/7!*x^7+80896/9!*x^9...
@@ -1471,26 +1522,49 @@ def P10130945332438575476.Spec : Prop :=
 
 end A013170
 
-/-! ## A013170.P13941092473536857654
+/-! ## A013170.P12958572136359420818
 
-`A012899(n+1)-A006228(n)`
+`A012899(1+n)-A006228(n)`
 -/
 
-namespace A013170.P13941092473536857654
+namespace A013170.P12958572136359420818
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012899 (n + 1) - A006228 n
+  A012899 (1 + n) - A006228 n
 
 end
 
-end A013170.P13941092473536857654
+end A013170.P12958572136359420818
 
 namespace A013170
 
-/-- `A012899(n+1)-A006228(n)` -/
-def P13941092473536857654.Spec : Prop :=
-  ∀ n, P13941092473536857654.a n = A013170 n
+/-- `A012899(1+n)-A006228(n)` -/
+def P12958572136359420818.Spec : Prop :=
+  ∀ n, P12958572136359420818.a n = A013170 n
+
+end A013170
+
+/-! ## A013170.P2826566318737524139
+
+`A006228(1+n)+n*A006228(n)`
+-/
+
+namespace A013170.P2826566318737524139
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006228 (1 + n) + (n : ℤ) * A006228 n
+
+end
+
+end A013170.P2826566318737524139
+
+namespace A013170
+
+/-- `A006228(1+n)+n*A006228(n)` -/
+def P2826566318737524139.Spec : Prop :=
+  ∀ n, P2826566318737524139.a n = A013170 n
 
 end A013170
 
@@ -1637,23 +1711,23 @@ end
 
 end A013174.P7159407136116718209
 
-/-! ## A013174.P10598017806611585677
+/-! ## A013174.P5320036301020598525
 
-`∏[A348241(A007570(n)²)]`
+`record[A318768(A206229(n))]`
 -/
 
-namespace A013174.P10598017806611585677
+namespace A013174.P5320036301020598525
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348241 (A007570 n ^ 2).toNat
+  A318768 (A206229 n).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A013174.P10598017806611585677
+end A013174.P5320036301020598525
 
 /-!
 # A013175: sin(arctanh(x)+arctan(x))=2*x-8/3!*x^3+80/5!*x^5-4160/7!*x^7...

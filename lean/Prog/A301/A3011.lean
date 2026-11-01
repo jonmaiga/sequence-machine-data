@@ -20,15 +20,14 @@ import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C042
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C008
@@ -41,6 +40,7 @@ import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -53,7 +53,6 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,6 +77,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A301102: Coordination sequence T2 for Zeolite Code IWW.
@@ -222,6 +222,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301105.P4284625295110488167
+
+/-! ## A301105.P3413197159232294435
+
+`A008014(n)-A008683(A154149(n+5))`
+-/
+
+namespace A301105.P3413197159232294435
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008014 n - A008683 (A154149 (n + 5)).toNat
+
+end
+
+end A301105.P3413197159232294435
 
 /-!
 # A301108: Coordination sequence T8 for Zeolite Code IWW.
@@ -517,20 +532,20 @@ end
 
 end A301121.P8392025977304166251
 
-/-! ## A301121.P13303505790788578714
+/-! ## A301121.P18097854352675224181
 
-`A185284(n)+A301033(n)-A185284(A016116(n))`
+`A301028(n)+A185284(A000040(n+1))`
 -/
 
-namespace A301121.P13303505790788578714
+namespace A301121.P18097854352675224181
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 n + (A301033 n - A185284 (A016116 n).toNat)
+  A301028 n + A185284 (A000040 (n + 1)).toNat
 
 end
 
-end A301121.P13303505790788578714
+end A301121.P18097854352675224181
 
 /-!
 # A301122: Coordination sequence T3 for Zeolite Code MAR.
@@ -622,16 +637,16 @@ end
 
 end A301124.P3416248111700473281
 
-/-! ## A301124.P7195151431450261173
+/-! ## A301124.P15870079086607382277
 
-`∑[∑[A001222(A180367(n+1))]]`
+`∑[∑[A000120(A399428(n))]]`
 -/
 
-namespace A301124.P7195151431450261173
+namespace A301124.P15870079086607382277
 noncomputable section
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A180367 (n + 1)).toNat
+  A000120 (A399428 n).toNat
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f2 j
@@ -641,7 +656,7 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A301124.P7195151431450261173
+end A301124.P15870079086607382277
 
 /-!
 # A301128: Coordination sequence T6 for Zeolite Code MOZ.
@@ -857,7 +872,7 @@ end A301134.P5939222895807992112
 /-!
 # A301137: Coordination sequence T1 for Zeolite Code NAB.
 
-The programs for A301137, the canonical program `A301137.P7974557138332433787` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301137 has offset 0).
+The programs for A301137, the canonical program `A301137.P7974557138332433787` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301137 has offset 0).
 
 The definition of A301137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -866,7 +881,7 @@ The definition of A301137 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+9x^2+16x^3+28x^4+28x^5+26x^6+7x^7-x^9+2x^11)/(1-3x^3+3x^6-x^9))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A301137
@@ -884,7 +899,7 @@ end A301137
 /-!
 # A301138: Coordination sequence T2 for Zeolite Code NAB.
 
-The programs for A301138, the canonical program `A301138.P9442094132741063075` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301138 has offset 0).
+The programs for A301138, the canonical program `A301138.P9442094132741063075` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301138 has offset 0).
 
 The definition of A301138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -893,7 +908,7 @@ The definition of A301138 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+8x^2+18x^3+31x^4+32x^5+35x^6+22x^7+4x^8+4x^9+x^10)/(1-2x^3-x^4+x^6+2x^7-x^10))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A301138
@@ -911,7 +926,7 @@ end A301138
 /-!
 # A301139: Coordination sequence T1 for Zeolite Code NPO.
 
-The programs for A301139, the canonical program `A301139.P4143244814413161815` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301139 has offset 0).
+The programs for A301139, the canonical program `A301139.P4143244814413161815` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301139 has offset 0).
 
 The definition of A301139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -920,7 +935,7 @@ The definition of A301139 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+10x^2+20x^3+31x^4+46x^5+52x^6+48x^7+45x^8+24x^9+6x^10+4x^11-x^12-2x^13)/(1-3x^4+3x^8-x^12))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A301139
@@ -961,7 +976,7 @@ end A301139
 /-!
 # A301141: Coordination sequence T2 for Zeolite Code NSI.
 
-The programs for A301141, the canonical program `A301141.P13328045722741407979` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301141 has offset 0).
+The programs for A301141, the canonical program `A301141.P13328045722741407979` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301141 has offset 0).
 
 The definition of A301141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -970,7 +985,7 @@ The definition of A301141 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+14x^2+32x^3+59x^4+88x^5+116x^6+123x^7+116x^8+88x^9+59x^10+32x^11+14x^12+4x^13+x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A301141
@@ -1581,6 +1596,21 @@ end
 
 end A301165.P2287862653515438632
 
+/-! ## A301165.P13159148441841224351
+
+`A350237(2*(n+1))+A001055(A050355(n+1))`
+-/
+
+namespace A301165.P13159148441841224351
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350237 (2 * (n + 1)) + A001055 (A050355 (n + 1)).toNat
+
+end
+
+end A301165.P13159148441841224351
+
 /-!
 # A301166: Coordination sequence T1 for Zeolite Code RWY.
 
@@ -1632,6 +1662,21 @@ end
 
 end A301166.P8867632223959460036
 
+/-! ## A301166.P3144061174941422466
+
+`A277023(n)+A088911(A292718(n))`
+-/
+
+namespace A301166.P3144061174941422466
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277023 n + A088911 (A292718 n).toNat
+
+end
+
+end A301166.P3144061174941422466
+
 /-! ## A301166.P15170815965890572004
 
 `A341969(A342596(n+3))+A277023(n)`
@@ -1646,21 +1691,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301166.P15170815965890572004
-
-/-! ## A301166.P4042518807515201767
-
-`A274830(A077739(n+1))+A061399(2*(n+1))`
--/
-
-namespace A301166.P4042518807515201767
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274830 (A077739 (n + 1)).toNat + A061399 (2 * (n + 1))
-
-end
-
-end A301166.P4042518807515201767
 
 /-!
 # A301168: Coordination sequence T2 for Zeolite Code SFG.
@@ -1796,6 +1826,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301173.P13648402205898863966
+
+/-! ## A301173.P1062646614034318922
+
+`A279280(A375588(n))+A000217(2*n)`
+-/
+
+namespace A301173.P1062646614034318922
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279280 (A375588 n).toNat + A000217 (2 * n)
+
+end
+
+end A301173.P1062646614034318922
 
 /-!
 # A301175: Coordination sequence T9 for Zeolite Code SFG.
@@ -2397,24 +2442,18 @@ end
 
 end A301199.P22492220098330533
 
-/-! ## A301199.P1907546838951068766
+/-! ## A301199.P10904245176215305269
 
-`∑[∑[A023514(A369073(n+2))]]`
+`A301201(n)+A107846(A098475(n))`
 -/
 
-namespace A301199.P1907546838951068766
+namespace A301199.P10904245176215305269
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023514 (A369073 (n + 2)).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A301201 n + A107846 (A098475 n).toNat
 
 end
 
-end A301199.P1907546838951068766
+end A301199.P10904245176215305269
 

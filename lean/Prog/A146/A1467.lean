@@ -5,12 +5,12 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -19,16 +19,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -38,23 +39,25 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -84,12 +87,28 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import SequenceMachineLib.Triangle
 
 /-!
 # A146700: Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 1100-1111-0010 pattern in any orientation.
 
 The programs for A146700, there is no canonical definition to state claims against.
 -/
+
+/-! ## A146700.P11416028020027137040
+
+`A146708(A250039(n+1)-1)`
+-/
+
+namespace A146700.P11416028020027137040
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146708 (A250039 (n + 1) - 1).toNat
+
+end
+
+end A146700.P11416028020027137040
 
 /-! ## A146700.P13102760610951182675
 
@@ -106,6 +125,36 @@ end
 
 end A146700.P13102760610951182675
 
+/-! ## A146700.P9381212164822794340
+
+`A146708(n+1)%A000384(A000051(n))`
+-/
+
+namespace A146700.P9381212164822794340
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A146708 (n + 1)) (A000384 (A000051 n).toNat)
+
+end
+
+end A146700.P9381212164822794340
+
+/-! ## A146700.P17407959595336266767
+
+`A146708(n+1)+A010054(A136154(n+1))`
+-/
+
+namespace A146700.P17407959595336266767
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146708 (n + 1) + A010054 (A136154 (n + 1)).toNat
+
+end
+
+end A146700.P17407959595336266767
+
 /-! ## A146700.P6812606243995650235
 
 `A146708(n+1)+A007814(A146696(n+1))`
@@ -120,36 +169,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146700.P6812606243995650235
-
-/-! ## A146700.P3188135652275333236
-
-`A183063(A146720(n+1))+A146708(n+1)`
--/
-
-namespace A146700.P3188135652275333236
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183063 (A146720 (n + 1)).toNat + A146708 (n + 1)
-
-end
-
-end A146700.P3188135652275333236
-
-/-! ## A146700.P18384315286093824483
-
-`A324417(A146663(n+1))+A146708(n+1)`
--/
-
-namespace A146700.P18384315286093824483
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324417 (A146663 (n + 1)).toNat + A146708 (n + 1)
-
-end
-
-end A146700.P18384315286093824483
 
 /-!
 # A146701: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1100-1111-0010 pattern in any orientation.
@@ -301,20 +320,20 @@ end
 
 end A146702.P6476500340455986962
 
-/-! ## A146702.P14952853938283254829
+/-! ## A146702.P10745423862111881275
 
-`A019555(A146734(n+1)^2)`
+`A003059(A146734(n+1)²)`
 -/
 
-namespace A146702.P14952853938283254829
+namespace A146702.P10745423862111881275
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019555 (A146734 (n + 1) ^ 2).toNat
+  A003059 (A146734 (n + 1) ^ 2).toNat
 
 end
 
-end A146702.P14952853938283254829
+end A146702.P10745423862111881275
 
 /-!
 # A146703: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1100-1111-0010 pattern in any orientation.
@@ -638,6 +657,57 @@ end
 end A146710.P9583389184376981156
 
 /-!
+# A146711: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1100-1111-0100 pattern in any orientation.
+
+The programs for A146711, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146711.P5804359961393184560
+
+`A147510(n+1)+A146631(n+1)-A125157(A147433(n+1))`
+-/
+
+namespace A146711.P5804359961393184560
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147510 (n + 1) + A146631 (n + 1) - A125157 (A147433 (n + 1)).toNat
+
+end
+
+end A146711.P5804359961393184560
+
+/-! ## A146711.P14770578656338008120
+
+`A147510(n+1)+A146631(n+1)-A347179(A147190(n+1))`
+-/
+
+namespace A146711.P14770578656338008120
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147510 (n + 1) + A146631 (n + 1) - A347179 (A147190 (n + 1)).toNat
+
+end
+
+end A146711.P14770578656338008120
+
+/-! ## A146711.P1321861142150500151
+
+`A146836(n+1)+A146836(n+1)%A356903(A146607(n+1))`
+-/
+
+namespace A146711.P1321861142150500151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146836 (n + 1) + Int.tmod (A146836 (n + 1)) (A356903 (A146607 (n + 1)).toNat)
+
+end
+
+end A146711.P1321861142150500151
+
+/-!
 # A146712: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 1100-1111-0100 pattern in any orientation.
 
 The programs for A146712, there is no canonical definition to state claims against.
@@ -883,56 +953,50 @@ end
 
 end A146716.P15918134254084639679
 
-/-! ## A146716.P5238956279776946771
+/-! ## A146716.P6653208284606526729
 
-`∏{e}[A032085(n+1), A146714(#)]`
+`A146714(A244325(n+1)+1)`
 -/
 
-namespace A146716.P5238956279776946771
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032085 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A146714 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A146716.P5238956279776946771
-
-/-! ## A146716.P14066461559945451880
-
-`∏{p}[A146849(n+1)², #]`
--/
-
-namespace A146716.P14066461559945451880
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146849 (n + 1) ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A146716.P14066461559945451880
-
-/-! ## A146716.P4181286030668551688
-
-`A146849(or(n, A146836(n+1)))`
--/
-
-namespace A146716.P4181286030668551688
+namespace A146716.P6653208284606526729
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146849 (Int.lor (n : ℤ) (A146836 (n + 1))).toNat
+  A146714 (A244325 (n + 1) + 1).toNat
 
 end
 
-end A146716.P4181286030668551688
+end A146716.P6653208284606526729
+
+/-! ## A146716.P11087747666461305109
+
+`A146714(n+2-A027923(n+1))`
+-/
+
+namespace A146716.P11087747666461305109
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146714 ((n + 2 : ℤ) - A027923 (n + 1)).toNat
+
+end
+
+end A146716.P11087747666461305109
+
+/-! ## A146716.P4141913348938263209
+
+`A146714(floor(A104249(n)/A008486(n)))`
+-/
+
+namespace A146716.P4141913348938263209
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146714 ⌊(A104249 n : ℚ) / (A008486 n : ℚ)⌋.toNat
+
+end
+
+end A146716.P4141913348938263209
 
 /-!
 # A146717: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1100-1111-1000 pattern in any orientation.
@@ -1021,6 +1085,36 @@ end A146717.P1407398008480008394
 The programs for A146718, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146718.P4974598244125657531
+
+`or(A065941(n), A147258(n+1))`
+-/
+
+namespace A146718.P4974598244125657531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A065941 n) (A147258 (n + 1))
+
+end
+
+end A146718.P4974598244125657531
+
+/-! ## A146718.P14291807109105451852
+
+`or(A097805(n), A147258(n+1))`
+-/
+
+namespace A146718.P14291807109105451852
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A097805 n) (A147258 (n + 1))
+
+end
+
+end A146718.P14291807109105451852
+
 /-! ## A146718.P11948284259991540562
 
 `or(A127325(n), A147258(n+1))`
@@ -1051,50 +1145,20 @@ end
 
 end A146718.P2445732748637086831
 
-/-! ## A146718.P15856645935445762779
+/-! ## A146718.P18078645193050527847
 
-`or(A147258(n+1), A242249(n))`
+`or(A147258(n+1), A217657(n))`
 -/
 
-namespace A146718.P15856645935445762779
+namespace A146718.P18078645193050527847
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A147258 (n + 1)) (A242249 n)
+  Int.lor (A147258 (n + 1)) (A217657 n)
 
 end
 
-end A146718.P15856645935445762779
-
-/-! ## A146718.P5070561331923335918
-
-`or(A147258(n+1), A326636(n))`
--/
-
-namespace A146718.P5070561331923335918
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A147258 (n + 1)) (A326636 n)
-
-end
-
-end A146718.P5070561331923335918
-
-/-! ## A146718.P5536173912155662825
-
-`A319687(n+3)+A147258(n+1)`
--/
-
-namespace A146718.P5536173912155662825
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319687 (n + 3) + A147258 (n + 1)
-
-end
-
-end A146718.P5536173912155662825
+end A146718.P18078645193050527847
 
 /-!
 # A146719: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1100-1111-1000 pattern in any orientation.
@@ -1152,6 +1216,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146720.P15327431439162804316
+
+/-! ## A146720.P17470216978322388984
+
+`A294748(A146184(n+1))+Δ[A061827(n+3)]`
+-/
+
+namespace A146720.P17470216978322388984
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061827 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294748 (A146184 (n + 1)).toNat + (f1 (n + 1) - f1 n)
+
+end
+
+end A146720.P17470216978322388984
 
 /-!
 # A146721: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 1100-1111-1000 pattern in any orientation.
@@ -1320,6 +1402,21 @@ end A146723.P43237655973837169
 The programs for A146724, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146724.P12975181266435840428
+
+`A146740(lcm(n+1, 2*col(n)-1))`
+-/
+
+namespace A146724.P12975181266435840428
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146740 (Int.lcm (n + 1 : ℤ) ((2 * SequenceMachineLib.triCol n : ℤ) - 1))
+
+end
+
+end A146724.P12975181266435840428
+
 /-! ## A146724.P6982673116221614457
 
 `A146740(A033865(n)+1)`
@@ -1350,20 +1447,41 @@ end
 
 end A146724.P8480213977342166417
 
-/-! ## A146724.P11385766572169391040
+/-! ## A146724.P12564916425284420445
 
-`A146740(n+1)*A346995(A146718(n+1))`
+`A146740(∑[A146711(n+1)²])`
 -/
 
-namespace A146724.P11385766572169391040
+namespace A146724.P12564916425284420445
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146711 (n + 1) ^ 2
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146740 (n + 1) * A346995 (A146718 (n + 1)).toNat
+  A146740 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
 
 end
 
-end A146724.P11385766572169391040
+end A146724.P12564916425284420445
+
+/-! ## A146724.P13820067589489966396
+
+`A146740(∑[A146719(n+1)²])`
+-/
+
+namespace A146724.P13820067589489966396
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146719 (n + 1) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146740 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A146724.P13820067589489966396
 
 /-!
 # A146725: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1101-0111 pattern in any orientation.
@@ -1617,20 +1735,20 @@ end
 
 end A146728.P11811510402165151296
 
-/-! ## A146728.P13766879359198249502
+/-! ## A146728.P16138249030941936265
 
-`A119288(xor(A002145(n+1), A241710(n+2)))`
+`A265405(A268199(2*n+1))-A334652(n)`
 -/
 
-namespace A146728.P13766879359198249502
+namespace A146728.P16138249030941936265
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119288 (Int.xor (A002145 (n + 1)) (A241710 (n + 2))).toNat
+  A265405 (A268199 (2 * n + 1)).toNat - A334652 n
 
 end
 
-end A146728.P13766879359198249502
+end A146728.P16138249030941936265
 
 /-!
 # A146729: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 1101-0111 pattern in any orientation.
@@ -1887,6 +2005,21 @@ end
 
 end A146732.P8226071515860759878
 
+/-! ## A146732.P9987446643803595849
+
+`A146730(A244325(n+1)+1)`
+-/
+
+namespace A146732.P9987446643803595849
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146730 (A244325 (n + 1) + 1).toNat
+
+end
+
+end A146732.P9987446643803595849
+
 /-! ## A146732.P1656019342570073073
 
 `A146730(n+2-A027923(n+1))`
@@ -1902,23 +2035,20 @@ end
 
 end A146732.P1656019342570073073
 
-/-! ## A146732.P2377975160123648604
+/-! ## A146732.P1965370242160993967
 
-`∏{e}[A032085(n+1), A146730(#)]`
+`A146730(floor(A104249(n)/A008486(n)))`
 -/
 
-namespace A146732.P2377975160123648604
+namespace A146732.P1965370242160993967
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032085 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A146730 (Nat.factorization (f1 n).natAbs p)
+  A146730 ⌊(A104249 n : ℚ) / (A008486 n : ℚ)⌋.toNat
 
 end
 
-end A146732.P2377975160123648604
+end A146732.P1965370242160993967
 
 /-!
 # A146733: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1110-0111-0100 pattern in any orientation.
@@ -2000,6 +2130,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146733.P10789162073164885166
+
+/-!
+# A146734: Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 1110-0111-0100 pattern in any orientation.
+
+The programs for A146734, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146734.P999284542739337307
+
+`A146614(n+1)-xor(A147182(n+1), A147220(n+1))`
+-/
+
+namespace A146734.P999284542739337307
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146614 (n + 1) - Int.xor (A147182 (n + 1)) (A147220 (n + 1))
+
+end
+
+end A146734.P999284542739337307
+
+/-!
+# A146735: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1110-0111-0100 pattern in any orientation.
+
+The programs for A146735, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146735.P16725998323080373230
+
+`A368729(A146607(n+1))+A146671(n+1)-A146647(n+1)`
+-/
+
+namespace A146735.P16725998323080373230
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368729 (A146607 (n + 1)).toNat + A146671 (n + 1) - A146647 (n + 1)
+
+end
+
+end A146735.P16725998323080373230
 
 /-!
 # A146736: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 1110-0111-0100 pattern in any orientation.
@@ -2233,6 +2405,27 @@ end
 end A146738.P17008130560550808731
 
 /-!
+# A146740: Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 1110-1111 pattern in any orientation.
+
+The programs for A146740, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146740.P5491563513298311634
+
+`A146738(ceil(A000124(n)/(n+3)))`
+-/
+
+namespace A146740.P5491563513298311634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146738 ⌈(A000124 n : ℚ) / (n + 3 : ℚ)⌉.toNat
+
+end
+
+end A146740.P5491563513298311634
+
+/-!
 # A146741: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1110-1111 pattern in any orientation.
 
 The programs for A146741, there is no canonical definition to state claims against.
@@ -2343,6 +2536,42 @@ end
 
 end A146743.P16416768155145122849
 
+/-! ## A146743.P18343044307680674639
+
+`or(A147220(n+3), A294748(A147220(n+3)))`
+-/
+
+namespace A146743.P18343044307680674639
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A147220 (n + 3)) (A294748 (A147220 (n + 3)).toNat)
+
+end
+
+end A146743.P18343044307680674639
+
+/-! ## A146743.P9211503556643608183
+
+`(record[Δ[A212954(n+1)]]-n)*n+1`
+-/
+
+namespace A146743.P9211503556643608183
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212954 (n + 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) - (n : ℤ)) * (n : ℤ) + 1
+
+end
+
+end A146743.P9211503556643608183
+
 /-! ## A146743.P11726572075694550442
 
 `∑[and(C(n, 2), A006362(2*n+1))]+1`
@@ -2375,36 +2604,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146743.P15002796705069425910
-
-/-! ## A146743.P1306940155423997291
-
-`or(1, A181578(A000332(n)))`
--/
-
-namespace A146743.P1306940155423997291
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A181578 (A000332 n).toNat)
-
-end
-
-end A146743.P1306940155423997291
-
-/-! ## A146743.P16750026507798595393
-
-`A290097(C(A117144(2*n+1), 7))`
--/
-
-namespace A146743.P16750026507798595393
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290097 (Nat.choose (A117144 (2 * n + 1)).toNat 7)
-
-end
-
-end A146743.P16750026507798595393
 
 /-!
 # A146744: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 1110-1111 pattern in any orientation.
@@ -2441,6 +2640,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146744.P907293158609869762
+
+/-! ## A146744.P3705414691492120561
+
+`A312304(A172519(n+1))%A250120(A312326(n))`
+-/
+
+namespace A146744.P3705414691492120561
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A312304 (A172519 (n + 1)).toNat) (A250120 (A312326 n).toNat)
+
+end
+
+end A146744.P3705414691492120561
+
+/-!
+# A146745: Coefficients of Pascal's triangle polynomial minus MacMahon polynomial A060187 with minus the first and last row terms and powers of x divided out: f(n)=3^n - 2*n - 1; q(x,n)=2^n*(1 - x)^(n + 1)* LerchPhi[x, -n, 1/2]; p(x,n)=((q[x, n] - (x + 1)^n)/x - f[n] - f[n]*x^(n - 2))/x.
+
+The programs for A146745, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146745.P2624973143541889810
+
+`A146568(lt[A225117(n), A177429(n)]+1)`
+-/
+
+namespace A146745.P2624973143541889810
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225117 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177429 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146568 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1)
+
+end
+
+end A146745.P2624973143541889810
 
 /-!
 # A146748: Numbers of the form j^k * k^j, where j,k > 1.
@@ -2808,25 +3049,25 @@ end A146761
 /-!
 # A146762: Terms of A061039 that are multiple of 10, in the order in which they appear.
 
-The programs for A146762, the canonical program `A146762.P6350047856969355060` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146762 has offset 1).
+The programs for A146762, the canonical program `A146762.P10012972820318630194` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146762 has offset 1).
 
 The definition of A146762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A146762.P6350047856969355060
+/-! ## A146762.P10012972820318630194
 
-`A144448(A047219(n+1))`
+`A144448(A047219(1+n))`
 
 The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A146762
 
-/-- `A144448(A047219(n+1))` -/
-def P6350047856969355060.Spec : Prop :=
-  ∀ n, P6350047856969355060.a n = A146762 (n + 1)
+/-- `A144448(A047219(1+n))` -/
+def P10012972820318630194.Spec : Prop :=
+  ∀ n, P10012972820318630194.a n = A146762 (n + 1)
 
-theorem P6350047856969355060.correct : P6350047856969355060.Spec := by
+theorem P10012972820318630194.correct : P10012972820318630194.Spec := by
   intro n
   simp only [A146762, Nat.add_sub_cancel]
 
@@ -3135,6 +3376,110 @@ def P10791637886464630481.Spec : Prop :=
 
 end A146763
 
+/-! ## A146763.P13129340164183589889
+
+`fp[(or(1, n)+1)/5]`
+-/
+
+namespace A146763.P13129340164183589889
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.lor 1 n + 1 : ℚ) / 5
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P13129340164183589889
+
+namespace A146763
+
+/-- `fp[(or(1, n)+1)/5]` -/
+def P13129340164183589889.Spec : Prop :=
+  ∀ n, (P13129340164183589889.a n : ℤ) = A146763 n
+
+end A146763
+
+/-! ## A146763.P10969846012446421028
+
+`fp[(xor(1, n)+1)/5]`
+-/
+
+namespace A146763.P10969846012446421028
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.xor 1 n + 1 : ℚ) / 5
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P10969846012446421028
+
+namespace A146763
+
+/-- `fp[(xor(1, n)+1)/5]` -/
+def P10969846012446421028.Spec : Prop :=
+  ∀ n, (P10969846012446421028.a n : ℤ) = A146763 n
+
+end A146763
+
+/-! ## A146763.P17686179715387136499
+
+`fp[or(3, 2*n)/10]`
+-/
+
+namespace A146763.P17686179715387136499
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.lor 3 (2 * n) : ℚ) / 10
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P17686179715387136499
+
+namespace A146763
+
+/-- `fp[or(3, 2*n)/10]` -/
+def P17686179715387136499.Spec : Prop :=
+  ∀ n, (P17686179715387136499.a n : ℤ) = A146763 n
+
+end A146763
+
+/-! ## A146763.P5720022565848635860
+
+`fp[xor(3, 2*n)/10]`
+-/
+
+namespace A146763.P5720022565848635860
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.xor 3 (2 * n) : ℚ) / 10
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P5720022565848635860
+
+namespace A146763
+
+/-- `fp[xor(3, 2*n)/10]` -/
+def P5720022565848635860.Spec : Prop :=
+  ∀ n, (P5720022565848635860.a n : ℤ) = A146763 n
+
+end A146763
+
 /-! ## A146763.P1286649189146078292
 
 `comp[or(2, n)]+3*n`
@@ -3159,6 +3504,32 @@ namespace A146763
 /-- `comp[or(2, n)]+3*n` -/
 def P1286649189146078292.Spec : Prop :=
   ∀ n, (P1286649189146078292.a n : ℤ) = A146763 n
+
+end A146763
+
+/-! ## A146763.P6919066781474221345
+
+`fp[(gcd(2, n)+n)/5]`
+-/
+
+namespace A146763.P6919066781474221345
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.gcd 2 n + n : ℚ) / 5
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P6919066781474221345
+
+namespace A146763
+
+/-- `fp[(gcd(2, n)+n)/5]` -/
+def P6919066781474221345.Spec : Prop :=
+  ∀ n, (P6919066781474221345.a n : ℤ) = A146763 n
 
 end A146763
 
@@ -3188,6 +3559,32 @@ namespace A146763
 /-- `∑[2*∑{d}[n, C(2, #)]]` -/
 def P11892636777919612847.Spec : Prop :=
   ∀ n, (P11892636777919612847.a n : ℤ) = A146763 n
+
+end A146763
+
+/-! ## A146763.P13141416925499481732
+
+`fp[-(xor(n, -2)/5)]`
+-/
+
+namespace A146763.P13141416925499481732
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  -((Int.xor (n : ℤ) (-2) : ℚ) / 5)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
+
+end
+
+end A146763.P13141416925499481732
+
+namespace A146763
+
+/-- `fp[-(xor(n, -2)/5)]` -/
+def P13141416925499481732.Spec : Prop :=
+  ∀ n, (P13141416925499481732.a n : ℤ) = A146763 n
 
 end A146763
 
@@ -3243,29 +3640,6 @@ def P10366328589630457674.Spec : Prop :=
 
 end A146763
 
-/-! ## A146763.P12168381946427931173
-
-`gcd(2, n)-2+5*n`
--/
-
-namespace A146763.P12168381946427931173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.gcd 2 n : ℤ) - 2 + (5 * n : ℤ)
-
-end
-
-end A146763.P12168381946427931173
-
-namespace A146763
-
-/-- `gcd(2, n)-2+5*n` -/
-def P12168381946427931173.Spec : Prop :=
-  ∀ n, P12168381946427931173.a n = A146763 n
-
-end A146763
-
 /-! ## A146763.P732611045204432425
 
 `xor(5*n, (n+2)%2)`
@@ -3312,133 +3686,6 @@ namespace A146763
 /-- `filter[2*n, C(4, #%5)]` -/
 def P3981729761777915247.Spec : Prop :=
   ∀ n, (P3981729761777915247.a n : ℤ) = A146763 n
-
-end A146763
-
-/-! ## A146763.P5626614621689411650
-
-`∑[∑[ogf((4x+6x^2)/(1+x))]]`
--/
-
-namespace A146763.P5626614621689411650
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 4, 6] [1, 1] n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A146763.P5626614621689411650
-
-namespace A146763
-
-/-- `∑[∑[ogf((4x+6x^2)/(1+x))]]` -/
-def P5626614621689411650.Spec : Prop :=
-  ∀ n, P5626614621689411650.a n = A146763 n
-
-end A146763
-
-/-! ## A146763.P11852770228393573047
-
-`10-floor(-a(n-2))` with `a(0)=0, a(1)=4`
-
-`floor` is left out, it is the identity on integers.
--/
-
-namespace A146763.P11852770228393573047
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 4] fun n a =>
-  10 - (-a (n - 2))
-
-end
-
-end A146763.P11852770228393573047
-
-namespace A146763
-
-/-- `10-floor(-a(n-2))` -/
-def P11852770228393573047.Spec : Prop :=
-  ∀ n, P11852770228393573047.a n = A146763 n
-
-end A146763
-
-/-! ## A146763.P16165417591886280518
-
-`10-ceil(-a(n-2))` with `a(0)=0, a(1)=4`
-
-`ceil` is left out, it is the identity on integers.
--/
-
-namespace A146763.P16165417591886280518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 4] fun n a =>
-  10 - (-a (n - 2))
-
-end
-
-end A146763.P16165417591886280518
-
-namespace A146763
-
-/-- `10-ceil(-a(n-2))` -/
-def P16165417591886280518.Spec : Prop :=
-  ∀ n, P16165417591886280518.a n = A146763 n
-
-end A146763
-
-/-! ## A146763.P8631792524680273379
-
-`10-round(-a(n-2))` with `a(0)=0, a(1)=4`
-
-`round` is left out, it is the identity on integers.
--/
-
-namespace A146763.P8631792524680273379
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 4] fun n a =>
-  10 - (-a (n - 2))
-
-end
-
-end A146763.P8631792524680273379
-
-namespace A146763
-
-/-- `10-round(-a(n-2))` -/
-def P8631792524680273379.Spec : Prop :=
-  ∀ n, P8631792524680273379.a n = A146763 n
-
-end A146763
-
-/-! ## A146763.P2265223648615148047
-
-`5*n-val(n²+1, 2)`
--/
-
-namespace A146763.P2265223648615148047
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (5 * n : ℤ) - (SequenceMachineLib.valuation (n ^ 2 + 1) 2 : ℤ)
-
-end
-
-end A146763.P2265223648615148047
-
-namespace A146763
-
-/-- `5*n-val(n²+1, 2)` -/
-def P2265223648615148047.Spec : Prop :=
-  ∀ n, P2265223648615148047.a n = A146763 n
 
 end A146763
 
@@ -3983,50 +4230,50 @@ end
 
 end A146768.P16460204750503026895
 
-/-! ## A146768.P2603126032288148259
+/-! ## A146768.P11649052125548702616
 
-`A138576(n+1)-1`
+`A138576(1+n)-1`
 -/
 
-namespace A146768.P2603126032288148259
+namespace A146768.P11649052125548702616
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138576 (n + 1) - 1
+  A138576 (1 + n) - 1
 
 end
 
-end A146768.P2603126032288148259
+end A146768.P11649052125548702616
 
-/-! ## A146768.P16785504855570363332
+/-! ## A146768.P11233949638708389762
 
-`A139481(n+2)+1`
+`A139481(2+n)+1`
 -/
 
-namespace A146768.P16785504855570363332
+namespace A146768.P11233949638708389762
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139481 (n + 2) + 1
+  A139481 (2 + n) + 1
 
 end
 
-end A146768.P16785504855570363332
+end A146768.P11233949638708389762
 
-/-! ## A146768.P8110720233837614664
+/-! ## A146768.P10562704196733987314
 
-`A090748(n+2)/2`
+`A090748(2+n)/2`
 -/
 
-namespace A146768.P8110720233837614664
+namespace A146768.P10562704196733987314
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A090748 (n + 2) : ℚ) / 2
+  (A090748 (2 + n) : ℚ) / 2
 
 end
 
-end A146768.P8110720233837614664
+end A146768.P10562704196733987314
 
 /-! ## A146768.P2567955405384671046
 
@@ -5045,35 +5292,35 @@ end
 
 end A146776.P4376641569686646642
 
-/-! ## A146776.P13767733523518403064
+/-! ## A146776.P15904618246284694257
 
-`A147202(A068189(n+1))`
+`A147202(A007532(n+1))`
 -/
 
-namespace A146776.P13767733523518403064
+namespace A146776.P15904618246284694257
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147202 (A068189 (n + 1)).toNat
+  A147202 (A007532 (n + 1)).toNat
 
 end
 
-end A146776.P13767733523518403064
+end A146776.P15904618246284694257
 
-/-! ## A146776.P2181509861719190589
+/-! ## A146776.P3696309321043799335
 
-`A147202(n+1)+A104853(A147250(n+1))`
+`A147202(A032555(n+1))`
 -/
 
-namespace A146776.P2181509861719190589
+namespace A146776.P3696309321043799335
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147202 (n + 1) + A104853 (A147250 (n + 1)).toNat
+  A147202 (A032555 (n + 1)).toNat
 
 end
 
-end A146776.P2181509861719190589
+end A146776.P3696309321043799335
 
 /-!
 # A146777: Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 0010-1010-1111 pattern in any orientation.
@@ -5243,6 +5490,21 @@ end A146778.P8584479248831380009
 The programs for A146779, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146779.P15221504425914261432
+
+`A294748(A147417(n+1))+A045829(A270061(n))`
+-/
+
+namespace A146779.P15221504425914261432
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294748 (A147417 (n + 1)).toNat + A045829 (A270061 n).toNat
+
+end
+
+end A146779.P15221504425914261432
+
 /-! ## A146779.P2384316734215355010
 
 `A351870(A146835(n+1))`
@@ -5288,35 +5550,20 @@ end
 
 end A146779.P1461530814118594486
 
-/-! ## A146779.P10091694354800825271
+/-! ## A146779.P24910654891584522
 
-`A146835(A147152(n+1)²+n)`
+`A146859(A146852(n+1)²+n)`
 -/
 
-namespace A146779.P10091694354800825271
+namespace A146779.P24910654891584522
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146835 (A147152 (n + 1) ^ 2 + (n : ℤ)).toNat
+  A146859 (A146852 (n + 1) ^ 2 + (n : ℤ)).toNat
 
 end
 
-end A146779.P10091694354800825271
-
-/-! ## A146779.P8403113756745697091
-
-`A146859(n+1)%(A147258(n+2)+1)`
--/
-
-namespace A146779.P8403113756745697091
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A146859 (n + 1)) (A147258 (n + 2) + 1)
-
-end
-
-end A146779.P8403113756745697091
+end A146779.P24910654891584522
 
 /-!
 # A146780: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 0010-1010-1111 pattern in any orientation.
@@ -5338,6 +5585,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146780.P3235903524561795649
+
+/-! ## A146780.P9605041466481917447
+
+`A368729(A146607(n+1))+and(2, A146370(n+1))`
+-/
+
+namespace A146780.P9605041466481917447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368729 (A146607 (n + 1)).toNat + Int.land 2 (A146370 (n + 1))
+
+end
+
+end A146780.P9605041466481917447
 
 /-! ## A146780.P3917954843050538948
 
@@ -5383,21 +5645,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146780.P9809003812765279495
-
-/-! ## A146780.P3556007323382864707
-
-`A000188(A146860(n+1)²)`
--/
-
-namespace A146780.P3556007323382864707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (A146860 (n + 1) ^ 2).toNat
-
-end
-
-end A146780.P3556007323382864707
 
 /-!
 # A146781: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 0010-1010-1111 pattern in any orientation.
@@ -5521,6 +5768,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146782.P5331910813812682493
+
+/-! ## A146782.P16052896568790448711
+
+`A304952(A000207(n+1))%A123106(n)`
+-/
+
+namespace A146782.P16052896568790448711
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A304952 (A000207 (n + 1)).toNat) (A123106 (n + 62))
+
+end
+
+end A146782.P16052896568790448711
 
 /-! ## A146782.P14040317752233814347
 
@@ -6212,20 +6474,80 @@ end A146792.P10929647813509846507
 The programs for A146793, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146793.P2339384325991767800
+/-! ## A146793.P1340965702813253762
 
-`A146868(A146868(n+1))*A146873(n+1)`
+`A146791(gcd(A004526(n), A081123(n)))`
 -/
 
-namespace A146793.P2339384325991767800
+namespace A146793.P1340965702813253762
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146868 (A146868 (n + 1)).toNat * A146873 (n + 1)
+  A146791 (Int.gcd (A004526 n) (A081123 n))
 
 end
 
-end A146793.P2339384325991767800
+end A146793.P1340965702813253762
+
+/-! ## A146793.P1537640263504990058
+
+`A146873(or(n, A146876(n+1)))`
+-/
+
+namespace A146793.P1537640263504990058
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146873 (Int.lor (n : ℤ) (A146876 (n + 1))).toNat
+
+end
+
+end A146793.P1537640263504990058
+
+/-! ## A146793.P16401613124318036801
+
+`A146873(n+1)+A007814(A146877(n+1))`
+-/
+
+namespace A146793.P16401613124318036801
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146873 (n + 1) + A007814 (A146877 (n + 1)).toNat
+
+end
+
+end A146793.P16401613124318036801
+
+/-! ## A146793.P319418912925604397
+
+`A146844(A146868(n+1))*A146873(n+1)`
+-/
+
+namespace A146793.P319418912925604397
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146844 (A146868 (n + 1)).toNat * A146873 (n + 1)
+
+end
+
+end A146793.P319418912925604397
+
+/-! ## A146793.P2458768615968544751
+
+`A146862(A146860(n+1))*A146873(n+1)`
+-/
+
+namespace A146793.P2458768615968544751
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146862 (A146860 (n + 1)).toNat * A146873 (n + 1)
+
+end
+
+end A146793.P2458768615968544751
 
 /-!
 # A146794: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 0110-0100-1111 pattern in any orientation.
@@ -6320,26 +6642,104 @@ end A146794.P14031415217089937747
 The programs for A146795, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146795.P9811975585082508023
+/-! ## A146795.P35411377602211877
 
-`A147220(n+1)+xor(A146835(n+1), A147220(n+1))`
+`A147220(n+1)+and(2, A270061(n+4))`
 -/
 
-namespace A146795.P9811975585082508023
+namespace A146795.P35411377602211877
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147220 (n + 1) + Int.xor (A146835 (n + 1)) (A147220 (n + 1))
+  A147220 (n + 1) + Int.land 2 (A270061 (n + 4))
 
 end
 
-end A146795.P9811975585082508023
+end A146795.P35411377602211877
+
+/-! ## A146795.P9392532596512396860
+
+`A147220(n+1)+2%A294250(3*n+4)`
+-/
+
+namespace A146795.P9392532596512396860
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147220 (n + 1) + Int.tmod 2 (A294250 (3 * n + 4))
+
+end
+
+end A146795.P9392532596512396860
+
+/-! ## A146795.P487592964856128433
+
+`or(A147220(n+1)-A294250(n), A146779(n+1))`
+-/
+
+namespace A146795.P487592964856128433
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A147220 (n + 1) - A294250 n) (A146779 (n + 1))
+
+end
+
+end A146795.P487592964856128433
+
+/-! ## A146795.P4556510211590918028
+
+`or(A270061(n)%A147220(n+1), A146835(n+1))`
+-/
+
+namespace A146795.P4556510211590918028
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (Int.tmod (A270061 n) (A147220 (n + 1))) (A146835 (n + 1))
+
+end
+
+end A146795.P4556510211590918028
+
+/-! ## A146795.P10794265734497067370
+
+`or(A147182(n+1)-A147220(n+1), A146835(n+1))`
+-/
+
+namespace A146795.P10794265734497067370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A147182 (n + 1) - A147220 (n + 1)) (A146835 (n + 1))
+
+end
+
+end A146795.P10794265734497067370
 
 /-!
 # A146796: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 0110-0100-1111 pattern in any orientation.
 
 The programs for A146796, there is no canonical definition to state claims against.
 -/
+
+/-! ## A146796.P2232147312757901709
+
+`A146794(∑[1-a(n-1)])` with `a(0)=2, a(1)=0, a(2)=-1, a(3)=0`
+-/
+
+namespace A146796.P2232147312757901709
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [2, 0, -1, 0] fun n f1 =>
+  1 - f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146794 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A146796.P2232147312757901709
 
 /-! ## A146796.P1577109800903631100
 
@@ -6371,50 +6771,35 @@ end
 
 end A146796.P3543588611805231078
 
-/-! ## A146796.P2963911561909087267
+/-! ## A146796.P2552624062343311078
 
-`A368729(A146607(n+1))`
+`A146794(A130779(n)+A123108(n))`
 -/
 
-namespace A146796.P2963911561909087267
+namespace A146796.P2552624062343311078
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368729 (A146607 (n + 1)).toNat
+  A146794 (A130779 n + A123108 n).toNat
 
 end
 
-end A146796.P2963911561909087267
+end A146796.P2552624062343311078
 
-/-! ## A146796.P7841555054780680585
+/-! ## A146796.P12617109893318407255
 
-`A089868(A146836(n+1))`
+`A146794(xor(A004526(n), A130779(n)))`
 -/
 
-namespace A146796.P7841555054780680585
+namespace A146796.P12617109893318407255
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089868 (A146836 (n + 1)).toNat
+  A146794 (Int.xor (A004526 n) (A130779 n)).toNat
 
 end
 
-end A146796.P7841555054780680585
-
-/-! ## A146796.P1059907743328691811
-
-`A175857(A146370(n+1))`
--/
-
-namespace A146796.P1059907743328691811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175857 (A146370 (n + 1)).toNat
-
-end
-
-end A146796.P1059907743328691811
+end A146796.P12617109893318407255
 
 /-!
 # A146797: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 0110-0100-1111 pattern in any orientation.

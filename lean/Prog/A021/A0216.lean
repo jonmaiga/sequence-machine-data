@@ -10,7 +10,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.Opaque.C001
 import Seq.Opaque.C007
 import Seq.Opaque.C021
@@ -39,6 +39,29 @@ def P10045866734448486812.Spec : Prop :=
 theorem P10045866734448486812.correct : P10045866734448486812.Spec := by
   intro n
   simp only [A021604]
+
+end A021604
+
+/-! ## A021604.P10915407449038379740
+
+`a(n-1)+A016252(n)+2*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021604.P10915407449038379740
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + (A016252 n + 2 * a (n - 1))
+
+end
+
+end A021604.P10915407449038379740
+
+namespace A021604
+
+/-- `a(n-1)+A016252(n)+2*a(n-1)` -/
+def P10915407449038379740.Spec : Prop :=
+  ∀ n, P10915407449038379740.a n = A021604 n
 
 end A021604
 
@@ -445,6 +468,21 @@ end
 
 end A021629.P17350709589234452339
 
+/-! ## A021629.P2349338788822184973
+
+`A016217(n)+7*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021629.P2349338788822184973
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016217 n + 7 * a (n - 1)
+
+end
+
+end A021629.P2349338788822184973
+
 /-! ## A021629.P4274865654402842254
 
 `A016212(n)+12*a(n-1)` with `a(0)=1`
@@ -459,6 +497,24 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A021629.P4274865654402842254
+
+/-! ## A021629.P6868668102049178427
+
+`∑[A016147(n)]+7*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021629.P6868668102049178427
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016147 n
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + 7 * a (n - 1)
+
+end
+
+end A021629.P6868668102049178427
 
 /-! ## A021629.P9477119456490866046
 
@@ -1300,6 +1356,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021694.P15553270653693579504
+
+/-! ## A021694.P6715921272615955145
+
+`∑[A016190(n)+3*a(n-1)]` with `a(0)=1`
+-/
+
+namespace A021694.P6715921272615955145
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1] fun n f1 =>
+  A016190 n + 3 * f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A021694.P6715921272615955145
 
 /-! ## A021694.P11949888131678283157
 

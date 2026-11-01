@@ -7,10 +7,10 @@ import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.Opaque.C001
 
@@ -160,6 +160,29 @@ namespace A021404
 /-- `∑[A017161(n)]` -/
 def P15208072852988860696.Spec : Prop :=
   ∀ n, P15208072852988860696.a n = A021404 n
+
+end A021404
+
+/-! ## A021404.P4510981696951204670
+
+`A016217(n)+4*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021404.P4510981696951204670
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016217 n + 4 * a (n - 1)
+
+end
+
+end A021404.P4510981696951204670
+
+namespace A021404
+
+/-- `A016217(n)+4*a(n-1)` -/
+def P4510981696951204670.Spec : Prop :=
+  ∀ n, P4510981696951204670.a n = A021404 n
 
 end A021404
 
@@ -751,6 +774,29 @@ def P1211544684564913192.Spec : Prop :=
 
 end A021424
 
+/-! ## A021424.P6440080055016159886
+
+`A016209(n)+7*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021424.P6440080055016159886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016209 n + 7 * a (n - 1)
+
+end
+
+end A021424.P6440080055016159886
+
+namespace A021424
+
+/-- `A016209(n)+7*a(n-1)` -/
+def P6440080055016159886.Spec : Prop :=
+  ∀ n, P6440080055016159886.a n = A021424 n
+
+end A021424
+
 /-! ## A021424.P13105656854173272435
 
 `∑[A016138(n)+5*a(n-1)]` with `a(0)=1`
@@ -915,32 +961,6 @@ def P3417854820181156546.Spec : Prop :=
 
 end A021424
 
-/-! ## A021424.P11858762264156699789
-
-`A039756(∑[n+3]+n+3)`
--/
-
-namespace A021424.P11858762264156699789
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039756 (∑ j ∈ Finset.range (n + 1), f1 j + (n + 3))
-
-end
-
-end A021424.P11858762264156699789
-
-namespace A021424
-
-/-- `A039756(∑[n+3]+n+3)` -/
-def P11858762264156699789.Spec : Prop :=
-  ∀ n, P11858762264156699789.a n = A021424 n
-
-end A021424
-
 /-!
 # A021429: Decimal expansion of 1/425.
 
@@ -1064,6 +1084,29 @@ namespace A021434
 /-- `A016214(n)+5*a(n-1)` -/
 def P16087552233674810778.Spec : Prop :=
   ∀ n, P16087552233674810778.a n = A021434 n
+
+end A021434
+
+/-! ## A021434.P11994764932279181456
+
+`A016209(n)+8*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021434.P11994764932279181456
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016209 n + 8 * a (n - 1)
+
+end
+
+end A021434.P11994764932279181456
+
+namespace A021434
+
+/-- `A016209(n)+8*a(n-1)` -/
+def P11994764932279181456.Spec : Prop :=
+  ∀ n, P11994764932279181456.a n = A021434 n
 
 end A021434
 
@@ -1455,6 +1498,29 @@ def P1889180395666986606.Spec : Prop :=
 theorem P1889180395666986606.correct : P1889180395666986606.Spec := by
   intro n
   simp only [A021464]
+
+end A021464
+
+/-! ## A021464.P6635081563674672341
+
+`A016237(n)+3*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021464.P6635081563674672341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016237 n + 3 * a (n - 1)
+
+end
+
+end A021464.P6635081563674672341
+
+namespace A021464
+
+/-- `A016237(n)+3*a(n-1)` -/
+def P6635081563674672341.Spec : Prop :=
+  ∀ n, P6635081563674672341.a n = A021464 n
 
 end A021464
 
@@ -1864,6 +1930,21 @@ end
 
 end A021484.P8745683864508064683
 
+/-! ## A021484.P1559059113849298665
+
+`A016217(n)+5*a(n-1)` with `a(0)=1`
+-/
+
+namespace A021484.P1559059113849298665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A016217 n + 5 * a (n - 1)
+
+end
+
+end A021484.P1559059113849298665
+
 /-! ## A021484.P18036724905558004535
 
 `A016209(n)+12*a(n-1)` with `a(0)=1`
@@ -1972,21 +2053,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A021484.P13921600418577084060
-
-/-! ## A021484.P661946365998782855
-
-`A021629(n)+A021629(n)-A022456(n)`
--/
-
-namespace A021484.P661946365998782855
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A021629 n + (A021629 n - A022456 n)
-
-end
-
-end A021484.P661946365998782855
 
 /-!
 # A021485: Decimal expansion of 1/481.

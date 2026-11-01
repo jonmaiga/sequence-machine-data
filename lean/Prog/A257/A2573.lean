@@ -12,24 +12,24 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C048
@@ -57,7 +57,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,6 +82,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -193,20 +193,35 @@ end
 
 end A257301.P8144156568350201023
 
-/-! ## A257301.P13341794877714073411
+/-! ## A257301.P11658410920133096806
 
-`1-A046530(n+1)+n`
+`1-A046530(1+n)+n`
 -/
 
-namespace A257301.P13341794877714073411
+namespace A257301.P11658410920133096806
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A046530 (n + 1) + (n : ℤ)
+  1 - A046530 (1 + n) + (n : ℤ)
 
 end
 
-end A257301.P13341794877714073411
+end A257301.P11658410920133096806
+
+/-! ## A257301.P12123529948958105934
+
+`n-A023443(A046530(n+1))`
+-/
+
+namespace A257301.P12123529948958105934
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - A023443 (A046530 (n + 1)).toNat
+
+end
+
+end A257301.P12123529948958105934
 
 /-! ## A257301.P10445634993670127206
 
@@ -292,35 +307,50 @@ end
 
 end A257302.P16417599873171256498
 
-/-! ## A257302.P17095651273098616502
+/-! ## A257302.P14736517071958157709
 
-`1-A052273(n+1)+n`
+`1-A052273(1+n)+n`
 -/
 
-namespace A257302.P17095651273098616502
+namespace A257302.P14736517071958157709
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A052273 (n + 1) + (n : ℤ)
+  1 - A052273 (1 + n) + (n : ℤ)
 
 end
 
-end A257302.P17095651273098616502
+end A257302.P14736517071958157709
 
-/-! ## A257302.P133995810234962585
+/-! ## A257302.P15191593982652946884
 
-`A024000(A052273(n+1))+n`
+`A024000(A052273(1+n))+n`
 -/
 
-namespace A257302.P133995810234962585
+namespace A257302.P15191593982652946884
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024000 (A052273 (n + 1)).toNat + (n : ℤ)
+  A024000 (A052273 (1 + n)).toNat + (n : ℤ)
 
 end
 
-end A257302.P133995810234962585
+end A257302.P15191593982652946884
+
+/-! ## A257302.P3473247364917157168
+
+`n-A023443(A052273(n+1))`
+-/
+
+namespace A257302.P3473247364917157168
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - A023443 (A052273 (n + 1)).toNat
+
+end
+
+end A257302.P3473247364917157168
 
 /-! ## A257302.P711771823093455342
 
@@ -421,20 +451,20 @@ end
 
 end A257303.P15974590735657821444
 
-/-! ## A257303.P12320345269003110866
+/-! ## A257303.P13774754137844093751
 
-`1-A052274(n+1)+n`
+`1-A052274(1+n)+n`
 -/
 
-namespace A257303.P12320345269003110866
+namespace A257303.P13774754137844093751
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A052274 (n + 1) + (n : ℤ)
+  1 - A052274 (1 + n) + (n : ℤ)
 
 end
 
-end A257303.P12320345269003110866
+end A257303.P13774754137844093751
 
 /-! ## A257303.P8599281214074555028
 
@@ -1143,20 +1173,23 @@ end
 
 end A257320.P14124542000963065113
 
-/-! ## A257320.P1597667929724442519
+/-! ## A257320.P8866402027770370050
 
-`A008864(a(n-1))` with `a(0)=1`
+`record[A028815(T(n-1,k))]` with `a(0)=1`
 -/
 
-namespace A257320.P1597667929724442519
+namespace A257320.P8866402027770370050
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A008864 (a (n - 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1] fun n f1 =>
+  A028815 (SequenceMachineLib.triUp f1 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A257320.P1597667929724442519
+end A257320.P8866402027770370050
 
 /-!
 # A257329: Construct spiral of numbers on square grid as in Comments; sequence gives terms along the "2" arm.
@@ -1164,20 +1197,20 @@ end A257320.P1597667929724442519
 The programs for A257329, there is no canonical definition to state claims against.
 -/
 
-/-! ## A257329.P10748826585505649246
+/-! ## A257329.P8223608579488432762
 
-`A257347(4*n+2)`
+`A257347(2+4*n)`
 -/
 
-namespace A257329.P10748826585505649246
+namespace A257329.P8223608579488432762
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257347 (4 * n + 2)
+  A257347 (2 + 4 * n)
 
 end
 
-end A257329.P10748826585505649246
+end A257329.P8223608579488432762
 
 /-! ## A257329.P1925537949685622513
 
@@ -1234,20 +1267,20 @@ end A257329.P2007414862950673837
 The programs for A257330, there is no canonical definition to state claims against.
 -/
 
-/-! ## A257330.P22134660347765445
+/-! ## A257330.P4314609045522464820
 
-`A257347(4*n+3)`
+`A257347(3+n*4)`
 -/
 
-namespace A257330.P22134660347765445
+namespace A257330.P4314609045522464820
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257347 (4 * n + 3)
+  A257347 (3 + n * 4)
 
 end
 
-end A257330.P22134660347765445
+end A257330.P4314609045522464820
 
 /-! ## A257330.P8491972222521501261
 
@@ -1520,23 +1553,23 @@ end
 
 end A257339.P17637035151622232645
 
-/-! ## A257339.P4668936780620892563
+/-! ## A257339.P15622593628855647968
 
-`∑[A257111(floor(1/(n+1)+n))]`
+`∑[A257111(floor(1/(1+n)+n))]`
 -/
 
-namespace A257339.P4668936780620892563
+namespace A257339.P15622593628855647968
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257111 ⌊1 / (n + 1 : ℚ) + (n : ℚ)⌋.toNat
+  A257111 ⌊1 / (1 + n : ℚ) + (n : ℚ)⌋.toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A257339.P4668936780620892563
+end A257339.P15622593628855647968
 
 /-! ## A257339.P17901620377549951942
 
@@ -1646,6 +1679,24 @@ end
 
 end A257339.P13773264789972713190
 
+/-! ## A257339.P7121117892676775953
+
+`fo[A257455(n+1)-1]+1`
+-/
+
+namespace A257339.P7121117892676775953
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257455 (n + 1) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0 + 1
+
+end
+
+end A257339.P7121117892676775953
+
 /-! ## A257339.P11205566235401775978
 
 `abs(∑[A257111(A233583(n+1))])`
@@ -1663,6 +1714,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257339.P11205566235401775978
+
+/-!
+# A257340: Arrange numbers in a single clockwise spiral so that each number is relatively prime to its four (N,S,E,W) neighbors.
+
+The programs for A257340, there is no canonical definition to state claims against.
+-/
+
+/-! ## A257340.P7497285505716793298
+
+`fo[A257456(n+1)-1]+1`
+-/
+
+namespace A257340.P7497285505716793298
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257456 (n + 1) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0 + 1
+
+end
+
+end A257340.P7497285505716793298
 
 /-!
 # A257341: Solution to Popular Computing Problem 56 (binary).
@@ -2606,23 +2681,23 @@ end
 
 end A257354.P15339399128508581539
 
-/-! ## A257354.P16211102382660165940
+/-! ## A257354.P13838416150330951260
 
-`record[A257361(n+1)]`
+`record[A257361(1+n)]`
 -/
 
-namespace A257354.P16211102382660165940
+namespace A257354.P13838416150330951260
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257361 (n + 1)
+  A257361 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A257354.P16211102382660165940
+end A257354.P13838416150330951260
 
 /-! ## A257354.P7780650218004959044
 

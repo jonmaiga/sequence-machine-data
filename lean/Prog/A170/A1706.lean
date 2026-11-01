@@ -1,7 +1,95 @@
 import SequenceMachineLib.Basic
+import Seq.B000.C001
 import Seq.B000.C018
+import Seq.B003.C002
+import Seq.Opaque.C002
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
+import Seq.Opaque.C012
+import Seq.Opaque.C017
+import Seq.Opaque.C022
+
+/-!
+# A170628: Number of reduced words of length n in Coxeter group on 43 generators S_i with relations (S_i)^2 = (S_i S_j)^48 = I.
+
+The programs for A170628, there is no canonical definition to state claims against.
+-/
+
+/-! ## A170628.P4916103486768108188
+
+`A170724(n)+A005044(A040076(n+1))`
+-/
+
+namespace A170628.P4916103486768108188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170724 n + A005044 (A040076 (n + 1)).toNat
+
+end
+
+end A170628.P4916103486768108188
+
+/-! ## A170628.P2223575740129787967
+
+`A170724(n)+A157228(A366651(n+1))`
+-/
+
+namespace A170628.P2223575740129787967
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A170724 n + A157228 (A366651 (n + 1)).toNat
+
+end
+
+end A170628.P2223575740129787967
+
+/-! ## A170628.P3917843173184634899
+
+`A219071(A366766(n+1))+A170762(n)`
+-/
+
+namespace A170628.P3917843173184634899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219071 (A366766 (n + 1)).toNat + A170762 n
+
+end
+
+end A170628.P3917843173184634899
+
+/-! ## A170628.P1622190068878058263
+
+`A362609(A292085(n+1))+A170762(n)`
+-/
+
+namespace A170628.P1622190068878058263
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362609 (A292085 (n + 1)).toNat + A170762 n
+
+end
+
+end A170628.P1622190068878058263
+
+/-! ## A170628.P1779630937094824437
+
+`A153452(A153452(n+1))*A170724(n)`
+-/
+
+namespace A170628.P1779630937094824437
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153452 (A153452 (n + 1)).toNat * A170724 n
+
+end
+
+end A170628.P1779630937094824437
 
 /-!
 # A170636: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^49 = I.

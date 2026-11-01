@@ -2,13 +2,13 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C006
 import Seq.B000.C010
-import Seq.B000.C044
 import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C014
 
@@ -47,6 +47,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169016.P3437555173488304133
+
+/-! ## A169016.P15914515183724221415
+
+`A003945(n)-A006927(∑[A185203(n)])`
+-/
+
+namespace A169016.P15914515183724221415
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185203 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003945 n - A006927 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A169016.P15914515183724221415
 
 /-! ## A169016.P11210595861823216764
 
@@ -114,6 +132,21 @@ end
 
 end A169017.P436028943907819419
 
+/-! ## A169017.P15360217880487377688
+
+`xor(A010894(A029042(n)), A169065(n))`
+-/
+
+namespace A169017.P15360217880487377688
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A010894 ((A029042 n).toNat + 21)) (A169065 n)
+
+end
+
+end A169017.P15360217880487377688
+
 /-! ## A169017.P12026373557089842909
 
 `xor(A010894(A029042(n)), A052156(n+1))`
@@ -129,20 +162,26 @@ end
 
 end A169017.P12026373557089842909
 
-/-! ## A169017.P12080871629227897949
+/-!
+# A169064: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^25 = I.
 
-`xor(A010894(A029042(n)), A326339(n+2))`
+The programs for A169064, there is no canonical definition to state claims against.
 -/
 
-namespace A169017.P12080871629227897949
+/-! ## A169064.P16180295177458092702
+
+`A003945(n)-A025442(A185203(n))`
+-/
+
+namespace A169064.P16180295177458092702
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A010894 ((A029042 n).toNat + 21)) (A326339 (n + 2))
+  A003945 n - A025442 (A185203 n).toNat
 
 end
 
-end A169017.P12080871629227897949
+end A169064.P16180295177458092702
 
 /-!
 # A169065: Number of reduced words of length n in Coxeter group on 4 generators S_i with relations (S_i)^2 = (S_i S_j)^25 = I.

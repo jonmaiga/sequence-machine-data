@@ -9,9 +9,10 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C045
@@ -610,6 +611,29 @@ def P9852021428195847880.Spec : Prop :=
 
 end A042249
 
+/-! ## A042249.P6157139097622945196
+
+`A041041(n)/floor(sqrt(A000034(n)^5))`
+-/
+
+namespace A042249.P6157139097622945196
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041041 n : ℚ) / (Int.sqrt (A000034 n ^ 5) : ℚ)
+
+end
+
+end A042249.P6157139097622945196
+
+namespace A042249
+
+/-- `A041041(n)/floor(sqrt(A000034(n)^5))` -/
+def P6157139097622945196.Spec : Prop :=
+  ∀ n, P6157139097622945196.a n = (A042249 n : ℚ)
+
+end A042249
+
 /-! ## A042249.P13071609217769611688
 
 `A041041(n)/A105738(gcd(n+1, 2*n))`
@@ -825,6 +849,21 @@ end
 
 end A042261.P13793968974512478013
 
+/-! ## A042261.P9703395331658218983
+
+`A123492(A308867(n+1))+A000041(n)`
+-/
+
+namespace A042261.P9703395331658218983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123492 (A308867 (n + 1)).toNat + A000041 n
+
+end
+
+end A042261.P9703395331658218983
+
 /-! ## A042261.P1648382499915215051
 
 `A351870(n*A026811(n))+A266773(n)`
@@ -854,28 +893,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042261.P1623640245140187990
-
-/-! ## A042261.P8069605609239186081
-
-`A271315(∑[comp[6*n]]+n+2)`
--/
-
-namespace A042261.P8069605609239186081
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 * n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271315 (∑ j ∈ Finset.range (n + 1), f1 j + n + 2)
-
-end
-
-end A042261.P8069605609239186081
 
 /-!
 # A042263: Denominators of continued fraction convergents to sqrt(657).

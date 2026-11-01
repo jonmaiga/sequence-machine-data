@@ -10,14 +10,16 @@ import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C043
+import Seq.B000.C039
+import Seq.B000.C044
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -26,16 +28,16 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
@@ -66,6 +68,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 /-!
 # A039400: Numbers whose base-10 representation has the same nonzero number of 0's and 8's.
@@ -113,6 +116,21 @@ end
 
 end A039400.P11181959574227607215
 
+/-! ## A039400.P6473333651188599351
+
+`A007095(A039364(n+1))-A185284(A039079(n+1))`
+-/
+
+namespace A039400.P6473333651188599351
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 (A039364 (n + 1)).toNat - A185284 (A039079 (n + 1)).toNat
+
+end
+
+end A039400.P6473333651188599351
+
 /-! ## A039400.P6331005519154569218
 
 `A007095(A039364(n+1))-A225099(A215924(n+1))`
@@ -128,35 +146,20 @@ end
 
 end A039400.P6331005519154569218
 
-/-! ## A039400.P16683358569170191732
+/-! ## A039400.P4013765606028442316
 
-`A007095(A039364(n+1))%A281047(A005252(n))`
+`A007095(A039364(n+1)*A386559(n+1)%2)`
 -/
 
-namespace A039400.P16683358569170191732
+namespace A039400.P4013765606028442316
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007095 (A039364 (n + 1)).toNat) (A281047 (A005252 n).toNat)
+  A007095 (A039364 (n + 1) * Int.tmod (A386559 (n + 1)) 2).toNat
 
 end
 
-end A039400.P16683358569170191732
-
-/-! ## A039400.P13009237378475211903
-
-`A010052(A000043(n+1))+A007095(A039364(n+1))`
--/
-
-namespace A039400.P13009237378475211903
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010052 (A000043 (n + 1)).toNat + A007095 (A039364 (n + 1)).toNat
-
-end
-
-end A039400.P13009237378475211903
+end A039400.P4013765606028442316
 
 /-!
 # A039401: Numbers whose base-10 representation has the same nonzero number of 0's and 9's.
@@ -1017,6 +1020,29 @@ def P1979692647153965002.Spec : Prop :=
 
 end A039407
 
+/-! ## A039407.P14014854605360541100
+
+`A007094(A039341(n+1))^A008834(A006481(n+3))`
+-/
+
+namespace A039407.P14014854605360541100
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A007094 (A039341 (n + 1)).toNat : ℚ) ^ (A008834 (A006481 (n + 3)).toNat : ℤ)
+
+end
+
+end A039407.P14014854605360541100
+
+namespace A039407
+
+/-- `A007094(A039341(n+1))^A008834(A006481(n+3))` -/
+def P14014854605360541100.Spec : Prop :=
+  ∀ n, P14014854605360541100.a n = (A039407 (n + 1) : ℚ)
+
+end A039407
+
 /-!
 # A039408: Numbers whose base-10 representation has the same nonzero number of 1's and 8's.
 
@@ -1104,49 +1130,52 @@ def P3183700338517929215.Spec : Prop :=
 
 end A039408
 
-/-! ## A039408.P15690658135460127980
+/-! ## A039408.P11582901057927662166
 
-`A007095(A039371(n+1))%A255172(A000032(n))`
+`A007095(A039371(n+1))%A292125(A039386(3*n+1))`
 -/
 
-namespace A039408.P15690658135460127980
+namespace A039408.P11582901057927662166
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007095 (A039371 (n + 1)).toNat) (A255172 (A000032 n).toNat)
+  Int.tmod (A007095 (A039371 (n + 1)).toNat) (A292125 (A039386 (3 * n + 1)).toNat)
 
 end
 
-end A039408.P15690658135460127980
+end A039408.P11582901057927662166
 
 namespace A039408
 
-/-- `A007095(A039371(n+1))%A255172(A000032(n))` -/
-def P15690658135460127980.Spec : Prop :=
-  ∀ n, P15690658135460127980.a n = A039408 (n + 1)
+/-- `A007095(A039371(n+1))%A292125(A039386(3*n+1))` -/
+def P11582901057927662166.Spec : Prop :=
+  ∀ n, P11582901057927662166.a n = A039408 (n + 1)
 
 end A039408
 
-/-! ## A039408.P6318322866329865349
+/-! ## A039408.P8037811824592534648
 
-`A007095(A039371(n+1)^A054576(2*n+1))`
+`A007095(A039371(n+1)%record[A354442(3*n+2)])`
 -/
 
-namespace A039408.P6318322866329865349
+namespace A039408.P8037811824592534648
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354442 (3 * n + 2)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (SequenceMachineLib.roundAway ((A039371 (n + 1) : ℚ) ^ (A054576 (2 * n + 1) : ℤ))).toNat
+  A007095 (Int.tmod (A039371 (n + 1)) (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
 
 end
 
-end A039408.P6318322866329865349
+end A039408.P8037811824592534648
 
 namespace A039408
 
-/-- `A007095(A039371(n+1)^A054576(2*n+1))` -/
-def P6318322866329865349.Spec : Prop :=
-  ∀ n, P6318322866329865349.a n = A039408 (n + 1)
+/-- `A007095(A039371(n+1)%record[A354442(3*n+2)])` -/
+def P8037811824592534648.Spec : Prop :=
+  ∀ n, P8037811824592534648.a n = A039408 (n + 1)
 
 end A039408
 
@@ -1400,6 +1429,29 @@ namespace A039410
 /-- `A007094(A039342(n+1)^A189006(n))` -/
 def P2277848867159901647.Spec : Prop :=
   ∀ n, P2277848867159901647.a n = A039410 (n + 1)
+
+end A039410
+
+/-! ## A039410.P5680303642688057810
+
+`A335460(A049872(n+3))+A007095(A039372(n+1))`
+-/
+
+namespace A039410.P5680303642688057810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335460 (A049872 (n + 3)).toNat + A007095 (A039372 (n + 1)).toNat
+
+end
+
+end A039410.P5680303642688057810
+
+namespace A039410
+
+/-- `A335460(A049872(n+3))+A007095(A039372(n+1))` -/
+def P5680303642688057810.Spec : Prop :=
+  ∀ n, P5680303642688057810.a n = A039410 (n + 1)
 
 end A039410
 
@@ -1712,72 +1764,72 @@ theorem P6162690583686503902.correct : P6162690583686503902.Spec := by
 
 end A039413
 
-/-! ## A039413.P12577506685960515345
+/-! ## A039413.P6489490970627351168
 
-`A007094(A039345(n+1))^A014963(A043439(n+1))`
+`A007095(A039375(n+1))%A292125(A039393(2*(n+1)))`
 -/
 
-namespace A039413.P12577506685960515345
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A007094 (A039345 (n + 1)).toNat : ℚ) ^ (A014963 (A043439 (n + 1)).toNat : ℤ)
-
-end
-
-end A039413.P12577506685960515345
-
-namespace A039413
-
-/-- `A007094(A039345(n+1))^A014963(A043439(n+1))` -/
-def P12577506685960515345.Spec : Prop :=
-  ∀ n, P12577506685960515345.a n = (A039413 (n + 1) : ℚ)
-
-end A039413
-
-/-! ## A039413.P16068253483860533258
-
-`A007094(A039345(n+1)%A343339(3*(n+1)))`
--/
-
-namespace A039413.P16068253483860533258
+namespace A039413.P6489490970627351168
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (Int.tmod (A039345 (n + 1)) (A343339 (3 * (n + 1)))).toNat
+  Int.tmod (A007095 (A039375 (n + 1)).toNat) (A292125 (A039393 (2 * (n + 1))).toNat)
 
 end
 
-end A039413.P16068253483860533258
+end A039413.P6489490970627351168
 
 namespace A039413
 
-/-- `A007094(A039345(n+1)%A343339(3*(n+1)))` -/
-def P16068253483860533258.Spec : Prop :=
-  ∀ n, P16068253483860533258.a n = A039413 (n + 1)
+/-- `A007095(A039375(n+1))%A292125(A039393(2*(n+1)))` -/
+def P6489490970627351168.Spec : Prop :=
+  ∀ n, P6489490970627351168.a n = A039413 (n + 1)
 
 end A039413
 
-/-! ## A039413.P9840293884018364450
+/-! ## A039413.P9337429993160597779
 
-`A007095(A039375(n+1))%A047981(3*n+4)`
+`A007095(A039375(n+1))%A331141(3*n+5)`
 -/
 
-namespace A039413.P9840293884018364450
+namespace A039413.P9337429993160597779
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007095 (A039375 (n + 1)).toNat) (A047981 (3 * n + 4))
+  Int.tmod (A007095 (A039375 (n + 1)).toNat) (A331141 (3 * n + 5))
 
 end
 
-end A039413.P9840293884018364450
+end A039413.P9337429993160597779
 
 namespace A039413
 
-/-- `A007095(A039375(n+1))%A047981(3*n+4)` -/
-def P9840293884018364450.Spec : Prop :=
-  ∀ n, P9840293884018364450.a n = A039413 (n + 1)
+/-- `A007095(A039375(n+1))%A331141(3*n+5)` -/
+def P9337429993160597779.Spec : Prop :=
+  ∀ n, P9337429993160597779.a n = A039413 (n + 1)
+
+end A039413
+
+/-! ## A039413.P4736366964808235887
+
+`A026800(A172543(n+1))+A007095(A039375(n+1))`
+-/
+
+namespace A039413.P4736366964808235887
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026800 (A172543 (n + 1)).toNat + A007095 (A039375 (n + 1)).toNat
+
+end
+
+end A039413.P4736366964808235887
+
+namespace A039413
+
+/-- `A026800(A172543(n+1))+A007095(A039375(n+1))` -/
+def P4736366964808235887.Spec : Prop :=
+  ∀ n, P4736366964808235887.a n = A039413 (n + 1)
 
 end A039413
 
@@ -1884,26 +1936,26 @@ def P17844015613583688653.Spec : Prop :=
 
 end A039414
 
-/-! ## A039414.P15849491386614267758
+/-! ## A039414.P15856202712367114828
 
-`A007094(A039346(n+1))%A000045(A008558(n+1))`
+`A007095(A039376(n+1))+A000007(A001405(n))`
 -/
 
-namespace A039414.P15849491386614267758
+namespace A039414.P15856202712367114828
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007094 (A039346 (n + 1)).toNat) (A000045 (A008558 (n + 1)).toNat)
+  A007095 (A039376 (n + 1)).toNat + A000007 (A001405 n).toNat
 
 end
 
-end A039414.P15849491386614267758
+end A039414.P15856202712367114828
 
 namespace A039414
 
-/-- `A007094(A039346(n+1))%A000045(A008558(n+1))` -/
-def P15849491386614267758.Spec : Prop :=
-  ∀ n, P15849491386614267758.a n = A039414 (n + 1)
+/-- `A007095(A039376(n+1))+A000007(A001405(n))` -/
+def P15856202712367114828.Spec : Prop :=
+  ∀ n, P15856202712367114828.a n = A039414 (n + 1)
 
 end A039414
 
@@ -2500,6 +2552,29 @@ theorem P7462469073655692770.correct : P7462469073655692770.Spec := by
 
 end A039419
 
+/-! ## A039419.P897532965285453612
+
+`A007095(A039380(n+1))^A290556(A185284(2*n))`
+-/
+
+namespace A039419.P897532965285453612
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A007095 (A039380 (n + 1)).toNat : ℚ) ^ (A290556 (A185284 (2 * n)).toNat : ℤ)
+
+end
+
+end A039419.P897532965285453612
+
+namespace A039419
+
+/-- `A007095(A039380(n+1))^A290556(A185284(2*n))` -/
+def P897532965285453612.Spec : Prop :=
+  ∀ n, P897532965285453612.a n = (A039419 (n + 1) : ℚ)
+
+end A039419
+
 /-! ## A039419.P4383280915484007446
 
 `A007094(A039349(n+1)^A194285(n+1))`
@@ -2543,29 +2618,6 @@ namespace A039419
 /-- `A007095(A039380(n+1)^A194285(n+1))` -/
 def P1385967639278062231.Spec : Prop :=
   ∀ n, P1385967639278062231.a n = A039419 (n + 1)
-
-end A039419
-
-/-! ## A039419.P10284766671481538554
-
-`A007094(C(A039349(n+1), A194285(n+1)))`
--/
-
-namespace A039419.P10284766671481538554
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (Nat.choose (A039349 (n + 1)).toNat (A194285 (n + 1)).toNat)
-
-end
-
-end A039419.P10284766671481538554
-
-namespace A039419
-
-/-- `A007094(C(A039349(n+1), A194285(n+1)))` -/
-def P10284766671481538554.Spec : Prop :=
-  ∀ n, P10284766671481538554.a n = A039419 (n + 1)
 
 end A039419
 
@@ -2672,26 +2724,26 @@ def P8143129522514347983.Spec : Prop :=
 
 end A039420
 
-/-! ## A039420.P3749788219914140165
+/-! ## A039420.P1568444417744702877
 
-`A001221(A014210(n))*A007095(A039381(n+1))`
+`A185284(A185284(2*(n+1)))+A007094(A039350(n+1))`
 -/
 
-namespace A039420.P3749788219914140165
+namespace A039420.P1568444417744702877
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A014210 n).toNat * A007095 (A039381 (n + 1)).toNat
+  A185284 (A185284 (2 * (n + 1))).toNat + A007094 (A039350 (n + 1)).toNat
 
 end
 
-end A039420.P3749788219914140165
+end A039420.P1568444417744702877
 
 namespace A039420
 
-/-- `A001221(A014210(n))*A007095(A039381(n+1))` -/
-def P3749788219914140165.Spec : Prop :=
-  ∀ n, P3749788219914140165.a n = A039420 (n + 1)
+/-- `A185284(A185284(2*(n+1)))+A007094(A039350(n+1))` -/
+def P1568444417744702877.Spec : Prop :=
+  ∀ n, P1568444417744702877.a n = A039420 (n + 1)
 
 end A039420
 
@@ -3242,49 +3294,49 @@ def P14919968524628888987.Spec : Prop :=
 
 end A039425
 
-/-! ## A039425.P17371133996075914963
+/-! ## A039425.P350523692112737421
 
-`A007094(A039353(n+1))+A000038(A000016(n))`
+`A007095(A039385(n+1))%A178057(2*n+5)`
 -/
 
-namespace A039425.P17371133996075914963
+namespace A039425.P350523692112737421
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A039353 (n + 1)).toNat + A000038 (A000016 n).toNat
+  Int.tmod (A007095 (A039385 (n + 1)).toNat) (A178057 (2 * n + 5))
 
 end
 
-end A039425.P17371133996075914963
+end A039425.P350523692112737421
 
 namespace A039425
 
-/-- `A007094(A039353(n+1))+A000038(A000016(n))` -/
-def P17371133996075914963.Spec : Prop :=
-  ∀ n, P17371133996075914963.a n = A039425 (n + 1)
+/-- `A007095(A039385(n+1))%A178057(2*n+5)` -/
+def P350523692112737421.Spec : Prop :=
+  ∀ n, P350523692112737421.a n = A039425 (n + 1)
 
 end A039425
 
-/-! ## A039425.P5814596433337543135
+/-! ## A039425.P12531571489640071807
 
-`A007094(A039353(n+1))+A000038(A000029(n))`
+`A007095(A039385(n+1))%A292125(A043209(n+5))`
 -/
 
-namespace A039425.P5814596433337543135
+namespace A039425.P12531571489640071807
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A039353 (n + 1)).toNat + A000038 (A000029 n).toNat
+  Int.tmod (A007095 (A039385 (n + 1)).toNat) (A292125 (A043209 (n + 5)).toNat)
 
 end
 
-end A039425.P5814596433337543135
+end A039425.P12531571489640071807
 
 namespace A039425
 
-/-- `A007094(A039353(n+1))+A000038(A000029(n))` -/
-def P5814596433337543135.Spec : Prop :=
-  ∀ n, P5814596433337543135.a n = A039425 (n + 1)
+/-- `A007095(A039385(n+1))%A292125(A043209(n+5))` -/
+def P12531571489640071807.Spec : Prop :=
+  ∀ n, P12531571489640071807.a n = A039425 (n + 1)
 
 end A039425
 
@@ -3388,6 +3440,29 @@ namespace A039426
 /-- `A001222(A261434(n+1))*A007095(A039386(n+1))` -/
 def P15044488018140149541.Spec : Prop :=
   ∀ n, P15044488018140149541.a n = A039426 (n + 1)
+
+end A039426
+
+/-! ## A039426.P15786648292057160611
+
+`A007095(A039386(n+1)%A050285(n+5))`
+-/
+
+namespace A039426.P15786648292057160611
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 (Int.tmod (A039386 (n + 1)) (A050285 (n + 5))).toNat
+
+end
+
+end A039426.P15786648292057160611
+
+namespace A039426
+
+/-- `A007095(A039386(n+1)%A050285(n+5))` -/
+def P15786648292057160611.Spec : Prop :=
+  ∀ n, P15786648292057160611.a n = A039426 (n + 1)
 
 end A039426
 
@@ -3681,6 +3756,21 @@ end
 
 end A039429.P580284514580487838
 
+/-! ## A039429.P16450502241671033977
+
+`A007095(A039388(n+1))%A292125(A043215(n+1))`
+-/
+
+namespace A039429.P16450502241671033977
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007095 (A039388 (n + 1)).toNat) (A292125 (A043215 (n + 1)).toNat)
+
+end
+
+end A039429.P16450502241671033977
+
 /-! ## A039429.P16007579010314503980
 
 `A007094(A039355(n+1))*A267683(n^3)`
@@ -3710,21 +3800,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039429.P17270420775396820390
-
-/-! ## A039429.P9203938027108327380
-
-`A007095(A039388(n+1)%A346029(n+1))`
--/
-
-namespace A039429.P9203938027108327380
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (Int.tmod (A039388 (n + 1)) (A346029 (n + 1))).toNat
-
-end
-
-end A039429.P9203938027108327380
 
 /-!
 # A039430: Numbers whose base-10 representation has the same nonzero number of 5's and 8's.
@@ -3806,6 +3881,29 @@ def P14103058935934190881.Spec : Prop :=
 
 end A039430
 
+/-! ## A039430.P18149912240367027122
+
+`A007095(A039389(n+1))%A292125(A043209(n+1))`
+-/
+
+namespace A039430.P18149912240367027122
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007095 (A039389 (n + 1)).toNat) (A292125 (A043209 (n + 1)).toNat)
+
+end
+
+end A039430.P18149912240367027122
+
+namespace A039430
+
+/-- `A007095(A039389(n+1))%A292125(A043209(n+1))` -/
+def P18149912240367027122.Spec : Prop :=
+  ∀ n, P18149912240367027122.a n = A039430 (n + 1)
+
+end A039430
+
 /-! ## A039430.P3074208416713927615
 
 `A007095(A039389(n+1)^A185284(3*n+1)!)`
@@ -3826,29 +3924,6 @@ namespace A039430
 /-- `A007095(A039389(n+1)^A185284(3*n+1)!)` -/
 def P3074208416713927615.Spec : Prop :=
   ∀ n, P3074208416713927615.a n = A039430 (n + 1)
-
-end A039430
-
-/-! ## A039430.P14161287417871360828
-
-`A043253(A062399(n+1))`
--/
-
-namespace A039430.P14161287417871360828
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043253 (A062399 (n + 1)).toNat
-
-end
-
-end A039430.P14161287417871360828
-
-namespace A039430
-
-/-- `A043253(A062399(n+1))` -/
-def P14161287417871360828.Spec : Prop :=
-  ∀ n, P14161287417871360828.a n = A039430 (n + 1)
 
 end A039430
 
@@ -4011,26 +4086,26 @@ def P5412204643194983974.Spec : Prop :=
 
 end A039432
 
-/-! ## A039432.P13444942476258748324
+/-! ## A039432.P11191763653928302589
 
-`A007095(A039390(n+1))%A039356(A001248(n+1))`
+`A007095(A039390(n+1))+A000038(A001248(n+1))`
 -/
 
-namespace A039432.P13444942476258748324
+namespace A039432.P11191763653928302589
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007095 (A039390 (n + 1)).toNat) (A039356 (A001248 (n + 1)).toNat)
+  A007095 (A039390 (n + 1)).toNat + A000038 (A001248 (n + 1)).toNat
 
 end
 
-end A039432.P13444942476258748324
+end A039432.P11191763653928302589
 
 namespace A039432
 
-/-- `A007095(A039390(n+1))%A039356(A001248(n+1))` -/
-def P13444942476258748324.Spec : Prop :=
-  ∀ n, P13444942476258748324.a n = A039432 (n + 1)
+/-- `A007095(A039390(n+1))+A000038(A001248(n+1))` -/
+def P11191763653928302589.Spec : Prop :=
+  ∀ n, P11191763653928302589.a n = A039432 (n + 1)
 
 end A039432
 
@@ -4160,49 +4235,52 @@ def P4532914589774288842.Spec : Prop :=
 
 end A039433
 
-/-! ## A039433.P6203837059421666056
+/-! ## A039433.P5665382085606493897
 
-`A007095(A039391(n+1))%A000040(A239729(n+9)²)`
+`A007095(A039391(n+1))%A292125(A043212(n+1))`
 -/
 
-namespace A039433.P6203837059421666056
+namespace A039433.P5665382085606493897
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007095 (A039391 (n + 1)).toNat) (A000040 (A239729 (n + 9) ^ 2).toNat)
+  Int.tmod (A007095 (A039391 (n + 1)).toNat) (A292125 (A043212 (n + 1)).toNat)
 
 end
 
-end A039433.P6203837059421666056
+end A039433.P5665382085606493897
 
 namespace A039433
 
-/-- `A007095(A039391(n+1))%A000040(A239729(n+9)²)` -/
-def P6203837059421666056.Spec : Prop :=
-  ∀ n, P6203837059421666056.a n = A039433 (n + 1)
+/-- `A007095(A039391(n+1))%A292125(A043212(n+1))` -/
+def P5665382085606493897.Spec : Prop :=
+  ∀ n, P5665382085606493897.a n = A039433 (n + 1)
 
 end A039433
 
-/-! ## A039433.P10364565239104651907
+/-! ## A039433.P6323955894743566023
 
-`A043256(n+1)%A015883(A004148(n))`
+`A044036(A289236(∑[n+1]))`
 -/
 
-namespace A039433.P10364565239104651907
+namespace A039433.P6323955894743566023
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A043256 (n + 1)) (A015883 (A004148 n).toNat)
+  A044036 (A289236 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
 
 end
 
-end A039433.P10364565239104651907
+end A039433.P6323955894743566023
 
 namespace A039433
 
-/-- `A043256(n+1)%A015883(A004148(n))` -/
-def P10364565239104651907.Spec : Prop :=
-  ∀ n, P10364565239104651907.a n = A039433 (n + 1)
+/-- `A044036(A289236(∑[n+1]))` -/
+def P6323955894743566023.Spec : Prop :=
+  ∀ n, P6323955894743566023.a n = A039433 (n + 1)
 
 end A039433
 
@@ -4373,6 +4451,21 @@ end
 
 end A039435.P649424582120981460
 
+/-! ## A039435.P3345193422688815212
+
+`A007095(A039392(n+1)^A319101(n+1))`
+-/
+
+namespace A039435.P3345193422688815212
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 (SequenceMachineLib.roundAway ((A039392 (n + 1) : ℚ) ^ (A319101 (n + 1) : ℤ))).toNat
+
+end
+
+end A039435.P3345193422688815212
+
 /-! ## A039435.P15216170241665865771
 
 `A007095(A039392(n+1))%A334583(n+3)`
@@ -4388,50 +4481,35 @@ end
 
 end A039435.P15216170241665865771
 
-/-! ## A039435.P6966909282964861733
+/-! ## A039435.P13901243907188306054
 
-`A080224(A016116(n))+A007095(A039392(n+1))`
+`A007095(A319101(n+1)²*A039392(n+1))`
 -/
 
-namespace A039435.P6966909282964861733
+namespace A039435.P13901243907188306054
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080224 (A016116 n).toNat + A007095 (A039392 (n + 1)).toNat
+  A007095 (A319101 (n + 1) ^ 2 * A039392 (n + 1)).toNat
 
 end
 
-end A039435.P6966909282964861733
+end A039435.P13901243907188306054
 
-/-! ## A039435.P10272239402673557320
+/-! ## A039435.P10696863527310547298
 
-`A206499(A001584(n))+A007095(A039392(n+1))`
+`A007095(A039392(n+1))+A000038(A016116(n))`
 -/
 
-namespace A039435.P10272239402673557320
+namespace A039435.P10696863527310547298
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A206499 (A001584 n).toNat + A007095 (A039392 (n + 1)).toNat
+  A007095 (A039392 (n + 1)).toNat + A000038 (A016116 n).toNat
 
 end
 
-end A039435.P10272239402673557320
-
-/-! ## A039435.P15332499139461875138
-
-`A001222(A086816(n+1))*A007095(A039392(n+1))`
--/
-
-namespace A039435.P15332499139461875138
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A086816 (n + 1)).toNat * A007095 (A039392 (n + 1)).toNat
-
-end
-
-end A039435.P15332499139461875138
+end A039435.P10696863527310547298
 
 /-!
 # A039436: Numbers whose base-10 representation has the same nonzero number of 7's and 9's.
@@ -4783,35 +4861,35 @@ end A039440.P10148765949307427999
 The programs for A039441, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039441.P5252708611892454693
+/-! ## A039441.P4464637153991340586
 
-`A007095(A043219(n+1)^A351344(n))`
+`A039490(A187829(2*(n+1)))-A233583(A039481(n+1))`
 -/
 
-namespace A039441.P5252708611892454693
+namespace A039441.P4464637153991340586
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (SequenceMachineLib.roundAway ((A043219 (n + 1) : ℚ) ^ (A351344 n : ℤ))).toNat
+  A039490 (A187829 (2 * (n + 1))).toNat - A233583 (A039481 (n + 1)).toNat
 
 end
 
-end A039441.P5252708611892454693
+end A039441.P4464637153991340586
 
-/-! ## A039441.P5180441804236912248
+/-! ## A039441.P17103864613069829382
 
-`A007095(C(A043219(n+1), A351344(n)))`
+`A039492(A187829(2*(n+1)))-A233583(A039486(n+1))`
 -/
 
-namespace A039441.P5180441804236912248
+namespace A039441.P17103864613069829382
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (Nat.choose (A043219 (n + 1)).toNat (A351344 n).toNat)
+  A039492 (A187829 (2 * (n + 1))).toNat - A233583 (A039486 (n + 1)).toNat
 
 end
 
-end A039441.P5180441804236912248
+end A039441.P17103864613069829382
 
 /-!
 # A039442: Numbers whose base-11 representation has the same nonzero number of 0's and 5's.
@@ -4900,6 +4978,21 @@ end A039442.P13607751198830985678
 The programs for A039443, there is no canonical definition to state claims against.
 -/
 
+/-! ## A039443.P13745467880331827983
+
+`A266327(n)+A196564(n)+A266327(n²²)+A039481(n+1)`
+-/
+
+namespace A039443.P13745467880331827983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 n + A196564 n + (A266327 ((n ^ 2) ^ 2) + A039481 (n + 1))
+
+end
+
+end A039443.P13745467880331827983
+
 /-! ## A039443.P18323908851256985756
 
 `A096092(n+1)+A008619(A082945(n+1))`
@@ -4960,20 +5053,41 @@ end
 
 end A039443.P11352089299598644564
 
-/-! ## A039443.P4687570001035007253
+/-!
+# A039444: Numbers whose base-11 representation has the same nonzero number of 0's and 7's.
 
-`A139249(2*n+3)+A007814(A006012(n))`
+The programs for A039444, there is no canonical definition to state claims against.
 -/
 
-namespace A039443.P4687570001035007253
+/-! ## A039444.P891188290551402980
+
+`A039492(2*n+2)+1-(A039477(n+1)-A266327(A131045(n)²))`
+-/
+
+namespace A039444.P891188290551402980
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139249 (2 * n + 3) + A007814 (A006012 n).toNat
+  A039492 (2 * n + 2) + 1 - (A039477 (n + 1) - A266327 (A131045 n ^ 2).toNat)
 
 end
 
-end A039443.P4687570001035007253
+end A039444.P891188290551402980
+
+/-! ## A039444.P11259393135808929190
+
+`A039491(2*n+2)+2-(A039477(n+1)-A266327(A131045(n)²))`
+-/
+
+namespace A039444.P11259393135808929190
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039491 (2 * n + 2) + 2 - (A039477 (n + 1) - A266327 (A131045 n ^ 2).toNat)
+
+end
+
+end A039444.P11259393135808929190
 
 /-!
 # A039445: Numbers whose base-11 representation has the same nonzero number of 0's and 8's.
@@ -5091,6 +5205,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039447.P2921134239723353961
+
+/-! ## A039447.P5367191458068782052
+
+`A007094(A039364(n+1)^A157103(n))`
+-/
+
+namespace A039447.P5367191458068782052
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007094 (SequenceMachineLib.roundAway ((A039364 (n + 1) : ℚ) ^ (A157103 n : ℤ))).toNat
+
+end
+
+end A039447.P5367191458068782052
 
 /-!
 # A039448: Numbers whose base-11 representation has the same nonzero number of 1's and 2's.
@@ -5423,20 +5552,20 @@ end
 
 end A039456.P1591372817393237596
 
-/-! ## A039456.P3472408148870930480
+/-! ## A039456.P4142065244191595298
 
-`A039455(n+1)+A014963(A210392(n+1))`
+`A214678(A039371(n+1)^A363329(n+1))`
 -/
 
-namespace A039456.P3472408148870930480
+namespace A039456.P4142065244191595298
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039455 (n + 1) + A014963 (A210392 (n + 1)).toNat
+  A214678 (SequenceMachineLib.roundAway ((A039371 (n + 1) : ℚ) ^ (A363329 (n + 1) : ℤ))).toNat
 
 end
 
-end A039456.P3472408148870930480
+end A039456.P4142065244191595298
 
 /-!
 # A039457: Numbers whose base-11 representation has the same nonzero number of 2's and 3's.
@@ -5832,20 +5961,20 @@ end
 
 end A039468.P7490541549953302570
 
-/-! ## A039468.P13265316873852551358
+/-! ## A039468.P8502780160682164350
 
-`A039477(n+1)-A266327(A129795(n+1))-3*A266327(n)`
+`A039477(n+1)-A266327(A131045(n)²)-3*A266327(n)`
 -/
 
-namespace A039468.P13265316873852551358
+namespace A039468.P8502780160682164350
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039477 (n + 1) - A266327 (A129795 (n + 1)).toNat - 3 * A266327 n
+  A039477 (n + 1) - A266327 (A131045 n ^ 2).toNat - 3 * A266327 n
 
 end
 
-end A039468.P13265316873852551358
+end A039468.P8502780160682164350
 
 /-!
 # A039469: Numbers whose base-11 representation has the same nonzero number of 3's and 8's.
@@ -5868,26 +5997,41 @@ end
 
 end A039469.P16479510961393300433
 
-/-! ## A039469.P10834443152216581289
+/-! ## A039469.P1887916435240927483
 
-`A039477(n+1)-A266327(A131045(n)²)-2*A266327(n)`
+`A233583(A039476(n+1))-A266327(A175523(2*n+1))`
 -/
 
-namespace A039469.P10834443152216581289
+namespace A039469.P1887916435240927483
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039477 (n + 1) - A266327 (A131045 n ^ 2).toNat - 2 * A266327 n
+  A233583 (A039476 (n + 1)).toNat - A266327 (A175523 (2 * n + 1)).toNat
 
 end
 
-end A039469.P10834443152216581289
+end A039469.P1887916435240927483
 
 /-!
 # A039470: Numbers whose base-11 representation has the same nonzero number of 3's and 9's.
 
 The programs for A039470, there is no canonical definition to state claims against.
 -/
+
+/-! ## A039470.P4464037901602856097
+
+`A039471(A276142(n+1))-A266327(A039490(2*n+4))`
+-/
+
+namespace A039470.P4464037901602856097
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039471 (A276142 (n + 1)).toNat - A266327 (A039490 (2 * n + 4)).toNat
+
+end
+
+end A039470.P4464037901602856097
 
 /-! ## A039470.P3974455419030621487
 
@@ -5918,21 +6062,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039470.P13442457432749252726
-
-/-! ## A039470.P5228997566750210592
-
-`A007095(C(A039421(n+1), A169623(n)))`
--/
-
-namespace A039470.P5228997566750210592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (Nat.choose (A039421 (n + 1)).toNat (A169623 n).toNat)
-
-end
-
-end A039470.P5228997566750210592
 
 /-!
 # A039471: Numbers whose base-11 representation has the same nonzero number of 3's and 10's.
@@ -5983,41 +6112,101 @@ end A039471.P5586667748264072458
 The programs for A039472, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039472.P16408271430954111719
+/-! ## A039472.P15601250653520854740
 
-`(A039478(n+1)+A039478(n+1)-A040132(A000111(n)²))/2`
+`A266327(A074991(n))+A039476(n+1)-5*A266327(n)`
 -/
 
-namespace A039472.P16408271430954111719
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A039478 (n + 1) + (A039478 (n + 1) - A040132 (A000111 n ^ 2).toNat) : ℚ) / 2
-
-end
-
-end A039472.P16408271430954111719
-
-/-! ## A039472.P11337636299492741384
-
-`A266327(A129795(n+1))+A039466(n+1)`
--/
-
-namespace A039472.P11337636299492741384
+namespace A039472.P15601250653520854740
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 (A129795 (n + 1)).toNat + A039466 (n + 1)
+  A266327 (A074991 n).toNat + A039476 (n + 1) - 5 * A266327 n
 
 end
 
-end A039472.P11337636299492741384
+end A039472.P15601250653520854740
+
+/-! ## A039472.P3031411651282750642
+
+`A266327(A095778(n+1)²)+A039476(n+1)-5*A266327(n)`
+-/
+
+namespace A039472.P3031411651282750642
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A095778 (n + 1) ^ 2).toNat + A039476 (n + 1) - 5 * A266327 n
+
+end
+
+end A039472.P3031411651282750642
+
+/-! ## A039472.P17922713908835109948
+
+`A039483(n+1)-A040132(A000301(n))`
+-/
+
+namespace A039472.P17922713908835109948
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039483 (n + 1) - A040132 (A000301 n).toNat
+
+end
+
+end A039472.P17922713908835109948
+
+/-! ## A039472.P5620510946024819819
+
+`A039483(n+1)-A040132(A100320(n))`
+-/
+
+namespace A039472.P5620510946024819819
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039483 (n + 1) - A040132 (A100320 n).toNat
+
+end
+
+end A039472.P5620510946024819819
 
 /-!
 # A039473: Numbers whose base-11 representation has the same nonzero number of 4's and 6's.
 
 The programs for A039473, there is no canonical definition to state claims against.
 -/
+
+/-! ## A039473.P17170083078079398783
+
+`A266327(A074991(n))+A039476(n+1)-4*A266327(n)`
+-/
+
+namespace A039473.P17170083078079398783
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A074991 n).toNat + A039476 (n + 1) - 4 * A266327 n
+
+end
+
+end A039473.P17170083078079398783
+
+/-! ## A039473.P12631810059198073609
+
+`A266327(A095778(n+1)²)+A039476(n+1)-4*A266327(n)`
+-/
+
+namespace A039473.P12631810059198073609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A095778 (n + 1) ^ 2).toNat + A039476 (n + 1) - 4 * A266327 n
+
+end
+
+end A039473.P12631810059198073609
 
 /-! ## A039473.P10247398179699996505
 
@@ -6048,36 +6237,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039473.P12506327549163535891
-
-/-! ## A039473.P15432574580992432429
-
-`A039484(n+1)-A040132(A006318(n))`
--/
-
-namespace A039473.P15432574580992432429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039484 (n + 1) - A040132 (A006318 n).toNat
-
-end
-
-end A039473.P15432574580992432429
-
-/-! ## A039473.P10347629020530887445
-
-`A039484(n+1)-A040132(A046161(n))`
--/
-
-namespace A039473.P10347629020530887445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039484 (n + 1) - A040132 (A046161 n).toNat
-
-end
-
-end A039473.P10347629020530887445
 
 /-!
 # A039474: Numbers whose base-11 representation has the same nonzero number of 4's and 7's.
@@ -6115,6 +6274,21 @@ end
 
 end A039474.P7507549040693287256
 
+/-! ## A039474.P11773457231893206779
+
+`A266327(A095778(n+1)²)+A039476(n+1)-3*A266327(n)`
+-/
+
+namespace A039474.P11773457231893206779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A095778 (n + 1) ^ 2).toNat + A039476 (n + 1) - 3 * A266327 n
+
+end
+
+end A039474.P11773457231893206779
+
 /-! ## A039474.P8803312805792825004
 
 `A039485(n+1)-A040132(A000142(n))`
@@ -6129,21 +6303,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039474.P8803312805792825004
-
-/-! ## A039474.P12661692744489065459
-
-`A039485(n+1)-A040132(A006318(n))`
--/
-
-namespace A039474.P12661692744489065459
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039485 (n + 1) - A040132 (A006318 n).toNat
-
-end
-
-end A039474.P12661692744489065459
 
 /-!
 # A039475: Numbers whose base-11 representation has the same nonzero number of 4's and 8's.
@@ -6196,20 +6355,20 @@ end
 
 end A039475.P13549213486863428853
 
-/-! ## A039475.P15533838269599675983
+/-! ## A039475.P9068497291732651123
 
-`A039480(n+1)-A266327(A156640(n))`
+`A039477(n+1)-A266327(A095778(n+1)²)-A266327(n)`
 -/
 
-namespace A039475.P15533838269599675983
+namespace A039475.P9068497291732651123
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039480 (n + 1) - A266327 (A156640 n).toNat
+  A039477 (n + 1) - A266327 (A095778 (n + 1) ^ 2).toNat - A266327 n
 
 end
 
-end A039475.P15533838269599675983
+end A039475.P9068497291732651123
 
 /-!
 # A039476: Numbers whose base-11 representation has the same nonzero number of 4's and 9's.
@@ -6246,6 +6405,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039476.P7994227937449184033
+
+/-! ## A039476.P18019096108893358219
+
+`A039477(A276142(n+1))-A266327(n)`
+-/
+
+namespace A039476.P18019096108893358219
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039477 (A276142 (n + 1)).toNat - A266327 n
+
+end
+
+end A039476.P18019096108893358219
 
 /-! ## A039476.P6826407585750221126
 
@@ -6584,6 +6758,21 @@ end A039480.P3910597988477243113
 The programs for A039481, there is no canonical definition to state claims against.
 -/
 
+/-! ## A039481.P14938259202472989586
+
+`A039482(n+1)-A266327(A131045(n+1))`
+-/
+
+namespace A039481.P14938259202472989586
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039482 (n + 1) - A266327 (A131045 (n + 1)).toNat
+
+end
+
+end A039481.P14938259202472989586
+
 /-! ## A039481.P11880726473181907664
 
 `A266327(n²²)+A039480(n+1)`
@@ -6598,6 +6787,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039481.P11880726473181907664
+
+/-! ## A039481.P3948210434088940531
+
+`A039482(n+1)-A266327(A139757(n+3))`
+-/
+
+namespace A039481.P3948210434088940531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039482 (n + 1) - A266327 (A139757 (n + 3)).toNat
+
+end
+
+end A039481.P3948210434088940531
 
 /-! ## A039481.P13679133543302462501
 
@@ -6614,50 +6818,20 @@ end
 
 end A039481.P13679133543302462501
 
-/-! ## A039481.P8397323838902040046
+/-! ## A039481.P18128195820808236206
 
-`A266327(n)+A171397(A044037(n+1)^A065648(n))-12`
+`A039486(n+1)-A266327(A002522(n)²)-A266327(n)`
 -/
 
-namespace A039481.P8397323838902040046
+namespace A039481.P18128195820808236206
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 n + (A171397 (SequenceMachineLib.roundAway ((A044037 (n + 1) : ℚ) ^ (A065648 n : ℤ))).toNat - 12)
+  A039486 (n + 1) - A266327 (A002522 n ^ 2).toNat - A266327 n
 
 end
 
-end A039481.P8397323838902040046
-
-/-! ## A039481.P17436154759168458337
-
-`A266327(n²²)+A039484(n+1)-A266327(A008611(n))`
--/
-
-namespace A039481.P17436154759168458337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 ((n ^ 2) ^ 2) + A039484 (n + 1) - A266327 (A008611 n).toNat
-
-end
-
-end A039481.P17436154759168458337
-
-/-! ## A039481.P16297525806850972071
-
-`A266327(n²²)+A039484(n+1)-A266327(A328571(n))`
--/
-
-namespace A039481.P16297525806850972071
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 ((n ^ 2) ^ 2) + A039484 (n + 1) - A266327 (A328571 n).toNat
-
-end
-
-end A039481.P16297525806850972071
+end A039481.P18128195820808236206
 
 /-!
 # A039482: Numbers whose base-11 representation has the same nonzero number of 5's and 10's.
@@ -6702,6 +6876,36 @@ end
 
 end A039482.P8192553833331125396
 
+/-! ## A039482.P4214865012914845117
+
+`A039486(n+1)-A266327(A002522(n)²)`
+-/
+
+namespace A039482.P4214865012914845117
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039486 (n + 1) - A266327 (A002522 n ^ 2).toNat
+
+end
+
+end A039482.P4214865012914845117
+
+/-! ## A039482.P14020002133227795015
+
+`A039486(n+1)-A266327(A131045(n+2))`
+-/
+
+namespace A039482.P14020002133227795015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039486 (n + 1) - A266327 (A131045 (n + 2)).toNat
+
+end
+
+end A039482.P14020002133227795015
+
 /-! ## A039482.P15813051500341378922
 
 `A266327(n)+A266327(n²²)+A039480(n+1)`
@@ -6716,36 +6920,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039482.P15813051500341378922
-
-/-! ## A039482.P5685130485765880425
-
-`A266327(n)+A266327(n)+A266327(n²²)+A039484(n+1)-12`
--/
-
-namespace A039482.P5685130485765880425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 n + (A266327 n + (A266327 ((n ^ 2) ^ 2) + A039484 (n + 1) - 12))
-
-end
-
-end A039482.P5685130485765880425
-
-/-! ## A039482.P15255675295243585939
-
-`A158130(A032555(n+1))-A039442(n+1)`
--/
-
-namespace A039482.P15255675295243585939
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158130 (A032555 (n + 1)).toNat - A039442 (n + 1)
-
-end
-
-end A039482.P15255675295243585939
 
 /-!
 # A039483: Numbers whose base-11 representation has the same nonzero number of 6's and 7's.
@@ -6768,6 +6942,21 @@ end
 
 end A039483.P5133507854063985735
 
+/-! ## A039483.P2206167938166517001
+
+`A039490(n+1)-A040132(A131045(n))`
+-/
+
+namespace A039483.P2206167938166517001
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039490 (n + 1) - A040132 (A131045 n).toNat
+
+end
+
+end A039483.P2206167938166517001
+
 /-! ## A039483.P17600268058460852011
 
 `A039484(n+1)-A266327(A160715(n)²)`
@@ -6782,6 +6971,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039483.P17600268058460852011
+
+/-! ## A039483.P14473789896821213557
+
+`A039490(n+1)-A040132(A391962(n+2))`
+-/
+
+namespace A039483.P14473789896821213557
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039490 (n + 1) - A040132 (A391962 (n + 2)).toNat
+
+end
+
+end A039483.P14473789896821213557
 
 /-! ## A039483.P9781600016760385300
 
@@ -6798,41 +7002,26 @@ end
 
 end A039483.P9781600016760385300
 
-/-! ## A039483.P9337724583341801126
-
-`A039491(n+1)-A040132(A131045(n))-A266327(n)`
--/
-
-namespace A039483.P9337724583341801126
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039491 (n + 1) - A040132 (A131045 n).toNat - A266327 n
-
-end
-
-end A039483.P9337724583341801126
-
-/-! ## A039483.P8637888167827736212
-
-`A039487(n+1)-A266327(A131045(n))-A266327(n)`
--/
-
-namespace A039483.P8637888167827736212
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039487 (n + 1) - A266327 (A131045 n).toNat - A266327 n
-
-end
-
-end A039483.P8637888167827736212
-
 /-!
 # A039484: Numbers whose base-11 representation has the same nonzero number of 6's and 8's.
 
 The programs for A039484, there is no canonical definition to state claims against.
 -/
+
+/-! ## A039484.P13871653399973223503
+
+`A039491(n+1)-A040132(A041011(n))`
+-/
+
+namespace A039484.P13871653399973223503
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039491 (n + 1) - A040132 (A041011 n).toNat
+
+end
+
+end A039484.P13871653399973223503
 
 /-! ## A039484.P7532701477524560887
 
@@ -6894,21 +7083,6 @@ end
 
 end A039484.P15797191264536380516
 
-/-! ## A039484.P11868460221957194831
-
-`A039491(n+1)-A040132(A208359(n+1))`
--/
-
-namespace A039484.P11868460221957194831
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039491 (n + 1) - A040132 (A208359 (n + 1)).toNat
-
-end
-
-end A039484.P11868460221957194831
-
 /-!
 # A039485: Numbers whose base-11 representation has the same nonzero number of 6's and 9's.
 
@@ -6960,6 +7134,21 @@ end
 
 end A039485.P10911260540391908915
 
+/-! ## A039485.P9995033256710658904
+
+`A039486(n+1)-A266327(A139757(n+1))`
+-/
+
+namespace A039485.P9995033256710658904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039486 (n + 1) - A266327 (A139757 (n + 1)).toNat
+
+end
+
+end A039485.P9995033256710658904
+
 /-! ## A039485.P4031883822837801383
 
 `A266327(A160715(3*n))+A039484(n+1)`
@@ -6974,21 +7163,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039485.P4031883822837801383
-
-/-! ## A039485.P11463173696232192530
-
-`A039486(n+1)-A266327(A187829(n+4))`
--/
-
-namespace A039485.P11463173696232192530
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039486 (n + 1) - A266327 (A187829 (n + 4)).toNat
-
-end
-
-end A039485.P11463173696232192530
 
 /-!
 # A039486: Numbers whose base-11 representation has the same nonzero number of 6's and 10's.
@@ -7084,6 +7258,24 @@ end A039486.P4728144414059864930
 The programs for A039487, there is no canonical definition to state claims against.
 -/
 
+/-! ## A039487.P13603137858823001920
+
+`A039490(n+1)-A207830(Δ[A187829(n+1)])`
+-/
+
+namespace A039487.P13603137858823001920
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187829 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039490 (n + 1) - A207830 (f1 (n + 1) - f1 n).toNat
+
+end
+
+end A039487.P13603137858823001920
+
 /-! ## A039487.P3607964190888647151
 
 `A039489(n+1)-A266327(A139757(n)+1)-A266327(n)`
@@ -7114,6 +7306,21 @@ end
 
 end A039487.P3545918783181929385
 
+/-! ## A039487.P14254594527857129354
+
+`A039491(n+1)-A266327(A102488(n+4)²)-2*A266327(n)`
+-/
+
+namespace A039487.P14254594527857129354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039491 (n + 1) - A266327 (A102488 (n + 4) ^ 2).toNat - 2 * A266327 n
+
+end
+
+end A039487.P14254594527857129354
+
 /-! ## A039487.P17717492302497543684
 
 `A266327(A131045(n))+A039484(n+1)`
@@ -7128,36 +7335,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039487.P17717492302497543684
-
-/-! ## A039487.P18342385082486107037
-
-`A039490(n+1)-A040132(A041011(n))/2`
--/
-
-namespace A039487.P18342385082486107037
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A039490 (n + 1) : ℚ) - (A040132 (A041011 n).toNat : ℚ) / 2
-
-end
-
-end A039487.P18342385082486107037
-
-/-! ## A039487.P1716070661318759139
-
-`A039488(n+1)-A266327(A160715(3*n))`
--/
-
-namespace A039487.P1716070661318759139
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039488 (n + 1) - A266327 (A160715 (3 * n)).toNat
-
-end
-
-end A039487.P1716070661318759139
 
 /-!
 # A039488: Numbers whose base-11 representation has the same nonzero number of 7's and 9's.
@@ -7180,50 +7357,56 @@ end
 
 end A039488.P10142827537721220448
 
-/-! ## A039488.P2348432723355570344
+/-! ## A039488.P2465385372332708646
 
-`A039490(n+1)-A266327(A139757(n))`
+`A039489(A187829(n+1))-Δ[A102488(n+1)]`
 -/
 
-namespace A039488.P2348432723355570344
+namespace A039488.P2465385372332708646
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102488 (n + 1)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039490 (n + 1) - A266327 (A139757 n).toNat
+  A039489 (A187829 (n + 1)).toNat - (f1 (n + 1) - f1 n)
 
 end
 
-end A039488.P2348432723355570344
+end A039488.P2465385372332708646
 
-/-! ## A039488.P18093593935072711506
+/-! ## A039488.P7526460965310925038
 
-`A039489(n+1)-A266327(A139757(n)+1)`
+`A039489(n+1)-A266327(A276086(n+1)²)`
 -/
 
-namespace A039488.P18093593935072711506
+namespace A039488.P7526460965310925038
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039489 (n + 1) - A266327 (A139757 n + 1).toNat
+  A039489 (n + 1) - A266327 (A276086 (n + 1) ^ 2).toNat
 
 end
 
-end A039488.P18093593935072711506
+end A039488.P7526460965310925038
 
-/-! ## A039488.P4453648177090191861
+/-! ## A039488.P2409144351818918054
 
-`A039491(n+1)-(A266327(A139757(n))+A266327(n))`
+`A039489(n+1)-Δ[A102488(A187829(n+1))]`
 -/
 
-namespace A039488.P4453648177090191861
+namespace A039488.P2409144351818918054
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102488 (A187829 (n + 1)).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039491 (n + 1) - (A266327 (A139757 n).toNat + A266327 n)
+  A039489 (n + 1) - (f1 (n + 1) - f1 n)
 
 end
 
-end A039488.P4453648177090191861
+end A039488.P2409144351818918054
 
 /-!
 # A039489: Numbers whose base-11 representation has the same nonzero number of 7's and 10's.
@@ -7364,35 +7547,35 @@ end
 
 end A039490.P8417925408307307356
 
-/-! ## A039490.P6450771427501021388
+/-! ## A039490.P2072772472998411151
 
-`A039491(n+1)-A266327(A102488(n+1)²)`
+`A039491(n+1)-A266327(A007088(n))`
 -/
 
-namespace A039490.P6450771427501021388
+namespace A039490.P2072772472998411151
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039491 (n + 1) - A266327 (A102488 (n + 1) ^ 2).toNat
+  A039491 (n + 1) - A266327 (A007088 n).toNat
 
 end
 
-end A039490.P6450771427501021388
+end A039490.P2072772472998411151
 
-/-! ## A039490.P16141081318355732939
+/-! ## A039490.P1917633895468792620
 
-`A039491(A187829(n+1))-A266327(n)`
+`A039491(n+1)-A266327(A305396(n+4))`
 -/
 
-namespace A039490.P16141081318355732939
+namespace A039490.P1917633895468792620
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039491 (A187829 (n + 1)).toNat - A266327 n
+  A039491 (n + 1) - A266327 (A305396 (n + 4)).toNat
 
 end
 
-end A039490.P16141081318355732939
+end A039490.P1917633895468792620
 
 /-!
 # A039491: Numbers whose base-11 representation has the same nonzero number of 8's and 10's.
@@ -7422,6 +7605,21 @@ end
 
 end A039491.P14467896534548503402
 
+/-! ## A039491.P10314889908918891437
+
+`A266327(A305396(n+4))+A039490(n+1)`
+-/
+
+namespace A039491.P10314889908918891437
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A305396 (n + 4)).toNat + A039490 (n + 1)
+
+end
+
+end A039491.P10314889908918891437
+
 /-! ## A039491.P10895206728754455909
 
 `A266327(n)+A233583(A039492(n+1)-11)`
@@ -7437,6 +7635,21 @@ end
 
 end A039491.P10895206728754455909
 
+/-! ## A039491.P14678515962095480854
+
+`A266327(A102488(n+1)²)+A039490(n+1)`
+-/
+
+namespace A039491.P14678515962095480854
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266327 (A102488 (n + 1) ^ 2).toNat + A039490 (n + 1)
+
+end
+
+end A039491.P14678515962095480854
+
 /-! ## A039491.P15217965134563061116
 
 `A266327(n)+A039490(A187829(n+1))`
@@ -7451,36 +7664,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039491.P15217965134563061116
-
-/-! ## A039491.P5933226078048458616
-
-`A039492(n+1)-A266327(A187829(n+1))`
--/
-
-namespace A039491.P5933226078048458616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039492 (n + 1) - A266327 (A187829 (n + 1)).toNat
-
-end
-
-end A039491.P5933226078048458616
-
-/-! ## A039491.P15782464162776377593
-
-`A266327(n)+A039492(n+1)-A207830(A008835(n+1)²)`
--/
-
-namespace A039491.P15782464162776377593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 n + (A039492 (n + 1) - A207830 (A008835 (n + 1) ^ 2).toNat)
-
-end
-
-end A039491.P15782464162776377593
 
 /-!
 # A039492: Numbers whose base-11 representation has the same nonzero number of 9's and 10's.
@@ -7510,65 +7693,73 @@ end
 
 end A039492.P1830900385568019721
 
-/-! ## A039492.P6430065953773020795
+/-! ## A039492.P1478547054121058576
 
-`A266327(A187829(n+1))+A039491(n+1)`
+`A233583(A305396(n+1))+comp[A039209(n+1)]`
 -/
 
-namespace A039492.P6430065953773020795
+namespace A039492.P1478547054121058576
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039209 (n + 1)
+
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266327 (A187829 (n + 1)).toNat + A039491 (n + 1)
+  A233583 (A305396 (n + 1)).toNat + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
 
 end
 
-end A039492.P6430065953773020795
+end A039492.P1478547054121058576
 
-/-! ## A039492.P14110203073761822416
+/-! ## A039492.P15804716271287312875
 
-`A207830(A008835(n+1)²)+A039490(n+1)`
+`A233583(A305396(n+1)+comp[A039209(n+1)])`
 -/
 
-namespace A039492.P14110203073761822416
+namespace A039492.P15804716271287312875
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039209 (n + 1)
+
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A207830 (A008835 (n + 1) ^ 2).toNat + A039490 (n + 1)
+  A233583 (A305396 (n + 1) + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)).toNat
 
 end
 
-end A039492.P14110203073761822416
+end A039492.P15804716271287312875
 
-/-! ## A039492.P8256608024294130084
+/-! ## A039492.P15186111990484937369
 
-`A039493(A008835(n+1)!)+A039490(n+1)`
+`A266327(n+1)+A266327(A305396(n+4))+A039490(n+1)`
 -/
 
-namespace A039492.P8256608024294130084
+namespace A039492.P15186111990484937369
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039493 (Nat.factorial (A008835 (n + 1)).toNat) + A039490 (n + 1)
+  A266327 (n + 1) + (A266327 (A305396 (n + 4)).toNat + A039490 (n + 1))
 
 end
 
-end A039492.P8256608024294130084
+end A039492.P15186111990484937369
 
-/-! ## A039492.P2285889963144897064
+/-! ## A039492.P6750307080770912037
 
-`A207830(A008835(n+1)!)+A039490(n+1)`
+`A266327(3*n+1)+A266327(A102488(n+1)²)+A039490(n+1)`
 -/
 
-namespace A039492.P2285889963144897064
+namespace A039492.P6750307080770912037
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A207830 (Nat.factorial (A008835 (n + 1)).toNat) + A039490 (n + 1)
+  A266327 (3 * n + 1) + (A266327 (A102488 (n + 1) ^ 2).toNat + A039490 (n + 1))
 
 end
 
-end A039492.P2285889963144897064
+end A039492.P6750307080770912037
 
 /-!
 # A039496: Numbers whose base-12 representation has the same nonzero number of 0's and 4's.

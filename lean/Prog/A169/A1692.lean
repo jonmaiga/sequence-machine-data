@@ -166,6 +166,21 @@ end
 
 end A169256.P8291494434253364722
 
+/-! ## A169256.P17135478556621103379
+
+`A003945(n)-A082503(A210709(n))`
+-/
+
+namespace A169256.P17135478556621103379
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003945 n - A082503 (A210709 n).toNat
+
+end
+
+end A169256.P17135478556621103379
+
 /-! ## A169256.P6230074823745317084
 
 `A042950(n)-A053827(A210709(n))`
@@ -180,6 +195,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169256.P6230074823745317084
+
+/-! ## A169256.P15427128922593246211
+
+`A169304(n)-A082503(A210709(n))`
+-/
+
+namespace A169256.P15427128922593246211
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169304 n - A082503 (A210709 n).toNat
+
+end
+
+end A169256.P15427128922593246211
 
 /-! ## A169256.P4752323818988520316
 
