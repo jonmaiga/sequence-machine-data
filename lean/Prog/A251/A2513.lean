@@ -1436,7 +1436,7 @@ end A251319
 /-!
 # A251320: Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock having one or two 1s.
 
-The programs for A251320, the canonical program `A251320.P13977845492361231283` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251320 has offset 1).
+The programs for A251320, the canonical program `A251320.P13977845492361231283` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251320 has offset 1).
 
 The definition of A251320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1445,7 +1445,7 @@ The definition of A251320 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((28+32x-98x^2-4x^3+16x^4)/(1-3x-8x^2+13x^3+x^4-2x^5))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A251320

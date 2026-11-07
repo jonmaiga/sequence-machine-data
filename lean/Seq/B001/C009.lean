@@ -11551,6 +11551,40 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A216431.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A190200.P11366981498354238319
+
+`eq[1, A190198(1+n)]+1`
+-/
+
+namespace A190200.P11366981498354238319
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190198 (1 + n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A190200.P11366981498354238319
+
+noncomputable section
+
+/-- A190200: Positions of 1 in A190198; complement of A190199.
+
+Offset 1, canonical program `A190200.P11366981498354238319`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. -/
+def A190200 (n : ℕ) : ℤ :=
+  (A190200.P11366981498354238319.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. -/
+def A190200.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A190203.P3849032461770587830
 
 `lt[0, A190201(n+1)]+1`
@@ -28373,40 +28407,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A216918.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A216938.P8885445714276099875
-
-`∑[∑[A033455(n+2)]+1]+1`
--/
-
-namespace A216938.P8885445714276099875
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033455 (n + 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A216938.P8885445714276099875
-
-noncomputable section
-
-/-- A216938: Number of side-2 hexagonal 0..n arrays with values nondecreasing E, SW and SE.
-
-Offset 1, canonical program `A216938.P8885445714276099875`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A216938 (n : ℕ) : ℤ :=
-  A216938.P8885445714276099875.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A216938.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A190226.P7103144085363119189
 

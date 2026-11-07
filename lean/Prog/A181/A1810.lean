@@ -3858,7 +3858,7 @@ end A181058
 /-!
 # A181059: a(n) = floor(sin(n) - cos(n)).
 
-The programs for A181059, the canonical program `A181059.P3477977400071196664` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181059 has offset 0).
+The programs for A181059, the canonical program `A181059.P3477977400071196664` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181059 has offset 0).
 
 The definition of A181059 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3867,7 +3867,7 @@ The definition of A181059 is `verified`: the Lean definition is proven equivalen
 
 `floor(sin(n)-cos(n))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A181059

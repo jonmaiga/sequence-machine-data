@@ -11657,33 +11657,35 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^6` (program `A396225.P17083938129874257036`, by `A396225.P17083938129874257036.correct`). Lean does not check the parsing of the name. -/
 def A396225.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A387489.P13058508662317426490
+/-! ## A396226.P3569638910496407692
 
-`ogf((1-5x+25x^3-15x^4-46x^5+52x^6+6x^7-7x^8+50x^9-63x^10-28x^11+24x^12+4x^13-2x^14)/(1-6x+4x^2+26x^3-33x^4-8x^5+8x^6-24x^7+31x^8+14x^9-12x^10-2x^11+x^12))`
+`n!^7`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A387489.P13058508662317426490
+namespace A396226.P3569638910496407692
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, -5, 0, 25, -15, -46, 52, 6, -7, 50, -63, -28, 24, 4, -2] [1, -6, 4, 26, -33, -8, 8, -24, 31, 14, -12, -2, 1] n
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial n ^ 7
 
 end
 
-end A387489.P13058508662317426490
+end A396226.P3569638910496407692
 
 noncomputable section
 
-/-- A387489: Number of packing 1X1X2 bricks into 2X2Xn boxes considering packings obtained by rigid motions equivalent.
+/-- A396226: a(n) = (n!)^7.
 
-Offset 0, canonical program `A387489.P13058508662317426490`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A387489 (n : ℕ) : ℤ :=
-  A387489.P13058508662317426490.a n
+Offset 0, canonical program `A396226.P3569638910496407692`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^7` (program `A396226.P3569638910496407692`, by `A396226.P3569638910496407692.correct`). Lean does not check the parsing of the name. -/
+def A396226 (n : ℕ) : ℤ :=
+  (A396226.P3569638910496407692.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A387489.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^7` (program `A396226.P3569638910496407692`, by `A396226.P3569638910496407692.correct`). Lean does not check the parsing of the name. -/
+def A396226.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A387496.P5195266206105832259
 

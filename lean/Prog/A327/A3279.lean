@@ -1863,7 +1863,7 @@ end A327916
 /-!
 # A327917: Triangle T read by rows: T(k, n) = A(k-n, k) with the array A(k, n) = F(2*k+n) = A000045(2*k+n), for k >= 0 and n >= 0.
 
-The programs for A327917, the canonical program `A327917.P13065585347355412832` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327917 has offset 0).
+The programs for A327917, the canonical program `A327917.P13065585347355412832` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327917 has offset 0).
 
 The definition of A327917 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(2*(row(n)-col(n))+col(n))` (program `A327917.P13065585347355412832`, by `A327917.P13065585347355412832.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1895,7 +1895,7 @@ end A327917
 
 `A000045(2*(row(n)-col(n))+col(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327917

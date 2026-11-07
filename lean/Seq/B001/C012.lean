@@ -58,6 +58,36 @@ import SequenceMachineLib.Triangle
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
+/-! ## A291675.P12525258071272912831
+
+`a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` with `a(0)=4, a(1)=14`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A291675.P12525258071272912831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [4, 14] fun n a =>
+  a (n - 1) + 2 * a (n - 2) + 8 * A000045 (n + 1) + 2 * A000045 n
+
+end
+
+end A291675.P12525258071272912831
+
+noncomputable section
+
+/-- A291675: a(n) = a(n-1) + 2*a(n-2) + 8*Fibonacci(n) + 2*Fibonacci(n-1); a(1) = 4, a(2) = 14.
+
+Offset 1, canonical program `A291675.P12525258071272912831`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` (program `A291675.P12525258071272912831`, by `A291675.P12525258071272912831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A291675 (n : ℕ) : ℤ :=
+  A291675.P12525258071272912831.a (n - 1)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` (program `A291675.P12525258071272912831`, by `A291675.P12525258071272912831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A291675.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A292030.P6609219519012494129
 
 `A000045(col(n)+1)*(row(n)-col(n))+A000045(col(n))`
@@ -2582,36 +2612,6 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*A000040(n+1)*A000040(n+3)-A000040(n+2)²` (program `A327447.P12716650264261087604`, by `A327447.P12716650264261087604.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A327447.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A327917.P13065585347355412832
-
-`A000045(2*(row(n)-col(n))+col(n))`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A327917.P13065585347355412832
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (2 * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) + (SequenceMachineLib.triCol n : ℤ)).toNat
-
-end
-
-end A327917.P13065585347355412832
-
-noncomputable section
-
-/-- A327917: Triangle T read by rows: T(k, n) = A(k-n, k) with the array A(k, n) = F(2*k+n) = A000045(2*k+n), for k >= 0 and n >= 0.
-
-Offset 0, canonical program `A327917.P13065585347355412832`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(2*(row(n)-col(n))+col(n))` (program `A327917.P13065585347355412832`, by `A327917.P13065585347355412832.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
-def A327917 (n : ℕ) : ℤ :=
-  A327917.P13065585347355412832.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(2*(row(n)-col(n))+col(n))` (program `A327917.P13065585347355412832`, by `A327917.P13065585347355412832.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
-def A327917.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A291699.P7038191437602574427
 

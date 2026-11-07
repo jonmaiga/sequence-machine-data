@@ -7814,37 +7814,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((21x+123x^2+129x^3+4x^4+129x^5+123x^6+21x^7)/(1-x-2x^4+2x^5+x^8-x^9))` (program `A377166.P13405868699537035248`, by `A377166.P13405868699537035248.correct`). Lean does not check the parsing of the name. -/
 def A377166.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A368292.P5420029519767735048
-
-`n!*∑{#}[n, (3*(n-#)+1)^#/#!]`
--/
-
-namespace A368292.P5420029519767735048
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), ((3 * ((n : ℤ) - (k : ℤ)) + 1) ^ k : ℚ) / (Nat.factorial k : ℚ))
-
-end
-
-end A368292.P5420029519767735048
-
-noncomputable section
-
-/-- A368292: Expansion of e.g.f. exp(x) / (1 - x*exp(3*x)).
-
-Offset 0, canonical program `A368292.P5420029519767735048`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A368292 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A368292.P5420029519767735048.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A368292.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A368293.P11919450843161715470
 
 `n!*∑{#}[n, (3*(n-#)+2)^#/#!]`
@@ -27996,6 +27965,37 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A377553.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A377554.P9109042365597171914
+
+`n!/(n+1)*∑{#}[n, #^(n-#)*C(3*n+3, #)/(n-#)!]`
+-/
+
+namespace A377554.P9109042365597171914
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℚ) / (n + 1 : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (k : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose (3 * n + 3) k : ℚ) / (Nat.factorial ((n : ℤ) - (k : ℤ)).toNat : ℚ))
+
+end
+
+end A377554.P9109042365597171914
+
+noncomputable section
+
+/-- A377554: Expansion of e.g.f. (1/x) * Series_Reversion( x/(1 + x*exp(x))^3 ).
+
+Offset 0, canonical program `A377554.P9109042365597171914`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A377554 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A377554.P9109042365597171914.a n)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A377554.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A368363.P14743131709702867504
 

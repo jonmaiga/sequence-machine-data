@@ -7059,34 +7059,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, (-1)^(#+2)*floor((n+1)/(#+1))^(n+1)]` (program `A344724.P10363396951777675101`, by `A344724.P10363396951777675101.correct`). Lean does not check the parsing of the name. -/
 def A344724.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A330602.P15027958631550095194
-
-`a(n-2)+a(n-4)-a(n-6)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=5, a(4)=0, a(5)=6`
--/
-
-namespace A330602.P15027958631550095194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 2, 1, 5, 0, 6] fun n a =>
-  a (n - 2) + a (n - 4) - a (n - 6)
-
-end
-
-end A330602.P15027958631550095194
-
-noncomputable section
-
-/-- A330602: a(n) = a(n-1) XOR (n+1), with a(0) = 0.
-
-Offset 0, canonical program `A330602.P15027958631550095194`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A330602 (n : ℕ) : ℤ :=
-  A330602.P15027958631550095194.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A330602.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A330619.P5012836434847724312
 
 `ogf((1-6x^4+2x^5+12x^8-8x^9+4x^10-8x^12+8x^13-8x^14+8x^15)/(1-8x^4+24x^8-32x^12))`
@@ -25237,6 +25209,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A344777.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A344791.P12938168233614927403
+
+`(1-(-1)^(n+2)-8*(n+2)-4*(n+2)²+8*(n+2)^3+2*(n+2)^4)/32`
+-/
+
+namespace A344791.P12938168233614927403
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 - (-1) ^ (n + 2) - (8 * (n + 2) : ℤ) - (4 * (n + 2) ^ 2 : ℤ) + (8 * (n + 2) ^ 3 : ℤ) + (2 * (n + 2) ^ 4 : ℤ) : ℚ) / 32
+
+end
+
+end A344791.P12938168233614927403
+
+noncomputable section
+
+/-- A344791: a(n) is the number of 2-point antichains in the poset D_{2n+1} of type D, whose elements are compositions of 2n+1.
+
+Offset 2, canonical program `A344791.P12938168233614927403`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A344791 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A344791.P12938168233614927403.a (n - 2))
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A344791.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A330910.P2635866154727714981
 

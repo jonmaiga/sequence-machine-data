@@ -16580,33 +16580,33 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^col(n)*C(row(n)+1, 2*col(n)+1)` (program `A229032.P1372906342678041039`, by `A229032.P1372906342678041039.correct`). Lean does not check the parsing of the name. -/
 def A229032.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A219498.P8036053599156951691
+/-! ## A229093.P11753605260846516278
 
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=4, a(1)=7, a(2)=18, a(3)=35, a(4)=58, a(5)=88`
+`ogf((x^2+x^4-x^5+x^6-x^7+2x^8-x^9)/(1-2x+x^2-x^3+2x^4-x^5))`
 -/
 
-namespace A219498.P8036053599156951691
+namespace A229093.P11753605260846516278
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [4, 7, 18, 35, 58, 88] fun n a =>
-  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, 0, 1, -1, 1, -1, 2, -1] [1, -2, 1, -1, 2, -1] n
 
 end
 
-end A219498.P8036053599156951691
+end A229093.P11753605260846516278
 
 noncomputable section
 
-/-- A219498: Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..1 n X 4 array.
+/-- A229093: The clubs patterns appearing in n X n coins.
 
-Offset 1, canonical program `A219498.P8036053599156951691`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A219498 (n : ℕ) : ℤ :=
-  A219498.P8036053599156951691.a (n - 1)
+Offset 0, canonical program `A229093.P11753605260846516278`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A229093 (n : ℕ) : ℤ :=
+  A229093.P11753605260846516278.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A219498.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A229093.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A219499.P12666024461612089075
 

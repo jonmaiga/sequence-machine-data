@@ -2546,7 +2546,7 @@ end A216935.P5318946203039546006
 /-!
 # A216938: Number of side-2 hexagonal 0..n arrays with values nondecreasing E, SW and SE.
 
-The programs for A216938, the canonical program `A216938.P8885445714276099875` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216938 has offset 1).
+The programs for A216938, the canonical program `A216938.P8885445714276099875` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216938 has offset 1).
 
 The definition of A216938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2578,7 +2578,7 @@ end A216938
 
 `∑[∑[A033455(n+2)]+1]+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216938

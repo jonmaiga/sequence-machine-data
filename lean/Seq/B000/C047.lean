@@ -4646,34 +4646,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-2*a(n-2)-a(n-3)` (program `A368205.P12925364709045541498`, by `A368205.P12925364709045541498.correct`). Lean does not check the parsing of the name. -/
 def A368205.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A358620.P10268233054270487209
-
-`(81*(n+1)+9)*10^(n-1)`
--/
-
-namespace A358620.P10268233054270487209
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (81 * (n + 1) + 9 : ℚ) * (10 : ℚ) ^ ((n : ℤ) - 1 : ℤ)
-
-end
-
-end A358620.P10268233054270487209
-
-noncomputable section
-
-/-- A358620: Number of nonzero digits needed to write all nonnegative n-digit integers.
-
-Offset 1, canonical program `A358620.P10268233054270487209`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A358620 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A358620.P10268233054270487209.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A358620.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A358651.P7670462617754729794
 
 `n!*∑{#}[floor(n/2)-1, 1/((#+1)²*C(n-(#+1), #+1))]`
@@ -28328,6 +28300,37 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A368291.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A368292.P5420029519767735048
+
+`n!*∑{#}[n, (3*(n-#)+1)^#/#!]`
+-/
+
+namespace A368292.P5420029519767735048
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), ((3 * ((n : ℤ) - (k : ℤ)) + 1) ^ k : ℚ) / (Nat.factorial k : ℚ))
+
+end
+
+end A368292.P5420029519767735048
+
+noncomputable section
+
+/-- A368292: Expansion of e.g.f. exp(x) / (1 - x*exp(3*x)).
+
+Offset 0, canonical program `A368292.P5420029519767735048`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A368292 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A368292.P5420029519767735048.a n)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A368292.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A358622.P17009841927911290961
 

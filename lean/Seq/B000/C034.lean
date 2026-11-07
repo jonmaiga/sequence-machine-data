@@ -7612,34 +7612,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(n-1)*(3^n-1)` (program `A219205.P4294908918251166056`, by `A219205.P4294908918251166056.correct`). Lean does not check the parsing of the name. -/
 def A219205.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A212293.P15537083791619495155
-
-`floor((n+1)*log(n+1)²)`
--/
-
-namespace A212293.P15537083791619495155
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n + 1 : ℝ) * Real.log (n + 1 : ℝ) ^ 2⌋
-
-end
-
-end A212293.P15537083791619495155
-
-noncomputable section
-
-/-- A212293: Integer part of n*log(n)^2.
-
-Offset 1, canonical program `A212293.P15537083791619495155`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A212293 (n : ℕ) : ℤ :=
-  A212293.P15537083791619495155.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A212293.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A212331.P17777057878978954334
 
 `ogf((15x-10x^2)/(1-3x+3x^2-x^3))`
@@ -28941,6 +28913,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 220 terms. -/
 def A219422.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A219498.P8036053599156951691
+
+`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=4, a(1)=7, a(2)=18, a(3)=35, a(4)=58, a(5)=88`
+-/
+
+namespace A219498.P8036053599156951691
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [4, 7, 18, 35, 58, 88] fun n a =>
+  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
+
+end
+
+end A219498.P8036053599156951691
+
+noncomputable section
+
+/-- A219498: Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..1 n X 4 array.
+
+Offset 1, canonical program `A219498.P8036053599156951691`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A219498 (n : ℕ) : ℤ :=
+  A219498.P8036053599156951691.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A219498.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A214604.P14750268591575392459
 

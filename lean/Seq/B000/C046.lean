@@ -6551,34 +6551,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[floor(n/5), (-1)^#*(n-5*#)!]` (program `A358611.P15387041821680174504`, by `A358611.P15387041821680174504.correct`). Lean does not check the parsing of the name. -/
 def A358611.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A344791.P12938168233614927403
-
-`(1-(-1)^(n+2)-8*(n+2)-4*(n+2)²+8*(n+2)^3+2*(n+2)^4)/32`
--/
-
-namespace A344791.P12938168233614927403
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 - (-1) ^ (n + 2) - (8 * (n + 2) : ℤ) - (4 * (n + 2) ^ 2 : ℤ) + (8 * (n + 2) ^ 3 : ℤ) + (2 * (n + 2) ^ 4 : ℤ) : ℚ) / 32
-
-end
-
-end A344791.P12938168233614927403
-
-noncomputable section
-
-/-- A344791: a(n) is the number of 2-point antichains in the poset D_{2n+1} of type D, whose elements are compositions of 2n+1.
-
-Offset 2, canonical program `A344791.P12938168233614927403`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A344791 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A344791.P12938168233614927403.a (n - 2))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A344791.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A344805.P9695239053401880712
 
 `ogf((6-3x-x^3-x^4+x^5-x^6+x^7-x^8)/(1-2x+x^2))`
@@ -26312,6 +26284,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A358613.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A358620.P10268233054270487209
+
+`(81*(n+1)+9)*10^(n-1)`
+-/
+
+namespace A358620.P10268233054270487209
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (81 * (n + 1) + 9 : ℚ) * (10 : ℚ) ^ ((n : ℤ) - 1 : ℤ)
+
+end
+
+end A358620.P10268233054270487209
+
+noncomputable section
+
+/-- A358620: Number of nonzero digits needed to write all nonnegative n-digit integers.
+
+Offset 1, canonical program `A358620.P10268233054270487209`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A358620 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A358620.P10268233054270487209.a (n - 1))
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A358620.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A344810.P631001733960113947
 

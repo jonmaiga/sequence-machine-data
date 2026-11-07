@@ -18777,33 +18777,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A330592.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A310521.P11921781051840252528
+/-! ## A330602.P15027958631550095194
 
-`ogf((1+2x+3x^2+x^3+2x^4+x^5+3x^6+2x^7+x^8)/(1-2x+x^2+x^3-2x^4+x^5+x^6-2x^7+x^8))`
+`a(n-2)+a(n-4)-a(n-6)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=5, a(4)=0, a(5)=6`
 -/
 
-namespace A310521.P11921781051840252528
+namespace A330602.P15027958631550095194
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 2, 3, 1, 2, 1, 3, 2, 1] [1, -2, 1, 1, -2, 1, 1, -2, 1] n
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 2, 1, 5, 0, 6] fun n a =>
+  a (n - 2) + a (n - 4) - a (n - 6)
 
 end
 
-end A310521.P11921781051840252528
+end A330602.P15027958631550095194
 
 noncomputable section
 
-/-- A310521: Coordination sequence Gal.5.133.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
+/-- A330602: a(n) = a(n-1) XOR (n+1), with a(0) = 0.
 
-Offset 0, canonical program `A310521.P11921781051840252528`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A310521 (n : ℕ) : ℤ :=
-  A310521.P11921781051840252528.a n
+Offset 0, canonical program `A330602.P15027958631550095194`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A330602 (n : ℕ) : ℤ :=
+  A330602.P15027958631550095194.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A310521.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A330602.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A310529.P1230697940831985805
 

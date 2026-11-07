@@ -1,16 +1,16 @@
 # What the Lean project holds and proves: name, count.
 anchors	2804
-assumedProven	34234
+assumedProven	34232
 conditional	6544
 conjectured	34094
 handWrittenProofs	0
 nameFormulas	28868
-nameFormulasProven	20700
-programs	2101011
-proofAttempts	6473895
+nameFormulasProven	20702
+programs	2101012
+proofAttempts	6472271
 sequences	96412
-tacticProofs	50903
-translated	2056133
+tacticProofs	51127
+translated	2056134
 undefined	248815
-verified	21540
-verifiedByNameFormula	18736
+verified	21542
+verifiedByNameFormula	18738

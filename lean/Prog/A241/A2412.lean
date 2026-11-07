@@ -6990,7 +6990,7 @@ end A241269
 /-!
 # A241271: a(n) = 6*a(n-1) + 3*(2^(n-2)-1) for n > 2, a(0)=a(1)=a(2)=0.
 
-The programs for A241271, the canonical program `A241271.P15919960289598323711` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241271 has offset 0).
+The programs for A241271, the canonical program `A241271.P15919960289598323711` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241271 has offset 0).
 
 The definition of A241271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7022,7 +7022,7 @@ end A241271
 
 `6*a(n-1)+3*(2^(n-2)-1)` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A241271

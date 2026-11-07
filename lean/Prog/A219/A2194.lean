@@ -8627,7 +8627,7 @@ end A219497.P3481136853021942746
 /-!
 # A219498: Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..1 n X 4 array.
 
-The programs for A219498, the canonical program `A219498.P8036053599156951691` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219498 has offset 1).
+The programs for A219498, the canonical program `A219498.P8036053599156951691` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219498 has offset 1).
 
 The definition of A219498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8659,7 +8659,7 @@ end A219498
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=4, a(1)=7, a(2)=18, a(3)=35, a(4)=58, a(5)=88`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A219498

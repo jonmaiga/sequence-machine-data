@@ -21207,33 +21207,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A262699.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A251320.P13977845492361231283
+/-! ## A262710.P12654579294262269959
 
-`ogf((28+32x-98x^2-4x^3+16x^4)/(1-3x-8x^2+13x^3+x^4-2x^5))`
+`(-4)^n`
 -/
 
-namespace A251320.P13977845492361231283
+namespace A262710.P12654579294262269959
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [28, 32, -98, -4, 16] [1, -3, -8, 13, 1, -2] n
+  (-4) ^ n
 
 end
 
-end A251320.P13977845492361231283
+end A262710.P12654579294262269959
 
 noncomputable section
 
-/-- A251320: Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock having one or two 1s.
+/-- A262710: Powers of -4.
 
-Offset 1, canonical program `A251320.P13977845492361231283`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. -/
-def A251320 (n : ℕ) : ℤ :=
-  A251320.P13977845492361231283.a (n - 1)
+Offset 0, canonical program `A262710.P12654579294262269959`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A262710 (n : ℕ) : ℤ :=
+  A262710.P12654579294262269959.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. -/
-def A251320.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A262710.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A251328.P11255029658957582792
 

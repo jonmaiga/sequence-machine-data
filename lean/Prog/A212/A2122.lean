@@ -9108,7 +9108,7 @@ end A212292.P13619425753708318372
 /-!
 # A212293: Integer part of n*log(n)^2.
 
-The programs for A212293, the canonical program `A212293.P15537083791619495155` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212293 has offset 1).
+The programs for A212293, the canonical program `A212293.P15537083791619495155` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212293 has offset 1).
 
 The definition of A212293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9117,7 +9117,7 @@ The definition of A212293 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*log(n+1)²)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A212293

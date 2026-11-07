@@ -6032,36 +6032,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*n²+2*n+1` (program `A188135.P13478576752506582860`, by `A188135.P13478576752506582860.correct`). Lean does not check the parsing of the name. -/
 def A188135.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A181059.P3477977400071196664
-
-`floor(sin(n)-cos(n))`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A181059.P3477977400071196664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sin (n : ℝ) - Real.cos (n : ℝ)⌋
-
-end
-
-end A181059.P3477977400071196664
-
-noncomputable section
-
-/-- A181059: a(n) = floor(sin(n) - cos(n)).
-
-Offset 0, canonical program `A181059.P3477977400071196664`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. -/
-def A181059 (n : ℕ) : ℤ :=
-  A181059.P3477977400071196664.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. -/
-def A181059.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A181069.P7229379710255998535
 
 `∑{#}[n, C(n, #)^3*C(n+1, #)]`
@@ -29104,6 +29074,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A188148.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A188149.P18185419882966996242
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=8, a(2)=80, a(3)=232, a(4)=456`
+-/
+
+namespace A188149.P18185419882966996242
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 8, 80, 232, 456] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A188149.P18185419882966996242
+
+noncomputable section
+
+/-- A188149: Number of 4-step self-avoiding walks on an n X n square summed over all starting positions.
+
+Offset 1, canonical program `A188149.P18185419882966996242`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A188149 (n : ℕ) : ℤ :=
+  A188149.P18185419882966996242.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A188149.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A183091.P7771402674124294199
 

@@ -1325,7 +1325,7 @@ end A298415
 /-!
 # A298416: a(n) = 2*a(n-1) + 2*a(n-2) - a([n/2]), where a(0) = 1, a(1) = 1, a(2) = 1.
 
-The programs for A298416, the canonical program `A298416.P403869217785424006` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298416 has offset 0).
+The programs for A298416, the canonical program `A298416.P403869217785424006` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298416 has offset 0).
 
 The definition of A298416 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1334,7 +1334,7 @@ The definition of A298416 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+2*a(n-2)-a(floor(n/2))` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C042`.
 -/
 
 namespace A298416

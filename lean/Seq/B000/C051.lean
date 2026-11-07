@@ -7,36 +7,6 @@ import SequenceMachineLib.Triangle
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
-/-! ## A396226.P3569638910496407692
-
-`n!^7`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A396226.P3569638910496407692
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n ^ 7
-
-end
-
-end A396226.P3569638910496407692
-
-noncomputable section
-
-/-- A396226: a(n) = (n!)^7.
-
-Offset 0, canonical program `A396226.P3569638910496407692`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^7` (program `A396226.P3569638910496407692`, by `A396226.P3569638910496407692.correct`). Lean does not check the parsing of the name. -/
-def A396226 (n : ℕ) : ℤ :=
-  (A396226.P3569638910496407692.a n : ℤ)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^7` (program `A396226.P3569638910496407692`, by `A396226.P3569638910496407692.correct`). Lean does not check the parsing of the name. -/
-def A396226.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A396288.P9785100004130404729
 
 `n*(12*n-1)`

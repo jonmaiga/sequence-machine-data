@@ -6724,7 +6724,7 @@ end A291671.P955189556800463417
 /-!
 # A291675: a(n) = a(n-1) + 2*a(n-2) + 8*Fibonacci(n) + 2*Fibonacci(n-1); a(1) = 4, a(2) = 14.
 
-The programs for A291675, the canonical program `A291675.P12525258071272912831` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291675 has offset 1).
+The programs for A291675, the canonical program `A291675.P12525258071272912831` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291675 has offset 1).
 
 The definition of A291675 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` (program `A291675.P12525258071272912831`, by `A291675.P12525258071272912831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6756,7 +6756,7 @@ end A291675
 
 `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` with `a(0)=4, a(1)=14`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291675

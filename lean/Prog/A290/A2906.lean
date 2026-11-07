@@ -1715,7 +1715,7 @@ end A290615.P7242539317672475527
 /-!
 # A290616: p-INVERT of (1,0,0,1,0,0,1,0,0,...), where p(S) = 1 - 2 S - S^2.
 
-The programs for A290616, the canonical program `A290616.P13526915506091966374` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290616 has offset 0).
+The programs for A290616, the canonical program `A290616.P13526915506091966374` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290616 has offset 0).
 
 The definition of A290616 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1747,7 +1747,7 @@ end A290616
 
 `2*a(n-1)+a(n-2)+2*a(n-3)-2*a(n-4)-a(n-6)` with `a(0)=2, a(1)=5, a(2)=12, a(3)=31, a(4)=80, a(5)=205`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A290616

@@ -9954,7 +9954,7 @@ end A229091.P7581782157527614809
 /-!
 # A229093: The clubs patterns appearing in n X n coins.
 
-The programs for A229093, the canonical program `A229093.P11753605260846516278` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229093 has offset 0).
+The programs for A229093, the canonical program `A229093.P11753605260846516278` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229093 has offset 0).
 
 The definition of A229093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9963,7 +9963,7 @@ The definition of A229093 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^2+x^4-x^5+x^6-x^7+2x^8-x^9)/(1-2x+x^2-x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A229093

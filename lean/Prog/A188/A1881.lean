@@ -6839,7 +6839,7 @@ end A188148
 /-!
 # A188149: Number of 4-step self-avoiding walks on an n X n square summed over all starting positions.
 
-The programs for A188149, the canonical program `A188149.P18185419882966996242` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188149 has offset 1).
+The programs for A188149, the canonical program `A188149.P18185419882966996242` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188149 has offset 1).
 
 The definition of A188149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6871,7 +6871,7 @@ end A188149
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=8, a(2)=80, a(3)=232, a(4)=456`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A188149

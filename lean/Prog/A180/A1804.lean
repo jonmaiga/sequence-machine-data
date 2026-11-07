@@ -2088,6 +2088,12 @@ namespace A180415
 def P5613286673275889338.Spec : Prop :=
   ∀ n, P5613286673275889338.a n = A180415 (n + 1)
 
+theorem P5613286673275889338.correct : P5613286673275889338.Spec := by
+  intro n
+  simp only [A180415, Nat.add_sub_cancel, A180415.P5613286673275889338.f1, A180415.P5613286673275889338.a, A180415.P13856507457389901301.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A180415
 
 /-! ## A180415.P13142435945878220742
@@ -2331,6 +2337,12 @@ namespace A180415
 /-- `2*n+1+C(n, 2)+C(n, 3)` -/
 def P3544179154160707431.Spec : Prop :=
   ∀ n, (P3544179154160707431.a n : ℤ) = A180415 (n + 1)
+
+theorem P3544179154160707431.correct : P3544179154160707431.Spec := by
+  intro n
+  simp only [A180415, Nat.add_sub_cancel, A180415.P3544179154160707431.a, A180415.P13856507457389901301.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A180415
 

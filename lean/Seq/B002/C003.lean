@@ -16019,6 +16019,40 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A134403.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A134407.P13636450761667218505
+
+`lt[1, A193330(n)]`
+-/
+
+namespace A134407.P13636450761667218505
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193330 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
+
+end
+
+end A134407.P13636450761667218505
+
+noncomputable section
+
+/-- A134407: Numbers n such that n^2 + 1 is composite.
+
+Offset 1, canonical program `A134407.P13636450761667218505`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9159 terms. -/
+def A134407 (n : ℕ) : ℤ :=
+  (A134407.P13636450761667218505.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9159 terms. -/
+def A134407.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A134408.P2913322129490497874
 
 `A006336(∑[A005614(n)])`
@@ -28321,40 +28355,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 355 terms. -/
 def A153362.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A134407.P13636450761667218505
-
-`lt[1, A193330(n)]`
--/
-
-namespace A134407.P13636450761667218505
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193330 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A134407.P13636450761667218505
-
-noncomputable section
-
-/-- A134407: Numbers n such that n^2 + 1 is composite.
-
-Offset 1, canonical program `A134407.P13636450761667218505`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9159 terms. -/
-def A134407 (n : ℕ) : ℤ :=
-  (A134407.P13636450761667218505.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9159 terms. -/
-def A134407.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A117203.P1024184579012793752
 

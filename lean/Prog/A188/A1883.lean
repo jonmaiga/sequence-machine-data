@@ -11531,6 +11531,12 @@ namespace A188377
 def P7125886761000676206.Spec : Prop :=
   ∀ n, P7125886761000676206.a n = (A188377 (n + 3) : ℚ)
 
+theorem P7125886761000676206.correct : P7125886761000676206.Spec := by
+  intro n
+  simp only [A188377, Nat.add_sub_cancel, A188377.P7125886761000676206.a, A188377.P10696713444741551039.a, A100855, A100855.P13074682991775852589.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A188377
 
 /-! ## A188377.P9979696301664401355

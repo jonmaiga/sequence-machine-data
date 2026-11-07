@@ -621,6 +621,30 @@ end
 end A400707.P18123228493915289
 
 /-!
+# A400708: Number of adjacent and contiguous buildings that can be seen from a flagpole of height n placed just left of the City Buildings shown in sequence A400000 (see Comments for precise definition).
+
+The programs for A400708, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400708.P9899074467066491485
+
+`fp[max(A400000(n+1)+2, (n+1)*(A400000(A028310(n))-1)+2)]`
+-/
+
+namespace A400708.P9899074467066491485
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  max (A400000 (n + 1) + 2) ((n + 1 : ℤ) * (A400000 (A028310 n).toNat - 1) + 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+
+end
+
+end A400708.P9899074467066491485
+
+/-!
 # A400709: RUNS transform of A400708.
 
 The programs for A400709, there is no canonical definition to state claims against.

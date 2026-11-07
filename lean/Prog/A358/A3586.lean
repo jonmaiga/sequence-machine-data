@@ -1737,7 +1737,7 @@ end A358619
 /-!
 # A358620: Number of nonzero digits needed to write all nonnegative n-digit integers.
 
-The programs for A358620, the canonical program `A358620.P10268233054270487209` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358620 has offset 1).
+The programs for A358620, the canonical program `A358620.P10268233054270487209` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358620 has offset 1).
 
 The definition of A358620 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1769,7 +1769,7 @@ end A358620
 
 `(81*(n+1)+9)*10^(n-1)`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A358620

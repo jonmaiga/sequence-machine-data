@@ -3478,7 +3478,7 @@ end A173434
 /-!
 # A173435: Inverse binomial transform of A143025, assuming offset zero there.
 
-The programs for A173435, the canonical program `A173435.P3044243325021721896` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173435 has offset 0).
+The programs for A173435, the canonical program `A173435.P3044243325021721896` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173435 has offset 0).
 
 The definition of A173435 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3487,7 +3487,7 @@ The definition of A173435 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((8+26x+36x^2+19x^3)/(1+4x+6x^2+4x^3))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A173435

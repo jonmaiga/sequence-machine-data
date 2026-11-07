@@ -21495,33 +21495,33 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((-1+sqrt(6))*(n+1))` (program `A194145.P8325608198081642426`, by `A194145.P8325608198081642426.correct`). Lean does not check the parsing of the name. -/
 def A194145.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A188149.P18185419882966996242
+/-! ## A194146.P2039339783935275615
 
-`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=8, a(2)=80, a(3)=232, a(4)=456`
+`floor((n+1)*(4+sqrt(6))/2)`
 -/
 
-namespace A188149.P18185419882966996242
+namespace A194146.P2039339783935275615
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 8, 80, 232, 456] fun n a =>
-  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℝ) * (4 + Real.sqrt (6 : ℝ)) / 2⌋
 
 end
 
-end A188149.P18185419882966996242
+end A194146.P2039339783935275615
 
 noncomputable section
 
-/-- A188149: Number of 4-step self-avoiding walks on an n X n square summed over all starting positions.
+/-- A194146: Beatty sequence for (4+sqrt(6))/2; complement of A194145.
 
-Offset 1, canonical program `A188149.P18185419882966996242`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A188149 (n : ℕ) : ℤ :=
-  A188149.P18185419882966996242.a (n - 1)
+Offset 1, canonical program `A194146.P2039339783935275615`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A194146 (n : ℕ) : ℤ :=
+  A194146.P2039339783935275615.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A188149.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A194146.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A188150.P3531992034282738566
 

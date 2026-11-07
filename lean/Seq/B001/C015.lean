@@ -15,6 +15,7 @@ import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C040
 import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B000.C051
@@ -673,6 +674,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A401122.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A399500.P9205957688936578004
+
+`A339183(n)+A002260(n+1)`
+-/
+
+namespace A399500.P9205957688936578004
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339183 n + A002260 (n + 1)
+
+end
+
+end A399500.P9205957688936578004
+
+noncomputable section
+
+/-- A399500: Triangle read by rows: row n gives the n consecutive integers centered at n, excluding n if n is even.
+
+Offset 1, canonical program `A399500.P9205957688936578004`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A399500 (n : ℕ) : ℤ :=
+  A399500.P9205957688936578004.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A399500.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A399516.P12012210511113416735
 

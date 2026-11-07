@@ -6863,7 +6863,7 @@ end A280068.P10115097785620029730
 /-!
 # A280070: Indices of 10-gonal numbers (A001107) that are also centered 10-gonal numbers (A062786).
 
-The programs for A280070, the canonical program `A280070.P9864589724084629693` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280070 has offset 1).
+The programs for A280070, the canonical program `A280070.P9864589724084629693` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280070 has offset 1).
 
 The definition of A280070 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6895,7 +6895,7 @@ end A280070
 
 `19*a(n-1)-19*a(n-2)+a(n-3)` with `a(0)=1, a(1)=11, a(2)=191`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A280070

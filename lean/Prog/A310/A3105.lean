@@ -5480,7 +5480,7 @@ end A310520
 /-!
 # A310521: Coordination sequence Gal.5.133.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310521, the canonical program `A310521.P11921781051840252528` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310521 has offset 0).
+The programs for A310521, the canonical program `A310521.P11921781051840252528` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310521 has offset 0).
 
 The definition of A310521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5489,7 +5489,7 @@ The definition of A310521 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+2x+3x^2+x^3+2x^4+x^5+3x^6+2x^7+x^8)/(1-2x+x^2+x^3-2x^4+x^5+x^6-2x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A310521

@@ -584,7 +584,7 @@ end A262709.P8320253699791700342
 /-!
 # A262710: Powers of -4.
 
-The programs for A262710, the canonical program `A262710.P12654579294262269959` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262710 has offset 0).
+The programs for A262710, the canonical program `A262710.P12654579294262269959` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262710 has offset 0).
 
 The definition of A262710 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -593,7 +593,7 @@ The definition of A262710 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-4)^n`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A262710

@@ -5340,6 +5340,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A007947(A007947(n+1)²+1)` (program `A188525.P10073465298142193575`, by `A188525.P10073465298142193575.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A188525.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A168123.P14064034454943279005
+
+`A168194(n)-C(n², 2)`
+-/
+
+namespace A168123.P14064034454943279005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168194 n - (Nat.choose (n ^ 2) 2 : ℤ)
+
+end
+
+end A168123.P14064034454943279005
+
+noncomputable section
+
+/-- A168123: a(n) = n^2*(n^5+1)/2.
+
+Offset 0, canonical program `A168123.P14064034454943279005`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²*(n^5+1)/2` (program `A168123.P6139275088796731258`, by `A168123.P6139275088796731258.correct`). Lean does not check the parsing of the name. -/
+def A168123 (n : ℕ) : ℤ :=
+  A168123.P14064034454943279005.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²*(n^5+1)/2` (program `A168123.P6139275088796731258`, by `A168123.P6139275088796731258.correct`). Lean does not check the parsing of the name. -/
+def A168123.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A166810.P9111942378694377844
 
 `A000579(n+7)-2`
@@ -28572,40 +28600,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
 def A190193.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A190200.P11366981498354238319
-
-`eq[1, A190198(1+n)]+1`
--/
-
-namespace A190200.P11366981498354238319
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A190198 (1 + n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A190200.P11366981498354238319
-
-noncomputable section
-
-/-- A190200: Positions of 1 in A190198; complement of A190199.
-
-Offset 1, canonical program `A190200.P11366981498354238319`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. -/
-def A190200 (n : ℕ) : ℤ :=
-  (A190200.P11366981498354238319.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. -/
-def A190200.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A167683.P15759584013371215298
 

@@ -3998,35 +3998,33 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)^3-A000040(n+1)*A000040((n+1)²)` (program `A291542.P11341905494705326156`, by `A291542.P11341905494705326156.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A291542.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A291675.P12525258071272912831
+/-! ## A260235.P8919696338789847144
 
-`a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` with `a(0)=4, a(1)=14`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+`A001221(A000384(n+2))`
 -/
 
-namespace A291675.P12525258071272912831
+namespace A260235.P8919696338789847144
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [4, 14] fun n a =>
-  a (n - 1) + 2 * a (n - 2) + 8 * A000045 (n + 1) + 2 * A000045 n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A000384 (n + 2)).toNat
 
 end
 
-end A291675.P12525258071272912831
+end A260235.P8919696338789847144
 
 noncomputable section
 
-/-- A291675: a(n) = a(n-1) + 2*a(n-2) + 8*Fibonacci(n) + 2*Fibonacci(n-1); a(1) = 4, a(2) = 14.
+/-- A260235: Number of distinct prime factors of the n-th hexagonal number (A000384).
 
-Offset 1, canonical program `A291675.P12525258071272912831`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` (program `A291675.P12525258071272912831`, by `A291675.P12525258071272912831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
-def A291675 (n : ℕ) : ℤ :=
-  A291675.P12525258071272912831.a (n - 1)
+Offset 2, canonical program `A260235.P8919696338789847144`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A260235 (n : ℕ) : ℤ :=
+  A260235.P8919696338789847144.a (n - 2)
 
 end
 
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+8*A000045(n+1)+2*A000045(n)` (program `A291675.P12525258071272912831`, by `A291675.P12525258071272912831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
-def A291675.provenance : SequenceMachineLib.Provenance := .verified
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A260235.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A260236.P14916367128005953828
 

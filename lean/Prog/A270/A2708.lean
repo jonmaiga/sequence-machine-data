@@ -1873,7 +1873,7 @@ end A270809
 /-!
 # A270810: Expansion of (x - x^2 + 2*x^3 + 2*x^4)/(1 - 3*x + 2*x^2).
 
-The programs for A270810, the canonical program `A270810.P8587742924493596411` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270810 has offset 0).
+The programs for A270810, the canonical program `A270810.P8587742924493596411` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270810 has offset 0).
 
 The definition of A270810 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))` (program `A270810.P8587742924493596411`, by `A270810.P8587742924493596411.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1882,7 +1882,7 @@ The definition of A270810 is `verified`: the Lean definition is proven equivalen
 
 `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A270810

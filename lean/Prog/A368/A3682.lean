@@ -5490,7 +5490,7 @@ end A368291
 /-!
 # A368292: Expansion of e.g.f. exp(x) / (1 - x*exp(3*x)).
 
-The programs for A368292, the canonical program `A368292.P5420029519767735048` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368292 has offset 0).
+The programs for A368292, the canonical program `A368292.P5420029519767735048` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368292 has offset 0).
 
 The definition of A368292 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5499,7 +5499,7 @@ The definition of A368292 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!*∑{#}[n, (3*(n-#)+1)^#/#!]`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A368292

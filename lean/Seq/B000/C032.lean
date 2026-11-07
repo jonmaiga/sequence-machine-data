@@ -11035,34 +11035,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(13*n))` (program `A202308.P15715900096849258275`, by `A202308.P15715900096849258275.correct`). Lean does not check the parsing of the name. -/
 def A202308.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A194146.P2039339783935275615
-
-`floor((n+1)*(4+sqrt(6))/2)`
--/
-
-namespace A194146.P2039339783935275615
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n + 1 : ℝ) * (4 + Real.sqrt (6 : ℝ)) / 2⌋
-
-end
-
-end A194146.P2039339783935275615
-
-noncomputable section
-
-/-- A194146: Beatty sequence for (4+sqrt(6))/2; complement of A194145.
-
-Offset 1, canonical program `A194146.P2039339783935275615`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A194146 (n : ℕ) : ℤ :=
-  A194146.P2039339783935275615.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A194146.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A194220.P15120108526884439260
 
 `floor((n+2)/4)+floor((n+3)/4)-floor((n+7)/8)`
@@ -29070,4 +29042,32 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A202452.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A202455.P1344664283223936712
+
+`1/4*(n+1)^4+15/2*(n+1)^3+229/4*(n+1)²+(n+1)*237+427`
+-/
+
+namespace A202455.P1344664283223936712
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 4 * ((n + 1) ^ 4 : ℚ) + (15 : ℚ) / 2 * ((n + 1) ^ 3 : ℚ) + (229 : ℚ) / 4 * ((n + 1) ^ 2 : ℚ) + ((n + 1) * 237 : ℚ) + 427
+
+end
+
+end A202455.P1344664283223936712
+
+noncomputable section
+
+/-- A202455: Number of (n+2) X 4 binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column.
+
+Offset 1, canonical program `A202455.P1344664283223936712`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A202455 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A202455.P1344664283223936712.a (n - 1))
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A202455.provenance : SequenceMachineLib.Provenance := .conjectured
 

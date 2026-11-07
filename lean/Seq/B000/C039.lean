@@ -4683,33 +4683,35 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*n²+2*n-1` (program `A270710.P7193795266762276404`, by `A270710.P7193795266762276404.correct`). Lean does not check the parsing of the name. -/
 def A270710.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A262710.P12654579294262269959
+/-! ## A270810.P8587742924493596411
 
-`(-4)^n`
+`ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A262710.P12654579294262269959
+namespace A270810.P8587742924493596411
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-4) ^ n
+  SequenceMachineLib.ogf [0, 1, -1, 2, 2] [1, -3, 2] n
 
 end
 
-end A262710.P12654579294262269959
+end A270810.P8587742924493596411
 
 noncomputable section
 
-/-- A262710: Powers of -4.
+/-- A270810: Expansion of (x - x^2 + 2*x^3 + 2*x^4)/(1 - 3*x + 2*x^2).
 
-Offset 0, canonical program `A262710.P12654579294262269959`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A262710 (n : ℕ) : ℤ :=
-  A262710.P12654579294262269959.a n
+Offset 0, canonical program `A270810.P8587742924493596411`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))` (program `A270810.P8587742924493596411`, by `A270810.P8587742924493596411.correct`). Lean does not check the parsing of the name. -/
+def A270810 (n : ℕ) : ℤ :=
+  A270810.P8587742924493596411.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A262710.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))` (program `A270810.P8587742924493596411`, by `A270810.P8587742924493596411.correct`). Lean does not check the parsing of the name. -/
+def A270810.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A262732.P18006312445938134677
 

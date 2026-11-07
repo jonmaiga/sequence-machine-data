@@ -18395,6 +18395,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A399431.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A361304.P4768846688904754804
+
+`(n+1)*A361306(n+1)`
+-/
+
+namespace A361304.P4768846688904754804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A361306 (n + 1)
+
+end
+
+end A361304.P4768846688904754804
+
+noncomputable section
+
+/-- A361304: Expansion of g.f. A(x) = Sum_{n>=0} d^n/dx^n x^(2*n) * (1 + x)^(4*n) / n!.
+
+Offset 0, canonical program `A361304.P4768846688904754804`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A361304 (n : ℕ) : ℤ :=
+  A361304.P4768846688904754804.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A361304.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A365606.P601564546117692872
 
 `A381517(n)+4`
@@ -29120,34 +29148,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8540 terms. -/
 def A399305.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A399500.P9205957688936578004
-
-`A339183(n)+A002260(n+1)`
--/
-
-namespace A399500.P9205957688936578004
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339183 n + A002260 (n + 1)
-
-end
-
-end A399500.P9205957688936578004
-
-noncomputable section
-
-/-- A399500: Triangle read by rows: row n gives the n consecutive integers centered at n, excluding n if n is even.
-
-Offset 1, canonical program `A399500.P9205957688936578004`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A399500 (n : ℕ) : ℤ :=
-  A399500.P9205957688936578004.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A399500.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A372716.P7678161917217464801
 

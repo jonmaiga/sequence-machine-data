@@ -1657,7 +1657,7 @@ end A396225
 /-!
 # A396226: a(n) = (n!)^7.
 
-The programs for A396226, the canonical program `A396226.P3569638910496407692` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396226 has offset 0).
+The programs for A396226, the canonical program `A396226.P3569638910496407692` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396226 has offset 0).
 
 The definition of A396226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^7` (program `A396226.P3569638910496407692`, by `A396226.P3569638910496407692.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1666,7 +1666,7 @@ The definition of A396226 is `verified`: the Lean definition is proven equivalen
 
 `n!^7`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C050`.
 -/
 
 namespace A396226

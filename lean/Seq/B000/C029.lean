@@ -10236,34 +10236,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+731*n+1` (program `A180919.P8167481529624446525`, by `A180919.P8167481529624446525.correct`). Lean does not check the parsing of the name. -/
 def A180919.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A173435.P3044243325021721896
-
-`ogf((8+26x+36x^2+19x^3)/(1+4x+6x^2+4x^3))`
--/
-
-namespace A173435.P3044243325021721896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [8, 26, 36, 19] [1, 4, 6, 4] n
-
-end
-
-end A173435.P3044243325021721896
-
-noncomputable section
-
-/-- A173435: Inverse binomial transform of A143025, assuming offset zero there.
-
-Offset 0, canonical program `A173435.P3044243325021721896`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A173435 (n : ℕ) : ℤ :=
-  A173435.P3044243325021721896.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A173435.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A173478.P18198395847784767063
 
 `lcm(n+1, 10^n)`
@@ -25976,6 +25948,36 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A181052.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A181059.P3477977400071196664
+
+`floor(sin(n)-cos(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A181059.P3477977400071196664
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊Real.sin (n : ℝ) - Real.cos (n : ℝ)⌋
+
+end
+
+end A181059.P3477977400071196664
+
+noncomputable section
+
+/-- A181059: a(n) = floor(sin(n) - cos(n)).
+
+Offset 0, canonical program `A181059.P3477977400071196664`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. -/
+def A181059 (n : ℕ) : ℤ :=
+  A181059.P3477977400071196664.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. -/
+def A181059.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A173524.P13458821933964064182
 

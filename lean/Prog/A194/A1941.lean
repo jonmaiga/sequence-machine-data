@@ -11077,7 +11077,7 @@ end A194145
 /-!
 # A194146: Beatty sequence for (4+sqrt(6))/2; complement of A194145.
 
-The programs for A194146, the canonical program `A194146.P2039339783935275615` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194146 has offset 1).
+The programs for A194146, the canonical program `A194146.P2039339783935275615` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194146 has offset 1).
 
 The definition of A194146 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11086,7 +11086,7 @@ The definition of A194146 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(4+sqrt(6))/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A194146

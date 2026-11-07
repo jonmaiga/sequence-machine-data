@@ -42,7 +42,6 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
@@ -6482,7 +6481,7 @@ end A260234
 /-!
 # A260235: Number of distinct prime factors of the n-th hexagonal number (A000384).
 
-The programs for A260235, the canonical program `A260235.P8919696338789847144` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260235 has offset 2).
+The programs for A260235, the canonical program `A260235.P8919696338789847144` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260235 has offset 2).
 
 The definition of A260235 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6491,7 +6490,7 @@ The definition of A260235 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001221(A000384(n+2))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260235

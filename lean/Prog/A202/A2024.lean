@@ -4082,7 +4082,7 @@ end A202454.P1853129664884815233
 /-!
 # A202455: Number of (n+2) X 4 binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column.
 
-The programs for A202455, the canonical program `A202455.P1344664283223936712` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
+The programs for A202455, the canonical program `A202455.P1344664283223936712` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
 
 The definition of A202455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4091,7 +4091,7 @@ The definition of A202455 is `conjectured`: the Lean definition is a formula tha
 
 `1/4*(n+1)^4+15/2*(n+1)^3+229/4*(n+1)²+(n+1)*237+427`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A202455

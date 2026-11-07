@@ -6024,7 +6024,7 @@ end A387488.P7962306052279691119
 /-!
 # A387489: Number of packing 1X1X2 bricks into 2X2Xn boxes considering packings obtained by rigid motions equivalent.
 
-The programs for A387489, the canonical program `A387489.P13058508662317426490` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387489 has offset 0).
+The programs for A387489, the canonical program `A387489.P13058508662317426490` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387489 has offset 0).
 
 The definition of A387489 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6033,7 +6033,7 @@ The definition of A387489 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-5x+25x^3-15x^4-46x^5+52x^6+6x^7-7x^8+50x^9-63x^10-28x^11+24x^12+4x^13-2x^14)/(1-6x+4x^2+26x^3-33x^4-8x^5+8x^6-24x^7+31x^8+14x^9-12x^10-2x^11+x^12))`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A387489

@@ -171,7 +171,7 @@ end A330601.P6703186475496125340
 /-!
 # A330602: a(n) = a(n-1) XOR (n+1), with a(0) = 0.
 
-The programs for A330602, the canonical program `A330602.P15027958631550095194` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330602 has offset 0).
+The programs for A330602, the canonical program `A330602.P15027958631550095194` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330602 has offset 0).
 
 The definition of A330602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -226,7 +226,7 @@ end A330602
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=5, a(4)=0, a(5)=6`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A330602
