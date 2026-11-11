@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -504,27 +505,6 @@ def P12351804881831634760.Spec : Prop :=
   ∀ n, P12351804881831634760.a n = A243107 n
 
 end A243107
-
-/-!
-# A243108: Decimal expansion of the 5th du Bois-Reymond constant.
-
-The programs for A243108, there is no canonical definition to state claims against.
--/
-
-/-! ## A243108.P2735413570666123341
-
-`A029731(gcd(A047889(n), A268448(n+1)))`
--/
-
-namespace A243108.P2735413570666123341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029731 (Int.gcd (A047889 n) (A268448 (n + 1)))
-
-end
-
-end A243108.P2735413570666123341
 
 /-!
 # A243109: a(n) is the largest number smaller than n and having the same Hamming weight as n, or n if no such number exist.
@@ -1472,26 +1452,26 @@ end
 
 end A243115.P3177309371187252430
 
-/-! ## A243115.P1729717154479981779
+/-! ## A243115.P13920574744598044490
 
-`lt[A303707(n+5), 2^val(n+1, 2)]`
+`eq[A194885(n), A321447(n)]`
 -/
 
-namespace A243115.P1729717154479981779
+namespace A243115.P13920574744598044490
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303707 (n + 5)
+  A194885 n
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ SequenceMachineLib.valuation (n + 1) 2
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321447 n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A243115.P1729717154479981779
+end A243115.P13920574744598044490
 
 /-!
 # A243116: a(n) = Sum_{k=0..n} C(n + 2*k, 3*k) * C(3*k, 2*k).

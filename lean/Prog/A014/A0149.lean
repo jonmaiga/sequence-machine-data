@@ -15966,6 +15966,32 @@ def P2554300708571658189.Spec : Prop :=
 
 end A014983
 
+/-! ## A014983.P14498230733893428359
+
+`∑{#}[n-1, (-3)^(n-1-#)]`
+-/
+
+namespace A014983.P14498230733893428359
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-3 : ℚ) ^ ((n : ℤ) - 1 - (k : ℤ) : ℤ)
+
+end
+
+end A014983.P14498230733893428359
+
+namespace A014983
+
+/-- `∑{#}[n-1, (-3)^(n-1-#)]` -/
+def P14498230733893428359.Spec : Prop :=
+  ∀ n, P14498230733893428359.a n = (A014983 n : ℚ)
+
+end A014983
+
 /-! ## A014983.P16457561881968450041
 
 `a(n-1)/(2/3-1)+1` with `a(0)=0`
@@ -16219,29 +16245,6 @@ namespace A014983
 /-- `(A015518(n)-A054878(n))*A015518(n)` -/
 def P4522123153456338880.Spec : Prop :=
   ∀ n, P4522123153456338880.a n = A014983 n
-
-end A014983
-
-/-! ## A014983.P11576994182905344512
-
-`(A001045(n+1)-A097073(n))*A015518(n)`
--/
-
-namespace A014983.P11576994182905344512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A001045 (n + 1) - A097073 n) * A015518 n
-
-end
-
-end A014983.P11576994182905344512
-
-namespace A014983
-
-/-- `(A001045(n+1)-A097073(n))*A015518(n)` -/
-def P11576994182905344512.Spec : Prop :=
-  ∀ n, P11576994182905344512.a n = A014983 n
 
 end A014983
 
@@ -17361,6 +17364,32 @@ namespace A014987
 /-- `∑[(-6)^and(n, n)]` -/
 def P1095159037806206663.Spec : Prop :=
   ∀ n, P1095159037806206663.a n = A014987 (n + 1)
+
+end A014987
+
+/-! ## A014987.P7279987124347690222
+
+`∑{#}[n, (-6)^(n-#)]`
+-/
+
+namespace A014987.P7279987124347690222
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-6 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A014987.P7279987124347690222
+
+namespace A014987
+
+/-- `∑{#}[n, (-6)^(n-#)]` -/
+def P7279987124347690222.Spec : Prop :=
+  ∀ n, P7279987124347690222.a n = (A014987 (n + 1) : ℚ)
 
 end A014987
 

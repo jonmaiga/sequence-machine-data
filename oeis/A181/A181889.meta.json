@@ -2,6 +2,7 @@
   "description": "Bisection of A181888.",
   "id": "A181889",
   "mentions": [
+    "A000596",
     "A001823",
     "A181888"
   ],

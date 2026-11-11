@@ -1,0 +1,16 @@
+{
+  "description": "Shortest sides, r, of right-angled triangles (r,s,x+y) that can be dissected into two distinct integer-sided right-angled triangles corresponding to primitive solutions of five side lengths (r,s,x,y,z).",
+  "id": "A397673",
+  "mentions": [
+    "A009004",
+    "A344332"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

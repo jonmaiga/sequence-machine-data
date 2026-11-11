@@ -3900,24 +3900,6 @@ end
 
 end A206554.P7113859900465285089
 
-/-! ## A206554.P3062813359348209353
-
-`record[and(A005940(n+1), A087294(n+1))]`
--/
-
-namespace A206554.P3062813359348209353
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A005940 (n + 1)) (A087294 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A206554.P3062813359348209353
-
 /-! ## A206554.P4927703131519023638
 
 `record[and(A057937(n+1), A057942(n+1))]`

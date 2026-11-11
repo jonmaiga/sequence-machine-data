@@ -6,6 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -1745,6 +1746,21 @@ end
 
 end A010351.P1124103720794837012
 
+/-! ## A010351.P12506298095449914690
+
+`A328369(A010354(n+1))`
+-/
+
+namespace A010351.P12506298095449914690
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328369 (A010354 (n + 1)).toNat
+
+end
+
+end A010351.P12506298095449914690
+
 /-! ## A010351.P13172891951985621854
 
 `∑[A231005(A006723(n)²)]`
@@ -1762,24 +1778,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010351.P13172891951985621854
-
-/-! ## A010351.P10038380760129247303
-
-`∑[A231010(A006723(n)²)]`
--/
-
-namespace A010351.P10038380760129247303
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231010 (A006723 n ^ 2).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A010351.P10038380760129247303
 
 /-!
 # A010352: Base-9 Armstrong or narcissistic numbers, written in base 9.
@@ -1838,21 +1836,6 @@ end
 
 end A010352.P3767639572784799730
 
-/-! ## A010352.P18370290969150885519
-
-`C(A329202(A000031(n)), n)`
--/
-
-namespace A010352.P18370290969150885519
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A329202 (A000031 n).toNat).toNat n
-
-end
-
-end A010352.P18370290969150885519
-
 /-! ## A010352.P3464796216963855539
 
 `C(A349983(A017987(n)), n)`
@@ -1867,6 +1850,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A010352.P3464796216963855539
+
+/-! ## A010352.P9911109440553772823
+
+`eq[A034584(n), A095186(n+1)]`
+-/
+
+namespace A010352.P9911109440553772823
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034584 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095186 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A010352.P9911109440553772823
 
 /-!
 # A010353: Base-9 Armstrong or narcissistic numbers (written in base 10).

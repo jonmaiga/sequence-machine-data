@@ -3257,6 +3257,21 @@ end
 
 end A238334.P5439603117356450663
 
+/-! ## A238334.P13000382823405552341
+
+`A000290(A238335(n+1))`
+-/
+
+namespace A238334.P13000382823405552341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A238335 (n + 1)).toNat
+
+end
+
+end A238334.P13000382823405552341
+
 /-! ## A238334.P97838177149362037
 
 `lt[A219032(A219032(n)²), 2]²`
@@ -3277,21 +3292,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A238334.P97838177149362037
-
-/-! ## A238334.P7686026248772721649
-
-`A000290(2*A238335(n+1)-A238335(n+1))`
--/
-
-namespace A238334.P7686026248772721649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (2 * A238335 (n + 1) - A238335 (n + 1)).toNat
-
-end
-
-end A238334.P7686026248772721649
 
 /-!
 # A238335: Square roots of numbers in A238334.

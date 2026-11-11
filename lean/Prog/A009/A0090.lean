@@ -77,7 +77,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import SequenceMachineLib.Triangle
 
 /-!
 # A009000: Ordered hypotenuse numbers (squares are sums of 2 distinct nonzero squares).
@@ -1493,21 +1492,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009004.P1456133023248406394
-
-/-! ## A009004.P4772786901252365282
-
-`row(A081053(A389514(3*n+1)+1)-1)+1`
--/
-
-namespace A009004.P4772786901252365282
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (A081053 (A389514 (3 * n + 1) + 1).toNat - 1).toNat + 1
-
-end
-
-end A009004.P4772786901252365282
 
 /-! ## A009004.P6756563368231312115
 

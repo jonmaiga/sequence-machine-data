@@ -3603,6 +3603,21 @@ end
 
 end A194342.P721693625917487383
 
+/-! ## A194342.P3218747072902730836
+
+`A063056(A391528(n+2))`
+-/
+
+namespace A194342.P3218747072902730836
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063056 (A391528 (n + 2)).toNat
+
+end
+
+end A194342.P3218747072902730836
+
 /-!
 # A194343: Triangular array: g(n,k)=number of fractional parts (i*r) in interval [(k-1)/n, k/n], for 1<=i<=n^2, 1<=k<=n, r=3-e.
 

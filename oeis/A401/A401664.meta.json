@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of convergents to log_2(9).",
+  "id": "A401664",
+  "mentions": [
+    "A005663",
+    "A005664",
+    "A020861",
+    "A028510",
+    "A401355"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

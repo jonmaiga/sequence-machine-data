@@ -23,7 +23,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -36,12 +35,13 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
@@ -2401,6 +2401,32 @@ theorem P3889666147541299354.correct : P3889666147541299354.Spec := by
 
 end A078615
 
+/-! ## A078615.P2689721209623583818
+
+`(-1)^A001221(n+1)*∑{d}[n+1, A008683(#)*A001157(#)]`
+-/
+
+namespace A078615.P2689721209623583818
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (-1 : ℚ) ^ (A001221 (n + 1) : ℤ) * ((∑ d ∈ Nat.divisors (f1 n), A008683 d * A001157 d : ℤ) : ℚ)
+
+end
+
+end A078615.P2689721209623583818
+
+namespace A078615
+
+/-- `(-1)^A001221(n+1)*∑{d}[n+1, A008683(#)*A001157(#)]` -/
+def P2689721209623583818.Spec : Prop :=
+  ∀ n, P2689721209623583818.a n = (A078615 (n + 1) : ℚ)
+
+end A078615
+
 /-! ## A078615.P1503732226277313211
 
 `∏{p}[1+n, #²]`
@@ -2878,29 +2904,6 @@ namespace A078615
 /-- `A053143(A066990(n+1))` -/
 def P1215172553518570618.Spec : Prop :=
   ∀ n, P1215172553518570618.a n = A078615 (n + 1)
-
-end A078615
-
-/-! ## A078615.P10611049299922480198
-
-`A062503(A322590(n+1))`
--/
-
-namespace A078615.P10611049299922480198
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062503 (A322590 (n + 1)).toNat
-
-end
-
-end A078615.P10611049299922480198
-
-namespace A078615
-
-/-- `A062503(A322590(n+1))` -/
-def P10611049299922480198.Spec : Prop :=
-  ∀ n, P10611049299922480198.a n = A078615 (n + 1)
 
 end A078615
 

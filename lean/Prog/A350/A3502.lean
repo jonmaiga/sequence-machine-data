@@ -20,9 +20,9 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
@@ -32,7 +32,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B001.C000
@@ -1787,6 +1786,21 @@ end
 
 end A350234.P13172136958998779715
 
+/-! ## A350234.P17555047194990162148
+
+`A050504(A187829(n+2))`
+-/
+
+namespace A350234.P17555047194990162148
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050504 (A187829 (n + 2)).toNat
+
+end
+
+end A350234.P17555047194990162148
+
 /-! ## A350234.P1443473088840393538
 
 `A050504(A239849(∑[n+1]))`
@@ -1804,21 +1818,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A350234.P1443473088840393538
-
-/-! ## A350234.P36554646006036801
-
-`A050504(n+2)%A066408(2*(n+1))`
--/
-
-namespace A350234.P36554646006036801
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A050504 (n + 2)) (A066408 (2 * (n + 1)))
-
-end
-
-end A350234.P36554646006036801
 
 /-!
 # A350235: a(n) is the least k such that A350226(k) = n.

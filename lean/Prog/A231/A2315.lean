@@ -9195,27 +9195,6 @@ end
 end A231570.P14152912172802485915
 
 /-!
-# A231572: Composite numbers n such that lambda(n) divides 5n-5, where lambda is the Carmichael lambda function (A002322).
-
-The programs for A231572, there is no canonical definition to state claims against.
--/
-
-/-! ## A231572.P14104304631736282168
-
-`A020160(A032793(n+1)%A264598(3*n+5))`
--/
-
-namespace A231572.P14104304631736282168
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020160 (Int.tmod (A032793 (n + 1)) (A264598 (3 * n + 5))).toNat
-
-end
-
-end A231572.P14104304631736282168
-
-/-!
 # A231574: Primes in A001590.
 
 The programs for A231574, there is no canonical definition to state claims against.

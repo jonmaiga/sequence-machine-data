@@ -2,8 +2,10 @@
   "description": "Number of ON cells after n generations of cellular automaton based on a hexagonal grid and starting with two adjacent ON cells where an OFF cell is turned ON if exactly two of its six neighbors are ON.",
   "id": "A338097",
   "mentions": [
+    "A008458",
     "A151731",
-    "A338098"
+    "A338098",
+    "A374338"
   ],
   "tags": [
     "nonn"

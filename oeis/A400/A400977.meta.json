@@ -1,0 +1,22 @@
+{
+  "description": "Start with a set of four adjacent collinear points in a hexagonal lattice. Every iteration, add to the set the lattice points which are adjacent to exactly two points already in the set, only if those two points are adjacent to each other. This sequence gives the number of points in the set after n iterations.",
+  "id": "A400977",
+  "mentions": [
+    "A008458",
+    "A338097",
+    "A374338",
+    "A400002",
+    "A400699",
+    "A400700",
+    "A400701",
+    "A400975"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

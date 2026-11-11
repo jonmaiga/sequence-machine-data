@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A017665(k) is equal to A401375(k), where A017665(n) = sigma(n)/gcd(n,sigma(n)) and A401375(n) is the largest divisor of sigma(n) coprime with n, where sigma is the sum of divisors function.",
+  "id": "A401711",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A401375",
+    "A401710",
+    "A401712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

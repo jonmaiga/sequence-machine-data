@@ -5331,6 +5331,21 @@ end
 
 end A222956.P13119384176211271933
 
+/-! ## A222956.P7852091739996415882
+
+`A222957(n+1)/A222955(n+1)`
+-/
+
+namespace A222956.P7852091739996415882
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A222957 (n + 1) : ℚ) / (A222955 (n + 1) : ℚ)
+
+end
+
+end A222956.P7852091739996415882
+
 /-!
 # A222957: Number of nX5 0..1 arrays with every row and column least squares fitting to a zero slope straight line, with a single point array taken as having zero slope.
 
@@ -5546,21 +5561,6 @@ end A222958.P12295932437793931162
 
 The programs for A222959, there is no canonical definition to state claims against.
 -/
-
-/-! ## A222959.P7622854730028771567
-
-`A217871(A223747(n+1))`
--/
-
-namespace A222959.P7622854730028771567
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217871 (A223747 (n + 1)).toNat
-
-end
-
-end A222959.P7622854730028771567
 
 /-! ## A222959.P5850614073632243612
 

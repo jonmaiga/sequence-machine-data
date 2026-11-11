@@ -76,6 +76,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -463,6 +464,29 @@ namespace A239304
 /-- `A209278(A057027(A064789(A057027(n+1))))` -/
 def P11192887659201181254.Spec : Prop :=
   ∀ n, P11192887659201181254.a n = A239304 (n + 1)
+
+end A239304
+
+/-! ## A239304.P11746043446088869860
+
+`A209278(A209293(A064789(A209293(n+1))))`
+-/
+
+namespace A239304.P11746043446088869860
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209278 (A209293 (A064789 (A209293 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A239304.P11746043446088869860
+
+namespace A239304
+
+/-- `A209278(A209293(A064789(A209293(n+1))))` -/
+def P11746043446088869860.Spec : Prop :=
+  ∀ n, P11746043446088869860.a n = A239304 (n + 1)
 
 end A239304
 
@@ -4704,6 +4728,29 @@ def P92364851365545457.Spec : Prop :=
 
 end A239352
 
+/-! ## A239352.P17557948701708704021
+
+`C(n, 2)²+3*C(n, 3)`
+-/
+
+namespace A239352.P17557948701708704021
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose n 2 ^ 2 + 3 * Nat.choose n 3
+
+end
+
+end A239352.P17557948701708704021
+
+namespace A239352
+
+/-- `C(n, 2)²+3*C(n, 3)` -/
+def P17557948701708704021.Spec : Prop :=
+  ∀ n, (P17557948701708704021.a n : ℤ) = A239352 n
+
+end A239352
+
 /-! ## A239352.P12185149567905567339
 
 `C(n², 2)/2-n²+n`
@@ -5084,29 +5131,6 @@ namespace A239352
 /-- `A060354(n)+A161680(n)²-n` -/
 def P14722019760165119140.Spec : Prop :=
   ∀ n, P14722019760165119140.a n = A239352 n
-
-end A239352
-
-/-! ## A239352.P17939229070524821175
-
-`A117662(n)+A257055(n)-n²`
--/
-
-namespace A239352.P17939229070524821175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117662 n + (A257055 n - (n ^ 2 : ℤ))
-
-end
-
-end A239352.P17939229070524821175
-
-namespace A239352
-
-/-- `A117662(n)+A257055(n)-n²` -/
-def P17939229070524821175.Spec : Prop :=
-  ∀ n, P17939229070524821175.a n = A239352 n
 
 end A239352
 

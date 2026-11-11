@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that min(A001055(k), A001055(k+1)) is larger than the corresponding values of all previous numbers.",
+  "id": "A401289",
+  "mentions": [
+    "A001055",
+    "A028422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

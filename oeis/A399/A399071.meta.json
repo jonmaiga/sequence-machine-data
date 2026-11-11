@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive integers k that minimize the Euclidean distance from point P_i to P_(i+k), where P_i = (i*cos(i), i*sin(i)), for integers i >= 1, after removing consecutive duplicates.",
+  "id": "A399071",
+  "mentions": [
+    "A000045",
+    "A046955"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

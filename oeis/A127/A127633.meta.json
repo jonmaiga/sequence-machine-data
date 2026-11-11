@@ -2,7 +2,12 @@
   "description": "Pure numbers in the Collatz (3x+1) iteration that are not multiples of 3.",
   "id": "A127633",
   "mentions": [
-    "A061641"
+    "A000265",
+    "A006370",
+    "A061641",
+    "A075677",
+    "A099730",
+    "A139391"
   ],
   "tags": [
     "formulas",

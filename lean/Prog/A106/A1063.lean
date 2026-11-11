@@ -32,7 +32,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
@@ -3011,6 +3010,50 @@ end
 
 end A106323.P2771012514623381726
 
+/-! ## A106323.P13314296017323676843
+
+`∩[A035123(n+1), A112055(n+1)]`
+-/
+
+namespace A106323.P13314296017323676843
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035123 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112055 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106323.P13314296017323676843
+
+/-! ## A106323.P12821270143841717656
+
+`∩[A035123(n+1), A233998(n+1)]`
+-/
+
+namespace A106323.P12821270143841717656
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035123 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233998 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106323.P12821270143841717656
+
 /-!
 # A106325: Smallest semiprime not less than n.
 
@@ -4590,20 +4633,20 @@ end
 
 end A106336.P11001539305892480850
 
-/-! ## A106336.P14947540867484676529
+/-! ## A106336.P1720517717567008226
 
-`(n+1)^A008683(A063535(n))*A286180(A056220(n+1))`
+`A226974(A004881(n+1))`
 -/
 
-namespace A106336.P14947540867484676529
+namespace A106336.P1720517717567008226
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ) * (A286180 (A056220 (n + 1)).toNat : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226974 (A004881 (n + 1)).toNat
 
 end
 
-end A106336.P14947540867484676529
+end A106336.P1720517717567008226
 
 /-!
 # A106337: Number of ways of writing n as the sum of n triangular numbers.

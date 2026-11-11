@@ -1,0 +1,13 @@
+{
+  "description": "Least positive integer k such that j is squarefree if and only if j+k is squarefree for every j from 1 to n.",
+  "id": "A401757",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

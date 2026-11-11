@@ -34,10 +34,10 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -95,7 +95,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3421,6 +3420,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194638.P8906052112040438856
+
+/-! ## A194638.P13760685686341167885
+
+`A034694(A194603(2*n+1)-1)`
+-/
+
+namespace A194638.P13760685686341167885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034694 (A194603 (2 * n + 1) - 1).toNat
+
+end
+
+end A194638.P13760685686341167885
 
 /-!
 # A194639: Indices of records in A194591 when it is restricted to odd indices.
@@ -7137,6 +7151,21 @@ end
 
 end A194693.P2381076032160251029
 
+/-! ## A194693.P17045290305053085285
+
+`A390532(A194696(n+1))`
+-/
+
+namespace A194693.P17045290305053085285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A194696 (n + 1)).toNat
+
+end
+
+end A194693.P17045290305053085285
+
 /-! ## A194693.P11322421198962063029
 
 `A004524(A194696(n+1)+1)`
@@ -7226,21 +7255,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194693.P14885263962159403536
-
-/-! ## A194693.P489682176326347672
-
-`A194692(n+1)-A194692(n)`
--/
-
-namespace A194693.P489682176326347672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194692 (n + 1) - A194692 n
-
-end
-
-end A194693.P489682176326347672
 
 /-!
 # A194694: Corner sequence associated with A194442 and A194443.

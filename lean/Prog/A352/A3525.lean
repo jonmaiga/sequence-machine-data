@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
@@ -2411,21 +2412,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352523.P9692822744255763100
-
-/-! ## A352523.P17854224216051899486
-
-`and(A193592(n), A348601(A338863(n)))`
--/
-
-namespace A352523.P17854224216051899486
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A193592 n) (A348601 (A338863 n).toNat)
-
-end
-
-end A352523.P17854224216051899486
 
 /-! ## A352523.P8084494312167362294
 

@@ -58,6 +58,7 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -7241,6 +7242,21 @@ end A303387.P5830369275973317173
 The programs for A303389, there is no canonical definition to state claims against.
 -/
 
+/-! ## A303389.P8051046388122622608
+
+`A401379(A056185(n))`
+-/
+
+namespace A303389.P8051046388122622608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401379 (A056185 n).toNat
+
+end
+
+end A303389.P8051046388122622608
+
 /-! ## A303389.P12053006887630337202
 
 `∑{p}[A239242(n)+A077946(n), A001221(#)]`
@@ -7303,21 +7319,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303389.P5927707575006537282
-
-/-! ## A303389.P104576038561961050
-
-`A001221(A217932(n+1)-A051263(n))`
--/
-
-namespace A303389.P104576038561961050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A217932 (n + 1) - A051263 n).toNat
-
-end
-
-end A303389.P104576038561961050
 
 /-!
 # A303390: Expansion of Product_{k>=1} (1 + 3*x^k)/(1 - 3*x^k).

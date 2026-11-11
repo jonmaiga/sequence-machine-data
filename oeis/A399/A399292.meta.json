@@ -1,0 +1,20 @@
+{
+  "description": "Maximum span of an admissible tuple with consecutive gaps at most 2n.",
+  "id": "A399292",
+  "mentions": [
+    "A008407",
+    "A023193",
+    "A292224",
+    "A399821",
+    "A400690"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

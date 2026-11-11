@@ -61,6 +61,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
@@ -15105,26 +15106,30 @@ def P4065885617309611443.Spec : Prop :=
 
 end A171581
 
-/-! ## A171581.P10018794965220077220
+/-! ## A171581.P10118419739984032956
 
-`A282649(A004274(n+1))`
+`comp[A087243(n+2)]`
 -/
 
-namespace A171581.P10018794965220077220
+namespace A171581.P10118419739984032956
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A282649 (A004274 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087243 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A171581.P10018794965220077220
+end A171581.P10118419739984032956
 
 namespace A171581
 
-/-- `A282649(A004274(n+1))` -/
-def P10018794965220077220.Spec : Prop :=
-  ∀ n, P10018794965220077220.a n = A171581 (n + 1)
+/-- `comp[A087243(n+2)]` -/
+def P10118419739984032956.Spec : Prop :=
+  ∀ n, (P10118419739984032956.a n : ℤ) = A171581 (n + 1)
 
 end A171581
 

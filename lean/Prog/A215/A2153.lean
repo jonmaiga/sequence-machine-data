@@ -44,8 +44,10 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -10672,26 +10674,29 @@ end A215334.P12606876906822508472
 /-!
 # A215335: Cyclically smooth Lyndon words with 3 colors.
 
-The programs for A215335, there is no canonical definition to state claims against.
+The programs for A215335, the canonical program `A215335.P4210837503247512672` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215335 has offset 1).
+
+The definition of A215335 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A215335.P4210837503247512672
 
 `∑{d}[n+1, A008683(#)*A208772((n+1)/#)]`
+
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
-namespace A215335.P4210837503247512672
-noncomputable section
+namespace A215335
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A008683(#)*A208772((n+1)/#)]` -/
+def P4210837503247512672.Spec : Prop :=
+  ∀ n, P4210837503247512672.a n = A215335 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A008683 d * A208772 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+theorem P4210837503247512672.correct : P4210837503247512672.Spec := by
+  intro n
+  simp only [A215335, Nat.add_sub_cancel]
 
-end
-
-end A215335.P4210837503247512672
+end A215335
 
 /-! ## A215335.P12609181473378300956
 
@@ -10708,6 +10713,14 @@ end
 
 end A215335.P12609181473378300956
 
+namespace A215335
+
+/-- `A006206(n+1)+A308448(n+1)+A000007(n)` -/
+def P12609181473378300956.Spec : Prop :=
+  ∀ n, P12609181473378300956.a n = A215335 (n + 1)
+
+end A215335
+
 /-! ## A215335.P15326686593543397397
 
 `A208772(n+1)+A215328(n+1)-A215327(n+1)`
@@ -10722,6 +10735,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A215335.P15326686593543397397
+
+namespace A215335
+
+/-- `A208772(n+1)+A215328(n+1)-A215327(n+1)` -/
+def P15326686593543397397.Spec : Prop :=
+  ∀ n, P15326686593543397397.a n = A215335 (n + 1)
+
+end A215335
 
 /-!
 # A215336: Cyclically smooth Lyndon words with 4 colors.
@@ -10802,26 +10823,29 @@ end A215336
 /-!
 # A215337: Cyclically smooth Lyndon words with 5 colors.
 
-The programs for A215337, there is no canonical definition to state claims against.
+The programs for A215337, the canonical program `A215337.P9039308166903629468` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215337 has offset 1).
+
+The definition of A215337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A215337.P9039308166903629468
 
 `∑{d}[n+1, A008683(#)*A208774((n+1)/#)]`
+
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
-namespace A215337.P9039308166903629468
-noncomputable section
+namespace A215337
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A008683(#)*A208774((n+1)/#)]` -/
+def P9039308166903629468.Spec : Prop :=
+  ∀ n, P9039308166903629468.a n = A215337 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A008683 d * A208774 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+theorem P9039308166903629468.correct : P9039308166903629468.Spec := by
+  intro n
+  simp only [A215337, Nat.add_sub_cancel]
 
-end
-
-end A215337.P9039308166903629468
+end A215337
 
 /-! ## A215337.P5283051040239217605
 
@@ -10838,29 +10862,40 @@ end
 
 end A215337.P5283051040239217605
 
+namespace A215337
+
+/-- `A215332(n+1)+A208774(n+1)-A215331(n+1)` -/
+def P5283051040239217605.Spec : Prop :=
+  ∀ n, P5283051040239217605.a n = A215337 (n + 1)
+
+end A215337
+
 /-!
 # A215338: Cyclically smooth Lyndon words with 7 colors.
 
-The programs for A215338, there is no canonical definition to state claims against.
+The programs for A215338, the canonical program `A215338.P2486981359187120781` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215338 has offset 1).
+
+The definition of A215338 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A215338.P2486981359187120781
 
 `∑{d}[n+1, A008683(#)*A208776((n+1)/#)]`
+
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
-namespace A215338.P2486981359187120781
-noncomputable section
+namespace A215338
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A008683(#)*A208776((n+1)/#)]` -/
+def P2486981359187120781.Spec : Prop :=
+  ∀ n, P2486981359187120781.a n = A215338 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A008683 d * A208776 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+theorem P2486981359187120781.correct : P2486981359187120781.Spec := by
+  intro n
+  simp only [A215338, Nat.add_sub_cancel]
 
-end
-
-end A215338.P2486981359187120781
+end A215338
 
 /-! ## A215338.P8004498043106556253
 
@@ -10876,6 +10911,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A215338.P8004498043106556253
+
+namespace A215338
+
+/-- `A208776(n+1)+A215334(n+1)-A215333(n+1)` -/
+def P8004498043106556253.Spec : Prop :=
+  ∀ n, P8004498043106556253.a n = A215338 (n + 1)
+
+end A215338
 
 /-!
 # A215339: a(n) = A001608(n) mod n.

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k with no p^p-divisors, for which A276085(k) is a multiple of A342001(k) and A003415(k) is a multiple of A276085(k), where A342001(k) = A003415(k)/A003557(k), and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401726",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A048103",
+    "A276085",
+    "A276086",
+    "A342001",
+    "A373490",
+    "A400171",
+    "A401718",
+    "A401719",
+    "A401725"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

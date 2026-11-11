@@ -38,6 +38,7 @@ import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
@@ -71,7 +72,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -1782,6 +1782,35 @@ def P10151270192749136767.Spec : Prop :=
 
 end A278617
 
+/-! ## A278617.P12296680984193040430
+
+`fp[record[A363997(n+2)]]`
+-/
+
+namespace A278617.P12296680984193040430
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363997 (n + 2)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+
+end
+
+end A278617.P12296680984193040430
+
+namespace A278617
+
+/-- `fp[record[A363997(n+2)]]` -/
+def P12296680984193040430.Spec : Prop :=
+  ∀ n, (P12296680984193040430.a n : ℤ) = A278617 (n + 1)
+
+end A278617
+
 /-! ## A278617.P14222749001100725138
 
 `fp[A005097(n+1)+1]`
@@ -1831,36 +1860,6 @@ namespace A278617
 /-- `fp[A098090(n+1)-1]` -/
 def P16785544312665984999.Spec : Prop :=
   ∀ n, (P16785544312665984999.a n : ℤ) = A278617 (n + 1)
-
-end A278617
-
-/-! ## A278617.P5082818163311457410
-
-`∑[char[A067076(n+1)+2]]`
--/
-
-namespace A278617.P5082818163311457410
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067076 (n + 1) + 2
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A278617.P5082818163311457410
-
-namespace A278617
-
-/-- `∑[char[A067076(n+1)+2]]` -/
-def P5082818163311457410.Spec : Prop :=
-  ∀ n, (P5082818163311457410.a n : ℤ) = A278617 (n + 1)
 
 end A278617
 

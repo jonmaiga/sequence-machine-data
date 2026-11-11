@@ -4842,6 +4842,35 @@ theorem P9582057023109216560.correct : P9582057023109216560.Spec := by
 
 end A006234
 
+/-! ## A006234.P4864821444233931396
+
+`2^n*∑{#}[n, #*2^-#*C(n, #)]+2^n*∑{#}[n, 2^-#*C(n, #)]`
+-/
+
+namespace A006234.P4864821444233931396
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (k : ℚ) * (2 : ℚ) ^ (-(k : ℤ) : ℤ) * (Nat.choose n k : ℚ)) + (2 ^ n : ℚ) * (∑ k ∈ Finset.range (f2 n + 1), (2 : ℚ) ^ (-(k : ℤ) : ℤ) * (Nat.choose n k : ℚ))
+
+end
+
+end A006234.P4864821444233931396
+
+namespace A006234
+
+/-- `2^n*∑{#}[n, #*2^-#*C(n, #)]+2^n*∑{#}[n, 2^-#*C(n, #)]` -/
+def P4864821444233931396.Spec : Prop :=
+  ∀ n, P4864821444233931396.a n = (A006234 (n + 3) : ℚ)
+
+end A006234
+
 /-! ## A006234.P4676131763456770072
 
 `Δ[A392266(n)]`
@@ -5095,29 +5124,6 @@ namespace A006234
 /-- `A274499(n)+A133125(n)` -/
 def P8096274115116307506.Spec : Prop :=
   ∀ n, P8096274115116307506.a n = A006234 (n + 3)
-
-end A006234
-
-/-! ## A006234.P3005617721225762793
-
-`A140429(n)+A064017(n+1)`
--/
-
-namespace A006234.P3005617721225762793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140429 n + A064017 (n + 1)
-
-end
-
-end A006234.P3005617721225762793
-
-namespace A006234
-
-/-- `A140429(n)+A064017(n+1)` -/
-def P3005617721225762793.Spec : Prop :=
-  ∀ n, P3005617721225762793.a n = A006234 (n + 3)
 
 end A006234
 
@@ -9023,26 +9029,26 @@ def P566666326719549070.Spec : Prop :=
 
 end A006261
 
-/-! ## A006261.P14496049304227217021
+/-! ## A006261.P14047091575940171586
 
-`n+1+C(n, 3)+C(n, 5)+C(n, 2)+C(n, 4)`
+`n+1+C(n, 2)+C(n, 3)+C(n, 4)+C(n, 5)`
 -/
 
-namespace A006261.P14496049304227217021
+namespace A006261.P14047091575940171586
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + (1 + Nat.choose n 3 + Nat.choose n 5 + Nat.choose n 2 + Nat.choose n 4)
+  n + (1 + Nat.choose n 2 + Nat.choose n 3 + Nat.choose n 4 + Nat.choose n 5)
 
 end
 
-end A006261.P14496049304227217021
+end A006261.P14047091575940171586
 
 namespace A006261
 
-/-- `n+1+C(n, 3)+C(n, 5)+C(n, 2)+C(n, 4)` -/
-def P14496049304227217021.Spec : Prop :=
-  ∀ n, (P14496049304227217021.a n : ℤ) = A006261 n
+/-- `n+1+C(n, 2)+C(n, 3)+C(n, 4)+C(n, 5)` -/
+def P14047091575940171586.Spec : Prop :=
+  ∀ n, (P14047091575940171586.a n : ℤ) = A006261 n
 
 end A006261
 

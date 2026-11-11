@@ -515,6 +515,121 @@ def P13196455773849916734.Spec : Prop :=
 
 end A228403
 
+/-! ## A228403.P7671315436044067132
+
+`A000108(n+1)*A040000(n)`
+-/
+
+namespace A228403.P7671315436044067132
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000108 (n + 1) * A040000 n
+
+end
+
+end A228403.P7671315436044067132
+
+namespace A228403
+
+/-- `A000108(n+1)*A040000(n)` -/
+def P7671315436044067132.Spec : Prop :=
+  ∀ n, P7671315436044067132.a n = A228403 (n + 1)
+
+end A228403
+
+/-! ## A228403.P6683516677623467328
+
+`A128634(n+1)+A036453(n+1)`
+-/
+
+namespace A228403.P6683516677623467328
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128634 (n + 1) + A036453 (n + 1)
+
+end
+
+end A228403.P6683516677623467328
+
+namespace A228403
+
+/-- `A128634(n+1)+A036453(n+1)` -/
+def P6683516677623467328.Spec : Prop :=
+  ∀ n, P6683516677623467328.a n = A228403 (n + 1)
+
+end A228403
+
+/-! ## A228403.P3695360790994481248
+
+`A132788(n+1)+A087156(n+1)`
+-/
+
+namespace A228403.P3695360790994481248
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132788 (n + 1) + A087156 (n + 1)
+
+end
+
+end A228403.P3695360790994481248
+
+namespace A228403
+
+/-- `A132788(n+1)+A087156(n+1)` -/
+def P3695360790994481248.Spec : Prop :=
+  ∀ n, P3695360790994481248.a n = A228403 (n + 1)
+
+end A228403
+
+/-! ## A228403.P11647639536412786026
+
+`A000108(n+1)*A040001(2*n)`
+-/
+
+namespace A228403.P11647639536412786026
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000108 (n + 1) * A040001 (2 * n)
+
+end
+
+end A228403.P11647639536412786026
+
+namespace A228403
+
+/-- `A000108(n+1)*A040001(2*n)` -/
+def P11647639536412786026.Spec : Prop :=
+  ∀ n, P11647639536412786026.a n = A228403 (n + 1)
+
+end A228403
+
+/-! ## A228403.P8767660520288697608
+
+`A000108(n+1)*A152765(2*n)`
+-/
+
+namespace A228403.P8767660520288697608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000108 (n + 1) * A152765 (2 * n)
+
+end
+
+end A228403.P8767660520288697608
+
+namespace A228403
+
+/-- `A000108(n+1)*A152765(2*n)` -/
+def P8767660520288697608.Spec : Prop :=
+  ∀ n, P8767660520288697608.a n = A228403 (n + 1)
+
+end A228403
+
 /-!
 # A228404: The number of complete binary trees with bicolored twigs. A twig is a vertex with one child on the boundary and the other child having no descendants.
 
@@ -8169,29 +8284,29 @@ def P11253592445866569121.Spec : Prop :=
 
 end A228484
 
-/-! ## A228484.P12364153444041225888
+/-! ## A228484.P13020395206827868412
 
-`∑{#}[n, C(n, #)*C(3*n, n)]`
+`C(3*n, n)*∑{#}[n, C(n, #)]`
 -/
 
-namespace A228484.P12364153444041225888
+namespace A228484.P13020395206827868412
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.choose (3 * n) n
+  Nat.choose (3 * n) n * (∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k)
 
 end
 
-end A228484.P12364153444041225888
+end A228484.P13020395206827868412
 
 namespace A228484
 
-/-- `∑{#}[n, C(n, #)*C(3*n, n)]` -/
-def P12364153444041225888.Spec : Prop :=
-  ∀ n, (P12364153444041225888.a n : ℤ) = A228484 n
+/-- `C(3*n, n)*∑{#}[n, C(n, #)]` -/
+def P13020395206827868412.Spec : Prop :=
+  ∀ n, (P13020395206827868412.a n : ℤ) = A228484 n
 
 end A228484
 

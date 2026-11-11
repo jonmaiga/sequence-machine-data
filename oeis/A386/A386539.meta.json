@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the maximum possible area of a polygon within a ellipse with integer axis n and k, where n >= k >= 1 and both the center and the vertices lie on points of a unit square grid.",
+  "description": "Triangle read by rows: T(n,k) is the maximum possible area of a polygon within an ellipse with integer axes n and k, where n >= k >= 1 and both the center and the vertices lie on points of a unit square grid.",
   "id": "A386539",
   "mentions": [
     "A000217",

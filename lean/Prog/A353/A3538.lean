@@ -34,7 +34,7 @@ import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7710,28 +7710,27 @@ end
 
 end A353838.P4949045083745028434
 
-/-! ## A353838.P11664693275014796156
+/-! ## A353838.P5607690131387385573
 
-`comp[comp[A005117(n+1)]*A151548(n)]`
+`∪[A050761(n), A299702(n+1)]`
 -/
 
-namespace A353838.P11664693275014796156
+namespace A353838.P5607690131387385573
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005117 (n + 1)
-
-open Classical in
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n : ℤ) * A151548 n
+  A050761 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299702 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A353838.P11664693275014796156
+end A353838.P5607690131387385573
 
 /-!
 # A353839: Numbers whose prime indices do not have all distinct run-sums.
@@ -8373,21 +8372,6 @@ end A353847.P2265694407746151213
 The programs for A353848, there is no canonical definition to state claims against.
 -/
 
-/-! ## A353848.P10945287852326750601
-
-`A353857(A028310(n))%A029508(n+1)`
--/
-
-namespace A353848.P10945287852326750601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A353857 (A028310 n).toNat) (A029508 (n + 1))
-
-end
-
-end A353848.P10945287852326750601
-
 /-! ## A353848.P16938790180731751069
 
 `lt[A353849(n), 2]`
@@ -8471,6 +8455,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A353848.P7765077907934410311
+
+/-! ## A353848.P2543923196260461001
+
+`eq[A053644(n), A353855(n)]`
+-/
+
+namespace A353848.P2543923196260461001
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053644 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353855 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A353848.P2543923196260461001
 
 /-!
 # A353849: Number of distinct positive run-sums of the n-th composition in standard order.
@@ -10017,6 +10022,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A353866.P12405763583442788474
+
+/-! ## A353866.P6717223389472501317
+
+`filter[A353838(n+1), A168185(#)]`
+-/
+
+namespace A353866.P6717223389472501317
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353838 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A168185 (f1 j).toNat = 1) n)
+
+end
+
+end A353866.P6717223389472501317
 
 /-!
 # A353867: Heinz numbers of integer partitions where every partial run (consecutive constant subsequence) has a different sum, and these sums include every integer from 0 to the greatest part.
@@ -12128,6 +12151,32 @@ namespace A353887
 /-- `filter[A002061(n+1), A353519(#)]` -/
 def P7353694664896725481.Spec : Prop :=
   ∀ n, P7353694664896725481.a n = A353887 (n + 1)
+
+end A353887
+
+/-! ## A353887.P10921911710290031732
+
+`filter[A002061(n+1), A353559(#)]`
+-/
+
+namespace A353887.P10921911710290031732
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002061 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353559 (f1 j).toNat = 1) n)
+
+end
+
+end A353887.P10921911710290031732
+
+namespace A353887
+
+/-- `filter[A002061(n+1), A353559(#)]` -/
+def P10921911710290031732.Spec : Prop :=
+  ∀ n, P10921911710290031732.a n = A353887 (n + 1)
 
 end A353887
 

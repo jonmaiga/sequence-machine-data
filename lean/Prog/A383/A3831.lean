@@ -1105,6 +1105,28 @@ end
 
 end A383110.P14874715261007903444
 
+/-! ## A383110.P17567161835365588099
+
+`∩[A326841(n+1), A401711(n+1)]`
+-/
+
+namespace A383110.P17567161835365588099
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326841 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401711 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A383110.P17567161835365588099
+
 /-! ## A383110.P4825973879111912936
 
 `∪[A032835(1+n), A353833(n+1)]`
@@ -1258,28 +1280,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A383110.P14113375151897784879
-
-/-! ## A383110.P17714538498117672237
-
-`∪[A383015(n+1), A383099(n+1)]`
--/
-
-namespace A383110.P17714538498117672237
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383015 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383099 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A383110.P17714538498117672237
 
 /-!
 # A383112: Numbers whose multiset of prime indices has exactly one permutation with all equal run-lengths.
@@ -5128,6 +5128,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383182.P15742051996705901517
+
+/-! ## A383182.P752844808779361176
+
+`A056503(2*n+1)-A045683(2*n+1)`
+-/
+
+namespace A383182.P752844808779361176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056503 (2 * n + 1) - A045683 (2 * n + 1)
+
+end
+
+end A383182.P752844808779361176
+
+/-! ## A383182.P11667115382116707989
+
+`A045674(2*n+1)-A056513(2*n+1)`
+-/
+
+namespace A383182.P11667115382116707989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045674 (2 * n + 1) - A056513 (2 * n + 1)
+
+end
+
+end A383182.P11667115382116707989
 
 /-!
 # A383185: Number of the square visited by a king moving on a spirally numbered board always to the lowest available unvisited square, when a wall delimiting the spiral must be crossed on each move.

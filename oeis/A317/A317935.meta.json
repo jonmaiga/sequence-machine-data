@@ -2,6 +2,7 @@
   "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A003557, n divided by largest squarefree divisor of n.",
   "id": "A317935",
   "mentions": [
+    "A001316",
     "A003557",
     "A046644",
     "A300717",

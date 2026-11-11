@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 10; for n>1, a(n) = (a(n-1)-1) * (smallest odd prime factor of a(n-1)) + 1.",
   "id": "A242462",
-  "mentions": [],
+  "mentions": [
+    "A078701"
+  ],
   "tags": [
     "nonn"
   ],

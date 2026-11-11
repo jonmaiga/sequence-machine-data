@@ -24,6 +24,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -3327,7 +3328,7 @@ end A298233.P18356631656453513418
 /-!
 # A298234: Number of nX2 0..1 arrays with every element equal to 0, 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A298234, the canonical program `A298234.P2814153893250768694` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298234 has offset 1).
+The programs for A298234, the canonical program `A298234.P2814153893250768694` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298234 has offset 1).
 
 The definition of A298234 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3359,7 +3360,7 @@ end A298234
 
 `a(n-1)+5*a(n-2)+4*a(n-3)` with `a(0)=1, a(1)=5, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A298234
@@ -5561,7 +5562,7 @@ end A298262.P16405470246946780287
 /-!
 # A298267: a(n) is the maximum number of heptiamonds in a hexagon of order n.
 
-The programs for A298267, the canonical program `A298267.P2415672189885152104` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298267 has offset 0).
+The programs for A298267, the canonical program `A298267.P2415672189885152104` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298267 has offset 0).
 
 The definition of A298267 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5616,7 +5617,7 @@ end A298267
 
 `2*a(n-1)-a(n-2)+a(n-7)-2*a(n-8)+a(n-9)` with `a(0)=0, a(1)=3, a(2)=7, a(3)=13, a(4)=21, a(5)=30, a(6)=42, a(7)=54, a(8)=69`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A298267
@@ -6294,7 +6295,7 @@ end A298270.P375242474985250492
 /-!
 # A298271: Expansion of x/((1 - x)*(1 - 322*x + x^2)).
 
-The programs for A298271, the canonical program `A298271.P4561047088455179864` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298271 has offset 0).
+The programs for A298271, the canonical program `A298271.P4561047088455179864` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298271 has offset 0).
 
 The definition of A298271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6303,7 +6304,7 @@ The definition of A298271 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `323*a(n-1)-323*a(n-2)+a(n-3)` with `a(0)=0, a(1)=1, a(2)=323`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A298271
@@ -7118,7 +7119,7 @@ end A298281.P4250066786881898036
 /-!
 # A298282: Number of n X 3 0..1 arrays with every element equal to 0, 1, 2, 3 or 6 king-move adjacent elements, with upper left element zero.
 
-The programs for A298282, the canonical program `A298282.P815324383407599193` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298282 has offset 1).
+The programs for A298282, the canonical program `A298282.P815324383407599193` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298282 has offset 1).
 
 The definition of A298282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7127,7 +7128,7 @@ The definition of A298282 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+13x-x^2+12x^3+3x^4-13x^5-8x^6-19x^7-13x^8-7x^9-2x^10-4x^11)/(1-3x+x^2-2x^3-4x^4+x^5-2x^6+2x^7+3x^8+2x^9+2x^10+2x^11))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A298282

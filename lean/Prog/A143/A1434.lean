@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -589,26 +588,23 @@ end
 
 end A143407.P7637254292617134482
 
-/-! ## A143407.P16702456840009334441
+/-! ## A143407.P17698673497204733603
 
-`A345262(lt[A185316(n), A345262(n)])`
+`filter[A270562(n+1), A014306(#)]`
 -/
 
-namespace A143407.P16702456840009334441
+namespace A143407.P17698673497204733603
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185316 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345262 n
+  A270562 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345262 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+  f1 (SequenceMachineLib.nth (fun j => A014306 (f1 j).toNat = 1) n)
 
 end
 
-end A143407.P16702456840009334441
+end A143407.P17698673497204733603
 
 /-!
 # A143408: Number of numbers k such that the reduced totient function psi(k) = A002174(n).
@@ -3631,6 +3627,29 @@ def P13280146634776488540.Spec : Prop :=
 
 end A143433
 
+/-! ## A143433.P18404015636981066922
+
+`A010054(n)*A087960(n)`
+-/
+
+namespace A143433.P18404015636981066922
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010054 n * A087960 n
+
+end
+
+end A143433.P18404015636981066922
+
+namespace A143433
+
+/-- `A010054(n)*A087960(n)` -/
+def P18404015636981066922.Spec : Prop :=
+  ∀ n, P18404015636981066922.a n = A143433 n
+
+end A143433
+
 /-! ## A143433.P14440838326656403819
 
 `A057077(n)*A106459(n)`
@@ -3742,6 +3761,29 @@ theorem P568368968491830476.correct : P568368968491830476.Spec := by
 
 end A143433
 
+/-! ## A143433.P14967879267843409546
+
+`A143434(n)*A204172(n+1)`
+-/
+
+namespace A143433.P14967879267843409546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143434 n * A204172 (n + 1)
+
+end
+
+end A143433.P14967879267843409546
+
+namespace A143433
+
+/-- `A143434(n)*A204172(n+1)` -/
+def P14967879267843409546.Spec : Prop :=
+  ∀ n, P14967879267843409546.a n = A143433 n
+
+end A143433
+
 /-! ## A143433.P8517837537460226246
 
 `A010054(n)*A080054(n)/A210030(n)`
@@ -3762,6 +3804,52 @@ namespace A143433
 /-- `A010054(n)*A080054(n)/A210030(n)` -/
 def P8517837537460226246.Spec : Prop :=
   ∀ n, P8517837537460226246.a n = (A143433 n : ℚ)
+
+end A143433
+
+/-! ## A143433.P11057844597938915348
+
+`A010054(n)*A045828(n)/A246815(n)`
+-/
+
+namespace A143433.P11057844597938915348
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A010054 n * A045828 n : ℚ) / (A246815 n : ℚ)
+
+end
+
+end A143433.P11057844597938915348
+
+namespace A143433
+
+/-- `A010054(n)*A045828(n)/A246815(n)` -/
+def P11057844597938915348.Spec : Prop :=
+  ∀ n, P11057844597938915348.a n = (A143433 n : ℚ)
+
+end A143433
+
+/-! ## A143433.P14235841093342513959
+
+`A010054(n)*A113419(n)/A209940(n)`
+-/
+
+namespace A143433.P14235841093342513959
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A010054 n * A113419 n : ℚ) / (A209940 n : ℚ)
+
+end
+
+end A143433.P14235841093342513959
+
+namespace A143433
+
+/-- `A010054(n)*A113419(n)/A209940(n)` -/
+def P14235841093342513959.Spec : Prop :=
+  ∀ n, P14235841093342513959.a n = (A143433 n : ℚ)
 
 end A143433
 

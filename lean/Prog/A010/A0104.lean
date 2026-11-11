@@ -4494,6 +4494,28 @@ end
 
 end A010441.P11685383971014203421
 
+/-! ## A010441.P8896827034014149122
+
+`∩[A008854(n+1), A233457(n+1)]`
+-/
+
+namespace A010441.P8896827034014149122
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008854 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233457 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A010441.P8896827034014149122
+
 /-! ## A010441.P9010391054170984662
 
 `eq[and(2, A366977(n+4)), A276689(n)]`
@@ -7949,6 +7971,21 @@ end A010473.P7198517311282306869
 
 The programs for A010474, there is no canonical definition to state claims against.
 -/
+
+/-! ## A010474.P4909666240989315480
+
+`A083729(n+2-A134451(2*n))`
+-/
+
+namespace A010474.P4909666240989315480
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083729 (((n + 2 : ℤ) - A134451 (2 * n)).toNat + 1)
+
+end
+
+end A010474.P4909666240989315480
 
 /-! ## A010474.P12997810276841744541
 

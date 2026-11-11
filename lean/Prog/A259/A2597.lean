@@ -15,7 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -458,64 +458,50 @@ end
 end A259705.P3972519906474049894
 
 /-!
-# A259706: a(n) = Sum_k k*A259707(n,k).
+# A259706: a(n) = Sum_{k=0..floor((n-2)^2/4)} k * A259707(n,k).
 
-The programs for A259706, there is no canonical definition to state claims against.
+The programs for A259706, the canonical program `A259706.P11228268651792979993` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259706 has offset 1).
+
+The definition of A259706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A259706.P7809151925780778693
+/-! ## A259706.P11228268651792979993
 
-`(n+1)!*∑[and(6, n)/6]`
+`n!*floor((n-1)²/4)/3`
+
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
-namespace A259706.P7809151925780778693
+namespace A259706
+
+/-- `n!*floor((n-1)²/4)/3` -/
+def P11228268651792979993.Spec : Prop :=
+  ∀ n, P11228268651792979993.a n = (A259706 (n + 1) : ℚ)
+
+end A259706
+
+/-! ## A259706.P1148421494825844639
+
+`A025443(A052388(n))`
+-/
+
+namespace A259706.P1148421494825844639
 noncomputable section
 
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.land 6 n : ℚ) / 6
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) : ℚ) * (∑ j ∈ Finset.range (n + 1), f1 j)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025443 (A052388 n).toNat
 
 end
 
-end A259706.P7809151925780778693
+end A259706.P1148421494825844639
 
-/-! ## A259706.P171627947877965408
+namespace A259706
 
-`∑[and(6, n)/6]*∏[n+1]`
--/
+/-- `A025443(A052388(n))` -/
+def P1148421494825844639.Spec : Prop :=
+  ∀ n, P1148421494825844639.a n = A259706 (n + 1)
 
-namespace A259706.P171627947877965408
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.land 6 n : ℚ) / 6
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j) * ((∏ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℚ)
-
-end
-
-end A259706.P171627947877965408
-
-/-! ## A259706.P9980192019672772891
-
-`(n+1)!*floor((n/2)²)/3`
--/
-
-namespace A259706.P9980192019672772891
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((Nat.factorial (n + 1) : ℤ) * ⌊((n : ℚ) / 2) ^ 2⌋ : ℚ) / 3
-
-end
-
-end A259706.P9980192019672772891
+end A259706
 
 /-!
 # A259709: a(n) = A259708(n,n-1).

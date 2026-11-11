@@ -21,7 +21,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
@@ -4823,6 +4822,21 @@ end
 
 end A307546.P8861701352584018424
 
+/-! ## A307546.P7326469861528776396
+
+`A090113(A195685(n+1)+1)`
+-/
+
+namespace A307546.P7326469861528776396
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090113 (A195685 (n + 1) + 1).toNat
+
+end
+
+end A307546.P7326469861528776396
+
 /-! ## A307546.P13189667430608670563
 
 `A230980(A195685(n+1)+1)`
@@ -8841,21 +8855,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A307584.P14318986012612267885
-
-/-! ## A307584.P1383306280199385238
-
-`A302797(A029653(n)^A119963(n))`
--/
-
-namespace A307584.P1383306280199385238
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302797 (SequenceMachineLib.roundAway ((A029653 n : ℚ) ^ (A119963 n : ℤ))).toNat
-
-end
-
-end A307584.P1383306280199385238
 
 /-!
 # A307585: Positive sums of two distinct cubes (of arbitrary sign).

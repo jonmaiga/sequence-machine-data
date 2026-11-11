@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of Legendre polynomials.",
+  "description": "Coefficients of Legendre polynomials in terms of the expansion of sqrt(1+x).",
   "id": "A002461",
   "mentions": [
     "A002596"

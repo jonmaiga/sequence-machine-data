@@ -4900,28 +4900,6 @@ end
 
 end A325131.P9189816135356366648
 
-/-! ## A325131.P10460798251338110616
-
-`∩[A325130(n+1), A085924(n)]`
--/
-
-namespace A325131.P10460798251338110616
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325130 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A325131.P10460798251338110616
-
 /-! ## A325131.P5522728445962887520
 
 `∩[A072774(n+1), A325130(n+1)]`
@@ -4943,6 +4921,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A325131.P5522728445962887520
+
+/-! ## A325131.P9712410416462535376
+
+`filter[A111801(n+1), A384667(#)]`
+-/
+
+namespace A325131.P9712410416462535376
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111801 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A384667 (f1 j).toNat = 1) n)
+
+end
+
+end A325131.P9712410416462535376
 
 /-!
 # A325132: Number of integer partitions of n where the multiplicity of each part k is at least prime(k).
@@ -7678,6 +7674,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A325148.P17681056646813072761
+
+/-! ## A325148.P18425089500114111190
+
+`A000290(A325152(n+1))`
+-/
+
+namespace A325148.P18425089500114111190
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A325152 (n + 1)).toNat
+
+end
+
+end A325148.P18425089500114111190
 
 /-! ## A325148.P16981191863925066399
 
@@ -11956,6 +11967,32 @@ namespace A325173
 /-- `Δ[A086601(n)]²` -/
 def P5441321720512615811.Spec : Prop :=
   ∀ n, P5441321720512615811.a n = A325173 (n + 1)
+
+end A325173
+
+/-! ## A325173.P911115695565286545
+
+`Δ[A000124(n)²]²`
+-/
+
+namespace A325173.P911115695565286545
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000124 n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) - f1 n) ^ 2
+
+end
+
+end A325173.P911115695565286545
+
+namespace A325173
+
+/-- `Δ[A000124(n)²]²` -/
+def P911115695565286545.Spec : Prop :=
+  ∀ n, P911115695565286545.a n = A325173 (n + 1)
 
 end A325173
 

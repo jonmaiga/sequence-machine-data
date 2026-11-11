@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of {1..n} such that no two primes are adjacent.",
+  "id": "A401831",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A062298",
+    "A258213",
+    "A401019"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

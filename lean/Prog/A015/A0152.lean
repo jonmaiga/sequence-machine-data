@@ -31,8 +31,9 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -379,21 +380,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015206.P5569308825504279530
-
-/-! ## A015206.P13844793235423000775
-
-`A015458(n)^or(A399763(n), A001262(n+1))`
--/
-
-namespace A015206.P13844793235423000775
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A015458 n : ℚ) ^ (Int.lor (A399763 n) (A001262 (n + 1)) : ℤ)
-
-end
-
-end A015206.P13844793235423000775
 
 /-! ## A015206.P8538186011766057013
 
@@ -15670,21 +15656,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A015285.P7953594849483902719
-
-/-! ## A015285.P4345851673791742068
-
-`A015373(n)+A008683(A387113(n+1))`
--/
-
-namespace A015285.P4345851673791742068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015373 n + A008683 (A387113 (n + 1)).toNat
-
-end
-
-end A015285.P4345851673791742068
 
 /-! ## A015285.P3603849826483144745
 

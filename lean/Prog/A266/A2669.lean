@@ -106,7 +106,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -6248,28 +6247,6 @@ end
 
 end A266966.P10836189098972591854
 
-/-! ## A266966.P12591739777712286221
-
-`∩[A215642(n+1), A389514(n+1)]`
--/
-
-namespace A266966.P12591739777712286221
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A215642 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389514 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A266966.P12591739777712286221
-
 /-!
 # A266968: Number of ordered ways to write n as x^5+y^4+z^3+w*(w+1)/2, where x, y, z and w are nonnegative integers with z > 0 and w > 0.
 
@@ -10376,27 +10353,27 @@ end
 
 end A266987.P8192758715560774609
 
-/-! ## A266987.P13480420677244016850
+/-! ## A266987.P6005915706003670198
 
-`∪[A002313(n+1), A052333(A000085(2*n+3))]`
+`∩[A139254(n+1), A258266(n+1)]`
 -/
 
-namespace A266987.P13480420677244016850
+namespace A266987.P6005915706003670198
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002313 (n + 1)
+  A139254 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052333 (A000085 (2 * n + 3)).toNat
+  A258266 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A266987.P13480420677244016850
+end A266987.P6005915706003670198
 
 /-!
 # A266988: The indices of primes for which the average of the primitive roots is < p/2.
@@ -10418,6 +10395,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A266988.P210940080572861066
+
+/-! ## A266988.P10965646329298265782
+
+`A377505(A266989(n+1))`
+-/
+
+namespace A266988.P10965646329298265782
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A266989 (n + 1)).toNat
+
+end
+
+end A266988.P10965646329298265782
 
 /-! ## A266988.P15443127158057898923
 

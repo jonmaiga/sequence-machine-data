@@ -1,5 +1,5 @@
 {
-  "description": "Compound filter: a(n) = P(A003557(n), A048250(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "description": "a(n) = (1/2)*(2 + ((A003557(n) + A048250(n))^2) - A003557(n) - 3*A048250(n)), where A003557(n) = n divided by largest squarefree divisor of n, and A048250(n) = sum of the squarefree divisors of n.",
   "id": "A291750",
   "mentions": [
     "A000027",

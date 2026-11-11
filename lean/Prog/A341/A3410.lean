@@ -43,7 +43,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -7291,30 +7290,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A341087.P13581030467143503426
-
-/-!
-# A341088: a(n) is the least prime p such that there is a set of n primes <= p such that every concatenation of two distinct members of the set is prime.
-
-The programs for A341088, there is no canonical definition to state claims against.
--/
-
-/-! ## A341088.P3557390104577172451
-
-`Δ[A334670(n)+A032302(n)]`
--/
-
-namespace A341088.P3557390104577172451
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334670 n + A032302 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A341088.P3557390104577172451
 
 /-!
 # A341089: Powers of primes whose reversal in base 10 is also a power of prime.

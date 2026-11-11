@@ -4093,6 +4093,28 @@ end
 
 end A266420.P15844370770941844546
 
+/-! ## A266420.P3367845850916170239
+
+`∩[A020735(n+1), A050505(n+1)]`
+-/
+
+namespace A266420.P3367845850916170239
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020735 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A266420.P3367845850916170239
+
 /-! ## A266420.P5823009596611124726
 
 `∩[A050505(n+1), A144396(n+1)]`
@@ -4295,24 +4317,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A266420.P1823408980444840120
-
-/-! ## A266420.P1430317917876550758
-
-`filter[A050505(n+2), A266719(#)]`
--/
-
-namespace A266420.P1430317917876550758
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050505 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266719 (f1 j).toNat = 1) n)
-
-end
-
-end A266420.P1430317917876550758
 
 /-!
 # A266421: Numbers n such that (2^(n+7)*5^(n+5) - 204979)/9 is prime (n > 0).
@@ -6896,6 +6900,32 @@ namespace A266437
 /-- `xor(2, a(n-2)+2)` -/
 def P4080860592786526770.Spec : Prop :=
   ∀ n, (P4080860592786526770.a n : ℤ) = A266437 n
+
+end A266437
+
+/-! ## A266437.P11784286778464921078
+
+`(2*n+1)*∏{p}[n, #]%2`
+-/
+
+namespace A266437.P11784286778464921078
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1) * ((∏ p ∈ Nat.primeFactors (f1 n), p) % 2)
+
+end
+
+end A266437.P11784286778464921078
+
+namespace A266437
+
+/-- `(2*n+1)*∏{p}[n, #]%2` -/
+def P11784286778464921078.Spec : Prop :=
+  ∀ n, (P11784286778464921078.a n : ℤ) = A266437 n
 
 end A266437
 

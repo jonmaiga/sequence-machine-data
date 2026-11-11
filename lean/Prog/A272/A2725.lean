@@ -45,7 +45,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -100,6 +99,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -7369,6 +7369,29 @@ def P12131535703636229000.Spec : Prop :=
 
 end A272569
 
+/-! ## A272569.P2629700765824313659
+
+`lcm(A287729(n+1), A287730(n+1))`
+-/
+
+namespace A272569.P2629700765824313659
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A287729 (n + 1)) (A287730 (n + 1))
+
+end
+
+end A272569.P2629700765824313659
+
+namespace A272569
+
+/-- `lcm(A287729(n+1), A287730(n+1))` -/
+def P2629700765824313659.Spec : Prop :=
+  ∀ n, (P2629700765824313659.a n : ℤ) = A272569 (n + 1)
+
+end A272569
+
 /-! ## A272569.P12036395157514080662
 
 `A119272((A000265(n+1)-1)/2+2)`
@@ -8473,6 +8496,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A272575.P3572385332182268200
+
+/-! ## A272575.P5939727007309630282
+
+`∩[A362295(n+1), A401509(n+1)]`
+-/
+
+namespace A272575.P5939727007309630282
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362295 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401509 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A272575.P5939727007309630282
 
 /-! ## A272575.P5317888924727789151
 

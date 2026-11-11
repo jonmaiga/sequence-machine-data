@@ -4943,6 +4943,32 @@ theorem P12160389382123291649.correct : P12160389382123291649.Spec := by
 
 end A269364
 
+/-! ## A269364.P10321295587978423822
+
+`∑[lcm(2, A137264(n+1))-1]`
+-/
+
+namespace A269364.P10321295587978423822
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Int.lcm 2 (A137264 (n + 1)) : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A269364.P10321295587978423822
+
+namespace A269364
+
+/-- `∑[lcm(2, A137264(n+1))-1]` -/
+def P10321295587978423822.Spec : Prop :=
+  ∀ n, P10321295587978423822.a n = A269364 (n + 1)
+
+end A269364
+
 /-! ## A269364.P3270825183310278210
 
 `∑[2-gcd(3, A001223(n+1))]`
@@ -5162,32 +5188,6 @@ namespace A269364
 /-- `∑[A134323(5*Δ[A134323(n+1)]²+1)]` -/
 def P1631260118074288549.Spec : Prop :=
   ∀ n, P1631260118074288549.a n = A269364 (n + 1)
-
-end A269364
-
-/-! ## A269364.P10321295587978423822
-
-`∑[lcm(2, A137264(n+1))-1]`
--/
-
-namespace A269364.P10321295587978423822
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Int.lcm 2 (A137264 (n + 1)) : ℤ) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A269364.P10321295587978423822
-
-namespace A269364
-
-/-- `∑[lcm(2, A137264(n+1))-1]` -/
-def P10321295587978423822.Spec : Prop :=
-  ∀ n, P10321295587978423822.a n = A269364 (n + 1)
 
 end A269364
 

@@ -5898,6 +5898,21 @@ end
 
 end A264557.P5989990216194919627
 
+/-! ## A264557.P5980072211136489649
+
+`floor((n+1)/3)!*floor((n+2)/3)!*floor((n+3)/3)!`
+-/
+
+namespace A264557.P5980072211136489649
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial ⌊(n + 1 : ℚ) / 3⌋.toNat * Nat.factorial ⌊(n + 2 : ℚ) / 3⌋.toNat * Nat.factorial ⌊(n + 3 : ℚ) / 3⌋.toNat
+
+end
+
+end A264557.P5980072211136489649
+
 /-! ## A264557.P14537652046546699612
 
 `∏[A086161(n)]/A086161(n)`
@@ -5948,24 +5963,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A264557.P377787100283373431
-
-/-! ## A264557.P16165287363275587920
-
-`sqrt(∏[A075561(n+1)])`
--/
-
-namespace A264557.P16165287363275587920
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075561 (n + 1)
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt ((∏ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℝ)
-
-end
-
-end A264557.P16165287363275587920
 
 /-!
 # A264558: Number of nX2 arrays of permutations of 0..n*2-1 with rows nondecreasing modulo 2 and columns nondecreasing modulo 3.
@@ -9657,6 +9654,21 @@ end
 
 end A264598.P16897793808001635752
 
+/-! ## A264598.P6545016679451364790
+
+`A004277(A257007(n+3))`
+-/
+
+namespace A264598.P6545016679451364790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A257007 (n + 3)).toNat
+
+end
+
+end A264598.P6545016679451364790
+
 /-! ## A264598.P7847477348823581215
 
 `2*Δ[A264599(2+n)]`
@@ -9675,36 +9687,6 @@ end
 
 end A264598.P7847477348823581215
 
-/-! ## A264598.P6545016679451364790
-
-`A004277(A257007(n+3))`
--/
-
-namespace A264598.P6545016679451364790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 (A257007 (n + 3)).toNat
-
-end
-
-end A264598.P6545016679451364790
-
-/-! ## A264598.P16908833691960218259
-
-`A000267(A257007(n+3)²)`
--/
-
-namespace A264598.P16908833691960218259
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000267 (A257007 (n + 3) ^ 2).toNat
-
-end
-
-end A264598.P16908833691960218259
-
 /-! ## A264598.P5981345797847370139
 
 `A005843(Δ[A264599(n+2)])`
@@ -9722,6 +9704,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A264598.P5981345797847370139
+
+/-! ## A264598.P16908833691960218259
+
+`A000267(A257007(n+3)²)`
+-/
+
+namespace A264598.P16908833691960218259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000267 (A257007 (n + 3) ^ 2).toNat
+
+end
+
+end A264598.P16908833691960218259
 
 /-!
 # A264599: Partial sums of A257007.

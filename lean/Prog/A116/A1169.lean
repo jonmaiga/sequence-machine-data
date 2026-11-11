@@ -3708,6 +3708,29 @@ def P9520441854303645671.Spec : Prop :=
 
 end A116921
 
+/-! ## A116921.P13713874299729460984
+
+`A392590(n+1)%A080513(n)`
+-/
+
+namespace A116921.P13713874299729460984
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A392590 (n + 1)) (A080513 n)
+
+end
+
+end A116921.P13713874299729460984
+
+namespace A116921
+
+/-- `A392590(n+1)%A080513(n)` -/
+def P13713874299729460984.Spec : Prop :=
+  ∀ n, P13713874299729460984.a n = A116921 (n + 1)
+
+end A116921
+
 /-!
 # A116922: a(n) = smallest integer >= n/2 which is coprime to n.
 

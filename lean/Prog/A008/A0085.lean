@@ -11464,26 +11464,20 @@ end
 
 end A008557.P16814728055973577968
 
-/-! ## A008557.P13059392840210624698
+/-! ## A008557.P16485329304859244307
 
-`lt[A195825(2*n+3), A269526(A006519(3*n+2))]`
+`A185048(A008558(n+1))`
 -/
 
-namespace A008557.P13059392840210624698
+namespace A008557.P16485329304859244307
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195825 (2 * n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269526 (A006519 (3 * n + 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185048 (A008558 (n + 1)).toNat
 
 end
 
-end A008557.P13059392840210624698
+end A008557.P16485329304859244307
 
 /-!
 # A008558: Repeatedly convert from decimal to octal.
@@ -12357,26 +12351,26 @@ def P15787667438088660201.Spec : Prop :=
 
 end A008577
 
-/-! ## A008577.P799677614165614203
+/-! ## A008577.P8895057522841242227
 
 `4*n/3*(n+1)+10/9+A099837(n+2)/9`
 -/
 
-namespace A008577.P799677614165614203
+namespace A008577.P8895057522841242227
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 * n : ℚ) / 3 * (n + 1 : ℚ) + (10 : ℚ) / 9 + (A099837 (n + 2) : ℚ) / 9
+  4 * ((n : ℚ) / 3) * (n + 1 : ℚ) + (10 : ℚ) / 9 + (A099837 (n + 2) : ℚ) / 9
 
 end
 
-end A008577.P799677614165614203
+end A008577.P8895057522841242227
 
 namespace A008577
 
 /-- `4*n/3*(n+1)+10/9+A099837(n+2)/9` -/
-def P799677614165614203.Spec : Prop :=
-  ∀ n, P799677614165614203.a n = (A008577 n : ℚ)
+def P8895057522841242227.Spec : Prop :=
+  ∀ n, P8895057522841242227.a n = (A008577 n : ℚ)
 
 end A008577
 

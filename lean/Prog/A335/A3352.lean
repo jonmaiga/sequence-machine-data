@@ -35,6 +35,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -60,6 +61,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -233,6 +235,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335201.P3369622905463359588
+
+/-! ## A335201.P14054621059064610579
+
+`filter[A290466(n+1), A401791(#)]`
+-/
+
+namespace A335201.P14054621059064610579
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290466 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A335201.P14054621059064610579
 
 /-! ## A335201.P8162296896550858530
 
@@ -520,28 +540,6 @@ end
 
 end A335201.P9094448961839610703
 
-/-! ## A335201.P17881652884845817319
-
-`∩[A290466(n+1), A379336(n+1)]`
--/
-
-namespace A335201.P17881652884845817319
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290466 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379336 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335201.P17881652884845817319
-
 /-!
 # A335202: Unitary Zumkeller numbers (A290466) whose set of unitary divisors can be partitioned into two disjoint sets of equal sum in a single way.
 
@@ -584,6 +582,24 @@ end
 
 end A335202.P11782478594536996571
 
+/-! ## A335202.P12089992933392770887
+
+`filter[A335217(n+1), A401715(#)]`
+-/
+
+namespace A335202.P12089992933392770887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335217 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401715 (f1 j).toNat = 1) n)
+
+end
+
+end A335202.P12089992933392770887
+
 /-! ## A335202.P6023564927166680056
 
 `filter[A335199(n+1), A168181(#)]`
@@ -619,24 +635,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335202.P1811242169985511513
-
-/-! ## A335202.P9123641323165190996
-
-`filter[A335199(n+1), A212793(#)]`
--/
-
-namespace A335202.P9123641323165190996
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335199 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A212793 (f1 j).toNat = 1) n)
-
-end
-
-end A335202.P9123641323165190996
 
 /-!
 # A335205: Numbers of m digits which are equal to the absolute value of the sum of the m-th powers of their digits, with alternating signs.
@@ -3561,6 +3559,94 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335239.P460377006275159521
+
+/-! ## A335239.P12531747591736718586
+
+`∪[A335236(n+1), A337666(n+1)]`
+-/
+
+namespace A335239.P12531747591736718586
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335236 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337666 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335239.P12531747591736718586
+
+/-! ## A335239.P12831440847349541155
+
+`∪[A335236(n+1), A337696(n+1)]`
+-/
+
+namespace A335239.P12831440847349541155
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335236 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337696 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335239.P12831440847349541155
+
+/-! ## A335239.P17988751725440548084
+
+`∪[A335236(n+1), A354255(n+1)]`
+-/
+
+namespace A335239.P17988751725440548084
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335236 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354255 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335239.P17988751725440548084
+
+/-! ## A335239.P16810788618039264299
+
+`∪[A335236(n+1), A392668(n+1)]`
+-/
+
+namespace A335239.P16810788618039264299
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335236 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392668 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335239.P16810788618039264299
 
 /-!
 # A335240: Number of integer partitions of n that are not pairwise coprime, where a singleton is not coprime unless it is (1).

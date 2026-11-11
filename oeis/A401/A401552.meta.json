@@ -1,0 +1,17 @@
+{
+  "description": "Run lengths of A400000.",
+  "id": "A401552",
+  "mentions": [
+    "A400000",
+    "A401553",
+    "A401554"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

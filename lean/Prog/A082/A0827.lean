@@ -27,6 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
@@ -5358,29 +5359,29 @@ def P17553972343172295761.Spec : Prop :=
 
 end A082761
 
-/-! ## A082761.P12237885559586112177
+/-! ## A082761.P1274152156063296999
 
-`∑{#}[n, C(2*n-#, #)*2^n]`
+`∑{#}[n, C(n+#, 2*#)*2^n]`
 -/
 
-namespace A082761.P12237885559586112177
+namespace A082761.P1274152156063296999
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose ((2 * n : ℤ) - (k : ℤ)).toNat k * 2 ^ n
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose (n + k) (2 * k) * 2 ^ n
 
 end
 
-end A082761.P12237885559586112177
+end A082761.P1274152156063296999
 
 namespace A082761
 
-/-- `∑{#}[n, C(2*n-#, #)*2^n]` -/
-def P12237885559586112177.Spec : Prop :=
-  ∀ n, (P12237885559586112177.a n : ℤ) = A082761 n
+/-- `∑{#}[n, C(n+#, 2*#)*2^n]` -/
+def P1274152156063296999.Spec : Prop :=
+  ∀ n, (P1274152156063296999.a n : ℤ) = A082761 n
 
 end A082761
 
@@ -6433,7 +6434,7 @@ end A082764
 /-!
 # A082765: Trinomial transform of the factorial numbers (A000142).
 
-The programs for A082765, the canonical program `A082765.P15955652426020577881` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082765 has offset 0).
+The programs for A082765, the canonical program `A082765.P15955652426020577881` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082765 has offset 0).
 
 The definition of A082765 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6442,7 +6443,7 @@ The definition of A082765 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, C(n, #)*A099022(#)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A082765
@@ -6935,7 +6936,7 @@ end A082766
 /-!
 # A082767: Number of edges in the prime graph.
 
-The programs for A082767, the canonical program `A082767.P5981552388376772469` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082767 has offset 1).
+The programs for A082767, the canonical program `A082767.P5981552388376772469` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082767 has offset 1).
 
 The definition of A082767 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6944,7 +6945,7 @@ The definition of A082767 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+1+A001221(n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A082767
@@ -8213,7 +8214,7 @@ end A082772.P4596687897330257388
 /-!
 # A082774: a(n) = floor(cot(2*Pi/prime(n))).
 
-The programs for A082774, the canonical program `A082774.P13855689069437512202` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082774 has offset 3).
+The programs for A082774, the canonical program `A082774.P13855689069437512202` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082774 has offset 3).
 
 The definition of A082774 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(cot(2*π/A000040(n+3)))` (program `A082774.P13855689069437512202`, by `A082774.P13855689069437512202.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8222,7 +8223,7 @@ The definition of A082774 is `verified`: the Lean definition is proven equivalen
 
 `floor(cot(2*π/A000040(n+3)))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A082774

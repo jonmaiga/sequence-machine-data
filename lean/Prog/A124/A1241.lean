@@ -1344,26 +1344,29 @@ def P17719769806168021092.Spec : Prop :=
 
 end A124108
 
-/-! ## A124108.P8240945387953147643
+/-! ## A124108.P6629602674812808546
 
-`A004396(A088698(n))`
+`filter[A379657(n), A085405(#)]`
 -/
 
-namespace A124108.P8240945387953147643
+namespace A124108.P6629602674812808546
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379657 n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004396 (A088698 n).toNat
+  f1 (SequenceMachineLib.nth (fun j => A085405 (f1 j).toNat = 1) n)
 
 end
 
-end A124108.P8240945387953147643
+end A124108.P6629602674812808546
 
 namespace A124108
 
-/-- `A004396(A088698(n))` -/
-def P8240945387953147643.Spec : Prop :=
-  ∀ n, P8240945387953147643.a n = A124108 n
+/-- `filter[A379657(n), A085405(#)]` -/
+def P6629602674812808546.Spec : Prop :=
+  ∀ n, P6629602674812808546.a n = A124108 n
 
 end A124108
 

@@ -26,6 +26,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
@@ -3817,6 +3818,21 @@ end
 
 end A356969.P17030077443510801295
 
+/-! ## A356969.P11759010502047161016
+
+`A003056(n)-A361789(n)`
+-/
+
+namespace A356969.P11759010502047161016
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003056 n - A361789 n
+
+end
+
+end A356969.P11759010502047161016
+
 /-! ## A356969.P15931066986173021854
 
 `A344612(n)%A343806(A088699(n))`
@@ -3861,21 +3877,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356969.P11940324021814430559
-
-/-! ## A356969.P7355929445881197933
-
-`A107279(A157147(n))`
--/
-
-namespace A356969.P7355929445881197933
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107279 (A157147 n).toNat
-
-end
-
-end A356969.P7355929445881197933
 
 /-!
 # A356970: E.g.f. satisfies A(x) = 1/(1 - x * A(x))^(x^2 * A(x)).

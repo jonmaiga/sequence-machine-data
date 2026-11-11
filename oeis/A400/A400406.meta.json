@@ -1,0 +1,14 @@
+{
+  "description": "Number of ways of tiling a strip of length n with squares (length 1) and dominos (length 2) such that the number of dominos used is prime.",
+  "id": "A400406",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

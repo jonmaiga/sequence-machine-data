@@ -1,0 +1,22 @@
+{
+  "description": "Distance between n^3 and the nearest triangular number, either above or below n^3.",
+  "id": "A401595",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A002938",
+    "A053616",
+    "A229118",
+    "A401432"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

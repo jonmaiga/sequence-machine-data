@@ -6200,36 +6200,6 @@ end
 
 end A369459.P3139204847534545284
 
-/-! ## A369459.P1638167660127175412
-
-`A286621(A365395(n)^A229037(3*n+2))`
--/
-
-namespace A369459.P1638167660127175412
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286621 (SequenceMachineLib.roundAway ((A365395 n : ℚ) ^ (A229037 (3 * n + 2) : ℤ))).toNat
-
-end
-
-end A369459.P1638167660127175412
-
-/-! ## A369459.P12440097142062693227
-
-`A286621(A365395(n)^A318586(3*n+4))`
--/
-
-namespace A369459.P12440097142062693227
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286621 (SequenceMachineLib.roundAway ((A365395 n : ℚ) ^ (A318586 (3 * n + 4) : ℤ))).toNat
-
-end
-
-end A369459.P12440097142062693227
-
 /-! ## A369459.P17432630947632144639
 
 `A110764(A294640(n))`
@@ -6244,6 +6214,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369459.P17432630947632144639
+
+/-! ## A369459.P7775297006331127041
+
+`A369467(A129952(n))`
+-/
+
+namespace A369459.P7775297006331127041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369467 (A129952 n).toNat
+
+end
+
+end A369459.P7775297006331127041
+
+/-! ## A369459.P15071588879736016335
+
+`A364969(A105658(n))`
+-/
+
+namespace A369459.P15071588879736016335
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364969 (A105658 n).toNat
+
+end
+
+end A369459.P15071588879736016335
 
 /-!
 # A369460: Number of representations of 12n-9 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.
@@ -7751,26 +7751,26 @@ theorem P6414223032634442109.correct : P6414223032634442109.Spec := by
 
 end A369472
 
-/-! ## A369472.P13774628603481399493
+/-! ## A369472.P9054968894235298240
 
-`A370062(A052905(n)+3)`
+`A370060(A034856(n+2))`
 -/
 
-namespace A369472.P13774628603481399493
+namespace A369472.P9054968894235298240
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A370062 (A052905 n + 3).toNat
+  A370060 (A034856 (n + 2)).toNat
 
 end
 
-end A369472.P13774628603481399493
+end A369472.P9054968894235298240
 
 namespace A369472
 
-/-- `A370062(A052905(n)+3)` -/
-def P13774628603481399493.Spec : Prop :=
-  ∀ n, P13774628603481399493.a n = A369472 (n + 1)
+/-- `A370060(A034856(n+2))` -/
+def P9054968894235298240.Spec : Prop :=
+  ∀ n, P9054968894235298240.a n = A369472 (n + 1)
 
 end A369472
 

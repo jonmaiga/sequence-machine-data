@@ -84,7 +84,7 @@ set_option linter.unreachableTactic false
 /-!
 # A153500: First 3 terms coincide with A152756. For n>3, a(n) is the palindromic number formed from concatenation of 1, 0, A147759(n-3), 0, A147759(n-3), 0 and 1.
 
-The programs for A153500, the canonical program `A153500.P12368986149727124082` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153500 has offset 1).
+The programs for A153500, the canonical program `A153500.P12368986149727124082` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153500 has offset 1).
 
 The definition of A153500 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, A153499, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -93,7 +93,7 @@ The definition of A153500 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(A153499(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153500

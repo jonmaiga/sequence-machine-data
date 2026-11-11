@@ -27,8 +27,8 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -9198,6 +9198,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A262090.P12383350759687455411
+
+/-! ## A262090.P13087204022034396246
+
+`A050370(A147675(n+1))`
+-/
+
+namespace A262090.P13087204022034396246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050370 (A147675 (n + 1)).toNat
+
+end
+
+end A262090.P13087204022034396246
 
 /-!
 # A262091: Amicable digital pairs: The smaller number of a pair (x,y) with x <> y such that, in decimal notation and with an appropriate number of leading zeros prepended, x=(x_m...x_1x_0)_{10}, y=(y_m...y_1y_0)_{10}, x = y_m^m + ... + y_1^m + y_0^m, and y = x_m^m + ... + x_1^m + x_0^m.

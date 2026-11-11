@@ -39,7 +39,6 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1891,6 +1890,29 @@ def P5358619717651049423.Spec : Prop :=
 
 end A128806
 
+/-! ## A128806.P311997144079242083
+
+`A137882(n+1)-A142242(n)`
+-/
+
+namespace A128806.P311997144079242083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137882 (n + 1) - A142242 n
+
+end
+
+end A128806.P311997144079242083
+
+namespace A128806
+
+/-- `A137882(n+1)-A142242(n)` -/
+def P311997144079242083.Spec : Prop :=
+  ∀ n, P311997144079242083.a n = A128806 n
+
+end A128806
+
 /-!
 # A128807: A115361 * A007318.
 
@@ -2537,23 +2559,29 @@ end A128811.P16221545214701825871
 /-!
 # A128812: a(n)=(1+2^(1/3))^n.
 
-The programs for A128812, there is no canonical definition to state claims against.
+The programs for A128812, the canonical program `A128812.P11133476148845973783` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128812 has offset 0).
+
+The definition of A128812 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 283 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A128812.P11133476148845973783
 
 `round((root(2, 3)+1)^n)`
+
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
-namespace A128812.P11133476148845973783
-noncomputable section
+namespace A128812
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (((2 : ℝ) ^ (1 / (3 : ℝ)) + 1) ^ n)
+/-- `round((root(2, 3)+1)^n)` -/
+def P11133476148845973783.Spec : Prop :=
+  ∀ n, P11133476148845973783.a n = A128812 n
 
-end
+theorem P11133476148845973783.correct : P11133476148845973783.Spec := by
+  intro n
+  simp only [A128812]
 
-end A128812.P11133476148845973783
+end A128812
 
 /-! ## A128812.P10560344649919970138
 
@@ -2570,6 +2598,14 @@ end
 
 end A128812.P10560344649919970138
 
+namespace A128812
+
+/-- `A111439(A032952(n)-n)` -/
+def P10560344649919970138.Spec : Prop :=
+  ∀ n, P10560344649919970138.a n = A128812 n
+
+end A128812
+
 /-! ## A128812.P3525199299043429539
 
 `A066339(A276225(n+2)-n)`
@@ -2585,6 +2621,14 @@ end
 
 end A128812.P3525199299043429539
 
+namespace A128812
+
+/-- `A066339(A276225(n+2)-n)` -/
+def P3525199299043429539.Spec : Prop :=
+  ∀ n, P3525199299043429539.a n = A128812 n
+
+end A128812
+
 /-! ## A128812.P8059416902662786498
 
 `floor(sqrt(A318360(A020714(n))+5^n))`
@@ -2599,6 +2643,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128812.P8059416902662786498
+
+namespace A128812
+
+/-- `floor(sqrt(A318360(A020714(n))+5^n))` -/
+def P8059416902662786498.Spec : Prop :=
+  ∀ n, P8059416902662786498.a n = A128812 n
+
+end A128812
 
 /-!
 # A128813: Triangle of coefficients of (x+1)*(x+3)*(x+6)*...*(x+n(n+1)/2).

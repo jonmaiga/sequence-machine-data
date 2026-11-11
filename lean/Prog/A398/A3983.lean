@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
@@ -25,7 +26,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C039
 import Seq.B000.C042
@@ -43,6 +43,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2721,6 +2722,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A398340.P16007474695315865847
+
+/-! ## A398340.P15918443598523179096
+
+`A245689(A369901(n+1))`
+-/
+
+namespace A398340.P15918443598523179096
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245689 (A369901 (n + 1)).toNat
+
+end
+
+end A398340.P15918443598523179096
 
 /-!
 # A398341: a(n) is the number of die sizes < n that can produce n as the product of two identical dice.

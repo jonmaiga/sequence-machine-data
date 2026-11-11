@@ -993,29 +993,6 @@ theorem P11455337591287550692.correct : P11455337591287550692.Spec := by
 
 end A220611
 
-/-! ## A220611.P17991337499429706260
-
-`A220614(A374005(n+1))`
--/
-
-namespace A220611.P17991337499429706260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220614 (A374005 (n + 1)).toNat
-
-end
-
-end A220611.P17991337499429706260
-
-namespace A220611
-
-/-- `A220614(A374005(n+1))` -/
-def P17991337499429706260.Spec : Prop :=
-  ∀ n, P17991337499429706260.a n = A220611 (n + 1)
-
-end A220611
-
 /-! ## A220611.P7583288272397126636
 
 `A220614(A161680(n+5)+5)`
@@ -1088,26 +1065,34 @@ def P7815992292892313741.Spec : Prop :=
 
 end A220611
 
+/-! ## A220611.P17991337499429706260
+
+`A220614(A374005(n+1))`
+-/
+
+namespace A220611.P17991337499429706260
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A220614 (A374005 (n + 1)).toNat
+
+end
+
+end A220611.P17991337499429706260
+
+namespace A220611
+
+/-- `A220614(A374005(n+1))` -/
+def P17991337499429706260.Spec : Prop :=
+  ∀ n, P17991337499429706260.a n = A220611 (n + 1)
+
+end A220611
+
 /-!
 # A220612: Number of ways to reciprocally link elements of an nX6 array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.
 
 The programs for A220612, there is no canonical definition to state claims against.
 -/
-
-/-! ## A220612.P7484420769251907940
-
-`A220614(A374007(n+1))`
--/
-
-namespace A220612.P7484420769251907940
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220614 (A374007 (n + 1)).toNat
-
-end
-
-end A220612.P7484420769251907940
 
 /-! ## A220612.P8250069198645508635
 
@@ -1172,26 +1157,26 @@ end
 
 end A220612.P14962433808114160810
 
+/-! ## A220612.P7484420769251907940
+
+`A220614(A374007(n+1))`
+-/
+
+namespace A220612.P7484420769251907940
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A220614 (A374007 (n + 1)).toNat
+
+end
+
+end A220612.P7484420769251907940
+
 /-!
 # A220613: Number of ways to reciprocally link elements of an nX7 array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.
 
 The programs for A220613, there is no canonical definition to state claims against.
 -/
-
-/-! ## A220613.P16492894268353320092
-
-`A220614(A374008(n+1))`
--/
-
-namespace A220613.P16492894268353320092
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220614 (A374008 (n + 1)).toNat
-
-end
-
-end A220613.P16492894268353320092
 
 /-! ## A220613.P14855673317698370961
 
@@ -1222,6 +1207,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A220613.P6233684352865875779
+
+/-! ## A220613.P16492894268353320092
+
+`A220614(A374008(n+1))`
+-/
+
+namespace A220613.P16492894268353320092
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A220614 (A374008 (n + 1)).toNat
+
+end
+
+end A220613.P16492894268353320092
 
 /-! ## A220613.P11685960544619433525
 
@@ -1254,7 +1254,7 @@ end
 end A220613.P13945180021616967746
 
 /-!
-# A220614: T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.
+# A220614: Array read by antidiagonals: T(n,k) is the number of ways to reciprocally link elements of an n X k array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.
 
 The programs for A220614, there is no canonical definition to state claims against.
 -/

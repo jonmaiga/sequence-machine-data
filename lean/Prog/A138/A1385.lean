@@ -3485,6 +3485,30 @@ end
 end A138515.P5612724681903987873
 
 /-!
+# A138516: McKay-Thompson series of class 10E for the Monster group with a(0) = 2.
+
+The programs for A138516, there is no canonical definition to state claims against.
+-/
+
+/-! ## A138516.P13408062496066885404
+
+`∑{#}[n, A138532(#)*A138532(n-#)]`
+-/
+
+namespace A138516.P13408062496066885404
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A138532 k * A138532 (n - k)
+
+end
+
+end A138516.P13408062496066885404
+
+/-!
 # A138517: Expansion of (phi(-q^5) / phi(-q))^2 in powers of q where phi() is a Ramanujan theta function.
 
 The programs for A138517, there is no canonical definition to state claims against.

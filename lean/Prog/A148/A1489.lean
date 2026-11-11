@@ -3191,21 +3191,6 @@ end
 
 end A148964.P10937882744213579340
 
-/-! ## A148964.P5995481365489506523
-
-`A303708(A372377(n))+A145268(n)`
--/
-
-namespace A148964.P5995481365489506523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A372377 n).toNat + A145268 n
-
-end
-
-end A148964.P5995481365489506523
-
 /-!
 # A148965: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, 1), (0, 1, 1), (1, 0, -1), (1, 1, -1)}.
 

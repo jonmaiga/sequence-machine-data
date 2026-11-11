@@ -49,7 +49,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2244,6 +2243,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238932.P2855238476944715374
+
+/-! ## A238932.P7213915390141521993
+
+`A238929(∑[n]+1)²`
+-/
+
+namespace A238932.P7213915390141521993
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238929 (∑ j ∈ Finset.range (n + 1), f1 j + 1) ^ 2
+
+end
+
+end A238932.P7213915390141521993
+
+/-! ## A238932.P4935607541710424928
+
+`A238929(A167614(n+1))`
+-/
+
+namespace A238932.P4935607541710424928
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238929 (A167614 (n + 1)).toNat
+
+end
+
+end A238932.P4935607541710424928
 
 /-!
 # A238933: Number of (4+1)X(n+1) 0..3 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors.

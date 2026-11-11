@@ -19,7 +19,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -2868,22 +2867,22 @@ end A302030.P16883974527045187355
 The programs for A302031, there is no canonical definition to state claims against.
 -/
 
-/-! ## A302031.P14850545599863459854
+/-! ## A302031.P6180096431321990361
 
-`1+a(A302034(n+1)-1)` with `a(0)=0, a(1)=1`
+`1+a(A302034(n+1)-1)` with `a(0)=0`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A302031.P14850545599863459854
+namespace A302031.P6180096431321990361
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
   1 + a (A302034 (n + 1) - 1).toNat
 
 end
 
-end A302031.P14850545599863459854
+end A302031.P6180096431321990361
 
 /-! ## A302031.P12362041779526916314
 
@@ -2914,21 +2913,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302031.P12541083348075085155
-
-/-! ## A302031.P1144187554653739555
-
-`a(A302034(n+1)-1)+1` with `a(0)=0`
--/
-
-namespace A302031.P1144187554653739555
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  a (A302034 (n + 1) - 1).toNat + 1
-
-end
-
-end A302031.P1144187554653739555
 
 /-! ## A302031.P7664510213507784995
 
@@ -3716,22 +3700,22 @@ end A302036.P8348793260400293131
 The programs for A302037, there is no canonical definition to state claims against.
 -/
 
-/-! ## A302037.P9223652697762985150
+/-! ## A302037.P15067868839768072084
 
-`1+a(A302032(n+1)-1)` with `a(0)=0`
+`1+a(A302032(n+1)-1)` with `a(0)=0, a(1)=1`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A302037.P9223652697762985150
+namespace A302037.P15067868839768072084
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
   1 + a (A302032 (n + 1) - 1).toNat
 
 end
 
-end A302037.P9223652697762985150
+end A302037.P15067868839768072084
 
 /-! ## A302037.P7052747612182495870
 
@@ -4429,20 +4413,20 @@ end A302040.P7116552401664596722
 The programs for A302041, there is no canonical definition to state claims against.
 -/
 
-/-! ## A302041.P4445217392333152001
+/-! ## A302041.P2592287559211753115
 
-`1+a(A302044(n+1)-1)` with `a(0)=0, a(1)=1`
+`1+a(A302044(n+1)-1)` with `a(0)=0`
 -/
 
-namespace A302041.P4445217392333152001
+namespace A302041.P2592287559211753115
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
   1 + a (A302044 (n + 1) - 1).toNat
 
 end
 
-end A302041.P4445217392333152001
+end A302041.P2592287559211753115
 
 /-! ## A302041.P2655295822400835487
 
@@ -4491,21 +4475,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A302041.P14954861568958451413
-
-/-! ## A302041.P12599430436548286509
-
-`a(A302044(1+n)-1)+1` with `a(0)=0`
--/
-
-namespace A302041.P12599430436548286509
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  a (A302044 (1 + n) - 1).toNat + 1
-
-end
-
-end A302041.P12599430436548286509
 
 /-! ## A302041.P17417455111831423667
 
@@ -4746,6 +4715,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302041.P4369286952324976414
+
+/-! ## A302041.P3617844311928597785
+
+`A078898(A001222(A346486(n+1)²))`
+-/
+
+namespace A302041.P3617844311928597785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078898 (A001222 (A346486 (n + 1) ^ 2).toNat).toNat
+
+end
+
+end A302041.P3617844311928597785
 
 /-!
 # A302042: A032742 analog for a nonstandard factorization process based on the sieve of Eratosthenes (A083221).

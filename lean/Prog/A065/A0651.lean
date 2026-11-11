@@ -30,6 +30,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -10901,26 +10902,26 @@ def P4437577833160541159.Spec : Prop :=
 
 end A065168
 
-/-! ## A065168.P12470716547927533662
+/-! ## A065168.P6363552937452866924
 
-`A065165(a(n-1))+1` with `a(0)=3, a(1)=1`
+`A014681(A004442(n))+1`
 -/
 
-namespace A065168.P12470716547927533662
+namespace A065168.P6363552937452866924
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [3, 1] fun n a =>
-  A065165 (a (n - 1)).toNat + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014681 (A004442 n).toNat + 1
 
 end
 
-end A065168.P12470716547927533662
+end A065168.P6363552937452866924
 
 namespace A065168
 
-/-- `A065165(a(n-1))+1` -/
-def P12470716547927533662.Spec : Prop :=
-  ∀ n, P12470716547927533662.a n = A065168 (n + 1)
+/-- `A014681(A004442(n))+1` -/
+def P6363552937452866924.Spec : Prop :=
+  ∀ n, P6363552937452866924.a n = A065168 (n + 1)
 
 end A065168
 
@@ -12783,6 +12784,29 @@ namespace A065173
 /-- `ceil(n/A177002(n+2))` -/
 def P2155476231238396240.Spec : Prop :=
   ∀ n, P2155476231238396240.a n = A065173 (n + 1)
+
+end A065173
+
+/-! ## A065173.P7637504065754704114
+
+`A188134(A066104(n))`
+-/
+
+namespace A065173.P7637504065754704114
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188134 (A066104 n).toNat
+
+end
+
+end A065173.P7637504065754704114
+
+namespace A065173
+
+/-- `A188134(A066104(n))` -/
+def P7637504065754704114.Spec : Prop :=
+  ∀ n, P7637504065754704114.a n = A065173 (n + 1)
 
 end A065173
 

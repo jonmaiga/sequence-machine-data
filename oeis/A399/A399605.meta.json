@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct values taken by the number of intersection points of n lines in the plane, no two parallel.",
+  "id": "A399605",
+  "mentions": [
+    "A003035",
+    "A072964",
+    "A129230",
+    "A399464",
+    "A400149"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -8323,6 +8323,28 @@ end
 
 end A176995.P10329004767391168398
 
+/-! ## A176995.P17004029145603701121
+
+`∪[A336143(n+1), A336307(n+1)]`
+-/
+
+namespace A176995.P17004029145603701121
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336143 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336307 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A176995.P17004029145603701121
+
 /-! ## A176995.P7980646177204609097
 
 `A282711(A225793(n+1))+n+1`
@@ -8337,28 +8359,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A176995.P7980646177204609097
-
-/-! ## A176995.P13291873990187778144
-
-`∪[A336983(n+1), A336986(n+1)]`
--/
-
-namespace A176995.P13291873990187778144
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336983 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336986 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A176995.P13291873990187778144
 
 /-!
 # A176997: Integers k such that 2^(k-1) == 1 (mod k).

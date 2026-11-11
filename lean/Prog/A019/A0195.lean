@@ -3244,6 +3244,21 @@ end
 
 end A019530.P13338753508767678331
 
+/-! ## A019530.P4179697353065186984
+
+`xor(A000007(n), A066069(n+1))`
+-/
+
+namespace A019530.P4179697353065186984
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000007 n) (A066069 (n + 1))
+
+end
+
+end A019530.P4179697353065186984
+
 /-! ## A019530.P17590208734574596529
 
 `A066069(n+1)-A327170(2*n+1)`
@@ -3423,21 +3438,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019530.P13619108729445020009
-
-/-! ## A019530.P1666212564558051085
-
-`and(A066069(n+1), A087323(n))`
--/
-
-namespace A019530.P1666212564558051085
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A066069 (n + 1)) (A087323 n)
-
-end
-
-end A019530.P1666212564558051085
 
 /-!
 # A019531: Let I_c(n,d) be maximal number of independent sets in d-regular simple connected graphs with n vertices; sequence gives I_c(2n,3).
@@ -4326,23 +4326,20 @@ end
 
 end A019544.P14573630297356916086
 
-/-! ## A019544.P17793278555482340075
+/-! ## A019544.P16469388654043720316
 
-`record[(A002808(n^3+1)%(n+1))²]`
+`A000290(A285550(A000290(n+1)/(n+1)))`
 -/
 
-namespace A019544.P17793278555482340075
+namespace A019544.P16469388654043720316
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A002808 (n ^ 3 + 1)) (n + 1 : ℤ) ^ 2
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A000290 (A285550 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
 
 end
 
-end A019544.P17793278555482340075
+end A019544.P16469388654043720316
 
 /-!
 # A019545: Cubes whose digits are cubes.
@@ -5347,6 +5344,29 @@ namespace A019550
 /-- `(A004273(n+1)+A001704(2*(n+1)))/2` -/
 def P7515715033485355009.Spec : Prop :=
   ∀ n, P7515715033485355009.a n = (A019550 (n + 1) : ℚ)
+
+end A019550
+
+/-! ## A019550.P17102548796208376258
+
+`A061085(n+1)+A061085(n+1)+A061085(n+1)`
+-/
+
+namespace A019550.P17102548796208376258
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061085 (n + 1) + A061085 (n + 1) + A061085 (n + 1)
+
+end
+
+end A019550.P17102548796208376258
+
+namespace A019550
+
+/-- `A061085(n+1)+A061085(n+1)+A061085(n+1)` -/
+def P17102548796208376258.Spec : Prop :=
+  ∀ n, P17102548796208376258.a n = A019550 (n + 1)
 
 end A019550
 

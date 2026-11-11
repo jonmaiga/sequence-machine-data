@@ -2,6 +2,7 @@
   "description": "a(n) = (4*n)^7.",
   "id": "A016807",
   "mentions": [
+    "A013665",
     "A016747"
   ],
   "tags": [

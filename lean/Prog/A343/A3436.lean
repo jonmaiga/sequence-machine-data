@@ -5257,25 +5257,6 @@ end
 
 end A343667.P4756494006136707432
 
-/-! ## A343667.P3258426607449207547
-
-`A148092(n)+char[A399580(n+6)]`
--/
-
-namespace A343667.P3258426607449207547
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A399580 (n + 6)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148092 n + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A343667.P3258426607449207547
-
 /-! ## A343667.P4600691301684874266
 
 `A148092(n)+A092606(A001703(n))`
@@ -7077,6 +7058,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343691.P6545347283578951873
+
+/-! ## A343691.P4144871002840656995
+
+`A087242(A014574(n+1))`
+-/
+
+namespace A343691.P4144871002840656995
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087242 (A014574 (n + 1)).toNat
+
+end
+
+end A343691.P4144871002840656995
 
 /-! ## A343691.P13726843603113709227
 

@@ -488,6 +488,36 @@ end
 
 end A239002.P7464763294196508702
 
+/-! ## A239002.P8717410788467956032
+
+`A350240(n)+A000119(n)-A000121(n)`
+-/
+
+namespace A239002.P8717410788467956032
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350240 n + A000119 n - A000121 n
+
+end
+
+end A239002.P8717410788467956032
+
+/-! ## A239002.P13579381090526672494
+
+`A000121(n+1)-A350240(n+1)`
+-/
+
+namespace A239002.P13579381090526672494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000121 (n + 1) - A350240 (n + 1)
+
+end
+
+end A239002.P13579381090526672494
+
 /-!
 # A239003: Number of partitions of n into distinct Fibonacci numbers that are all greater than 2.
 
@@ -5951,26 +5981,26 @@ def P16487631547242697111.Spec : Prop :=
 
 end A239053
 
-/-! ## A239053.P16051122537524486136
+/-! ## A239053.P13422157362983986053
 
-`A000593(3*(n+1)+n)`
+`A245092(A008438(2*n+1))`
 -/
 
-namespace A239053.P16051122537524486136
+namespace A239053.P13422157362983986053
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000593 (3 * (n + 1) + n)
+  A245092 (A008438 (2 * n + 1)).toNat
 
 end
 
-end A239053.P16051122537524486136
+end A239053.P13422157362983986053
 
 namespace A239053
 
-/-- `A000593(3*(n+1)+n)` -/
-def P16051122537524486136.Spec : Prop :=
-  ∀ n, P16051122537524486136.a n = A239053 (n + 1)
+/-- `A245092(A008438(2*n+1))` -/
+def P13422157362983986053.Spec : Prop :=
+  ∀ n, P13422157362983986053.a n = A239053 (n + 1)
 
 end A239053
 

@@ -2595,6 +2595,52 @@ def P8250549798424866798.Spec : Prop :=
 
 end A225821
 
+/-! ## A225821.P15821952819758628314
+
+`gcd(A094968(n), A165886(n))`
+-/
+
+namespace A225821.P15821952819758628314
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A094968 n) (A165886 n)
+
+end
+
+end A225821.P15821952819758628314
+
+namespace A225821
+
+/-- `gcd(A094968(n), A165886(n))` -/
+def P15821952819758628314.Spec : Prop :=
+  ∀ n, (P15821952819758628314.a n : ℤ) = A225821 (n + 1)
+
+end A225821
+
+/-! ## A225821.P13515399478866121947
+
+`gcd(A036799(n), A165886(n))`
+-/
+
+namespace A225821.P13515399478866121947
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A036799 n) (A165886 n)
+
+end
+
+end A225821.P13515399478866121947
+
+namespace A225821
+
+/-- `gcd(A036799(n), A165886(n))` -/
+def P13515399478866121947.Spec : Prop :=
+  ∀ n, (P13515399478866121947.a n : ℤ) = A225821 (n + 1)
+
+end A225821
+
 /-!
 # A225822: Lesser of adjacent odd numbers with different parity of binary weight and both isolated from odd numbers of same parity of binary weight.
 
@@ -6268,21 +6314,6 @@ end
 
 end A225843.P16007031076889257660
 
-/-! ## A225843.P11130572924755817117
-
-`A071187(A087051((n+1)/2^val(n+1, 2)))`
--/
-
-namespace A225843.P11130572924755817117
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071187 (A087051 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (2 ^ SequenceMachineLib.valuation (n + 1) 2 : ℚ))).toNat).toNat
-
-end
-
-end A225843.P11130572924755817117
-
 /-! ## A225843.P3359451654541879145
 
 `A020639(A213343(A064989(n+1)))`
@@ -6327,6 +6358,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225843.P9879979232109382845
+
+/-! ## A225843.P14027183368062410083
+
+`A001221(A304711(A304711(A327076(n+1))))`
+-/
+
+namespace A225843.P14027183368062410083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A304711 (A304711 (A327076 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A225843.P14027183368062410083
 
 /-!
 # A225846: Denominator of c(n) = 2^(2*n)*(2^(2*n) - 1)/(2*n)!, a coefficient used in the expansion of tan(x) as Sum_{n>=1} c(n)*|Bernoulli(2*n)|*x^(2*n-1).
@@ -9482,21 +9528,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A225872.P12613970729693907794
-
-/-! ## A225872.P2629357918661113949
-
-`(A225543(n)-A000735(n))*16^A008683(A063535(n))`
--/
-
-namespace A225872.P2629357918661113949
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A225543 n - A000735 n : ℚ) * (16 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ)
-
-end
-
-end A225872.P2629357918661113949
 
 /-! ## A225872.P1341277248608466427
 

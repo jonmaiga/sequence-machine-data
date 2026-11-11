@@ -3378,6 +3378,29 @@ def P17358613842325005344.Spec : Prop :=
 
 end A276134
 
+/-! ## A276134.P13798359979076792309
+
+`A055640(A061830(n))`
+-/
+
+namespace A276134.P13798359979076792309
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055640 (A061830 n).toNat
+
+end
+
+end A276134.P13798359979076792309
+
+namespace A276134
+
+/-- `A055640(A061830(n))` -/
+def P13798359979076792309.Spec : Prop :=
+  ∀ n, P13798359979076792309.a n = A276134 n
+
+end A276134
+
 /-!
 # A276135: Ben Ames Williams's Monkey and Coconuts Problem.
 

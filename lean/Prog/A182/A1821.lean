@@ -20,6 +20,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
@@ -7051,6 +7052,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A182181.P3170004066938703004
+
+/-! ## A182181.P14708235926077952006
+
+`A182244(n+1)-A182276(n+1)`
+-/
+
+namespace A182181.P14708235926077952006
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182244 (n + 1) - A182276 (n + 1)
+
+end
+
+end A182181.P14708235926077952006
 
 /-!
 # A182182: a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) XOR a(n-2) XOR n.

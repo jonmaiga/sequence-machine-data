@@ -8,7 +8,7 @@ import Seq.B000.C006
 import Seq.B000.C014
 import Seq.B000.C031
 import Seq.B006.C000
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false

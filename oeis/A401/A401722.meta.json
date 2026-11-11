@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A001065(i) = A001065(j) and A034460(i) = A034460(j), for all i, j >= 1, where A001065(n) is sigma(n)-n, and A034460(n) is usigma(n)-n.",
+  "id": "A401722",
+  "mentions": [
+    "A001065",
+    "A034448",
+    "A034460",
+    "A048146",
+    "A300235",
+    "A300249",
+    "A305800",
+    "A305895",
+    "A327931",
+    "A351260",
+    "A353560",
+    "A373379",
+    "A401721"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m such that the m-tuples ((x/p), ((x+1)/p), ..., ((x+m-1)/p)) of consecutive Legendre symbols are pairwise distinct for x = 0..p-1, where p = prime(n).",
+  "id": "A401456",
+  "mentions": [
+    "A000040",
+    "A053760",
+    "A226520"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

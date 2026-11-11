@@ -1,5 +1,5 @@
 {
-  "description": "Compound filter: a(n) = T(A000010(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.",
+  "description": "a(n) = (1/2)*(2 + ((A000010(n)+A046523(n))^2) - A000010(n) - 3*A046523(n)), where A046523(n) is the smallest number with same prime signature as n, and A000010 is the Euler totient function.",
   "id": "A286160",
   "mentions": [
     "A000010",
@@ -9,7 +9,8 @@
     "A286161",
     "A286162",
     "A286163",
-    "A286164"
+    "A286164",
+    "A318893"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 12 applications of 'Reverse and Subtract' lead to n, whereas fewer than 12 applications do not lead to n.",
+  "description": "Numbers m such that 12 applications of 'Reverse and Subtract' lead to m, whereas fewer than 12 applications do not lead to m.",
   "id": "A072718",
   "mentions": [
     "A072137",
@@ -11,6 +11,7 @@
   "tags": [
     "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

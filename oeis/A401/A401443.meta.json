@@ -1,0 +1,18 @@
+{
+  "description": "From a test by Paul Cooijmans (item 27 of Short Test for Genius).",
+  "id": "A401443",
+  "mentions": [
+    "A027747",
+    "A122549"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

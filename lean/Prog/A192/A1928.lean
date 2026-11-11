@@ -15468,23 +15468,20 @@ end
 
 end A192881.P1130211871998368764
 
-/-! ## A192881.P11682760631614699941
+/-! ## A192881.P11274436489706227655
 
-`∑[val(A134991(n^(n%2))+1, 2)]+n`
+`A208672(n)+A192002(n+1)`
 -/
 
-namespace A192881.P11682760631614699941
+namespace A192881.P11274436489706227655
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A134991 (n ^ (n % 2)) + 1).toNat 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208672 n + A192002 (n + 1)
 
 end
 
-end A192881.P11682760631614699941
+end A192881.P11274436489706227655
 
 /-!
 # A192882: Coefficient of x in the reduction by (x^2 -> x+1) of the polynomial p(n,x) given in Comments.

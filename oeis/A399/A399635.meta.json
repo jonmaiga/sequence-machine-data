@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k such that R^2*cos(A)*cos(B)*cos(C) = 36*k for a primitive acute integer-sided triangle with circumradius R and angles A, B, C.",
+  "id": "A399635",
+  "mentions": [
+    "A230402",
+    "A285579"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

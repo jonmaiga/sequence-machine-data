@@ -1,0 +1,20 @@
+{
+  "description": "Central-cross product divided by the central-cross sum in the (2*n + 1) X (2*n + 1) square array formed by the integers 1, 2, ..., (2*n + 1)^2 in order.",
+  "id": "A401207",
+  "mentions": [
+    "A393855",
+    "A395722",
+    "A399589",
+    "A399778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "joeis"
+  }
+}

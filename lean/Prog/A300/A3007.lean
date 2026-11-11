@@ -365,27 +365,6 @@ end
 end A300705.P16269393520357296359
 
 /-!
-# A300706: Number of compositions (ordered partitions) of n into squarefree parts that do not divide n.
-
-The programs for A300706, there is no canonical definition to state claims against.
--/
-
-/-! ## A300706.P12048370908143134081
-
-`A087051(A300703(n))%A167614(n+1)`
--/
-
-namespace A300706.P12048370908143134081
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A087051 (A300703 n).toNat) (A167614 (n + 1))
-
-end
-
-end A300706.P12048370908143134081
-
-/-!
 # A300708: Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers and z <= w such that x or y is a square and x - y is also a square.
 
 The programs for A300708, there is no canonical definition to state claims against.
@@ -5405,6 +5384,35 @@ def P12262790851817269597.Spec : Prop :=
 
 end A300758
 
+/-! ## A300758.P15939417328125389724
+
+`3*C(2*(n+1), 3)`
+-/
+
+namespace A300758.P15939417328125389724
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * Nat.choose (2 * (n + 1)) 3
+
+end
+
+end A300758.P15939417328125389724
+
+namespace A300758
+
+/-- `3*C(2*(n+1), 3)` -/
+def P15939417328125389724.Spec : Prop :=
+  ∀ n, (P15939417328125389724.a n : ℤ) = A300758 n
+
+theorem P15939417328125389724.correct : P15939417328125389724.Spec := by
+  intro n
+  simp only [A300758, Nat.add_sub_cancel, A300758.P15939417328125389724.a, A300758.P12177003143173864216.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A300758
+
 /-! ## A300758.P9177128350193972733
 
 `a(n-1)+12*n²` with `a(0)=0`
@@ -5763,32 +5771,6 @@ namespace A300758
 /-- `∑[A158463(n)+1]` -/
 def P10185585867612850767.Spec : Prop :=
   ∀ n, P10185585867612850767.a n = A300758 n
-
-end A300758
-
-/-! ## A300758.P15549659885745412334
-
-`∑[A158480(n)-1]`
--/
-
-namespace A300758.P15549659885745412334
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158480 n - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A300758.P15549659885745412334
-
-namespace A300758
-
-/-- `∑[A158480(n)-1]` -/
-def P15549659885745412334.Spec : Prop :=
-  ∀ n, P15549659885745412334.a n = A300758 n
 
 end A300758
 

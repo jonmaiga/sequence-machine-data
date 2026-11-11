@@ -33,7 +33,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4443,6 +4443,32 @@ def P10763092858108206062.Spec : Prop :=
 
 end A201595
 
+/-! ## A201595.P10764683616852480145
+
+`∑{#}[n+1, C(n+1, #)*#^n/(2*(n+1))]`
+-/
+
+namespace A201595.P10764683616852480145
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (n + 1) k : ℚ) * ((k ^ n : ℚ) / (2 * (n + 1) : ℚ))
+
+end
+
+end A201595.P10764683616852480145
+
+namespace A201595
+
+/-- `∑{#}[n+1, C(n+1, #)*#^n/(2*(n+1))]` -/
+def P10764683616852480145.Spec : Prop :=
+  ∀ n, P10764683616852480145.a n = (A201595 n : ℚ)
+
+end A201595
+
 /-! ## A201595.P2034567026762642118
 
 `ceil(A349562(n)/2)`
@@ -4604,29 +4630,6 @@ namespace A201595
 /-- `A349562(A000007(n)+n)/2` -/
 def P8632212385661365638.Spec : Prop :=
   ∀ n, P8632212385661365638.a n = (A201595 n : ℚ)
-
-end A201595
-
-/-! ## A201595.P16590051403073938467
-
-`A349562(A151935(n)+n)/2`
--/
-
-namespace A201595.P16590051403073938467
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A349562 (A151935 n + (n : ℤ)).toNat : ℚ) / 2
-
-end
-
-end A201595.P16590051403073938467
-
-namespace A201595
-
-/-- `A349562(A151935(n)+n)/2` -/
-def P16590051403073938467.Spec : Prop :=
-  ∀ n, P16590051403073938467.a n = (A201595 n : ℚ)
 
 end A201595
 

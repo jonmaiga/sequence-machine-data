@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -1312,30 +1311,30 @@ theorem P13442654023498340402.correct : P13442654023498340402.Spec := by
 
 end A112415
 
-/-! ## A112415.P6303251624083524073
+/-! ## A112415.P589134314907664458
 
-`4*C(C(n+3, 2), 2)`
+`C(n+4, 4)*12`
 -/
 
-namespace A112415.P6303251624083524073
+namespace A112415.P589134314907664458
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * Nat.choose (Nat.choose (n + 3) 2) 2
+  Nat.choose (n + 4) 4 * 12
 
 end
 
-end A112415.P6303251624083524073
+end A112415.P589134314907664458
 
 namespace A112415
 
-/-- `4*C(C(n+3, 2), 2)` -/
-def P6303251624083524073.Spec : Prop :=
-  ∀ n, (P6303251624083524073.a n : ℤ) = A112415 n
+/-- `C(n+4, 4)*12` -/
+def P589134314907664458.Spec : Prop :=
+  ∀ n, (P589134314907664458.a n : ℤ) = A112415 n
 
-theorem P6303251624083524073.correct : P6303251624083524073.Spec := by
+theorem P589134314907664458.correct : P589134314907664458.Spec := by
   intro n
-  simp only [A112415, Nat.add_sub_cancel, A112415.P6303251624083524073.a, A112415.P17226039057874977949.a, SequenceMachineLib.memo_apply]
+  simp only [A112415, Nat.add_sub_cancel, A112415.P589134314907664458.a, A112415.P17226039057874977949.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -3091,21 +3090,6 @@ end
 
 end A112426.P6081526025165645408
 
-/-! ## A112426.P7456860455565261954
-
-`A399763(a(n-1))-col(n+1)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=0, a(5)=1, a(6)=9`
--/
-
-namespace A112426.P7456860455565261954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 0, 0, 0, 1, 9] fun n a =>
-  A399763 (a (n - 1)).toNat - (SequenceMachineLib.triCol (n + 1) : ℤ)
-
-end
-
-end A112426.P7456860455565261954
-
 /-! ## A112426.P71077388351248431
 
 `A280126(A145138(n+1))`
@@ -3120,6 +3104,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A112426.P71077388351248431
+
+/-! ## A112426.P16510642123583880948
+
+`A350898(A079662(n+1))`
+-/
+
+namespace A112426.P16510642123583880948
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350898 (A079662 (n + 1)).toNat
+
+end
+
+end A112426.P16510642123583880948
 
 /-!
 # A112428: Carmichael numbers equal to the product of 5 primes.
@@ -9358,38 +9357,20 @@ end
 
 end A112474.P13276935066729522247
 
-/-! ## A112474.P9667684977783838923
+/-! ## A112474.P253756206370673165
 
-`A000290(A165454(A000290(n+1)/(n+1)))`
+`A000290(A165454(n+1))`
 -/
 
-namespace A112474.P9667684977783838923
+namespace A112474.P253756206370673165
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A165454 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+  A000290 (A165454 (n + 1)).toNat
 
 end
 
-end A112474.P9667684977783838923
-
-/-! ## A112474.P7944051523668925743
-
-`A000290(A165454(n+2)-Δ[A165454(n+1)])`
--/
-
-namespace A112474.P7944051523668925743
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165454 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A165454 (n + 2) - (f1 (n + 1) - f1 n)).toNat
-
-end
-
-end A112474.P7944051523668925743
+end A112474.P253756206370673165
 
 /-! ## A112474.P15822798741620572958
 

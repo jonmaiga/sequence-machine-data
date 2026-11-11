@@ -2,12 +2,18 @@
   "description": "First differences of A014311.",
   "id": "A228132",
   "mentions": [
+    "A000265",
+    "A007814",
     "A014311",
+    "A014312",
+    "A018900",
+    "A057168",
     "A062709",
     "A145057"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

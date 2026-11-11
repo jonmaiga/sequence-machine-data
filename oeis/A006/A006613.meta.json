@@ -1,8 +1,11 @@
 {
-  "description": "Zarankiewicz's problem.",
+  "description": "Zarankiewicz's problem: a(n) is the least k such that every n X n {0,1}-matrix with k ones contains an all-ones 2 X 3 submatrix.",
   "id": "A006613",
   "mentions": [
-    "A001197"
+    "A001197",
+    "A006614",
+    "A006615",
+    "A376167"
   ],
   "tags": [
     "more",

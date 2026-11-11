@@ -70,7 +70,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -2929,24 +2928,6 @@ end A385756.P11994241573964896823
 The programs for A385757, there is no canonical definition to state claims against.
 -/
 
-/-! ## A385757.P18292623664751355073
-
-`fp[A335097(n+1)]+1`
--/
-
-namespace A385757.P18292623664751355073
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335097 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 + 1
-
-end
-
-end A385757.P18292623664751355073
-
 /-! ## A385757.P16536635783151907641
 
 `fp[A058933(n+1)-1]+1`
@@ -2965,20 +2946,23 @@ end
 
 end A385757.P16536635783151907641
 
-/-! ## A385757.P10246504897609717439
+/-! ## A385757.P18292623664751355073
 
-`min(A000040(n+2), A001358(n+2))`
+`fp[A335097(n+1)]+1`
 -/
 
-namespace A385757.P10246504897609717439
+namespace A385757.P18292623664751355073
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  min (A000040 (n + 2)) (A001358 (n + 2))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335097 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 + 1
 
 end
 
-end A385757.P10246504897609717439
+end A385757.P18292623664751355073
 
 /-! ## A385757.P12230754556011827114
 

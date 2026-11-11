@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area of the pentagon egg constructed from a regular pentagon of side length 1.",
+  "id": "A401885",
+  "mentions": [
+    "A376642"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

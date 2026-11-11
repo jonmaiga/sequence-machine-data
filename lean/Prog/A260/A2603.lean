@@ -25,6 +25,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -4135,27 +4136,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260336.P12139073234633867376
-
-/-!
-# A260340: Triangle read by rows: T(n,k) = number of sets of linear n-ads in k variables.
-
-The programs for A260340, there is no canonical definition to state claims against.
--/
-
-/-! ## A260340.P10204156462185001197
-
-`A351006(A174544(n))`
--/
-
-namespace A260340.P10204156462185001197
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (A174544 n).toNat
-
-end
-
-end A260340.P10204156462185001197
 
 /-!
 # A260341: A002107 with the zero terms omitted.

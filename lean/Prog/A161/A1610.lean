@@ -19,7 +19,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C029
@@ -1180,6 +1179,21 @@ end A161007
 The programs for A161009, there is no canonical definition to state claims against.
 -/
 
+/-! ## A161009.P17550239920509516122
+
+`A400464(A108916(n))`
+-/
+
+namespace A161009.P17550239920509516122
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400464 (A108916 n).toNat
+
+end
+
+end A161009.P17550239920509516122
+
 /-! ## A161009.P6819919389272887835
 
 `A111960(n)-A353481(A002524(n))`
@@ -1239,21 +1253,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161009.P10206994726343837084
-
-/-! ## A161009.P13160703367397866028
-
-`A134379(n)+A014473(A187829(n+1))`
--/
-
-namespace A161009.P13160703367397866028
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134379 n + A014473 (A187829 (n + 1)).toNat
-
-end
-
-end A161009.P13160703367397866028
 
 /-!
 # A161010: a(n) = Sum_{d|n} Moebius(n/d)*d^(b-1)/phi(n) for b = 14.

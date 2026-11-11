@@ -30,6 +30,7 @@ import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -224,6 +225,21 @@ end
 
 end A174100.P10416405450543561517
 
+/-! ## A174100.P16994422356802904560
+
+`A000010(A088878(n+1))/2`
+-/
+
+namespace A174100.P16994422356802904560
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000010 (A088878 (n + 1)).toNat : ℚ) / 2
+
+end
+
+end A174100.P16994422356802904560
+
 /-! ## A174100.P6207834930278239806
 
 `(p?[A153183(n+1)]-1)/2`
@@ -414,27 +430,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A174100.P14269735370869789197
-
-/-! ## A174100.P10627101180865851359
-
-`eq[A072815(n), A340101(n)]`
--/
-
-namespace A174100.P10627101180865851359
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072815 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340101 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A174100.P10627101180865851359
 
 /-!
 # A174101: Numbers k such that 2*k+1 and 6*k+1 are both primes of the form 6*m+1.
@@ -992,7 +987,7 @@ end
 end A174109.P1110041636621337154
 
 /-!
-# A174111: Denominators of the image of a modified Bernoulli-number sequence under the Akiyama-Tanigawa transform.
+# A174111: Denominators of the image of Bernoulli numbers with B(1) = 1/2 under the Akiyama-Tanigawa transform.
 
 The programs for A174111, there is no canonical definition to state claims against.
 -/
@@ -2782,6 +2777,29 @@ def P1084878758854697148.Spec : Prop :=
 
 end A174121
 
+/-! ## A174121.P7946960348780231667
+
+`2^(n+1)-1+C(n+1, 2)+2*C(n+1, 3)`
+-/
+
+namespace A174121.P7946960348780231667
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ (n + 1) : ℤ) - 1 + (Nat.choose (n + 1) 2 : ℤ) + (2 * Nat.choose (n + 1) 3 : ℤ)
+
+end
+
+end A174121.P7946960348780231667
+
+namespace A174121
+
+/-- `2^(n+1)-1+C(n+1, 2)+2*C(n+1, 3)` -/
+def P7946960348780231667.Spec : Prop :=
+  ∀ n, P7946960348780231667.a n = A174121 (n + 1)
+
+end A174121
+
 /-! ## A174121.P3845342286700919044
 
 `∑[A001580(n)]`
@@ -3042,32 +3060,6 @@ namespace A174121
 /-- `∑[fp[sqrt(n+1)]+2^n]` -/
 def P2430751777549475958.Spec : Prop :=
   ∀ n, (P2430751777549475958.a n : ℤ) = A174121 (n + 1)
-
-end A174121
-
-/-! ## A174121.P12538023411654312031
-
-`∑{#}[n, C(n+1, #)+#*#]`
--/
-
-namespace A174121.P12538023411654312031
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (n + 1) k + k * k)
-
-end
-
-end A174121.P12538023411654312031
-
-namespace A174121
-
-/-- `∑{#}[n, C(n+1, #)+#*#]` -/
-def P12538023411654312031.Spec : Prop :=
-  ∀ n, (P12538023411654312031.a n : ℤ) = A174121 (n + 1)
 
 end A174121
 
@@ -3559,6 +3551,29 @@ namespace A174124
 /-- `ceil(root(A007318(n), n+1))*A001263(n+1)` -/
 def P2841285821756324869.Spec : Prop :=
   ∀ n, P2841285821756324869.a n = A174124 n
+
+end A174124
+
+/-! ## A174124.P9996968890764705678
+
+`A001263(n+1)+A001263(n+1)-A103451(n)`
+-/
+
+namespace A174124.P9996968890764705678
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001263 (n + 1) + A001263 (n + 1) - A103451 n
+
+end
+
+end A174124.P9996968890764705678
+
+namespace A174124
+
+/-- `A001263(n+1)+A001263(n+1)-A103451(n)` -/
+def P9996968890764705678.Spec : Prop :=
+  ∀ n, P9996968890764705678.a n = A174124 n
 
 end A174124
 
@@ -8673,6 +8688,35 @@ def P9016571144799715483.Spec : Prop :=
 
 end A174159
 
+/-! ## A174159.P368056041934329939
+
+`A008292(n+1)+A008292(n+1)-A001263(n+1)`
+-/
+
+namespace A174159.P368056041934329939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008292 (n + 1) + A008292 (n + 1) - A001263 (n + 1)
+
+end
+
+end A174159.P368056041934329939
+
+namespace A174159
+
+/-- `A008292(n+1)+A008292(n+1)-A001263(n+1)` -/
+def P368056041934329939.Spec : Prop :=
+  ∀ n, P368056041934329939.a n = A174159 (n + 1)
+
+theorem P368056041934329939.correct : P368056041934329939.Spec := by
+  intro n
+  simp only [A174159, Nat.add_sub_cancel, A174159.P368056041934329939.a, A174159.P16855072227263145217.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A174159
+
 /-! ## A174159.P11986717888895727351
 
 `A356116(n+1)+A008292(n+1)`
@@ -8769,29 +8813,6 @@ namespace A174159
 /-- `ceil(A356116(n+1)+A176200(n)/2)` -/
 def P6640209859136185313.Spec : Prop :=
   ∀ n, P6640209859136185313.a n = A174159 (n + 1)
-
-end A174159
-
-/-! ## A174159.P15736890776667315835
-
-`A001263(n+1)+2*A356116(n+1)`
--/
-
-namespace A174159.P15736890776667315835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001263 (n + 1) + 2 * A356116 (n + 1)
-
-end
-
-end A174159.P15736890776667315835
-
-namespace A174159
-
-/-- `A001263(n+1)+2*A356116(n+1)` -/
-def P15736890776667315835.Spec : Prop :=
-  ∀ n, P15736890776667315835.a n = A174159 (n + 1)
 
 end A174159
 
@@ -11879,6 +11900,21 @@ end
 
 end A174190.P4372157337493070790
 
+/-! ## A174190.P329608567171624714
+
+`A001489(A061035(n+1))`
+-/
+
+namespace A174190.P329608567171624714
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001489 (A061035 (n + 1)).toNat
+
+end
+
+end A174190.P329608567171624714
+
 /-! ## A174190.P12133988618459139702
 
 `A174233(A004201(1+n))`
@@ -11953,21 +11989,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A174190.P13644803027799971890
-
-/-! ## A174190.P17393084747783776145
-
-`A061035(n+1)*A134824(n)`
--/
-
-namespace A174190.P17393084747783776145
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061035 (n + 1) * A134824 n
-
-end
-
-end A174190.P17393084747783776145
 
 /-!
 # A174191: Expansion of (1+x)*(2*x-1)/((1-x)*(x^2+2*x-1)).

@@ -5147,30 +5147,29 @@ end A097433
 /-!
 # A097434: Value of C in y = x^2 + 5x + C such that y is prime for all x = 0 to 3.
 
-The programs for A097434, there is no canonical definition to state claims against.
+The programs for A097434, the canonical program `A097434.P7334701534932446706` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097434 has offset 1).
+
+The definition of A097434 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A097434.P7334701534932446706
 
 `∩[A023202(n+1)-6, A033560(n+1)]`
+
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
-namespace A097434.P7334701534932446706
-noncomputable section
+namespace A097434
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023202 (n + 1) - 6
+/-- `∩[A023202(n+1)-6, A033560(n+1)]` -/
+def P7334701534932446706.Spec : Prop :=
+  ∀ n, (P7334701534932446706.a n : ℤ) = A097434 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033560 (n + 1)
+theorem P7334701534932446706.correct : P7334701534932446706.Spec := by
+  intro n
+  simp only [A097434, Nat.add_sub_cancel]
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A097434.P7334701534932446706
+end A097434
 
 /-! ## A097434.P18246323107064415760
 
@@ -5193,6 +5192,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A097434.P18246323107064415760
+
+namespace A097434
+
+/-- `∩[A153417(n+1), A153418(n+1)-6]` -/
+def P18246323107064415760.Spec : Prop :=
+  ∀ n, (P18246323107064415760.a n : ℤ) = A097434 (n + 1)
+
+end A097434
 
 /-! ## A097434.P1222187956996786113
 
@@ -5218,6 +5225,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A097434.P1222187956996786113
+
+namespace A097434
+
+/-- `∩[A087695(n+1)-3, A140445(Δ[n²])-14]` -/
+def P1222187956996786113.Spec : Prop :=
+  ∀ n, (P1222187956996786113.a n : ℤ) = A097434 (n + 1)
+
+end A097434
 
 /-!
 # A097435: Numbers n such that n and its reversal are distinct brilliant numbers (A078972).
@@ -13117,26 +13132,26 @@ def P13994740192733146967.Spec : Prop :=
 
 end A097496
 
-/-! ## A097496.P18342245387708175996
+/-! ## A097496.P1068416998876096918
 
-`A326680(n)+A006721(2*n+1)`
+`max(A006721(2*n), A006721(2*n+1))`
 -/
 
-namespace A097496.P18342245387708175996
+namespace A097496.P1068416998876096918
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326680 n + A006721 (2 * n + 1)
+  max (A006721 (2 * n)) (A006721 (2 * n + 1))
 
 end
 
-end A097496.P18342245387708175996
+end A097496.P1068416998876096918
 
 namespace A097496
 
-/-- `A326680(n)+A006721(2*n+1)` -/
-def P18342245387708175996.Spec : Prop :=
-  ∀ n, P18342245387708175996.a n = A097496 n
+/-- `max(A006721(2*n), A006721(2*n+1))` -/
+def P1068416998876096918.Spec : Prop :=
+  ∀ n, P1068416998876096918.a n = A097496 n
 
 end A097496
 

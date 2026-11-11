@@ -56,7 +56,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -7394,6 +7394,36 @@ end
 
 end A278483.P5555136227105982761
 
+/-! ## A278483.P1328106236922751886
+
+`A030494(n+1)%A278493(n)`
+-/
+
+namespace A278483.P1328106236922751886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A030494 (n + 1)) (A278493 n)
+
+end
+
+end A278483.P1328106236922751886
+
+/-! ## A278483.P16096659326089633691
+
+`A072828(n+1)%A278493(n)`
+-/
+
+namespace A278483.P16096659326089633691
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A072828 (n + 1)) (A278493 n)
+
+end
+
+end A278483.P16096659326089633691
+
 /-!
 # A278484: Main diagonal of A278482.
 
@@ -8184,6 +8214,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278486.P3805504511714086086
+
+/-! ## A278486.P6576687896590675288
+
+`A169901(A278487(n+1))`
+-/
+
+namespace A278486.P6576687896590675288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169901 (A278487 (n + 1)).toNat
+
+end
+
+end A278486.P6576687896590675288
 
 /-! ## A278486.P2916539687802929027
 

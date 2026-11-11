@@ -1725,6 +1725,21 @@ end
 
 end A217214.P2230789086021811952
 
+/-! ## A217214.P7902560362023305368
+
+`A005843(A217215(n))`
+-/
+
+namespace A217214.P7902560362023305368
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A217215 n).toNat
+
+end
+
+end A217214.P7902560362023305368
+
 /-!
 # A217215: A217214(n)/2.
 
@@ -2423,6 +2438,21 @@ end
 
 end A217220.P10196772144744070581
 
+/-! ## A217220.P5967531394068444760
+
+`A000034(n)*A033716(n)`
+-/
+
+namespace A217220.P5967531394068444760
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000034 n * A033716 n
+
+end
+
+end A217220.P5967531394068444760
+
 /-! ## A217220.P3884768442928673954
 
 `A033716(n)*A068073(n)`
@@ -2677,21 +2707,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A217220.P9043727924372649642
-
-/-! ## A217220.P3619141059455012725
-
-`(2-A000034(n)²)*A115978(n)`
--/
-
-namespace A217220.P3619141059455012725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 - A000034 n ^ 2) * A115978 n
-
-end
-
-end A217220.P3619141059455012725
 
 /-!
 # A217221: Theta series of Kagome net with respect to a deep hole.

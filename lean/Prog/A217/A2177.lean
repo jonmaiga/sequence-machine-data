@@ -5886,6 +5886,29 @@ def P16602050686575360932.Spec : Prop :=
 
 end A217748
 
+/-! ## A217748.P3326869819764773390
+
+`max(n+1, (n+3)*n)`
+-/
+
+namespace A217748.P3326869819764773390
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  max (n + 1) ((n + 3) * n)
+
+end
+
+end A217748.P3326869819764773390
+
+namespace A217748
+
+/-- `max(n+1, (n+3)*n)` -/
+def P3326869819764773390.Spec : Prop :=
+  ∀ n, (P3326869819764773390.a n : ℤ) = A217748 (n + 3)
+
+end A217748
+
 /-! ## A217748.P5423546769779112204
 
 `∑[a(n-1)+2]` with `a(0)=1, a(1)=3, a(2)=6`
@@ -6134,29 +6157,6 @@ namespace A217748
 /-- `(n+3)*floor(sqrt(a(n-1)))` -/
 def P8855034925332579294.Spec : Prop :=
   ∀ n, (P8855034925332579294.a n : ℤ) = A217748 (n + 3)
-
-end A217748
-
-/-! ## A217748.P3626472498817055660
-
-`(n+3)*round(sqrt(a(n-1)))` with `a(0)=1`
--/
-
-namespace A217748.P3626472498817055660
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (n + 3 : ℤ) * SequenceMachineLib.roundAway (Real.sqrt (a (n - 1) : ℝ))
-
-end
-
-end A217748.P3626472498817055660
-
-namespace A217748
-
-/-- `(n+3)*round(sqrt(a(n-1)))` -/
-def P3626472498817055660.Spec : Prop :=
-  ∀ n, P3626472498817055660.a n = A217748 (n + 3)
 
 end A217748
 

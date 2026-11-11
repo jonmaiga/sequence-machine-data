@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -6509,58 +6510,49 @@ def P14783857844089438127.Spec : Prop :=
 
 end A071725
 
-/-! ## A071725.P15936430864751938548
+/-! ## A071725.P2128054817594072367
 
-`A122919(∑[n]+1)`
+`A220902(n+2)-A000782(n+1)`
 -/
 
-namespace A071725.P15936430864751938548
+namespace A071725.P2128054817594072367
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122919 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+  A220902 (n + 2) - A000782 (n + 1)
 
 end
 
-end A071725.P15936430864751938548
+end A071725.P2128054817594072367
 
 namespace A071725
 
-/-- `A122919(∑[n]+1)` -/
-def P15936430864751938548.Spec : Prop :=
-  ∀ n, P15936430864751938548.a n = A071725 n
+/-- `A220902(n+2)-A000782(n+1)` -/
+def P2128054817594072367.Spec : Prop :=
+  ∀ n, P2128054817594072367.a n = A071725 n
 
 end A071725
 
-/-! ## A071725.P241116157281763026
+/-! ## A071725.P6237002082955658002
 
-`Δ[(n-1)*C(2*n, n)/∑[n+1]]`
+`A026029(n)-(A000588(n)+A000245(n))`
 -/
 
-namespace A071725.P241116157281763026
+namespace A071725.P6237002082955658002
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (((n : ℤ) - 1) * (Nat.choose (2 * n) n : ℤ) : ℚ) / ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026029 n - (A000588 n + A000245 n)
 
 end
 
-end A071725.P241116157281763026
+end A071725.P6237002082955658002
 
 namespace A071725
 
-/-- `Δ[(n-1)*C(2*n, n)/∑[n+1]]` -/
-def P241116157281763026.Spec : Prop :=
-  ∀ n, P241116157281763026.a n = (A071725 n : ℚ)
+/-- `A026029(n)-(A000588(n)+A000245(n))` -/
+def P6237002082955658002.Spec : Prop :=
+  ∀ n, P6237002082955658002.a n = A071725 n
 
 end A071725
 

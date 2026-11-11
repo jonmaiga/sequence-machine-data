@@ -28,7 +28,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -36,6 +35,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B000.C046
@@ -2880,27 +2880,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A257225.P17240418000289431658
-
-/-! ## A257225.P1105968766928364630
-
-`lt[A087256(2*n+5), A002387(A083895(n+1))]+1`
--/
-
-namespace A257225.P1105968766928364630
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (2 * n + 5)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002387 (A083895 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
-
-end
-
-end A257225.P1105968766928364630
 
 /-!
 # A257226: Numbers that have at least one divisor containing the digit 9 in base 10.
@@ -6556,35 +6535,20 @@ end
 
 end A257251.P12833025166267856002
 
-/-! ## A257251.P8735754373420233186
+/-! ## A257251.P8734547375634012482
 
-`A257253(C(2, C(3, n²))+n)+A257253(n+1)`
+`A257253(n+1)+A257253(n+1)`
 -/
 
-namespace A257251.P8735754373420233186
+namespace A257251.P8734547375634012482
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257253 (Nat.choose 2 (Nat.choose 3 (n ^ 2)) + n) + A257253 (n + 1)
+  A257253 (n + 1) + A257253 (n + 1)
 
 end
 
-end A257251.P8735754373420233186
-
-/-! ## A257251.P12146705571084880621
-
-`A257253(A000027(n+1))+A257253(n+1)`
--/
-
-namespace A257251.P12146705571084880621
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257253 (A000027 (n + 1)).toNat + A257253 (n + 1)
-
-end
-
-end A257251.P12146705571084880621
+end A257251.P8734547375634012482
 
 /-! ## A257251.P6121564544930421227
 
@@ -6600,21 +6564,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257251.P6121564544930421227
-
-/-! ## A257251.P9463344943821808445
-
-`A257253(n+1)+A257253(n+1)%A085986(n+1)`
--/
-
-namespace A257251.P9463344943821808445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257253 (n + 1) + Int.tmod (A257253 (n + 1)) (A085986 (n + 1))
-
-end
-
-end A257251.P9463344943821808445
 
 /-! ## A257251.P11763615662073465477
 
@@ -6660,21 +6609,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257251.P16503999143151671789
-
-/-! ## A257251.P8627663774253099478
-
-`A257253(n+1)+A257253(n+1)/A001222(A123084(n+1))`
--/
-
-namespace A257251.P8627663774253099478
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A257253 (n + 1) : ℚ) + (A257253 (n + 1) : ℚ) / (A001222 (A123084 (n + 1)).toNat : ℚ)
-
-end
-
-end A257251.P8627663774253099478
 
 /-!
 # A257252: Transpose of square array A257251.
@@ -6746,6 +6680,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257252.P9102248441283579736
+
+/-! ## A257252.P1438600426633310347
+
+`A257254(n+1)+A257254(n+1)`
+-/
+
+namespace A257252.P1438600426633310347
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257254 (n + 1) + A257254 (n + 1)
+
+end
+
+end A257252.P1438600426633310347
 
 /-! ## A257252.P16611381254254819574
 
@@ -13419,6 +13368,29 @@ namespace A257297
 /-- `A169669(n)%A229890(n)` -/
 def P8521088560985758050.Spec : Prop :=
   ∀ n, P8521088560985758050.a n = A257297 n
+
+end A257297
+
+/-! ## A257297.P11903672056824274331
+
+`A111707(n)%A271341(n)`
+-/
+
+namespace A257297.P11903672056824274331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A111707 n) (A271341 n)
+
+end
+
+end A257297.P11903672056824274331
+
+namespace A257297
+
+/-- `A111707(n)%A271341(n)` -/
+def P11903672056824274331.Spec : Prop :=
+  ∀ n, P11903672056824274331.a n = A257297 n
 
 end A257297
 

@@ -1,13 +1,17 @@
 {
   "description": "Value of C in y = x^2 + 5x + C such that y is prime for all x = 0 to 3.",
   "id": "A097434",
-  "mentions": [],
+  "mentions": [
+    "A023201",
+    "A033560",
+    "A153417"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

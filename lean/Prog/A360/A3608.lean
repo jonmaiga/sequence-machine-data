@@ -14,6 +14,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -39,7 +40,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -4821,6 +4821,21 @@ end
 
 end A360891.P12022768548913133868
 
+/-! ## A360891.P9261051007949423672
+
+`A358636(A401689(n))`
+-/
+
+namespace A360891.P9261051007949423672
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358636 (A401689 n).toNat
+
+end
+
+end A360891.P9261051007949423672
+
 /-! ## A360891.P11816673252541639801
 
 `A180580(A119610(n+1))`
@@ -4835,27 +4850,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A360891.P11816673252541639801
-
-/-! ## A360891.P8502738461785740734
-
-`A358636(Δ[Δ[A130578(n+1)]])`
--/
-
-namespace A360891.P8502738461785740734
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130578 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358636 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A360891.P8502738461785740734
 
 /-!
 # A360892: G.f. satisfies A(x) = 1 + x/(1 - x^3)^2 * A(x/(1 - x^3)).

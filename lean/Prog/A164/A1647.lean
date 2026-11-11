@@ -44,7 +44,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C011
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C007
@@ -2676,8 +2676,29 @@ end A164711.P1485804000000807763
 /-!
 # A164712: A positive integer n is included if all runs of 0's in binary n are of the same length, and if there are at least two runs of 0's.
 
-The programs for A164712, there is no canonical definition to state claims against.
+The programs for A164712, the canonical program `A164712.P12816176961082855944` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164712 has offset 1).
+
+The definition of A164712 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1237 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A164712.P12816176961082855944
+
+`∩[A087119(n+1), A164710(n+1)]`
+
+The canonical program, it is in `Seq.B007.C000`.
+-/
+
+namespace A164712
+
+/-- `∩[A087119(n+1), A164710(n+1)]` -/
+def P12816176961082855944.Spec : Prop :=
+  ∀ n, (P12816176961082855944.a n : ℤ) = A164712 (n + 1)
+
+theorem P12816176961082855944.correct : P12816176961082855944.Spec := by
+  intro n
+  simp only [A164712, Nat.add_sub_cancel]
+
+end A164712
 
 /-! ## A164712.P2486455153891098336
 
@@ -2700,6 +2721,14 @@ end
 
 end A164712.P2486455153891098336
 
+namespace A164712
+
+/-- `eq[3, A297770(A233569(2*n+1))]` -/
+def P2486455153891098336.Spec : Prop :=
+  ∀ n, (P2486455153891098336.a n : ℤ) = A164712 (n + 1)
+
+end A164712
+
 /-! ## A164712.P7768361092301528251
 
 `eq[3, A325355(A005940(1+n))]`
@@ -2720,6 +2749,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A164712.P7768361092301528251
+
+namespace A164712
+
+/-- `eq[3, A325355(A005940(1+n))]` -/
+def P7768361092301528251.Spec : Prop :=
+  ∀ n, (P7768361092301528251.a n : ℤ) = A164712 (n + 1)
+
+end A164712
 
 /-! ## A164712.P12333864814993222615
 
@@ -2743,27 +2780,13 @@ end
 
 end A164712.P12333864814993222615
 
-/-! ## A164712.P12816176961082855944
+namespace A164712
 
-`∩[A087119(n+1), A164710(n+1)]`
--/
+/-- `∩[A164710(n+1), A335236(n+1)]` -/
+def P12333864814993222615.Spec : Prop :=
+  ∀ n, (P12333864814993222615.a n : ℤ) = A164712 (n + 1)
 
-namespace A164712.P12816176961082855944
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087119 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164710 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A164712.P12816176961082855944
+end A164712
 
 /-!
 # A164713: A positive integer n is included if all runs of 0's in binary n are of the same length, and if all runs of 1's in binary n are of the same length.
@@ -3160,6 +3183,28 @@ end
 
 end A164714.P15298810353880927174
 
+/-! ## A164714.P5607959594020598938
+
+`∩[A087119(n+1), A164713(n+1)]`
+-/
+
+namespace A164714.P5607959594020598938
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087119 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A164714.P5607959594020598938
+
 /-! ## A164714.P12780369201819118342
 
 `∩[A164709(n+1), A164712(n+1)]`
@@ -3209,27 +3254,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A164714.P6476389558874276115
-
-/-! ## A164714.P1598594992613562243
-
-`lt[A161895(A028310(n)), A087116(n)]`
--/
-
-namespace A164714.P1598594992613562243
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161895 (A028310 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087116 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A164714.P1598594992613562243
 
 /-!
 # A164715: Length of cycle mentioned in A099010.
@@ -7014,6 +7038,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A164774.P5589877021062206109
+
+/-! ## A164774.P16052127703791836679
+
+`A056926(A316485(n+1))`
+-/
+
+namespace A164774.P16052127703791836679
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A316485 (n + 1)).toNat
+
+end
+
+end A164774.P16052127703791836679
 
 /-!
 # A164775: a(n) is the number of positive integers <= 10^n that can be expressed as a sum of two squares.

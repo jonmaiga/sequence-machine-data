@@ -1386,6 +1386,27 @@ end
 end A062212.P4807687789449676615
 
 /-!
+# A062214: Numbers k such that the smoothly undulating palindromic number(18*10^k - 81)/99 is a prime.
+
+The programs for A062214, there is no canonical definition to state claims against.
+-/
+
+/-! ## A062214.P2184495402969542532
+
+`2*A401123(n+1)+1`
+-/
+
+namespace A062214.P2184495402969542532
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A401123 (n + 1) + 1
+
+end
+
+end A062214.P2184495402969542532
+
+/-!
 # A062219: Numbers k such that the smoothly undulating palindromic number (37*10^k - 73)/99 is a prime.
 
 The programs for A062219, there is no canonical definition to state claims against.
@@ -1982,26 +2003,26 @@ def P8732810476825266305.Spec : Prop :=
 
 end A062234
 
-/-! ## A062234.P16593989604413959172
+/-! ## A062234.P3415015630726502781
 
-`A377985(A000040(n+1))-1`
+`A152530(n+1)%A000040(n+1)`
 -/
 
-namespace A062234.P16593989604413959172
+namespace A062234.P3415015630726502781
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377985 (A000040 (n + 1)).toNat - 1
+  Int.tmod (A152530 (n + 1)) (A000040 (n + 1))
 
 end
 
-end A062234.P16593989604413959172
+end A062234.P3415015630726502781
 
 namespace A062234
 
-/-- `A377985(A000040(n+1))-1` -/
-def P16593989604413959172.Spec : Prop :=
-  ∀ n, P16593989604413959172.a n = A062234 (n + 1)
+/-- `A152530(n+1)%A000040(n+1)` -/
+def P3415015630726502781.Spec : Prop :=
+  ∀ n, P3415015630726502781.a n = A062234 (n + 1)
 
 end A062234
 
@@ -6392,6 +6413,32 @@ namespace A062267
 /-- `∑{#}[n, C(n, #)*A293604(#)]` -/
 def P3914518474159480715.Spec : Prop :=
   ∀ n, P3914518474159480715.a n = A062267 n
+
+end A062267
+
+/-! ## A062267.P8531147613814543629
+
+`∑{#}[floor(n/2), (-1)^#*n!*2^(n-2*#)/(#!*(n-2*#)!)]`
+-/
+
+namespace A062267.P8531147613814543629
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((-1) ^ k * (Nat.factorial n : ℤ) : ℚ) * (2 : ℚ) ^ ((n : ℤ) - (2 * k : ℤ) : ℤ) / (Nat.factorial k * Nat.factorial ((n : ℤ) - (2 * k : ℤ)).toNat : ℚ)
+
+end
+
+end A062267.P8531147613814543629
+
+namespace A062267
+
+/-- `∑{#}[floor(n/2), (-1)^#*n!*2^(n-2*#)/(#!*(n-2*#)!)]` -/
+def P8531147613814543629.Spec : Prop :=
+  ∀ n, P8531147613814543629.a n = (A062267 n : ℚ)
 
 end A062267
 
@@ -11951,6 +11998,35 @@ def P2778567147471107711.Spec : Prop :=
 
 end A062298
 
+/-! ## A062298.P502244125774796174
+
+`1-A000720(n+1)+n`
+-/
+
+namespace A062298.P502244125774796174
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - A000720 (n + 1) + (n : ℤ)
+
+end
+
+end A062298.P502244125774796174
+
+namespace A062298
+
+/-- `1-A000720(n+1)+n` -/
+def P502244125774796174.Spec : Prop :=
+  ∀ n, P502244125774796174.a n = A062298 (n + 1)
+
+theorem P502244125774796174.correct : P502244125774796174.Spec := by
+  intro n
+  simp only [A062298, Nat.add_sub_cancel, A062298.P502244125774796174.a, A062298.P8226643735375377344.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A062298
+
 /-! ## A062298.P5056118334232408428
 
 `2-A036234(n+1)+n`
@@ -12026,32 +12102,6 @@ namespace A062298
 /-- `∑[1-abs(A129950(n+1))]` -/
 def P15586711982304659086.Spec : Prop :=
   ∀ n, P15586711982304659086.a n = A062298 (n + 1)
-
-end A062298
-
-/-! ## A062298.P7495047573832703380
-
-`∑[(1-A061007(n+1))²]`
--/
-
-namespace A062298.P7495047573832703380
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 - A061007 (n + 1)) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A062298.P7495047573832703380
-
-namespace A062298
-
-/-- `∑[(1-A061007(n+1))²]` -/
-def P7495047573832703380.Spec : Prop :=
-  ∀ n, P7495047573832703380.a n = A062298 (n + 1)
 
 end A062298
 

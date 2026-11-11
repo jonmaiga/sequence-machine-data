@@ -4768,6 +4768,32 @@ def P15527162069305351249.Spec : Prop :=
 
 end A056924
 
+/-! ## A056924.P5967162760850549525
+
+`∑{#}[floor(sqrt(n))-1, floor((n+1)/(#+1))-floor(n/(#+1))]`
+-/
+
+namespace A056924.P5967162760850549525
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.sqrt n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (⌊(n + 1 : ℚ) / (k + 1 : ℚ)⌋ - ⌊(n : ℚ) / (k + 1 : ℚ)⌋)
+
+end
+
+end A056924.P5967162760850549525
+
+namespace A056924
+
+/-- `∑{#}[floor(sqrt(n))-1, floor((n+1)/(#+1))-floor(n/(#+1))]` -/
+def P5967162760850549525.Spec : Prop :=
+  ∀ n, P5967162760850549525.a n = A056924 (n + 1)
+
+end A056924
+
 /-! ## A056924.P11418456919710135181
 
 `val(A338506(n+1), 4)`
@@ -5079,32 +5105,6 @@ namespace A056924
 /-- `A004526(Δ[A006218(n)])` -/
 def P7188567259212957858.Spec : Prop :=
   ∀ n, P7188567259212957858.a n = A056924 (n + 1)
-
-end A056924
-
-/-! ## A056924.P12314099424627645726
-
-`A004526(Δ[A054519(n)])`
--/
-
-namespace A056924.P12314099424627645726
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054519 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A056924.P12314099424627645726
-
-namespace A056924
-
-/-- `A004526(Δ[A054519(n)])` -/
-def P12314099424627645726.Spec : Prop :=
-  ∀ n, P12314099424627645726.a n = A056924 (n + 1)
 
 end A056924
 
@@ -11627,7 +11627,7 @@ end
 end A056957.P2664162015700293878
 
 /-!
-# A056959: In repeated iterations of function m -> m/2 if m even, m -> 3m+1 if m odd, a(n) is maximum value achieved if starting from n.
+# A056959: a(n) is the maximum of the orbit of n under iterations of the Collatz or 3x+1 function A006370 (x/2 if even, 3x+1 else), or 0 if the orbit is unbounded.
 
 The programs for A056959, there is no canonical definition to state claims against.
 -/
@@ -17882,29 +17882,6 @@ def P2367441578278652173.Spec : Prop :=
 
 end A056986
 
-/-! ## A056986.P18172322009662912128
-
-`A356118(n+1)-A000142(n+1)`
--/
-
-namespace A056986.P18172322009662912128
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356118 (n + 1) - A000142 (n + 1)
-
-end
-
-end A056986.P18172322009662912128
-
-namespace A056986
-
-/-- `A356118(n+1)-A000142(n+1)` -/
-def P18172322009662912128.Spec : Prop :=
-  ∀ n, P18172322009662912128.a n = A056986 (n + 1)
-
-end A056986
-
 /-!
 # A056988: Number of weakly connected digraphs on n unlabeled nodes that are not strongly connected.
 
@@ -18011,7 +17988,7 @@ end
 end A056989.P10215549416054719675
 
 /-!
-# A056990: Number of nonsingular n X n (-1,1)-matrices.
+# A056990: Number of nonsingular n X n {-1,1}-matrices.
 
 The programs for A056990, there is no canonical definition to state claims against.
 -/

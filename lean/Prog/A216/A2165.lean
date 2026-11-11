@@ -22,11 +22,13 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -642,6 +644,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216506.P17295664105668093699
+
+/-! ## A216506.P5191017085480640157
+
+`A214718(A323227(n+1))`
+-/
+
+namespace A216506.P5191017085480640157
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214718 (A323227 (n + 1)).toNat
+
+end
+
+end A216506.P5191017085480640157
 
 /-!
 # A216507: E.g.f. exp( x^2 * exp(x) ).
@@ -7926,6 +7943,32 @@ theorem P10493900783905801092.correct : P10493900783905801092.Spec := by
 
 end A216584
 
+/-! ## A216584.P15374651237424697625
+
+`∑{#}[n, C(2*n, 2*#)*C(2*#, #)*C(2*n-2*#, n)]`
+-/
+
+namespace A216584.P15374651237424697625
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose (2 * n) (2 * k) * Nat.choose (2 * k) k * Nat.choose ((2 * n : ℤ) - (2 * k : ℤ)).toNat n
+
+end
+
+end A216584.P15374651237424697625
+
+namespace A216584
+
+/-- `∑{#}[n, C(2*n, 2*#)*C(2*#, #)*C(2*n-2*#, n)]` -/
+def P15374651237424697625.Spec : Prop :=
+  ∀ n, (P15374651237424697625.a n : ℤ) = A216584 n
+
+end A216584
+
 /-! ## A216584.P557900030986832706
 
 `C(2*n, n)*A002426(n)`
@@ -8102,32 +8145,6 @@ namespace A216584
 /-- `(2*A027914(n)-3^n)*C(2*n, n)` -/
 def P13029487823552040312.Spec : Prop :=
   ∀ n, P13029487823552040312.a n = A216584 n
-
-end A216584
-
-/-! ## A216584.P13721974887635620044
-
-`abs(Δ[n*A174297(n+1)])*C(2*n, n)`
--/
-
-namespace A216584.P13721974887635620044
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A174297 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |f1 (n + 1) - f1 n| * (Nat.choose (2 * n) n : ℤ)
-
-end
-
-end A216584.P13721974887635620044
-
-namespace A216584
-
-/-- `abs(Δ[n*A174297(n+1)])*C(2*n, n)` -/
-def P13721974887635620044.Spec : Prop :=
-  ∀ n, P13721974887635620044.a n = A216584 n
 
 end A216584
 

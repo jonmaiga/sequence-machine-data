@@ -8354,6 +8354,29 @@ def P14195426307548147465.Spec : Prop :=
 
 end A192675
 
+/-! ## A192675.P9790306627289673565
+
+`A000196(A000957(n))`
+-/
+
+namespace A192675.P9790306627289673565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000196 (A000957 n).toNat
+
+end
+
+end A192675.P9790306627289673565
+
+namespace A192675
+
+/-- `A000196(A000957(n))` -/
+def P9790306627289673565.Spec : Prop :=
+  ∀ n, P9790306627289673565.a n = A192675 n
+
+end A192675
+
 /-!
 # A192676: Floor-Sqrt transform of derangement numbers (A000166).
 

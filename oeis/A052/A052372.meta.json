@@ -7,11 +7,12 @@
     "A318795"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

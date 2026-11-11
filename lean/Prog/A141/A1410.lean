@@ -3080,6 +3080,29 @@ def P4105524244047073545.Spec : Prop :=
 
 end A141023
 
+/-! ## A141023.P4918513149507072084
+
+`2^n-2+(n+1)%2`
+-/
+
+namespace A141023.P4918513149507072084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℤ) - 2 + (((n + 1) % 2 : ℕ) : ℤ)
+
+end
+
+end A141023.P4918513149507072084
+
+namespace A141023
+
+/-- `2^n-2+(n+1)%2` -/
+def P4918513149507072084.Spec : Prop :=
+  ∀ n, P4918513149507072084.a n = A141023 n
+
+end A141023
+
 /-! ## A141023.P1081741643816806671
 
 `abs(2^n-gcd(n-1, 2*n))`
@@ -3379,29 +3402,6 @@ namespace A141023
 /-- `A166754(n)%A097813(n)` -/
 def P11897769203114925692.Spec : Prop :=
   ∀ n, P11897769203114925692.a n = A141023 n
-
-end A141023
-
-/-! ## A141023.P2618212471105491731
-
-`A275970(n)%A134522(n)`
--/
-
-namespace A141023.P2618212471105491731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A275970 n) (A134522 n)
-
-end
-
-end A141023.P2618212471105491731
-
-namespace A141023
-
-/-- `A275970(n)%A134522(n)` -/
-def P2618212471105491731.Spec : Prop :=
-  ∀ n, P2618212471105491731.a n = A141023 n
 
 end A141023
 

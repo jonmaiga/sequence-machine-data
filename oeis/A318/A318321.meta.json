@@ -2,8 +2,10 @@
   "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A003961.",
   "id": "A318321",
   "mentions": [
+    "A001316",
     "A003961",
     "A046644",
+    "A151800",
     "A317937",
     "A318319"
   ],

@@ -1297,6 +1297,43 @@ end
 
 end A033007.P10111256109877883945
 
+/-! ## A033007.P8509802948622374521
+
+`∩[A033022(n+1), A037997(n+1)]`
+-/
+
+namespace A033007.P8509802948622374521
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033022 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037997 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A033007.P8509802948622374521
+
+/-! ## A033007.P9239557045915464560
+
+`A044835(A032555(n+1))`
+-/
+
+namespace A033007.P9239557045915464560
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A044835 (A032555 (n + 1)).toNat
+
+end
+
+end A033007.P9239557045915464560
+
 /-!
 # A033008: Every run of digits of n in base 10 has length 2.
 
@@ -14422,6 +14459,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033096.P3434345078092816534
+
+/-! ## A033096.P8777954341247705022
+
+`A000720(A082500(A109400(A002378((n+1)²))))`
+-/
+
+namespace A033096.P8777954341247705022
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A082500 (A109400 (A002378 ((n + 1) ^ 2)).toNat).toNat).toNat
+
+end
+
+end A033096.P8777954341247705022
 
 /-!
 # A033097: Number of 2's when n is written in base b for 2<=b<=n+1.

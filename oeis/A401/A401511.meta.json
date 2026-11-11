@@ -1,0 +1,18 @@
+{
+  "description": "Value of m - (2k + 3), where m is the prime index of the n-th prime that is the sum of three consecutive primes (A034962), and k is the prime index of the first of those three consecutive primes (A073681).",
+  "id": "A401511",
+  "mentions": [
+    "A000040",
+    "A034961",
+    "A034962",
+    "A073681"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -27,6 +27,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C038
@@ -1633,6 +1634,21 @@ end A225123.P15177359519458803877
 The programs for A225124, there is no canonical definition to state claims against.
 -/
 
+/-! ## A225124.P6727777964347789355
+
+`A087263(2^n)`
+-/
+
+namespace A225124.P6727777964347789355
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087263 (2 ^ n)
+
+end
+
+end A225124.P6727777964347789355
+
 /-! ## A225124.P7917930539218717144
 
 `A231610(n*floor(n^(1/3))^3)`
@@ -1677,24 +1693,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225124.P18160069571255997956
-
-/-! ## A225124.P13917154705458676468
-
-`A257684(∑{digits}[n, #!])+A231610(n)`
--/
-
-namespace A225124.P13917154705458676468
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257684 ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => Nat.factorial x).sum + A231610 n
-
-end
-
-end A225124.P13917154705458676468
 
 /-!
 # A225126: Central terms of the triangle in A048152.

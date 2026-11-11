@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
@@ -5711,6 +5710,36 @@ end
 
 end A321770.P17614966255998134140
 
+/-! ## A321770.P3689617370884484954
+
+`A321769(n+1)+A321785(n+1)*A321785(n+1)`
+-/
+
+namespace A321770.P3689617370884484954
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321769 (n + 1) + A321785 (n + 1) * A321785 (n + 1)
+
+end
+
+end A321770.P3689617370884484954
+
+/-! ## A321770.P11587043122492314613
+
+`A321784(n+1)*A321784(n+1)-A321769(n+1)`
+-/
+
+namespace A321770.P11587043122492314613
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321784 (n + 1) * A321784 (n + 1) - A321769 (n + 1)
+
+end
+
+end A321770.P11587043122492314613
+
 /-! ## A321770.P11364070558913617244
 
 `A321783(n+1)²+A321783(A016789(n))²`
@@ -9239,6 +9268,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321795.P4898005088010753725
+
+/-! ## A321795.P453630645590355540
+
+`filter[A082612(n+1), A353529(#)]`
+-/
+
+namespace A321795.P453630645590355540
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082612 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353529 (f1 j).toNat = 1) n)
+
+end
+
+end A321795.P453630645590355540
 
 /-!
 # A321796: Prime p such that the prime before p is a substring of p^3.

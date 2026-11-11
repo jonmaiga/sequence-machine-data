@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -14,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C020
@@ -93,10 +93,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A003300: Denominators of coefficients of Green function for cubic lattice.
@@ -1080,7 +1076,7 @@ end A003311.P10944294838207597377
 /-!
 # A003312: a(1) = 3; for n>0, a(n+1) = a(n) + floor((a(n)-1)/2).
 
-The programs for A003312, the canonical program `A003312.P15694996587841724422` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003312 has offset 1).
+The programs for A003312, the canonical program `A003312.P15694996587841724422` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003312 has offset 1).
 
 The definition of A003312 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 567 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1204,7 +1200,7 @@ end A003312
 
 `A006999(n)+3`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A003312
@@ -1262,12 +1258,6 @@ namespace A003312
 /-- `A061419(n+1)+2` -/
 def P229948286950434626.Spec : Prop :=
   ∀ n, P229948286950434626.a n = A003312 (n + 1)
-
-theorem P229948286950434626.correct : P229948286950434626.Spec := by
-  intro n
-  simp only [A003312, Nat.add_sub_cancel, A003312.P229948286950434626.a, A003312.P15694996587841724422.a, A006999, A006999.P3401224636589051846.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A003312
 
@@ -1461,12 +1451,6 @@ namespace A003312
 /-- `A305498(n+1)/2+2` -/
 def P1889836703390475158.Spec : Prop :=
   ∀ n, P1889836703390475158.a n = (A003312 (n + 1) : ℚ)
-
-theorem P1889836703390475158.correct : P1889836703390475158.Spec := by
-  intro n
-  simp only [A003312, Nat.add_sub_cancel, A003312.P1889836703390475158.a, A003312.P15694996587841724422.a, A006999, A006999.P3401224636589051846.a, A305498, A305498.P10132958174563949694.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A003312
 

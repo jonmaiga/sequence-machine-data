@@ -30,7 +30,6 @@ import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C047
@@ -5600,6 +5599,51 @@ end
 
 end A362470.P7583503675821143541
 
+/-! ## A362470.P17403446788563112399
+
+`A401248(A004928(n+1))`
+-/
+
+namespace A362470.P17403446788563112399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401248 (A004928 (n + 1)).toNat
+
+end
+
+end A362470.P17403446788563112399
+
+/-! ## A362470.P2815874712671903221
+
+`A401248(A004948(n+1))`
+-/
+
+namespace A362470.P2815874712671903221
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401248 (A004948 (n + 1)).toNat
+
+end
+
+end A362470.P2815874712671903221
+
+/-! ## A362470.P1418598739206561442
+
+`A401248(A100981(n+1))`
+-/
+
+namespace A362470.P1418598739206561442
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401248 (A100981 (n + 1)).toNat
+
+end
+
+end A362470.P1418598739206561442
+
 /-! ## A362470.P13144052594778020706
 
 `A400194(n+1)-A101605(A026625(n))`
@@ -5614,57 +5658,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A362470.P13144052594778020706
-
-/-! ## A362470.P11941078156864332371
-
-`gcd(A008611(A249699(n)), A072078(n+1))`
--/
-
-namespace A362470.P11941078156864332371
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A008611 (A249699 n).toNat) (A072078 (n + 1))
-
-end
-
-end A362470.P11941078156864332371
-
-/-! ## A362470.P3196141009059311078
-
-`∑{d}[A327832(n+1), A043288(A001190(#))]`
--/
-
-namespace A362470.P3196141009059311078
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327832 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A043288 (A001190 d).toNat
-
-end
-
-end A362470.P3196141009059311078
-
-/-! ## A362470.P392100781326313585
-
-`∑{d}[A327832(n+1), A043288(A236463(#))]`
--/
-
-namespace A362470.P392100781326313585
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327832 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A043288 (A236463 d).toNat
-
-end
-
-end A362470.P392100781326313585
 
 /-!
 # A362471: a(n) is the smallest number of 1's used in expressing n as a calculation containing only decimal repunits and operators +, -, * and /.

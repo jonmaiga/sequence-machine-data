@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = 1 - Sum_{k=1..n} a(floor(n/k)).",
+  "description": "a(1) = 1, a(n+1) = 1 - Sum_{k=1..n} a(floor(n/k)).",
   "id": "A328967",
   "mentions": [
     "A003318",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

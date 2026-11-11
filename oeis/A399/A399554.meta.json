@@ -1,0 +1,22 @@
+{
+  "description": "Number of digraphs on n labeled nodes that are reducible for some election of source-SCC headers: some choice of one node per source SCC makes the virtual-rooted flow graph reducible.",
+  "id": "A399554",
+  "mentions": [
+    "A003024",
+    "A053763",
+    "A397470",
+    "A397965",
+    "A398465",
+    "A400123",
+    "A401321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -232,7 +232,7 @@ end A043401
 /-!
 # A043402: Numbers whose base-7 representation contains exactly two 2's.
 
-The programs for A043402, the canonical program `A043402.P12936859337194893635` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043402 has offset 1).
+The programs for A043402, the canonical program `A043402.P12936859337194893635` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043402 has offset 1).
 
 The definition of A043402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 216 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -357,7 +357,7 @@ end A043402
 
 `eq[2, A316863(A307913(n+1))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043402
@@ -498,7 +498,7 @@ end A043404.P11308420621239568701
 /-!
 # A043405: Numbers whose base-7 representation contains exactly one 3.
 
-The programs for A043405, the canonical program `A043405.P3940090914086261640` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043405 has offset 1).
+The programs for A043405, the canonical program `A043405.P3940090914086261640` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043405 has offset 1).
 
 The definition of A043405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 864 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -629,7 +629,7 @@ end A043405
 
 `eq[1, A316865(A307913(1+n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043405

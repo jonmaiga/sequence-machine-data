@@ -1247,27 +1247,6 @@ end
 end A337310.P2718762983786018
 
 /-!
-# A337312: List of successive y-coordinates in the acute angled Babylonian spiral.
-
-The programs for A337312, there is no canonical definition to state claims against.
--/
-
-/-! ## A337312.P11420510537895649844
-
-`A008620(n+1)+A129554(A117401(n))-A002126(n)`
--/
-
-namespace A337312.P11420510537895649844
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008620 (n + 1) + (A129554 (A117401 n).toNat - A002126 n)
-
-end
-
-end A337312.P11420510537895649844
-
-/-!
 # A337313: a(n) is the number of n-digit positive integers with exactly three distinct base 10 digits.
 
 The programs for A337313, the canonical program `A337313.P15868311690781010841` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337313 has offset 1).
@@ -7425,6 +7404,29 @@ def P6678184320292438939.Spec : Prop :=
 
 end A337349
 
+/-! ## A337349.P11497946780033249891
+
+`A075677(A139391(4*n+1))`
+-/
+
+namespace A337349.P11497946780033249891
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075677 (A139391 (4 * n + 1)).toNat
+
+end
+
+end A337349.P11497946780033249891
+
+namespace A337349
+
+/-- `A075677(A139391(4*n+1))` -/
+def P11497946780033249891.Spec : Prop :=
+  ∀ n, P11497946780033249891.a n = A337349 n
+
+end A337349
+
 /-! ## A337349.P3011003441949495049
 
 `A067745(2*A067745(n+1))`
@@ -7445,6 +7447,52 @@ namespace A337349
 /-- `A067745(2*A067745(n+1))` -/
 def P3011003441949495049.Spec : Prop :=
   ∀ n, P3011003441949495049.a n = A337349 n
+
+end A337349
+
+/-! ## A337349.P14234126027280454935
+
+`A067745(A067745(n+1)+A067745(n+1))`
+-/
+
+namespace A337349.P14234126027280454935
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067745 (A067745 (n + 1) + A067745 (n + 1)).toNat
+
+end
+
+end A337349.P14234126027280454935
+
+namespace A337349
+
+/-- `A067745(A067745(n+1)+A067745(n+1))` -/
+def P14234126027280454935.Spec : Prop :=
+  ∀ n, P14234126027280454935.a n = A337349 n
+
+end A337349
+
+/-! ## A337349.P3692014047966670002
+
+`A139391(A347840(A139391(A347840(2*n+1))))`
+-/
+
+namespace A337349.P3692014047966670002
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139391 (A347840 (A139391 (A347840 (2 * n + 1)).toNat).toNat).toNat
+
+end
+
+end A337349.P3692014047966670002
+
+namespace A337349
+
+/-- `A139391(A347840(A139391(A347840(2*n+1))))` -/
+def P3692014047966670002.Spec : Prop :=
+  ∀ n, P3692014047966670002.a n = A337349 n
 
 end A337349
 

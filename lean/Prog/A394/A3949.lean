@@ -21,7 +21,6 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -192,29 +191,6 @@ The programs for A394903, the canonical program `A394903.P272038596754920444` is
 The definition of A394903 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A394903.P1112915462029900571
-
-`8*a(n-1)+2*(3^(2*(n-1))-3^(n-1))` with `a(0)=0`
--/
-
-namespace A394903.P1112915462029900571
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
-  8 * a (n - 1) + 2 * ((3 : ℚ) ^ (2 * ((n : ℤ) - 1) : ℤ) - (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ))
-
-end
-
-end A394903.P1112915462029900571
-
-namespace A394903
-
-/-- `8*a(n-1)+2*(3^(2*(n-1))-3^(n-1))` -/
-def P1112915462029900571.Spec : Prop :=
-  ∀ n, P1112915462029900571.a n = (A394903 n : ℚ)
-
-end A394903
-
 /-! ## A394903.P272038596754920444
 
 `20*a(n-1)-123*a(n-2)+216*a(n-3)` with `a(0)=0, a(1)=0, a(2)=12`
@@ -273,6 +249,29 @@ theorem P15646783065598848856.correct : P15646783065598848856.Spec := by
       push_cast at h1 h2 h3 ⊢
       rw [← h1, ← h2, ← h3]
       first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A394903
+
+/-! ## A394903.P1112915462029900571
+
+`8*a(n-1)+2*(3^(2*(n-1))-3^(n-1))` with `a(0)=0`
+-/
+
+namespace A394903.P1112915462029900571
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  8 * a (n - 1) + 2 * ((3 : ℚ) ^ (2 * ((n : ℤ) - 1) : ℤ) - (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ))
+
+end
+
+end A394903.P1112915462029900571
+
+namespace A394903
+
+/-- `8*a(n-1)+2*(3^(2*(n-1))-3^(n-1))` -/
+def P1112915462029900571.Spec : Prop :=
+  ∀ n, P1112915462029900571.a n = (A394903 n : ℚ)
 
 end A394903
 
@@ -372,24 +371,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A394904.P13247019834597596376
-
-/-! ## A394904.P10257205661741864766
-
-`record[and(A059995(n), A400121(n+3))]`
--/
-
-namespace A394904.P10257205661741864766
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A059995 n) (A400121 (n + 3))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A394904.P10257205661741864766
 
 /-!
 # A394906: Representation of n in a positional system with the k-th prime as the k-th place value, choosing the representation that maximizes the decimal value.

@@ -34,6 +34,7 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6444,6 +6445,98 @@ namespace A275161
 /-- `A000005(Δ[A000267(n)]+20)` -/
 def P5319746574330759977.Spec : Prop :=
   ∀ n, P5319746574330759977.a n = A275161 (n + 1)
+
+end A275161
+
+/-! ## A275161.P4889231848329007735
+
+`A329502(A173238(n))`
+-/
+
+namespace A275161.P4889231848329007735
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329502 (A173238 n).toNat
+
+end
+
+end A275161.P4889231848329007735
+
+namespace A275161
+
+/-- `A329502(A173238(n))` -/
+def P4889231848329007735.Spec : Prop :=
+  ∀ n, P4889231848329007735.a n = A275161 (n + 1)
+
+end A275161
+
+/-! ## A275161.P17031041252416392558
+
+`A329502(A034807(n+1))`
+-/
+
+namespace A275161.P17031041252416392558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329502 (A034807 (n + 1)).toNat
+
+end
+
+end A275161.P17031041252416392558
+
+namespace A275161
+
+/-- `A329502(A034807(n+1))` -/
+def P17031041252416392558.Spec : Prop :=
+  ∀ n, P17031041252416392558.a n = A275161 (n + 1)
+
+end A275161
+
+/-! ## A275161.P3566501321228219555
+
+`A168428(A188440(n+1))`
+-/
+
+namespace A275161.P3566501321228219555
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168428 (A188440 (n + 1)).toNat
+
+end
+
+end A275161.P3566501321228219555
+
+namespace A275161
+
+/-- `A168428(A188440(n+1))` -/
+def P3566501321228219555.Spec : Prop :=
+  ∀ n, P3566501321228219555.a n = A275161 (n + 1)
+
+end A275161
+
+/-! ## A275161.P11069091836211939723
+
+`A329502(A173284(n))`
+-/
+
+namespace A275161.P11069091836211939723
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329502 (A173284 n).toNat
+
+end
+
+end A275161.P11069091836211939723
+
+namespace A275161
+
+/-- `A329502(A173284(n))` -/
+def P11069091836211939723.Spec : Prop :=
+  ∀ n, P11069091836211939723.a n = A275161 (n + 1)
 
 end A275161
 

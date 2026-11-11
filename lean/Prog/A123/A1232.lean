@@ -29,6 +29,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -51,6 +52,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
@@ -2546,6 +2548,29 @@ def P253422497966526550.Spec : Prop :=
 
 end A123229
 
+/-! ## A123229.P7831350276356247084
+
+`(col(n)+1)*ceil((row(n)-col(n)+1)/(col(n)+1))`
+-/
+
+namespace A123229.P7831350276356247084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triCol n + 1 : ℤ) * ⌈((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) / (SequenceMachineLib.triCol n + 1 : ℚ)⌉
+
+end
+
+end A123229.P7831350276356247084
+
+namespace A123229
+
+/-- `(col(n)+1)*ceil((row(n)-col(n)+1)/(col(n)+1))` -/
+def P7831350276356247084.Spec : Prop :=
+  ∀ n, P7831350276356247084.a n = A123229 (n + 1)
+
+end A123229
+
 /-! ## A123229.P9059927868193867273
 
 `A127093(n+1)+T(n-1,k)` with `a(0)=1`
@@ -2898,29 +2923,6 @@ namespace A123229
 /-- `A002260(n+1)*A004736(A286245(n+1))` -/
 def P3193552326083447866.Spec : Prop :=
   ∀ n, P3193552326083447866.a n = A123229 (n + 1)
-
-end A123229
-
-/-! ## A123229.P5441969516586469329
-
-`A010766(n+1)/A007318(n)*A103406(n)`
--/
-
-namespace A123229.P5441969516586469329
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A010766 (n + 1) : ℚ) / (A007318 n : ℚ) * (A103406 n : ℚ)
-
-end
-
-end A123229.P5441969516586469329
-
-namespace A123229
-
-/-- `A010766(n+1)/A007318(n)*A103406(n)` -/
-def P5441969516586469329.Spec : Prop :=
-  ∀ n, P5441969516586469329.a n = (A123229 (n + 1) : ℚ)
 
 end A123229
 
@@ -7909,7 +7911,7 @@ end A123271.P73905805483569818
 /-!
 # A123272: Number of primes between consecutive terms of A105575.
 
-The programs for A123272, the canonical program `A123272.P9864209116785066341` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123272 has offset 1).
+The programs for A123272, the canonical program `A123272.P9864209116785066341` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123272 has offset 1).
 
 The definition of A123272 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7968,7 +7970,7 @@ end A123272
 
 `runs[floor(A000040(4+n)/6)]-1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A123272

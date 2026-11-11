@@ -65,6 +65,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3391,6 +3392,126 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A085626.P18030236394663000127
+
+/-! ## A085626.P11780436198888783714
+
+`∩[A045344(n+1), A070865(n+1)]`
+-/
+
+namespace A085626.P11780436198888783714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045344 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A085626.P11780436198888783714
+
+/-! ## A085626.P2866041564546343409
+
+`∩[A070865(n+1), A335402(n+1)]`
+-/
+
+namespace A085626.P2866041564546343409
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335402 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A085626.P2866041564546343409
+
+/-! ## A085626.P1547822235853303921
+
+`∩[A067934(n+1), A070865(n+1)]`
+-/
+
+namespace A085626.P1547822235853303921
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067934 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A085626.P1547822235853303921
+
+/-! ## A085626.P67292290188867321
+
+`filter[A070865(n+1), A014578(#)]`
+-/
+
+namespace A085626.P67292290188867321
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A014578 (f1 j).toNat = 1) n)
+
+end
+
+end A085626.P67292290188867321
+
+/-! ## A085626.P15014049416686666657
+
+`filter[A070865(n+1), A356162(#)]`
+-/
+
+namespace A085626.P15014049416686666657
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A356162 (f1 j).toNat = 1) n)
+
+end
+
+end A085626.P15014049416686666657
+
+/-! ## A085626.P6206633628022087654
+
+`filter[A070865(n+1), A359172(#)]`
+-/
+
+namespace A085626.P6206633628022087654
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070865 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359172 (f1 j).toNat = 1) n)
+
+end
+
+end A085626.P6206633628022087654
 
 /-!
 # A085627: Number of divisors of n-th highly powerful number.

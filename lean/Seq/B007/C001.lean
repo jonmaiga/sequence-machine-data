@@ -29,6 +29,7 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -933,6 +934,62 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A380322.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A325974.P5304343172121658747
+
+`A000203(n+1)-A325973(n+1)`
+-/
+
+namespace A325974.P5304343172121658747
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (n + 1) - A325973 (n + 1)
+
+end
+
+end A325974.P5304343172121658747
+
+noncomputable section
+
+/-- A325974: Arithmetic mean of {sum of non-unitary divisors} and {sum of nonsquarefree divisors}: a(n) = (1/2)*(A048146(n) + A162296(n)).
+
+Offset 1, canonical program `A325974.P5304343172121658747`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A325973, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A325974 (n : ℕ) : ℤ :=
+  A325974.P5304343172121658747.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A325973, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A325974.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A325977.P12931186378742614702
+
+`(A034460(n+1)+A325313(n+1))/2`
+-/
+
+namespace A325977.P12931186378742614702
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A034460 (n + 1) + A325313 (n + 1) : ℚ) / 2
+
+end
+
+end A325977.P12931186378742614702
+
+noncomputable section
+
+/-- A325977: a(n) = (1/2)*(A034448(n)+A048250(n)-2*n), where A034448 is the sum of unitary divisors and A048250 is the sum of squarefree divisors.
+
+Offset 1, canonical program `A325977.P12931186378742614702`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034460, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A325977 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A325977.P12931186378742614702.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034460, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A325977.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A327477.P17478202587199191785
 
@@ -7328,6 +7385,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A401240.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A326846.P13366840871095764170
+
+`A001222(n+1)*A061395(n+1)`
+-/
+
+namespace A326846.P13366840871095764170
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (n + 1) * A061395 (n + 1)
+
+end
+
+end A326846.P13366840871095764170
+
+noncomputable section
+
+/-- A326846: Length times maximum of the integer partition with Heinz number n.
+
+Offset 1, canonical program `A326846.P13366840871095764170`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061395, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A326846 (n : ℕ) : ℤ :=
+  A326846.P13366840871095764170.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061395, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A326846.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A327936.P4864635730061713383
 

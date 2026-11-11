@@ -27,6 +27,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -5581,6 +5582,32 @@ def P8982222223010613259.Spec : Prop :=
 theorem P8982222223010613259.correct : P8982222223010613259.Spec := by
   intro n
   simp only [A084770]
+
+end A084770
+
+/-! ## A084770.P14621939929331494263
+
+`∑{#}[n, 2^(2*#)*C(n, #)*C(2*n-2*#, n)]`
+-/
+
+namespace A084770.P14621939929331494263
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 2 ^ (2 * k) * Nat.choose n k * Nat.choose ((2 * n : ℤ) - (2 * k : ℤ)).toNat n
+
+end
+
+end A084770.P14621939929331494263
+
+namespace A084770
+
+/-- `∑{#}[n, 2^(2*#)*C(n, #)*C(2*n-2*#, n)]` -/
+def P14621939929331494263.Spec : Prop :=
+  ∀ n, (P14621939929331494263.a n : ℤ) = A084770 n
 
 end A084770
 

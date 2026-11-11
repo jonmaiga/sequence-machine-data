@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -57,6 +56,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2521,6 +2521,29 @@ theorem P1526053016216426497.correct : P1526053016216426497.Spec := by
 
 end A254828
 
+/-! ## A254828.P1856591821377575975
+
+`n+1-floor((5*(n+1)+10)/30)-floor(5*(n+1)/30)+floor((n+7)/30)+floor((n+27)/30)`
+-/
+
+namespace A254828.P1856591821377575975
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - ⌊(5 * (n + 1) + 10 : ℚ) / 30⌋ - ⌊(5 * (n + 1) : ℚ) / 30⌋ + ⌊(n + 7 : ℚ) / 30⌋ + ⌊(n + 27 : ℚ) / 30⌋
+
+end
+
+end A254828.P1856591821377575975
+
+namespace A254828
+
+/-- `n+1-floor((5*(n+1)+10)/30)-floor(5*(n+1)/30)+floor((n+7)/30)+floor((n+27)/30)` -/
+def P1856591821377575975.Spec : Prop :=
+  ∀ n, P1856591821377575975.a n = A254828 (n + 1)
+
+end A254828
+
 /-! ## A254828.P4582586707489646414
 
 `∑[1-A162289(2+n)]`
@@ -3017,32 +3040,6 @@ namespace A254828
 /-- `∑[round(3/A090369(n+2))]` -/
 def P11634906753880686347.Spec : Prop :=
   ∀ n, P11634906753880686347.a n = A254828 (n + 1)
-
-end A254828
-
-/-! ## A254828.P2754076851023661278
-
-`∑[A188641(2*A020639(n+2))]`
--/
-
-namespace A254828.P2754076851023661278
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188641 (2 * A020639 (n + 2)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A254828.P2754076851023661278
-
-namespace A254828
-
-/-- `∑[A188641(2*A020639(n+2))]` -/
-def P2754076851023661278.Spec : Prop :=
-  ∀ n, P2754076851023661278.a n = A254828 (n + 1)
 
 end A254828
 

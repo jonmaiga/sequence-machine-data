@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -95,6 +96,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A036301: Numbers whose sum of even digits and sum of odd digits are equal.
@@ -1500,6 +1505,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036327.P1819275921854150389
+
+/-! ## A036327.P8032630199855594441
+
+`A036445(A036328(n+1))`
+-/
+
+namespace A036327.P8032630199855594441
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036445 (A036328 (n + 1)).toNat
+
+end
+
+end A036327.P8032630199855594441
 
 /-!
 # A036328: Composite numbers n such that juxtaposition of prime factors of n has length 4.
@@ -4338,6 +4358,35 @@ def P10207079659986731433.Spec : Prop :=
 
 end A036348
 
+/-! ## A036348.P17540809617024661706
+
+`A335657(n+1)+A335657(n+1)`
+-/
+
+namespace A036348.P17540809617024661706
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335657 (n + 1) + A335657 (n + 1)
+
+end
+
+end A036348.P17540809617024661706
+
+namespace A036348
+
+/-- `A335657(n+1)+A335657(n+1)` -/
+def P17540809617024661706.Spec : Prop :=
+  ∀ n, P17540809617024661706.a n = A036348 (n + 1)
+
+theorem P17540809617024661706.correct : P17540809617024661706.Spec := by
+  intro n
+  simp only [A036348, Nat.add_sub_cancel, A036348.P17540809617024661706.a, A036348.P9526263415942078180.f1, A036348.P9526263415942078180.f2, A036348.P9526263415942078180.a, A335657, A335657.P14539032381286949319.f1, A335657.P14539032381286949319.f2, A335657.P14539032381286949319.a, A356163, A356163.P17031963498667529361.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A036348
+
 /-! ## A036348.P18037533796591180701
 
 `2*∪[A036350(n+1), A038550(n+1)]`
@@ -4395,29 +4444,6 @@ namespace A036348
 /-- `2*∪[A036350(n+1), A056912(n+1)]` -/
 def P15689051204079902905.Spec : Prop :=
   ∀ n, (P15689051204079902905.a n : ℤ) = A036348 (n + 1)
-
-end A036348
-
-/-! ## A036348.P3439156331717656860
-
-`A335657(A000027(n+1))+A335657(n+1)`
--/
-
-namespace A036348.P3439156331717656860
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335657 (A000027 (n + 1)).toNat + A335657 (n + 1)
-
-end
-
-end A036348.P3439156331717656860
-
-namespace A036348
-
-/-- `A335657(A000027(n+1))+A335657(n+1)` -/
-def P3439156331717656860.Spec : Prop :=
-  ∀ n, P3439156331717656860.a n = A036348 (n + 1)
 
 end A036348
 
@@ -6506,6 +6532,32 @@ namespace A036360
 /-- `∑{#}[n-1, n!*n^(n-(#+1)+1)/(n-(#+1))!]` -/
 def P6710209838955341106.Spec : Prop :=
   ∀ n, P6710209838955341106.a n = (A036360 n : ℚ)
+
+end A036360
+
+/-! ## A036360.P16286268752409668539
+
+`n!*∑{#}[n-1, n^#/#!*n]`
+-/
+
+namespace A036360.P16286268752409668539
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, (n ^ k : ℚ) / (Nat.factorial k : ℚ) * (n : ℚ))
+
+end
+
+end A036360.P16286268752409668539
+
+namespace A036360
+
+/-- `n!*∑{#}[n-1, n^#/#!*n]` -/
+def P16286268752409668539.Spec : Prop :=
+  ∀ n, P16286268752409668539.a n = (A036360 n : ℚ)
 
 end A036360
 

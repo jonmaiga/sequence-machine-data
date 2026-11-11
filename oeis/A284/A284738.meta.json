@@ -1,16 +1,17 @@
 {
-  "description": "A condensed version of A202951.",
+  "description": "Incorrect version of A268537.",
   "id": "A284738",
   "mentions": [
     "A104429",
-    "A202951"
+    "A202951",
+    "A268537"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 5,
     "source": "oeis-entry"
   }

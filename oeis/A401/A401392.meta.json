@@ -1,0 +1,22 @@
+{
+  "description": "Iterates of map k -> k * A401375(k^2), starting from k=3, where A401375 is the largest divisor of sigma(n) coprime with n, and sigma is the sum of divisors function.",
+  "id": "A401392",
+  "mentions": [
+    "A240971",
+    "A401375",
+    "A401380",
+    "A401383",
+    "A401386",
+    "A401390",
+    "A401391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

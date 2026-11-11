@@ -29,6 +29,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -2556,6 +2557,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102616.P7463629908266871182
+
+/-! ## A102616.P1440696435298227366
+
+`A026234(A102617(n+1))`
+-/
+
+namespace A102616.P1440696435298227366
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026234 (A102617 (n + 1)).toNat
+
+end
+
+end A102616.P1440696435298227366
 
 /-!
 # A102617: Primes prime(k) where k is a second-order nonprime number.

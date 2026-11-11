@@ -1382,29 +1382,6 @@ def P14854109625522543026.Spec : Prop :=
 
 end A307410
 
-/-! ## A307410.P11689347552268213775
-
-`A006530(3*n+3)-A076078(A383215(n+1))`
--/
-
-namespace A307410.P11689347552268213775
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (3 * n + 3) - A076078 (A383215 (n + 1)).toNat
-
-end
-
-end A307410.P11689347552268213775
-
-namespace A307410
-
-/-- `A006530(3*n+3)-A076078(A383215(n+1))` -/
-def P11689347552268213775.Spec : Prop :=
-  ∀ n, P11689347552268213775.a n = A307410 (n + 1)
-
-end A307410
-
 /-! ## A307410.P11373875246562139392
 
 `A006530(3*n+3)-A000034(A179874(n+1))`
@@ -5781,6 +5758,29 @@ def P11975024898152371821.Spec : Prop :=
 
 end A307430
 
+/-! ## A307430.P1947574328004229846
+
+`A008683(A062378(n+1))²`
+-/
+
+namespace A307430.P1947574328004229846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008683 (A062378 (n + 1)).toNat ^ 2
+
+end
+
+end A307430.P1947574328004229846
+
+namespace A307430
+
+/-- `A008683(A062378(n+1))²` -/
+def P1947574328004229846.Spec : Prop :=
+  ∀ n, P1947574328004229846.a n = A307430 (n + 1)
+
+end A307430
+
 /-! ## A307430.P1674171603147472547
 
 `A212793(A000188(n+1)²)`
@@ -5824,29 +5824,6 @@ namespace A307430
 /-- `A256692(n+1)%A118136(n)` -/
 def P16595358935346249123.Spec : Prop :=
   ∀ n, P16595358935346249123.a n = A307430 (n + 1)
-
-end A307430
-
-/-! ## A307430.P14868577376660991100
-
-`gcd(A000038(n), A053865(n+1))`
--/
-
-namespace A307430.P14868577376660991100
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000038 n) (A053865 (n + 1))
-
-end
-
-end A307430.P14868577376660991100
-
-namespace A307430
-
-/-- `gcd(A000038(n), A053865(n+1))` -/
-def P14868577376660991100.Spec : Prop :=
-  ∀ n, (P14868577376660991100.a n : ℤ) = A307430 (n + 1)
 
 end A307430
 
@@ -9796,6 +9773,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A307481.P2641650975101884067
+
+/-! ## A307481.P4653640887021482617
+
+`A000290(A338890(n+1))`
+-/
+
+namespace A307481.P4653640887021482617
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A338890 (n + 1)).toNat
+
+end
+
+end A307481.P4653640887021482617
 
 /-!
 # A307482: First coordinate, divided by 2, of path in rotated lattice corresponding to A307446 and A307447. A307483 gives second coordinate.

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A051377(k) = 3*k/2.",
+  "id": "A401751",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A005843",
+    "A013929",
+    "A051377",
+    "A054979",
+    "A081770",
+    "A126164",
+    "A159907",
+    "A364999",
+    "A401189",
+    "A401752"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

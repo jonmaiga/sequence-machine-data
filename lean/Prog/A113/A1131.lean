@@ -1673,6 +1673,32 @@ def P3004358174412020286.Spec : Prop :=
 
 end A113118
 
+/-! ## A113118.P15451518360830262680
+
+`record[A116533(n+2)]`
+-/
+
+namespace A113118.P15451518360830262680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116533 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A113118.P15451518360830262680
+
+namespace A113118
+
+/-- `record[A116533(n+2)]` -/
+def P15451518360830262680.Spec : Prop :=
+  ∀ n, P15451518360830262680.a n = A113118 (n + 1)
+
+end A113118
+
 /-!
 # A113119: Total number of digits in all n-digit nonnegative integers.
 

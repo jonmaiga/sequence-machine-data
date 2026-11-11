@@ -98,7 +98,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -4524,6 +4523,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A284917.P14938661019258673701
+
+/-! ## A284917.P3612830051678967610
+
+`A025582(n+1)+A024000(n)`
+-/
+
+namespace A284917.P3612830051678967610
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025582 (n + 1) + A024000 n
+
+end
+
+end A284917.P3612830051678967610
+
+/-! ## A284917.P14027465247483584914
+
+`A025582(n+1)-A023443(n)`
+-/
+
+namespace A284917.P14027465247483584914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025582 (n + 1) - A023443 n
+
+end
+
+end A284917.P14027465247483584914
 
 /-! ## A284917.P16609101611586371026
 

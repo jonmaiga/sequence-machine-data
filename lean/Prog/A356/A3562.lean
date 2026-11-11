@@ -6302,6 +6302,21 @@ end A356261.P8376775897832210658
 The programs for A356262, there is no canonical definition to state claims against.
 -/
 
+/-! ## A356262.P8840633312193673538
+
+`A356261(A400989(n+1))`
+-/
+
+namespace A356262.P8840633312193673538
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356261 (A400989 (n + 1)).toNat
+
+end
+
+end A356262.P8840633312193673538
+
 /-! ## A356262.P7933677184668833021
 
 `A247303(n)^A287360(A001006(n))`
@@ -8273,6 +8288,21 @@ end
 
 end A356291.P8492985632377340760
 
+/-! ## A356291.P1746408028857589196
+
+`A003319(n)-A359856(n)`
+-/
+
+namespace A356291.P1746408028857589196
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003319 n - A359856 n
+
+end
+
+end A356291.P1746408028857589196
+
 /-! ## A356291.P18164307922383326342
 
 `A000142(n)-abs(A158882(n))`
@@ -8317,21 +8347,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356291.P7592555646670182918
-
-/-! ## A356291.P3850626445080615748
-
-`n!-A104980(C(n, 2))`
--/
-
-namespace A356291.P3850626445080615748
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n : ℤ) - A104980 (Nat.choose n 2)
-
-end
-
-end A356291.P3850626445080615748
 
 /-!
 # A356292: Number of labeled trees on [n] that are centered.

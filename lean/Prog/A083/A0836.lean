@@ -20,7 +20,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C024
@@ -1556,7 +1555,7 @@ end A083650
 /-!
 # A083651: Triangular array, read by rows: T(n,k) = k-th bit in binary representation of n (0<=k<=n).
 
-The programs for A083651, the canonical program `A083651.P4235126305781789106` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083651 has offset 0).
+The programs for A083651, the canonical program `A083651.P3772748738956838130` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083651 has offset 0).
 
 The definition of A083651 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1564,23 +1563,19 @@ The definition of A083651 is `conjectured`: the Lean definition is a formula tha
 /-! ## A083651.P3772748738956838130
 
 `C(row(n), 2^col(n))%2`
+
+The canonical program, it is in `Seq.B000.C015`.
 -/
-
-namespace A083651.P3772748738956838130
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.triRow n) (2 ^ SequenceMachineLib.triCol n) % 2
-
-end
-
-end A083651.P3772748738956838130
 
 namespace A083651
 
 /-- `C(row(n), 2^col(n))%2` -/
 def P3772748738956838130.Spec : Prop :=
   ∀ n, (P3772748738956838130.a n : ℤ) = A083651 n
+
+theorem P3772748738956838130.correct : P3772748738956838130.Spec := by
+  intro n
+  simp only [A083651]
 
 end A083651
 
@@ -1605,6 +1600,11 @@ namespace A083651
 def P6275576567429450880.Spec : Prop :=
   ∀ n, (P6275576567429450880.a n : ℤ) = A083651 n
 
+theorem P6275576567429450880.correct : P6275576567429450880.Spec := by
+  intro n
+  simp only [A083651, Nat.add_sub_cancel, A083651.P6275576567429450880.a, A083651.P3772748738956838130.a, SequenceMachineLib.memo_apply]
+  try simp
+
 end A083651
 
 /-! ## A083651.P5650937204089230050
@@ -1627,6 +1627,29 @@ namespace A083651
 /-- `floor(row(n)/2^col(n))%2` -/
 def P5650937204089230050.Spec : Prop :=
   ∀ n, P5650937204089230050.a n = A083651 n
+
+end A083651
+
+/-! ## A083651.P10932218857980162843
+
+`floor(2^-col(n)*row(n))%2`
+-/
+
+namespace A083651.P10932218857980162843
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod ⌊(2 : ℚ) ^ (-(SequenceMachineLib.triCol n : ℤ) : ℤ) * (SequenceMachineLib.triRow n : ℚ)⌋ 2
+
+end
+
+end A083651.P10932218857980162843
+
+namespace A083651
+
+/-- `floor(2^-col(n)*row(n))%2` -/
+def P10932218857980162843.Spec : Prop :=
+  ∀ n, P10932218857980162843.a n = A083651 n
 
 end A083651
 
@@ -2215,25 +2238,6 @@ namespace A083651
 /-- `A316569(and(2^(n-C(∑[char[∑[n]]], 2)), ∑[char[∑[n+1]]]))` -/
 def P12855728695206406588.Spec : Prop :=
   ∀ n, P12855728695206406588.a n = A083651 n
-
-end A083651
-
-/-! ## A083651.P4235126305781789106
-
-`C(A003056(n), A059268(n))%2`
-
-The canonical program, it is in `Seq.B004.C001`.
--/
-
-namespace A083651
-
-/-- `C(A003056(n), A059268(n))%2` -/
-def P4235126305781789106.Spec : Prop :=
-  ∀ n, (P4235126305781789106.a n : ℤ) = A083651 n
-
-theorem P4235126305781789106.correct : P4235126305781789106.Spec := by
-  intro n
-  simp only [A083651]
 
 end A083651
 

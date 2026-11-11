@@ -668,6 +668,75 @@ theorem P12985052660791024404.correct : P12985052660791024404.Spec := by
 
 end A351706
 
+/-! ## A351706.P2424677081501013896
+
+`A217871(A063695(n))`
+-/
+
+namespace A351706.P2424677081501013896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 (A063695 n).toNat
+
+end
+
+end A351706.P2424677081501013896
+
+namespace A351706
+
+/-- `A217871(A063695(n))` -/
+def P2424677081501013896.Spec : Prop :=
+  ∀ n, P2424677081501013896.a n = A351706 n
+
+end A351706
+
+/-! ## A351706.P7825742828753490592
+
+`A217871(A059906(n)²)`
+-/
+
+namespace A351706.P7825742828753490592
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 (A059906 n ^ 2).toNat
+
+end
+
+end A351706.P7825742828753490592
+
+namespace A351706
+
+/-- `A217871(A059906(n)²)` -/
+def P7825742828753490592.Spec : Prop :=
+  ∀ n, P7825742828753490592.a n = A351706 n
+
+end A351706
+
+/-! ## A351706.P18399882059310735079
+
+`A217871(A059906(n)^2)`
+-/
+
+namespace A351706.P18399882059310735079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 (A059906 n ^ 2).toNat
+
+end
+
+end A351706.P18399882059310735079
+
+namespace A351706
+
+/-- `A217871(A059906(n)^2)` -/
+def P18399882059310735079.Spec : Prop :=
+  ∀ n, P18399882059310735079.a n = A351706 n
+
+end A351706
+
 /-! ## A351706.P6997409021644141249
 
 `A040534(T(n-1,k-1)+1)+A003817(A059906(n))` with `a(0)=1`
@@ -803,98 +872,6 @@ namespace A351706
 /-- `A371442(A003945(A070939(A063694(2*n+1))))` -/
 def P15656983591171445767.Spec : Prop :=
   ∀ n, P15656983591171445767.a n = A351706 n
-
-end A351706
-
-/-! ## A351706.P3549462627827123749
-
-`A217871(A063695(n)/2)`
--/
-
-namespace A351706.P3549462627827123749
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217871 (SequenceMachineLib.roundAway ((A063695 n : ℚ) / 2)).toNat
-
-end
-
-end A351706.P3549462627827123749
-
-namespace A351706
-
-/-- `A217871(A063695(n)/2)` -/
-def P3549462627827123749.Spec : Prop :=
-  ∀ n, P3549462627827123749.a n = A351706 n
-
-end A351706
-
-/-! ## A351706.P7825742828753490592
-
-`A217871(A059906(n)²)`
--/
-
-namespace A351706.P7825742828753490592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217871 (A059906 n ^ 2).toNat
-
-end
-
-end A351706.P7825742828753490592
-
-namespace A351706
-
-/-- `A217871(A059906(n)²)` -/
-def P7825742828753490592.Spec : Prop :=
-  ∀ n, P7825742828753490592.a n = A351706 n
-
-end A351706
-
-/-! ## A351706.P18399882059310735079
-
-`A217871(A059906(n)^2)`
--/
-
-namespace A351706.P18399882059310735079
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217871 (A059906 n ^ 2).toNat
-
-end
-
-end A351706.P18399882059310735079
-
-namespace A351706
-
-/-- `A217871(A059906(n)^2)` -/
-def P18399882059310735079.Spec : Prop :=
-  ∀ n, P18399882059310735079.a n = A351706 n
-
-end A351706
-
-/-! ## A351706.P2424677081501013896
-
-`A217871(A063695(n))`
--/
-
-namespace A351706.P2424677081501013896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217871 (A063695 n).toNat
-
-end
-
-end A351706.P2424677081501013896
-
-namespace A351706
-
-/-- `A217871(A063695(n))` -/
-def P2424677081501013896.Spec : Prop :=
-  ∀ n, P2424677081501013896.a n = A351706 n
 
 end A351706
 
@@ -6711,24 +6688,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A351785.P7468275180386394573
-
-/-! ## A351785.P18025316443872203816
-
-`A053829(A054240(n))%∑[A000112(n)]`
--/
-
-namespace A351785.P18025316443872203816
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000112 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A053829 (A054240 n).toNat) (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A351785.P18025316443872203816
 
 /-!
 # A351786: Symmetric array T(n, k), n, k >= 0, read by antidiagonals; for any m >= 0 with binary expansion Sum_{i >= 0} b_i*2^i, let d(m) = Sum_{i >= 0} b_i * 2^A130472(i); let t be the inverse of d; T(n, k) = t(d(n) * d(k)).

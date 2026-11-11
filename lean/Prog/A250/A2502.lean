@@ -50,7 +50,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -9623,4 +9623,49 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250299.P16657939791666002732
+
+/-! ## A250299.P8613958398337493535
+
+`and(A020737(n), A251089(n+1))`
+-/
+
+namespace A250299.P8613958398337493535
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A020737 n) (A251089 (n + 1))
+
+end
+
+end A250299.P8613958398337493535
+
+/-! ## A250299.P10241953756343043019
+
+`and(A020737(n), A251101(n+1))`
+-/
+
+namespace A250299.P10241953756343043019
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A020737 n) (A251101 (n + 1))
+
+end
+
+end A250299.P10241953756343043019
+
+/-! ## A250299.P14687587946352150240
+
+`and(A195744(n), A251089(n+1))`
+-/
+
+namespace A250299.P14687587946352150240
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A195744 n) (A251089 (n + 1))
+
+end
+
+end A250299.P14687587946352150240
 

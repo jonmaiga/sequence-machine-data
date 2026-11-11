@@ -54,11 +54,11 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
@@ -660,38 +660,35 @@ end
 
 end A382205.P10073347195005455199
 
-/-! ## A382205.P4919762936393029666
+/-! ## A382205.P3594305055568232515
 
-`record[A000142(n)*A073267(n+4)]`
+`A136494(A363913(n))`
 -/
 
-namespace A382205.P4919762936393029666
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000142 n * A073267 (n + 4)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A382205.P4919762936393029666
-
-/-! ## A382205.P3927251305335311376
-
-`A039100(n+1)!*A271824(n+1)`
--/
-
-namespace A382205.P3927251305335311376
+namespace A382205.P3594305055568232515
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (A039100 (n + 1)).toNat : ℤ) * A271824 (n + 1)
+  A136494 (A363913 n).toNat
 
 end
 
-end A382205.P3927251305335311376
+end A382205.P3594305055568232515
+
+/-! ## A382205.P12780090783786465881
+
+`A097942(A066895(n+1))`
+-/
+
+namespace A382205.P12780090783786465881
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097942 (A066895 (n + 1)).toNat
+
+end
+
+end A382205.P12780090783786465881
 
 /-!
 # A382208: Numbers k for which pi(bigomega(k)) = omega(k).
@@ -1068,6 +1065,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A382215.P13190992839236646525
+
+/-! ## A382215.P3865976431313632947
+
+`∩[A302492(n+1), A326534(n+1)]`
+-/
+
+namespace A382215.P3865976431313632947
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302492 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326534 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A382215.P3865976431313632947
 
 /-!
 # A382216: Number of normal multisets of size n that can be partitioned into a set of sets with distinct sums.
@@ -1837,6 +1856,60 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382231.P6171057678081818841
+
+/-! ## A382231.P3103614707121839162
+
+`filter[A129927(n+1), A354353(#)]`
+-/
+
+namespace A382231.P3103614707121839162
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129927 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A354353 (f1 j).toNat = 1) n)
+
+end
+
+end A382231.P3103614707121839162
+
+/-! ## A382231.P398637813844704690
+
+`filter[A129927(n+1), A354819(#)]`
+-/
+
+namespace A382231.P398637813844704690
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129927 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A354819 (f1 j).toNat = 1) n)
+
+end
+
+end A382231.P398637813844704690
+
+/-! ## A382231.P588789639214440629
+
+`filter[A129927(n+1), A359592(#)]`
+-/
+
+namespace A382231.P588789639214440629
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129927 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359592 (f1 j).toNat = 1) n)
+
+end
+
+end A382231.P588789639214440629
 
 /-!
 # A382233: Dimensions of the homogeneous component of degree n of the free unital Jordan algebra on 3 generators.

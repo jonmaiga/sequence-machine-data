@@ -77,6 +77,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -5715,20 +5716,20 @@ end
 
 end A219875.P3801457930382113186
 
-/-! ## A219875.P12266923257286459939
+/-! ## A219875.P14780967367689169649
 
-`A259103(A184277(n+1))`
+`A371626(A101866(n+1))`
 -/
 
-namespace A219875.P12266923257286459939
+namespace A219875.P14780967367689169649
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259103 (A184277 (n + 1)).toNat
+  A371626 (A101866 (n + 1)).toNat
 
 end
 
-end A219875.P12266923257286459939
+end A219875.P14780967367689169649
 
 /-!
 # A219877: Number of n X n arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 n X n array.

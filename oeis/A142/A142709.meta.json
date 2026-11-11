@@ -1,16 +1,15 @@
 {
-  "description": "Polynomials made from cycloidal standing waves: p(x,n) = (4*n + 2)*x + x^n.",
+  "description": "Triangle read by rows: coefficients of the polynomials p(n) = (4*n + 2)*x + x^n.",
   "id": "A142709",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 67,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
   }
 }

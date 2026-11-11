@@ -103,6 +103,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -466,6 +467,32 @@ def P1555711058474266961.Spec : Prop :=
 
 end A208901
 
+/-! ## A208901.P5280704608143212800
+
+`∑{#}[floor(n/2)-1, 2^(n-#)]`
+-/
+
+namespace A208901.P5280704608143212800
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋ - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A208901.P5280704608143212800
+
+namespace A208901
+
+/-- `∑{#}[floor(n/2)-1, 2^(n-#)]` -/
+def P5280704608143212800.Spec : Prop :=
+  ∀ n, P5280704608143212800.a n = (A208901 (n + 1) : ℚ)
+
+end A208901
+
 /-! ## A208901.P3884219206632941184
 
 `2*or(a(n-1), a(n-2))` with `a(0)=0, a(1)=0, a(2)=4`
@@ -768,29 +795,6 @@ namespace A208901
 /-- `and(A086652(n), A122746(n))` -/
 def P2697073236476232442.Spec : Prop :=
   ∀ n, P2697073236476232442.a n = A208901 (n + 1)
-
-end A208901
-
-/-! ## A208901.P15394863144237039048
-
-`and(A086652(n), A288811(n))`
--/
-
-namespace A208901.P15394863144237039048
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A086652 n) (A288811 n)
-
-end
-
-end A208901.P15394863144237039048
-
-namespace A208901
-
-/-- `and(A086652(n), A288811(n))` -/
-def P15394863144237039048.Spec : Prop :=
-  ∀ n, P15394863144237039048.a n = A208901 (n + 1)
 
 end A208901
 
@@ -10481,23 +10485,20 @@ end A208976
 The programs for A208977, there is no canonical definition to state claims against.
 -/
 
-/-! ## A208977.P4572106716364354739
+/-! ## A208977.P8287082311136565632
 
-`floor(∑{d}[A187536(n), sqrt(#)])`
+`A401545((2*n)^n)`
 -/
 
-namespace A208977.P4572106716364354739
+namespace A208977.P8287082311136565632
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187536 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊∑ d ∈ Nat.divisors (f1 n).natAbs, Real.sqrt (d : ℝ)⌋
+  A401545 ((2 * n) ^ n)
 
 end
 
-end A208977.P4572106716364354739
+end A208977.P8287082311136565632
 
 /-!
 # A208978: Expansion of f(x) * f(x^3) where f() is a Ramanujan theta function.

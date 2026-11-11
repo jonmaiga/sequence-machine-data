@@ -4452,21 +4452,6 @@ end
 
 end A276442.P15283003634927524200
 
-/-! ## A276442.P8982347407403081731
-
-`A276444(A276445(A267112(A115384(2*n+1))))`
--/
-
-namespace A276442.P8982347407403081731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276444 (A276445 (A267112 (A115384 (2 * n + 1)).toNat).toNat).toNat
-
-end
-
-end A276442.P8982347407403081731
-
 /-! ## A276442.P17991363143855133822
 
 `A276346(A233278(A054429(A267110(A088359(n+1)))))`
@@ -4481,6 +4466,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A276442.P17991363143855133822
+
+/-! ## A276442.P8982347407403081731
+
+`A276444(A276445(A267112(A115384(2*n+1))))`
+-/
+
+namespace A276442.P8982347407403081731
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276444 (A276445 (A267112 (A115384 (2 * n + 1)).toNat).toNat).toNat
+
+end
+
+end A276442.P8982347407403081731
 
 /-!
 # A276443: Permutation of natural numbers: a(1) = 1, a(A087686(n)) = A000069(1+a(n-1)), a(A088359(n)) = A001969(1+a(n)), where A088359 & A087686 = numbers that occur only once & more than once in A004001, and A000069 & A001969 are odious & evil numbers.
@@ -4580,6 +4580,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A276443.P337578000047037141
+
+/-! ## A276443.P2031492633202978969
+
+`A276445(A276344(A233278(A267111(n+1))))`
+-/
+
+namespace A276443.P2031492633202978969
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276445 (A276344 (A233278 (A267111 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A276443.P2031492633202978969
 
 /-!
 # A276444: Permutation of natural numbers: a(1) = 1; a(A001969(1+n)) = A088359(a(n)), a(A000069(1+n)) = A087686(1+a(n)), where A088359 & A087686 = numbers that occur only once & more than once in A004001, and A000069 & A001969 are odious & evil numbers.

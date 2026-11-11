@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -31,7 +32,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
@@ -7909,6 +7910,32 @@ def P1319003887491283939.Spec : Prop :=
 
 end A058363
 
+/-! ## A058363.P12087892264965604359
+
+`filter[A093641(n+1), A360122(#)]`
+-/
+
+namespace A058363.P12087892264965604359
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093641 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A360122 (f1 j).toNat = 1) n)
+
+end
+
+end A058363.P12087892264965604359
+
+namespace A058363
+
+/-- `filter[A093641(n+1), A360122(#)]` -/
+def P12087892264965604359.Spec : Prop :=
+  ∀ n, P12087892264965604359.a n = A058363 (n + 1)
+
+end A058363
+
 /-! ## A058363.P6244562300599709942
 
 `lt[∏{p}[2*n, (n-1)/#], n-1]`
@@ -11094,6 +11121,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A058383.P14060784931008693167
+
+/-! ## A058383.P6723592419607878526
+
+`∩[A110074(n+1), A174144(n+1)]`
+-/
+
+namespace A058383.P6723592419607878526
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110074 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174144 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A058383.P6723592419607878526
+
+/-! ## A058383.P13266749266696877821
+
+`∩[A110074(n+1), A219528(n+1)]`
+-/
+
+namespace A058383.P13266749266696877821
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110074 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219528 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A058383.P13266749266696877821
 
 /-!
 # A058384: Largest power of 2 which is a divisor of p(n)-1, where p(n) = n-th prime.

@@ -6088,6 +6088,21 @@ end
 
 end A364254.P9068322394446825940
 
+/-! ## A364254.P11161649403497281289
+
+`A366373(n+1-A364253(n+1))`
+-/
+
+namespace A364254.P11161649403497281289
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366373 ((n + 1 : ℤ) - A364253 (n + 1)).toNat
+
+end
+
+end A364254.P11161649403497281289
+
 /-!
 # A364255: a(n) = gcd(n, A163511(n)).
 

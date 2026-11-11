@@ -1,0 +1,17 @@
+{
+  "description": "Number of achiral n-carbon alkyl radicals C(n)H(2n+1) ignoring stereoisomers.",
+  "id": "A400923",
+  "mentions": [
+    "A000598",
+    "A005627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

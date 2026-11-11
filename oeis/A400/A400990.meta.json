@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms of A400989 in the interval [17^(n-1), 17^n).",
+  "id": "A400990",
+  "mentions": [
+    "A131646",
+    "A230360",
+    "A400989"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

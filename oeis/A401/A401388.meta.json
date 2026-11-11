@@ -1,0 +1,35 @@
+{
+  "description": "Squares k, not powers of primes, for which {the largest divisor of sigma(k) that is coprime with k} is a prime power.",
+  "id": "A401388",
+  "mentions": [
+    "A005820",
+    "A010055",
+    "A024619",
+    "A131605",
+    "A228058",
+    "A326137",
+    "A347383",
+    "A347391",
+    "A374199",
+    "A374463",
+    "A379490",
+    "A386425",
+    "A388016",
+    "A401067",
+    "A401375",
+    "A401379",
+    "A401380",
+    "A401386",
+    "A401387"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

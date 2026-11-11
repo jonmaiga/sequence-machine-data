@@ -7771,6 +7771,21 @@ end
 
 end A322062.P5656755432834655546
 
+/-! ## A322062.P205399578881465502
+
+`C(row(n)+1, col(n)+1)+C(col(n)+1, row(n)+1)`
+-/
+
+namespace A322062.P205399578881465502
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (SequenceMachineLib.triRow n + 1) (SequenceMachineLib.triCol n + 1) + Nat.choose (SequenceMachineLib.triCol n + 1) (SequenceMachineLib.triRow n + 1)
+
+end
+
+end A322062.P205399578881465502
+
 /-! ## A322062.P5416824884468361935
 
 `A325002(comp[∑[n]])`
@@ -7897,28 +7912,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A322062.P1169307010988156923
-
-/-! ## A322062.P15448982513793984937
-
-`A074909(n+1)+char[∑[n-1]]`
--/
-
-namespace A322062.P15448982513793984937
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074909 (n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A322062.P15448982513793984937
 
 /-!
 # A322063: Number of ways to choose a stable partition of an antichain of sets spanning n vertices.

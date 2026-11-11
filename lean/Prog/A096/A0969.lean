@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -4796,26 +4795,26 @@ def P13688520490855271916.Spec : Prop :=
 
 end A096941
 
-/-! ## A096941.P8631939992098088780
+/-! ## A096941.P12958178537202887953
 
-`C(n+3, 3)+2*(n+1)*(n+2)`
+`C(n+3, 3)+4*C(n+2, 2)`
 -/
 
-namespace A096941.P8631939992098088780
+namespace A096941.P12958178537202887953
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 3) 3 + 2 * ((n + 1) * (n + 2))
+  Nat.choose (n + 3) 3 + 4 * Nat.choose (n + 2) 2
 
 end
 
-end A096941.P8631939992098088780
+end A096941.P12958178537202887953
 
 namespace A096941
 
-/-- `C(n+3, 3)+2*(n+1)*(n+2)` -/
-def P8631939992098088780.Spec : Prop :=
-  ∀ n, (P8631939992098088780.a n : ℤ) = A096941 n
+/-- `C(n+3, 3)+4*C(n+2, 2)` -/
+def P12958178537202887953.Spec : Prop :=
+  ∀ n, (P12958178537202887953.a n : ℤ) = A096941 n
 
 end A096941
 
@@ -8924,23 +8923,25 @@ end A096951
 /-!
 # A096952: Numerators of upper bounds for Lagrange remainder in Taylor's expansion of log((1+x)/(1-x)) for x=1/3, multiplied by 6/5.
 
-The programs for A096952, there is no canonical definition to state claims against.
+The programs for A096952, the canonical program `A096952.P9370096923855435634` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096952 has offset 0).
+
+The definition of A096952 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A096952.P9370096923855435634
 
 `A015441(2*n+1)/gcd(A015441(2*n+1), A124647(n))`
+
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
-namespace A096952.P9370096923855435634
-noncomputable section
+namespace A096952
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A015441 (2 * n + 1) : ℚ) / (Int.gcd (A015441 (2 * n + 1)) (A124647 n) : ℚ)
+/-- `A015441(2*n+1)/gcd(A015441(2*n+1), A124647(n))` -/
+def P9370096923855435634.Spec : Prop :=
+  ∀ n, P9370096923855435634.a n = (A096952 n : ℚ)
 
-end
-
-end A096952.P9370096923855435634
+end A096952
 
 /-! ## A096952.P6776850800982756773
 
@@ -8956,6 +8957,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A096952.P6776850800982756773
+
+namespace A096952
+
+/-- `lcm(A077342(2*n+1), A329017(2*n+1))/A077342(2*n+1)` -/
+def P6776850800982756773.Spec : Prop :=
+  ∀ n, P6776850800982756773.a n = (A096952 n : ℚ)
+
+end A096952
 
 /-! ## A096952.P18607688309648845
 
@@ -8978,6 +8987,14 @@ end
 
 end A096952.P18607688309648845
 
+namespace A096952
+
+/-- `A329017((1-(∑{digits}[n, #]-n))*Δ[n²])` -/
+def P18607688309648845.Spec : Prop :=
+  ∀ n, P18607688309648845.a n = A096952 n
+
+end A096952
+
 /-! ## A096952.P12484699325788119177
 
 `A329017((∑{digits}[n, #]+1+n)*(1-(∑{digits}[n, #]-n)))`
@@ -8999,6 +9016,14 @@ end
 
 end A096952.P12484699325788119177
 
+namespace A096952
+
+/-- `A329017((∑{digits}[n, #]+1+n)*(1-(∑{digits}[n, #]-n)))` -/
+def P12484699325788119177.Spec : Prop :=
+  ∀ n, P12484699325788119177.a n = A096952 n
+
+end A096952
+
 /-! ## A096952.P5830947544459938575
 
 `A329017(A137507(n))`
@@ -9013,6 +9038,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096952.P5830947544459938575
+
+namespace A096952
+
+/-- `A329017(A137507(n))` -/
+def P5830947544459938575.Spec : Prop :=
+  ∀ n, P5830947544459938575.a n = A096952 n
+
+end A096952
 
 /-!
 # A096953: Denominators of upper bounds for Lagrange-remainder in Taylor's expansion of log((1+x)/(1-x)) multiplied by 6/5.
@@ -9624,6 +9657,29 @@ def P11289496592046243514.Spec : Prop :=
 
 end A096957
 
+/-! ## A096957.P1040010441209669883
+
+`C(n+2, 3)+6*C(n+2, 2)`
+-/
+
+namespace A096957.P1040010441209669883
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 2) 3 + 6 * Nat.choose (n + 2) 2
+
+end
+
+end A096957.P1040010441209669883
+
+namespace A096957
+
+/-- `C(n+2, 3)+6*C(n+2, 2)` -/
+def P1040010441209669883.Spec : Prop :=
+  ∀ n, (P1040010441209669883.a n : ℤ) = A096957 n
+
+end A096957
+
 /-! ## A096957.P4387866694179054624
 
 `record[n-(3-a(n-1))]+4*(a(n-1)/4+n)` with `a(0)=6`
@@ -9969,29 +10025,6 @@ namespace A096957
 /-- `A099776(n+1)+A005286(n)` -/
 def P6514744537595464490.Spec : Prop :=
   ∀ n, P6514744537595464490.a n = A096957 n
-
-end A096957
-
-/-! ## A096957.P1160033450641123578
-
-`A222001(n+1)+A033537(n)`
--/
-
-namespace A096957.P1160033450641123578
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222001 (n + 1) + A033537 n
-
-end
-
-end A096957.P1160033450641123578
-
-namespace A096957
-
-/-- `A222001(n+1)+A033537(n)` -/
-def P1160033450641123578.Spec : Prop :=
-  ∀ n, P1160033450641123578.a n = A096957 n
 
 end A096957
 

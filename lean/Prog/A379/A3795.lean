@@ -24,7 +24,6 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C049
@@ -861,23 +860,23 @@ end
 
 end A379503.P5358731005168533122
 
-/-! ## A379503.P1033882733966216536
+/-! ## A379503.P18268242225590035401
 
-`filter[A263694(n), A379502(#)]`
+`filter[A140595(n), A379502(#)]`
 -/
 
-namespace A379503.P1033882733966216536
+namespace A379503.P18268242225590035401
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263694 n
+  A140595 n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A379502 (f1 j).toNat = 1) n)
 
 end
 
-end A379503.P1033882733966216536
+end A379503.P18268242225590035401
 
 /-!
 # A379504: a(n) is the number of ways of partitioning the divisors of n into two disjoint sets with equal sum, when an extra 1-divisor is added to the divisor set, and the two 1-divisors are considered distinct from each other.
@@ -4676,29 +4675,6 @@ namespace A379584
 /-- `A064549(A045948(n+1))` -/
 def P9139043210881280093.Spec : Prop :=
   ∀ n, P9139043210881280093.a n = A379584 (n + 1)
-
-end A379584
-
-/-! ## A379584.P1322885013263117089
-
-`lcm(A379586(n+1), A384818(n+1))`
--/
-
-namespace A379584.P1322885013263117089
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A379586 (n + 1)) (A384818 (n + 1))
-
-end
-
-end A379584.P1322885013263117089
-
-namespace A379584
-
-/-- `lcm(A379586(n+1), A384818(n+1))` -/
-def P1322885013263117089.Spec : Prop :=
-  ∀ n, (P1322885013263117089.a n : ℤ) = A379584 (n + 1)
 
 end A379584
 

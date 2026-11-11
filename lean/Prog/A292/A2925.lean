@@ -17,7 +17,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -30,7 +29,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -68,7 +66,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -5188,21 +5185,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A292547.P16908871188505934145
-
-/-! ## A292547.P14611986678580425318
-
-`val(A343045(2*(n+1)), A087052(A343045(n+3)))`
--/
-
-namespace A292547.P14611986678580425318
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A343045 (2 * (n + 1))).toNat (A087052 (A343045 (n + 3)).toNat).toNat
-
-end
-
-end A292547.P14611986678580425318
 
 /-!
 # A292548: Number of multisets of nonempty binary words with a total of n letters such that no word has a majority of 0's.

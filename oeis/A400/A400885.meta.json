@@ -1,0 +1,22 @@
+{
+  "description": "Table read by descending antidiagonals: T(n, k) = (tau(n)-k)/gcd(tau(n)-k, k*n-sigma(n)), n>=2, k>=0.",
+  "id": "A400885",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A057021",
+    "A398981",
+    "A400886"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

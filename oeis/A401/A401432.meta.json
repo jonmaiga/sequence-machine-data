@@ -1,0 +1,22 @@
+{
+  "description": "Distance between n^2 and the nearest triangular number, either above or below n^2.",
+  "id": "A401432",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001109",
+    "A002938",
+    "A053616",
+    "A229118"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

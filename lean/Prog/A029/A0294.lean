@@ -15,6 +15,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
@@ -2168,29 +2169,6 @@ def P11767704021836676143.Spec : Prop :=
 
 end A029417
 
-/-! ## A029417.P774097976185120640
-
-`A087116(or(A306400(n+1), A364132(n+4)))`
--/
-
-namespace A029417.P774097976185120640
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087116 (Int.lor (A306400 (n + 1)) (A364132 (n + 4))).toNat
-
-end
-
-end A029417.P774097976185120640
-
-namespace A029417
-
-/-- `A087116(or(A306400(n+1), A364132(n+4)))` -/
-def P774097976185120640.Spec : Prop :=
-  ∀ n, P774097976185120640.a n = A029417 n
-
-end A029417
-
 /-!
 # A029418: Expansion of 1/((1-x^6)*(1-x^7)*(1-x^9)*(1-x^11)).
 
@@ -2806,7 +2784,7 @@ def P2577548226497957135.Spec : Prop :=
 end A029423
 
 /-!
-# A029424: Expansion of 1/((1-x^6)(1-x^8)(1-x^9)(1-x^11)).
+# A029424: Expansion of 1/((1-x^6)*(1-x^8)*(1-x^9)*(1-x^11)).
 
 The programs for A029424, the canonical program `A029424.P4790873073052549497` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029424 has offset 0).
 
@@ -2928,7 +2906,7 @@ def P11491442361019802801.Spec : Prop :=
 end A029424
 
 /-!
-# A029425: Expansion of 1/((1-x^6)(1-x^8)(1-x^9)(1-x^12)).
+# A029425: Expansion of g.f. 1/((1-x^6)*(1-x^8)*(1-x^9)*(1-x^12)).
 
 The programs for A029425, the canonical program `A029425.P9386777479452355456` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029425 has offset 0).
 
@@ -3188,7 +3166,7 @@ def P14136731907214854989.Spec : Prop :=
 end A029425
 
 /-!
-# A029426: Expansion of 1/((1-x^6)(1-x^8)(1-x^10)(1-x^11)).
+# A029426: Expansion of 1/((1-x^6)*(1-x^8)*(1-x^10)*(1-x^11)).
 
 The programs for A029426, the canonical program `A029426.P5316000396173003913` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029426 has offset 0).
 
@@ -6578,7 +6556,7 @@ end
 end A029494.P6748183876814919185
 
 /-!
-# A029496: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 3 (most significant digit on right).
+# A029496: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 3 (most significant digit on right).
 
 The programs for A029496, there is no canonical definition to state claims against.
 -/
@@ -6624,25 +6602,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A029497.P2393512541177582825
-
-/-!
-# A029498: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 5 (most significant digit on right).
-
-The programs for A029498, there is no canonical definition to state claims against.
--/
-
-/-! ## A029498.P5606057041968665463
-
-`A384992(A270288(n))`
--/
-
-namespace A029498.P5606057041968665463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384992 (A270288 n).toNat
-
-end
-
-end A029498.P5606057041968665463
 

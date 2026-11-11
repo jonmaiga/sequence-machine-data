@@ -612,6 +612,21 @@ end A391408
 The programs for A391411, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391411.P10102066925089381961
+
+`A151799(A151799(A391413(n+1)))`
+-/
+
+namespace A391411.P10102066925089381961
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151799 (A151799 (A391413 (n + 1)).toNat).toNat
+
+end
+
+end A391411.P10102066925089381961
+
 /-! ## A391411.P2813887974690250625
 
 `A033302(A391413(1+n))`
@@ -783,20 +798,20 @@ end
 
 end A391412.P13629925729954751573
 
-/-! ## A391412.P7746910886161495306
+/-! ## A391412.P4076176203283258682
 
-`A097248(A391411(n+1)^2)`
+`A094549(A391411(n+1))`
 -/
 
-namespace A391412.P7746910886161495306
+namespace A391412.P4076176203283258682
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097248 (A391411 (n + 1) ^ 2).toNat
+  A094549 (A391411 (n + 1)).toNat
 
 end
 
-end A391412.P7746910886161495306
+end A391412.P4076176203283258682
 
 /-!
 # A391413: Last of 3 consecutive primes p1 < p2 < p3 such that the pattern of differences [p2-p1, p3-p2] does not occur earlier.
@@ -2835,19 +2850,19 @@ end
 
 end A391421.P10179510754945638777
 
-/-! ## A391421.P18379411444218530614
+/-! ## A391421.P243394099353635199
 
-`∩[A344409(n+1), A085759(n+1)]`
+`∩[A029703(n+1), A372953(n+1)]`
 -/
 
-namespace A391421.P18379411444218530614
+namespace A391421.P243394099353635199
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344409 (n + 1)
+  A029703 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085759 (n + 1)
+  A372953 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2855,7 +2870,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A391421.P18379411444218530614
+end A391421.P243394099353635199
 
 /-!
 # A391422: Discriminants of real quadratic fields with 1 class per genus.
@@ -6574,21 +6589,6 @@ end
 
 end A391456.P10864439395500104006
 
-/-! ## A391456.P6134438609549208685
-
-`A391458(n)+A376989(A033995(n))`
--/
-
-namespace A391456.P6134438609549208685
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391458 n + A376989 (A033995 n).toNat
-
-end
-
-end A391456.P6134438609549208685
-
 /-!
 # A391457: Expansion of g^2/(1 + x^2*g^3), where g = 1+x*g^4 is the g.f. of A002293.
 
@@ -6616,20 +6616,20 @@ end A391457.P5183602175456830430
 The programs for A391458, there is no canonical definition to state claims against.
 -/
 
-/-! ## A391458.P5960228626888938644
+/-! ## A391458.P3885081346048529835
 
-`A391456(n)-A376989(A033995(n))`
+`A349095(A150829(n))`
 -/
 
-namespace A391458.P5960228626888938644
+namespace A391458.P3885081346048529835
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391456 n - A376989 (A033995 n).toNat
+  A349095 (A150829 n).toNat
 
 end
 
-end A391458.P5960228626888938644
+end A391458.P3885081346048529835
 
 /-!
 # A391459: Expansion of g/(2 - g^2), where g = 1+x*g^2 is the g.f. of A000108.

@@ -3425,14 +3425,14 @@ end A215524.P15603318563988470191
 /-!
 # A215525: a(0)=a(1)=1, a(n) = a(n-1) + a(a(n-2) mod n).
 
-The programs for A215525, the canonical program `A215525.P321940166372568655` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215525 has offset 0).
+The programs for A215525, the canonical program `A215525.P12703096144823806555` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215525 has offset 0).
 
-The definition of A215525 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(a(n-2)%n)` (program `A215525.P321940166372568655`, by `A215525.P321940166372568655.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A215525 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(a(n-2)%n)` (program `A215525.P12703096144823806555`, by `A215525.P12703096144823806555.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A215525.P321940166372568655
+/-! ## A215525.P12703096144823806555
 
-`a(n-1)+a(a(n-2)%n)` with `a(0)=1, a(1)=1`
+`a(n-1)+a(a(n-2)%n)` with `a(0)=1, a(1)=1, a(2)=2`
 
 The canonical program, it is in `Seq.B000.C034`.
 -/
@@ -3440,10 +3440,10 @@ The canonical program, it is in `Seq.B000.C034`.
 namespace A215525
 
 /-- `a(n-1)+a(a(n-2)%n)` -/
-def P321940166372568655.Spec : Prop :=
-  ∀ n, (P321940166372568655.a n : ℤ) = A215525 n
+def P12703096144823806555.Spec : Prop :=
+  ∀ n, (P12703096144823806555.a n : ℤ) = A215525 n
 
-theorem P321940166372568655.correct : P321940166372568655.Spec := by
+theorem P12703096144823806555.correct : P12703096144823806555.Spec := by
   intro n
   simp only [A215525]
 

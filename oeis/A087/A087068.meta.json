@@ -1,5 +1,5 @@
 {
-  "description": "Sum{Floor(n*r^k): r=2/3, k>=0}.",
+  "description": "a(n) = Sum_{k>=0} floor(n*r^k) where r=2/3.",
   "id": "A087068",
   "mentions": [
     "A005187"

@@ -5131,6 +5131,75 @@ def P10633551634763548378.Spec : Prop :=
 
 end A274923
 
+/-! ## A274923.P3848843352717548402
+
+`1-A268038(A334751(n+1))`
+-/
+
+namespace A274923.P3848843352717548402
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - A268038 (A334751 (n + 1)).toNat
+
+end
+
+end A274923.P3848843352717548402
+
+namespace A274923
+
+/-- `1-A268038(A334751(n+1))` -/
+def P3848843352717548402.Spec : Prop :=
+  ∀ n, P3848843352717548402.a n = A274923 (n + 1)
+
+end A274923
+
+/-! ## A274923.P9810267771439675485
+
+`A174344(n+1)-A359216(2*n)`
+-/
+
+namespace A274923.P9810267771439675485
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174344 (n + 1) - A359216 (2 * n)
+
+end
+
+end A274923.P9810267771439675485
+
+namespace A274923
+
+/-- `A174344(n+1)-A359216(2*n)` -/
+def P9810267771439675485.Spec : Prop :=
+  ∀ n, P9810267771439675485.a n = A274923 (n + 1)
+
+end A274923
+
+/-! ## A274923.P8556011920839708842
+
+`A359217(2*n)-A174344(n+1)`
+-/
+
+namespace A274923.P8556011920839708842
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359217 (2 * n) - A174344 (n + 1)
+
+end
+
+end A274923.P8556011920839708842
+
+namespace A274923
+
+/-- `A359217(2*n)-A174344(n+1)` -/
+def P8556011920839708842.Spec : Prop :=
+  ∀ n, P8556011920839708842.a n = A274923 (n + 1)
+
+end A274923
+
 /-!
 # A274924: East spoke of spiral in A274640.
 
@@ -5196,6 +5265,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A274924.P9591031021246725506
+
+/-! ## A274924.P3229075424015558261
+
+`A274640(A001107(n))`
+-/
+
+namespace A274924.P3229075424015558261
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274640 (A001107 n).toNat
+
+end
+
+end A274924.P3229075424015558261
 
 /-! ## A274924.P15972460182861395856
 
@@ -6373,6 +6457,21 @@ end
 
 end A274930.P6441063907415015644
 
+/-! ## A274930.P1737527346672309792
+
+`A274641(A324481(A276036(2*n+1)))`
+-/
+
+namespace A274930.P1737527346672309792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274641 (A324481 (A276036 (2 * n + 1)).toNat).toNat
+
+end
+
+end A274930.P1737527346672309792
+
 /-! ## A274930.P17571794025082176060
 
 `A276036(2*n+1)+A274641(A273059(n))`
@@ -6387,21 +6486,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A274930.P17571794025082176060
-
-/-! ## A274930.P13823341330426946829
-
-`A276036(n+1+n)/A274640(A273059(n+1))`
--/
-
-namespace A274930.P13823341330426946829
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A276036 (n + 1 + n) : ℚ) / (A274640 (A273059 (n + 1)).toNat : ℚ)
-
-end
-
-end A274930.P13823341330426946829
 
 /-!
 # A274931: Southeast spoke of spiral in A274640.

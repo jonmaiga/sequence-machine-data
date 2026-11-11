@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is 1, a prime or n is not squarefree, otherwise 0.",
+  "id": "A401791",
+  "mentions": [
+    "A000961",
+    "A003986",
+    "A010051",
+    "A013929",
+    "A063524",
+    "A106743",
+    "A107078",
+    "A354819",
+    "A363597"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

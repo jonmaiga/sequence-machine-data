@@ -41,6 +41,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -7528,21 +7529,6 @@ end A280486.P11663306604637260869
 
 The programs for A280487, there is no canonical definition to state claims against.
 -/
-
-/-! ## A280487.P12687016535154389049
-
-`A137469(A001970(n)-A004526(n))`
--/
-
-namespace A280487.P12687016535154389049
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137469 (A001970 n - A004526 n).toNat
-
-end
-
-end A280487.P12687016535154389049
 
 /-! ## A280487.P722358154977679303
 

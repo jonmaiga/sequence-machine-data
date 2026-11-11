@@ -30,7 +30,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -8424,6 +8423,29 @@ The programs for A133386, the canonical program `A133386.P6930243779866747404` i
 The definition of A133386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 203 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A133386.P16803460455454972148
+
+`C(n, 2)*(3^(n-2)-2^(n-1)+1)`
+-/
+
+namespace A133386.P16803460455454972148
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n 2 : ℚ) * ((3 : ℚ) ^ ((n : ℤ) - 2 : ℤ) - (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) + 1)
+
+end
+
+end A133386.P16803460455454972148
+
+namespace A133386
+
+/-- `C(n, 2)*(3^(n-2)-2^(n-1)+1)` -/
+def P16803460455454972148.Spec : Prop :=
+  ∀ n, P16803460455454972148.a n = (A133386 n : ℚ)
+
+end A133386
+
 /-! ## A133386.P6930243779866747404
 
 `(n²-n)*A000392(abs(1-n))`
@@ -8509,29 +8531,6 @@ namespace A133386
 /-- `(A052777(n)+A052760(n))*2^A008683(A020483(n))` -/
 def P13110484940331847396.Spec : Prop :=
   ∀ n, P13110484940331847396.a n = (A133386 n : ℚ)
-
-end A133386
-
-/-! ## A133386.P204983418166339292
-
-`A161680(n)*A299905(A133263(n))`
--/
-
-namespace A133386.P204983418166339292
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161680 n * A299905 (A133263 n).toNat
-
-end
-
-end A133386.P204983418166339292
-
-namespace A133386
-
-/-- `A161680(n)*A299905(A133263(n))` -/
-def P204983418166339292.Spec : Prop :=
-  ∀ n, P204983418166339292.a n = A133386 n
 
 end A133386
 

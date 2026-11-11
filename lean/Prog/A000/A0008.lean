@@ -10,6 +10,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
@@ -23,6 +24,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C036
 import Seq.B000.C037
@@ -2425,6 +2427,21 @@ end
 
 end A000837.P1424899210627680814
 
+/-! ## A000837.P6284497887023798722
+
+`A130162(A179865(n+1))`
+-/
+
+namespace A000837.P6284497887023798722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130162 (A179865 (n + 1)).toNat
+
+end
+
+end A000837.P6284497887023798722
+
 /-!
 # A000840: Number of cubic bicolored graphs on n unlabeled nodes admitting an automorphism exchanging the colors.
 
@@ -4789,29 +4806,29 @@ def P13070404842035238181.Spec : Prop :=
 
 end A000891
 
-/-! ## A000891.P11497456260875489878
+/-! ## A000891.P7722164024874432815
 
-`A067802(∑[n])`
+`∑{#}[n, 1/(n+1)*C(2*n, n)*C(2*n-#, n)]`
 -/
 
-namespace A000891.P11497456260875489878
+namespace A000891.P7722164024874432815
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067802 (∑ j ∈ Finset.range (n + 1), f1 j)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 1 / (n + 1 : ℚ) * (Nat.choose (2 * n) n : ℚ) * (Nat.choose ((2 * n : ℤ) - (k : ℤ)).toNat n : ℚ)
 
 end
 
-end A000891.P11497456260875489878
+end A000891.P7722164024874432815
 
 namespace A000891
 
-/-- `A067802(∑[n])` -/
-def P11497456260875489878.Spec : Prop :=
-  ∀ n, P11497456260875489878.a n = A000891 n
+/-- `∑{#}[n, 1/(n+1)*C(2*n, n)*C(2*n-#, n)]` -/
+def P7722164024874432815.Spec : Prop :=
+  ∀ n, P7722164024874432815.a n = (A000891 n : ℚ)
 
 end A000891
 

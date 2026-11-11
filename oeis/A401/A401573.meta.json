@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that reversal(k) = (3/2)*k + 3, and congruent to 8 mod 10.",
+  "id": "A401573",
+  "mentions": [
+    "A004086",
+    "A401572"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

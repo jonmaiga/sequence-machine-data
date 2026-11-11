@@ -1,0 +1,23 @@
+{
+  "description": "The number of semirings with zero of size n up to isomorphism.",
+  "id": "A401395",
+  "mentions": [
+    "A000001",
+    "A001423",
+    "A027623",
+    "A027851",
+    "A305858",
+    "A401124"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

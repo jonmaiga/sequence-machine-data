@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
@@ -26,14 +27,12 @@ import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
@@ -177,17 +176,25 @@ end A387202.P958918143236860593
 /-!
 # A387204: a(n) = n*(n + 1)*(n^2 + 17*n + 54)/24.
 
-The programs for A387204, the canonical program `A387204.P15110884007341773351` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387204 has offset 0).
+The programs for A387204, the canonical program `A387204.P2581136435859664933` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387204 has offset 0).
 
-The definition of A387204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A387204 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n²+17*n+54)/24` (program `A387204.P9096169943440995313`, by `A387204.P9096169943440995313.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A387204.P15110884007341773351
 
 `n*(n+1)*(n*(n+17)+54)/24`
-
-The canonical program, it is in `Seq.B000.C049`.
 -/
+
+namespace A387204.P15110884007341773351
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * (n + 1) * (n * (n + 17) + 54) : ℚ) / 24
+
+end
+
+end A387204.P15110884007341773351
 
 namespace A387204
 
@@ -219,6 +226,12 @@ namespace A387204
 /-- `n*(n+1)*(n²+17*n+54)/24` -/
 def P9096169943440995313.Spec : Prop :=
   ∀ n, P9096169943440995313.a n = (A387204 n : ℚ)
+
+theorem P9096169943440995313.correct : P9096169943440995313.Spec := by
+  intro n
+  simp only [A387204, Nat.add_sub_cancel, A387204.P9096169943440995313.a, A387204.P2581136435859664933.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A387204
 
@@ -329,6 +342,25 @@ namespace A387204
 /-- `∑[C(n+1, 2)+C(5+n, 3)-C(5+n, 2)]` -/
 def P184736498319414959.Spec : Prop :=
   ∀ n, P184736498319414959.a n = A387204 n
+
+end A387204
+
+/-! ## A387204.P2581136435859664933
+
+`C(n+3, 4)+3*C(n+2, 3)+2*C(n+1, 2)`
+
+The canonical program, it is in `Seq.B000.C049`.
+-/
+
+namespace A387204
+
+/-- `C(n+3, 4)+3*C(n+2, 3)+2*C(n+1, 2)` -/
+def P2581136435859664933.Spec : Prop :=
+  ∀ n, (P2581136435859664933.a n : ℤ) = A387204 n
+
+theorem P2581136435859664933.correct : P2581136435859664933.Spec := by
+  intro n
+  simp only [A387204]
 
 end A387204
 
@@ -614,29 +646,6 @@ namespace A387204
 /-- `A000439(n+1)-A023551(n+1)` -/
 def P1419343454241090590.Spec : Prop :=
   ∀ n, P1419343454241090590.a n = A387204 n
-
-end A387204
-
-/-! ## A387204.P6250790524250924896
-
-`A252870(n+2)-(n+1)`
--/
-
-namespace A387204.P6250790524250924896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252870 (n + 2) - (n + 1 : ℤ)
-
-end
-
-end A387204.P6250790524250924896
-
-namespace A387204
-
-/-- `A252870(n+2)-(n+1)` -/
-def P6250790524250924896.Spec : Prop :=
-  ∀ n, P6250790524250924896.a n = A387204 n
 
 end A387204
 
@@ -3882,6 +3891,36 @@ def P16571619779810122877.Spec : Prop :=
 
 end A387254
 
+/-! ## A387254.P8610578902683572140
+
+`∩[A038109(n+1), A161753(n+1)]`
+-/
+
+namespace A387254.P8610578902683572140
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038109 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161753 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387254.P8610578902683572140
+
+namespace A387254
+
+/-- `∩[A038109(n+1), A161753(n+1)]` -/
+def P8610578902683572140.Spec : Prop :=
+  ∀ n, (P8610578902683572140.a n : ℤ) = A387254 (n + 1)
+
+end A387254
+
 /-!
 # A387255: Cubefull powers k^m, m > 1, of composite numbers k that are not powerful.
 
@@ -5215,6 +5254,36 @@ end
 
 end A387266.P3376635753980762415
 
+/-! ## A387266.P5789758075553020985
+
+`A342654(A387265(n+1))`
+-/
+
+namespace A387266.P5789758075553020985
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342654 (A387265 (n + 1)).toNat
+
+end
+
+end A387266.P5789758075553020985
+
+/-! ## A387266.P17400206309901306080
+
+`A139637(A387265(n+1))`
+-/
+
+namespace A387266.P17400206309901306080
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139637 (A387265 (n + 1)).toNat
+
+end
+
+end A387266.P17400206309901306080
+
 /-!
 # A387267: Number of dissections of a convex n-gon into quadrilaterals and pentagons by strictly disjoint diagonals.
 
@@ -5322,6 +5391,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387270.P8770100799053065689
+
+/-! ## A387270.P6738119566692457098
+
+`A269170(A387269(n+1))`
+-/
+
+namespace A387270.P6738119566692457098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269170 (A387269 (n + 1)).toNat
+
+end
+
+end A387270.P6738119566692457098
 
 /-!
 # A387271: Positive integers whose ternary expansion has equal run-length multisets for digits 1 and 2.

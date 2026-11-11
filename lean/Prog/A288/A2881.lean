@@ -57,7 +57,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
@@ -6815,6 +6814,32 @@ def P12131109513955628369.Spec : Prop :=
 
 end A288169
 
+/-! ## A288169.P7947900571738361161
+
+`filter[A140595(n), A288167(#)]`
+-/
+
+namespace A288169.P7947900571738361161
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140595 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A288167 (f1 j).toNat = 1) n)
+
+end
+
+end A288169.P7947900571738361161
+
+namespace A288169
+
+/-- `filter[A140595(n), A288167(#)]` -/
+def P7947900571738361161.Spec : Prop :=
+  ∀ n, P7947900571738361161.a n = A288169 (n + 1)
+
+end A288169
+
 /-! ## A288169.P14049955499691152026
 
 `filter[A263449(n), A288167(#)]`
@@ -7124,32 +7149,6 @@ namespace A288169
 /-- `filter[A319702(n+1), A288167(#)]` -/
 def P17713784456312189470.Spec : Prop :=
   ∀ n, P17713784456312189470.a n = A288169 (n + 1)
-
-end A288169
-
-/-! ## A288169.P3674716813148376047
-
-`record[A288134(n+1)*A288167(A288134(n+1))]`
--/
-
-namespace A288169.P3674716813148376047
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288134 (n + 1) * A288167 (A288134 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A288169.P3674716813148376047
-
-namespace A288169
-
-/-- `record[A288134(n+1)*A288167(A288134(n+1))]` -/
-def P3674716813148376047.Spec : Prop :=
-  ∀ n, P3674716813148376047.a n = A288169 (n + 1)
 
 end A288169
 
@@ -9181,20 +9180,20 @@ end
 
 end A288190.P8272073643204743864
 
-/-! ## A288190.P2239194726069375214
+/-! ## A288190.P5637876959420905680
 
-`A288192(n)+A228071(A288192(n))`
+`A007088(A288192(n))`
 -/
 
-namespace A288190.P2239194726069375214
+namespace A288190.P5637876959420905680
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288192 n + A228071 (A288192 n).toNat
+  A007088 (A288192 n).toNat
 
 end
 
-end A288190.P2239194726069375214
+end A288190.P5637876959420905680
 
 /-!
 # A288191: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 429", based on the 5-celled von Neumann neighborhood.

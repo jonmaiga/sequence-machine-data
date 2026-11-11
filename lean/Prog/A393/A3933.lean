@@ -2926,6 +2926,29 @@ The programs for A393346, the canonical program `A393346.P13900380405011831716` 
 The definition of A393346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A393346.P9236759584573439565
+
+`floor(n²*(3+n)/3)`
+-/
+
+namespace A393346.P9236759584573439565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n ^ 2 * (3 + n) : ℚ) / 3⌋
+
+end
+
+end A393346.P9236759584573439565
+
+namespace A393346
+
+/-- `floor(n²*(3+n)/3)` -/
+def P9236759584573439565.Spec : Prop :=
+  ∀ n, P9236759584573439565.a n = A393346 n
+
+end A393346
+
 /-! ## A393346.P13900380405011831716
 
 `ogf((x+3x^2+3x^3-x^4)/(1-3x+3x^2-2x^3+3x^4-3x^5+x^6))`
@@ -2942,29 +2965,6 @@ def P13900380405011831716.Spec : Prop :=
 theorem P13900380405011831716.correct : P13900380405011831716.Spec := by
   intro n
   simp only [A393346]
-
-end A393346
-
-/-! ## A393346.P13715601322622775121
-
-`floor((1+n/3)*n²)`
--/
-
-namespace A393346.P13715601322622775121
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(1 + (n : ℚ) / 3) * (n ^ 2 : ℚ)⌋
-
-end
-
-end A393346.P13715601322622775121
-
-namespace A393346
-
-/-- `floor((1+n/3)*n²)` -/
-def P13715601322622775121.Spec : Prop :=
-  ∀ n, P13715601322622775121.a n = A393346 n
 
 end A393346
 
@@ -3842,6 +3842,32 @@ namespace A393352
 /-- `A052823(n)*((n-2)/2+1)+1` -/
 def P1666857997300030105.Spec : Prop :=
   ∀ n, P1666857997300030105.a n = (A393352 n : ℚ)
+
+end A393352
+
+/-! ## A393352.P8780394120789535880
+
+`∑{d}[n, (2^(n/#-1)-1)*A000010(#)]+1`
+-/
+
+namespace A393352.P8780394120789535880
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), ((2 : ℝ) ^ ((n : ℚ) / (d : ℚ) - 1 : ℝ) - 1) * (A000010 d : ℝ) + 1
+
+end
+
+end A393352.P8780394120789535880
+
+namespace A393352
+
+/-- `∑{d}[n, (2^(n/#-1)-1)*A000010(#)]+1` -/
+def P8780394120789535880.Spec : Prop :=
+  ∀ n, P8780394120789535880.a n = (A393352 n : ℝ)
 
 end A393352
 

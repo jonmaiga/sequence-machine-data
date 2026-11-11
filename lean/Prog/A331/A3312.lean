@@ -1325,7 +1325,7 @@ end
 end A331217.P13991311397721182569
 
 /-!
-# A331218: a(n) is the numbers of ways to write n = u + v where the decimal representations of u and of v have the same number of digits d for d = 0..9.
+# A331218: a(n) is the number of ways to write n = u + v where the decimal representations of u and of v have the same number of digits d for d = 0..9.
 
 The programs for A331218, there is no canonical definition to state claims against.
 -/
@@ -7682,20 +7682,20 @@ end
 
 end A331287.P13885216437623953370
 
-/-! ## A331287.P9011670307723654263
+/-! ## A331287.P6708260613295908941
 
-`gcd(A000027(n+1), A399949(A006530(2*n+1)))`
+`A074389(A357042(n+1))`
 -/
 
-namespace A331287.P9011670307723654263
+namespace A331287.P6708260613295908941
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000027 (n + 1)) (A399949 (A006530 (2 * n + 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074389 (A357042 (n + 1)).toNat
 
 end
 
-end A331287.P9011670307723654263
+end A331287.P6708260613295908941
 
 /-!
 # A331288: a(n) = min(n, A225546(n)).

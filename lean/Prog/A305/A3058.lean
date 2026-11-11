@@ -4278,6 +4278,21 @@ end
 
 end A305831.P2134233232157547440
 
+/-! ## A305831.P9368540568684288367
+
+`gcd(A172444(n), A305832(n+1))`
+-/
+
+namespace A305831.P9368540568684288367
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A172444 n) (A305832 (n + 1))
+
+end
+
+end A305831.P9368540568684288367
+
 /-! ## A305831.P12619979239166351965
 
 `A064547(n+1)/A077619(A113057(n+1))`
@@ -4293,35 +4308,20 @@ end
 
 end A305831.P12619979239166351965
 
-/-! ## A305831.P16096832288853142452
+/-! ## A305831.P15045319976781981627
 
-`gcd(A000290(A006002(n)), A058061(n+1))`
+`gcd(A038749(n+1), A058061(n+1))`
 -/
 
-namespace A305831.P16096832288853142452
+namespace A305831.P15045319976781981627
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000290 (A006002 n).toNat) (A058061 (n + 1))
+  Int.gcd (A038749 (n + 1)) (A058061 (n + 1))
 
 end
 
-end A305831.P16096832288853142452
-
-/-! ## A305831.P6781609150225629697
-
-`A071625(A285332(n)*A287620(n+1))`
--/
-
-namespace A305831.P6781609150225629697
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071625 (A285332 n * A287620 (n + 1)).toNat
-
-end
-
-end A305831.P6781609150225629697
+end A305831.P15045319976781981627
 
 /-!
 # A305832: Number of connected components of the n-th FDH set-system.
@@ -4704,27 +4704,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A305836.P14998940757870919250
-
-/-! ## A305836.P9893100580616600241
-
-`eq[A007318(A066665(n)), A087256(n+1)]`
--/
-
-namespace A305836.P9893100580616600241
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A066665 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A305836.P9893100580616600241
 
 /-! ## A305836.P13031164043375483854
 
@@ -8797,6 +8776,21 @@ end
 
 end A305877.P17389058373839139543
 
+/-! ## A305877.P14459649679534356952
+
+`A007089(A137305(n)-A327252(n))`
+-/
+
+namespace A305877.P14459649679534356952
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007089 (A137305 n - A327252 n).toNat
+
+end
+
+end A305877.P14459649679534356952
+
 /-! ## A305877.P10290328515869718434
 
 `A007089(A171960(n)+n-A284797(n))`
@@ -8826,21 +8820,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305877.P1926984252737817585
-
-/-! ## A305877.P14459649679534356952
-
-`A007089(A137305(n)-A327252(n))`
--/
-
-namespace A305877.P14459649679534356952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007089 (A137305 n - A327252 n).toNat
-
-end
-
-end A305877.P14459649679534356952
 
 /-!
 # A305878: For any number n >= 0: apply the map 0 -> "0", 1 -> "01", 2 -> "011" to the ternary representation of n and interpret the result as a binary string.
@@ -9668,7 +9647,7 @@ def P18436941580145285125.Spec : Prop :=
 end A305889
 
 /-!
-# A305891: Filter sequence combining 2-adic valuation (A007814) and the prime signature (A046523) of n.
+# A305891: Lexicographically earliest infinite sequence such that a(i) = a(j) => A007814(i) = A007814(j) and A046523(i) = A046523(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A007814(n) is the exponent of the highest power of 2 dividing n.
 
 The programs for A305891, there is no canonical definition to state claims against.
 -/
@@ -10495,26 +10474,26 @@ def P10875748677179617042.Spec : Prop :=
 
 end A305897
 
-/-! ## A305897.P11209544663181105813
+/-! ## A305897.P8160396691520107074
 
-`A133622(A348717(n+1))`
+`A103391(A348717(n+1))`
 -/
 
-namespace A305897.P11209544663181105813
+namespace A305897.P8160396691520107074
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133622 (A348717 (n + 1)).toNat
+  A103391 (A348717 (n + 1)).toNat
 
 end
 
-end A305897.P11209544663181105813
+end A305897.P8160396691520107074
 
 namespace A305897
 
-/-- `A133622(A348717(n+1))` -/
-def P11209544663181105813.Spec : Prop :=
-  ∀ n, P11209544663181105813.a n = A305897 (n + 1)
+/-- `A103391(A348717(n+1))` -/
+def P8160396691520107074.Spec : Prop :=
+  ∀ n, P8160396691520107074.a n = A305897 (n + 1)
 
 end A305897
 

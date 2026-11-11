@@ -10963,6 +10963,29 @@ def P7099404869847788707.Spec : Prop :=
 
 end A102364
 
+/-! ## A102364.P9731487983103432336
+
+`A060143(A000201(A135817(n+1)))`
+-/
+
+namespace A102364.P9731487983103432336
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060143 (A000201 (A135817 (n + 1)).toNat).toNat
+
+end
+
+end A102364.P9731487983103432336
+
+namespace A102364
+
+/-- `A060143(A000201(A135817(n+1)))` -/
+def P9731487983103432336.Spec : Prop :=
+  ∀ n, P9731487983103432336.a n = A102364 n
+
+end A102364
+
 /-! ## A102364.P15637550078648532063
 
 `A261101(A219642(n))-A007895(n)`
@@ -11172,35 +11195,6 @@ namespace A102364
 /-- `A023416(A003714(n))%A294477(n)` -/
 def P4562328211489154405.Spec : Prop :=
   ∀ n, P4562328211489154405.a n = A102364 n
-
-end A102364
-
-/-! ## A102364.P10820013337881709906
-
-`A080791(lt[A000120(n), A089080(n+1)])`
--/
-
-namespace A102364.P10820013337881709906
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000120 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089080 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080791 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A102364.P10820013337881709906
-
-namespace A102364
-
-/-- `A080791(lt[A000120(n), A089080(n+1)])` -/
-def P10820013337881709906.Spec : Prop :=
-  ∀ n, P10820013337881709906.a n = A102364 n
 
 end A102364
 
@@ -11607,6 +11601,29 @@ namespace A102366
 /-- `A206735(floor(∑[n]+sqrt(n)))` -/
 def P17515695068751714331.Spec : Prop :=
   ∀ n, P17515695068751714331.a n = A102366 n
+
+end A102366
+
+/-! ## A102366.P780414231460881406
+
+`n!/((n-floor(sqrt(n)))!*floor(sqrt(n))!)`
+-/
+
+namespace A102366.P780414231460881406
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℚ) / (Nat.factorial ((n : ℤ) - (Nat.sqrt n : ℤ)).toNat * Nat.factorial (Nat.sqrt n) : ℚ)
+
+end
+
+end A102366.P780414231460881406
+
+namespace A102366
+
+/-- `n!/((n-floor(sqrt(n)))!*floor(sqrt(n))!)` -/
+def P780414231460881406.Spec : Prop :=
+  ∀ n, P780414231460881406.a n = (A102366 n : ℚ)
 
 end A102366
 

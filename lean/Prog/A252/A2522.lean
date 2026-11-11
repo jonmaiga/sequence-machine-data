@@ -74,7 +74,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 /-!
@@ -7208,28 +7207,6 @@ end
 
 end A252282.P13904038455200490900
 
-/-! ## A252282.P3301607350477260617
-
-`∩[A251964(n+1), A371123(n+1)]`
--/
-
-namespace A252282.P3301607350477260617
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251964 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371123 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252282.P3301607350477260617
-
 /-! ## A252282.P6498346695171565236
 
 `∩[A028804(n+1), A251964(n+1)]`
@@ -7295,6 +7272,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252282.P16467635246444382978
+
+/-! ## A252282.P11124371331479278218
+
+`∩[A251964(n+1), A258022(n+1)]`
+-/
+
+namespace A252282.P11124371331479278218
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251964 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258022 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252282.P11124371331479278218
 
 /-!
 # A252283: Intersection of A251964, A252280 and A252281.

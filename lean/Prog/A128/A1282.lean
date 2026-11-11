@@ -5838,6 +5838,29 @@ def P3691226870497966415.Spec : Prop :=
 
 end A128219
 
+/-! ## A128219.P10834349943923673789
+
+`1+min(col(n)+1, row(n))`
+-/
+
+namespace A128219.P10834349943923673789
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + min (SequenceMachineLib.triCol n + 1) (SequenceMachineLib.triRow n)
+
+end
+
+end A128219.P10834349943923673789
+
+namespace A128219
+
+/-- `1+min(col(n)+1, row(n))` -/
+def P10834349943923673789.Spec : Prop :=
+  ∀ n, (P10834349943923673789.a n : ℤ) = A128219 (n + 1)
+
+end A128219
+
 /-! ## A128219.P1016049514673209765
 
 `col(n)+2-C(col(n), row(n))`
@@ -6019,29 +6042,6 @@ namespace A128219
 /-- `col(n)+2-T(T(n-1,k+1), 2*T(n-1,k))` -/
 def P5284577219136508993.Spec : Prop :=
   ∀ n, P5284577219136508993.a n = A128219 (n + 1)
-
-end A128219
-
-/-! ## A128219.P17424848205468722772
-
-`col(n)+2-T(T(n-1,k), 2*T(n-1,k))` with `a(0)=1`
--/
-
-namespace A128219.P17424848205468722772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (SequenceMachineLib.triCol n + 2 : ℤ) - SequenceMachineLib.triAt a (SequenceMachineLib.triUp a n) (2 * SequenceMachineLib.triUp a n)
-
-end
-
-end A128219.P17424848205468722772
-
-namespace A128219
-
-/-- `col(n)+2-T(T(n-1,k), 2*T(n-1,k))` -/
-def P17424848205468722772.Spec : Prop :=
-  ∀ n, P17424848205468722772.a n = A128219 (n + 1)
 
 end A128219
 
@@ -6335,6 +6335,29 @@ namespace A128220
 /-- `A157928(A135278(n))+A002024(n+1)` -/
 def P13061541421782221099.Spec : Prop :=
   ∀ n, P13061541421782221099.a n = A128220 (n + 1)
+
+end A128220
+
+/-! ## A128220.P9231271205396929779
+
+`A078822(A330220(n+1))`
+-/
+
+namespace A128220.P9231271205396929779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078822 (A330220 (n + 1)).toNat
+
+end
+
+end A128220.P9231271205396929779
+
+namespace A128220
+
+/-- `A078822(A330220(n+1))` -/
+def P9231271205396929779.Spec : Prop :=
+  ∀ n, P9231271205396929779.a n = A128220 (n + 1)
 
 end A128220
 

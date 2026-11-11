@@ -55,6 +55,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1351,6 +1352,24 @@ end
 
 end A350322.P11762079658052798997
 
+/-! ## A350322.P17980065467263000096
+
+`filter[A054395(n+1), A401791(#)]`
+-/
+
+namespace A350322.P17980065467263000096
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054395 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A350322.P17980065467263000096
+
 /-! ## A350322.P2000248562617181908
 
 `∩[A054395(n+1), A087244(n+1)]`
@@ -1482,28 +1501,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A350322.P7452467795546687691
-
-/-! ## A350322.P5565763676377482869
-
-`∩[A054395(n+1), A377562(n+1)]`
--/
-
-namespace A350322.P5565763676377482869
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054395 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377562 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A350322.P5565763676377482869
 
 /-!
 # A350323: Abelian orders m for which there exist at least 4 groups of order m.

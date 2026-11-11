@@ -29,7 +29,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -74,7 +73,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -1054,20 +1052,20 @@ end
 
 end A178910.P901312943284499063
 
-/-! ## A178910.P14377187267831513367
+/-! ## A178910.P972039744953442839
 
-`A344875(n+1)+A083927(A374370(n+2))`
+`A253315(A055895(n+1))`
 -/
 
-namespace A178910.P14377187267831513367
+namespace A178910.P972039744953442839
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344875 (n + 1) + A083927 (A374370 (n + 2)).toNat
+  A253315 (A055895 (n + 1)).toNat
 
 end
 
-end A178910.P14377187267831513367
+end A178910.P972039744953442839
 
 /-!
 # A178914: 10's complement of nonnegative numbers.
@@ -9405,52 +9403,49 @@ def P14607620218635443274.Spec : Prop :=
 
 end A178987
 
-/-! ## A178987.P9605341973833204703
+/-! ## A178987.P14285222195436017167
 
-`Δ[A181407(n)]`
+`A007466(n+1)-A053220(n+1)`
 -/
 
-namespace A178987.P9605341973833204703
+namespace A178987.P14285222195436017167
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181407 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  A007466 (n + 1) - A053220 (n + 1)
 
 end
 
-end A178987.P9605341973833204703
+end A178987.P14285222195436017167
 
 namespace A178987
 
-/-- `Δ[A181407(n)]` -/
-def P9605341973833204703.Spec : Prop :=
-  ∀ n, P9605341973833204703.a n = A178987 n
+/-- `A007466(n+1)-A053220(n+1)` -/
+def P14285222195436017167.Spec : Prop :=
+  ∀ n, P14285222195436017167.a n = A178987 n
 
 end A178987
 
-/-! ## A178987.P4946809410529305134
+/-! ## A178987.P5011221640784440512
 
-`A181407(n+1)-A181407(n)`
+`A007466(n+1)-(A001787(n+1)+A001787(n))`
 -/
 
-namespace A178987.P4946809410529305134
+namespace A178987.P5011221640784440512
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181407 (n + 1) - A181407 n
+  A007466 (n + 1) - (A001787 (n + 1) + A001787 n)
 
 end
 
-end A178987.P4946809410529305134
+end A178987.P5011221640784440512
 
 namespace A178987
 
-/-- `A181407(n+1)-A181407(n)` -/
-def P4946809410529305134.Spec : Prop :=
-  ∀ n, P4946809410529305134.a n = A178987 n
+/-- `A007466(n+1)-(A001787(n+1)+A001787(n))` -/
+def P5011221640784440512.Spec : Prop :=
+  ∀ n, P5011221640784440512.a n = A178987 n
 
 end A178987
 

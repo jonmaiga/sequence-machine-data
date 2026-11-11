@@ -1,0 +1,19 @@
+{
+  "description": "Number of orbits of exponents d, 1 <= d <= 2^n-2, under multiplication by 2 modulo 2^n-1, such that gcd(d, 2^n-1) = 1 and the power map x -> x^d on GF(2^n) has differential uniformity 4.",
+  "id": "A401119",
+  "mentions": [
+    "A000010",
+    "A011260",
+    "A400802"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

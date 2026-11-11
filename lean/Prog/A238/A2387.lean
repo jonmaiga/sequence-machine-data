@@ -2438,6 +2438,21 @@ end
 
 end A238713.P6958154065887598139
 
+/-! ## A238713.P12830260823372126002
+
+`A256481(A008470(n+1))`
+-/
+
+namespace A238713.P12830260823372126002
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256481 (A008470 (n + 1)).toNat
+
+end
+
+end A238713.P12830260823372126002
+
 /-!
 # A238716: Run lengths of decadal prime triples.
 
@@ -4618,6 +4633,29 @@ theorem P8529902023230316708.correct : P8529902023230316708.Spec := by
 
 end A238737
 
+/-! ## A238737.P8438710900049276779
+
+`2*(n+1)-A000040(A000720(2*(n+1)))`
+-/
+
+namespace A238737.P8438710900049276779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * (n + 1) : ℤ) - A000040 (A000720 (2 * (n + 1))).toNat
+
+end
+
+end A238737.P8438710900049276779
+
+namespace A238737
+
+/-- `2*(n+1)-A000040(A000720(2*(n+1)))` -/
+def P8438710900049276779.Spec : Prop :=
+  ∀ n, P8438710900049276779.a n = A238737 n
+
+end A238737
+
 /-! ## A238737.P7343607096716468521
 
 `A151800(2*n+1)-A119257(2*(n+1))`
@@ -4736,29 +4774,6 @@ namespace A238737
 /-- `A308050(2*(n+2))-2` -/
 def P14091995263191709759.Spec : Prop :=
   ∀ n, P14091995263191709759.a n = A238737 n
-
-end A238737
-
-/-! ## A238737.P13461095704527800412
-
-`2*n+1-A070320(2*n+1)`
--/
-
-namespace A238737.P13461095704527800412
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1 : ℤ) - A070320 (2 * n + 1)
-
-end
-
-end A238737.P13461095704527800412
-
-namespace A238737
-
-/-- `2*n+1-A070320(2*n+1)` -/
-def P13461095704527800412.Spec : Prop :=
-  ∀ n, P13461095704527800412.a n = A238737 n
 
 end A238737
 

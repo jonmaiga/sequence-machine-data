@@ -1,0 +1,27 @@
+{
+  "description": "Odd part of the parity vector of 4*n-1 under the reduced Collatz map A014682 until its trajectory first goes below 4*n-1, read in binary, with a 1 for each (3*x+1)/2 step and a 0 for each x/2 step.",
+  "id": "A399760",
+  "mentions": [
+    "A000012",
+    "A000120",
+    "A001511",
+    "A014682",
+    "A020914",
+    "A050603",
+    "A094267",
+    "A100982",
+    "A126241",
+    "A136480",
+    "A243115",
+    "A389685"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -10,7 +10,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C024
@@ -29,7 +29,7 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -1939,12 +1939,12 @@ def P18038717702566830285.Spec : Prop :=
 
 end A012245
 
-/-! ## A012245.P13289399341415782333
+/-! ## A012245.P18035242338589306419
 
-`dr(Δ[fp[∏[n+1]]])`
+`Δ[dr(fp[∏[n+1]])]`
 -/
 
-namespace A012245.P13289399341415782333
+namespace A012245.P18035242338589306419
 noncomputable section
 
 def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1954,20 +1954,20 @@ def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   ∏ j ∈ Finset.range (n + 1), f3 j
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => n < f2 j) 0
+  SequenceMachineLib.digitalRoot (SequenceMachineLib.nth (fun j => n < f2 j) 0 : ℤ)
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot ((f1 (n + 1) : ℤ) - (f1 n : ℤ))
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
 
 end
 
-end A012245.P13289399341415782333
+end A012245.P18035242338589306419
 
 namespace A012245
 
-/-- `dr(Δ[fp[∏[n+1]]])` -/
-def P13289399341415782333.Spec : Prop :=
-  ∀ n, (P13289399341415782333.a n : ℤ) = A012245 (n + 1)
+/-- `Δ[dr(fp[∏[n+1]])]` -/
+def P18035242338589306419.Spec : Prop :=
+  ∀ n, P18035242338589306419.a n = A012245 (n + 1)
 
 end A012245
 

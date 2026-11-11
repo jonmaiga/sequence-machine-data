@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array where row n lists the smallest n-tuple of primes p for which 1/p has the same period length in base 10, with respect to the sup norm.",
+  "id": "A400291",
+  "mentions": [
+    "A002329",
+    "A084680",
+    "A400292",
+    "A400293"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

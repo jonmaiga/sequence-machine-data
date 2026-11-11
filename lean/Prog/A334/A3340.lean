@@ -55,6 +55,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -1813,20 +1814,20 @@ end
 
 end A334032.P18417609842580821874
 
-/-! ## A334032.P13610251125459342318
+/-! ## A334032.P12234549989372859400
 
-`A385889(A322993(n+1))`
+`A297404(A181821(A329607(n+1)))`
 -/
 
-namespace A334032.P13610251125459342318
+namespace A334032.P12234549989372859400
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385889 (A322993 (n + 1)).toNat
+  A297404 (A181821 (A329607 (n + 1)).toNat).toNat
 
 end
 
-end A334032.P13610251125459342318
+end A334032.P12234549989372859400
 
 /-!
 # A334033: The a(n)-th composition in standard order (graded reverse-lexicographic) is the reversed unsorted prime signature of n.
@@ -1848,6 +1849,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334033.P7515915501517152864
+
+/-! ## A334033.P11737702445544533540
+
+`A385887(A322993(n+1))`
+-/
+
+namespace A334033.P11737702445544533540
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385887 (A322993 (n + 1)).toNat
+
+end
+
+end A334033.P11737702445544533540
 
 /-! ## A334033.P17654069384298102014
 
@@ -1986,24 +2002,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334033.P12891971558429166529
-
-/-! ## A334033.P4608768763706000411
-
-`∑{p}[A153212(n+1), A156552(#)]`
--/
-
-namespace A334033.P4608768763706000411
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153212 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, A156552 p
-
-end
-
-end A334033.P4608768763706000411
 
 /-!
 # A334034: a(n) is the least integer that can be expressed as the difference of two pentagonal numbers in exactly n ways.

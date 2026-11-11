@@ -1389,20 +1389,20 @@ end
 
 end A175011.P1424047759742086624
 
-/-! ## A175011.P5021040101260588733
+/-! ## A175011.P9819673219258510233
 
-`A124551(A353510(n+1)%A399996(n+1))`
+`A128978(A268472(n+1))`
 -/
 
-namespace A175011.P5021040101260588733
+namespace A175011.P9819673219258510233
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124551 (Int.tmod (A353510 (n + 1)) (A399996 (n + 1))).toNat
+  A128978 (A268472 (n + 1)).toNat
 
 end
 
-end A175011.P5021040101260588733
+end A175011.P9819673219258510233
 
 /-!
 # A175012: Triangle generated from the g.f of A000712 (i.e., 1/(1-x^m)^2) interleaved with zeros.
@@ -4405,6 +4405,29 @@ namespace A175029
 /-- `A016777(n)+2-A061397(n+1)` -/
 def P8312404613526245093.Spec : Prop :=
   ∀ n, P8312404613526245093.a n = A175029 (n + 1)
+
+end A175029
+
+/-! ## A175029.P8287970787725981877
+
+`(n+1)*A324401(A000040(A013632(n)))`
+-/
+
+namespace A175029.P8287970787725981877
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A324401 (A000040 (A013632 n).toNat).toNat
+
+end
+
+end A175029.P8287970787725981877
+
+namespace A175029
+
+/-- `(n+1)*A324401(A000040(A013632(n)))` -/
+def P8287970787725981877.Spec : Prop :=
+  ∀ n, P8287970787725981877.a n = A175029 (n + 1)
 
 end A175029
 

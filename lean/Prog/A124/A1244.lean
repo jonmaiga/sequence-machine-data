@@ -31,6 +31,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -38,9 +39,9 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
@@ -1463,6 +1464,28 @@ end
 
 end A124408.P8332074505799815817
 
+/-! ## A124408.P334219400057650975
+
+`∩[A024899(n+1), A123998(n+1)]`
+-/
+
+namespace A124408.P334219400057650975
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024899 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123998 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124408.P334219400057650975
+
 /-!
 # A124409: Numbers k such that 2k+1, 4k+1, 6k+1 and 8k+1 are primes.
 
@@ -1587,6 +1610,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A124409.P15762887886276954906
+
+/-! ## A124409.P669724694981206294
+
+`∩[A124041(n+1), A255607(n+1)]`
+-/
+
+namespace A124409.P669724694981206294
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124041 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255607 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124409.P669724694981206294
+
+/-! ## A124409.P3006972105709416893
+
+`∩[A124041(n+1), A174100(n+1)]`
+-/
+
+namespace A124409.P3006972105709416893
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124041 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174100 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124409.P3006972105709416893
 
 /-!
 # A124410: Numbers k such that 2k+1, 4k+1, 6k+1, 8k+1 and 10k+1 are primes.
@@ -4605,66 +4672,6 @@ def P13938430978011811598.Spec : Prop :=
 
 end A124438
 
-/-! ## A124438.P6352947445686184014
-
-`∩[A159836(n+1), A384992(n+1)]`
--/
-
-namespace A124438.P6352947445686184014
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159836 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384992 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A124438.P6352947445686184014
-
-namespace A124438
-
-/-- `∩[A159836(n+1), A384992(n+1)]` -/
-def P6352947445686184014.Spec : Prop :=
-  ∀ n, (P6352947445686184014.a n : ℤ) = A124438 (n + 1)
-
-end A124438
-
-/-! ## A124438.P7174089704194743862
-
-`∩[A230542(n+1), A384992(n+1)]`
--/
-
-namespace A124438.P7174089704194743862
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A230542 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384992 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A124438.P7174089704194743862
-
-namespace A124438
-
-/-- `∩[A230542(n+1), A384992(n+1)]` -/
-def P7174089704194743862.Spec : Prop :=
-  ∀ n, (P7174089704194743862.a n : ℤ) = A124438 (n + 1)
-
-end A124438
-
 /-!
 # A124439: Complete list of solutions to y^2 = x^3 + 17; sequence gives x values.
 
@@ -6181,6 +6188,29 @@ namespace A124449
 /-- `A226132(A317312(n+1))` -/
 def P17552663033187736924.Spec : Prop :=
   ∀ n, P17552663033187736924.a n = A124449 (n + 1)
+
+end A124449
+
+/-! ## A124449.P1325889323843793450
+
+`A226132(A317324(n+1))`
+-/
+
+namespace A124449.P1325889323843793450
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226132 (A317324 (n + 1)).toNat
+
+end
+
+end A124449.P1325889323843793450
+
+namespace A124449
+
+/-- `A226132(A317324(n+1))` -/
+def P1325889323843793450.Spec : Prop :=
+  ∀ n, P1325889323843793450.a n = A124449 (n + 1)
 
 end A124449
 

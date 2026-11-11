@@ -34,7 +34,6 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2768,6 +2767,29 @@ def P13702253289806178873.Spec : Prop :=
 
 end A058645
 
+/-! ## A058645.P15923705419669372323
+
+`n*2^(n-1)*n+C(n, 2)*2^(n-2)*n`
+-/
+
+namespace A058645.P15923705419669372323
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (n : ℚ) + (Nat.choose n 2 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (n : ℚ)
+
+end
+
+end A058645.P15923705419669372323
+
+namespace A058645
+
+/-- `n*2^(n-1)*n+C(n, 2)*2^(n-2)*n` -/
+def P15923705419669372323.Spec : Prop :=
+  ∀ n, P15923705419669372323.a n = (A058645 n : ℚ)
+
+end A058645
+
 /-! ## A058645.P12047851429313882631
 
 `abs(n/2*Δ[A001815(n)])`
@@ -3384,55 +3406,29 @@ def P15268351161126665315.Spec : Prop :=
 
 end A058649
 
-/-! ## A058649.P15001612237043907582
+/-! ## A058649.P2836189251444863820
 
-`∑{#}[n, C(n, #)*A000583(#)]`
+`∑{#}[n, C(n, #)*#^4]`
 -/
 
-namespace A058649.P15001612237043907582
+namespace A058649.P2836189251444863820
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A000583 k
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * k ^ 4
 
 end
 
-end A058649.P15001612237043907582
+end A058649.P2836189251444863820
 
 namespace A058649
 
-/-- `∑{#}[n, C(n, #)*A000583(#)]` -/
-def P15001612237043907582.Spec : Prop :=
-  ∀ n, P15001612237043907582.a n = A058649 n
-
-end A058649
-
-/-! ## A058649.P6674077392236379144
-
-`∑{#}[n, (-1)^(n-#)*C(n, #)*A383138(#)]`
--/
-
-namespace A058649.P6674077392236379144
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (A383138 k : ℚ)
-
-end
-
-end A058649.P6674077392236379144
-
-namespace A058649
-
-/-- `∑{#}[n, (-1)^(n-#)*C(n, #)*A383138(#)]` -/
-def P6674077392236379144.Spec : Prop :=
-  ∀ n, P6674077392236379144.a n = (A058649 n : ℚ)
+/-- `∑{#}[n, C(n, #)*#^4]` -/
+def P2836189251444863820.Spec : Prop :=
+  ∀ n, (P2836189251444863820.a n : ℤ) = A058649 n
 
 end A058649
 

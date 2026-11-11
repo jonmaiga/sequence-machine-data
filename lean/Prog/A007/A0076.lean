@@ -39,7 +39,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
@@ -13001,6 +13001,29 @@ The programs for A007663, the canonical program `A007663.P6074951402659707018` i
 The definition of A007663 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A007663.P5502716173084742424
+
+`A000048(A000040(n+2))`
+-/
+
+namespace A007663.P5502716173084742424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000048 (A000040 (n + 2)).toNat
+
+end
+
+end A007663.P5502716173084742424
+
+namespace A007663
+
+/-- `A000048(A000040(n+2))` -/
+def P5502716173084742424.Spec : Prop :=
+  ∀ n, P5502716173084742424.a n = A007663 (n + 2)
+
+end A007663
+
 /-! ## A007663.P6074951402659707018
 
 `3*A001045(A000040(n+2)-1)/A000040(n+2)`
@@ -13218,32 +13241,6 @@ namespace A007663
 /-- `A056295(p?[2*n+1])` -/
 def P3215046328253339304.Spec : Prop :=
   ∀ n, P3215046328253339304.a n = A007663 (n + 2)
-
-end A007663
-
-/-! ## A007663.P585804206379951343
-
-`A056303(p?[2*n+1])`
--/
-
-namespace A007663.P585804206379951343
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056303 (f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n))
-
-end
-
-end A007663.P585804206379951343
-
-namespace A007663
-
-/-- `A056303(p?[2*n+1])` -/
-def P585804206379951343.Spec : Prop :=
-  ∀ n, P585804206379951343.a n = A007663 (n + 2)
 
 end A007663
 
@@ -14194,7 +14191,7 @@ end
 end A007670.P16470140519095015449
 
 /-!
-# A007671: Numbers n such that 2^n + 2^((n + 1)/2) + 1 is prime.
+# A007671: Numbers k such that 2^k + 2^((k + 1)/2) + 1 is prime.
 
 The programs for A007671, there is no canonical definition to state claims against.
 -/

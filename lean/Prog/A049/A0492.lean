@@ -25,7 +25,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
@@ -36,6 +35,7 @@ import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -611,6 +611,29 @@ namespace A049200
 /-- `A003958(2*A005117(n+1))` -/
 def P241772579262579998.Spec : Prop :=
   ∀ n, P241772579262579998.a n = A049200 (n + 1)
+
+end A049200
+
+/-! ## A049200.P17879883504910744773
+
+`A173557(2*A005117(n+1))`
+-/
+
+namespace A049200.P17879883504910744773
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173557 (2 * A005117 (n + 1)).toNat
+
+end
+
+end A049200.P17879883504910744773
+
+namespace A049200
+
+/-- `A173557(2*A005117(n+1))` -/
+def P17879883504910744773.Spec : Prop :=
+  ∀ n, P17879883504910744773.a n = A049200 (n + 1)
 
 end A049200
 
@@ -2067,30 +2090,30 @@ def P165201585785906862.Spec : Prop :=
 
 end A049207
 
-/-! ## A049207.P14633511759807710874
+/-! ## A049207.P14171469918483067789
 
-`(col(n)+1)*col(n)*(row(n)-col(n))*(row(n)-col(n)+1)`
+`(col(n)+1)*col(n)*(row(n)-col(n)+1)*(row(n)-col(n))`
 -/
 
-namespace A049207.P14633511759807710874
+namespace A049207.P14171469918483067789
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.triCol n + 1) * SequenceMachineLib.triCol n : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1)
+  ((SequenceMachineLib.triCol n + 1) * SequenceMachineLib.triCol n : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ))
 
 end
 
-end A049207.P14633511759807710874
+end A049207.P14171469918483067789
 
 namespace A049207
 
-/-- `(col(n)+1)*col(n)*(row(n)-col(n))*(row(n)-col(n)+1)` -/
-def P14633511759807710874.Spec : Prop :=
-  ∀ n, P14633511759807710874.a n = A049207 n
+/-- `(col(n)+1)*col(n)*(row(n)-col(n)+1)*(row(n)-col(n))` -/
+def P14171469918483067789.Spec : Prop :=
+  ∀ n, P14171469918483067789.a n = A049207 n
 
-theorem P14633511759807710874.correct : P14633511759807710874.Spec := by
+theorem P14171469918483067789.correct : P14171469918483067789.Spec := by
   intro n
-  simp only [A049207, Nat.add_sub_cancel, A049207.P14633511759807710874.a, A049207.P6650206018968943836.a, A003991, A003991.P6365127437582401781.a, A004247, A004247.P2751605162508615148.a, SequenceMachineLib.memo_apply]
+  simp only [A049207, Nat.add_sub_cancel, A049207.P14171469918483067789.a, A049207.P6650206018968943836.a, A003991, A003991.P6365127437582401781.a, A004247, A004247.P2751605162508615148.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

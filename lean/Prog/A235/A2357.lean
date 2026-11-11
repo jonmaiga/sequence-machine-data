@@ -12,7 +12,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -50,6 +49,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -8963,6 +8963,21 @@ end
 
 end A235795.P17194987499888344510
 
+/-! ## A235795.P11043669844311539753
+
+`A254078(n+2)%A245943(n+1)`
+-/
+
+namespace A235795.P11043669844311539753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A254078 (n + 2)) (A245943 (n + 1))
+
+end
+
+end A235795.P11043669844311539753
+
 /-!
 # A235796: 2*n - 1 - sigma(n).
 
@@ -9506,30 +9521,30 @@ theorem P10727484668699183617.correct : P10727484668699183617.Spec := by
 
 end A235796
 
-/-! ## A235796.P17271355691092489843
+/-! ## A235796.P465086595249497655
 
-`n+1-(A000203(n+1)-n)`
+`n+1-A000203(n+1)+n`
 -/
 
-namespace A235796.P17271355691092489843
+namespace A235796.P465086595249497655
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) - (A000203 (n + 1) - (n : ℤ))
+  (n + 1 : ℤ) - A000203 (n + 1) + (n : ℤ)
 
 end
 
-end A235796.P17271355691092489843
+end A235796.P465086595249497655
 
 namespace A235796
 
-/-- `n+1-(A000203(n+1)-n)` -/
-def P17271355691092489843.Spec : Prop :=
-  ∀ n, P17271355691092489843.a n = A235796 (n + 1)
+/-- `n+1-A000203(n+1)+n` -/
+def P465086595249497655.Spec : Prop :=
+  ∀ n, P465086595249497655.a n = A235796 (n + 1)
 
-theorem P17271355691092489843.correct : P17271355691092489843.Spec := by
+theorem P465086595249497655.correct : P465086595249497655.Spec := by
   intro n
-  simp only [A235796, Nat.add_sub_cancel, A235796.P17271355691092489843.a, A235796.P5769590272751401819.a, SequenceMachineLib.memo_apply]
+  simp only [A235796, Nat.add_sub_cancel, A235796.P465086595249497655.a, A235796.P5769590272751401819.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 

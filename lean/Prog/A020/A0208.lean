@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -3391,6 +3390,29 @@ def P7057234079302940522.Spec : Prop :=
 
 end A020875
 
+/-! ## A020875.P14768034381744098611
+
+`A005843(n)+A000982(n)*A005843(n)`
+-/
+
+namespace A020875.P14768034381744098611
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 n + A000982 n * A005843 n
+
+end
+
+end A020875.P14768034381744098611
+
+namespace A020875
+
+/-- `A005843(n)+A000982(n)*A005843(n)` -/
+def P14768034381744098611.Spec : Prop :=
+  ∀ n, P14768034381744098611.a n = A020875 n
+
+end A020875
+
 /-!
 # A020876: a(n) = ((5+sqrt(5))/2)^n + ((5-sqrt(5))/2)^n.
 
@@ -3764,6 +3786,32 @@ namespace A020876
 /-- `A260304(n+3)/5` -/
 def P15698792659670744113.Spec : Prop :=
   ∀ n, P15698792659670744113.a n = (A020876 n : ℚ)
+
+end A020876
+
+/-! ## A020876.P4900867775980333579
+
+`5^n/2^(n-1)*∑{#}[floor(n/2), 1/5^#*C(n, 2*#)]`
+-/
+
+namespace A020876.P4900867775980333579
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 ^ n : ℚ) / (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, 1 / (5 ^ k : ℚ) * (Nat.choose n (2 * k) : ℚ))
+
+end
+
+end A020876.P4900867775980333579
+
+namespace A020876
+
+/-- `5^n/2^(n-1)*∑{#}[floor(n/2), 1/5^#*C(n, 2*#)]` -/
+def P4900867775980333579.Spec : Prop :=
+  ∀ n, P4900867775980333579.a n = (A020876 n : ℚ)
 
 end A020876
 
@@ -6743,6 +6791,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020892.P8925306042635356870
+
+/-! ## A020892.P5522665489460860002
+
+`A116447(A020891(n+1))`
+-/
+
+namespace A020892.P5522665489460860002
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116447 (A020891 (n + 1)).toNat
+
+end
+
+end A020892.P5522665489460860002
 
 /-!
 # A020893: Squarefree sums of two squares; or squarefree numbers with no prime factors of the form 4k+3.

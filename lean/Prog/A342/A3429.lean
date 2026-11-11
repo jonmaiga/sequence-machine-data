@@ -23,7 +23,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -37,7 +36,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
@@ -53,7 +51,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -7556,21 +7553,6 @@ end
 
 end A342954.P1904351166267830172
 
-/-! ## A342954.P2018592289258283321
-
-`A250120(n)-A087295(A265065(n))`
--/
-
-namespace A342954.P2018592289258283321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A250120 n - A087295 (A265065 n).toNat
-
-end
-
-end A342954.P2018592289258283321
-
 /-! ## A342954.P15510368869347759640
 
 `∑[A058063(∑[3^n])+1]`
@@ -9300,21 +9282,6 @@ end
 
 end A342978.P18275904782150718549
 
-/-! ## A342978.P1487381283815645175
-
-`A087052(A062388(A179987(A062388(A108971(n+1)))))`
--/
-
-namespace A342978.P1487381283815645175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087052 (A062388 (A179987 (A062388 (A108971 (n + 1)).toNat).toNat).toNat).toNat
-
-end
-
-end A342978.P1487381283815645175
-
 /-! ## A342978.P4501636279077407015
 
 `A342829(A062998(A062998(A051885(A051885(n+1)))))`
@@ -9362,6 +9329,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A342978.P4358593351400713404
+
+/-! ## A342978.P1740786575321545276
+
+`A271569(a(n-1)+2)` with `a(0)=1`
+-/
+
+namespace A342978.P1740786575321545276
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A271569 (a (n - 1) + 2).toNat
+
+end
+
+end A342978.P1740786575321545276
 
 /-!
 # A342979: a(1) = 2. For n > 1, a(n) is the smallest prime p > a(n-1) such that a(n-1) + p is a 4-almost prime (A014613).

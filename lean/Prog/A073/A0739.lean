@@ -26,8 +26,9 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
@@ -3825,6 +3826,21 @@ end
 
 end A073946.P2783759401244856797
 
+/-! ## A073946.P1183197618773607785
+
+`A000290(A113944(n+1))`
+-/
+
+namespace A073946.P1183197618773607785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A113944 (n + 1)).toNat
+
+end
+
+end A073946.P1183197618773607785
+
 /-! ## A073946.P8686275891475781541
 
 `record[A113944(A134478(n))²]`
@@ -3893,21 +3909,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073946.P248148509423300875
-
-/-! ## A073946.P14024004343386008065
-
-`A000290(A113944(ϕ²-(ϕ-n)))`
--/
-
-namespace A073946.P14024004343386008065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A113944 (SequenceMachineLib.roundAway (Real.goldenRatio ^ 2 - (Real.goldenRatio - (n : ℝ)))).toNat).toNat
-
-end
-
-end A073946.P14024004343386008065
 
 /-! ## A073946.P16605498334809406293
 

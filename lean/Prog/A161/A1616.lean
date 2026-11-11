@@ -9237,28 +9237,6 @@ end A161664
 The programs for A161665, there is no canonical definition to state claims against.
 -/
 
-/-! ## A161665.P8506042657561799066
-
-`∩[A034847(n+1), A337803(n+1)]`
--/
-
-namespace A161665.P8506042657561799066
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034847 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337803 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A161665.P8506042657561799066
-
 /-! ## A161665.P11894892976952199462
 
 `∩[A034847(n+1), A158290(n+1)]`

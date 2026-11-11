@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
@@ -4415,26 +4416,26 @@ end
 
 end A375734.P390129092155166519
 
-/-! ## A375734.P10486890787809603546
+/-! ## A375734.P12248837481538677866
 
-`eq[A057820(n+1), A168185(n)]`
+`eq[A022932(n), A057820(n+1)]`
 -/
 
-namespace A375734.P10486890787809603546
+namespace A375734.P12248837481538677866
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057820 (n + 1)
+  A022932 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168185 n
+  A057820 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A375734.P10486890787809603546
+end A375734.P12248837481538677866
 
 /-!
 # A375735: First differences of non-prime-powers (inclusive).

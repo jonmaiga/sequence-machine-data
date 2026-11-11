@@ -8712,6 +8712,21 @@ end A319394.P1207898416102472155
 The programs for A319395, there is no canonical definition to state claims against.
 -/
 
+/-! ## A319395.P16961562732894730965
+
+`A359511(n)-A010056(n)`
+-/
+
+namespace A319395.P16961562732894730965
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359511 n - A010056 n
+
+end
+
+end A319395.P16961562732894730965
+
 /-! ## A319395.P10609644974249420689
 
 `ceil(A121549(A028310(n))/2)`
@@ -8983,6 +8998,21 @@ end A319395.P15177585072982614840
 The programs for A319396, there is no canonical definition to state claims against.
 -/
 
+/-! ## A319396.P17402589214270784591
+
+`A359512(n)-A359511(n)`
+-/
+
+namespace A319396.P17402589214270784591
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359512 n - A359511 n
+
+end
+
+end A319396.P17402589214270784591
+
 /-! ## A319396.P2333364495012899579
 
 `A319394(A152950(1+char[1]+n))`
@@ -9203,6 +9233,21 @@ end A319396.P7780562724416257030
 
 The programs for A319397, there is no canonical definition to state claims against.
 -/
+
+/-! ## A319397.P17043973571651203441
+
+`A359513(n)-A359512(n)`
+-/
+
+namespace A319397.P17043973571651203441
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359513 n - A359512 n
+
+end
+
+end A319397.P17043973571651203441
 
 /-! ## A319397.P12677694021524658152
 

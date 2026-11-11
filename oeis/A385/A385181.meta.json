@@ -2,14 +2,16 @@
   "description": "Number of disconnected cubic symmetric graphs on 2n vertices.",
   "id": "A385181",
   "mentions": [
-    "A059282"
+    "A059282",
+    "A398179"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 85,
-    "source": "oeis-entry"
+    "size": 86,
+    "source": "oeis-bfile"
   }
 }

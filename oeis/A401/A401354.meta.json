@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic abelian doppelsemigroups of order n.",
+  "id": "A401354",
+  "mentions": [
+    "A001426",
+    "A027851",
+    "A383885",
+    "A399676",
+    "A399678",
+    "A399679",
+    "A401298"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

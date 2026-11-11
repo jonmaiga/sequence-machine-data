@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -103,7 +104,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -9026,21 +9026,6 @@ end
 
 end A171761.P1640930484029541183
 
-/-! ## A171761.P607845534748600972
-
-`A389513(A291988(n))`
--/
-
-namespace A171761.P607845534748600972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389513 (A291988 n).toNat
-
-end
-
-end A171761.P607845534748600972
-
 /-!
 # A171762: a(n) = Sum_{k=n^2+1..(n+1)^2-1} tau(k).
 
@@ -10435,6 +10420,29 @@ namespace A171765
 /-- `A230099(n)%A028310(n)` -/
 def P15674674213743382837.Spec : Prop :=
   ∀ n, P15674674213743382837.a n = A171765 n
+
+end A171765
+
+/-! ## A171765.P8660454612222182550
+
+`A302801(n)%A028310(n)`
+-/
+
+namespace A171765.P8660454612222182550
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A302801 n) (A028310 n)
+
+end
+
+end A171765.P8660454612222182550
+
+namespace A171765
+
+/-- `A302801(n)%A028310(n)` -/
+def P8660454612222182550.Spec : Prop :=
+  ∀ n, P8660454612222182550.a n = A171765 n
 
 end A171765
 

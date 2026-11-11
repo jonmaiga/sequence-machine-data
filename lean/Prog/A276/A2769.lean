@@ -2193,6 +2193,32 @@ def P698038495978519919.Spec : Prop :=
 
 end A276918
 
+/-! ## A276918.P331278014893053171
+
+`1+∑{#}[n-ceil((n+1)/2), 2^(n+1-#)]`
+-/
+
+namespace A276918.P331278014893053171
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ⌈(n + 1 : ℚ) / 2⌉
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A276918.P331278014893053171
+
+namespace A276918
+
+/-- `1+∑{#}[n-ceil((n+1)/2), 2^(n+1-#)]` -/
+def P331278014893053171.Spec : Prop :=
+  ∀ n, P331278014893053171.a n = (A276918 n : ℚ)
+
+end A276918
+
 /-! ## A276918.P2859850774560592054
 
 `A208901(n+2)+1`
@@ -2544,29 +2570,6 @@ namespace A276918
 /-- `A122746(n+1)+1-A060546(n+1)` -/
 def P3503697830375941875.Spec : Prop :=
   ∀ n, P3503697830375941875.a n = A276918 n
-
-end A276918
-
-/-! ## A276918.P9348162206706316568
-
-`A027556(n)+A014236(n)+A000225(n+1)`
--/
-
-namespace A276918.P9348162206706316568
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027556 n + A014236 n + A000225 (n + 1)
-
-end
-
-end A276918.P9348162206706316568
-
-namespace A276918
-
-/-- `A027556(n)+A014236(n)+A000225(n+1)` -/
-def P9348162206706316568.Spec : Prop :=
-  ∀ n, P9348162206706316568.a n = A276918 n
 
 end A276918
 
@@ -7009,6 +7012,21 @@ end
 
 end A276945.P2318159887062272726
 
+/-! ## A276945.P11966789666882845804
+
+`A351576(A276955(n+1))`
+-/
+
+namespace A276945.P11966789666882845804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351576 (A276955 (n + 1)).toNat
+
+end
+
+end A276945.P11966789666882845804
+
 /-!
 # A276946: Inverse permutation to A276945.
 
@@ -9860,6 +9878,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A276955.P14813554632151125915
+
+/-! ## A276955.P3305678856254138967
+
+`A225901(A225901(A276953(A276956(A276953(n+1)))))`
+-/
+
+namespace A276955.P3305678856254138967
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225901 (A225901 (A276953 (A276956 (A276953 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A276955.P3305678856254138967
 
 /-!
 # A276956: Inverse permutation to A276955.

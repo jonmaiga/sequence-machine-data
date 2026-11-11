@@ -57,6 +57,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5197,23 +5198,29 @@ end A368571.P15575101063064946461
 /-!
 # A368572: Number of refactorable numbers less than n that do not divide n.
 
-The programs for A368572, there is no canonical definition to state claims against.
+The programs for A368572, the canonical program `A368572.P10220559046429390353` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368572 has offset 1).
+
+The definition of A368572 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A368572.P10220559046429390353
 
 `A208251(1+n)-A336041(n+1)`
+
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
-namespace A368572.P10220559046429390353
-noncomputable section
+namespace A368572
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208251 (1 + n) - A336041 (n + 1)
+/-- `A208251(1+n)-A336041(n+1)` -/
+def P10220559046429390353.Spec : Prop :=
+  ∀ n, P10220559046429390353.a n = A368572 (n + 1)
 
-end
+theorem P10220559046429390353.correct : P10220559046429390353.Spec := by
+  intro n
+  simp only [A368572, Nat.add_sub_cancel]
 
-end A368572.P10220559046429390353
+end A368572
 
 /-! ## A368572.P10115407765977027940
 
@@ -5233,6 +5240,14 @@ end
 
 end A368572.P10115407765977027940
 
+namespace A368572
+
+/-- `∑[A336040(n+1)]-A336041(n+1)` -/
+def P10115407765977027940.Spec : Prop :=
+  ∀ n, P10115407765977027940.a n = A368572 (n + 1)
+
+end A368572
+
 /-! ## A368572.P3005511034003320557
 
 `A208251(n+1)-∑{d}[n+1, A336040(#)]`
@@ -5250,6 +5265,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368572.P3005511034003320557
+
+namespace A368572
+
+/-- `A208251(n+1)-∑{d}[n+1, A336040(#)]` -/
+def P3005511034003320557.Spec : Prop :=
+  ∀ n, P3005511034003320557.a n = A368572 (n + 1)
+
+end A368572
 
 /-! ## A368572.P16071520865107294964
 
@@ -5269,6 +5292,14 @@ end
 
 end A368572.P16071520865107294964
 
+namespace A368572
+
+/-- `∑[1-A368625(n+1)]-A336041(n+1)` -/
+def P16071520865107294964.Spec : Prop :=
+  ∀ n, P16071520865107294964.a n = A368572 (n + 1)
+
+end A368572
+
 /-! ## A368572.P7547542059220103909
 
 `∑[floor(1/A298734(n+1))]-A336041(n+1)`
@@ -5286,6 +5317,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368572.P7547542059220103909
+
+namespace A368572
+
+/-- `∑[floor(1/A298734(n+1))]-A336041(n+1)` -/
+def P7547542059220103909.Spec : Prop :=
+  ∀ n, P7547542059220103909.a n = A368572 (n + 1)
+
+end A368572
 
 /-! ## A368572.P17910071753261138875
 
@@ -5309,6 +5348,14 @@ end
 
 end A368572.P17910071753261138875
 
+namespace A368572
+
+/-- `∑[char[A033950(n+1)-1]]-A336041(n+1)` -/
+def P17910071753261138875.Spec : Prop :=
+  ∀ n, P17910071753261138875.a n = A368572 (n + 1)
+
+end A368572
+
 /-! ## A368572.P280607224752124199
 
 `∑[1-A368625(n+1)]-∑{d}[n+1, A336040(#)]`
@@ -5330,6 +5377,14 @@ end
 
 end A368572.P280607224752124199
 
+namespace A368572
+
+/-- `∑[1-A368625(n+1)]-∑{d}[n+1, A336040(#)]` -/
+def P280607224752124199.Spec : Prop :=
+  ∀ n, P280607224752124199.a n = A368572 (n + 1)
+
+end A368572
+
 /-! ## A368572.P3309346267748509434
 
 `∑[A063524(A124332(n+1))]-A336041(n+1)`
@@ -5348,6 +5403,14 @@ end
 
 end A368572.P3309346267748509434
 
+namespace A368572
+
+/-- `∑[A063524(A124332(n+1))]-A336041(n+1)` -/
+def P3309346267748509434.Spec : Prop :=
+  ∀ n, P3309346267748509434.a n = A368572 (n + 1)
+
+end A368572
+
 /-! ## A368572.P14549882799927759190
 
 `A208251(n+1)-(A323307(A000040(n+1))-A349658(n+1))`
@@ -5362,6 +5425,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368572.P14549882799927759190
+
+namespace A368572
+
+/-- `A208251(n+1)-(A323307(A000040(n+1))-A349658(n+1))` -/
+def P14549882799927759190.Spec : Prop :=
+  ∀ n, P14549882799927759190.a n = A368572 (n + 1)
+
+end A368572
 
 /-!
 # A368573: a(n) = Sum_{k=0..n} k! * k^k.

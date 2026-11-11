@@ -3,6 +3,7 @@
   "id": "A120402",
   "mentions": [
     "A103828",
+    "A113875",
     "A119751",
     "A119752",
     "A119753",
@@ -10,12 +11,13 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

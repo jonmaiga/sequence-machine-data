@@ -30,7 +30,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
@@ -5383,24 +5383,6 @@ end A179359.P6845625297840585669
 
 The programs for A179360, there is no canonical definition to state claims against.
 -/
-
-/-! ## A179360.P6745779394871496606
-
-`∏[ceil(log2(A323395(n)))]`
--/
-
-namespace A179360.P6745779394871496606
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.logb 2 (A323395 n : ℝ)⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A179360.P6745779394871496606
 
 /-! ## A179360.P6947379083227864797
 

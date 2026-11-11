@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sigma(n) - tau(m) where m is the largest odd divisor of positive integer n, sigma = A000203 and tau = A000005.",
+  "id": "A400210",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001227",
+    "A086670"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

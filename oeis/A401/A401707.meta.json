@@ -1,0 +1,21 @@
+{
+  "description": "The largest unitary divisor d of n with gcd(d, sigma(d)) = 1.",
+  "id": "A401707",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A105402",
+    "A401704",
+    "A401705",
+    "A401708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

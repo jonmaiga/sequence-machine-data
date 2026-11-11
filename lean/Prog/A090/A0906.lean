@@ -39,7 +39,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -699,6 +699,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090606.P16257468430473248554
+
+/-! ## A090606.P2419903091507684457
+
+`A377505(A089144(n+1))`
+-/
+
+namespace A090606.P2419903091507684457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A089144 (n + 1)).toNat
+
+end
+
+end A090606.P2419903091507684457
 
 /-! ## A090606.P6575342259101780190
 
@@ -8782,7 +8797,7 @@ end
 end A090654.P9597939426506382106
 
 /-!
-# A090657: Triangle read by rows: T(n,k) = number of functions from [1,2,...,n] to [1,2,...,n] such that the image contains exactly k elements (0<=k<=n).
+# A090657: Triangle read by rows: T(n,k) = number of functions from {1,2,...,n} to {1,2,...,n} such that the image contains exactly k elements (0<=k<=n).
 
 The programs for A090657, the canonical program `A090657.P890043779219993431` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090657 has offset 0).
 
@@ -11303,6 +11318,32 @@ def P11307631792276320762.Spec : Prop :=
 
 end A090672
 
+/-! ## A090672.P16495962242144167701
+
+`∑{#}[n, #*(#+1)*n!]`
+-/
+
+namespace A090672.P16495962242144167701
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), k * (k + 1) * Nat.factorial n
+
+end
+
+end A090672.P16495962242144167701
+
+namespace A090672
+
+/-- `∑{#}[n, #*(#+1)*n!]` -/
+def P16495962242144167701.Spec : Prop :=
+  ∀ n, (P16495962242144167701.a n : ℤ) = A090672 (n + 1)
+
+end A090672
+
 /-! ## A090672.P14171682846137940227
 
 `lcm(2*n!*∑[∑[n]], n!)`
@@ -11377,31 +11418,6 @@ namespace A090672
 /-- `floor(n*(a(n-1)+(n+1)!))` -/
 def P18010818009113911841.Spec : Prop :=
   ∀ n, (P18010818009113911841.a n : ℤ) = A090672 (n + 1)
-
-end A090672
-
-/-! ## A090672.P15177971149237592897
-
-`ceil(n*(a(n-1)+(n+1)!))` with `a(0)=0`
-
-`ceil` is left out, it is the identity on integers.
--/
-
-namespace A090672.P15177971149237592897
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  n * (a (n - 1) + Nat.factorial (n + 1))
-
-end
-
-end A090672.P15177971149237592897
-
-namespace A090672
-
-/-- `ceil(n*(a(n-1)+(n+1)!))` -/
-def P15177971149237592897.Spec : Prop :=
-  ∀ n, (P15177971149237592897.a n : ℤ) = A090672 (n + 1)
 
 end A090672
 

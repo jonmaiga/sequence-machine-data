@@ -23,6 +23,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -4089,20 +4090,20 @@ end
 
 end A067143.P11611819693908915144
 
-/-! ## A067143.P8170845308630810495
+/-! ## A067143.P2232817955136421998
 
-`(A266268(n+1)+A172314(n+1))%A268126(n+1)`
+`A185048(A266268(n+1))`
 -/
 
-namespace A067143.P8170845308630810495
+namespace A067143.P2232817955136421998
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A266268 (n + 1) + A172314 (n + 1)) (A268126 (n + 1))
+  A185048 (A266268 (n + 1)).toNat
 
 end
 
-end A067143.P8170845308630810495
+end A067143.P2232817955136421998
 
 /-!
 # A067144: Numbers k such that sigma(phi(k)) == 0 (mod k).

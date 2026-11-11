@@ -48,7 +48,6 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -1572,21 +1571,6 @@ end
 
 end A147032.P12015987783705781187
 
-/-! ## A147032.P2135355788539036041
-
-`A302798(A147433(n+1))`
--/
-
-namespace A147032.P2135355788539036041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302798 (A147433 (n + 1)).toNat
-
-end
-
-end A147032.P2135355788539036041
-
 /-! ## A147032.P5536856558338537606
 
 `A101435(A147433(n+1))+A004526(A146876(n+1))`
@@ -2650,21 +2634,6 @@ end A147051.P16920845503834808182
 
 The programs for A147052, there is no canonical definition to state claims against.
 -/
-
-/-! ## A147052.P18238320701558339363
-
-`A147132(n+1)-A241470(A023422(n))`
--/
-
-namespace A147052.P18238320701558339363
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147132 (n + 1) - A241470 (A023422 n).toNat
-
-end
-
-end A147052.P18238320701558339363
 
 /-! ## A147052.P562685095620504441
 

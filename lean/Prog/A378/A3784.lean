@@ -20,7 +20,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -30,6 +30,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
@@ -3025,6 +3026,50 @@ end
 
 end A378441.P17836923243258938693
 
+/-! ## A378441.P7816608315631104886
+
+`∩[A076487(n+1), A306013(n+1)]`
+-/
+
+namespace A378441.P7816608315631104886
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076487 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306013 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A378441.P7816608315631104886
+
+/-! ## A378441.P1072498875018687704
+
+`∩[A261466(n+1), A348284(n+1)]`
+-/
+
+namespace A378441.P1072498875018687704
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261466 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348284 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A378441.P1072498875018687704
+
 /-!
 # A378442: Characteristic function of stable numbers: a(n) = 1 if the distinct prime indices of n are pairwise indivisible, otherwise 0.
 
@@ -3610,6 +3655,21 @@ end
 
 end A378446.P14259820219440886374
 
+/-! ## A378446.P7386264685662778319
+
+`A400943(A113196(n+1))`
+-/
+
+namespace A378446.P7386264685662778319
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400943 (A113196 (n + 1)).toNat
+
+end
+
+end A378446.P7386264685662778319
+
 /-! ## A378446.P2519313162623027019
 
 `A102444(n+1)%A308608(n+1)`
@@ -3624,21 +3684,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A378446.P2519313162623027019
-
-/-! ## A378446.P16497514941017551615
-
-`A248074(n+1)%A308608(n+1)`
--/
-
-namespace A378446.P16497514941017551615
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A248074 (n + 1)) (A308608 (n + 1))
-
-end
-
-end A378446.P16497514941017551615
 
 /-!
 # A378447: Difference between {the number of distinct sums of distinct divisors of n} and {the number of distinct sums of distinct proper divisors of n}.
@@ -3768,6 +3813,27 @@ end A378447.P10476161884013553854
 
 The programs for A378448, there is no canonical definition to state claims against.
 -/
+
+/-! ## A378448.P11521047756043929800
+
+`Δ[fp[A064771(n+1)]]`
+-/
+
+namespace A378448.P11521047756043929800
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064771 (n + 1)
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f2 j) 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A378448.P11521047756043929800
 
 /-! ## A378448.P11806295226974052198
 

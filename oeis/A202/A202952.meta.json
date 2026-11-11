@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = A108235(n)-A202951(n).",
+  "description": "a(n) = A108235(n) - A004075(n).",
   "id": "A202952",
   "mentions": [
+    "A004075",
     "A104429",
     "A108235",
     "A202951"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

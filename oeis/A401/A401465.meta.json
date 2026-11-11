@@ -1,0 +1,32 @@
+{
+  "description": "Number of fixed polyforms with n cells in the honeycomb of the 38-faced Voronoi cell of the point (427/6984, 761/6984, 1421/6984) under space group I4_132 (No. 214), one of Engel's 38-faced stereohedra.",
+  "id": "A401465",
+  "mentions": [
+    "A385028",
+    "A385276",
+    "A397707",
+    "A397709",
+    "A398957",
+    "A398958",
+    "A398959",
+    "A400457",
+    "A400461",
+    "A401255",
+    "A401259",
+    "A401447",
+    "A401448",
+    "A401463",
+    "A401464",
+    "A401466"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

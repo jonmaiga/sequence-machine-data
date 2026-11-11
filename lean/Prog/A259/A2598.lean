@@ -1654,6 +1654,35 @@ def P8800799765845126969.Spec : Prop :=
 
 end A259826
 
+/-! ## A259826.P17064264950730045683
+
+`A120382(n+1)+A120382(n+1)+A120382(n+1)`
+-/
+
+namespace A259826.P17064264950730045683
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120382 (n + 1) + A120382 (n + 1) + A120382 (n + 1)
+
+end
+
+end A259826.P17064264950730045683
+
+namespace A259826
+
+/-- `A120382(n+1)+A120382(n+1)+A120382(n+1)` -/
+def P17064264950730045683.Spec : Prop :=
+  ∀ n, P17064264950730045683.a n = A259826 (n + 1)
+
+theorem P17064264950730045683.correct : P17064264950730045683.Spec := by
+  intro n
+  simp only [A259826, Nat.add_sub_cancel, A259826.P17064264950730045683.a, A259826.P6433926168437489858.a, A060461, A060461.P4460280384859253475.f1, A060461.P4460280384859253475.f2, A060461.P4460280384859253475.a, A120382, A120382.P11282506073447857493.a, A161996, A161996.P3418427153135750794.f1, A161996.P3418427153135750794.a, A000045, A000045.P11838749114346432762.a, A100637, A100637.P13819822131188342482.a, A075743, A075743.P8124416718606607743.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A259826
+
 /-! ## A259826.P5196748859399131980
 
 `6*A171696(2+n)`
@@ -2097,36 +2126,6 @@ namespace A259826
 /-- `∩[A061673(n+1), A319451(n)]` -/
 def P2347883763060324348.Spec : Prop :=
   ∀ n, (P2347883763060324348.a n : ℤ) = A259826 (n + 1)
-
-end A259826
-
-/-! ## A259826.P15562851079140172074
-
-`∩[A061673(n+1), A230628(n+1)]`
--/
-
-namespace A259826.P15562851079140172074
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061673 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A230628 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A259826.P15562851079140172074
-
-namespace A259826
-
-/-- `∩[A061673(n+1), A230628(n+1)]` -/
-def P15562851079140172074.Spec : Prop :=
-  ∀ n, (P15562851079140172074.a n : ℤ) = A259826 (n + 1)
 
 end A259826
 

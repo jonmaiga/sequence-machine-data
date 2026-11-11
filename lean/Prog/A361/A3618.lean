@@ -19,7 +19,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -49,6 +48,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -139,6 +139,24 @@ end
 
 end A361801.P18360171137262126926
 
+/-! ## A361801.P477400891892813826
+
+`∑{#}[floor(n/2)-1, C(2*#+1, #)]`
+-/
+
+namespace A361801.P477400891892813826
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋ - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (2 * k + 1) k
+
+end
+
+end A361801.P477400891892813826
+
 /-! ## A361801.P5678243901403766070
 
 `A332754(or(1, n))`
@@ -168,21 +186,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361801.P7980647456356855280
-
-/-! ## A361801.P8748866412104011069
-
-`A191790(and(n, -2))`
--/
-
-namespace A361801.P8748866412104011069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191790 (Int.land (n : ℤ) (-2)).toNat
-
-end
-
-end A361801.P8748866412104011069
 
 /-!
 # A361802: Irregular triangle read by rows where T(n,k) is the number of k-subsets of {-n+1,...,n} with sum 0, for k = 1,...,2n-1.
@@ -660,6 +663,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A361809.P13342016750801915268
+
+/-! ## A361809.P6261705603222531259
+
+`A036374(A036370(A036419(n)))+n`
+-/
+
+namespace A361809.P6261705603222531259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036374 (A036370 (A036419 n).toNat).toNat + (n : ℤ)
+
+end
+
+end A361809.P6261705603222531259
 
 /-!
 # A361811: Smallest members of infinitary sociable quadruples.
@@ -3081,6 +3099,21 @@ end
 
 end A361838.P6824644538792653616
 
+/-! ## A361838.P9301200714866071046
+
+`A061775(A052330(n+1))-1`
+-/
+
+namespace A361838.P9301200714866071046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061775 (A052330 (n + 1)).toNat - 1
+
+end
+
+end A361838.P9301200714866071046
+
 /-! ## A361838.P3609674581230547968
 
 `A033922(A062880(n+1))`
@@ -3170,21 +3203,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361838.P884805441709966608
-
-/-! ## A361838.P16609662040485731058
-
-`A346236(A104735(n+1))+A091222(A339821(n+1))`
--/
-
-namespace A361838.P16609662040485731058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346236 (A104735 (n + 1)).toNat + A091222 (A339821 (n + 1)).toNat
-
-end
-
-end A361838.P16609662040485731058
 
 /-!
 # A361841: Expansion of 1/(1 - 9*x*(1+x)^2)^(1/3).

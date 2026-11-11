@@ -11,7 +11,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C022
 import Seq.B000.C025
@@ -58,6 +57,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -878,6 +878,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A009421.P1749435128791696687
+
+/-! ## A009421.P9917676731441624784
+
+`A270437(A061341(n+1))`
+-/
+
+namespace A009421.P9917676731441624784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270437 (A061341 (n + 1)).toNat
+
+end
+
+end A009421.P9917676731441624784
 
 /-!
 # A009422: Expansion of log(1+x)*log(1+tan(x)).

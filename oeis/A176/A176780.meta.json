@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = n^4 + 6n^3 + 14n^2 + 15n + 6.",
+  "description": "a(n) = n^4 + 6*n^3 + 14*n^2 + 15*n + 6.",
   "id": "A176780",
   "mentions": [
+    "A002061",
+    "A002378",
     "A006325",
     "A061804",
     "A082986",
@@ -16,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 37,
     "source": "joeis"
   }
 }

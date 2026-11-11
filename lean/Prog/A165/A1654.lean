@@ -23,7 +23,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -34,7 +33,7 @@ import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B001.C000
@@ -5930,6 +5929,36 @@ end
 
 end A165454.P4719329917567686848
 
+/-! ## A165454.P9043132763307806007
+
+`A056926(A112474(n+1))`
+-/
+
+namespace A165454.P9043132763307806007
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A112474 (n + 1)).toNat
+
+end
+
+end A165454.P9043132763307806007
+
+/-! ## A165454.P14758563690688555225
+
+`A018851(A112474(n+1))`
+-/
+
+namespace A165454.P14758563690688555225
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018851 (A112474 (n + 1)).toNat
+
+end
+
+end A165454.P14758563690688555225
+
 /-! ## A165454.P5409500136841399156
 
 `lt[0, A025469(n²)]`
@@ -5950,45 +5979,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A165454.P5409500136841399156
-
-/-! ## A165454.P3003894390302883672
-
-`eq[1, A025469(A000290(n))]`
--/
-
-namespace A165454.P3003894390302883672
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025469 (A000290 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A165454.P3003894390302883672
-
-/-! ## A165454.P4884810602499319128
-
-`filter[A060000(n+1), A025469(#²)]`
--/
-
-namespace A165454.P4884810602499319128
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060000 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A025469 (f1 j ^ 2).toNat = 1) n)
-
-end
-
-end A165454.P4884810602499319128
 
 /-!
 # A165455: Primes p such that p^2 is a sum of three distinct positive cubes.

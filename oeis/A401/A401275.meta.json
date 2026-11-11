@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that q, the reversal of the decimal digits of p, is prime, q > p, and both p*q and p^3+q^3 are decimal palindromes.",
+  "id": "A401275",
+  "mentions": [
+    "A020449",
+    "A085315",
+    "A155513",
+    "A161721"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

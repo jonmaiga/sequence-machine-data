@@ -32,6 +32,7 @@ import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
@@ -3512,91 +3513,40 @@ end
 end A268536.P2712551863247153915
 
 /-!
-# A268537: Number of Skolem sequences of order n, as n runs through the positive integers congruent to 0 and 1 mod 4.
+# A268537: Number of Skolem sequences of order n, as n runs through the nonnegative integers congruent to 0 and 1 mod 4.
 
 The programs for A268537, there is no canonical definition to state claims against.
 -/
 
-/-! ## A268537.P7195676306558574342
+/-! ## A268537.P5347662723739060091
 
-`A004075(2*(n+1)-(n+1)%2)`
+`A004075(2*n-n%2)`
 -/
 
-namespace A268537.P7195676306558574342
+namespace A268537.P5347662723739060091
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (2 * (n + 1) - (n + 1) % 2)
+  A004075 (2 * n - n % 2)
 
 end
 
-end A268537.P7195676306558574342
+end A268537.P5347662723739060091
 
-/-! ## A268537.P10072951999234682270
+/-! ## A268537.P13777595855683020653
 
-`A004075(A042948(n+1))`
+`A004075(A042948(n))`
 -/
 
-namespace A268537.P10072951999234682270
+namespace A268537.P13777595855683020653
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A042948 (n + 1)).toNat
+  A004075 (A042948 n).toNat
 
 end
 
-end A268537.P10072951999234682270
-
-/-! ## A268537.P4679315256157307653
-
-`record[A004075(1+n)]`
--/
-
-namespace A268537.P4679315256157307653
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (1 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A268537.P4679315256157307653
-
-/-! ## A268537.P15032935738173004101
-
-`A004075(∑[A010684(n)])`
--/
-
-namespace A268537.P15032935738173004101
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010684 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A268537.P15032935738173004101
-
-/-! ## A268537.P7781086919144589445
-
-`A004075(A014601(n)+1)`
--/
-
-namespace A268537.P7781086919144589445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A014601 n + 1).toNat
-
-end
-
-end A268537.P7781086919144589445
+end A268537.P13777595855683020653
 
 /-!
 # A268538: a(n) is the n-th prime 3-dimensional Catalan number.
@@ -4521,6 +4471,32 @@ theorem P5408913063751888289.correct : P5408913063751888289.Spec := by
 
 end A268545
 
+/-! ## A268545.P16428057961613507151
+
+`C(2*n, n)*∑{#}[n, C(2*n+#, #)*C(2*n, n+#)]`
+-/
+
+namespace A268545.P16428057961613507151
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n * (∑ k ∈ Finset.range (f1 n + 1), Nat.choose (2 * n + k) k * Nat.choose (2 * n) (n + k))
+
+end
+
+end A268545.P16428057961613507151
+
+namespace A268545
+
+/-- `C(2*n, n)*∑{#}[n, C(2*n+#, #)*C(2*n, n+#)]` -/
+def P16428057961613507151.Spec : Prop :=
+  ∀ n, (P16428057961613507151.a n : ℤ) = A268545 n
+
+end A268545
+
 /-! ## A268545.P5641197724446723142
 
 `A000984(n)*A026000(n)`
@@ -4711,29 +4687,6 @@ namespace A268545
 /-- `A000984(n)*A056242(A001844(n))` -/
 def P6424361328916810724.Spec : Prop :=
   ∀ n, P6424361328916810724.a n = A268545 n
-
-end A268545
-
-/-! ## A268545.P15767827657357157972
-
-`A007318(A046092(n))*A026000(n)`
--/
-
-namespace A268545.P15767827657357157972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A046092 n).toNat * A026000 n
-
-end
-
-end A268545.P15767827657357157972
-
-namespace A268545
-
-/-- `A007318(A046092(n))*A026000(n)` -/
-def P15767827657357157972.Spec : Prop :=
-  ∀ n, P15767827657357157972.a n = A268545 n
 
 end A268545
 

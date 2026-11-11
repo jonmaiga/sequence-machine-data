@@ -6210,21 +6210,6 @@ end
 
 end A339661.P17242006043598707116
 
-/-! ## A339661.P536670569499898761
-
-`and(A303707(A057567(n+1)), A322075(n+1))`
--/
-
-namespace A339661.P536670569499898761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A303707 (A057567 (n + 1)).toNat) (A322075 (n + 1))
-
-end
-
-end A339661.P536670569499898761
-
 /-! ## A339661.P16035199403485935350
 
 `abs(A349920((n+1)²))`
@@ -6239,6 +6224,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A339661.P16035199403485935350
+
+/-! ## A339661.P13683389130201651670
+
+`A349920(∑[2*n+1])²`
+-/
+
+namespace A339661.P13683389130201651670
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349920 (∑ j ∈ Finset.range (n + 1), f1 j) ^ 2
+
+end
+
+end A339661.P13683389130201651670
 
 /-!
 # A339662: Greatest gap in the partition with Heinz number n.

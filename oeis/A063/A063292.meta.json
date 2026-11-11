@@ -1,8 +1,11 @@
 {
   "description": "Dimension of the space of weight n cuspidal newforms for Gamma_1( 19 ).",
   "id": "A063292",
-  "mentions": [],
+  "mentions": [
+    "A063276"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

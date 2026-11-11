@@ -32,6 +32,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
@@ -10222,20 +10223,20 @@ end
 
 end A180080.P17302809362961396978
 
-/-! ## A180080.P13300579099037595128
+/-! ## A180080.P8326381127346814485
 
-`A010442(A263132(n+1))`
+`A180077(A180078(A180081(n+1)))`
 -/
 
-namespace A180080.P13300579099037595128
+namespace A180080.P8326381127346814485
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010442 (A263132 (n + 1)).toNat
+  A180077 (A180078 (A180081 (n + 1)).toNat).toNat
 
 end
 
-end A180080.P13300579099037595128
+end A180080.P8326381127346814485
 
 /-!
 # A180081: Where record values occur in A180076.

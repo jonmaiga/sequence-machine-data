@@ -108,6 +108,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4367,6 +4368,28 @@ end
 
 end A227243.P217269006515888150
 
+/-! ## A227243.P12160056310175716240
+
+`∩[A100966(n+1), A401509(n+1)]`
+-/
+
+namespace A227243.P12160056310175716240
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100966 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401509 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A227243.P12160056310175716240
+
 /-! ## A227243.P4583020761984256136
 
 `∩[A100966(n+1), A224866(n+1)-1]`
@@ -4410,28 +4433,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A227243.P5345983158444627924
-
-/-! ## A227243.P5003545658366188084
-
-`∩[A084371(n+1)*A306458(n+1), A100966(n+1)]`
--/
-
-namespace A227243.P5003545658366188084
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084371 (n + 1) * A306458 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100966 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A227243.P5003545658366188084
 
 /-!
 # A227245: Numbers k such that 10^k - 1 divides 10^(10^(10^100)) - 10.
@@ -6699,20 +6700,20 @@ end
 
 end A227269.P15753962220314880008
 
-/-! ## A227269.P374106889099828256
+/-! ## A227269.P15717982234035252851
 
-`A168134(A003506(n+1)+1)`
+`A401834(A202560(n+1))`
 -/
 
-namespace A227269.P374106889099828256
+namespace A227269.P15717982234035252851
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168134 (A003506 (n + 1) + 1).toNat
+  A401834 (A202560 (n + 1)).toNat
 
 end
 
-end A227269.P374106889099828256
+end A227269.P15717982234035252851
 
 /-!
 # A227270: Numbers m such that Sum_{i= 1..k} 1/d(i) + Product_{i= 1..k} 1/d(i) = 1, where d(i) are the k prime distinct divisors of m.

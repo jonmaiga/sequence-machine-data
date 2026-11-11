@@ -1,14 +1,17 @@
 {
-  "description": "Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 55 ).",
+  "description": "Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 55 ) and Gamma_0( 82 ).",
   "id": "A063220",
-  "mentions": [],
+  "mentions": [
+    "A063195"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 55,
     "source": "joeis"
   }
 }

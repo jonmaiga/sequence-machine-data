@@ -7790,6 +7790,48 @@ end
 
 end A237281.P11660105943069527458
 
+/-! ## A237281.P11000997632888405917
+
+`eq[A113923(n), A121062(n)]`
+-/
+
+namespace A237281.P11000997632888405917
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113923 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121062 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A237281.P11000997632888405917
+
+/-! ## A237281.P7244891157974901989
+
+`eq[A121062(n), A157532(n+1)]`
+-/
+
+namespace A237281.P7244891157974901989
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121062 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A157532 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A237281.P7244891157974901989
+
 /-! ## A237281.P8394483932169529561
 
 `eq[2, A000065(n)%4]`

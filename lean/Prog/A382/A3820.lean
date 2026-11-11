@@ -17,7 +17,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -3552,6 +3551,21 @@ end
 
 end A382080.P5763402117024739626
 
+/-! ## A382080.P3711961439860311609
+
+`xor(A346418(n+1), A363127(n+1))`
+-/
+
+namespace A382080.P3711961439860311609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A346418 (n + 1)) (A363127 (n + 1))
+
+end
+
+end A382080.P3711961439860311609
+
 /-! ## A382080.P14647338293593498820
 
 `and(A335550(n+1), A346418(n+1))`
@@ -3581,21 +3595,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A382080.P13381826196889396343
-
-/-! ## A382080.P16230989854453621478
-
-`A217605(A281116(n+1))^A048993(n)`
--/
-
-namespace A382080.P16230989854453621478
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A217605 (A281116 (n + 1)).toNat : ℚ) ^ (A048993 n : ℤ)
-
-end
-
-end A382080.P16230989854453621478
 
 /-!
 # A382081: a(n) = binomial(n,3) + 6*binomial(n,4) + 15*binomial(n,5) + 15*binomial(n,6).

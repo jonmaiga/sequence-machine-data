@@ -6749,6 +6749,52 @@ def P3209156829161924494.Spec : Prop :=
 
 end A263986
 
+/-! ## A263986.P14124354960632147364
+
+`A000108(n)+A000071(n+1)-A000071(n+2)`
+-/
+
+namespace A263986.P14124354960632147364
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000108 n + A000071 (n + 1) - A000071 (n + 2)
+
+end
+
+end A263986.P14124354960632147364
+
+namespace A263986
+
+/-- `A000108(n)+A000071(n+1)-A000071(n+2)` -/
+def P14124354960632147364.Spec : Prop :=
+  ∀ n, P14124354960632147364.a n = A263986 n
+
+end A263986
+
+/-! ## A263986.P8530163174414497103
+
+`A098614(n)/A000045(n+1)-A000045(n)`
+-/
+
+namespace A263986.P8530163174414497103
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A098614 n : ℚ) / (A000045 (n + 1) : ℚ) - (A000045 n : ℚ)
+
+end
+
+end A263986.P8530163174414497103
+
+namespace A263986
+
+/-- `A098614(n)/A000045(n+1)-A000045(n)` -/
+def P8530163174414497103.Spec : Prop :=
+  ∀ n, P8530163174414497103.a n = (A263986 n : ℚ)
+
+end A263986
+
 /-!
 # A263987: Number of ways of ordering integers 1 to n such that each number is either a factor of or larger than its predecessor.
 
@@ -7942,6 +7988,21 @@ end
 
 end A263995.P12029507301753178396
 
+/-! ## A263995.P17105185573471936312
+
+`A375109(n+1)+A000290(n+1)-A000290(n)`
+-/
+
+namespace A263995.P17105185573471936312
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375109 (n + 1) + A000290 (n + 1) - A000290 n
+
+end
+
+end A263995.P17105185573471936312
+
 /-! ## A263995.P11502441209324694921
 
 `A027428(n+1)+A108954(n+1)+A064047(n+1)`
@@ -8001,6 +8062,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A263995.P14801473253504521333
+
+/-! ## A263995.P5087497194550770316
+
+`A375109(n+1)+A027424(n+1)-A373716(n+1)`
+-/
+
+namespace A263995.P5087497194550770316
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375109 (n + 1) + A027424 (n + 1) - A373716 (n + 1)
+
+end
+
+end A263995.P5087497194550770316
 
 /-! ## A263995.P17347479657935654378
 

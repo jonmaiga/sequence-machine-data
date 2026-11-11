@@ -1690,6 +1690,21 @@ end
 
 end A066504.P7351644465439556506
 
+/-! ## A066504.P4656642710504899376
+
+`xor(A000007(n), A028236(n+1))`
+-/
+
+namespace A066504.P4656642710504899376
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000007 n) (A028236 (n + 1))
+
+end
+
+end A066504.P4656642710504899376
+
 /-! ## A066504.P887460016767230414
 
 `and(1, A003817(n))*A028236(n+1)`
@@ -1890,21 +1905,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A066504.P4612575645740820666
-
-/-! ## A066504.P5937097272217657419
-
-`and(A028236(n+1), A088041(n+1))`
--/
-
-namespace A066504.P5937097272217657419
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A028236 (n + 1)) (A088041 (n + 1))
-
-end
-
-end A066504.P5937097272217657419
 
 /-!
 # A066507: Numbers k such that there is a solution to x^2 == 2^k (mod k).
@@ -7557,6 +7557,21 @@ end
 
 end A066539.P8161560915262375978
 
+/-! ## A066539.P15693836723601053098
+
+`A180164(n+1)-(A002025(n+1)+A002025(n+1))`
+-/
+
+namespace A066539.P15693836723601053098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180164 (n + 1) - (A002025 (n + 1) + A002025 (n + 1))
+
+end
+
+end A066539.P15693836723601053098
+
 /-! ## A066539.P3502650980747608725
 
 `A061469(n+1)*A180327(n+1)-A002025(n+1)`
@@ -12864,27 +12879,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A066591.P11402054248207472209
-
-/-!
-# A066592: Primes which can be expressed as concatenation of cubes.
-
-The programs for A066592, there is no canonical definition to state claims against.
--/
-
-/-! ## A066592.P13099416292323194404
-
-`A137238(A137238(n+1)+A035618(3*n+2))`
--/
-
-namespace A066592.P13099416292323194404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137238 (A137238 (n + 1) + A035618 (3 * n + 2)).toNat
-
-end
-
-end A066592.P13099416292323194404
 
 /-!
 # A066593: Primes which can be expressed as concatenation of powers of 2 and 0's.

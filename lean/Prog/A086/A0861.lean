@@ -105,6 +105,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -8077,29 +8078,29 @@ def P15105301804771570085.Spec : Prop :=
 
 end A086161
 
-/-! ## A086161.P4399176962144702256
+/-! ## A086161.P347039342395519201
 
-`∑[a(n-3)^3]` with `a(0)=1, a(1)=0, a(2)=1, a(3)=0`
+`Δ[ogf(1/(1-2x+x^2-x^3+2x^4-x^5))]`
 -/
 
-namespace A086161.P4399176962144702256
+namespace A086161.P347039342395519201
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 1, 0] fun n f1 =>
-  f1 (n - 3) ^ 3
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -2, 1, -1, 2, -1] n
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
 
 end
 
-end A086161.P4399176962144702256
+end A086161.P347039342395519201
 
 namespace A086161
 
-/-- `∑[a(n-3)^3]` -/
-def P4399176962144702256.Spec : Prop :=
-  ∀ n, (P4399176962144702256.a n : ℤ) = A086161 n
+/-- `Δ[ogf(1/(1-2x+x^2-x^3+2x^4-x^5))]` -/
+def P347039342395519201.Spec : Prop :=
+  ∀ n, P347039342395519201.a n = A086161 n
 
 end A086161
 
@@ -10435,6 +10436,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A086172.P10010314434973646202
+
+/-! ## A086172.P4678250189014361160
+
+`A377505(A192611(n+1))`
+-/
+
+namespace A086172.P4678250189014361160
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A192611 (n + 1)).toNat
+
+end
+
+end A086172.P4678250189014361160
+
+/-! ## A086172.P10694541496112261734
+
+`A284114(A192611(n+1))`
+-/
+
+namespace A086172.P10694541496112261734
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284114 (A192611 (n + 1)).toNat
+
+end
+
+end A086172.P10694541496112261734
 
 /-!
 # A086173: Numbers k such that k*prime(k)-1 is prime.

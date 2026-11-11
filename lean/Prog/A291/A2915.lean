@@ -3046,7 +3046,7 @@ end A291541
 /-!
 # A291542: a(n) = prime(n)^3 - prime(n) * prime(n^2).
 
-The programs for A291542, the canonical program `A291542.P11341905494705326156` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291542 has offset 1).
+The programs for A291542, the canonical program `A291542.P11341905494705326156` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291542 has offset 1).
 
 The definition of A291542 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)^3-A000040(n+1)*A000040((n+1)²)` (program `A291542.P11341905494705326156`, by `A291542.P11341905494705326156.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3055,7 +3055,7 @@ The definition of A291542 is `verified`: the Lean definition is proven equivalen
 
 `A000040(n+1)^3-A000040(n+1)*A000040((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291542
@@ -7337,21 +7337,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291588.P13207471143502639639
-
-/-! ## A291588.P3680325521287437074
-
-`A250472(n+1)+A202952(A246935(n))`
--/
-
-namespace A291588.P3680325521287437074
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A250472 (n + 1) + A202952 (A246935 n).toNat
-
-end
-
-end A291588.P3680325521287437074
 
 /-! ## A291588.P1960733275955193078
 

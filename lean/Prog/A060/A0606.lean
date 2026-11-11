@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -6745,21 +6746,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060638.P7289125654821558920
-
-/-! ## A060638.P4577391324657352524
-
-`A038207(n+1)%A005315(A038207(n))`
--/
-
-namespace A060638.P4577391324657352524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A038207 (n + 1)) (A005315 (A038207 n).toNat)
-
-end
-
-end A060638.P4577391324657352524
 
 /-! ## A060638.P1795212599972609563
 
@@ -15959,6 +15945,21 @@ end
 
 end A060681.P9403546264549505419
 
+/-! ## A060681.P15988998935085342841
+
+`A242560(n+1)%A000156(n)`
+-/
+
+namespace A060681.P15988998935085342841
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A242560 (n + 1)) (A000156 n)
+
+end
+
+end A060681.P15988998935085342841
+
 /-! ## A060681.P13589379674568992648
 
 `and(A003817(n), A242560(n+1))`
@@ -16018,21 +16019,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060681.P137425411679782397
-
-/-! ## A060681.P8537202572470960651
-
-`n-A089196(A000007(n)+n)`
--/
-
-namespace A060681.P8537202572470960651
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A089196 (A000007 n + (n : ℤ)).toNat
-
-end
-
-end A060681.P8537202572470960651
 
 /-!
 # A060682: Number of distinct differences between consecutive divisors of n (ordered by size).
@@ -18637,6 +18623,29 @@ namespace A060693
 /-- `A001263(n+1)*A033184(n+1)/A007318(n)` -/
 def P5409760684665393552.Spec : Prop :=
   ∀ n, P5409760684665393552.a n = (A060693 n : ℚ)
+
+end A060693
+
+/-! ## A060693.P15126350316542030432
+
+`(2*row(n)-col(n))!/((row(n)-col(n)+1)!*(row(n)-col(n))!*col(n)!)`
+-/
+
+namespace A060693.P15126350316542030432
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial ((2 * SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ) / (Nat.factorial ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1).toNat * Nat.factorial ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat * Nat.factorial (SequenceMachineLib.triCol n) : ℚ)
+
+end
+
+end A060693.P15126350316542030432
+
+namespace A060693
+
+/-- `(2*row(n)-col(n))!/((row(n)-col(n)+1)!*(row(n)-col(n))!*col(n)!)` -/
+def P15126350316542030432.Spec : Prop :=
+  ∀ n, P15126350316542030432.a n = (A060693 n : ℚ)
 
 end A060693
 

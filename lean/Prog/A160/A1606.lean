@@ -8921,24 +8921,6 @@ end
 
 end A160690.P534466132873435697
 
-/-! ## A160690.P9770018816896088495
-
-`∑[A367626(A367626(n+1)!)]`
--/
-
-namespace A160690.P9770018816896088495
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367626 (Nat.factorial (A367626 (n + 1)).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A160690.P9770018816896088495
-
 /-!
 # A160691: a(n) = the number of divisors of A160689(n) = the number of divisors of A160690(n).
 

@@ -1374,6 +1374,21 @@ end
 
 end A396319.P14314259778329653226
 
+/-! ## A396319.P8996863889116747482
+
+`A031285(A396316(n+2))`
+-/
+
+namespace A396319.P8996863889116747482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031285 (A396316 (n + 2)).toNat
+
+end
+
+end A396319.P8996863889116747482
+
 /-! ## A396319.P13176680373153979049
 
 `A000203(A354933(n+2)%A119715(3*n+2))`
@@ -1403,21 +1418,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396319.P16314414817529889924
-
-/-! ## A396319.P7038861458472717271
-
-`A000203(A034699(n+2)-val(A283052(3*n+4)+1, 2))`
--/
-
-namespace A396319.P7038861458472717271
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (A034699 (n + 2) - (SequenceMachineLib.valuation (A283052 (3 * n + 4) + 1).toNat 2 : ℤ)).toNat
-
-end
-
-end A396319.P7038861458472717271
 
 /-!
 # A396321: Number of n X n binary matrices with exactly 10 1's such that there are an even number of 1's in every row and column.

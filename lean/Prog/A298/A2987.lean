@@ -18,7 +18,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
@@ -3598,27 +3597,6 @@ end
 
 end A298747.P7972893105586114212
 
-/-! ## A298747.P13110857590298608306
-
-`lt[A277042(A070939(n)), A087283(n+3)]`
--/
-
-namespace A298747.P13110857590298608306
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277042 (A070939 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087283 (n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A298747.P13110857590298608306
-
 /-!
 # A298748: Heinz numbers of aperiodic (relatively prime multiplicities) integer partitions with relatively prime parts.
 
@@ -3945,29 +3923,6 @@ namespace A298754
 /-- `∑{d}[n+1, #^3]/gcd(∑{d}[n+1, #^3], ∑{d}[n+1, #²])` -/
 def P9424967549377239378.Spec : Prop :=
   ∀ n, P9424967549377239378.a n = (A298754 (n + 1) : ℚ)
-
-end A298754
-
-/-! ## A298754.P9509454636727694368
-
-`A001158(n+1)/gcd(A001157(n+1), A001158(n+1))`
--/
-
-namespace A298754.P9509454636727694368
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A001158 (n + 1) : ℚ) / (Int.gcd (A001157 (n + 1)) (A001158 (n + 1)) : ℚ)
-
-end
-
-end A298754.P9509454636727694368
-
-namespace A298754
-
-/-- `A001158(n+1)/gcd(A001157(n+1), A001158(n+1))` -/
-def P9509454636727694368.Spec : Prop :=
-  ∀ n, P9509454636727694368.a n = (A298754 (n + 1) : ℚ)
 
 end A298754
 

@@ -2346,7 +2346,7 @@ end
 end A278220.P11982041483459938718
 
 /-!
-# A278221: Filtering sequence (related to prime factorization): a(n) = A046523(A122111(n)).
+# A278221: The smallest number with same prime signature as A122111(n) has, where A122111 conjugates the prime factorization of n.
 
 The programs for A278221, the canonical program `A278221.P14007966457786942325` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278221 has offset 1).
 
@@ -3954,7 +3954,7 @@ end
 end A278225.P10479073350135071125
 
 /-!
-# A278226: Filter-sequence for primorial base: least number with the same prime signature as A276086(n).
+# A278226: The smallest number with same prime signature as A276086(n) has, where A276086 is the primorial base exp-function.
 
 The programs for A278226, there is no canonical definition to state claims against.
 -/
@@ -6986,6 +6986,21 @@ end
 
 end A278238.P17475112024100781007
 
+/-! ## A278238.P2057475361944919238
+
+`A046523(A091203(n+1))²`
+-/
+
+namespace A278238.P2057475361944919238
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046523 (A091203 (n + 1)).toNat ^ 2
+
+end
+
+end A278238.P2057475361944919238
+
 /-! ## A278238.P1989645067785332030
 
 `A286384(A003188(n+1))²`
@@ -7521,7 +7536,7 @@ end
 end A278242.P291359160802830883
 
 /-!
-# A278243: Filter-sequence for Stern polynomials: Least number with the same prime signature as A260443(n).
+# A278243: The smallest number with same prime signature as A260443(n) has, where A260443 is the prime factorization representation of Stern polynomials.
 
 The programs for A278243, there is no canonical definition to state claims against.
 -/
@@ -10160,52 +10175,75 @@ def P14492905012298707567.Spec : Prop :=
 
 end A278254
 
-/-! ## A278254.P14311676637832801544
+/-! ## A278254.P2867838009473641074
 
-`A278218(∑[n+1]+1)²`
+`A278540(A235201(n+1))²`
 -/
 
-namespace A278254.P14311676637832801544
+namespace A278254.P2867838009473641074
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278218 (∑ j ∈ Finset.range (n + 1), f1 j + 1) ^ 2
+  A278540 (A235201 (n + 1)).toNat ^ 2
 
 end
 
-end A278254.P14311676637832801544
+end A278254.P2867838009473641074
 
 namespace A278254
 
-/-- `A278218(∑[n+1]+1)²` -/
-def P14311676637832801544.Spec : Prop :=
-  ∀ n, P14311676637832801544.a n = A278254 (n + 1)
+/-- `A278540(A235201(n+1))²` -/
+def P2867838009473641074.Spec : Prop :=
+  ∀ n, P2867838009473641074.a n = A278254 (n + 1)
 
 end A278254
 
-/-! ## A278254.P11176056000363198097
+/-! ## A278254.P4142395808008557009
 
-`A212173((n+1)²)`
+`A278223(A048673(n+1))²`
 -/
 
-namespace A278254.P11176056000363198097
+namespace A278254.P4142395808008557009
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212173 ((n + 1) ^ 2)
+  A278223 (A048673 (n + 1)).toNat ^ 2
 
 end
 
-end A278254.P11176056000363198097
+end A278254.P4142395808008557009
 
 namespace A278254
 
-/-- `A212173((n+1)²)` -/
-def P11176056000363198097.Spec : Prop :=
-  ∀ n, P11176056000363198097.a n = A278254 (n + 1)
+/-- `A278223(A048673(n+1))²` -/
+def P4142395808008557009.Spec : Prop :=
+  ∀ n, P4142395808008557009.a n = A278254 (n + 1)
+
+end A278254
+
+/-! ## A278254.P7096181964797328083
+
+`filter[A278259(n+2), A379952(#)]`
+-/
+
+namespace A278254.P7096181964797328083
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278259 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379952 (f1 j).toNat = 1) n)
+
+end
+
+end A278254.P7096181964797328083
+
+namespace A278254
+
+/-- `filter[A278259(n+2), A379952(#)]` -/
+def P7096181964797328083.Spec : Prop :=
+  ∀ n, P7096181964797328083.a n = A278254 (n + 1)
 
 end A278254
 

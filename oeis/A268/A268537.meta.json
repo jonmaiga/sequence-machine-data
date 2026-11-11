@@ -1,5 +1,5 @@
 {
-  "description": "Number of Skolem sequences of order n, as n runs through the positive integers congruent to 0 and 1 mod 4.",
+  "description": "Number of Skolem sequences of order n, as n runs through the nonnegative integers congruent to 0 and 1 mod 4.",
   "id": "A268537",
   "mentions": [
     "A004075",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

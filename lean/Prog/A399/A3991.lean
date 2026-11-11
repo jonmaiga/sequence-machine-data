@@ -175,7 +175,7 @@ end
 end A399100.P16261897846235486906
 
 /-!
-# A399102: Number of independent vertex sets in the n X n Klein bottle graph.
+# A399102: Number of independent vertex sets in the n X n Klein bottle grid graph.
 
 The programs for A399102, there is no canonical definition to state claims against.
 -/
@@ -4292,6 +4292,33 @@ def P2206954176585034257.Spec : Prop :=
   ∀ n, P2206954176585034257.a n = (A399172 n : ℝ)
 
 end A399172
+
+/-!
+# A399173: First column of the derivative-compositional Riordan array psi_1(f) = (f^[1](x)*(f^[1])'(x)/x, f^[1](x)) = (f(x)*f'(x)/x, f(x)), where f(x) = x*s(x) and s(x) is the g.f. of A004148 (RNA secondary structures).
+
+The programs for A399173, the canonical program `A399173.P18150784658567783580` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399173 has offset 0).
+
+The definition of A399173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A399173.P18150784658567783580
+
+`∑{#}[n, (#+1)*A004148(#)*A004148(n-#)]`
+
+The canonical program, it is in `Seq.B002.C008`.
+-/
+
+namespace A399173
+
+/-- `∑{#}[n, (#+1)*A004148(#)*A004148(n-#)]` -/
+def P18150784658567783580.Spec : Prop :=
+  ∀ n, P18150784658567783580.a n = A399173 n
+
+theorem P18150784658567783580.correct : P18150784658567783580.Spec := by
+  intro n
+  simp only [A399173]
+
+end A399173
 
 /-!
 # A399176: A well-defined quasi-periodic solution to the recurrence (a(n) = a(n-a(n-2)) + a(n-a(n-3))).

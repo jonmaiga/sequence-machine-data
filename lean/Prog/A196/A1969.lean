@@ -52,8 +52,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2656,27 +2655,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A196933.P14528938576979840749
-
-/-! ## A196933.P15633005664492489336
-
-`A210964(lt[A071178(n+1), A087162(3*n+1)])`
--/
-
-namespace A196933.P15633005664492489336
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071178 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087162 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210964 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A196933.P15633005664492489336
 
 /-!
 # A196934: a(n) is the first occurrence of n in sequence A078498.

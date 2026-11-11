@@ -907,6 +907,21 @@ end
 
 end A380204.P4420126133731804227
 
+/-! ## A380204.P2370053429245296803
+
+`A351831(A381129(n+2))`
+-/
+
+namespace A380204.P2370053429245296803
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351831 (A381129 (n + 2)).toNat
+
+end
+
+end A380204.P2370053429245296803
+
 /-!
 # A380209: Expansion of e.g.f. exp( (1+2*x)^(3/2) - 1 ).
 

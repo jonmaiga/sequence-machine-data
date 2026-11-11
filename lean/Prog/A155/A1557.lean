@@ -99,6 +99,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -11827,6 +11828,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155763.P4357426513245243459
+
+/-! ## A155763.P8366061064599751008
+
+`A377505(A052015(n+1))`
+-/
+
+namespace A155763.P8366061064599751008
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A052015 (n + 1)).toNat
+
+end
+
+end A155763.P8366061064599751008
 
 /-!
 # A155764: Records in A047160.

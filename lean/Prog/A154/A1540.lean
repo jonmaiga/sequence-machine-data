@@ -614,7 +614,7 @@ end A154021
 /-!
 # A154022: a(n) = 5*A097780(n-2).
 
-The programs for A154022, the canonical program `A154022.P5395958641103266710` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154022 has offset 1).
+The programs for A154022, the canonical program `A154022.P5395958641103266710` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154022 has offset 1).
 
 The definition of A154022 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -646,7 +646,7 @@ end A154022
 
 `25*a(n-1)-a(n-2)` with `a(0)=0, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154022
@@ -687,7 +687,7 @@ end A154022
 /-!
 # A154023: a(n+2) = 36*a(n+1) - a(n), a(1)=0, a(2)=6.
 
-The programs for A154023, the canonical program `A154023.P17470481812666660240` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154023 has offset 1).
+The programs for A154023, the canonical program `A154023.P17470481812666660240` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154023 has offset 1).
 
 The definition of A154023 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -719,7 +719,7 @@ end A154023
 
 `36*a(n-1)-a(n-2)` with `a(0)=0, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154023
@@ -737,7 +737,7 @@ end A154023
 /-!
 # A154024: a(n+2) = 49*a(n+1) - a(n), a(1)=0, a(2)=7.
 
-The programs for A154024, the canonical program `A154024.P11505294084722459531` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154024 has offset 1).
+The programs for A154024, the canonical program `A154024.P11505294084722459531` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154024 has offset 1).
 
 The definition of A154024 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -746,7 +746,7 @@ The definition of A154024 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(7x/(1-49x+x^2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154024
@@ -787,7 +787,7 @@ end A154024
 /-!
 # A154025: a(n+2) = 64*a(n+1) - a(n), a(1)=0, a(2)=8.
 
-The programs for A154025, the canonical program `A154025.P1623511361234913272` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154025 has offset 1).
+The programs for A154025, the canonical program `A154025.P1623511361234913272` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154025 has offset 1).
 
 The definition of A154025 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -796,7 +796,7 @@ The definition of A154025 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(8x/(1-64x+x^2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154025
@@ -837,7 +837,7 @@ end A154025
 /-!
 # A154026: a(n+2) = 81*a(n+1) - a(n), a(1)=0, a(2)=9.
 
-The programs for A154026, the canonical program `A154026.P15570036329028032714` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154026 has offset 1).
+The programs for A154026, the canonical program `A154026.P15570036329028032714` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154026 has offset 1).
 
 The definition of A154026 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -846,7 +846,7 @@ The definition of A154026 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(9x/(1-81x+x^2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154026
@@ -887,7 +887,7 @@ end A154026
 /-!
 # A154027: a(n+2) = 100*a(n+1) - a(n), a(1)=0, a(2)=10.
 
-The programs for A154027, the canonical program `A154027.P17783534428407381272` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154027 has offset 1).
+The programs for A154027, the canonical program `A154027.P17783534428407381272` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154027 has offset 1).
 
 The definition of A154027 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -896,7 +896,7 @@ The definition of A154027 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(10x/(1-100x+x^2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154027
@@ -1091,7 +1091,7 @@ end A154030.P4492412876174795862
 /-!
 # A154031: Number of planar triangular n X n X n nonnegative integer grids with every similarly oriented 4 X 4 X 4 subtriangle summing to 2.
 
-The programs for A154031, the canonical program `A154031.P16340118998919883522` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154031 has offset 4).
+The programs for A154031, the canonical program `A154031.P16340118998919883522` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154031 has offset 4).
 
 The definition of A154031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1100,7 +1100,7 @@ The definition of A154031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((55+63x+20x^2-41x^3-60x^4-16x^5-6x^6)/(1-x))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154031

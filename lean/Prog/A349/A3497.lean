@@ -55,7 +55,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -1013,6 +1013,32 @@ def P12180432672518842764.Spec : Prop :=
 theorem P12180432672518842764.correct : P12180432672518842764.Spec := by
   intro n
   simp only [A349713]
+
+end A349713
+
+/-! ## A349713.P17333054646397214908
+
+`A398117(∑[n])`
+-/
+
+namespace A349713.P17333054646397214908
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398117 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A349713.P17333054646397214908
+
+namespace A349713
+
+/-- `A398117(∑[n])` -/
+def P17333054646397214908.Spec : Prop :=
+  ∀ n, P17333054646397214908.a n = A349713 n
 
 end A349713
 

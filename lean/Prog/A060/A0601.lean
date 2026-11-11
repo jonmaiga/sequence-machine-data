@@ -8468,6 +8468,51 @@ end
 
 end A060147.P10697706831448029732
 
+/-! ## A060147.P13426149765836414507
+
+`A006042(n)*A209229(n)`
+-/
+
+namespace A060147.P13426149765836414507
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006042 n * A209229 n
+
+end
+
+end A060147.P13426149765836414507
+
+/-! ## A060147.P8001147178542692473
+
+`and(A006042(n), A099893(n))`
+-/
+
+namespace A060147.P8001147178542692473
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A006042 n) (A099893 n)
+
+end
+
+end A060147.P8001147178542692473
+
+/-! ## A060147.P6023757316801615713
+
+`A006042(n)*A255738(n+1)`
+-/
+
+namespace A060147.P6023757316801615713
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006042 n * A255738 (n + 1)
+
+end
+
+end A060147.P6023757316801615713
+
 /-! ## A060147.P11774069333283324086
 
 `char[2^n]*A006017(A023416(n))`
@@ -9007,6 +9052,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060151.P10555055297136222036
+
+/-! ## A060151.P10627508846667251183
+
+`A074184(n+1)-A159075(n)`
+-/
+
+namespace A060151.P10627508846667251183
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074184 (n + 1) - A159075 n
+
+end
+
+end A060151.P10627508846667251183
+
+/-! ## A060151.P17870683185564041775
+
+`A074184(n+1)*A373565(n)`
+-/
+
+namespace A060151.P17870683185564041775
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074184 (n + 1) * A373565 n
+
+end
+
+end A060151.P17870683185564041775
 
 /-! ## A060151.P12306386882429316401
 
@@ -11264,6 +11339,21 @@ end
 
 end A060163.P10686575559419227758
 
+/-! ## A060163.P13502893214712709572
+
+`C(n+2, 3)-1+C(n+2, 2)-n*(2*n-1)`
+-/
+
+namespace A060163.P13502893214712709572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (n + 2) 3 : ℤ) - 1 + (Nat.choose (n + 2) 2 : ℤ) - (n : ℤ) * ((2 * n : ℤ) - 1)
+
+end
+
+end A060163.P13502893214712709572
+
 /-! ## A060163.P16335381827662971588
 
 `A050407(n)+n`
@@ -11443,21 +11533,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060163.P15373603755988585963
-
-/-! ## A060163.P17329785015063929750
-
-`A188554(n)-A386480(n)`
--/
-
-namespace A060163.P17329785015063929750
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188554 n - A386480 n
-
-end
-
-end A060163.P17329785015063929750
 
 /-!
 # A060164: Number of orbits of length n under the map whose periodic points are counted by A000364.

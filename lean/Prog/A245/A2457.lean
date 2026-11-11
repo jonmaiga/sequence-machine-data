@@ -7730,6 +7730,32 @@ def P15864327325205463796.Spec : Prop :=
 
 end A245769
 
+/-! ## A245769.P8624994468085045896
+
+`∑{#}[n, C(n, #)*C(n+#, #)/(2*#-1)]`
+-/
+
+namespace A245769.P8624994468085045896
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k * Nat.choose (n + k) k : ℚ) / ((2 * k : ℤ) - 1 : ℚ)
+
+end
+
+end A245769.P8624994468085045896
+
+namespace A245769
+
+/-- `∑{#}[n, C(n, #)*C(n+#, #)/(2*#-1)]` -/
+def P8624994468085045896.Spec : Prop :=
+  ∀ n, P8624994468085045896.a n = (A245769 n : ℚ)
+
+end A245769
+
 /-!
 # A245773: a(n) = n*sigma(n) - Sum_{(d<n)|n} d*sigma(d).
 

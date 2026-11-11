@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence transform of A285729, combining A032742(n) and A046523(n), the largest proper divisor and the prime signature of n.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A032742(i) = A032742(j) and A046523(i) = A046523(j), for all i, j >= 1, where A032742(n) is the largest proper divisor of n, and A046523(n) is the smallest number with same prime signature as n.",
   "id": "A300229",
   "mentions": [
     "A032742",
@@ -14,6 +14,7 @@
     "A300235"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

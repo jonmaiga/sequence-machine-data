@@ -22,7 +22,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -6935,21 +6934,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A266878.P193878838163876767
-
-/-! ## A266878.P15135240002022255010
-
-`A087051(A266832(n+1))%A040554(n)`
--/
-
-namespace A266878.P15135240002022255010
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A087051 (A266832 (n + 1)).toNat) (A040554 n)
-
-end
-
-end A266878.P15135240002022255010
 
 /-! ## A266878.P15345047525335383839
 

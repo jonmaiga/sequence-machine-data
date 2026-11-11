@@ -68,7 +68,6 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -4095,21 +4094,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A263149.P16347883754285982194
-
-/-! ## A263149.P3305586242685928432
-
-`A322794(A141056(n))*A340622(n)`
--/
-
-namespace A263149.P3305586242685928432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A141056 n).toNat * A340622 n
-
-end
-
-end A263149.P3305586242685928432
 
 /-! ## A263149.P12813261987005206244
 

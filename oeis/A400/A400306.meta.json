@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} k^(k-1) * binomial(n+k,k) * a(n-k).",
+  "id": "A400306",
+  "mentions": [
+    "A400303",
+    "A400304",
+    "A401626",
+    "A401677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

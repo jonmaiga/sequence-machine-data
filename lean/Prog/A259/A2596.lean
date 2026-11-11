@@ -26,7 +26,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C035
@@ -9606,6 +9605,21 @@ end
 
 end A259677.P1113337196215058747
 
+/-! ## A259677.P10975002368357982945
+
+`lcm(A088878(n+1), A091180(n+1))`
+-/
+
+namespace A259677.P10975002368357982945
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A088878 (n + 1)) (A091180 (n + 1))
+
+end
+
+end A259677.P10975002368357982945
+
 /-! ## A259677.P1426436594454295754
 
 `p?[A163628(n+1)-1]*A088878(n+1)`
@@ -9905,27 +9919,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A259677.P10485475245303835155
-
-/-! ## A259677.P13123451170517346288
-
-`p?[(n+1)*A033676(3*n+1)]*p?[2*A171462(n+1)+n+1]`
--/
-
-namespace A259677.P13123451170517346288
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A033676 (3 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A171462 (n + 1) + (n : ℤ) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n) * f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-end
-
-end A259677.P13123451170517346288
 
 /-!
 # A259678: Primes of the form p(k)^2 + p(m)^2, where k and m are positive integers, and p(.) is the partition function given by A000041.

@@ -27,7 +27,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C039
@@ -2652,21 +2651,6 @@ end
 
 end A340623.P2773641110815183086
 
-/-! ## A340623.P6557289272157011018
-
-`A006950(n)-A119788(A000040(n+1))*A340647(n)`
--/
-
-namespace A340623.P6557289272157011018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006950 n - A119788 (A000040 (n + 1)).toNat * A340647 n
-
-end
-
-end A340623.P6557289272157011018
-
 /-! ## A340623.P14498081979469727825
 
 `(A006950(n)-A340647(n))*A035263(A049454(n))`
@@ -4572,6 +4556,21 @@ end
 
 end A340641.P11576192884917996063
 
+/-! ## A340641.P9058854063640435281
+
+`A112537(A340640(n+1))`
+-/
+
+namespace A340641.P9058854063640435281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112537 (A340640 (n + 1)).toNat
+
+end
+
+end A340641.P9058854063640435281
+
 /-! ## A340641.P2251515010110173720
 
 `A329814(or(1, A340640(1+n)))`
@@ -4737,6 +4736,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A340642.P9215152405280903050
+
+/-! ## A340642.P1657929757949472352
+
+`A000290(A340643(A000290(n+1)/(n+1)))`
+-/
+
+namespace A340642.P1657929757949472352
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A340643 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+
+end
+
+end A340642.P1657929757949472352
 
 /-!
 # A340643: Numbers k such that the two perfect powers immediately adjacent to k^2 both have exponents greater than 2.
@@ -5768,6 +5782,29 @@ namespace A340649
 /-- `A097240(n+1)%A000040(n+1)` -/
 def P12468037859103549001.Spec : Prop :=
   ∀ n, P12468037859103549001.a n = A340649 (n + 1)
+
+end A340649
+
+/-! ## A340649.P5236617405950552465
+
+`A141042(n+1)%A000040(n+1)`
+-/
+
+namespace A340649.P5236617405950552465
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A141042 (n + 1)) (A000040 (n + 1))
+
+end
+
+end A340649.P5236617405950552465
+
+namespace A340649
+
+/-- `A141042(n+1)%A000040(n+1)` -/
+def P5236617405950552465.Spec : Prop :=
+  ∀ n, P5236617405950552465.a n = A340649 (n + 1)
 
 end A340649
 

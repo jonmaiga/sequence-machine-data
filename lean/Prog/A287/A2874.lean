@@ -44,7 +44,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -574,6 +574,24 @@ end
 
 end A287402.P12431980262122709642
 
+/-! ## A287402.P750104861714078805
+
+`filter[A140595(n), A287372(#)]`
+-/
+
+namespace A287402.P750104861714078805
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140595 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A287372 (f1 j).toNat = 1) n)
+
+end
+
+end A287402.P750104861714078805
+
 /-! ## A287402.P4362725539655373178
 
 `filter[A263449(n), A287372(#)]`
@@ -789,24 +807,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287402.P2299309102995720663
-
-/-! ## A287402.P15750164202851136954
-
-`filter[A319702(n+1), A287372(#)]`
--/
-
-namespace A287402.P15750164202851136954
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319702 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A287372 (f1 j).toNat = 1) n)
-
-end
-
-end A287402.P15750164202851136954
 
 /-!
 # A287403: Positions of 1 in A287401.
@@ -13494,6 +13494,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A287483.P9157355209595993016
+
+/-! ## A287483.P5294542278245401467
+
+`∩[A116998(n+1), A387112(n+1)]`
+-/
+
+namespace A287483.P5294542278245401467
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116998 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387112 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A287483.P5294542278245401467
 
 /-! ## A287483.P4156042937056035313
 

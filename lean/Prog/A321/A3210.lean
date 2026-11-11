@@ -3026,6 +3026,29 @@ def P6227007282523286595.Spec : Prop :=
 
 end A321018
 
+/-! ## A321018.P17215191719569861962
+
+`ceil(A000720(n+1)/2)`
+-/
+
+namespace A321018.P17215191719569861962
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(A000720 (n + 1) : ℚ) / 2⌉
+
+end
+
+end A321018.P17215191719569861962
+
+namespace A321018
+
+/-- `ceil(A000720(n+1)/2)` -/
+def P17215191719569861962.Spec : Prop :=
+  ∀ n, P17215191719569861962.a n = A321018 (n + 1)
+
+end A321018
+
 /-! ## A321018.P6411149326296173737
 
 `ceil(A123246(n+1)/2)`
@@ -3124,32 +3147,6 @@ namespace A321018
 /-- `fp[A006093(2*n+1)]` -/
 def P17897774860749302458.Spec : Prop :=
   ∀ n, (P17897774860749302458.a n : ℤ) = A321018 (n + 1)
-
-end A321018
-
-/-! ## A321018.P1896517636613782819
-
-`fp[A156037(2*n+1)]`
--/
-
-namespace A321018.P1896517636613782819
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156037 (2 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
-
-end
-
-end A321018.P1896517636613782819
-
-namespace A321018
-
-/-- `fp[A156037(2*n+1)]` -/
-def P1896517636613782819.Spec : Prop :=
-  ∀ n, (P1896517636613782819.a n : ℤ) = A321018 (n + 1)
 
 end A321018
 

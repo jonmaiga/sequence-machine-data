@@ -72,6 +72,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -5364,6 +5365,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A348524.P3719885898957209794
+
+/-! ## A348524.P1295850509342953890
+
+`A280618(n)+A023358(n)-A347714(n)`
+-/
+
+namespace A348524.P1295850509342953890
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280618 n + A023358 n - A347714 n
+
+end
+
+end A348524.P1295850509342953890
 
 /-!
 # A348526: Number of partitions of n into two or more triangular numbers.

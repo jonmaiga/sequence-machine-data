@@ -1,0 +1,20 @@
+{
+  "description": "Square numbers, other than prime powers, whose distinct prime factors are consecutive primes.",
+  "id": "A401378",
+  "mentions": [
+    "A000290",
+    "A066312",
+    "A166329",
+    "A401377",
+    "A401379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -89,6 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -7462,6 +7463,30 @@ def P13363053550938654147.Spec : Prop :=
 end A053048
 
 /-!
+# A053050: a(n) = smallest integer m such that Sum_{k=1..m} prime(k) is divisible by n.
+
+The programs for A053050, there is no canonical definition to state claims against.
+-/
+
+/-! ## A053050.P18283579598934823209
+
+`A398776(∑[n])`
+-/
+
+namespace A053050.P18283579598934823209
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398776 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A053050.P18283579598934823209
+
+/-!
 # A053052: Append n to the previous term, reverse alternate terms.
 
 The programs for A053052, there is no canonical definition to state claims against.
@@ -8136,6 +8161,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A053059.P3339267291086770404
+
+/-! ## A053059.P3310045702032090817
+
+`A000290(A066733(n+1))`
+-/
+
+namespace A053059.P3310045702032090817
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A066733 (n + 1)).toNat
+
+end
+
+end A053059.P3310045702032090817
 
 /-! ## A053059.P5896620954102093295
 

@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -76,6 +77,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
@@ -10293,6 +10295,47 @@ def P2404316171838978518.Spec : Prop :=
 
 end A175165
 
+/-! ## A175165.P169347799037060284
+
+`3*a(n-1)-2*a(n-2)` with `a(0)=0, a(1)=32`
+-/
+
+namespace A175165.P169347799037060284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 32] fun n a =>
+  3 * a (n - 1) - 2 * a (n - 2)
+
+end
+
+end A175165.P169347799037060284
+
+namespace A175165
+
+/-- `3*a(n-1)-2*a(n-2)` -/
+def P169347799037060284.Spec : Prop :=
+  ∀ n, P169347799037060284.a n = A175165 n
+
+theorem P169347799037060284.correct : P169347799037060284.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A175165, Nat.add_sub_cancel, A175165.P169347799037060284.a, A175165.P13391023397149546966.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A175165, Nat.add_sub_cancel, A175165.P169347799037060284.a, A175165.P13391023397149546966.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A175165
+
 /-! ## A175165.P6483251224765064330
 
 `lcm(32, 1-2^n)`
@@ -10762,32 +10805,6 @@ theorem P16109862741366443742.correct : P16109862741366443742.Spec := by
   simp only [A175165, Nat.add_sub_cancel, A175165.P16109862741366443742.a, A175165.P13391023397149546966.a, A175164, A175164.P8473928831672684715.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A175165
-
-/-! ## A175165.P635011243266942019
-
-`∑[A146541(log2(A146541(n)))]-1`
--/
-
-namespace A175165.P635011243266942019
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146541 (SequenceMachineLib.roundAway (Real.logb 2 (A146541 n : ℝ))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - 1
-
-end
-
-end A175165.P635011243266942019
-
-namespace A175165
-
-/-- `∑[A146541(log2(A146541(n)))]-1` -/
-def P635011243266942019.Spec : Prop :=
-  ∀ n, P635011243266942019.a n = A175165 n
 
 end A175165
 

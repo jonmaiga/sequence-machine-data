@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -48,6 +49,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -4697,26 +4699,20 @@ end
 
 end A135655.P8983290368390876907
 
-/-! ## A135655.P3091663440980155937
+/-! ## A135655.P18090057437217981579
 
-`A139709(Δ[Δ[A220051(n)]])`
+`A139707(A133025(n+1))`
 -/
 
-namespace A135655.P3091663440980155937
+namespace A135655.P18090057437217981579
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220051 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139709 (f1 (n + 1) - f1 n).toNat
+  A139707 (A133025 (n + 1)).toNat
 
 end
 
-end A135655.P3091663440980155937
+end A135655.P18090057437217981579
 
 /-!
 # A135656: Perfect numbers divided by 2, written in base 2.

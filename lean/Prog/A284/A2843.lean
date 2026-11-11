@@ -5341,6 +5341,29 @@ def P6624136200318152262.Spec : Prop :=
 
 end A284353
 
+/-! ## A284353.P17350327754841395050
+
+`xor(A084639(n), A097072(n))`
+-/
+
+namespace A284353.P17350327754841395050
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A084639 n) (A097072 n)
+
+end
+
+end A284353.P17350327754841395050
+
+namespace A284353
+
+/-- `xor(A084639(n), A097072(n))` -/
+def P17350327754841395050.Spec : Prop :=
+  ∀ n, P17350327754841395050.a n = A284353 n
+
+end A284353
+
 /-!
 # A284354: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 899", based on the 5-celled von Neumann neighborhood.
 

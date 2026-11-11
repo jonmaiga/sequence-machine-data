@@ -7547,6 +7547,29 @@ theorem P3445485515515740235.correct : P3445485515515740235.Spec := by
 
 end A221951
 
+/-! ## A221951.P8575175804542137478
+
+`(2-(-1)^(n+1))*(7*A007814(n+1)+1)/(A007814(n+1)+1)*A000005(n+1)`
+-/
+
+namespace A221951.P8575175804542137478
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 - (-1) ^ (n + 1) : ℚ) * ((7 * A007814 (n + 1) + 1 : ℚ) / (A007814 (n + 1) + 1 : ℚ)) * (A000005 (n + 1) : ℚ)
+
+end
+
+end A221951.P8575175804542137478
+
+namespace A221951
+
+/-- `(2-(-1)^(n+1))*(7*A007814(n+1)+1)/(A007814(n+1)+1)*A000005(n+1)` -/
+def P8575175804542137478.Spec : Prop :=
+  ∀ n, P8575175804542137478.a n = (A221951 (n + 1) : ℚ)
+
+end A221951
+
 /-! ## A221951.P860439574050995485
 
 `∑{d}[n+1, or(1, gcd(4, #)+2)]`
@@ -7677,8 +7700,52 @@ end A221951
 /-!
 # A221952: Number of subgroups of C_5 X C_n.
 
-The programs for A221952, there is no canonical definition to state claims against.
+The programs for A221952, the canonical program `A221952.P1898137592766681653` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221952 has offset 1).
+
+The definition of A221952 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A221952.P1898137592766681653
+
+`A000005(n+1)+∑{d}[n+1, gcd(#, 5)]`
+
+The canonical program, it is in `Seq.B004.C002`.
+-/
+
+namespace A221952
+
+/-- `A000005(n+1)+∑{d}[n+1, gcd(#, 5)]` -/
+def P1898137592766681653.Spec : Prop :=
+  ∀ n, P1898137592766681653.a n = A221952 (n + 1)
+
+theorem P1898137592766681653.correct : P1898137592766681653.Spec := by
+  intro n
+  simp only [A221952, Nat.add_sub_cancel]
+
+end A221952
+
+/-! ## A221952.P16593658830043320157
+
+`2*(3*A112765(n+1)+1)/(A112765(n+1)+1)*A000005(n+1)`
+-/
+
+namespace A221952.P16593658830043320157
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 * ((3 * A112765 (n + 1) + 1 : ℚ) / (A112765 (n + 1) + 1 : ℚ)) * (A000005 (n + 1) : ℚ)
+
+end
+
+end A221952.P16593658830043320157
+
+namespace A221952
+
+/-- `2*(3*A112765(n+1)+1)/(A112765(n+1)+1)*A000005(n+1)` -/
+def P16593658830043320157.Spec : Prop :=
+  ∀ n, P16593658830043320157.a n = (A221952 (n + 1) : ℚ)
+
+end A221952
 
 /-! ## A221952.P1694209036406810663
 
@@ -7698,23 +7765,13 @@ end
 
 end A221952.P1694209036406810663
 
-/-! ## A221952.P6688487178803459031
+namespace A221952
 
-`A216624(∑[n+5]+6)`
--/
+/-- `∑{d}[n+1, gcd(5, #)+1]` -/
+def P1694209036406810663.Spec : Prop :=
+  ∀ n, (P1694209036406810663.a n : ℤ) = A221952 (n + 1)
 
-namespace A221952.P6688487178803459031
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 5
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216624 (∑ j ∈ Finset.range (n + 1), f1 j + 6)
-
-end
-
-end A221952.P6688487178803459031
+end A221952
 
 /-! ## A221952.P15679228281543178447
 
@@ -7734,6 +7791,40 @@ end
 
 end A221952.P15679228281543178447
 
+namespace A221952
+
+/-- `∑{d}[n+1, A109009(#)+1]` -/
+def P15679228281543178447.Spec : Prop :=
+  ∀ n, P15679228281543178447.a n = A221952 (n + 1)
+
+end A221952
+
+/-! ## A221952.P6688487178803459031
+
+`A216624(∑[n+5]+6)`
+-/
+
+namespace A221952.P6688487178803459031
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 5
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216624 (∑ j ∈ Finset.range (n + 1), f1 j + 6)
+
+end
+
+end A221952.P6688487178803459031
+
+namespace A221952
+
+/-- `A216624(∑[n+5]+6)` -/
+def P6688487178803459031.Spec : Prop :=
+  ∀ n, P6688487178803459031.a n = A221952 (n + 1)
+
+end A221952
+
 /-! ## A221952.P2075277522878050321
 
 `lcm(2, A216624(A046691(n+3)))`
@@ -7749,20 +7840,13 @@ end
 
 end A221952.P2075277522878050321
 
-/-! ## A221952.P2265724084774528917
+namespace A221952
 
-`A216624(A000124(n+4)+4)%55`
--/
+/-- `lcm(2, A216624(A046691(n+3)))` -/
+def P2075277522878050321.Spec : Prop :=
+  ∀ n, (P2075277522878050321.a n : ℤ) = A221952 (n + 1)
 
-namespace A221952.P2265724084774528917
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A216624 (A000124 (n + 4) + 4).toNat) 55
-
-end
-
-end A221952.P2265724084774528917
+end A221952
 
 /-! ## A221952.P3154375285165113935
 
@@ -7782,6 +7866,14 @@ end
 
 end A221952.P3154375285165113935
 
+namespace A221952
+
+/-- `A216624(Δ[A023545(n+1)])%(n+12)` -/
+def P3154375285165113935.Spec : Prop :=
+  ∀ n, P3154375285165113935.a n = A221952 (n + 1)
+
+end A221952
+
 /-! ## A221952.P14747747387508231730
 
 `A216624(A046691(n+3))%A000041(n+6)`
@@ -7797,6 +7889,14 @@ end
 
 end A221952.P14747747387508231730
 
+namespace A221952
+
+/-- `A216624(A046691(n+3))%A000041(n+6)` -/
+def P14747747387508231730.Spec : Prop :=
+  ∀ n, P14747747387508231730.a n = A221952 (n + 1)
+
+end A221952
+
 /-! ## A221952.P2231891299501062197
 
 `A000041(gcd(n, n+1))*A216624(A000124(n+4)+4)`
@@ -7811,6 +7911,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A221952.P2231891299501062197
+
+namespace A221952
+
+/-- `A000041(gcd(n, n+1))*A216624(A000124(n+4)+4)` -/
+def P2231891299501062197.Spec : Prop :=
+  ∀ n, P2231891299501062197.a n = A221952 (n + 1)
+
+end A221952
 
 /-!
 # A221953: a(n) = 5^(n-1) * n! * Catalan(n-1).

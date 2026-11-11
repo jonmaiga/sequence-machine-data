@@ -30,6 +30,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
@@ -68,6 +69,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -794,6 +796,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305611.P1961511247724226889
+
+/-! ## A305611.P4437010283101439676
+
+`A072671(n)%A167447(n+1)`
+-/
+
+namespace A305611.P4437010283101439676
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A072671 n) (A167447 (n + 1))
+
+end
+
+end A305611.P4437010283101439676
 
 /-!
 # A305612: Expansion of 1/2 * (((1 + 2*x)/(1 - 2*x))^(3/2) - 1).
@@ -2493,23 +2510,29 @@ end A305625
 /-!
 # A305626: Number of chiral pairs of rows of n colors with exactly 6 different colors.
 
-The programs for A305626, there is no canonical definition to state claims against.
+The programs for A305626, the canonical program `A305626.P8158078458905570387` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305626 has offset 1).
+
+The definition of A305626 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000920, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A305626.P8158078458905570387
 
 `A000920(n+1)-A056313(n+1)`
+
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
-namespace A305626.P8158078458905570387
-noncomputable section
+namespace A305626
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000920 (n + 1) - A056313 (n + 1)
+/-- `A000920(n+1)-A056313(n+1)` -/
+def P8158078458905570387.Spec : Prop :=
+  ∀ n, P8158078458905570387.a n = A305626 (n + 1)
 
-end
+theorem P8158078458905570387.correct : P8158078458905570387.Spec := by
+  intro n
+  simp only [A305626, Nat.add_sub_cancel]
 
-end A305626.P8158078458905570387
+end A305626
 
 /-! ## A305626.P1318492117899760151
 
@@ -2526,6 +2549,14 @@ end
 
 end A305626.P1318492117899760151
 
+namespace A305626
+
+/-- `A056313(n+1)-A056457(n+1)` -/
+def P1318492117899760151.Spec : Prop :=
+  ∀ n, P1318492117899760151.a n = A305626 (n + 1)
+
+end A305626
+
 /-! ## A305626.P8300162287224923883
 
 `(A000920(n+1)-A056457(n+1))/2`
@@ -2540,6 +2571,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A305626.P8300162287224923883
+
+namespace A305626
+
+/-- `(A000920(n+1)-A056457(n+1))/2` -/
+def P8300162287224923883.Spec : Prop :=
+  ∀ n, P8300162287224923883.a n = (A305626 (n + 1) : ℚ)
+
+end A305626
 
 /-! ## A305626.P11376939494327256787
 
@@ -2556,6 +2595,14 @@ end
 
 end A305626.P11376939494327256787
 
+namespace A305626
+
+/-- `A056492(2*n+1)-A056313(n+1)` -/
+def P11376939494327256787.Spec : Prop :=
+  ∀ n, P11376939494327256787.a n = A305626 (n + 1)
+
+end A305626
+
 /-! ## A305626.P399918174487200583
 
 `A056313(n+1)-A000920(A008619(n))`
@@ -2570,6 +2617,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305626.P399918174487200583
+
+namespace A305626
+
+/-- `A056313(n+1)-A000920(A008619(n))` -/
+def P399918174487200583.Spec : Prop :=
+  ∀ n, P399918174487200583.a n = A305626 (n + 1)
+
+end A305626
 
 /-! ## A305626.P12803896715970817423
 
@@ -2586,6 +2641,14 @@ end
 
 end A305626.P12803896715970817423
 
+namespace A305626
+
+/-- `(A000920(n+1)-A000920(A008619(n)))/2` -/
+def P12803896715970817423.Spec : Prop :=
+  ∀ n, P12803896715970817423.a n = (A305626 (n + 1) : ℚ)
+
+end A305626
+
 /-! ## A305626.P7791486397576676345
 
 `A305622(A077169(n)+1+n)`
@@ -2600,6 +2663,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305626.P7791486397576676345
+
+namespace A305626
+
+/-- `A305622(A077169(n)+1+n)` -/
+def P7791486397576676345.Spec : Prop :=
+  ∀ n, P7791486397576676345.a n = A305626 (n + 1)
+
+end A305626
 
 /-!
 # A305627: a(n) = (2^n / n!) * (2^1 - 1) * (2^2 - 1) * ... * (2^n - 1).

@@ -28,6 +28,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -60,6 +61,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -494,20 +496,26 @@ end
 
 end A380408.P3558958750179399607
 
-/-! ## A380408.P14590065576495217898
+/-! ## A380408.P16177167021311174524
 
-`or(A004526(3*n), A181837(A181835(n)))`
+`eq[A034457(n+1), A253786(n)]`
 -/
 
-namespace A380408.P14590065576495217898
+namespace A380408.P16177167021311174524
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A004526 (3 * n)) (A181837 (A181835 n).toNat)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034457 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253786 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A380408.P14590065576495217898
+end A380408.P16177167021311174524
 
 /-!
 # A380409: Product of prime indices plus sum of prime factors.
@@ -692,7 +700,7 @@ def P15675462953465971601.Spec : Prop :=
 
 theorem P15675462953465971601.correct : P15675462953465971601.Spec := by
   intro n
-  simp only [A380409, Nat.add_sub_cancel, A380409.P15675462953465971601.a, A380409.P2904522340196299969.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A003963, A003963.P6853423646423809573.a, A100006, A100006.P10301543697715186993.f1, A100006.P10301543697715186993.a, A156552, A156552.P4268073137713085227.a, A243499, A243499.P13821279400790425584.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A023416, A023416.P8124303482289229133.a, A053645, A053645.P13234994043849603743.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
+  simp only [A380409, Nat.add_sub_cancel, A380409.P15675462953465971601.a, A380409.P2904522340196299969.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A003963, A003963.P6853423646423809573.a, A100006, A100006.P11597658631363148966.a, A156552, A156552.P4268073137713085227.a, A243499, A243499.P13821279400790425584.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A023416, A023416.P8124303482289229133.a, A053645, A053645.P13234994043849603743.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -3155,29 +3163,6 @@ theorem P12704157427481873132.correct : P12704157427481873132.Spec := by
 
 end A380439
 
-/-! ## A380439.P2958731626242305414
-
-`A259387(n+1)%A053150(n+1)`
--/
-
-namespace A380439.P2958731626242305414
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A259387 (n + 1)) (A053150 (n + 1))
-
-end
-
-end A380439.P2958731626242305414
-
-namespace A380439
-
-/-- `A259387(n+1)%A053150(n+1)` -/
-def P2958731626242305414.Spec : Prop :=
-  ∀ n, P2958731626242305414.a n = A380439 (n + 1)
-
-end A380439
-
 /-!
 # A380440: a(n) = 1 if n has no squarefree divisor d such that d^2 > n, otherwise 0.
 
@@ -5016,19 +5001,19 @@ end
 
 end A380446.P4918327819595038416
 
-/-! ## A380446.P8001230458953731305
+/-! ## A380446.P3127182941883091541
 
-`∩[A075090(n+1), A363814(n+1)]`
+`∩[A066312(n+1), A124143(n+1)]`
 -/
 
-namespace A380446.P8001230458953731305
+namespace A380446.P3127182941883091541
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075090 (n + 1)
+  A066312 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363814 (n + 1)
+  A124143 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5036,7 +5021,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A380446.P8001230458953731305
+end A380446.P3127182941883091541
 
 /-!
 # A380447: Number of primes dividing n plus n times the number of nonprimes dividing n.

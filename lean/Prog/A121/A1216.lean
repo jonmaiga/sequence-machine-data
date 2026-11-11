@@ -1572,6 +1572,29 @@ def P2504513938846985291.Spec : Prop :=
 
 end A121613
 
+/-! ## A121613.P17363204121565915252
+
+`A000593(2*n+1)*A033999(n)`
+-/
+
+namespace A121613.P17363204121565915252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000593 (2 * n + 1) * A033999 n
+
+end
+
+end A121613.P17363204121565915252
+
+namespace A121613
+
+/-- `A000593(2*n+1)*A033999(n)` -/
+def P17363204121565915252.Spec : Prop :=
+  ∀ n, P17363204121565915252.a n = A121613 n
+
+end A121613
+
 /-!
 # A121614: Numbers that have composite sum of digits and prime sum of squares of digits.
 

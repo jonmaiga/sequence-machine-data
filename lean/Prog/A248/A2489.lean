@@ -34,7 +34,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2394,6 +2394,42 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A248927.P8006439235034202275
+
+/-! ## A248927.P13454668312841983280
+
+`filter[A401277(n), A153490(#)]`
+-/
+
+namespace A248927.P13454668312841983280
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401277 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A153490 (f1 j).toNat = 1) n)
+
+end
+
+end A248927.P13454668312841983280
+
+/-! ## A248927.P4145582082922858471
+
+`filter[A401277(n), A316917(#)]`
+-/
+
+namespace A248927.P4145582082922858471
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401277 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A316917 (f1 j).toNat = 1) n)
+
+end
+
+end A248927.P4145582082922858471
 
 /-! ## A248927.P6499923152746645285
 
@@ -4827,7 +4863,7 @@ end
 end A248972.P7067613910336415843
 
 /-!
-# A248974: Floor( 1/(n*sinh(1/n) + n*sin(1/n) - 2) ).
+# A248974: Floor(1/(n*sinh(1/n) + n*sin(1/n) - 2)).
 
 The programs for A248974, the canonical program `A248974.P1695471185607134810` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248974 has offset 1).
 

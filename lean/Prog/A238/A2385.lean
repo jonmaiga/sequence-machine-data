@@ -37,7 +37,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2877,14 +2877,14 @@ end A238528
 /-!
 # A238529: a(0) = a(1) = 0, and for n > 1, a(n) = number of iterations of A238525 (n modulo sopfr(n)) needed to reach either 0 or 1. Here sopfr(n) is the sum of the prime factors of n, with multiplicity, A001414.
 
-The programs for A238529, the canonical program `A238529.P2204490326490213076` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238529 has offset 0).
+The programs for A238529, the canonical program `A238529.P10773024009408837413` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238529 has offset 0).
 
 The definition of A238529 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A238529.P2204490326490213076
+/-! ## A238529.P10773024009408837413
 
-`1+a(A238525(n))` with `a(0)=0, a(1)=0`
+`1+a(A238525(n))` with `a(0)=0, a(1)=0, a(2)=1`
 
 The canonical program, it is in `Seq.B002.C005`.
 -/
@@ -2892,10 +2892,10 @@ The canonical program, it is in `Seq.B002.C005`.
 namespace A238529
 
 /-- `1+a(A238525(n))` -/
-def P2204490326490213076.Spec : Prop :=
-  ∀ n, (P2204490326490213076.a n : ℤ) = A238529 n
+def P10773024009408837413.Spec : Prop :=
+  ∀ n, (P10773024009408837413.a n : ℤ) = A238529 n
 
-theorem P2204490326490213076.correct : P2204490326490213076.Spec := by
+theorem P10773024009408837413.correct : P10773024009408837413.Spec := by
   intro n
   simp only [A238529]
 

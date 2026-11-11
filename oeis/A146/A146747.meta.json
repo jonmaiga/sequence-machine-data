@@ -8,12 +8,13 @@
     "A083795"
   ],
   "tags": [
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

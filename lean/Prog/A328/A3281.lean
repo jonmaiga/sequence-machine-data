@@ -9005,6 +9005,29 @@ def P12858809310201077599.Spec : Prop :=
 
 end A328183
 
+/-! ## A328183.P12933128047223240738
+
+`A000670(n)*A011782(2*n+1)`
+-/
+
+namespace A328183.P12933128047223240738
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000670 n * A011782 (2 * n + 1)
+
+end
+
+end A328183.P12933128047223240738
+
+namespace A328183
+
+/-- `A000670(n)*A011782(2*n+1)` -/
+def P12933128047223240738.Spec : Prop :=
+  ∀ n, P12933128047223240738.a n = A328183 n
+
+end A328183
+
 /-!
 # A328184: Denominator of time taken for a vertex of a rolling regular n-sided polygon to reach the ground.
 
@@ -10123,21 +10146,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328194.P11511064170984681978
-
-/-! ## A328194.P15709481993872230446
-
-`A235875(n+1)-A001222(A192594(n+1))`
--/
-
-namespace A328194.P15709481993872230446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235875 (n + 1) - A001222 (A192594 (n + 1)).toNat
-
-end
-
-end A328194.P15709481993872230446
 
 /-! ## A328194.P16783809805535484270
 

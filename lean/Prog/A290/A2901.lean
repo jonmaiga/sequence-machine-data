@@ -40,6 +40,7 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3070,6 +3071,29 @@ def P13813331979638552850.Spec : Prop :=
 
 end A290113
 
+/-! ## A290113.P5250414535015110100
+
+`A401544(n+2)-3`
+-/
+
+namespace A290113.P5250414535015110100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401544 (n + 2) - 3
+
+end
+
+end A290113.P5250414535015110100
+
+namespace A290113
+
+/-- `A401544(n+2)-3` -/
+def P5250414535015110100.Spec : Prop :=
+  ∀ n, P5250414535015110100.a n = A290113 n
+
+end A290113
+
 /-! ## A290113.P10793362644506371976
 
 `∑[A078485(n+1)]+n`
@@ -3119,29 +3143,6 @@ namespace A290113
 /-- `A052515(n+1)+Δ[n²]` -/
 def P2262618393098132736.Spec : Prop :=
   ∀ n, P2262618393098132736.a n = A290113 n
-
-end A290113
-
-/-! ## A290113.P12642590770775903218
-
-`2^(n+1)-A290858(n+2)`
--/
-
-namespace A290113.P12642590770775903218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 ^ (n + 1) : ℤ) - A290858 (n + 2)
-
-end
-
-end A290113.P12642590770775903218
-
-namespace A290113
-
-/-- `2^(n+1)-A290858(n+2)` -/
-def P12642590770775903218.Spec : Prop :=
-  ∀ n, P12642590770775903218.a n = A290113 n
 
 end A290113
 

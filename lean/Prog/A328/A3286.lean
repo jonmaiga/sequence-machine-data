@@ -1862,6 +1862,21 @@ end
 
 end A328611.P2933153819864266700
 
+/-! ## A328611.P4834349036478421120
+
+`A328610(n+1)+A326925(n+1)+A326925(n+1)`
+-/
+
+namespace A328611.P4834349036478421120
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328610 (n + 1) + A326925 (n + 1) + A326925 (n + 1)
+
+end
+
+end A328611.P4834349036478421120
+
 /-!
 # A328612: Starting with m = 1, p = 2 and x = n, iterate m -> m * p^valuation(x,p), x -> floor(x/p), p -> {next prime after p}, until x is zero. Then a(n) = {the value of m at the end of iteration}.
 

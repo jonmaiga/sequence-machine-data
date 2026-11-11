@@ -1,0 +1,15 @@
+{
+  "description": "Largest integer k such that, for every positive integer m, there exists a k-element subset of {1, ..., n} with no subset summing to m.",
+  "id": "A401619",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -49,7 +49,7 @@ import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1333,6 +1333,29 @@ def P5101828848561096565.Spec : Prop :=
 
 end A100504
 
+/-! ## A100504.P13808870146952404734
+
+`C(2*(n+1), 3)+2*(n+1)`
+-/
+
+namespace A100504.P13808870146952404734
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * (n + 1)) 3 + 2 * (n + 1)
+
+end
+
+end A100504.P13808870146952404734
+
+namespace A100504
+
+/-- `C(2*(n+1), 3)+2*(n+1)` -/
+def P13808870146952404734.Spec : Prop :=
+  ∀ n, (P13808870146952404734.a n : ℤ) = A100504 n
+
+end A100504
+
 /-! ## A100504.P10000523564463752697
 
 `(2*n)²-xor(-2, a(n-1))` with `a(0)=2`
@@ -1465,32 +1488,6 @@ namespace A100504
 /-- `∑[A016742(n)+2]` -/
 def P1602983668278180515.Spec : Prop :=
   ∀ n, P1602983668278180515.a n = A100504 n
-
-end A100504
-
-/-! ## A100504.P10829284471807639090
-
-`∑[A222465(n)-1]`
--/
-
-namespace A100504.P10829284471807639090
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222465 n - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A100504.P10829284471807639090
-
-namespace A100504
-
-/-- `∑[A222465(n)-1]` -/
-def P10829284471807639090.Spec : Prop :=
-  ∀ n, P10829284471807639090.a n = A100504 n
 
 end A100504
 
@@ -11456,6 +11453,32 @@ namespace A100575
 /-- `∑{#}[n, (-1)^#*3^(n-#)*C(n, #)*floor(#/2)]` -/
 def P2739376858927622430.Spec : Prop :=
   ∀ n, P2739376858927622430.a n = (A100575 n : ℚ)
+
+end A100575
+
+/-! ## A100575.P12463037847918180791
+
+`∑{#}[n-2, C(n, #)*2^(n-2)]`
+-/
+
+namespace A100575.P12463037847918180791
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 2
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.choose n k : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 2 : ℤ)
+
+end
+
+end A100575.P12463037847918180791
+
+namespace A100575
+
+/-- `∑{#}[n-2, C(n, #)*2^(n-2)]` -/
+def P12463037847918180791.Spec : Prop :=
+  ∀ n, P12463037847918180791.a n = (A100575 n : ℚ)
 
 end A100575
 

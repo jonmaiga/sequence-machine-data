@@ -27,6 +27,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -5861,6 +5862,21 @@ end
 
 end A252863.P16384905565044215734
 
+/-! ## A252863.P9118233938057012626
+
+`A000079(n)²*A004253(n+1)`
+-/
+
+namespace A252863.P9118233938057012626
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n ^ 2 * A004253 (n + 1)
+
+end
+
+end A252863.P9118233938057012626
+
 /-! ## A252863.P9314373506049744559
 
 `Δ[A004254(n)]*A000079(2*n)`
@@ -5878,6 +5894,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252863.P9314373506049744559
+
+/-! ## A252863.P1619699249169669665
+
+`A000079(2*n)*A004253(n+1)`
+-/
+
+namespace A252863.P1619699249169669665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 (2 * n) * A004253 (n + 1)
+
+end
+
+end A252863.P1619699249169669665
 
 /-! ## A252863.P5853304741988193344
 

@@ -2546,6 +2546,32 @@ def P489140824115163962.Spec : Prop :=
 
 end A306847
 
+/-! ## A306847.P8556043690293375061
+
+`1/6*∑{#}[5, (2*cos(π*#/6))^n*cos(π*n*#/6)]`
+-/
+
+namespace A306847.P8556043690293375061
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((1 : ℚ) / 6 : ℝ) * (∑ k ∈ Finset.range (f1 n + 1), (2 * Real.cos (Real.pi * (k : ℝ) / 6)) ^ n * Real.cos (Real.pi * (n : ℝ) * (k : ℝ) / 6))
+
+end
+
+end A306847.P8556043690293375061
+
+namespace A306847
+
+/-- `1/6*∑{#}[5, (2*cos(π*#/6))^n*cos(π*n*#/6)]` -/
+def P8556043690293375061.Spec : Prop :=
+  ∀ n, P8556043690293375061.a n = (A306847 n : ℝ)
+
+end A306847
+
 /-! ## A306847.P14115600872900738932
 
 `Δ[Δ[A227430(n)]]`
@@ -6399,6 +6425,55 @@ namespace A306898
 /-- `∑{d}[n+1, #*A045663((n+1)/#)]` -/
 def P13797825409787643513.Spec : Prop :=
   ∀ n, P13797825409787643513.a n = A306898 (n + 1)
+
+end A306898
+
+/-! ## A306898.P15262716689702592351
+
+`∑{d}[n+1, A000010(2*#)*2^((n+1)/#)]`
+-/
+
+namespace A306898.P15262716689702592351
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (A000010 (2 * d) : ℝ) * (2 : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) : ℝ)
+
+end
+
+end A306898.P15262716689702592351
+
+namespace A306898
+
+/-- `∑{d}[n+1, A000010(2*#)*2^((n+1)/#)]` -/
+def P15262716689702592351.Spec : Prop :=
+  ∀ n, P15262716689702592351.a n = (A306898 (n + 1) : ℝ)
+
+end A306898
+
+/-! ## A306898.P12347765519951455246
+
+`A306905(n+1)+A306905(n+1)`
+-/
+
+namespace A306898.P12347765519951455246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306905 (n + 1) + A306905 (n + 1)
+
+end
+
+end A306898.P12347765519951455246
+
+namespace A306898
+
+/-- `A306905(n+1)+A306905(n+1)` -/
+def P12347765519951455246.Spec : Prop :=
+  ∀ n, P12347765519951455246.a n = A306898 (n + 1)
 
 end A306898
 

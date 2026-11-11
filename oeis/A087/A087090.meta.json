@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers n such that p=n^2+n+41 and p+2 are twin primes.",
+  "description": "Positive numbers k such that p=k^2+k+41 and p+2 are twin primes.",
   "id": "A087090",
   "mentions": [
     "A007634",

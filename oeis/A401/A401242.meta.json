@@ -1,0 +1,16 @@
+{
+  "description": "Maximum entry in the n-th row of A032531 read as a triangle.",
+  "id": "A401242",
+  "mentions": [
+    "A032531",
+    "A107263"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

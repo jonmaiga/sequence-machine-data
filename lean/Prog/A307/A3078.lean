@@ -21,7 +21,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -32,7 +31,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
@@ -65,6 +63,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1727,28 +1726,6 @@ end
 
 end A307824.P9762779006662022486
 
-/-! ## A307824.P10755754839538831591
-
-`∩[A241912(n+1), A085924(n)]`
--/
-
-namespace A307824.P10755754839538831591
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241912 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A307824.P10755754839538831591
-
 /-! ## A307824.P7979619969148889606
 
 `lt[A001221(A325351(n+1)), 2]+1`
@@ -1813,6 +1790,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A307824.P17334853964313997428
+
+/-! ## A307824.P14158252098026810695
+
+`∩[A085924(n+1), A241912(n+1)]`
+-/
+
+namespace A307824.P14158252098026810695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085924 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241912 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307824.P14158252098026810695
 
 /-! ## A307824.P3402251419338829287
 
@@ -3011,6 +3010,29 @@ The programs for A307848, the canonical program `A307848.P12640290595922898816` 
 
 The definition of A307848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A307848.P8679583134575948677
+
+`2^A401505(n+1)`
+-/
+
+namespace A307848.P8679583134575948677
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (A401505 (n + 1) : ℤ)
+
+end
+
+end A307848.P8679583134575948677
+
+namespace A307848
+
+/-- `2^A401505(n+1)` -/
+def P8679583134575948677.Spec : Prop :=
+  ∀ n, P8679583134575948677.a n = (A307848 (n + 1) : ℚ)
+
+end A307848
 
 /-! ## A307848.P12794523786697287752
 

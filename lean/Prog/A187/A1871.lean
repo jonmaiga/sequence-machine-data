@@ -32,7 +32,6 @@ import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C048
@@ -8520,28 +8519,6 @@ end A187184.P2190885385113277176
 
 The programs for A187185, there is no canonical definition to state claims against.
 -/
-
-/-! ## A187185.P16559093849151988492
-
-`∑[char[7*A087041(n)]]`
--/
-
-namespace A187185.P16559093849151988492
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  7 * A087041 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A187185.P16559093849151988492
 
 /-! ## A187185.P8574217885733532923
 

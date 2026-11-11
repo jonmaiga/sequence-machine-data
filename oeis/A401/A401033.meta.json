@@ -1,5 +1,5 @@
 {
-  "description": "Let m = prime(n), then a(n) is the smallest prime p for which (p^m-(q-p)^m)/(2*p-q) is prime where q is the next prime after p; or -1 if no such prime exists.",
+  "description": "a(n) is the smallest prime p for which (p^m-(q-p)^m)/(2*p-q) is prime where m = prime(n) and q is the next prime after p; or -1 if no such prime exists.",
   "id": "A401033",
   "mentions": [
     "A000040"

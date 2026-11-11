@@ -296,20 +296,20 @@ end
 
 end A316402.P2115923265207507855
 
-/-! ## A316402.P9527792192062984244
+/-! ## A316402.P10474403468711158686
 
-`and(A366331(n)-1, A364272(n+1))`
+`A364272(A043320(n+1))`
 -/
 
-namespace A316402.P9527792192062984244
+namespace A316402.P10474403468711158686
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A366331 n - 1) (A364272 (n + 1))
+  A364272 (A043320 (n + 1)).toNat
 
 end
 
-end A316402.P9527792192062984244
+end A316402.P10474403468711158686
 
 /-!
 # A316403: Number of multisets of exactly two nonempty binary words with a total of n letters such that no word has a majority of 0's.
@@ -9687,6 +9687,21 @@ end
 
 end A316482.P10366828014307162457
 
+/-! ## A316482.P9285245863010702787
+
+`A000290(A164770(n+1))`
+-/
+
+namespace A316482.P9285245863010702787
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A164770 (n + 1)).toNat
+
+end
+
+end A316482.P9285245863010702787
+
 /-!
 # A316483: Squares whose arithmetic mean of digits is 3 (i.e., the sum of digits is 3 times the number of digits).
 
@@ -9782,6 +9797,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A316483.P241920152929310956
+
+/-! ## A316483.P12085845064062594488
+
+`A000290(A164782(n+1))`
+-/
+
+namespace A316483.P12085845064062594488
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A164782 (n + 1)).toNat
+
+end
+
+end A316483.P12085845064062594488
 
 /-!
 # A316484: Squares whose arithmetic mean of digits is 4 (i.e., the sum of digits is 4 times the number of digits).
@@ -9890,6 +9920,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A316484.P10095179199460909914
+
+/-! ## A316484.P16664931283935992836
+
+`A000290(A164776(n+1))`
+-/
+
+namespace A316484.P16664931283935992836
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A164776 (n + 1)).toNat
+
+end
+
+end A316484.P16664931283935992836
 
 /-!
 # A316485: Squares whose arithmetic mean of digits is 5 (i.e., the sum of digits is 5 times the number of digits).
@@ -10621,6 +10666,28 @@ end
 
 end A316494.P13578424207813882265
 
+/-! ## A316494.P2581113907450113669
+
+`∩[A302798(n+1), A316503(n+1)]`
+-/
+
+namespace A316494.P2581113907450113669
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302798 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316503 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A316494.P2581113907450113669
+
 /-! ## A316494.P12182305433188019435
 
 `∩[A302534(n+1), A316503(n+1)]`
@@ -10665,19 +10732,19 @@ end
 
 end A316494.P9498053044710255462
 
-/-! ## A316494.P9153847729493368359
+/-! ## A316494.P4405479921475764832
 
-`∩[A276625(n+1), A302798(n+1)]`
+`∩[A276625(n+1), A331682(n+1)]`
 -/
 
-namespace A316494.P9153847729493368359
+namespace A316494.P4405479921475764832
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A276625 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302798 (n + 1)
+  A331682 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -10685,29 +10752,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A316494.P9153847729493368359
-
-/-! ## A316494.P15308044663128447284
-
-`∩[A297571(n+1), A302798(n+1)]`
--/
-
-namespace A316494.P15308044663128447284
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A297571 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302798 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A316494.P15308044663128447284
+end A316494.P4405479921475764832
 
 /-!
 # A316495: Matula-Goebel numbers of locally disjoint unlabeled rooted trees, meaning no branch overlaps any other (unequal) branch of the same root.

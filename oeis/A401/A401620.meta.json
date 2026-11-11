@@ -1,0 +1,16 @@
+{
+  "description": "Sum of products of parts in all partitions of n into relatively prime parts.",
+  "id": "A401620",
+  "mentions": [
+    "A000837",
+    "A006906"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

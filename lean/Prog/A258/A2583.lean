@@ -24,7 +24,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -34,7 +33,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
@@ -50,6 +48,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3985,21 +3984,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258341.P17790550019979359156
-
-/-! ## A258341.P10187812849608354493
-
-`A225524(n)-A005614(A321911(n+1))`
--/
-
-namespace A258341.P10187812849608354493
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225524 n - A005614 (A321911 (n + 1)).toNat
-
-end
-
-end A258341.P10187812849608354493
 
 /-!
 # A258342: Expansion of Product_{k>=1} (1+x^k)^(k*(k+1)*(k+2)).

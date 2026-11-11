@@ -38,7 +38,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -77,7 +77,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A029500: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 7 (most significant digit on right).
+# A029500: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 7 (most significant digit on right).
 
 The programs for A029500, there is no canonical definition to state claims against.
 -/
@@ -98,7 +98,7 @@ end
 end A029500.P12044902393048446431
 
 /-!
-# A029501: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 8 (most significant digit on right).
+# A029501: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 8 (most significant digit on right).
 
 The programs for A029501, there is no canonical definition to state claims against.
 -/
@@ -164,7 +164,7 @@ end
 end A029501.P10649040625425654496
 
 /-!
-# A029502: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 9 (most significant digit on right).
+# A029502: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 9 (most significant digit on right).
 
 The programs for A029502, there is no canonical definition to state claims against.
 -/
@@ -185,7 +185,7 @@ end
 end A029502.P7546953645994872999
 
 /-!
-# A029503: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 10 (most significant digit on right).
+# A029503: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 10 (most significant digit on right).
 
 The programs for A029503, there is no canonical definition to state claims against.
 -/
@@ -296,7 +296,7 @@ end
 end A029503.P9992010482499747461
 
 /-!
-# A029505: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 12 (most significant digit on right).
+# A029505: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 12 (most significant digit on right).
 
 The programs for A029505, there is no canonical definition to state claims against.
 -/

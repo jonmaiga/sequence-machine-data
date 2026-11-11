@@ -1739,6 +1739,28 @@ end
 
 end A201711.P1459746480164447217
 
+/-! ## A201711.P3324978459568914779
+
+`∩[A089724(n+1), A275058(n+1)]`
+-/
+
+namespace A201711.P3324978459568914779
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089724 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275058 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A201711.P3324978459568914779
+
 /-! ## A201711.P10296023600504774575
 
 `∩[A132234(n+1), A275058(n+1)]`
@@ -1760,27 +1782,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A201711.P10296023600504774575
-
-/-! ## A201711.P947954172822263151
-
-`A007318(∑[n])*p?[A005901(n)+7]`
--/
-
-namespace A201711.P947954172822263151
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005901 n + 7
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (∑ j ∈ Finset.range (n + 1), f1 j) * f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-end
-
-end A201711.P947954172822263151
 
 /-!
 # A201712: Primes of the form 2n^2 - 3.

@@ -1,9 +1,17 @@
 {
-  "description": "Number of digits in the least n-parasitic number.",
+  "description": "Number of digits in the least n-parasitic number > 0.",
   "id": "A094224",
   "mentions": [
     "A055642",
-    "A092697"
+    "A092697",
+    "A146088",
+    "A146561",
+    "A146569",
+    "A146754",
+    "A291215",
+    "A291321",
+    "A291353",
+    "A291354"
   ],
   "tags": [
     "base",

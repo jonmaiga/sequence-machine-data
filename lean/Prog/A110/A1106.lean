@@ -41,6 +41,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
@@ -5823,23 +5824,23 @@ end
 
 end A110623.P10107613787281869911
 
-/-! ## A110623.P11465454914111131813
+/-! ## A110623.P1741135608560207568
 
-`∑[A119788(A044107(n+1))+n]`
+`∑[(n+1)*A143532((n+1)²)]`
 -/
 
-namespace A110623.P11465454914111131813
+namespace A110623.P1741135608560207568
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119788 (A044107 (n + 1)).toNat + (n : ℤ)
+  (n + 1 : ℤ) * A143532 ((n + 1) ^ 2)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A110623.P11465454914111131813
+end A110623.P1741135608560207568
 
 /-!
 # A110625: Numerator of b(n) = -Sum_{k=1..n} A037861(k)/((2*k)*(2*k+1)), where A037861(k) = (number of 0's) - (number of 1's) in the binary representation of k.

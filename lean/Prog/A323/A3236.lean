@@ -21,6 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -2058,25 +2059,25 @@ end A323628.P10688227388469898098
 /-!
 # A323629: List of 6-powerful numbers (for the definition of k-powerful see A323395).
 
-The programs for A323629, the canonical program `A323629.P7014104195259761160` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323629 has offset 1).
+The programs for A323629, the canonical program `A323629.P1539030215471937939` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323629 has offset 1).
 
 The definition of A323629 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A323629.P7014104195259761160
+/-! ## A323629.P1539030215471937939
 
-`ogf((96-64x-16x^2-8x^6)/(1-2x+x^2))`
+`ogf((96-80x-8x^7)/(1-2x+x^2))`
 
 The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A323629
 
-/-- `ogf((96-64x-16x^2-8x^6)/(1-2x+x^2))` -/
-def P7014104195259761160.Spec : Prop :=
-  ∀ n, P7014104195259761160.a n = A323629 (n + 1)
+/-- `ogf((96-80x-8x^7)/(1-2x+x^2))` -/
+def P1539030215471937939.Spec : Prop :=
+  ∀ n, P1539030215471937939.a n = A323629 (n + 1)
 
-theorem P7014104195259761160.correct : P7014104195259761160.Spec := by
+theorem P1539030215471937939.correct : P1539030215471937939.Spec := by
   intro n
   simp only [A323629, Nat.add_sub_cancel]
 

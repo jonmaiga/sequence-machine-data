@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that {the largest divisor of sigma(k) coprime with k} is a power of 2 larger than 1.",
+  "id": "A401389",
+  "mentions": [
+    "A000203",
+    "A209229",
+    "A336702",
+    "A401375",
+    "A401381"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

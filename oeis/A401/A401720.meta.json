@@ -1,0 +1,29 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j), A003557(i) = A003557(j) and A053669(i) = A053669(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, A003557(n) is n divided by its squarefree kernel, and A053669(n) is the smallest prime not dividing n.",
+  "id": "A401720",
+  "mentions": [
+    "A003557",
+    "A046523",
+    "A053669",
+    "A101296",
+    "A294877",
+    "A305801",
+    "A305891",
+    "A319347",
+    "A328470",
+    "A353520",
+    "A361026",
+    "A401714",
+    "A401716",
+    "A401717"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -17,7 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -47,6 +47,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -4852,20 +4853,20 @@ end
 
 end A335548.P9511198111788740406
 
-/-! ## A335548.P2143679908665259648
+/-! ## A335548.P2185564200707664271
 
-`A325362(A210540(n))-1`
+`A050723(A103198(n))`
 -/
 
-namespace A335548.P2143679908665259648
+namespace A335548.P2185564200707664271
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325362 (A210540 n).toNat - 1
+  A050723 (A103198 n).toNat
 
 end
 
-end A335548.P2143679908665259648
+end A335548.P2185564200707664271
 
 /-!
 # A335550: Number of minimal normal patterns avoided by the prime indices of n in increasing or decreasing order, counting multiplicity.
@@ -5702,6 +5703,21 @@ end A335560
 The programs for A335562, there is no canonical definition to state claims against.
 -/
 
+/-! ## A335562.P12876008745576597655
+
+`A168315(A401130(n))`
+-/
+
+namespace A335562.P12876008745576597655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168315 (A401130 n).toNat
+
+end
+
+end A335562.P12876008745576597655
+
 /-! ## A335562.P11647127778021498143
 
 `A168315(A069792(n+1))`
@@ -5761,27 +5777,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335562.P7580998390289861442
-
-/-! ## A335562.P5976141422365780248
-
-`A168315(eq[0, A137312(n)])`
--/
-
-namespace A335562.P5976141422365780248
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137312 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168315 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A335562.P5976141422365780248
 
 /-!
 # A335567: Number of distinct positive integer pairs (s,t) such that s <= t < n where neither s nor t divides n.

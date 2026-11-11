@@ -24,7 +24,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -7188,30 +7187,30 @@ def P16533907189213323056.Spec : Prop :=
 
 end A089241
 
-/-! ## A089241.P15964802841853606260
+/-! ## A089241.P9199523972244720243
 
-`2*(A000040(n+1)+1)`
+`(1+A000040(n+1))*2`
 -/
 
-namespace A089241.P15964802841853606260
+namespace A089241.P9199523972244720243
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A000040 (n + 1) + 1)
+  (1 + A000040 (n + 1)) * 2
 
 end
 
-end A089241.P15964802841853606260
+end A089241.P9199523972244720243
 
 namespace A089241
 
-/-- `2*(A000040(n+1)+1)` -/
-def P15964802841853606260.Spec : Prop :=
-  ∀ n, P15964802841853606260.a n = A089241 (n + 1)
+/-- `(1+A000040(n+1))*2` -/
+def P9199523972244720243.Spec : Prop :=
+  ∀ n, P9199523972244720243.a n = A089241 (n + 1)
 
-theorem P15964802841853606260.correct : P15964802841853606260.Spec := by
+theorem P9199523972244720243.correct : P9199523972244720243.Spec := by
   intro n
-  simp only [A089241, Nat.add_sub_cancel, A089241.P15964802841853606260.a, A089241.P14705987553220613803.a, SequenceMachineLib.memo_apply]
+  simp only [A089241, Nat.add_sub_cancel, A089241.P9199523972244720243.a, A089241.P14705987553220613803.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 

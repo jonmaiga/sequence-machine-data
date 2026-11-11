@@ -41,7 +41,7 @@ import Seq.B000.C039
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7367,6 +7367,29 @@ def P16570874561130805578.Spec : Prop :=
 
 end A110344
 
+/-! ## A110344.P199582552516714481
+
+`A160791(2*n)+A065679(n+1)`
+-/
+
+namespace A110344.P199582552516714481
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160791 (2 * n) + A065679 (n + 1)
+
+end
+
+end A110344.P199582552516714481
+
+namespace A110344
+
+/-- `A160791(2*n)+A065679(n+1)` -/
+def P199582552516714481.Spec : Prop :=
+  ∀ n, P199582552516714481.a n = A110344 (n + 1)
+
+end A110344
+
 /-! ## A110344.P3782955463071719372
 
 `A245288(A014601(n+1))`
@@ -7410,29 +7433,6 @@ namespace A110344
 /-- `A245288(A154708(n+1))` -/
 def P16281695503097164375.Spec : Prop :=
   ∀ n, P16281695503097164375.a n = A110344 (n + 1)
-
-end A110344
-
-/-! ## A110344.P9687841078348674513
-
-`A245288(A042963(n+1)+2)`
--/
-
-namespace A110344.P9687841078348674513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245288 (A042963 (n + 1) + 2).toNat
-
-end
-
-end A110344.P9687841078348674513
-
-namespace A110344
-
-/-- `A245288(A042963(n+1)+2)` -/
-def P9687841078348674513.Spec : Prop :=
-  ∀ n, P9687841078348674513.a n = A110344 (n + 1)
 
 end A110344
 
@@ -10706,32 +10706,26 @@ def P8426573970540884541.Spec : Prop :=
 
 end A110371
 
-/-! ## A110371.P8619712149431411403
+/-! ## A110371.P12681087645322912194
 
-`∏[2*(2*n+1)]/∑[n+1]`
+`2*A000142(n)*A000108(n+1)`
 -/
 
-namespace A110371.P8619712149431411403
+namespace A110371.P12681087645322912194
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * (2 * n + 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ) / ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A000142 n * A000108 (n + 1)
 
 end
 
-end A110371.P8619712149431411403
+end A110371.P12681087645322912194
 
 namespace A110371
 
-/-- `∏[2*(2*n+1)]/∑[n+1]` -/
-def P8619712149431411403.Spec : Prop :=
-  ∀ n, P8619712149431411403.a n = (A110371 (n + 1) : ℚ)
+/-- `2*A000142(n)*A000108(n+1)` -/
+def P12681087645322912194.Spec : Prop :=
+  ∀ n, P12681087645322912194.a n = A110371 (n + 1)
 
 end A110371
 

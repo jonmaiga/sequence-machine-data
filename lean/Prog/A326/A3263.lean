@@ -123,7 +123,7 @@ set_option linter.unreachableTactic false
 /-!
 # A326300: Steinhaus sums.
 
-The programs for A326300, the canonical program `A326300.P5632815680627957516` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326300 has offset 1).
+The programs for A326300, the canonical program `A326300.P5632815680627957516` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326300 has offset 1).
 
 The definition of A326300 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -132,7 +132,7 @@ The definition of A326300 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A006520(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326300
@@ -970,7 +970,7 @@ end A326304.P2577000656088880112
 /-!
 # A326305: Dirichlet g.f.: zeta(s-1) * (1 - 2^(-s)) / zeta(s).
 
-The programs for A326305, the canonical program `A326305.P11220219693128735356` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326305 has offset 1).
+The programs for A326305, the canonical program `A326305.P11220219693128735356` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326305 has offset 1).
 
 The definition of A326305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1005,7 +1005,7 @@ end A326305
 
 `∑{d}[n+1, A007427((n+1)/#)*A002131(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326305
@@ -1455,7 +1455,7 @@ end A326305
 /-!
 # A326306: Dirichlet g.f.: zeta(s) * zeta(s-1) * Product_{p prime} (1 - p^(1 - s) + p^(-s)).
 
-The programs for A326306, the canonical program `A326306.P11364322021565268568` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326306 has offset 1).
+The programs for A326306, the canonical program `A326306.P11364322021565268568` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326306 has offset 1).
 
 The definition of A326306 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1464,7 +1464,7 @@ The definition of A326306 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, A003557(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326306
@@ -1820,7 +1820,7 @@ end A326306
 /-!
 # A326307: a(n) is the index of n in the ordered list of the numbers with the same digits as n.
 
-The programs for A326307, the canonical program `A326307.P8715828953691084420` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326307 has offset 0).
+The programs for A326307, the canonical program `A326307.P8715828953691084420` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326307 has offset 0).
 
 The definition of A326307 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2039,7 +2039,7 @@ end A326307
 
 `abs(A095827(n+1)-A217096(n))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326307
@@ -3870,6 +3870,52 @@ namespace A326329
 /-- `A141036(2*n)-A000213(2*n)` -/
 def P6637487070995531153.Spec : Prop :=
   ∀ n, P6637487070995531153.a n = A326329 n
+
+end A326329
+
+/-! ## A326329.P6558797862502030701
+
+`A141523(2*n)-A141036(2*n)`
+-/
+
+namespace A326329.P6558797862502030701
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141523 (2 * n) - A141036 (2 * n)
+
+end
+
+end A326329.P6558797862502030701
+
+namespace A326329
+
+/-- `A141523(2*n)-A141036(2*n)` -/
+def P6558797862502030701.Spec : Prop :=
+  ∀ n, P6558797862502030701.a n = A326329 n
+
+end A326329
+
+/-! ## A326329.P17001546220305970486
+
+`A000213(2*n)-A000073(2*n+1)`
+-/
+
+namespace A326329.P17001546220305970486
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000213 (2 * n) - A000073 (2 * n + 1)
+
+end
+
+end A326329.P17001546220305970486
+
+namespace A326329
+
+/-- `A000213(2*n)-A000073(2*n+1)` -/
+def P17001546220305970486.Spec : Prop :=
+  ∀ n, P17001546220305970486.a n = A326329 n
 
 end A326329
 

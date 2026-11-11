@@ -8662,6 +8662,21 @@ end
 
 end A265357.P3060200907621652547
 
+/-! ## A265357.P6956308551668716901
+
+`A264991(A264985(A263272(A264992(A264991(n)))))`
+-/
+
+namespace A265357.P6956308551668716901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264991 (A264985 (A263272 (A264992 (A264991 n).toNat).toNat).toNat).toNat
+
+end
+
+end A265357.P6956308551668716901
+
 /-! ## A265357.P9864444111934992449
 
 `fo[A265358(n)]`
@@ -8799,21 +8814,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265357.P14998100542352850038
-
-/-! ## A265357.P14908823110129126863
-
-`A265362(A265367(A264974(A265363(n))))`
--/
-
-namespace A265357.P14908823110129126863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265362 (A265367 (A264974 (A265363 n).toNat).toNat).toNat
-
-end
-
-end A265357.P14908823110129126863
 
 /-!
 # A265358: Permutation of nonnegative integers: a(n) = A263272(A264989(n)).
@@ -11389,6 +11389,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265366.P6603738222026610496
+
+/-! ## A265366.P10457428253742288587
+
+`A264976(A265367(A264978(A264975(A264976(n)))))`
+-/
+
+namespace A265366.P10457428253742288587
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264976 (A265367 (A264978 (A264975 (A264976 n).toNat).toNat).toNat).toNat
+
+end
+
+end A265366.P10457428253742288587
 
 /-!
 # A265367: Permutation of nonnegative integers: a(n) = A264974(A263272(A263273(n))).

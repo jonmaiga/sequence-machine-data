@@ -2776,6 +2776,29 @@ def P4962463489943269438.Spec : Prop :=
 
 end A078818
 
+/-! ## A078818.P3223216391301828439
+
+`C(2*n, n)*30/(n+3)`
+-/
+
+namespace A078818.P3223216391301828439
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 * n) n : ℚ) * (30 / (n + 3 : ℚ))
+
+end
+
+end A078818.P3223216391301828439
+
+namespace A078818
+
+/-- `C(2*n, n)*30/(n+3)` -/
+def P3223216391301828439.Spec : Prop :=
+  ∀ n, P3223216391301828439.a n = (A078818 n : ℚ)
+
+end A078818
+
 /-!
 # A078819: a(n) = 140*C(2n,n)/(n+4).
 
@@ -3049,6 +3072,29 @@ namespace A078819
 /-- `A033820(eq[4, A002260(n+1)])` -/
 def P17777726254496760885.Spec : Prop :=
   ∀ n, P17777726254496760885.a n = A078819 n
+
+end A078819
+
+/-! ## A078819.P3005765072453247922
+
+`C(2*n, n)*140/(n+4)`
+-/
+
+namespace A078819.P3005765072453247922
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 * n) n : ℚ) * (140 / (n + 4 : ℚ))
+
+end
+
+end A078819.P3005765072453247922
+
+namespace A078819
+
+/-- `C(2*n, n)*140/(n+4)` -/
+def P3005765072453247922.Spec : Prop :=
+  ∀ n, P3005765072453247922.a n = (A078819 n : ℚ)
 
 end A078819
 

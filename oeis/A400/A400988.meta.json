@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * [x^(n-k)] Laguerre(n, -x, -x).",
+  "id": "A400988",
+  "mentions": [
+    "A000262",
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A008299",
+    "A058349",
+    "A066668",
+    "A067318",
+    "A271703",
+    "A400987"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

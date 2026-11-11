@@ -8159,6 +8159,24 @@ end
 
 end A187073.P6980718510832705184
 
+/-! ## A187073.P10312232665214497597
+
+`filter[A070006(n+1), A401714(#)]`
+-/
+
+namespace A187073.P10312232665214497597
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070006 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A187073.P10312232665214497597
+
 /-! ## A187073.P2198470157125975249
 
 `∩[A070006(n+1), A380470(n+1)]`
@@ -8180,28 +8198,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A187073.P2198470157125975249
-
-/-! ## A187073.P988427184101090586
-
-`∩[A134344(n+1), A380470(n+1)]`
--/
-
-namespace A187073.P988427184101090586
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134344 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380470 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A187073.P988427184101090586
 
 /-!
 # A187074: a(n) = 0 if and only if n is of the form 3*k or 4*k + 2, otherwise a(n) = 1.

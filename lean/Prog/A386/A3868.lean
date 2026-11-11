@@ -37,6 +37,7 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
@@ -1526,33 +1527,6 @@ namespace A386807
 /-- `comp[A175165(n)]%A304848(2*(n+2))` -/
 def P6068811438612451004.Spec : Prop :=
   ∀ n, P6068811438612451004.a n = A386807 (n + 1)
-
-end A386807
-
-/-! ## A386807.P4257506853811480214
-
-`comp[A061043(n+5)*A376989(n+1)]`
--/
-
-namespace A386807.P4257506853811480214
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061043 (n + 5) * A376989 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A386807.P4257506853811480214
-
-namespace A386807
-
-/-- `comp[A061043(n+5)*A376989(n+1)]` -/
-def P4257506853811480214.Spec : Prop :=
-  ∀ n, (P4257506853811480214.a n : ℤ) = A386807 (n + 1)
 
 end A386807
 

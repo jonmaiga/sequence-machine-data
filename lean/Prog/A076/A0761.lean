@@ -2926,50 +2926,20 @@ end
 
 end A076115.P3467437630767756995
 
-/-! ## A076115.P15723847968876898711
+/-! ## A076115.P13879888950129165310
 
-`A000290(A386931(C(n+1, n)))`
+`A000290(A386931(n+1))`
 -/
 
-namespace A076115.P15723847968876898711
+namespace A076115.P13879888950129165310
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A386931 (Nat.choose (n + 1) n)).toNat
+  A000290 (A386931 (n + 1)).toNat
 
 end
 
-end A076115.P15723847968876898711
-
-/-! ## A076115.P18361045594830264453
-
-`A000290(A386931(n+1)%A004823(n+1))`
--/
-
-namespace A076115.P18361045594830264453
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (Int.tmod (A386931 (n + 1)) (A004823 (n + 1))).toNat
-
-end
-
-end A076115.P18361045594830264453
-
-/-! ## A076115.P13382379292814706874
-
-`A000290(A386931(n+1))%A049202(n+1)`
--/
-
-namespace A076115.P13382379292814706874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000290 (A386931 (n + 1)).toNat) (A049202 (n + 1))
-
-end
-
-end A076115.P13382379292814706874
+end A076115.P13879888950129165310
 
 /-!
 # A076117: Cubes (or 0) from A076116.

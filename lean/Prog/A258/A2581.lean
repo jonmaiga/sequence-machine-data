@@ -14,6 +14,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -1489,6 +1490,32 @@ def P18211929279881356784.Spec : Prop :=
 
 end A258116
 
+/-! ## A258116.P13237012905684896679
+
+`filter[A352142(n+1), A401714(#)]`
+-/
+
+namespace A258116.P13237012905684896679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352142 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A258116.P13237012905684896679
+
+namespace A258116
+
+/-- `filter[A352142(n+1), A401714(#)]` -/
+def P13237012905684896679.Spec : Prop :=
+  ∀ n, P13237012905684896679.a n = A258116 (n + 1)
+
+end A258116
+
 /-! ## A258116.P9564563267212862388
 
 `∩[A005117(n+1), A352142(n+1)]`
@@ -1763,36 +1790,6 @@ namespace A258116
 /-- `∩[A325160(n+1), A352142(n+1)]` -/
 def P7520848772904200015.Spec : Prop :=
   ∀ n, (P7520848772904200015.a n : ℤ) = A258116 (n + 1)
-
-end A258116
-
-/-! ## A258116.P17016907297752273618
-
-`∩[A066208(n+1), A392695(n+1)]`
--/
-
-namespace A258116.P17016907297752273618
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066208 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392695 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A258116.P17016907297752273618
-
-namespace A258116
-
-/-- `∩[A066208(n+1), A392695(n+1)]` -/
-def P17016907297752273618.Spec : Prop :=
-  ∀ n, (P17016907297752273618.a n : ℤ) = A258116 (n + 1)
 
 end A258116
 
@@ -5282,6 +5279,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A258149.P15686890792624942
+
+/-! ## A258149.P17658300224506001446
+
+`lcm(A020985(n), A278717(n+2))`
+-/
+
+namespace A258149.P17658300224506001446
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A020985 n) (A278717 (n + 2))
+
+end
+
+end A258149.P17658300224506001446
 
 /-! ## A258149.P7419804306539540640
 

@@ -3391,6 +3391,29 @@ def P13968310201621956697.Spec : Prop :=
 
 end A253122
 
+/-! ## A253122.P3078551189081938146
+
+`A052957(n+1)+A052957(n+1)`
+-/
+
+namespace A253122.P3078551189081938146
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052957 (n + 1) + A052957 (n + 1)
+
+end
+
+end A253122.P3078551189081938146
+
+namespace A253122
+
+/-- `A052957(n+1)+A052957(n+1)` -/
+def P3078551189081938146.Spec : Prop :=
+  ∀ n, P3078551189081938146.a n = A253122 (n + 1)
+
+end A253122
+
 /-! ## A253122.P10369365586686208646
 
 `A131575(n+2)+A051437(n+2)`
@@ -3572,29 +3595,6 @@ namespace A253122
 /-- `2*(A048573(n+1)-A097038(n+1))` -/
 def P929966514117705172.Spec : Prop :=
   ∀ n, P929966514117705172.a n = A253122 (n + 1)
-
-end A253122
-
-/-! ## A253122.P1248269310461788243
-
-`2*(A098646(n+1)-A287470(n+1))`
--/
-
-namespace A253122.P1248269310461788243
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A098646 (n + 1) - A287470 (n + 1))
-
-end
-
-end A253122.P1248269310461788243
-
-namespace A253122
-
-/-- `2*(A098646(n+1)-A287470(n+1))` -/
-def P1248269310461788243.Spec : Prop :=
-  ∀ n, P1248269310461788243.a n = A253122 (n + 1)
 
 end A253122
 
@@ -5083,6 +5083,21 @@ end
 
 end A253138.P8269416167571553082
 
+/-! ## A253138.P39718814746361647
+
+`A302301(A072055(n+1)-1)`
+-/
+
+namespace A253138.P39718814746361647
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302301 (A072055 (n + 1) - 1).toNat
+
+end
+
+end A253138.P39718814746361647
+
 /-! ## A253138.P15939715615020916610
 
 `A072931(2*A000040(n+1))`
@@ -5280,21 +5295,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253138.P15906230671144650615
-
-/-! ## A253138.P2227715173074417309
-
-`A302301(A000040(n+1)+A000040(n+1))`
--/
-
-namespace A253138.P2227715173074417309
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302301 (A000040 (n + 1) + A000040 (n + 1)).toNat
-
-end
-
-end A253138.P2227715173074417309
 
 /-!
 # A253139: a(n) = lcm_{d|n} tau(d), where tau(d) represents the number of divisors of d (A000005(d)).
@@ -10435,6 +10435,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253179.P15014604619737916578
+
+/-! ## A253179.P16294161944452733306
+
+`(A071961(n+1)-A300717(n+1))*A008683(n+1)`
+-/
+
+namespace A253179.P16294161944452733306
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A071961 (n + 1) - A300717 (n + 1)) * A008683 (n + 1)
+
+end
+
+end A253179.P16294161944452733306
 
 /-! ## A253179.P11904454256080739862
 

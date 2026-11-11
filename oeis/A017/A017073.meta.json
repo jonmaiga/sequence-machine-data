@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (8*n)^9.",
   "id": "A017073",
-  "mentions": [],
+  "mentions": [
+    "A013667"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

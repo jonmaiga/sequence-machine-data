@@ -19,11 +19,11 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
@@ -2287,6 +2287,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390944.P16873710296476478430
+
+/-! ## A390944.P8165094522104112868
+
+`A344452(A401690(n))`
+-/
+
+namespace A390944.P8165094522104112868
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344452 (A401690 n).toNat
+
+end
+
+end A390944.P8165094522104112868
 
 /-!
 # A390945: Burning number of the n-necklace graph.

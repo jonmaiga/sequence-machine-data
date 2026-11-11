@@ -1205,6 +1205,29 @@ def P4234925250788776153.Spec : Prop :=
 
 end A234509
 
+/-! ## A234509.P9958217138439803939
+
+`2/(3*n+2)*C(9*n+6, n)`
+-/
+
+namespace A234509.P9958217138439803939
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 / (3 * n + 2 : ℚ) * (Nat.choose (9 * n + 6) n : ℚ)
+
+end
+
+end A234509.P9958217138439803939
+
+namespace A234509
+
+/-- `2/(3*n+2)*C(9*n+6, n)` -/
+def P9958217138439803939.Spec : Prop :=
+  ∀ n, P9958217138439803939.a n = (A234509 n : ℚ)
+
+end A234509
+
 /-! ## A234509.P12531204822467623908
 
 `A071948(A139272(n+1))/(n+1)`
@@ -6133,6 +6156,21 @@ end A234577.P8848926176382365684
 The programs for A234578, there is no canonical definition to state claims against.
 -/
 
+/-! ## A234578.P13590669480473544026
+
+`and(A102551(n+1), A285097(A099925(n)))`
+-/
+
+namespace A234578.P13590669480473544026
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A102551 (n + 1)) (A285097 (A099925 n).toNat)
+
+end
+
+end A234578.P13590669480473544026
+
 /-! ## A234578.P6816142567491352907
 
 `and(A125072(n+9), A326836(A247765(n+6)))`
@@ -6192,21 +6230,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234578.P6714965173865288594
-
-/-! ## A234578.P13590669480473544026
-
-`and(A102551(n+1), A285097(A099925(n)))`
--/
-
-namespace A234578.P13590669480473544026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A102551 (n + 1)) (A285097 (A099925 n).toNat)
-
-end
-
-end A234578.P13590669480473544026
 
 /-!
 # A234579: Let S_n = 0 followed by base-4 expansion of n, reversed; sequence is concatenation of S_0, S_1, S_2, ...

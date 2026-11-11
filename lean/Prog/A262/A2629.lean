@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -100,6 +99,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -1928,7 +1928,7 @@ end
 end A262913.P13305338469116869594
 
 /-!
-# A262914: Number of (n+1)X(5+1) 0..1 arrays with each row divisible by 3 and each column divisible by 7, read as a binary number with top and left being the most significant bits.
+# A262914: Number of (n+1) X (5+1) 0..1 arrays with each row divisible by 3 and each column divisible by 7, read as a binary number with top and left being the most significant bits.
 
 The programs for A262914, there is no canonical definition to state claims against.
 -/
@@ -5552,6 +5552,24 @@ end A262969.P17202175172271627082
 The programs for A262970, there is no canonical definition to state claims against.
 -/
 
+/-! ## A262970.P8400907097806370025
+
+`1/2*(n+1)!*∑{#}[n, (n+1)^#/#!*(n+2-#)*(n+1-#)]`
+-/
+
+namespace A262970.P8400907097806370025
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (Nat.factorial (n + 1) : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), ((n + 1) ^ k : ℚ) / (Nat.factorial k : ℚ) * ((n + 2 : ℤ) - (k : ℤ) : ℚ) * ((n + 1 : ℤ) - (k : ℤ) : ℚ))
+
+end
+
+end A262970.P8400907097806370025
+
 /-! ## A262970.P8446314543018529342
 
 `(1+n)/2*A063170(n+1)`
@@ -5803,6 +5821,24 @@ end A262972.P7501829073682556391
 
 The programs for A262973, there is no canonical definition to state claims against.
 -/
+
+/-! ## A262973.P4447121859540773087
+
+`1/2*(n+1)!*∑{#}[n-1, (n+1)^#/#!*(n+1)]`
+-/
+
+namespace A262973.P4447121859540773087
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (Nat.factorial (n + 1) : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, ((n + 1) ^ k : ℚ) / (Nat.factorial k : ℚ) * (n + 1 : ℚ))
+
+end
+
+end A262973.P4447121859540773087
 
 /-! ## A262973.P1783745868070513945
 
@@ -6275,7 +6311,7 @@ end A262977.P5392842478647502723
 /-!
 # A262978: Exponents n such that 2^n-1 and 2^n+1 are squarefree.
 
-The programs for A262978, the canonical program `A262978.P15795800057724418315` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262978 has offset 1).
+The programs for A262978, the canonical program `A262978.P15795800057724418315` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262978 has offset 1).
 
 The definition of A262978 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6676,7 +6712,7 @@ end A262978
 
 `eq[1, A272334(2*(n+1))]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A262978

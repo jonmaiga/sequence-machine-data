@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k in A025487 such that k / (next number in A025487 after k) reaches a record large value.",
+  "id": "A401405",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002110",
+    "A002182",
+    "A004394",
+    "A025487",
+    "A283980"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

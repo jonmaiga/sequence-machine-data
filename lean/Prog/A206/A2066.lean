@@ -80,6 +80,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
 
@@ -6354,6 +6355,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A206643.P1125309230280601861
+
+/-! ## A206643.P10572899872295275602
+
+`A344276(A022086(n+1))`
+-/
+
+namespace A206643.P10572899872295275602
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344276 (A022086 (n + 1)).toNat
+
+end
+
+end A206643.P10572899872295275602
 
 /-!
 # A206644: Number of n X n 0..2 arrays with no occurrence of three equal elements in a row horizontally or vertically, and new values 0..2 introduced in row major order.

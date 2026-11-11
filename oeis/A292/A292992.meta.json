@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 13 applications of 'Reverse and Subtract' lead to n, whereas fewer than 13 applications do not lead to n.",
+  "description": "Numbers k such that 13 applications of 'Reverse and Subtract' lead to k, whereas fewer than 13 applications do not lead to k.",
   "id": "A292992",
   "mentions": [
     "A072142",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 6,
     "source": "oeis-bfile"
   }
 }

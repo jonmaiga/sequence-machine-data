@@ -1,0 +1,21 @@
+{
+  "description": "Semiprime residuals: a(n) = q (mod p), where p <= q are the prime factors of the n-th semiprime S_n = p*q.",
+  "id": "A401539",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A001358",
+    "A006530",
+    "A020639",
+    "A069859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

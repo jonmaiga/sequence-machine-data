@@ -128,6 +128,36 @@ end
 
 end A054200.P8441924798848000055
 
+/-! ## A054200.P4707806036255978771
+
+`A204166(A287275(n))`
+-/
+
+namespace A054200.P4707806036255978771
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204166 (A287275 n).toNat
+
+end
+
+end A054200.P4707806036255978771
+
+/-! ## A054200.P6190494451345900782
+
+`A394301(A363448(n+1))`
+-/
+
+namespace A054200.P6190494451345900782
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394301 (A363448 (n + 1)).toNat
+
+end
+
+end A054200.P6190494451345900782
+
 /-!
 # A054201: a(n) = (n-1)! * Sum_{k=1..n} k^k/k!.
 
@@ -3429,7 +3459,7 @@ def P9665157911860259534.Spec : Prop :=
 end A054239
 
 /-!
-# A054240: Bit-interleaved number addition table; like binary addition but carries shift 2 instead of 1; addition base sqrt(2).
+# A054240: Bit-interleaved number addition table T(n,k) (n>=0, k>=0) read by antidiagonals: like binary addition but carries are shifted 2 places instead of 1; in other words, T(n,k) is the sum n+k in base sqrt(2).
 
 The programs for A054240, there is no canonical definition to state claims against.
 -/

@@ -1,0 +1,18 @@
+{
+  "description": "Number of quintic symmetric graphs on 2n vertices.",
+  "id": "A401568",
+  "mentions": [
+    "A400580",
+    "A401569"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -51,6 +51,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -4856,6 +4857,63 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171143.P12233743618543974048
+
+/-! ## A171143.P14698725600919257133
+
+`A337141(A077168(n+1))`
+-/
+
+namespace A171143.P14698725600919257133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337141 (A077168 (n + 1)).toNat
+
+end
+
+end A171143.P14698725600919257133
+
+/-! ## A171143.P2722442597863697340
+
+`eq[A040552(n), A265552(n)]`
+-/
+
+namespace A171143.P2722442597863697340
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040552 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265552 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A171143.P2722442597863697340
+
+/-! ## A171143.P4510109116771983643
+
+`eq[A058319(n), A265552(n)]`
+-/
+
+namespace A171143.P4510109116771983643
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058319 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265552 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A171143.P4510109116771983643
 
 /-!
 # A171144: Primes in lunar arithmetic in base 7 written in base 7.

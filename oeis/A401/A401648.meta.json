@@ -1,0 +1,20 @@
+{
+  "description": "Earliest monotonic sequence satisfying a(1)=1 and a(a(n)+a(n-1)+a(n-2)+a(n-3)+a(n-4)) = n for n>=1 (with a(k)=0 for k<=0).",
+  "id": "A401648",
+  "mentions": [
+    "A001462",
+    "A001463",
+    "A394217",
+    "A394218",
+    "A394219"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

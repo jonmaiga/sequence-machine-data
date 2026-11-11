@@ -1,0 +1,22 @@
+{
+  "description": "Squares k for which {the largest divisor of sigma(k) that is coprime with k} is a prime power.",
+  "id": "A401387",
+  "mentions": [
+    "A000290",
+    "A350388",
+    "A401067",
+    "A401379",
+    "A401380",
+    "A401385",
+    "A401388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

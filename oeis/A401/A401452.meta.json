@@ -1,0 +1,17 @@
+{
+  "description": "Number of Young tableaux with walls of period n whose basic blocks are Z3, where Z3 is a special class of Young diagram with walls of shape 2 X 2.",
+  "id": "A401452",
+  "mentions": [
+    "A211212",
+    "A213863"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

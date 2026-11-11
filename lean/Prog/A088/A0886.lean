@@ -1604,6 +1604,29 @@ def P16052099225244619155.Spec : Prop :=
 
 end A088617
 
+/-! ## A088617.P12954396732967321358
+
+`(2*col(n)+row(n)-col(n))!/((row(n)-col(n))!*col(n)!*(col(n)+1)!)`
+-/
+
+namespace A088617.P12954396732967321358
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial ((2 * SequenceMachineLib.triCol n : ℤ) + ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ))).toNat : ℚ) / (Nat.factorial ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat * Nat.factorial (SequenceMachineLib.triCol n) * Nat.factorial (SequenceMachineLib.triCol n + 1) : ℚ)
+
+end
+
+end A088617.P12954396732967321358
+
+namespace A088617
+
+/-- `(2*col(n)+row(n)-col(n))!/((row(n)-col(n))!*col(n)!*(col(n)+1)!)` -/
+def P12954396732967321358.Spec : Prop :=
+  ∀ n, P12954396732967321358.a n = (A088617 n : ℚ)
+
+end A088617
+
 /-!
 # A088622: Smallest prime obtained as the concatenation of a power of n followed by a 1, or 0 if no such number exists.
 
@@ -2933,21 +2956,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088635.P15967473698408028809
-
-/-! ## A088635.P5048229392092750401
-
-`A359511(A027642(n))+A000217(n)`
--/
-
-namespace A088635.P5048229392092750401
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359511 (A027642 n).toNat + A000217 n
-
-end
-
-end A088635.P5048229392092750401
 
 /-! ## A088635.P7015533720520873617
 

@@ -5453,23 +5453,29 @@ end A214187.P17803547816071813501
 /-!
 # A214188: Number of 0..6 colorings of a 1 X (n+1) array circular in the n+1 direction with new values 0..6 introduced in row major order.
 
-The programs for A214188, there is no canonical definition to state claims against.
+The programs for A214188, the canonical program `A214188.P15406598580860644712` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214188 has offset 1).
+
+The definition of A214188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A214188.P15406598580860644712
 
 `A056273(1+n)-a(n-1)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
-namespace A214188.P15406598580860644712
-noncomputable section
+namespace A214188
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A056273 (1 + n) - a (n - 1)
+/-- `A056273(1+n)-a(n-1)` -/
+def P15406598580860644712.Spec : Prop :=
+  ∀ n, P15406598580860644712.a n = A214188 (n + 1)
 
-end
+theorem P15406598580860644712.correct : P15406598580860644712.Spec := by
+  intro n
+  simp only [A214188, Nat.add_sub_cancel]
 
-end A214188.P15406598580860644712
+end A214188
 
 /-! ## A214188.P2063959732179934209
 
@@ -5489,6 +5495,14 @@ end
 
 end A214188.P2063959732179934209
 
+namespace A214188
+
+/-- `A056471(Δ[n²])-a(n-1)` -/
+def P2063959732179934209.Spec : Prop :=
+  ∀ n, P2063959732179934209.a n = A214188 (n + 1)
+
+end A214188
+
 /-! ## A214188.P16295735446565399837
 
 `A056507(2*n+1)-a(n-1)` with `a(0)=1`
@@ -5504,6 +5518,14 @@ end
 
 end A214188.P16295735446565399837
 
+namespace A214188
+
+/-- `A056507(2*n+1)-a(n-1)` -/
+def P16295735446565399837.Spec : Prop :=
+  ∀ n, P16295735446565399837.a n = A214188 (n + 1)
+
+end A214188
+
 /-! ## A214188.P13940420992459136646
 
 `A203647(A060577(n+4))-a(n-1)` with `a(0)=1`
@@ -5518,6 +5540,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A214188.P13940420992459136646
+
+namespace A214188
+
+/-- `A203647(A060577(n+4))-a(n-1)` -/
+def P13940420992459136646.Spec : Prop :=
+  ∀ n, P13940420992459136646.a n = A214188 (n + 1)
+
+end A214188
 
 /-! ## A214188.P17588090158127742750
 
@@ -5536,6 +5566,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A214188.P17588090158127742750
+
+namespace A214188
+
+/-- `A198723(∑[n+1]+1)-a(n-1)` -/
+def P17588090158127742750.Spec : Prop :=
+  ∀ n, P17588090158127742750.a n = A214188 (n + 1)
+
+end A214188
 
 /-!
 # A214189: Number of 0..6 colorings of a 2X(n+1) array circular in the n+1 direction with new values 0..6 introduced in row major order.

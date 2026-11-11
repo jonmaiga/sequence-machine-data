@@ -4075,6 +4075,35 @@ def P4720894562715332035.Spec : Prop :=
 
 end A202750
 
+/-! ## A202750.P12827347922375996940
+
+`A007318(n)*A181543(n)`
+-/
+
+namespace A202750.P12827347922375996940
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007318 n * A181543 n
+
+end
+
+end A202750.P12827347922375996940
+
+namespace A202750
+
+/-- `A007318(n)*A181543(n)` -/
+def P12827347922375996940.Spec : Prop :=
+  ∀ n, P12827347922375996940.a n = A202750 n
+
+theorem P12827347922375996940.correct : P12827347922375996940.Spec := by
+  intro n
+  simp only [A202750, Nat.add_sub_cancel, A202750.P12827347922375996940.a, A202750.P17720214964731900726.a, A007318, A007318.P11755526479805562006.a, A181543, A181543.P8878056775007847247.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A202750
+
 /-!
 # A202751: Number of n X n nonnegative integer arrays with each row and column increasing from zero by 0 or 1.
 

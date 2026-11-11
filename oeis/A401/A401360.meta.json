@@ -1,0 +1,15 @@
+{
+  "description": "Number of earlier bars in A401167 that are invisible from the point (n,n-1).",
+  "id": "A401360",
+  "mentions": [
+    "A401167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

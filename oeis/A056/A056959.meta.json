@@ -1,11 +1,11 @@
 {
-  "description": "In repeated iterations of function m -> m/2 if m even, m -> 3m+1 if m odd, a(n) is maximum value achieved if starting from n.",
+  "description": "a(n) is the maximum of the orbit of n under iterations of the Collatz or 3x+1 function A006370 (x/2 if even, 3x+1 else), or 0 if the orbit is unbounded.",
   "id": "A056959",
   "mentions": [
     "A006370",
+    "A014682",
     "A025586",
-    "A056957",
-    "A056958"
+    "A056957"
   ],
   "tags": [
     "nonn"

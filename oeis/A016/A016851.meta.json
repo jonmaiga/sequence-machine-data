@@ -2,7 +2,8 @@
   "description": "a(n) = (5*n)^3.",
   "id": "A016851",
   "mentions": [
-    "A000578"
+    "A000578",
+    "A002117"
   ],
   "tags": [
     "easy",

@@ -2323,6 +2323,21 @@ end
 
 end A362844.P16344583818513401775
 
+/-! ## A362844.P8519113964053342705
+
+`A285330(A360768(n+1))`
+-/
+
+namespace A362844.P8519113964053342705
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285330 (A360768 (n + 1)).toNat
+
+end
+
+end A362844.P8519113964053342705
+
 /-!
 # A362845: Number of divisors of 7*n-2 of form 7*k+1.
 

@@ -1,0 +1,22 @@
+{
+  "description": "Primitive anti-abundant numbers: anti-abundant numbers whose anti-divisors are all anti-deficient or anti-perfect.",
+  "id": "A401254",
+  "mentions": [
+    "A006036",
+    "A066272",
+    "A066417",
+    "A073930",
+    "A192267",
+    "A192268",
+    "A192270",
+    "A192271"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

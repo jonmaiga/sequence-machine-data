@@ -13,6 +13,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -11314,6 +11315,28 @@ end
 
 end A076275.P9614190954714990656
 
+/-! ## A076275.P7649173730171567321
+
+`∩[A145818(n+1), A330220(n+1)]`
+-/
+
+namespace A076275.P7649173730171567321
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145818 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330220 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A076275.P7649173730171567321
+
 /-! ## A076275.P611983799774994390
 
 `∩[A043003(n+1), A064896(n+1)]`
@@ -11357,28 +11380,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A076275.P1056795185030858999
-
-/-! ## A076275.P16548850460060979171
-
-`∩[A043003(n+1), A175020(n+1)]`
--/
-
-namespace A076275.P16548850460060979171
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043003 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175020 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A076275.P16548850460060979171
 
 /-!
 # A076276: Number of + signs needed to write the partitions of n (A000041) as sums.
@@ -13589,6 +13590,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A076292.P5474201314823868946
+
+/-! ## A076292.P4236081432562788190
+
+`filter[A072774(n+1), A087049(#)]`
+-/
+
+namespace A076292.P4236081432562788190
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072774 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A087049 (f1 j).toNat = 1) n)
+
+end
+
+end A076292.P4236081432562788190
+
+/-! ## A076292.P16314002822564897781
+
+`filter[A072774(n+1), A380440(#)]`
+-/
+
+namespace A076292.P16314002822564897781
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072774 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A380440 (f1 j).toNat = 1) n)
+
+end
+
+end A076292.P16314002822564897781
 
 /-!
 # A076293: Numbers k where the root mean square (RMS) of k and 7 is an integer, i.e., sqrt((k^2 + 7^2)/2) is an integer.

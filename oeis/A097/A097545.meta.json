@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of \"Farey fraction\" approximations to Pi.",
+  "description": "Numerators of semiconvergents to Pi.",
   "id": "A097545",
   "mentions": [
     "A001203",

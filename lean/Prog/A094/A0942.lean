@@ -3391,7 +3391,7 @@ end
 end A094223.P16506063903882768921
 
 /-!
-# A094224: Number of digits in the least n-parasitic number.
+# A094224: Number of digits in the least n-parasitic number > 0.
 
 The programs for A094224, there is no canonical definition to state claims against.
 -/
@@ -6512,6 +6512,27 @@ end
 end A094261.P7743674846420296330
 
 /-!
+# A094262: Triangle read by rows: T(n,k) is the number of rooted trees with k nodes which are disjoint sets of labels with union {1..n}. If a node has an empty set of labels then it must have at least two children.
+
+The programs for A094262, there is no canonical definition to state claims against.
+-/
+
+/-! ## A094262.P7493224233648355873
+
+`A400987(n+1)+A400987(n)`
+-/
+
+namespace A094262.P7493224233648355873
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400987 (n + 1) + A400987 n
+
+end
+
+end A094262.P7493224233648355873
+
+/-!
 # A094263: Triangle read by rows: for 1 <= k <= n, a(n, k) = n^k mod k.
 
 The programs for A094263, the canonical program `A094263.P7728322990786134116` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094263 has offset 1).
@@ -6560,6 +6581,29 @@ namespace A094263
 /-- `((row(n)-col(n))^(col(n)+1))%(col(n)+1)` -/
 def P5933965479394970976.Spec : Prop :=
   ∀ n, P5933965479394970976.a n = A094263 (n + 1)
+
+end A094263
+
+/-! ## A094263.P3808024270916983337
+
+`(row(n)+1)^(col(n)+1)-(col(n)+1)*floor((row(n)+1)^(col(n)+1)/(col(n)+1))`
+-/
+
+namespace A094263.P3808024270916983337
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.triRow n + 1) ^ (SequenceMachineLib.triCol n + 1) : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ) * ⌊((SequenceMachineLib.triRow n + 1) ^ (SequenceMachineLib.triCol n + 1) : ℚ) / (SequenceMachineLib.triCol n + 1 : ℚ)⌋
+
+end
+
+end A094263.P3808024270916983337
+
+namespace A094263
+
+/-- `(row(n)+1)^(col(n)+1)-(col(n)+1)*floor((row(n)+1)^(col(n)+1)/(col(n)+1))` -/
+def P3808024270916983337.Spec : Prop :=
+  ∀ n, P3808024270916983337.a n = A094263 (n + 1)
 
 end A094263
 

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p for which there exists a prime q < p such that ((p#/p) / (q#/q)) == +1 mod p, where p# = A034386(p).",
+  "id": "A401373",
+  "mentions": [
+    "A000040",
+    "A034386",
+    "A400843",
+    "A401057",
+    "A401058",
+    "A401061",
+    "A401063",
+    "A401372",
+    "A401374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

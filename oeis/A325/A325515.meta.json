@@ -2,6 +2,8 @@
   "description": "Sum of sums of omegas of the parts over all strict integer partitions of n.",
   "id": "A325515",
   "mentions": [
+    "A000005",
+    "A000009",
     "A001222",
     "A003963",
     "A015716",
@@ -22,6 +24,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

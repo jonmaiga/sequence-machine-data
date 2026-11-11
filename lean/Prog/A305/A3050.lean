@@ -67,6 +67,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -434,6 +435,29 @@ The programs for A305006, the canonical program `A305006.P10100576833363132034` 
 The definition of A305006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A305006.P16095671233593515485
+
+`A002129(n+1)/A401393(n+1)`
+-/
+
+namespace A305006.P16095671233593515485
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002129 (n + 1) : ℚ) / (A401393 (n + 1) : ℚ)
+
+end
+
+end A305006.P16095671233593515485
+
+namespace A305006
+
+/-- `A002129(n+1)/A401393(n+1)` -/
+def P16095671233593515485.Spec : Prop :=
+  ∀ n, P16095671233593515485.a n = (A305006 (n + 1) : ℚ)
+
+end A305006
+
 /-! ## A305006.P2626976647992377928
 
 `A002129(n+1)/(n+1)*A305007(n+1)`
@@ -518,29 +542,6 @@ def P14246545449768528081.Spec : Prop :=
 
 end A305006
 
-/-! ## A305006.P3908311917040254588
-
-`A002129(n+1)/A051119(A187829(n+1))`
--/
-
-namespace A305006.P3908311917040254588
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A002129 (n + 1) : ℚ) / (A051119 (A187829 (n + 1)).toNat : ℚ)
-
-end
-
-end A305006.P3908311917040254588
-
-namespace A305006
-
-/-- `A002129(n+1)/A051119(A187829(n+1))` -/
-def P3908311917040254588.Spec : Prop :=
-  ∀ n, P3908311917040254588.a n = (A305006 (n + 1) : ℚ)
-
-end A305006
-
 /-!
 # A305007: Denominators of coefficients in expansion of Sum_{k>=1} x^k/(k*(1 + x^k)).
 
@@ -548,6 +549,29 @@ The programs for A305007, the canonical program `A305007.P6262789419513029025` i
 
 The definition of A305007 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A305007.P8350782285248502714
+
+`(n+1)/A401393(n+1)`
+-/
+
+namespace A305007.P8350782285248502714
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / (A401393 (n + 1) : ℚ)
+
+end
+
+end A305007.P8350782285248502714
+
+namespace A305007
+
+/-- `(n+1)/A401393(n+1)` -/
+def P8350782285248502714.Spec : Prop :=
+  ∀ n, P8350782285248502714.a n = (A305007 (n + 1) : ℚ)
+
+end A305007
 
 /-! ## A305007.P6262789419513029025
 
@@ -4202,6 +4226,21 @@ end
 
 end A305052.P12486246137543917731
 
+/-! ## A305052.P12473504957270846490
+
+`A001489(A305079(n+1))`
+-/
+
+namespace A305052.P12473504957270846490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001489 (A305079 (n + 1)).toNat
+
+end
+
+end A305052.P12473504957270846490
+
 /-! ## A305052.P11669573170808666292
 
 `-A001222(A327389(n+1))`
@@ -4246,21 +4285,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305052.P9131140040557721301
-
-/-! ## A305052.P4053685752633860581
-
-`1-A000027(A305079(n+1)+1)`
--/
-
-namespace A305052.P4053685752633860581
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A000027 (A305079 (n + 1) + 1).toNat
-
-end
-
-end A305052.P4053685752633860581
 
 /-!
 # A305053: If n = Product_i prime(x_i)^k_i, then a(n) = Sum_i k_i * omega(x_i) - omega(n), where omega = A001221 is number of distinct prime factors.

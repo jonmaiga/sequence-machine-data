@@ -35,12 +35,13 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C048
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -224,21 +225,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032101.P9022283402778652892
-
-/-! ## A032101.P117298048666549780
-
-`A322794(A316471(n+1))+A182897(n)`
--/
-
-namespace A032101.P117298048666549780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A316471 (n + 1)).toNat + A182897 n
-
-end
-
-end A032101.P117298048666549780
 
 /-!
 # A032102: Number of dyslexic identity rooted planar trees with n nodes.
@@ -11067,6 +11053,29 @@ theorem P9785697460154991402.correct : P9785697460154991402.Spec := by
 
 end A032198
 
+/-! ## A032198.P9123407200636179558
+
+`A208773(n+1)-(A000358(n+1)+2)`
+-/
+
+namespace A032198.P9123407200636179558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208773 (n + 1) - (A000358 (n + 1) + 2)
+
+end
+
+end A032198.P9123407200636179558
+
+namespace A032198
+
+/-- `A208773(n+1)-(A000358(n+1)+2)` -/
+def P9123407200636179558.Spec : Prop :=
+  ∀ n, P9123407200636179558.a n = A032198 (n + 1)
+
+end A032198
+
 /-! ## A032198.P14076667305678460378
 
 `2*A032287(n+1)-A308747(n+1)`
@@ -11194,29 +11203,6 @@ namespace A032198
 /-- `∑[Δ[A005594(n)]%A208723(n+1)]` -/
 def P6581926461244364612.Spec : Prop :=
   ∀ n, P6581926461244364612.a n = A032198 (n + 1)
-
-end A032198
-
-/-! ## A032198.P9123407200636179558
-
-`A208773(n+1)-(A000358(n+1)+2)`
--/
-
-namespace A032198.P9123407200636179558
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208773 (n + 1) - (A000358 (n + 1) + 2)
-
-end
-
-end A032198.P9123407200636179558
-
-namespace A032198
-
-/-- `A208773(n+1)-(A000358(n+1)+2)` -/
-def P9123407200636179558.Spec : Prop :=
-  ∀ n, P9123407200636179558.a n = A032198 (n + 1)
 
 end A032198
 

@@ -28,7 +28,6 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -100,6 +99,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -10981,7 +10981,9 @@ end A109080.P986444912668321083
 /-!
 # A109081: Reversion of x*(1-x)*(1-x^2)*(1-x^3)/(1-x^6) = x*(1-x)^2/(1-x+x^2).
 
-The programs for A109081, there is no canonical definition to state claims against.
+The programs for A109081, the canonical program `A109081.P3320196165071668501` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109081 has offset 1).
+
+The definition of A109081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A109081.P13883673476288101679
@@ -10998,6 +11000,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A109081.P13883673476288101679
+
+namespace A109081
+
+/-- `A215067(2*n)` -/
+def P13883673476288101679.Spec : Prop :=
+  ∀ n, P13883673476288101679.a n = A109081 (n + 1)
+
+end A109081
 
 /-! ## A109081.P9330435288423886713
 
@@ -11017,6 +11027,14 @@ end
 
 end A109081.P9330435288423886713
 
+namespace A109081
+
+/-- `A215067(n+n)+A034852(∑[n])` -/
+def P9330435288423886713.Spec : Prop :=
+  ∀ n, P9330435288423886713.a n = A109081 (n + 1)
+
+end A109081
+
 /-! ## A109081.P1308102396485562176
 
 `A215067(n+n)/A325931(n+1)²`
@@ -11031,6 +11049,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A109081.P1308102396485562176
+
+namespace A109081
+
+/-- `A215067(n+n)/A325931(n+1)²` -/
+def P1308102396485562176.Spec : Prop :=
+  ∀ n, P1308102396485562176.a n = (A109081 (n + 1) : ℚ)
+
+end A109081
 
 /-! ## A109081.P12228672351200969416
 
@@ -11047,6 +11073,14 @@ end
 
 end A109081.P12228672351200969416
 
+namespace A109081
+
+/-- `A262441(floor(1/(1+n))+n)-A106228(n)` -/
+def P12228672351200969416.Spec : Prop :=
+  ∀ n, P12228672351200969416.a n = A109081 (n + 1)
+
+end A109081
+
 /-! ## A109081.P14671191160398328229
 
 `A308583(A124758(n))+A215067(n+n)`
@@ -11062,6 +11096,14 @@ end
 
 end A109081.P14671191160398328229
 
+namespace A109081
+
+/-- `A308583(A124758(n))+A215067(n+n)` -/
+def P14671191160398328229.Spec : Prop :=
+  ∀ n, P14671191160398328229.a n = A109081 (n + 1)
+
+end A109081
+
 /-! ## A109081.P15165712804538612746
 
 `A215067(n+n)+A036987(A273855(n+1))`
@@ -11076,6 +11118,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A109081.P15165712804538612746
+
+namespace A109081
+
+/-- `A215067(n+n)+A036987(A273855(n+1))` -/
+def P15165712804538612746.Spec : Prop :=
+  ∀ n, P15165712804538612746.a n = A109081 (n + 1)
+
+end A109081
 
 /-! ## A109081.P17383861799151437992
 
@@ -11095,6 +11145,14 @@ end
 
 end A109081.P17383861799151437992
 
+namespace A109081
+
+/-- `A215067(n+n)+A036987(record[A019433(n+1)])` -/
+def P17383861799151437992.Spec : Prop :=
+  ∀ n, P17383861799151437992.a n = A109081 (n + 1)
+
+end A109081
+
 /-! ## A109081.P11834589669470159443
 
 `A185967(∑[n])`
@@ -11112,6 +11170,29 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A109081.P11834589669470159443
+
+namespace A109081
+
+/-- `A185967(∑[n])` -/
+def P11834589669470159443.Spec : Prop :=
+  ∀ n, P11834589669470159443.a n = A109081 (n + 1)
+
+end A109081
+
+/-! ## A109081.P3320196165071668501
+
+`1/(n+1)*∑{#}[n, C(n+1, #)*C(2*n-#, n+#)]`
+
+The canonical program, it is in `Seq.B000.C019`.
+-/
+
+namespace A109081
+
+/-- `1/(n+1)*∑{#}[n, C(n+1, #)*C(2*n-#, n+#)]` -/
+def P3320196165071668501.Spec : Prop :=
+  ∀ n, P3320196165071668501.a n = (A109081 (n + 1) : ℚ)
+
+end A109081
 
 /-!
 # A109082: Depth of rooted tree having Matula-Goebel number n.

@@ -4952,65 +4952,65 @@ end
 
 end A379370.P7093632591429248323
 
-/-! ## A379370.P11997939816886689655
+/-! ## A379370.P9226750712218309912
 
-`A380315(A043319(n+1))`
+`A380315(A065673(n+1))`
 -/
 
-namespace A379370.P11997939816886689655
+namespace A379370.P9226750712218309912
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380315 (A043319 (n + 1)).toNat
+  A380315 (A065673 (n + 1)).toNat
 
 end
 
-end A379370.P11997939816886689655
+end A379370.P9226750712218309912
 
-/-! ## A379370.P16305748603706311628
+/-! ## A379370.P12841135217476134447
 
-`A380315(A044916(n+1))`
+`A003967(A380315(n+1))`
 -/
 
-namespace A379370.P16305748603706311628
+namespace A379370.P12841135217476134447
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380315 (A044916 (n + 1)).toNat
+  A003967 (A380315 (n + 1)).toNat
 
 end
 
-end A379370.P16305748603706311628
+end A379370.P12841135217476134447
 
-/-! ## A379370.P7675869190301779197
+/-! ## A379370.P5142343236301006869
 
-`A380315(A055646(n+1))`
+`A000026(A380315(n+1))`
 -/
 
-namespace A379370.P7675869190301779197
+namespace A379370.P5142343236301006869
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380315 (A055646 (n + 1)).toNat
+  A000026 (A380315 (n + 1)).toNat
 
 end
 
-end A379370.P7675869190301779197
+end A379370.P5142343236301006869
 
-/-! ## A379370.P14905700632770482765
+/-! ## A379370.P11926653074064255541
 
-`A380315(A055647(n)+1)`
+`A380315(A004885(n+2))`
 -/
 
-namespace A379370.P14905700632770482765
+namespace A379370.P11926653074064255541
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380315 (A055647 n + 1).toNat
+  A380315 (A004885 (n + 2)).toNat
 
 end
 
-end A379370.P14905700632770482765
+end A379370.P11926653074064255541
 
 /-!
 # A379372: Sphenic numbers k such that 2*k+1 is also a sphenic number.
@@ -5753,21 +5753,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A379381.P14251101741140820545
-
-/-! ## A379381.P8585821539284776341
-
-`floor(A399997(n+3)/A143051(n+3))`
--/
-
-namespace A379381.P8585821539284776341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A399997 (n + 3) : ℚ) / (A143051 (n + 3) : ℚ)⌋
-
-end
-
-end A379381.P8585821539284776341
 
 /-!
 # A379382: G.f. A(x) satisfies A(x) = sqrt( (1 + 2*x*A(x))/(1 - 2*x*A(x)^2) ).

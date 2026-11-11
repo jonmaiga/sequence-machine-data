@@ -5,12 +5,13 @@
     "A096713"
   ],
   "tags": [
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of cubic symmetric graphs on 2n vertices.",
+  "id": "A398179",
+  "mentions": [
+    "A059282",
+    "A385181"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

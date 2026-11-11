@@ -1409,6 +1409,50 @@ end
 
 end A225218.P14308996407002820327
 
+/-! ## A225218.P7121026980809644240
+
+`∩[A076966(n+1), A339693(n+1)]`
+-/
+
+namespace A225218.P7121026980809644240
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076966 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339693 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225218.P7121026980809644240
+
+/-! ## A225218.P3308996650516820843
+
+`∩[A339693(n+1), A370610(n+1)]`
+-/
+
+namespace A225218.P3308996650516820843
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339693 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370610 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225218.P3308996650516820843
+
 /-!
 # A225219: Indices n of Fibonacci numbers Fib(n) (A000045) that are divisible by n-1 and n+1.
 
@@ -5264,6 +5308,21 @@ end
 
 end A225248.P3933703058935077679
 
+/-! ## A225248.P5146536881443686800
+
+`A225246(A167614(n+1))`
+-/
+
+namespace A225248.P5146536881443686800
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225246 (A167614 (n + 1)).toNat
+
+end
+
+end A225248.P5146536881443686800
+
 /-! ## A225248.P263734111855670378
 
 `A225246(A000217(n+2)+3)`
@@ -5278,21 +5337,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225248.P263734111855670378
-
-/-! ## A225248.P12575136887762469804
-
-`(A028896(n)-A225249(n+1))%A246491(n+3)`
--/
-
-namespace A225248.P12575136887762469804
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A028896 n - A225249 (n + 1)) (A246491 (n + 3))
-
-end
-
-end A225248.P12575136887762469804
 
 /-!
 # A225249: a(k) such that A225246 column k of T(n,k) = n*k*(k-1) - a(k) for large n.
@@ -7268,21 +7312,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225278.P13002442414298352022
-
-/-! ## A225278.P14339474589048133034
-
-`A302796(A330748(n)+A000070(n+1))`
--/
-
-namespace A225278.P14339474589048133034
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302796 (A330748 n + A000070 (n + 1)).toNat
-
-end
-
-end A225278.P14339474589048133034
 
 /-!
 # A225279: Minimum value unattainable as the sum of 6 attained values of i^2 with i in 0..n.

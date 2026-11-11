@@ -37,6 +37,7 @@ import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -430,6 +431,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A024606.P12922874207499803682
+
+/-! ## A024606.P17676140996227993872
+
+`A390532(A240227(n+1))`
+-/
+
+namespace A024606.P17676140996227993872
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A240227 (n + 1)).toNat
+
+end
+
+end A024606.P17676140996227993872
 
 /-!
 # A024607: Number of connected triangle-free graphs on n unlabeled nodes.

@@ -31,6 +31,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -42,7 +43,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1292,6 +1293,21 @@ end
 
 end A191613.P13353623012238048822
 
+/-! ## A191613.P6030662122367248759
+
+`A395473(n+1)%A000008(n)`
+-/
+
+namespace A191613.P6030662122367248759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A395473 (n + 1)) (A000008 n)
+
+end
+
+end A191613.P6030662122367248759
+
 /-! ## A191613.P5391716196587416626
 
 `A066800(n+1)-A193169(n+1)`
@@ -1474,21 +1490,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A191613.P9963370920496925898
-
-/-! ## A191613.P595323977114393380
-
-`and(A070050(n+1), A395473(n+1))`
--/
-
-namespace A191613.P595323977114393380
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A070050 (n + 1)) (A395473 (n + 1))
-
-end
-
-end A191613.P595323977114393380
 
 /-!
 # A191614: The lexicographically earliest sequence such that a(n) - a(n-1) is the largest proper divisor of a(n).
@@ -7905,6 +7906,32 @@ def P10010938424603620712.Spec : Prop :=
 
 end A191681
 
+/-! ## A191681.P9014288426697480562
+
+`∑{#}[2*n-1, C(2*n, #+1)*2^#]`
+-/
+
+namespace A191681.P9014288426697480562
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (2 * n) (k + 1) * 2 ^ k
+
+end
+
+end A191681.P9014288426697480562
+
+namespace A191681
+
+/-- `∑{#}[2*n-1, C(2*n, #+1)*2^#]` -/
+def P9014288426697480562.Spec : Prop :=
+  ∀ n, (P9014288426697480562.a n : ℤ) = A191681 n
+
+end A191681
+
 /-! ## A191681.P5836582389020896870
 
 `Δ[A002754(n)]`
@@ -8000,29 +8027,6 @@ namespace A191681
 /-- `A003462(2*n)` -/
 def P10242499067561191038.Spec : Prop :=
   ∀ n, P10242499067561191038.a n = A191681 n
-
-end A191681
-
-/-! ## A191681.P5688717956902774742
-
-`A076040(2*n)`
--/
-
-namespace A191681.P5688717956902774742
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076040 (2 * n)
-
-end
-
-end A191681.P5688717956902774742
-
-namespace A191681
-
-/-- `A076040(2*n)` -/
-def P5688717956902774742.Spec : Prop :=
-  ∀ n, P5688717956902774742.a n = A191681 n
 
 end A191681
 

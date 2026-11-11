@@ -13,7 +13,9 @@ import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -30,6 +32,7 @@ import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5135,6 +5138,21 @@ end
 
 end A359682.P5980195464699229750
 
+/-! ## A359682.P8472229714790553614
+
+`A390532(A359676(n+1))`
+-/
+
+namespace A359682.P8472229714790553614
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A359676 (n + 1)).toNat
+
+end
+
+end A359682.P8472229714790553614
+
 /-! ## A359682.P11894067832833108747
 
 `A004526(A359676(1+n)+1)`
@@ -5209,21 +5227,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A359682.P8859854423986182944
-
-/-! ## A359682.P16307239658597325027
-
-`A359676(n+1)/A036452(n+1)`
--/
-
-namespace A359682.P16307239658597325027
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A359676 (n + 1) : ℚ) / (A036452 (n + 1) : ℚ)
-
-end
-
-end A359682.P16307239658597325027
 
 /-!
 # A359683: Greatest positive integer whose reversed (weakly decreasing) prime indices have weighted sum (A318283) equal to n.

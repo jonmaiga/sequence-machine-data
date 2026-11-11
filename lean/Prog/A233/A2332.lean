@@ -9535,35 +9535,35 @@ end
 
 end A233287.P13469287105639570957
 
-/-! ## A233287.P7901289984823293370
+/-! ## A233287.P17388175758989049649
 
-`A001177((n+1)*A066838(n+1))`
+`A001177(A343277(n))`
 -/
 
-namespace A233287.P7901289984823293370
+namespace A233287.P17388175758989049649
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001177 ((n + 1 : ℤ) * A066838 (n + 1)).toNat
+  A001177 (A343277 n).toNat
 
 end
 
-end A233287.P7901289984823293370
+end A233287.P17388175758989049649
 
-/-! ## A233287.P8124707622775041381
+/-! ## A233287.P17427573518945193091
 
-`lcm(A001177(n+1), A001177(A003418(n)))`
+`A001177(A034386(n+1))`
 -/
 
-namespace A233287.P8124707622775041381
+namespace A233287.P17427573518945193091
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A001177 (n + 1)) (A001177 (A003418 n).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001177 (A034386 (n + 1)).toNat
 
 end
 
-end A233287.P8124707622775041381
+end A233287.P17427573518945193091
 
 /-!
 # A233288: Number of (3/2,2)-tight graphs with 2n vertices, or kinematic chains with 2n links.

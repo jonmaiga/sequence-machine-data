@@ -1,10 +1,9 @@
 {
-  "description": "Restricted growth sequence computed for filter-sequence A278221, related to the conjugated prime factorization (see A122111).",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A122111(i)) = A046523(A122111(j)), for all i, j >= 1, where A122111 conjugates the prime factorization of n, and A046523(n) is the smallest number with same prime signature as n.",
   "id": "A286621",
   "mentions": [
     "A006530",
     "A046523",
-    "A064989",
     "A101296",
     "A122111",
     "A278221",

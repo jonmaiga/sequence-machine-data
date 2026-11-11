@@ -1,5 +1,5 @@
 {
-  "description": "Number of independent vertex sets in the 4 X n Klein bottle graph.",
+  "description": "Number of independent vertex sets in the 4 X n Klein bottle grid graph.",
   "id": "A399357",
   "mentions": [
     "A399101"

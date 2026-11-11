@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest divisor d of the n-th primorial such that prime(n)#/d + d or prime(n)#/d - d is prime.",
+  "id": "A400473",
+  "mentions": [
+    "A002110",
+    "A014545",
+    "A057704",
+    "A295741",
+    "A400506"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

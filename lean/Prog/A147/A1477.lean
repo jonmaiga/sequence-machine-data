@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
@@ -3589,7 +3588,7 @@ end
 end A147744.P7131678254741354666
 
 /-!
-# A147746: Riordan array (1, x(1-2x)/(1-3x+x^2)).
+# A147746: Riordan array (1, x*(1-2*x)/(1-3*x+x^2)).
 
 The programs for A147746, there is no canonical definition to state claims against.
 -/
@@ -5764,51 +5763,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A147765.P10518016360968441594
-
-/-! ## A147765.P17529705974571799733
-
-`A087243(A047234(n+4))%A004273(n+7)`
--/
-
-namespace A147765.P17529705974571799733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A087243 (A047234 (n + 4)).toNat) (A004273 (n + 7))
-
-end
-
-end A147765.P17529705974571799733
-
-/-! ## A147765.P11284987572170574042
-
-`A087243(A020742(A080782(n+1)))`
--/
-
-namespace A147765.P11284987572170574042
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087243 (A020742 (A080782 (n + 1)).toNat).toNat
-
-end
-
-end A147765.P11284987572170574042
-
-/-! ## A147765.P13979052511257807888
-
-`A087243(A080782(n+2)+A080782(n+5))`
--/
-
-namespace A147765.P13979052511257807888
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087243 (A080782 (n + 2) + A080782 (n + 5)).toNat
-
-end
-
-end A147765.P13979052511257807888
 
 /-!
 # A147766: Successive differences of A000990.

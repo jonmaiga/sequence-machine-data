@@ -4680,6 +4680,32 @@ def P5662600958138734226.Spec : Prop :=
 
 end A105523
 
+/-! ## A105523.P16434293090764979274
+
+`1/(n+1)*∑{#}[n, C(n+1, #)*(-1)^#*2^#*C(2*(n+1)-2-#, n)]`
+-/
+
+namespace A105523.P16434293090764979274
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * ((∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (n + 1) k : ℤ) * (-1) ^ k * (2 ^ k : ℤ) * (Nat.choose ((2 * (n + 1) : ℤ) - 2 - (k : ℤ)).toNat n : ℤ) : ℤ) : ℚ)
+
+end
+
+end A105523.P16434293090764979274
+
+namespace A105523
+
+/-- `1/(n+1)*∑{#}[n, C(n+1, #)*(-1)^#*2^#*C(2*(n+1)-2-#, n)]` -/
+def P16434293090764979274.Spec : Prop :=
+  ∀ n, P16434293090764979274.a n = (A105523 n : ℚ)
+
+end A105523
+
 /-!
 # A105527: Index when n-nacci (tribonacci etc.) passes Fibonacci numbers.
 

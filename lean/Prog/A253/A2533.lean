@@ -31,6 +31,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C048
@@ -1212,7 +1213,7 @@ end A253313.P8535475003547439469
 
 The programs for A253315, the canonical program `A253315.P14136227825810400919` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253315 has offset 0).
 
-The definition of A253315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A253315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A253315.P14136227825810400919
@@ -1254,29 +1255,6 @@ namespace A253315
 /-- `A355340(A292600(n))` -/
 def P2080331335933735821.Spec : Prop :=
   ∀ n, P2080331335933735821.a n = A253315 n
-
-end A253315
-
-/-! ## A253315.P3270749187528411522
-
-`xor(A261283(n), A355340(n))`
--/
-
-namespace A253315.P3270749187528411522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A261283 n) (A355340 n)
-
-end
-
-end A253315.P3270749187528411522
-
-namespace A253315
-
-/-- `xor(A261283(n), A355340(n))` -/
-def P3270749187528411522.Spec : Prop :=
-  ∀ n, P3270749187528411522.a n = A253315 n
 
 end A253315
 
@@ -1346,29 +1324,6 @@ namespace A253315
 /-- `or(A261283(A004526(n)), A269723(n))` -/
 def P7545747981421663081.Spec : Prop :=
   ∀ n, P7545747981421663081.a n = A253315 n
-
-end A253315
-
-/-! ## A253315.P1101733980906514821
-
-`xor(A261283(A003188(n)), A261283(n))`
--/
-
-namespace A253315.P1101733980906514821
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A261283 (A003188 n).toNat) (A261283 n)
-
-end
-
-end A253315.P1101733980906514821
-
-namespace A253315
-
-/-- `xor(A261283(A003188(n)), A261283(n))` -/
-def P1101733980906514821.Spec : Prop :=
-  ∀ n, P1101733980906514821.a n = A253315 n
 
 end A253315
 
@@ -1444,6 +1399,52 @@ namespace A253315
 /-- `lcm(A008836(n+1), A261283(A004526(n)))` -/
 def P5642650612292567324.Spec : Prop :=
   ∀ n, (P5642650612292567324.a n : ℤ) = A253315 n
+
+end A253315
+
+/-! ## A253315.P3270749187528411522
+
+`xor(A261283(n), A355340(n))`
+-/
+
+namespace A253315.P3270749187528411522
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A261283 n) (A355340 n)
+
+end
+
+end A253315.P3270749187528411522
+
+namespace A253315
+
+/-- `xor(A261283(n), A355340(n))` -/
+def P3270749187528411522.Spec : Prop :=
+  ∀ n, P3270749187528411522.a n = A253315 n
+
+end A253315
+
+/-! ## A253315.P1101733980906514821
+
+`xor(A261283(A003188(n)), A261283(n))`
+-/
+
+namespace A253315.P1101733980906514821
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A261283 (A003188 n).toNat) (A261283 n)
+
+end
+
+end A253315.P1101733980906514821
+
+namespace A253315
+
+/-- `xor(A261283(A003188(n)), A261283(n))` -/
+def P1101733980906514821.Spec : Prop :=
+  ∀ n, P1101733980906514821.a n = A253315 n
 
 end A253315
 

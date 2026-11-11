@@ -32,7 +32,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -2394,6 +2394,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390435.P10386966974066087608
+
+/-! ## A390435.P18277157216485561094
+
+`A000290(A052486(A000290(n+1)/(n+1)))`
+-/
+
+namespace A390435.P18277157216485561094
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A052486 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+
+end
+
+end A390435.P18277157216485561094
 
 /-!
 # A390437: Numbers whose prime factorization exponents are not divisible by 3.

@@ -3824,161 +3824,54 @@ def P9038325874793479011.Spec : Prop :=
 
 end A202950
 
-/-!
-# A202951: Number of Nickerson-type partitions of [1,...,3n] into triples satisfying x+y=z.
+/-! ## A202950.P1914239446783590281
 
-The programs for A202951, there is no canonical definition to state claims against.
+`∑{#}[n, (2*n-#)!/(2^(n-#)*#!)]`
 -/
 
-/-! ## A202951.P3130871767759525257
-
-`A004075(xor(n, char[∏{digits}[n, #^#]-1]))`
--/
-
-namespace A202951.P3130871767759525257
+namespace A202950.P1914239446783590281
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x ^ x).prod : ℕ) : ℤ) - 1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (Nat.xor n (if ∃ j, f1 j = (n : ℤ) then 1 else 0))
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial ((2 * n : ℤ) - (k : ℤ)).toNat : ℚ) / ((2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.factorial k : ℚ))
 
 end
 
-end A202951.P3130871767759525257
+end A202950.P1914239446783590281
 
-/-! ## A202951.P12798281751370442147
+namespace A202950
 
-`A004075(A028310(n))`
--/
+/-- `∑{#}[n, (2*n-#)!/(2^(n-#)*#!)]` -/
+def P1914239446783590281.Spec : Prop :=
+  ∀ n, P1914239446783590281.a n = (A202950 n : ℚ)
 
-namespace A202951.P12798281751370442147
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A028310 n).toNat
-
-end
-
-end A202951.P12798281751370442147
-
-/-! ## A202951.P4124308360800855984
-
-`A004075(A033930(n))`
--/
-
-namespace A202951.P4124308360800855984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A033930 n).toNat
-
-end
-
-end A202951.P4124308360800855984
-
-/-! ## A202951.P16718517695560788702
-
-`A004075(A065033(2*n))`
--/
-
-namespace A202951.P16718517695560788702
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A065033 (2 * n)).toNat
-
-end
-
-end A202951.P16718517695560788702
-
-/-! ## A202951.P5478041062825744046
-
-`A004075(A000007(n)+n)`
--/
-
-namespace A202951.P5478041062825744046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004075 (A000007 n + (n : ℤ)).toNat
-
-end
-
-end A202951.P5478041062825744046
+end A202950
 
 /-!
-# A202952: a(n) = A108235(n)-A202951(n).
+# A202952: a(n) = A108235(n) - A004075(n).
 
 The programs for A202952, there is no canonical definition to state claims against.
 -/
 
-/-! ## A202952.P14083434381017884919
+/-! ## A202952.P4285317965085595054
 
-`A108235(n)-A202951(n)`
+`A108235(n)-A004075(n)`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A202952.P14083434381017884919
+namespace A202952.P4285317965085595054
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108235 n - A202951 n
+  A108235 n - A004075 n
 
 end
 
-end A202952.P14083434381017884919
-
-/-! ## A202952.P14040641116734747348
-
-`A002849(A008486(n))*A133872(n)-A202951(n)`
--/
-
-namespace A202952.P14040641116734747348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002849 (A008486 n).toNat * A133872 n - A202951 n
-
-end
-
-end A202952.P14040641116734747348
-
-/-! ## A202952.P7896574913013520344
-
-`A133872(n)*A234944(A133263(n))-A202951(n)`
--/
-
-namespace A202952.P7896574913013520344
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133872 n * A234944 (A133263 n).toNat - A202951 n
-
-end
-
-end A202952.P7896574913013520344
-
-/-! ## A202952.P4015075038045929617
-
-`A137676(n)*A234944(A133263(n))-A202951(n)`
--/
-
-namespace A202952.P4015075038045929617
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137676 n * A234944 (A133263 n).toNat - A202951 n
-
-end
-
-end A202952.P4015075038045929617
+end A202952.P4285317965085595054
 
 /-!
 # A202956: Number of arrays of n+2 integers in -2..2 with sum zero and adjacent elements differing in absolute value.

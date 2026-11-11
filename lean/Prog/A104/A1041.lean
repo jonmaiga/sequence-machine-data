@@ -3686,6 +3686,21 @@ end
 
 end A104125.P11126714381540571949
 
+/-! ## A104125.P6147856307569839722
+
+`A185586(A185413(n+1))²`
+-/
+
+namespace A104125.P6147856307569839722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185586 (A185413 (n + 1)).toNat ^ 2
+
+end
+
+end A104125.P6147856307569839722
+
 /-!
 # A104126: a(n) = prime(n)^(prime(n)+1).
 

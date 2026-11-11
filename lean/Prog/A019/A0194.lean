@@ -9575,6 +9575,75 @@ def P15480886595389551663.Spec : Prop :=
 
 end A019465
 
+/-! ## A019465.P14812504410179784334
+
+`A082458(n)+A019462(n+1)-A019463(n+1)`
+-/
+
+namespace A019465.P14812504410179784334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082458 n + A019462 (n + 1) - A019463 (n + 1)
+
+end
+
+end A019465.P14812504410179784334
+
+namespace A019465
+
+/-- `A082458(n)+A019462(n+1)-A019463(n+1)` -/
+def P14812504410179784334.Spec : Prop :=
+  ∀ n, P14812504410179784334.a n = A019465 n
+
+end A019465
+
+/-! ## A019465.P7836484728587799275
+
+`A082458(n)+A082448(n+1)-A019460(n+1)`
+-/
+
+namespace A019465.P7836484728587799275
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082458 n + A082448 (n + 1) - A019460 (n + 1)
+
+end
+
+end A019465.P7836484728587799275
+
+namespace A019465
+
+/-- `A082458(n)+A082448(n+1)-A019460(n+1)` -/
+def P7836484728587799275.Spec : Prop :=
+  ∀ n, P7836484728587799275.a n = A019465 n
+
+end A019465
+
+/-! ## A019465.P736375749487790728
+
+`A082459(n)+A082448(n+1)-A019463(n+1)`
+-/
+
+namespace A019465.P736375749487790728
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082459 n + A082448 (n + 1) - A019463 (n + 1)
+
+end
+
+end A019465.P736375749487790728
+
+namespace A019465
+
+/-- `A082459(n)+A082448(n+1)-A019463(n+1)` -/
+def P736375749487790728.Spec : Prop :=
+  ∀ n, P736375749487790728.a n = A019465 n
+
+end A019465
+
 /-!
 # A019466: Multiply by 1, add 1, multiply by 2, add 2, etc.; start with 3.
 

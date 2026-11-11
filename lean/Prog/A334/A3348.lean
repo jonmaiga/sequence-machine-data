@@ -27,6 +27,7 @@ import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
@@ -2668,6 +2669,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334821.P14685938468172987186
+
+/-! ## A334821.P13937115008825107384
+
+`A097369(A269403(n+1))`
+-/
+
+namespace A334821.P13937115008825107384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097369 (A269403 (n + 1)).toNat
+
+end
+
+end A334821.P13937115008825107384
+
+/-! ## A334821.P4610941784166104219
+
+`A105224(A272053(n+1))`
+-/
+
+namespace A334821.P4610941784166104219
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105224 (A272053 (n + 1)).toNat
+
+end
+
+end A334821.P4610941784166104219
 
 /-!
 # A334822: Palindromes k such that k*sod(k) and k/sod(k) are both palindromes, where sod(k) denotes the sum of digits of k (A007953).

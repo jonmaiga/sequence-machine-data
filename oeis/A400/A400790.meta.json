@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is number of unordered k-element sets of partitions summing to n.",
+  "id": "A400790",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A036039",
+    "A061260",
+    "A281357",
+    "A400782",
+    "A400783",
+    "A400784"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -28,7 +28,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -9184,6 +9184,52 @@ def P4579382342801116211.Spec : Prop :=
 
 end A228186
 
+/-! ## A228186.P62092054511919692
+
+`A377028(A001779(n+1))`
+-/
+
+namespace A228186.P62092054511919692
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377028 (A001779 (n + 1)).toNat
+
+end
+
+end A228186.P62092054511919692
+
+namespace A228186
+
+/-- `A377028(A001779(n+1))` -/
+def P62092054511919692.Spec : Prop :=
+  ∀ n, P62092054511919692.a n = A228186 n
+
+end A228186
+
+/-! ## A228186.P13305281719111379866
+
+`A130855(A257602(n+1))`
+-/
+
+namespace A228186.P13305281719111379866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130855 (A257602 (n + 1)).toNat
+
+end
+
+end A228186.P13305281719111379866
+
+namespace A228186
+
+/-- `A130855(A257602(n+1))` -/
+def P13305281719111379866.Spec : Prop :=
+  ∀ n, P13305281719111379866.a n = A228186 n
+
+end A228186
+
 /-!
 # A228187: Positive numbers which when decremented by the product of their digits produce a square.
 
@@ -9487,26 +9533,26 @@ def P13224155339425951957.Spec : Prop :=
 
 end A228189
 
-/-! ## A228189.P10457354543715391354
+/-! ## A228189.P283307474671910129
 
-`A008619(A228272(n+1))-1`
+`A004526(A228272(n+1))`
 -/
 
-namespace A228189.P10457354543715391354
+namespace A228189.P283307474671910129
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A228272 (n + 1)).toNat - 1
+  A004526 (A228272 (n + 1)).toNat
 
 end
 
-end A228189.P10457354543715391354
+end A228189.P283307474671910129
 
 namespace A228189
 
-/-- `A008619(A228272(n+1))-1` -/
-def P10457354543715391354.Spec : Prop :=
-  ∀ n, P10457354543715391354.a n = A228189 (n + 1)
+/-- `A004526(A228272(n+1))` -/
+def P283307474671910129.Spec : Prop :=
+  ∀ n, P283307474671910129.a n = A228189 (n + 1)
 
 end A228189
 

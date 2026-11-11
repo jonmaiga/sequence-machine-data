@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -8227,65 +8226,20 @@ end A332865.P18133448536247704001
 The programs for A332867, there is no canonical definition to state claims against.
 -/
 
-/-! ## A332867.P964261343831039608
+/-! ## A332867.P7406514040150226066
 
-`A400666(A002473(n+1))-(n+1)`
+`A400666(n+1)-(n+1)`
 -/
 
-namespace A332867.P964261343831039608
+namespace A332867.P7406514040150226066
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400666 (A002473 (n + 1)).toNat - (n + 1 : ℤ)
+  A400666 (n + 1) - (n + 1 : ℤ)
 
 end
 
-end A332867.P964261343831039608
-
-/-! ## A332867.P15264675521143531750
-
-`A400666(A000926(n+1))-A000926(n+1)`
--/
-
-namespace A332867.P15264675521143531750
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400666 (A000926 (n + 1)).toNat - A000926 (n + 1)
-
-end
-
-end A332867.P15264675521143531750
-
-/-! ## A332867.P16967302923247649032
-
-`A400666(A240237(n+1))-(n+1)`
--/
-
-namespace A332867.P16967302923247649032
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400666 (A240237 (n + 1)).toNat - (n + 1 : ℤ)
-
-end
-
-end A332867.P16967302923247649032
-
-/-! ## A332867.P4551618859441339559
-
-`A400666(A058183(A058183(n+1)))-(n+1)`
--/
-
-namespace A332867.P4551618859441339559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400666 (A058183 (A058183 (n + 1)).toNat).toNat - (n + 1 : ℤ)
-
-end
-
-end A332867.P4551618859441339559
+end A332867.P7406514040150226066
 
 /-!
 # A332868: Number of involutions (plus identity) in a fixed Sylow 2-subgroup of the symmetric group of degree 2n.
@@ -11900,6 +11854,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A332895.P7138835952245207707
+
+/-! ## A332895.P748758497645139624
+
+`A332995(A332811(n+1))`
+-/
+
+namespace A332895.P748758497645139624
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332995 (A332811 (n + 1)).toNat
+
+end
+
+end A332895.P748758497645139624
 
 /-!
 # A332896: a(1) = 0, and for n > 1, a(n) = 2*a(A332893(n)) + [n == 3 (mod 4)].

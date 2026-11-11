@@ -2,6 +2,8 @@
   "description": "Squares of primes or products of pairs of consecutive primes.",
   "id": "A033476",
   "mentions": [
+    "A001248",
+    "A006094",
     "A057602"
   ],
   "tags": [

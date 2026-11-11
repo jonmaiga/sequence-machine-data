@@ -1,0 +1,19 @@
+{
+  "description": "The first positive real value of sqrt(j^2 + k^2 - 2*j*k*cos(j-k)) - sqrt(2*k*(k+1)*(1-cos(1)) + 1) - sqrt(2*j*(j+1)*(1-cos(1)) + 1), where j, k are nonnegative integers with k as small as possible and j < k.",
+  "id": "A401523",
+  "mentions": [
+    "A401497",
+    "A401498",
+    "A401499"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

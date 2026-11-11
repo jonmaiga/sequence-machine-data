@@ -6137,6 +6137,21 @@ end
 
 end A384790.P12778395092852143108
 
+/-! ## A384790.P1701567133352931158
+
+`A046952(n+1)*A046952(n+1)*A046952(n+1)`
+-/
+
+namespace A384790.P1701567133352931158
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046952 (n + 1) * A046952 (n + 1) * A046952 (n + 1)
+
+end
+
+end A384790.P1701567133352931158
+
 /-!
 # A384791: Numbers with a record number of ways in which they can be expressed as b^3 * c^4 * d^5, with b, c and d >= 1.
 

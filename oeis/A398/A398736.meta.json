@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(4*n-1,k) * a(n-k).",
+  "id": "A398736",
+  "mentions": [
+    "A398734",
+    "A398735",
+    "A398737",
+    "A401683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

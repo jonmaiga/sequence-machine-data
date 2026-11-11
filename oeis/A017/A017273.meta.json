@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (10*n)^5.",
   "id": "A017273",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

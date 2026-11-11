@@ -1,0 +1,21 @@
+{
+  "description": "Number of earlier points visible from the n-th point of the hexagonal spiral on the Eisenstein lattice.",
+  "id": "A401675",
+  "mentions": [
+    "A003215",
+    "A059956",
+    "A280026",
+    "A307012",
+    "A307013",
+    "A331400",
+    "A345435"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

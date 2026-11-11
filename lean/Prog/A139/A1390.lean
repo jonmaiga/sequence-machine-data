@@ -5161,6 +5161,36 @@ end
 
 end A139052.P97950320379692607
 
+/-! ## A139052.P8110081458646131054
+
+`A139054(A042963(n+1))`
+-/
+
+namespace A139052.P8110081458646131054
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139054 (A042963 (n + 1)).toNat
+
+end
+
+end A139052.P8110081458646131054
+
+/-! ## A139052.P14358671661470298199
+
+`A139054(A264120(n+2))`
+-/
+
+namespace A139052.P14358671661470298199
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139054 (A264120 (n + 2)).toNat
+
+end
+
+end A139052.P14358671661470298199
+
 /-! ## A139052.P8980376203024349859
 
 `record[A139054(n+1)/Δ[A259445(n+1)]]`
@@ -5181,21 +5211,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A139052.P8980376203024349859
-
-/-! ## A139052.P18426274673582614773
-
-`A086549(a(n-2))` with `a(0)=2, a(1)=3`
--/
-
-namespace A139052.P18426274673582614773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2, 3] fun n a =>
-  A086549 (a (n - 2)).toNat
-
-end
-
-end A139052.P18426274673582614773
 
 /-!
 # A139053: Array read by rows: row n lists the first 3 primes with n digits.

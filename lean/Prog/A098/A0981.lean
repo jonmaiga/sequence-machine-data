@@ -2341,6 +2341,31 @@ theorem P10750374104259115939.correct : P10750374104259115939.Spec := by
 
 end A098117
 
+/-! ## A098117.P10055113740124928002
+
+`5^(A000040(n+1)-1)+5^A000040(n+1)-1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A098117.P10055113740124928002
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 : ℚ) ^ (A000040 (n + 1) - 1 : ℤ) + (5 : ℚ) ^ (A000040 (n + 1) : ℤ) - 1
+
+end
+
+end A098117.P10055113740124928002
+
+namespace A098117
+
+/-- `5^(A000040(n+1)-1)+5^A000040(n+1)-1` -/
+def P10055113740124928002.Spec : Prop :=
+  ∀ n, P10055113740124928002.a n = (A098117 (n + 1) : ℚ)
+
+end A098117
+
 /-! ## A098117.P10109376151492104789
 
 `A003948(Δ[A007504(n)])-1`
@@ -2416,29 +2441,6 @@ namespace A098117
 /-- `A003948(record[A051698(n)])-1` -/
 def P639037474962204942.Spec : Prop :=
   ∀ n, P639037474962204942.a n = A098117 (n + 1)
-
-end A098117
-
-/-! ## A098117.P7326602634391609695
-
-`A003948(A000040(n+1))-1`
--/
-
-namespace A098117.P7326602634391609695
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003948 (A000040 (n + 1)).toNat - 1
-
-end
-
-end A098117.P7326602634391609695
-
-namespace A098117
-
-/-- `A003948(A000040(n+1))-1` -/
-def P7326602634391609695.Spec : Prop :=
-  ∀ n, P7326602634391609695.a n = A098117 (n + 1)
 
 end A098117
 

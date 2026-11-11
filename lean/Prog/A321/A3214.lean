@@ -3083,6 +3083,21 @@ end
 
 end A321439.P14677763154610049906
 
+/-! ## A321439.P14815349000781482273
+
+`A377505(A321343(n+1))`
+-/
+
+namespace A321439.P14815349000781482273
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A321343 (n + 1)).toNat
+
+end
+
+end A321439.P14815349000781482273
+
 /-! ## A321439.P15356522787214211815
 
 `A056239(or(1, A321343(n+1)))`
@@ -3115,6 +3130,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321439.P7102671733763423933
+
+/-! ## A321439.P629836647617356699
+
+`A284114(A321343(n+1))`
+-/
+
+namespace A321439.P629836647617356699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284114 (A321343 (n + 1)).toNat
+
+end
+
+end A321439.P629836647617356699
 
 /-!
 # A321440: Number of partitions of n into consecutive parts, all singletons except the largest.

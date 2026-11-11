@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A382286(k) is a square.",
+  "id": "A401528",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A002117",
+    "A033676",
+    "A033677",
+    "A048760",
+    "A381054",
+    "A382286",
+    "A382306",
+    "A383115"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

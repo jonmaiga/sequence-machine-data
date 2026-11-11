@@ -1401,39 +1401,39 @@ def P8927635515401077146.Spec : Prop :=
 
 end A291004
 
-/-! ## A291004.P13157139927307826072
+/-! ## A291004.P10449893895796758019
 
 `3*4^(n-1)*(3*n+8)`
 -/
 
-namespace A291004.P13157139927307826072
+namespace A291004.P10449893895796758019
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  3 * (4 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (3 * n + 8 : ℚ)
+  3 * ((4 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (3 * n + 8 : ℚ))
 
 end
 
-end A291004.P13157139927307826072
+end A291004.P10449893895796758019
 
 namespace A291004
 
 /-- `3*4^(n-1)*(3*n+8)` -/
-def P13157139927307826072.Spec : Prop :=
-  ∀ n, P13157139927307826072.a n = (A291004 n : ℚ)
+def P10449893895796758019.Spec : Prop :=
+  ∀ n, P10449893895796758019.a n = (A291004 n : ℚ)
 
-theorem P13157139927307826072.correct : P13157139927307826072.Spec := by
+theorem P10449893895796758019.correct : P10449893895796758019.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 | 1 =>
-      simp [A291004, Nat.add_sub_cancel, A291004.P13157139927307826072.a, A291004.P7298725518155559341.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A291004, Nat.add_sub_cancel, A291004.P10449893895796758019.a, A291004.P7298725518155559341.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 2 =>
       have h1 := ih (m + 1) (by omega)
       have h2 := ih m (by omega)
-      simp only [A291004, Nat.add_sub_cancel, A291004.P13157139927307826072.a, A291004.P7298725518155559341.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      simp only [A291004, Nat.add_sub_cancel, A291004.P10449893895796758019.a, A291004.P7298725518155559341.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢
@@ -10189,6 +10189,21 @@ end
 
 end A291068.P18420638916838699289
 
+/-! ## A291068.P9232478704182233885
+
+`A291069(n+1)+A267936(n)`
+-/
+
+namespace A291068.P9232478704182233885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291069 (n + 1) + A267936 n
+
+end
+
+end A291068.P9232478704182233885
+
 /-! ## A291068.P13131638771829213975
 
 `A063196(A291069(n+1))+A000034(n)`
@@ -10233,21 +10248,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291068.P17869308477945673307
-
-/-! ## A291068.P8648796580191160932
-
-`(A291069(n+1)+A267936(n))*A267936(A291069(n+1))`
--/
-
-namespace A291068.P8648796580191160932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A291069 (n + 1) + A267936 n) * A267936 (A291069 (n + 1)).toNat
-
-end
-
-end A291068.P8648796580191160932
 
 /-!
 # A291069: Largest number of distinct words arising in Watanabe's tag system {00, 0111} applied to a binary word w, over all starting words w of length n.

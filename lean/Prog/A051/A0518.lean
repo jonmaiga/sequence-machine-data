@@ -15256,6 +15256,29 @@ def P9087948454454729277.Spec : Prop :=
 
 end A051878
 
+/-! ## A051878.P16009925255594412452
+
+`7*C(n+4, 5)+C(n+5, 5)`
+-/
+
+namespace A051878.P16009925255594412452
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  7 * Nat.choose (n + 4) 5 + Nat.choose (n + 5) 5
+
+end
+
+end A051878.P16009925255594412452
+
+namespace A051878
+
+/-- `7*C(n+4, 5)+C(n+5, 5)` -/
+def P16009925255594412452.Spec : Prop :=
+  ∀ n, (P16009925255594412452.a n : ℤ) = A051878 n
+
+end A051878
+
 /-! ## A051878.P15527366984309206496
 
 `∑[∑[Δ[n²]²+n]]+a(n-1)` with `a(0)=1`
@@ -15285,29 +15308,6 @@ namespace A051878
 /-- `∑[∑[Δ[n²]²+n]]+a(n-1)` -/
 def P15527366984309206496.Spec : Prop :=
   ∀ n, P15527366984309206496.a n = A051878 n
-
-end A051878
-
-/-! ## A051878.P13552085622664246325
-
-`a(n-1)+(2*n+1)*C(n+3, 3)` with `a(0)=1`
--/
-
-namespace A051878.P13552085622664246325
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (2 * n + 1) * Nat.choose (n + 3) 3
-
-end
-
-end A051878.P13552085622664246325
-
-namespace A051878
-
-/-- `a(n-1)+(2*n+1)*C(n+3, 3)` -/
-def P13552085622664246325.Spec : Prop :=
-  ∀ n, (P13552085622664246325.a n : ℤ) = A051878 n
 
 end A051878
 
@@ -18829,6 +18829,29 @@ def P3168132260939760869.Spec : Prop :=
 
 end A051895
 
+/-! ## A051895.P3425469676378595027
+
+`C(n+1, 2)*(4*(n+1)-1)`
+-/
+
+namespace A051895.P3425469676378595027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (n + 1) 2 : ℤ) * ((4 * (n + 1) : ℤ) - 1)
+
+end
+
+end A051895.P3425469676378595027
+
+namespace A051895
+
+/-- `C(n+1, 2)*(4*(n+1)-1)` -/
+def P3425469676378595027.Spec : Prop :=
+  ∀ n, P3425469676378595027.a n = A051895 n
+
+end A051895
+
 /-! ## A051895.P17752487281780129560
 
 `∑[n]+n*∑[a(n-1)+4]` with `a(0)=1`
@@ -18855,29 +18878,6 @@ namespace A051895
 /-- `∑[n]+n*∑[a(n-1)+4]` -/
 def P17752487281780129560.Spec : Prop :=
   ∀ n, (P17752487281780129560.a n : ℤ) = A051895 n
-
-end A051895
-
-/-! ## A051895.P13424733323443728585
-
-`2*n*(n+1)²-C(n+1, 2)`
--/
-
-namespace A051895.P13424733323443728585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n * (n + 1) ^ 2 : ℤ) - (Nat.choose (n + 1) 2 : ℤ)
-
-end
-
-end A051895.P13424733323443728585
-
-namespace A051895
-
-/-- `2*n*(n+1)²-C(n+1, 2)` -/
-def P13424733323443728585.Spec : Prop :=
-  ∀ n, P13424733323443728585.a n = A051895 n
 
 end A051895
 

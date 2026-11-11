@@ -1,0 +1,27 @@
+{
+  "description": "Powerful numbers that have an odd number of square divisors.",
+  "id": "A401486",
+  "mentions": [
+    "A001615",
+    "A001694",
+    "A008833",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013668",
+    "A036967",
+    "A046951",
+    "A182448",
+    "A252895"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

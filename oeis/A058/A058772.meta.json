@@ -1,8 +1,14 @@
 {
   "description": "Numbers k such that k * (1+i)^k - i is a Gaussian prime.",
   "id": "A058772",
-  "mentions": [],
+  "mentions": [
+    "A058770",
+    "A058771",
+    "A058782"
+  ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

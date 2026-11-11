@@ -28,6 +28,7 @@ import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -4212,21 +4213,6 @@ end
 
 end A309469.P5285949415063221812
 
-/-! ## A309469.P5100833608042365207
-
-`A309470(n+1)%A000112(n)`
--/
-
-namespace A309469.P5100833608042365207
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A309470 (n + 1)) (A000112 n)
-
-end
-
-end A309469.P5100833608042365207
-
 /-! ## A309469.P1278959698093383307
 
 `∑{e}[A003945(n+3), A309471(#)]`
@@ -4244,6 +4230,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A309469.P1278959698093383307
+
+/-! ## A309469.P10753431303749560164
+
+`A309470(A187829(n+1))`
+-/
+
+namespace A309469.P10753431303749560164
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309470 (A187829 (n + 1)).toNat
+
+end
+
+end A309469.P10753431303749560164
 
 /-!
 # A309470: Sum of the prime parts in the partitions of n into 9 parts.

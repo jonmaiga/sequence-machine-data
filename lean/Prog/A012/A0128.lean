@@ -8,7 +8,6 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
@@ -273,7 +272,7 @@ end
 end A012806.P4461125202368070549
 
 /-!
-# A012807: sinh(sec(x)*arctan(x))=x+2/3!*x^3+40/5!*x^5+576/7!*x^7+46208/9!*x^9...
+# A012807: Expansion of e.g.f. sinh(sec(x)*arctan(x)) (only odd powers).
 
 The programs for A012807, there is no canonical definition to state claims against.
 -/

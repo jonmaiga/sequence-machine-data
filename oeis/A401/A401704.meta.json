@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A401705(k) < A401707(k).",
+  "id": "A401704",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A401705",
+    "A401706",
+    "A401707",
+    "A401708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

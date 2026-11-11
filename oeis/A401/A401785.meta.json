@@ -1,0 +1,21 @@
+{
+  "description": "Primitive terms of A401784: terms in A401784 that are powerful numbers (A001694).",
+  "id": "A401785",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A322857",
+    "A361255",
+    "A391281",
+    "A401752",
+    "A401784"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1697,21 +1697,6 @@ end
 
 end A368614.P6253634551083057828
 
-/-! ## A368614.P12944629666407937908
-
-`A087261(A341858(n+1))`
--/
-
-namespace A368614.P12944629666407937908
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087261 (A341858 (n + 1)).toNat
-
-end
-
-end A368614.P12944629666407937908
-
 /-! ## A368614.P10799606639278487651
 
 `4*A095923(A033501(n+1))`
@@ -6906,6 +6891,29 @@ def P18080011756706318766.Spec : Prop :=
 
 end A368684
 
+/-! ## A368684.P13981628942027924134
+
+`A387114(A219606(n+1))`
+-/
+
+namespace A368684.P13981628942027924134
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387114 (A219606 (n + 1)).toNat
+
+end
+
+end A368684.P13981628942027924134
+
+namespace A368684
+
+/-- `A387114(A219606(n+1))` -/
+def P13981628942027924134.Spec : Prop :=
+  ∀ n, P13981628942027924134.a n = A368684 (n + 1)
+
+end A368684
+
 /-! ## A368684.P7865458996115987814
 
 `gcd(A003272(n), A069157(n+1))`
@@ -7118,21 +7126,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368691.P5701560680725909641
-
-/-! ## A368691.P17320983173871287961
-
-`A020482(A264598(3*(n+1))+A000010(n+1))`
--/
-
-namespace A368691.P17320983173871287961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020482 (A264598 (3 * (n + 1)) + A000010 (n + 1)).toNat
-
-end
-
-end A368691.P17320983173871287961
 
 /-!
 # A368694: Dirichlet inverse of the highest power of two that divides sigma(n), applied to A163511(n).

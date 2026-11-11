@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{k>0} 1/(1 - (2*k)^(-8)).",
+  "id": "A401345",
+  "mentions": [
+    "A019669",
+    "A092425",
+    "A401343",
+    "A401344",
+    "A401346",
+    "A401347"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

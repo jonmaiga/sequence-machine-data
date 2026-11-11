@@ -1,5 +1,5 @@
 {
-  "description": "Numbers composite(n) such that gcd(n,composite(n)) > 1.",
+  "description": "Numbers composite(k) such that gcd(k,composite(k)) > 1.",
   "id": "A336323",
   "mentions": [
     "A002808",

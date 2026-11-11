@@ -12,7 +12,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -30,7 +29,6 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -7758,21 +7756,6 @@ end A038938.P15658540976711068518
 The programs for A038939, there is no canonical definition to state claims against.
 -/
 
-/-! ## A038939.P7397740144657673709
-
-`A000040(A341518(n+4)%A355798(3*n+4))`
--/
-
-namespace A038939.P7397740144657673709
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (Int.tmod (A341518 (n + 4)) (A355798 (3 * n + 4))).toNat
-
-end
-
-end A038939.P7397740144657673709
-
 /-! ## A038939.P5032472889690645986
 
 `p?[lt[0, A200508(A200513(n))]]`
@@ -7862,6 +7845,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038939.P1384779110235425786
+
+/-! ## A038939.P15819835292413015573
+
+`A094802(A314243(n+1))`
+-/
+
+namespace A038939.P15819835292413015573
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094802 (A314243 (n + 1)).toNat
+
+end
+
+end A038939.P15819835292413015573
 
 /-!
 # A038941: Primes p such that 61 is a square mod p.

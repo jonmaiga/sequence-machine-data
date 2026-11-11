@@ -10599,6 +10599,21 @@ end
 
 end A106562.P14429265288360533600
 
+/-! ## A106562.P7322208309185921669
+
+`A000290(A106563(n+1))`
+-/
+
+namespace A106562.P7322208309185921669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A106563 (n + 1)).toNat
+
+end
+
+end A106562.P7322208309185921669
+
 /-! ## A106562.P2135284929873709281
 
 `A106544(or(1, A106563(n+1)))`
@@ -10649,24 +10664,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106562.P10198080399909698046
-
-/-! ## A106562.P3646859103119690129
-
-`filter[A106544(n+1), A370124(#)]`
--/
-
-namespace A106562.P3646859103119690129
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106544 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A370124 (f1 j).toNat = 1) n)
-
-end
-
-end A106562.P3646859103119690129
 
 /-!
 # A106563: Numbers k such that k^2 is not the sum of two primes.
@@ -13243,6 +13240,48 @@ def P9411108681862696368.Spec : Prop :=
 
 end A106570
 
+/-! ## A106570.P14011120322731315161
+
+`3*((2+sqrt(7))^n-(2-sqrt(7))^n)/(2*sqrt(7))`
+-/
+
+namespace A106570.P14011120322731315161
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  3 * (((2 + Real.sqrt (7 : ℝ)) ^ n - (2 - Real.sqrt (7 : ℝ)) ^ n) / (2 * Real.sqrt (7 : ℝ)))
+
+end
+
+end A106570.P14011120322731315161
+
+namespace A106570
+
+/-- `3*((2+sqrt(7))^n-(2-sqrt(7))^n)/(2*sqrt(7))` -/
+def P14011120322731315161.Spec : Prop :=
+  ∀ n, P14011120322731315161.a n = (A106570 n : ℝ)
+
+theorem P14011120322731315161.correct : P14011120322731315161.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A106570, Nat.add_sub_cancel, A106570.P14011120322731315161.a, A106570.P11024944614505999392.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A106570, Nat.add_sub_cancel, A106570.P14011120322731315161.a, A106570.P11024944614505999392.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
+end A106570
+
 /-! ## A106570.P12087731906326219401
 
 `Δ[A086901(n+1)/2]`
@@ -15318,6 +15357,35 @@ namespace A106587
 /-- `Δ[A000330(n)]+Δ[A007504(n)]²` -/
 def P7497495837057212630.Spec : Prop :=
   ∀ n, P7497495837057212630.a n = A106587 (n + 1)
+
+end A106587
+
+/-! ## A106587.P13461861805647297599
+
+`A001248(n+1)+A000290(n+1)`
+-/
+
+namespace A106587.P13461861805647297599
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001248 (n + 1) + A000290 (n + 1)
+
+end
+
+end A106587.P13461861805647297599
+
+namespace A106587
+
+/-- `A001248(n+1)+A000290(n+1)` -/
+def P13461861805647297599.Spec : Prop :=
+  ∀ n, P13461861805647297599.a n = A106587 (n + 1)
+
+theorem P13461861805647297599.correct : P13461861805647297599.Spec := by
+  intro n
+  simp only [A106587, Nat.add_sub_cancel, A106587.P13461861805647297599.a, A106587.P14902607394703240877.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000290, A000290.P12206242496348924484.a, A001248, A001248.P16278241061688229202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A106587
 

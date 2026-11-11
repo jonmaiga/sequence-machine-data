@@ -4577,29 +4577,6 @@ theorem P1913734792375318954.correct : P1913734792375318954.Spec := by
 
 end A016922
 
-/-! ## A016922.P13785197006746729213
-
-`A000290(A016921(n))`
--/
-
-namespace A016922.P13785197006746729213
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A016921 n).toNat
-
-end
-
-end A016922.P13785197006746729213
-
-namespace A016922
-
-/-- `A000290(A016921(n))` -/
-def P13785197006746729213.Spec : Prop :=
-  ∀ n, P13785197006746729213.a n = A016922 n
-
-end A016922
-
 /-! ## A016922.P6920713236008122083
 
 `filter[n², sqrt(#)%6]`
@@ -4952,6 +4929,29 @@ namespace A016922
 /-- `record[(2*n+n-2)^(2*and(1, n))]` -/
 def P1768233872192135869.Spec : Prop :=
   ∀ n, P1768233872192135869.a n = A016922 n
+
+end A016922
+
+/-! ## A016922.P6040838360522299989
+
+`sqrt(A016924(n))`
+-/
+
+namespace A016922.P6040838360522299989
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A016924 n : ℝ)
+
+end
+
+end A016922.P6040838360522299989
+
+namespace A016922
+
+/-- `sqrt(A016924(n))` -/
+def P6040838360522299989.Spec : Prop :=
+  ∀ n, P6040838360522299989.a n = (A016922 n : ℝ)
 
 end A016922
 
@@ -15761,6 +15761,29 @@ theorem P4598767388664381134.correct : P4598767388664381134.Spec := by
 
 end A016946
 
+/-! ## A016946.P2042516694796946324
+
+`A000290(A016945(n))`
+-/
+
+namespace A016946.P2042516694796946324
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A016945 n).toNat
+
+end
+
+end A016946.P2042516694796946324
+
+namespace A016946
+
+/-- `A000290(A016945(n))` -/
+def P2042516694796946324.Spec : Prop :=
+  ∀ n, P2042516694796946324.a n = A016946 n
+
+end A016946
+
 /-! ## A016946.P3793706800405881519
 
 `record[(3*xor(1, n))²]`
@@ -16124,32 +16147,6 @@ namespace A016946
 /-- `record[(lcm(4, n+1)-(n+1))²]` -/
 def P8399526879519287863.Spec : Prop :=
   ∀ n, P8399526879519287863.a n = A016946 n
-
-end A016946
-
-/-! ## A016946.P4168698096715968150
-
-`record[(3*(n+1))^gcd(n, n+2)]`
--/
-
-namespace A016946.P4168698096715968150
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (3 * (n + 1)) ^ Nat.gcd n (n + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A016946.P4168698096715968150
-
-namespace A016946
-
-/-- `record[(3*(n+1))^gcd(n, n+2)]` -/
-def P4168698096715968150.Spec : Prop :=
-  ∀ n, (P4168698096715968150.a n : ℤ) = A016946 n
 
 end A016946
 
@@ -31813,7 +31810,7 @@ theorem P7237878965282736869.correct : P7237878965282736869.Spec := by
 end A016984
 
 /-!
-# A016985: a(n) = (7n)^5.
+# A016985: a(n) = (7*n)^5.
 
 The programs for A016985, the canonical program `A016985.P10955113300691899170` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016985 has offset 0).
 

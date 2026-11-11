@@ -2,6 +2,7 @@
   "description": "Decimal expansion of e^2.",
   "id": "A072334",
   "mentions": [
+    "A000023",
     "A001113",
     "A001204",
     "A004273",

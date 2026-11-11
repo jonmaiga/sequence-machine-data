@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,t), 1 <= t <= n, of the polynomial family defined by T(n,0)=1, T(t,t)=T(t,t-1), dT(n,t)/dn = s*t*T(n,t-1) for s=2.",
+  "id": "A399323",
+  "mentions": [
+    "A001858",
+    "A138464",
+    "A362968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -15,7 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -23,6 +23,7 @@ import Seq.B000.C022
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C046
@@ -1535,6 +1536,30 @@ end
 end A391805.P16926360059001628074
 
 /-!
+# A391806: a(n) = least k such that the sum of the first k odd primes is divisible by n.
+
+The programs for A391806, there is no canonical definition to state claims against.
+-/
+
+/-! ## A391806.P3518000203083567862
+
+`A398776(∑[n+1]+1)`
+-/
+
+namespace A391806.P3518000203083567862
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398776 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A391806.P3518000203083567862
+
+/-!
 # A391807: a(n) is the least k such that the residues mod 3 of the primes prime(k), prime(k+1),... include a string of n 1's followed by 2.
 
 The programs for A391807, there is no canonical definition to state claims against.
@@ -2502,36 +2527,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A391824.P15841964516281309577
-
-/-! ## A391824.P2055133897639470132
-
-`A140595(A180771(n+1))`
--/
-
-namespace A391824.P2055133897639470132
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 (A180771 (n + 1)).toNat
-
-end
-
-end A391824.P2055133897639470132
-
-/-! ## A391824.P5049986573308126424
-
-`A140595(A301615(n+1))`
--/
-
-namespace A391824.P5049986573308126424
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 (A301615 (n + 1)).toNat
-
-end
-
-end A391824.P5049986573308126424
 
 /-! ## A391824.P12264887475280956269
 
@@ -5212,6 +5207,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391859.P12741831192240889014
+
+/-! ## A391859.P2913724983812257943
+
+`∩[A294748(n+1), A391858(n+1)]`
+-/
+
+namespace A391859.P2913724983812257943
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294748 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391858 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391859.P2913724983812257943
 
 /-!
 # A391860: Numbers k such that 49*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.

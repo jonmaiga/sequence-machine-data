@@ -23,11 +23,10 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
@@ -38,6 +37,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2712,7 +2712,7 @@ end A172521.P1368465950538284273
 /-!
 # A172522: Partial sums of A049094.
 
-The programs for A172522, the canonical program `A172522.P1128498458656736197` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172522 has offset 1).
+The programs for A172522, the canonical program `A172522.P1128498458656736197` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172522 has offset 1).
 
 The definition of A172522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 295 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2721,7 +2721,7 @@ The definition of A172522 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A049094(1+n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A172522

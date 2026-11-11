@@ -2005,6 +2005,29 @@ def P17168371774846154527.Spec : Prop :=
 
 end A288206
 
+/-! ## A288206.P12895644987111272047
+
+`xor(A153893(n), A340849(n))`
+-/
+
+namespace A288206.P12895644987111272047
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A153893 n) (A340849 n)
+
+end
+
+end A288206.P12895644987111272047
+
+namespace A288206
+
+/-- `xor(A153893(n), A340849(n))` -/
+def P12895644987111272047.Spec : Prop :=
+  ∀ n, P12895644987111272047.a n = A288206 n
+
+end A288206
+
 /-!
 # A288208: Number of permutations of a sequence of length n such that there are no fixed points, and no term is next to a term it was next to originally.
 
@@ -3894,20 +3917,20 @@ end
 
 end A288216.P12821627433170235455
 
-/-! ## A288216.P7674937828144257088
+/-! ## A288216.P7869366056235370303
 
-`val(A347314(n+2), 5)`
+`and(A285596(n+1), A375973(n+1))`
 -/
 
-namespace A288216.P7674937828144257088
+namespace A288216.P7869366056235370303
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A347314 (n + 2)).toNat 5
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A285596 (n + 1)) (A375973 (n + 1))
 
 end
 
-end A288216.P7674937828144257088
+end A288216.P7869366056235370303
 
 /-!
 # A288217: Positions of 0 in A288216; complement of A288218.

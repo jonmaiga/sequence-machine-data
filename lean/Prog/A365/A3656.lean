@@ -30,6 +30,7 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C047
@@ -53,9 +54,9 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
@@ -3764,6 +3765,29 @@ def P15929545534792937222.Spec : Prop :=
 
 end A365644
 
+/-! ## A365644.P13029984103620913016
+
+`(10^(row(n)-col(n))-1)/9*col(n)`
+-/
+
+namespace A365644.P13029984103620913016
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((10 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) - 1) / 9 * (SequenceMachineLib.triCol n : ℚ)
+
+end
+
+end A365644.P13029984103620913016
+
+namespace A365644
+
+/-- `(10^(row(n)-col(n))-1)/9*col(n)` -/
+def P13029984103620913016.Spec : Prop :=
+  ∀ n, P13029984103620913016.a n = (A365644 n : ℚ)
+
+end A365644
+
 /-! ## A365644.P10680275802270574484
 
 `col(n)*A002275(row(n)-col(n))`
@@ -3945,29 +3969,6 @@ namespace A365644
 /-- `A002262(n)*A002275(val(A054582(n), 2))` -/
 def P1850111723328977922.Spec : Prop :=
   ∀ n, P1850111723328977922.a n = A365644 n
-
-end A365644
-
-/-! ## A365644.P7705391461807099466
-
-`A002262(n)*A002275(val(A153279(n), 2))`
--/
-
-namespace A365644.P7705391461807099466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n * A002275 (SequenceMachineLib.valuation (A153279 n).toNat 2)
-
-end
-
-end A365644.P7705391461807099466
-
-namespace A365644
-
-/-- `A002262(n)*A002275(val(A153279(n), 2))` -/
-def P7705391461807099466.Spec : Prop :=
-  ∀ n, P7705391461807099466.a n = A365644 n
 
 end A365644
 

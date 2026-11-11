@@ -1,0 +1,28 @@
+{
+  "description": "Powerful numbers whose number of divisors is a power of 2.",
+  "id": "A401482",
+  "mentions": [
+    "A001615",
+    "A001694",
+    "A005117",
+    "A013661",
+    "A036537",
+    "A036966",
+    "A057521",
+    "A327839",
+    "A335988",
+    "A360540",
+    "A369567",
+    "A401483"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

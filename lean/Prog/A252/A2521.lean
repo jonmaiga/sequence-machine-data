@@ -22,6 +22,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -4553,21 +4554,6 @@ end
 
 end A252168.P16456347248326961214
 
-/-! ## A252168.P4727287626658970341
-
-`gcd(A107928(n+1), A276417(n))`
--/
-
-namespace A252168.P4727287626658970341
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A107928 (n + 1)) (A276417 n)
-
-end
-
-end A252168.P4727287626658970341
-
 /-! ## A252168.P2904326271300779647
 
 `A276417(n)+A049084(A364546(2*n+3))`
@@ -4582,6 +4568,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252168.P2904326271300779647
+
+/-! ## A252168.P2757632851106553740
+
+`A357181(A056772(n+1))`
+-/
+
+namespace A252168.P2757632851106553740
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357181 (A056772 (n + 1)).toNat
+
+end
+
+end A252168.P2757632851106553740
 
 /-!
 # A252169: Beatty sequence for sqrt(Pi*phi) where phi is the golden ratio A001622.

@@ -15,6 +15,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -4569,29 +4570,26 @@ def P16417805754054466692.Spec : Prop :=
 
 end A261953
 
-/-! ## A261953.P11089769988617917996
+/-! ## A261953.P10157441024699147321
 
-`∑[dr(A111286(n+1))]`
+`A123108(n)+A047470(n+1)`
 -/
 
-namespace A261953.P11089769988617917996
+namespace A261953.P10157441024699147321
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A111286 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123108 n + A047470 (n + 1)
 
 end
 
-end A261953.P11089769988617917996
+end A261953.P10157441024699147321
 
 namespace A261953
 
-/-- `∑[dr(A111286(n+1))]` -/
-def P11089769988617917996.Spec : Prop :=
-  ∀ n, (P11089769988617917996.a n : ℤ) = A261953 n
+/-- `A123108(n)+A047470(n+1)` -/
+def P10157441024699147321.Spec : Prop :=
+  ∀ n, P10157441024699147321.a n = A261953 n
 
 end A261953
 

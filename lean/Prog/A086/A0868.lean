@@ -35,6 +35,7 @@ import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
@@ -4100,25 +4101,6 @@ end
 
 end A086832.P14126638388439078554
 
-/-! ## A086832.P5665993558881540665
-
-`A220614(A001844(n))+char[11]`
--/
-
-namespace A086832.P5665993558881540665
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220614 (A001844 n).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A086832.P5665993558881540665
-
 /-! ## A086832.P494786734413305315
 
 `record[A003982(n)*A220614(n+1)]`
@@ -7857,29 +7839,6 @@ def P11565755083588927172.Spec : Prop :=
 
 end A086858
 
-/-! ## A086858.P14543025988781316479
-
-`round(sqrt(A398548(n+2)))`
--/
-
-namespace A086858.P14543025988781316479
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (A398548 (n + 2) : ℝ))
-
-end
-
-end A086858.P14543025988781316479
-
-namespace A086858
-
-/-- `round(sqrt(A398548(n+2)))` -/
-def P14543025988781316479.Spec : Prop :=
-  ∀ n, P14543025988781316479.a n = A086858 (n + 1)
-
-end A086858
-
 /-! ## A086858.P2601841070555936554
 
 `floor(sqrt(A179390(n+3)))`
@@ -7900,6 +7859,29 @@ namespace A086858
 /-- `floor(sqrt(A179390(n+3)))` -/
 def P2601841070555936554.Spec : Prop :=
   ∀ n, P2601841070555936554.a n = A086858 (n + 1)
+
+end A086858
+
+/-! ## A086858.P8503141578753107616
+
+`A058318(A130149(n))`
+-/
+
+namespace A086858.P8503141578753107616
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058318 (A130149 n).toNat
+
+end
+
+end A086858.P8503141578753107616
+
+namespace A086858
+
+/-- `A058318(A130149(n))` -/
+def P8503141578753107616.Spec : Prop :=
+  ∀ n, P8503141578753107616.a n = A086858 (n + 1)
 
 end A086858
 
@@ -11091,24 +11073,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A086880.P5636357366516782273
-
-/-! ## A086880.P14258310788867590169
-
-`A107680(a(n-1))-∑[1-A137921(n+1)]` with `a(0)=2`
--/
-
-namespace A086880.P14258310788867590169
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A137921 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  A107680 (a (n - 1)).toNat - ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A086880.P14258310788867590169
 
 /-!
 # A086881: a(n) = (2*n)!*Sum[Sum[1/(i+j),{i,1,n}],{j,1,n}].

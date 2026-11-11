@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of edges in a simple graph of treewidth n.",
+  "id": "A401471",
+  "mentions": [
+    "A000217",
+    "A124158",
+    "A161208",
+    "A263294"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

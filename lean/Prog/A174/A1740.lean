@@ -8542,6 +8542,29 @@ def P3315987754427320822.Spec : Prop :=
 
 end A174048
 
+/-! ## A174048.P8642443969901160260
+
+`A388982(A147846(n+1))`
+-/
+
+namespace A174048.P8642443969901160260
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A388982 (A147846 (n + 1)).toNat
+
+end
+
+end A174048.P8642443969901160260
+
+namespace A174048
+
+/-- `A388982(A147846(n+1))` -/
+def P8642443969901160260.Spec : Prop :=
+  ∀ n, P8642443969901160260.a n = A174048 (n + 1)
+
+end A174048
+
 /-! ## A174048.P7866414862249303476
 
 `A000040(lt[A007920(n), 2])`
@@ -8673,36 +8696,6 @@ namespace A174048
 /-- `∪[A006450(n+1), A055003(n+1)]` -/
 def P15791110871582516705.Spec : Prop :=
   ∀ n, (P15791110871582516705.a n : ℤ) = A174048 (n + 1)
-
-end A174048
-
-/-! ## A174048.P635520058564078085
-
-`∪[A055003(n+1), A175247(n+1)]`
--/
-
-namespace A174048.P635520058564078085
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055003 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175247 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A174048.P635520058564078085
-
-namespace A174048
-
-/-- `∪[A055003(n+1), A175247(n+1)]` -/
-def P635520058564078085.Spec : Prop :=
-  ∀ n, (P635520058564078085.a n : ℤ) = A174048 (n + 1)
 
 end A174048
 
@@ -10397,6 +10390,32 @@ namespace A174060
 /-- `gcd(n, n+1)*∑[∑[char[(n+1)²]]²]` -/
 def P5900512089320389249.Spec : Prop :=
   ∀ n, (P5900512089320389249.a n : ℤ) = A174060 n
+
+end A174060
+
+/-! ## A174060.P1786552468964958859
+
+`∑{#}[floor(sqrt(n+1))-1, (2*#+1)*(n+1-(#+1)²)]`
+-/
+
+namespace A174060.P1786552468964958859
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.sqrt (n + 1) : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 * k + 1 : ℤ) * ((n + 1 : ℤ) - ((k + 1) ^ 2 : ℤ))
+
+end
+
+end A174060.P1786552468964958859
+
+namespace A174060
+
+/-- `∑{#}[floor(sqrt(n+1))-1, (2*#+1)*(n+1-(#+1)²)]` -/
+def P1786552468964958859.Spec : Prop :=
+  ∀ n, P1786552468964958859.a n = A174060 n
 
 end A174060
 

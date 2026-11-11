@@ -69,6 +69,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -7707,6 +7708,21 @@ end
 
 end A251738.P15985545799946258930
 
+/-! ## A251738.P16054430042233026822
+
+`lcm(A251739(n+2), A329684(n))`
+-/
+
+namespace A251738.P16054430042233026822
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A251739 (n + 2)) (A329684 n)
+
+end
+
+end A251738.P16054430042233026822
+
 /-! ## A251738.P17396239694887908691
 
 `A000034(A055672(n))*A251739(n+2)`
@@ -7796,21 +7812,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251738.P16888934418716911002
-
-/-! ## A251738.P16314300585496286883
-
-`lcm(A014963(A000123(n)), A251739(n+2))`
--/
-
-namespace A251738.P16314300585496286883
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A014963 (A000123 n).toNat) (A251739 (n + 2))
-
-end
-
-end A251738.P16314300585496286883
 
 /-! ## A251738.P15516570097813994767
 

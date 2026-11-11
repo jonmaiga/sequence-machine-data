@@ -43,6 +43,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -6148,21 +6149,6 @@ end
 
 end A136846.P11069944605913637034
 
-/-! ## A136846.P1906641529415706294
-
-`A087217(a(n-2))` with `a(0)=0, a(1)=1, a(2)=3`
--/
-
-namespace A136846.P1906641529415706294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 3] fun n a =>
-  A087217 (a (n - 2)).toNat
-
-end
-
-end A136846.P1906641529415706294
-
 /-! ## A136846.P7663185433253377234
 
 `Δ[A052382(ceil(3^n/6))]`
@@ -6195,6 +6181,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A136846.P14186767269650317746
+
+/-! ## A136846.P222118983554205495
+
+`A004177(A136853(n+1))`
+-/
+
+namespace A136846.P222118983554205495
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004177 (A136853 (n + 1)).toNat
+
+end
+
+end A136846.P222118983554205495
 
 /-!
 # A136847: Numbers k such that k and k^2 use only the digits 0, 1, 3 and 6.

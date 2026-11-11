@@ -98,6 +98,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -10042,6 +10043,24 @@ end
 
 end A302697.P9046176428509336043
 
+/-! ## A302697.P16754951211362055402
+
+`filter[2*n+1, A387114(#)]`
+-/
+
+namespace A302697.P16754951211362055402
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A387114 (f1 j) = 1) n)
+
+end
+
+end A302697.P16754951211362055402
+
 /-! ## A302697.P2755448149078664339
 
 `filter[A289509(n+1), #%2]`
@@ -10163,24 +10182,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302697.P5623135726083671812
-
-/-! ## A302697.P13415717284696386774
-
-`filter[A289509(n+1), A000035(#)]`
--/
-
-namespace A302697.P13415717284696386774
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289509 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
-
-end
-
-end A302697.P13415717284696386774
 
 /-!
 # A302698: Number of integer partitions of n into relatively prime parts that are all greater than 1.

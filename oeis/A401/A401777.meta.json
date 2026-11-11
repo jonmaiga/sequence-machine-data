@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyhexes with 2n cells that can be dissected into two congruent polyhexes.",
+  "id": "A401777",
+  "mentions": [
+    "A000228",
+    "A399996",
+    "A401775",
+    "A401778"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

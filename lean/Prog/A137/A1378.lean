@@ -34,7 +34,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -43,7 +42,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -7375,6 +7373,21 @@ end
 
 end A137855.P15105291488773476868
 
+/-! ## A137855.P11891905386705842371
+
+`A320751(n+1)+A320750(n+1)`
+-/
+
+namespace A137855.P11891905386705842371
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320751 (n + 1) + A320750 (n + 1)
+
+end
+
+end A137855.P11891905386705842371
+
 /-!
 # A137856: Row sums of triangle A137855.
 
@@ -8524,14 +8537,14 @@ end A137864
 /-!
 # A137866: a(1)=0. For n >= 2, a(n) = gcd(a(n-1)+1, n).
 
-The programs for A137866, the canonical program `A137866.P13339184535082810882` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137866 has offset 1).
+The programs for A137866, the canonical program `A137866.P1514823896338491882` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137866 has offset 1).
 
-The definition of A137866 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(a(n-1)+1, n+1)` (program `A137866.P13339184535082810882`, by `A137866.P13339184535082810882.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A137866 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(a(n-1)+1, n+1)` (program `A137866.P1514823896338491882`, by `A137866.P1514823896338491882.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A137866.P13339184535082810882
+/-! ## A137866.P1514823896338491882
 
-`gcd(a(n-1)+1, n+1)` with `a(0)=0`
+`gcd(a(n-1)+1, n+1)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2`
 
 The canonical program, it is in `Seq.B000.C023`.
 -/
@@ -8539,10 +8552,10 @@ The canonical program, it is in `Seq.B000.C023`.
 namespace A137866
 
 /-- `gcd(a(n-1)+1, n+1)` -/
-def P13339184535082810882.Spec : Prop :=
-  ∀ n, (P13339184535082810882.a n : ℤ) = A137866 (n + 1)
+def P1514823896338491882.Spec : Prop :=
+  ∀ n, (P1514823896338491882.a n : ℤ) = A137866 (n + 1)
 
-theorem P13339184535082810882.correct : P13339184535082810882.Spec := by
+theorem P1514823896338491882.correct : P1514823896338491882.Spec := by
   intro n
   simp only [A137866, Nat.add_sub_cancel]
 
@@ -8568,12 +8581,6 @@ namespace A137866
 /-- `gcd(1+a(n-1), n+1)` -/
 def P16129720916358876562.Spec : Prop :=
   ∀ n, (P16129720916358876562.a n : ℤ) = A137866 (n + 1)
-
-theorem P16129720916358876562.correct : P16129720916358876562.Spec := by
-  intro n
-  simp only [A137866, Nat.add_sub_cancel, A137866.P16129720916358876562.a, A137866.P13339184535082810882.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A137866
 

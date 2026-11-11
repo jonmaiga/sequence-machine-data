@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of placing n rooks on an n X n chessboard with the topology of a Klein bottle.",
+  "description": "Number of ways of placing n nonattacking rooks on an n X n chessboard with the topology of a Klein bottle.",
   "id": "A134983",
   "mentions": [],
   "tags": [

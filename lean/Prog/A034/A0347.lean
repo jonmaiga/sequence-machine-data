@@ -60,6 +60,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -7009,6 +7010,32 @@ def P12073123484907289979.Spec : Prop :=
 
 end A034738
 
+/-! ## A034738.P9495419876286689832
+
+`∑{d}[n+1, 2^((n+1)/#-1)*A000010(#)]`
+-/
+
+namespace A034738.P9495419876286689832
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (2 : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) - 1 : ℝ) * (A000010 d : ℝ)
+
+end
+
+end A034738.P9495419876286689832
+
+namespace A034738
+
+/-- `∑{d}[n+1, 2^((n+1)/#-1)*A000010(#)]` -/
+def P9495419876286689832.Spec : Prop :=
+  ∀ n, P9495419876286689832.a n = (A034738 (n + 1) : ℝ)
+
+end A034738
+
 /-! ## A034738.P10286811658297623229
 
 `∑{d}[n+1, A007427(#)*A034737((n+1)/#)]`
@@ -7289,29 +7316,6 @@ namespace A034738
 /-- `(A346558(n+1)+n+1)/2` -/
 def P17804812265414988860.Spec : Prop :=
   ∀ n, P17804812265414988860.a n = (A034738 (n + 1) : ℚ)
-
-end A034738
-
-/-! ## A034738.P16160104443544965599
-
-`A160619(n+1)/4`
--/
-
-namespace A034738.P16160104443544965599
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A160619 (n + 1) : ℚ) / 4
-
-end
-
-end A034738.P16160104443544965599
-
-namespace A034738
-
-/-- `A160619(n+1)/4` -/
-def P16160104443544965599.Spec : Prop :=
-  ∀ n, P16160104443544965599.a n = (A034738 (n + 1) : ℚ)
 
 end A034738
 

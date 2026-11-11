@@ -1,5 +1,5 @@
 {
-  "description": "Sum{Floor(n*(r^k)): r=sqrt(2)-1, k>=0}.",
+  "description": "a(n) = Sum_{k>=0} floor(n*(r^k)) where r=sqrt(2)-1.",
   "id": "A087063",
   "mentions": [
     "A005187"

@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -3097,9 +3098,9 @@ end A272333.P2226363855179225305
 /-!
 # A272334: Square root of the largest square dividing 2^n - 1.
 
-The programs for A272334, the canonical program `A272334.P18035456064944277151` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272334 has offset 1).
+The programs for A272334, the canonical program `A272334.P15546602444507919957` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272334 has offset 1).
 
-The definition of A272334 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A272334 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A272334.P10349450522660665946
@@ -3128,23 +3129,19 @@ end A272334
 /-! ## A272334.P15546602444507919957
 
 `A000188(2*A087966(n+1))`
+
+The canonical program, it is in `Seq.B001.C011`.
 -/
-
-namespace A272334.P15546602444507919957
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (2 * A087966 (n + 1)).toNat
-
-end
-
-end A272334.P15546602444507919957
 
 namespace A272334
 
 /-- `A000188(2*A087966(n+1))` -/
 def P15546602444507919957.Spec : Prop :=
   ∀ n, P15546602444507919957.a n = A272334 (n + 1)
+
+theorem P15546602444507919957.correct : P15546602444507919957.Spec := by
+  intro n
+  simp only [A272334, Nat.add_sub_cancel]
 
 end A272334
 
@@ -3194,22 +3191,26 @@ def P6307400480081666680.Spec : Prop :=
 
 end A272334
 
-/-! ## A272334.P18035456064944277151
+/-! ## A272334.P3403670566552879184
 
-`gcd(A038388(n+1), A290683(n))`
-
-The canonical program, it is in `Seq.B004.C003`.
+`gcd(A038388(n+1), A286521(n))`
 -/
+
+namespace A272334.P3403670566552879184
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A038388 (n + 1)) (A286521 n)
+
+end
+
+end A272334.P3403670566552879184
 
 namespace A272334
 
-/-- `gcd(A038388(n+1), A290683(n))` -/
-def P18035456064944277151.Spec : Prop :=
-  ∀ n, (P18035456064944277151.a n : ℤ) = A272334 (n + 1)
-
-theorem P18035456064944277151.correct : P18035456064944277151.Spec := by
-  intro n
-  simp only [A272334, Nat.add_sub_cancel]
+/-- `gcd(A038388(n+1), A286521(n))` -/
+def P3403670566552879184.Spec : Prop :=
+  ∀ n, (P3403670566552879184.a n : ℤ) = A272334 (n + 1)
 
 end A272334
 

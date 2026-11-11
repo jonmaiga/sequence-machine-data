@@ -18,6 +18,7 @@ import Seq.B000.C014
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -61,6 +62,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
@@ -2197,48 +2199,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070736.P4390223894061257177
-
-/-!
-# A070737: Smallest number x such that the first n cyclotomic polynomials evaluated at x are primes.
-
-The programs for A070737, there is no canonical definition to state claims against.
--/
-
-/-! ## A070737.P1165283779890632733
-
-`A233512(∏{p}[n+1, #])+and(n, 2*n)`
--/
-
-namespace A070737.P1165283779890632733
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233512 (∏ p ∈ Nat.primeFactors (f1 n), p) + (Nat.land n (2 * n) : ℤ)
-
-end
-
-end A070737.P1165283779890632733
-
-/-! ## A070737.P17557514412616251259
-
-`A233512(ceil(sqrt((n+1)*∏{p}[n+1, #])))`
--/
-
-namespace A070737.P17557514412616251259
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233512 ⌈Real.sqrt (((n + 1) * (∏ p ∈ Nat.primeFactors (f1 n), p) : ℕ) : ℝ)⌉.toNat
-
-end
-
-end A070737.P17557514412616251259
 
 /-!
 # A070738: Nonprimes n such that n^2 reduced modulo phi(n) = phi(n)^2 reduced modulo n.
@@ -6901,26 +6861,23 @@ end
 
 end A070763.P18378484583932027240
 
-/-! ## A070763.P6281319795704745932
+/-! ## A070763.P14754335521884890725
 
-`eq[1, A001221(A000203(n+1))]+1`
+`filter[A401381(n+1), A325964(#)]`
 -/
 
-namespace A070763.P6281319795704745932
+namespace A070763.P14754335521884890725
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401381 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A000203 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A325964 (f1 j).toNat = 1) n)
 
 end
 
-end A070763.P6281319795704745932
+end A070763.P14754335521884890725
 
 /-!
 # A070764: Number of polyiamonds with n cells, with holes.
@@ -6972,6 +6929,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070764.P789590144161786704
+
+/-! ## A070764.P15299718065713108891
+
+`A000577(n+1)-(A071334(n+1)+A071332(n+1))`
+-/
+
+namespace A070764.P15299718065713108891
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000577 (n + 1) - (A071334 (n + 1) + A071332 (n + 1))
+
+end
+
+end A070764.P15299718065713108891
+
+/-! ## A070764.P1241298998642616398
+
+`A071333(n+1)+A071332(n+1)-A070765(n+1)`
+-/
+
+namespace A070764.P1241298998642616398
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071333 (n + 1) + A071332 (n + 1) - A070765 (n + 1)
+
+end
+
+end A070764.P1241298998642616398
 
 /-!
 # A070765: Number of polyiamonds with n cells, without holes.
@@ -9488,6 +9475,32 @@ theorem P7173016781391059202.correct : P7173016781391059202.Spec := by
 
 end A070779
 
+/-! ## A070779.P9174576603072694179
+
+`∑{#}[n, C(n+1, #+1)*(n+1)!/(#+1)!]`
+-/
+
+namespace A070779.P9174576603072694179
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (n + 1) (k + 1) : ℚ) * ((Nat.factorial (n + 1) : ℚ) / (Nat.factorial (k + 1) : ℚ))
+
+end
+
+end A070779.P9174576603072694179
+
+namespace A070779
+
+/-- `∑{#}[n, C(n+1, #+1)*(n+1)!/(#+1)!]` -/
+def P9174576603072694179.Spec : Prop :=
+  ∀ n, P9174576603072694179.a n = (A070779 n : ℚ)
+
+end A070779
+
 /-! ## A070779.P8142131841105945419
 
 `A176122(∑[n+2])`
@@ -9684,29 +9697,6 @@ namespace A070779
 /-- `A056953(2*(n+1))-A000142(n+1)` -/
 def P3557779299960960848.Spec : Prop :=
   ∀ n, P3557779299960960848.a n = A070779 n
-
-end A070779
-
-/-! ## A070779.P1277040956549540226
-
-`2*A331326(n+1)-A087860(n+1)`
--/
-
-namespace A070779.P1277040956549540226
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A331326 (n + 1) - A087860 (n + 1)
-
-end
-
-end A070779.P1277040956549540226
-
-namespace A070779
-
-/-- `2*A331326(n+1)-A087860(n+1)` -/
-def P1277040956549540226.Spec : Prop :=
-  ∀ n, P1277040956549540226.a n = A070779 n
 
 end A070779
 

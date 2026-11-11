@@ -38,6 +38,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C048
@@ -10371,29 +10372,29 @@ def P9927399446810712409.Spec : Prop :=
 
 end A209492
 
-/-! ## A209492.P10770601395644667415
+/-! ## A209492.P14153238086641598660
 
-`record[A126441(2*n)]`
+`filter[A099627(n), A039982(#)]`
 -/
 
-namespace A209492.P10770601395644667415
+namespace A209492.P14153238086641598660
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126441 (2 * n)
+  A099627 n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  f1 (SequenceMachineLib.nth (fun j => A039982 (f1 j).toNat = 1) n)
 
 end
 
-end A209492.P10770601395644667415
+end A209492.P14153238086641598660
 
 namespace A209492
 
-/-- `record[A126441(2*n)]` -/
-def P10770601395644667415.Spec : Prop :=
-  ∀ n, P10770601395644667415.a n = A209492 n
+/-- `filter[A099627(n), A039982(#)]` -/
+def P14153238086641598660.Spec : Prop :=
+  ∀ n, P14153238086641598660.a n = A209492 n
 
 end A209492
 

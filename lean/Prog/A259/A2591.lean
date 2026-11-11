@@ -39,6 +39,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -51,7 +52,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -3755,20 +3755,20 @@ end A259131
 The programs for A259132, there is no canonical definition to state claims against.
 -/
 
-/-! ## A259132.P14076983566567692863
+/-! ## A259132.P3959299456501952786
 
-`A056259(1+n)+1`
+`A056259(n+1)+1`
 -/
 
-namespace A259132.P14076983566567692863
+namespace A259132.P3959299456501952786
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056259 (1 + n) + 1
+  A056259 (n + 1) + 1
 
 end
 
-end A259132.P14076983566567692863
+end A259132.P3959299456501952786
 
 /-! ## A259132.P15714511389621645152
 
@@ -4396,6 +4396,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A259145.P15819126477779627213
+
+/-! ## A259145.P12161570923362264147
+
+`A000194(A258435(n+1))`
+-/
+
+namespace A259145.P12161570923362264147
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000194 (A258435 (n + 1)).toNat
+
+end
+
+end A259145.P12161570923362264147
 
 /-!
 # A259154: Number of values v whose pi-based arithmetic derivative equals n.

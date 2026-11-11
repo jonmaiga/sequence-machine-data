@@ -29,7 +29,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -15079,21 +15079,6 @@ end
 
 end A172192.P8293483056882013644
 
-/-! ## A172192.P6224670525193905522
-
-`floor(root(A171771(n+1), 6)-A057428(n+1))`
--/
-
-namespace A172192.P6224670525193905522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A171771 (n + 1) : ℝ) ^ (1 / (6 : ℝ)) - (A057428 (n + 1) : ℝ)⌋
-
-end
-
-end A172192.P6224670525193905522
-
 /-! ## A172192.P16567436259207007511
 
 `round(root(A171771(n+1), 6)+2-A040000(n))`
@@ -15108,6 +15093,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172192.P16567436259207007511
+
+/-! ## A172192.P6224670525193905522
+
+`floor(root(A171771(n+1), 6)-A057428(n+1))`
+-/
+
+namespace A172192.P6224670525193905522
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A171771 (n + 1) : ℝ) ^ (1 / (6 : ℝ)) - (A057428 (n + 1) : ℝ)⌋
+
+end
+
+end A172192.P6224670525193905522
 
 /-!
 # A172193: a(n) = 5*n^2 + 31*n + 1.

@@ -3978,6 +3978,52 @@ def P1654055469525985117.Spec : Prop :=
 
 end A099234
 
+/-! ## A099234.P18249817737282837780
+
+`A099233(A055998(n+2)-1)`
+-/
+
+namespace A099234.P18249817737282837780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099233 (A055998 (n + 2) - 1).toNat
+
+end
+
+end A099234.P18249817737282837780
+
+namespace A099234
+
+/-- `A099233(A055998(n+2)-1)` -/
+def P18249817737282837780.Spec : Prop :=
+  ∀ n, P18249817737282837780.a n = A099234 n
+
+end A099234
+
+/-! ## A099234.P13433285541900492539
+
+`A099233(A340266(n+1)+2*n+1)`
+-/
+
+namespace A099234.P13433285541900492539
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099233 (A340266 (n + 1) + (2 * n + 1 : ℤ)).toNat
+
+end
+
+end A099234.P13433285541900492539
+
+namespace A099234
+
+/-- `A099233(A340266(n+1)+2*n+1)` -/
+def P13433285541900492539.Spec : Prop :=
+  ∀ n, P13433285541900492539.a n = A099234 n
+
+end A099234
+
 /-! ## A099234.P507291515593962643
 
 `sqrt(A224808(6*n))`
@@ -5375,6 +5421,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099243.P6466626516795137331
+
+/-! ## A099243.P4579379186112335592
+
+`A111689(A307096(n+1))`
+-/
+
+namespace A099243.P4579379186112335592
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111689 (A307096 (n + 1)).toNat
+
+end
+
+end A099243.P4579379186112335592
 
 /-!
 # A099244: Greatest common divisor of length of n in binary representation and its number of ones.
@@ -11274,26 +11335,29 @@ end A099261.P1688255099591286108
 /-!
 # A099262: a(n) = (1/5040)*7^n + (1/240)*5^n + (1/72)*4^n + (1/16)*3^n + (11/60)*2^n + 53/144. Partial sum of Stirling numbers of second kind S(n,i), i=1..7 (i.e., a(n) = Sum_{i=1..7} S(n,i)).
 
-The programs for A099262, there is no canonical definition to state claims against.
+The programs for A099262, the canonical program `A099262.P11235311739889220384` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099262 has offset 1).
+
+The definition of A099262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A099262.P11235311739889220384
 
 `∑{#}[n, C(n, #)*A056273(#)]`
+
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
-namespace A099262.P11235311739889220384
-noncomputable section
+namespace A099262
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+/-- `∑{#}[n, C(n, #)*A056273(#)]` -/
+def P11235311739889220384.Spec : Prop :=
+  ∀ n, P11235311739889220384.a n = A099262 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A056273 k
+theorem P11235311739889220384.correct : P11235311739889220384.Spec := by
+  intro n
+  simp only [A099262, Nat.add_sub_cancel]
 
-end
-
-end A099262.P11235311739889220384
+end A099262
 
 /-! ## A099262.P4539062754769029285
 
@@ -11309,6 +11373,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A099262.P4539062754769029285
+
+namespace A099262
+
+/-- `A222890(2+n)-a(n-1)` -/
+def P4539062754769029285.Spec : Prop :=
+  ∀ n, P4539062754769029285.a n = A099262 (n + 1)
+
+end A099262
 
 /-! ## A099262.P6920288958204222052
 
@@ -11328,6 +11400,14 @@ end
 
 end A099262.P6920288958204222052
 
+namespace A099262
+
+/-- `∑{#}[n+1, (-1)^(n+1-#)*C(n+1, #)*A099263(#+1)]` -/
+def P6920288958204222052.Spec : Prop :=
+  ∀ n, P6920288958204222052.a n = (A099262 (n + 1) : ℚ)
+
+end A099262
+
 /-! ## A099262.P9619489520995660789
 
 `A203647(C(n+6, 2)+n+1)`
@@ -11343,6 +11423,14 @@ end
 
 end A099262.P9619489520995660789
 
+namespace A099262
+
+/-- `A203647(C(n+6, 2)+n+1)` -/
+def P9619489520995660789.Spec : Prop :=
+  ∀ n, P9619489520995660789.a n = A099262 (n + 1)
+
+end A099262
+
 /-! ## A099262.P6751764808502285881
 
 `A203647(A052905(n+3))`
@@ -11357,6 +11445,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099262.P6751764808502285881
+
+namespace A099262
+
+/-- `A203647(A052905(n+3))` -/
+def P6751764808502285881.Spec : Prop :=
+  ∀ n, P6751764808502285881.a n = A099262 (n + 1)
+
+end A099262
 
 /-! ## A099262.P14624372499649593960
 
@@ -11379,6 +11475,14 @@ end
 
 end A099262.P14624372499649593960
 
+namespace A099262
+
+/-- `A203647(eq[3, A219347(n)])` -/
+def P14624372499649593960.Spec : Prop :=
+  ∀ n, P14624372499649593960.a n = A099262 (n + 1)
+
+end A099262
+
 /-! ## A099262.P1146782690866267324
 
 `A203647(A055998(n+4)-2)`
@@ -11393,6 +11497,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099262.P1146782690866267324
+
+namespace A099262
+
+/-- `A203647(A055998(n+4)-2)` -/
+def P1146782690866267324.Spec : Prop :=
+  ∀ n, P1146782690866267324.a n = A099262 (n + 1)
+
+end A099262
 
 /-! ## A099262.P16428368103339146352
 
@@ -11409,6 +11521,14 @@ end
 
 end A099262.P16428368103339146352
 
+namespace A099262
+
+/-- `A203647(A000217(n+6)-5)` -/
+def P16428368103339146352.Spec : Prop :=
+  ∀ n, P16428368103339146352.a n = A099262 (n + 1)
+
+end A099262
+
 /-! ## A099262.P15237224079210141684
 
 `A203647(A000124(n+6)-6)`
@@ -11424,6 +11544,14 @@ end
 
 end A099262.P15237224079210141684
 
+namespace A099262
+
+/-- `A203647(A000124(n+6)-6)` -/
+def P15237224079210141684.Spec : Prop :=
+  ∀ n, P15237224079210141684.a n = A099262 (n + 1)
+
+end A099262
+
 /-! ## A099262.P16794909560390602158
 
 `A203647(A000096(n+4)+n+2)`
@@ -11438,6 +11566,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099262.P16794909560390602158
+
+namespace A099262
+
+/-- `A203647(A000096(n+4)+n+2)` -/
+def P16794909560390602158.Spec : Prop :=
+  ∀ n, P16794909560390602158.a n = A099262 (n + 1)
+
+end A099262
 
 /-!
 # A099263: a(n) = (1/40320)*8^n + (1/1440)*6^n + (1/360)*5^n + (1/64)*4^n + (11/180)*3^n + (53/288)*2^n + 103/280. Partial sum of Stirling numbers of second kind S(n,i), i=1..8 (i.e., a(n) = Sum_{i=1..8} S(n,i)).

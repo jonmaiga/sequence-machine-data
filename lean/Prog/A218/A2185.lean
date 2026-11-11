@@ -36,7 +36,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -64,6 +64,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -96,6 +97,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4986,19 +4988,19 @@ end
 
 end A218556.P2449147376107176654
 
-/-! ## A218556.P2583239100494678965
+/-! ## A218556.P11944966953516646837
 
-`∪[A087051(n), A210666(n+1)]`
+`∪[A044866(n+1), A050783(n+1)]`
 -/
 
-namespace A218556.P2583239100494678965
+namespace A218556.P11944966953516646837
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087051 n
+  A044866 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210666 (n + 1)
+  A050783 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5006,7 +5008,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A218556.P2583239100494678965
+end A218556.P11944966953516646837
 
 /-!
 # A218557: Smallest prime >= n-th Lucas number.
@@ -5079,6 +5081,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218557.P18243361231445364086
+
+/-! ## A218557.P9804937151671313389
+
+`A393562(A032441(n+1))`
+-/
+
+namespace A218557.P9804937151671313389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A393562 (A032441 (n + 1)).toNat
+
+end
+
+end A218557.P9804937151671313389
 
 /-!
 # A218558: Next number that is the product of exactly three (not necessarily distinct) primes, after 10*n.
@@ -6699,6 +6716,21 @@ end
 
 end A218575.P14106039146547822880
 
+/-! ## A218575.P9422557442776225938
+
+`A401479(A258898(n+1))`
+-/
+
+namespace A218575.P9422557442776225938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401479 (A258898 (n + 1)).toNat
+
+end
+
+end A218575.P9422557442776225938
+
 /-! ## A218575.P5217273724223196324
 
 `A321578(A378255(n+1))`
@@ -6713,21 +6745,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218575.P5217273724223196324
-
-/-! ## A218575.P5217311316949977959
-
-`A001519(n)-A122179(A000142(n))`
--/
-
-namespace A218575.P5217311316949977959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001519 n - A122179 (A000142 n).toNat
-
-end
-
-end A218575.P5217311316949977959
 
 /-!
 # A218576: G.f.: exp( Sum_{n>=1} x^n/n * Product_{k>=1} (1 + x^(n*k)*(1 + x^k)^n) ).

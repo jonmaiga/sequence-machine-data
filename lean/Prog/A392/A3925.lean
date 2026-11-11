@@ -18,7 +18,6 @@ import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -1555,6 +1554,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A392539.P1824123043379624344
+
+/-! ## A392539.P4798741963940427680
+
+`A253139(A001792(n))`
+-/
+
+namespace A392539.P4798741963940427680
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253139 (A001792 n).toNat
+
+end
+
+end A392539.P4798741963940427680
 
 /-!
 # A392540: Expansion of 1 / ((1-x)^2 - x^5).

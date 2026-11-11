@@ -27,7 +27,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -61,6 +60,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2722,29 +2722,26 @@ def P1766118788909297215.Spec : Prop :=
 
 end A061316
 
-/-! ## A061316.P14337848620619585741
+/-! ## A061316.P13686682788385124062
 
-`∑[and(2*n+1, 2*n)+n^3]`
+`2*C(n+1, 2)+C(n+1, 2)²`
 -/
 
-namespace A061316.P14337848620619585741
+namespace A061316.P13686682788385124062
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land (2 * n + 1) (2 * n) + n ^ 3
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  2 * Nat.choose (n + 1) 2 + Nat.choose (n + 1) 2 ^ 2
 
 end
 
-end A061316.P14337848620619585741
+end A061316.P13686682788385124062
 
 namespace A061316
 
-/-- `∑[and(2*n+1, 2*n)+n^3]` -/
-def P14337848620619585741.Spec : Prop :=
-  ∀ n, (P14337848620619585741.a n : ℤ) = A061316 n
+/-- `2*C(n+1, 2)+C(n+1, 2)²` -/
+def P13686682788385124062.Spec : Prop :=
+  ∀ n, (P13686682788385124062.a n : ℤ) = A061316 n
 
 end A061316
 
@@ -4734,7 +4731,7 @@ end A061336.P17165863522394677799
 /-!
 # A061338: Increase in maximal number of comparisons for sorting n elements by list merging.
 
-The programs for A061338, the canonical program `A061338.P1052418466639521221` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061338 has offset 0).
+The programs for A061338, the canonical program `A061338.P1052418466639521221` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061338 has offset 0).
 
 The definition of A061338 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4743,7 +4740,7 @@ The definition of A061338 is `conjectured`: the Lean definition is a formula tha
 
 `n-A011371(and(n, n-1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A061338
@@ -7096,6 +7093,29 @@ def P18166443513806655720.Spec : Prop :=
 
 end A061346
 
+/-! ## A061346.P17512167140887779312
+
+`A130773(A083390(n+1))`
+-/
+
+namespace A061346.P17512167140887779312
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130773 (A083390 (n + 1)).toNat
+
+end
+
+end A061346.P17512167140887779312
+
+namespace A061346
+
+/-- `A130773(A083390(n+1))` -/
+def P17512167140887779312.Spec : Prop :=
+  ∀ n, P17512167140887779312.a n = A061346 (n + 1)
+
+end A061346
+
 /-! ## A061346.P13515713024129545801
 
 `filter[2*n+1, A103131(#)]`
@@ -7239,32 +7259,6 @@ namespace A061346
 /-- `∩[2*n+1, A346608(n+1)]` -/
 def P13120761899489629276.Spec : Prop :=
   ∀ n, (P13120761899489629276.a n : ℤ) = A061346 (n + 1)
-
-end A061346
-
-/-! ## A061346.P6010856597416702900
-
-`filter[A033949(n+1), and(1, #)]`
--/
-
-namespace A061346.P6010856597416702900
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033949 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => Int.land 1 (f1 j) = 1) n)
-
-end
-
-end A061346.P6010856597416702900
-
-namespace A061346
-
-/-- `filter[A033949(n+1), and(1, #)]` -/
-def P6010856597416702900.Spec : Prop :=
-  ∀ n, P6010856597416702900.a n = A061346 (n + 1)
 
 end A061346
 

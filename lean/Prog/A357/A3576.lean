@@ -8137,6 +8137,29 @@ def P6472128981272012995.Spec : Prop :=
 
 end A357689
 
+/-! ## A357689.P17015480106569915041
+
+`2*(n+1)/A007947(2*(n+1))`
+-/
+
+namespace A357689.P17015480106569915041
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * (n + 1) : ℚ) / (A007947 (2 * (n + 1)) : ℚ)
+
+end
+
+end A357689.P17015480106569915041
+
+namespace A357689
+
+/-- `2*(n+1)/A007947(2*(n+1))` -/
+def P17015480106569915041.Spec : Prop :=
+  ∀ n, P17015480106569915041.a n = (A357689 (n + 1) : ℚ)
+
+end A357689
+
 /-! ## A357689.P9228273262564790129
 
 `A006519(n+1)*A336651(n+1)`
@@ -8157,29 +8180,6 @@ namespace A357689
 /-- `A006519(n+1)*A336651(n+1)` -/
 def P9228273262564790129.Spec : Prop :=
   ∀ n, P9228273262564790129.a n = A357689 (n + 1)
-
-end A357689
-
-/-! ## A357689.P7465317484523767182
-
-`(n+1)/A007947(A000265(n+1))`
--/
-
-namespace A357689.P7465317484523767182
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A007947 (A000265 (n + 1)).toNat : ℚ)
-
-end
-
-end A357689.P7465317484523767182
-
-namespace A357689
-
-/-- `(n+1)/A007947(A000265(n+1))` -/
-def P7465317484523767182.Spec : Prop :=
-  ∀ n, P7465317484523767182.a n = (A357689 (n + 1) : ℚ)
 
 end A357689
 
@@ -8694,7 +8694,7 @@ end A357694.P13800411718357432544
 /-!
 # A357695: Cubefree abundant numbers.
 
-The programs for A357695, the canonical program `A357695.P9882906667997209006` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357695 has offset 1).
+The programs for A357695, the canonical program `A357695.P9882906667997209006` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357695 has offset 1).
 
 The definition of A357695 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7230 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8729,7 +8729,7 @@ end A357695
 
 `eq[A050361(n+1), A082551(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A357695

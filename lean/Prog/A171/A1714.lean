@@ -41,7 +41,6 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B001.C000
@@ -2967,6 +2966,21 @@ end
 
 end A171430.P151595500095738109
 
+/-! ## A171430.P2785685640973025671
+
+`A006093(A023145(n+1))+1`
+-/
+
+namespace A171430.P2785685640973025671
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006093 (A023145 (n + 1)).toNat + 1
+
+end
+
+end A171430.P2785685640973025671
+
 /-! ## A171430.P16839428704932945208
 
 `A008578(A023145(n+1)+1)`
@@ -2996,24 +3010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171430.P11998408062987285834
-
-/-! ## A171430.P815353388814609244
-
-`∑{d}[A023145(n+1), A007444(#)]`
--/
-
-namespace A171430.P815353388814609244
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023145 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A007444 d
-
-end
-
-end A171430.P815353388814609244
 
 /-!
 # A171432: Primes that are congruent to 5 mod n, where n is the index of the prime.
@@ -4482,6 +4478,21 @@ end
 
 end A171446.P13088356073279596429
 
+/-! ## A171446.P5767183634677353254
+
+`A007089(A171438(n))`
+-/
+
+namespace A171446.P5767183634677353254
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007089 (A171438 n).toNat
+
+end
+
+end A171446.P5767183634677353254
+
 /-!
 # A171447: Numbers k such that k+1 is prime, and (k+1)^3-k^3 is prime.
 
@@ -4792,6 +4803,21 @@ end
 
 end A171447.P11539760797418136896
 
+/-! ## A171447.P7431776240151211186
+
+`A057449(A165682(n+1))`
+-/
+
+namespace A171447.P7431776240151211186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057449 (A165682 (n + 1)).toNat
+
+end
+
+end A171447.P7431776240151211186
+
 /-! ## A171447.P9113220733502868789
 
 `eq[A002033(n), A100656(n)]`
@@ -4854,27 +4880,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A171447.P17878960001895288887
-
-/-! ## A171447.P4130784093835482452
-
-`eq[A100656(n), A325765(n)]`
--/
-
-namespace A171447.P4130784093835482452
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100656 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325765 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A171447.P4130784093835482452
 
 /-!
 # A171448: Sequence whose generating function is expressible as a prime-related continued fraction.
@@ -15406,6 +15411,32 @@ def P6629121460439450776.Spec : Prop :=
 
 end A171496
 
+/-! ## A171496.P1079461604671222142
+
+`∑{#}[n+1, 2^(n+1+#)]`
+-/
+
+namespace A171496.P1079461604671222142
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 2 ^ (n + 1 + k)
+
+end
+
+end A171496.P1079461604671222142
+
+namespace A171496
+
+/-- `∑{#}[n+1, 2^(n+1+#)]` -/
+def P1079461604671222142.Spec : Prop :=
+  ∀ n, (P1079461604671222142.a n : ℤ) = A171496 n
+
+end A171496
+
 /-! ## A171496.P17235418981530620101
 
 `or(2*a(n-1), 4*a(n-1))` with `a(0)=6`
@@ -15765,29 +15796,6 @@ namespace A171496
 /-- `A282418(2*(n+1))` -/
 def P8375596680019315110.Spec : Prop :=
   ∀ n, P8375596680019315110.a n = A171496 n
-
-end A171496
-
-/-! ## A171496.P8363086344743785489
-
-`A285543(2*(n+1))`
--/
-
-namespace A171496.P8363086344743785489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285543 (2 * (n + 1))
-
-end
-
-end A171496.P8363086344743785489
-
-namespace A171496
-
-/-- `A285543(2*(n+1))` -/
-def P8363086344743785489.Spec : Prop :=
-  ∀ n, P8363086344743785489.a n = A171496 n
 
 end A171496
 

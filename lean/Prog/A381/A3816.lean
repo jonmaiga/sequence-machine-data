@@ -29,7 +29,7 @@ import Seq.B000.C036
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -5578,6 +5578,32 @@ The programs for A381676, the canonical program `A381676.P2960917554506901503` i
 
 The definition of A381676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A381676.P505734104440411385
+
+`∑{#}[n, 1/(#+1)*C(2*#, #)*C(n, #)*C(#, n-#)]`
+-/
+
+namespace A381676.P505734104440411385
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 1 / (k + 1 : ℚ) * (Nat.choose (2 * k) k : ℚ) * (Nat.choose n k : ℚ) * (Nat.choose k ((n : ℤ) - (k : ℤ)).toNat : ℚ)
+
+end
+
+end A381676.P505734104440411385
+
+namespace A381676
+
+/-- `∑{#}[n, 1/(#+1)*C(2*#, #)*C(n, #)*C(#, n-#)]` -/
+def P505734104440411385.Spec : Prop :=
+  ∀ n, P505734104440411385.a n = (A381676 n : ℚ)
+
+end A381676
 
 /-! ## A381676.P2960917554506901503
 

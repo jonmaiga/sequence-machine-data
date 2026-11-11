@@ -4760,6 +4760,36 @@ end
 
 end A258740.P4882787304995191340
 
+/-! ## A258740.P788388029411640321
+
+`A254729(A258938(n+1)+1)`
+-/
+
+namespace A258740.P788388029411640321
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A254729 (A258938 (n + 1) + 1).toNat
+
+end
+
+end A258740.P788388029411640321
+
+/-! ## A258740.P10362818893926848184
+
+`A329723(A258938(n+1)+2)`
+-/
+
+namespace A258740.P10362818893926848184
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329723 (A258938 (n + 1) + 2).toNat
+
+end
+
+end A258740.P10362818893926848184
+
 /-! ## A258740.P2177300639755256307
 
 `A000204(A258938(n+1)%xor(n, 2^(n+2)))`
@@ -4789,36 +4819,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258740.P1442726754920028977
-
-/-! ## A258740.P16284475602770932985
-
-`A000204(A258938(n+1))%A258951(n+1)`
--/
-
-namespace A258740.P16284475602770932985
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000204 (A258938 (n + 1)).toNat) (A258951 (n + 1))
-
-end
-
-end A258740.P16284475602770932985
-
-/-! ## A258740.P164628784339234499
-
-`A000204(A258938(n+1))*A329379(A176983(n+5))`
--/
-
-namespace A258740.P164628784339234499
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000204 (A258938 (n + 1)).toNat * A329379 (A176983 (n + 5)).toNat
-
-end
-
-end A258740.P164628784339234499
 
 /-!
 # A258741: Expansion of f(x^3, x^5) / f(x, x^3) in powers of x where f(, ) is Ramanujan's general theta function.

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k in A293780 with n distinct prime factors.",
+  "id": "A400546",
+  "mentions": [
+    "A001221",
+    "A008479",
+    "A055932",
+    "A293780",
+    "A369609",
+    "A401297"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

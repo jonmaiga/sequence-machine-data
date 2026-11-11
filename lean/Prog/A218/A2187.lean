@@ -16,6 +16,7 @@ import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -1482,6 +1483,32 @@ def P13452800726153119821.Spec : Prop :=
 
 end A218724
 
+/-! ## A218724.P15022501742892595421
+
+`∑{#}[n-1, C(n, #+1)*20^#]`
+-/
+
+namespace A218724.P15022501742892595421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (k + 1) * 20 ^ k
+
+end
+
+end A218724.P15022501742892595421
+
+namespace A218724
+
+/-- `∑{#}[n-1, C(n, #+1)*20^#]` -/
+def P15022501742892595421.Spec : Prop :=
+  ∀ n, (P15022501742892595421.a n : ℤ) = A218724 n
+
+end A218724
+
 /-! ## A218724.P7650772451921585010
 
 `1-(a(n-1)-22*a(n-1))` with `a(0)=0`
@@ -1525,32 +1552,6 @@ namespace A218724
 /-- `A009965(n-1)+a(n-1)` -/
 def P16951507244602369615.Spec : Prop :=
   ∀ n, P16951507244602369615.a n = A218724 n
-
-end A218724
-
-/-! ## A218724.P15725162884640798920
-
-`∑[21^n]%(21^n)`
--/
-
-namespace A218724.P15725162884640798920
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  21 ^ n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j) % 21 ^ n
-
-end
-
-end A218724.P15725162884640798920
-
-namespace A218724
-
-/-- `∑[21^n]%(21^n)` -/
-def P15725162884640798920.Spec : Prop :=
-  ∀ n, (P15725162884640798920.a n : ℤ) = A218724 n
 
 end A218724
 

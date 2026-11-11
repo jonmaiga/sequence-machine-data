@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -62,6 +61,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
@@ -4187,7 +4187,7 @@ end A357459.P12227179011884059367
 /-!
 # A357460: Numbers whose number of deficient divisors is equal to their number of nondeficient divisors.
 
-The programs for A357460, the canonical program `A357460.P2237439147357638215` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357460 has offset 1).
+The programs for A357460, the canonical program `A357460.P2237439147357638215` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357460 has offset 1).
 
 The definition of A357460 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 258 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4196,7 +4196,7 @@ The definition of A357460 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A080226(n+1), A341620(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A357460
@@ -4794,6 +4794,32 @@ namespace A357479
 /-- `Δ[A000332(n)]+n*a(n-1)` -/
 def P11078920468871394891.Spec : Prop :=
   ∀ n, P11078920468871394891.a n = A357479 n
+
+end A357479
+
+/-! ## A357479.P4697598590606133410
+
+`1/6*∑{#}[n-3, n!/(n-(#+3))!]`
+-/
+
+namespace A357479.P4697598590606133410
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 3
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 6 * (∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial n : ℚ) / (Nat.factorial ((n : ℤ) - (k + 3 : ℤ)).toNat : ℚ))
+
+end
+
+end A357479.P4697598590606133410
+
+namespace A357479
+
+/-- `1/6*∑{#}[n-3, n!/(n-(#+3))!]` -/
+def P4697598590606133410.Spec : Prop :=
+  ∀ n, P4697598590606133410.a n = (A357479 n : ℚ)
 
 end A357479
 

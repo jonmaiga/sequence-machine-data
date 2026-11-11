@@ -971,6 +971,21 @@ end
 
 end A361510.P9303459449305797808
 
+/-! ## A361510.P4926242911894732340
+
+`A020344(A361509(n))`
+-/
+
+namespace A361510.P4926242911894732340
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020344 (A361509 n).toNat
+
+end
+
+end A361510.P4926242911894732340
+
 /-!
 # A361511: a(1) = 1. Thereafter if a(n-1) is a novel term, a(n) = d(a(n-1)); otherwise, if a(n-1) is the t-th non-novel term, a(n) = a(n-1) + d(a(t)), where d is the divisor function A000005.
 
@@ -4343,6 +4358,21 @@ end
 
 end A361565.P11523768098635151967
 
+/-! ## A361565.P14877563986082345823
+
+`A056239(A360006(A063655(n+1)))`
+-/
+
+namespace A361565.P14877563986082345823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056239 (A360006 (A063655 (n + 1)).toNat).toNat
+
+end
+
+end A361565.P14877563986082345823
+
 /-!
 # A361566: a(n) is the denominator of the median of divisors of n.
 
@@ -6120,6 +6150,32 @@ namespace A361598
 /-- `∑{#}[n, (n+#)!/(2*#)!*C(n, #)]` -/
 def P2590810340890115123.Spec : Prop :=
   ∀ n, P2590810340890115123.a n = (A361598 n : ℚ)
+
+end A361598
+
+/-! ## A361598.P15115910851126624862
+
+`∑{#}[n, C(n, #)*#!*C(2*n-#, #)]`
+-/
+
+namespace A361598.P15115910851126624862
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.factorial k * Nat.choose ((2 * n : ℤ) - (k : ℤ)).toNat k
+
+end
+
+end A361598.P15115910851126624862
+
+namespace A361598
+
+/-- `∑{#}[n, C(n, #)*#!*C(2*n-#, #)]` -/
+def P15115910851126624862.Spec : Prop :=
+  ∀ n, (P15115910851126624862.a n : ℤ) = A361598 n
 
 end A361598
 

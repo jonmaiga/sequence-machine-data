@@ -2,6 +2,7 @@
   "description": "Dimension of the space of weight 2n cuspidal newforms for Gamma_0(90).",
   "id": "A063241",
   "mentions": [
+    "A063195",
     "A063213"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "joeis"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

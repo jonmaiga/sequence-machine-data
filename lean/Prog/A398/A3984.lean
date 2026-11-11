@@ -4,7 +4,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C007
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
@@ -1370,8 +1369,89 @@ end A398442.P13657557562115711325
 /-!
 # A398443: Numbers k of the form lpf(k)^4 * rad(k), where rad = A007947, and lpf is the least prime factor.
 
-The programs for A398443, there is no canonical definition to state claims against.
+The programs for A398443, the canonical program `A398443.P13878999578892579835` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398443 has offset 1).
+
+The definition of A398443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 505 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A398443.P13878999578892579835
+
+`∩[A195088(n+1), A400433(n+1)]`
+
+The canonical program, it is in `Seq.B011.C000`.
+-/
+
+namespace A398443
+
+/-- `∩[A195088(n+1), A400433(n+1)]` -/
+def P13878999578892579835.Spec : Prop :=
+  ∀ n, (P13878999578892579835.a n : ℤ) = A398443 (n + 1)
+
+theorem P13878999578892579835.correct : P13878999578892579835.Spec := by
+  intro n
+  simp only [A398443, Nat.add_sub_cancel]
+
+end A398443
+
+/-! ## A398443.P9785835578623579732
+
+`∩[A362841(n+1), A400433(n+1)]`
+-/
+
+namespace A398443.P9785835578623579732
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362841 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400433 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398443.P9785835578623579732
+
+namespace A398443
+
+/-- `∩[A362841(n+1), A400433(n+1)]` -/
+def P9785835578623579732.Spec : Prop :=
+  ∀ n, (P9785835578623579732.a n : ℤ) = A398443 (n + 1)
+
+end A398443
+
+/-! ## A398443.P14200946176974800058
+
+`∩[A386808(n+1), A400433(n+1)]`
+-/
+
+namespace A398443.P14200946176974800058
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400433 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398443.P14200946176974800058
+
+namespace A398443
+
+/-- `∩[A386808(n+1), A400433(n+1)]` -/
+def P14200946176974800058.Spec : Prop :=
+  ∀ n, (P14200946176974800058.a n : ℤ) = A398443 (n + 1)
+
+end A398443
 
 /-! ## A398443.P11834955975725992295
 
@@ -1394,6 +1474,14 @@ end
 
 end A398443.P11834955975725992295
 
+namespace A398443
+
+/-- `A386808(lt[A000931(n), A077268(n+1)])` -/
+def P11834955975725992295.Spec : Prop :=
+  ∀ n, P11834955975725992295.a n = A398443 (n + 1)
+
+end A398443
+
 /-! ## A398443.P2158000258576992918
 
 `A386808(A000961(n+1))%A122812(A007373(n+1))`
@@ -1409,35 +1497,13 @@ end
 
 end A398443.P2158000258576992918
 
-/-! ## A398443.P7028848216139747429
+namespace A398443
 
-`A057077(A386798(n+1))*A386808(A000961(n+1))`
--/
+/-- `A386808(A000961(n+1))%A122812(A007373(n+1))` -/
+def P2158000258576992918.Spec : Prop :=
+  ∀ n, P2158000258576992918.a n = A398443 (n + 1)
 
-namespace A398443.P7028848216139747429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057077 (A386798 (n + 1)).toNat * A386808 (A000961 (n + 1)).toNat
-
-end
-
-end A398443.P7028848216139747429
-
-/-! ## A398443.P2713467713560157598
-
-`A386808(A005838(n+1))/A057077(A386798(n+1))`
--/
-
-namespace A398443.P2713467713560157598
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A386808 (A005838 (n + 1)).toNat : ℚ) / (A057077 (A386798 (n + 1)).toNat : ℚ)
-
-end
-
-end A398443.P2713467713560157598
+end A398443
 
 /-!
 # A398444: Numbers k of the form lpf(k) * slpf(k) * rad(k), where rad = A007947, lpf is the least prime factor, and slpf the second smallest distinct prime factor of k.

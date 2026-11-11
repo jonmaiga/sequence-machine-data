@@ -23521,6 +23521,32 @@ def P15886470933348025846.Spec : Prop :=
 
 end A141959
 
+/-! ## A141959.P3598155058817905683
+
+`filter[A239129(3*n+1), A323152(#)]`
+-/
+
+namespace A141959.P3598155058817905683
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239129 (3 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323152 (f1 j).toNat = 1) n)
+
+end
+
+end A141959.P3598155058817905683
+
+namespace A141959
+
+/-- `filter[A239129(3*n+1), A323152(#)]` -/
+def P3598155058817905683.Spec : Prop :=
+  ∀ n, P3598155058817905683.a n = A141959 (n + 1)
+
+end A141959
+
 /-!
 # A141960: Primes congruent to 19 mod 27.
 

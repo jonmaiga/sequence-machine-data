@@ -2285,6 +2285,36 @@ end
 
 end A151714.P13516828280011694254
 
+/-! ## A151714.P10070836991951136615
+
+`A151570(n)-A151843(n)`
+-/
+
+namespace A151714.P10070836991951136615
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151570 n - A151843 n
+
+end
+
+end A151714.P10070836991951136615
+
+/-! ## A151714.P18210283142505006968
+
+`A151571(n)-A151845(n)`
+-/
+
+namespace A151714.P18210283142505006968
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151571 n - A151845 n
+
+end
+
+end A151714.P18210283142505006968
+
 /-!
 # A151715: Divisors of 8855.
 

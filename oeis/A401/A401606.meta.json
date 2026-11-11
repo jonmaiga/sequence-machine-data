@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-building skylines where each building has the least height h from which it sees exactly h other buildings in total to its left and right.",
+  "id": "A401606",
+  "mentions": [
+    "A400000",
+    "A401611"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

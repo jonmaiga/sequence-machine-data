@@ -57,7 +57,6 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -5457,6 +5456,21 @@ end
 
 end A334754.P2018870319011589578
 
+/-! ## A334754.P5932800447318324913
+
+`xor(A000007(n), A104807(n+1))`
+-/
+
+namespace A334754.P5932800447318324913
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000007 n) (A104807 (n + 1))
+
+end
+
+end A334754.P5932800447318324913
+
 /-! ## A334754.P2929859237552026541
 
 `A104807(n+1)-(A057428(n)+1)`
@@ -5576,21 +5590,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334754.P6455078739019662696
-
-/-! ## A334754.P13747045729047311640
-
-`xor(A000007(2*n), A104807(n+1))`
--/
-
-namespace A334754.P13747045729047311640
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A000007 (2 * n)) (A104807 (n + 1))
-
-end
-
-end A334754.P13747045729047311640
 
 /-! ## A334754.P15760244069530885070
 

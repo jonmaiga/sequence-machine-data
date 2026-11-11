@@ -42,7 +42,7 @@ import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6912,6 +6912,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131557.P252232090667733503
+
+/-! ## A131557.P14362773586612448994
+
+`A060544(2*A254962(n+2))`
+-/
+
+namespace A131557.P14362773586612448994
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060544 (2 * A254962 (n + 2)).toNat
+
+end
+
+end A131557.P14362773586612448994
 
 /-!
 # A131559: Indices of records in A078571.

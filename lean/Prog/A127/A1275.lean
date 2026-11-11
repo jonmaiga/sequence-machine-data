@@ -20,7 +20,6 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -35,7 +34,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6515,29 +6513,26 @@ theorem P3976489637807869491.correct : P3976489637807869491.Spec := by
 
 end A127536
 
-/-! ## A127536.P7727044536178221061
+/-! ## A127536.P17996674491164394037
 
-`A232223(∑[n+2])`
+`A400215(A058331(n+1))`
 -/
 
-namespace A127536.P7727044536178221061
+namespace A127536.P17996674491164394037
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232223 (∑ j ∈ Finset.range (n + 1), f1 j)
+  A400215 (A058331 (n + 1)).toNat
 
 end
 
-end A127536.P7727044536178221061
+end A127536.P17996674491164394037
 
 namespace A127536
 
-/-- `A232223(∑[n+2])` -/
-def P7727044536178221061.Spec : Prop :=
-  ∀ n, P7727044536178221061.a n = A127536 (n + 1)
+/-- `A400215(A058331(n+1))` -/
+def P17996674491164394037.Spec : Prop :=
+  ∀ n, P17996674491164394037.a n = A127536 (n + 1)
 
 end A127536
 

@@ -8319,6 +8319,24 @@ end
 
 end A063376.P13619329045357538583
 
+/-! ## A063376.P17882289986993094764
+
+`∑{#}[n, C(n, 2*#)*(3^(n-2*#)+1)/2]`
+-/
+
+namespace A063376.P17882289986993094764
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n (2 * k) : ℚ) * (((3 : ℚ) ^ ((n : ℤ) - (2 * k : ℤ) : ℤ) + 1) / 2)
+
+end
+
+end A063376.P17882289986993094764
+
 /-! ## A063376.P10814069140550129445
 
 `A113979(2*n)`
@@ -8384,24 +8402,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A063376.P13916652729919306492
-
-/-! ## A063376.P12945752181412295487
-
-`∑{#}[n, C(n, #)*A122983(#)]`
--/
-
-namespace A063376.P12945752181412295487
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A122983 k
-
-end
-
-end A063376.P12945752181412295487
 
 /-! ## A063376.P17607984139228560909
 

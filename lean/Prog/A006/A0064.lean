@@ -44,7 +44,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -15280,6 +15279,32 @@ namespace A006496
 /-- `A045873(n+1)+A116484(n)-A045873(n)` -/
 def P9046627154287144829.Spec : Prop :=
   ∀ n, P9046627154287144829.a n = A006496 n
+
+end A006496
+
+/-! ## A006496.P17894567165602163609
+
+`∑{#}[floor((n-1)/2), (-1)^#*C(n, 2*#+1)*2^(2*#+1)]`
+-/
+
+namespace A006496.P17894567165602163609
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊((n : ℤ) - 1 : ℚ) / 2⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1) ^ k * (Nat.choose n (2 * k + 1) : ℤ) * (2 ^ (2 * k + 1) : ℤ)
+
+end
+
+end A006496.P17894567165602163609
+
+namespace A006496
+
+/-- `∑{#}[floor((n-1)/2), (-1)^#*C(n, 2*#+1)*2^(2*#+1)]` -/
+def P17894567165602163609.Spec : Prop :=
+  ∀ n, P17894567165602163609.a n = A006496 n
 
 end A006496
 

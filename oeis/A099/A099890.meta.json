@@ -2,6 +2,7 @@
   "description": "XOR BINOMIAL transform of the odd numbers; also the main diagonal of the XOR difference triangle A099889.",
   "id": "A099890",
   "mentions": [
+    "A048298",
     "A099884",
     "A099889"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 65,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

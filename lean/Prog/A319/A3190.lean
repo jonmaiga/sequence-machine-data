@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -2056,6 +2055,29 @@ def P5857284072093021615.Spec : Prop :=
 
 end A319013
 
+/-! ## A319013.P13547718689091205558
+
+`floor((n+1)!*(e-1))-(n+1)`
+-/
+
+namespace A319013.P13547718689091205558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(Nat.factorial (n + 1) : ℝ) * (Real.exp 1 - 1)⌋ - (n + 1 : ℤ)
+
+end
+
+end A319013.P13547718689091205558
+
+namespace A319013
+
+/-- `floor((n+1)!*(e-1))-(n+1)` -/
+def P13547718689091205558.Spec : Prop :=
+  ∀ n, P13547718689091205558.a n = A319013 (n + 1)
+
+end A319013
+
 /-! ## A319013.P13841284235323618105
 
 `∑[n*∑{#}[n-1, #!*C(n, #)]]`
@@ -2134,29 +2156,6 @@ namespace A319013
 /-- `a(n-1)+lcm(n, a(n-1)+n)` -/
 def P14934338812932775005.Spec : Prop :=
   ∀ n, (P14934338812932775005.a n : ℤ) = A319013 (n + 1)
-
-end A319013
-
-/-! ## A319013.P3921753773278745314
-
-`n²+a(n-1)/(n+1)^(-1)` with `a(0)=0`
--/
-
-namespace A319013.P3921753773278745314
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
-  (n ^ 2 : ℚ) + a (n - 1) / (n + 1 : ℚ) ^ (-1 : ℤ)
-
-end
-
-end A319013.P3921753773278745314
-
-namespace A319013
-
-/-- `n²+a(n-1)/(n+1)^(-1)` -/
-def P3921753773278745314.Spec : Prop :=
-  ∀ n, P3921753773278745314.a n = (A319013 (n + 1) : ℚ)
 
 end A319013
 
@@ -4576,21 +4575,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A319055.P8435101182835898335
-
-/-! ## A319055.P1461137563853288698
-
-`(4-A322794(A032702(3*n+4)))*a(n-2)` with `a(0)=1, a(1)=1`
--/
-
-namespace A319055.P1461137563853288698
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  (4 - A322794 (A032702 (3 * n + 4)).toNat) * a (n - 2)
-
-end
-
-end A319055.P1461137563853288698
 
 /-! ## A319055.P16837606808701152990
 

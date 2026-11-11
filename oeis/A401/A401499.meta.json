@@ -1,0 +1,20 @@
+{
+  "description": "Place n points at the integer polar angles of the Archimedean spiral r = k, 0 <= k < n, then around the k-th point draw a circle whose radius is the distance from the k-th point to the (k+1)-th point: a(n) is the number of (curved) edges in the resulting planar graph.",
+  "id": "A401499",
+  "mentions": [
+    "A371375",
+    "A374339",
+    "A385162",
+    "A401497",
+    "A401498"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

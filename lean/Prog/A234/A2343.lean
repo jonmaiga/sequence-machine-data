@@ -37,7 +37,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -283,27 +282,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234303.P18437084881391098152
-
-/-!
-# A234305: Irregular triangle read by rows. Theoretical distribution of electrons based on the Janet's sequence A167268.
-
-The programs for A234305, there is no canonical definition to state claims against.
--/
-
-/-! ## A234305.P18325516106921713617
-
-`lcm(A161606(A161622(n+1)), A173642(n+1))`
--/
-
-namespace A234305.P18325516106921713617
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A161606 (A161622 (n + 1)).toNat) (A173642 (n + 1))
-
-end
-
-end A234305.P18325516106921713617
 
 /-!
 # A234306: a(n) = n + 1 - d(2n), where d(n) is the number of divisors of n.

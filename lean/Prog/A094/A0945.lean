@@ -38,9 +38,8 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B001.C000
@@ -2436,6 +2435,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A094522.P3941190433839103830
+
+/-! ## A094522.P8326473856514044626
+
+`gcd(A064802(n+1), A176900(n))`
+-/
+
+namespace A094522.P8326473856514044626
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A064802 (n + 1)) (A176900 n)
+
+end
+
+end A094522.P8326473856514044626
 
 /-! ## A094522.P10616647992093686715
 
@@ -10849,6 +10863,32 @@ def P630287112197094693.Spec : Prop :=
 
 end A094572
 
+/-! ## A094572.P9181365808078202536
+
+`∑{d}[n+1, abs((-1)^#+(-1)^((n+1)/#))]`
+-/
+
+namespace A094572.P9181365808078202536
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), |((-1) ^ d : ℝ) + (-1 : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) : ℝ)|
+
+end
+
+end A094572.P9181365808078202536
+
+namespace A094572
+
+/-- `∑{d}[n+1, abs((-1)^#+(-1)^((n+1)/#))]` -/
+def P9181365808078202536.Spec : Prop :=
+  ∀ n, P9181365808078202536.a n = (A094572 (n + 1) : ℝ)
+
+end A094572
+
 /-! ## A094572.P17725174580134123447
 
 `abs(∑{d}[n+1, (-1)^#])+abs(∑{d}[n+1, (-1)^#])`
@@ -11200,29 +11240,6 @@ namespace A094572
 /-- `A228441(n+1)+A000005(n+1)` -/
 def P17366540248362863571.Spec : Prop :=
   ∀ n, P17366540248362863571.a n = A094572 (n + 1)
-
-end A094572
-
-/-! ## A094572.P5827610320529366316
-
-`2*A048272(n+1)*A033999(n)`
--/
-
-namespace A094572.P5827610320529366316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A048272 (n + 1) * A033999 n
-
-end
-
-end A094572.P5827610320529366316
-
-namespace A094572
-
-/-- `2*A048272(n+1)*A033999(n)` -/
-def P5827610320529366316.Spec : Prop :=
-  ∀ n, P5827610320529366316.a n = A094572 (n + 1)
 
 end A094572
 

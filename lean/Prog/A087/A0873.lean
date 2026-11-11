@@ -87,6 +87,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -111,6 +112,24 @@ set_option linter.unreachableTactic false
 
 The programs for A087301, there is no canonical definition to state claims against.
 -/
+
+/-! ## A087301.P17461863036828438140
+
+`(n+2)*∑{#}[n, (-1)^#*(n+1)!/(#+1)]`
+-/
+
+namespace A087301.P17461863036828438140
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), ((-1) ^ k : ℚ) * ((Nat.factorial (n + 1) : ℚ) / (k + 1 : ℚ)))
+
+end
+
+end A087301.P17461863036828438140
 
 /-! ## A087301.P2356733016162982617
 
@@ -790,85 +809,40 @@ def P13750069882268631977.Spec : Prop :=
 end A087316
 
 /-!
-# A087318: Smallest number of the form n^k +1 with the prime signature of n, or 0 if no such number exists.
+# A087318: Smallest number of the form n^k + 1 with the prime signature of n, or 0 if no such number exists.
 
 The programs for A087318, there is no canonical definition to state claims against.
 -/
 
-/-! ## A087318.P13365701128348400143
+/-! ## A087318.P15184828936766063390
 
-`C(A087319(n+2), A008834(n+1)!)`
+`A087319(A193551(n+1))`
 -/
 
-namespace A087318.P13365701128348400143
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A087319 (n + 2)).toNat (Nat.factorial (A008834 (n + 1)).toNat)
-
-end
-
-end A087318.P13365701128348400143
-
-/-! ## A087318.P12758324975672255892
-
-`C(A087319(n+2), A343937(2^val(n+1, 2)))`
--/
-
-namespace A087318.P12758324975672255892
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A087319 (n + 2)).toNat (A343937 (2 ^ SequenceMachineLib.valuation (n + 1) 2)).toNat
-
-end
-
-end A087318.P12758324975672255892
-
-/-! ## A087318.P11310860455640356345
-
-`A087319(n+2)*A359379(A007531(n))`
--/
-
-namespace A087318.P11310860455640356345
+namespace A087318.P15184828936766063390
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087319 (n + 2) * A359379 (A007531 n).toNat
+  A087319 (A193551 (n + 1)).toNat
 
 end
 
-end A087318.P11310860455640356345
+end A087318.P15184828936766063390
 
-/-! ## A087318.P7402617171207902427
+/-! ## A087318.P18381818598184377341
 
-`C(A087319(n+2), A100548(A001511(n+1)))`
+`A087319(A100793(n))`
 -/
 
-namespace A087318.P7402617171207902427
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A087319 (n + 2)).toNat (A100548 (A001511 (n + 1)).toNat).toNat
-
-end
-
-end A087318.P7402617171207902427
-
-/-! ## A087318.P12548508717243017267
-
-`A087319(n+2)%A028879(A056555(n+1))`
--/
-
-namespace A087318.P12548508717243017267
+namespace A087318.P18381818598184377341
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A087319 (n + 2)) (A028879 (A056555 (n + 1)).toNat)
+  A087319 (A100793 n).toNat
 
 end
 
-end A087318.P12548508717243017267
+end A087318.P18381818598184377341
 
 /-!
 # A087320: Smallest perfect power (at least a square) that is a multiple of n.

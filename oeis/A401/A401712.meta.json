@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A017665(k) is larger than A401375(k), where A017665(n) = sigma(n)/gcd(n,sigma(n)), A401375(n) is the largest divisor of sigma(n) coprime with n, and sigma is the sum of divisors function.",
+  "id": "A401712",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A017665",
+    "A401375",
+    "A401710",
+    "A401711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

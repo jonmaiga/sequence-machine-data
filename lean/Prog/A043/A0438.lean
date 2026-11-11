@@ -65,7 +65,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -4751,21 +4750,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043898.P4143722260107931087
-
-/-! ## A043898.P524893533351976625
-
-`A339984(n)+A303431(A190518(2*n+3))`
--/
-
-namespace A043898.P524893533351976625
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339984 n + A303431 (A190518 (2 * n + 3)).toNat
-
-end
-
-end A043898.P524893533351976625
 
 /-!
 # A043899: Numbers k such that 0 and 4 occur juxtaposed in the base-6 representation of k but not of k+1.

@@ -60,6 +60,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -3958,6 +3959,32 @@ namespace A030310
 /-- `filter[A102389(n), A030308(#)]` -/
 def P9682865947058483997.Spec : Prop :=
   ∀ n, P9682865947058483997.a n = A030310 (n + 1)
+
+end A030310
+
+/-! ## A030310.P6178424612721133847
+
+`filter[A131360(n), A030308(#)]`
+-/
+
+namespace A030310.P6178424612721133847
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131360 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A030308 (f1 j).toNat = 1) n)
+
+end
+
+end A030310.P6178424612721133847
+
+namespace A030310
+
+/-- `filter[A131360(n), A030308(#)]` -/
+def P6178424612721133847.Spec : Prop :=
+  ∀ n, P6178424612721133847.a n = A030310 (n + 1)
 
 end A030310
 

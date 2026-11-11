@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals T(x, y): T(x, y), the smallest chip that can reach (x, y) when sufficiently many chips are present in a certain labeled chip-firing game that is described in the comments, x >= 0, y >= 0.",
+  "id": "A397913",
+  "mentions": [
+    "A000079",
+    "A389565",
+    "A390129",
+    "A390355"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

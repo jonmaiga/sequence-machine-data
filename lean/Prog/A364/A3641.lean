@@ -11,6 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,7 +24,6 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C034
 import Seq.B000.C037
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -2424,6 +2424,71 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A364152.P7381625458986858805
+
+/-!
+# A364153: a(n) is the smallest positive integer such that from the set {1, 2, ..., a(n)} one can choose a sequence (s(1), s(2), ..., s(n)) in which every segment has a unique sum.
+
+The programs for A364153, there is no canonical definition to state claims against.
+-/
+
+/-! ## A364153.P16136108416919987942
+
+`∪[A075750(n+1), A176587(n+1)]`
+-/
+
+namespace A364153.P16136108416919987942
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075750 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176587 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364153.P16136108416919987942
+
+/-! ## A364153.P8724659624177282471
+
+`∪[A044904(n+1), A335911(n+1)]`
+-/
+
+namespace A364153.P8724659624177282471
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A044904 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335911 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364153.P8724659624177282471
+
+/-! ## A364153.P6401878873928345753
+
+`A087817(A091497(A001401(n)))+n`
+-/
+
+namespace A364153.P6401878873928345753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087817 (A091497 (A001401 n).toNat).toNat + (n : ℤ)
+
+end
+
+end A364153.P6401878873928345753
 
 /-!
 # A364155: Number of tilings of a 4 X n rectangle using dominoes and trominoes (of any shape).

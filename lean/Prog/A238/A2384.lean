@@ -30,6 +30,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -423,21 +424,6 @@ end A238401
 The programs for A238403, there is no canonical definition to state claims against.
 -/
 
-/-! ## A238403.P14611429292858472572
-
-`A004188(A317839(3*n+5))%A303707(n+5)`
--/
-
-namespace A238403.P14611429292858472572
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A004188 (A317839 (3 * n + 5)).toNat) (A303707 (n + 5))
-
-end
-
-end A238403.P14611429292858472572
-
 /-! ## A238403.P7547811228502885600
 
 `and(A025442(A118344(n)), A117923(n+1))`
@@ -572,6 +558,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238403.P15990177836495550168
+
+/-! ## A238403.P15235562053337414698
+
+`A240085(A238343(A238343(A238279(A333755(n)))))`
+-/
+
+namespace A238403.P15235562053337414698
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240085 (A238343 (A238343 (A238279 (A333755 n).toNat).toNat).toNat).toNat
+
+end
+
+end A238403.P15235562053337414698
 
 /-!
 # A238404: Number of ways a prime from A087054 can be decomposed as a sum of the form p*q+q*r+r*p where p, q and r are distinct primes (p < q < r).

@@ -1,7 +1,9 @@
 {
   "description": "Coefficients in expansion of theta_3(q) * theta_3(q^7) in powers of q.",
   "id": "A033719",
-  "mentions": [],
+  "mentions": [
+    "A110399"
+  ],
   "tags": [
     "formulas",
     "nonn"

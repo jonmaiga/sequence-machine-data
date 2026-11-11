@@ -51,6 +51,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2670,7 +2671,7 @@ end
 end A298624.P9818483832614723091
 
 /-!
-# A298625: Number of nX4 0..1 arrays with every element equal to 2, 3, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
+# A298625: Number of n X 4 0..1 arrays with every element equal to 2, 3, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
 
 The programs for A298625, there is no canonical definition to state claims against.
 -/

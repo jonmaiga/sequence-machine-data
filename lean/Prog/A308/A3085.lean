@@ -33,6 +33,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
@@ -2196,6 +2197,24 @@ end
 
 end A308536.P2772244849419335523
 
+/-! ## A308536.P2897114431749221339
+
+`∑{#}[n, C(n, #)*A367743(#)]`
+-/
+
+namespace A308536.P2897114431749221339
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A367743 k
+
+end
+
+end A308536.P2897114431749221339
+
 /-! ## A308536.P9742944821334325220
 
 `2^n*A293015(∑[n]+n)`
@@ -2315,21 +2334,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308536.P11458946748846368572
-
-/-! ## A308536.P12194392463532621310
-
-`A000587(n)*A034008(n+2)`
--/
-
-namespace A308536.P12194392463532621310
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000587 n * A034008 (n + 2)
-
-end
-
-end A308536.P12194392463532621310
 
 /-!
 # A308537: a(n) = exp(-1) * Sum_{k>=0} (k + n - 1)!^n/(k!*(k - 1)!^n).
@@ -2508,20 +2512,20 @@ end
 
 end A308539.P10434976626288652946
 
-/-! ## A308539.P16488276345155909633
+/-! ## A308539.P18183785264837100442
 
-`and(A383046(n+3), A389116(n+1))`
+`and(A152388(n+1), A389116(n+1))`
 -/
 
-namespace A308539.P16488276345155909633
+namespace A308539.P18183785264837100442
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A383046 (n + 3)) (A389116 (n + 1))
+  Int.land (A152388 (n + 1)) (A389116 (n + 1))
 
 end
 
-end A308539.P16488276345155909633
+end A308539.P18183785264837100442
 
 /-!
 # A308540: a(n) is the least nonnegative number whose digits do not appear in order (not necessarily consecutively) in the concatenation of all previous terms.

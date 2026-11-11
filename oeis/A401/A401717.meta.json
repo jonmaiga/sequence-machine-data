@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A003557(n) > A053669(n) and n is neither squarefree nor prime power, otherwise 0, where A003557(n) is n divided by its squarefree kernel, and A053669(n) is the smallest prime not dividing n.",
+  "id": "A401717",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A053669",
+    "A355447",
+    "A360765",
+    "A401714",
+    "A401716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 117,
+    "source": "oeis-bfile"
+  }
+}

@@ -31,6 +31,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -5971,6 +5972,21 @@ end
 
 end A126238.P3567537055309102382
 
+/-! ## A126238.P17533282535558017547
+
+`A268674(A126239(n+1))`
+-/
+
+namespace A126238.P17533282535558017547
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268674 (A126239 (n + 1)).toNat
+
+end
+
+end A126238.P17533282535558017547
+
 /-! ## A126238.P18225218366406145616
 
 `A079068(A126239(n+1))`
@@ -5985,21 +6001,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A126238.P18225218366406145616
-
-/-! ## A126238.P5395975950629811292
-
-`A065769(A126239(n+1))`
--/
-
-namespace A126238.P5395975950629811292
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065769 (A126239 (n + 1)).toNat
-
-end
-
-end A126238.P5395975950629811292
 
 /-!
 # A126239: Primes of the form p = prime(k+1) such that prime(k) = (prime(k+3)+prime(k-1))/2.

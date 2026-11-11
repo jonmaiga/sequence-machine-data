@@ -1,8 +1,11 @@
 {
   "description": "Minimum square grid needed to fit English words for 1...n crossword style.",
   "id": "A035299",
-  "mentions": [],
+  "mentions": [
+    "A005589"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn",
     "word"

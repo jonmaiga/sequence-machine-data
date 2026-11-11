@@ -3071,6 +3071,21 @@ end
 
 end A356118.P4744626712483819228
 
+/-! ## A356118.P2258699724522393687
+
+`A104150(n+1)+A104150(n+1)-A000108(n)`
+-/
+
+namespace A356118.P2258699724522393687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104150 (n + 1) + A104150 (n + 1) - A000108 n
+
+end
+
+end A356118.P2258699724522393687
+
 /-!
 # A356120: Irregular triangle read by rows: the n-th row lists the values 0..2^n-1 representing all subsets of a set of n elements. When its elements are linearly ordered, the subsets are lexicographically ordered.
 
@@ -6997,6 +7012,29 @@ theorem P506898303023582314.correct : P506898303023582314.Spec := by
 
 end A356159
 
+/-! ## A356159.P4690813445863144067
+
+`A056239(A181821(A181819(n+1)))`
+-/
+
+namespace A356159.P4690813445863144067
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056239 (A181821 (A181819 (n + 1)).toNat).toNat
+
+end
+
+end A356159.P4690813445863144067
+
+namespace A356159
+
+/-- `A056239(A181821(A181819(n+1)))` -/
+def P4690813445863144067.Spec : Prop :=
+  ∀ n, P4690813445863144067.a n = A356159 (n + 1)
+
+end A356159
+
 /-! ## A356159.P8403684330687530623
 
 `A318995(n+1)+Δ[A022559(n)]-A355930(n+1)`
@@ -8794,20 +8832,20 @@ end
 
 end A356166.P13232388462460477991
 
-/-! ## A356166.P2843445671597465812
+/-! ## A356166.P14406951020209190780
 
-`gcd(A019551(n+1), A353847(2*n+1))`
+`gcd(A071008(n+1), A327405(n+1))`
 -/
 
-namespace A356166.P2843445671597465812
+namespace A356166.P14406951020209190780
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A019551 (n + 1)) (A353847 (2 * n + 1))
+  Int.gcd (A071008 (n + 1)) (A327405 (n + 1))
 
 end
 
-end A356166.P2843445671597465812
+end A356166.P14406951020209190780
 
 /-!
 # A356167: Greatest common divisor of A003961(n) and the smallest positive k such that n divides k*A003961(k), where A003961 is fully multiplicative with a(p) = nextprime(p).
@@ -11746,26 +11784,26 @@ theorem P8319334063317487091.correct : P8319334063317487091.Spec := by
 
 end A356180
 
-/-! ## A356180.P16406669337501077687
+/-! ## A356180.P1585198066197127521
 
-`floor(floor((n+1)*sqrt(2))*sqrt(3))`
+`floor(floor(sqrt(2)*(n+1))*sqrt(3))`
 -/
 
-namespace A356180.P16406669337501077687
+namespace A356180.P1585198066197127521
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(⌊(n + 1 : ℝ) * Real.sqrt (2 : ℝ)⌋ : ℝ) * Real.sqrt (3 : ℝ)⌋
+  ⌊(⌊Real.sqrt (2 : ℝ) * (n + 1 : ℝ)⌋ : ℝ) * Real.sqrt (3 : ℝ)⌋
 
 end
 
-end A356180.P16406669337501077687
+end A356180.P1585198066197127521
 
 namespace A356180
 
-/-- `floor(floor((n+1)*sqrt(2))*sqrt(3))` -/
-def P16406669337501077687.Spec : Prop :=
-  ∀ n, P16406669337501077687.a n = A356180 (n + 1)
+/-- `floor(floor(sqrt(2)*(n+1))*sqrt(3))` -/
+def P1585198066197127521.Spec : Prop :=
+  ∀ n, P1585198066197127521.a n = A356180 (n + 1)
 
 end A356180
 
@@ -11904,6 +11942,52 @@ namespace A356180
 /-- `A026255(A356181(n+1))` -/
 def P8469509911934431692.Spec : Prop :=
   ∀ n, P8469509911934431692.a n = A356180 (n + 1)
+
+end A356180
+
+/-! ## A356180.P17954398762033679602
+
+`A202304(A087055(n+1))`
+-/
+
+namespace A356180.P17954398762033679602
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A202304 (A087055 (n + 1)).toNat
+
+end
+
+end A356180.P17954398762033679602
+
+namespace A356180
+
+/-- `A202304(A087055(n+1))` -/
+def P17954398762033679602.Spec : Prop :=
+  ∀ n, P17954398762033679602.a n = A356180 (n + 1)
+
+end A356180
+
+/-! ## A356180.P3498802273870233654
+
+`A202304(A103128((n+1)²)²)`
+-/
+
+namespace A356180.P3498802273870233654
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A202304 (A103128 ((n + 1) ^ 2) ^ 2).toNat
+
+end
+
+end A356180.P3498802273870233654
+
+namespace A356180
+
+/-- `A202304(A103128((n+1)²)²)` -/
+def P3498802273870233654.Spec : Prop :=
+  ∀ n, P3498802273870233654.a n = A356180 (n + 1)
 
 end A356180
 

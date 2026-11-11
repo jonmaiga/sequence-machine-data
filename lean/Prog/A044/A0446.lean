@@ -546,6 +546,21 @@ end
 
 end A044605.P16537859482113711330
 
+/-! ## A044605.P12217012748841835818
+
+`A124741(A044225(n+1))`
+-/
+
+namespace A044605.P12217012748841835818
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124741 (A044225 (n + 1)).toNat
+
+end
+
+end A044605.P12217012748841835818
+
 /-!
 # A044606: Numbers k such that string 4,6 occurs in the base 8 representation of k but not of k+1.
 

@@ -1,14 +1,17 @@
 {
   "description": "Dimension of the space S_n^{new}(Gamma_1(32)) of weight n cuspidal newforms for Gamma_1( 32 ).",
   "id": "A063305",
-  "mentions": [],
+  "mentions": [
+    "A063276"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 2,
-    "size": 50,
+    "size": 54,
     "source": "joeis"
   }
 }

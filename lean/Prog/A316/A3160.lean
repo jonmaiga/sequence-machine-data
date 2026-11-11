@@ -15,6 +15,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -3729,21 +3730,6 @@ end A316056.P476282574779883058
 The programs for A316057, there is no canonical definition to state claims against.
 -/
 
-/-! ## A316057.P16353286506620238640
-
-`A303708(A326173(n+2))+A250120(n)`
--/
-
-namespace A316057.P16353286506620238640
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A326173 (n + 2)).toNat + A250120 n
-
-end
-
-end A316057.P16353286506620238640
-
 /-! ## A316057.P8386691989960516746
 
 `eq[A161685(A161665(n+1)), A161687(2*(n+2))]`
@@ -5429,21 +5415,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A316077.P8368520972675798190
-
-/-! ## A316077.P1844304603021303647
-
-`ceil(A351008(3*n+2)/A235266(n+3))`
--/
-
-namespace A316077.P1844304603021303647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A351008 (3 * n + 2) : ℚ) / (A235266 (n + 3) : ℚ)⌉
-
-end
-
-end A316077.P1844304603021303647
 
 /-! ## A316077.P5661816239730238906
 

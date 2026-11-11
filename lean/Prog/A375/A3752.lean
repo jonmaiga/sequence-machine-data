@@ -1308,6 +1308,28 @@ end
 
 end A375214.P10438890802946489990
 
+/-! ## A375214.P4200818202081070220
+
+`∩[A060747(n), A227870(n+1)]`
+-/
+
+namespace A375214.P4200818202081070220
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060747 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227870 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A375214.P4200818202081070220
+
 /-! ## A375214.P10348280012684284871
 
 `∩[A227870(n+1), A004271(n)+1]`
@@ -1329,28 +1351,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A375214.P10348280012684284871
-
-/-! ## A375214.P11326425839000180147
-
-`∩[A227870(n+1), A004272(n)+1]`
--/
-
-namespace A375214.P11326425839000180147
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227870 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004272 n + 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A375214.P11326425839000180147
 
 /-!
 # A375216: n is the a(n)-th nonnegative integer having its multiset of binary digits.

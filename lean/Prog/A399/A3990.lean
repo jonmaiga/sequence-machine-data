@@ -59,6 +59,7 @@ import Seq.B003.C001
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
@@ -2076,6 +2077,57 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399049.P15458176088452388257
+
+/-!
+# A399050: Square array A(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where A(n,k) = lcm(n, n+1, ..., n+k).
+
+The programs for A399050, there is no canonical definition to state claims against.
+-/
+
+/-! ## A399050.P2478183061834019434
+
+`A093919(A038722(n+1))`
+-/
+
+namespace A399050.P2478183061834019434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093919 (A038722 (n + 1)).toNat
+
+end
+
+end A399050.P2478183061834019434
+
+/-! ## A399050.P7637344960248735218
+
+`A271410(A130328(n))`
+-/
+
+namespace A399050.P7637344960248735218
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271410 (A130328 n).toNat
+
+end
+
+end A399050.P7637344960248735218
+
+/-! ## A399050.P6117343476526435286
+
+`A343504(A204930(n+1))`
+-/
+
+namespace A399050.P6117343476526435286
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343504 (A204930 (n + 1)).toNat
+
+end
+
+end A399050.P6117343476526435286
 
 /-!
 # A399053: Sum of cubefree numbers <= n.

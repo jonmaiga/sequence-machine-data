@@ -2724,6 +2724,24 @@ end A386960
 The programs for A386961, there is no canonical definition to state claims against.
 -/
 
+/-! ## A386961.P362446663660210061
+
+`∑{#}[n-1, (n-(#+1))!*C(n, #+1)²*(#+1)*#]`
+-/
+
+namespace A386961.P362446663660210061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.factorial ((n : ℤ) - (k + 1 : ℤ)).toNat * Nat.choose n (k + 1) ^ 2 * ((k + 1) * k)
+
+end
+
+end A386961.P362446663660210061
+
 /-! ## A386961.P15019104405504868738
 
 `2*C(n, 2)*A288268(n)`
@@ -4967,24 +4985,57 @@ end
 
 end A386999.P1891597767808869648
 
-/-! ## A386999.P15317571517959080840
+/-! ## A386999.P1438831024477776385
 
-`eq[A127893(n), A237271(n+1)]+1`
+`filter[A174973(n+1), A073424(#)]`
 -/
 
-namespace A386999.P15317571517959080840
+namespace A386999.P1438831024477776385
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127893 n
+  A174973 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A237271 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A073424 (f1 j).toNat = 1) n)
 
 end
 
-end A386999.P15317571517959080840
+end A386999.P1438831024477776385
+
+/-! ## A386999.P6770353945765844670
+
+`filter[A174973(n+1), A010054(#)]`
+-/
+
+namespace A386999.P6770353945765844670
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174973 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010054 (f1 j).toNat = 1) n)
+
+end
+
+end A386999.P6770353945765844670
+
+/-! ## A386999.P13054275788881662916
+
+`filter[A174973(n+1), A185907(#)]`
+-/
+
+namespace A386999.P13054275788881662916
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174973 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A185907 (f1 j).toNat = 1) n)
+
+end
+
+end A386999.P13054275788881662916
 

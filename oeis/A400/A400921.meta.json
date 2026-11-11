@@ -1,0 +1,18 @@
+{
+  "description": "Number of monosubstituted acyclic hydrocarbons (alkanes and olefins), ignoring stereoisomers.",
+  "id": "A400921",
+  "mentions": [
+    "A000598",
+    "A400922",
+    "A400923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

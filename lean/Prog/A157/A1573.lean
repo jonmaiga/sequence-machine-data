@@ -116,7 +116,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A157301: Reduced numerators of the ratios of Pi(2^(n+1))/Pi(2^(n)).
+# A157301: Reduced numerators of the ratios of pi(2^(n+1))/pi(2^(n)), where pi = A000720.
 
 The programs for A157301, there is no canonical definition to state claims against.
 -/

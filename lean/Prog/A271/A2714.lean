@@ -3670,6 +3670,29 @@ def P5852032051851360005.Spec : Prop :=
 
 end A271439
 
+/-! ## A271439.P8125060083522966123
+
+`A083920(n)-A083920(n*A010054(n))`
+-/
+
+namespace A271439.P8125060083522966123
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083920 n - A083920 ((n : ℤ) * A010054 n).toNat
+
+end
+
+end A271439.P8125060083522966123
+
+namespace A271439
+
+/-- `A083920(n)-A083920(n*A010054(n))` -/
+def P8125060083522966123.Spec : Prop :=
+  ∀ n, P8125060083522966123.a n = A271439 n
+
+end A271439
+
 /-! ## A271439.P17709019213149225376
 
 `Δ[C(1-A123578(n)+n, 2)]`
@@ -7643,7 +7666,7 @@ end A271483.P12304641591496142940
 /-!
 # A271484: Expansion of x^5/((1-x^2)*(1-x^4))+x^10/((1-x^4)*(1-x^6)).
 
-The programs for A271484, the canonical program `A271484.P8954733391183725585` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271484 has offset 0).
+The programs for A271484, the canonical program `A271484.P8954733391183725585` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271484 has offset 0).
 
 The definition of A271484 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7652,7 +7675,7 @@ The definition of A271484 is `conjectured`: the Lean definition is a formula tha
 
 `A059169(1+n)%A008620(A026741(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271484
@@ -9513,7 +9536,7 @@ end A271498.P8142568586504830241
 /-!
 # A271499: Positive numbers n such that the number of 1's in the binary expansion of n is not a power of 2.
 
-The programs for A271499, the canonical program `A271499.P15216955592391079473` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271499 has offset 1).
+The programs for A271499, the canonical program `A271499.P15216955592391079473` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271499 has offset 1).
 
 The definition of A271499 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9752,7 +9775,7 @@ end A271499
 
 `lt[1, A000120(2*n-A005187(n))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271499

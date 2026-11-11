@@ -1,0 +1,17 @@
+{
+  "description": "Number of largest sets S of points of the 3 X n grid as in A401223, counted up to the reflections of the grid in its horizontal and vertical axes and the half turn.",
+  "id": "A401226",
+  "mentions": [
+    "A322284",
+    "A401223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

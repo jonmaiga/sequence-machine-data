@@ -1,0 +1,17 @@
+{
+  "description": "Square array read by antidiagonals downwards: A(n,k) = least m >= 1 such that k divides prime(n+1) + prime(n+2) + ... + prime(n+m), for n >= 0, k >= 1.",
+  "id": "A398776",
+  "mentions": [
+    "A053050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

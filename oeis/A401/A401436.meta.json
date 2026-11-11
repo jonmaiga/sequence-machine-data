@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by descending antidiagonals: A(n,k) is the number of nonnegative integer solutions to x + y + k*z = n.",
+  "id": "A401436",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A001840",
+    "A001972",
+    "A002620",
+    "A008724",
+    "A008725",
+    "A008726",
+    "A008727",
+    "A008728",
+    "A008729",
+    "A008730",
+    "A008732",
+    "A078567",
+    "A399695",
+    "A400322"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

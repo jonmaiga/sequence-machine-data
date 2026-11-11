@@ -32,7 +32,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -4210,6 +4209,32 @@ def P12847264235227888835.Spec : Prop :=
 
 end A345887
 
+/-! ## A345887.P13274963605948437644
+
+`∑{#}[n, C(n+1, #)*#!*(n+1)]`
+-/
+
+namespace A345887.P13274963605948437644
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose (n + 1) k * (Nat.factorial k * (n + 1))
+
+end
+
+end A345887.P13274963605948437644
+
+namespace A345887
+
+/-- `∑{#}[n, C(n+1, #)*#!*(n+1)]` -/
+def P13274963605948437644.Spec : Prop :=
+  ∀ n, (P13274963605948437644.a n : ℤ) = A345887 (n + 1)
+
+end A345887
+
 /-! ## A345887.P2157070473371483471
 
 `(n+1)*((n+1)*a(n-1)/n+1)` with `a(0)=1`
@@ -4288,35 +4313,6 @@ theorem P5619055068095119872.correct : P5619055068095119872.Spec := by
   simp only [A345887, Nat.add_sub_cancel, A345887.P5619055068095119872.f1, A345887.P5619055068095119872.a, A345887.P10524329361228166936.a, A193657, A193657.P433001986972353019.a, A319013, A319013.P5955328554395698537.a, A002627, A002627.P17737737289086489454.a, A114870, A114870.P5398482328974684213.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A345887
-
-/-! ## A345887.P17457580804927162879
-
-`record[Δ[A176305(n+3)]]`
--/
-
-namespace A345887.P17457580804927162879
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A176305 (n + 3)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A345887.P17457580804927162879
-
-namespace A345887
-
-/-- `record[Δ[A176305(n+3)]]` -/
-def P17457580804927162879.Spec : Prop :=
-  ∀ n, P17457580804927162879.a n = A345887 (n + 1)
 
 end A345887
 

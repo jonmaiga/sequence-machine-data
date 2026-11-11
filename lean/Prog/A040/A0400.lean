@@ -28,9 +28,8 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -5873,6 +5872,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040070.P8145350937037701114
+
+/-! ## A040070.P15782097745540740688
+
+`A094701(A002476(A349690(n+2))²)`
+-/
+
+namespace A040070.P15782097745540740688
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094701 (A002476 (A349690 (n + 2)).toNat ^ 2).toNat
+
+end
+
+end A040070.P15782097745540740688
 
 /-!
 # A040072: Continued fraction for sqrt(82).

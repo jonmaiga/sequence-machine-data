@@ -53,6 +53,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -5331,6 +5332,21 @@ end
 
 end A216075.P1691964114616562131
 
+/-! ## A216075.P8741738266039132297
+
+`A377505(A173970(n+1))`
+-/
+
+namespace A216075.P8741738266039132297
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A173970 (n + 1)).toNat
+
+end
+
+end A216075.P8741738266039132297
+
 /-! ## A216075.P13714428930652738504
 
 `A049084(or(1, A173970(n+1)))`
@@ -5627,6 +5643,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216078.P5384850214294802505
+
+/-! ## A216078.P2409884023373090001
+
+`A201862(n)/A216332(n+1)`
+-/
+
+namespace A216078.P2409884023373090001
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A201862 n : ℚ) / (A216332 (n + 1) : ℚ)
+
+end
+
+end A216078.P2409884023373090001
 
 /-!
 # A216079: Number of horizontal and antidiagonal neighbor colorings of the odd squares of an n X 3 array with new integer colors introduced in row major order.

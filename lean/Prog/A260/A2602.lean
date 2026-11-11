@@ -42,6 +42,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
@@ -1407,7 +1408,7 @@ end A260215.P16478685973983702070
 /-!
 # A260217: Number of base-3 n-digit pandigital numbers.
 
-The programs for A260217, the canonical program `A260217.P18320538759642150908` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260217 has offset 1).
+The programs for A260217, the canonical program `A260217.P18320538759642150908` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260217 has offset 1).
 
 The definition of A260217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1468,7 +1469,7 @@ end A260217
 
 `2*A028243(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260217
@@ -2674,7 +2675,7 @@ end A260221.P3266034646283605292
 /-!
 # A260222: a(n)=gcd(n,F(n-1)), where F(n) is the n-th Fibonacci number.
 
-The programs for A260222, the canonical program `A260222.P6627963587567971658` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260222 has offset 1).
+The programs for A260222, the canonical program `A260222.P6627963587567971658` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260222 has offset 1).
 
 The definition of A260222 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(n+1, A000045(n))` (program `A260222.P6627963587567971658`, by `A260222.P6627963587567971658.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2683,7 +2684,7 @@ The definition of A260222 is `verified`: the Lean definition is proven equivalen
 
 `gcd(n+1, A000045(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260222
@@ -5502,7 +5503,7 @@ end A260227.P10211429979754832843
 /-!
 # A260228: a(n) = max(gcd(n,F(n-1)),gcd(n,F(n+1))), where F(n) is the n-th Fibonacci number.
 
-The programs for A260228, the canonical program `A260228.P11225188924853590628` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260228 has offset 1).
+The programs for A260228, the canonical program `A260228.P11225188924853590628` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260228 has offset 1).
 
 The definition of A260228 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `max(gcd(n+1, A000045(n)), gcd(n+1, A000045(n+2)))` (program `A260228.P11225188924853590628`, by `A260228.P11225188924853590628.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5511,7 +5512,7 @@ The definition of A260228 is `verified`: the Lean definition is proven equivalen
 
 `max(gcd(n+1, A000045(n)), gcd(n+1, A000045(n+2)))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260228
@@ -15225,26 +15226,23 @@ end A260295
 The programs for A260296, there is no canonical definition to state claims against.
 -/
 
-/-! ## A260296.P8144291802849116545
+/-! ## A260296.P13042268304611413632
 
-`A172272(∑[∑[A243676(n)]])`
+`∑{d}[n+1, A000010(#)*(2*(n+1)/#)!*#^((n+1)/#)/(2*(n+1)*((n+1)/#)!)]`
 -/
 
-namespace A260296.P8144291802849116545
+namespace A260296.P13042268304611413632
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243676 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172272 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (A000010 d * (Nat.factorial (SequenceMachineLib.roundAway ((2 * (n + 1) : ℚ) / (d : ℚ))).toNat : ℤ) : ℝ) * (d : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) : ℝ) / (2 * (n + 1) * Nat.factorial (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat : ℝ)
 
 end
 
-end A260296.P8144291802849116545
+end A260296.P13042268304611413632
 
 /-!
 # A260297: a(n) = prime(n) - (hyperfactorial(prime(n)-1) mod prime(n)).

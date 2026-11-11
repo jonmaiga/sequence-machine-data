@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled simple graphs on n vertices (not necessarily connected) with burning number 2.",
+  "id": "A401529",
+  "mentions": [
+    "A006125",
+    "A100743",
+    "A263322",
+    "A327366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

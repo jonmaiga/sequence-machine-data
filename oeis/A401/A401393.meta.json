@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n / A305007(n), where A305007 are the denominators of coefficients in expansion of Sum_{k>=1} x^k/(k*(1 + x^k)).",
+  "id": "A401393",
+  "mentions": [
+    "A305007"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

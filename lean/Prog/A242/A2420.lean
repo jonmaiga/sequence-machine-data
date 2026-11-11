@@ -2990,21 +2990,6 @@ end
 
 end A242044.P18291823126038275882
 
-/-! ## A242044.P6632588116702306321
-
-`A161621(A149314(n))`
--/
-
-namespace A242044.P6632588116702306321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161621 (A149314 n).toNat
-
-end
-
-end A242044.P6632588116702306321
-
 /-! ## A242044.P269825590275510929
 
 `A265534(A118037(n))`
@@ -3019,6 +3004,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242044.P269825590275510929
+
+/-! ## A242044.P3946649727946567511
+
+`A265534(A129384(n))`
+-/
+
+namespace A242044.P3946649727946567511
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265534 (A129384 n).toNat
+
+end
+
+end A242044.P3946649727946567511
 
 /-!
 # A242053: Decimal expansion of 1/log(2)-1, the mean value of a random variable following the Gauss-Kuzmin distribution.

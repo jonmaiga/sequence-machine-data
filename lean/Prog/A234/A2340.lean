@@ -36,7 +36,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -4140,6 +4139,29 @@ def P17884323323513042732.Spec : Prop :=
 
 end A234026
 
+/-! ## A234026.P17420855026403862860
+
+`A234027(A234025(A234027(n)))`
+-/
+
+namespace A234026.P17420855026403862860
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234027 (A234025 (A234027 n).toNat).toNat
+
+end
+
+end A234026.P17420855026403862860
+
+namespace A234026
+
+/-- `A234027(A234025(A234027(n)))` -/
+def P17420855026403862860.Spec : Prop :=
+  ∀ n, P17420855026403862860.a n = A234026 n
+
+end A234026
+
 /-! ## A234026.P732862834481235387
 
 `A234612(A063946(xor(n, A004526(n))))`
@@ -4206,6 +4228,29 @@ namespace A234026
 /-- `A246159(A234612(A003188(A054429(2*n+1))))` -/
 def P280061806619822630.Spec : Prop :=
   ∀ n, P280061806619822630.a n = A234026 n
+
+end A234026
+
+/-! ## A234026.P15700155877212061141
+
+`A246159(A234025(A234025(A234025(2*n+1))))`
+-/
+
+namespace A234026.P15700155877212061141
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246159 (A234025 (A234025 (A234025 (2 * n + 1)).toNat).toNat).toNat
+
+end
+
+end A234026.P15700155877212061141
+
+namespace A234026
+
+/-- `A246159(A234025(A234025(A234025(2*n+1))))` -/
+def P15700155877212061141.Spec : Prop :=
+  ∀ n, P15700155877212061141.a n = A234026 n
 
 end A234026
 
@@ -4321,6 +4366,29 @@ namespace A234026
 /-- `A006068(A245444(A006068(n)))` -/
 def P6065973364033781888.Spec : Prop :=
   ∀ n, P6065973364033781888.a n = A234026 n
+
+end A234026
+
+/-! ## A234026.P13244298009560121096
+
+`A245812(A246159(A234025(A245812(2*n))))`
+-/
+
+namespace A234026.P13244298009560121096
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245812 (A246159 (A234025 (A245812 (2 * n)).toNat).toNat).toNat
+
+end
+
+end A234026.P13244298009560121096
+
+namespace A234026
+
+/-- `A245812(A246159(A234025(A245812(2*n))))` -/
+def P13244298009560121096.Spec : Prop :=
+  ∀ n, P13244298009560121096.a n = A234026 n
 
 end A234026
 

@@ -30,6 +30,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -60,7 +61,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -888,22 +889,22 @@ end
 
 end A286103.P9071835511859817658
 
-/-! ## A286103.P244575399164332127
+/-! ## A286103.P12004303486773054811
 
-`1+min(a(A285734(n+1)-1), a(A285735(n+1)-1))` with `a(0)=0, a(1)=1`
+`1+min(a(A285734(n+1)-1), a(A285735(n+1)-1))` with `a(0)=0`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A286103.P244575399164332127
+namespace A286103.P12004303486773054811
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
   1 + min (a (A285734 (n + 1) - 1).toNat) (a (A285735 (n + 1) - 1).toNat)
 
 end
 
-end A286103.P244575399164332127
+end A286103.P12004303486773054811
 
 /-! ## A286103.P16872529275721908313
 
@@ -4310,21 +4311,6 @@ end
 
 end A286137.P15611466605325468530
 
-/-! ## A286137.P6090110170084299827
-
-`A046660(A000040(n+1))-A286129(4*n)`
--/
-
-namespace A286137.P6090110170084299827
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046660 (A000040 (n + 1)).toNat - A286129 (4 * n)
-
-end
-
-end A286137.P6090110170084299827
-
 /-! ## A286137.P13325955118651143792
 
 `A030218(A008458(n)-n)%A001599(n+1)`
@@ -4339,6 +4325,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286137.P13325955118651143792
+
+/-! ## A286137.P6090110170084299827
+
+`A046660(A000040(n+1))-A286129(4*n)`
+-/
+
+namespace A286137.P6090110170084299827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046660 (A000040 (n + 1)).toNat - A286129 (4 * n)
+
+end
+
+end A286137.P6090110170084299827
 
 /-! ## A286137.P14718460841070718257
 
@@ -4557,7 +4558,7 @@ end
 end A286141.P11348648023823744574
 
 /-!
-# A286142: Compound filter: a(n) = T(A257993(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A286142: a(n) = (1/2)*(2 + ((A257993(n)+A046523(n))^2) - A257993(n) - 3*A046523(n)), where A257993(n) is the index of the least prime not dividing n, and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A286142, there is no canonical definition to state claims against.
 -/
@@ -4565,6 +4566,8 @@ The programs for A286142, there is no canonical definition to state claims again
 /-! ## A286142.P14730922497355915309
 
 `1/2*(2+(A257993(n+1)+A046523(n+1))²-A257993(n+1)-3*A046523(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A286142.P14730922497355915309
@@ -4653,7 +4656,7 @@ end
 end A286142.P13944296859193752164
 
 /-!
-# A286143: Compound filter: a(n) = T(A055881(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A286143: a(n) = (1/2)*(2 + ((A055881(n)+A046523(n))^2) - A055881(n) - 3*A046523(n)), where A055881(n) is the largest m such that m! divides n, and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A286143, the canonical program `A286143.P15931790355301300039` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286143 has offset 1).
 
@@ -4999,26 +5002,49 @@ def P10774218931309605966.Spec : Prop :=
 
 end A286145
 
-/-! ## A286145.P5244163243738880144
+/-! ## A286145.P5384628584093315648
 
-`A163240(A163241(A163239(A163237(A163238(n)))))`
+`A163236(A163241(A163235(A163241(A163241(n)))))`
 -/
 
-namespace A286145.P5244163243738880144
+namespace A286145.P5384628584093315648
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163240 (A163241 (A163239 (A163237 (A163238 n).toNat).toNat).toNat).toNat
+  A163236 (A163241 (A163235 (A163241 (A163241 n).toNat).toNat).toNat).toNat
 
 end
 
-end A286145.P5244163243738880144
+end A286145.P5384628584093315648
 
 namespace A286145
 
-/-- `A163240(A163241(A163239(A163237(A163238(n)))))` -/
-def P5244163243738880144.Spec : Prop :=
-  ∀ n, P5244163243738880144.a n = A286145 n
+/-- `A163236(A163241(A163235(A163241(A163241(n)))))` -/
+def P5384628584093315648.Spec : Prop :=
+  ∀ n, P5384628584093315648.a n = A286145 n
+
+end A286145
+
+/-! ## A286145.P3551943120592417546
+
+`A163236(A163241(A163235(A163237(A163238(n)))))`
+-/
+
+namespace A286145.P3551943120592417546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163236 (A163241 (A163235 (A163237 (A163238 n).toNat).toNat).toNat).toNat
+
+end
+
+end A286145.P3551943120592417546
+
+namespace A286145
+
+/-- `A163236(A163241(A163235(A163237(A163238(n)))))` -/
+def P3551943120592417546.Spec : Prop :=
+  ∀ n, P3551943120592417546.a n = A286145 n
 
 end A286145
 
@@ -5691,7 +5717,7 @@ def P16353441231355014409.Spec : Prop :=
 end A286150
 
 /-!
-# A286152: Compound filter: a(n) = T(A051953(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A286152: a(n) = (1/2)*(2 + ((A051953(n)+A046523(n))^2) - A051953(n) - 3*A046523(n)), where A051953(n) is the cototient of n = n-phi(n), and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A286152, the canonical program `A286152.P7471709949904273220` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286152 has offset 1).
 
@@ -5710,6 +5736,31 @@ namespace A286152
 /-- `(2+(A051953(n+1)+A046523(n+1))²-A051953(n+1)-3*A046523(n+1))/2` -/
 def P7471709949904273220.Spec : Prop :=
   ∀ n, P7471709949904273220.a n = (A286152 (n + 1) : ℚ)
+
+end A286152
+
+/-! ## A286152.P9555081895625178872
+
+`1/2*(2+(A051953(n+1)+A046523(n+1))²-A051953(n+1)-3*A046523(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A286152.P9555081895625178872
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (2 + (A051953 (n + 1) + A046523 (n + 1)) ^ 2 - A051953 (n + 1) - 3 * A046523 (n + 1) : ℚ)
+
+end
+
+end A286152.P9555081895625178872
+
+namespace A286152
+
+/-- `1/2*(2+(A051953(n+1)+A046523(n+1))²-A051953(n+1)-3*A046523(n+1))` -/
+def P9555081895625178872.Spec : Prop :=
+  ∀ n, P9555081895625178872.a n = (A286152 (n + 1) : ℚ)
 
 end A286152
 
@@ -6434,7 +6485,7 @@ def P9748981773919805514.Spec : Prop :=
 end A286159
 
 /-!
-# A286160: Compound filter: a(n) = T(A000010(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A286160: a(n) = (1/2)*(2 + ((A000010(n)+A046523(n))^2) - A000010(n) - 3*A046523(n)), where A046523(n) is the smallest number with same prime signature as n, and A000010 is the Euler totient function.
 
 The programs for A286160, the canonical program `A286160.P11432904213077907586` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286160 has offset 1).
 
@@ -6456,8 +6507,33 @@ def P11432904213077907586.Spec : Prop :=
 
 end A286160
 
+/-! ## A286160.P16041352673320025558
+
+`1/2*(2+(A000010(n+1)+A046523(n+1))²-A000010(n+1)-3*A046523(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A286160.P16041352673320025558
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (2 + (A000010 (n + 1) + A046523 (n + 1)) ^ 2 - A000010 (n + 1) - 3 * A046523 (n + 1) : ℚ)
+
+end
+
+end A286160.P16041352673320025558
+
+namespace A286160
+
+/-- `1/2*(2+(A000010(n+1)+A046523(n+1))²-A000010(n+1)-3*A046523(n+1))` -/
+def P16041352673320025558.Spec : Prop :=
+  ∀ n, P16041352673320025558.a n = (A286160 (n + 1) : ℚ)
+
+end A286160
+
 /-!
-# A286161: Compound filter: a(n) = T(A001511(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A286161: a(n) = (1/2)*(2 + ((A001511(n)+A046523(n))^2) - A001511(n) - 3*A046523(n)), where A046523(n) is the smallest number with same prime signature as n, and A001511(n) is the ruler function, the exponent of the highest power of 2 dividing 2n.
 
 The programs for A286161, the canonical program `A286161.P17564105684646445376` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286161 has offset 1).
 
@@ -6476,6 +6552,31 @@ namespace A286161
 /-- `(2+(A001511(n+1)+A046523(n+1))²-A001511(n+1)-3*A046523(n+1))/2` -/
 def P17564105684646445376.Spec : Prop :=
   ∀ n, P17564105684646445376.a n = (A286161 (n + 1) : ℚ)
+
+end A286161
+
+/-! ## A286161.P8148830586659109968
+
+`1/2*(2+(A001511(n+1)+A046523(n+1))²-A001511(n+1)-3*A046523(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A286161.P8148830586659109968
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (2 + (A001511 (n + 1) + A046523 (n + 1)) ^ 2 - A001511 (n + 1) - 3 * A046523 (n + 1) : ℚ)
+
+end
+
+end A286161.P8148830586659109968
+
+namespace A286161
+
+/-- `1/2*(2+(A001511(n+1)+A046523(n+1))²-A001511(n+1)-3*A046523(n+1))` -/
+def P8148830586659109968.Spec : Prop :=
+  ∀ n, P8148830586659109968.a n = (A286161 (n + 1) : ℚ)
 
 end A286161
 

@@ -13,12 +13,12 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
@@ -4298,30 +4298,6 @@ def P11445378223942105472.Spec : Prop :=
   ∀ n, P11445378223942105472.a n = A249246 n
 
 end A249246
-
-/-!
-# A249247: Triangular array: row n gives the coefficients of the polynomial p(n,x) defined in Comments.
-
-The programs for A249247, there is no canonical definition to state claims against.
--/
-
-/-! ## A249247.P11920714463494053875
-
-`A155856(record[A347528(n+1)-A343935(n+1)])`
--/
-
-namespace A249247.P11920714463494053875
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347528 (n + 1) - A343935 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155856 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A249247.P11920714463494053875
 
 /-!
 # A249248: Triangular array: row n gives the coefficients of the polynomial p(n,x) defined in Comments.

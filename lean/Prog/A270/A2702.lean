@@ -48,6 +48,7 @@ import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
@@ -102,7 +103,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -969,6 +969,35 @@ namespace A270205
 /-- `∑{#}[2, (n²-n)*(n-#)]` -/
 def P15673531572483844742.Spec : Prop :=
   ∀ n, P15673531572483844742.a n = A270205 n
+
+end A270205
+
+/-! ## A270205.P4831010588404453365
+
+`6*C(n, 2)+18*C(n, 3)`
+-/
+
+namespace A270205.P4831010588404453365
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6 * Nat.choose n 2 + 18 * Nat.choose n 3
+
+end
+
+end A270205.P4831010588404453365
+
+namespace A270205
+
+/-- `6*C(n, 2)+18*C(n, 3)` -/
+def P4831010588404453365.Spec : Prop :=
+  ∀ n, (P4831010588404453365.a n : ℤ) = A270205 n
+
+theorem P4831010588404453365.correct : P4831010588404453365.Spec := by
+  intro n
+  simp only [A270205, Nat.add_sub_cancel, A270205.P4831010588404453365.a, A270205.P4965580866994252023.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A270205
 
@@ -3037,20 +3066,20 @@ end
 
 end A270221.P7556394577774486693
 
-/-! ## A270221.P15381031448794131876
+/-! ## A270221.P324711934625071731
 
-`A270689(n)%A399996(n+2)`
+`A270689(A062399(n))`
 -/
 
-namespace A270221.P15381031448794131876
+namespace A270221.P324711934625071731
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A270689 n) (A399996 (n + 2))
+  A270689 (A062399 n).toNat
 
 end
 
-end A270221.P15381031448794131876
+end A270221.P324711934625071731
 
 /-!
 # A270222: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 131", based on the 5-celled von Neumann neighborhood.
@@ -4435,6 +4464,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270226.P4350691496977800279
+
+/-! ## A270226.P10198310282381769811
+
+`A189572(n+1)+A040000(n)`
+-/
+
+namespace A270226.P10198310282381769811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189572 (n + 1) + A040000 n
+
+end
+
+end A270226.P10198310282381769811
+
+/-! ## A270226.P12322225691048468805
+
+`A189572(n+1)+A036453(n+1)`
+-/
+
+namespace A270226.P12322225691048468805
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189572 (n + 1) + A036453 (n + 1)
+
+end
+
+end A270226.P12322225691048468805
+
+/-! ## A270226.P15444122340342185015
+
+`A275855(n+1)+A189572(n+1)+A080757(n)`
+-/
+
+namespace A270226.P15444122340342185015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275855 (n + 1) + A189572 (n + 1) + A080757 n
+
+end
+
+end A270226.P15444122340342185015
 
 /-!
 # A270227: Array read by antidiagonals: T(n,m) is the number of matchings in the rook graph K_n X K_m.

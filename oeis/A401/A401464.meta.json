@@ -1,0 +1,31 @@
+{
+  "description": "Number of one-sided (equivalently, free) polyforms with n cells in the honeycomb of the 17-faced Voronoi cell of the point (1/8, 1/8, 1/8) under space group I4_132 (No. 214), whose orbit is the vertex set of the Laves graph.",
+  "id": "A401464",
+  "mentions": [
+    "A038620",
+    "A385028",
+    "A385276",
+    "A397707",
+    "A397709",
+    "A398957",
+    "A398958",
+    "A398959",
+    "A400457",
+    "A400461",
+    "A401255",
+    "A401259",
+    "A401447",
+    "A401448",
+    "A401463"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the remainders of n modulo the odd numbers 3, 5, ..., 2*floor(n/3)+1.",
+  "id": "A400919",
+  "mentions": [
+    "A000593",
+    "A004125",
+    "A130823",
+    "A346869",
+    "A346879"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

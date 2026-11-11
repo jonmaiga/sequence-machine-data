@@ -25,6 +25,7 @@ import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
@@ -9266,6 +9267,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A272890.P12942755874040791286
+
+/-! ## A272890.P2296334578160072124
+
+`A000290(A173165(n+1))`
+-/
+
+namespace A272890.P2296334578160072124
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A173165 (n + 1)).toNat
+
+end
+
+end A272890.P2296334578160072124
+
+/-! ## A272890.P886158907475731300
+
+`A000463(A152786(n+1))`
+-/
+
+namespace A272890.P886158907475731300
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000463 (A152786 (n + 1)).toNat
+
+end
+
+end A272890.P886158907475731300
 
 /-!
 # A272891: Number of partitions of Lucas(n).

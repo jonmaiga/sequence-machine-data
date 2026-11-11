@@ -10916,29 +10916,29 @@ theorem P4345016296114240383.correct : P4345016296114240383.Spec := by
 
 end A073591
 
-/-! ## A073591.P624228408612430736
+/-! ## A073591.P5166717727599747798
 
-`∑{#}[n, n!/#!]+1`
+`1+∑{#}[n, n!/#!]`
 -/
 
-namespace A073591.P624228408612430736
+namespace A073591.P5166717727599747798
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial n : ℚ) / (Nat.factorial k : ℚ) + 1
+  1 + ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial n : ℚ) / (Nat.factorial k : ℚ)
 
 end
 
-end A073591.P624228408612430736
+end A073591.P5166717727599747798
 
 namespace A073591
 
-/-- `∑{#}[n, n!/#!]+1` -/
-def P624228408612430736.Spec : Prop :=
-  ∀ n, P624228408612430736.a n = (A073591 n : ℚ)
+/-- `1+∑{#}[n, n!/#!]` -/
+def P5166717727599747798.Spec : Prop :=
+  ∀ n, P5166717727599747798.a n = (A073591 n : ℚ)
 
 end A073591
 

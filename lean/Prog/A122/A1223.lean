@@ -6947,21 +6947,6 @@ end
 
 end A122356.P16742969333251008892
 
-/-! ## A122356.P5231560723466657300
-
-`A130362(A085169(n))%A087136(n)`
--/
-
-namespace A122356.P5231560723466657300
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A130362 (A085169 n).toNat) (A087136 n)
-
-end
-
-end A122356.P5231560723466657300
-
 /-!
 # A122357: Row 18 of A122201.
 

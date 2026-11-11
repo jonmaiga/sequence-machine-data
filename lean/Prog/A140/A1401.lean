@@ -27,10 +27,12 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C042
@@ -4365,6 +4367,32 @@ def P7486709261276370106.Spec : Prop :=
 
 end A140119
 
+/-! ## A140119.P12022455883581602693
+
+`(-1)^n*∑{#}[n, A000040(#+1)*C(n+1, #)*(-1)^#]`
+-/
+
+namespace A140119.P12022455883581602693
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (-1) ^ n * (∑ k ∈ Finset.range (f1 n + 1), A000040 (k + 1) * (Nat.choose (n + 1) k : ℤ) * (-1) ^ k)
+
+end
+
+end A140119.P12022455883581602693
+
+namespace A140119
+
+/-- `(-1)^n*∑{#}[n, A000040(#+1)*C(n+1, #)*(-1)^#]` -/
+def P12022455883581602693.Spec : Prop :=
+  ∀ n, P12022455883581602693.a n = A140119 (n + 1)
+
+end A140119
+
 /-!
 # A140120: Primes of the form prime(x)*prime(x+1) - (prime(x+1)-prime(x)).
 
@@ -5817,6 +5845,29 @@ def P10351170798958520509.Spec : Prop :=
 
 end A140130
 
+/-! ## A140130.P13350307568582586255
+
+`A062383(A030101(A086099(A030101(n+1))))`
+-/
+
+namespace A140130.P13350307568582586255
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062383 (A030101 (A086099 (A030101 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A140130.P13350307568582586255
+
+namespace A140130
+
+/-- `A062383(A030101(A086099(A030101(n+1))))` -/
+def P13350307568582586255.Spec : Prop :=
+  ∀ n, P13350307568582586255.a n = A140130 (n + 1)
+
+end A140130
+
 /-! ## A140130.P15614105970429456700
 
 `A062383(A030109(A049773(A059893(A059893(n+1)))))`
@@ -5952,29 +6003,6 @@ namespace A140130
 /-- `A080100(A335587(A000265(n+1)))` -/
 def P15840270732584802902.Spec : Prop :=
   ∀ n, P15840270732584802902.a n = A140130 (n + 1)
-
-end A140130
-
-/-! ## A140130.P17360135538756646079
-
-`A080100(A335587(n)/A006519(n+1))`
--/
-
-namespace A140130.P17360135538756646079
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080100 (SequenceMachineLib.roundAway ((A335587 n : ℚ) / (A006519 (n + 1) : ℚ))).toNat
-
-end
-
-end A140130.P17360135538756646079
-
-namespace A140130
-
-/-- `A080100(A335587(n)/A006519(n+1))` -/
-def P17360135538756646079.Spec : Prop :=
-  ∀ n, P17360135538756646079.a n = A140130 (n + 1)
 
 end A140130
 

@@ -16,7 +16,6 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -35,6 +34,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C048
 import Seq.B000.C051
@@ -1528,6 +1528,52 @@ namespace A281114
 /-- `and(A061304(n+1), A196657(n))` -/
 def P11894916651661108166.Spec : Prop :=
   ∀ n, P11894916651661108166.a n = A281114 (n + 1)
+
+end A281114
+
+/-! ## A281114.P3913794629820210939
+
+`and(A061304(n+1), A134854(n+1))`
+-/
+
+namespace A281114.P3913794629820210939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A061304 (n + 1)) (A134854 (n + 1))
+
+end
+
+end A281114.P3913794629820210939
+
+namespace A281114
+
+/-- `and(A061304(n+1), A134854(n+1))` -/
+def P3913794629820210939.Spec : Prop :=
+  ∀ n, P3913794629820210939.a n = A281114 (n + 1)
+
+end A281114
+
+/-! ## A281114.P14925749402387088745
+
+`and(A061304(n+1), A295926(n+3))`
+-/
+
+namespace A281114.P14925749402387088745
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A061304 (n + 1)) (A295926 (n + 3))
+
+end
+
+end A281114.P14925749402387088745
+
+namespace A281114
+
+/-- `and(A061304(n+1), A295926(n+3))` -/
+def P14925749402387088745.Spec : Prop :=
+  ∀ n, P14925749402387088745.a n = A281114 (n + 1)
 
 end A281114
 
@@ -4795,21 +4841,6 @@ end A281155.P2039900227037815847
 
 The programs for A281156, there is no canonical definition to state claims against.
 -/
-
-/-! ## A281156.P16334834874456800262
-
-`A193259(ceil(3^(n-1)))`
--/
-
-namespace A281156.P16334834874456800262
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193259 ⌈(3 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌉.toNat
-
-end
-
-end A281156.P16334834874456800262
 
 /-! ## A281156.P16252244672430271687
 

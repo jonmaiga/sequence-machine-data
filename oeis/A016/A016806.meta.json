@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (4n)^6.",
+  "description": "a(n) = (4*n)^6.",
   "id": "A016806",
   "mentions": [],
   "tags": [

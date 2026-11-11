@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.",
+  "description": "Number of n X 7 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.",
   "id": "A209046",
   "mentions": [
     "A209047"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

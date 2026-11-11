@@ -5560,6 +5560,21 @@ end
 
 end A051227.P523030554773548932
 
+/-! ## A051227.P14422425428351381471
+
+`A194451(A051228(n+1))`
+-/
+
+namespace A051227.P14422425428351381471
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194451 (A051228 (n + 1)).toNat
+
+end
+
+end A051227.P14422425428351381471
+
 /-! ## A051227.P10601555355774218080
 
 `eq[A010704(n), A112828(n)]`
@@ -5727,27 +5742,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A051227.P16720465918754357500
-
-/-! ## A051227.P1969121948864106733
-
-`eq[A112828(n), A129000(n+1)]`
--/
-
-namespace A051227.P1969121948864106733
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112828 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129000 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A051227.P1969121948864106733
 
 /-!
 # A051228: Numbers m such that the Bernoulli number B_m has denominator 42.
@@ -6039,6 +6033,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A051229.P15490259275419256068
+
+/-! ## A051229.P9345551398308029104
+
+`A194451(A051230(n+1))`
+-/
+
+namespace A051229.P9345551398308029104
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194451 (A051230 (n + 1)).toNat
+
+end
+
+end A051229.P9345551398308029104
 
 /-! ## A051229.P5711862651033495969
 

@@ -1,5 +1,5 @@
 {
-  "description": "Number of achiral planted trees with n nodes.",
+  "description": "Number of achiral planted steric ternary trees with n non-leaf nodes.",
   "id": "A005627",
   "mentions": [
     "A000625"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

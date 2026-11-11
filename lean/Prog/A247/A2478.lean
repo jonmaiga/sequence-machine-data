@@ -4243,6 +4243,32 @@ def P13482415751264440046.Spec : Prop :=
 
 end A247840
 
+/-! ## A247840.P12465283460140545669
+
+`∑{#}[n-1, 6^(n+1-#)]`
+-/
+
+namespace A247840.P12465283460140545669
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (6 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A247840.P12465283460140545669
+
+namespace A247840
+
+/-- `∑{#}[n-1, 6^(n+1-#)]` -/
+def P12465283460140545669.Spec : Prop :=
+  ∀ n, P12465283460140545669.a n = (A247840 (n + 1) : ℚ)
+
+end A247840
+
 /-! ## A247840.P5451577850522395522
 
 `∑[(3*2%(n+2))^(n+1)]`
@@ -4832,6 +4858,32 @@ def P11999071708975900286.Spec : Prop :=
 
 end A247841
 
+/-! ## A247841.P2174436596133772929
+
+`∑{#}[n-1, 8^(n+1-#)]`
+-/
+
+namespace A247841.P2174436596133772929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (8 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A247841.P2174436596133772929
+
+namespace A247841
+
+/-- `∑{#}[n-1, 8^(n+1-#)]` -/
+def P2174436596133772929.Spec : Prop :=
+  ∀ n, P2174436596133772929.a n = (A247841 (n + 1) : ℚ)
+
+end A247841
+
 /-! ## A247841.P773706386576864645
 
 `∑[(4*2%(n+2))^(n+1)]`
@@ -5263,6 +5315,32 @@ namespace A247842
 /-- `∑[(3*3%(n+3))^(n+1)]` -/
 def P12908370689620551953.Spec : Prop :=
   ∀ n, (P12908370689620551953.a n : ℤ) = A247842 (n + 1)
+
+end A247842
+
+/-! ## A247842.P14455447819142807244
+
+`∑{#}[n-1, 3^(2*(n+1-#))]`
+-/
+
+namespace A247842.P14455447819142807244
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (3 : ℚ) ^ (2 * ((n + 1 : ℤ) - (k : ℤ)) : ℤ)
+
+end
+
+end A247842.P14455447819142807244
+
+namespace A247842
+
+/-- `∑{#}[n-1, 3^(2*(n+1-#))]` -/
+def P14455447819142807244.Spec : Prop :=
+  ∀ n, P14455447819142807244.a n = (A247842 (n + 1) : ℚ)
 
 end A247842
 

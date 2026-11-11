@@ -4455,6 +4455,42 @@ end
 
 end A289027.P15209410360202130270
 
+/-! ## A289027.P2471692238149392566
+
+`filter[A174571(n+1), A289025(#)]`
+-/
+
+namespace A289027.P2471692238149392566
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174571 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A289025 (f1 j).toNat = 1) n)
+
+end
+
+end A289027.P2471692238149392566
+
+/-! ## A289027.P832286531704920313
+
+`filter[A100727(n), A289025(#)]`
+-/
+
+namespace A289027.P832286531704920313
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100727 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A289025 (f1 j).toNat = 1) n)
+
+end
+
+end A289027.P832286531704920313
+
 /-!
 # A289028: Length of n-th iterate of the mapping 00->0010, 10->010, 1-->001, starting with 00.
 

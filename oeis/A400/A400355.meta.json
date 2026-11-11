@@ -1,0 +1,19 @@
+{
+  "description": "First column of the derivative-compositional Riordan array psi_2(f) = (f^[2](x)*(f^[2])'(x)/x, f^[2](x)), where f^[2](x) = f(f(x)), f(x) = x*s(x), and s(x) is the g.f. of A004148 (RNA secondary structures).",
+  "id": "A400355",
+  "mentions": [
+    "A004148",
+    "A187256",
+    "A399173"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

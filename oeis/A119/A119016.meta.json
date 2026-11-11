@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of \"Farey fraction\" approximations to sqrt(2).",
+  "description": "Numerators of semiconvergents to sqrt(2).",
   "id": "A119016",
   "mentions": [
     "A000129",

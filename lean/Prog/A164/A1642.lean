@@ -7963,6 +7963,96 @@ def P782713785072037889.Spec : Prop :=
 
 end A164276
 
+/-! ## A164276.P670840804799811686
+
+`∪[A014076(n+1), A167692(n+1)]`
+-/
+
+namespace A164276.P670840804799811686
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014076 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167692 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A164276.P670840804799811686
+
+namespace A164276
+
+/-- `∪[A014076(n+1), A167692(n+1)]` -/
+def P670840804799811686.Spec : Prop :=
+  ∀ n, (P670840804799811686.a n : ℤ) = A164276 (n + 1)
+
+end A164276
+
+/-! ## A164276.P16055097618993872837
+
+`∩[A141468(n+1), A167707(n+1)]`
+-/
+
+namespace A164276.P16055097618993872837
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141468 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167707 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A164276.P16055097618993872837
+
+namespace A164276
+
+/-- `∩[A141468(n+1), A167707(n+1)]` -/
+def P16055097618993872837.Spec : Prop :=
+  ∀ n, (P16055097618993872837.a n : ℤ) = A164276 (n + 1)
+
+end A164276
+
+/-! ## A164276.P6992676050147799875
+
+`∪[A167692(n+1), A197113(n+1)]`
+-/
+
+namespace A164276.P6992676050147799875
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167692 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197113 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A164276.P6992676050147799875
+
+namespace A164276
+
+/-- `∪[A167692(n+1), A197113(n+1)]` -/
+def P6992676050147799875.Spec : Prop :=
+  ∀ n, (P6992676050147799875.a n : ℤ) = A164276 (n + 1)
+
+end A164276
+
 /-!
 # A164278: a(n) = (6*n + 1)^(2*n) - 1.
 

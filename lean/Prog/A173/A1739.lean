@@ -28,7 +28,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -3993,20 +3992,20 @@ end
 
 end A173940.P8202774143833426007
 
-/-! ## A173940.P7690788947826928580
+/-! ## A173940.P6419679451060855064
 
-`2*A303431(a(n-1))` with `a(0)=1, a(1)=1`
+`A088185(A000458(n))`
 -/
 
-namespace A173940.P7690788947826928580
+namespace A173940.P6419679451060855064
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  2 * A303431 (a (n - 1)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088185 (A000458 n).toNat
 
 end
 
-end A173940.P7690788947826928580
+end A173940.P6419679451060855064
 
 /-!
 # A173942: Numbers n such that sigma(lambda(n)) = lambda(sigma(n)).
@@ -4844,6 +4843,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A173951.P3404107110545609460
+
+/-! ## A173951.P1595875469235027447
+
+`A014682(A091077(n+1))`
+-/
+
+namespace A173951.P1595875469235027447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014682 (A091077 (n + 1)).toNat
+
+end
+
+end A173951.P1595875469235027447
 
 /-!
 # A173952: a(1)=32 and, for n > 1, a(n) = 9*a(n-1) + 32.

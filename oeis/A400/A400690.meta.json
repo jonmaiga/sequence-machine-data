@@ -1,0 +1,21 @@
+{
+  "description": "Span of the n-th maximal cluster of primes with consecutive gaps at most 8.",
+  "id": "A400690",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A124584",
+    "A259826",
+    "A399819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

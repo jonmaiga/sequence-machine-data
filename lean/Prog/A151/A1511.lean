@@ -3813,27 +3813,6 @@ end A151191.P16971749344949338489
 The programs for A151192, there is no canonical definition to state claims against.
 -/
 
-/-! ## A151192.P2465115032918058277
-
-`∑[∑[A351006(2*n²)]]`
--/
-
-namespace A151192.P2465115032918058277
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (2 * n ^ 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A151192.P2465115032918058277
-
 /-! ## A151192.P531657256301430034
 
 `A163985(n)+A004525(A099025(n))`
@@ -3905,27 +3884,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151194.P10536738682850622084
-
-/-! ## A151194.P1291632267833072336
-
-`A018789(n)+∑[∑[A351006(2*n²)]]`
--/
-
-namespace A151194.P1291632267833072336
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (2 * n ^ 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018789 n + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A151194.P1291632267833072336
 
 /-!
 # A151195: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (0, 1, -1), (0, 1, 1), (1, 0, 1), (1, 1, 0)}.

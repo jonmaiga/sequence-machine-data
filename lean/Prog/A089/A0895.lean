@@ -5026,6 +5026,21 @@ end
 
 end A089546.P930528096775129514
 
+/-! ## A089546.P77932817965558497
+
+`A089557(n+1)+A089557(n+1)`
+-/
+
+namespace A089546.P77932817965558497
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089557 (n + 1) + A089557 (n + 1)
+
+end
+
+end A089546.P77932817965558497
+
 /-! ## A089546.P7882560302862154556
 
 `A088515(1+n)*A088516(n+1)`
@@ -5040,6 +5055,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089546.P7882560302862154556
+
+/-! ## A089546.P11588064368228069663
+
+`lcm(A088515(n+1), A088516(n+1))`
+-/
+
+namespace A089546.P11588064368228069663
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A088515 (n + 1)) (A088516 (n + 1))
+
+end
+
+end A089546.P11588064368228069663
 
 /-! ## A089546.P12793740059322914792
 
@@ -5056,36 +5086,6 @@ end
 
 end A089546.P12793740059322914792
 
-/-! ## A089546.P12397362134963137910
-
-`lcm(2*A089554(1+n)-1, A088516(n+1))`
--/
-
-namespace A089546.P12397362134963137910
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (2 * A089554 (1 + n) - 1) (A088516 (n + 1))
-
-end
-
-end A089546.P12397362134963137910
-
-/-! ## A089546.P2519242130806297118
-
-`A089557(A000027(n+1))+A089557(n+1)`
--/
-
-namespace A089546.P2519242130806297118
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089557 (A000027 (n + 1)).toNat + A089557 (n + 1)
-
-end
-
-end A089546.P2519242130806297118
-
 /-! ## A089546.P8520450102264099228
 
 `A089549(n+1)/A089545(n+1)-A089545(n+1)`
@@ -5100,51 +5100,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A089546.P8520450102264099228
-
-/-! ## A089546.P6880443071763805640
-
-`A089545(n+1)-A089558(n+1)/A089557(n+1)`
--/
-
-namespace A089546.P6880443071763805640
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A089545 (n + 1) : ℚ) - (A089558 (n + 1) : ℚ) / (A089557 (n + 1) : ℚ)
-
-end
-
-end A089546.P6880443071763805640
-
-/-! ## A089546.P16055183793528452503
-
-`A089557(n+1)+A089557((n+1)%A278039(n+1))`
--/
-
-namespace A089546.P16055183793528452503
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089557 (n + 1) + A089557 (Int.tmod (n + 1 : ℤ) (A278039 (n + 1))).toNat
-
-end
-
-end A089546.P16055183793528452503
-
-/-! ## A089546.P11178915329166087862
-
-`A089557(n+1)+gcd(A089551(n+1), A089557(n+1))`
--/
-
-namespace A089546.P11178915329166087862
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089557 (n + 1) + (Int.gcd (A089551 (n + 1)) (A089557 (n + 1)) : ℤ)
-
-end
-
-end A089546.P11178915329166087862
 
 /-! ## A089546.P6200156069941090000
 
@@ -5584,6 +5539,21 @@ end
 
 end A089549.P16450690424454041638
 
+/-! ## A089549.P1009944281227780646
+
+`A088546(n+1)*A088546(n+1)-A089551(n+1)`
+-/
+
+namespace A089549.P1009944281227780646
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088546 (n + 1) * A088546 (n + 1) - A089551 (n + 1)
+
+end
+
+end A089549.P1009944281227780646
+
 /-!
 # A089550: One sixth area of primitive Pythagorean triangles having legs that add up to a square, sorted on hypotenuse.
 
@@ -5715,6 +5685,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089551.P5456839391656005673
+
+/-! ## A089551.P9200161030444704806
+
+`A089552(n+1)%A089549(n+1)`
+-/
+
+namespace A089551.P9200161030444704806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A089552 (n + 1)) (A089549 (n + 1))
+
+end
+
+end A089551.P9200161030444704806
 
 /-! ## A089551.P18108083807285416359
 

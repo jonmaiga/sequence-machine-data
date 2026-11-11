@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetric foldings of a strip of n blank stamps.",
+  "description": "Number of symmetric foldings of a strip of n labeled stamps.",
   "id": "A001010",
   "mentions": [
     "A000136",

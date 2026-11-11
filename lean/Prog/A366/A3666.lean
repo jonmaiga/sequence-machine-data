@@ -30,7 +30,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
@@ -67,6 +67,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -246,6 +247,21 @@ end
 
 end A366601.P16687274857351154380
 
+/-! ## A366601.P5254271430939459516
+
+`A401735(A303989(n))`
+-/
+
+namespace A366601.P5254271430939459516
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401735 (A303989 n).toNat
+
+end
+
+end A366601.P5254271430939459516
+
 /-! ## A366601.P14149258535876276903
 
 `gcd(A000120(A184983(n)), A326834(n))`
@@ -290,21 +306,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366601.P14916520670883579394
-
-/-! ## A366601.P11355548442012703051
-
-`A334153(A320009(n)+A002113(n+1)+1)`
--/
-
-namespace A366601.P11355548442012703051
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334153 (A320009 n + A002113 (n + 1) + 1).toNat
-
-end
-
-end A366601.P11355548442012703051
 
 /-!
 # A366602: Number of divisors of 4^n-1.
@@ -408,6 +409,29 @@ namespace A366602
 /-- `∑{d}[A023443(2*n+3), A059499(#)]` -/
 def P3703112727760274048.Spec : Prop :=
   ∀ n, P3703112727760274048.a n = A366602 (n + 1)
+
+end A366602
+
+/-! ## A366602.P1591398496642218405
+
+`A401468(2*(n+1))-A401468(2*n+1)`
+-/
+
+namespace A366602.P1591398496642218405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401468 (2 * (n + 1)) - A401468 (2 * n + 1)
+
+end
+
+end A366602.P1591398496642218405
+
+namespace A366602
+
+/-- `A401468(2*(n+1))-A401468(2*n+1)` -/
+def P1591398496642218405.Spec : Prop :=
+  ∀ n, P1591398496642218405.a n = A366602 (n + 1)
 
 end A366602
 
@@ -4528,6 +4552,21 @@ end
 
 end A366649.P11044218541522018025
 
+/-! ## A366649.P165945710621554357
+
+`A034699((n+1)/A381131(n+1))`
+-/
+
+namespace A366649.P165945710621554357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034699 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A381131 (n + 1) : ℚ))).toNat
+
+end
+
+end A366649.P165945710621554357
+
 /-! ## A366649.P8021335393838052383
 
 `gcd(A139082(n+1), A205959(n+1))`
@@ -6532,6 +6571,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366664.P16059715923958650181
+
+/-! ## A366664.P3870029839128246497
+
+`A086833(A366665(n))`
+-/
+
+namespace A366664.P3870029839128246497
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086833 (A366665 n).toNat
+
+end
+
+end A366664.P3870029839128246497
 
 /-!
 # A366665: Number of divisors of 9^n+1.

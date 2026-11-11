@@ -1253,6 +1253,21 @@ end
 
 end A257015.P8867847114360906874
 
+/-! ## A257015.P10576395585753181491
+
+`A185771(n+2)*A185771(n+2)`
+-/
+
+namespace A257015.P10576395585753181491
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185771 (n + 2) * A185771 (n + 2)
+
+end
+
+end A257015.P10576395585753181491
+
 /-! ## A257015.P5221476265128515168
 
 `A253294(∑[n+1]+1)²`
@@ -1306,24 +1321,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257015.P2199269771948984621
-
-/-! ## A257015.P11864688179893620786
-
-`A185777(∑[n+1]+1)²`
--/
-
-namespace A257015.P11864688179893620786
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185777 (∑ j ∈ Finset.range (n + 1), f1 j + 1) ^ 2
-
-end
-
-end A257015.P11864688179893620786
 
 /-!
 # A257016: Number of (n+2)X(3+2) 0..2 arrays with no 3x3 subblock diagonal sum equal to the antidiagonal sum.
@@ -4874,6 +4871,29 @@ def P17885335925145916801.Spec : Prop :=
 
 end A257055
 
+/-! ## A257055.P8294050592404924652
+
+`C(n+1, 2)+C(n+1, 3)*n`
+-/
+
+namespace A257055.P8294050592404924652
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 1) 2 + Nat.choose (n + 1) 3 * n
+
+end
+
+end A257055.P8294050592404924652
+
+namespace A257055
+
+/-- `C(n+1, 2)+C(n+1, 3)*n` -/
+def P8294050592404924652.Spec : Prop :=
+  ∀ n, (P8294050592404924652.a n : ℤ) = A257055 n
+
+end A257055
+
 /-! ## A257055.P7363571112156526163
 
 `∑[A037235(n)]`
@@ -5102,35 +5122,6 @@ namespace A257055
 /-- `A103290(n+1)-∑[n²]` -/
 def P5389234085848596648.Spec : Prop :=
   ∀ n, P5389234085848596648.a n = A257055 n
-
-end A257055
-
-/-! ## A257055.P17129883345319392464
-
-`∑[∑[A046092(n)]-3*n²]`
--/
-
-namespace A257055.P17129883345319392464
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046092 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j - (3 * n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A257055.P17129883345319392464
-
-namespace A257055
-
-/-- `∑[∑[A046092(n)]-3*n²]` -/
-def P17129883345319392464.Spec : Prop :=
-  ∀ n, P17129883345319392464.a n = A257055 n
 
 end A257055
 

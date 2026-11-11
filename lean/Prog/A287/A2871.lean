@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -42,6 +41,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -10031,6 +10031,24 @@ end
 
 end A287184.P2233968648112839730
 
+/-! ## A287184.P16177181495668901300
+
+`filter[A140595(n), A288106(#)]`
+-/
+
+namespace A287184.P16177181495668901300
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140595 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A288106 (f1 j).toNat = 1) n)
+
+end
+
+end A287184.P16177181495668901300
+
 /-! ## A287184.P11785640465768618075
 
 `filter[A263449(n), A288106(#)]`
@@ -10210,24 +10228,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287184.P3589744922240446493
-
-/-! ## A287184.P4256387829987087898
-
-`filter[A064429(n+1), A288106(#)]`
--/
-
-namespace A287184.P4256387829987087898
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064429 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A288106 (f1 j).toNat = 1) n)
-
-end
-
-end A287184.P4256387829987087898
 
 /-!
 # A287185: a(n) = 3*a(n-2) + a(n-3) + a(n-5) - 3*a(n-6) - a(n-7), where a(0) = 2, a(1) = 4, a(2) = 7, a(3) = 14, a(4) = 25, a(5) = 47, a(6) = 88, a(7) = 166.
@@ -10444,6 +10444,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287186.P17467560970446789030
+
+/-! ## A287186.P4591978806167770712
+
+`filter[A140595(n), A287457(#)]`
+-/
+
+namespace A287186.P4591978806167770712
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140595 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A287457 (f1 j).toNat = 1) n)
+
+end
+
+end A287186.P4591978806167770712
 
 /-! ## A287186.P14333882187041484504
 
@@ -10678,24 +10696,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287186.P18262973090129256785
-
-/-! ## A287186.P7379161076893048926
-
-`filter[A065190(n+1), A287457(#)]`
--/
-
-namespace A287186.P7379161076893048926
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065190 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A287457 (f1 j).toNat = 1) n)
-
-end
-
-end A287186.P7379161076893048926
 
 /-!
 # A287187: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 251", based on the 5-celled von Neumann neighborhood.

@@ -4513,7 +4513,7 @@ end
 end A225035.P14005864151607245473
 
 /-!
-# A225038: Numbers n such that at least one member of Collatz (3x+1) trajectory of n is >= n^2.
+# A225038: Numbers k such that at least one member of Collatz (3x+1) trajectory of k is >= k^2.
 
 The programs for A225038, there is no canonical definition to state claims against.
 -/
@@ -8119,6 +8119,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225071.P11728838542539718556
+
+/-! ## A225071.P14196735788653978114
+
+`A218858(2*n+1)+A101455(2*n)`
+-/
+
+namespace A225071.P14196735788653978114
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218858 (2 * n + 1) + A101455 (2 * n)
+
+end
+
+end A225071.P14196735788653978114
 
 /-! ## A225071.P10278347731132857393
 

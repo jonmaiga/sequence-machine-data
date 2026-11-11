@@ -28,7 +28,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -36,6 +35,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -1409,6 +1409,29 @@ namespace A248516
 /-- `A070821(A005893(n+1))` -/
 def P16273733407416251181.Spec : Prop :=
   ∀ n, P16273733407416251181.a n = A248516 (n + 1)
+
+end A248516
+
+/-! ## A248516.P2001612536309165494
+
+`A070821(A271624(n+2))`
+-/
+
+namespace A248516.P2001612536309165494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070821 (A271624 (n + 2)).toNat
+
+end
+
+end A248516.P2001612536309165494
+
+namespace A248516
+
+/-- `A070821(A271624(n+2))` -/
+def P2001612536309165494.Spec : Prop :=
+  ∀ n, P2001612536309165494.a n = A248516 (n + 1)
 
 end A248516
 
@@ -8498,6 +8521,21 @@ end
 
 end A248576.P13363521243517288615
 
+/-! ## A248576.P3795162094941606763
+
+`A000188(A283452(n+1))`
+-/
+
+namespace A248576.P3795162094941606763
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A283452 (n + 1)).toNat
+
+end
+
+end A248576.P3795162094941606763
+
 /-!
 # A248577: Product of the number of divisors of n and the number of distinct prime divisors of n; i.e., tau(n) * omega(n).
 
@@ -10234,35 +10272,20 @@ end
 
 end A248597.P13168150517608340064
 
-/-! ## A248597.P11003559339421062196
+/-! ## A248597.P15038482618158572498
 
-`A248595(A000027(n+1))%A000040(n+1)`
+`A248595(n+1)%A000040(n+1)`
 -/
 
-namespace A248597.P11003559339421062196
+namespace A248597.P15038482618158572498
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A248595 (A000027 (n + 1)).toNat) (A000040 (n + 1))
+  Int.tmod (A248595 (n + 1)) (A000040 (n + 1))
 
 end
 
-end A248597.P11003559339421062196
-
-/-! ## A248597.P10763013497317892649
-
-`A007913(A248595(n+1))%A000040(n+1)`
--/
-
-namespace A248597.P10763013497317892649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007913 (A248595 (n + 1)).toNat) (A000040 (n + 1))
-
-end
-
-end A248597.P10763013497317892649
+end A248597.P15038482618158572498
 
 /-! ## A248597.P4280853954021173446
 

@@ -22,7 +22,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -39,6 +38,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6749,26 +6749,26 @@ def P16796362570417275742.Spec : Prop :=
 
 end A156159
 
-/-! ## A156159.P14659663335268538113
+/-! ## A156159.P10065996133419920229
 
-`A000290(A155923(n+1))`
+`A328618(A155923(n+1))`
 -/
 
-namespace A156159.P14659663335268538113
+namespace A156159.P10065996133419920229
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A155923 (n + 1)).toNat
+  A328618 (A155923 (n + 1)).toNat
 
 end
 
-end A156159.P14659663335268538113
+end A156159.P10065996133419920229
 
 namespace A156159
 
-/-- `A000290(A155923(n+1))` -/
-def P14659663335268538113.Spec : Prop :=
-  ∀ n, P14659663335268538113.a n = A156159 (n + 1)
+/-- `A328618(A155923(n+1))` -/
+def P10065996133419920229.Spec : Prop :=
+  ∀ n, P10065996133419920229.a n = A156159 (n + 1)
 
 end A156159
 
@@ -7216,6 +7216,21 @@ end
 
 end A156162.P11830057155856585329
 
+/-! ## A156162.P12742573118602563403
+
+`A156158(n+1)*A156158(n+1)`
+-/
+
+namespace A156162.P12742573118602563403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156158 (n + 1) * A156158 (n + 1)
+
+end
+
+end A156162.P12742573118602563403
+
 /-! ## A156162.P2128078712916696113
 
 `Δ[A276602(n+1)+A253811(n)]²`
@@ -7233,21 +7248,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A156162.P2128078712916696113
-
-/-! ## A156162.P9774234233368750988
-
-`A117472(2*n+1)*A117472(2*n+1)`
--/
-
-namespace A156162.P9774234233368750988
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117472 (2 * n + 1) * A117472 (2 * n + 1)
-
-end
-
-end A156162.P9774234233368750988
 
 /-!
 # A156166: Numbers k > 0 such that (10^(k+2) + 666)*10^k + 1 is prime.

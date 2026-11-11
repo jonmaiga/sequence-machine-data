@@ -34,7 +34,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -2298,6 +2297,21 @@ end
 
 end A229228.P3378879593579756188
 
+/-! ## A229228.P16926939778039964136
+
+`A368503(2*n)`
+-/
+
+namespace A229228.P16926939778039964136
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368503 (2 * n)
+
+end
+
+end A229228.P16926939778039964136
+
 /-! ## A229228.P3543486963138202871
 
 `A386633(2*n)`
@@ -2346,21 +2360,6 @@ end
 
 end A229228.P10309883418071315477
 
-/-! ## A229228.P11563910241792007151
-
-`A108947(A062725(n))`
--/
-
-namespace A229228.P11563910241792007151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108947 (A062725 n).toNat
-
-end
-
-end A229228.P11563910241792007151
-
 /-!
 # A229229: Number of set partitions of {1,...,n^2} into sets of size at most n.
 
@@ -2381,6 +2380,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A229229.P9412709867954423774
+
+/-! ## A229229.P6926964163518660385
+
+`A368502(n²)`
+-/
+
+namespace A229229.P6926964163518660385
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368502 (n ^ 2)
+
+end
+
+end A229229.P6926964163518660385
 
 /-! ## A229229.P7706399757016692728
 

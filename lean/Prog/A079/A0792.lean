@@ -34,7 +34,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -284,6 +283,36 @@ end A079201.P2599797127826943860
 The programs for A079202, there is no canonical definition to state claims against.
 -/
 
+/-! ## A079202.P99900554893710900
+
+`A376990(A259596(n))`
+-/
+
+namespace A079202.P99900554893710900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376990 (A259596 n).toNat
+
+end
+
+end A079202.P99900554893710900
+
+/-! ## A079202.P8567801474430245725
+
+`A376990(A059994(n+2))`
+-/
+
+namespace A079202.P8567801474430245725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376990 (A059994 (n + 2)).toNat
+
+end
+
+end A079202.P8567801474430245725
+
 /-! ## A079202.P9180235703666870944
 
 `∑{d}[A273923(n+1), A074469(#)]`
@@ -301,39 +330,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A079202.P9180235703666870944
-
-/-! ## A079202.P5383712811131218713
-
-`and(∑[A133170(3*n+1)], A133177(2*n+1))`
--/
-
-namespace A079202.P5383712811131218713
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133170 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (∑ j ∈ Finset.range (n + 1), f1 j) (A133177 (2 * n + 1))
-
-end
-
-end A079202.P5383712811131218713
-
-/-! ## A079202.P15903578143432417559
-
-`A025462(A210916(n)+A002878(n))`
--/
-
-namespace A079202.P15903578143432417559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025462 (A210916 n + A002878 n).toNat
-
-end
-
-end A079202.P15903578143432417559
 
 /-!
 # A079204: Number of isomorphism classes of non-associative non-commutative anti-associative non-anti-commutative closed binary operations on a set of order n, listed by class size.
@@ -7557,6 +7553,32 @@ def P10062790455522089485.Spec : Prop :=
 
 end A079272
 
+/-! ## A079272.P5390775336044013561
+
+`∑{#}[n, 3^#+3^(n+1)]`
+-/
+
+namespace A079272.P5390775336044013561
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (3 ^ k + 3 ^ (n + 1))
+
+end
+
+end A079272.P5390775336044013561
+
+namespace A079272
+
+/-- `∑{#}[n, 3^#+3^(n+1)]` -/
+def P5390775336044013561.Spec : Prop :=
+  ∀ n, (P5390775336044013561.a n : ℤ) = A079272 (n + 1)
+
+end A079272
+
 /-! ## A079272.P2388268962071766481
 
 `∑[(n+2)*2*or(1, 3^n)]`
@@ -7912,32 +7934,6 @@ namespace A079272
 /-- `∑[(n+2)*A025192(n+1)]` -/
 def P14544865891355225713.Spec : Prop :=
   ∀ n, P14544865891355225713.a n = A079272 (n + 1)
-
-end A079272
-
-/-! ## A079272.P14603279837606986291
-
-`2*∑[(n+2)*A000244(n)]`
--/
-
-namespace A079272.P14603279837606986291
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℤ) * A000244 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A079272.P14603279837606986291
-
-namespace A079272
-
-/-- `2*∑[(n+2)*A000244(n)]` -/
-def P14603279837606986291.Spec : Prop :=
-  ∀ n, P14603279837606986291.a n = A079272 (n + 1)
 
 end A079272
 

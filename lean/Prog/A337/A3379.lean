@@ -40,7 +40,6 @@ import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C048
@@ -65,6 +64,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -84,7 +84,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9774,6 +9773,28 @@ end
 
 end A337984.P3412901132788351036
 
+/-! ## A337984.P12454852278095806116
+
+`∩[2*n+1, A302797(n+2)]`
+-/
+
+namespace A337984.P12454852278095806116
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302797 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337984.P12454852278095806116
+
 /-! ## A337984.P10079937124677732650
 
 `∩[A302696(n+1), n+3+n]`
@@ -9850,6 +9871,42 @@ end
 
 end A337984.P7580395475239613334
 
+/-! ## A337984.P5939436428018023801
+
+`filter[A302797(n+1), A266070(#)]`
+-/
+
+namespace A337984.P5939436428018023801
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302797 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266070 (f1 j).toNat = 1) n)
+
+end
+
+end A337984.P5939436428018023801
+
+/-! ## A337984.P46360185962763155
+
+`filter[A302797(n+1), A323158(#)]`
+-/
+
+namespace A337984.P46360185962763155
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302797 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323158 (f1 j).toNat = 1) n)
+
+end
+
+end A337984.P46360185962763155
+
 /-! ## A337984.P8306329141321629172
 
 `filter[A302696(n+1), A324908(#)]`
@@ -9867,60 +9924,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A337984.P8306329141321629172
-
-/-! ## A337984.P13751457303248019839
-
-`filter[A302696(n+1), A353638(#)]`
--/
-
-namespace A337984.P13751457303248019839
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302696 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353638 (f1 j).toNat = 1) n)
-
-end
-
-end A337984.P13751457303248019839
-
-/-! ## A337984.P8935870573223549041
-
-`filter[A302696(n+2), A000035(#)]`
--/
-
-namespace A337984.P8935870573223549041
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302696 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
-
-end
-
-end A337984.P8935870573223549041
-
-/-! ## A337984.P8107024733680569158
-
-`filter[A302696(n+2), A323239(#)]`
--/
-
-namespace A337984.P8107024733680569158
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302696 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A323239 (f1 j).toNat = 1) n)
-
-end
-
-end A337984.P8107024733680569158
 
 /-!
 # A337985: a(n) is the exponent of the highest power of 2 dividing the n-th Bell number.

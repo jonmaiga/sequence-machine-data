@@ -33,7 +33,7 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1215,26 +1215,72 @@ def P13164543305220273036.Spec : Prop :=
 
 end A046206
 
-/-! ## A046206.P7655010475779402149
+/-! ## A046206.P5531296963858992430
 
-`A137752(gcd(n+2, A131575(n)))`
+`A137753(A141310(n))`
 -/
 
-namespace A046206.P7655010475779402149
+namespace A046206.P5531296963858992430
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137752 (Int.gcd (n + 2 : ℤ) (A131575 n))
+  A137753 (A141310 n).toNat
 
 end
 
-end A046206.P7655010475779402149
+end A046206.P5531296963858992430
 
 namespace A046206
 
-/-- `A137752(gcd(n+2, A131575(n)))` -/
-def P7655010475779402149.Spec : Prop :=
-  ∀ n, P7655010475779402149.a n = A046206 (n + 1)
+/-- `A137753(A141310(n))` -/
+def P5531296963858992430.Spec : Prop :=
+  ∀ n, P5531296963858992430.a n = A046206 (n + 1)
+
+end A046206
+
+/-! ## A046206.P2771387465944183770
+
+`A137753(A057815(n+1))`
+-/
+
+namespace A046206.P2771387465944183770
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137753 (A057815 (n + 1)).toNat
+
+end
+
+end A046206.P2771387465944183770
+
+namespace A046206
+
+/-- `A137753(A057815(n+1))` -/
+def P2771387465944183770.Spec : Prop :=
+  ∀ n, P2771387465944183770.a n = A046206 (n + 1)
+
+end A046206
+
+/-! ## A046206.P18250103242649992804
+
+`A137753(A086112(n+1))`
+-/
+
+namespace A046206.P18250103242649992804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137753 (A086112 (n + 1)).toNat
+
+end
+
+end A046206.P18250103242649992804
+
+namespace A046206
+
+/-- `A137753(A086112(n+1))` -/
+def P18250103242649992804.Spec : Prop :=
+  ∀ n, P18250103242649992804.a n = A046206 (n + 1)
 
 end A046206
 
@@ -10059,26 +10105,23 @@ end
 
 end A046286.P11284333475390779425
 
-/-! ## A046286.P7961200519489714582
+/-! ## A046286.P3829885371808932968
 
-`filter[∑[A000040(n+1)], A145649(#)]`
+`filter[A007504(n+1), A145649(#)]`
 -/
 
-namespace A046286.P7961200519489714582
+namespace A046286.P3829885371808932968
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1)
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+  A007504 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A145649 (f1 j).toNat = 1) n)
 
 end
 
-end A046286.P7961200519489714582
+end A046286.P3829885371808932968
 
 /-!
 # A046288: Numbers k such that 2^k contains 2^2=4 as its largest proper substring of the form 2^m (probably finite).

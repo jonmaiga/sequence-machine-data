@@ -12,11 +12,12 @@
     "A068761"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

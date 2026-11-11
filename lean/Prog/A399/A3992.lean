@@ -25,6 +25,7 @@ import Seq.B000.C031
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C045
+import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
@@ -37,10 +38,10 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
@@ -2278,7 +2279,7 @@ end A399250
 /-!
 # A399251: a(n) = x^2 - y^2, where (x, y) are the coordinates of the n-th point of the square counterclockwise spiral with n=1 at the origin.
 
-The programs for A399251, the canonical program `A399251.P6576249541322394034` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399251 has offset 1).
+The programs for A399251, the canonical program `A399251.P6576249541322394034` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399251 has offset 1).
 
 The definition of A399251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2287,7 +2288,7 @@ The definition of A399251 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A174344(n+1)²-A274923(n+1)²`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399251
@@ -2671,7 +2672,7 @@ end A399255.P6467392934105674746
 /-!
 # A399256: Rectangular array read by descending antidiagonals: r(n, k) = floor(k*x^n), where x = e.
 
-The programs for A399256, the canonical program `A399256.P860508281549201040` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399256 has offset 1).
+The programs for A399256, the canonical program `A399256.P860508281549201040` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399256 has offset 1).
 
 The definition of A399256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2680,7 +2681,7 @@ The definition of A399256 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((A025581(n)+1)*exp(A002262(n)+1))-1`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399256
@@ -3812,6 +3813,27 @@ def P2947433413477259011.Spec : Prop :=
 end A399276
 
 /-!
+# A399277: Number of distinct multisets of (p(j+1) - p(j)) mod n for permutations p in S_n.
+
+The programs for A399277, there is no canonical definition to state claims against.
+-/
+
+/-! ## A399277.P3253524060070017418
+
+`A371587(A200030(n+1))`
+-/
+
+namespace A399277.P3253524060070017418
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371587 (A200030 (n + 1)).toNat
+
+end
+
+end A399277.P3253524060070017418
+
+/-!
 # A399287: Primes p such that if p < q < r are consecutive primes, p + 2*q*r, q + 2*p*r, and r + 2*p*q are all primes.
 
 The programs for A399287, there is no canonical definition to state claims against.
@@ -4094,6 +4116,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399291.P16370751403269794185
+
+/-!
+# A399292: Maximum span of an admissible tuple with consecutive gaps at most 2n.
+
+The programs for A399292, there is no canonical definition to state claims against.
+-/
+
+/-! ## A399292.P8875794844568468535
+
+`A095057(A005323(n+3))`
+-/
+
+namespace A399292.P8875794844568468535
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095057 (A005323 (n + 3)).toNat
+
+end
+
+end A399292.P8875794844568468535
 
 /-!
 # A399299: Numbers that cannot be obtained by removing the first and last digits of a square.

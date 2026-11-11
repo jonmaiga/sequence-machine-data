@@ -34,12 +34,14 @@ import Seq.B000.C039
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -2454,6 +2456,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A211767.P4383048637292957067
+
+/-! ## A211767.P18335001457656291389
+
+`∩[A001838(n+1), A211678(n+1)]`
+-/
+
+namespace A211767.P18335001457656291389
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001838 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211678 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A211767.P18335001457656291389
+
+/-! ## A211767.P117247977685835085
+
+`∩[A001359(n+1), A211660(n+1)]`
+-/
+
+namespace A211767.P117247977685835085
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001359 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211660 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A211767.P117247977685835085
 
 /-!
 # A211768: G.f. satisfies: A(x) = 1 + x*A(x/A(-x)).
@@ -5485,28 +5531,6 @@ end
 
 end A211781.P9946250623951661906
 
-/-! ## A211781.P6956713309428559898
-
-`∩[A348283(n+1), A382351(n+1)]`
--/
-
-namespace A211781.P6956713309428559898
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348283 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382351 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A211781.P6956713309428559898
-
 /-! ## A211781.P15835113557931550936
 
 `A383300(n+2)+A000007(A383306(n+1))`
@@ -5521,6 +5545,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211781.P15835113557931550936
+
+/-! ## A211781.P5871781358891595181
+
+`A061340(A348283(n+2))`
+-/
+
+namespace A211781.P5871781358891595181
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061340 (A348283 (n + 2)).toNat
+
+end
+
+end A211781.P5871781358891595181
 
 /-!
 # A211782: Rectangular array: R(n,k)=[n/F(2)]+[n/F(3)]+...+[n/F(k+1)], where [ ]=floor and F=A000045 (Fibonacci numbers), by antidiagonals.

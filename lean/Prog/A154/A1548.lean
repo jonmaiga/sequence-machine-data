@@ -2474,7 +2474,7 @@ end
 end A154828.P419152781632250268
 
 /-!
-# A154831: Numbers n such that n^4-2 is prime.
+# A154831: Numbers k such that k^4-2 is prime.
 
 The programs for A154831, there is no canonical definition to state claims against.
 -/
@@ -5866,55 +5866,49 @@ def P3251750131477283622.Spec : Prop :=
 
 end A154890
 
-/-! ## A154890.P1507632639461788451
+/-! ## A154890.P1751643276348994367
 
-`Δ[A078008(n)]+4`
+`A155944(n)+A010702(n)`
 -/
 
-namespace A154890.P1507632639461788451
+namespace A154890.P1751643276348994367
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078008 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n + 4
+  A155944 n + A010702 n
 
 end
 
-end A154890.P1507632639461788451
+end A154890.P1751643276348994367
 
 namespace A154890
 
-/-- `Δ[A078008(n)]+4` -/
-def P1507632639461788451.Spec : Prop :=
-  ∀ n, P1507632639461788451.a n = A154890 n
+/-- `A155944(n)+A010702(n)` -/
+def P1751643276348994367.Spec : Prop :=
+  ∀ n, P1751643276348994367.a n = A154890 n
 
 end A154890
 
-/-! ## A154890.P3924626487653149536
+/-! ## A154890.P16244480837098192448
 
-`Δ[A153772(n)]+4`
+`A167030(n)+A010711(n)`
 -/
 
-namespace A154890.P3924626487653149536
+namespace A154890.P16244480837098192448
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153772 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n + 4
+  A167030 n + A010711 n
 
 end
 
-end A154890.P3924626487653149536
+end A154890.P16244480837098192448
 
 namespace A154890
 
-/-- `Δ[A153772(n)]+4` -/
-def P3924626487653149536.Spec : Prop :=
-  ∀ n, P3924626487653149536.a n = A154890 n
+/-- `A167030(n)+A010711(n)` -/
+def P16244480837098192448.Spec : Prop :=
+  ∀ n, P16244480837098192448.a n = A154890 n
 
 end A154890
 

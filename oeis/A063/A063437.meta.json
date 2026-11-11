@@ -1,8 +1,12 @@
 {
   "description": "Cardinality of largest critical set in any Latin square of order n.",
   "id": "A063437",
-  "mentions": [],
+  "mentions": [
+    "A080572",
+    "A084535"
+  ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

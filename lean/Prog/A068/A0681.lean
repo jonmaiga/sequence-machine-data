@@ -46,7 +46,6 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C003
@@ -75,7 +74,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -271,6 +269,32 @@ namespace A068102
 /-- `2*(n+1)*a(n-1)+n!` -/
 def P10396314155901126170.Spec : Prop :=
   ∀ n, (P10396314155901126170.a n : ℤ) = A068102 (n + 1)
+
+end A068102
+
+/-! ## A068102.P7429995737145286140
+
+`∑{#}[n, 2^#*(n+1)!/(n+1-#)]`
+-/
+
+namespace A068102.P7429995737145286140
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (2 ^ k : ℚ) * ((Nat.factorial (n + 1) : ℚ) / ((n + 1 : ℤ) - (k : ℤ) : ℚ))
+
+end
+
+end A068102.P7429995737145286140
+
+namespace A068102
+
+/-- `∑{#}[n, 2^#*(n+1)!/(n+1-#)]` -/
+def P7429995737145286140.Spec : Prop :=
+  ∀ n, P7429995737145286140.a n = (A068102 (n + 1) : ℚ)
 
 end A068102
 
@@ -936,6 +960,52 @@ namespace A068111
 /-- `A055773(2*n-char[1])` -/
 def P13377978274533925753.Spec : Prop :=
   ∀ n, P13377978274533925753.a n = A068111 n
+
+end A068111
+
+/-! ## A068111.P15292923549239020579
+
+`A261130(n)+A159075(n)`
+-/
+
+namespace A068111.P15292923549239020579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261130 n + A159075 n
+
+end
+
+end A068111.P15292923549239020579
+
+namespace A068111
+
+/-- `A261130(n)+A159075(n)` -/
+def P15292923549239020579.Spec : Prop :=
+  ∀ n, P15292923549239020579.a n = A068111 n
+
+end A068111
+
+/-! ## A068111.P10946372236497772135
+
+`A261130(n)-A063524(n)`
+-/
+
+namespace A068111.P10946372236497772135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261130 n - A063524 n
+
+end
+
+end A068111.P10946372236497772135
+
+namespace A068111
+
+/-- `A261130(n)-A063524(n)` -/
+def P10946372236497772135.Spec : Prop :=
+  ∀ n, P10946372236497772135.a n = A068111 n
 
 end A068111
 
@@ -4560,65 +4630,20 @@ end
 
 end A068165.P10933220949685308303
 
-/-! ## A068165.P17398383116766952706
+/-! ## A068165.P1688158899303811224
 
-`A000290(A091873(n+1)%A017509(n))`
+`A000290(A091873(n+1))`
 -/
 
-namespace A068165.P17398383116766952706
+namespace A068165.P1688158899303811224
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (Int.tmod (A091873 (n + 1)) (A017509 n)).toNat
+  A000290 (A091873 (n + 1)).toNat
 
 end
 
-end A068165.P17398383116766952706
-
-/-! ## A068165.P9810552712226298817
-
-`A000290(A019433(2*(n+1))*A091873(n+1))`
--/
-
-namespace A068165.P9810552712226298817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A019433 (2 * (n + 1)) * A091873 (n + 1)).toNat
-
-end
-
-end A068165.P9810552712226298817
-
-/-! ## A068165.P10903208694489857557
-
-`A000290(A040001(2*n+3)*A091873(n+1))`
--/
-
-namespace A068165.P10903208694489857557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A040001 (2 * n + 3) * A091873 (n + 1)).toNat
-
-end
-
-end A068165.P10903208694489857557
-
-/-! ## A068165.P364358182256823051
-
-`A000290(A091873(n+1)+A000007(n+3))`
--/
-
-namespace A068165.P364358182256823051
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A091873 (n + 1) + A000007 (n + 3)).toNat
-
-end
-
-end A068165.P364358182256823051
+end A068165.P1688158899303811224
 
 /-! ## A068165.P13351798727553454524
 
@@ -4634,6 +4659,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A068165.P13351798727553454524
+
+/-! ## A068165.P7893798605905326078
+
+`A086935(A062399(n+1))`
+-/
+
+namespace A068165.P7893798605905326078
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086935 (A062399 (n + 1)).toNat
+
+end
+
+end A068165.P7893798605905326078
 
 /-!
 # A068166: Define an increasing sequence as follows. Given the first term, called the seed (which need not share the property of the remaining terms), subsequent terms are obtained by inserting at least one digit in the previous term so as to obtain the smallest number with the specified property. This is the prime sequence with the seed a(1) = 1.

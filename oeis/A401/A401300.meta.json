@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that some Eisenstein integer of norm k has exactly four divisors up to associates.",
+  "id": "A401300",
+  "mentions": [
+    "A003136",
+    "A007422",
+    "A007955",
+    "A397070"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

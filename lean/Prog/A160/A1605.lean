@@ -9530,6 +9530,36 @@ end
 
 end A160563.P16341324164539607098
 
+/-! ## A160563.P15266417162484223288
+
+`A091885(A004201(n+1))`
+-/
+
+namespace A160563.P15266417162484223288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091885 (A004201 (n + 1)).toNat
+
+end
+
+end A160563.P15266417162484223288
+
+/-! ## A160563.P2978593421294050510
+
+`A091885(A061885(n+1))`
+-/
+
+namespace A160563.P2978593421294050510
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091885 (A061885 (n + 1)).toNat
+
+end
+
+end A160563.P2978593421294050510
+
 /-!
 # A160564: Sum of products of factorials of parts times the factorial of the number of parts in all integer partitions of n.
 
@@ -10414,6 +10444,29 @@ theorem P2446336716620057973.correct : P2446336716620057973.Spec := by
 
 end A160588
 
+/-! ## A160588.P4350166799957829715
+
+`A004526(A053641(n+2))`
+-/
+
+namespace A160588.P4350166799957829715
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (A053641 (n + 2)).toNat
+
+end
+
+end A160588.P4350166799957829715
+
+namespace A160588
+
+/-- `A004526(A053641(n+2))` -/
+def P4350166799957829715.Spec : Prop :=
+  ∀ n, P4350166799957829715.a n = A160588 n
+
+end A160588
+
 /-! ## A160588.P1216375517569787701
 
 `A038572(A053641(n+2)-1)`
@@ -10802,29 +10855,6 @@ namespace A160588
 /-- `A053645(A059893(A080541(A059893(n+2))))` -/
 def P13051896659285389530.Spec : Prop :=
   ∀ n, P13051896659285389530.a n = A160588 n
-
-end A160588
-
-/-! ## A160588.P3033205261004410724
-
-`A142150(n+1-A142150(A142151(n+2)))`
--/
-
-namespace A160588.P3033205261004410724
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 ((n + 1 : ℤ) - A142150 (A142151 (n + 2)).toNat).toNat
-
-end
-
-end A160588.P3033205261004410724
-
-namespace A160588
-
-/-- `A142150(n+1-A142150(A142151(n+2)))` -/
-def P3033205261004410724.Spec : Prop :=
-  ∀ n, P3033205261004410724.a n = A160588 n
 
 end A160588
 

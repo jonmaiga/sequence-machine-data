@@ -23,6 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -3044,20 +3045,20 @@ end
 
 end A084426.P7357831237731953786
 
-/-! ## A084426.P6567301457770998591
+/-! ## A084426.P14948864760882243275
 
-`A005843(A082082(n+2)%(n+2))`
+`A082082(n+2)+A082082(n+2)`
 -/
 
-namespace A084426.P6567301457770998591
+namespace A084426.P14948864760882243275
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (Int.tmod (A082082 (n + 2)) (n + 2 : ℤ)).toNat
+  A082082 (n + 2) + A082082 (n + 2)
 
 end
 
-end A084426.P6567301457770998591
+end A084426.P14948864760882243275
 
 /-! ## A084426.P13461078266341104330
 

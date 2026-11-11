@@ -2,10 +2,12 @@
   "description": "Integer log of 2n: sum of primes dividing 2n (with repetition).",
   "id": "A100006",
   "mentions": [
-    "A001414"
+    "A001414",
+    "A100005"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

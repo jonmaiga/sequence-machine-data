@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (5*n)^7.",
   "id": "A016855",
-  "mentions": [],
+  "mentions": [
+    "A013665"
+  ],
   "tags": [
     "easy",
     "formulas",

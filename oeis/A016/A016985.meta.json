@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = (7n)^5.",
+  "description": "a(n) = (7*n)^5.",
   "id": "A016985",
   "mentions": [
     "A000584",
-    "A008589"
+    "A008589",
+    "A013663"
   ],
   "tags": [
     "easy",

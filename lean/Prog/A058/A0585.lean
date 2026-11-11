@@ -13,7 +13,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -1278,6 +1277,21 @@ end
 
 end A058517.P1506474724420198734
 
+/-! ## A058517.P502883131822628622
+
+`A350958(n+1)+A350958(n+1)`
+-/
+
+namespace A058517.P502883131822628622
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350958 (n + 1) + A350958 (n + 1)
+
+end
+
+end A058517.P502883131822628622
+
 /-! ## A058517.P13513441087861493495
 
 `A004277(A350958(1+n))`
@@ -1382,21 +1396,6 @@ end
 
 end A058517.P17254718833456294604
 
-/-! ## A058517.P1499744355187324773
-
-`A005843(A350958(n+1))%A000032(n+8)`
--/
-
-namespace A058517.P1499744355187324773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A005843 (A350958 (n + 1)).toNat) (A000032 (n + 8))
-
-end
-
-end A058517.P1499744355187324773
-
 /-! ## A058517.P15955658657686787776
 
 `∩[A125212(n+1), A350629(n+1)]`
@@ -1418,24 +1417,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A058517.P15955658657686787776
-
-/-! ## A058517.P2973837067061264725
-
-`A004273(A350958(n+1))+A007318(∑[n])`
--/
-
-namespace A058517.P2973837067061264725
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004273 (A350958 (n + 1)).toNat + A007318 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A058517.P2973837067061264725
 
 /-!
 # A058518: Number of forests of B-trees of order 3 with n labeled leaves.

@@ -2369,6 +2369,29 @@ def P1108591390846857794.Spec : Prop :=
 
 end A068511
 
+/-! ## A068511.P17293990409273004517
+
+`A000302(n+1)-(A319857(n+1)+A131577(n+1))`
+-/
+
+namespace A068511.P17293990409273004517
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000302 (n + 1) - (A319857 (n + 1) + A131577 (n + 1))
+
+end
+
+end A068511.P17293990409273004517
+
+namespace A068511
+
+/-- `A000302(n+1)-(A319857(n+1)+A131577(n+1))` -/
+def P17293990409273004517.Spec : Prop :=
+  ∀ n, P17293990409273004517.a n = A068511 (n + 1)
+
+end A068511
+
 /-!
 # A068512: Numerators of arithmetic derivative of n/2: A003415(n)/2 - n/4; denominators: A010685.
 
@@ -3435,6 +3458,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A068524.P5883409566533689642
+
+/-! ## A068524.P14942834383661870892
+
+`A075058(n)+A000007(n)`
+-/
+
+namespace A068524.P14942834383661870892
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075058 n + A000007 n
+
+end
+
+end A068524.P14942834383661870892
 
 /-! ## A068524.P3080454233771153451
 

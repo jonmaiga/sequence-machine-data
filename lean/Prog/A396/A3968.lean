@@ -63,9 +63,9 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -4339,6 +4339,24 @@ end
 
 end A396856.P11350533554344922023
 
+/-! ## A396856.P15613993151498640752
+
+`filter[A304449(n+1), A401791(#)]`
+-/
+
+namespace A396856.P15613993151498640752
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304449 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A396856.P15613993151498640752
+
 /-! ## A396856.P15242034374178527833
 
 `comp[A106543(n+1)-1]+1`
@@ -6015,7 +6033,7 @@ end A396894.P15748193581550712647
 /-!
 # A396895: a(n) = 4*p - floor(2*sqrt(p))^2, where p = prime(n).
 
-The programs for A396895, the canonical program `A396895.P7912046450592316273` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396895 has offset 1).
+The programs for A396895, the canonical program `A396895.P7912046450592316273` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396895 has offset 1).
 
 The definition of A396895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9891 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6024,7 +6042,7 @@ The definition of A396895 is `conjectured`: the Lean definition is a formula tha
 
 `A396869(A027883(1+n))`
 
-The canonical program, it is in `Seq.B005.C003`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A396895

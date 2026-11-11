@@ -11,6 +11,7 @@
     "A305007"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "sign"
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

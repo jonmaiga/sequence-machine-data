@@ -1,0 +1,18 @@
+{
+  "description": "Maximum size of a subset of {1, ..., n} whose subset products are all distinct.",
+  "id": "A401472",
+  "mentions": [
+    "A000720"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

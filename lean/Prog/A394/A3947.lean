@@ -2708,6 +2708,35 @@ theorem P15713723112550969364.correct : P15713723112550969364.Spec := by
 
 end A394783
 
+/-! ## A394783.P6585188451806572875
+
+`col(n)!*(row(n)+1)^col(n)`
+-/
+
+namespace A394783.P6585188451806572875
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (SequenceMachineLib.triCol n) * (SequenceMachineLib.triRow n + 1) ^ SequenceMachineLib.triCol n
+
+end
+
+end A394783.P6585188451806572875
+
+namespace A394783
+
+/-- `col(n)!*(row(n)+1)^col(n)` -/
+def P6585188451806572875.Spec : Prop :=
+  ∀ n, (P6585188451806572875.a n : ℤ) = A394783 (n + 1)
+
+theorem P6585188451806572875.correct : P6585188451806572875.Spec := by
+  intro n
+  simp only [A394783, Nat.add_sub_cancel, A394783.P6585188451806572875.a, A394783.P15713723112550969364.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A394783
+
 /-! ## A394783.P10973327745108215482
 
 `A076112(1+n)*A233543(n)`
@@ -3912,6 +3941,29 @@ def P6817747230012229685.Spec : Prop :=
 
 end A394790
 
+/-! ## A394790.P8180674057020319361
+
+`A000005(n+1)*A000203(n+1)/A001227(n+1)`
+-/
+
+namespace A394790.P8180674057020319361
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000005 (n + 1) * A000203 (n + 1) : ℚ) / (A001227 (n + 1) : ℚ)
+
+end
+
+end A394790.P8180674057020319361
+
+namespace A394790
+
+/-- `A000005(n+1)*A000203(n+1)/A001227(n+1)` -/
+def P8180674057020319361.Spec : Prop :=
+  ∀ n, P8180674057020319361.a n = (A394790 (n + 1) : ℚ)
+
+end A394790
+
 /-! ## A394790.P3932222686181912254
 
 `A000203(n+1)/A000593(n+1)*A264740(n+1)`
@@ -4033,29 +4085,6 @@ namespace A394790
 /-- `∑{d}[n+1, #]*A007814(2*(n+1))` -/
 def P15153430029360917693.Spec : Prop :=
   ∀ n, P15153430029360917693.a n = A394790 (n + 1)
-
-end A394790
-
-/-! ## A394790.P2909539676948415338
-
-`A000203(n+1)*A007814(2*(n+1))`
--/
-
-namespace A394790.P2909539676948415338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (n + 1) * A007814 (2 * (n + 1))
-
-end
-
-end A394790.P2909539676948415338
-
-namespace A394790
-
-/-- `A000203(n+1)*A007814(2*(n+1))` -/
-def P2909539676948415338.Spec : Prop :=
-  ∀ n, P2909539676948415338.a n = A394790 (n + 1)
 
 end A394790
 

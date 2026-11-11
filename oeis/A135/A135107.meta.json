@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that 10^k+97 is prime.",
+  "description": "Integers k such that 10^k + 97 is prime.",
   "id": "A135107",
   "mentions": [
     "A095688",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

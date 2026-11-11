@@ -4959,6 +4959,29 @@ def P13646201972385158771.Spec : Prop :=
 
 end A355449
 
+/-! ## A355449.P13772233108699063131
+
+`A355937(n²+2)`
+-/
+
+namespace A355449.P13772233108699063131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355937 (n ^ 2 + 2)
+
+end
+
+end A355449.P13772233108699063131
+
+namespace A355449
+
+/-- `A355937(n²+2)` -/
+def P13772233108699063131.Spec : Prop :=
+  ∀ n, P13772233108699063131.a n = A355449 n
+
+end A355449
+
 /-!
 # A355450: a(n) = 1 if n is odd and phi(x) = n^2 + 1 has no solutions, otherwise 0.
 
@@ -9699,6 +9722,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355489.P1637428537764860907
+
+/-! ## A355489.P15464199866008535041
+
+`A025480(A389923(n+2))`
+-/
+
+namespace A355489.P15464199866008535041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025480 (A389923 (n + 2)).toNat
+
+end
+
+end A355489.P15464199866008535041
 
 /-! ## A355489.P3821519424877254448
 

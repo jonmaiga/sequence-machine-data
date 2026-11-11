@@ -40,6 +40,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C049
@@ -14595,6 +14596,35 @@ theorem P18403588986978572326.correct : P18403588986978572326.Spec := by
 
 end A130883
 
+/-! ## A130883.P15092555885595277333
+
+`1+C(2*n, 2)`
+-/
+
+namespace A130883.P15092555885595277333
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + Nat.choose (2 * n) 2
+
+end
+
+end A130883.P15092555885595277333
+
+namespace A130883
+
+/-- `1+C(2*n, 2)` -/
+def P15092555885595277333.Spec : Prop :=
+  ∀ n, (P15092555885595277333.a n : ℤ) = A130883 n
+
+theorem P15092555885595277333.correct : P15092555885595277333.Spec := by
+  intro n
+  simp only [A130883, Nat.add_sub_cancel, A130883.P15092555885595277333.a, A130883.P336739246276696576.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A130883
+
 /-! ## A130883.P17946681717964341062
 
 `round(2/acot(n)²-n)`
@@ -14926,29 +14956,6 @@ namespace A130883
 /-- `(8-∑[a(n-1)-8])/2` -/
 def P3593248521904592128.Spec : Prop :=
   ∀ n, P3593248521904592128.a n = (A130883 n : ℚ)
-
-end A130883
-
-/-! ## A130883.P15105088256214896307
-
-`(or(2, (2*n)²)-2*n)/2`
--/
-
-namespace A130883.P15105088256214896307
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((Nat.lor 2 ((2 * n) ^ 2) : ℤ) - (2 * n : ℤ) : ℚ) / 2
-
-end
-
-end A130883.P15105088256214896307
-
-namespace A130883
-
-/-- `(or(2, (2*n)²)-2*n)/2` -/
-def P15105088256214896307.Spec : Prop :=
-  ∀ n, P15105088256214896307.a n = (A130883 n : ℚ)
 
 end A130883
 

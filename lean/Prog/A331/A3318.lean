@@ -26,7 +26,7 @@ import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C043
 import Seq.B000.C045
@@ -41,6 +41,7 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2205,6 +2206,29 @@ namespace A331831
 /-- `A000265(A400894(2*n+1))` -/
 def P6232962011492931337.Spec : Prop :=
   ∀ n, P6232962011492931337.a n = A331831 (n + 1)
+
+end A331831
+
+/-! ## A331831.P12037871521561021199
+
+`A400894(2*n+1)+A331739(2*n+1)`
+-/
+
+namespace A331831.P12037871521561021199
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400894 (2 * n + 1) + A331739 (2 * n + 1)
+
+end
+
+end A331831.P12037871521561021199
+
+namespace A331831
+
+/-- `A400894(2*n+1)+A331739(2*n+1)` -/
+def P12037871521561021199.Spec : Prop :=
+  ∀ n, P12037871521561021199.a n = A331831 (n + 1)
 
 end A331831
 

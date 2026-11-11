@@ -1031,6 +1031,21 @@ end
 
 end A299113.P3498642700021211161
 
+/-! ## A299113.P13399059350559936085
+
+`A316101(A052905(2*n+1)-(2*n+1))`
+-/
+
+namespace A299113.P13399059350559936085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316101 (A052905 (2 * n + 1) - (2 * n + 1 : ℤ)).toNat
+
+end
+
+end A299113.P13399059350559936085
+
 /-!
 # A299116: The number of sparse union-closed sets. That is, the number of union-closed sets on n elements containing the empty set and the universe, such that in average each set (not counting the empty set) has at most n/2 elements.
 
@@ -5946,6 +5961,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299159.P6468334903000354554
+
+/-! ## A299159.P17506054269803051558
+
+`A001617(A181841(n+2))`
+-/
+
+namespace A299159.P17506054269803051558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001617 (A181841 (n + 2)).toNat
+
+end
+
+end A299159.P17506054269803051558
 
 /-!
 # A299162: Expansion of 1/(1 - x*Product_{k>=1} 1/(1 - k*x^k)).

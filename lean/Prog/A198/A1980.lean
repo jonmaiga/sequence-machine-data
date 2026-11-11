@@ -29,6 +29,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -38,7 +39,6 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -2398,30 +2398,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A198037.P14600382751912235792
-
-/-!
-# A198039: Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 4,0,2,1,1,1,2 for x=0,1,2,3,4,5,6.
-
-The programs for A198039, there is no canonical definition to state claims against.
--/
-
-/-! ## A198039.P4059998890676142039
-
-`Δ[A325515(A326020(n+2))]`
--/
-
-namespace A198039.P4059998890676142039
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325515 (A326020 (n + 2)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A198039.P4059998890676142039
 
 /-!
 # A198040: Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 5,5,1,1,1,1,1 for x=0,1,2,3,4,5,6.

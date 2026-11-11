@@ -1034,30 +1034,6 @@ end
 end A302119.P13870237639098022389
 
 /-!
-# A302123: Numbers k such that 6*k^k - 5 is prime.
-
-The programs for A302123, there is no canonical definition to state claims against.
--/
-
-/-! ## A302123.P18070384955554095422
-
-`record[xor(A059930(n+1), A111576(n+1))]`
--/
-
-namespace A302123.P18070384955554095422
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A059930 (n + 1)) (A111576 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A302123.P18070384955554095422
-
-/-!
 # A302124: Primes of form 6*k^k - 5.
 
 The programs for A302124, there is no canonical definition to state claims against.

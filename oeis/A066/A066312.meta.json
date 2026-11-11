@@ -2,8 +2,11 @@
   "description": "Numbers, other than prime powers, whose distinct prime factors are consecutive primes.",
   "id": "A066312",
   "mentions": [
+    "A006094",
     "A007947",
-    "A097889"
+    "A097889",
+    "A256617",
+    "A401378"
   ],
   "tags": [
     "formulas",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

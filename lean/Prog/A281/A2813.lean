@@ -34,7 +34,6 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
@@ -69,7 +68,6 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -3413,6 +3411,35 @@ theorem P4352892355978536141.correct : P4352892355978536141.Spec := by
 
 end A281334
 
+/-! ## A281334.P6221736848958012466
+
+`(col(n)+1)^3*(row(n)-col(n))+col(n)`
+-/
+
+namespace A281334.P6221736848958012466
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.triCol n + 1) ^ 3 : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) + (SequenceMachineLib.triCol n : ℤ)
+
+end
+
+end A281334.P6221736848958012466
+
+namespace A281334
+
+/-- `(col(n)+1)^3*(row(n)-col(n))+col(n)` -/
+def P6221736848958012466.Spec : Prop :=
+  ∀ n, P6221736848958012466.a n = A281334 (n + 1)
+
+theorem P6221736848958012466.correct : P6221736848958012466.Spec := by
+  intro n
+  simp only [A281334, Nat.add_sub_cancel, A281334.P6221736848958012466.a, A281334.P4352892355978536141.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A281334
+
 /-! ## A281334.P7695240303745661857
 
 `A002262(n)+A025581(n)*A133820(n+1)`
@@ -4792,6 +4819,24 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A281357.P16422157260003630022
+
+/-! ## A281357.P14676178861587887633
+
+`A400790(∑[n+3])`
+-/
+
+namespace A281357.P14676178861587887633
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400790 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A281357.P14676178861587887633
 
 /-! ## A281357.P6092216066924956511
 
@@ -6274,7 +6319,7 @@ end A281375
 /-!
 # A281376: Total number of counts where floor(N/k) < floor((N+k)/n) for k = {1, 2, ..., n-1} and N >= n.
 
-The programs for A281376, the canonical program `A281376.P8580911295092577376` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281376 has offset 1).
+The programs for A281376, the canonical program `A281376.P8580911295092577376` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281376 has offset 1).
 
 The definition of A281376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6315,7 +6360,7 @@ end A281376
 
 `∑[∑[A023645(abs(1-n)+1)]]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A281376

@@ -25,6 +25,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
@@ -41,6 +42,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C050
 import Seq.B001.C000
@@ -7946,6 +7948,52 @@ def P16091609004105359042.Spec : Prop :=
 
 end A122963
 
+/-! ## A122963.P12787572861831056100
+
+`A160791(2*A001358(n+1))`
+-/
+
+namespace A122963.P12787572861831056100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160791 (2 * A001358 (n + 1)).toNat
+
+end
+
+end A122963.P12787572861831056100
+
+namespace A122963
+
+/-- `A160791(2*A001358(n+1))` -/
+def P12787572861831056100.Spec : Prop :=
+  ∀ n, P12787572861831056100.a n = A122963 (n + 1)
+
+end A122963
+
+/-! ## A122963.P12228171896905961343
+
+`A160791(A001358(n+1)+A001358(n+1))`
+-/
+
+namespace A122963.P12228171896905961343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160791 (A001358 (n + 1) + A001358 (n + 1)).toNat
+
+end
+
+end A122963.P12228171896905961343
+
+namespace A122963
+
+/-- `A160791(A001358(n+1)+A001358(n+1))` -/
+def P12228171896905961343.Spec : Prop :=
+  ∀ n, P12228171896905961343.a n = A122963 (n + 1)
+
+end A122963
+
 /-! ## A122963.P5817511755049447284
 
 `∑{#}[Δ[A110208(n)], #]`
@@ -8056,32 +8104,6 @@ namespace A122963
 /-- `∑{#}[lt[1, A105700(n)], #]` -/
 def P16960725721450141252.Spec : Prop :=
   ∀ n, (P16960725721450141252.a n : ℤ) = A122963 (n + 1)
-
-end A122963
-
-/-! ## A122963.P1948925917339746142
-
-`∑{#}[sqrt(A074985(n+1)), #]`
--/
-
-namespace A122963.P1948925917339746142
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A074985 (n + 1) : ℝ)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (SequenceMachineLib.roundAway (f1 n) + 1).toNat, k
-
-end
-
-end A122963.P1948925917339746142
-
-namespace A122963
-
-/-- `∑{#}[sqrt(A074985(n+1)), #]` -/
-def P1948925917339746142.Spec : Prop :=
-  ∀ n, (P1948925917339746142.a n : ℤ) = A122963 (n + 1)
 
 end A122963
 

@@ -4774,29 +4774,29 @@ def P2310352326145839890.Spec : Prop :=
 
 end A103435
 
-/-! ## A103435.P1626245594032302968
+/-! ## A103435.P4346993674589463020
 
-`∑{#}[floor((n-1)/2), C(n, 2*#+1)*5^#*2]`
+`∑{#}[floor((n-1)/2), C(n-1-#, #)*2^n]`
 -/
 
-namespace A103435.P1626245594032302968
+namespace A103435.P4346993674589463020
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ⌊((n : ℤ) - 1 : ℚ) / 2⌋
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (2 * k + 1) * 5 ^ k * 2
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose ((n : ℤ) - 1 - (k : ℤ)).toNat k * 2 ^ n
 
 end
 
-end A103435.P1626245594032302968
+end A103435.P4346993674589463020
 
 namespace A103435
 
-/-- `∑{#}[floor((n-1)/2), C(n, 2*#+1)*5^#*2]` -/
-def P1626245594032302968.Spec : Prop :=
-  ∀ n, (P1626245594032302968.a n : ℤ) = A103435 n
+/-- `∑{#}[floor((n-1)/2), C(n-1-#, #)*2^n]` -/
+def P4346993674589463020.Spec : Prop :=
+  ∀ n, (P4346993674589463020.a n : ℤ) = A103435 n
 
 end A103435
 
@@ -7508,6 +7508,29 @@ namespace A103447
 /-- `A008683(ceil(A132047(n)/3))` -/
 def P2226044093199473766.Spec : Prop :=
   ∀ n, P2226044093199473766.a n = A103447 n
+
+end A103447
+
+/-! ## A103447.P6142198437981779804
+
+`A008683(A097805(n+1)+A097805(n))`
+-/
+
+namespace A103447.P6142198437981779804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008683 (A097805 (n + 1) + A097805 n).toNat
+
+end
+
+end A103447.P6142198437981779804
+
+namespace A103447
+
+/-- `A008683(A097805(n+1)+A097805(n))` -/
+def P6142198437981779804.Spec : Prop :=
+  ∀ n, P6142198437981779804.a n = A103447 n
 
 end A103447
 
@@ -15441,21 +15464,6 @@ end A103491.P12505793973034951690
 
 The programs for A103492, there is no canonical definition to state claims against.
 -/
-
-/-! ## A103492.P2109548143916390574
-
-`A026741(A070681(n)%A000112(n))`
--/
-
-namespace A103492.P2109548143916390574
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026741 (Int.tmod (A070681 n) (A000112 n)).toNat
-
-end
-
-end A103492.P2109548143916390574
 
 /-! ## A103492.P3145395429302306097
 

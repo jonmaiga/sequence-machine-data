@@ -30,7 +30,7 @@ import Seq.B000.C032
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3543,6 +3543,29 @@ theorem P17294730468892707957.correct : P17294730468892707957.Spec := by
 
 end A376652
 
+/-! ## A376652.P14711720298520056509
+
+`A014689(A049579(n+1))-1`
+-/
+
+namespace A376652.P14711720298520056509
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014689 (A049579 (n + 1)).toNat - 1
+
+end
+
+end A376652.P14711720298520056509
+
+namespace A376652
+
+/-- `A014689(A049579(n+1))-1` -/
+def P14711720298520056509.Spec : Prop :=
+  ∀ n, P14711720298520056509.a n = A376652 (n + 1)
+
+end A376652
+
 /-! ## A376652.P8487438415117929794
 
 `record[Δ[A379000(2*n+1)]]`
@@ -4021,29 +4044,6 @@ namespace A376652
 /-- `A036997(A049591(n+1))` -/
 def P7834151988451695205.Spec : Prop :=
   ∀ n, P7834151988451695205.a n = A376652 (n + 1)
-
-end A376652
-
-/-! ## A376652.P13396979950479988236
-
-`A036997(A067774(n+2))`
--/
-
-namespace A376652.P13396979950479988236
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036997 (A067774 (n + 2)).toNat
-
-end
-
-end A376652.P13396979950479988236
-
-namespace A376652
-
-/-- `A036997(A067774(n+2))` -/
-def P13396979950479988236.Spec : Prop :=
-  ∀ n, P13396979950479988236.a n = A376652 (n + 1)
 
 end A376652
 
@@ -6530,24 +6530,6 @@ end
 
 end A376691.P15042524580081543852
 
-/-! ## A376691.P10836826696308773483
-
-`A007095(∏{p}[n+1, val((n+1)², #)+1]%A211821(3*n+5))`
--/
-
-namespace A376691.P10836826696308773483
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (Int.tmod ((∏ p ∈ Nat.primeFactors (f1 n), (SequenceMachineLib.valuation ((n + 1) ^ 2) p + 1) : ℕ) : ℤ) (A211821 (3 * n + 5))).toNat
-
-end
-
-end A376691.P10836826696308773483
-
 /-! ## A376691.P8514376884988401532
 
 `A020662(A048691(n+1)%A242128(n+1))`
@@ -6592,6 +6574,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376691.P10953991977337767694
+
+/-! ## A376691.P13077192354381126966
+
+`A120249(A278261(A273672(n+1))²)`
+-/
+
+namespace A376691.P13077192354381126966
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120249 (A278261 (A273672 (n + 1)).toNat ^ 2).toNat
+
+end
+
+end A376691.P13077192354381126966
 
 /-!
 # A376692: Numbers with the most significant digit odd and alternating parity of digits.

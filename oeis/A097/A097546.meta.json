@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of \"Farey fraction\" approximations to Pi.",
+  "description": "Denominators of semiconvergents to Pi.",
   "id": "A097546",
   "mentions": [
     "A001203",

@@ -16393,10 +16393,29 @@ end A023540
 /-!
 # A023541: Convolution of natural numbers with Beatty sequence for the golden mean A000201.
 
-The programs for A023541, the canonical program `A023541.P11789173281518141242` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023541 has offset 1).
+The programs for A023541, the canonical program `A023541.P13907347118174510715` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023541 has offset 1).
 
-The definition of A023541 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A023541 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023542, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A023541.P13907347118174510715
+
+`A023542(n+1)-C(n+3, 3)`
+
+The canonical program, it is in `Seq.B002.C000`.
+-/
+
+namespace A023541
+
+/-- `A023542(n+1)-C(n+3, 3)` -/
+def P13907347118174510715.Spec : Prop :=
+  ∀ n, P13907347118174510715.a n = A023541 (n + 1)
+
+theorem P13907347118174510715.correct : P13907347118174510715.Spec := by
+  intro n
+  simp only [A023541, Nat.add_sub_cancel]
+
+end A023541
 
 /-! ## A023541.P16940188651213306818
 
@@ -16488,19 +16507,29 @@ end A023541
 /-! ## A023541.P11789173281518141242
 
 `abs(∑[∑[A004956(n+1)-1]])`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A023541.P11789173281518141242
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004956 (n + 1) - 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |∑ j ∈ Finset.range (n + 1), f1 j|
+
+end
+
+end A023541.P11789173281518141242
 
 namespace A023541
 
 /-- `abs(∑[∑[A004956(n+1)-1]])` -/
 def P11789173281518141242.Spec : Prop :=
   ∀ n, P11789173281518141242.a n = A023541 (n + 1)
-
-theorem P11789173281518141242.correct : P11789173281518141242.Spec := by
-  intro n
-  simp only [A023541, Nat.add_sub_cancel]
 
 end A023541
 

@@ -31,9 +31,9 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
@@ -64,7 +64,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
@@ -4603,6 +4602,29 @@ def P5953876701853527916.Spec : Prop :=
 
 end A167543
 
+/-! ## A167543.P13576459344289656420
+
+`C(n+4, 4)-3*C(n+3, 3)`
+-/
+
+namespace A167543.P13576459344289656420
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (n + 4) 4 : ℤ) - (3 * Nat.choose (n + 3) 3 : ℤ)
+
+end
+
+end A167543.P13576459344289656420
+
+namespace A167543
+
+/-- `C(n+4, 4)-3*C(n+3, 3)` -/
+def P13576459344289656420.Spec : Prop :=
+  ∀ n, P13576459344289656420.a n = A167543 (n + 8)
+
+end A167543
+
 /-! ## A167543.P4215162311449389027
 
 `-∑[A167541(n+6)]`
@@ -4833,29 +4855,6 @@ namespace A167543
 /-- `A000127(n+1)-A058331(n+1)` -/
 def P17144411490738012927.Spec : Prop :=
   ∀ n, P17144411490738012927.a n = A167543 (n + 8)
-
-end A167543
-
-/-! ## A167543.P16589691601824216933
-
-`A006323(n+1)-A152457(n+1)`
--/
-
-namespace A167543.P16589691601824216933
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006323 (n + 1) - A152457 (n + 1)
-
-end
-
-end A167543.P16589691601824216933
-
-namespace A167543
-
-/-- `A006323(n+1)-A152457(n+1)` -/
-def P16589691601824216933.Spec : Prop :=
-  ∀ n, P16589691601824216933.a n = A167543 (n + 8)
 
 end A167543
 
@@ -8481,6 +8480,29 @@ def P17361772138330021659.Spec : Prop :=
 
 end A167570
 
+/-! ## A167570.P10035749360758321758
+
+`2^(2*(n+1)-1)*(2*(n+1)+1)*(n+1)!`
+-/
+
+namespace A167570.P10035749360758321758
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) * (2 * (n + 1) + 1 : ℚ) * (Nat.factorial (n + 1) : ℚ)
+
+end
+
+end A167570.P10035749360758321758
+
+namespace A167570
+
+/-- `2^(2*(n+1)-1)*(2*(n+1)+1)*(n+1)!` -/
+def P10035749360758321758.Spec : Prop :=
+  ∀ n, P10035749360758321758.a n = (A167570 (n + 3) : ℚ)
+
+end A167570
+
 /-! ## A167570.P5609442526677505629
 
 `A167558(n+3)/2`
@@ -8602,29 +8624,6 @@ namespace A167570
 /-- `Δ[∏[2*(n+1)]]*A000079(n)` -/
 def P2884955460277040996.Spec : Prop :=
   ∀ n, P2884955460277040996.a n = A167570 (n + 3)
-
-end A167570
-
-/-! ## A167570.P11035346657177046000
-
-`A004273(n+2)*A051711(n+1)`
--/
-
-namespace A167570.P11035346657177046000
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004273 (n + 2) * A051711 (n + 1)
-
-end
-
-end A167570.P11035346657177046000
-
-namespace A167570
-
-/-- `A004273(n+2)*A051711(n+1)` -/
-def P11035346657177046000.Spec : Prop :=
-  ∀ n, P11035346657177046000.a n = A167570 (n + 3)
 
 end A167570
 
@@ -8933,49 +8932,49 @@ theorem P162659343323644250.correct : P162659343323644250.Spec := by
 
 end A167573
 
-/-! ## A167573.P8057447857076178349
+/-! ## A167573.P2418888907090128407
 
-`A081769((2*(n+1))²)`
+`A019428(A053755(n+1))`
 -/
 
-namespace A167573.P8057447857076178349
+namespace A167573.P2418888907090128407
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081769 ((2 * (n + 1)) ^ 2)
+  A019428 (A053755 (n + 1)).toNat
 
 end
 
-end A167573.P8057447857076178349
+end A167573.P2418888907090128407
 
 namespace A167573
 
-/-- `A081769((2*(n+1))²)` -/
-def P8057447857076178349.Spec : Prop :=
-  ∀ n, P8057447857076178349.a n = A167573 (n + 1)
+/-- `A019428(A053755(n+1))` -/
+def P2418888907090128407.Spec : Prop :=
+  ∀ n, P2418888907090128407.a n = A167573 (n + 1)
 
 end A167573
 
-/-! ## A167573.P4659937718787397470
+/-! ## A167573.P8707344629111394862
 
-`A168437((2*(n+1))²)`
+`A322490(A058331(n+1))`
 -/
 
-namespace A167573.P4659937718787397470
+namespace A167573.P8707344629111394862
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168437 ((2 * (n + 1)) ^ 2)
+  A322490 (A058331 (n + 1)).toNat
 
 end
 
-end A167573.P4659937718787397470
+end A167573.P8707344629111394862
 
 namespace A167573
 
-/-- `A168437((2*(n+1))²)` -/
-def P4659937718787397470.Spec : Prop :=
-  ∀ n, P4659937718787397470.a n = A167573 (n + 1)
+/-- `A322490(A058331(n+1))` -/
+def P8707344629111394862.Spec : Prop :=
+  ∀ n, P8707344629111394862.a n = A167573 (n + 1)
 
 end A167573
 

@@ -27,7 +27,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C035
 import Seq.B000.C036
@@ -44,6 +43,7 @@ import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -70,8 +70,10 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -3425,20 +3427,20 @@ end
 
 end A244656.P18015681003845048170
 
-/-! ## A244656.P16243624977064135497
+/-! ## A244656.P11875289916348527266
 
-`A217858(n+1)*A217871(ceil((3^(2/5))^n))`
+`A133265(A070198(n))`
 -/
 
-namespace A244656.P16243624977064135497
+namespace A244656.P11875289916348527266
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217858 (n + 1) * A217871 ⌈((3 : ℝ) ^ ((2 : ℚ) / 5 : ℝ)) ^ n⌉.toNat
+  A133265 (A070198 n).toNat
 
 end
 
-end A244656.P16243624977064135497
+end A244656.P11875289916348527266
 
 /-!
 # A244657: Number T(n,k) of n-node unlabeled rooted trees with thinning limbs and root outdegree (branching factor) k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.
@@ -3931,6 +3933,29 @@ namespace A244669
 /-- `A000203(n+1)/A306682(n+1)` -/
 def P12430169615537908165.Spec : Prop :=
   ∀ n, P12430169615537908165.a n = (A244669 (n + 1) : ℚ)
+
+end A244669
+
+/-! ## A244669.P8321038992990745948
+
+`A401375(n+1)*A401709(n+1)/A306682(n+1)`
+-/
+
+namespace A244669.P8321038992990745948
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A401375 (n + 1) * A401709 (n + 1) : ℚ) / (A306682 (n + 1) : ℚ)
+
+end
+
+end A244669.P8321038992990745948
+
+namespace A244669
+
+/-- `A401375(n+1)*A401709(n+1)/A306682(n+1)` -/
+def P8321038992990745948.Spec : Prop :=
+  ∀ n, P8321038992990745948.a n = (A244669 (n + 1) : ℚ)
 
 end A244669
 
@@ -6574,6 +6599,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A244687.P3778439084253847078
+
+/-! ## A244687.P2383068470679247386
+
+`A127050(n*Δ[n²])`
+-/
+
+namespace A244687.P2383068470679247386
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127050 ((n : ℤ) * ((f1 (n + 1) : ℤ) - (f1 n : ℤ))).toNat
+
+end
+
+end A244687.P2383068470679247386
 
 /-!
 # A244688: The spiral of Champernowne read by the South-Southwest ray.

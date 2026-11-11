@@ -608,6 +608,81 @@ theorem P14365821876087022858.correct : P14365821876087022858.Spec := by
 
 end A288417
 
+/-! ## A288417.P15365708619304310638
+
+`∑{d}[n+1, (-1)^((n+1)/#+1)*A000203(#)]`
+-/
+
+namespace A288417.P15365708619304310638
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (-1 : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) + 1 : ℝ) * (A000203 d : ℝ)
+
+end
+
+end A288417.P15365708619304310638
+
+namespace A288417
+
+/-- `∑{d}[n+1, (-1)^((n+1)/#+1)*A000203(#)]` -/
+def P15365708619304310638.Spec : Prop :=
+  ∀ n, P15365708619304310638.a n = (A288417 (n + 1) : ℝ)
+
+end A288417
+
+/-! ## A288417.P854661651267819055
+
+`∑{d}[n+1, A008683((n+1)/#)*A318845(#)]`
+-/
+
+namespace A288417.P854661651267819055
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A008683 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat * A318845 d
+
+end
+
+end A288417.P854661651267819055
+
+namespace A288417
+
+/-- `∑{d}[n+1, A008683((n+1)/#)*A318845(#)]` -/
+def P854661651267819055.Spec : Prop :=
+  ∀ n, P854661651267819055.a n = A288417 (n + 1)
+
+end A288417
+
+/-! ## A288417.P14298790563758398313
+
+`A001511(n+1)*A007429(A000265(n+1))`
+-/
+
+namespace A288417.P14298790563758398313
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001511 (n + 1) * A007429 (A000265 (n + 1)).toNat
+
+end
+
+end A288417.P14298790563758398313
+
+namespace A288417
+
+/-- `A001511(n+1)*A007429(A000265(n+1))` -/
+def P14298790563758398313.Spec : Prop :=
+  ∀ n, P14298790563758398313.a n = A288417 (n + 1)
+
+end A288417
+
 /-! ## A288417.P413390610316007944
 
 `∑{d}[C(1+n, n), A000593(#)]`
@@ -1015,84 +1090,6 @@ namespace A288417
 /-- `∑{d}[n+1, A000010(#)*A288571((n+1)/#)]` -/
 def P3467738970996326094.Spec : Prop :=
   ∀ n, P3467738970996326094.a n = A288417 (n + 1)
-
-end A288417
-
-/-! ## A288417.P4555686858629577993
-
-`∑{d}[n+1, A001615(#)*A317529((n+1)/#)]`
--/
-
-namespace A288417.P4555686858629577993
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A001615 d * A317529 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
-
-end
-
-end A288417.P4555686858629577993
-
-namespace A288417
-
-/-- `∑{d}[n+1, A001615(#)*A317529((n+1)/#)]` -/
-def P4555686858629577993.Spec : Prop :=
-  ∀ n, P4555686858629577993.a n = A288417 (n + 1)
-
-end A288417
-
-/-! ## A288417.P12896370053593465699
-
-`∑{d}[n+1, A091512(#)*A228441((n+1)/#)]`
--/
-
-namespace A288417.P12896370053593465699
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A091512 d * A228441 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
-
-end
-
-end A288417.P12896370053593465699
-
-namespace A288417
-
-/-- `∑{d}[n+1, A091512(#)*A228441((n+1)/#)]` -/
-def P12896370053593465699.Spec : Prop :=
-  ∀ n, P12896370053593465699.a n = A288417 (n + 1)
-
-end A288417
-
-/-! ## A288417.P17533026237026224775
-
-`∑{d}[n+1, A007425(#)*A319997((n+1)/#)]`
--/
-
-namespace A288417.P17533026237026224775
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A007425 d * A319997 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
-
-end
-
-end A288417.P17533026237026224775
-
-namespace A288417
-
-/-- `∑{d}[n+1, A007425(#)*A319997((n+1)/#)]` -/
-def P17533026237026224775.Spec : Prop :=
-  ∀ n, P17533026237026224775.a n = A288417 (n + 1)
 
 end A288417
 
@@ -2042,6 +2039,32 @@ The programs for A288420, the canonical program `A288420.P12052429712829655382` 
 The definition of A288420 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{d}[n+1, #^4*A000593((n+1)/#)]` (program `A288420.P12052429712829655382`, by `A288420.P12052429712829655382.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
+/-! ## A288420.P17718365369934289039
+
+`∑{d}[n+1, #*A007331(#)]`
+-/
+
+namespace A288420.P17718365369934289039
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (d : ℤ) * A007331 d
+
+end
+
+end A288420.P17718365369934289039
+
+namespace A288420
+
+/-- `∑{d}[n+1, #*A007331(#)]` -/
+def P17718365369934289039.Spec : Prop :=
+  ∀ n, P17718365369934289039.a n = A288420 (n + 1)
+
+end A288420
+
 /-! ## A288420.P12052429712829655382
 
 `∑{d}[n+1, #^4*A000593((n+1)/#)]`
@@ -2061,29 +2084,29 @@ theorem P12052429712829655382.correct : P12052429712829655382.Spec := by
 
 end A288420
 
-/-! ## A288420.P14056210847223660896
+/-! ## A288420.P3645765140758811197
 
-`∑{d}[1+n, #*A007331(#)]`
+`∑{d}[n+1, (-1)^((n+1)/#+1)*#*A001158(#)]`
 -/
 
-namespace A288420.P14056210847223660896
+namespace A288420.P3645765140758811197
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + n
+  n + 1
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), (d : ℤ) * A007331 d
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (-1 : ℝ) ^ ((n + 1 : ℚ) / (d : ℚ) + 1 : ℝ) * (d : ℝ) * (A001158 d : ℝ)
 
 end
 
-end A288420.P14056210847223660896
+end A288420.P3645765140758811197
 
 namespace A288420
 
-/-- `∑{d}[1+n, #*A007331(#)]` -/
-def P14056210847223660896.Spec : Prop :=
-  ∀ n, P14056210847223660896.a n = A288420 (n + 1)
+/-- `∑{d}[n+1, (-1)^((n+1)/#+1)*#*A001158(#)]` -/
+def P3645765140758811197.Spec : Prop :=
+  ∀ n, P3645765140758811197.a n = (A288420 (n + 1) : ℝ)
 
 end A288420
 

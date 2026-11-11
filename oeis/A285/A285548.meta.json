@@ -2,6 +2,7 @@
   "description": "Array read by antidiagonals: T(m,n) = number of step cyclic shifted sequences of length n using a maximum of m different symbols.",
   "id": "A285548",
   "mentions": [
+    "A000012",
     "A002729",
     "A056371",
     "A056391",

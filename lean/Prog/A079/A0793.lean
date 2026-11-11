@@ -7671,24 +7671,6 @@ end A079357.P10731721661605049395
 The programs for A079358, there is no canonical definition to state claims against.
 -/
 
-/-! ## A079358.P1119907508843655303
-
-`∑[A087283(A315124(A001651(n+1)))]`
--/
-
-namespace A079358.P1119907508843655303
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087283 (A315124 (A001651 (n + 1)).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A079358.P1119907508843655303
-
 /-! ## A079358.P16920395626603893781
 
 `eq[A029440(n), A038189(n)]`

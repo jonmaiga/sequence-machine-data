@@ -23,6 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -5813,55 +5814,49 @@ def P5952044185817630694.Spec : Prop :=
 
 end A349343
 
-/-! ## A349343.P6511129342874091246
+/-! ## A349343.P4106720866794093902
 
-`∑{d}[n+1, A038712(#)*A046692((n+1)/#)]`
+`A087003(n+1)*A109613(n)`
 -/
 
-namespace A349343.P6511129342874091246
+namespace A349343.P4106720866794093902
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A038712 d * A046692 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A087003 (n + 1) * A109613 n
 
 end
 
-end A349343.P6511129342874091246
+end A349343.P4106720866794093902
 
 namespace A349343
 
-/-- `∑{d}[n+1, A038712(#)*A046692((n+1)/#)]` -/
-def P6511129342874091246.Spec : Prop :=
-  ∀ n, P6511129342874091246.a n = A349343 (n + 1)
+/-- `A087003(n+1)*A109613(n)` -/
+def P4106720866794093902.Spec : Prop :=
+  ∀ n, P4106720866794093902.a n = A349343 (n + 1)
 
 end A349343
 
-/-! ## A349343.P17593952239982587436
+/-! ## A349343.P13676569393614296697
 
-`∑{d}[n+1, A023900(#)*A067856((n+1)/#)]`
+`A087003(n+1)*A118402(n)`
 -/
 
-namespace A349343.P17593952239982587436
+namespace A349343.P13676569393614296697
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A023900 d * A067856 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A087003 (n + 1) * A118402 n
 
 end
 
-end A349343.P17593952239982587436
+end A349343.P13676569393614296697
 
 namespace A349343
 
-/-- `∑{d}[n+1, A023900(#)*A067856((n+1)/#)]` -/
-def P17593952239982587436.Spec : Prop :=
-  ∀ n, P17593952239982587436.a n = A349343 (n + 1)
+/-- `A087003(n+1)*A118402(n)` -/
+def P13676569393614296697.Spec : Prop :=
+  ∀ n, P13676569393614296697.a n = A349343 (n + 1)
 
 end A349343
 

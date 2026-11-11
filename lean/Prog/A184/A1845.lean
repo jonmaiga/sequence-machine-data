@@ -41,7 +41,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -3922,6 +3921,21 @@ end
 
 end A184524.P11351173312374986244
 
+/-! ## A184524.P18434436550036653802
+
+`A184525(n+1)%A016897(n)`
+-/
+
+namespace A184524.P18434436550036653802
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A184525 (n + 1)) (A016897 n)
+
+end
+
+end A184524.P18434436550036653802
+
 /-! ## A184524.P15807172969411465887
 
 `A184525(1+n)-(A016885(n)+1)`
@@ -3937,21 +3951,6 @@ end
 
 end A184524.P15807172969411465887
 
-/-! ## A184524.P8344973141752096448
-
-`A184525(A000027(n+1))%A016897(n)`
--/
-
-namespace A184524.P8344973141752096448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A184525 (A000027 (n + 1)).toNat) (A016897 n)
-
-end
-
-end A184524.P8344973141752096448
-
 /-! ## A184524.P8138555938954947397
 
 `A023443(A184525(n+1)-A016885(n))`
@@ -3966,21 +3965,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184524.P8138555938954947397
-
-/-! ## A184524.P14142433048793947456
-
-`A023443(A184525(n+1)%A016885(n))`
--/
-
-namespace A184524.P14142433048793947456
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 (Int.tmod (A184525 (n + 1)) (A016885 n)).toNat
-
-end
-
-end A184524.P14142433048793947456
 
 /-! ## A184524.P17411439884995861207
 
@@ -4593,6 +4577,21 @@ end
 
 end A184528.P2108728829166184498
 
+/-! ## A184528.P13865410898727700
+
+`A184529(n+1)%A016873(n)`
+-/
+
+namespace A184528.P13865410898727700
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A184529 (n + 1)) (A016873 n)
+
+end
+
+end A184528.P13865410898727700
+
 /-! ## A184528.P9873146396743836236
 
 `A184529(n+1)+1-A016885(n)`
@@ -4637,21 +4636,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184528.P15391929259854411865
-
-/-! ## A184528.P10768193478424302041
-
-`A184529(n+1)%A005408(n)+n+1`
--/
-
-namespace A184528.P10768193478424302041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A184529 (n + 1)) (A005408 n) + (n + 1 : ℤ)
-
-end
-
-end A184528.P10768193478424302041
 
 /-! ## A184528.P14762606347531360867
 

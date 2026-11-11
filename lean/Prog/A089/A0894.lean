@@ -7978,24 +7978,6 @@ end A089482.P1955979174878894807
 The programs for A089484, there is no canonical definition to state claims against.
 -/
 
-/-! ## A089484.P13659212445202910879
-
-`A087160(∑{p}[n+1, gcd(n, #)]+ceil(2^(n-1)))`
--/
-
-namespace A089484.P13659212445202910879
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087160 (((∑ p ∈ Nat.primeFactors (f1 n), Nat.gcd n p : ℕ) : ℤ) + ⌈(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌉).toNat
-
-end
-
-end A089484.P13659212445202910879
-
 /-! ## A089484.P2378896015983172119
 
 `∑[A320921(n+2)-∑{p}[n+1, #*val(n+1, #)]]`
@@ -8031,6 +8013,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089484.P15237918434328464840
+
+/-! ## A089484.P11509822022922471431
+
+`A358637(A347764(n+1)+A000961(n+1))`
+-/
+
+namespace A089484.P11509822022922471431
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358637 (A347764 (n + 1) + A000961 (n + 1)).toNat
+
+end
+
+end A089484.P11509822022922471431
 
 /-!
 # A089486: The second-smallest prime of the form (p-prime(n))/(prime(n)-1), where p is also prime.
@@ -8618,6 +8615,35 @@ def P13008850196184348311.Spec : Prop :=
 
 end A089495
 
+/-! ## A089495.P6173274032368654018
+
+`A008683(1+A000040(n+1))`
+-/
+
+namespace A089495.P6173274032368654018
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008683 (1 + A000040 (n + 1)).toNat
+
+end
+
+end A089495.P6173274032368654018
+
+namespace A089495
+
+/-- `A008683(1+A000040(n+1))` -/
+def P6173274032368654018.Spec : Prop :=
+  ∀ n, P6173274032368654018.a n = A089495 (n + 1)
+
+theorem P6173274032368654018.correct : P6173274032368654018.Spec := by
+  intro n
+  simp only [A089495, Nat.add_sub_cancel, A089495.P6173274032368654018.a, A089495.P3499540144449875997.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A089495
+
 /-! ## A089495.P17476054949175522106
 
 `A008683(A006005(n+1)+1)`
@@ -8713,35 +8739,6 @@ namespace A089495
 /-- `A008683(A039915(n+1)+2)` -/
 def P892051210550931600.Spec : Prop :=
   ∀ n, P892051210550931600.a n = A089495 (n + 1)
-
-end A089495
-
-/-! ## A089495.P14063822146365171071
-
-`A008683(A052147(n+1)-1)`
--/
-
-namespace A089495.P14063822146365171071
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (A052147 (n + 1) - 1).toNat
-
-end
-
-end A089495.P14063822146365171071
-
-namespace A089495
-
-/-- `A008683(A052147(n+1)-1)` -/
-def P14063822146365171071.Spec : Prop :=
-  ∀ n, P14063822146365171071.a n = A089495 (n + 1)
-
-theorem P14063822146365171071.correct : P14063822146365171071.Spec := by
-  intro n
-  simp only [A089495, Nat.add_sub_cancel, A089495.P14063822146365171071.a, A089495.P3499540144449875997.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A052147, A052147.P15217781913070555828.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A089495
 

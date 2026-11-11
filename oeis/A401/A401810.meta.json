@@ -1,0 +1,20 @@
+{
+  "description": "Indices of records of A401756.",
+  "id": "A401810",
+  "mentions": [
+    "A000045",
+    "A107839",
+    "A134497",
+    "A401756",
+    "A401809"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

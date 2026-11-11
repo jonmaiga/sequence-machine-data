@@ -2737,6 +2737,36 @@ end
 
 end A249027.P4623195725576316334
 
+/-! ## A249027.P17555905326534414886
+
+`A305762(A064670(n+1))`
+-/
+
+namespace A249027.P17555905326534414886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305762 (A064670 (n + 1)).toNat
+
+end
+
+end A249027.P17555905326534414886
+
+/-! ## A249027.P3797970594000378354
+
+`A265515(A266183(n+1))`
+-/
+
+namespace A249027.P3797970594000378354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265515 (A266183 (n + 1)).toNat
+
+end
+
+end A249027.P3797970594000378354
+
 /-! ## A249027.P749968662563762499
 
 `A132176(A263744(n+1)%A248702(n))`
@@ -2766,36 +2796,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A249027.P5921763428848132879
-
-/-! ## A249027.P12061303911074538361
-
-`A047726(C(A080518(n+1), A103438(n)))`
--/
-
-namespace A249027.P12061303911074538361
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047726 (Nat.choose (A080518 (n + 1)).toNat (A103438 n).toNat)
-
-end
-
-end A249027.P12061303911074538361
-
-/-! ## A249027.P14840118095856089533
-
-`gcd(A165313(n+1), A396659(A000040(n+1)))`
--/
-
-namespace A249027.P14840118095856089533
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A165313 (n + 1)) (A396659 (A000040 (n + 1)).toNat)
-
-end
-
-end A249027.P14840118095856089533
 
 /-!
 # A249028: Number of 4X4X...X4 = 4^n arrays of 0's and 1's with exactly one 1 in each row, column, ..., line, ... .

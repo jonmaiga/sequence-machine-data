@@ -33,7 +33,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -75,7 +74,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -7252,6 +7250,52 @@ def P15312566078931504252.Spec : Prop :=
 
 end A076973
 
+/-! ## A076973.P5361361439833292671
+
+`A054977(n)*A076272(n+1)`
+-/
+
+namespace A076973.P5361361439833292671
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054977 n * A076272 (n + 1)
+
+end
+
+end A076973.P5361361439833292671
+
+namespace A076973
+
+/-- `A054977(n)*A076272(n+1)` -/
+def P5361361439833292671.Spec : Prop :=
+  ∀ n, P5361361439833292671.a n = A076973 (n + 1)
+
+end A076973
+
+/-! ## A076973.P1487389861285033687
+
+`A006530(A070229(A076272(n+1)))`
+-/
+
+namespace A076973.P1487389861285033687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A070229 (A076272 (n + 1)).toNat).toNat
+
+end
+
+end A076973.P1487389861285033687
+
+namespace A076973
+
+/-- `A006530(A070229(A076272(n+1)))` -/
+def P1487389861285033687.Spec : Prop :=
+  ∀ n, P1487389861285033687.a n = A076973 (n + 1)
+
+end A076973
+
 /-! ## A076973.P17714873657018577041
 
 `A006530(A076272(n+1)+A076272(n+1))`
@@ -7485,29 +7529,6 @@ namespace A076973
 /-- `A006530((n+2-a(n-1))*a(n-1))` -/
 def P16967634648645547276.Spec : Prop :=
   ∀ n, P16967634648645547276.a n = A076973 (n + 1)
-
-end A076973
-
-/-! ## A076973.P2643432790303705240
-
-`A006530(2*A076271(n+1))`
--/
-
-namespace A076973.P2643432790303705240
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (2 * A076271 (n + 1)).toNat
-
-end
-
-end A076973.P2643432790303705240
-
-namespace A076973
-
-/-- `A006530(2*A076271(n+1))` -/
-def P2643432790303705240.Spec : Prop :=
-  ∀ n, P2643432790303705240.a n = A076973 (n + 1)
 
 end A076973
 
@@ -8688,20 +8709,35 @@ end
 
 end A076983.P8711536250253821618
 
-/-! ## A076983.P8546700918413654904
+/-! ## A076983.P10466563563532892229
 
-`A000124(A368855(n+1))-A358680(A035016(2*(n+2)))`
+`A002378(A368855(n+1))/2`
 -/
 
-namespace A076983.P8546700918413654904
+namespace A076983.P10466563563532892229
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000124 (A368855 (n + 1)).toNat - A358680 (A035016 (2 * (n + 2))).toNat
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002378 (A368855 (n + 1)).toNat : ℚ) / 2
 
 end
 
-end A076983.P8546700918413654904
+end A076983.P10466563563532892229
+
+/-! ## A076983.P9710305807411066259
+
+`A096895(A368855(n+1))`
+-/
+
+namespace A076983.P9710305807411066259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096895 (A368855 (n + 1)).toNat
+
+end
+
+end A076983.P9710305807411066259
 
 /-!
 # A076984: Number of Fibonacci numbers that are divisors of the n-th Fibonacci number.

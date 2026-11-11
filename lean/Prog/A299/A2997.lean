@@ -19,6 +19,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
@@ -625,6 +626,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299707.P8250107413638611752
+
+/-! ## A299707.P3127029191519255341
+
+`A262689(A299708(n+1))`
+-/
+
+namespace A299707.P3127029191519255341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262689 (A299708 (n + 1)).toNat
+
+end
+
+end A299707.P3127029191519255341
 
 /-!
 # A299708: Numbers of the form m^2 + 1 that can be expressed in more than one way as j^2 + k^2 with j > k > 1.
@@ -2178,6 +2194,36 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A299731.P14785774973268442045
+
+/-! ## A299731.P12900180344349831535
+
+`A299730(A001859(n))`
+-/
+
+namespace A299731.P12900180344349831535
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299730 (A001859 n).toNat
+
+end
+
+end A299731.P12900180344349831535
+
+/-! ## A299731.P18357167462140461379
+
+`A004526(A299732(n)-n)`
+-/
+
+namespace A299731.P18357167462140461379
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (A299732 n - (n : ℤ)).toNat
+
+end
+
+end A299731.P18357167462140461379
 
 /-!
 # A299732: a(n) has exactly (a(n) - n) / 2 partitions with exactly (a(n) - n) / 2 prime parts.
@@ -4121,6 +4167,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299756.P12511901772041225808
+
+/-! ## A299756.P5356268887628907958
+
+`A305829(A213925(A305829(A050376(n+2))))`
+-/
+
+namespace A299756.P5356268887628907958
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305829 (A213925 (A305829 (A050376 (n + 2)).toNat).toNat).toNat
+
+end
+
+end A299756.P5356268887628907958
 
 /-!
 # A299757: Weight of the strict integer partition with FDH number n.

@@ -799,21 +799,6 @@ end
 
 end A294103.P6871427716881524708
 
-/-! ## A294103.P3739359457762394540
-
-`A245092(A294104(2+n+n))`
--/
-
-namespace A294103.P3739359457762394540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245092 (A294104 (2 + n + n)).toNat
-
-end
-
-end A294103.P3739359457762394540
-
 /-! ## A294103.P3932195901610107449
 
 `A294104(n+2+n)%A013973(n)`
@@ -828,24 +813,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A294103.P3932195901610107449
-
-/-! ## A294103.P16091699287867984771
-
-`A294104(n+2+n)/A007318(∑[n])`
--/
-
-namespace A294103.P16091699287867984771
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A294104 (n + 2 + n) : ℚ) / (A007318 (∑ j ∈ Finset.range (n + 1), f1 j) : ℚ)
-
-end
-
-end A294103.P16091699287867984771
 
 /-! ## A294103.P10928817080925166277
 
@@ -906,6 +873,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A294103.P2258401456158318004
+
+/-! ## A294103.P3739359457762394540
+
+`A245092(A294104(2+n+n))`
+-/
+
+namespace A294103.P3739359457762394540
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245092 (A294104 (2 + n + n)).toNat
+
+end
+
+end A294103.P3739359457762394540
+
+/-! ## A294103.P16091699287867984771
+
+`A294104(n+2+n)/A007318(∑[n])`
+-/
+
+namespace A294103.P16091699287867984771
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A294104 (n + 2 + n) : ℚ) / (A007318 (∑ j ∈ Finset.range (n + 1), f1 j) : ℚ)
+
+end
+
+end A294103.P16091699287867984771
 
 /-!
 # A294104: Sum of the differences of the larger and smaller parts in the partitions of n into two squarefree parts or two nonsquarefree parts.

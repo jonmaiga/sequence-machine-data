@@ -1542,6 +1542,29 @@ def P9436357888331709789.Spec : Prop :=
 
 end A175917
 
+/-! ## A175917.P17714578986968864546
+
+`and(A000295(n), A036044(n))`
+-/
+
+namespace A175917.P17714578986968864546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A000295 n) (A036044 n)
+
+end
+
+end A175917.P17714578986968864546
+
+namespace A175917
+
+/-- `and(A000295(n), A036044(n))` -/
+def P17714578986968864546.Spec : Prop :=
+  ∀ n, P17714578986968864546.a n = A175917 n
+
+end A175917
+
 /-!
 # A175918: Convert n to binary. NAND each respective digit of binary n and binary A030101(n), where A030101(n) is the reversal of the order of the digits in the binary representation of n (given in decimal). a(n) is the decimal value of the result.
 
@@ -4245,6 +4268,84 @@ def P5614150642121959218.Spec : Prop :=
 
 end A175944
 
+/-! ## A175944.P632709885449662251
+
+`filter[A400934(n+1), A080339(#)]`
+-/
+
+namespace A175944.P632709885449662251
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400934 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A080339 (f1 j).toNat = 1) n)
+
+end
+
+end A175944.P632709885449662251
+
+namespace A175944
+
+/-- `filter[A400934(n+1), A080339(#)]` -/
+def P632709885449662251.Spec : Prop :=
+  ∀ n, P632709885449662251.a n = A175944 (n + 1)
+
+end A175944
+
+/-! ## A175944.P4248443419562726892
+
+`filter[A400934(n+1), A380467(#)]`
+-/
+
+namespace A175944.P4248443419562726892
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400934 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A380467 (f1 j).toNat = 1) n)
+
+end
+
+end A175944.P4248443419562726892
+
+namespace A175944
+
+/-- `filter[A400934(n+1), A380467(#)]` -/
+def P4248443419562726892.Spec : Prop :=
+  ∀ n, P4248443419562726892.a n = A175944 (n + 1)
+
+end A175944
+
+/-! ## A175944.P16171399637697338145
+
+`filter[A400934(n+1), A380524(#)]`
+-/
+
+namespace A175944.P16171399637697338145
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400934 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A380524 (f1 j).toNat = 1) n)
+
+end
+
+end A175944.P16171399637697338145
+
+namespace A175944
+
+/-- `filter[A400934(n+1), A380524(#)]` -/
+def P16171399637697338145.Spec : Prop :=
+  ∀ n, P16171399637697338145.a n = A175944 (n + 1)
+
+end A175944
+
 /-! ## A175944.P2667010345518372119
 
 `filter[A002024(n+1), A080339(#)]`
@@ -4401,86 +4502,26 @@ def P16704674129689086313.Spec : Prop :=
 
 end A175944
 
-/-! ## A175944.P6406667762896079228
-
-`p?[A000196(2*n)]/A089026(2*(n+1))`
--/
-
-namespace A175944.P6406667762896079228
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (2 * n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n) : ℚ) / (A089026 (2 * (n + 1)) : ℚ)
-
-end
-
-end A175944.P6406667762896079228
-
-namespace A175944
-
-/-- `p?[A000196(2*n)]/A089026(2*(n+1))` -/
-def P6406667762896079228.Spec : Prop :=
-  ∀ n, P6406667762896079228.a n = (A175944 (n + 1) : ℚ)
-
-end A175944
-
-/-! ## A175944.P11670285489040212137
-
-`filter[A111651(3*n+1), A080339(#)]`
--/
-
-namespace A175944.P11670285489040212137
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111651 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A080339 (f1 j).toNat = 1) n)
-
-end
-
-end A175944.P11670285489040212137
-
-namespace A175944
-
-/-- `filter[A111651(3*n+1), A080339(#)]` -/
-def P11670285489040212137.Spec : Prop :=
-  ∀ n, P11670285489040212137.a n = A175944 (n + 1)
-
-end A175944
-
-/-! ## A175944.P10062798596696838611
-
-`max(A178623(n), a(n-1))` with `a(0)=1`
--/
-
-namespace A175944.P10062798596696838611
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  max (A178623 n) (a (n - 1))
-
-end
-
-end A175944.P10062798596696838611
-
-namespace A175944
-
-/-- `max(A178623(n), a(n-1))` -/
-def P10062798596696838611.Spec : Prop :=
-  ∀ n, P10062798596696838611.a n = A175944 (n + 1)
-
-end A175944
-
 /-!
 # A175945: Start with the binary expansion of n; list the lengths of the runs of ones and interpret this list as lengths of runs of alternating ones and zeros in binary.
 
 The programs for A175945, there is no canonical definition to state claims against.
 -/
+
+/-! ## A175945.P8013522422694771770
+
+`A006068(A385887(n+1))`
+-/
+
+namespace A175945.P8013522422694771770
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006068 (A385887 (n + 1)).toNat
+
+end
+
+end A175945.P8013522422694771770
 
 /-! ## A175945.P18003007439765412080
 
@@ -4586,21 +4627,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A175945.P7467601796923226236
-
-/-! ## A175945.P8013522422694771770
-
-`A006068(A385887(n+1))`
--/
-
-namespace A175945.P8013522422694771770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006068 (A385887 (n + 1)).toNat
-
-end
-
-end A175945.P8013522422694771770
 
 /-! ## A175945.P15617151220554868191
 

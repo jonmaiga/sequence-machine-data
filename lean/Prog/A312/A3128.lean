@@ -19,6 +19,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -4401,21 +4402,6 @@ end A312883.P9882194965781922986
 
 The programs for A312884, there is no canonical definition to state claims against.
 -/
-
-/-! ## A312884.P17144152248944559561
-
-`A140595(A311322(n)-1)`
--/
-
-namespace A312884.P17144152248944559561
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 (A311322 n - 1).toNat
-
-end
-
-end A312884.P17144152248944559561
 
 /-! ## A312884.P13943572020396986915
 

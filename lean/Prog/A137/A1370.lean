@@ -9,12 +9,10 @@ import Seq.B000.C030
 import Seq.B000.C039
 import Seq.B000.C045
 import Seq.B001.C000
-import Seq.B001.C013
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B008.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -1789,30 +1787,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A137093.P16491178808296081328
-
-/-!
-# A137096: Numbers k such that k and k^2 use only the digits 2, 4, 5, 6 and 9.
-
-The programs for A137096, there is no canonical definition to state claims against.
--/
-
-/-! ## A137096.P5018834053821025158
-
-`xor(A104082(n), A353109(Δ[n²]²))`
--/
-
-namespace A137096.P5018834053821025158
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A104082 n) (A353109 (((f1 (n + 1) : ℤ) - (f1 n : ℤ)) ^ 2).toNat)
-
-end
-
-end A137096.P5018834053821025158
 
 /-!
 # A137098: Numbers k such that k and k^2 use only the digits 2, 4, 5, 7 and 9.

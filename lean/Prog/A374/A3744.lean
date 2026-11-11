@@ -36,6 +36,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -358,21 +359,6 @@ end A374406.P332119147588015680
 The programs for A374411, there is no canonical definition to state claims against.
 -/
 
-/-! ## A374411.P13043792415215261032
-
-`A002260(n+1)*A303707(A152842(n))`
--/
-
-namespace A374411.P13043792415215261032
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002260 (n + 1) * A303707 (A152842 n).toNat
-
-end
-
-end A374411.P13043792415215261032
-
 /-! ## A374411.P8382434559777204276
 
 `(A144217(A255743(3*(n+1)))+col(n)+1)*A332648(n)`
@@ -432,6 +418,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374411.P9379725695227391779
+
+/-! ## A374411.P12728479712930772524
+
+`A115726(A266183(n+1))`
+-/
+
+namespace A374411.P12728479712930772524
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115726 (A266183 (n + 1)).toNat
+
+end
+
+end A374411.P12728479712930772524
 
 /-!
 # A374413: Second center column of elementary triangular automaton rule 210, starting from a lone 1 cell.

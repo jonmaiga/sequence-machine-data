@@ -390,6 +390,28 @@ end
 
 end A175205.P9198016250344205952
 
+/-! ## A175205.P9364455148017435018
+
+`∩[A164989(n+1), A192594(n+1)]`
+-/
+
+namespace A175205.P9364455148017435018
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164989 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192594 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A175205.P9364455148017435018
+
 /-! ## A175205.P17957731644829474482
 
 `∩[A002476(n+1), A164989(n+1)]`
@@ -784,27 +806,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A175205.P6926803278769886563
-
-/-! ## A175205.P4312202729574400688
-
-`record[p?[A164989(A052938(n))]]`
--/
-
-namespace A175205.P4312202729574400688
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164989 (A052938 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A175205.P4312202729574400688
 
 /-!
 # A175207: a(1) = 1, a(2) = 5, for n >= 3, a(n) = smallest prime > a(n-1) such that a(n) mod a(n-1) = a(n-2).

@@ -1,0 +1,18 @@
+{
+  "description": "Number of largest sets S of points of the 3 X n grid as in A401223 that contain the top and bottom points of some column.",
+  "id": "A398448",
+  "mentions": [
+    "A399580",
+    "A401223"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

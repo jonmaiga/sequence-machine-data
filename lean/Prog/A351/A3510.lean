@@ -49,7 +49,7 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
@@ -825,21 +825,6 @@ end A351007.P14259514177098374266
 The programs for A351008, there is no canonical definition to state claims against.
 -/
 
-/-! ## A351008.P6795651770737797146
-
-`A227135(n)-A351595(n)`
--/
-
-namespace A351008.P6795651770737797146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227135 n - A351595 n
-
-end
-
-end A351008.P6795651770737797146
-
 /-! ## A351008.P11202556649344180385
 
 `A122134(n)+A227135(n)-A122135(n)`
@@ -854,21 +839,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A351008.P11202556649344180385
-
-/-! ## A351008.P10109418252661708542
-
-`A182372(n)-(A351595(n)+A227134(n))`
--/
-
-namespace A351008.P10109418252661708542
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182372 n - (A351595 n + A227134 n)
-
-end
-
-end A351008.P10109418252661708542
 
 /-! ## A351008.P11369003508356009906
 
@@ -899,6 +869,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A351008.P375836284250902977
+
+/-! ## A351008.P6795651770737797146
+
+`A227135(n)-A351595(n)`
+-/
+
+namespace A351008.P6795651770737797146
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227135 n - A351595 n
+
+end
+
+end A351008.P6795651770737797146
+
+/-! ## A351008.P10109418252661708542
+
+`A182372(n)-(A351595(n)+A227134(n))`
+-/
+
+namespace A351008.P10109418252661708542
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182372 n - (A351595 n + A227134 n)
+
+end
+
+end A351008.P10109418252661708542
 
 /-! ## A351008.P9202727359775610595
 

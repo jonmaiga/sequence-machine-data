@@ -21,7 +21,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -5892,26 +5891,32 @@ def P15768906593375731963.Spec : Prop :=
 
 end A061673
 
-/-! ## A061673.P13419641007937949930
+/-! ## A061673.P6640253220308536595
 
-`A104278(n+1)+A296304(n+2)/A104278(n+1)`
+`A104278(n+1)+A104278(n+1)`
 -/
 
-namespace A061673.P13419641007937949930
+namespace A061673.P6640253220308536595
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A104278 (n + 1) : ℚ) + (A296304 (n + 2) : ℚ) / (A104278 (n + 1) : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104278 (n + 1) + A104278 (n + 1)
 
 end
 
-end A061673.P13419641007937949930
+end A061673.P6640253220308536595
 
 namespace A061673
 
-/-- `A104278(n+1)+A296304(n+2)/A104278(n+1)` -/
-def P13419641007937949930.Spec : Prop :=
-  ∀ n, P13419641007937949930.a n = (A061673 (n + 1) : ℚ)
+/-- `A104278(n+1)+A104278(n+1)` -/
+def P6640253220308536595.Spec : Prop :=
+  ∀ n, P6640253220308536595.a n = A061673 (n + 1)
+
+theorem P6640253220308536595.correct : P6640253220308536595.Spec := by
+  intro n
+  simp only [A061673, Nat.add_sub_cancel, A061673.P6640253220308536595.a, A061673.P6703242266188128252.f1, A061673.P6703242266188128252.f2, A061673.P6703242266188128252.a, A104278, A104278.P9462042051971576230.f1, A104278.P9462042051971576230.f2, A104278.P9462042051971576230.a, A175851, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A061673
 
@@ -8110,6 +8115,32 @@ namespace A061693
 /-- `floor(∑{#}[n, C(1+n, #)^3]/2)` -/
 def P17930011798313702011.Spec : Prop :=
   ∀ n, P17930011798313702011.a n = A061693 (n + 1)
+
+end A061693
+
+/-! ## A061693.P8957980975342336169
+
+`∑{#}[n-1, C(n, #)*C(n+1, #+1)*C(n+1, #+1)]`
+-/
+
+namespace A061693.P8957980975342336169
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n k * Nat.choose (n + 1) (k + 1) * Nat.choose (n + 1) (k + 1)
+
+end
+
+end A061693.P8957980975342336169
+
+namespace A061693
+
+/-- `∑{#}[n-1, C(n, #)*C(n+1, #+1)*C(n+1, #+1)]` -/
+def P8957980975342336169.Spec : Prop :=
+  ∀ n, (P8957980975342336169.a n : ℤ) = A061693 (n + 1)
 
 end A061693
 

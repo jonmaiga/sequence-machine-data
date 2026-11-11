@@ -1,7 +1,9 @@
 {
   "description": "Number of 2-colorings of [1..n] with no monochromatic Pythagorean triple.",
   "id": "A272709",
-  "mentions": [],
+  "mentions": [
+    "A383181"
+  ],
   "tags": [
     "nonn"
   ],

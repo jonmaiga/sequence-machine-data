@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonempty convex vertex sets in the n-antiprism graph.",
+  "id": "A401287",
+  "mentions": [
+    "A191967"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

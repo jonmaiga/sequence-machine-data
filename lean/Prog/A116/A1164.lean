@@ -4125,21 +4125,6 @@ end
 
 end A116422.P9381585995978934105
 
-/-! ## A116422.P4941985784491387192
-
-`and(A084542(n+1), A337260(A084604(n)))`
--/
-
-namespace A116422.P4941985784491387192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A084542 (n + 1)) (A337260 (A084604 n).toNat)
-
-end
-
-end A116422.P4941985784491387192
-
 /-! ## A116422.P9645527378971611927
 
 `A248639(A087112(n+1)-A211394(n+1))`
@@ -4184,6 +4169,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116422.P9612431294391912918
+
+/-! ## A116422.P15863752685717279682
+
+`A107110(A262069(n+1))`
+-/
+
+namespace A116422.P15863752685717279682
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107110 (A262069 (n + 1)).toNat
+
+end
+
+end A116422.P15863752685717279682
 
 /-!
 # A116423: Binomial transform of A006053.

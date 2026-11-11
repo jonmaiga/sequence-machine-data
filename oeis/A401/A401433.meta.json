@@ -1,0 +1,20 @@
+{
+  "description": "Number of orbits of Aut(F_2) on the subgroups of index n of the free group F_2 of rank 2.",
+  "id": "A401433",
+  "mentions": [
+    "A003319",
+    "A046951",
+    "A057005",
+    "A215018"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

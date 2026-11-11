@@ -10178,6 +10178,32 @@ def P6060243310670454968.Spec : Prop :=
 
 end A108765
 
+/-! ## A108765.P17910321046793665368
+
+`3^n+∑{#}[n-1, 3^#*(n-#)]`
+-/
+
+namespace A108765.P17910321046793665368
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 ^ n : ℤ) + ∑ k ∈ Finset.range (f1 n + 1).toNat, (3 ^ k : ℤ) * ((n : ℤ) - (k : ℤ))
+
+end
+
+end A108765.P17910321046793665368
+
+namespace A108765
+
+/-- `3^n+∑{#}[n-1, 3^#*(n-#)]` -/
+def P17910321046793665368.Spec : Prop :=
+  ∀ n, P17910321046793665368.a n = A108765 n
+
+end A108765
+
 /-! ## A108765.P23231001755283054
 
 `a(n-1)+a(n-1)+a(n-1)+n` with `a(0)=1`
@@ -10376,29 +10402,6 @@ namespace A108765
 /-- `A000244(n)+∑[(3^n-1)/2]` -/
 def P11235369038041076488.Spec : Prop :=
   ∀ n, P11235369038041076488.a n = (A108765 n : ℚ)
-
-end A108765
-
-/-! ## A108765.P13434423711310149405
-
-`A244762(n)+A003462(n)`
--/
-
-namespace A108765.P13434423711310149405
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244762 n + A003462 n
-
-end
-
-end A108765.P13434423711310149405
-
-namespace A108765
-
-/-- `A244762(n)+A003462(n)` -/
-def P13434423711310149405.Spec : Prop :=
-  ∀ n, P13434423711310149405.a n = A108765 n
 
 end A108765
 

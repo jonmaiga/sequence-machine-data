@@ -4418,30 +4418,30 @@ def P14574507510040127727.Spec : Prop :=
 
 end A300559
 
-/-! ## A300559.P4929206678716568137
+/-! ## A300559.P9078009039852554573
 
-`(A062119(n+1)+2)/2`
+`1+(n+1)!*n/2`
 -/
 
-namespace A300559.P4929206678716568137
+namespace A300559.P9078009039852554573
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A062119 (n + 1) + 2 : ℚ) / 2
+  1 + (Nat.factorial (n + 1) * n : ℚ) / 2
 
 end
 
-end A300559.P4929206678716568137
+end A300559.P9078009039852554573
 
 namespace A300559
 
-/-- `(A062119(n+1)+2)/2` -/
-def P4929206678716568137.Spec : Prop :=
-  ∀ n, P4929206678716568137.a n = (A300559 n : ℚ)
+/-- `1+(n+1)!*n/2` -/
+def P9078009039852554573.Spec : Prop :=
+  ∀ n, P9078009039852554573.a n = (A300559 n : ℚ)
 
-theorem P4929206678716568137.correct : P4929206678716568137.Spec := by
+theorem P9078009039852554573.correct : P9078009039852554573.Spec := by
   intro n
-  simp only [A300559, Nat.add_sub_cancel, A300559.P4929206678716568137.a, A300559.P15332861236027180194.a, A062119, A062119.P6281908133648097894.a, A180119, A180119.P7712605466301032233.a, A000142, A000142.P3272619076580183195.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
+  simp only [A300559, Nat.add_sub_cancel, A300559.P9078009039852554573.a, A300559.P15332861236027180194.a, A180119, A180119.P7712605466301032233.a, A000142, A000142.P3272619076580183195.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 

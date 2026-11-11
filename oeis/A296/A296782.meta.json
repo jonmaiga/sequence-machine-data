@@ -1,14 +1,15 @@
 {
-  "description": "Detour index of the n-permutation star graph.",
+  "description": "Detour index of the n-permutation star graph and the n-Bruhat graph.",
   "id": "A296782",
   "mentions": [],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

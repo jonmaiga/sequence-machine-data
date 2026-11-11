@@ -25,7 +25,7 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -50,6 +50,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -989,26 +990,141 @@ def P8934604049840263736.Spec : Prop :=
 
 end A372602
 
-/-! ## A372602.P2430172821553906951
+/-! ## A372602.P7378731636282622678
 
-`A372601((n+1)²)-A372601(n+1)`
+`and(A182467(n), A324912(n+1))`
 -/
 
-namespace A372602.P2430172821553906951
+namespace A372602.P7378731636282622678
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372601 ((n + 1) ^ 2) - A372601 (n + 1)
+  Int.land (A182467 n) (A324912 (n + 1))
 
 end
 
-end A372602.P2430172821553906951
+end A372602.P7378731636282622678
 
 namespace A372602
 
-/-- `A372601((n+1)²)-A372601(n+1)` -/
-def P2430172821553906951.Spec : Prop :=
-  ∀ n, P2430172821553906951.a n = A372602 (n + 1)
+/-- `and(A182467(n), A324912(n+1))` -/
+def P7378731636282622678.Spec : Prop :=
+  ∀ n, P7378731636282622678.a n = A372602 (n + 1)
+
+end A372602
+
+/-! ## A372602.P117780267959273918
+
+`and(A182467(n), A372603(n+1))`
+-/
+
+namespace A372602.P117780267959273918
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A182467 n) (A372603 (n + 1))
+
+end
+
+end A372602.P117780267959273918
+
+namespace A372602
+
+/-- `and(A182467(n), A372603(n+1))` -/
+def P117780267959273918.Spec : Prop :=
+  ∀ n, P117780267959273918.a n = A372602 (n + 1)
+
+end A372602
+
+/-! ## A372602.P5012791379021475879
+
+`and(A182467(n), A375360(n+1))`
+-/
+
+namespace A372602.P5012791379021475879
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A182467 n) (A375360 (n + 1))
+
+end
+
+end A372602.P5012791379021475879
+
+namespace A372602
+
+/-- `and(A182467(n), A375360(n+1))` -/
+def P5012791379021475879.Spec : Prop :=
+  ∀ n, P5012791379021475879.a n = A372602 (n + 1)
+
+end A372602
+
+/-! ## A372602.P18310219619141947730
+
+`and(A047860(n), A372603(n+1))`
+-/
+
+namespace A372602.P18310219619141947730
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A047860 n) (A372603 (n + 1))
+
+end
+
+end A372602.P18310219619141947730
+
+namespace A372602
+
+/-- `and(A047860(n), A372603(n+1))` -/
+def P18310219619141947730.Spec : Prop :=
+  ∀ n, P18310219619141947730.a n = A372602 (n + 1)
+
+end A372602
+
+/-! ## A372602.P8894916920180403085
+
+`and(A232600(n), A324912(n+1))`
+-/
+
+namespace A372602.P8894916920180403085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A232600 n) (A324912 (n + 1))
+
+end
+
+end A372602.P8894916920180403085
+
+namespace A372602
+
+/-- `and(A232600(n), A324912(n+1))` -/
+def P8894916920180403085.Spec : Prop :=
+  ∀ n, P8894916920180403085.a n = A372602 (n + 1)
+
+end A372602
+
+/-! ## A372602.P10794463114351683076
+
+`and(A217528(n+1), A372603(n+1))`
+-/
+
+namespace A372602.P10794463114351683076
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A217528 (n + 1)) (A372603 (n + 1))
+
+end
+
+end A372602.P10794463114351683076
+
+namespace A372602
+
+/-- `and(A217528(n+1), A372603(n+1))` -/
+def P10794463114351683076.Spec : Prop :=
+  ∀ n, P10794463114351683076.a n = A372602 (n + 1)
 
 end A372602
 
@@ -1370,6 +1486,29 @@ namespace A372603
 /-- `A066301((n+1)*A007947(A003557(n+1)))` -/
 def P14390584482667343956.Spec : Prop :=
   ∀ n, P14390584482667343956.a n = A372603 (n + 1)
+
+end A372603
+
+/-! ## A372603.P4390647726758863652
+
+`A392276(A366765((n+1)²))`
+-/
+
+namespace A372603.P4390647726758863652
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392276 (A366765 ((n + 1) ^ 2)).toNat
+
+end
+
+end A372603.P4390647726758863652
+
+namespace A372603
+
+/-- `A392276(A366765((n+1)²))` -/
+def P4390647726758863652.Spec : Prop :=
+  ∀ n, P4390647726758863652.a n = A372603 (n + 1)
 
 end A372603
 

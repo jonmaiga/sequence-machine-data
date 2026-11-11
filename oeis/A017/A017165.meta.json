@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (9*n)^5.",
   "id": "A017165",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "easy",
     "formulas",

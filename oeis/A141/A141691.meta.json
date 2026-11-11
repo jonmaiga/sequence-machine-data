@@ -1,5 +1,5 @@
 {
-  "description": "A linear combination of Eulerian numbers (A008292) and Pascal's triangle (A007318); t(n,m)=(3*A008292(n,m)-A007318(n,m))/2.",
+  "description": "Triangle read by rows: T(n,m) = (3*A008292(n,m) - A007318(n,m)) / 2.",
   "id": "A141691",
   "mentions": [
     "A007318",
@@ -7,12 +7,12 @@
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

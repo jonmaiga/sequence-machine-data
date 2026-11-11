@@ -27,10 +27,10 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,7 +50,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -640,6 +639,29 @@ theorem P2714735375999566640.correct : P2714735375999566640.Spec := by
   simp only [A110707, Nat.add_sub_cancel, A110707.P2714735375999566640.a, A110707.P3236990286082523270.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
+
+end A110707
+
+/-! ## A110707.P689346253858720156
+
+`A141147(n+1)+A141147(n+1)+A141147(n+1)`
+-/
+
+namespace A110707.P689346253858720156
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141147 (n + 1) + A141147 (n + 1) + A141147 (n + 1)
+
+end
+
+end A110707.P689346253858720156
+
+namespace A110707
+
+/-- `A141147(n+1)+A141147(n+1)+A141147(n+1)` -/
+def P689346253858720156.Spec : Prop :=
+  ∀ n, P689346253858720156.a n = A110707 (n + 1)
 
 end A110707
 
@@ -4793,6 +4815,36 @@ end
 
 end A110753.P3963399435666367579
 
+/-! ## A110753.P10296273068544219477
+
+`A014682(A110754(n+1))`
+-/
+
+namespace A110753.P10296273068544219477
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014682 (A110754 (n + 1)).toNat
+
+end
+
+end A110753.P10296273068544219477
+
+/-! ## A110753.P13811889282904542019
+
+`A004277(A110752(n+1))`
+-/
+
+namespace A110753.P13811889282904542019
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A110752 (n + 1)).toNat
+
+end
+
+end A110753.P13811889282904542019
+
 /-!
 # A110754: a(n) = tau(N), where N = the number obtained as a concatenation of 8712 with itself n times and tau(n) = number of divisors of n.
 
@@ -4861,6 +4913,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A110754.P2802299098167926211
+
+/-! ## A110754.P2270688261940738416
+
+`A004277(A110753(n+1))`
+-/
+
+namespace A110754.P2270688261940738416
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A110753 (n + 1)).toNat
+
+end
+
+end A110754.P2270688261940738416
 
 /-!
 # A110755: a(n) = Tau(N), where N = the number obtained as a concatenation of 9801 with itself n times. Tau(n) = number of divisors of n.

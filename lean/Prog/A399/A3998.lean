@@ -13,7 +13,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
@@ -24,6 +23,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
@@ -309,6 +309,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399807.P7320853553885014840
+
+/-! ## A399807.P5375975906925948213
+
+`A390532(A060378(n+2))`
+-/
+
+namespace A399807.P5375975906925948213
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A060378 (n + 2)).toNat
+
+end
+
+end A399807.P5375975906925948213
 
 /-!
 # A399808: Number of unlabeled Hausdorff set systems on an n-set with neither the empty set nor the full set.
@@ -1121,6 +1136,52 @@ namespace A399829
 /-- `∏{e}[lcm(n+1, ∏{p}[n+1, #²]), A326178(#)]` -/
 def P11784014705185428258.Spec : Prop :=
   ∀ n, P11784014705185428258.a n = A399829 (n + 1)
+
+end A399829
+
+/-! ## A399829.P15755593268069122405
+
+`A046951(A366765(n+1)²)`
+-/
+
+namespace A399829.P15755593268069122405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046951 (A366765 (n + 1) ^ 2).toNat
+
+end
+
+end A399829.P15755593268069122405
+
+namespace A399829
+
+/-- `A046951(A366765(n+1)²)` -/
+def P15755593268069122405.Spec : Prop :=
+  ∀ n, P15755593268069122405.a n = A399829 (n + 1)
+
+end A399829
+
+/-! ## A399829.P1082646126721649898
+
+`A046951((n+1)*A366765(n+1))`
+-/
+
+namespace A399829.P1082646126721649898
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046951 ((n + 1 : ℤ) * A366765 (n + 1)).toNat
+
+end
+
+end A399829.P1082646126721649898
+
+namespace A399829
+
+/-- `A046951((n+1)*A366765(n+1))` -/
+def P1082646126721649898.Spec : Prop :=
+  ∀ n, P1082646126721649898.a n = A399829 (n + 1)
 
 end A399829
 
@@ -3495,26 +3556,29 @@ end A399870.P4148346299829758920
 /-!
 # A399872: Cyclically smooth Lyndon words with 6 colors.
 
-The programs for A399872, there is no canonical definition to state claims against.
+The programs for A399872, the canonical program `A399872.P15818502093124915241` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399872 has offset 1).
+
+The definition of A399872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A208775, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A399872.P15818502093124915241
 
 `∑{d}[n+1, A008683((n+1)/#)*A208775(#)]`
+
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
-namespace A399872.P15818502093124915241
-noncomputable section
+namespace A399872
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A008683((n+1)/#)*A208775(#)]` -/
+def P15818502093124915241.Spec : Prop :=
+  ∀ n, P15818502093124915241.a n = A399872 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A008683 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat * A208775 d
+theorem P15818502093124915241.correct : P15818502093124915241.Spec := by
+  intro n
+  simp only [A399872, Nat.add_sub_cancel]
 
-end
-
-end A399872.P15818502093124915241
+end A399872
 
 /-! ## A399872.P8352161458360250965
 
@@ -3534,6 +3598,14 @@ end
 
 end A399872.P8352161458360250965
 
+namespace A399872
+
+/-- `∑{d}[n+1, A208775(#)*A253206((n+1)/#)]` -/
+def P8352161458360250965.Spec : Prop :=
+  ∀ n, P8352161458360250965.a n = A399872 (n + 1)
+
+end A399872
+
 /-! ## A399872.P1228767781829047092
 
 `A399871(n+1)+A208775(n+1)-A399870(n+1)`
@@ -3548,6 +3620,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399872.P1228767781829047092
+
+namespace A399872
+
+/-- `A399871(n+1)+A208775(n+1)-A399870(n+1)` -/
+def P1228767781829047092.Spec : Prop :=
+  ∀ n, P1228767781829047092.a n = A399872 (n + 1)
+
+end A399872
 
 /-!
 # A399873: Row index of n in the Tchoukaillon array of order infinity (A344009).
@@ -3845,6 +3925,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A399886.P5781308092485756273
+
+/-!
+# A399895: Parity-perturbed Hofstadter-type sequence with delays 3 and 6 and initial values (1,1,3,3,5,1).
+
+The programs for A399895, the canonical program `A399895.P5880569962721886036` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399895 has offset 1).
+
+The definition of A399895 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A399895.P5880569962721886036
+
+`a(n-a(n-3))+a(n-a(n-6))-(-1)^(n+1)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=3, a(4)=5, a(5)=1`
+
+The canonical program, it is in `Seq.B000.C051`.
+-/
+
+namespace A399895
+
+/-- `a(n-a(n-3))+a(n-a(n-6))-(-1)^(n+1)` -/
+def P5880569962721886036.Spec : Prop :=
+  ∀ n, P5880569962721886036.a n = A399895 (n + 1)
+
+theorem P5880569962721886036.correct : P5880569962721886036.Spec := by
+  intro n
+  simp only [A399895, Nat.add_sub_cancel]
+
+end A399895
 
 /-!
 # A399896: Number of permutations of [n] requiring the greatest number of reversals of increasing or decreasing runs to sort.

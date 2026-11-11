@@ -5088,6 +5088,21 @@ end
 
 end A240533.P15201422692492260053
 
+/-! ## A240533.P9529258643142861690
+
+`A000142(n)*A240534(n)/A011557(n)`
+-/
+
+namespace A240533.P9529258643142861690
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000142 n * A240534 n : ℚ) / (A011557 n : ℚ)
+
+end
+
+end A240533.P9529258643142861690
+
 /-!
 # A240534: a(n) = denominators of n!/10^n.
 

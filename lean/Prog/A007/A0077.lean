@@ -2669,55 +2669,49 @@ def P4776668626771078920.Spec : Prop :=
 
 end A007715
 
-/-! ## A007715.P16711856328266400607
+/-! ## A007715.P14332825786855607800
 
-`A212246(n+1)+∑[n+1]`
+`A212501(n)+A185787(n+1)`
 -/
 
-namespace A007715.P16711856328266400607
+namespace A007715.P14332825786855607800
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212246 (n + 1) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+  A212501 n + A185787 (n + 1)
 
 end
 
-end A007715.P16711856328266400607
+end A007715.P14332825786855607800
 
 namespace A007715
 
-/-- `A212246(n+1)+∑[n+1]` -/
-def P16711856328266400607.Spec : Prop :=
-  ∀ n, P16711856328266400607.a n = A007715 (n + 1)
+/-- `A212501(n)+A185787(n+1)` -/
+def P14332825786855607800.Spec : Prop :=
+  ∀ n, P14332825786855607800.a n = A007715 (n + 1)
 
 end A007715
 
-/-! ## A007715.P13506168563235199205
+/-! ## A007715.P1662416174165542520
 
-`A212501(n+1)+∑[(n+1)²]`
+`A066804(n+1)-A001296(n)`
 -/
 
-namespace A007715.P13506168563235199205
+namespace A007715.P1662416174165542520
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ 2
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212501 (n + 1) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+  A066804 (n + 1) - A001296 n
 
 end
 
-end A007715.P13506168563235199205
+end A007715.P1662416174165542520
 
 namespace A007715
 
-/-- `A212501(n+1)+∑[(n+1)²]` -/
-def P13506168563235199205.Spec : Prop :=
-  ∀ n, P13506168563235199205.a n = A007715 (n + 1)
+/-- `A066804(n+1)-A001296(n)` -/
+def P1662416174165542520.Spec : Prop :=
+  ∀ n, P1662416174165542520.a n = A007715 (n + 1)
 
 end A007715
 
@@ -10700,6 +10694,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007769.P1293822205754495684
+
+/-! ## A007769.P1502162647312689571
+
+`A380626(A084849(n))`
+-/
+
+namespace A007769.P1502162647312689571
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380626 (A084849 n).toNat
+
+end
+
+end A007769.P1502162647312689571
 
 /-!
 # A007770: Happy numbers: numbers whose trajectory under iteration of sum of squares of digits map (see A003132) includes 1.

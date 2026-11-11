@@ -30,7 +30,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -59,7 +58,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4334,21 +4333,6 @@ end
 
 end A172441.P14884235933735494802
 
-/-! ## A172441.P9854205909740110667
-
-`A303708(A313746(n*A000035(n)))`
--/
-
-namespace A172441.P9854205909740110667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A313746 ((n : ℤ) * A000035 n).toNat).toNat
-
-end
-
-end A172441.P9854205909740110667
-
 /-! ## A172441.P1686768778376226518
 
 `A000035(n)*A196930(A350840(3*n))`
@@ -4378,6 +4362,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172441.P12216577942707566877
+
+/-! ## A172441.P4341272932933160616
+
+`A007302(A126869(n+1))`
+-/
+
+namespace A172441.P4341272932933160616
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007302 (A126869 (n + 1)).toNat
+
+end
+
+end A172441.P4341272932933160616
 
 /-!
 # A172442: A sixth of the smallest integer for which the number of divisors is the n-th composite.
@@ -9822,6 +9821,52 @@ namespace A172474
 /-- `A000196(A002620(n)-A001971(n))` -/
 def P3576237289444960043.Spec : Prop :=
   ∀ n, P3576237289444960043.a n = A172474 n
+
+end A172474
+
+/-! ## A172474.P2427659534363916024
+
+`A339183(A002620(n))`
+-/
+
+namespace A172474.P2427659534363916024
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339183 (A002620 n).toNat
+
+end
+
+end A172474.P2427659534363916024
+
+namespace A172474
+
+/-- `A339183(A002620(n))` -/
+def P2427659534363916024.Spec : Prop :=
+  ∀ n, P2427659534363916024.a n = A172474 n
+
+end A172474
+
+/-! ## A172474.P1755217117705740095
+
+`A339183(A004652(n))`
+-/
+
+namespace A172474.P1755217117705740095
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339183 (A004652 n).toNat
+
+end
+
+end A172474.P1755217117705740095
+
+namespace A172474
+
+/-- `A339183(A004652(n))` -/
+def P1755217117705740095.Spec : Prop :=
+  ∀ n, P1755217117705740095.a n = A172474 n
 
 end A172474
 

@@ -7247,6 +7247,21 @@ end
 
 end A181473.P16617745525036882576
 
+/-! ## A181473.P11021917610438608067
+
+`A010888(A064413(n+1))`
+-/
+
+namespace A181473.P11021917610438608067
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010888 (A064413 (n + 1)).toNat
+
+end
+
+end A181473.P11021917610438608067
+
 /-! ## A181473.P7602505463925999723
 
 `A010888(sqrt(A104125(n+1)))`
@@ -7261,21 +7276,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181473.P7602505463925999723
-
-/-! ## A181473.P11344816062995975122
-
-`A010888(A064413(n+1)+9)`
--/
-
-namespace A181473.P11344816062995975122
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010888 (A064413 (n + 1) + 9).toNat
-
-end
-
-end A181473.P11344816062995975122
 
 /-! ## A181473.P13758978227127598576
 
@@ -9709,6 +9709,32 @@ def P14268509334855491513.Spec : Prop :=
 
 end A181497
 
+/-! ## A181497.P6082236014485928709
+
+`∑[A185456(n+1)-(n+1)]`
+-/
+
+namespace A181497.P6082236014485928709
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185456 (n + 1) - (n + 1 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A181497.P6082236014485928709
+
+namespace A181497
+
+/-- `∑[A185456(n+1)-(n+1)]` -/
+def P6082236014485928709.Spec : Prop :=
+  ∀ n, P6082236014485928709.a n = A181497 n
+
+end A181497
+
 /-! ## A181497.P13237843242376892502
 
 `∑[A004760(n+1)-n]+n`
@@ -10105,38 +10131,6 @@ namespace A181497
 /-- `∑[fp[A162439(2*n+1)]]` -/
 def P17793623908385373002.Spec : Prop :=
   ∀ n, (P17793623908385373002.a n : ℤ) = A181497 n
-
-end A181497
-
-/-! ## A181497.P16813468810187677740
-
-`∑[A053644(lt[xor(n, 2*n), 2*(n+1)])]`
--/
-
-namespace A181497.P16813468810187677740
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor n (2 * n)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053644 (SequenceMachineLib.nth (fun j => f2 j < f3 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A181497.P16813468810187677740
-
-namespace A181497
-
-/-- `∑[A053644(lt[xor(n, 2*n), 2*(n+1)])]` -/
-def P16813468810187677740.Spec : Prop :=
-  ∀ n, P16813468810187677740.a n = A181497 n
 
 end A181497
 

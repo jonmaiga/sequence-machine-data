@@ -1594,6 +1594,35 @@ def P17691701693648119222.Spec : Prop :=
 
 end A370119
 
+/-! ## A370119.P2342564365136475093
+
+`eq[A198254(n), A370118(n)]`
+-/
+
+namespace A370119.P2342564365136475093
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A198254 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370118 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A370119.P2342564365136475093
+
+namespace A370119
+
+/-- `eq[A198254(n), A370118(n)]` -/
+def P2342564365136475093.Spec : Prop :=
+  ∀ n, (P2342564365136475093.a n : ℤ) = A370119 (n + 1)
+
+end A370119
+
 /-!
 # A370120: a(n) = A276085(A370117(n)), where A370117(n) is the denominator of n/A276086(A003415(n)), A003415 is the arithmetic derivative, A276086 is the primorial base exp-function, and A276085 is its inverse, the primorial base log-function.
 

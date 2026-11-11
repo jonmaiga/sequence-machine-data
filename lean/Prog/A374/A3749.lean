@@ -12,7 +12,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -5397,49 +5396,55 @@ def P13037908775507159513.Spec : Prop :=
 
 end A374980
 
-/-! ## A374980.P6687954081515813835
+/-! ## A374980.P13855843394363911252
 
-`floor(A116218(n)/A000079(n))`
+`∑{#}[n, (-1)^(n-#)*C(n, #)*(2*#)!/2^#]`
 -/
 
-namespace A374980.P6687954081515813835
+namespace A374980.P13855843394363911252
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A116218 n : ℚ) / (A000079 n : ℚ)⌋
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * ((Nat.factorial (2 * k) : ℚ) / (2 ^ k : ℚ))
 
 end
 
-end A374980.P6687954081515813835
+end A374980.P13855843394363911252
 
 namespace A374980
 
-/-- `floor(A116218(n)/A000079(n))` -/
-def P6687954081515813835.Spec : Prop :=
-  ∀ n, P6687954081515813835.a n = A374980 n
+/-- `∑{#}[n, (-1)^(n-#)*C(n, #)*(2*#)!/2^#]` -/
+def P13855843394363911252.Spec : Prop :=
+  ∀ n, P13855843394363911252.a n = (A374980 n : ℚ)
 
 end A374980
 
-/-! ## A374980.P3177906057066327360
+/-! ## A374980.P6098139206617240326
 
-`ceil(A116218(n)/A034008(n+2))`
+`(-1)^n*∑{#}[n, (-1)^#*C(n, #)*(2*#)!/2^#]`
 -/
 
-namespace A374980.P3177906057066327360
+namespace A374980.P6098139206617240326
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A116218 n : ℚ) / (A034008 (n + 2) : ℚ)⌉
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-1) ^ n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), ((-1) ^ k * (Nat.choose n k : ℤ) : ℚ) * ((Nat.factorial (2 * k) : ℚ) / (2 ^ k : ℚ)))
 
 end
 
-end A374980.P3177906057066327360
+end A374980.P6098139206617240326
 
 namespace A374980
 
-/-- `ceil(A116218(n)/A034008(n+2))` -/
-def P3177906057066327360.Spec : Prop :=
-  ∀ n, P3177906057066327360.a n = A374980 n
+/-- `(-1)^n*∑{#}[n, (-1)^#*C(n, #)*(2*#)!/2^#]` -/
+def P6098139206617240326.Spec : Prop :=
+  ∀ n, P6098139206617240326.a n = (A374980 n : ℚ)
 
 end A374980
 

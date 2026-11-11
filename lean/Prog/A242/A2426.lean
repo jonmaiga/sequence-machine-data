@@ -8118,6 +8118,24 @@ end
 
 end A242671.P2083319772613336222
 
+/-! ## A242671.P13373436828575456146
+
+`A002163(n+1)+Δ[A244847(n)]`
+-/
+
+namespace A242671.P13373436828575456146
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244847 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002163 (n + 1 + 1) + (f1 (n + 1) - f1 n)
+
+end
+
+end A242671.P13373436828575456146
+
 /-! ## A242671.P17331892454365622785
 
 `dr(A040012(n)²²*A098317(n))`
@@ -8252,24 +8270,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242671.P12591505413292251594
-
-/-! ## A242671.P13373436828575456146
-
-`A002163(n+1)+Δ[A244847(n)]`
--/
-
-namespace A242671.P13373436828575456146
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244847 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002163 (n + 1 + 1) + (f1 (n + 1) - f1 n)
-
-end
-
-end A242671.P13373436828575456146
 
 /-! ## A242671.P6757788947932099403
 

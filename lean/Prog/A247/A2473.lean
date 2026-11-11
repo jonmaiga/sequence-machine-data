@@ -37,7 +37,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C049
 import Seq.B001.C000
@@ -58,6 +57,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1841,6 +1841,32 @@ namespace A247313
 /-- `a(n-1)+a(n-1)+5^(n-1)` -/
 def P6169835648119833887.Spec : Prop :=
   ∀ n, P6169835648119833887.a n = (A247313 n : ℚ)
+
+end A247313
+
+/-! ## A247313.P5439481954720242534
+
+`5^n-∑{#}[n-1, 5^(n-(#+1))*2^(#+1)]`
+-/
+
+namespace A247313.P5439481954720242534
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 ^ n : ℚ) - ∑ k ∈ Finset.range (f1 n + 1).toNat, (5 : ℚ) ^ ((n : ℤ) - (k + 1 : ℤ) : ℤ) * (2 ^ (k + 1) : ℚ)
+
+end
+
+end A247313.P5439481954720242534
+
+namespace A247313
+
+/-- `5^n-∑{#}[n-1, 5^(n-(#+1))*2^(#+1)]` -/
+def P5439481954720242534.Spec : Prop :=
+  ∀ n, P5439481954720242534.a n = (A247313 n : ℚ)
 
 end A247313
 

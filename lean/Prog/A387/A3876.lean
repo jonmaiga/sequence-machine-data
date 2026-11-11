@@ -12,6 +12,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -66,7 +67,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -1898,6 +1898,21 @@ end A387629
 The programs for A387630, there is no canonical definition to state claims against.
 -/
 
+/-! ## A387630.P4366305274610680882
+
+`A401757(A041957(n+1))`
+-/
+
+namespace A387630.P4366305274610680882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401757 (A041957 (n + 1)).toNat
+
+end
+
+end A387630.P4366305274610680882
+
 /-! ## A387630.P546607930245930650
 
 `A324655(A000055(2*n+3)*A001951(n))`
@@ -2806,6 +2821,21 @@ end
 
 end A387643.P5823145904836292847
 
+/-! ## A387643.P7722518679033044025
+
+`A387641(n+1)-(A323329(n+1)+A323329(n+1))`
+-/
+
+namespace A387643.P7722518679033044025
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387641 (n + 1) - (A323329 (n + 1) + A323329 (n + 1))
+
+end
+
+end A387643.P7722518679033044025
+
 /-! ## A387643.P387287761310094385
 
 `A323330(n+1)+A323330(n+1)-A387641(n+1)`
@@ -2820,21 +2850,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387643.P387287761310094385
-
-/-! ## A387643.P15846025093723496958
-
-`A387885(n+1)/A323329(n+1)-A323329(n+1)`
--/
-
-namespace A387643.P15846025093723496958
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A387885 (n + 1) : ℚ) / (A323329 (n + 1) : ℚ) - (A323329 (n + 1) : ℚ)
-
-end
-
-end A387643.P15846025093723496958
 
 /-!
 # A387644: Complement of A045944.
@@ -4867,7 +4882,7 @@ end A387656.P4771032954146379801
 /-!
 # A387657: Array read by ascending antidiagonals: A(n, k) = denominator(k^n/n), with k >= 0.
 
-The programs for A387657, the canonical program `A387657.P982859840005591800` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387657 has offset 1).
+The programs for A387657, the canonical program `A387657.P982859840005591800` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387657 has offset 1).
 
 The definition of A387657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4899,7 +4914,7 @@ end A387657
 
 `A123275(A056943(n)+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A387657

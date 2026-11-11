@@ -61,6 +61,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -9333,6 +9334,24 @@ end
 
 end A256575.P2171273379051346041
 
+/-! ## A256575.P17764084100863927929
+
+`filter[A013590(n+1), A401791(#)]`
+-/
+
+namespace A256575.P17764084100863927929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013590 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A256575.P17764084100863927929
+
 /-! ## A256575.P15335598194257963964
 
 `∩[A013590(n+1), A013929(n+1)]`
@@ -9662,28 +9681,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A256575.P15669384491260486946
-
-/-! ## A256575.P12582777688182161385
-
-`∩[A013590(n+1), A388305(n+1)]`
--/
-
-namespace A256575.P12582777688182161385
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013590 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A388305 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A256575.P12582777688182161385
 
 /-!
 # A256577: Sum_{k>=0} (d_k)^(k+1)*10^k, where Sum_{k>=0} (d_k)*10^k is the decimal expansion of n.

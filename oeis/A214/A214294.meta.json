@@ -3,12 +3,13 @@
   "id": "A214294",
   "mentions": [],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

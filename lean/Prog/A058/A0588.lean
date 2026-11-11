@@ -25,13 +25,11 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -104,36 +102,6 @@ set_option linter.unreachableTactic false
 The programs for A058800, there is no canonical definition to state claims against.
 -/
 
-/-! ## A058800.P15220441558848156602
-
-`A283824(2*A056864(n))`
--/
-
-namespace A058800.P15220441558848156602
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283824 (2 * A056864 n).toNat
-
-end
-
-end A058800.P15220441558848156602
-
-/-! ## A058800.P3768196710322815928
-
-`A283824(2*A289207(n))`
--/
-
-namespace A058800.P3768196710322815928
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283824 (2 * A289207 n).toNat
-
-end
-
-end A058800.P3768196710322815928
-
 /-! ## A058800.P2809644428021509111
 
 `A194698(or(12, A323949(n)))`
@@ -148,36 +116,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A058800.P2809644428021509111
-
-/-! ## A058800.P11593268327347236009
-
-`A283824(floor(log2(A057693(n))))`
--/
-
-namespace A058800.P11593268327347236009
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283824 (Nat.log 2 (A057693 n).toNat)
-
-end
-
-end A058800.P11593268327347236009
-
-/-! ## A058800.P10978578851843613833
-
-`A283824(ceil(log2(A323949(n))))`
--/
-
-namespace A058800.P10978578851843613833
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283824 ⌈Real.logb 2 (A323949 n : ℝ)⌉.toNat
-
-end
-
-end A058800.P10978578851843613833
 
 /-!
 # A058801: Number of connected vertically indecomposable partial lattices on n unlabeled nodes.
@@ -4742,6 +4680,24 @@ end
 
 end A058863.P2553564948789069167
 
+/-! ## A058863.P10507612705171289351
+
+`A350528(∑[n]+1)`
+-/
+
+namespace A058863.P10507612705171289351
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350528 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A058863.P10507612705171289351
+
 /-!
 # A058864: Number of labeled chordal graphs (connected or not) on n nodes with no induced path P_4.
 
@@ -5626,6 +5582,32 @@ def P7639222919582666124.Spec : Prop :=
 
 end A058877
 
+/-! ## A058877.P4218945641180053636
+
+`∑{#}[n-1, 2^#+2^n-1]`
+-/
+
+namespace A058877.P4218945641180053636
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((2 ^ k + 2 ^ n : ℤ) - 1)
+
+end
+
+end A058877.P4218945641180053636
+
+namespace A058877
+
+/-- `∑{#}[n-1, 2^#+2^n-1]` -/
+def P4218945641180053636.Spec : Prop :=
+  ∀ n, P4218945641180053636.a n = A058877 (n + 1)
+
+end A058877
+
 /-! ## A058877.P6165612968527305830
 
 `abs(∑[2*a(n-1)]*(n+1))` with `a(0)=0, a(1)=1`
@@ -5892,35 +5874,6 @@ theorem P3816200946732989782.correct : P3816200946732989782.Spec := by
   simp only [A058877, Nat.add_sub_cancel, A058877.P3816200946732989782.a, A058877.P1227274421615768529.a, A092442, A092442.P8376013778019993799.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A058877
-
-/-! ## A058877.P17873863756436912021
-
-`∑[∑[A045623(n)]-1]`
--/
-
-namespace A058877.P17873863756436912021
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045623 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A058877.P17873863756436912021
-
-namespace A058877
-
-/-- `∑[∑[A045623(n)]-1]` -/
-def P17873863756436912021.Spec : Prop :=
-  ∀ n, P17873863756436912021.a n = A058877 (n + 1)
 
 end A058877
 

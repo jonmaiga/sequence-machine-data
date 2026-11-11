@@ -28,7 +28,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -64,6 +64,7 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -6801,6 +6802,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383469.P4148868937855926632
+
+/-! ## A383469.P3228891344529376650
+
+`A174956(A383468(n+1))`
+-/
+
+namespace A383469.P3228891344529376650
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174956 (A383468 (n + 1)).toNat
+
+end
+
+end A383469.P3228891344529376650
 
 /-!
 # A383470: Numbers k which are divisible by the number of squares mod k.

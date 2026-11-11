@@ -6232,6 +6232,29 @@ def P4156292382458000002.Spec : Prop :=
 
 end A249349
 
+/-! ## A249349.P11978587640108234610
+
+`(2*n+1)*a(n-1)+n` with `a(0)=0`
+-/
+
+namespace A249349.P11978587640108234610
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  (2 * n + 1) * a (n - 1) + n
+
+end
+
+end A249349.P11978587640108234610
+
+namespace A249349
+
+/-- `(2*n+1)*a(n-1)+n` -/
+def P11978587640108234610.Spec : Prop :=
+  ∀ n, (P11978587640108234610.a n : ℤ) = A249349 n
+
+end A249349
+
 /-!
 # A249350: Prime numbers Q such that the concatenation Q,6,Q is prime.
 

@@ -3341,6 +3341,21 @@ end
 
 end A263730.P15286574145472618301
 
+/-! ## A263730.P17473254767439503402
+
+`A002260(A056534(n+1))-1`
+-/
+
+namespace A263730.P17473254767439503402
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002260 (A056534 (n + 1)).toNat - 1
+
+end
+
+end A263730.P17473254767439503402
+
 /-! ## A263730.P7693503221836099374
 
 `A103823(C(A027750(n+1), 2))`
@@ -3430,27 +3445,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A263730.P15821296085744012227
-
-/-! ## A263730.P16425638144661088874
-
-`A002262(lt[0, A127093(n+1)])`
--/
-
-namespace A263730.P16425638144661088874
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127093 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
-
-end
-
-end A263730.P16425638144661088874
 
 /-!
 # A263731: Number of length n arrays of permutations of 0..n-1 with each element moved by -n to n places and the average of every three consecutive elements is never greater than the median of the previous three elements.

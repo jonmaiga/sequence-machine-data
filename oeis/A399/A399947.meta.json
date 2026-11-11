@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 31*Pi/6 - sqrt(3).",
+  "id": "A399947",
+  "mentions": [
+    "A376642",
+    "A401885"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

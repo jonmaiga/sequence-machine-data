@@ -27,7 +27,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
@@ -6572,6 +6572,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253559.P979816310392454063
+
+/-! ## A253559.P11237424325406622385
+
+`A252736(A250246(n+1))`
+-/
+
+namespace A253559.P11237424325406622385
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252736 (A250246 (n + 1)).toNat
+
+end
+
+end A253559.P11237424325406622385
+
+/-! ## A253559.P18271607072805331796
+
+`A252736(A250250(n+1))`
+-/
+
+namespace A253559.P18271607072805331796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252736 (A250250 (n + 1)).toNat
+
+end
+
+end A253559.P18271607072805331796
+
+/-! ## A253559.P6332563434534358147
+
+`A326075(A251724(n+1))`
+-/
+
+namespace A253559.P6332563434534358147
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326075 (A251724 (n + 1)).toNat
+
+end
+
+end A253559.P6332563434534358147
 
 /-!
 # A253560: Multiply n by its largest prime factor: a(n) = A006530(n) * n.

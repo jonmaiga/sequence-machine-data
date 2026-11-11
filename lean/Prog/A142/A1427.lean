@@ -51,6 +51,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -2010,7 +2011,7 @@ end
 end A142712.P7282983817167739937
 
 /-!
-# A142713: A determinant sequence: M={{a(-1 + n), a(-2 + n), a(-3 + n), a(-4 + n)}, {a(-2 + n), a(-3 + n), a(-4 + n), a(-5 + n)}, {a(-3 + n), a(-4 + n), a(-5 + n), a(-6 + n)}, {a(-4 + n), a(-5 + n), a(-6 + n), a(-7 + n)}}; a(n)=Det[M].
+# A142713: a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=7, a(6)=11, a(7)=13, a(n) = det([[a(n-1), a(n-2), a(n-3), a(n-4)], [a(n-2), a(n-3), a(n-4), a(n-5)], [(a(n-3), a(n-4), a(n-5), a(n-6)], [a(n-4), a(n-5), a(n-6), a(n-7)]]).
 
 The programs for A142713, there is no canonical definition to state claims against.
 -/
@@ -3910,21 +3911,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A142727.P16497092469242857647
-
-/-! ## A142727.P9521608700676418678
-
-`A322794(A295379(n+1))+A007095(n)`
--/
-
-namespace A142727.P9521608700676418678
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A295379 (n + 1)).toNat + A007095 n
-
-end
-
-end A142727.P9521608700676418678
 
 /-! ## A142727.P16301941365674378232
 

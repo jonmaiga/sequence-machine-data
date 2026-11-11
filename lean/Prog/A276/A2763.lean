@@ -6067,6 +6067,50 @@ end
 
 end A276347.P3278421187425103027
 
+/-! ## A276347.P9962906409384065423
+
+`∪[A028763(n+1), A030173(n+1)]`
+-/
+
+namespace A276347.P9962906409384065423
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028763 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030173 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A276347.P9962906409384065423
+
+/-! ## A276347.P6785811591633524612
+
+`∪[A229792(n+1), A347527(n+1)]`
+-/
+
+namespace A276347.P6785811591633524612
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229792 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347527 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A276347.P6785811591633524612
+
 /-!
 # A276348: a(n) = the smallest number k such that k*n is a number with a string of 1's followed by a string of 0's.
 
@@ -10734,29 +10778,6 @@ theorem P11821832504603089140.correct : P11821832504603089140.Spec := by
 
 end A276390
 
-/-! ## A276390.P9457341898866190411
-
-`A139250(gcd((n+1)*A151566(n), A001316(n)))`
--/
-
-namespace A276390.P9457341898866190411
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139250 (Int.gcd ((n + 1 : ℤ) * A151566 n) (A001316 n))
-
-end
-
-end A276390.P9457341898866190411
-
-namespace A276390
-
-/-- `A139250(gcd((n+1)*A151566(n), A001316(n)))` -/
-def P9457341898866190411.Spec : Prop :=
-  ∀ n, P9457341898866190411.a n = A276390 n
-
-end A276390
-
 /-! ## A276390.P1246624239043132895
 
 `A276391(A152423(1+n))`
@@ -10777,6 +10798,29 @@ namespace A276390
 /-- `A276391(A152423(1+n))` -/
 def P1246624239043132895.Spec : Prop :=
   ∀ n, P1246624239043132895.a n = A276390 n
+
+end A276390
+
+/-! ## A276390.P9457341898866190411
+
+`A139250(gcd((n+1)*A151566(n), A001316(n)))`
+-/
+
+namespace A276390.P9457341898866190411
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139250 (Int.gcd ((n + 1 : ℤ) * A151566 n) (A001316 n))
+
+end
+
+end A276390.P9457341898866190411
+
+namespace A276390
+
+/-- `A139250(gcd((n+1)*A151566(n), A001316(n)))` -/
+def P9457341898866190411.Spec : Prop :=
+  ∀ n, P9457341898866190411.a n = A276390 n
 
 end A276390
 

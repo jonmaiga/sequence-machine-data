@@ -3032,6 +3032,21 @@ end
 
 end A129315.P5330653453157557635
 
+/-! ## A129315.P3253371632937527052
+
+`A003963(A309179(n+1))`
+-/
+
+namespace A129315.P3253371632937527052
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003963 (A309179 (n + 1)).toNat
+
+end
+
+end A129315.P3253371632937527052
+
 /-! ## A129315.P9011452835674705987
 
 `∑{p}[A309179(n+1), A026233(#)]`
@@ -3049,21 +3064,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129315.P9011452835674705987
-
-/-! ## A129315.P12947837732789367258
-
-`A056239(A309179(n+1)%A252882(n+1))`
--/
-
-namespace A129315.P12947837732789367258
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (Int.tmod (A309179 (n + 1)) (A252882 (n + 1))).toNat
-
-end
-
-end A129315.P12947837732789367258
 
 /-!
 # A129316: Positive integers k such that sopfr(k) divides sopfr(k+1), where sopfr(k) is the sum of the prime factors of k, counting multiplicity.

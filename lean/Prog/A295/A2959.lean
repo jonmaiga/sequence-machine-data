@@ -60,6 +60,7 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -4424,6 +4425,29 @@ The programs for A295931, the canonical program `A295931.P15567185849400187992` 
 The definition of A295931 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A295931.P10239247130493927125
+
+`A007425(A253641(n+1))`
+-/
+
+namespace A295931.P10239247130493927125
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007425 (A253641 (n + 1)).toNat
+
+end
+
+end A295931.P10239247130493927125
+
+namespace A295931
+
+/-- `A007425(A253641(n+1))` -/
+def P10239247130493927125.Spec : Prop :=
+  ∀ n, P10239247130493927125.a n = A295931 (n + 1)
+
+end A295931
+
 /-! ## A295931.P15567185849400187992
 
 `∑{d}[A253641(n+1), A000005(#)]`
@@ -4636,29 +4660,6 @@ namespace A295931
 /-- `A338236(A294338((n+1)²))+A294338(n+1)` -/
 def P8993736371881813670.Spec : Prop :=
   ∀ n, P8993736371881813670.a n = A295931 (n + 1)
-
-end A295931
-
-/-! ## A295931.P13479072514462795987
-
-`A316781(2^A316789(n+1))`
--/
-
-namespace A295931.P13479072514462795987
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316781 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (A316789 (n + 1) : ℤ))).toNat
-
-end
-
-end A295931.P13479072514462795987
-
-namespace A295931
-
-/-- `A316781(2^A316789(n+1))` -/
-def P13479072514462795987.Spec : Prop :=
-  ∀ n, P13479072514462795987.a n = A295931 (n + 1)
 
 end A295931
 

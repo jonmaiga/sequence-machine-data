@@ -1,0 +1,17 @@
+{
+  "description": "Records of A401756.",
+  "id": "A401809",
+  "mentions": [
+    "A401756",
+    "A401810"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

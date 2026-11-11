@@ -36,6 +36,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C046
@@ -2399,6 +2400,29 @@ namespace A111924
 /-- `lcm(A033999(n), A104556(A061579(n)))` -/
 def P10762628298806909453.Spec : Prop :=
   ∀ n, (P10762628298806909453.a n : ℤ) = A111924 (n + 1)
+
+end A111924
+
+/-! ## A111924.P15071869334612805036
+
+`C(row(n)+1, 2*col(n))*(2*col(n))!/col(n)!*1/2^col(n)`
+-/
+
+namespace A111924.P15071869334612805036
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (SequenceMachineLib.triRow n + 1) (2 * SequenceMachineLib.triCol n) : ℚ) * ((Nat.factorial (2 * SequenceMachineLib.triCol n) : ℚ) / (Nat.factorial (SequenceMachineLib.triCol n) : ℚ)) * (1 / (2 ^ SequenceMachineLib.triCol n : ℚ))
+
+end
+
+end A111924.P15071869334612805036
+
+namespace A111924
+
+/-- `C(row(n)+1, 2*col(n))*(2*col(n))!/col(n)!*1/2^col(n)` -/
+def P15071869334612805036.Spec : Prop :=
+  ∀ n, P15071869334612805036.a n = (A111924 (n + 1) : ℚ)
 
 end A111924
 

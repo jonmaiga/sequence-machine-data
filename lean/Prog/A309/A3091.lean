@@ -3462,52 +3462,8 @@ end A309131
 /-!
 # A309132: a(n) is the denominator of F(n) = A027641(n-1)/n + A027642(n-1)/n^2.
 
-The programs for A309132, the canonical program `A309132.P6253841371733913923` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309132 has offset 1).
-
-The definition of A309132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A309132, there is no canonical definition to state claims against.
 -/
-
-/-! ## A309132.P6253841371733913923
-
-`lcm(A326478(n+1)², A326478(A055032(n+1)²))`
-
-The canonical program, it is in `Seq.B009.C000`.
--/
-
-namespace A309132
-
-/-- `lcm(A326478(n+1)², A326478(A055032(n+1)²))` -/
-def P6253841371733913923.Spec : Prop :=
-  ∀ n, (P6253841371733913923.a n : ℤ) = A309132 (n + 1)
-
-theorem P6253841371733913923.correct : P6253841371733913923.Spec := by
-  intro n
-  simp only [A309132, Nat.add_sub_cancel]
-
-end A309132
-
-/-! ## A309132.P7890350758506847238
-
-`lcm(A055032(n+1), A055032(A326578(n+1)))`
--/
-
-namespace A309132.P7890350758506847238
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A055032 (n + 1)) (A055032 (A326578 (n + 1)).toNat)
-
-end
-
-end A309132.P7890350758506847238
-
-namespace A309132
-
-/-- `lcm(A055032(n+1), A055032(A326578(n+1)))` -/
-def P7890350758506847238.Spec : Prop :=
-  ∀ n, (P7890350758506847238.a n : ℤ) = A309132 (n + 1)
-
-end A309132
 
 /-! ## A309132.P10815085204544664482
 
@@ -3524,14 +3480,6 @@ end
 
 end A309132.P10815085204544664482
 
-namespace A309132
-
-/-- `gcd(A174342(n)², A326578(n+1))` -/
-def P10815085204544664482.Spec : Prop :=
-  ∀ n, (P10815085204544664482.a n : ℤ) = A309132 (n + 1)
-
-end A309132
-
 /-! ## A309132.P4489303919732198621
 
 `(n+1)/A027642(n)*A174342(n)`
@@ -3547,13 +3495,35 @@ end
 
 end A309132.P4489303919732198621
 
-namespace A309132
+/-! ## A309132.P6253841371733913923
 
-/-- `(n+1)/A027642(n)*A174342(n)` -/
-def P4489303919732198621.Spec : Prop :=
-  ∀ n, P4489303919732198621.a n = (A309132 (n + 1) : ℚ)
+`lcm(A326478(n+1)², A326478(A055032(n+1)²))`
+-/
 
-end A309132
+namespace A309132.P6253841371733913923
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A326478 (n + 1) ^ 2) (A326478 (A055032 (n + 1) ^ 2).toNat)
+
+end
+
+end A309132.P6253841371733913923
+
+/-! ## A309132.P7890350758506847238
+
+`lcm(A055032(n+1), A055032(A326578(n+1)))`
+-/
+
+namespace A309132.P7890350758506847238
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A055032 (n + 1)) (A055032 (A326578 (n + 1)).toNat)
+
+end
+
+end A309132.P7890350758506847238
 
 /-! ## A309132.P12231822801522487685
 
@@ -3569,14 +3539,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A309132.P12231822801522487685
-
-namespace A309132
-
-/-- `lcm(A326478(n+1)², A326582(n))` -/
-def P12231822801522487685.Spec : Prop :=
-  ∀ n, (P12231822801522487685.a n : ℤ) = A309132 (n + 1)
-
-end A309132
 
 /-!
 # A309133: Nonnegative integers of the form 4*x^2+6*x*y-7*y^2.

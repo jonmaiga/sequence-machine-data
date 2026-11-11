@@ -19,7 +19,6 @@ import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
@@ -28,7 +27,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
@@ -39,7 +37,7 @@ import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C006
@@ -229,7 +227,7 @@ end A399304.P13475811472511969205
 /-!
 # A399305: Integers whose minimal Lucas representation (A130310) ends in a 0 which if removed results in a valid minimal Lucas representation of another integer.
 
-The programs for A399305, the canonical program `A399305.P13457833435346331970` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399305 has offset 1).
+The programs for A399305, the canonical program `A399305.P13457833435346331970` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399305 has offset 1).
 
 The definition of A399305 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8540 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -381,7 +379,7 @@ end A399305
 
 `A063732(A187945(2+n))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399305
@@ -2805,7 +2803,7 @@ end
 end A399356.P7923111433417306381
 
 /-!
-# A399357: Number of independent vertex sets in the 4 X n Klein bottle graph.
+# A399357: Number of independent vertex sets in the 4 X n Klein bottle grid graph.
 
 The programs for A399357, the canonical program `A399357.P4855077862202174180` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399357 has offset 0).
 
@@ -3267,6 +3265,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399372.P8830423896890276882
+
+/-! ## A399372.P9433994409026639673
+
+`A020639(A399376(2*n-n))`
+-/
+
+namespace A399372.P9433994409026639673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A399376 (2 * n - n)).toNat
+
+end
+
+end A399372.P9433994409026639673
+
+/-! ## A399372.P2227241604179198985
+
+`A020639(A020639(A399376(n))²)`
+-/
+
+namespace A399372.P2227241604179198985
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A020639 (A399376 n).toNat ^ 2).toNat
+
+end
+
+end A399372.P2227241604179198985
 
 /-! ## A399372.P2698653112200133599
 
@@ -3791,6 +3819,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399382.P16484070010105378822
+
+/-! ## A399382.P15880741245922532579
+
+`A136691(A183102(n+2))`
+-/
+
+namespace A399382.P15880741245922532579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136691 (A183102 (n + 2)).toNat
+
+end
+
+end A399382.P15880741245922532579
 
 /-!
 # A399383: Triangle read by rows: T(n,k) = Sum_{i=0..n-k} binomial(n,i)*|Stirling1(n-i,k)|*k^i, for n >= 0 and 0 <= k <= n.

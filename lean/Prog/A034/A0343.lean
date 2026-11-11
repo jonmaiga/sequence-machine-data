@@ -5761,6 +5761,21 @@ end
 
 end A034361.P15174248548656269315
 
+/-! ## A034361.P8424347861916503568
+
+`A359900(A378342(n+4))`
+-/
+
+namespace A034361.P8424347861916503568
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359900 (A378342 (n + 4)).toNat
+
+end
+
+end A034361.P8424347861916503568
+
 /-! ## A034361.P8160608490453245724
 
 `A215934(C(n, 6))`
@@ -5775,21 +5790,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034361.P8160608490453245724
-
-/-! ## A034361.P11566033851266998915
-
-`A374744(C(n, 6)+1)`
--/
-
-namespace A034361.P11566033851266998915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374744 (Nat.choose n 6 + 1)
-
-end
-
-end A034361.P11566033851266998915
 
 /-!
 # A034362: Number of binary [ n,8 ] codes.

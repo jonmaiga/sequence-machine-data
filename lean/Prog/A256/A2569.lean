@@ -38,6 +38,7 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6492,6 +6493,21 @@ end A256982.P8977059205016534742
 The programs for A256983, there is no canonical definition to state claims against.
 -/
 
+/-! ## A256983.P10682974007856947965
+
+`A115360(A401502(n+1))`
+-/
+
+namespace A256983.P10682974007856947965
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115360 (A401502 (n + 1)).toNat
+
+end
+
+end A256983.P10682974007856947965
+
 /-! ## A256983.P6924489559653948036
 
 `A115360(A201636(n+1))`
@@ -6558,21 +6574,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A256983.P5912080415325027985
-
-/-! ## A256983.P4214061297562352837
-
-`A121373(and(A007052(n+1), A332291(n+1)))`
--/
-
-namespace A256983.P4214061297562352837
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121373 (Int.land (A007052 (n + 1)) (A332291 (n + 1))).toNat
-
-end
-
-end A256983.P4214061297562352837
 
 /-!
 # A256986: Solution to Popular Computing Contest 4, the Square Spiral.

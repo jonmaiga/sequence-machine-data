@@ -393,6 +393,190 @@ def P4483261961088971373.Spec : Prop :=
 
 end A372302
 
+/-! ## A372302.P4027286871432715796
+
+`A047924(A001950(n+1)-1)`
+-/
+
+namespace A372302.P4027286871432715796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047924 (A001950 (n + 1) - 1).toNat
+
+end
+
+end A372302.P4027286871432715796
+
+namespace A372302
+
+/-- `A047924(A001950(n+1)-1)` -/
+def P4027286871432715796.Spec : Prop :=
+  ∀ n, P4027286871432715796.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P14702736210888485732
+
+`A095098(A001950(n+1)-1)`
+-/
+
+namespace A372302.P14702736210888485732
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095098 (A001950 (n + 1) - 1).toNat
+
+end
+
+end A372302.P14702736210888485732
+
+namespace A372302
+
+/-- `A095098(A001950(n+1)-1)` -/
+def P14702736210888485732.Spec : Prop :=
+  ∀ n, P14702736210888485732.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P722969175731237987
+
+`A047924(A307295(2*n)-1)`
+-/
+
+namespace A372302.P722969175731237987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047924 (A307295 (2 * n) - 1).toNat
+
+end
+
+end A372302.P722969175731237987
+
+namespace A372302
+
+/-- `A047924(A307295(2*n)-1)` -/
+def P722969175731237987.Spec : Prop :=
+  ∀ n, P722969175731237987.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P7825696341875925234
+
+`A004957(A035336(n+1))`
+-/
+
+namespace A372302.P7825696341875925234
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004957 (A035336 (n + 1)).toNat
+
+end
+
+end A372302.P7825696341875925234
+
+namespace A372302
+
+/-- `A004957(A035336(n+1))` -/
+def P7825696341875925234.Spec : Prop :=
+  ∀ n, P7825696341875925234.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P2989275309132509528
+
+`A003259(A003623(n+1))`
+-/
+
+namespace A372302.P2989275309132509528
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003259 (A003623 (n + 1)).toNat
+
+end
+
+end A372302.P2989275309132509528
+
+namespace A372302
+
+/-- `A003259(A003623(n+1))` -/
+def P2989275309132509528.Spec : Prop :=
+  ∀ n, P2989275309132509528.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P3606211750607719704
+
+`A026352(A003623(n+1)-1)`
+-/
+
+namespace A372302.P3606211750607719704
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026352 (A003623 (n + 1) - 1).toNat
+
+end
+
+end A372302.P3606211750607719704
+
+namespace A372302
+
+/-- `A026352(A003623(n+1)-1)` -/
+def P3606211750607719704.Spec : Prop :=
+  ∀ n, P3606211750607719704.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P9057798533163250424
+
+`A026352(A089910(n+1)-2)`
+-/
+
+namespace A372302.P9057798533163250424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026352 (A089910 (n + 1) - 2).toNat
+
+end
+
+end A372302.P9057798533163250424
+
+namespace A372302
+
+/-- `A026352(A089910(n+1)-2)` -/
+def P9057798533163250424.Spec : Prop :=
+  ∀ n, P9057798533163250424.a n = A372302 (n + 1)
+
+end A372302
+
+/-! ## A372302.P3493195619752802020
+
+`A026352(A276885(n+2)-2)`
+-/
+
+namespace A372302.P3493195619752802020
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026352 (A276885 (n + 2) - 2).toNat
+
+end
+
+end A372302.P3493195619752802020
+
+namespace A372302
+
+/-- `A026352(A276885(n+2)-2)` -/
+def P3493195619752802020.Spec : Prop :=
+  ∀ n, P3493195619752802020.a n = A372302 (n + 1)
+
+end A372302
+
 /-!
 # A372304: Binomial transform of the Gray code sequence.
 
@@ -544,6 +728,21 @@ end
 
 end A372306.P3029209707473509493
 
+/-! ## A372306.P9439877081702950052
+
+`xor(A103675(n), A373178(n+1))`
+-/
+
+namespace A372306.P9439877081702950052
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A103675 n) (A373178 (n + 1))
+
+end
+
+end A372306.P9439877081702950052
+
 /-! ## A372306.P7789394443270499279
 
 `A373178(n+1)-A122841(A058984(n))`
@@ -600,21 +799,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A372306.P6085811599192659524
-
-/-! ## A372306.P11190654629774919714
-
-`A373178(n+1)-A070202(A157212(n))`
--/
-
-namespace A372306.P11190654629774919714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373178 (n + 1) - A070202 (A157212 n).toNat
-
-end
-
-end A372306.P11190654629774919714
 
 /-!
 # A372307: Square array read by antidiagonals: T(n,k) is the number of derangements of a multiset comprising n repeats of a k-element set.

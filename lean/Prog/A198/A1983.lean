@@ -6345,6 +6345,21 @@ end
 
 end A198388.P4518656424971468027
 
+/-! ## A198388.P15462251422548454766
+
+`A000188(A198384(n+1))`
+-/
+
+namespace A198388.P15462251422548454766
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A198384 (n + 1)).toNat
+
+end
+
+end A198388.P15462251422548454766
+
 /-!
 # A198389: Square root of second term of a triple of squares in arithmetic progression.
 
@@ -6470,6 +6485,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A198389.P4109698071496409017
+
+/-! ## A198389.P9580309845088170756
+
+`A018851(A198385(n+1))`
+-/
+
+namespace A198389.P9580309845088170756
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018851 (A198385 (n + 1)).toNat
+
+end
+
+end A198389.P9580309845088170756
 
 /-!
 # A198390: Square root of third term of a triple of squares in arithmetic progression.

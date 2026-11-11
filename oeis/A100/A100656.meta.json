@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=1 if the n-th hexagonal number is a prime, otherwise 0.",
+  "description": "a(n)=1 if the n-th hex (or centered hexagonal) number (A003215) is a prime, otherwise 0.",
   "id": "A100656",
   "mentions": [
     "A003215"

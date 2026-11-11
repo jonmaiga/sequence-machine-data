@@ -46,13 +46,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -1611,6 +1610,29 @@ namespace A282413
 /-- `A266591(n)*A286862(n)` -/
 def P10482100992910494036.Spec : Prop :=
   ∀ n, P10482100992910494036.a n = A282413 n
+
+end A282413
+
+/-! ## A282413.P1170588193005959806
+
+`A266591(n)*A290235(n)`
+-/
+
+namespace A282413.P1170588193005959806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266591 n * A290235 n
+
+end
+
+end A282413.P1170588193005959806
+
+namespace A282413
+
+/-- `A266591(n)*A290235(n)` -/
+def P1170588193005959806.Spec : Prop :=
+  ∀ n, P1170588193005959806.a n = A282413 n
 
 end A282413
 
@@ -5380,6 +5402,21 @@ end
 
 end A282442.P774564535756297334
 
+/-! ## A282442.P1705255529555429574
+
+`A031285(A282443(n+1))`
+-/
+
+namespace A282442.P1705255529555429574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031285 (A282443 (n + 1)).toNat
+
+end
+
+end A282442.P1705255529555429574
+
 /-!
 # A282443: a(n) is the largest step size that is taken on a staircase of n steps when following the following procedure: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.
 
@@ -8501,6 +8538,29 @@ def P2227998814789715717.Spec : Prop :=
 
 end A282464
 
+/-! ## A282464.P1155741606652552552
+
+`n*A000045(n)*A000045(n+1)-A000045(n)²+(1+(-1)^(n-1))/2`
+-/
+
+namespace A282464.P1155741606652552552
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * A000045 n * A000045 (n + 1) - A000045 n ^ 2 : ℚ) + (1 + (-1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)) / 2
+
+end
+
+end A282464.P1155741606652552552
+
+namespace A282464
+
+/-- `n*A000045(n)*A000045(n+1)-A000045(n)²+(1+(-1)^(n-1))/2` -/
+def P1155741606652552552.Spec : Prop :=
+  ∀ n, P1155741606652552552.a n = (A282464 n : ℚ)
+
+end A282464
+
 /-! ## A282464.P5653478584382209645
 
 `∑[2*n*2*floor(A187893(n)/3)²]/4`
@@ -9373,6 +9433,21 @@ end
 
 end A282467.P10433496053431302616
 
+/-! ## A282467.P14429732154950744617
+
+`A400210(n+1)+A086738(n+1)`
+-/
+
+namespace A282467.P14429732154950744617
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400210 (n + 1) + A086738 (n + 1)
+
+end
+
+end A282467.P14429732154950744617
+
 /-! ## A282467.P12049137023286715357
 
 `A195364(n+1)-A099777(n+1)`
@@ -9627,21 +9702,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282467.P8948556506818664872
-
-/-! ## A282467.P8791065808190259552
-
-`A000041(n+1)-A091954(2*(n+1))`
--/
-
-namespace A282467.P8791065808190259552
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (n + 1) - A091954 (2 * (n + 1))
-
-end
-
-end A282467.P8791065808190259552
 
 /-!
 # A282470: Q-toothpick sequence with Q-toothpicks of radius 1 and 2 (see Comments for precise definition).

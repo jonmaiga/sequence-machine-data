@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that {the largest divisor of sigma(k) coprime with k} is a prime, where sigma is the sum of divisors function.",
+  "id": "A401382",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A105402",
+    "A193065",
+    "A401375",
+    "A401381",
+    "A401388",
+    "A401389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

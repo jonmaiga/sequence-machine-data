@@ -62,6 +62,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -8279,8 +8280,25 @@ end A208771.P3223097199863499163
 /-!
 # A208772: Number of n-bead necklaces labeled with numbers 1..3 not allowing reversal, with no adjacent beads differing by more than 1.
 
-The programs for A208772, there is no canonical definition to state claims against.
+The programs for A208772, the canonical program `A208772.P6743188012949669259` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208772 has offset 1).
+
+The definition of A208772 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A208772.P6743188012949669259
+
+`1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124696(#)]`
+
+The canonical program, it is in `Seq.B003.C003`.
+-/
+
+namespace A208772
+
+/-- `1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124696(#)]` -/
+def P6743188012949669259.Spec : Prop :=
+  ∀ n, P6743188012949669259.a n = (A208772 (n + 1) : ℚ)
+
+end A208772
 
 /-! ## A208772.P2297137338565958146
 
@@ -8300,6 +8318,14 @@ end
 
 end A208772.P2297137338565958146
 
+namespace A208772
+
+/-- `∑{d}[n+1, A215335(#)]` -/
+def P2297137338565958146.Spec : Prop :=
+  ∀ n, P2297137338565958146.a n = A208772 (n + 1)
+
+end A208772
+
 /-! ## A208772.P6540287309430114470
 
 `A215327(n+1)+A215335(n+1)-A215328(n+1)`
@@ -8314,6 +8340,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208772.P6540287309430114470
+
+namespace A208772
+
+/-- `A215327(n+1)+A215335(n+1)-A215328(n+1)` -/
+def P6540287309430114470.Spec : Prop :=
+  ∀ n, P6540287309430114470.a n = A208772 (n + 1)
+
+end A208772
 
 /-! ## A208772.P4824547154195909653
 
@@ -8332,6 +8366,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208772.P4824547154195909653
+
+namespace A208772
+
+/-- `A208777(∑[n+3]+1)` -/
+def P4824547154195909653.Spec : Prop :=
+  ∀ n, P4824547154195909653.a n = A208772 (n + 1)
+
+end A208772
 
 /-! ## A208772.P10927344388358965187
 
@@ -8352,20 +8394,13 @@ end
 
 end A208772.P10927344388358965187
 
-/-! ## A208772.P15491655647749321553
+namespace A208772
 
-`or(A000007(n), A208777(A034856(n+2)))`
--/
+/-- `A208777(A034856(n+2))+char[27]` -/
+def P10927344388358965187.Spec : Prop :=
+  ∀ n, P10927344388358965187.a n = A208772 (n + 1)
 
-namespace A208772.P15491655647749321553
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A208777 (A034856 (n + 2)).toNat)
-
-end
-
-end A208772.P15491655647749321553
+end A208772
 
 /-!
 # A208773: Number of n-bead necklaces labeled with numbers 1..4 not allowing reversal, with no adjacent beads differing by more than 1.
@@ -8374,6 +8409,32 @@ The programs for A208773, the canonical program `A208773.P14721688714712195029` 
 
 The definition of A208773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A215336, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A208773.P4613639446436703636
+
+`1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124697(#)]`
+-/
+
+namespace A208773.P4613639446436703636
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * ((∑ d ∈ Nat.divisors (f1 n), A000010 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat * A124697 d : ℤ) : ℚ)
+
+end
+
+end A208773.P4613639446436703636
+
+namespace A208773
+
+/-- `1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124697(#)]` -/
+def P4613639446436703636.Spec : Prop :=
+  ∀ n, P4613639446436703636.a n = (A208773 (n + 1) : ℚ)
+
+end A208773
 
 /-! ## A208773.P14721688714712195029
 
@@ -8391,52 +8452,6 @@ def P14721688714712195029.Spec : Prop :=
 theorem P14721688714712195029.correct : P14721688714712195029.Spec := by
   intro n
   simp only [A208773, Nat.add_sub_cancel]
-
-end A208773
-
-/-! ## A208773.P6564407814693536226
-
-`A208723(n+1)+A000358(n+1)`
--/
-
-namespace A208773.P6564407814693536226
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208723 (n + 1) + A000358 (n + 1)
-
-end
-
-end A208773.P6564407814693536226
-
-namespace A208773
-
-/-- `A208723(n+1)+A000358(n+1)` -/
-def P6564407814693536226.Spec : Prop :=
-  ∀ n, P6564407814693536226.a n = A208773 (n + 1)
-
-end A208773
-
-/-! ## A208773.P8342310444832732453
-
-`A032190(n+1)+A208723(n+1)+1`
--/
-
-namespace A208773.P8342310444832732453
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032190 (n + 1) + (A208723 (n + 1) + 1)
-
-end
-
-end A208773.P8342310444832732453
-
-namespace A208773
-
-/-- `A032190(n+1)+A208723(n+1)+1` -/
-def P8342310444832732453.Spec : Prop :=
-  ∀ n, P8342310444832732453.a n = A208773 (n + 1)
 
 end A208773
 
@@ -8486,11 +8501,74 @@ def P5560196608842065334.Spec : Prop :=
 
 end A208773
 
+/-! ## A208773.P6564407814693536226
+
+`A208723(n+1)+A000358(n+1)`
+-/
+
+namespace A208773.P6564407814693536226
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208723 (n + 1) + A000358 (n + 1)
+
+end
+
+end A208773.P6564407814693536226
+
+namespace A208773
+
+/-- `A208723(n+1)+A000358(n+1)` -/
+def P6564407814693536226.Spec : Prop :=
+  ∀ n, P6564407814693536226.a n = A208773 (n + 1)
+
+end A208773
+
+/-! ## A208773.P8342310444832732453
+
+`A032190(n+1)+A208723(n+1)+1`
+-/
+
+namespace A208773.P8342310444832732453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032190 (n + 1) + (A208723 (n + 1) + 1)
+
+end
+
+end A208773.P8342310444832732453
+
+namespace A208773
+
+/-- `A032190(n+1)+A208723(n+1)+1` -/
+def P8342310444832732453.Spec : Prop :=
+  ∀ n, P8342310444832732453.a n = A208773 (n + 1)
+
+end A208773
+
 /-!
 # A208774: Number of n-bead necklaces labeled with numbers 1..5 not allowing reversal, with no adjacent beads differing by more than 1.
 
-The programs for A208774, there is no canonical definition to state claims against.
+The programs for A208774, the canonical program `A208774.P1203272174299354264` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208774 has offset 1).
+
+The definition of A208774 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A124698, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A208774.P1203272174299354264
+
+`1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124698(#)]`
+
+The canonical program, it is in `Seq.B003.C003`.
+-/
+
+namespace A208774
+
+/-- `1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124698(#)]` -/
+def P1203272174299354264.Spec : Prop :=
+  ∀ n, P1203272174299354264.a n = (A208774 (n + 1) : ℚ)
+
+end A208774
 
 /-! ## A208774.P15233676096132113483
 
@@ -8510,6 +8588,14 @@ end
 
 end A208774.P15233676096132113483
 
+namespace A208774
+
+/-- `∑{d}[n+1, A215337(#)]` -/
+def P15233676096132113483.Spec : Prop :=
+  ∀ n, P15233676096132113483.a n = A208774 (n + 1)
+
+end A208774
+
 /-! ## A208774.P14711257039692602746
 
 `A215337(n+1)+A215331(n+1)-A215332(n+1)`
@@ -8525,6 +8611,14 @@ end
 
 end A208774.P14711257039692602746
 
+namespace A208774
+
+/-- `A215337(n+1)+A215331(n+1)-A215332(n+1)` -/
+def P14711257039692602746.Spec : Prop :=
+  ∀ n, P14711257039692602746.a n = A208774 (n + 1)
+
+end A208774
+
 /-! ## A208774.P11822426137609440013
 
 `A208777(C(n+5, 2)+n+1)`
@@ -8539,6 +8633,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208774.P11822426137609440013
+
+namespace A208774
+
+/-- `A208777(C(n+5, 2)+n+1)` -/
+def P11822426137609440013.Spec : Prop :=
+  ∀ n, P11822426137609440013.a n = A208774 (n + 1)
+
+end A208774
 
 /-! ## A208774.P754892309026969331
 
@@ -8558,26 +8660,36 @@ end
 
 end A208774.P754892309026969331
 
-/-! ## A208774.P1420647291672531388
+namespace A208774
 
-`A208777(A056115(n)+11)`
--/
+/-- `A208777(Δ[A264443(n)])` -/
+def P754892309026969331.Spec : Prop :=
+  ∀ n, P754892309026969331.a n = A208774 (n + 1)
 
-namespace A208774.P1420647291672531388
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208777 (A056115 n + 11).toNat
-
-end
-
-end A208774.P1420647291672531388
+end A208774
 
 /-!
 # A208775: Number of n-bead necklaces labeled with numbers 1..6 not allowing reversal, with no adjacent beads differing by more than 1.
 
-The programs for A208775, there is no canonical definition to state claims against.
+The programs for A208775, the canonical program `A208775.P5561769487870712160` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208775 has offset 1).
+
+The definition of A208775 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A124699, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A208775.P5561769487870712160
+
+`1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124699(#)]`
+
+The canonical program, it is in `Seq.B003.C003`.
+-/
+
+namespace A208775
+
+/-- `1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124699(#)]` -/
+def P5561769487870712160.Spec : Prop :=
+  ∀ n, P5561769487870712160.a n = (A208775 (n + 1) : ℚ)
+
+end A208775
 
 /-! ## A208775.P15169303746626872632
 
@@ -8597,6 +8709,14 @@ end
 
 end A208775.P15169303746626872632
 
+namespace A208775
+
+/-- `∑{d}[n+1, A399872(#)]` -/
+def P15169303746626872632.Spec : Prop :=
+  ∀ n, P15169303746626872632.a n = A208775 (n + 1)
+
+end A208775
+
 /-! ## A208775.P13944501235384632711
 
 `A399872(n+1)+A399870(n+1)-A399871(n+1)`
@@ -8611,6 +8731,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208775.P13944501235384632711
+
+namespace A208775
+
+/-- `A399872(n+1)+A399870(n+1)-A399871(n+1)` -/
+def P13944501235384632711.Spec : Prop :=
+  ∀ n, P13944501235384632711.a n = A208775 (n + 1)
+
+end A208775
 
 /-! ## A208775.P13401121468091833937
 
@@ -8627,6 +8755,14 @@ end
 
 end A208775.P13401121468091833937
 
+namespace A208775
+
+/-- `A208777(A052905(n+3))` -/
+def P13401121468091833937.Spec : Prop :=
+  ∀ n, P13401121468091833937.a n = A208775 (n + 1)
+
+end A208775
+
 /-! ## A208775.P503981500010174834
 
 `A208777(A302537(n)+15)`
@@ -8642,26 +8778,36 @@ end
 
 end A208775.P503981500010174834
 
-/-! ## A208775.P9468527203175140413
+namespace A208775
 
-`A208777(A056119(n)+16)`
--/
+/-- `A208777(A302537(n)+15)` -/
+def P503981500010174834.Spec : Prop :=
+  ∀ n, P503981500010174834.a n = A208775 (n + 1)
 
-namespace A208775.P9468527203175140413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208777 (A056119 n + 16).toNat
-
-end
-
-end A208775.P9468527203175140413
+end A208775
 
 /-!
 # A208776: Number of n-bead necklaces labeled with numbers 1..7 not allowing reversal, with no adjacent beads differing by more than 1.
 
-The programs for A208776, there is no canonical definition to state claims against.
+The programs for A208776, the canonical program `A208776.P14022510709947693689` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208776 has offset 1).
+
+The definition of A208776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A208776.P14022510709947693689
+
+`1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124700(#)]`
+
+The canonical program, it is in `Seq.B003.C003`.
+-/
+
+namespace A208776
+
+/-- `1/(n+1)*∑{d}[n+1, A000010((n+1)/#)*A124700(#)]` -/
+def P14022510709947693689.Spec : Prop :=
+  ∀ n, P14022510709947693689.a n = (A208776 (n + 1) : ℚ)
+
+end A208776
 
 /-! ## A208776.P12103976666231502713
 
@@ -8681,6 +8827,14 @@ end
 
 end A208776.P12103976666231502713
 
+namespace A208776
+
+/-- `∑{d}[n+1, A215338(#)]` -/
+def P12103976666231502713.Spec : Prop :=
+  ∀ n, P12103976666231502713.a n = A208776 (n + 1)
+
+end A208776
+
 /-! ## A208776.P9523750673556583160
 
 `A215338(n+1)+A215333(n+1)-A215334(n+1)`
@@ -8695,6 +8849,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208776.P9523750673556583160
+
+namespace A208776
+
+/-- `A215338(n+1)+A215333(n+1)-A215334(n+1)` -/
+def P9523750673556583160.Spec : Prop :=
+  ∀ n, P9523750673556583160.a n = A208776 (n + 1)
+
+end A208776
 
 /-! ## A208776.P14198410501851640557
 
@@ -8711,6 +8873,14 @@ end
 
 end A208776.P14198410501851640557
 
+namespace A208776
+
+/-- `A208777(A055999(n+4))` -/
+def P14198410501851640557.Spec : Prop :=
+  ∀ n, P14198410501851640557.a n = A208776 (n + 1)
+
+end A208776
+
 /-! ## A208776.P2843380672332410014
 
 `A208777(A134227(n+5))`
@@ -8726,26 +8896,13 @@ end
 
 end A208776.P2843380672332410014
 
-/-! ## A208776.P4126417578403785492
+namespace A208776
 
-`A208777(eq[4, A219347(n)])`
--/
+/-- `A208777(A134227(n+5))` -/
+def P2843380672332410014.Spec : Prop :=
+  ∀ n, P2843380672332410014.a n = A208776 (n + 1)
 
-namespace A208776.P4126417578403785492
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208777 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A208776.P4126417578403785492
+end A208776
 
 /-!
 # A208777: T(n,k) is the number of n-bead necklaces labeled with numbers 1..k not allowing reversal, with no adjacent beads differing by more than 1.

@@ -5678,6 +5678,24 @@ end A277470.P13926539451734879410
 The programs for A277472, there is no canonical definition to state claims against.
 -/
 
+/-! ## A277472.P969224774070730723
+
+`∑{#}[floor(n/2), 2^(n-2*#)*n!/#!]`
+-/
+
+namespace A277472.P969224774070730723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 : ℚ) ^ ((n : ℤ) - (2 * k : ℤ) : ℤ) * ((Nat.factorial n : ℚ) / (Nat.factorial k : ℚ))
+
+end
+
+end A277472.P969224774070730723
+
 /-! ## A277472.P3118011093444478716
 
 `A319365(2*n+1)/∏[2*n+1]`

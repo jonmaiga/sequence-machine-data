@@ -171,7 +171,7 @@ end A330601.P6703186475496125340
 /-!
 # A330602: a(n) = a(n-1) XOR (n+1), with a(0) = 0.
 
-The programs for A330602, the canonical program `A330602.P15027958631550095194` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330602 has offset 0).
+The programs for A330602, the canonical program `A330602.P15027958631550095194` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330602 has offset 0).
 
 The definition of A330602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -226,7 +226,7 @@ end A330602
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=5, a(4)=0, a(5)=6`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A330602
@@ -6358,6 +6358,36 @@ end
 
 end A330682.P4425057372266668469
 
+/-! ## A330682.P3181570305364221850
+
+`A373156(A025487(n+1))`
+-/
+
+namespace A330682.P3181570305364221850
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373156 (A025487 (n + 1)).toNat
+
+end
+
+end A330682.P3181570305364221850
+
+/-! ## A330682.P3071236655739151988
+
+`A266070(A329905(n+1))`
+-/
+
+namespace A330682.P3071236655739151988
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266070 (A329905 (n + 1)).toNat
+
+end
+
+end A330682.P3071236655739151988
+
 /-!
 # A330683: a(n) is the position of A283980(A025487(n)) in A025487.
 
@@ -7342,6 +7372,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330691.P16192514423855512221
+
+/-! ## A330691.P2900244509989556815
+
+`gcd(A309639(n+1), A367122(n))`
+-/
+
+namespace A330691.P2900244509989556815
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A309639 (n + 1)) (A367122 n)
+
+end
+
+end A330691.P2900244509989556815
 
 /-!
 # A330692: a(n) = n / gcd(n, A309639(n)), where A309639(n) is the index of the least harmonic number H_i whose denominator (A002805) is divisible by n.

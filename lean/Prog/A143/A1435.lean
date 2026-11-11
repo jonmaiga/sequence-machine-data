@@ -5574,6 +5574,29 @@ def P14297018013289267080.Spec : Prop :=
 
 end A143541
 
+/-! ## A143541.P1401009198011552790
+
+`and(A143536(n+1), A143538(n+1))`
+-/
+
+namespace A143541.P1401009198011552790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A143536 (n + 1)) (A143538 (n + 1))
+
+end
+
+end A143541.P1401009198011552790
+
+namespace A143541
+
+/-- `and(A143536(n+1), A143538(n+1))` -/
+def P1401009198011552790.Spec : Prop :=
+  ∀ n, P1401009198011552790.a n = A143541 (n + 1)
+
+end A143541
+
 /-! ## A143541.P974364260201226515
 
 `log2(A143544(n+1))*A143538(n+1)`
@@ -10158,6 +10181,24 @@ end A143582.P7800875012054365589
 
 The programs for A143583, there is no canonical definition to state claims against.
 -/
+
+/-! ## A143583.P1954106431156117482
+
+`∑{#}[n, 2^(2*#)*C(2*(n-#), n-#)²*C(2*#, #)]`
+-/
+
+namespace A143583.P1954106431156117482
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 2 ^ (2 * k) * Nat.choose (2 * ((n : ℤ) - (k : ℤ))).toNat ((n : ℤ) - (k : ℤ)).toNat ^ 2 * Nat.choose (2 * k) k
+
+end
+
+end A143583.P1954106431156117482
 
 /-! ## A143583.P7454999600974626510
 

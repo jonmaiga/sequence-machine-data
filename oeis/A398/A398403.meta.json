@@ -1,0 +1,16 @@
+{
+  "description": "Primes r such that r and (r^2+2)/3 are both terms of A179502.",
+  "id": "A398403",
+  "mentions": [
+    "A179502",
+    "A401114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

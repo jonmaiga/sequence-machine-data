@@ -6656,6 +6656,66 @@ end
 
 end A247295.P2142952100508032282
 
+/-! ## A247295.P16563070580239494844
+
+`A201206(A053617(n))`
+-/
+
+namespace A247295.P16563070580239494844
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201206 (A053617 n).toNat
+
+end
+
+end A247295.P16563070580239494844
+
+/-! ## A247295.P9651572372216181790
+
+`A201206(A165546(n))`
+-/
+
+namespace A247295.P9651572372216181790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201206 (A165546 n).toNat
+
+end
+
+end A247295.P9651572372216181790
+
+/-! ## A247295.P5096672890522411520
+
+`A201206(A279568(n))`
+-/
+
+namespace A247295.P5096672890522411520
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201206 (A279568 n).toNat
+
+end
+
+end A247295.P5096672890522411520
+
+/-! ## A247295.P6681253121041287055
+
+`A400220(A148924(n))`
+-/
+
+namespace A247295.P6681253121041287055
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400220 (A148924 n).toNat
+
+end
+
+end A247295.P6681253121041287055
+
 /-!
 # A247296: Number of uhd and uHd in all weighted lattice paths B(n).
 

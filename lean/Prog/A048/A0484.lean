@@ -2159,23 +2159,20 @@ end
 
 end A048421.P16437236950640093940
 
-/-! ## A048421.P8126467030677363260
+/-! ## A048421.P17573497564946555125
 
-`record[A048422(A065648(n))]*A048422(n+1)`
+`A048422(n+1)*A048422(n+1)`
 -/
 
-namespace A048421.P8126467030677363260
+namespace A048421.P17573497564946555125
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048422 (A065648 n).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) * A048422 (n + 1)
+  A048422 (n + 1) * A048422 (n + 1)
 
 end
 
-end A048421.P8126467030677363260
+end A048421.P17573497564946555125
 
 /-!
 # A048422: Numbers k such that k^2 is formed from two subsquares that overlap in a single digit.
@@ -2431,6 +2428,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048425.P7508169253543567192
+
+/-! ## A048425.P4898170183156794508
+
+`A000290(A048426(A000290(n+1)/(n+1)))`
+-/
+
+namespace A048425.P4898170183156794508
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A048426 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+
+end
+
+end A048425.P4898170183156794508
 
 /-!
 # A048426: Numbers k such that k^2 is composed of three 1-digit-overlapping subsquares.
@@ -11167,58 +11179,52 @@ def P10636329104898244890.Spec : Prop :=
 
 end A048479
 
-/-! ## A048479.P1596492504238181883
+/-! ## A048479.P10937962480241153216
 
-`A007664(∑[n+1]+n)`
+`∑{#}[n, C(n, #)*A022144(#)]`
 -/
 
-namespace A048479.P1596492504238181883
+namespace A048479.P10937962480241153216
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007664 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A022144 k
 
 end
 
-end A048479.P1596492504238181883
+end A048479.P10937962480241153216
 
 namespace A048479
 
-/-- `A007664(∑[n+1]+n)` -/
-def P1596492504238181883.Spec : Prop :=
-  ∀ n, P1596492504238181883.a n = A048479 n
+/-- `∑{#}[n, C(n, #)*A022144(#)]` -/
+def P10937962480241153216.Spec : Prop :=
+  ∀ n, P10937962480241153216.a n = A048479 n
 
 end A048479
 
-/-! ## A048479.P10680189569972973104
+/-! ## A048479.P16463585125761114919
 
-`∑[A210196(∑[n+2])]`
+`and(A060867(n+1), A118414(n+1))`
 -/
 
-namespace A048479.P10680189569972973104
+namespace A048479.P16463585125761114919
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210196 (∑ j ∈ Finset.range (n + 1), f2 j)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  Int.land (A060867 (n + 1)) (A118414 (n + 1))
 
 end
 
-end A048479.P10680189569972973104
+end A048479.P16463585125761114919
 
 namespace A048479
 
-/-- `∑[A210196(∑[n+2])]` -/
-def P10680189569972973104.Spec : Prop :=
-  ∀ n, P10680189569972973104.a n = A048479 n
+/-- `and(A060867(n+1), A118414(n+1))` -/
+def P16463585125761114919.Spec : Prop :=
+  ∀ n, P16463585125761114919.a n = A048479 n
 
 end A048479
 
@@ -12092,6 +12098,32 @@ namespace A048482
 /-- `xor(1, 2^n*∑[n])` -/
 def P9052377715211852708.Spec : Prop :=
   ∀ n, (P9052377715211852708.a n : ℤ) = A048482 n
+
+end A048482
+
+/-! ## A048482.P6735394967415906170
+
+`1+∑{#}[n, #*2^n]`
+-/
+
+namespace A048482.P6735394967415906170
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + ∑ k ∈ Finset.range (f1 n + 1), k * 2 ^ n
+
+end
+
+end A048482.P6735394967415906170
+
+namespace A048482
+
+/-- `1+∑{#}[n, #*2^n]` -/
+def P6735394967415906170.Spec : Prop :=
+  ∀ n, (P6735394967415906170.a n : ℤ) = A048482 n
 
 end A048482
 

@@ -2,16 +2,19 @@
   "description": "If n=0 then 1 otherwise 48*(1+12*A318935(n))*(sum of cubes of odd divisors of n).",
   "id": "A318939",
   "mentions": [
+    "A001158",
     "A007814",
+    "A051000",
     "A318935",
     "A318938"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

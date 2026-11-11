@@ -28,14 +28,13 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -100,6 +99,21 @@ import SequenceMachineLib.Triangle
 
 The programs for A111800, there is no canonical definition to state claims against.
 -/
+
+/-! ## A111800.P10755991409088762010
+
+`2*A062537(n+1)+1`
+-/
+
+namespace A111800.P10755991409088762010
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A062537 (n + 1) + 1
+
+end
+
+end A111800.P10755991409088762010
 
 /-! ## A111800.P12052368102126870788
 
@@ -6595,6 +6609,21 @@ end
 
 end A111863.P4968611100384752814
 
+/-! ## A111863.P11725224239746838370
+
+`A005074(A016970(n))`
+-/
+
+namespace A111863.P11725224239746838370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005074 (A016970 n).toNat
+
+end
+
+end A111863.P11725224239746838370
+
 /-!
 # A111864: Define the first three terms to be 1, 1 and 1. All the other terms are obtained by concatenating the three previous terms.
 
@@ -6805,6 +6834,29 @@ def P7041613807900042194.Spec : Prop :=
 
 end A111868
 
+/-! ## A111868.P14822445884814558219
+
+`2*(n+1)^n*C(n+2, 3)`
+-/
+
+namespace A111868.P14822445884814558219
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * (n + 1) ^ n * Nat.choose (n + 2) 3
+
+end
+
+end A111868.P14822445884814558219
+
+namespace A111868
+
+/-- `2*(n+1)^n*C(n+2, 3)` -/
+def P14822445884814558219.Spec : Prop :=
+  ∀ n, (P14822445884814558219.a n : ℤ) = A111868 (n + 1)
+
+end A111868
+
 /-! ## A111868.P16787814862891755942
 
 `A055897(n+2)*n/3`
@@ -7007,29 +7059,6 @@ namespace A111868
 /-- `∑[A006331(n)]*A003308(n+1)` -/
 def P12678288898138547223.Spec : Prop :=
   ∀ n, P12678288898138547223.a n = A111868 (n + 1)
-
-end A111868
-
-/-! ## A111868.P13683903615955152785
-
-`2*A000169(n+1)*A000292(n)`
--/
-
-namespace A111868.P13683903615955152785
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A000169 (n + 1) * A000292 n
-
-end
-
-end A111868.P13683903615955152785
-
-namespace A111868
-
-/-- `2*A000169(n+1)*A000292(n)` -/
-def P13683903615955152785.Spec : Prop :=
-  ∀ n, P13683903615955152785.a n = A111868 (n + 1)
 
 end A111868
 

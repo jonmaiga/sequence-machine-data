@@ -2,6 +2,7 @@
   "description": "Numbers k such that k divides 17^k + 1.",
   "id": "A400654",
   "mentions": [
+    "A006521",
     "A224384",
     "A333429"
   ],

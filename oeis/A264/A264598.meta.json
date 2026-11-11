@@ -2,16 +2,18 @@
   "description": "Row sums of triangle in A264597.",
   "id": "A264598",
   "mentions": [
+    "A000005",
     "A257007",
     "A264597"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

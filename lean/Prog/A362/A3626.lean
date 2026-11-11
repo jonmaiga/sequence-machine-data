@@ -766,6 +766,21 @@ end
 
 end A362608.P9712669219878058142
 
+/-! ## A362608.P2148491038274389407
+
+`A240304(n)+A240303(n)-A362607(n)`
+-/
+
+namespace A362608.P2148491038274389407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240304 n + A240303 n - A362607 n
+
+end
+
+end A362608.P2148491038274389407
+
 /-!
 # A362609: Number of integer partitions of n with more than one part of least multiplicity.
 

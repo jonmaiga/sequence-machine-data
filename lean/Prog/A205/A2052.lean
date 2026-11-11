@@ -12,6 +12,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -4839,6 +4840,29 @@ def P14382833470063040363.Spec : Prop :=
 
 end A205249
 
+/-! ## A205249.P13817391398905845779
+
+`A205312(n+1)+A205312(n+1)`
+-/
+
+namespace A205249.P13817391398905845779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205312 (n + 1) + A205312 (n + 1)
+
+end
+
+end A205249.P13817391398905845779
+
+namespace A205249
+
+/-- `A205312(n+1)+A205312(n+1)` -/
+def P13817391398905845779.Spec : Prop :=
+  ∀ n, P13817391398905845779.a n = A205249 (n + 1)
+
+end A205249
+
 /-!
 # A205250: Number of (n+1) X 4 0..1 arrays with the number of clockwise edge increases in every 2 X 2 subblock the same.
 
@@ -5105,20 +5129,20 @@ end
 
 end A205252.P17340045268603154478
 
-/-! ## A205252.P7721121752212926953
+/-! ## A205252.P10265626247938053922
 
-`A205255(A374005(n+1))`
+`A205315(n+1)+A205315(n+1)`
 -/
 
-namespace A205252.P7721121752212926953
+namespace A205252.P10265626247938053922
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A205255 (A374005 (n + 1)).toNat
+  A205315 (n + 1) + A205315 (n + 1)
 
 end
 
-end A205252.P7721121752212926953
+end A205252.P10265626247938053922
 
 /-!
 # A205253: Number of (n+1)X7 0..1 arrays with the number of clockwise edge increases in every 2X2 subblock the same.
@@ -5201,20 +5225,20 @@ end
 
 end A205253.P8794249186029125044
 
-/-! ## A205253.P12107323933567770434
+/-! ## A205253.P4162048474138434014
 
-`A205316(n+1)+A205316(n+1)%A205317(n+1)`
+`A205316(n+1)+A205316(n+1)`
 -/
 
-namespace A205253.P12107323933567770434
+namespace A205253.P4162048474138434014
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A205316 (n + 1) + Int.tmod (A205316 (n + 1)) (A205317 (n + 1))
+  A205316 (n + 1) + A205316 (n + 1)
 
 end
 
-end A205253.P12107323933567770434
+end A205253.P4162048474138434014
 
 /-!
 # A205254: Number of (n+1)X8 0..1 arrays with the number of clockwise edge increases in every 2X2 subblock the same.

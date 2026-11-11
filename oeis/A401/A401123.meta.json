@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the number formed by 1 followed by k copies of 81, (20*100^k - 9)/11, is prime.",
+  "id": "A401123",
+  "mentions": [
+    "A002385",
+    "A007597",
+    "A059758"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

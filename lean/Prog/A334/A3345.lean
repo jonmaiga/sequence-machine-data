@@ -3241,21 +3241,6 @@ end
 
 end A334546.P10407976293520090550
 
-/-! ## A334546.P7726046744044335136
-
-`and(A080035(A215561(n)), A264909(n))`
--/
-
-namespace A334546.P7726046744044335136
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A080035 (A215561 n).toNat) (A264909 n)
-
-end
-
-end A334546.P7726046744044335136
-
 /-! ## A334546.P7569784283456806897
 
 `and(A023444(A294609(n)), A264909(n))`
@@ -3270,21 +3255,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334546.P7569784283456806897
-
-/-! ## A334546.P4149280144219160969
-
-`and(A080035(A215561(n)), A290353(n))`
--/
-
-namespace A334546.P4149280144219160969
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A080035 (A215561 n).toNat) (A290353 n)
-
-end
-
-end A334546.P4149280144219160969
 
 /-!
 # A334547: Number of unlabeled connected loopless multigraphs with n nodes of degree 5 or less.

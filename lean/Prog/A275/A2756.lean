@@ -28,10 +28,8 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
@@ -1270,6 +1268,21 @@ end A275606
 
 The programs for A275607, there is no canonical definition to state claims against.
 -/
+
+/-! ## A275607.P6568757794271332847
+
+`2*3^n*C(2*n, n)/(n+2)`
+-/
+
+namespace A275607.P6568757794271332847
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * 3 ^ n : ℚ) * ((Nat.choose (2 * n) n : ℚ) / (n + 2 : ℚ))
+
+end
+
+end A275607.P6568757794271332847
 
 /-! ## A275607.P6114400210526026286
 
@@ -8129,21 +8142,6 @@ end A275676.P3759730848171246692
 The programs for A275678, there is no canonical definition to state claims against.
 -/
 
-/-! ## A275678.P3222406197823609845
-
-`A034693(A145604(n+5)+A063007(n))`
--/
-
-namespace A275678.P3222406197823609845
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034693 (A145604 (n + 5) + A063007 n).toNat
-
-end
-
-end A275678.P3222406197823609845
-
 /-! ## A275678.P13905499042827777606
 
 `A275806(A123104(n)*A257731(3*(n+1)))`
@@ -9131,6 +9129,29 @@ namespace A275697
 /-- `p?[A321366(A291463(n+1)/2)]` -/
 def P5168641709797984793.Spec : Prop :=
   ∀ n, P5168641709797984793.a n = A275697 (n + 1)
+
+end A275697
+
+/-! ## A275697.P2795789924146616528
+
+`A342654(A162565(n+1))`
+-/
+
+namespace A275697.P2795789924146616528
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342654 (A162565 (n + 1)).toNat
+
+end
+
+end A275697.P2795789924146616528
+
+namespace A275697
+
+/-- `A342654(A162565(n+1))` -/
+def P2795789924146616528.Spec : Prop :=
+  ∀ n, P2795789924146616528.a n = A275697 (n + 1)
 
 end A275697
 

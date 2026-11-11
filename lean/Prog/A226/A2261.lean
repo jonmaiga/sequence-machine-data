@@ -26,6 +26,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -4186,6 +4187,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226151.P1754106066921421111
+
+/-! ## A226151.P5383354792688336827
+
+`A080098(A173420(n+1))`
+-/
+
+namespace A226151.P5383354792688336827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080098 (A173420 (n + 1)).toNat
+
+end
+
+end A226151.P5383354792688336827
 
 /-!
 # A226152: Numbers n such that n^2 is an average of 4 consecutive primes.
@@ -8871,20 +8887,20 @@ end
 
 end A226189.P11215119699854070143
 
-/-! ## A226189.P10617350710718028329
+/-! ## A226189.P8194783900006621853
 
-`row(A351006(3*n+1)+A003056(n))`
+`A056556(A261635(n))`
 -/
 
-namespace A226189.P10617350710718028329
+namespace A226189.P8194783900006621853
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (A351006 (3 * n + 1) + A003056 n).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056556 (A261635 n).toNat
 
 end
 
-end A226189.P10617350710718028329
+end A226189.P8194783900006621853
 
 /-!
 # A226190: Least positive integer k such that 1 + 1/2 + ... + 1/k >= log(n).

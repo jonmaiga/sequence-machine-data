@@ -1384,6 +1384,27 @@ end
 
 end A099308.P16252564240347422686
 
+/-! ## A099308.P15366356028075011406
+
+`eq[A244226(n), A328308(n)]`
+-/
+
+namespace A099308.P15366356028075011406
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244226 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328308 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A099308.P15366356028075011406
+
 /-! ## A099308.P4706729063913007152
 
 `lt[1, A351078(A028310(n))+1]`
@@ -1605,24 +1626,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099308.P13337123244528937165
-
-/-! ## A099308.P15966589712154159160
-
-`filter[A099479(n), A328308(#)]`
--/
-
-namespace A099308.P15966589712154159160
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099479 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A328308 (f1 j).toNat = 1) n)
-
-end
-
-end A099308.P15966589712154159160
 
 /-!
 # A099309: Numbers n whose k-th arithmetic derivative is nonzero for all k. Complement of A099308.
@@ -8376,6 +8379,29 @@ def P12230272321784702715.Spec : Prop :=
 
 end A099363
 
+/-! ## A099363.P14653741772330279429
+
+`A005558(n)/(A138364(n+1)-A138364(n))`
+-/
+
+namespace A099363.P14653741772330279429
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A005558 n : ℚ) / (A138364 (n + 1) - A138364 n : ℚ)
+
+end
+
+end A099363.P14653741772330279429
+
+namespace A099363
+
+/-- `A005558(n)/(A138364(n+1)-A138364(n))` -/
+def P14653741772330279429.Spec : Prop :=
+  ∀ n, P14653741772330279429.a n = (A099363 n : ℚ)
+
+end A099363
+
 /-!
 # A099364: An inverse Chebyshev transform of (1-x)^2.
 
@@ -13371,21 +13397,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099383.P7589371101090825657
-
-/-! ## A099383.P16316628606135632252
-
-`A099385(A004526(n))*A258409(A058989(n+2)-1)`
--/
-
-namespace A099383.P16316628606135632252
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099385 (A004526 n).toNat * A258409 (A058989 (n + 2) - 1).toNat
-
-end
-
-end A099383.P16316628606135632252
 
 /-! ## A099383.P11085420339877384904
 

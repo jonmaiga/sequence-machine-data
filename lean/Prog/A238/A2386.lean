@@ -97,7 +97,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -2139,6 +2138,21 @@ end
 
 end A238618.P10354826004896199161
 
+/-! ## A238618.P4983595326901660213
+
+`A000041(n+1)-(A238619(n+1)+A238616(n+1))`
+-/
+
+namespace A238618.P4983595326901660213
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 (n + 1) - (A238619 (n + 1) + A238616 (n + 1))
+
+end
+
+end A238618.P4983595326901660213
+
 /-! ## A238618.P11430155805249177713
 
 `A238620(n+1)-A238619(n+1)`
@@ -2154,41 +2168,20 @@ end
 
 end A238618.P11430155805249177713
 
-/-! ## A238618.P7519850292290282144
+/-! ## A238618.P17705103716676780965
 
-`A369741(runs[runs[A127054(n)]])`
+`A238620(n+1)+A238617(n+1)-A000041(n+1)`
 -/
 
-namespace A238618.P7519850292290282144
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127054 n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369741 (SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n)
-
-end
-
-end A238618.P7519850292290282144
-
-/-! ## A238618.P2872389911537285402
-
-`A162206(A221623(n+1))%gcd(floor((n+1)/2), n+1)`
--/
-
-namespace A238618.P2872389911537285402
+namespace A238618.P17705103716676780965
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A162206 (A221623 (n + 1)).toNat) (Int.gcd ⌊(n + 1 : ℚ) / 2⌋ (n + 1 : ℤ) : ℤ)
+  A238620 (n + 1) + A238617 (n + 1) - A000041 (n + 1)
 
 end
 
-end A238618.P2872389911537285402
+end A238618.P17705103716676780965
 
 /-!
 # A238619: Number of partitions of n having population standard deviation > 1.

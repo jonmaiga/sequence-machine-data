@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -1489,6 +1488,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232823.P12300702316938547119
+
+/-! ## A232823.P7855829715355675402
+
+`A377505(A232824(n+1))`
+-/
+
+namespace A232823.P7855829715355675402
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A232824 (n + 1)).toNat
+
+end
+
+end A232823.P7855829715355675402
+
+/-! ## A232823.P13834674035962954463
+
+`A284114(A232824(n+1))`
+-/
+
+namespace A232823.P13834674035962954463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284114 (A232824 (n + 1)).toNat
+
+end
+
+end A232823.P13834674035962954463
 
 /-!
 # A232824: Prime(k), where k is such that (1 + Sum_{i=1..k} prime(i)^8) / k is an integer.

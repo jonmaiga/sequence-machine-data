@@ -21,11 +21,12 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
@@ -5302,28 +5303,6 @@ end
 
 end A044073.P16012653474209815572
 
-/-! ## A044073.P3948282986271626845
-
-`∩[A004275(A160217(n+1)), A043102(n+1)]`
--/
-
-namespace A044073.P3948282986271626845
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004275 (A160217 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043102 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A044073.P3948282986271626845
-
 /-! ## A044073.P575357763424253125
 
 `∩[A043102(n+1), A337080(n+1)]`
@@ -5345,6 +5324,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A044073.P575357763424253125
+
+/-! ## A044073.P11944563241071935100
+
+`∩[A043102(n+1), A374189(n+1)]`
+-/
+
+namespace A044073.P11944563241071935100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374189 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044073.P11944563241071935100
 
 /-!
 # A044074: Numbers k such that string 3,1 occurs in the base 4 representation of k but not of k-1.

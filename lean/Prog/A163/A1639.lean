@@ -5707,23 +5707,29 @@ end A163960.P11217066439320856701
 /-!
 # A163961: First differences of A116533.
 
-The programs for A163961, there is no canonical definition to state claims against.
+The programs for A163961, the canonical program `A163961.P12682205922752822003` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163961 has offset 1).
+
+The definition of A163961 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A116533, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A163961.P12682205922752822003
 
 `A116533(n+2)-A116533(n+1)`
+
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
-namespace A163961.P12682205922752822003
-noncomputable section
+namespace A163961
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116533 (n + 2) - A116533 (n + 1)
+/-- `A116533(n+2)-A116533(n+1)` -/
+def P12682205922752822003.Spec : Prop :=
+  ∀ n, P12682205922752822003.a n = A163961 (n + 1)
 
-end
+theorem P12682205922752822003.correct : P12682205922752822003.Spec := by
+  intro n
+  simp only [A163961, Nat.add_sub_cancel]
 
-end A163961.P12682205922752822003
+end A163961
 
 /-! ## A163961.P9478798937564210351
 
@@ -5743,6 +5749,20 @@ end
 
 end A163961.P9478798937564210351
 
+namespace A163961
+
+/-- `Δ[A116533(1+n)]` -/
+def P9478798937564210351.Spec : Prop :=
+  ∀ n, P9478798937564210351.a n = A163961 (n + 1)
+
+theorem P9478798937564210351.correct : P9478798937564210351.Spec := by
+  intro n
+  simp only [A163961, Nat.add_sub_cancel, A163961.P9478798937564210351.f1, A163961.P9478798937564210351.a, A163961.P12682205922752822003.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A163961
+
 /-! ## A163961.P6499985963209359125
 
 `-Δ[-A116533(n-log2(1/2))]`
@@ -5760,6 +5780,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A163961.P6499985963209359125
+
+namespace A163961
+
+/-- `-Δ[-A116533(n-log2(1/2))]` -/
+def P6499985963209359125.Spec : Prop :=
+  ∀ n, P6499985963209359125.a n = A163961 (n + 1)
+
+end A163961
 
 /-! ## A163961.P5174404263543988488
 
@@ -5779,6 +5807,14 @@ end
 
 end A163961.P5174404263543988488
 
+namespace A163961
+
+/-- `Δ[A000027(A116533(n-log2(1/2)))]` -/
+def P5174404263543988488.Spec : Prop :=
+  ∀ n, P5174404263543988488.a n = A163961 (n + 1)
+
+end A163961
+
 /-! ## A163961.P233196991729983423
 
 `Δ[A116533(n-log2(1/2))]%A000051(n)`
@@ -5796,6 +5832,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A163961.P233196991729983423
+
+namespace A163961
+
+/-- `Δ[A116533(n-log2(1/2))]%A000051(n)` -/
+def P233196991729983423.Spec : Prop :=
+  ∀ n, P233196991729983423.a n = A163961 (n + 1)
+
+end A163961
 
 /-! ## A163961.P10456603121842113279
 
@@ -5815,6 +5859,14 @@ end
 
 end A163961.P10456603121842113279
 
+namespace A163961
+
+/-- `Δ[A116533(n-log2(1/2))-A057979(2*n)]` -/
+def P10456603121842113279.Spec : Prop :=
+  ∀ n, P10456603121842113279.a n = A163961 (n + 1)
+
+end A163961
+
 /-! ## A163961.P1962728103466300170
 
 `Δ[A116533(n-log2(1/2))-(A000041(n)%2)!]`
@@ -5832,6 +5884,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A163961.P1962728103466300170
+
+namespace A163961
+
+/-- `Δ[A116533(n-log2(1/2))-(A000041(n)%2)!]` -/
+def P1962728103466300170.Spec : Prop :=
+  ∀ n, P1962728103466300170.a n = A163961 (n + 1)
+
+end A163961
 
 /-!
 # A163962: Number of reduced words of length n in Coxeter group on 15 generators S_i with relations (S_i)^2 = (S_i S_j)^6 = I.
@@ -5989,6 +6049,21 @@ end
 
 end A163963.P12827235119396234671
 
+/-! ## A163963.P18084692773217105768
+
+`A089026(A080735(n+1))`
+-/
+
+namespace A163963.P18084692773217105768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089026 (A080735 (n + 1)).toNat
+
+end
+
+end A163963.P18084692773217105768
+
 /-! ## A163963.P13574672342186680852
 
 `A014963(xor(1, A080735(n+1))+1)`
@@ -6018,21 +6093,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A163963.P12680113807510405410
-
-/-! ## A163963.P3893224832228089986
-
-`gcd(A014963(A080735(n+1)), A014933(n))`
--/
-
-namespace A163963.P3893224832228089986
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A014963 (A080735 (n + 1)).toNat) (A014933 n)
-
-end
-
-end A163963.P3893224832228089986
 
 /-!
 # A163974: Number of ways to write n as the root-mean-square (RMS) of a set of distinct primes.

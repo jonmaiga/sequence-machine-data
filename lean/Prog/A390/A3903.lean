@@ -32,14 +32,13 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
@@ -104,7 +103,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -316,6 +314,21 @@ end
 
 end A390308.P18319391439143058783
 
+/-! ## A390308.P3869159610754726953
+
+`A112798(n+2)+A112798(n+2)-A358169(n+2)`
+-/
+
+namespace A390308.P3869159610754726953
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112798 (n + 2) + A112798 (n + 2) - A358169 (n + 2)
+
+end
+
+end A390308.P3869159610754726953
+
 /-! ## A390308.P14885027236403903604
 
 `A295659(A103297(n))+A112798(n+2)`
@@ -360,21 +373,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390308.P10721740166840226037
-
-/-! ## A390308.P14881701763680376767
-
-`A379475(A225391(n))+A112798(n+2)`
--/
-
-namespace A390308.P14881701763680376767
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379475 (A225391 n).toNat + A112798 (n + 2)
-
-end
-
-end A390308.P14881701763680376767
 
 /-!
 # A390309: Heinz number of first sums minus 1 of the 1-prepended prime indices of n.
@@ -1967,6 +1965,36 @@ namespace A390326
 /-- `∩[A060798(n+1), A281005(n+1)]` -/
 def P15650220734132097259.Spec : Prop :=
   ∀ n, (P15650220734132097259.a n : ℤ) = A390326 (n + 1)
+
+end A390326
+
+/-! ## A390326.P8725945513829532180
+
+`∩[A180291(n+2), A281005(n+1)]`
+-/
+
+namespace A390326.P8725945513829532180
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180291 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281005 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390326.P8725945513829532180
+
+namespace A390326
+
+/-- `∩[A180291(n+2), A281005(n+1)]` -/
+def P8725945513829532180.Spec : Prop :=
+  ∀ n, (P8725945513829532180.a n : ℤ) = A390326 (n + 1)
 
 end A390326
 
@@ -4484,6 +4512,29 @@ def P7519425380196386925.Spec : Prop :=
 theorem P7519425380196386925.correct : P7519425380196386925.Spec := by
   intro n
   simp only [A390344]
+
+end A390344
+
+/-! ## A390344.P4905858968319870162
+
+`ogf((x^2-2x^3+2x^4-x^6+x^7)/(1-4x+6x^2-3x^3-3x^4+6x^5-3x^6-3x^7+6x^8-4x^9+x^10))`
+-/
+
+namespace A390344.P4905858968319870162
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, -2, 2, 0, -1, 1] [1, -4, 6, -3, -3, 6, -3, -3, 6, -4, 1] n
+
+end
+
+end A390344.P4905858968319870162
+
+namespace A390344
+
+/-- `ogf((x^2-2x^3+2x^4-x^6+x^7)/(1-4x+6x^2-3x^3-3x^4+6x^5-3x^6-3x^7+6x^8-4x^9+x^10))` -/
+def P4905858968319870162.Spec : Prop :=
+  ∀ n, P4905858968319870162.a n = A390344 n
 
 end A390344
 
@@ -7155,6 +7206,21 @@ end
 
 end A390363.P14362518266624223957
 
+/-! ## A390363.P3690363286029131525
+
+`A364192(A390449(n+1))`
+-/
+
+namespace A390363.P3690363286029131525
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364192 (A390449 (n + 1)).toNat
+
+end
+
+end A390363.P3690363286029131525
+
 /-! ## A390363.P299112558729141097
 
 `A394093(A390449(n+1)*A390449(n+1))`
@@ -7184,21 +7250,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390363.P8243514525256478084
-
-/-! ## A390363.P10946208718308126185
-
-`A390430(A318576(n+1))`
--/
-
-namespace A390363.P10946208718308126185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A390430 (A318576 (n + 1)).toNat
-
-end
-
-end A390363.P10946208718308126185
 
 /-!
 # A390364: Numbers whose prime indices are the first sums minus 1 of some multiset beginning with 1. Sorted list of all Heinz numbers of rows of A390308. Union of A390309.

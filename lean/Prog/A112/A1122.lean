@@ -37,6 +37,7 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B001.C000
@@ -8209,6 +8210,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A112293.P14283956192265594168
+
+/-! ## A112293.P7190666776684843430
+
+`A286286(n)+A001147(n)`
+-/
+
+namespace A112293.P7190666776684843430
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286286 n + A001147 n
+
+end
+
+end A112293.P7190666776684843430
 
 /-!
 # A112294: Diagonal sums of number triangle A112292.

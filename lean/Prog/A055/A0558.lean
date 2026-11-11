@@ -747,49 +747,49 @@ def P8721310284139086235.Spec : Prop :=
 
 end A055802
 
-/-! ## A055802.P5978534485404299057
+/-! ## A055802.P9692286073711540840
 
-`max(A114220(n), A114220(n+1))`
+`A114220(A087156(n+1))`
 -/
 
-namespace A055802.P5978534485404299057
+namespace A055802.P9692286073711540840
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  max (A114220 n) (A114220 (n + 1))
+  A114220 (A087156 (n + 1)).toNat
 
 end
 
-end A055802.P5978534485404299057
+end A055802.P9692286073711540840
 
 namespace A055802
 
-/-- `max(A114220(n), A114220(n+1))` -/
-def P5978534485404299057.Spec : Prop :=
-  ∀ n, P5978534485404299057.a n = A055802 (n + 2)
+/-- `A114220(A087156(n+1))` -/
+def P9692286073711540840.Spec : Prop :=
+  ∀ n, P9692286073711540840.a n = A055802 (n + 2)
 
 end A055802
 
-/-! ## A055802.P2153809364609070554
+/-! ## A055802.P17075339084447537035
 
-`A176798(a(n-1))` with `a(0)=1, a(1)=1, a(2)=1`
+`A114220(A254667(n+1))`
 -/
 
-namespace A055802.P2153809364609070554
+namespace A055802.P17075339084447537035
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1] fun n a =>
-  A176798 (a (n - 1)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114220 (A254667 (n + 1)).toNat
 
 end
 
-end A055802.P2153809364609070554
+end A055802.P17075339084447537035
 
 namespace A055802
 
-/-- `A176798(a(n-1))` -/
-def P2153809364609070554.Spec : Prop :=
-  ∀ n, P2153809364609070554.a n = A055802 (n + 2)
+/-- `A114220(A254667(n+1))` -/
+def P17075339084447537035.Spec : Prop :=
+  ∀ n, P17075339084447537035.a n = A055802 (n + 2)
 
 end A055802
 
@@ -3849,20 +3849,20 @@ end
 
 end A055818.P17683720758043519311
 
-/-! ## A055818.P16980029061935850681
+/-! ## A055818.P4954531965481146607
 
-`row(row(A028260(A188644(n))))`
+`A087739(A060543(n))`
 -/
 
-namespace A055818.P16980029061935850681
+namespace A055818.P4954531965481146607
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (SequenceMachineLib.triRow (A028260 (A188644 n).toNat).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087739 (A060543 n).toNat
 
 end
 
-end A055818.P16980029061935850681
+end A055818.P4954531965481146607
 
 /-!
 # A055819: Row sums of array T in A055818; twice the odd-indexed Fibonacci numbers after initial term.

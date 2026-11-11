@@ -281,14 +281,14 @@ end A015000
 /-!
 # A015001: q-factorial numbers for q=3.
 
-The programs for A015001, the canonical program `A015001.P4336605817624175512` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015001 has offset 0).
+The programs for A015001, the canonical program `A015001.P16715836200427200684` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015001 has offset 0).
 
 The definition of A015001 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015001.P4336605817624175512
+/-! ## A015001.P16715836200427200684
 
-`(3^n-1)*a(n-1)/2` with `a(0)=1`
+`(3^n-1)*a(n-1)/2` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -296,8 +296,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015001
 
 /-- `(3^n-1)*a(n-1)/2` -/
-def P4336605817624175512.Spec : Prop :=
-  ∀ n, P4336605817624175512.a n = (A015001 n : ℚ)
+def P16715836200427200684.Spec : Prop :=
+  ∀ n, P16715836200427200684.a n = (A015001 n : ℚ)
 
 end A015001
 
@@ -404,14 +404,14 @@ end A015001
 /-!
 # A015002: q-factorial numbers for q=4.
 
-The programs for A015002, the canonical program `A015002.P16208053078519046532` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015002 has offset 0).
+The programs for A015002, the canonical program `A015002.P17752374141133129018` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015002 has offset 0).
 
 The definition of A015002 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015002.P16208053078519046532
+/-! ## A015002.P17752374141133129018
 
-`(4^n-1)*a(n-1)/3` with `a(0)=1, a(1)=1`
+`(4^n-1)*a(n-1)/3` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -419,8 +419,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015002
 
 /-- `(4^n-1)*a(n-1)/3` -/
-def P16208053078519046532.Spec : Prop :=
-  ∀ n, P16208053078519046532.a n = (A015002 n : ℚ)
+def P17752374141133129018.Spec : Prop :=
+  ∀ n, P17752374141133129018.a n = (A015002 n : ℚ)
 
 end A015002
 
@@ -552,14 +552,14 @@ end A015003.P6893239221247587676
 /-!
 # A015004: q-factorial numbers for q=5.
 
-The programs for A015004, the canonical program `A015004.P407513285012930269` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015004 has offset 0).
+The programs for A015004, the canonical program `A015004.P17182177136544335324` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015004 has offset 0).
 
 The definition of A015004 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015004.P407513285012930269
+/-! ## A015004.P17182177136544335324
 
-`(5^n-1)*a(n-1)/4` with `a(0)=1`
+`(5^n-1)*a(n-1)/4` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -567,8 +567,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015004
 
 /-- `(5^n-1)*a(n-1)/4` -/
-def P407513285012930269.Spec : Prop :=
-  ∀ n, P407513285012930269.a n = (A015004 n : ℚ)
+def P17182177136544335324.Spec : Prop :=
+  ∀ n, P17182177136544335324.a n = (A015004 n : ℚ)
 
 end A015004
 
@@ -676,14 +676,14 @@ end A015004
 /-!
 # A015005: q-factorial numbers for q=6.
 
-The programs for A015005, the canonical program `A015005.P14610494491017664976` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015005 has offset 0).
+The programs for A015005, the canonical program `A015005.P15247733199297215773` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015005 has offset 0).
 
 The definition of A015005 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015005.P14610494491017664976
+/-! ## A015005.P15247733199297215773
 
-`(6^n-1)*a(n-1)/5` with `a(0)=1, a(1)=1`
+`(6^n-1)*a(n-1)/5` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -691,8 +691,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015005
 
 /-- `(6^n-1)*a(n-1)/5` -/
-def P14610494491017664976.Spec : Prop :=
-  ∀ n, P14610494491017664976.a n = (A015005 n : ℚ)
+def P15247733199297215773.Spec : Prop :=
+  ∀ n, P15247733199297215773.a n = (A015005 n : ℚ)
 
 end A015005
 
@@ -803,14 +803,14 @@ end A015005
 /-!
 # A015006: q-factorial numbers for q=7.
 
-The programs for A015006, the canonical program `A015006.P16749756804385553077` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015006 has offset 0).
+The programs for A015006, the canonical program `A015006.P1883240005951664525` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015006 has offset 0).
 
 The definition of A015006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015006.P16749756804385553077
+/-! ## A015006.P1883240005951664525
 
-`(7^n-1)*a(n-1)/6` with `a(0)=1`
+`(7^n-1)*a(n-1)/6` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -818,8 +818,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015006
 
 /-- `(7^n-1)*a(n-1)/6` -/
-def P16749756804385553077.Spec : Prop :=
-  ∀ n, P16749756804385553077.a n = (A015006 n : ℚ)
+def P1883240005951664525.Spec : Prop :=
+  ∀ n, P1883240005951664525.a n = (A015006 n : ℚ)
 
 end A015006
 
@@ -1057,14 +1057,14 @@ end A015007
 /-!
 # A015008: q-factorial numbers for q=9.
 
-The programs for A015008, the canonical program `A015008.P16246641068067880191` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015008 has offset 0).
+The programs for A015008, the canonical program `A015008.P16387147393766979612` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015008 has offset 0).
 
 The definition of A015008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015008.P16246641068067880191
+/-! ## A015008.P16387147393766979612
 
-`(9^n-1)*a(n-1)/8` with `a(0)=1`
+`(9^n-1)*a(n-1)/8` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -1072,8 +1072,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015008
 
 /-- `(9^n-1)*a(n-1)/8` -/
-def P16246641068067880191.Spec : Prop :=
-  ∀ n, P16246641068067880191.a n = (A015008 n : ℚ)
+def P16387147393766979612.Spec : Prop :=
+  ∀ n, P16387147393766979612.a n = (A015008 n : ℚ)
 
 end A015008
 

@@ -553,6 +553,21 @@ end
 
 end A380612.P12070068699590533313
 
+/-! ## A380612.P11636039111052257686
+
+`(2*n+1)*A385369(2*n)`
+-/
+
+namespace A380612.P11636039111052257686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1 : ℤ) * A385369 (2 * n)
+
+end
+
+end A380612.P11636039111052257686
+
 /-!
 # A380613: Expansion of Product_{k>=1} (1 + x^k)^prime(k)#.
 

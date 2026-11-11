@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence transform of A286570, combining A009194(n) and A046523(n), i.e., gcd(n,sigma(n)) and the prime signature of n.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A009194(i) = A009194(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A009194(n) = gcd(n, sigma(n)).",
   "id": "A300230",
   "mentions": [
     "A009194",
@@ -11,9 +11,12 @@
     "A300231",
     "A300232",
     "A300233",
-    "A300235"
+    "A300235",
+    "A305800",
+    "A388270"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

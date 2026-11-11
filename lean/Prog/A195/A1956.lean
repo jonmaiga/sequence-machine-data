@@ -2250,6 +2250,94 @@ end
 
 end A195613.P18064539451237170707
 
+/-! ## A195613.P3029381326655891739
+
+`∩[A002808(n+1), A104278(n+1)]`
+-/
+
+namespace A195613.P3029381326655891739
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104278 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A195613.P3029381326655891739
+
+/-! ## A195613.P7112056778066024828
+
+`∩[A018252(n+1), A104278(n+1)]`
+-/
+
+namespace A195613.P7112056778066024828
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018252 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104278 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A195613.P7112056778066024828
+
+/-! ## A195613.P13686113053068633718
+
+`∩[A053726(n+1), A077654(n+1)]`
+-/
+
+namespace A195613.P13686113053068633718
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053726 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077654 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A195613.P13686113053068633718
+
+/-! ## A195613.P4680709870755917947
+
+`∩[A056653(n+1), A104278(n+1)]`
+-/
+
+namespace A195613.P4680709870755917947
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056653 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104278 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A195613.P4680709870755917947
+
 /-!
 # A195614: Denominators a(n) of Pythagorean approximations b(n)/a(n) to 2.
 

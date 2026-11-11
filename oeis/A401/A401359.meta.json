@@ -1,0 +1,17 @@
+{
+  "description": "Records in A399581.",
+  "id": "A401359",
+  "mentions": [
+    "A020860",
+    "A028509",
+    "A399581"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -29,6 +29,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C037
 import Seq.B000.C038
@@ -12898,6 +12899,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A173891.P960801545429010036
+
+/-! ## A173891.P13781296196492902517
+
+`∪[A008921(n), A066875(n+1)]`
+-/
+
+namespace A173891.P13781296196492902517
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008921 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066875 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A173891.P13781296196492902517
+
+/-! ## A173891.P15945836572988972472
+
+`∪[A014795(n), A066875(n+1)]`
+-/
+
+namespace A173891.P15945836572988972472
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014795 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066875 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A173891.P15945836572988972472
+
+/-! ## A173891.P1043730506145512072
+
+`∪[A014799(n), A066875(n+1)]`
+-/
+
+namespace A173891.P1043730506145512072
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014799 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066875 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A173891.P1043730506145512072
 
 /-!
 # A173892: Numbers k such that k and k+6 are both balanced primes.

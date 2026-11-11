@@ -33,7 +33,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -7975,21 +7974,6 @@ end
 
 end A249686.P6149016344188837442
 
-/-! ## A249686.P6072345354898763939
-
-`A001068(A250099(n+1)%A000112(n))`
--/
-
-namespace A249686.P6072345354898763939
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001068 (Int.tmod (A250099 (n + 1)) (A000112 n)).toNat
-
-end
-
-end A249686.P6072345354898763939
-
 /-! ## A249686.P2041174206255161153
 
 `A250099(n+1)+∑[A294930(A048587(n))]`
@@ -8037,6 +8021,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A249686.P18418929978745105337
+
+/-! ## A249686.P7230731276774187815
+
+`A151902(A348189(n+1))`
+-/
+
+namespace A249686.P7230731276774187815
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151902 (A348189 (n + 1)).toNat
+
+end
+
+end A249686.P7230731276774187815
 
 /-!
 # A249688: a(n) = n-th Ramanujan number A000594(n), squared.

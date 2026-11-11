@@ -1082,20 +1082,20 @@ end A374209.P13345304580671959305
 The programs for A374210, there is no canonical definition to state claims against.
 -/
 
-/-! ## A374210.P15323005019515280851
+/-! ## A374210.P2419395358842934305
 
-`A059339(n+1)+a(n-1)` with `a(0)=0`
+`A059339(n+1)+a(n-1)` with `a(0)=0, a(1)=0, a(2)=1`
 -/
 
-namespace A374210.P15323005019515280851
+namespace A374210.P2419395358842934305
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 1] fun n a =>
   A059339 (n + 1) + a (n - 1)
 
 end
 
-end A374210.P15323005019515280851
+end A374210.P2419395358842934305
 
 /-! ## A374210.P3153833279908686657
 

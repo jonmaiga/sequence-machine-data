@@ -26,7 +26,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C036
@@ -1866,20 +1865,20 @@ end
 
 end A229924.P13131669089543570251
 
-/-! ## A229924.P10857164932356863420
+/-! ## A229924.P11005139593507613430
 
-`A302796(A092539(n))-n`
+`A359527((n+2)*A359527(n+2))`
 -/
 
-namespace A229924.P10857164932356863420
+namespace A229924.P11005139593507613430
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302796 (A092539 n).toNat - (n : ℤ)
+  A359527 ((n + 2 : ℤ) * A359527 (n + 2)).toNat
 
 end
 
-end A229924.P10857164932356863420
+end A229924.P11005139593507613430
 
 /-!
 # A229928: Number of nX2 0..2 arrays x(i,j) with each element horizontally, vertically or antidiagonally next to at least one element with value 2-x(i,j).

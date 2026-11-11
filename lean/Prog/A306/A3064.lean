@@ -59,6 +59,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5186,27 +5187,23 @@ end
 
 end A306448.P4731162222221793625
 
-/-! ## A306448.P13814781206576795210
+/-! ## A306448.P12405695065915552962
 
-`∩[A020138(n+1), A082293(n+1)]`
+`filter[A020138(n+1), A401791(#)]`
 -/
 
-namespace A306448.P13814781206576795210
+namespace A306448.P12405695065915552962
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A020138 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082293 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
 
 end
 
-end A306448.P13814781206576795210
+end A306448.P12405695065915552962
 
 /-!
 # A306449: Pseudoprimes to base 10 that are not squarefree.

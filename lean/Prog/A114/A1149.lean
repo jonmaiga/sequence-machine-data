@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
@@ -22,6 +21,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -2284,7 +2284,7 @@ end A114937.P17040426240646086896
 /-!
 # A114938: Number of permutations of the multiset {1,1,2,2,...,n,n} with no two consecutive terms equal.
 
-The programs for A114938, the canonical program `A114938.P18013196565338313030` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114938 has offset 0).
+The programs for A114938, the canonical program `A114938.P18013196565338313030` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114938 has offset 0).
 
 The definition of A114938 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2293,7 +2293,7 @@ The definition of A114938 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(2*n-1)*a(n-1)+(n-1)*n*a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A114938
@@ -6748,21 +6748,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114997.P8373531574806301797
-
-/-! ## A114997.P4812676756304527897
-
-`A373893(A153986(n))`
--/
-
-namespace A114997.P4812676756304527897
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373893 (A153986 n).toNat
-
-end
-
-end A114997.P4812676756304527897
 
 /-!
 # A114998: a(n) = numerator of Sum_{i=1..n} +-1/n, where the sign is -1 iff n is prime.

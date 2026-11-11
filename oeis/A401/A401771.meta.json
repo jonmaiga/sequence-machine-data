@@ -1,0 +1,15 @@
+{
+  "description": "Number of non-periodic minimal perfectly balanced sets of order 2pq up to rotation, for p=prime(n), q=prime(k), n>=3, k>=2.",
+  "id": "A401771",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

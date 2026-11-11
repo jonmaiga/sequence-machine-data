@@ -26,7 +26,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -60,6 +59,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -3744,21 +3744,6 @@ end
 
 end A383855.P1197127196514747746
 
-/-! ## A383855.P16643660618217784183
-
-`A000930(gcd(A000608(n), A011542(n)))`
--/
-
-namespace A383855.P16643660618217784183
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000930 (Int.gcd (A000608 n) (A011542 n))
-
-end
-
-end A383855.P16643660618217784183
-
 /-! ## A383855.P8955875765021634828
 
 `A279060(A154692(2*(n+2))-A030190(n))`
@@ -3773,6 +3758,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383855.P8955875765021634828
+
+/-! ## A383855.P17110893321239308837
+
+`A382422(A205536(n))`
+-/
+
+namespace A383855.P17110893321239308837
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382422 (A205536 n).toNat
+
+end
+
+end A383855.P17110893321239308837
 
 /-!
 # A383857: Number of permutations of [n] such that precisely one rising or falling succession occurs, but without either n(n-1) or (n-1)n.
@@ -4639,6 +4639,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383867.P4204887446284559984
+
+/-! ## A383867.P7443044983195696625
+
+`A383864(n+1)%A369855(n+2)`
+-/
+
+namespace A383867.P7443044983195696625
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A383864 (n + 1)) (A369855 (n + 2))
+
+end
+
+end A383867.P7443044983195696625
+
+/-! ## A383867.P3876002790510710089
+
+`A383866(n+1)%A369855(n+2)`
+-/
+
+namespace A383867.P3876002790510710089
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A383866 (n + 1)) (A369855 (n + 2))
+
+end
+
+end A383867.P3876002790510710089
 
 /-!
 # A383868: a(n) = 2^(n-3)*(3*binomial(n,4) + 4*binomial(n,2) + 8).

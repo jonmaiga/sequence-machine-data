@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma(n)/d, where d is the largest divisor d of sigma(n) that is relatively prime with n.",
+  "id": "A401709",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A014567",
+    "A069059",
+    "A105402",
+    "A306682",
+    "A401375",
+    "A401710"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

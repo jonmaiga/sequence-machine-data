@@ -1,0 +1,16 @@
+{
+  "description": "Maximum, over all triangles ABC, of the number of points P strictly inside ABC such that the angles APB, BPC, CPA are pairwise distinct integer multiples of Pi/n.",
+  "id": "A400474",
+  "mentions": [
+    "A001399"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

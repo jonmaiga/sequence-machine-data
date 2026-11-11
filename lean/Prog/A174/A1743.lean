@@ -30,6 +30,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -692,20 +693,20 @@ end
 
 end A174302.P15333966785352943323
 
-/-! ## A174302.P11978984843956067336
+/-! ## A174302.P9396883427790369359
 
-`A094531(n)-A377432(A119502(n))`
+`A401834(A127743(n+1))`
 -/
 
-namespace A174302.P11978984843956067336
+namespace A174302.P9396883427790369359
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094531 n - A377432 (A119502 n).toNat
+  A401834 (A127743 (n + 1)).toNat
 
 end
 
-end A174302.P11978984843956067336
+end A174302.P9396883427790369359
 
 /-!
 # A174303: A symmetrical triangle: T(n,k) = A008292(n+1, k) * f(n,k), where f(n,k) = 2^k when floor(n/2) >= k, otherwise 2^(n-k).
@@ -3401,6 +3402,35 @@ theorem P4680124020663986625.correct : P4680124020663986625.Spec := by
 
 end A174335
 
+/-! ## A174335.P10874954173749232329
+
+`4*n*n!*4*n*n`
+-/
+
+namespace A174335.P10874954173749232329
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * n * Nat.factorial n * 4 * n * n
+
+end
+
+end A174335.P10874954173749232329
+
+namespace A174335
+
+/-- `4*n*n!*4*n*n` -/
+def P10874954173749232329.Spec : Prop :=
+  ∀ n, (P10874954173749232329.a n : ℤ) = A174335 n
+
+theorem P10874954173749232329.correct : P10874954173749232329.Spec := by
+  intro n
+  simp only [A174335, Nat.add_sub_cancel, A174335.P10874954173749232329.a, A174335.P8667116596545799743.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A174335
+
 /-! ## A174335.P10037085749105122657
 
 `(2*n)²*Δ[n*a(n-1)]` with `a(0)=4`
@@ -3482,29 +3512,6 @@ theorem P9441991284407304985.correct : P9441991284407304985.Spec := by
   simp only [A174335, Nat.add_sub_cancel, A174335.P9441991284407304985.a, A174335.P8667116596545799743.a, A000142, A000142.P3272619076580183195.a, A033431, A033431.P14261726496554658204.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A174335
-
-/-! ## A174335.P1849294203829971006
-
-`A005843(n)²²*A104150(n)`
--/
-
-namespace A174335.P1849294203829971006
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A005843 n ^ 2) ^ 2 * A104150 n
-
-end
-
-end A174335.P1849294203829971006
-
-namespace A174335
-
-/-- `A005843(n)²²*A104150(n)` -/
-def P1849294203829971006.Spec : Prop :=
-  ∀ n, P1849294203829971006.a n = A174335 n
 
 end A174335
 

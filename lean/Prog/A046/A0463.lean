@@ -9469,6 +9469,29 @@ theorem P11111299038000170400.correct : P11111299038000170400.Spec := by
 
 end A046326
 
+/-! ## A046326.P7542904633746928177
+
+`A008578(n+2)*A046325(n+2)`
+-/
+
+namespace A046326.P7542904633746928177
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008578 (n + 2) * A046325 (n + 2)
+
+end
+
+end A046326.P7542904633746928177
+
+namespace A046326
+
+/-- `A008578(n+2)*A046325(n+2)` -/
+def P7542904633746928177.Spec : Prop :=
+  ∀ n, P7542904633746928177.a n = A046326 (n + 1)
+
+end A046326
+
 /-! ## A046326.P15731096151796325845
 
 `A182986(2+n)*A046325(n+2)`
@@ -9769,6 +9792,29 @@ namespace A046327
 /-- `A008578(n+2)*A046326(n+2)` -/
 def P11404402131992481494.Spec : Prop :=
   ∀ n, P11404402131992481494.a n = A046327 (n + 1)
+
+end A046327
+
+/-! ## A046327.P18436011481517942402
+
+`A006094(n+1)*A046326(n+2)/A065091(n+1)`
+-/
+
+namespace A046327.P18436011481517942402
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A006094 (n + 1) * A046326 (n + 2) : ℚ) / (A065091 (n + 1) : ℚ)
+
+end
+
+end A046327.P18436011481517942402
+
+namespace A046327
+
+/-- `A006094(n+1)*A046326(n+2)/A065091(n+1)` -/
+def P18436011481517942402.Spec : Prop :=
+  ∀ n, P18436011481517942402.a n = (A046327 (n + 1) : ℚ)
 
 end A046327
 
@@ -17390,19 +17436,19 @@ end
 
 end A046356.P15321352665979606020
 
-/-! ## A046356.P9810959188675622509
+/-! ## A046356.P9059203421102987600
 
-`∩[A046355(n+1), A071904(n+1)]`
+`∩[A014076(n+1), A046355(n+1)]`
 -/
 
-namespace A046356.P9810959188675622509
+namespace A046356.P9059203421102987600
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046355 (n + 1)
+  A014076 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071904 (n + 1)
+  A046355 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -17410,7 +17456,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A046356.P9810959188675622509
+end A046356.P9059203421102987600
 
 /-!
 # A046357: Composite palindromes with only palindromic prime factors whose sum is palindromic (counted with multiplicity).

@@ -68,7 +68,6 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
@@ -3323,6 +3322,29 @@ def P15455535512012466543.Spec : Prop :=
 
 end A049031
 
+/-! ## A049031.P64090945706002358
+
+`A005843(A049032(n+1))`
+-/
+
+namespace A049031.P64090945706002358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A049032 (n + 1)).toNat
+
+end
+
+end A049031.P64090945706002358
+
+namespace A049031
+
+/-- `A005843(A049032(n+1))` -/
+def P64090945706002358.Spec : Prop :=
+  ∀ n, P64090945706002358.a n = A049031 (n + 1)
+
+end A049031
+
 /-!
 # A049032: A049031/2.
 
@@ -3564,6 +3586,24 @@ end A049033.P10735466843695986730
 The programs for A049034, there is no canonical definition to state claims against.
 -/
 
+/-! ## A049034.P14000926843074039334
+
+`∑{#}[n, (2*n+1)!/(2*#+1)]`
+-/
+
+namespace A049034.P14000926843074039334
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (2 * n + 1) : ℚ) / (2 * k + 1 : ℚ)
+
+end
+
+end A049034.P14000926843074039334
+
 /-! ## A049034.P8117882152349615463
 
 `(2*n+1)!*∑[1/(2*n+1)]`
@@ -3635,24 +3675,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A049034.P5991587439125280536
-
-/-! ## A049034.P9071121985184353722
-
-`A081358(Δ[n²])`
--/
-
-namespace A049034.P9071121985184353722
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081358 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
-
-end
-
-end A049034.P9071121985184353722
 
 /-!
 # A049035: Number of pairs of twin primes whose smaller element is <= 10^n-th prime.
@@ -8008,6 +8030,52 @@ namespace A049070
 /-- `(n+1)*(A100071(2*n+1)-A002054(n+1))` -/
 def P12552011053307575598.Spec : Prop :=
   ∀ n, P12552011053307575598.a n = A049070 n
+
+end A049070
+
+/-! ## A049070.P9278136965279788482
+
+`n*(n+1)^3/((n+2)*(n+3))*C(2*n+1, n)`
+-/
+
+namespace A049070.P9278136965279788482
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * (n + 1) ^ 3 : ℚ) / ((n + 2) * (n + 3) : ℚ) * (Nat.choose (2 * n + 1) n : ℚ)
+
+end
+
+end A049070.P9278136965279788482
+
+namespace A049070
+
+/-- `n*(n+1)^3/((n+2)*(n+3))*C(2*n+1, n)` -/
+def P9278136965279788482.Spec : Prop :=
+  ∀ n, P9278136965279788482.a n = (A049070 n : ℚ)
+
+end A049070
+
+/-! ## A049070.P3741669096185365592
+
+`(n+1)*C(2*(n+1), n+3)+(n+1)²*C(2*n+1, n+3)`
+-/
+
+namespace A049070.P3741669096185365592
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) * Nat.choose (2 * (n + 1)) (n + 3) + (n + 1) ^ 2 * Nat.choose (2 * n + 1) (n + 3)
+
+end
+
+end A049070.P3741669096185365592
+
+namespace A049070
+
+/-- `(n+1)*C(2*(n+1), n+3)+(n+1)²*C(2*n+1, n+3)` -/
+def P3741669096185365592.Spec : Prop :=
+  ∀ n, (P3741669096185365592.a n : ℤ) = A049070 n
 
 end A049070
 
@@ -14000,7 +14068,7 @@ end A049092
 /-!
 # A049093: Numbers n such that 2^n - 1 is squarefree.
 
-The programs for A049093, the canonical program `A049093.P4660286145309216014` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049093 has offset 1).
+The programs for A049093, the canonical program `A049093.P4660286145309216014` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049093 has offset 1).
 
 The definition of A049093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 910 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14036,7 +14104,7 @@ end A049093
 
 `eq[1, A272334(1+n)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A049093
@@ -14318,7 +14386,7 @@ end A049093
 /-!
 # A049094: Numbers m such that 2^m - 1 is divisible by a square > 1.
 
-The programs for A049094, the canonical program `A049094.P5932113926049047824` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049094 has offset 1).
+The programs for A049094, the canonical program `A049094.P5932113926049047824` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049094 has offset 1).
 
 The definition of A049094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 296 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14383,7 +14451,7 @@ end A049094
 
 `lt[1, A272334(1+n)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A049094

@@ -145,6 +145,27 @@ end
 
 end A118600.P6700791512146857918
 
+/-! ## A118600.P7614682267758008761
+
+`A007095(eq[0, A055959(n)])`
+-/
+
+namespace A118600.P7614682267758008761
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055959 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A118600.P7614682267758008761
+
 /-! ## A118600.P584694143426763066
 
 `∩[A002113(n+1), A007095(n)]`
@@ -166,27 +187,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A118600.P584694143426763066
-
-/-! ## A118600.P7614682267758008761
-
-`A007095(eq[0, A055959(n)])`
--/
-
-namespace A118600.P7614682267758008761
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055959 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A118600.P7614682267758008761
 
 /-! ## A118600.P13796508593222042481
 

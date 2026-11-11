@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: Place n points at the integer polar angles of the Archimedean spiral r = k, 0 <= k < n, then around the k-th point draw a circle whose radius is the distance from the k-th point to the (k+1)-th point: T(n,k) is the number of k-sided finite regions formed, for n >= 2, k>=2, in the resulting graph.",
+  "id": "A401600",
+  "mentions": [
+    "A359009",
+    "A359258",
+    "A371376",
+    "A401497",
+    "A401498",
+    "A401499"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

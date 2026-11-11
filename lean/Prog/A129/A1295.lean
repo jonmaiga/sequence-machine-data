@@ -32,7 +32,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -1918,24 +1917,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129511.P7667290946989918418
-
-/-! ## A129511.P12717630265601853476
-
-`record[A285097(A044403(n+2))+n-A270417(n+1)]`
--/
-
-namespace A129511.P12717630265601853476
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285097 (A044403 (n + 2)).toNat + ((n : ℤ) - A270417 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A129511.P12717630265601853476
 
 /-!
 # A129512: Numbers with at least two pairs of distinct divisors having equal differences.
@@ -6636,20 +6617,20 @@ end
 
 end A129540.P5586916534756397513
 
-/-! ## A129540.P1145582872442764275
+/-! ## A129540.P16030167252529051941
 
-`A167614(A129546(n+1)-1)-3`
+`A160791(2*A129546(n+1))`
 -/
 
-namespace A129540.P1145582872442764275
+namespace A129540.P16030167252529051941
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167614 (A129546 (n + 1) - 1).toNat - 3
+  A160791 (2 * A129546 (n + 1)).toNat
 
 end
 
-end A129540.P1145582872442764275
+end A129540.P16030167252529051941
 
 /-!
 # A129541: Primes of the form p^2 + q^2 + A007918(p + q) - p - q, where p and q are consecutive primes.
@@ -13287,6 +13268,32 @@ def P2835914356832656747.Spec : Prop :=
 
 end A129589
 
+/-! ## A129589.P14453300984255342133
+
+`∑{#}[floor((n+1)/2), C(n+2, 2*#+1)*2^#]-(n+1)`
+-/
+
+namespace A129589.P14453300984255342133
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℚ) / 2⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (n + 2) (2 * k + 1) * 2 ^ k : ℕ) : ℤ) - (n + 1 : ℤ)
+
+end
+
+end A129589.P14453300984255342133
+
+namespace A129589
+
+/-- `∑{#}[floor((n+1)/2), C(n+2, 2*#+1)*2^#]-(n+1)` -/
+def P14453300984255342133.Spec : Prop :=
+  ∀ n, P14453300984255342133.a n = A129589 (n + 1)
+
+end A129589
+
 /-! ## A129589.P15795220111163903295
 
 `∑[A265278(n+1)]`
@@ -13558,29 +13565,6 @@ namespace A129589
 /-- `A215928(n+2)-(n+1)` -/
 def P6043328849337590749.Spec : Prop :=
   ∀ n, P6043328849337590749.a n = A129589 (n + 1)
-
-end A129589
-
-/-! ## A129589.P8622464708825109052
-
-`A174191(n+2)-(n+2)`
--/
-
-namespace A129589.P8622464708825109052
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174191 (n + 2) - (n + 2 : ℤ)
-
-end
-
-end A129589.P8622464708825109052
-
-namespace A129589
-
-/-- `A174191(n+2)-(n+2)` -/
-def P8622464708825109052.Spec : Prop :=
-  ∀ n, P8622464708825109052.a n = A129589 (n + 1)
 
 end A129589
 

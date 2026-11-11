@@ -19,7 +19,6 @@ import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
@@ -5420,27 +5419,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A200982.P15769930068710110568
-
-/-! ## A200982.P15665493756303816209
-
-`lt[A213384(n), A137264(3*n+1)]`
--/
-
-namespace A200982.P15665493756303816209
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213384 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137264 (3 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A200982.P15665493756303816209
 
 /-! ## A200982.P17088559965750361624
 

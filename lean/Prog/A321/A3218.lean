@@ -24,7 +24,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
@@ -34,7 +33,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
@@ -53,6 +51,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -13407,6 +13406,28 @@ end
 
 end A321870.P8839869539825928861
 
+/-! ## A321870.P9194483320545882499
+
+`∩[A001107(n), A001567(n+1)]`
+-/
+
+namespace A321870.P9194483320545882499
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001107 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001567 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321870.P9194483320545882499
+
 /-! ## A321870.P471925867593680687
 
 `∩[A066488(n+1), A001107(n)]`
@@ -13604,6 +13625,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A321870.P10937591842647590837
+
+/-! ## A321870.P12538587786755483161
+
+`∩[A066488(n+1), A245524(n+1)]`
+-/
+
+namespace A321870.P12538587786755483161
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066488 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245524 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321870.P12538587786755483161
+
+/-! ## A321870.P14365471736408215948
+
+`∩[A171834(n+1), A215326(n+1)]`
+-/
+
+namespace A321870.P14365471736408215948
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171834 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215326 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321870.P14365471736408215948
+
+/-! ## A321870.P12330057484994990731
+
+`∩[A215326(n+1), A245524(n+1)]`
+-/
+
+namespace A321870.P12330057484994990731
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215326 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245524 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321870.P12330057484994990731
 
 /-!
 # A321874: If n = Product (p_j^k_j) then a(n) = Product (prime(p_j)^prime(k_j)).
@@ -15054,6 +15141,28 @@ end
 
 end A321890.P15237706138487318238
 
+/-! ## A321890.P5487223124371389929
+
+`∩[A243451(n+1), A262340(n+1)]`
+-/
+
+namespace A321890.P5487223124371389929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243451 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262340 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321890.P5487223124371389929
+
 /-! ## A321890.P7744299832743625730
 
 `A241751(p?[A122062(n+1)])`
@@ -15129,6 +15238,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321890.P4344002100065879884
+
+/-! ## A321890.P8484655460482097767
+
+`∩[A262340(n+1), A281792(n+1)]`
+-/
+
+namespace A321890.P8484655460482097767
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262340 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281792 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321890.P8484655460482097767
 
 /-!
 # A321891: Prime numbers of the form p^3 + q, where p and q are primes.

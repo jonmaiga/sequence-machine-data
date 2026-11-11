@@ -5177,6 +5177,32 @@ def P2110437669621198443.Spec : Prop :=
 
 end A008953
 
+/-! ## A008953.P17261320592451454018
+
+`dr(A087052(∑[n+1]))`
+-/
+
+namespace A008953.P17261320592451454018
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.digitalRoot (A087052 (∑ j ∈ Finset.range (n + 1), f1 j))
+
+end
+
+end A008953.P17261320592451454018
+
+namespace A008953
+
+/-- `dr(A087052(∑[n+1]))` -/
+def P17261320592451454018.Spec : Prop :=
+  ∀ n, (P17261320592451454018.a n : ℤ) = A008953 (n + 1)
+
+end A008953
+
 /-! ## A008953.P14039513843835422193
 
 `A056142(∑[n+1])%10`
@@ -9160,6 +9186,29 @@ def P6553658077722946254.Spec : Prop :=
 
 end A008977
 
+/-! ## A008977.P6712483159127104002
+
+`C(2*n, n)²*C(4*n, 2*n)`
+-/
+
+namespace A008977.P6712483159127104002
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n ^ 2 * Nat.choose (4 * n) (2 * n)
+
+end
+
+end A008977.P6712483159127104002
+
+namespace A008977
+
+/-- `C(2*n, n)²*C(4*n, 2*n)` -/
+def P6712483159127104002.Spec : Prop :=
+  ∀ n, (P6712483159127104002.a n : ℤ) = A008977 n
+
+end A008977
+
 /-! ## A008977.P13884330725139242136
 
 `C(2*n, n)*C(3*n, n)*C(4*n, n)`
@@ -9183,37 +9232,26 @@ def P13884330725139242136.Spec : Prop :=
 
 end A008977
 
-/-! ## A008977.P15618031590574070068
-
-`A318105(∑[n])`
--/
-
-namespace A008977.P15618031590574070068
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318105 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A008977.P15618031590574070068
-
-namespace A008977
-
-/-- `A318105(∑[n])` -/
-def P15618031590574070068.Spec : Prop :=
-  ∀ n, P15618031590574070068.a n = A008977 n
-
-end A008977
-
 /-!
 # A008978: a(n) = (5*n)!/(n!)^5.
 
 The programs for A008978, there is no canonical definition to state claims against.
 -/
+
+/-! ## A008978.P3628820440598377526
+
+`C(2*n, n)²*C(3*n, n)*C(5*n, 2*n)`
+-/
+
+namespace A008978.P3628820440598377526
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n ^ 2 * Nat.choose (3 * n) n * Nat.choose (5 * n) (2 * n)
+
+end
+
+end A008978.P3628820440598377526
 
 /-! ## A008978.P17914482423632976283
 
@@ -9275,26 +9313,26 @@ end
 
 end A008978.P17641066366398938133
 
-/-! ## A008978.P2037981686915836820
-
-`A001459(n)*A002894(n)`
--/
-
-namespace A008978.P2037981686915836820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001459 n * A002894 n
-
-end
-
-end A008978.P2037981686915836820
-
 /-!
 # A008979: a(n) = (6n)!/(n!)^6.
 
 The programs for A008979, there is no canonical definition to state claims against.
 -/
+
+/-! ## A008979.P13909650695201810665
+
+`C(2*n, n)^3*C(4*n, 2*n)*C(6*n, 2*n)`
+-/
+
+namespace A008979.P13909650695201810665
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n ^ 3 * Nat.choose (4 * n) (2 * n) * Nat.choose (6 * n) (2 * n)
+
+end
+
+end A008979.P13909650695201810665
 
 /-! ## A008979.P10815208238127387904
 
@@ -9358,21 +9396,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008979.P1305219938050381993
-
-/-! ## A008979.P13785316567917423526
-
-`A001421(n)*A006480(n)`
--/
-
-namespace A008979.P13785316567917423526
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001421 n * A006480 n
-
-end
-
-end A008979.P13785316567917423526
 
 /-!
 # A008980: Number of immersions of the oriented circle into the oriented plane with n double points.

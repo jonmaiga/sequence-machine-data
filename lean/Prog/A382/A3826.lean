@@ -14,6 +14,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C021
@@ -22,7 +23,7 @@ import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
@@ -7609,6 +7610,21 @@ end
 
 end A382680.P4482602957598865853
 
+/-! ## A382680.P1015689979308551184
+
+`A376214(A383722(A056023(n+1)))`
+-/
+
+namespace A382680.P1015689979308551184
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376214 (A383722 (A056023 (n + 1)).toNat).toNat
+
+end
+
+end A382680.P1015689979308551184
+
 /-! ## A382680.P11154912559654800149
 
 `A380817(A376214(A382679(n+1)))`
@@ -7728,21 +7744,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382680.P6123424289701205296
-
-/-! ## A382680.P6153748091951494041
-
-`A378684(A381968(A381663(n+1)))`
--/
-
-namespace A382680.P6153748091951494041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A378684 (A381968 (A381663 (n + 1)).toNat).toNat
-
-end
-
-end A382680.P6153748091951494041
 
 /-!
 # A382682: Number of integer partitions of n with origin-to-boundary graph-distance equal to 3.

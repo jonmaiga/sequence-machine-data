@@ -555,24 +555,6 @@ end A254305.P4217261475199073698
 The programs for A254307, there is no canonical definition to state claims against.
 -/
 
-/-! ## A254307.P6734388460198545348
-
-`A031131(A227349(p?[A087195(n+1)]))`
--/
-
-namespace A254307.P6734388460198545348
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087195 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031131 (A227349 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat).toNat
-
-end
-
-end A254307.P6734388460198545348
-
 /-! ## A254307.P9342397563402179419
 
 `A158233(gcd(A001611(n), A023416(n)))`

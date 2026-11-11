@@ -5638,20 +5638,20 @@ end
 
 end A339258.P12682342883072687211
 
-/-! ## A339258.P11883309350293663023
+/-! ## A339258.P12680321818277435001
 
-`A322794(A176206(n+1)*A176206(n+1))`
+`A290532(A340530(n+1))`
 -/
 
-namespace A339258.P11883309350293663023
+namespace A339258.P12680321818277435001
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A176206 (n + 1) * A176206 (n + 1)).toNat
+  A290532 (A340530 (n + 1)).toNat
 
 end
 
-end A339258.P11883309350293663023
+end A339258.P12680321818277435001
 
 /-!
 # A339264: Decimal expansion of (63/25) * (17+15*sqrt(5)) / (7+15*sqrt(5)): an approximation for Pi from Srinivasa Ramanujan.

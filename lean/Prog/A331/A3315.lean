@@ -2667,21 +2667,6 @@ end
 
 end A331534.P10654133447416166740
 
-/-! ## A331534.P10543594585053232178
-
-`A156954(n+1)%A001222(A080035(2*(n+3)))`
--/
-
-namespace A331534.P10543594585053232178
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A156954 (n + 1)) (A001222 (A080035 (2 * (n + 3))).toNat)
-
-end
-
-end A331534.P10543594585053232178
-
 /-! ## A331534.P17836891027946088039
 
 `and((2*n)%3+1, A020914(A187829(n+1)))`
@@ -2711,6 +2696,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331534.P3391039923550233082
+
+/-! ## A331534.P13696114030282953769
+
+`A236314(A389536(n+2))`
+-/
+
+namespace A331534.P13696114030282953769
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236314 (A389536 (n + 2)).toNat
+
+end
+
+end A331534.P13696114030282953769
 
 /-!
 # A331535: Let (x, y) be the lexicographically earliest pair of nonnegative integers such that (x^2) OR (y^2) = A331531(n); a(n) = y.

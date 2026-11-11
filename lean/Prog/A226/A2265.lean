@@ -4995,6 +4995,25 @@ The programs for A226534, the canonical program `A226534.P2857664192279632362` i
 The definition of A226534 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(A000040(n+2)+A000040(n+1)-1)%(A000040(n+2)-A000040(n+1)+1)` (program `A226534.P2857664192279632362`, by `A226534.P2857664192279632362.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
+/-! ## A226534.P2857664192279632362
+
+`(A000040(n+2)+A000040(n+1)-1)%(A000040(n+2)-A000040(n+1)+1)`
+
+The canonical program, it is in `Seq.B001.C010`.
+-/
+
+namespace A226534
+
+/-- `(A000040(n+2)+A000040(n+1)-1)%(A000040(n+2)-A000040(n+1)+1)` -/
+def P2857664192279632362.Spec : Prop :=
+  ∀ n, P2857664192279632362.a n = A226534 (n + 1)
+
+theorem P2857664192279632362.correct : P2857664192279632362.Spec := by
+  intro n
+  simp only [A226534, Nat.add_sub_cancel]
+
+end A226534
+
 /-! ## A226534.P15561170642329282634
 
 `A076273(n+2)%A076368(n+2)`
@@ -5015,25 +5034,6 @@ namespace A226534
 /-- `A076273(n+2)%A076368(n+2)` -/
 def P15561170642329282634.Spec : Prop :=
   ∀ n, P15561170642329282634.a n = A226534 (n + 1)
-
-end A226534
-
-/-! ## A226534.P2857664192279632362
-
-`(A000040(n+2)+A000040(n+1)-1)%(A000040(n+2)-A000040(n+1)+1)`
-
-The canonical program, it is in `Seq.B001.C010`.
--/
-
-namespace A226534
-
-/-- `(A000040(n+2)+A000040(n+1)-1)%(A000040(n+2)-A000040(n+1)+1)` -/
-def P2857664192279632362.Spec : Prop :=
-  ∀ n, P2857664192279632362.a n = A226534 (n + 1)
-
-theorem P2857664192279632362.correct : P2857664192279632362.Spec := by
-  intro n
-  simp only [A226534, Nat.add_sub_cancel]
 
 end A226534
 
@@ -5089,6 +5089,29 @@ def P2796686817010951356.Spec : Prop :=
 
 end A226534
 
+/-! ## A226534.P11872375198540827166
+
+`(2*A000040(n+2))%A076368(n+2)`
+-/
+
+namespace A226534.P11872375198540827166
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (2 * A000040 (n + 2)) (A076368 (n + 2))
+
+end
+
+end A226534.P11872375198540827166
+
+namespace A226534
+
+/-- `(2*A000040(n+2))%A076368(n+2)` -/
+def P11872375198540827166.Spec : Prop :=
+  ∀ n, P11872375198540827166.a n = A226534 (n + 1)
+
+end A226534
+
 /-! ## A226534.P10361017382872205528
 
 `A001747(n+3)%Δ[A014688(n+1)]`
@@ -5112,29 +5135,6 @@ namespace A226534
 /-- `A001747(n+3)%Δ[A014688(n+1)]` -/
 def P10361017382872205528.Spec : Prop :=
   ∀ n, P10361017382872205528.a n = A226534 (n + 1)
-
-end A226534
-
-/-! ## A226534.P11872375198540827166
-
-`(2*A000040(n+2))%A076368(n+2)`
--/
-
-namespace A226534.P11872375198540827166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (2 * A000040 (n + 2)) (A076368 (n + 2))
-
-end
-
-end A226534.P11872375198540827166
-
-namespace A226534
-
-/-- `(2*A000040(n+2))%A076368(n+2)` -/
-def P11872375198540827166.Spec : Prop :=
-  ∀ n, P11872375198540827166.a n = A226534 (n + 1)
 
 end A226534
 
@@ -5164,6 +5164,29 @@ def P9175877058581886752.Spec : Prop :=
 
 end A226534
 
+/-! ## A226534.P15414869278333053053
+
+`A000010(lcm(4, A000040(n+1)))%A076368(n+2)`
+-/
+
+namespace A226534.P15414869278333053053
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000010 (Int.lcm 4 (A000040 (n + 1)))) (A076368 (n + 2))
+
+end
+
+end A226534.P15414869278333053053
+
+namespace A226534
+
+/-- `A000010(lcm(4, A000040(n+1)))%A076368(n+2)` -/
+def P15414869278333053053.Spec : Prop :=
+  ∀ n, P15414869278333053053.a n = A226534 (n + 1)
+
+end A226534
+
 /-! ## A226534.P243155871400783384
 
 `A004275(A000040(n+1))%Δ[A014688(n+1)]`
@@ -5187,29 +5210,6 @@ namespace A226534
 /-- `A004275(A000040(n+1))%Δ[A014688(n+1)]` -/
 def P243155871400783384.Spec : Prop :=
   ∀ n, P243155871400783384.a n = A226534 (n + 1)
-
-end A226534
-
-/-! ## A226534.P15414869278333053053
-
-`A000010(lcm(4, A000040(n+1)))%A076368(n+2)`
--/
-
-namespace A226534.P15414869278333053053
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000010 (Int.lcm 4 (A000040 (n + 1)))) (A076368 (n + 2))
-
-end
-
-end A226534.P15414869278333053053
-
-namespace A226534
-
-/-- `A000010(lcm(4, A000040(n+1)))%A076368(n+2)` -/
-def P15414869278333053053.Spec : Prop :=
-  ∀ n, P15414869278333053053.a n = A226534 (n + 1)
 
 end A226534
 

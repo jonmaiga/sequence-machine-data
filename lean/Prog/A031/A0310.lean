@@ -11,6 +11,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -4279,6 +4280,27 @@ end
 
 end A031036.P8632695521473648370
 
+/-! ## A031036.P3417747392319854589
+
+`eq[A054634(n), A099890(n)]`
+-/
+
+namespace A031036.P3417747392319854589
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054634 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099890 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A031036.P3417747392319854589
+
 /-! ## A031036.P12832839283710397827
 
 `eq[A054634(n), A130706(n)]`
@@ -4509,27 +4531,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031036.P2791175098091732543
-
-/-! ## A031036.P14240032576693212268
-
-`eq[A033324(n+1), A054634(n)]`
--/
-
-namespace A031036.P14240032576693212268
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033324 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054634 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A031036.P14240032576693212268
 
 /-!
 # A031037: Position of n-th 1 in A031035.

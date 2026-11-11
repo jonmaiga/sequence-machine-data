@@ -3583,29 +3583,26 @@ def P5999844143461759462.Spec : Prop :=
 
 end A027810
 
-/-! ## A027810.P8744215253787996104
+/-! ## A027810.P884257233938393026
 
-`A062264(∑[n+1]+n)`
+`(n+1)*A062190(A000096(n))`
 -/
 
-namespace A027810.P8744215253787996104
+namespace A027810.P884257233938393026
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062264 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+  (n + 1 : ℤ) * A062190 (A000096 n).toNat
 
 end
 
-end A027810.P8744215253787996104
+end A027810.P884257233938393026
 
 namespace A027810
 
-/-- `A062264(∑[n+1]+n)` -/
-def P8744215253787996104.Spec : Prop :=
-  ∀ n, P8744215253787996104.a n = A027810 n
+/-- `(n+1)*A062190(A000096(n))` -/
+def P884257233938393026.Spec : Prop :=
+  ∀ n, P884257233938393026.a n = A027810 n
 
 end A027810
 
@@ -10734,6 +10731,35 @@ def P9874087488262094694.Spec : Prop :=
 theorem P9874087488262094694.correct : P9874087488262094694.Spec := by
   intro n
   simp only [A027849, Nat.add_sub_cancel, A027849.P9874087488262094694.a, A027849.P11589793859807254720.a, A033571, A033571.P11165558806189646725.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A027849
+
+/-! ## A027849.P12421346527821584130
+
+`A055112(n)+A005915(n)`
+-/
+
+namespace A027849.P12421346527821584130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055112 n + A005915 n
+
+end
+
+end A027849.P12421346527821584130
+
+namespace A027849
+
+/-- `A055112(n)+A005915(n)` -/
+def P12421346527821584130.Spec : Prop :=
+  ∀ n, P12421346527821584130.a n = A027849 n
+
+theorem P12421346527821584130.correct : P12421346527821584130.Spec := by
+  intro n
+  simp only [A027849, Nat.add_sub_cancel, A027849.P12421346527821584130.a, A027849.P11589793859807254720.a, A005915, A005915.P10778017196570457320.a, A055112, A055112.P15553195109781773626.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

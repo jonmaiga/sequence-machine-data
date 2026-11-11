@@ -25,7 +25,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -8223,26 +8222,32 @@ theorem P6698850205941732153.correct : P6698850205941732153.Spec := by
 
 end A046951
 
-/-! ## A046951.P2102401221022213226
+/-! ## A046951.P4522790023652914149
 
-`A347992(n+1)+A056595(n+1)`
+`A293234(n+1)+A010052(n+1)`
 -/
 
-namespace A046951.P2102401221022213226
+namespace A046951.P4522790023652914149
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347992 (n + 1) + A056595 (n + 1)
+  A293234 (n + 1) + A010052 (n + 1)
 
 end
 
-end A046951.P2102401221022213226
+end A046951.P4522790023652914149
 
 namespace A046951
 
-/-- `A347992(n+1)+A056595(n+1)` -/
-def P2102401221022213226.Spec : Prop :=
-  ∀ n, P2102401221022213226.a n = A046951 (n + 1)
+/-- `A293234(n+1)+A010052(n+1)` -/
+def P4522790023652914149.Spec : Prop :=
+  ∀ n, P4522790023652914149.a n = A046951 (n + 1)
+
+theorem P4522790023652914149.correct : P4522790023652914149.Spec := by
+  intro n
+  simp only [A046951, Nat.add_sub_cancel, A046951.P4522790023652914149.a, A046951.P12586408086602964063.a, A000005, A000005.P16091521709108585461.a, A000188, A000188.P18128357374562736993.f1, A000188.P18128357374562736993.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, A293234, A293234.P10621370865650298108.a, A032741, A032741.P7902726259890016945.f1, A032741.P7902726259890016945.a, A051731, A051731.P11318043630102858095.a, A000007, A000007.P6599383543502402472.a, A048158, A048158.P1757030368331788429.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A046951
 
@@ -8541,6 +8546,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A046952.P14478921864775425646
+
+/-! ## A046952.P1092434432374996788
+
+`A025487(A306802(n+1))²`
+-/
+
+namespace A046952.P1092434432374996788
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025487 (A306802 (n + 1)).toNat ^ 2
+
+end
+
+end A046952.P1092434432374996788
+
+/-! ## A046952.P14277930413890433395
+
+`A061799(A002183(n+1))²`
+-/
+
+namespace A046952.P14277930413890433395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061799 (A002183 (n + 1)).toNat ^ 2
+
+end
+
+end A046952.P14277930413890433395
 
 /-!
 # A046953: Numbers k such that 6*k - 1 is composite.

@@ -29,8 +29,8 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -7715,6 +7715,24 @@ end
 
 end A093557.P12814038696416063146
 
+/-! ## A093557.P16717189459255724724
+
+`filter[A386728(n+1), A074201(#)]`
+-/
+
+namespace A093557.P16717189459255724724
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386728 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A074201 (f1 j).toNat = 1) n)
+
+end
+
+end A093557.P16717189459255724724
+
 /-! ## A093557.P15486333165332315675
 
 `gcd(A119729(A092103(n+2)), A119731(n))`
@@ -7729,21 +7747,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A093557.P15486333165332315675
-
-/-! ## A093557.P9549106860282708941
-
-`gcd(A034932(n), A332284(A332284(n)))`
--/
-
-namespace A093557.P9549106860282708941
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A034932 n) (A332284 (A332284 n).toNat)
-
-end
-
-end A093557.P9549106860282708941
 
 /-!
 # A093558: Triangle of numerators of coefficients of Faulhaber polynomials used for sums of even powers.

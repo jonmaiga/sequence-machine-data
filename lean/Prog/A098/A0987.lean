@@ -5019,6 +5019,21 @@ end
 
 end A098728.P10906449223576753386
 
+/-! ## A098728.P8733355980049656752
+
+`A023443(A098732(n+2))`
+-/
+
+namespace A098728.P8733355980049656752
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A098732 (n + 2)).toNat
+
+end
+
+end A098728.P8733355980049656752
+
 /-!
 # A098729: Consider the sequence {b(n), n >= 1} of digits of the integers: 0 1 2 3 4 5 6 7 8 9 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 2 0... (A033307); a(n) = b(n) + n.
 
@@ -6252,6 +6267,29 @@ The programs for A098737, the canonical program `A098737.P17122941559797591169` 
 
 The definition of A098737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A098737.P7042909388771549273
+
+`1/2*(row(n)+1)*(col(n)+1)*(row(n)+col(n)+2)`
+-/
+
+namespace A098737.P7042909388771549273
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (SequenceMachineLib.triRow n + 1 : ℚ) * (SequenceMachineLib.triCol n + 1 : ℚ) * (SequenceMachineLib.triRow n + SequenceMachineLib.triCol n + 2 : ℚ)
+
+end
+
+end A098737.P7042909388771549273
+
+namespace A098737
+
+/-- `1/2*(row(n)+1)*(col(n)+1)*(row(n)+col(n)+2)` -/
+def P7042909388771549273.Spec : Prop :=
+  ∀ n, P7042909388771549273.a n = (A098737 (n + 1) : ℚ)
+
+end A098737
 
 /-! ## A098737.P17122941559797591169
 
@@ -8526,27 +8564,6 @@ def P10122123266393543807.Spec : Prop :=
   ∀ n, P10122123266393543807.a n = A098749 n
 
 end A098749
-
-/-!
-# A098750: a(n+1) = a(n) + 10's complement of first digit of a(n); a(0) = 0.
-
-The programs for A098750, there is no canonical definition to state claims against.
--/
-
-/-! ## A098750.P9035497494118117679
-
-`A302801(A004903(n+1))-A282513(n)`
--/
-
-namespace A098750.P9035497494118117679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (A004903 (n + 1)).toNat - A282513 n
-
-end
-
-end A098750.P9035497494118117679
 
 /-!
 # A098752: a(1) = 1 and a(n+1) is the least number > a(n) that begins with the last digit of a(n) and doesn't end with 0.

@@ -4908,14 +4908,14 @@ end A261230.P10758657691377179210
 /-!
 # A261231: a(n) = number of steps to reach 0 when starting from k = n and repeatedly applying the map that replaces k with k - (sum of digits in base-3 representation of k).
 
-The programs for A261231, the canonical program `A261231.P115954832167026070` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261231 has offset 0).
+The programs for A261231, the canonical program `A261231.P7877899022308213173` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261231 has offset 0).
 
 The definition of A261231 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A261231.P115954832167026070
+/-! ## A261231.P7877899022308213173
 
-`1+a(2*A054861(n))` with `a(0)=0`
+`1+a(2*A054861(n))` with `a(0)=0, a(1)=1`
 
 The canonical program, it is in `Seq.B001.C011`.
 -/
@@ -4923,10 +4923,10 @@ The canonical program, it is in `Seq.B001.C011`.
 namespace A261231
 
 /-- `1+a(2*A054861(n))` -/
-def P115954832167026070.Spec : Prop :=
-  ∀ n, (P115954832167026070.a n : ℤ) = A261231 n
+def P7877899022308213173.Spec : Prop :=
+  ∀ n, (P7877899022308213173.a n : ℤ) = A261231 n
 
-theorem P115954832167026070.correct : P115954832167026070.Spec := by
+theorem P7877899022308213173.correct : P7877899022308213173.Spec := by
   intro n
   simp only [A261231]
 
@@ -4953,12 +4953,6 @@ namespace A261231
 def P17085915570234388582.Spec : Prop :=
   ∀ n, (P17085915570234388582.a n : ℤ) = A261231 n
 
-theorem P17085915570234388582.correct : P17085915570234388582.Spec := by
-  intro n
-  simp only [A261231, Nat.add_sub_cancel, A261231.P17085915570234388582.a, A261231.P115954832167026070.a, A054861, A054861.P6137810495506521191.a, A344853, A344853.P1953230496886263085.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A261231
 
 /-! ## A261231.P944444712753314167
@@ -4982,12 +4976,6 @@ namespace A261231
 def P944444712753314167.Spec : Prop :=
   ∀ n, (P944444712753314167.a n : ℤ) = A261231 n
 
-theorem P944444712753314167.correct : P944444712753314167.Spec := by
-  intro n
-  simp only [A261231, Nat.add_sub_cancel, A261231.P944444712753314167.a, A261231.P115954832167026070.a, A053735, A053735.P3640341592284089632.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A261231
 
 /-! ## A261231.P18284898971043128313
@@ -5010,12 +4998,6 @@ namespace A261231
 /-- `a(2*n-A230641(n))+1` -/
 def P18284898971043128313.Spec : Prop :=
   ∀ n, (P18284898971043128313.a n : ℤ) = A261231 n
-
-theorem P18284898971043128313.correct : P18284898971043128313.Spec := by
-  intro n
-  simp only [A261231, Nat.add_sub_cancel, A261231.P18284898971043128313.a, A261231.P115954832167026070.a, A054861, A054861.P6137810495506521191.a, A230641, A230641.P12572480448472300178.a, A053735, A053735.P3640341592284089632.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A261231
 
@@ -5076,7 +5058,7 @@ def P15766696171609169611.Spec : Prop :=
 
 theorem P15766696171609169611.correct : P15766696171609169611.Spec := by
   intro n
-  simp only [A261232, Nat.add_sub_cancel, A261232.P15766696171609169611.a, A261232.P7381574163309701758.a, A261231, A261231.P115954832167026070.a, A261233, A261233.P9209519308442447348.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
+  simp only [A261232, Nat.add_sub_cancel, A261232.P15766696171609169611.a, A261232.P7381574163309701758.a, A261231, A261231.P7877899022308213173.a, A261233, A261233.P9209519308442447348.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

@@ -6220,32 +6220,6 @@ def P417761889550056329.Spec : Prop :=
 
 end A351655
 
-/-! ## A351655.P8273634210525939462
-
-`∏{e}[A174342(n), A026625(#)]`
--/
-
-namespace A351655.P8273634210525939462
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174342 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A026625 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A351655.P8273634210525939462
-
-namespace A351655
-
-/-- `∏{e}[A174342(n), A026625(#)]` -/
-def P8273634210525939462.Spec : Prop :=
-  ∀ n, P8273634210525939462.a n = A351655 (n + 1)
-
-end A351655
-
 /-! ## A351655.P6260662011781431949
 
 `A305900(2^∑{e}[n+1, #-1])%A229304(n+1)`

@@ -22,7 +22,6 @@ import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -2722,6 +2721,75 @@ namespace A363332
 /-- `∏{e}[((1+n)/∏{p}[n+1, #^val(n+1, #²)])², #-1]` -/
 def P13679331642933683095.Spec : Prop :=
   ∀ n, P13679331642933683095.a n = A363332 (n + 1)
+
+end A363332
+
+/-! ## A363332.P16802641269498624814
+
+`gcd(A217858(n+1), A368105(n+1))`
+-/
+
+namespace A363332.P16802641269498624814
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A217858 (n + 1)) (A368105 (n + 1))
+
+end
+
+end A363332.P16802641269498624814
+
+namespace A363332
+
+/-- `gcd(A217858(n+1), A368105(n+1))` -/
+def P16802641269498624814.Spec : Prop :=
+  ∀ n, (P16802641269498624814.a n : ℤ) = A363332 (n + 1)
+
+end A363332
+
+/-! ## A363332.P17077590463478117937
+
+`gcd(A224085(n), A368105(n+1))`
+-/
+
+namespace A363332.P17077590463478117937
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A224085 n) (A368105 (n + 1))
+
+end
+
+end A363332.P17077590463478117937
+
+namespace A363332
+
+/-- `gcd(A224085(n), A368105(n+1))` -/
+def P17077590463478117937.Spec : Prop :=
+  ∀ n, (P17077590463478117937.a n : ℤ) = A363332 (n + 1)
+
+end A363332
+
+/-! ## A363332.P11751446747744683864
+
+`A325837(A368170(n+1)²)`
+-/
+
+namespace A363332.P11751446747744683864
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325837 (A368170 (n + 1) ^ 2).toNat
+
+end
+
+end A363332.P11751446747744683864
+
+namespace A363332
+
+/-- `A325837(A368170(n+1)²)` -/
+def P11751446747744683864.Spec : Prop :=
+  ∀ n, P11751446747744683864.a n = A363332 (n + 1)
 
 end A363332
 

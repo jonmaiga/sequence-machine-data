@@ -3147,6 +3147,52 @@ def P8749934847716606034.Spec : Prop :=
 
 end A338726
 
+/-! ## A338726.P1917602233759063018
+
+`A132790(n+1)-A000245(n)`
+-/
+
+namespace A338726.P1917602233759063018
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132790 (n + 1) - A000245 n
+
+end
+
+end A338726.P1917602233759063018
+
+namespace A338726
+
+/-- `A132790(n+1)-A000245(n)` -/
+def P1917602233759063018.Spec : Prop :=
+  ∀ n, P1917602233759063018.a n = A338726 n
+
+end A338726
+
+/-! ## A338726.P3066954602807119947
+
+`A134759(n)-A108958(n+1)`
+-/
+
+namespace A338726.P3066954602807119947
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134759 n - A108958 (n + 1)
+
+end
+
+end A338726.P3066954602807119947
+
+namespace A338726
+
+/-- `A134759(n)-A108958(n+1)` -/
+def P3066954602807119947.Spec : Prop :=
+  ∀ n, P3066954602807119947.a n = A338726 n
+
+end A338726
+
 /-!
 # A338727: a(n) = C(n+1)^2 - 2*C(n+1)*C(n) + C(n)^2, where C() is a Catalan number; a(0) = 1.
 

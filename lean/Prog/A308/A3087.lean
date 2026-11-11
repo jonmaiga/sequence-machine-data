@@ -6358,6 +6358,21 @@ end
 
 end A308765.P14938666955946920589
 
+/-! ## A308765.P8627664802600214976
+
+`A357430(A090800(n+2))`
+-/
+
+namespace A308765.P8627664802600214976
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357430 (A090800 (n + 2)).toNat
+
+end
+
+end A308765.P8627664802600214976
+
 /-!
 # A308766: Numbers k such that the minimal mark in a length k sparse ruler is round(sqrt(9 + 12*k)/2) + 1.
 

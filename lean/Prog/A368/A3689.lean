@@ -19,6 +19,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -6486,6 +6487,29 @@ def P17670031218122943127.Spec : Prop :=
 
 end A368942
 
+/-! ## A368942.P6120666729490374115
+
+`A351846(2*(n+1)-1)+1`
+-/
+
+namespace A368942.P6120666729490374115
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351846 (2 * (n + 1) - 1) + 1
+
+end
+
+end A368942.P6120666729490374115
+
+namespace A368942
+
+/-- `A351846(2*(n+1)-1)+1` -/
+def P6120666729490374115.Spec : Prop :=
+  ∀ n, P6120666729490374115.a n = A368942 (n + 1)
+
+end A368942
+
 /-! ## A368942.P1481224605171766549
 
 `floor(atan(3)+sqrt(n+1))`
@@ -6834,32 +6858,6 @@ namespace A368942
 /-- `A000194(A336751(n+2)+n)` -/
 def P618810012352909210.Spec : Prop :=
   ∀ n, P618810012352909210.a n = A368942 (n + 1)
-
-end A368942
-
-/-! ## A368942.P3655713070328119892
-
-`A351846(Δ[n²])+1`
--/
-
-namespace A368942.P3655713070328119892
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351846 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat + 1
-
-end
-
-end A368942.P3655713070328119892
-
-namespace A368942
-
-/-- `A351846(Δ[n²])+1` -/
-def P3655713070328119892.Spec : Prop :=
-  ∀ n, P3655713070328119892.a n = A368942 (n + 1)
 
 end A368942
 

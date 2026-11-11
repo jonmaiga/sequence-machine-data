@@ -602,27 +602,6 @@ end
 
 end A310312.P13374392249236188726
 
-/-! ## A310312.P117921388166381188
-
-`A140595(lt[A144228(3*n+4), A160009(n+3)])`
--/
-
-namespace A310312.P117921388166381188
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144228 (3 * n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160009 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A310312.P117921388166381188
-
 /-!
 # A310313: Coordination sequence Gal.6.56.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
@@ -791,7 +770,7 @@ end A310316.P15948400939818630408
 /-!
 # A310319: Coordination sequence Gal.3.4.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310319, the canonical program `A310319.P4005157957450756214` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310319 has offset 0).
+The programs for A310319, the canonical program `A310319.P4005157957450756214` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310319 has offset 0).
 
 The definition of A310319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2772 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -800,7 +779,7 @@ The definition of A310319 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+2x+7x^2+5x^3+6x^4+12x^5+6x^6+5x^7+7x^8+2x^9+x^10)/(1-x+x^2-x^3-x^7+x^8-x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A310319
@@ -932,7 +911,7 @@ end A310323.P3925690227248132867
 /-!
 # A310326: Coordination sequence Gal.4.23.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310326, the canonical program `A310326.P10527652952201277657` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310326 has offset 0).
+The programs for A310326, the canonical program `A310326.P10527652952201277657` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310326 has offset 0).
 
 The definition of A310326 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -941,7 +920,7 @@ The definition of A310326 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+9x^2+15x^3+14x^4+18x^5+18x^6+14x^7+12x^8+12x^9+3x^10+x^11)/(1-x^4-x^7+x^11))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A310326
@@ -10379,7 +10358,7 @@ end A310393
 /-!
 # A310394: Coordination sequence Gal.6.568.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310394, the canonical program `A310394.P13649896826521095600` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310394 has offset 0).
+The programs for A310394, the canonical program `A310394.P13649896826521095600` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310394 has offset 0).
 
 The definition of A310394 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10388,7 +10367,7 @@ The definition of A310394 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+4x+10x^2+14x^3+19x^4+23x^5+29x^6+31x^7+29x^8+24x^9+19x^10+14x^11+10x^12+4x^13+x^14)/(1-2x^7+x^14))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A310394

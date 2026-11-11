@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x)(1+x^2)/(1-x-x^3).",
+  "description": "Expansion of g.f. (1 + x)*(1 + x^2)/(1 - x - x^3).",
   "id": "A003410",
   "mentions": [
     "A000051",
@@ -7,7 +7,8 @@
     "A038718",
     "A058278",
     "A097333",
-    "A171855"
+    "A171855",
+    "A226136"
   ],
   "tags": [
     "easy",

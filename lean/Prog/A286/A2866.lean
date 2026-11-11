@@ -22,7 +22,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -1989,50 +1988,50 @@ end
 
 end A286610.P9423895607005222719
 
-/-! ## A286610.P11873279187369466693
+/-! ## A286610.P6753415467945762573
 
-`A061395((2*col(n))!*(A000010(n+1)+1))`
+`A186188(A016724(n))`
 -/
 
-namespace A286610.P11873279187369466693
+namespace A286610.P6753415467945762573
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061395 ((Nat.factorial (2 * SequenceMachineLib.triCol n) : ℤ) * (A000010 (n + 1) + 1)).toNat
+  A186188 (A016724 n).toNat
 
 end
 
-end A286610.P11873279187369466693
+end A286610.P6753415467945762573
 
-/-! ## A286610.P9532353891385109742
+/-! ## A286610.P6420562540263869121
 
-`A003002(A000010(n+1)%A262772(n+1))`
+`A180633(A077168(n))`
 -/
 
-namespace A286610.P9532353891385109742
+namespace A286610.P6420562540263869121
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003002 (Int.tmod (A000010 (n + 1)) (A262772 (n + 1))).toNat
+  A180633 (A077168 n).toNat
 
 end
 
-end A286610.P9532353891385109742
+end A286610.P6420562540263869121
 
-/-! ## A286610.P11198172135335689433
+/-! ## A286610.P9994835074096126839
 
-`A001462(A000010(n+1))%A001462(A000051(n))`
+`A383194(A219793(n+1))`
 -/
 
-namespace A286610.P11198172135335689433
+namespace A286610.P9994835074096126839
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A001462 (A000010 (n + 1)).toNat) (A001462 (A000051 n).toNat)
+  A383194 (A219793 (n + 1)).toNat
 
 end
 
-end A286610.P11198172135335689433
+end A286610.P9994835074096126839
 
 /-!
 # A286611: Numbers k for which A019565(k) <= A087207(k).
@@ -3120,7 +3119,7 @@ end
 end A286620.P1709651218927079113
 
 /-!
-# A286621: Restricted growth sequence computed for filter-sequence A278221, related to the conjugated prime factorization (see A122111).
+# A286621: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A122111(i)) = A046523(A122111(j)), for all i, j >= 1, where A122111 conjugates the prime factorization of n, and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A286621, there is no canonical definition to state claims against.
 -/
@@ -4279,7 +4278,7 @@ end
 end A286625.P9560799477878225147
 
 /-!
-# A286626: Restricted growth sequence computed for primorial base related filter-sequence A278226.
+# A286626: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A276086(i)) = A046523(A276086(j)), for all i, j >= 0, where A046523(n) is the smallest number with same prime signature as n, and A276086 is the primorial base exp-function.
 
 The programs for A286626, there is no canonical definition to state claims against.
 -/

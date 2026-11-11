@@ -7851,6 +7851,35 @@ theorem P17172574265970221799.correct : P17172574265970221799.Spec := by
 
 end A365372
 
+/-! ## A365372.P15279994015288552297
+
+`(row(n)-col(n)+1)^3*(col(n)+1)-(row(n)-col(n)+1)`
+-/
+
+namespace A365372.P15279994015288552297
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) ^ 3 * (SequenceMachineLib.triCol n + 1 : ℤ) - ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1)
+
+end
+
+end A365372.P15279994015288552297
+
+namespace A365372
+
+/-- `(row(n)-col(n)+1)^3*(col(n)+1)-(row(n)-col(n)+1)` -/
+def P15279994015288552297.Spec : Prop :=
+  ∀ n, P15279994015288552297.a n = A365372 (n + 1)
+
+theorem P15279994015288552297.correct : P15279994015288552297.Spec := by
+  intro n
+  simp only [A365372, Nat.add_sub_cancel, A365372.P15279994015288552297.a, A365372.P17172574265970221799.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A365372
+
 /-!
 # A365373: a(n) = n*(3*n^4 + 15*n^3 + 25*n^2 - 15*n - 28)/60.
 
@@ -8286,6 +8315,29 @@ namespace A365373
 /-- `C(n+1, 2)²+a(n-1)-n` -/
 def P15512030007993616312.Spec : Prop :=
   ∀ n, P15512030007993616312.a n = A365373 n
+
+end A365373
+
+/-! ## A365373.P15138730469008150704
+
+`6*C(n+1, 5)+12*C(n+1, 4)+7*C(n+1, 3)`
+-/
+
+namespace A365373.P15138730469008150704
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6 * Nat.choose (n + 1) 5 + 12 * Nat.choose (n + 1) 4 + 7 * Nat.choose (n + 1) 3
+
+end
+
+end A365373.P15138730469008150704
+
+namespace A365373
+
+/-- `6*C(n+1, 5)+12*C(n+1, 4)+7*C(n+1, 3)` -/
+def P15138730469008150704.Spec : Prop :=
+  ∀ n, (P15138730469008150704.a n : ℤ) = A365373 n
 
 end A365373
 
@@ -9393,21 +9445,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365390.P13575721567900972130
-
-/-! ## A365390.P16583444468401904307
-
-`A303707(A032672(n+1))*A356867(n+1)`
--/
-
-namespace A365390.P16583444468401904307
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303707 (A032672 (n + 1)).toNat * A356867 (n + 1)
-
-end
-
-end A365390.P16583444468401904307
 
 /-!
 # A365391: Lexicographically earliest infinite sequence such that a(i) = a(j) => A336158(i) = A336158(j) and A365425(i) = A365425(j) for all i, j >= 1.

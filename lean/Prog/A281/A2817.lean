@@ -41,7 +41,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
@@ -92,7 +92,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -3468,6 +3467,29 @@ namespace A281733
 /-- `16^n*C(3*(n+1)-2, 2*(n+1)-1)/(n+1)` -/
 def P13513498360236193547.Spec : Prop :=
   ∀ n, P13513498360236193547.a n = (A281733 (n + 1) : ℚ)
+
+end A281733
+
+/-! ## A281733.P2050431070776742101
+
+`16^n*(2*C(3*(n+1)-2, n)-C(3*(n+1)-2, n+1))`
+-/
+
+namespace A281733.P2050431070776742101
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (16 ^ n : ℤ) * ((2 * Nat.choose ((3 * (n + 1) : ℤ) - 2).toNat n : ℤ) - (Nat.choose ((3 * (n + 1) : ℤ) - 2).toNat (n + 1) : ℤ))
+
+end
+
+end A281733.P2050431070776742101
+
+namespace A281733
+
+/-- `16^n*(2*C(3*(n+1)-2, n)-C(3*(n+1)-2, n+1))` -/
+def P2050431070776742101.Spec : Prop :=
+  ∀ n, P2050431070776742101.a n = A281733 (n + 1)
 
 end A281733
 

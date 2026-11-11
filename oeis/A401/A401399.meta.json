@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that a majority of free k-celled polyominoes contain a copy of the free polyomino with binary code A246521(n).",
+  "id": "A401399",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A401398",
+    "A401400"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

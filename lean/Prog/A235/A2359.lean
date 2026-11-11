@@ -1174,21 +1174,6 @@ end
 
 end A235920.P2552173719919941531
 
-/-! ## A235920.P2991878478066748284
-
-`A256864(n+4)-A359511(A023701(n+1))`
--/
-
-namespace A235920.P2991878478066748284
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256864 (n + 4) - A359511 (A023701 (n + 1)).toNat
-
-end
-
-end A235920.P2991878478066748284
-
 /-!
 # A235921: Numbers n such that smallest number not dividing n^2 (A236454) is different from smallest prime not dividing n (A053669).
 

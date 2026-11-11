@@ -61,7 +61,6 @@ import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -8217,6 +8216,21 @@ end
 
 end A024161.P17339009724567030631
 
+/-! ## A024161.P15520320247114325024
+
+`xor(A185012(n), A308074(n+1))`
+-/
+
+namespace A024161.P15520320247114325024
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A185012 n) (A308074 (n + 1))
+
+end
+
+end A024161.P15520320247114325024
+
 /-! ## A024161.P12784649850597379978
 
 `A171905(n+1)*A308074(n+1)`
@@ -8261,21 +8275,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A024161.P10867788691577499806
-
-/-! ## A024161.P10212432338400262354
-
-`and(A073866(n+1), A308074(n+1))`
--/
-
-namespace A024161.P10212432338400262354
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A073866 (n + 1)) (A308074 (n + 1))
-
-end
-
-end A024161.P10212432338400262354
 
 /-!
 # A024162: Number of incongruent integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that gcd(a,b,c)=1.
@@ -12269,6 +12268,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A024176.P11480728992316190881
+
+/-! ## A024176.P17360810379337438210
+
+`∑{#}[n, (-1)^#*(n+3)!/(#+3)]`
+-/
+
+namespace A024176.P17360810379337438210
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ((-1) ^ k : ℚ) * ((Nat.factorial (n + 3) : ℚ) / (k + 3 : ℚ))
+
+end
+
+end A024176.P17360810379337438210
 
 /-! ## A024176.P16748785105644978078
 

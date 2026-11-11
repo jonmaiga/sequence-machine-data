@@ -22,6 +22,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -30,6 +31,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -100,13 +102,14 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -850,6 +853,29 @@ def P14637871501258837233.Spec : Prop :=
 
 end A109502
 
+/-! ## A109502.P13018344615528457951
+
+`((row(n)-col(n))^col(n)+(-1)^col(n)*(row(n)-col(n)))/(row(n)-col(n)+1)`
+-/
+
+namespace A109502.P13018344615528457951
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) ^ SequenceMachineLib.triCol n + (-1) ^ SequenceMachineLib.triCol n * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) : ℚ) / ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ)
+
+end
+
+end A109502.P13018344615528457951
+
+namespace A109502
+
+/-- `((row(n)-col(n))^col(n)+(-1)^col(n)*(row(n)-col(n)))/(row(n)-col(n)+1)` -/
+def P13018344615528457951.Spec : Prop :=
+  ∀ n, P13018344615528457951.a n = (A109502 (n + 1) : ℚ)
+
+end A109502
+
 /-! ## A109502.P14429585669831571926
 
 `A255740(n+1)%A063074(A098825(n))`
@@ -916,29 +942,6 @@ namespace A109502
 /-- `A352513(A048993(n))+A010054(n)` -/
 def P5383143288996555368.Spec : Prop :=
   ∀ n, P5383143288996555368.a n = A109502 (n + 1)
-
-end A109502
-
-/-! ## A109502.P6082442593153192366
-
-`A397922(n)%A038826(A107854(n))`
--/
-
-namespace A109502.P6082442593153192366
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A397922 n) (A038826 (A107854 n).toNat)
-
-end
-
-end A109502.P6082442593153192366
-
-namespace A109502
-
-/-- `A397922(n)%A038826(A107854(n))` -/
-def P6082442593153192366.Spec : Prop :=
-  ∀ n, P6082442593153192366.a n = A109502 (n + 1)
 
 end A109502
 
@@ -7740,28 +7743,6 @@ end
 
 end A109556.P11393375609811242489
 
-/-! ## A109556.P13288100437906879814
-
-`∩[A155990(n+1), A371123(n+1)]`
--/
-
-namespace A109556.P13288100437906879814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155990 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371123 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A109556.P13288100437906879814
-
 /-!
 # A109558: prime(k) for those k where floor((2*(prime(k+1)-prime(k))*PrimePi(k) mod (8*k))/k) = m with m = 4.
 
@@ -7803,27 +7784,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A109560.P12571448337292177095
-
-/-!
-# A109563: prime(k) for those k where floor((2*(prime(k+1)-prime(k))*PrimePi(k) mod (8*k))/k) = m with m = 9.
-
-The programs for A109563, there is no canonical definition to state claims against.
--/
-
-/-! ## A109563.P13454055041126437685
-
-`A383216(C(A366992(n+1), A218032(n)))`
--/
-
-namespace A109563.P13454055041126437685
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383216 (Nat.choose (A366992 (n + 1)).toNat (A218032 n).toNat)
-
-end
-
-end A109563.P13454055041126437685
 
 /-!
 # A109569: prime(k) for those k where floor((2*(prime(k+1)-prime(k))*PrimePi(k) mod (8*k))/k) = m with m = 15.

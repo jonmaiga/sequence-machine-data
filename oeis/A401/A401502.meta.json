@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of the set {1, 2, ..., n+k} into k nonempty lists, such that the smallest element of each list is not in the initial position. The lists themselves are unordered.",
+  "id": "A401502",
+  "mentions": [
+    "A000262",
+    "A001147",
+    "A001563",
+    "A048174",
+    "A052852",
+    "A132393",
+    "A288268",
+    "A331404",
+    "A401501"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

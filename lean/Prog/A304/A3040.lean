@@ -39,6 +39,7 @@ import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -1118,27 +1119,46 @@ end A304010.P6241500258808631166
 /-!
 # A304011: Number of same-sized pairs of subsets of set of n numbers that might have the same sum.
 
-The programs for A304011, the canonical program `A304011.P17788673777642198236` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304011 has offset 1).
+The programs for A304011, the canonical program `A304011.P11288609867140140792` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304011 has offset 1).
 
-The definition of A304011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A304011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A304011.P11288609867140140792
+
+`(A002426(n+1)+1)/2-A001006(n+1)`
+
+The canonical program, it is in `Seq.B001.C012`.
+-/
+
+namespace A304011
+
+/-- `(A002426(n+1)+1)/2-A001006(n+1)` -/
+def P11288609867140140792.Spec : Prop :=
+  ∀ n, P11288609867140140792.a n = (A304011 (n + 1) : ℚ)
+
+end A304011
 
 /-! ## A304011.P17788673777642198236
 
 `A097893(n)-A082397(n+1)`
-
-The canonical program, it is in `Seq.B002.C006`.
 -/
+
+namespace A304011.P17788673777642198236
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097893 n - A082397 (n + 1)
+
+end
+
+end A304011.P17788673777642198236
 
 namespace A304011
 
 /-- `A097893(n)-A082397(n+1)` -/
 def P17788673777642198236.Spec : Prop :=
   ∀ n, P17788673777642198236.a n = A304011 (n + 1)
-
-theorem P17788673777642198236.correct : P17788673777642198236.Spec := by
-  intro n
-  simp only [A304011, Nat.add_sub_cancel]
 
 end A304011
 
@@ -3855,6 +3875,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304038.P1972220484040622589
+
+/-! ## A304038.P1291259187802508896
+
+`A066328(A027748(n+1)*A027748(n+1))`
+-/
+
+namespace A304038.P1291259187802508896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066328 (A027748 (n + 1) * A027748 (n + 1)).toNat
+
+end
+
+end A304038.P1291259187802508896
+
+/-! ## A304038.P11337067915975778938
+
+`A241919(A027748(n+1)*A027748(n+1))`
+-/
+
+namespace A304038.P11337067915975778938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241919 (A027748 (n + 1) * A027748 (n + 1)).toNat
+
+end
+
+end A304038.P11337067915975778938
 
 /-!
 # A304039: Least number k such that A304036(k) = n.

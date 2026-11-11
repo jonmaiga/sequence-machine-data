@@ -53,6 +53,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2951,6 +2952,29 @@ def P7054786539584463501.Spec : Prop :=
 
 end A379028
 
+/-! ## A379028.P13714604954322153170
+
+`A049419((n+1)*A384559(n+1))`
+-/
+
+namespace A379028.P13714604954322153170
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049419 ((n + 1 : ℤ) * A384559 (n + 1)).toNat
+
+end
+
+end A379028.P13714604954322153170
+
+namespace A379028
+
+/-- `A049419((n+1)*A384559(n+1))` -/
+def P13714604954322153170.Spec : Prop :=
+  ∀ n, P13714604954322153170.a n = A379028 (n + 1)
+
+end A379028
+
 /-! ## A379028.P18205864958385083405
 
 `A049419(A355038(n+1)/(n+1))`
@@ -3136,6 +3160,28 @@ end
 
 end A379029.P8990854949307080061
 
+/-! ## A379029.P4897997397019022023
+
+`∩[A129656(n+1), A384500(n+1)]`
+-/
+
+namespace A379029.P4897997397019022023
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129656 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384500 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379029.P4897997397019022023
+
 /-!
 # A379030: Nonsquarefree modified exponential abundant numbers: nonsquarefree numbers k such that A241405(k) > 2*k.
 
@@ -3217,6 +3263,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A379030.P11708753239260622981
+
+/-! ## A379030.P1636030976051634723
+
+`filter[A379029(n+1), A401791(#)]`
+-/
+
+namespace A379030.P1636030976051634723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379029 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A379030.P1636030976051634723
 
 /-! ## A379030.P3159968218521689890
 
@@ -3547,28 +3611,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A379030.P4613998064552255162
-
-/-! ## A379030.P11090555181404486012
-
-`∩[A317616(n+1), A379029(n+1)]`
--/
-
-namespace A379030.P11090555181404486012
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317616 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379029 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A379030.P11090555181404486012
 
 /-!
 # A379031: Odd modified exponential abundant numbers: odd numbers k such that A241405(k) > 2*k.
@@ -6777,6 +6819,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A379070.P16479972160097510168
+
+/-! ## A379070.P1515516894533241076
+
+`A379071(n)+A004526(n)`
+-/
+
+namespace A379070.P1515516894533241076
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379071 n + A004526 n
+
+end
+
+end A379070.P1515516894533241076
 
 /-! ## A379070.P5520212216936900838
 

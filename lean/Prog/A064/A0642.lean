@@ -25,6 +25,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C035
@@ -5284,6 +5285,21 @@ end
 
 end A064238.P11387691648451341288
 
+/-! ## A064238.P7686795057545904748
+
+`A124408(n+2)+A124408(n+2)`
+-/
+
+namespace A064238.P7686795057545904748
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124408 (n + 2) + A124408 (n + 2)
+
+end
+
+end A064238.P7686795057545904748
+
 /-! ## A064238.P10645262225620385430
 
 `A137702(n+2)%A174734(n+2)`
@@ -5533,28 +5549,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A064238.P11977664694638386705
-
-/-! ## A064238.P4266873285320440480
-
-`2*∩[A102781(n+2), A255607(n+2)]`
--/
-
-namespace A064238.P4266873285320440480
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102781 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255607 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A064238.P4266873285320440480
 
 /-!
 # A064244: Values of m such that N=(am+1)(bm+1)(cm+1) is a 3-Carmichael number (A087788), where a,b,c = 1,2,15.
@@ -8500,6 +8494,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A064284.P4676704115479631821
+
+/-! ## A064284.P12811482933601212971
+
+`∏{e}[A389365(n+2), #]`
+-/
+
+namespace A064284.P12811482933601212971
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389365 (n + 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p
+
+end
+
+end A064284.P12811482933601212971
 
 /-!
 # A064286: Number of cyclotomic cosets C of 2 mod 2n+1 such that -C = C.

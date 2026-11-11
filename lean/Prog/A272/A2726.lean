@@ -5006,6 +5006,21 @@ end
 
 end A272649.P4612967671327793030
 
+/-! ## A272649.P14735896825610938809
+
+`A273064(A042962(n+1))`
+-/
+
+namespace A272649.P14735896825610938809
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273064 (A042962 (n + 1)).toNat
+
+end
+
+end A272649.P14735896825610938809
+
 /-!
 # A272650: Sum_{ i in 1..p-1, j in 1..p-1, i*j mod p = 1} i*j, where p = n-th prime.
 
@@ -6491,6 +6506,21 @@ end
 
 end A272670.P12911592782753756242
 
+/-! ## A272670.P10951135214238376374
+
+`A161604(n+1)+A161604(n+1)`
+-/
+
+namespace A272670.P10951135214238376374
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161604 (n + 1) + A161604 (n + 1)
+
+end
+
+end A272670.P10951135214238376374
+
 /-! ## A272670.P14889633329083470693
 
 `2*A057890(2+n)`
@@ -6526,21 +6556,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A272670.P4134975045944287793
-
-/-! ## A272670.P4803865684806381345
-
-`A161604(n+1)+A057890(n+2)`
--/
-
-namespace A272670.P4803865684806381345
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161604 (n + 1) + A057890 (n + 2)
-
-end
-
-end A272670.P4803865684806381345
 
 /-! ## A272670.P3214659600989671456
 

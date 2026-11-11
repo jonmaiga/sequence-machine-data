@@ -9,6 +9,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C027
 import Seq.B000.C030
@@ -457,6 +458,29 @@ namespace A010551
 /-- `∏[n-round((n-1)/2)]` -/
 def P7312531670580117699.Spec : Prop :=
   ∀ n, P7312531670580117699.a n = A010551 n
+
+end A010551
+
+/-! ## A010551.P11447755023124791334
+
+`a(n-1)*ceil(n/2)` with `a(0)=1`
+-/
+
+namespace A010551.P11447755023124791334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) * ⌈(n : ℚ) / 2⌉
+
+end
+
+end A010551.P11447755023124791334
+
+namespace A010551
+
+/-- `a(n-1)*ceil(n/2)` -/
+def P11447755023124791334.Spec : Prop :=
+  ∀ n, P11447755023124791334.a n = A010551 n
 
 end A010551
 

@@ -7789,6 +7789,24 @@ end
 
 end A115977.P18292137202834657533
 
+/-! ## A115977.P10888207052954851487
+
+`∑{#}[n, A127393(#)*A127393(n-#)]`
+-/
+
+namespace A115977.P10888207052954851487
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A127393 k * A127393 (n - k)
+
+end
+
+end A115977.P10888207052954851487
+
 /-!
 # A115978: Expansion of phi(-q) * phi(-q^3) in powers of q where phi() is a Ramanujan theta function.
 

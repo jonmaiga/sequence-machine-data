@@ -30,12 +30,12 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -7875,41 +7875,38 @@ end A385180.P2579112124560658902
 The programs for A385181, there is no canonical definition to state claims against.
 -/
 
-/-! ## A385181.P4887545064410602695
+/-! ## A385181.P18193251533777813134
 
-`∑{d}[n+1, A059282(#)*A323022((n+1)/#)]`
+`A398179(n+1)-A059282(n+1)`
 -/
 
-namespace A385181.P4887545064410602695
+namespace A385181.P18193251533777813134
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398179 (n + 1) - A059282 (n + 1)
+
+end
+
+end A385181.P18193251533777813134
+
+/-! ## A385181.P15608365788102517621
+
+`∑{d}[n+1, A157658(#)*A398179((n+1)/#)]`
+-/
+
+namespace A385181.P15608365788102517621
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A059282 d * A323022 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  ∑ d ∈ Nat.divisors (f1 n), A157658 d * A398179 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
 
 end
 
-end A385181.P4887545064410602695
-
-/-! ## A385181.P8308458801266761396
-
-`∑{d}[n+1, A059282(#)*A178334((n+1)/#-1)]`
--/
-
-namespace A385181.P8308458801266761396
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A059282 d * A178334 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ) - 1)).toNat
-
-end
-
-end A385181.P8308458801266761396
+end A385181.P15608365788102517621
 
 /-! ## A385181.P8843282035660702077
 

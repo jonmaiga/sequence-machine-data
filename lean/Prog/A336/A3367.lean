@@ -56,6 +56,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1509,6 +1510,29 @@ def P2537210328820705613.Spec : Prop :=
 
 end A336722
 
+/-! ## A336722.P17223721716431944277
+
+`gcd(A065608(n+1), A401709(n+1))`
+-/
+
+namespace A336722.P17223721716431944277
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A065608 (n + 1)) (A401709 (n + 1))
+
+end
+
+end A336722.P17223721716431944277
+
+namespace A336722
+
+/-- `gcd(A065608(n+1), A401709(n+1))` -/
+def P17223721716431944277.Spec : Prop :=
+  ∀ n, (P17223721716431944277.a n : ℤ) = A336722 (n + 1)
+
+end A336722
+
 /-! ## A336722.P18318455369049393822
 
 `gcd((n+1)^6, gcd(A000005(n+1), A000203(n+1)))`
@@ -1529,29 +1553,6 @@ namespace A336722
 /-- `gcd((n+1)^6, gcd(A000005(n+1), A000203(n+1)))` -/
 def P18318455369049393822.Spec : Prop :=
   ∀ n, (P18318455369049393822.a n : ℤ) = A336722 (n + 1)
-
-end A336722
-
-/-! ## A336722.P15857714337040293614
-
-`gcd(A000027(A306671(n+1)), A065608(n+1))`
--/
-
-namespace A336722.P15857714337040293614
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000027 (A306671 (n + 1)).toNat) (A065608 (n + 1))
-
-end
-
-end A336722.P15857714337040293614
-
-namespace A336722
-
-/-- `gcd(A000027(A306671(n+1)), A065608(n+1))` -/
-def P15857714337040293614.Spec : Prop :=
-  ∀ n, (P15857714337040293614.a n : ℤ) = A336722 (n + 1)
 
 end A336722
 

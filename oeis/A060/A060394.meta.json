@@ -2,7 +2,8 @@
   "description": "Values of k associated with A060392.",
   "id": "A060394",
   "mentions": [
-    "A060392"
+    "A060392",
+    "A060393"
   ],
   "tags": [
     "nonn"

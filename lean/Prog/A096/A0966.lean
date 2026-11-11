@@ -12,7 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -2730,6 +2730,29 @@ def P10484442698937056168.Spec : Prop :=
 
 end A096620
 
+/-! ## A096620.P3552762643641723067
+
+`A160047(2*(n+1))`
+-/
+
+namespace A096620.P3552762643641723067
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160047 (2 * (n + 1))
+
+end
+
+end A096620.P3552762643641723067
+
+namespace A096620
+
+/-- `A160047(2*(n+1))` -/
+def P3552762643641723067.Spec : Prop :=
+  ∀ n, P3552762643641723067.a n = A096620 n
+
+end A096620
+
 /-! ## A096620.P8785109573373277281
 
 `lcm(A002805(n+1), A317108(n+1))/A317108(n+1)`
@@ -4305,21 +4328,6 @@ end
 
 end A096651.P11000493611290421209
 
-/-! ## A096651.P18288998786723654059
-
-`gcd(A087051(A288108(n)), A341279(n))`
--/
-
-namespace A096651.P18288998786723654059
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A087051 (A288108 n).toNat) (A341279 n)
-
-end
-
-end A096651.P18288998786723654059
-
 /-! ## A096651.P12615138680984499526
 
 `A119803(A097805(n)^A333351(n))`
@@ -4334,6 +4342,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096651.P12615138680984499526
+
+/-! ## A096651.P16163787862253552151
+
+`A326625(A122016(n))`
+-/
+
+namespace A096651.P16163787862253552151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326625 (A122016 n).toNat
+
+end
+
+end A096651.P16163787862253552151
 
 /-!
 # A096652: Lower triangular matrix T, read by rows, such that the row sums of T^n form the (2n)-dimensional partition numbers.
@@ -6268,6 +6291,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096674.P17994694890285596778
+
+/-! ## A096674.P18157702849461580912
+
+`A089019(n+1)+A086909(n+1)`
+-/
+
+namespace A096674.P18157702849461580912
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089019 (n + 1) + A086909 (n + 1)
+
+end
+
+end A096674.P18157702849461580912
 
 /-!
 # A096675: a(n) = A096786(n)/2.

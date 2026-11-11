@@ -22,6 +22,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -406,26 +407,26 @@ def P840428593603331527.Spec : Prop :=
 
 end A328001
 
-/-! ## A328001.P10396294791112691275
+/-! ## A328001.P17178288373965031829
 
-`A246661(A043569(n+1)-2)`
+`A246661(A087136(n))`
 -/
 
-namespace A328001.P10396294791112691275
+namespace A328001.P17178288373965031829
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246661 (A043569 (n + 1) - 2).toNat
+  A246661 (A087136 n).toNat
 
 end
 
-end A328001.P10396294791112691275
+end A328001.P17178288373965031829
 
 namespace A328001
 
-/-- `A246661(A043569(n+1)-2)` -/
-def P10396294791112691275.Spec : Prop :=
-  ∀ n, P10396294791112691275.a n = A328001 n
+/-- `A246661(A087136(n))` -/
+def P17178288373965031829.Spec : Prop :=
+  ∀ n, P17178288373965031829.a n = A328001 n
 
 end A328001
 
@@ -3241,6 +3242,29 @@ def P11776271665891768409.Spec : Prop :=
 
 end A328034
 
+/-! ## A328034.P11136333252555990441
+
+`A152423(3*(n+1))/2`
+-/
+
+namespace A328034.P11136333252555990441
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A152423 (3 * (n + 1)) : ℚ) / 2
+
+end
+
+end A328034.P11136333252555990441
+
+namespace A328034
+
+/-- `A152423(3*(n+1))/2` -/
+def P11136333252555990441.Spec : Prop :=
+  ∀ n, P11136333252555990441.a n = (A328034 (n + 1) : ℚ)
+
+end A328034
+
 /-! ## A328034.P14292701373980741927
 
 `A049773(A059893(2*n+n+2))`
@@ -3307,29 +3331,6 @@ namespace A328034
 /-- `A181733(A139706(2*n+n+2))` -/
 def P1449033106367169914.Spec : Prop :=
   ∀ n, P1449033106367169914.a n = A328034 (n + 1)
-
-end A328034
-
-/-! ## A328034.P11136333252555990441
-
-`A152423(3*(n+1))/2`
--/
-
-namespace A328034.P11136333252555990441
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A152423 (3 * (n + 1)) : ℚ) / 2
-
-end
-
-end A328034.P11136333252555990441
-
-namespace A328034
-
-/-- `A152423(3*(n+1))/2` -/
-def P11136333252555990441.Spec : Prop :=
-  ∀ n, P11136333252555990441.a n = (A328034 (n + 1) : ℚ)
 
 end A328034
 
@@ -3572,20 +3573,20 @@ end
 
 end A328036.P1675661484276531261
 
-/-! ## A328036.P6839660656937931163
+/-! ## A328036.P4636345873269337376
 
-`2*A000040(A174798(n+1))`
+`A100484(A174798(n+1))`
 -/
 
-namespace A328036.P6839660656937931163
+namespace A328036.P4636345873269337376
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A000040 (A174798 (n + 1)).toNat
+  A100484 (A174798 (n + 1)).toNat
 
 end
 
-end A328036.P6839660656937931163
+end A328036.P4636345873269337376
 
 /-!
 # A328037: Irregular triangle T(n,k) read by rows: "quotient trajectories" in reduced Collatz sequences; i.e., T(n,k) = q-value(A256598(n,k)) where q-value(z) = (z - A259663(m,j))/2^(m+j) and (m,j) is the unique pair such that z == A259663(m,j) (mod 2^(m+j)). (See Comments for definitions.)

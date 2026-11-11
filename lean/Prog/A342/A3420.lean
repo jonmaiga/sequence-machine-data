@@ -26,7 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -256,6 +256,29 @@ namespace A342001
 /-- `A003415(n+1)/A003557(n+1)` -/
 def P4805983025243635594.Spec : Prop :=
   ∀ n, P4805983025243635594.a n = (A342001 (n + 1) : ℚ)
+
+end A342001
+
+/-! ## A342001.P8001870126254042027
+
+`A007947(n+1)*A083345(n+1)/A083346(n+1)`
+-/
+
+namespace A342001.P8001870126254042027
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A007947 (n + 1) : ℚ) * ((A083345 (n + 1) : ℚ) / (A083346 (n + 1) : ℚ))
+
+end
+
+end A342001.P8001870126254042027
+
+namespace A342001
+
+/-- `A007947(n+1)*A083345(n+1)/A083346(n+1)` -/
+def P8001870126254042027.Spec : Prop :=
+  ∀ n, P8001870126254042027.a n = (A342001 (n + 1) : ℚ)
 
 end A342001
 
@@ -654,32 +677,6 @@ namespace A342001
 /-- `∑{d}[n+1, A347954(#)*A349134((n+1)/#)]` -/
 def P8444452184053352684.Spec : Prop :=
   ∀ n, P8444452184053352684.a n = A342001 (n + 1)
-
-end A342001
-
-/-! ## A342001.P7228171921507125292
-
-`∑{d}[n+1, A347963(#)*A349340((n+1)/#)]`
--/
-
-namespace A342001.P7228171921507125292
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A347963 d * A349340 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
-
-end
-
-end A342001.P7228171921507125292
-
-namespace A342001
-
-/-- `∑{d}[n+1, A347963(#)*A349340((n+1)/#)]` -/
-def P7228171921507125292.Spec : Prop :=
-  ∀ n, P7228171921507125292.a n = A342001 (n + 1)
 
 end A342001
 
@@ -9782,21 +9779,6 @@ end A342078.P13794517054774748409
 
 The programs for A342079, there is no canonical definition to state claims against.
 -/
-
-/-! ## A342079.P5438919643304221924
-
-`A352463(A351997(n+1))`
--/
-
-namespace A342079.P5438919643304221924
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352463 (A351997 (n + 1)).toNat
-
-end
-
-end A342079.P5438919643304221924
 
 /-! ## A342079.P11069682251187343204
 

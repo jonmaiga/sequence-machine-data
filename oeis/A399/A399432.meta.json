@@ -1,0 +1,14 @@
+{
+  "description": "Irregular triangle read by rows: integers from 1 to n that share no prime factor with any other integer from 1 to n.",
+  "id": "A399432",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -4096,21 +4096,6 @@ end
 
 end A371977.P17125892087564032137
 
-/-! ## A371977.P7504560273785624482
-
-`xor(A143579(n), A143594(A143571(n)))`
--/
-
-namespace A371977.P7504560273785624482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A143579 n) (A143594 (A143571 n).toNat)
-
-end
-
-end A371977.P7504560273785624482
-
 /-! ## A371977.P7985531231180748322
 
 `A253315(A261283(n)+A000079(n))`
@@ -4155,6 +4140,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371977.P3541919108579701891
+
+/-! ## A371977.P7504560273785624482
+
+`xor(A143579(n), A143594(A143571(n)))`
+-/
+
+namespace A371977.P7504560273785624482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A143579 n) (A143594 (A143571 n).toNat)
+
+end
+
+end A371977.P7504560273785624482
 
 /-!
 # A371978: Number of ways of placing n non-attacking wazirs on a 3 X n board.

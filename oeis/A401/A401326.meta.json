@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10*a(n-1) + 10*a(n-2), with a(0)=1 and a(1)=5.",
+  "id": "A401326",
+  "mentions": [
+    "A057093",
+    "A399405",
+    "A399776",
+    "A400851"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

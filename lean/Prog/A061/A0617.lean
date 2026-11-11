@@ -18,6 +18,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -10185,20 +10186,20 @@ end
 
 end A061767.P5403201596135717108
 
-/-! ## A061767.P13660567050266139919
+/-! ## A061767.P9621470793951493009
 
-`A113484(n+1)%A397315(3*n+2)²`
+`A113484(A077168(n))`
 -/
 
-namespace A061767.P13660567050266139919
+namespace A061767.P9621470793951493009
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A113484 (n + 1)) (A397315 (3 * n + 2) ^ 2)
+  A113484 (A077168 n).toNat
 
 end
 
-end A061767.P13660567050266139919
+end A061767.P9621470793951493009
 
 /-!
 # A061768: k is the least number such that k! is divisible by (k+1)^n.

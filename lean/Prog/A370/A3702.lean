@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
@@ -5329,6 +5330,24 @@ end
 
 end A370266.P1204973164264269170
 
+/-! ## A370266.P9250591244652011128
+
+`filter[A341645(n+1), A401717(#)]`
+-/
+
+namespace A370266.P9250591244652011128
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341645 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401717 (f1 j).toNat = 1) n)
+
+end
+
+end A370266.P9250591244652011128
+
 /-! ## A370266.P10741413777533859159
 
 `filter[A360768(n+1), A380440(#)]`
@@ -5408,24 +5427,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A370266.P15250543912981538389
-
-/-! ## A370266.P13582971990695259020
-
-`filter[A284342(n+1), A380440(#)]`
--/
-
-namespace A370266.P13582971990695259020
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284342 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A380440 (f1 j).toNat = 1) n)
-
-end
-
-end A370266.P13582971990695259020
 
 /-!
 # A370267: Numbers with an even number of prime factors not of the form 8m+-1 (counting repetitions).
@@ -6759,6 +6760,21 @@ end
 
 end A370292.P7154601412887510111
 
+/-! ## A370292.P99703868206845551
+
+`A072643(n+1)*A072643(n+1)-A370290(n+1)`
+-/
+
+namespace A370292.P99703868206845551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072643 (n + 1) * A072643 (n + 1) - A370290 (n + 1)
+
+end
+
+end A370292.P99703868206845551
+
 /-! ## A370292.P1539890504072984627
 
 `A236855(A082853(1+n))`
@@ -6788,21 +6804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370292.P10067742302101663825
-
-/-! ## A370292.P10284558784229756357
-
-`A321999(A071157(n+1))`
--/
-
-namespace A370292.P10284558784229756357
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321999 (A071157 (n + 1)).toNat
-
-end
-
-end A370292.P10284558784229756357
 
 /-!
 # A370296: Inverse Moebius transform of A322327.

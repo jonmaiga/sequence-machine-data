@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k for which some 1 <= i < j <= k/2 has no prime greater than i dividing both binomial(k,i) and binomial(k,j).",
+  "id": "A399402",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

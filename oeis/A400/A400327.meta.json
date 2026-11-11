@@ -1,0 +1,22 @@
+{
+  "description": "Smallest positive integer that can be written as the sum of n distinct positive n-th powers and also as the sum of n+1 distinct positive (n+1)-th powers.",
+  "id": "A400327",
+  "mentions": [
+    "A001481",
+    "A001661",
+    "A003072",
+    "A146756",
+    "A347362",
+    "A393788",
+    "A400781"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

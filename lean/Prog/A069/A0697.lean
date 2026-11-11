@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -2164,6 +2163,32 @@ The programs for A069721, the canonical program `A069721.P15657058802008382559` 
 
 The definition of A069721 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A069721.P4888484891030287365
+
+`2^n*∑{#}[n-1, C(n+#-1, n)]`
+-/
+
+namespace A069721.P4888484891030287365
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n * (∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose ((n + k : ℤ) - 1).toNat n)
+
+end
+
+end A069721.P4888484891030287365
+
+namespace A069721
+
+/-- `2^n*∑{#}[n-1, C(n+#-1, n)]` -/
+def P4888484891030287365.Spec : Prop :=
+  ∀ n, (P4888484891030287365.a n : ℤ) = A069721 (n + 1)
+
+end A069721
 
 /-! ## A069721.P4969670129289883733
 

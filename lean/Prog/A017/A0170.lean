@@ -36111,33 +36111,30 @@ theorem P16294157302946420989.correct : P16294157302946420989.Spec := by
 
 end A017096
 
-/-! ## A017096.P7207709086731793863
+/-! ## A017096.P219450431714589554
 
-`Δ[A054554(n+1)]²²²`
+`A017089(n)*A017095(n)`
 -/
 
-namespace A017096.P7207709086731793863
+namespace A017096.P219450431714589554
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054554 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (((f1 (n + 1) - f1 n) ^ 2) ^ 2) ^ 2
+  A017089 n * A017095 n
 
 end
 
-end A017096.P7207709086731793863
+end A017096.P219450431714589554
 
 namespace A017096
 
-/-- `Δ[A054554(n+1)]²²²` -/
-def P7207709086731793863.Spec : Prop :=
-  ∀ n, P7207709086731793863.a n = A017096 n
+/-- `A017089(n)*A017095(n)` -/
+def P219450431714589554.Spec : Prop :=
+  ∀ n, P219450431714589554.a n = A017096 n
 
-theorem P7207709086731793863.correct : P7207709086731793863.Spec := by
+theorem P219450431714589554.correct : P219450431714589554.Spec := by
   intro n
-  simp only [A017096, Nat.add_sub_cancel, A017096.P7207709086731793863.f1, A017096.P7207709086731793863.a, A017096.P11778192193906840704.a, A054554, A054554.P10059529129339584182.a, SequenceMachineLib.memo_apply]
+  simp only [A017096, Nat.add_sub_cancel, A017096.P219450431714589554.a, A017096.P11778192193906840704.a, A017089, A017089.P13709942329986306669.a, A017095, A017095.P15550785587980297693.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -36636,6 +36633,29 @@ namespace A017097
 /-- `A001017(8*n+2)` -/
 def P9589117890513125623.Spec : Prop :=
   ∀ n, P9589117890513125623.a n = A017097 n
+
+end A017097
+
+/-! ## A017097.P15576152217076081780
+
+`A251187(A103214(n))`
+-/
+
+namespace A017097.P15576152217076081780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251187 (A103214 n).toNat
+
+end
+
+end A017097.P15576152217076081780
+
+namespace A017097
+
+/-- `A251187(A103214(n))` -/
+def P15576152217076081780.Spec : Prop :=
+  ∀ n, P15576152217076081780.a n = A017097 n
 
 end A017097
 

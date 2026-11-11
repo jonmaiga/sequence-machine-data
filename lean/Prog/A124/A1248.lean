@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -11134,6 +11135,29 @@ def P9925857327822726867.Spec : Prop :=
 
 end A124862
 
+/-! ## A124862.P14350334365377711395
+
+`(A047849(n)+A002450(n))*A000984(n)`
+-/
+
+namespace A124862.P14350334365377711395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A047849 n + A002450 n) * A000984 n
+
+end
+
+end A124862.P14350334365377711395
+
+namespace A124862
+
+/-- `(A047849(n)+A002450(n))*A000984(n)` -/
+def P14350334365377711395.Spec : Prop :=
+  ∀ n, P14350334365377711395.a n = A124862 n
+
+end A124862
+
 /-! ## A124862.P17579204288704941653
 
 `A124860(∑[4*n])`
@@ -11498,6 +11522,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A124865.P1323280562015194663
+
+/-! ## A124865.P3924732373013910082
+
+`∩[A088908(n+1), A214879(n+1)]`
+-/
+
+namespace A124865.P3924732373013910082
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214879 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124865.P3924732373013910082
 
 /-!
 # A124866: Numbers of the form (p^2-q^2)/8, p, q odd primes, p>q.

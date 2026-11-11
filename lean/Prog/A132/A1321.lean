@@ -8555,6 +8555,29 @@ theorem P7524418268624708559.correct : P7524418268624708559.Spec := by
 
 end A132140
 
+/-! ## A132140.P12377084995001974973
+
+`A107680(n)+A005836(n+2)`
+-/
+
+namespace A132140.P12377084995001974973
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107680 n + A005836 (n + 2)
+
+end
+
+end A132140.P12377084995001974973
+
+namespace A132140
+
+/-- `A107680(n)+A005836(n+2)` -/
+def P12377084995001974973.Spec : Prop :=
+  ∀ n, P12377084995001974973.a n = A132140 (n + 1)
+
+end A132140
+
 /-! ## A132140.P4852317503896497400
 
 `A005836(n+2)+A003462(A000523(n+1))`
@@ -8928,32 +8951,6 @@ namespace A132140
 /-- `∩[A032924(n+1), A132141(n+1)]` -/
 def P7606677096295851385.Spec : Prop :=
   ∀ n, (P7606677096295851385.a n : ℤ) = A132140 (n + 1)
-
-end A132140
-
-/-! ## A132140.P7538791571142129820
-
-`record[A093347(2*(n+1))+n]`
--/
-
-namespace A132140.P7538791571142129820
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093347 (2 * (n + 1)) + (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A132140.P7538791571142129820
-
-namespace A132140
-
-/-- `record[A093347(2*(n+1))+n]` -/
-def P7538791571142129820.Spec : Prop :=
-  ∀ n, P7538791571142129820.a n = A132140 (n + 1)
 
 end A132140
 
@@ -13669,6 +13666,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A132173.P11374421120936959972
+
+/-! ## A132173.P5749625528341303662
+
+`A186188(A112318(n+1))`
+-/
+
+namespace A132173.P5749625528341303662
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186188 (A112318 (n + 1)).toNat
+
+end
+
+end A132173.P5749625528341303662
 
 /-!
 # A132174: Index of starting position of n-th generation of terms in A063882.

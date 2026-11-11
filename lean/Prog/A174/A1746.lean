@@ -3958,23 +3958,29 @@ end A174646.P13264410043628133946
 /-!
 # A174647: Determinant of the matrix a(i,j) = 1 if abs(i-j) < 2 and -1 in the rest.
 
-The programs for A174647, there is no canonical definition to state claims against.
+The programs for A174647, the canonical program `A174647.P5662324405833922294` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174647 has offset 0).
+
+The definition of A174647 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A174647.P5662324405833922294
 
 `ogf((1-x+2x^2+8x^3)/(1-2x+4x^2+8x^3-16x^4+32x^5))`
+
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
-namespace A174647.P5662324405833922294
-noncomputable section
+namespace A174647
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, -1, 2, 8] [1, -2, 4, 8, -16, 32] n
+/-- `ogf((1-x+2x^2+8x^3)/(1-2x+4x^2+8x^3-16x^4+32x^5))` -/
+def P5662324405833922294.Spec : Prop :=
+  ∀ n, P5662324405833922294.a n = A174647 n
 
-end
+theorem P5662324405833922294.correct : P5662324405833922294.Spec := by
+  intro n
+  simp only [A174647]
 
-end A174647.P5662324405833922294
+end A174647
 
 /-!
 # A174648: Partial sums of A000452.

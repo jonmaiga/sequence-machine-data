@@ -17,7 +17,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -5191,6 +5190,32 @@ def P9951208858943116873.Spec : Prop :=
 
 end A134931
 
+/-! ## A134931.P7259749302935864224
+
+`3^n+∑{#}[n-1, 3^(n-#)]`
+-/
+
+namespace A134931.P7259749302935864224
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 ^ n : ℚ) + ∑ k ∈ Finset.range (f1 n + 1).toNat, (3 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A134931.P7259749302935864224
+
+namespace A134931
+
+/-- `3^n+∑{#}[n-1, 3^(n-#)]` -/
+def P7259749302935864224.Spec : Prop :=
+  ∀ n, P7259749302935864224.a n = (A134931 n : ℚ)
+
+end A134931
+
 /-! ## A134931.P1671556636489116755
 
 `a(n-1)+a(n-1)+a(n-1)+3` with `a(0)=1`
@@ -5456,29 +5481,6 @@ theorem P9555079417927586996.correct : P9555079417927586996.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
-
-end A134931
-
-/-! ## A134931.P3952651536461210573
-
-`5*A003462(n)+1`
--/
-
-namespace A134931.P3952651536461210573
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * A003462 n + 1
-
-end
-
-end A134931.P3952651536461210573
-
-namespace A134931
-
-/-- `5*A003462(n)+1` -/
-def P3952651536461210573.Spec : Prop :=
-  ∀ n, P3952651536461210573.a n = A134931 n
 
 end A134931
 
@@ -11733,7 +11735,7 @@ end
 end A134982.P11964264024949823408
 
 /-!
-# A134983: Number of ways of placing n rooks on an n X n chessboard with the topology of a Klein bottle.
+# A134983: Number of ways of placing n nonattacking rooks on an n X n chessboard with the topology of a Klein bottle.
 
 The programs for A134983, there is no canonical definition to state claims against.
 -/

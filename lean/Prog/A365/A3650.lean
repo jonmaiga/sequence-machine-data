@@ -28,6 +28,7 @@ import Seq.B000.C041
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -4976,6 +4977,29 @@ namespace A365089
 /-- `and(A192085(n), A206371(n))` -/
 def P4320165168023139258.Spec : Prop :=
   ∀ n, P4320165168023139258.a n = A365089 n
+
+end A365089
+
+/-! ## A365089.P5563145472281987475
+
+`and(A192085(n), A196657(n))`
+-/
+
+namespace A365089.P5563145472281987475
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A192085 n) (A196657 n)
+
+end
+
+end A365089.P5563145472281987475
+
+namespace A365089
+
+/-- `and(A192085(n), A196657(n))` -/
+def P5563145472281987475.Spec : Prop :=
+  ∀ n, P5563145472281987475.a n = A365089 n
 
 end A365089
 

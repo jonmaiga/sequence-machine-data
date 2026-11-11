@@ -39,6 +39,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
@@ -4227,21 +4228,6 @@ end
 
 end A293232.P9036790647982742696
 
-/-! ## A293232.P4665229859417862995
-
-`A300835(n+1)%A048670(n+1)`
--/
-
-namespace A293232.P4665229859417862995
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A300835 (n + 1)) (A048670 (n + 1))
-
-end
-
-end A293232.P4665229859417862995
-
 /-! ## A293232.P11720949186235453087
 
 `A300835(n+1)/A030298(floor(sqrt(n))!)`
@@ -4854,6 +4840,29 @@ namespace A293234
 /-- `∑{d}[n+1, A296066(#)*A326813((n+1)/#)]` -/
 def P14543241769144836788.Spec : Prop :=
   ∀ n, P14543241769144836788.a n = A293234 (n + 1)
+
+end A293234
+
+/-! ## A293234.P13172050036965172392
+
+`A046951(n+1)+A000196(n)-A000196(n+1)`
+-/
+
+namespace A293234.P13172050036965172392
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046951 (n + 1) + A000196 n - A000196 (n + 1)
+
+end
+
+end A293234.P13172050036965172392
+
+namespace A293234
+
+/-- `A046951(n+1)+A000196(n)-A000196(n+1)` -/
+def P13172050036965172392.Spec : Prop :=
+  ∀ n, P13172050036965172392.a n = A293234 (n + 1)
 
 end A293234
 

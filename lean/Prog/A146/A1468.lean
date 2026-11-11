@@ -57,7 +57,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
@@ -7787,6 +7786,21 @@ end
 
 end A146892.P2355852028565809306
 
+/-! ## A146892.P2664220622364042823
+
+`A054706(A146891(n)+1)`
+-/
+
+namespace A146892.P2664220622364042823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054706 (A146891 n + 1).toNat
+
+end
+
+end A146892.P2664220622364042823
+
 /-! ## A146892.P15464154135585870407
 
 `A344969(or(1, A146891(n)))`
@@ -7816,21 +7830,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146892.P15575813815837866995
-
-/-! ## A146892.P12901561628506078246
-
-`A345910(a(A026323(n+1)))` with `a(0)=1`
--/
-
-namespace A146892.P12901561628506078246
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A345910 (a (A026323 (n + 1)).toNat).toNat
-
-end
-
-end A146892.P12901561628506078246
 
 /-!
 # A146894: Weight distribution of [60,30,12] double circulant code.

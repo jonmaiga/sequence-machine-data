@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the arithmetic means of the outermost pairs of primes in the interval [prime(n)^2, prime(n+1)^2].",
+  "id": "A401358",
+  "mentions": [
+    "A000040",
+    "A050216"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

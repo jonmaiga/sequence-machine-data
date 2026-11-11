@@ -1247,23 +1247,20 @@ end
 
 end A209009.P12803590818264150986
 
-/-! ## A209009.P9116859421157894617
+/-! ## A209009.P2546537876673513227
 
-`A353833(∑[A005109(n+1)]-1+n)`
+`A330225(A297443(n))`
 -/
 
-namespace A209009.P9116859421157894617
+namespace A209009.P2546537876673513227
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005109 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353833 (∑ j ∈ Finset.range (n + 1), f1 j - 1 + (n : ℤ)).toNat
+  A330225 (A297443 n).toNat
 
 end
 
-end A209009.P9116859421157894617
+end A209009.P2546537876673513227
 
 /-!
 # A209010: Number of 6-bead necklaces labeled with numbers -n..n not allowing reversal, with sum zero and first and second differences in -n..n.
@@ -1770,7 +1767,7 @@ end
 end A209017.P9466855080075870626
 
 /-!
-# A209018: Number of nX7 0..3 arrays with no element equal the average of immediate neighbors vertically above, diagonally above and left, and horizontally left of it.
+# A209018: Number of n X 7 0..3 arrays with no element equal the average of immediate neighbors vertically above, diagonally above and left, and horizontally left of it.
 
 The programs for A209018, there is no canonical definition to state claims against.
 -/
@@ -3576,7 +3573,7 @@ end
 end A209045.P8019411616292365317
 
 /-!
-# A209046: Number of nX7 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.
+# A209046: Number of n X 7 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.
 
 The programs for A209046, there is no canonical definition to state claims against.
 -/
@@ -7130,6 +7127,32 @@ def P10281823884944502724.Spec : Prop :=
 
 end A209084
 
+/-! ## A209084.P265060173684635490
+
+`∑{#}[n-1, C(n-1-#, #)*2^(n+1)]`
+-/
+
+namespace A209084.P265060173684635490
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose ((n : ℤ) - 1 - (k : ℤ)).toNat k * 2 ^ (n + 1)
+
+end
+
+end A209084.P265060173684635490
+
+namespace A209084
+
+/-- `∑{#}[n-1, C(n-1-#, #)*2^(n+1)]` -/
+def P265060173684635490.Spec : Prop :=
+  ∀ n, (P265060173684635490.a n : ℤ) = A209084 n
+
+end A209084
+
 /-! ## A209084.P15452381435383343901
 
 `abs(A086344(n+1))`
@@ -7429,32 +7452,6 @@ namespace A209084
 /-- `A000079(n+1)*A001611(n)-A000079(n+1)` -/
 def P15556966187337444647.Spec : Prop :=
   ∀ n, P15556966187337444647.a n = A209084 n
-
-end A209084
-
-/-! ## A209084.P15681405896924339719
-
-`Δ[A052899(n)]`
--/
-
-namespace A209084.P15681405896924339719
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052899 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A209084.P15681405896924339719
-
-namespace A209084
-
-/-- `Δ[A052899(n)]` -/
-def P15681405896924339719.Spec : Prop :=
-  ∀ n, P15681405896924339719.a n = A209084 n
 
 end A209084
 

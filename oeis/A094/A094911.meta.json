@@ -8,7 +8,9 @@
     "A094822",
     "A094856",
     "A094869",
-    "A094905"
+    "A094905",
+    "A095035",
+    "A095176"
   ],
   "tags": [
     "formulas",
@@ -17,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

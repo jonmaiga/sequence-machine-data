@@ -25,7 +25,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
@@ -3141,6 +3141,29 @@ def P2345709455547607280.Spec : Prop :=
 
 end A369736
 
+/-! ## A369736.P15711959722798183724
+
+`sin(π*(row(n)-col(n)+1)/2)`
+-/
+
+namespace A369736.P15711959722798183724
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sin (Real.pi * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℝ) / 2)
+
+end
+
+end A369736.P15711959722798183724
+
+namespace A369736
+
+/-- `sin(π*(row(n)-col(n)+1)/2)` -/
+def P15711959722798183724.Spec : Prop :=
+  ∀ n, P15711959722798183724.a n = (A369736 n : ℝ)
+
+end A369736
+
 /-! ## A369736.P6636155915843836990
 
 `1-(T(n-1,k+1)+1)*(T(n-1,k+1)+T(n-1,k)*T(n-1,k))` with `a(0)=1`
@@ -3322,29 +3345,6 @@ namespace A369736
 /-- `(-1)^floor((row(n)-col(n))/2)*(1+(-1)^(row(n)+col(n)))/2` -/
 def P8586685977486719396.Spec : Prop :=
   ∀ n, P8586685977486719396.a n = (A369736 n : ℚ)
-
-end A369736
-
-/-! ## A369736.P6598754164683797112
-
-`A356205(n)%2`
--/
-
-namespace A369736.P6598754164683797112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A356205 n) 2
-
-end
-
-end A369736.P6598754164683797112
-
-namespace A369736
-
-/-- `A356205(n)%2` -/
-def P6598754164683797112.Spec : Prop :=
-  ∀ n, P6598754164683797112.a n = A369736 n
 
 end A369736
 
@@ -5740,20 +5740,20 @@ end
 
 end A369761.P6783534569868895863
 
-/-! ## A369761.P4214800490874156293
+/-! ## A369761.P3501973561454746831
 
-`A367171(A356194(2*n+1-n))`
+`A366744(A356194(2*n+1-n))`
 -/
 
-namespace A369761.P4214800490874156293
+namespace A369761.P3501973561454746831
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367171 (A356194 (2 * n + 1 - n)).toNat
+  A366744 (A356194 (2 * n + 1 - n)).toNat
 
 end
 
-end A369761.P4214800490874156293
+end A369761.P3501973561454746831
 
 /-!
 # A369762: The sum of unitary divisors of the smallest multiple of n whose prime factorization exponents are all powers of 2.
@@ -6031,14 +6031,14 @@ end A369767.P54891541279937175
 /-!
 # A369772: a(1) = 1, a(2) = 2; for n >= 3, a(n) = a(GCD(n - 1, a(n - 1))) + a(n - GCD(n - 1, a(n - 2))).
 
-The programs for A369772, the canonical program `A369772.P8168012744899667824` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369772 has offset 1).
+The programs for A369772, the canonical program `A369772.P18136044891534470997` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369772 has offset 1).
 
-The definition of A369772 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(gcd(n, a(n-1))-1)+a(n-gcd(n, a(n-2)))` (program `A369772.P8168012744899667824`, by `A369772.P8168012744899667824.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A369772 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(gcd(n, a(n-1))-1)+a(n-gcd(n, a(n-2)))` (program `A369772.P18136044891534470997`, by `A369772.P18136044891534470997.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A369772.P8168012744899667824
+/-! ## A369772.P18136044891534470997
 
-`a(gcd(n, a(n-1))-1)+a(n-gcd(n, a(n-2)))` with `a(0)=1, a(1)=2, a(2)=4, a(3)=5, a(4)=2, a(5)=2, a(6)=4, a(7)=5, a(8)=3`
+`a(gcd(n, a(n-1))-1)+a(n-gcd(n, a(n-2)))` with `a(0)=1, a(1)=2, a(2)=4, a(3)=5, a(4)=2, a(5)=2`
 
 The canonical program, it is in `Seq.B000.C048`.
 -/
@@ -6046,10 +6046,10 @@ The canonical program, it is in `Seq.B000.C048`.
 namespace A369772
 
 /-- `a(gcd(n, a(n-1))-1)+a(n-gcd(n, a(n-2)))` -/
-def P8168012744899667824.Spec : Prop :=
-  ∀ n, (P8168012744899667824.a n : ℤ) = A369772 (n + 1)
+def P18136044891534470997.Spec : Prop :=
+  ∀ n, (P18136044891534470997.a n : ℤ) = A369772 (n + 1)
 
-theorem P8168012744899667824.correct : P8168012744899667824.Spec := by
+theorem P18136044891534470997.correct : P18136044891534470997.Spec := by
   intro n
   simp only [A369772, Nat.add_sub_cancel]
 

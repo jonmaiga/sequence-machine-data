@@ -99,6 +99,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -5079,7 +5080,7 @@ end
 end A187456.P10666019248123408806
 
 /-!
-# A187458: Number of (n+1)X(n+1) 0..1 arrays with all the 2X2 subblocks nonsingular and the array of 2X2 subblock determinants symmetric.
+# A187458: Number of (n+1) X (n+1) 0..1 arrays with all the 2 X 2 subblocks nonsingular and the array of 2 X 2 subblock determinants symmetric.
 
 The programs for A187458, there is no canonical definition to state claims against.
 -/

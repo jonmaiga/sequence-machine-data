@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(3*n+k-2,k) * a(n-k).",
+  "id": "A401657",
+  "mentions": [
+    "A400623",
+    "A401656",
+    "A401658",
+    "A401659"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

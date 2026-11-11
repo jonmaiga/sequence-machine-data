@@ -3,6 +3,8 @@
   "id": "A356481",
   "mentions": [
     "A001792",
+    "A133841",
+    "A133842",
     "A202038",
     "A204235",
     "A336114",
@@ -14,13 +16,12 @@
     "A356484"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

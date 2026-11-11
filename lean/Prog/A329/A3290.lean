@@ -35,7 +35,6 @@ import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -5977,6 +5976,29 @@ def P4401907428694461025.Spec : Prop :=
   ∀ n, P4401907428694461025.a n = A329056 (n + 1)
 
 end A329056
+
+/-!
+# A329057: 1-parking triangle T(r, i, 1) read by rows: T(r, i, k) = (r + 1)^(i-1)*binomial(k*(r + 1) + r - i - 1, r - i) with k = 1 and 0 <= i <= r.
+
+The programs for A329057, the canonical program `A329057.P2592229041065503421` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329057 has offset 0).
+
+The definition of A329057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1766 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A329057.P2592229041065503421
+
+`(row(n)+1)^(col(n)-1)*C(2*row(n)-col(n), row(n))`
+
+The canonical program, it is in `Seq.B000.C044`.
+-/
+
+namespace A329057
+
+/-- `(row(n)+1)^(col(n)-1)*C(2*row(n)-col(n), row(n))` -/
+def P2592229041065503421.Spec : Prop :=
+  ∀ n, P2592229041065503421.a n = (A329057 n : ℚ)
+
+end A329057
 
 /-!
 # A329061: Greatest k such that A002805(k) is not divisible by n, or a(n) = 0 if there's no such k.

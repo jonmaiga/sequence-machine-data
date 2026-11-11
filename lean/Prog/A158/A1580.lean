@@ -41,6 +41,7 @@ import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -742,6 +743,28 @@ end
 
 end A158008.P11576863265749351650
 
+/-! ## A158008.P16452922061137084164
+
+`∪[A137922(n+1), A383873(n)]`
+-/
+
+namespace A158008.P16452922061137084164
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137922 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383873 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A158008.P16452922061137084164
+
 /-! ## A158008.P683525016085294321
 
 `∪[A125759(1+n), A348253(n+1)]`
@@ -893,28 +916,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A158008.P13852172021468960893
-
-/-! ## A158008.P12632611195182781924
-
-`∪[A205840(A032033(n)+2), A348253(n+1)]`
--/
-
-namespace A158008.P12632611195182781924
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A205840 (A032033 n + 2).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348253 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A158008.P12632611195182781924
 
 /-!
 # A158009: Numbers of pattern-matching permutations of (1324) for the permutations of {1, 2, ..., n} on n = 4, 5, 6, ... elements.
@@ -11311,20 +11312,20 @@ end
 
 end A158082.P11113694867843241885
 
-/-! ## A158082.P5607798900991784706
+/-! ## A158082.P11194492180151194182
 
-`A000290(A158304(A000290(n+1)/(n+1)))`
+`A000290(A158304(n+1))`
 -/
 
-namespace A158082.P5607798900991784706
+namespace A158082.P11194492180151194182
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A158304 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+  A000290 (A158304 (n + 1)).toNat
 
 end
 
-end A158082.P5607798900991784706
+end A158082.P11194492180151194182
 
 /-!
 # A158083: a(n) = Fibonacci(n+3) for n < 5 and 9*n - 15 otherwise.

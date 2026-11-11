@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -26,7 +27,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -50,6 +50,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1653,6 +1654,21 @@ end
 
 end A344005.P15467244973631946254
 
+/-! ## A344005.P7518654077274397556
+
+`A011772(A001318(n+1)-A001318(n))`
+-/
+
+namespace A344005.P7518654077274397556
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011772 (A001318 (n + 1) - A001318 n).toNat
+
+end
+
+end A344005.P7518654077274397556
+
 /-!
 # A344006: a(n) = m*(m+1)/n, where A344005(n) is the smallest number m such that n divides m*(m+1).
 
@@ -1704,6 +1720,21 @@ end
 
 end A344006.P6249549005472292175
 
+/-! ## A344006.P302399765439002321
+
+`lcm(A345998(n+1), A345999(n+1))`
+-/
+
+namespace A344006.P302399765439002321
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A345998 (n + 1)) (A345999 (n + 1))
+
+end
+
+end A344006.P302399765439002321
+
 /-! ## A344006.P16685758573530995242
 
 `A002378(A011772(gcd(1+n, ∑[n])))/(n+1)`
@@ -1736,21 +1767,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A344006.P13964000113144427102
-
-/-! ## A344006.P12367432886905244066
-
-`A028310(lcm(A345998(n+1), A345999(n+1)))`
--/
-
-namespace A344006.P12367432886905244066
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (Int.lcm (A345998 (n + 1)) (A345999 (n + 1)))
-
-end
-
-end A344006.P12367432886905244066
 
 /-! ## A344006.P1205018696421270045
 

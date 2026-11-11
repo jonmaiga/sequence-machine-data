@@ -2,14 +2,17 @@
   "description": "n + largest triangular number less than or equal to n.",
   "id": "A061885",
   "mentions": [
+    "A000196",
     "A002262",
     "A004201",
+    "A055086",
     "A057944",
     "A060985",
     "A064801",
     "A253607"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

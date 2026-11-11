@@ -19,7 +19,7 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C005
@@ -811,27 +811,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A156467.P16287421911074789243
-
-/-!
-# A156482: Number of n X n arrays of squares of integers, symmetric about main diagonal, with all rows summing to 25.
-
-The programs for A156482, there is no canonical definition to state claims against.
--/
-
-/-! ## A156482.P17258850797856342156
-
-`A087293(a(n-1))+2` with `a(0)=1`
--/
-
-namespace A156482.P17258850797856342156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A087293 (a (n - 1)).toNat + 2
-
-end
-
-end A156482.P17258850797856342156
 
 /-!
 # A156492: Number of n X n arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to 32.

@@ -1,0 +1,22 @@
+{
+  "description": "Number of different ways n lines in the plane, no two parallel, can meet: the number of possible multisets formed by the numbers of lines passing through each intersection point.",
+  "id": "A399464",
+  "mentions": [
+    "A001200",
+    "A003035",
+    "A005834",
+    "A072964",
+    "A399605",
+    "A400149"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

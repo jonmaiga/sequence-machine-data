@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -6349,6 +6350,21 @@ end
 
 end A062691.P8337942062408654130
 
+/-! ## A062691.P2655118725238849583
+
+`A100542(A213518(n+1))`
+-/
+
+namespace A062691.P2655118725238849583
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100542 (A213518 (n + 1)).toNat
+
+end
+
+end A062691.P2655118725238849583
+
 /-! ## A062691.P18377687033560686242
 
 `A000217(eq[2, A118668(n)])`
@@ -6384,21 +6400,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A062691.P1084489488548691952
-
-/-! ## A062691.P15938868821891422882
-
-`A161680(A213518(n+1)+1)`
--/
-
-namespace A062691.P15938868821891422882
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161680 (A213518 (n + 1) + 1).toNat
-
-end
-
-end A062691.P15938868821891422882
 
 /-!
 # A062692: Number of irreducible polynomials over F_2 of degree at most n.

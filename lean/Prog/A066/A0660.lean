@@ -8134,6 +8134,27 @@ end
 
 end A066059.P2104812971720770279
 
+/-! ## A066059.P14893530737558238361
+
+`eq[A066057(n), A077594(n)]`
+-/
+
+namespace A066059.P14893530737558238361
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066057 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077594 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A066059.P14893530737558238361
+
 /-! ## A066059.P2335413087170994934
 
 `eq[A062128(n), A260196(n)]`
@@ -8175,6 +8196,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A066059.P8897956289664813977
+
+/-! ## A066059.P10851475238695166698
+
+`eq[A066057(n), A260196(n)]`
+-/
+
+namespace A066059.P10851475238695166698
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066057 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260196 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A066059.P10851475238695166698
 
 /-! ## A066059.P1352270365924394680
 
@@ -8281,6 +8323,27 @@ end
 
 end A066059.P14489644695682580
 
+/-! ## A066059.P5561658542144303597
+
+`eq[A066057(n), A153881(n+1)]`
+-/
+
+namespace A066059.P5561658542144303597
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066057 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153881 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A066059.P5561658542144303597
+
 /-! ## A066059.P1696288011463230453
 
 `eq[A046691(A048298(n)), A062128(n)]`
@@ -8344,47 +8407,26 @@ end
 
 end A066059.P8968350149353025937
 
-/-! ## A066059.P7223426750457469297
+/-! ## A066059.P9734061798011580764
 
-`eq[A060376(n), A062128(n)]`
+`eq[A066057(n), A328455(n+1)]`
 -/
 
-namespace A066059.P7223426750457469297
+namespace A066059.P9734061798011580764
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060376 n
+  A066057 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062128 n
+  A328455 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A066059.P7223426750457469297
-
-/-! ## A066059.P3034020197776368967
-
-`eq[A060376(n), A062130(n)]`
--/
-
-namespace A066059.P3034020197776368967
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060376 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062130 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A066059.P3034020197776368967
+end A066059.P9734061798011580764
 
 /-!
 # A066060: Number of nilpotent groups of order n.

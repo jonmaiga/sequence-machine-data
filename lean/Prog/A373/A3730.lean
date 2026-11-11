@@ -3538,21 +3538,6 @@ end A373070.P4883010133650104909
 The programs for A373071, there is no canonical definition to state claims against.
 -/
 
-/-! ## A373071.P11705227028217937020
-
-`A382351(A347520(n+1))`
--/
-
-namespace A373071.P11705227028217937020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382351 (A347520 (n + 1)).toNat
-
-end
-
-end A373071.P11705227028217937020
-
 /-! ## A373071.P16455997279212075476
 
 `∪[A059046(n+1), A358674(A132686(n))]`
@@ -5247,29 +5232,6 @@ namespace A373095
 /-- `A331966(A070939(n))%A097942(n+1)` -/
 def P9361644388577984556.Spec : Prop :=
   ∀ n, P9361644388577984556.a n = A373095 n
-
-end A373095
-
-/-! ## A373095.P13898504844572004974
-
-`A096765(A398548(n+1))`
--/
-
-namespace A373095.P13898504844572004974
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096765 (A398548 (n + 1)).toNat
-
-end
-
-end A373095.P13898504844572004974
-
-namespace A373095
-
-/-- `A096765(A398548(n+1))` -/
-def P13898504844572004974.Spec : Prop :=
-  ∀ n, P13898504844572004974.a n = A373095 n
 
 end A373095
 

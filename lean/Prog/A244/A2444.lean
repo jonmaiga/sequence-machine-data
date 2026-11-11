@@ -3814,6 +3814,29 @@ def P219573837546344323.Spec : Prop :=
 
 end A244418
 
+/-! ## A244418.P8985083285441723261
+
+`A002260(n+1)+A003056(n)*A158405(n+1)`
+-/
+
+namespace A244418.P8985083285441723261
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002260 (n + 1) + A003056 n * A158405 (n + 1)
+
+end
+
+end A244418.P8985083285441723261
+
+namespace A244418
+
+/-- `A002260(n+1)+A003056(n)*A158405(n+1)` -/
+def P8985083285441723261.Spec : Prop :=
+  ∀ n, P8985083285441723261.a n = A244418 (n + 1)
+
+end A244418
+
 /-!
 # A244419: Coefficient triangle of polynomials related to the Dirichlet kernel. Rising powers. Riordan triangle ((1+z)/(1+z^2), 2*z/(1+z^2)).
 
@@ -7648,26 +7671,26 @@ def P1273508130267970843.Spec : Prop :=
 
 end A244465
 
-/-! ## A244465.P9128203481222793809
+/-! ## A244465.P16944609283782145709
 
-`A244525(9*n)`
+`A010054(2*n)*A056594(2*n)`
 -/
 
-namespace A244465.P9128203481222793809
+namespace A244465.P16944609283782145709
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244525 (9 * n)
+  A010054 (2 * n) * A056594 (2 * n)
 
 end
 
-end A244465.P9128203481222793809
+end A244465.P16944609283782145709
 
 namespace A244465
 
-/-- `A244525(9*n)` -/
-def P9128203481222793809.Spec : Prop :=
-  ∀ n, P9128203481222793809.a n = A244465 n
+/-- `A010054(2*n)*A056594(2*n)` -/
+def P16944609283782145709.Spec : Prop :=
+  ∀ n, P16944609283782145709.a n = A244465 n
 
 end A244465
 

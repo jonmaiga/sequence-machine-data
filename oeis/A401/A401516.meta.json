@@ -1,0 +1,17 @@
+{
+  "description": "Sum of products of parts in all partitions of n into parts whose product is a square.",
+  "id": "A401516",
+  "mentions": [
+    "A006906",
+    "A401510",
+    "A401517"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

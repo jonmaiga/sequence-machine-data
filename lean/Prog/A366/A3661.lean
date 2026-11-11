@@ -30,6 +30,7 @@ import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
@@ -42,7 +43,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -303,6 +303,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366105.P9584539330988570616
+
+/-! ## A366105.P14192192092890370233
+
+`A128628(A025065(2*n)+n)`
+-/
+
+namespace A366105.P14192192092890370233
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128628 (A025065 (2 * n) + (n : ℤ)).toNat
+
+end
+
+end A366105.P14192192092890370233
+
+/-! ## A366105.P7893622376270300103
+
+`A238966(A000070(n)+n)`
+-/
+
+namespace A366105.P7893622376270300103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238966 (A000070 n + (n : ℤ)).toNat
+
+end
+
+end A366105.P7893622376270300103
+
+/-! ## A366105.P7860418670699181795
+
+`A238966(A025065(2*n)+n)`
+-/
+
+namespace A366105.P7860418670699181795
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238966 (A025065 (2 * n) + (n : ℤ)).toNat
+
+end
+
+end A366105.P7860418670699181795
 
 /-!
 # A366106: Primes that are the concatenation of three squares in base 10.
@@ -815,21 +860,6 @@ end
 
 end A366113.P5773478397780685058
 
-/-! ## A366113.P9669468210943061741
-
-`A385892(A083047(n))`
--/
-
-namespace A366113.P9669468210943061741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385892 (A083047 n).toNat
-
-end
-
-end A366113.P9669468210943061741
-
 /-! ## A366113.P18105902859198244066
 
 `A001511(A345254(n+1)%A092424(n+2))`
@@ -875,6 +905,21 @@ end
 
 end A366113.P12289479779703424576
 
+/-! ## A366113.P16880374145157866419
+
+`A325184(A077320(n+1))`
+-/
+
+namespace A366113.P16880374145157866419
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325184 (A077320 (n + 1)).toNat
+
+end
+
+end A366113.P16880374145157866419
+
 /-!
 # A366115: Expansion of (1/x) * Series_Reversion( x*(1+x+x^2)/(1+x)^5 ).
 
@@ -895,27 +940,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366115.P9969595820177462231
-
-/-!
-# A366117: Expansion of (1/x) * Series_Reversion( x*(1+x+x^3)/(1+x)^3 ).
-
-The programs for A366117, there is no canonical definition to state claims against.
--/
-
-/-! ## A366117.P10639428413866779387
-
-`A087163(A289322(n))+A000217(n)`
--/
-
-namespace A366117.P10639428413866779387
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087163 (A289322 n).toNat + A000217 n
-
-end
-
-end A366117.P10639428413866779387
 
 /-!
 # A366118: Expansion of (1/x) * Series_Reversion( x*(1+x+x^3)/(1+x)^4 ).
@@ -3617,6 +3641,29 @@ def P11840662107584998463.Spec : Prop :=
 
 end A366145
 
+/-! ## A366145.P7967081307388632620
+
+`A046951(A366765(A366765(n+1)²))`
+-/
+
+namespace A366145.P7967081307388632620
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046951 (A366765 (A366765 (n + 1) ^ 2).toNat).toNat
+
+end
+
+end A366145.P7967081307388632620
+
+namespace A366145
+
+/-- `A046951(A366765(A366765(n+1)²))` -/
+def P7967081307388632620.Spec : Prop :=
+  ∀ n, P7967081307388632620.a n = A366145 (n + 1)
+
+end A366145
+
 /-! ## A366145.P9167582029990518496
 
 `A365552(A350390(A366765(n+1)²))`
@@ -3637,29 +3684,6 @@ namespace A366145
 /-- `A365552(A350390(A366765(n+1)²))` -/
 def P9167582029990518496.Spec : Prop :=
   ∀ n, P9167582029990518496.a n = A366145 (n + 1)
-
-end A366145
-
-/-! ## A366145.P7347968259210222122
-
-`A365552(A366765(A366765(n+1)²))`
--/
-
-namespace A366145.P7347968259210222122
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365552 (A366765 (A366765 (n + 1) ^ 2).toNat).toNat
-
-end
-
-end A366145.P7347968259210222122
-
-namespace A366145
-
-/-- `A365552(A366765(A366765(n+1)²))` -/
-def P7347968259210222122.Spec : Prop :=
-  ∀ n, P7347968259210222122.a n = A366145 (n + 1)
 
 end A366145
 

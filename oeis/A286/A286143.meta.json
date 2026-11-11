@@ -1,5 +1,5 @@
 {
-  "description": "Compound filter: a(n) = T(A055881(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.",
+  "description": "a(n) = (1/2)*(2 + ((A055881(n)+A046523(n))^2) - A055881(n) - 3*A046523(n)), where A055881(n) is the largest m such that m! divides n, and A046523(n) is the smallest number with same prime signature as n.",
   "id": "A286143",
   "mentions": [
     "A000027",
@@ -11,10 +11,13 @@
     "A286161",
     "A286162",
     "A286163",
-    "A286164"
+    "A286164",
+    "A401713"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

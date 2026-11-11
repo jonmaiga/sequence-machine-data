@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that pi(2*m) is prime, where pi is A000720.",
+  "id": "A401404",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A099802",
+    "A304483"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

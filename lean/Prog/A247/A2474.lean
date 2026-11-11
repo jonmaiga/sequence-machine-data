@@ -9934,3 +9934,29 @@ def P10508305351343084194.Spec : Prop :=
 
 end A247499
 
+/-! ## A247499.P8380785647082710654
+
+`∑{#}[n, (n+1)!*n!/(#!*(#+1)!*(n-#)!*(n-#+1))]`
+-/
+
+namespace A247499.P8380785647082710654
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (n + 1) * Nat.factorial n : ℚ) / ((Nat.factorial k * Nat.factorial (k + 1) * Nat.factorial ((n : ℤ) - (k : ℤ)).toNat : ℤ) * ((n : ℤ) - (k : ℤ) + 1) : ℚ)
+
+end
+
+end A247499.P8380785647082710654
+
+namespace A247499
+
+/-- `∑{#}[n, (n+1)!*n!/(#!*(#+1)!*(n-#)!*(n-#+1))]` -/
+def P8380785647082710654.Spec : Prop :=
+  ∀ n, P8380785647082710654.a n = (A247499 n : ℚ)
+
+end A247499
+

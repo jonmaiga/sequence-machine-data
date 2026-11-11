@@ -1762,21 +1762,6 @@ end
 
 end A214707.P2101420248715402198
 
-/-! ## A214707.P11033240820879073556
-
-`A303708(or(A195770(n+4), A219686(n+1)))`
--/
-
-namespace A214707.P11033240820879073556
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (Int.lor (A195770 (n + 4)) (A219686 (n + 1))).toNat
-
-end
-
-end A214707.P11033240820879073556
-
 /-!
 # A214708: Least m>0 such that 4^n-m and 5^n-m are relatively prime.
 

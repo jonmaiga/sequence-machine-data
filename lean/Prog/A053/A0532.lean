@@ -33,7 +33,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -46,7 +45,7 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -4797,26 +4796,26 @@ def P13104879911976357154.Spec : Prop :=
 
 end A053218
 
-/-! ## A053218.P14680414057657103465
+/-! ## A053218.P13503323699595063523
 
-`(2*(row(n)+1)-col(n))*2^(col(n)-1)`
+`2^(col(n)-1)*(2*(row(n)+1)-col(n))`
 -/
 
-namespace A053218.P14680414057657103465
+namespace A053218.P13503323699595063523
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((2 * (SequenceMachineLib.triRow n + 1) : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triCol n : ℤ) - 1 : ℤ)
+  (2 : ℚ) ^ ((SequenceMachineLib.triCol n : ℤ) - 1 : ℤ) * ((2 * (SequenceMachineLib.triRow n + 1) : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ)
 
 end
 
-end A053218.P14680414057657103465
+end A053218.P13503323699595063523
 
 namespace A053218
 
-/-- `(2*(row(n)+1)-col(n))*2^(col(n)-1)` -/
-def P14680414057657103465.Spec : Prop :=
-  ∀ n, P14680414057657103465.a n = (A053218 (n + 1) : ℚ)
+/-- `2^(col(n)-1)*(2*(row(n)+1)-col(n))` -/
+def P13503323699595063523.Spec : Prop :=
+  ∀ n, P13503323699595063523.a n = (A053218 (n + 1) : ℚ)
 
 end A053218
 
@@ -5088,26 +5087,26 @@ The programs for A053219, the canonical program `A053219.P2863116976655408559` i
 The definition of A053219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A053219.P11128356054122365334
+/-! ## A053219.P13784435381457497448
 
-`2^(row(n)-col(n)-1)*(row(n)-col(n)+2*(col(n)+1))`
+`2^(row(n)-col(n)-1)*(2*(col(n)+1)+row(n)-col(n))`
 -/
 
-namespace A053219.P11128356054122365334
+namespace A053219.P13784435381457497448
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) - 1 : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + (2 * (SequenceMachineLib.triCol n + 1) : ℤ) : ℚ)
+  (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) - 1 : ℤ) * ((2 * (SequenceMachineLib.triCol n + 1) : ℤ) + ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) : ℚ)
 
 end
 
-end A053219.P11128356054122365334
+end A053219.P13784435381457497448
 
 namespace A053219
 
-/-- `2^(row(n)-col(n)-1)*(row(n)-col(n)+2*(col(n)+1))` -/
-def P11128356054122365334.Spec : Prop :=
-  ∀ n, P11128356054122365334.a n = (A053219 (n + 1) : ℚ)
+/-- `2^(row(n)-col(n)-1)*(2*(col(n)+1)+row(n)-col(n))` -/
+def P13784435381457497448.Spec : Prop :=
+  ∀ n, P13784435381457497448.a n = (A053219 (n + 1) : ℚ)
 
 end A053219
 

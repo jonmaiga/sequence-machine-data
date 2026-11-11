@@ -3169,6 +3169,21 @@ end
 
 end A371872.P977606106819077472
 
+/-! ## A371872.P10721243804451370939
+
+`A066508(A149923(n))`
+-/
+
+namespace A371872.P10721243804451370939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066508 (A149923 n).toNat
+
+end
+
+end A371872.P10721243804451370939
+
 /-!
 # A371873: a(n) = Sum_{k=0..floor(n/3)} binomial(2*n+1,n-3*k).
 

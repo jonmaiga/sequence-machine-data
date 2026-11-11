@@ -39,9 +39,10 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
@@ -49,6 +50,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C013
@@ -57,7 +59,6 @@ import Seq.B002.C001
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -450,7 +451,7 @@ end A169702.P258579085018448455
 /-!
 # A169703: Total number of ON cells at stage n of two-dimensional cellular automaton defined by "Rule 174".
 
-The programs for A169703, the canonical program `A169703.P13390613285210414476` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169703 has offset 0).
+The programs for A169703, the canonical program `A169703.P13390613285210414476` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169703 has offset 0).
 
 The definition of A169703 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -551,7 +552,7 @@ end A169703
 
 `A160410(A110654(n))+A147582(A029579(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A169703
@@ -5110,29 +5111,72 @@ def P18181084818728490708.Spec : Prop :=
 
 end A169723
 
-/-! ## A169723.P17315480397983191269
+/-! ## A169723.P15411101629251918382
 
-`C(Δ[3^n]+2, 2)`
+`(A289521(n+2)-A007051(n))*A007051(n)`
 -/
 
-namespace A169723.P17315480397983191269
+namespace A169723.P15411101629251918382
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose ((f1 (n + 1) : ℤ) - (f1 n : ℤ) + 2).toNat 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A289521 (n + 2) - A007051 n) * A007051 n
 
 end
 
-end A169723.P17315480397983191269
+end A169723.P15411101629251918382
 
 namespace A169723
 
-/-- `C(Δ[3^n]+2, 2)` -/
-def P17315480397983191269.Spec : Prop :=
-  ∀ n, (P17315480397983191269.a n : ℤ) = A169723 (n + 1)
+/-- `(A289521(n+2)-A007051(n))*A007051(n)` -/
+def P15411101629251918382.Spec : Prop :=
+  ∀ n, P15411101629251918382.a n = A169723 (n + 1)
+
+end A169723
+
+/-! ## A169723.P4022393710678008308
+
+`(A007051(n+1)+A007051(n))*A094388(n+1)`
+-/
+
+namespace A169723.P4022393710678008308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A007051 (n + 1) + A007051 n) * A094388 (n + 1)
+
+end
+
+end A169723.P4022393710678008308
+
+namespace A169723
+
+/-- `(A007051(n+1)+A007051(n))*A094388(n+1)` -/
+def P4022393710678008308.Spec : Prop :=
+  ∀ n, P4022393710678008308.a n = A169723 (n + 1)
+
+end A169723
+
+/-! ## A169723.P5564259408689477165
+
+`(A122983(n+1)+A122983(n))*A100702(n+1)`
+-/
+
+namespace A169723.P5564259408689477165
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A122983 (n + 1) + A122983 n) * A100702 (n + 1)
+
+end
+
+end A169723.P5564259408689477165
+
+namespace A169723
+
+/-- `(A122983(n+1)+A122983(n))*A100702(n+1)` -/
+def P5564259408689477165.Spec : Prop :=
+  ∀ n, P5564259408689477165.a n = A169723 (n + 1)
 
 end A169723
 
@@ -7767,6 +7811,21 @@ end
 
 end A169744.P7870783892067673411
 
+/-! ## A169744.P7154681789487632338
+
+`A160144(A169745(n+1))`
+-/
+
+namespace A169744.P7154681789487632338
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160144 (A169745 (n + 1)).toNat
+
+end
+
+end A169744.P7154681789487632338
+
 /-! ## A169744.P6844954105287697637
 
 `A004273(A169745(n+1)+1)`
@@ -7856,21 +7915,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169744.P8733325723146363519
-
-/-! ## A169744.P13452126008300738384
-
-`A079097(2*A169745(n+1))`
--/
-
-namespace A169744.P13452126008300738384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079097 (2 * A169745 (n + 1)).toNat
-
-end
-
-end A169744.P13452126008300738384
 
 /-!
 # A169745: Numbers k such that A109671(2*k+1) = 1.
@@ -9376,6 +9420,81 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169765.P5929116122363527456
+
+/-! ## A169765.P8737239112906891797
+
+`and(A112030(n), A169768(n+4))`
+-/
+
+namespace A169765.P8737239112906891797
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A112030 n) (A169768 (n + 4))
+
+end
+
+end A169765.P8737239112906891797
+
+/-! ## A169765.P950609148281370975
+
+`and(A115525(n), A169768(n+4))`
+-/
+
+namespace A169765.P950609148281370975
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A115525 n) (A169768 (n + 4))
+
+end
+
+end A169765.P950609148281370975
+
+/-! ## A169765.P9627910107460750712
+
+`and(A131379(n), A169768(n+4))`
+-/
+
+namespace A169765.P9627910107460750712
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A131379 n) (A169768 (n + 4))
+
+end
+
+end A169765.P9627910107460750712
+
+/-! ## A169765.P16545140060471506371
+
+`and(A131729(n), A169768(n+4))`
+-/
+
+namespace A169765.P16545140060471506371
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A131729 n) (A169768 (n + 4))
+
+end
+
+end A169765.P16545140060471506371
+
+/-! ## A169765.P3977344160580804634
+
+`and(A132429(n), A169768(n+4))`
+-/
+
+namespace A169765.P3977344160580804634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A132429 n) (A169768 (n + 4))
+
+end
+
+end A169765.P3977344160580804634
 
 /-!
 # A169766: Number of closed knight's tour diagrams of a 3 X n chessboard that have "Bergholtian symmetry".

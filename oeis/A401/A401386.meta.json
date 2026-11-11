@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k, not powers of primes, for which {the largest divisor of sigma(k^2) that is coprime with k^2} is a prime power.",
+  "id": "A401386",
+  "mentions": [
+    "A000203",
+    "A010055",
+    "A024619",
+    "A193072",
+    "A401375",
+    "A401379",
+    "A401380",
+    "A401385",
+    "A401388",
+    "A401391",
+    "A401392"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

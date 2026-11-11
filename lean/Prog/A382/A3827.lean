@@ -924,6 +924,21 @@ end
 
 end A382709.P18209355984365984688
 
+/-! ## A382709.P4428479064205783085
+
+`A000079(n)*A049606(n)-A049606(n)`
+-/
+
+namespace A382709.P4428479064205783085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n * A049606 n - A049606 n
+
+end
+
+end A382709.P4428479064205783085
+
 /-! ## A382709.P17355838768805046621
 
 `A049606(n)*A269388(A000079(n))`
@@ -971,21 +986,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382709.P10305527607357224285
-
-/-! ## A382709.P13992783319207669240
-
-`A000265(A000142(n))*A156552(A000079(n))`
--/
-
-namespace A382709.P13992783319207669240
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (A000142 n).toNat * A156552 (A000079 n).toNat
-
-end
-
-end A382709.P13992783319207669240
 
 /-!
 # A382710: Smallest missing number after A019444(n) has been computed.

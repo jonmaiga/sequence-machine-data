@@ -24,7 +24,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C044
@@ -1996,6 +1996,29 @@ def P5414345957018846602.Spec : Prop :=
 
 end A382843
 
+/-! ## A382843.P11582877841939127376
+
+`(A163733(n+2)-A001611(n))*A163733(n+2)`
+-/
+
+namespace A382843.P11582877841939127376
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A163733 (n + 2) - A001611 n) * A163733 (n + 2)
+
+end
+
+end A382843.P11582877841939127376
+
+namespace A382843
+
+/-- `(A163733(n+2)-A001611(n))*A163733(n+2)` -/
+def P11582877841939127376.Spec : Prop :=
+  ∀ n, P11582877841939127376.a n = A382843 n
+
+end A382843
+
 /-! ## A382843.P9760071639416012415
 
 `A000045(n)*A001911(n)-A001906(n)`
@@ -2471,6 +2494,29 @@ def P6587160649461862138.Spec : Prop :=
 
 end A382845
 
+/-! ## A382845.P1900711629003949601
+
+`A000045(n)*A163733(n+2)-1`
+-/
+
+namespace A382845.P1900711629003949601
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000045 n * A163733 (n + 2) - 1
+
+end
+
+end A382845.P1900711629003949601
+
+namespace A382845
+
+/-- `A000045(n)*A163733(n+2)-1` -/
+def P1900711629003949601.Spec : Prop :=
+  ∀ n, P1900711629003949601.a n = A382845 n
+
+end A382845
+
 /-! ## A382845.P16612624668663983949
 
 `A382608(n)-(A001611(n)+A000045(n))`
@@ -2609,29 +2655,6 @@ def P5983677788891562826.Spec : Prop :=
 
 end A382845
 
-/-! ## A382845.P6275873838261814501
-
-`A226205(n+2)-A008346(2*n)`
--/
-
-namespace A382845.P6275873838261814501
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226205 (n + 2) - A008346 (2 * n)
-
-end
-
-end A382845.P6275873838261814501
-
-namespace A382845
-
-/-- `A226205(n+2)-A008346(2*n)` -/
-def P6275873838261814501.Spec : Prop :=
-  ∀ n, P6275873838261814501.a n = A382845 n
-
-end A382845
-
 /-!
 # A382848: a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k)^2 * binomial(n+k,k).
 
@@ -2716,21 +2739,6 @@ end A382849
 The programs for A382850, there is no canonical definition to state claims against.
 -/
 
-/-! ## A382850.P2016297812753523912
-
-`ceil(A302798(2*n+1)/9)`
--/
-
-namespace A382850.P2016297812753523912
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A302798 (2 * n + 1) : ℚ) / 9⌉
-
-end
-
-end A382850.P2016297812753523912
-
 /-! ## A382850.P6751491399939295999
 
 `A070939(ceil(sqrt(A000213(n))))`
@@ -2790,6 +2798,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382850.P9117619457565735319
+
+/-! ## A382850.P7552833234104059092
+
+`A227568(A190269(n+2))`
+-/
+
+namespace A382850.P7552833234104059092
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227568 (A190269 (n + 2)).toNat
+
+end
+
+end A382850.P7552833234104059092
 
 /-!
 # A382851: a(n) = least number in row n of Pascal's triangle that exceeds every number in row n-1.

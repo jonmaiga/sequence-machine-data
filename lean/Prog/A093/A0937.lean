@@ -1151,26 +1151,26 @@ def P9160197700485317308.Spec : Prop :=
 
 end A093709
 
-/-! ## A093709.P482922340374189650
+/-! ## A093709.P17261774603656303309
 
-`and(1, A245432(n))`
+`A351006(n)%2`
 -/
 
-namespace A093709.P482922340374189650
+namespace A093709.P17261774603656303309
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land 1 (A245432 n)
+  Int.tmod (A351006 n) 2
 
 end
 
-end A093709.P482922340374189650
+end A093709.P17261774603656303309
 
 namespace A093709
 
-/-- `and(1, A245432(n))` -/
-def P482922340374189650.Spec : Prop :=
-  ∀ n, P482922340374189650.a n = A093709 n
+/-- `A351006(n)%2` -/
+def P17261774603656303309.Spec : Prop :=
+  ∀ n, P17261774603656303309.a n = A093709 n
 
 end A093709
 
@@ -3620,6 +3620,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A093764.P2219256730604292793
+
+/-! ## A093764.P11330166062540711298
+
+`filter[A093784(n), A401717(#)]`
+-/
+
+namespace A093764.P11330166062540711298
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093784 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401717 (f1 j).toNat = 1) n)
+
+end
+
+end A093764.P11330166062540711298
 
 /-!
 # A093768: Positive first differences of the rows of triangle A088459, which enumerates symmetric Dyck paths.

@@ -2960,7 +2960,7 @@ def P3573750815081490144.Spec : Prop :=
 end A135139
 
 /-!
-# A135140: Numbers n such that n and n^2 do not contain successive identical digits.
+# A135140: Numbers k such that k and k^2 do not contain successive identical digits.
 
 The programs for A135140, there is no canonical definition to state claims against.
 -/
@@ -3649,6 +3649,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A135145.P513663397401362127
+
+/-! ## A135145.P13794635734020456736
+
+`A194451(A244207(n+1))`
+-/
+
+namespace A135145.P13794635734020456736
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194451 (A244207 (n + 1)).toNat
+
+end
+
+end A135145.P13794635734020456736
 
 /-! ## A135145.P12808980328144392073
 

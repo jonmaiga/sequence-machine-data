@@ -1,7 +1,9 @@
 {
-  "description": "Floor[log(n)^log(n)].",
+  "description": "a(n) = floor(log(n)^log(n)).",
   "id": "A061052",
-  "mentions": [],
+  "mentions": [
+    "A062420"
+  ],
   "tags": [
     "easy",
     "nonn"

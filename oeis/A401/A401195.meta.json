@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected unlabeled simple graphs on n vertices whose sandpile group is cyclic.",
+  "id": "A401195",
+  "mentions": [
+    "A000055",
+    "A001349",
+    "A395521"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

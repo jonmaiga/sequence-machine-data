@@ -2,6 +2,8 @@
   "description": "Smallest base-b Wieferich prime larger than b, where b = prime(n).",
   "id": "A255838",
   "mentions": [
+    "A039951",
+    "A096082",
     "A247072"
   ],
   "tags": [

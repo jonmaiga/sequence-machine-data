@@ -52,7 +52,6 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
@@ -1977,6 +1976,32 @@ namespace A018806
 /-- `A272718(n+1)+A272718(n+1)-A000217(n+1)` -/
 def P17539055354726945420.Spec : Prop :=
   ∀ n, P17539055354726945420.a n = A018806 (n + 1)
+
+end A018806
+
+/-! ## A018806.P8179707643007010947
+
+`∑{#}[n, floor((n+1)/(#+1))²*A000010(#+1)]`
+-/
+
+namespace A018806.P8179707643007010947
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ⌊(n + 1 : ℚ) / (k + 1 : ℚ)⌋ ^ 2 * A000010 (k + 1)
+
+end
+
+end A018806.P8179707643007010947
+
+namespace A018806
+
+/-- `∑{#}[n, floor((n+1)/(#+1))²*A000010(#+1)]` -/
+def P8179707643007010947.Spec : Prop :=
+  ∀ n, P8179707643007010947.a n = A018806 (n + 1)
 
 end A018806
 

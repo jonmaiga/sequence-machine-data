@@ -68,6 +68,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3902,6 +3903,27 @@ end
 
 end A238246.P9333235026892405262
 
+/-! ## A238246.P10332138944375953308
+
+`eq[A125644(n), A285097(n)]`
+-/
+
+namespace A238246.P10332138944375953308
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125644 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285097 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A238246.P10332138944375953308
+
 /-! ## A238246.P6768314447595134412
 
 `lt[A049502(n), A285099(n)]`
@@ -4024,27 +4046,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A238246.P7334645146008063798
-
-/-! ## A238246.P15467666358145884496
-
-`eq[A000034(n), A069010(n)]+1`
--/
-
-namespace A238246.P15467666358145884496
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069010 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A238246.P15467666358145884496
 
 /-!
 # A238247: Numbers m such that A072219(m) = 5.

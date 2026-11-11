@@ -1565,27 +1565,6 @@ end
 
 end A215620.P606260043933017148
 
-/-! ## A215620.P3852603316814064302
-
-`∑[∑[A321911(n+1)]]-A339617(n)`
--/
-
-namespace A215620.P3852603316814064302
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321911 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - A339617 n
-
-end
-
-end A215620.P3852603316814064302
-
 /-! ## A215620.P14408353776389378602
 
 `A028310(A076321(n+1)-A324431(n))`
@@ -2750,30 +2729,30 @@ def P264118808615959363.Spec : Prop :=
 
 end A215631
 
-/-! ## A215631.P18438729016834866386
+/-! ## A215631.P9657291595463316030
 
-`(row(n)+1)*(col(n)+1)+(row(n)+1)²+(col(n)+1)²`
+`(col(n)+1)²+(col(n)+1)*(row(n)+1)+(row(n)+1)²`
 -/
 
-namespace A215631.P18438729016834866386
+namespace A215631.P9657291595463316030
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.triRow n + 1) * (SequenceMachineLib.triCol n + 1) + ((SequenceMachineLib.triRow n + 1) ^ 2 + (SequenceMachineLib.triCol n + 1) ^ 2)
+  (SequenceMachineLib.triCol n + 1) ^ 2 + (SequenceMachineLib.triCol n + 1) * (SequenceMachineLib.triRow n + 1) + (SequenceMachineLib.triRow n + 1) ^ 2
 
 end
 
-end A215631.P18438729016834866386
+end A215631.P9657291595463316030
 
 namespace A215631
 
-/-- `(row(n)+1)*(col(n)+1)+(row(n)+1)²+(col(n)+1)²` -/
-def P18438729016834866386.Spec : Prop :=
-  ∀ n, (P18438729016834866386.a n : ℤ) = A215631 (n + 1)
+/-- `(col(n)+1)²+(col(n)+1)*(row(n)+1)+(row(n)+1)²` -/
+def P9657291595463316030.Spec : Prop :=
+  ∀ n, (P9657291595463316030.a n : ℤ) = A215631 (n + 1)
 
-theorem P18438729016834866386.correct : P18438729016834866386.Spec := by
+theorem P9657291595463316030.correct : P9657291595463316030.Spec := by
   intro n
-  simp only [A215631, Nat.add_sub_cancel, A215631.P18438729016834866386.a, A215631.P11491881607154867775.a, SequenceMachineLib.memo_apply]
+  simp only [A215631, Nat.add_sub_cancel, A215631.P9657291595463316030.a, A215631.P11491881607154867775.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 

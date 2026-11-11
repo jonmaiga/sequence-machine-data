@@ -24,7 +24,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -35,6 +34,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
@@ -51,6 +51,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -1816,6 +1817,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261023.P11626584099387679309
+
+/-! ## A261023.P2430458004812794707
+
+`A070015(A000203(A000040(n+1)))`
+-/
+
+namespace A261023.P2430458004812794707
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070015 (A000203 (A000040 (n + 1)).toNat).toNat
+
+end
+
+end A261023.P2430458004812794707
 
 /-!
 # A261029: Number of ways to write n in the form F(x,y,z) = x^3 + y^3 + z^3 - 3xyz, where 0 <= x <= y <= z and z >= x+1.
@@ -6356,6 +6372,66 @@ def P13446480773627462036.Spec : Prop :=
 
 end A261080
 
+/-! ## A261080.P15294538845676626322
+
+`∩[A066312(n+1), A261073(n+1)]`
+-/
+
+namespace A261080.P15294538845676626322
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261073 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A261080.P15294538845676626322
+
+namespace A261080
+
+/-- `∩[A066312(n+1), A261073(n+1)]` -/
+def P15294538845676626322.Spec : Prop :=
+  ∀ n, (P15294538845676626322.a n : ℤ) = A261080 (n + 1)
+
+end A261080
+
+/-! ## A261080.P4932973975052764563
+
+`∩[A066312(n+1), A261077(n+1)]`
+-/
+
+namespace A261080.P4932973975052764563
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261077 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A261080.P4932973975052764563
+
+namespace A261080
+
+/-- `∩[A066312(n+1), A261077(n+1)]` -/
+def P4932973975052764563.Spec : Prop :=
+  ∀ n, (P4932973975052764563.a n : ℤ) = A261080 (n + 1)
+
+end A261080
+
 /-! ## A261080.P3082381013959145909
 
 `A013637(A205302(n+1))`
@@ -6459,66 +6535,6 @@ namespace A261080
 /-- `∩[A261077(n+1), A013636(n)]` -/
 def P5491760223391269393.Spec : Prop :=
   ∀ n, (P5491760223391269393.a n : ℤ) = A261080 (n + 1)
-
-end A261080
-
-/-! ## A261080.P16638538741776903544
-
-`∩[A245630(n+1), A261073(n+1)]`
--/
-
-namespace A261080.P16638538741776903544
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245630 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261073 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A261080.P16638538741776903544
-
-namespace A261080
-
-/-- `∩[A245630(n+1), A261073(n+1)]` -/
-def P16638538741776903544.Spec : Prop :=
-  ∀ n, (P16638538741776903544.a n : ℤ) = A261080 (n + 1)
-
-end A261080
-
-/-! ## A261080.P10557403664056031259
-
-`∩[A245630(n+1), A261077(n+1)]`
--/
-
-namespace A261080.P10557403664056031259
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245630 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261077 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A261080.P10557403664056031259
-
-namespace A261080
-
-/-- `∩[A245630(n+1), A261077(n+1)]` -/
-def P10557403664056031259.Spec : Prop :=
-  ∀ n, (P10557403664056031259.a n : ℤ) = A261080 (n + 1)
 
 end A261080
 

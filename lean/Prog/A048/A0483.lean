@@ -5747,30 +5747,6 @@ end
 
 end A048342.P14406456659360482843
 
-/-! ## A048342.P15679921752551431574
-
-`lt[Δ[A087319(2*n+5)], 18]`
--/
-
-namespace A048342.P15679921752551431574
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087319 (2 * n + 5)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  18
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f3 j : ℤ)) n
-
-end
-
-end A048342.P15679921752551431574
-
 /-! ## A048342.P7151394872026273824
 
 `eq[A040753(n), A375732(n)]`

@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of \"Farey fraction\" approximations to e.",
+  "description": "Numerators of semiconvergents to e.",
   "id": "A119014",
   "mentions": [
     "A002965",

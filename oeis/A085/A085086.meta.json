@@ -1,7 +1,8 @@
 {
-  "description": "a(1) = 1; if n is composite then a(n) = Sum_{i < n, i not prime} a(i), else if n is prime then a(n) = sum_{ j < n, j is a noncomposite} a(j).",
+  "description": "a(1) = 1; if n is composite then a(n) = Sum_{i < n, i not prime} a(i), else if n is prime then a(n) = Sum_{j < n, j is a noncomposite} a(j).",
   "id": "A085086",
   "mentions": [
+    "A000720",
     "A002033",
     "A002808",
     "A045545"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 44,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonempty convex vertex sets in the n X n queen graph.",
+  "id": "A401794",
+  "mentions": [
+    "A295903",
+    "A401285",
+    "A401286",
+    "A401793"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

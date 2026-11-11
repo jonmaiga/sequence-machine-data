@@ -43,6 +43,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B000.C050
@@ -4385,6 +4386,29 @@ namespace A152920
 /-- `(2*row(n)-col(n))*2^(col(n)-1)` -/
 def P9782989689182624497.Spec : Prop :=
   ∀ n, P9782989689182624497.a n = (A152920 n : ℚ)
+
+end A152920
+
+/-! ## A152920.P17703231946955398983
+
+`2^(col(n)-1)*(2*row(n)-col(n))`
+-/
+
+namespace A152920.P17703231946955398983
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((SequenceMachineLib.triCol n : ℤ) - 1 : ℤ) * ((2 * SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ)
+
+end
+
+end A152920.P17703231946955398983
+
+namespace A152920
+
+/-- `2^(col(n)-1)*(2*row(n)-col(n))` -/
+def P17703231946955398983.Spec : Prop :=
+  ∀ n, P17703231946955398983.a n = (A152920 n : ℚ)
 
 end A152920
 

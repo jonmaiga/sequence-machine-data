@@ -19,7 +19,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C038
@@ -923,21 +923,6 @@ end
 
 end A102111.P11662956465539011673
 
-/-! ## A102111.P11326958988205772313
-
-`A004086(A102124(n)%A000112(n))`
--/
-
-namespace A102111.P11326958988205772313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (Int.tmod (A102124 n) (A000112 n)).toNat
-
-end
-
-end A102111.P11326958988205772313
-
 /-! ## A102111.P4203610723995119328
 
 `A004086(A102124(n))%A102144(n+4)`
@@ -1169,21 +1154,6 @@ end
 
 end A102114.P6342989437355408329
 
-/-! ## A102114.P4040821582591210403
-
-`A004086(A102121(n)%A000112(n))`
--/
-
-namespace A102114.P4040821582591210403
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (Int.tmod (A102121 n) (A000112 n)).toNat
-
-end
-
-end A102114.P4040821582591210403
-
 /-! ## A102114.P17797737541941725972
 
 `A004086(A102121(n))%A090574(n)`
@@ -1198,6 +1168,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102114.P17797737541941725972
+
+/-! ## A102114.P17516258138626326190
+
+`A102115(A046469(n))`
+-/
+
+namespace A102114.P17516258138626326190
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102115 (A046469 n).toNat
+
+end
+
+end A102114.P17516258138626326190
 
 /-!
 # A102115: Iccanobirt numbers (5 of 15): a(n) = R(a(n-1)) + a(n-2) + R(a(n-3)), where R is the digit reversal function A004086.

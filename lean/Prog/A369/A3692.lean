@@ -24,6 +24,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -49,7 +50,6 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
@@ -1075,21 +1075,6 @@ end A369216
 The programs for A369219, there is no canonical definition to state claims against.
 -/
 
-/-! ## A369219.P16947596604068610327
-
-`A368869(A055645(n))`
--/
-
-namespace A369219.P16947596604068610327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368869 (A055645 n).toNat
-
-end
-
-end A369219.P16947596604068610327
-
 /-! ## A369219.P10839108439042498630
 
 `A326702(A369221(n))`
@@ -1104,36 +1089,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369219.P10839108439042498630
-
-/-! ## A369219.P9010548361717029520
-
-`A368869(A262545(n+1))`
--/
-
-namespace A369219.P9010548361717029520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368869 (A262545 (n + 1)).toNat
-
-end
-
-end A369219.P9010548361717029520
-
-/-! ## A369219.P11933727187930407935
-
-`A368869(n*A368870(n))`
--/
-
-namespace A369219.P11933727187930407935
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368869 ((n : ℤ) * A368870 n).toNat
-
-end
-
-end A369219.P11933727187930407935
 
 /-! ## A369219.P18372551702707578213
 
@@ -5099,6 +5054,29 @@ namespace A369255
 /-- `A219009(n+1)%A007421(n+1)` -/
 def P18134456831303340669.Spec : Prop :=
   ∀ n, P18134456831303340669.a n = A369255 (n + 1)
+
+end A369255
+
+/-! ## A369255.P9563367799700430847
+
+`and(A283478(n+1), A353519(n+1))`
+-/
+
+namespace A369255.P9563367799700430847
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A283478 (n + 1)) (A353519 (n + 1))
+
+end
+
+end A369255.P9563367799700430847
+
+namespace A369255
+
+/-- `and(A283478(n+1), A353519(n+1))` -/
+def P9563367799700430847.Spec : Prop :=
+  ∀ n, P9563367799700430847.a n = A369255 (n + 1)
 
 end A369255
 

@@ -1,0 +1,19 @@
+{
+  "description": "Subword complexity (number of distinct blocks of length n) of A400826.",
+  "id": "A401524",
+  "mentions": [
+    "A096268",
+    "A275202",
+    "A400826"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

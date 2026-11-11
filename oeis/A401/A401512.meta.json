@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to A226771.",
+  "id": "A401512",
+  "mentions": [
+    "A000217",
+    "A071896",
+    "A226771"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

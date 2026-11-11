@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x^3)*(1-x^5)*(1-x^17)).",
+  "description": "Expansion of g.f. 1/((1-x^3)*(1-x^5)*(1-x^17)).",
   "id": "A271900",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 73,
+    "size": 86,
     "source": "joeis"
   }
 }

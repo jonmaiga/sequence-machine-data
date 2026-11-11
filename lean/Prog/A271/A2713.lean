@@ -24,6 +24,7 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -40,7 +41,7 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -59,6 +60,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -3137,6 +3139,21 @@ end
 
 end A271326.P17881799402301378041
 
+/-! ## A271326.P6384000187835580775
+
+`A271328(n+1)+A271328(n+1)+A271328(n+1)`
+-/
+
+namespace A271326.P6384000187835580775
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271328 (n + 1) + A271328 (n + 1) + A271328 (n + 1)
+
+end
+
+end A271326.P6384000187835580775
+
 /-! ## A271326.P10944714668390472509
 
 `A271328(A008619(2*n))/(1-2/3)`
@@ -4657,7 +4674,7 @@ end A271341
 /-!
 # A271342: Sum of all even divisors of all positive integers <= n.
 
-The programs for A271342, the canonical program `A271342.P3433703997216414430` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271342 has offset 1).
+The programs for A271342, the canonical program `A271342.P3433703997216414430` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271342 has offset 1).
 
 The definition of A271342 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4666,7 +4683,7 @@ The definition of A271342 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A024916(n+1)-A078471(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271342
@@ -6975,7 +6992,7 @@ end A271354.P8442141554729376637
 /-!
 # A271355: Triangular array: T(n,k) = |round((r^n)*(s^k))|, where r = golden ratio = (1+sqrt(5))/2, s = (1-sqrt(5))/2, 1 <= k <= n, n >= 1.
 
-The programs for A271355, the canonical program `A271355.P12576549963311332079` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271355 has offset 1).
+The programs for A271355, the canonical program `A271355.P12576549963311332079` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271355 has offset 1).
 
 The definition of A271355 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7182,7 +7199,7 @@ end A271355
 
 `A254729(A004736(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271355
@@ -10577,7 +10594,7 @@ end A271386.P10327365885707429656
 /-!
 # A271387: Numerator of prime(n)#/n!, where prime(n)# is the prime factorial function.
 
-The programs for A271387, the canonical program `A271387.P7354328824045121266` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271387 has offset 0).
+The programs for A271387, the canonical program `A271387.P7354328824045121266` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271387 has offset 0).
 
 The definition of A271387 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10586,7 +10603,7 @@ The definition of A271387 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002110(n)/A034386(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271387

@@ -40,6 +40,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -52,6 +53,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -3855,34 +3857,6 @@ end
 end A199549.P16732585547306461393
 
 /-!
-# A199551: Positions of squares in A048153.
-
-The programs for A199551, there is no canonical definition to state claims against.
--/
-
-/-! ## A199551.P2695568944299558522
-
-`∩[A302796(n+1), A373824(n+1)]`
--/
-
-namespace A199551.P2695568944299558522
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302796 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373824 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A199551.P2695568944299558522
-
-/-!
 # A199552: a(n) = 4*8^n + 1.
 
 The programs for A199552, the canonical program `A199552.P5501455736984969006` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199552 has offset 0).
@@ -7481,6 +7455,58 @@ def P13313435513378669609.Spec : Prop :=
 
 end A199560
 
+/-! ## A199560.P7338604869617408555
+
+`2*∑{#}[n, C(2*n+1, 2*#)*4^(n-#)]`
+-/
+
+namespace A199560.P7338604869617408555
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 * (∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (2 * n + 1) (2 * k) : ℚ) * (4 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ))
+
+end
+
+end A199560.P7338604869617408555
+
+namespace A199560
+
+/-- `2*∑{#}[n, C(2*n+1, 2*#)*4^(n-#)]` -/
+def P7338604869617408555.Spec : Prop :=
+  ∀ n, P7338604869617408555.a n = (A199560 n : ℚ)
+
+end A199560
+
+/-! ## A199560.P4735668950820607323
+
+`∑{#}[n, 2^(2*#+1)*C(2*n+1, 2*#+1)]`
+-/
+
+namespace A199560.P4735668950820607323
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 2 ^ (2 * k + 1) * Nat.choose (2 * n + 1) (2 * k + 1)
+
+end
+
+end A199560.P4735668950820607323
+
+namespace A199560
+
+/-- `∑{#}[n, 2^(2*#+1)*C(2*n+1, 2*#+1)]` -/
+def P4735668950820607323.Spec : Prop :=
+  ∀ n, (P4735668950820607323.a n : ℤ) = A199560 n
+
+end A199560
+
 /-! ## A199560.P10185588088085636069
 
 `A096053(n)+1`
@@ -7674,52 +7700,6 @@ namespace A199560
 /-- `A124302(2*(n+1))` -/
 def P4661910645743714477.Spec : Prop :=
   ∀ n, P4661910645743714477.a n = A199560 n
-
-end A199560
-
-/-! ## A199560.P17380827666719691809
-
-`A164907(2*n)+1`
--/
-
-namespace A199560.P17380827666719691809
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164907 (2 * n) + 1
-
-end
-
-end A199560.P17380827666719691809
-
-namespace A199560
-
-/-- `A164907(2*n)+1` -/
-def P17380827666719691809.Spec : Prop :=
-  ∀ n, P17380827666719691809.a n = A199560 n
-
-end A199560
-
-/-! ## A199560.P6463051977234014080
-
-`A067771(2*n)-1`
--/
-
-namespace A199560.P6463051977234014080
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067771 (2 * n) - 1
-
-end
-
-end A199560.P6463051977234014080
-
-namespace A199560
-
-/-- `A067771(2*n)-1` -/
-def P6463051977234014080.Spec : Prop :=
-  ∀ n, P6463051977234014080.a n = A199560 n
 
 end A199560
 
@@ -12569,26 +12549,26 @@ def P8432712548686346610.Spec : Prop :=
 
 end A199573
 
-/-! ## A199573.P9729321532768471006
+/-! ## A199573.P11510320634171104135
 
-`2^(n+1)-A133572(n+1)`
+`A131575(A053438(n))`
 -/
 
-namespace A199573.P9729321532768471006
+namespace A199573.P11510320634171104135
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 ^ (n + 1) : ℤ) - A133572 (n + 1)
+  A131575 (A053438 n).toNat
 
 end
 
-end A199573.P9729321532768471006
+end A199573.P11510320634171104135
 
 namespace A199573
 
-/-- `2^(n+1)-A133572(n+1)` -/
-def P9729321532768471006.Spec : Prop :=
-  ∀ n, P9729321532768471006.a n = A199573 n
+/-- `A131575(A053438(n))` -/
+def P11510320634171104135.Spec : Prop :=
+  ∀ n, P11510320634171104135.a n = A199573 n
 
 end A199573
 

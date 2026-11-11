@@ -96,6 +96,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -13051,6 +13052,32 @@ namespace A130783
 /-- `A230137(n+1)/2-A100071(n+1)` -/
 def P8346814410429784779.Spec : Prop :=
   ∀ n, P8346814410429784779.a n = (A130783 n : ℚ)
+
+end A130783
+
+/-! ## A130783.P1283289115149944980
+
+`∑{#}[n, C(n, #)*min(#, n+1-#)]`
+-/
+
+namespace A130783.P1283289115149944980
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * min (k : ℤ) ((n + 1 : ℤ) - (k : ℤ))
+
+end
+
+end A130783.P1283289115149944980
+
+namespace A130783
+
+/-- `∑{#}[n, C(n, #)*min(#, n+1-#)]` -/
+def P1283289115149944980.Spec : Prop :=
+  ∀ n, P1283289115149944980.a n = A130783 n
 
 end A130783
 

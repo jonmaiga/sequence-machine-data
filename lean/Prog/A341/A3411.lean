@@ -165,20 +165,20 @@ end
 
 end A341100.P3930924622639409237
 
-/-! ## A341100.P13365372610255726897
+/-! ## A341100.P5027495137304500526
 
-`A140485(A000120(n+1)%A103305(n+1))`
+`A326031(2^n)²`
 -/
 
-namespace A341100.P13365372610255726897
+namespace A341100.P5027495137304500526
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140485 (Int.tmod (A000120 (n + 1)) (A103305 (n + 1))).toNat
+  A326031 (2 ^ n) ^ 2
 
 end
 
-end A341100.P13365372610255726897
+end A341100.P5027495137304500526
 
 /-!
 # A341101: T(n, k) = Sum_{j=0..k} binomial(n, k - j)*Stirling1(n - k + j, j)*(-1)^(n-k). Triangle read by rows, T(n, k) for 0 <= k <= n.

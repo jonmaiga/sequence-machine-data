@@ -80,6 +80,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1848,6 +1849,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223537.P17461993989971184355
+
+/-!
+# A223538: Key-matrix of compressed nim-multiplication table (A223537) read by antidiagonals.
+
+The programs for A223538, there is no canonical definition to state claims against.
+-/
+
+/-! ## A223538.P12647596902954082298
+
+`A401472(A223537(n))`
+-/
+
+namespace A223538.P12647596902954082298
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401472 (A223537 n).toNat
+
+end
+
+end A223538.P12647596902954082298
 
 /-!
 # A223539: List of entries in the compressed nim-multiplication table (A223537).

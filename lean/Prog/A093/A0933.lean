@@ -41,6 +41,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
@@ -1760,6 +1761,21 @@ end
 
 end A093314.P8963200890484309141
 
+/-! ## A093314.P6674919451167373106
+
+`A401391(A290133(n))`
+-/
+
+namespace A093314.P6674919451167373106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401391 (A290133 n).toNat
+
+end
+
+end A093314.P6674919451167373106
+
 /-! ## A093314.P8681982471872120732
 
 `A088917(A098101(n+1))`
@@ -1789,24 +1805,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A093314.P15462139926614610333
-
-/-! ## A093314.P11404649538140133169
-
-`A124749(∑[A124749(n)^n])`
--/
-
-namespace A093314.P11404649538140133169
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124749 n ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124749 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A093314.P11404649538140133169
 
 /-!
 # A093316: a(n) = A085653(n) - n.

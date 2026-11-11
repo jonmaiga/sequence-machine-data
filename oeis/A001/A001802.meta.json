@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of Legendre polynomials.",
+  "description": "Diagonal 4 of triangle A100258 comprising coefficients of Legendre polynomials.",
   "id": "A001802",
   "mentions": [
     "A001796",

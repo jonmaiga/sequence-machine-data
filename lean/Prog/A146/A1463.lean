@@ -16,7 +16,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -67,7 +66,6 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -6889,6 +6887,28 @@ end
 
 end A146348.P7630314821238858574
 
+/-! ## A146348.P2923791434274549947
+
+`∩[A146328(n+1), A372953(n+1)]`
+-/
+
+namespace A146348.P2923791434274549947
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146328 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A146348.P2923791434274549947
+
 /-! ## A146348.P15832784201069840770
 
 `∩[A146328(n+1), A175768(n+1)]`
@@ -6976,28 +6996,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A146348.P10055534250280555291
-
-/-! ## A146348.P11963314754407064868
-
-`∩[A125018(n+1), A146328(n+1)]`
--/
-
-namespace A146348.P11963314754407064868
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125018 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146328 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A146348.P11963314754407064868
 
 /-!
 # A146350: Primes p such that continued fraction of (1+sqrt(p))/2 has period 5 : primes in A146330.
@@ -7269,6 +7267,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A146350.P9653109020001810902
+
+/-! ## A146350.P155187271181272338
+
+`∩[A146330(n+1), A372953(n+1)]`
+-/
+
+namespace A146350.P155187271181272338
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146330 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A146350.P155187271181272338
 
 /-! ## A146350.P9027419497651757091
 
@@ -8213,6 +8233,28 @@ end
 
 end A146354.P11644842203329760384
 
+/-! ## A146354.P10864309450476436874
+
+`∩[A143577(n+1), A372953(n+1)]`
+-/
+
+namespace A146354.P10864309450476436874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143577 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A146354.P10864309450476436874
+
 /-! ## A146354.P16205322942296914317
 
 `∩[A143577(n+1), A175768(n+1)]`
@@ -8278,28 +8320,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A146354.P3134992583339974463
-
-/-! ## A146354.P8102335132606979647
-
-`∩[A049092(n+1), A143577(n+1)]`
--/
-
-namespace A146354.P8102335132606979647
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049092 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143577 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A146354.P8102335132606979647
 
 /-!
 # A146355: Primes p such that continued fraction of (1 + sqrt(p))/2 has period 10 : primes in A146335.
@@ -9159,6 +9179,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A146358.P11480183693553786219
+
+/-! ## A146358.P4057667470675576740
+
+`∩[A333640(n+1), A372953(n+1)]`
+-/
+
+namespace A146358.P4057667470675576740
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333640 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A146358.P4057667470675576740
 
 /-! ## A146358.P18234692960083166404
 

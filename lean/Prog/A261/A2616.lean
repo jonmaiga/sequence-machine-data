@@ -13,11 +13,11 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -3797,21 +3797,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261667.P6945580958866531000
-
-/-! ## A261667.P14234203369101074964
-
-`ceil((A376989(2*n+3)-2)/π)`
--/
-
-namespace A261667.P14234203369101074964
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A376989 (2 * n + 3) - 2 : ℝ) / Real.pi⌉
-
-end
-
-end A261667.P14234203369101074964
 
 /-! ## A261667.P13389722355287618701
 

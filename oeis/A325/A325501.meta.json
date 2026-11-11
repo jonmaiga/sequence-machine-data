@@ -2,6 +2,7 @@
   "description": "Product of Heinz numbers over all integer partitions of n.",
   "id": "A325501",
   "mentions": [
+    "A000041",
     "A001222",
     "A003963",
     "A006128",
@@ -26,6 +27,6 @@
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

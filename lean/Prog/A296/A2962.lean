@@ -19,6 +19,7 @@ import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -46,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,12 +59,10 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -490,6 +490,29 @@ theorem P2401886129268333430.correct : P2401886129268333430.Spec := by
 
 end A296204
 
+/-! ## A296204.P12952241096338590674
+
+`A000290(A296205(n+1))`
+-/
+
+namespace A296204.P12952241096338590674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A296205 (n + 1)).toNat
+
+end
+
+end A296204.P12952241096338590674
+
+namespace A296204
+
+/-- `A000290(A296205(n+1))` -/
+def P12952241096338590674.Spec : Prop :=
+  ∀ n, P12952241096338590674.a n = A296204 (n + 1)
+
+end A296204
+
 /-! ## A296204.P11279601890566973612
 
 `record[A296205(A328397(n))²]`
@@ -641,36 +664,6 @@ namespace A296204
 /-- `A295666(A296205(n+1)*A296205(n+1))` -/
 def P6081615136341686217.Spec : Prop :=
   ∀ n, P6081615136341686217.a n = A296204 (n + 1)
-
-end A296204
-
-/-! ## A296204.P4775572973349593956
-
-`∩[A374472(n+1), A392365(n+1)]`
--/
-
-namespace A296204.P4775572973349593956
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374472 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392365 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A296204.P4775572973349593956
-
-namespace A296204
-
-/-- `∩[A374472(n+1), A392365(n+1)]` -/
-def P4775572973349593956.Spec : Prop :=
-  ∀ n, (P4775572973349593956.a n : ℤ) = A296204 (n + 1)
 
 end A296204
 

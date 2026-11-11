@@ -26,7 +26,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -35,7 +34,6 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C045
@@ -87,7 +85,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -652,19 +649,19 @@ end
 
 end A108203.P16558708860688193605
 
-/-! ## A108203.P1276089707856025521
+/-! ## A108203.P1843433272876332910
 
-`∪[A214527(n+1), A240927(n+1)]`
+`∪[A056524(n+1), A398649(n+1)]`
 -/
 
-namespace A108203.P1276089707856025521
+namespace A108203.P1843433272876332910
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214527 (n + 1)
+  A056524 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240927 (n + 1)
+  A398649 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -672,7 +669,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A108203.P1276089707856025521
+end A108203.P1843433272876332910
 
 /-!
 # A108204: a(n) = 2*(n-1)*a(n-1) -(n-1)*a(n-2) with a(0)=0, a(1)=1.
@@ -4895,35 +4892,20 @@ end
 
 end A108230.P16126521180069215549
 
-/-! ## A108230.P18085673124296900736
+/-! ## A108230.P4236978334228923174
 
-`A289508(A034699(n+1)²)`
+`A381132(A088387((n+1)²))`
 -/
 
-namespace A108230.P18085673124296900736
+namespace A108230.P4236978334228923174
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289508 (A034699 (n + 1) ^ 2).toNat
+  A381132 (A088387 ((n + 1) ^ 2)).toNat
 
 end
 
-end A108230.P18085673124296900736
-
-/-! ## A108230.P15309282056287705984
-
-`A363487(A327393(n+1))`
--/
-
-namespace A108230.P15309282056287705984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363487 (A327393 (n + 1)).toNat
-
-end
-
-end A108230.P15309282056287705984
+end A108230.P4236978334228923174
 
 /-! ## A108230.P9205255404648707736
 
@@ -4939,6 +4921,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A108230.P9205255404648707736
+
+/-! ## A108230.P18085673124296900736
+
+`A289508(A034699(n+1)²)`
+-/
+
+namespace A108230.P18085673124296900736
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A289508 (A034699 (n + 1) ^ 2).toNat
+
+end
+
+end A108230.P18085673124296900736
+
+/-! ## A108230.P15683465026170203908
+
+`A381132(A088387(n+1)*A088387(n+1))`
+-/
+
+namespace A108230.P15683465026170203908
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381132 (A088387 (n + 1) * A088387 (n + 1)).toNat
+
+end
+
+end A108230.P15683465026170203908
 
 /-!
 # A108232: Numbers n such that 11*n - 7 is prime.
@@ -5936,21 +5948,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A108235.P15627144226379572502
-
-/-! ## A108235.P15101197303205796670
-
-`A202952(n)+A202951(n)`
--/
-
-namespace A108235.P15101197303205796670
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202952 n + A202951 n
-
-end
-
-end A108235.P15101197303205796670
 
 /-! ## A108235.P159325058454216241
 
@@ -12294,6 +12291,29 @@ namespace A108299
 /-- `T(n-1,k)-T(row(n)-2, col(n)-2)` -/
 def P4086640136686988375.Spec : Prop :=
   ∀ n, P4086640136686988375.a n = A108299 n
+
+end A108299
+
+/-! ## A108299.P6776525729618065520
+
+`(-1)^C(col(n)+1, 2)*C(row(n)-ceil(col(n)/2), floor(col(n)/2))`
+-/
+
+namespace A108299.P6776525729618065520
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (-1) ^ Nat.choose (SequenceMachineLib.triCol n + 1) 2 * (Nat.choose ((SequenceMachineLib.triRow n : ℤ) - ⌈(SequenceMachineLib.triCol n : ℚ) / 2⌉).toNat ⌊(SequenceMachineLib.triCol n : ℚ) / 2⌋.toNat : ℤ)
+
+end
+
+end A108299.P6776525729618065520
+
+namespace A108299
+
+/-- `(-1)^C(col(n)+1, 2)*C(row(n)-ceil(col(n)/2), floor(col(n)/2))` -/
+def P6776525729618065520.Spec : Prop :=
+  ∀ n, P6776525729618065520.a n = A108299 n
 
 end A108299
 

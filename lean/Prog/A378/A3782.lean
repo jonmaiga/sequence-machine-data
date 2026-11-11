@@ -1441,6 +1441,21 @@ end
 
 end A378215.P9913758816302835863
 
+/-! ## A378215.P2201696112538437313
+
+`A000035(A262691((n+1)²))`
+-/
+
+namespace A378215.P2201696112538437313
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A262691 ((n + 1) ^ 2)).toNat
+
+end
+
+end A378215.P2201696112538437313
+
 /-!
 # A378216: Dirichlet inverse of A174725.
 

@@ -27,6 +27,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -3427,6 +3428,21 @@ end
 
 end A363942.P12952567474368655207
 
+/-! ## A363942.P14061672704271205562
+
+`A360678(A347043(A347044(n+1)))`
+-/
+
+namespace A363942.P14061672704271205562
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360678 (A347043 (A347044 (n + 1)).toNat).toNat
+
+end
+
+end A363942.P14061672704271205562
+
 /-! ## A363942.P13820045914132995519
 
 `A056239(A020639(A347046((n+1)²)))`
@@ -5476,6 +5492,21 @@ end
 
 end A363972.P1307447139475415981
 
+/-! ## A363972.P1851889182786927870
+
+`A363977(n+1)+A363977(n+1)-A363903(n+1)`
+-/
+
+namespace A363972.P1851889182786927870
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363977 (n + 1) + A363977 (n + 1) - A363903 (n + 1)
+
+end
+
+end A363972.P1851889182786927870
+
 /-! ## A363972.P13225949454356005865
 
 `A363977(n+1)+A363977(n+1)-(3*A001826(n+1)+A050449(n+1))/4`
@@ -6087,6 +6118,32 @@ namespace A363985
 /-- `∑{#}[n, (-4)^(n-#)*C(n, #)*C(2*n+#, #)*C(2*#, #)]` -/
 def P10516839559471985308.Spec : Prop :=
   ∀ n, P10516839559471985308.a n = (A363985 n : ℚ)
+
+end A363985
+
+/-! ## A363985.P9581582671969251201
+
+`∑{#}[n, C(n, #)²*C(2*n, 2*#)]`
+-/
+
+namespace A363985.P9581582671969251201
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 * Nat.choose (2 * n) (2 * k)
+
+end
+
+end A363985.P9581582671969251201
+
+namespace A363985
+
+/-- `∑{#}[n, C(n, #)²*C(2*n, 2*#)]` -/
+def P9581582671969251201.Spec : Prop :=
+  ∀ n, (P9581582671969251201.a n : ℤ) = A363985 n
 
 end A363985
 

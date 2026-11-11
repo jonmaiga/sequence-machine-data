@@ -34,7 +34,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -8032,6 +8032,29 @@ def P14739335854373169321.Spec : Prop :=
 
 end A123667
 
+/-! ## A123667.P11655838460153232513
+
+`2^A001222(n+1)*(n+1)`
+-/
+
+namespace A123667.P11655838460153232513
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (A001222 (n + 1) : ℤ) * (n + 1 : ℚ)
+
+end
+
+end A123667.P11655838460153232513
+
+namespace A123667
+
+/-- `2^A001222(n+1)*(n+1)` -/
+def P11655838460153232513.Spec : Prop :=
+  ∀ n, P11655838460153232513.a n = (A123667 (n + 1) : ℚ)
+
+end A123667
+
 /-! ## A123667.P1592392253582415639
 
 `(n+1)*A000079(∑{e}[n+1, #])`
@@ -8242,29 +8265,6 @@ namespace A123667
 /-- `A166627(n+1)/A165824(n+1)` -/
 def P1322835499331917672.Spec : Prop :=
   ∀ n, P1322835499331917672.a n = (A123667 (n + 1) : ℚ)
-
-end A123667
-
-/-! ## A123667.P11825694277953665519
-
-`A166629(n+1)/A165825(n+1)`
--/
-
-namespace A123667.P11825694277953665519
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A166629 (n + 1) : ℚ) / (A165825 (n + 1) : ℚ)
-
-end
-
-end A123667.P11825694277953665519
-
-namespace A123667
-
-/-- `A166629(n+1)/A165825(n+1)` -/
-def P11825694277953665519.Spec : Prop :=
-  ∀ n, P11825694277953665519.a n = (A123667 (n + 1) : ℚ)
 
 end A123667
 
@@ -9137,6 +9137,21 @@ end
 
 end A123679.P16637397084860702632
 
+/-! ## A123679.P5085364187014126833
+
+`xor(A028310(n), A367039(n+1))`
+-/
+
+namespace A123679.P5085364187014126833
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A028310 n) (A367039 (n + 1))
+
+end
+
+end A123679.P5085364187014126833
+
 /-! ## A123679.P4894830615358800752
 
 `n-(A367039(n+1)-A000007(n))`
@@ -9229,21 +9244,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123679.P5094284634999108158
-
-/-! ## A123679.P18205755291237452202
-
-`A005843(n)+2-A123088(n+1)`
--/
-
-namespace A123679.P18205755291237452202
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 n + (2 - A123088 (n + 1))
-
-end
-
-end A123679.P18205755291237452202
 
 /-!
 # A123680: a(n) = Sum_{k=0..n} C(n+k-1,k)*k!.

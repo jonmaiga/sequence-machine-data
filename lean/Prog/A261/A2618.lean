@@ -34,6 +34,7 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B001.C000
@@ -1554,21 +1555,6 @@ end A261837.P1761984930015453706
 
 The programs for A261838, there is no canonical definition to state claims against.
 -/
-
-/-! ## A261838.P11378937214062167571
-
-`A325365(A343865(n+1))`
--/
-
-namespace A261838.P11378937214062167571
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325365 (A343865 (n + 1)).toNat
-
-end
-
-end A261838.P11378937214062167571
 
 /-! ## A261838.P5018975243100621359
 

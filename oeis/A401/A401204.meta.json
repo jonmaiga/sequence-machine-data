@@ -1,0 +1,19 @@
+{
+  "description": "Number of spanning trees of the graph formed by n triangles arranged in a ring, with corresponding vertices of consecutive triangles joined and the ring closed by a cyclic shift of the vertices.",
+  "id": "A401204",
+  "mentions": [
+    "A003501",
+    "A020871",
+    "A212798"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

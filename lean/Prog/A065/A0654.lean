@@ -27,6 +27,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -361,6 +362,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A065404.P579070453694874513
+
+/-! ## A065404.P13402844736945685307
+
+`∩[A023194(n+1), A246550(n+1)]`
+-/
+
+namespace A065404.P13402844736945685307
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023194 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246550 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A065404.P13402844736945685307
 
 /-!
 # A065405: Composite numbers k such that the sum of the divisors of k^2 is a prime.
@@ -1254,6 +1277,29 @@ def P14017493267610319635.Spec : Prop :=
 
 end A065420
 
+/-! ## A065420.P4252981879820528622
+
+`A143418(n+1)+A143418(n+1)`
+-/
+
+namespace A065420.P4252981879820528622
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143418 (n + 1) + A143418 (n + 1)
+
+end
+
+end A065420.P4252981879820528622
+
+namespace A065420
+
+/-- `A143418(n+1)+A143418(n+1)` -/
+def P4252981879820528622.Spec : Prop :=
+  ∀ n, P4252981879820528622.a n = A065420 n
+
+end A065420
+
 /-! ## A065420.P12850216503257706426
 
 `A014719(n+2)-A014410(n+2)`
@@ -1481,29 +1527,6 @@ namespace A065420
 /-- `A002378(A014430(n))` -/
 def P642675564146886751.Spec : Prop :=
   ∀ n, P642675564146886751.a n = A065420 n
-
-end A065420
-
-/-! ## A065420.P12131397381128326111
-
-`A103505(A014410(n+2))`
--/
-
-namespace A065420.P12131397381128326111
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103505 (A014410 (n + 2)).toNat
-
-end
-
-end A065420.P12131397381128326111
-
-namespace A065420
-
-/-- `A103505(A014410(n+2))` -/
-def P12131397381128326111.Spec : Prop :=
-  ∀ n, P12131397381128326111.a n = A065420 n
 
 end A065420
 

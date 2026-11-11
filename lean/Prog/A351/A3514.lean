@@ -29,14 +29,13 @@ import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C036
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,6 +69,7 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -4335,6 +4335,29 @@ theorem P8109087654254672791.correct : P8109087654254672791.Spec := by
 
 end A351439
 
+/-! ## A351439.P13809130865194201474
+
+`A001221(A401710(n+1))`
+-/
+
+namespace A351439.P13809130865194201474
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A401710 (n + 1)).toNat
+
+end
+
+end A351439.P13809130865194201474
+
+namespace A351439
+
+/-- `A001221(A401710(n+1))` -/
+def P13809130865194201474.Spec : Prop :=
+  ∀ n, P13809130865194201474.a n = A351439 (n + 1)
+
+end A351439
+
 /-! ## A351439.P3003861668125961807
 
 `A001221(gcd(1+n, A017665(n+1)))`
@@ -4424,6 +4447,29 @@ namespace A351439
 /-- `A352822(n*A017665(n+1)+n+1)` -/
 def P14456318601082853647.Spec : Prop :=
   ∀ n, P14456318601082853647.a n = A351439 (n + 1)
+
+end A351439
+
+/-! ## A351439.P7026855981744239716
+
+`A184982(n+1)%A401710(n+1)`
+-/
+
+namespace A351439.P7026855981744239716
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A184982 (n + 1)) (A401710 (n + 1))
+
+end
+
+end A351439.P7026855981744239716
+
+namespace A351439
+
+/-- `A184982(n+1)%A401710(n+1)` -/
+def P7026855981744239716.Spec : Prop :=
+  ∀ n, P7026855981744239716.a n = A351439 (n + 1)
 
 end A351439
 

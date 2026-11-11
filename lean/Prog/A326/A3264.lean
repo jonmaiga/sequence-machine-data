@@ -38,6 +38,7 @@ import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -109,7 +110,7 @@ set_option linter.unreachableTactic false
 /-!
 # A326400: Expansion of Sum_{k>=1} k * x^(2*k) / (1 - x^(3*k)).
 
-The programs for A326400, the canonical program `A326400.P10409424007396242524` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326400 has offset 1).
+The programs for A326400, the canonical program `A326400.P10409424007396242524` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326400 has offset 1).
 
 The definition of A326400 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -118,7 +119,7 @@ The definition of A326400 is `conjectured`: the Lean definition is a formula tha
 
 `A078708(n+1)-A326399(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326400
@@ -2012,7 +2013,7 @@ end A326413.P16814995498561680779
 /-!
 # A326415: Dirichlet g.f.: zeta(2*s) / zeta(s)^3.
 
-The programs for A326415, the canonical program `A326415.P15095184785941206552` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326415 has offset 1).
+The programs for A326415, the canonical program `A326415.P15095184785941206552` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326415 has offset 1).
 
 The definition of A326415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2021,7 +2022,7 @@ The definition of A326415 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, A008836((n+1)/#)*A007427(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326415
@@ -4988,50 +4989,50 @@ end
 
 end A326441.P15685902226141039099
 
-/-! ## A326441.P13371510473111107427
+/-! ## A326441.P5095476294143099225
 
-`A332677(A332677(n)*A372293(n+1))`
+`A385240(A286144(n+2))`
 -/
 
-namespace A326441.P13371510473111107427
+namespace A326441.P5095476294143099225
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332677 (A332677 n * A372293 (n + 1)).toNat
+  A385240 (A286144 (n + 2)).toNat
 
 end
 
-end A326441.P13371510473111107427
+end A326441.P5095476294143099225
 
-/-! ## A326441.P12265270546554565528
+/-! ## A326441.P11212113650408953946
 
-`A332677(lcm(A332677(n), A372293(n+1)))`
+`A347440(A356182(n+1))`
 -/
 
-namespace A326441.P12265270546554565528
+namespace A326441.P11212113650408953946
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332677 (Int.lcm (A332677 n) (A372293 (n + 1)))
+  A347440 (A356182 (n + 1)).toNat
 
 end
 
-end A326441.P12265270546554565528
+end A326441.P11212113650408953946
 
-/-! ## A326441.P9971452210201107477
+/-! ## A326441.P12435735145626663150
 
-`A015961(2*(n+2))%A337135(A005349(n+3))`
+`A326029(A390218(n+1))`
 -/
 
-namespace A326441.P9971452210201107477
+namespace A326441.P12435735145626663150
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A015961 (2 * (n + 2))) (A337135 (A005349 (n + 3)).toNat)
+  A326029 (A390218 (n + 1)).toNat
 
 end
 
-end A326441.P9971452210201107477
+end A326441.P12435735145626663150
 
 /-!
 # A326442: Emirp-indexed emirps: emirps with emirp subscripts.

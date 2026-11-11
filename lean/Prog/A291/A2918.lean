@@ -53,11 +53,9 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2404,21 +2402,6 @@ end A291853.P10546931608546886366
 The programs for A291855, there is no canonical definition to state claims against.
 -/
 
-/-! ## A291855.P2062319403818694136
-
-`A364999(A376268(2*n+3)%A002009(n))`
--/
-
-namespace A291855.P2062319403818694136
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364999 (Int.tmod (A376268 (2 * n + 3)) (A002009 n)).toNat
-
-end
-
-end A291855.P2062319403818694136
-
 /-! ## A291855.P15858960899352836044
 
 `or(A004018(A122903(n+1)), A242118(3*n+4))`
@@ -3169,6 +3152,21 @@ end
 
 end A291876.P438702117635702640
 
+/-! ## A291876.P14895208167350809759
+
+`A259823(n+1)+A259823(n+1)`
+-/
+
+namespace A291876.P14895208167350809759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259823 (n + 1) + A259823 (n + 1)
+
+end
+
+end A291876.P14895208167350809759
+
 /-! ## A291876.P12519878822671040159
 
 `∑[A065119(n+1)-∑[A061987(n)]]`
@@ -3189,21 +3187,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291876.P12519878822671040159
-
-/-! ## A291876.P688224173981180578
-
-`A003586(n+1)+A259823(n+1)+A259823(n)`
--/
-
-namespace A291876.P688224173981180578
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003586 (n + 1) + (A259823 (n + 1) + A259823 n)
-
-end
-
-end A291876.P688224173981180578
 
 /-! ## A291876.P137079073733235451
 
@@ -3240,21 +3223,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A291876.P16054669619546937494
-
-/-! ## A291876.P12817050805141104849
-
-`A259823(n)+A259823(n)+A007694(n+2)`
--/
-
-namespace A291876.P12817050805141104849
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259823 n + (A259823 n + A007694 (n + 2))
-
-end
-
-end A291876.P12817050805141104849
 
 /-! ## A291876.P15011398640780134637
 

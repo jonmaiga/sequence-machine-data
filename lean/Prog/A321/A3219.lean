@@ -51,7 +51,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -714,6 +714,21 @@ end
 
 end A321907.P6566390511316447840
 
+/-! ## A321907.P1783434132539469160
+
+`A080339(n+1)*A132369(n+1)`
+-/
+
+namespace A321907.P1783434132539469160
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080339 (n + 1) * A132369 (n + 1)
+
+end
+
+end A321907.P1783434132539469160
+
 /-!
 # A321908: If y is the integer partition with Heinz number n, then a(n) = |y|! / syt(y), where syt(y) is the number of standard Young tableaux of shape y.
 
@@ -979,53 +994,38 @@ end A321910.P9530676693350168816
 The programs for A321911, there is no canonical definition to state claims against.
 -/
 
-/-! ## A321911.P13378948816192594692
+/-! ## A321911.P11818392128115829001
 
-`A245882(n+1)-A326245(n)`
+`A100871(A000085(n))`
 -/
 
-namespace A321911.P13378948816192594692
+namespace A321911.P11818392128115829001
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245882 (n + 1) - A326245 n
+  A100871 (A000085 n).toNat
 
 end
 
-end A321911.P13378948816192594692
+end A321911.P11818392128115829001
 
-/-! ## A321911.P10279961734734745144
+/-! ## A321911.P7592134823345740812
 
-`ceil(A152401(n)/A244930(n+1))`
+`filter[A129374(n), A352573(#)]`
 -/
 
-namespace A321911.P10279961734734745144
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A152401 n : ℚ) / (A244930 (n + 1) : ℚ)⌉
-
-end
-
-end A321911.P10279961734734745144
-
-/-! ## A321911.P10699326260903637670
-
-`A054915(n+1)+Δ[A057513(n)]`
--/
-
-namespace A321911.P10699326260903637670
+namespace A321911.P7592134823345740812
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057513 n
+  A129374 n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054915 (n + 1) + (f1 (n + 1) - f1 n)
+  f1 (SequenceMachineLib.nth (fun j => A352573 (f1 j).toNat = 1) n)
 
 end
 
-end A321911.P10699326260903637670
+end A321911.P7592134823345740812
 
 /-!
 # A321912: Tetrangle where T(n,H(u),H(v)) is the coefficient of m(v) in e(u), where u and v are integer partitions of n, H is Heinz number, m is monomial symmetric functions, and e is elementary symmetric functions.

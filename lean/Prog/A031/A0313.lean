@@ -23857,6 +23857,29 @@ def P10937673503405829647.Spec : Prop :=
 
 end A031391
 
+/-! ## A031391.P9154913505106392679
+
+`A066050(A017281(n+1))`
+-/
+
+namespace A031391.P9154913505106392679
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066050 (A017281 (n + 1)).toNat
+
+end
+
+end A031391.P9154913505106392679
+
+namespace A031391
+
+/-- `A066050(A017281(n+1))` -/
+def P9154913505106392679.Spec : Prop :=
+  ∀ n, P9154913505106392679.a n = A031391 (n + 1)
+
+end A031391
+
 /-!
 # A031392: a(n) = prime(5*n-4).
 

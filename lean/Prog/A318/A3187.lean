@@ -35,11 +35,11 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B001.C000
@@ -1503,20 +1503,20 @@ end
 
 end A318717.P1016148450358891514
 
-/-! ## A318717.P17873411557844202520
+/-! ## A318717.P4545282441395514909
 
-`A303280(round(acot(n)+n))%A302796(2*n+3)`
+`A255270(A284464(n))`
 -/
 
-namespace A318717.P17873411557844202520
+namespace A318717.P4545282441395514909
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A303280 (SequenceMachineLib.roundAway (SequenceMachineLib.acot (n : ℝ) + (n : ℝ))).toNat) (A302796 (2 * n + 3))
+  A255270 (A284464 n).toNat
 
 end
 
-end A318717.P17873411557844202520
+end A318717.P4545282441395514909
 
 /-!
 # A318718: Heinz numbers of strict integer partitions with a common divisor > 1.

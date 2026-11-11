@@ -44,7 +44,6 @@ import Seq.B000.C048
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -99,6 +98,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -3049,20 +3049,20 @@ end
 
 end A112529.P2833750323033637558
 
-/-! ## A112529.P6808001035845507858
+/-! ## A112529.P7629156931882565574
 
-`A048865(A231332(n+1))+1`
+`A377505(A231332(n+1))`
 -/
 
-namespace A112529.P6808001035845507858
+namespace A112529.P7629156931882565574
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048865 (A231332 (n + 1)).toNat + 1
+  A377505 (A231332 (n + 1)).toNat
 
 end
 
-end A112529.P6808001035845507858
+end A112529.P7629156931882565574
 
 /-! ## A112529.P5399838645210553041
 
@@ -5548,6 +5548,52 @@ def P8077200723145948050.Spec : Prop :=
 
 end A112544
 
+/-! ## A112544.P12428015904479608229
+
+`A004736(A038722(n+1))/A003989(n+1)`
+-/
+
+namespace A112544.P12428015904479608229
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A004736 (A038722 (n + 1)).toNat : ℚ) / (A003989 (n + 1) : ℚ)
+
+end
+
+end A112544.P12428015904479608229
+
+namespace A112544
+
+/-- `A004736(A038722(n+1))/A003989(n+1)` -/
+def P12428015904479608229.Spec : Prop :=
+  ∀ n, P12428015904479608229.a n = (A112544 (n + 1) : ℚ)
+
+end A112544
+
+/-! ## A112544.P9083062480226578251
+
+`A002260(n+1)*A003990(n+1)/A003991(n+1)`
+-/
+
+namespace A112544.P9083062480226578251
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002260 (n + 1) * A003990 (n + 1) : ℚ) / (A003991 (n + 1) : ℚ)
+
+end
+
+end A112544.P9083062480226578251
+
+namespace A112544
+
+/-- `A002260(n+1)*A003990(n+1)/A003991(n+1)` -/
+def P9083062480226578251.Spec : Prop :=
+  ∀ n, P9083062480226578251.a n = (A112544 (n + 1) : ℚ)
+
+end A112544
+
 /-!
 # A112546: Lengths of the loop of the sequences "Sum of last n digits" beginning with (n-1) zeros followed by digit 1.
 
@@ -7645,21 +7691,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A112564.P14469862478269296665
-
-/-! ## A112564.P4549905231768886571
-
-`A389182(A290569(n+1))`
--/
-
-namespace A112564.P4549905231768886571
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389182 (A290569 (n + 1)).toNat
-
-end
-
-end A112564.P4549905231768886571
 
 /-! ## A112564.P9506624844666237494
 

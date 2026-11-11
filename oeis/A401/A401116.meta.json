@@ -1,0 +1,22 @@
+{
+  "description": "Array read by anti-diagonals: T(n,k) = [x^n] cosh((2*k+1)*arctanh(2*sqrt(x))).",
+  "id": "A401116",
+  "mentions": [
+    "A000984",
+    "A285043",
+    "A285044",
+    "A285045",
+    "A285046"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

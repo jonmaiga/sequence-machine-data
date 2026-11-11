@@ -19,7 +19,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C027
@@ -6608,29 +6607,6 @@ def P3034165680497081893.Spec : Prop :=
 theorem P3034165680497081893.correct : P3034165680497081893.Spec := by
   intro n
   simp only [A372293, Nat.add_sub_cancel]
-
-end A372293
-
-/-! ## A372293.P11629674469522638113
-
-`or(a(n-1)+2, A400612(n+1))` with `a(0)=1`
--/
-
-namespace A372293.P11629674469522638113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  Int.lor (a (n - 1) + 2) (A400612 (n + 1))
-
-end
-
-end A372293.P11629674469522638113
-
-namespace A372293
-
-/-- `or(a(n-1)+2, A400612(n+1))` -/
-def P11629674469522638113.Spec : Prop :=
-  ∀ n, P11629674469522638113.a n = A372293 (n + 1)
 
 end A372293
 

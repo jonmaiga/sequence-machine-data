@@ -22,7 +22,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -74,7 +73,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -5693,36 +5691,6 @@ end
 
 end A387579.P11635842591082382361
 
-/-! ## A387579.P11437783903057049541
-
-`A001222(or(A010054(n+1), A289508(n+1)))`
--/
-
-namespace A387579.P11437783903057049541
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (Int.lor (A010054 (n + 1)) (A289508 (n + 1))).toNat
-
-end
-
-end A387579.P11437783903057049541
-
-/-! ## A387579.P1367928751296708523
-
-`A001222(or(A188642(n+4), A289508(n+1)))`
--/
-
-namespace A387579.P1367928751296708523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (Int.lor (A188642 (n + 4)) (A289508 (n + 1))).toNat
-
-end
-
-end A387579.P1367928751296708523
-
 /-! ## A387579.P4802559550233206293
 
 `∑{e}[gcd(A354871(n+1), A363941(n+1)), #]`
@@ -5755,6 +5723,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387579.P1165855493108366674
+
+/-! ## A387579.P8311252461888822826
+
+`and(A305052(n+1), A340928(n+1))`
+-/
+
+namespace A387579.P8311252461888822826
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A305052 (n + 1)) (A340928 (n + 1))
+
+end
+
+end A387579.P8311252461888822826
 
 /-!
 # A387581: Number of matchings in the n-trapezohedral graph.

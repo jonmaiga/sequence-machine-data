@@ -5520,6 +5520,32 @@ def P17678267876680782207.Spec : Prop :=
 
 end A213247
 
+/-! ## A213247.P10086690713333731154
+
+`A106612(∑[2^n])`
+-/
+
+namespace A213247.P10086690713333731154
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106612 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A213247.P10086690713333731154
+
+namespace A213247
+
+/-- `A106612(∑[2^n])` -/
+def P10086690713333731154.Spec : Prop :=
+  ∀ n, P10086690713333731154.a n = A213247 (n + 1)
+
+end A213247
+
 /-!
 # A213248: Number of nonzero elements in GF(2^n) that are 13th powers.
 
@@ -9002,21 +9028,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213280.P11199388969600636593
-
-/-! ## A213280.P15145572325087063964
-
-`(A002262(n)*A293211(n+1))%A000112(n+1)`
--/
-
-namespace A213280.P15145572325087063964
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A002262 n * A293211 (n + 1)) (A000112 (n + 1))
-
-end
-
-end A213280.P15145572325087063964
 
 /-! ## A213280.P18430018121369080256
 

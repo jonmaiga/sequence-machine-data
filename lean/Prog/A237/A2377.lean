@@ -3556,35 +3556,35 @@ end A237748.P11478209359763798764
 The programs for A237749, there is no canonical definition to state claims against.
 -/
 
-/-! ## A237749.P3645455977334941580
+/-! ## A237749.P14417357043012717901
 
-`A202823(abs(n-1)!)`
+`A384880(2^n-(n+1))`
 -/
 
-namespace A237749.P3645455977334941580
+namespace A237749.P14417357043012717901
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202823 (Nat.factorial |(n : ℤ) - 1|.toNat)
+  A384880 (2 ^ n - (n + 1))
 
 end
 
-end A237749.P3645455977334941580
+end A237749.P14417357043012717901
 
-/-! ## A237749.P16016403863115266948
+/-! ## A237749.P11033741328297534491
 
-`A384880(2^n-n-1)`
+`A102629(A032045(n))`
 -/
 
-namespace A237749.P16016403863115266948
+namespace A237749.P11033741328297534491
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384880 ((2 ^ n : ℤ) - (n : ℤ) - 1).toNat
+  A102629 (A032045 n).toNat
 
 end
 
-end A237749.P16016403863115266948
+end A237749.P11033741328297534491
 
 /-!
 # A237751: Number of partitions of n such that 2*(greatest part) < (number of parts).

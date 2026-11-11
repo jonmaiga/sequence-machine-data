@@ -11473,6 +11473,21 @@ end
 
 end A062855.P5857518269226046831
 
+/-! ## A062855.P14866127466688339453
+
+`A000290(n+1)-(A062854(n+1)+A000290(n))`
+-/
+
+namespace A062855.P14866127466688339453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (n + 1) - (A062854 (n + 1) + A000290 n)
+
+end
+
+end A062855.P14866127466688339453
+
 /-! ## A062855.P11838154319291357287
 
 `Δ[n²-record[A027420(n)]]`
@@ -18767,4 +18782,40 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A062899.P4774255275472253828
+
+/-! ## A062899.P12620026831813419136
+
+`filter[A062897(n+1), A079978(#)]`
+-/
+
+namespace A062899.P12620026831813419136
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062897 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A079978 (f1 j).toNat = 1) n)
+
+end
+
+end A062899.P12620026831813419136
+
+/-! ## A062899.P12368697402886583674
+
+`filter[A062897(n+1), A173857(#)]`
+-/
+
+namespace A062899.P12368697402886583674
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062897 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A173857 (f1 j).toNat = 1) n)
+
+end
+
+end A062899.P12368697402886583674
 

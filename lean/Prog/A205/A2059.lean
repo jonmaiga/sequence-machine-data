@@ -51,6 +51,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -3885,6 +3886,29 @@ def P10203890771653602653.Spec : Prop :=
 
 end A205955
 
+/-! ## A205955.P689897912699621668
+
+`A090076(n+1)%A006094(n+1)`
+-/
+
+namespace A205955.P689897912699621668
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A090076 (n + 1)) (A006094 (n + 1))
+
+end
+
+end A205955.P689897912699621668
+
+namespace A205955
+
+/-- `A090076(n+1)%A006094(n+1)` -/
+def P689897912699621668.Spec : Prop :=
+  ∀ n, P689897912699621668.a n = A205955 (n + 1)
+
+end A205955
+
 /-! ## A205955.P9216320884863301623
 
 `(A176246(n+1)+1)*A000040(n+1)`
@@ -4223,32 +4247,6 @@ def P13153174207866390749.Spec : Prop :=
 
 end A205955
 
-/-! ## A205955.P6772204956299530553
-
-`Δ[A007504(n)]*A125266(n+3)`
--/
-
-namespace A205955.P6772204956299530553
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007504 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) - f1 n) * A125266 (n + 3)
-
-end
-
-end A205955.P6772204956299530553
-
-namespace A205955
-
-/-- `Δ[A007504(n)]*A125266(n+3)` -/
-def P6772204956299530553.Spec : Prop :=
-  ∀ n, P6772204956299530553.a n = A205955 (n + 1)
-
-end A205955
-
 /-!
 # A205956: Distinct primes occurring as not necessarily consecutive subsequences in decimal representation of 39467139.
 
@@ -4471,7 +4469,7 @@ end A205957.P9183544711912205849
 /-!
 # A205958: a(0) = 1 and a(n) = A180000(n)*a(floor(n/2))^2 for n > 0.
 
-The programs for A205958, the canonical program `A205958.P11855454581859241320` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205958 has offset 0).
+The programs for A205958, the canonical program `A205958.P11855454581859241320` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205958 has offset 0).
 
 The definition of A205958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4480,7 +4478,7 @@ The definition of A205958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A180000(n)*a(floor(n/2))²` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205958

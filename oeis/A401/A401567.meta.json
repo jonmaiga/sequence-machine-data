@@ -1,0 +1,18 @@
+{
+  "description": "Number of disconnected symmetric quartic graphs on n nodes.",
+  "id": "A401567",
+  "mentions": [
+    "A087101",
+    "A401566"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

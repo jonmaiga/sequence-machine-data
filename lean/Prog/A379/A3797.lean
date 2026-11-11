@@ -6293,27 +6293,6 @@ end
 
 end A379774.P5013855758312512654
 
-/-! ## A379774.P18050134717203370075
-
-`lt[A004736(A385818(2*n+1)), A385887(3*n+4)]`
--/
-
-namespace A379774.P18050134717203370075
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004736 (A385818 (2 * n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385887 (3 * n + 4)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A379774.P18050134717203370075
-
 /-! ## A379774.P1898166558817328357
 
 `∑[A245563(∑[A222122(n+1)])]`

@@ -1,5 +1,5 @@
 {
-  "description": "n!*(3*n^2-13*n+14)/6.",
+  "description": "a(n) = n!*(3*n^2 - 13*n + 14)/6.",
   "id": "A108033",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 20,
+    "size": 21,
     "source": "joeis"
   }
 }

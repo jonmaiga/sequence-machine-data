@@ -27,6 +27,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5265,19 +5266,19 @@ end
 
 end A078561.P9721915477367663191
 
-/-! ## A078561.P6726130702687004378
+/-! ## A078561.P8019642588319838560
 
-`∩[A046136(n+1), A063535(n)]`
+`∩[A046136(n+1), A063535(n+1)]`
 -/
 
-namespace A078561.P6726130702687004378
+namespace A078561.P8019642588319838560
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A046136 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 n
+  A063535 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5285,43 +5286,43 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A078561.P6726130702687004378
+end A078561.P8019642588319838560
 
-/-! ## A078561.P944085937640308313
+/-! ## A078561.P5918481722431676100
 
-`∩[A086135(n+1), A063535(n)]`
+`∩[A063535(n+1), A086135(n+1)]`
 -/
 
-namespace A078561.P944085937640308313
+namespace A078561.P5918481722431676100
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063535 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A086135 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 n
-
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A078561.P944085937640308313
+end A078561.P5918481722431676100
 
-/-! ## A078561.P16719356855260468573
+/-! ## A078561.P2851929325081569910
 
-`∩[A286313(n+1), A063535(n)]`
+`∩[A063535(n+1), A286313(n+1)]`
 -/
 
-namespace A078561.P16719356855260468573
+namespace A078561.P2851929325081569910
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286313 (n + 1)
+  A063535 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 n
+  A286313 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5329,7 +5330,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A078561.P16719356855260468573
+end A078561.P2851929325081569910
 
 /-! ## A078561.P12983400563204703977
 

@@ -21,7 +21,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
@@ -31,7 +30,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
@@ -98,6 +96,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1291,6 +1290,29 @@ namespace A270311
 /-- `A061395(A270310(n+1)+A270310(n+1))` -/
 def P4687773761216581560.Spec : Prop :=
   ∀ n, P4687773761216581560.a n = A270311 (n + 1)
+
+end A270311
+
+/-! ## A270311.P16417068968375896200
+
+`A390375(A270310(n+1))`
+-/
+
+namespace A270311.P16417068968375896200
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390375 (A270310 (n + 1)).toNat
+
+end
+
+end A270311.P16417068968375896200
+
+namespace A270311
+
+/-- `A390375(A270310(n+1))` -/
+def P16417068968375896200.Spec : Prop :=
+  ∀ n, P16417068968375896200.a n = A270311 (n + 1)
 
 end A270311
 

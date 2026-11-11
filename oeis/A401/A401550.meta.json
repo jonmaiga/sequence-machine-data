@@ -1,0 +1,19 @@
+{
+  "description": "Number of inscribable simplicial polyhedra with n nodes.",
+  "id": "A401550",
+  "mentions": [
+    "A000109",
+    "A007037",
+    "A401551"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

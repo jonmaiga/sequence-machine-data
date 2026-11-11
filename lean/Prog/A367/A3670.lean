@@ -3778,20 +3778,20 @@ end
 
 end A367066.P8764904292715133461
 
-/-! ## A367066.P6159873965059274730
+/-! ## A367066.P13932800083188734837
 
-`A367068(n+2)-1`
+`n+1-A005378(A005206(n+1))`
 -/
 
-namespace A367066.P6159873965059274730
+namespace A367066.P13932800083188734837
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367068 (n + 2) - 1
+  (n + 1 : ℤ) - A005378 (A005206 (n + 1)).toNat
 
 end
 
-end A367066.P6159873965059274730
+end A367066.P13932800083188734837
 
 /-!
 # A367067: a(1)=3, thereafter a(n) is the least positive integer not yet in the sequence such that Sum_{i=1..n} a(i) == 3 (mod n+3).

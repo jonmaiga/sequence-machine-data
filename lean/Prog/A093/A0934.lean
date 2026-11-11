@@ -1270,6 +1270,29 @@ def P3770828137862820518.Spec : Prop :=
 
 end A093419
 
+/-! ## A093419.P12630002492452296630
+
+`A160047(2*(n+2))`
+-/
+
+namespace A093419.P12630002492452296630
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160047 (2 * (n + 2))
+
+end
+
+end A093419.P12630002492452296630
+
+namespace A093419
+
+/-- `A160047(2*(n+2))` -/
+def P12630002492452296630.Spec : Prop :=
+  ∀ n, P12630002492452296630.a n = A093419 (n + 1)
+
+end A093419
+
 /-!
 # A093421: Triangle read by rows: T(n,k) is the denominator of f(n, k) = (Product_{i = 0..k-1} (n-i))/(Sum_{i = 1..k} i) for 1 <= k <= n.
 
@@ -6598,29 +6621,26 @@ def P4920423058975358381.Spec : Prop :=
 
 end A093485
 
-/-! ## A093485.P3870519330102951364
+/-! ## A093485.P16519602038436953431
 
-`Δ[A006566(n)]`
+`A080860(n)+A022264(n)`
 -/
 
-namespace A093485.P3870519330102951364
+namespace A093485.P16519602038436953431
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006566 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  A080860 n + A022264 n
 
 end
 
-end A093485.P3870519330102951364
+end A093485.P16519602038436953431
 
 namespace A093485
 
-/-- `Δ[A006566(n)]` -/
-def P3870519330102951364.Spec : Prop :=
-  ∀ n, P3870519330102951364.a n = A093485 n
+/-- `A080860(n)+A022264(n)` -/
+def P16519602038436953431.Spec : Prop :=
+  ∀ n, P16519602038436953431.a n = A093485 n
 
 end A093485
 

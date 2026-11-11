@@ -1,18 +1,19 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of permutations of n elements which have k overlaps.",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations of {1,...,n} starting with 1 and having exactly k overlaps, for n >= 1 and 0 <= k <= floor((n-2)^2/4).",
   "id": "A259707",
   "mentions": [
     "A000108",
+    "A000682",
+    "A104150",
     "A259706"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 2,
-    "size": 19,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

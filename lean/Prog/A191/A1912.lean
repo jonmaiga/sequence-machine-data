@@ -7373,6 +7373,21 @@ end
 
 end A191245.P4957205776198999131
 
+/-! ## A191245.P15623413711027124254
+
+`A091931(A049084(A191235(n+1)))`
+-/
+
+namespace A191245.P15623413711027124254
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091931 (A049084 (A191235 (n + 1)).toNat).toNat
+
+end
+
+end A191245.P15623413711027124254
+
 /-!
 # A191246: Length of prefix cyclically shifted with permutations in cool-lex ordering.
 
@@ -12258,6 +12273,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A191271.P13391254233548032828
+
+/-! ## A191271.P8973367569977402119
+
+`A026352(A191270(n+1))`
+-/
+
+namespace A191271.P8973367569977402119
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026352 (A191270 (n + 1)).toNat
+
+end
+
+end A191271.P8973367569977402119
 
 /-! ## A191271.P2773764304181737539
 

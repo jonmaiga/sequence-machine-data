@@ -33,6 +33,7 @@ import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1986,6 +1987,21 @@ end
 
 end A193315.P7294373908768653053
 
+/-! ## A193315.P18376535644739723297
+
+`A219209(A102084(n+1))`
+-/
+
+namespace A193315.P18376535644739723297
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219209 (A102084 (n + 1)).toNat
+
+end
+
+end A193315.P18376535644739723297
+
 /-! ## A193315.P8527380187236390934
 
 `A028310(A099303(2*(n+1)))`
@@ -2060,21 +2076,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A193315.P7822434199400589443
-
-/-! ## A193315.P3121809746533054630
-
-`A151810(n)+A102084(n+1)`
--/
-
-namespace A193315.P3121809746533054630
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151810 n + A102084 (n + 1)
-
-end
-
-end A193315.P3121809746533054630
 
 /-!
 # A193316: Number of basic forbidden patterns of length n of the map f(x)=4x(1-x) on the unit interval.

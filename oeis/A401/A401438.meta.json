@@ -1,0 +1,14 @@
+{
+  "description": "Number of tilings of a strip of length n using squares (length 1) and dominos (length 2), where the total number of tiles is prime.",
+  "id": "A401438",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

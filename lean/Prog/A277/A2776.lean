@@ -60,7 +60,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -805,21 +804,6 @@ end A277605.P11718608715253581716
 The programs for A277606, there is no canonical definition to state claims against.
 -/
 
-/-! ## A277606.P13910828697950147141
-
-`gcd(n!, A087165(A191868(n+1)))`
--/
-
-namespace A277606.P13910828697950147141
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (Nat.factorial n : ℤ) (A087165 (A191868 (n + 1)).toNat)
-
-end
-
-end A277606.P13910828697950147141
-
 /-! ## A277606.P16204876332186089393
 
 `gcd(A000203(n+1), A072797(∑[2^n]/3^(n%2)))`
@@ -882,6 +866,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A277606.P13510000556806424570
+
+/-! ## A277606.P7311171743676342896
+
+`A264846(A046817(n))`
+-/
+
+namespace A277606.P7311171743676342896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264846 (A046817 n).toNat
+
+end
+
+end A277606.P7311171743676342896
 
 /-!
 # A277607: Smallest of four consecutive primes in arithmetic progression with common difference 42 and all digit sums prime.
@@ -5513,6 +5512,21 @@ end
 
 end A277648.P6401717419551840874
 
+/-! ## A277648.P2460542652685291674
+
+`A277647(A029903(n))`
+-/
+
+namespace A277648.P2460542652685291674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277647 (A029903 n).toNat
+
+end
+
+end A277648.P2460542652685291674
+
 /-!
 # A277652: Numerators of factorial moments of order 2 for the number of parts in dissections of rooted and convex polygons.
 
@@ -7382,6 +7396,21 @@ end
 
 end A277674.P11895389293951985009
 
+/-! ## A277674.P134922130956763487
+
+`n+2-A277676(A039960(n+2))`
+-/
+
+namespace A277674.P134922130956763487
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℤ) - A277676 (A039960 (n + 2)).toNat
+
+end
+
+end A277674.P134922130956763487
+
 /-! ## A277674.P15700707506918491144
 
 `Δ[fp[A277676(n+1)]]`
@@ -7402,21 +7431,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277674.P15700707506918491144
-
-/-! ## A277674.P4231980755972649448
-
-`A001222(A216402(n+1))%A216377(n+2)`
--/
-
-namespace A277674.P4231980755972649448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A001222 (A216402 (n + 1)).toNat) (A216377 (n + 2))
-
-end
-
-end A277674.P4231980755972649448
 
 /-!
 # A277675: Numbers k such that d(k+2) = d(k+1), where d(m) is the number of digits in the base-m representation of m!.

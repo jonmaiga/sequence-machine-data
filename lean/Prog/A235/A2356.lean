@@ -9751,6 +9751,28 @@ end
 
 end A235691.P14035339617479825692
 
+/-! ## A235691.P807818425864696325
+
+`∩[A031962(n+1), A385757(n+1)]`
+-/
+
+namespace A235691.P807818425864696325
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031962 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385757 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A235691.P807818425864696325
+
 /-! ## A235691.P5321693148184596764
 
 `∩[A176540(n+1), A303504(n+1)]`
@@ -9773,19 +9795,19 @@ end
 
 end A235691.P5321693148184596764
 
-/-! ## A235691.P18397873856397989879
+/-! ## A235691.P14480376382500759348
 
-`∩[A186621(n+1)+1, A303504(n+1)]`
+`∩[A303504(n+1), A385757(n+1)]`
 -/
 
-namespace A235691.P18397873856397989879
+namespace A235691.P14480376382500759348
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186621 (n + 1) + 1
+  A303504 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303504 (n + 1)
+  A385757 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -9793,7 +9815,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A235691.P18397873856397989879
+end A235691.P14480376382500759348
 
 /-!
 # A235692: Semiprimes which have one or more occurrences of exactly four different digits.

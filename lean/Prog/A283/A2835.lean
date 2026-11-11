@@ -24,6 +24,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -38,6 +39,7 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1519,6 +1521,29 @@ def P14392846649141412832.Spec : Prop :=
 
 end A283506
 
+/-! ## A283506.P10871938890512586681
+
+`xor(A101622(n), A153284(n+1))`
+-/
+
+namespace A283506.P10871938890512586681
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A101622 n) (A153284 (n + 1))
+
+end
+
+end A283506.P10871938890512586681
+
+namespace A283506
+
+/-- `xor(A101622(n), A153284(n+1))` -/
+def P10871938890512586681.Spec : Prop :=
+  ∀ n, P10871938890512586681.a n = A283506 n
+
+end A283506
+
 /-!
 # A283507: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 
@@ -2323,6 +2348,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A283514.P15499710806304592222
+
+/-! ## A283514.P7740816282039008182
+
+`A262557(A159741(n+1))`
+-/
+
+namespace A283514.P7740816282039008182
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262557 (A159741 (n + 1)).toNat
+
+end
+
+end A283514.P7740816282039008182
 
 /-!
 # A283516: Number of nX2 0..1 arrays with no 1 equal to more than three of its horizontal, vertical and antidiagonal neighbors, with the exception of exactly two elements.
@@ -9980,6 +10020,29 @@ def P9319412430516716307.Spec : Prop :=
 
 end A283592
 
+/-! ## A283592.P15477996195399572509
+
+`A284405(n)%A401544(n+1)`
+-/
+
+namespace A283592.P15477996195399572509
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A284405 n) (A401544 (n + 1))
+
+end
+
+end A283592.P15477996195399572509
+
+namespace A283592
+
+/-- `A284405(n)%A401544(n+1)` -/
+def P15477996195399572509.Spec : Prop :=
+  ∀ n, P15477996195399572509.a n = A283592 n
+
+end A283592
+
 /-! ## A283592.P2301212405189787877
 
 `A336819(n+1)%A042950(n)`
@@ -10000,6 +10063,29 @@ namespace A283592
 /-- `A336819(n+1)%A042950(n)` -/
 def P2301212405189787877.Spec : Prop :=
   ∀ n, P2301212405189787877.a n = A283592 n
+
+end A283592
+
+/-! ## A283592.P11338092438667084974
+
+`A267586(n)%A401544(n+1)`
+-/
+
+namespace A283592.P11338092438667084974
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A267586 n) (A401544 (n + 1))
+
+end
+
+end A283592.P11338092438667084974
+
+namespace A283592
+
+/-- `A267586(n)%A401544(n+1)` -/
+def P11338092438667084974.Spec : Prop :=
+  ∀ n, P11338092438667084974.a n = A283592 n
 
 end A283592
 

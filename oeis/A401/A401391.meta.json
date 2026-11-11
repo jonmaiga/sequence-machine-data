@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of iterations of n -> n * A401375(n^2) until such a term is reached that A401375(n^2) is not a prime power larger than one.",
+  "id": "A401391",
+  "mentions": [
+    "A000203",
+    "A246655",
+    "A401375",
+    "A401380",
+    "A401386",
+    "A401390",
+    "A401392"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

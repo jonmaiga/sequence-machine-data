@@ -1632,6 +1632,29 @@ def P9503742683775908349.Spec : Prop :=
 
 end A073214
 
+/-! ## A073214.P1208995475844383957
+
+`A004277(A073222(n+1))`
+-/
+
+namespace A073214.P1208995475844383957
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A073222 (n + 1)).toNat
+
+end
+
+end A073214.P1208995475844383957
+
+namespace A073214
+
+/-- `A004277(A073222(n+1))` -/
+def P1208995475844383957.Spec : Prop :=
+  ∀ n, P1208995475844383957.a n = A073214 n
+
+end A073214
+
 /-!
 # A073215: Sum of two powers of 23.
 
@@ -15864,18 +15887,18 @@ end
 
 end A073299.P2901513528026185976
 
-/-! ## A073299.P16343993315803906466
+/-! ## A073299.P8730166045235432696
 
-`A129611(A129611(A122339(A129611(n))))`
+`A073295(A073292(A073297(n)))`
 -/
 
-namespace A073299.P16343993315803906466
+namespace A073299.P8730166045235432696
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129611 (A129611 (A122339 (A129611 n).toNat).toNat).toNat
+  A073295 (A073292 (A073297 n).toNat).toNat
 
 end
 
-end A073299.P16343993315803906466
+end A073299.P8730166045235432696
 

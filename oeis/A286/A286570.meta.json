@@ -1,5 +1,5 @@
 {
-  "description": "Compound filter (prime signature of n & gcd(n, sigma(n))): a(n) = P(A046523(n), A009194(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "description": "a(n) = (1/2)*(2 + ((A046523(n)+A009194(n))^2) - A046523(n) - 3*A009194(n)), where A046523(n) is the smallest number with same prime signature as n, and A009194(n) is gcd(n, sigma(n)).",
   "id": "A286570",
   "mentions": [
     "A000027",
@@ -7,10 +7,13 @@
     "A046523",
     "A286360",
     "A286571",
-    "A286591"
+    "A286591",
+    "A300230"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

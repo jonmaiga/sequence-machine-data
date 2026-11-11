@@ -31,7 +31,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -92,6 +92,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -986,23 +987,20 @@ end
 
 end A058719.P9751451877433912965
 
-/-! ## A058719.P18236371976448946456
+/-! ## A058719.P15959325430103975531
 
-`A130446(Δ[A159036(n)])`
+`A401479(A099787(n))`
 -/
 
-namespace A058719.P18236371976448946456
+namespace A058719.P15959325430103975531
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159036 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130446 (f1 (n + 1) - f1 n).toNat
+  A401479 (A099787 n).toNat
 
 end
 
-end A058719.P18236371976448946456
+end A058719.P15959325430103975531
 
 /-!
 # A058721: Number of simple matroids on n labeled points.

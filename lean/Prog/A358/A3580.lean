@@ -19,7 +19,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
@@ -27,7 +26,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -52,6 +50,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3151,6 +3150,29 @@ def P9352253501545853037.Spec : Prop :=
 
 end A358038
 
+/-! ## A358038.P14501439635850566899
+
+`A399053(A004709(n+1))`
+-/
+
+namespace A358038.P14501439635850566899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A399053 (A004709 (n + 1)).toNat
+
+end
+
+end A358038.P14501439635850566899
+
+namespace A358038
+
+/-- `A399053(A004709(n+1))` -/
+def P14501439635850566899.Spec : Prop :=
+  ∀ n, P14501439635850566899.a n = A358038 (n + 1)
+
+end A358038
+
 /-!
 # A358039: a(n) is the Euler totient function phi applied to the n-th cubefree number.
 
@@ -3609,7 +3631,7 @@ end A358039
 /-!
 # A358040: a(n) is the number of divisors of the n-th cubefree number.
 
-The programs for A358040, the canonical program `A358040.P3658536414461284730` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358040 has offset 1).
+The programs for A358040, the canonical program `A358040.P3658536414461284730` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358040 has offset 1).
 
 The definition of A358040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3618,7 +3640,7 @@ The definition of A358040 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A004709(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A358040
@@ -5556,7 +5578,7 @@ end A358060.P15330516178421310497
 /-!
 # A358061: a(n) = phi(n) mod tau(n).
 
-The programs for A358061, the canonical program `A358061.P11370879182037350058` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358061 has offset 1).
+The programs for A358061, the canonical program `A358061.P11370879182037350058` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358061 has offset 1).
 
 The definition of A358061 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000010(n+1)%A000005(n+1)` (program `A358061.P11370879182037350058`, by `A358061.P11370879182037350058.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5565,7 +5587,7 @@ The definition of A358061 is `verified`: the Lean definition is proven equivalen
 
 `A000010(n+1)%A000005(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A358061

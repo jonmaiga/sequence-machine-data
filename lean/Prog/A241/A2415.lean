@@ -4951,6 +4951,21 @@ end
 
 end A241539.P10664919041330359517
 
+/-! ## A241539.P12569692352672570384
+
+`A082467(A001358(n+1))`
+-/
+
+namespace A241539.P12569692352672570384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082467 (A001358 (n + 1)).toNat
+
+end
+
+end A241539.P12569692352672570384
+
 /-! ## A241539.P8375836192626788846
 
 `A047160(A176540(2+n))`
@@ -5154,21 +5169,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A241539.P12118898096807989739
-
-/-! ## A241539.P10400354666993320832
-
-`A082467(A001358(2*n+1-n))`
--/
-
-namespace A241539.P10400354666993320832
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082467 (A001358 (2 * n + 1 - n)).toNat
-
-end
-
-end A241539.P10400354666993320832
 
 /-!
 # A241540: Indices of primes p in A182514, i.e., a(n) = primepi(p) = A000720(A182514(n)).

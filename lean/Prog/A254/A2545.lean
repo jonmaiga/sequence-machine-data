@@ -33,7 +33,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C045
@@ -2257,21 +2256,6 @@ end A254520
 
 The programs for A254521, there is no canonical definition to state claims against.
 -/
-
-/-! ## A254521.P11135037525693236648
-
-`(n+1)^3-A241469(A006519(n+1))`
--/
-
-namespace A254521.P11135037525693236648
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n + 1) ^ 3 : ℤ) - A241469 (A006519 (n + 1)).toNat
-
-end
-
-end A254521.P11135037525693236648
 
 /-! ## A254521.P10560665610596890658
 

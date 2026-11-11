@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct adjacency eigenvalues of the honeycomb lattice on an n X n torus (2*n^2 vertices).",
+  "id": "A401366",
+  "mentions": [
+    "A395911",
+    "A399677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

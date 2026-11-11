@@ -18,7 +18,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C048
@@ -3231,6 +3231,35 @@ def P7060231294633431827.Spec : Prop :=
 
 end A206145
 
+/-! ## A206145.P11909848556815767593
+
+`A209506(n+1)+A209506(n+1)`
+-/
+
+namespace A206145.P11909848556815767593
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209506 (n + 1) + A209506 (n + 1)
+
+end
+
+end A206145.P11909848556815767593
+
+namespace A206145
+
+/-- `A209506(n+1)+A209506(n+1)` -/
+def P11909848556815767593.Spec : Prop :=
+  ∀ n, P11909848556815767593.a n = A206145 (n + 1)
+
+theorem P11909848556815767593.correct : P11909848556815767593.Spec := by
+  intro n
+  simp only [A206145, Nat.add_sub_cancel, A206145.P11909848556815767593.a, A206145.P8326850148868081570.a, A078100, A078100.P2117606517684963015.a, A209506, A209506.P7441585109352370267.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A206145
+
 /-!
 # A206146: Number of (n+1) X 5 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly three counterclockwise and three clockwise edge increases.
 
@@ -3408,6 +3437,21 @@ end
 
 end A206147.P9462717765040479078
 
+/-! ## A206147.P1813791193035985792
+
+`A209508(n+1)+A209508(n+1)`
+-/
+
+namespace A206147.P1813791193035985792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209508 (n + 1) + A209508 (n + 1)
+
+end
+
+end A206147.P1813791193035985792
+
 /-!
 # A206148: Number of (n+1) X 7 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly three counterclockwise and three clockwise edge increases.
 
@@ -3489,6 +3533,21 @@ end
 
 end A206148.P6969856060913557414
 
+/-! ## A206148.P8778031206532975812
+
+`A209509(n+1)+A209509(n+1)`
+-/
+
+namespace A206148.P8778031206532975812
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209509 (n + 1) + A209509 (n + 1)
+
+end
+
+end A206148.P8778031206532975812
+
 /-!
 # A206149: Number of (n+1) X 8 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly three counterclockwise and three clockwise edge increases.
 
@@ -3555,20 +3614,20 @@ end
 
 end A206149.P592385676070092311
 
-/-! ## A206149.P821710842662476457
+/-! ## A206149.P12585047196788261189
 
-`A209510(n+1)+A209510(A052938(A005843(n)))`
+`A209510(n+1)+A209510(n+1)`
 -/
 
-namespace A206149.P821710842662476457
+namespace A206149.P12585047196788261189
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209510 (n + 1) + A209510 (A052938 (A005843 n).toNat).toNat
+  A209510 (n + 1) + A209510 (n + 1)
 
 end
 
-end A206149.P821710842662476457
+end A206149.P12585047196788261189
 
 /-!
 # A206152: a(n) = Sum_{k=0..n} binomial(n,k)^(n+k).

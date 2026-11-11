@@ -1,10 +1,11 @@
 {
-  "description": "Filtering sequence (related to prime factorization): a(n) = A046523(A122111(n)).",
+  "description": "The smallest number with same prime signature as A122111(n) has, where A122111 conjugates the prime factorization of n.",
   "id": "A278221",
   "mentions": [
     "A046523",
     "A122111",
-    "A278220"
+    "A278220",
+    "A286621"
   ],
   "tags": [
     "formulas",

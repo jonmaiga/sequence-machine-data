@@ -2073,6 +2073,29 @@ def P5254753415352158938.Spec : Prop :=
 
 end A261723
 
+/-! ## A261723.P313894903472495051
+
+`(A005418(n+2)+A005418(n+2))/A060546(n)`
+-/
+
+namespace A261723.P313894903472495051
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A005418 (n + 2) + A005418 (n + 2) : ℚ) / (A060546 n : ℚ)
+
+end
+
+end A261723.P313894903472495051
+
+namespace A261723
+
+/-- `(A005418(n+2)+A005418(n+2))/A060546(n)` -/
+def P313894903472495051.Spec : Prop :=
+  ∀ n, P313894903472495051.a n = (A261723 (n + 1) : ℚ)
+
+end A261723
+
 /-! ## A261723.P13371702824174014161
 
 `A264802(A117142(n+2))`
@@ -2093,29 +2116,6 @@ namespace A261723
 /-- `A264802(A117142(n+2))` -/
 def P13371702824174014161.Spec : Prop :=
   ∀ n, P13371702824174014161.a n = A261723 (n + 1)
-
-end A261723
-
-/-! ## A261723.P16754767283479461136
-
-`A005418(n+2)*A060546(n+1)/A060546(2*n)`
--/
-
-namespace A261723.P16754767283479461136
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A005418 (n + 2) * A060546 (n + 1) : ℚ) / (A060546 (2 * n) : ℚ)
-
-end
-
-end A261723.P16754767283479461136
-
-namespace A261723
-
-/-- `A005418(n+2)*A060546(n+1)/A060546(2*n)` -/
-def P16754767283479461136.Spec : Prop :=
-  ∀ n, P16754767283479461136.a n = (A261723 (n + 1) : ℚ)
 
 end A261723
 
@@ -7654,35 +7654,20 @@ end
 
 end A261789.P3674690460023735709
 
-/-! ## A261789.P2485766719170108364
+/-! ## A261789.P18030425379050218331
 
-`A261787(A261786(abs(xor(n, -1))))`
+`A261787(A261786(n+1))`
 -/
 
-namespace A261789.P2485766719170108364
+namespace A261789.P18030425379050218331
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261787 (A261786 |Int.xor (n : ℤ) (-1)|.toNat).toNat
+  A261787 (A261786 (n + 1)).toNat
 
 end
 
-end A261789.P2485766719170108364
-
-/-! ## A261789.P5040479375628659854
-
-`A261787(A261786(n+1)%A034782(n+1))`
--/
-
-namespace A261789.P5040479375628659854
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261787 (Int.tmod (A261786 (n + 1)) (A034782 (n + 1))).toNat
-
-end
-
-end A261789.P5040479375628659854
+end A261789.P18030425379050218331
 
 /-!
 # A261790: Regular triangle read by rows: T(n,k) is the least positive number m such that k*m and k*m*(m+1)/2 are both divisible by n, with 0<=k<=n and T(0,0)=1.

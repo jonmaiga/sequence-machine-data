@@ -93,7 +93,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -484,91 +483,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A186507.P13640511232798514451
-
-/-!
-# A186508: Number of lunar divisors (A087029) of the decimal numbers 1, 10, 11, 100, 101, 110, 111, 1000, ... .
-
-The programs for A186508, there is no canonical definition to state claims against.
--/
-
-/-! ## A186508.P15358057533007905985
-
-`A186951(n+1)+char[43]`
--/
-
-namespace A186508.P15358057533007905985
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  43
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186951 (n + 1) + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A186508.P15358057533007905985
-
-/-! ## A186508.P15792640748535218439
-
-`A186951(A387051(n))`
--/
-
-namespace A186508.P15792640748535218439
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186951 (A387051 n).toNat
-
-end
-
-end A186508.P15792640748535218439
-
-/-! ## A186508.P7174847410255201870
-
-`A186951(A008684(n+1))`
--/
-
-namespace A186508.P7174847410255201870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186951 (A008684 (n + 1)).toNat
-
-end
-
-end A186508.P7174847410255201870
-
-/-! ## A186508.P9815691420050082146
-
-`A186951(A032513(n+1))`
--/
-
-namespace A186508.P9815691420050082146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186951 (A032513 (n + 1)).toNat
-
-end
-
-end A186508.P9815691420050082146
-
-/-! ## A186508.P9100549365937135149
-
-`A186951(A044922(n+1))`
--/
-
-namespace A186508.P9100549365937135149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186951 (A044922 (n + 1)).toNat
-
-end
-
-end A186508.P9100549365937135149
 
 /-!
 # A186510: Number of lunar divisors of the decimal (lunar) number 111...1 (with n 1's).
@@ -1895,6 +1809,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A186518.P2096503779759300333
+
+/-! ## A186518.P6089834199239260699
+
+`A000035(A177517(n+1))`
+-/
+
+namespace A186518.P6089834199239260699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A177517 (n + 1)).toNat
+
+end
+
+end A186518.P6089834199239260699
 
 /-! ## A186518.P5524817419727691281
 

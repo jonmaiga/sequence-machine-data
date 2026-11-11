@@ -6478,29 +6478,6 @@ def P16940068872556382797.Spec : Prop :=
 
 end A001618
 
-/-! ## A001618.P8849217943134040089
-
-`floor(log(A400376(2*n)))`
--/
-
-namespace A001618.P8849217943134040089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.log (A400376 (2 * n) : ℝ)⌋
-
-end
-
-end A001618.P8849217943134040089
-
-namespace A001618
-
-/-- `floor(log(A400376(2*n)))` -/
-def P8849217943134040089.Spec : Prop :=
-  ∀ n, P8849217943134040089.a n = A001618 n
-
-end A001618
-
 /-! ## A001618.P14965582707602491230
 
 `A004220(A114297(n+1))`
@@ -7086,6 +7063,29 @@ def P6113437321359020931.Spec : Prop :=
 
 end A001621
 
+/-! ## A001621.P3578108916791521701
+
+`C(n+1, 2)²+C(n+1, 2)`
+-/
+
+namespace A001621.P3578108916791521701
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 1) 2 ^ 2 + Nat.choose (n + 1) 2
+
+end
+
+end A001621.P3578108916791521701
+
+namespace A001621
+
+/-- `C(n+1, 2)²+C(n+1, 2)` -/
+def P3578108916791521701.Spec : Prop :=
+  ∀ n, (P3578108916791521701.a n : ℤ) = A001621 n
+
+end A001621
+
 /-! ## A001621.P10583537097498249287
 
 `∑[a(n-1)+1]*∑[n]` with `a(0)=1, a(1)=1`
@@ -7196,61 +7196,26 @@ def P7833476061129684140.Spec : Prop :=
 
 end A001621
 
-/-! ## A001621.P12969036007504505938
+/-! ## A001621.P13159149857708770821
 
-`(1-∑[a(n-1)-1])*∑[n]` with `a(0)=0`
+`C(n+1, 2)*(C(n+1, 2)+1)`
 -/
 
-namespace A001621.P12969036007504505938
+namespace A001621.P13159149857708770821
 noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0] fun n f1 =>
-  f1 (n - 1) - 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 - ∑ j ∈ Finset.range (n + 1), f1 j) * ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ)
-
-end
-
-end A001621.P12969036007504505938
-
-namespace A001621
-
-/-- `(1-∑[a(n-1)-1])*∑[n]` -/
-def P12969036007504505938.Spec : Prop :=
-  ∀ n, P12969036007504505938.a n = A001621 n
-
-end A001621
-
-/-! ## A001621.P12172404651273696100
-
-`(∑[n]+gcd(2, 2*n+1))*∑[n]`
--/
-
-namespace A001621.P12172404651273696100
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j + Nat.gcd 2 (2 * n + 1)) * (∑ j ∈ Finset.range (n + 1), f2 j)
+  Nat.choose (n + 1) 2 * (Nat.choose (n + 1) 2 + 1)
 
 end
 
-end A001621.P12172404651273696100
+end A001621.P13159149857708770821
 
 namespace A001621
 
-/-- `(∑[n]+gcd(2, 2*n+1))*∑[n]` -/
-def P12172404651273696100.Spec : Prop :=
-  ∀ n, (P12172404651273696100.a n : ℤ) = A001621 n
+/-- `C(n+1, 2)*(C(n+1, 2)+1)` -/
+def P13159149857708770821.Spec : Prop :=
+  ∀ n, (P13159149857708770821.a n : ℤ) = A001621 n
 
 end A001621
 
@@ -12839,6 +12804,29 @@ def P13429625931103325323.Spec : Prop :=
 
 end A001650
 
+/-! ## A001650.P10933978090074524445
+
+`min(2*ceil(sqrt(n+1))-1, 2*ceil(sqrt(4*(n+1))))`
+-/
+
+namespace A001650.P10933978090074524445
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  min (2 * ⌈Real.sqrt (n + 1 : ℝ)⌉ - 1) (2 * ⌈Real.sqrt (4 * (n + 1) : ℝ)⌉)
+
+end
+
+end A001650.P10933978090074524445
+
+namespace A001650
+
+/-- `min(2*ceil(sqrt(n+1))-1, 2*ceil(sqrt(4*(n+1))))` -/
+def P10933978090074524445.Spec : Prop :=
+  ∀ n, P10933978090074524445.a n = A001650 (n + 1)
+
+end A001650
+
 /-! ## A001650.P16443084379475701013
 
 `∑[A000122(n)]`
@@ -12943,32 +12931,6 @@ namespace A001650
 /-- `A004273(fp[n²])` -/
 def P1043845844102602681.Spec : Prop :=
   ∀ n, P1043845844102602681.a n = A001650 (n + 1)
-
-end A001650
-
-/-! ## A001650.P13359952740400114080
-
-`A060747(fp[n²])`
--/
-
-namespace A001650.P13359952740400114080
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060747 (SequenceMachineLib.nth (fun j => n < f1 j) 0)
-
-end
-
-end A001650.P13359952740400114080
-
-namespace A001650
-
-/-- `A060747(fp[n²])` -/
-def P13359952740400114080.Spec : Prop :=
-  ∀ n, P13359952740400114080.a n = A001650 (n + 1)
 
 end A001650
 

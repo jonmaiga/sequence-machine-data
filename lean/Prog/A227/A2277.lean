@@ -30,7 +30,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -5075,20 +5074,20 @@ end
 
 end A227744.P1891044949397629371
 
-/-! ## A227744.P4623719506183977385
+/-! ## A227744.P843959985735052474
 
-`A227745(2*(n+1)-(n+1))*A227745(n+1)`
+`A227745(n+1)*A227745(n+1)`
 -/
 
-namespace A227744.P4623719506183977385
+namespace A227744.P843959985735052474
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227745 (2 * (n + 1) - (n + 1)) * A227745 (n + 1)
+  A227745 (n + 1) * A227745 (n + 1)
 
 end
 
-end A227744.P4623719506183977385
+end A227744.P843959985735052474
 
 /-! ## A227744.P15332670748969030891
 
@@ -5105,38 +5104,20 @@ end
 
 end A227744.P15332670748969030891
 
-/-! ## A227744.P2427627366357272045
+/-! ## A227744.P5585563846255198838
 
-`∑{d}[A227745(n+1), A000010(#)*A227745(n+1)]`
+`A000290(A227745(n+1))`
 -/
 
-namespace A227744.P2427627366357272045
+namespace A227744.P5585563846255198838
 noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227745 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d * A227745 (n + 1)
+  A000290 (A227745 (n + 1)).toNat
 
 end
 
-end A227744.P2427627366357272045
-
-/-! ## A227744.P7263686789709413851
-
-`A227745(n+1)^A053669(2*n+5)`
--/
-
-namespace A227744.P7263686789709413851
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A227745 (n + 1) : ℚ) ^ (A053669 (2 * n + 5) : ℤ)
-
-end
-
-end A227744.P7263686789709413851
+end A227744.P5585563846255198838
 
 /-! ## A227744.P13590732836935876440
 
@@ -11739,6 +11720,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A227794.P15809029789931117712
+
+/-! ## A227794.P10598302006590823985
+
+`filter[A066643(n+1), A010051(#)]`
+-/
+
+namespace A227794.P10598302006590823985
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066643 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A227794.P10598302006590823985
 
 /-!
 # A227795: For each base, b, beginning with binary, the number of (b-1)-digit primes with one copy of each digit save one.

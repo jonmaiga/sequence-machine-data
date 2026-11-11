@@ -98,6 +98,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -710,27 +711,29 @@ end
 
 end A133504.P6557659447256293828
 
-/-! ## A133504.P18186610240654110921
+/-! ## A133504.P5014889812655228738
 
-`∪[A000079(A087051(n)), A087051(n)]`
+`lt[∑{e}[(2*n)², n-1-#], n+2]`
 -/
 
-namespace A133504.P18186610240654110921
+namespace A133504.P5014889812655228738
 noncomputable section
 
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n) ^ 2
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 (A087051 n).toNat
+  ∑ p ∈ Nat.primeFactors (f2 n), ((n : ℤ) - 1 - (Nat.factorization (f2 n) p : ℤ))
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087051 n
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
 
-open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j < (f3 j : ℤ)) n
 
 end
 
-end A133504.P18186610240654110921
+end A133504.P5014889812655228738
 
 /-!
 # A133505: Numbers where records occur in A133500.

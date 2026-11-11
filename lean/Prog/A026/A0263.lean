@@ -22826,29 +22826,29 @@ def P3218381667277002935.Spec : Prop :=
 
 end A026387
 
-/-! ## A026387.P13140189615251487169
+/-! ## A026387.P16253168220535611471
 
-`∑{#}[n, C(n, #)*C(2*#+1, #)*2]`
+`2*∑{#}[n, C(2*#+1, #)*C(n, #)]`
 -/
 
-namespace A026387.P13140189615251487169
+namespace A026387.P16253168220535611471
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.choose (2 * k + 1) k * 2
+  2 * (∑ k ∈ Finset.range (f1 n + 1), Nat.choose (2 * k + 1) k * Nat.choose n k)
 
 end
 
-end A026387.P13140189615251487169
+end A026387.P16253168220535611471
 
 namespace A026387
 
-/-- `∑{#}[n, C(n, #)*C(2*#+1, #)*2]` -/
-def P13140189615251487169.Spec : Prop :=
-  ∀ n, (P13140189615251487169.a n : ℤ) = A026387 n
+/-- `2*∑{#}[n, C(2*#+1, #)*C(n, #)]` -/
+def P16253168220535611471.Spec : Prop :=
+  ∀ n, (P16253168220535611471.a n : ℤ) = A026387 n
 
 end A026387
 

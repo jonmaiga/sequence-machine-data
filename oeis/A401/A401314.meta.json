@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps for n to reach 1 under the map x -> 3x+1 if x is an even integer, x -> (x-1)/4 if x is an odd integer, x -> 6x+2 if x is half an odd integer.",
+  "id": "A401314",
+  "mentions": [
+    "A006370",
+    "A006577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

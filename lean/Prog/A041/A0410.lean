@@ -76,7 +76,6 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -2390,6 +2389,32 @@ theorem P18331514441097382032.correct : P18331514441097382032.Spec := by
 
 end A041011
 
+/-! ## A041011.P12233871145469159268
+
+`∑{#}[n-ceil(n/2), C(#+ceil(n/2), n-(#+ceil(n/2)))*2^(2*#)]`
+-/
+
+namespace A041011.P12233871145469159268
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ⌈(n : ℚ) / 2⌉
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose ((k : ℤ) + ⌈(n : ℚ) / 2⌉).toNat ((n : ℤ) - ((k : ℤ) + ⌈(n : ℚ) / 2⌉)).toNat * 2 ^ (2 * k)
+
+end
+
+end A041011.P12233871145469159268
+
+namespace A041011
+
+/-- `∑{#}[n-ceil(n/2), C(#+ceil(n/2), n-(#+ceil(n/2)))*2^(2*#)]` -/
+def P12233871145469159268.Spec : Prop :=
+  ∀ n, (P12233871145469159268.a n : ℤ) = A041011 n
+
+end A041011
+
 /-! ## A041011.P17652260095576387180
 
 `A152118(1+n)`
@@ -2784,29 +2809,6 @@ namespace A041011
 /-- `A000129(n+1)/(2-A059841(n))` -/
 def P1427961798638873129.Spec : Prop :=
   ∀ n, P1427961798638873129.a n = (A041011 n : ℚ)
-
-end A041011
-
-/-! ## A041011.P14214919961938015415
-
-`A000129(n+1)/A143025(2*n)`
--/
-
-namespace A041011.P14214919961938015415
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000129 (n + 1) : ℚ) / (A143025 (2 * n) : ℚ)
-
-end
-
-end A041011.P14214919961938015415
-
-namespace A041011
-
-/-- `A000129(n+1)/A143025(2*n)` -/
-def P14214919961938015415.Spec : Prop :=
-  ∀ n, P14214919961938015415.a n = (A041011 n : ℚ)
 
 end A041011
 

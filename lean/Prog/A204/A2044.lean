@@ -43,6 +43,7 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -13302,6 +13303,29 @@ def P2938654979733701916.Spec : Prop :=
 
 end A204467
 
+/-! ## A204467.P5997468288328579926
+
+`xor(A000035(n), A400937(n+1))`
+-/
+
+namespace A204467.P5997468288328579926
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000035 n) (A400937 (n + 1))
+
+end
+
+end A204467.P5997468288328579926
+
+namespace A204467
+
+/-- `xor(A000035(n), A400937(n+1))` -/
+def P5997468288328579926.Spec : Prop :=
+  ∀ n, P5997468288328579926.a n = A204467 n
+
+end A204467
+
 /-! ## A204467.P244041990692439078
 
 `sqrt(A212893(3*n))`
@@ -13532,32 +13556,6 @@ namespace A204467
 /-- `∑{#}[3*n, or(1, #)]` -/
 def P9002119624833593770.Spec : Prop :=
   ∀ n, (P9002119624833593770.a n : ℤ) = A204467 n
-
-end A204467
-
-/-! ## A204467.P10868861856816412654
-
-`fp[floor(sqrt(2*n))/3]`
--/
-
-namespace A204467.P10868861856816412654
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.sqrt (2 * n) : ℚ) / 3
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℚ) < f1 j) 0
-
-end
-
-end A204467.P10868861856816412654
-
-namespace A204467
-
-/-- `fp[floor(sqrt(2*n))/3]` -/
-def P10868861856816412654.Spec : Prop :=
-  ∀ n, (P10868861856816412654.a n : ℤ) = A204467 n
 
 end A204467
 

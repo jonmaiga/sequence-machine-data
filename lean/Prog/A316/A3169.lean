@@ -6113,6 +6113,36 @@ end
 
 end A316967.P5398052070968115313
 
+/-! ## A316967.P3080992286856877557
+
+`and(A158525(n+4), A316884(n+1))`
+-/
+
+namespace A316967.P3080992286856877557
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A158525 (n + 4)) (A316884 (n + 1))
+
+end
+
+end A316967.P3080992286856877557
+
+/-! ## A316967.P16839152083308243450
+
+`and(A002446(n), A316884(n+1))`
+-/
+
+namespace A316967.P16839152083308243450
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A002446 n) (A316884 (n + 1))
+
+end
+
+end A316967.P16839152083308243450
+
 /-!
 # A316969: Primes p such that p^2 contains all of the square digits {0, 1, 4, 9} only.
 
@@ -6172,6 +6202,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A316971.P6086131671995345070
+
+/-! ## A316971.P1074982457853207107
+
+`A390522(A401362(n+2))`
+-/
+
+namespace A316971.P1074982457853207107
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390522 (A401362 (n + 2)).toNat
+
+end
+
+end A316971.P1074982457853207107
 
 /-!
 # A316972: Number of connected multiset partitions of {1, 1, 2, 2, 3, 3, ..., n, n}.

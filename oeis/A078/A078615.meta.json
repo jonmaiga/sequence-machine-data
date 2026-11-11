@@ -2,6 +2,7 @@
   "description": "a(n) = rad(n)^2, where rad is the squarefree kernel of n (A007947).",
   "id": "A078615",
   "mentions": [
+    "A001157",
     "A001221",
     "A002117",
     "A007434",

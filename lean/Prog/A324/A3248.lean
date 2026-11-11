@@ -27,7 +27,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C038
@@ -12301,14 +12300,14 @@ end A324889.P5059185506756869597
 /-!
 # A324890: a(1) = 0, and for n > 1, a(n) = A276150(n) + a(A064989(n)).
 
-The programs for A324890, the canonical program `A324890.P15802554012257678327` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324890 has offset 1).
+The programs for A324890, the canonical program `A324890.P1867497387709588406` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324890 has offset 1).
 
 The definition of A324890 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064989, A276150, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A324890.P15802554012257678327
+/-! ## A324890.P1867497387709588406
 
-`A276150(n+1)+a(A064989(n+1)-1)` with `a(0)=0`
+`A276150(n+1)+a(A064989(n+1)-1)` with `a(0)=0, a(1)=1`
 
 The canonical program, it is in `Seq.B009.C000`.
 -/
@@ -12316,10 +12315,10 @@ The canonical program, it is in `Seq.B009.C000`.
 namespace A324890
 
 /-- `A276150(n+1)+a(A064989(n+1)-1)` -/
-def P15802554012257678327.Spec : Prop :=
-  ∀ n, P15802554012257678327.a n = A324890 (n + 1)
+def P1867497387709588406.Spec : Prop :=
+  ∀ n, P1867497387709588406.a n = A324890 (n + 1)
 
-theorem P15802554012257678327.correct : P15802554012257678327.Spec := by
+theorem P1867497387709588406.correct : P1867497387709588406.Spec := by
   intro n
   simp only [A324890, Nat.add_sub_cancel]
 

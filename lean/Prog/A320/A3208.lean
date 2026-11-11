@@ -16,7 +16,6 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -39,7 +38,6 @@ import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -100,6 +98,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -327,20 +326,20 @@ end
 
 end A320803.P7662896342060127145
 
-/-! ## A320803.P445550566178093773
+/-! ## A320803.P4032900327638773264
 
-`A071716(n)+A071692(A001192(n))`
+`A401479(A036719(n+1))`
 -/
 
-namespace A320803.P445550566178093773
+namespace A320803.P4032900327638773264
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071716 n + A071692 (A001192 n).toNat
+  A401479 (A036719 (n + 1)).toNat
 
 end
 
-end A320803.P445550566178093773
+end A320803.P4032900327638773264
 
 /-!
 # A320804: Number of non-isomorphic multiset partitions of weight n with no singletons in which all parts are aperiodic multisets.

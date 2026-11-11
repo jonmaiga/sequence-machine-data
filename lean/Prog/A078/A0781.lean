@@ -28,9 +28,9 @@ import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
@@ -1350,6 +1350,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A078113.P1795525025237168478
+
+/-! ## A078113.P1016205658884898569
+
+`A246347(n+3)-2`
+-/
+
+namespace A078113.P1016205658884898569
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246347 (n + 3) - 2
+
+end
+
+end A078113.P1016205658884898569
 
 /-!
 # A078116: Primes of the form x^2 + 2y^2 where y<=x. Terms are listed in increasing order of x; for fixed x they're in increasing order of y.

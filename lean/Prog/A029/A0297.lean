@@ -12250,6 +12250,32 @@ def P8742755962997212717.Spec : Prop :=
 
 end A029760
 
+/-! ## A029760.P7794735310162781516
+
+`∑{#}[n+1, C(2*(n+1)+2, #)*(n+1-#)]`
+-/
+
+namespace A029760.P7794735310162781516
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (2 * (n + 1) + 2) k : ℤ) * ((n + 1 : ℤ) - (k : ℤ))
+
+end
+
+end A029760.P7794735310162781516
+
+namespace A029760
+
+/-- `∑{#}[n+1, C(2*(n+1)+2, #)*(n+1-#)]` -/
+def P7794735310162781516.Spec : Prop :=
+  ∀ n, P7794735310162781516.a n = A029760 n
+
+end A029760
+
 /-!
 # A029761: Partial sums of A005001.
 
@@ -13065,6 +13091,32 @@ def P14757014070786632416.Spec : Prop :=
 
 end A029767
 
+/-! ## A029767.P10320816569447074720
+
+`∑{#}[n-1, n!/(n-#)!*(n-1)!/#!]`
+-/
+
+namespace A029767.P10320816569447074720
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial n : ℚ) / (Nat.factorial ((n : ℤ) - (k : ℤ)).toNat : ℚ) * ((Nat.factorial ((n : ℤ) - 1).toNat : ℚ) / (Nat.factorial k : ℚ))
+
+end
+
+end A029767.P10320816569447074720
+
+namespace A029767
+
+/-- `∑{#}[n-1, n!/(n-#)!*(n-1)!/#!]` -/
+def P10320816569447074720.Spec : Prop :=
+  ∀ n, P10320816569447074720.a n = (A029767 n : ℚ)
+
+end A029767
+
 /-! ## A029767.P6694511926690707905
 
 `A131222(∑[n]+1)`
@@ -13157,29 +13209,6 @@ namespace A029767
 /-- `(2^n-1)*A104150(n)` -/
 def P4562964070888085055.Spec : Prop :=
   ∀ n, P4562964070888085055.a n = A029767 n
-
-end A029767
-
-/-! ## A029767.P9914538751197547087
-
-`abs(1-n)!*A000225(n)`
--/
-
-namespace A029767.P9914538751197547087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial |1 - (n : ℤ)|.toNat : ℤ) * A000225 n
-
-end
-
-end A029767.P9914538751197547087
-
-namespace A029767
-
-/-- `abs(1-n)!*A000225(n)` -/
-def P9914538751197547087.Spec : Prop :=
-  ∀ n, P9914538751197547087.a n = A029767 n
 
 end A029767
 
@@ -14426,6 +14455,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A029780.P6982206514709994851
+
+/-! ## A029780.P13951232156373068481
+
+`A056926(A029781(n+1))`
+-/
+
+namespace A029780.P13951232156373068481
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A029781 (n + 1)).toNat
+
+end
+
+end A029780.P13951232156373068481
 
 /-!
 # A029781: Squares such that digits of sqrt(n) appear in both n and n^(3/2).
@@ -15861,6 +15905,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A029791.P16800175145534622467
+
+/-! ## A029791.P3227127061237363458
+
+`A029792(n+1)/A029790(n+1)`
+-/
+
+namespace A029791.P3227127061237363458
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A029792 (n + 1) : ℚ) / (A029790 (n + 1) : ℚ)
+
+end
+
+end A029791.P3227127061237363458
 
 /-!
 # A029792: Cubes k such that digits of cube root of k are not present in k^(2/3) or k.

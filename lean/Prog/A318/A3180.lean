@@ -2234,6 +2234,21 @@ end
 
 end A318029.P18405981193519731412
 
+/-! ## A318029.P5463547607580847508
+
+`A025147(n)-A060576(n)`
+-/
+
+namespace A318029.P5463547607580847508
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025147 n - A060576 n
+
+end
+
+end A318029.P5463547607580847508
+
 /-! ## A318029.P4059305894726256290
 
 `A063524(n)+A025147(n)-1`
@@ -2331,21 +2346,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318029.P7949541372952414183
-
-/-! ## A318029.P3397759163488188807
-
-`A028310(A096765(n+1))-1`
--/
-
-namespace A318029.P3397759163488188807
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A096765 (n + 1)).toNat - 1
-
-end
-
-end A318029.P3397759163488188807
 
 /-!
 # A318030: Number of nXn 0..1 arrays with every element unequal to 0, 1, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.

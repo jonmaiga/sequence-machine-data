@@ -30,6 +30,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -4096,21 +4097,6 @@ end A098541.P362736312642734957
 
 The programs for A098542, there is no canonical definition to state claims against.
 -/
-
-/-! ## A098542.P6914028303092144705
-
-`A137264(A174546(n))*A331278(n)`
--/
-
-namespace A098542.P6914028303092144705
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137264 (A174546 n).toNat * A331278 n
-
-end
-
-end A098542.P6914028303092144705
 
 /-! ## A098542.P15088730306621159488
 

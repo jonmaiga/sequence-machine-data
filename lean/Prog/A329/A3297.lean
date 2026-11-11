@@ -2442,7 +2442,7 @@ end A329727.P6137461483490377547
 /-!
 # A329728: Partial sums of A092261.
 
-The programs for A329728, the canonical program `A329728.P16334695943169972259` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329728 has offset 1).
+The programs for A329728, the canonical program `A329728.P16334695943169972259` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329728 has offset 1).
 
 The definition of A329728 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2561,7 +2561,7 @@ end A329728
 
 `∑[∑{d}[(n+1)/A057521(n+1), #]]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A329728
@@ -6837,24 +6837,6 @@ end A329777.P4739842319879740368
 
 The programs for A329778, there is no canonical definition to state claims against.
 -/
-
-/-! ## A329778.P15354867003181358701
-
-`∑[A075124(A032803(n))]`
--/
-
-namespace A329778.P15354867003181358701
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075124 (A032803 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A329778.P15354867003181358701
 
 /-! ## A329778.P5554729086315894910
 

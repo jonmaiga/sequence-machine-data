@@ -2,6 +2,7 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A068068, number of odd unitary divisors of n.",
   "id": "A318313",
   "mentions": [
+    "A001790",
     "A068068",
     "A317937",
     "A318314",

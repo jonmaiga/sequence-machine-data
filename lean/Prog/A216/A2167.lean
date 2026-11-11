@@ -20,6 +20,7 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -51,6 +52,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -3520,6 +3522,50 @@ end
 
 end A216740.P4000549260710293012
 
+/-! ## A216740.P5629199711172357918
+
+`∪[A059262(n+1), A216734(n+1)]`
+-/
+
+namespace A216740.P5629199711172357918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059262 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216734 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216740.P5629199711172357918
+
+/-! ## A216740.P9764814616515260687
+
+`∪[A070180(n+1), A216734(n+1)]`
+-/
+
+namespace A216740.P9764814616515260687
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216734 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216740.P9764814616515260687
+
 /-! ## A216740.P1489392333569718670
 
 `or(A000007(A025885(2*(n+1))), A216772(n+1))`
@@ -3774,21 +3820,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216740.P13363698292775562398
-
-/-! ## A216740.P6119163136603779232
-
-`and(A206372(n), A216772(n+1))`
--/
-
-namespace A216740.P6119163136603779232
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A206372 n) (A216772 (n + 1))
-
-end
-
-end A216740.P6119163136603779232
 
 /-!
 # A216741: Primes p such that x^20 = -2 has no solution mod p.

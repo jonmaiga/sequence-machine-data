@@ -1424,21 +1424,6 @@ end A308109
 The programs for A308110, there is no canonical definition to state claims against.
 -/
 
-/-! ## A308110.P3284282451030577266
-
-`A029804(A143573(n))+n`
--/
-
-namespace A308110.P3284282451030577266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029804 (A143573 n).toNat + (n : ℤ)
-
-end
-
-end A308110.P3284282451030577266
-
 /-! ## A308110.P712417603477224687
 
 `A337085(A168291(n+1))+n`

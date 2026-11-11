@@ -8790,21 +8790,6 @@ end
 
 end A175365.P10112934738008817352
 
-/-! ## A175365.P17938841870843744465
-
-`A175375(A047476(n+1)%A175385(n+1))`
--/
-
-namespace A175365.P17938841870843744465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175375 (Int.tmod (A047476 (n + 1)) (A175385 (n + 1))).toNat
-
-end
-
-end A175365.P17938841870843744465
-
 /-! ## A175365.P4328458601244098758
 
 `A175375(A047476(n+1))%A338932(n+3)`
@@ -10748,26 +10733,29 @@ end A175384.P3976659813011370392
 /-!
 # A175385: a(n) = numerator of Sum_{i=1..n} binomial(2n-i-1,i-1)/i.
 
-The programs for A175385, there is no canonical definition to state claims against.
+The programs for A175385, the canonical program `A175385.P11664874399565557340` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175385 has offset 1).
+
+The definition of A175385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A175385.P11664874399565557340
 
 `A189731(Δ[n²])`
+
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
-namespace A175385.P11664874399565557340
-noncomputable section
+namespace A175385
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
+/-- `A189731(Δ[n²])` -/
+def P11664874399565557340.Spec : Prop :=
+  ∀ n, P11664874399565557340.a n = A175385 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189731 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+theorem P11664874399565557340.correct : P11664874399565557340.Spec := by
+  intro n
+  simp only [A175385, Nat.add_sub_cancel]
 
-end
-
-end A175385.P11664874399565557340
+end A175385
 
 /-! ## A175385.P11333143511419092322
 
@@ -10787,41 +10775,13 @@ end
 
 end A175385.P11333143511419092322
 
-/-! ## A175385.P8814447700659548491
+namespace A175385
 
-`record[A189731(n^(n%2))]`
--/
+/-- `or(1, A189731(record[xor(1, n)]))` -/
+def P11333143511419092322.Spec : Prop :=
+  ∀ n, P11333143511419092322.a n = A175385 (n + 1)
 
-namespace A175385.P8814447700659548491
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189731 (n ^ (n % 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A175385.P8814447700659548491
-
-/-! ## A175385.P15009999148670112415
-
-`record[A189731(n^and(1, n))]`
--/
-
-namespace A175385.P15009999148670112415
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189731 (n ^ Nat.land 1 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A175385.P15009999148670112415
+end A175385
 
 /-! ## A175385.P18278640682058518523
 
@@ -10837,6 +10797,60 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A175385.P18278640682058518523
+
+namespace A175385
+
+/-- `or(1, A189731(2*n+1))` -/
+def P18278640682058518523.Spec : Prop :=
+  ∀ n, P18278640682058518523.a n = A175385 (n + 1)
+
+end A175385
+
+/-! ## A175385.P7607419368670742134
+
+`A326690(2*A189731(2*n+1))`
+-/
+
+namespace A175385.P7607419368670742134
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326690 (2 * A189731 (2 * n + 1)).toNat
+
+end
+
+end A175385.P7607419368670742134
+
+namespace A175385
+
+/-- `A326690(2*A189731(2*n+1))` -/
+def P7607419368670742134.Spec : Prop :=
+  ∀ n, P7607419368670742134.a n = A175385 (n + 1)
+
+end A175385
+
+/-! ## A175385.P5167769440965752641
+
+`A098985(A005592(n+1))`
+-/
+
+namespace A175385.P5167769440965752641
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098985 (A005592 (n + 1)).toNat
+
+end
+
+end A175385.P5167769440965752641
+
+namespace A175385
+
+/-- `A098985(A005592(n+1))` -/
+def P5167769440965752641.Spec : Prop :=
+  ∀ n, P5167769440965752641.a n = A175385 (n + 1)
+
+end A175385
 
 /-!
 # A175386: a(n) = denominator of Sum_{i=1..n} (1/i)*C(2n-i-1,i-1).

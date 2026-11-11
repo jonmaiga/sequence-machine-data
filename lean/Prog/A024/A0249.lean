@@ -3180,49 +3180,26 @@ def P12706519783781989342.Spec : Prop :=
 
 end A024906
 
-/-! ## A024906.P6653865639411015049
+/-! ## A024906.P4917399978125486552
 
-`A111094(A000027(n+1))+A111094(n+1)`
+`A111094(n+1)+A111094(n+1)`
 -/
 
-namespace A024906.P6653865639411015049
+namespace A024906.P4917399978125486552
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111094 (A000027 (n + 1)).toNat + A111094 (n + 1)
+  A111094 (n + 1) + A111094 (n + 1)
 
 end
 
-end A024906.P6653865639411015049
+end A024906.P4917399978125486552
 
 namespace A024906
 
-/-- `A111094(A000027(n+1))+A111094(n+1)` -/
-def P6653865639411015049.Spec : Prop :=
-  ∀ n, P6653865639411015049.a n = A024906 (n + 1)
-
-end A024906
-
-/-! ## A024906.P16713642691170848588
-
-`A111094(n+1)+A111094(A023443(n+2))`
--/
-
-namespace A024906.P16713642691170848588
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111094 (n + 1) + A111094 (A023443 (n + 2)).toNat
-
-end
-
-end A024906.P16713642691170848588
-
-namespace A024906
-
-/-- `A111094(n+1)+A111094(A023443(n+2))` -/
-def P16713642691170848588.Spec : Prop :=
-  ∀ n, P16713642691170848588.a n = A024906 (n + 1)
+/-- `A111094(n+1)+A111094(n+1)` -/
+def P4917399978125486552.Spec : Prop :=
+  ∀ n, P4917399978125486552.a n = A024906 (n + 1)
 
 end A024906
 
@@ -14574,6 +14551,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A024964.P3984787832073324643
+
+/-! ## A024964.P17753044065196322059
+
+`A024744(A061497(n+2))`
+-/
+
+namespace A024964.P17753044065196322059
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024744 (A061497 (n + 2)).toNat
+
+end
+
+end A024964.P17753044065196322059
+
+/-! ## A024964.P325051677727254502
+
+`A024744(A074156(n+2))`
+-/
+
+namespace A024964.P325051677727254502
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024744 (A074156 (n + 2)).toNat
+
+end
+
+end A024964.P325051677727254502
 
 /-!
 # A024965: a(n) = Sum(a(2i-1)*a(n-2i+1), i = 1,2,...,[ (n+2)/4 ]).

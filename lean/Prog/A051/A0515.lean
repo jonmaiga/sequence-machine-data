@@ -8464,6 +8464,27 @@ end
 end A051567.P2413070233545248047
 
 /-!
+# A051568: Let M(n) (A051755) be the maximal number of queens that can be placed on an n X n chessboard so that each queen attacks exactly two other queens; a(n) is the number of non-equivalent solutions. "Non-equivalent" means none of the a(n) solutions can be mapped onto any other solution by board rotations through 90, 180 or 270 degrees or mirror operations along the two diagonals or center lines.
+
+The programs for A051568, there is no canonical definition to state claims against.
+-/
+
+/-! ## A051568.P10072476015571861780
+
+`A051758(n+3)`
+-/
+
+namespace A051568.P10072476015571861780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051758 (n + 3)
+
+end
+
+end A051568.P10072476015571861780
+
+/-!
 # A051569: Consider the problem of placing N = A051756(n) queens on an n X n board so that each queen attacks precisely 3 others; a(n) gives the number of inequivalent solutions.
 
 The programs for A051569, there is no canonical definition to state claims against.
@@ -8484,21 +8505,6 @@ end
 
 end A051569.P12342338004190174892
 
-/-! ## A051569.P16871973345252525425
-
-`and(-A022167(n), A051759(n+2))`
--/
-
-namespace A051569.P16871973345252525425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-A022167 n) (A051759 (n + 2))
-
-end
-
-end A051569.P16871973345252525425
-
 /-! ## A051569.P2274283735778642461
 
 `and(-A146767(n), A051759(n+2))`
@@ -8514,26 +8520,26 @@ end
 
 end A051569.P2274283735778642461
 
-/-! ## A051569.P12289942606988485699
-
-`and(-A336811(n+1), A051759(n+2))`
--/
-
-namespace A051569.P12289942606988485699
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-A336811 (n + 1)) (A051759 (n + 2))
-
-end
-
-end A051569.P12289942606988485699
-
 /-!
 # A051570: Consider the problem of placing N queens on an n X n board so that each queen attacks precisely k others. Here k=3 and sequence gives number of different solutions when N takes its maximal value.
 
 The programs for A051570, there is no canonical definition to state claims against.
 -/
+
+/-! ## A051570.P16757369105923029677
+
+`A051759(n+3)`
+-/
+
+namespace A051570.P16757369105923029677
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051759 (n + 3)
+
+end
+
+end A051570.P16757369105923029677
 
 /-! ## A051570.P4278757851852267074
 
@@ -8579,21 +8585,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A051570.P8194470849294213314
-
-/-! ## A051570.P2591785862671617250
-
-`A051569(n+3)+A005069(A046927(3*(n+1)))`
--/
-
-namespace A051570.P2591785862671617250
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051569 (n + 3) + A005069 (A046927 (3 * (n + 1))).toNat
-
-end
-
-end A051570.P2591785862671617250
 
 /-!
 # A051571: Consider problem of placing N queens on an n X n board so that each queen attacks precisely k others. Here k=4 and sequence gives number of inequivalent solutions when N = 3*n-3.
@@ -9702,26 +9693,26 @@ def P3568805850523302579.Spec : Prop :=
 
 end A051578
 
-/-! ## A051578.P4421394138257440033
+/-! ## A051578.P3008698278948437948
 
-`(n+2)!/2*2^n`
+`2^n*(n+2)!/2`
 -/
 
-namespace A051578.P4421394138257440033
+namespace A051578.P3008698278948437948
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 2) : ℚ) / 2 * (2 ^ n : ℚ)
+  (2 ^ n : ℚ) * ((Nat.factorial (n + 2) : ℚ) / 2)
 
 end
 
-end A051578.P4421394138257440033
+end A051578.P3008698278948437948
 
 namespace A051578
 
-/-- `(n+2)!/2*2^n` -/
-def P4421394138257440033.Spec : Prop :=
-  ∀ n, P4421394138257440033.a n = (A051578 n : ℚ)
+/-- `2^n*(n+2)!/2` -/
+def P3008698278948437948.Spec : Prop :=
+  ∀ n, P3008698278948437948.a n = (A051578 n : ℚ)
 
 end A051578
 

@@ -1,0 +1,14 @@
+{
+  "description": "Maximum size of a subset S of {1, ..., n} such that every integer m has at most two representations m = x + y with x <= y and x, y in S.",
+  "id": "A399962",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

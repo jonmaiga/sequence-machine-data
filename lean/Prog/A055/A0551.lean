@@ -20,7 +20,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
@@ -53,6 +52,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -1608,30 +1608,30 @@ def P5863311470735780438.Spec : Prop :=
 
 end A055112
 
-/-! ## A055112.P2854157269986011931
+/-! ## A055112.P17049748610227934380
 
-`n*C(2*(n+1), 2)`
+`C(2*(n+1), 2)*n`
 -/
 
-namespace A055112.P2854157269986011931
+namespace A055112.P17049748610227934380
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * Nat.choose (2 * (n + 1)) 2
+  Nat.choose (2 * (n + 1)) 2 * n
 
 end
 
-end A055112.P2854157269986011931
+end A055112.P17049748610227934380
 
 namespace A055112
 
-/-- `n*C(2*(n+1), 2)` -/
-def P2854157269986011931.Spec : Prop :=
-  ∀ n, (P2854157269986011931.a n : ℤ) = A055112 n
+/-- `C(2*(n+1), 2)*n` -/
+def P17049748610227934380.Spec : Prop :=
+  ∀ n, (P17049748610227934380.a n : ℤ) = A055112 n
 
-theorem P2854157269986011931.correct : P2854157269986011931.Spec := by
+theorem P17049748610227934380.correct : P17049748610227934380.Spec := by
   intro n
-  simp only [A055112, Nat.add_sub_cancel, A055112.P2854157269986011931.a, A055112.P15553195109781773626.a, SequenceMachineLib.memo_apply]
+  simp only [A055112, Nat.add_sub_cancel, A055112.P17049748610227934380.a, A055112.P15553195109781773626.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -10509,6 +10509,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A055186.P16580987528381780196
+
+/-! ## A055186.P4495723899557919030
+
+`and(A141311(n+1), A217760(n+1))`
+-/
+
+namespace A055186.P4495723899557919030
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A141311 (n + 1)) (A217760 (n + 1))
+
+end
+
+end A055186.P4495723899557919030
 
 /-!
 # A055187: Cumulative counting sequence: method A (adjective-before-noun)-pairs with first term 1.

@@ -32,7 +32,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C048
@@ -2331,26 +2331,26 @@ def P6826557079226808275.Spec : Prop :=
 
 end A263426
 
-/-! ## A263426.P14091659460401933452
+/-! ## A263426.P5670427106130981184
 
-`n+2*cos(π*n/2)`
+`2*cos(n*π/2)+n`
 -/
 
-namespace A263426.P14091659460401933452
+namespace A263426.P5670427106130981184
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (n : ℝ) + 2 * Real.cos (Real.pi * (n : ℝ) / 2)
+  2 * Real.cos ((n : ℝ) * Real.pi / 2) + (n : ℝ)
 
 end
 
-end A263426.P14091659460401933452
+end A263426.P5670427106130981184
 
 namespace A263426
 
-/-- `n+2*cos(π*n/2)` -/
-def P14091659460401933452.Spec : Prop :=
-  ∀ n, P14091659460401933452.a n = (A263426 n : ℝ)
+/-- `2*cos(n*π/2)+n` -/
+def P5670427106130981184.Spec : Prop :=
+  ∀ n, P5670427106130981184.a n = (A263426 n : ℝ)
 
 end A263426
 

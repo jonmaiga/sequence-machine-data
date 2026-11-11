@@ -994,19 +994,19 @@ end
 
 end A227510.P9564877343197589101
 
-/-! ## A227510.P1929763218157091190
+/-! ## A227510.P8374162843124604782
 
-`∩[A090274(n+1), A371123(n+1)]`
+`∩[A092629(n+1), A254621(n+1)]`
 -/
 
-namespace A227510.P1929763218157091190
+namespace A227510.P8374162843124604782
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090274 (n + 1)
+  A092629 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371123 (n + 1)
+  A254621 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1014,7 +1014,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A227510.P1929763218157091190
+end A227510.P8374162843124604782
 
 /-!
 # A227512: Floor(-1/n + 1/log((2n+1)/(2n-1))).
@@ -8577,6 +8577,36 @@ end
 
 end A227590.P17665589038888548519
 
+/-! ## A227590.P12481602719958331192
+
+`A232234(n+1)/2+1`
+-/
+
+namespace A227590.P12481602719958331192
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A232234 (n + 1) : ℚ) / 2 + 1
+
+end
+
+end A227590.P12481602719958331192
+
+/-! ## A227590.P2388950128870913814
+
+`A008619(A232234(n+1))`
+-/
+
+namespace A227590.P2388950128870913814
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (A232234 (n + 1)).toNat
+
+end
+
+end A227590.P2388950128870913814
+
 /-! ## A227590.P1703428459661158034
 
 `record[A106683(A038722(n+1))+1]`
@@ -8594,42 +8624,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A227590.P1703428459661158034
-
-/-! ## A227590.P3777437942120507393
-
-`record[A106683(n+1)-A144432(n+1)]`
--/
-
-namespace A227590.P3777437942120507393
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106683 (n + 1) - A144432 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A227590.P3777437942120507393
-
-/-! ## A227590.P16641669568738256177
-
-`record[A106683(n+1)/A081578(n)+1]`
--/
-
-namespace A227590.P16641669568738256177
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A106683 (n + 1) : ℚ) / (A081578 n : ℚ) + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A227590.P16641669568738256177
 
 /-!
 # A227591: Number of nX3 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X4 binary array having nonzero determinant.

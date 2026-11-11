@@ -1,0 +1,22 @@
+{
+  "description": "Survivor in the Josephus problem with golden-ratio steps: n people stand in a circle, counting starts at person 1, and the i-th person eliminated is the A282162(i)-th person counted (steps 3,2,3,3,2,3,2,3,3,2,..., the Fibonacci word with 0 -> 3, 1 -> 2).",
+  "id": "A398143",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A001950",
+    "A006257",
+    "A087172",
+    "A282162"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

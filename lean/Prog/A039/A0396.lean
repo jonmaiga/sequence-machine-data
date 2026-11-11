@@ -10914,6 +10914,21 @@ end
 
 end A039686.P14069824571731228294
 
+/-! ## A039686.P17902845324117306016
+
+`A000290(A048375(A000290(n+1)/(n+1)))`
+-/
+
+namespace A039686.P17902845324117306016
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A048375 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+
+end
+
+end A039686.P17902845324117306016
+
 /-!
 # A039687: Primes of the form 3*2^k + 1.
 
@@ -14828,6 +14843,24 @@ end
 
 end A039699.P15072767222000927279
 
+/-! ## A039699.P9537715339772006334
+
+`C(2*n, n)*∑{#}[n, C(n, #)²*C(2*#, #)*C(2*n-2*#, n-#)]`
+-/
+
+namespace A039699.P9537715339772006334
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n * (∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 * Nat.choose (2 * k) k * Nat.choose ((2 * n : ℤ) - (2 * k : ℤ)).toNat ((n : ℤ) - (k : ℤ)).toNat)
+
+end
+
+end A039699.P9537715339772006334
+
 /-! ## A039699.P15730041263390451742
 
 `A000984(n)*A002895(n)`
@@ -14959,19 +14992,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039699.P2705520596584493551
-
-/-! ## A039699.P9753430314064720427
-
-`A002895(n)*A126869(2*n)`
--/
-
-namespace A039699.P9753430314064720427
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002895 n * A126869 (2 * n)
-
-end
-
-end A039699.P9753430314064720427
 

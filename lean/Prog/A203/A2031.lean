@@ -2860,6 +2860,24 @@ end A203158.P12696790353522609406
 The programs for A203159, there is no canonical definition to state claims against.
 -/
 
+/-! ## A203159.P8480485987548111901
+
+`2^n*∑{#}[n, (n+1)!/(#+1)]`
+-/
+
+namespace A203159.P8480485987548111901
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (n + 1) : ℚ) / (k + 1 : ℚ))
+
+end
+
+end A203159.P8480485987548111901
+
 /-! ## A203159.P18384004126785330923
 
 `2^n*Δ[A097422(n)]`
@@ -3015,21 +3033,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203159.P6630788311681322179
-
-/-! ## A203159.P18038182058491947400
-
-`A000254(n+1)*A048675(A000040(n+1))`
--/
-
-namespace A203159.P18038182058491947400
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000254 (n + 1) * A048675 (A000040 (n + 1)).toNat
-
-end
-
-end A203159.P18038182058491947400
 
 /-!
 # A203160: (n-1)-st elementary symmetric function of the first n terms of (2,3,1,2,3,1,2,3,1,...)=A010882.

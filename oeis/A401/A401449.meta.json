@@ -1,0 +1,16 @@
+{
+  "description": "Non-repdigit positive integers whose proper decimal prefixes and proper decimal suffixes have equal sums.",
+  "id": "A401449",
+  "mentions": [
+    "A010785"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

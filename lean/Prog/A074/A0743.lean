@@ -38,6 +38,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
@@ -6087,6 +6088,32 @@ theorem P13328270109023862562.correct : P13328270109023862562.Spec := by
 
 end A074334
 
+/-! ## A074334.P2935340049957697539
+
+`∑{#}[n, C(n, #)²*#^4]`
+-/
+
+namespace A074334.P2935340049957697539
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 * k ^ 4
+
+end
+
+end A074334.P2935340049957697539
+
+namespace A074334
+
+/-- `∑{#}[n, C(n, #)²*#^4]` -/
+def P2935340049957697539.Spec : Prop :=
+  ∀ n, (P2935340049957697539.a n : ℤ) = A074334 n
+
+end A074334
+
 /-!
 # A074335: In music, with 0 = C natural, 1 = C#, etc.: The unfolding of a semitonal interval cycle, alternating the ascending and descending aspects of the cycle from a common point or axis of symmetry. Any regularly occurring alignment may be used, with predictable even or odd results.
 
@@ -10308,7 +10335,7 @@ def P1184478023098719024.Spec : Prop :=
 
 theorem P1184478023098719024.correct : P1184478023098719024.Spec := by
   intro n
-  simp only [A074373, Nat.add_sub_cancel, A074373.P1184478023098719024.a, A074373.P3467722491980429131.f1, A074373.P3467722491980429131.a, A100006, A100006.P10301543697715186993.f1, A100006.P10301543697715186993.a, SequenceMachineLib.memo_apply]
+  simp only [A074373, Nat.add_sub_cancel, A074373.P1184478023098719024.a, A074373.P3467722491980429131.f1, A074373.P3467722491980429131.a, A100006, A100006.P11597658631363148966.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -10456,6 +10483,29 @@ theorem P9549704973913842081.correct : P9549704973913842081.Spec := by
   simp only [A074373, Nat.add_sub_cancel, A074373.P9549704973913842081.f1, A074373.P9549704973913842081.a, A074373.P3467722491980429131.f1, A074373.P3467722491980429131.a, A280292, A280292.P17147228295463227534.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
+
+end A074373
+
+/-! ## A074373.P15138932504176399900
+
+`A000290(A001414(n+1))`
+-/
+
+namespace A074373.P15138932504176399900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A001414 (n + 1)).toNat
+
+end
+
+end A074373.P15138932504176399900
+
+namespace A074373
+
+/-- `A000290(A001414(n+1))` -/
+def P15138932504176399900.Spec : Prop :=
+  ∀ n, P15138932504176399900.a n = A074373 (n + 1)
 
 end A074373
 
@@ -10626,29 +10676,6 @@ theorem P6680635340763280893.correct : P6680635340763280893.Spec := by
   simp only [A074373, Nat.add_sub_cancel, A074373.P6680635340763280893.a, A074373.P3467722491980429131.f1, A074373.P3467722491980429131.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A280292, A280292.P17147228295463227534.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A074373
-
-/-! ## A074373.P1679493309576833187
-
-`A001414(n+1)*A001414(A354547(n+1))`
--/
-
-namespace A074373.P1679493309576833187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001414 (n + 1) * A001414 (A354547 (n + 1)).toNat
-
-end
-
-end A074373.P1679493309576833187
-
-namespace A074373
-
-/-- `A001414(n+1)*A001414(A354547(n+1))` -/
-def P1679493309576833187.Spec : Prop :=
-  ∀ n, P1679493309576833187.a n = A074373 (n + 1)
 
 end A074373
 

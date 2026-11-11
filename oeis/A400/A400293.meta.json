@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that there are n-1 smaller primes for which the reciprocals 1/p have the same period length in base 10.",
+  "id": "A400293",
+  "mentions": [
+    "A002329",
+    "A084680",
+    "A400291",
+    "A400292"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

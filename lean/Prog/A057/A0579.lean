@@ -4726,6 +4726,29 @@ def P6473803146235398684.Spec : Prop :=
 
 end A057932
 
+/-! ## A057932.P11058135464288455878
+
+`(10^(n+1)-(9*n+10)%81)/81`
+-/
+
+namespace A057932.P11058135464288455878
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((10 ^ (n + 1) : ℤ) - (((9 * n + 10) % 81 : ℕ) : ℤ) : ℚ) / 81
+
+end
+
+end A057932.P11058135464288455878
+
+namespace A057932
+
+/-- `(10^(n+1)-(9*n+10)%81)/81` -/
+def P11058135464288455878.Spec : Prop :=
+  ∀ n, P11058135464288455878.a n = (A057932 n : ℚ)
+
+end A057932
+
 /-! ## A057932.P16789692040148752216
 
 `record[floor(A287468(n)/9)]`
@@ -11259,26 +11282,26 @@ def P12053974800049470088.Spec : Prop :=
 
 end A057977
 
-/-! ## A057977.P9970005193153464366
+/-! ## A057977.P11500708081187535592
 
-`n!/((floor(n/2)+1)*floor(n/2)!²)`
+`gcd(C(n, floor(n/2)), C(n+1, floor((n+1)/2)))`
 -/
 
-namespace A057977.P9970005193153464366
+namespace A057977.P11500708081187535592
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n : ℚ) / ((⌊(n : ℚ) / 2⌋ + 1) * (Nat.factorial ⌊(n : ℚ) / 2⌋.toNat ^ 2 : ℤ) : ℚ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd (Nat.choose n ⌊(n : ℚ) / 2⌋.toNat) (Nat.choose (n + 1) ⌊(n + 1 : ℚ) / 2⌋.toNat)
 
 end
 
-end A057977.P9970005193153464366
+end A057977.P11500708081187535592
 
 namespace A057977
 
-/-- `n!/((floor(n/2)+1)*floor(n/2)!²)` -/
-def P9970005193153464366.Spec : Prop :=
-  ∀ n, P9970005193153464366.a n = (A057977 n : ℚ)
+/-- `gcd(C(n, floor(n/2)), C(n+1, floor((n+1)/2)))` -/
+def P11500708081187535592.Spec : Prop :=
+  ∀ n, (P11500708081187535592.a n : ℤ) = A057977 n
 
 end A057977
 

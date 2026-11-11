@@ -58,6 +58,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -6976,6 +6977,35 @@ The programs for A111458, the canonical program `A111458.P16703842777134860266` 
 The definition of A111458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A111458.P6193151574421925854
+
+`eq[0, A359512(n)]`
+-/
+
+namespace A111458.P6193151574421925854
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359512 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A111458.P6193151574421925854
+
+namespace A111458
+
+/-- `eq[0, A359512(n)]` -/
+def P6193151574421925854.Spec : Prop :=
+  ∀ n, (P6193151574421925854.a n : ℤ) = A111458 (n + 1)
+
+end A111458
+
 /-! ## A111458.P16703842777134860266
 
 `lt[3, A007895(n)]`
@@ -7514,35 +7544,6 @@ namespace A111458
 /-- `eq[A143722(n), A319396(n)]` -/
 def P7523433855539060498.Spec : Prop :=
   ∀ n, (P7523433855539060498.a n : ℤ) = A111458 (n + 1)
-
-end A111458
-
-/-! ## A111458.P16699504997619814085
-
-`eq[A143733(n), A319396(n)]`
--/
-
-namespace A111458.P16699504997619814085
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143733 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319396 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A111458.P16699504997619814085
-
-namespace A111458
-
-/-- `eq[A143733(n), A319396(n)]` -/
-def P16699504997619814085.Spec : Prop :=
-  ∀ n, (P16699504997619814085.a n : ℤ) = A111458 (n + 1)
 
 end A111458
 

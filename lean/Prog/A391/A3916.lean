@@ -4229,35 +4229,6 @@ def P12839599520782518140.Spec : Prop :=
 
 end A391658
 
-/-! ## A391658.P2428981940425779431
-
-`A000720(A063535(n))-(lt[A320146(n+2), n]+1)`
--/
-
-namespace A391658.P2428981940425779431
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320146 (n + 2)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A063535 n).toNat - (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1 : ℤ)
-
-end
-
-end A391658.P2428981940425779431
-
-namespace A391658
-
-/-- `A000720(A063535(n))-(lt[A320146(n+2), n]+1)` -/
-def P2428981940425779431.Spec : Prop :=
-  ∀ n, P2428981940425779431.a n = A391658 (n + 1)
-
-end A391658
-
 /-! ## A391658.P3407360989947072443
 
 `A258025(n+1)-A333231(n+1)`
@@ -7355,21 +7326,6 @@ end
 
 end A391697.P8102527965672600424
 
-/-! ## A391697.P12733105928398752587
-
-`floor((A366340(n+1)+5^(n-2))/90)`
--/
-
-namespace A391697.P12733105928398752587
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((A366340 (n + 1) : ℚ) + (5 : ℚ) ^ ((n : ℤ) - 2 : ℤ)) / 90⌋
-
-end
-
-end A391697.P12733105928398752587
-
 /-! ## A391697.P10813235159115676699
 
 `A161995(A011923(n))`
@@ -7384,6 +7340,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391697.P10813235159115676699
+
+/-! ## A391697.P2786418179976965299
+
+`A112952(A086872(n))`
+-/
+
+namespace A391697.P2786418179976965299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112952 (A086872 n).toNat
+
+end
+
+end A391697.P2786418179976965299
 
 /-!
 # A391698: Primes expressible as a*b - (a+b) where a and b are composite numbers.

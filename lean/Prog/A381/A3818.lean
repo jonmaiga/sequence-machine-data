@@ -224,21 +224,6 @@ end
 
 end A381801.P8107972047820008377
 
-/-! ## A381801.P8015100214355979293
-
-`A374398(n)+A111576(A007318(n))`
--/
-
-namespace A381801.P8015100214355979293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374398 n + A111576 (A007318 n).toNat
-
-end
-
-end A381801.P8015100214355979293
-
 /-! ## A381801.P11089954658979259147
 
 `A374398(n)+A244413(A283016(n))`
@@ -283,6 +268,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A381801.P14053291970351378836
+
+/-! ## A381801.P17246308358860176809
+
+`A374398(A055645(n))`
+-/
+
+namespace A381801.P17246308358860176809
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374398 (A055645 n).toNat
+
+end
+
+end A381801.P17246308358860176809
 
 /-!
 # A381802: a(n) = number of distinct residues r mod n of numbers k congruent to r (mod n) such that rad(k) does not divide n, where rad = A007947.
@@ -935,6 +935,21 @@ end
 
 end A381805.P8260999933170537645
 
+/-! ## A381805.P1299918853003109350
+
+`A007947(A382767(n+1))`
+-/
+
+namespace A381805.P1299918853003109350
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (A382767 (n + 1)).toNat
+
+end
+
+end A381805.P1299918853003109350
+
 /-! ## A381805.P8586201868450683323
 
 `A382248(n+1)/A053669(n+1)`
@@ -979,21 +994,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381805.P6798423039143931500
-
-/-! ## A381805.P10056823047690799367
-
-`A007947(A382767(n+1)/A380539(n+1))`
--/
-
-namespace A381805.P10056823047690799367
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (SequenceMachineLib.roundAway ((A382767 (n + 1) : ℚ) / (A380539 (n + 1) : ℚ))).toNat
-
-end
-
-end A381805.P10056823047690799367
 
 /-! ## A381805.P3573183130183985791
 
@@ -1100,35 +1100,35 @@ end
 
 end A381805.P9071685347885513275
 
-/-! ## A381805.P12497597828304368685
+/-! ## A381805.P13519135398782492188
 
-`A007947(A382767((n+1)²))`
+`A000188(A382767(n+1))`
 -/
 
-namespace A381805.P12497597828304368685
+namespace A381805.P13519135398782492188
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (A382767 ((n + 1) ^ 2)).toNat
+  A000188 (A382767 (n + 1)).toNat
 
 end
 
-end A381805.P12497597828304368685
+end A381805.P13519135398782492188
 
-/-! ## A381805.P3500967753392662468
+/-! ## A381805.P12488747146071926726
 
-`A007947(A007947(A382767((n+1)*(n+1))))`
+`gcd(A285615(n+1), A382767(n+1))`
 -/
 
-namespace A381805.P3500967753392662468
+namespace A381805.P12488747146071926726
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (A007947 (A382767 ((n + 1) * (n + 1))).toNat).toNat
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A285615 (n + 1)) (A382767 (n + 1))
 
 end
 
-end A381805.P3500967753392662468
+end A381805.P12488747146071926726
 
 /-!
 # A381808: Number of multisets that can be obtained by choosing a strict integer partition of m for each m = 0..n and taking the multiset union.

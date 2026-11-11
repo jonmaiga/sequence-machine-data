@@ -26,7 +26,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
@@ -67,6 +67,7 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1928,6 +1929,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A061910.P11562777857727683430
+
+/-! ## A061910.P9016229557355402897
+
+`A018851(A053057(n+2))`
+-/
+
+namespace A061910.P9016229557355402897
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018851 (A053057 (n + 2)).toNat
+
+end
+
+end A061910.P9016229557355402897
 
 /-!
 # A061911: Square root of the sum of the digits of k^2 when this sum is a square.

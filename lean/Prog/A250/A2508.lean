@@ -28,6 +28,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C043
 import Seq.B000.C045
@@ -61,6 +62,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -5696,7 +5698,7 @@ end A250870
 /-!
 # A250871: Number of (n+1) X (2+1) 0..3 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250871, the canonical program `A250871.P2573691612901626524` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250871 has offset 1).
+The programs for A250871, the canonical program `A250871.P2573691612901626524` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250871 has offset 1).
 
 The definition of A250871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 161 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5705,7 +5707,7 @@ The definition of A250871 is `conjectured`: the Lean definition is a formula tha
 
 `(472*4^(n+1)-378*3^(n+1)+54*2^(n+1)+2)/3`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A250871
@@ -6207,7 +6209,7 @@ end A250876.P5308985593283182849
 /-!
 # A250878: Number of (1+1) X (n+1) 0..3 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250878, the canonical program `A250878.P14780115222893296796` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250878 has offset 1).
+The programs for A250878, the canonical program `A250878.P14780115222893296796` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250878 has offset 1).
 
 The definition of A250878 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6239,7 +6241,7 @@ end A250878
 
 `34/3*(n+1)^3+28*(n+1)²+104/3*(n+1)+16`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A250878
@@ -6328,7 +6330,7 @@ end A250878
 /-!
 # A250879: Number of (2+1) X (n+1) 0..3 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250879, the canonical program `A250879.P18301557131118712777` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250879 has offset 1).
+The programs for A250879, the canonical program `A250879.P18301557131118712777` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250879 has offset 1).
 
 The definition of A250879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6337,7 +6339,7 @@ The definition of A250879 is `conjectured`: the Lean definition is a formula tha
 
 `55*(n+1)^3+155*(n+1)²+(n+1)*166+64`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A250879

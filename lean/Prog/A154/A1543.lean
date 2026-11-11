@@ -31,9 +31,8 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
@@ -1478,6 +1477,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A154315.P11980084047431024643
+
+/-! ## A154315.P5141436282422794194
+
+`A102885(A154765(n+1))`
+-/
+
+namespace A154315.P5141436282422794194
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102885 (A154765 (n + 1)).toNat
+
+end
+
+end A154315.P5141436282422794194
 
 /-!
 # A154316: Primes prime(k) such that abs(sum of digits of prime(k) - sum of digits of k) < 2.
@@ -10387,6 +10401,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A154381.P2853868992934213585
+
+/-! ## A154381.P2549122461974820149
+
+`A011782(n+1)*A129247(n)/A011782(n)`
+-/
+
+namespace A154381.P2549122461974820149
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A011782 (n + 1) * A129247 n : ℚ) / (A011782 n : ℚ)
+
+end
+
+end A154381.P2549122461974820149
 
 /-!
 # A154383: Powers of 4 at even indices, two times powers of 4 at odd indices.

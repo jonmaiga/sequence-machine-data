@@ -61,7 +61,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3657,6 +3656,21 @@ end
 
 end A096540.P15519624410599854373
 
+/-! ## A096540.P1277689755738243391
+
+`A345933(A096539(n+1))`
+-/
+
+namespace A096540.P1277689755738243391
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345933 (A096539 (n + 1)).toNat
+
+end
+
+end A096540.P1277689755738243391
+
 /-! ## A096540.P16222672960011148331
 
 `A051119(A096539(n+1))`
@@ -3671,21 +3685,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096540.P16222672960011148331
-
-/-! ## A096540.P12099955945666089789
-
-`A052126(A096539(n+1)%A084661(n+1))`
--/
-
-namespace A096540.P12099955945666089789
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052126 (Int.tmod (A096539 (n + 1)) (A084661 (n + 1))).toNat
-
-end
-
-end A096540.P12099955945666089789
 
 /-!
 # A096541: Number of parts unequal to 1 in all partitions of the integer n. Also the difference between the labeled and the unlabeled case of one-element transitions from the partitions of n to the partitions of n+1.

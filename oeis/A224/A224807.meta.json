@@ -1,7 +1,9 @@
 {
   "description": "(-1)^((p-1)/2)*binomial(p-1,(p-1)/2) mod p^3 where p is the n-th prime.",
   "id": "A224807",
-  "mentions": [],
+  "mentions": [
+    "A216160"
+  ],
   "tags": [
     "nonn"
   ],

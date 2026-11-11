@@ -6653,21 +6653,6 @@ end A032397.P9907223156861730998
 The programs for A032398, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032398.P17725099555775833980
-
-`2*A087160(A152603(n+1))`
--/
-
-namespace A032398.P17725099555775833980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A087160 (A152603 (n + 1)).toNat
-
-end
-
-end A032398.P17725099555775833980
-
 /-! ## A032398.P9713174250093006779
 
 `A284644(A326359(n)+A084791(3*n+1))`

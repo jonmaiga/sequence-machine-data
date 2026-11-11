@@ -30,7 +30,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
@@ -1945,20 +1944,20 @@ end A180543.P15047171648430379242
 The programs for A180545, there is no canonical definition to state claims against.
 -/
 
-/-! ## A180545.P5652126188141954385
+/-! ## A180545.P16663867403359510175
 
-`A222464(A034913(n+2))`
+`A278816(A034913(n+2))`
 -/
 
-namespace A180545.P5652126188141954385
+namespace A180545.P16663867403359510175
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222464 (A034913 (n + 2)).toNat
+  A278816 (A034913 (n + 2)).toNat
 
 end
 
-end A180545.P5652126188141954385
+end A180545.P16663867403359510175
 
 /-! ## A180545.P7317648978045878694
 

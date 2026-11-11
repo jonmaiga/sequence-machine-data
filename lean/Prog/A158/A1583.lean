@@ -15,12 +15,14 @@ import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C036
@@ -2575,6 +2577,32 @@ def P10793366350441836453.Spec : Prop :=
 
 end A158315
 
+/-! ## A158315.P2275586018507989174
+
+`∑{d}[2*n+1, A349693(#)]`
+-/
+
+namespace A158315.P2275586018507989174
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A349693 d
+
+end
+
+end A158315.P2275586018507989174
+
+namespace A158315
+
+/-- `∑{d}[2*n+1, A349693(#)]` -/
+def P2275586018507989174.Spec : Prop :=
+  ∀ n, P2275586018507989174.a n = A158315 n
+
+end A158315
+
 /-! ## A158315.P5990765025785844607
 
 `∏{e}[2*n+1, A025738(#)]`
@@ -2670,29 +2698,6 @@ namespace A158315
 /-- `A051119(A158647(n))` -/
 def P15461138593530903244.Spec : Prop :=
   ∀ n, P15461138593530903244.a n = A158315 n
-
-end A158315
-
-/-! ## A158315.P17451034966384871238
-
-`A007425(A278223(n+1))`
--/
-
-namespace A158315.P17451034966384871238
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007425 (A278223 (n + 1)).toNat
-
-end
-
-end A158315.P17451034966384871238
-
-namespace A158315
-
-/-- `A007425(A278223(n+1))` -/
-def P17451034966384871238.Spec : Prop :=
-  ∀ n, P17451034966384871238.a n = A158315 n
 
 end A158315
 
@@ -4267,26 +4272,26 @@ def P14238596958115176091.Spec : Prop :=
 
 end A158327
 
-/-! ## A158327.P13758156310438827508
+/-! ## A158327.P8191387817059062415
 
-`gcd(A158801(2*(n+1)), A158801(n+1))`
+`gcd(A158360(n+1), A158801(n+1))`
 -/
 
-namespace A158327.P13758156310438827508
+namespace A158327.P8191387817059062415
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A158801 (2 * (n + 1))) (A158801 (n + 1))
+  Int.gcd (A158360 (n + 1)) (A158801 (n + 1))
 
 end
 
-end A158327.P13758156310438827508
+end A158327.P8191387817059062415
 
 namespace A158327
 
-/-- `gcd(A158801(2*(n+1)), A158801(n+1))` -/
-def P13758156310438827508.Spec : Prop :=
-  ∀ n, (P13758156310438827508.a n : ℤ) = A158327 (n + 1)
+/-- `gcd(A158360(n+1), A158801(n+1))` -/
+def P8191387817059062415.Spec : Prop :=
+  ∀ n, (P8191387817059062415.a n : ℤ) = A158327 (n + 1)
 
 end A158327
 

@@ -3476,6 +3476,21 @@ end
 
 end A045628.P2574289382649803993
 
+/-! ## A045628.P9221176768287088836
+
+`A177849(A034752(n+2))`
+-/
+
+namespace A045628.P9221176768287088836
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177849 (A034752 (n + 2)).toNat
+
+end
+
+end A045628.P9221176768287088836
+
 /-!
 # A045629: Number of 2n-bead black-white complementable necklaces with n black beads.
 

@@ -1,0 +1,29 @@
+{
+  "description": "Pythagorean primes p for which one Fibonacci recurrence step (v, u) -> (u, u+v) on the odd leg u and even leg v of the primitive Pythagorean triangle with hypotenuse p gives another Pythagorean prime q = (u^2 + (u+v)^2)/2.",
+  "id": "A401444",
+  "mentions": [
+    "A000045",
+    "A002144",
+    "A002365",
+    "A002366",
+    "A070079",
+    "A070151",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003",
+    "A401004",
+    "A401445",
+    "A401446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

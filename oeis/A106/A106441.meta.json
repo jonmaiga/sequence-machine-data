@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k > 1 such that sum_{i = 1..n} k^(A003418(n)/i) is divisible by n.",
+  "description": "a(n) is the least k > 1 such that Sum_{i = 1..n} k^(A003418(n)/i) is divisible by n.",
   "id": "A106441",
   "mentions": [
     "A003418",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 89,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

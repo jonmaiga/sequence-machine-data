@@ -12,7 +12,6 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -58,6 +57,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -104,6 +104,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -8216,19 +8217,19 @@ end
 
 end A360490.P9760995279574205736
 
-/-! ## A360490.P2495996483356878775
+/-! ## A360490.P5041398840839255542
 
-`∩[3*(A004273(n)+1)²+1, A243761(n+1)]`
+`∩[A243761(n+1), A401434(n+1)]`
 -/
 
-namespace A360490.P2495996483356878775
+namespace A360490.P5041398840839255542
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * (A004273 n + 1) ^ 2 + 1
+  A243761 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243761 (n + 1)
+  A401434 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8236,7 +8237,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A360490.P2495996483356878775
+end A360490.P5041398840839255542
 
 /-!
 # A360491: Square of A(n,m) read by antidiagonals. A(n,m) = number of set partitions of [5n] into 5-element subsets {i, i+k, i+2k, i+3k, i+4k} with 1 <= k <= m.

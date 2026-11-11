@@ -10715,6 +10715,52 @@ def P9673641315191059053.Spec : Prop :=
 
 end A270088
 
+/-! ## A270088.P3755782230609769823
+
+`and(A110331(n), A270130(n))`
+-/
+
+namespace A270088.P3755782230609769823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A110331 n) (A270130 n)
+
+end
+
+end A270088.P3755782230609769823
+
+namespace A270088
+
+/-- `and(A110331(n), A270130(n))` -/
+def P3755782230609769823.Spec : Prop :=
+  ∀ n, P3755782230609769823.a n = A270088 n
+
+end A270088
+
+/-! ## A270088.P3715090674698320155
+
+`and(A141354(n), A270130(n))`
+-/
+
+namespace A270088.P3715090674698320155
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A141354 n) (A270130 n)
+
+end
+
+end A270088.P3715090674698320155
+
+namespace A270088
+
+/-- `and(A141354(n), A270130(n))` -/
+def P3715090674698320155.Spec : Prop :=
+  ∀ n, P3715090674698320155.a n = A270088 n
+
+end A270088
+
 /-! ## A270088.P14468059849269967459
 
 `A270130(n)-4*A185012(n)`

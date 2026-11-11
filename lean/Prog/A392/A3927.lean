@@ -25,6 +25,7 @@ import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
@@ -414,6 +415,28 @@ end
 
 end A392707.P9492669668109009234
 
+/-! ## A392707.P14059240435580587528
+
+`∩[A392694(n+1), A392697(n+1)]`
+-/
+
+namespace A392707.P14059240435580587528
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392694 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392697 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392707.P14059240435580587528
+
 /-! ## A392707.P4017279591680945566
 
 `∪[∑[C(n+6, 2)*3+1], A325460(n+1)]`
@@ -601,28 +624,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A392707.P16482987872981814577
-
-/-! ## A392707.P5438870801605829061
-
-`∪[A007092(A000108(2*n+1)), A325460(n+1)]`
--/
-
-namespace A392707.P5438870801605829061
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007092 (A000108 (2 * n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325460 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A392707.P5438870801605829061
 
 /-!
 # A392708: Numbers k such that the 0-based partial alternating sums of the k-th composition in standard order are all distinct.
@@ -1846,6 +1847,21 @@ end
 
 end A392737.P9140842399624686050
 
+/-! ## A392737.P2285315990973374655
+
+`A004442(A392738(n+1))`
+-/
+
+namespace A392737.P2285315990973374655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004442 (A392738 (n + 1)).toNat
+
+end
+
+end A392737.P2285315990973374655
+
 /-! ## A392737.P10349627405976150532
 
 `eq[1, A392736(n)]`
@@ -2115,27 +2131,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392737.P13319784977697550142
-
-/-! ## A392737.P5096956447002888151
-
-`eq[0, A392743(2*n+1)]`
--/
-
-namespace A392737.P5096956447002888151
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392743 (2 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A392737.P5096956447002888151
 
 /-!
 # A392738: Positions of 0's in A392736.
@@ -3685,6 +3680,21 @@ end
 
 end A392773.P5472809435869234103
 
+/-! ## A392773.P10928660954638379554
+
+`(2^2^(n+1)-1)*2^2^n`
+-/
+
+namespace A392773.P10928660954638379554
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((2 ^ 2 ^ (n + 1) : ℤ) - 1) * (2 ^ 2 ^ n : ℤ)
+
+end
+
+end A392773.P10928660954638379554
+
 /-! ## A392773.P17687571092484509541
 
 `A248217(2^n)`
@@ -3699,21 +3709,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392773.P17687571092484509541
-
-/-! ## A392773.P11315032366271454516
-
-`A045663(3*2^n)`
--/
-
-namespace A392773.P11315032366271454516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045663 (3 * 2 ^ n)
-
-end
-
-end A392773.P11315032366271454516
 
 /-!
 # A392774: Irregular triangle read by rows; integers with identical (tau, sigma) values occurring at least twice, rows ordered by their smallest term.

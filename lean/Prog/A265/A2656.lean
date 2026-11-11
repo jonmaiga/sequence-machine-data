@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -2535,29 +2534,29 @@ def P16408506427864365094.Spec : Prop :=
 
 end A265612
 
-/-! ## A265612.P11585549254090623794
+/-! ## A265612.P6425034734265103293
 
-`∑{#}[n, #*#*C(2*n-#, n)]`
+`∑{#}[n-1, (2*(n+1)-2*#-3)*C(#+n+1, #)]`
 -/
 
-namespace A265612.P11585549254090623794
+namespace A265612.P6425034734265103293
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), k * k * Nat.choose ((2 * n : ℤ) - (k : ℤ)).toNat n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((2 * (n + 1) : ℤ) - (2 * k : ℤ) - 3) * (Nat.choose (k + (n + 1)) k : ℤ)
 
 end
 
-end A265612.P11585549254090623794
+end A265612.P6425034734265103293
 
 namespace A265612
 
-/-- `∑{#}[n, #*#*C(2*n-#, n)]` -/
-def P11585549254090623794.Spec : Prop :=
-  ∀ n, (P11585549254090623794.a n : ℤ) = A265612 n
+/-- `∑{#}[n-1, (2*(n+1)-2*#-3)*C(#+n+1, #)]` -/
+def P6425034734265103293.Spec : Prop :=
+  ∀ n, P6425034734265103293.a n = A265612 n
 
 end A265612
 
@@ -6221,27 +6220,6 @@ end
 
 end A265657.P12428055153298754051
 
-/-! ## A265657.P17823107670620466545
-
-`record[A265656(A167614(∑{e}[n+1, #]+1))]`
--/
-
-namespace A265657.P17823107670620466545
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265656 (A167614 (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A265657.P17823107670620466545
-
 /-! ## A265657.P5239809096347454281
 
 `A265656(A167614(n+1))+A025439(n)`
@@ -6271,6 +6249,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265657.P736279602556648253
+
+/-! ## A265657.P17823107670620466545
+
+`record[A265656(A167614(∑{e}[n+1, #]+1))]`
+-/
+
+namespace A265657.P17823107670620466545
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265656 (A167614 (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A265657.P17823107670620466545
 
 /-!
 # A265658: Number of 4 X n arrays containing n copies of 0..4-1 with no equal diagonal or antidiagonal neighbors and new values introduced sequentially from 0.

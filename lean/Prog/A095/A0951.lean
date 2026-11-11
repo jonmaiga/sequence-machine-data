@@ -3619,6 +3619,21 @@ end
 
 end A095118.P5982314937906115579
 
+/-! ## A095118.P4894185577049438924
+
+`2*A347173(n+1)-A373031(n+1)`
+-/
+
+namespace A095118.P4894185577049438924
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A347173 (n + 1) - A373031 (n + 1)
+
+end
+
+end A095118.P4894185577049438924
+
 /-! ## A095118.P11807802221778390548
 
 `∑{d}[n+1, A298473(#)*A341038((n+1)/#)]`
@@ -3651,21 +3666,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095118.P5297231956486845252
-
-/-! ## A095118.P4894185577049438924
-
-`2*A347173(n+1)-A373031(n+1)`
--/
-
-namespace A095118.P4894185577049438924
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A347173 (n + 1) - A373031 (n + 1)
-
-end
-
-end A095118.P4894185577049438924
 
 /-!
 # A095120: a(n) = prime(3^n - 1).
@@ -3993,6 +3993,29 @@ def P11124819896116703496.Spec : Prop :=
 
 end A095121
 
+/-! ## A095121.P9418745455205405574
+
+`max(1, 2^(n+1)-2)`
+-/
+
+namespace A095121.P9418745455205405574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  max (1 : ℤ) ((2 ^ (n + 1) : ℤ) - 2)
+
+end
+
+end A095121.P9418745455205405574
+
+namespace A095121
+
+/-- `max(1, 2^(n+1)-2)` -/
+def P9418745455205405574.Spec : Prop :=
+  ∀ n, P9418745455205405574.a n = A095121 n
+
+end A095121
+
 /-! ## A095121.P18133237054749120597
 
 `2*(a(n-1)+1)` with `a(0)=1, a(1)=2`
@@ -4249,29 +4272,6 @@ namespace A095121
 /-- `2^(n+1)-(3-ceil(acot(n)))` -/
 def P7974599907509464432.Spec : Prop :=
   ∀ n, P7974599907509464432.a n = A095121 n
-
-end A095121
-
-/-! ## A095121.P3148886319429040409
-
-`4-2*(1-a(n-1))` with `a(0)=1, a(1)=2`
--/
-
-namespace A095121.P3148886319429040409
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
-  4 - 2 * (1 - a (n - 1))
-
-end
-
-end A095121.P3148886319429040409
-
-namespace A095121
-
-/-- `4-2*(1-a(n-1))` -/
-def P3148886319429040409.Spec : Prop :=
-  ∀ n, P3148886319429040409.a n = A095121 n
 
 end A095121
 

@@ -10,7 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
@@ -255,6 +255,32 @@ namespace A012000
 /-- `∑{#}[n, (-1)^(n-#)*C(n, #)*A098340(#)]` -/
 def P843357971374042544.Spec : Prop :=
   ∀ n, P843357971374042544.a n = (A012000 n : ℚ)
+
+end A012000
+
+/-! ## A012000.P12783728370585665326
+
+`∑{#}[n, (-4)^#*C(n, #)*C(2*n-2*#, n)]`
+-/
+
+namespace A012000.P12783728370585665326
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-4) ^ k * (Nat.choose n k : ℤ) * (Nat.choose ((2 * n : ℤ) - (2 * k : ℤ)).toNat n : ℤ)
+
+end
+
+end A012000.P12783728370585665326
+
+namespace A012000
+
+/-- `∑{#}[n, (-4)^#*C(n, #)*C(2*n-2*#, n)]` -/
+def P12783728370585665326.Spec : Prop :=
+  ∀ n, P12783728370585665326.a n = A012000 n
 
 end A012000
 
@@ -1617,7 +1643,7 @@ end
 end A012042.P9870025376562558397
 
 /-!
-# A012043: cosh(sin(arcsinh(x))) = 1+1/2!*x^2-7/4!*x^4+121/6!*x^6-4271/8!*x^8...
+# A012043: Expansion of e.g.f. cosh(sin(arcsinh(x))).
 
 The programs for A012043, there is no canonical definition to state claims against.
 -/

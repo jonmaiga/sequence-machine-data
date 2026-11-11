@@ -17,6 +17,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -158,20 +159,20 @@ end A376400.P6730910477326448950
 The programs for A376401, there is no canonical definition to state claims against.
 -/
 
-/-! ## A376401.P13970200763233422929
+/-! ## A376401.P10339463303919435605
 
-`a(n-1)+A376400(n-1)` with `a(0)=0`
+`a(n-1)+A376400(n-1)` with `a(0)=0, a(1)=1`
 -/
 
-namespace A376401.P13970200763233422929
+namespace A376401.P10339463303919435605
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
   a (n - 1) + A376400 (n - 1)
 
 end
 
-end A376401.P13970200763233422929
+end A376401.P10339463303919435605
 
 /-! ## A376401.P8572873211546174468
 
@@ -1495,6 +1496,21 @@ end
 
 end A376427.P265166178954192523
 
+/-! ## A376427.P9096107538879677111
+
+`A342859(A275121(n+1))`
+-/
+
+namespace A376427.P9096107538879677111
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342859 (A275121 (n + 1)).toNat
+
+end
+
+end A376427.P9096107538879677111
+
 /-!
 # A376428: Numbers k that occur as shorter legs of Pythagorean triangles with Pythagorean primes A002144 as hypotenuses.
 
@@ -2428,6 +2444,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376449.P601766809040971693
+
+/-! ## A376449.P3472812602378164467
+
+`A233905(A000523(A132753(n+1)))+n`
+-/
+
+namespace A376449.P3472812602378164467
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233905 (A000523 (A132753 (n + 1)).toNat).toNat + (n : ℤ)
+
+end
+
+end A376449.P3472812602378164467
 
 /-!
 # A376450: n in base whose greedy place values are quarter-squares (A002620).
@@ -3603,6 +3634,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376456.P14852635652898564660
+
+/-! ## A376456.P17654424282300305318
+
+`A115788(n+2)+A022844(n+1)-A115789(n+1)`
+-/
+
+namespace A376456.P17654424282300305318
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115788 (n + 2) + A022844 (n + 1) - A115789 (n + 1)
+
+end
+
+end A376456.P17654424282300305318
+
+/-! ## A376456.P9785969557161766023
+
+`A195062(n+2)+A022844(n+1)-A115789(n+1)`
+-/
+
+namespace A376456.P9785969557161766023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195062 (n + 2) + A022844 (n + 1) - A115789 (n + 1)
+
+end
+
+end A376456.P9785969557161766023
 
 /-!
 # A376457: Let s(x) be the Maclaurin series for cos(x); then a(n) is the index k for which (k+1)-st partial sum of s(2*n*Pi) is least among all partial sums.

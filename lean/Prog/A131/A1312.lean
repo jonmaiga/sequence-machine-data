@@ -29,7 +29,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -81,6 +80,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -3809,6 +3809,29 @@ namespace A131225
 /-- `(row(n)-col(n))%2+1+2*col(n)` -/
 def P8811032366187695059.Spec : Prop :=
   ∀ n, P8811032366187695059.a n = A131225 (n + 1)
+
+end A131225
+
+/-! ## A131225.P12480868410898331431
+
+`(3+(-1)^(row(n)-col(n)+1))/2+2*col(n)`
+-/
+
+namespace A131225.P12480868410898331431
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 + (-1 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℤ)) / 2 + (2 * SequenceMachineLib.triCol n : ℚ)
+
+end
+
+end A131225.P12480868410898331431
+
+namespace A131225
+
+/-- `(3+(-1)^(row(n)-col(n)+1))/2+2*col(n)` -/
+def P12480868410898331431.Spec : Prop :=
+  ∀ n, P12480868410898331431.a n = (A131225 (n + 1) : ℚ)
 
 end A131225
 

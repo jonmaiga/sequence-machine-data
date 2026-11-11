@@ -1861,6 +1861,21 @@ end
 
 end A399737.P15028249638042291622
 
+/-! ## A399737.P17815862250915664461
+
+`A305149(A367513(A061537(n+1)))+n`
+-/
+
+namespace A399737.P17815862250915664461
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305149 (A367513 (A061537 (n + 1)).toNat).toNat + (n : ℤ)
+
+end
+
+end A399737.P17815862250915664461
+
 /-!
 # A399738: The sum of the unitary divisors d of n such that n/d is odd.
 
@@ -3895,6 +3910,21 @@ end
 
 end A399769.P2348515772333550010
 
+/-! ## A399769.P5719533714597968086
+
+`A067131(A333492(n+1))`
+-/
+
+namespace A399769.P5719533714597968086
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067131 (A333492 (n + 1)).toNat
+
+end
+
+end A399769.P5719533714597968086
+
 /-!
 # A399770: Number of ways to cut a right triangle into n self-similar parts.
 
@@ -4713,6 +4743,32 @@ namespace A399779
 /-- `A000720(n+1)-A121373(A030432(3*n+1))` -/
 def P2629834612223515531.Spec : Prop :=
   ∀ n, P2629834612223515531.a n = A399779 (n + 1)
+
+end A399779
+
+/-! ## A399779.P12417670869606594209
+
+`∑[A398543((n+1)²)]`
+-/
+
+namespace A399779.P12417670869606594209
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398543 ((n + 1) ^ 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A399779.P12417670869606594209
+
+namespace A399779
+
+/-- `∑[A398543((n+1)²)]` -/
+def P12417670869606594209.Spec : Prop :=
+  ∀ n, P12417670869606594209.a n = A399779 (n + 1)
 
 end A399779
 

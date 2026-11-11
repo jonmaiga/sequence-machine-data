@@ -40,7 +40,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
@@ -3824,20 +3823,20 @@ end
 
 end A236444.P12276847076403731245
 
-/-! ## A236444.P12780752729798499511
+/-! ## A236444.P8066317325636122721
 
-`A174342(2*n+1)+1-A316843(2*n+1)`
+`round(log2(A188115(n+3)))`
 -/
 
-namespace A236444.P12780752729798499511
+namespace A236444.P8066317325636122721
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174342 (2 * n + 1) + 1 - A316843 (2 * n + 1)
+  SequenceMachineLib.roundAway (Real.logb 2 (A188115 (n + 3) : ℝ))
 
 end
 
-end A236444.P12780752729798499511
+end A236444.P8066317325636122721
 
 /-!
 # A236445: Number of (n+1)X(1+1) 0..3 arrays colored with the difference of the maximum and minimum in each 2X2 subblock.

@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers that do not occur as the largest incircle tangent length of a Heronian triangle.",
+  "id": "A401194",
+  "mentions": [
+    "A003628",
+    "A045355",
+    "A106889",
+    "A139530",
+    "A400806",
+    "A401193"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

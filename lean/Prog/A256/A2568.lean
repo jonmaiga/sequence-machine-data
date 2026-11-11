@@ -27,7 +27,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
@@ -3077,6 +3077,29 @@ def P15219975020024824213.Spec : Prop :=
 
 end A256833
 
+/-! ## A256833.P8619821984647806063
+
+`2*C(4*(n+1)-1, 2)`
+-/
+
+namespace A256833.P8619821984647806063
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * Nat.choose ((4 * (n + 1) : ℤ) - 1).toNat 2
+
+end
+
+end A256833.P8619821984647806063
+
+namespace A256833
+
+/-- `2*C(4*(n+1)-1, 2)` -/
+def P8619821984647806063.Spec : Prop :=
+  ∀ n, (P8619821984647806063.a n : ℤ) = A256833 n
+
+end A256833
+
 /-! ## A256833.P12947987439504954133
 
 `(A017126(n)-1)/4`
@@ -3178,29 +3201,6 @@ namespace A256833
 /-- `lcm(A004767(n), A016825(n))` -/
 def P11238827766797347969.Spec : Prop :=
   ∀ n, (P11238827766797347969.a n : ℤ) = A256833 n
-
-end A256833
-
-/-! ## A256833.P5138729918404793207
-
-`lcm(A017137(n), A157142(n))`
--/
-
-namespace A256833.P5138729918404793207
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A017137 n) (A157142 n)
-
-end
-
-end A256833.P5138729918404793207
-
-namespace A256833
-
-/-- `lcm(A017137(n), A157142(n))` -/
-def P5138729918404793207.Spec : Prop :=
-  ∀ n, (P5138729918404793207.a n : ℤ) = A256833 n
 
 end A256833
 
@@ -5626,21 +5626,6 @@ end
 
 end A256864.P7013342617297494398
 
-/-! ## A256864.P6483749213831187545
-
-`A088524(A290371(n+1))`
--/
-
-namespace A256864.P6483749213831187545
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088524 (A290371 (n + 1)).toNat
-
-end
-
-end A256864.P6483749213831187545
-
 /-! ## A256864.P1596052877778155023
 
 `p?[or(A190500(n+1), A245980(n))]`
@@ -5658,6 +5643,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A256864.P1596052877778155023
+
+/-! ## A256864.P5327624423112848661
+
+`filter[A258742(2*(n+1)), A164292(#)]`
+-/
+
+namespace A256864.P5327624423112848661
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258742 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A164292 (f1 j).toNat = 1) n)
+
+end
+
+end A256864.P5327624423112848661
 
 /-!
 # A256865: Numbers divisible by prime(d+1) for each digit d of their base-5 representation.

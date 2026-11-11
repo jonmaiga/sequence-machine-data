@@ -2,6 +2,7 @@
   "description": "Number of (s(0), s(1), ..., s(2n+1)) such that 0 < s(i) < 9 and |s(i) - s(i-1)| = 1 for i = 1,2,...,2n+1, s(0) = 1, s(2n+1) = 4.",
   "id": "A094827",
   "mentions": [
+    "A094789",
     "A094829"
   ],
   "tags": [

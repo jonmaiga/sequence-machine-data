@@ -629,20 +629,20 @@ end
 
 end A364811.P16711675133312158941
 
-/-! ## A364811.P8605368955904048490
+/-! ## A364811.P6526071778177016273
 
-`A002264(A118406(n)+4)`
+`A090701(A118406(n))`
 -/
 
-namespace A364811.P8605368955904048490
+namespace A364811.P6526071778177016273
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002264 (A118406 n + 4).toNat
+  A090701 (A118406 n).toNat
 
 end
 
-end A364811.P8605368955904048490
+end A364811.P6526071778177016273
 
 /-!
 # A364812: Triangle of generalized binomial coefficients T(n,k) = ff(n)/(ff(k)*ff(n-k)) where ff(n) = A363838(n), the generalized factorial.
@@ -2489,6 +2489,21 @@ end
 
 end A364841.P11761675837693663824
 
+/-! ## A364841.P17004803007853752647
+
+`A401834(A213331(n+1))`
+-/
+
+namespace A364841.P17004803007853752647
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401834 (A213331 (n + 1)).toNat
+
+end
+
+end A364841.P17004803007853752647
+
 /-! ## A364841.P15464351570059215576
 
 `ceil((A232721(ceil((A141096(n+2)+n²)/4))+n²)/4)`
@@ -2533,21 +2548,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364841.P8515072132033747927
-
-/-! ## A364841.P14222287627855787392
-
-`or(A308251(n), A358846(A371493(n)))`
--/
-
-namespace A364841.P14222287627855787392
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A308251 n) (A358846 (A371493 n).toNat)
-
-end
-
-end A364841.P14222287627855787392
 
 /-!
 # A364842: Table read by antidiagonals: row n gives the Euler transform of the sequence (2,...,2,0,0,...) that contains n 2's followed by 0's.

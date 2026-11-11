@@ -6,7 +6,6 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -18,6 +17,7 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
@@ -1329,6 +1329,57 @@ end
 end A401018.P14406786017477827594
 
 /-!
+# A401019: Number of permutations of {1..n} in which 1 is not adjacent to any prime.
+
+The programs for A401019, there is no canonical definition to state claims against.
+-/
+
+/-! ## A401019.P15627427889493533790
+
+`A136715(A126882(n+1))`
+-/
+
+namespace A401019.P15627427889493533790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136715 (A126882 (n + 1)).toNat
+
+end
+
+end A401019.P15627427889493533790
+
+/-! ## A401019.P11439897846886253012
+
+`A094449(A211392(n+1))`
+-/
+
+namespace A401019.P11439897846886253012
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094449 (A211392 (n + 1)).toNat
+
+end
+
+end A401019.P11439897846886253012
+
+/-! ## A401019.P13587007902142036377
+
+`A339060(A168156(n+1))`
+-/
+
+namespace A401019.P13587007902142036377
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339060 (A168156 (n + 1)).toNat
+
+end
+
+end A401019.P13587007902142036377
+
+/-!
 # A401020: a(n) is the least prime p such that there are exactly n numbers k such that A175508(k) = p.
 
 The programs for A401020, there is no canonical definition to state claims against.
@@ -2585,7 +2636,7 @@ def P11123572601500080407.Spec : Prop :=
 end A401031
 
 /-!
-# A401033: Let m = prime(n), then a(n) is the smallest prime p for which (p^m-(q-p)^m)/(2*p-q) is prime where q is the next prime after p; or -1 if no such prime exists.
+# A401033: a(n) is the smallest prime p for which (p^m-(q-p)^m)/(2*p-q) is prime where m = prime(n) and q is the next prime after p; or -1 if no such prime exists.
 
 The programs for A401033, there is no canonical definition to state claims against.
 -/
@@ -3390,6 +3441,21 @@ end A401041.P8890798135679537529
 The programs for A401045, there is no canonical definition to state claims against.
 -/
 
+/-! ## A401045.P11348791345233672879
+
+`sqrt(A401046(n+1))`
+-/
+
+namespace A401045.P11348791345233672879
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A401046 (n + 1) : ℝ)
+
+end
+
+end A401045.P11348791345233672879
+
 /-! ## A401045.P17908166425281109449
 
 `sqrt(2*A086776(n+1)+6)`
@@ -3404,36 +3470,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A401045.P17908166425281109449
-
-/-! ## A401045.P13365958155208118397
-
-`sqrt(A401046(1+n))`
--/
-
-namespace A401045.P13365958155208118397
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A401046 (1 + n) : ℝ)
-
-end
-
-end A401045.P13365958155208118397
-
-/-! ## A401045.P1532962035230628265
-
-`root(A401046(n+1), 2)`
--/
-
-namespace A401045.P1532962035230628265
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A401046 (n + 1) : ℝ) ^ (1 / (2 : ℝ))
-
-end
-
-end A401045.P1532962035230628265
 
 /-! ## A401045.P2491502729013731631
 
@@ -3531,6 +3567,21 @@ end A401045.P2385130187605544885
 The programs for A401046, there is no canonical definition to state claims against.
 -/
 
+/-! ## A401046.P546481218877208920
+
+`A401045(n+1)²`
+-/
+
+namespace A401046.P546481218877208920
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401045 (n + 1) ^ 2
+
+end
+
+end A401046.P546481218877208920
+
 /-! ## A401046.P3534575328182608918
 
 `2*A086776(n+1)+6`
@@ -3545,36 +3596,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A401046.P3534575328182608918
-
-/-! ## A401046.P10498630620904214041
-
-`A401045(1+n)²`
--/
-
-namespace A401046.P10498630620904214041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A401045 (1 + n) ^ 2
-
-end
-
-end A401046.P10498630620904214041
-
-/-! ## A401046.P5604054912634421287
-
-`A401045(n+1)^2`
--/
-
-namespace A401046.P5604054912634421287
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A401045 (n + 1) ^ 2
-
-end
-
-end A401046.P5604054912634421287
 
 /-! ## A401046.P1519708259181443152
 
@@ -3591,20 +3612,47 @@ end
 
 end A401046.P1519708259181443152
 
-/-! ## A401046.P13150053190979506892
+/-! ## A401046.P8377934770480755091
 
-`A000290(A401045(n+1))`
+`A000290(A401045(A000290(n+1)/(n+1)))`
 -/
 
-namespace A401046.P13150053190979506892
+namespace A401046.P8377934770480755091
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A401045 (n + 1)).toNat
+  A000290 (A401045 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
 
 end
 
-end A401046.P13150053190979506892
+end A401046.P8377934770480755091
+
+/-!
+# A401049: Period 4: repeat [1, 4, 3, 2].
+
+The programs for A401049, the canonical program `A401049.P2112441543055830395` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401049 has offset 0).
+
+The definition of A401049 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A401049.P2112441543055830395
+
+`a(n-4)` with `a(0)=1, a(1)=4, a(2)=3, a(3)=2`
+
+The canonical program, it is in `Seq.B000.C051`.
+-/
+
+namespace A401049
+
+/-- `a(n-4)` -/
+def P2112441543055830395.Spec : Prop :=
+  ∀ n, (P2112441543055830395.a n : ℤ) = A401049 n
+
+theorem P2112441543055830395.correct : P2112441543055830395.Spec := by
+  intro n
+  simp only [A401049]
+
+end A401049
 
 /-!
 # A401050: Let p = prime(1+n); a(n) is the number of odd primes q <= p such that 2*((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).
@@ -5116,6 +5164,122 @@ end
 end A401069.P14833475873537632509
 
 /-!
+# A401071: Numbers that are not divisible by the sum of the divisors of their largest unitary divisor that is a square.
+
+The programs for A401071, there is no canonical definition to state claims against.
+-/
+
+/-! ## A401071.P3625309962606460248
+
+`∩[A072587(n+1), A272978(n+1)]`
+-/
+
+namespace A401071.P3625309962606460248
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072587 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272978 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A401071.P3625309962606460248
+
+/-! ## A401071.P12478706907360719150
+
+`∩[A072587(n+1), A219227(n+1)]`
+-/
+
+namespace A401071.P12478706907360719150
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072587 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219227 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A401071.P12478706907360719150
+
+/-! ## A401071.P10453266258798650707
+
+`∩[A219227(n+1), A240112(n+1)]`
+-/
+
+namespace A401071.P10453266258798650707
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240112 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A401071.P10453266258798650707
+
+/-! ## A401071.P16146378796862444186
+
+`∩[A219227(n+1), A384519(n+1)]`
+-/
+
+namespace A401071.P16146378796862444186
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384519 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A401071.P16146378796862444186
+
+/-! ## A401071.P1758835610293812243
+
+`∩[A219227(n+1), A398820(n+1)]`
+-/
+
+namespace A401071.P1758835610293812243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398820 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A401071.P1758835610293812243
+
+/-!
 # A401073: Number of n X n (0,1)-matrices of rank 2 over the real numbers.
 
 The programs for A401073, the canonical program `A401073.P2485690032411973571` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401073 has offset 0).
@@ -5254,6 +5418,57 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A401080.P18071354527143246804
+
+/-!
+# A401081: Number of distinct tangency polynomials of meandric permutations of length n.
+
+The programs for A401081, there is no canonical definition to state claims against.
+-/
+
+/-! ## A401081.P13209242516147372252
+
+`A261466(A038000(n+1))`
+-/
+
+namespace A401081.P13209242516147372252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261466 (A038000 (n + 1)).toNat
+
+end
+
+end A401081.P13209242516147372252
+
+/-! ## A401081.P5233424287612223749
+
+`A366189(A292507(n+1))`
+-/
+
+namespace A401081.P5233424287612223749
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366189 (A292507 (n + 1)).toNat
+
+end
+
+end A401081.P5233424287612223749
+
+/-! ## A401081.P175602510911449258
+
+`A085516(A305840(n+2))`
+-/
+
+namespace A401081.P175602510911449258
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085516 (A305840 (n + 2)).toNat
+
+end
+
+end A401081.P175602510911449258
 
 /-!
 # A401083: The total number of exponentially odd divisors of the exponentially odd divisors of n.
@@ -6300,20 +6515,20 @@ end
 
 end A401093.P6797343803746470725
 
-/-! ## A401093.P281753906913275227
+/-! ## A401093.P18178569020799363580
 
-`A050296(A098912(n+2))`
+`A401095(n+1)-A038001(2*n+1)`
 -/
 
-namespace A401093.P281753906913275227
+namespace A401093.P18178569020799363580
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050296 (A098912 (n + 2)).toNat
+  A401095 (n + 1) - A038001 (2 * n + 1)
 
 end
 
-end A401093.P281753906913275227
+end A401093.P18178569020799363580
 
 /-!
 # A401094: Number of bicolored trees on n unlabeled vertices in which the black vertices form a nonempty connected subset.

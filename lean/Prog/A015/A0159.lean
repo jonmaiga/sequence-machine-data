@@ -42,6 +42,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6119,6 +6120,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015942.P7849107194553002293
+
+/-! ## A015942.P17448813782253006889
+
+`∩[A017593(n), A068563(n+1)]`
+-/
+
+namespace A015942.P17448813782253006889
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017593 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068563 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A015942.P17448813782253006889
 
 /-!
 # A015943: a(n) = (2^(2*n)+n) mod (2*n).

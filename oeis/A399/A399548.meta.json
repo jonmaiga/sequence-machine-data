@@ -1,0 +1,17 @@
+{
+  "description": "Number of shortest lattice paths starting at (0,0) and ending at (x,y) with x,y>=0, x^2+y^2<=n^2, (x+1)^2+y^2>n^2 and x^2+(y+1)^2>n^2.",
+  "id": "A399548",
+  "mentions": [
+    "A000984",
+    "A120752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

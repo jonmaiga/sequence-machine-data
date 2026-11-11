@@ -13,7 +13,6 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C039
@@ -33,7 +32,7 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -46,7 +45,6 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -1410,21 +1408,6 @@ end A396418.P18409543766584671586
 
 The programs for A396423, there is no canonical definition to state claims against.
 -/
-
-/-! ## A396423.P12355517875369822655
-
-`A193259(A134270(n+1))`
--/
-
-namespace A396423.P12355517875369822655
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193259 (A134270 (n + 1)).toNat
-
-end
-
-end A396423.P12355517875369822655
 
 /-! ## A396423.P669517782361418439
 

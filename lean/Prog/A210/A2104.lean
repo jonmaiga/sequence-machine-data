@@ -23,9 +23,9 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -4696,21 +4696,6 @@ end
 
 end A210444.P10005962012869401815
 
-/-! ## A210444.P5021266024286429553
-
-`and(A226934(A024781(n+1)), A226949(n+1))`
--/
-
-namespace A210444.P5021266024286429553
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A226934 (A024781 (n + 1)).toNat) (A226949 (n + 1))
-
-end
-
-end A210444.P5021266024286429553
-
 /-! ## A210444.P4583193621000839736
 
 `A226949(n+1)-A010051(A220051(n))`
@@ -8572,6 +8557,32 @@ theorem P9197453658123449790.correct : P9197453658123449790.Spec := by
 
 end A210469
 
+/-! ## A210469.P6688530470789748716
+
+`fp[A104275(n+1)-1]-1`
+-/
+
+namespace A210469.P6688530470789748716
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104275 (n + 1) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 : ℤ) - 1
+
+end
+
+end A210469.P6688530470789748716
+
+namespace A210469
+
+/-- `fp[A104275(n+1)-1]-1` -/
+def P6688530470789748716.Spec : Prop :=
+  ∀ n, P6688530470789748716.a n = A210469 (n + 1)
+
+end A210469
+
 /-!
 # A210471: Collatz (3x+1) problem with rational numbers: number of steps to reach the end of the cycle starting with 1/(2n+1).
 
@@ -9423,6 +9434,36 @@ def P5693941946232880322.Spec : Prop :=
 
 end A210477
 
+/-! ## A210477.P4469384143164266962
+
+`∩[A066312(n+1), A111192(n+1)]`
+-/
+
+namespace A210477.P4469384143164266962
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111192 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A210477.P4469384143164266962
+
+namespace A210477
+
+/-- `∩[A066312(n+1), A111192(n+1)]` -/
+def P4469384143164266962.Spec : Prop :=
+  ∀ n, (P4469384143164266962.a n : ℤ) = A210477 (n + 1)
+
+end A210477
+
 /-! ## A210477.P6714881570467627506
 
 `A013636(A031924(n+1))`
@@ -9496,36 +9537,6 @@ namespace A210477
 /-- `∩[A028560(n), A033476(n)]` -/
 def P472201158526821851.Spec : Prop :=
   ∀ n, (P472201158526821851.a n : ℤ) = A210477 (n + 1)
-
-end A210477
-
-/-! ## A210477.P7909030825217599800
-
-`∩[A033476(n), A164007(n)]`
--/
-
-namespace A210477.P7909030825217599800
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033476 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164007 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A210477.P7909030825217599800
-
-namespace A210477
-
-/-- `∩[A033476(n), A164007(n)]` -/
-def P7909030825217599800.Spec : Prop :=
-  ∀ n, (P7909030825217599800.a n : ℤ) = A210477 (n + 1)
 
 end A210477
 

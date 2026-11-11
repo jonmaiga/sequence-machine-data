@@ -22,7 +22,7 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C001
 import Seq.B003.C001
 import Seq.B004.C000
@@ -138,23 +138,20 @@ end
 
 end A119101.P17023961131126614862
 
-/-! ## A119101.P16312893373185865714
+/-! ## A119101.P15780099409662592626
 
-`∑{#}[A119102(n+1), #]`
+`A160791(2*A119102(n+1))`
 -/
 
-namespace A119101.P16312893373185865714
+namespace A119101.P15780099409662592626
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119102 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1).toNat, k
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160791 (2 * A119102 (n + 1)).toNat
 
 end
 
-end A119101.P16312893373185865714
+end A119101.P15780099409662592626
 
 /-!
 # A119102: Numbers k such that the k-th triangular number contains only digits {1,2,5}.
@@ -602,6 +599,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119108.P7854731359492239227
+
+/-! ## A119108.P17334659548360978142
+
+`A080098(A119107(n+1))`
+-/
+
+namespace A119108.P17334659548360978142
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080098 (A119107 (n + 1)).toNat
+
+end
+
+end A119108.P17334659548360978142
 
 /-!
 # A119109: Triangular numbers composed of digits {1,2,9}.
@@ -3684,20 +3696,20 @@ end
 
 end A119164.P6452025407476388531
 
-/-! ## A119164.P8606867280761473799
+/-! ## A119164.P13828475369089113447
 
-`A000124(A119165(n+1))-A008835(n+1)`
+`A160791(2*A119165(n+1))`
 -/
 
-namespace A119164.P8606867280761473799
+namespace A119164.P13828475369089113447
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000124 (A119165 (n + 1)).toNat - A008835 (n + 1)
+  A160791 (2 * A119165 (n + 1)).toNat
 
 end
 
-end A119164.P8606867280761473799
+end A119164.P13828475369089113447
 
 /-!
 # A119165: Numbers k such that the k-th triangular number contains only digits {2,5,6}.

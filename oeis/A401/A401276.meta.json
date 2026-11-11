@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number k such that 122^n - 102^n - 21^n = 2020 * k - 1.",
+  "id": "A401276",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

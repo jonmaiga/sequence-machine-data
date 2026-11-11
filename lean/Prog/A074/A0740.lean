@@ -37,7 +37,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1692,20 +1692,20 @@ end
 
 end A074034.P6156320879390355935
 
-/-! ## A074034.P4206516973616345863
+/-! ## A074034.P10021888492943709240
 
-`A215072(n+1)%floor(A215074(3*n+1)^(n/5))`
+`A277488(A179610(n))`
 -/
 
-namespace A074034.P4206516973616345863
+namespace A074034.P10021888492943709240
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A215072 (n + 1)) ⌊(A215074 (3 * n + 1) : ℝ) ^ ((n : ℚ) / 5 : ℝ)⌋
+  A277488 (A179610 n).toNat
 
 end
 
-end A074034.P4206516973616345863
+end A074034.P10021888492943709240
 
 /-!
 # A074035: Let a = RootOf( x^2+x+1 ) and b = 1+a. Number of degree-n irreducible polynomials over GF(4) with trace 1 and subtrace a.
@@ -4261,6 +4261,35 @@ theorem P4398480140508822695.correct : P4398480140508822695.Spec := by
 
 end A074057
 
+/-! ## A074057.P7795225634540965922
+
+`2*(A000010(n+1)-1)-n`
+-/
+
+namespace A074057.P7795225634540965922
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * (A000010 (n + 1) - 1) - (n : ℤ)
+
+end
+
+end A074057.P7795225634540965922
+
+namespace A074057
+
+/-- `2*(A000010(n+1)-1)-n` -/
+def P7795225634540965922.Spec : Prop :=
+  ∀ n, P7795225634540965922.a n = A074057 (n + 3)
+
+theorem P7795225634540965922.correct : P7795225634540965922.Spec := by
+  intro n
+  simp only [A074057, Nat.add_sub_cancel, A074057.P7795225634540965922.a, A074057.P5713316463646011208.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074057
+
 /-! ## A074057.P16355227864006058122
 
 `lcm(2, 1-A000010(lcm(2, n+1)))-n`
@@ -4541,29 +4570,6 @@ theorem P12473058227103824009.correct : P12473058227103824009.Spec := by
   simp only [A074057, Nat.add_sub_cancel, A074057.P12473058227103824009.a, A074057.P5713316463646011208.a, A000010, A000010.P4673923239450215316.a, A235796, A235796.P5769590272751401819.a, A297159, A297159.P13683911670693545293.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A074057
-
-/-! ## A074057.P3484865865168739493
-
-`A000010(A110192(n+1))-(n+2)`
--/
-
-namespace A074057.P3484865865168739493
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A110192 (n + 1)).toNat - (n + 2 : ℤ)
-
-end
-
-end A074057.P3484865865168739493
-
-namespace A074057
-
-/-- `A000010(A110192(n+1))-(n+2)` -/
-def P3484865865168739493.Spec : Prop :=
-  ∀ n, P3484865865168739493.a n = A074057 (n + 3)
 
 end A074057
 
@@ -4861,20 +4867,20 @@ end
 
 end A074060.P7981761117241425871
 
-/-! ## A074060.P14497522224875175445
+/-! ## A074060.P3968530972808813006
 
-`A094913(A157243(n))`
+`A102530(A141691(n))`
 -/
 
-namespace A074060.P14497522224875175445
+namespace A074060.P3968530972808813006
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094913 (A157243 n).toNat
+  A102530 (A141691 n).toNat
 
 end
 
-end A074060.P14497522224875175445
+end A074060.P3968530972808813006
 
 /-!
 # A074061: Positive integers k such that 24*k^2 - 23 is a square.

@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of free k-celled polyominoes that do not contain a copy of the free polyomino with binary code A246521(n), n >= 2, k >= 1.",
+  "id": "A401398",
+  "mentions": [
+    "A000105",
+    "A000120",
+    "A246521",
+    "A367443",
+    "A395334",
+    "A401399",
+    "A401400",
+    "A401401",
+    "A401402",
+    "A401403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}
