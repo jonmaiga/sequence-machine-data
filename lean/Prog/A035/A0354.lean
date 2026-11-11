@@ -26,7 +26,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -5810,20 +5809,20 @@ end
 
 end A035457.P9902297007922163512
 
-/-! ## A035457.P16029350550150061760
+/-! ## A035457.P11007479644142626210
 
-`A286653(A101881(n))`
+`A061198(A134519(n+2))`
 -/
 
-namespace A035457.P16029350550150061760
+namespace A035457.P11007479644142626210
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286653 (A101881 n).toNat
+  A061198 (A134519 (n + 2)).toNat
 
 end
 
-end A035457.P16029350550150061760
+end A035457.P11007479644142626210
 
 /-!
 # A035458: Number of partitions of n into parts 8k+2 or 8k+7.

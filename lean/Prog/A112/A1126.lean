@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -10935,20 +10934,20 @@ end
 
 end A112662.P6922801653944279291
 
-/-! ## A112662.P6938809334282062068
+/-! ## A112662.P15127959058881267423
 
-`A000093(A117851(n+1)²)`
+`A066023(A117851(n+1))`
 -/
 
-namespace A112662.P6938809334282062068
+namespace A112662.P15127959058881267423
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000093 (A117851 (n + 1) ^ 2).toNat
+  A066023 (A117851 (n + 1)).toNat
 
 end
 
-end A112662.P6938809334282062068
+end A112662.P15127959058881267423
 
 /-!
 # A112664: Lengths of k-cycles (k > 1) of permutation A114650 in order of their first appearance.

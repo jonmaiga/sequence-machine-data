@@ -4180,6 +4180,28 @@ end
 
 end A323428.P3929565299408411187
 
+/-! ## A323428.P2994336075239027578
+
+`∩[A192594(n+1), A192610(n+1)]`
+-/
+
+namespace A323428.P2994336075239027578
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192594 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192610 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A323428.P2994336075239027578
+
 /-! ## A323428.P3713552933564542613
 
 `filter[A192610(n+1), A135461(#)]`
@@ -4215,24 +4237,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A323428.P8480198955005395291
-
-/-! ## A323428.P14815270777242810622
-
-`filter[A192610(n+1), A323153(#)]`
--/
-
-namespace A323428.P14815270777242810622
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192610 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A323153 (f1 j).toNat = 1) n)
-
-end
-
-end A323428.P14815270777242810622
 
 /-!
 # A323429: Number of rectangular plane partitions of n.

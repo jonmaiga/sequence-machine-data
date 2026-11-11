@@ -36,6 +36,7 @@ import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
@@ -3719,6 +3720,64 @@ def P15808871402742761085.Spec : Prop :=
 
 end A373648
 
+/-! ## A373648.P14623584825417853776
+
+`eq[A074792(n+1), A131016(n+1)]`
+-/
+
+namespace A373648.P14623584825417853776
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074792 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131016 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A373648.P14623584825417853776
+
+namespace A373648
+
+/-- `eq[A074792(n+1), A131016(n+1)]` -/
+def P14623584825417853776.Spec : Prop :=
+  ∀ n, (P14623584825417853776.a n : ℤ) = A373648 (n + 1)
+
+end A373648
+
+/-! ## A373648.P14038166740280707223
+
+`eq[A083503(n+1), A131016(n+1)]`
+-/
+
+namespace A373648.P14038166740280707223
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083503 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131016 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A373648.P14038166740280707223
+
+namespace A373648
+
+/-- `eq[A083503(n+1), A131016(n+1)]` -/
+def P14038166740280707223.Spec : Prop :=
+  ∀ n, (P14038166740280707223.a n : ℤ) = A373648 (n + 1)
+
+end A373648
+
 /-!
 # A373649: Integers k such that there are i groups of order k+i up to isomorphism, for i=1,2,3.
 
@@ -4318,6 +4377,29 @@ namespace A373654
 /-- `fp[fp[A367637(2*n)]]` -/
 def P16512722898413569853.Spec : Prop :=
   ∀ n, (P16512722898413569853.a n : ℤ) = A373654 n
+
+end A373654
+
+/-! ## A373654.P17156969555939271741
+
+`A100721(A373639(n))`
+-/
+
+namespace A373654.P17156969555939271741
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100721 (A373639 n).toNat
+
+end
+
+end A373654.P17156969555939271741
+
+namespace A373654
+
+/-- `A100721(A373639(n))` -/
+def P17156969555939271741.Spec : Prop :=
+  ∀ n, P17156969555939271741.a n = A373654 n
 
 end A373654
 

@@ -1,12 +1,13 @@
 {
-  "description": "Numbers n such that n = sigma(sum of digits of n)*sigma(product of digits of n).",
+  "description": "Numbers k such that k = sigma(sum of digits of k)*sigma(product of digits of k).",
   "id": "A145745",
   "mentions": [
     "A038369"
   ],
   "tags": [
     "base",
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

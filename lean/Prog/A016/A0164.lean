@@ -19,7 +19,6 @@ import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C048
 import Seq.B000.C049
@@ -47,7 +46,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -1273,24 +1271,6 @@ end A016410.P8000853370711951911
 
 The programs for A016411, there is no canonical definition to state claims against.
 -/
-
-/-! ## A016411.P4096641772098669110
-
-`Δ[val(A087158(8+n), 10)]`
--/
-
-namespace A016411.P4096641772098669110
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A087158 (8 + n)).toNat 10
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
-
-end
-
-end A016411.P4096641772098669110
 
 /-! ## A016411.P11747231057327219098
 

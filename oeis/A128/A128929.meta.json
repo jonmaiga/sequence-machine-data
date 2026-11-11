@@ -1,5 +1,5 @@
 {
-  "description": "Diameter of a special type of regular graph of degree 4 whose order maintain an increase in form of an arithmetic progression.",
+  "description": "a(n) = floor((n+2)/4).",
   "id": "A128929",
   "mentions": [
     "A123642",

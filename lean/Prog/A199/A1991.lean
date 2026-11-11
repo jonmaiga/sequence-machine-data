@@ -21,7 +21,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -38,11 +37,11 @@ import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -236,6 +235,21 @@ end
 
 end A199104.P989179876799183840
 
+/-! ## A199104.P18404451441545002317
+
+`A226762(A401319(n+1))`
+-/
+
+namespace A199104.P18404451441545002317
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226762 (A401319 (n + 1)).toNat
+
+end
+
+end A199104.P18404451441545002317
+
 /-! ## A199104.P16555627280588774522
 
 `A081753(A223006(n+2))`
@@ -250,24 +264,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A199104.P16555627280588774522
-
-/-! ## A199104.P7014083156744035196
-
-`A100196(∑[A051286(n)²])`
--/
-
-namespace A199104.P7014083156744035196
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051286 n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A199104.P7014083156744035196
 
 /-!
 # A199105: Numbers k such that lambda(k) < A011773(k) < phi(k), where lambda is the Carmichael reduced totient function and phi the Euler totient function.

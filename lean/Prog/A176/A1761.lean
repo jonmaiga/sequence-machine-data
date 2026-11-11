@@ -29,6 +29,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -3384,6 +3385,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A176127.P10139633272443344960
+
+/-! ## A176127.P11908934065770678130
+
+`A383735(A287614(n+2))`
+-/
+
+namespace A176127.P11908934065770678130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383735 (A287614 (n + 2)).toNat
+
+end
+
+end A176127.P11908934065770678130
 
 /-!
 # A176128: a(n) = (n*n!)^2.

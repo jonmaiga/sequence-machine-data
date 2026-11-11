@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of {1..n} such that all primes are in prime positions.",
+  "id": "A401790",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A010551",
+    "A062298"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

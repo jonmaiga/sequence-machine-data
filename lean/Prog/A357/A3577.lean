@@ -61,6 +61,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -866,7 +867,7 @@ end A357713.P1694547786549858433
 /-!
 # A357714: a(n) is the number of equations in the set E_{n,b} := {x+2^b*y=n^b, 2^b*x+3^b*y=n^b, ..., k^b*x+(k+1)^b*y=n^b, ..., n^b*x+(n+1)^b*y=n^b} which admit at least one nonnegative integer solution when b is sufficiently large.
 
-The programs for A357714, the canonical program `A357714.P11822585714675304720` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357714 has offset 1).
+The programs for A357714, the canonical program `A357714.P11822585714675304720` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357714 has offset 1).
 
 The definition of A357714 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -875,7 +876,7 @@ The definition of A357714 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(n+1)-3/2)+A000005(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A357714
@@ -2535,6 +2536,29 @@ def P9040152959614539463.Spec : Prop :=
 theorem P9040152959614539463.correct : P9040152959614539463.Spec := by
   intro n
   simp only [A357731, Nat.add_sub_cancel]
+
+end A357731
+
+/-! ## A357731.P18049397063999291598
+
+`A192687(A398143(n+2))`
+-/
+
+namespace A357731.P18049397063999291598
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192687 (A398143 (n + 2)).toNat
+
+end
+
+end A357731.P18049397063999291598
+
+namespace A357731
+
+/-- `A192687(A398143(n+2))` -/
+def P18049397063999291598.Spec : Prop :=
+  ∀ n, P18049397063999291598.a n = A357731 (n + 3)
 
 end A357731
 

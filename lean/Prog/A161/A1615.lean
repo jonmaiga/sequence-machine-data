@@ -55,6 +55,7 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -135,19 +136,19 @@ end
 
 end A161500.P3841063576889812803
 
-/-! ## A161500.P5104671848490108838
+/-! ## A161500.P17995091788848310282
 
-`∩[A002313(A261034(n+1)), A303431(n+1)]`
+`∩[A255737(n), A343591(n+1)]`
 -/
 
-namespace A161500.P5104671848490108838
+namespace A161500.P17995091788848310282
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002313 (A261034 (n + 1)).toNat
+  A255737 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303431 (n + 1)
+  A343591 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -155,7 +156,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A161500.P5104671848490108838
+end A161500.P17995091788848310282
 
 /-!
 # A161501: a(n) is the smallest positive integer that is a palindrome when represented in binary, and is made by appending some number (zero or more) of binary digits on the right of n's binary representation.
@@ -10573,6 +10574,29 @@ def P12734933596058750572.Spec : Prop :=
 
 end A161579
 
+/-! ## A161579.P15943674672390215989
+
+`A140427(A161580(n+1))`
+-/
+
+namespace A161579.P15943674672390215989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140427 (A161580 (n + 1)).toNat
+
+end
+
+end A161579.P15943674672390215989
+
+namespace A161579
+
+/-- `A140427(A161580(n+1))` -/
+def P15943674672390215989.Spec : Prop :=
+  ∀ n, P15943674672390215989.a n = A161579 (n + 1)
+
+end A161579
+
 /-! ## A161579.P2640459630248027874
 
 `A004524(A161580(n+1)+1)-1`
@@ -10593,35 +10617,6 @@ namespace A161579
 /-- `A004524(A161580(n+1)+1)-1` -/
 def P2640459630248027874.Spec : Prop :=
   ∀ n, P2640459630248027874.a n = A161579 (n + 1)
-
-end A161579
-
-/-! ## A161579.P9740165959259459927
-
-`eq[A029884(2*n)², A029884(n+1)²]`
--/
-
-namespace A161579.P9740165959259459927
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029884 (2 * n) ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029884 (n + 1) ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A161579.P9740165959259459927
-
-namespace A161579
-
-/-- `eq[A029884(2*n)², A029884(n+1)²]` -/
-def P9740165959259459927.Spec : Prop :=
-  ∀ n, (P9740165959259459927.a n : ℤ) = A161579 (n + 1)
 
 end A161579
 

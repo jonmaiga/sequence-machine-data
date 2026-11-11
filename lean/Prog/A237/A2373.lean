@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -11,7 +10,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -79,10 +77,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A237300: Number of (n+1)X(n+1) 0..2 arrays with the upper median of every 2X2 subblock equal.
@@ -3721,33 +3715,26 @@ def P3634167798232699295.Spec : Prop :=
 
 end A237347
 
-/-! ## A237347.P8869390609444325105
+/-! ## A237347.P14596578749912118610
 
-`Δ[A078633(n+1)]`
+`A132169(A000267(n+1)-A000267(n))`
 -/
 
-namespace A237347.P8869390609444325105
+namespace A237347.P14596578749912118610
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078633 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  A132169 (A000267 (n + 1) - A000267 n).toNat
 
 end
 
-end A237347.P8869390609444325105
+end A237347.P14596578749912118610
 
 namespace A237347
 
-/-- `Δ[A078633(n+1)]` -/
-def P8869390609444325105.Spec : Prop :=
-  ∀ n, P8869390609444325105.a n = A237347 (n + 1)
-
-theorem P8869390609444325105.correct : P8869390609444325105.Spec := by
-  intro n
-  simp only [A237347, Nat.add_sub_cancel, A237347.P8869390609444325105.f1, A237347.P8869390609444325105.a, A237347.P14494356803282129209.a, SequenceMachineLib.memo_apply]
+/-- `A132169(A000267(n+1)-A000267(n))` -/
+def P14596578749912118610.Spec : Prop :=
+  ∀ n, P14596578749912118610.a n = A237347 (n + 1)
 
 end A237347
 

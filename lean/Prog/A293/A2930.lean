@@ -94,6 +94,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A293003: Expansion of Product_{k>=1} (1 - x^(2*k))/(1 - x^(3*k)).
@@ -8642,27 +8643,6 @@ end
 
 end A293074.P12316916594959165237
 
-/-! ## A293074.P7929014539238246082
-
-`eq[A003415(n), A351005(A357982(n+1))]`
--/
-
-namespace A293074.P7929014539238246082
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003415 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351005 (A357982 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A293074.P7929014539238246082
-
 /-! ## A293074.P3064637752694085632
 
 `eq[A003415(n), A196847(A156061(n+1))]`
@@ -8722,6 +8702,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A293074.P11912228055822965535
+
+/-! ## A293074.P15314671188865878915
+
+`∩[A382393(n+1), A386356(n+1)]`
+-/
+
+namespace A293074.P15314671188865878915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382393 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386356 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293074.P15314671188865878915
 
 /-!
 # A293076: Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n-2), where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4.

@@ -30,6 +30,7 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -49,7 +50,6 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -9178,26 +9178,26 @@ The programs for A339876, the canonical program `A339876.P9808336526575929163` i
 The definition of A339876 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A122111, A336466, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A339876.P14885752610669941915
+/-! ## A339876.P15802686081336008402
 
-`A000265(A105560(n+1)-1)*a(A064989(n+1)-1)` with `a(0)=1, a(1)=1`
+`A000265(A105560(n+1)-1)*a(A064989(n+1)-1)` with `a(0)=1`
 -/
 
-namespace A339876.P14885752610669941915
+namespace A339876.P15802686081336008402
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
   A000265 (A105560 (n + 1) - 1).toNat * a (A064989 (n + 1) - 1).toNat
 
 end
 
-end A339876.P14885752610669941915
+end A339876.P15802686081336008402
 
 namespace A339876
 
 /-- `A000265(A105560(n+1)-1)*a(A064989(n+1)-1)` -/
-def P14885752610669941915.Spec : Prop :=
-  ∀ n, P14885752610669941915.a n = A339876 (n + 1)
+def P15802686081336008402.Spec : Prop :=
+  ∀ n, P15802686081336008402.a n = A339876 (n + 1)
 
 end A339876
 

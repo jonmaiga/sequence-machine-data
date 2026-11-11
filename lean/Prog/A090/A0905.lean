@@ -7366,6 +7366,32 @@ def P2776734668452723534.Spec : Prop :=
 
 end A090590
 
+/-! ## A090590.P1313266064483081572
+
+`∑{#}[floor((n+1)/2), (-1)^#*C(n+1, 2*#)*7^#]`
+-/
+
+namespace A090590.P1313266064483081572
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℚ) / 2⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1) ^ k * (Nat.choose (n + 1) (2 * k) : ℤ) * (7 ^ k : ℤ)
+
+end
+
+end A090590.P1313266064483081572
+
+namespace A090590
+
+/-- `∑{#}[floor((n+1)/2), (-1)^#*C(n+1, 2*#)*7^#]` -/
+def P1313266064483081572.Spec : Prop :=
+  ∀ n, P1313266064483081572.a n = A090590 (n + 1)
+
+end A090590
+
 /-! ## A090590.P11680497998433060249
 
 `A002249(n+1)/A014551(n+1)*A003665(n+1)`

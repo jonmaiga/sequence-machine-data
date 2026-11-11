@@ -5086,6 +5086,29 @@ def P12323361260035231560.Spec : Prop :=
 
 end A296665
 
+/-! ## A296665.P10400096950469300547
+
+`2*C(2*n, n)*(n+1)-4^n`
+-/
+
+namespace A296665.P10400096950469300547
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * Nat.choose (2 * n) n * (n + 1) : ℤ) - (4 ^ n : ℤ)
+
+end
+
+end A296665.P10400096950469300547
+
+namespace A296665
+
+/-- `2*C(2*n, n)*(n+1)-4^n` -/
+def P10400096950469300547.Spec : Prop :=
+  ∀ n, P10400096950469300547.a n = A296665 n
+
+end A296665
+
 /-!
 # A296666: Table read by rows, the even rows of A296664, T(n, k) for n >= 0 and 0 <= k <= 2n.
 

@@ -1609,27 +1609,6 @@ end
 end A264116.P16528849186038973199
 
 /-!
-# A264117: Largest integer which cannot be partitioned using only parts from the set {perfect powers excluding the n smallest}.
-
-The programs for A264117, there is no canonical definition to state claims against.
--/
-
-/-! ## A264117.P12464371188668498547
-
-`A160217(A044073(n+1))-A020639(A044083(n+1))`
--/
-
-namespace A264117.P12464371188668498547
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160217 (A044073 (n + 1)).toNat - A020639 (A044083 (n + 1)).toNat
-
-end
-
-end A264117.P12464371188668498547
-
-/-!
 # A264118: Numbers that can be represented as S1+S2, as T1+T2, and as S3+T3, where S1, S2, S3 are positive squares, and T1, T2, T3 are positive triangular numbers.
 
 The programs for A264118, there is no canonical definition to state claims against.
@@ -2673,20 +2652,20 @@ end
 
 end A264129.P16618840778476839128
 
-/-! ## A264129.P10667193312872654940
+/-! ## A264129.P8284952851582613954
 
-`A264131(A085062(2*(n+1))+A000217(n+3))`
+`A264131(A141214(n+1))`
 -/
 
-namespace A264129.P10667193312872654940
+namespace A264129.P8284952851582613954
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264131 (A085062 (2 * (n + 1)) + A000217 (n + 3)).toNat
+  A264131 (A141214 (n + 1)).toNat
 
 end
 
-end A264129.P10667193312872654940
+end A264129.P8284952851582613954
 
 /-!
 # A264130: Number of (n+1) X (6+1) arrays of permutations of 0..n*7+6 with each element having index change +-(.,.) 0,0 0,2 or 1,2.

@@ -1602,16 +1602,16 @@ end
 
 end A366724.P17714648179497359077
 
-/-! ## A366724.P1221876032524358891
+/-! ## A366724.P3917897163676699701
 
-`eq[A007305(A124010(n+1)), A366574(n+1)]`
+`eq[A023532(n), A366574(n+1)]`
 -/
 
-namespace A366724.P1221876032524358891
+namespace A366724.P3917897163676699701
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007305 (A124010 (n + 1)).toNat
+  A023532 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A366574 (n + 1)
@@ -1621,7 +1621,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A366724.P1221876032524358891
+end A366724.P3917897163676699701
 
 /-!
 # A366725: Sum of odd indices of distinct prime factors of n.
@@ -6791,6 +6791,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366779.P6464507285320624256
+
+/-! ## A366779.P10238502935111603944
+
+`A210960(A279079(n+1))`
+-/
+
+namespace A366779.P10238502935111603944
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210960 (A279079 (n + 1)).toNat
+
+end
+
+end A366779.P10238502935111603944
 
 /-!
 # A366780: Number of distinct prime divisors of A000073(n) (tribonacci numbers).

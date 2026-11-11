@@ -41,6 +41,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -86,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -6774,29 +6774,29 @@ end A144565.P9570982247753356788
 /-!
 # A144566: Numbers with more prime factors (including multiplicity) than their greatest prime factor.
 
-The programs for A144566, there is no canonical definition to state claims against.
+The programs for A144566, the canonical program `A144566.P11433495359411133363` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144566 has offset 1).
+
+The definition of A144566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A144566.P11433495359411133363
 
 `lt[A006530(n+1), A001222(n+1)]+1`
+
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
-namespace A144566.P11433495359411133363
-noncomputable section
+namespace A144566
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (n + 1)
+/-- `lt[A006530(n+1), A001222(n+1)]+1` -/
+def P11433495359411133363.Spec : Prop :=
+  ∀ n, (P11433495359411133363.a n : ℤ) = A144566 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (n + 1)
+theorem P11433495359411133363.correct : P11433495359411133363.Spec := by
+  intro n
+  simp only [A144566, Nat.add_sub_cancel]
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
-
-end
-
-end A144566.P11433495359411133363
+end A144566
 
 /-! ## A144566.P3751395368192316020
 
@@ -6819,6 +6819,14 @@ end
 
 end A144566.P3751395368192316020
 
+namespace A144566
+
+/-- `lt[A085392(n+1), A001222(n+1)]+1` -/
+def P3751395368192316020.Spec : Prop :=
+  ∀ n, (P3751395368192316020.a n : ℤ) = A144566 (n + 1)
+
+end A144566
+
 /-! ## A144566.P10103884458098650416
 
 `lt[A006530(n+1), A086436(n+1)]+1`
@@ -6839,6 +6847,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A144566.P10103884458098650416
+
+namespace A144566
+
+/-- `lt[A006530(n+1), A086436(n+1)]+1` -/
+def P10103884458098650416.Spec : Prop :=
+  ∀ n, (P10103884458098650416.a n : ℤ) = A144566 (n + 1)
+
+end A144566
 
 /-! ## A144566.P7889063767661328811
 
@@ -6861,6 +6877,14 @@ end
 
 end A144566.P7889063767661328811
 
+namespace A144566
+
+/-- `lt[A111089(n+1), A001222(n+1)]+1` -/
+def P7889063767661328811.Spec : Prop :=
+  ∀ n, (P7889063767661328811.a n : ℤ) = A144566 (n + 1)
+
+end A144566
+
 /-! ## A144566.P2323786134834453607
 
 `lt[A014963(A053585(n+1)), A001222(n+1)]+1`
@@ -6881,6 +6905,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A144566.P2323786134834453607
+
+namespace A144566
+
+/-- `lt[A014963(A053585(n+1)), A001222(n+1)]+1` -/
+def P2323786134834453607.Spec : Prop :=
+  ∀ n, (P2323786134834453607.a n : ℤ) = A144566 (n + 1)
+
+end A144566
 
 /-!
 # A144567: Primes of the form: smallest prime factor of n + largest prime factor of n, n > 1.

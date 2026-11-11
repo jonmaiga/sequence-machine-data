@@ -38,6 +38,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -57,6 +58,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -4396,6 +4398,90 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A374037.P8870719146813691521
+
+/-! ## A374037.P14225594198159042677
+
+`eq[A329684(n), A374036(n)]`
+-/
+
+namespace A374037.P14225594198159042677
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329684 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374036 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A374037.P14225594198159042677
+
+/-! ## A374037.P15016028263107949366
+
+`eq[A109768(n+1), A374036(n)]`
+-/
+
+namespace A374037.P15016028263107949366
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109768 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374036 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A374037.P15016028263107949366
+
+/-! ## A374037.P5390653896564927440
+
+`eq[A236398(n+1), A374036(n)]`
+-/
+
+namespace A374037.P5390653896564927440
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236398 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374036 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A374037.P5390653896564927440
+
+/-! ## A374037.P2287997498529552746
+
+`eq[A283149(n+1), A374036(n)]`
+-/
+
+namespace A374037.P2287997498529552746
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283149 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374036 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A374037.P2287997498529552746
 
 /-!
 # A374038: Numbers k such that A328845(k) and A328846(k) are not both even, where A328845 and A328846 are the first and second Fibonacci-based variants of the arithmetic derivative.
@@ -10623,29 +10709,26 @@ def P5047256413228892623.Spec : Prop :=
 
 end A374083
 
-/-! ## A374083.P17693410485622610829
+/-! ## A374083.P17885105756727966180
 
-`∑[A212968(2*n)]`
+`A187756(n+1)-(A002415(n+1)+A002415(n+1))`
 -/
 
-namespace A374083.P17693410485622610829
+namespace A374083.P17885105756727966180
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212968 (2 * n)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A187756 (n + 1) - (A002415 (n + 1) + A002415 (n + 1))
 
 end
 
-end A374083.P17693410485622610829
+end A374083.P17885105756727966180
 
 namespace A374083
 
-/-- `∑[A212968(2*n)]` -/
-def P17693410485622610829.Spec : Prop :=
-  ∀ n, P17693410485622610829.a n = A374083 (n + 1)
+/-- `A187756(n+1)-(A002415(n+1)+A002415(n+1))` -/
+def P17885105756727966180.Spec : Prop :=
+  ∀ n, P17885105756727966180.a n = A374083 (n + 1)
 
 end A374083
 

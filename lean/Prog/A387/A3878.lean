@@ -22,6 +22,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C037
@@ -4599,6 +4600,29 @@ def P447721686256553980.Spec : Prop :=
 
 end A387871
 
+/-! ## A387871.P7215881515292415400
+
+`A139398(2*n+1)+A130706(n+2)`
+-/
+
+namespace A387871.P7215881515292415400
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139398 (2 * n + 1) + A130706 (n + 2)
+
+end
+
+end A387871.P7215881515292415400
+
+namespace A387871
+
+/-- `A139398(2*n+1)+A130706(n+2)` -/
+def P7215881515292415400.Spec : Prop :=
+  ∀ n, P7215881515292415400.a n = A387871 n
+
+end A387871
+
 /-! ## A387871.P5813009028612880635
 
 `or(A139398(2*n+1), A270006(2*n))`
@@ -4642,6 +4666,52 @@ namespace A387871
 /-- `max(A139398(2*n), A139398(2*n+1))` -/
 def P6235658117946374307.Spec : Prop :=
   ∀ n, P6235658117946374307.a n = A387871 n
+
+end A387871
+
+/-! ## A387871.P15217203557987137399
+
+`A001511(2*n+1)*A139398(2*n+1)`
+-/
+
+namespace A387871.P15217203557987137399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001511 (2 * n + 1) * A139398 (2 * n + 1)
+
+end
+
+end A387871.P15217203557987137399
+
+namespace A387871
+
+/-- `A001511(2*n+1)*A139398(2*n+1)` -/
+def P15217203557987137399.Spec : Prop :=
+  ∀ n, P15217203557987137399.a n = A387871 n
+
+end A387871
+
+/-! ## A387871.P14459456790324277130
+
+`A139398(2*n+1)*A268361(2*n+1)`
+-/
+
+namespace A387871.P14459456790324277130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139398 (2 * n + 1) * A268361 (2 * n + 1)
+
+end
+
+end A387871.P14459456790324277130
+
+namespace A387871
+
+/-- `A139398(2*n+1)*A268361(2*n+1)` -/
+def P14459456790324277130.Spec : Prop :=
+  ∀ n, P14459456790324277130.a n = A387871 n
 
 end A387871
 
@@ -5757,29 +5827,29 @@ end A387880.P14158403083888855927
 /-!
 # A387881: Numbers whose prime indices are subdiagonal.
 
-The programs for A387881, there is no canonical definition to state claims against.
+The programs for A387881, the canonical program `A387881.P4607933904920200842` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387881 has offset 1).
+
+The definition of A387881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 593 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A387881.P4607933904920200842
 
 `eq[A001222(n+1), A065770(n+1)]+1`
+
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
-namespace A387881.P4607933904920200842
-noncomputable section
+namespace A387881
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (n + 1)
+/-- `eq[A001222(n+1), A065770(n+1)]+1` -/
+def P4607933904920200842.Spec : Prop :=
+  ∀ n, (P4607933904920200842.a n : ℤ) = A387881 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065770 (n + 1)
+theorem P4607933904920200842.correct : P4607933904920200842.Spec := by
+  intro n
+  simp only [A387881, Nat.add_sub_cancel]
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A387881.P4607933904920200842
+end A387881
 
 /-! ## A387881.P8750889779372815526
 
@@ -5802,6 +5872,14 @@ end
 
 end A387881.P8750889779372815526
 
+namespace A387881
+
+/-- `lt[A065770(n+1), A065770(2*(n+1))]+1` -/
+def P8750889779372815526.Spec : Prop :=
+  ∀ n, (P8750889779372815526.a n : ℤ) = A387881 (n + 1)
+
+end A387881
+
 /-! ## A387881.P4012559059142555466
 
 `filter[A325795(1+n), A331281(#)]`
@@ -5819,6 +5897,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387881.P4012559059142555466
+
+namespace A387881
+
+/-- `filter[A325795(1+n), A331281(#)]` -/
+def P4012559059142555466.Spec : Prop :=
+  ∀ n, P4012559059142555466.a n = A387881 (n + 1)
+
+end A387881
 
 /-! ## A387881.P15305673037325426972
 
@@ -5838,6 +5924,14 @@ end
 
 end A387881.P15305673037325426972
 
+namespace A387881
+
+/-- `filter[A325796(n+1), A331281(#)]` -/
+def P15305673037325426972.Spec : Prop :=
+  ∀ n, P15305673037325426972.a n = A387881 (n + 1)
+
+end A387881
+
 /-! ## A387881.P4646140040759607170
 
 `filter[A390626(n+1), A331168(#)]`
@@ -5855,6 +5949,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387881.P4646140040759607170
+
+namespace A387881
+
+/-- `filter[A390626(n+1), A331168(#)]` -/
+def P4646140040759607170.Spec : Prop :=
+  ∀ n, P4646140040759607170.a n = A387881 (n + 1)
+
+end A387881
 
 /-!
 # A387883: a(n) is the number of regions into which the plane is divided by n^2 circles of radius 1, the centers of which are located at the nodes of a square lattice n X n.

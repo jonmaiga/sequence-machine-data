@@ -27,6 +27,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -7387,29 +7388,29 @@ theorem P11326389785360078521.correct : P11326389785360078521.Spec := by
 
 end A134758
 
-/-! ## A134758.P12296884192343715051
+/-! ## A134758.P133637313136577752
 
-`∑{#}[n, C(n, #)²]+n`
+`n+∑{#}[n, C(n, #)²]`
 -/
 
-namespace A134758.P12296884192343715051
+namespace A134758.P133637313136577752
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 + n
+  n + ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2
 
 end
 
-end A134758.P12296884192343715051
+end A134758.P133637313136577752
 
 namespace A134758
 
-/-- `∑{#}[n, C(n, #)²]+n` -/
-def P12296884192343715051.Spec : Prop :=
-  ∀ n, (P12296884192343715051.a n : ℤ) = A134758 n
+/-- `n+∑{#}[n, C(n, #)²]` -/
+def P133637313136577752.Spec : Prop :=
+  ∀ n, (P133637313136577752.a n : ℤ) = A134758 n
 
 end A134758
 
@@ -8364,12 +8365,12 @@ def P6562264370332587863.Spec : Prop :=
 
 end A134760
 
-/-! ## A134760.P14828702061672550214
+/-! ## A134760.P3144436807502144175
 
-`∑{#}[n, C(n, #)²]+∑{#}[n, C(n, #)²]-1`
+`∑{#}[n, C(n, #)²]+∑{#}[n, C(n, #+1)²]`
 -/
 
-namespace A134760.P14828702061672550214
+namespace A134760.P3144436807502144175
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8378,18 +8379,18 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 : ℕ) : ℤ) + (((∑ k ∈ Finset.range (f2 n + 1), Nat.choose n k ^ 2 : ℕ) : ℤ) - 1)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 + ∑ k ∈ Finset.range (f2 n + 1), Nat.choose n (k + 1) ^ 2
 
 end
 
-end A134760.P14828702061672550214
+end A134760.P3144436807502144175
 
 namespace A134760
 
-/-- `∑{#}[n, C(n, #)²]+∑{#}[n, C(n, #)²]-1` -/
-def P14828702061672550214.Spec : Prop :=
-  ∀ n, P14828702061672550214.a n = A134760 n
+/-- `∑{#}[n, C(n, #)²]+∑{#}[n, C(n, #+1)²]` -/
+def P3144436807502144175.Spec : Prop :=
+  ∀ n, (P3144436807502144175.a n : ℤ) = A134760 n
 
 end A134760
 

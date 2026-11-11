@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-dimensional vector partitions of (n, n, n) in which every part has at least one zero coordinate and at least one part has exactly two nonzero coordinates.",
+  "id": "A400455",
+  "mentions": [
+    "A000041",
+    "A219678",
+    "A219727",
+    "A399611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

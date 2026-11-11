@@ -1,0 +1,25 @@
+{
+  "description": "Largest divisor of sigma(n) coprime with n, where sigma is the sum of divisors function.",
+  "id": "A401375",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A017665",
+    "A105402",
+    "A244669",
+    "A401379",
+    "A401381",
+    "A401382",
+    "A401389"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

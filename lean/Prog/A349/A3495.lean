@@ -5659,20 +5659,20 @@ end
 
 end A349593.P17407619854123883391
 
-/-! ## A349593.P2002348652266493622
+/-! ## A349593.P2893232663534175103
 
-`A284849(A156576(n+1))`
+`A138028(A151766(n+1))`
 -/
 
-namespace A349593.P2002348652266493622
+namespace A349593.P2893232663534175103
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284849 (A156576 (n + 1)).toNat
+  A138028 (A151766 (n + 1)).toNat
 
 end
 
-end A349593.P2002348652266493622
+end A349593.P2893232663534175103
 
 /-!
 # A349594: Number of 2 X n mazes that can be navigated from the top left corner to the bottom right corner.

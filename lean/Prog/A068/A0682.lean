@@ -84,6 +84,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1947,23 +1948,23 @@ end
 
 end A068215.P9426491356780636716
 
-/-! ## A068215.P16207693140560534690
+/-! ## A068215.P9468396831504786409
 
-`A097749(∑[n+2])`
+`A096111(∑[4^n])`
 -/
 
-namespace A068215.P16207693140560534690
+namespace A068215.P9468396831504786409
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  4 ^ n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097749 (∑ j ∈ Finset.range (n + 1), f1 j)
+  A096111 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A068215.P16207693140560534690
+end A068215.P9468396831504786409
 
 /-!
 # A068216: a(n) is the smallest n-digit pseudoprime (to base 2).
@@ -2509,6 +2510,29 @@ The programs for A068219, the canonical program `A068219.P5528515115272368905` i
 The definition of A068219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A068219.P2569322719222727873
+
+`3*(n+1)/gcd(n+1, 4)`
+-/
+
+namespace A068219.P2569322719222727873
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 * (n + 1) : ℚ) / (Nat.gcd (n + 1) 4 : ℚ)
+
+end
+
+end A068219.P2569322719222727873
+
+namespace A068219
+
+/-- `3*(n+1)/gcd(n+1, 4)` -/
+def P2569322719222727873.Spec : Prop :=
+  ∀ n, P2569322719222727873.a n = (A068219 (n + 1) : ℚ)
+
+end A068219
+
 /-! ## A068219.P5528515115272368905
 
 `3*A060819(n+1)`
@@ -2577,29 +2601,6 @@ namespace A068219
 /-- `3*∑[floor(Δ[n/gcd(4, n)])]` -/
 def P12808774373902499271.Spec : Prop :=
   ∀ n, P12808774373902499271.a n = A068219 (n + 1)
-
-end A068219
-
-/-! ## A068219.P9951655818464258334
-
-`3*(n+1)/gcd(n+5, n+1)`
--/
-
-namespace A068219.P9951655818464258334
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 * (n + 1) : ℚ) / (Nat.gcd (n + 5) (n + 1) : ℚ)
-
-end
-
-end A068219.P9951655818464258334
-
-namespace A068219
-
-/-- `3*(n+1)/gcd(n+5, n+1)` -/
-def P9951655818464258334.Spec : Prop :=
-  ∀ n, P9951655818464258334.a n = (A068219 (n + 1) : ℚ)
 
 end A068219
 
@@ -6043,6 +6044,29 @@ theorem P7818448549640947915.correct : P7818448549640947915.Spec := by
 
 end A068236
 
+/-! ## A068236.P7249809642635127529
+
+`A005899(n+1)*A008706(n+1)`
+-/
+
+namespace A068236.P7249809642635127529
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005899 (n + 1) * A008706 (n + 1)
+
+end
+
+end A068236.P7249809642635127529
+
+namespace A068236
+
+/-- `A005899(n+1)*A008706(n+1)` -/
+def P7249809642635127529.Spec : Prop :=
+  ∀ n, P7249809642635127529.a n = A068236 n
+
+end A068236
+
 /-! ## A068236.P12011895447498218239
 
 `Δ[Δ[A000584(n)]]`
@@ -6073,41 +6097,6 @@ def P12011895447498218239.Spec : Prop :=
 theorem P12011895447498218239.correct : P12011895447498218239.Spec := by
   intro n
   simp only [A068236, Nat.add_sub_cancel, A068236.P12011895447498218239.f2, A068236.P12011895447498218239.f1, A068236.P12011895447498218239.a, A068236.P8866221321753829906.a, A000584, A000584.P5477385692209315495.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
-end A068236
-
-/-! ## A068236.P10571330944087692366
-
-`Δ[Δ[A061167(n)]]`
--/
-
-namespace A068236.P10571330944087692366
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061167 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A068236.P10571330944087692366
-
-namespace A068236
-
-/-- `Δ[Δ[A061167(n)]]` -/
-def P10571330944087692366.Spec : Prop :=
-  ∀ n, P10571330944087692366.a n = A068236 n
-
-theorem P10571330944087692366.correct : P10571330944087692366.Spec := by
-  intro n
-  simp only [A068236, Nat.add_sub_cancel, A068236.P10571330944087692366.f2, A068236.P10571330944087692366.f1, A068236.P10571330944087692366.a, A068236.P8866221321753829906.a, A061167, A061167.P10314290942309870978.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

@@ -65,6 +65,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -4546,26 +4547,26 @@ def P10549635761728270912.Spec : Prop :=
 
 end A281236
 
-/-! ## A281236.P7610112208352187046
+/-! ## A281236.P10936131329956325207
 
-`A042948(A281240(n+1))`
+`A014682(A281242(n+1))`
 -/
 
-namespace A281236.P7610112208352187046
+namespace A281236.P10936131329956325207
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042948 (A281240 (n + 1)).toNat
+  A014682 (A281242 (n + 1)).toNat
 
 end
 
-end A281236.P7610112208352187046
+end A281236.P10936131329956325207
 
 namespace A281236
 
-/-- `A042948(A281240(n+1))` -/
-def P7610112208352187046.Spec : Prop :=
-  ∀ n, P7610112208352187046.a n = A281236 (n + 1)
+/-- `A014682(A281242(n+1))` -/
+def P10936131329956325207.Spec : Prop :=
+  ∀ n, P10936131329956325207.a n = A281236 (n + 1)
 
 end A281236
 

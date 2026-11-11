@@ -30,7 +30,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B001.C000
@@ -5075,6 +5075,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A075067.P1407496533652213508
+
+/-! ## A075067.P6681607595069088299
+
+`A182874(n+1)+A001632(n+2)-A182875(n+1)`
+-/
+
+namespace A075067.P6681607595069088299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182874 (n + 1) + A001632 (n + 2) - A182875 (n + 1)
+
+end
+
+end A075067.P6681607595069088299
 
 /-!
 # A075068: Product of prime(n) primes starting from prime(n).

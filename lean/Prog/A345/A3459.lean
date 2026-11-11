@@ -4842,20 +4842,35 @@ end
 
 end A345931.P8016145996417087318
 
-/-! ## A345931.P5786565015954876491
+/-! ## A345931.P10338049552777069573
 
-`gcd(A062776(n+1), A064760(n+1))`
+`gcd(A064760(n+1), A067911(n+1))`
 -/
 
-namespace A345931.P5786565015954876491
+namespace A345931.P10338049552777069573
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A062776 (n + 1)) (A064760 (n + 1))
+  Int.gcd (A064760 (n + 1)) (A067911 (n + 1))
 
 end
 
-end A345931.P5786565015954876491
+end A345931.P10338049552777069573
+
+/-! ## A345931.P13713095114470019623
+
+`gcd(A051696(n+1), A064760(n+1))`
+-/
+
+namespace A345931.P13713095114470019623
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A051696 (n + 1)) (A064760 (n + 1))
+
+end
+
+end A345931.P13713095114470019623
 
 /-! ## A345931.P14467331601433932262
 
@@ -9291,6 +9306,21 @@ end
 
 end A345952.P8161195070667905543
 
+/-! ## A345952.P16625666041095615900
+
+`A268340(A034699(n+1))`
+-/
+
+namespace A345952.P16625666041095615900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268340 (A034699 (n + 1)).toNat
+
+end
+
+end A345952.P16625666041095615900
+
 /-! ## A345952.P4121570892039841732
 
 `A249442(A088388(n+1)²)`
@@ -9354,20 +9384,20 @@ end
 
 end A345952.P17875483726145889703
 
-/-! ## A345952.P15712412289891474853
+/-! ## A345952.P1801388802704208297
 
-`A268340(A034699(2*n+1-n))`
+`A345951(A034699(2*n+1-n))`
 -/
 
-namespace A345952.P15712412289891474853
+namespace A345952.P1801388802704208297
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268340 (A034699 (2 * n + 1 - n)).toNat
+  A345951 (A034699 (2 * n + 1 - n)).toNat
 
 end
 
-end A345952.P15712412289891474853
+end A345952.P1801388802704208297
 
 /-! ## A345952.P3054953046813441226
 
@@ -9530,21 +9560,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345952.P3258207974346243771
-
-/-! ## A345952.P10144464563700444684
-
-`1-A322353(A034699((n+1)²))`
--/
-
-namespace A345952.P10144464563700444684
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A322353 (A034699 ((n + 1) ^ 2)).toNat
-
-end
-
-end A345952.P10144464563700444684
 
 /-!
 # A345953: Number of ways to tile a 2 X n strip with squares and P-shaped pentominos.

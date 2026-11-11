@@ -8,9 +8,10 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
@@ -558,6 +559,35 @@ def P9247790118306362924.Spec : Prop :=
 
 end A016800
 
+/-! ## A016800.P1416885021879289515
+
+`A016791(n)*A016792(n)*A016793(n)`
+-/
+
+namespace A016800.P1416885021879289515
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016791 n * A016792 n * A016793 n
+
+end
+
+end A016800.P1416885021879289515
+
+namespace A016800
+
+/-- `A016791(n)*A016792(n)*A016793(n)` -/
+def P1416885021879289515.Spec : Prop :=
+  ∀ n, P1416885021879289515.a n = A016800 n
+
+theorem P1416885021879289515.correct : P1416885021879289515.Spec := by
+  intro n
+  simp only [A016800, Nat.add_sub_cancel, A016800.P1416885021879289515.a, A016800.P2355351043279247607.a, A016791, A016791.P13208806347124039064.a, A016792, A016792.P16426647478479500699.a, A016793, A016793.P7571111589597192072.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A016800
+
 /-!
 # A016801: Expansion of g.f. 1/((1 - 3*x)*(1 - 4*x)*(1 - 7*x)).
 
@@ -766,7 +796,7 @@ theorem P8243654431301060818.correct : P8243654431301060818.Spec := by
 end A016805
 
 /-!
-# A016806: a(n) = (4n)^6.
+# A016806: a(n) = (4*n)^6.
 
 The programs for A016806, the canonical program `A016806.P14416645517676833584` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016806 has offset 0).
 
@@ -820,7 +850,7 @@ theorem P3617930477537150980.correct : P3617930477537150980.Spec := by
 end A016807
 
 /-!
-# A016808: a(n) = (4n)^8.
+# A016808: a(n) = (4*n)^8.
 
 The programs for A016808, the canonical program `A016808.P6212473385868604025` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016808 has offset 0).
 
@@ -847,7 +877,7 @@ theorem P6212473385868604025.correct : P6212473385868604025.Spec := by
 end A016808
 
 /-!
-# A016809: a(n) = (4n)^9.
+# A016809: a(n) = (4*n)^9.
 
 The programs for A016809, the canonical program `A016809.P17782412585984742465` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016809 has offset 0).
 
@@ -874,7 +904,7 @@ theorem P17782412585984742465.correct : P17782412585984742465.Spec := by
 end A016809
 
 /-!
-# A016810: a(n) = (4n)^10.
+# A016810: a(n) = (4*n)^10.
 
 The programs for A016810, the canonical program `A016810.P2792318698775462708` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016810 has offset 0).
 
@@ -17955,7 +17985,7 @@ theorem P6768670708261062492.correct : P6768670708261062492.Spec := by
 end A016851
 
 /-!
-# A016852: a(n) = (5n)^4.
+# A016852: a(n) = (5*n)^4.
 
 The programs for A016852, the canonical program `A016852.P3239456561386182559` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016852 has offset 0).
 
@@ -18090,7 +18120,7 @@ theorem P9148212645109043903.correct : P9148212645109043903.Spec := by
 end A016856
 
 /-!
-# A016857: a(n) = (5n)^9.
+# A016857: a(n) = (5*n)^9.
 
 The programs for A016857, the canonical program `A016857.P5788783789876433025` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016857 has offset 0).
 
@@ -18117,7 +18147,7 @@ theorem P5788783789876433025.correct : P5788783789876433025.Spec := by
 end A016857
 
 /-!
-# A016858: a(n) = (5n)^10.
+# A016858: a(n) = (5*n)^10.
 
 The programs for A016858, the canonical program `A016858.P9749917206669519012` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016858 has offset 0).
 

@@ -32,6 +32,7 @@ import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
@@ -4410,6 +4411,29 @@ def P10752557949830396536.Spec : Prop :=
 
 end A085537
 
+/-! ## A085537.P11682909251970537614
+
+`gcd(A218132(n), A240930(n))`
+-/
+
+namespace A085537.P11682909251970537614
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A218132 n) (A240930 n)
+
+end
+
+end A085537.P11682909251970537614
+
+namespace A085537
+
+/-- `gcd(A218132(n), A240930(n))` -/
+def P11682909251970537614.Spec : Prop :=
+  ∀ n, (P11682909251970537614.a n : ℤ) = A085537 n
+
+end A085537
+
 /-! ## A085537.P5193484951795041436
 
 `A085540(A289207(n+1))`
@@ -4453,29 +4477,6 @@ namespace A085537
 /-- `A330520(A004273(n))` -/
 def P13701552258107442719.Spec : Prop :=
   ∀ n, P13701552258107442719.a n = A085537 n
-
-end A085537
-
-/-! ## A085537.P11844138645519230320
-
-`A212504(2*n)/3`
--/
-
-namespace A085537.P11844138645519230320
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A212504 (2 * n) : ℚ) / 3
-
-end
-
-end A085537.P11844138645519230320
-
-namespace A085537
-
-/-- `A212504(2*n)/3` -/
-def P11844138645519230320.Spec : Prop :=
-  ∀ n, P11844138645519230320.a n = (A085537 n : ℚ)
 
 end A085537
 
@@ -10565,20 +10566,20 @@ end
 
 end A085593.P17495904395239051071
 
-/-! ## A085593.P8413629669957713745
+/-! ## A085593.P10674805436426793989
 
-`gcd(2, A139250(n))*A085595(n+3)`
+`A088157(n)+A085595(n+3)`
 -/
 
-namespace A085593.P8413629669957713745
+namespace A085593.P10674805436426793989
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Int.gcd 2 (A139250 n) : ℤ) * A085595 (n + 3)
+  A088157 n + A085595 (n + 3)
 
 end
 
-end A085593.P8413629669957713745
+end A085593.P10674805436426793989
 
 /-!
 # A085595: Maximal cycle lengths in a certain class of one-dimensional cellular automata.

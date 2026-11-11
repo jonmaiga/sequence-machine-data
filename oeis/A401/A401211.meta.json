@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple graphs on n unlabled vertices rooted at a triangle.",
+  "description": "Number of simple graphs on n unlabeled vertices rooted at a triangle.",
   "id": "A401211",
   "mentions": [
     "A126122",

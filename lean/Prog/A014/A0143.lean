@@ -62,6 +62,7 @@ import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -7607,6 +7608,32 @@ def P2931409663214247301.Spec : Prop :=
 
 end A014334
 
+/-! ## A014334.P13132339191475939788
+
+`∑{#}[n, C(n, #)*A000045(#)*A000045(n-#)]`
+-/
+
+namespace A014334.P13132339191475939788
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A000045 k * A000045 (n - k)
+
+end
+
+end A014334.P13132339191475939788
+
+namespace A014334
+
+/-- `∑{#}[n, C(n, #)*A000045(#)*A000045(n-#)]` -/
+def P13132339191475939788.Spec : Prop :=
+  ∀ n, P13132339191475939788.a n = A014334 n
+
+end A014334
+
 /-! ## A014334.P169856792729301583
 
 `A014335(A005843(n)/2)+A014335(n)`
@@ -7627,29 +7654,6 @@ namespace A014334
 /-- `A014335(A005843(n)/2)+A014335(n)` -/
 def P169856792729301583.Spec : Prop :=
   ∀ n, P169856792729301583.a n = A014334 n
-
-end A014334
-
-/-! ## A014334.P4868428759710822218
-
-`A014335(A005843(n)-n)+A014335(n)`
--/
-
-namespace A014334.P4868428759710822218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014335 (A005843 n - (n : ℤ)).toNat + A014335 n
-
-end
-
-end A014334.P4868428759710822218
-
-namespace A014334
-
-/-- `A014335(A005843(n)-n)+A014335(n)` -/
-def P4868428759710822218.Spec : Prop :=
-  ∀ n, P4868428759710822218.a n = A014334 n
 
 end A014334
 
@@ -8826,29 +8830,29 @@ def P15585564945610994308.Spec : Prop :=
 
 end A014342
 
-/-! ## A014342.P10037545730353370283
+/-! ## A014342.P15792806212930399728
 
-`∑{#}[n, A000040(#+1)*A000040(n-#+1)]`
+`∑{#}[n, A000040(n-#+1)*A000040(#+1)]`
 -/
 
-namespace A014342.P10037545730353370283
+namespace A014342.P15792806212930399728
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), A000040 (k + 1) * A000040 ((n : ℤ) - (k : ℤ) + 1).toNat
+  ∑ k ∈ Finset.range (f1 n + 1), A000040 ((n : ℤ) - (k : ℤ) + 1).toNat * A000040 (k + 1)
 
 end
 
-end A014342.P10037545730353370283
+end A014342.P15792806212930399728
 
 namespace A014342
 
-/-- `∑{#}[n, A000040(#+1)*A000040(n-#+1)]` -/
-def P10037545730353370283.Spec : Prop :=
-  ∀ n, P10037545730353370283.a n = A014342 (n + 1)
+/-- `∑{#}[n, A000040(n-#+1)*A000040(#+1)]` -/
+def P15792806212930399728.Spec : Prop :=
+  ∀ n, P15792806212930399728.a n = A014342 (n + 1)
 
 end A014342
 

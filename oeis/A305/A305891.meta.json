@@ -1,5 +1,5 @@
 {
-  "description": "Filter sequence combining 2-adic valuation (A007814) and the prime signature (A046523) of n.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A007814(i) = A007814(j) and A046523(i) = A046523(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A007814(n) is the exponent of the highest power of 2 dividing n.",
   "id": "A305891",
   "mentions": [
     "A007814",
@@ -7,7 +7,15 @@
     "A286161",
     "A291761",
     "A305801",
-    "A305893"
+    "A305893",
+    "A319347",
+    "A322022",
+    "A358230",
+    "A365392",
+    "A374478",
+    "A379001",
+    "A379002",
+    "A379005"
   ],
   "tags": [
     "nonn"

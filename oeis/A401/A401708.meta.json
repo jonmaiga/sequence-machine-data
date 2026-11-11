@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n / A401707(n), where A401707(n) is the largest unitary divisor d of n with gcd(d, sigma(d)) = 1.",
+  "id": "A401708",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A401704",
+    "A401706",
+    "A401707"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

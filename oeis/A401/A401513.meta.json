@@ -1,0 +1,18 @@
+{
+  "description": "Odd legs of the primitive Pythagorean triples corresponding to A398554.",
+  "id": "A401513",
+  "mentions": [
+    "A398554",
+    "A401514",
+    "A401515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

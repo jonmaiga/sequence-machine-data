@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic diagrams with n cells.",
+  "id": "A400282",
+  "mentions": [
+    "A006958",
+    "A075125",
+    "A400281",
+    "A400668",
+    "A400669",
+    "A401308"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

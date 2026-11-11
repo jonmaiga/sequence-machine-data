@@ -1,0 +1,19 @@
+{
+  "description": "Hypotenuse of the unique primitive Pythagorean triangle whose legs sum to the n-th prime congruent to +-1 mod 8.",
+  "id": "A401357",
+  "mentions": [
+    "A001132",
+    "A002144",
+    "A002334",
+    "A002335"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

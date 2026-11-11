@@ -22,6 +22,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -5139,20 +5140,20 @@ end
 
 end A032277.P9956849784891575199
 
-/-! ## A032277.P4875312529014048276
+/-! ## A032277.P10253098066013249273
 
-`A005854(2*(n+4))`
+`A246998(n+1)-A000035(n)`
 -/
 
-namespace A032277.P4875312529014048276
+namespace A032277.P10253098066013249273
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005854 (2 * (n + 4))
+  A246998 (n + 1) - A000035 n
 
 end
 
-end A032277.P4875312529014048276
+end A032277.P10253098066013249273
 
 /-!
 # A032278: Number of ways to partition n elements into pie slices each with at least 2 elements allowing the pie to be turned over.

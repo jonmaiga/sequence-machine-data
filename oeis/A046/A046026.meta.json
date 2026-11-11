@@ -1,8 +1,9 @@
 {
-  "description": "Smallest prime p dividing n#-1, n#, or n#+1, n squarefree.",
+  "description": "Smallest prime p such that A005117(n) divides p#-1, p#, or p#+1.",
   "id": "A046026",
   "mentions": [
     "A002110",
+    "A005117",
     "A013929",
     "A046027"
   ],

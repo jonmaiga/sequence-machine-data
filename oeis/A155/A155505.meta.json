@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 is of form x^2+40y^2 with positive x,y.",
+  "description": "Numbers k such that k^3 is of form x^2+40y^2 with positive x,y.",
   "id": "A155505",
   "mentions": [
     "A155500",

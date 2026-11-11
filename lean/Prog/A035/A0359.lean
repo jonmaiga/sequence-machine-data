@@ -45,7 +45,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -2755,21 +2754,6 @@ end
 
 end A035930.P14435565489055883227
 
-/-! ## A035930.P9729597435314394910
-
-`A257850(A328447(n))%(A087052(n)+1)`
--/
-
-namespace A035930.P9729597435314394910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A257850 (A328447 n).toNat) (A087052 n + 1)
-
-end
-
-end A035930.P9729597435314394910
-
 /-! ## A035930.P3389140697886375690
 
 `A257850(A328447(n))+floor(A260736(n)/60)/2`
@@ -2784,36 +2768,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A035930.P3389140697886375690
-
-/-! ## A035930.P6638535044044466455
-
-`A257850(A328447(n))+A033909(A087052(n))`
--/
-
-namespace A035930.P6638535044044466455
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257850 (A328447 n).toNat + A033909 (A087052 n).toNat
-
-end
-
-end A035930.P6638535044044466455
-
-/-! ## A035930.P13812330190634483844
-
-`A257850(A328447(n))+A185705(A087052(n)+1)`
--/
-
-namespace A035930.P13812330190634483844
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257850 (A328447 n).toNat + A185705 (A087052 n + 1).toNat
-
-end
-
-end A035930.P13812330190634483844
 
 /-! ## A035930.P17662838668289620416
 
@@ -5835,6 +5789,24 @@ end
 
 end A035963.P11378439249309040248
 
+/-! ## A035963.P8853247963055576943
+
+`A124943(∑[n]+1)`
+-/
+
+namespace A035963.P8853247963055576943
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124943 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A035963.P8853247963055576943
+
 /-!
 # A035964: Number of partitions in parts not of the form 17k, 17k+3 or 17k-3. Also number of partitions with at most 2 parts of size 1 and differences between parts at distance 7 are greater than 1.
 
@@ -8729,6 +8701,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035996.P7258935274581497072
+
+/-! ## A035996.P7754118736316493893
+
+`A027342(A077168(n))`
+-/
+
+namespace A035996.P7754118736316493893
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027342 (A077168 n).toNat
+
+end
+
+end A035996.P7754118736316493893
 
 /-!
 # A035997: Number of partitions of n into parts not of the form 23k, 23k+9 or 23k-9. Also number of partitions with at most 8 parts of size 1 and differences between parts at distance 10 are greater than 1.

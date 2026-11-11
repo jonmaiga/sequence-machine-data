@@ -1,0 +1,20 @@
+{
+  "description": "Array T(n,k) (n>=0, k>=0) read by antidiagonals: T(n,k) is the number obtained by adding the binary expansions of n and k, where each 1 that is carried is shifted 3 places to the left (instead of 1 place as in normal addition).",
+  "id": "A400710",
+  "mentions": [
+    "A003056",
+    "A054240",
+    "A400711",
+    "A400712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

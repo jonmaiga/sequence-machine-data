@@ -387,6 +387,42 @@ end
 
 end A361903.P7049092525451003829
 
+/-! ## A361903.P16221207740544681191
+
+`filter[A265999(n+1), A379480(#)]`
+-/
+
+namespace A361903.P16221207740544681191
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265999 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379480 (f1 j).toNat = 1) n)
+
+end
+
+end A361903.P16221207740544681191
+
+/-! ## A361903.P18241262410640361891
+
+`filter[A279029(n+1), A379480(#)]`
+-/
+
+namespace A361903.P18241262410640361891
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279029 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379480 (f1 j).toNat = 1) n)
+
+end
+
+end A361903.P18241262410640361891
+
 /-!
 # A361904: Odd numbers k such that for all even divisors d of k^2+1, d^2+1 is a prime number.
 

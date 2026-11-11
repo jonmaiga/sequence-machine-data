@@ -90,6 +90,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -970,6 +971,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155809.P14835991698082887781
+
+/-! ## A155809.P1981685041740297558
+
+`A038572(A066386(n+1))`
+-/
+
+namespace A155809.P1981685041740297558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038572 (A066386 (n + 1)).toNat
+
+end
+
+end A155809.P1981685041740297558
 
 /-!
 # A155810: Triangle, read by rows, where g.f.: A(x,y) = exp( Sum_{n>=1} (2^n + y)^n * x^n/n ) is a power series in x and y with integer coefficients.

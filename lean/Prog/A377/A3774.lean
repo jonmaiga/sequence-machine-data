@@ -20,7 +20,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C046
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4487,7 +4487,7 @@ end A377478.P10420367538360755947
 /-!
 # A377484: a(n) = Product_{d|n, d>1} (d - 1).
 
-The programs for A377484, the canonical program `A377484.P12663303119291746690` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377484 has offset 1).
+The programs for A377484, the canonical program `A377484.P12663303119291746690` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377484 has offset 1).
 
 The definition of A377484 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4496,7 +4496,7 @@ The definition of A377484 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, #-n²%#]`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A377484

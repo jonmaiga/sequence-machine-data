@@ -24,7 +24,6 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
@@ -1494,49 +1493,35 @@ end
 
 end A369127.P16396070856366701031
 
-/-! ## A369127.P14670950904594726097
+/-! ## A369127.P5406584347990777958
 
-`∩[A082208(n+1), A371123(n+1)]`
+`A229623(A043317(n+1))`
 -/
 
-namespace A369127.P14670950904594726097
+namespace A369127.P5406584347990777958
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082208 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371123 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229623 (A043317 (n + 1)).toNat
 
 end
 
-end A369127.P14670950904594726097
+end A369127.P5406584347990777958
 
-/-! ## A369127.P2006498332975830268
+/-! ## A369127.P684327275902678970
 
-`∩[A117055(n+1), A371123(n+1)]`
+`A229623(A044914(n+1))`
 -/
 
-namespace A369127.P2006498332975830268
+namespace A369127.P684327275902678970
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117055 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371123 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229623 (A044914 (n + 1)).toNat
 
 end
 
-end A369127.P2006498332975830268
+end A369127.P684327275902678970
 
 /-!
 # A369128: Expansion of (1/x) * Series_Reversion( x / ((1+x)^5+x^5) ).
@@ -3089,6 +3074,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369152.P1669674277817782040
+
+/-! ## A369152.P15050964967664998516
+
+`∑{#}[n, floor(log(C(n, #))/log(10))+1]`
+-/
+
+namespace A369152.P15050964967664998516
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (⌊Real.log (Nat.choose n k : ℝ) / Real.log (10 : ℝ)⌋ + 1)
+
+end
+
+end A369152.P15050964967664998516
 
 /-!
 # A369153: Numbers k such that gcd(2*k^7+1, 3*k^3+2) > 1.

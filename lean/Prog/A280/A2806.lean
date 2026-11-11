@@ -10,7 +10,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -40,9 +39,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3302,27 +3301,6 @@ end A280634.P12202050680020357922
 The programs for A280635, there is no canonical definition to state claims against.
 -/
 
-/-! ## A280635.P6657855329525476682
-
-`A302801(eq[A031346(n), A040790(n)])`
--/
-
-namespace A280635.P6657855329525476682
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031346 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040790 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A280635.P6657855329525476682
-
 /-! ## A280635.P2229706583989707522
 
 `A302801(eq[A035930(n), A051802(n)])`
@@ -3344,68 +3322,65 @@ end
 
 end A280635.P2229706583989707522
 
-/-! ## A280635.P12768850987722773972
+/-! ## A280635.P4493388433800293752
 
-`A302801(eq[A051802(n), A171765(n)])`
+`A343760(A043315(n+1))`
 -/
 
-namespace A280635.P12768850987722773972
+namespace A280635.P4493388433800293752
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051802 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171765 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A343760 (A043315 (n + 1)).toNat
 
 end
 
-end A280635.P12768850987722773972
+end A280635.P4493388433800293752
 
-/-! ## A280635.P17372820603834037865
+/-! ## A280635.P13101452197270954530
 
-`A302801(eq[A051802(n), A187844(n)])`
+`A343760(A044912(n+1))`
 -/
 
-namespace A280635.P17372820603834037865
+namespace A280635.P13101452197270954530
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051802 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187844 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A343760 (A044912 (n + 1)).toNat
 
 end
 
-end A280635.P17372820603834037865
+end A280635.P13101452197270954530
 
-/-! ## A280635.P8037904449083123180
+/-! ## A280635.P6340828860789726758
 
-`A302801(eq[A051802(n), A257297(n)])`
+`A343760(A055649(n+1))`
 -/
 
-namespace A280635.P8037904449083123180
+namespace A280635.P6340828860789726758
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051802 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257297 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A343760 (A055649 (n + 1)).toNat
 
 end
 
-end A280635.P8037904449083123180
+end A280635.P6340828860789726758
+
+/-! ## A280635.P10189093594287242751
+
+`A343760(A061378(n+1))`
+-/
+
+namespace A280635.P10189093594287242751
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343760 (A061378 (n + 1)).toNat
+
+end
+
+end A280635.P10189093594287242751
 
 /-!
 # A280636: Semiprime numbers whose digit string can be partitioned into three parts such that the product of the first two parts equals the third part.
@@ -6028,6 +6003,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280680.P6907431786966699781
+
+/-! ## A280680.P11186483156717264017
+
+`A000188(A280679(n+1))`
+-/
+
+namespace A280680.P11186483156717264017
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A280679 (n + 1)).toNat
+
+end
+
+end A280680.P11186483156717264017
 
 /-!
 # A280681: Numbers k such that Fibonacci(k) is a totient.

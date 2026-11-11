@@ -16,6 +16,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -3786,8 +3787,29 @@ end A116532.P8487586335472272336
 /-!
 # A116533: a(1)=1, a(2)=2, for n > 2 if a(n-1) is prime, then a(n) = 2*a(n-1), otherwise a(n) = a(n-1) - 1.
 
-The programs for A116533, there is no canonical definition to state claims against.
+The programs for A116533, the canonical program `A116533.P2446358911866755790` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116533 has offset 1).
+
+The definition of A116533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 157 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A116533.P2446358911866755790
+
+`a(n-1)+a(n-1)-(a(n-1)+1)%A000203(a(n-1))` with `a(0)=1`
+
+The canonical program, it is in `Seq.B001.C005`.
+-/
+
+namespace A116533
+
+/-- `a(n-1)+a(n-1)-(a(n-1)+1)%A000203(a(n-1))` -/
+def P2446358911866755790.Spec : Prop :=
+  ∀ n, P2446358911866755790.a n = A116533 (n + 1)
+
+theorem P2446358911866755790.correct : P2446358911866755790.Spec := by
+  intro n
+  simp only [A116533, Nat.add_sub_cancel]
+
+end A116533
 
 /-! ## A116533.P17765947377959065014
 
@@ -3803,6 +3825,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A116533.P17765947377959065014
+
+namespace A116533
+
+/-- `A163961(n)+a(n-1)` -/
+def P17765947377959065014.Spec : Prop :=
+  ∀ n, P17765947377959065014.a n = A116533 (n + 1)
+
+end A116533
 
 /-! ## A116533.P15478085750264249206
 
@@ -3822,20 +3852,13 @@ end
 
 end A116533.P15478085750264249206
 
-/-! ## A116533.P2446358911866755790
+namespace A116533
 
-`a(n-1)+a(n-1)-(a(n-1)+1)%A000203(a(n-1))` with `a(0)=1`
--/
+/-- `∑[A163961(round(sqrt(1+n²)))]` -/
+def P15478085750264249206.Spec : Prop :=
+  ∀ n, P15478085750264249206.a n = A116533 (n + 1)
 
-namespace A116533.P2446358911866755790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (a (n - 1) - Int.tmod (a (n - 1) + 1) (A000203 (a (n - 1)).toNat))
-
-end
-
-end A116533.P2446358911866755790
+end A116533
 
 /-! ## A116533.P3076181541571355195
 
@@ -3855,6 +3878,14 @@ end
 
 end A116533.P3076181541571355195
 
+namespace A116533
+
+/-- `abs(∑[A163961(A028310(n))])` -/
+def P3076181541571355195.Spec : Prop :=
+  ∀ n, P3076181541571355195.a n = A116533 (n + 1)
+
+end A116533
+
 /-! ## A116533.P7920182643154935592
 
 `∑[A163961(n+1)]+1-A163961(n+1)`
@@ -3872,6 +3903,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116533.P7920182643154935592
+
+namespace A116533
+
+/-- `∑[A163961(n+1)]+1-A163961(n+1)` -/
+def P7920182643154935592.Spec : Prop :=
+  ∀ n, P7920182643154935592.a n = A116533 (n + 1)
+
+end A116533
 
 /-!
 # A116535: a(n) is the smallest odd prime p such that 2^n + p is not prime.

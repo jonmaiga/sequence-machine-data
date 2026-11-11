@@ -20,7 +20,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C035
@@ -28,6 +27,7 @@ import Seq.B000.C037
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -475,21 +475,6 @@ end A376203.P698954045135154257
 The programs for A376206, there is no canonical definition to state claims against.
 -/
 
-/-! ## A376206.P17513545620002199447
-
-`row(A096333(n+1)+2)`
--/
-
-namespace A376206.P17513545620002199447
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (A096333 (n + 1) + 2).toNat
-
-end
-
-end A376206.P17513545620002199447
-
 /-! ## A376206.P18115765331014463195
 
 `∪[A231847(1+n), A357218(n+1)]`
@@ -511,6 +496,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A376206.P18115765331014463195
+
+/-! ## A376206.P17513545620002199447
+
+`row(A096333(n+1)+2)`
+-/
+
+namespace A376206.P17513545620002199447
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.triRow (A096333 (n + 1) + 2).toNat
+
+end
+
+end A376206.P17513545620002199447
 
 /-! ## A376206.P4112405906797026048
 
@@ -2088,6 +2088,35 @@ def P9966344783821176798.Spec : Prop :=
 
 end A376228
 
+/-! ## A376228.P11264025170605668560
+
+`C(2*n, n)^3*(6*n+1)`
+-/
+
+namespace A376228.P11264025170605668560
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n) n ^ 3 * (6 * n + 1)
+
+end
+
+end A376228.P11264025170605668560
+
+namespace A376228
+
+/-- `C(2*n, n)^3*(6*n+1)` -/
+def P11264025170605668560.Spec : Prop :=
+  ∀ n, (P11264025170605668560.a n : ℤ) = A376228 n
+
+theorem P11264025170605668560.correct : P11264025170605668560.Spec := by
+  intro n
+  simp only [A376228, Nat.add_sub_cancel, A376228.P11264025170605668560.a, A376228.P5158863274070751785.a, A002897, A002897.P4258650905158753039.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A376228
+
 /-! ## A376228.P16087777175830371618
 
 `(6*n+1)*A000984(n)^3`
@@ -3619,7 +3648,7 @@ def P1037975452622743819.Spec : Prop :=
 end A376257
 
 /-!
-# A376259: Numbers k such that R(k)/k is of the form (m + 1)/m, where R(k) is the digital reversal of k.
+# A376259: Numbers k not ending with zero such that R(k)/k is of the form (m + 1)/m, where R(k) is the digital reversal of k.
 
 The programs for A376259, there is no canonical definition to state claims against.
 -/

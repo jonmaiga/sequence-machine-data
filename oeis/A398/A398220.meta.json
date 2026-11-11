@@ -1,0 +1,20 @@
+{
+  "description": "Minimum diameter of an admissible nondegenerate Hilbert cube of dimension n: least s(1) + ... + s(n) over positive integers s(1) < ... < s(n) such that all 2^n subset sums are distinct and, for every prime p, they miss at least one residue class modulo p.",
+  "id": "A398220",
+  "mentions": [
+    "A005318",
+    "A008407",
+    "A276661"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

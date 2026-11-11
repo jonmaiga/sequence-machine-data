@@ -249,6 +249,29 @@ def P11892172161292856079.Spec : Prop :=
 
 end A377601
 
+/-! ## A377601.P4426739695338479461
+
+`n²!/n!^n-n!`
+-/
+
+namespace A377601.P4426739695338479461
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n ^ 2) : ℚ) / (Nat.factorial n ^ n : ℚ) - (Nat.factorial n : ℚ)
+
+end
+
+end A377601.P4426739695338479461
+
+namespace A377601
+
+/-- `n²!/n!^n-n!` -/
+def P4426739695338479461.Spec : Prop :=
+  ∀ n, P4426739695338479461.a n = (A377601 n : ℚ)
+
+end A377601
+
 /-!
 # A377607: Positive integers D such that the generalized Pell equation X^2 - D Y^2 = 3 is solvable over the integers.
 
@@ -1825,6 +1848,21 @@ end
 
 end A377654.P4263313268211025035
 
+/-! ## A377654.P17872491580137424362
+
+`A000290(A244579(n+1))`
+-/
+
+namespace A377654.P17872491580137424362
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A244579 (n + 1)).toNat
+
+end
+
+end A377654.P17872491580137424362
+
 /-! ## A377654.P7344815750896948555
 
 `A000463(A182991(n+2))`
@@ -1839,21 +1877,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377654.P7344815750896948555
-
-/-! ## A377654.P3301750485748584535
-
-`A000265(A182991(n+2)²)`
--/
-
-namespace A377654.P3301750485748584535
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (A182991 (n + 2) ^ 2).toNat
-
-end
-
-end A377654.P3301750485748584535
 
 /-!
 # A377656: Cogrowth sequence of the 12-element dicyclic group Dic12 = <S,T | S^6, T^4, STST^3, S^3T^2>.
@@ -2060,6 +2083,29 @@ namespace A377659
 /-- `A086246(n+2)-A011782(n)` -/
 def P10435448703896831760.Spec : Prop :=
   ∀ n, P10435448703896831760.a n = A377659 n
+
+end A377659
+
+/-! ## A377659.P1852052985085761703
+
+`A001006(n)-A158780(2*n+1)`
+-/
+
+namespace A377659.P1852052985085761703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001006 n - A158780 (2 * n + 1)
+
+end
+
+end A377659.P1852052985085761703
+
+namespace A377659
+
+/-- `A001006(n)-A158780(2*n+1)` -/
+def P1852052985085761703.Spec : Prop :=
+  ∀ n, P1852052985085761703.a n = A377659 n
 
 end A377659
 
@@ -2471,6 +2517,32 @@ theorem P16356455094163385959.correct : P16356455094163385959.Spec := by
 
 end A377662
 
+/-! ## A377662.P9299554552857641774
+
+`∑{#}[n, C(n, #)*C(2*n-#, n-#)*#!]`
+-/
+
+namespace A377662.P9299554552857641774
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.choose ((2 * n : ℤ) - (k : ℤ)).toNat ((n : ℤ) - (k : ℤ)).toNat * Nat.factorial k
+
+end
+
+end A377662.P9299554552857641774
+
+namespace A377662
+
+/-- `∑{#}[n, C(n, #)*C(2*n-#, n-#)*#!]` -/
+def P9299554552857641774.Spec : Prop :=
+  ∀ n, (P9299554552857641774.a n : ℤ) = A377662 n
+
+end A377662
+
 /-! ## A377662.P4952008102080786387
 
 `∑{#}[n, (n+#)!/#!²]`
@@ -2494,6 +2566,32 @@ namespace A377662
 /-- `∑{#}[n, (n+#)!/#!²]` -/
 def P4952008102080786387.Spec : Prop :=
   ∀ n, P4952008102080786387.a n = (A377662 n : ℚ)
+
+end A377662
+
+/-! ## A377662.P4622796955807870125
+
+`∑{#}[n, (n+#)!/(#!*#!)]`
+-/
+
+namespace A377662.P4622796955807870125
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (n + k) : ℚ) / (Nat.factorial k * Nat.factorial k : ℚ)
+
+end
+
+end A377662.P4622796955807870125
+
+namespace A377662
+
+/-- `∑{#}[n, (n+#)!/(#!*#!)]` -/
+def P4622796955807870125.Spec : Prop :=
+  ∀ n, P4622796955807870125.a n = (A377662 n : ℚ)
 
 end A377662
 

@@ -3138,26 +3138,26 @@ def P248018705501743226.Spec : Prop :=
 
 end A096748
 
-/-! ## A096748.P9796750495138405919
+/-! ## A096748.P9686354877814205731
 
-`A000045(ceil((n+1)/2))+A000045(floor((n+1)/2))`
+`A000045(floor((n+1)/2))+A000045(ceil((n+1)/2))`
 -/
 
-namespace A096748.P9796750495138405919
+namespace A096748.P9686354877814205731
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 ⌈(n + 1 : ℚ) / 2⌉.toNat + A000045 ⌊(n + 1 : ℚ) / 2⌋.toNat
+  A000045 ⌊(n + 1 : ℚ) / 2⌋.toNat + A000045 ⌈(n + 1 : ℚ) / 2⌉.toNat
 
 end
 
-end A096748.P9796750495138405919
+end A096748.P9686354877814205731
 
 namespace A096748
 
-/-- `A000045(ceil((n+1)/2))+A000045(floor((n+1)/2))` -/
-def P9796750495138405919.Spec : Prop :=
-  ∀ n, P9796750495138405919.a n = A096748 n
+/-- `A000045(floor((n+1)/2))+A000045(ceil((n+1)/2))` -/
+def P9686354877814205731.Spec : Prop :=
+  ∀ n, P9686354877814205731.a n = A096748 n
 
 end A096748
 
@@ -9212,14 +9212,14 @@ end A096795.P14774629517742735783
 /-!
 # A096796: a(n) = n for n <= 2; for n > 2, a(n) = 2a(n-1) - a(n - floor( 1/2 + sqrt(2n) )).
 
-The programs for A096796, the canonical program `A096796.P10132719286140813793` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096796 has offset 0).
+The programs for A096796, the canonical program `A096796.P1817790255395828018` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096796 has offset 0).
 
-The definition of A096796 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)-a(n-floor(1/2+sqrt(2*n)))` (program `A096796.P10132719286140813793`, by `A096796.P10132719286140813793.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A096796 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)-a(n-floor(1/2+sqrt(2*n)))` (program `A096796.P1817790255395828018`, by `A096796.P1817790255395828018.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A096796.P10132719286140813793
+/-! ## A096796.P1817790255395828018
 
-`2*a(n-1)-a(n-floor(1/2+sqrt(2*n)))` with `a(0)=0, a(1)=1`
+`2*a(n-1)-a(n-floor(1/2+sqrt(2*n)))` with `a(0)=0, a(1)=1, a(2)=2`
 
 The canonical program, it is in `Seq.B000.C017`.
 -/
@@ -9227,10 +9227,10 @@ The canonical program, it is in `Seq.B000.C017`.
 namespace A096796
 
 /-- `2*a(n-1)-a(n-floor(1/2+sqrt(2*n)))` -/
-def P10132719286140813793.Spec : Prop :=
-  ∀ n, P10132719286140813793.a n = A096796 n
+def P1817790255395828018.Spec : Prop :=
+  ∀ n, P1817790255395828018.a n = A096796 n
 
-theorem P10132719286140813793.correct : P10132719286140813793.Spec := by
+theorem P1817790255395828018.correct : P1817790255395828018.Spec := by
   intro n
   simp only [A096796]
 

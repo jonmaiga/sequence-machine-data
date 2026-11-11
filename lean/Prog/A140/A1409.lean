@@ -6946,7 +6946,7 @@ end A140959.P2311439162142067166
 /-!
 # A140960: a(n) = (2*(-1)^n - 2^(n+1) + 3*n*2^n)/9.
 
-The programs for A140960, the canonical program `A140960.P8522325177965692138` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140960 has offset 0).
+The programs for A140960, the canonical program `A140960.P8522325177965692138` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140960 has offset 0).
 
 The definition of A140960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6978,7 +6978,7 @@ end A140960
 
 `A059570(n+1)-A011782(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140960
@@ -9299,7 +9299,7 @@ end A140974.P15699933431670154758
 /-!
 # A140975: Period 20: repeat [1, 3, 8, 8, 9, 1, 6, 6, 7, 9, 4, 4, 5, 7, 2, 2, 3, 5, 0, 0].
 
-The programs for A140975, the canonical program `A140975.P10432485959682557119` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140975 has offset 0).
+The programs for A140975, the canonical program `A140975.P10432485959682557119` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140975 has offset 0).
 
 The definition of A140975 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9308,7 +9308,7 @@ The definition of A140975 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A011377(n)%10`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140975
@@ -9426,7 +9426,7 @@ end A140977
 /-!
 # A140978: Repeat (n+1)^2 n times.
 
-The programs for A140978, the canonical program `A140978.P12561242005867960431` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140978 has offset 1).
+The programs for A140978, the canonical program `A140978.P12561242005867960431` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140978 has offset 1).
 
 The definition of A140978 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9435,7 +9435,7 @@ The definition of A140978 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A003057(n+2)²`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140978

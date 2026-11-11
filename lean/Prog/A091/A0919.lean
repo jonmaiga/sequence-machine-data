@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -2632,6 +2633,29 @@ namespace A091917
 /-- `A000007(n)-A140575(n)` -/
 def P9722617571786096362.Spec : Prop :=
   ∀ n, P9722617571786096362.a n = A091917 n
+
+end A091917
+
+/-! ## A091917.P2972548469967559054
+
+`xor(A073424(n), A130595(n))`
+-/
+
+namespace A091917.P2972548469967559054
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A073424 n) (A130595 n)
+
+end
+
+end A091917.P2972548469967559054
+
+namespace A091917
+
+/-- `xor(A073424(n), A130595(n))` -/
+def P2972548469967559054.Spec : Prop :=
+  ∀ n, P2972548469967559054.a n = A091917 n
 
 end A091917
 
@@ -12156,27 +12180,6 @@ end
 
 end A091975.P18060970931461529705
 
-/-! ## A091975.P35291770036640700
-
-`A090822(lt[A215959(n+1), A302796(n+1)])`
--/
-
-namespace A091975.P35291770036640700
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A215959 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302796 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090822 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A091975.P35291770036640700
-
 /-! ## A091975.P11589496941593235356
 
 `A090822(lt[A231343(n+1), A128470(n)])`
@@ -12986,7 +12989,7 @@ end
 end A091982.P12672236044679983681
 
 /-!
-# A091983: a(0) = 1, a(n) = 20*sigma[3](n).
+# A091983: a(0) = 1, a(n) = 20*sigma_3(n).
 
 The programs for A091983, there is no canonical definition to state claims against.
 -/

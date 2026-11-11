@@ -690,6 +690,21 @@ end
 
 end A291905.P15423659913643018953
 
+/-! ## A291905.P702897827957523266
+
+`A342149(A056751(n+1))`
+-/
+
+namespace A291905.P702897827957523266
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342149 (A056751 (n + 1)).toNat
+
+end
+
+end A291905.P702897827957523266
+
 /-!
 # A291907: Numbers such that the nonzero digits in the base 3 expansion consists of two 1s and one 2.
 
@@ -6321,6 +6336,29 @@ namespace A291983
 /-- `A112689(n+1)/A062157(n+1)` -/
 def P10864854558138613239.Spec : Prop :=
   ∀ n, P10864854558138613239.a n = (A291983 n : ℚ)
+
+end A291983
+
+/-! ## A291983.P13154246426035100821
+
+`A112689(n+1)/A033999(n+2)`
+-/
+
+namespace A291983.P13154246426035100821
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A112689 (n + 1) : ℚ) / (A033999 (n + 2) : ℚ)
+
+end
+
+end A291983.P13154246426035100821
+
+namespace A291983
+
+/-- `A112689(n+1)/A033999(n+2)` -/
+def P13154246426035100821.Spec : Prop :=
+  ∀ n, P13154246426035100821.a n = (A291983 n : ℚ)
 
 end A291983
 

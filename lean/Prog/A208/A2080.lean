@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,6 +48,7 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C003
 import Seq.B004.C000
@@ -79,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A208000: Number of nX4 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors).
@@ -8359,6 +8365,35 @@ def P2718352937939687558.Spec : Prop :=
 
 end A208087
 
+/-! ## A208087.P6659219593744469378
+
+`A208086(n+1)+A208086(n+1)+A208086(n+1)`
+-/
+
+namespace A208087.P6659219593744469378
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208086 (n + 1) + A208086 (n + 1) + A208086 (n + 1)
+
+end
+
+end A208087.P6659219593744469378
+
+namespace A208087
+
+/-- `A208086(n+1)+A208086(n+1)+A208086(n+1)` -/
+def P6659219593744469378.Spec : Prop :=
+  ∀ n, P6659219593744469378.a n = A208087 (n + 1)
+
+theorem P6659219593744469378.correct : P6659219593744469378.Spec := by
+  intro n
+  simp only [A208087, Nat.add_sub_cancel, A208087.P6659219593744469378.a, A208087.P2685593886238899813.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A208087
+
 /-! ## A208087.P2851499964316743973
 
 `A208089(n+1)/3`
@@ -8980,6 +9015,35 @@ namespace A208089
 /-- `18*(A020695(n+1)²+3)` -/
 def P3111653267910627158.Spec : Prop :=
   ∀ n, P3111653267910627158.a n = A208089 (n + 1)
+
+end A208089
+
+/-! ## A208089.P14190607266703872763
+
+`A208087(n+1)+A208087(n+1)+A208087(n+1)`
+-/
+
+namespace A208089.P14190607266703872763
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208087 (n + 1) + A208087 (n + 1) + A208087 (n + 1)
+
+end
+
+end A208089.P14190607266703872763
+
+namespace A208089
+
+/-- `A208087(n+1)+A208087(n+1)+A208087(n+1)` -/
+def P14190607266703872763.Spec : Prop :=
+  ∀ n, P14190607266703872763.a n = A208089 (n + 1)
+
+theorem P14190607266703872763.correct : P14190607266703872763.Spec := by
+  intro n
+  simp only [A208089, Nat.add_sub_cancel, A208089.P14190607266703872763.a, A208089.P17751822590608355561.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A208089
 

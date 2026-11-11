@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of Legendre polynomials.",
+  "description": "Coefficients of cos(x) term of the Legendre polynomials of odd order when they are expressed in terms of the cosine function.",
   "id": "A002463",
   "mentions": [
     "A000894",

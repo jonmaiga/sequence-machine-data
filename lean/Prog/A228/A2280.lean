@@ -15,13 +15,14 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -3751,6 +3752,36 @@ def P17571954076904721236.Spec : Prop :=
 
 end A228057
 
+/-! ## A228057.P15347150868372763327
+
+`∩[A046340(n+1), A228056(n+1)]`
+-/
+
+namespace A228057.P15347150868372763327
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046340 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228056 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A228057.P15347150868372763327
+
+namespace A228057
+
+/-- `∩[A046340(n+1), A228056(n+1)]` -/
+def P15347150868372763327.Spec : Prop :=
+  ∀ n, (P15347150868372763327.a n : ℤ) = A228057 (n + 1)
+
+end A228057
+
 /-! ## A228057.P14116318541639066943
 
 `∩[A046340(n+1), A376715(n+1)]`
@@ -4042,36 +4073,6 @@ namespace A228057
 /-- `filter[A139392(n+1), A358770(#)]` -/
 def P10179784870803171034.Spec : Prop :=
   ∀ n, P10179784870803171034.a n = A228057 (n + 1)
-
-end A228057
-
-/-! ## A228057.P4407574133421078445
-
-`∩[A046340(n+1), A229125(n+1)]`
--/
-
-namespace A228057.P4407574133421078445
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046340 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229125 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A228057.P4407574133421078445
-
-namespace A228057
-
-/-- `∩[A046340(n+1), A229125(n+1)]` -/
-def P4407574133421078445.Spec : Prop :=
-  ∀ n, (P4407574133421078445.a n : ℤ) = A228057 (n + 1)
 
 end A228057
 

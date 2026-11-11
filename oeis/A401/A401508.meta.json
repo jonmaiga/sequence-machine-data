@@ -1,0 +1,25 @@
+{
+  "description": "Least prime p such that 2^((p-1)/n) == 1 (mod p).",
+  "id": "A401508",
+  "mentions": [
+    "A001132",
+    "A014754",
+    "A015919",
+    "A038873",
+    "A040028",
+    "A040098",
+    "A059858",
+    "A065091",
+    "A176997",
+    "A270802",
+    "A306787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

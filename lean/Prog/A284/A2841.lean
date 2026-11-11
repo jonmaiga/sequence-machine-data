@@ -3183,65 +3183,20 @@ end
 
 end A284121.P7062116891918831383
 
-/-! ## A284121.P13448183286254594089
+/-! ## A284121.P14852169899200262164
 
-`A302202(C(n+1, n))%A284119(n+1)`
+`A302202(n+1)%A284119(n+1)`
 -/
 
-namespace A284121.P13448183286254594089
+namespace A284121.P14852169899200262164
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A302202 (Nat.choose (n + 1) n)) (A284119 (n + 1))
+  Int.tmod (A302202 (n + 1)) (A284119 (n + 1))
 
 end
 
-end A284121.P13448183286254594089
-
-/-! ## A284121.P15177892895717770590
-
-`A302202(A000027(n+1))%A284119(n+1)`
--/
-
-namespace A284121.P15177892895717770590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A302202 (A000027 (n + 1)).toNat) (A284119 (n + 1))
-
-end
-
-end A284121.P15177892895717770590
-
-/-! ## A284121.P12288804004925835127
-
-`A028310(A302202(n+1)%A284119(n+1))`
--/
-
-namespace A284121.P12288804004925835127
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (Int.tmod (A302202 (n + 1)) (A284119 (n + 1))).toNat
-
-end
-
-end A284121.P12288804004925835127
-
-/-! ## A284121.P7510037398413745876
-
-`A302202(A060576(n)+n)%A284119(n+1)`
--/
-
-namespace A284121.P7510037398413745876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A302202 (A060576 n + (n : ℤ)).toNat) (A284119 (n + 1))
-
-end
-
-end A284121.P7510037398413745876
+end A284121.P14852169899200262164
 
 /-! ## A284121.P4565826353333263891
 
@@ -7656,24 +7611,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A284190.P3045950808604216035
-
-/-! ## A284190.P6829648654003511497
-
-`record[or(A030101(n), A329202(3*n+4))]`
--/
-
-namespace A284190.P6829648654003511497
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A030101 n) (A329202 (3 * n + 4))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A284190.P6829648654003511497
 
 /-!
 # A284191: Numbers k such that 4*10^k - 87 is prime.

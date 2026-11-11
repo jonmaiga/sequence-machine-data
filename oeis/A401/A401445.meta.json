@@ -1,0 +1,30 @@
+{
+  "description": "Half the sum of the squares after one Fibonacci recurrence step (v, u) -> (u, u+v): a(n) = (u^2 + (u+v)^2)/2, where u and v are the odd and even legs of the primitive Pythagorean triangle with hypotenuse A002144(n).",
+  "id": "A401445",
+  "mentions": [
+    "A000045",
+    "A002144",
+    "A002365",
+    "A002366",
+    "A070079",
+    "A070151",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003",
+    "A401004",
+    "A401444",
+    "A401446"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

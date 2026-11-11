@@ -7093,6 +7093,29 @@ def P1271851395671488518.Spec : Prop :=
 
 end A248157
 
+/-! ## A248157.P8364481358558699591
+
+`A105811(n)-A062157(n)`
+-/
+
+namespace A248157.P8364481358558699591
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105811 n - A062157 n
+
+end
+
+end A248157.P8364481358558699591
+
+namespace A248157
+
+/-- `A105811(n)-A062157(n)` -/
+def P8364481358558699591.Spec : Prop :=
+  ∀ n, P8364481358558699591.a n = A248157 n
+
+end A248157
+
 /-!
 # A248158: Expansion of (1 - 2*x^2)/(1 + x)^3. Second column of Riordan triangle A248156.
 
@@ -12909,12 +12932,12 @@ end A248196.P16946061404584607697
 /-!
 # A248198: a(n) = ceiling(n^3*(Pi/2)).
 
-The programs for A248198, the canonical program `A248198.P17745318584406798788` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248198 has offset 1).
+The programs for A248198, the canonical program `A248198.P4557934192720923483` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248198 has offset 1).
 
-The definition of A248198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A248198 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((n+1)^3*π/2)` (program `A248198.P4557934192720923483`, by `A248198.P4557934192720923483.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A248198.P17745318584406798788
+/-! ## A248198.P4557934192720923483
 
 `ceil((n+1)^3*π/2)`
 
@@ -12924,10 +12947,10 @@ The canonical program, it is in `Seq.B000.C037`.
 namespace A248198
 
 /-- `ceil((n+1)^3*π/2)` -/
-def P17745318584406798788.Spec : Prop :=
-  ∀ n, P17745318584406798788.a n = A248198 (n + 1)
+def P4557934192720923483.Spec : Prop :=
+  ∀ n, P4557934192720923483.a n = A248198 (n + 1)
 
-theorem P17745318584406798788.correct : P17745318584406798788.Spec := by
+theorem P4557934192720923483.correct : P4557934192720923483.Spec := by
   intro n
   simp only [A248198, Nat.add_sub_cancel]
 
@@ -12956,9 +12979,8 @@ def P7659266818939341377.Spec : Prop :=
 
 theorem P7659266818939341377.correct : P7659266818939341377.Spec := by
   intro n
-  simp only [A248198, Nat.add_sub_cancel, A248198.P7659266818939341377.a, A248198.P17745318584406798788.a, SequenceMachineLib.memo_apply]
-  try norm_num [Nat.choose_two_right, Nat.factorial]
-  try ring_nf
+  simp only [A248198, Nat.add_sub_cancel, A248198.P7659266818939341377.a, A248198.P4557934192720923483.a, SequenceMachineLib.memo_apply]
+  try simp
 
 end A248198
 
@@ -12985,9 +13007,8 @@ def P1657052196351249466.Spec : Prop :=
 
 theorem P1657052196351249466.correct : P1657052196351249466.Spec := by
   intro n
-  simp only [A248198, Nat.add_sub_cancel, A248198.P1657052196351249466.a, A248198.P17745318584406798788.a, SequenceMachineLib.memo_apply]
-  try norm_num [Nat.choose_two_right, Nat.factorial]
-  try ring_nf
+  simp only [A248198, Nat.add_sub_cancel, A248198.P1657052196351249466.a, A248198.P4557934192720923483.a, SequenceMachineLib.memo_apply]
+  try simp
 
 end A248198
 

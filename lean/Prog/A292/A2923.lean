@@ -1073,34 +1073,6 @@ end
 end A292310.P13373387187103049909
 
 /-!
-# A292311: Expansion of Product_{k>=1} 1/(1 + k^k*x^k).
-
-The programs for A292311, there is no canonical definition to state claims against.
--/
-
-/-! ## A292311.P7625303877515441892
-
-`∑[char[4*n]]-A175000(3*n+1)`
--/
-
-namespace A292311.P7625303877515441892
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = n then 1 else 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A175000 (3 * n + 1)
-
-end
-
-end A292311.P7625303877515441892
-
-/-!
 # A292312: Expansion of Product_{k>=1} (1 - k^k*x^k).
 
 The programs for A292312, there is no canonical definition to state claims against.
@@ -6050,33 +6022,6 @@ end
 end A292347.P15327347626970536721
 
 /-!
-# A292348: "Pri-most" numbers: the majority of bits in the binary representation of these numbers satisfy the following: complementing this bit produces a prime number.
-
-The programs for A292348, there is no canonical definition to state claims against.
--/
-
-/-! ## A292348.P11968397249623951201
-
-`lt[A387881(n+1), A082758(A383271(n))]`
--/
-
-namespace A292348.P11968397249623951201
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387881 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082758 (A383271 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A292348.P11968397249623951201
-
-/-!
 # A292349: Pri-most primes: primes p such that the majority of bits in the binary representation of p satisfy the following: complementing this bit produces a prime number.
 
 The programs for A292349, there is no canonical definition to state claims against.
@@ -6612,20 +6557,20 @@ end
 
 end A292357.P380625987889516230
 
-/-! ## A292357.P2044663743102211073
+/-! ## A292357.P9995361495247223859
 
-`or(A157147(n), A157188(A241390(n+2)))`
+`A038124(A034801(n))`
 -/
 
-namespace A292357.P2044663743102211073
+namespace A292357.P9995361495247223859
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A157147 n) (A157188 (A241390 (n + 2)).toNat)
+  A038124 (A034801 n).toNat
 
 end
 
-end A292357.P2044663743102211073
+end A292357.P9995361495247223859
 
 /-!
 # A292358: E.g.f.: Product_{k>=1} 1/(1 + x^k/k).
@@ -9416,37 +9361,6 @@ The programs for A292378, the canonical program `A292378.P6951449919008637678` i
 
 The definition of A292378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A292378.P115323002540737442
-
-`1+A292377(n+1)-A292375(n+1)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A292378.P115323002540737442
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A292377 (n + 1) - A292375 (n + 1)
-
-end
-
-end A292378.P115323002540737442
-
-namespace A292378
-
-/-- `1+A292377(n+1)-A292375(n+1)` -/
-def P115323002540737442.Spec : Prop :=
-  ∀ n, P115323002540737442.a n = A292378 (n + 1)
-
-theorem P115323002540737442.correct : P115323002540737442.Spec := by
-  intro n
-  simp only [A292378, Nat.add_sub_cancel, A292378.P115323002540737442.a, A292378.P6951449919008637678.a, A061395, A061395.P8431317036300486107.a, A064989, A064989.P13349672914146769936.a, A292375, A292375.P9378166462600570346.a, A292377, A292377.P15330279681253691914.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A052126, A052126.P1944428405920482243.a, A087207, A087207.P12536008426233777954.a, A252463, A252463.P9404790189412916411.a, A006530, A006530.P13372528560459906635.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A152271, A152271.P6659965972248271911.a, A158611, A158611.P9275629407611603775.a, A243502, A243502.P11791647281875328885.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A064216, A064216.P5935432423843156478.a, A070229, A070229.P5792893597916963980.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
-end A292378
 
 /-! ## A292378.P13802378148371008983
 

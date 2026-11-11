@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (6*n)^5.",
   "id": "A016913",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "easy",
     "formulas",

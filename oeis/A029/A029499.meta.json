@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 6 (most significant digit on right).",
+  "description": "Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 6 (most significant digit on right).",
   "id": "A029499",
   "mentions": [
     "A029447",
@@ -18,12 +18,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that reversal(k) = (2/3)*k - 2, and congruent to 5 mod 10.",
+  "id": "A401572",
+  "mentions": [
+    "A004086",
+    "A101703"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

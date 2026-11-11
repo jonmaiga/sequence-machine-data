@@ -2,13 +2,16 @@
   "description": "1/4 of the total number of integral quadruples with sum = n and sum of squares = n^2.",
   "id": "A354766",
   "mentions": [
+    "A004611",
     "A278085",
     "A353589",
     "A354777",
     "A354778"
   ],
   "tags": [
+    "formulas",
     "look",
+    "mult",
     "nonn"
   ],
   "terms": {

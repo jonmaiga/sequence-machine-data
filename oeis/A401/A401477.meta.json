@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of at most six 5-full numbers.",
+  "id": "A401477",
+  "mentions": [
+    "A056828",
+    "A069492",
+    "A392342",
+    "A392343",
+    "A401478"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

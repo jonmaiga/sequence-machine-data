@@ -1,0 +1,16 @@
+{
+  "description": "Column of the rightmost maximum entry in the n-th row of A032531.",
+  "id": "A400354",
+  "mentions": [
+    "A032531",
+    "A401242"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

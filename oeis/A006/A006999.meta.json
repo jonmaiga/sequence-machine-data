@@ -1,5 +1,5 @@
 {
-  "description": "Partitioning integers to avoid arithmetic progressions of length 3.",
+  "description": "a(n) = floor((3*a(n-1)+2)/2) with a(0) = 0.",
   "id": "A006999",
   "mentions": [
     "A003312",

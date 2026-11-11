@@ -5884,30 +5884,6 @@ end
 end A084541.P12343340927216112416
 
 /-!
-# A084542: Numbers k such that 3^k + 10i is a Gaussian Prime.
-
-The programs for A084542, there is no canonical definition to state claims against.
--/
-
-/-! ## A084542.P14205004120275820583
-
-`record[A032742(A219618(n+2))]`
--/
-
-namespace A084542.P14205004120275820583
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A219618 (n + 2)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A084542.P14205004120275820583
-
-/-!
 # A084544: Alternate number system in base 4.
 
 The programs for A084544, there is no canonical definition to state claims against.
@@ -6377,6 +6353,29 @@ theorem P8101836031512639089.correct : P8101836031512639089.Spec := by
 
 end A084545
 
+/-! ## A084545.P5879966838306995786
+
+`A007092(A248910(n+1))`
+-/
+
+namespace A084545.P5879966838306995786
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007092 (A248910 (n + 1)).toNat
+
+end
+
+end A084545.P5879966838306995786
+
+namespace A084545
+
+/-- `A007092(A248910(n+1))` -/
+def P5879966838306995786.Spec : Prop :=
+  ∀ n, P5879966838306995786.a n = A084545 (n + 1)
+
+end A084545
+
 /-! ## A084545.P3184057748608578359
 
 `∩[A001729(n+1), A007092(n)]`
@@ -6487,29 +6486,6 @@ namespace A084545
 /-- `∩[A001729(n+1), A057436(n+1)]` -/
 def P6889102266828089726.Spec : Prop :=
   ∀ n, (P6889102266828089726.a n : ℤ) = A084545 (n + 1)
-
-end A084545
-
-/-! ## A084545.P11354812543678050921
-
-`A208575(2*(n+1))+A007092(A248910(n+1))`
--/
-
-namespace A084545.P11354812543678050921
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208575 (2 * (n + 1)) + A007092 (A248910 (n + 1)).toNat
-
-end
-
-end A084545.P11354812543678050921
-
-namespace A084545
-
-/-- `A208575(2*(n+1))+A007092(A248910(n+1))` -/
-def P11354812543678050921.Spec : Prop :=
-  ∀ n, P11354812543678050921.a n = A084545 (n + 1)
 
 end A084545
 

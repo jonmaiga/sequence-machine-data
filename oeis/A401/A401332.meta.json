@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the units digit of 3*k equals the tens digit of k^3.",
+  "id": "A401332",
+  "mentions": [
+    "A399563"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

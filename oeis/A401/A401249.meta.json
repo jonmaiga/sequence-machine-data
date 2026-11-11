@@ -1,0 +1,28 @@
+{
+  "description": "Minimum number of odd terms in a 2-dense sublist of divisors of n.",
+  "id": "A401249",
+  "mentions": [
+    "A000012",
+    "A001511",
+    "A174973",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A279387",
+    "A384222",
+    "A384225",
+    "A400194",
+    "A400195",
+    "A401248",
+    "A401250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

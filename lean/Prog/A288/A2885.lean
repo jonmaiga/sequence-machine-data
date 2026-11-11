@@ -8955,21 +8955,6 @@ The programs for A288571, the canonical program `A288571.P4269278430170751025` i
 The definition of A288571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A288571.P4269278430170751025
-
-`∑{d}[n+1, (-1)^((n+1)/#+1)*A000005(#)]`
-
-The canonical program, it is in `Seq.B004.C003`.
--/
-
-namespace A288571
-
-/-- `∑{d}[n+1, (-1)^((n+1)/#+1)*A000005(#)]` -/
-def P4269278430170751025.Spec : Prop :=
-  ∀ n, P4269278430170751025.a n = (A288571 (n + 1) : ℝ)
-
-end A288571
-
 /-! ## A288571.P2501923273298018198
 
 `∑{d}[n+1, A048272(#)]`
@@ -8996,6 +8981,21 @@ def P2501923273298018198.Spec : Prop :=
 
 end A288571
 
+/-! ## A288571.P4269278430170751025
+
+`∑{d}[n+1, (-1)^((n+1)/#+1)*A000005(#)]`
+
+The canonical program, it is in `Seq.B004.C003`.
+-/
+
+namespace A288571
+
+/-- `∑{d}[n+1, (-1)^((n+1)/#+1)*A000005(#)]` -/
+def P4269278430170751025.Spec : Prop :=
+  ∀ n, P4269278430170751025.a n = (A288571 (n + 1) : ℝ)
+
+end A288571
+
 /-! ## A288571.P7040563331996419951
 
 `2*A133700(n+1)-A007425(n+1)`
@@ -9016,6 +9016,29 @@ namespace A288571
 /-- `2*A133700(n+1)-A007425(n+1)` -/
 def P7040563331996419951.Spec : Prop :=
   ∀ n, P7040563331996419951.a n = A288571 (n + 1)
+
+end A288571
+
+/-! ## A288571.P13001869880086113263
+
+`A087810(n+1)*A007425(A000265(n+1))`
+-/
+
+namespace A288571.P13001869880086113263
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087810 (n + 1) * A007425 (A000265 (n + 1)).toNat
+
+end
+
+end A288571.P13001869880086113263
+
+namespace A288571
+
+/-- `A087810(n+1)*A007425(A000265(n+1))` -/
+def P13001869880086113263.Spec : Prop :=
+  ∀ n, P13001869880086113263.a n = A288571 (n + 1)
 
 end A288571
 
@@ -9429,29 +9452,6 @@ namespace A288571
 /-- `2*A133700(n+1)-A133700(A003961(n+1))` -/
 def P10272171624361668630.Spec : Prop :=
   ∀ n, P10272171624361668630.a n = A288571 (n + 1)
-
-end A288571
-
-/-! ## A288571.P4946537810552200948
-
-`2*A133700(n+1)-A133700(A332818(n+1))`
--/
-
-namespace A288571.P4946537810552200948
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A133700 (n + 1) - A133700 (A332818 (n + 1)).toNat
-
-end
-
-end A288571.P4946537810552200948
-
-namespace A288571
-
-/-- `2*A133700(n+1)-A133700(A332818(n+1))` -/
-def P4946537810552200948.Spec : Prop :=
-  ∀ n, P4946537810552200948.a n = A288571 (n + 1)
 
 end A288571
 

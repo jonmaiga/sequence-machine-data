@@ -666,29 +666,26 @@ def P8438174892365500582.Spec : Prop :=
 
 end A057000
 
-/-! ## A057000.P17523329899707210688
+/-! ## A057000.P15184568797046120068
 
-`Δ[A067541(2*n+1)]`
+`A051953(n+1)-A016035(n+2)`
 -/
 
-namespace A057000.P17523329899707210688
+namespace A057000.P15184568797046120068
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067541 (2 * n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  A051953 (n + 1) - A016035 (n + 2)
 
 end
 
-end A057000.P17523329899707210688
+end A057000.P15184568797046120068
 
 namespace A057000
 
-/-- `Δ[A067541(2*n+1)]` -/
-def P17523329899707210688.Spec : Prop :=
-  ∀ n, P17523329899707210688.a n = A057000 (n + 1)
+/-- `A051953(n+1)-A016035(n+2)` -/
+def P15184568797046120068.Spec : Prop :=
+  ∀ n, P15184568797046120068.a n = A057000 (n + 1)
 
 end A057000
 
@@ -14191,6 +14188,29 @@ def P192901200987529753.Spec : Prop :=
 
 end A057059
 
+/-! ## A057059.P13752560106203556118
+
+`A209279(A038722(n+1))`
+-/
+
+namespace A057059.P13752560106203556118
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209279 (A038722 (n + 1)).toNat
+
+end
+
+end A057059.P13752560106203556118
+
+namespace A057059
+
+/-- `A209279(A038722(n+1))` -/
+def P13752560106203556118.Spec : Prop :=
+  ∀ n, P13752560106203556118.a n = A057059 (n + 1)
+
+end A057059
+
 /-!
 # A057060: a(n) = number of the row of (R(i,j)) that contains prime(n), where R(i,j) is the rectangle with descending antidiagonals 1; 2,3; 4,5,6; ...
 
@@ -16178,6 +16198,29 @@ namespace A057065
 /-- `(or(1, n^n)-1)/2` -/
 def P3074937341752071231.Spec : Prop :=
   ∀ n, P3074937341752071231.a n = (A057065 n : ℚ)
+
+end A057065
+
+/-! ## A057065.P4859350358706604983
+
+`A000312(n)-A168658(n)`
+-/
+
+namespace A057065.P4859350358706604983
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000312 n - A168658 n
+
+end
+
+end A057065.P4859350358706604983
+
+namespace A057065
+
+/-- `A000312(n)-A168658(n)` -/
+def P4859350358706604983.Spec : Prop :=
+  ∀ n, P4859350358706604983.a n = A057065 n
 
 end A057065
 

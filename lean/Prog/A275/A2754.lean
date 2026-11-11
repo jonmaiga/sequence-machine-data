@@ -39,7 +39,6 @@ import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,6 +64,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4651,6 +4651,21 @@ end
 
 end A275464.P6807025843746276930
 
+/-! ## A275464.P16024000522165012367
+
+`n+1-A055396(A250472(n+2))`
+-/
+
+namespace A275464.P16024000522165012367
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A055396 (A250472 (n + 2)).toNat
+
+end
+
+end A275464.P16024000522165012367
+
 /-!
 # A275465: a(n) = f^(n/f), where f is the smallest prime factor of n.
 
@@ -6273,29 +6288,6 @@ namespace A275490
 /-- `C(row(A072916(2*n+5)%2-1+n)+4, col(n))` -/
 def P5147620484388191930.Spec : Prop :=
   ∀ n, (P5147620484388191930.a n : ℤ) = A275490 (n + 2)
-
-end A275490
-
-/-! ## A275490.P15795237224420409297
-
-`C(A350361(n+1)%A399997(n+3), col(n))`
--/
-
-namespace A275490.P15795237224420409297
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (Int.tmod (A350361 (n + 1)) (A399997 (n + 3))).toNat (SequenceMachineLib.triCol n)
-
-end
-
-end A275490.P15795237224420409297
-
-namespace A275490
-
-/-- `C(A350361(n+1)%A399997(n+3), col(n))` -/
-def P15795237224420409297.Spec : Prop :=
-  ∀ n, (P15795237224420409297.a n : ℤ) = A275490 (n + 2)
 
 end A275490
 

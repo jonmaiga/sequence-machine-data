@@ -4415,6 +4415,21 @@ end
 
 end A079035.P8850115094360451994
 
+/-! ## A079035.P9452704650031193969
+
+`A079036(n+1)*A079036(n+1)`
+-/
+
+namespace A079035.P9452704650031193969
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079036 (n + 1) * A079036 (n + 1)
+
+end
+
+end A079035.P9452704650031193969
+
 /-!
 # A079036: Squares of these numbers have all their digits occurring in groups of 2 or more, without ending in zero.
 

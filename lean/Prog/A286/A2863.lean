@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
@@ -5011,6 +5012,21 @@ end
 
 end A286346.P11769907197158863361
 
+/-! ## A286346.P1837916680569404306
+
+`A000145(n)*A062157(n+1)`
+-/
+
+namespace A286346.P1837916680569404306
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000145 n * A062157 (n + 1)
+
+end
+
+end A286346.P1837916680569404306
+
 /-! ## A286346.P7808944430293369908
 
 `2*A004533(n)-A022065(n)`
@@ -5055,21 +5071,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A286346.P949367285844209816
-
-/-! ## A286346.P13610002924162713327
-
-`A000145(n)*A062157(3*n+1)`
--/
-
-namespace A286346.P13610002924162713327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000145 n * A062157 (3 * n + 1)
-
-end
-
-end A286346.P13610002924162713327
 
 /-! ## A286346.P5883481875865415348
 
@@ -9833,7 +9834,7 @@ end
 end A286377.P2867870735159503960
 
 /-!
-# A286378: Restricted growth sequence computed for Stern-polynomial related filter-sequence A278243.
+# A286378: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A260443(i)) = A046523(A260443(j)), for all i, j >= 0, where A046523(n) is the smallest number with same prime signature as n, and A260443 is the prime factorization representation of Stern polynomials.
 
 The programs for A286378, there is no canonical definition to state claims against.
 -/

@@ -2353,14 +2353,14 @@ end A105930.P8691882328794148738
 /-!
 # A105931: a(1) = 1 then a(n) = a(n-1) - (-1)^ceiling(n/2)*a(floor(n/2)).
 
-The programs for A105931, the canonical program `A105931.P2081802344515518594` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105931 has offset 1).
+The programs for A105931, the canonical program `A105931.P5737954110285966001` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105931 has offset 1).
 
 The definition of A105931 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A105931.P2081802344515518594
+/-! ## A105931.P5737954110285966001
 
-`a(n-1)-(-1)^ceil((n+1)/2)*a(floor((n+1)/2)-1)` with `a(0)=1, a(1)=2, a(2)=1`
+`a(n-1)-(-1)^ceil((n+1)/2)*a(floor((n+1)/2)-1)` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C018`.
 -/
@@ -2368,8 +2368,8 @@ The canonical program, it is in `Seq.B000.C018`.
 namespace A105931
 
 /-- `a(n-1)-(-1)^ceil((n+1)/2)*a(floor((n+1)/2)-1)` -/
-def P2081802344515518594.Spec : Prop :=
-  ∀ n, P2081802344515518594.a n = (A105931 (n + 1) : ℚ)
+def P5737954110285966001.Spec : Prop :=
+  ∀ n, P5737954110285966001.a n = (A105931 (n + 1) : ℚ)
 
 end A105931
 
@@ -10210,6 +10210,29 @@ namespace A105997
 /-- `A091022(A186621(n+1)+1)` -/
 def P10022790231180307169.Spec : Prop :=
   ∀ n, P10022790231180307169.a n = A105997 (n + 1)
+
+end A105997
+
+/-! ## A105997.P11622567759742212723
+
+`A117323(A091022(n+1))`
+-/
+
+namespace A105997.P11622567759742212723
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117323 (A091022 (n + 1)).toNat
+
+end
+
+end A105997.P11622567759742212723
+
+namespace A105997
+
+/-- `A117323(A091022(n+1))` -/
+def P11622567759742212723.Spec : Prop :=
+  ∀ n, P11622567759742212723.a n = A105997 (n + 1)
 
 end A105997
 

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(2*n-k,k) * a(k).",
+  "id": "A401615",
+  "mentions": [
+    "A005439",
+    "A092684",
+    "A094088",
+    "A296590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

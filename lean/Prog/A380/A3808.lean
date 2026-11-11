@@ -24,9 +24,10 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C038
@@ -87,7 +88,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -790,6 +790,52 @@ def P11782533689963323127.Spec : Prop :=
 
 end A380804
 
+/-! ## A380804.P9298021895954786989
+
+`A060143(A035488(n))`
+-/
+
+namespace A380804.P9298021895954786989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060143 (A035488 n).toNat
+
+end
+
+end A380804.P9298021895954786989
+
+namespace A380804
+
+/-- `A060143(A035488(n))` -/
+def P9298021895954786989.Spec : Prop :=
+  ∀ n, P9298021895954786989.a n = A380804 (n + 1)
+
+end A380804
+
+/-! ## A380804.P15768208375633494014
+
+`A026272(A000201(A072061(A001950(2*n+1))))`
+-/
+
+namespace A380804.P15768208375633494014
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026272 (A000201 (A072061 (A001950 (2 * n + 1)).toNat).toNat).toNat
+
+end
+
+end A380804.P15768208375633494014
+
+namespace A380804
+
+/-- `A026272(A000201(A072061(A001950(2*n+1))))` -/
+def P15768208375633494014.Spec : Prop :=
+  ∀ n, P15768208375633494014.a n = A380804 (n + 1)
+
+end A380804
+
 /-!
 # A380806: Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 1<=a<=b<=c.
 
@@ -1041,20 +1087,20 @@ end A380808
 The programs for A380811, there is no canonical definition to state claims against.
 -/
 
-/-! ## A380811.P7976691150635655979
+/-! ## A380811.P7884050937466035209
 
-`A087217(A091689(n+1))`
+`A380883(A330929(n+1))`
 -/
 
-namespace A380811.P7976691150635655979
+namespace A380811.P7884050937466035209
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087217 (A091689 (n + 1)).toNat
+  A380883 (A330929 (n + 1)).toNat
 
 end
 
-end A380811.P7976691150635655979
+end A380811.P7884050937466035209
 
 /-!
 # A380813: Sequence of y-coordinates of the lexicographically earliest (according to the spiral numbering of the square grid; see comments) infinite Racetrack trajectory (using von Neumann neighborhood) on the square grid.
@@ -1450,6 +1496,29 @@ def P3927889406361707522.Spec : Prop :=
 
 end A380815
 
+/-! ## A380815.P1845830861048252936
+
+`A376214(A379342(A376214(n+1)))`
+-/
+
+namespace A380815.P1845830861048252936
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376214 (A379342 (A376214 (n + 1)).toNat).toNat
+
+end
+
+end A380815.P1845830861048252936
+
+namespace A380815
+
+/-- `A376214(A379342(A376214(n+1)))` -/
+def P1845830861048252936.Spec : Prop :=
+  ∀ n, P1845830861048252936.a n = A380815 (n + 1)
+
+end A380815
+
 /-! ## A380815.P6294227329039621291
 
 `A378705(A376214(A378705(n+1)))`
@@ -1539,29 +1608,6 @@ namespace A380815
 /-- `A382680(A378684(A381968(n+1)))` -/
 def P10283145138193142406.Spec : Prop :=
   ∀ n, P10283145138193142406.a n = A380815 (n + 1)
-
-end A380815
-
-/-! ## A380815.P10743072117430601627
-
-`A382499(A378684(A382679(n+1)))`
--/
-
-namespace A380815.P10743072117430601627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382499 (A378684 (A382679 (n + 1)).toNat).toNat
-
-end
-
-end A380815.P10743072117430601627
-
-namespace A380815
-
-/-- `A382499(A378684(A382679(n+1)))` -/
-def P10743072117430601627.Spec : Prop :=
-  ∀ n, P10743072117430601627.a n = A380815 (n + 1)
 
 end A380815
 
@@ -4643,6 +4689,21 @@ end
 
 end A380845.P199920880961655221
 
+/-! ## A380845.P13105099298282689357
+
+`A000026(A000079(n+1))-A341042(n+1)`
+-/
+
+namespace A380845.P13105099298282689357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000026 (A000079 (n + 1)).toNat - A341042 (n + 1)
+
+end
+
+end A380845.P13105099298282689357
+
 /-!
 # A380846: Numbers k such that A380845(k) = 2*k.
 
@@ -5641,6 +5702,32 @@ The programs for A380864, the canonical program `A380864.P17847612334023733778` 
 
 The definition of A380864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A380864.P15935632522228707249
+
+`C(2*n, n)*∑{#}[n, 2^(2*#)*C(n, #)*C(2*#, #)^-1]`
+-/
+
+namespace A380864.P15935632522228707249
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 * n) n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (2 ^ (2 * k) * Nat.choose n k : ℚ) * (Nat.choose (2 * k) k : ℚ) ^ (-1 : ℤ))
+
+end
+
+end A380864.P15935632522228707249
+
+namespace A380864
+
+/-- `C(2*n, n)*∑{#}[n, 2^(2*#)*C(n, #)*C(2*#, #)^-1]` -/
+def P15935632522228707249.Spec : Prop :=
+  ∀ n, P15935632522228707249.a n = (A380864 n : ℚ)
+
+end A380864
 
 /-! ## A380864.P17847612334023733778
 

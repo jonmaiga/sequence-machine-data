@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct nonzero tangency polynomials of permutations of length n.",
+  "id": "A401079",
+  "mentions": [
+    "A393122",
+    "A400881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

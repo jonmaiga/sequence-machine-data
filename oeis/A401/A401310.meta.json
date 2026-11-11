@@ -1,0 +1,16 @@
+{
+  "description": "Number of reduced 7 X n Latin rectangles.",
+  "id": "A401310",
+  "mentions": [
+    "A001009"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

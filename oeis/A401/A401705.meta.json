@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is a unitary divisor d of n with gcd(d, sigma(d)) = 1 constructed by the algorithm B in Pollack & Pomerance \"Prime-Perfect Numbers\" paper. See comments for the description.",
+  "id": "A401705",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A027598",
+    "A028233",
+    "A053585",
+    "A105402",
+    "A175200",
+    "A401704",
+    "A401706",
+    "A401707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

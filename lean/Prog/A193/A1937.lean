@@ -36,7 +36,7 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1529,35 +1529,6 @@ namespace A193714
 /-- `A121902(A187378(n+2))+A000041(A002266(n))` -/
 def P10132886556362456924.Spec : Prop :=
   ∀ n, P10132886556362456924.a n = A193714 (n + 1)
-
-end A193714
-
-/-! ## A193714.P13893239184688135024
-
-`∑[∏{e}[A322840(A075463(n+1)), #+1]]+n`
--/
-
-namespace A193714.P13893239184688135024
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322840 (A075463 (n + 1)).toNat
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f2 n).natAbs, (Nat.factorization (f2 n).natAbs p + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + n
-
-end
-
-end A193714.P13893239184688135024
-
-namespace A193714
-
-/-- `∑[∏{e}[A322840(A075463(n+1)), #+1]]+n` -/
-def P13893239184688135024.Spec : Prop :=
-  ∀ n, (P13893239184688135024.a n : ℤ) = A193714 (n + 1)
 
 end A193714
 

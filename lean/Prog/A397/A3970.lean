@@ -55,7 +55,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C003
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -2738,6 +2738,21 @@ end
 
 end A397068.P4783050939748415783
 
+/-! ## A397068.P17554298204633769510
+
+`A377505(A397067(n+1))`
+-/
+
+namespace A397068.P17554298204633769510
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A397067 (n + 1)).toNat
+
+end
+
+end A397068.P17554298204633769510
+
 /-! ## A397068.P17455648667357970666
 
 `∑{d}[A397067(n+1), A056239(#)]`
@@ -2770,21 +2785,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397068.P15755439487355096548
-
-/-! ## A397068.P17840047756585474901
-
-`A056239(A397067(n+1))%A156721(n+1)`
--/
-
-namespace A397068.P17840047756585474901
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A056239 (A397067 (n + 1)).toNat) (A156721 (n + 1))
-
-end
-
-end A397068.P17840047756585474901
 
 /-!
 # A397069: Primes equal to the sum of the k primes beginning with prime(k) for some k.
@@ -2885,7 +2885,7 @@ end A397069.P3434835110982905047
 /-!
 # A397071: Number of true statements (x op y) = z, where 0 <= x, y, z <= n, op is in {+,-,*,/}.
 
-The programs for A397071, the canonical program `A397071.P3539504569464205153` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397071 has offset 0).
+The programs for A397071, the canonical program `A397071.P3539504569464205153` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397071 has offset 0).
 
 The definition of A397071 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2894,7 +2894,7 @@ The definition of A397071 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n²+6*n+3+2*A006218(n)`
 
-The canonical program, it is in `Seq.B005.C003`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A397071

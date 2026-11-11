@@ -1208,6 +1208,52 @@ def P9745604702484302858.Spec : Prop :=
 
 end A116604
 
+/-! ## A116604.P16615240304067304127
+
+`A105673(2*n+1)-A138746(2*n+1)`
+-/
+
+namespace A116604.P16615240304067304127
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105673 (2 * n + 1) - A138746 (2 * n + 1)
+
+end
+
+end A116604.P16615240304067304127
+
+namespace A116604
+
+/-- `A105673(2*n+1)-A138746(2*n+1)` -/
+def P16615240304067304127.Spec : Prop :=
+  ∀ n, P16615240304067304127.a n = A116604 n
+
+end A116604
+
+/-! ## A116604.P7447452239168616891
+
+`A105673(2*n+1)-A163746(2*n+1)`
+-/
+
+namespace A116604.P7447452239168616891
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105673 (2 * n + 1) - A163746 (2 * n + 1)
+
+end
+
+end A116604.P7447452239168616891
+
+namespace A116604
+
+/-- `A105673(2*n+1)-A163746(2*n+1)` -/
+def P7447452239168616891.Spec : Prop :=
+  ∀ n, P7447452239168616891.a n = A116604 n
+
+end A116604
+
 /-!
 # A116605: Smallest prime p such that p == 1 (mod prime(n)) and not p == 1 (mod k) for 2 < k < prime(n).
 
@@ -14065,6 +14111,29 @@ def P1246169461381014975.Spec : Prop :=
 
 end A116699
 
+/-! ## A116699.P3951024998009516003
+
+`C(n+1, 4)+2*C(n+1, 3)+n+1`
+-/
+
+namespace A116699.P3951024998009516003
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 1) 4 + 2 * Nat.choose (n + 1) 3 + (n + 1)
+
+end
+
+end A116699.P3951024998009516003
+
+namespace A116699
+
+/-- `C(n+1, 4)+2*C(n+1, 3)+n+1` -/
+def P3951024998009516003.Spec : Prop :=
+  ∀ n, (P3951024998009516003.a n : ℤ) = A116699 (n + 1)
+
+end A116699
+
 /-! ## A116699.P5684100317170937865
 
 `∑[A005581(n)+1]`
@@ -14392,29 +14461,6 @@ namespace A116699
 /-- `∑[∑[∑[n]+1]-A004277(n)]+1` -/
 def P2623669487630188181.Spec : Prop :=
   ∀ n, P2623669487630188181.a n = A116699 (n + 1)
-
-end A116699
-
-/-! ## A116699.P4077463264512217359
-
-`A058923(n)+A006003(n)`
--/
-
-namespace A116699.P4077463264512217359
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058923 n + A006003 n
-
-end
-
-end A116699.P4077463264512217359
-
-namespace A116699
-
-/-- `A058923(n)+A006003(n)` -/
-def P4077463264512217359.Spec : Prop :=
-  ∀ n, P4077463264512217359.a n = A116699 (n + 1)
 
 end A116699
 

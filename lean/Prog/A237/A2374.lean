@@ -55,7 +55,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -2547,6 +2546,29 @@ def P1896387369366685294.Spec : Prop :=
 
 end A237420
 
+/-! ## A237420.P7644541992857449673
+
+`n*and(1, n+1)`
+-/
+
+namespace A237420.P7644541992857449673
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * Nat.land 1 (n + 1)
+
+end
+
+end A237420.P7644541992857449673
+
+namespace A237420
+
+/-- `n*and(1, n+1)` -/
+def P7644541992857449673.Spec : Prop :=
+  ∀ n, (P7644541992857449673.a n : ℤ) = A237420 n
+
+end A237420
+
 /-! ## A237420.P857853288743946475
 
 `and(n, (1-n)%2)`
@@ -2787,32 +2809,6 @@ namespace A237420
 /-- `and(n, -and(1, n+1))` -/
 def P12491301177281864016.Spec : Prop :=
   ∀ n, P12491301177281864016.a n = A237420 n
-
-end A237420
-
-/-! ## A237420.P10962865963929275430
-
-`Δ[(or(1, -n)/2)²]`
--/
-
-namespace A237420.P10962865963929275430
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((Int.lor 1 (-(n : ℤ)) : ℚ) / 2) ^ 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A237420.P10962865963929275430
-
-namespace A237420
-
-/-- `Δ[(or(1, -n)/2)²]` -/
-def P10962865963929275430.Spec : Prop :=
-  ∀ n, P10962865963929275430.a n = (A237420 n : ℚ)
 
 end A237420
 

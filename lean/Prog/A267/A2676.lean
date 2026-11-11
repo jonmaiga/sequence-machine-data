@@ -2689,6 +2689,21 @@ end
 
 end A267613.P4202499489384353398
 
+/-! ## A267613.P15269674452713263858
+
+`A007088(A267614(n))`
+-/
+
+namespace A267613.P15269674452713263858
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007088 (A267614 n).toNat
+
+end
+
+end A267613.P15269674452713263858
+
 /-!
 # A267614: Decimal representation of the n-th iteration of the "Rule 185" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -7500,21 +7515,6 @@ end
 
 end A267653.P8171992155363021132
 
-/-! ## A267653.P17823922793094024629
-
-`A321911(n+1)+A112424(n+1)`
--/
-
-namespace A267653.P17823922793094024629
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321911 (n + 1) + A112424 (n + 1)
-
-end
-
-end A267653.P17823922793094024629
-
 /-! ## A267653.P3995705537965405308
 
 `A260160(A000670(n))+A225173(n)`
@@ -9281,6 +9281,29 @@ namespace A267668
 /-- `2*A267638(n+1)*A052955(n)` -/
 def P8833467298812858130.Spec : Prop :=
   ∀ n, P8833467298812858130.a n = A267668 (n + 1)
+
+end A267668
+
+/-! ## A267668.P14223946642550928133
+
+`A027383(n+1)*A027383(n+1)*A052955(n)`
+-/
+
+namespace A267668.P14223946642550928133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027383 (n + 1) * A027383 (n + 1) * A052955 n
+
+end
+
+end A267668.P14223946642550928133
+
+namespace A267668
+
+/-- `A027383(n+1)*A027383(n+1)*A052955(n)` -/
+def P14223946642550928133.Spec : Prop :=
+  ∀ n, P14223946642550928133.a n = A267668 (n + 1)
 
 end A267668
 

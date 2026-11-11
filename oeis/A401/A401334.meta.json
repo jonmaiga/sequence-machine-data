@@ -1,0 +1,16 @@
+{
+  "description": "Multi-arch perturbed Hofstadter Q-sequence: a(n) = a(n-a(n-1)) + a(n-a(n-2)) - (-1)^n for n >= 8, with (a(1),...,a(7)) = (1,1,3,3,3,3,5).",
+  "id": "A401334",
+  "mentions": [
+    "A005185",
+    "A394051"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

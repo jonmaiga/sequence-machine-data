@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of dissections of an n X n square into integer-sided squares, up to rotations and reflections, such that no two squares with the same side length share a piece of an edge.",
+  "id": "A401271",
+  "mentions": [
+    "A045846",
+    "A224239"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

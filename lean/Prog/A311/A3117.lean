@@ -3966,24 +3966,6 @@ end
 
 end A311741.P13388515393057952814
 
-/-! ## A311741.P11633655333554814480
-
-`A311745(n)-(∏{p}[A111576(n+1), #]-1)%2`
--/
-
-namespace A311741.P11633655333554814480
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111576 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A311745 n - Int.tmod (((∏ p ∈ Nat.primeFactors (f1 n).natAbs, p : ℕ) : ℤ) - 1) 2
-
-end
-
-end A311741.P11633655333554814480
-
 /-! ## A311741.P14941533577348415305
 
 `A250120(n)-A095407(A018047(n))`
@@ -4250,24 +4232,6 @@ end A311744.P1084416629428148689
 
 The programs for A311745, there is no canonical definition to state claims against.
 -/
-
-/-! ## A311745.P15961280374543281599
-
-`A311741(n)+(∏{p}[A111576(n+1), #]-1)%2`
--/
-
-namespace A311745.P15961280374543281599
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111576 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A311741 n + Int.tmod (((∏ p ∈ Nat.primeFactors (f1 n).natAbs, p : ℕ) : ℤ) - 1) 2
-
-end
-
-end A311745.P15961280374543281599
 
 /-! ## A311745.P11911274224176959836
 

@@ -8717,26 +8717,26 @@ def P10543973430451373662.Spec : Prop :=
 
 end A341643
 
-/-! ## A341643.P3090132673305101445
+/-! ## A341643.P12095788221291246680
 
-`A140271(A064052(2*n+1-n))`
+`A033677(A064052(2*n+1-n))`
 -/
 
-namespace A341643.P3090132673305101445
+namespace A341643.P12095788221291246680
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140271 (A064052 (2 * n + 1 - n)).toNat
+  A033677 (A064052 (2 * n + 1 - n)).toNat
 
 end
 
-end A341643.P3090132673305101445
+end A341643.P12095788221291246680
 
 namespace A341643
 
-/-- `A140271(A064052(2*n+1-n))` -/
-def P3090132673305101445.Spec : Prop :=
-  ∀ n, P3090132673305101445.a n = A341643 (n + 1)
+/-- `A033677(A064052(2*n+1-n))` -/
+def P12095788221291246680.Spec : Prop :=
+  ∀ n, P12095788221291246680.a n = A341643 (n + 1)
 
 end A341643
 
@@ -11288,6 +11288,21 @@ end
 
 end A341660.P14944196303108020662
 
+/-! ## A341660.P13201864151253932695
+
+`A030291(A034709(n+1))`
+-/
+
+namespace A341660.P13201864151253932695
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030291 (A034709 (n + 1)).toNat
+
+end
+
+end A341660.P13201864151253932695
+
 /-! ## A341660.P6789748724098151253
 
 `A054403(A034838(n+1))`
@@ -11302,21 +11317,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A341660.P6789748724098151253
-
-/-! ## A341660.P3313831103812661873
-
-`A054403(A063527(n+1))`
--/
-
-namespace A341660.P3313831103812661873
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054403 (A063527 (n + 1)).toNat
-
-end
-
-end A341660.P3313831103812661873
 
 /-!
 # A341661: Primes p such that p^4 - 1 has fewer than 160 divisors.

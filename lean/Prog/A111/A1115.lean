@@ -33,6 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C041
@@ -57,6 +58,7 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -94,7 +96,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -8755,6 +8756,29 @@ def P4029774972684036668.Spec : Prop :=
 
 end A111573
 
+/-! ## A111573.P13864334819546110925
+
+`A240828(n+2)+A000045(n+1)-A186421(n+1)`
+-/
+
+namespace A111573.P13864334819546110925
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240828 (n + 2) + A000045 (n + 1) - A186421 (n + 1)
+
+end
+
+end A111573.P13864334819546110925
+
+namespace A111573
+
+/-- `A240828(n+2)+A000045(n+1)-A186421(n+1)` -/
+def P13864334819546110925.Spec : Prop :=
+  ∀ n, P13864334819546110925.a n = A111573 n
+
+end A111573
+
 /-! ## A111573.P13282273008871279290
 
 `round(ϕ^n-a(n-2))` with `a(0)=0, a(1)=1`
@@ -8775,6 +8799,29 @@ namespace A111573
 /-- `round(ϕ^n-a(n-2))` -/
 def P13282273008871279290.Spec : Prop :=
   ∀ n, P13282273008871279290.a n = A111573 n
+
+end A111573
+
+/-! ## A111573.P17734537629975735384
+
+`A087123(n)-A116697(n)`
+-/
+
+namespace A111573.P17734537629975735384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087123 n - A116697 n
+
+end
+
+end A111573.P17734537629975735384
+
+namespace A111573
+
+/-- `A087123(n)-A116697(n)` -/
+def P17734537629975735384.Spec : Prop :=
+  ∀ n, P17734537629975735384.a n = A111573 n
 
 end A111573
 
@@ -9808,87 +9855,6 @@ def P12500533593703066858.Spec : Prop :=
   ∀ n, (P12500533593703066858.a n : ℤ) = A111575 n
 
 end A111575
-
-/-!
-# A111576: Number of minimal non-2-stack-sortable permutations of length n.
-
-The programs for A111576, there is no canonical definition to state claims against.
--/
-
-/-! ## A111576.P9978240242291694313
-
-`A128796(n)%A357201(n)`
--/
-
-namespace A111576.P9978240242291694313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A128796 n) (A357201 n)
-
-end
-
-end A111576.P9978240242291694313
-
-/-! ## A111576.P1506140678226410866
-
-`A004255(n+1)%A001256(n)`
--/
-
-namespace A111576.P1506140678226410866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A004255 (n + 1)) (A001256 n)
-
-end
-
-end A111576.P1506140678226410866
-
-/-! ## A111576.P4858975213134502234
-
-`A202197(n+1)%A032171(n+1)`
--/
-
-namespace A111576.P4858975213134502234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A202197 (n + 1)) (A032171 (n + 1))
-
-end
-
-end A111576.P4858975213134502234
-
-/-! ## A111576.P17027393005463217473
-
-`A343769(n+1)%A273873(n+1)`
--/
-
-namespace A111576.P17027393005463217473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A343769 (n + 1)) (A273873 (n + 1))
-
-end
-
-end A111576.P17027393005463217473
-
-/-! ## A111576.P2240095780142191708
-
-`A258953(n+1)%A398786(n+1)`
--/
-
-namespace A111576.P2240095780142191708
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A258953 (n + 1)) (A398786 (n + 1))
-
-end
-
-end A111576.P2240095780142191708
 
 /-!
 # A111577: Galton triangle T(n, k) = T(n-1, k-1) + (3k-2)*T(n-1, k) read by rows.

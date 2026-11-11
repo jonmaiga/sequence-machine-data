@@ -28,6 +28,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
@@ -11882,6 +11883,24 @@ end
 
 end A055396.P8997788748426352050
 
+/-! ## A055396.P5057084637600829447
+
+`A381132(∏{p}[n+1, #])`
+-/
+
+namespace A055396.P5057084637600829447
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381132 (∏ p ∈ Nat.primeFactors (f1 n), p)
+
+end
+
+end A055396.P5057084637600829447
+
 /-! ## A055396.P16993679313007975166
 
 `A000720(A020639(n+1))`
@@ -12052,24 +12071,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A055396.P12065024035891602922
-
-/-! ## A055396.P653736378205742399
-
-`∑{d}[A020639(n+1), A065770(#)]`
--/
-
-namespace A055396.P653736378205742399
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A065770 d
-
-end
-
-end A055396.P653736378205742399
 
 /-!
 # A055398: Result of fourth stage of sieve of Eratosthenes (after eliminating multiples of 2, 3, 5, 7).

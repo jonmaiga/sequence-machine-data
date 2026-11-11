@@ -16,12 +16,12 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
@@ -483,6 +483,32 @@ def P2975497287482371921.Spec : Prop :=
 
 end A203400
 
+/-! ## A203400.P17251874056952305334
+
+`∑{#}[floor((n+1)/3)-1, C(n+1-2*(#+1), #+1)*(-1)^#]`
+-/
+
+namespace A203400.P17251874056952305334
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℚ) / 3⌋ - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.choose ((n + 1 : ℤ) - (2 * (k + 1) : ℤ)).toNat (k + 1) : ℤ) * (-1) ^ k
+
+end
+
+end A203400.P17251874056952305334
+
+namespace A203400
+
+/-- `∑{#}[floor((n+1)/3)-1, C(n+1-2*(#+1), #+1)*(-1)^#]` -/
+def P17251874056952305334.Spec : Prop :=
+  ∀ n, P17251874056952305334.a n = A203400 (n + 1)
+
+end A203400
+
 /-!
 # A203401: Number of (n+2)X(n+2) binary arrays avoiding patterns 000 and 111 in rows and columns.
 
@@ -588,20 +614,20 @@ end
 
 end A203402.P15409670197143096584
 
-/-! ## A203402.P16339982337974399706
+/-! ## A203402.P13606953108326334011
 
-`A238651(n+3)/2^A008683(A020484(n))`
+`A238651(n+3)+A238651(n+3)`
 -/
 
-namespace A203402.P16339982337974399706
+namespace A203402.P13606953108326334011
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A238651 (n + 3) : ℚ) / (2 : ℚ) ^ (A008683 (A020484 n).toNat : ℤ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238651 (n + 3) + A238651 (n + 3)
 
 end
 
-end A203402.P16339982337974399706
+end A203402.P13606953108326334011
 
 /-! ## A203402.P8453102374834298870
 
@@ -756,20 +782,20 @@ end
 
 end A203404.P3904275013346333684
 
-/-! ## A203404.P9319876526821491797
+/-! ## A203404.P9589919665067221972
 
-`A238653(n+3)+A238653(n+3)+A000007(n+1)`
+`A238653(n+3)+A238653(n+3)`
 -/
 
-namespace A203404.P9319876526821491797
+namespace A203404.P9589919665067221972
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238653 (n + 3) + (A238653 (n + 3) + A000007 (n + 1))
+  A238653 (n + 3) + A238653 (n + 3)
 
 end
 
-end A203404.P9319876526821491797
+end A203404.P9589919665067221972
 
 /-! ## A203404.P1903699961343200321
 

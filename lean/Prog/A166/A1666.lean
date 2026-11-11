@@ -8607,6 +8607,29 @@ def P9647721353611267270.Spec : Prop :=
 
 end A166639
 
+/-! ## A166639.P10783578657510329794
+
+`A166519(A168277(n+1)+n+1)`
+-/
+
+namespace A166639.P10783578657510329794
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166519 (A168277 (n + 1) + (n + 1 : ℤ)).toNat
+
+end
+
+end A166639.P10783578657510329794
+
+namespace A166639
+
+/-- `A166519(A168277(n+1)+n+1)` -/
+def P10783578657510329794.Spec : Prop :=
+  ∀ n, P10783578657510329794.a n = A166639 n
+
+end A166639
+
 /-!
 # A166640: Totally multiplicative sequence with a(p) = 9*(p-1) for prime p.
 

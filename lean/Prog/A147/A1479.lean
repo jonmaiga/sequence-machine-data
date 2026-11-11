@@ -62,7 +62,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -7092,29 +7091,6 @@ def P10650243421294190439.Spec : Prop :=
 
 end A147977
 
-/-! ## A147977.P1935064412854570882
-
-`(A000400(n)-A001552(n))*A001222(A063535(n))`
--/
-
-namespace A147977.P1935064412854570882
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A000400 n - A001552 n) * A001222 (A063535 n).toNat
-
-end
-
-end A147977.P1935064412854570882
-
-namespace A147977
-
-/-- `(A000400(n)-A001552(n))*A001222(A063535(n))` -/
-def P1935064412854570882.Spec : Prop :=
-  ∀ n, P1935064412854570882.a n = A147977 (n + 1)
-
-end A147977
-
 /-! ## A147977.P14541611062080370856
 
 `(A000400(n)-A001552(n))*A033273(A000040(n+1))`
@@ -8335,6 +8311,29 @@ theorem P11842967940563192351.correct : P11842967940563192351.Spec := by
 
 end A147991
 
+/-! ## A147991.P16027820769668173133
+
+`A191110(n+1)-A107680(n)`
+-/
+
+namespace A147991.P16027820769668173133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191110 (n + 1) - A107680 n
+
+end
+
+end A147991.P16027820769668173133
+
+namespace A147991
+
+/-- `A191110(n+1)-A107680(n)` -/
+def P16027820769668173133.Spec : Prop :=
+  ∀ n, P16027820769668173133.a n = A147991 (n + 1)
+
+end A147991
+
 /-! ## A147991.P8423042801256832581
 
 `∑[A006046(A080940(n+1))+1]`
@@ -8660,32 +8659,6 @@ namespace A147991
 /-- `record[A232798(n+1)]` -/
 def P5712001196579569113.Spec : Prop :=
   ∀ n, P5712001196579569113.a n = A147991 (n + 1)
-
-end A147991
-
-/-! ## A147991.P3779130116962736400
-
-`record[A308364(n+1)]`
--/
-
-namespace A147991.P3779130116962736400
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308364 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A147991.P3779130116962736400
-
-namespace A147991
-
-/-- `record[A308364(n+1)]` -/
-def P3779130116962736400.Spec : Prop :=
-  ∀ n, P3779130116962736400.a n = A147991 (n + 1)
 
 end A147991
 

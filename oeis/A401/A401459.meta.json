@@ -1,0 +1,24 @@
+{
+  "description": "Number of attractors under iteration of the function S(x) = n+sum of squares of digits of x.",
+  "id": "A401459",
+  "mentions": [
+    "A193583",
+    "A193585",
+    "A193586",
+    "A401457",
+    "A401458",
+    "A401460",
+    "A401461",
+    "A401462"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

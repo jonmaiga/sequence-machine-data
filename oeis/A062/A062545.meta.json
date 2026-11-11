@@ -2,6 +2,7 @@
   "description": "Continued fraction for the 2nd du Bois-Reymond constant.",
   "id": "A062545",
   "mentions": [
+    "A005818",
     "A062546"
   ],
   "tags": [

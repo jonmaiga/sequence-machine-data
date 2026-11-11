@@ -754,6 +754,27 @@ end
 
 end A002503.P7420856432555598792
 
+/-! ## A002503.P17484531006081262951
+
+`eq[A099890(n), A099905(n+1)]`
+-/
+
+namespace A002503.P17484531006081262951
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099890 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099905 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A002503.P17484531006081262951
+
 /-! ## A002503.P5683964893881065825
 
 `eq[A099894(n), A099905(n+1)]`
@@ -795,27 +816,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A002503.P5260700189296511131
-
-/-! ## A002503.P18040572195719660778
-
-`eq[A099905(n+1), A130706(n)]`
--/
-
-namespace A002503.P18040572195719660778
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099905 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130706 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A002503.P18040572195719660778
 
 /-!
 # A002504: Numbers x such that 1 + 3*x*(x-1) is a ("cuban") prime (cf. A002407).
@@ -1244,6 +1244,29 @@ def P4448757637540887582.Spec : Prop :=
 
 end A002506
 
+/-! ## A002506.P5411163834682495079
+
+`4^(n+1)*n!*(n+2)!`
+-/
+
+namespace A002506.P5411163834682495079
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 ^ (n + 1) * Nat.factorial n * Nat.factorial (n + 2)
+
+end
+
+end A002506.P5411163834682495079
+
+namespace A002506
+
+/-- `4^(n+1)*n!*(n+2)!` -/
+def P5411163834682495079.Spec : Prop :=
+  ∀ n, (P5411163834682495079.a n : ℤ) = A002506 n
+
+end A002506
+
 /-! ## A002506.P6950312933455657704
 
 `2*(n+2)*A002474(n)`
@@ -1264,32 +1287,6 @@ namespace A002506
 /-- `2*(n+2)*A002474(n)` -/
 def P6950312933455657704.Spec : Prop :=
   ∀ n, P6950312933455657704.a n = A002506 n
-
-end A002506
-
-/-! ## A002506.P10780974339253602445
-
-`∏[4*(n+2)*A028310(n)]`
--/
-
-namespace A002506.P10780974339253602445
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (4 * (n + 2) : ℤ) * A028310 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A002506.P10780974339253602445
-
-namespace A002506
-
-/-- `∏[4*(n+2)*A028310(n)]` -/
-def P10780974339253602445.Spec : Prop :=
-  ∀ n, P10780974339253602445.a n = A002506 n
 
 end A002506
 
@@ -8778,21 +8775,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002560.P13624044388031016105
-
-/-! ## A002560.P1988624662038626907
-
-`A075545(n+4)-A119788(A000051(n))`
--/
-
-namespace A002560.P1988624662038626907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075545 (n + 4) - A119788 (A000051 n).toNat
-
-end
-
-end A002560.P1988624662038626907
 
 /-! ## A002560.P6563329779925498596
 

@@ -4845,27 +4845,6 @@ def P837188340839065535.Spec : Prop :=
 end A137722
 
 /-!
-# A137724: Prime numbers p such that p +- ((p-1)/6) are primes.
-
-The programs for A137724, there is no canonical definition to state claims against.
--/
-
-/-! ## A137724.P5192362363020025901
-
-`A211821(A000005(n+1)*A345531(n+1))`
--/
-
-namespace A137724.P5192362363020025901
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A211821 (A000005 (n + 1) * A345531 (n + 1)).toNat
-
-end
-
-end A137724.P5192362363020025901
-
-/-!
 # A137725: Number of sequences of length n with elements {-2,-1,+1,+2}, such that the sum of elements of the whole sequence but of no proper subsequence equals 0 modulo n. For n>=4, the number of Hamiltonian (directed) circuits on the circulant graph C_n(1,2).
 
 The programs for A137725, the canonical program `A137725.P7741262379720710562` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137725 has offset 1).

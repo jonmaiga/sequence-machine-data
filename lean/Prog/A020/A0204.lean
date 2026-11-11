@@ -13329,6 +13329,36 @@ end
 
 end A020483.P9905593698176482960
 
+/-! ## A020483.P17242116646678451310
+
+`A087242(A004277(n))`
+-/
+
+namespace A020483.P17242116646678451310
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087242 (A004277 n).toNat
+
+end
+
+end A020483.P17242116646678451310
+
+/-! ## A020483.P12310456985483852502
+
+`A087242(A004275(n+1))`
+-/
+
+namespace A020483.P12310456985483852502
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087242 (A004275 (n + 1)).toNat
+
+end
+
+end A020483.P12310456985483852502
+
 /-! ## A020483.P11411291256100101504
 
 `A271353(C(2, n²)+2*n+2)`
@@ -13418,36 +13448,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020483.P15594224163296942526
-
-/-! ## A020483.P9864801728932412763
-
-`A000720(2*n+1)+A271353(2*(n+1))-A000720(2*(n+1))`
--/
-
-namespace A020483.P9864801728932412763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (2 * n + 1) + (A271353 (2 * (n + 1)) - A000720 (2 * (n + 1)))
-
-end
-
-end A020483.P9864801728932412763
-
-/-! ## A020483.P3087049780684836620
-
-`A271353(A000720(A000040(2*n+1)+1)+1)`
--/
-
-namespace A020483.P3087049780684836620
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271353 (A000720 (A000040 (2 * n + 1) + 1).toNat + 1).toNat
-
-end
-
-end A020483.P3087049780684836620
 
 /-!
 # A020484: Least prime p such that there exists a prime q with p-2n = q.
@@ -15427,6 +15427,42 @@ end
 
 end A020495.P9038944436562754889
 
+/-! ## A020495.P18083966006602445977
+
+`filter[A014090(n+2), A401714(#)]`
+-/
+
+namespace A020495.P18083966006602445977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014090 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A020495.P18083966006602445977
+
+/-! ## A020495.P2880878813546631714
+
+`filter[A014090(n+2), A401715(#)]`
+-/
+
+namespace A020495.P2880878813546631714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014090 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401715 (f1 j).toNat = 1) n)
+
+end
+
+end A020495.P2880878813546631714
+
 /-! ## A020495.P12988507250656822906
 
 `∩[A014090(n+1), A102750(n+1)]`
@@ -15448,42 +15484,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A020495.P12988507250656822906
-
-/-! ## A020495.P7224884437437902242
-
-`record[A144907(A014090(n+2))]`
--/
-
-namespace A020495.P7224884437437902242
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144907 (A014090 (n + 2)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A020495.P7224884437437902242
-
-/-! ## A020495.P9451317823238953334
-
-`filter[A014090(n+1), A266754(#)]`
--/
-
-namespace A020495.P9451317823238953334
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014090 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266754 (f1 j).toNat = 1) n)
-
-end
-
-end A020495.P9451317823238953334
 
 /-!
 # A020496: From the ground state energy of a variant of the Hubbard Hamiltonian for 2 holes on a lattice of n sites.

@@ -3898,6 +3898,21 @@ end A374761.P3007589642347138990
 The programs for A374762, there is no canonical definition to state claims against.
 -/
 
+/-! ## A374762.P11501105272223291079
+
+`A401834(A124571(n+1))`
+-/
+
+namespace A374762.P11501105272223291079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401834 (A124571 (n + 1)).toNat
+
+end
+
+end A374762.P11501105272223291079
+
 /-! ## A374762.P6258635767885083722
 
 `A302930(A000041(n))+A179070(n+1)`

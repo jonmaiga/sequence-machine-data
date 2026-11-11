@@ -2,8 +2,10 @@
   "description": "Odd numbers N for which numerator(sigma(N^2)/N^2) is prime but sigma(N^2) is composite.",
   "id": "A193072",
   "mentions": [
+    "A105402",
     "A193066",
-    "A193071"
+    "A193071",
+    "A401386"
   ],
   "tags": [
     "hard",

@@ -9533,6 +9533,32 @@ def P3360231251430795024.Spec : Prop :=
 
 end A083236
 
+/-! ## A083236.P1471154620115367135
+
+`A000040(n+1)+∑{#}[n-1, (-1)^(#+1)*A000040(n-#+1)]`
+-/
+
+namespace A083236.P1471154620115367135
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1) + ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1) ^ (k + 1) * A000040 ((n : ℤ) - (k : ℤ) + 1).toNat
+
+end
+
+end A083236.P1471154620115367135
+
+namespace A083236
+
+/-- `A000040(n+1)+∑{#}[n-1, (-1)^(#+1)*A000040(n-#+1)]` -/
+def P1471154620115367135.Spec : Prop :=
+  ∀ n, P1471154620115367135.a n = A083236 n
+
+end A083236
+
 /-!
 # A083237: First order recursion: a(0)=5; a(n)=prime(n)-a(n-1).
 

@@ -71,6 +71,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -411,6 +412,35 @@ theorem P12991293471447976015.correct : P12991293471447976015.Spec := by
   simp only [A200408, Nat.add_sub_cancel, A200408.P12991293471447976015.a, A200408.P5285563905412615369.a, A000045, A000045.P11838749114346432762.a, A099921, A099921.P14263835898241242996.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
+
+end A200408
+
+/-! ## A200408.P7996818300611291476
+
+`5*A000045(n+1)²-4`
+-/
+
+namespace A200408.P7996818300611291476
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * A000045 (n + 1) ^ 2 - 4
+
+end
+
+end A200408.P7996818300611291476
+
+namespace A200408
+
+/-- `5*A000045(n+1)²-4` -/
+def P7996818300611291476.Spec : Prop :=
+  ∀ n, P7996818300611291476.a n = A200408 n
+
+theorem P7996818300611291476.correct : P7996818300611291476.Spec := by
+  intro n
+  simp only [A200408, Nat.add_sub_cancel, A200408.P7996818300611291476.a, A200408.P5285563905412615369.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A200408
 

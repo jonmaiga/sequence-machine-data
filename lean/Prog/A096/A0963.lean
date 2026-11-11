@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -32,8 +31,8 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B000.C048
@@ -9110,6 +9109,81 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096374.P4764118229371760094
+
+/-! ## A096374.P16495475650286639628
+
+`A241386(n+1)+A241385(n+1)-A096375(n+1)`
+-/
+
+namespace A096374.P16495475650286639628
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241386 (n + 1) + A241385 (n + 1) - A096375 (n + 1)
+
+end
+
+end A096374.P16495475650286639628
+
+/-! ## A096374.P15463966700097401185
+
+`A241391(n+1)+A241390(n+1)-A096375(n+1)`
+-/
+
+namespace A096374.P15463966700097401185
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241391 (n + 1) + A241390 (n + 1) - A096375 (n + 1)
+
+end
+
+end A096374.P15463966700097401185
+
+/-! ## A096374.P6278019803769494806
+
+`A241644(n+1)+A241641(n+1)-A096375(n+1)`
+-/
+
+namespace A096374.P6278019803769494806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241644 (n + 1) + A241641 (n + 1) - A096375 (n + 1)
+
+end
+
+end A096374.P6278019803769494806
+
+/-! ## A096374.P1586648912488334697
+
+`A241381(n+1)+A241380(n+1)-A096375(n+1)`
+-/
+
+namespace A096374.P1586648912488334697
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241381 (n + 1) + A241380 (n + 1) - A096375 (n + 1)
+
+end
+
+end A096374.P1586648912488334697
+
+/-! ## A096374.P16374837734943596913
+
+`A241654(n+1)+A241651(n+1)-A096375(n+1)`
+-/
+
+namespace A096374.P16374837734943596913
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241654 (n + 1) + A241651 (n + 1) - A096375 (n + 1)
+
+end
+
+end A096374.P16374837734943596913
 
 /-!
 # A096375: Number of partitions of n such that the least part occurs with odd multiplicity.

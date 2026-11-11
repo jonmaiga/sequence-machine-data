@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of graphs on n node with edge chromatic number k (n >= 1, k >= 1).",
+  "description": "Irregular triangle read by rows: T(n,k) = number of unlabeled graphs on n nodes with edge chromatic number k (n >= 1, k >= 0), with trailing zeros omitted.",
   "id": "A123962",
   "mentions": [
     "A126728",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 58,
     "source": "oeis-entry"
   }
 }

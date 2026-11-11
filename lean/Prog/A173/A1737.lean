@@ -31,7 +31,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
@@ -9428,21 +9427,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A173745.P3099898332114671736
-
-/-! ## A173745.P12173482051939801165
-
-`A388719(A214857(n)+A186725(2*(n+2)))`
--/
-
-namespace A173745.P12173482051939801165
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A388719 (A214857 n + A186725 (2 * (n + 2))).toNat
-
-end
-
-end A173745.P12173482051939801165
 
 /-!
 # A173746: Numbers k such that tau(tau(k)) = rad(k).

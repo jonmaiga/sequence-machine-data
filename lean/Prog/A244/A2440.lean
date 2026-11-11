@@ -6866,50 +6866,6 @@ end
 
 end A244065.P3734375122604732477
 
-/-! ## A244065.P3253782315852188061
-
-`∩[A153514(n+1), A306448(n+1)]`
--/
-
-namespace A244065.P3253782315852188061
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153514 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306448 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A244065.P3253782315852188061
-
-/-! ## A244065.P7123604787533630738
-
-`∩[A020209(n+1), A306452(n+1)]`
--/
-
-namespace A244065.P7123604787533630738
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020209 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306452 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A244065.P7123604787533630738
-
 /-! ## A244065.P12556968236074121460
 
 `∩[A020155(n+1), A306448(n+1)]`
@@ -6953,6 +6909,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A244065.P15083456545794403654
+
+/-! ## A244065.P7123604787533630738
+
+`∩[A020209(n+1), A306452(n+1)]`
+-/
+
+namespace A244065.P7123604787533630738
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020209 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306452 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244065.P7123604787533630738
+
+/-! ## A244065.P3253782315852188061
+
+`∩[A153514(n+1), A306448(n+1)]`
+-/
+
+namespace A244065.P3253782315852188061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153514 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306448 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244065.P3253782315852188061
 
 /-!
 # A244066: Arithmetic mean of two consecutive twin primes that is also the arithmetic mean of two consecutive non-twin primes.

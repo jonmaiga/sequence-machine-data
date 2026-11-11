@@ -25,6 +25,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -4842,12 +4843,6 @@ namespace A070824
 /-- `A134871(n+1)-(n+1)` -/
 def P4606011129168469425.Spec : Prop :=
   ∀ n, P4606011129168469425.a n = A070824 (n + 1)
-
-theorem P4606011129168469425.correct : P4606011129168469425.Spec := by
-  intro n
-  simp only [A070824, Nat.add_sub_cancel, A070824.P4606011129168469425.a, A070824.P8619364737303502474.f1, A070824.P8619364737303502474.a, A134871, A134871.P9338139683703064561.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A070824
 

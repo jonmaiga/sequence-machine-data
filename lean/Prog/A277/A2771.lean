@@ -7487,36 +7487,6 @@ end
 
 end A277159.P9542378078205539801
 
-/-! ## A277159.P4018403090401993174
-
-`and(A137264(A002808(2*(n+1))), A156258(2*(n+1)))`
--/
-
-namespace A277159.P4018403090401993174
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A137264 (A002808 (2 * (n + 1))).toNat) (A156258 (2 * (n + 1)))
-
-end
-
-end A277159.P4018403090401993174
-
-/-! ## A277159.P14674385864021694671
-
-`val(A330958(A140595(n)), 2)`
--/
-
-namespace A277159.P14674385864021694671
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A330958 (A140595 n).toNat).toNat 2
-
-end
-
-end A277159.P14674385864021694671
-
 /-! ## A277159.P18409215399423280171
 
 `val(A194000(A246438(n+1)), 7)`
@@ -7546,6 +7516,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277159.P3037484538355866516
+
+/-! ## A277159.P11440823239854245753
+
+`A126010(A297466(n+1))`
+-/
+
+namespace A277159.P11440823239854245753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126010 (A297466 (n + 1)).toNat
+
+end
+
+end A277159.P11440823239854245753
+
+/-! ## A277159.P42176590402062577
+
+`and(A307690(n+1), A363924(n+1))`
+-/
+
+namespace A277159.P42176590402062577
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A307690 (n + 1)) (A363924 (n + 1))
+
+end
+
+end A277159.P42176590402062577
 
 /-!
 # A277160: Lexicographically least sequence of nonnegative integers that avoids 13/8-powers.

@@ -674,6 +674,21 @@ end
 
 end A267102.P2109515495369176826
 
+/-! ## A267102.P14706525918210819519
+
+`A267104(A265901(A267104(n+1)))`
+-/
+
+namespace A267102.P14706525918210819519
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267104 (A265901 (A267104 (n + 1)).toNat).toNat
+
+end
+
+end A267102.P14706525918210819519
+
 /-!
 # A267103: Row 3 of A265903; numbers that occur exactly three times in A004001.
 

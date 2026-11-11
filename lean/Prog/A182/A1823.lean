@@ -32,6 +32,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
@@ -1835,7 +1836,7 @@ end A182317.P2311747745596515743
 /-!
 # A182318: List of positive integers whose prime tower factorization, as defined in comments, does not contain the prime 2.
 
-The programs for A182318, the canonical program `A182318.P12456302042161532717` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182318 has offset 1).
+The programs for A182318, the canonical program `A182318.P12456302042161532717` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182318 has offset 1).
 
 The definition of A182318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6763 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2026,7 +2027,7 @@ end A182318
 
 `filter[A047501(n+1), A295316(#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A182318
@@ -7550,14 +7551,14 @@ end A182385.P15368645666891885258
 /-!
 # A182386: a(0) = 1, a(n) = 1 - n * a(n-1).
 
-The programs for A182386, the canonical program `A182386.P16571549731894921699` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182386 has offset 0).
+The programs for A182386, the canonical program `A182386.P5438151827760853369` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182386 has offset 0).
 
-The definition of A182386 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1-n*a(n-1)` (program `A182386.P16571549731894921699`, by `A182386.P16571549731894921699.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A182386 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1-n*a(n-1)` (program `A182386.P5438151827760853369`, by `A182386.P5438151827760853369.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A182386.P16571549731894921699
+/-! ## A182386.P5438151827760853369
 
-`1-n*a(n-1)` with `a(0)=1, a(1)=0`
+`1-n*a(n-1)` with `a(0)=1, a(1)=0, a(2)=1`
 
 The canonical program, it is in `Seq.B000.C030`.
 -/
@@ -7565,10 +7566,10 @@ The canonical program, it is in `Seq.B000.C030`.
 namespace A182386
 
 /-- `1-n*a(n-1)` -/
-def P16571549731894921699.Spec : Prop :=
-  ∀ n, P16571549731894921699.a n = A182386 n
+def P5438151827760853369.Spec : Prop :=
+  ∀ n, P5438151827760853369.a n = A182386 n
 
-theorem P16571549731894921699.correct : P16571549731894921699.Spec := by
+theorem P5438151827760853369.correct : P5438151827760853369.Spec := by
   intro n
   simp only [A182386]
 

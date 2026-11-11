@@ -150,6 +150,32 @@ theorem P6437834124928167504.correct : P6437834124928167504.Spec := by
 
 end A083100
 
+/-! ## A083100.P16143106255340658589
+
+`∑{#}[floor((n+1)/2), C(n+1, 2*#)*8^#]`
+-/
+
+namespace A083100.P16143106255340658589
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℚ) / 2⌋
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (n + 1) (2 * k) * 8 ^ k
+
+end
+
+end A083100.P16143106255340658589
+
+namespace A083100
+
+/-- `∑{#}[floor((n+1)/2), C(n+1, 2*#)*8^#]` -/
+def P16143106255340658589.Spec : Prop :=
+  ∀ n, (P16143106255340658589.a n : ℤ) = A083100 n
+
+end A083100
+
 /-! ## A083100.P18441226344910815395
 
 `A084058(1+n)`
@@ -297,32 +323,6 @@ namespace A083100
 /-- `or(1, ∑[4*A305492(n)]+1)` -/
 def P10893949447992581689.Spec : Prop :=
   ∀ n, P10893949447992581689.a n = A083100 n
-
-end A083100
-
-/-! ## A083100.P3279880104300663923
-
-`∑{#}[n, C(n, #)*A164683(#+1)]`
--/
-
-namespace A083100.P3279880104300663923
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A164683 (k + 1)
-
-end
-
-end A083100.P3279880104300663923
-
-namespace A083100
-
-/-- `∑{#}[n, C(n, #)*A164683(#+1)]` -/
-def P3279880104300663923.Spec : Prop :=
-  ∀ n, P3279880104300663923.a n = A083100 n
 
 end A083100
 
@@ -9411,12 +9411,6 @@ namespace A083198
 def P17122353613025831039.Spec : Prop :=
   ∀ n, P17122353613025831039.a n = A083198 (n + 5)
 
-theorem P17122353613025831039.correct : P17122353613025831039.Spec := by
-  intro n
-  simp only [A083198, Nat.add_sub_cancel, A083198.P17122353613025831039.a, A083198.P17915299577347371668.a, A002379, A002379.P9705169431772742673.a, A003312, A003312.P15694996587841724422.a, A061419, A061419.P18372017784538588970.a, A006999, A006999.P3401224636589051846.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A083198
 
 /-! ## A083198.P15211712821830231155
@@ -9445,7 +9439,7 @@ end A083198
 /-!
 # A083199: Exponent of largest power of 2 dividing A061419(n).
 
-The programs for A083199, the canonical program `A083199.P131418108510612791` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083199 has offset 1).
+The programs for A083199, the canonical program `A083199.P131418108510612791` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083199 has offset 1).
 
 The definition of A083199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 567 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9454,7 +9448,7 @@ The definition of A083199 is `conjectured`: the Lean definition is a formula tha
 
 `val(A006999(n)+1, 2)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A083199
@@ -9489,12 +9483,6 @@ namespace A083199
 /-- `val(A061419(n+1), 2)` -/
 def P724223354343407356.Spec : Prop :=
   ∀ n, (P724223354343407356.a n : ℤ) = A083199 (n + 1)
-
-theorem P724223354343407356.correct : P724223354343407356.Spec := by
-  intro n
-  simp only [A083199, Nat.add_sub_cancel, A083199.P724223354343407356.a, A083199.P131418108510612791.a, A006999, A006999.P3401224636589051846.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A083199
 
@@ -9570,7 +9558,7 @@ def P14696064851438045891.Spec : Prop :=
 
 theorem P14696064851438045891.correct : P14696064851438045891.Spec := by
   intro n
-  simp only [A083199, Nat.add_sub_cancel, A083199.P14696064851438045891.a, A083199.P131418108510612791.a, A003312, A003312.P15694996587841724422.a, A006999, A006999.P3401224636589051846.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
+  simp only [A083199, Nat.add_sub_cancel, A083199.P14696064851438045891.a, A083199.P131418108510612791.a, A003312, A003312.P15694996587841724422.a, A006999, A006999.P7214835014795751558.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

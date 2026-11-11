@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(k)*n+prime(k+1), for k=1,...,8 all are primes.",
+  "description": "Numbers m such that prime(k)*m + prime(k+1), for k=1..8 all are primes.",
   "id": "A379427",
   "mentions": [
     "A108110",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

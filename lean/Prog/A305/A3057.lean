@@ -10945,24 +10945,6 @@ end A305793.P14463407754631043209
 The programs for A305794, there is no canonical definition to state claims against.
 -/
 
-/-! ## A305794.P14561685997599216264
-
-`∏{p}[n+1, #]*A303707(A005179(n+1))`
--/
-
-namespace A305794.P14561685997599216264
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℤ) * A303707 (A005179 (n + 1)).toNat
-
-end
-
-end A305794.P14561685997599216264
-
 /-! ## A305794.P257939266123945759
 
 `A066099(A001008(n+1))*A222257(n)`

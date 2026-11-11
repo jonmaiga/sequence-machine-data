@@ -1,0 +1,17 @@
+{
+  "description": "Number of cokernel-closed, idempotent split, full, additive subcategories of the category of finite-dimensional complex representations of a uniformly oriented A_n quiver.",
+  "id": "A401475",
+  "mentions": [
+    "A000108",
+    "A393920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

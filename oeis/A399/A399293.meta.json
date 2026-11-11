@@ -1,0 +1,17 @@
+{
+  "description": "Number of words of length 4*n over the alphabet [4] such that c(2) = c(3) = c(4), any prefix satisfies c(1) >= c(2), c(1) >= c(3), c(2) >= c(4), c(3) >= c(4), and no proper prefix satisfies c(2) = c(3) = c(4). Here c(i) is the number of occurrences of the letter i.",
+  "id": "A399293",
+  "mentions": [
+    "A114714",
+    "A384725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

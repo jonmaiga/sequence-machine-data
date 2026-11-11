@@ -39,6 +39,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C050
@@ -1305,6 +1306,24 @@ namespace A136409
 /-- `A022924(n-1)+a(n-1)` -/
 def P4205450241943013533.Spec : Prop :=
   ∀ n, P4205450241943013533.a n = A136409 n
+
+theorem P4205450241943013533.correct : P4205450241943013533.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A136409, Nat.add_sub_cancel, A136409.P4205450241943013533.a, A136409.P5109166096281271109.a, A020915, A020915.P489464718778045910.a, A022924, A022924.P7774199713813521391.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A136409, Nat.add_sub_cancel, A136409.P4205450241943013533.a, A136409.P5109166096281271109.a, A020915, A020915.P489464718778045910.a, A022924, A022924.P7774199713813521391.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A136409
 
@@ -8776,41 +8795,23 @@ end A136472.P11167684282376877250
 The programs for A136474, there is no canonical definition to state claims against.
 -/
 
-/-! ## A136474.P2409689866813651514
+/-! ## A136474.P12958709012990248117
 
-`A289258(∑[(n-gcd(n, ∑[n]))!])`
+`filter[A057719(n+1), A122257(#)]`
 -/
 
-namespace A136474.P2409689866813651514
+namespace A136474.P12958709012990248117
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial ((n : ℤ) - (Nat.gcd n (∑ j ∈ Finset.range (n + 1), f2 j) : ℤ)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057719 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289258 (∑ j ∈ Finset.range (n + 1), f1 j)
+  f1 (SequenceMachineLib.nth (fun j => A122257 (f1 j).toNat = 1) n)
 
 end
 
-end A136474.P2409689866813651514
-
-/-! ## A136474.P16468773239516813149
-
-`A289258(A240303(n)+1)`
--/
-
-namespace A136474.P16468773239516813149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289258 (A240303 n + 1).toNat
-
-end
-
-end A136474.P16468773239516813149
+end A136474.P12958709012990248117
 
 /-!
 # A136475: Irregular triangle read by rows: row n gives prime factors of (2^(3^(n+1))+1)/(2^(3^n)+1).

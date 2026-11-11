@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{primes p} (p^(1/p) - 1)/p.",
+  "id": "A401473",
+  "mentions": [
+    "A000040",
+    "A085548",
+    "A136271",
+    "A401336"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

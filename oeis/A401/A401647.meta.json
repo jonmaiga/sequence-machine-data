@@ -1,0 +1,18 @@
+{
+  "description": "Summarize all the previous terms (digits in increasing order), starting with a(1) = 1.",
+  "id": "A401647",
+  "mentions": [
+    "A005151",
+    "A045982",
+    "A060857"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -38,6 +38,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
@@ -8988,23 +8989,23 @@ end
 
 end A006896.P9316186459015327838
 
-/-! ## A006896.P7770825749773422779
+/-! ## A006896.P14598310627006007157
 
-`∑{#}[n, C(n, #)*2^C(#, 2)]`
+`∑{#}[n, 2^C(#, 2)*C(n, #)]`
 -/
 
-namespace A006896.P7770825749773422779
+namespace A006896.P14598310627006007157
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * 2 ^ Nat.choose k 2
+  ∑ k ∈ Finset.range (f1 n + 1), 2 ^ Nat.choose k 2 * Nat.choose n k
 
 end
 
-end A006896.P7770825749773422779
+end A006896.P14598310627006007157
 
 /-! ## A006896.P14186454716014130758
 

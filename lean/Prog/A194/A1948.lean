@@ -30,6 +30,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
@@ -6872,6 +6873,21 @@ end
 
 end A194841.P4970936996123424168
 
+/-! ## A194841.P10339308314330953365
+
+`A054065(A054069(A194843(n+1)))`
+-/
+
+namespace A194841.P10339308314330953365
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054065 (A054069 (A194843 (n + 1)).toNat).toNat
+
+end
+
+end A194841.P10339308314330953365
+
 /-! ## A194841.P16591032125466616078
 
 `A194838(∑[char[∑[n]]]²-n)`
@@ -11222,6 +11238,21 @@ end
 
 end A194863.P13580735135939873206
 
+/-! ## A194863.P5534922601451824279
+
+`A194906(A194910(A194869(n+1)))`
+-/
+
+namespace A194863.P5534922601451824279
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194906 (A194910 (A194869 (n + 1)).toNat).toNat
+
+end
+
+end A194863.P5534922601451824279
+
 /-! ## A194863.P10592275265438451945
 
 `A057944(n)+A004736(A194869(n+1))`
@@ -11639,6 +11670,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194865.P5700803479966506329
+
+/-! ## A194865.P9442357824324206768
+
+`A194832(A194833(A194864(n+1)))`
+-/
+
+namespace A194865.P9442357824324206768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194832 (A194833 (A194864 (n + 1)).toNat).toNat
+
+end
+
+end A194865.P9442357824324206768
 
 /-! ## A194865.P15719452158916365576
 
@@ -13627,6 +13673,21 @@ end
 
 end A194874.P894518545297612639
 
+/-! ## A194874.P12041510394146100875
+
+`A194844(A194845(A194876(n+1)))`
+-/
+
+namespace A194874.P12041510394146100875
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194844 (A194845 (A194876 (n + 1)).toNat).toNat
+
+end
+
+end A194874.P12041510394146100875
+
 /-! ## A194874.P16685788907562236213
 
 `A194871(∑[char[∑[n]]]²-n)`
@@ -13802,6 +13863,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194875.P17493531936761240176
+
+/-! ## A194875.P17551609540013922857
+
+`A194872(A194876(A194872(n+1)))`
+-/
+
+namespace A194875.P17551609540013922857
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194872 (A194876 (A194872 (n + 1)).toNat).toNat
+
+end
+
+end A194875.P17551609540013922857
 
 /-! ## A194875.P8959851288891066515
 
@@ -16872,7 +16948,7 @@ end A194886
 /-!
 # A194887: Numbers that are the sum of two powers of 12.
 
-The programs for A194887, the canonical program `A194887.P13401530721558716805` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194887 has offset 1).
+The programs for A194887, the canonical program `A194887.P13401530721558716805` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194887 has offset 1).
 
 The definition of A194887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16881,7 +16957,7 @@ The definition of A194887 is `conjectured`: the Lean definition is a formula tha
 
 `A038336(A057944(n))+a(A112367(n))-1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A194887
@@ -17798,6 +17874,21 @@ end
 
 end A194896.P11075309946364151109
 
+/-! ## A194896.P13607952854614566066
+
+`A194832(A194833(A194898(n+1)))`
+-/
+
+namespace A194896.P13607952854614566066
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194832 (A194833 (A194898 (n + 1)).toNat).toNat
+
+end
+
+end A194896.P13607952854614566066
+
 /-! ## A194896.P2522330548625303876
 
 `A194844(A194845(A194898(A194846(A194845(n+1)))))`
@@ -17887,21 +17978,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194896.P308140456091737862
-
-/-! ## A194896.P8787952061930365824
-
-`A194908(A194909(A194898(A194910(A194909(n+1)))))`
--/
-
-namespace A194896.P8787952061930365824
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194908 (A194909 (A194898 (A194910 (A194909 (n + 1)).toNat).toNat).toNat).toNat
-
-end
-
-end A194896.P8787952061930365824
 
 /-!
 # A194897: Rectangular array, by antidiagonals: row n gives the positions of n in the fractal sequence A194896; an interspersion.

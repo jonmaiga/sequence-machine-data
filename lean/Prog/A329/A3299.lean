@@ -36,6 +36,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -1935,6 +1936,32 @@ theorem P8418447234015395599.correct : P8418447234015395599.Spec := by
 
 end A329913
 
+/-! ## A329913.P11163191475451961203
+
+`∑{#}[n, C(n, #)²*#^5]`
+-/
+
+namespace A329913.P11163191475451961203
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k ^ 2 * k ^ 5
+
+end
+
+end A329913.P11163191475451961203
+
+namespace A329913
+
+/-- `∑{#}[n, C(n, #)²*#^5]` -/
+def P11163191475451961203.Spec : Prop :=
+  ∀ n, (P11163191475451961203.a n : ℤ) = A329913 n
+
+end A329913
+
 /-!
 # A329914: Numbers k such that there exist numbers M_k which, when 1 is placed at both ends of M_k, the number M_k is multiplied by k.
 
@@ -3117,49 +3144,55 @@ def P7964905579325693441.Spec : Prop :=
 
 end A329930
 
-/-! ## A329930.P391895304209639795
+/-! ## A329930.P4291322212366808236
 
-`n!*A000254(n)`
+`n²*∑{#}[n-1, (n-1)!²/(n-#)]`
 -/
 
-namespace A329930.P391895304209639795
+namespace A329930.P4291322212366808236
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n : ℤ) * A000254 n
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 2 : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial ((n : ℤ) - 1).toNat ^ 2 : ℚ) / ((n : ℤ) - (k : ℤ) : ℚ))
 
 end
 
-end A329930.P391895304209639795
+end A329930.P4291322212366808236
 
 namespace A329930
 
-/-- `n!*A000254(n)` -/
-def P391895304209639795.Spec : Prop :=
-  ∀ n, P391895304209639795.a n = A329930 n
+/-- `n²*∑{#}[n-1, (n-1)!²/(n-#)]` -/
+def P4291322212366808236.Spec : Prop :=
+  ∀ n, P4291322212366808236.a n = (A329930 n : ℚ)
 
 end A329930
 
-/-! ## A329930.P10742631929311524227
+/-! ## A329930.P3935804105599417897
 
-`abs(n!*A081048(n))`
+`n*∑{#}[n-1, (n-1)!*n!/(n-#)]`
 -/
 
-namespace A329930.P10742631929311524227
+namespace A329930.P3935804105599417897
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(Nat.factorial n : ℤ) * A081048 n|
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial ((n : ℤ) - 1).toNat * Nat.factorial n : ℚ) / ((n : ℤ) - (k : ℤ) : ℚ))
 
 end
 
-end A329930.P10742631929311524227
+end A329930.P3935804105599417897
 
 namespace A329930
 
-/-- `abs(n!*A081048(n))` -/
-def P10742631929311524227.Spec : Prop :=
-  ∀ n, P10742631929311524227.a n = A329930 n
+/-- `n*∑{#}[n-1, (n-1)!*n!/(n-#)]` -/
+def P3935804105599417897.Spec : Prop :=
+  ∀ n, P3935804105599417897.a n = (A329930 n : ℚ)
 
 end A329930
 
@@ -9111,7 +9144,7 @@ end A329996.P1370709612134683689
 /-!
 # A329997: Beatty sequence for 3^x, where 1/x^3 + 1/3^x = 1.
 
-The programs for A329997, the canonical program `A329997.P990311493460245139` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329997 has offset 1).
+The programs for A329997, the canonical program `A329997.P990311493460245139` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329997 has offset 1).
 
 The definition of A329997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9120,7 +9153,7 @@ The definition of A329997 is `conjectured`: the Lean definition is a formula tha
 
 `A060107(2*n+4)-A001227(A115103(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A329997

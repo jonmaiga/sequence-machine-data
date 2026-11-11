@@ -1,0 +1,14 @@
+{
+  "description": "a(1) = a(2) = 1, a(n) = gcd((n-1)*(n-2), a(n-1)+a(n-2)) for n > 2.",
+  "id": "A399493",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

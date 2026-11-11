@@ -2,13 +2,22 @@
   "description": "Expansion of Sum_{k>=1} psi(k) * x^k/(1 + x^k), where psi = Dedekind psi function (A001615).",
   "id": "A309324",
   "mentions": [
+    "A000027",
+    "A000034",
     "A000593",
     "A001615",
     "A008966",
+    "A010684",
+    "A035109",
+    "A040001",
     "A060648",
-    "A193356"
+    "A166486",
+    "A193356",
+    "A317528",
+    "A347385"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

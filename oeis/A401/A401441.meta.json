@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals (A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...): A(n,k) is the number of divisors d of n such that gcd(d, n/d) is a k-th power.",
+  "id": "A401441",
+  "mentions": [
+    "A000005",
+    "A000583",
+    "A034444",
+    "A046101",
+    "A046951",
+    "A365171",
+    "A399830"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

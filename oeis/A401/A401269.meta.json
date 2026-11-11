@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that the Euclidean algorithm quotients for the ratio p/q, where q is the next prime after p, are all prime numbers (excluding the integer part zero and the initial quotient 1).",
+  "id": "A401269",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

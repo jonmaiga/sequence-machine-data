@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/sqrt(k^3+1).",
+  "id": "A401807",
+  "mentions": [
+    "A001093",
+    "A339606"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

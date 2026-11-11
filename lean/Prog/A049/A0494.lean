@@ -108,7 +108,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -11376,6 +11375,21 @@ end
 
 end A049455.P9585522175382358600
 
+/-! ## A049455.P8338422488069435223
+
+`A064883(n+1)%A064881(n+1)`
+-/
+
+namespace A049455.P8338422488069435223
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A064883 (n + 1)) (A064881 (n + 1))
+
+end
+
+end A049455.P8338422488069435223
+
 /-! ## A049455.P3561174856830378917
 
 `2*A049456(n+1)-A064882(n+1)`
@@ -16320,26 +16334,26 @@ def P10544312420492451017.Spec : Prop :=
 
 end A049480
 
-/-! ## A049480.P5516103518175707561
+/-! ## A049480.P12352977473277650340
 
-`C(n, 3)+C(n+3, 3)`
+`C(n+3, 3)+C(n, 3)`
 -/
 
-namespace A049480.P5516103518175707561
+namespace A049480.P12352977473277650340
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose n 3 + Nat.choose (n + 3) 3
+  Nat.choose (n + 3) 3 + Nat.choose n 3
 
 end
 
-end A049480.P5516103518175707561
+end A049480.P12352977473277650340
 
 namespace A049480
 
-/-- `C(n, 3)+C(n+3, 3)` -/
-def P5516103518175707561.Spec : Prop :=
-  ∀ n, (P5516103518175707561.a n : ℤ) = A049480 (n + 1)
+/-- `C(n+3, 3)+C(n, 3)` -/
+def P12352977473277650340.Spec : Prop :=
+  ∀ n, (P12352977473277650340.a n : ℤ) = A049480 (n + 1)
 
 end A049480
 

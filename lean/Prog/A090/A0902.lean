@@ -17,7 +17,9 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C027
@@ -7584,6 +7586,35 @@ def P2370144138658666934.Spec : Prop :=
 
 end A090288
 
+/-! ## A090288.P7155766932693377696
+
+`4*C(n+2, 2)-2`
+-/
+
+namespace A090288.P7155766932693377696
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (4 * Nat.choose (n + 2) 2 : ℤ) - 2
+
+end
+
+end A090288.P7155766932693377696
+
+namespace A090288
+
+/-- `4*C(n+2, 2)-2` -/
+def P7155766932693377696.Spec : Prop :=
+  ∀ n, P7155766932693377696.a n = A090288 n
+
+theorem P7155766932693377696.correct : P7155766932693377696.Spec := by
+  intro n
+  simp only [A090288, Nat.add_sub_cancel, A090288.P7155766932693377696.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A090288
+
 /-! ## A090288.P2156966774921398880
 
 `∑[a(n-1)+4]` with `a(0)=2, a(1)=8`
@@ -7760,29 +7791,6 @@ namespace A090288
 /-- `∑[ogf((2+4x-2x^2)/(1-2x+x^2))]` -/
 def P16999113413802642953.Spec : Prop :=
   ∀ n, P16999113413802642953.a n = A090288 n
-
-end A090288
-
-/-! ## A090288.P594625297608385049
-
-`abs(2-4*C(n+2, 2))`
--/
-
-namespace A090288.P594625297608385049
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |2 - (4 * Nat.choose (n + 2) 2 : ℤ)|
-
-end
-
-end A090288.P594625297608385049
-
-namespace A090288
-
-/-- `abs(2-4*C(n+2, 2))` -/
-def P594625297608385049.Spec : Prop :=
-  ∀ n, P594625297608385049.a n = A090288 n
 
 end A090288
 

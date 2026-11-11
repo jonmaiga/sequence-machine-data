@@ -1,0 +1,28 @@
+{
+  "description": "Number of free polyforms with n cells in the honeycomb of the 7-faced Voronoi cell of the point (1/8, 1/6, 5/12) under space group Pn-3m (No. 224, origin choice 1).",
+  "id": "A401448",
+  "mentions": [
+    "A385028",
+    "A397707",
+    "A397709",
+    "A398957",
+    "A398958",
+    "A398959",
+    "A400457",
+    "A400461",
+    "A401255",
+    "A401258",
+    "A401259",
+    "A401447"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

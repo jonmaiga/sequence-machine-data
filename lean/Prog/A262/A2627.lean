@@ -100,7 +100,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -584,7 +583,7 @@ end A262709.P8320253699791700342
 /-!
 # A262710: Powers of -4.
 
-The programs for A262710, the canonical program `A262710.P12654579294262269959` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262710 has offset 0).
+The programs for A262710, the canonical program `A262710.P12654579294262269959` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262710 has offset 0).
 
 The definition of A262710 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -593,7 +592,7 @@ The definition of A262710 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-4)^n`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A262710
@@ -5467,6 +5466,35 @@ namespace A262753
 /-- `record[A046630(A103391(n+1))²]` -/
 def P8275949888278930927.Spec : Prop :=
   ∀ n, P8275949888278930927.a n = A262753 (n + 1)
+
+end A262753
+
+/-! ## A262753.P10952863112519355744
+
+`A046630(n+1)*A046630(n+1)`
+-/
+
+namespace A262753.P10952863112519355744
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046630 (n + 1) * A046630 (n + 1)
+
+end
+
+end A262753.P10952863112519355744
+
+namespace A262753
+
+/-- `A046630(n+1)*A046630(n+1)` -/
+def P10952863112519355744.Spec : Prop :=
+  ∀ n, P10952863112519355744.a n = A262753 (n + 1)
+
+theorem P10952863112519355744.correct : P10952863112519355744.Spec := by
+  intro n
+  simp only [A262753, Nat.add_sub_cancel, A262753.P10952863112519355744.a, A262753.P6017615502018050101.a, A046630, A046630.P1687832883927382954.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A262753
 

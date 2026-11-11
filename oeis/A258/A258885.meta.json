@@ -1,10 +1,11 @@
 {
-  "description": "Primitive weird numbers (A002975) having 6 distinct prime factors.",
+  "description": "Primitive weird numbers (PWNs: A002975) having 6 distinct prime factors.",
   "id": "A258885",
   "mentions": [
     "A002975",
     "A088832",
     "A088833",
+    "A258374",
     "A258401",
     "A258882",
     "A258883",

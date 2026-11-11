@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of divisors of n that are brilliant (A078972).",
+  "id": "A401489",
+  "mentions": [
+    "A063962",
+    "A078972",
+    "A086971",
+    "A401490"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "a(n) = (3*n)^7.",
   "id": "A016771",
   "mentions": [
-    "A001015"
+    "A001015",
+    "A013665"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

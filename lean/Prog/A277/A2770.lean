@@ -22,9 +22,9 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -49,6 +49,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -6255,6 +6256,32 @@ namespace A277050
 /-- `comp[A277052(1+n)]` -/
 def P2883048081198375851.Spec : Prop :=
   ∀ n, (P2883048081198375851.a n : ℤ) = A277050 n
+
+end A277050
+
+/-! ## A277050.P655908189668385312
+
+`fp[sqrt(A371701(n+1))]`
+-/
+
+namespace A277050.P655908189668385312
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A371701 (n + 1) : ℝ)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℝ) < f1 j) 0
+
+end
+
+end A277050.P655908189668385312
+
+namespace A277050
+
+/-- `fp[sqrt(A371701(n+1))]` -/
+def P655908189668385312.Spec : Prop :=
+  ∀ n, (P655908189668385312.a n : ℤ) = A277050 n
 
 end A277050
 

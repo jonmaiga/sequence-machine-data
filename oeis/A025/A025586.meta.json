@@ -1,5 +1,5 @@
 {
-  "description": "Largest value in '3x+1' trajectory of n.",
+  "description": "Largest value in the '3x+1' trajectory of n, or 0 if the orbit is unbounded.",
   "id": "A025586",
   "mentions": [
     "A006370",
@@ -11,6 +11,7 @@
     "A220237"
   ],
   "tags": [
+    "formulas",
     "look",
     "nice",
     "nonn"

@@ -21,8 +21,10 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -10715,6 +10717,29 @@ theorem P13925667432056874486.correct : P13925667432056874486.Spec := by
   simp only [A207399, Nat.add_sub_cancel, A207399.P13925667432056874486.a, A207399.P8792141662342560337.a, A014209, A014209.P8391054817103649375.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
+
+end A207399
+
+/-! ## A207399.P10378759030085493398
+
+`A016754(A034856(n+1))`
+-/
+
+namespace A207399.P10378759030085493398
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016754 (A034856 (n + 1)).toNat
+
+end
+
+end A207399.P10378759030085493398
+
+namespace A207399
+
+/-- `A016754(A034856(n+1))` -/
+def P10378759030085493398.Spec : Prop :=
+  ∀ n, P10378759030085493398.a n = A207399 (n + 1)
 
 end A207399
 

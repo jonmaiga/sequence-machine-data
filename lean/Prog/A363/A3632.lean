@@ -21,6 +21,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C028
@@ -438,21 +439,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A363207.P10967735363715367268
-
-/-! ## A363207.P5441986672583385087
-
-`round(sqrt(A006330(n)*A321911(n+1)))`
--/
-
-namespace A363207.P5441986672583385087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (A006330 n * A321911 (n + 1) : ℝ))
-
-end
-
-end A363207.P5441986672583385087
 
 /-!
 # A363208: Number of linear connected animals formed from n 6-gon connected truncated octahedra.
@@ -6008,6 +5994,52 @@ def P1681998619193227055.Spec : Prop :=
 
 end A363268
 
+/-! ## A363268.P14746841479308854160
+
+`A137224(A067060(n+1))`
+-/
+
+namespace A363268.P14746841479308854160
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137224 (A067060 (n + 1)).toNat
+
+end
+
+end A363268.P14746841479308854160
+
+namespace A363268
+
+/-- `A137224(A067060(n+1))` -/
+def P14746841479308854160.Spec : Prop :=
+  ∀ n, P14746841479308854160.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P4366941743963488540
+
+`A137224(A115659(n+2))`
+-/
+
+namespace A363268.P4366941743963488540
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137224 (A115659 (n + 2)).toNat
+
+end
+
+end A363268.P4366941743963488540
+
+namespace A363268
+
+/-- `A137224(A115659(n+2))` -/
+def P4366941743963488540.Spec : Prop :=
+  ∀ n, P4366941743963488540.a n = A363268 (n + 1)
+
+end A363268
+
 /-! ## A363268.P5255800363555418152
 
 `ceil(A397113(n)+sqrt(A397268(2*(n+1))))`
@@ -6028,6 +6060,52 @@ namespace A363268
 /-- `ceil(A397113(n)+sqrt(A397268(2*(n+1))))` -/
 def P5255800363555418152.Spec : Prop :=
   ∀ n, P5255800363555418152.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P7211461086899281996
+
+`A060734(A055802(n+3))`
+-/
+
+namespace A363268.P7211461086899281996
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060734 (A055802 (n + 3)).toNat
+
+end
+
+end A363268.P7211461086899281996
+
+namespace A363268
+
+/-- `A060734(A055802(n+3))` -/
+def P7211461086899281996.Spec : Prop :=
+  ∀ n, P7211461086899281996.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P16744044883521300490
+
+`A048147(A134519(n+1))`
+-/
+
+namespace A363268.P16744044883521300490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048147 (A134519 (n + 1)).toNat
+
+end
+
+end A363268.P16744044883521300490
+
+namespace A363268
+
+/-- `A048147(A134519(n+1))` -/
+def P16744044883521300490.Spec : Prop :=
+  ∀ n, P16744044883521300490.a n = A363268 (n + 1)
 
 end A363268
 
@@ -6077,6 +6155,75 @@ namespace A363268
 /-- `A214871(fp[sqrt(2*n)])` -/
 def P8161202560954774081.Spec : Prop :=
   ∀ n, P8161202560954774081.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P16974661468199296159
+
+`A377802(A084263(n))`
+-/
+
+namespace A363268.P16974661468199296159
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377802 (A084263 n).toNat
+
+end
+
+end A363268.P16974661468199296159
+
+namespace A363268
+
+/-- `A377802(A084263(n))` -/
+def P16974661468199296159.Spec : Prop :=
+  ∀ n, P16974661468199296159.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P16897514134578363552
+
+`A214871(A099392(n+1))`
+-/
+
+namespace A363268.P16897514134578363552
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214871 (A099392 (n + 1)).toNat
+
+end
+
+end A363268.P16897514134578363552
+
+namespace A363268
+
+/-- `A214871(A099392(n+1))` -/
+def P16897514134578363552.Spec : Prop :=
+  ∀ n, P16897514134578363552.a n = A363268 (n + 1)
+
+end A363268
+
+/-! ## A363268.P13781276916799048947
+
+`A214871(A214928(A002522(n))-n)`
+-/
+
+namespace A363268.P13781276916799048947
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214871 (A214928 (A002522 n).toNat - (n : ℤ)).toNat
+
+end
+
+end A363268.P13781276916799048947
+
+namespace A363268
+
+/-- `A214871(A214928(A002522(n))-n)` -/
+def P13781276916799048947.Spec : Prop :=
+  ∀ n, P13781276916799048947.a n = A363268 (n + 1)
 
 end A363268
 
@@ -6396,20 +6543,95 @@ end
 
 end A363271.P9173676564642097758
 
-/-! ## A363271.P8318662113242628852
+/-! ## A363271.P7600479204759463470
 
-`A059995(n+2)+A010879(n+1)`
+`A007953(A103205(n+1))`
 -/
 
-namespace A363271.P8318662113242628852
+namespace A363271.P7600479204759463470
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059995 (n + 2) + A010879 (n + 1)
+  A007953 (A103205 (n + 1)).toNat
 
 end
 
-end A363271.P8318662113242628852
+end A363271.P7600479204759463470
+
+/-! ## A363271.P2072376246829411480
+
+`A053832(A039273(n+2))`
+-/
+
+namespace A363271.P2072376246829411480
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053832 (A039273 (n + 2)).toNat
+
+end
+
+end A363271.P2072376246829411480
+
+/-! ## A363271.P6676433221627993904
+
+`A007953(A290148(n+2))`
+-/
+
+namespace A363271.P6676433221627993904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A290148 (n + 2)).toNat
+
+end
+
+end A363271.P6676433221627993904
+
+/-! ## A363271.P4817877001707549739
+
+`A007953(A368362(n+2))`
+-/
+
+namespace A363271.P4817877001707549739
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A368362 (n + 2)).toNat
+
+end
+
+end A363271.P4817877001707549739
+
+/-! ## A363271.P17924286961686726927
+
+`A102683(n+1)+A007953(n+1)`
+-/
+
+namespace A363271.P17924286961686726927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102683 (n + 1) + A007953 (n + 1)
+
+end
+
+end A363271.P17924286961686726927
+
+/-! ## A363271.P17132392737566671679
+
+`A055641(n+2)+A007953(n+1)`
+-/
+
+namespace A363271.P17132392737566671679
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055641 (n + 2) + A007953 (n + 1)
+
+end
+
+end A363271.P17132392737566671679
 
 /-!
 # A363272: Irregular triangle read by rows: T(n,k) = number of unlabeled binary rooted trees with n leaves, where some child tree has k leaves, 1 <= k <= n/2.

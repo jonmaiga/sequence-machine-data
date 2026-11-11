@@ -23,7 +23,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C033
@@ -6324,6 +6323,21 @@ end
 
 end A361789.P17002304102665276482
 
+/-! ## A361789.P1296281426177517051
+
+`A003056(n)-A356969(n)`
+-/
+
+namespace A361789.P1296281426177517051
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003056 n - A356969 n
+
+end
+
+end A361789.P1296281426177517051
+
 /-! ## A361789.P1631276936564338759
 
 `A025581(A356969(n)+A057944(n))`
@@ -6368,21 +6382,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361789.P6137565619699062567
-
-/-! ## A361789.P8564901179925840204
-
-`A080885(A080861(n+4))+A003984(n)`
--/
-
-namespace A361789.P8564901179925840204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080885 (A080861 (n + 4)).toNat + A003984 n
-
-end
-
-end A361789.P8564901179925840204
 
 /-!
 # A361793: Sum of the squares d^2 of the divisors d satisfying d^3|n.

@@ -2266,24 +2266,6 @@ end
 
 end A123447.P8931690753405370296
 
-/-! ## A123447.P7223744925631810866
-
-`A123461(∑[A109221(n)])`
--/
-
-namespace A123447.P7223744925631810866
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109221 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123461 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A123447.P7223744925631810866
-
 /-! ## A123447.P7508179277692827437
 
 `A123461(∑[A290544(n)])`
@@ -2730,21 +2712,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123457.P1774976581125604353
-
-/-! ## A123457.P10766043887192418824
-
-`A123461(A007094(n)+1)-A197354(A052415(n+1))`
--/
-
-namespace A123457.P10766043887192418824
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123461 (A007094 n + 1).toNat - A197354 (A052415 (n + 1)).toNat
-
-end
-
-end A123457.P10766043887192418824
 
 /-! ## A123457.P5173777568418949554
 
@@ -6958,25 +6925,6 @@ end
 
 end A123494.P15072159136187131056
 
-/-! ## A123494.P2681354526171557849
-
-`char[A140595(n)]*A123716(n)`
--/
-
-namespace A123494.P2681354526171557849
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A123716 n
-
-end
-
-end A123494.P2681354526171557849
-
 /-! ## A123494.P4378994591576818409
 
 `A123716(A089458(n+5)+n)`
@@ -6991,6 +6939,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123494.P4378994591576818409
+
+/-! ## A123494.P15726331450800830686
+
+`A123716(A055645(n))`
+-/
+
+namespace A123494.P15726331450800830686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123716 (A055645 n).toNat
+
+end
+
+end A123494.P15726331450800830686
 
 /-!
 # A123495: Signature permutation of a nonrecursive Catalan automorphism: row 65518 of table A089840.

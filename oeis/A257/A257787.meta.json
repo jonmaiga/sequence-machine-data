@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the digits of n to some power divided by the sum of the digits equal n.",
+  "description": "Numbers k such that the sum of the digits of k to some power divided by the sum of the digits equal k.",
   "id": "A257787",
   "mentions": [
     "A061209",

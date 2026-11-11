@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(4x)/(1-4x)^(1/4).",
+  "description": "Expansion of e.g.f.: exp(4*x)/(1-4*x)^(1/4).",
   "id": "A094856",
   "mentions": [
     "A000522",

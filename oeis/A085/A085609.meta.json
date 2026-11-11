@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum{p prime>=2} log(p)/(p^2-p+1).",
+  "description": "Decimal expansion of Sum_{p prime>=2} log(p)/(p^2-p+1).",
   "id": "A085609",
   "mentions": [
     "A001008",

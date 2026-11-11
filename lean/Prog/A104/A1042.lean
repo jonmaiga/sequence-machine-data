@@ -30,7 +30,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C043
@@ -5393,6 +5393,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104230.P15808758436812389340
+
+/-! ## A104230.P3320100060843465442
+
+`A295609(A064722(A064722((n+2)²)))`
+-/
+
+namespace A104230.P3320100060843465442
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295609 (A064722 (A064722 ((n + 2) ^ 2)).toNat).toNat
+
+end
+
+end A104230.P3320100060843465442
 
 /-!
 # A104231: Triangle read by rows, based on the morphism f: 1->2, 2->3, 3->{3,3,5,4}, 4->5, 5->6, 6->{6,6,2,1}. First row is 1. If current row is a,b,c,..., then the next row is a,b,c,...,f(a),f(b),f(c),...

@@ -2935,21 +2935,6 @@ end A354736.P1772527376988087964
 The programs for A354737, there is no canonical definition to state claims against.
 -/
 
-/-! ## A354737.P10667726639793521696
-
-`A387881(A198304(n))`
--/
-
-namespace A354737.P10667726639793521696
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387881 (A198304 n).toNat
-
-end
-
-end A354737.P10667726639793521696
-
 /-! ## A354737.P7881357839867950450
 
 `A325763(A024957(n+2))`
@@ -4445,27 +4430,53 @@ end A354765.P14608366242151931174
 /-!
 # A354766: 1/4 of the total number of integral quadruples with sum = n and sum of squares = n^2.
 
-The programs for A354766, the canonical program `A354766.P686189450615748879` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
+The programs for A354766, the canonical program `A354766.P15707321161267585685` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
 
-The definition of A354766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 650 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A354766 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A278085, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A354766.P15707321161267585685
+
+`∑{d}[n+1, A278085(#)]`
+
+The canonical program, it is in `Seq.B004.C003`.
+-/
+
+namespace A354766
+
+/-- `∑{d}[n+1, A278085(#)]` -/
+def P15707321161267585685.Spec : Prop :=
+  ∀ n, P15707321161267585685.a n = A354766 (n + 1)
+
+theorem P15707321161267585685.correct : P15707321161267585685.Spec := by
+  intro n
+  simp only [A354766, Nat.add_sub_cancel]
+
+end A354766
 
 /-! ## A354766.P686189450615748879
 
 `∑{d}[n+1, A000593(#)*A365428((n+1)/#)]`
-
-The canonical program, it is in `Seq.B003.C005`.
 -/
+
+namespace A354766.P686189450615748879
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A000593 d * A365428 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+
+end
+
+end A354766.P686189450615748879
 
 namespace A354766
 
 /-- `∑{d}[n+1, A000593(#)*A365428((n+1)/#)]` -/
 def P686189450615748879.Spec : Prop :=
   ∀ n, P686189450615748879.a n = A354766 (n + 1)
-
-theorem P686189450615748879.correct : P686189450615748879.Spec := by
-  intro n
-  simp only [A354766, Nat.add_sub_cancel]
 
 end A354766
 
@@ -4492,32 +4503,6 @@ namespace A354766
 /-- `∑{d}[n+1, A033999(#-1)*A227128((n+1)/#)]` -/
 def P2313856202497986597.Spec : Prop :=
   ∀ n, P2313856202497986597.a n = A354766 (n + 1)
-
-end A354766
-
-/-! ## A354766.P8715739772275425052
-
-`∑{d}[1+n, A278085(#)]`
--/
-
-namespace A354766.P8715739772275425052
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A278085 d
-
-end
-
-end A354766.P8715739772275425052
-
-namespace A354766
-
-/-- `∑{d}[1+n, A278085(#)]` -/
-def P8715739772275425052.Spec : Prop :=
-  ∀ n, P8715739772275425052.a n = A354766 (n + 1)
 
 end A354766
 
@@ -8782,27 +8767,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A354794.P2114450028422521144
-
-/-!
-# A354795: Triangle read by rows. The matrix inverse of A354794. Equivalently, the Bell transform of cfact(n) = -(n - 1)! if n > 0 and otherwise 1/(-n)!.
-
-The programs for A354795, there is no canonical definition to state claims against.
--/
-
-/-! ## A354795.P7052956448038916211
-
-`A348422(n+1)-A303708(A195865(n))`
--/
-
-namespace A354795.P7052956448038916211
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348422 (n + 1) - A303708 (A195865 n).toNat
-
-end
-
-end A354795.P7052956448038916211
 
 /-!
 # A354796: Triangle read by rows. T(n, k) = Gamma(k + n) / k! for n >= 1 and 0 <= k <= n, T(0, 0) = 1.

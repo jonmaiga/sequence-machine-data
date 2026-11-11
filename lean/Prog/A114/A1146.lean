@@ -388,6 +388,21 @@ end
 
 end A114606.P16945044900376739102
 
+/-! ## A114606.P16020555836232627825
+
+`A033676(A129927(n+1))`
+-/
+
+namespace A114606.P16020555836232627825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033676 (A129927 (n + 1)).toNat
+
+end
+
+end A114606.P16020555836232627825
+
 /-!
 # A114607: Start with 1 0 1 0 then add a one every time (e.g. 1 1 0 1 1 1 0 1 1 1 1 0 ...).
 
@@ -3967,29 +3982,6 @@ def P1835355483728988959.Spec : Prop :=
 
 end A114636
 
-/-! ## A114636.P9894901857181626690
-
-`A060594(A137238(2*n+5))*A114445(n+1)`
--/
-
-namespace A114636.P9894901857181626690
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060594 (A137238 (2 * n + 5)).toNat * A114445 (n + 1)
-
-end
-
-end A114636.P9894901857181626690
-
-namespace A114636
-
-/-- `A060594(A137238(2*n+5))*A114445(n+1)` -/
-def P9894901857181626690.Spec : Prop :=
-  ∀ n, P9894901857181626690.a n = A114636 (n + 1)
-
-end A114636
-
 /-! ## A114636.P17376781982225624520
 
 `2*(eq[6, A001222(A000217(3*n+2))]+1)`
@@ -5614,6 +5606,21 @@ end
 
 end A114655.P8853317051092512493
 
+/-! ## A114655.P17942741889410133342
+
+`A114656(n+1)+A114656(n+1)`
+-/
+
+namespace A114655.P17942741889410133342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114656 (n + 1) + A114656 (n + 1)
+
+end
+
+end A114655.P17942741889410133342
+
 /-! ## A114655.P15364190280528720844
 
 `A001263(n+1)*A090988(n+1)`
@@ -5673,21 +5680,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114655.P4290709160040489590
-
-/-! ## A114655.P11624045194556127869
-
-`A001263(n+1)*A137206(A099375(n))`
--/
-
-namespace A114655.P11624045194556127869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001263 (n + 1) * A137206 (A099375 n).toNat
-
-end
-
-end A114655.P11624045194556127869
 
 /-!
 # A114656: Triangle read by rows: T(n,k) is the number of double rise-bicolored Dyck paths (double rises come in two colors; also called marked Dyck paths) of semilength n and having k peaks (1 <= k <= n).

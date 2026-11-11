@@ -1,0 +1,18 @@
+{
+  "description": "Pseudoperfect numbers k such that every proper divisor of k belongs to at least one subset of proper divisors summing to k.",
+  "id": "A401115",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A005835",
+    "A006036"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

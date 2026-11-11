@@ -1,7 +1,8 @@
 {
-  "description": "Base 10 representation of numbers which, in base 2, satisfy Abs(k-Reverse(k))+Reverse(Abs(k-Reverse(k)))=k.",
+  "description": "Base-10 representation of numbers which, in base 2, satisfy Abs(k-Reverse(k)) + Reverse(Abs(k-Reverse(k))) = k.",
   "id": "A180216",
   "mentions": [
+    "A030101",
     "A179697",
     "A180204"
   ],
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

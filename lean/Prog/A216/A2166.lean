@@ -3804,7 +3804,7 @@ def P867909909746868949.Spec : Prop :=
 end A216639
 
 /-!
-# A216640: Number of nondecreasing arrays of n 1..n integers with the sum of their 2nd powers equal to sum(i^2,i=1..n).
+# A216640: Number of nondecreasing arrays of n 1..n integers with the sum of their 2nd powers equal to Sum_{i=1..n} i^2.
 
 The programs for A216640, there is no canonical definition to state claims against.
 -/
@@ -9461,6 +9461,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216695.P5214112555550290894
+
+/-! ## A216695.P5475075428463267753
+
+`and(A032020(n), A286778(n))`
+-/
+
+namespace A216695.P5475075428463267753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A032020 n) (A286778 n)
+
+end
+
+end A216695.P5475075428463267753
+
+/-! ## A216695.P2524423713138399193
+
+`and(A032020(n), A143960(n+1))`
+-/
+
+namespace A216695.P2524423713138399193
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A032020 n) (A143960 (n + 1))
+
+end
+
+end A216695.P2524423713138399193
+
+/-! ## A216695.P6429465912023462008
+
+`and(A032020(n), A170940(n+1))`
+-/
+
+namespace A216695.P6429465912023462008
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A032020 n) (A170940 (n + 1))
+
+end
+
+end A216695.P6429465912023462008
 
 /-!
 # A216696: a(n) = Sum_{k=0..n} binomial(n,k)^4 * 2^k.

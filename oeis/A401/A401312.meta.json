@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Sum_{k=1..n} 1/k^prime(k).",
+  "id": "A401312",
+  "mentions": [
+    "A062481",
+    "A096250"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

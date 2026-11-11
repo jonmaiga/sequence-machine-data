@@ -3398,6 +3398,32 @@ The programs for A015622, the canonical program `A015622.P7437810160960809302` i
 The definition of A015622 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1011 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A015622.P9768956502574986345
+
+`∑{#}[n, A008683(#+1)*C(floor((n+1)/(#+1)), 4)]`
+-/
+
+namespace A015622.P9768956502574986345
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), A008683 (k + 1) * (Nat.choose ⌊(n + 1 : ℚ) / (k + 1 : ℚ)⌋.toNat 4 : ℤ)
+
+end
+
+end A015622.P9768956502574986345
+
+namespace A015622
+
+/-- `∑{#}[n, A008683(#+1)*C(floor((n+1)/(#+1)), 4)]` -/
+def P9768956502574986345.Spec : Prop :=
+  ∀ n, P9768956502574986345.a n = A015622 (n + 1)
+
+end A015622
+
 /-! ## A015622.P7437810160960809302
 
 `∑[A346760(n+1)-A000741(n+1)]`
@@ -3489,29 +3515,6 @@ namespace A015622
 /-- `A015634(n+1)-A016777(A100448(n+1))` -/
 def P4862988484154915124.Spec : Prop :=
   ∀ n, P4862988484154915124.a n = A015622 (n + 1)
-
-end A015622
-
-/-! ## A015622.P386775152157589177
-
-`A015634(n+1)-A003602(A071778(n+1))`
--/
-
-namespace A015622.P386775152157589177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015634 (n + 1) - A003602 (A071778 (n + 1)).toNat
-
-end
-
-end A015622.P386775152157589177
-
-namespace A015622
-
-/-- `A015634(n+1)-A003602(A071778(n+1))` -/
-def P386775152157589177.Spec : Prop :=
-  ∀ n, P386775152157589177.a n = A015622 (n + 1)
 
 end A015622
 

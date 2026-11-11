@@ -150,6 +150,21 @@ end
 
 end A059007.P11641265016149918966
 
+/-! ## A059007.P9024109080887581709
+
+`A056926(A068989(n+1))`
+-/
+
+namespace A059007.P9024109080887581709
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A068989 (n + 1)).toNat
+
+end
+
+end A059007.P9024109080887581709
+
 /-! ## A059007.P6925016189554060558
 
 `eq[1, A001222(A004086((n+1)²))]+1`
@@ -191,27 +206,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A059007.P9312777070475374616
-
-/-! ## A059007.P17259409969938974212
-
-`eq[1, A003415(A002942(n+1))]+1`
--/
-
-namespace A059007.P17259409969938974212
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003415 (A002942 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A059007.P17259409969938974212
 
 /-!
 # A059008: Numbers n such that n^3 reversed is a prime.

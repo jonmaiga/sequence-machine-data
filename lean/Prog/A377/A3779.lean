@@ -32,6 +32,7 @@ import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1068,26 +1069,20 @@ end
 
 end A377913.P6303338674826826957
 
-/-! ## A377913.P1628350365867078455
+/-! ## A377913.P12565869895948608837
 
-`A342042(lt[A096995(n)-2, 4]+1)`
+`A377912(A377915(A377914(n+1)))`
 -/
 
-namespace A377913.P1628350365867078455
+namespace A377913.P12565869895948608837
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096995 n - 2
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342042 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1)
+  A377912 (A377915 (A377914 (n + 1)).toNat).toNat
 
 end
 
-end A377913.P1628350365867078455
+end A377913.P12565869895948608837
 
 /-!
 # A377914: Indices of records in A342042.
@@ -2621,57 +2616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377933.P13222581709061412917
-
-/-!
-# A377934: a(n) is the number of perfect powers m^k with k>=3 (A076467) <= 10^n.
-
-The programs for A377934, there is no canonical definition to state claims against.
--/
-
-/-! ## A377934.P10521449421645715674
-
-`A087158(A027559(n))`
--/
-
-namespace A377934.P10521449421645715674
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087158 (A027559 n).toNat
-
-end
-
-end A377934.P10521449421645715674
-
-/-! ## A377934.P17960097266336076975
-
-`A087158(A135492(n))`
--/
-
-namespace A377934.P17960097266336076975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087158 (A135492 n).toNat
-
-end
-
-end A377934.P17960097266336076975
-
-/-! ## A377934.P14658126666076565018
-
-`A087158(A164191(n))`
--/
-
-namespace A377934.P14658126666076565018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087158 (A164191 n).toNat
-
-end
-
-end A377934.P14658126666076565018
 
 /-!
 # A377936: Number of matchings in the complete planted binary tree with 2^n leaves.

@@ -7314,6 +7314,21 @@ end A234776.P18285410866327565576
 The programs for A234778, there is no canonical definition to state claims against.
 -/
 
+/-! ## A234778.P17308984157209000384
+
+`4*A068748(n+2)`
+-/
+
+namespace A234778.P17308984157209000384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * A068748 (n + 2)
+
+end
+
+end A234778.P17308984157209000384
+
 /-! ## A234778.P8147643101249840013
 
 `4/3*A209512(n+1)`
@@ -7343,21 +7358,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234778.P8279264137350362736
-
-/-! ## A234778.P17308984157209000384
-
-`4*A068748(n+2)`
--/
-
-namespace A234778.P17308984157209000384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A068748 (n + 2)
-
-end
-
-end A234778.P17308984157209000384
 
 /-!
 # A234779: Number of (n+1) X (1+1) 0..3 arrays with no adjacent elements equal and with each 2 X 2 subblock having the number of clockwise edge increases equal to the number of counterclockwise edge increases.

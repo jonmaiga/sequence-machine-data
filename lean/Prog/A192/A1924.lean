@@ -4943,6 +4943,28 @@ end
 
 end A192452.P1881208182717796726
 
+/-! ## A192452.P187123585880363724
+
+`∪[A004780(n+1), A025020(n+1)]`
+-/
+
+namespace A192452.P187123585880363724
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004780 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025020 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A192452.P187123585880363724
+
 /-!
 # A192453: Numbers k such that -1 is a 4th power mod k.
 
@@ -7545,6 +7567,29 @@ namespace A192469
 /-- `A006130(n)+∑[record[A152167(n)]]` -/
 def P17090823047223408222.Spec : Prop :=
   ∀ n, P17090823047223408222.a n = A192469 (n + 1)
+
+end A192469
+
+/-! ## A192469.P17286170400276471377
+
+`A192470(n+1)+A192470(n+1)`
+-/
+
+namespace A192469.P17286170400276471377
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192470 (n + 1) + A192470 (n + 1)
+
+end
+
+end A192469.P17286170400276471377
+
+namespace A192469
+
+/-- `A192470(n+1)+A192470(n+1)` -/
+def P17286170400276471377.Spec : Prop :=
+  ∀ n, P17286170400276471377.a n = A192469 (n + 1)
 
 end A192469
 

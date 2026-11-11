@@ -40,6 +40,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C051
@@ -71,6 +72,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -9022,6 +9024,21 @@ end
 
 end A171868.P3339763986674948850
 
+/-! ## A171868.P12932118467279537545
+
+`A171898(A171865(n+1))`
+-/
+
+namespace A171868.P12932118467279537545
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171898 (A171865 (n + 1)).toNat
+
+end
+
+end A171868.P12932118467279537545
+
 /-! ## A171868.P9453116998551060546
 
 `A171898(lt[A181391(n+1), 1]+1)`
@@ -9060,21 +9077,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171868.P467571149927423055
-
-/-! ## A171868.P4173536946758394471
-
-`A171898(A171865(n+1)%A171951(n+1))`
--/
-
-namespace A171868.P4173536946758394471
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171898 (Int.tmod (A171865 (n + 1)) (A171951 (n + 1))).toNat
-
-end
-
-end A171868.P4173536946758394471
 
 /-! ## A171868.P12373998879266095188
 
@@ -9700,6 +9702,21 @@ end
 
 end A171870.P971253353365303493
 
+/-! ## A171870.P13579489059510359349
+
+`A075680(A246425(n)+n+1)`
+-/
+
+namespace A171870.P13579489059510359349
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075680 (A246425 n + (n + 1 : ℤ)).toNat
+
+end
+
+end A171870.P13579489059510359349
+
 /-! ## A171870.P11288209293248142705
 
 `A075680(n+1)-A122458(2*n)`
@@ -9912,24 +9929,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171870.P14668823716018862999
-
-/-! ## A171870.P13579268996350076941
-
-`A075680(record[xor(3, n)])-1`
--/
-
-namespace A171870.P13579268996350076941
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 3 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075680 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) - 1
-
-end
-
-end A171870.P13579268996350076941
 
 /-!
 # A171871: Triangle read by rows: Distinct classifications of N elements containing exactly R binary partitions.

@@ -10072,6 +10072,21 @@ end A026765.P6302361150833814770
 The programs for A026766, there is no canonical definition to state claims against.
 -/
 
+/-! ## A026766.P7777755067239755025
+
+`A401479(A026777(n))`
+-/
+
+namespace A026766.P7777755067239755025
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401479 (A026777 n).toNat
+
+end
+
+end A026766.P7777755067239755025
+
 /-! ## A026766.P6251803951976159269
 
 `A176075(A302182(n))`
@@ -10119,21 +10134,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026766.P13283881414567128968
-
-/-! ## A026766.P6762537492388388125
-
-`xor(A052146(A150388(n)), A280748(n))`
--/
-
-namespace A026766.P6762537492388388125
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A052146 (A150388 n).toNat) (A280748 n)
-
-end
-
-end A026766.P6762537492388388125
 
 /-!
 # A026767: a(n) = Sum_{i=0..n} Sum_{j=0..n} T(i,j), T given by A026758.

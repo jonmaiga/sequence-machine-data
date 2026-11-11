@@ -6122,38 +6122,20 @@ end
 
 end A156575.P3214791499120468837
 
-/-! ## A156575.P5295359809900020689
+/-! ## A156575.P14888495789437671265
 
-`A156567(3*n+1)*A156570(n+1)`
+`A156570(n+1)*A156570(n+1)`
 -/
 
-namespace A156575.P5295359809900020689
+namespace A156575.P14888495789437671265
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156567 (3 * n + 1) * A156570 (n + 1)
+  A156570 (n + 1) * A156570 (n + 1)
 
 end
 
-end A156575.P5295359809900020689
-
-/-! ## A156575.P18390895124585874360
-
-`record[A156570(A193739(n))]*A156570(n+1)`
--/
-
-namespace A156575.P18390895124585874360
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156570 (A193739 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) * A156570 (n + 1)
-
-end
-
-end A156575.P18390895124585874360
+end A156575.P14888495789437671265
 
 /-!
 # A156577: a(2*n+2) = 10*a(2*n+1), a(2*n+1) = 10*a(2*n) - 9^n*A000108(n), a(0) = 1.

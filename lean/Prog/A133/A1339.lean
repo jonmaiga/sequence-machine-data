@@ -34,7 +34,6 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B001.C000
@@ -3981,6 +3980,21 @@ end
 
 end A133943.P1199277855903252331
 
+/-! ## A133943.P4734519201106556195
+
+`A154955(2*n+1)-A133944(n+1)`
+-/
+
+namespace A133943.P4734519201106556195
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154955 (2 * n + 1) - A133944 (n + 1)
+
+end
+
+end A133943.P4734519201106556195
+
 /-! ## A133943.P15926627165850216887
 
 `A128145(A008458(n))-A133944(n+1)`
@@ -4100,21 +4114,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A133943.P12465527594791621352
-
-/-! ## A133943.P3567815783556674054
-
-`A162518(n²+2)-A133944(n+1)`
--/
-
-namespace A133943.P3567815783556674054
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162518 (n ^ 2 + 2) - A133944 (n + 1)
-
-end
-
-end A133943.P3567815783556674054
 
 /-!
 # A133944: Sum mu(k), where the sum is over the integers k which are the "non-isolated divisors" of n and mu(k) is the Moebius function (mu(k) = A008683(k)). A positive divisor, k, of n is non-isolated if (k-1) or (k+1) also divides n.
@@ -9199,7 +9198,7 @@ end A133998.P12273855785410391456
 /-!
 # A133999: a(1) = a(2) = 1; a(n+1) = round( a(n) + sqrt(3)*a(n-1) ).
 
-The programs for A133999, the canonical program `A133999.P8491821705950889966` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133999 has offset 1).
+The programs for A133999, the canonical program `A133999.P8491821705950889966` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133999 has offset 1).
 
 The definition of A133999 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9208,7 +9207,7 @@ The definition of A133999 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(a(n-1)+sqrt(3)*a(n-2)+1/2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A133999

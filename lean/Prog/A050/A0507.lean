@@ -37,6 +37,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -85,6 +86,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -8223,6 +8225,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050791.P1517273997783237246
+
+/-! ## A050791.P11876026074372761422
+
+`filter[A281224(n+2), A106468(#)]`
+-/
+
+namespace A050791.P11876026074372761422
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281224 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A106468 (f1 j).toNat = 1) n)
+
+end
+
+end A050791.P11876026074372761422
 
 /-!
 # A050792: Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1 < x < y < z) or 'Fermat near misses'. Arrange solutions by increasing values of z (see A050791). Sequence gives values of x.

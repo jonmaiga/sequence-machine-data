@@ -98,7 +98,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -9575,19 +9574,19 @@ end
 
 end A231388.P14710196100561596622
 
-/-! ## A231388.P3138485940993318511
+/-! ## A231388.P12497381293776508479
 
-`∩[A387881(n+1), A029746(n)]`
+`∩[A029746(n), A032854(n+1)]`
 -/
 
-namespace A231388.P3138485940993318511
+namespace A231388.P12497381293776508479
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387881 (n + 1)
+  A029746 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029746 n
+  A032854 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -9595,7 +9594,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A231388.P3138485940993318511
+end A231388.P12497381293776508479
 
 /-!
 # A231389: Number of (n+1)X(n+1) 0..2 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order.

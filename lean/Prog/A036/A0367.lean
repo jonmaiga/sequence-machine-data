@@ -10028,29 +10028,26 @@ def P17806815945289498951.Spec : Prop :=
 
 end A036766
 
-/-! ## A036766.P5196958947415526429
+/-! ## A036766.P14593748445565853488
 
-`C(A366024(n), A020930((n-∑{digits}[n, #])/9))`
+`A366024(A002998(n))`
 -/
 
-namespace A036766.P5196958947415526429
+namespace A036766.P14593748445565853488
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A366024 n).toNat (A020930 (SequenceMachineLib.roundAway (((n : ℤ) - ((((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).sum : ℕ) : ℤ) : ℚ) / 9)).toNat).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366024 (A002998 n).toNat
 
 end
 
-end A036766.P5196958947415526429
+end A036766.P14593748445565853488
 
 namespace A036766
 
-/-- `C(A366024(n), A020930((n-∑{digits}[n, #])/9))` -/
-def P5196958947415526429.Spec : Prop :=
-  ∀ n, (P5196958947415526429.a n : ℤ) = A036766 n
+/-- `A366024(A002998(n))` -/
+def P14593748445565853488.Spec : Prop :=
+  ∀ n, P14593748445565853488.a n = A036766 n
 
 end A036766
 

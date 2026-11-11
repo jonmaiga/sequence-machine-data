@@ -122,21 +122,6 @@ end
 
 end A256300.P16371814335120621428
 
-/-! ## A256300.P11992153496872150493
-
-`A286621(2*A086346(n))`
--/
-
-namespace A256300.P11992153496872150493
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286621 (2 * A086346 n).toNat
-
-end
-
-end A256300.P11992153496872150493
-
 /-!
 # A256301: Least prime p such that p + k! is prime for all k = 2..n.
 
@@ -4064,26 +4049,26 @@ def P12823360714627996144.Spec : Prop :=
 
 end A256321
 
-/-! ## A256321.P16381361332697521148
+/-! ## A256321.P10012999546164546551
 
-`A005044(10*n)`
+`A211540(A016873(n))`
 -/
 
-namespace A256321.P16381361332697521148
+namespace A256321.P10012999546164546551
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005044 (10 * n)
+  A211540 (A016873 n).toNat
 
 end
 
-end A256321.P16381361332697521148
+end A256321.P10012999546164546551
 
 namespace A256321
 
-/-- `A005044(10*n)` -/
-def P16381361332697521148.Spec : Prop :=
-  ∀ n, P16381361332697521148.a n = A256321 n
+/-- `A211540(A016873(n))` -/
+def P10012999546164546551.Spec : Prop :=
+  ∀ n, P10012999546164546551.a n = A256321 n
 
 end A256321
 

@@ -21,7 +21,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C044
 import Seq.B000.C045
@@ -3675,27 +3674,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383555.P13165592481251750961
-
-/-!
-# A383556: G.f. A(x) satisfies [x^n] A(x)^n = [x^n] -1/A(x)^(n+1) for n > 1 with A(0) = 1, A'(0) = 1.
-
-The programs for A383556, there is no canonical definition to state claims against.
--/
-
-/-! ## A383556.P6368877452492869968
-
-`or(A000213(n), A398694(A000108(n)))`
--/
-
-namespace A383556.P6368877452492869968
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000213 n) (A398694 (A000108 n).toNat)
-
-end
-
-end A383556.P6368877452492869968
 
 /-!
 # A383557: G.f. A(x) satisfies: Sum_{n>=0} x^n * A(x)^(n*(n-1)) = 1/Sum_{n>=0} (-1)^n * x^n * A(x)^(n^2).

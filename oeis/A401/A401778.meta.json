@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyhexes with 3n cells that can be trisected into three congruent polyhexes.",
+  "id": "A401778",
+  "mentions": [
+    "A000228",
+    "A399996",
+    "A400883",
+    "A401775",
+    "A401777"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

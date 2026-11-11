@@ -6681,27 +6681,6 @@ end
 end A336280.P4142278449233342195
 
 /-!
-# A336281: Total number of ways of embedding connected graphs with n edges in the square lattice with diagonals allowed.
-
-The programs for A336281, there is no canonical definition to state claims against.
--/
-
-/-! ## A336281.P874451890046735588
-
-`round(A366340(n+3)/3)`
--/
-
-namespace A336281.P874451890046735588
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A366340 (n + 3) : ℚ) / 3)
-
-end
-
-end A336281.P874451890046735588
-
-/-!
 # A336282: Number of heapable permutations of length n.
 
 The programs for A336282, there is no canonical definition to state claims against.

@@ -59,7 +59,6 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -250,7 +249,7 @@ end A255803.P5368758928841999545
 /-!
 # A255805: Numbers with no zeros in base-8 representation.
 
-The programs for A255805, the canonical program `A255805.P14998431550882228973` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255805 has offset 1).
+The programs for A255805, the canonical program `A255805.P14998431550882228973` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255805 has offset 1).
 
 The definition of A255805 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6041 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -286,7 +285,7 @@ end A255805
 
 `lt[0, A309959(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255805
@@ -1668,7 +1667,7 @@ end A255816.P1031839429032979206
 /-!
 # A255817: Parity of A000788, which is the total number of ones in 0..n in binary.
 
-The programs for A255817, the canonical program `A255817.P14378805417068519773` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255817 has offset 0).
+The programs for A255817, the canonical program `A255817.P14378805417068519773` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255817 has offset 0).
 
 The definition of A255817 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1700,7 +1699,7 @@ end A255817
 
 `A115384(n)%2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255817
@@ -2706,21 +2705,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A255827.P11457969051374477050
-
-/-! ## A255827.P11594624235848446327
-
-`gcd(A110117(n+1), A387111(A000040(n+1)))`
--/
-
-namespace A255827.P11594624235848446327
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A110117 (n + 1)) (A387111 (A000040 (n + 1)).toNat)
-
-end
-
-end A255827.P11594624235848446327
 
 /-!
 # A255828: a(n) = n for n < 8; a(8n) = a(n); if every 8th term (a(8), a(16), a(24),...) is deleted, this gives back the original sequence.
@@ -7528,7 +7512,7 @@ end A255848
 /-!
 # A255849: Characteristic function of pentagonal numbers.
 
-The programs for A255849, the canonical program `A255849.P18420982419730115799` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255849 has offset 0).
+The programs for A255849, the canonical program `A255849.P18420982419730115799` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255849 has offset 0).
 
 The definition of A255849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7923,7 +7907,7 @@ end A255849
 
 `A080995(A080995(A180446(n))+n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255849

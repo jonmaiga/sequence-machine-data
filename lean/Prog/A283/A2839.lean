@@ -16,7 +16,6 @@ import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C025
@@ -1640,6 +1639,21 @@ end
 
 end A283919.P10735574013239774097
 
+/-! ## A283919.P3674024785857660674
+
+`A000290(A046027(n+1))`
+-/
+
+namespace A283919.P3674024785857660674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A046027 (n + 1)).toNat
+
+end
+
+end A283919.P3674024785857660674
+
 /-! ## A283919.P18171714993998236063
 
 `A088377(A084936(n+1))`
@@ -1879,6 +1893,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A283919.P6633785713276053461
+
+/-! ## A283919.P16318062140944190180
+
+`A046027(n+1)*A249739(A013929(n+1))`
+-/
+
+namespace A283919.P16318062140944190180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046027 (n + 1) * A249739 (A013929 (n + 1)).toNat
+
+end
+
+end A283919.P16318062140944190180
 
 /-!
 # A283920: a(n) = (1 + Sum_{j=1..K-2} a(n-j)*a(n-j-1))/a(n-K) with a(1),...,a(K)=1, where K=8.
@@ -4492,6 +4521,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A283962.P2180496060174027216
+
+/-! ## A283962.P15078279069654105251
+
+`A112751(A120027(n))`
+-/
+
+namespace A283962.P15078279069654105251
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112751 (A120027 n).toNat
+
+end
+
+end A283962.P15078279069654105251
 
 /-!
 # A283963: Fixed point of the morphism 0 -> 1, 1 -> 1010.

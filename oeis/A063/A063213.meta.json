@@ -2,6 +2,7 @@
   "description": "Dimension of the space of weight 2n cuspidal newforms for Gamma_0(45).",
   "id": "A063213",
   "mentions": [
+    "A063195",
     "A063241"
   ],
   "tags": [

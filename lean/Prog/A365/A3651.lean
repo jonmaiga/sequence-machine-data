@@ -3141,6 +3141,32 @@ def P17487260952366558548.Spec : Prop :=
 
 end A365171
 
+/-! ## A365171.P10837005152978922883
+
+`A401441(∑[n+2])`
+-/
+
+namespace A365171.P10837005152978922883
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401441 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A365171.P10837005152978922883
+
+namespace A365171
+
+/-- `A401441(∑[n+2])` -/
+def P10837005152978922883.Spec : Prop :=
+  ∀ n, P10837005152978922883.a n = A365171 (n + 1)
+
+end A365171
+
 /-! ## A365171.P9163352936199140504
 
 `A368978(A064549(n+1))`

@@ -33,6 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
@@ -1245,6 +1246,21 @@ end
 
 end A131904.P10179626885997536885
 
+/-! ## A131904.P11795724660579868488
+
+`A005179(A000005(A131903(n+1)))`
+-/
+
+namespace A131904.P11795724660579868488
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005179 (A000005 (A131903 (n + 1)).toNat).toNat
+
+end
+
+end A131904.P11795724660579868488
+
 /-! ## A131904.P15478682030729764434
 
 `A140635(comp[A140635(n+1)-A055672(n)])`
@@ -1263,25 +1279,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131904.P15478682030729764434
-
-/-! ## A131904.P2386210846121463948
-
-`A140635(comp[A140635(n+1)%A028310(n)])`
--/
-
-namespace A131904.P2386210846121463948
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A140635 (n + 1)) (A028310 n)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140635 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A131904.P2386210846121463948
 
 /-!
 # A131905: Integers x such that sigma_2(k)=sigma_2(x) for some 0<k<x, where A001157=sigma_2 is the sum of squares of divisors.
@@ -4795,26 +4792,26 @@ def P12746070548482143396.Spec : Prop :=
 
 end A131925
 
-/-! ## A131925.P18019787910088392612
+/-! ## A131925.P6288561121687997219
 
-`A111650(n+1)-1/A097807(n)`
+`A111650(n+1)-A097807(n)`
 -/
 
-namespace A131925.P18019787910088392612
+namespace A131925.P6288561121687997219
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A111650 (n + 1) : ℚ) - 1 / (A097807 n : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111650 (n + 1) - A097807 n
 
 end
 
-end A131925.P18019787910088392612
+end A131925.P6288561121687997219
 
 namespace A131925
 
-/-- `A111650(n+1)-1/A097807(n)` -/
-def P18019787910088392612.Spec : Prop :=
-  ∀ n, P18019787910088392612.a n = (A131925 n : ℚ)
+/-- `A111650(n+1)-A097807(n)` -/
+def P6288561121687997219.Spec : Prop :=
+  ∀ n, P6288561121687997219.a n = A131925 n
 
 end A131925
 
@@ -9416,6 +9413,29 @@ def P15852923681996236847.Spec : Prop :=
 theorem P15852923681996236847.correct : P15852923681996236847.Spec := by
   intro n
   simp only [A131950]
+
+end A131950
+
+/-! ## A131950.P9657342704871407621
+
+`A131830(n)+A003056(n)`
+-/
+
+namespace A131950.P9657342704871407621
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131830 n + A003056 n
+
+end
+
+end A131950.P9657342704871407621
+
+namespace A131950
+
+/-- `A131830(n)+A003056(n)` -/
+def P9657342704871407621.Spec : Prop :=
+  ∀ n, P9657342704871407621.a n = A131950 n
 
 end A131950
 

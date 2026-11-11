@@ -10001,6 +10001,28 @@ end
 
 end A176069.P3234491078348942204
 
+/-! ## A176069.P10303901280783775981
+
+`∩[A353887(n+1), A401300(n+1)]`
+-/
+
+namespace A176069.P10303901280783775981
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353887 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401300 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A176069.P10303901280783775981
+
 /-! ## A176069.P14964995126919356203
 
 `filter[A034111(n+1), A359828(#)]`
@@ -10075,27 +10097,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A176069.P7963793921721419455
-
-/-! ## A176069.P2589398436450163746
-
-`A002061(eq[4, A001222(n²-(n-1))²])`
--/
-
-namespace A176069.P2589398436450163746
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 ((n ^ 2 : ℤ) - ((n : ℤ) - 1)).toNat ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002061 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A176069.P2589398436450163746
 
 /-!
 # A176070: Numbers of the form k^3+k^2+k+1 that are the product of two distinct primes.

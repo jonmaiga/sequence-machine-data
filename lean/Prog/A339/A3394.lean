@@ -18,7 +18,6 @@ import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -7226,29 +7225,6 @@ theorem P797388226000704005.correct : P797388226000704005.Spec := by
 
 end A339483
 
-/-! ## A339483.P17327004740194533437
-
-`3*A180324(n)`
--/
-
-namespace A339483.P17327004740194533437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A180324 n
-
-end
-
-end A339483.P17327004740194533437
-
-namespace A339483
-
-/-- `3*A180324(n)` -/
-def P17327004740194533437.Spec : Prop :=
-  ∀ n, P17327004740194533437.a n = A339483 n
-
-end A339483
-
 /-! ## A339483.P13639444863547547571
 
 `A000537(n)+A008893(n)`
@@ -7653,6 +7629,32 @@ namespace A339483
 /-- `∑[and(2*n+1, 2*n)^3+n]` -/
 def P15034432841855641520.Spec : Prop :=
   ∀ n, (P15034432841855641520.a n : ℤ) = A339483 n
+
+end A339483
+
+/-! ## A339483.P734929286893057603
+
+`and(1, 2*n)+(2*n+1)²*∑[n]`
+-/
+
+namespace A339483.P734929286893057603
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 1 (2 * n) + (2 * n + 1) ^ 2 * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A339483.P734929286893057603
+
+namespace A339483
+
+/-- `and(1, 2*n)+(2*n+1)²*∑[n]` -/
+def P734929286893057603.Spec : Prop :=
+  ∀ n, (P734929286893057603.a n : ℤ) = A339483 n
 
 end A339483
 

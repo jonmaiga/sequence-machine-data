@@ -9291,6 +9291,29 @@ def P13169382046382958662.Spec : Prop :=
 
 end A061179
 
+/-! ## A061179.P1985818064270062421
+
+`A238241(A130883(n+1))`
+-/
+
+namespace A061179.P1985818064270062421
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238241 (A130883 (n + 1)).toNat
+
+end
+
+end A061179.P1985818064270062421
+
+namespace A061179
+
+/-- `A238241(A130883(n+1))` -/
+def P1985818064270062421.Spec : Prop :=
+  ∀ n, P1985818064270062421.a n = A061179 n
+
+end A061179
+
 /-!
 # A061180: Fifth column (m=4) of triangle A060920 (bisection of Fibonacci triangle, even part).
 

@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (4*n)^11.",
   "id": "A016811",
-  "mentions": [],
+  "mentions": [
+    "A013669"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1998,30 +1998,30 @@ theorem P9986543272011984613.correct : P9986543272011984613.Spec := by
 
 end A185910
 
-/-! ## A185910.P12624722800989446600
+/-! ## A185910.P4891207366077477296
 
-`(col(n)+1)*col(n)+row(n)+1`
+`1+row(n)+(col(n)+1)*col(n)`
 -/
 
-namespace A185910.P12624722800989446600
+namespace A185910.P4891207366077477296
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.triCol n + 1) * SequenceMachineLib.triCol n + (SequenceMachineLib.triRow n + 1)
+  1 + SequenceMachineLib.triRow n + (SequenceMachineLib.triCol n + 1) * SequenceMachineLib.triCol n
 
 end
 
-end A185910.P12624722800989446600
+end A185910.P4891207366077477296
 
 namespace A185910
 
-/-- `(col(n)+1)*col(n)+row(n)+1` -/
-def P12624722800989446600.Spec : Prop :=
-  ∀ n, (P12624722800989446600.a n : ℤ) = A185910 (n + 1)
+/-- `1+row(n)+(col(n)+1)*col(n)` -/
+def P4891207366077477296.Spec : Prop :=
+  ∀ n, (P4891207366077477296.a n : ℤ) = A185910 (n + 1)
 
-theorem P12624722800989446600.correct : P12624722800989446600.Spec := by
+theorem P4891207366077477296.correct : P4891207366077477296.Spec := by
   intro n
-  simp only [A185910, Nat.add_sub_cancel, A185910.P12624722800989446600.a, A185910.P7848250070020019282.a, SequenceMachineLib.memo_apply]
+  simp only [A185910, Nat.add_sub_cancel, A185910.P4891207366077477296.a, A185910.P7848250070020019282.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 
@@ -6111,6 +6111,36 @@ def P10825369870432425692.Spec : Prop :=
 
 end A185936
 
+/-! ## A185936.P16229944009889123100
+
+`∩[A054643(n+1), A192594(n+1)]`
+-/
+
+namespace A185936.P16229944009889123100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054643 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192594 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A185936.P16229944009889123100
+
+namespace A185936
+
+/-- `∩[A054643(n+1), A192594(n+1)]` -/
+def P16229944009889123100.Spec : Prop :=
+  ∀ n, (P16229944009889123100.a n : ℤ) = A185936 (n + 1)
+
+end A185936
+
 /-! ## A185936.P10559089149205931659
 
 `∩[A054643(n+1), A133290(n+1)]`
@@ -6568,36 +6598,6 @@ namespace A185936
 /-- `∩[A054643(n+1), A232436(n+1)]` -/
 def P4214789032652098401.Spec : Prop :=
   ∀ n, (P4214789032652098401.a n : ℤ) = A185936 (n + 1)
-
-end A185936
-
-/-! ## A185936.P4302369951564581973
-
-`∩[A054643(n+1), A074628(n+1)]`
--/
-
-namespace A185936.P4302369951564581973
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054643 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074628 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A185936.P4302369951564581973
-
-namespace A185936
-
-/-- `∩[A054643(n+1), A074628(n+1)]` -/
-def P4302369951564581973.Spec : Prop :=
-  ∀ n, (P4302369951564581973.a n : ℤ) = A185936 (n + 1)
 
 end A185936
 
@@ -10518,29 +10518,29 @@ def P808453996165461878.Spec : Prop :=
 
 end A185963
 
-/-! ## A185963.P11145080532575307088
+/-! ## A185963.P14909069726983575663
 
-`∑{#}[n, (-1)^#*C(n+2*#, n-#)]`
+`∑{#}[n, (-1)^#*C(n+2*#, 3*#)]`
 -/
 
-namespace A185963.P11145080532575307088
+namespace A185963.P14909069726983575663
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (-1) ^ k * (Nat.choose (n + 2 * k) ((n : ℤ) - (k : ℤ)).toNat : ℤ)
+  ∑ k ∈ Finset.range (f1 n + 1), (-1) ^ k * (Nat.choose (n + 2 * k) (3 * k) : ℤ)
 
 end
 
-end A185963.P11145080532575307088
+end A185963.P14909069726983575663
 
 namespace A185963
 
-/-- `∑{#}[n, (-1)^#*C(n+2*#, n-#)]` -/
-def P11145080532575307088.Spec : Prop :=
-  ∀ n, P11145080532575307088.a n = A185963 n
+/-- `∑{#}[n, (-1)^#*C(n+2*#, 3*#)]` -/
+def P14909069726983575663.Spec : Prop :=
+  ∀ n, P14909069726983575663.a n = A185963 n
 
 end A185963
 

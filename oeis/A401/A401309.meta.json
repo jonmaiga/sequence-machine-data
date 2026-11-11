@@ -1,0 +1,22 @@
+{
+  "description": "Binary encodings of stable row words of the Gosper-Lafitte triangle.",
+  "id": "A401309",
+  "mentions": [
+    "A000120",
+    "A000360",
+    "A000361",
+    "A001316",
+    "A002487"
+  ],
+  "tags": [
+    "base",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

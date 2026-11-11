@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n^2 do not contain successive identical digits.",
+  "description": "Numbers k such that k and k^2 do not contain successive identical digits.",
   "id": "A135140",
   "mentions": [
     "A050741"

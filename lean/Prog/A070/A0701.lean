@@ -10121,6 +10121,21 @@ end
 
 end A070194.P6323842014374441503
 
+/-! ## A070194.P6530651490502725743
+
+`A048669(A401643(n+3))`
+-/
+
+namespace A070194.P6530651490502725743
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048669 (A401643 (n + 3)).toNat
+
+end
+
+end A070194.P6530651490502725743
+
 /-!
 # A070195: Squarefree numbers sandwiched between a pair of twin primes.
 

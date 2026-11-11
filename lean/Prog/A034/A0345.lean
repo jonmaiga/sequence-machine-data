@@ -32,7 +32,6 @@ import Seq.B000.C036
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C048
-import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -1047,20 +1046,20 @@ end
 
 end A034511.P2623637450725696655
 
-/-! ## A034511.P12042384933299847166
+/-! ## A034511.P13287542243440473680
 
-`A400671(A034539(n+1))`
+`A067168(A058878(n))`
 -/
 
-namespace A034511.P12042384933299847166
+namespace A034511.P13287542243440473680
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400671 (A034539 (n + 1)).toNat
+  A067168 ((A058878 n).toNat + 10)
 
 end
 
-end A034511.P12042384933299847166
+end A034511.P13287542243440473680
 
 /-!
 # A034512: Multiplicity of highest weight (or singular) vectors associated with character chi_124 of Monster module.

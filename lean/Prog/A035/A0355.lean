@@ -5064,21 +5064,6 @@ end
 
 end A035554.P18363841777729887692
 
-/-! ## A035554.P14980337560170961510
-
-`ceil(A303431(A002865(n+4))/3)`
--/
-
-namespace A035554.P14980337560170961510
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A303431 (A002865 (n + 4)).toNat : ℚ) / 3⌉
-
-end
-
-end A035554.P14980337560170961510
-
 /-!
 # A035555: Number of partitions of n with equal number of parts congruent to each of 0 and 4 (mod 5).
 

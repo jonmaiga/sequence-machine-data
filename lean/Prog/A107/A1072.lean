@@ -2450,6 +2450,28 @@ end
 
 end A107209.P8828499725141087035
 
+/-! ## A107209.P3173827913340030167
+
+`∩[A033217(n+1), A372953(n+1)]`
+-/
+
+namespace A107209.P3173827913340030167
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033217 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A107209.P3173827913340030167
+
 /-! ## A107209.P11685199400048230563
 
 `∩[A033217(n+1), A351535(n+1)]`
@@ -2581,28 +2603,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A107209.P8769647374200732639
-
-/-! ## A107209.P11457024037285857110
-
-`∩[A033217(n+1), A224450(n+1)]`
--/
-
-namespace A107209.P11457024037285857110
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033217 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224450 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A107209.P11457024037285857110
 
 /-!
 # A107210: Primes of the form 3x^2 + 31y^2.

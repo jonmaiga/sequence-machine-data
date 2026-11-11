@@ -22,6 +22,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
@@ -37,7 +38,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -1520,6 +1520,29 @@ def P15365850287110441211.Spec : Prop :=
 
 end A198633
 
+/-! ## A198633.P17602944163775744313
+
+`max(3, 2^(n+1))`
+-/
+
+namespace A198633.P17602944163775744313
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  max 3 (2 ^ (n + 1))
+
+end
+
+end A198633.P17602944163775744313
+
+namespace A198633
+
+/-- `max(3, 2^(n+1))` -/
+def P17602944163775744313.Spec : Prop :=
+  ∀ n, (P17602944163775744313.a n : ℤ) = A198633 n
+
+end A198633
+
 /-! ## A198633.P10278667875976843597
 
 `2*a(n-1)` with `a(0)=3, a(1)=4`
@@ -1890,29 +1913,6 @@ namespace A198633
 /-- `or(2^(n+1), floor(1/(n+1)))` -/
 def P14670001151009945562.Spec : Prop :=
   ∀ n, P14670001151009945562.a n = A198633 n
-
-end A198633
-
-/-! ## A198633.P5481934554552671321
-
-`xor(2^(n+1), floor(1/(n+1)))`
--/
-
-namespace A198633.P5481934554552671321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (2 ^ (n + 1) : ℤ) ⌊1 / (n + 1 : ℚ)⌋
-
-end
-
-end A198633.P5481934554552671321
-
-namespace A198633
-
-/-- `xor(2^(n+1), floor(1/(n+1)))` -/
-def P5481934554552671321.Spec : Prop :=
-  ∀ n, P5481934554552671321.a n = A198633 n
 
 end A198633
 

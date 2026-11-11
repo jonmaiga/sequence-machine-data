@@ -3105,6 +3105,21 @@ end
 
 end A390833.P7548412443135864264
 
+/-! ## A390833.P9260704786301714
+
+`A054025(A141691(n))`
+-/
+
+namespace A390833.P9260704786301714
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054025 (A141691 n).toNat
+
+end
+
+end A390833.P9260704786301714
+
 /-! ## A390833.P1701606274534419799
 
 `A028661(A174119(n))`
@@ -3134,21 +3149,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390833.P13959125368731278749
-
-/-! ## A390833.P825325746698843140
-
-`A070208(A184173(n))`
--/
-
-namespace A390833.P825325746698843140
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070208 (A184173 n).toNat
-
-end
-
-end A390833.P825325746698843140
 
 /-!
 # A390837: G.f. A(x) satisfies: A(x) = 1 + x * A(2*x/(1 - x)^2) / (1 - x).

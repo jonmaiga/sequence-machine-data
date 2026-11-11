@@ -106,6 +106,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4240,6 +4241,21 @@ end A122129.P15968344729056800783
 
 The programs for A122130, there is no canonical definition to state claims against.
 -/
+
+/-! ## A122130.P6032955048867086887
+
+`A122129(n+1)-A351008(n+1)`
+-/
+
+namespace A122130.P6032955048867086887
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122129 (n + 1) - A351008 (n + 1)
+
+end
+
+end A122130.P6032955048867086887
 
 /-! ## A122130.P4869631342600181496
 
@@ -10130,6 +10146,21 @@ end
 
 end A122183.P17779928985538553060
 
+/-! ## A122183.P7618360126044734915
+
+`A390375(A129727(n+1))`
+-/
+
+namespace A122183.P7618360126044734915
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390375 (A129727 (n + 1)).toNat
+
+end
+
+end A122183.P7618360126044734915
+
 /-! ## A122183.P18317812657444850151
 
 `A036234(A129727(n+1)-1)`
@@ -13349,26 +13380,26 @@ def P11989379569444753143.Spec : Prop :=
 
 end A122197
 
-/-! ## A122197.P2247362598020613439
+/-! ## A122197.P6403239699157837365
 
-`A055087(A161827(n+1))`
+`A055087(A000267(n)+n+2)`
 -/
 
-namespace A122197.P2247362598020613439
+namespace A122197.P6403239699157837365
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055087 (A161827 (n + 1)).toNat
+  A055087 (A000267 n + (n + 2 : ℤ)).toNat
 
 end
 
-end A122197.P2247362598020613439
+end A122197.P6403239699157837365
 
 namespace A122197
 
-/-- `A055087(A161827(n+1))` -/
-def P2247362598020613439.Spec : Prop :=
-  ∀ n, P2247362598020613439.a n = A122197 (n + 1)
+/-- `A055087(A000267(n)+n+2)` -/
+def P6403239699157837365.Spec : Prop :=
+  ∀ n, P6403239699157837365.a n = A122197 (n + 1)
 
 end A122197
 

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest number > 1 such that it shares a factor with 1 to a(n) previous terms.",
+  "id": "A400933",
+  "mentions": [
+    "A000040",
+    "A016035",
+    "A121998",
+    "A384275",
+    "A400934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

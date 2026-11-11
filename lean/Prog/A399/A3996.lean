@@ -567,6 +567,21 @@ end
 
 end A399609.P11122647659837755356
 
+/-! ## A399609.P6610043897890888730
+
+`A000523(A397675(n+1))`
+-/
+
+namespace A399609.P6610043897890888730
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000523 (A397675 (n + 1)).toNat
+
+end
+
+end A399609.P6610043897890888730
+
 /-! ## A399609.P3785517580542011812
 
 `A000120(A397675(n+1)-1)`
@@ -626,21 +641,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399609.P6002833020489695894
-
-/-! ## A399609.P5423616178296269192
-
-`A023416(A066884(A356419(A066884(n+1))))`
--/
-
-namespace A399609.P5423616178296269192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023416 (A066884 (A356419 (A066884 (n + 1)).toNat).toNat).toNat
-
-end
-
-end A399609.P5423616178296269192
 
 /-!
 # A399612: Labels of successive landing squares of a rook on the Ulam spiral, starting at 2 and repeatedly moving to the smallest prime reachable without revisiting or passing over an earlier landing square.
@@ -1100,6 +1100,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399631.P3207466604655624840
+
+/-!
+# A399636: Number of weighted permutations of [n], where cycles are given weights 1, 1, 1/2, 1/3, 1/4, 1/5 ... .
+
+The programs for A399636, there is no canonical definition to state claims against.
+-/
+
+/-! ## A399636.P14450096272293001900
+
+`∑{#}[n, C(n, #)*2^#*(-1)^(n-#)*A005727(n-#)]`
+-/
+
+namespace A399636.P14450096272293001900
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k * 2 ^ k : ℚ) * (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (A005727 (n - k) : ℚ)
+
+end
+
+end A399636.P14450096272293001900
+
+/-! ## A399636.P4640650982074667747
+
+`∑{#}[n, C(n, #)*A203852(#)]`
+-/
+
+namespace A399636.P4640650982074667747
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A203852 k
+
+end
+
+end A399636.P4640650982074667747
 
 /-!
 # A399637: Number of nonisomorphic right-Euclidean relations on n elements.

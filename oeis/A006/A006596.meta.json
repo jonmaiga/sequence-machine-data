@@ -1,17 +1,20 @@
 {
-  "description": "Numbers k such that (2^(2k+1) - 2^(k+1) + 1)/5 is prime.",
+  "description": "Numbers k such that (2^(2*k+1) - 2^(k+1) + 1)/5 is prime.",
   "id": "A006596",
   "mentions": [
-    "A006556"
+    "A006556",
+    "A124112",
+    "A125742"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

@@ -51,6 +51,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -5811,6 +5812,29 @@ def P16391383138472712818.Spec : Prop :=
 
 end A113052
 
+/-! ## A113052.P13044510828957074796
+
+`A000007(A356296(2*n+2*n+1))`
+-/
+
+namespace A113052.P13044510828957074796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000007 (A356296 (2 * n + (2 * n + 1))).toNat
+
+end
+
+end A113052.P13044510828957074796
+
+namespace A113052
+
+/-- `A000007(A356296(2*n+2*n+1))` -/
+def P13044510828957074796.Spec : Prop :=
+  ∀ n, P13044510828957074796.a n = A113052 n
+
+end A113052
+
 /-! ## A113052.P3158736150939805303
 
 `A135416(A319653(2*n+2*n+1))`
@@ -6544,6 +6568,32 @@ def P12975537219836914621.Spec : Prop :=
 
 end A113061
 
+/-! ## A113061.P12623896277626571440
+
+`∑{d}[n+1, A099894(#-1)*A304906((n+1)/#)]`
+-/
+
+namespace A113061.P12623896277626571440
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A099894 (d - 1) * A304906 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+
+end
+
+end A113061.P12623896277626571440
+
+namespace A113061
+
+/-- `∑{d}[n+1, A099894(#-1)*A304906((n+1)/#)]` -/
+def P12623896277626571440.Spec : Prop :=
+  ∀ n, P12623896277626571440.a n = A113061 (n + 1)
+
+end A113061
+
 /-! ## A113061.P13114830623096558363
 
 `A361794(A053150(n+1)*A053150(n+1))`
@@ -6587,32 +6637,6 @@ namespace A113061
 /-- `A327626(A053150(n+1)²*A053150(n+1))` -/
 def P7606347974387789989.Spec : Prop :=
   ∀ n, P7606347974387789989.a n = A113061 (n + 1)
-
-end A113061
-
-/-! ## A113061.P12623896277626571440
-
-`∑{d}[n+1, A099894(#-1)*A304906((n+1)/#)]`
--/
-
-namespace A113061.P12623896277626571440
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A099894 (d - 1) * A304906 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
-
-end
-
-end A113061.P12623896277626571440
-
-namespace A113061
-
-/-- `∑{d}[n+1, A099894(#-1)*A304906((n+1)/#)]` -/
-def P12623896277626571440.Spec : Prop :=
-  ∀ n, P12623896277626571440.a n = A113061 (n + 1)
 
 end A113061
 

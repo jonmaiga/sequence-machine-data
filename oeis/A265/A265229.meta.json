@@ -2,15 +2,18 @@
   "description": "Number of n X 2 arrays containing 2 copies of 0..n-1 with no equal vertical neighbors and new values introduced sequentially from 0.",
   "id": "A265229",
   "mentions": [
-    "A265232"
+    "A003436",
+    "A006198",
+    "A265232",
+    "A278990"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

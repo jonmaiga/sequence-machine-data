@@ -61,6 +61,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
@@ -2334,6 +2335,21 @@ end
 
 end A359755.P3375098819276973428
 
+/-! ## A359755.P17298890353172413884
+
+`A390532(A359675(n+1))`
+-/
+
+namespace A359755.P17298890353172413884
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A359675 (n + 1)).toNat
+
+end
+
+end A359755.P17298890353172413884
+
 /-! ## A359755.P1174271966241346514
 
 `A004526(A359675(n+1)+1)`
@@ -2423,21 +2439,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359755.P11627411949369249664
-
-/-! ## A359755.P15026148445103101479
-
-`A025480(lcm(2, A359675(n+1)))`
--/
-
-namespace A359755.P15026148445103101479
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025480 (Int.lcm 2 (A359675 (n + 1)))
-
-end
-
-end A359755.P15026148445103101479
 
 /-!
 # A359756: First position of n in the sequence of zero-based weighted sums of standard compositions (A124757), if we start with position 0.

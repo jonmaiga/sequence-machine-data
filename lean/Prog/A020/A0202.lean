@@ -377,6 +377,28 @@ end
 
 end A020229.P3554727643731198854
 
+/-! ## A020229.P17950637773132337213
+
+`∩[A020209(n+1), A020253(n+1)]`
+-/
+
+namespace A020229.P17950637773132337213
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020209 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020253 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A020229.P17950637773132337213
+
 /-! ## A020229.P3223105121357591043
 
 `∩[A020235(n+1), A020253(n+1)]`
@@ -552,28 +574,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A020229.P5234843832727990156
-
-/-! ## A020229.P17950637773132337213
-
-`∩[A020209(n+1), A020253(n+1)]`
--/
-
-namespace A020229.P17950637773132337213
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020209 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020253 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A020229.P17950637773132337213
 
 /-!
 # A020230: Strong pseudoprimes to base 4.

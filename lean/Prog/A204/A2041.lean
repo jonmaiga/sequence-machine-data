@@ -6308,6 +6308,29 @@ def P3309512448137595803.Spec : Prop :=
 
 end A204143
 
+/-! ## A204143.P16367413463162313618
+
+`lcm(A010766(n+1), A010783(n+1))`
+-/
+
+namespace A204143.P16367413463162313618
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A010766 (n + 1)) (A010783 (n + 1))
+
+end
+
+end A204143.P16367413463162313618
+
+namespace A204143
+
+/-- `lcm(A010766(n+1), A010783(n+1))` -/
+def P16367413463162313618.Spec : Prop :=
+  ∀ n, (P16367413463162313618.a n : ℤ) = A204143 (n + 1)
+
+end A204143
+
 /-! ## A204143.P2685679622797437300
 
 `ceil(ratio[A181971(n)])*A010783(n+1)`
@@ -6331,29 +6354,6 @@ namespace A204143
 /-- `ceil(ratio[A181971(n)])*A010783(n+1)` -/
 def P2685679622797437300.Spec : Prop :=
   ∀ n, P2685679622797437300.a n = A204143 (n + 1)
-
-end A204143
-
-/-! ## A204143.P16296911807719597446
-
-`max(A010766(n+1), A010783(n+1))`
--/
-
-namespace A204143.P16296911807719597446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  max (A010766 (n + 1)) (A010783 (n + 1))
-
-end
-
-end A204143.P16296911807719597446
-
-namespace A204143
-
-/-- `max(A010766(n+1), A010783(n+1))` -/
-def P16296911807719597446.Spec : Prop :=
-  ∀ n, P16296911807719597446.a n = A204143 (n + 1)
 
 end A204143
 
@@ -6469,32 +6469,6 @@ namespace A204143
 /-- `ceil(A051125(n+1)/A003983(n+1))` -/
 def P5089763419224194076.Spec : Prop :=
   ∀ n, P5089763419224194076.a n = A204143 (n + 1)
-
-end A204143
-
-/-! ## A204143.P1492586504234878994
-
-`lcm(A010766(n+1), A010783(Δ[n²]-n))`
--/
-
-namespace A204143.P1492586504234878994
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A010766 (n + 1)) (A010783 ((f1 (n + 1) : ℤ) - (f1 n : ℤ) - (n : ℤ)).toNat)
-
-end
-
-end A204143.P1492586504234878994
-
-namespace A204143
-
-/-- `lcm(A010766(n+1), A010783(Δ[n²]-n))` -/
-def P1492586504234878994.Spec : Prop :=
-  ∀ n, (P1492586504234878994.a n : ℤ) = A204143 (n + 1)
 
 end A204143
 

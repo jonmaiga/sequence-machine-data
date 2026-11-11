@@ -1,11 +1,13 @@
 {
-  "description": "Triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = smallest number x such that Mod[sigma[x],n]=k.",
+  "description": "Triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = smallest number x such that Mod(sigma(x),n)=k.",
   "id": "A074625",
   "mentions": [
+    "A000012",
     "A000203",
     "A002191",
     "A002192",
     "A028982",
+    "A070982",
     "A072461",
     "A072462",
     "A072862",
@@ -19,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 88,
-    "source": "joeis"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

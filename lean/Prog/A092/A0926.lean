@@ -8897,6 +8897,36 @@ end
 
 end A092670.P527163441496826640
 
+/-! ## A092670.P11345980409156666911
+
+`A212657(n)+A092669(n+1)-A305442(n)`
+-/
+
+namespace A092670.P11345980409156666911
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212657 n + A092669 (n + 1) - A305442 n
+
+end
+
+end A092670.P11345980409156666911
+
+/-! ## A092670.P8202465877668134024
+
+`A212657(n+1)-A305442(n+1)`
+-/
+
+namespace A092670.P8202465877668134024
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212657 (n + 1) - A305442 (n + 1)
+
+end
+
+end A092670.P8202465877668134024
+
 /-!
 # A092671: Numbers n such that there exists a solution to the equation 1 = 1/x_1 + ... + 1/x_k (for any k), 0 < x_1 < ... < x_k = n.
 
@@ -9798,23 +9828,20 @@ end
 
 end A092674.P3790189176761630010
 
-/-! ## A092674.P10309058826197579759
+/-! ## A092674.P7747318558499118226
 
-`∑[n+1]-A092169(n+1)`
+`A092150(n+2)-(A092154(n+1)+A092150(n+1))`
 -/
 
-namespace A092674.P10309058826197579759
+namespace A092674.P7747318558499118226
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A092169 (n + 1)
+  A092150 (n + 2) - (A092154 (n + 1) + A092150 (n + 1))
 
 end
 
-end A092674.P10309058826197579759
+end A092674.P7747318558499118226
 
 /-!
 # A092676: Numerators of coefficients in the series for inverf(2x/sqrt(Pi)).

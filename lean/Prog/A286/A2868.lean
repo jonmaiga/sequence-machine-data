@@ -4292,21 +4292,6 @@ end
 
 end A286813.P12505918406365755373
 
-/-! ## A286813.P3826675263081917481
-
-`and(A180312(n), A321890(n+1))`
--/
-
-namespace A286813.P3826675263081917481
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A180312 n) (A321890 (n + 1))
-
-end
-
-end A286813.P3826675263081917481
-
 /-! ## A286813.P11268779201605994995
 
 `A000035(A226253(n)%A268925(n+1))`
@@ -4322,20 +4307,35 @@ end
 
 end A286813.P11268779201605994995
 
-/-! ## A286813.P14588346949799682158
+/-! ## A286813.P4417072432828344870
 
-`A332449(A318027(n))%2`
+`and(A180312(n), A367773(n))`
 -/
 
-namespace A286813.P14588346949799682158
+namespace A286813.P4417072432828344870
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A332449 (A318027 n).toNat) 2
+  Int.land (A180312 n) (A367773 n)
 
 end
 
-end A286813.P14588346949799682158
+end A286813.P4417072432828344870
+
+/-! ## A286813.P11706694480891923657
+
+`and(A180312(n), A367774(n))`
+-/
+
+namespace A286813.P11706694480891923657
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A180312 n) (A367774 n)
+
+end
+
+end A286813.P11706694480891923657
 
 /-!
 # A286814: Number of matchings in the n-helm graph.
@@ -6139,6 +6139,36 @@ end
 
 end A286838.P9323858272093000102
 
+/-! ## A286838.P16493550875485126934
+
+`A322088(n)+A322087(n)-A286839(n)`
+-/
+
+namespace A286838.P16493550875485126934
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322088 n + A322087 n - A286839 n
+
+end
+
+end A286838.P16493550875485126934
+
+/-! ## A286838.P11534406620246582249
+
+`A322092(n)+A322091(n)-A286839(n)`
+-/
+
+namespace A286838.P11534406620246582249
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322092 n + A322091 n - A286839 n
+
+end
+
+end A286838.P11534406620246582249
+
 /-! ## A286838.P5079477140562310969
 
 `13-A286839(n)-(A073424(A000124(n))-1)²`
@@ -6153,6 +6183,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286838.P5079477140562310969
+
+/-! ## A286838.P4543949091461838694
+
+`A324087(n)+A324086(n)-A286839(n)`
+-/
+
+namespace A286838.P4543949091461838694
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324087 n + A324086 n - A286839 n
+
+end
+
+end A286838.P4543949091461838694
+
+/-! ## A286838.P13660140814845331752
+
+`A324153(n)+A324085(n)-A286839(n)`
+-/
+
+namespace A286838.P13660140814845331752
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324153 n + A324085 n - A286839 n
+
+end
+
+end A286838.P13660140814845331752
 
 /-!
 # A286839: Digits of one of the two 13-adic integers sqrt(-1) (digits 0, 1, ... , 9, 10, 11, 12 are used instead of 0, 1, ... , 9, A, B, C).

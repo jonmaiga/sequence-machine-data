@@ -22,7 +22,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A168728: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^18 = I.

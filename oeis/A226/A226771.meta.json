@@ -2,7 +2,9 @@
   "description": "Decimal representation of continued fraction [1*2/2, 2*3/2, 3*4/2, 4*5/2,...], whose elements are the triangular numbers (A000217).",
   "id": "A226771",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A071896",
+    "A401512"
   ],
   "tags": [
     "cons",

@@ -14362,12 +14362,12 @@ end A212769
 /-!
 # A212772: a(n) = floor((n+1)*(n-3)*(n-4)/12).
 
-The programs for A212772, the canonical program `A212772.P13100905476236402268` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212772 has offset 0).
+The programs for A212772, the canonical program `A212772.P6030199916861705046` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212772 has offset 0).
 
-The definition of A212772 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A212772 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+1)*(n-3)*(n-4)/12)` (program `A212772.P6030199916861705046`, by `A212772.P6030199916861705046.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A212772.P13100905476236402268
+/-! ## A212772.P6030199916861705046
 
 `floor((n+1)*(n-3)*(n-4)/12)`
 
@@ -14377,10 +14377,10 @@ The canonical program, it is in `Seq.B000.C034`.
 namespace A212772
 
 /-- `floor((n+1)*(n-3)*(n-4)/12)` -/
-def P13100905476236402268.Spec : Prop :=
-  ∀ n, P13100905476236402268.a n = A212772 n
+def P6030199916861705046.Spec : Prop :=
+  ∀ n, P6030199916861705046.a n = A212772 n
 
-theorem P13100905476236402268.correct : P13100905476236402268.Spec := by
+theorem P6030199916861705046.correct : P6030199916861705046.Spec := by
   intro n
   simp only [A212772]
 

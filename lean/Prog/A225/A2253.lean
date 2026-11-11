@@ -51,6 +51,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -4988,6 +4989,28 @@ end
 
 end A225353.P1523771570469346774
 
+/-! ## A225353.P15862280474508919506
+
+`∪[A046790(n+1), A349521(n+1)]`
+-/
+
+namespace A225353.P15862280474508919506
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046790 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349521 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225353.P15862280474508919506
+
 /-!
 # A225354: Numbers that can be written as sum of distinct squarefree divisors.
 
@@ -6871,6 +6894,32 @@ namespace A225373
 /-- `A049643(n+1)-A106477(n)` -/
 def P1159130297374401667.Spec : Prop :=
   ∀ n, P1159130297374401667.a n = A225373 n
+
+end A225373
+
+/-! ## A225373.P7454911000124059620
+
+`1+∑{#}[ceil(n/2)-1, A000010(n-2*#)]`
+-/
+
+namespace A225373.P7454911000124059620
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(n : ℚ) / 2⌉ - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + ∑ k ∈ Finset.range (f1 n + 1).toNat, A000010 (n - 2 * k)
+
+end
+
+end A225373.P7454911000124059620
+
+namespace A225373
+
+/-- `1+∑{#}[ceil(n/2)-1, A000010(n-2*#)]` -/
+def P7454911000124059620.Spec : Prop :=
+  ∀ n, P7454911000124059620.a n = A225373 n
 
 end A225373
 

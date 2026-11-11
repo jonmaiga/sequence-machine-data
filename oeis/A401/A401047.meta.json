@@ -1,0 +1,20 @@
+{
+  "description": "Number of unordered pairs of finite sets of integer points of diameter n having the same multiset of pairwise distances, with the two sets distinct up to translation and reflection and each counted up to these operations.",
+  "id": "A401047",
+  "mentions": [
+    "A005418",
+    "A032085",
+    "A034851",
+    "A060546"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

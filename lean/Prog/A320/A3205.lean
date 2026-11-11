@@ -3187,23 +3187,29 @@ end A320528
 /-!
 # A320529: Number of chiral pairs of color patterns (set partitions) in a row of length n using exactly 6 colors (subsets).
 
-The programs for A320529, there is no canonical definition to state claims against.
+The programs for A320529, the canonical program `A320529.P15127051391972276130` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320529 has offset 1).
+
+The definition of A320529 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056330, A304976, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A320529.P15127051391972276130
 
 `A056330(n+1)-A304976(n+1)`
+
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
-namespace A320529.P15127051391972276130
-noncomputable section
+namespace A320529
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056330 (n + 1) - A304976 (n + 1)
+/-- `A056330(n+1)-A304976(n+1)` -/
+def P15127051391972276130.Spec : Prop :=
+  ∀ n, P15127051391972276130.a n = A320529 (n + 1)
 
-end
+theorem P15127051391972276130.correct : P15127051391972276130.Spec := by
+  intro n
+  simp only [A320529, Nat.add_sub_cancel]
 
-end A320529.P15127051391972276130
+end A320529
 
 /-! ## A320529.P5074859188154254888
 
@@ -3220,6 +3226,14 @@ end
 
 end A320529.P5074859188154254888
 
+namespace A320529
+
+/-- `A320936(n+1)-A320935(n+1)` -/
+def P5074859188154254888.Spec : Prop :=
+  ∀ n, P5074859188154254888.a n = A320529 (n + 1)
+
+end A320529
+
 /-! ## A320529.P2957301949159037973
 
 `A056475(2*(n+1))-A056330(n+1)`
@@ -3234,6 +3248,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320529.P2957301949159037973
+
+namespace A320529
+
+/-- `A056475(2*(n+1))-A056330(n+1)` -/
+def P2957301949159037973.Spec : Prop :=
+  ∀ n, P2957301949159037973.a n = A320529 (n + 1)
+
+end A320529
 
 /-! ## A320529.P4493513206013837688
 
@@ -3250,6 +3272,14 @@ end
 
 end A320529.P4493513206013837688
 
+namespace A320529
+
+/-- `A056512(2*n+1)-A056330(n+1)` -/
+def P4493513206013837688.Spec : Prop :=
+  ∀ n, P4493513206013837688.a n = A320529 (n + 1)
+
+end A320529
+
 /-! ## A320529.P12864511135150458536
 
 `A320936(n+1)-(A056324(n+1)-A305751(n+1))`
@@ -3264,6 +3294,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320529.P12864511135150458536
+
+namespace A320529
+
+/-- `A320936(n+1)-(A056324(n+1)-A305751(n+1))` -/
+def P12864511135150458536.Spec : Prop :=
+  ∀ n, P12864511135150458536.a n = A320529 (n + 1)
+
+end A320529
 
 /-! ## A320529.P13735079527760068213
 
@@ -3280,6 +3318,14 @@ end
 
 end A320529.P13735079527760068213
 
+namespace A320529
+
+/-- `A320525(A184218(n+1)+7)` -/
+def P13735079527760068213.Spec : Prop :=
+  ∀ n, P13735079527760068213.a n = A320529 (n + 1)
+
+end A320529
+
 /-! ## A320529.P13353986570960235927
 
 `A320525(A077169(n)+1+n)`
@@ -3294,6 +3340,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320529.P13353986570960235927
+
+namespace A320529
+
+/-- `A320525(A077169(n)+1+n)` -/
+def P13353986570960235927.Spec : Prop :=
+  ∀ n, P13353986570960235927.a n = A320529 (n + 1)
+
+end A320529
 
 /-! ## A320529.P17226260921481345264
 
@@ -3310,6 +3364,14 @@ end
 
 end A320529.P17226260921481345264
 
+namespace A320529
+
+/-- `A320525(A131209(n)+A077169(n))` -/
+def P17226260921481345264.Spec : Prop :=
+  ∀ n, P17226260921481345264.a n = A320529 (n + 1)
+
+end A320529
+
 /-! ## A320529.P3460092926799384193
 
 `A320525(A326178(A077169(n)+n))`
@@ -3324,6 +3386,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320529.P3460092926799384193
+
+namespace A320529
+
+/-- `A320525(A326178(A077169(n)+n))` -/
+def P3460092926799384193.Spec : Prop :=
+  ∀ n, P3460092926799384193.a n = A320529 (n + 1)
+
+end A320529
 
 /-!
 # A320530: T(n,k) = k^n + k^(n - 2)*n*(n - 1)*(k*(k - 1) + 1)/2 for 0 < k <= n and T(n,0) = A154272(n+1), square array read by antidiagonals upwards.

@@ -38,7 +38,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -2775,6 +2774,29 @@ namespace A173018
 /-- `A198954(A061579(3*n+1))+A123125(A061579(n))` -/
 def P12771738526564704989.Spec : Prop :=
   ∀ n, P12771738526564704989.a n = A173018 n
+
+end A173018
+
+/-! ## A173018.P8158220773800284419
+
+`A382287(A061885(n))`
+-/
+
+namespace A173018.P8158220773800284419
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382287 (A061885 n).toNat
+
+end
+
+end A173018.P8158220773800284419
+
+namespace A173018
+
+/-- `A382287(A061885(n))` -/
+def P8158220773800284419.Spec : Prop :=
+  ∀ n, P8158220773800284419.a n = A173018 n
 
 end A173018
 
@@ -6489,6 +6511,29 @@ namespace A173038
 /-- `1/4*((n+2)²-5*(n+2)+2)*n!+1` -/
 def P13655503353184622351.Spec : Prop :=
   ∀ n, P13655503353184622351.a n = (A173038 (n + 2) : ℚ)
+
+end A173038
+
+/-! ## A173038.P11539952369791915361
+
+`1+n!/2*(n²/2-n/2-2)`
+-/
+
+namespace A173038.P11539952369791915361
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + (Nat.factorial n : ℚ) / 2 * ((n ^ 2 : ℚ) / 2 - (n : ℚ) / 2 - 2)
+
+end
+
+end A173038.P11539952369791915361
+
+namespace A173038
+
+/-- `1+n!/2*(n²/2-n/2-2)` -/
+def P11539952369791915361.Spec : Prop :=
+  ∀ n, P11539952369791915361.a n = (A173038 (n + 2) : ℚ)
 
 end A173038
 

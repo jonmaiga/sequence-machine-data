@@ -1,11 +1,18 @@
 {
-  "description": "T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.",
+  "description": "Array read by antidiagonals: T(n,k) is the number of ways to reciprocally link elements of an n X k array either to themselves or to exactly two horizontal and vertical neighbors, without consecutive collinear links.",
   "id": "A220614",
   "mentions": [
     "A000045",
     "A001045",
     "A005178",
-    "A086832"
+    "A086832",
+    "A220611",
+    "A220612",
+    "A220613",
+    "A220681",
+    "A220708",
+    "A220718",
+    "A220738"
   ],
   "tags": [
     "nonn",

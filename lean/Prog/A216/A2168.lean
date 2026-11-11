@@ -47,7 +47,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
@@ -4144,6 +4143,75 @@ def P9673965366949765842.Spec : Prop :=
 
 end A216844
 
+/-! ## A216844.P8572974619009380413
+
+`A216875(n)-A216865(n)`
+-/
+
+namespace A216844.P8572974619009380413
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216875 n - A216865 n
+
+end
+
+end A216844.P8572974619009380413
+
+namespace A216844
+
+/-- `A216875(n)-A216865(n)` -/
+def P8572974619009380413.Spec : Prop :=
+  ∀ n, P8572974619009380413.a n = A216844 n
+
+end A216844
+
+/-! ## A216844.P4476043319223012590
+
+`A059100(n)-A047393(n+1)`
+-/
+
+namespace A216844.P4476043319223012590
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059100 n - A047393 (n + 1)
+
+end
+
+end A216844.P4476043319223012590
+
+namespace A216844
+
+/-- `A059100(n)-A047393(n+1)` -/
+def P4476043319223012590.Spec : Prop :=
+  ∀ n, P4476043319223012590.a n = A216844 n
+
+end A216844
+
+/-! ## A216844.P16442677409790673742
+
+`A027691(n)-A090773(n+1)`
+-/
+
+namespace A216844.P16442677409790673742
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027691 n - A090773 (n + 1)
+
+end
+
+end A216844.P16442677409790673742
+
+namespace A216844
+
+/-- `A027691(n)-A090773(n+1)` -/
+def P16442677409790673742.Spec : Prop :=
+  ∀ n, P16442677409790673742.a n = A216844 n
+
+end A216844
+
 /-!
 # A216845: Numbers n such that the polynomial 1 + x + x^2 + x^3 + x^4 + ... + x^(n-1) is reducible over GF(2).
 
@@ -7000,27 +7068,6 @@ end
 
 end A216877.P10970953773783816039
 
-/-! ## A216877.P16196449294770354352
-
-`eq[A387114(n+1), A387170(A387120(n+1))]`
--/
-
-namespace A216877.P16196449294770354352
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387114 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387170 (A387120 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A216877.P16196449294770354352
-
 /-!
 # A216878: G.f. satisfies: A(x) = 1 / Product_{n>=1} (1 + x^n*A(x)) * (1 + x^n/A(x)) * (1-x^n).
 
@@ -7586,7 +7633,7 @@ end A216883.P535806950042939250
 /-!
 # A216884: Primes p such that x^61 = 2 has a solution mod p.
 
-The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
+The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
 
 The definition of A216884 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7624,7 +7671,7 @@ end A216884
 
 `A000040(A323048(n+1)+char[A323048(n+1)])`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216884

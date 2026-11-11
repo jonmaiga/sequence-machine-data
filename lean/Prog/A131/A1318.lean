@@ -37,7 +37,6 @@ import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -99,7 +98,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -8285,21 +8283,6 @@ end A131846
 The programs for A131847, there is no canonical definition to state claims against.
 -/
 
-/-! ## A131847.P13372967256625297950
-
-`A369339(A153145(n+2))`
--/
-
-namespace A131847.P13372967256625297950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369339 (A153145 (n + 2)).toNat
-
-end
-
-end A131847.P13372967256625297950
-
 /-! ## A131847.P17993336052815383581
 
 `A038759(record[Δ[A180428(n+1)]])`
@@ -14737,6 +14720,32 @@ def P15300604900550235526.Spec : Prop :=
 
 end A131865
 
+/-! ## A131865.P2144619037490076990
+
+`∑{#}[n, 16^(n-#)]`
+-/
+
+namespace A131865.P2144619037490076990
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (16 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A131865.P2144619037490076990
+
+namespace A131865
+
+/-- `∑{#}[n, 16^(n-#)]` -/
+def P2144619037490076990.Spec : Prop :=
+  ∀ n, P2144619037490076990.a n = (A131865 n : ℚ)
+
+end A131865
+
 /-! ## A131865.P5324510100325220441
 
 `∑[16*a(n-1)]` with `a(0)=1`
@@ -14812,29 +14821,6 @@ namespace A131865
 /-- `lcm(16, a(n-1))+1` -/
 def P12188909682538463715.Spec : Prop :=
   ∀ n, (P12188909682538463715.a n : ℤ) = A131865 n
-
-end A131865
-
-/-! ## A131865.P12618209700983593151
-
-`xor(1, 16*a(n-1))` with `a(0)=1`
--/
-
-namespace A131865.P12618209700983593151
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  Nat.xor 1 (16 * a (n - 1))
-
-end
-
-end A131865.P12618209700983593151
-
-namespace A131865
-
-/-- `xor(1, 16*a(n-1))` -/
-def P12618209700983593151.Spec : Prop :=
-  ∀ n, (P12618209700983593151.a n : ℤ) = A131865 n
 
 end A131865
 

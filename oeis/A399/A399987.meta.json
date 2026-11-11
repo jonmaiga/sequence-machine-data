@@ -1,0 +1,16 @@
+{
+  "description": "The number of distinct 4-inversion sets in the symmetric group on n elements. A 4-inversion for a permutation w is a set of 4 values appearing in decreasing order in the one-line notation for w.",
+  "id": "A399987",
+  "mentions": [
+    "A399980"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

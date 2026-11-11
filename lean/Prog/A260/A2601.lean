@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -39,6 +38,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
@@ -4727,7 +4727,7 @@ end A260131
 /-!
 # A260132: Number of (n+2) X (2+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.
 
-The programs for A260132, the canonical program `A260132.P1656730082743688597` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260132 has offset 1).
+The programs for A260132, the canonical program `A260132.P1656730082743688597` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260132 has offset 1).
 
 The definition of A260132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 271 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4736,7 +4736,7 @@ The definition of A260132 is `conjectured`: the Lean definition is a formula tha
 
 `2*A259636(1+n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260132
@@ -4923,6 +4923,21 @@ end
 
 end A260134.P14209184939145200789
 
+/-! ## A260134.P985815691227242994
+
+`A260138(A374004(n+1))`
+-/
+
+namespace A260134.P985815691227242994
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260138 (A374004 (n + 1)).toNat
+
+end
+
+end A260134.P985815691227242994
+
 /-!
 # A260135: Number of (n+2)X(5+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.
 
@@ -4974,6 +4989,21 @@ end
 
 end A260135.P17979297866489380958
 
+/-! ## A260135.P3590177226636773637
+
+`A260138(A374005(n+1))`
+-/
+
+namespace A260135.P3590177226636773637
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260138 (A374005 (n + 1)).toNat
+
+end
+
+end A260135.P3590177226636773637
+
 /-! ## A260135.P6913467489731112797
 
 `A260138(A046691(3+n))`
@@ -4988,27 +5018,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260135.P6913467489731112797
-
-/-! ## A260135.P15432980551337692274
-
-`A260138(lt[A028338(n+3), A061260(n)])`
--/
-
-namespace A260135.P15432980551337692274
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028338 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061260 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A260138 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A260135.P15432980551337692274
 
 /-!
 # A260136: Number of (n+2)X(6+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.
@@ -5075,6 +5084,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260136.P2598532245138243514
+
+/-! ## A260136.P9364435209374321976
+
+`A260138(A374007(n+1))`
+-/
+
+namespace A260136.P9364435209374321976
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260138 (A374007 (n + 1)).toNat
+
+end
+
+end A260136.P9364435209374321976
 
 /-!
 # A260137: Number of (n+2)X(7+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.
@@ -5192,6 +5216,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260138.P15443969688112515116
+
+/-! ## A260138.P16290746421719729108
+
+`A004277(A259642(n+1))`
+-/
+
+namespace A260138.P16290746421719729108
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A259642 (n + 1)).toNat
+
+end
+
+end A260138.P16290746421719729108
 
 /-!
 # A260139: For any term a(k), there are exactly a(k) terms strictly smaller than 3*a(k); this is the lexicographically first increasing sequence of nonnegative integers with this property.
@@ -6515,26 +6554,26 @@ def P1654082834470725007.Spec : Prop :=
 
 end A260160
 
-/-! ## A260160.P7495046456604822739
+/-! ## A260160.P12007458810179204604
 
 `(1-(-1)^(n+1))*floor((n+1)/6+1/3)/2`
 -/
 
-namespace A260160.P7495046456604822739
+namespace A260160.P12007458810179204604
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 - (-1) ^ (n + 1) : ℚ) * ((⌊(n + 1 : ℚ) / 6 + (1 : ℚ) / 3⌋ : ℚ) / 2)
+  ((1 - (-1) ^ (n + 1)) * ⌊(n + 1 : ℚ) / 6 + (1 : ℚ) / 3⌋ : ℚ) / 2
 
 end
 
-end A260160.P7495046456604822739
+end A260160.P12007458810179204604
 
 namespace A260160
 
 /-- `(1-(-1)^(n+1))*floor((n+1)/6+1/3)/2` -/
-def P7495046456604822739.Spec : Prop :=
-  ∀ n, P7495046456604822739.a n = (A260160 (n + 1) : ℚ)
+def P12007458810179204604.Spec : Prop :=
+  ∀ n, P12007458810179204604.a n = (A260160 (n + 1) : ℚ)
 
 end A260160
 
@@ -11024,20 +11063,20 @@ end
 
 end A260195.P415765344875919399
 
-/-! ## A260195.P5078325662331390773
+/-! ## A260195.P5065728214988776777
 
-`and(A000225(n), A238872(n))`
+`A238872(n)%A000029(n)`
 -/
 
-namespace A260195.P5078325662331390773
+namespace A260195.P5065728214988776777
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A000225 n) (A238872 n)
+  Int.tmod (A238872 n) (A000029 n)
 
 end
 
-end A260195.P5078325662331390773
+end A260195.P5065728214988776777
 
 /-!
 # A260196: 1, -3, followed by -1's.

@@ -38,7 +38,6 @@ import Seq.B001.C014
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -284,7 +283,7 @@ end A361302.P2394534207401182622
 /-!
 # A361303: Expansion of g.f. A(x) = Sum_{n>=0} d^n/dx^n x^(2*n) * (1 + x)^(3*n) / n!.
 
-The programs for A361303, the canonical program `A361303.P2137865074356998924` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361303 has offset 0).
+The programs for A361303, the canonical program `A361303.P2137865074356998924` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361303 has offset 0).
 
 The definition of A361303 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -293,7 +292,7 @@ The definition of A361303 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A361305(n+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361303

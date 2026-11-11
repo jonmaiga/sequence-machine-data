@@ -29,11 +29,14 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -58,6 +61,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -70,7 +74,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -99,6 +102,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3757,6 +3761,21 @@ end
 
 end A104442.P3041865797844465981
 
+/-! ## A104442.P13473719797610783830
+
+`A104443(A401499(n+1))`
+-/
+
+namespace A104442.P13473719797610783830
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104443 (A401499 (n + 1)).toNat
+
+end
+
+end A104442.P13473719797610783830
+
 /-! ## A104442.P10304121218806471218
 
 `A104443(A132209(n+1))`
@@ -3786,21 +3805,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104442.P8637136918053080270
-
-/-! ## A104442.P17995108113175397808
-
-`A104434(n)-A285006(A002572(n+1))`
--/
-
-namespace A104442.P17995108113175397808
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104434 n - A285006 (A002572 (n + 1)).toNat
-
-end
-
-end A104442.P17995108113175397808
 
 /-!
 # A104443: Square array of P(n,t) read by antidiagonals: P(n,t) = number of ways to split [t*n] into n arithmetic progressions each with t terms.
@@ -12155,6 +12159,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104493.P9725794005467326401
+
+/-! ## A104493.P10312481890230724255
+
+`A377505(A176870(n+1))`
+-/
+
+namespace A104493.P10312481890230724255
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A176870 (n + 1)).toNat
+
+end
+
+end A104493.P10312481890230724255
 
 /-! ## A104493.P5785937675100577540
 

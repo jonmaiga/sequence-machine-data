@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime greater than 2*prime(n) if n is odd, and greater than prime(n)/2 otherwise.",
+  "id": "A400414",
+  "mentions": [
+    "A059786",
+    "A079953"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

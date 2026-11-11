@@ -30,7 +30,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C041
@@ -986,20 +985,20 @@ end
 
 end A283710.P17465974250494162940
 
-/-! ## A283710.P4549840013752939750
+/-! ## A283710.P12300684848326687438
 
-`A000290(or(1, A283711(n+1)))`
+`A000290(A283711(n+1))`
 -/
 
-namespace A283710.P4549840013752939750
+namespace A283710.P12300684848326687438
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (Int.lor 1 (A283711 (n + 1))).toNat
+  A000290 (A283711 (n + 1)).toNat
 
 end
 
-end A283710.P4549840013752939750
+end A283710.P12300684848326687438
 
 /-! ## A283710.P3458050076456671568
 
@@ -6558,6 +6557,32 @@ def P2475483329945750365.Spec : Prop :=
 
 end A283766
 
+/-! ## A283766.P7200946028959420792
+
+`filter[A038459(n+1), A085002(#)]`
+-/
+
+namespace A283766.P7200946028959420792
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038459 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A085002 (f1 j).toNat = 1) n)
+
+end
+
+end A283766.P7200946028959420792
+
+namespace A283766
+
+/-- `filter[A038459(n+1), A085002(#)]` -/
+def P7200946028959420792.Spec : Prop :=
+  ∀ n, P7200946028959420792.a n = A283766 (n + 1)
+
+end A283766
+
 /-!
 # A283767: Numbers k such that U(k) is even, where U = A001950 = upper Wythoff sequence.
 
@@ -12075,6 +12100,32 @@ namespace A283778
 /-- `lt[1, A260738(A184589(n+1)+1)]+1` -/
 def P7458478985720301130.Spec : Prop :=
   ∀ n, (P7458478985720301130.a n : ℤ) = A283778 (n + 1)
+
+end A283778
+
+/-! ## A283778.P7837457737946489956
+
+`filter[A115510(n+1), A372544(#)]`
+-/
+
+namespace A283778.P7837457737946489956
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115510 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A372544 (f1 j).toNat = 1) n)
+
+end
+
+end A283778.P7837457737946489956
+
+namespace A283778
+
+/-- `filter[A115510(n+1), A372544(#)]` -/
+def P7837457737946489956.Spec : Prop :=
+  ∀ n, P7837457737946489956.a n = A283778 (n + 1)
 
 end A283778
 

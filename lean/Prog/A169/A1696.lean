@@ -1121,7 +1121,7 @@ end A169605.P8322811304679662840
 /-!
 # A169606: a(2n-1) = prime(n+2)-3, a(2n) = prime(n+2)-2.
 
-The programs for A169606, the canonical program `A169606.P1555157006490763150` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169606 has offset 1).
+The programs for A169606, the canonical program `A169606.P1555157006490763150` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169606 has offset 1).
 
 The definition of A169606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1130,7 +1130,7 @@ The definition of A169606 is `conjectured`: the Lean definition is a formula tha
 
 `A093515(n+4)-3`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A169606
@@ -3258,7 +3258,7 @@ end A169612.P7048587061702616654
 /-!
 # A169613: Triangular array: T(n,k)=floor(F(n)/F(n-k)), k=1,2,...,n-2; n>=3, where F=A000045 (Fibonacci numbers).
 
-The programs for A169613, the canonical program `A169613.P2033703515470004183` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169613 has offset 3).
+The programs for A169613, the canonical program `A169613.P2033703515470004183` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169613 has offset 3).
 
 The definition of A169613 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3369,7 +3369,7 @@ end A169613
 
 `A169615(A038722(n+1))+C(n, A008486(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A169613
@@ -4001,21 +4001,6 @@ end
 
 end A169617.P11724068853346423444
 
-/-! ## A169617.P12693006321496281462
-
-`A174130(n+1)%A087294(n+1)`
--/
-
-namespace A169617.P12693006321496281462
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A174130 (n + 1)) (A087294 (n + 1))
-
-end
-
-end A169617.P12693006321496281462
-
 /-! ## A169617.P10811096512194878264
 
 `A174130(n+1)%A174152(A079908(n))`
@@ -4060,6 +4045,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169617.P9627295933870632814
+
+/-! ## A169617.P3770064573524132005
+
+`A174130(A055644(n+1))`
+-/
+
+namespace A169617.P3770064573524132005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174130 (A055644 (n + 1)).toNat
+
+end
+
+end A169617.P3770064573524132005
 
 /-!
 # A169619: Hankel transform of quartic (or 4-fold) factorial numbers A007696.
@@ -6778,26 +6778,26 @@ def P19058094148096860.Spec : Prop :=
 
 end A169642
 
-/-! ## A169642.P4348558629112773764
+/-! ## A169642.P10305573257325321937
 
-`A227316(2*n)`
+`A033586(n)/A010694(n)`
 -/
 
-namespace A169642.P4348558629112773764
+namespace A169642.P10305573257325321937
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227316 (2 * n)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A033586 n : ℚ) / (A010694 n : ℚ)
 
 end
 
-end A169642.P4348558629112773764
+end A169642.P10305573257325321937
 
 namespace A169642
 
-/-- `A227316(2*n)` -/
-def P4348558629112773764.Spec : Prop :=
-  ∀ n, P4348558629112773764.a n = A169642 n
+/-- `A033586(n)/A010694(n)` -/
+def P10305573257325321937.Spec : Prop :=
+  ∀ n, P10305573257325321937.a n = (A169642 n : ℚ)
 
 end A169642
 
@@ -11352,7 +11352,7 @@ end A169682.P8575435213590865753
 /-!
 # A169683: The canonical skew-binary numbers.
 
-The programs for A169683, the canonical program `A169683.P18438697268812114690` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169683 has offset 0).
+The programs for A169683, the canonical program `A169683.P18438697268812114690` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169683 has offset 0).
 
 The definition of A169683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1020 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11529,7 +11529,7 @@ end A169683
 
 `A007089(eq[A081603(n), A189640(n+1)])`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A169683

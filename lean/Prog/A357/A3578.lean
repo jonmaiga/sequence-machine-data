@@ -6201,6 +6201,34 @@ end
 end A357875.P16792152861770127586
 
 /-!
+# A357876: The run-sums of the prime indices of n are not weakly increasing.
+
+The programs for A357876, there is no canonical definition to state claims against.
+-/
+
+/-! ## A357876.P15172604387862833629
+
+`∩[A125006(n+1), A401704(n+1)]`
+-/
+
+namespace A357876.P15172604387862833629
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125006 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401704 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357876.P15172604387862833629
+
+/-!
 # A357877: The a(n)-th composition in standard order is the sequence of run-sums of the prime indices of n.
 
 The programs for A357877, there is no canonical definition to state claims against.

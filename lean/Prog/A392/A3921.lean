@@ -852,6 +852,25 @@ end
 
 end A392106.P16320209427657316245
 
+/-! ## A392106.P2759611500757100858
+
+`char[A271728(n+1)]+1`
+-/
+
+namespace A392106.P2759611500757100858
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271728 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (if ∃ j, f1 j = (n : ℤ) then 1 else 0) + 1
+
+end
+
+end A392106.P2759611500757100858
+
 /-! ## A392106.P1156188290291895107
 
 `A000085(1-Δ[A277914(n)])`
@@ -935,25 +954,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392106.P2292684259464078020
-
-/-! ## A392106.P2759611500757100858
-
-`char[A271728(n+1)]+1`
--/
-
-namespace A392106.P2759611500757100858
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271728 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f1 j = (n : ℤ) then 1 else 0) + 1
-
-end
-
-end A392106.P2759611500757100858
 
 /-! ## A392106.P13579150938253813654
 
@@ -2963,6 +2963,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392118.P9560809595688505399
+
+/-! ## A392118.P333941811769136680
+
+`A160656(A392121(n+1))`
+-/
+
+namespace A392118.P333941811769136680
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160656 (A392121 (n + 1)).toNat
+
+end
+
+end A392118.P333941811769136680
 
 /-!
 # A392119: Indices of the lower Wythoff partition sequence of the primes; see A392117.

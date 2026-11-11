@@ -47,6 +47,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -791,29 +792,6 @@ def P2616006885270201606.Spec : Prop :=
 
 end A353109
 
-/-! ## A353109.P15938329701506022780
-
-`dr(A336225(n))`
--/
-
-namespace A353109.P15938329701506022780
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A336225 n)
-
-end
-
-end A353109.P15938329701506022780
-
-namespace A353109
-
-/-- `dr(A336225(n))` -/
-def P15938329701506022780.Spec : Prop :=
-  ∀ n, (P15938329701506022780.a n : ℤ) = A353109 n
-
-end A353109
-
 /-! ## A353109.P7317116076948387360
 
 `dr(A391365(n))`
@@ -834,29 +812,6 @@ namespace A353109
 /-- `dr(A391365(n))` -/
 def P7317116076948387360.Spec : Prop :=
   ∀ n, (P7317116076948387360.a n : ℤ) = A353109 n
-
-end A353109
-
-/-! ## A353109.P6031440066496306906
-
-`dr(log2(A117401(n)))`
--/
-
-namespace A353109.P6031440066496306906
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (SequenceMachineLib.roundAway (Real.logb 2 (A117401 n : ℝ)))
-
-end
-
-end A353109.P6031440066496306906
-
-namespace A353109
-
-/-- `dr(log2(A117401(n)))` -/
-def P6031440066496306906.Spec : Prop :=
-  ∀ n, (P6031440066496306906.a n : ℤ) = A353109 n
 
 end A353109
 
@@ -906,29 +861,6 @@ def P12195480962984436754.Spec : Prop :=
 
 end A353109
 
-/-! ## A353109.P3767440068913206938
-
-`dr(A002262(A285192(n)))`
--/
-
-namespace A353109.P3767440068913206938
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A002262 (A285192 n).toNat)
-
-end
-
-end A353109.P3767440068913206938
-
-namespace A353109
-
-/-- `dr(A002262(A285192(n)))` -/
-def P3767440068913206938.Spec : Prop :=
-  ∀ n, (P3767440068913206938.a n : ℤ) = A353109 n
-
-end A353109
-
 /-! ## A353109.P15284971087370265508
 
 `A180595(2*A004247(n))`
@@ -949,6 +881,121 @@ namespace A353109
 /-- `A180595(2*A004247(n))` -/
 def P15284971087370265508.Spec : Prop :=
   ∀ n, P15284971087370265508.a n = A353109 n
+
+end A353109
+
+/-! ## A353109.P11155533101243889236
+
+`A180595(A004247(n)+A004247(n))`
+-/
+
+namespace A353109.P11155533101243889236
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180595 (A004247 n + A004247 n).toNat
+
+end
+
+end A353109.P11155533101243889236
+
+namespace A353109
+
+/-- `A180595(A004247(n)+A004247(n))` -/
+def P11155533101243889236.Spec : Prop :=
+  ∀ n, P11155533101243889236.a n = A353109 n
+
+end A353109
+
+/-! ## A353109.P5413177110696747984
+
+`A180595(2*A391365(n))`
+-/
+
+namespace A353109.P5413177110696747984
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180595 (2 * A391365 n).toNat
+
+end
+
+end A353109.P5413177110696747984
+
+namespace A353109
+
+/-- `A180595(2*A391365(n))` -/
+def P5413177110696747984.Spec : Prop :=
+  ∀ n, P5413177110696747984.a n = A353109 n
+
+end A353109
+
+/-! ## A353109.P544022511765311691
+
+`A180595(A391365(n)+A391365(n))`
+-/
+
+namespace A353109.P544022511765311691
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180595 (A391365 n + A391365 n).toNat
+
+end
+
+end A353109.P544022511765311691
+
+namespace A353109
+
+/-- `A180595(A391365(n)+A391365(n))` -/
+def P544022511765311691.Spec : Prop :=
+  ∀ n, P544022511765311691.a n = A353109 n
+
+end A353109
+
+/-! ## A353109.P6031440066496306906
+
+`dr(log2(A117401(n)))`
+-/
+
+namespace A353109.P6031440066496306906
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.digitalRoot (SequenceMachineLib.roundAway (Real.logb 2 (A117401 n : ℝ)))
+
+end
+
+end A353109.P6031440066496306906
+
+namespace A353109
+
+/-- `dr(log2(A117401(n)))` -/
+def P6031440066496306906.Spec : Prop :=
+  ∀ n, (P6031440066496306906.a n : ℤ) = A353109 n
+
+end A353109
+
+/-! ## A353109.P3767440068913206938
+
+`dr(A002262(A285192(n)))`
+-/
+
+namespace A353109.P3767440068913206938
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.digitalRoot (A002262 (A285192 n).toNat)
+
+end
+
+end A353109.P3767440068913206938
+
+namespace A353109
+
+/-- `dr(A002262(A285192(n)))` -/
+def P3767440068913206938.Spec : Prop :=
+  ∀ n, (P3767440068913206938.a n : ℤ) = A353109 n
 
 end A353109
 

@@ -282,7 +282,7 @@ end
 end A297701.P3096504211810823399
 
 /-!
-# A297703: The Genocchi triangle read by rows, T(n,k) for n>=0 and 0<=k<=n.
+# A297703: The Genocchi triangle read by rows: T(n, k) = (-1)^n * Sum_{j=0..floor((n-k)/2)} binomial(n-k, 2*j) * (2*(n-j+1)) * Euler(2*(n-j)+1, 1).
 
 The programs for A297703, there is no canonical definition to state claims against.
 -/

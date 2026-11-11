@@ -20,7 +20,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
@@ -65,6 +65,7 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -5115,21 +5116,6 @@ end
 
 end A304650.P4941924791291914604
 
-/-! ## A304650.P2824198337840323172
-
-`A047439(A339948(n+1))%A034444(n+1)`
--/
-
-namespace A304650.P2824198337840323172
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A047439 (A339948 (n + 1)).toNat) (A034444 (n + 1))
-
-end
-
-end A304650.P2824198337840323172
-
 /-! ## A304650.P13033412721950188984
 
 `∏{p}[n+1, 2%#²]-1-A325616(∏{e}[n+1, C(2*#, #)])`
@@ -5165,6 +5151,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304650.P18118540764377368636
+
+/-! ## A304650.P7870879208158867136
+
+`A127325(A016005(n+1))`
+-/
+
+namespace A304650.P7870879208158867136
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127325 (A016005 (n + 1)).toNat
+
+end
+
+end A304650.P7870879208158867136
 
 /-!
 # A304651: Number of coprime pairs (x,y) with x^2 + y^2 <= n.

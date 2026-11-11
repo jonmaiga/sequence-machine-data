@@ -5423,24 +5423,6 @@ end
 
 end A320173.P15136939355882177082
 
-/-! ## A320173.P18342322777426933928
-
-`record[A302545(n)]%A002007(n)`
--/
-
-namespace A320173.P18342322777426933928
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302545 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A002007 n)
-
-end
-
-end A320173.P18342322777426933928
-
 /-!
 # A320174: Number of series-reduced rooted trees whose leaves are constant integer partitions whose multiset union is an integer partition of n.
 

@@ -217,6 +217,21 @@ end
 
 end A304500.P4181998302291918447
 
+/-! ## A304500.P5750664909818050583
+
+`A304502(n)%A304501(n)`
+-/
+
+namespace A304500.P5750664909818050583
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A304502 n) (A304501 n)
+
+end
+
+end A304500.P5750664909818050583
+
 /-!
 # A304501: Solution (b(n)) of the system of complementary equations defined in Comments.
 
@@ -11855,6 +11870,29 @@ def P216033311662554557.Spec : Prop :=
 
 end A304588
 
+/-! ## A304588.P9203325094738824793
+
+`A269164(A185456(n+2))`
+-/
+
+namespace A304588.P9203325094738824793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269164 (A185456 (n + 2)).toNat
+
+end
+
+end A304588.P9203325094738824793
+
+namespace A304588
+
+/-- `A269164(A185456(n+2))` -/
+def P9203325094738824793.Spec : Prop :=
+  ∀ n, P9203325094738824793.a n = A304588 (n + 1)
+
+end A304588
+
 /-! ## A304588.P4564494547445457184
 
 `A004754(A004761(n+2))+1`
@@ -12135,29 +12173,6 @@ namespace A304588
 /-- `2*(n+1)+A078898(A054429(2*n+1))` -/
 def P18236544406815021328.Spec : Prop :=
   ∀ n, P18236544406815021328.a n = A304588 (n + 1)
-
-end A304588
-
-/-! ## A304588.P9702548422423241504
-
-`A004761(A163511(A053644(n)))+n+3`
--/
-
-namespace A304588.P9702548422423241504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004761 (A163511 (A053644 n).toNat).toNat + (n + 3 : ℤ)
-
-end
-
-end A304588.P9702548422423241504
-
-namespace A304588
-
-/-- `A004761(A163511(A053644(n)))+n+3` -/
-def P9702548422423241504.Spec : Prop :=
-  ∀ n, P9702548422423241504.a n = A304588 (n + 1)
 
 end A304588
 

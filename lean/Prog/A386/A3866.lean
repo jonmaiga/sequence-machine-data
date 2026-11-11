@@ -39,7 +39,6 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -1952,7 +1951,7 @@ end A386636.P14503127981412247329
 /-!
 # A386637: Numbers k such that sigma(k) = psi(k) + tau(k) + omega(k).
 
-The programs for A386637, the canonical program `A386637.P2989882539811058385` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386637 has offset 1).
+The programs for A386637, the canonical program `A386637.P2989882539811058385` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386637 has offset 1).
 
 The definition of A386637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 297 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1961,7 +1960,7 @@ The definition of A386637 is `conjectured`: the Lean definition is a formula tha
 
 `record[lcm(7, Δ[A024525(n)])]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A386637
@@ -3168,7 +3167,7 @@ end A386668
 /-!
 # A386670: Number of ternary strings of length 2*n that have more 0's than the combined number of 1's and 2's.
 
-The programs for A386670, the canonical program `A386670.P12615676269490321592` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386670 has offset 0).
+The programs for A386670, the canonical program `A386670.P12615676269490321592` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386670 has offset 0).
 
 The definition of A386670 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3229,7 +3228,7 @@ end A386670
 
 `A128418(n)-A059304(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A386670
@@ -3241,6 +3240,32 @@ def P12615676269490321592.Spec : Prop :=
 theorem P12615676269490321592.correct : P12615676269490321592.Spec := by
   intro n
   simp only [A386670]
+
+end A386670
+
+/-! ## A386670.P13358207078914442514
+
+`∑{#}[n-1, C(2*n, #)*2^#]`
+-/
+
+namespace A386670.P13358207078914442514
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (2 * n) k * 2 ^ k
+
+end
+
+end A386670.P13358207078914442514
+
+namespace A386670
+
+/-- `∑{#}[n-1, C(2*n, #)*2^#]` -/
+def P13358207078914442514.Spec : Prop :=
+  ∀ n, (P13358207078914442514.a n : ℤ) = A386670 n
 
 end A386670
 

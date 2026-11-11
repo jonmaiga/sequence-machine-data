@@ -2090,6 +2090,32 @@ The programs for A300624, the canonical program `A300624.P1798579072279093080` i
 The definition of A300624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A300624.P14646194048385791758
+
+`∑{#}[10, C(10, #)*C(n+#, 11)]`
+-/
+
+namespace A300624.P14646194048385791758
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  10
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose 10 k * Nat.choose (n + k) 11
+
+end
+
+end A300624.P14646194048385791758
+
+namespace A300624
+
+/-- `∑{#}[10, C(10, #)*C(n+#, 11)]` -/
+def P14646194048385791758.Spec : Prop :=
+  ∀ n, (P14646194048385791758.a n : ℤ) = A300624 n
+
+end A300624
+
 /-! ## A300624.P5154699113643512956
 
 `A035605(n)/2`

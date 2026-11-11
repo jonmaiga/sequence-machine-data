@@ -29,7 +29,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C036
@@ -43,6 +42,7 @@ import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -375,6 +375,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A128905.P16045113360872315107
+
+/-! ## A128905.P6138048957619008251
+
+`A080098(A333771(n+1))`
+-/
+
+namespace A128905.P6138048957619008251
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080098 (A333771 (n + 1)).toNat
+
+end
+
+end A128905.P6138048957619008251
 
 /-! ## A128905.P9079563185948039212
 
@@ -3656,12 +3671,31 @@ end
 end A128928.P16981673301085689893
 
 /-!
-# A128929: Diameter of a special type of regular graph of degree 4 whose order maintain an increase in form of an arithmetic progression.
+# A128929: a(n) = floor((n+2)/4).
 
-The programs for A128929, the canonical program `A128929.P7424391661163183655` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128929 has offset 4).
+The programs for A128929, the canonical program `A128929.P13157317257334979484` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128929 has offset 4).
 
-The definition of A128929 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A128929 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+6)/4)` (program `A128929.P13157317257334979484`, by `A128929.P13157317257334979484.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A128929.P13157317257334979484
+
+`floor((n+6)/4)`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A128929
+
+/-- `floor((n+6)/4)` -/
+def P13157317257334979484.Spec : Prop :=
+  ∀ n, P13157317257334979484.a n = A128929 (n + 4)
+
+theorem P13157317257334979484.correct : P13157317257334979484.Spec := by
+  intro n
+  simp only [A128929, Nat.add_sub_cancel]
+
+end A128929
 
 /-! ## A128929.P6241937544602226002
 
@@ -3692,25 +3726,6 @@ def P6241937544602226002.Spec : Prop :=
 
 end A128929
 
-/-! ## A128929.P7424391661163183655
-
-`round(n/4)+1`
-
-The canonical program, it is in `Seq.B000.C022`.
--/
-
-namespace A128929
-
-/-- `round(n/4)+1` -/
-def P7424391661163183655.Spec : Prop :=
-  ∀ n, P7424391661163183655.a n = A128929 (n + 4)
-
-theorem P7424391661163183655.correct : P7424391661163183655.Spec := by
-  intro n
-  simp only [A128929, Nat.add_sub_cancel]
-
-end A128929
-
 /-! ## A128929.P15214272795430712651
 
 `ceil(cos(1)+n/4)`
@@ -3731,75 +3746,6 @@ namespace A128929
 /-- `ceil(cos(1)+n/4)` -/
 def P15214272795430712651.Spec : Prop :=
   ∀ n, P15214272795430712651.a n = A128929 (n + 4)
-
-end A128929
-
-/-! ## A128929.P15229657925793682959
-
-`floor(acos(0)+n/4)`
--/
-
-namespace A128929.P15229657925793682959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.arccos (0 : ℝ) + ((n : ℚ) / 4 : ℝ)⌋
-
-end
-
-end A128929.P15229657925793682959
-
-namespace A128929
-
-/-- `floor(acos(0)+n/4)` -/
-def P15229657925793682959.Spec : Prop :=
-  ∀ n, P15229657925793682959.a n = A128929 (n + 4)
-
-end A128929
-
-/-! ## A128929.P11490232660788624312
-
-`floor(tan(1)+n/4)`
--/
-
-namespace A128929.P11490232660788624312
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.tan (1 : ℝ) + ((n : ℚ) / 4 : ℝ)⌋
-
-end
-
-end A128929.P11490232660788624312
-
-namespace A128929
-
-/-- `floor(tan(1)+n/4)` -/
-def P11490232660788624312.Spec : Prop :=
-  ∀ n, P11490232660788624312.a n = A128929 (n + 4)
-
-end A128929
-
-/-! ## A128929.P2582520396091308673
-
-`floor(asin(1)+n/4)`
--/
-
-namespace A128929.P2582520396091308673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.arcsin (1 : ℝ) + ((n : ℚ) / 4 : ℝ)⌋
-
-end
-
-end A128929.P2582520396091308673
-
-namespace A128929
-
-/-- `floor(asin(1)+n/4)` -/
-def P2582520396091308673.Spec : Prop :=
-  ∀ n, P2582520396091308673.a n = A128929 (n + 4)
 
 end A128929
 
@@ -3849,29 +3795,6 @@ def P12985463871559703686.Spec : Prop :=
 
 end A128929
 
-/-! ## A128929.P10282671650512384506
-
-`floor(cosh(1)+n/4)`
--/
-
-namespace A128929.P10282671650512384506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.cosh (1 : ℝ) + ((n : ℚ) / 4 : ℝ)⌋
-
-end
-
-end A128929.P10282671650512384506
-
-namespace A128929
-
-/-- `floor(cosh(1)+n/4)` -/
-def P10282671650512384506.Spec : Prop :=
-  ∀ n, P10282671650512384506.a n = A128929 (n + 4)
-
-end A128929
-
 /-! ## A128929.P5623433816475343741
 
 `ceil(sin(7)+n/4)`
@@ -3918,29 +3841,6 @@ def P3118947966448665109.Spec : Prop :=
 
 end A128929
 
-/-! ## A128929.P10483861452835161464
-
-`floor((n-tan(8))/4)`
--/
-
-namespace A128929.P10483861452835161464
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((n : ℝ) - Real.tan (8 : ℝ)) / 4⌋
-
-end
-
-end A128929.P10483861452835161464
-
-namespace A128929
-
-/-- `floor((n-tan(8))/4)` -/
-def P10483861452835161464.Spec : Prop :=
-  ∀ n, P10483861452835161464.a n = A128929 (n + 4)
-
-end A128929
-
 /-! ## A128929.P12084697668867019495
 
 `ceil(tan(10)+n/4)`
@@ -3984,29 +3884,6 @@ namespace A128929
 /-- `ceil(n/4-sin(10))` -/
 def P1401985803355201034.Spec : Prop :=
   ∀ n, P1401985803355201034.a n = A128929 (n + 4)
-
-end A128929
-
-/-! ## A128929.P6209747652736004357
-
-`floor(cot(4/(n+7)))`
--/
-
-namespace A128929.P6209747652736004357
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.cot (4 / (n + 7 : ℚ) : ℝ)⌋
-
-end
-
-end A128929.P6209747652736004357
-
-namespace A128929
-
-/-- `floor(cot(4/(n+7)))` -/
-def P6209747652736004357.Spec : Prop :=
-  ∀ n, P6209747652736004357.a n = A128929 (n + 4)
 
 end A128929
 
@@ -4122,6 +3999,166 @@ namespace A128929
 /-- `ceil(or(1, n+2)/4)` -/
 def P10080244743771515047.Spec : Prop :=
   ∀ n, P10080244743771515047.a n = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P16876759289500252991
+
+`fp[a(n-1)+4]` with `a(0)=0, a(1)=2`
+-/
+
+namespace A128929.P16876759289500252991
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [0, 2] fun n f1 =>
+  f1 (n - 1) + 4
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => n < f1 j) 0
+
+end
+
+end A128929.P16876759289500252991
+
+namespace A128929
+
+/-- `fp[a(n-1)+4]` -/
+def P16876759289500252991.Spec : Prop :=
+  ∀ n, (P16876759289500252991.a n : ℤ) = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P13247985546116988539
+
+`fp[2*comp[2*(n+1)]]`
+-/
+
+namespace A128929.P13247985546116988539
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => n < f1 j) 0
+
+end
+
+end A128929.P13247985546116988539
+
+namespace A128929
+
+/-- `fp[2*comp[2*(n+1)]]` -/
+def P13247985546116988539.Spec : Prop :=
+  ∀ n, (P13247985546116988539.a n : ℤ) = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P11260456730833548913
+
+`∑[gcd(n, ∑[n+1])]-n`
+-/
+
+namespace A128929.P11260456730833548913
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd n (∑ j ∈ Finset.range (n + 1), f2 j)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - (n : ℤ)
+
+end
+
+end A128929.P11260456730833548913
+
+namespace A128929
+
+/-- `∑[gcd(n, ∑[n+1])]-n` -/
+def P11260456730833548913.Spec : Prop :=
+  ∀ n, P11260456730833548913.a n = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P9858011290233194761
+
+`a(n-4)+1` with `a(0)=1, a(1)=1, a(2)=2, a(3)=2`
+-/
+
+namespace A128929.P9858011290233194761
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1, 2, 2] fun n a =>
+  a (n - 4) + 1
+
+end
+
+end A128929.P9858011290233194761
+
+namespace A128929
+
+/-- `a(n-4)+1` -/
+def P9858011290233194761.Spec : Prop :=
+  ∀ n, (P9858011290233194761.a n : ℤ) = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P5503270998553834401
+
+`∑[C(n+1, 3)%2]+1`
+-/
+
+namespace A128929.P5503270998553834401
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 1) 3 % 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + 1
+
+end
+
+end A128929.P5503270998553834401
+
+namespace A128929
+
+/-- `∑[C(n+1, 3)%2]+1` -/
+def P5503270998553834401.Spec : Prop :=
+  ∀ n, (P5503270998553834401.a n : ℤ) = A128929 (n + 4)
+
+end A128929
+
+/-! ## A128929.P8237314509397526998
+
+`∑[and(1, C(n+1, 3))]+1`
+-/
+
+namespace A128929.P8237314509397526998
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 1 (Nat.choose (n + 1) 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + 1
+
+end
+
+end A128929.P8237314509397526998
+
+namespace A128929
+
+/-- `∑[and(1, C(n+1, 3))]+1` -/
+def P8237314509397526998.Spec : Prop :=
+  ∀ n, (P8237314509397526998.a n : ℤ) = A128929 (n + 4)
 
 end A128929
 

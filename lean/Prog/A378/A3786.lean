@@ -7260,21 +7260,6 @@ end
 
 end A378672.P7734571704521294570
 
-/-! ## A378672.P18014361603145691480
-
-`A363997(A227375(n))`
--/
-
-namespace A378672.P18014361603145691480
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363997 (A227375 n).toNat
-
-end
-
-end A378672.P18014361603145691480
-
 /-! ## A378672.P635830410896908246
 
 `A351846(A148173(n+1))`
@@ -7289,6 +7274,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A378672.P635830410896908246
+
+/-! ## A378672.P3830798591618777010
+
+`A351846(A148174(n+1))`
+-/
+
+namespace A378672.P3830798591618777010
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351846 (A148174 (n + 1)).toNat
+
+end
+
+end A378672.P3830798591618777010
 
 /-!
 # A378673: Numbers of not uniquely embeddable trees on n vertices.

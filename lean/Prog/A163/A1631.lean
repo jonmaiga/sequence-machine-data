@@ -10883,20 +10883,20 @@ end
 
 end A163169.P12895868884152671669
 
-/-! ## A163169.P7995570989050812704
+/-! ## A163169.P13952210168889211609
 
-`gcd(A321698(n+1), A399774(3*(n+1))-n)-(-1)^n`
+`A366128(2*A325798(2*n+1))`
 -/
 
-namespace A163169.P7995570989050812704
+namespace A163169.P13952210168889211609
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Int.gcd (A321698 (n + 1)) (A399774 (3 * (n + 1)) - (n : ℤ)) : ℤ) - (-1) ^ n
+  A366128 (2 * A325798 (2 * n + 1)).toNat
 
 end
 
-end A163169.P7995570989050812704
+end A163169.P13952210168889211609
 
 /-!
 # A163170: Odd composite integers that are palindromes when written in binary.

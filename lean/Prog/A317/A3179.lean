@@ -3560,6 +3560,21 @@ end
 
 end A317929.P10085651215205638433
 
+/-! ## A317929.P17239464353067722179
+
+`A317930(A234840(A235199(n+1)))`
+-/
+
+namespace A317929.P17239464353067722179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317930 (A234840 (A235199 (n + 1)).toNat).toNat
+
+end
+
+end A317929.P17239464353067722179
+
 /-!
 # A317930: Numerators of rational valued sequence whose Dirichlet convolution with itself yields A234840, which is a multiplicative permutation of natural numbers.
 

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) minimizes |a(n)| among integers not in a(0), ..., a(n-1) with |a(n) - a(n-1)| = 7^j for an integer j >= 0, choosing the positive value in a tie.",
+  "id": "A398761",
+  "mentions": [
+    "A377090",
+    "A377091",
+    "A379719"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

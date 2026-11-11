@@ -1,21 +1,23 @@
 {
-  "description": "The Genocchi triangle read by rows, T(n,k) for n>=0 and 0<=k<=n.",
+  "description": "The Genocchi triangle read by rows: T(n, k) = (-1)^n * Sum_{j=0..floor((n-k)/2)} binomial(n-k, 2*j) * (2*(n-j+1)) * Euler(2*(n-j)+1, 1).",
   "id": "A297703",
   "mentions": [
     "A001469",
     "A005439",
+    "A014780",
     "A014781",
     "A099959",
     "A110501",
     "A226158"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

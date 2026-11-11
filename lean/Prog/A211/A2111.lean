@@ -3021,6 +3021,21 @@ end
 
 end A211149.P16267951461152432865
 
+/-! ## A211149.P7984396003798175795
+
+`A211148(n+1)+A211148(n+1)`
+-/
+
+namespace A211149.P7984396003798175795
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211148 (n + 1) + A211148 (n + 1)
+
+end
+
+end A211149.P7984396003798175795
+
 /-! ## A211149.P17476507461465868368
 
 `A016756(n+1)-A209981(n+1)`
@@ -3050,21 +3065,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211149.P5858400789541463356
-
-/-! ## A211149.P6015297279009350816
-
-`2*(A211147(n+1)-A209981(n+1))`
--/
-
-namespace A211149.P6015297279009350816
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A211147 (n + 1) - A209981 (n + 1))
-
-end
-
-end A211149.P6015297279009350816
 
 /-!
 # A211150: Number of 2 X 2 matrices having all terms in {-n,...,0,...,n} and determinant > n.
@@ -7217,6 +7217,29 @@ def P15047773683262216916.Spec : Prop :=
 
 end A211197
 
+/-! ## A211197.P1996901415233624085
+
+`(3+(-1)^(row(n)+1))/2+2*col(n)`
+-/
+
+namespace A211197.P1996901415233624085
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 + (-1) ^ (SequenceMachineLib.triRow n + 1) : ℚ) / 2 + (2 * SequenceMachineLib.triCol n : ℚ)
+
+end
+
+end A211197.P1996901415233624085
+
+namespace A211197
+
+/-- `(3+(-1)^(row(n)+1))/2+2*col(n)` -/
+def P1996901415233624085.Spec : Prop :=
+  ∀ n, P1996901415233624085.a n = (A211197 (n + 1) : ℚ)
+
+end A211197
+
 /-! ## A211197.P1199263927673310787
 
 `∑[4-or(2, A198954(n))]`
@@ -7534,29 +7557,6 @@ namespace A211197
 /-- `A304337(A209293(n+1))` -/
 def P8155409733702658186.Spec : Prop :=
   ∀ n, P8155409733702658186.a n = A211197 (n + 1)
-
-end A211197
-
-/-! ## A211197.P12590933937062464224
-
-`A053186(A157502(n+1))`
--/
-
-namespace A211197.P12590933937062464224
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053186 (A157502 (n + 1)).toNat
-
-end
-
-end A211197.P12590933937062464224
-
-namespace A211197
-
-/-- `A053186(A157502(n+1))` -/
-def P12590933937062464224.Spec : Prop :=
-  ∀ n, P12590933937062464224.a n = A211197 (n + 1)
 
 end A211197
 

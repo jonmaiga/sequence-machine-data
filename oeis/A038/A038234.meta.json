@@ -1,7 +1,10 @@
 {
   "description": "Triangle whose (n, k)-th entry is binomial(n, k)*4^(n - k)*4^k.",
   "id": "A038234",
-  "mentions": [],
+  "mentions": [
+    "A000302",
+    "A007318"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 45,
     "source": "joeis"
   }
 }

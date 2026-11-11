@@ -28,7 +28,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -705,20 +704,20 @@ end
 
 end A265902.P17790250636762506729
 
-/-! ## A265902.P2752930851193061353
+/-! ## A265902.P10679668908691824714
 
-`A265364(A265367(n))`
+`A265352(A265352(A264978(A265343(n))))`
 -/
 
-namespace A265902.P2752930851193061353
+namespace A265902.P10679668908691824714
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265364 (A265367 n).toNat
+  A265352 (A265352 (A264978 (A265343 n).toNat).toNat).toNat
 
 end
 
-end A265902.P2752930851193061353
+end A265902.P10679668908691824714
 
 /-!
 # A265903: Square array read by descending antidiagonals: A(1,k) = A188163(k), and for n > 1, A(n,k) = A087686(1+A(n-1,k)).

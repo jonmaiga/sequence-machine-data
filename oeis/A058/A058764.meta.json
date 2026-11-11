@@ -2,6 +2,7 @@
   "description": "Smallest number x such that cototient(x) = 2^n.",
   "id": "A058764",
   "mentions": [
+    "A003945",
     "A007283",
     "A042950",
     "A051953",

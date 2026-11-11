@@ -39,13 +39,13 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B009.C000
@@ -7094,6 +7094,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A183688.P12556333464404247880
+
+/-! ## A183688.P2016177005548629896
+
+`A185048(A204713(n+1))`
+-/
+
+namespace A183688.P2016177005548629896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185048 (A204713 (n + 1)).toNat
+
+end
+
+end A183688.P2016177005548629896
 
 /-!
 # A183689: Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock nonsingular.

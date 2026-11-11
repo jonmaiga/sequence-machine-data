@@ -7714,35 +7714,20 @@ end
 
 end A052061.P16822023106736496943
 
-/-! ## A052061.P5521538589571913568
+/-! ## A052061.P5386754309452909017
 
-`A000196(A052062(n+1))`
+`A000194(A052062(n+1))`
 -/
 
-namespace A052061.P5521538589571913568
+namespace A052061.P5386754309452909017
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (A052062 (n + 1)).toNat
+  A000194 (A052062 (n + 1)).toNat
 
 end
 
-end A052061.P5521538589571913568
-
-/-! ## A052061.P4053857527525820020
-
-`A000194(A052062(n+1)+n)`
--/
-
-namespace A052061.P4053857527525820020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (A052062 (n + 1) + (n : ℤ)).toNat
-
-end
-
-end A052061.P4053857527525820020
+end A052061.P5386754309452909017
 
 /-!
 # A052062: Squares containing no palindromic substring except single digits.
@@ -7872,6 +7857,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A052062.P5211617243578713565
+
+/-! ## A052062.P361930446561807116
+
+`eq[A156789(n), A399787(n)]`
+-/
+
+namespace A052062.P361930446561807116
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156789 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A399787 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A052062.P361930446561807116
 
 /-!
 # A052063: Numbers k such that the decimal expansion of k^3 contains no palindromic substring except single digits.
@@ -8712,6 +8718,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A052082.P13059129578235089152
+
+/-! ## A052082.P16074525767937138111
+
+`filter[A392480(n+1), A196368(#)]`
+-/
+
+namespace A052082.P16074525767937138111
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392480 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A196368 (f1 j).toNat = 1) n)
+
+end
+
+end A052082.P16074525767937138111
 
 /-!
 # A052083: a(n)^3 is a cube whose decimal expansion's digits are grouped together.

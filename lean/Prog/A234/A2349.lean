@@ -29,7 +29,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -3890,6 +3889,29 @@ The programs for A234950, the canonical program `A234950.P739346460351679352` is
 
 The definition of A234950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6836 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A234950.P16511368292356104587
+
+`1/(row(n)+1)*C(2*row(n)+2, row(n)-col(n))*C(row(n)+col(n), col(n))`
+-/
+
+namespace A234950.P16511368292356104587
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (SequenceMachineLib.triRow n + 1 : ℚ) * (Nat.choose (2 * SequenceMachineLib.triRow n + 2) ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ) * (Nat.choose (SequenceMachineLib.triRow n + SequenceMachineLib.triCol n) (SequenceMachineLib.triCol n) : ℚ)
+
+end
+
+end A234950.P16511368292356104587
+
+namespace A234950
+
+/-- `1/(row(n)+1)*C(2*row(n)+2, row(n)-col(n))*C(row(n)+col(n), col(n))` -/
+def P16511368292356104587.Spec : Prop :=
+  ∀ n, P16511368292356104587.a n = (A234950 n : ℚ)
+
+end A234950
 
 /-! ## A234950.P739346460351679352
 

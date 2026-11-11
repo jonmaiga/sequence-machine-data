@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} 2^(k-1) * binomial(n+k,k) * a(n-k).",
+  "id": "A401677",
+  "mentions": [
+    "A401626"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

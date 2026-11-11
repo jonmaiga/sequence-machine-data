@@ -35,12 +35,13 @@ import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -8448,20 +8449,20 @@ end
 
 end A118067.P2139264979157771489
 
-/-! ## A118067.P15817692773203190128
+/-! ## A118067.P16313511836776654982
 
-`A008586(A169696(n+1)/2)`
+`A382865(A169696(n+1))`
 -/
 
-namespace A118067.P15817692773203190128
+namespace A118067.P16313511836776654982
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008586 (SequenceMachineLib.roundAway ((A169696 (n + 1) : ℚ) / 2)).toNat
+  A382865 (A169696 (n + 1)).toNat
 
 end
 
-end A118067.P15817692773203190128
+end A118067.P16313511836776654982
 
 /-!
 # A118069: a(n) = smallest composite which is > n! and is coprime to n!.

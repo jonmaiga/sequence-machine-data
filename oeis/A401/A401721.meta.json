@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A034460(i) = A034460(j) and A325313(i) = A325313(j), for all i, j >= 1, where A034460(n) is usigma(n)-n, and A325313(n) is (the sum of squarefree divisors of n)-n.",
+  "id": "A401721",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A048250",
+    "A305800",
+    "A325313",
+    "A325977",
+    "A401715"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

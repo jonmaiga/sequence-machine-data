@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (11*n)^5.",
   "id": "A017393",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

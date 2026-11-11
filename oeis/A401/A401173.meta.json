@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that every element x in GF(p) eventually reaches 1 under iteration of the polynomial map T(x) = (x^2 - 2)^2 mod p.",
+  "id": "A401173",
+  "mentions": [
+    "A000215",
+    "A003095",
+    "A019434"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -6,6 +6,7 @@
     "A002415",
     "A095833",
     "A202038",
+    "A202343",
     "A204248",
     "A336114",
     "A336286",
@@ -17,13 +18,12 @@
     "A356484"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

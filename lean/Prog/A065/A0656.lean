@@ -7263,21 +7263,6 @@ end
 
 end A065666.P12232094401042963734
 
-/-! ## A065666.P3122362583010611666
-
-`lcm(n+1, A226933(C(n, 6)))`
--/
-
-namespace A065666.P3122362583010611666
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (n + 1 : ℤ) (A226933 (Nat.choose n 6))
-
-end
-
-end A065666.P3122362583010611666
-
 /-! ## A065666.P8704882324382300922
 
 `A178473(C(n+1, col(n)))+n`
@@ -7292,6 +7277,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A065666.P8704882324382300922
+
+/-! ## A065666.P1579758630607364106
+
+`(n+1)*A046594(a(n-1)²)` with `a(0)=1`
+-/
+
+namespace A065666.P1579758630607364106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  (n + 1 : ℤ) * A046594 (a (n - 1) ^ 2).toNat
+
+end
+
+end A065666.P1579758630607364106
 
 /-!
 # A065667: Permutation of N induced by rotating the node 4 left in the infinite planar binary tree shown at A065658.
@@ -7331,6 +7331,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A065667.P228581700862846339
+
+/-! ## A065667.P10098605848621334398
+
+`A127273(A010351(n+1))`
+-/
+
+namespace A065667.P10098605848621334398
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127273 (A010351 (n + 1)).toNat
+
+end
+
+end A065667.P10098605848621334398
+
+/-! ## A065667.P8506000929846466345
+
+`filter[A303369(n+1), A179775(#)]`
+-/
+
+namespace A065667.P8506000929846466345
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303369 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A179775 (f1 j).toNat = 1) n)
+
+end
+
+end A065667.P8506000929846466345
 
 /-!
 # A065668: Permutation of N induced by rotating the node 5 right in the infinite planar binary tree shown at A065658.

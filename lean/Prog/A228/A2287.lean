@@ -48,6 +48,7 @@ import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -9966,7 +9967,7 @@ end A228797
 /-!
 # A228798: Number of 3 X n binary arrays with top left element equal to 1 and no two ones adjacent horizontally or nw-se.
 
-The programs for A228798, the canonical program `A228798.P12092016422752340754` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228798 has offset 1).
+The programs for A228798, the canonical program `A228798.P12092016422752340754` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228798 has offset 1).
 
 The definition of A228798 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 178 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9998,7 +9999,7 @@ end A228798
 
 `a(n-1)+8*a(n-2)+6*a(n-3)-a(n-4)-a(n-5)` with `a(0)=4, a(1)=5, a(2)=36, a(3)=97, a(4)=411`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A228798
@@ -10088,7 +10089,7 @@ end A228798
 /-!
 # A228799: Number of 4 X n binary arrays with top left element equal to 1 and no two ones adjacent horizontally or nw-se.
 
-The programs for A228799, the canonical program `A228799.P6100409487211722598` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228799 has offset 1).
+The programs for A228799, the canonical program `A228799.P6100409487211722598` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228799 has offset 1).
 
 The definition of A228799 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10097,7 +10098,7 @@ The definition of A228799 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((8+5x-17x^2-46x^3+12x^4-33x^5+7x^6)/(1-x-20x^2-27x^3+14x^4+25x^5-4x^6-5x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A228799

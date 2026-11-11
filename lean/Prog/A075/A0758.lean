@@ -20,7 +20,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -97,6 +96,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -13228,6 +13228,32 @@ def P1418419525598103467.Spec : Prop :=
 
 end A075870
 
+/-! ## A075870.P17373152239298723844
+
+`∑{#}[n, C(2*(n+1)-1, 2*#)*2^(n+1-#)]`
+-/
+
+namespace A075870.P17373152239298723844
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose ((2 * (n + 1) : ℤ) - 1).toNat (2 * k) : ℚ) * (2 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A075870.P17373152239298723844
+
+namespace A075870
+
+/-- `∑{#}[n, C(2*(n+1)-1, 2*#)*2^(n+1-#)]` -/
+def P17373152239298723844.Spec : Prop :=
+  ∀ n, P17373152239298723844.a n = (A075870 (n + 1) : ℚ)
+
+end A075870
+
 /-! ## A075870.P16146346471395094641
 
 `(1-1/sqrt(2))*(3-2*sqrt(2))^n+(1+1/sqrt(2))*(3+2*sqrt(2))^n`
@@ -13553,32 +13579,6 @@ def P14850733606332098160.Spec : Prop :=
 
 end A075870
 
-/-! ## A075870.P4289364484066690154
-
-`Δ[A135153(4*n)]`
--/
-
-namespace A075870.P4289364484066690154
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135153 (4 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A075870.P4289364484066690154
-
-namespace A075870
-
-/-- `Δ[A135153(4*n)]` -/
-def P4289364484066690154.Spec : Prop :=
-  ∀ n, P4289364484066690154.a n = A075870 (n + 1)
-
-end A075870
-
 /-!
 # A075871: Numbers k such that 13*k^2 + 1 is a square.
 
@@ -13829,6 +13829,29 @@ namespace A075872
 /-- `C(eq[n+2, A000203(n+1)], n)/(n+1)` -/
 def P15635264698369893194.Spec : Prop :=
   ∀ n, P15635264698369893194.a n = (A075872 (n + 1) : ℚ)
+
+end A075872
+
+/-! ## A075872.P16796455428133960395
+
+`A215563(A014284(n+1))`
+-/
+
+namespace A075872.P16796455428133960395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215563 (A014284 (n + 1)).toNat
+
+end
+
+end A075872.P16796455428133960395
+
+namespace A075872
+
+/-- `A215563(A014284(n+1))` -/
+def P16796455428133960395.Spec : Prop :=
+  ∀ n, P16796455428133960395.a n = A075872 (n + 1)
 
 end A075872
 

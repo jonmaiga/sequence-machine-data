@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -10675,6 +10674,24 @@ end A266090
 The programs for A266091, there is no canonical definition to state claims against.
 -/
 
+/-! ## A266091.P9132774415473307874
+
+`A005162(Δ[n²])`
+-/
+
+namespace A266091.P9132774415473307874
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005162 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+
+end
+
+end A266091.P9132774415473307874
+
 /-! ## A266091.P13341502896730202779
 
 `∏[C(3*n, n)/A088218(n)]`
@@ -10692,6 +10709,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A266091.P13341502896730202779
+
+/-! ## A266091.P14810634610173611515
+
+`lcm(2*n+1, A005162(2*n+1))`
+-/
+
+namespace A266091.P14810634610173611515
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (2 * n + 1 : ℤ) (A005162 (2 * n + 1))
+
+end
+
+end A266091.P14810634610173611515
 
 /-! ## A266091.P2509028652166547706
 
@@ -10728,39 +10760,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A266091.P4096017735175677327
-
-/-! ## A266091.P4574893174624153423
-
-`2*a(n-1)*A001448(n)/A005810(n)` with `a(0)=1`
--/
-
-namespace A266091.P4574893174624153423
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  2 * a (n - 1) * ((A001448 n : ℚ) / (A005810 n : ℚ))
-
-end
-
-end A266091.P4574893174624153423
-
-/-! ## A266091.P2865074554501362856
-
-`∏[A040000(n)/A006480(n)*A188662(n)]`
--/
-
-namespace A266091.P2865074554501362856
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A040000 n : ℚ) / (A006480 n : ℚ) * (A188662 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A266091.P2865074554501362856
 
 /-!
 # A266093: Number of B-diagrams G such that the number of vertices of G is |G|=n.

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle: row n consists of the numbers x in [1,...,n-1] coprime to n such that (1/x) mod n < (-1/x) mod n.",
+  "id": "A400177",
+  "mentions": [
+    "A000010",
+    "A023022",
+    "A354940"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

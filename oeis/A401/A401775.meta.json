@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyiamonds with 2n cells that can be dissected into two congruent polyiamonds.",
+  "id": "A401775",
+  "mentions": [
+    "A000577",
+    "A399996",
+    "A401776",
+    "A401777"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

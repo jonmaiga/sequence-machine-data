@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of distinct sums x + y <= n with x, y in S, over all floor(sqrt(n))-element subsets S of {1, ..., n}.",
+  "id": "A400702",
+  "mentions": [
+    "A003022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k is a multiple of A342002(k), and A327860(k) is a multiple of k.",
+  "id": "A401718",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A276086",
+    "A327860",
+    "A328110",
+    "A328572",
+    "A342002",
+    "A351087",
+    "A400155",
+    "A401376",
+    "A401726"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

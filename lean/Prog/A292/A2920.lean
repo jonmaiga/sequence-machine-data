@@ -46,6 +46,7 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -627,6 +628,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A292006.P692840859219076893
+
+/-! ## A292006.P10144056230844402463
+
+`filter[A105603(n+1), A010051(#)]`
+-/
+
+namespace A292006.P10144056230844402463
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105603 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A292006.P10144056230844402463
 
 /-!
 # A292007: Primes of the form Phi(k, 3), where Phi is the cyclotomic polynomial.
@@ -6626,6 +6645,29 @@ def P13671381491726239857.Spec : Prop :=
 
 end A292058
 
+/-! ## A292058.P2645664769401919947
+
+`(2*(n+1)+C(n+1, 2))*(n+1)*n`
+-/
+
+namespace A292058.P2645664769401919947
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * (n + 1) + Nat.choose (n + 1) 2) * (n + 1) * n
+
+end
+
+end A292058.P2645664769401919947
+
+namespace A292058
+
+/-- `(2*(n+1)+C(n+1, 2))*(n+1)*n` -/
+def P2645664769401919947.Spec : Prop :=
+  ∀ n, (P2645664769401919947.a n : ℤ) = A292058 (n + 1)
+
+end A292058
+
 /-! ## A292058.P18441692057343557899
 
 `∑[n*A090288(n)]`
@@ -6822,32 +6864,6 @@ namespace A292058
 /-- `(n+1)*∑[A140090(n)]` -/
 def P6916731760181460769.Spec : Prop :=
   ∀ n, P6916731760181460769.a n = A292058 (n + 1)
-
-end A292058
-
-/-! ## A292058.P14576778911797129901
-
-`∑[n*(A139570(n)+2)]`
--/
-
-namespace A292058.P14576778911797129901
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * (A139570 n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A292058.P14576778911797129901
-
-namespace A292058
-
-/-- `∑[n*(A139570(n)+2)]` -/
-def P14576778911797129901.Spec : Prop :=
-  ∀ n, P14576778911797129901.a n = A292058 (n + 1)
 
 end A292058
 

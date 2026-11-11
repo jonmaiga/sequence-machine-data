@@ -33,7 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -110,7 +110,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -2448,7 +2447,7 @@ end A329830
 /-!
 # A329831: Beatty sequence for (7+sqrt(65))/8.
 
-The programs for A329831, the canonical program `A329831.P16133359020752931795` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329831 has offset 1).
+The programs for A329831, the canonical program `A329831.P16133359020752931795` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329831 has offset 1).
 
 The definition of A329831 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2457,7 +2456,7 @@ The definition of A329831 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A329832(1+n)-1]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A329831
@@ -4886,21 +4885,6 @@ end
 
 end A329842.P1016026413489325706
 
-/-! ## A329842.P4506855872836118285
-
-`A202306(A371701(n+1))`
--/
-
-namespace A329842.P4506855872836118285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202306 (A371701 (n + 1)).toNat
-
-end
-
-end A329842.P4506855872836118285
-
 /-! ## A329842.P9074718101381374687
 
 `A000194(A060544(n+1)+(n+2)²)`
@@ -4915,6 +4899,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329842.P9074718101381374687
+
+/-! ## A329842.P26574183498996759
+
+`∩[A047349(n+1), A133137(n+1)]`
+-/
+
+namespace A329842.P26574183498996759
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047349 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133137 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329842.P26574183498996759
 
 /-!
 # A329843: Beatty sequence for (1+sqrt(61))/6.
@@ -5568,7 +5574,7 @@ end A329845
 /-!
 # A329846: Beatty sequence for (7+sqrt(29))/5.
 
-The programs for A329846, the canonical program `A329846.P15546493502080413605` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329846 has offset 1).
+The programs for A329846, the canonical program `A329846.P15546493502080413605` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329846 has offset 1).
 
 The definition of A329846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6770 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5577,7 +5583,7 @@ The definition of A329846 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A329845(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A329846
@@ -6048,33 +6054,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329848.P14384669193792817999
-
-/-!
-# A329850: Lexicographically earliest sequence of distinct positive integers such that for any n > 0, f(n) * f(a(n)) = f(n * a(n)) where f(m) is the product of the digits of m.
-
-The programs for A329850, there is no canonical definition to state claims against.
--/
-
-/-! ## A329850.P15199679417603045269
-
-`lt[A399763(A004185(n)), A298015(n)]`
--/
-
-namespace A329850.P15199679417603045269
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A399763 (A004185 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298015 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A329850.P15199679417603045269
 
 /-!
 # A329851: Sum of absolute values of n-th differences over all permutations of {0, 1, ..., n}.

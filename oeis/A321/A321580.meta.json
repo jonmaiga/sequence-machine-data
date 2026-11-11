@@ -2,11 +2,13 @@
   "description": "Numbers k such that it is possible to reverse a deck of k cards by a sequence of perfect Faro shuffles with cut.",
   "id": "A321580",
   "mentions": [
+    "A014657",
     "A024222",
     "A071642",
     "A321512"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

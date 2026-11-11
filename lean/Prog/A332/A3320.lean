@@ -8153,6 +8153,21 @@ end
 
 end A332075.P251432128003278416
 
+/-! ## A332075.P2712668684476717865
+
+`A144396(A332076(n+1))`
+-/
+
+namespace A332075.P2712668684476717865
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144396 (A332076 (n + 1)).toNat
+
+end
+
+end A332075.P2712668684476717865
+
 /-! ## A332075.P5902244275975873255
 
 `A004273(A332076(1+n)+1)`
@@ -8257,21 +8272,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A332075.P17770678532951012343
-
-/-! ## A332075.P6455687945735218839
-
-`A008619(4*A332076(n+1))`
--/
-
-namespace A332075.P6455687945735218839
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (4 * A332076 (n + 1)).toNat
-
-end
-
-end A332075.P6455687945735218839
 
 /-!
 # A332076: Indices n of odd numbers 2n+1 such that k + 2^m is prime, where k and m are the odd part and 2-valuation, respectively, of 2n.

@@ -1,0 +1,18 @@
+{
+  "description": "Least height of a building at position 0 that would be seen by the building at position n in the city-building sequence A400000.",
+  "id": "A401613",
+  "mentions": [
+    "A397809",
+    "A400000",
+    "A400708"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

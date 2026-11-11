@@ -27,6 +27,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -3803,28 +3804,28 @@ The programs for A320042, the canonical program `A320042.P13296018025758099294` 
 The definition of A320042 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A320042.P10293088816907096905
+/-! ## A320042.P4983941959658707549
 
-`a(floor((n+1)/2)-1)+(-1)^((n+1)*(n+2)/2)` with `a(0)=0, a(1)=-1, a(2)=1, a(3)=0`
+`a(floor((n+1)/2)-1)+(-1)^((n+1)*(n+2)/2)` with `a(0)=0`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A320042.P10293088816907096905
+namespace A320042.P4983941959658707549
 noncomputable section
 
-def a : ℕ → ℝ := SequenceMachineLib.rec [0, -1, 1, 0] fun n a =>
+def a : ℕ → ℝ := SequenceMachineLib.rec [0] fun n a =>
   a (⌊(n + 1 : ℚ) / 2⌋ - 1).toNat + (-1 : ℝ) ^ (((n + 1) * (n + 2) : ℚ) / 2 : ℝ)
 
 end
 
-end A320042.P10293088816907096905
+end A320042.P4983941959658707549
 
 namespace A320042
 
 /-- `a(floor((n+1)/2)-1)+(-1)^((n+1)*(n+2)/2)` -/
-def P10293088816907096905.Spec : Prop :=
-  ∀ n, P10293088816907096905.a n = (A320042 (n + 1) : ℝ)
+def P4983941959658707549.Spec : Prop :=
+  ∀ n, P4983941959658707549.a n = (A320042 (n + 1) : ℝ)
 
 end A320042
 
@@ -4712,6 +4713,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320049.P2687491269479808636
+
+/-! ## A320049.P9760711086741847169
+
+`A001940(n)*A033999(n)`
+-/
+
+namespace A320049.P9760711086741847169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001940 n * A033999 n
+
+end
+
+end A320049.P9760711086741847169
 
 /-! ## A320049.P1476408757707511685
 

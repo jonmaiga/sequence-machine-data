@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected symmetric quartic graphs on n nodes.",
+  "id": "A401566",
+  "mentions": [
+    "A087101",
+    "A398351",
+    "A401567"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

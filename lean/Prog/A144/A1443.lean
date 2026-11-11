@@ -29,6 +29,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -94,7 +95,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -911,6 +912,36 @@ namespace A144302
 /-- `∩[A049445(n+1), A092246(n+1)]` -/
 def P15187781829444486245.Spec : Prop :=
   ∀ n, (P15187781829444486245.a n : ℤ) = A144302 (n + 1)
+
+end A144302
+
+/-! ## A144302.P8305364314876339504
+
+`∩[A014076(n+1), A049445(n+1)]`
+-/
+
+namespace A144302.P8305364314876339504
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014076 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049445 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A144302.P8305364314876339504
+
+namespace A144302
+
+/-- `∩[A014076(n+1), A049445(n+1)]` -/
+def P8305364314876339504.Spec : Prop :=
+  ∀ n, (P8305364314876339504.a n : ℤ) = A144302 (n + 1)
 
 end A144302
 

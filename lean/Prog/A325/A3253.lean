@@ -48,7 +48,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -3364,6 +3363,21 @@ end
 
 end A325319.P2379001048815218309
 
+/-! ## A325319.P13254861920829298248
+
+`A325823(n+1)-(A389217(n+1)+A389217(n+1))`
+-/
+
+namespace A325319.P13254861920829298248
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325823 (n + 1) - (A389217 (n + 1) + A389217 (n + 1))
+
+end
+
+end A325319.P13254861920829298248
+
 /-! ## A325319.P10000400295413017432
 
 `A325824(n+1)-(A389218(n+1)+A389217(n+1))`
@@ -3671,6 +3685,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325320.P2347518202537721327
+
+/-! ## A325320.P12546352206263248282
+
+`A325823(n+1)-(A389218(n+1)+A389217(n+1))`
+-/
+
+namespace A325320.P12546352206263248282
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325823 (n + 1) - (A389218 (n + 1) + A389217 (n + 1))
+
+end
+
+end A325320.P12546352206263248282
 
 /-! ## A325320.P7167705429606743240
 

@@ -8457,10 +8457,29 @@ end A051633
 /-!
 # A051634: Strong primes: prime(k) > (prime(k-1) + prime(k+1))/2.
 
-The programs for A051634, the canonical program `A051634.P9175354426533819428` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051634 has offset 1).
+The programs for A051634, the canonical program `A051634.P11116108794408098444` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051634 has offset 1).
 
-The definition of A051634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4748 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A051634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A051634.P11116108794408098444
+
+`A147812(n+1)+A001223(A258026(n+1))`
+
+The canonical program, it is in `Seq.B004.C000`.
+-/
+
+namespace A051634
+
+/-- `A147812(n+1)+A001223(A258026(n+1))` -/
+def P11116108794408098444.Spec : Prop :=
+  ∀ n, P11116108794408098444.a n = A051634 (n + 1)
+
+theorem P11116108794408098444.correct : P11116108794408098444.Spec := by
+  intro n
+  simp only [A051634, Nat.add_sub_cancel]
+
+end A051634
 
 /-! ## A051634.P17732003894198376989
 
@@ -8636,19 +8655,29 @@ end A051634
 /-! ## A051634.P9175354426533819428
 
 `A045319(eq[1, A079054(n+2)]+1)`
-
-The canonical program, it is in `Seq.B003.C000`.
 -/
+
+namespace A051634.P9175354426533819428
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079054 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045319 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
+
+end
+
+end A051634.P9175354426533819428
 
 namespace A051634
 
 /-- `A045319(eq[1, A079054(n+2)]+1)` -/
 def P9175354426533819428.Spec : Prop :=
   ∀ n, P9175354426533819428.a n = A051634 (n + 1)
-
-theorem P9175354426533819428.correct : P9175354426533819428.Spec := by
-  intro n
-  simp only [A051634, Nat.add_sub_cancel]
 
 end A051634
 
@@ -8947,32 +8976,6 @@ namespace A051634
 /-- `p?[A225493(n+1)]` -/
 def P16857557700100189616.Spec : Prop :=
   ∀ n, P16857557700100189616.a n = A051634 (n + 1)
-
-end A051634
-
-/-! ## A051634.P4623039638675400600
-
-`filter[A225493(n+1), A010051(#)]`
--/
-
-namespace A051634.P4623039638675400600
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225493 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A051634.P4623039638675400600
-
-namespace A051634
-
-/-- `filter[A225493(n+1), A010051(#)]` -/
-def P4623039638675400600.Spec : Prop :=
-  ∀ n, P4623039638675400600.a n = A051634 (n + 1)
 
 end A051634
 
@@ -9324,20 +9327,23 @@ end
 
 end A051635.P16560875048856168531
 
-/-! ## A051635.P2980335025498354354
+/-! ## A051635.P14980480078629323795
 
-`A151800(A063535(n))`
+`p?[A225495(n+1)]`
 -/
 
-namespace A051635.P2980335025498354354
+namespace A051635.P14980480078629323795
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225495 (n + 1)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151800 (A063535 n).toNat
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
 
 end
 
-end A051635.P2980335025498354354
+end A051635.P14980480078629323795
 
 /-!
 # A051636: Number of "labeled" cyclic subgroups of alternating group A_n.

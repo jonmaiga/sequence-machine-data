@@ -27,7 +27,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
@@ -3355,7 +3355,7 @@ end A100629.P9576096762489182262
 
 The programs for A100630, the canonical program `A100630.P502029142886304984` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100630 has offset 1).
 
-The definition of A100630 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2016 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A100630 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2403 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A100630.P3123250716262277670
@@ -4929,6 +4929,29 @@ def P4851879130454975979.Spec : Prop :=
 
 end A100637
 
+/-! ## A100637.P198549119566652511
+
+`A099802(A004526(n)+n+2)`
+-/
+
+namespace A100637.P198549119566652511
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099802 (A004526 n + (n + 2 : ℤ)).toNat
+
+end
+
+end A100637.P198549119566652511
+
+namespace A100637
+
+/-- `A099802(A004526(n)+n+2)` -/
+def P198549119566652511.Spec : Prop :=
+  ∀ n, P198549119566652511.a n = A100637 n
+
+end A100637
+
 /-! ## A100637.P4083119330128776844
 
 `A230980(3*(1+n))`
@@ -4949,29 +4972,6 @@ namespace A100637
 /-- `A230980(3*(1+n))` -/
 def P4083119330128776844.Spec : Prop :=
   ∀ n, P4083119330128776844.a n = A100637 n
-
-end A100637
-
-/-! ## A100637.P12517578981143980504
-
-`1+A033270(3*(1+n))`
--/
-
-namespace A100637.P12517578981143980504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A033270 (3 * (1 + n))
-
-end
-
-end A100637.P12517578981143980504
-
-namespace A100637
-
-/-- `1+A033270(3*(1+n))` -/
-def P12517578981143980504.Spec : Prop :=
-  ∀ n, P12517578981143980504.a n = A100637 n
 
 end A100637
 
@@ -5824,7 +5824,7 @@ end
 end A100652.P14035536927116227627
 
 /-!
-# A100656: a(n)=1 if the n-th hexagonal number is a prime, otherwise 0.
+# A100656: a(n)=1 if the n-th hex (or centered hexagonal) number (A003215) is a prime, otherwise 0.
 
 The programs for A100656, the canonical program `A100656.P17843525383450205217` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100656 has offset 0).
 

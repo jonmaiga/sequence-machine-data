@@ -1204,6 +1204,21 @@ end
 
 end A199643.P5752547331457489683
 
+/-! ## A199643.P8135597797826140551
+
+`A199647(A374004(n+1))`
+-/
+
+namespace A199643.P8135597797826140551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199647 (A374004 (n + 1)).toNat
+
+end
+
+end A199643.P8135597797826140551
+
 /-!
 # A199644: Number of nX5 0..2 arrays with values 0..2 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
 

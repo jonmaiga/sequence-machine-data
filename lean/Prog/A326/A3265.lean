@@ -2087,36 +2087,6 @@ end A326515.P13754731949653726306
 The programs for A326516, there is no canonical definition to state claims against.
 -/
 
-/-! ## A326516.P4302687664853287443
-
-`A303707(1+n)-A145270(A007862(n+1))`
--/
-
-namespace A326516.P4302687664853287443
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303707 (1 + n) - A145270 (A007862 (n + 1)).toNat
-
-end
-
-end A326516.P4302687664853287443
-
-/-! ## A326516.P14475350151983254645
-
-`A303707(n+1)-A005044(A173441(n+1))`
--/
-
-namespace A326516.P14475350151983254645
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303707 (n + 1) - A005044 (A173441 (n + 1)).toNat
-
-end
-
-end A326516.P14475350151983254645
-
 /-! ## A326516.P11616022747663341517
 
 `A303707(n+1)-A302110(A045967(n+1))`
@@ -2176,6 +2146,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A326516.P9508123875719991745
+
+/-! ## A326516.P16296468904495855685
+
+`gcd(A265646(n+1), A324837(n+1))`
+-/
+
+namespace A326516.P16296468904495855685
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A265646 (n + 1)) (A324837 (n + 1))
+
+end
+
+end A326516.P16296468904495855685
 
 /-!
 # A326517: Number of normal multiset partitions of weight n where each part has a different size.
@@ -6260,6 +6245,29 @@ def P16831404260234797465.Spec : Prop :=
 
 end A326577
 
+/-! ## A326577.P7475923011130677054
+
+`gcd(A140814(n), A160144(n))`
+-/
+
+namespace A326577.P7475923011130677054
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A140814 n) (A160144 n)
+
+end
+
+end A326577.P7475923011130677054
+
+namespace A326577
+
+/-- `gcd(A140814(n), A160144(n))` -/
+def P7475923011130677054.Spec : Prop :=
+  ∀ n, (P7475923011130677054.a n : ℤ) = A326577 (n + 1)
+
+end A326577
+
 /-! ## A326577.P18399934994280834442
 
 `A027642(2*n)/A006955(n)`
@@ -6280,29 +6288,6 @@ namespace A326577
 /-- `A027642(2*n)/A006955(n)` -/
 def P18399934994280834442.Spec : Prop :=
   ∀ n, P18399934994280834442.a n = (A326577 (n + 1) : ℚ)
-
-end A326577
-
-/-! ## A326577.P66743973982783876
-
-`gcd(A000466(n), A132095(n))`
--/
-
-namespace A326577.P66743973982783876
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000466 n) (A132095 n)
-
-end
-
-end A326577.P66743973982783876
-
-namespace A326577
-
-/-- `gcd(A000466(n), A132095(n))` -/
-def P66743973982783876.Spec : Prop :=
-  ∀ n, (P66743973982783876.a n : ℤ) = A326577 (n + 1)
 
 end A326577
 
@@ -7913,6 +7898,29 @@ def P6816054131233734090.Spec : Prop :=
 
 end A326583
 
+/-! ## A326583.P12668964043926662653
+
+`A014682(A326581(n+1)-1)`
+-/
+
+namespace A326583.P12668964043926662653
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014682 (A326581 (n + 1) - 1).toNat
+
+end
+
+end A326583.P12668964043926662653
+
+namespace A326583
+
+/-- `A014682(A326581(n+1)-1)` -/
+def P12668964043926662653.Spec : Prop :=
+  ∀ n, P12668964043926662653.a n = A326583 (n + 1)
+
+end A326583
+
 /-! ## A326583.P5461084006550121977
 
 `comp[A226567(n+1)]`
@@ -8137,6 +8145,29 @@ namespace A326583
 /-- `A004524(A326581(n+1))` -/
 def P7101015733445445302.Spec : Prop :=
   ∀ n, P7101015733445445302.a n = A326583 (n + 1)
+
+end A326583
+
+/-! ## A326583.P8606386611774991345
+
+`A130472(A326581(n+1)-1)`
+-/
+
+namespace A326583.P8606386611774991345
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130472 (A326581 (n + 1) - 1).toNat
+
+end
+
+end A326583.P8606386611774991345
+
+namespace A326583
+
+/-- `A130472(A326581(n+1)-1)` -/
+def P8606386611774991345.Spec : Prop :=
+  ∀ n, P8606386611774991345.a n = A326583 (n + 1)
 
 end A326583
 

@@ -1,5 +1,5 @@
 {
-  "description": "Filter sequence combining the prime signature of n (A046523) with Euler totient function (A000010).",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A000010(i) = A000010(j) and A046523(i) = A046523(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A000010 is the Euler totient function.",
   "id": "A318893",
   "mentions": [
     "A000010",

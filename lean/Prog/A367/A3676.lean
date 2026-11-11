@@ -32,7 +32,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
@@ -56,6 +56,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5730,23 +5731,23 @@ end
 
 end A367685.P9909656435232128819
 
-/-! ## A367685.P187125043267250036
+/-! ## A367685.P816627857549271768
 
-`filter[A344586(n+1), A340372(#)]`
+`filter[A070915(n+1), A401791(#)]`
 -/
 
-namespace A367685.P187125043267250036
+namespace A367685.P816627857549271768
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344586 (n + 1)
+  A070915 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A340372 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
 
 end
 
-end A367685.P187125043267250036
+end A367685.P816627857549271768
 
 /-!
 # A367689: Smallest prime number p such that x^n + y^n mod p does not take all values on Z/pZ.

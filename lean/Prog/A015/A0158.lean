@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -33,7 +34,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -801,6 +802,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015807.P10304639627900220997
+
+/-! ## A015807.P8005989953906256948
+
+`A016155(n)%A322348(n)`
+-/
+
+namespace A015807.P8005989953906256948
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A016155 n) (A322348 n)
+
+end
+
+end A015807.P8005989953906256948
+
+/-! ## A015807.P18062533762367996268
+
+`A016303(A281873(n+2))`
+-/
+
+namespace A015807.P18062533762367996268
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016303 (A281873 (n + 2)).toNat
+
+end
+
+end A015807.P18062533762367996268
 
 /-!
 # A015809: Odd numbers k such that phi(k) | sigma_3(k).

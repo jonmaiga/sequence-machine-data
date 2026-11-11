@@ -1,0 +1,17 @@
+{
+  "description": "Sum of squares of the n-th sexy prime pair (p, p+6).",
+  "id": "A400380",
+  "mentions": [
+    "A023201"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

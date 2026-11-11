@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of the image of a modified Bernoulli-number sequence under the Akiyama-Tanigawa transform.",
+  "description": "Denominators of the image of Bernoulli numbers with B(1) = 1/2 under the Akiyama-Tanigawa transform.",
   "id": "A174111",
   "mentions": [
     "A027642",

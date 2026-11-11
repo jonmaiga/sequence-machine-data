@@ -19,9 +19,11 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C042
@@ -40,6 +42,7 @@ import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -5843,6 +5846,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128396.P10382197377172340970
+
+/-! ## A128396.P15798092174749843297
+
+`filter[A014957(n+1), A401714(#)]`
+-/
+
+namespace A128396.P15798092174749843297
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014957 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A128396.P15798092174749843297
 
 /-!
 # A128397: Numbers k such that k^2 divides 17^k-1.

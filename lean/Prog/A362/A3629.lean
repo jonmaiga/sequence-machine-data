@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -47,7 +46,6 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -350,21 +348,6 @@ end A362904.P6152525291343371828
 
 The programs for A362905, there is no canonical definition to state claims against.
 -/
-
-/-! ## A362905.P12286000539573679302
-
-`A385887(A400954(n+1))`
--/
-
-namespace A362905.P12286000539573679302
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385887 (A400954 (n + 1)).toNat
-
-end
-
-end A362905.P12286000539573679302
 
 /-! ## A362905.P13117426653247230749
 
@@ -3460,6 +3443,29 @@ namespace A362934
 /-- `∑[2*floor(n/2)+1]-A132188(n+1)` -/
 def P16601783009227633952.Spec : Prop :=
   ∀ n, P16601783009227633952.a n = A362934 (n + 1)
+
+end A362934
+
+/-! ## A362934.P6843967663517154457
+
+`A362935(n+1)+A362935(n+1)`
+-/
+
+namespace A362934.P6843967663517154457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362935 (n + 1) + A362935 (n + 1)
+
+end
+
+end A362934.P6843967663517154457
+
+namespace A362934
+
+/-- `A362935(n+1)+A362935(n+1)` -/
+def P6843967663517154457.Spec : Prop :=
+  ∀ n, P6843967663517154457.a n = A362934 (n + 1)
 
 end A362934
 
@@ -6792,6 +6798,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A362968.P15141448290813109281
+
+/-! ## A362968.P3942536424311193586
+
+`A399323(∑[n+1])`
+-/
+
+namespace A362968.P3942536424311193586
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A399323 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A362968.P3942536424311193586
 
 /-!
 # A362969: Nonunitary near-perfect numbers: k such that nusigma(k) = k + d where d is a nonunitary divisor of k.

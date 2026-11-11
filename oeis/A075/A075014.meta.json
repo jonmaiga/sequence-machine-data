@@ -2,10 +2,10 @@
   "description": "Smallest k such that the concatenation k, k-1 is divisible by n; or 0 if no such number exists.",
   "id": "A075014",
   "mentions": [
-    "A075114",
-    "A075115",
-    "A075116",
-    "A075117"
+    "A075013",
+    "A075015",
+    "A075016",
+    "A075017"
   ],
   "tags": [
     "base",

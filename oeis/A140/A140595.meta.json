@@ -1,17 +1,16 @@
 {
-  "description": "A140485 read by columns.",
+  "description": "Tree diagram of the trajectories of the map n -> n + A396771(n) (as in A140485), with n in column floor(n/4) and rows stacked depth-first, read by columns.",
   "id": "A140595",
   "mentions": [
-    "A140485"
+    "A140485",
+    "A396771"
   ],
   "tags": [
-    "more",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 90,
+    "source": "oeis-bfile"
   }
 }

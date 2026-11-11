@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(5*n-1,k) * a(n-k).",
+  "id": "A398737",
+  "mentions": [
+    "A398734",
+    "A398735",
+    "A398736"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -20,6 +20,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -1725,6 +1726,21 @@ end
 
 end A151526.P3645712130737706909
 
+/-! ## A151526.P13375717896584658475
+
+`A400934(A134165(n))`
+-/
+
+namespace A151526.P13375717896584658475
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400934 (A134165 n).toNat
+
+end
+
+end A151526.P13375717896584658475
+
 /-! ## A151526.P1097306816075180273
 
 `A114147(A054152(n+1))`
@@ -1739,21 +1755,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151526.P1097306816075180273
-
-/-! ## A151526.P2220104058937839683
-
-`A087836(A309538(n)+A150580(n))`
--/
-
-namespace A151526.P2220104058937839683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087836 (A309538 n + A150580 n).toNat
-
-end
-
-end A151526.P2220104058937839683
 
 /-!
 # A151527: Number of 2-sided strip polyrects with n cells.
@@ -3786,35 +3787,35 @@ end
 
 end A151548.P16981865545559728496
 
-/-! ## A151548.P17376123358429427140
+/-! ## A151548.P3288645774810853991
 
-`2*A151549(n)+1`
+`A266529(A080565(n+1))`
 -/
 
-namespace A151548.P17376123358429427140
+namespace A151548.P3288645774810853991
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A151549 n + 1
+  A266529 (A080565 (n + 1)).toNat
 
 end
 
-end A151548.P17376123358429427140
+end A151548.P3288645774810853991
 
-/-! ## A151548.P11058802355759724781
+/-! ## A151548.P2619731532122525375
 
-`2*A255046(n)-1`
+`A266529(A079946(n+1))`
 -/
 
-namespace A151548.P11058802355759724781
+namespace A151548.P2619731532122525375
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A255046 n - 1
+  A266529 (A079946 (n + 1)).toNat
 
 end
 
-end A151548.P11058802355759724781
+end A151548.P2619731532122525375
 
 /-!
 # A151549: a(n) = (A151548(n)-1)/2.

@@ -36,7 +36,6 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -918,7 +917,7 @@ def P11756423822214337564.Spec : Prop :=
 end A155504
 
 /-!
-# A155505: Numbers n such that n^3 is of form x^2+40y^2 with positive x,y.
+# A155505: Numbers k such that k^3 is of form x^2+40y^2 with positive x,y.
 
 The programs for A155505, there is no canonical definition to state claims against.
 -/

@@ -661,20 +661,20 @@ end
 
 end A181901.P6386783325389602524
 
-/-! ## A181901.P13556460442435888846
+/-! ## A181901.P9611024021275381413
 
-`A387959(n+1)-A263577(A153480(n))`
+`A223925(A387959(n+1))`
 -/
 
-namespace A181901.P13556460442435888846
+namespace A181901.P9611024021275381413
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387959 (n + 1) - A263577 (A153480 n).toNat
+  A223925 (A387959 (n + 1)).toNat
 
 end
 
-end A181901.P13556460442435888846
+end A181901.P9611024021275381413
 
 /-!
 # A181902: Numbers k such that the k-th triangular number is prime or the arithmetic mean of 2 successive primes.
@@ -2697,6 +2697,52 @@ namespace A181932
 /-- `A000035(A003136(n+1))` -/
 def P7553561649986425275.Spec : Prop :=
   ∀ n, P7553561649986425275.a n = A181932 (n + 1)
+
+end A181932
+
+/-! ## A181932.P7135099890568458144
+
+`A014707(A270050(n+1))`
+-/
+
+namespace A181932.P7135099890568458144
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014707 (A270050 (n + 1)).toNat
+
+end
+
+end A181932.P7135099890568458144
+
+namespace A181932
+
+/-- `A014707(A270050(n+1))` -/
+def P7135099890568458144.Spec : Prop :=
+  ∀ n, P7135099890568458144.a n = A181932 (n + 1)
+
+end A181932
+
+/-! ## A181932.P3737980049131456380
+
+`A000035(A270672(n+1))`
+-/
+
+namespace A181932.P3737980049131456380
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A270672 (n + 1)).toNat
+
+end
+
+end A181932.P3737980049131456380
+
+namespace A181932
+
+/-- `A000035(A270672(n+1))` -/
+def P3737980049131456380.Spec : Prop :=
+  ∀ n, P3737980049131456380.a n = A181932 (n + 1)
 
 end A181932
 
@@ -8797,7 +8843,7 @@ end A181986
 /-!
 # A181988: If n is odd, a(n) = (n+1)/2; if n is even, a(n) = a(n/2) + A003602(n).
 
-The programs for A181988, the canonical program `A181988.P6768559129986484408` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181988 has offset 1).
+The programs for A181988, the canonical program `A181988.P6768559129986484408` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181988 has offset 1).
 
 The definition of A181988 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8806,7 +8852,7 @@ The definition of A181988 is `conditional`: the Lean definition is an OEIS formu
 
 `A001511(n+1)*A003602(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A181988

@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -38,7 +37,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C014
 import Seq.B002.C001
@@ -88,7 +86,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1750,6 +1747,29 @@ def P11506517472324593394.Spec : Prop :=
 
 end A398517
 
+/-! ## A398517.P8271162297573204497
+
+`n+1+3*C(n, 2)+4*C(n, 3)`
+-/
+
+namespace A398517.P8271162297573204497
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + (1 + 3 * Nat.choose n 2 + 4 * Nat.choose n 3)
+
+end
+
+end A398517.P8271162297573204497
+
+namespace A398517
+
+/-- `n+1+3*C(n, 2)+4*C(n, 3)` -/
+def P8271162297573204497.Spec : Prop :=
+  ∀ n, (P8271162297573204497.a n : ℤ) = A398517 n
+
+end A398517
+
 /-! ## A398517.P1417397329992081175
 
 `A139488(n)-n`
@@ -2021,29 +2041,6 @@ namespace A398517
 /-- `A189890(n)+A005581(n)` -/
 def P1004577163498723383.Spec : Prop :=
   ∀ n, P1004577163498723383.a n = A398517 n
-
-end A398517
-
-/-! ## A398517.P12341333658248802020
-
-`A033562(n)-A007585(n)`
--/
-
-namespace A398517.P12341333658248802020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033562 n - A007585 n
-
-end
-
-end A398517.P12341333658248802020
-
-namespace A398517
-
-/-- `A033562(n)-A007585(n)` -/
-def P12341333658248802020.Spec : Prop :=
-  ∀ n, P12341333658248802020.a n = A398517 n
 
 end A398517
 
@@ -2464,6 +2461,24 @@ end
 
 end A398536.P1832268234893026715
 
+/-! ## A398536.P17096581781104288679
+
+`∑{#}[n, (n+1)^(2*(#+1))]`
+-/
+
+namespace A398536.P17096581781104288679
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (n + 1) ^ (2 * (k + 1))
+
+end
+
+end A398536.P17096581781104288679
+
 /-! ## A398536.P11951792725233853872
 
 `∑{#}[n+1, (n+1)²^#]-1`
@@ -2511,21 +2526,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A398536.P11873500314070649001
-
-/-! ## A398536.P17911897351808059371
-
-`A373387(A008592(n+1))+A174964(n+1)`
--/
-
-namespace A398536.P17911897351808059371
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373387 (A008592 (n + 1)).toNat + A174964 (n + 1)
-
-end
-
-end A398536.P17911897351808059371
 
 /-!
 # A398537: a(n) is the permanent of the symmetric tridiagonal Toeplitz n X n matrix M_n where M_n(j,k) = n^2+1 for j = k, M_n(j,k) = n for abs(j-k) = 1, M_n(j,k) = 0 otherwise.
@@ -3164,28 +3164,6 @@ end A398547
 
 The programs for A398548, there is no canonical definition to state claims against.
 -/
-
-/-! ## A398548.P17725630777979869645
-
-`∑[char[or(2*T(n-1,k-1), T(n-2,k))]]` with `a(0)=13, a(1)=1, a(2)=1`
--/
-
-namespace A398548.P17725630777979869645
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.rec [13, 1, 1] fun n f2 =>
-  Nat.lor (2 * SequenceMachineLib.triUpLeft f2 n) (SequenceMachineLib.triUp2 f2 n)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = n then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A398548.P17725630777979869645
 
 /-! ## A398548.P12956426993634783106
 
@@ -5841,6 +5819,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A398596.P7784543732311263681
+
+/-!
+# A398598: a(n) is the number of distinct paths of length n which begin and end on an odd number on the graph shown in the comments.
+
+The programs for A398598, the canonical program `A398598.P6381082752986582752` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398598 has offset 0).
+
+The definition of A398598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A398598.P6381082752986582752
+
+`ogf((3+3x-2x^2)/(1-x-6x^2-2x^3+2x^4))`
+
+The canonical program, it is in `Seq.B000.C051`.
+-/
+
+namespace A398598
+
+/-- `ogf((3+3x-2x^2)/(1-x-6x^2-2x^3+2x^4))` -/
+def P6381082752986582752.Spec : Prop :=
+  ∀ n, P6381082752986582752.a n = A398598 n
+
+theorem P6381082752986582752.correct : P6381082752986582752.Spec := by
+  intro n
+  simp only [A398598]
+
+end A398598
 
 /-!
 # A398599: Number of permutations p of [n] such that |p(i+1)-p(i)| <> 3 for all 1 <= i < n.

@@ -94,7 +94,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -805,21 +804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160009.P12837982005909426042
-
-/-! ## A160009.P16396343080178542048
-
-`A049862(n+1)%A399996(n+1)`
--/
-
-namespace A160009.P16396343080178542048
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A049862 (n + 1)) (A399996 (n + 1))
-
-end
-
-end A160009.P16396343080178542048
 
 /-!
 # A160014: Generalized Clausen numbers (table read by antidiagonals).
@@ -3266,7 +3250,7 @@ end
 end A160047.P2967936781375089077
 
 /-!
-# A160048: Numerator of the Harary number for the path graph P_n.
+# A160048: Numerator of twice the Harary index of the path graph P_n.
 
 The programs for A160048, there is no canonical definition to state claims against.
 -/
@@ -5792,6 +5776,29 @@ namespace A160096
 /-- `A078898(∑[A010815(n+1)]²)` -/
 def P4422753945807230859.Spec : Prop :=
   ∀ n, P4422753945807230859.a n = A160096 (n + 1)
+
+end A160096
+
+/-! ## A160096.P18127153384190426488
+
+`A086674(n+2)-A086674(n+1)`
+-/
+
+namespace A160096.P18127153384190426488
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086674 (n + 2) - A086674 (n + 1)
+
+end
+
+end A160096.P18127153384190426488
+
+namespace A160096
+
+/-- `A086674(n+2)-A086674(n+1)` -/
+def P18127153384190426488.Spec : Prop :=
+  ∀ n, P18127153384190426488.a n = A160096 (n + 1)
 
 end A160096
 

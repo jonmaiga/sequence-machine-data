@@ -4018,41 +4018,35 @@ end
 
 end A028759.P13338875390384150630
 
-/-! ## A028759.P14878365475746375936
+/-! ## A028759.P2460128258089272396
 
-`∑{d}[n+1, A278579(#)*A307382((n+1)/#)]`
+`A004181(A278579(n+1))`
 -/
 
-namespace A028759.P14878365475746375936
+namespace A028759.P2460128258089272396
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A278579 d * A307382 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A004181 (A278579 (n + 1)).toNat
 
 end
 
-end A028759.P14878365475746375936
+end A028759.P2460128258089272396
 
-/-! ## A028759.P7954595090129341838
+/-! ## A028759.P16842598880517465405
 
-`∑{d}[n+1, A023935(#-1)*A278579((n+1)/#)]`
+`A278579(n+1)+A011736(n)`
 -/
 
-namespace A028759.P7954595090129341838
+namespace A028759.P16842598880517465405
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A023935 (d - 1) * A278579 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A278579 (n + 1) + A011736 n
 
 end
 
-end A028759.P7954595090129341838
+end A028759.P16842598880517465405
 
 /-!
 # A028760: Nonsquares mod 47.

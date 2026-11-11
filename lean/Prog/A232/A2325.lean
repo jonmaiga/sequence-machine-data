@@ -35,7 +35,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -2708,41 +2708,35 @@ end
 
 end A232523.P16995067250936534247
 
-/-! ## A232523.P8971695261794863787
+/-! ## A232523.P784099970011223506
 
-`A232614(∑[n+1])-1`
+`A185048(A232609(n+1))`
 -/
 
-namespace A232523.P8971695261794863787
+namespace A232523.P784099970011223506
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232614 (∑ j ∈ Finset.range (n + 1), f1 j) - 1
+  A185048 (A232609 (n + 1)).toNat
 
 end
 
-end A232523.P8971695261794863787
+end A232523.P784099970011223506
 
-/-! ## A232523.P16699596911675514438
+/-! ## A232523.P3091096927162520195
 
-`A232526(∑[n]+1)`
+`A004442(A232609(n+1))`
 -/
 
-namespace A232523.P16699596911675514438
+namespace A232523.P3091096927162520195
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232526 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+  A004442 (A232609 (n + 1)).toNat
 
 end
 
-end A232523.P16699596911675514438
+end A232523.P3091096927162520195
 
 /-!
 # A232524: Number of (n+1)X(2+1) 0..3 arrays x(i,j) with every row sum{j*x(i,j), j=1..2+1} equal, and every column sum{i*x(i,j), i=1..n+1} equal, with top left element <= 1.
@@ -7236,6 +7230,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232559.P15221038336200728740
+
+/-! ## A232559.P17826880140540614092
+
+`A385887(A247648(n+1))`
+-/
+
+namespace A232559.P17826880140540614092
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385887 (A247648 (n + 1)).toNat
+
+end
+
+end A232559.P17826880140540614092
 
 /-!
 # A232560: Inverse permutation of the sequence of positive integers at A232559.

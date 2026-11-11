@@ -58,6 +58,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2566,6 +2567,28 @@ end
 
 end A257739.P3315091277512061924
 
+/-! ## A257739.P7881396751353733342
+
+`∪[A164709(n+1), A335486(n+1)]`
+-/
+
+namespace A257739.P7881396751353733342
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164709 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335486 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A257739.P7881396751353733342
+
 /-!
 # A257740: Number T(n,k) of multisets of nonempty words with a total of n letters over k-ary alphabet such that all k letters occur at least once in the multiset; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
@@ -4834,7 +4857,7 @@ end
 end A257785.P13014187125752727142
 
 /-!
-# A257787: Numbers n such that the sum of the digits of n to some power divided by the sum of the digits equal n.
+# A257787: Numbers k such that the sum of the digits of k to some power divided by the sum of the digits equal k.
 
 The programs for A257787, there is no canonical definition to state claims against.
 -/

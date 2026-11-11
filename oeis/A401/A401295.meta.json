@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled n-element posets in which every element is completely join-irreducible.",
+  "id": "A401295",
+  "mentions": [
+    "A000112",
+    "A400798"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -31,7 +31,6 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -4451,6 +4450,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A098016.P14786196141280919104
+
+/-! ## A098016.P18358684045859831378
+
+`A377505(A339414(n+1))`
+-/
+
+namespace A098016.P18358684045859831378
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A339414 (n + 1)).toNat
+
+end
+
+end A098016.P18358684045859831378
 
 /-!
 # A098018: a(n) = Sum_{k|n, k>=2} mu(k-1), where mu() is the Moebius function.

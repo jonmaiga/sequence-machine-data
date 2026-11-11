@@ -1,5 +1,5 @@
 {
-  "description": "Filter-sequence for Stern polynomials: Least number with the same prime signature as A260443(n).",
+  "description": "The smallest number with same prime signature as A260443(n) has, where A260443 is the prime factorization representation of Stern polynomials.",
   "id": "A278243",
   "mentions": [
     "A002487",
@@ -26,7 +26,8 @@
     "A278234",
     "A278235",
     "A278236",
-    "A278261"
+    "A278261",
+    "A286378"
   ],
   "tags": [
     "formulas",

@@ -18,7 +18,6 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -29,6 +28,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -4741,6 +4741,29 @@ def P16017606535724208503.Spec : Prop :=
 
 end A290744
 
+/-! ## A290744.P3918862134759933276
+
+`A068962(A189836(n+1))`
+-/
+
+namespace A290744.P3918862134759933276
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068962 (A189836 (n + 1)).toNat
+
+end
+
+end A290744.P3918862134759933276
+
+namespace A290744
+
+/-- `A068962(A189836(n+1))` -/
+def P3918862134759933276.Spec : Prop :=
+  ∀ n, P3918862134759933276.a n = A290744 (n + 1)
+
+end A290744
+
 /-!
 # A290745: Maximum number of distinct Lyndon factors that can appear in words of length n over an alphabet of size 10.
 
@@ -6494,6 +6517,32 @@ def P3069694183812714052.Spec : Prop :=
 
 end A290764
 
+/-! ## A290764.P14993513601713661157
+
+`∑{#}[n, (#+1)*3^(n+1-#)]`
+-/
+
+namespace A290764.P14993513601713661157
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (k + 1 : ℚ) * (3 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A290764.P14993513601713661157
+
+namespace A290764
+
+/-- `∑{#}[n, (#+1)*3^(n+1-#)]` -/
+def P14993513601713661157.Spec : Prop :=
+  ∀ n, P14993513601713661157.a n = (A290764 (n + 1) : ℚ)
+
+end A290764
+
 /-! ## A290764.P15147806962974146055
 
 `∑[a(n-1)+a(n-1)+a(n-1)+3]` with `a(0)=3`
@@ -6789,29 +6838,6 @@ namespace A290764
 /-- `A000340(n+1)-(n+2)` -/
 def P18188128850333767728.Spec : Prop :=
   ∀ n, P18188128850333767728.a n = A290764 (n + 1)
-
-end A290764
-
-/-! ## A290764.P13781210860288677941
-
-`A111277(n+3)-(n+3)`
--/
-
-namespace A290764.P13781210860288677941
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111277 (n + 3) - (n + 3 : ℤ)
-
-end
-
-end A290764.P13781210860288677941
-
-namespace A290764
-
-/-- `A111277(n+3)-(n+3)` -/
-def P13781210860288677941.Spec : Prop :=
-  ∀ n, P13781210860288677941.a n = A290764 (n + 1)
 
 end A290764
 
@@ -7613,26 +7639,26 @@ def P2460517452572013895.Spec : Prop :=
 
 end A290768
 
-/-! ## A290768.P3086662287595456827
+/-! ## A290768.P4325521932720503346
 
-`3*C(n+1, 2)+3`
+`3+3*C(n+1, 2)`
 -/
 
-namespace A290768.P3086662287595456827
+namespace A290768.P4325521932720503346
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * Nat.choose (n + 1) 2 + 3
+  3 + 3 * Nat.choose (n + 1) 2
 
 end
 
-end A290768.P3086662287595456827
+end A290768.P4325521932720503346
 
 namespace A290768
 
-/-- `3*C(n+1, 2)+3` -/
-def P3086662287595456827.Spec : Prop :=
-  ∀ n, (P3086662287595456827.a n : ℤ) = A290768 (n + 1)
+/-- `3+3*C(n+1, 2)` -/
+def P4325521932720503346.Spec : Prop :=
+  ∀ n, (P4325521932720503346.a n : ℤ) = A290768 (n + 1)
 
 end A290768
 

@@ -15589,27 +15589,6 @@ end
 
 end A039196.P6727024114550920468
 
-/-! ## A039196.P11438332914531485659
-
-`lt[A037913(n+5), A087256(A004396(3*n+2))]`
--/
-
-namespace A039196.P11438332914531485659
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037913 (n + 5)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (A004396 (3 * n + 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039196.P11438332914531485659
-
 /-! ## A039196.P797989082679052220
 
 `A336285(eq[A268200(n+2), A336285(n+1)])`

@@ -89,6 +89,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2003,6 +2004,21 @@ end
 
 end A303023.P4137680442246206897
 
+/-! ## A303023.P6003574683599470727
+
+`A401479(A190162(n))`
+-/
+
+namespace A303023.P6003574683599470727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401479 (A190162 n).toNat
+
+end
+
+end A303023.P6003574683599470727
+
 /-! ## A303023.P5256335756152198811
 
 `A257639(∑[A257561(n)])`
@@ -2020,21 +2036,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303023.P5256335756152198811
-
-/-! ## A303023.P2971047326332758536
-
-`A257639(A171711(n+1))`
--/
-
-namespace A303023.P2971047326332758536
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257639 (A171711 (n + 1)).toNat
-
-end
-
-end A303023.P2971047326332758536
 
 /-!
 # A303026: Matula-Goebel numbers of series-reduced anti-binary (no unary or binary branchings) rooted trees.
@@ -3844,6 +3845,29 @@ namespace A303054
 /-- `(A350816(n+1)/A000079(A008620(n)))²` -/
 def P14528935968548489590.Spec : Prop :=
   ∀ n, P14528935968548489590.a n = (A303054 (n + 1) : ℚ)
+
+end A303054
+
+/-! ## A303054.P13562141962719290742
+
+`A000290(A347633(n+1))`
+-/
+
+namespace A303054.P13562141962719290742
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A347633 (n + 1)).toNat
+
+end
+
+end A303054.P13562141962719290742
+
+namespace A303054
+
+/-- `A000290(A347633(n+1))` -/
+def P13562141962719290742.Spec : Prop :=
+  ∀ n, P13562141962719290742.a n = A303054 (n + 1)
 
 end A303054
 

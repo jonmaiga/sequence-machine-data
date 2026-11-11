@@ -8855,6 +8855,32 @@ def P10508843158351832511.Spec : Prop :=
 
 end A277382
 
+/-! ## A277382.P13059839040766685597
+
+`∑{#}[n, C(n, #)*3^#/#!*n!]`
+-/
+
+namespace A277382.P13059839040766685597
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℚ) * ((3 ^ k : ℚ) / (Nat.factorial k : ℚ)) * (Nat.factorial n : ℚ)
+
+end
+
+end A277382.P13059839040766685597
+
+namespace A277382
+
+/-- `∑{#}[n, C(n, #)*3^#/#!*n!]` -/
+def P13059839040766685597.Spec : Prop :=
+  ∀ n, P13059839040766685597.a n = (A277382 n : ℚ)
+
+end A277382
+
 /-! ## A277382.P17370720892199448104
 
 `A289192(C(n+5, 2)-4)`
@@ -8996,29 +9022,6 @@ namespace A277382
 /-- `record[A289192(A046691(A134478(n)))]` -/
 def P2604625814909067579.Spec : Prop :=
   ∀ n, P2604625814909067579.a n = A277382 n
-
-end A277382
-
-/-! ## A277382.P10431771837677975909
-
-`A000120(A061142(n+1))*A289192(A046691(n+2))`
--/
-
-namespace A277382.P10431771837677975909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000120 (A061142 (n + 1)).toNat * A289192 (A046691 (n + 2)).toNat
-
-end
-
-end A277382.P10431771837677975909
-
-namespace A277382
-
-/-- `A000120(A061142(n+1))*A289192(A046691(n+2))` -/
-def P10431771837677975909.Spec : Prop :=
-  ∀ n, P10431771837677975909.a n = A277382 n
 
 end A277382
 
@@ -9849,6 +9852,24 @@ end A277392.P9942929965686374906
 
 The programs for A277393, there is no canonical definition to state claims against.
 -/
+
+/-! ## A277393.P3274236399410683946
+
+`∑{#}[floor(n/2), (-1)^#*n!*2^(n-2*#)/#!]`
+-/
+
+namespace A277393.P3274236399410683946
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((-1) ^ k * (Nat.factorial n : ℤ) : ℚ) * (2 : ℚ) ^ ((n : ℤ) - (2 * k : ℤ) : ℤ) / (Nat.factorial k : ℚ)
+
+end
+
+end A277393.P3274236399410683946
 
 /-! ## A277393.P16604151352144284291
 

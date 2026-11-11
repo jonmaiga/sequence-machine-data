@@ -16,12 +16,12 @@
   "tags": [
     "formulas",
     "hard",
-    "more",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 75,
     "source": "oeis-entry"
   }
 }

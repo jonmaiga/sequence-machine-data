@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is one less than the number of iterations of map n -> (n^2 + n + 1)/3 needed until a number that is not a prime is encountered, with at least one iteration always performed.",
+  "id": "A401383",
+  "mentions": [
+    "A002640",
+    "A240971",
+    "A401555"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

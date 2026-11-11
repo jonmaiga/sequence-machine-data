@@ -36,7 +36,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -4069,6 +4069,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103746.P17253955838807895482
+
+/-! ## A103746.P14251958564462584526
+
+`A377505(A093706(n+1))`
+-/
+
+namespace A103746.P14251958564462584526
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A093706 (n + 1)).toNat
+
+end
+
+end A103746.P14251958564462584526
 
 /-!
 # A103747: Trajectory of 2 under repeated application of the map n -> A102370(n).

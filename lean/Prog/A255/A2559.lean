@@ -2935,21 +2935,6 @@ end A255933.P13123465525935076841
 The programs for A255934, there is no canonical definition to state claims against.
 -/
 
-/-! ## A255934.P4168966521923013878
-
-`A303710(A362834(n)+A215924(n+2))`
--/
-
-namespace A255934.P4168966521923013878
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303710 (A362834 n + A215924 (n + 2)).toNat
-
-end
-
-end A255934.P4168966521923013878
-
 /-! ## A255934.P4061238347095848650
 
 `A262626(A058787(n+4)%A354763(3*n+2))`
@@ -7628,6 +7613,29 @@ def P12302702221530015742.Spec : Prop :=
 
 end A255977
 
+/-! ## A255977.P343124919262465214
+
+`A283733(n)+A054347(n)-A088207(n)`
+-/
+
+namespace A255977.P343124919262465214
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283733 n + A054347 n - A088207 n
+
+end
+
+end A255977.P343124919262465214
+
+namespace A255977
+
+/-- `A283733(n)+A054347(n)-A088207(n)` -/
+def P343124919262465214.Spec : Prop :=
+  ∀ n, P343124919262465214.a n = A255977 (n + 1)
+
+end A255977
+
 /-! ## A255977.P11351822470145078355
 
 `A183136(n+1)+A019446(A005206(n+1))`
@@ -7648,32 +7656,6 @@ namespace A255977
 /-- `A183136(n+1)+A019446(A005206(n+1))` -/
 def P11351822470145078355.Spec : Prop :=
   ∀ n, P11351822470145078355.a n = A255977 (n + 1)
-
-end A255977
-
-/-! ## A255977.P15171145457204713891
-
-`fp[A084531(n+1)]+1`
--/
-
-namespace A255977.P15171145457204713891
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084531 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 + 1
-
-end
-
-end A255977.P15171145457204713891
-
-namespace A255977
-
-/-- `fp[A084531(n+1)]+1` -/
-def P15171145457204713891.Spec : Prop :=
-  ∀ n, (P15171145457204713891.a n : ℤ) = A255977 (n + 1)
 
 end A255977
 

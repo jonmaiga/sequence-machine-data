@@ -22,7 +22,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -6799,6 +6798,32 @@ def P14134236527815730875.Spec : Prop :=
 
 end A059255
 
+/-! ## A059255.P12018038544086701251
+
+`∑{#}[n, (2*n²+n+#)²]`
+-/
+
+namespace A059255.P12018038544086701251
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (2 * n ^ 2 + n + k) ^ 2
+
+end
+
+end A059255.P12018038544086701251
+
+namespace A059255
+
+/-- `∑{#}[n, (2*n²+n+#)²]` -/
+def P12018038544086701251.Spec : Prop :=
+  ∀ n, (P12018038544086701251.a n : ℤ) = A059255 n
+
+end A059255
+
 /-! ## A059255.P4860482825925511547
 
 `∑[A330082((2*n)²)]`
@@ -12264,6 +12289,39 @@ end A059281.P4324418594821319894
 The programs for A059282, there is no canonical definition to state claims against.
 -/
 
+/-! ## A059282.P9048694657053961605
+
+`A398179(n+1)-A385181(n+1)`
+-/
+
+namespace A059282.P9048694657053961605
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398179 (n + 1) - A385181 (n + 1)
+
+end
+
+end A059282.P9048694657053961605
+
+/-! ## A059282.P5037987461021095139
+
+`∑{d}[n+1, A008683(#)*A398179((n+1)/#)]`
+-/
+
+namespace A059282.P5037987461021095139
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A008683 d * A398179 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+
+end
+
+end A059282.P5037987461021095139
+
 /-! ## A059282.P17596598204674268501
 
 `or(A000007(A029397(n)), A091430(n+1))`
@@ -12308,36 +12366,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A059282.P15987147799844642385
-
-/-! ## A059282.P9859251778867505349
-
-`A091430(n+1)^A298858(A255238(n))`
--/
-
-namespace A059282.P9859251778867505349
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A091430 (n + 1) : ℚ) ^ (A298858 (A255238 n).toNat : ℤ)
-
-end
-
-end A059282.P9859251778867505349
-
-/-! ## A059282.P3723537679349473994
-
-`A091430(n+1)^A091435(A297595(n+1))`
--/
-
-namespace A059282.P3723537679349473994
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A091430 (n + 1) : ℚ) ^ (A091435 (A297595 (n + 1)).toNat : ℤ)
-
-end
-
-end A059282.P3723537679349473994
 
 /-!
 # A059283: Triangle T(n,k) (0<= k <=n) read by rows. Left edge is 1, 0, 0, ... Otherwise each entry is sum of entry to left, entries immediately above it to left and right and entry directly above it 2 rows back.

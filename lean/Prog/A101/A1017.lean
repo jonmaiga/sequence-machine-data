@@ -83,6 +83,27 @@ import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
+# A101703: Numbers k such that reversal(k) = (2/3)*k - 2.
+
+The programs for A101703, there is no canonical definition to state claims against.
+-/
+
+/-! ## A101703.P9366642916621226794
+
+`A004086(A401574(n+1))`
+-/
+
+namespace A101703.P9366642916621226794
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004086 (A401574 (n + 1)).toNat
+
+end
+
+end A101703.P9366642916621226794
+
+/-!
 # A101704: Numbers n such that reversal(n)=2n/3.
 
 The programs for A101704, there is no canonical definition to state claims against.

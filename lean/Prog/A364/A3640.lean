@@ -19,7 +19,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -56,6 +55,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -112,7 +112,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A364000: Numbers of the form |2^i - 3^j - 1|/2, i >= 1, j >= 1.
+# A364000: Numbers of the form (|2^i - 3^j| - 1)/2, i >= 1, j >= 1.
 
 The programs for A364000, there is no canonical definition to state claims against.
 -/
@@ -3678,26 +3678,26 @@ def P15631673725328224963.Spec : Prop :=
 
 end A364042
 
-/-! ## A364042.P9805047978748716009
+/-! ## A364042.P1114847014296677101
 
-`A259374(A354471(n+4))%A053575(n+1)`
+`A397447(A050458(n+1))`
 -/
 
-namespace A364042.P9805047978748716009
+namespace A364042.P1114847014296677101
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A259374 (A354471 (n + 4)).toNat) (A053575 (n + 1))
+  A397447 (A050458 (n + 1)).toNat
 
 end
 
-end A364042.P9805047978748716009
+end A364042.P1114847014296677101
 
 namespace A364042
 
-/-- `A259374(A354471(n+4))%A053575(n+1)` -/
-def P9805047978748716009.Spec : Prop :=
-  ∀ n, P9805047978748716009.a n = A364042 (n + 1)
+/-- `A397447(A050458(n+1))` -/
+def P1114847014296677101.Spec : Prop :=
+  ∀ n, P1114847014296677101.a n = A364042 (n + 1)
 
 end A364042
 

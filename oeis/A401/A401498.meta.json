@@ -1,0 +1,20 @@
+{
+  "description": "Place n points at the integer polar angles of the Archimedean spiral r = k, 0 <= k < n, then around the k-th point draw a circle whose radius is the distance from the k-th point to the (k+1)-th point: a(n) is the number of vertices in the resulting planar graph.",
+  "id": "A401498",
+  "mentions": [
+    "A371373",
+    "A374338",
+    "A385160",
+    "A401497",
+    "A401499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

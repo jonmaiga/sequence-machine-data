@@ -6600,20 +6600,20 @@ end
 
 end A307997.P15226359439055966952
 
-/-! ## A307997.P2285650422915455029
+/-! ## A307997.P11900753844937519875
 
-`A008619(A333291(n+1))`
+`A246425(A333291(n+1))`
 -/
 
-namespace A307997.P2285650422915455029
+namespace A307997.P11900753844937519875
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A333291 (n + 1)).toNat
+  A246425 (A333291 (n + 1)).toNat
 
 end
 
-end A307997.P2285650422915455029
+end A307997.P11900753844937519875
 
 /-!
 # A307998: Irregular triangle read by rows, n > 0 and k = 0..PrimePi(n): T(n, k) is the number of Q-linearly independent subsets of { log(1), ..., log(n) } with k elements (where PrimePi corresponds to A000720, the prime-counting function).

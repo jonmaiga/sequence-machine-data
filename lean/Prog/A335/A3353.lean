@@ -1140,21 +1140,6 @@ end
 
 end A335316.P457744993341610998
 
-/-! ## A335316.P11125164276435958825
-
-`A001599(A102363(n)^A110030(n+1))`
--/
-
-namespace A335316.P11125164276435958825
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001599 (SequenceMachineLib.roundAway ((A102363 n : ℚ) ^ (A110030 (n + 1) : ℤ))).toNat
-
-end
-
-end A335316.P11125164276435958825
-
 /-! ## A335316.P10636765069823920876
 
 `A001599(A102363(n)%A348922(n+1))`
@@ -5926,27 +5911,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335367.P9922097131541220898
-
-/-!
-# A335368: Harmonic numbers k with a record number of primes p not dividing k such that k*p is also a harmonic number.
-
-The programs for A335368, there is no canonical definition to state claims against.
--/
-
-/-! ## A335368.P5712530435469721765
-
-`A001599(A084122(n+1)+A020344(n))`
--/
-
-namespace A335368.P5712530435469721765
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001599 (A084122 (n + 1) + A020344 n).toNat
-
-end
-
-end A335368.P5712530435469721765
 
 /-!
 # A335369: Harmonic numbers k such that k*p is not a harmonic number for all the primes p that do not divide k.

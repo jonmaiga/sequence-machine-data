@@ -1,15 +1,14 @@
 {
-  "description": "A determinant sequence: M={{a(-1 + n), a(-2 + n), a(-3 + n), a(-4 + n)}, {a(-2 + n), a(-3 + n), a(-4 + n), a(-5 + n)}, {a(-3 + n), a(-4 + n), a(-5 + n), a(-6 + n)}, {a(-4 + n), a(-5 + n), a(-6 + n), a(-7 + n)}}; a(n)=Det[M].",
+  "description": "a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=7, a(6)=11, a(7)=13, a(n) = det([[a(n-1), a(n-2), a(n-3), a(n-4)], [a(n-2), a(n-3), a(n-4), a(n-5)], [(a(n-3), a(n-4), a(n-5), a(n-6)], [a(n-4), a(n-5), a(n-6), a(n-7)]]).",
   "id": "A142713",
   "mentions": [],
   "tags": [
-    "formulas",
-    "sign",
-    "uned"
+    "less",
+    "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

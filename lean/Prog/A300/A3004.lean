@@ -39,7 +39,6 @@ import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -3423,6 +3422,29 @@ theorem P599725316536960796.correct : P599725316536960796.Spec := by
 
 end A300451
 
+/-! ## A300451.P11228476626494837755
+
+`2^n+C(n, 2)*2^(n-2)*3`
+-/
+
+namespace A300451.P11228476626494837755
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) + (Nat.choose n 2 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * 3
+
+end
+
+end A300451.P11228476626494837755
+
+namespace A300451
+
+/-- `2^n+C(n, 2)*2^(n-2)*3` -/
+def P11228476626494837755.Spec : Prop :=
+  ∀ n, P11228476626494837755.a n = (A300451 n : ℚ)
+
+end A300451
+
 /-! ## A300451.P10962868555706586296
 
 `A295288(n-1)+a(n-1)` with `a(0)=1`
@@ -3745,29 +3767,6 @@ def P12208411358389061892.Spec : Prop :=
 
 end A300451
 
-/-! ## A300451.P16958748084893846811
-
-`A053730(n+1)+A072863(n)-A084264(n+1)`
--/
-
-namespace A300451.P16958748084893846811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053730 (n + 1) + (A072863 n - A084264 (n + 1))
-
-end
-
-end A300451.P16958748084893846811
-
-namespace A300451
-
-/-- `A053730(n+1)+A072863(n)-A084264(n+1)` -/
-def P16958748084893846811.Spec : Prop :=
-  ∀ n, P16958748084893846811.a n = A300451 n
-
-end A300451
-
 /-!
 # A300452: Logarithmic transform of the cubes A000578.
 
@@ -3887,27 +3886,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300453.P5493144216850354074
-
-/-!
-# A300454: Irregular triangle read by rows: row n consists of the coefficients of the expansion of the polynomial 2*(x + 1)^(n + 1) + x^3 + 2*x^2 - x - 2.
-
-The programs for A300454, there is no canonical definition to state claims against.
--/
-
-/-! ## A300454.P12420618394370448755
-
-`and(A058798(n)+A002840(2*n+7), A000265(n+1))`
--/
-
-namespace A300454.P12420618394370448755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A058798 n + A002840 (2 * n + 7)) (A000265 (n + 1))
-
-end
-
-end A300454.P12420618394370448755
 
 /-!
 # A300456: a(n) = [x^n] Product_{k=1..n} ((1 + x^k)/(1 - x^k))^(n^k).
@@ -6489,6 +6467,21 @@ end
 
 end A300486.P6185718044244906824
 
+/-! ## A300486.P16429155399079557297
+
+`A000041(n+1)-A108572(n+1)`
+-/
+
+namespace A300486.P16429155399079557297
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 (n + 1) - A108572 (n + 1)
+
+end
+
+end A300486.P16429155399079557297
+
 /-! ## A300486.P5251752772698819987
 
 `A000837(n+1)+A057428(2*n)²`
@@ -6656,21 +6649,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300486.P14774544395205939995
-
-/-! ## A300486.P14582722267700879779
-
-`A317624(A034444(n+1))+A000837(n+1)`
--/
-
-namespace A300486.P14582722267700879779
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317624 (A034444 (n + 1)).toNat + A000837 (n + 1)
-
-end
-
-end A300486.P14582722267700879779
 
 /-!
 # A300488: a(n) = n! * [x^n] -exp(n*x)*log(1 - x)/(1 - x).

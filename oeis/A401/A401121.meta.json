@@ -1,5 +1,5 @@
 {
-  "description": "Wreathed permutations of the cyclic group C_n with cycles of lengths 1, 1, 2, 3, 4, 5, ...",
+  "description": "Weighted evaluation of the cycle index of the cyclic group C_n, where each cycle of length d contributes weight w(1) = 1 and w(d) = 1/(d-1) for d >= 2.",
   "id": "A401121",
   "mentions": [
     "A399636"

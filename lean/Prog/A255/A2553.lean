@@ -32,7 +32,6 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B001.C000
@@ -6188,7 +6187,7 @@ end A255343.P11090057432721178648
 /-!
 # A255346: Numbers k such that k and k+1 both have at least two distinct prime factors.
 
-The programs for A255346, the canonical program `A255346.P13039647980767050582` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255346 has offset 1).
+The programs for A255346, the canonical program `A255346.P13039647980767050582` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255346 has offset 1).
 
 The definition of A255346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6427,7 +6426,7 @@ end A255346
 
 `filter[A080765(n+1), A143731(#)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255346

@@ -36,7 +36,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
@@ -6075,6 +6075,52 @@ def P4375723037819024633.Spec : Prop :=
 
 end A286925
 
+/-! ## A286925.P12964148983869260728
+
+`A286996(A187968(n+1))`
+-/
+
+namespace A286925.P12964148983869260728
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286996 (A187968 (n + 1)).toNat
+
+end
+
+end A286925.P12964148983869260728
+
+namespace A286925
+
+/-- `A286996(A187968(n+1))` -/
+def P12964148983869260728.Spec : Prop :=
+  ∀ n, P12964148983869260728.a n = A286925 (n + 1)
+
+end A286925
+
+/-! ## A286925.P16529476301557036006
+
+`A187976(A187978(n+1)-1)`
+-/
+
+namespace A286925.P16529476301557036006
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187976 (A187978 (n + 1) - 1).toNat
+
+end
+
+end A286925.P16529476301557036006
+
+namespace A286925
+
+/-- `A187976(A187978(n+1)-1)` -/
+def P16529476301557036006.Spec : Prop :=
+  ∀ n, P16529476301557036006.a n = A286925 (n + 1)
+
+end A286925
+
 /-!
 # A286926: Positions of 0 in A286925; complement of A286927.
 
@@ -8453,6 +8499,21 @@ end
 
 end A286941.P9540944139626752959
 
+/-! ## A286941.P676120190164919891
+
+`A323184(A279864(n+2))`
+-/
+
+namespace A286941.P676120190164919891
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323184 (A279864 (n + 2)).toNat
+
+end
+
+end A286941.P676120190164919891
+
 /-! ## A286941.P3064460317506114352
 
 `A056609(A279864(n+2)-1)`
@@ -8468,23 +8529,20 @@ end
 
 end A286941.P3064460317506114352
 
-/-! ## A286941.P6248083204595506230
+/-! ## A286941.P11544946646571538540
 
-`A079068(record[A123624(A047227(n+1))])`
+`A136179(A279864(n+2))`
 -/
 
-namespace A286941.P6248083204595506230
+namespace A286941.P11544946646571538540
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123624 (A047227 (n + 1)).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079068 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+  A136179 (A279864 (n + 2)).toNat
 
 end
 
-end A286941.P6248083204595506230
+end A286941.P11544946646571538540
 
 /-!
 # A286943: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 233", based on the 5-celled von Neumann neighborhood.

@@ -4963,6 +4963,21 @@ end
 
 end A279255.P1249958008742000265
 
+/-! ## A279255.P9061083692626056668
+
+`A134178(n)%A286664(n)`
+-/
+
+namespace A279255.P9061083692626056668
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A134178 n) (A286664 n)
+
+end
+
+end A279255.P9061083692626056668
+
 /-!
 # A279257: Numerators of coefficients in expansion of 1/(cos x - sin x).
 
@@ -6272,6 +6287,29 @@ theorem P16946962186833248170.correct : P16946962186833248170.Spec := by
 
 end A279269
 
+/-! ## A279269.P9788200859802379049
+
+`8*a(n-1)-5*a(n-2)+2` with `a(0)=1, a(1)=7`
+-/
+
+namespace A279269.P9788200859802379049
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 7] fun n a =>
+  8 * a (n - 1) - 5 * a (n - 2) + 2
+
+end
+
+end A279269.P9788200859802379049
+
+namespace A279269
+
+/-- `8*a(n-1)-5*a(n-2)+2` -/
+def P9788200859802379049.Spec : Prop :=
+  ∀ n, P9788200859802379049.a n = A279269 n
+
+end A279269
+
 /-! ## A279269.P4925650713432928518
 
 `∑[ogf((1-2x+3x^2)/(1-8x+5x^2))]`
@@ -6295,29 +6333,6 @@ namespace A279269
 /-- `∑[ogf((1-2x+3x^2)/(1-8x+5x^2))]` -/
 def P4925650713432928518.Spec : Prop :=
   ∀ n, P4925650713432928518.a n = A279269 n
-
-end A279269
-
-/-! ## A279269.P9788200859802379049
-
-`8*a(n-1)-5*a(n-2)+2` with `a(0)=1, a(1)=7`
--/
-
-namespace A279269.P9788200859802379049
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 7] fun n a =>
-  8 * a (n - 1) - 5 * a (n - 2) + 2
-
-end
-
-end A279269.P9788200859802379049
-
-namespace A279269
-
-/-- `8*a(n-1)-5*a(n-2)+2` -/
-def P9788200859802379049.Spec : Prop :=
-  ∀ n, P9788200859802379049.a n = A279269 n
 
 end A279269
 

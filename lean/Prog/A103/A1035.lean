@@ -27,6 +27,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -11057,6 +11058,29 @@ def P13357793446571678137.Spec : Prop :=
 
 end A103588
 
+/-! ## A103588.P13084067850386128201
+
+`floor(2^-col(n)*(row(n)-col(n)))%2`
+-/
+
+namespace A103588.P13084067850386128201
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod ⌊(2 : ℚ) ^ (-(SequenceMachineLib.triCol n : ℤ) : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ)⌋ 2
+
+end
+
+end A103588.P13084067850386128201
+
+namespace A103588
+
+/-- `floor(2^-col(n)*(row(n)-col(n)))%2` -/
+def P13084067850386128201.Spec : Prop :=
+  ∀ n, P13084067850386128201.a n = A103588 n
+
+end A103588
+
 /-! ## A103588.P7339551686273575280
 
 `1-A103582(n)`
@@ -11494,29 +11518,6 @@ namespace A103588
 /-- `and(A008362(n), A180969(n))` -/
 def P1173912896656932166.Spec : Prop :=
   ∀ n, P1173912896656932166.a n = A103588 n
-
-end A103588
-
-/-! ## A103588.P15464991184016739690
-
-`and(A008417(n), A180969(n))`
--/
-
-namespace A103588.P15464991184016739690
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A008417 n) (A180969 n)
-
-end
-
-end A103588.P15464991184016739690
-
-namespace A103588
-
-/-- `and(A008417(n), A180969(n))` -/
-def P15464991184016739690.Spec : Prop :=
-  ∀ n, P15464991184016739690.a n = A103588 n
 
 end A103588
 

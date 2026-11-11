@@ -37,7 +37,6 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -55,7 +54,6 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -12070,20 +12068,20 @@ end
 
 end A030477.P16242655982239287917
 
-/-! ## A030477.P8951048105313135824
+/-! ## A030477.P1277235682140609616
 
-`A000194(A030476(n+1)+n)`
+`A000194(A030476(n+1))`
 -/
 
-namespace A030477.P8951048105313135824
+namespace A030477.P1277235682140609616
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (A030476 (n + 1) + (n : ℤ)).toNat
+  A000194 (A030476 (n + 1)).toNat
 
 end
 
-end A030477.P8951048105313135824
+end A030477.P1277235682140609616
 
 /-! ## A030477.P3226672782294624599
 
@@ -12519,6 +12517,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030481.P11098609615719055744
+
+/-! ## A030481.P11576949010404290736
+
+`∩[A030476(n+1), A190300(n+1)]`
+-/
+
+namespace A030481.P11576949010404290736
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030476 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190300 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A030481.P11576949010404290736
+
+/-! ## A030481.P2747004107695429973
+
+`∩[A030476(n+1), A247078(n+1)]`
+-/
+
+namespace A030481.P2747004107695429973
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030476 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247078 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A030481.P2747004107695429973
 
 /-!
 # A030482: Primes with property that when cubed all even digits occur together and all odd digits occur together.

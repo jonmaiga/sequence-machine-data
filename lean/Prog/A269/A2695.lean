@@ -998,14 +998,14 @@ end A269508.P830585212706612561
 /-!
 # A269509: a(n) = (n-1)*a(n-1) - a(n-2) + (n-2)*a(n-3) with a(0)=a(1)=1, a(2)=0.
 
-The programs for A269509, the canonical program `A269509.P2036991896766058015` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269509 has offset 0).
+The programs for A269509, the canonical program `A269509.P16709327381426192767` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269509 has offset 0).
 
-The definition of A269509 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n-1)*a(n-1)-a(n-2)+(n-2)*a(n-3)` (program `A269509.P2036991896766058015`, by `A269509.P2036991896766058015.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A269509 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n-1)*a(n-1)-a(n-2)+(n-2)*a(n-3)` (program `A269509.P16709327381426192767`, by `A269509.P16709327381426192767.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A269509.P2036991896766058015
+/-! ## A269509.P16709327381426192767
 
-`(n-1)*a(n-1)-a(n-2)+(n-2)*a(n-3)` with `a(0)=1, a(1)=1, a(2)=0, a(3)=0, a(4)=2`
+`(n-1)*a(n-1)-a(n-2)+(n-2)*a(n-3)` with `a(0)=1, a(1)=1, a(2)=0`
 
 The canonical program, it is in `Seq.B000.C039`.
 -/
@@ -1013,10 +1013,10 @@ The canonical program, it is in `Seq.B000.C039`.
 namespace A269509
 
 /-- `(n-1)*a(n-1)-a(n-2)+(n-2)*a(n-3)` -/
-def P2036991896766058015.Spec : Prop :=
-  ∀ n, P2036991896766058015.a n = A269509 n
+def P16709327381426192767.Spec : Prop :=
+  ∀ n, P16709327381426192767.a n = A269509 n
 
-theorem P2036991896766058015.correct : P2036991896766058015.Spec := by
+theorem P16709327381426192767.correct : P16709327381426192767.Spec := by
   intro n
   simp only [A269509]
 

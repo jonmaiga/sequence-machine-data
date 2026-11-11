@@ -37,6 +37,7 @@ import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,7 +55,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -6592,20 +6592,20 @@ end
 
 end A105248.P9826719748427541263
 
-/-! ## A105248.P2601694268334658087
+/-! ## A105248.P8893320759457126817
 
-`A296612(and(A105492(n+6), A327498(n+1)))`
+`A034003(A359134(n+1))`
 -/
 
-namespace A105248.P2601694268334658087
+namespace A105248.P8893320759457126817
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A296612 (Int.land (A105492 (n + 6)) (A327498 (n + 1))).toNat
+  A034003 (A359134 (n + 1)).toNat
 
 end
 
-end A105248.P2601694268334658087
+end A105248.P8893320759457126817
 
 /-!
 # A105249: a(n) = binomial(n+2,n)*binomial(n+6,n).
@@ -8348,7 +8348,7 @@ end
 end A105261.P7168965091453643499
 
 /-!
-# A105262: a(n)=number of tilings of a 4 X n rectangle using tiles that are either 1 X 1 squares or trominoes (here by a tromino we mean a 2 X 2 square with the upper right 1 X 1 square removed; no rotations allowed).
+# A105262: a(n) = number of tilings of a 4 X n rectangle using tiles that are either 1 X 1 squares or trominoes (here by a tromino we mean a 2 X 2 square with the upper right 1 X 1 square removed; no rotations allowed).
 
 The programs for A105262, the canonical program `A105262.P15423684754596048297` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105262 has offset 0).
 
@@ -9461,6 +9461,29 @@ def P13359182796698992547.Spec : Prop :=
 
 end A105278
 
+/-! ## A105278.P10171647172837599337
+
+`C(row(n)+1, col(n)+1)*row(n)!/col(n)!`
+-/
+
+namespace A105278.P10171647172837599337
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (SequenceMachineLib.triRow n + 1) (SequenceMachineLib.triCol n + 1) : ℚ) * ((Nat.factorial (SequenceMachineLib.triRow n) : ℚ) / (Nat.factorial (SequenceMachineLib.triCol n) : ℚ))
+
+end
+
+end A105278.P10171647172837599337
+
+namespace A105278
+
+/-- `C(row(n)+1, col(n)+1)*row(n)!/col(n)!` -/
+def P10171647172837599337.Spec : Prop :=
+  ∀ n, P10171647172837599337.a n = (A105278 (n + 1) : ℚ)
+
+end A105278
+
 /-! ## A105278.P9930575335605782515
 
 `abs(A066667(n))`
@@ -9839,29 +9862,6 @@ def P7991044952455549163.Spec : Prop :=
 
 end A105278
 
-/-! ## A105278.P9314996262432477841
-
-`A008277(n+1)/A055896(n+1)*A079005(n+1)`
--/
-
-namespace A105278.P9314996262432477841
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A008277 (n + 1) : ℚ) / (A055896 (n + 1) : ℚ) * (A079005 (n + 1) : ℚ)
-
-end
-
-end A105278.P9314996262432477841
-
-namespace A105278
-
-/-- `A008277(n+1)/A055896(n+1)*A079005(n+1)` -/
-def P9314996262432477841.Spec : Prop :=
-  ∀ n, P9314996262432477841.a n = (A105278 (n + 1) : ℚ)
-
-end A105278
-
 /-!
 # A105279: a(0)=0; a(n) = 10*a(n-1) + 10.
 
@@ -10160,6 +10160,32 @@ def P12519442030962745991.Spec : Prop :=
 
 end A105279
 
+/-! ## A105279.P7207084729960468434
+
+`∑{#}[n-1, 10^(n-#)]`
+-/
+
+namespace A105279.P7207084729960468434
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (10 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A105279.P7207084729960468434
+
+namespace A105279
+
+/-- `∑{#}[n-1, 10^(n-#)]` -/
+def P7207084729960468434.Spec : Prop :=
+  ∀ n, P7207084729960468434.a n = (A105279 n : ℚ)
+
+end A105279
+
 /-! ## A105279.P2192279210626097218
 
 `∑[A178500(n)]`
@@ -10362,29 +10388,6 @@ namespace A105279
 /-- `A173735(n+1)-4` -/
 def P4744103530711192561.Spec : Prop :=
   ∀ n, P4744103530711192561.a n = A105279 n
-
-end A105279
-
-/-! ## A105279.P5179435105713468596
-
-`A287468(2*n)-1`
--/
-
-namespace A105279.P5179435105713468596
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287468 (2 * n) - 1
-
-end
-
-end A105279.P5179435105713468596
-
-namespace A105279
-
-/-- `A287468(2*n)-1` -/
-def P5179435105713468596.Spec : Prop :=
-  ∀ n, P5179435105713468596.a n = A105279 n
 
 end A105279
 

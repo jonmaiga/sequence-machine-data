@@ -1896,6 +1896,50 @@ end
 
 end A025613.P11721702408018942640
 
+/-! ## A025613.P18123851008072196017
+
+`∩[A230781(n+1), A296991(n+1)]`
+-/
+
+namespace A025613.P18123851008072196017
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230781 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296991 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025613.P18123851008072196017
+
+/-! ## A025613.P13332344726778289017
+
+`∩[A122254(n+1), A230781(n+1)]`
+-/
+
+namespace A025613.P13332344726778289017
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122254 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230781 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025613.P13332344726778289017
+
 /-!
 # A025614: Numbers of form 3^i*6^j, with i, j >= 0.
 
@@ -2955,23 +2999,27 @@ end
 
 end A025620.P5241343274140674365
 
-/-! ## A025620.P3406902809605240853
+/-! ## A025620.P17024399441234767736
 
-`(Δ[A174030(n+1)]/2)²`
+`∩[A025613(n+1), A036667(n+1)]`
 -/
 
-namespace A025620.P3406902809605240853
+namespace A025620.P17024399441234767736
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174030 (n + 1)
+  A025613 (n + 1)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((f1 (n + 1) - f1 n : ℚ) / 2) ^ 2
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A025620.P3406902809605240853
+end A025620.P17024399441234767736
 
 /-! ## A025620.P15963861555950170434
 

@@ -43,6 +43,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
@@ -4790,6 +4791,32 @@ def P3993717716837145103.Spec : Prop :=
 
 end A120054
 
+/-! ## A120054.P8495529255577652069
+
+`∑{#}[n+1, (2*#+2)*(2*#+4)*8*(n+1)]`
+-/
+
+namespace A120054.P8495529255577652069
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (2 * k + 2) * (2 * k + 4) * (8 * (n + 1))
+
+end
+
+end A120054.P8495529255577652069
+
+namespace A120054
+
+/-- `∑{#}[n+1, (2*#+2)*(2*#+4)*8*(n+1)]` -/
+def P8495529255577652069.Spec : Prop :=
+  ∀ n, (P8495529255577652069.a n : ℤ) = A120054 (n + 1)
+
+end A120054
+
 /-! ## A120054.P3628134814577540401
 
 `A013611(Δ[A023551(n+1)-n²])`
@@ -8441,6 +8468,36 @@ end
 
 end A120082.P10282383519014204811
 
+/-! ## A120082.P2030142689163974482
+
+`A120086(n)+A063524(n)`
+-/
+
+namespace A120082.P2030142689163974482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120086 n + A063524 n
+
+end
+
+end A120082.P2030142689163974482
+
+/-! ## A120082.P15654148717878105071
+
+`A120086(n)-A159075(n)`
+-/
+
+namespace A120082.P15654148717878105071
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120086 n - A159075 n
+
+end
+
+end A120082.P15654148717878105071
+
 /-! ## A120082.P656971912157087021
 
 `A120086(n)/A000034(n)`
@@ -8651,20 +8708,20 @@ end
 
 end A120082.P18166497251584407319
 
-/-! ## A120082.P17149756357374105906
+/-! ## A120082.P12818273340581620198
 
-`xor(A063524(n), A120086(n))`
+`xor(A120086(n), A178333(n))`
 -/
 
-namespace A120082.P17149756357374105906
+namespace A120082.P12818273340581620198
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A063524 n) (A120086 n)
+  Int.xor (A120086 n) (A178333 n)
 
 end
 
-end A120082.P17149756357374105906
+end A120082.P12818273340581620198
 
 /-! ## A120082.P2960952884150416328
 
@@ -8680,21 +8737,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A120082.P2960952884150416328
-
-/-! ## A120082.P15188179061807147187
-
-`xor(A159075(n)², A120086(n))`
--/
-
-namespace A120082.P15188179061807147187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A159075 n ^ 2) (A120086 n)
-
-end
-
-end A120082.P15188179061807147187
 
 /-!
 # A120083: Denominators of expansion for Debye function for n=1: D(1,x).
@@ -8992,6 +9034,36 @@ end
 
 end A120086.P250846813389374648
 
+/-! ## A120086.P5776949704708408123
+
+`xor(A063524(n), A120082(n))`
+-/
+
+namespace A120086.P5776949704708408123
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A063524 n) (A120082 n)
+
+end
+
+end A120086.P5776949704708408123
+
+/-! ## A120086.P11181810284661074528
+
+`xor(A120082(n), A178333(n))`
+-/
+
+namespace A120086.P11181810284661074528
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A120082 n) (A178333 n)
+
+end
+
+end A120086.P11181810284661074528
+
 /-! ## A120086.P6426909192227408646
 
 `A050932(n+1)*A120082(n)`
@@ -9036,6 +9108,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A120086.P3223424572831389496
+
+/-! ## A120086.P17965515916114297927
+
+`A164555(n)+A120080(n)-A176327(n)`
+-/
+
+namespace A120086.P17965515916114297927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164555 n + A120080 n - A176327 n
+
+end
+
+end A120086.P17965515916114297927
 
 /-!
 # A120087: Denominators of expansion of Debye function for n=4: D(4,x).

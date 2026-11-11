@@ -2647,20 +2647,20 @@ end A267708
 The programs for A267709, there is no canonical definition to state claims against.
 -/
 
-/-! ## A267709.P8784388362471655684
+/-! ## A267709.P11028939084989431111
 
 `A000041(n*(3*n-1)/2)`
 -/
 
-namespace A267709.P8784388362471655684
+namespace A267709.P11028939084989431111
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (SequenceMachineLib.roundAway ((n : ℚ) * (((3 * n : ℤ) - 1 : ℚ) / 2))).toNat
+  A000041 (SequenceMachineLib.roundAway (((n : ℤ) * ((3 * n : ℤ) - 1) : ℚ) / 2)).toNat
 
 end
 
-end A267709.P8784388362471655684
+end A267709.P11028939084989431111
 
 /-! ## A267709.P7792189306092832081
 

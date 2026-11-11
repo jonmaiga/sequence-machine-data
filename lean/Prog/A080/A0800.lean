@@ -6909,6 +6909,32 @@ def P15101310971106846817.Spec : Prop :=
 
 end A080040
 
+/-! ## A080040.P9214346823589105430
+
+`∑{#}[floor(n/2), C(n, 2*#)*3^#*2]`
+-/
+
+namespace A080040.P9214346823589105430
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (2 * k) * 3 ^ k * 2
+
+end
+
+end A080040.P9214346823589105430
+
+namespace A080040
+
+/-- `∑{#}[floor(n/2), C(n, 2*#)*3^#*2]` -/
+def P9214346823589105430.Spec : Prop :=
+  ∀ n, (P9214346823589105430.a n : ℤ) = A080040 n
+
+end A080040
+
 /-! ## A080040.P4505126672324030167
 
 `(a(n-1)+a(n-2))/(1-1/2)` with `a(0)=2, a(1)=2`
@@ -7145,35 +7171,6 @@ namespace A080040
 /-- `Δ[A108898(n)]` -/
 def P1996375103029170060.Spec : Prop :=
   ∀ n, P1996375103029170060.a n = A080040 n
-
-end A080040
-
-/-! ## A080040.P16958732787544047000
-
-`Δ[Δ[A052948(n)]]`
--/
-
-namespace A080040.P16958732787544047000
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052948 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A080040.P16958732787544047000
-
-namespace A080040
-
-/-- `Δ[Δ[A052948(n)]]` -/
-def P16958732787544047000.Spec : Prop :=
-  ∀ n, P16958732787544047000.a n = A080040 n
 
 end A080040
 
@@ -12415,32 +12412,26 @@ def P13649865272389498685.Spec : Prop :=
 
 end A080079
 
-/-! ## A080079.P1878678254694367630
+/-! ## A080079.P11290133660281147481
 
-`fp[fp[or(n, n+1)]]-n`
+`A185456(n+3)%(n+2)`
 -/
 
-namespace A080079.P1878678254694367630
+namespace A080079.P11290133660281147481
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor n (n + 1)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => n < f2 j) 0
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun j => n < f1 j) 0 : ℤ) - (n : ℤ)
+  Int.tmod (A185456 (n + 3)) (n + 2 : ℤ)
 
 end
 
-end A080079.P1878678254694367630
+end A080079.P11290133660281147481
 
 namespace A080079
 
-/-- `fp[fp[or(n, n+1)]]-n` -/
-def P1878678254694367630.Spec : Prop :=
-  ∀ n, P1878678254694367630.a n = A080079 (n + 1)
+/-- `A185456(n+3)%(n+2)` -/
+def P11290133660281147481.Spec : Prop :=
+  ∀ n, P11290133660281147481.a n = A080079 (n + 1)
 
 end A080079
 

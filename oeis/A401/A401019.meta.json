@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of {1..n} in which 1 is not adjacent to any prime.",
+  "id": "A401019",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A062298",
+    "A401831"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

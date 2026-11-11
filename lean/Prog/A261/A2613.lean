@@ -2714,6 +2714,21 @@ end
 
 end A261338.P10936051704110637606
 
+/-! ## A261338.P11620994405133002473
+
+`A342654(A337845(n+1))`
+-/
+
+namespace A261338.P11620994405133002473
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342654 (A337845 (n + 1)).toNat
+
+end
+
+end A261338.P11620994405133002473
+
 /-!
 # A261341: Numbers n such that round(n^(1/k)) divides n for all integers k>=1.
 
@@ -2740,6 +2755,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A261341.P15155334851761123308
+
+/-! ## A261341.P13630743721171652668
+
+`eq[A109646(n), A398179(n+1)]`
+-/
+
+namespace A261341.P13630743721171652668
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109646 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A398179 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A261341.P13630743721171652668
 
 /-! ## A261341.P3277748070536186463
 

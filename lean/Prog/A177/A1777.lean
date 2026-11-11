@@ -3447,6 +3447,29 @@ def P13664453568455241071.Spec : Prop :=
 
 end A177727
 
+/-! ## A177727.P17994446981772813315
+
+`A000045(n+1)*A000045(n+2)*A000045(n+3)/2*A000045(n+1)`
+-/
+
+namespace A177727.P17994446981772813315
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000045 (n + 1) * A000045 (n + 2) * A000045 (n + 3) : ℚ) / 2 * (A000045 (n + 1) : ℚ)
+
+end
+
+end A177727.P17994446981772813315
+
+namespace A177727
+
+/-- `A000045(n+1)*A000045(n+2)*A000045(n+3)/2*A000045(n+1)` -/
+def P17994446981772813315.Spec : Prop :=
+  ∀ n, P17994446981772813315.a n = (A177727 n : ℚ)
+
+end A177727
+
 /-!
 # A177728: Expansion of (1 + 14*x) / ((1 - x)*(1 - 2*x)*(1 - 4*x)*(1 - 8*x)*(1 - 16*x)).
 
@@ -3659,6 +3682,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A177729.P4432528101532707237
+
+/-! ## A177729.P13121402299348262456
+
+`A061641(n+1)+A019590(n+1)`
+-/
+
+namespace A177729.P13121402299348262456
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061641 (n + 1) + A019590 (n + 1)
+
+end
+
+end A177729.P13121402299348262456
 
 /-! ## A177729.P12891860252638369393
 
@@ -8959,6 +8997,29 @@ theorem P18203894524224014824.correct : P18203894524224014824.Spec := by
 
 end A177787
 
+/-! ## A177787.P6168882276426586925
+
+`A140226(n+1)/2`
+-/
+
+namespace A177787.P6168882276426586925
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A140226 (n + 1) : ℚ) / 2
+
+end
+
+end A177787.P6168882276426586925
+
+namespace A177787
+
+/-- `A140226(n+1)/2` -/
+def P6168882276426586925.Spec : Prop :=
+  ∀ n, P6168882276426586925.a n = (A177787 (n + 1) : ℚ)
+
+end A177787
+
 /-! ## A177787.P8275325891307508036
 
 `∑[2+∑[gcd(n, n)]]`
@@ -9359,32 +9420,6 @@ namespace A177787
 /-- `n-(a(n-2)-a(n-1)-a(n-1))` -/
 def P10427993940573357452.Spec : Prop :=
   ∀ n, P10427993940573357452.a n = A177787 (n + 1)
-
-end A177787
-
-/-! ## A177787.P15967758601591959784
-
-`∑[A027689(n)]/2`
--/
-
-namespace A177787.P15967758601591959784
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027689 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / 2
-
-end
-
-end A177787.P15967758601591959784
-
-namespace A177787
-
-/-- `∑[A027689(n)]/2` -/
-def P15967758601591959784.Spec : Prop :=
-  ∀ n, P15967758601591959784.a n = (A177787 (n + 1) : ℚ)
 
 end A177787
 

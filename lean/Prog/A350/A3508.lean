@@ -3612,14 +3612,14 @@ end A350851.P3427760238854571982
 /-!
 # A350855: a(0) = 1, a(n) = (n+1)*a(n-1) + (n-2).
 
-The programs for A350855, the canonical program `A350855.P7631808491097204772` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350855 has offset 0).
+The programs for A350855, the canonical program `A350855.P5979134105096678730` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350855 has offset 0).
 
-The definition of A350855 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*a(n-1)+n-2` (program `A350855.P7631808491097204772`, by `A350855.P7631808491097204772.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A350855 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*a(n-1)+n-2` (program `A350855.P5979134105096678730`, by `A350855.P5979134105096678730.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A350855.P7631808491097204772
+/-! ## A350855.P5979134105096678730
 
-`(n+1)*a(n-1)+n-2` with `a(0)=1`
+`(n+1)*a(n-1)+n-2` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C046`.
 -/
@@ -3627,10 +3627,10 @@ The canonical program, it is in `Seq.B000.C046`.
 namespace A350855
 
 /-- `(n+1)*a(n-1)+n-2` -/
-def P7631808491097204772.Spec : Prop :=
-  ∀ n, P7631808491097204772.a n = A350855 n
+def P5979134105096678730.Spec : Prop :=
+  ∀ n, P5979134105096678730.a n = A350855 n
 
-theorem P7631808491097204772.correct : P7631808491097204772.Spec := by
+theorem P5979134105096678730.correct : P5979134105096678730.Spec := by
   intro n
   simp only [A350855]
 
@@ -3705,12 +3705,6 @@ namespace A350855
 /-- `n-(2-(Δ[n²]-n)*a(n-1))` -/
 def P13588977767253053889.Spec : Prop :=
   ∀ n, P13588977767253053889.a n = A350855 n
-
-theorem P13588977767253053889.correct : P13588977767253053889.Spec := by
-  intro n
-  simp only [A350855, Nat.add_sub_cancel, A350855.P13588977767253053889.f1, A350855.P13588977767253053889.a, A350855.P7631808491097204772.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A350855
 

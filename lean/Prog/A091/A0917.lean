@@ -3645,6 +3645,36 @@ end
 
 end A091733.P1965062650270654307
 
+/-! ## A091733.P2166015859514854768
+
+`A270419(A076989(n+1))`
+-/
+
+namespace A091733.P2166015859514854768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270419 (A076989 (n + 1)).toNat
+
+end
+
+end A091733.P2166015859514854768
+
+/-! ## A091733.P11828244159385353241
+
+`A018852(A076989(n+1))`
+-/
+
+namespace A091733.P11828244159385353241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018852 (A076989 (n + 1)).toNat
+
+end
+
+end A091733.P11828244159385353241
+
 /-!
 # A091735: Primes arising in the first row of array in A091734.
 

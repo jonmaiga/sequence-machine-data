@@ -5770,45 +5770,26 @@ def P7417906640586322168.Spec : Prop :=
 
 end A115489
 
-/-! ## A115489.P12812155258252747810
+/-! ## A115489.P1189707161223380823
 
-`A059155(n)/6`
+`A147590(n+1)+A083333(2*n)`
 -/
 
-namespace A115489.P12812155258252747810
+namespace A115489.P1189707161223380823
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A059155 n : ℚ) / 6
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147590 (n + 1) + A083333 (2 * n)
 
 end
 
-end A115489.P12812155258252747810
+end A115489.P1189707161223380823
 
 namespace A115489
 
-/-- `A059155(n)/6` -/
-def P12812155258252747810.Spec : Prop :=
-  ∀ n, P12812155258252747810.a n = (A115489 (n + 1) : ℚ)
-
-theorem P12812155258252747810.correct : P12812155258252747810.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A115489, Nat.add_sub_cancel, A115489.P12812155258252747810.a, A115489.P4070022247930319062.a, A059155, A059155.P6181797539108455846.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-      try ((try field_simp); ring_nf)
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A115489, Nat.add_sub_cancel, A115489.P12812155258252747810.a, A115489.P4070022247930319062.a, A059155, A059155.P6181797539108455846.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+/-- `A147590(n+1)+A083333(2*n)` -/
+def P1189707161223380823.Spec : Prop :=
+  ∀ n, P1189707161223380823.a n = A115489 (n + 1)
 
 end A115489
 

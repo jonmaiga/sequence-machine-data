@@ -4138,20 +4138,20 @@ end
 
 end A109736.P1767988544945075841
 
-/-! ## A109736.P10285377350111316182
+/-! ## A109736.P3161041829321475894
 
-`A094341(n+1)-A008683(A004166(n))`
+`A094341(A109890(A094341(n+1)))`
 -/
 
-namespace A109736.P10285377350111316182
+namespace A109736.P3161041829321475894
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094341 (n + 1) - A008683 (A004166 n).toNat
+  A094341 (A109890 (A094341 (n + 1)).toNat).toNat
 
 end
 
-end A109736.P10285377350111316182
+end A109736.P3161041829321475894
 
 /-!
 # A109738: a(0)=1; for n>0, a(n) = a(n-1) S prime(n), where S is + if n is odd and a(n-1) is even, x if n is odd and a(n-1) is odd, - if n is even and a(n-1) is even, + if n is even and a(n-1) is odd.

@@ -29,13 +29,12 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C048
@@ -766,6 +765,35 @@ theorem P15507762592062136051.correct : P15507762592062136051.Spec := by
 
 end A254407
 
+/-! ## A254407.P8391522179575564130
+
+`7*C(n+1, 2)+11*C(n+1, 3)`
+-/
+
+namespace A254407.P8391522179575564130
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  7 * Nat.choose (n + 1) 2 + 11 * Nat.choose (n + 1) 3
+
+end
+
+end A254407.P8391522179575564130
+
+namespace A254407
+
+/-- `7*C(n+1, 2)+11*C(n+1, 3)` -/
+def P8391522179575564130.Spec : Prop :=
+  ∀ n, (P8391522179575564130.a n : ℤ) = A254407 n
+
+theorem P8391522179575564130.correct : P8391522179575564130.Spec := by
+  intro n
+  simp only [A254407, Nat.add_sub_cancel, A254407.P8391522179575564130.a, A254407.P15507762592062136051.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A254407
+
 /-! ## A254407.P6863934584524010104
 
 `∑[lcm(2*n+1, 2*n)]+n*∑[n]`
@@ -792,35 +820,6 @@ namespace A254407
 /-- `∑[lcm(2*n+1, 2*n)]+n*∑[n]` -/
 def P6863934584524010104.Spec : Prop :=
   ∀ n, (P6863934584524010104.a n : ℤ) = A254407 n
-
-end A254407
-
-/-! ## A254407.P14305258782171546457
-
-`2*n*∑[2*n+1]-∑[C(n+1, 2)]`
--/
-
-namespace A254407.P14305258782171546457
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 1) 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((2 * n * (∑ j ∈ Finset.range (n + 1), f1 j) : ℕ) : ℤ) - ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ)
-
-end
-
-end A254407.P14305258782171546457
-
-namespace A254407
-
-/-- `2*n*∑[2*n+1]-∑[C(n+1, 2)]` -/
-def P14305258782171546457.Spec : Prop :=
-  ∀ n, P14305258782171546457.a n = A254407 n
 
 end A254407
 

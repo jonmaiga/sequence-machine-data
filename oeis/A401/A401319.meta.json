@@ -1,0 +1,17 @@
+{
+  "description": "Number of fixed point free involutions in S_{2n} (or perfect matchings on [2n]) which avoid the patterns {123, 132, 213, 321}.",
+  "id": "A401319",
+  "mentions": [
+    "A400996"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

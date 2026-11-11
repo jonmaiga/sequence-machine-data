@@ -2384,6 +2384,21 @@ end
 
 end A251537.P11704338312341653875
 
+/-! ## A251537.P15933650534939251866
+
+`A130773(A251538(n+1))`
+-/
+
+namespace A251537.P15933650534939251866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130773 (A251538 (n + 1)).toNat
+
+end
+
+end A251537.P15933650534939251866
+
 /-! ## A251537.P14841735883082387921
 
 `A144396(A251538(n+1)+1)-2`
@@ -2398,21 +2413,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251537.P14841735883082387921
-
-/-! ## A251537.P15480181591537646880
-
-`A130773(A251538(n+1)+1)-2`
--/
-
-namespace A251537.P15480181591537646880
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130773 (A251538 (n + 1) + 1).toNat - 2
-
-end
-
-end A251537.P15480181591537646880
 
 /-! ## A251537.P8478672148434567325
 
@@ -3530,6 +3530,21 @@ end
 
 end A251546.P8770395816591048301
 
+/-! ## A251546.P9121261558545375140
+
+`A251547(n+1)+A251547(n+1)`
+-/
+
+namespace A251546.P9121261558545375140
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251547 (n + 1) + A251547 (n + 1)
+
+end
+
+end A251546.P9121261558545375140
+
 /-! ## A251546.P4703632115071615283
 
 `A251551(n+1)+A251549(n+1)`
@@ -3559,25 +3574,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251546.P11911884754080933834
-
-/-! ## A251546.P11480106354010924234
-
-`A251547(char[1]+1+n)+A251547(n+1)`
--/
-
-namespace A251546.P11480106354010924234
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251547 ((if ∃ j, f1 j = n then 1 else 0) + 1 + n) + A251547 (n + 1)
-
-end
-
-end A251546.P11480106354010924234
 
 /-! ## A251546.P6085290407368895798
 
@@ -3796,6 +3792,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A251547.P3721980145086623312
+
+/-! ## A251547.P10150168547112886647
+
+`A116447(A251546(n+1))`
+-/
+
+namespace A251547.P10150168547112886647
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116447 (A251546 (n + 1)).toNat
+
+end
+
+end A251547.P10150168547112886647
 
 /-!
 # A251548: Lengths of runs of identical terms in A251546.

@@ -5204,21 +5204,6 @@ end
 
 end A357583.P6135128866211935368
 
-/-! ## A357583.P9692610806682673486
-
-`and(15, A087051(A113368(n)))`
--/
-
-namespace A357583.P9692610806682673486
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land 15 (A087051 (A113368 n).toNat)
-
-end
-
-end A357583.P9692610806682673486
-
 /-! ## A357583.P6347717055457772086
 
 `A155887(n)%A019589(n+3)`
@@ -5248,6 +5233,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357583.P6557807876268920579
+
+/-! ## A357583.P14944168868954011198
+
+`A162351(A383206(n))`
+-/
+
+namespace A357583.P14944168868954011198
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162351 (A383206 n).toNat
+
+end
+
+end A357583.P14944168868954011198
 
 /-!
 # A357584: Central terms of the convolution triangle of the Bell numbers (A357583).

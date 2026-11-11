@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with no equal diagonal or antidiagonal neighbors and new values introduced sequentially from 0.",
+  "description": "T(n,k) = number of n X k arrays containing k copies of 0..n-1 with no equal diagonal or antidiagonal neighbors and new values introduced sequentially from 0.",
   "id": "A265656",
   "mentions": [
     "A265229"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

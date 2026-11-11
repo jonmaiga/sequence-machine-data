@@ -23986,26 +23986,26 @@ def P11236867819837736036.Spec : Prop :=
 
 end A033184
 
-/-! ## A033184.P2914928889277264500
+/-! ## A033184.P12435892335451394307
 
-`(col(n)+1)*C(2*row(n)-col(n), row(n))/(row(n)+1)`
+`C(2*row(n)-col(n), row(n))*(col(n)+1)/(row(n)+1)`
 -/
 
-namespace A033184.P2914928889277264500
+namespace A033184.P12435892335451394307
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.triCol n + 1) * Nat.choose ((2 * SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat (SequenceMachineLib.triRow n) : ℚ) / (SequenceMachineLib.triRow n + 1 : ℚ)
+  (Nat.choose ((2 * SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat (SequenceMachineLib.triRow n) : ℚ) * ((SequenceMachineLib.triCol n + 1 : ℚ) / (SequenceMachineLib.triRow n + 1 : ℚ))
 
 end
 
-end A033184.P2914928889277264500
+end A033184.P12435892335451394307
 
 namespace A033184
 
-/-- `(col(n)+1)*C(2*row(n)-col(n), row(n))/(row(n)+1)` -/
-def P2914928889277264500.Spec : Prop :=
-  ∀ n, P2914928889277264500.a n = (A033184 (n + 1) : ℚ)
+/-- `C(2*row(n)-col(n), row(n))*(col(n)+1)/(row(n)+1)` -/
+def P12435892335451394307.Spec : Prop :=
+  ∀ n, P12435892335451394307.a n = (A033184 (n + 1) : ℚ)
 
 end A033184
 

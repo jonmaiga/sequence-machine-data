@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that (22^n+1)/23 is a prime.",
+  "description": "Numbers k such that (22^k+1)/23 is a prime.",
   "id": "A057188",
   "mentions": [],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

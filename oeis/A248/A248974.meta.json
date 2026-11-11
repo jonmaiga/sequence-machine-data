@@ -1,5 +1,5 @@
 {
-  "description": "Floor( 1/(n*sinh(1/n) + n*sin(1/n) - 2) ).",
+  "description": "Floor(1/(n*sinh(1/n) + n*sin(1/n) - 2)).",
   "id": "A248974",
   "mentions": [
     "A000583",

@@ -2496,6 +2496,24 @@ end
 
 end A360114.P6420383839525641176
 
+/-! ## A360114.P17582273904991574217
+
+`filter[A360117(n+1), A000035(#)]`
+-/
+
+namespace A360114.P17582273904991574217
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360117 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A360114.P17582273904991574217
+
 /-!
 # A360115: Number of prime factors p of n for which the 2-adic valuation of p-1 is greater than that of n-1.
 
@@ -3917,6 +3935,144 @@ namespace A360122
 /-- `and(A020737(n), A347963(n+1))` -/
 def P12772452452118404142.Spec : Prop :=
   ∀ n, P12772452452118404142.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P15711894142282066516
+
+`and(A020737(n), A360121(n+1))`
+-/
+
+namespace A360122.P15711894142282066516
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A020737 n) (A360121 (n + 1))
+
+end
+
+end A360122.P15711894142282066516
+
+namespace A360122
+
+/-- `and(A020737(n), A360121(n+1))` -/
+def P15711894142282066516.Spec : Prop :=
+  ∀ n, P15711894142282066516.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P127896569072981549
+
+`and(A033622(n), A347963(n+1))`
+-/
+
+namespace A360122.P127896569072981549
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A033622 n) (A347963 (n + 1))
+
+end
+
+end A360122.P127896569072981549
+
+namespace A360122
+
+/-- `and(A033622(n), A347963(n+1))` -/
+def P127896569072981549.Spec : Prop :=
+  ∀ n, P127896569072981549.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P16497362843676585050
+
+`and(A033622(n), A360121(n+1))`
+-/
+
+namespace A360122.P16497362843676585050
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A033622 n) (A360121 (n + 1))
+
+end
+
+end A360122.P16497362843676585050
+
+namespace A360122
+
+/-- `and(A033622(n), A360121(n+1))` -/
+def P16497362843676585050.Spec : Prop :=
+  ∀ n, P16497362843676585050.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P239662066134840748
+
+`and(A035089(n), A347963(n+1))`
+-/
+
+namespace A360122.P239662066134840748
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A035089 n) (A347963 (n + 1))
+
+end
+
+end A360122.P239662066134840748
+
+namespace A360122
+
+/-- `and(A035089(n), A347963(n+1))` -/
+def P239662066134840748.Spec : Prop :=
+  ∀ n, P239662066134840748.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P743689677557757894
+
+`and(A035089(n), A360121(n+1))`
+-/
+
+namespace A360122.P743689677557757894
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A035089 n) (A360121 (n + 1))
+
+end
+
+end A360122.P743689677557757894
+
+namespace A360122
+
+/-- `and(A035089(n), A360121(n+1))` -/
+def P743689677557757894.Spec : Prop :=
+  ∀ n, P743689677557757894.a n = A360122 (n + 1)
+
+end A360122
+
+/-! ## A360122.P11883748626721481138
+
+`and(A195744(n), A347963(n+1))`
+-/
+
+namespace A360122.P11883748626721481138
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A195744 n) (A347963 (n + 1))
+
+end
+
+end A360122.P11883748626721481138
+
+namespace A360122
+
+/-- `and(A195744(n), A347963(n+1))` -/
+def P11883748626721481138.Spec : Prop :=
+  ∀ n, P11883748626721481138.a n = A360122 (n + 1)
 
 end A360122
 

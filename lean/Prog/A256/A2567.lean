@@ -59,6 +59,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -68,6 +69,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -683,6 +685,29 @@ def P1881048698814627174.Spec : Prop :=
 
 end A256702
 
+/-! ## A256702.P15456031903275398029
+
+`xor(A073122(n+1), A256701(n+1))`
+-/
+
+namespace A256702.P15456031903275398029
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A073122 (n + 1)) (A256701 (n + 1))
+
+end
+
+end A256702.P15456031903275398029
+
+namespace A256702
+
+/-- `xor(A073122(n+1), A256701(n+1))` -/
+def P15456031903275398029.Spec : Prop :=
+  ∀ n, P15456031903275398029.a n = A256702 (n + 1)
+
+end A256702
+
 /-! ## A256702.P10287394682673489942
 
 `min(A229762(2*n+1), A229762(2*(n+1)))`
@@ -1173,7 +1198,7 @@ def P15469859399278820458.Spec : Prop :=
 end A256710
 
 /-!
-# A256712: Primes prime(n) such that prime(2*n) - n is prime.
+# A256712: Primes prime(k) such that prime(2*k) - k is prime.
 
 The programs for A256712, there is no canonical definition to state claims against.
 -/
@@ -5686,6 +5711,72 @@ end
 
 end A256753.P1057599444213295587
 
+/-! ## A256753.P8749789674682235834
+
+`∩[A165972(n+1), A263674(n+1)]`
+-/
+
+namespace A256753.P8749789674682235834
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165972 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263674 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A256753.P8749789674682235834
+
+/-! ## A256753.P9731516143144111300
+
+`∩[A263674(n+1), A299763(n+1)]`
+-/
+
+namespace A256753.P9731516143144111300
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263674 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299763 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A256753.P9731516143144111300
+
+/-! ## A256753.P15340332550349954818
+
+`∩[A174219(n+1), A263674(n+1)]`
+-/
+
+namespace A256753.P15340332550349954818
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174219 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263674 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A256753.P15340332550349954818
+
 /-!
 # A256754: a(n) = bitwise AND of n and the reverse of n.
 
@@ -6523,20 +6614,20 @@ end
 
 end A256759.P14001747194381378581
 
-/-! ## A256759.P16582248649040301182
+/-! ## A256759.P1115781109990870954
 
-`val(A292984(A130321(n)), 2)`
+`A353862(A361681(n+1))`
 -/
 
-namespace A256759.P16582248649040301182
+namespace A256759.P1115781109990870954
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A292984 (A130321 n).toNat).toNat 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353862 (A361681 (n + 1)).toNat
 
 end
 
-end A256759.P16582248649040301182
+end A256759.P1115781109990870954
 
 /-!
 # A256761: Numbers k such that R_k + 70 is prime, where R_k = 11...1 is the repunit (A002275) of length k.

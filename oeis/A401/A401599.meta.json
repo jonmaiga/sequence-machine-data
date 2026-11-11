@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k > 1 such that, for some g, iterating x -> (3*x+1)/2^g starting at k gives integers until 1 is reached.",
+  "id": "A401599",
+  "mentions": [
+    "A002450",
+    "A006370",
+    "A006666",
+    "A006667",
+    "A007814",
+    "A007949",
+    "A051064",
+    "A400965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A055881(i) = A055881(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A055881(n) is the largest m such that m! divides n.",
+  "id": "A401713",
+  "mentions": [
+    "A046523",
+    "A055881",
+    "A286143",
+    "A305801",
+    "A328470"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

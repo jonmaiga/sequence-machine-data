@@ -5597,6 +5597,29 @@ def P15415753398204363468.Spec : Prop :=
 
 end A232640
 
+/-! ## A232640.P13158448447081896352
+
+`A385887(A247648(n+2))-1`
+-/
+
+namespace A232640.P13158448447081896352
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385887 (A247648 (n + 2)).toNat - 1
+
+end
+
+end A232640.P13158448447081896352
+
+namespace A232640
+
+/-- `A385887(A247648(n+2))-1` -/
+def P13158448447081896352.Spec : Prop :=
+  ∀ n, P13158448447081896352.a n = A232640 (n + 1)
+
+end A232640
+
 /-!
 # A232641: Inverse permutation of the sequence of positive integers at A232640.
 
@@ -10659,6 +10682,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232697.P1409190823312108724
+
+/-! ## A232697.P9733963049389512759
+
+`A002865(n+1)+A002865(n)-A083751(n+1)`
+-/
+
+namespace A232697.P9733963049389512759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002865 (n + 1) + A002865 n - A083751 (n + 1)
+
+end
+
+end A232697.P9733963049389512759
 
 /-! ## A232697.P14288405778340282005
 

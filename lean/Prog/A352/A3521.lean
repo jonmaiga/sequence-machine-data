@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -3524,6 +3523,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352141.P12173521279980755804
+
+/-! ## A352141.P2198913658983694025
+
+`A000290(A066207(n+1))`
+-/
+
+namespace A352141.P2198913658983694025
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A066207 (n + 1)).toNat
+
+end
+
+end A352141.P2198913658983694025
 
 /-!
 # A352142: Numbers whose prime factorization has all odd indices and all odd exponents.
@@ -7314,21 +7328,6 @@ end
 
 end A352187.P2549350594609073775
 
-/-! ## A352187.P15765012613034312671
-
-`A382868(n+1)%A179697(n+1)`
--/
-
-namespace A352187.P15765012613034312671
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A382868 (n + 1)) (A179697 (n + 1))
-
-end
-
-end A352187.P15765012613034312671
-
 /-! ## A352187.P13109718795148738731
 
 `A057427(A335143(n+1))*A382868(n+1)`
@@ -7373,6 +7372,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352187.P15511199347196427996
+
+/-! ## A352187.P11305749767461503329
+
+`A382868(n+1)%A002762(n)`
+-/
+
+namespace A352187.P11305749767461503329
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A382868 (n + 1)) (A002762 n)
+
+end
+
+end A352187.P11305749767461503329
 
 /-!
 # A352188: When n appears in A352187, or -1 if n never appears.
@@ -8051,24 +8065,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352191.P3605463720814245127
-
-/-! ## A352191.P2362417592112816902
-
-`record[A382868(n+1)%A179697(n+1)]`
--/
-
-namespace A352191.P2362417592112816902
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A382868 (n + 1)) (A179697 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A352191.P2362417592112816902
 
 /-! ## A352191.P2637633718406001939
 

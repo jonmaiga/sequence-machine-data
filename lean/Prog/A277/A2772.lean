@@ -36,6 +36,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -9965,6 +9966,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277292.P4194988802190634004
+
+/-! ## A277292.P10682844909209878321
+
+`A318008(2*n+1)+A276909(2*(n+1))`
+-/
+
+namespace A277292.P10682844909209878321
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318008 (2 * n + 1) + A276909 (2 * (n + 1))
+
+end
+
+end A277292.P10682844909209878321
 
 /-!
 # A277296: Column 2 of triangle A277295; a(n) = A277295(n+2,2).

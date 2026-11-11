@@ -36,6 +36,7 @@ import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
@@ -5822,6 +5823,21 @@ end
 
 end A092067.P4061121604289547740
 
+/-! ## A092067.P9354543259337199757
+
+`A006530(A074828(n+2))`
+-/
+
+namespace A092067.P9354543259337199757
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A074828 (n + 2)).toNat
+
+end
+
+end A092067.P9354543259337199757
+
 /-! ## A092067.P9685404381453318861
 
 `gcd(A005563(n), A126286(n+1))`
@@ -6016,24 +6032,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A092067.P3345383677290928995
-
-/-! ## A092067.P16554059180048171788
-
-`∑{p}[A323130(n+2), #]`
--/
-
-namespace A092067.P16554059180048171788
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323130 (n + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A092067.P16554059180048171788
 
 /-!
 # A092068: Positions of 0's in A092970.

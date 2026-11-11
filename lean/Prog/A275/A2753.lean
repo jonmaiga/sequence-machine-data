@@ -16,7 +16,6 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
@@ -45,6 +44,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -1166,6 +1166,29 @@ The programs for A275314, the canonical program `A275314.P16603517016269577307` 
 The definition of A275314 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A275314.P12792007624249307334
+
+`A059975(n+1)+1`
+-/
+
+namespace A275314.P12792007624249307334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059975 (n + 1) + 1
+
+end
+
+end A275314.P12792007624249307334
+
+namespace A275314
+
+/-- `A059975(n+1)+1` -/
+def P12792007624249307334.Spec : Prop :=
+  ∀ n, P12792007624249307334.a n = A275314 (n + 1)
+
+end A275314
+
 /-! ## A275314.P16603517016269577307
 
 `A001414(n+1)-A001222(n+1)+1`
@@ -1275,29 +1298,6 @@ namespace A275314
 /-- `∑{p}[n+1, #*val(n+1, #)]+1-∑{p}[n+1, val(n+1, #)]` -/
 def P12825620404486417848.Spec : Prop :=
   ∀ n, P12825620404486417848.a n = A275314 (n + 1)
-
-end A275314
-
-/-! ## A275314.P4324384588528471938
-
-`A059975(1+n)+1`
--/
-
-namespace A275314.P4324384588528471938
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059975 (1 + n) + 1
-
-end
-
-end A275314.P4324384588528471938
-
-namespace A275314
-
-/-- `A059975(1+n)+1` -/
-def P4324384588528471938.Spec : Prop :=
-  ∀ n, P4324384588528471938.a n = A275314 (n + 1)
 
 end A275314
 
@@ -1486,7 +1486,7 @@ def P7535886552961602907.Spec : Prop :=
 
 theorem P7535886552961602907.correct : P7535886552961602907.Spec := by
   intro n
-  simp only [A275314, Nat.add_sub_cancel, A275314.P7535886552961602907.a, A275314.P16603517016269577307.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A073093, A073093.P258081957281391684.a, A100006, A100006.P10301543697715186993.f1, A100006.P10301543697715186993.a, SequenceMachineLib.memo_apply]
+  simp only [A275314, Nat.add_sub_cancel, A275314.P7535886552961602907.a, A275314.P16603517016269577307.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A073093, A073093.P258081957281391684.a, A100006, A100006.P11597658631363148966.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8493,6 +8493,52 @@ namespace A275387
 /-- `A089233(n+1)+A184389(n+1)-A048691(n+1)` -/
 def P13842559230764547925.Spec : Prop :=
   ∀ n, P13842559230764547925.a n = A275387 (n + 1)
+
+end A275387
+
+/-! ## A275387.P6996337681253225503
+
+`A333976(n+1)+A049822(n+1)-A086898(n+1)`
+-/
+
+namespace A275387.P6996337681253225503
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333976 (n + 1) + A049822 (n + 1) - A086898 (n + 1)
+
+end
+
+end A275387.P6996337681253225503
+
+namespace A275387
+
+/-- `A333976(n+1)+A049822(n+1)-A086898(n+1)` -/
+def P6996337681253225503.Spec : Prop :=
+  ∀ n, P6996337681253225503.a n = A275387 (n + 1)
+
+end A275387
+
+/-! ## A275387.P1922033732324726367
+
+`A333976(n+1)+A000005(n+2)-A092338(n+2)`
+-/
+
+namespace A275387.P1922033732324726367
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333976 (n + 1) + A000005 (n + 2) - A092338 (n + 2)
+
+end
+
+end A275387.P1922033732324726367
+
+namespace A275387
+
+/-- `A333976(n+1)+A000005(n+2)-A092338(n+2)` -/
+def P1922033732324726367.Spec : Prop :=
+  ∀ n, P1922033732324726367.a n = A275387 (n + 1)
 
 end A275387
 

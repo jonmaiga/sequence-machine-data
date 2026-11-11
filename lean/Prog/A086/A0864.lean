@@ -1383,6 +1383,66 @@ end
 
 end A086410.P15012008690605306106
 
+/-! ## A086410.P15477027848164508262
+
+`A066727(A055600(n+1))`
+-/
+
+namespace A086410.P15477027848164508262
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066727 (A055600 (n + 1)).toNat
+
+end
+
+end A086410.P15477027848164508262
+
+/-! ## A086410.P7360955234484421205
+
+`A380528(A033845(n+1))`
+-/
+
+namespace A086410.P7360955234484421205
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380528 (A033845 (n + 1)).toNat
+
+end
+
+end A086410.P7360955234484421205
+
+/-! ## A086410.P14837608832387315776
+
+`A380528(A187778(n+2))`
+-/
+
+namespace A086410.P14837608832387315776
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380528 (A187778 (n + 2)).toNat
+
+end
+
+end A086410.P14837608832387315776
+
+/-! ## A086410.P15482577365103677264
+
+`A342866(A007694(n+2)/2)`
+-/
+
+namespace A086410.P15482577365103677264
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342866 (SequenceMachineLib.roundAway ((A007694 (n + 2) : ℚ) / 2)).toNat
+
+end
+
+end A086410.P15482577365103677264
+
 /-!
 # A086411: Greatest prime factor of 3-smooth numbers.
 
@@ -4439,6 +4499,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A086428.P10688955657338506116
+
+/-! ## A086428.P159589063331407314
+
+`A086431(A086427(A086431(A085161(A085161(n)))))`
+-/
+
+namespace A086428.P159589063331407314
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086431 (A086427 (A086431 (A085161 (A085161 n).toNat).toNat).toNat).toNat
+
+end
+
+end A086428.P159589063331407314
 
 /-! ## A086428.P6641242435801133260
 

@@ -3718,7 +3718,7 @@ end
 end A094934.P8421911334264428954
 
 /-!
-# A094935: E.g.f.: exp(8x)/(1-8x)^(1/8).
+# A094935: Expansion of e.g.f.: exp(8*x)/(1-8*x)^(1/8).
 
 The programs for A094935, the canonical program `A094935.P18416327447893264626` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094935 has offset 0).
 

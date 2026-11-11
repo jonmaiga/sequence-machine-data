@@ -36,10 +36,10 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3861,7 +3861,7 @@ end A109938.P242528664516958685
 /-!
 # A109940: Largest k-digit multiple of n where k is the number of digits in n.
 
-The programs for A109940, the canonical program `A109940.P11561411005126974692` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109940 has offset 1).
+The programs for A109940, the canonical program `A109940.P11561411005126974692` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109940 has offset 1).
 
 The definition of A109940 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3870,7 +3870,7 @@ The definition of A109940 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A097326(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109940
@@ -10374,6 +10374,36 @@ namespace A109982
 /-- `A000040(p?[A061395(A109981(n+1))])` -/
 def P17202497401967696133.Spec : Prop :=
   ∀ n, P17202497401967696133.a n = A109982 (n + 1)
+
+end A109982
+
+/-! ## A109982.P8646104556056309951
+
+`∩[A109981(n+1), A387119(n+1)]`
+-/
+
+namespace A109982.P8646104556056309951
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109981 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387119 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A109982.P8646104556056309951
+
+namespace A109982
+
+/-- `∩[A109981(n+1), A387119(n+1)]` -/
+def P8646104556056309951.Spec : Prop :=
+  ∀ n, (P8646104556056309951.a n : ℤ) = A109982 (n + 1)
 
 end A109982
 

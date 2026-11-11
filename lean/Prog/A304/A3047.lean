@@ -2757,6 +2757,35 @@ def P14009166009266519795.Spec : Prop :=
 
 end A304726
 
+/-! ## A304726.P10659856788931691766
+
+`A002522(n)*A117950(n)`
+-/
+
+namespace A304726.P10659856788931691766
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002522 n * A117950 n
+
+end
+
+end A304726.P10659856788931691766
+
+namespace A304726
+
+/-- `A002522(n)*A117950(n)` -/
+def P10659856788931691766.Spec : Prop :=
+  ∀ n, P10659856788931691766.a n = A304726 n
+
+theorem P10659856788931691766.correct : P10659856788931691766.Spec := by
+  intro n
+  simp only [A304726, Nat.add_sub_cancel, A304726.P10659856788931691766.a, A304726.P3688958258049521962.a, A002522, A002522.P3778392011853271743.a, A117950, A117950.P14722515508371885867.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A304726
+
 /-! ## A304726.P2208490249530502247
 
 `abs(1-or(2, n²)²)`
@@ -2879,35 +2908,6 @@ def P5890865131893698381.Spec : Prop :=
 theorem P5890865131893698381.correct : P5890865131893698381.Spec := by
   intro n
   simp only [A304726, Nat.add_sub_cancel, A304726.P5890865131893698381.a, A304726.P3688958258049521962.a, A000290, A000290.P12206242496348924484.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
-end A304726
-
-/-! ## A304726.P10659856788931691766
-
-`A002522(n)*A117950(n)`
--/
-
-namespace A304726.P10659856788931691766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002522 n * A117950 n
-
-end
-
-end A304726.P10659856788931691766
-
-namespace A304726
-
-/-- `A002522(n)*A117950(n)` -/
-def P10659856788931691766.Spec : Prop :=
-  ∀ n, P10659856788931691766.a n = A304726 n
-
-theorem P10659856788931691766.correct : P10659856788931691766.Spec := by
-  intro n
-  simp only [A304726, Nat.add_sub_cancel, A304726.P10659856788931691766.a, A304726.P3688958258049521962.a, A002522, A002522.P3778392011853271743.a, A117950, A117950.P14722515508371885867.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

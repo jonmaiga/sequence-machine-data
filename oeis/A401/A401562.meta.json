@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + A(A(x^2)) + A(A(x^3)) + A(A(x^4)) + ...",
+  "id": "A401562",
+  "mentions": [
+    "A030266",
+    "A074206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -41,6 +41,7 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
@@ -13551,6 +13552,29 @@ def P577303478873786889.Spec : Prop :=
 
 end A072273
 
+/-! ## A072273.P12870729622734761224
+
+`A000523(A060594(n+1))`
+-/
+
+namespace A072273.P12870729622734761224
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000523 (A060594 (n + 1)).toNat
+
+end
+
+end A072273.P12870729622734761224
+
+namespace A072273
+
+/-- `A000523(A060594(n+1))` -/
+def P12870729622734761224.Spec : Prop :=
+  ∀ n, P12870729622734761224.a n = A072273 (n + 1)
+
+end A072273
+
 /-! ## A072273.P7728041057496769007
 
 `A000120(A155828(n+1))`
@@ -13824,32 +13848,6 @@ namespace A072273
 /-- `A087179(A060594(n+1)²)/2` -/
 def P6504655946176113357.Spec : Prop :=
   ∀ n, P6504655946176113357.a n = (A072273 (n + 1) : ℚ)
-
-end A072273
-
-/-! ## A072273.P5829917182744246600
-
-`∑{d}[A157230(n+1), A035263(#²)]`
--/
-
-namespace A072273.P5829917182744246600
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A157230 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A035263 (d ^ 2)
-
-end
-
-end A072273.P5829917182744246600
-
-namespace A072273
-
-/-- `∑{d}[A157230(n+1), A035263(#²)]` -/
-def P5829917182744246600.Spec : Prop :=
-  ∀ n, P5829917182744246600.a n = A072273 (n + 1)
 
 end A072273
 
@@ -14545,26 +14543,26 @@ def P13060830488334091370.Spec : Prop :=
 
 end A072277
 
-/-! ## A072277.P6873062732537916397
+/-! ## A072277.P12747814550173066891
 
-`A218152(n+3)-(n+3)`
+`A064808(n+2)+A000217(n+1)`
 -/
 
-namespace A072277.P6873062732537916397
+namespace A072277.P12747814550173066891
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A218152 (n + 3) - (n + 3 : ℤ)
+  A064808 (n + 2) + A000217 (n + 1)
 
 end
 
-end A072277.P6873062732537916397
+end A072277.P12747814550173066891
 
 namespace A072277
 
-/-- `A218152(n+3)-(n+3)` -/
-def P6873062732537916397.Spec : Prop :=
-  ∀ n, P6873062732537916397.a n = A072277 (n + 3)
+/-- `A064808(n+2)+A000217(n+1)` -/
+def P12747814550173066891.Spec : Prop :=
+  ∀ n, P12747814550173066891.a n = A072277 (n + 3)
 
 end A072277
 

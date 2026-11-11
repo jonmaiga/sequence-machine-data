@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -28,7 +27,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
@@ -4099,32 +4098,29 @@ def P5051788892068146852.Spec : Prop :=
 
 end A080324
 
-/-! ## A080324.P17690049907665338968
+/-! ## A080324.P11235638474492805442
 
-`eq[1, A080323(n+1)]+1`
+`filter[A064594(n+1), A359820(#)]`
 -/
 
-namespace A080324.P17690049907665338968
+namespace A080324.P11235638474492805442
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064594 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080323 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359820 (f1 j).toNat = 1) n)
 
 end
 
-end A080324.P17690049907665338968
+end A080324.P11235638474492805442
 
 namespace A080324
 
-/-- `eq[1, A080323(n+1)]+1` -/
-def P17690049907665338968.Spec : Prop :=
-  ∀ n, (P17690049907665338968.a n : ℤ) = A080324 (n + 1)
+/-- `filter[A064594(n+1), A359820(#)]` -/
+def P11235638474492805442.Spec : Prop :=
+  ∀ n, P11235638474492805442.a n = A080324 (n + 1)
 
 end A080324
 
@@ -6259,6 +6255,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A080337.P11360766722396696370
+
+/-! ## A080337.P8427145931833428736
+
+`A086365(n)-A324013(2*n+1)`
+-/
+
+namespace A080337.P8427145931833428736
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086365 n - A324013 (2 * n + 1)
+
+end
+
+end A080337.P8427145931833428736
 
 /-! ## A080337.P23541831361512079
 
@@ -10564,6 +10575,29 @@ def P4726651568406922159.Spec : Prop :=
 
 end A080354
 
+/-! ## A080354.P12158602318423111803
+
+`A001936(A073188(n+1)-A073188(n))`
+-/
+
+namespace A080354.P12158602318423111803
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001936 (A073188 (n + 1) - A073188 n).toNat
+
+end
+
+end A080354.P12158602318423111803
+
+namespace A080354
+
+/-- `A001936(A073188(n+1)-A073188(n))` -/
+def P12158602318423111803.Spec : Prop :=
+  ∀ n, P12158602318423111803.a n = A080354 n
+
+end A080354
+
 /-!
 # A080355: a(1)=1; thereafter, a(n+1) = a(n) + 2^(prime(n)-1).
 
@@ -11420,6 +11454,21 @@ end
 
 end A080360.P7913615912999489449
 
+/-! ## A080360.P18383213545745903487
+
+`A084139(n+1)+A084139(n+1)`
+-/
+
+namespace A080360.P18383213545745903487
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084139 (n + 1) + A084139 (n + 1)
+
+end
+
+end A080360.P18383213545745903487
+
 /-! ## A080360.P2244351666971387546
 
 `A031215(n+2)+A233739(n+2)-1`
@@ -11464,21 +11513,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080360.P4848819034090990396
-
-/-! ## A080360.P6898995419625034540
-
-`A084139(A028310(n+1))+A084139(n+1)`
--/
-
-namespace A080360.P6898995419625034540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084139 (A028310 (n + 1)).toNat + A084139 (n + 1)
-
-end
-
-end A080360.P6898995419625034540
 
 /-! ## A080360.P7718897611945038281
 
@@ -11584,6 +11618,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080360.P10240947258456480578
+
+/-! ## A080360.P4144359142850096793
+
+`A331032(A168425(n+2))`
+-/
+
+namespace A080360.P4144359142850096793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331032 (A168425 (n + 2)).toNat
+
+end
+
+end A080360.P4144359142850096793
 
 /-!
 # A080361: a(n) is the difference between the largest and the smallest positive integers x such that the number of unitary-prime-divisors of x! equals n. Same as the difference between the largest and the smallest positive integers x such that the number of primes in (x/2,x] equals n.
@@ -14742,20 +14791,20 @@ end
 
 end A080377.P7494251573326523537
 
-/-! ## A080377.P11210294171940342366
+/-! ## A080377.P6384580053270620148
 
-`A054541(A080376(n+1)+1)`
+`A075526(A080376(n+1))`
 -/
 
-namespace A080377.P11210294171940342366
+namespace A080377.P6384580053270620148
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054541 (A080376 (n + 1) + 1).toNat
+  A075526 (A080376 (n + 1)).toNat
 
 end
 
-end A080377.P11210294171940342366
+end A080377.P6384580053270620148
 
 /-!
 # A080378: Residues mod 4 of the n-th difference between consecutive primes.

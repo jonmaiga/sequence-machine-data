@@ -65,6 +65,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -9777,6 +9778,29 @@ def P10943219132473747898.Spec : Prop :=
 
 end A276863
 
+/-! ## A276863.P6596186979998107405
+
+`A110006(A276854(n+1))`
+-/
+
+namespace A276863.P6596186979998107405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110006 (A276854 (n + 1)).toNat
+
+end
+
+end A276863.P6596186979998107405
+
+namespace A276863
+
+/-- `A110006(A276854(n+1))` -/
+def P6596186979998107405.Spec : Prop :=
+  ∀ n, P6596186979998107405.a n = A276863 (n + 1)
+
+end A276863
+
 /-!
 # A276864: First differences of the Beatty sequence A001952 for 2 + sqrt(2).
 
@@ -11603,26 +11627,26 @@ theorem P14306164310346220883.correct : P14306164310346220883.Spec := by
 
 end A276867
 
-/-! ## A276867.P7672522091293660655
+/-! ## A276867.P339626123705418392
 
-`A044732(n+1)%A276868(n+1)`
+`A076662(n+1)+A057427(n)`
 -/
 
-namespace A276867.P7672522091293660655
+namespace A276867.P339626123705418392
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A044732 (n + 1)) (A276868 (n + 1))
+  A076662 (n + 1) + A057427 n
 
 end
 
-end A276867.P7672522091293660655
+end A276867.P339626123705418392
 
 namespace A276867
 
-/-- `A044732(n+1)%A276868(n+1)` -/
-def P7672522091293660655.Spec : Prop :=
-  ∀ n, P7672522091293660655.a n = A276867 (n + 1)
+/-- `A076662(n+1)+A057427(n)` -/
+def P339626123705418392.Spec : Prop :=
+  ∀ n, P339626123705418392.a n = A276867 (n + 1)
 
 end A276867
 

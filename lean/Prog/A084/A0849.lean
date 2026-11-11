@@ -103,7 +103,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -11286,20 +11285,20 @@ end
 
 end A084980.P15691517507559845507
 
-/-! ## A084980.P6948525724362419499
+/-! ## A084980.P1523962969950671141
 
-`A029837(A018900(n+1))*A129116(n+1)`
+`A121663(A330220(n+1))`
 -/
 
-namespace A084980.P6948525724362419499
+namespace A084980.P1523962969950671141
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029837 (A018900 (n + 1)).toNat * A129116 (n + 1)
+  A121663 (A330220 (n + 1)).toNat
 
 end
 
-end A084980.P6948525724362419499
+end A084980.P1523962969950671141
 
 /-!
 # A084981: Numbers all of whose proper divisors are palindromic.
@@ -12566,29 +12565,6 @@ def P9109985148676781051.Spec : Prop :=
 
 end A084990
 
-/-! ## A084990.P17963117019135069141
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=6, a(3)=17`
--/
-
-namespace A084990.P17963117019135069141
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 6, 17] fun n a =>
-  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
-
-end
-
-end A084990.P17963117019135069141
-
-namespace A084990
-
-/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
-def P17963117019135069141.Spec : Prop :=
-  ∀ n, P17963117019135069141.a n = A084990 n
-
-end A084990
-
 /-! ## A084990.P3168941051054226639
 
 `C(n, 2)+∑[n²]`
@@ -13047,6 +13023,32 @@ namespace A084990
 /-- `a(n-1)+n²+n-1` -/
 def P2223742138981284396.Spec : Prop :=
   ∀ n, P2223742138981284396.a n = A084990 n
+
+end A084990
+
+/-! ## A084990.P13365455048783056824
+
+`∑[(n²+n-1)%(n+1)²]`
+-/
+
+namespace A084990.P13365455048783056824
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod ((n ^ 2 : ℤ) + ((n : ℤ) - 1)) ((n + 1) ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A084990.P13365455048783056824
+
+namespace A084990
+
+/-- `∑[(n²+n-1)%(n+1)²]` -/
+def P13365455048783056824.Spec : Prop :=
+  ∀ n, P13365455048783056824.a n = A084990 n
 
 end A084990
 

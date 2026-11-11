@@ -44,7 +44,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -1084,21 +1083,6 @@ end
 
 end A321615.P12474642832862433985
 
-/-! ## A321615.P12019024925894526206
-
-`A265170(n+1)%A368572(A145784(n+4))`
--/
-
-namespace A321615.P12019024925894526206
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A265170 (n + 1)) (A368572 (A145784 (n + 4)).toNat)
-
-end
-
-end A321615.P12019024925894526206
-
 /-! ## A321615.P14645623312061323398
 
 `A057508(A291883(n)%A114612(3*n+2))`
@@ -1113,6 +1097,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321615.P14645623312061323398
+
+/-! ## A321615.P14634458629731269620
+
+`A104484(A269948(n))`
+-/
+
+namespace A321615.P14634458629731269620
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104484 (A269948 n).toNat
+
+end
+
+end A321615.P14634458629731269620
 
 /-!
 # A321617: Last term of the first occurrence of n consecutive odd squarefree composite numbers.

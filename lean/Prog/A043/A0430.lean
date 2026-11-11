@@ -24,7 +24,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
@@ -1139,6 +1139,21 @@ end
 
 end A043003.P8117315214202318601
 
+/-! ## A043003.P17841587345494908208
+
+`A043004(n+1)+A043004(n+1)-A043005(n+1)`
+-/
+
+namespace A043003.P17841587345494908208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043004 (n + 1) + A043004 (n + 1) - A043005 (n + 1)
+
+end
+
+end A043003.P17841587345494908208
+
 /-! ## A043003.P3694341036858609896
 
 `A014192(eq[1, A014192(n+1)%4]+1)`
@@ -1472,28 +1487,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A043003.P7817878994184906606
-
-/-! ## A043003.P11822872303431176801
-
-`∩[A014192(n+1), A100832(n+1)]`
--/
-
-namespace A043003.P11822872303431176801
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014192 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100832 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A043003.P11822872303431176801
 
 /-!
 # A043004: Base-4 palindromes that start with 2.
@@ -1907,6 +1900,21 @@ end
 
 end A043005.P7311231184085519549
 
+/-! ## A043005.P2892699560130418743
+
+`A043004(n+1)+A043004(n+1)-A043003(n+1)`
+-/
+
+namespace A043005.P2892699560130418743
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043004 (n + 1) + A043004 (n + 1) - A043003 (n + 1)
+
+end
+
+end A043005.P2892699560130418743
+
 /-! ## A043005.P14666689650250440731
 
 `A033999(A153285(n+1))+4*A043049(n+1)`
@@ -2202,28 +2210,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A043005.P17618900081264924927
-
-/-! ## A043005.P1461617042812552097
-
-`∩[A014192(n+1), A016813(n)+2]`
--/
-
-namespace A043005.P1461617042812552097
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014192 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016813 n + 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A043005.P1461617042812552097
 
 /-!
 # A043006: Base-5 palindromes that start with 1.
@@ -10345,6 +10331,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043046.P8030024220983645012
+
+/-! ## A043046.P15214846040091116166
+
+`A008611(A043002(n+1))`
+-/
+
+namespace A043046.P15214846040091116166
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008611 (A043002 (n + 1)).toNat
+
+end
+
+end A043046.P15214846040091116166
 
 /-!
 # A043047: a(n) = (s(n)+3)/4, where s(n) is the n-th base-4 palindrome that starts with 1 (A043003).

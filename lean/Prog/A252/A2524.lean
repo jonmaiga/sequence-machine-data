@@ -11,7 +11,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -52,6 +51,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -4779,20 +4779,20 @@ end
 
 end A252459.P7576834993185412250
 
-/-! ## A252459.P2367207130162861384
+/-! ## A252459.P18410409154696635929
 
-`A003654(A160217(2*(n+2)))%A069897(n+1)`
+`A114177(n)%A069897(n+1)`
 -/
 
-namespace A252459.P2367207130162861384
+namespace A252459.P18410409154696635929
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A003654 (A160217 (2 * (n + 2))).toNat) (A069897 (n + 1))
+  Int.tmod (A114177 n) (A069897 (n + 1))
 
 end
 
-end A252459.P2367207130162861384
+end A252459.P18410409154696635929
 
 /-!
 # A252460: Inverse permutation to A083221 considered as a permutation of natural numbers (with assumption that a(1) = 1).
@@ -4975,6 +4975,21 @@ end
 
 end A252461.P3748383216480772882
 
+/-! ## A252461.P1633225846262048967
+
+`lcm(A032742(n+1), A117365(n+1))`
+-/
+
+namespace A252461.P1633225846262048967
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A032742 (n + 1)) (A117365 (n + 1))
+
+end
+
+end A252461.P1633225846262048967
+
 /-! ## A252461.P2765566808391981020
 
 `A032742(n+1)*A064989(A020639(n+1))`
@@ -5079,21 +5094,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252461.P4749444610426251610
-
-/-! ## A252461.P10412340700437303463
-
-`lcm(A020639(A253554(n+1)), A032742(n+1))`
--/
-
-namespace A252461.P10412340700437303463
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A020639 (A253554 (n + 1)).toNat) (A032742 (n + 1))
-
-end
-
-end A252461.P10412340700437303463
 
 /-! ## A252461.P3266017109902014520
 
@@ -8175,6 +8175,102 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252481.P5229886329331198560
+
+/-!
+# A252483: Primes among "orderly" Friedman numbers A080035.
+
+The programs for A252483, there is no canonical definition to state claims against.
+-/
+
+/-! ## A252483.P14434706139510626154
+
+`filter[A080035(n+1), A010051(#)]`
+-/
+
+namespace A252483.P14434706139510626154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080035 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A252483.P14434706139510626154
+
+/-! ## A252483.P15400350774694400807
+
+`filter[A080035(n+1), A257531(#)]`
+-/
+
+namespace A252483.P15400350774694400807
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080035 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A257531 (f1 j).toNat = 1) n)
+
+end
+
+end A252483.P15400350774694400807
+
+/-! ## A252483.P17450508422740571543
+
+`filter[A080035(n+1), A323152(#)]`
+-/
+
+namespace A252483.P17450508422740571543
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080035 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323152 (f1 j).toNat = 1) n)
+
+end
+
+end A252483.P17450508422740571543
+
+/-! ## A252483.P5123993104767609586
+
+`filter[A080035(n+1), A323153(#)]`
+-/
+
+namespace A252483.P5123993104767609586
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080035 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323153 (f1 j).toNat = 1) n)
+
+end
+
+end A252483.P5123993104767609586
+
+/-! ## A252483.P15239819639760399695
+
+`filter[A080035(n+1), A324823(#)]`
+-/
+
+namespace A252483.P15239819639760399695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080035 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324823 (f1 j).toNat = 1) n)
+
+end
+
+end A252483.P15239819639760399695
 
 /-!
 # A252488: Binary sequence starting with 1 and with run lengths given by the ruler sequence A001511.

@@ -24,9 +24,9 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -3002,21 +3002,6 @@ end A240025
 
 The programs for A240026, there is no canonical definition to state claims against.
 -/
-
-/-! ## A240026.P1456347366824331455
-
-`A303708(A154638(floor(n/3)))+A000726(n)`
--/
-
-namespace A240026.P1456347366824331455
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A154638 ⌊(n : ℚ) / 3⌋.toNat).toNat + A000726 n
-
-end
-
-end A240026.P1456347366824331455
 
 /-! ## A240026.P17705584015766981895
 

@@ -37,6 +37,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -8734,35 +8735,29 @@ def P14327231732588924810.Spec : Prop :=
 
 end A027375
 
-/-! ## A027375.P2281303033007434728
+/-! ## A027375.P810455170652337944
 
-`∑{d}[n, 2^#*A008683(n/#)]`
+`∑{d}[n, 2^(n/#)*A008683(#)]`
 -/
 
-namespace A027375.P2281303033007434728
+namespace A027375.P810455170652337944
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), (2 ^ d : ℤ) * A008683 (SequenceMachineLib.roundAway ((n : ℚ) / (d : ℚ))).toNat
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (2 : ℝ) ^ ((n : ℚ) / (d : ℚ) : ℝ) * (A008683 d : ℝ)
 
 end
 
-end A027375.P2281303033007434728
+end A027375.P810455170652337944
 
 namespace A027375
 
-/-- `∑{d}[n, 2^#*A008683(n/#)]` -/
-def P2281303033007434728.Spec : Prop :=
-  ∀ n, P2281303033007434728.a n = A027375 n
-
-theorem P2281303033007434728.correct : P2281303033007434728.Spec := by
-  intro n
-  simp only [A027375, Nat.add_sub_cancel, A027375.P2281303033007434728.f1, A027375.P2281303033007434728.a, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
+/-- `∑{d}[n, 2^(n/#)*A008683(#)]` -/
+def P810455170652337944.Spec : Prop :=
+  ∀ n, P810455170652337944.a n = (A027375 n : ℝ)
 
 end A027375
 

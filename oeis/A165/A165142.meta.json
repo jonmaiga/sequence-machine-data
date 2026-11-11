@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of a partial sum of 0, 1, 1/2, B_2, B_3, B_4,.., a modified Bernoulli sequence.",
+  "description": "Numerators of a partial sum of 0, 1, 1/2, B_2, B_3, B_4,.., where B_i is the Bernoulli number.",
   "id": "A165142",
   "mentions": [
     "A027641",

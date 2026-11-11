@@ -10116,6 +10116,27 @@ end
 
 end A138290.P5060373838183911302
 
+/-! ## A138290.P14031763800709512359
+
+`eq[A099890(n), A106821(n+1)]`
+-/
+
+namespace A138290.P14031763800709512359
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099890 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106821 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A138290.P14031763800709512359
+
 /-! ## A138290.P14647355706190024044
 
 `eq[A099894(n), A106821(n+1)]`
@@ -10430,27 +10451,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A138290.P4723184080609075318
-
-/-! ## A138290.P15603056983490309082
-
-`eq[A033322(n+1), A106821(n+1)]`
--/
-
-namespace A138290.P15603056983490309082
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033322 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106821 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A138290.P15603056983490309082
 
 /-!
 # A138291: Number of primes of the form prime(n)+g, where g is a primitive root of prime(n).

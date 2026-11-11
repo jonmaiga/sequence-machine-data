@@ -21,7 +21,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
@@ -29,7 +29,7 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B001.C000
@@ -1344,6 +1344,29 @@ namespace A072004
 /-- `A024450(1+n)%Δ[A007504(n)]` -/
 def P14222311550480990540.Spec : Prop :=
   ∀ n, P14222311550480990540.a n = A072004 (n + 1)
+
+end A072004
+
+/-! ## A072004.P1902084332672101249
+
+`A024450(n+1)%A000040(n+1)`
+-/
+
+namespace A072004.P1902084332672101249
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A024450 (n + 1)) (A000040 (n + 1))
+
+end
+
+end A072004.P1902084332672101249
+
+namespace A072004
+
+/-- `A024450(n+1)%A000040(n+1)` -/
+def P1902084332672101249.Spec : Prop :=
+  ∀ n, P1902084332672101249.a n = A072004 (n + 1)
 
 end A072004
 

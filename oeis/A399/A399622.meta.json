@@ -1,0 +1,13 @@
+{
+  "description": "Semiprimes N = p*q with 5 < p < q such that N is the largest vertex of a directed cycle of length >= 3 in the digraph on all such semiprimes, with an arc N -> M iff M is also such a semiprime and M is one of N-(p+q), N-(q-p), N+(q-p), N+(p+q).",
+  "id": "A399622",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

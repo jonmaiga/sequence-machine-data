@@ -176,6 +176,21 @@ end
 
 end A238104.P8483634287196267430
 
+/-! ## A238104.P15905175931206014866
+
+`A238105(n+1)+A238105(n+1)+A238105(n+1)`
+-/
+
+namespace A238104.P15905175931206014866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238105 (n + 1) + A238105 (n + 1) + A238105 (n + 1)
+
+end
+
+end A238104.P15905175931206014866
+
 /-! ## A238104.P1161318701714313396
 
 `A008585(A238105(n+1))`
@@ -8366,6 +8381,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238192.P6702366294643482889
+
+/-! ## A238192.P688370949827853030
+
+`xor(A036987(n), A306577(n+1))`
+-/
+
+namespace A238192.P688370949827853030
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A036987 n) (A306577 (n + 1))
+
+end
+
+end A238192.P688370949827853030
 
 /-! ## A238192.P6086714640314922747
 

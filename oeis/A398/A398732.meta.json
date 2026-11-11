@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(n^2,k) * a(n-k).",
+  "id": "A398732",
+  "mentions": [
+    "A000670",
+    "A401681",
+    "A401682",
+    "A401683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

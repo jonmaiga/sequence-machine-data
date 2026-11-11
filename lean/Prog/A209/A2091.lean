@@ -8981,27 +8981,6 @@ end A209190.P2319646150929732606
 The programs for A209191, there is no canonical definition to state claims against.
 -/
 
-/-! ## A209191.P801328461958859777
-
-`eq[0, A245075(n+2)]+2`
--/
-
-namespace A209191.P801328461958859777
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245075 (n + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 2
-
-end
-
-end A209191.P801328461958859777
-
 /-! ## A209191.P5582447221008726649
 
 `eq[2*dr(n), A090088(n+1)]`
@@ -9022,6 +9001,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A209191.P5582447221008726649
+
+/-! ## A209191.P801328461958859777
+
+`eq[0, A245075(n+2)]+2`
+-/
+
+namespace A209191.P801328461958859777
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245075 (n + 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 2
+
+end
+
+end A209191.P801328461958859777
 
 /-! ## A209191.P16454104046900894961
 

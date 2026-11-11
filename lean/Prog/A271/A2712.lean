@@ -2139,57 +2139,6 @@ def P16210527500048439706.Spec : Prop :=
 end A271216
 
 /-!
-# A271217: Number of symmetric reduced rearrangement maps.
-
-The programs for A271217, there is no canonical definition to state claims against.
--/
-
-/-! ## A271217.P8529765201068970651
-
-`A351006(or(gcd(n, n%2)+1, A236559(n)))`
--/
-
-namespace A271217.P8529765201068970651
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (Int.lor (Nat.gcd n (n % 2) + 1 : ℤ) (A236559 n)).toNat
-
-end
-
-end A271217.P8529765201068970651
-
-/-! ## A271217.P13438761250038151418
-
-`A351006(or(A141310(n), A236559(n)))`
--/
-
-namespace A271217.P13438761250038151418
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (Int.lor (A141310 n) (A236559 n)).toNat
-
-end
-
-end A271217.P13438761250038151418
-
-/-! ## A271217.P16782478576851628208
-
-`A351006(or(A007947(n+1), A236559(n)))`
--/
-
-namespace A271217.P16782478576851628208
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (Int.lor (A007947 (n + 1)) (A236559 n)).toNat
-
-end
-
-end A271217.P16782478576851628208
-
-/-!
 # A271218: Number of symmetric linked diagrams with n links and no simple link.
 
 The programs for A271218, there is no canonical definition to state claims against.

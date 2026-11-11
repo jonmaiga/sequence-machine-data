@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number k such that 2*(k*n+v) = Sum_{d|n} (k*d+v), where k and v are coprime and not both are 0.",
+  "description": "a(n) is the number k such that 2*(k*n+v) = Sum_{d|n} (k*d+v), where k and v are coprime, not both are 0 and k*n+v>=0.",
   "id": "A398981",
   "mentions": [
     "A000005",

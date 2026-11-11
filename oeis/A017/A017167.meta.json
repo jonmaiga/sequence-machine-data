@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (9*n)^7.",
   "id": "A017167",
-  "mentions": [],
+  "mentions": [
+    "A013665"
+  ],
   "tags": [
     "easy",
     "formulas",

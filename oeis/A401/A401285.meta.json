@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty convex vertex sets in the n X n black bishop graph.",
+  "id": "A401285",
+  "mentions": [
+    "A014825",
+    "A060867",
+    "A401286"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

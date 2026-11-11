@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = log_2(A307848(n)).",
+  "id": "A401505",
+  "mentions": [
+    "A007814",
+    "A056170",
+    "A064547",
+    "A307848",
+    "A369165",
+    "A389836"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

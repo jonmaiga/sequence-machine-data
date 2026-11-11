@@ -1,0 +1,20 @@
+{
+  "description": "Number of free n-celled polyominoes that do not contain a copy of the skew tetromino.",
+  "id": "A401402",
+  "mentions": [
+    "A000105",
+    "A401398",
+    "A401400",
+    "A401401",
+    "A401403"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

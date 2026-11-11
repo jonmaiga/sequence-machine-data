@@ -1,5 +1,5 @@
 {
-  "description": "Almost trivalent maps.",
+  "description": "Number of rooted planar maps with 2n trivalent vertices and a root vertex of valence 4.",
   "id": "A002006",
   "mentions": [
     "A001006",
@@ -10,12 +10,12 @@
     "A002010"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

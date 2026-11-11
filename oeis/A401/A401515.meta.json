@@ -1,0 +1,18 @@
+{
+  "description": "Hypotenuses of the primitive Pythagorean triples corresponding to A398554.",
+  "id": "A401515",
+  "mentions": [
+    "A398554",
+    "A401513",
+    "A401514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

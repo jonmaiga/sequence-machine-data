@@ -3711,6 +3711,32 @@ def P14562358380718420660.Spec : Prop :=
 
 end A046717
 
+/-! ## A046717.P10217405213374418273
+
+`2*∑{#}[n-1, (-1)^(n+1-#)*3^#]+(-1)^n`
+-/
+
+namespace A046717.P10217405213374418273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 * (∑ k ∈ Finset.range (f1 n + 1).toNat, (-1 : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ) * (3 ^ k : ℚ)) + ((-1) ^ n : ℚ)
+
+end
+
+end A046717.P10217405213374418273
+
+namespace A046717
+
+/-- `2*∑{#}[n-1, (-1)^(n+1-#)*3^#]+(-1)^n` -/
+def P10217405213374418273.Spec : Prop :=
+  ∀ n, P10217405213374418273.a n = (A046717 n : ℚ)
+
+end A046717
+
 /-! ## A046717.P1858923851565624144
 
 `a(n-1)+a(n-2)+a(n-2)+a(n-1)+a(n-2)` with `a(0)=1, a(1)=1`
@@ -3783,29 +3809,6 @@ namespace A046717
 /-- `abs(or(1, A076040(n)))` -/
 def P841703680476715839.Spec : Prop :=
   ∀ n, P841703680476715839.a n = A046717 n
-
-end A046717
-
-/-! ## A046717.P15791084564810759664
-
-`and(-3, A103425(n))`
--/
-
-namespace A046717.P15791084564810759664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-3) (A103425 n)
-
-end
-
-end A046717.P15791084564810759664
-
-namespace A046717
-
-/-- `and(-3, A103425(n))` -/
-def P15791084564810759664.Spec : Prop :=
-  ∀ n, P15791084564810759664.a n = A046717 n
 
 end A046717
 
@@ -12842,19 +12845,19 @@ end
 
 end A046796.P17387610858116813192
 
-/-! ## A046796.P12693103368232585950
+/-! ## A046796.P18014154167718744654
 
-`∩[A102749(n+1), A115839(n+1)]`
+`∩[A120686(n), A401704(n+1)]`
 -/
 
-namespace A046796.P12693103368232585950
+namespace A046796.P18014154167718744654
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102749 (n + 1)
+  A120686 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115839 (n + 1)
+  A401704 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -12862,7 +12865,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A046796.P12693103368232585950
+end A046796.P18014154167718744654
+
+/-! ## A046796.P16254591114088382911
+
+`∩[A353167(n+1), A401704(n+1)]`
+-/
+
+namespace A046796.P16254591114088382911
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353167 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401704 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A046796.P16254591114088382911
 
 /-!
 # A046797: Arithmetic, geometric and harmonic means of a(n) and A046796(n) all integers.

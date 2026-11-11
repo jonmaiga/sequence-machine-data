@@ -1313,6 +1313,21 @@ end
 
 end A324716.P12283299716591656770
 
+/-! ## A324716.P13673380575213964082
+
+`xor(A323243(n+1), A324819(n+1))`
+-/
+
+namespace A324716.P13673380575213964082
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A323243 (n + 1)) (A324819 (n + 1))
+
+end
+
+end A324716.P13673380575213964082
+
 /-! ## A324716.P11043372892460026112
 
 `and(2*A156552(n+1), A324713(n+1))`
@@ -1375,21 +1390,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324716.P4799581213035948501
-
-/-! ## A324716.P9062118263090835428
-
-`xor(A323243(n+1)%A000225(n+1), A324819(n+1))`
--/
-
-namespace A324716.P9062118263090835428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (Int.tmod (A323243 (n + 1)) (A000225 (n + 1))) (A324819 (n + 1))
-
-end
-
-end A324716.P9062118263090835428
 
 /-!
 # A324717: Xor-Moebius transform of A324716, where A324716(n) = bitxor(2*A156552(n), bitand(2*A156552(n), A323243(n))).
@@ -1577,6 +1577,36 @@ def P3504083097014824961.Spec : Prop :=
 
 end A324718
 
+/-! ## A324718.P10077183659450590434
+
+`∩[A057653(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P10077183659450590434
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057653 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P10077183659450590434
+
+namespace A324718
+
+/-- `∩[A057653(n+1), A324639(n+1)]` -/
+def P10077183659450590434.Spec : Prop :=
+  ∀ n, (P10077183659450590434.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
 /-! ## A324718.P17418102564206400907
 
 `∩[A324639(n+1), A016813(n)]`
@@ -1607,6 +1637,96 @@ def P17418102564206400907.Spec : Prop :=
 
 end A324718
 
+/-! ## A324718.P7184596589924081991
+
+`∩[A047478(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P7184596589924081991
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047478 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P7184596589924081991
+
+namespace A324718
+
+/-- `∩[A047478(n+1), A324639(n+1)]` -/
+def P7184596589924081991.Spec : Prop :=
+  ∀ n, (P7184596589924081991.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
+/-! ## A324718.P3821431596996271522
+
+`∩[A047623(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P3821431596996271522
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P3821431596996271522
+
+namespace A324718
+
+/-- `∩[A047623(n+1), A324639(n+1)]` -/
+def P3821431596996271522.Spec : Prop :=
+  ∀ n, (P3821431596996271522.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
+/-! ## A324718.P16848859155199640496
+
+`∩[A079523(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P16848859155199640496
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079523 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P16848859155199640496
+
+namespace A324718
+
+/-- `∩[A079523(n+1), A324639(n+1)]` -/
+def P16848859155199640496.Spec : Prop :=
+  ∀ n, (P16848859155199640496.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
 /-! ## A324718.P17669695186399532043
 
 `∩[A324639(n+1), A326835(n+1)]`
@@ -1634,6 +1754,66 @@ namespace A324718
 /-- `∩[A324639(n+1), A326835(n+1)]` -/
 def P17669695186399532043.Spec : Prop :=
   ∀ n, (P17669695186399532043.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
+/-! ## A324718.P1793221301261926205
+
+`∩[A089684(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P1793221301261926205
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089684 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P1793221301261926205
+
+namespace A324718
+
+/-- `∩[A089684(n+1), A324639(n+1)]` -/
+def P1793221301261926205.Spec : Prop :=
+  ∀ n, (P1793221301261926205.a n : ℤ) = A324718 (n + 1)
+
+end A324718
+
+/-! ## A324718.P10301417667339863981
+
+`∩[A247328(n+1), A324639(n+1)]`
+-/
+
+namespace A324718.P10301417667339863981
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247328 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324718.P10301417667339863981
+
+namespace A324718
+
+/-- `∩[A247328(n+1), A324639(n+1)]` -/
+def P10301417667339863981.Spec : Prop :=
+  ∀ n, (P10301417667339863981.a n : ℤ) = A324718 (n + 1)
 
 end A324718
 
@@ -5515,6 +5695,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A324746.P7686336883547166100
+
+/-! ## A324746.P14995962292055074160
+
+`∩[A324745(n+1), A401070(n+1)]`
+-/
+
+namespace A324746.P14995962292055074160
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324745 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401070 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324746.P14995962292055074160
 
 /-! ## A324746.P3917546349017918136
 

@@ -2,7 +2,7 @@
   "description": "Nearest integer to log(n)^log(n).",
   "id": "A062420",
   "mentions": [
-    "A062419"
+    "A061052"
   ],
   "tags": [
     "easy",

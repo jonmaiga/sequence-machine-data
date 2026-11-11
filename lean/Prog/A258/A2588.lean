@@ -9045,6 +9045,21 @@ end
 
 end A258858.P2008560890753902835
 
+/-! ## A258858.P3847707696651339389
+
+`A258855(A258855(A000040(A008578(n+1))))`
+-/
+
+namespace A258858.P3847707696651339389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258855 (A258855 (A000040 (A008578 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A258858.P3847707696651339389
+
 /-!
 # A258859: Ninth pi-based arithmetic derivative of n.
 

@@ -41,7 +41,6 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,6 +61,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -759,6 +759,24 @@ end
 
 end A139703.P9294166178823443660
 
+/-! ## A139703.P14212840866728413620
+
+`filter[A122146(n+1), A401791(#)]`
+-/
+
+namespace A139703.P14212840866728413620
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122146 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A139703.P14212840866728413620
+
 /-! ## A139703.P9965800713520917599
 
 `∩[A013929(n+1), A122146(n+1)]`
@@ -1054,24 +1072,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A139703.P6250132051298274886
-
-/-! ## A139703.P6486553956199840703
-
-`filter[A122144(n+1), A389905(#)]`
--/
-
-namespace A139703.P6486553956199840703
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122144 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A389905 (f1 j).toNat = 1) n)
-
-end
-
-end A139703.P6486553956199840703
 
 /-!
 # A139704: Nearly palindromic numbers: non-palindromes that can be made palindromic by inserting an extra digit.
@@ -11260,29 +11260,32 @@ def P9981765684062638761.Spec : Prop :=
 
 end A139757
 
-/-! ## A139757.P10483182645881115864
+/-! ## A139757.P1449418405686735081
 
-`∑[A381390(n)]`
+`C(2*(n+1), 2)+3*C(2*(n+1), 3)`
 -/
 
-namespace A139757.P10483182645881115864
+namespace A139757.P1449418405686735081
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A381390 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * (n + 1)) 2 + 3 * Nat.choose (2 * (n + 1)) 3
 
 end
 
-end A139757.P10483182645881115864
+end A139757.P1449418405686735081
 
 namespace A139757
 
-/-- `∑[A381390(n)]` -/
-def P10483182645881115864.Spec : Prop :=
-  ∀ n, P10483182645881115864.a n = A139757 n
+/-- `C(2*(n+1), 2)+3*C(2*(n+1), 3)` -/
+def P1449418405686735081.Spec : Prop :=
+  ∀ n, (P1449418405686735081.a n : ℤ) = A139757 n
+
+theorem P1449418405686735081.correct : P1449418405686735081.Spec := by
+  intro n
+  simp only [A139757, Nat.add_sub_cancel, A139757.P1449418405686735081.a, A139757.P12680836282204562874.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A139757
 

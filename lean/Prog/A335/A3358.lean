@@ -6743,6 +6743,52 @@ def P4327254597999283770.Spec : Prop :=
 
 end A335876
 
+/-! ## A335876.P7659764008298133471
+
+`A346704(A342768(n+1))+n+1`
+-/
+
+namespace A335876.P7659764008298133471
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346704 (A342768 (n + 1)).toNat + (n + 1 : ℤ)
+
+end
+
+end A335876.P7659764008298133471
+
+namespace A335876
+
+/-- `A346704(A342768(n+1))+n+1` -/
+def P7659764008298133471.Spec : Prop :=
+  ∀ n, P7659764008298133471.a n = A335876 (n + 1)
+
+end A335876
+
+/-! ## A335876.P9823094601023557007
+
+`A302024(A302776(A302023(n+1)))+n+1`
+-/
+
+namespace A335876.P9823094601023557007
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302024 (A302776 (A302023 (n + 1)).toNat).toNat + (n + 1 : ℤ)
+
+end
+
+end A335876.P9823094601023557007
+
+namespace A335876
+
+/-- `A302024(A302776(A302023(n+1)))+n+1` -/
+def P9823094601023557007.Spec : Prop :=
+  ∀ n, P9823094601023557007.a n = A335876 (n + 1)
+
+end A335876
+
 /-!
 # A335877: a(n) = A331410(n) - A329697(n).
 

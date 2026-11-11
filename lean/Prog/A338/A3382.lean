@@ -1820,21 +1820,6 @@ end
 
 end A338211.P7604736053613429374
 
-/-! ## A338211.P9282741234298050222
-
-`A187894(A338210(n))%4`
--/
-
-namespace A338211.P9282741234298050222
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A187894 (A338210 n).toNat) 4
-
-end
-
-end A338211.P9282741234298050222
-
 /-! ## A338211.P12580164160370616448
 
 `A000120((4*A338210(n))²)`
@@ -1879,6 +1864,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A338211.P10136600679869138179
+
+/-! ## A338211.P2918080264332256646
+
+`A145649(A068084(n+1))`
+-/
+
+namespace A338211.P2918080264332256646
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145649 (A068084 (n + 1)).toNat
+
+end
+
+end A338211.P2918080264332256646
 
 /-!
 # A338213: a(n) is the number of free polyominoes with sprawl n.

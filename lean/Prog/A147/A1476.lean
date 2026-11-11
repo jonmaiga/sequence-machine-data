@@ -8385,6 +8385,29 @@ def P17474326246547709834.Spec : Prop :=
 
 end A147656
 
+/-! ## A147656.P13454765779642306234
+
+`C(n, 2)+n*((n+1)²-n)+n`
+-/
+
+namespace A147656.P13454765779642306234
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n 2 : ℤ) + (n : ℤ) * (((n + 1) ^ 2 : ℤ) - (n : ℤ)) + (n : ℤ)
+
+end
+
+end A147656.P13454765779642306234
+
+namespace A147656
+
+/-- `C(n, 2)+n*((n+1)²-n)+n` -/
+def P13454765779642306234.Spec : Prop :=
+  ∀ n, P13454765779642306234.a n = A147656 n
+
+end A147656
+
 /-! ## A147656.P2517229021048506805
 
 `floor(lcm(2*n+1, ∑[n])+n-1+ϕ)`
@@ -8431,29 +8454,6 @@ namespace A147656
 /-- `(2/(n+1)+2*n+1)*C(n+1, 2)` -/
 def P1802607308848151545.Spec : Prop :=
   ∀ n, P1802607308848151545.a n = (A147656 n : ℚ)
-
-end A147656
-
-/-! ## A147656.P10429128911903359917
-
-`A059270(n)+n`
--/
-
-namespace A147656.P10429128911903359917
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059270 n + (n : ℤ)
-
-end
-
-end A147656.P10429128911903359917
-
-namespace A147656
-
-/-- `A059270(n)+n` -/
-def P10429128911903359917.Spec : Prop :=
-  ∀ n, P10429128911903359917.a n = A147656 n
 
 end A147656
 

@@ -878,21 +878,6 @@ end
 
 end A301314.P16344678810154793963
 
-/-! ## A301314.P15381826869080520140
-
-`A322794(A001826(n+1)^A008620(n))`
--/
-
-namespace A301314.P15381826869080520140
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (SequenceMachineLib.roundAway ((A001826 (n + 1) : ℚ) ^ (A008620 n : ℤ))).toNat
-
-end
-
-end A301314.P15381826869080520140
-
 /-! ## A301314.P11914084281504236795
 
 `A136480(A119584(n+1)*A151509(n))`
@@ -907,6 +892,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301314.P11914084281504236795
+
+/-! ## A301314.P18006713798455071767
+
+`A337243(A106633(n))`
+-/
+
+namespace A301314.P18006713798455071767
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337243 (A106633 n).toNat
+
+end
+
+end A301314.P18006713798455071767
 
 /-!
 # A301315: Multiplicative with a(p^e) = prime(p) ^ a(e) (where prime(k) denotes the k-th prime number).

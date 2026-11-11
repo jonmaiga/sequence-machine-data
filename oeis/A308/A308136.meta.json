@@ -2,6 +2,7 @@
   "description": "Number of (undirected) Hamiltonian paths in the 2n-crossed prism graph.",
   "id": "A308136",
   "mentions": [
+    "A052482",
     "A137885"
   ],
   "tags": [

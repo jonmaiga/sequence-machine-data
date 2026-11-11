@@ -14378,32 +14378,32 @@ def P2824697819267519673.Spec : Prop :=
 
 end A173589
 
-/-! ## A173589.P5275741879703216241
+/-! ## A173589.P18020904439625237210
 
-`eq[8, A245565(n)]`
+`eq[7, A385887(n)]`
 -/
 
-namespace A173589.P5275741879703216241
+namespace A173589.P18020904439625237210
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
+  7
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245565 n
+  A385887 n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
 
 end
 
-end A173589.P5275741879703216241
+end A173589.P18020904439625237210
 
 namespace A173589
 
-/-- `eq[8, A245565(n)]` -/
-def P5275741879703216241.Spec : Prop :=
-  ∀ n, (P5275741879703216241.a n : ℤ) = A173589 (n + 1)
+/-- `eq[7, A385887(n)]` -/
+def P18020904439625237210.Spec : Prop :=
+  ∀ n, (P18020904439625237210.a n : ℤ) = A173589 (n + 1)
 
 end A173589
 

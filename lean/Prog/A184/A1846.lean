@@ -33,6 +33,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -43,7 +44,6 @@ import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
-import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
@@ -5280,6 +5280,29 @@ def P4645803855587436106.Spec : Prop :=
 
 end A184628
 
+/-! ## A184628.P16440397911005927345
+
+`max((n+1)^3, n+2)`
+-/
+
+namespace A184628.P16440397911005927345
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  max ((n + 1) ^ 3) (n + 2)
+
+end
+
+end A184628.P16440397911005927345
+
+namespace A184628
+
+/-- `max((n+1)^3, n+2)` -/
+def P16440397911005927345.Spec : Prop :=
+  ∀ n, (P16440397911005927345.a n : ℤ) = A184628 (n + 1)
+
+end A184628
+
 /-! ## A184628.P15225317293833640512
 
 `lcm((-1)^T(n-1,k-1), Δ[∑[n]²])` with `a(0)=2`
@@ -5597,29 +5620,6 @@ namespace A184628
 /-- `(n+1)^val(a(n-1), n)` -/
 def P10796590760568324769.Spec : Prop :=
   ∀ n, (P10796590760568324769.a n : ℤ) = A184628 (n + 1)
-
-end A184628
-
-/-! ## A184628.P11050351729364699112
-
-`(n+1)*floor(acot(n)+(n+1)²)`
--/
-
-namespace A184628.P11050351729364699112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * ⌊SequenceMachineLib.acot (n : ℝ) + ((n + 1) ^ 2 : ℝ)⌋
-
-end
-
-end A184628.P11050351729364699112
-
-namespace A184628
-
-/-- `(n+1)*floor(acot(n)+(n+1)²)` -/
-def P11050351729364699112.Spec : Prop :=
-  ∀ n, P11050351729364699112.a n = A184628 (n + 1)
 
 end A184628
 
@@ -6787,6 +6787,29 @@ def P14062223310464566951.Spec : Prop :=
 
 end A184635
 
+/-! ## A184635.P13914421531786323422
+
+`max(5, 4*(n+1)*(n+1))`
+-/
+
+namespace A184635.P13914421531786323422
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  max 5 (4 * (n + 1) * (n + 1))
+
+end
+
+end A184635.P13914421531786323422
+
+namespace A184635
+
+/-- `max(5, 4*(n+1)*(n+1))` -/
+def P13914421531786323422.Spec : Prop :=
+  ∀ n, (P13914421531786323422.a n : ℤ) = A184635 (n + 1)
+
+end A184635
+
 /-! ## A184635.P9745431609132465144
 
 `C(2, n+2)+(2*(n+1))²`
@@ -6977,29 +7000,6 @@ namespace A184635
 /-- `((n+2)%a(n-1)+n)²` -/
 def P5559111960323977564.Spec : Prop :=
   ∀ n, (P5559111960323977564.a n : ℤ) = A184635 (n + 1)
-
-end A184635
-
-/-! ## A184635.P13066972111941010347
-
-`(gcd(n, a(n-1))+n+2)²` with `a(0)=5`
--/
-
-namespace A184635.P13066972111941010347
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [5] fun n a =>
-  (Nat.gcd n (a (n - 1)) + (n + 2)) ^ 2
-
-end
-
-end A184635.P13066972111941010347
-
-namespace A184635
-
-/-- `(gcd(n, a(n-1))+n+2)²` -/
-def P13066972111941010347.Spec : Prop :=
-  ∀ n, (P13066972111941010347.a n : ℤ) = A184635 (n + 1)
 
 end A184635
 

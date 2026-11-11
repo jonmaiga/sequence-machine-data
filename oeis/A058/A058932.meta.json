@@ -1,8 +1,9 @@
 {
-  "description": "Number of unlabeled claw-free cubic graphs with 2n nodes and connectivity 1.",
+  "description": "Number of unlabeled claw-free cubic graphs with 2n nodes and connectivity exactly 1.",
   "id": "A058932",
   "mentions": [
-    "A058929"
+    "A058929",
+    "A084656"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

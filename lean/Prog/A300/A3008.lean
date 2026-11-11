@@ -27,7 +27,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
@@ -1075,6 +1074,21 @@ end A300816.P11649382049572093157
 The programs for A300817, there is no canonical definition to state claims against.
 -/
 
+/-! ## A300817.P12076558364527142064
+
+`A087242(A253909(n))`
+-/
+
+namespace A300817.P12076558364527142064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087242 (A253909 n).toNat
+
+end
+
+end A300817.P12076558364527142064
+
 /-! ## A300817.P17161101096523190294
 
 `A233583(A257088(n)²)%6`
@@ -1134,21 +1148,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300817.P5741243785771543394
-
-/-! ## A300817.P15544977494163967287
-
-`A087242(A087242(A126148(n+1))+n)`
--/
-
-namespace A300817.P15544977494163967287
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087242 (A087242 (A126148 (n + 1)).toNat + (n : ℤ)).toNat
-
-end
-
-end A300817.P15544977494163967287
 
 /-!
 # A300819: Consider the concatenation of a(n) and a(n+1) as the integer A; consider the concatenation of the last digit of a(n) and the first digit of a(n+1) as the integer B. Now A is divisible by B.

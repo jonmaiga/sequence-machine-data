@@ -4116,21 +4116,6 @@ end
 
 end A078425.P3517216671407061093
 
-/-! ## A078425.P8768425828746074519
-
-`A088524(A134678(n+2))`
--/
-
-namespace A078425.P8768425828746074519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088524 (A134678 (n + 2)).toNat
-
-end
-
-end A078425.P8768425828746074519
-
 /-! ## A078425.P16888185425706407908
 
 `p?[record[A112543(A310466(n))]]`
@@ -4172,6 +4157,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078425.P9559462127095831876
+
+/-! ## A078425.P15862313009344394337
+
+`A319333(A276642(n+1))`
+-/
+
+namespace A078425.P15862313009344394337
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319333 (A276642 (n + 1)).toNat
+
+end
+
+end A078425.P15862313009344394337
 
 /-!
 # A078426: Numbers k such that there is no solution to the equation sigma(x) = 2^k, where sigma(x) denotes the sum of the divisors of x.
@@ -15858,6 +15858,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078496.P8668213220210655653
+
+/-! ## A078496.P9937839208197573295
+
+`A082467(n+4)+A020705(n)`
+-/
+
+namespace A078496.P9937839208197573295
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082467 (n + 4) + A020705 n
+
+end
+
+end A078496.P9937839208197573295
 
 /-! ## A078496.P1098602531255183668
 

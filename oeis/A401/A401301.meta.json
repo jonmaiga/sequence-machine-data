@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime that is the sum of n distinct elements from the union of primes and powers of 3 starting at 3.",
+  "id": "A401301",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A398402",
+    "A399290",
+    "A399546",
+    "A399803",
+    "A400148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

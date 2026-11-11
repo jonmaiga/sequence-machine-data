@@ -7535,6 +7535,24 @@ end
 
 end A167859.P10434157372806823593
 
+/-! ## A167859.P734867256948379070
+
+`∑{#}[n, 4^(n-#)*C(2*#, #)²]`
+-/
+
+namespace A167859.P734867256948379070
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (4 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose (2 * k) k ^ 2 : ℚ)
+
+end
+
+end A167859.P734867256948379070
+
 /-! ## A167859.P6492138433498752797
 
 `A002894(n)+4*a(n-1)` with `a(0)=1`
@@ -8144,23 +8162,23 @@ end A167869.P3431034605552411999
 The programs for A167870, there is no canonical definition to state claims against.
 -/
 
-/-! ## A167870.P18030565004058712493
+/-! ## A167870.P10195883360011724583
 
-`∑{#}[n, 2^(4*(n-#))*C(2*#, #)^3]`
+`∑{#}[n, 16^(n-#)*C(2*#, #)^3]`
 -/
 
-namespace A167870.P18030565004058712493
+namespace A167870.P10195883360011724583
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (2 : ℚ) ^ (4 * ((n : ℤ) - (k : ℤ)) : ℤ) * (Nat.choose (2 * k) k ^ 3 : ℚ)
+  ∑ k ∈ Finset.range (f1 n + 1), (16 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose (2 * k) k ^ 3 : ℚ)
 
 end
 
-end A167870.P18030565004058712493
+end A167870.P10195883360011724583
 
 /-! ## A167870.P18285078358289351914
 

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest palindromic number of length 16 in two bases differing by n.",
+  "id": "A401324",
+  "mentions": [
+    "A171740",
+    "A216840",
+    "A216841",
+    "A216843",
+    "A216899",
+    "A216910"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

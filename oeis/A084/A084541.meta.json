@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that 4^k + 9i is a Gaussian prime.",
   "id": "A084541",
-  "mentions": [],
+  "mentions": [
+    "A084542"
+  ],
   "tags": [
     "hard",
     "more",

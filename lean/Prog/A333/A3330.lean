@@ -30,7 +30,6 @@ import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
@@ -496,6 +495,21 @@ end
 
 end A333007.P4158196111654898835
 
+/-! ## A333007.P6520200866125376032
+
+`A000290(A333008(n+1))`
+-/
+
+namespace A333007.P6520200866125376032
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A333008 (n + 1)).toNat
+
+end
+
+end A333007.P6520200866125376032
+
 /-! ## A333007.P11998057652610733029
 
 `A333008(n+1)*A333008(A000027(n+1))`
@@ -510,51 +524,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333007.P11998057652610733029
-
-/-! ## A333007.P1667209628062965886
-
-`A000290(2*A333008(n+1)-A333008(n+1))`
--/
-
-namespace A333007.P1667209628062965886
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (2 * A333008 (n + 1) - A333008 (n + 1)).toNat
-
-end
-
-end A333007.P1667209628062965886
-
-/-! ## A333007.P4481244206427444898
-
-`A000290(A333008(n+1))*A260196(n+2)*A260196(n+2)`
--/
-
-namespace A333007.P4481244206427444898
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A333008 (n + 1)).toNat * A260196 (n + 2) * A260196 (n + 2)
-
-end
-
-end A333007.P4481244206427444898
-
-/-! ## A333007.P18287938968941834871
-
-`A000290(A333008(n+2)-A333009(n+1))`
--/
-
-namespace A333007.P18287938968941834871
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A333008 (n + 2) - A333009 (n + 1)).toNat
-
-end
-
-end A333007.P18287938968941834871
 
 /-! ## A333007.P10641911776620555989
 
@@ -637,26 +606,20 @@ end
 
 end A333008.P4067359568539652814
 
-/-! ## A333008.P1762930955193122223
+/-! ## A333008.P17893261936232926459
 
-`eq[2, A100878(n²)]`
+`A056926(A333007(n+1))`
 -/
 
-namespace A333008.P1762930955193122223
+namespace A333008.P17893261936232926459
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100878 (n ^ 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A333007 (n + 1)).toNat
 
 end
 
-end A333008.P1762930955193122223
+end A333008.P17893261936232926459
 
 /-!
 # A333009: Successive differences of A333008 (square roots of perfect squares that are the sum of two nonzero pentagonal numbers).

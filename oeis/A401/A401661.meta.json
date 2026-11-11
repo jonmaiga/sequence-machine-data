@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n+k-1,k)^2 * a(k).",
+  "id": "A401661",
+  "mentions": [
+    "A000110",
+    "A101514",
+    "A346185",
+    "A401645",
+    "A401662"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

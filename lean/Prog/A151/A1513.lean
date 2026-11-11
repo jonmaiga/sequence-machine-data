@@ -34,7 +34,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
@@ -3210,36 +3210,6 @@ end
 
 end A151360.P12462678152826587507
 
-/-! ## A151360.P3968802383584335562
-
-`A087121(A011539(n+2))`
--/
-
-namespace A151360.P3968802383584335562
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087121 (A011539 (n + 2)).toNat
-
-end
-
-end A151360.P3968802383584335562
-
-/-! ## A151360.P4098140791807813625
-
-`A087121(A088479(n+2))`
--/
-
-namespace A151360.P4098140791807813625
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087121 (A088479 (n + 2)).toNat
-
-end
-
-end A151360.P4098140791807813625
-
 /-! ## A151360.P10263955694672039478
 
 `A087121(A144171(n+2))`
@@ -3900,26 +3870,26 @@ theorem P6151249607190276974.correct : P6151249607190276974.Spec := by
 
 end A151374
 
-/-! ## A151374.P4285913532390305530
+/-! ## A151374.P1815845129563720466
 
-`C(2*n, n)/(n+1)*2^n`
+`C(2*n, n)*2^n/(n+1)`
 -/
 
-namespace A151374.P4285913532390305530
+namespace A151374.P1815845129563720466
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (2 * n) n : ℚ) / (n + 1 : ℚ) * (2 ^ n : ℚ)
+  (Nat.choose (2 * n) n : ℚ) * ((2 ^ n : ℚ) / (n + 1 : ℚ))
 
 end
 
-end A151374.P4285913532390305530
+end A151374.P1815845129563720466
 
 namespace A151374
 
-/-- `C(2*n, n)/(n+1)*2^n` -/
-def P4285913532390305530.Spec : Prop :=
-  ∀ n, P4285913532390305530.a n = (A151374 n : ℚ)
+/-- `C(2*n, n)*2^n/(n+1)` -/
+def P1815845129563720466.Spec : Prop :=
+  ∀ n, P1815845129563720466.a n = (A151374 n : ℚ)
 
 end A151374
 

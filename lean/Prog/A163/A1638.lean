@@ -104,6 +104,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -5232,31 +5233,29 @@ def P8275190619956890192.Spec : Prop :=
 
 end A163834
 
-/-! ## A163834.P17761370905597415691
+/-! ## A163834.P18081549395820079285
 
-`∑[4^(n-a(n-1)/floor(a(n-1)))]` with `a(0)=2`
-
-`floor` is left out, it is the identity on integers.
+`2+∑{#}[n-1, C(n, #+1)*3^#]`
 -/
 
-namespace A163834.P17761370905597415691
+namespace A163834.P18081549395820079285
 noncomputable section
 
-def f1 : ℕ → ℝ := SequenceMachineLib.rec [2] fun n f1 =>
-  (4 : ℝ) ^ ((n : ℝ) - f1 (n - 1) / (⌊f1 (n - 1)⌋ : ℝ))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
 
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 + ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (k + 1) * 3 ^ k
 
 end
 
-end A163834.P17761370905597415691
+end A163834.P18081549395820079285
 
 namespace A163834
 
-/-- `∑[4^(n-a(n-1)/floor(a(n-1)))]` -/
-def P17761370905597415691.Spec : Prop :=
-  ∀ n, P17761370905597415691.a n = (A163834 n : ℝ)
+/-- `2+∑{#}[n-1, C(n, #+1)*3^#]` -/
+def P18081549395820079285.Spec : Prop :=
+  ∀ n, (P18081549395820079285.a n : ℤ) = A163834 n
 
 end A163834
 
@@ -6210,6 +6209,32 @@ def P7844086142367418855.Spec : Prop :=
 
 end A163844
 
+/-! ## A163844.P1553193663803977960
+
+`∑{#}[n, C(2*#, #)*C(n+1, #)]`
+-/
+
+namespace A163844.P1553193663803977960
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose (2 * k) k * Nat.choose (n + 1) k
+
+end
+
+end A163844.P1553193663803977960
+
+namespace A163844
+
+/-- `∑{#}[n, C(2*#, #)*C(n+1, #)]` -/
+def P1553193663803977960.Spec : Prop :=
+  ∀ n, (P1553193663803977960.a n : ℤ) = A163844 n
+
+end A163844
+
 /-!
 # A163845: Row sums of triangle A163842.
 
@@ -6593,27 +6618,6 @@ end
 end A163848.P14998200313394574889
 
 /-!
-# A163849: Primes p such that the difference between the nearest cubes above and below p is prime.
-
-The programs for A163849, there is no canonical definition to state claims against.
--/
-
-/-! ## A163849.P10966158029012022635
-
-`A000040(n+1)+A376990(n+1)*A377128(n+4)`
--/
-
-namespace A163849.P10966158029012022635
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1) + A376990 (n + 1) * A377128 (n + 4)
-
-end
-
-end A163849.P10966158029012022635
-
-/-!
 # A163851: Primes of the form Fibonacci(k)-2.
 
 The programs for A163851, there is no canonical definition to state claims against.
@@ -6856,6 +6860,21 @@ end
 
 end A163857.P9454682709125499451
 
+/-! ## A163857.P6649772506372221233
+
+`A000720(A000196(A189172(A000040(A356935(n+1)))))`
+-/
+
+namespace A163857.P6649772506372221233
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A000196 (A189172 (A000040 (A356935 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A163857.P6649772506372221233
+
 /-! ## A163857.P1747148448289793260
 
 `A211669(A392701(n))`
@@ -6870,21 +6889,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A163857.P1747148448289793260
-
-/-! ## A163857.P12002929615284047664
-
-`A004216(A084592(n+1))`
--/
-
-namespace A163857.P12002929615284047664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004216 (A084592 (n + 1)).toNat
-
-end
-
-end A163857.P12002929615284047664
 
 /-!
 # A163858: Number of sexy prime triples (p, p+6, p+12) where p+18 is not prime (although p-6 might be), with p <= n.

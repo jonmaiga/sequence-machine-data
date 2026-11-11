@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of n-digit numbers with distinct digits that are divisible by n.",
+  "id": "A401470",
+  "mentions": [
+    "A029741",
+    "A052268",
+    "A061772",
+    "A073531"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -14,6 +14,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -30,7 +31,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
@@ -49,6 +49,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1911,6 +1912,29 @@ def P3078010747862060433.Spec : Prop :=
 
 end A242849
 
+/-! ## A242849.P17151291871229242837
+
+`gcd(A085689(n+1), A319861(n))`
+-/
+
+namespace A242849.P17151291871229242837
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A085689 (n + 1)) (A319861 n)
+
+end
+
+end A242849.P17151291871229242837
+
+namespace A242849
+
+/-- `gcd(A085689(n+1), A319861(n))` -/
+def P17151291871229242837.Spec : Prop :=
+  ∀ n, (P17151291871229242837.a n : ℤ) = A242849 n
+
+end A242849
+
 /-! ## A242849.P12374786343521636956
 
 `gcd(A038241(n), A118180(n))`
@@ -1931,29 +1955,6 @@ namespace A242849
 /-- `gcd(A038241(n), A118180(n))` -/
 def P12374786343521636956.Spec : Prop :=
   ∀ n, (P12374786343521636956.a n : ℤ) = A242849 n
-
-end A242849
-
-/-! ## A242849.P9191724226195422414
-
-`gcd(A013611(n), A060828(n))`
--/
-
-namespace A242849.P9191724226195422414
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A013611 n) (A060828 n)
-
-end
-
-end A242849.P9191724226195422414
-
-namespace A242849
-
-/-- `gcd(A013611(n), A060828(n))` -/
-def P9191724226195422414.Spec : Prop :=
-  ∀ n, (P9191724226195422414.a n : ℤ) = A242849 n
 
 end A242849
 
@@ -3455,20 +3456,20 @@ end
 
 end A242869.P5781102455842989343
 
-/-! ## A242869.P992284153528186667
+/-! ## A242869.P9319102133123201616
 
-`and(n, A055483(A290194(n)))`
+`A325817(A290707(n))`
 -/
 
-namespace A242869.P992284153528186667
+namespace A242869.P9319102133123201616
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (n : ℤ) (A055483 (A290194 n).toNat)
+  A325817 (A290707 n).toNat
 
 end
 
-end A242869.P992284153528186667
+end A242869.P9319102133123201616
 
 /-!
 # A242870: Numbers n such that (n^n-2^2)/(n-2) is an integer.

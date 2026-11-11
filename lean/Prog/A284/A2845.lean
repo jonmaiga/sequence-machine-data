@@ -26,13 +26,15 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7021,6 +7023,21 @@ end
 
 end A284550.P5413566875288466017
 
+/-! ## A284550.P4928647827070079739
+
+`A284114(A390930(n+1))`
+-/
+
+namespace A284550.P4928647827070079739
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284114 (A390930 (n + 1)).toNat
+
+end
+
+end A284550.P4928647827070079739
+
 /-!
 # A284551: Triangular array read by rows, demonstrating that the difference between a pentagonal number (left edge of triangle) and a square (right edge) is a triangular number.
 
@@ -8382,6 +8399,29 @@ def P3857560469480819401.Spec : Prop :=
 
 end A284556
 
+/-! ## A284556.P18218623905025728731
+
+`A284565(n)-(A102283(n)+A000360(n))`
+-/
+
+namespace A284556.P18218623905025728731
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284565 n - (A102283 n + A000360 n)
+
+end
+
+end A284556.P18218623905025728731
+
+namespace A284556
+
+/-- `A284565(n)-(A102283(n)+A000360(n))` -/
+def P18218623905025728731.Spec : Prop :=
+  ∀ n, P18218623905025728731.a n = A284556 n
+
+end A284556
+
 /-! ## A284556.P2531320924082206438
 
 `A000360(n)+A284566(n)-A002487(n+1)`
@@ -8678,29 +8718,6 @@ namespace A284556
 /-- `A110654(A102283(2*n)+A002487(n))` -/
 def P9307881021610244754.Spec : Prop :=
   ∀ n, P9307881021610244754.a n = A284556 n
-
-end A284556
-
-/-! ## A284556.P1647352092406547955
-
-`A007306(n+1)-(A000360(2*n+1)+A000360(2*n))`
--/
-
-namespace A284556.P1647352092406547955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007306 (n + 1) - (A000360 (2 * n + 1) + A000360 (2 * n))
-
-end
-
-end A284556.P1647352092406547955
-
-namespace A284556
-
-/-- `A007306(n+1)-(A000360(2*n+1)+A000360(2*n))` -/
-def P1647352092406547955.Spec : Prop :=
-  ∀ n, P1647352092406547955.a n = A284556 n
 
 end A284556
 

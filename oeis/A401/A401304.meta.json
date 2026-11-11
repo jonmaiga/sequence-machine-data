@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime p such that (p^m + q^m)/(p+q) is also prime where m=prime(n), where q is the next prime after p, or -1 if no such p exists.",
+  "id": "A401304",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A151800",
+    "A339920",
+    "A400847",
+    "A401033"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

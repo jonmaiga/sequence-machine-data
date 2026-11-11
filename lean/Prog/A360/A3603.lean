@@ -41,6 +41,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -110,6 +111,24 @@ set_option linter.unreachableTactic false
 The programs for A360300, there is no canonical definition to state claims against.
 -/
 
+/-! ## A360300.P8255891030256477421
+
+`filter[A360298(n+1), A401714(#)]`
+-/
+
+namespace A360300.P8255891030256477421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360298 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A360300.P8255891030256477421
+
 /-! ## A360300.P5282343296669751202
 
 `A360298(lt[A002988(n), A180662(3*n+2)])`
@@ -166,24 +185,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A360300.P10469559820235101195
-
-/-! ## A360300.P8424774577272667520
-
-`filter[A360298(n+1), A363344(#)]`
--/
-
-namespace A360300.P8424774577272667520
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A360298 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A363344 (f1 j).toNat = 1) n)
-
-end
-
-end A360300.P8424774577272667520
 
 /-!
 # A360302: T(n,k) is the position of the set encoded in the binary expansion of k within the shortlex order for the powerset of [n]; triangle T(n,k), n>=0, 0<=k<=2^n-1, read by rows.

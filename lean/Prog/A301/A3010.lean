@@ -20,7 +20,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C039
@@ -96,21 +96,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301000.P7091741483251201761
-
-/-! ## A301000.P11282348098615307005
-
-`A047959(n)-A087051(A185203(2*n+3))`
--/
-
-namespace A301000.P11282348098615307005
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047959 n - A087051 (A185203 (2 * n + 3)).toNat
-
-end
-
-end A301000.P11282348098615307005
 
 /-!
 # A301001: Coordination sequence T2 for Zeolite Code BEC.

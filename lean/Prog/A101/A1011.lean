@@ -5317,6 +5317,21 @@ end
 
 end A101157.P15705985729357245752
 
+/-! ## A101157.P397376132514840306
+
+`A000188(A101158(n+1))`
+-/
+
+namespace A101157.P397376132514840306
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A101158 (n + 1)).toNat
+
+end
+
+end A101157.P397376132514840306
+
 /-!
 # A101158: Let j be the smallest integer for which n+(n+1)+...+(n+j) is a square; sequence gives the squares.
 
@@ -6550,6 +6565,29 @@ def P12829259252818152511.Spec : Prop :=
 
 end A101165
 
+/-! ## A101165.P8699335219631364096
+
+`C(n+1, 3)+2*n*C(n+1, 2)+n`
+-/
+
+namespace A101165.P8699335219631364096
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 1) 3 + 2 * n * Nat.choose (n + 1) 2 + n
+
+end
+
+end A101165.P8699335219631364096
+
+namespace A101165
+
+/-- `C(n+1, 3)+2*n*C(n+1, 2)+n` -/
+def P8699335219631364096.Spec : Prop :=
+  ∀ n, (P8699335219631364096.a n : ℤ) = A101165 n
+
+end A101165
+
 /-! ## A101165.P4918051526414332602
 
 `A304993(n)-n²`
@@ -6844,29 +6882,6 @@ namespace A101165
 /-- `A006002(n)+A005900(n)` -/
 def P2995902762810751884.Spec : Prop :=
   ∀ n, P2995902762810751884.a n = A101165 n
-
-end A101165
-
-/-! ## A101165.P15239477205386811186
-
-`A011379(n)+A004006(n)`
--/
-
-namespace A101165.P15239477205386811186
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011379 n + A004006 n
-
-end
-
-end A101165.P15239477205386811186
-
-namespace A101165
-
-/-- `A011379(n)+A004006(n)` -/
-def P15239477205386811186.Spec : Prop :=
-  ∀ n, P15239477205386811186.a n = A101165 n
 
 end A101165
 

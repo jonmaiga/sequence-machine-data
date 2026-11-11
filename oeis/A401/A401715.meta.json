@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if {sum of unitary divisors of n} plus {sum of squarefree divisors of n} >= 2*n, otherwise 0.",
+  "id": "A401715",
+  "mentions": [
+    "A034448",
+    "A048250",
+    "A325973",
+    "A325977",
+    "A388986",
+    "A389215",
+    "A401714"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

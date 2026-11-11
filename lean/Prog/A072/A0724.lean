@@ -43,7 +43,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2109,6 +2109,21 @@ end
 
 end A072411.P4296892541379198330
 
+/-! ## A072411.P18058231351914204318
+
+`gcd(A058312(n+1), A157754(n+1))`
+-/
+
+namespace A072411.P18058231351914204318
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A058312 (n + 1)) (A157754 (n + 1))
+
+end
+
+end A072411.P18058231351914204318
+
 /-! ## A072411.P16284152850901614482
 
 `gcd(A025552(n), A157754(n+1))`
@@ -2183,24 +2198,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A072411.P6763169307658369728
-
-/-! ## A072411.P9775259366719754864
-
-`A332898(A290107(∑[n+1])²)+A290107(n+1)`
--/
-
-namespace A072411.P9775259366719754864
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332898 (A290107 (∑ j ∈ Finset.range (n + 1), f1 j) ^ 2).toNat + A290107 (n + 1)
-
-end
-
-end A072411.P9775259366719754864
 
 /-!
 # A072412: Numbers k such that the LCM of exponents in the prime factorization of k does not equal the largest exponent.
@@ -12596,24 +12593,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A072482.P14419015723046871385
-
-/-! ## A072482.P16505082693471830510
-
-`record[gcd(A014105(n), A029731(n+1))]`
--/
-
-namespace A072482.P16505082693471830510
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A014105 n) (A029731 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A072482.P16505082693471830510
 
 /-! ## A072482.P12244295159527480732
 

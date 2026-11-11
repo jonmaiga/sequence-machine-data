@@ -1,0 +1,21 @@
+{
+  "description": "Length of the common period length of the smallest n-tuple (for the sup norm) of primes whose reciprocals have the same period length in base 10.",
+  "id": "A400292",
+  "mentions": [
+    "A002329",
+    "A084680",
+    "A400291",
+    "A400293"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

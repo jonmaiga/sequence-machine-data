@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) = (n!)^k * Product_{j=0..k-1} binomial(n + j, n).",
+  "description": "Triangle read by rows: T(n, k) = k!^(n - k)*Product_{j=0..n-k-1} binomial(k + j, j).",
   "id": "A090441",
   "mentions": [
     "A000012",

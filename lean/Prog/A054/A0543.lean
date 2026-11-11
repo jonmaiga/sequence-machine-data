@@ -42,7 +42,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
@@ -3682,6 +3682,29 @@ def P9692439788679201110.Spec : Prop :=
 
 end A054320
 
+/-! ## A054320.P12590519297063851968
+
+`1/4*(2+sqrt(6))*((5+2*sqrt(6))^n-(5-2*sqrt(6))^(n+1))`
+-/
+
+namespace A054320.P12590519297063851968
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((1 : ℚ) / 4 : ℝ) * (2 + Real.sqrt (6 : ℝ)) * ((5 + 2 * Real.sqrt (6 : ℝ)) ^ n - (5 - 2 * Real.sqrt (6 : ℝ)) ^ (n + 1))
+
+end
+
+end A054320.P12590519297063851968
+
+namespace A054320
+
+/-- `1/4*(2+sqrt(6))*((5+2*sqrt(6))^n-(5-2*sqrt(6))^(n+1))` -/
+def P12590519297063851968.Spec : Prop :=
+  ∀ n, P12590519297063851968.a n = (A054320 n : ℝ)
+
+end A054320
+
 /-! ## A054320.P16223825535131666441
 
 `Δ[A098297(n)]`
@@ -3910,29 +3933,6 @@ namespace A054320
 /-- `∑[record[Δ[A077410(n)]]]` -/
 def P7115362677223642005.Spec : Prop :=
   ∀ n, P7115362677223642005.a n = A054320 n
-
-end A054320
-
-/-! ## A054320.P11576664190546048391
-
-`2*A087125(n)+1`
--/
-
-namespace A054320.P11576664190546048391
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A087125 n + 1
-
-end
-
-end A054320.P11576664190546048391
-
-namespace A054320
-
-/-- `2*A087125(n)+1` -/
-def P11576664190546048391.Spec : Prop :=
-  ∀ n, P11576664190546048391.a n = A054320 n
 
 end A054320
 

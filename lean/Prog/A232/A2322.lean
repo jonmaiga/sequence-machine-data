@@ -6122,7 +6122,7 @@ end
 end A232285.P8902265388003229755
 
 /-!
-# A232286: Number of 6Xn 0..2 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors.
+# A232286: Number of 6 X n 0..2 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors.
 
 The programs for A232286, there is no canonical definition to state claims against.
 -/

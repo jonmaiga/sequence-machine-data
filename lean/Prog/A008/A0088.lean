@@ -40,7 +40,6 @@ import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -7697,6 +7696,29 @@ def P8334811319828809460.Spec : Prop :=
 
 end A008822
 
+/-! ## A008822.P8575822123703847531
+
+`ceil(C(2*(n+1), 2)/3)`
+-/
+
+namespace A008822.P8575822123703847531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(Nat.choose (2 * (n + 1)) 2 : ℚ) / 3⌉
+
+end
+
+end A008822.P8575822123703847531
+
+namespace A008822
+
+/-- `ceil(C(2*(n+1), 2)/3)` -/
+def P8575822123703847531.Spec : Prop :=
+  ∀ n, P8575822123703847531.a n = A008822 n
+
+end A008822
+
 /-! ## A008822.P8337183867391250882
 
 `∑[∑[(∑[n]-1)%3]+2]`
@@ -8013,35 +8035,6 @@ namespace A008822
 /-- `∑[∑[a(n-3)²/2]]` -/
 def P10764876094418682021.Spec : Prop :=
   ∀ n, P10764876094418682021.a n = (A008822 n : ℚ)
-
-end A008822
-
-/-! ## A008822.P17440891027746446560
-
-`∑[n]-∑[a(n-3)-1]` with `a(0)=-1, a(1)=0, a(2)=-1`
--/
-
-namespace A008822.P17440891027746446560
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.rec [-1, 0, -1] fun n f2 =>
-  f2 (n - 3) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - ∑ j ∈ Finset.range (n + 1), f2 j
-
-end
-
-end A008822.P17440891027746446560
-
-namespace A008822
-
-/-- `∑[n]-∑[a(n-3)-1]` -/
-def P17440891027746446560.Spec : Prop :=
-  ∀ n, P17440891027746446560.a n = A008822 n
 
 end A008822
 
@@ -13787,6 +13780,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008848.P8201144844733204876
+
+/-! ## A008848.P11743249471464361650
+
+`∩[A097025(n+1), A128607(n+1)]`
+-/
+
+namespace A008848.P11743249471464361650
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128607 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A008848.P11743249471464361650
+
+/-! ## A008848.P4236342883530879654
+
+`∩[A069070(n+1), A097025(n+1)]`
+-/
+
+namespace A008848.P4236342883530879654
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069070 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097025 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A008848.P4236342883530879654
 
 /-!
 # A008851: Congruent to 0 or 1 mod 5.
@@ -19965,7 +20002,7 @@ theorem P8711540397018335679.correct : P8711540397018335679.Spec := by
 end A008883
 
 /-!
-# A008884: 3x+1 sequence starting at 27.
+# A008884: 3x+1 sequence starting at 27: trajectory under iterations of the Collatz map A006370.
 
 The programs for A008884, the canonical program `A008884.P3036512594241040887` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008884 has offset 0).
 

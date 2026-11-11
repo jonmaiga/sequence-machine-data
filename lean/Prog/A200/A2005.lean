@@ -28,6 +28,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -46,6 +47,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -595,6 +597,32 @@ namespace A200521
 /-- `filter[A033993(1+n), A087049(#)]` -/
 def P3427682898544570646.Spec : Prop :=
   ∀ n, P3427682898544570646.a n = A200521 (n + 1)
+
+end A200521
+
+/-! ## A200521.P13392679860532591230
+
+`filter[A033993(n+1), A401791(#)]`
+-/
+
+namespace A200521.P13392679860532591230
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033993 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A200521.P13392679860532591230
+
+namespace A200521
+
+/-- `filter[A033993(n+1), A401791(#)]` -/
+def P13392679860532591230.Spec : Prop :=
+  ∀ n, P13392679860532591230.a n = A200521 (n + 1)
 
 end A200521
 
@@ -6304,6 +6332,29 @@ def P9641994384436209628.Spec : Prop :=
 
 end A200564
 
+/-! ## A200564.P12834076243991431166
+
+`2^(n²-1)+2^(C(n+1, 2)-1)`
+-/
+
+namespace A200564.P12834076243991431166
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((n ^ 2 : ℤ) - 1 : ℤ) + (2 : ℚ) ^ ((Nat.choose (n + 1) 2 : ℤ) - 1 : ℤ)
+
+end
+
+end A200564.P12834076243991431166
+
+namespace A200564
+
+/-- `2^(n²-1)+2^(C(n+1, 2)-1)` -/
+def P12834076243991431166.Spec : Prop :=
+  ∀ n, P12834076243991431166.a n = (A200564 n : ℚ)
+
+end A200564
+
 /-! ## A200564.P6676289692237522396
 
 `2^n*C(A006125(n)+1, 2)`
@@ -6373,29 +6424,6 @@ namespace A200564
 /-- `A011782(∑[n])+A131577(n²)` -/
 def P3859996247203009792.Spec : Prop :=
   ∀ n, P3859996247203009792.a n = A200564 n
-
-end A200564
-
-/-! ## A200564.P17287101644632477151
-
-`C(A006125(n)+1, 2)*A000079(n)`
--/
-
-namespace A200564.P17287101644632477151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (A006125 n + 1).toNat 2 : ℤ) * A000079 n
-
-end
-
-end A200564.P17287101644632477151
-
-namespace A200564
-
-/-- `C(A006125(n)+1, 2)*A000079(n)` -/
-def P17287101644632477151.Spec : Prop :=
-  ∀ n, P17287101644632477151.a n = A200564 n
 
 end A200564
 

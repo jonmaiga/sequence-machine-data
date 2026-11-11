@@ -7694,6 +7694,29 @@ def P17335133733344860850.Spec : Prop :=
 
 end A368762
 
+/-! ## A368762.P8464311905216148192
+
+`A038155(n)+A019464(2*n)`
+-/
+
+namespace A368762.P8464311905216148192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038155 n + A019464 (2 * n)
+
+end
+
+end A368762.P8464311905216148192
+
+namespace A368762
+
+/-- `A038155(n)+A019464(2*n)` -/
+def P8464311905216148192.Spec : Prop :=
+  ∀ n, P8464311905216148192.a n = A368762 n
+
+end A368762
+
 /-!
 # A368763: a(n) = n! * (1 + Sum_{k=0..n} binomial(k+2,3) / k!).
 

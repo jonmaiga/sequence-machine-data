@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of elements in an admissible tuple with consecutive gaps at most 2n.",
+  "id": "A399821",
+  "mentions": [
+    "A008407",
+    "A023193",
+    "A292224",
+    "A399819"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

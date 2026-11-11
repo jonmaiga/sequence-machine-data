@@ -10211,7 +10211,7 @@ end
 end A246064.P14157236888266403364
 
 /-!
-# A246065: a(n) = Sum_{k=0..n}C(n,k)^2*C(2k,k)/(2k-1), where C(n,k) denotes the binomial coefficient n!/(k!*(n-k)!).
+# A246065: a(n) = Sum_{k=0..n} C(n,k)^2 * C(2k,k) / (2k-1), where C(n,k) denotes the binomial coefficient n!/(k!*(n-k)!).
 
 The programs for A246065, the canonical program `A246065.P13478444679739923839` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246065 has offset 0).
 
@@ -10230,6 +10230,32 @@ namespace A246065
 /-- `(9*(2*n+1)²*A002893(n)-4*(n+1)²*A002893(n+1))/3` -/
 def P13478444679739923839.Spec : Prop :=
   ∀ n, P13478444679739923839.a n = (A246065 n : ℚ)
+
+end A246065
+
+/-! ## A246065.P10884133000249544900
+
+`∑{#}[n, C(n, #)²*C(2*#, #)*1/(2*#-1)]`
+-/
+
+namespace A246065.P10884133000249544900
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k ^ 2 * Nat.choose (2 * k) k : ℚ) * (1 / ((2 * k : ℤ) - 1 : ℚ))
+
+end
+
+end A246065.P10884133000249544900
+
+namespace A246065
+
+/-- `∑{#}[n, C(n, #)²*C(2*#, #)*1/(2*#-1)]` -/
+def P10884133000249544900.Spec : Prop :=
+  ∀ n, P10884133000249544900.a n = (A246065 n : ℚ)
 
 end A246065
 
@@ -11384,6 +11410,66 @@ namespace A246075
 /-- `∪[A160825(n+1), A246074(n+1)]` -/
 def P5305593620809127083.Spec : Prop :=
   ∀ n, (P5305593620809127083.a n : ℤ) = A246075 (n + 1)
+
+end A246075
+
+/-! ## A246075.P10231805954804573421
+
+`∩[A115847(n), A321291(n+1)]`
+-/
+
+namespace A246075.P10231805954804573421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115847 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321291 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246075.P10231805954804573421
+
+namespace A246075
+
+/-- `∩[A115847(n), A321291(n+1)]` -/
+def P10231805954804573421.Spec : Prop :=
+  ∀ n, (P10231805954804573421.a n : ℤ) = A246075 (n + 1)
+
+end A246075
+
+/-! ## A246075.P3920806235829971120
+
+`∩[A321291(n+1), A391852(n+1)]`
+-/
+
+namespace A246075.P3920806235829971120
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321291 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391852 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246075.P3920806235829971120
+
+namespace A246075
+
+/-- `∩[A321291(n+1), A391852(n+1)]` -/
+def P3920806235829971120.Spec : Prop :=
+  ∀ n, (P3920806235829971120.a n : ℤ) = A246075 (n + 1)
 
 end A246075
 

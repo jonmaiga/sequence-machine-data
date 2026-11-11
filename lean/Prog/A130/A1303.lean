@@ -25,7 +25,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
@@ -33,7 +33,7 @@ import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5321,6 +5321,35 @@ def P1029390361438359275.Spec : Prop :=
 
 end A130328
 
+/-! ## A130328.P5115612999445377572
+
+`3*2^row(n)-2^col(n)-2^row(n)`
+-/
+
+namespace A130328.P5115612999445377572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 * 2 ^ SequenceMachineLib.triRow n : ℤ) - (2 ^ SequenceMachineLib.triCol n : ℤ) - (2 ^ SequenceMachineLib.triRow n : ℤ)
+
+end
+
+end A130328.P5115612999445377572
+
+namespace A130328
+
+/-- `3*2^row(n)-2^col(n)-2^row(n)` -/
+def P5115612999445377572.Spec : Prop :=
+  ∀ n, P5115612999445377572.a n = A130328 n
+
+theorem P5115612999445377572.correct : P5115612999445377572.Spec := by
+  intro n
+  simp only [A130328, Nat.add_sub_cancel, A130328.P5115612999445377572.a, A130328.P18329191617125265188.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A130328
+
 /-! ## A130328.P3560289816395081874
 
 `round(sqrt(2*n+1))-round(sqrt(2*n))+2*T(n-1,k)+2*T(n-1,k-1)-4*T(n-2,k-1)` with `a(0)=1`
@@ -5587,29 +5616,6 @@ namespace A130328
 /-- `2*A137688(n)-A059268(n)` -/
 def P17188493628284837575.Spec : Prop :=
   ∀ n, P17188493628284837575.a n = A130328 n
-
-end A130328
-
-/-! ## A130328.P15644610280738279330
-
-`(A143088(n)+A130330(n))/2`
--/
-
-namespace A130328.P15644610280738279330
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A143088 n + A130330 n : ℚ) / 2
-
-end
-
-end A130328.P15644610280738279330
-
-namespace A130328
-
-/-- `(A143088(n)+A130330(n))/2` -/
-def P15644610280738279330.Spec : Prop :=
-  ∀ n, P15644610280738279330.a n = (A130328 n : ℚ)
 
 end A130328
 

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of near-rings with n elements.",
+  "description": "a(n) = number of near-rings with n elements up to isomorphism.",
   "id": "A305858",
   "mentions": [
     "A000001",

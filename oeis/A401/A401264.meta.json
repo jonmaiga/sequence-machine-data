@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the second largest volume of a polyhedron with 10 vertices inscribed in the unit sphere after that of the record-setting polyhedron described in A339262.",
+  "id": "A401264",
+  "mentions": [
+    "A339261",
+    "A339262",
+    "A401263"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

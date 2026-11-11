@@ -35,7 +35,6 @@ import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B001.C000
@@ -12852,29 +12851,6 @@ theorem P14466208917237569440.correct : P14466208917237569440.Spec := by
 
 end A129194
 
-/-! ## A129194.P17838502966929691391
-
-`A000290(n)/A040001(n)`
--/
-
-namespace A129194.P17838502966929691391
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000290 n : ℚ) / (A040001 n : ℚ)
-
-end
-
-end A129194.P17838502966929691391
-
-namespace A129194
-
-/-- `A000290(n)/A040001(n)` -/
-def P17838502966929691391.Spec : Prop :=
-  ∀ n, P17838502966929691391.a n = (A129194 n : ℚ)
-
-end A129194
-
 /-! ## A129194.P3061706291602054232
 
 `n²/gcd(2, n)`
@@ -13203,6 +13179,32 @@ namespace A129194
 /-- `lcm(n, and(n-1, -2))+n` -/
 def P2942246025596482704.Spec : Prop :=
   ∀ n, (P2942246025596482704.a n : ℤ) = A129194 n
+
+end A129194
+
+/-! ## A129194.P16981164796055129491
+
+`n²/Δ[or(1, n+1)]!`
+-/
+
+namespace A129194.P16981164796055129491
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lor 1 (n + 1)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 2 : ℚ) / (Nat.factorial ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat : ℚ)
+
+end
+
+end A129194.P16981164796055129491
+
+namespace A129194
+
+/-- `n²/Δ[or(1, n+1)]!` -/
+def P16981164796055129491.Spec : Prop :=
+  ∀ n, P16981164796055129491.a n = (A129194 n : ℚ)
 
 end A129194
 

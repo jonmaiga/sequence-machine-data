@@ -41,7 +41,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -52,7 +51,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -7998,6 +7996,32 @@ namespace A347993
 /-- `A277458(1+n)+A134095(n+1)` -/
 def P17068390794817053064.Spec : Prop :=
   ∀ n, P17068390794817053064.a n = A347993 (n + 1)
+
+end A347993
+
+/-! ## A347993.P7857467584738315352
+
+`(n+1)^(n+1)-∑{#}[n+1, C(n+1, #)*(n+1-#)^#*#^(n+1-#)]`
+-/
+
+namespace A347993.P7857467584738315352
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) ^ (n + 1) : ℚ) - ∑ k ∈ Finset.range (f1 n + 1), ((Nat.choose (n + 1) k : ℤ) * ((n + 1 : ℤ) - (k : ℤ)) ^ k : ℚ) * (k : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A347993.P7857467584738315352
+
+namespace A347993
+
+/-- `(n+1)^(n+1)-∑{#}[n+1, C(n+1, #)*(n+1-#)^#*#^(n+1-#)]` -/
+def P7857467584738315352.Spec : Prop :=
+  ∀ n, P7857467584738315352.a n = (A347993 (n + 1) : ℚ)
 
 end A347993
 

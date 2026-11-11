@@ -6294,7 +6294,7 @@ def P1679784568579325347.Spec : Prop :=
 end A166456
 
 /-!
-# A166457: Numbers n such that n*100+1 is prime.
+# A166457: Numbers k such that k*100 + 1 is prime.
 
 The programs for A166457, the canonical program `A166457.P16462908944595334200` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166457 has offset 1).
 
@@ -7817,30 +7817,30 @@ def P14941906383143905611.Spec : Prop :=
 
 end A166464
 
-/-! ## A166464.P5421425527344782563
+/-! ## A166464.P11180717546805320777
 
-`C(2*(n+1), 3)+1`
+`1+C(2*(n+1), 3)`
 -/
 
-namespace A166464.P5421425527344782563
+namespace A166464.P11180717546805320777
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (2 * (n + 1)) 3 + 1
+  1 + Nat.choose (2 * (n + 1)) 3
 
 end
 
-end A166464.P5421425527344782563
+end A166464.P11180717546805320777
 
 namespace A166464
 
-/-- `C(2*(n+1), 3)+1` -/
-def P5421425527344782563.Spec : Prop :=
-  ∀ n, (P5421425527344782563.a n : ℤ) = A166464 n
+/-- `1+C(2*(n+1), 3)` -/
+def P11180717546805320777.Spec : Prop :=
+  ∀ n, (P11180717546805320777.a n : ℤ) = A166464 n
 
-theorem P5421425527344782563.correct : P5421425527344782563.Spec := by
+theorem P11180717546805320777.correct : P11180717546805320777.Spec := by
   intro n
-  simp only [A166464, Nat.add_sub_cancel, A166464.P5421425527344782563.a, A166464.P5573303640485334479.a, A002492, A002492.P13381774757906209524.a, SequenceMachineLib.memo_apply]
+  simp only [A166464, Nat.add_sub_cancel, A166464.P11180717546805320777.a, A166464.P5573303640485334479.a, A002492, A002492.P13381774757906209524.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 

@@ -13,6 +13,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -6234,6 +6235,21 @@ end
 
 end A218659.P2020372349778967674
 
+/-! ## A218659.P6591498884881895725
+
+`A218657(n+1)*A218657(n+1)`
+-/
+
+namespace A218659.P6591498884881895725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218657 (n + 1) * A218657 (n + 1)
+
+end
+
+end A218659.P6591498884881895725
+
 /-! ## A218659.P2813824427196780041
 
 `A218663(∑[n+1]+2)²`
@@ -6281,21 +6297,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218659.P15153194411474256690
-
-/-! ## A218659.P10749673405669473268
-
-`A218663(A374004(n+1))`
--/
-
-namespace A218659.P10749673405669473268
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A218663 (A374004 (n + 1)).toNat
-
-end
-
-end A218659.P10749673405669473268
 
 /-!
 # A218660: Number of n X 5 binary arrays with every 0 a king-move neighbor to some 1.

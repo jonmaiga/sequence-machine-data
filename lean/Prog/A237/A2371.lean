@@ -6862,6 +6862,28 @@ end
 
 end A237189.P17682743836777511658
 
+/-! ## A237189.P15310617227096643798
+
+`∩[A064238(n+1), A123998(n+1)]`
+-/
+
+namespace A237189.P15310617227096643798
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064238 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123998 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A237189.P15310617227096643798
+
 /-!
 # A237190: Numbers k such that k+1, 2k+1, 3k+1, 4k+1, 5k+1 are five primes.
 

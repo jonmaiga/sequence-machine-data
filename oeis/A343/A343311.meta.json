@@ -2,7 +2,8 @@
   "description": "Numbers of the form x + y + z with distinct positive integers x,y,z such that (x+y+z) | x*y*z.",
   "id": "A343311",
   "mentions": [
-    "A343270"
+    "A343270",
+    "A387319"
   ],
   "tags": [
     "nonn"

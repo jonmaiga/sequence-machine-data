@@ -1,0 +1,26 @@
+{
+  "description": "Minimum number of terms in a 2-dense sublist of divisors of n.",
+  "id": "A401248",
+  "mentions": [
+    "A000012",
+    "A001511",
+    "A174973",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A384222",
+    "A384225",
+    "A400194",
+    "A400195",
+    "A401249"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

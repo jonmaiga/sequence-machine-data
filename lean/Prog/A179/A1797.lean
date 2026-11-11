@@ -98,6 +98,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -709,20 +710,27 @@ end A179704.P14235770292017503628
 The programs for A179705, there is no canonical definition to state claims against.
 -/
 
-/-! ## A179705.P9723488774363535741
+/-! ## A179705.P14653865888758843396
 
-`A011264(A137484(n+1))`
+`∩[A114128(n+1), A401482(n+1)]`
 -/
 
-namespace A179705.P9723488774363535741
+namespace A179705.P14653865888758843396
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011264 (A137484 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114128 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401482 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A179705.P9723488774363535741
+end A179705.P14653865888758843396
 
 /-!
 # A179707: Semiprimes p*q such that 2^p mod q == 2^q mod p.
@@ -2035,6 +2043,105 @@ namespace A179744
 /-- `∑[A266550(n+1)]` -/
 def P4798413108441238801.Spec : Prop :=
   ∀ n, P4798413108441238801.a n = A179744 n
+
+end A179744
+
+/-! ## A179744.P13332468876390597012
+
+`∪[A123720(n+1), A133095(n+1)]`
+-/
+
+namespace A179744.P13332468876390597012
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123720 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133095 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A179744.P13332468876390597012
+
+namespace A179744
+
+/-- `∪[A123720(n+1), A133095(n+1)]` -/
+def P13332468876390597012.Spec : Prop :=
+  ∀ n, (P13332468876390597012.a n : ℤ) = A179744 n
+
+end A179744
+
+/-! ## A179744.P15220375038080900727
+
+`A095768(n+1)%A054135(n+1)`
+-/
+
+namespace A179744.P15220375038080900727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A095768 (n + 1)) (A054135 (n + 1))
+
+end
+
+end A179744.P15220375038080900727
+
+namespace A179744
+
+/-- `A095768(n+1)%A054135(n+1)` -/
+def P15220375038080900727.Spec : Prop :=
+  ∀ n, P15220375038080900727.a n = A179744 n
+
+end A179744
+
+/-! ## A179744.P7139984012065732259
+
+`A128543(n+1)%A103204(n+1)`
+-/
+
+namespace A179744.P7139984012065732259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A128543 (n + 1)) (A103204 (n + 1))
+
+end
+
+end A179744.P7139984012065732259
+
+namespace A179744
+
+/-- `A128543(n+1)%A103204(n+1)` -/
+def P7139984012065732259.Spec : Prop :=
+  ∀ n, P7139984012065732259.a n = A179744 n
+
+end A179744
+
+/-! ## A179744.P311623068905164423
+
+`and(A024037(n), A083329(n))`
+-/
+
+namespace A179744.P311623068905164423
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A024037 n) (A083329 n)
+
+end
+
+end A179744.P311623068905164423
+
+namespace A179744
+
+/-- `and(A024037(n), A083329(n))` -/
+def P311623068905164423.Spec : Prop :=
+  ∀ n, P311623068905164423.a n = A179744 n
 
 end A179744
 

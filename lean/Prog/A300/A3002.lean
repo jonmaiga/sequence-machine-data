@@ -55,6 +55,7 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2476,90 +2477,6 @@ def P4530831069466414274.Spec : Prop :=
 end A300222
 
 /-!
-# A300223: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A296091(i) = A296091(j), for all i, j >= 1.
-
-The programs for A300223, there is no canonical definition to state claims against.
--/
-
-/-! ## A300223.P9442034962957894038
-
-`A294877(n+1)%A004061(n+1)`
--/
-
-namespace A300223.P9442034962957894038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A294877 (n + 1)) (A004061 (n + 1))
-
-end
-
-end A300223.P9442034962957894038
-
-/-! ## A300223.P13554688983310898409
-
-`A355830(n+1)%A082672(n+1)`
--/
-
-namespace A300223.P13554688983310898409
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A355830 (n + 1)) (A082672 (n + 1))
-
-end
-
-end A300223.P13554688983310898409
-
-/-! ## A300223.P16676181352018024254
-
-`A305790(n+1)%A363204(n+3)`
--/
-
-namespace A300223.P16676181352018024254
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A305790 (n + 1)) (A363204 (n + 3))
-
-end
-
-end A300223.P16676181352018024254
-
-/-! ## A300223.P1344501328187452925
-
-`∑{e}[A016116(2*n+3), A294877(#)]`
--/
-
-namespace A300223.P1344501328187452925
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016116 (2 * n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, A294877 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A300223.P1344501328187452925
-
-/-! ## A300223.P8671388797756224820
-
-`A355831(n+1)+val(A262620(3*(n+1))+2, 6)`
--/
-
-namespace A300223.P8671388797756224820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355831 (n + 1) + (SequenceMachineLib.valuation (A262620 (3 * (n + 1)) + 2).toNat 6 : ℤ)
-
-end
-
-end A300223.P8671388797756224820
-
-/-!
 # A300224: Filter sequence combining A046523(n) and A296078(n), prime signature of n and prime signature of phi(n)+1.
 
 The programs for A300224, there is no canonical definition to state claims against.
@@ -2836,7 +2753,7 @@ end
 end A300228.P10715163335552069160
 
 /-!
-# A300229: Restricted growth sequence transform of A285729, combining A032742(n) and A046523(n), the largest proper divisor and the prime signature of n.
+# A300229: Lexicographically earliest infinite sequence such that a(i) = a(j) => A032742(i) = A032742(j) and A046523(i) = A046523(j), for all i, j >= 1, where A032742(n) is the largest proper divisor of n, and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A300229, there is no canonical definition to state claims against.
 -/
@@ -2920,7 +2837,7 @@ end
 end A300229.P8003619046777372697
 
 /-!
-# A300230: Restricted growth sequence transform of A286570, combining A009194(n) and A046523(n), i.e., gcd(n,sigma(n)) and the prime signature of n.
+# A300230: Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A009194(i) = A009194(j), for all i, j >= 1, where A046523(n) is the smallest number with same prime signature as n, and A009194(n) = gcd(n, sigma(n)).
 
 The programs for A300230, there is no canonical definition to state claims against.
 -/
@@ -8442,6 +8359,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300273.P1401843080155336588
+
+/-! ## A300273.P3778411102425391508
+
+`filter[A326841(n+2), A401791(#)]`
+-/
+
+namespace A300273.P3778411102425391508
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326841 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A300273.P3778411102425391508
 
 /-! ## A300273.P16442794836428724546
 

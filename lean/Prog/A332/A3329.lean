@@ -14,8 +14,11 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -4900,23 +4903,117 @@ end
 
 end A332956.P5537043760269291736
 
-/-! ## A332956.P12501405895070356033
+/-! ## A332956.P15407074493743181609
 
-`filter[A083207(n+1), A034947(#+1)]`
+`filter[A083207(n+1), A011765(#)]`
 -/
 
-namespace A332956.P12501405895070356033
+namespace A332956.P15407074493743181609
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A083207 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A034947 (f1 j + 1).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A011765 (f1 j).toNat = 1) n)
 
 end
 
-end A332956.P12501405895070356033
+end A332956.P15407074493743181609
+
+/-! ## A332956.P3721957248017993933
+
+`filter[A083207(n+1), A014577(#)]`
+-/
+
+namespace A332956.P3721957248017993933
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083207 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A014577 (f1 j).toNat = 1) n)
+
+end
+
+end A332956.P3721957248017993933
+
+/-! ## A332956.P4638376886984918657
+
+`filter[A083207(n+1), A073089(#)]`
+-/
+
+namespace A332956.P4638376886984918657
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083207 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A073089 (f1 j).toNat = 1) n)
+
+end
+
+end A332956.P4638376886984918657
+
+/-! ## A332956.P3667853453424218191
+
+`filter[A083207(n+1), A106665(#)]`
+-/
+
+namespace A332956.P3667853453424218191
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083207 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A106665 (f1 j).toNat = 1) n)
+
+end
+
+end A332956.P3667853453424218191
+
+/-! ## A332956.P15708533108230491653
+
+`filter[A083207(n+1), A121262(#)]`
+-/
+
+namespace A332956.P15708533108230491653
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083207 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A121262 (f1 j).toNat = 1) n)
+
+end
+
+end A332956.P15708533108230491653
+
+/-! ## A332956.P14332517038981909572
+
+`∩[A083207(n+1), A107750(n)]`
+-/
+
+namespace A332956.P14332517038981909572
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083207 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107750 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332956.P14332517038981909572
 
 /-!
 # A332958: Number of labeled forests with 2n nodes consisting of n-1 isolated nodes and a labeled tree with n+1 nodes.

@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -232,23 +231,29 @@ end A371700
 /-!
 # A371701: a(n) is the least positive k such that Product_{i=1..k} 1 / (1 - 1/(2*i+1)) >= n.
 
-The programs for A371701, there is no canonical definition to state claims against.
+The programs for A371701, the canonical program `A371701.P12809043809998444514` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371701 has offset 0).
+
+The definition of A371701 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A371701.P12809043809998444514
 
 `A057428(n)+ceil((A135039(n)+1)/4)`
+
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
-namespace A371701.P12809043809998444514
-noncomputable section
+namespace A371701
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 n + ⌈(A135039 n + 1 : ℚ) / 4⌉
+/-- `A057428(n)+ceil((A135039(n)+1)/4)` -/
+def P12809043809998444514.Spec : Prop :=
+  ∀ n, P12809043809998444514.a n = A371701 n
 
-end
+theorem P12809043809998444514.correct : P12809043809998444514.Spec := by
+  intro n
+  simp only [A371701]
 
-end A371701.P12809043809998444514
+end A371701
 
 /-! ## A371701.P13264012317937410403
 
@@ -265,6 +270,14 @@ end
 
 end A371701.P13264012317937410403
 
+namespace A371701
+
+/-- `A057428(n)+A008621(A135039(n))` -/
+def P13264012317937410403.Spec : Prop :=
+  ∀ n, P13264012317937410403.a n = A371701 n
+
+end A371701
+
 /-! ## A371701.P13152391036720206098
 
 `A008621(A135039(n))-A057427(n)`
@@ -279,6 +292,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371701.P13152391036720206098
+
+namespace A371701
+
+/-- `A008621(A135039(n))-A057427(n)` -/
+def P13152391036720206098.Spec : Prop :=
+  ∀ n, P13152391036720206098.a n = A371701 n
+
+end A371701
 
 /-! ## A371701.P8650448122706774895
 
@@ -295,6 +316,14 @@ end
 
 end A371701.P8650448122706774895
 
+namespace A371701
+
+/-- `A057428(n)+A008621(A121381(n²))` -/
+def P8650448122706774895.Spec : Prop :=
+  ∀ n, P8650448122706774895.a n = A371701 n
+
+end A371701
+
 /-! ## A371701.P196420565316660593
 
 `A008621(A121381(n²))-A057427(n)`
@@ -309,6 +338,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371701.P196420565316660593
+
+namespace A371701
+
+/-- `A008621(A121381(n²))-A057427(n)` -/
+def P196420565316660593.Spec : Prop :=
+  ∀ n, P196420565316660593.a n = A371701 n
+
+end A371701
 
 /-! ## A371701.P17759250833831460489
 
@@ -325,6 +362,14 @@ end
 
 end A371701.P17759250833831460489
 
+namespace A371701
+
+/-- `A057428(n)+A008621(A178334(n)+A022844(n²))` -/
+def P17759250833831460489.Spec : Prop :=
+  ∀ n, P17759250833831460489.a n = A371701 n
+
+end A371701
+
 /-! ## A371701.P13806828287658693586
 
 `A008621(A178334(n)+A022844(n²))-A057427(n)`
@@ -339,6 +384,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371701.P13806828287658693586
+
+namespace A371701
+
+/-- `A008621(A178334(n)+A022844(n²))-A057427(n)` -/
+def P13806828287658693586.Spec : Prop :=
+  ∀ n, P13806828287658693586.a n = A371701 n
+
+end A371701
 
 /-! ## A371701.P5514649317387209919
 
@@ -355,6 +408,14 @@ end
 
 end A371701.P5514649317387209919
 
+namespace A371701
+
+/-- `A057428(n)+A008621(A157928(n+1)+A022844(n²))` -/
+def P5514649317387209919.Spec : Prop :=
+  ∀ n, P5514649317387209919.a n = A371701 n
+
+end A371701
+
 /-! ## A371701.P7016218055311432273
 
 `A008621(A157928(n+1)+A022844(n²))-A057427(n)`
@@ -370,6 +431,14 @@ end
 
 end A371701.P7016218055311432273
 
+namespace A371701
+
+/-- `A008621(A157928(n+1)+A022844(n²))-A057427(n)` -/
+def P7016218055311432273.Spec : Prop :=
+  ∀ n, P7016218055311432273.a n = A371701 n
+
+end A371701
+
 /-! ## A371701.P12175611345617977298
 
 `A008621(A066643(n)+(n-A014681(n))²)-A057427(n)`
@@ -384,6 +453,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371701.P12175611345617977298
+
+namespace A371701
+
+/-- `A008621(A066643(n)+(n-A014681(n))²)-A057427(n)` -/
+def P12175611345617977298.Spec : Prop :=
+  ∀ n, P12175611345617977298.a n = A371701 n
+
+end A371701
 
 /-!
 # A371702: a(n) is the least positive k such that Product_{i=1..k} (1 + 1/(2*i-1)) >= n.

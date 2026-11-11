@@ -31,7 +31,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -7030,21 +7030,6 @@ end
 
 end A039272.P13822751269032688200
 
-/-! ## A039272.P16927924071834165679
-
-`A102487(n+2)-A285097(A044407(n+1))`
--/
-
-namespace A039272.P16927924071834165679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102487 (n + 2) - A285097 (A044407 (n + 1)).toNat
-
-end
-
-end A039272.P16927924071834165679
-
 /-! ## A039272.P10630338788190243193
 
 `lt[A059146(2*n+3), A059137(A059147(n))]`
@@ -7155,6 +7140,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039272.P4763694450535183042
+
+/-! ## A039272.P2989990206703938608
+
+`A102487(n+2)+A008557(n+1)-A008558(n+1)`
+-/
+
+namespace A039272.P2989990206703938608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102487 (n + 2) + A008557 (n + 1) - A008558 (n + 1)
+
+end
+
+end A039272.P2989990206703938608
 
 /-!
 # A039273: Numbers whose base-12 representation has the same number of 9's and 11's.
@@ -9692,33 +9692,26 @@ def P9104469083023566617.Spec : Prop :=
 
 end A039289
 
-/-! ## A039289.P6106257749842254559
+/-! ## A039289.P17300059067497234328
 
-`∩[A023738(n+1), A137469(n+1)]`
+`A045252(A187829(n+1))`
 -/
 
-namespace A039289.P6106257749842254559
+namespace A039289.P17300059067497234328
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023738 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137469 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045252 (A187829 (n + 1)).toNat
 
 end
 
-end A039289.P6106257749842254559
+end A039289.P17300059067497234328
 
 namespace A039289
 
-/-- `∩[A023738(n+1), A137469(n+1)]` -/
-def P6106257749842254559.Spec : Prop :=
-  ∀ n, (P6106257749842254559.a n : ℤ) = A039289 (n + 1)
+/-- `A045252(A187829(n+1))` -/
+def P17300059067497234328.Spec : Prop :=
+  ∀ n, P17300059067497234328.a n = A039289 (n + 1)
 
 end A039289
 

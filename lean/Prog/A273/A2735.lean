@@ -40,7 +40,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -4633,27 +4632,6 @@ end
 
 end A273543.P18307347931468112294
 
-/-! ## A273543.P12813218529836148446
-
-`lt[log2(A193144(n+1)), A005128(n)]`
--/
-
-namespace A273543.P12813218529836148446
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.logb 2 (A193144 (n + 1) : ℝ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005128 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℝ)) n
-
-end
-
-end A273543.P12813218529836148446
-
 /-! ## A273543.P8104826194062949637
 
 `lt[4, gcd(n, A025487(n*A100254(n+1)+1))-9]`
@@ -9242,6 +9220,21 @@ end
 
 end A273592.P18314032867856497394
 
+/-! ## A273592.P12479464562657479475
+
+`A280618(2*A273555(n+1))`
+-/
+
+namespace A273592.P12479464562657479475
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280618 (2 * A273555 (n + 1)).toNat
+
+end
+
+end A273592.P12479464562657479475
+
 /-! ## A273592.P10278589061155389987
 
 `A368916(A270613(n+2)+A133265(n))`
@@ -9256,21 +9249,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A273592.P10278589061155389987
-
-/-! ## A273592.P17275475952434916338
-
-`A127254(A138674(n+5)*A250120(3*n+1))`
--/
-
-namespace A273592.P17275475952434916338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127254 (A138674 (n + 5) * A250120 (3 * n + 1)).toNat
-
-end
-
-end A273592.P17275475952434916338
 
 /-!
 # A273595: Least q > 0 such that min { x >= 0 | q + prime(n)*x + x^2 is composite } is a (local) maximum, cf. A273756 & A273770.

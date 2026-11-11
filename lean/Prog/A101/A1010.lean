@@ -36,7 +36,6 @@ import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
@@ -2362,6 +2361,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101034.P8626446183109781978
+
+/-! ## A101034.P6930399492991171197
+
+`A137180(A003098(n+1))`
+-/
+
+namespace A101034.P6930399492991171197
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137180 (A003098 (n + 1)).toNat
+
+end
+
+end A101034.P6930399492991171197
 
 /-!
 # A101035: Dirichlet inverse of the gcd-sum function (A018804).
@@ -4696,6 +4710,21 @@ end
 
 end A101044.P10081778931032227428
 
+/-! ## A101044.P11565263554879763896
+
+`A087242(A101043(n+1))`
+-/
+
+namespace A101044.P11565263554879763896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087242 (A101043 (n + 1)).toNat
+
+end
+
+end A101044.P11565263554879763896
+
 /-! ## A101044.P5659948982077443592
 
 `A271353(A101043(n+1)+2)`
@@ -4710,21 +4739,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101044.P5659948982077443592
-
-/-! ## A101044.P2765353441283140310
-
-`A204895(A101043(n+1))`
--/
-
-namespace A101044.P2765353441283140310
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204895 (A101043 (n + 1)).toNat
-
-end
-
-end A101044.P2765353441283140310
 
 /-!
 # A101045: Record size primes in A101044.
@@ -4780,35 +4794,35 @@ end
 
 end A101045.P12854179436809803284
 
-/-! ## A101045.P8088063360224841745
+/-! ## A101045.P4481136998769321005
 
-`A204895(A101046(n+1))`
+`A094746(A371069(n+1))`
 -/
 
-namespace A101045.P8088063360224841745
+namespace A101045.P4481136998769321005
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204895 (A101046 (n + 1)).toNat
+  A094746 (A371069 (n + 1)).toNat
 
 end
 
-end A101045.P8088063360224841745
+end A101045.P4481136998769321005
 
-/-! ## A101045.P14143516455648044089
+/-! ## A101045.P10481413901215973924
 
-`A094802(A024377(n+1))`
+`A087242(A101046(n+1))`
 -/
 
-namespace A101045.P14143516455648044089
+namespace A101045.P10481413901215973924
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094802 (A024377 (n + 1)).toNat
+  A087242 (A101046 (n + 1)).toNat
 
 end
 
-end A101045.P14143516455648044089
+end A101045.P10481413901215973924
 
 /-!
 # A101046: d such that the smallest prime p for which p+d is also prime is larger than for any smaller d.
@@ -11961,6 +11975,29 @@ def P8068327325144532149.Spec : Prop :=
 theorem P8068327325144532149.correct : P8068327325144532149.Spec := by
   intro n
   simp only [A101096, Nat.add_sub_cancel]
+
+end A101096
+
+/-! ## A101096.P4170226499238972796
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=1, a(1)=29, a(2)=150, a(3)=390, a(4)=750`
+-/
+
+namespace A101096.P4170226499238972796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 29, 150, 390, 750] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A101096.P4170226499238972796
+
+namespace A101096
+
+/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
+def P4170226499238972796.Spec : Prop :=
+  ∀ n, P4170226499238972796.a n = A101096 (n + 1)
 
 end A101096
 

@@ -2517,6 +2517,21 @@ end
 
 end A033630.P16241655358482337484
 
+/-! ## A033630.P16454071431567202143
+
+`A034968(A331927(n))`
+-/
+
+namespace A033630.P16454071431567202143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034968 (A331927 n).toNat
+
+end
+
+end A033630.P16454071431567202143
+
 /-!
 # A033631: Numbers k such that sigma(phi(k)) = sigma(k) where sigma is the sum of divisors function A000203 and phi is the Euler totient function A000010.
 
@@ -7432,6 +7447,27 @@ end
 
 end A033676.P1816139270037284631
 
+/-! ## A033676.P15253795243597624987
+
+`runs[fp[A219729(n+1)]]`
+-/
+
+namespace A033676.P15253795243597624987
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219729 (n + 1)
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f2 j) 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f1 j ≠ f1 (j - 1)) n
+
+end
+
+end A033676.P15253795243597624987
+
 /-!
 # A033677: Smallest divisor of n >= sqrt(n).
 
@@ -8829,26 +8865,49 @@ def P7560397534999084577.Spec : Prop :=
 
 end A033684
 
-/-! ## A033684.P5412713041039228091
+/-! ## A033684.P10419719394115206185
 
-`min(A010052(n), A010872(n))`
+`A134804(n*A010052(n))`
 -/
 
-namespace A033684.P5412713041039228091
+namespace A033684.P10419719394115206185
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  min (A010052 n) (A010872 n)
+  A134804 ((n : ℤ) * A010052 n).toNat
 
 end
 
-end A033684.P5412713041039228091
+end A033684.P10419719394115206185
 
 namespace A033684
 
-/-- `min(A010052(n), A010872(n))` -/
-def P5412713041039228091.Spec : Prop :=
-  ∀ n, P5412713041039228091.a n = A033684 n
+/-- `A134804(n*A010052(n))` -/
+def P10419719394115206185.Spec : Prop :=
+  ∀ n, P10419719394115206185.a n = A033684 n
+
+end A033684
+
+/-! ## A033684.P9458619732169702512
+
+`A156595(n*A010052(n))`
+-/
+
+namespace A033684.P9458619732169702512
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156595 ((n : ℤ) * A010052 n).toNat
+
+end
+
+end A033684.P9458619732169702512
+
+namespace A033684
+
+/-- `A156595(n*A010052(n))` -/
+def P9458619732169702512.Spec : Prop :=
+  ∀ n, P9458619732169702512.a n = A033684 n
 
 end A033684
 

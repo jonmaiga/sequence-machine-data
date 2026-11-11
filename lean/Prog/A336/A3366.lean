@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -52,7 +51,6 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -784,6 +782,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A336614.P10556276537561072645
+
+/-! ## A336614.P539020856703560100
+
+`∑{#}[floor(n/3), 2^(n-3*#)*n!/(3^#*(n-3*#)!*#!)]`
+-/
+
+namespace A336614.P539020856703560100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 3⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 : ℚ) ^ ((n : ℤ) - (3 * k : ℤ) : ℤ) * (Nat.factorial n : ℚ) / (3 ^ k * Nat.factorial ((n : ℤ) - (3 * k : ℤ)).toNat * Nat.factorial k : ℚ)
+
+end
+
+end A336614.P539020856703560100
 
 /-!
 # A336615: Numbers of the form p * m^2, where p is prime and m > 0 is not divisible by p.

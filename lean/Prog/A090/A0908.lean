@@ -4617,20 +4617,20 @@ end
 
 end A090835.P3125995655922646184
 
-/-! ## A090835.P159286835081708041
+/-! ## A090835.P8255920797559665765
 
-`A061395(2*A090834(n+1))`
+`A066328(A090834(n+1))`
 -/
 
-namespace A090835.P159286835081708041
+namespace A090835.P8255920797559665765
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061395 (2 * A090834 (n + 1)).toNat
+  A066328 (A090834 (n + 1)).toNat
 
 end
 
-end A090835.P159286835081708041
+end A090835.P8255920797559665765
 
 /-!
 # A090836: Numbers k such that 6*k+5, 6*k+11, 6*k+17, 6*k+23 are consecutive primes.
@@ -7920,6 +7920,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090861.P13889845930208806934
+
+/-! ## A090861.P12583293109765735673
+
+`A090915(A020703(A090930(n+1)))`
+-/
+
+namespace A090861.P12583293109765735673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090915 (A020703 (A090930 (n + 1)).toNat).toNat
+
+end
+
+end A090861.P12583293109765735673
 
 /-! ## A090861.P10485804104253768306
 

@@ -5422,29 +5422,26 @@ def P1527594815960526648.Spec : Prop :=
 
 end A007843
 
-/-! ## A007843.P14444468783532268904
+/-! ## A007843.P6382734454211484777
 
-`fp[A113474(n+1)]+1`
+`A046699(A046699(A055938(n+1))+n)`
 -/
 
-namespace A007843.P14444468783532268904
+namespace A007843.P6382734454211484777
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113474 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 + 1
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046699 (A046699 (A055938 (n + 1)).toNat + (n : ℤ)).toNat
 
 end
 
-end A007843.P14444468783532268904
+end A007843.P6382734454211484777
 
 namespace A007843
 
-/-- `fp[A113474(n+1)]+1` -/
-def P14444468783532268904.Spec : Prop :=
-  ∀ n, (P14444468783532268904.a n : ℤ) = A007843 n
+/-- `A046699(A046699(A055938(n+1))+n)` -/
+def P6382734454211484777.Spec : Prop :=
+  ∀ n, P6382734454211484777.a n = A007843 n
 
 end A007843
 
@@ -7119,8 +7116,25 @@ end A007855.P15262695928742709978
 /-!
 # A007856: Subtrees in rooted plane trees on n nodes.
 
-The programs for A007856, there is no canonical definition to state claims against.
+The programs for A007856, the canonical program `A007856.P687862503878457637` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007856 has offset 1).
+
+The definition of A007856 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 130 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A007856.P687862503878457637
+
+`∑{#}[n, 1/(#+1)*C(2*n, n-#)*C(2*#, #)]`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A007856
+
+/-- `∑{#}[n, 1/(#+1)*C(2*n, n-#)*C(2*#, #)]` -/
+def P687862503878457637.Spec : Prop :=
+  ∀ n, P687862503878457637.a n = (A007856 (n + 1) : ℚ)
+
+end A007856
 
 /-! ## A007856.P4883756444982332653
 
@@ -7137,6 +7151,14 @@ end
 
 end A007856.P4883756444982332653
 
+namespace A007856
+
+/-- `A243585(n)-n*A153294(n)` -/
+def P4883756444982332653.Spec : Prop :=
+  ∀ n, P4883756444982332653.a n = A007856 (n + 1)
+
+end A007856
+
 /-! ## A007856.P13330753423510013830
 
 `A243585(n)+n*A153294(n)*A153881(n+1)`
@@ -7151,6 +7173,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007856.P13330753423510013830
+
+namespace A007856
+
+/-- `A243585(n)+n*A153294(n)*A153881(n+1)` -/
+def P13330753423510013830.Spec : Prop :=
+  ∀ n, P13330753423510013830.a n = A007856 (n + 1)
+
+end A007856
 
 /-!
 # A007857: Number of independent sets in rooted plane trees on n nodes.
@@ -10864,6 +10894,24 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A007889.P13487966487976876435
+
+/-! ## A007889.P11985683559307589087
+
+`2^-n*∑{#}[n, C(n, #)*(#+1)^(n-1)]`
+-/
+
+namespace A007889.P11985683559307589087
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (-(n : ℤ) : ℤ) * (∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℚ) * (k + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ))
+
+end
+
+end A007889.P11985683559307589087
 
 /-! ## A007889.P542223228246317577
 

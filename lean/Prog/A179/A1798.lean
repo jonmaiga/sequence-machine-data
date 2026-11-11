@@ -5139,6 +5139,24 @@ end
 
 end A179832.P4986549245265164787
 
+/-! ## A179832.P12936355382691142918
+
+`filter[A069782(n+1), A179831(#)]`
+-/
+
+namespace A179832.P12936355382691142918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069782 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A179831 (f1 j).toNat = 1) n)
+
+end
+
+end A179832.P12936355382691142918
+
 /-!
 # A179833: First differences of A179832.
 
@@ -15874,6 +15892,29 @@ def P10674877668934711417.Spec : Prop :=
 
 end A179896
 
+/-! ## A179896.P3658170827680947250
+
+`A161777(n+1)+A161777(n+1)+A161777(n+1)`
+-/
+
+namespace A179896.P3658170827680947250
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161777 (n + 1) + A161777 (n + 1) + A161777 (n + 1)
+
+end
+
+end A179896.P3658170827680947250
+
+namespace A179896
+
+/-- `A161777(n+1)+A161777(n+1)+A161777(n+1)` -/
+def P3658170827680947250.Spec : Prop :=
+  ∀ n, P3658170827680947250.a n = A179896 (n + 1)
+
+end A179896
+
 /-! ## A179896.P11153731358166591039
 
 `A005448(A018252(n+1))-1`
@@ -16020,29 +16061,6 @@ namespace A179896
 /-- `3*C(comp[A331044(n)], 2)` -/
 def P7766700427518925209.Spec : Prop :=
   ∀ n, (P7766700427518925209.a n : ℤ) = A179896 (n + 1)
-
-end A179896
-
-/-! ## A179896.P17917553396166095
-
-`A033436(2*A018252(n+1)-1)`
--/
-
-namespace A179896.P17917553396166095
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033436 (2 * A018252 (n + 1) - 1).toNat
-
-end
-
-end A179896.P17917553396166095
-
-namespace A179896
-
-/-- `A033436(2*A018252(n+1)-1)` -/
-def P17917553396166095.Spec : Prop :=
-  ∀ n, P17917553396166095.a n = A179896 (n + 1)
 
 end A179896
 

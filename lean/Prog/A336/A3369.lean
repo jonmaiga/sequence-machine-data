@@ -5079,21 +5079,6 @@ end A336932
 The programs for A336933, there is no canonical definition to state claims against.
 -/
 
-/-! ## A336933.P3685106411512344003
-
-`A278059(floor(n/(xor(n, n+1)+1))+1)%A029968(3*n+5)`
--/
-
-namespace A336933.P3685106411512344003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A278059 (⌊(n : ℚ) / (Nat.xor n (n + 1) + 1 : ℚ)⌋ + 1).toNat) (A029968 (3 * n + 5))
-
-end
-
-end A336933.P3685106411512344003
-
 /-! ## A336933.P4937253995139116864
 
 `A278059(A003602(n+1))+A239261(A331927(n))`
@@ -5905,21 +5890,6 @@ end A336937
 
 The programs for A336938, there is no canonical definition to state claims against.
 -/
-
-/-! ## A336938.P767783663589121627
-
-`4*A107680(A255066(n))`
--/
-
-namespace A336938.P767783663589121627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A107680 (A255066 n).toNat
-
-end
-
-end A336938.P767783663589121627
 
 /-! ## A336938.P3846647007896195678
 
@@ -8561,21 +8531,6 @@ end
 
 end A336975.P9609425817953153443
 
-/-! ## A336975.P1596457906036712920
-
-`A087276(A002478(n))`
--/
-
-namespace A336975.P1596457906036712920
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087276 (A002478 n).toNat
-
-end
-
-end A336975.P1596457906036712920
-
 /-! ## A336975.P8474268933483198101
 
 `A342791(A186334(n))`
@@ -8590,6 +8545,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A336975.P8474268933483198101
+
+/-! ## A336975.P9251032794130812677
+
+`A105223(A150411(n+1))`
+-/
+
+namespace A336975.P9251032794130812677
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105223 (A150411 (n + 1)).toNat
+
+end
+
+end A336975.P9251032794130812677
 
 /-!
 # A336976: Expansion of Product_{k>=1} 1/(1 - x^k * (1 + k*x)).

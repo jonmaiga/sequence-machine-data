@@ -41,7 +41,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
@@ -2125,6 +2124,35 @@ def P17084183620191876820.Spec : Prop :=
 theorem P17084183620191876820.correct : P17084183620191876820.Spec := by
   intro n
   simp only [A349039, Nat.add_sub_cancel, A349039.P17084183620191876820.a, A349039.P8937323776347289677.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A349039
+
+/-! ## A349039.P803893723842090356
+
+`row(n)²-3*row(n)*col(n)+3*col(n)²`
+-/
+
+namespace A349039.P803893723842090356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triRow n ^ 2 : ℤ) - (3 * SequenceMachineLib.triRow n * SequenceMachineLib.triCol n : ℤ) + (3 * SequenceMachineLib.triCol n ^ 2 : ℤ)
+
+end
+
+end A349039.P803893723842090356
+
+namespace A349039
+
+/-- `row(n)²-3*row(n)*col(n)+3*col(n)²` -/
+def P803893723842090356.Spec : Prop :=
+  ∀ n, P803893723842090356.a n = A349039 n
+
+theorem P803893723842090356.correct : P803893723842090356.Spec := by
+  intro n
+  simp only [A349039, Nat.add_sub_cancel, A349039.P803893723842090356.a, A349039.P8937323776347289677.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 

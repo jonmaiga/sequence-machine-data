@@ -355,6 +355,32 @@ def P4351807897292981063.Spec : Prop :=
 
 end A342404
 
+/-! ## A342404.P127000985252301199
+
+`∑{#}[n-2, C(n, 2)*C(n-2, #+2)]`
+-/
+
+namespace A342404.P127000985252301199
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n 2 * Nat.choose ((n : ℤ) - 2).toNat (k + 2)
+
+end
+
+end A342404.P127000985252301199
+
+namespace A342404
+
+/-- `∑{#}[n-2, C(n, 2)*C(n-2, #+2)]` -/
+def P127000985252301199.Spec : Prop :=
+  ∀ n, (P127000985252301199.a n : ℤ) = A342404 n
+
+end A342404
+
 /-! ## A342404.P12980066926139979539
 
 `∑{#}[n-1, #*(#*C(n-1, #)-(n-1))]`

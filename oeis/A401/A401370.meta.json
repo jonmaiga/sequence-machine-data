@@ -1,0 +1,21 @@
+{
+  "description": "Evaluation of the n-th cyclotomic polynomial at the n-th Fibonacci number: a(n) = Phi_n(F(n)).",
+  "id": "A401370",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A020500",
+    "A070518",
+    "A070526",
+    "A398557"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

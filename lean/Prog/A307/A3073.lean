@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -55,6 +54,7 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -71,6 +71,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -110,6 +111,36 @@ set_option linter.unreachableTactic false
 
 The programs for A307300, there is no canonical definition to state claims against.
 -/
+
+/-! ## A307300.P10232858696355392559
+
+`A253315(A271710(n)+A004198(n))`
+-/
+
+namespace A307300.P10232858696355392559
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253315 (A271710 n + A004198 n).toNat
+
+end
+
+end A307300.P10232858696355392559
+
+/-! ## A307300.P15736645821762915140
+
+`A253315(or(A004198(n), A271710(n)))`
+-/
+
+namespace A307300.P15736645821762915140
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253315 (Int.lor (A004198 n) (A271710 n)).toNat
+
+end
+
+end A307300.P15736645821762915140
 
 /-! ## A307300.P8479682713464230929
 
@@ -200,36 +231,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A307300.P11674483161585438831
-
-/-! ## A307300.P10232858696355392559
-
-`A253315(A271710(n)+A004198(n))`
--/
-
-namespace A307300.P10232858696355392559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253315 (A271710 n + A004198 n).toNat
-
-end
-
-end A307300.P10232858696355392559
-
-/-! ## A307300.P15736645821762915140
-
-`A253315(or(A004198(n), A271710(n)))`
--/
-
-namespace A307300.P15736645821762915140
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253315 (Int.lor (A004198 n) (A271710 n)).toNat
-
-end
-
-end A307300.P15736645821762915140
 
 /-!
 # A307301: Array read by antidiagonals: Sprague-Grundy values for the game NimHof with rules [1,0], [3,1], [0,1].
@@ -2918,6 +2919,32 @@ def P400740731580175204.Spec : Prop :=
 
 end A307341
 
+/-! ## A307341.P2923733511243087420
+
+`filter[A014613(n+1), A401791(#)]`
+-/
+
+namespace A307341.P2923733511243087420
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014613 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A307341.P2923733511243087420
+
+namespace A307341
+
+/-- `filter[A014613(n+1), A401791(#)]` -/
+def P2923733511243087420.Spec : Prop :=
+  ∀ n, P2923733511243087420.a n = A307341 (n + 1)
+
+end A307341
+
 /-! ## A307341.P3108522737048805241
 
 `∩[A013929(n+1), A014613(n+1)]`
@@ -3366,32 +3393,6 @@ namespace A307341
 /-- `∩[A014613(n+1), A244723(n+1)]` -/
 def P13391098038854351549.Spec : Prop :=
   ∀ n, (P13391098038854351549.a n : ℤ) = A307341 (n + 1)
-
-end A307341
-
-/-! ## A307341.P81234164509578942
-
-`filter[A255199(n+1), A101637(#)]`
--/
-
-namespace A307341.P81234164509578942
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255199 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A101637 (f1 j).toNat = 1) n)
-
-end
-
-end A307341.P81234164509578942
-
-namespace A307341
-
-/-- `filter[A255199(n+1), A101637(#)]` -/
-def P81234164509578942.Spec : Prop :=
-  ∀ n, P81234164509578942.a n = A307341 (n + 1)
 
 end A307341
 
@@ -5145,7 +5146,7 @@ end
 end A307355.P13922903299539448407
 
 /-!
-# A307356: a(n) is the numbers of 2's in row n of triangle A307239.
+# A307356: a(n) is the number of 2's in row n of triangle A307239.
 
 The programs for A307356, there is no canonical definition to state claims against.
 -/

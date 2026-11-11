@@ -21,13 +21,14 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -2774,6 +2775,29 @@ def P949655169709984134.Spec : Prop :=
 
 end A246133
 
+/-! ## A246133.P214215195583416281
+
+`A246134(n+1)%A066023(n+1)`
+-/
+
+namespace A246133.P214215195583416281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A246134 (n + 1)) (A066023 (n + 1))
+
+end
+
+end A246133.P214215195583416281
+
+namespace A246133
+
+/-- `A246134(n+1)%A066023(n+1)` -/
+def P214215195583416281.Spec : Prop :=
+  ∀ n, P214215195583416281.a n = A246133 (n + 1)
+
+end A246133
+
 /-! ## A246133.P14945617118933992340
 
 `(A000984(n+1)-2)%((n+1)^3)`
@@ -3149,6 +3173,32 @@ namespace A246138
 /-- `∑[A005802(n)]-(A005802(n)+1)` -/
 def P17222006055922790294.Spec : Prop :=
   ∀ n, P17222006055922790294.a n = A246138 (n + 1)
+
+end A246138
+
+/-! ## A246138.P6346163082544292079
+
+`∑{#}[n, 1/(#+1)*C(2*#, #)*(2*C(n, #)*C(n, #+1)-C(n, #)²)]`
+-/
+
+namespace A246138.P6346163082544292079
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 1 / (k + 1 : ℚ) * (Nat.choose (2 * k) k : ℚ) * ((2 * Nat.choose n k * Nat.choose n (k + 1) : ℤ) - (Nat.choose n k ^ 2 : ℤ) : ℚ)
+
+end
+
+end A246138.P6346163082544292079
+
+namespace A246138
+
+/-- `∑{#}[n, 1/(#+1)*C(2*#, #)*(2*C(n, #)*C(n, #+1)-C(n, #)²)]` -/
+def P6346163082544292079.Spec : Prop :=
+  ∀ n, P6346163082544292079.a n = (A246138 (n + 1) : ℚ)
 
 end A246138
 
@@ -5287,19 +5337,19 @@ end
 
 end A246156.P18204028395228717455
 
-/-! ## A246156.P2870616356025624447
+/-! ## A246156.P5784804827579136501
 
-`∩[A091242(n+1), A130773(n)]`
+`∩[A004273(n), A091242(n+1)]`
 -/
 
-namespace A246156.P2870616356025624447
+namespace A246156.P5784804827579136501
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091242 (n + 1)
+  A004273 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130773 n
+  A091242 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5307,21 +5357,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A246156.P2870616356025624447
+end A246156.P5784804827579136501
 
-/-! ## A246156.P17870865544418229964
+/-! ## A246156.P1855083556120282491
 
-`∩[A091242(n+1), A163985(n)]`
+`∩[A004274(n), A091242(n+1)]`
 -/
 
-namespace A246156.P17870865544418229964
+namespace A246156.P1855083556120282491
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091242 (n + 1)
+  A004274 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163985 n
+  A091242 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5329,7 +5379,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A246156.P17870865544418229964
+end A246156.P1855083556120282491
 
 /-!
 # A246157: Reducible polynomials over GF(2) which are both odd and odious when coded in binary, or equally, which have an odd number of nonzero terms, with the constant term being 1.
@@ -6954,29 +7004,26 @@ def P4695845419147691800.Spec : Prop :=
 
 end A246160
 
-/-! ## A246160.P2898592686872884251
+/-! ## A246160.P1011701681510605005
 
-`row(∑{#}[A065620(n), #])`
+`A142150(A066194(n+1))`
 -/
 
-namespace A246160.P2898592686872884251
+namespace A246160.P1011701681510605005
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065620 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (∑ k ∈ Finset.range (f1 n + 1).toNat, k)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142150 (A066194 (n + 1)).toNat
 
 end
 
-end A246160.P2898592686872884251
+end A246160.P1011701681510605005
 
 namespace A246160
 
-/-- `row(∑{#}[A065620(n), #])` -/
-def P2898592686872884251.Spec : Prop :=
-  ∀ n, (P2898592686872884251.a n : ℤ) = A246160 n
+/-- `A142150(A066194(n+1))` -/
+def P1011701681510605005.Spec : Prop :=
+  ∀ n, P1011701681510605005.a n = A246160 n
 
 end A246160
 
@@ -8361,6 +8408,29 @@ def P1024128389972888435.Spec : Prop :=
 
 end A246172
 
+/-! ## A246172.P15344776417687927206
+
+`1+6*n+C(n, 2)`
+-/
+
+namespace A246172.P15344776417687927206
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 6 * n + Nat.choose n 2
+
+end
+
+end A246172.P15344776417687927206
+
+namespace A246172
+
+/-- `1+6*n+C(n, 2)` -/
+def P15344776417687927206.Spec : Prop :=
+  ∀ n, (P15344776417687927206.a n : ℤ) = A246172 (n + 1)
+
+end A246172
+
 /-! ## A246172.P7376386925636085380
 
 `5+a(n-1)+n` with `a(0)=1`
@@ -8511,29 +8581,6 @@ namespace A246172
 /-- `∑[5^((n+2)%(n+1))+n]` -/
 def P10941560651251965935.Spec : Prop :=
   ∀ n, (P10941560651251965935.a n : ℤ) = A246172 (n + 1)
-
-end A246172
-
-/-! ## A246172.P6614588253463194936
-
-`2*(C(n+2, 2)/2+2*n)`
--/
-
-namespace A246172.P6614588253463194936
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  2 * ((Nat.choose (n + 2) 2 : ℚ) / 2 + (2 * n : ℚ))
-
-end
-
-end A246172.P6614588253463194936
-
-namespace A246172
-
-/-- `2*(C(n+2, 2)/2+2*n)` -/
-def P6614588253463194936.Spec : Prop :=
-  ∀ n, P6614588253463194936.a n = (A246172 (n + 1) : ℚ)
 
 end A246172
 

@@ -1,0 +1,22 @@
+{
+  "description": "Completely multiplicative with a(p) = Phi_p(p) = (p^p-1)/(p-1) for prime p.",
+  "id": "A401302",
+  "mentions": [
+    "A000040",
+    "A001039",
+    "A020500",
+    "A023037",
+    "A054767",
+    "A401029"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

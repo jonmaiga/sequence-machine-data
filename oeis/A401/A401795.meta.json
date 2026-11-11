@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonempty convex vertex sets with diameter k in the n-Fibonacci cube graph.",
+  "id": "A401795",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000244",
+    "A001629",
+    "A006356",
+    "A038207",
+    "A401796"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

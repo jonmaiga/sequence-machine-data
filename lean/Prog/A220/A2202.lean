@@ -97,7 +97,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A220200: Number of nX4 arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 nX4 array.
+# A220200: Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 n X 4 array.
 
 The programs for A220200, there is no canonical definition to state claims against.
 -/
@@ -5242,71 +5242,80 @@ end A220263.P5459438903069124603
 The programs for A220264, there is no canonical definition to state claims against.
 -/
 
-/-! ## A220264.P7319084907509992520
+/-! ## A220264.P17870503953969707056
 
-`A350424(n*A302776(a(n-1)+1))` with `a(0)=1`
+`A401490(A002998(n))`
 -/
 
-namespace A220264.P7319084907509992520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A350424 ((n : ℤ) * A302776 (a (n - 1) + 1).toNat).toNat
-
-end
-
-end A220264.P7319084907509992520
-
-/-! ## A220264.P3425597100719873533
-
-`record[A168264(n+1)%A168242(2*(n+2))]`
--/
-
-namespace A220264.P3425597100719873533
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A168264 (n + 1)) (A168242 (2 * (n + 2)))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A220264.P3425597100719873533
-
-/-! ## A220264.P8877464404148622687
-
-`record[A046523(A389553(n+1)+n^3)]`
--/
-
-namespace A220264.P8877464404148622687
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046523 (A389553 (n + 1) + (n ^ 3 : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A220264.P8877464404148622687
-
-/-! ## A220264.P12069356651857953958
-
-`A046523(A000581(n+8))*A326851(3*n+1)`
--/
-
-namespace A220264.P12069356651857953958
+namespace A220264.P17870503953969707056
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046523 (A000581 (n + 8)).toNat * A326851 (3 * n + 1)
+  A401490 (A002998 n).toNat
 
 end
 
-end A220264.P12069356651857953958
+end A220264.P17870503953969707056
+
+/-! ## A220264.P315608552809680361
+
+`A003964(A401490(n))`
+-/
+
+namespace A220264.P315608552809680361
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003964 (A401490 n).toNat
+
+end
+
+end A220264.P315608552809680361
+
+/-! ## A220264.P17016168680811585064
+
+`A401490(A023106(n))`
+-/
+
+namespace A220264.P17016168680811585064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401490 (A023106 n).toNat
+
+end
+
+end A220264.P17016168680811585064
+
+/-! ## A220264.P3878411722736526304
+
+`A401490(A024658(n))`
+-/
+
+namespace A220264.P3878411722736526304
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401490 (A024658 n).toNat
+
+end
+
+end A220264.P3878411722736526304
+
+/-! ## A220264.P7866331524589795676
+
+`A401490(A024659(n))`
+-/
+
+namespace A220264.P7866331524589795676
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401490 (A024659 n).toNat
+
+end
+
+end A220264.P7866331524589795676
 
 /-!
 # A220266: G.f.: Sum_{n>=1} (2*(1+x)^n - 1) * ((1+x)^n - 1)^(n-1).

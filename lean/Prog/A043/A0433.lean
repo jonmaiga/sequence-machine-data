@@ -7155,7 +7155,7 @@ end
 end A043379.P11211291477321421144
 
 /-!
-# A043380: Numbers having four 2's in base 6.
+# A043380: Numbers having exactly four 2's in base 6.
 
 The programs for A043380, there is no canonical definition to state claims against.
 -/

@@ -53,7 +53,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -4641,6 +4641,29 @@ namespace A134235
 /-- `∑[char[∑[n]]]+2*A002262(n+1)` -/
 def P16356917854760825370.Spec : Prop :=
   ∀ n, P16356917854760825370.a n = A134235 (n + 1)
+
+end A134235
+
+/-! ## A134235.P1226365750266308742
+
+`A158405(n+2)+A003056(n)`
+-/
+
+namespace A134235.P1226365750266308742
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158405 (n + 2) + A003056 n
+
+end
+
+end A134235.P1226365750266308742
+
+namespace A134235
+
+/-- `A158405(n+2)+A003056(n)` -/
+def P1226365750266308742.Spec : Prop :=
+  ∀ n, P1226365750266308742.a n = A134235 (n + 1)
 
 end A134235
 

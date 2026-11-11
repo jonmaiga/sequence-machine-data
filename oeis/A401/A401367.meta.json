@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n,k), n >= 1, k >= 2, read by descending antidiagonals: number of pairs of adjacent edges in the k^n cubic grid.",
+  "id": "A401367",
+  "mentions": [
+    "A001477",
+    "A100381",
+    "A163433",
+    "A400505",
+    "A401120"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

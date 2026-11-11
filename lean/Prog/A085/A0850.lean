@@ -4590,6 +4590,52 @@ def P17619192384216079588.Spec : Prop :=
 
 end A085025
 
+/-! ## A085025.P17695012925148107853
+
+`A326118(2*A016873(n))`
+-/
+
+namespace A085025.P17695012925148107853
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326118 (2 * A016873 n).toNat
+
+end
+
+end A085025.P17695012925148107853
+
+namespace A085025
+
+/-- `A326118(2*A016873(n))` -/
+def P17695012925148107853.Spec : Prop :=
+  ∀ n, P17695012925148107853.a n = A085025 n
+
+end A085025
+
+/-! ## A085025.P7486891933556923808
+
+`A326118(A005843(A016873(n)))`
+-/
+
+namespace A085025.P7486891933556923808
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326118 (A005843 (A016873 n).toNat).toNat
+
+end
+
+end A085025.P7486891933556923808
+
+namespace A085025
+
+/-- `A326118(A005843(A016873(n)))` -/
+def P7486891933556923808.Spec : Prop :=
+  ∀ n, P7486891933556923808.a n = A085025 n
+
+end A085025
+
 /-! ## A085025.P5294684805238391044
 
 `A016861(n+1)*A051945(n)/A000108(n)`
@@ -11295,7 +11341,7 @@ end
 end A085083.P6082910611179689439
 
 /-!
-# A085086: a(1) = 1; if n is composite then a(n) = Sum_{i < n, i not prime} a(i), else if n is prime then a(n) = sum_{ j < n, j is a noncomposite} a(j).
+# A085086: a(1) = 1; if n is composite then a(n) = Sum_{i < n, i not prime} a(i), else if n is prime then a(n) = Sum_{j < n, j is a noncomposite} a(j).
 
 The programs for A085086, the canonical program `A085086.P4190578298543733885` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085086 has offset 1).
 
@@ -13117,6 +13163,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A085099.P9888467978845549195
+
+/-! ## A085099.P17463464757786272703
+
+`A000188(A059844(n+1))`
+-/
+
+namespace A085099.P17463464757786272703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A059844 (n + 1)).toNat
+
+end
+
+end A085099.P17463464757786272703
 
 /-! ## A085099.P2303846265054313313
 

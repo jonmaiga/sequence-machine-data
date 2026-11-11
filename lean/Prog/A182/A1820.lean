@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
@@ -73,7 +74,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -1891,6 +1891,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A182020.P11133159529254917671
+
+/-! ## A182020.P15210272866508005152
+
+`A000290(A060811(n+1))`
+-/
+
+namespace A182020.P15210272866508005152
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A060811 (n + 1)).toNat
+
+end
+
+end A182020.P15210272866508005152
 
 /-! ## A182020.P967510684992610987
 
@@ -3993,6 +4008,29 @@ def P5976223240171285257.Spec : Prop :=
 
 end A182042
 
+/-! ## A182042.P13503563368106127183
+
+`xor(A013610(n), A073424(n))`
+-/
+
+namespace A182042.P13503563368106127183
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A013610 n) (A073424 n)
+
+end
+
+end A182042.P13503563368106127183
+
+namespace A182042
+
+/-- `xor(A013610(n), A073424(n))` -/
+def P13503563368106127183.Spec : Prop :=
+  ∀ n, P13503563368106127183.a n = A182042 n
+
+end A182042
+
 /-! ## A182042.P15188350727446970720
 
 `A010054((n+1)*A010054(n))*A013610(n)`
@@ -4443,6 +4481,29 @@ namespace A182047
 /-- `A060264(∑[n])` -/
 def P17792354647282565990.Spec : Prop :=
   ∀ n, P17792354647282565990.a n = A182047 n
+
+end A182047
+
+/-! ## A182047.P8847972101301006098
+
+`A328617(A151800(n*(n+1)))`
+-/
+
+namespace A182047.P8847972101301006098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328617 (A151800 (n * (n + 1))).toNat
+
+end
+
+end A182047.P8847972101301006098
+
+namespace A182047
+
+/-- `A328617(A151800(n*(n+1)))` -/
+def P8847972101301006098.Spec : Prop :=
+  ∀ n, P8847972101301006098.a n = A182047 n
 
 end A182047
 
@@ -6849,21 +6910,6 @@ end
 
 end A182073.P2671219006491115828
 
-/-! ## A182073.P3130075315284801584
-
-`A246661(A043569(n+1)-2)/A211226(n)`
--/
-
-namespace A182073.P3130075315284801584
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A246661 (A043569 (n + 1) - 2).toNat : ℚ) / (A211226 n : ℚ)
-
-end
-
-end A182073.P3130075315284801584
-
 /-! ## A182073.P12545814802870942907
 
 `A246661(A087136(n))/A211226(n)`
@@ -6878,6 +6924,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A182073.P12545814802870942907
+
+/-! ## A182073.P3130075315284801584
+
+`A246661(A043569(n+1)-2)/A211226(n)`
+-/
+
+namespace A182073.P3130075315284801584
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A246661 (A043569 (n + 1) - 2).toNat : ℚ) / (A211226 n : ℚ)
+
+end
+
+end A182073.P3130075315284801584
 
 /-!
 # A182075: Number of partial binary words of length n without a critical factorization.
@@ -7563,7 +7624,7 @@ end A182079
 /-!
 # A182081: Next semiprime after the partial sum of the first n semiprimes.
 
-The programs for A182081, the canonical program `A182081.P16024361419725133729` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182081 has offset 1).
+The programs for A182081, the canonical program `A182081.P16024361419725133729` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182081 has offset 1).
 
 The definition of A182081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7572,7 +7633,7 @@ The definition of A182081 is `conjectured`: the Lean definition is a formula tha
 
 `A001358(A072000(A062198(n+1))+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A182081
@@ -7679,7 +7740,7 @@ end A182081
 /-!
 # A182082: Number of pairs, (x,y), with x >= y, whose LCM does not exceed n.
 
-The programs for A182082, the canonical program `A182082.P7398680763190920704` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182082 has offset 1).
+The programs for A182082, the canonical program `A182082.P7398680763190920704` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182082 has offset 1).
 
 The definition of A182082 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007875, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7688,7 +7749,7 @@ The definition of A182082 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{#}[n, A007875(#+1)*floor((n+1)/(#+1))]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A182082

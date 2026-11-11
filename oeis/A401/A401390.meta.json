@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * A401375(n^2), where A401375 is the largest divisor of sigma(n) coprime with n, and sigma is the sum of divisors function.",
+  "id": "A401390",
+  "mentions": [
+    "A105402",
+    "A401375",
+    "A401386",
+    "A401391",
+    "A401392"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

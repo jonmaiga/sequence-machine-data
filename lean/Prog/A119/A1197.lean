@@ -5963,6 +5963,21 @@ end A119750.P1321707975868140521
 The programs for A119751, there is no canonical definition to state claims against.
 -/
 
+/-! ## A119751.P2532157056621503506
+
+`A120402(n+1)-1`
+-/
+
+namespace A119751.P2532157056621503506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120402 (n + 1) - 1
+
+end
+
+end A119751.P2532157056621503506
+
 /-! ## A119751.P9896088933423626556
 
 `floor(A113875(1+n)/2)`
@@ -5992,21 +6007,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A119751.P546344391325883850
-
-/-! ## A119751.P2532157056621503506
-
-`A120402(n+1)-1`
--/
-
-namespace A119751.P2532157056621503506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120402 (n + 1) - 1
-
-end
-
-end A119751.P2532157056621503506
 
 /-!
 # A119752: a(1)=2; a(n)=first even number greater than a(n-1) such that a(i)+a(n)+1 is prime for all i=1,2,...,n.
@@ -6929,6 +6929,29 @@ def P17825831557156207519.Spec : Prop :=
 
 end A119771
 
+/-! ## A119771.P17274106212839717241
+
+`C(n+2, 3)*n*n`
+-/
+
+namespace A119771.P17274106212839717241
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 2) 3 * n * n
+
+end
+
+end A119771.P17274106212839717241
+
+namespace A119771
+
+/-- `C(n+2, 3)*n*n` -/
+def P17274106212839717241.Spec : Prop :=
+  ∀ n, (P17274106212839717241.a n : ℤ) = A119771 n
+
+end A119771
+
 /-! ## A119771.P6983709507906225053
 
 `n*n*∑[a(n-1)+n]` with `a(0)=0`
@@ -7191,29 +7214,6 @@ namespace A119771
 /-- `A002415(n)+A000217(n)*A000330(n)` -/
 def P9160772142782428503.Spec : Prop :=
   ∀ n, P9160772142782428503.a n = A119771 n
-
-end A119771
-
-/-! ## A119771.P3128694794446284806
-
-`(A005900(n+1)-A006003(n+1))*n²`
--/
-
-namespace A119771.P3128694794446284806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A005900 (n + 1) - A006003 (n + 1)) * (n ^ 2 : ℤ)
-
-end
-
-end A119771.P3128694794446284806
-
-namespace A119771
-
-/-- `(A005900(n+1)-A006003(n+1))*n²` -/
-def P3128694794446284806.Spec : Prop :=
-  ∀ n, P3128694794446284806.a n = A119771 n
 
 end A119771
 

@@ -16,6 +16,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -91,6 +92,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -227,36 +229,6 @@ end A304100.P12128180237640629517
 The programs for A304101, there is no canonical definition to state claims against.
 -/
 
-/-! ## A304101.P4560618578992836428
-
-`A322794(A006530(n+1))*A322868(A277006(n))`
--/
-
-namespace A304101.P4560618578992836428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A006530 (n + 1)).toNat * A322868 (A277006 n).toNat
-
-end
-
-end A304101.P4560618578992836428
-
-/-! ## A304101.P5343745164195250590
-
-`A322794(A039634(1+n))*A322868(A277006(n))`
--/
-
-namespace A304101.P5343745164195250590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A039634 (1 + n)).toNat * A322868 (A277006 n).toNat
-
-end
-
-end A304101.P5343745164195250590
-
 /-! ## A304101.P1495023010235158098
 
 `A322868(A277006(n))%A234516(A113957(n+2))`
@@ -271,21 +243,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304101.P1495023010235158098
-
-/-! ## A304101.P3088396579058347788
-
-`A322794(A056609(2*n+1))*A322868(A277006(n))`
--/
-
-namespace A304101.P3088396579058347788
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A056609 (2 * n + 1)).toNat * A322868 (A277006 n).toNat
-
-end
-
-end A304101.P3088396579058347788
 
 /-! ## A304101.P8079428027132047181
 
@@ -317,21 +274,6 @@ end
 
 end A304101.P10988745142727916650
 
-/-! ## A304101.P16008843795517755519
-
-`A322794(A006530(n+2))+A322868(A277006(n))-1`
--/
-
-namespace A304101.P16008843795517755519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A006530 (n + 2)).toNat + (A322868 (A277006 n).toNat - 1)
-
-end
-
-end A304101.P16008843795517755519
-
 /-! ## A304101.P14970444535413940904
 
 `A322868(A277006(n))+A008683(A001248(n+1))`
@@ -346,6 +288,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304101.P14970444535413940904
+
+/-! ## A304101.P10006171508363926899
+
+`A356231(A277006(n))`
+-/
+
+namespace A304101.P10006171508363926899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356231 (A277006 n).toNat
+
+end
+
+end A304101.P10006171508363926899
 
 /-!
 # A304102: a(n) = Product_{d|n, d<n} prime(A304101(d)-1).

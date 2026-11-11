@@ -41,6 +41,7 @@ import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +62,7 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,7 +70,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
@@ -577,27 +578,6 @@ end A383209.P13974207425079700936
 
 The programs for A383210, there is no canonical definition to state claims against.
 -/
-
-/-! ## A383210.P17536838431564584832
-
-`A087282(2^∏{e}[n+1, #+1]-1)-∑{e}[n+1, #%#²]`
--/
-
-namespace A383210.P17536838431564584832
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087282 (2 ^ (∏ p ∈ Nat.primeFactors (f1 n), (Nat.factorization (f1 n) p + 1)) - 1) - ((∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p % Nat.factorization (f2 n) p ^ 2 : ℕ) : ℤ)
-
-end
-
-end A383210.P17536838431564584832
 
 /-! ## A383210.P18208973353892356258
 
@@ -4738,6 +4718,29 @@ def P1576710250629979519.Spec : Prop :=
 
 end A383251
 
+/-! ## A383251.P13888592842304504180
+
+`xor(A054977(n), A068875(n))`
+-/
+
+namespace A383251.P13888592842304504180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A054977 n) (A068875 n)
+
+end
+
+end A383251.P13888592842304504180
+
+namespace A383251
+
+/-- `xor(A054977(n), A068875(n))` -/
+def P13888592842304504180.Spec : Prop :=
+  ∀ n, P13888592842304504180.a n = A383251 n
+
+end A383251
+
 /-! ## A383251.P5057977599616299038
 
 `∑{#}[1, C(A000108(n), #)*A188687(#)]`
@@ -4836,6 +4839,29 @@ namespace A383251
 /-- `A209083(2*n+1)/(2*n+1)` -/
 def P4932253221111884744.Spec : Prop :=
   ∀ n, P4932253221111884744.a n = (A383251 n : ℚ)
+
+end A383251
+
+/-! ## A383251.P12178624962023200157
+
+`(A060747(n+1)+A000984(n+1))/A060747(n+1)`
+-/
+
+namespace A383251.P12178624962023200157
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A060747 (n + 1) + A000984 (n + 1) : ℚ) / (A060747 (n + 1) : ℚ)
+
+end
+
+end A383251.P12178624962023200157
+
+namespace A383251
+
+/-- `(A060747(n+1)+A000984(n+1))/A060747(n+1)` -/
+def P12178624962023200157.Spec : Prop :=
+  ∀ n, P12178624962023200157.a n = (A383251 n : ℚ)
 
 end A383251
 
@@ -6354,49 +6380,41 @@ end
 
 end A383263.P9484052098126021353
 
-/-! ## A383263.P12548121213998952106
+/-! ## A383263.P13983717537092636867
 
-`∪[A144100(n+1), A017113(n)]`
+`filter[A132145(n+1), A401791(#)]`
 -/
 
-namespace A383263.P12548121213998952106
+namespace A383263.P13983717537092636867
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144100 (n + 1)
+  A132145 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017113 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
 
 end
 
-end A383263.P12548121213998952106
+end A383263.P13983717537092636867
 
-/-! ## A383263.P5194690117867535321
+/-! ## A383263.P13357275167240829837
 
-`∪[A356862(n+1), A014738(n)]`
+`filter[A390278(n+1), A401791(#)]`
 -/
 
-namespace A383263.P5194690117867535321
+namespace A383263.P13357275167240829837
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356862 (n + 1)
+  A390278 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014738 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
 
 end
 
-end A383263.P5194690117867535321
+end A383263.P13357275167240829837
 
 /-!
 # A383264: Numbers whose vSPD is not squarefree, where vSPD(n) is the valuation of the smallest prime divisor for n >= 2.

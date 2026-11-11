@@ -27,12 +27,13 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
@@ -10519,6 +10520,32 @@ theorem P14868295771357926147.correct : P14868295771357926147.Spec := by
 
 end A065583
 
+/-! ## A065583.P17102949602031303913
+
+`1/2*(n+1)!*∑{#}[n-1, (n+1)^#]`
+-/
+
+namespace A065583.P17102949602031303913
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (Nat.factorial (n + 1) : ℚ) * ((∑ k ∈ Finset.range (f1 n + 1).toNat, (n + 1) ^ k : ℕ) : ℚ)
+
+end
+
+end A065583.P17102949602031303913
+
+namespace A065583
+
+/-- `1/2*(n+1)!*∑{#}[n-1, (n+1)^#]` -/
+def P17102949602031303913.Spec : Prop :=
+  ∀ n, P17102949602031303913.a n = (A065583 (n + 1) : ℚ)
+
+end A065583
+
 /-! ## A065583.P18105791637837959294
 
 `C(n+1, 2)*∑{#}[n-1, (n+1)^#*(n-1)!]`
@@ -10588,32 +10615,6 @@ namespace A065583
 /-- `(n+1)!/2*A060072(n+1)` -/
 def P17657359107835420834.Spec : Prop :=
   ∀ n, P17657359107835420834.a n = (A065583 (n + 1) : ℚ)
-
-end A065583
-
-/-! ## A065583.P7395393743177722961
-
-`Δ[A093468(n+1)]*A060072(n+1)`
--/
-
-namespace A065583.P7395393743177722961
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093468 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) - f1 n) * A060072 (n + 1)
-
-end
-
-end A065583.P7395393743177722961
-
-namespace A065583
-
-/-- `Δ[A093468(n+1)]*A060072(n+1)` -/
-def P7395393743177722961.Spec : Prop :=
-  ∀ n, P7395393743177722961.a n = A065583 (n + 1)
 
 end A065583
 
@@ -11256,14 +11257,14 @@ end A065595
 /-!
 # A065597: a(0)=0, a(1)=1, a(2)=1; for n >= 3, a(n) = 2*a(n-1)*a(n-2) - a(n-3).
 
-The programs for A065597, the canonical program `A065597.P9393336464240022364` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065597 has offset 0).
+The programs for A065597, the canonical program `A065597.P5826843194985416182` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065597 has offset 0).
 
-The definition of A065597 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)*a(n-2)-a(n-3)` (program `A065597.P9393336464240022364`, by `A065597.P9393336464240022364.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A065597 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)*a(n-2)-a(n-3)` (program `A065597.P5826843194985416182`, by `A065597.P5826843194985416182.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A065597.P9393336464240022364
+/-! ## A065597.P5826843194985416182
 
-`2*a(n-1)*a(n-2)-a(n-3)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2, a(4)=3`
+`2*a(n-1)*a(n-2)-a(n-3)` with `a(0)=0, a(1)=1, a(2)=1`
 
 The canonical program, it is in `Seq.B000.C012`.
 -/
@@ -11271,10 +11272,10 @@ The canonical program, it is in `Seq.B000.C012`.
 namespace A065597
 
 /-- `2*a(n-1)*a(n-2)-a(n-3)` -/
-def P9393336464240022364.Spec : Prop :=
-  ∀ n, P9393336464240022364.a n = A065597 n
+def P5826843194985416182.Spec : Prop :=
+  ∀ n, P5826843194985416182.a n = A065597 n
 
-theorem P9393336464240022364.correct : P9393336464240022364.Spec := by
+theorem P5826843194985416182.correct : P5826843194985416182.Spec := by
   intro n
   simp only [A065597]
 
@@ -11300,6 +11301,12 @@ namespace A065597
 /-- `2*a(n-1)*a(n-2)-a(n-3)` -/
 def P18361835080151231271.Spec : Prop :=
   ∀ n, P18361835080151231271.a n = A065597 n
+
+theorem P18361835080151231271.correct : P18361835080151231271.Spec := by
+  intro n
+  simp only [A065597, Nat.add_sub_cancel, A065597.P18361835080151231271.a, A065597.P5826843194985416182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A065597
 

@@ -1768,21 +1768,6 @@ end
 
 end A242719.P4680114700668224323
 
-/-! ## A242719.P6800093365159793709
-
-`A001157(A152075(n+1)%A217058(n+4))`
--/
-
-namespace A242719.P6800093365159793709
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001157 (Int.tmod (A152075 (n + 1)) (A217058 (n + 4))).toNat
-
-end
-
-end A242719.P6800093365159793709
-
 /-! ## A242719.P14008188183311441075
 
 `A078898(A020613(n+1))+A152075(n+1)²`
@@ -1797,6 +1782,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242719.P14008188183311441075
+
+/-! ## A242719.P7989385540221401710
+
+`A089745(A092789(n+1))`
+-/
+
+namespace A242719.P7989385540221401710
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089745 (A092789 (n + 1)).toNat
+
+end
+
+end A242719.P7989385540221401710
 
 /-!
 # A242720: Smallest even k such that the pair {k-3,k-1} is not a twin prime pair and lpf(k-1) > lpf(k-3) >= prime(n), where lpf = least prime factor (A020639).
@@ -8817,6 +8817,32 @@ namespace A242781
 /-- `A105872(n+1)-A390702(n)-A001700(n)` -/
 def P1388049082067613723.Spec : Prop :=
   ∀ n, P1388049082067613723.a n = A242781 n
+
+end A242781
+
+/-! ## A242781.P6120282300271150570
+
+`∑{#}[floor((n-1)/2), C(2*n-3*#-2, n)]`
+-/
+
+namespace A242781.P6120282300271150570
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊((n : ℤ) - 1 : ℚ) / 2⌋
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose ((2 * n : ℤ) - (3 * k : ℤ) - 2).toNat n
+
+end
+
+end A242781.P6120282300271150570
+
+namespace A242781
+
+/-- `∑{#}[floor((n-1)/2), C(2*n-3*#-2, n)]` -/
+def P6120282300271150570.Spec : Prop :=
+  ∀ n, (P6120282300271150570.a n : ℤ) = A242781 n
 
 end A242781
 

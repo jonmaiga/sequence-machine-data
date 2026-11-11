@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n and sigma(n) are prime powers (of the form p^k, p prime, k>=1).",
+  "description": "Numbers m such that m and sigma(m) are prime powers (of the form p^k, p prime, k>=1).",
   "id": "A071114",
   "mentions": [
     "A000668",
+    "A023194",
     "A070763",
     "A246655"
   ],

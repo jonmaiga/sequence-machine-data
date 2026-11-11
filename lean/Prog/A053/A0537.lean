@@ -1009,6 +1009,28 @@ end
 
 end A053705.P4841202126093073903
 
+/-! ## A053705.P9182652261602335776
+
+`∩[A049232(n+1), A120431(n+1)]`
+-/
+
+namespace A053705.P9182652261602335776
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049232 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120431 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A053705.P9182652261602335776
+
 /-!
 # A053706: Primes p such that between p and the next prime, 2 prime powers (A025475) occur.
 
@@ -11986,6 +12008,21 @@ end
 
 end A053760.P14657708071666732670
 
+/-! ## A053760.P14201939896775224533
+
+`A054977(n)*A091382(n+1)`
+-/
+
+namespace A053760.P14201939896775224533
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054977 n * A091382 (n + 1)
+
+end
+
+end A053760.P14201939896775224533
+
 /-! ## A053760.P16511064269719102770
 
 `A112046(A130290(n+1))`
@@ -12198,21 +12235,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A053760.P3861158905655774537
-
-/-! ## A053760.P6954088143129482328
-
-`A020649(A100484(n+1))`
--/
-
-namespace A053760.P6954088143129482328
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020649 (A100484 (n + 1)).toNat
-
-end
-
-end A053760.P6954088143129482328
 
 /-!
 # A053761: Least positive integer k for which the Jacobi symbol (k|2*n-1) is less than 1, where 2*n-1 is a nonsquare; a(n)=0 if 2*n-1 is a square.

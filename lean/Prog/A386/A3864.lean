@@ -25,7 +25,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
@@ -58,6 +57,7 @@ import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -3358,7 +3358,7 @@ end A386471.P17189480083451948668
 /-!
 # A386472: The maximum exponent in the prime factorization of the largest divisor of n whose exponents in its prime factorization are squares.
 
-The programs for A386472, the canonical program `A386472.P7970644289596201649` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386472 has offset 1).
+The programs for A386472, the canonical program `A386472.P7970644289596201649` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386472 has offset 1).
 
 The definition of A386472 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3367,7 +3367,7 @@ The definition of A386472 is `conditional`: the Lean definition is an OEIS formu
 
 `A048760(A051903(n+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A386472

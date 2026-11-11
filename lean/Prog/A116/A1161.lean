@@ -34,7 +34,6 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
@@ -78,6 +77,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
@@ -7861,20 +7861,20 @@ end
 
 end A116192.P8058020027760125063
 
-/-! ## A116192.P4769360535960943716
+/-! ## A116192.P2372668113968180387
 
-`xor(A131507(n), A219463(n))`
+`A131507(n)-A219463(n)`
 -/
 
-namespace A116192.P4769360535960943716
+namespace A116192.P2372668113968180387
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A131507 n) (A219463 n)
+  A131507 n - A219463 n
 
 end
 
-end A116192.P4769360535960943716
+end A116192.P2372668113968180387
 
 /-! ## A116192.P17431465749762136243
 

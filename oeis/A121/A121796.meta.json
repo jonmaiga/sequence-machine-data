@@ -1,14 +1,16 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "Upper-right entry of M(n)*M(n-1)*...*M(1), where M(n) cycles through the 2 X 2 matrices with entries in {0,1,2,3,4} and determinant 1 modulo 5, in cyclic row-wise lexicographic order starting with M(1) = [[0,1],[4,1]].",
   "id": "A121796",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

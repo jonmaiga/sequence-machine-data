@@ -1,0 +1,18 @@
+{
+  "description": "Strictly non-handsome numbers in all bases from 2 to k: numbers k such that for every base b (2 <= b <= k), k cannot be written as the sum of its base-b digits raised to positive integer powers.",
+  "id": "A401112",
+  "mentions": [
+    "A005188",
+    "A007532",
+    "A014576"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

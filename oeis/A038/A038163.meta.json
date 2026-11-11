@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/((1-x)*(1-x^2))^3.",
+  "description": "Expansion of g.f. 1/((1-x)*(1-x^2))^3.",
   "id": "A038163",
   "mentions": [
     "A000217",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 43,
     "source": "joeis"
   }
 }

@@ -9,6 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -2049,6 +2050,21 @@ end
 
 end A343116.P14646718573559060995
 
+/-! ## A343116.P10407928181147942448
+
+`A343117(n+1)+A060305(n+1)`
+-/
+
+namespace A343116.P10407928181147942448
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343117 (n + 1) + A060305 (n + 1)
+
+end
+
+end A343116.P10407928181147942448
+
 /-! ## A343116.P17651789291107899772
 
 `A000040(n+1)*A060305(n+1)`
@@ -2157,6 +2173,21 @@ end
 
 end A343116.P2816765581517021686
 
+/-! ## A343116.P13325370704127599187
+
+`A343117(n+1)+A001175(A000040(n+1))`
+-/
+
+namespace A343116.P13325370704127599187
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343117 (n + 1) + A001175 (A000040 (n + 1)).toNat
+
+end
+
+end A343116.P13325370704127599187
+
 /-! ## A343116.P2205994937128919512
 
 `A237836(comp[A282462(n)])`
@@ -2245,6 +2276,21 @@ end
 
 end A343117.P10754551617255362947
 
+/-! ## A343117.P17538611630582090043
+
+`A000040(n+1)*A060305(n+1)-A060305(n+1)`
+-/
+
+namespace A343117.P17538611630582090043
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1) * A060305 (n + 1) - A060305 (n + 1)
+
+end
+
+end A343117.P17538611630582090043
+
 /-! ## A343117.P17994028420788090546
 
 `record[A002322(n+1)]*A060305(n+1)`
@@ -2262,6 +2308,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343117.P17994028420788090546
+
+/-! ## A343117.P17564961681856639076
+
+`A343116(n+1)-A001175(A000040(n+1))`
+-/
+
+namespace A343117.P17564961681856639076
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343116 (n + 1) - A001175 (A000040 (n + 1)).toNat
+
+end
+
+end A343117.P17564961681856639076
 
 /-!
 # A343118: Length of the longest sequence of equidistant primes among the first n primes.

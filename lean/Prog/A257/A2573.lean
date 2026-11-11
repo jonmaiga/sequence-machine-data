@@ -29,6 +29,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
@@ -3255,6 +3256,28 @@ end
 
 end A257362.P3632904211104614441
 
+/-! ## A257362.P7686248715057086820
+
+`∩[A073485(n+1), A341790(n+1)]`
+-/
+
+namespace A257362.P7686248715057086820
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341790 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A257362.P7686248715057086820
+
 /-! ## A257362.P16641309031279048661
 
 `∩[A066720(n+1), A341790(n+1)]`
@@ -3276,6 +3299,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A257362.P16641309031279048661
+
+/-! ## A257362.P15705656998049653004
+
+`∩[A078138(n+1), A341790(n+1)]`
+-/
+
+namespace A257362.P15705656998049653004
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078138 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341790 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A257362.P15705656998049653004
 
 /-! ## A257362.P2205702427477745073
 
@@ -3606,50 +3651,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A257362.P13573194339255762045
-
-/-! ## A257362.P1991708868971894069
-
-`∩[A182140(n+1), A341790(n+1)]`
--/
-
-namespace A257362.P1991708868971894069
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182140 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341790 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A257362.P1991708868971894069
-
-/-! ## A257362.P4686976022745120993
-
-`∩[A097605(n+1), A341790(n+1)]`
--/
-
-namespace A257362.P4686976022745120993
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097605 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341790 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A257362.P4686976022745120993
 
 /-!
 # A257363: Number of 3-Motzkin paths with no level steps at height 1.

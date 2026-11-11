@@ -1,0 +1,22 @@
+{
+  "description": "Number of major star triples in the level-n supertile of the Spectre tiling.",
+  "id": "A400813",
+  "mentions": [
+    "A033887",
+    "A057080",
+    "A397117",
+    "A397120",
+    "A400812",
+    "A400814"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

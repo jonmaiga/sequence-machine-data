@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x * A(A(x)) / (1 - x).",
+  "id": "A401561",
+  "mentions": [
+    "A011782",
+    "A030266",
+    "A090345",
+    "A213591"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

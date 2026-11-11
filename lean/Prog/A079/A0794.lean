@@ -7387,21 +7387,6 @@ end
 
 end A079457.P9910997821010811251
 
-/-! ## A079457.P16936244089829663520
-
-`A321911(n+1)-A151895(A334720(n+1))`
--/
-
-namespace A079457.P16936244089829663520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321911 (n + 1) - A151895 (A334720 (n + 1)).toNat
-
-end
-
-end A079457.P16936244089829663520
-
 /-!
 # A079458: Number of Gaussian integers in a reduced system modulo n.
 

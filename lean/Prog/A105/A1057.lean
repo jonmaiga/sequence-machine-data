@@ -2692,42 +2692,6 @@ end
 
 end A105730.P4753468927401017392
 
-/-! ## A105730.P1623434501912578653
-
-`filter[A087256(n+1), A043545(#)]`
--/
-
-namespace A105730.P1623434501912578653
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A043545 (f1 j).toNat = 1) n)
-
-end
-
-end A105730.P1623434501912578653
-
-/-! ## A105730.P12080451551156461393
-
-`filter[A087256(n+1), A267442(#)]`
--/
-
-namespace A105730.P12080451551156461393
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267442 (f1 j).toNat = 1) n)
-
-end
-
-end A105730.P12080451551156461393
-
 /-! ## A105730.P5833336735628018608
 
 `A087256(A016957(n))%A005032(n)`

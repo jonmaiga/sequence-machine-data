@@ -12,7 +12,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -354,6 +354,28 @@ end
 
 end A068804.P9436235772707398592
 
+/-! ## A068804.P2373712875540602538
+
+`∩[A376300(n+1), A394394(n+1)]`
+-/
+
+namespace A068804.P2373712875540602538
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376300 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394394 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068804.P2373712875540602538
+
 /-! ## A068804.P5646419162688323668
 
 `A000217(lt[A026148(3*n+5), A171827(n+5)])`
@@ -374,24 +396,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A068804.P5646419162688323668
-
-/-! ## A068804.P12680361183534742451
-
-`C(∑[A265404(A215576(n))], 2)`
--/
-
-namespace A068804.P12680361183534742451
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265404 (A215576 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (∑ j ∈ Finset.range (n + 1), f1 j).toNat 2
-
-end
-
-end A068804.P12680361183534742451
 
 /-!
 # A068806: Ulam numbers that are powers of 2.
@@ -2617,6 +2621,29 @@ namespace A068822
 /-- `A000196(gcd((n+1)², A110397(n+1))+1)` -/
 def P11981433715690321535.Spec : Prop :=
   ∀ n, P11981433715690321535.a n = A068822 (n + 1)
+
+end A068822
+
+/-! ## A068822.P3315873718089748697
+
+`A370181(A245317(n+1))`
+-/
+
+namespace A068822.P3315873718089748697
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370181 (A245317 (n + 1)).toNat
+
+end
+
+end A068822.P3315873718089748697
+
+namespace A068822
+
+/-- `A370181(A245317(n+1))` -/
+def P3315873718089748697.Spec : Prop :=
+  ∀ n, P3315873718089748697.a n = A068822 (n + 1)
 
 end A068822
 

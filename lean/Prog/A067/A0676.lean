@@ -27,7 +27,7 @@ import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -357,35 +357,35 @@ end
 
 end A067603.P9324200939777297987
 
-/-! ## A067603.P10130916177197642908
+/-! ## A067603.P459661002550236011
 
-`A003963(A067604(n+1))`
+`A066328(A067604(n+1))`
 -/
 
-namespace A067603.P10130916177197642908
+namespace A067603.P459661002550236011
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003963 (A067604 (n + 1)).toNat
+  A066328 (A067604 (n + 1)).toNat
 
 end
 
-end A067603.P10130916177197642908
+end A067603.P459661002550236011
 
-/-! ## A067603.P4184390076833536800
+/-! ## A067603.P2306209027863616476
 
-`A263297(2*A067604(n+1))`
+`A058933(A067604(n+1))`
 -/
 
-namespace A067603.P4184390076833536800
+namespace A067603.P2306209027863616476
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263297 (2 * A067604 (n + 1)).toNat
+  A058933 (A067604 (n + 1)).toNat
 
 end
 
-end A067603.P4184390076833536800
+end A067603.P2306209027863616476
 
 /-!
 # A067604: Smallest prime p of two consecutive primes, p < q, such that gcd(p+1, q+1) = 2n.
@@ -1026,6 +1026,29 @@ def P13266544186264240769.Spec : Prop :=
 
 end A067611
 
+/-! ## A067611.P14912609483109470575
+
+`A071538(A054775(n+1))+n`
+-/
+
+namespace A067611.P14912609483109470575
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071538 (A054775 (n + 1)).toNat + (n : ℤ)
+
+end
+
+end A067611.P14912609483109470575
+
+namespace A067611
+
+/-- `A071538(A054775(n+1))+n` -/
+def P14912609483109470575.Spec : Prop :=
+  ∀ n, P14912609483109470575.a n = A067611 (n + 1)
+
+end A067611
+
 /-! ## A067611.P8157893878600192070
 
 `∪[A046953(n+1), A107747(n+1)]`
@@ -1374,35 +1397,6 @@ namespace A067611
 /-- `eq[A019430(3*n), A292438(3*n)]/2` -/
 def P15576384957831561704.Spec : Prop :=
   ∀ n, P15576384957831561704.a n = (A067611 (n + 1) : ℚ)
-
-end A067611
-
-/-! ## A067611.P9628070290930011229
-
-`eq[A019431(3*n), A292438(3*n)]/2`
--/
-
-namespace A067611.P9628070290930011229
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019431 (3 * n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292438 (3 * n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun j => f1 j = f2 j) n : ℚ) / 2
-
-end
-
-end A067611.P9628070290930011229
-
-namespace A067611
-
-/-- `eq[A019431(3*n), A292438(3*n)]/2` -/
-def P9628070290930011229.Spec : Prop :=
-  ∀ n, P9628070290930011229.a n = (A067611 (n + 1) : ℚ)
 
 end A067611
 
@@ -4033,26 +4027,26 @@ def P12305127483708451760.Spec : Prop :=
 
 end A067636
 
-/-! ## A067636.P4167513094215045496
+/-! ## A067636.P12521453242308777426
 
-`A172392(n+1)-A005568(n+1)`
+`A046715(n+1)+A046715(n+1)`
 -/
 
-namespace A067636.P4167513094215045496
+namespace A067636.P12521453242308777426
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172392 (n + 1) - A005568 (n + 1)
+  A046715 (n + 1) + A046715 (n + 1)
 
 end
 
-end A067636.P4167513094215045496
+end A067636.P12521453242308777426
 
 namespace A067636
 
-/-- `A172392(n+1)-A005568(n+1)` -/
-def P4167513094215045496.Spec : Prop :=
-  ∀ n, P4167513094215045496.a n = A067636 n
+/-- `A046715(n+1)+A046715(n+1)` -/
+def P12521453242308777426.Spec : Prop :=
+  ∀ n, P12521453242308777426.a n = A067636 n
 
 end A067636
 

@@ -144,21 +144,6 @@ end
 
 end A043101.P2169327354206263722
 
-/-! ## A043101.P15188521456239187970
-
-`A160217(A159619(2*n+1))-1`
--/
-
-namespace A043101.P15188521456239187970
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160217 (A159619 (2 * n + 1)).toNat - 1
-
-end
-
-end A043101.P15188521456239187970
-
 /-!
 # A043102: Numbers k such that 0 and 3 occur juxtaposed in the base-4 representation of k but not of k-1.
 

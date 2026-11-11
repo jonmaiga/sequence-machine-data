@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of points (x, y) of the square lattice Z^2 with x, y >= 0 connected to the origin by a path of unit horizontal and vertical steps through points of the first quadrant satisfying digitsum(x) + digitsum(y) <= n.",
+  "id": "A401130",
+  "mentions": [
+    "A002054",
+    "A007953",
+    "A051885",
+    "A401129"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

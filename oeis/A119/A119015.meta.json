@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of \"Farey fraction\" approximations to e.",
+  "description": "Denominators of semiconvergents to e.",
   "id": "A119015",
   "mentions": [
     "A002965",

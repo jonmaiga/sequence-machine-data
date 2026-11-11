@@ -39,7 +39,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -132,6 +131,32 @@ namespace A057500
 /-- `n!*(n+1)^(n+1)/2*∑{#}[n-2, 1/((n+1)^(#+3)*(n+1-(#+3))!)]` -/
 def P2259756810606871544.Spec : Prop :=
   ∀ n, P2259756810606871544.a n = (A057500 (n + 1) : ℚ)
+
+end A057500
+
+/-! ## A057500.P2139619663147806723
+
+`1/2*n!*∑{#}[n-2, (n+1)^#/#!]`
+-/
+
+namespace A057500.P2139619663147806723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 2
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (Nat.factorial n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, ((n + 1) ^ k : ℚ) / (Nat.factorial k : ℚ))
+
+end
+
+end A057500.P2139619663147806723
+
+namespace A057500
+
+/-- `1/2*n!*∑{#}[n-2, (n+1)^#/#!]` -/
+def P2139619663147806723.Spec : Prop :=
+  ∀ n, P2139619663147806723.a n = (A057500 (n + 1) : ℚ)
 
 end A057500
 
@@ -1531,6 +1556,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057505.P11372580444109446233
+
+/-! ## A057505.P16574529808984630923
+
+`A057164(A072796(A073282(n)))`
+-/
+
+namespace A057505.P16574529808984630923
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057164 (A072796 (A073282 n).toNat).toNat
+
+end
+
+end A057505.P16574529808984630923
 
 /-!
 # A057506: Signature-permutation of a Catalan Automorphism: (inverse of) "Donaghey's map M", acting on the parenthesizations encoded by A014486.
@@ -14853,6 +14893,24 @@ end
 
 end A057567.P17587102678644597316
 
+/-! ## A057567.P15754126763886487168
+
+`∑{d}[n+1, A303707(#)*A322453((n+1)/#)]`
+-/
+
+namespace A057567.P15754126763886487168
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A303707 d * A322453 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+
+end
+
+end A057567.P15754126763886487168
+
 /-! ## A057567.P16668403002679638248
 
 `∑{d}[n+1, A342086(#)*A347438((n+1)/#)]`
@@ -14936,21 +14994,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057567.P10983151163120863605
-
-/-! ## A057567.P5025940789049908669
-
-`A001055(2*A003961(n+1))`
--/
-
-namespace A057567.P5025940789049908669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001055 (2 * A003961 (n + 1)).toNat
-
-end
-
-end A057567.P5025940789049908669
 
 /-!
 # A057568: Number of partitions of n where n divides the product of the parts.
@@ -17083,6 +17126,32 @@ def P4298772617689387824.Spec : Prop :=
 
 end A057588
 
+/-! ## A057588.P4195189625745925072
+
+`A401136(∑[n+1])`
+-/
+
+namespace A057588.P4195189625745925072
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401136 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A057588.P4195189625745925072
+
+namespace A057588
+
+/-- `A401136(∑[n+1])` -/
+def P4195189625745925072.Spec : Prop :=
+  ∀ n, P4195189625745925072.a n = A057588 (n + 1)
+
+end A057588
+
 /-! ## A057588.P16512911802920701671
 
 `Δ[A143293(n)]-1`
@@ -17158,35 +17227,6 @@ namespace A057588
 /-- `record[A373146(n+3)]` -/
 def P15528180644462125804.Spec : Prop :=
   ∀ n, P15528180644462125804.a n = A057588 (n + 1)
-
-end A057588
-
-/-! ## A057588.P7558538936089835858
-
-`∑[abs(Δ[A002110(n)])]`
--/
-
-namespace A057588.P7558538936089835858
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002110 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |f2 (n + 1) - f2 n|
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A057588.P7558538936089835858
-
-namespace A057588
-
-/-- `∑[abs(Δ[A002110(n)])]` -/
-def P7558538936089835858.Spec : Prop :=
-  ∀ n, P7558538936089835858.a n = A057588 (n + 1)
 
 end A057588
 

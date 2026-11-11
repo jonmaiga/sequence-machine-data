@@ -57,7 +57,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -3210,6 +3209,24 @@ end A322660.P17938050530798708524
 
 The programs for A322661, there is no canonical definition to state claims against.
 -/
+
+/-! ## A322661.P17113874156714379809
+
+`∑{#}[n, (-1)^#*C(n, #)*2^(C(n-#, 2)+n-#)]`
+-/
+
+namespace A322661.P17113874156714379809
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ((-1) ^ k * (Nat.choose n k : ℤ) : ℚ) * (2 : ℚ) ^ ((Nat.choose ((n : ℤ) - (k : ℤ)).toNat 2 : ℤ) + ((n : ℤ) - (k : ℤ)) : ℤ)
+
+end
+
+end A322661.P17113874156714379809
 
 /-! ## A322661.P12436847978349380931
 
@@ -6614,59 +6631,50 @@ end
 
 end A322684.P12051971191463815690
 
-/-! ## A322684.P17411416583777659579
+/-! ## A322684.P13573950368738865691
 
-`∑{d}[n+1, A307382(#)*A322694((n+1)/#)]`
+`A326292(n)+A322694(n+1)`
 -/
 
-namespace A322684.P17411416583777659579
+namespace A322684.P13573950368738865691
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A307382 d * A322694 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A326292 n + A322694 (n + 1)
 
 end
 
-end A322684.P17411416583777659579
+end A322684.P13573950368738865691
 
-/-! ## A322684.P16491883450565147336
+/-! ## A322684.P15946442362137466915
 
-`∑{d}[n+1, A112315(#-1)*A322694((n+1)/#)]`
+`A355478(n)+A322694(n+1)`
 -/
 
-namespace A322684.P16491883450565147336
+namespace A322684.P15946442362137466915
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A112315 (d - 1) * A322694 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A355478 n + A322694 (n + 1)
 
 end
 
-end A322684.P16491883450565147336
+end A322684.P15946442362137466915
 
-/-! ## A322684.P10455983298112876111
+/-! ## A322684.P17802706922860714241
 
-`∑{d}[n+1, A240351(#-1)*A322694((n+1)/#)]`
+`A355480(n)+A322694(n+1)`
 -/
 
-namespace A322684.P10455983298112876111
+namespace A322684.P17802706922860714241
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A240351 (d - 1) * A322694 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A355480 n + A322694 (n + 1)
 
 end
 
-end A322684.P10455983298112876111
+end A322684.P17802706922860714241
 
 /-!
 # A322685: Nine-column table read by rows: 9-tuples that have the same value of phi, sigma, and tau.
@@ -6723,41 +6731,35 @@ end
 
 end A322685.P10736202724009639778
 
-/-! ## A322685.P11107018828492870934
+/-! ## A322685.P8061292073820107717
 
-`∑{d}[n+1, A307382(#)*A322695((n+1)/#)]`
+`A322695(n+1)+A011733(n)`
 -/
 
-namespace A322685.P11107018828492870934
+namespace A322685.P8061292073820107717
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A307382 d * A322695 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A322695 (n + 1) + A011733 n
 
 end
 
-end A322685.P11107018828492870934
+end A322685.P8061292073820107717
 
-/-! ## A322685.P10853398975392225647
+/-! ## A322685.P15282233471985029406
 
-`∑{d}[n+1, A322695(#)*A325742((n+1)/#)]`
+`A322695(n+1)+A011734(n)`
 -/
 
-namespace A322685.P10853398975392225647
+namespace A322685.P15282233471985029406
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A322695 d * A325742 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A322695 (n + 1) + A011734 n
 
 end
 
-end A322685.P10853398975392225647
+end A322685.P15282233471985029406
 
 /-!
 # A322686: Ten-column table read by rows: 10-tuples that have the same value of phi, sigma, and tau.

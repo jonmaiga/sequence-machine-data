@@ -1,5 +1,5 @@
 {
-  "description": "Least primitive weird number with n prime divisors, not counting multiplicity.",
+  "description": "Least primitive weird number (PWN) with n prime divisors, not counting multiplicity.",
   "id": "A258374",
   "mentions": [
     "A002975",

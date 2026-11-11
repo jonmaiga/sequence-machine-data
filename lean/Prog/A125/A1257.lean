@@ -34,7 +34,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3807,65 +3807,116 @@ end A125740.P508724994253658961
 The programs for A125741, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125741.P3575138338975942306
+/-! ## A125741.P18186163628284151769
 
-`filter[A119788(2*(n+1)), A071981(#)]`
+`filter[A119788(2*(n+1)), A014306(#)]`
 -/
 
-namespace A125741.P3575138338975942306
+namespace A125741.P18186163628284151769
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119788 (2 * (n + 1))
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071981 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A014306 (f1 j).toNat = 1) n)
 
 end
 
-end A125741.P3575138338975942306
+end A125741.P18186163628284151769
 
-/-! ## A125741.P2281813607841121918
+/-! ## A125741.P14376863652903109875
 
-`filter[A119788(2*(n+1)), A106138(#)]`
+`filter[A119788(2*(n+1)), A072165(#)]`
 -/
 
-namespace A125741.P2281813607841121918
+namespace A125741.P14376863652903109875
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119788 (2 * (n + 1))
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A106138 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A072165 (f1 j).toNat = 1) n)
 
 end
 
-end A125741.P2281813607841121918
+end A125741.P14376863652903109875
 
-/-! ## A125741.P11632894549967443425
+/-! ## A125741.P17646656877349939925
 
-`filter[A119788(2*(n+1)), A130853(#)]`
+`filter[A119788(2*(n+1)), A101040(#)]`
 -/
 
-namespace A125741.P11632894549967443425
+namespace A125741.P17646656877349939925
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119788 (2 * (n + 1))
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A130853 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A101040 (f1 j).toNat = 1) n)
 
 end
 
-end A125741.P11632894549967443425
+end A125741.P17646656877349939925
+
+/-! ## A125741.P14496118001073154861
+
+`filter[A119788(2*(n+1)), A123110(#)]`
+-/
+
+namespace A125741.P14496118001073154861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119788 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A123110 (f1 j).toNat = 1) n)
+
+end
+
+end A125741.P14496118001073154861
+
+/-! ## A125741.P11284390870552620661
+
+`filter[A119788(2*(n+1)), A179770(#)]`
+-/
+
+namespace A125741.P11284390870552620661
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119788 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A179770 (f1 j).toNat = 1) n)
+
+end
+
+end A125741.P11284390870552620661
 
 /-!
 # A125742: Primes p such that (2^p - 2^((p+1)/2) + 1)/5 is prime.
 
 The programs for A125742, there is no canonical definition to state claims against.
 -/
+
+/-! ## A125742.P13308276610792601520
+
+`1+2*A006596(n+1)`
+-/
+
+namespace A125742.P13308276610792601520
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + 2 * A006596 (n + 1)
+
+end
+
+end A125742.P13308276610792601520
 
 /-! ## A125742.P11349800371149228016
 
@@ -3954,21 +4005,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A125742.P6865811143102986805
-
-/-! ## A125742.P13308276610792601520
-
-`1+2*A006596(n+1)`
--/
-
-namespace A125742.P13308276610792601520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + 2 * A006596 (n + 1)
-
-end
-
-end A125742.P13308276610792601520
 
 /-!
 # A125743: Primes p such that (3^p - 3^((p + 1)/2) + 1)/7 is prime.

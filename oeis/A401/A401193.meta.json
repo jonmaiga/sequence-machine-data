@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of noncongruent Heronian triangles whose largest incircle tangent length is n.",
+  "id": "A401193",
+  "mentions": [
+    "A033200",
+    "A054875",
+    "A120062",
+    "A213158",
+    "A239246",
+    "A400806",
+    "A401194"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

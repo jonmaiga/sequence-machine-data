@@ -1,5 +1,5 @@
 {
-  "description": "The numerator of the n-th term of the inverse binomial transform of the sequence 0, 1, 0, B_2, B_3, B_4, .. of modified Bernoulli numbers.",
+  "description": "The numerator of the n-th term of the inverse binomial transform of the sequence 0, 1, 0, B_2, B_3, B_4, ..., where B_i is the Bernoulli number.",
   "id": "A176618",
   "mentions": [
     "A172031",

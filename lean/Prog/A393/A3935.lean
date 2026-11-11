@@ -3426,6 +3426,29 @@ def P7168853151895003123.Spec : Prop :=
 
 end A393579
 
+/-! ## A393579.P9135297667977799000
+
+`A080425(A035338(n))`
+-/
+
+namespace A393579.P9135297667977799000
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080425 (A035338 n).toNat
+
+end
+
+end A393579.P9135297667977799000
+
+namespace A393579
+
+/-- `A080425(A035338(n))` -/
+def P9135297667977799000.Spec : Prop :=
+  ∀ n, P9135297667977799000.a n = A393579 (n + 1)
+
+end A393579
+
 /-!
 # A393581: Numbers k such that the sum of the digits of k raised to the power of their respective positions has unique digits in strictly ascending order.
 

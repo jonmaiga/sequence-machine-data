@@ -2,9 +2,11 @@
   "description": "Number of distinct Laplacian eigenvalues of the torus grid graph C_n X C_n.",
   "id": "A399677",
   "mentions": [
+    "A000217",
     "A395911"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

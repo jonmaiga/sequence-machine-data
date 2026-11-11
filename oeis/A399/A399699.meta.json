@@ -1,16 +1,20 @@
 {
   "description": "Decimal expansion of the probability that the cycle-following strategy succeeds in the 100 prisoners problem.",
   "id": "A399699",
-  "mentions": [],
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A024168",
+    "A244009"
+  ],
   "tags": [
-    "base",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 87,
+    "size": 107,
     "source": "oeis-entry"
   }
 }

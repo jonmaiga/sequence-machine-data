@@ -37,6 +37,7 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
@@ -5467,6 +5468,21 @@ end
 
 end A222439.P10079747699745049478
 
+/-! ## A222439.P14828744865938951513
+
+`A355882(n+1)+A355882(n+1)+A355882(n+1)`
+-/
+
+namespace A222439.P14828744865938951513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355882 (n + 1) + A355882 (n + 1) + A355882 (n + 1)
+
+end
+
+end A222439.P14828744865938951513
+
 /-!
 # A222440: Number of n X 4 0..3 arrays with entries increasing mod 4 by 0, 1 or 2 rightwards and downwards, starting with upper left zero.
 
@@ -7561,29 +7577,6 @@ def P9429479494390277705.Spec : Prop :=
 
 end A222464
 
-/-! ## A222464.P11883149157724906505
-
-`A051724(A051176(n+12))`
--/
-
-namespace A222464.P11883149157724906505
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051724 (A051176 (n + 12)).toNat
-
-end
-
-end A222464.P11883149157724906505
-
-namespace A222464
-
-/-- `A051724(A051176(n+12))` -/
-def P11883149157724906505.Spec : Prop :=
-  ∀ n, P11883149157724906505.a n = A222464 (n + 6)
-
-end A222464
-
 /-! ## A222464.P9083586811682949589
 
 `A060789(A060789(n+12))`
@@ -7650,6 +7643,29 @@ namespace A222464
 /-- `A106610(A060819(n+12))` -/
 def P4540421196742535204.Spec : Prop :=
   ∀ n, P4540421196742535204.a n = A222464 (n + 6)
+
+end A222464
+
+/-! ## A222464.P11883149157724906505
+
+`A051724(A051176(n+12))`
+-/
+
+namespace A222464.P11883149157724906505
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051724 (A051176 (n + 12)).toNat
+
+end
+
+end A222464.P11883149157724906505
+
+namespace A222464
+
+/-- `A051724(A051176(n+12))` -/
+def P11883149157724906505.Spec : Prop :=
+  ∀ n, P11883149157724906505.a n = A222464 (n + 6)
 
 end A222464
 

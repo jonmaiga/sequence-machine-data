@@ -2784,6 +2784,21 @@ end
 
 end A279119.P8053289441684459736
 
+/-! ## A279119.P10020379963034761633
+
+`A055396(A008578(A370822(n+1)))`
+-/
+
+namespace A279119.P10020379963034761633
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055396 (A008578 (A370822 (n + 1)).toNat).toNat
+
+end
+
+end A279119.P10020379963034761633
+
 /-! ## A279119.P9132471566251495848
 
 `A083800(n+1)%A370822(n+1)`
@@ -3243,6 +3258,24 @@ end A279125.P3596340781118122924
 The programs for A279127, there is no canonical definition to state claims against.
 -/
 
+/-! ## A279127.P13401989977015083430
+
+`∑{#}[n-1, (2*n-#-1)!/#!]`
+-/
+
+namespace A279127.P13401989977015083430
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial ((2 * n : ℤ) - (k : ℤ) - 1).toNat : ℚ) / (Nat.factorial k : ℚ)
+
+end
+
+end A279127.P13401989977015083430
+
 /-! ## A279127.P15931035328868949557
 
 `record[n%2*A003470(n)]`
@@ -3311,27 +3344,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A279127.P7811348550061615322
-
-/-! ## A279127.P18056282598524151565
-
-`record[Δ[A004526(n)]*A003470(n)]`
--/
-
-namespace A279127.P18056282598524151565
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) - f2 n) * A003470 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A279127.P18056282598524151565
 
 /-!
 # A279128: Number of n X 2 0..1 arrays with no element equal to a strict majority of its horizontal and vertical neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.

@@ -32,8 +32,8 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C050
+import Seq.B000.C046
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +51,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -8982,20 +8982,20 @@ end
 
 end A067587.P8615793446164406035
 
-/-! ## A067587.P8153084795365171041
+/-! ## A067587.P15968877346632448816
 
-`A356419(A066884(A356419(A000120(A000225(n+1)))))`
+`A356419(A066884(A356419(n+1)))`
 -/
 
-namespace A067587.P8153084795365171041
+namespace A067587.P15968877346632448816
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356419 (A066884 (A356419 (A000120 (A000225 (n + 1)).toNat).toNat).toNat).toNat
+  A356419 (A066884 (A356419 (n + 1)).toNat).toNat
 
 end
 
-end A067587.P8153084795365171041
+end A067587.P15968877346632448816
 
 /-!
 # A067588: Total number of parts in all partitions of n into odd parts.

@@ -20,6 +20,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C040
@@ -546,6 +547,32 @@ def P2910075327181365565.Spec : Prop :=
 theorem P2910075327181365565.correct : P2910075327181365565.Spec := by
   intro n
   simp only [A130905]
+
+end A130905
+
+/-! ## A130905.P10186205396429623918
+
+`∑{#}[floor(n/2), n!/(2^#*#!)]`
+-/
+
+namespace A130905.P10186205396429623918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial n : ℚ) / (2 ^ k * Nat.factorial k : ℚ)
+
+end
+
+end A130905.P10186205396429623918
+
+namespace A130905
+
+/-- `∑{#}[floor(n/2), n!/(2^#*#!)]` -/
+def P10186205396429623918.Spec : Prop :=
+  ∀ n, P10186205396429623918.a n = (A130905 n : ℚ)
 
 end A130905
 

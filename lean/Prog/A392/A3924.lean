@@ -7948,6 +7948,28 @@ end A392496.P497612964371397278
 The programs for A392498, there is no canonical definition to state claims against.
 -/
 
+/-! ## A392498.P18195420369966882104
+
+`∩[A180366(n+1), A401361(n+1)]`
+-/
+
+namespace A392498.P18195420369966882104
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180366 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401361 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392498.P18195420369966882104
+
 /-! ## A392498.P2117688541028660180
 
 `∩[A180366(n+1), A357875(n+1)]`
@@ -8021,21 +8043,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392498.P18158757565497710450
-
-/-! ## A392498.P2573484058243553777
-
-`A180366(n+1)+A000007(A128325(2*n+1))`
--/
-
-namespace A392498.P2573484058243553777
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180366 (n + 1) + A000007 (A128325 (2 * n + 1)).toNat
-
-end
-
-end A392498.P2573484058243553777
 
 /-!
 # A392499: Numbers k > 1 with the smallest prime divisor p, where the sum of divisors d in the range 1 < d < k/p is at least k/p, but no subset of these divisors sums to k/p.

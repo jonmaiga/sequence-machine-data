@@ -46,6 +46,7 @@ import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -2387,6 +2388,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A054408.P4503017603532835624
+
+/-! ## A054408.P9745521710617076288
+
+`A154955(n+1)+A073659(n+1)`
+-/
+
+namespace A054408.P9745521710617076288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154955 (n + 1) + A073659 (n + 1)
+
+end
+
+end A054408.P9745521710617076288
 
 /-! ## A054408.P15504069311566523142
 
@@ -8877,6 +8893,29 @@ def P17283316114570700236.Spec : Prop :=
 
 end A054445
 
+/-! ## A054445.P11730346102010493950
+
+`C(2*(row(n)+1)-(col(n)+1), row(n)+1)*(col(n)+2)/(row(n)+2)`
+-/
+
+namespace A054445.P11730346102010493950
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose ((2 * (SequenceMachineLib.triRow n + 1) : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ)).toNat (SequenceMachineLib.triRow n + 1) : ℚ) * ((SequenceMachineLib.triCol n + 2 : ℚ) / (SequenceMachineLib.triRow n + 2 : ℚ))
+
+end
+
+end A054445.P11730346102010493950
+
+namespace A054445
+
+/-- `C(2*(row(n)+1)-(col(n)+1), row(n)+1)*(col(n)+2)/(row(n)+2)` -/
+def P11730346102010493950.Spec : Prop :=
+  ∀ n, P11730346102010493950.a n = (A054445 n : ℚ)
+
+end A054445
+
 /-! ## A054445.P8577812419226832305
 
 `A106566(lt[1, A106579(n)])`
@@ -9001,35 +9040,6 @@ namespace A054445
 /-- `A059365(lt[3, A094250(n)])` -/
 def P8392653149087194140.Spec : Prop :=
   ∀ n, P8392653149087194140.a n = A054445 n
-
-end A054445
-
-/-! ## A054445.P3926054006308775740
-
-`A106566(lt[3, A094250(n)])`
--/
-
-namespace A054445.P3926054006308775740
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094250 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106566 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
-
-end
-
-end A054445.P3926054006308775740
-
-namespace A054445
-
-/-- `A106566(lt[3, A094250(n)])` -/
-def P3926054006308775740.Spec : Prop :=
-  ∀ n, P3926054006308775740.a n = A054445 n
 
 end A054445
 
@@ -15416,6 +15426,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A054481.P2303285421435894503
+
+/-! ## A054481.P10044320401544431824
+
+`(A135372(n+2)-A135372(n+1))/A053878(n+2)`
+-/
+
+namespace A054481.P10044320401544431824
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A135372 (n + 2) - A135372 (n + 1) : ℚ) / (A053878 (n + 2) : ℚ)
+
+end
+
+end A054481.P10044320401544431824
 
 /-!
 # A054482: Denominator of lowest terms fraction from division of a highly composite number (1) by its predecessor.

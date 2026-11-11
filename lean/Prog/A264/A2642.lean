@@ -29,7 +29,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -652,20 +651,20 @@ end
 
 end A264205.P10784659149143122877
 
-/-! ## A264205.P14665453115100761596
+/-! ## A264205.P7327556083443021431
 
-`A028447(n+2)^A020639(2*(n+1))`
+`A028447(n+2)*A028447(n+2)`
 -/
 
-namespace A264205.P14665453115100761596
+namespace A264205.P7327556083443021431
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A028447 (n + 2) : ℚ) ^ (A020639 (2 * (n + 1)) : ℤ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028447 (n + 2) * A028447 (n + 2)
 
 end
 
-end A264205.P14665453115100761596
+end A264205.P7327556083443021431
 
 /-! ## A264205.P4622864010922145767
 
@@ -714,21 +713,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A264205.P15742357652931253825
-
-/-! ## A264205.P11949493213943919457
-
-`A165052(A193073(n+1))+A028447(n+2)*A028447(n+2)`
--/
-
-namespace A264205.P11949493213943919457
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165052 (A193073 (n + 1)).toNat + A028447 (n + 2) * A028447 (n + 2)
-
-end
-
-end A264205.P11949493213943919457
 
 /-!
 # A264206: Number of (n+1)X(6+1) arrays of permutations of 0..n*7+6 with each element having index change +-(.,.) 0,0 0,2 or 1,0.
@@ -5299,6 +5283,21 @@ end
 
 end A264267.P17445727107377751755
 
+/-! ## A264267.P1044383072766532665
+
+`A189450(n+2)*A189450(n+2)`
+-/
+
+namespace A264267.P1044383072766532665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189450 (n + 2) * A189450 (n + 2)
+
+end
+
+end A264267.P1044383072766532665
+
 /-! ## A264267.P368347058062502529
 
 `(A072335(n+1)+A000035(n+1))²`
@@ -5343,21 +5342,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A264267.P3430597936333619642
-
-/-! ## A264267.P10002124425002374768
-
-`A000035(2*n+1)*A189450(n+2)*A189450(n+2)`
--/
-
-namespace A264267.P10002124425002374768
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (2 * n + 1) * A189450 (n + 2) * A189450 (n + 2)
-
-end
-
-end A264267.P10002124425002374768
 
 /-! ## A264267.P7270754522424580487
 

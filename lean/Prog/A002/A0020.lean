@@ -1946,10 +1946,31 @@ def P1955437030490707696.Spec : Prop :=
 end A002005
 
 /-!
-# A002006: Almost trivalent maps.
+# A002006: Number of rooted planar maps with 2n trivalent vertices and a root vertex of valence 4.
 
-The programs for A002006, there is no canonical definition to state claims against.
+The programs for A002006, the canonical program `A002006.P2854081906013505443` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002006 has offset 0).
+
+The definition of A002006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A002006.P2854081906013505443
+
+`A002005(n+1)-2*A002005(n)`
+
+The canonical program, it is in `Seq.B002.C000`.
+-/
+
+namespace A002006
+
+/-- `A002005(n+1)-2*A002005(n)` -/
+def P2854081906013505443.Spec : Prop :=
+  ∀ n, P2854081906013505443.a n = A002006 n
+
+theorem P2854081906013505443.correct : P2854081906013505443.Spec := by
+  intro n
+  simp only [A002006]
+
+end A002006
 
 /-! ## A002006.P14324434928329364682
 
@@ -1969,20 +1990,73 @@ end
 
 end A002006.P14324434928329364682
 
-/-! ## A002006.P2854081906013505443
+namespace A002006
 
-`A002005(n+1)-2*A002005(n)`
+/-- `Δ[A002005(n)]-A002005(n)` -/
+def P14324434928329364682.Spec : Prop :=
+  ∀ n, P14324434928329364682.a n = A002006 n
+
+theorem P14324434928329364682.correct : P14324434928329364682.Spec := by
+  intro n
+  simp only [A002006, Nat.add_sub_cancel, A002006.P14324434928329364682.f1, A002006.P14324434928329364682.a, A002006.P2854081906013505443.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A002006
+
+/-!
+# A002007: Number of rooted planar maps with 2n+1 trivalent vertices and a root vertex of valence 5.
+
+The programs for A002007, the canonical program `A002007.P2262516697418602775` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002007 has offset 0).
+
+The definition of A002007 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-namespace A002006.P2854081906013505443
-noncomputable section
+/-! ## A002007.P2262516697418602775
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002005 (n + 1) - 2 * A002005 n
+`A002005(n+2)-4*A002005(n+1)-∑{#}[n, A002005(#)*A002005(n-#)]`
 
-end
+The canonical program, it is in `Seq.B002.C000`.
+-/
 
-end A002006.P2854081906013505443
+namespace A002007
+
+/-- `A002005(n+2)-4*A002005(n+1)-∑{#}[n, A002005(#)*A002005(n-#)]` -/
+def P2262516697418602775.Spec : Prop :=
+  ∀ n, P2262516697418602775.a n = A002007 n
+
+theorem P2262516697418602775.correct : P2262516697418602775.Spec := by
+  intro n
+  simp only [A002007]
+
+end A002007
+
+/-!
+# A002008: Number of rooted planar maps with 2n trivalent vertices and a root vertex of valence 6.
+
+The programs for A002008, the canonical program `A002008.P10654145671765203324` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002008 has offset 0).
+
+The definition of A002008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A002008.P10654145671765203324
+
+`A002005(n+2)-6*A002005(n+1)-3*∑{#}[n, A002005(#)*A002005(n-#)]`
+
+The canonical program, it is in `Seq.B002.C000`.
+-/
+
+namespace A002008
+
+/-- `A002005(n+2)-6*A002005(n+1)-3*∑{#}[n, A002005(#)*A002005(n-#)]` -/
+def P10654145671765203324.Spec : Prop :=
+  ∀ n, P10654145671765203324.a n = A002008 n
+
+theorem P10654145671765203324.correct : P10654145671765203324.Spec := by
+  intro n
+  simp only [A002008]
+
+end A002008
 
 /-!
 # A002011: a(n) = 4*(2n+1)!/n!^2.
@@ -8070,23 +8144,20 @@ end
 
 end A002051.P10672260438299970277
 
-/-! ## A002051.P1222967889331644912
+/-! ## A002051.P10921447912491552637
 
-`A122101(∑[n])-A011782(n)`
+`A000670(n)-A011782(n)`
 -/
 
-namespace A002051.P1222967889331644912
+namespace A002051.P10921447912491552637
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122101 (∑ j ∈ Finset.range (n + 1), f1 j) - A011782 n
+  A000670 n - A011782 n
 
 end
 
-end A002051.P1222967889331644912
+end A002051.P10921447912491552637
 
 /-!
 # A002052: Prime determinants of forms with class number 2.
@@ -9257,6 +9328,35 @@ def P15785285706586593764.Spec : Prop :=
 
 end A002055
 
+/-! ## A002055.P3679399983708260899
+
+`∑{#}[n, C(n+3+#, #)]+(n+2)*∑{#}[n-1, C(n+3+#, #)]`
+-/
+
+namespace A002055.P3679399983708260899
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose (n + 3 + k) k + (n + 2) * (∑ k ∈ Finset.range (f2 n + 1).toNat, Nat.choose (n + 3 + k) k)
+
+end
+
+end A002055.P3679399983708260899
+
+namespace A002055
+
+/-- `∑{#}[n, C(n+3+#, #)]+(n+2)*∑{#}[n-1, C(n+3+#, #)]` -/
+def P3679399983708260899.Spec : Prop :=
+  ∀ n, (P3679399983708260899.a n : ℤ) = A002055 (n + 5)
+
+end A002055
+
 /-! ## A002055.P12457406286679830043
 
 `A126216(∑[n+2]+4)`
@@ -9456,32 +9556,6 @@ namespace A002055
 /-- `A086810(Δ[A006503(n+1)])` -/
 def P14135868195079413249.Spec : Prop :=
   ∀ n, P14135868195079413249.a n = A002055 (n + 5)
-
-end A002055
-
-/-! ## A002055.P15105931261634057239
-
-`record[A086810(A055999(n)-n)]`
--/
-
-namespace A002055.P15105931261634057239
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086810 (A055999 n - (n : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A002055.P15105931261634057239
-
-namespace A002055
-
-/-- `record[A086810(A055999(n)-n)]` -/
-def P15105931261634057239.Spec : Prop :=
-  ∀ n, P15105931261634057239.a n = A002055 (n + 5)
 
 end A002055
 
@@ -11229,6 +11303,32 @@ def P601131144683250980.Spec : Prop :=
 
 end A002061
 
+/-! ## A002061.P595502480298853191
+
+`∑{#}[2, (n-1)^#]`
+-/
+
+namespace A002061.P595502480298853191
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ((n : ℤ) - 1) ^ k
+
+end
+
+end A002061.P595502480298853191
+
+namespace A002061
+
+/-- `∑{#}[2, (n-1)^#]` -/
+def P595502480298853191.Spec : Prop :=
+  ∀ n, P595502480298853191.a n = A002061 n
+
+end A002061
+
 /-! ## A002061.P11738011411186314012
 
 `abs(or(1, n*(n-1)))`
@@ -11448,29 +11548,6 @@ namespace A002061
 /-- `round(n²-(n-cos(1)))` -/
 def P17858304787238581129.Spec : Prop :=
   ∀ n, P17858304787238581129.a n = A002061 n
-
-end A002061
-
-/-! ## A002061.P7636422682732213843
-
-`ceil(n²-(n-sin(1)))`
--/
-
-namespace A002061.P7636422682732213843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(n ^ 2 : ℝ) - ((n : ℝ) - Real.sin (1 : ℝ))⌉
-
-end
-
-end A002061.P7636422682732213843
-
-namespace A002061
-
-/-- `ceil(n²-(n-sin(1)))` -/
-def P7636422682732213843.Spec : Prop :=
-  ∀ n, P7636422682732213843.a n = A002061 n
 
 end A002061
 
@@ -13454,27 +13531,6 @@ end
 
 end A002071.P13466802841509877925
 
-/-! ## A002071.P18315466308790191542
-
-`∑[record[A145604(A000174(n))]]`
--/
-
-namespace A002071.P18315466308790191542
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145604 (A000174 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A002071.P18315466308790191542
-
 /-! ## A002071.P398888776518628447
 
 `∑[record[A145604(A028920(n))]]`
@@ -13516,6 +13572,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002071.P2968471454473475863
+
+/-! ## A002071.P14435429063197127144
+
+`record[A395896(n+1)]`
+-/
+
+namespace A002071.P14435429063197127144
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395896 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A002071.P14435429063197127144
 
 /-!
 # A002072: a(n) = smallest number m such that for all k > m, either k or k+1 has a prime factor > prime(n).

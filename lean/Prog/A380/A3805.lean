@@ -21,10 +21,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
@@ -2778,26 +2775,26 @@ end
 
 end A380535.P18123131281811675502
 
-/-! ## A380535.P15098885573821611670
+/-! ## A380535.P2037264293324879257
 
-`eq[A232991(n), A376306(A000203(n+1))]`
+`eq[A265648(n+1), A298246(n)]`
 -/
 
-namespace A380535.P15098885573821611670
+namespace A380535.P2037264293324879257
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232991 n
+  A265648 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376306 (A000203 (n + 1)).toNat
+  A298246 n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A380535.P15098885573821611670
+end A380535.P2037264293324879257
 
 /-!
 # A380536: a(n) = 1 if n is a multiple of A351566(n), otherwise 0, where A351566 is the radix prime of the second least significant nonzero digit in the primorial base expansion of n, or 1 if there is no such digit.
@@ -3321,6 +3318,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380539.P15478001882689595079
+
+/-! ## A380539.P16852528128716066666
+
+`A006530(A381805(n+1))`
+-/
+
+namespace A380539.P16852528128716066666
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A381805 (n + 1)).toNat
+
+end
+
+end A380539.P16852528128716066666
 
 /-! ## A380539.P10761633806519269225
 
@@ -5667,21 +5679,6 @@ end
 
 end A380563.P9740174150813990393
 
-/-! ## A380563.P2717707479637766231
-
-`log2(A001316(A400228(n+3)%A399763(2*n)+2))`
--/
-
-namespace A380563.P2717707479637766231
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.logb 2 (A001316 (Int.tmod (A400228 (n + 3)) (A399763 (2 * n)) + 2).toNat : ℝ)
-
-end
-
-end A380563.P2717707479637766231
-
 /-! ## A380563.P9691698365754563764
 
 `A341593(A370527(n+2)+7)`
@@ -5696,6 +5693,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380563.P9691698365754563764
+
+/-! ## A380563.P3392512498864411070
+
+`A072550(A139123(n+1))`
+-/
+
+namespace A380563.P3392512498864411070
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072550 (A139123 (n + 1)).toNat
+
+end
+
+end A380563.P3392512498864411070
 
 /-!
 # A380565: Numbers k such that k^2 - 2 divides 2^k - 2.

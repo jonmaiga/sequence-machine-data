@@ -1727,29 +1727,32 @@ def P13976491222289697829.Spec : Prop :=
 
 end A162511
 
-/-! ## A162511.P173704040284822673
+/-! ## A162511.P963825396401403025
 
-`∑{d}[n+1, A008683(#)*A055076((n+1)/#)]`
+`A008836(n+1)*A076479(n+1)`
 -/
 
-namespace A162511.P173704040284822673
+namespace A162511.P963825396401403025
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A008683 d * A055076 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+  A008836 (n + 1) * A076479 (n + 1)
 
 end
 
-end A162511.P173704040284822673
+end A162511.P963825396401403025
 
 namespace A162511
 
-/-- `∑{d}[n+1, A008683(#)*A055076((n+1)/#)]` -/
-def P173704040284822673.Spec : Prop :=
-  ∀ n, P173704040284822673.a n = A162511 (n + 1)
+/-- `A008836(n+1)*A076479(n+1)` -/
+def P963825396401403025.Spec : Prop :=
+  ∀ n, P963825396401403025.a n = A162511 (n + 1)
+
+theorem P963825396401403025.correct : P963825396401403025.Spec := by
+  intro n
+  simp only [A162511, Nat.add_sub_cancel, A162511.P963825396401403025.a, A162511.P10433238674007229868.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A162511
 

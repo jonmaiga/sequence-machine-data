@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of consecutive integers in [n, 2*n] all satisfying omega(k) > log(log(k)), where omega(k) is the number of distinct prime divisors of k.",
+  "id": "A400378",
+  "mentions": [
+    "A001221",
+    "A074739"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

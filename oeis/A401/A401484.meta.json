@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose largest square unitary divisor is a fourth power.",
+  "id": "A401484",
+  "mentions": [
+    "A013662",
+    "A042965",
+    "A252895",
+    "A304364",
+    "A337050",
+    "A350388",
+    "A401485"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

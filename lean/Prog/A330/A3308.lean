@@ -38,7 +38,8 @@ import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2528,7 +2529,7 @@ end
 end A330826.P3719594601300184232
 
 /-!
-# A330827: a(n) is the numbers of ways to write 2*n = u + v where the ternary representations of u and of v have the same number of digits d for d = 0..2.
+# A330827: a(n) is the number of ways to write 2*n = u + v where the ternary representations of u and of v have the same number of digits d for d = 0..2.
 
 The programs for A330827, there is no canonical definition to state claims against.
 -/
@@ -7715,26 +7716,26 @@ def P13517533081289158593.Spec : Prop :=
 
 end A330892
 
-/-! ## A330892.P17249779534424946378
+/-! ## A330892.P5671762968667125459
 
-`(row(n)-col(n))*((col(n)-2)*(row(n)-col(n))-col(n)+4)/2`
+`(row(n)-col(n))/2*((col(n)-2)*(row(n)-col(n))-col(n)+4)`
 -/
 
-namespace A330892.P17249779534424946378
+namespace A330892.P5671762968667125459
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) * (((SequenceMachineLib.triCol n : ℤ) - 2) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) - (SequenceMachineLib.triCol n : ℤ) + 4) : ℚ) / 2
+  ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ) / 2 * (((SequenceMachineLib.triCol n : ℤ) - 2) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) - (SequenceMachineLib.triCol n : ℤ) + 4 : ℚ)
 
 end
 
-end A330892.P17249779534424946378
+end A330892.P5671762968667125459
 
 namespace A330892
 
-/-- `(row(n)-col(n))*((col(n)-2)*(row(n)-col(n))-col(n)+4)/2` -/
-def P17249779534424946378.Spec : Prop :=
-  ∀ n, P17249779534424946378.a n = (A330892 (n + 1) : ℚ)
+/-- `(row(n)-col(n))/2*((col(n)-2)*(row(n)-col(n))-col(n)+4)` -/
+def P5671762968667125459.Spec : Prop :=
+  ∀ n, P5671762968667125459.a n = (A330892 (n + 1) : ℚ)
 
 end A330892
 

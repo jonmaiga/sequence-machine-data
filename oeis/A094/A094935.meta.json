@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(8x)/(1-8x)^(1/8).",
+  "description": "Expansion of e.g.f.: exp(8*x)/(1-8*x)^(1/8).",
   "id": "A094935",
   "mentions": [
     "A000522",
@@ -9,7 +9,8 @@
     "A094856",
     "A094869",
     "A094905",
-    "A094911"
+    "A094911",
+    "A095176"
   ],
   "tags": [
     "formulas",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

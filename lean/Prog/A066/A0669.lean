@@ -72,6 +72,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
@@ -3382,6 +3383,29 @@ namespace A066922
 /-- `gcd(A066921(n+1), A080256(n+1))` -/
 def P10550180443778758728.Spec : Prop :=
   ∀ n, (P10550180443778758728.a n : ℤ) = A066922 (n + 1)
+
+end A066922
+
+/-! ## A066922.P1610685107590232525
+
+`gcd(A144494(n+1), A392285(n+1))`
+-/
+
+namespace A066922.P1610685107590232525
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A144494 (n + 1)) (A392285 (n + 1))
+
+end
+
+end A066922.P1610685107590232525
+
+namespace A066922
+
+/-- `gcd(A144494(n+1), A392285(n+1))` -/
+def P1610685107590232525.Spec : Prop :=
+  ∀ n, (P1610685107590232525.a n : ℤ) = A066922 (n + 1)
 
 end A066922
 
@@ -10828,6 +10852,21 @@ end
 
 end A066993.P387410702822459600
 
+/-! ## A066993.P2199501063451380390
+
+`A062354(A011775(n+1))/A011775(n+1)`
+-/
+
+namespace A066993.P2199501063451380390
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A062354 (A011775 (n + 1)).toNat : ℚ) / (A011775 (n + 1) : ℚ)
+
+end
+
+end A066993.P2199501063451380390
+
 /-!
 # A066994: Numbers k such that phi(k) divides k*sigma(k).
 
@@ -11632,6 +11671,32 @@ namespace A066999
 /-- `∑[∑[∑[3*(a(n-1)+2)]]]` -/
 def P3717438775899134674.Spec : Prop :=
   ∀ n, (P3717438775899134674.a n : ℤ) = A066999 (n + 1)
+
+end A066999
+
+/-! ## A066999.P1372080754373098044
+
+`∑{#}[n, 3^#*(n+1-#)^3]`
+-/
+
+namespace A066999.P1372080754373098044
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (3 ^ k : ℤ) * ((n + 1 : ℤ) - (k : ℤ)) ^ 3
+
+end
+
+end A066999.P1372080754373098044
+
+namespace A066999
+
+/-- `∑{#}[n, 3^#*(n+1-#)^3]` -/
+def P1372080754373098044.Spec : Prop :=
+  ∀ n, P1372080754373098044.a n = A066999 (n + 1)
 
 end A066999
 

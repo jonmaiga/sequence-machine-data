@@ -6933,35 +6933,6 @@ theorem P17682209453494408525.correct : P17682209453494408525.Spec := by
 
 end A369865
 
-/-! ## A369865.P6698275444525327584
-
-`∑{p}[n+1, ceil(n/#)]-A241470(2^∑{e}[n+1, #])`
--/
-
-namespace A369865.P6698275444525327584
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), ⌈(n : ℚ) / (p : ℚ)⌉ - A241470 (2 ^ (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p))
-
-end
-
-end A369865.P6698275444525327584
-
-namespace A369865
-
-/-- `∑{p}[n+1, ceil(n/#)]-A241470(2^∑{e}[n+1, #])` -/
-def P6698275444525327584.Spec : Prop :=
-  ∀ n, P6698275444525327584.a n = A369865 (n + 1)
-
-end A369865
-
 /-! ## A369865.P5743336511980157572
 
 `A069359(n+1)-A279415(A011782(n))`

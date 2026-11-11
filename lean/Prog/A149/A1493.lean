@@ -10,13 +10,11 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
@@ -694,20 +692,20 @@ end A149314.P10931221540146057995
 The programs for A149315, there is no canonical definition to state claims against.
 -/
 
-/-! ## A149315.P12585927644747693765
+/-! ## A149315.P15789570968897393209
 
-`A303739(A068602(n))`
+`A357981(A075900(n))`
 -/
 
-namespace A149315.P12585927644747693765
+namespace A149315.P15789570968897393209
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303739 (A068602 n).toNat
+  A357981 (A075900 n).toNat
 
 end
 
-end A149315.P12585927644747693765
+end A149315.P15789570968897393209
 
 /-! ## A149315.P831856571815147001
 

@@ -7534,6 +7534,35 @@ def P1612454508300383900.Spec : Prop :=
 
 end A122461
 
+/-! ## A122461.P9857074483805916996
+
+`fp[2*fp[and(n, n+1)]]`
+-/
+
+namespace A122461.P9857074483805916996
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land n (n + 1)
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * SequenceMachineLib.nth (fun j => n < f2 j) 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => n < f1 j) 0
+
+end
+
+end A122461.P9857074483805916996
+
+namespace A122461
+
+/-- `fp[2*fp[and(n, n+1)]]` -/
+def P9857074483805916996.Spec : Prop :=
+  ∀ n, (P9857074483805916996.a n : ℤ) = A122461 n
+
+end A122461
+
 /-!
 # A122462: a(n) = gcd(b(n-1),b(n)), where b(i) = A122280(i).
 

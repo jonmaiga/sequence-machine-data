@@ -6764,6 +6764,29 @@ def P7618014393895135053.Spec : Prop :=
 
 end A304973
 
+/-! ## A304973.P9174909539625689169
+
+`A348175(A354788(n))`
+-/
+
+namespace A304973.P9174909539625689169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348175 (A354788 n).toNat
+
+end
+
+end A304973.P9174909539625689169
+
+namespace A304973
+
+/-- `A348175(A354788(n))` -/
+def P9174909539625689169.Spec : Prop :=
+  ∀ n, P9174909539625689169.a n = A304973 n
+
+end A304973
+
 /-!
 # A304974: Number of achiral color patterns (set partitions) for a row or loop of length n using exactly 4 colors (sets).
 
@@ -8981,26 +9004,26 @@ def P9341718160927289225.Spec : Prop :=
 
 end A304993
 
-/-! ## A304993.P534810647634612365
+/-! ## A304993.P7657754346063029827
 
-`C(n+1, 3)+n*(n+1)²`
+`C(n+1, 3)+(n+1)²*n`
 -/
 
-namespace A304993.P534810647634612365
+namespace A304993.P7657754346063029827
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 1) 3 + n * (n + 1) ^ 2
+  Nat.choose (n + 1) 3 + (n + 1) ^ 2 * n
 
 end
 
-end A304993.P534810647634612365
+end A304993.P7657754346063029827
 
 namespace A304993
 
-/-- `C(n+1, 3)+n*(n+1)²` -/
-def P534810647634612365.Spec : Prop :=
-  ∀ n, (P534810647634612365.a n : ℤ) = A304993 n
+/-- `C(n+1, 3)+(n+1)²*n` -/
+def P7657754346063029827.Spec : Prop :=
+  ∀ n, (P7657754346063029827.a n : ℤ) = A304993 n
 
 end A304993
 

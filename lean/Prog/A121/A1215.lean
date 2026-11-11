@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -13907,41 +13908,41 @@ end
 
 end A121595.P12704634400866885675
 
-/-! ## A121595.P9313986329924769575
+/-! ## A121595.P9076086720215597884
 
-`filter[A119788(n+1), A049240(#)]`
+`filter[A119788(n+1), A101040(#)]`
 -/
 
-namespace A121595.P9313986329924769575
+namespace A121595.P9076086720215597884
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119788 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A049240 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A101040 (f1 j).toNat = 1) n)
 
 end
 
-end A121595.P9313986329924769575
+end A121595.P9076086720215597884
 
-/-! ## A121595.P15562388723178062911
+/-! ## A121595.P8640626338646084442
 
-`filter[A119788(n+1), A053867(#)]`
+`filter[A119788(n+1), A123110(#)]`
 -/
 
-namespace A121595.P15562388723178062911
+namespace A121595.P8640626338646084442
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119788 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A053867 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A123110 (f1 j).toNat = 1) n)
 
 end
 
-end A121595.P15562388723178062911
+end A121595.P8640626338646084442
 
 /-!
 # A121596: Expansion of q^(-1/2)(eta(q^3)/eta(q))^6 in powers of q.

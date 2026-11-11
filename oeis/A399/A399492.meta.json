@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n >= 2, a(n) = a(n-1) + 1 + c(n), where c(n) is the number of pairs 0 <= i < j < n with a(j) - a(i) = a(n-1) - a(n-2).",
+  "id": "A399492",
+  "mentions": [
+    "A331614",
+    "A332518",
+    "A336037",
+    "A358799",
+    "A359034",
+    "A396030",
+    "A399995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

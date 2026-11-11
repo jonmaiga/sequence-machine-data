@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=1} O(k)/(2*k-1)^3, where O(k) = A350669(k)/A350670(k) is the k-th odd harmonic number (or harmonic number of the second kind).",
+  "description": "Decimal expansion of Sum_{k>=1} O(k-1)/(2*k-1)^3, where O(k) = A350669(k)/A350670(k) is the k-th odd harmonic number (or harmonic number of the second kind).",
   "id": "A399422",
   "mentions": [
     "A002117",

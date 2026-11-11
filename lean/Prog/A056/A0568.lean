@@ -22,6 +22,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -29,7 +30,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -9661,29 +9661,6 @@ theorem P15116355347665768313.correct : P15116355347665768313.Spec := by
 
 end A056847
 
-/-! ## A056847.P700496860242093391
-
-`n-A000194(n)`
--/
-
-namespace A056847.P700496860242093391
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A000194 n
-
-end
-
-end A056847.P700496860242093391
-
-namespace A056847
-
-/-- `n-A000194(n)` -/
-def P700496860242093391.Spec : Prop :=
-  ∀ n, P700496860242093391.a n = A056847 n
-
-end A056847
-
 /-! ## A056847.P4973895038030979288
 
 `fp[sqrt(n)+n]-1`
@@ -10054,29 +10031,29 @@ def P10104942252560011872.Spec : Prop :=
 
 end A056847
 
-/-! ## A056847.P6538573223650742636
+/-! ## A056847.P17033268255414358912
 
-`abs(fp[(n+1)²-n]-n)`
+`abs(fp[n²+n+1]-n)`
 -/
 
-namespace A056847.P6538573223650742636
+namespace A056847.P17033268255414358912
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n + 1) ^ 2 : ℤ) - (n : ℤ)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2 + (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 : ℤ) - (n : ℤ)|
+  |(SequenceMachineLib.nth (fun j => n < f1 j) 0 : ℤ) - (n : ℤ)|
 
 end
 
-end A056847.P6538573223650742636
+end A056847.P17033268255414358912
 
 namespace A056847
 
-/-- `abs(fp[(n+1)²-n]-n)` -/
-def P6538573223650742636.Spec : Prop :=
-  ∀ n, P6538573223650742636.a n = A056847 n
+/-- `abs(fp[n²+n+1]-n)` -/
+def P17033268255414358912.Spec : Prop :=
+  ∀ n, P17033268255414358912.a n = A056847 n
 
 end A056847
 
@@ -10202,6 +10179,36 @@ namespace A056847
 /-- `(2*n+1)%(comp[(n+1)²]+1)` -/
 def P4054145799921707045.Spec : Prop :=
   ∀ n, (P4054145799921707045.a n : ℤ) = A056847 n
+
+end A056847
+
+/-! ## A056847.P17540705021722221417
+
+`floor(∪[2*n+1, 2*n²]/2)`
+-/
+
+namespace A056847.P17540705021722221417
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n ^ 2
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n : ℚ) / 2⌋
+
+end
+
+end A056847.P17540705021722221417
+
+namespace A056847
+
+/-- `floor(∪[2*n+1, 2*n²]/2)` -/
+def P17540705021722221417.Spec : Prop :=
+  ∀ n, P17540705021722221417.a n = A056847 n
 
 end A056847
 
@@ -10709,7 +10716,7 @@ def P8043375932865481494.Spec : Prop :=
 end A056852
 
 /-!
-# A056853: Numbers n satisfying phi(n+1) - phi(n-1) = 2.
+# A056853: Numbers k satisfying phi(k+1) - phi(k-1) = 2.
 
 The programs for A056853, there is no canonical definition to state claims against.
 -/

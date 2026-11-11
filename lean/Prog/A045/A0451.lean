@@ -11871,36 +11871,6 @@ theorem P14364888551667959188.correct : P14364888551667959188.Spec := by
 
 end A045166
 
-/-! ## A045166.P16234074893542046785
-
-`∩[A023723(n+1), A137469(n+1)]`
--/
-
-namespace A045166.P16234074893542046785
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023723 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137469 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045166.P16234074893542046785
-
-namespace A045166
-
-/-- `∩[A023723(n+1), A137469(n+1)]` -/
-def P16234074893542046785.Spec : Prop :=
-  ∀ n, (P16234074893542046785.a n : ℤ) = A045166 (n + 1)
-
-end A045166
-
 /-!
 # A045167: Numbers whose base-5 representation contains exactly two 0's and two 1's.
 

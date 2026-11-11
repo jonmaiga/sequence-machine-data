@@ -98,7 +98,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A271900: Expansion of 1/((1-x^3)*(1-x^5)*(1-x^17)).
+# A271900: Expansion of g.f. 1/((1-x^3)*(1-x^5)*(1-x^17)).
 
 The programs for A271900, the canonical program `A271900.P5189823166170485608` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271900 has offset 0).
 

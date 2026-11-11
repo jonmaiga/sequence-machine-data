@@ -5054,6 +5054,32 @@ def P16467815068053542011.Spec : Prop :=
 
 end A075664
 
+/-! ## A075664.P3503311078126044770
+
+`∑{#}[n-1, ((n²-n)/2+1+#)^3]`
+-/
+
+namespace A075664.P3503311078126044770
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (((n ^ 2 : ℤ) - (n : ℤ) : ℚ) / 2 + 1 + (k : ℚ)) ^ 3
+
+end
+
+end A075664.P3503311078126044770
+
+namespace A075664
+
+/-- `∑{#}[n-1, ((n²-n)/2+1+#)^3]` -/
+def P3503311078126044770.Spec : Prop :=
+  ∀ n, P3503311078126044770.a n = (A075664 n : ℚ)
+
+end A075664
+
 /-! ## A075664.P2704188490142800188
 
 `Δ[A000217(A161680(n))²]`

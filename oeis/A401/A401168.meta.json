@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that 2*x^k/(1 + x^(2*k)) < 1/2, where x = u/(u+1) and u = 2*n*(n+1).",
+  "id": "A401168",
+  "mentions": [
+    "A001075",
+    "A046092"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

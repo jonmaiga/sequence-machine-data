@@ -6647,6 +6647,32 @@ def P5754228916066612653.Spec : Prop :=
 
 end A197657
 
+/-! ## A197657.P17441513195079584370
+
+`∑{#}[n+1, (2*n-#+1)/(#+1)*C(n, #)^3]`
+-/
+
+namespace A197657.P17441513195079584370
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ((2 * n : ℤ) - (k : ℤ) + 1 : ℚ) / (k + 1 : ℚ) * (Nat.choose n k ^ 3 : ℚ)
+
+end
+
+end A197657.P17441513195079584370
+
+namespace A197657
+
+/-- `∑{#}[n+1, (2*n-#+1)/(#+1)*C(n, #)^3]` -/
+def P17441513195079584370.Spec : Prop :=
+  ∀ n, P17441513195079584370.a n = (A197657 n : ℚ)
+
+end A197657
+
 /-! ## A197657.P8547428844855331352
 
 `2*A181067(n+1)-A000172(n)`

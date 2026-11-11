@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer with exactly n divisors that are brilliant (A078972).",
+  "id": "A401490",
+  "mentions": [
+    "A078972",
+    "A220264",
+    "A401489"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

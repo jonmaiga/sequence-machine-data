@@ -82,6 +82,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -603,27 +604,6 @@ def P2795918554259150898.Spec : Prop :=
   ∀ n, (P2795918554259150898.a n : ℤ) = A233511 (n + 1)
 
 end A233511
-
-/-!
-# A233512: The first n cyclotomic polynomials are simultaneously prime for these arguments.
-
-The programs for A233512, there is no canonical definition to state claims against.
--/
-
-/-! ## A233512.P10708844402534110688
-
-`lcm(A057778(n)², A070737(n+1))`
--/
-
-namespace A233512.P10708844402534110688
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A057778 n ^ 2) (A070737 (n + 1))
-
-end
-
-end A233512.P10708844402534110688
 
 /-!
 # A233514: Numbers n such that all numbers of the form Fib(n)/d + d are prime (or nonexistent), where Fib(n) is the n-th Fibonacci number and d is a nontrivial divisor of Fib(n).
@@ -7468,6 +7448,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233576.P2849710175710793365
+
+/-! ## A233576.P13064079376640407035
+
+`A377505(A233577(n+1))`
+-/
+
+namespace A233576.P13064079376640407035
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A233577 (n + 1)).toNat
+
+end
+
+end A233576.P13064079376640407035
 
 /-!
 # A233577: Prime(k), where k is such that (1+Sum_{i=1..k} prime(i)^18) / k is an integer.

@@ -29,7 +29,6 @@ import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C048
@@ -1220,6 +1219,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300114.P5543732640479452306
+
+/-!
+# A300116: a(n) = Sum_{k=0..n} binomial(2k,k)^3 * binomial(2n-2k,n-k) * 2^(4*(n-k)).
+
+The programs for A300116, there is no canonical definition to state claims against.
+-/
+
+/-! ## A300116.P4766118930172930165
+
+`∑{#}[n, C(2*#, #)^3*C(2*n-2*#, n-#)*16^(n-#)]`
+-/
+
+namespace A300116.P4766118930172930165
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose (2 * k) k ^ 3 * Nat.choose ((2 * n : ℤ) - (2 * k : ℤ)).toNat ((n : ℤ) - (k : ℤ)).toNat : ℚ) * (16 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A300116.P4766118930172930165
 
 /-!
 # A300117: Squarefree odd composite numbers n having a prime factor p such that (p-1)|(n-1).

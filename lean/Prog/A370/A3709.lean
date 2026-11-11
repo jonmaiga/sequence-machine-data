@@ -3874,6 +3874,21 @@ end
 
 end A370937.P3104511537652208108
 
+/-! ## A370937.P16475332355942210657
+
+`A401411(A360889(n+1))`
+-/
+
+namespace A370937.P16475332355942210657
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401411 (A360889 (n + 1)).toNat
+
+end
+
+end A370937.P16475332355942210657
+
 /-! ## A370937.P13386996156466860193
 
 `A163892(ceil(2^(n-1))-A304687(n+2))`
@@ -3888,21 +3903,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370937.P13386996156466860193
-
-/-! ## A370937.P18344397764175545980
-
-`A048250(A056971(n)*A102403(n))`
--/
-
-namespace A370937.P18344397764175545980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048250 (A056971 n * A102403 n).toNat
-
-end
-
-end A370937.P18344397764175545980
 
 /-!
 # A370938: Expansion of e.g.f. (1/x) * Series_Reversion( x*(1 + log(1-2*x)/2) ).

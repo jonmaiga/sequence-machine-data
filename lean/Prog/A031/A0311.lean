@@ -25,7 +25,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -8040,6 +8039,21 @@ end
 
 end A031160.P14972930743120032896
 
+/-! ## A031160.P15015157039887687669
+
+`A348771(n+1)+A348771(n+1)`
+-/
+
+namespace A031160.P15015157039887687669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348771 (n + 1) + A348771 (n + 1)
+
+end
+
+end A031160.P15015157039887687669
+
 /-! ## A031160.P2779954224044251386
 
 `A057701(Δ[n²])+1`
@@ -8328,28 +8342,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031160.P2972177693380472643
-
-/-! ## A031160.P8757471323629474459
-
-`∩[A057701(n+1), A008585(n)]-1`
--/
-
-namespace A031160.P8757471323629474459
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057701 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008585 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n : ℤ) - 1
-
-end
-
-end A031160.P8757471323629474459
 
 /-!
 # A031161: Palindromic lucky numbers.
@@ -16631,6 +16623,48 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031194.P593573311898549225
+
+/-! ## A031194.P6665971082757961291
+
+`eq[A031186(n), A040182(n)]`
+-/
+
+namespace A031194.P6665971082757961291
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031186 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040182 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A031194.P6665971082757961291
+
+/-! ## A031194.P15065177806008470214
+
+`eq[A031186(n), A154034(n+3)]`
+-/
+
+namespace A031194.P15065177806008470214
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031186 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154034 (n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A031194.P15065177806008470214
 
 /-!
 # A031196: Numbers having period-3 6-digitized sequences.

@@ -23,6 +23,7 @@ import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
@@ -4423,6 +4424,35 @@ namespace A207947
 /-- `record[A218051(A133265(n)/2)²]` -/
 def P5305442010869045984.Spec : Prop :=
   ∀ n, P5305442010869045984.a n = A207947 (n + 1)
+
+end A207947
+
+/-! ## A207947.P15033420134377243912
+
+`A218051(n+2)*A218051(n+2)`
+-/
+
+namespace A207947.P15033420134377243912
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218051 (n + 2) * A218051 (n + 2)
+
+end
+
+end A207947.P15033420134377243912
+
+namespace A207947
+
+/-- `A218051(n+2)*A218051(n+2)` -/
+def P15033420134377243912.Spec : Prop :=
+  ∀ n, P15033420134377243912.a n = A207947 (n + 1)
+
+theorem P15033420134377243912.correct : P15033420134377243912.Spec := by
+  intro n
+  simp only [A207947, Nat.add_sub_cancel, A207947.P15033420134377243912.a, A207947.P11344013199271307700.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A207947
 

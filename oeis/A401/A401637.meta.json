@@ -1,0 +1,22 @@
+{
+  "description": "Number of free ouroboros polycairos with n cells.",
+  "id": "A401637",
+  "mentions": [
+    "A122672",
+    "A151536",
+    "A159866",
+    "A359706",
+    "A397240",
+    "A397797",
+    "A399392"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

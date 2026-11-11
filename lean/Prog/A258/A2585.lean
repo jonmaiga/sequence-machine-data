@@ -34,7 +34,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
@@ -10701,6 +10701,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258595.P13437973458929699094
+
+/-! ## A258595.P581027650737588778
+
+`A001221(A111133(n)+1)`
+-/
+
+namespace A258595.P581027650737588778
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A111133 n + 1).toNat
+
+end
+
+end A258595.P581027650737588778
+
+/-! ## A258595.P13735498119060195202
+
+`A106404(A087135(n))`
+-/
+
+namespace A258595.P13735498119060195202
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106404 (A087135 n).toNat
+
+end
+
+end A258595.P13735498119060195202
 
 /-!
 # A258596: Number of divisors of the number of partitions of n into distinct parts, a(n) = A000005(A000009(n)).

@@ -5040,6 +5040,35 @@ def P4106950245224023304.Spec : Prop :=
 
 end A113541
 
+/-! ## A113541.P12361722905410628121
+
+`eq[A070441(n), A267936(n)]`
+-/
+
+namespace A113541.P12361722905410628121
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070441 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267936 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A113541.P12361722905410628121
+
+namespace A113541
+
+/-- `eq[A070441(n), A267936(n)]` -/
+def P12361722905410628121.Spec : Prop :=
+  ∀ n, (P12361722905410628121.a n : ℤ) = A113541 (n + 1)
+
+end A113541
+
 /-!
 # A113543: Numbers both squarefree and triangle-free.
 

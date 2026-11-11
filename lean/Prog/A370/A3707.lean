@@ -66,6 +66,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -3365,6 +3366,32 @@ namespace A370762
 /-- `A261693(A048678(n+1))` -/
 def P2517906639812360383.Spec : Prop :=
   ∀ n, P2517906639812360383.a n = A370762 n
+
+end A370762
+
+/-! ## A370762.P16252768609562531125
+
+`fo[A385887(n)-1]`
+-/
+
+namespace A370762.P16252768609562531125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385887 n - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0
+
+end
+
+end A370762.P16252768609562531125
+
+namespace A370762
+
+/-- `fo[A385887(n)-1]` -/
+def P16252768609562531125.Spec : Prop :=
+  ∀ n, (P16252768609562531125.a n : ℤ) = A370762 n
 
 end A370762
 

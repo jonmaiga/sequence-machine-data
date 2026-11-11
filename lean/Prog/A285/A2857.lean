@@ -7664,7 +7664,7 @@ def P2452724288723730958.Spec : Prop :=
 end A285728
 
 /-!
-# A285729: Compound filter: a(n) = T(A032742(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.
+# A285729: a(n) = (1/2)*(2 + ((A032742(n)+A046523(n))^2) - A032742(n) - 3*A046523(n)), where A032742(n) is the largest proper divisor of n, and A046523(n) is the smallest number with same prime signature as n.
 
 The programs for A285729, there is no canonical definition to state claims against.
 -/
@@ -7672,6 +7672,8 @@ The programs for A285729, there is no canonical definition to state claims again
 /-! ## A285729.P10022555594110057213
 
 `1/2*(2+(A032742(n+1)+A046523(n+1))²-A032742(n+1)-3*A046523(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A285729.P10022555594110057213
@@ -12942,26 +12944,26 @@ def P12963270054120400838.Spec : Prop :=
 
 end A285775
 
-/-! ## A285775.P16604602076350156218
+/-! ## A285775.P1002401355117933786
 
-`and(A240331(A288194(n)²), A288903(n))`
+`A007088(A285777(n))`
 -/
 
-namespace A285775.P16604602076350156218
+namespace A285775.P1002401355117933786
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A240331 (A288194 n ^ 2).toNat) (A288903 n)
+  A007088 (A285777 n).toNat
 
 end
 
-end A285775.P16604602076350156218
+end A285775.P1002401355117933786
 
 namespace A285775
 
-/-- `and(A240331(A288194(n)²), A288903(n))` -/
-def P16604602076350156218.Spec : Prop :=
-  ∀ n, P16604602076350156218.a n = A285775 n
+/-- `A007088(A285777(n))` -/
+def P1002401355117933786.Spec : Prop :=
+  ∀ n, P1002401355117933786.a n = A285775 n
 
 end A285775
 
@@ -16053,6 +16055,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A285792.P1794970626694180636
+
+/-! ## A285792.P9470393010951874484
+
+`∩[A045390(n+1), A397990(n)]`
+-/
+
+namespace A285792.P9470393010951874484
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045390 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A397990 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A285792.P9470393010951874484
 
 /-!
 # A285794: a(1)=1, a(2)=2, a(3)=3, a(n) = 3*a(n-3)+2*a(n-2)+a(n-1).

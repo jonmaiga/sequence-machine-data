@@ -45,6 +45,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -103,6 +104,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1109,6 +1111,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A080907.P8463865542452510034
+
+/-! ## A080907.P1779196279888438997
+
+`∪[A000047(n), A127161(n+1)]`
+-/
+
+namespace A080907.P1779196279888438997
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000047 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127161 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A080907.P1779196279888438997
 
 /-!
 # A080908: a(n) = the sign of r(n), where r(n) is the integer in [ -2n,2n] which is congruent to (2n)! modulo 4n+1.
@@ -5446,21 +5470,6 @@ end
 
 end A080936.P13569806864486193045
 
-/-! ## A080936.P17992770625978255887
-
-`A140595(A112857(n)-1)`
--/
-
-namespace A080936.P17992770625978255887
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 (A112857 n - 1).toNat
-
-end
-
-end A080936.P17992770625978255887
-
 /-! ## A080936.P10817390649350208287
 
 `A343237(n)-A331385(A008277(n+1))`
@@ -5475,6 +5484,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080936.P10817390649350208287
+
+/-! ## A080936.P919180768953795069
+
+`A396000(A112857(n))`
+-/
+
+namespace A080936.P919180768953795069
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396000 (A112857 n).toNat
+
+end
+
+end A080936.P919180768953795069
 
 /-!
 # A080937: Number of Catalan paths (nonnegative, starting and ending at 0, step +/ -1) of 2*n steps with all values <= 5.

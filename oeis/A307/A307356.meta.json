@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the numbers of 2's in row n of triangle A307239.",
+  "description": "a(n) is the number of 2's in row n of triangle A307239.",
   "id": "A307356",
   "mentions": [
     "A048967",

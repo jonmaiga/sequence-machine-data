@@ -29,7 +29,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -11843,6 +11842,32 @@ def P4581775304627461930.Spec : Prop :=
 
 end A127358
 
+/-! ## A127358.P10029197109549141167
+
+`2^n*∑{#}[n, 2^-#*C(n, floor(#/2))]`
+-/
+
+namespace A127358.P10029197109549141167
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (2 : ℚ) ^ (-(k : ℤ) : ℤ) * (Nat.choose n ⌊(k : ℚ) / 2⌋.toNat : ℚ))
+
+end
+
+end A127358.P10029197109549141167
+
+namespace A127358
+
+/-- `2^n*∑{#}[n, 2^-#*C(n, floor(#/2))]` -/
+def P10029197109549141167.Spec : Prop :=
+  ∀ n, P10029197109549141167.a n = (A127358 n : ℚ)
+
+end A127358
+
 /-! ## A127358.P1277844138207748406
 
 `A100099(n)+A100067(n)`
@@ -15515,20 +15540,20 @@ end
 
 end A127383.P13487017338898542447
 
-/-! ## A127383.P12900392449843398071
+/-! ## A127383.P2323125890147908993
 
-`A028310(A192262(n²))`
+`A371587(A400921(n))`
 -/
 
-namespace A127383.P12900392449843398071
+namespace A127383.P2323125890147908993
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A192262 (n ^ 2)).toNat
+  A371587 (A400921 n).toNat
 
 end
 
-end A127383.P12900392449843398071
+end A127383.P2323125890147908993
 
 /-!
 # A127384: Number of cycles in range [A014137(n-1)..A014138(n-1)] of permutations A127379/A127380 and A127381/A127382.
@@ -16018,6 +16043,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A127389.P10886904558951172761
+
+/-! ## A127389.P5855691102904416787
+
+`A265529(A346050(n+1))`
+-/
+
+namespace A127389.P5855691102904416787
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265529 (A346050 (n + 1)).toNat
+
+end
+
+end A127389.P5855691102904416787
 
 /-!
 # A127391: Series expansion of the elliptic function sqrt(k) = theta_2/theta_3 in powers of q^(1/4).

@@ -41,7 +41,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
@@ -94,6 +93,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -6751,6 +6751,32 @@ namespace A079949
 /-- `∏[6-2*(1-n)/a(n-1)]` -/
 def P17869192892296683784.Spec : Prop :=
   ∀ n, P17869192892296683784.a n = (A079949 n : ℚ)
+
+end A079949
+
+/-! ## A079949.P8836766968407629630
+
+`∑{#}[floor(n/2), n!*6^(n-2*#)/((n-2*#)!*#!)]`
+-/
+
+namespace A079949.P8836766968407629630
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial n : ℚ) * (6 : ℚ) ^ ((n : ℤ) - (2 * k : ℤ) : ℤ) / (Nat.factorial ((n : ℤ) - (2 * k : ℤ)).toNat * Nat.factorial k : ℚ)
+
+end
+
+end A079949.P8836766968407629630
+
+namespace A079949
+
+/-- `∑{#}[floor(n/2), n!*6^(n-2*#)/((n-2*#)!*#!)]` -/
+def P8836766968407629630.Spec : Prop :=
+  ∀ n, P8836766968407629630.a n = (A079949 n : ℚ)
 
 end A079949
 

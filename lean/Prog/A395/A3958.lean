@@ -22,6 +22,7 @@ import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -391,7 +392,7 @@ end A395812.P15972101233057974799
 /-!
 # A395813: Number of perfect matchings in the complete 4-partite graph K_{n,n,n,n}.
 
-The programs for A395813, the canonical program `A395813.P11902416282784165986` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395813 has offset 0).
+The programs for A395813, the canonical program `A395813.P11902416282784165986` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395813 has offset 0).
 
 The definition of A395813 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -426,7 +427,7 @@ end A395813
 
 `(10*n²-10*n+3)*a(n-1)-9*(n-1)^4*a(n-2)` with `a(0)=1, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395813
@@ -516,7 +517,7 @@ end A395813
 /-!
 # A395815: Number of perfect matchings in the complete tripartite graph K_{2n,2n,2n}.
 
-The programs for A395815, the canonical program `A395815.P4122459993557326812` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395815 has offset 0).
+The programs for A395815, the canonical program `A395815.P4122459993557326812` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395815 has offset 0).
 
 The definition of A395815 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -525,7 +526,7 @@ The definition of A395815 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((2*n)!/n!)^3`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395815
@@ -1003,7 +1004,7 @@ end A395820.P7497265546091422852
 /-!
 # A395822: Degree of the minimal polynomial whose root is the square of the sidelength of the largest n-cube that fits inside a unit (n+1)-cube.
 
-The programs for A395822, the canonical program `A395822.P4184873766019434530` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395822 has offset 0).
+The programs for A395822, the canonical program `A395822.P4184873766019434530` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395822 has offset 0).
 
 The definition of A395822 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1012,7 +1013,7 @@ The definition of A395822 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-3x^2-4x^3+10x^4+8x^5)/(1-4x-4x^2+16x^3))`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395822
@@ -1433,7 +1434,7 @@ end A395829
 /-!
 # A395830: Number of hexadecimal strings of length n that contain a specific string xx (where x is a single digit).
 
-The programs for A395830, the canonical program `A395830.P2485502439783120490` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395830 has offset 0).
+The programs for A395830, the canonical program `A395830.P2485502439783120490` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395830 has offset 0).
 
 The definition of A395830 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1442,7 +1443,7 @@ The definition of A395830 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(x^2/(1-31x+225x^2+240x^3))`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395830
@@ -1506,7 +1507,7 @@ end A395830
 /-!
 # A395831: Number of octal strings of length n that do not contain a specific string xx (where x is a single digit).
 
-The programs for A395831, the canonical program `A395831.P5367024056611957966` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395831 has offset 0).
+The programs for A395831, the canonical program `A395831.P5367024056611957966` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395831 has offset 0).
 
 The definition of A395831 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1515,7 +1516,7 @@ The definition of A395831 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x)/(1-7x-7x^2))`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395831
@@ -1654,7 +1655,7 @@ end A395831
 /-!
 # A395832: Number of hexadecimal strings of length n that do not contain a specific string xx (where x is a single digit).
 
-The programs for A395832, the canonical program `A395832.P1538237766821388229` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395832 has offset 0).
+The programs for A395832, the canonical program `A395832.P1538237766821388229` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395832 has offset 0).
 
 The definition of A395832 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1663,7 +1664,7 @@ The definition of A395832 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x)/(1-15x-15x^2))`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395832
@@ -1851,7 +1852,7 @@ end A395835.P1877842422894071891
 /-!
 # A395839: G.f. 10*C(x)^2 - C(x), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).
 
-The programs for A395839, the canonical program `A395839.P5228573350943917225` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395839 has offset 0).
+The programs for A395839, the canonical program `A395839.P5228573350943917225` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395839 has offset 0).
 
 The definition of A395839 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1860,7 +1861,7 @@ The definition of A395839 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*C(2*n+2, n)/(n+1)-C(2*n+1, n)/(2*n+1)`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A395839

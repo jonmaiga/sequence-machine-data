@@ -1108,26 +1108,26 @@ def P10703061986127207226.Spec : Prop :=
 
 end A093907
 
-/-! ## A093907.P17511723664919308627
+/-! ## A093907.P12412912422766485955
 
-`A116471(n+2)`
+`A265225(n)+A097362(n+1)`
 -/
 
-namespace A093907.P17511723664919308627
+namespace A093907.P12412912422766485955
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116471 (n + 2)
+  A265225 n + A097362 (n + 1)
 
 end
 
-end A093907.P17511723664919308627
+end A093907.P12412912422766485955
 
 namespace A093907
 
-/-- `A116471(n+2)` -/
-def P17511723664919308627.Spec : Prop :=
-  ∀ n, P17511723664919308627.a n = A093907 (n + 1)
+/-- `A265225(n)+A097362(n+1)` -/
+def P12412912422766485955.Spec : Prop :=
+  ∀ n, P12412912422766485955.a n = A093907 (n + 1)
 
 end A093907
 
@@ -1461,36 +1461,6 @@ end A093913.P15776092037373187872
 The programs for A093914, there is no canonical definition to state claims against.
 -/
 
-/-! ## A093914.P5656258509565671380
-
-`ceil(2/(A087263(A331743(n))+1))`
--/
-
-namespace A093914.P5656258509565671380
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈2 / (A087263 (A331743 n).toNat + 1 : ℚ)⌉
-
-end
-
-end A093914.P5656258509565671380
-
-/-! ## A093914.P16575191859109449473
-
-`A054977(A087263(A331743(n)))`
--/
-
-namespace A093914.P16575191859109449473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054977 (A087263 (A331743 n).toNat).toNat
-
-end
-
-end A093914.P16575191859109449473
-
 /-! ## A093914.P4538090263555928602
 
 `A007895(A000120(A298034(n)))`
@@ -1535,6 +1505,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A093914.P5274570659138092452
+
+/-! ## A093914.P7140508191612523792
+
+`A277330(A067029(A028234(A277330(2*n))))`
+-/
+
+namespace A093914.P7140508191612523792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277330 (A067029 (A028234 (A277330 (2 * n)).toNat).toNat).toNat
+
+end
+
+end A093914.P7140508191612523792
+
+/-! ## A093914.P7531258961841060192
+
+`gcd(2, A296163(n))`
+-/
+
+namespace A093914.P7531258961841060192
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd 2 (A296163 n)
+
+end
+
+end A093914.P7531258961841060192
 
 /-!
 # A093915: Triangle with r-th row containing r consecutive integers that sum to the smallest possible proper multiple of A006003(r).
@@ -3032,6 +3032,21 @@ end A093918
 
 The programs for A093919, there is no canonical definition to state claims against.
 -/
+
+/-! ## A093919.P4305457733554208822
+
+`A399050(A038722(n+1))`
+-/
+
+namespace A093919.P4305457733554208822
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A399050 (A038722 (n + 1)).toNat
+
+end
+
+end A093919.P4305457733554208822
 
 /-! ## A093919.P5700289485178188771
 
@@ -6782,55 +6797,55 @@ def P16848236995463922477.Spec : Prop :=
 
 end A093964
 
-/-! ## A093964.P15482566100471396625
+/-! ## A093964.P2788540211794786895
 
-`∑{#}[n, C(n, #)*#!*#]`
+`∑{#}[n, C(n, #)*#*#!]`
 -/
 
-namespace A093964.P15482566100471396625
+namespace A093964.P2788540211794786895
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.factorial k * k
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * (k * Nat.factorial k)
 
 end
 
-end A093964.P15482566100471396625
+end A093964.P2788540211794786895
 
 namespace A093964
 
-/-- `∑{#}[n, C(n, #)*#!*#]` -/
-def P15482566100471396625.Spec : Prop :=
-  ∀ n, (P15482566100471396625.a n : ℤ) = A093964 n
+/-- `∑{#}[n, C(n, #)*#*#!]` -/
+def P2788540211794786895.Spec : Prop :=
+  ∀ n, (P2788540211794786895.a n : ℤ) = A093964 n
 
 end A093964
 
-/-! ## A093964.P780215720361404929
+/-! ## A093964.P8717524148898249049
 
-`∑{#}[n, n!/#!*(n-#)]`
+`∑{#}[n, (n-#)*n!/#!]`
 -/
 
-namespace A093964.P780215720361404929
+namespace A093964.P8717524148898249049
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial n : ℚ) / (Nat.factorial k : ℚ) * ((n : ℤ) - (k : ℤ) : ℚ)
+  ∑ k ∈ Finset.range (f1 n + 1), ((n : ℤ) - (k : ℤ) : ℚ) * ((Nat.factorial n : ℚ) / (Nat.factorial k : ℚ))
 
 end
 
-end A093964.P780215720361404929
+end A093964.P8717524148898249049
 
 namespace A093964
 
-/-- `∑{#}[n, n!/#!*(n-#)]` -/
-def P780215720361404929.Spec : Prop :=
-  ∀ n, P780215720361404929.a n = (A093964 n : ℚ)
+/-- `∑{#}[n, (n-#)*n!/#!]` -/
+def P8717524148898249049.Spec : Prop :=
+  ∀ n, P8717524148898249049.a n = (A093964 n : ℚ)
 
 end A093964
 

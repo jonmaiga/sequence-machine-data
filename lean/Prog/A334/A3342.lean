@@ -3877,6 +3877,21 @@ end
 
 end A334216.P11966431891837883439
 
+/-! ## A334216.P766913387819919241
+
+`A001221(A293514(n+1))+1`
+-/
+
+namespace A334216.P766913387819919241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A293514 (n + 1)).toNat + 1
+
+end
+
+end A334216.P766913387819919241
+
 /-!
 # A334217: Irregular table T(n, k) read by rows, n > 0 and k = 1..A334216(n); n-th row corresponds to distinct terms of n-th row of A334215, in ascending order.
 

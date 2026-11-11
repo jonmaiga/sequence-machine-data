@@ -8161,6 +8161,29 @@ def P13530674251825785076.Spec : Prop :=
 
 end A228669
 
+/-! ## A228669.P5391239243229000699
+
+`A390532(A131694(n+2))`
+-/
+
+namespace A228669.P5391239243229000699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A131694 (n + 2)).toNat
+
+end
+
+end A228669.P5391239243229000699
+
+namespace A228669
+
+/-- `A390532(A131694(n+2))` -/
+def P5391239243229000699.Spec : Prop :=
+  ∀ n, P5391239243229000699.a n = A228669 (n + 1)
+
+end A228669
+
 /-!
 # A228670: Number of permutations of [n] having a shortest ascending run of length 3.
 

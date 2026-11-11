@@ -2,6 +2,7 @@
   "description": "Number of preferential arrangements of n labeled elements with repetitions allowed.",
   "id": "A213048",
   "mentions": [
+    "A000108",
     "A000670"
   ],
   "tags": [

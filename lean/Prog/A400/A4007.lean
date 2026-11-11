@@ -16,7 +16,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C030
@@ -667,6 +666,105 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A400709.P458734386494951642
+
+/-!
+# A400711: Row n = 1 of the array in A400710.
+
+The programs for A400711, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400711.P6532230473253285237
+
+`A400712(2*n)/2`
+-/
+
+namespace A400711.P6532230473253285237
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A400712 (2 * n) : ℚ) / 2
+
+end
+
+end A400711.P6532230473253285237
+
+/-! ## A400711.P15637604809016624707
+
+`A400710(∑[n+1]+1)`
+-/
+
+namespace A400711.P15637604809016624707
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400710 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A400711.P15637604809016624707
+
+/-!
+# A400712: Row n = 2 of the array in A400710.
+
+The programs for A400712, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400712.P5918126562428575321
+
+`A400710(∑[n+3])`
+-/
+
+namespace A400712.P5918126562428575321
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400710 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A400712.P5918126562428575321
+
+/-! ## A400712.P5293618120798805766
+
+`A010141(∑[n+1]²)+n`
+-/
+
+namespace A400712.P5293618120798805766
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010141 ((∑ j ∈ Finset.range (n + 1), f1 j) ^ 2) + (n : ℤ)
+
+end
+
+end A400712.P5293618120798805766
+
+/-! ## A400712.P18159607917419228527
+
+`A040048(∑[n+1]²)+n`
+-/
+
+namespace A400712.P18159607917419228527
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040048 ((∑ j ∈ Finset.range (n + 1), f1 j) ^ 2) + (n : ℤ)
+
+end
+
+end A400712.P18159607917419228527
 
 /-!
 # A400715: Number of 9-regular labeled graphs on 2n nodes.
@@ -2681,6 +2779,27 @@ end
 
 end A400765.P14294766073976557290
 
+/-! ## A400765.P12216715203800501732
+
+`eq[A001285(n), A141707(n+1)]`
+-/
+
+namespace A400765.P12216715203800501732
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001285 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141707 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A400765.P12216715203800501732
+
 /-!
 # A400766: Numbers k such that the k-th composition in standard order is an odd-length palindrome. Positions of odd-length palindromes in A066099.
 
@@ -4353,6 +4472,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400784.P4838480749848936761
+
+/-!
+# A400790: Array read by antidiagonals: A(n,k) is number of unordered k-element sets of partitions summing to n.
+
+The programs for A400790, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400790.P14959367608169687036
+
+`A374992(A306800(n))`
+-/
+
+namespace A400790.P14959367608169687036
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374992 (A306800 n).toNat
+
+end
+
+end A400790.P14959367608169687036
 
 /-!
 # A400791: a(n) = Sum_{d|n, d >= 4} d * floor((d - 2)/2).

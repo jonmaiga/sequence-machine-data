@@ -31,7 +31,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -3650,6 +3649,29 @@ def P17807647236161955567.Spec : Prop :=
 
 end A274230
 
+/-! ## A274230.P5208888390104476352
+
+`2^n-(2+n%2)*2^floor(n/2)+1`
+-/
+
+namespace A274230.P5208888390104476352
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) - ((2 + n % 2 : ℕ) : ℚ) * (2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ) + 1
+
+end
+
+end A274230.P5208888390104476352
+
+namespace A274230
+
+/-- `2^n-(2+n%2)*2^floor(n/2)+1` -/
+def P5208888390104476352.Spec : Prop :=
+  ∀ n, P5208888390104476352.a n = (A274230 n : ℚ)
+
+end A274230
+
 /-! ## A274230.P13322121505138706985
 
 `∑[A233411(n)/2]`
@@ -4001,29 +4023,6 @@ namespace A274230
 /-- `A233411(n)+1-A016116(n)` -/
 def P10022030515469699806.Spec : Prop :=
   ∀ n, P10022030515469699806.a n = A274230 n
-
-end A274230
-
-/-! ## A274230.P7366354204000276019
-
-`A052548(n)-A209721(n+1)`
--/
-
-namespace A274230.P7366354204000276019
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052548 n - A209721 (n + 1)
-
-end
-
-end A274230.P7366354204000276019
-
-namespace A274230
-
-/-- `A052548(n)-A209721(n+1)` -/
-def P7366354204000276019.Spec : Prop :=
-  ∀ n, P7366354204000276019.a n = A274230 n
 
 end A274230
 

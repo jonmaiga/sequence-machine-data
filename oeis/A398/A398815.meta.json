@@ -1,0 +1,20 @@
+{
+  "description": "Number of strongly connected digraphs on n labeled nodes that are reducible as a flow graph rooted at no node.",
+  "id": "A398815",
+  "mentions": [
+    "A003030",
+    "A397470",
+    "A398465",
+    "A400123",
+    "A401321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

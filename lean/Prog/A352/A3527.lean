@@ -20,7 +20,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
@@ -6028,21 +6027,6 @@ end A352760.P6460512374679840941
 The programs for A352766, there is no canonical definition to state claims against.
 -/
 
-/-! ## A352766.P8985440617350579347
-
-`A351006(floor((9/4)^n)-1)`
--/
-
-namespace A352766.P8985440617350579347
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (⌊((9 : ℚ) / 4) ^ n⌋ - 1).toNat
-
-end
-
-end A352766.P8985440617350579347
-
 /-! ## A352766.P17627659380285067763
 
 `filter[A248822(n+2), A284957(#)]`
@@ -7387,6 +7371,29 @@ theorem P16498290387158651070.correct : P16498290387158651070.Spec := by
 
 end A352779
 
+/-! ## A352779.P16576252106407115894
+
+`3^n*cos(π*n)`
+-/
+
+namespace A352779.P16576252106407115894
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (3 ^ n : ℝ) * Real.cos (Real.pi * (n : ℝ))
+
+end
+
+end A352779.P16576252106407115894
+
+namespace A352779
+
+/-- `3^n*cos(π*n)` -/
+def P16576252106407115894.Spec : Prop :=
+  ∀ n, P16576252106407115894.a n = (A352779 n : ℝ)
+
+end A352779
+
 /-! ## A352779.P18107673650571823987
 
 `9*a(n-2)` with `a(0)=1, a(1)=-3`
@@ -7715,29 +7722,6 @@ namespace A352779
 /-- `3^n*A062157(n+1)` -/
 def P8797408726458989773.Spec : Prop :=
   ∀ n, P8797408726458989773.a n = A352779 n
-
-end A352779
-
-/-! ## A352779.P11509615866732103541
-
-`3^n*A165326(n+1)`
--/
-
-namespace A352779.P11509615866732103541
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 ^ n : ℤ) * A165326 (n + 1)
-
-end
-
-end A352779.P11509615866732103541
-
-namespace A352779
-
-/-- `3^n*A165326(n+1)` -/
-def P11509615866732103541.Spec : Prop :=
-  ∀ n, P11509615866732103541.a n = A352779 n
 
 end A352779
 

@@ -28,6 +28,7 @@ import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
@@ -2347,6 +2348,21 @@ end
 
 end A376939.P10943206501611860638
 
+/-! ## A376939.P2241040517483393237
+
+`A001222(A376938(n+1))`
+-/
+
+namespace A376939.P2241040517483393237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (A376938 (n + 1)).toNat
+
+end
+
+end A376939.P2241040517483393237
+
 /-! ## A376939.P8718477138914080174
 
 `∑{d}[A376938(n+1), A001221(#)]`
@@ -2365,51 +2381,6 @@ end
 
 end A376939.P8718477138914080174
 
-/-! ## A376939.P2177471439718683050
-
-`A001222(A376938(floor(sqrt((n+1)²-1))+1))`
--/
-
-namespace A376939.P2177471439718683050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A376938 (Int.sqrt (((n + 1) ^ 2 : ℤ) - 1) + 1).toNat).toNat
-
-end
-
-end A376939.P2177471439718683050
-
-/-! ## A376939.P18130501739230784448
-
-`A001222(A376938(n+1))%A000124(n)`
--/
-
-namespace A376939.P18130501739230784448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A001222 (A376938 (n + 1)).toNat) (A000124 n)
-
-end
-
-end A376939.P18130501739230784448
-
-/-! ## A376939.P15915703068632360485
-
-`A001222(A376938(n+1)%A041802(n))`
--/
-
-namespace A376939.P15915703068632360485
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (Int.tmod (A376938 (n + 1)) (A041802 n)).toNat
-
-end
-
-end A376939.P15915703068632360485
-
 /-! ## A376939.P2950503886529000366
 
 `A051903(A376938(n+1))%A003215(n)`
@@ -2424,21 +2395,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376939.P2950503886529000366
-
-/-! ## A376939.P339404365700194899
-
-`A001222(A376938(n+1)+A000007(n+3))`
--/
-
-namespace A376939.P339404365700194899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A376938 (n + 1) + A000007 (n + 3)).toNat
-
-end
-
-end A376939.P339404365700194899
 
 /-! ## A376939.P2950132010142058215
 

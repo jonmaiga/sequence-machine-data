@@ -26,6 +26,7 @@ import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
@@ -65,6 +66,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C002
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -458,6 +460,29 @@ def P5541409373208948596.Spec : Prop :=
 
 end A390111
 
+/-! ## A390111.P17726174034425116235
+
+`C(2*n+1, n+1)+2*C(2*(n+1), n+1)-C(2*n+3, n)`
+-/
+
+namespace A390111.P17726174034425116235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 * n + 1) (n + 1) + 2 * Nat.choose (2 * (n + 1)) (n + 1) : ℤ) - (Nat.choose (2 * n + 3) n : ℤ)
+
+end
+
+end A390111.P17726174034425116235
+
+namespace A390111
+
+/-- `C(2*n+1, n+1)+2*C(2*(n+1), n+1)-C(2*n+3, n)` -/
+def P17726174034425116235.Spec : Prop :=
+  ∀ n, P17726174034425116235.a n = A390111 (n + 2)
+
+end A390111
+
 /-!
 # A390113: Numbers i >= 1 such that 1/t_i + 1/t_j = 1/t_k, i > j > k, where t_r = r*(r+1)/2 is the r-th triangular number (A000217).
 
@@ -668,6 +693,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A390117.P16713310861269393601
+
+/-! ## A390117.P1724419097705164175
+
+`A307907(A213820(n+2))`
+-/
+
+namespace A390117.P1724419097705164175
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307907 (A213820 (n + 2)).toNat
+
+end
+
+end A390117.P1724419097705164175
 
 /-!
 # A390118: Least positive integer m such that m*n + 1 = p^2 for some prime number p.
@@ -4234,6 +4274,29 @@ def P12329344794193033013.Spec : Prop :=
 
 end A390190
 
+/-! ## A390190.P8105687361299616931
+
+`5*A173299(2*n+1)`
+-/
+
+namespace A390190.P8105687361299616931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * A173299 (2 * n + 1)
+
+end
+
+end A390190.P8105687361299616931
+
+namespace A390190
+
+/-- `5*A173299(2*n+1)` -/
+def P8105687361299616931.Spec : Prop :=
+  ∀ n, P8105687361299616931.a n = A390190 n
+
+end A390190
+
 /-! ## A390190.P12847653527018330070
 
 `A082841(n+1)-2*A003500(n)`
@@ -4346,29 +4409,6 @@ namespace A390190
 /-- `A001352(n+1)+A001834(n)-A003500(n)` -/
 def P9243997924562589885.Spec : Prop :=
   ∀ n, P9243997924562589885.a n = A390190 n
-
-end A390190
-
-/-! ## A390190.P8105687361299616931
-
-`5*A173299(2*n+1)`
--/
-
-namespace A390190.P8105687361299616931
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * A173299 (2 * n + 1)
-
-end
-
-end A390190.P8105687361299616931
-
-namespace A390190
-
-/-- `5*A173299(2*n+1)` -/
-def P8105687361299616931.Spec : Prop :=
-  ∀ n, P8105687361299616931.a n = A390190 n
 
 end A390190
 

@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -3802,35 +3801,35 @@ end
 
 end A394258.P491711344517584961
 
-/-! ## A394258.P8390997714356727242
+/-! ## A394258.P16261510891567419567
 
-`A307701(A158384(n+1))`
+`A334194(A396456(n+2)-1)`
 -/
 
-namespace A394258.P8390997714356727242
+namespace A394258.P16261510891567419567
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307701 (A158384 (n + 1)).toNat
+  A334194 (A396456 (n + 2) - 1).toNat
 
 end
 
-end A394258.P8390997714356727242
+end A394258.P16261510891567419567
 
-/-! ## A394258.P2595303245422267144
+/-! ## A394258.P14507871596296284498
 
-`A156724(A393096(n+1))`
+`A342654(A396456(n+2))`
 -/
 
-namespace A394258.P2595303245422267144
+namespace A394258.P14507871596296284498
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156724 (A393096 (n + 1)).toNat
+  A342654 (A396456 (n + 2)).toNat
 
 end
 
-end A394258.P2595303245422267144
+end A394258.P14507871596296284498
 
 /-!
 # A394261: Expansion of Product_{k>=1} (1 + x^(2*k^2+1)) / (1 - x^(2*k^2+1)).

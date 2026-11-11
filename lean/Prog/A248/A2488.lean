@@ -1589,6 +1589,29 @@ def P6751399095337654158.Spec : Prop :=
 
 end A248806
 
+/-! ## A248806.P988985779734031542
+
+`A022297(n+2)-A013947(n+1)`
+-/
+
+namespace A248806.P988985779734031542
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022297 (n + 2) - A013947 (n + 1)
+
+end
+
+end A248806.P988985779734031542
+
+namespace A248806
+
+/-- `A022297(n+2)-A013947(n+1)` -/
+def P988985779734031542.Spec : Prop :=
+  ∀ n, P988985779734031542.a n = A248806 (n + 1)
+
+end A248806
+
 /-! ## A248806.P4990340840844039326
 
 `Δ[eq[0, A123594(n+1)]]-1`
@@ -9035,24 +9058,6 @@ end A248898.P6499018215351434370
 
 The programs for A248899, there is no canonical definition to state claims against.
 -/
-
-/-! ## A248899.P436668918482155691
-
-`A029968(∑[A265508(n)!])`
--/
-
-namespace A248899.P436668918482155691
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (A265508 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029968 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A248899.P436668918482155691
 
 /-! ## A248899.P12076614215655985531
 

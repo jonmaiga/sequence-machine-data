@@ -2,7 +2,8 @@
   "description": "Bisection of A001414.",
   "id": "A100005",
   "mentions": [
-    "A001414"
+    "A001414",
+    "A100006"
   ],
   "tags": [
     "easy",

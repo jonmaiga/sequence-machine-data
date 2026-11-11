@@ -2920,6 +2920,32 @@ def P15062704197712392861.Spec : Prop :=
 
 end A124642
 
+/-! ## A124642.P7930808523296826163
+
+`∑{#}[n-ceil(n/2), (-1)^(n-(#+ceil(n/2)))*C(#+ceil(n/2), n-#)]`
+-/
+
+namespace A124642.P7930808523296826163
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ⌈(n : ℚ) / 2⌉
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1 : ℚ) ^ ((n : ℤ) - ((k : ℤ) + ⌈(n : ℚ) / 2⌉) : ℤ) * (Nat.choose ((k : ℤ) + ⌈(n : ℚ) / 2⌉).toNat ((n : ℤ) - (k : ℤ)).toNat : ℚ)
+
+end
+
+end A124642.P7930808523296826163
+
+namespace A124642
+
+/-- `∑{#}[n-ceil(n/2), (-1)^(n-(#+ceil(n/2)))*C(#+ceil(n/2), n-#)]` -/
+def P7930808523296826163.Spec : Prop :=
+  ∀ n, P7930808523296826163.a n = (A124642 n : ℚ)
+
+end A124642
+
 /-!
 # A124643: Primes of the form p = k*10^m - 1 where k is 3, 6 or 9, such that p+2 is also a prime.
 

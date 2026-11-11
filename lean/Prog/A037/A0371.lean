@@ -30,6 +30,7 @@ import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -8387,6 +8388,29 @@ def P10487473834375221653.Spec : Prop :=
 
 end A037166
 
+/-! ## A037166.P9645601218184365449
+
+`A014303(n+1)+A014303(n+1)`
+-/
+
+namespace A037166.P9645601218184365449
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014303 (n + 1) + A014303 (n + 1)
+
+end
+
+end A037166.P9645601218184365449
+
+namespace A037166
+
+/-- `A014303(n+1)+A014303(n+1)` -/
+def P9645601218184365449.Spec : Prop :=
+  ∀ n, P9645601218184365449.a n = A037166 (n + 1)
+
+end A037166
+
 /-! ## A037166.P12521151501579814613
 
 `A037167(n+1)+A001223(n+1)`
@@ -8812,29 +8836,6 @@ theorem P9300646131394463445.correct : P9300646131394463445.Spec := by
   simp only [A037166, Nat.add_sub_cancel, A037166.P9300646131394463445.a, A037166.P14619227700024520226.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A154115, A154115.P220062109648616098.a, A086801, A086801.P17699144881820784956.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
-
-end A037166
-
-/-! ## A037166.P6544516259289822045
-
-`2*A000040(n+1)*A005097(n+1)`
--/
-
-namespace A037166.P6544516259289822045
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A000040 (n + 1) * A005097 (n + 1))
-
-end
-
-end A037166.P6544516259289822045
-
-namespace A037166
-
-/-- `2*A000040(n+1)*A005097(n+1)` -/
-def P6544516259289822045.Spec : Prop :=
-  ∀ n, P6544516259289822045.a n = A037166 (n + 1)
 
 end A037166
 

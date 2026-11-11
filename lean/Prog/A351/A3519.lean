@@ -1728,27 +1728,6 @@ end
 
 end A351924.P6506314204013459987
 
-/-! ## A351924.P4495928600034885688
-
-`lt[A087133(A087135(n+2)), A087165(2*n+5)]`
--/
-
-namespace A351924.P4495928600034885688
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087133 (A087135 (n + 2)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087165 (2 * n + 5)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A351924.P4495928600034885688
-
 /-! ## A351924.P13637457563564355987
 
 `A089401(∪[A339036(2*(n+2)), A002244(3*(n+1))])`
@@ -6919,21 +6898,6 @@ end
 
 end A351963.P3958136642906395633
 
-/-! ## A351963.P14686478979769954681
-
-`A385887(4*A109812(n+1))`
--/
-
-namespace A351963.P14686478979769954681
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385887 (4 * A109812 (n + 1)).toNat
-
-end
-
-end A351963.P14686478979769954681
-
 /-!
 # A351964: The 2-adic valuation of A109812(n); The exponent of the highest power of 2 dividing A109812(n).
 
@@ -8375,26 +8339,26 @@ def P14672425971595624175.Spec : Prop :=
 
 end A351979
 
-/-! ## A351979.P4730927666568088579
+/-! ## A351979.P16378633387619532126
 
-`A000290(2*A066208(n+1)-A066208(n+1))`
+`A000290(A066208(n+1))`
 -/
 
-namespace A351979.P4730927666568088579
+namespace A351979.P16378633387619532126
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (2 * A066208 (n + 1) - A066208 (n + 1)).toNat
+  A000290 (A066208 (n + 1)).toNat
 
 end
 
-end A351979.P4730927666568088579
+end A351979.P16378633387619532126
 
 namespace A351979
 
-/-- `A000290(2*A066208(n+1)-A066208(n+1))` -/
-def P4730927666568088579.Spec : Prop :=
-  ∀ n, P4730927666568088579.a n = A351979 (n + 1)
+/-- `A000290(A066208(n+1))` -/
+def P16378633387619532126.Spec : Prop :=
+  ∀ n, P16378633387619532126.a n = A351979 (n + 1)
 
 end A351979
 

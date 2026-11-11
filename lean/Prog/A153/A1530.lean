@@ -13315,26 +13315,26 @@ def P11188137784455472774.Spec : Prop :=
 
 end A153056
 
-/-! ## A153056.P5633021101859426795
+/-! ## A153056.P13683631771245992034
 
-`C(n+2, 3)+C(n+1, 3)+2`
+`2+C(n+1, 3)+C(n+2, 3)`
 -/
 
-namespace A153056.P5633021101859426795
+namespace A153056.P13683631771245992034
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 2) 3 + Nat.choose (n + 1) 3 + 2
+  2 + Nat.choose (n + 1) 3 + Nat.choose (n + 2) 3
 
 end
 
-end A153056.P5633021101859426795
+end A153056.P13683631771245992034
 
 namespace A153056
 
-/-- `C(n+2, 3)+C(n+1, 3)+2` -/
-def P5633021101859426795.Spec : Prop :=
-  ∀ n, (P5633021101859426795.a n : ℤ) = A153056 n
+/-- `2+C(n+1, 3)+C(n+2, 3)` -/
+def P13683631771245992034.Spec : Prop :=
+  ∀ n, (P13683631771245992034.a n : ℤ) = A153056 n
 
 end A153056
 
@@ -14396,14 +14396,14 @@ end A153058
 /-!
 # A153059: a(0) = 0, a(n) = a(n-1)^2 - n.
 
-The programs for A153059, the canonical program `A153059.P13125122068457758936` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153059 has offset 0).
+The programs for A153059, the canonical program `A153059.P1729481051978162579` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153059 has offset 0).
 
-The definition of A153059 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)²-n` (program `A153059.P13125122068457758936`, by `A153059.P13125122068457758936.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A153059 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)²-n` (program `A153059.P1729481051978162579`, by `A153059.P1729481051978162579.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A153059.P13125122068457758936
+/-! ## A153059.P1729481051978162579
 
-`a(n-1)²-n` with `a(0)=0`
+`a(n-1)²-n` with `a(0)=0, a(1)=-1, a(2)=-1, a(3)=-2, a(4)=0`
 
 The canonical program, it is in `Seq.B000.C025`.
 -/
@@ -14411,10 +14411,10 @@ The canonical program, it is in `Seq.B000.C025`.
 namespace A153059
 
 /-- `a(n-1)²-n` -/
-def P13125122068457758936.Spec : Prop :=
-  ∀ n, P13125122068457758936.a n = A153059 n
+def P1729481051978162579.Spec : Prop :=
+  ∀ n, P1729481051978162579.a n = A153059 n
 
-theorem P13125122068457758936.correct : P13125122068457758936.Spec := by
+theorem P1729481051978162579.correct : P1729481051978162579.Spec := by
   intro n
   simp only [A153059]
 
@@ -14441,10 +14441,6 @@ namespace A153059
 def P17574471021461397993.Spec : Prop :=
   ∀ n, P17574471021461397993.a n = A153059 n
 
-theorem P17574471021461397993.correct : P17574471021461397993.Spec := by
-  intro n
-  simp only [A153059, Nat.add_sub_cancel, A153059.P17574471021461397993.a, A153059.P13125122068457758936.a, SequenceMachineLib.memo_apply]
-
 end A153059
 
 /-! ## A153059.P2784711603053669189
@@ -14468,12 +14464,6 @@ namespace A153059
 def P2784711603053669189.Spec : Prop :=
   ∀ n, P2784711603053669189.a n = A153059 n
 
-theorem P2784711603053669189.correct : P2784711603053669189.Spec := by
-  intro n
-  simp only [A153059, Nat.add_sub_cancel, A153059.P2784711603053669189.a, A153059.P13125122068457758936.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
-
 end A153059
 
 /-! ## A153059.P16617102873570413952
@@ -14496,6 +14486,29 @@ namespace A153059
 /-- `floor(a(n-1)/acot(a(n-1)))-n` -/
 def P16617102873570413952.Spec : Prop :=
   ∀ n, P16617102873570413952.a n = A153059 n
+
+end A153059
+
+/-! ## A153059.P17768837429344875172
+
+`root(a(n-1)²², 2)-n` with `a(0)=0`
+-/
+
+namespace A153059.P17768837429344875172
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.rec [0] fun n a =>
+  ((a (n - 1) ^ 2) ^ 2) ^ (1 / (2 : ℝ)) - (n : ℝ)
+
+end
+
+end A153059.P17768837429344875172
+
+namespace A153059
+
+/-- `root(a(n-1)²², 2)-n` -/
+def P17768837429344875172.Spec : Prop :=
+  ∀ n, P17768837429344875172.a n = (A153059 n : ℝ)
 
 end A153059
 

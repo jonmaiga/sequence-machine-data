@@ -1038,20 +1038,20 @@ end
 
 end A342510.P14273341721060285321
 
-/-! ## A342510.P10746928378623126723
+/-! ## A342510.P1340455666812880625
 
-`A055642(A307629(A138953((2*n+1)²)))`
+`A066272(A066241(A063547(A066241(A073713(n+1)))))`
 -/
 
-namespace A342510.P10746928378623126723
+namespace A342510.P1340455666812880625
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055642 (A307629 (A138953 ((2 * n + 1) ^ 2)).toNat).toNat
+  A066272 (A066241 (A063547 (A066241 (A073713 (n + 1)).toNat).toNat).toNat).toNat
 
 end
 
-end A342510.P10746928378623126723
+end A342510.P1340455666812880625
 
 /-!
 # A342512: a(n) is the number of substrings of the binary representation of n that are instances of the Zimin word Z_k, where k = A342510(n).
@@ -1136,6 +1136,21 @@ end A342512.P14619254497669677686
 
 The programs for A342514, there is no canonical definition to state claims against.
 -/
+
+/-! ## A342514.P14146711584472271307
+
+`A400464(A325330(n))`
+-/
+
+namespace A342514.P14146711584472271307
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A400464 (A325330 n).toNat
+
+end
+
+end A342514.P14146711584472271307
 
 /-! ## A342514.P11473053368866555676
 
@@ -6013,30 +6028,30 @@ theorem P11895055850012896166.correct : P11895055850012896166.Spec := by
 
 end A342573
 
-/-! ## A342573.P18108597228096682203
+/-! ## A342573.P11012454402632029575
 
-`n!^n*(n+1)!`
+`(n+1)!*n!^n`
 -/
 
-namespace A342573.P18108597228096682203
+namespace A342573.P11012454402632029575
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n ^ n * Nat.factorial (n + 1)
+  Nat.factorial (n + 1) * Nat.factorial n ^ n
 
 end
 
-end A342573.P18108597228096682203
+end A342573.P11012454402632029575
 
 namespace A342573
 
-/-- `n!^n*(n+1)!` -/
-def P18108597228096682203.Spec : Prop :=
-  ∀ n, (P18108597228096682203.a n : ℤ) = A342573 (n + 1)
+/-- `(n+1)!*n!^n` -/
+def P11012454402632029575.Spec : Prop :=
+  ∀ n, (P11012454402632029575.a n : ℤ) = A342573 (n + 1)
 
-theorem P18108597228096682203.correct : P18108597228096682203.Spec := by
+theorem P11012454402632029575.correct : P11012454402632029575.Spec := by
   intro n
-  simp only [A342573, Nat.add_sub_cancel, A342573.P18108597228096682203.a, A342573.P11895055850012896166.a, SequenceMachineLib.memo_apply]
+  simp only [A342573, Nat.add_sub_cancel, A342573.P11012454402632029575.a, A342573.P11895055850012896166.a, SequenceMachineLib.memo_apply]
   try norm_num [Nat.choose_two_right, Nat.factorial]
   try ring_nf
 
@@ -7324,24 +7339,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A342597.P5994104155494901935
-
-/-! ## A342597.P1868794491112752285
-
-`∑[and(A175357(n+1), A175385(2*(n+2)))]`
--/
-
-namespace A342597.P1868794491112752285
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A175357 (n + 1)) (A175385 (2 * (n + 2)))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A342597.P1868794491112752285
 
 /-! ## A342597.P13120211620928131089
 

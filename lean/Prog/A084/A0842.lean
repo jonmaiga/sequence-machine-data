@@ -925,6 +925,29 @@ def P15165870891165054951.Spec : Prop :=
 
 end A084213
 
+/-! ## A084213.P13477413139536632750
+
+`A003947(n)-A131577(n)`
+-/
+
+namespace A084213.P13477413139536632750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003947 n - A131577 n
+
+end
+
+end A084213.P13477413139536632750
+
+namespace A084213
+
+/-- `A003947(n)-A131577(n)` -/
+def P13477413139536632750.Spec : Prop :=
+  ∀ n, P13477413139536632750.a n = A084213 n
+
+end A084213
+
 /-! ## A084213.P16943444740817955441
 
 `lcm(A011782(n), A052549(n))`
@@ -1135,29 +1158,6 @@ namespace A084213
 /-- `A257113(Δ[n²])-A011782(n)` -/
 def P2855591154853151801.Spec : Prop :=
   ∀ n, P2855591154853151801.a n = A084213 n
-
-end A084213
-
-/-! ## A084213.P120304974956721121
-
-`A171479(n)-(1-A003945(n))²`
--/
-
-namespace A084213.P120304974956721121
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171479 n - (1 - A003945 n) ^ 2
-
-end
-
-end A084213.P120304974956721121
-
-namespace A084213
-
-/-- `A171479(n)-(1-A003945(n))²` -/
-def P120304974956721121.Spec : Prop :=
-  ∀ n, P120304974956721121.a n = A084213 n
 
 end A084213
 
@@ -2980,6 +2980,29 @@ def P3350989204624421394.Spec : Prop :=
 
 end A084221
 
+/-! ## A084221.P15811535001563415206
+
+`2^n+2^(n-1)*n%2`
+-/
+
+namespace A084221.P15811535001563415206
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) + (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * ((n % 2 : ℕ) : ℚ)
+
+end
+
+end A084221.P15811535001563415206
+
+namespace A084221
+
+/-- `2^n+2^(n-1)*n%2` -/
+def P15811535001563415206.Spec : Prop :=
+  ∀ n, P15811535001563415206.a n = (A084221 n : ℚ)
+
+end A084221
+
 /-! ## A084221.P4886355706177349471
 
 `∑[2^∑[2-a(n-1)]]` with `a(0)=0, a(1)=1, a(2)=-1`
@@ -3204,29 +3227,6 @@ namespace A084221
 /-- `record[abs(A138377(n+1))]` -/
 def P14914051796966724650.Spec : Prop :=
   ∀ n, P14914051796966724650.a n = A084221 n
-
-end A084221
-
-/-! ## A084221.P9818089092681229758
-
-`2^(n-1)*A010693(n)`
--/
-
-namespace A084221.P9818089092681229758
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (A010693 n : ℚ)
-
-end
-
-end A084221.P9818089092681229758
-
-namespace A084221
-
-/-- `2^(n-1)*A010693(n)` -/
-def P9818089092681229758.Spec : Prop :=
-  ∀ n, P9818089092681229758.a n = (A084221 n : ℚ)
 
 end A084221
 
@@ -7667,6 +7667,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A084253.P15812250232191994465
+
+/-! ## A084253.P2030125473283780270
+
+`A001710(n)*A345708(2*n+1)`
+-/
+
+namespace A084253.P2030125473283780270
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001710 n * A345708 (2 * n + 1)
+
+end
+
+end A084253.P2030125473283780270
 
 /-!
 # A084255: Decimal expansion of continued fraction 1/(2+1/(3+1/(5+1/(7+1/(11+...))))).

@@ -6344,6 +6344,28 @@ end
 
 end A004853.P15405913084272764561
 
+/-! ## A004853.P69600877666003200
+
+`∩[A004854(n+1), A045980(n+1)]`
+-/
+
+namespace A004853.P69600877666003200
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004854 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045980 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A004853.P69600877666003200
+
 /-!
 # A004854: Numbers that are the sum of at most 3 nonzero 6th powers.
 

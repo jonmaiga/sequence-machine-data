@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to cut a nonempty Dyck word into a prefix and a suffix with both lengths at most n and of the same parity as n.",
+  "id": "A401693",
+  "mentions": [
+    "A000108",
+    "A000682",
+    "A001700",
+    "A005315",
+    "A005316",
+    "A007310",
+    "A014137",
+    "A014140",
+    "A401694"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

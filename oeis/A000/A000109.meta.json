@@ -18,13 +18,12 @@
     "core",
     "formulas",
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of orange squares after n unfoldings in the edge-memory unfolding array.",
+  "id": "A401293",
+  "mentions": [
+    "A027556",
+    "A401290"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

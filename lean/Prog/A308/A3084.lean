@@ -533,6 +533,21 @@ end
 
 end A308412.P3100503647101817830
 
+/-! ## A308412.P11926596554305671517
+
+`A131209(A345436(n+2))`
+-/
+
+namespace A308412.P11926596554305671517
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131209 (A345436 (n + 2)).toNat
+
+end
+
+end A308412.P11926596554305671517
+
 /-! ## A308412.P2728546923165712950
 
 `∑[A053230(A046452(n+1)+1)]+1`
@@ -568,21 +583,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308412.P14890595546383953878
-
-/-! ## A308412.P2733428621632157260
-
-`A160755(2*n+1)+A001221(A063838(2*(n+1)))`
--/
-
-namespace A308412.P2733428621632157260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160755 (2 * n + 1) + A001221 (A063838 (2 * (n + 1))).toNat
-
-end
-
-end A308412.P2733428621632157260
 
 /-!
 # A308415: Number of irreducible Egyptian fractions of denominator n which are the sum of 3 unit fractions.

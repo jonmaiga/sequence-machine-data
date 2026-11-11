@@ -1,5 +1,5 @@
 {
-  "description": "Filter-sequence for primorial base: least number with the same prime signature as A276086(n).",
+  "description": "The smallest number with same prime signature as A276086(n) has, where A276086 is the primorial base exp-function.",
   "id": "A278226",
   "mentions": [
     "A046523",
@@ -10,7 +10,8 @@
     "A276150",
     "A278222",
     "A278236",
-    "A278243"
+    "A278243",
+    "A286626"
   ],
   "tags": [
     "base",

@@ -30,7 +30,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -2673,128 +2672,6 @@ def P10596128994893156319.Spec : Prop :=
   ∀ n, P10596128994893156319.a n = A062418 (n + 1)
 
 end A062418
-
-/-!
-# A062419: Integer part of log(n)^log(n).
-
-The programs for A062419, the canonical program `A062419.P7669946648936108240` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062419 has offset 1).
-
-The definition of A062419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
--/
-
-/-! ## A062419.P7669946648936108240
-
-`floor(log(n+1)^log(n+1))`
-
-The canonical program, it is in `Seq.B000.C011`.
--/
-
-namespace A062419
-
-/-- `floor(log(n+1)^log(n+1))` -/
-def P7669946648936108240.Spec : Prop :=
-  ∀ n, P7669946648936108240.a n = A062419 (n + 1)
-
-theorem P7669946648936108240.correct : P7669946648936108240.Spec := by
-  intro n
-  simp only [A062419, Nat.add_sub_cancel]
-
-end A062419
-
-/-! ## A062419.P6736394046924900958
-
-`A061052(abs(1-n)+2)`
--/
-
-namespace A062419.P6736394046924900958
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061052 (|1 - (n : ℤ)| + 2).toNat
-
-end
-
-end A062419.P6736394046924900958
-
-namespace A062419
-
-/-- `A061052(abs(1-n)+2)` -/
-def P6736394046924900958.Spec : Prop :=
-  ∀ n, P6736394046924900958.a n = A062419 (n + 1)
-
-end A062419
-
-/-! ## A062419.P3082019644729574091
-
-`ceil(log(n+1)^log(n+1))-A057427(n)`
--/
-
-namespace A062419.P3082019644729574091
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.log (n + 1 : ℝ) ^ (Real.log (n + 1 : ℝ))⌉ - A057427 n
-
-end
-
-end A062419.P3082019644729574091
-
-namespace A062419
-
-/-- `ceil(log(n+1)^log(n+1))-A057427(n)` -/
-def P3082019644729574091.Spec : Prop :=
-  ∀ n, P3082019644729574091.a n = A062419 (n + 1)
-
-end A062419
-
-/-! ## A062419.P10913188175977513865
-
-`A103298(A001935(n)-Δ[A002620(n)])`
--/
-
-namespace A062419.P10913188175977513865
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002620 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103298 (A001935 n - (f1 (n + 1) - f1 n)).toNat
-
-end
-
-end A062419.P10913188175977513865
-
-namespace A062419
-
-/-- `A103298(A001935(n)-Δ[A002620(n)])` -/
-def P10913188175977513865.Spec : Prop :=
-  ∀ n, P10913188175977513865.a n = A062419 (n + 1)
-
-end A062419
-
-/-! ## A062419.P4623351274317382404
-
-`A036042(A385604(n))-A110654(n)`
--/
-
-namespace A062419.P4623351274317382404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036042 (A385604 n).toNat - A110654 n
-
-end
-
-end A062419.P4623351274317382404
-
-namespace A062419
-
-/-- `A036042(A385604(n))-A110654(n)` -/
-def P4623351274317382404.Spec : Prop :=
-  ∀ n, P4623351274317382404.a n = A062419 (n + 1)
-
-end A062419
 
 /-!
 # A062420: Nearest integer to log(n)^log(n).

@@ -30,7 +30,6 @@ import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -3086,42 +3085,6 @@ end
 
 end A383016.P16389282675810445769
 
-/-! ## A383016.P9110548452955986279
-
-`filter[A085924(n), A383575(#)]`
--/
-
-namespace A383016.P9110548452955986279
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A383575 (f1 j).toNat = 1) n)
-
-end
-
-end A383016.P9110548452955986279
-
-/-! ## A383016.P2108902809766820027
-
-`filter[A085924(n), A385055(#)]`
--/
-
-namespace A383016.P2108902809766820027
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A385055 (f1 j).toNat = 1) n)
-
-end
-
-end A383016.P2108902809766820027
-
 /-! ## A383016.P17715640471045497171
 
 `filter[A089088(n), A383575(#)]`
@@ -3139,6 +3102,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383016.P17715640471045497171
+
+/-! ## A383016.P7951397336130977026
+
+`filter[A003619(n+1), A383575(#)]`
+-/
+
+namespace A383016.P7951397336130977026
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003619 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A383575 (f1 j).toNat = 1) n)
+
+end
+
+end A383016.P7951397336130977026
+
+/-! ## A383016.P4486439260889284034
+
+`filter[A018252(n+1), A383575(#)]`
+-/
+
+namespace A383016.P4486439260889284034
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018252 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A383575 (f1 j).toNat = 1) n)
+
+end
+
+end A383016.P4486439260889284034
 
 /-!
 # A383017: Numbers k such that A382883(k) = -1.
@@ -3251,24 +3250,6 @@ end
 
 end A383017.P12996240021262472557
 
-/-! ## A383017.P8633833468266237615
-
-`filter[A085924(n), A383576(#)]`
--/
-
-namespace A383017.P8633833468266237615
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A383576 (f1 j).toNat = 1) n)
-
-end
-
-end A383017.P8633833468266237615
-
 /-! ## A383017.P736989597517112183
 
 `filter[A152271(n), A383576(#)]`
@@ -3340,6 +3321,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383017.P7243371905086036840
+
+/-! ## A383017.P13837807121297440973
+
+`filter[A031980(n+1), A383576(#)]`
+-/
+
+namespace A383017.P13837807121297440973
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031980 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A383576 (f1 j).toNat = 1) n)
+
+end
+
+end A383017.P13837807121297440973
 
 /-!
 # A383018: Numbers k such that A008683(k) = 0 and A382883(k) = -1.
@@ -7906,6 +7905,29 @@ def P15768927092271540178.Spec : Prop :=
 
 end A383077
 
+/-! ## A383077.P11771168504833373740
+
+`A006358(n+1)+A006358(n+1)-A006358(n)`
+-/
+
+namespace A383077.P11771168504833373740
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006358 (n + 1) + A006358 (n + 1) - A006358 n
+
+end
+
+end A383077.P11771168504833373740
+
+namespace A383077
+
+/-- `A006358(n+1)+A006358(n+1)-A006358(n)` -/
+def P11771168504833373740.Spec : Prop :=
+  ∀ n, P11771168504833373740.a n = A383077 (n + 1)
+
+end A383077
+
 /-!
 # A383078: Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 6.
 
@@ -8305,6 +8327,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A383088.P17211947686096578233
+
+/-! ## A383088.P4743437965201589015
+
+`∪[A064597(n+1), A383100(n+1)]`
+-/
+
+namespace A383088.P4743437965201589015
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064597 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383100 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A383088.P4743437965201589015
 
 /-!
 # A383090: Number of integer partitions of n having more than one permutation with all equal run-lengths.

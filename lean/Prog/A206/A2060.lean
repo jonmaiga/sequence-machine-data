@@ -2829,7 +2829,7 @@ end A206030.P17521812624570129760
 /-!
 # A206032: a(n) = Product_{d|n} sigma(d) where sigma = A000203.
 
-The programs for A206032, the canonical program `A206032.P15818663996432524408` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206032 has offset 1).
+The programs for A206032, the canonical program `A206032.P15818663996432524408` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206032 has offset 1).
 
 The definition of A206032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3359 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2890,7 +2890,7 @@ end A206032
 
 `∏{d}[n+1, A001065(#)+#]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206032
@@ -4216,20 +4216,20 @@ end
 
 end A206041.P755833533564607199
 
-/-! ## A206041.P5842030453220198647
+/-! ## A206041.P10480302044420968942
 
-`A210505(A028310(n+1))+A210505(n+1)`
+`A210505(n+1)+A210505(n+1)`
 -/
 
-namespace A206041.P5842030453220198647
+namespace A206041.P10480302044420968942
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210505 (A028310 (n + 1)).toNat + A210505 (n + 1)
+  A210505 (n + 1) + A210505 (n + 1)
 
 end
 
-end A206041.P5842030453220198647
+end A206041.P10480302044420968942
 
 /-!
 # A206046: Number of (n+1)X(n+1) 0..2 arrays with the number of clockwise edge increases in every 2X2 subblock equal to one.
@@ -6600,6 +6600,90 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A206074.P7629221143549067998
+
+/-! ## A206074.P11781991865158948061
+
+`eq[A010121(n), A257000(n)]`
+-/
+
+namespace A206074.P11781991865158948061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010121 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257000 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A206074.P11781991865158948061
+
+/-! ## A206074.P7951380605057270734
+
+`eq[A010130(n), A257000(n)]`
+-/
+
+namespace A206074.P7951380605057270734
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010130 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257000 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A206074.P7951380605057270734
+
+/-! ## A206074.P11911764246539972799
+
+`eq[A010153(n), A257000(n)]`
+-/
+
+namespace A206074.P11911764246539972799
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010153 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257000 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A206074.P11911764246539972799
+
+/-! ## A206074.P779355154515499421
+
+`eq[A040037(n), A257000(n)]`
+-/
+
+namespace A206074.P779355154515499421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040037 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257000 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A206074.P779355154515499421
 
 /-! ## A206074.P17656122806752704387
 

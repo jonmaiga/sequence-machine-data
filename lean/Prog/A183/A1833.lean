@@ -9154,7 +9154,7 @@ end
 end A183359.P17991794521294741470
 
 /-!
-# A183360: One quarter the number of nX8 1..4 arrays with no two neighbors of any element equal to each other.
+# A183360: One quarter the number of n X 8 1..4 arrays with no two neighbors of any element equal to each other.
 
 The programs for A183360, there is no canonical definition to state claims against.
 -/

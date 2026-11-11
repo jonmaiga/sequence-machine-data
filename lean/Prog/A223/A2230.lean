@@ -3689,6 +3689,21 @@ end
 
 end A223046.P13669208769759136170
 
+/-! ## A223046.P11582273185010199157
+
+`A223048(A167614(n+1))`
+-/
+
+namespace A223046.P11582273185010199157
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223048 (A167614 (n + 1)).toNat
+
+end
+
+end A223046.P11582273185010199157
+
 /-!
 # A223047: Number of nX4 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
 

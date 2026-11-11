@@ -41,6 +41,7 @@ import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C050
@@ -96,7 +97,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -8323,6 +8323,29 @@ namespace A215147
 /-- `A368045(A134519(n+1))` -/
 def P4419393857934681522.Spec : Prop :=
   ∀ n, P4419393857934681522.a n = A215147 (n + 1)
+
+end A215147
+
+/-! ## A215147.P17811943624106313579
+
+`A347912(A363283(n+1))`
+-/
+
+namespace A215147.P17811943624106313579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347912 (A363283 (n + 1)).toNat
+
+end
+
+end A215147.P17811943624106313579
+
+namespace A215147
+
+/-- `A347912(A363283(n+1))` -/
+def P17811943624106313579.Spec : Prop :=
+  ∀ n, P17811943624106313579.a n = A215147 (n + 1)
 
 end A215147
 

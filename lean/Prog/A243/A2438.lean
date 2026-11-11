@@ -5256,6 +5256,36 @@ end
 
 end A243870.P7772140166251112813
 
+/-! ## A243870.P7417166478107588939
+
+`A247971(A186239(n))`
+-/
+
+namespace A243870.P7417166478107588939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247971 (A186239 n).toNat
+
+end
+
+end A243870.P7417166478107588939
+
+/-! ## A243870.P5160978943880960277
+
+`A108141(A360274(n))`
+-/
+
+namespace A243870.P5160978943880960277
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108141 (A360274 n).toNat
+
+end
+
+end A243870.P5160978943880960277
+
 /-! ## A243870.P8003812637895939192
 
 `A390477(n)-A060838(A302171(n))`
@@ -5270,21 +5300,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243870.P8003812637895939192
-
-/-! ## A243870.P11918807683096797961
-
-`A000108(n)-A061282(A205568(n+4))`
--/
-
-namespace A243870.P11918807683096797961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000108 n - A061282 (A205568 (n + 4)).toNat
-
-end
-
-end A243870.P11918807683096797961
 
 /-!
 # A243871: Number of Dyck paths of semilength n having exactly 1 occurrence of the consecutive steps UDUUUDDDUD (with U=(1,1), D=(1,-1)).

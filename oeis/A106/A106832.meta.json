@@ -2,6 +2,7 @@
   "description": "4*n-2 and 6*n alternatively.",
   "id": "A106832",
   "mentions": [
+    "A080512",
     "A195013"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

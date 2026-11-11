@@ -1,0 +1,19 @@
+{
+  "description": "Number of green squares after n unfoldings in the edge-memory unfolding array.",
+  "id": "A401290",
+  "mentions": [
+    "A000079",
+    "A027556",
+    "A401293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

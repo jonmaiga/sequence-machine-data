@@ -39,7 +39,6 @@ import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -515,6 +514,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A088206.P956988031618027353
+
+/-! ## A088206.P446982717845514243
+
+`A218979(A194805(n+1))`
+-/
+
+namespace A088206.P446982717845514243
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218979 (A194805 (n + 1)).toNat
+
+end
+
+end A088206.P446982717845514243
 
 /-!
 # A088207: a(n) = Sum_{k=0..n} floor(k*phi^2) where phi=(1+sqrt(5))/2.
@@ -4316,14 +4330,14 @@ end A088225
 /-!
 # A088226: a(1)=0, a(2)=0, a(3)=1; for n>3, a(n) = abs(a(n-1) - a(n-2) - a(n-3)).
 
-The programs for A088226, the canonical program `A088226.P3990531583660670054` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088226 has offset 1).
+The programs for A088226, the canonical program `A088226.P6783138897017131927` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088226 has offset 1).
 
-The definition of A088226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `abs(a(n-1)-a(n-2)-a(n-3))` (program `A088226.P3990531583660670054`, by `A088226.P3990531583660670054.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A088226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `abs(a(n-1)-a(n-2)-a(n-3))` (program `A088226.P6783138897017131927`, by `A088226.P6783138897017131927.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A088226.P3990531583660670054
+/-! ## A088226.P6783138897017131927
 
-`abs(a(n-1)-a(n-2)-a(n-3))` with `a(0)=0, a(1)=0, a(2)=1, a(3)=1, a(4)=0, a(5)=2, a(6)=1, a(7)=1, a(8)=2, a(9)=0, a(10)=3`
+`abs(a(n-1)-a(n-2)-a(n-3))` with `a(0)=0, a(1)=0, a(2)=1`
 
 The canonical program, it is in `Seq.B000.C016`.
 -/
@@ -4331,10 +4345,10 @@ The canonical program, it is in `Seq.B000.C016`.
 namespace A088226
 
 /-- `abs(a(n-1)-a(n-2)-a(n-3))` -/
-def P3990531583660670054.Spec : Prop :=
-  ∀ n, P3990531583660670054.a n = A088226 (n + 1)
+def P6783138897017131927.Spec : Prop :=
+  ∀ n, P6783138897017131927.a n = A088226 (n + 1)
 
-theorem P3990531583660670054.correct : P3990531583660670054.Spec := by
+theorem P6783138897017131927.correct : P6783138897017131927.Spec := by
   intro n
   simp only [A088226, Nat.add_sub_cancel]
 

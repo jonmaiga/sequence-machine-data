@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} 4^(k-1) * binomial(n+k,k) * a(n-k).",
+  "id": "A400304",
+  "mentions": [
+    "A400303",
+    "A400306",
+    "A401626",
+    "A401677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

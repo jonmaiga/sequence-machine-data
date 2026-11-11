@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: Place n circles with radius 1 with centers at the polar coordinates (1, t), 0 <= t < n: T(n,k) is the number of k-sided finite regions formed, for n >= 2, k >= 2, in the resulting graph.",
+  "id": "A401663",
+  "mentions": [
+    "A359009",
+    "A359258",
+    "A371376",
+    "A401497",
+    "A401600",
+    "A401601"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

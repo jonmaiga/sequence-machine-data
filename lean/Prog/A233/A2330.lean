@@ -31,6 +31,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
@@ -1540,20 +1541,20 @@ end
 
 end A233018.P17867377521639728643
 
-/-! ## A233018.P5879682258116861810
+/-! ## A233018.P4698656426433482151
 
-`A110654(A222444(n+1))`
+`A000463(A222444(n+1))`
 -/
 
-namespace A233018.P5879682258116861810
+namespace A233018.P4698656426433482151
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110654 (A222444 (n + 1)).toNat
+  A000463 (A222444 (n + 1)).toNat
 
 end
 
-end A233018.P5879682258116861810
+end A233018.P4698656426433482151
 
 /-! ## A233018.P16972490426953972742
 
@@ -6199,20 +6200,35 @@ end
 
 end A233073.P2462339814926874964
 
-/-! ## A233073.P4239229631482471853
+/-! ## A233073.P17030805346625261085
 
-`A001057(A232948(n+1))`
+`A246425(A232948(n+1))`
 -/
 
-namespace A233073.P4239229631482471853
+namespace A233073.P17030805346625261085
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001057 (A232948 (n + 1)).toNat
+  A246425 (A232948 (n + 1)).toNat
 
 end
 
-end A233073.P4239229631482471853
+end A233073.P17030805346625261085
+
+/-! ## A233073.P4899985276217414336
+
+`A000463(A232948(n+1))`
+-/
+
+namespace A233073.P4899985276217414336
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000463 (A232948 (n + 1)).toNat
+
+end
+
+end A233073.P4899985276217414336
 
 /-! ## A233073.P12204880816804894256
 
@@ -6228,21 +6244,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233073.P12204880816804894256
-
-/-! ## A233073.P16291925644538278737
-
-`A351563(A000244(n))+A274068(n+1)`
--/
-
-namespace A233073.P16291925644538278737
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351563 (A000244 n).toNat + A274068 (n + 1)
-
-end
-
-end A233073.P16291925644538278737
 
 /-!
 # A233075: Numbers that are midway between the nearest square and the nearest cube.

@@ -12,7 +12,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -30,6 +29,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -43,7 +43,7 @@ import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4837,32 +4837,26 @@ def P15112383364514147986.Spec : Prop :=
 
 end A320928
 
-/-! ## A320928.P10162529065959066440
+/-! ## A320928.P10530551613450279513
 
-`fp[∑[A189727(2*n+1)]]`
+`A023443(A189725(n+1))`
 -/
 
-namespace A320928.P10162529065959066440
+namespace A320928.P10530551613450279513
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189727 (2 * n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A189725 (n + 1)).toNat
 
 end
 
-end A320928.P10162529065959066440
+end A320928.P10530551613450279513
 
 namespace A320928
 
-/-- `fp[∑[A189727(2*n+1)]]` -/
-def P10162529065959066440.Spec : Prop :=
-  ∀ n, (P10162529065959066440.a n : ℤ) = A320928 (n + 1)
+/-- `A023443(A189725(n+1))` -/
+def P10530551613450279513.Spec : Prop :=
+  ∀ n, P10530551613450279513.a n = A320928 (n + 1)
 
 end A320928
 
@@ -6307,23 +6301,29 @@ end A320935
 /-!
 # A320936: Number of chiral pairs of color patterns (set partitions) for a row of length n using 6 or fewer colors (subsets).
 
-The programs for A320936, there is no canonical definition to state claims against.
+The programs for A320936, the canonical program `A320936.P654566188525556553` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320936 has offset 1).
+
+The definition of A320936 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056273, A056325, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A320936.P654566188525556553
 
 `A056273(n+1)-A056325(n+1)`
+
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
-namespace A320936.P654566188525556553
-noncomputable section
+namespace A320936
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056273 (n + 1) - A056325 (n + 1)
+/-- `A056273(n+1)-A056325(n+1)` -/
+def P654566188525556553.Spec : Prop :=
+  ∀ n, P654566188525556553.a n = A320936 (n + 1)
 
-end
+theorem P654566188525556553.correct : P654566188525556553.Spec := by
+  intro n
+  simp only [A320936, Nat.add_sub_cancel]
 
-end A320936.P654566188525556553
+end A320936
 
 /-! ## A320936.P7172592132905169675
 
@@ -6340,6 +6340,14 @@ end
 
 end A320936.P7172592132905169675
 
+namespace A320936
+
+/-- `A056325(n+1)-A305752(n+1)` -/
+def P7172592132905169675.Spec : Prop :=
+  ∀ n, P7172592132905169675.a n = A320936 (n + 1)
+
+end A320936
+
 /-! ## A320936.P13845656731062094597
 
 `(A056273(n+1)-A305752(n+1))/2`
@@ -6354,6 +6362,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A320936.P13845656731062094597
+
+namespace A320936
+
+/-- `(A056273(n+1)-A305752(n+1))/2` -/
+def P13845656731062094597.Spec : Prop :=
+  ∀ n, P13845656731062094597.a n = (A320936 (n + 1) : ℚ)
+
+end A320936
 
 /-! ## A320936.P1319543259333160294
 
@@ -6370,6 +6386,14 @@ end
 
 end A320936.P1319543259333160294
 
+namespace A320936
+
+/-- `A320935(n+1)+A320529(n+1)` -/
+def P1319543259333160294.Spec : Prop :=
+  ∀ n, P1319543259333160294.a n = A320936 (n + 1)
+
+end A320936
+
 /-! ## A320936.P4518386915171059913
 
 `A056471(2*(n+1))-A056325(n+1)`
@@ -6385,6 +6409,14 @@ end
 
 end A320936.P4518386915171059913
 
+namespace A320936
+
+/-- `A056471(2*(n+1))-A056325(n+1)` -/
+def P4518386915171059913.Spec : Prop :=
+  ∀ n, P4518386915171059913.a n = A320936 (n + 1)
+
+end A320936
+
 /-! ## A320936.P14986302206978038360
 
 `A320935(n+1)+A320525(A077169(n)+1+n)`
@@ -6399,6 +6431,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320936.P14986302206978038360
+
+namespace A320936
+
+/-- `A320935(n+1)+A320525(A077169(n)+1+n)` -/
+def P14986302206978038360.Spec : Prop :=
+  ∀ n, P14986302206978038360.a n = A320936 (n + 1)
+
+end A320936
 
 /-!
 # A320937: Number of chiral pairs of color patterns (set partitions) for a row of length n.

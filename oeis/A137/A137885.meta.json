@@ -1,7 +1,10 @@
 {
   "description": "Number of directed Hamiltonian paths in the 2n-crossed prism graph.",
   "id": "A137885",
-  "mentions": [],
+  "mentions": [
+    "A052482",
+    "A308136"
+  ],
   "tags": [
     "easy",
     "formulas",

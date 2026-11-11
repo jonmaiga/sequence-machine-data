@@ -15,7 +15,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
@@ -83,6 +82,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -2981,6 +2981,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354114.P14634365757256591681
+
+/-! ## A354114.P4664715382957209097
+
+`A083310(A062399(n))`
+-/
+
+namespace A354114.P4664715382957209097
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083310 (A062399 n).toNat
+
+end
+
+end A354114.P4664715382957209097
+
+/-! ## A354114.P6803907679675988188
+
+`A083310(A351870(n))`
+-/
+
+namespace A354114.P6803907679675988188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083310 (A351870 n).toNat
+
+end
+
+end A354114.P6803907679675988188
 
 /-!
 # A354115: Product_{n>=1} 1 / (1 - x^n)^(a(n)/n!) = 1 + arcsin(x).
@@ -7900,20 +7930,42 @@ end
 
 end A354178.P13766621883945752544
 
-/-! ## A354178.P8463433733074377478
+/-! ## A354178.P10846706723858549279
 
-`A090395(A262675(n+1)²)`
+`A000290(A354179(A000290(n+1)/(n+1)))`
 -/
 
-namespace A354178.P8463433733074377478
+namespace A354178.P10846706723858549279
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090395 (A262675 (n + 1) ^ 2).toNat
+  A000290 (A354179 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
 
 end
 
-end A354178.P8463433733074377478
+end A354178.P10846706723858549279
+
+/-! ## A354178.P3022081136296610412
+
+`∩[A046678(n+1), A074471(n+1)]`
+-/
+
+namespace A354178.P3022081136296610412
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046678 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074471 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A354178.P3022081136296610412
 
 /-!
 # A354179: Numbers whose square has a number of divisors that is coprime to 30.
@@ -10253,6 +10305,24 @@ end
 
 end A354192.P13568453233806701541
 
+/-! ## A354192.P11431750993167867664
+
+`filter[A140595(n), A354193(#)]`
+-/
+
+namespace A354192.P11431750993167867664
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140595 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A354193 (f1 j).toNat = 1) n)
+
+end
+
+end A354192.P11431750993167867664
+
 /-! ## A354192.P863783866212117434
 
 `filter[A271833(n), A354193(#)]`
@@ -10309,24 +10379,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354192.P4217745081044322853
-
-/-! ## A354192.P14597669146480404038
-
-`filter[A053663(n+1), A354193(#)]`
--/
-
-namespace A354192.P14597669146480404038
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053663 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A354193 (f1 j).toNat = 1) n)
-
-end
-
-end A354192.P14597669146480404038
 
 /-!
 # A354193: a(n) = 1 if A267099(n) is equal to n, otherwise 0. Here A267099 is fully multiplicative involution swapping the positions of 4k+1 and 4k+3 primes.
@@ -11259,6 +11311,29 @@ namespace A354197
 /-- `A064989(∑{d}[∑{d}[A003973(n+1), #], #])` -/
 def P8468289251579113023.Spec : Prop :=
   ∀ n, P8468289251579113023.a n = A354197 (n + 1)
+
+end A354197
+
+/-! ## A354197.P17969565433759016581
+
+`A064989(A000203(A000203(A003973(n+1))))`
+-/
+
+namespace A354197.P17969565433759016581
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064989 (A000203 (A000203 (A003973 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A354197.P17969565433759016581
+
+namespace A354197
+
+/-- `A064989(A000203(A000203(A003973(n+1))))` -/
+def P17969565433759016581.Spec : Prop :=
+  ∀ n, P17969565433759016581.a n = A354197 (n + 1)
 
 end A354197
 

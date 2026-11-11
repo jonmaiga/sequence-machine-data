@@ -78,6 +78,7 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -485,26 +486,26 @@ theorem P7417146607471675196.correct : P7417146607471675196.Spec := by
 
 end A151403
 
-/-! ## A151403.P11955878814135671870
+/-! ## A151403.P14770593039551288655
 
-`A240558(2*n)`
+`A068875(n)*A081294(n)`
 -/
 
-namespace A151403.P11955878814135671870
+namespace A151403.P14770593039551288655
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240558 (2 * n)
+  A068875 n * A081294 n
 
 end
 
-end A151403.P11955878814135671870
+end A151403.P14770593039551288655
 
 namespace A151403
 
-/-- `A240558(2*n)` -/
-def P11955878814135671870.Spec : Prop :=
-  ∀ n, P11955878814135671870.a n = A151403 n
+/-- `A068875(n)*A081294(n)` -/
+def P14770593039551288655.Spec : Prop :=
+  ∀ n, P14770593039551288655.a n = A151403 n
 
 end A151403
 
@@ -1593,21 +1594,6 @@ end A151421.P12450857282840449357
 
 The programs for A151422, there is no canonical definition to state claims against.
 -/
-
-/-! ## A151422.P7278391436977342966
-
-`A147982(A001744(n+1))*A174708(n+1)`
--/
-
-namespace A151422.P7278391436977342966
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147982 (A001744 (n + 1)).toNat * A174708 (n + 1)
-
-end
-
-end A151422.P7278391436977342966
 
 /-! ## A151422.P2721471800948095306
 

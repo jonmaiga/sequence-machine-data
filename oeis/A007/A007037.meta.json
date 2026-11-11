@@ -1,13 +1,20 @@
 {
-  "description": "Noninscribable simplicial polyhedra with n nodes.",
+  "description": "Number of noninscribable simplicial polyhedra with n nodes.",
   "id": "A007037",
-  "mentions": [],
+  "mentions": [
+    "A000109",
+    "A007032",
+    "A007033",
+    "A007034"
+  ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

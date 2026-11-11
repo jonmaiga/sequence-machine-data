@@ -53,7 +53,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -7905,6 +7904,29 @@ def P16055740022051364363.Spec : Prop :=
 
 end A136572
 
+/-! ## A136572.P18306950972594412821
+
+`C(col(n)+1, row(n)+1)*col(n)!`
+-/
+
+namespace A136572.P18306950972594412821
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (SequenceMachineLib.triCol n + 1) (SequenceMachineLib.triRow n + 1) * Nat.factorial (SequenceMachineLib.triCol n)
+
+end
+
+end A136572.P18306950972594412821
+
+namespace A136572
+
+/-- `C(col(n)+1, row(n)+1)*col(n)!` -/
+def P18306950972594412821.Spec : Prop :=
+  ∀ n, (P18306950972594412821.a n : ℤ) = A136572 n
+
+end A136572
+
 /-! ## A136572.P4767242572526277561
 
 `col(n)*T(col(n)-1, row(n)-1)` with `a(0)=1`
@@ -8154,29 +8176,6 @@ namespace A136572
 /-- `A120111(n)*A136579(n)` -/
 def P7412448703789539409.Spec : Prop :=
   ∀ n, P7412448703789539409.a n = A136572 n
-
-end A136572
-
-/-! ## A136572.P15699763708859940858
-
-`A120113(n)*A136579(n)`
--/
-
-namespace A136572.P15699763708859940858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120113 n * A136579 n
-
-end
-
-end A136572.P15699763708859940858
-
-namespace A136572
-
-/-- `A120113(n)*A136579(n)` -/
-def P15699763708859940858.Spec : Prop :=
-  ∀ n, P15699763708859940858.a n = A136572 n
 
 end A136572
 

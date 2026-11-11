@@ -4566,6 +4566,21 @@ end
 
 end A327531.P16481331047644979098
 
+/-! ## A327531.P10139390170357685810
+
+`and(A215456(n+1), A327514(n+1))`
+-/
+
+namespace A327531.P10139390170357685810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A215456 (n + 1)) (A327514 (n + 1))
+
+end
+
+end A327531.P10139390170357685810
+
 /-!
 # A327532: Indicator function for numbers whose prime indices are relatively prime (A289509).
 

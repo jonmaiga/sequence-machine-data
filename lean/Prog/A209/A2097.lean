@@ -21,7 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -2037,26 +2037,26 @@ theorem P6257214261537027427.correct : P6257214261537027427.Spec := by
 
 end A209721
 
-/-! ## A209721.P14066120900943466
+/-! ## A209721.P4949471703349499211
 
-`(4-n%2)*2^floor((n-1)/2)+1`
+`(2+n%2)*2^floor(n/2)+1`
 -/
 
-namespace A209721.P14066120900943466
+namespace A209721.P4949471703349499211
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 - ((n % 2 : ℕ) : ℤ) : ℚ) * (2 : ℚ) ^ (⌊((n : ℤ) - 1 : ℚ) / 2⌋ : ℤ) + 1
+  ((2 + n % 2 : ℕ) : ℚ) * (2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ) + 1
 
 end
 
-end A209721.P14066120900943466
+end A209721.P4949471703349499211
 
 namespace A209721
 
-/-- `(4-n%2)*2^floor((n-1)/2)+1` -/
-def P14066120900943466.Spec : Prop :=
-  ∀ n, P14066120900943466.a n = (A209721 (n + 1) : ℚ)
+/-- `(2+n%2)*2^floor(n/2)+1` -/
+def P4949471703349499211.Spec : Prop :=
+  ∀ n, P4949471703349499211.a n = (A209721 (n + 1) : ℚ)
 
 end A209721
 

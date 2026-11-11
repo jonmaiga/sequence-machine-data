@@ -36,7 +36,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
+import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -4719,20 +4719,20 @@ end A201635
 The programs for A201636, there is no canonical definition to state claims against.
 -/
 
-/-! ## A201636.P6321781025666829624
+/-! ## A201636.P17672365751123870282
 
-`(T(n-1,k-1)+2*T(n-1,k))*(row(n)+col(n)-1)` with `a(0)=1`
+`(row(n)+col(n)-1)*(T(n-1,k-1)+2*T(n-1,k))` with `a(0)=1`
 -/
 
-namespace A201636.P6321781025666829624
+namespace A201636.P17672365751123870282
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (SequenceMachineLib.triUpLeft a n + 2 * SequenceMachineLib.triUp a n) * ((SequenceMachineLib.triRow n + SequenceMachineLib.triCol n : ℤ) - 1)
+  ((SequenceMachineLib.triRow n + SequenceMachineLib.triCol n : ℤ) - 1) * (SequenceMachineLib.triUpLeft a n + 2 * SequenceMachineLib.triUp a n)
 
 end
 
-end A201636.P6321781025666829624
+end A201636.P17672365751123870282
 
 /-! ## A201636.P16553610464424206664
 

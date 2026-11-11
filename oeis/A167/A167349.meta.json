@@ -2,7 +2,9 @@
   "description": "Totally multiplicative sequence with a(p) = (p+1)^2 = p^2+2p+1 for prime p.",
   "id": "A167349",
   "mentions": [
-    "A003959"
+    "A003959",
+    "A065473",
+    "A098198"
   ],
   "tags": [
     "formulas",

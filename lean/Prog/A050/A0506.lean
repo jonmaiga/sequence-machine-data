@@ -6986,6 +6986,21 @@ end
 
 end A050638.P8733883678529091290
 
+/-! ## A050638.P3274320064254074355
+
+`A050639(n+1)*A050639(n+1)`
+-/
+
+namespace A050638.P3274320064254074355
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050639 (n + 1) * A050639 (n + 1)
+
+end
+
+end A050638.P3274320064254074355
+
 /-! ## A050638.P13813004910395240504
 
 `A050639(n+1)^A050620(gcd(n, n+1))`
@@ -7000,21 +7015,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A050638.P13813004910395240504
-
-/-! ## A050638.P5076548444626260313
-
-`A050639(A004709(n+1))*A050639(n+1)`
--/
-
-namespace A050638.P5076548444626260313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050639 (A004709 (n + 1)).toNat * A050639 (n + 1)
-
-end
-
-end A050638.P5076548444626260313
 
 /-!
 # A050639: a(1) = 3; a(n+1)^2 is next smallest square ending with a(n)^2.

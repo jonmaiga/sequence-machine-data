@@ -33,7 +33,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C045
@@ -1202,6 +1201,21 @@ end
 
 end A174712.P15439530932078519643
 
+/-! ## A174712.P16611922785259945905
+
+`A023531(n)*A054225(n)`
+-/
+
+namespace A174712.P16611922785259945905
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023531 n * A054225 n
+
+end
+
+end A174712.P16611922785259945905
+
 /-! ## A174712.P12842917498220887540
 
 `A023531(n)*A055375(n)`
@@ -1306,21 +1320,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A174712.P143068571758568476
-
-/-! ## A174712.P2729737510200414692
-
-`A023531(n)*A141157(n)`
--/
-
-namespace A174712.P2729737510200414692
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023531 n * A141157 n
-
-end
-
-end A174712.P2729737510200414692
 
 /-!
 # A174713: Triangle read by rows, A173305 (A000009 shifted down twice) * A174712 (diagonalized variant of A000041).

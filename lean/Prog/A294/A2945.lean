@@ -577,29 +577,6 @@ def P6636442819629184791.Spec : Prop :=
 
 end A294508
 
-/-! ## A294508.P8060812546317679060
-
-`A303708(A132106(n)+A008864(n+1))`
--/
-
-namespace A294508.P8060812546317679060
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A132106 n + A008864 (n + 1)).toNat
-
-end
-
-end A294508.P8060812546317679060
-
-namespace A294508
-
-/-- `A303708(A132106(n)+A008864(n+1))` -/
-def P8060812546317679060.Spec : Prop :=
-  ∀ n, P8060812546317679060.a n = A294508 (n + 1)
-
-end A294508
-
 /-! ## A294508.P11169166975740349510
 
 `A243180(A005897(n+3))%A164358(n)`
@@ -3845,57 +3822,6 @@ end
 end A294557.P18125854159785723203
 
 /-!
-# A294558: Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n-1) + b(n-2) + 2*n, where a(0) = 1, a(1) = 2, b(0) = 3, and (a(n)) and (b(n)) are increasing complementary sequences.
-
-The programs for A294558, there is no canonical definition to state claims against.
--/
-
-/-! ## A294558.P3916876717217283488
-
-`A351006(3*n*A056811(3*n+4))`
--/
-
-namespace A294558.P3916876717217283488
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 ((3 * n : ℤ) * A056811 (3 * n + 4)).toNat
-
-end
-
-end A294558.P3916876717217283488
-
-/-! ## A294558.P7252791530808045993
-
-`A351006(A008585(n)*A060594(n+1))`
--/
-
-namespace A294558.P7252791530808045993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (A008585 n * A060594 (n + 1)).toNat
-
-end
-
-end A294558.P7252791530808045993
-
-/-! ## A294558.P15328561741465972623
-
-`A351006(A008585(n)*A025422(n+2))`
--/
-
-namespace A294558.P15328561741465972623
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (A008585 n * A025422 (n + 2)).toNat
-
-end
-
-end A294558.P15328561741465972623
-
-/-!
 # A294559: Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n-1) + 2*b(n-2), where a(0) = 1, a(1) = 2, b(0) = 3, and (a(n)) and (b(n)) are increasing complementary sequences.
 
 The programs for A294559, there is no canonical definition to state claims against.
@@ -6653,27 +6579,6 @@ end A294590.P11565932033199265372
 
 The programs for A294591, there is no canonical definition to state claims against.
 -/
-
-/-! ## A294591.P14180391013292419147
-
-`∑[A389514(∑[A389508(n)])]+1`
--/
-
-namespace A294591.P14180391013292419147
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389508 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389514 (∑ j ∈ Finset.range (n + 1), f2 j).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A294591.P14180391013292419147
 
 /-! ## A294591.P14296719474014984595
 

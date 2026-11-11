@@ -52,7 +52,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
@@ -105,6 +104,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -6024,27 +6024,23 @@ end
 
 end A260442.P8139641338858227301
 
-/-! ## A260442.P9323849172138265269
+/-! ## A260442.P16601116982818450688
 
-`∪[A073485(n+1), A131627(A325302(n+1))]`
+`filter[A375398(n+1), A137794(#)]`
 -/
 
-namespace A260442.P9323849172138265269
+namespace A260442.P16601116982818450688
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073485 (n + 1)
+  A375398 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131627 (A325302 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A137794 (f1 j).toNat = 1) n)
 
 end
 
-end A260442.P9323849172138265269
+end A260442.P16601116982818450688
 
 /-!
 # A260443: Prime factorization representation of Stern polynomials: a(0) = 1, a(1) = 2, a(2n) = A003961(a(n)), a(2n+1) = a(n)*a(n+1).

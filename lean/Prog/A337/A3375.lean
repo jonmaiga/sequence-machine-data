@@ -453,6 +453,29 @@ def P16284388504857030855.Spec : Prop :=
 
 end A337501
 
+/-! ## A337501.P16955320342121276895
+
+`A002264(A249127(n+1))`
+-/
+
+namespace A337501.P16955320342121276895
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002264 (A249127 (n + 1)).toNat
+
+end
+
+end A337501.P16955320342121276895
+
+namespace A337501
+
+/-- `A002264(A249127(n+1))` -/
+def P16955320342121276895.Spec : Prop :=
+  ∀ n, P16955320342121276895.a n = A337501 (n + 1)
+
+end A337501
+
 /-!
 # A337502: Minimum number of painted cells in an n X n grid to avoid unpainted tetrominoes.
 

@@ -5517,26 +5517,26 @@ def P4178939162208446928.Spec : Prop :=
 
 end A277822
 
-/-! ## A277822.P3408008687148675603
+/-! ## A277822.P11701000569167823057
 
-`A327491(A125592(n+1))`
+`A285097(A092246(n+1))`
 -/
 
-namespace A277822.P3408008687148675603
+namespace A277822.P11701000569167823057
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327491 (A125592 (n + 1)).toNat
+  A285097 (A092246 (n + 1)).toNat
 
 end
 
-end A277822.P3408008687148675603
+end A277822.P11701000569167823057
 
 namespace A277822
 
-/-- `A327491(A125592(n+1))` -/
-def P3408008687148675603.Spec : Prop :=
-  ∀ n, P3408008687148675603.a n = A277822 n
+/-- `A285097(A092246(n+1))` -/
+def P11701000569167823057.Spec : Prop :=
+  ∀ n, P11701000569167823057.a n = A277822 n
 
 end A277822
 
@@ -7796,29 +7796,6 @@ namespace A277849
 /-- `A277830(n)-A261516(A185163(n))` -/
 def P9688106446958098371.Spec : Prop :=
   ∀ n, P9688106446958098371.a n = A277849 n
-
-end A277849
-
-/-! ## A277849.P7930039724581223676
-
-`A277830(n)-A359511(A242534(n+1))`
--/
-
-namespace A277849.P7930039724581223676
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277830 n - A359511 (A242534 (n + 1)).toNat
-
-end
-
-end A277849.P7930039724581223676
-
-namespace A277849
-
-/-- `A277830(n)-A359511(A242534(n+1))` -/
-def P7930039724581223676.Spec : Prop :=
-  ∀ n, P7930039724581223676.a n = A277849 n
 
 end A277849
 
@@ -11091,20 +11068,20 @@ end
 
 end A277881.P7516823234198181780
 
-/-! ## A277881.P13515597752575394846
+/-! ## A277881.P4143488125480592507
 
-`A277883(A277880(A277883(A277822(A003945(n)))))`
+`A277883(A277880(A277883(n+1)))`
 -/
 
-namespace A277881.P13515597752575394846
+namespace A277881.P4143488125480592507
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277883 (A277880 (A277883 (A277822 (A003945 n).toNat).toNat).toNat).toNat
+  A277883 (A277880 (A277883 (n + 1)).toNat).toNat
 
 end
 
-end A277881.P13515597752575394846
+end A277881.P4143488125480592507
 
 /-!
 # A277882: Dispersion of evil numbers, array transposed.
@@ -11238,6 +11215,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277883.P12291749112140344958
+
+/-! ## A277883.P5159617295035723527
+
+`A277881(A277882(A277881(n+1)))`
+-/
+
+namespace A277883.P5159617295035723527
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277881 (A277882 (A277881 (n + 1)).toNat).toNat
+
+end
+
+end A277883.P5159617295035723527
 
 /-!
 # A277884: a(n) = A277814(A277826(n)).

@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of exposed cubic faces of a 4-dimensional polyhypercube formed by n unit tesseracts.",
+  "id": "A400966",
+  "mentions": [
+    "A027709",
+    "A193416"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

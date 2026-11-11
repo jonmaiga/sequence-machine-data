@@ -1589,21 +1589,6 @@ end
 
 end A395634.P11130031708993769572
 
-/-! ## A395634.P3811609501794904489
-
-`A278042(or(A400861(n), A400871(n+1)))`
--/
-
-namespace A395634.P3811609501794904489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278042 (Int.lor (A400861 n) (A400871 (n + 1))).toNat
-
-end
-
-end A395634.P3811609501794904489
-
 /-!
 # A395635: a(n) = number of triples (x, y, z) such that 2*x^2 + y*z = n, where x, y, z are positive integers with gcd(x,y*z)>1.
 

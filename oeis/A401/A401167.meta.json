@@ -1,10 +1,10 @@
 {
-  "description": "a(0) = 0; a(n+1) counts the preceding bars visible from the top of bar n, where bar k has height a(k).",
+  "description": "a(0) = 0; a(n+1) is the number of preceding bars visible from the top of bar n, where bar k has height a(k).",
   "id": "A401167",
   "mentions": [
     "A334043",
     "A334044",
-    "A399633"
+    "A400000"
   ],
   "tags": [
     "nonn"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

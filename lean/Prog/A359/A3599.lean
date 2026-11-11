@@ -1546,21 +1546,6 @@ end
 
 end A359920.P17719610392550689453
 
-/-! ## A359920.P9848819112412332821
-
-`A087163(A002426(n))+A001678(3*n)`
--/
-
-namespace A359920.P9848819112412332821
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087163 (A002426 n).toNat + A001678 (3 * n)
-
-end
-
-end A359920.P9848819112412332821
-
 /-!
 # A359921: a(n) = coefficient of x^n in A(x) such that 1/x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)).
 

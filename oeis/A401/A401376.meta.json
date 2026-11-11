@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A328572(k) is a divisor of k and A342002(k) is an unitary divisor of k.",
+  "id": "A401376",
+  "mentions": [
+    "A276085",
+    "A328572",
+    "A342002",
+    "A380527",
+    "A400155",
+    "A400835"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

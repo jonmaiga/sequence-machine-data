@@ -2955,21 +2955,6 @@ end
 
 end A122629.P16043150137007689694
 
-/-! ## A122629.P852670979201464484
-
-`A087082(A183533(n+1))`
--/
-
-namespace A122629.P852670979201464484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087082 (A183533 (n + 1)).toNat
-
-end
-
-end A122629.P852670979201464484
-
 /-! ## A122629.P7571866449128717068
 
 `A102576(A256005(n+1))`
@@ -3026,6 +3011,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A122629.P3509142997842803768
+
+/-! ## A122629.P6722213354326423361
+
+`∩[A102576(n+1), A385298(n+1)]`
+-/
+
+namespace A122629.P6722213354326423361
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102576 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385298 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A122629.P6722213354326423361
 
 /-!
 # A122630: a(n) = F(n)_F(n) where F() = Fibonacci numbers A000045.
@@ -3695,6 +3702,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122641.P2407956334827708985
+
+/-! ## A122641.P5705858223913535567
+
+`A131209(A122640(n+1))`
+-/
+
+namespace A122641.P5705858223913535567
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131209 (A122640 (n + 1)).toNat
+
+end
+
+end A122641.P5705858223913535567
 
 /-!
 # A122642: {2n}_{2n}.

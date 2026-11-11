@@ -8214,6 +8214,29 @@ def P146058007407672397.Spec : Prop :=
 
 end A158746
 
+/-! ## A158746.P566709018098005339
+
+`A008651(A132233(n+1))`
+-/
+
+namespace A158746.P566709018098005339
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008651 (A132233 (n + 1)).toNat
+
+end
+
+end A158746.P566709018098005339
+
+namespace A158746
+
+/-- `A008651(A132233(n+1))` -/
+def P566709018098005339.Spec : Prop :=
+  ∀ n, P566709018098005339.a n = A158746 (n + 1)
+
+end A158746
+
 /-!
 # A158747: Triangle read by rows: T(n,m)=prime( 1+prime(n+1)-prime(m+1) ).
 

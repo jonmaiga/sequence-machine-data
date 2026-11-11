@@ -21,7 +21,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -1553,50 +1552,35 @@ end
 
 end A121813.P13381577511719632271
 
-/-! ## A121813.P13859238879900438874
+/-! ## A121813.P4309455239692816597
 
-`A107680(floor((4-6/(n+1))*a(n-1)))` with `a(0)=0, a(1)=1`
+`A265910(A084675(n+1))`
 -/
 
-namespace A121813.P13859238879900438874
+namespace A121813.P4309455239692816597
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  A107680 ⌊(4 - 6 / (n + 1 : ℚ)) * (a (n - 1) : ℚ)⌋.toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265910 (A084675 (n + 1)).toNat
 
 end
 
-end A121813.P13859238879900438874
+end A121813.P4309455239692816597
 
-/-! ## A121813.P13946811352999920338
+/-! ## A121813.P14986176201670449875
 
-`A107680(a(n-1)+n*a(n-2))` with `a(0)=0, a(1)=1, a(2)=1, a(3)=1, a(4)=1`
+`A003462(A000120(A000045(A000045(n))))`
 -/
 
-namespace A121813.P13946811352999920338
+namespace A121813.P14986176201670449875
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 1, 1, 1] fun n a =>
-  A107680 (a (n - 1) + (n : ℤ) * a (n - 2)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003462 (A000120 (A000045 (A000045 n).toNat).toNat).toNat
 
 end
 
-end A121813.P13946811352999920338
-
-/-! ## A121813.P15686812063888151811
-
-`A107680(a(n-1)-(n*(1-a(n-2))-n))` with `a(0)=0, a(1)=1, a(2)=1, a(3)=1, a(4)=1`
--/
-
-namespace A121813.P15686812063888151811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 1, 1, 1] fun n a =>
-  A107680 (a (n - 1) - ((n : ℤ) * (1 - a (n - 2)) - (n : ℤ))).toNat
-
-end
-
-end A121813.P15686812063888151811
+end A121813.P14986176201670449875
 
 /-!
 # A121814: A 3 X 3 determinant based recursion.
@@ -7847,26 +7831,26 @@ def P15211639423647215050.Spec : Prop :=
 
 end A121881
 
-/-! ## A121881.P1977725973365413908
+/-! ## A121881.P6578145341345232558
 
-`round(A283824(2*n)/7)*n+1`
+`A325364(A135344(n))`
 -/
 
-namespace A121881.P1977725973365413908
+namespace A121881.P6578145341345232558
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A283824 (2 * n) : ℚ) / 7) * (n : ℤ) + 1
+  A325364 (A135344 n).toNat
 
 end
 
-end A121881.P1977725973365413908
+end A121881.P6578145341345232558
 
 namespace A121881
 
-/-- `round(A283824(2*n)/7)*n+1` -/
-def P1977725973365413908.Spec : Prop :=
-  ∀ n, P1977725973365413908.a n = A121881 (n + 1)
+/-- `A325364(A135344(n))` -/
+def P6578145341345232558.Spec : Prop :=
+  ∀ n, P6578145341345232558.a n = A121881 (n + 1)
 
 end A121881
 

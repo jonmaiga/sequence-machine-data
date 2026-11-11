@@ -29,7 +29,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -245,20 +245,20 @@ end
 
 end A119202.P14773446066851453336
 
-/-! ## A119202.P3652746131252023149
+/-! ## A119202.P4521482684966404657
 
-`A000124(A119203(n+1))-A160338(n+1)`
+`A160791(2*A119203(n+1))`
 -/
 
-namespace A119202.P3652746131252023149
+namespace A119202.P4521482684966404657
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000124 (A119203 (n + 1)).toNat - A160338 (n + 1)
+  A160791 (2 * A119203 (n + 1)).toNat
 
 end
 
-end A119202.P3652746131252023149
+end A119202.P4521482684966404657
 
 /-!
 # A119203: Numbers k such that the k-th triangular number contains only digits {4,5,6}.
@@ -419,20 +419,20 @@ end
 
 end A119208.P280212331710740790
 
-/-! ## A119208.P2282824081903445480
+/-! ## A119208.P8004470036125028354
 
-`A069834(A119209(n+1)^A065648(n))`
+`A160791(2*A119209(n+1))`
 -/
 
-namespace A119208.P2282824081903445480
+namespace A119208.P8004470036125028354
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069834 (SequenceMachineLib.roundAway ((A119209 (n + 1) : ℚ) ^ (A065648 n : ℤ))).toNat
+  A160791 (2 * A119209 (n + 1)).toNat
 
 end
 
-end A119208.P2282824081903445480
+end A119208.P8004470036125028354
 
 /-!
 # A119209: Numbers k such that the k-th triangular number contains only digits {4,5,9}.
@@ -7502,6 +7502,29 @@ def P8342441578508167068.Spec : Prop :=
 
 end A119283
 
+/-! ## A119283.P12345276908285429906
+
+`((-1)^n*A000045(2*n+1)-(2*n+1))/5`
+-/
+
+namespace A119283.P12345276908285429906
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-1) ^ n * A000045 (2 * n + 1) - (2 * n + 1 : ℤ) : ℚ) / 5
+
+end
+
+end A119283.P12345276908285429906
+
+namespace A119283
+
+/-- `((-1)^n*A000045(2*n+1)-(2*n+1))/5` -/
+def P12345276908285429906.Spec : Prop :=
+  ∀ n, P12345276908285429906.a n = (A119283 n : ℚ)
+
+end A119283
+
 /-! ## A119283.P11543025726431815606
 
 `2*A214884(n)-A214885(n)`
@@ -7795,6 +7818,52 @@ namespace A119284
 /-- `∑[Δ[A119282(n+1)+A119282(n)]^3]` -/
 def P7394678691510785238.Spec : Prop :=
   ∀ n, P7394678691510785238.a n = A119284 n
+
+end A119284
+
+/-! ## A119284.P16055569926286002360
+
+`1/2*((-1)^n*A000045(n)²*A000045(n+1)-A000045(n+2)+1)`
+-/
+
+namespace A119284.P16055569926286002360
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * ((-1) ^ n * A000045 n ^ 2 * A000045 (n + 1) - A000045 (n + 2) + 1 : ℚ)
+
+end
+
+end A119284.P16055569926286002360
+
+namespace A119284
+
+/-- `1/2*((-1)^n*A000045(n)²*A000045(n+1)-A000045(n+2)+1)` -/
+def P16055569926286002360.Spec : Prop :=
+  ∀ n, P16055569926286002360.a n = (A119284 n : ℚ)
+
+end A119284
+
+/-! ## A119284.P2847362526013489388
+
+`1/10*((-1)^n*A000045(3*n+1)-6*A000045(n+2)+5)`
+-/
+
+namespace A119284.P2847362526013489388
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 10 * ((-1) ^ n * A000045 (3 * n + 1) - 6 * A000045 (n + 2) + 5 : ℚ)
+
+end
+
+end A119284.P2847362526013489388
+
+namespace A119284
+
+/-- `1/10*((-1)^n*A000045(3*n+1)-6*A000045(n+2)+5)` -/
+def P2847362526013489388.Spec : Prop :=
+  ∀ n, P2847362526013489388.a n = (A119284 n : ℚ)
 
 end A119284
 

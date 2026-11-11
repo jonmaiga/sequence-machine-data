@@ -4887,6 +4887,32 @@ theorem P6568415442917729801.correct : P6568415442917729801.Spec := by
 
 end A181631
 
+/-! ## A181631.P10656374203565102773
+
+`A385892(abs(Δ[(n-1)*floor((n+1)/ϕ)]-n)+1)`
+-/
+
+namespace A181631.P10656374203565102773
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) - 1) * ⌊(n + 1 : ℝ) / Real.goldenRatio⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385892 (|f1 (n + 1) - f1 n - (n : ℤ)| + 1).toNat
+
+end
+
+end A181631.P10656374203565102773
+
+namespace A181631
+
+/-- `A385892(abs(Δ[(n-1)*floor((n+1)/ϕ)]-n)+1)` -/
+def P10656374203565102773.Spec : Prop :=
+  ∀ n, P10656374203565102773.a n = A181631 (n + 1)
+
+end A181631
+
 /-! ## A181631.P2106326145846586021
 
 `A090996(A052499(n))`
@@ -4999,32 +5025,6 @@ namespace A181631
 /-- `A090996(A380358(n+1)+1)` -/
 def P5345223414983317731.Spec : Prop :=
   ∀ n, P5345223414983317731.a n = A181631 (n + 1)
-
-end A181631
-
-/-! ## A181631.P10656374203565102773
-
-`A385892(abs(Δ[(n-1)*floor((n+1)/ϕ)]-n)+1)`
--/
-
-namespace A181631.P10656374203565102773
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 1) * ⌊(n + 1 : ℝ) / Real.goldenRatio⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385892 (|f1 (n + 1) - f1 n - (n : ℤ)| + 1).toNat
-
-end
-
-end A181631.P10656374203565102773
-
-namespace A181631
-
-/-- `A385892(abs(Δ[(n-1)*floor((n+1)/ϕ)]-n)+1)` -/
-def P10656374203565102773.Spec : Prop :=
-  ∀ n, P10656374203565102773.a n = A181631 (n + 1)
 
 end A181631
 

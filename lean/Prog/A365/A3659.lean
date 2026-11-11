@@ -5519,6 +5519,21 @@ end
 
 end A365992.P12020300975403227031
 
+/-! ## A365992.P14003921735377573908
+
+`A000035(A365991(n+1))`
+-/
+
+namespace A365992.P14003921735377573908
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A365991 (n + 1)).toNat
+
+end
+
+end A365992.P14003921735377573908
+
 /-! ## A365992.P13805078682073912784
 
 `A296066(A365991(n+1)+2)`
@@ -5533,21 +5548,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365992.P13805078682073912784
-
-/-! ## A365992.P10365833861310043983
-
-`A292380(A365991(n+1)*A365991(n+1)+3)`
--/
-
-namespace A365992.P10365833861310043983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292380 (A365991 (n + 1) * A365991 (n + 1) + 3).toNat
-
-end
-
-end A365992.P10365833861310043983
 
 /-!
 # A365995: Number of free polyominoids with n cells, allowing flat corner-connections and right-angled edge-connections.

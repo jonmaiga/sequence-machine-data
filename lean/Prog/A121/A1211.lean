@@ -3646,21 +3646,6 @@ end A121161
 The programs for A121162, there is no canonical definition to state claims against.
 -/
 
-/-! ## A121162.P6149578444321778246
-
-`A188814(n)+A145604(A000124(n))`
--/
-
-namespace A121162.P6149578444321778246
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188814 n + A145604 (A000124 n).toNat
-
-end
-
-end A121162.P6149578444321778246
-
 /-! ## A121162.P3525077583248516678
 
 `A125229(A197212(n+1))+A001255(n)`
@@ -4824,6 +4809,32 @@ def P8722323489138717973.Spec : Prop :=
 
 end A121177
 
+/-! ## A121177.P13595702024805119927
+
+`∑{#}[n-1, C(n, #+1)*2^(#+1)*2^#]`
+-/
+
+namespace A121177.P13595702024805119927
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n (k + 1) * 2 ^ (k + 1) * 2 ^ k
+
+end
+
+end A121177.P13595702024805119927
+
+namespace A121177
+
+/-- `∑{#}[n-1, C(n, #+1)*2^(#+1)*2^#]` -/
+def P13595702024805119927.Spec : Prop :=
+  ∀ n, (P13595702024805119927.a n : ℤ) = A121177 (n + 1)
+
+end A121177
+
 /-! ## A121177.P16837685111985265387
 
 `a(n-1)+a(n-1)+a(n-1)+a(n-1)+a(n-1)+2` with `a(0)=0`
@@ -5025,48 +5036,6 @@ theorem P6442920905691268330.correct : P6442920905691268330.Spec := by
       have h1 := ih (m + 1) (by omega)
       have h2 := ih m (by omega)
       simp only [A121177, Nat.add_sub_cancel, A121177.P6442920905691268330.a, A121177.P17894372759092932238.a, A034474, A034474.P1568972853745923564.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
-
-end A121177
-
-/-! ## A121177.P18181687824221559392
-
-`A178671(n)/2+2`
--/
-
-namespace A121177.P18181687824221559392
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A178671 n : ℚ) / 2 + 2
-
-end
-
-end A121177.P18181687824221559392
-
-namespace A121177
-
-/-- `A178671(n)/2+2` -/
-def P18181687824221559392.Spec : Prop :=
-  ∀ n, P18181687824221559392.a n = (A121177 (n + 1) : ℚ)
-
-theorem P18181687824221559392.correct : P18181687824221559392.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A121177, Nat.add_sub_cancel, A121177.P18181687824221559392.a, A121177.P17894372759092932238.a, A178671, A178671.P13912322305136915604.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-      try ((try field_simp); ring_nf)
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A121177, Nat.add_sub_cancel, A121177.P18181687824221559392.a, A121177.P17894372759092932238.a, A178671, A178671.P13912322305136915604.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
       push_cast at h1 h2 ⊢

@@ -26,13 +26,16 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -5442,6 +5445,29 @@ def P8701319537705385272.Spec : Prop :=
 
 end A163433
 
+/-! ## A163433.P14106350524326751945
+
+`xor(A140811(n), A158388(n))`
+-/
+
+namespace A163433.P14106350524326751945
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A140811 n) (A158388 n)
+
+end
+
+end A163433.P14106350524326751945
+
+namespace A163433
+
+/-- `xor(A140811(n), A158388(n))` -/
+def P14106350524326751945.Spec : Prop :=
+  ∀ n, P14106350524326751945.a n = A163433 (n + 1)
+
+end A163433
+
 /-! ## A163433.P6715870850443969031
 
 `2*fp[sqrt((n+2)/3)]`
@@ -5468,26 +5494,49 @@ def P6715870850443969031.Spec : Prop :=
 
 end A163433
 
-/-! ## A163433.P6300974046710346494
+/-! ## A163433.P9358403622229129089
 
-`A004275(3*n²)`
+`and(A002446(n), A140811(n))`
 -/
 
-namespace A163433.P6300974046710346494
+namespace A163433.P9358403622229129089
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004275 (3 * n ^ 2)
+  Int.land (A002446 n) (A140811 n)
 
 end
 
-end A163433.P6300974046710346494
+end A163433.P9358403622229129089
 
 namespace A163433
 
-/-- `A004275(3*n²)` -/
-def P6300974046710346494.Spec : Prop :=
-  ∀ n, P6300974046710346494.a n = A163433 (n + 1)
+/-- `and(A002446(n), A140811(n))` -/
+def P9358403622229129089.Spec : Prop :=
+  ∀ n, P9358403622229129089.a n = A163433 (n + 1)
+
+end A163433
+
+/-! ## A163433.P11838926943989549305
+
+`A378212(A227776(n))`
+-/
+
+namespace A163433.P11838926943989549305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378212 (A227776 n).toNat
+
+end
+
+end A163433.P11838926943989549305
+
+namespace A163433
+
+/-- `A378212(A227776(n))` -/
+def P11838926943989549305.Spec : Prop :=
+  ∀ n, P11838926943989549305.a n = A163433 (n + 1)
 
 end A163433
 
@@ -13220,14 +13269,14 @@ end A163494.P1288994563931063353
 /-!
 # A163495: a(0)=0, a(1)=1, a(2)=2. For n >= 3, a(n) = a(n-1) - min(a(n-2), a(n-3)).
 
-The programs for A163495, the canonical program `A163495.P7254468766619400451` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163495 has offset 0).
+The programs for A163495, the canonical program `A163495.P10687864596725807762` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163495 has offset 0).
 
-The definition of A163495 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)-min(a(n-2), a(n-3))` (program `A163495.P7254468766619400451`, by `A163495.P7254468766619400451.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A163495 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)-min(a(n-2), a(n-3))` (program `A163495.P10687864596725807762`, by `A163495.P10687864596725807762.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A163495.P7254468766619400451
+/-! ## A163495.P10687864596725807762
 
-`a(n-1)-min(a(n-2), a(n-3))` with `a(0)=0, a(1)=1, a(2)=2, a(3)=2, a(4)=1, a(5)=-1, a(6)=-2, a(7)=-1, a(8)=1, a(9)=3`
+`a(n-1)-min(a(n-2), a(n-3))` with `a(0)=0, a(1)=1, a(2)=2`
 
 The canonical program, it is in `Seq.B000.C027`.
 -/
@@ -13235,10 +13284,10 @@ The canonical program, it is in `Seq.B000.C027`.
 namespace A163495
 
 /-- `a(n-1)-min(a(n-2), a(n-3))` -/
-def P7254468766619400451.Spec : Prop :=
-  ∀ n, P7254468766619400451.a n = A163495 n
+def P10687864596725807762.Spec : Prop :=
+  ∀ n, P10687864596725807762.a n = A163495 n
 
-theorem P7254468766619400451.correct : P7254468766619400451.Spec := by
+theorem P10687864596725807762.correct : P10687864596725807762.Spec := by
   intro n
   simp only [A163495]
 

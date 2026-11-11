@@ -1,5 +1,5 @@
 {
-  "description": "Bit-interleaved number addition table; like binary addition but carries shift 2 instead of 1; addition base sqrt(2).",
+  "description": "Bit-interleaved number addition table T(n,k) (n>=0, k>=0) read by antidiagonals: like binary addition but carries are shifted 2 places instead of 1; in other words, T(n,k) is the sum n+k in base sqrt(2).",
   "id": "A054240",
   "mentions": [
     "A000695",

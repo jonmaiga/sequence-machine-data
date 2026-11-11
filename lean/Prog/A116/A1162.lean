@@ -1274,6 +1274,21 @@ end
 
 end A116214.P4641501078295546341
 
+/-! ## A116214.P7920586325263977223
+
+`A069826(n+1)%A081944(n+1)`
+-/
+
+namespace A116214.P7920586325263977223
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A069826 (n + 1)) (A081944 (n + 1))
+
+end
+
+end A116214.P7920586325263977223
+
 /-!
 # A116215: Numbers k such that k concatenated with k+8 gives the product of two numbers which differ by 7.
 

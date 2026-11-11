@@ -3006,6 +3006,29 @@ The programs for A309324, the canonical program `A309324.P14830018965304251691` 
 The definition of A309324 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A309324.P265525348415257902
+
+`A040001(n+1)*A035109(n+1)`
+-/
+
+namespace A309324.P265525348415257902
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040001 (n + 1) * A035109 (n + 1)
+
+end
+
+end A309324.P265525348415257902
+
+namespace A309324
+
+/-- `A040001(n+1)*A035109(n+1)` -/
+def P265525348415257902.Spec : Prop :=
+  ∀ n, P265525348415257902.a n = A309324 (n + 1)
+
+end A309324
+
 /-! ## A309324.P14830018965304251691
 
 `∑{d}[n+1, A008683((n+1)/#)²*A000593(#)]`
@@ -3071,6 +3094,29 @@ namespace A309324
 /-- `A000034(n)*A035109(n+1)` -/
 def P5035342898563111931.Spec : Prop :=
   ∀ n, P5035342898563111931.a n = A309324 (n + 1)
+
+end A309324
+
+/-! ## A309324.P6819493887498045558
+
+`A035109(n+1)*A040001(n+1)`
+-/
+
+namespace A309324.P6819493887498045558
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035109 (n + 1) * A040001 (n + 1)
+
+end
+
+end A309324.P6819493887498045558
+
+namespace A309324
+
+/-- `A035109(n+1)*A040001(n+1)` -/
+def P6819493887498045558.Spec : Prop :=
+  ∀ n, P6819493887498045558.a n = A309324 (n + 1)
 
 end A309324
 

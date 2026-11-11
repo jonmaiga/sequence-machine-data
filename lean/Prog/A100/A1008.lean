@@ -30,7 +30,6 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -241,21 +240,6 @@ end
 
 end A100801.P9283857302834418085
 
-/-! ## A100801.P13524849091210270383
-
-`(n+1)^A008683(A063535(n))*A100800(n+1)`
--/
-
-namespace A100801.P13524849091210270383
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ) * (A100800 (n + 1) : ℚ)
-
-end
-
-end A100801.P13524849091210270383
-
 /-! ## A100801.P6699078095312376296
 
 `(n+1)^A008683(A000928(n+1))*A100800(n+1)`
@@ -285,6 +269,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A100801.P15369580085107340981
+
+/-! ## A100801.P24365262759321230
+
+`A118377(A280351(n))`
+-/
+
+namespace A100801.P24365262759321230
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118377 (A280351 n).toNat
+
+end
+
+end A100801.P24365262759321230
 
 /-!
 # A100802: a(n) = least k >= 0 such that (n+k)/2 is prime.

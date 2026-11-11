@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of sqrt(2)/phi, where phi = (1+sqrt(5))/2.",
   "id": "A094883",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A002193",
+    "A094884"
+  ],
   "tags": [
     "cons",
     "nonn"

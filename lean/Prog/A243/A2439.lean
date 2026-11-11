@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
@@ -15,6 +16,7 @@ import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C024
@@ -4073,29 +4075,29 @@ def P3974046643805241612.Spec : Prop :=
 
 end A243945
 
-/-! ## A243945.P8698326082570694748
+/-! ## A243945.P2850398883406817921
 
-`∑{#}[n, C(n, #)*C(n+#, #)*C(2*#, #)]`
+`∑{#}[n, C(n, #)*C(n+#, n)*C(2*#, #)]`
 -/
 
-namespace A243945.P8698326082570694748
+namespace A243945.P2850398883406817921
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.choose (n + k) k * Nat.choose (2 * k) k
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose n k * Nat.choose (n + k) n * Nat.choose (2 * k) k
 
 end
 
-end A243945.P8698326082570694748
+end A243945.P2850398883406817921
 
 namespace A243945
 
-/-- `∑{#}[n, C(n, #)*C(n+#, #)*C(2*#, #)]` -/
-def P8698326082570694748.Spec : Prop :=
-  ∀ n, (P8698326082570694748.a n : ℤ) = A243945 n
+/-- `∑{#}[n, C(n, #)*C(n+#, n)*C(2*#, #)]` -/
+def P2850398883406817921.Spec : Prop :=
+  ∀ n, (P2850398883406817921.a n : ℤ) = A243945 n
 
 end A243945
 
@@ -6354,26 +6356,26 @@ def P13195028788696246211.Spec : Prop :=
 
 end A243980
 
-/-! ## A243980.P16712675697504828455
+/-! ## A243980.P16145601491031468314
 
-`2*A271342(2*(n+1))`
+`A016742(n+1)-(A067436(n+1)+A067436(n+1))`
 -/
 
-namespace A243980.P16712675697504828455
+namespace A243980.P16145601491031468314
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A271342 (2 * (n + 1))
+  A016742 (n + 1) - (A067436 (n + 1) + A067436 (n + 1))
 
 end
 
-end A243980.P16712675697504828455
+end A243980.P16145601491031468314
 
 namespace A243980
 
-/-- `2*A271342(2*(n+1))` -/
-def P16712675697504828455.Spec : Prop :=
-  ∀ n, P16712675697504828455.a n = A243980 (n + 1)
+/-- `A016742(n+1)-(A067436(n+1)+A067436(n+1))` -/
+def P16145601491031468314.Spec : Prop :=
+  ∀ n, P16145601491031468314.a n = A243980 (n + 1)
 
 end A243980
 

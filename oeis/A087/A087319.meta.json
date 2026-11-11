@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number of the form n^k +1, with tau(a(n)) = tau(n), or 0 if no such number exists.",
+  "description": "Smallest number of the form n^k + 1, with tau(a(n)) = tau(n), or 0 if no such number exists.",
   "id": "A087319",
   "mentions": [
     "A087318"
@@ -8,7 +8,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 55,
     "source": "oeis-entry"
   }

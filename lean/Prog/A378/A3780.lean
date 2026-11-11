@@ -24,12 +24,10 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C040
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
-import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6179,21 +6177,6 @@ end
 
 end A378068.P3076194082559802112
 
-/-! ## A378068.P5135106346839394500
-
-`A395056(A249644(n+2))`
--/
-
-namespace A378068.P5135106346839394500
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A395056 (A249644 (n + 2)).toNat
-
-end
-
-end A378068.P5135106346839394500
-
 /-! ## A378068.P1102850496569915384
 
 `A276084(Δ[A370585(2*(n+2))])`
@@ -6211,6 +6194,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A378068.P1102850496569915384
+
+/-! ## A378068.P11441958545046360949
+
+`A156542(A267581(n))`
+-/
+
+namespace A378068.P11441958545046360949
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156542 (A267581 n).toNat
+
+end
+
+end A378068.P11441958545046360949
 
 /-!
 # A378069: a(n) = Sum_{k=0..n} binomial(n, floor(k/2 - 1/2)) * binomial(n, ceiling(k/2 - 1/2)).

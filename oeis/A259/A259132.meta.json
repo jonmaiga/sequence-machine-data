@@ -2,16 +2,19 @@
   "description": "Numbers k such that 5*R_k + 7*10^k + 2 is prime, where R_k = 11...11 is the repunit (A002275) of length k.",
   "id": "A259132",
   "mentions": [
-    "A002275"
+    "A002275",
+    "A056259",
+    "A082713"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

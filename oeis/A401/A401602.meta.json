@@ -1,0 +1,22 @@
+{
+  "description": "Number of Eisenstein primes reachable from 0 by steps of length at most sqrt(A003136(n)), stepping only on Eisenstein primes.",
+  "id": "A401602",
+  "mentions": [
+    "A003136",
+    "A055025",
+    "A055664",
+    "A055667",
+    "A185271",
+    "A345435"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

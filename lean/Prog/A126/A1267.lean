@@ -2532,6 +2532,32 @@ def P13525875970967598146.Spec : Prop :=
 
 end A126725
 
+/-! ## A126725.P15857859578122050223
+
+`∑{#}[floor((n+1)/2)-1, (n+1)!/(2^(#+1)*(n+1-2*(#+1))!)]`
+-/
+
+namespace A126725.P15857859578122050223
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℚ) / 2⌋ - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial (n + 1) : ℚ) / (2 ^ (k + 1) * Nat.factorial ((n + 1 : ℤ) - (2 * (k + 1) : ℤ)).toNat : ℚ)
+
+end
+
+end A126725.P15857859578122050223
+
+namespace A126725
+
+/-- `∑{#}[floor((n+1)/2)-1, (n+1)!/(2^(#+1)*(n+1-2*(#+1))!)]` -/
+def P15857859578122050223.Spec : Prop :=
+  ∀ n, P15857859578122050223.a n = (A126725 (n + 1) : ℚ)
+
+end A126725
+
 /-!
 # A126726: Number of squares (of nonnegative integers) that require n binary (base-2) digits.
 
@@ -5123,6 +5149,66 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A126760.P6717828618382580704
+
+/-! ## A126760.P11341809123893594055
+
+`A083800(n+1)%A126759(n)`
+-/
+
+namespace A126760.P11341809123893594055
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A083800 (n + 1)) (A126759 n)
+
+end
+
+end A126760.P11341809123893594055
+
+/-! ## A126760.P4573394986931622891
+
+`A070198(n)%A126759(n)`
+-/
+
+namespace A126760.P4573394986931622891
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A070198 n) (A126759 n)
+
+end
+
+end A126760.P4573394986931622891
+
+/-! ## A126760.P1516935918867210646
+
+`A079782(n+1)%A126759(n)`
+-/
+
+namespace A126760.P1516935918867210646
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A079782 (n + 1)) (A126759 n)
+
+end
+
+end A126760.P1516935918867210646
+
+/-! ## A126760.P4024424253907876206
+
+`A083685(n+1)%A126759(n)`
+-/
+
+namespace A126760.P4024424253907876206
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A083685 (n + 1)) (A126759 n)
+
+end
+
+end A126760.P4024424253907876206
 
 /-!
 # A126762: a(n) is the least k > n such that the remainder when n^k is divided by k is n.

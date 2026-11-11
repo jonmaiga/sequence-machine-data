@@ -26,14 +26,14 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B001.C000
@@ -282,27 +282,6 @@ end A044501.P11918604501674749251
 
 The programs for A044502, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044502.P14220322291553715820
-
-`A044122(n+1)-A119788(∑[∑{d}[n, #]]+1)`
--/
-
-namespace A044502.P14220322291553715820
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f2 n), d
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044122 (n + 1) - A119788 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
-
-end
-
-end A044502.P14220322291553715820
 
 /-! ## A044502.P2964976818609167172
 
@@ -1660,21 +1639,6 @@ end
 
 end A044519.P456194459343450554
 
-/-! ## A044519.P8977411981803834972
-
-`A000045(A268354(n+1))+A044138(n+1)-A119788((n+8)²)`
--/
-
-namespace A044519.P8977411981803834972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (A268354 (n + 1)).toNat + (A044138 (n + 1) - A119788 ((n + 8) ^ 2))
-
-end
-
-end A044519.P8977411981803834972
-
 /-!
 # A044520: Numbers n such that string 0,1 occurs in the base 7 representation of n but not of n+1.
 
@@ -1740,21 +1704,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044520.P4954169511909201865
-
-/-! ## A044520.P3600106586637271741
-
-`A044140(n+1)-A001222(A144427(n+1))`
--/
-
-namespace A044520.P3600106586637271741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044140 (n + 1) - A001222 (A144427 (n + 1)).toNat
-
-end
-
-end A044520.P3600106586637271741
 
 /-! ## A044520.P10930364236138584507
 
@@ -3138,27 +3087,6 @@ end A044537.P11341270310371857436
 
 The programs for A044538, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044538.P15839759506387417604
-
-`A044158(n+1)-A119788(∑[∑{d}[n, #]]+1)`
--/
-
-namespace A044538.P15839759506387417604
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f2 n), d
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044158 (n + 1) - A119788 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
-
-end
-
-end A044538.P15839759506387417604
 
 /-! ## A044538.P12867962698410246197
 
@@ -5874,21 +5802,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044569.P4080330856582941842
-
-/-! ## A044569.P1070791528962083679
-
-`A044189(n+1)-A001222(A088524(n+3))`
--/
-
-namespace A044569.P1070791528962083679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044189 (n + 1) - A001222 (A088524 (n + 3)).toNat
-
-end
-
-end A044569.P1070791528962083679
 
 /-! ## A044569.P4816173096594500548
 

@@ -11,7 +11,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -27,7 +26,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -1382,6 +1380,32 @@ theorem P3046958745770125700.correct : P3046958745770125700.Spec := by
 
 end A352027
 
+/-! ## A352027.P9308816016031758510
+
+`∑{#}[n-2, C(n+1, #+1)*C(n, #)]`
+-/
+
+namespace A352027.P9308816016031758510
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (n + 1) (k + 1) * Nat.choose n k
+
+end
+
+end A352027.P9308816016031758510
+
+namespace A352027
+
+/-- `∑{#}[n-2, C(n+1, #+1)*C(n, #)]` -/
+def P9308816016031758510.Spec : Prop :=
+  ∀ n, (P9308816016031758510.a n : ℤ) = A352027 (n + 1)
+
+end A352027
+
 /-! ## A352027.P3103837059362117490
 
 `∏[4-2/(n+1)]/2-(∑[2*n]+1)`
@@ -1840,6 +1864,28 @@ end
 
 end A352030.P2536048606974822796
 
+/-! ## A352030.P8645386419666614005
+
+`∩[A375611(n+1), A401250(n+1)]`
+-/
+
+namespace A352030.P8645386419666614005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401250 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A352030.P8645386419666614005
+
 /-! ## A352030.P8262600650256715164
 
 `lt[A034799(A033630(n)), A033630(n)]`
@@ -1860,27 +1906,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A352030.P8262600650256715164
-
-/-! ## A352030.P7660355802236860356
-
-`eq[A164880(n+1), A266227(n+1)]+1`
--/
-
-namespace A352030.P7660355802236860356
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164880 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266227 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A352030.P7660355802236860356
 
 /-!
 # A352031: Sum of the cubes of the odd proper divisors of n.

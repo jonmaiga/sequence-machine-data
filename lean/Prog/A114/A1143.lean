@@ -8571,6 +8571,21 @@ end
 
 end A114392.P17187855221155840487
 
+/-! ## A114392.P17330554542333805997
+
+`A000290(A114393(n+1))`
+-/
+
+namespace A114392.P17330554542333805997
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A114393 (n + 1)).toNat
+
+end
+
+end A114392.P17330554542333805997
+
 /-! ## A114392.P11564275269569297257
 
 `A002620(2*A114393(n+1))`
@@ -8600,21 +8615,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114392.P1380176862974947646
-
-/-! ## A114392.P11680031494643921086
-
-`A000290(A114393(A000290(n+1)/(n+1)))`
--/
-
-namespace A114392.P11680031494643921086
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A114393 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
-
-end
-
-end A114392.P11680031494643921086
 
 /-!
 # A114393: Square roots of A114392.

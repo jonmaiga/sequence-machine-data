@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into parts whose product is a square.",
+  "id": "A401510",
+  "mentions": [
+    "A000041",
+    "A401265"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that A401018(k) = n.",
+  "id": "A401205",
+  "mentions": [
+    "A000360",
+    "A000361",
+    "A002487",
+    "A020950",
+    "A400888",
+    "A400889",
+    "A401018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -3485,21 +3485,6 @@ end
 
 end A343522.P15743072466855092089
 
-/-! ## A343522.P3139366437490686761
-
-`A116533(A348396(n+1))`
--/
-
-namespace A343522.P3139366437490686761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116533 (A348396 (n + 1)).toNat
-
-end
-
-end A343522.P3139366437490686761
-
 /-!
 # A343523: a(0) = 1; a(n) = 2 * Sum_{k=1..n} binomial(n,k) * a(k-1).
 

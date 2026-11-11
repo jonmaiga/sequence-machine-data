@@ -30,8 +30,8 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -8054,6 +8054,29 @@ namespace A026847
 /-- `A193923(A047838(n+2))` -/
 def P2740773272923126239.Spec : Prop :=
   ∀ n, P2740773272923126239.a n = A026847 n
+
+end A026847
+
+/-! ## A026847.P14737375585972273180
+
+`A054450(A210981(n))`
+-/
+
+namespace A026847.P14737375585972273180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054450 (A210981 n).toNat
+
+end
+
+end A026847.P14737375585972273180
+
+namespace A026847
+
+/-- `A054450(A210981(n))` -/
+def P14737375585972273180.Spec : Prop :=
+  ∀ n, P14737375585972273180.a n = A026847 n
 
 end A026847
 

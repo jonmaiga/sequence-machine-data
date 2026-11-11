@@ -13979,29 +13979,26 @@ def P12437579988888883566.Spec : Prop :=
 
 end A134393
 
-/-! ## A134393.P10081799315790336425
+/-! ## A134393.P8935453451271876802
 
-`∑[A007290(n+1)+n+1]`
+`A139488(n)+A034827(n)`
 -/
 
-namespace A134393.P10081799315790336425
+namespace A134393.P8935453451271876802
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007290 (n + 1) + (n + 1 : ℤ)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A139488 n + A034827 n
 
 end
 
-end A134393.P10081799315790336425
+end A134393.P8935453451271876802
 
 namespace A134393
 
-/-- `∑[A007290(n+1)+n+1]` -/
-def P10081799315790336425.Spec : Prop :=
-  ∀ n, P10081799315790336425.a n = A134393 (n + 1)
+/-- `A139488(n)+A034827(n)` -/
+def P8935453451271876802.Spec : Prop :=
+  ∀ n, P8935453451271876802.a n = A134393 (n + 1)
 
 end A134393
 

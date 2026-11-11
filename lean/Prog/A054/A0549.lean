@@ -34,7 +34,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -1295,23 +1295,20 @@ end
 
 end A054906.P6043360584473430770
 
-/-! ## A054906.P5826083065547385581
+/-! ## A054906.P17549555342522064414
 
-`p?[A204894(or(1, n)+1)-(n+1)]`
+`A087242(2*(n+1))`
 -/
 
-namespace A054906.P5826083065547385581
+namespace A054906.P17549555342522064414
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204894 (Nat.lor 1 n + 1) - (n + 1 : ℤ)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+  A087242 (2 * (n + 1))
 
 end
 
-end A054906.P5826083065547385581
+end A054906.P17549555342522064414
 
 /-!
 # A054907: Number of n-dimensional unimodular lattices (or quadratic forms) containing no vectors of norm 1.
@@ -2104,21 +2101,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A054921.P5029769865276539863
-
-/-! ## A054921.P7889325156601357966
-
-`A351006(xor(1, A064934(n)))`
--/
-
-namespace A054921.P7889325156601357966
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351006 (Int.xor 1 (A064934 n)).toNat
-
-end
-
-end A054921.P7889325156601357966
 
 /-!
 # A054922: Number of connected unlabeled symmetric relations (graphs with loops) having n nodes such that complement is also connected.
@@ -7324,29 +7306,33 @@ def P10399194302549870057.Spec : Prop :=
 
 end A054967
 
-/-! ## A054967.P6066795668908169428
+/-! ## A054967.P523998806441996156
 
-`∑[dr(A352721(n+1))]`
+`∩[A235499(n), A266297(n+1)]`
 -/
 
-namespace A054967.P6066795668908169428
+namespace A054967.P523998806441996156
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A352721 (n + 1))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235499 n
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266297 (n + 1)
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A054967.P6066795668908169428
+end A054967.P523998806441996156
 
 namespace A054967
 
-/-- `∑[dr(A352721(n+1))]` -/
-def P6066795668908169428.Spec : Prop :=
-  ∀ n, (P6066795668908169428.a n : ℤ) = A054967 (n + 1)
+/-- `∩[A235499(n), A266297(n+1)]` -/
+def P523998806441996156.Spec : Prop :=
+  ∀ n, (P523998806441996156.a n : ℤ) = A054967 (n + 1)
 
 end A054967
 
@@ -10184,20 +10170,20 @@ end
 
 end A054989.P11062032701286968598
 
-/-! ## A054989.P12046150378131725511
+/-! ## A054989.P4287226359806402201
 
-`A048675(A366808(n+1))`
+`A000523(A366808(n+1))`
 -/
 
-namespace A054989.P12046150378131725511
+namespace A054989.P4287226359806402201
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048675 (A366808 (n + 1)).toNat
+  A000523 (A366808 (n + 1)).toNat
 
 end
 
-end A054989.P12046150378131725511
+end A054989.P4287226359806402201
 
 /-! ## A054989.P314731985310554656
 

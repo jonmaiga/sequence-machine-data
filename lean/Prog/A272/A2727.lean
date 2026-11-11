@@ -93,6 +93,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2926,23 +2927,23 @@ end
 
 end A272711.P17910613850381447912
 
-/-! ## A272711.P12911533945014251279
+/-! ## A272711.P15679064319053745311
 
-`record[A178139(n+2)²]`
+`record[A385887(n+1)²]`
 -/
 
-namespace A272711.P12911533945014251279
+namespace A272711.P15679064319053745311
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178139 (n + 2) ^ 2
+  A385887 (n + 1) ^ 2
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A272711.P12911533945014251279
+end A272711.P15679064319053745311
 
 /-!
 # A272712: Perfect powers that are the difference of two nonnegative Fibonacci numbers.
@@ -8759,6 +8760,35 @@ def P8605436257909843825.Spec : Prop :=
 theorem P8605436257909843825.correct : P8605436257909843825.Spec := by
   intro n
   simp only [A272775, Nat.add_sub_cancel, A272775.P8605436257909843825.a, A272775.P1385318564651287005.a, A156798, A156798.P10525748190720154864.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A272775
+
+/-! ## A272775.P18196009983342852003
+
+`A261391(n+1)*A261391(n+1)`
+-/
+
+namespace A272775.P18196009983342852003
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261391 (n + 1) * A261391 (n + 1)
+
+end
+
+end A272775.P18196009983342852003
+
+namespace A272775
+
+/-- `A261391(n+1)*A261391(n+1)` -/
+def P18196009983342852003.Spec : Prop :=
+  ∀ n, P18196009983342852003.a n = A272775 (n + 1)
+
+theorem P18196009983342852003.correct : P18196009983342852003.Spec := by
+  intro n
+  simp only [A272775, Nat.add_sub_cancel, A272775.P18196009983342852003.a, A272775.P1385318564651287005.a, A261391, A261391.P3451584564033413708.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

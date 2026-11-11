@@ -1884,20 +1884,20 @@ end
 
 end A146936.P15639978046897565299
 
-/-! ## A146936.P13686610828089237737
+/-! ## A146936.P14143187761129944612
 
-`A178754(A023425(n))`
+`A035093(A327712(n))`
 -/
 
-namespace A146936.P13686610828089237737
+namespace A146936.P14143187761129944612
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178754 (A023425 n).toNat
+  A035093 (A327712 n).toNat
 
 end
 
-end A146936.P13686610828089237737
+end A146936.P14143187761129944612
 
 /-!
 # A146939: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 1111-1111 pattern in any orientation.

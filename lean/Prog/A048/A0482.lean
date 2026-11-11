@@ -11005,6 +11005,24 @@ end
 
 end A048291.P2408894055164992000
 
+/-! ## A048291.P18352480725393119301
+
+`∑{#}[n, C(n, #)*(-1)^#*(2^(n-#)-1)^n]`
+-/
+
+namespace A048291.P18352480725393119301
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), ((Nat.choose n k : ℤ) * (-1) ^ k : ℚ) * ((2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) - 1) ^ n
+
+end
+
+end A048291.P18352480725393119301
+
 /-! ## A048291.P9809801861903888321
 
 `A183109(C(n+1, abs(1-n)))`
@@ -11052,24 +11070,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048291.P479671034261889826
-
-/-! ## A048291.P5539425116488219010
-
-`A183109(A000007(n)+∑[n])`
--/
-
-namespace A048291.P5539425116488219010
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183109 (A000007 n + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)).toNat
-
-end
-
-end A048291.P5539425116488219010
 
 /-!
 # A048292: 1-digit terms in the continued fraction for Pi.

@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -5305,6 +5304,21 @@ end
 
 end A245844.P7919726651573268988
 
+/-! ## A245844.P6680627756241959871
+
+`A007913(A245850(n+1))`
+-/
+
+namespace A245844.P6680627756241959871
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A245850 (n + 1)).toNat
+
+end
+
+end A245844.P6680627756241959871
+
 /-!
 # A245845: Number of length n 0..2 arrays with new values introduced in order from both ends, and least squares fitting to a straight line with slope zero, with a single point taken as having zero slope.
 
@@ -9128,21 +9142,6 @@ end A245881.P524325971674988878
 
 The programs for A245882, there is no canonical definition to state claims against.
 -/
-
-/-! ## A245882.P8917990345848717993
-
-`A326245(n)+A321911(n+1)`
--/
-
-namespace A245882.P8917990345848717993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326245 n + A321911 (n + 1)
-
-end
-
-end A245882.P8917990345848717993
 
 /-! ## A245882.P11499005022765338807
 

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi/6 - 2*log(2)/Pi.",
+  "id": "A401616",
+  "mentions": [
+    "A019669",
+    "A180309",
+    "A180310",
+    "A180311",
+    "A180314",
+    "A180317"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

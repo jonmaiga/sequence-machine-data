@@ -1,0 +1,40 @@
+{
+  "description": "Odd numbers m of the form p^(1+4k) * r^2 such that sigma(r^2) divides m, where p is a prime of the form 1+4u, r > 1, and gcd(p,r) = 1.",
+  "id": "A401067",
+  "mentions": [
+    "A001694",
+    "A005100",
+    "A228058",
+    "A240991",
+    "A319630",
+    "A325981",
+    "A326064",
+    "A327165",
+    "A336547",
+    "A336548",
+    "A336553",
+    "A336554",
+    "A349753",
+    "A350388",
+    "A351568",
+    "A383482",
+    "A386428",
+    "A386429",
+    "A387406",
+    "A388269",
+    "A388276",
+    "A388277",
+    "A401070",
+    "A401386",
+    "A401387",
+    "A401388"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

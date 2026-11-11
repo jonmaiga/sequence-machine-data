@@ -6,7 +6,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -7724,20 +7723,20 @@ end A323795.P4545555602070854946
 The programs for A323797, there is no canonical definition to state claims against.
 -/
 
-/-! ## A323797.P784051433894472958
+/-! ## A323797.P5696109880717436004
 
-`A199340(A264598(3*n+5))%A038474(n+1)`
+`A373914(A206777(n+1))`
 -/
 
-namespace A323797.P784051433894472958
+namespace A323797.P5696109880717436004
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A199340 (A264598 (3 * n + 5)).toNat) (A038474 (n + 1))
+  A373914 (A206777 (n + 1)).toNat
 
 end
 
-end A323797.P784051433894472958
+end A323797.P5696109880717436004
 
 /-!
 # A323798: Number of permutations p of [n] such that max_{j=1..n} |p(j)-j| = 2.

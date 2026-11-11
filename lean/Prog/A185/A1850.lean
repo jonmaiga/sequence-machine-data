@@ -10265,29 +10265,6 @@ def P8926601676529067701.Spec : Prop :=
 
 end A185081
 
-/-! ## A185081.P14672537672268216661
-
-`A330786(A156882(n))+A318754(n+1)`
--/
-
-namespace A185081.P14672537672268216661
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330786 (A156882 n).toNat + A318754 (n + 1)
-
-end
-
-end A185081.P14672537672268216661
-
-namespace A185081
-
-/-- `A330786(A156882(n))+A318754(n+1)` -/
-def P14672537672268216661.Spec : Prop :=
-  ∀ n, P14672537672268216661.a n = A185081 n
-
-end A185081
-
 /-!
 # A185082: a(n) = [x^n] G_{n+1}(x) where G_n(x) = F(x*G_n(x)^n) and F(x) = g.f. of A185072 such that [x^n] G_n(x) = 0.
 

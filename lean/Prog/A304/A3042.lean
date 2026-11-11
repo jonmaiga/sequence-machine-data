@@ -5464,6 +5464,21 @@ end
 
 end A304273.P16681112455083727284
 
+/-! ## A304273.P583125128401422925
+
+`A081848(n+1)-A061419(n+1)`
+-/
+
+namespace A304273.P583125128401422925
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A081848 (n + 1) - A061419 (n + 1)
+
+end
+
+end A304273.P583125128401422925
+
 /-! ## A304273.P15490794632946252148
 
 `A305498(n+1)%3`
@@ -5478,6 +5493,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304273.P15490794632946252148
+
+/-! ## A304273.P13019629041678916083
+
+`A305498(n+1)+A081848(n+1)-A070885(n+2)`
+-/
+
+namespace A304273.P13019629041678916083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305498 (n + 1) + A081848 (n + 1) - A070885 (n + 2)
+
+end
+
+end A304273.P13019629041678916083
 
 /-!
 # A304274: The concatenation of the first n elements is the largest positive even number with n digits when written in base 3/2.

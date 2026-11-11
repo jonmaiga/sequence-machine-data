@@ -2,6 +2,7 @@
   "description": "a(n) = (n+1)! if n <= 2; thereafter a(n) = 4*n if n even or 2*n if n odd.",
   "id": "A382155",
   "mentions": [
+    "A022998",
     "A319384",
     "A382154",
     "A382156"

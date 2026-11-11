@@ -20,6 +20,7 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
@@ -801,6 +802,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A350014.P15308578761675063807
+
+/-! ## A350014.P9353560760760539170
+
+`filter[A305801(n+1), A355448(#)]`
+-/
+
+namespace A350014.P9353560760760539170
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305801 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A355448 (f1 j).toNat = 1) n)
+
+end
+
+end A350014.P9353560760760539170
 
 /-!
 # A350017: Number of isotopism classes containing symmetric unipotent reduced Latin squares of order 2n.
@@ -1593,32 +1612,6 @@ def P3031444539074458618.Spec : Prop :=
 
 end A350040
 
-/-! ## A350040.P13638785404395941804
-
-`∑{d}[A009003(n+1), A024362(#)]`
--/
-
-namespace A350040.P13638785404395941804
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009003 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A024362 d
-
-end
-
-end A350040.P13638785404395941804
-
-namespace A350040
-
-/-- `∑{d}[A009003(n+1), A024362(#)]` -/
-def P13638785404395941804.Spec : Prop :=
-  ∀ n, P13638785404395941804.a n = A350040 (n + 1)
-
-end A350040
-
 /-! ## A350040.P11063502165577123761
 
 `A046080(lt[4, A046109(n)])`
@@ -1645,6 +1638,32 @@ namespace A350040
 /-- `A046080(lt[4, A046109(n)])` -/
 def P11063502165577123761.Spec : Prop :=
   ∀ n, P11063502165577123761.a n = A350040 (n + 1)
+
+end A350040
+
+/-! ## A350040.P13638785404395941804
+
+`∑{d}[A009003(n+1), A024362(#)]`
+-/
+
+namespace A350040.P13638785404395941804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009003 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n).natAbs, A024362 d
+
+end
+
+end A350040.P13638785404395941804
+
+namespace A350040
+
+/-- `∑{d}[A009003(n+1), A024362(#)]` -/
+def P13638785404395941804.Spec : Prop :=
+  ∀ n, P13638785404395941804.a n = A350040 (n + 1)
 
 end A350040
 
@@ -2959,6 +2978,29 @@ namespace A350050
 /-- `A272104(A008810(n))` -/
 def P2284560525486366493.Spec : Prop :=
   ∀ n, P2284560525486366493.a n = A350050 n
+
+end A350050
+
+/-! ## A350050.P258557062418908279
+
+`A272104(A239231(n))`
+-/
+
+namespace A350050.P258557062418908279
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272104 (A239231 n).toNat
+
+end
+
+end A350050.P258557062418908279
+
+namespace A350050
+
+/-- `A272104(A239231(n))` -/
+def P258557062418908279.Spec : Prop :=
+  ∀ n, P258557062418908279.a n = A350050 n
 
 end A350050
 
@@ -7637,6 +7679,29 @@ namespace A350091
 /-- `(4*n+2)%A000265(3*n+2)` -/
 def P3827406472707629585.Spec : Prop :=
   ∀ n, P3827406472707629585.a n = A350091 n
+
+end A350091
+
+/-! ## A350091.P5123524556178248803
+
+`A246425(A347840(n+1))-1`
+-/
+
+namespace A350091.P5123524556178248803
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246425 (A347840 (n + 1)).toNat - 1
+
+end
+
+end A350091.P5123524556178248803
+
+namespace A350091
+
+/-- `A246425(A347840(n+1))-1` -/
+def P5123524556178248803.Spec : Prop :=
+  ∀ n, P5123524556178248803.a n = A350091 n
 
 end A350091
 

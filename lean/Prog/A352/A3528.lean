@@ -7419,27 +7419,6 @@ end
 end A352875.P8120937658764171055
 
 /-!
-# A352876: Numbers k such that the sum of k, the divisors of k, and the numbers < k that are coprime to k, is a perfect power.
-
-The programs for A352876, there is no canonical definition to state claims against.
--/
-
-/-! ## A352876.P8739187084419422254
-
-`A096160(A038507(n))+A001615(n+1)`
--/
-
-namespace A352876.P8739187084419422254
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096160 (A038507 n).toNat + A001615 (n + 1)
-
-end
-
-end A352876.P8739187084419422254
-
-/-!
 # A352878: G.f. A(x) satisfies: A(x) = Sum_{n>=0} x^n * (A(x) - x^n)^n.
 
 The programs for A352878, there is no canonical definition to state claims against.

@@ -38,6 +38,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
@@ -3770,21 +3771,6 @@ end A177116
 
 The programs for A177117, there is no canonical definition to state claims against.
 -/
-
-/-! ## A177117.P12420281670388742381
-
-`A387881(A027376(n))`
--/
-
-namespace A177117.P12420281670388742381
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387881 (A027376 n).toNat
-
-end
-
-end A177117.P12420281670388742381
 
 /-! ## A177117.P3568932746914788226
 
@@ -8399,24 +8385,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A177193.P7355533545032280559
-
-/-! ## A177193.P11652753639068277342
-
-`record[A088524(or(3, 2*n)-a(n-1))]` with `a(0)=3, a(1)=3`
--/
-
-namespace A177193.P11652753639068277342
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [3, 3] fun n f1 =>
-  A088524 ((Nat.lor 3 (2 * n) : ℤ) - f1 (n - 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A177193.P11652753639068277342
 
 /-! ## A177193.P814855143962693698
 

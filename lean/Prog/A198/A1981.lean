@@ -3654,3 +3654,18 @@ end
 
 end A198198.P3418261046624634588
 
+/-! ## A198198.P3610030360279232407
+
+`A107616(A001977(n))`
+-/
+
+namespace A198198.P3610030360279232407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107616 (A001977 n).toNat
+
+end
+
+end A198198.P3610030360279232407
+

@@ -8182,29 +8182,26 @@ def P4791823026603363451.Spec : Prop :=
 
 end A208355
 
-/-! ## A208355.P7503547326500277340
+/-! ## A208355.P4330483897265020059
 
-`Δ[sqrt(C(n+1, lcm(2, n+2)/2)/(n+1))]²`
+`C(n, ceil(n/2))-C(n, ceil(n/2)+1)`
 -/
 
-namespace A208355.P7503547326500277340
+namespace A208355.P4330483897265020059
 noncomputable section
 
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt ((Nat.choose (n + 1) (SequenceMachineLib.roundAway ((Nat.lcm 2 (n + 2) : ℚ) / 2)).toNat : ℚ) / (n + 1 : ℚ) : ℝ)
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) - f1 n) ^ 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n ⌈(n : ℚ) / 2⌉.toNat : ℤ) - (Nat.choose n (⌈(n : ℚ) / 2⌉ + 1).toNat : ℤ)
 
 end
 
-end A208355.P7503547326500277340
+end A208355.P4330483897265020059
 
 namespace A208355
 
-/-- `Δ[sqrt(C(n+1, lcm(2, n+2)/2)/(n+1))]²` -/
-def P7503547326500277340.Spec : Prop :=
-  ∀ n, P7503547326500277340.a n = (A208355 n : ℝ)
+/-- `C(n, ceil(n/2))-C(n, ceil(n/2)+1)` -/
+def P4330483897265020059.Spec : Prop :=
+  ∀ n, P4330483897265020059.a n = A208355 n
 
 end A208355
 

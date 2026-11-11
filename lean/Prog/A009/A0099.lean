@@ -3497,29 +3497,6 @@ theorem P9096011273458814909.correct : P9096011273458814909.Spec := by
 
 end A009955
 
-/-! ## A009955.P10509300198938599392
-
-`A339948(A000051(n))+A002939(n)`
--/
-
-namespace A009955.P10509300198938599392
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339948 (A000051 n).toNat + A002939 n
-
-end
-
-end A009955.P10509300198938599392
-
-namespace A009955
-
-/-- `A339948(A000051(n))+A002939(n)` -/
-def P10509300198938599392.Spec : Prop :=
-  ∀ n, P10509300198938599392.a n = A009955 n
-
-end A009955
-
 /-!
 # A009956: Coordination sequence for FeS2-Pyrite, S position.
 
@@ -7164,6 +7141,29 @@ namespace A009998
 /-- `A002260(n+1)^(A000096(A003056(n))-n)` -/
 def P7505210593186885423.Spec : Prop :=
   ∀ n, P7505210593186885423.a n = (A009998 n : ℚ)
+
+end A009998
+
+/-! ## A009998.P2252393532623112129
+
+`A009999(A061579(n))`
+-/
+
+namespace A009998.P2252393532623112129
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009999 (A061579 n).toNat
+
+end
+
+end A009998.P2252393532623112129
+
+namespace A009998
+
+/-- `A009999(A061579(n))` -/
+def P2252393532623112129.Spec : Prop :=
+  ∀ n, P2252393532623112129.a n = A009998 n
 
 end A009998
 

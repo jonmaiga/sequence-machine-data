@@ -1993,6 +1993,29 @@ def P16919892655511553346.Spec : Prop :=
 
 end A281815
 
+/-! ## A281815.P5014942041921756581
+
+`A153860(A017653(n)-(n+2))`
+-/
+
+namespace A281815.P5014942041921756581
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153860 (A017653 n - (n + 2 : ℤ)).toNat
+
+end
+
+end A281815.P5014942041921756581
+
+namespace A281815
+
+/-- `A153860(A017653(n)-(n+2))` -/
+def P5014942041921756581.Spec : Prop :=
+  ∀ n, P5014942041921756581.a n = A281815 n
+
+end A281815
+
 /-!
 # A281817: a(n) = 2*Sum_{k odd} k!*Stirling2(n,k)/(k + 1).
 

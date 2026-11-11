@@ -34,6 +34,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C046
@@ -4573,21 +4574,6 @@ end A157144
 The programs for A157147, there is no canonical definition to state claims against.
 -/
 
-/-! ## A157147.P1915377803500467704
-
-`A185284(A141689(n+1))+A141691(n+1)`
--/
-
-namespace A157147.P1915377803500467704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A141689 (n + 1)).toNat + A141691 (n + 1)
-
-end
-
-end A157147.P1915377803500467704
-
 /-! ## A157147.P6294409507677172841
 
 `A328037(A323348(n))+A157523(n)`
@@ -4603,50 +4589,65 @@ end
 
 end A157147.P6294409507677172841
 
-/-! ## A157147.P1660099839146745588
+/-! ## A157147.P195888689356361571
 
-`A185284(A008486(n))+A141691(n+1)`
+`A113004(A056940(n))`
 -/
 
-namespace A157147.P1660099839146745588
+namespace A157147.P195888689356361571
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A008486 n).toNat + A141691 (n + 1)
+  A113004 (A056940 n).toNat
 
 end
 
-end A157147.P1660099839146745588
+end A157147.P195888689356361571
 
-/-! ## A157147.P5383315968442322951
+/-! ## A157147.P2753838785753511861
 
-`A185284(A008585(n))+A141691(n+1)`
+`A004195(A168619(n))`
 -/
 
-namespace A157147.P5383315968442322951
+namespace A157147.P2753838785753511861
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A008585 n).toNat + A141691 (n + 1)
+  A004195 (A168619 n).toNat
 
 end
 
-end A157147.P5383315968442322951
+end A157147.P2753838785753511861
 
-/-! ## A157147.P10708101930674201880
+/-! ## A157147.P17617093684029888853
 
-`A185284(A181385(n))+A141691(n+1)`
+`A026496(A157221(n))`
 -/
 
-namespace A157147.P10708101930674201880
+namespace A157147.P17617093684029888853
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A181385 n).toNat + A141691 (n + 1)
+  A026496 (A157221 n).toNat
 
 end
 
-end A157147.P10708101930674201880
+end A157147.P17617093684029888853
+
+/-! ## A157147.P8586981963646890583
+
+`A026496(A174036(n))`
+-/
+
+namespace A157147.P8586981963646890583
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026496 (A174036 n).toNat
+
+end
+
+end A157147.P8586981963646890583
 
 /-!
 # A157148: Triangle T(n, k, m) = (m*(n-k) + 1)*T(n-1, k-1, m) + (m*k + 1)*T(n-1, k, m) + m*k*(n-k)*T(n-2, k-1, m) with T(n, 0, m) = T(n, n, m) = 1 and m = 2, read by rows.
@@ -6615,6 +6616,21 @@ end
 
 end A157177.P16853264463133716941
 
+/-! ## A157177.P1973136672004662257
+
+`A008292(n+1)+A008292(n+1)-A157179(n)`
+-/
+
+namespace A157177.P1973136672004662257
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008292 (n + 1) + A008292 (n + 1) - A157179 n
+
+end
+
+end A157177.P1973136672004662257
+
 /-! ## A157177.P10002001701286597572
 
 `A176200(n)+1-(2*A157180(n)-A157181(n))`
@@ -6776,6 +6792,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A157179.P1110568144907230309
+
+/-! ## A157179.P11533931319509151897
+
+`A008292(n+1)+A008292(n+1)-A157177(n)`
+-/
+
+namespace A157179.P11533931319509151897
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008292 (n + 1) + A008292 (n + 1) - A157177 n
+
+end
+
+end A157179.P11533931319509151897
 
 /-! ## A157179.P12689821010814837638
 
@@ -7266,21 +7297,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A157188.P1798000940611178908
-
-/-! ## A157188.P9785925833375001719
-
-`A157187(A216886(n+1))`
--/
-
-namespace A157188.P9785925833375001719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A157187 (A216886 (n + 1)).toNat
-
-end
-
-end A157188.P9785925833375001719
 
 /-! ## A157188.P1666246548276073022
 
@@ -9044,25 +9060,4 @@ def P1937366995482613068.Spec : Prop :=
   ∀ n, (P1937366995482613068.a n : ℤ) = A157196 (n + 1)
 
 end A157196
-
-/-!
-# A157198: Integers n such that by inserting between their digits + or - or * or / or ^ or nothing (i.e., concatenate two digits) you recover n back in a nontrivial way.
-
-The programs for A157198, there is no canonical definition to state claims against.
--/
-
-/-! ## A157198.P9349745575460095901
-
-`A080035(A325705(n)+A275972(3*n+4))`
--/
-
-namespace A157198.P9349745575460095901
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080035 (A325705 n + A275972 (3 * n + 4)).toNat
-
-end
-
-end A157198.P9349745575460095901
 

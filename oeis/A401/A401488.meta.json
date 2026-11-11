@@ -1,0 +1,22 @@
+{
+  "description": "Number of Boolean functions of n variables up to duality, where f is identified with its dual f^d(x) = NOT f(NOT x).",
+  "id": "A401488",
+  "mentions": [
+    "A000217",
+    "A001146",
+    "A005418",
+    "A007582",
+    "A051437",
+    "A191363"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

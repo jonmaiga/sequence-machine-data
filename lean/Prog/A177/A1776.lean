@@ -2111,6 +2111,24 @@ end
 
 end A177692.P15474637348577132080
 
+/-! ## A177692.P15166999952454945164
+
+`filter[A055679(2*n+1), A059841(#)]`
+-/
+
+namespace A177692.P15166999952454945164
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055679 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A059841 (f1 j).toNat = 1) n)
+
+end
+
+end A177692.P15166999952454945164
+
 /-!
 # A177693: Triangle, read by rows, T(n, k) = p(n)/(p(k)*p(n-k)), where p(n) = Product_{j=1..n} A001607(j).
 

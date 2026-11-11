@@ -20,6 +20,7 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -6121,21 +6122,6 @@ end A217057.P11128867908240371952
 
 The programs for A217058, there is no canonical definition to state claims against.
 -/
-
-/-! ## A217058.P13208812642837680116
-
-`A254671(A180122(n+3))-(n+2)`
--/
-
-namespace A217058.P13208812642837680116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254671 (A180122 (n + 3)).toNat - (n + 2 : ℤ)
-
-end
-
-end A217058.P13208812642837680116
 
 /-! ## A217058.P6696170727379436288
 

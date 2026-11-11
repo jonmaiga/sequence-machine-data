@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -40,7 +41,6 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C045
-import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1957,6 +1957,29 @@ def P6993038521628248641.Spec : Prop :=
 
 end A126114
 
+/-! ## A126114.P2470853340854053305
+
+`A000290(A122197(n+1))`
+-/
+
+namespace A126114.P2470853340854053305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A122197 (n + 1)).toNat
+
+end
+
+end A126114.P2470853340854053305
+
+namespace A126114
+
+/-- `A000290(A122197(n+1))` -/
+def P2470853340854053305.Spec : Prop :=
+  ∀ n, P2470853340854053305.a n = A126114 (n + 1)
+
+end A126114
+
 /-! ## A126114.P5311318203329534693
 
 `A253909(A055087(n)+1)`
@@ -2161,29 +2184,6 @@ namespace A126114
 /-- `A002620(A122197(n+1)+A122197(n+1))` -/
 def P4433071437627425521.Spec : Prop :=
   ∀ n, P4433071437627425521.a n = A126114 (n + 1)
-
-end A126114
-
-/-! ## A126114.P651495251355528557
-
-`A076921(A122197(n+1)+A122197(n+1))`
--/
-
-namespace A126114.P651495251355528557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076921 (A122197 (n + 1) + A122197 (n + 1)).toNat
-
-end
-
-end A126114.P651495251355528557
-
-namespace A126114
-
-/-- `A076921(A122197(n+1)+A122197(n+1))` -/
-def P651495251355528557.Spec : Prop :=
-  ∀ n, P651495251355528557.a n = A126114 (n + 1)
 
 end A126114
 
@@ -4539,25 +4539,6 @@ end A126131.P7673249452130205235
 
 The programs for A126132, there is no canonical definition to state claims against.
 -/
-
-/-! ## A126132.P14003077614484582000
-
-`A046523(n+1)-char[A400671(2*(n+2))]`
--/
-
-namespace A126132.P14003077614484582000
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400671 (2 * (n + 2))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046523 (n + 1) - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A126132.P14003077614484582000
 
 /-! ## A126132.P2607379731439938351
 
@@ -7874,56 +7855,50 @@ end A126170.P12116181239116869110
 The programs for A126171, there is no canonical definition to state claims against.
 -/
 
-/-! ## A126171.P6475318838704542269
+/-! ## A126171.P5342061981603867943
 
-`A060089(n)-A340596(∑{digits}[n, #^#])`
+`A214294(A007053(n+1))`
 -/
 
-namespace A126171.P6475318838704542269
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060089 n - A340596 ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x ^ x).sum
-
-end
-
-end A126171.P6475318838704542269
-
-/-! ## A126171.P8865686539483678951
-
-`A061392(A206901(n))-A008620(n)`
--/
-
-namespace A126171.P8865686539483678951
+namespace A126171.P5342061981603867943
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061392 (A206901 n).toNat - A008620 n
+  A214294 (A007053 (n + 1)).toNat
 
 end
 
-end A126171.P8865686539483678951
+end A126171.P5342061981603867943
 
-/-! ## A126171.P3218249277145288602
+/-! ## A126171.P13061711291043911061
 
-`∑[A073188(A073192(n)²)-A109906(n)]`
+`A214294(A168445(n+1))`
 -/
 
-namespace A126171.P3218249277145288602
+namespace A126171.P13061711291043911061
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073188 (A073192 n ^ 2).toNat - A109906 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A214294 (A168445 (n + 1)).toNat
 
 end
 
-end A126171.P3218249277145288602
+end A126171.P13061711291043911061
+
+/-! ## A126171.P311715250648305314
+
+`A214294(A201542(n+1))`
+-/
+
+namespace A126171.P311715250648305314
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214294 (A201542 (n + 1)).toNat
+
+end
+
+end A126171.P311715250648305314
 
 /-!
 # A126172: Smaller element of a reduced infinitary amicable pair.

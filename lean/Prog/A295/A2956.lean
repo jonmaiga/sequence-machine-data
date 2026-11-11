@@ -1767,6 +1767,75 @@ def P420372271691188100.Spec : Prop :=
 
 end A295619
 
+/-! ## A295619.P9465337899823915512
+
+`A052955(n+1)+A000045(n)-A052955(n)`
+-/
+
+namespace A295619.P9465337899823915512
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052955 (n + 1) + A000045 n - A052955 n
+
+end
+
+end A295619.P9465337899823915512
+
+namespace A295619
+
+/-- `A052955(n+1)+A000045(n)-A052955(n)` -/
+def P9465337899823915512.Spec : Prop :=
+  ∀ n, P9465337899823915512.a n = A295619 n
+
+end A295619
+
+/-! ## A295619.P14192088382114232326
+
+`A097896(n+1)-A295725(n)`
+-/
+
+namespace A295619.P14192088382114232326
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097896 (n + 1) - A295725 n
+
+end
+
+end A295619.P14192088382114232326
+
+namespace A295619
+
+/-- `A097896(n+1)-A295725(n)` -/
+def P14192088382114232326.Spec : Prop :=
+  ∀ n, P14192088382114232326.a n = A295619 n
+
+end A295619
+
+/-! ## A295619.P16734994241074813474
+
+`A053602(2*n)+A016116(n)`
+-/
+
+namespace A295619.P16734994241074813474
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053602 (2 * n) + A016116 n
+
+end
+
+end A295619.P16734994241074813474
+
+namespace A295619
+
+/-- `A053602(2*n)+A016116(n)` -/
+def P16734994241074813474.Spec : Prop :=
+  ∀ n, P16734994241074813474.a n = A295619 n
+
+end A295619
+
 /-!
 # A295620: Solution of the complementary equation a(n) = a(n-1) + 3*a(n-2) -2*a(n-3) - 2*a(n-4) + b(n-4), where a(0) = 1, a(1) = 2, a(2) = 3, a(3) = 4, b(0) = 5, b(1) = 6, b(2) = 7, b(3) = 8, and (a(n)) and (b(n)) are increasing complementary sequences.
 

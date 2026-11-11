@@ -2401,6 +2401,21 @@ end
 
 end A285213.P474096944136428562
 
+/-! ## A285213.P15671052914345445859
+
+`A262811(n)*A285339(n)/A284628(n)`
+-/
+
+namespace A285213.P15671052914345445859
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A262811 n * A285339 n : ℚ) / (A284628 n : ℚ)
+
+end
+
+end A285213.P15671052914345445859
+
 /-!
 # A285214: Expansion of Product_{k>=0} (1-x^(5*k+4))^(5*k+4).
 
@@ -11600,6 +11615,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A285277.P3629021985420467518
+
+/-! ## A285277.P2119784190778562846
+
+`A285274(A285342(n+1))`
+-/
+
+namespace A285277.P2119784190778562846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285274 (A285342 (n + 1)).toNat
+
+end
+
+end A285277.P2119784190778562846
 
 /-!
 # A285278: Positions of 0 in A285277; complement of A285279.

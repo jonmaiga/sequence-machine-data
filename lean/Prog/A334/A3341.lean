@@ -57,6 +57,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5586,6 +5587,24 @@ end
 
 end A334141.P757651860116027988
 
+/-! ## A334141.P936503028607342786
+
+`filter[A062505(n+1), A401714(#)]`
+-/
+
+namespace A334141.P936503028607342786
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062505 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401714 (f1 j).toNat = 1) n)
+
+end
+
+end A334141.P936503028607342786
+
 /-! ## A334141.P5939629111760502304
 
 `∩[A005117(n+1), A062505(n+1)]`
@@ -5827,24 +5846,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A334141.P13564092903678934800
-
-/-! ## A334141.P16979012186951188158
-
-`record[A072963(A005117(1+n))]`
--/
-
-namespace A334141.P16979012186951188158
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072963 (A005117 (1 + n)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A334141.P16979012186951188158
 
 /-!
 # A334142: Indices of twin primes.
@@ -9646,20 +9647,23 @@ end
 
 end A334175.P4221629345745085237
 
-/-! ## A334175.P3137602830242308550
+/-! ## A334175.P10568454139101394518
 
-`A112132(A122868(n))*A322804(2*n+2)`
+`filter[A322804(n+2), A401791(#)]`
 -/
 
-namespace A334175.P3137602830242308550
+namespace A334175.P10568454139101394518
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322804 (n + 2)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112132 (A122868 n).toNat * A322804 (2 * n + 2)
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
 
 end
 
-end A334175.P3137602830242308550
+end A334175.P10568454139101394518
 
 /-!
 # A334176: Squarefree part of numerator of the squared area of the Heronian triangle with sequential odd sides whose shortest leg is 2*n+1.

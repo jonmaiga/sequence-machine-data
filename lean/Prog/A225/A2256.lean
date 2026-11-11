@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -8689,6 +8688,29 @@ def P16951479653590242109.Spec : Prop :=
 
 end A225668
 
+/-! ## A225668.P2548761949927831909
+
+`A329202((n+1)²)`
+-/
+
+namespace A225668.P2548761949927831909
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329202 ((n + 1) ^ 2)
+
+end
+
+end A225668.P2548761949927831909
+
+namespace A225668
+
+/-- `A329202((n+1)²)` -/
+def P2548761949927831909.Spec : Prop :=
+  ∀ n, P2548761949927831909.a n = A225668 (n + 1)
+
+end A225668
+
 /-! ## A225668.P6108796582791327956
 
 `A396686((n+1)²)-2`
@@ -10930,20 +10952,20 @@ end
 
 end A225687.P8587942246954705420
 
-/-! ## A225687.P9683476651261353072
+/-! ## A225687.P15493083867996810856
 
-`A167151(2*(n+1))-(n+1)`
+`A232746(A030124(n+1))`
 -/
 
-namespace A225687.P9683476651261353072
+namespace A225687.P15493083867996810856
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167151 (2 * (n + 1)) - (n + 1 : ℤ)
+  A232746 (A030124 (n + 1)).toNat
 
 end
 
-end A225687.P9683476651261353072
+end A225687.P15493083867996810856
 
 /-!
 # A225688: E.g.f.: sec(x)^3+(sec(x)^2*tan(x)).

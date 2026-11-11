@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A046801(k).",
+  "id": "A401468",
+  "mentions": [
+    "A046801"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

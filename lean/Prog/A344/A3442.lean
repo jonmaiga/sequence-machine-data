@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -44,7 +45,6 @@ import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -55,7 +55,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
@@ -1267,25 +1266,25 @@ end A344219
 /-!
 # A344220: a(n) is the least k >= 0 such that n XOR k is a binary palindrome (where XOR denotes the bitwise XOR operator).
 
-The programs for A344220, the canonical program `A344220.P16997399058361643495` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344220 has offset 0).
+The programs for A344220, the canonical program `A344220.P5086997211750077548` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344220 has offset 0).
 
 The definition of A344220 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A344220.P16997399058361643495
+/-! ## A344220.P5086997211750077548
 
-`A175919(n)%A016116(A070939(n))`
+`A175919(n)%A217871(n)`
 
 The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A344220
 
-/-- `A175919(n)%A016116(A070939(n))` -/
-def P16997399058361643495.Spec : Prop :=
-  ∀ n, P16997399058361643495.a n = A344220 n
+/-- `A175919(n)%A217871(n)` -/
+def P5086997211750077548.Spec : Prop :=
+  ∀ n, P5086997211750077548.a n = A344220 n
 
-theorem P16997399058361643495.correct : P16997399058361643495.Spec := by
+theorem P5086997211750077548.correct : P5086997211750077548.Spec := by
   intro n
   simp only [A344220]
 
@@ -1380,29 +1379,6 @@ namespace A344220
 /-- `and(A003817(A257639(n+1)), A175919(n))` -/
 def P4025473193449446255.Spec : Prop :=
   ∀ n, P4025473193449446255.a n = A344220 n
-
-end A344220
-
-/-! ## A344220.P5086997211750077548
-
-`A175919(n)%A217871(n)`
--/
-
-namespace A344220.P5086997211750077548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A175919 n) (A217871 n)
-
-end
-
-end A344220.P5086997211750077548
-
-namespace A344220
-
-/-- `A175919(n)%A217871(n)` -/
-def P5086997211750077548.Spec : Prop :=
-  ∀ n, P5086997211750077548.a n = A344220 n
 
 end A344220
 

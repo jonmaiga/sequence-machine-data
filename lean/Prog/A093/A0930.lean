@@ -1394,6 +1394,21 @@ end
 
 end A093008.P4734341669139473662
 
+/-! ## A093008.P13267352145629130495
+
+`A037861(n+1)-A037861(A093009(n+1))`
+-/
+
+namespace A093008.P13267352145629130495
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037861 (n + 1) - A037861 (A093009 (n + 1)).toNat
+
+end
+
+end A093008.P13267352145629130495
+
 /-! ## A093008.P11723510134916543266
 
 `A029837(A093009(n+1))-A070939(n+1)`
@@ -8472,6 +8487,29 @@ def P8793963396817783029.Spec : Prop :=
 
 end A093045
 
+/-! ## A093045.P9516179764503194976
+
+`A000045(n)*A078008(n)`
+-/
+
+namespace A093045.P9516179764503194976
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000045 n * A078008 n
+
+end
+
+end A093045.P9516179764503194976
+
+namespace A093045
+
+/-- `A000045(n)*A078008(n)` -/
+def P9516179764503194976.Spec : Prop :=
+  ∀ n, P9516179764503194976.a n = A093045 n
+
+end A093045
+
 /-! ## A093045.P15617381531504641464
 
 `A093043(n+1)-A093042(n)`
@@ -8492,6 +8530,29 @@ namespace A093045
 /-- `A093043(n+1)-A093042(n)` -/
 def P15617381531504641464.Spec : Prop :=
   ∀ n, P15617381531504641464.a n = A093045 n
+
+end A093045
+
+/-! ## A093045.P3907949796964611836
+
+`A000045(n)*A230096(2*n)`
+-/
+
+namespace A093045.P3907949796964611836
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000045 n * A230096 (2 * n)
+
+end
+
+end A093045.P3907949796964611836
+
+namespace A093045
+
+/-- `A000045(n)*A230096(2*n)` -/
+def P3907949796964611836.Spec : Prop :=
+  ∀ n, P3907949796964611836.a n = A093045 n
 
 end A093045
 
@@ -8648,6 +8709,52 @@ namespace A093045
 /-- `Δ[A001611(n+1)]*Δ[A001045(n)]` -/
 def P15364410743437804332.Spec : Prop :=
   ∀ n, P15364410743437804332.a n = A093045 n
+
+end A093045
+
+/-! ## A093045.P9043162542838502453
+
+`(A078024(n+1)+A078024(n))*A078008(n)`
+-/
+
+namespace A093045.P9043162542838502453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A078024 (n + 1) + A078024 n) * A078008 n
+
+end
+
+end A093045.P9043162542838502453
+
+namespace A093045
+
+/-- `(A078024(n+1)+A078024(n))*A078008(n)` -/
+def P9043162542838502453.Spec : Prop :=
+  ∀ n, P9043162542838502453.a n = A093045 n
+
+end A093045
+
+/-! ## A093045.P10339515897722301790
+
+`A000045(n)*A093121(n)/A000045(n+1)`
+-/
+
+namespace A093045.P10339515897722301790
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000045 n * A093121 n : ℚ) / (A000045 (n + 1) : ℚ)
+
+end
+
+end A093045.P10339515897722301790
+
+namespace A093045
+
+/-- `A000045(n)*A093121(n)/A000045(n+1)` -/
+def P10339515897722301790.Spec : Prop :=
+  ∀ n, P10339515897722301790.a n = (A093045 n : ℚ)
 
 end A093045
 
@@ -13908,6 +14015,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A093085.P13398993292639557667
+
+/-! ## A093085.P16295140115213274652
+
+`A134178(A108752(n+1))`
+-/
+
+namespace A093085.P16295140115213274652
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134178 (A108752 (n + 1)).toNat
+
+end
+
+end A093085.P16295140115213274652
 
 /-!
 # A093086: "Fibonacci in digits": start with a(0)=0, a(1)=1; repeatedly adjoin the digits of the sum of the next two terms.

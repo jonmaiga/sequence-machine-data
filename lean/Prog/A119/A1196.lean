@@ -30,7 +30,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -770,6 +769,21 @@ end
 
 end A119609.P7225364158598978709
 
+/-! ## A119609.P12058679588628457578
+
+`A394678(A119570(n+1))`
+-/
+
+namespace A119609.P12058679588628457578
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394678 (A119570 (n + 1)).toNat
+
+end
+
+end A119609.P12058679588628457578
+
 /-! ## A119609.P16802210888795707554
 
 `A028387(A119570(n+1)-2)`
@@ -820,24 +834,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119609.P7112992399456721573
-
-/-! ## A119609.P11791181909850022204
-
-`filter[A033879(A000040(n+1)²), A005171(#)]`
--/
-
-namespace A119609.P11791181909850022204
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033879 (A000040 (n + 1) ^ 2).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
-
-end
-
-end A119609.P11791181909850022204
 
 /-!
 # A119610: Number of cases in which the first player is killed in a Russian roulette game where 5 players use a gun with n chambers and the number of bullets can be from 1 to n. Players do not rotate the cylinder after the game starts.
@@ -2892,6 +2888,36 @@ end
 
 end A119620.P17724186759135441217
 
+/-! ## A119620.P12642708821042497672
+
+`A000041(n)-A347448(n)`
+-/
+
+namespace A119620.P12642708821042497672
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 n - A347448 n
+
+end
+
+end A119620.P12642708821042497672
+
+/-! ## A119620.P2371346848300470904
+
+`A000041(n+1)-A083690(n+1)`
+-/
+
+namespace A119620.P2371346848300470904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 (n + 1) - A083690 (n + 1)
+
+end
+
+end A119620.P2371346848300470904
+
 /-! ## A119620.P15584636894033742036
 
 `A035444(and(2*n, -3))`
@@ -2906,6 +2932,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119620.P15584636894033742036
+
+/-! ## A119620.P11521767326888304867
+
+`A025065(n)-A386638(n)`
+-/
+
+namespace A119620.P11521767326888304867
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025065 n - A386638 n
+
+end
+
+end A119620.P11521767326888304867
+
+/-! ## A119620.P3541650927085870861
+
+`A386638(n+2)-A386638(n)`
+-/
+
+namespace A119620.P3541650927085870861
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386638 (n + 2) - A386638 n
+
+end
+
+end A119620.P3541650927085870861
 
 /-! ## A119620.P4353663079324743720
 
@@ -2922,56 +2978,20 @@ end
 
 end A119620.P4353663079324743720
 
-/-! ## A119620.P3313121306405181798
+/-! ## A119620.P16379743262379615796
 
-`sqrt(A001255(floor(n/2)))`
+`A035363(2*n)-A347448(n)`
 -/
 
-namespace A119620.P3313121306405181798
+namespace A119620.P16379743262379615796
 noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A001255 ⌊(n : ℚ) / 2⌋.toNat : ℝ)
-
-end
-
-end A119620.P3313121306405181798
-
-/-! ## A119620.P6640851644467575523
-
-`∑{#}[floor(n/2), A002865(#)]`
--/
-
-namespace A119620.P6640851644467575523
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n : ℚ) / 2⌋
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1).toNat, A002865 k
+  A035363 (2 * n) - A347448 n
 
 end
 
-end A119620.P6640851644467575523
-
-/-! ## A119620.P16659813275120662021
-
-`A058398(fp[sqrt(2*n)])`
--/
-
-namespace A119620.P16659813275120662021
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (2 * n : ℝ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058398 (SequenceMachineLib.nth (fun j => (n : ℝ) < f1 j) 0)
-
-end
-
-end A119620.P16659813275120662021
+end A119620.P16379743262379615796
 
 /-!
 # A119622: Numbers m such that no group of order m is a Con-Cos group.
@@ -5841,6 +5861,21 @@ end
 
 end A119653.P11340095402411738537
 
+/-! ## A119653.P12721246763551538228
+
+`A219964(A072055(n+1))`
+-/
+
+namespace A119653.P12721246763551538228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219964 (A072055 (n + 1)).toNat
+
+end
+
+end A119653.P12721246763551538228
+
 /-! ## A119653.P12878218971308342953
 
 `A145737(A216886(n+1))`
@@ -5855,21 +5890,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119653.P12878218971308342953
-
-/-! ## A119653.P3326833163400084587
-
-`A177735(A383578(n+1))`
--/
-
-namespace A119653.P3326833163400084587
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177735 (A383578 (n + 1)).toNat
-
-end
-
-end A119653.P3326833163400084587
 
 /-!
 # A119656: Denominator of BernoulliB(4*prime(n))/30.
@@ -10986,6 +11006,29 @@ def P15990046988535848978.Spec : Prop :=
 
 end A119690
 
+/-! ## A119690.P15869746783086887794
+
+`(n+1)*A063524(A210256(n+1))`
+-/
+
+namespace A119690.P15869746783086887794
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A063524 (A210256 (n + 1)).toNat
+
+end
+
+end A119690.P15869746783086887794
+
+namespace A119690
+
+/-- `(n+1)*A063524(A210256(n+1))` -/
+def P15869746783086887794.Spec : Prop :=
+  ∀ n, P15869746783086887794.a n = A119690 (n + 1)
+
+end A119690
+
 /-! ## A119690.P8055018028543827213
 
 `A000265(n+2)-A171435(n+2)`
@@ -11075,29 +11118,6 @@ namespace A119690
 /-- `and(A090585(n+1), A140524(n+1))` -/
 def P4142390266453663417.Spec : Prop :=
   ∀ n, P4142390266453663417.a n = A119690 (n + 1)
-
-end A119690
-
-/-! ## A119690.P13567344878316914992
-
-`(n+1)*A080545(n+2)`
--/
-
-namespace A119690.P13567344878316914992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A080545 (n + 2)
-
-end
-
-end A119690.P13567344878316914992
-
-namespace A119690
-
-/-- `(n+1)*A080545(n+2)` -/
-def P13567344878316914992.Spec : Prop :=
-  ∀ n, P13567344878316914992.a n = A119690 (n + 1)
 
 end A119690
 

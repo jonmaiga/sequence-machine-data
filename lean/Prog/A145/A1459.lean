@@ -38,7 +38,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
@@ -6664,24 +6664,6 @@ end
 
 end A145947.P14937702499139115563
 
-/-! ## A145947.P6462572648653072530
-
-`or(1, ∑[A376985(2*n+5)])`
--/
-
-namespace A145947.P6462572648653072530
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376985 (2 * n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A145947.P6462572648653072530
-
 /-! ## A145947.P7404558602932965934
 
 `A156724(A192570(n))`
@@ -6726,6 +6708,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145947.P11571084933703880730
+
+/-! ## A145947.P13227995356646084079
+
+`A358636(A088219(n))`
+-/
+
+namespace A145947.P13227995356646084079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358636 (A088219 n).toNat
+
+end
+
+end A145947.P13227995356646084079
 
 /-!
 # A145948: Number of n X n binary arrays symmetric about the diagonal and under 90-degree rotation with all ones connected in a 3 X 2 elbow 1,1 1,2 1,3 2,3 in any orientation.
@@ -8319,6 +8316,21 @@ end
 
 end A145977.P13180983246326454758
 
+/-! ## A145977.P13927345248416607235
+
+`A128641(n)*A213267(n)/A164617(n)`
+-/
+
+namespace A145977.P13927345248416607235
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A128641 n * A213267 n : ℚ) / (A164617 n : ℚ)
+
+end
+
+end A145977.P13927345248416607235
+
 /-!
 # A145978: Expansion of 1/(1-x*(1-8*x)).
 
@@ -9241,6 +9253,29 @@ def P7297336203449442969.Spec : Prop :=
 
 end A145984
 
+/-! ## A145984.P15315129147863517815
+
+`C(2^n, n)*n!/2^n`
+-/
+
+namespace A145984.P15315129147863517815
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (2 ^ n) n * Nat.factorial n : ℚ) / (2 ^ n : ℚ)
+
+end
+
+end A145984.P15315129147863517815
+
+namespace A145984
+
+/-- `C(2^n, n)*n!/2^n` -/
+def P15315129147863517815.Spec : Prop :=
+  ∀ n, P15315129147863517815.a n = (A145984 n : ℚ)
+
+end A145984
+
 /-! ## A145984.P6250230011913140329
 
 `A088229(n)/2^n`
@@ -9261,84 +9296,6 @@ namespace A145984
 /-- `A088229(n)/2^n` -/
 def P6250230011913140329.Spec : Prop :=
   ∀ n, P6250230011913140329.a n = (A145984 n : ℚ)
-
-end A145984
-
-/-! ## A145984.P15002918309621626165
-
-`n!*C(2^n, n)/record[A029930(n)]`
--/
-
-namespace A145984.P15002918309621626165
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029930 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n * Nat.choose (2 ^ n) n : ℚ) / (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) : ℚ)
-
-end
-
-end A145984.P15002918309621626165
-
-namespace A145984
-
-/-- `n!*C(2^n, n)/record[A029930(n)]` -/
-def P15002918309621626165.Spec : Prop :=
-  ∀ n, P15002918309621626165.a n = (A145984 n : ℚ)
-
-end A145984
-
-/-! ## A145984.P7453468613197722742
-
-`n!*C(2^n, n)/record[A048483(n)]`
--/
-
-namespace A145984.P7453468613197722742
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048483 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n * Nat.choose (2 ^ n) n : ℚ) / (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) : ℚ)
-
-end
-
-end A145984.P7453468613197722742
-
-namespace A145984
-
-/-- `n!*C(2^n, n)/record[A048483(n)]` -/
-def P7453468613197722742.Spec : Prop :=
-  ∀ n, P7453468613197722742.a n = (A145984 n : ℚ)
-
-end A145984
-
-/-! ## A145984.P9275856097121471541
-
-`n!*C(2^n, n)/record[A072345(n)]`
--/
-
-namespace A145984.P9275856097121471541
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072345 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial n * Nat.choose (2 ^ n) n : ℚ) / (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) : ℚ)
-
-end
-
-end A145984.P9275856097121471541
-
-namespace A145984
-
-/-- `n!*C(2^n, n)/record[A072345(n)]` -/
-def P9275856097121471541.Spec : Prop :=
-  ∀ n, P9275856097121471541.a n = (A145984 n : ℚ)
 
 end A145984
 

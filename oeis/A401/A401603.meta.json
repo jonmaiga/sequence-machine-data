@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of instructions executed before executing the halting instruction at the end of a halting computation of an n-instruction register Minsky machine.",
+  "id": "A401603",
+  "mentions": [
+    "A081419"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

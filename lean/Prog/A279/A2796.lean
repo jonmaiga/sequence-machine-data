@@ -31,6 +31,7 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C001
@@ -7107,7 +7108,7 @@ end A279682
 /-!
 # A279683: Number of move operations required to sort all permutations of [n] by MTF sort.
 
-The programs for A279683, the canonical program `A279683.P10191804314101384909` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279683 has offset 0).
+The programs for A279683, the canonical program `A279683.P10191804314101384909` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279683 has offset 0).
 
 The definition of A279683 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7116,7 +7117,7 @@ The definition of A279683 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*n+(n-1)!*(2^(n-1)-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A279683
@@ -7248,7 +7249,7 @@ end A279683
 /-!
 # A279684: The maximum number of coins that can be processed in n weighings that all are real except for one LHR-coin starting in the heavy or real state.
 
-The programs for A279684, the canonical program `A279684.P4033075778781296862` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279684 has offset 0).
+The programs for A279684, the canonical program `A279684.P4033075778781296862` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279684 has offset 0).
 
 The definition of A279684 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7280,7 +7281,7 @@ end A279684
 
 `3*a(n-1)-a(n-2)+a(n-3)-2*a(n-4)-8*a(n-5)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=15, a(4)=37`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A279684
@@ -7419,7 +7420,7 @@ end A279684
 /-!
 # A279685: The maximum number of coins that can be processed in n weighings of an adaptive strategy that all are real (and identical) except for one LHR-coin starting in an unknown state.
 
-The programs for A279685, the canonical program `A279685.P810604147465190313` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279685 has offset 0).
+The programs for A279685, the canonical program `A279685.P810604147465190313` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279685 has offset 0).
 
 The definition of A279685 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7428,7 +7429,7 @@ The definition of A279685 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-2x+3x^2-5x^3+6x^4-2x^5+4x^6+4x^7-7x^8-4x^9)/(1-3x+3x^2-5x^3+4x^4))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A279685

@@ -9277,6 +9277,32 @@ def P14576796829866571516.Spec : Prop :=
 
 end A053644
 
+/-! ## A053644.P8280948927624402834
+
+`fp[A099890(n)]`
+-/
+
+namespace A053644.P8280948927624402834
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099890 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
+
+end
+
+end A053644.P8280948927624402834
+
+namespace A053644
+
+/-- `fp[A099890(n)]` -/
+def P8280948927624402834.Spec : Prop :=
+  ∀ n, (P8280948927624402834.a n : ℤ) = A053644 n
+
+end A053644
+
 /-! ## A053644.P15207509196109527194
 
 `fp[A131136(n)]`
@@ -9300,32 +9326,6 @@ namespace A053644
 /-- `fp[A131136(n)]` -/
 def P15207509196109527194.Spec : Prop :=
   ∀ n, (P15207509196109527194.a n : ℤ) = A053644 n
-
-end A053644
-
-/-! ## A053644.P12612439184432016484
-
-`fp[A267584(n)]`
--/
-
-namespace A053644.P12612439184432016484
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267584 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0
-
-end
-
-end A053644.P12612439184432016484
-
-namespace A053644
-
-/-- `fp[A267584(n)]` -/
-def P12612439184432016484.Spec : Prop :=
-  ∀ n, (P12612439184432016484.a n : ℤ) = A053644 n
 
 end A053644
 
@@ -14832,6 +14832,24 @@ end
 
 end A053669.P9416824264459256823
 
+/-! ## A053669.P10326959857469451860
+
+`1+∑{#}[n, floor((n+1)^(#+1)/(#+1)!)-floor(((n+1)^(#+1)-1)/(#+1)!)]`
+-/
+
+namespace A053669.P10326959857469451860
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + ∑ k ∈ Finset.range (f1 n + 1), (⌊((n + 1) ^ (k + 1) : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋ - ⌊(((n + 1) ^ (k + 1) : ℤ) - 1 : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋)
+
+end
+
+end A053669.P10326959857469451860
+
 /-!
 # A053670: Least number coprime to n and n+1.
 
@@ -14853,35 +14871,20 @@ end
 
 end A053670.P4491792249155130106
 
-/-! ## A053670.P3730695724630219181
+/-! ## A053670.P14209637419395333412
 
-`A051953(A089091(n+1))`
+`A000188(A089091(n+1))`
 -/
 
-namespace A053670.P3730695724630219181
+namespace A053670.P14209637419395333412
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051953 (A089091 (n + 1)).toNat
+  A000188 (A089091 (n + 1)).toNat
 
 end
 
-end A053670.P3730695724630219181
-
-/-! ## A053670.P12976139430972498123
-
-`A000188(2*A089091(n+1))`
--/
-
-namespace A053670.P12976139430972498123
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (2 * A089091 (n + 1)).toNat
-
-end
-
-end A053670.P12976139430972498123
+end A053670.P14209637419395333412
 
 /-! ## A053670.P7519538115597276494
 
@@ -15150,6 +15153,24 @@ end
 
 end A053670.P15315937658510739860
 
+/-! ## A053670.P1846107745841055685
+
+`A190911(∑[n+1])`
+-/
+
+namespace A053670.P1846107745841055685
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190911 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A053670.P1846107745841055685
+
 /-!
 # A053671: Least number coprime to n, n+1 and n+2.
 
@@ -15171,20 +15192,20 @@ end
 
 end A053671.P6653372033518336754
 
-/-! ## A053671.P3507692961897202942
+/-! ## A053671.P15625422742665585830
 
-`A014963(A090092(n+1))`
+`A000188(A090092(n+1))`
 -/
 
-namespace A053671.P3507692961897202942
+namespace A053671.P15625422742665585830
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A090092 (n + 1)).toNat
+  A000188 (A090092 (n + 1)).toNat
 
 end
 
-end A053671.P3507692961897202942
+end A053671.P15625422742665585830
 
 /-! ## A053671.P16266168681256345666
 
@@ -15371,6 +15392,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A053672.P11286467476536686916
+
+/-! ## A053672.P10046584881318186790
+
+`A000188(A090093(n+1))`
+-/
+
+namespace A053672.P10046584881318186790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A090093 (n + 1)).toNat
+
+end
+
+end A053672.P10046584881318186790
 
 /-! ## A053672.P11495145118437552808
 
@@ -15657,20 +15693,20 @@ end
 
 end A053673.P16441301342121516071
 
-/-! ## A053673.P9330894959293292091
+/-! ## A053673.P400475357588399010
 
-`A007947(A090094(n+1))`
+`A000188(A090094(n+1))`
 -/
 
-namespace A053673.P9330894959293292091
+namespace A053673.P400475357588399010
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (A090094 (n + 1)).toNat
+  A000188 (A090094 (n + 1)).toNat
 
 end
 
-end A053673.P9330894959293292091
+end A053673.P400475357588399010
 
 /-! ## A053673.P4818573401360374895
 
@@ -15716,21 +15752,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A053673.P3281762489752079957
-
-/-! ## A053673.P12315728068963970255
-
-`A000188(2*A090094(n+1))`
--/
-
-namespace A053673.P12315728068963970255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (2 * A090094 (n + 1)).toNat
-
-end
-
-end A053673.P12315728068963970255
 
 /-! ## A053673.P1965057967296777741
 
@@ -16125,6 +16146,21 @@ end
 
 end A053674.P151119160049646844
 
+/-! ## A053674.P2486315218201620989
+
+`A007947(A090095(2*n+1-n))`
+-/
+
+namespace A053674.P2486315218201620989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (A090095 (2 * n + 1 - n)).toNat
+
+end
+
+end A053674.P2486315218201620989
+
 /-! ## A053674.P18047646800864219328
 
 `∏{d}[A090095(n+1), #/A014963(#)]`
@@ -16232,24 +16268,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A053674.P14196591727485822959
-
-/-! ## A053674.P2858900054857506112
-
-`A014963(∏{d}[A090095(n+1), #])`
--/
-
-namespace A053674.P2858900054857506112
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090095 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (∏ d ∈ Nat.divisors (f1 n).natAbs, d)
-
-end
-
-end A053674.P2858900054857506112
 
 /-!
 # A053675: Positions where 5 occurs in decimal expansion of e (starting count at decimal point).

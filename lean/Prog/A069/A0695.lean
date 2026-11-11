@@ -3121,6 +3121,60 @@ end
 
 end A069519.P9405698084250260342
 
+/-! ## A069519.P4932372363400283152
+
+`filter[A305900(n+1), A353687(#)]`
+-/
+
+namespace A069519.P4932372363400283152
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305900 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353687 (f1 j).toNat = 1) n)
+
+end
+
+end A069519.P4932372363400283152
+
+/-! ## A069519.P8006344946176900436
+
+`filter[A319351(n+1), A353687(#)]`
+-/
+
+namespace A069519.P8006344946176900436
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319351 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353687 (f1 j).toNat = 1) n)
+
+end
+
+end A069519.P8006344946176900436
+
+/-! ## A069519.P6731875901821904297
+
+`filter[A319704(n+1), A353687(#)]`
+-/
+
+namespace A069519.P6731875901821904297
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319704 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353687 (f1 j).toNat = 1) n)
+
+end
+
+end A069519.P6731875901821904297
+
 /-!
 # A069521: Smallest multiple of n with digit sum = 2, or 0 if no such number exists, e.g., a(3k)=0.
 

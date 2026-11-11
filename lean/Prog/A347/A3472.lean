@@ -8157,6 +8157,32 @@ def P338756164434921336.Spec : Prop :=
 
 end A347274
 
+/-! ## A347274.P5838056558731803310
+
+`(n+1)^(n+1)*∑{#}[n, (#+1)*(1/(n+1))^#]`
+-/
+
+namespace A347274.P5838056558731803310
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) ^ (n + 1) : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (k + 1 : ℚ) * (1 / (n + 1 : ℚ)) ^ k)
+
+end
+
+end A347274.P5838056558731803310
+
+namespace A347274
+
+/-- `(n+1)^(n+1)*∑{#}[n, (#+1)*(1/(n+1))^#]` -/
+def P5838056558731803310.Spec : Prop :=
+  ∀ n, P5838056558731803310.a n = (A347274 (n + 1) : ℚ)
+
+end A347274
+
 /-! ## A347274.P16198339988847513880
 
 `(A023811(1+n)+1)*(n+1)²`

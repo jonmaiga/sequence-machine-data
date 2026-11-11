@@ -19,7 +19,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
@@ -621,20 +620,20 @@ end
 
 end A278504.P15591595545812134270
 
-/-! ## A278504.P8809362356471456846
+/-! ## A278504.P3879860686627010604
 
-`A255548(n+1)+A014375(A013609(n))`
+`A278506(A278503(A278506(n+1)))`
 -/
 
-namespace A278504.P8809362356471456846
+namespace A278504.P3879860686627010604
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255548 (n + 1) + A014375 (A013609 n).toNat
+  A278506 (A278503 (A278506 (n + 1)).toNat).toNat
 
 end
 
-end A278504.P8809362356471456846
+end A278504.P3879860686627010604
 
 /-!
 # A278505: Square array constructed from Flavius sieve: Each row n (n >= 1) starts with A000960(n), followed by all numbers removed at the stage n of the sieve.
@@ -908,6 +907,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278506.P3845267501887071149
+
+/-! ## A278506.P9955377943785511807
+
+`A278504(A278505(A278504(n+1)))`
+-/
+
+namespace A278506.P9955377943785511807
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278504 (A278505 (A278504 (n + 1)).toNat).toNat
+
+end
+
+end A278506.P9955377943785511807
 
 /-!
 # A278507: Square array A(row,col) where row n lists the numbers removed in round n of Flavius sieve. Array is read by antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...
@@ -4831,6 +4845,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278529.P4611083996961632543
+
+/-! ## A278529.P1459956710414726348
+
+`A278528(A100287(A278539(n+1)))`
+-/
+
+namespace A278529.P1459956710414726348
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278528 (A100287 (A278539 (n + 1)).toNat).toNat
+
+end
+
+end A278529.P1459956710414726348
 
 /-! ## A278529.P14648729771047278566
 
@@ -11918,6 +11947,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278583.P14398570551491065220
+
+/-! ## A278583.P5656638356998672755
+
+`A000010(A036570(n+1))`
+-/
+
+namespace A278583.P5656638356998672755
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (A036570 (n + 1)).toNat
+
+end
+
+end A278583.P5656638356998672755
 
 /-!
 # A278584: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 145", based on the 5-celled von Neumann neighborhood.

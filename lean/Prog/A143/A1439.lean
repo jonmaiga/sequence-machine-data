@@ -34,7 +34,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
@@ -2247,19 +2246,19 @@ end A143909
 The programs for A143912, there is no canonical definition to state claims against.
 -/
 
-/-! ## A143912.P11197244222295812259
+/-! ## A143912.P1219580434198226387
 
-`∩[A040992(n+1), A087163(n+1)]`
+`∩[A115449(n+1), A173135(n+1)]`
 -/
 
-namespace A143912.P11197244222295812259
+namespace A143912.P1219580434198226387
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040992 (n + 1)
+  A115449 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087163 (n + 1)
+  A173135 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2267,7 +2266,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A143912.P11197244222295812259
+end A143912.P1219580434198226387
 
 /-!
 # A143914: Numerators of continued fraction convergents to e^(W(e-1)/(e-1)) where W(z) denotes the Lambert W function and e = 2.718281828...
@@ -2695,24 +2694,6 @@ end A143921.P17015481349726576636
 
 The programs for A143922, there is no canonical definition to state claims against.
 -/
-
-/-! ## A143922.P16676593531012028104
-
-`∑[A389513(A000088(n))]+1`
--/
-
-namespace A143922.P16676593531012028104
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389513 (A000088 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A143922.P16676593531012028104
 
 /-! ## A143922.P924974047169553142
 
@@ -10535,6 +10516,35 @@ def P5729834011214646312.Spec : Prop :=
 
 end A143971
 
+/-! ## A143971.P17893271156142272780
+
+`row(n)-col(n)+row(n)-col(n)+1+row(n)-col(n)`
+-/
+
+namespace A143971.P17893271156142272780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) + ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ))
+
+end
+
+end A143971.P17893271156142272780
+
+namespace A143971
+
+/-- `row(n)-col(n)+row(n)-col(n)+1+row(n)-col(n)` -/
+def P17893271156142272780.Spec : Prop :=
+  ∀ n, P17893271156142272780.a n = A143971 (n + 1)
+
+theorem P17893271156142272780.correct : P17893271156142272780.Spec := by
+  intro n
+  simp only [A143971, Nat.add_sub_cancel, A143971.P17893271156142272780.a, A143971.P15899734794144576316.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A143971
+
 /-! ## A143971.P1986357405362305666
 
 `3*(abs(C(round(sqrt(2*n+1))+1, 2)-n)-1)+1`
@@ -10776,29 +10786,6 @@ namespace A143971
 /-- `A099375(n)+A025581(n)` -/
 def P13442989850689759305.Spec : Prop :=
   ∀ n, P13442989850689759305.a n = A143971 (n + 1)
-
-end A143971
-
-/-! ## A143971.P7474640974676888536
-
-`A016777(A004736(n+1)-1)`
--/
-
-namespace A143971.P7474640974676888536
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016777 (A004736 (n + 1) - 1).toNat
-
-end
-
-end A143971.P7474640974676888536
-
-namespace A143971
-
-/-- `A016777(A004736(n+1)-1)` -/
-def P7474640974676888536.Spec : Prop :=
-  ∀ n, P7474640974676888536.a n = A143971 (n + 1)
 
 end A143971
 

@@ -934,6 +934,32 @@ The programs for A224212, the canonical program `A224212.P18102868260642251365` 
 The definition of A224212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A224212.P10038922178848752272
+
+`∑{#}[floor(sqrt(n)), floor(sqrt(n-#²))+1]`
+-/
+
+namespace A224212.P10038922178848752272
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Int.sqrt ((n : ℤ) - (k ^ 2 : ℤ)) + 1)
+
+end
+
+end A224212.P10038922178848752272
+
+namespace A224212
+
+/-- `∑{#}[floor(sqrt(n)), floor(sqrt(n-#²))+1]` -/
+def P10038922178848752272.Spec : Prop :=
+  ∀ n, P10038922178848752272.a n = A224212 n
+
+end A224212
+
 /-! ## A224212.P13361374076245347232
 
 `∑[A000925(n)]`

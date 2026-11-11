@@ -2746,7 +2746,7 @@ end
 end A046025.P1234071087574060432
 
 /-!
-# A046026: Smallest prime p dividing n#-1, n#, or n#+1, n squarefree.
+# A046026: Smallest prime p such that A005117(n) divides p#-1, p#, or p#+1.
 
 The programs for A046026, there is no canonical definition to state claims against.
 -/
@@ -3180,6 +3180,21 @@ end
 
 end A046027.P7799928442013959863
 
+/-! ## A046027.P7851396865198186574
+
+`A020639(A283919(n+1))`
+-/
+
+namespace A046027.P7851396865198186574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A283919 (n + 1)).toNat
+
+end
+
+end A046027.P7851396865198186574
+
 /-! ## A046027.P8678637312820303575
 
 `A006530(2*A283919(n+1))`
@@ -3227,24 +3242,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046027.P10162477170819652195
-
-/-! ## A046027.P9825544987040054347
-
-`∏{p}[A283919(n+1), A020639(#)]`
--/
-
-namespace A046027.P9825544987040054347
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283919 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A020639 p
-
-end
-
-end A046027.P9825544987040054347
 
 /-! ## A046027.P17797682242844668932
 
@@ -3308,6 +3305,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046027.P14665097128802860167
+
+/-! ## A046027.P6194678657413809664
+
+`A000188(A283919(n+1))`
+-/
+
+namespace A046027.P6194678657413809664
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A283919 (n + 1)).toNat
+
+end
+
+end A046027.P6194678657413809664
 
 /-! ## A046027.P10640523500996428047
 
@@ -3425,24 +3437,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046027.P12392813490209631461
-
-/-! ## A046027.P14795401125576042511
-
-`filter[A249739(n+1), A014306(#)]`
--/
-
-namespace A046027.P14795401125576042511
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249739 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A014306 (f1 j).toNat = 1) n)
-
-end
-
-end A046027.P14795401125576042511
 
 /-!
 # A046028: Largest multiple prime factor of the n-th nonsquarefree number (A013929).
@@ -7082,26 +7076,26 @@ end
 
 end A046048.P15715250112211592015
 
-/-! ## A046048.P6613200039750666985
+/-! ## A046048.P3927647224814191794
 
-`eq[A082626(n+1), A374014(n)]`
+`eq[A374014(n), A399557(n+1)]`
 -/
 
-namespace A046048.P6613200039750666985
+namespace A046048.P3927647224814191794
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082626 (n + 1)
+  A374014 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374014 n
+  A399557 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A046048.P6613200039750666985
+end A046048.P3927647224814191794
 
 /-!
 # A046049: Sum of 18 but no fewer nonzero fourth powers.
@@ -11840,6 +11834,29 @@ def P456609211950877492.Spec : Prop :=
 
 end A046080
 
+/-! ## A046080.P2542957336438143167
+
+`floor(A046109(n+1)/8)`
+-/
+
+namespace A046080.P2542957336438143167
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A046109 (n + 1) : ℚ) / 8⌋
+
+end
+
+end A046080.P2542957336438143167
+
+namespace A046080
+
+/-- `floor(A046109(n+1)/8)` -/
+def P2542957336438143167.Spec : Prop :=
+  ∀ n, P2542957336438143167.a n = A046080 (n + 1)
+
+end A046080
+
 /-! ## A046080.P16650271967584432004
 
 `A025480(A092147(n+1))`
@@ -12033,29 +12050,6 @@ namespace A046080
 /-- `Δ[A224921(n+1)]` -/
 def P4397230239210827938.Spec : Prop :=
   ∀ n, P4397230239210827938.a n = A046080 (n + 1)
-
-end A046080
-
-/-! ## A046080.P2542957336438143167
-
-`floor(A046109(n+1)/8)`
--/
-
-namespace A046080.P2542957336438143167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A046109 (n + 1) : ℚ) / 8⌋
-
-end
-
-end A046080.P2542957336438143167
-
-namespace A046080
-
-/-- `floor(A046109(n+1)/8)` -/
-def P2542957336438143167.Spec : Prop :=
-  ∀ n, P2542957336438143167.a n = A046080 (n + 1)
 
 end A046080
 

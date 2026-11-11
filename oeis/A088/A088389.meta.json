@@ -1,5 +1,5 @@
 {
-  "description": "Number of real regular n X n (0,1) matrices modulo rows permutations.",
+  "description": "Number of real regular n X n {0,1}-matrices modulo rows permutations.",
   "id": "A088389",
   "mentions": [
     "A053601",

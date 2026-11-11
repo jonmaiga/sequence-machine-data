@@ -27,6 +27,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C034
@@ -9946,6 +9947,32 @@ The programs for A047085, the canonical program `A047085.P1439326172283854598` i
 
 The definition of A047085 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A047085.P517632409832442449
+
+`∑{#}[floor(n/2), C(n+#, 3*#)*C(2*#, #)]`
+-/
+
+namespace A047085.P517632409832442449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose (n + k) (3 * k) * Nat.choose (2 * k) k
+
+end
+
+end A047085.P517632409832442449
+
+namespace A047085
+
+/-- `∑{#}[floor(n/2), C(n+#, 3*#)*C(2*#, #)]` -/
+def P517632409832442449.Spec : Prop :=
+  ∀ n, (P517632409832442449.a n : ℤ) = A047085 n
+
+end A047085
 
 /-! ## A047085.P4614919376000668981
 

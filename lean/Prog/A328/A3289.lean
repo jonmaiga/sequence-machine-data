@@ -41,7 +41,6 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
@@ -1836,21 +1835,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328928.P14114709051732408840
-
-/-! ## A328928.P1067072366232393788
-
-`A116939(A326922(n))%A101703(n+6)`
--/
-
-namespace A328928.P1067072366232393788
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A116939 (A326922 n).toNat) (A101703 (n + 6))
-
-end
-
-end A328928.P1067072366232393788
 
 /-! ## A328928.P14059240417354459527
 
@@ -5615,7 +5599,7 @@ end
 end A328966.P1979346914648224933
 
 /-!
-# A328967: a(n+1) = 1 - Sum_{k=1..n} a(floor(n/k)).
+# A328967: a(1) = 1, a(n+1) = 1 - Sum_{k=1..n} a(floor(n/k)).
 
 The programs for A328967, there is no canonical definition to state claims against.
 -/

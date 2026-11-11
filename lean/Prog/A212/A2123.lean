@@ -4035,6 +4035,52 @@ def P14059535041966271832.Spec : Prop :=
 
 end A212331
 
+/-! ## A212331.P13257522782975993008
+
+`A008596(n)+A000566(n)`
+-/
+
+namespace A212331.P13257522782975993008
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008596 n + A000566 n
+
+end
+
+end A212331.P13257522782975993008
+
+namespace A212331
+
+/-- `A008596(n)+A000566(n)` -/
+def P13257522782975993008.Spec : Prop :=
+  ∀ n, P13257522782975993008.a n = A212331 n
+
+end A212331
+
+/-! ## A212331.P15342708786445849897
+
+`A008594(n)+A005475(n)`
+-/
+
+namespace A212331.P15342708786445849897
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008594 n + A005475 n
+
+end
+
+end A212331.P15342708786445849897
+
+namespace A212331
+
+/-- `A008594(n)+A005475(n)` -/
+def P15342708786445849897.Spec : Prop :=
+  ∀ n, P15342708786445849897.a n = A212331 n
+
+end A212331
+
 /-!
 # A212332: The difference between the largest and smallest prime factor of n as n runs through the numbers with at least two distinct prime factors.
 
@@ -4242,12 +4288,12 @@ end A212332.P5586838330133933672
 /-!
 # A212333: n-th power of the n-th pentagonal number.
 
-The programs for A212333, the canonical program `A212333.P11700757878164367836` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212333 has offset 0).
+The programs for A212333, the canonical program `A212333.P7012482252423854502` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212333 has offset 0).
 
 The definition of A212333 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A212333.P11700757878164367836
+/-! ## A212333.P7012482252423854502
 
 `(n*(3*n-1)/2)^n`
 
@@ -4257,8 +4303,8 @@ The canonical program, it is in `Seq.B000.C034`.
 namespace A212333
 
 /-- `(n*(3*n-1)/2)^n` -/
-def P11700757878164367836.Spec : Prop :=
-  ∀ n, P11700757878164367836.a n = (A212333 n : ℚ)
+def P7012482252423854502.Spec : Prop :=
+  ∀ n, P7012482252423854502.a n = (A212333 n : ℚ)
 
 end A212333
 

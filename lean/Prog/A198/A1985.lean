@@ -21,6 +21,7 @@ import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C046
@@ -3514,6 +3515,46 @@ end
 
 end A198592.P10344794635071935168
 
+/-! ## A198592.P195277404533489499
+
+`∩[A062059(n+1), A079945(n)]`
+-/
+
+namespace A198592.P195277404533489499
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062059 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079945 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198592.P195277404533489499
+
+/-! ## A198592.P6460565578904117886
+
+`filter[A062059(n+1), A000035(#)]`
+-/
+
+namespace A198592.P6460565578904117886
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062059 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A198592.P6460565578904117886
+
 /-!
 # A198593: Odd numbers producing 10 odd numbers in the Collatz iteration.
 
@@ -3876,6 +3917,60 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A198593.P8819133953779152353
+
+/-! ## A198593.P7605743797849026520
+
+`filter[A062060(n+1), A000035(#)]`
+-/
+
+namespace A198593.P7605743797849026520
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062060 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A198593.P7605743797849026520
+
+/-! ## A198593.P8125271687981095003
+
+`filter[A062060(n+1), A266070(#)]`
+-/
+
+namespace A198593.P8125271687981095003
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062060 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266070 (f1 j).toNat = 1) n)
+
+end
+
+end A198593.P8125271687981095003
+
+/-! ## A198593.P2630450686233819157
+
+`filter[A062060(n+1), A266246(#)]`
+-/
+
+namespace A198593.P2630450686233819157
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062060 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266246 (f1 j).toNat = 1) n)
+
+end
+
+end A198593.P2630450686233819157
 
 /-!
 # A198594: Number of 2nX4 0..3 arrays with values 0..3 introduced in row major order and each element equal to an odd number of horizontal and vertical neighbors.

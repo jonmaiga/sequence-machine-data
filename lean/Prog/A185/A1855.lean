@@ -32,7 +32,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
@@ -40,7 +39,6 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
@@ -1031,6 +1029,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A185511.P12602779248521947465
+
+/-! ## A185511.P2862992486549519685
+
+`A102885(A185510(n+1))`
+-/
+
+namespace A185511.P2862992486549519685
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102885 (A185510 (n + 1)).toNat
+
+end
+
+end A185511.P2862992486549519685
+
+/-! ## A185511.P6583851880572465610
+
+`A094741(A185510(n+1))`
+-/
+
+namespace A185511.P6583851880572465610
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094741 (A185510 (n + 1)).toNat
+
+end
+
+end A185511.P6583851880572465610
 
 /-!
 # A185512: Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock singular.
@@ -7465,20 +7493,20 @@ end
 
 end A185589.P10573045798613269150
 
-/-! ## A185589.P15953884606242851984
+/-! ## A185589.P16337858236879710790
 
-`A006368(A006368(A006368(A223083(n+2))))`
+`A006368(A006368(A223083(n+1)))`
 -/
 
-namespace A185589.P15953884606242851984
+namespace A185589.P16337858236879710790
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006368 (A006368 (A006368 (A223083 (n + 2)).toNat).toNat).toNat
+  A006368 (A006368 (A223083 (n + 1)).toNat).toNat
 
 end
 
-end A185589.P15953884606242851984
+end A185589.P16337858236879710790
 
 /-!
 # A185590: Iterate the map in A006369 starting at 44.

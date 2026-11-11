@@ -30,7 +30,6 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -6443,20 +6442,41 @@ end A125141.P5759435835277784719
 The programs for A125143, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125143.P14351022172131650332
+/-! ## A125143.P15955626201885620781
 
-`A157142(n)-A364033(A001396(n))`
+`∑{#}[floor(n/3), (-3)^(n-3*#)*(n+#)!/((n-3*#)!*#!^4)]`
 -/
 
-namespace A125143.P14351022172131650332
+namespace A125143.P15955626201885620781
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A157142 n - A364033 (A001396 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 3⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (-3 : ℚ) ^ ((n : ℤ) - (3 * k : ℤ) : ℤ) * ((Nat.factorial (n + k) : ℚ) / (Nat.factorial ((n : ℤ) - (3 * k : ℤ)).toNat * Nat.factorial k ^ 4 : ℚ))
 
 end
 
-end A125143.P14351022172131650332
+end A125143.P15955626201885620781
+
+/-! ## A125143.P17709419399122545922
+
+`∑{#}[n, (-3)^(n-3*#)*C(n, 3*#)*C(n+#, n)*(3*#)!/#!^3]`
+-/
+
+namespace A125143.P17709419399122545922
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-3 : ℚ) ^ ((n : ℤ) - (3 * k : ℤ) : ℤ) * (Nat.choose n (3 * k) : ℚ) * (Nat.choose (n + k) n : ℚ) * ((Nat.factorial (3 * k) : ℚ) / (Nat.factorial k ^ 3 : ℚ))
+
+end
+
+end A125143.P17709419399122545922
 
 /-!
 # A125144: Increments in the number of decimal digits of 4^n.
@@ -9399,6 +9419,29 @@ namespace A125171
 /-- `A294453(A245300(A061579(n)))` -/
 def P16679732166031626259.Spec : Prop :=
   ∀ n, P16679732166031626259.a n = A125171 n
+
+end A125171
+
+/-! ## A125171.P9130008105545533518
+
+`A193923(A380649(n+1))`
+-/
+
+namespace A125171.P9130008105545533518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193923 (A380649 (n + 1)).toNat
+
+end
+
+end A125171.P9130008105545533518
+
+namespace A125171
+
+/-- `A193923(A380649(n+1))` -/
+def P9130008105545533518.Spec : Prop :=
+  ∀ n, P9130008105545533518.a n = A125171 n
 
 end A125171
 

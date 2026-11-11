@@ -8,6 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
@@ -1304,7 +1305,7 @@ end
 end A071113.P12730936214086817049
 
 /-!
-# A071114: Numbers n such that n and sigma(n) are prime powers (of the form p^k, p prime, k>=1).
+# A071114: Numbers m such that m and sigma(m) are prime powers (of the form p^k, p prime, k>=1).
 
 The programs for A071114, there is no canonical definition to state claims against.
 -/
@@ -9908,6 +9909,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071177.P11607087541201847107
+
+/-! ## A071177.P16477655571192364831
+
+`A056926(A264604(n+1))`
+-/
+
+namespace A071177.P16477655571192364831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A264604 (n + 1)).toNat
+
+end
+
+end A071177.P16477655571192364831
 
 /-! ## A071177.P7149416043239460411
 

@@ -39,7 +39,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
@@ -8123,21 +8122,6 @@ end A016235.P2129668156963675411
 
 The programs for A016236, there is no canonical definition to state claims against.
 -/
-
-/-! ## A016236.P15296455617045958041
-
-`A016168(2+n-A087103(n+2))`
--/
-
-namespace A016236.P15296455617045958041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016168 ((2 + n : ℤ) - A087103 (n + 2)).toNat
-
-end
-
-end A016236.P15296455617045958041
 
 /-! ## A016236.P17679651195433330742
 
@@ -18711,6 +18695,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016286.P13778336900538179366
+
+/-! ## A016286.P17628746167469360409
+
+`A014027(A160272(n))`
+-/
+
+namespace A016286.P17628746167469360409
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014027 (A160272 n).toNat
+
+end
+
+end A016286.P17628746167469360409
 
 /-!
 # A016287: Inverse of 2278th cyclotomic polynomial.

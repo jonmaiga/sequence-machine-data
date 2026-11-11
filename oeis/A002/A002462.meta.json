@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of Legendre polynomials.",
+  "description": "Constant term of the Legendre polynomials of even order when they are expressed in terms of the cosine function.",
   "id": "A002462",
   "mentions": [
     "A002463",

@@ -1488,29 +1488,26 @@ def P657878258245303879.Spec : Prop :=
 
 end A130104
 
-/-! ## A130104.P4317524106053507563
+/-! ## A130104.P6776178094484955796
 
-`∑[A130102(n+1)]/2`
+`A083706(n)-A027379(n)`
 -/
 
-namespace A130104.P4317524106053507563
+namespace A130104.P6776178094484955796
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130102 (n + 1)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083706 n - A027379 n
 
 end
 
-end A130104.P4317524106053507563
+end A130104.P6776178094484955796
 
 namespace A130104
 
-/-- `∑[A130102(n+1)]/2` -/
-def P4317524106053507563.Spec : Prop :=
-  ∀ n, P4317524106053507563.a n = (A130104 n : ℚ)
+/-- `A083706(n)-A027379(n)` -/
+def P6776178094484955796.Spec : Prop :=
+  ∀ n, P6776178094484955796.a n = A130104 n
 
 end A130104
 
@@ -9908,6 +9905,21 @@ end
 
 end A130178.P11270288080714941746
 
+/-! ## A130178.P17340217867622431784
+
+`A160791(2*A181902(n+2))`
+-/
+
+namespace A130178.P17340217867622431784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160791 (2 * A181902 (n + 2)).toNat
+
+end
+
+end A130178.P17340217867622431784
+
 /-! ## A130178.P1379799043766485692
 
 `∩[A024675(n+1), A000217(n)]`
@@ -9929,28 +9941,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A130178.P1379799043766485692
-
-/-! ## A130178.P13623263344014663065
-
-`∩[A145025(n+1), A000217(n)]`
--/
-
-namespace A130178.P13623263344014663065
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145025 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A130178.P13623263344014663065
 
 /-!
 # A130179: Largest k such that k <= 81*(number of digits of k^n)*(number of digits of k^(n+1)).

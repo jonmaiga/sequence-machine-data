@@ -34,6 +34,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C049
@@ -5580,7 +5581,7 @@ end A267445
 /-!
 # A267446: Total number of ON (black) cells after n iterations of the "Rule 129" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267446, the canonical program `A267446.P12235518874921593537` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267446 has offset 0).
+The programs for A267446, the canonical program `A267446.P12235518874921593537` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267446 has offset 0).
 
 The definition of A267446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5589,7 +5590,7 @@ The definition of A267446 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A267445(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A267446
@@ -5841,7 +5842,7 @@ end A267446
 /-!
 # A267447: Number of OFF (white) cells in the n-th iteration of the "Rule 129" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267447, the canonical program `A267447.P294490523274346836` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267447 has offset 0).
+The programs for A267447, the canonical program `A267447.P294490523274346836` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267447 has offset 0).
 
 The definition of A267447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5850,7 +5851,7 @@ The definition of A267447 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[n²]-A267445(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A267447
@@ -9852,6 +9853,55 @@ namespace A267460
 /-- `2*n-fp[gcd(2, n)+n+2]` -/
 def P1702993109838990200.Spec : Prop :=
   ∀ n, P1702993109838990200.a n = A267460 n
+
+end A267460
+
+/-! ## A267460.P7138214529451250863
+
+`2*n-fp[and(n, n+1)+4]`
+-/
+
+namespace A267460.P7138214529451250863
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land n (n + 1) + 4
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n : ℤ) - (SequenceMachineLib.nth (fun j => n < f1 j) 0 : ℤ)
+
+end
+
+end A267460.P7138214529451250863
+
+namespace A267460
+
+/-- `2*n-fp[and(n, n+1)+4]` -/
+def P7138214529451250863.Spec : Prop :=
+  ∀ n, P7138214529451250863.a n = A267460 n
+
+end A267460
+
+/-! ## A267460.P9400567766658583930
+
+`2*n-(a(n-1)-4)%n` with `a(0)=0`
+-/
+
+namespace A267460.P9400567766658583930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (2 * n : ℤ) - Int.tmod (a (n - 1) - 4) (n : ℤ)
+
+end
+
+end A267460.P9400567766658583930
+
+namespace A267460
+
+/-- `2*n-(a(n-1)-4)%n` -/
+def P9400567766658583930.Spec : Prop :=
+  ∀ n, P9400567766658583930.a n = A267460 n
 
 end A267460
 

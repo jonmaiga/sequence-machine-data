@@ -5330,6 +5330,28 @@ end
 
 end A168025.P13195867029810887124
 
+/-! ## A168025.P3896861476202858921
+
+`∩[A192594(n+1), A204675(n)]`
+-/
+
+namespace A168025.P3896861476202858921
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192594 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204675 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A168025.P3896861476202858921
+
 /-! ## A168025.P17349413853817440213
 
 `record[A020639(n*(16*n+2)+1)]`
@@ -5347,24 +5369,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A168025.P17349413853817440213
-
-/-! ## A168025.P8611331389916075019
-
-`filter[A204675(n), A324290(#)]`
--/
-
-namespace A168025.P8611331389916075019
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204675 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A324290 (f1 j).toNat = 1) n)
-
-end
-
-end A168025.P8611331389916075019
 
 /-!
 # A168026: Noncomposite numbers in the southwestern ray of the Ulam spiral as oriented on the March 1964 cover of Scientific American.
@@ -13018,6 +13022,29 @@ def P11489821659351868537.Spec : Prop :=
 
 end A168051
 
+/-! ## A168051.P11218937565483417284
+
+`A019590(n+1)-A086246(n)`
+-/
+
+namespace A168051.P11218937565483417284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019590 (n + 1) - A086246 n
+
+end
+
+end A168051.P11218937565483417284
+
+namespace A168051
+
+/-- `A019590(n+1)-A086246(n)` -/
+def P11218937565483417284.Spec : Prop :=
+  ∀ n, P11218937565483417284.a n = A168051 n
+
+end A168051
+
 /-! ## A168051.P15260976809470699019
 
 `A153881(n+1)*A168049(n)`
@@ -13176,29 +13203,6 @@ namespace A168051
 /-- `A168049(n)/A292440(n)*A168049(n)` -/
 def P4698885237173509114.Spec : Prop :=
   ∀ n, P4698885237173509114.a n = (A168051 n : ℚ)
-
-end A168051
-
-/-! ## A168051.P9688297427832643112
-
-`round(A168058(n)/2)`
--/
-
-namespace A168051.P9688297427832643112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A168058 n : ℚ) / 2)
-
-end
-
-end A168051.P9688297427832643112
-
-namespace A168051
-
-/-- `round(A168058(n)/2)` -/
-def P9688297427832643112.Spec : Prop :=
-  ∀ n, P9688297427832643112.a n = A168051 n
 
 end A168051
 
@@ -16492,6 +16496,29 @@ namespace A168058
 /-- `A168051(n)-A126068(n)/2` -/
 def P15364838020646848186.Spec : Prop :=
   ∀ n, P15364838020646848186.a n = (A168058 n : ℚ)
+
+end A168058
+
+/-! ## A168058.P9530444303616674125
+
+`A168051(n)+A168049(n)-A168055(n)`
+-/
+
+namespace A168058.P9530444303616674125
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168051 n + A168049 n - A168055 n
+
+end
+
+end A168058.P9530444303616674125
+
+namespace A168058
+
+/-- `A168051(n)+A168049(n)-A168055(n)` -/
+def P9530444303616674125.Spec : Prop :=
+  ∀ n, P9530444303616674125.a n = A168058 n
 
 end A168058
 

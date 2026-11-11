@@ -20,8 +20,8 @@ import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -1372,29 +1372,6 @@ namespace A384916
 /-- `A050320(A001787(∏{p}[n+1, #^val(n+1, #²)]))` -/
 def P8568492525736992487.Spec : Prop :=
   ∀ n, P8568492525736992487.a n = A384916 (n + 1)
-
-end A384916
-
-/-! ## A384916.P11446189196116315786
-
-`A322794(gcd(A000265(n+1), A008833(n+1)))`
--/
-
-namespace A384916.P11446189196116315786
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (Int.gcd (A000265 (n + 1)) (A008833 (n + 1)))
-
-end
-
-end A384916.P11446189196116315786
-
-namespace A384916
-
-/-- `A322794(gcd(A000265(n+1), A008833(n+1)))` -/
-def P11446189196116315786.Spec : Prop :=
-  ∀ n, P11446189196116315786.a n = A384916 (n + 1)
 
 end A384916
 
@@ -4254,28 +4231,6 @@ end A384988
 The programs for A384992, there is no canonical definition to state claims against.
 -/
 
-/-! ## A384992.P9720687338388527175
-
-`∪[A084111(n+1), A124438(n+1)]`
--/
-
-namespace A384992.P9720687338388527175
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084111 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124438 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A384992.P9720687338388527175
-
 /-! ## A384992.P11020843071352257579
 
 `eq[A008474(n+1), A381202(n+1)]+1`
@@ -4356,6 +4311,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A384992.P13420124387522180062
+
+/-! ## A384992.P6519047031631487873
+
+`eq[A005089(n+1), A029429(n)]`
+-/
+
+namespace A384992.P6519047031631487873
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005089 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029429 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A384992.P6519047031631487873
 
 /-!
 # A384993: Triangle read by rows: T(n,k) is the number of compositions (p_0,p_1,...,p_m) of n such that max(i + p_i) = k for 0 <= i <= m.

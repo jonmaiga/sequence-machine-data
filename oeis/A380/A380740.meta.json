@@ -1,5 +1,5 @@
 {
-  "description": "Number of smallest fully n-forested graphs.",
+  "description": "Number of nonisomorphic n-vertex graphs with the fewest edges among those containing every n-vertex tree as a subgraph.",
   "id": "A380740",
   "mentions": [
     "A004401"

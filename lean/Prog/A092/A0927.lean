@@ -73,7 +73,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -9267,6 +9267,32 @@ namespace A092785
 /-- `(A001700(n)-A188289(n))*A033999(n)` -/
 def P12417531203702882135.Spec : Prop :=
   ∀ n, P12417531203702882135.a n = A092785 n
+
+end A092785
+
+/-! ## A092785.P8181442700194399083
+
+`1+(-1)^n*∑{#}[n-1, 2*C(2*(#+1)-1, n)]`
+-/
+
+namespace A092785.P8181442700194399083
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + (-1) ^ n * ((∑ k ∈ Finset.range (f1 n + 1).toNat, 2 * Nat.choose ((2 * (k + 1) : ℤ) - 1).toNat n : ℕ) : ℤ)
+
+end
+
+end A092785.P8181442700194399083
+
+namespace A092785
+
+/-- `1+(-1)^n*∑{#}[n-1, 2*C(2*(#+1)-1, n)]` -/
+def P8181442700194399083.Spec : Prop :=
+  ∀ n, P8181442700194399083.a n = A092785 n
 
 end A092785
 

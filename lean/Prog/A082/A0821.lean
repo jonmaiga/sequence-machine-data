@@ -9469,6 +9469,32 @@ def P2684203355409980414.Spec : Prop :=
 
 end A082143
 
+/-! ## A082143.P3863681920368993837
+
+`∑{#}[n, C(2*(n+1)-1, 2*#)*C(2*(n+1)-2*#-1, n+1)]`
+-/
+
+namespace A082143.P3863681920368993837
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose ((2 * (n + 1) : ℤ) - 1).toNat (2 * k) * Nat.choose ((2 * (n + 1) : ℤ) - (2 * k : ℤ) - 1).toNat (n + 1)
+
+end
+
+end A082143.P3863681920368993837
+
+namespace A082143
+
+/-- `∑{#}[n, C(2*(n+1)-1, 2*#)*C(2*(n+1)-2*#-1, n+1)]` -/
+def P3863681920368993837.Spec : Prop :=
+  ∀ n, (P3863681920368993837.a n : ℤ) = A082143 n
+
+end A082143
+
 /-! ## A082143.P17918945272204577772
 
 `record[A034008(n)*A088218(n)]`

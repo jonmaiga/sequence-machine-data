@@ -19770,6 +19770,27 @@ end
 
 end A158699.P17033127820947553742
 
+/-! ## A158699.P6310233710234455022
+
+`eq[A087052(n), A098488(n)]`
+-/
+
+namespace A158699.P6310233710234455022
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087052 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098488 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A158699.P6310233710234455022
+
 /-! ## A158699.P13871463173978159903
 
 `A226134(A057428(n+1)+A037124(n+1))`
@@ -19802,19 +19823,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A158699.P8631221860392311260
-
-/-! ## A158699.P4967296713098424947
-
-`A137564(A061511(n))`
--/
-
-namespace A158699.P4967296713098424947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137564 (A061511 n).toNat
-
-end
-
-end A158699.P4967296713098424947
 

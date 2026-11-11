@@ -4619,78 +4619,20 @@ end
 
 end A280733.P14887920763980672809
 
-/-! ## A280733.P7600506753101517134
+/-! ## A280733.P4269347642284029976
 
-`A302801(lt[val(∑{digits}[n, 5^#], 5), n%10])`
+`A280635(A342951(n+2))`
 -/
 
-namespace A280733.P7600506753101517134
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => 5 ^ x).sum 5
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n % 10
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun j => f1 j < f3 j) n)
-
-end
-
-end A280733.P7600506753101517134
-
-/-! ## A280733.P187535352312893411
-
-`A302801(comp[A004186(n)])`
--/
-
-namespace A280733.P187535352312893411
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004186 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A280733.P187535352312893411
-
-/-! ## A280733.P3975528154688934081
-
-`A302801(A071589(n+1))`
--/
-
-namespace A280733.P3975528154688934081
+namespace A280733.P4269347642284029976
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (A071589 (n + 1)).toNat
+  A280635 (A342951 (n + 2)).toNat
 
 end
 
-end A280733.P3975528154688934081
-
-/-! ## A280733.P15352980040389942954
-
-`A302801(A296713(n+1))`
--/
-
-namespace A280733.P15352980040389942954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302801 (A296713 (n + 1)).toNat
-
-end
-
-end A280733.P15352980040389942954
+end A280733.P4269347642284029976
 
 /-!
 # A280734: Product_{k=0..prime(n)} k!.
@@ -9214,21 +9156,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280772.P193595272163960315
-
-/-! ## A280772.P11368327045049849719
-
-`A351008(A011782(n)-A239304(n+1))`
--/
-
-namespace A280772.P11368327045049849719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351008 (A011782 n - A239304 (n + 1)).toNat
-
-end
-
-end A280772.P11368327045049849719
 
 /-!
 # A280774: Numbers k such that gcd(A280864(k), A280864(k+1)) = 1.

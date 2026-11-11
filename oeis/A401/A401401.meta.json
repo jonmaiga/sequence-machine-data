@@ -1,0 +1,20 @@
+{
+  "description": "Number of free n-celled polyominoes that do not contain a copy of the T-tetromino.",
+  "id": "A401401",
+  "mentions": [
+    "A000105",
+    "A401398",
+    "A401400",
+    "A401402",
+    "A401403"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

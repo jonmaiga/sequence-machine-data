@@ -1,5 +1,5 @@
 {
-  "description": "Number of Nickerson-type partitions of [1,...,3n] into triples satisfying x+y=z.",
+  "description": "Incorrect version of A004075.",
   "id": "A202951",
   "mentions": [
     "A004075",
@@ -8,7 +8,6 @@
     "A202952"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Positions of 2's in A401552.",
+  "id": "A401553",
+  "mentions": [
+    "A400000",
+    "A401552",
+    "A401554"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

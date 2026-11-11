@@ -29,7 +29,6 @@ import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -60,6 +59,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -104,6 +104,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -1484,6 +1485,29 @@ namespace A070914
 /-- `C(col(n)*(row(n)-col(n)+1), col(n))/(col(n)*(row(n)-col(n))+1)` -/
 def P14958795650603590868.Spec : Prop :=
   ∀ n, P14958795650603590868.a n = (A070914 n : ℚ)
+
+end A070914
+
+/-! ## A070914.P4334716724304244556
+
+`((row(n)-col(n)+1)*col(n))!/(col(n)!*((row(n)-col(n))*col(n)+1)!)`
+-/
+
+namespace A070914.P4334716724304244556
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) * (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ) / (Nat.factorial (SequenceMachineLib.triCol n) * Nat.factorial (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) * (SequenceMachineLib.triCol n : ℤ) + 1).toNat : ℚ)
+
+end
+
+end A070914.P4334716724304244556
+
+namespace A070914
+
+/-- `((row(n)-col(n)+1)*col(n))!/(col(n)!*((row(n)-col(n))*col(n)+1)!)` -/
+def P4334716724304244556.Spec : Prop :=
+  ∀ n, P4334716724304244556.a n = (A070914 n : ℚ)
 
 end A070914
 
@@ -11591,6 +11615,24 @@ end
 
 end A070982.P13943593634334499122
 
+/-! ## A070982.P6565872181475216955
+
+`A074625(∑[1+n])`
+-/
+
+namespace A070982.P6565872181475216955
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074625 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A070982.P6565872181475216955
+
 /-! ## A070982.P4229170409713533242
 
 `A051444((n+1)*A283495(n+1))`
@@ -11620,24 +11662,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070982.P16224676251453308869
-
-/-! ## A070982.P6565872181475216955
-
-`A074625(∑[1+n])`
--/
-
-namespace A070982.P6565872181475216955
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074625 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A070982.P6565872181475216955
 
 /-!
 # A070984: a(n) = k such that (k-1)*log(k-1) < n < k*log(k).

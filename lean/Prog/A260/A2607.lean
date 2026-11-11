@@ -5933,6 +5933,21 @@ end
 
 end A260741.P11956378348031485157
 
+/-! ## A260741.P12992565570235074554
+
+`A269385(A269378(A260742(A269385(A269378(n+1)))))`
+-/
+
+namespace A260741.P12992565570235074554
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269385 (A269378 (A260742 (A269385 (A269378 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260741.P12992565570235074554
+
 /-! ## A260741.P5778959455914190831
 
 `A252753(A269378(n+1)^A278657(n))`
@@ -5947,21 +5962,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260741.P5778959455914190831
-
-/-! ## A260741.P9465270981224373613
-
-`A252755(C(A269376(n+1), A278657(n)))`
--/
-
-namespace A260741.P9465270981224373613
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252755 (Nat.choose (A269376 (n + 1)).toNat (A278657 n).toNat)
-
-end
-
-end A260741.P9465270981224373613
 
 /-!
 # A260742: Permutation of natural numbers: a(1) = 1, for n > 1: a(n) = A255551(A260738(n), a(A260739(n))).

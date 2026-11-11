@@ -6070,7 +6070,7 @@ end A095265
 /-!
 # A095266: A sequence generated from the Narayana triangle considered as a matrix, or from Pascal's triangle.
 
-The programs for A095266, the canonical program `A095266.P128904723839238299` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095266 has offset 1).
+The programs for A095266, the canonical program `A095266.P128904723839238299` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095266 has offset 1).
 
 The definition of A095266 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6079,7 +6079,7 @@ The definition of A095266 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+37x+103x^2+39x^3)/(1-5x+10x^2-10x^3+5x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A095266
@@ -8946,7 +8946,7 @@ end A095279
 /-!
 # A095280: Lower Wythoff primes, i.e., primes in A000201.
 
-The programs for A095280, the canonical program `A095280.P2548517751434133077` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095280 has offset 1).
+The programs for A095280, the canonical program `A095280.P2548517751434133077` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095280 has offset 1).
 
 The definition of A095280 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9201 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8978,7 +8978,7 @@ end A095280
 
 `p?[floor(ϕ*n)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A095280
@@ -9474,7 +9474,7 @@ end A095280
 /-!
 # A095281: Upper Wythoff primes, i.e., primes in A001950.
 
-The programs for A095281, the canonical program `A095281.P7371188887236908802` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095281 has offset 1).
+The programs for A095281, the canonical program `A095281.P7371188887236908802` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095281 has offset 1).
 
 The definition of A095281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8735 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9483,7 +9483,7 @@ The definition of A095281 is `conjectured`: the Lean definition is a formula tha
 
 `p?[floor(n*ϕ²)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A095281
@@ -10029,7 +10029,7 @@ end A095281
 /-!
 # A095282: Primes whose binary-expansion ends with an even number of 1's.
 
-The programs for A095282, the canonical program `A095282.P8436873216638165653` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095282 has offset 1).
+The programs for A095282, the canonical program `A095282.P8436873216638165653` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095282 has offset 1).
 
 The definition of A095282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3209 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10064,7 +10064,7 @@ end A095282
 
 `p?[abs(val(n+1, 2)%2-n)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A095282

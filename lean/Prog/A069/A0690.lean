@@ -5100,6 +5100,32 @@ def P10199192467200808584.Spec : Prop :=
 
 end A069038
 
+/-! ## A069038.P2015448337134769222
+
+`∑{#}[4, C(4, #)*C(n+#, 5)]`
+-/
+
+namespace A069038.P2015448337134769222
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose 4 k * Nat.choose (n + k) 5
+
+end
+
+end A069038.P2015448337134769222
+
+namespace A069038
+
+/-- `∑{#}[4, C(4, #)*C(n+#, 5)]` -/
+def P2015448337134769222.Spec : Prop :=
+  ∀ n, (P2015448337134769222.a n : ℤ) = A069038 n
+
+end A069038
+
 /-! ## A069038.P18368366009510368164
 
 `floor(A035599(n)/2)`
@@ -5464,6 +5490,32 @@ def P11719410095030268358.Spec : Prop :=
 theorem P11719410095030268358.correct : P11719410095030268358.Spec := by
   intro n
   simp only [A069039]
+
+end A069039
+
+/-! ## A069039.P15937246722590110772
+
+`∑{#}[5, C(5, #)*C(n+#, 6)]`
+-/
+
+namespace A069039.P15937246722590110772
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose 5 k * Nat.choose (n + k) 6
+
+end
+
+end A069039.P15937246722590110772
+
+namespace A069039
+
+/-- `∑{#}[5, C(5, #)*C(n+#, 6)]` -/
+def P15937246722590110772.Spec : Prop :=
+  ∀ n, (P15937246722590110772.a n : ℤ) = A069039 n
 
 end A069039
 
@@ -12532,6 +12584,29 @@ theorem P9611594981254446375.correct : P9611594981254446375.Spec := by
   simp only [A069078, Nat.add_sub_cancel, A069078.P9611594981254446375.a, A069078.P9288704633967038313.a, A141046, A141046.P17031355750207900223.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
+
+end A069078
+
+/-! ## A069078.P47650341223039002
+
+`lcm(A001844(n), A059722(n))`
+-/
+
+namespace A069078.P47650341223039002
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A001844 n) (A059722 n)
+
+end
+
+end A069078.P47650341223039002
+
+namespace A069078
+
+/-- `lcm(A001844(n), A059722(n))` -/
+def P47650341223039002.Spec : Prop :=
+  ∀ n, (P47650341223039002.a n : ℤ) = A069078 n
 
 end A069078
 

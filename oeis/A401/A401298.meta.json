@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic abelian dimonoids of order n.",
+  "id": "A401298",
+  "mentions": [
+    "A001426",
+    "A027851",
+    "A400568",
+    "A400569",
+    "A400570",
+    "A400914",
+    "A400915"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

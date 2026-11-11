@@ -2,17 +2,18 @@
   "description": "Number of alternating sign n X n matrices symmetric with respect to both diagonals.",
   "id": "A005162",
   "mentions": [
-    "A005130"
+    "A005130",
+    "A057629",
+    "A266091"
   ],
   "tags": [
     "formulas",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

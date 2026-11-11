@@ -1341,6 +1341,21 @@ end A188508.P17996418974849362275
 The programs for A188509, there is no canonical definition to state claims against.
 -/
 
+/-! ## A188509.P6867191866723513176
+
+`1+(2^col(n)-1)*2^(row(n)-col(n)+1)`
+-/
+
+namespace A188509.P6867191866723513176
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + ((2 ^ SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℤ)
+
+end
+
+end A188509.P6867191866723513176
+
 /-! ## A188509.P1190040061091749047
 
 `2^(row(n)+1)-(2^(row(n)-col(n)+1)-1)`
@@ -1420,31 +1435,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A188509.P8492053238348443770
-
-/-! ## A188509.P14578985010961494706
-
-`A224195(n+1)-∏[char[∑[n]]+1]`
--/
-
-namespace A188509.P14578985010961494706
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f3 j
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f2 j = n then 1 else 0) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224195 (n + 1) - ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
-
-end
-
-end A188509.P14578985010961494706
 
 /-!
 # A188510: Expansion of x*(1 + x^2)/(1 + x^4) in powers of x.
@@ -11355,6 +11345,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A188582.P13973246174016703210
+
+/-! ## A188582.P12097568667003865152
+
+`floor(10^(n+1)*sqrt(2))%10`
+-/
+
+namespace A188582.P12097568667003865152
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod ⌊(10 ^ (n + 1) : ℝ) * Real.sqrt (2 : ℝ)⌋ 10
+
+end
+
+end A188582.P12097568667003865152
 
 /-!
 # A188583: Primes p such that 6*p^3+1 is also prime.

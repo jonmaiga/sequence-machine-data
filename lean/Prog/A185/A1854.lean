@@ -21,7 +21,6 @@ import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -4353,23 +4352,29 @@ end A185455.P11835344399906229314
 /-!
 # A185456: Payphone packing sequence.
 
-The programs for A185456, there is no canonical definition to state claims against.
+The programs for A185456, the canonical program `A185456.P9891203396453126358` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185456 has offset 1).
+
+The definition of A185456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A185456.P9891203396453126358
 
 `1-and(-a(n-1), -n)` with `a(0)=1, a(1)=3`
+
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
-namespace A185456.P9891203396453126358
-noncomputable section
+namespace A185456
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3] fun n a =>
-  1 - Int.land (-a (n - 1)) (-(n : ℤ))
+/-- `1-and(-a(n-1), -n)` -/
+def P9891203396453126358.Spec : Prop :=
+  ∀ n, P9891203396453126358.a n = A185456 (n + 1)
 
-end
+theorem P9891203396453126358.correct : P9891203396453126358.Spec := by
+  intro n
+  simp only [A185456, Nat.add_sub_cancel]
 
-end A185456.P9891203396453126358
+end A185456
 
 /-! ## A185456.P11084533502989908359
 
@@ -4386,6 +4391,14 @@ end
 
 end A185456.P11084533502989908359
 
+namespace A185456
+
+/-- `n-or(n-1, -a(n-1))` -/
+def P11084533502989908359.Spec : Prop :=
+  ∀ n, P11084533502989908359.a n = A185456 (n + 1)
+
+end A185456
+
 /-! ## A185456.P11303262509427994558
 
 `or(n-1, a(n-1)-1)+2` with `a(0)=1, a(1)=3`
@@ -4400,6 +4413,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3] fun n a =>
 end
 
 end A185456.P11303262509427994558
+
+namespace A185456
+
+/-- `or(n-1, a(n-1)-1)+2` -/
+def P11303262509427994558.Spec : Prop :=
+  ∀ n, P11303262509427994558.a n = A185456 (n + 1)
+
+end A185456
 
 /-! ## A185456.P16301431664846567110
 
@@ -4421,6 +4442,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A185456.P16301431664846567110
+
+namespace A185456
+
+/-- `eq[0, a(floor(n/2)+1)%7]` -/
+def P16301431664846567110.Spec : Prop :=
+  ∀ n, (P16301431664846567110.a n : ℤ) = A185456 (n + 1)
+
+end A185456
 
 /-!
 # A185457: a(n) = abs( Im((2+i)^(2^n)) ).

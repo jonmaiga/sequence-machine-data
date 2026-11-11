@@ -2,6 +2,7 @@
   "description": "Binomial coefficients C(2*n-4,5).",
   "id": "A053127",
   "mentions": [
+    "A000389",
     "A053123",
     "A053126",
     "A053132"

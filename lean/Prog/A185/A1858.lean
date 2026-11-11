@@ -21,6 +21,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -52,6 +53,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -5648,6 +5650,32 @@ def P16531405518487729951.Spec : Prop :=
 
 end A185869
 
+/-! ## A185869.P17464128334665330699
+
+`A007607(Δ[n²])`
+-/
+
+namespace A185869.P17464128334665330699
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007607 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+
+end
+
+end A185869.P17464128334665330699
+
+namespace A185869
+
+/-- `A007607(Δ[n²])` -/
+def P17464128334665330699.Spec : Prop :=
+  ∀ n, P17464128334665330699.a n = A185869 (n + 1)
+
+end A185869
+
 /-!
 # A185870: (Even,odd)-polka dot array in the natural number array A000027, by antidiagonals.
 
@@ -7934,6 +7962,29 @@ def P3654914246119505720.Spec : Prop :=
 
 end A185879
 
+/-! ## A185879.P2829457442562615723
+
+`and(A087136(n), A131032(n+1))`
+-/
+
+namespace A185879.P2829457442562615723
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A087136 n) (A131032 (n + 1))
+
+end
+
+end A185879.P2829457442562615723
+
+namespace A185879
+
+/-- `and(A087136(n), A131032(n+1))` -/
+def P2829457442562615723.Spec : Prop :=
+  ∀ n, P2829457442562615723.a n = A185879 (n + 1)
+
+end A185879
+
 /-! ## A185879.P12561598139397455847
 
 `and(A095121(n), A131032(n+1))`
@@ -8299,29 +8350,6 @@ namespace A185879
 /-- `and(A040210(n²), A131032(n+1))` -/
 def P8491701623592000529.Spec : Prop :=
   ∀ n, P8491701623592000529.a n = A185879 (n + 1)
-
-end A185879
-
-/-! ## A185879.P13097376753316449618
-
-`and(A040930(n²), A131032(n+1))`
--/
-
-namespace A185879.P13097376753316449618
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A040930 (n ^ 2)) (A131032 (n + 1))
-
-end
-
-end A185879.P13097376753316449618
-
-namespace A185879
-
-/-- `and(A040930(n²), A131032(n+1))` -/
-def P13097376753316449618.Spec : Prop :=
-  ∀ n, P13097376753316449618.a n = A185879 (n + 1)
 
 end A185879
 

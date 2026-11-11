@@ -2874,21 +2874,6 @@ end
 
 end A217540.P13055679239683747753
 
-/-! ## A217540.P8924218236841924710
-
-`A303708(gcd(A345882(n+5), A345896(3*n+1)))`
--/
-
-namespace A217540.P8924218236841924710
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (Int.gcd (A345882 (n + 5)) (A345896 (3 * n + 1)))
-
-end
-
-end A217540.P8924218236841924710
-
 /-! ## A217540.P13753740142700616841
 
 `A007814(A310515(2*n+1)+A052219(3*n+2))`
@@ -2918,6 +2903,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A217540.P3738284964716368047
+
+/-! ## A217540.P12446630807886241043
+
+`A127326(A114183(n+2))`
+-/
+
+namespace A217540.P12446630807886241043
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127326 (A114183 (n + 2)).toNat
+
+end
+
+end A217540.P12446630807886241043
 
 /-!
 # A217542: Number of n X n arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random 0..2 n X n array.
@@ -7227,26 +7227,26 @@ def P11675387407782225762.Spec : Prop :=
 
 end A217575
 
-/-! ## A217575.P12503437139806972568
+/-! ## A217575.P6309422535793345468
 
-`(row(n)+1)²+col(n)+1+row(n)`
+`row(n)+1+col(n)+(row(n)+1)²`
 -/
 
-namespace A217575.P12503437139806972568
+namespace A217575.P6309422535793345468
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.triRow n + 1) ^ 2 + (SequenceMachineLib.triCol n + 1) + SequenceMachineLib.triRow n
+  SequenceMachineLib.triRow n + 1 + SequenceMachineLib.triCol n + (SequenceMachineLib.triRow n + 1) ^ 2
 
 end
 
-end A217575.P12503437139806972568
+end A217575.P6309422535793345468
 
 namespace A217575
 
-/-- `(row(n)+1)²+col(n)+1+row(n)` -/
-def P12503437139806972568.Spec : Prop :=
-  ∀ n, (P12503437139806972568.a n : ℤ) = A217575 (n + 1)
+/-- `row(n)+1+col(n)+(row(n)+1)²` -/
+def P6309422535793345468.Spec : Prop :=
+  ∀ n, (P6309422535793345468.a n : ℤ) = A217575 (n + 1)
 
 end A217575
 

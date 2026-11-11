@@ -24,7 +24,7 @@ import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
@@ -2038,21 +2038,6 @@ end
 
 end A385436.P18406448176387643239
 
-/-! ## A385436.P6999824155865202787
-
-`A182801(n+1)%A399997(n+3)-1`
--/
-
-namespace A385436.P6999824155865202787
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A182801 (n + 1)) (A399997 (n + 3)) - 1
-
-end
-
-end A385436.P6999824155865202787
-
 /-! ## A385436.P4185554405535888468
 
 `A182801(n+1)-A225630(n*(n+1)/2)`
@@ -3848,7 +3833,7 @@ end A385468
 /-!
 # A385469: Expansion of e.g.f. 1/(1 - 3 * arctanh(x))^(1/3).
 
-The programs for A385469, the canonical program `A385469.P10167520793086109988` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385469 has offset 0).
+The programs for A385469, the canonical program `A385469.P10167520793086109988` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385469 has offset 0).
 
 The definition of A385469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3857,7 +3842,7 @@ The definition of A385469 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A007559(#)*A111594(C(n+1, 2)+#)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A385469
@@ -3975,7 +3960,7 @@ end A385472
 /-!
 # A385473: Expansion of e.g.f. 1/(1 - arctanh(3*x))^(1/3).
 
-The programs for A385473, the canonical program `A385473.P6740271229782449686` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385473 has offset 0).
+The programs for A385473, the canonical program `A385473.P6740271229782449686` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385473 has offset 0).
 
 The definition of A385473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3984,7 +3969,7 @@ The definition of A385473 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A007559(#)*3^(n-#)*A111594(C(n+1, 2)+#)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A385473

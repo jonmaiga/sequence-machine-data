@@ -1,7 +1,10 @@
 {
   "description": "Numbers whose base-3 and base-8 expansions have the same digit sum.",
   "id": "A037313",
-  "mentions": [],
+  "mentions": [
+    "A053735",
+    "A053829"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -27,13 +27,12 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -1445,7 +1444,7 @@ end A386219.P12066687486899478481
 /-!
 # A386220: a(n) = d + 2*2^e where n = d*2^e with d = A000265(n) odd.
 
-The programs for A386220, the canonical program `A386220.P3238769250650299334` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386220 has offset 1).
+The programs for A386220, the canonical program `A386220.P3238769250650299334` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386220 has offset 1).
 
 The definition of A386220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1454,7 +1453,7 @@ The definition of A386220 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000265(n+1)+A171977(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A386220
@@ -4526,6 +4525,29 @@ def P2256939540313474637.Spec : Prop :=
 
 end A386261
 
+/-! ## A386261.P17085756702566202186
+
+`A007814(A366839(n+1))`
+-/
+
+namespace A386261.P17085756702566202186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007814 (A366839 (n + 1)).toNat
+
+end
+
+end A386261.P17085756702566202186
+
+namespace A386261
+
+/-- `A007814(A366839(n+1))` -/
+def P17085756702566202186.Spec : Prop :=
+  ∀ n, P17085756702566202186.a n = A386261 (n + 1)
+
+end A386261
+
 /-! ## A386261.P8949936384587579104
 
 `A001511(A059139(n)-1)`
@@ -4759,29 +4781,6 @@ namespace A386261
 /-- `A001511(A279357(n))` -/
 def P9769359668068688924.Spec : Prop :=
   ∀ n, P9769359668068688924.a n = A386261 (n + 1)
-
-end A386261
-
-/-! ## A386261.P16787428296839309492
-
-`A136480(A127750(n))`
--/
-
-namespace A386261.P16787428296839309492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136480 (A127750 n).toNat
-
-end
-
-end A386261.P16787428296839309492
-
-namespace A386261
-
-/-- `A136480(A127750(n))` -/
-def P16787428296839309492.Spec : Prop :=
-  ∀ n, P16787428296839309492.a n = A386261 (n + 1)
 
 end A386261
 

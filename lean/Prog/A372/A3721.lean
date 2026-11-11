@@ -1017,6 +1017,21 @@ end
 
 end A372113.P3846246176555252225
 
+/-! ## A372113.P9457578419887985540
+
+`A000010(A126330(n+1))/2`
+-/
+
+namespace A372113.P9457578419887985540
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000010 (A126330 (n + 1)).toNat : ℚ) / 2
+
+end
+
+end A372113.P9457578419887985540
+
 /-! ## A372113.P2088644491818984534
 
 `filter[A072055(n+1), A101264(#)]`
@@ -1218,27 +1233,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A372113.P964933805619423026
-
-/-! ## A372113.P8504866922316131337
-
-`eq[A338770(n+1), A361289(n+1)]`
--/
-
-namespace A372113.P8504866922316131337
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A338770 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361289 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A372113.P8504866922316131337
 
 /-!
 # A372114: Sum of squares of divisors of the numbers m such that m and m+2 have the same sum of squares of divisors.

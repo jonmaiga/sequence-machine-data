@@ -55,6 +55,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -943,6 +944,36 @@ end
 
 end A393813.P11817662002271412665
 
+/-! ## A393813.P5974661079520439580
+
+`n+1-A194832(A054068(A054067(n+1)))`
+-/
+
+namespace A393813.P5974661079520439580
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A194832 (A054068 (A054067 (n + 1)).toNat).toNat
+
+end
+
+end A393813.P5974661079520439580
+
+/-! ## A393813.P15355558672580291453
+
+`n+1-A194832(A054076(A054075(n+1)))`
+-/
+
+namespace A393813.P15355558672580291453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A194832 (A054076 (A054075 (n + 1)).toNat).toNat
+
+end
+
+end A393813.P15355558672580291453
+
 /-! ## A393813.P15838073866715803417
 
 `A084532(A054347(1+n))-1`
@@ -1051,6 +1082,21 @@ end
 
 end A393815.P6436016680408174196
 
+/-! ## A393815.P6044596681746216291
+
+`A355646(A393814(n+1))`
+-/
+
+namespace A393815.P6044596681746216291
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355646 (A393814 (n + 1)).toNat
+
+end
+
+end A393815.P6044596681746216291
+
 /-! ## A393815.P12246171211758401271
 
 `A173817(A005517(n+1))`
@@ -1080,21 +1126,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393815.P12006390344191662363
-
-/-! ## A393815.P17159982388846854554
-
-`A395918(n)+A293137(A328296(n))`
--/
-
-namespace A393815.P17159982388846854554
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A395918 n + A293137 (A328296 n).toNat
-
-end
-
-end A393815.P17159982388846854554
 
 /-!
 # A393816: Achilles numbers with exactly 2 distinct prime factors.
@@ -3152,26 +3183,26 @@ def P13064945670081065189.Spec : Prop :=
 
 end A393855
 
-/-! ## A393855.P15811800723391935759
+/-! ## A393855.P13481093766710611229
 
-`max(A071289(2*n), A071289(2*n+1))`
+`A000578(2*n+1)-A001105(n)`
 -/
 
-namespace A393855.P15811800723391935759
+namespace A393855.P13481093766710611229
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  max (A071289 (2 * n)) (A071289 (2 * n + 1))
+  A000578 (2 * n + 1) - A001105 n
 
 end
 
-end A393855.P15811800723391935759
+end A393855.P13481093766710611229
 
 namespace A393855
 
-/-- `max(A071289(2*n), A071289(2*n+1))` -/
-def P15811800723391935759.Spec : Prop :=
-  ∀ n, P15811800723391935759.a n = A393855 n
+/-- `A000578(2*n+1)-A001105(n)` -/
+def P13481093766710611229.Spec : Prop :=
+  ∀ n, P13481093766710611229.a n = A393855 n
 
 end A393855
 

@@ -28,7 +28,7 @@ import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C050
 import Seq.B001.C000
@@ -41,7 +41,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2625,6 +2624,21 @@ end
 
 end A243343.P16827675716426325669
 
+/-! ## A243343.P12966136473958341069
+
+`A243345(A243344(A243345(n+1)))`
+-/
+
+namespace A243343.P12966136473958341069
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243345 (A243344 (A243345 (n + 1)).toNat).toNat
+
+end
+
+end A243343.P12966136473958341069
+
 /-! ## A243343.P14863723882784986047
 
 `A054429(A122111(n+1)%A006035(n+1))`
@@ -2639,21 +2653,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243343.P14863723882784986047
-
-/-! ## A243343.P11798831630539841649
-
-`A054429(A122111(n+1))%A073561(n+1)`
--/
-
-namespace A243343.P11798831630539841649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A054429 (A122111 (n + 1)).toNat) (A073561 (n + 1))
-
-end
-
-end A243343.P11798831630539841649
 
 /-!
 # A243344: a(1) = 1, a(2n) = A013929(a(n)), a(2n+1) = A005117(1+a(n)).
@@ -2853,20 +2852,20 @@ end
 
 end A243345.P12273151611953538230
 
-/-! ## A243345.P17509697066400905002
+/-! ## A243345.P17012476487885272026
 
-`A243343(A243346(A243343(A122111(A122111(n+1)))))`
+`A243343(A243346(A243343(n+1)))`
 -/
 
-namespace A243345.P17509697066400905002
+namespace A243345.P17012476487885272026
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243343 (A243346 (A243343 (A122111 (A122111 (n + 1)).toNat).toNat).toNat).toNat
+  A243343 (A243346 (A243343 (n + 1)).toNat).toNat
 
 end
 
-end A243345.P17509697066400905002
+end A243345.P17012476487885272026
 
 /-!
 # A243346: a(1) = 1, a(2n) = A005117(1+a(n)), a(2n+1) = A013929(a(n)), where A005117 are squarefree and A013929 are nonsquarefree numbers.
@@ -3069,6 +3068,21 @@ end
 
 end A243347.P8708981115896213302
 
+/-! ## A243347.P14281215921051482884
+
+`A243346(A237427(A235491(A237126(A243345(n+1)))))`
+-/
+
+namespace A243347.P14281215921051482884
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243346 (A237427 (A235491 (A237126 (A243345 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A243347.P14281215921051482884
+
 /-! ## A243347.P15093859143690020520
 
 `A243344(A257647(n+1)+A243287(n+1))`
@@ -3098,21 +3112,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243347.P13462512800514461592
-
-/-! ## A243347.P2857818839057387946
-
-`A243344(A243288(n+1)%A016060(3*n+5))`
--/
-
-namespace A243347.P2857818839057387946
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243344 (Int.tmod (A243288 (n + 1)) (A016060 (3 * n + 5))).toNat
-
-end
-
-end A243347.P2857818839057387946
 
 /-!
 # A243348: Difference between the n-th squarefree number and n: a(n) = A005117(n) - n.

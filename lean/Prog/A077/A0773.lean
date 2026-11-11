@@ -124,21 +124,6 @@ end
 
 end A077306.P8893281193574836111
 
-/-! ## A077306.P4305113244925162942
-
-`A075000(n+1)/(n+1)^A008683(A063535(n))`
--/
-
-namespace A077306.P4305113244925162942
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075000 (n + 1) : ℚ) / (n + 1 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ)
-
-end
-
-end A077306.P4305113244925162942
-
 /-!
 # A077307: Partial sums of theta series of diamond (A005925).
 
@@ -4384,6 +4369,21 @@ end
 
 end A077348.P12293239434638140045
 
+/-! ## A077348.P4377739348454487521
+
+`A272679(A077346(2*n+1-n))`
+-/
+
+namespace A077348.P4377739348454487521
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272679 (A077346 (2 * n + 1 - n)).toNat
+
+end
+
+end A077348.P4377739348454487521
+
 /-!
 # A077349: a(n) = A077347(n)^(1/2).
 
@@ -4632,7 +4632,7 @@ end A077352.P18030495664139521810
 /-!
 # A077353: a(n) = (concatenation in ascending order of divisors of 5^n)/5^n.
 
-The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
+The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
 
 The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4641,7 +4641,7 @@ The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+10^A055642(5^n)/5*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077353
@@ -6733,7 +6733,7 @@ end A077384.P4329595178685829977
 /-!
 # A077385: Triangle read by rows in which n-th row contains 2n-1 terms starting from n^0 to n^(n-1) in increasing order and then in decreasing order to n^0.
 
-The programs for A077385, the canonical program `A077385.P17331936456348378182` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
+The programs for A077385, the canonical program `A077385.P17331936456348378182` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
 
 The definition of A077385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3306 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6742,7 +6742,7 @@ The definition of A077385 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(ceil(sqrt(n))^(A004737(n+1)-1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077385
@@ -7341,6 +7341,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A077396.P240012622589025735
+
+/-! ## A077396.P13811619090047672985
+
+`A000188(A076093(n+1))`
+-/
+
+namespace A077396.P13811619090047672985
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A076093 (n + 1)).toNat
+
+end
+
+end A077396.P13811619090047672985
 
 /-! ## A077396.P5916926106877247010
 

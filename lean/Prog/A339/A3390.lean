@@ -36,7 +36,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3073,21 +3073,6 @@ end A339029
 
 The programs for A339030, there is no canonical definition to state claims against.
 -/
-
-/-! ## A339030.P47355005857401786
-
-`A400671(A394438(n))`
--/
-
-namespace A339030.P47355005857401786
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400671 (A394438 n).toNat
-
-end
-
-end A339030.P47355005857401786
 
 /-! ## A339030.P5744271192490533385
 

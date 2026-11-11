@@ -698,7 +698,7 @@ end A270803
 /-!
 # A270804: 0 followed by the positions of the 1's in the inverse Thue-Morse sequence A270803.
 
-The programs for A270804, the canonical program `A270804.P2348475646438394615` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270804 has offset 0).
+The programs for A270804, the canonical program `A270804.P2348475646438394615` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270804 has offset 0).
 
 The definition of A270804 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -707,7 +707,7 @@ The definition of A270804 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(∑[ceil((xor(n, n+1)+1)²/6)]/2)-1`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A270804
@@ -1619,7 +1619,7 @@ end A270808
 /-!
 # A270809: a(n) = n^3/3 - 7*n/3 + 4.
 
-The programs for A270809, the canonical program `A270809.P11176852814080334764` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270809 has offset 0).
+The programs for A270809, the canonical program `A270809.P11176852814080334764` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270809 has offset 0).
 
 The definition of A270809 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1628,7 +1628,7 @@ The definition of A270809 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4-14x+18x^2-6x^3)/(1-4x+6x^2-4x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A270809
@@ -1873,7 +1873,7 @@ end A270809
 /-!
 # A270810: Expansion of (x - x^2 + 2*x^3 + 2*x^4)/(1 - 3*x + 2*x^2).
 
-The programs for A270810, the canonical program `A270810.P8587742924493596411` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270810 has offset 0).
+The programs for A270810, the canonical program `A270810.P8587742924493596411` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270810 has offset 0).
 
 The definition of A270810 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))` (program `A270810.P8587742924493596411`, by `A270810.P8587742924493596411.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1882,7 +1882,7 @@ The definition of A270810 is `verified`: the Lean definition is proven equivalen
 
 `ogf((x-x^2+2x^3+2x^4)/(1-3x+2x^2))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A270810
@@ -6757,27 +6757,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A270877.P18114431763714602764
-
-/-! ## A270877.P17697676893446715992
-
-`lt[A087242(A030725(n+1)), A123556(2*(n+2))]`
--/
-
-namespace A270877.P17697676893446715992
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087242 (A030725 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123556 (2 * (n + 2))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A270877.P17697676893446715992
 
 /-! ## A270877.P6069898762371259442
 

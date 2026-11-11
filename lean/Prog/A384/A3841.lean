@@ -30,6 +30,7 @@ import Seq.B000.C034
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C049
@@ -909,26 +910,26 @@ def P15224085087656991423.Spec : Prop :=
 
 end A384125
 
-/-! ## A384125.P7526126205231112429
+/-! ## A384125.P7366519357649099414
 
-`1/2*(row(n)-col(n)+1)*(col(n)+1)*row(n)`
+`(col(n)+1)/2*(row(n)-col(n)+1)*row(n)`
 -/
 
-namespace A384125.P7526126205231112429
+namespace A384125.P7366519357649099414
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 2 * (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) * (SequenceMachineLib.triCol n + 1 : ℤ) : ℚ) * (SequenceMachineLib.triRow n : ℚ)
+  (SequenceMachineLib.triCol n + 1 : ℚ) / 2 * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) * (SequenceMachineLib.triRow n : ℚ)
 
 end
 
-end A384125.P7526126205231112429
+end A384125.P7366519357649099414
 
 namespace A384125
 
-/-- `1/2*(row(n)-col(n)+1)*(col(n)+1)*row(n)` -/
-def P7526126205231112429.Spec : Prop :=
-  ∀ n, P7526126205231112429.a n = (A384125 (n + 1) : ℚ)
+/-- `(col(n)+1)/2*(row(n)-col(n)+1)*row(n)` -/
+def P7366519357649099414.Spec : Prop :=
+  ∀ n, P7366519357649099414.a n = (A384125 (n + 1) : ℚ)
 
 end A384125
 
@@ -4643,7 +4644,7 @@ end A384195
 
 The programs for A384197, the canonical program `A384197.P2193178931822294470` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384197 has offset 1).
 
-The definition of A384197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A384197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A384197.P2193178931822294470

@@ -1,7 +1,8 @@
 {
-  "description": "Reduced numerators of the ratios of Pi(2^(n+1))/Pi(2^(n)).",
+  "description": "Reduced numerators of the ratios of pi(2^(n+1))/pi(2^(n)), where pi = A000720.",
   "id": "A157301",
   "mentions": [
+    "A000720",
     "A007053"
   ],
   "tags": [
@@ -9,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 34,
     "source": "oeis-entry"
   }

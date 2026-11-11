@@ -7060,6 +7060,29 @@ def P867021820899463597.Spec : Prop :=
 
 end A048640
 
+/-! ## A048640.P11480748990390537527
+
+`A004277(A048672(n+1))`
+-/
+
+namespace A048640.P11480748990390537527
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A048672 (n + 1)).toNat
+
+end
+
+end A048640.P11480748990390537527
+
+namespace A048640
+
+/-- `A004277(A048672(n+1))` -/
+def P11480748990390537527.Spec : Prop :=
+  ∀ n, P11480748990390537527.a n = A048640 (n + 1)
+
+end A048640
+
 /-!
 # A048641: Partial sums of A003188 (Gray code).
 
@@ -11486,6 +11509,21 @@ end
 
 end A048663.P13332253566782123081
 
+/-! ## A048663.P548585336900492355
+
+`A048790(A034856(n+2))`
+-/
+
+namespace A048663.P548585336900492355
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048790 (A034856 (n + 2)).toNat
+
+end
+
+end A048663.P548585336900492355
+
 /-! ## A048663.P1503673144634346290
 
 `A048790(lt[A126074(n+3), A000177(n)])`
@@ -11506,27 +11544,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048663.P1503673144634346290
-
-/-! ## A048663.P9417453350826509386
-
-`A048790(lt[A126074(n+3), A000010(n+1)])`
--/
-
-namespace A048663.P9417453350826509386
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126074 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048790 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A048663.P9417453350826509386
 
 /-!
 # A048664: Number of rooted 2-dimensional polyominoes with n square cells, with no symmetries removed.
@@ -12323,6 +12340,36 @@ end
 
 end A048670.P7584655522478789206
 
+/-! ## A048670.P10731910765856504169
+
+`A164020(A058989(n+1))`
+-/
+
+namespace A048670.P10731910765856504169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164020 (A058989 (n + 1)).toNat
+
+end
+
+end A048670.P10731910765856504169
+
+/-! ## A048670.P8702429324451024523
+
+`A016724(A058989(n+1))`
+-/
+
+namespace A048670.P8702429324451024523
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016724 (A058989 (n + 1)).toNat
+
+end
+
+end A048670.P8702429324451024523
+
 /-! ## A048670.P16812389111946912654
 
 `A331118(∑[A329815(n+1)]+2)`
@@ -12340,45 +12387,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048670.P16812389111946912654
-
-/-! ## A048670.P15401959908414889643
-
-`A331118(eq[4, A331118(n+2)])`
--/
-
-namespace A048670.P15401959908414889643
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331118 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331118 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A048670.P15401959908414889643
-
-/-! ## A048670.P10320706914776506145
-
-`record[A331118(n+3-A331118(n+1))]`
--/
-
-namespace A048670.P10320706914776506145
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331118 ((n + 3 : ℤ) - A331118 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A048670.P10320706914776506145
 
 /-!
 # A048671: a(n) is the least common multiple of the proper divisors of n.

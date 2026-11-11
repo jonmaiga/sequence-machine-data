@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) read by rows: T(m,n) = (1+n*3^m)-th prime.",
+  "description": "Triangle T(n,m) read by rows: T(n,m) = (1+n*3^m)-th prime.",
   "id": "A137440",
   "mentions": [
     "A000040",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

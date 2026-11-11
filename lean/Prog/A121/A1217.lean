@@ -1080,6 +1080,28 @@ end
 
 end A121707.P9375347357594790613
 
+/-! ## A121707.P12718818890328402737
+
+`∩[A191677(n+1), A390467(n+1)]`
+-/
+
+namespace A121707.P12718818890328402737
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191677 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390467 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121707.P12718818890328402737
+
 /-! ## A121707.P14473421162509687610
 
 `∩[A191677(n+1), A327922(n+1)]`
@@ -1167,28 +1189,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A121707.P9501219602272253359
-
-/-! ## A121707.P4316226660351879387
-
-`∩[A191677(n+1), A020742(n)]`
--/
-
-namespace A121707.P4316226660351879387
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191677 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020742 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A121707.P4316226660351879387
 
 /-!
 # A121708: Numerator of Sum/Product of first n Fibonacci numbers A000045[n].
@@ -3161,29 +3161,29 @@ theorem P6925570740188186703.correct : P6925570740188186703.Spec := by
 
 end A121723
 
-/-! ## A121723.P16003938610247966046
+/-! ## A121723.P3412519305862394551
 
-`∑{#}[n, n/(#+1)]*(n+1)!`
+`n*∑{#}[n, (n+1)!/(#+1)]`
 -/
 
-namespace A121723.P16003938610247966046
+namespace A121723.P3412519305862394551
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (∑ k ∈ Finset.range (f1 n + 1), (n : ℚ) / (k + 1 : ℚ)) * (Nat.factorial (n + 1) : ℚ)
+  (n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (n + 1) : ℚ) / (k + 1 : ℚ))
 
 end
 
-end A121723.P16003938610247966046
+end A121723.P3412519305862394551
 
 namespace A121723
 
-/-- `∑{#}[n, n/(#+1)]*(n+1)!` -/
-def P16003938610247966046.Spec : Prop :=
-  ∀ n, P16003938610247966046.a n = (A121723 (n + 1) : ℚ)
+/-- `n*∑{#}[n, (n+1)!/(#+1)]` -/
+def P3412519305862394551.Spec : Prop :=
+  ∀ n, P3412519305862394551.a n = (A121723 (n + 1) : ℚ)
 
 end A121723
 
@@ -10469,7 +10469,7 @@ theorem P8407811510875455720.correct : P8407811510875455720.Spec := by
 end A121795
 
 /-!
-# A121796: This sequence needs a meaningful name.
+# A121796: Upper-right entry of M(n)*M(n-1)*...*M(1), where M(n) cycles through the 2 X 2 matrices with entries in {0,1,2,3,4} and determinant 1 modulo 5, in cyclic row-wise lexicographic order starting with M(1) = [[0,1],[4,1]].
 
 The programs for A121796, there is no canonical definition to state claims against.
 -/

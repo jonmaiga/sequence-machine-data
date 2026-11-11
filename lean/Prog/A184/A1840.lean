@@ -23,6 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -4130,29 +4131,26 @@ def P14638939292530735845.Spec : Prop :=
 
 end A184013
 
-/-! ## A184013.P4783584508819880587
+/-! ## A184013.P223126260236830426
 
-`A288156(∑[n+3])`
+`A008619(A033437(n+1)+2*n+1)`
 -/
 
-namespace A184013.P4783584508819880587
+namespace A184013.P223126260236830426
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288156 (∑ j ∈ Finset.range (n + 1), f1 j)
+  A008619 (A033437 (n + 1) + (2 * n + 1 : ℤ)).toNat
 
 end
 
-end A184013.P4783584508819880587
+end A184013.P223126260236830426
 
 namespace A184013
 
-/-- `A288156(∑[n+3])` -/
-def P4783584508819880587.Spec : Prop :=
-  ∀ n, P4783584508819880587.a n = A184013 (n + 1)
+/-- `A008619(A033437(n+1)+2*n+1)` -/
+def P223126260236830426.Spec : Prop :=
+  ∀ n, P223126260236830426.a n = A184013 (n + 1)
 
 end A184013
 

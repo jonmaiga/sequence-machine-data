@@ -1,0 +1,23 @@
+{
+  "description": "Maximum length J of a chain of factorizations j*n = d(j)*e(j) (j = 1..J) with d(1), e(1) >= 2, d(j+1) >= d(j) + 2 and e(j+1) >= e(j) + 2.",
+  "id": "A400943",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001358",
+    "A001359",
+    "A002808",
+    "A005279",
+    "A050372",
+    "A109611",
+    "A174905"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

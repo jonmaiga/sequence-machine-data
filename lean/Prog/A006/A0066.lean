@@ -40,6 +40,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C047
 import Seq.B000.C048
@@ -1326,7 +1327,7 @@ end
 end A006612.P3731153106571413861
 
 /-!
-# A006613: Zarankiewicz's problem.
+# A006613: Zarankiewicz's problem: a(n) is the least k such that every n X n {0,1}-matrix with k ones contains an all-ones 2 X 3 submatrix.
 
 The programs for A006613, there is no canonical definition to state claims against.
 -/
@@ -5423,6 +5424,21 @@ end
 
 end A006642.P16221949722037952697
 
+/-! ## A006642.P14859381656863395089
+
+`A191410(A039957(n+1))`
+-/
+
+namespace A006642.P14859381656863395089
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191410 (A039957 (n + 1)).toNat
+
+end
+
+end A006642.P14859381656863395089
+
 /-! ## A006642.P12278899550001284891
 
 `A058305(record[A099984(2*(n+1))])`
@@ -7450,26 +7466,32 @@ def P6119187961391776173.Spec : Prop :=
 
 end A006659
 
-/-! ## A006659.P6705202269961447290
+/-! ## A006659.P1373839068829428421
 
-`A002054(n+2)-A000245(n+2)`
+`A002694(n+2)+A002694(n+2)`
 -/
 
-namespace A006659.P6705202269961447290
+namespace A006659.P1373839068829428421
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002054 (n + 2) - A000245 (n + 2)
+  A002694 (n + 2) + A002694 (n + 2)
 
 end
 
-end A006659.P6705202269961447290
+end A006659.P1373839068829428421
 
 namespace A006659
 
-/-- `A002054(n+2)-A000245(n+2)` -/
-def P6705202269961447290.Spec : Prop :=
-  ∀ n, P6705202269961447290.a n = A006659 (n + 1)
+/-- `A002694(n+2)+A002694(n+2)` -/
+def P1373839068829428421.Spec : Prop :=
+  ∀ n, P1373839068829428421.a n = A006659 (n + 1)
+
+theorem P1373839068829428421.correct : P1373839068829428421.Spec := by
+  intro n
+  simp only [A006659, Nat.add_sub_cancel, A006659.P1373839068829428421.a, A006659.P17029999458645631274.a, A002694, A002694.P4701693230279570942.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A006659
 
@@ -9285,6 +9307,32 @@ theorem P9797569461149319044.correct : P9797569461149319044.Spec := by
 
 end A006675
 
+/-! ## A006675.P1329325850985537715
+
+`∑{#}[n-1, #*n!/(n-#)]`
+-/
+
+namespace A006675.P1329325850985537715
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (k * Nat.factorial n : ℚ) / ((n : ℤ) - (k : ℤ) : ℚ)
+
+end
+
+end A006675.P1329325850985537715
+
+namespace A006675
+
+/-- `∑{#}[n-1, #*n!/(n-#)]` -/
+def P1329325850985537715.Spec : Prop :=
+  ∀ n, P1329325850985537715.a n = (A006675 n : ℚ)
+
+end A006675
+
 /-! ## A006675.P1081989351010358703
 
 `Δ[A161128(n)]`
@@ -9472,32 +9520,6 @@ namespace A006675
 /-- `Δ[A000254(n)-A007489(n)]` -/
 def P7069617748862748687.Spec : Prop :=
   ∀ n, P7069617748862748687.a n = A006675 n
-
-end A006675
-
-/-! ## A006675.P16104644311319494815
-
-`Δ[A000774(n)]-A007680(n)`
--/
-
-namespace A006675.P16104644311319494815
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000774 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n - A007680 n
-
-end
-
-end A006675.P16104644311319494815
-
-namespace A006675
-
-/-- `Δ[A000774(n)]-A007680(n)` -/
-def P16104644311319494815.Spec : Prop :=
-  ∀ n, P16104644311319494815.a n = A006675 n
 
 end A006675
 

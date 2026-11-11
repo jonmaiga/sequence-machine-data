@@ -6941,6 +6941,28 @@ end
 
 end A193072.P1987193550638061535
 
+/-! ## A193072.P8460969051579322197
+
+`∩[A193066(n+1), A401386(n+1)]`
+-/
+
+namespace A193072.P8460969051579322197
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193066 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401386 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A193072.P8460969051579322197
+
 /-!
 # A193073: Triangle in which n-th row lists all partitions of n, in graded lexicographical ordering.
 

@@ -11,7 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
@@ -59,7 +59,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +83,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A106900: Primes of the form x^2+xy+12y^2, with x and y nonnegative.
@@ -10076,21 +10074,6 @@ end
 
 end A106977.P18375109082076241713
 
-/-! ## A106977.P16727153516218558016
-
-`A285688(A342339(2*n+5))%A086647(2*(n+2))`
--/
-
-namespace A106977.P16727153516218558016
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A285688 (A342339 (2 * n + 5)).toNat) (A086647 (2 * (n + 2)))
-
-end
-
-end A106977.P16727153516218558016
-
 /-!
 # A106978: Primes of the form 3x^2+3xy+8y^2, with x and y nonnegative.
 
@@ -11268,27 +11251,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106997.P11611452204665282456
-
-/-!
-# A106998: Primes of the form 2x^2+xy+12y^2, with x and y nonnegative.
-
-The programs for A106998, there is no canonical definition to state claims against.
--/
-
-/-! ## A106998.P17278846843863474929
-
-`A376205(A389964(n+1)+A246261(2*n+1))`
--/
-
-namespace A106998.P17278846843863474929
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376205 (A389964 (n + 1) + A246261 (2 * n + 1)).toNat
-
-end
-
-end A106998.P17278846843863474929
 
 /-!
 # A106999: Primes of the form 2x^2+xy+12y^2, with x and y any integer.

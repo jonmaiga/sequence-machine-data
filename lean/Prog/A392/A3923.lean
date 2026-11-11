@@ -37,7 +37,6 @@ import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
-import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -385,29 +384,6 @@ def P9339402637041030258.Spec : Prop :=
 theorem P9339402637041030258.correct : P9339402637041030258.Spec := by
   intro n
   simp only [A392312]
-
-end A392312
-
-/-! ## A392312.P1631030014992183477
-
-`A400671(A392316(n))`
--/
-
-namespace A392312.P1631030014992183477
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400671 (A392316 n).toNat
-
-end
-
-end A392312.P1631030014992183477
-
-namespace A392312
-
-/-- `A400671(A392316(n))` -/
-def P1631030014992183477.Spec : Prop :=
-  ∀ n, P1631030014992183477.a n = A392312 n
 
 end A392312
 

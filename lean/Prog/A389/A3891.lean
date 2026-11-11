@@ -36,6 +36,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
@@ -322,6 +323,29 @@ namespace A389101
 /-- `gcd(A294118(n), A373748(n))` -/
 def P13739116928335237551.Spec : Prop :=
   ∀ n, (P13739116928335237551.a n : ℤ) = A389101 n
+
+end A389101
+
+/-! ## A389101.P12777365651126653824
+
+`gcd(A292977(n), A373748(n))`
+-/
+
+namespace A389101.P12777365651126653824
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A292977 n) (A373748 n)
+
+end
+
+end A389101.P12777365651126653824
+
+namespace A389101
+
+/-- `gcd(A292977(n), A373748(n))` -/
+def P12777365651126653824.Spec : Prop :=
+  ∀ n, (P12777365651126653824.a n : ℤ) = A389101 n
 
 end A389101
 
@@ -1314,6 +1338,29 @@ def P9847973255141604162.Spec : Prop :=
 
 end A389121
 
+/-! ## A389121.P17755304142069128837
+
+`A163733(n+3)-A293546(n+1)`
+-/
+
+namespace A389121.P17755304142069128837
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163733 (n + 3) - A293546 (n + 1)
+
+end
+
+end A389121.P17755304142069128837
+
+namespace A389121
+
+/-- `A163733(n+3)-A293546(n+1)` -/
+def P17755304142069128837.Spec : Prop :=
+  ∀ n, P17755304142069128837.a n = A389121 n
+
+end A389121
+
 /-! ## A389121.P14526777575004000822
 
 `floor(∑[a(n-1)+a(n-2)]/3)` with `a(0)=4, a(1)=0`
@@ -1617,6 +1664,29 @@ namespace A389122
 /-- `A000045(n+1)+A000045(n+1)-A293545(n+1)` -/
 def P10815071768543142385.Spec : Prop :=
   ∀ n, P10815071768543142385.a n = A389122 n
+
+end A389122
+
+/-! ## A389122.P7278086467652614124
+
+`A163733(n+3)-A293545(n+1)`
+-/
+
+namespace A389122.P7278086467652614124
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163733 (n + 3) - A293545 (n + 1)
+
+end
+
+end A389122.P7278086467652614124
+
+namespace A389122
+
+/-- `A163733(n+3)-A293545(n+1)` -/
+def P7278086467652614124.Spec : Prop :=
+  ∀ n, P7278086467652614124.a n = A389122 n
 
 end A389122
 
@@ -2252,6 +2322,52 @@ namespace A389124
 /-- `A005578(n+1)+A007051(n)-A005578(n)` -/
 def P5011175210076090876.Spec : Prop :=
   ∀ n, P5011175210076090876.a n = A389124 n
+
+end A389124
+
+/-! ## A389124.P9087942960060867124
+
+`A034472(n)+A001045(n)-A007051(n)`
+-/
+
+namespace A389124.P9087942960060867124
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034472 n + A001045 n - A007051 n
+
+end
+
+end A389124.P9087942960060867124
+
+namespace A389124
+
+/-- `A034472(n)+A001045(n)-A007051(n)` -/
+def P9087942960060867124.Spec : Prop :=
+  ∀ n, P9087942960060867124.a n = A389124 n
+
+end A389124
+
+/-! ## A389124.P6906232326807032865
+
+`A094388(n+1)+A001045(n)-A007051(n)`
+-/
+
+namespace A389124.P6906232326807032865
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094388 (n + 1) + A001045 n - A007051 n
+
+end
+
+end A389124.P6906232326807032865
+
+namespace A389124
+
+/-- `A094388(n+1)+A001045(n)-A007051(n)` -/
+def P6906232326807032865.Spec : Prop :=
+  ∀ n, P6906232326807032865.a n = A389124 n
 
 end A389124
 
@@ -6639,6 +6755,21 @@ end
 
 end A389164.P16425378621168755011
 
+/-! ## A389164.P6736350517933375329
+
+`A389217(n+1)+A389163(n+1)-A325823(n+1)`
+-/
+
+namespace A389164.P6736350517933375329
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389217 (n + 1) + A389163 (n + 1) - A325823 (n + 1)
+
+end
+
+end A389164.P6736350517933375329
+
 /-! ## A389164.P18113988059241776662
 
 `A389163(n+1)+A389218(n+1)-A325824(n+1)`
@@ -6713,21 +6844,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389164.P16703109793968129787
-
-/-! ## A389164.P15918051527597820106
-
-`A389203(n+1)-A162296(A228058(n+1))`
--/
-
-namespace A389164.P15918051527597820106
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389203 (n + 1) - A162296 (A228058 (n + 1)).toNat
-
-end
-
-end A389164.P15918051527597820106
 
 /-!
 # A389165: a(n) is the squarefree part of the numbers satisfying Euler's condition for odd perfect numbers (A228058).
@@ -9790,6 +9906,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389198.P3750958502275782416
+
+/-! ## A389198.P3234463119126072244
+
+`A389163(n+1)+A325823(n+1)-A389217(n+1)`
+-/
+
+namespace A389198.P3234463119126072244
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389163 (n + 1) + A325823 (n + 1) - A389217 (n + 1)
+
+end
+
+end A389198.P3234463119126072244
 
 /-! ## A389198.P10645425608315297869
 

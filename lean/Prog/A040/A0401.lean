@@ -14,6 +14,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C024
@@ -45,6 +46,7 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -3413,26 +3415,26 @@ end
 
 end A040127.P7455595367264252348
 
-/-! ## A040127.P3035914655367107042
+/-! ## A040127.P3465104441881776348
 
-`eq[A000005(n+1), A107393(A320409(n+1))]+1`
+`eq[A112991(n), A285978(n+1)]`
 -/
 
-namespace A040127.P3035914655367107042
+namespace A040127.P3465104441881776348
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (n + 1)
+  A112991 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107393 (A320409 (n + 1)).toNat
+  A285978 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A040127.P3035914655367107042
+end A040127.P3465104441881776348
 
 /-!
 # A040129: Primes p such that x^4 = 14 has no solution mod p.

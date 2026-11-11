@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is least p to label a node of height n in the rooted tree which has the primes (A000040) as labels for its nonroot nodes, and the parent of the node labeled p is the node labeled with the greatest prime less than p/2 (or the root if there is no such node).",
+  "description": "a(n) is least p to label a node of height n in the rooted tree which has the primes (A000040) as labels for its nonroot nodes, and the parent of the node labeled p is the node labeled with the greatest prime less than p/2 (or the root if there is no such prime).",
   "id": "A290183",
   "mentions": [
     "A000040",

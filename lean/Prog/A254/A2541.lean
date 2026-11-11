@@ -78,12 +78,10 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -1564,6 +1562,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A254108.P17028278480277853769
+
+/-! ## A254108.P13979358719091375407
+
+`A254106(A254107(A254106(n+1)))`
+-/
+
+namespace A254108.P13979358719091375407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A254106 (A254107 (A254106 (n + 1)).toNat).toNat
+
+end
+
+end A254108.P13979358719091375407
 
 /-!
 # A254110: Zero-based column index of n in A254105: if A234017(n) = 0, then a(n) = 0, otherwise a(n) = 1 + a(A234017(n)).
@@ -4714,26 +4727,26 @@ def P14689337117697650359.Spec : Prop :=
 
 end A254128
 
-/-! ## A254128.P11003721284173164240
+/-! ## A254128.P14892892911869147373
 
-`2*A389514(A383870(n))`
+`A324700(A356507(n))`
 -/
 
-namespace A254128.P11003721284173164240
+namespace A254128.P14892892911869147373
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A389514 (A383870 n).toNat
+  A324700 (A356507 n).toNat
 
 end
 
-end A254128.P11003721284173164240
+end A254128.P14892892911869147373
 
 namespace A254128
 
-/-- `2*A389514(A383870(n))` -/
-def P11003721284173164240.Spec : Prop :=
-  ∀ n, P11003721284173164240.a n = A254128 n
+/-- `A324700(A356507(n))` -/
+def P14892892911869147373.Spec : Prop :=
+  ∀ n, P14892892911869147373.a n = A254128 n
 
 end A254128
 

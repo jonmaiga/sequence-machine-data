@@ -41,7 +41,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,6 +52,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -66,7 +67,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -11140,6 +11140,64 @@ theorem P2223033496409481425.correct : P2223033496409481425.Spec := by
 
 end A031462
 
+/-! ## A031462.P1392786680245516154
+
+`eq[A117973(n), A217871(n)]`
+-/
+
+namespace A031462.P1392786680245516154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117973 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A031462.P1392786680245516154
+
+namespace A031462
+
+/-- `eq[A117973(n), A217871(n)]` -/
+def P1392786680245516154.Spec : Prop :=
+  ∀ n, (P1392786680245516154.a n : ℤ) = A031462 (n + 1)
+
+end A031462
+
+/-! ## A031462.P9161948954647293463
+
+`eq[A217871(n), A267447(n)]`
+-/
+
+namespace A031462.P9161948954647293463
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267447 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A031462.P9161948954647293463
+
+namespace A031462
+
+/-- `eq[A217871(n), A267447(n)]` -/
+def P9161948954647293463.Spec : Prop :=
+  ∀ n, (P9161948954647293463.a n : ℤ) = A031462 (n + 1)
+
+end A031462
+
 /-! ## A031462.P177714713125483
 
 `eq[A160383(n)+1, A160380(n)]`
@@ -11630,35 +11688,6 @@ namespace A031462
 /-- `eq[A037861(2*n+1), A138364(A037861(2*n+1)²)]` -/
 def P6945493338675509887.Spec : Prop :=
   ∀ n, (P6945493338675509887.a n : ℤ) = A031462 (n + 1)
-
-end A031462
-
-/-! ## A031462.P5165190880095839789
-
-`eq[A023416(n), A160385(A003817(2*n))]`
--/
-
-namespace A031462.P5165190880095839789
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023416 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160385 (A003817 (2 * n)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A031462.P5165190880095839789
-
-namespace A031462
-
-/-- `eq[A023416(n), A160385(A003817(2*n))]` -/
-def P5165190880095839789.Spec : Prop :=
-  ∀ n, (P5165190880095839789.a n : ℤ) = A031462 (n + 1)
 
 end A031462
 

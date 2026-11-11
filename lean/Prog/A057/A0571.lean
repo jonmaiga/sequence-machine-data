@@ -93,6 +93,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -153,6 +154,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A057100.P14369940104253042779
+
+/-! ## A057100.P12141454564639148341
+
+`A057096(n+1)/(A057101(n+1)+A057101(n+1))`
+-/
+
+namespace A057100.P12141454564639148341
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A057096 (n + 1) : ℚ) / (A057101 (n + 1) + A057101 (n + 1) : ℚ)
+
+end
+
+end A057100.P12141454564639148341
 
 /-! ## A057100.P6420112469359521849
 
@@ -7769,6 +7785,29 @@ def P15835664942762433005.Spec : Prop :=
 
 end A057148
 
+/-! ## A057148.P5566284444240108917
+
+`A062128(A006995(n+1))`
+-/
+
+namespace A057148.P5566284444240108917
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062128 (A006995 (n + 1)).toNat
+
+end
+
+end A057148.P5566284444240108917
+
+namespace A057148
+
+/-- `A062128(A006995(n+1))` -/
+def P5566284444240108917.Spec : Prop :=
+  ∀ n, P5566284444240108917.a n = A057148 (n + 1)
+
+end A057148
+
 /-! ## A057148.P13070389887909236136
 
 `A007088(eq[1, A178225(n)])`
@@ -7850,32 +7889,6 @@ namespace A057148
 /-- `A007088(record[gcd(n, A030101(n))])` -/
 def P3990878760110506988.Spec : Prop :=
   ∀ n, P3990878760110506988.a n = A057148 (n + 1)
-
-end A057148
-
-/-! ## A057148.P11707410308159012466
-
-`record[and(A007088(n), A215256(n))]`
--/
-
-namespace A057148.P11707410308159012466
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A007088 n) (A215256 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A057148.P11707410308159012466
-
-namespace A057148
-
-/-- `record[and(A007088(n), A215256(n))]` -/
-def P11707410308159012466.Spec : Prop :=
-  ∀ n, P11707410308159012466.a n = A057148 (n + 1)
 
 end A057148
 
@@ -11901,7 +11914,7 @@ end
 end A057187.P10968395988470248370
 
 /-!
-# A057188: Numbers n such that (22^n+1)/23 is a prime.
+# A057188: Numbers k such that (22^k+1)/23 is a prime.
 
 The programs for A057188, there is no canonical definition to state claims against.
 -/

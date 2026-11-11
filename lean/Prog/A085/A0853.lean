@@ -27,13 +27,13 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -11326,6 +11326,24 @@ end
 
 end A085370.P18373569880492194087
 
+/-! ## A085370.P12933263472433794279
+
+`filter[A066530(2*n), A188641(#)]`
+-/
+
+namespace A085370.P12933263472433794279
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066530 (2 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A188641 (f1 j).toNat = 1) n)
+
+end
+
+end A085370.P12933263472433794279
+
 /-!
 # A085371: Non-Niven (or non-Harshad) numbers that are divisible by 3.
 
@@ -11891,6 +11909,52 @@ namespace A085373
 /-- `A051133(n)+A002457(n)` -/
 def P3502987019760129110.Spec : Prop :=
   ∀ n, P3502987019760129110.a n = A085373 n
+
+end A085373
+
+/-! ## A085373.P8118926576704433544
+
+`A000124(n+1)*A001700(n)-A001700(n)`
+-/
+
+namespace A085373.P8118926576704433544
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000124 (n + 1) * A001700 n - A001700 n
+
+end
+
+end A085373.P8118926576704433544
+
+namespace A085373
+
+/-- `A000124(n+1)*A001700(n)-A001700(n)` -/
+def P8118926576704433544.Spec : Prop :=
+  ∀ n, P8118926576704433544.a n = A085373 n
+
+end A085373
+
+/-! ## A085373.P1524006143511508208
+
+`A000124(n+1)*A088218(n+1)-A088218(n+1)`
+-/
+
+namespace A085373.P1524006143511508208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000124 (n + 1) * A088218 (n + 1) - A088218 (n + 1)
+
+end
+
+end A085373.P1524006143511508208
+
+namespace A085373
+
+/-- `A000124(n+1)*A088218(n+1)-A088218(n+1)` -/
+def P1524006143511508208.Spec : Prop :=
+  ∀ n, P1524006143511508208.a n = A085373 n
 
 end A085373
 
@@ -16803,35 +16867,20 @@ end
 
 end A085394.P14916668327092488490
 
-/-! ## A085394.P14075807496396437766
+/-! ## A085394.P6377521866249220415
 
-`A085396(A000027(n+1))%A085395(n+1)`
+`A085396(n+1)%A085395(n+1)`
 -/
 
-namespace A085394.P14075807496396437766
+namespace A085394.P6377521866249220415
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A085396 (A000027 (n + 1)).toNat) (A085395 (n + 1))
+  Int.tmod (A085396 (n + 1)) (A085395 (n + 1))
 
 end
 
-end A085394.P14075807496396437766
-
-/-! ## A085394.P3045102676440302489
-
-`A085396(n+1)%A085395(A090109(n+1))`
--/
-
-namespace A085394.P3045102676440302489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A085396 (n + 1)) (A085395 (A090109 (n + 1)).toNat)
-
-end
-
-end A085394.P3045102676440302489
+end A085394.P6377521866249220415
 
 /-!
 # A085395: Denominators of convergents to the Thue-Morse constant 0.41245403364...

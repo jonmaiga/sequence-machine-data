@@ -21,6 +21,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -8644,6 +8645,28 @@ end
 
 end A325571.P2781445123672270565
 
+/-! ## A325571.P9336500972730993594
+
+`∩[A002808(n+1), A325570(n+1)]`
+-/
+
+namespace A325571.P9336500972730993594
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325570 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325571.P9336500972730993594
+
 /-! ## A325571.P18303151472878583593
 
 `∩[A039769(n+1), A325570(n+1)]`
@@ -8882,28 +8905,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A325571.P10253575035704555695
-
-/-! ## A325571.P13334070305981910689
-
-`∩[A005381(n+1), A325570(n+1)]`
--/
-
-namespace A325571.P13334070305981910689
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005381 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325570 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A325571.P13334070305981910689
 
 /-!
 # A325572: Numbers n that have divisor d > 1 such that A048720(A065621(d),n/d) = n.

@@ -23,6 +23,7 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -33,7 +34,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
@@ -10153,24 +10154,6 @@ end
 
 end A078759.P12355894170218398376
 
-/-! ## A078759.P8015176559541614404
-
-`A064289(∑[A119788(A025487(n+1))])`
--/
-
-namespace A078759.P8015176559541614404
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119788 (A025487 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064289 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A078759.P8015176559541614404
-
 /-! ## A078759.P13927460617393980197
 
 `A064289(lt[A201836(3*n+5), A165004(3*n+1)])`
@@ -10206,6 +10189,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078759.P14744277161737215277
+
+/-! ## A078759.P17724514001549311464
+
+`A126712(A064389(n+1))+1`
+-/
+
+namespace A078759.P17724514001549311464
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126712 (A064389 (n + 1)).toNat + 1
+
+end
+
+end A078759.P17724514001549311464
 
 /-!
 # A078760: Combinations of a partition: number of ways to label a partition (of size n) with numbers 1 to n.

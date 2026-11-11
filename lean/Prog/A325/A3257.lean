@@ -29,7 +29,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
@@ -6521,37 +6521,19 @@ end
 
 end A325764.P14457769298599036767
 
-/-! ## A325764.P15040959727146667862
+/-! ## A325764.P12818522366926088065
 
-`filter[A325792(n+1), A340363(#)]`
+`∩[A299702(n+1), A387881(n+1)]`
 -/
 
-namespace A325764.P15040959727146667862
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325792 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A340363 (f1 j).toNat = 1) n)
-
-end
-
-end A325764.P15040959727146667862
-
-/-! ## A325764.P16344185680918715847
-
-`∩[A299702(n+1), A325763(n+1)]`
--/
-
-namespace A325764.P16344185680918715847
+namespace A325764.P12818522366926088065
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A299702 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325763 (n + 1)
+  A387881 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6559,7 +6541,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A325764.P16344185680918715847
+end A325764.P12818522366926088065
+
+/-! ## A325764.P7197294850645372932
+
+`∩[A325780(n+1), A387881(n+1)]`
+-/
+
+namespace A325764.P7197294850645372932
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325780 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387881 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325764.P7197294850645372932
 
 /-!
 # A325765: Number of integer partitions of n with a unique consecutive subsequence summing to every positive integer from 1 to n.

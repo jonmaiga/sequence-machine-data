@@ -2066,20 +2066,23 @@ end A247023
 The programs for A247025, there is no canonical definition to state claims against.
 -/
 
-/-! ## A247025.P2401686622092159521
+/-! ## A247025.P5806624946668065426
 
-`A397493(A105487(n+7))+1`
+`filter[A267551(2*n), A010055(#)]`
 -/
 
-namespace A247025.P2401686622092159521
+namespace A247025.P5806624946668065426
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267551 (2 * n)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397493 (A105487 (n + 7)).toNat + 1
+  f1 (SequenceMachineLib.nth (fun j => A010055 (f1 j).toNat = 1) n)
 
 end
 
-end A247025.P2401686622092159521
+end A247025.P5806624946668065426
 
 /-!
 # A247026: Number A(n,k) of endofunctions on [n] that are the k-th power of an endofunction; square array A(n,k), n>=0, k>=0, read by antidiagonals.

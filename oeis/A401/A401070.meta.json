@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are divisible by the sum of the divisors of their largest unitary divisor that is a square.",
+  "id": "A401070",
+  "mentions": [
+    "A000396",
+    "A005117",
+    "A007691",
+    "A268335",
+    "A350388",
+    "A351568",
+    "A351569",
+    "A401067",
+    "A401071"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

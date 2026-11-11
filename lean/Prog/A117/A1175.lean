@@ -2566,23 +2566,20 @@ end
 
 end A117522.P12735234372453633299
 
-/-! ## A117522.P6902257549661379288
+/-! ## A117522.P5182959862101706530
 
-`record[A246277(A001606(n+4)-1)]`
+`A102781(A120561(n+2))`
 -/
 
-namespace A117522.P6902257549661379288
+namespace A117522.P5182959862101706530
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246277 (A001606 (n + 4) - 1).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A102781 (A120561 (n + 2)).toNat
 
 end
 
-end A117522.P6902257549661379288
+end A117522.P5182959862101706530
 
 /-!
 # A117523: Triangular numbers for which the sum of the digits is an octagonal number.

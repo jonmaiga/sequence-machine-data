@@ -2,11 +2,14 @@
   "description": "a(0) = 1; for n>0, a(n) = 16 times sum of cubes of divisors of n.",
   "id": "A092820",
   "mentions": [
+    "A001158",
     "A004009",
     "A008457",
     "A035016"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

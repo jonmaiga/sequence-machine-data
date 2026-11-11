@@ -386,7 +386,7 @@ end A181800.P5179583473157428600
 /-!
 # A181801: Number of divisors of n that are highly composite (A002182).
 
-The programs for A181801, the canonical program `A181801.P3620208233486617854` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181801 has offset 1).
+The programs for A181801, the canonical program `A181801.P3620208233486617854` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181801 has offset 1).
 
 The definition of A181801 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A322586, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -395,7 +395,7 @@ The definition of A181801 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A322586(#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A181801
@@ -4753,6 +4753,21 @@ end
 
 end A181830.P15855131181273378063
 
+/-! ## A181830.P15428251492198219909
+
+`A199969(n+1)-A181833(n)`
+-/
+
+namespace A181830.P15428251492198219909
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199969 (n + 1) - A181833 n
+
+end
+
+end A181830.P15428251492198219909
+
 /-! ## A181830.P3017904099098642089
 
 `(n-A181833(n))%A036615(n)`
@@ -4812,21 +4827,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181830.P12157173725461211532
-
-/-! ## A181830.P5081134902665981007
-
-`A199969(n+1)-A254667(A181833(n))`
--/
-
-namespace A181830.P5081134902665981007
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A199969 (n + 1) - A254667 (A181833 n).toNat
-
-end
-
-end A181830.P5081134902665981007
 
 /-!
 # A181832: The product of the positive integers <= n that are strongly prime to n.
@@ -9790,6 +9790,29 @@ namespace A181889
 /-- `ogf((64x+336x^2+224x^3+16x^4)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))` -/
 def P10278646708775741263.Spec : Prop :=
   ∀ n, P10278646708775741263.a n = A181889 (n + 1)
+
+end A181889
+
+/-! ## A181889.P14887094518818470037
+
+`2/3*C(2*(n+1)+2, 5)*(5*(n+1)+6)`
+-/
+
+namespace A181889.P14887094518818470037
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) / 3 * (Nat.choose (2 * (n + 1) + 2) 5 : ℚ) * (5 * (n + 1) + 6 : ℚ)
+
+end
+
+end A181889.P14887094518818470037
+
+namespace A181889
+
+/-- `2/3*C(2*(n+1)+2, 5)*(5*(n+1)+6)` -/
+def P14887094518818470037.Spec : Prop :=
+  ∀ n, P14887094518818470037.a n = (A181889 (n + 1) : ℚ)
 
 end A181889
 

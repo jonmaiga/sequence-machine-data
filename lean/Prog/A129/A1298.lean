@@ -56,7 +56,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
@@ -5705,6 +5704,32 @@ theorem P11513075456115760681.correct : P11513075456115760681.Spec := by
 
 end A129833
 
+/-! ## A129833.P12645035198368326304
+
+`∑{#}[n, n!/#!*C(n+1, #)]`
+-/
+
+namespace A129833.P12645035198368326304
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial n : ℚ) / (Nat.factorial k : ℚ) * (Nat.choose (n + 1) k : ℚ)
+
+end
+
+end A129833.P12645035198368326304
+
+namespace A129833
+
+/-- `∑{#}[n, n!/#!*C(n+1, #)]` -/
+def P12645035198368326304.Spec : Prop :=
+  ∀ n, P12645035198368326304.a n = (A129833 n : ℚ)
+
+end A129833
+
 /-! ## A129833.P7251855098475606513
 
 `A097662(n+1)/(n+1)`
@@ -11154,6 +11179,29 @@ def P16131425044549081753.Spec : Prop :=
 
 end A129889
 
+/-! ## A129889.P10488662969535921271
+
+`floor(n/2)*C(n-floor(n/2), floor(n/2))`
+-/
+
+namespace A129889.P10488662969535921271
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋ * (Nat.choose ((n : ℤ) - ⌊(n : ℚ) / 2⌋).toNat ⌊(n : ℚ) / 2⌋.toNat : ℤ)
+
+end
+
+end A129889.P10488662969535921271
+
+namespace A129889
+
+/-- `floor(n/2)*C(n-floor(n/2), floor(n/2))` -/
+def P10488662969535921271.Spec : Prop :=
+  ∀ n, P10488662969535921271.a n = A129889 n
+
+end A129889
+
 /-! ## A129889.P3243051549163848702
 
 `a(n-2)+(4*a(n-1)+1)%n` with `a(0)=0, a(1)=0`
@@ -11321,29 +11369,6 @@ namespace A129889
 /-- `gcd(∑[3*2*C(n, 3)], A002620(n))` -/
 def P12835973671685936110.Spec : Prop :=
   ∀ n, (P12835973671685936110.a n : ℤ) = A129889 n
-
-end A129889
-
-/-! ## A129889.P2856033442307876035
-
-`gcd(floor((n/2)²), A002378(floor(n/2)))`
--/
-
-namespace A129889.P2856033442307876035
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd ⌊((n : ℚ) / 2) ^ 2⌋ (A002378 ⌊(n : ℚ) / 2⌋.toNat)
-
-end
-
-end A129889.P2856033442307876035
-
-namespace A129889
-
-/-- `gcd(floor((n/2)²), A002378(floor(n/2)))` -/
-def P2856033442307876035.Spec : Prop :=
-  ∀ n, (P2856033442307876035.a n : ℤ) = A129889 n
 
 end A129889
 

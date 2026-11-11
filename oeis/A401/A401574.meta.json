@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that reversal(k) = (3/2)*k + 3.",
+  "id": "A401574",
+  "mentions": [
+    "A004086",
+    "A101703",
+    "A401573"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

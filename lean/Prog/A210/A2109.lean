@@ -40,6 +40,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B001.C000
@@ -9877,20 +9878,20 @@ end
 
 end A210996.P3730941605916445648
 
-/-! ## A210996.P12112613628169380875
+/-! ## A210996.P14835587199240304465
 
-`A000988(2*n)-A030228(2*n)`
+`A030228(2*n)+A030227(2*n)`
 -/
 
-namespace A210996.P12112613628169380875
+namespace A210996.P14835587199240304465
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000988 (2 * n) - A030228 (2 * n)
+  A030228 (2 * n) + A030227 (2 * n)
 
 end
 
-end A210996.P12112613628169380875
+end A210996.P14835587199240304465
 
 /-!
 # A210997: Number of free polyominoes with 2n-1 cells.

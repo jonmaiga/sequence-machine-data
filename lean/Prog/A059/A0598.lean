@@ -4385,23 +4385,20 @@ end
 
 end A059837.P2692398177843223566
 
-/-! ## A059837.P7320651154006768182
+/-! ## A059837.P3999479906717579497
 
-`A059836(∑[n+1])`
+`n!/(floor(n/2)!*(n-floor(n/2))!)*n!`
 -/
 
-namespace A059837.P7320651154006768182
+namespace A059837.P3999479906717579497
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059836 (∑ j ∈ Finset.range (n + 1), f1 j)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℚ) / (Nat.factorial ⌊(n : ℚ) / 2⌋.toNat * Nat.factorial ((n : ℤ) - ⌊(n : ℚ) / 2⌋).toNat : ℚ) * (Nat.factorial n : ℚ)
 
 end
 
-end A059837.P7320651154006768182
+end A059837.P3999479906717579497
 
 /-!
 # A059838: Number of permutations in the symmetric group S_n that have even order.
@@ -6065,6 +6062,29 @@ def P17501899394323622456.Spec : Prop :=
 
 end A059845
 
+/-! ## A059845.P10816101091705282889
+
+`4*n+C(n+1, 2)*3`
+-/
+
+namespace A059845.P10816101091705282889
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * n + Nat.choose (n + 1) 2 * 3
+
+end
+
+end A059845.P10816101091705282889
+
+namespace A059845
+
+/-- `4*n+C(n+1, 2)*3` -/
+def P10816101091705282889.Spec : Prop :=
+  ∀ n, (P10816101091705282889.a n : ℤ) = A059845 n
+
+end A059845
+
 /-! ## A059845.P399800206089767320
 
 `4*n-∑[a(n-1)-3]` with `a(0)=0`
@@ -6134,29 +6154,6 @@ namespace A059845
 /-- `a(n-1)+4+n+n+n` -/
 def P2911877712627704570.Spec : Prop :=
   ∀ n, (P2911877712627704570.a n : ℤ) = A059845 n
-
-end A059845
-
-/-! ## A059845.P7218384720191434781
-
-`abs(C(n+1, 2)-(n+3)*2*n)`
--/
-
-namespace A059845.P7218384720191434781
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(Nat.choose (n + 1) 2 : ℤ) - ((n + 3) * (2 * n) : ℤ)|
-
-end
-
-end A059845.P7218384720191434781
-
-namespace A059845
-
-/-- `abs(C(n+1, 2)-(n+3)*2*n)` -/
-def P7218384720191434781.Spec : Prop :=
-  ∀ n, P7218384720191434781.a n = A059845 n
 
 end A059845
 
@@ -12916,26 +12913,26 @@ def P13977530957856771418.Spec : Prop :=
 
 end A059893
 
-/-! ## A059893.P18206585423521939989
+/-! ## A059893.P12444792913409652524
 
-`A163807(2*(n+1))/2`
+`A059894(A054429(n+1))`
 -/
 
-namespace A059893.P18206585423521939989
+namespace A059893.P12444792913409652524
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A163807 (2 * (n + 1)) : ℚ) / 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059894 (A054429 (n + 1)).toNat
 
 end
 
-end A059893.P18206585423521939989
+end A059893.P12444792913409652524
 
 namespace A059893
 
-/-- `A163807(2*(n+1))/2` -/
-def P18206585423521939989.Spec : Prop :=
-  ∀ n, P18206585423521939989.a n = (A059893 (n + 1) : ℚ)
+/-- `A059894(A054429(n+1))` -/
+def P12444792913409652524.Spec : Prop :=
+  ∀ n, P12444792913409652524.a n = A059893 (n + 1)
 
 end A059893
 

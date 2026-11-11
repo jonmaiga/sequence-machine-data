@@ -25,7 +25,6 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -3041,6 +3040,29 @@ namespace A325636
 /-- `gcd(A091818(n+1), A326065(2*(n+1)))` -/
 def P4577549544887175090.Spec : Prop :=
   ∀ n, (P4577549544887175090.a n : ℤ) = A325636 (n + 1)
+
+end A325636
+
+/-! ## A325636.P16336751605171196424
+
+`gcd(A027286(n), A324121(n+1))`
+-/
+
+namespace A325636.P16336751605171196424
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A027286 n) (A324121 (n + 1))
+
+end
+
+end A325636.P16336751605171196424
+
+namespace A325636
+
+/-- `gcd(A027286(n), A324121(n+1))` -/
+def P16336751605171196424.Spec : Prop :=
+  ∀ n, (P16336751605171196424.a n : ℤ) = A325636 (n + 1)
 
 end A325636
 

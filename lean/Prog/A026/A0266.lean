@@ -33,7 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -10154,20 +10154,35 @@ end
 
 end A026632.P2283673024853617277
 
-/-! ## A026632.P8610752052717938721
+/-! ## A026632.P2462867458504986900
 
-`A003056(A001405(n)²+n)`
+`A089230(A001405(n))`
 -/
 
-namespace A026632.P8610752052717938721
+namespace A026632.P2462867458504986900
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A001405 n ^ 2 + (n : ℤ)).toNat
+  A089230 (A001405 n).toNat
 
 end
 
-end A026632.P8610752052717938721
+end A026632.P2462867458504986900
+
+/-! ## A026632.P13243906209559855495
+
+`A089230(A036557(n))`
+-/
+
+namespace A026632.P13243906209559855495
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089230 (A036557 n).toNat
+
+end
+
+end A026632.P13243906209559855495
 
 /-!
 # A026633: a(n) = Sum_{k=0..n} A026626(n, k).
@@ -18975,6 +18990,29 @@ namespace A026678
 /-- `A193667(A007590(n)+n)` -/
 def P12139629675915293571.Spec : Prop :=
   ∀ n, P12139629675915293571.a n = A026678 n
+
+end A026678
+
+/-! ## A026678.P12770196111148897094
+
+`A193923(A116940(n+1))`
+-/
+
+namespace A026678.P12770196111148897094
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193923 (A116940 (n + 1)).toNat
+
+end
+
+end A026678.P12770196111148897094
+
+namespace A026678
+
+/-- `A193923(A116940(n+1))` -/
+def P12770196111148897094.Spec : Prop :=
+  ∀ n, P12770196111148897094.a n = A026678 n
 
 end A026678
 

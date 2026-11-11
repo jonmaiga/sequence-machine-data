@@ -913,21 +913,6 @@ end A346701
 The programs for A346702, there is no canonical definition to state claims against.
 -/
 
-/-! ## A346702.P5052781044367598285
-
-`A346705(2^ceil(log2(n+1))+n)`
--/
-
-namespace A346702.P5052781044367598285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346705 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (⌈Real.logb 2 (n + 1 : ℝ)⌉ : ℤ) + (n : ℚ))).toNat
-
-end
-
-end A346702.P5052781044367598285
-
 /-! ## A346702.P5149162355002945852
 
 `A385887(A006068(n))`
@@ -942,6 +927,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A346702.P5149162355002945852
+
+/-! ## A346702.P5052781044367598285
+
+`A346705(2^ceil(log2(n+1))+n)`
+-/
+
+namespace A346702.P5052781044367598285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346705 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (⌈Real.logb 2 (n + 1 : ℝ)⌉ : ℤ) + (n : ℚ))).toNat
+
+end
+
+end A346702.P5052781044367598285
 
 /-! ## A346702.P896368910984039691
 

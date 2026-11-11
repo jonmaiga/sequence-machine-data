@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest divisor d of the n-th primorial such that prime(n)#/d - d is prime; a(1) = 1.",
+  "id": "A400506",
+  "mentions": [
+    "A002110",
+    "A057704",
+    "A295741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

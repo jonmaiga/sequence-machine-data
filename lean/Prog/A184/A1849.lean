@@ -22,6 +22,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -4376,6 +4377,21 @@ end
 
 end A184935.P912435579373105115
 
+/-! ## A184935.P8353944641298741454
+
+`A253971(n+1)+A064711(n+1)*A064711(n+1)`
+-/
+
+namespace A184935.P8353944641298741454
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253971 (n + 1) + A064711 (n + 1) * A064711 (n + 1)
+
+end
+
+end A184935.P8353944641298741454
+
 /-! ## A184935.P1241698763388680833
 
 `A004232(A064711(1+n))`
@@ -4511,24 +4527,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184935.P11987262649031554483
-
-/-! ## A184935.P17787250787917868808
-
-`p?[A182986(n+1)+n²]`
--/
-
-namespace A184935.P17787250787917868808
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182986 (n + 1) + (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A184935.P17787250787917868808
 
 /-!
 # A184936: O.g.f. satisfies A(x/(1-x)) = 1/(1-x*A(x)-x^2*A(x)^2).

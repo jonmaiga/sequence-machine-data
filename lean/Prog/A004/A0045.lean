@@ -21,6 +21,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
@@ -10195,6 +10196,35 @@ theorem P13734181638484521361.correct : P13734181638484521361.Spec := by
 
 end A004538
 
+/-! ## A004538.P959283945812142546
+
+`6*C(n+1, 2)-1`
+-/
+
+namespace A004538.P959283945812142546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (6 * Nat.choose (n + 1) 2 : ℤ) - 1
+
+end
+
+end A004538.P959283945812142546
+
+namespace A004538
+
+/-- `6*C(n+1, 2)-1` -/
+def P959283945812142546.Spec : Prop :=
+  ∀ n, P959283945812142546.a n = A004538 n
+
+theorem P959283945812142546.correct : P959283945812142546.Spec := by
+  intro n
+  simp only [A004538, Nat.add_sub_cancel, A004538.P959283945812142546.a, A004538.P10298653278695798692.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A004538
+
 /-! ## A004538.P16507854169704676665
 
 `Δ[lcm(n, 1-n²)-n]`
@@ -10244,32 +10274,6 @@ namespace A004538
 /-- `∑[a(n-1)+6]` -/
 def P16591544376724886424.Spec : Prop :=
   ∀ n, P16591544376724886424.a n = A004538 n
-
-end A004538
-
-/-! ## A004538.P14420110595719832496
-
-`∑[6*n-C(2, n+2)]`
--/
-
-namespace A004538.P14420110595719832496
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (6 * n : ℤ) - (Nat.choose 2 (n + 2) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A004538.P14420110595719832496
-
-namespace A004538
-
-/-- `∑[6*n-C(2, n+2)]` -/
-def P14420110595719832496.Spec : Prop :=
-  ∀ n, P14420110595719832496.a n = A004538 n
 
 end A004538
 
@@ -10423,35 +10427,29 @@ def P605839481641177804.Spec : Prop :=
 
 end A004538
 
-/-! ## A004538.P7198397543247895833
+/-! ## A004538.P10578534057013008043
 
-`Δ[2*(n+1)*C(n, 2)-n]`
+`∑[3*2*n-C(n, 2*n)]`
 -/
 
-namespace A004538.P7198397543247895833
+namespace A004538.P10578534057013008043
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * (n + 1) * Nat.choose n 2 : ℤ) - (n : ℤ)
+  (3 * (2 * n) : ℤ) - (Nat.choose n (2 * n) : ℤ)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A004538.P7198397543247895833
+end A004538.P10578534057013008043
 
 namespace A004538
 
-/-- `Δ[2*(n+1)*C(n, 2)-n]` -/
-def P7198397543247895833.Spec : Prop :=
-  ∀ n, P7198397543247895833.a n = A004538 n
-
-theorem P7198397543247895833.correct : P7198397543247895833.Spec := by
-  intro n
-  simp only [A004538, Nat.add_sub_cancel, A004538.P7198397543247895833.f1, A004538.P7198397543247895833.a, A004538.P10298653278695798692.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+/-- `∑[3*2*n-C(n, 2*n)]` -/
+def P10578534057013008043.Spec : Prop :=
+  ∀ n, P10578534057013008043.a n = A004538 n
 
 end A004538
 

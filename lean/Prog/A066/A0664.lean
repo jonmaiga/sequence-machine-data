@@ -63,6 +63,7 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2907,6 +2908,32 @@ namespace A066428
 /-- `filter[A000379(n+2), A087049(#)]` -/
 def P12219083070739168182.Spec : Prop :=
   ∀ n, P12219083070739168182.a n = A066428 (n + 1)
+
+end A066428
+
+/-! ## A066428.P8488622484886685929
+
+`filter[A000379(n+2), A401791(#)]`
+-/
+
+namespace A066428.P8488622484886685929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000379 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A066428.P8488622484886685929
+
+namespace A066428
+
+/-- `filter[A000379(n+2), A401791(#)]` -/
+def P8488622484886685929.Spec : Prop :=
+  ∀ n, P8488622484886685929.a n = A066428 (n + 1)
 
 end A066428
 
@@ -10807,6 +10834,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A066488.P12221903959709086801
+
+/-! ## A066488.P8606087985045104779
+
+`filter[A001567(n+1), A372573(#)]`
+-/
+
+namespace A066488.P8606087985045104779
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001567 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A372573 (f1 j).toNat = 1) n)
+
+end
+
+end A066488.P8606087985045104779
 
 /-!
 # A066489: Binary expansion of n followed by its reverse complement.

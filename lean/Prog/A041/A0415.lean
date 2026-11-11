@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C018
 import Seq.B000.C019
@@ -43,7 +42,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
 
 /-!
 # A041500: Numerators of continued fraction convergents to sqrt(267).
@@ -1900,21 +1898,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A041573.P17569068645045314887
-
-/-! ## A041573.P1679011054212812723
-
-`A337353(n)-A387114(A055129(3*n+2))`
--/
-
-namespace A041573.P1679011054212812723
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337353 n - A387114 (A055129 (3 * n + 2)).toNat
-
-end
-
-end A041573.P1679011054212812723
 
 /-!
 # A041576: Numerators of continued fraction convergents to sqrt(306).

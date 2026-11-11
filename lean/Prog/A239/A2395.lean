@@ -5932,6 +5932,21 @@ end
 
 end A239585.P3190296613345149579
 
+/-! ## A239585.P8734656474107512836
+
+`A396079(A078972(n+1))`
+-/
+
+namespace A239585.P8734656474107512836
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396079 (A078972 (n + 1)).toNat
+
+end
+
+end A239585.P8734656474107512836
+
 /-!
 # A239586: Prime factor >= other prime factor of n-th brilliant number, cf. A078972.
 

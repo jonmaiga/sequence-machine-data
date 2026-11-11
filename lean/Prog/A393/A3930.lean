@@ -4018,6 +4018,21 @@ end
 
 end A393076.P8186935342164379554
 
+/-! ## A393076.P859739358794157301
+
+`A188432(A401043(n+2))`
+-/
+
+namespace A393076.P859739358794157301
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188432 (A401043 (n + 2)).toNat
+
+end
+
+end A393076.P859739358794157301
+
 /-! ## A393076.P3750288496189077490
 
 `∑[A305734(n+1)*n]%2`
@@ -4068,21 +4083,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393076.P11308404243114830267
-
-/-! ## A393076.P9322975799557509949
-
-`A010059(A353744(n+1)+A275870(2*(n+1)))`
--/
-
-namespace A393076.P9322975799557509949
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010059 (A353744 (n + 1) + A275870 (2 * (n + 1))).toNat
-
-end
-
-end A393076.P9322975799557509949
 
 /-!
 # A393077: Number of non-isomorphic arithmetic expressions with n variables that can be constructed using +,-,*,/ together with parentheses.

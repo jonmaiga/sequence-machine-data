@@ -13,12 +13,11 @@ import Seq.B000.C011
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C036
 import Seq.B000.C044
 import Seq.B001.C000
@@ -1040,7 +1039,7 @@ end A159461
 /-!
 # A159465: Sums of odd numbers, omitting squares.
 
-The programs for A159465, the canonical program `A159465.P14298348479469979559` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159465 has offset 1).
+The programs for A159465, the canonical program `A159465.P14298348479469979559` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159465 has offset 1).
 
 The definition of A159465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1049,7 +1048,7 @@ The definition of A159465 is `conjectured`: the Lean definition is a formula tha
 
 `∑[or(1, n+comp[∑[n]])]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A159465
@@ -1341,7 +1340,7 @@ end A159465
 /-!
 # A159466: Positive numbers y such that y^2 is of the form x^2 + (x+127)^2 with integer x.
 
-The programs for A159466, the canonical program `A159466.P6634973664422477564` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159466 has offset 1).
+The programs for A159466, the canonical program `A159466.P6634973664422477564` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159466 has offset 1).
 
 The definition of A159466 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1350,7 +1349,7 @@ The definition of A159466 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-3)-a(n-6)` with `a(0)=113, a(1)=127, a(2)=145, a(3)=533, a(4)=635, a(5)=757`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A159466
@@ -2456,7 +2455,7 @@ end A159476.P5704738924724208808
 /-!
 # A159477: a(n) = smallest prime >= n, if 1 is counted as a prime.
 
-The programs for A159477, the canonical program `A159477.P11129287867314296907` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159477 has offset 1).
+The programs for A159477, the canonical program `A159477.P11129287867314296907` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159477 has offset 1).
 
 The definition of A159477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2465,7 +2464,7 @@ The definition of A159477 is `conjectured`: the Lean definition is a formula tha
 
 `fp[gcd(n, ∑{p}[n, #])]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A159477

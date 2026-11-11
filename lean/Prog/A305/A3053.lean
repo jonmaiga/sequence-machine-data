@@ -93,7 +93,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -6148,21 +6147,6 @@ end A305375.P9701676843071448488
 
 The programs for A305376, there is no canonical definition to state claims against.
 -/
-
-/-! ## A305376.P14364143835771197230
-
-`A087983(A002965(n))-A046922(n+1)`
--/
-
-namespace A305376.P14364143835771197230
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087983 (A002965 n).toNat - A046922 (n + 1)
-
-end
-
-end A305376.P14364143835771197230
 
 /-! ## A305376.P5502074849297069970
 

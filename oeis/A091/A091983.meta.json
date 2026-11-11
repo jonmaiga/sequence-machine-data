@@ -1,10 +1,11 @@
 {
-  "description": "a(0) = 1, a(n) = 20*sigma[3](n).",
+  "description": "a(0) = 1, a(n) = 20*sigma_3(n).",
   "id": "A091983",
   "mentions": [
     "A001158"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

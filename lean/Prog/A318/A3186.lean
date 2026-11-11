@@ -27,7 +27,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
@@ -9343,29 +9342,26 @@ def P11752557546196954987.Spec : Prop :=
 
 end A318666
 
-/-! ## A318666.P16985124395420540926
+/-! ## A318666.P13690173959674186295
 
-`abs(Δ[A289813(n)])`
+`A064989((n+1)/A065330(n+1))`
 -/
 
-namespace A318666.P16985124395420540926
+namespace A318666.P13690173959674186295
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289813 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |f1 (n + 1) - f1 n|
+  A064989 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A065330 (n + 1) : ℚ))).toNat
 
 end
 
-end A318666.P16985124395420540926
+end A318666.P13690173959674186295
 
 namespace A318666
 
-/-- `abs(Δ[A289813(n)])` -/
-def P16985124395420540926.Spec : Prop :=
-  ∀ n, P16985124395420540926.a n = A318666 (n + 1)
+/-- `A064989((n+1)/A065330(n+1))` -/
+def P13690173959674186295.Spec : Prop :=
+  ∀ n, P13690173959674186295.a n = A318666 (n + 1)
 
 end A318666
 
@@ -9511,6 +9507,29 @@ def P5407502399307018945.Spec : Prop :=
 
 end A318668
 
+/-! ## A318668.P17276034656258435088
+
+`gcd(A064988(n+1), A176900(n))`
+-/
+
+namespace A318668.P17276034656258435088
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A064988 (n + 1)) (A176900 n)
+
+end
+
+end A318668.P17276034656258435088
+
+namespace A318668
+
+/-- `gcd(A064988(n+1), A176900(n))` -/
+def P17276034656258435088.Spec : Prop :=
+  ∀ n, (P17276034656258435088.a n : ℤ) = A318668 (n + 1)
+
+end A318668
+
 /-! ## A318668.P16246045031312763988
 
 `gcd(A143052(n), A301315(n+1))`
@@ -9577,29 +9596,6 @@ namespace A318668
 /-- `A322361(n-A135723(n+1)%A322361(n+2)+1)` -/
 def P16865503802154794965.Spec : Prop :=
   ∀ n, P16865503802154794965.a n = A318668 (n + 1)
-
-end A318668
-
-/-! ## A318668.P3587667518577310838
-
-`gcd(A015906(n), A141566(n+1))`
--/
-
-namespace A318668.P3587667518577310838
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A015906 n) (A141566 (n + 1))
-
-end
-
-end A318668.P3587667518577310838
-
-namespace A318668
-
-/-- `gcd(A015906(n), A141566(n+1))` -/
-def P3587667518577310838.Spec : Prop :=
-  ∀ n, (P3587667518577310838.a n : ℤ) = A318668 (n + 1)
 
 end A318668
 

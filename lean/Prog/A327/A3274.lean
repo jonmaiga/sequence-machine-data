@@ -341,20 +341,20 @@ end
 
 end A327401.P10367966485871176113
 
-/-! ## A327401.P6221344985806595588
+/-! ## A327401.P11705837975185120323
 
-`A327656(2*(n+1))/A006530(A327656(n+1))`
+`A327656(n+1)/A006530(A327656(n+1))`
 -/
 
-namespace A327401.P6221344985806595588
+namespace A327401.P11705837975185120323
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A327656 (2 * (n + 1)) : ℚ) / (A006530 (A327656 (n + 1)).toNat : ℚ)
+  (A327656 (n + 1) : ℚ) / (A006530 (A327656 (n + 1)).toNat : ℚ)
 
 end
 
-end A327401.P6221344985806595588
+end A327401.P11705837975185120323
 
 /-! ## A327401.P10071429283393774545
 
@@ -5672,20 +5672,20 @@ end
 
 end A327455.P17726836156793788777
 
-/-! ## A327455.P1211196723672783990
+/-! ## A327455.P9605230734213629152
 
-`A167520(A219327(n+1))`
+`A002244(A100753(n+1))`
 -/
 
-namespace A327455.P1211196723672783990
+namespace A327455.P9605230734213629152
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167520 (A219327 (n + 1)).toNat
+  A002244 (A100753 (n + 1)).toNat
 
 end
 
-end A327455.P1211196723672783990
+end A327455.P9605230734213629152
 
 /-!
 # A327456: Lexicographically earliest sequence of distinct positive numbers such that if we add six successive digits the result is divisible by 6.

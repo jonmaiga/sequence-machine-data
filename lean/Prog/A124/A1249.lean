@@ -23,6 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -8446,6 +8447,21 @@ end
 
 end A124970.P1700608517900362027
 
+/-! ## A124970.P1274929367517278813
+
+`A122699(n)+A063524(n)`
+-/
+
+namespace A124970.P1274929367517278813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122699 n + A063524 n
+
+end
+
+end A124970.P1274929367517278813
+
 /-! ## A124970.P3251872880975234618
 
 `A178333(n)+A122699(n)`
@@ -8461,20 +8477,20 @@ end
 
 end A124970.P3251872880975234618
 
-/-! ## A124970.P8691318958367451271
+/-! ## A124970.P455198140164322638
 
-`or(A063524(n), A122699(n))`
+`A122699(n)-A159075(n)`
 -/
 
-namespace A124970.P8691318958367451271
+namespace A124970.P455198140164322638
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A063524 n) (A122699 n)
+  A122699 n - A159075 n
 
 end
 
-end A124970.P8691318958367451271
+end A124970.P455198140164322638
 
 /-! ## A124970.P6441758250099896412
 
@@ -8762,21 +8778,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A124970.P17371466214862549381
-
-/-! ## A124970.P13149492489649376938
-
-`or(val(A000040(n²+1), 3), A122699(n))`
--/
-
-namespace A124970.P13149492489649376938
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (SequenceMachineLib.valuation (A000040 (n ^ 2 + 1)).toNat 3 : ℤ) (A122699 n)
-
-end
-
-end A124970.P13149492489649376938
 
 /-!
 # A124971: Numbers k which can be expressed as the ordered sum of 3 squares in 2 or more different ways and such that k+1 has the same property.

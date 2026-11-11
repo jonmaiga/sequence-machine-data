@@ -679,26 +679,26 @@ def P11326171639632910652.Spec : Prop :=
 
 end A000601
 
-/-! ## A000601.P3703988568743801237
+/-! ## A000601.P11850257616699612173
 
-`A181120(n+3)`
+`A002623(n+1)-A014126(n+1)`
 -/
 
-namespace A000601.P3703988568743801237
+namespace A000601.P11850257616699612173
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181120 (n + 3)
+  A002623 (n + 1) - A014126 (n + 1)
 
 end
 
-end A000601.P3703988568743801237
+end A000601.P11850257616699612173
 
 namespace A000601
 
-/-- `A181120(n+3)` -/
-def P3703988568743801237.Spec : Prop :=
-  ∀ n, P3703988568743801237.a n = A000601 n
+/-- `A002623(n+1)-A014126(n+1)` -/
+def P11850257616699612173.Spec : Prop :=
+  ∀ n, P11850257616699612173.a n = A000601 n
 
 end A000601
 
@@ -2040,6 +2040,21 @@ end A000607.P6821460759623611700
 The programs for A000608, there is no canonical definition to state claims against.
 -/
 
+/-! ## A000608.P4848895619646308631
+
+`A000112(n)-A349401(n)`
+-/
+
+namespace A000608.P4848895619646308631
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000112 n - A349401 n
+
+end
+
+end A000608.P4848895619646308631
+
 /-! ## A000608.P14110632417468713563
 
 `A263864(C(n, 2)+1)`
@@ -2072,21 +2087,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000608.P10684327248256748808
-
-/-! ## A000608.P4848895619646308631
-
-`A000112(n)-A349401(n)`
--/
-
-namespace A000608.P4848895619646308631
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000112 n - A349401 n
-
-end
-
-end A000608.P4848895619646308631
 
 /-! ## A000608.P18130553323925663907
 
@@ -10206,6 +10206,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A000698.P13065567394198062278
+
+/-! ## A000698.P7579023032985748118
+
+`A258222(A054254(n+1))`
+-/
+
+namespace A000698.P7579023032985748118
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258222 (A054254 (n + 1)).toNat
+
+end
+
+end A000698.P7579023032985748118
 
 /-!
 # A000699: Number of irreducible chord diagrams with 2n nodes.

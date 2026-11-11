@@ -8308,7 +8308,7 @@ def P6784622132702003149.Spec : Prop :=
 end A174275
 
 /-!
-# A174276: Denominator of the n-th term of the inverse binomial transform of 1, 1/2, B_4, B_6, B_8,..., a modified Bernoulli sequence.
+# A174276: Denominator of the n-th term of the inverse binomial transform of 1, 1/2, B_4, B_6, B_8,..., where B_i is the Bernoulli number.
 
 The programs for A174276, there is no canonical definition to state claims against.
 -/
@@ -9394,7 +9394,7 @@ end
 end A174288.P17673262659749321446
 
 /-!
-# A174289: Numerator of the n-th term of the inverse binomial transform of 1, 1/2, B_4, B_6, B_8,..., a modified Bernoulli sequence.
+# A174289: Numerator of the n-th term of the inverse binomial transform of 1, 1/2, B_4, B_6, B_8,..., where B_i is the Bernoulli number.
 
 The programs for A174289, there is no canonical definition to state claims against.
 -/

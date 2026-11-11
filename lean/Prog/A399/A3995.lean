@@ -3260,26 +3260,26 @@ def P5220243367987631161.Spec : Prop :=
 
 end A399564
 
-/-! ## A399564.P17014937555077097250
+/-! ## A399564.P16567982208951142399
 
-`A030221(n+1)+A003501(n+1)-A030221(n)`
+`A003501(n+1)+A003501(n+1)`
 -/
 
-namespace A399564.P17014937555077097250
+namespace A399564.P16567982208951142399
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030221 (n + 1) + A003501 (n + 1) - A030221 n
+  A003501 (n + 1) + A003501 (n + 1)
 
 end
 
-end A399564.P17014937555077097250
+end A399564.P16567982208951142399
 
 namespace A399564
 
-/-- `A030221(n+1)+A003501(n+1)-A030221(n)` -/
-def P17014937555077097250.Spec : Prop :=
-  ∀ n, P17014937555077097250.a n = A399564 (n + 1)
+/-- `A003501(n+1)+A003501(n+1)` -/
+def P16567982208951142399.Spec : Prop :=
+  ∀ n, P16567982208951142399.a n = A399564 (n + 1)
 
 end A399564
 
@@ -3423,6 +3423,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A399572.P7262802042306071353
+
+/-!
+# A399573: Order array, U, of the array W given by w(n, k) = k*(n + sqrt(3)/2), for n >= 1, k >= 1, a rectangular array, read by descending antidiagonals; see Comments.
+
+The programs for A399573, there is no canonical definition to state claims against.
+-/
+
+/-! ## A399573.P8080511465162026301
+
+`A351831(A292958(n+2))`
+-/
+
+namespace A399573.P8080511465162026301
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351831 (A292958 (n + 2)).toNat
+
+end
+
+end A399573.P8080511465162026301
 
 /-!
 # A399574: Strictly non-antipalindromic numbers: k is not antipalindromic in any base b with 2 <= b <= k-2.

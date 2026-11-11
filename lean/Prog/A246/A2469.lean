@@ -5224,6 +5224,29 @@ def P11743833822365455232.Spec : Prop :=
 
 end A246934
 
+/-! ## A246934.P4081199113989508094
+
+`A000290(A248170(n+1))`
+-/
+
+namespace A246934.P4081199113989508094
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A248170 (n + 1)).toNat
+
+end
+
+end A246934.P4081199113989508094
+
+namespace A246934
+
+/-- `A000290(A248170(n+1))` -/
+def P4081199113989508094.Spec : Prop :=
+  ∀ n, P4081199113989508094.a n = A246934 (n + 1)
+
+end A246934
+
 /-! ## A246934.P12617748697067504550
 
 `A008794(A247485(n+1))`
@@ -5394,32 +5417,6 @@ namespace A246934
 /-- `round(record[sqrt(A020639(n+2))])²` -/
 def P13938021804957979497.Spec : Prop :=
   ∀ n, P13938021804957979497.a n = A246934 (n + 1)
-
-end A246934
-
-/-! ## A246934.P14900546360512162158
-
-`round(sqrt(p?[A026239(n+1)]))²`
--/
-
-namespace A246934.P14900546360512162158
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026239 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n) : ℝ)) ^ 2
-
-end
-
-end A246934.P14900546360512162158
-
-namespace A246934
-
-/-- `round(sqrt(p?[A026239(n+1)]))²` -/
-def P14900546360512162158.Spec : Prop :=
-  ∀ n, P14900546360512162158.a n = A246934 (n + 1)
 
 end A246934
 

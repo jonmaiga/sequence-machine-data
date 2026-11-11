@@ -2071,6 +2071,42 @@ end
 
 end A126422.P2730735997267375581
 
+/-! ## A126422.P13618672188996000417
+
+`filter[A126423(n+2), A010051(#)]`
+-/
+
+namespace A126422.P13618672188996000417
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126423 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A126422.P13618672188996000417
+
+/-! ## A126422.P7751232364204704527
+
+`filter[A126423(n+2), A069513(#)]`
+-/
+
+namespace A126422.P7751232364204704527
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126423 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A069513 (f1 j).toNat = 1) n)
+
+end
+
+end A126422.P7751232364204704527
+
 /-!
 # A126423: a(n) = n^4 - n - 1.
 

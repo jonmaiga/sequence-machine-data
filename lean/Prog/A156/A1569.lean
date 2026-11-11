@@ -32,6 +32,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
@@ -344,6 +345,29 @@ def P17260588560803762163.Spec : Prop :=
 
 end A156900
 
+/-! ## A156900.P6526582604060639565
+
+`A378370(A005117(n+1))+A005117(n+1)`
+-/
+
+namespace A156900.P6526582604060639565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378370 (A005117 (n + 1)).toNat + A005117 (n + 1)
+
+end
+
+end A156900.P6526582604060639565
+
+namespace A156900
+
+/-- `A378370(A005117(n+1))+A005117(n+1)` -/
+def P6526582604060639565.Spec : Prop :=
+  ∀ n, P6526582604060639565.a n = A156900 (n + 1)
+
+end A156900
+
 /-! ## A156900.P14967585615102538621
 
 `A000015(eq[A048671(n+1), A340679(n+1)]+1)`
@@ -486,26 +510,26 @@ end
 
 end A156902.P9352776007528132002
 
-/-! ## A156902.P9914782446636124582
+/-! ## A156902.P1063274951222763983
 
-`A045319(lt[A087244(n+1), A087271(n+1)])`
+`eq[A014262(n), A326152(n)]`
 -/
 
-namespace A156902.P9914782446636124582
+namespace A156902.P1063274951222763983
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087244 (n + 1)
+  A014262 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087271 (n + 1)
+  A326152 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045319 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A156902.P9914782446636124582
+end A156902.P1063274951222763983
 
 /-!
 # A156903: Abundant numbers (A005101) whose abundance is odd.

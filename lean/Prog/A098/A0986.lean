@@ -10083,6 +10083,29 @@ def P11257331793588240821.Spec : Prop :=
 
 end A098664
 
+/-! ## A098664.P11397840138382070155
+
+`A001405(n)*A016116(n)*A016116(n)`
+-/
+
+namespace A098664.P11397840138382070155
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001405 n * A016116 n * A016116 n
+
+end
+
+end A098664.P11397840138382070155
+
+namespace A098664
+
+/-- `A001405(n)*A016116(n)*A016116(n)` -/
+def P11397840138382070155.Spec : Prop :=
+  ∀ n, P11397840138382070155.a n = A098664 n
+
+end A098664
+
 /-! ## A098664.P7785702203565083584
 
 `A016116(n)*A210736(n+1)*A016116(n)`
@@ -10103,6 +10126,75 @@ namespace A098664
 /-- `A016116(n)*A210736(n+1)*A016116(n)` -/
 def P7785702203565083584.Spec : Prop :=
   ∀ n, P7785702203565083584.a n = A098664 n
+
+end A098664
+
+/-! ## A098664.P10821017224681930816
+
+`A038231(A007590(n+1))`
+-/
+
+namespace A098664.P10821017224681930816
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038231 (A007590 (n + 1)).toNat
+
+end
+
+end A098664.P10821017224681930816
+
+namespace A098664
+
+/-- `A038231(A007590(n+1))` -/
+def P10821017224681930816.Spec : Prop :=
+  ∀ n, P10821017224681930816.a n = A098664 n
+
+end A098664
+
+/-! ## A098664.P8166674013297275177
+
+`A174301(A194274(n))`
+-/
+
+namespace A098664.P8166674013297275177
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174301 (A194274 n).toNat
+
+end
+
+end A098664.P8166674013297275177
+
+namespace A098664
+
+/-- `A174301(A194274(n))` -/
+def P8166674013297275177.Spec : Prop :=
+  ∀ n, P8166674013297275177.a n = A098664 n
+
+end A098664
+
+/-! ## A098664.P13945462217918481139
+
+`A174301(A080476(n+1))`
+-/
+
+namespace A098664.P13945462217918481139
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174301 (A080476 (n + 1)).toNat
+
+end
+
+end A098664.P13945462217918481139
+
+namespace A098664
+
+/-- `A174301(A080476(n+1))` -/
+def P13945462217918481139.Spec : Prop :=
+  ∀ n, P13945462217918481139.a n = A098664 n
 
 end A098664
 

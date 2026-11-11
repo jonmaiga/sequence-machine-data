@@ -21,6 +21,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -1378,6 +1379,21 @@ end
 
 end A226216.P16661910497059688473
 
+/-! ## A226216.P10304023692702385772
+
+`A101208(A152598(n+1))`
+-/
+
+namespace A226216.P10304023692702385772
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101208 (A152598 (n + 1)).toNat
+
+end
+
+end A226216.P10304023692702385772
+
 /-! ## A226216.P4877964436154541357
 
 `A008578(A152597(n+1)+1)`
@@ -1425,21 +1441,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226216.P7942242364952331481
-
-/-! ## A226216.P11286956191732354557
-
-`or(A006005(A152597(n+1)), A266377(n))`
--/
-
-namespace A226216.P11286956191732354557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A006005 (A152597 (n + 1)).toNat) (A266377 n)
-
-end
-
-end A226216.P11286956191732354557
 
 /-!
 # A226217: Primes whose first digit is a square.
@@ -5025,20 +5026,20 @@ end
 
 end A226243.P10427088726371380428
 
-/-! ## A226243.P13629122542528944149
+/-! ## A226243.P9476896271887994107
 
-`A278241(A140595(n²))`
+`A124773(A053636(n+1))`
 -/
 
-namespace A226243.P13629122542528944149
+namespace A226243.P9476896271887994107
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278241 (A140595 (n ^ 2)).toNat
+  A124773 (A053636 (n + 1)).toNat
 
 end
 
-end A226243.P13629122542528944149
+end A226243.P9476896271887994107
 
 /-!
 # A226244: Successive record-setters (maxima) in Hofstadter's Q-sequence (A005185).

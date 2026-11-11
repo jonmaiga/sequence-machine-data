@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -5955,6 +5954,29 @@ namespace A259966
 /-- `∑[A136444(n+1)+Δ[A136444(n)]]` -/
 def P17265366224539525828.Spec : Prop :=
   ∀ n, P17265366224539525828.a n = A259966 n
+
+end A259966
+
+/-! ## A259966.P3047669126651314256
+
+`A118430(n+1)+A118430(n+1)-A118430(n)`
+-/
+
+namespace A259966.P3047669126651314256
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118430 (n + 1) + A118430 (n + 1) - A118430 n
+
+end
+
+end A259966.P3047669126651314256
+
+namespace A259966
+
+/-- `A118430(n+1)+A118430(n+1)-A118430(n)` -/
+def P3047669126651314256.Spec : Prop :=
+  ∀ n, P3047669126651314256.a n = A259966 n
 
 end A259966
 

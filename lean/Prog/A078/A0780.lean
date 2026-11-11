@@ -1917,6 +1917,32 @@ def P14507597218339244070.Spec : Prop :=
 
 end A078008
 
+/-! ## A078008.P3696416628937063342
+
+`∑{#}[n-1, (-1)^#*2^(n-1-#)]+(-1)^n`
+-/
+
+namespace A078008.P3696416628937063342
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((-1) ^ k : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 - (k : ℤ) : ℤ) + ((-1) ^ n : ℚ)
+
+end
+
+end A078008.P3696416628937063342
+
+namespace A078008
+
+/-- `∑{#}[n-1, (-1)^#*2^(n-1-#)]+(-1)^n` -/
+def P3696416628937063342.Spec : Prop :=
+  ∀ n, P3696416628937063342.a n = (A078008 n : ℚ)
+
+end A078008
+
 /-! ## A078008.P10035108037446474657
 
 `a(n-1)-(a(n-1)%2-a(n-2)-a(n-2))` with `a(0)=1, a(1)=0`
@@ -2081,29 +2107,6 @@ namespace A078008
 /-- `abs(1-A140966(n))` -/
 def P14575223148820114373.Spec : Prop :=
   ∀ n, P14575223148820114373.a n = A078008 n
-
-end A078008
-
-/-! ## A078008.P3734600018765082504
-
-`abs(1-A171501(n))`
--/
-
-namespace A078008.P3734600018765082504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |1 - A171501 n|
-
-end
-
-end A078008.P3734600018765082504
-
-namespace A078008
-
-/-- `abs(1-A171501(n))` -/
-def P3734600018765082504.Spec : Prop :=
-  ∀ n, P3734600018765082504.a n = A078008 n
 
 end A078008
 
@@ -6514,6 +6517,32 @@ def P6152688340591725281.Spec : Prop :=
 
 end A078024
 
+/-! ## A078024.P14554550382140497335
+
+`(-1)^n+∑{#}[n-1, (-1)^(n-1-#)*A000045(#)]`
+-/
+
+namespace A078024.P14554550382140497335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-1) ^ n : ℚ) + ∑ k ∈ Finset.range (f1 n + 1).toNat, (-1 : ℚ) ^ ((n : ℤ) - 1 - (k : ℤ) : ℤ) * (A000045 k : ℚ)
+
+end
+
+end A078024.P14554550382140497335
+
+namespace A078024
+
+/-- `(-1)^n+∑{#}[n-1, (-1)^(n-1-#)*A000045(#)]` -/
+def P14554550382140497335.Spec : Prop :=
+  ∀ n, P14554550382140497335.a n = (A078024 n : ℚ)
+
+end A078024
+
 /-! ## A078024.P6154043099794283256
 
 `Δ[abs(Δ[∑[a(n-2)-a(n-1)]-n])]` with `a(0)=1, a(1)=1`
@@ -6621,32 +6650,6 @@ namespace A078024
 /-- `Δ[A008346(abs(1-n))]` -/
 def P14127676651056912704.Spec : Prop :=
   ∀ n, P14127676651056912704.a n = A078024 n
-
-end A078024
-
-/-! ## A078024.P9603168203387207921
-
-`Δ[A000032(n-3)+a(n-4)]` with `a(0)=0, a(1)=1, a(2)=0, a(3)=2`
--/
-
-namespace A078024.P9603168203387207921
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 0, 2] fun n f1 =>
-  A000032 (n - 3) + f1 (n - 4)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A078024.P9603168203387207921
-
-namespace A078024
-
-/-- `Δ[A000032(n-3)+a(n-4)]` -/
-def P9603168203387207921.Spec : Prop :=
-  ∀ n, P9603168203387207921.a n = A078024 n
 
 end A078024
 

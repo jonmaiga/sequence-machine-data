@@ -28,7 +28,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C032
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
@@ -38,7 +37,6 @@ import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -1796,6 +1794,21 @@ end
 
 end A021007.P17262092043748438777
 
+/-! ## A021007.P16744797952344396872
+
+`A322863(A021005(n+1))`
+-/
+
+namespace A021007.P16744797952344396872
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322863 (A021005 (n + 1)).toNat
+
+end
+
+end A021007.P16744797952344396872
+
 /-! ## A021007.P14795145619295216669
 
 `A003961(A021005(n+1))`
@@ -1831,21 +1844,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021007.P1688288198081059366
-
-/-! ## A021007.P9041313189781754004
-
-`A006512(A145569(n)+A032555(n+1))`
--/
-
-namespace A021007.P9041313189781754004
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006512 (A145569 n + A032555 (n + 1)).toNat
-
-end
-
-end A021007.P9041313189781754004
 
 /-!
 # A021008: Pisot sequence P(5,11), a(0)=5, a(1)=11, a(n+1) is the nearest integer to a(n)^2/a(n-1).
@@ -5743,7 +5741,7 @@ end A021056
 /-!
 # A021058: Decimal expansion of 1/54.
 
-The programs for A021058, the canonical program `A021058.P6681926142359365723` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021058 has offset 0).
+The programs for A021058, the canonical program `A021058.P6681926142359365723` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021058 has offset 0).
 
 The definition of A021058 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021058.anchor (n : ℕ) : A021058 n = ((10 ^ (n + 1) / 54 % 10 : ℕ) : ℤ)` in `Proof.A021.A021058`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5752,7 +5750,7 @@ The definition of A021058 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-3)` with `a(0)=0, a(1)=1, a(2)=8, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021058
@@ -5770,7 +5768,7 @@ end A021058
 /-!
 # A021059: Decimal expansion of 1/55.
 
-The programs for A021059, the canonical program `A021059.P18208627452551257228` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021059 has offset 0).
+The programs for A021059, the canonical program `A021059.P18208627452551257228` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021059 has offset 0).
 
 The definition of A021059 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021059.anchor (n : ℕ) : A021059 n = ((10 ^ (n + 1) / 55 % 10 : ℕ) : ℤ)` in `Proof.A021.A021059`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5779,7 +5777,7 @@ The definition of A021059 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-2)` with `a(0)=0, a(1)=1, a(2)=8`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A021059

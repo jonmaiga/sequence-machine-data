@@ -54,7 +54,6 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
@@ -1610,6 +1609,32 @@ theorem P4026437130266233817.correct : P4026437130266233817.Spec := by
 
 end A022521
 
+/-! ## A022521.P15290333278024902844
+
+`∑{#}[4, C(5, #)*n^#]`
+-/
+
+namespace A022521.P15290333278024902844
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose 5 k * n ^ k
+
+end
+
+end A022521.P15290333278024902844
+
+namespace A022521
+
+/-- `∑{#}[4, C(5, #)*n^#]` -/
+def P15290333278024902844.Spec : Prop :=
+  ∀ n, (P15290333278024902844.a n : ℤ) = A022521 n
+
+end A022521
+
 /-! ## A022521.P5053584891335312910
 
 `∑[A101098(n+1)]`
@@ -1885,35 +1910,6 @@ namespace A022521
 /-- `Δ[val(2^(2*n), 4)^5]` -/
 def P1259989141997553105.Spec : Prop :=
   ∀ n, P1259989141997553105.a n = A022521 n
-
-end A022521
-
-/-! ## A022521.P13122589790532028376
-
-`Δ[A163285(∑[n])]`
--/
-
-namespace A022521.P13122589790532028376
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163285 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A022521.P13122589790532028376
-
-namespace A022521
-
-/-- `Δ[A163285(∑[n])]` -/
-def P13122589790532028376.Spec : Prop :=
-  ∀ n, P13122589790532028376.a n = A022521 n
 
 end A022521
 
@@ -3640,6 +3636,32 @@ def P1518772193900878853.Spec : Prop :=
 theorem P1518772193900878853.correct : P1518772193900878853.Spec := by
   intro n
   simp only [A022526]
+
+end A022526
+
+/-! ## A022526.P2371057021470227721
+
+`∑{#}[9, C(10, #)*n^#]`
+-/
+
+namespace A022526.P2371057021470227721
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  9
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.choose 10 k * n ^ k
+
+end
+
+end A022526.P2371057021470227721
+
+namespace A022526
+
+/-- `∑{#}[9, C(10, #)*n^#]` -/
+def P2371057021470227721.Spec : Prop :=
+  ∀ n, (P2371057021470227721.a n : ℤ) = A022526 n
 
 end A022526
 
@@ -15303,6 +15325,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022599.P6453885292424365977
+
+/-! ## A022599.P12055847973840951570
+
+`A007259(n)*A112160(n)/A101127(n)`
+-/
+
+namespace A022599.P12055847973840951570
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A007259 n * A112160 n : ℚ) / (A101127 n : ℚ)
+
+end
+
+end A022599.P12055847973840951570
 
 /-! ## A022599.P15298912248759718413
 

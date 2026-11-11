@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence computed for primorial base related filter-sequence A278226.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A276086(i)) = A046523(A276086(j)), for all i, j >= 0, where A046523(n) is the smallest number with same prime signature as n, and A276086 is the primorial base exp-function.",
   "id": "A286626",
   "mentions": [
     "A046523",
@@ -13,7 +13,8 @@
     "A286610",
     "A286619",
     "A286621",
-    "A286622"
+    "A286622",
+    "A328477"
   ],
   "tags": [
     "look",

@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 11 (most significant digit on right).",
+  "description": "Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 11 (most significant digit on right).",
   "id": "A029504",
   "mentions": [
+    "A011121",
     "A029447",
     "A029470",
     "A029471",
@@ -18,12 +19,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

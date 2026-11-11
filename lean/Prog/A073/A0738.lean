@@ -31,6 +31,7 @@ import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
@@ -2904,6 +2905,32 @@ theorem P16325406888385012119.correct : P16325406888385012119.Spec := by
 
 end A073810
 
+/-! ## A073810.P12433833629418955937
+
+`A000005(∑{d}[n+1, #²]/A091260(n+1))`
+-/
+
+namespace A073810.P12433833629418955937
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000005 (SequenceMachineLib.roundAway (((∑ d ∈ Nat.divisors (f1 n), d ^ 2 : ℕ) : ℚ) / (A091260 (n + 1) : ℚ))).toNat
+
+end
+
+end A073810.P12433833629418955937
+
+namespace A073810
+
+/-- `A000005(∑{d}[n+1, #²]/A091260(n+1))` -/
+def P12433833629418955937.Spec : Prop :=
+  ∀ n, P12433833629418955937.a n = A073810 (n + 1)
+
+end A073810
+
 /-! ## A073810.P14735310813197334762
 
 `A000005(gcd(∑{d}[n+1, #²], A001158(n+1)))`
@@ -2982,6 +3009,29 @@ def P16228169980769937807.Spec : Prop :=
 
 end A073810
 
+/-! ## A073810.P15937552737533763634
+
+`A000005(A001157(n+1)/A091260(n+1))`
+-/
+
+namespace A073810.P15937552737533763634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000005 (SequenceMachineLib.roundAway ((A001157 (n + 1) : ℚ) / (A091260 (n + 1) : ℚ))).toNat
+
+end
+
+end A073810.P15937552737533763634
+
+namespace A073810
+
+/-- `A000005(A001157(n+1)/A091260(n+1))` -/
+def P15937552737533763634.Spec : Prop :=
+  ∀ n, P15937552737533763634.a n = A073810 (n + 1)
+
+end A073810
+
 /-! ## A073810.P3930313716517304898
 
 `A000005(A001158(n+1)/A298754(n+1))`
@@ -3025,55 +3075,6 @@ namespace A073810
 /-- `A000005(gcd(A001157(n+1), A001158(n+1)))` -/
 def P12681584485116457053.Spec : Prop :=
   ∀ n, P12681584485116457053.a n = A073810 (n + 1)
-
-end A073810
-
-/-! ## A073810.P12433833629418955937
-
-`A000005(∑{d}[n+1, #²]/A091260(n+1))`
--/
-
-namespace A073810.P12433833629418955937
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (SequenceMachineLib.roundAway (((∑ d ∈ Nat.divisors (f1 n), d ^ 2 : ℕ) : ℚ) / (A091260 (n + 1) : ℚ))).toNat
-
-end
-
-end A073810.P12433833629418955937
-
-namespace A073810
-
-/-- `A000005(∑{d}[n+1, #²]/A091260(n+1))` -/
-def P12433833629418955937.Spec : Prop :=
-  ∀ n, P12433833629418955937.a n = A073810 (n + 1)
-
-end A073810
-
-/-! ## A073810.P15937552737533763634
-
-`A000005(A001157(n+1)/A091260(n+1))`
--/
-
-namespace A073810.P15937552737533763634
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (SequenceMachineLib.roundAway ((A001157 (n + 1) : ℚ) / (A091260 (n + 1) : ℚ))).toNat
-
-end
-
-end A073810.P15937552737533763634
-
-namespace A073810
-
-/-- `A000005(A001157(n+1)/A091260(n+1))` -/
-def P15937552737533763634.Spec : Prop :=
-  ∀ n, P15937552737533763634.a n = A073810 (n + 1)
 
 end A073810
 
@@ -9637,6 +9638,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073852.P15671909502315277206
+
+/-! ## A073852.P13079918303848914962
+
+`A000290(A256270(n+1))`
+-/
+
+namespace A073852.P13079918303848914962
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A256270 (n + 1)).toNat
+
+end
+
+end A073852.P13079918303848914962
 
 /-! ## A073852.P15565640776747919642
 

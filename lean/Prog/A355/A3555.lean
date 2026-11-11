@@ -1699,20 +1699,20 @@ end
 
 end A355525.P1609678339038416568
 
-/-! ## A355525.P3517177806767240546
+/-! ## A355525.P2784101573807036015
 
-`A387111(A066759(n+2))`
+`A241917(A086471(n+2))`
 -/
 
-namespace A355525.P3517177806767240546
+namespace A355525.P2784101573807036015
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387111 (A066759 (n + 2)).toNat
+  A241917 (A086471 (n + 2)).toNat
 
 end
 
-end A355525.P3517177806767240546
+end A355525.P2784101573807036015
 
 /-!
 # A355526: Maximal difference between adjacent prime indices of n, or k if n is the k-th prime.
@@ -2730,27 +2730,6 @@ end A355534.P14827856918790031595
 The programs for A355535, there is no canonical definition to state claims against.
 -/
 
-/-! ## A355535.P16077725121183341664
-
-`A005408(eq[0, A367771(n)])`
--/
-
-namespace A355535.P16077725121183341664
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367771 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A355535.P16077725121183341664
-
 /-! ## A355535.P15042927247190286447
 
 `A005408(lt[A387136(n+1), 1])`
@@ -2792,6 +2771,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355535.P2433146130969359902
+
+/-! ## A355535.P16077725121183341664
+
+`A005408(eq[0, A367771(n)])`
+-/
+
+namespace A355535.P16077725121183341664
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367771 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005408 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A355535.P16077725121183341664
 
 /-! ## A355535.P5352665730008265356
 

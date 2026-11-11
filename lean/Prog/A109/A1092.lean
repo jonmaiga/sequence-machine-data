@@ -31,12 +31,12 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -3986,6 +3986,32 @@ def P18407123076484923117.Spec : Prop :=
 
 end A109241
 
+/-! ## A109241.P14572500231643143581
+
+`∑{#}[n, 10^#*10^n]`
+-/
+
+namespace A109241.P14572500231643143581
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), 10 ^ k * 10 ^ n
+
+end
+
+end A109241.P14572500231643143581
+
+namespace A109241
+
+/-- `∑{#}[n, 10^#*10^n]` -/
+def P14572500231643143581.Spec : Prop :=
+  ∀ n, (P14572500231643143581.a n : ℤ) = A109241 n
+
+end A109241
+
 /-! ## A109241.P3946098523061513536
 
 `10^n*record[1+10*T(n-1,k-1)]` with `a(0)=1`
@@ -4110,29 +4136,6 @@ namespace A109241
 /-- `record[A287469(n)]` -/
 def P1096998692983896589.Spec : Prop :=
   ∀ n, P1096998692983896589.a n = A109241 n
-
-end A109241
-
-/-! ## A109241.P8888538795224022950
-
-`A278754(2*n)`
--/
-
-namespace A109241.P8888538795224022950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278754 (2 * n)
-
-end
-
-end A109241.P8888538795224022950
-
-namespace A109241
-
-/-- `A278754(2*n)` -/
-def P8888538795224022950.Spec : Prop :=
-  ∀ n, P8888538795224022950.a n = A109241 n
 
 end A109241
 

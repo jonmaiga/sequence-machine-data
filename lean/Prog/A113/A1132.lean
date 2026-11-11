@@ -3214,27 +3214,6 @@ end
 
 end A113230.P4157204323658930156
 
-/-! ## A113230.P1217446571781788501
-
-`dr(A087052(eq[0, A138472(n)]))`
--/
-
-namespace A113230.P1217446571781788501
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138472 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A087052 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n))
-
-end
-
-end A113230.P1217446571781788501
-
 /-! ## A113230.P15262870310143916826
 
 `A054055(eq[A062279(n), A118759(n)])`
@@ -3255,21 +3234,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A113230.P15262870310143916826
-
-/-! ## A113230.P15137747586339973719
-
-`A262188(A048307(n)%A054750(n+1))`
--/
-
-namespace A113230.P15137747586339973719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262188 (Int.tmod (A048307 n) (A054750 (n + 1))).toNat
-
-end
-
-end A113230.P15137747586339973719
 
 /-!
 # A113231: Ascending descending base exponent transform of triangular numbers (A000217).
@@ -8432,6 +8396,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A113277.P6050128777646530448
+
+/-! ## A113277.P4623571589596210249
+
+`A087470(n+1)*A143064(n)`
+-/
+
+namespace A113277.P4623571589596210249
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087470 (n + 1) * A143064 n
+
+end
+
+end A113277.P4623571589596210249
+
+/-! ## A113277.P10270666160455984652
+
+`A143064(n)*A309407(n)`
+-/
+
+namespace A113277.P10270666160455984652
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143064 n * A309407 n
+
+end
+
+end A113277.P10270666160455984652
 
 /-!
 # A113278: Triangle T, read by rows, such that the matrix square, T^2, forms a simple 2-diagonal triangle where [T^2](n,n) = 1 and [T^2](n+1,n) = 2*(n+1) for n>=0.

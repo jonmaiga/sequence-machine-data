@@ -493,21 +493,6 @@ end
 
 end A311102.P3372413965495570914
 
-/-! ## A311102.P16719810739484870954
-
-`A004396(n+1)+A111576(n+1)%4+3*n`
--/
-
-namespace A311102.P16719810739484870954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004396 (n + 1) + (Int.tmod (A111576 (n + 1)) 4 + (3 * n : ℤ))
-
-end
-
-end A311102.P16719810739484870954
-
 /-!
 # A311103: Coordination sequence Gal.5.18.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 

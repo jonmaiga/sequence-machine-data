@@ -76,7 +76,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 
@@ -4314,6 +4313,29 @@ theorem P8962397392787010779.correct : P8962397392787010779.Spec := by
 
 end A200067
 
+/-! ## A200067.P15919408250158316024
+
+`floor(n/3)*C(ceil(2*n/3), 2)`
+-/
+
+namespace A200067.P15919408250158316024
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 3⌋ * (Nat.choose ⌈(2 * n : ℚ) / 3⌉.toNat 2 : ℤ)
+
+end
+
+end A200067.P15919408250158316024
+
+namespace A200067
+
+/-- `floor(n/3)*C(ceil(2*n/3), 2)` -/
+def P15919408250158316024.Spec : Prop :=
+  ∀ n, P15919408250158316024.a n = A200067 n
+
+end A200067
+
 /-! ## A200067.P15821081765039996970
 
 `∑[floor(n/3)*∑[(char[2]+n)²%3]]`
@@ -4765,29 +4787,6 @@ namespace A200067
 /-- `A260706(A130518(n))` -/
 def P12079990155825041551.Spec : Prop :=
   ∀ n, P12079990155825041551.a n = A200067 n
-
-end A200067
-
-/-! ## A200067.P11563941104150457701
-
-`A062707(A171452(n))`
--/
-
-namespace A200067.P11563941104150457701
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062707 (A171452 n).toNat
-
-end
-
-end A200067.P11563941104150457701
-
-namespace A200067
-
-/-- `A062707(A171452(n))` -/
-def P11563941104150457701.Spec : Prop :=
-  ∀ n, P11563941104150457701.a n = A200067 n
 
 end A200067
 

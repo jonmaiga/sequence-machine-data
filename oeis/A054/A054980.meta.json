@@ -2,6 +2,7 @@
   "description": "Primitive e-perfect numbers: primitive elements of the e-perfect numbers (A054979).",
   "id": "A054980",
   "mentions": [
+    "A001694",
     "A051377",
     "A054979",
     "A160134"

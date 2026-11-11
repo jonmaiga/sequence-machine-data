@@ -4334,30 +4334,6 @@ end
 end A287955.P12160000865875682884
 
 /-!
-# A287956: Numbers k such that k!6 + 6 is prime, where k!6 is the sextuple factorial number (A085158 ).
-
-The programs for A287956, there is no canonical definition to state claims against.
--/
-
-/-! ## A287956.P2813207297760941367
-
-`record[and(A023691(n+1), A119788(n+1))]`
--/
-
-namespace A287956.P2813207297760941367
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A023691 (n + 1)) (A119788 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A287956.P2813207297760941367
-
-/-!
 # A287957: Table read by antidiagonals: T(n, k) = greatest common recursive divisor of n and k; n > 0 and k > 0.
 
 The programs for A287957, the canonical program `A287957.P9450790223427472973` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287957 has offset 1).

@@ -2086,7 +2086,7 @@ end A219348.P16527040109936031325
 /-!
 # A219349: Number of n X 3 arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..1 n X 3 array.
 
-The programs for A219349, the canonical program `A219349.P4350561497736604169` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219349 has offset 1).
+The programs for A219349, the canonical program `A219349.P4350561497736604169` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219349 has offset 1).
 
 The definition of A219349 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2118,7 +2118,7 @@ end A219349
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=3, a(1)=3, a(2)=8, a(3)=15, a(4)=27, a(5)=46, a(6)=76, a(7)=122`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219349
@@ -2646,7 +2646,7 @@ end A219354.P14652651383107921220
 /-!
 # A219355: Size of the edge set of the Generalized Lucas Cube Q_n(111).
 
-The programs for A219355, the canonical program `A219355.P10789502985892615376` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219355 has offset 0).
+The programs for A219355, the canonical program `A219355.P10789502985892615376` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219355 has offset 0).
 
 The definition of A219355 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2655,7 +2655,7 @@ The definition of A219355 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+2x^2-6x^4+2x^5+8x^6+5x^7+2x^8)/(1-2x-x^2+3x^4+2x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219355
@@ -3968,7 +3968,7 @@ end A219380.P1542244462390864740
 /-!
 # A219382: Number of 2 X n arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..2 2 X n array.
 
-The programs for A219382, the canonical program `A219382.P11930171981713289880` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219382 has offset 1).
+The programs for A219382, the canonical program `A219382.P11930171981713289880` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219382 has offset 1).
 
 The definition of A219382 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4000,7 +4000,7 @@ end A219382
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=6, a(1)=7, a(2)=14, a(3)=25, a(4)=40, a(5)=66, a(6)=103, a(7)=157, a(8)=234, a(9)=341`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219382
@@ -4477,7 +4477,7 @@ end A219387.P18187711493939013053
 /-!
 # A219389: Numbers k such that 13*k+1 is a square.
 
-The programs for A219389, the canonical program `A219389.P14093031656189874737` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219389 has offset 1).
+The programs for A219389, the canonical program `A219389.P14093031656189874737` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219389 has offset 1).
 
 The definition of A219389 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4509,7 +4509,7 @@ end A219389
 
 `((13*floor((n+1)/2)+(-1)^(n+2))²-1)/13`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219389
@@ -5482,7 +5482,7 @@ end A219390
 /-!
 # A219391: Numbers k such that 21*k + 1 is a square.
 
-The programs for A219391, the canonical program `A219391.P17470605678273681483` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219391 has offset 1).
+The programs for A219391, the canonical program `A219391.P17470605678273681483` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219391 has offset 1).
 
 The definition of A219391 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5491,7 +5491,7 @@ The definition of A219391 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3x+5x^2+11x^3+4x^4+11x^5+5x^6+3x^7)/(1-x-2x^4+2x^5+x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219391
@@ -5840,7 +5840,7 @@ end A219391
 /-!
 # A219392: Numbers k such that 22*k+1 is a square.
 
-The programs for A219392, the canonical program `A219392.P8219687475527202160` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219392 has offset 1).
+The programs for A219392, the canonical program `A219392.P8219687475527202160` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219392 has offset 1).
 
 The definition of A219392 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5872,7 +5872,7 @@ end A219392
 
 `(22*(n+1)*n+9*(-1)^(n+1)*(2*(n+1)-1)+1)/4+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219392
@@ -6275,7 +6275,7 @@ end A219392
 /-!
 # A219393: Numbers k such that 23*k+1 is a square.
 
-The programs for A219393, the canonical program `A219393.P12232059371095293682` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219393 has offset 1).
+The programs for A219393, the canonical program `A219393.P12232059371095293682` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219393 has offset 1).
 
 The definition of A219393 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6307,7 +6307,7 @@ end A219393
 
 `(46*(n+1)*n+19*(-1)^(n+1)*(2*(n+1)-1)+3)/8+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219393
@@ -6408,7 +6408,7 @@ end A219393
 /-!
 # A219394: Numbers k such that 17*k+1 is a square.
 
-The programs for A219394, the canonical program `A219394.P2388106838562751876` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219394 has offset 1).
+The programs for A219394, the canonical program `A219394.P2388106838562751876` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219394 has offset 1).
 
 The definition of A219394 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6440,7 +6440,7 @@ end A219394
 
 `(34*(n+1)*n+13*(-1)^(n+1)*(2*(n+1)-1)+5)/8+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219394
@@ -6604,7 +6604,7 @@ end A219394
 /-!
 # A219395: Numbers k such that 18*k+1 is a square.
 
-The programs for A219395, the canonical program `A219395.P18034227323894672740` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219395 has offset 1).
+The programs for A219395, the canonical program `A219395.P18034227323894672740` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219395 has offset 1).
 
 The definition of A219395 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6636,7 +6636,7 @@ end A219395
 
 `(18*(n+1)*n+7*(-1)^(n+1)*(2*(n+1)-1)-1)/4+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219395
@@ -7082,7 +7082,7 @@ end A219395
 /-!
 # A219396: Numbers k such that 19*k+1 is a square.
 
-The programs for A219396, the canonical program `A219396.P5072691100331407561` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219396 has offset 1).
+The programs for A219396, the canonical program `A219396.P5072691100331407561` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219396 has offset 1).
 
 The definition of A219396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7114,7 +7114,7 @@ end A219396
 
 `(38*(n+1)*n+15*(-1)^(n+1)*(2*(n+1)-1)-1)/8+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219396
@@ -7476,7 +7476,7 @@ end A219397.P5787011967520199878
 /-!
 # A219398: Unchanging value maps: number of n X 3 binary arrays indicating the locations of corresponding elements unequal to no king-move neighbor in a random 0..1 n X 3 array.
 
-The programs for A219398, the canonical program `A219398.P10627063431695207504` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219398 has offset 1).
+The programs for A219398, the canonical program `A219398.P10627063431695207504` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219398 has offset 1).
 
 The definition of A219398 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 220 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7485,7 +7485,7 @@ The definition of A219398 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4-8x+12x^2-9x^3-3x^4-7x^5+7x^6+2x^7)/(1-3x+2x^2-3x^3-4x^4-2x^5+5x^6+2x^7))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A219398

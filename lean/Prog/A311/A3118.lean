@@ -26,7 +26,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -4817,21 +4816,6 @@ end A311836.P7878195059065511634
 The programs for A311837, there is no canonical definition to state claims against.
 -/
 
-/-! ## A311837.P4985920149039236383
-
-`A311838(n)-A129554(A117401(n))`
--/
-
-namespace A311837.P4985920149039236383
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A311838 n - A129554 (A117401 n).toNat
-
-end
-
-end A311837.P4985920149039236383
-
 /-! ## A311837.P3130268256616229139
 
 `A311838(n)-A185274(A118053(n))`
@@ -4892,26 +4876,26 @@ end
 
 end A311837.P7186023627900799445
 
+/-! ## A311837.P10883014367702762335
+
+`A311838(A087051(n))`
+-/
+
+namespace A311837.P10883014367702762335
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A311838 (A087051 n).toNat
+
+end
+
+end A311837.P10883014367702762335
+
 /-!
 # A311838: Coordination sequence Gal.6.278.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
 The programs for A311838, there is no canonical definition to state claims against.
 -/
-
-/-! ## A311838.P6184499307088663854
-
-`A311837(n)+A129554(A117401(n))`
--/
-
-namespace A311838.P6184499307088663854
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A311837 n + A129554 (A117401 n).toNat
-
-end
-
-end A311838.P6184499307088663854
 
 /-! ## A311838.P17535233591700082163
 

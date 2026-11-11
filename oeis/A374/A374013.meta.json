@@ -1,5 +1,5 @@
 {
-  "description": "n-queens completion threshold. The maximum number such that placing a(n) or fewer mutually non-attacking queens on an n X n chessboard is always completeable to a full n-queen configuration.",
+  "description": "n-queens completion threshold. The maximum number such that placing a(n) or fewer mutually non-attacking queens on an n X n chessboard is always completable to a full n-queen configuration.",
   "id": "A374013",
   "mentions": [
     "A000170"

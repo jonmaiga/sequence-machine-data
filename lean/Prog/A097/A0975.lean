@@ -27,6 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -38,9 +39,10 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -775,29 +777,6 @@ theorem P15482133836038292803.correct : P15482133836038292803.Spec := by
 
 end A097508
 
-/-! ## A097508.P12341835901145369752
-
-`A000196(2*n²)-n`
--/
-
-namespace A097508.P12341835901145369752
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (2 * n ^ 2) - (n : ℤ)
-
-end
-
-end A097508.P12341835901145369752
-
-namespace A097508
-
-/-- `A000196(2*n²)-n` -/
-def P12341835901145369752.Spec : Prop :=
-  ∀ n, P12341835901145369752.a n = A097508 n
-
-end A097508
-
 /-! ## A097508.P11996831606869643637
 
 `ceil(sqrt(2)*n)%(1+n)`
@@ -1134,6 +1113,32 @@ namespace A097508
 /-- `∑[char[A003151(n+1)+1]]` -/
 def P13037060307295688497.Spec : Prop :=
   ∀ n, (P13037060307295688497.a n : ℤ) = A097508 n
+
+end A097508
+
+/-! ## A097508.P5176539892901098888
+
+`fp[A285078(n+1)-1]-1`
+-/
+
+namespace A097508.P5176539892901098888
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285078 (n + 1) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.nth (fun j => (n : ℤ) < f1 j) 0 : ℤ) - 1
+
+end
+
+end A097508.P5176539892901098888
+
+namespace A097508
+
+/-- `fp[A285078(n+1)-1]-1` -/
+def P5176539892901098888.Spec : Prop :=
+  ∀ n, P5176539892901098888.a n = A097508 n
 
 end A097508
 

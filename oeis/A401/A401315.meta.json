@@ -1,0 +1,16 @@
+{
+  "description": "Number of terms in A025487 not exceeding 10^n.",
+  "id": "A401315",
+  "mentions": [
+    "A025487",
+    "A077569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -24,7 +24,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C037
@@ -811,7 +810,7 @@ end
 end A119013.P10430753087499876223
 
 /-!
-# A119014: Numerators of "Farey fraction" approximations to e.
+# A119014: Numerators of semiconvergents to e.
 
 The programs for A119014, there is no canonical definition to state claims against.
 -/
@@ -832,7 +831,7 @@ end
 end A119014.P12430390781724605430
 
 /-!
-# A119015: Denominators of "Farey fraction" approximations to e.
+# A119015: Denominators of semiconvergents to e.
 
 The programs for A119015, there is no canonical definition to state claims against.
 -/
@@ -856,7 +855,7 @@ end
 end A119015.P86056704897321668
 
 /-!
-# A119016: Numerators of "Farey fraction" approximations to sqrt(2).
+# A119016: Numerators of semiconvergents to sqrt(2).
 
 The programs for A119016, the canonical program `A119016.P1320719277521536636` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
 

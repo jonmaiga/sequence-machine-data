@@ -6511,44 +6511,23 @@ end A091652.P7055887803031063355
 The programs for A091653, there is no canonical definition to state claims against.
 -/
 
-/-! ## A091653.P10991652110456560927
+/-! ## A091653.P6424418520589715584
 
-`filter[A063535(n), A334465(#)]`
+`filter[A063535(n+1), A334465(#)]`
 -/
 
-namespace A091653.P10991652110456560927
+namespace A091653.P6424418520589715584
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 n
+  A063535 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => A334465 (f1 j).toNat = 1) n)
 
 end
 
-end A091653.P10991652110456560927
-
-/-! ## A091653.P13794660749801391840
-
-`A063535(lt[n, A031131(2*n+5)])`
--/
-
-namespace A091653.P13794660749801391840
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031131 (2 * n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
-
-end
-
-end A091653.P13794660749801391840
+end A091653.P6424418520589715584
 
 /-! ## A091653.P14830789493811958264
 
@@ -6583,26 +6562,49 @@ end
 
 end A091653.P6982358260360517739
 
-/-! ## A091653.P8718734941249957884
+/-! ## A091653.P5188370921441215623
 
-`A063535(lt[A002113(n+1), A299969(3*n+1)])`
+`∩[A028791(n+1), A063535(n+1)]`
 -/
 
-namespace A091653.P8718734941249957884
+namespace A091653.P5188370921441215623
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002113 (n + 1)
+  A028791 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299969 (3 * n + 1)
+  A063535 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063535 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A091653.P8718734941249957884
+end A091653.P5188370921441215623
+
+/-! ## A091653.P15842310366685162496
+
+`∩[A063535(n+1), A174670(n+1)]`
+-/
+
+namespace A091653.P15842310366685162496
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063535 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174670 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091653.P15842310366685162496
 
 /-!
 # A091654: Frequency of primes produced by the greedy algorithm of A091652.

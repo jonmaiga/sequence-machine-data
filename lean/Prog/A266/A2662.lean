@@ -58,7 +58,6 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -3991,49 +3990,49 @@ def P16570009494563491695.Spec : Prop :=
 
 end A266221
 
-/-! ## A266221.P9325051526873840383
+/-! ## A266221.P14849948063343523864
 
-`A179865(or(1, n+1))`
+`A000217(A131055(n+1))`
 -/
 
-namespace A266221.P9325051526873840383
+namespace A266221.P14849948063343523864
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A179865 (Nat.lor 1 (n + 1))
+  A000217 (A131055 (n + 1)).toNat
 
 end
 
-end A266221.P9325051526873840383
+end A266221.P14849948063343523864
 
 namespace A266221
 
-/-- `A179865(or(1, n+1))` -/
-def P9325051526873840383.Spec : Prop :=
-  ∀ n, P9325051526873840383.a n = A266221 n
+/-- `A000217(A131055(n+1))` -/
+def P14849948063343523864.Spec : Prop :=
+  ∀ n, P14849948063343523864.a n = A266221 n
 
 end A266221
 
-/-! ## A266221.P13259010252526402959
+/-! ## A266221.P17640385577598013752
 
-`(n+1)²-A211394(a(n-1))` with `a(0)=1`
+`A128918(A014681(n))+n`
 -/
 
-namespace A266221.P13259010252526402959
+namespace A266221.P17640385577598013752
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  ((n + 1) ^ 2 : ℤ) - A211394 (a (n - 1)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128918 (A014681 n).toNat + (n : ℤ)
 
 end
 
-end A266221.P13259010252526402959
+end A266221.P17640385577598013752
 
 namespace A266221
 
-/-- `(n+1)²-A211394(a(n-1))` -/
-def P13259010252526402959.Spec : Prop :=
-  ∀ n, P13259010252526402959.a n = A266221 n
+/-- `A128918(A014681(n))+n` -/
+def P17640385577598013752.Spec : Prop :=
+  ∀ n, P17640385577598013752.a n = A266221 n
 
 end A266221
 
@@ -9957,6 +9956,29 @@ namespace A266256
 /-- `n+1-Δ[n-1-and(n-1, a(n-1))]` -/
 def P4129925928975660513.Spec : Prop :=
   ∀ n, P4129925928975660513.a n = A266256 n
+
+end A266256
+
+/-! ## A266256.P3377951124858478259
+
+`floor(a(n-2)+a(n-1)^(4-a(n-1)))` with `a(0)=1, a(1)=1`
+-/
+
+namespace A266256.P3377951124858478259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  ⌊(a (n - 2) : ℚ) + (a (n - 1) : ℚ) ^ (4 - a (n - 1) : ℤ)⌋
+
+end
+
+end A266256.P3377951124858478259
+
+namespace A266256
+
+/-- `floor(a(n-2)+a(n-1)^(4-a(n-1)))` -/
+def P3377951124858478259.Spec : Prop :=
+  ∀ n, P3377951124858478259.a n = A266256 n
 
 end A266256
 

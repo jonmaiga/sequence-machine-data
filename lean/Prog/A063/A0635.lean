@@ -26,6 +26,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
@@ -3027,29 +3028,26 @@ def P4420331872777402321.Spec : Prop :=
 
 end A063523
 
-/-! ## A063523.P6982887381048856191
+/-! ## A063523.P13243930819847737942
 
-`A007290(Δ[n²])-n`
+`A172082(n)-A051925(n)`
 -/
 
-namespace A063523.P6982887381048856191
+namespace A063523.P13243930819847737942
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007290 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat - (n : ℤ)
+  A172082 n - A051925 n
 
 end
 
-end A063523.P6982887381048856191
+end A063523.P13243930819847737942
 
 namespace A063523
 
-/-- `A007290(Δ[n²])-n` -/
-def P6982887381048856191.Spec : Prop :=
-  ∀ n, P6982887381048856191.a n = A063523 n
+/-- `A172082(n)-A051925(n)` -/
+def P13243930819847737942.Spec : Prop :=
+  ∀ n, P13243930819847737942.a n = A063523 n
 
 end A063523
 
@@ -5228,9 +5226,9 @@ def P3424538496938407653.Spec : Prop :=
 end A063534
 
 /-!
-# A063535: Primes prime(n) such that prime(n+1)^2 < prime(n)*prime(n+2).
+# A063535: Primes prime(k) such that prime(k+1)^2 < prime(k)*prime(k+2).
 
-The programs for A063535, the canonical program `A063535.P4924521992092445288` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063535 has offset 0).
+The programs for A063535, the canonical program `A063535.P4924521992092445288` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063535 has offset 1).
 
 The definition of A063535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4802 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5254,7 +5252,7 @@ namespace A063535
 
 /-- `A000040(A233671(n+1)-1)` -/
 def P3160417775425085839.Spec : Prop :=
-  ∀ n, P3160417775425085839.a n = A063535 n
+  ∀ n, P3160417775425085839.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5277,7 +5275,7 @@ namespace A063535
 
 /-- `A000040(A358529(n+1)-2)` -/
 def P7625598303388673623.Spec : Prop :=
-  ∀ n, P7625598303388673623.a n = A063535 n
+  ∀ n, P7625598303388673623.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5292,11 +5290,11 @@ namespace A063535
 
 /-- `A000040(lt[A056221(n+1), 0]+1)` -/
 def P4924521992092445288.Spec : Prop :=
-  ∀ n, P4924521992092445288.a n = A063535 n
+  ∀ n, P4924521992092445288.a n = A063535 (n + 1)
 
 theorem P4924521992092445288.correct : P4924521992092445288.Spec := by
   intro n
-  simp only [A063535]
+  simp only [A063535, Nat.add_sub_cancel]
 
 end A063535
 
@@ -5325,7 +5323,7 @@ namespace A063535
 
 /-- `A000040(lt[A073272(n+1), 1]+1)` -/
 def P13109074337772365020.Spec : Prop :=
-  ∀ n, P13109074337772365020.a n = A063535 n
+  ∀ n, P13109074337772365020.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5354,7 +5352,7 @@ namespace A063535
 
 /-- `A000040(lt[A073274(n+1), 1]+1)` -/
 def P12236141181424137533.Spec : Prop :=
-  ∀ n, P12236141181424137533.a n = A063535 n
+  ∀ n, P12236141181424137533.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5380,7 +5378,7 @@ namespace A063535
 
 /-- `record[A000040(n+1)/A228098(n+1)]` -/
 def P8267377620773862974.Spec : Prop :=
-  ∀ n, P8267377620773862974.a n = (A063535 n : ℚ)
+  ∀ n, P8267377620773862974.a n = (A063535 (n + 1) : ℚ)
 
 end A063535
 
@@ -5406,7 +5404,7 @@ namespace A063535
 
 /-- `A000040(record[1-n*A079054(n+2)])` -/
 def P15731271560871044541.Spec : Prop :=
-  ∀ n, P15731271560871044541.a n = A063535 n
+  ∀ n, P15731271560871044541.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5429,7 +5427,7 @@ namespace A063535
 
 /-- `A008578(A233671(n+1))` -/
 def P6220235530729549133.Spec : Prop :=
-  ∀ n, P6220235530729549133.a n = A063535 n
+  ∀ n, P6220235530729549133.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5458,7 +5456,7 @@ namespace A063535
 
 /-- `A000040(eq[1, A108415(n+2)]+1)` -/
 def P14540455766227476028.Spec : Prop :=
-  ∀ n, P14540455766227476028.a n = A063535 n
+  ∀ n, P14540455766227476028.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5487,7 +5485,7 @@ namespace A063535
 
 /-- `A000040(eq[A051702(n+1), A339270(n+1)])` -/
 def P6595015291735905172.Spec : Prop :=
-  ∀ n, P6595015291735905172.a n = A063535 n
+  ∀ n, P6595015291735905172.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5516,7 +5514,7 @@ namespace A063535
 
 /-- `A000040(lt[A054541(n+1), A001223(n+1)])` -/
 def P15832407236111855184.Spec : Prop :=
-  ∀ n, P15832407236111855184.a n = A063535 n
+  ∀ n, P15832407236111855184.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5545,7 +5543,7 @@ namespace A063535
 
 /-- `A000040(eq[A046929(n+1)+1, A339270(n+1)])` -/
 def P13970386223847421355.Spec : Prop :=
-  ∀ n, P13970386223847421355.a n = A063535 n
+  ∀ n, P13970386223847421355.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5574,7 +5572,7 @@ namespace A063535
 
 /-- `A008578(lt[A054541(n+1), A001223(n+1)]+1)` -/
 def P16456215542265561972.Spec : Prop :=
-  ∀ n, P16456215542265561972.a n = A063535 n
+  ∀ n, P16456215542265561972.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5603,7 +5601,7 @@ namespace A063535
 
 /-- `A000040(lt[A118534(n+1)+1, A008578(n+1)])` -/
 def P147904269938281288.Spec : Prop :=
-  ∀ n, P147904269938281288.a n = A063535 n
+  ∀ n, P147904269938281288.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5626,7 +5624,7 @@ namespace A063535
 
 /-- `A158611(A358529(n+1))` -/
 def P16866234461376399175.Spec : Prop :=
-  ∀ n, P16866234461376399175.a n = A063535 n
+  ∀ n, P16866234461376399175.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5655,7 +5653,7 @@ namespace A063535
 
 /-- `A000040(lt[A054541(n+1), A054541(n+2)])` -/
 def P7089972027397434128.Spec : Prop :=
-  ∀ n, P7089972027397434128.a n = A063535 n
+  ∀ n, P7089972027397434128.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5684,7 +5682,7 @@ namespace A063535
 
 /-- `A000040(lt[A125266(n+1), A125266(n+2)])` -/
 def P15401998379181664615.Spec : Prop :=
-  ∀ n, P15401998379181664615.a n = A063535 n
+  ∀ n, P15401998379181664615.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5707,7 +5705,7 @@ namespace A063535
 
 /-- `A151799(A051635(n+1))` -/
 def P8796600143322711916.Spec : Prop :=
-  ∀ n, P8796600143322711916.a n = A063535 n
+  ∀ n, P8796600143322711916.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5730,7 +5728,7 @@ namespace A063535
 
 /-- `A000040(A258025(1+n))` -/
 def P7527217724894350631.Spec : Prop :=
-  ∀ n, P7527217724894350631.a n = A063535 n
+  ∀ n, P7527217724894350631.a n = A063535 (n + 1)
 
 end A063535
 
@@ -5753,7 +5751,7 @@ namespace A063535
 
 /-- `A006093(A258025(n+1))+1` -/
 def P14883400218902620782.Spec : Prop :=
-  ∀ n, P14883400218902620782.a n = A063535 n
+  ∀ n, P14883400218902620782.a n = A063535 (n + 1)
 
 end A063535
 
@@ -8315,6 +8313,29 @@ namespace A063549
 /-- `A001405(n+1)/(A142150(n+1)+1)` -/
 def P8822123180689681654.Spec : Prop :=
   ∀ n, P8822123180689681654.a n = (A063549 (n + 1) : ℚ)
+
+end A063549
+
+/-! ## A063549.P9359144612682218334
+
+`gcd(C(n+1, floor((n+1)/2)), C(n+2, floor((n+2)/2)))`
+-/
+
+namespace A063549.P9359144612682218334
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd (Nat.choose (n + 1) ⌊(n + 1 : ℚ) / 2⌋.toNat) (Nat.choose (n + 2) ⌊(n + 2 : ℚ) / 2⌋.toNat)
+
+end
+
+end A063549.P9359144612682218334
+
+namespace A063549
+
+/-- `gcd(C(n+1, floor((n+1)/2)), C(n+2, floor((n+2)/2)))` -/
+def P9359144612682218334.Spec : Prop :=
+  ∀ n, (P9359144612682218334.a n : ℤ) = A063549 (n + 1)
 
 end A063549
 

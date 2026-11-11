@@ -43,6 +43,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B000.C050
@@ -7810,26 +7811,26 @@ def P5053874965226981227.Spec : Prop :=
 
 end A214661
 
-/-! ## A214661.P5235007557651922230
+/-! ## A214661.P1773139920947091708
 
-`(col(n)+1+row(n))²-(row(n)-col(n))`
+`(col(n)+row(n)+1)²+col(n)-row(n)`
 -/
 
-namespace A214661.P5235007557651922230
+namespace A214661.P1773139920947091708
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.triCol n + 1 + SequenceMachineLib.triRow n) ^ 2 : ℤ) - ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ))
+  ((SequenceMachineLib.triCol n + (SequenceMachineLib.triRow n + 1)) ^ 2 : ℤ) + ((SequenceMachineLib.triCol n : ℤ) - (SequenceMachineLib.triRow n : ℤ))
 
 end
 
-end A214661.P5235007557651922230
+end A214661.P1773139920947091708
 
 namespace A214661
 
-/-- `(col(n)+1+row(n))²-(row(n)-col(n))` -/
-def P5235007557651922230.Spec : Prop :=
-  ∀ n, P5235007557651922230.a n = A214661 (n + 1)
+/-- `(col(n)+row(n)+1)²+col(n)-row(n)` -/
+def P1773139920947091708.Spec : Prop :=
+  ∀ n, P1773139920947091708.a n = A214661 (n + 1)
 
 end A214661
 
@@ -13093,14 +13094,14 @@ end A214689.P13895165892331324422
 /-!
 # A214691: G.f.: A(x) = Sum_{n>=0} x^n * Product_{k=1..n} (2^(2*k-1) - 1) / (1 + 2^(2*k-1)*x).
 
-The programs for A214691, the canonical program `A214691.P11099802055150485711` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214691 has offset 0).
+The programs for A214691, the canonical program `A214691.P12661534723073645429` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214691 has offset 0).
 
 The definition of A214691 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A214691.P11099802055150485711
+/-! ## A214691.P12661534723073645429
 
-`2*(4^(n-1)-1)*a(n-1)-(-1)^n` with `a(0)=1, a(1)=1`
+`2*(4^(n-1)-1)*a(n-1)-(-1)^n` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C034`.
 -/
@@ -13108,8 +13109,8 @@ The canonical program, it is in `Seq.B000.C034`.
 namespace A214691
 
 /-- `2*(4^(n-1)-1)*a(n-1)-(-1)^n` -/
-def P11099802055150485711.Spec : Prop :=
-  ∀ n, P11099802055150485711.a n = (A214691 n : ℚ)
+def P12661534723073645429.Spec : Prop :=
+  ∀ n, P12661534723073645429.a n = (A214691 n : ℚ)
 
 end A214691
 

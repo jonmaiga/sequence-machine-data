@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (8*n)^5.",
   "id": "A017069",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "easy",
     "formulas",

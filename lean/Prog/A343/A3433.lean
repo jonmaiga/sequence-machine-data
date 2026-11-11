@@ -6531,21 +6531,6 @@ end
 
 end A343391.P7517963985940980716
 
-/-! ## A343391.P5330695002022340512
-
-`A273568(A066182(n+1)%A000112(n+3))`
--/
-
-namespace A343391.P5330695002022340512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A273568 (Int.tmod (A066182 (n + 1)) (A000112 (n + 3))).toNat
-
-end
-
-end A343391.P5330695002022340512
-
 /-! ## A343391.P11385028940879640772
 
 `A273568(A066182(n+1))%A067329(3*(n+1))`
@@ -6579,6 +6564,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343391.P5142931644303089862
+
+/-! ## A343391.P9142754920728897593
+
+`A216191(A315588(n))`
+-/
+
+namespace A343391.P9142754920728897593
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216191 (A315588 n).toNat
+
+end
+
+end A343391.P9142754920728897593
 
 /-!
 # A343394: Sum of indices of n's distinct prime factors below n.

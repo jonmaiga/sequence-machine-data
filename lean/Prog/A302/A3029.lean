@@ -54,7 +54,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -709,20 +708,20 @@ end
 
 end A302905.P18380440875512479411
 
-/-! ## A302905.P15385184991447667079
+/-! ## A302905.P4170565651492764954
 
-`A034709(A292886(n!))`
+`A177849(A037966(n))`
 -/
 
-namespace A302905.P15385184991447667079
+namespace A302905.P4170565651492764954
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034709 (A292886 (Nat.factorial n)).toNat
+  A177849 (A037966 n).toNat
 
 end
 
-end A302905.P15385184991447667079
+end A302905.P4170565651492764954
 
 /-!
 # A302906: a(0) = 0; for n > 0, a(n) = a(n-1) + 5*n + 4.
@@ -2782,21 +2781,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A302927.P9666977991320099165
-
-/-! ## A302927.P1203530569395337290
-
-`2^A008683(A063535(n))*A302926(n)`
--/
-
-namespace A302927.P1203530569395337290
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ) * (A302926 n : ℚ)
-
-end
-
-end A302927.P1203530569395337290
 
 /-! ## A302927.P9333685818867885403
 

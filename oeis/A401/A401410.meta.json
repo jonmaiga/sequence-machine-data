@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of lattice 3-polytopes of normalized volume n, up to affine unimodular equivalence.",
+  "id": "A401410",
+  "mentions": [
+    "A159842",
+    "A187015",
+    "A401411"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

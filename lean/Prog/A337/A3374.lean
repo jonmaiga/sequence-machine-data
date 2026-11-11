@@ -29,7 +29,6 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
@@ -2330,20 +2329,20 @@ end
 
 end A337448.P17759950337674801592
 
-/-! ## A337448.P8678784746713532057
+/-! ## A337448.P16950458309856531288
 
-`A246080(A015702(n+1))%A318938(3*n+4)`
+`A366186(A335303(n+1))`
 -/
 
-namespace A337448.P8678784746713532057
+namespace A337448.P16950458309856531288
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A246080 (A015702 (n + 1)).toNat) (A318938 (3 * n + 4))
+  A366186 (A335303 (n + 1)).toNat
 
 end
 
-end A337448.P8678784746713532057
+end A337448.P16950458309856531288
 
 /-!
 # A337449: The numbers k for which Lucas(k) are Niven numbers.
@@ -2520,29 +2519,6 @@ namespace A337450
 /-- `(A198834(n+1)-A152061(n))/2` -/
 def P4781630462668208354.Spec : Prop :=
   ∀ n, P4781630462668208354.a n = (A337450 n : ℚ)
-
-end A337450
-
-/-! ## A337450.P6341006625225720905
-
-`(A198834(n+1)-A152061(n))*2^A008683(A063535(n))`
--/
-
-namespace A337450.P6341006625225720905
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A198834 (n + 1) - A152061 n : ℚ) * (2 : ℚ) ^ (A008683 (A063535 n).toNat : ℤ)
-
-end
-
-end A337450.P6341006625225720905
-
-namespace A337450
-
-/-- `(A198834(n+1)-A152061(n))*2^A008683(A063535(n))` -/
-def P6341006625225720905.Spec : Prop :=
-  ∀ n, P6341006625225720905.a n = (A337450 n : ℚ)
 
 end A337450
 

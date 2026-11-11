@@ -38,10 +38,9 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7892,21 +7891,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048090.P689603185777743388
-
-/-! ## A048090.P9666019365263968408
-
-`A004396(n)*A032741(A058932(n+1))`
--/
-
-namespace A048090.P9666019365263968408
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004396 n * A032741 (A058932 (n + 1)).toNat
-
-end
-
-end A048090.P9666019365263968408
 
 /-!
 # A048091: Number of nonempty subsets of {1,2,...,n} in which exactly 1/6 of the elements are <= (n+3)/3.

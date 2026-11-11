@@ -18,11 +18,11 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -64,6 +64,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -5999,24 +6000,6 @@ end
 
 end A254956.P5018083237679576011
 
-/-! ## A254956.P14381708379101544556
-
-`record[gcd(n+1, A087082(n+1))]`
--/
-
-namespace A254956.P14381708379101544556
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (n + 1 : ℤ) (A087082 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A254956.P14381708379101544556
-
 /-! ## A254956.P8377976079076305396
 
 `record[gcd(13, A291790(3*(n+1)))+n]`
@@ -6049,6 +6032,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A254956.P12042014691175962344
+
+/-! ## A254956.P7451288583520640680
+
+`A085516(A114800(n+1))`
+-/
+
+namespace A254956.P7451288583520640680
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085516 (A114800 (n + 1)).toNat
+
+end
+
+end A254956.P7451288583520640680
 
 /-!
 # A254957: Triangular numbers n with digits d_1, d_2, ..., d_k such that d_1*(d_1+1)/2 + ... + d_k*(d_k+1)/2 is a triangular number.
@@ -6876,6 +6874,29 @@ def P7725838471518098064.Spec : Prop :=
 
 end A254963
 
+/-! ## A254963.P2475247579669948446
+
+`C(n, 2)+n²+(2*n+1)*2*n`
+-/
+
+namespace A254963.P2475247579669948446
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose n 2 + n ^ 2 + (2 * n + 1) * (2 * n)
+
+end
+
+end A254963.P2475247579669948446
+
+namespace A254963
+
+/-- `C(n, 2)+n²+(2*n+1)*2*n` -/
+def P2475247579669948446.Spec : Prop :=
+  ∀ n, (P2475247579669948446.a n : ℤ) = A254963 n
+
+end A254963
+
 /-! ## A254963.P4791230402939639777
 
 `A022269(n)+n`
@@ -7178,32 +7199,6 @@ namespace A254963
 /-- `A022267(n)+n²+n` -/
 def P15153476693818197166.Spec : Prop :=
   ∀ n, P15153476693818197166.a n = A254963 n
-
-end A254963
-
-/-! ## A254963.P13956053020647771023
-
-`∑[A160912(n+1)+n-1]`
--/
-
-namespace A254963.P13956053020647771023
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160912 (n + 1) + ((n : ℤ) - 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A254963.P13956053020647771023
-
-namespace A254963
-
-/-- `∑[A160912(n+1)+n-1]` -/
-def P13956053020647771023.Spec : Prop :=
-  ∀ n, P13956053020647771023.a n = A254963 n
 
 end A254963
 
@@ -9369,6 +9364,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A254990.P2630290530306171229
+
+/-! ## A254990.P7588289859226158351
+
+`A400521(n+1)%A262029(n+1)`
+-/
+
+namespace A254990.P7588289859226158351
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A400521 (n + 1)) (A262029 (n + 1))
+
+end
+
+end A254990.P7588289859226158351
 
 /-!
 # A254991: Number of (n+2)X(1+2) 0..1 arrays with every 3X3 subblock sum of the two medians of the diagonal and antidiagonal minus the sum of the medians of the central row and column nondecreasing horizontally and vertically.

@@ -32,7 +32,7 @@ import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -50,7 +50,6 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
@@ -69,7 +68,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -4395,6 +4393,21 @@ end
 
 end A279345.P10495209426227174515
 
+/-! ## A279345.P4738821273367547831
+
+`A279346(A279342(A279343(n+1)))`
+-/
+
+namespace A279345.P4738821273367547831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279346 (A279342 (A279343 (n + 1)).toNat).toNat
+
+end
+
+end A279345.P4738821273367547831
+
 /-! ## A279345.P918979255464405254
 
 `A048881(A279341(n+1)+A279341(n+1))`
@@ -5280,20 +5293,20 @@ end
 
 end A279351.P8464065172317963346
 
-/-! ## A279351.P17337241830110631644
+/-! ## A279351.P750541277161526566
 
-`A249817(A331595(n+1)*A331598(n+1))`
+`A249817(A279352(A249817(n+1)))`
 -/
 
-namespace A279351.P17337241830110631644
+namespace A279351.P750541277161526566
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249817 (A331595 (n + 1) * A331598 (n + 1)).toNat
+  A249817 (A279352 (A249817 (n + 1)).toNat).toNat
 
 end
 
-end A279351.P17337241830110631644
+end A279351.P750541277161526566
 
 /-!
 # A279352: Permutation of natural numbers: a(n) = A122111(A249818(n)).
@@ -7217,27 +7230,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A279368.P12748375913535689696
-
-/-! ## A279368.P6381887348221811902
-
-`A151665(lt[A087275(3*n+1), A031461(n+3)])`
--/
-
-namespace A279368.P6381887348221811902
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087275 (3 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031461 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151665 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A279368.P6381887348221811902
 
 /-!
 # A279370: Numerators of coefficients in expansion of (cos(sqrt(x)))/(1 + cos(sqrt(x))).

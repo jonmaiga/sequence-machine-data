@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} 3^(k-1) * binomial(n+k,k) * a(n-k).",
+  "id": "A400303",
+  "mentions": [
+    "A400304",
+    "A401626",
+    "A401677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

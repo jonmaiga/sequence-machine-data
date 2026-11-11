@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of the Harary number for the path graph P_n.",
+  "description": "Numerator of twice the Harary index of the path graph P_n.",
   "id": "A160048",
   "mentions": [
     "A027612",

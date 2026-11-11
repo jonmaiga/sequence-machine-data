@@ -4321,55 +4321,63 @@ def P7694221334344196894.Spec : Prop :=
 
 end A291745
 
-/-! ## A291745.P12155943270432222460
+/-! ## A291745.P11468502315103316944
 
-`record[A005451(3*n+1)]`
+`∩[A026144(n+1), A171993(n+1)]`
 -/
 
-namespace A291745.P12155943270432222460
+namespace A291745.P11468502315103316944
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005451 (3 * n + 1)
+  A026144 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171993 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A291745.P12155943270432222460
+end A291745.P11468502315103316944
 
 namespace A291745
 
-/-- `record[A005451(3*n+1)]` -/
-def P12155943270432222460.Spec : Prop :=
-  ∀ n, P12155943270432222460.a n = A291745 (n + 1)
+/-- `∩[A026144(n+1), A171993(n+1)]` -/
+def P11468502315103316944.Spec : Prop :=
+  ∀ n, (P11468502315103316944.a n : ℤ) = A291745 (n + 1)
 
 end A291745
 
-/-! ## A291745.P18369849183038831177
+/-! ## A291745.P10566600211564867728
 
-`record[A191558(1+n*3)]`
+`∩[A026225(n+1), A171993(n+1)]`
 -/
 
-namespace A291745.P18369849183038831177
+namespace A291745.P10566600211564867728
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191558 (1 + n * 3)
+  A026225 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171993 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A291745.P18369849183038831177
+end A291745.P10566600211564867728
 
 namespace A291745
 
-/-- `record[A191558(1+n*3)]` -/
-def P18369849183038831177.Spec : Prop :=
-  ∀ n, P18369849183038831177.a n = A291745 (n + 1)
+/-- `∩[A026225(n+1), A171993(n+1)]` -/
+def P10566600211564867728.Spec : Prop :=
+  ∀ n, (P10566600211564867728.a n : ℤ) = A291745 (n + 1)
 
 end A291745
 
@@ -4947,7 +4955,7 @@ end
 end A291749.P7128312494501477402
 
 /-!
-# A291750: Compound filter: a(n) = P(A003557(n), A048250(n)), where P(n,k) is sequence A000027 used as a pairing function.
+# A291750: a(n) = (1/2)*(2 + ((A003557(n) + A048250(n))^2) - A003557(n) - 3*A048250(n)), where A003557(n) = n divided by largest squarefree divisor of n, and A048250(n) = sum of the squarefree divisors of n.
 
 The programs for A291750, the canonical program `A291750.P5209050474501545968` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291750 has offset 1).
 

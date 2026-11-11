@@ -40,7 +40,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C014
@@ -376,23 +375,20 @@ end A396624.P17298197259642212616
 The programs for A396625, there is no canonical definition to state claims against.
 -/
 
-/-! ## A396625.P15824915426354119008
+/-! ## A396625.P1069140608324115180
 
-`A397493(floor(sqrt(∑[n])^n))`
+`A325234(a(n-1))-1` with `a(0)=1, a(1)=1`
 -/
 
-namespace A396625.P15824915426354119008
+namespace A396625.P1069140608324115180
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397493 ⌊Real.sqrt ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ) ^ n⌋.toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A325234 (a (n - 1)).toNat - 1
 
 end
 
-end A396625.P15824915426354119008
+end A396625.P1069140608324115180
 
 /-!
 # A396630: Number of fixed-content bracelets of length n, summed over all integer partitions of n, that are different from their mirror image and have no nontrivial rotational symmetry.
@@ -3250,26 +3246,49 @@ def P8483829352425098801.Spec : Prop :=
 
 end A396686
 
-/-! ## A396686.P1837224672075724749
+/-! ## A396686.P13194540888665395239
 
-`A121663(A053644((n+1)²))`
+`max(A329202(2*n+1), A329202(2*(n+1)))`
 -/
 
-namespace A396686.P1837224672075724749
+namespace A396686.P13194540888665395239
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121663 (A053644 ((n + 1) ^ 2)).toNat
+  max (A329202 (2 * n + 1)) (A329202 (2 * (n + 1)))
 
 end
 
-end A396686.P1837224672075724749
+end A396686.P13194540888665395239
 
 namespace A396686
 
-/-- `A121663(A053644((n+1)²))` -/
-def P1837224672075724749.Spec : Prop :=
-  ∀ n, P1837224672075724749.a n = A396686 (n + 1)
+/-- `max(A329202(2*n+1), A329202(2*(n+1)))` -/
+def P13194540888665395239.Spec : Prop :=
+  ∀ n, P13194540888665395239.a n = A396686 (n + 1)
+
+end A396686
+
+/-! ## A396686.P815930095520448587
+
+`min(A329202(2*(n+1)), A329202(2*n+3))`
+-/
+
+namespace A396686.P815930095520448587
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  min (A329202 (2 * (n + 1))) (A329202 (2 * n + 3))
+
+end
+
+end A396686.P815930095520448587
+
+namespace A396686
+
+/-- `min(A329202(2*(n+1)), A329202(2*n+3))` -/
+def P815930095520448587.Spec : Prop :=
+  ∀ n, P815930095520448587.a n = A396686 (n + 1)
 
 end A396686
 

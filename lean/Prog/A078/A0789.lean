@@ -7083,6 +7083,29 @@ def P8687876851942087094.Spec : Prop :=
 
 end A078944
 
+/-! ## A078944.P1774603532866354500
+
+`A068200(n+2)/6`
+-/
+
+namespace A078944.P1774603532866354500
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A068200 (n + 2) : ℚ) / 6
+
+end
+
+end A078944.P1774603532866354500
+
+namespace A078944
+
+/-- `A068200(n+2)/6` -/
+def P1774603532866354500.Spec : Prop :=
+  ∀ n, P1774603532866354500.a n = (A078944 n : ℚ)
+
+end A078944
+
 /-!
 # A078945: Row sums of A078939.
 

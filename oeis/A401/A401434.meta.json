@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 3*(p-1)^2 + 1, where p is prime.",
+  "id": "A401434",
+  "mentions": [
+    "A002648",
+    "A400684",
+    "A400920"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

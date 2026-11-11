@@ -51,6 +51,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -1846,26 +1847,26 @@ def P6104285260911358519.Spec : Prop :=
 
 end A394426
 
-/-! ## A394426.P12542751483778879931
+/-! ## A394426.P10496815285367350603
 
-`gcd(A353834(n+1)+3, A124389(n))`
+`gcd(A024735(n+1), A206943(n+1))`
 -/
 
-namespace A394426.P12542751483778879931
+namespace A394426.P10496815285367350603
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A353834 (n + 1) + 3) (A124389 n)
+  Int.gcd (A024735 (n + 1)) (A206943 (n + 1))
 
 end
 
-end A394426.P12542751483778879931
+end A394426.P10496815285367350603
 
 namespace A394426
 
-/-- `gcd(A353834(n+1)+3, A124389(n))` -/
-def P12542751483778879931.Spec : Prop :=
-  ∀ n, (P12542751483778879931.a n : ℤ) = A394426 (n + 1)
+/-- `gcd(A024735(n+1), A206943(n+1))` -/
+def P10496815285367350603.Spec : Prop :=
+  ∀ n, (P10496815285367350603.a n : ℤ) = A394426 (n + 1)
 
 end A394426
 
@@ -4500,6 +4501,29 @@ namespace A394499
 /-- `A005893(n)-log2(gcd(2, n))` -/
 def P8091478946388982362.Spec : Prop :=
   ∀ n, P8091478946388982362.a n = (A394499 (n + 1) : ℝ)
+
+end A394499
+
+/-! ## A394499.P10955893511051423858
+
+`A005893(n)-A059841(n)`
+-/
+
+namespace A394499.P10955893511051423858
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005893 n - A059841 n
+
+end
+
+end A394499.P10955893511051423858
+
+namespace A394499
+
+/-- `A005893(n)-A059841(n)` -/
+def P10955893511051423858.Spec : Prop :=
+  ∀ n, P10955893511051423858.a n = A394499 (n + 1)
 
 end A394499
 

@@ -6521,50 +6521,20 @@ end
 
 end A283069.P17092207046061082189
 
-/-! ## A283069.P11222353163441318672
+/-! ## A283069.P12065419015487561833
 
-`A032742(A032742(A283050(n+1)%A002144(n+1)))`
+`A032742(A032742(A283050(n+1)))`
 -/
 
-namespace A283069.P11222353163441318672
+namespace A283069.P12065419015487561833
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A032742 (Int.tmod (A283050 (n + 1)) (A002144 (n + 1))).toNat).toNat
+  A032742 (A032742 (A283050 (n + 1)).toNat).toNat
 
 end
 
-end A283069.P11222353163441318672
-
-/-! ## A283069.P495604388241378925
-
-`A032742(A032742(A283050(n+1))%A002145(n+1))`
--/
-
-namespace A283069.P495604388241378925
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (Int.tmod (A032742 (A283050 (n + 1)).toNat) (A002145 (n + 1))).toNat
-
-end
-
-end A283069.P495604388241378925
-
-/-! ## A283069.P2946601094984800125
-
-`A032742(A032742(A283050(n+1)))%A038179(n+1)`
--/
-
-namespace A283069.P2946601094984800125
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A032742 (A032742 (A283050 (n + 1)).toNat).toNat) (A038179 (n + 1))
-
-end
-
-end A283069.P2946601094984800125
+end A283069.P12065419015487561833
 
 /-!
 # A283070: Sierpinski tetrahedron or tetrix numbers: a(n) = 2*4^n + 2.

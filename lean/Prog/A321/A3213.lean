@@ -29,10 +29,10 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C039
@@ -6656,6 +6656,29 @@ def P17345344697800026195.Spec : Prop :=
 
 end A321371
 
+/-! ## A321371.P9738058718157410846
+
+`A184657(A001962(n+1))+n+1`
+-/
+
+namespace A321371.P9738058718157410846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184657 (A001962 (n + 1)).toNat + (n + 1 : ℤ)
+
+end
+
+end A321371.P9738058718157410846
+
+namespace A321371
+
+/-- `A184657(A001962(n+1))+n+1` -/
+def P9738058718157410846.Spec : Prop :=
+  ∀ n, P9738058718157410846.a n = A321371 (n + 1)
+
+end A321371
+
 /-!
 # A321372: n + [n*r/t] + [n*s/t], where r = 1, s = cos(2*Pi/5), t = sec(2*Pi/5).
 
@@ -8105,6 +8128,21 @@ end A321390.P13543772975351136073
 The programs for A321391, there is no canonical definition to state claims against.
 -/
 
+/-! ## A321391.P7190711828642997109
+
+`(row(n)-col(n))^ceil(col(n)/2)`
+-/
+
+namespace A321391.P7190711828642997109
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ) ^ (⌈(SequenceMachineLib.triCol n : ℚ) / 2⌉ : ℤ)
+
+end
+
+end A321391.P7190711828642997109
+
 /-! ## A321391.P12755829737272379000
 
 `(row(n)-col(n))^round(col(n)/2)`
@@ -8256,38 +8294,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A321391.P16164878783396688805
-
-/-! ## A321391.P2393467480557362272
-
-`(C(comp[∑[n]]-n, 2)-(n+1))^A110654(n-C(∑[char[∑[n]]], 2))`
--/
-
-namespace A321391.P2393467480557362272
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f5 j
-
-open Classical in
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f4 j = n then 1 else 0
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((Nat.choose ((SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℤ) - (n : ℤ)).toNat 2 : ℤ) - (n + 1 : ℤ) : ℚ) ^ (A110654 (n - Nat.choose (∑ j ∈ Finset.range (n + 1), f3 j) 2) : ℤ)
-
-end
-
-end A321391.P2393467480557362272
 
 /-!
 # A321392: a(n) is the number of bases b > 1 such that prime(n) + digitsum(prime(n), base b) is prime (where prime(n) denotes the n-th prime number).

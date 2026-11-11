@@ -6,6 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C013
@@ -2182,26 +2183,26 @@ def P754030292117321953.Spec : Prop :=
 
 end A398929
 
-/-! ## A398929.P3539232271587412412
+/-! ## A398929.P14490687073718400962
 
-`A087483(n)+A014601(n+1)-A087483(n+1)`
+`A042968(n+2)-A166486(2*n)`
 -/
 
-namespace A398929.P3539232271587412412
+namespace A398929.P14490687073718400962
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087483 n + A014601 (n + 1) - A087483 (n + 1)
+  A042968 (n + 2) - A166486 (2 * n)
 
 end
 
-end A398929.P3539232271587412412
+end A398929.P14490687073718400962
 
 namespace A398929
 
-/-- `A087483(n)+A014601(n+1)-A087483(n+1)` -/
-def P3539232271587412412.Spec : Prop :=
-  ∀ n, P3539232271587412412.a n = A398929 (n + 1)
+/-- `A042968(n+2)-A166486(2*n)` -/
+def P14490687073718400962.Spec : Prop :=
+  ∀ n, P14490687073718400962.a n = A398929 (n + 1)
 
 end A398929
 
@@ -4414,7 +4415,7 @@ end
 end A398979.P4580097281987261936
 
 /-!
-# A398981: a(n) is the number k such that 2*(k*n+v) = Sum_{d|n} (k*d+v), where k and v are coprime and not both are 0.
+# A398981: a(n) is the number k such that 2*(k*n+v) = Sum_{d|n} (k*d+v), where k and v are coprime, not both are 0 and k*n+v>=0.
 
 The programs for A398981, the canonical program `A398981.P1881830709133702135` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398981 has offset 1).
 
@@ -4535,7 +4536,7 @@ def P18218799209508161085.Spec : Prop :=
 end A398981
 
 /-!
-# A398982: a(n) is the number k such that 2*(u*n+k) = Sum_{d|n} (u*d+k), where u and k are coprime and not both are 0.
+# A398982: a(n) is the number k such that 2*(u*n+k) = Sum_{d|n} (u*d+k), where u and k are coprime not both are 0, and u*n+k >= 0.
 
 The programs for A398982, the canonical program `A398982.P10718508914280456224` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398982 has offset 1).
 

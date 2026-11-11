@@ -30,7 +30,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C023
 
 /-!

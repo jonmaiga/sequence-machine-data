@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct multisets {k_1, ..., k_r}, 3 <= k_i <= n, such that some n-set has subsets of sizes k_1, ..., k_r with any two of them sharing at most one element.",
+  "id": "A400149",
+  "mentions": [
+    "A001200",
+    "A072964",
+    "A399464",
+    "A399605"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

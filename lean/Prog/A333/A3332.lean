@@ -32,6 +32,7 @@ import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -3517,6 +3518,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333227.P1379104248285708372
+
+/-! ## A333227.P5999831919971109951
+
+`filter[A335235(n+1), A267579(#)]`
+-/
+
+namespace A333227.P5999831919971109951
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335235 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
+
+end
+
+end A333227.P5999831919971109951
 
 /-!
 # A333228: Numbers k such that the distinct parts of the k-th composition in standard order (A066099) are pairwise coprime, where a singleton is not considered coprime unless it is (1).
@@ -8861,6 +8880,24 @@ end A333262.P15854177981695538162
 
 The programs for A333264, there is no canonical definition to state claims against.
 -/
+
+/-! ## A333264.P17082777057973045275
+
+`fo[A330786(n+1)]+1`
+-/
+
+namespace A333264.P17082777057973045275
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330786 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = (n : ℤ)) 0 + 1
+
+end
+
+end A333264.P17082777057973045275
 
 /-! ## A333264.P2789241098870418511
 

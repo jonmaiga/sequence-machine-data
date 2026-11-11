@@ -756,26 +756,25 @@ end A382511
 /-!
 # A382513: Expansion of Sum_{p prime} p * x^p / (1 - p * x^p).
 
-The programs for A382513, there is no canonical definition to state claims against.
+The programs for A382513, the canonical program `A382513.P1750860363223556493` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382513 has offset 1).
+
+The definition of A382513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A382513.P1750860363223556493
 
 `∑{p}[n+1, #^ceil(n/#)]`
+
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
-namespace A382513.P1750860363223556493
-noncomputable section
+namespace A382513
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{p}[n+1, #^ceil(n/#)]` -/
+def P1750860363223556493.Spec : Prop :=
+  ∀ n, P1750860363223556493.a n = (A382513 (n + 1) : ℚ)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), (p : ℚ) ^ (⌈(n : ℚ) / (p : ℚ)⌉ : ℤ)
-
-end
-
-end A382513.P1750860363223556493
+end A382513
 
 /-! ## A382513.P13870435045759881409
 
@@ -795,6 +794,14 @@ end
 
 end A382513.P13870435045759881409
 
+namespace A382513
+
+/-- `floor(∑{p}[n+1, #^((n+1)/#)])` -/
+def P13870435045759881409.Spec : Prop :=
+  ∀ n, P13870435045759881409.a n = A382513 (n + 1)
+
+end A382513
+
 /-! ## A382513.P2636542497263769082
 
 `round(∑{p}[n+1, #^((n+1)/#)])`
@@ -813,6 +820,14 @@ end
 
 end A382513.P2636542497263769082
 
+namespace A382513
+
+/-- `round(∑{p}[n+1, #^((n+1)/#)])` -/
+def P2636542497263769082.Spec : Prop :=
+  ∀ n, P2636542497263769082.a n = A382513 (n + 1)
+
+end A382513
+
 /-! ## A382513.P5231852789610371782
 
 `A008475(A374431(n+1))`
@@ -827,6 +842,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382513.P5231852789610371782
+
+namespace A382513
+
+/-- `A008475(A374431(n+1))` -/
+def P5231852789610371782.Spec : Prop :=
+  ∀ n, P5231852789610371782.a n = A382513 (n + 1)
+
+end A382513
 
 /-!
 # A382514: Expansion of 1/(1 - x/(1 - 4*x)^(3/2)).

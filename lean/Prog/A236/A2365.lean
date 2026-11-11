@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -55,7 +56,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -1845,6 +1846,21 @@ end
 
 end A236524.P15648483262954341959
 
+/-! ## A236524.P15374777771798927174
+
+`A350313(A174242(n+1))`
+-/
+
+namespace A236524.P15374777771798927174
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350313 (A174242 (n + 1)).toNat
+
+end
+
+end A236524.P15374777771798927174
+
 /-!
 # A236525: Number of simple non-bipartite graphs on n nodes.
 
@@ -1989,6 +2005,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236526.P3231666443346622494
+
+/-! ## A236526.P9424392266204871736
+
+`A008585(A371029(n+1))`
+-/
+
+namespace A236526.P9424392266204871736
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008585 (A371029 (n + 1)).toNat
+
+end
+
+end A236526.P9424392266204871736
 
 /-! ## A236526.P9213758187102512767
 
@@ -3296,6 +3327,29 @@ namespace A236538
 /-- `(row(n)+2)*2^(row(n)-1)+col(n)*2^row(n)` -/
 def P1681024587195576123.Spec : Prop :=
   ∀ n, P1681024587195576123.a n = (A236538 (n + 1) : ℚ)
+
+end A236538
+
+/-! ## A236538.P3650337616913820892
+
+`2^(row(n)-1)*(2*(col(n)+1)+row(n))`
+-/
+
+namespace A236538.P3650337616913820892
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - 1 : ℤ) * (2 * (SequenceMachineLib.triCol n + 1) + SequenceMachineLib.triRow n : ℚ)
+
+end
+
+end A236538.P3650337616913820892
+
+namespace A236538
+
+/-- `2^(row(n)-1)*(2*(col(n)+1)+row(n))` -/
+def P3650337616913820892.Spec : Prop :=
+  ∀ n, P3650337616913820892.a n = (A236538 (n + 1) : ℚ)
 
 end A236538
 

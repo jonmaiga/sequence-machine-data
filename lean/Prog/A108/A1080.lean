@@ -2241,7 +2241,7 @@ def P6557906007600230206.Spec : Prop :=
 end A108032
 
 /-!
-# A108033: n!*(3*n^2-13*n+14)/6.
+# A108033: a(n) = n!*(3*n^2 - 13*n + 14)/6.
 
 The programs for A108033, the canonical program `A108033.P5139287918288322434` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108033 has offset 2).
 
@@ -3268,6 +3268,29 @@ namespace A108036
 /-- `A108037(n%A015117(n))` -/
 def P3516240163367233578.Spec : Prop :=
   ∀ n, P3516240163367233578.a n = A108036 n
+
+end A108036
+
+/-! ## A108036.P16461684664289211997
+
+`A108037(n)%A015118(n)`
+-/
+
+namespace A108036.P16461684664289211997
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A108037 n) (A015118 n)
+
+end
+
+end A108036.P16461684664289211997
+
+namespace A108036
+
+/-- `A108037(n)%A015118(n)` -/
+def P16461684664289211997.Spec : Prop :=
+  ∀ n, P16461684664289211997.a n = A108036 n
 
 end A108036
 
@@ -6208,28 +6231,25 @@ def P17578381832037806898.Spec : Prop :=
 end A108051
 
 /-!
-# A108054: Integers k such that 10^k+49 is prime.
+# A108053: Maximum number of diagonals of a regular n-gon that meet at a non-center point.
 
-The programs for A108054, there is no canonical definition to state claims against.
+The programs for A108053, there is no canonical definition to state claims against.
 -/
 
-/-! ## A108054.P14580792664544347377
+/-! ## A108053.P2184688607278775729
 
-`record[and(A097434(n+1), A303719(n+1))]`
+`A023568(A082045(n))`
 -/
 
-namespace A108054.P14580792664544347377
+namespace A108053.P2184688607278775729
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A097434 (n + 1)) (A303719 (n + 1))
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A023568 (A082045 n).toNat
 
 end
 
-end A108054.P14580792664544347377
+end A108053.P2184688607278775729
 
 /-!
 # A108056: Numbers of the form (7^i)*(13^j).
@@ -6402,7 +6422,7 @@ end
 end A108060.P9218787254134146940
 
 /-!
-# A108062: Numbers k such that 2^(2k-1) + 2^k + 1 is prime.
+# A108062: Numbers k such that 2^(2*k-1) + 2^k + 1 is prime.
 
 The programs for A108062, there is no canonical definition to state claims against.
 -/
@@ -6421,6 +6441,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A108062.P3651042267399440990
+
+/-! ## A108062.P9244313560444618017
+
+`(A007671(n+1)+1)/2`
+-/
+
+namespace A108062.P9244313560444618017
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A007671 (n + 1) + 1 : ℚ) / 2
+
+end
+
+end A108062.P9244313560444618017
 
 /-! ## A108062.P4597049583290491147
 
@@ -6451,36 +6486,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A108062.P14369814490593527497
-
-/-! ## A108062.P7550736437354587427
-
-`floor((A348940(n+1)+A007671(n+1))/2)`
--/
-
-namespace A108062.P7550736437354587427
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A348940 (n + 1) + A007671 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A108062.P7550736437354587427
-
-/-! ## A108062.P16232348256849676164
-
-`A000034(2*n)+floor(A007671(n+1)/2)`
--/
-
-namespace A108062.P16232348256849676164
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (2 * n) + ⌊(A007671 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A108062.P16232348256849676164
 
 /-!
 # A108063: Triangle, read by rows, where T(n,k) = A006498(n+1) - A106408(n,k). A006498 are the central numbers of A106408.

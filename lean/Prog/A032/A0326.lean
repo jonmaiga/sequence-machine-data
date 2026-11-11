@@ -51,7 +51,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5747,6 +5747,42 @@ end
 
 end A032630.P1723028851301453011
 
+/-! ## A032630.P13628709128896479820
+
+`filter[A032612(n+1), A010051(#)]`
+-/
+
+namespace A032630.P13628709128896479820
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032612 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A032630.P13628709128896479820
+
+/-! ## A032630.P6648860824525676966
+
+`filter[A032612(n+1), A080339(#)]`
+-/
+
+namespace A032630.P6648860824525676966
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032612 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A080339 (f1 j).toNat = 1) n)
+
+end
+
+end A032630.P6648860824525676966
+
 /-!
 # A032631: Primes that are concatenations of n with n + 8.
 
@@ -8315,6 +8351,24 @@ end
 
 end A032654.P4792351663764984589
 
+/-! ## A032654.P17752611762042462711
+
+`filter[A032609(n+1), A145649(#)]`
+-/
+
+namespace A032654.P17752611762042462711
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032609 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A145649 (f1 j).toNat = 1) n)
+
+end
+
+end A032654.P17752611762042462711
+
 /-!
 # A032655: Lucky numbers that are decimal concatenations of n with n + 5.
 
@@ -8435,6 +8489,24 @@ end
 
 end A032656.P10543368095508970469
 
+/-! ## A032656.P13610893024042232476
+
+`filter[A032611(n+1), A145649(#)]`
+-/
+
+namespace A032656.P13610893024042232476
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032611 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A145649 (f1 j).toNat = 1) n)
+
+end
+
+end A032656.P13610893024042232476
+
 /-!
 # A032657: Lucky numbers that are decimal concatenations of n with n + 7.
 
@@ -8470,6 +8542,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032657.P12459108338243730895
+
+/-! ## A032657.P1390444291124065225
+
+`filter[A032612(n+1), A145649(#)]`
+-/
+
+namespace A032657.P1390444291124065225
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032612 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A145649 (f1 j).toNat = 1) n)
+
+end
+
+end A032657.P1390444291124065225
 
 /-!
 # A032658: Lucky numbers that are decimal concatenations of n with n + 8.

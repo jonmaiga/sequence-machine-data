@@ -2666,6 +2666,29 @@ def P3992841086917465373.Spec : Prop :=
 
 end A334628
 
+/-! ## A334628.P6382337520647460319
+
+`A038572(A057789(n+1))`
+-/
+
+namespace A334628.P6382337520647460319
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038572 (A057789 (n + 1)).toNat
+
+end
+
+end A334628.P6382337520647460319
+
+namespace A334628
+
+/-- `A038572(A057789(n+1))` -/
+def P6382337520647460319.Spec : Prop :=
+  ∀ n, P6382337520647460319.a n = A334628 (n + 1)
+
+end A334628
+
 /-!
 # A334629: Smallest number that can be obtained by starting with 1 and applying "Choix de Bruxelles (version 2)" (see A323460) n times without backtracking or repeating.
 

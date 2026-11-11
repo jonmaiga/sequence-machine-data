@@ -7704,21 +7704,6 @@ end A338695
 The programs for A338697, there is no canonical definition to state claims against.
 -/
 
-/-! ## A338697.P13304099208630382185
-
-`A034936(A087052(n!))`
--/
-
-namespace A338697.P13304099208630382185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034936 (A087052 (Nat.factorial n)).toNat
-
-end
-
-end A338697.P13304099208630382185
-
 /-! ## A338697.P3122336110821300314
 
 `A249876(A020658(n!))`

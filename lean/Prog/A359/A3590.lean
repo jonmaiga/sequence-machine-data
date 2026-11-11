@@ -23,6 +23,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
@@ -2617,6 +2618,29 @@ def P1119749372003197077.Spec : Prop :=
 
 end A359039
 
+/-! ## A359039.P8507376344566481848
+
+`2^floor(n/2)*ceil(n/2)!`
+-/
+
+namespace A359039.P8507376344566481848
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ) * (Nat.factorial ⌈(n : ℚ) / 2⌉.toNat : ℚ)
+
+end
+
+end A359039.P8507376344566481848
+
+namespace A359039
+
+/-- `2^floor(n/2)*ceil(n/2)!` -/
+def P8507376344566481848.Spec : Prop :=
+  ∀ n, P8507376344566481848.a n = (A359039 n : ℚ)
+
+end A359039
+
 /-! ## A359039.P14677577979631854148
 
 `a(n-2)*∑[2*and(1, n)]` with `a(0)=1, a(1)=1`
@@ -2938,35 +2962,6 @@ namespace A359039
 /-- `∏[runs[A134315(n+3)]]` -/
 def P13112078646392670898.Spec : Prop :=
   ∀ n, (P13112078646392670898.a n : ℤ) = A359039 n
-
-end A359039
-
-/-! ## A359039.P5142787313151351006
-
-`∏[runs[A154221(n+3)]]`
--/
-
-namespace A359039.P5142787313151351006
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154221 (n + 3)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) (n + 1) - SequenceMachineLib.nth (fun j => j = 0 ∨ f2 j ≠ f2 (j - 1)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A359039.P5142787313151351006
-
-namespace A359039
-
-/-- `∏[runs[A154221(n+3)]]` -/
-def P5142787313151351006.Spec : Prop :=
-  ∀ n, (P5142787313151351006.a n : ℤ) = A359039 n
 
 end A359039
 
@@ -4686,27 +4681,6 @@ def P4396115001890624241.Spec : Prop :=
 end A359066
 
 /-!
-# A359067: a(2*n) = Sum_{k=0..n-1} binomial(2*n,k) binomial(2*n-1-k, n-1-k). a(2*n+1) = (Sum_{k=0..n} binomial(2*n+1,k) binomial(2*n-k, n-k)) - binomial(2*n-1, n).
-
-The programs for A359067, there is no canonical definition to state claims against.
--/
-
-/-! ## A359067.P2239210542568677581
-
-`A087052(A000081(n+2))-A353846(n+4)`
--/
-
-namespace A359067.P2239210542568677581
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087052 (A000081 (n + 2)).toNat - A353846 (n + 4)
-
-end
-
-end A359067.P2239210542568677581
-
-/-!
 # A359068: Number of 1-sided strip polyominoes with n cells.
 
 The programs for A359068, there is no canonical definition to state claims against.
@@ -5208,6 +5182,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A359080.P10191511498017657036
+
+/-! ## A359080.P11156037778875683079
+
+`∩[A102553(n+1), A382856(n+1)]`
+-/
+
+namespace A359080.P11156037778875683079
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102553 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382856 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359080.P11156037778875683079
 
 /-!
 # A359081: a(n) is the least number k such that A246600(k) = n, and -1 if no such k exists.

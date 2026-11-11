@@ -43,9 +43,9 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
@@ -3882,20 +3882,20 @@ end
 
 end A357397.P12657667457913479358
 
-/-! ## A357397.P17649528873661143373
+/-! ## A357397.P13988023122330534631
 
-`A141691(A026938(n))`
+`A347662(A305577(n))`
 -/
 
-namespace A357397.P17649528873661143373
+namespace A357397.P13988023122330534631
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141691 (A026938 n).toNat
+  A347662 (A305577 n).toNat
 
 end
 
-end A357397.P17649528873661143373
+end A357397.P13988023122330534631
 
 /-!
 # A357398: a(n) = coefficient of x^n/n!, n >= 0, in A(x) such that: 0 = Sum_{n>=1} exp(-n^2*x) * (exp(n*x) - A(x))^n.

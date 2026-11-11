@@ -20,6 +20,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
@@ -31,10 +32,12 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -8914,6 +8917,52 @@ def P7836213437758158402.Spec : Prop :=
 
 end A120529
 
+/-! ## A120529.P16251832082704241901
+
+`A278129(n)%A091799(n+1)`
+-/
+
+namespace A120529.P16251832082704241901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A278129 n) (A091799 (n + 1))
+
+end
+
+end A120529.P16251832082704241901
+
+namespace A120529
+
+/-- `A278129(n)%A091799(n+1)` -/
+def P16251832082704241901.Spec : Prop :=
+  ∀ n, P16251832082704241901.a n = A120529 (n + 1)
+
+end A120529
+
+/-! ## A120529.P13229154576186538292
+
+`A278122(n+1)%A091799(n+1)`
+-/
+
+namespace A120529.P13229154576186538292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A278122 (n + 1)) (A091799 (n + 1))
+
+end
+
+end A120529.P13229154576186538292
+
+namespace A120529
+
+/-- `A278122(n+1)%A091799(n+1)` -/
+def P13229154576186538292.Spec : Prop :=
+  ∀ n, P13229154576186538292.a n = A120529 (n + 1)
+
+end A120529
+
 /-!
 # A120530: First differences of successive generalized meta-Fibonacci numbers A120508.
 
@@ -13142,6 +13191,29 @@ def P11739059308142416096.Spec : Prop :=
 
 end A120580
 
+/-! ## A120580.P15435533591530863197
+
+`A057078(n)*A122803(n)`
+-/
+
+namespace A120580.P15435533591530863197
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057078 n * A122803 n
+
+end
+
+end A120580.P15435533591530863197
+
+namespace A120580
+
+/-- `A057078(n)*A122803(n)` -/
+def P15435533591530863197.Spec : Prop :=
+  ∀ n, P15435533591530863197.a n = A120580 n
+
+end A120580
+
 /-! ## A120580.P7780762395617435216
 
 `∑[A163810(n)]*A000079(n)`
@@ -13168,49 +13240,26 @@ def P7780762395617435216.Spec : Prop :=
 
 end A120580
 
-/-! ## A120580.P3001267343158624854
+/-! ## A120580.P13414981971606967868
 
-`A090129(n+1)*A109265(n)`
+`A000079(n)*A010892(n+1)`
 -/
 
-namespace A120580.P3001267343158624854
+namespace A120580.P13414981971606967868
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090129 (n + 1) * A109265 n
+  A000079 n * A010892 (n + 1)
 
 end
 
-end A120580.P3001267343158624854
+end A120580.P13414981971606967868
 
 namespace A120580
 
-/-- `A090129(n+1)*A109265(n)` -/
-def P3001267343158624854.Spec : Prop :=
-  ∀ n, P3001267343158624854.a n = A120580 n
-
-end A120580
-
-/-! ## A120580.P11660667429910183365
-
-`A088138(n+2)/2`
--/
-
-namespace A120580.P11660667429910183365
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A088138 (n + 2) : ℚ) / 2
-
-end
-
-end A120580.P11660667429910183365
-
-namespace A120580
-
-/-- `A088138(n+2)/2` -/
-def P11660667429910183365.Spec : Prop :=
-  ∀ n, P11660667429910183365.a n = (A120580 n : ℚ)
+/-- `A000079(n)*A010892(n+1)` -/
+def P13414981971606967868.Spec : Prop :=
+  ∀ n, P13414981971606967868.a n = A120580 n
 
 end A120580
 

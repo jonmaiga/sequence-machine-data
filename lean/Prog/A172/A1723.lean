@@ -16,15 +16,16 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
@@ -5299,20 +5300,20 @@ end
 
 end A172346.P59049664485058173
 
-/-! ## A172346.P84467819321083162
+/-! ## A172346.P6314311465508122158
 
-`xor(3, A071585(A022185(n)))`
+`A401412(A147295(n))`
 -/
 
-namespace A172346.P84467819321083162
+namespace A172346.P6314311465508122158
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor 3 (A071585 (A022185 n).toNat)
+  A401412 (A147295 n).toNat
 
 end
 
-end A172346.P84467819321083162
+end A172346.P6314311465508122158
 
 /-!
 # A172348: Index k of the semiprime A001358(k) = prime(n) * prime(n+1).

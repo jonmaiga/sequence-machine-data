@@ -20,7 +20,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -6734,7 +6733,7 @@ end A271182
 /-!
 # A271183: Löschian numbers (A003136) k such that k + 1 is also Löschian number.
 
-The programs for A271183, the canonical program `A271183.P13519153737086807592` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271183 has offset 1).
+The programs for A271183, the canonical program `A271183.P13519153737086807592` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271183 has offset 1).
 
 The definition of A271183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6743,7 +6742,7 @@ The definition of A271183 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A353816(A353816(n)+n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271183
@@ -7348,7 +7347,7 @@ end A271186.P11828967166089128996
 /-!
 # A271187: Triangle T(n,k) read by rows: T(n,k) is the squarefree part of C(n,k).
 
-The programs for A271187, the canonical program `A271187.P2014690052428888649` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271187 has offset 0).
+The programs for A271187, the canonical program `A271187.P2014690052428888649` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271187 has offset 0).
 
 The definition of A271187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7380,7 +7379,7 @@ end A271187
 
 `A007913(A007318(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A271187

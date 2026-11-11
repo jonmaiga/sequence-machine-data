@@ -20,6 +20,7 @@ import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -4018,21 +4019,6 @@ end
 
 end A353967.P17926098705082662417
 
-/-! ## A353967.P16033395523142818195
-
-`A376991(gcd(n, A376991(n+4)))`
--/
-
-namespace A353967.P16033395523142818195
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376991 (Int.gcd (n : ℤ) (A376991 (n + 4)))
-
-end
-
-end A353967.P16033395523142818195
-
 /-! ## A353967.P5707792459135845238
 
 `and(A091094(∑{d}[n+1, #]), A219202(n))`
@@ -4050,6 +4036,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A353967.P5707792459135845238
+
+/-! ## A353967.P11899953573117636537
+
+`A268726(A068149(n+2))`
+-/
+
+namespace A353967.P11899953573117636537
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268726 (A068149 (n + 2)).toNat
+
+end
+
+end A353967.P11899953573117636537
 
 /-!
 # A353968: Numbers that are not the sum of distinct terms of A353966.

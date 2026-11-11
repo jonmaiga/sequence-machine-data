@@ -47,7 +47,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C005
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -4286,20 +4285,20 @@ end
 
 end A390091.P11917856931454901346
 
-/-! ## A390091.P6548738615248303946
+/-! ## A390091.P14553169379277805502
 
-`A337582(n+1)+A007814(A337562(n))`
+`and(A337582(n+1), A387418(n+1))`
 -/
 
-namespace A390091.P6548738615248303946
+namespace A390091.P14553169379277805502
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337582 (n + 1) + A007814 (A337562 n).toNat
+  Int.land (A337582 (n + 1)) (A387418 (n + 1))
 
 end
 
-end A390091.P6548738615248303946
+end A390091.P14553169379277805502
 
 /-!
 # A390092: Number of integer partitions of n such that the least part plus the greatest part is odd.
@@ -5225,6 +5224,29 @@ def P13697926632670634146.Spec : Prop :=
 theorem P13697926632670634146.correct : P13697926632670634146.Spec := by
   intro n
   simp only [A390099, Nat.add_sub_cancel]
+
+end A390099
+
+/-! ## A390099.P16131725653549557312
+
+`A008864(A066940(n+2))/2`
+-/
+
+namespace A390099.P16131725653549557312
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A008864 (A066940 (n + 2)).toNat : ℚ) / 2
+
+end
+
+end A390099.P16131725653549557312
+
+namespace A390099
+
+/-- `A008864(A066940(n+2))/2` -/
+def P16131725653549557312.Spec : Prop :=
+  ∀ n, P16131725653549557312.a n = (A390099 (n + 1) : ℚ)
 
 end A390099
 

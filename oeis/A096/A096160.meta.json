@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose proper divisors can be arranged in such a way that all sums of adjacent pairs are primes.",
+  "description": "Composite numbers whose proper divisors can be arranged in such a way that all sums of adjacent pairs are primes.",
   "id": "A096160",
   "mentions": [
+    "A001359",
+    "A002808",
     "A096157",
     "A096158"
   ],
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

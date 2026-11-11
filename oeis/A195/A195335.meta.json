@@ -2,7 +2,8 @@
   "description": "a(n) is the smallest Xmas tree prime with a(n-1) as a prefix (starting with 2).",
   "id": "A195335",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A195302"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

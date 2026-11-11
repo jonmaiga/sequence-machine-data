@@ -33,6 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -962,26 +963,26 @@ def P2397924451521851650.Spec : Prop :=
 
 end A190306
 
-/-! ## A190306.P14951708612286270055
+/-! ## A190306.P3485008678537161058
 
-`A247832(A052382(3*(n+1))%A000112(n+3))`
+`A177151(A214067(n+1))`
 -/
 
-namespace A190306.P14951708612286270055
+namespace A190306.P3485008678537161058
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247832 (Int.tmod (A052382 (3 * (n + 1))) (A000112 (n + 3))).toNat
+  A177151 (A214067 (n + 1)).toNat
 
 end
 
-end A190306.P14951708612286270055
+end A190306.P3485008678537161058
 
 namespace A190306
 
-/-- `A247832(A052382(3*(n+1))%A000112(n+3))` -/
-def P14951708612286270055.Spec : Prop :=
-  ∀ n, P14951708612286270055.a n = A190306 (n + 1)
+/-- `A177151(A214067(n+1))` -/
+def P3485008678537161058.Spec : Prop :=
+  ∀ n, P3485008678537161058.a n = A190306 (n + 1)
 
 end A190306
 
@@ -2106,14 +2107,14 @@ end A190321
 /-!
 # A190322: a(1) = 1, a(2) = 9, a(3) = 17; for n>3, a(n) = a(n-3) + 2.
 
-The programs for A190322, the canonical program `A190322.P7184646243679616406` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190322 has offset 1).
+The programs for A190322, the canonical program `A190322.P16385312235646560525` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190322 has offset 1).
 
-The definition of A190322 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-3)+2` (program `A190322.P7184646243679616406`, by `A190322.P7184646243679616406.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A190322 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-3)+2` (program `A190322.P16385312235646560525`, by `A190322.P16385312235646560525.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A190322.P7184646243679616406
+/-! ## A190322.P16385312235646560525
 
-`a(n-3)+2` with `a(0)=1, a(1)=9, a(2)=17, a(3)=3`
+`a(n-3)+2` with `a(0)=1, a(1)=9, a(2)=17`
 
 The canonical program, it is in `Seq.B000.C031`.
 -/
@@ -2121,10 +2122,10 @@ The canonical program, it is in `Seq.B000.C031`.
 namespace A190322
 
 /-- `a(n-3)+2` -/
-def P7184646243679616406.Spec : Prop :=
-  ∀ n, (P7184646243679616406.a n : ℤ) = A190322 (n + 1)
+def P16385312235646560525.Spec : Prop :=
+  ∀ n, (P16385312235646560525.a n : ℤ) = A190322 (n + 1)
 
-theorem P7184646243679616406.correct : P7184646243679616406.Spec := by
+theorem P16385312235646560525.correct : P16385312235646560525.Spec := by
   intro n
   simp only [A190322, Nat.add_sub_cancel]
 
@@ -6001,6 +6002,21 @@ end
 
 end A190339.P8923236898456597
 
+/-! ## A190339.P9189923809296841283
+
+`lcm(A060308(n+1), A238691(n))`
+-/
+
+namespace A190339.P9189923809296841283
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A060308 (n + 1)) (A238691 n)
+
+end
+
+end A190339.P9189923809296841283
+
 /-! ## A190339.P13325701061567128367
 
 `A007917(2*(n+1))*A238691(n)`
@@ -6729,26 +6745,26 @@ def P315301465718984527.Spec : Prop :=
 
 end A190348
 
-/-! ## A190348.P1312146886238850357
+/-! ## A190348.P11103869920663349021
 
-`ceil(log2(A128812(2*n+1)))`
+`A242374(A396770(n+2))`
 -/
 
-namespace A190348.P1312146886238850357
+namespace A190348.P11103869920663349021
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.logb 2 (A128812 (2 * n + 1) : ℝ)⌉
+  A242374 (A396770 (n + 2)).toNat
 
 end
 
-end A190348.P1312146886238850357
+end A190348.P11103869920663349021
 
 namespace A190348
 
-/-- `ceil(log2(A128812(2*n+1)))` -/
-def P1312146886238850357.Spec : Prop :=
-  ∀ n, P1312146886238850357.a n = A190348 (n + 1)
+/-- `A242374(A396770(n+2))` -/
+def P11103869920663349021.Spec : Prop :=
+  ∀ n, P11103869920663349021.a n = A190348 (n + 1)
 
 end A190348
 

@@ -8155,6 +8155,36 @@ end
 
 end A205083.P11001284851553679133
 
+/-! ## A205083.P6505196233874159030
+
+`A304273(n+1)-A000007(n)`
+-/
+
+namespace A205083.P6505196233874159030
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304273 (n + 1) - A000007 n
+
+end
+
+end A205083.P6505196233874159030
+
+/-! ## A205083.P13125733578954816248
+
+`A304273(n+1)/A054977(n)`
+-/
+
+namespace A205083.P13125733578954816248
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A304273 (n + 1) : ℚ) / (A054977 n : ℚ)
+
+end
+
+end A205083.P13125733578954816248
+
 /-! ## A205083.P3776007681677571900
 
 `A304273(n+1)-A000038(n)/2`
@@ -8289,6 +8319,81 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205083.P2590564838927814705
+
+/-! ## A205083.P3567235344247838410
+
+`and(A048578(n), A070885(n+1))`
+-/
+
+namespace A205083.P3567235344247838410
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A048578 n) (A070885 (n + 1))
+
+end
+
+end A205083.P3567235344247838410
+
+/-! ## A205083.P3978615838015458946
+
+`and(A066827(n+1), A070885(n+1))`
+-/
+
+namespace A205083.P3978615838015458946
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A066827 (n + 1)) (A070885 (n + 1))
+
+end
+
+end A205083.P3978615838015458946
+
+/-! ## A205083.P12430966287662181851
+
+`and(A020737(n), A070885(n+1))`
+-/
+
+namespace A205083.P12430966287662181851
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A020737 n) (A070885 (n + 1))
+
+end
+
+end A205083.P12430966287662181851
+
+/-! ## A205083.P10758765963694267663
+
+`and(A070885(n+1), A195744(n))`
+-/
+
+namespace A205083.P10758765963694267663
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A070885 (n + 1)) (A195744 n)
+
+end
+
+end A205083.P10758765963694267663
+
+/-! ## A205083.P15043504453743764150
+
+`and(A070885(n+1), A122041(n+1))`
+-/
+
+namespace A205083.P15043504453743764150
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A070885 (n + 1)) (A122041 (n + 1))
+
+end
+
+end A205083.P15043504453743764150
 
 /-!
 # A205084: a(n) = n 4's sandwiched between two 1's.

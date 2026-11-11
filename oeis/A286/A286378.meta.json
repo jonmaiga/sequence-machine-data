@@ -1,5 +1,5 @@
 {
-  "description": "Restricted growth sequence computed for Stern-polynomial related filter-sequence A278243.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(A260443(i)) = A046523(A260443(j)), for all i, j >= 0, where A046523(n) is the smallest number with same prime signature as n, and A260443 is the prime factorization representation of Stern polynomials.",
   "id": "A286378",
   "mentions": [
     "A002487",

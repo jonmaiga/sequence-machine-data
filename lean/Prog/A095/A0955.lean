@@ -24,7 +24,6 @@ import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C001
-import Seq.B006.C000
 import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -866,21 +865,6 @@ end A095527.P4747744769372727368
 
 The programs for A095529, there is no canonical definition to state claims against.
 -/
-
-/-! ## A095529.P1613281066481540578
-
-`A119788(A095549(n))+A095527(n)`
--/
-
-namespace A095529.P1613281066481540578
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119788 (A095549 n).toNat + A095527 n
-
-end
-
-end A095529.P1613281066481540578
 
 /-! ## A095529.P14745798504681484650
 

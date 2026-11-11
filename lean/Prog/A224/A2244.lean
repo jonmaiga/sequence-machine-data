@@ -27,6 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -93,6 +94,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -7187,6 +7189,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224484.P15140115827146918481
+
+/-! ## A224484.P12724118504620454313
+
+`filter[A003325(n+1), A173857(#)]`
+-/
+
+namespace A224484.P12724118504620454313
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003325 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A173857 (f1 j).toNat = 1) n)
+
+end
+
+end A224484.P12724118504620454313
+
+/-! ## A224484.P1912993793804922474
+
+`filter[A003325(n+1), A267142(#)]`
+-/
+
+namespace A224484.P1912993793804922474
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003325 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267142 (f1 j).toNat = 1) n)
+
+end
+
+end A224484.P1912993793804922474
 
 /-!
 # A224485: Numbers which are the sum of two positive cubes and divisible by 5.

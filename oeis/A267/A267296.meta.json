@@ -2,6 +2,7 @@
   "description": "Circulant Ramsey numbers RC_1(3,n) of the first kind.",
   "id": "A267296",
   "mentions": [
+    "A000789",
     "A000791",
     "A267295"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

@@ -2,7 +2,10 @@
   "description": "Number of same-sized pairs of subsets of set of n numbers that might have the same sum.",
   "id": "A304011",
   "mentions": [
-    "A002054"
+    "A001006",
+    "A002054",
+    "A002426",
+    "A014532"
   ],
   "tags": [
     "formulas",

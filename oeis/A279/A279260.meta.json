@@ -2,12 +2,14 @@
   "description": "Numbers which are cyclops palindromic in their binary reflected Gray code representation.",
   "id": "A279260",
   "mentions": [
+    "A003683",
     "A014550",
     "A071930",
     "A084175",
     "A129868",
     "A134808",
-    "A138148"
+    "A138148",
+    "A151575"
   ],
   "tags": [
     "base",

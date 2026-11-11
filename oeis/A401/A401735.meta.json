@@ -1,0 +1,29 @@
+{
+  "description": "Lexicographically earliest square array of nonnegative integers, read by antidiagonals, with no axis-parallel square whose four corners are equal.",
+  "id": "A401735",
+  "mentions": [
+    "A004198",
+    "A005836",
+    "A006997",
+    "A047999",
+    "A062383",
+    "A064194",
+    "A227133",
+    "A268229",
+    "A399521",
+    "A401736",
+    "A401737",
+    "A401738",
+    "A401739"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

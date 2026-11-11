@@ -1,0 +1,21 @@
+{
+  "description": "Number of equivalence classes under column permutations of (n+1) X n binary matrices having an n X n submatrix with permanent 1.",
+  "id": "A400648",
+  "mentions": [
+    "A003024",
+    "A089482",
+    "A245654",
+    "A342598",
+    "A342599"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

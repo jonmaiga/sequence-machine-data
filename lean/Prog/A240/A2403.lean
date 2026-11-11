@@ -5296,7 +5296,7 @@ end
 end A240378.P15571823782520907596
 
 /-!
-# A240379: Number of nX4 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
+# A240379: Number of n X 4 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
 
 The programs for A240379, there is no canonical definition to state claims against.
 -/

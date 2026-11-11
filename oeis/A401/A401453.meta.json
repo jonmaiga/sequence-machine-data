@@ -1,0 +1,16 @@
+{
+  "description": "Primes in A399741.",
+  "id": "A401453",
+  "mentions": [
+    "A399741",
+    "A400214"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

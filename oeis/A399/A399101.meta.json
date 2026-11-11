@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,k) is the number of independent vertex sets in the n X k Klein bottle graph.",
+  "description": "Array read by antidiagonals: T(n,k) is the number of independent vertex sets in the n X k Klein bottle grid graph.",
   "id": "A399101",
   "mentions": [
     "A000012",

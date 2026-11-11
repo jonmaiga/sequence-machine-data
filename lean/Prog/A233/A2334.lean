@@ -38,7 +38,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B001.C000
@@ -92,6 +92,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -949,6 +950,32 @@ def P3144974395739699414.Spec : Prop :=
 
 end A233411
 
+/-! ## A233411.P1215245053785873923
+
+`∑{#}[floor(n/2)-1, 2^(n-(#+1))]`
+-/
+
+namespace A233411.P1215245053785873923
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 2⌋ - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (2 : ℚ) ^ ((n : ℤ) - (k + 1 : ℤ) : ℤ)
+
+end
+
+end A233411.P1215245053785873923
+
+namespace A233411
+
+/-- `∑{#}[floor(n/2)-1, 2^(n-(#+1))]` -/
+def P1215245053785873923.Spec : Prop :=
+  ∀ n, P1215245053785873923.a n = (A233411 n : ℚ)
+
+end A233411
+
 /-! ## A233411.P1235656247755023649
 
 `abs(2^n-∑[2*a(n-2)])` with `a(0)=1, a(1)=1, a(2)=0`
@@ -1259,29 +1286,6 @@ namespace A233411
 /-- `A288828(n)%A255047(n)` -/
 def P6649502336470727566.Spec : Prop :=
   ∀ n, P6649502336470727566.a n = A233411 n
-
-end A233411
-
-/-! ## A233411.P2043257892213823200
-
-`and(A000225(n), A122746(n))`
--/
-
-namespace A233411.P2043257892213823200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A000225 n) (A122746 n)
-
-end
-
-end A233411.P2043257892213823200
-
-namespace A233411
-
-/-- `and(A000225(n), A122746(n))` -/
-def P2043257892213823200.Spec : Prop :=
-  ∀ n, P2043257892213823200.a n = A233411 n
 
 end A233411
 
@@ -4507,6 +4511,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233461.P15227434172070359250
+
+/-! ## A233461.P13399416188303465572
+
+`A390375(A233462(n+1))`
+-/
+
+namespace A233461.P13399416188303465572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390375 (A233462 (n + 1)).toNat
+
+end
+
+end A233461.P13399416188303465572
 
 /-!
 # A233462: Prime(n), where n is such that (1+Sum_{i=1..n} prime(i)^16) / n is an integer.

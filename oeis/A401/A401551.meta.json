@@ -1,0 +1,26 @@
+{
+  "description": "Number of combinatorial types of triangulations of the sphere with n vertices for which the volume of polyhedra of that type inscribed in the unit sphere has a local maximum at a strictly convex configuration.",
+  "id": "A401551",
+  "mentions": [
+    "A000109",
+    "A007037",
+    "A081314",
+    "A339259",
+    "A339261",
+    "A339262",
+    "A339263",
+    "A401263",
+    "A401264",
+    "A401550"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

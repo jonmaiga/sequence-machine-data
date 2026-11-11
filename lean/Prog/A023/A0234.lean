@@ -28,12 +28,12 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -95,7 +95,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3598,6 +3597,32 @@ def P7787125123302133012.Spec : Prop :=
 theorem P7787125123302133012.correct : P7787125123302133012.Spec := by
   intro n
   simp only [A023431]
+
+end A023431
+
+/-! ## A023431.P4899433877554473728
+
+`∑{#}[floor(n/3), C(n-#, 2*#)*1/(#+1)*C(2*#, #)]`
+-/
+
+namespace A023431.P4899433877554473728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 3⌋
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.choose ((n : ℤ) - (k : ℤ)).toNat (2 * k) : ℚ) * (1 / (k + 1 : ℚ)) * (Nat.choose (2 * k) k : ℚ)
+
+end
+
+end A023431.P4899433877554473728
+
+namespace A023431
+
+/-- `∑{#}[floor(n/3), C(n-#, 2*#)*1/(#+1)*C(2*#, #)]` -/
+def P4899433877554473728.Spec : Prop :=
+  ∀ n, P4899433877554473728.a n = (A023431 n : ℚ)
 
 end A023431
 

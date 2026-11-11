@@ -3552,26 +3552,26 @@ def P5074531883358787891.Spec : Prop :=
 
 end A135227
 
-/-! ## A135227.P7038797079057804178
+/-! ## A135227.P14150332021105884839
 
-`gcd(A103516(n), A206735(n))`
+`gcd(A103283(n), A206735(n))`
 -/
 
-namespace A135227.P7038797079057804178
+namespace A135227.P14150332021105884839
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A103516 n) (A206735 n)
+  Int.gcd (A103283 n) (A206735 n)
 
 end
 
-end A135227.P7038797079057804178
+end A135227.P14150332021105884839
 
 namespace A135227
 
-/-- `gcd(A103516(n), A206735(n))` -/
-def P7038797079057804178.Spec : Prop :=
-  ∀ n, (P7038797079057804178.a n : ℤ) = A135227 n
+/-- `gcd(A103283(n), A206735(n))` -/
+def P14150332021105884839.Spec : Prop :=
+  ∀ n, (P14150332021105884839.a n : ℤ) = A135227 n
 
 end A135227
 
@@ -13724,6 +13724,29 @@ def P17443043148751675216.Spec : Prop :=
 
 end A135278
 
+/-! ## A135278.P13452301587077611811
+
+`A080233(n)+A051601(n)`
+-/
+
+namespace A135278.P13452301587077611811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080233 n + A051601 n
+
+end
+
+end A135278.P13452301587077611811
+
+namespace A135278
+
+/-- `A080233(n)+A051601(n)` -/
+def P13452301587077611811.Spec : Prop :=
+  ∀ n, P13452301587077611811.a n = A135278 n
+
+end A135278
+
 /-!
 # A135282: Largest k such that 2^k appears in the trajectory of the Collatz 3x+1 sequence started at n.
 
@@ -13867,6 +13890,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A135282.P12039519075432690566
+
+/-! ## A135282.P8490024730710664179
+
+`A000523(A232503(n+1))`
+-/
+
+namespace A135282.P8490024730710664179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000523 (A232503 (n + 1)).toNat
+
+end
+
+end A135282.P8490024730710664179
 
 /-! ## A135282.P14614641926203922564
 

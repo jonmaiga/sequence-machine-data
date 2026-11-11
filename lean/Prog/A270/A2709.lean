@@ -43,7 +43,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B002.C003
+import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
@@ -2334,21 +2335,6 @@ end A270927.P6739080867048667338
 The programs for A270928, there is no canonical definition to state claims against.
 -/
 
-/-! ## A270928.P1585394580900911593
-
-`A322794(A210238(n+1)+A006068(n))`
--/
-
-namespace A270928.P1585394580900911593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A210238 (n + 1) + A006068 n).toNat
-
-end
-
-end A270928.P1585394580900911593
-
 /-! ## A270928.P2143140261949740236
 
 `A322307(A348984(n+1)+A000404(n+1))`
@@ -2408,6 +2394,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270928.P5137499193664933254
+
+/-! ## A270928.P5011597397525892501
+
+`A076259(A227587(n))`
+-/
+
+namespace A270928.P5011597397525892501
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076259 (A227587 n).toNat
+
+end
+
+end A270928.P5011597397525892501
 
 /-!
 # A270930: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 219", based on the 5-celled von Neumann neighborhood.

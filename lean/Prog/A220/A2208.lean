@@ -6140,6 +6140,21 @@ end
 
 end A220881.P17259018338524972873
 
+/-! ## A220881.P10875197755998605411
+
+`A047996(A090288(n+1))`
+-/
+
+namespace A220881.P10875197755998605411
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047996 (A090288 (n + 1)).toNat
+
+end
+
+end A220881.P10875197755998605411
+
 /-!
 # A220882: Number of (n - 6)-dissections of an n-gon (equivalently, the number of three-dimensional faces of the (n-3)-dimensional associahedron) modulo the cyclic action.
 
@@ -6951,6 +6966,32 @@ namespace A220892
 /-- `(n+1)*(n²+3*n+3)*(n²+n+1)/3` -/
 def P5253584960924880092.Spec : Prop :=
   ∀ n, P5253584960924880092.a n = (A220892 n : ℚ)
+
+end A220892
+
+/-! ## A220892.P7722987430370656524
+
+`∑{#}[3, (-1)^#*C(8, #)*C(n*(4-#)+6-#, 6)]`
+-/
+
+namespace A220892.P7722987430370656524
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1) ^ k * (Nat.choose 8 k : ℤ) * (Nat.choose ((n : ℤ) * (4 - (k : ℤ)) + 6 - (k : ℤ)).toNat 6 : ℤ)
+
+end
+
+end A220892.P7722987430370656524
+
+namespace A220892
+
+/-- `∑{#}[3, (-1)^#*C(8, #)*C(n*(4-#)+6-#, 6)]` -/
+def P7722987430370656524.Spec : Prop :=
+  ∀ n, P7722987430370656524.a n = A220892 n
 
 end A220892
 

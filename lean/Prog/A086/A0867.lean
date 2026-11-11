@@ -52,6 +52,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2365,8 +2366,29 @@ end A086717.P7387805761453950751
 /-!
 # A086718: Convolution of sequence of primes with sequence sigma(n).
 
-The programs for A086718, there is no canonical definition to state claims against.
+The programs for A086718, the canonical program `A086718.P1412048090532148672` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086718 has offset 1).
+
+The definition of A086718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1024 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A086718.P1412048090532148672
+
+`∑{#}[n, A000203(#+1)*A000040(n+1-#)]`
+
+The canonical program, it is in `Seq.B001.C004`.
+-/
+
+namespace A086718
+
+/-- `∑{#}[n, A000203(#+1)*A000040(n+1-#)]` -/
+def P1412048090532148672.Spec : Prop :=
+  ∀ n, P1412048090532148672.a n = A086718 (n + 1)
+
+theorem P1412048090532148672.correct : P1412048090532148672.Spec := by
+  intro n
+  simp only [A086718, Nat.add_sub_cancel]
+
+end A086718
 
 /-! ## A086718.P16615191865319480213
 
@@ -2383,20 +2405,13 @@ end
 
 end A086718.P16615191865319480213
 
-/-! ## A086718.P7989787591596499041
+namespace A086718
 
-`A353355(A008059(n))+A000085(n)`
--/
+/-- `A105527(A199332(a(n-1))+4)` -/
+def P16615191865319480213.Spec : Prop :=
+  ∀ n, P16615191865319480213.a n = A086718 (n + 1)
 
-namespace A086718.P7989787591596499041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353355 (A008059 n).toNat + A000085 n
-
-end
-
-end A086718.P7989787591596499041
+end A086718
 
 /-!
 # A086719: Numbers n == 1, 2, 5 or 6 (mod 8) such that there is only one solution to i^2+j^2+k^2=n, i >= j >= k >= 0.
@@ -3344,6 +3359,21 @@ end
 
 end A086738.P6426745772108276789
 
+/-! ## A086738.P13243215421527338595
+
+`A282467(n+1)-A400210(n+1)`
+-/
+
+namespace A086738.P13243215421527338595
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282467 (n + 1) - A400210 (n + 1)
+
+end
+
+end A086738.P13243215421527338595
+
 /-! ## A086738.P14280457188387577581
 
 `A000041(n+1)-A245092(2*n+1)`
@@ -3562,21 +3592,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A086738.P13726661089693374759
-
-/-! ## A086738.P3983670592083898840
-
-`A268191(n+1)-A215513(n+1)`
--/
-
-namespace A086738.P3983670592083898840
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268191 (n + 1) - A215513 (n + 1)
-
-end
-
-end A086738.P3983670592083898840
 
 /-!
 # A086739: A000041(n)-A000010(n).

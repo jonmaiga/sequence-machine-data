@@ -27,6 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -829,21 +830,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A264709.P6606109828018117720
-
-/-! ## A264709.P8438693752336849941
-
-`A010078(A264818(n+1))%A057178(n+1)`
--/
-
-namespace A264709.P8438693752336849941
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010078 (A264818 (n + 1)).toNat) (A057178 (n + 1))
-
-end
-
-end A264709.P8438693752336849941
 
 /-! ## A264709.P15071473838463025989
 
@@ -9199,6 +9185,21 @@ end A264769.P16572989052708471994
 The programs for A264771, there is no canonical definition to state claims against.
 -/
 
+/-! ## A264771.P15494725539107657304
+
+`A264724(A275059(n+1))`
+-/
+
+namespace A264771.P15494725539107657304
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264724 (A275059 (n + 1)).toNat
+
+end
+
+end A264771.P15494725539107657304
+
 /-! ## A264771.P18159165714026527978
 
 `p?[A264724(n+1)]`
@@ -9253,38 +9254,27 @@ end
 
 end A264771.P18068210238163902146
 
-/-! ## A264771.P15494725539107657304
+/-! ## A264771.P16368955486952484917
 
-`A264724(A275059(n+1))`
+`∩[A264724(n+1), A307508(n+1)]`
 -/
 
-namespace A264771.P15494725539107657304
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264724 (A275059 (n + 1)).toNat
-
-end
-
-end A264771.P15494725539107657304
-
-/-! ## A264771.P10421491739914722854
-
-`filter[A264724(n+1), A010051(#)]`
--/
-
-namespace A264771.P10421491739914722854
+namespace A264771.P16368955486952484917
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A264724 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307508 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A264771.P10421491739914722854
+end A264771.P16368955486952484917
 
 /-!
 # A264772: Triangle T(n,k) = binomial(3*n - 2*k, 2*n - k), 0 <= k <= n.

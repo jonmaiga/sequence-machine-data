@@ -31,7 +31,6 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -41,6 +40,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -1766,20 +1766,20 @@ end
 
 end A287222.P7803271990942016406
 
-/-! ## A287222.P5506650007235450969
+/-! ## A287222.P11582754514320750803
 
-`floor(floor(A366340(n+1)/40)/sqrt(2))`
+`A076697(A011924(n))`
 -/
 
-namespace A287222.P5506650007235450969
+namespace A287222.P11582754514320750803
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(⌊(A366340 (n + 1) : ℚ) / 40⌋ : ℝ) / Real.sqrt (2 : ℝ)⌋
+  A076697 (A011924 n).toNat
 
 end
 
-end A287222.P5506650007235450969
+end A287222.P11582754514320750803
 
 /-!
 # A287223: Numbers of tree alignments.
@@ -5389,21 +5389,6 @@ end
 
 end A287274.P8541640802667959821
 
-/-! ## A287274.P10454771905775374948
-
-`A087275(A297094(n+1))`
--/
-
-namespace A287274.P10454771905775374948
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087275 (A297094 (n + 1)).toNat
-
-end
-
-end A287274.P10454771905775374948
-
 /-! ## A287274.P13482537269113381521
 
 `A213508(A184761(n+1))`
@@ -7905,6 +7890,21 @@ end
 
 end A287293.P3393848135301076649
 
+/-! ## A287293.P14017135701402040590
+
+`A217871(A097856(n+2))`
+-/
+
+namespace A287293.P14017135701402040590
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217871 (A097856 (n + 2)).toNat
+
+end
+
+end A287293.P14017135701402040590
+
 /-! ## A287293.P2181554441043627157
 
 `A062383(A008642(n)%A090324(n+1))`
@@ -7934,24 +7934,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287293.P8867224394989570376
-
-/-! ## A287293.P14970028227658310818
-
-`∏[gcd(n, A255507(A316886(2*n+3)))]`
--/
-
-namespace A287293.P14970028227658310818
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (n : ℤ) (A255507 (A316886 (2 * n + 3)).toNat)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A287293.P14970028227658310818
 
 /-!
 # A287294: Concatenation of sequence (2n-1,2n-3,..,3,1,3,..,2n-3,2n-1).

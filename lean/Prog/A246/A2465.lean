@@ -557,6 +557,29 @@ end
 end A246510.P958819448565990870
 
 /-!
+# A246513: a(n) = (4/n^2)*( Sum_{k=0..n-1} k*A246459(k) ).
+
+The programs for A246513, the canonical program `A246513.P10077404431020880893` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246513 has offset 1).
+
+The definition of A246513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A246513.P10077404431020880893
+
+`∑{#}[n, 1/(#+1)*C(2*#, #)*(6*#*C(n, #)²+C(n, #)*C(n, #+1))]`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A246513
+
+/-- `∑{#}[n, 1/(#+1)*C(2*#, #)*(6*#*C(n, #)²+C(n, #)*C(n, #+1))]` -/
+def P10077404431020880893.Spec : Prop :=
+  ∀ n, P10077404431020880893.a n = (A246513 (n + 1) : ℚ)
+
+end A246513
+
+/-!
 # A246514: Number of composite numbers between prime(n) and 2*prime(n) exclusive.
 
 The programs for A246514, the canonical program `A246514.P626080667968607195` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246514 has offset 1).
@@ -3494,6 +3517,94 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246549.P16857809318238908916
+
+/-! ## A246549.P11686059631264466433
+
+`∩[A036966(n+1), A306531(n+1)]`
+-/
+
+namespace A246549.P11686059631264466433
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036966 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306531 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P11686059631264466433
+
+/-! ## A246549.P16209392677631051352
+
+`∩[A076467(n+1), A306531(n+1)]`
+-/
+
+namespace A246549.P16209392677631051352
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076467 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306531 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P16209392677631051352
+
+/-! ## A246549.P17636780044404216538
+
+`∩[A306531(n+1), A390540(n+1)]`
+-/
+
+namespace A246549.P17636780044404216538
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306531 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390540 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P17636780044404216538
+
+/-! ## A246549.P10053796230998127373
+
+`∩[A246547(n+1), A349306(n+1)]`
+-/
+
+namespace A246549.P10053796230998127373
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246547 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349306 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P10053796230998127373
 
 /-!
 # A246550: Prime powers p^e where p is a prime and e >= 4.

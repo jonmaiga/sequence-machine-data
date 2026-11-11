@@ -43,7 +43,6 @@ import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
@@ -10883,6 +10882,29 @@ def P13493585818286011150.Spec : Prop :=
 
 end A111074
 
+/-! ## A111074.P2978875495817971212
+
+`A008797(n+2)+A008797(n)`
+-/
+
+namespace A111074.P2978875495817971212
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008797 (n + 2) + A008797 n
+
+end
+
+end A111074.P2978875495817971212
+
+namespace A111074
+
+/-- `A008797(n+2)+A008797(n)` -/
+def P2978875495817971212.Spec : Prop :=
+  ∀ n, P2978875495817971212.a n = A111074 n
+
+end A111074
+
 /-! ## A111074.P9953765300457634584
 
 `∑{#}[1+a(n-2), #]` with `a(0)=2, a(1)=0`
@@ -12822,6 +12844,32 @@ def P13086751030023546028.Spec : Prop :=
 
 end A111087
 
+/-! ## A111087.P318350755785817576
+
+`filter[A100959(n+1), A005171(#)]`
+-/
+
+namespace A111087.P318350755785817576
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100959 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
+
+end
+
+end A111087.P318350755785817576
+
+namespace A111087
+
+/-- `filter[A100959(n+1), A005171(#)]` -/
+def P318350755785817576.Spec : Prop :=
+  ∀ n, P318350755785817576.a n = A111087 (n + 1)
+
+end A111087
+
 /-! ## A111087.P8640700976873571603
 
 `lt[1, 1+A153011(n+1)]+1`
@@ -12877,35 +12925,6 @@ namespace A111087
 /-- `lt[n*A105700(n), n]` -/
 def P13327253936960605940.Spec : Prop :=
   ∀ n, (P13327253936960605940.a n : ℤ) = A111087 (n + 1)
-
-end A111087
-
-/-! ## A111087.P12613620376508048486
-
-`eq[0, A105700(n+1)]+1`
--/
-
-namespace A111087.P12613620376508048486
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105700 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A111087.P12613620376508048486
-
-namespace A111087
-
-/-- `eq[0, A105700(n+1)]+1` -/
-def P12613620376508048486.Spec : Prop :=
-  ∀ n, (P12613620376508048486.a n : ℤ) = A111087 (n + 1)
 
 end A111087
 

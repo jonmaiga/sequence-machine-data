@@ -732,21 +732,6 @@ end
 
 end A332333.P4228047673769253011
 
-/-! ## A332333.P4844278762022104500
-
-`A120562(A290440(n)-A166476(n+1))`
--/
-
-namespace A332333.P4844278762022104500
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120562 (A290440 n - A166476 (n + 1)).toNat
-
-end
-
-end A332333.P4844278762022104500
-
 /-! ## A332333.P6513460805914690490
 
 `or(A065066(A195598(n+1)), A346117(n+1))`
@@ -5064,6 +5049,21 @@ end
 
 end A332376.P15923286504344055044
 
+/-! ## A332376.P17666840167240705923
+
+`A332377(n+1)+A332377(n+1)+A332377(n+1)`
+-/
+
+namespace A332376.P17666840167240705923
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332377 (n + 1) + A332377 (n + 1) + A332377 (n + 1)
+
+end
+
+end A332376.P17666840167240705923
+
 /-! ## A332376.P11006838707828334076
 
 `A185048(A331782(n+1))+A092098(n+1)`
@@ -5126,21 +5126,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A332376.P4627901398324437858
-
-/-! ## A332376.P7544641110900714428
-
-`A008585(A332377(n+1)%A017643(n))`
--/
-
-namespace A332376.P7544641110900714428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008585 (Int.tmod (A332377 (n + 1)) (A017643 n)).toNat
-
-end
-
-end A332376.P7544641110900714428
 
 /-!
 # A332377: One-third of total number of edges in graph formed by the straight line segments connecting the edges of an equilateral triangle with the n-1 points resulting from a subdivision of the sides into n equal pieces.

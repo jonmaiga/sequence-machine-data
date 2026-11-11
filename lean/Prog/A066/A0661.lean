@@ -225,6 +225,50 @@ end
 
 end A066100.P4788564192653333817
 
+/-! ## A066100.P8662022293495178969
+
+`∩[A040067(n+1), A153439(n+1)]`
+-/
+
+namespace A066100.P8662022293495178969
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040067 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153439 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A066100.P8662022293495178969
+
+/-! ## A066100.P9522528136620958028
+
+`∩[A040069(n+1), A153439(n+1)]`
+-/
+
+namespace A066100.P9522528136620958028
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040069 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153439 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A066100.P9522528136620958028
+
 /-!
 # A066102: Number of distinct prime factors of sigma_4(n), the sum of the 4th powers of divisors of n.
 
@@ -2864,6 +2908,32 @@ def P2820490977838169380.Spec : Prop :=
 
 end A066118
 
+/-! ## A066118.P14461005289215011384
+
+`∑{#}[n, n!*(#+n+1)]`
+-/
+
+namespace A066118.P14461005289215011384
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), Nat.factorial n * (k + (n + 1))
+
+end
+
+end A066118.P14461005289215011384
+
+namespace A066118
+
+/-- `∑{#}[n, n!*(#+n+1)]` -/
+def P14461005289215011384.Spec : Prop :=
+  ∀ n, (P14461005289215011384.a n : ℤ) = A066118 (n + 1)
+
+end A066118
+
 /-! ## A066118.P15053266929792456574
 
 `(3*n+2)*(n+1)!/2`
@@ -2884,32 +2954,6 @@ namespace A066118
 /-- `(3*n+2)*(n+1)!/2` -/
 def P15053266929792456574.Spec : Prop :=
   ∀ n, P15053266929792456574.a n = (A066118 (n + 1) : ℚ)
-
-end A066118
-
-/-! ## A066118.P5792462176777578281
-
-`∑{#}[n, n!*(1+3*(n-#))]`
--/
-
-namespace A066118.P5792462176777578281
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial n : ℤ) * (1 + 3 * ((n : ℤ) - (k : ℤ)))
-
-end
-
-end A066118.P5792462176777578281
-
-namespace A066118
-
-/-- `∑{#}[n, n!*(1+3*(n-#))]` -/
-def P5792462176777578281.Spec : Prop :=
-  ∀ n, P5792462176777578281.a n = A066118 (n + 1)
 
 end A066118
 
@@ -7163,6 +7207,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A066151.P3851605038961718801
+
+/-! ## A066151.P7421280593065584102
+
+`∩[A002182(n+1), A240544(n+1)]`
+-/
+
+namespace A066151.P7421280593065584102
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002182 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240544 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A066151.P7421280593065584102
+
+/-! ## A066151.P12319287271848345877
+
+`∩[A007416(n+1), A240544(n+1)]`
+-/
+
+namespace A066151.P12319287271848345877
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007416 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240544 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A066151.P12319287271848345877
 
 /-!
 # A066153: (product of digits of n) * (sum of digits of n) = 4n.

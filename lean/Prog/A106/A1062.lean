@@ -33,7 +33,6 @@ import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -1449,6 +1448,29 @@ theorem P12590331587520863193.correct : P12590331587520863193.Spec := by
 
 end A106230
 
+/-! ## A106230.P13745192127531340552
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=3, a(1)=8, a(2)=3, a(3)=8, a(4)=15`
+-/
+
+namespace A106230.P13745192127531340552
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3, 8, 3, 8, 15] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A106230.P13745192127531340552
+
+namespace A106230
+
+/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
+def P13745192127531340552.Spec : Prop :=
+  ∀ n, P13745192127531340552.a n = A106230 (n + 1)
+
+end A106230
+
 /-! ## A106230.P1170921008811896892
 
 `gcd(n, a(n-1))²-1` with `a(0)=3, a(1)=8`
@@ -1869,29 +1891,6 @@ namespace A106230
 /-- `A170949(a(n-1)+2)` -/
 def P7150910782124272694.Spec : Prop :=
   ∀ n, P7150910782124272694.a n = A106230 (n + 1)
-
-end A106230
-
-/-! ## A106230.P5631554681560367467
-
-`A023443((A023443(n)-A260196(n))²)`
--/
-
-namespace A106230.P5631554681560367467
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 ((A023443 n - A260196 n) ^ 2).toNat
-
-end
-
-end A106230.P5631554681560367467
-
-namespace A106230
-
-/-- `A023443((A023443(n)-A260196(n))²)` -/
-def P5631554681560367467.Spec : Prop :=
-  ∀ n, P5631554681560367467.a n = A106230 (n + 1)
 
 end A106230
 

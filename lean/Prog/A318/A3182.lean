@@ -59,7 +59,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -3578,6 +3577,21 @@ end
 
 end A318261.P10905846713234371601
 
+/-! ## A318261.P7384023195088810329
+
+`A302034(2*A318262(n+1))`
+-/
+
+namespace A318261.P7384023195088810329
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302034 (2 * A318262 (n + 1)).toNat
+
+end
+
+end A318261.P7384023195088810329
+
 /-! ## A318261.P13320835752728049159
 
 `A325401(2*A318262(n+1))`
@@ -3622,21 +3636,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318261.P16648830744366471314
-
-/-! ## A318261.P8074542156521484168
-
-`A325401(A318262(n+1)/2)`
--/
-
-namespace A318261.P8074542156521484168
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325401 (SequenceMachineLib.roundAway ((A318262 (n + 1) : ℚ) / 2)).toNat
-
-end
-
-end A318261.P8074542156521484168
 
 /-!
 # A318262: Numbers m such that 2^phi(m) mod m is a prime power (in the sense of A246655).
@@ -5573,21 +5572,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318282.P2599288737140912736
-
-/-! ## A318282.P17941137430586679465
-
-`A233867(A087201(n+3)%2*A318281(n+1))`
--/
-
-namespace A318282.P17941137430586679465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233867 (Int.tmod (A087201 (n + 3)) 2 * A318281 (n + 1)).toNat
-
-end
-
-end A318282.P17941137430586679465
 
 /-!
 # A318283: Sum of elements of the multiset spanning an initial interval of positive integers with multiplicities equal to the prime indices of n in weakly decreasing order.

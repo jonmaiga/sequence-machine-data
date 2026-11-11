@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that nextprime(2^tau(p - 2)) == 1 (mod (p-1)), where tau = A000005.",
+  "id": "A399798",
+  "mentions": [
+    "A000005",
+    "A014210",
+    "A019434",
+    "A151800",
+    "A203074"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -9,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
@@ -29,7 +30,6 @@ import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C044
@@ -3375,21 +3375,6 @@ end A355253.P5483342914890521646
 The programs for A355254, there is no canonical definition to state claims against.
 -/
 
-/-! ## A355254.P13338210924181258720
-
-`3*A292860(A046691(n+1))-a(n-1)` with `a(0)=1`
--/
-
-namespace A355254.P13338210924181258720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  3 * A292860 (A046691 (n + 1)).toNat - a (n - 1)
-
-end
-
-end A355254.P13338210924181258720
-
 /-! ## A355254.P12649004765709016978
 
 `∑{#}[n, C(n, #)*A367888(#)]`
@@ -3407,6 +3392,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355254.P12649004765709016978
+
+/-! ## A355254.P13338210924181258720
+
+`3*A292860(A046691(n+1))-a(n-1)` with `a(0)=1`
+-/
+
+namespace A355254.P13338210924181258720
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  3 * A292860 (A046691 (n + 1)).toNat - a (n - 1)
+
+end
+
+end A355254.P13338210924181258720
 
 /-!
 # A355255: Irregular table read by rows: a(n,k) gives the number of distinct necklaces that appear in the following procedure: starting with the n-bead, (0,1)-necklace given by k written in binary, repeatedly take the first differences (mod 2) of the beads. 0 <= k < 2^n.
@@ -7421,6 +7421,52 @@ def P5402841872770140994.Spec : Prop :=
 
 end A355288
 
+/-! ## A355288.P3070099598035545425
+
+`A022406(n)-(A163733(n+2)+A163733(n+2))`
+-/
+
+namespace A355288.P3070099598035545425
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022406 n - (A163733 (n + 2) + A163733 (n + 2))
+
+end
+
+end A355288.P3070099598035545425
+
+namespace A355288
+
+/-- `A022406(n)-(A163733(n+2)+A163733(n+2))` -/
+def P3070099598035545425.Spec : Prop :=
+  ∀ n, P3070099598035545425.a n = A355288 n
+
+end A355288
+
+/-! ## A355288.P181337236686852100
+
+`A022403(n+1)-(A163733(n+2)+A163733(n+2))`
+-/
+
+namespace A355288.P181337236686852100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022403 (n + 1) - (A163733 (n + 2) + A163733 (n + 2))
+
+end
+
+end A355288.P181337236686852100
+
+namespace A355288
+
+/-- `A022403(n+1)-(A163733(n+2)+A163733(n+2))` -/
+def P181337236686852100.Spec : Prop :=
+  ∀ n, P181337236686852100.a n = A355288 n
+
+end A355288
+
 /-! ## A355288.P13730288407593987768
 
 `A022403(n)%A111414(n)`
@@ -7441,52 +7487,6 @@ namespace A355288
 /-- `A022403(n)%A111414(n)` -/
 def P13730288407593987768.Spec : Prop :=
   ∀ n, P13730288407593987768.a n = A355288 n
-
-end A355288
-
-/-! ## A355288.P12303939826289982915
-
-`and(A022403(n), A126646(n))`
--/
-
-namespace A355288.P12303939826289982915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A022403 n) (A126646 n)
-
-end
-
-end A355288.P12303939826289982915
-
-namespace A355288
-
-/-- `and(A022403(n), A126646(n))` -/
-def P12303939826289982915.Spec : Prop :=
-  ∀ n, P12303939826289982915.a n = A355288 n
-
-end A355288
-
-/-! ## A355288.P4172595361826087492
-
-`and(A003261(n+1), A022403(n))`
--/
-
-namespace A355288.P4172595361826087492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A003261 (n + 1)) (A022403 n)
-
-end
-
-end A355288.P4172595361826087492
-
-namespace A355288
-
-/-- `and(A003261(n+1), A022403(n))` -/
-def P4172595361826087492.Spec : Prop :=
-  ∀ n, P4172595361826087492.a n = A355288 n
 
 end A355288
 

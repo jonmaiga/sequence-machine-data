@@ -35,7 +35,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C045
@@ -6319,6 +6319,46 @@ end
 
 end A114130.P7619347345123100393
 
+/-! ## A114130.P11358890172471690967
+
+`filter[A384992(n+2), A293449(#)]`
+-/
+
+namespace A114130.P11358890172471690967
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384992 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A293449 (f1 j).toNat = 1) n)
+
+end
+
+end A114130.P11358890172471690967
+
+/-! ## A114130.P11428615716191849866
+
+`∩[A114129(n+1), A384992(n+1)]`
+-/
+
+namespace A114130.P11428615716191849866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114129 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384992 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114130.P11428615716191849866
+
 /-! ## A114130.P17161804358947735852
 
 `filter[A284763(n+2), A293449(#)]`
@@ -6336,50 +6376,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114130.P17161804358947735852
-
-/-! ## A114130.P9726459388748791428
-
-`∩[A063806(n+1), A124184(n+1)]`
--/
-
-namespace A114130.P9726459388748791428
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063806 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124184 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A114130.P9726459388748791428
-
-/-! ## A114130.P3312251382625895826
-
-`∩[A062307(n+1), A144146(n+1)]`
--/
-
-namespace A114130.P3312251382625895826
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062307 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144146 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A114130.P3312251382625895826
 
 /-!
 # A114131: Numbers that factorize into a prime number of factors all raised to different prime exponents and no number appears both as an exponent and as a prime factor.

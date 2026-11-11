@@ -39,7 +39,6 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
@@ -60,7 +59,8 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -3034,6 +3034,29 @@ def P17757538348940737238.Spec : Prop :=
 
 end A269723
 
+/-! ## A269723.P13860415917170720358
+
+`A253315(n)%2`
+-/
+
+namespace A269723.P13860415917170720358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A253315 n) 2
+
+end
+
+end A269723.P13860415917170720358
+
+namespace A269723
+
+/-- `A253315(n)%2` -/
+def P13860415917170720358.Spec : Prop :=
+  ∀ n, P13860415917170720358.a n = A269723 n
+
+end A269723
+
 /-! ## A269723.P4063807945876058711
 
 `val(A365810(n), 3)`
@@ -3261,29 +3284,6 @@ namespace A269723
 /-- `A010060(A004468(n))` -/
 def P638085401122605676.Spec : Prop :=
   ∀ n, P638085401122605676.a n = A269723 n
-
-end A269723
-
-/-! ## A269723.P699074814685083114
-
-`A010060(A048647(n))`
--/
-
-namespace A269723.P699074814685083114
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010060 (A048647 n).toNat
-
-end
-
-end A269723.P699074814685083114
-
-namespace A269723
-
-/-- `A010060(A048647(n))` -/
-def P699074814685083114.Spec : Prop :=
-  ∀ n, P699074814685083114.a n = A269723 n
 
 end A269723
 
@@ -5525,7 +5525,7 @@ end A269756.P6695393037887726940
 /-!
 # A269758: Prime powers with squarefree neighbors.
 
-The programs for A269758, the canonical program `A269758.P2626224198710014702` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269758 has offset 1).
+The programs for A269758, the canonical program `A269758.P2626224198710014702` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269758 has offset 1).
 
 The definition of A269758 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 150 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5557,7 +5557,7 @@ end A269758
 
 `A000079(A262978(1+n))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269758
@@ -5569,6 +5569,29 @@ def P2626224198710014702.Spec : Prop :=
 theorem P2626224198710014702.correct : P2626224198710014702.Spec := by
   intro n
   simp only [A269758, Nat.add_sub_cancel]
+
+end A269758
+
+/-! ## A269758.P14279396609400464271
+
+`A000225(A262978(n+1))+1`
+-/
+
+namespace A269758.P14279396609400464271
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000225 (A262978 (n + 1)).toNat + 1
+
+end
+
+end A269758.P14279396609400464271
+
+namespace A269758
+
+/-- `A000225(A262978(n+1))+1` -/
+def P14279396609400464271.Spec : Prop :=
+  ∀ n, P14279396609400464271.a n = A269758 (n + 1)
 
 end A269758
 

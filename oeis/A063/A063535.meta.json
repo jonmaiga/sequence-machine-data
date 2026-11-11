@@ -1,16 +1,18 @@
 {
-  "description": "Primes prime(n) such that prime(n+1)^2 < prime(n)*prime(n+2).",
+  "description": "Primes prime(k) such that prime(k+1)^2 < prime(k)*prime(k+2).",
   "id": "A063535",
   "mentions": [
     "A122535",
-    "A147812"
+    "A147812",
+    "A397914"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 55,
     "source": "joeis"
   }

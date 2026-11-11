@@ -18,7 +18,6 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C034
@@ -3352,6 +3351,21 @@ end
 
 end A162051.P13932228103564874172
 
+/-! ## A162051.P8917635347683941073
+
+`A180985(A401129(n))`
+-/
+
+namespace A162051.P8917635347683941073
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180985 (A401129 n).toNat
+
+end
+
+end A162051.P8917635347683941073
+
 /-! ## A162051.P12037836598723438386
 
 `A229794(∑[A082743(n)])`
@@ -3402,27 +3416,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162051.P9362212450732277843
-
-/-! ## A162051.P2559137705162436637
-
-`A229794(lt[A327547(n), 1])`
--/
-
-namespace A162051.P2559137705162436637
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327547 n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229794 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n)
-
-end
-
-end A162051.P2559137705162436637
 
 /-!
 # A162052: Number of n X n symmetric binary arrays with rows, considered as binary numbers, in nondecreasing order, and an even number of ones in each row.

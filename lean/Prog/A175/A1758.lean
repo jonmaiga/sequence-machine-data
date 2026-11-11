@@ -10704,27 +10704,6 @@ end A175872.P14897592760007922240
 The programs for A175873, there is no canonical definition to state claims against.
 -/
 
-/-! ## A175873.P10186754464741371507
-
-`p?[A181428(record[A140595(n)])]`
--/
-
-namespace A175873.P10186754464741371507
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140595 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181428 (f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A175873.P10186754464741371507
-
 /-! ## A175873.P6501704112438545800
 
 `p?[C(A181428(n+1), A285337(n+1))]`
@@ -13462,29 +13441,26 @@ def P11383454724089640681.Spec : Prop :=
 
 end A175887
 
-/-! ## A175887.P5360891033263961521
+/-! ## A175887.P16668791033833248992
 
-`Δ[A195046(n)]`
+`A152832(n)+A113803(n+1)`
 -/
 
-namespace A175887.P5360891033263961521
+namespace A175887.P16668791033833248992
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195046 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
+  A152832 n + A113803 (n + 1)
 
 end
 
-end A175887.P5360891033263961521
+end A175887.P16668791033833248992
 
 namespace A175887
 
-/-- `Δ[A195046(n)]` -/
-def P5360891033263961521.Spec : Prop :=
-  ∀ n, P5360891033263961521.a n = A175887 (n + 1)
+/-- `A152832(n)+A113803(n+1)` -/
+def P16668791033833248992.Spec : Prop :=
+  ∀ n, P16668791033833248992.a n = A175887 (n + 1)
 
 end A175887
 

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the alternating group A_k does not contain an element of order k.",
+  "id": "A401544",
+  "mentions": [
+    "A000079"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

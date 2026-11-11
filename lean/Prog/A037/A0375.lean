@@ -29,6 +29,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -37,10 +38,12 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C001
 import Seq.B001.C003
@@ -13411,7 +13414,7 @@ end A037539
 /-!
 # A037540: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,1.
 
-The programs for A037540, the canonical program `A037540.P9383526262443881977` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037540 has offset 1).
+The programs for A037540, the canonical program `A037540.P9383526262443881977` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037540 has offset 1).
 
 The definition of A037540 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13420,7 +13423,7 @@ The definition of A037540 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+x^2)/(1-7x-x^3+7x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037540
@@ -13729,7 +13732,7 @@ end A037540
 /-!
 # A037541: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,1.
 
-The programs for A037541, the canonical program `A037541.P8759723883998485943` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037541 has offset 1).
+The programs for A037541, the canonical program `A037541.P8759723883998485943` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037541 has offset 1).
 
 The definition of A037541 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13738,7 +13741,7 @@ The definition of A037541 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+x^2)/(1-8x-x^3+8x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037541
@@ -14169,7 +14172,7 @@ end A037541
 /-!
 # A037542: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,1.
 
-The programs for A037542, the canonical program `A037542.P8265622461899931253` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037542 has offset 1).
+The programs for A037542, the canonical program `A037542.P8265622461899931253` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037542 has offset 1).
 
 The definition of A037542 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14178,7 +14181,7 @@ The definition of A037542 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+x^2)/(1-9x-x^3+9x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037542
@@ -15296,6 +15299,29 @@ namespace A037545
 /-- `∑[A000079(2*n+1)-A178872(n+1)]` -/
 def P11430891749643059033.Spec : Prop :=
   ∀ n, P11430891749643059033.a n = A037545 (n + 1)
+
+end A037545
+
+/-! ## A037545.P4749808775595595930
+
+`A368345(n)+A037604(n+1)-A368345(n+1)`
+-/
+
+namespace A037545.P4749808775595595930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368345 n + A037604 (n + 1) - A368345 (n + 1)
+
+end
+
+end A037545.P4749808775595595930
+
+namespace A037545
+
+/-- `A368345(n)+A037604(n+1)-A368345(n+1)` -/
+def P4749808775595595930.Spec : Prop :=
+  ∀ n, P4749808775595595930.a n = A037545 (n + 1)
 
 end A037545
 
@@ -27189,6 +27215,52 @@ namespace A037583
 /-- `A006977(2*n)+2*A000079(n)²` -/
 def P16011587254910459735.Spec : Prop :=
   ∀ n, P16011587254910459735.a n = A037583 (n + 1)
+
+end A037583
+
+/-! ## A037583.P1084155546132107031
+
+`A083593(2*n+1)+A000975(2*n+1)`
+-/
+
+namespace A037583.P1084155546132107031
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083593 (2 * n + 1) + A000975 (2 * n + 1)
+
+end
+
+end A037583.P1084155546132107031
+
+namespace A037583
+
+/-- `A083593(2*n+1)+A000975(2*n+1)` -/
+def P1084155546132107031.Spec : Prop :=
+  ∀ n, P1084155546132107031.a n = A037583 (n + 1)
+
+end A037583
+
+/-! ## A037583.P2598493563660182669
+
+`A181586(2*n+1)+A048573(2*n+1)`
+-/
+
+namespace A037583.P2598493563660182669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181586 (2 * n + 1) + A048573 (2 * n + 1)
+
+end
+
+end A037583.P2598493563660182669
+
+namespace A037583
+
+/-- `A181586(2*n+1)+A048573(2*n+1)` -/
+def P2598493563660182669.Spec : Prop :=
+  ∀ n, P2598493563660182669.a n = A037583 (n + 1)
 
 end A037583
 

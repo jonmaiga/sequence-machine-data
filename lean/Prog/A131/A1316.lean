@@ -1793,30 +1793,6 @@ end
 
 end A131627.P5950281661740348702
 
-/-! ## A131627.P5492551389776090900
-
-`eq[Δ[A322794(2*n+5)], A121373(n)]`
--/
-
-namespace A131627.P5492551389776090900
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (2 * n + 5)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121373 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f3 j) n
-
-end
-
-end A131627.P5492551389776090900
-
 /-!
 # A131629: Numbers k such that the decimal expansion of 3^k contains no 3.
 
@@ -4942,6 +4918,29 @@ def P18355932214560210142.Spec : Prop :=
 
 end A131664
 
+/-! ## A131664.P12854243894412137960
+
+`(10^(row(n)+1)-1)/9`
+-/
+
+namespace A131664.P12854243894412137960
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((10 ^ (SequenceMachineLib.triRow n + 1) : ℤ) - 1 : ℚ) / 9
+
+end
+
+end A131664.P12854243894412137960
+
+namespace A131664
+
+/-- `(10^(row(n)+1)-1)/9` -/
+def P12854243894412137960.Spec : Prop :=
+  ∀ n, P12854243894412137960.a n = (A131664 (n + 1) : ℚ)
+
+end A131664
+
 /-! ## A131664.P9507287670156825969
 
 `∑{#}[∑[char[∑[n+1]]], 10^#]`
@@ -5355,29 +5354,6 @@ namespace A131664
 /-- `or(1, A105279(A003056(n)))` -/
 def P4390318905908859141.Spec : Prop :=
   ∀ n, P4390318905908859141.a n = A131664 (n + 1)
-
-end A131664
-
-/-! ## A131664.P8004349517735963818
-
-`A094026(2*A003056(n)+1)`
--/
-
-namespace A131664.P8004349517735963818
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094026 (2 * A003056 n + 1).toNat
-
-end
-
-end A131664.P8004349517735963818
-
-namespace A131664
-
-/-- `A094026(2*A003056(n)+1)` -/
-def P8004349517735963818.Spec : Prop :=
-  ∀ n, P8004349517735963818.a n = A131664 (n + 1)
 
 end A131664
 

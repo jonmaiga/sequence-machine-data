@@ -23,7 +23,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -32,6 +31,7 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
@@ -5905,6 +5905,24 @@ end
 
 end A126674.P6928276325488961634
 
+/-! ## A126674.P16062398573933650797
+
+`2^n*∑{#}[n-1, (#+1)!*(n-1-#)!/(n+1)]`
+-/
+
+namespace A126674.P16062398573933650797
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℚ) * (∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.factorial (k + 1) * Nat.factorial ((n : ℤ) - 1 - (k : ℤ)).toNat : ℚ) / (n + 1 : ℚ))
+
+end
+
+end A126674.P16062398573933650797
+
 /-! ## A126674.P3247943928389884223
 
 `A084938(∑[n+1]+2)/2*2^n`
@@ -7929,6 +7947,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A126691.P4272405803824865398
+
+/-! ## A126691.P5592081281577688322
+
+`A025584(A039034(n+2))`
+-/
+
+namespace A126691.P5592081281577688322
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025584 (A039034 (n + 2)).toNat
+
+end
+
+end A126691.P5592081281577688322
 
 /-!
 # A126692: Prime numbers p such that 1000-p is also a prime. All terms are shown.

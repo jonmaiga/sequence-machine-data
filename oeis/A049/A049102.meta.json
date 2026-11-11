@@ -2,11 +2,17 @@
   "description": "Positive numbers n such that n is a multiple of (product of digits of n) * (sum of digits of n).",
   "id": "A049102",
   "mentions": [
+    "A005349",
+    "A007602",
+    "A007953",
+    "A007954",
+    "A038186",
     "A038369",
     "A049101",
     "A049105",
     "A049106",
-    "A052382"
+    "A052382",
+    "A343682"
   ],
   "tags": [
     "base",

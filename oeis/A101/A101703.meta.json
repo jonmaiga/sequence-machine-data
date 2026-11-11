@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that reversal(n) = (2/3)*n - 2.",
+  "description": "Numbers k such that reversal(k) = (2/3)*k - 2.",
   "id": "A101703",
   "mentions": [
     "A069215",
     "A086947",
     "A101700",
-    "A101704"
+    "A101704",
+    "A401572",
+    "A401574"
   ],
   "tags": [
     "base",

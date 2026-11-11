@@ -37,7 +37,6 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -530,6 +529,21 @@ end
 
 end A032005.P108303560182083319
 
+/-! ## A032005.P6367465045645451683
+
+`lcm(A040000(n), A397660(n))`
+-/
+
+namespace A032005.P6367465045645451683
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A040000 n) (A397660 n)
+
+end
+
+end A032005.P6367465045645451683
+
 /-! ## A032005.P8719452923532684040
 
 `2*A032043(n)-A040000(n)`
@@ -605,21 +619,6 @@ end
 
 end A032005.P8774230725343846188
 
-/-! ## A032005.P15199832801807223689
-
-`lcm(A032043(n)-A057427(n), A040000(n))`
--/
-
-namespace A032005.P15199832801807223689
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A032043 n - A057427 n) (A040000 n)
-
-end
-
-end A032005.P15199832801807223689
-
 /-! ## A032005.P4358800395520955980
 
 `lcm(A057427(n)-A032043(n), A036453(n+1))`
@@ -649,6 +648,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032005.P3500441133980835648
+
+/-! ## A032005.P2677906561275755379
+
+`A011782(n+1)*A397660(n)/A011782(n)`
+-/
+
+namespace A032005.P2677906561275755379
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A011782 (n + 1) * A397660 n : ℚ) / (A011782 n : ℚ)
+
+end
+
+end A032005.P2677906561275755379
 
 /-!
 # A032006: "AFK" (ordered, size, unlabeled) transform of 2,1,1,1,...

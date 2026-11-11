@@ -2974,7 +2974,7 @@ end A291637.P8732172334212230876
 /-!
 # A291639: Numbers k such that 0 is the smallest decimal digit of k^3.
 
-The programs for A291639, the canonical program `A291639.P12840853320588757231` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291639 has offset 1).
+The programs for A291639, the canonical program `A291639.P12840853320588757231` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291639 has offset 1).
 
 The definition of A291639 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6506 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3012,7 +3012,7 @@ end A291639
 
 `lt[0, n*A269250(n)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291639
@@ -5680,7 +5680,7 @@ end A291660
 /-!
 # A291662: Number of ordered rooted trees with 2n non-root nodes such that the maximal outdegree equals n.
 
-The programs for A291662, the canonical program `A291662.P18141742761416750643` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291662 has offset 0).
+The programs for A291662, the canonical program `A291662.P18141742761416750643` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291662 has offset 0).
 
 The definition of A291662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5712,7 +5712,7 @@ end A291662
 
 `A165817(n)-n`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291662

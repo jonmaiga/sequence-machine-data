@@ -31,7 +31,6 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C038
 import Seq.B000.C039
@@ -41,7 +40,6 @@ import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2575,21 +2573,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033928.P5402984073588965047
-
-/-! ## A033928.P16796948633826212623
-
-`A196564(A217871(n))+A053829(n)`
--/
-
-namespace A033928.P16796948633826212623
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196564 (A217871 n).toNat + A053829 n
-
-end
-
-end A033928.P16796948633826212623
 
 /-! ## A033928.P3216902261214113837
 
@@ -14961,6 +14944,29 @@ def P11384977742263887026.Spec : Prop :=
 
 end A033994
 
+/-! ## A033994.P8592611547290749864
+
+`2*C(n+3, 3)+3*C(n+2, 3)`
+-/
+
+namespace A033994.P8592611547290749864
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * Nat.choose (n + 3) 3 + 3 * Nat.choose (n + 2) 3
+
+end
+
+end A033994.P8592611547290749864
+
+namespace A033994
+
+/-- `2*C(n+3, 3)+3*C(n+2, 3)` -/
+def P8592611547290749864.Spec : Prop :=
+  ∀ n, (P8592611547290749864.a n : ℤ) = A033994 (n + 1)
+
+end A033994
+
 /-! ## A033994.P17517629815712682086
 
 `∑[lcm(2*n+1, n+1)]+∑[∑[n+1]]`
@@ -15172,32 +15178,6 @@ namespace A033994
 /-- `∑[A005891(n)]+(n+1)²` -/
 def P8128443141332396100.Spec : Prop :=
   ∀ n, P8128443141332396100.a n = A033994 (n + 1)
-
-end A033994
-
-/-! ## A033994.P13689114701079665419
-
-`∑[A389608(n+1)-n²]`
--/
-
-namespace A033994.P13689114701079665419
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389608 (n + 1) - (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A033994.P13689114701079665419
-
-namespace A033994
-
-/-- `∑[A389608(n+1)-n²]` -/
-def P13689114701079665419.Spec : Prop :=
-  ∀ n, P13689114701079665419.a n = A033994 (n + 1)
 
 end A033994
 

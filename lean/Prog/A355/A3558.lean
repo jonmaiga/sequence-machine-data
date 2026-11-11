@@ -33,7 +33,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -869,6 +869,29 @@ namespace A355816
 /-- `and(A079872(n+1), A325964(n+1))` -/
 def P9485098235513829914.Spec : Prop :=
   ∀ n, P9485098235513829914.a n = A355816 (n + 1)
+
+end A355816
+
+/-! ## A355816.P17003925132459112506
+
+`xor(A010055(n+1), A325964(n+1))`
+-/
+
+namespace A355816.P17003925132459112506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A010055 (n + 1)) (A325964 (n + 1))
+
+end
+
+end A355816.P17003925132459112506
+
+namespace A355816
+
+/-- `xor(A010055(n+1), A325964(n+1))` -/
+def P17003925132459112506.Spec : Prop :=
+  ∀ n, P17003925132459112506.a n = A355816 (n + 1)
 
 end A355816
 
@@ -3905,21 +3928,6 @@ end
 
 end A355834.P13178998328633711399
 
-/-! ## A355834.P9485011450887072257
-
-`A277203(A136640(n+1))+A246277(n+1)`
--/
-
-namespace A355834.P9485011450887072257
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277203 (A136640 (n + 1)).toNat + A246277 (n + 1)
-
-end
-
-end A355834.P9485011450887072257
-
 /-!
 # A355835: Lexicographically earliest infinite sequence such that a(i) = a(j) => A348717(i) = A348717(j) and A355442(i) = A355442(j) for all i, j >= 1.
 
@@ -6050,6 +6058,52 @@ namespace A355859
 /-- `A049777(n+1)%A108872(n+1)` -/
 def P18104874905284629145.Spec : Prop :=
   ∀ n, P18104874905284629145.a n = A355859 (n + 1)
+
+end A355859
+
+/-! ## A355859.P18275587413084022516
+
+`A004526(A209279(n+1)+A128180(n+1))`
+-/
+
+namespace A355859.P18275587413084022516
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (A209279 (n + 1) + A128180 (n + 1)).toNat
+
+end
+
+end A355859.P18275587413084022516
+
+namespace A355859
+
+/-- `A004526(A209279(n+1)+A128180(n+1))` -/
+def P18275587413084022516.Spec : Prop :=
+  ∀ n, P18275587413084022516.a n = A355859 (n + 1)
+
+end A355859
+
+/-! ## A355859.P8029596115274081043
+
+`A211161(n+1)+A128180(n+1)-A128179(n+1)`
+-/
+
+namespace A355859.P8029596115274081043
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211161 (n + 1) + A128180 (n + 1) - A128179 (n + 1)
+
+end
+
+end A355859.P8029596115274081043
+
+namespace A355859
+
+/-- `A211161(n+1)+A128180(n+1)-A128179(n+1)` -/
+def P8029596115274081043.Spec : Prop :=
+  ∀ n, P8029596115274081043.a n = A355859 (n + 1)
 
 end A355859
 

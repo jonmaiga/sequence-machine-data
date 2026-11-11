@@ -29,6 +29,7 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
@@ -3362,6 +3363,21 @@ end
 
 end A178053.P12481796706130942239
 
+/-! ## A178053.P3335217998260071365
+
+`A010888(A134941(n+1))`
+-/
+
+namespace A178053.P3335217998260071365
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010888 (A134941 (n + 1)).toNat
+
+end
+
+end A178053.P3335217998260071365
+
 /-! ## A178053.P780818897703198793
 
 `A279816(3*A134941(n+1))`
@@ -3376,21 +3392,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A178053.P780818897703198793
-
-/-! ## A178053.P3465055056653182378
-
-`A007953(A178052(n+1))%A264023(n+1)`
--/
-
-namespace A178053.P3465055056653182378
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007953 (A178052 (n + 1)).toNat) (A264023 (n + 1))
-
-end
-
-end A178053.P3465055056653182378
 
 /-!
 # A178054: Numbers representing the index of the day of week for the first day of the month in the Gregorian calendar.
@@ -7395,6 +7396,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A178083.P3871684546393804064
+
+/-! ## A178083.P5376194298453029408
+
+`A215146(A182282(n+1))`
+-/
+
+namespace A178083.P5376194298453029408
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215146 (A182282 (n + 1)).toNat
+
+end
+
+end A178083.P5376194298453029408
 
 /-!
 # A178084: Numbers k for which 10k + 1, 10k + 3, 10k + 7, 10k + 9 and 10k + 13 are primes.

@@ -875,27 +875,6 @@ end
 
 end A346211.P18415845658448121439
 
-/-! ## A346211.P10229681140218643772
-
-`lt[A067721(n)², A087256(n+1)]`
--/
-
-namespace A346211.P10229681140218643772
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067721 n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087256 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A346211.P10229681140218643772
-
 /-!
 # A346212: Numbers m such that abs(K(m+1) - K(m)) = 2, and both m and m+1 are squarefree (A005117), where K(m) = A002034(m) is the Kempner function.
 

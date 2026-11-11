@@ -50,7 +50,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -4576,6 +4576,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045540.P3307264605362264824
+
+/-! ## A045540.P4071980683428181074
+
+`A000188(A052046(n+2))`
+-/
+
+namespace A045540.P4071980683428181074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000188 (A052046 (n + 2)).toNat
+
+end
+
+end A045540.P4071980683428181074
 
 /-! ## A045540.P15759417843865740071
 

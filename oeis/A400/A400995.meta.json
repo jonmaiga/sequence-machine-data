@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that p^4 is an interprime = average of two successive primes.",
+  "id": "A400995",
+  "mentions": [
+    "A006512",
+    "A030514",
+    "A123993",
+    "A248799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

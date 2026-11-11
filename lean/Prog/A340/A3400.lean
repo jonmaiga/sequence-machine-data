@@ -4484,6 +4484,36 @@ end
 
 end A340060.P12786824867410895483
 
+/-! ## A340060.P11095901970122532860
+
+`A325968(A330488(n+1))`
+-/
+
+namespace A340060.P11095901970122532860
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325968 (A330488 (n + 1)).toNat
+
+end
+
+end A340060.P11095901970122532860
+
+/-! ## A340060.P6961033533759027927
+
+`A003972(A330488(n+1))`
+-/
+
+namespace A340060.P6961033533759027927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003972 (A330488 (n + 1)).toNat
+
+end
+
+end A340060.P6961033533759027927
+
 /-! ## A340060.P1434748851923012762
 
 `A000113(A330488(n+1))`

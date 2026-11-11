@@ -24,14 +24,12 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
@@ -2784,6 +2782,29 @@ namespace A308828
 /-- `A000010(A026741(A003557((n+1)²)))` -/
 def P9609895571259602152.Spec : Prop :=
   ∀ n, P9609895571259602152.a n = A308828 (n + 1)
+
+end A308828
+
+/-! ## A308828.P1325244955770652548
+
+`A000010(A003557(A026741((n+1)*(n+1))))`
+-/
+
+namespace A308828.P1325244955770652548
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (A003557 (A026741 ((n + 1) * (n + 1))).toNat).toNat
+
+end
+
+end A308828.P1325244955770652548
+
+namespace A308828
+
+/-- `A000010(A003557(A026741((n+1)*(n+1))))` -/
+def P1325244955770652548.Spec : Prop :=
+  ∀ n, P1325244955770652548.a n = A308828 (n + 1)
 
 end A308828
 
@@ -8630,6 +8651,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308895.P18144375999269530273
+
+/-! ## A308895.P6402169661192945568
+
+`A173474(A308889(n+1))`
+-/
+
+namespace A308895.P6402169661192945568
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173474 (A308889 (n + 1)).toNat
+
+end
+
+end A308895.P6402169661192945568
+
+/-! ## A308895.P1292313244133109708
+
+`A110699(A308889(n+1))`
+-/
+
+namespace A308895.P1292313244133109708
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110699 (A308889 (n + 1)).toNat
+
+end
+
+end A308895.P1292313244133109708
 
 /-!
 # A308896: Walk a rook along the square spiral numbered 0, 1, 2, ... (cf. A274641); a(n) = mex of earlier values the rook can move to.

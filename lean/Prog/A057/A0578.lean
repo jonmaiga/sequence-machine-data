@@ -25,7 +25,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -1657,29 +1657,32 @@ def P8018707171458410565.Spec : Prop :=
 
 end A057812
 
-/-! ## A057812.P15470254342292806369
+/-! ## A057812.P9077811002213753965
 
-`filter[A173517(n), A131378(#)]`
+`eq[A054977(n), A131378(n)]`
 -/
 
-namespace A057812.P15470254342292806369
+namespace A057812.P9077811002213753965
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173517 n
+  A054977 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A131378 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131378 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A057812.P15470254342292806369
+end A057812.P9077811002213753965
 
 namespace A057812
 
-/-- `filter[A173517(n), A131378(#)]` -/
-def P15470254342292806369.Spec : Prop :=
-  ∀ n, P15470254342292806369.a n = A057812 (n + 1)
+/-- `eq[A054977(n), A131378(n)]` -/
+def P9077811002213753965.Spec : Prop :=
+  ∀ n, (P9077811002213753965.a n : ℤ) = A057812 (n + 1)
 
 end A057812
 
@@ -8350,32 +8353,33 @@ def P2617840652759136321.Spec : Prop :=
 
 end A057854
 
-/-! ## A057854.P100796125746125927
+/-! ## A057854.P2079994252266234555
 
-`lt[1, A116543(n)]`
+`∪[A064362(n+1), A333357(n+1)]`
 -/
 
-namespace A057854.P100796125746125927
+namespace A057854.P2079994252266234555
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064362 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116543 n
+  A333357 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A057854.P100796125746125927
+end A057854.P2079994252266234555
 
 namespace A057854
 
-/-- `lt[1, A116543(n)]` -/
-def P100796125746125927.Spec : Prop :=
-  ∀ n, (P100796125746125927.a n : ℤ) = A057854 (n + 1)
+/-- `∪[A064362(n+1), A333357(n+1)]` -/
+def P2079994252266234555.Spec : Prop :=
+  ∀ n, (P2079994252266234555.a n : ℤ) = A057854 (n + 1)
 
 end A057854
 

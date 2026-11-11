@@ -9668,6 +9668,32 @@ def P1983618304781826940.Spec : Prop :=
 
 end A346396
 
+/-! ## A346396.P10277547041973297813
+
+`∑{#}[n-1, C(n, #)*4^#*(n-#-1)!]`
+-/
+
+namespace A346396.P10277547041973297813
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, Nat.choose n k * 4 ^ k * Nat.factorial ((n : ℤ) - (k : ℤ) - 1).toNat
+
+end
+
+end A346396.P10277547041973297813
+
+namespace A346396
+
+/-- `∑{#}[n-1, C(n, #)*4^#*(n-#-1)!]` -/
+def P10277547041973297813.Spec : Prop :=
+  ∀ n, (P10277547041973297813.a n : ℤ) = A346396 n
+
+end A346396
+
 /-!
 # A346397: Expansion of e.g.f. -log(1 - x) * exp(-2*x).
 

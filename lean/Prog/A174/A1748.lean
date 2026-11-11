@@ -35,7 +35,7 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -569,6 +569,29 @@ namespace A174801
 /-- `record[n/A217612(n+1)+1]` -/
 def P2273684560259004702.Spec : Prop :=
   ∀ n, P2273684560259004702.a n = (A174801 (n + 1) : ℚ)
+
+end A174801
+
+/-! ## A174801.P7751829225869678992
+
+`A377505(A079147(n+1))`
+-/
+
+namespace A174801.P7751829225869678992
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377505 (A079147 (n + 1)).toNat
+
+end
+
+end A174801.P7751829225869678992
+
+namespace A174801
+
+/-- `A377505(A079147(n+1))` -/
+def P7751829225869678992.Spec : Prop :=
+  ∀ n, P7751829225869678992.a n = A174801 (n + 1)
 
 end A174801
 
@@ -4428,6 +4451,21 @@ end
 
 end A174821.P9175652932093793958
 
+/-! ## A174821.P2930447664234552079
+
+`A056926(A235484(n+1))`
+-/
+
+namespace A174821.P2930447664234552079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056926 (A235484 (n + 1)).toNat
+
+end
+
+end A174821.P2930447664234552079
+
 /-!
 # A174822: Primes of form n^4 - n^2 - 1.
 
@@ -5055,6 +5093,78 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A174830.P3749822243205312654
+
+/-! ## A174830.P2181735303275271919
+
+`filter[A381738(n+1), A266070(#)]`
+-/
+
+namespace A174830.P2181735303275271919
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381738 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266070 (f1 j).toNat = 1) n)
+
+end
+
+end A174830.P2181735303275271919
+
+/-! ## A174830.P14771805856880355397
+
+`filter[A381738(n+1), A266246(#)]`
+-/
+
+namespace A174830.P14771805856880355397
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381738 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266246 (f1 j).toNat = 1) n)
+
+end
+
+end A174830.P14771805856880355397
+
+/-! ## A174830.P14501073926550049716
+
+`filter[A381738(n+1), A266611(#)]`
+-/
+
+namespace A174830.P14501073926550049716
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381738 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266611 (f1 j).toNat = 1) n)
+
+end
+
+end A174830.P14501073926550049716
+
+/-! ## A174830.P9962211467441345076
+
+`filter[A381738(n+1), A266719(#)]`
+-/
+
+namespace A174830.P9962211467441345076
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381738 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A266719 (f1 j).toNat = 1) n)
+
+end
+
+end A174830.P9962211467441345076
 
 /-!
 # A174831: a(n) is the concatenation of the frequency of 0's, 1's, 2's etc. in the entries a(0) up to a(n-1).

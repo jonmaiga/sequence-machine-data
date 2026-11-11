@@ -35,7 +35,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
@@ -935,26 +935,29 @@ def P850372076666489357.Spec : Prop :=
 
 end A109606
 
-/-! ## A109606.P3533560720138089657
+/-! ## A109606.P17451623169439282547
 
-`A023443(A000010(n+1))`
+`(n+1)*∑{d}[n+1, A008683(#)/#]-1`
 -/
 
-namespace A109606.P3533560720138089657
+namespace A109606.P17451623169439282547
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 (A000010 (n + 1)).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) * (∑ d ∈ Nat.divisors (f1 n), (A008683 d : ℚ) / (d : ℚ)) - 1
 
 end
 
-end A109606.P3533560720138089657
+end A109606.P17451623169439282547
 
 namespace A109606
 
-/-- `A023443(A000010(n+1))` -/
-def P3533560720138089657.Spec : Prop :=
-  ∀ n, P3533560720138089657.a n = A109606 (n + 1)
+/-- `(n+1)*∑{d}[n+1, A008683(#)/#]-1` -/
+def P17451623169439282547.Spec : Prop :=
+  ∀ n, P17451623169439282547.a n = (A109606 (n + 1) : ℚ)
 
 end A109606
 
@@ -8043,20 +8046,35 @@ end
 
 end A109679.P6991728658497555728
 
-/-! ## A109679.P440071639714061190
+/-! ## A109679.P10499822687302450922
 
-`A023036(A247806(n+1)*A242784(n)^(n+1))`
+`A023036(A045917(A053033(n+1)))`
 -/
 
-namespace A109679.P440071639714061190
+namespace A109679.P10499822687302450922
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023036 (A247806 (n + 1) * A242784 n ^ (n + 1)).toNat
+  A023036 (A045917 (A053033 (n + 1)).toNat).toNat
 
 end
 
-end A109679.P440071639714061190
+end A109679.P10499822687302450922
+
+/-! ## A109679.P12263066762674299193
+
+`A004277(A053033(n+1))`
+-/
+
+namespace A109679.P12263066762674299193
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 (A053033 (n + 1)).toNat
+
+end
+
+end A109679.P12263066762674299193
 
 /-!
 # A109680: a(n) = 2^(4n-2) - A104403(n).

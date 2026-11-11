@@ -36,6 +36,7 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6828,7 +6829,7 @@ end A102551
 /-!
 # A102552: a(n) = prime(n) - (prime(n+1) + prime(n-1))/2.
 
-The programs for A102552, the canonical program `A102552.P5250059881611389218` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102552 has offset 3).
+The programs for A102552, the canonical program `A102552.P5250059881611389218` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102552 has offset 3).
 
 The definition of A102552 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6860,7 +6861,7 @@ end A102552
 
 `A000040(n+3)-(A000040(n+2)+A000040(n+4))/2`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102552
@@ -9793,6 +9794,21 @@ end
 
 end A102569.P3237520031772506409
 
+/-! ## A102569.P1389571739910621287
+
+`A102570(A102570(A102570(A102568(n+1))))`
+-/
+
+namespace A102569.P1389571739910621287
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102570 (A102570 (A102570 (A102568 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A102569.P1389571739910621287
+
 /-!
 # A102570: a(n) = A102568(A102568(n)).
 
@@ -11049,6 +11065,21 @@ end
 
 end A102582.P8826190125249107517
 
+/-! ## A102582.P16307837938696500205
+
+`A390532(A102581(n+2))`
+-/
+
+namespace A102582.P16307837938696500205
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390532 (A102581 (n + 2)).toNat
+
+end
+
+end A102582.P16307837938696500205
+
 /-! ## A102582.P11878878248422227316
 
 `A004526(A102581(n+2)+1)`
@@ -11129,27 +11160,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102582.P6298450339439381621
-
-/-! ## A102582.P10577112751587941460
-
-`∑[A273943(Δ[A102581(n+1)])]`
--/
-
-namespace A102582.P10577112751587941460
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102581 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A273943 (f2 (n + 1) - f2 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A102582.P10577112751587941460
 
 /-!
 # A102584: a(n) = 1/2 times the cancellation factor in reducing Sum_{k=0 to 2n+1} 1/k! to lowest terms.

@@ -27,7 +27,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
@@ -49,7 +48,7 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -5950,7 +5949,7 @@ end
 end A203375.P15578457534062504706
 
 /-!
-# A203376: Number of (n+1)X7 0..1 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements.
+# A203376: Number of (n+1) X 7 0..1 arrays with every 2 X 2 subblock having equal diagonal elements or equal antidiagonal elements.
 
 The programs for A203376, there is no canonical definition to state claims against.
 -/

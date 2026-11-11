@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..k} C(k,j)*(-1)^(k-j)*Stirling2(n+j,j) for n >= 0, 0 <= k <= 2*n.",
+  "id": "A400987",
+  "mentions": [
+    "A000169",
+    "A001147",
+    "A008299",
+    "A094262",
+    "A390890",
+    "A400988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

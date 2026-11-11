@@ -1,5 +1,5 @@
 {
-  "description": "Compound filter: a(n) = T(A032742(n), A046523(n)), where T(n,k) is sequence A000027 used as a pairing function.",
+  "description": "a(n) = (1/2)*(2 + ((A032742(n)+A046523(n))^2) - A032742(n) - 3*A046523(n)), where A032742(n) is the largest proper divisor of n, and A046523(n) is the smallest number with same prime signature as n.",
   "id": "A285729",
   "mentions": [
     "A000027",
@@ -15,10 +15,13 @@
     "A286161",
     "A286162",
     "A286163",
-    "A286164"
+    "A286164",
+    "A300229"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

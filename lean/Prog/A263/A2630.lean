@@ -46,7 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -10569,20 +10569,20 @@ end
 
 end A263095.P5942985736185087124
 
-/-! ## A263095.P15871305842760662978
+/-! ## A263095.P15234409525739535226
 
-`A000290(A263093(A000290(n+1)/(n+1)))`
+`A000290(A263093(n+1))`
 -/
 
-namespace A263095.P15871305842760662978
+namespace A263095.P15234409525739535226
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A263093 (SequenceMachineLib.roundAway ((A000290 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat).toNat
+  A000290 (A263093 (n + 1)).toNat
 
 end
 
-end A263095.P15871305842760662978
+end A263095.P15234409525739535226
 
 /-! ## A263095.P6779172477272271417
 

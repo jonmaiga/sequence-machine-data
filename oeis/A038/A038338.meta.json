@@ -1,15 +1,20 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*12^(i-j)*12^j.",
   "id": "A038338",
-  "mentions": [],
+  "mentions": [
+    "A001021",
+    "A007318",
+    "A009968"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

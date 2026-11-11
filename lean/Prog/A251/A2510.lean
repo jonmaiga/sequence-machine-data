@@ -14,7 +14,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -29,6 +28,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C043
@@ -5699,7 +5699,7 @@ end A251080.P12384738641584968886
 /-!
 # A251081: Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having the sum of its diagonal elements greater than the absolute difference of its antidiagonal elements.
 
-The programs for A251081, the canonical program `A251081.P1178899843510358379` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251081 has offset 1).
+The programs for A251081, the canonical program `A251081.P1178899843510358379` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251081 has offset 1).
 
 The definition of A251081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5708,7 +5708,7 @@ The definition of A251081 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((27-52x-7x^2+70x^3-47x^4+6x^5+2x^6)/(1-5x+8x^2-2x^3-7x^4+7x^5-2x^6))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A251081
@@ -6615,7 +6615,7 @@ end A251090.P10851247248040576846
 /-!
 # A251091: a(n) = n^2 / gcd(n+2, 4).
 
-The programs for A251091, the canonical program `A251091.P13345940998005277488` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251091 has offset 0).
+The programs for A251091, the canonical program `A251091.P13345940998005277488` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251091 has offset 0).
 
 The definition of A251091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6624,7 +6624,7 @@ The definition of A251091 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n²/gcd(n+2, 4)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A251091
@@ -7750,7 +7750,7 @@ end A251093.P15381610261352559548
 /-!
 # A251094: Number of (n+1) X (2+1) 0..1 arrays with no 2 X 2 subblock having its minimum diagonal element less than its minimum antidiagonal element.
 
-The programs for A251094, the canonical program `A251094.P4131407824883716382` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251094 has offset 1).
+The programs for A251094, the canonical program `A251094.P4131407824883716382` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251094 has offset 1).
 
 The definition of A251094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 137 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7759,7 +7759,7 @@ The definition of A251094 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((41-75x+76x^2-24x^3)/(1-7x+11x^2-10x^3+3x^4))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A251094

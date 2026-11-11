@@ -7582,23 +7582,29 @@ end A133146
 /-!
 # A133147: a(n) = a(n-1) + Sum_{k=0..floor(log_2(n-1))} a(2^k), a(1) = 1.
 
-The programs for A133147, there is no canonical definition to state claims against.
+The programs for A133147, the canonical program `A133147.P6307246577324722302` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133147 has offset 1).
+
+The definition of A133147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A133147.P6307246577324722302
 
 `a(n-1)*A000040(A014963(2*n))-a(n-2)` with `a(0)=1, a(1)=2`
+
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
-namespace A133147.P6307246577324722302
-noncomputable section
+namespace A133147
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
-  a (n - 1) * A000040 (A014963 (2 * n)).toNat - a (n - 2)
+/-- `a(n-1)*A000040(A014963(2*n))-a(n-2)` -/
+def P6307246577324722302.Spec : Prop :=
+  ∀ n, P6307246577324722302.a n = A133147 (n + 1)
 
-end
+theorem P6307246577324722302.correct : P6307246577324722302.Spec := by
+  intro n
+  simp only [A133147, Nat.add_sub_cancel]
 
-end A133147.P6307246577324722302
+end A133147
 
 /-! ## A133147.P8856191243827425704
 
@@ -7618,6 +7624,14 @@ end
 
 end A133147.P8856191243827425704
 
+namespace A133147
+
+/-- `∑[A114003(A003418(A053644(n)))]` -/
+def P8856191243827425704.Spec : Prop :=
+  ∀ n, P8856191243827425704.a n = A133147 (n + 1)
+
+end A133147
+
 /-! ## A133147.P7272799176651724856
 
 `∑[A137735(A256209(A003817(n)))]`
@@ -7636,6 +7650,14 @@ end
 
 end A133147.P7272799176651724856
 
+namespace A133147
+
+/-- `∑[A137735(A256209(A003817(n)))]` -/
+def P7272799176651724856.Spec : Prop :=
+  ∀ n, P7272799176651724856.a n = A133147 (n + 1)
+
+end A133147
+
 /-! ## A133147.P13787132308786410841
 
 `∑[A226080(A033302(n+4)!)]`
@@ -7653,6 +7675,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A133147.P13787132308786410841
+
+namespace A133147
+
+/-- `∑[A226080(A033302(n+4)!)]` -/
+def P13787132308786410841.Spec : Prop :=
+  ∀ n, P13787132308786410841.a n = A133147 (n + 1)
+
+end A133147
 
 /-!
 # A133148: E.g.f.: Sum_{k>=1} (x^k/k! / Product_{i=1..k} (1-x^i)).

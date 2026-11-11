@@ -79,6 +79,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3696,6 +3697,36 @@ def P11011115949196408447.Spec : Prop :=
 
 end A162250
 
+/-! ## A162250.P8549627769349885506
+
+`∩[A046704(n+1), A387119(n+1)]`
+-/
+
+namespace A162250.P8549627769349885506
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046704 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387119 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A162250.P8549627769349885506
+
+namespace A162250
+
+/-- `∩[A046704(n+1), A387119(n+1)]` -/
+def P8549627769349885506.Spec : Prop :=
+  ∀ n, (P8549627769349885506.a n : ℤ) = A162250 (n + 1)
+
+end A162250
+
 /-! ## A162250.P7469126375096406103
 
 `∩[A046704(n+1), A048989(n+1)]`
@@ -4776,6 +4807,29 @@ theorem P5258947822198821434.correct : P5258947822198821434.Spec := by
 
 end A162255
 
+/-! ## A162255.P874489584454500098
+
+`(5+(-1)^n)/2*2^floor(n/2)`
+-/
+
+namespace A162255.P874489584454500098
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 + (-1) ^ n : ℚ) / 2 * (2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ)
+
+end
+
+end A162255.P874489584454500098
+
+namespace A162255
+
+/-- `(5+(-1)^n)/2*2^floor(n/2)` -/
+def P874489584454500098.Spec : Prop :=
+  ∀ n, P874489584454500098.a n = (A162255 (n + 1) : ℚ)
+
+end A162255
+
 /-! ## A162255.P1577007907247997133
 
 `1-floor(1-a(n-2)-a(n-2))` with `a(0)=3, a(1)=2`
@@ -5066,29 +5120,6 @@ namespace A162255
 /-- `∑[A137206(n+1)]+1` -/
 def P4327294160819401078.Spec : Prop :=
   ∀ n, P4327294160819401078.a n = A162255 (n + 1)
-
-end A162255
-
-/-! ## A162255.P15227736805217190589
-
-`A052955(A004442(n))+1`
--/
-
-namespace A162255.P15227736805217190589
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052955 (A004442 n).toNat + 1
-
-end
-
-end A162255.P15227736805217190589
-
-namespace A162255
-
-/-- `A052955(A004442(n))+1` -/
-def P15227736805217190589.Spec : Prop :=
-  ∀ n, P15227736805217190589.a n = A162255 (n + 1)
 
 end A162255
 
@@ -8535,6 +8566,29 @@ def P11516507312587487339.Spec : Prop :=
 
 end A162262
 
+/-! ## A162262.P10390676421368330963
+
+`A163675(n+1)-(A017209(n)+A017041(n+1))`
+-/
+
+namespace A162262.P10390676421368330963
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163675 (n + 1) - (A017209 n + A017041 (n + 1))
+
+end
+
+end A162262.P10390676421368330963
+
+namespace A162262
+
+/-- `A163675(n+1)-(A017209(n)+A017041(n+1))` -/
+def P10390676421368330963.Spec : Prop :=
+  ∀ n, P10390676421368330963.a n = A162262 (n + 1)
+
+end A162262
+
 /-!
 # A162263: a(n) = (2*n^3 + 5*n^2 + 11*n)/2.
 
@@ -9019,29 +9073,26 @@ def P2643247019357593127.Spec : Prop :=
 
 end A162263
 
-/-! ## A162263.P17896146292912558593
+/-! ## A162263.P3019068922729135948
 
-`∑[A056109(n+1)+3]`
+`A126264(n+1)+A081423(n)`
 -/
 
-namespace A162263.P17896146292912558593
+namespace A162263.P3019068922729135948
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056109 (n + 1) + 3
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A126264 (n + 1) + A081423 n
 
 end
 
-end A162263.P17896146292912558593
+end A162263.P3019068922729135948
 
 namespace A162263
 
-/-- `∑[A056109(n+1)+3]` -/
-def P17896146292912558593.Spec : Prop :=
-  ∀ n, P17896146292912558593.a n = A162263 (n + 1)
+/-- `A126264(n+1)+A081423(n)` -/
+def P3019068922729135948.Spec : Prop :=
+  ∀ n, P3019068922729135948.a n = A162263 (n + 1)
 
 end A162263
 
@@ -14498,6 +14549,46 @@ end
 
 end A162291.P3884188699710979395
 
+/-! ## A162291.P160276077748361342
+
+`p?[n*(n+1)²-1]`
+-/
+
+namespace A162291.P160276077748361342
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n * (n + 1) ^ 2 : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A162291.P160276077748361342
+
+/-! ## A162291.P10809582165629737551
+
+`∩[A025584(n+1), A087908(n+1)]`
+-/
+
+namespace A162291.P10809582165629737551
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025584 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087908 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A162291.P10809582165629737551
+
 /-!
 # A162292: Primes of the form k^3-k^2+1, k>0.
 
@@ -14549,6 +14640,21 @@ end
 
 end A162292.P5816793743933489102
 
+/-! ## A162292.P1058001674376788920
+
+`A045991(A111501(n+1))+1`
+-/
+
+namespace A162292.P1058001674376788920
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045991 (A111501 (n + 1)).toNat + 1
+
+end
+
+end A162292.P1058001674376788920
+
 /-! ## A162292.P17108222647362750609
 
 `A087908(A154686(n+1)+1)+2`
@@ -14563,21 +14669,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162292.P17108222647362750609
-
-/-! ## A162292.P12880749232623655284
-
-`A045991(A111501(n+1))+A007318(C(2, n))`
--/
-
-namespace A162292.P12880749232623655284
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045991 (A111501 (n + 1)).toNat + A007318 (Nat.choose 2 n)
-
-end
-
-end A162292.P12880749232623655284
 
 /-! ## A162292.P11207112869636281685
 
@@ -14974,6 +15065,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162295.P6837103473675720707
+
+/-! ## A162295.P91480462523777387
+
+`filter[A083074(n+2), A010051(#)]`
+-/
+
+namespace A162295.P91480462523777387
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083074 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A162295.P91480462523777387
 
 /-!
 # A162296: Sum of divisors of n that have a square factor.

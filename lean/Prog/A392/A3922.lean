@@ -244,6 +244,21 @@ end
 
 end A392201.P4929366546603801991
 
+/-! ## A392201.P8150155778735401070
+
+`A182659(A331605(n+1))`
+-/
+
+namespace A392201.P8150155778735401070
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182659 (A331605 (n + 1)).toNat
+
+end
+
+end A392201.P8150155778735401070
+
 /-! ## A392201.P5041220596493503286
 
 `A031396(n+1)+A170976(3*n+2)!`
@@ -258,21 +273,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392201.P5041220596493503286
-
-/-! ## A392201.P7459798018026630973
-
-`A031396(n+1)+A005361(A001003(n))`
--/
-
-namespace A392201.P7459798018026630973
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031396 (n + 1) + A005361 (A001003 n).toNat
-
-end
-
-end A392201.P7459798018026630973
 
 /-!
 # A392203: G.f. A(x) satisfies A(x - A(x)) = x^2 + x*A(x).
@@ -7268,6 +7268,32 @@ namespace A392288
 /-- `filter[A130092(1+n), A355447(#)]` -/
 def P10669957372046280492.Spec : Prop :=
   ∀ n, P10669957372046280492.a n = A392288 (n + 1)
+
+end A392288
+
+/-! ## A392288.P5074698631985943330
+
+`filter[A130092(n+1), A401791(#)]`
+-/
+
+namespace A392288.P5074698631985943330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130092 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A401791 (f1 j).toNat = 1) n)
+
+end
+
+end A392288.P5074698631985943330
+
+namespace A392288
+
+/-- `filter[A130092(n+1), A401791(#)]` -/
+def P5074698631985943330.Spec : Prop :=
+  ∀ n, P5074698631985943330.a n = A392288 (n + 1)
 
 end A392288
 

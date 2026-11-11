@@ -2464,6 +2464,32 @@ def P16510679129902441811.Spec : Prop :=
 
 end A145222
 
+/-! ## A145222.P1178899047685777649
+
+`∑{#}[n-2, (-1)^#*(n+1)!/(2*#!)]`
+-/
+
+namespace A145222.P1178899047685777649
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 2
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, ((-1) ^ k * (Nat.factorial (n + 1) : ℤ) : ℚ) / (2 * Nat.factorial k : ℚ)
+
+end
+
+end A145222.P1178899047685777649
+
+namespace A145222
+
+/-- `∑{#}[n-2, (-1)^#*(n+1)!/(2*#!)]` -/
+def P1178899047685777649.Spec : Prop :=
+  ∀ n, P1178899047685777649.a n = (A145222 (n + 1) : ℚ)
+
+end A145222
+
 /-! ## A145222.P7766030570692054338
 
 `2/(n+2)*A145223(n+2)`
@@ -2484,29 +2510,6 @@ namespace A145222
 /-- `2/(n+2)*A145223(n+2)` -/
 def P7766030570692054338.Spec : Prop :=
   ∀ n, P7766030570692054338.a n = (A145222 (n + 1) : ℚ)
-
-end A145222
-
-/-! ## A145222.P7405800528724662494
-
-`A000387(n+1)+A145887(n+1)-A145886(n+1)`
--/
-
-namespace A145222.P7405800528724662494
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000387 (n + 1) + (A145887 (n + 1) - A145886 (n + 1))
-
-end
-
-end A145222.P7405800528724662494
-
-namespace A145222
-
-/-- `A000387(n+1)+A145887(n+1)-A145886(n+1)` -/
-def P7405800528724662494.Spec : Prop :=
-  ∀ n, P7405800528724662494.a n = A145222 (n + 1)
 
 end A145222
 
@@ -4105,21 +4108,6 @@ end
 
 end A145254.P16185346277112714649
 
-/-! ## A145254.P7308417790003671798
-
-`A303708(A000040(n+1))*A379120(n+2)`
--/
-
-namespace A145254.P7308417790003671798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303708 (A000040 (n + 1)).toNat * A379120 (n + 2)
-
-end
-
-end A145254.P7308417790003671798
-
 /-! ## A145254.P16272991100788681830
 
 `A094701(A129196(n+1))`
@@ -4134,6 +4122,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145254.P16272991100788681830
+
+/-! ## A145254.P6527588128851351415
+
+`A094701(A270437(n+2))`
+-/
+
+namespace A145254.P6527588128851351415
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094701 (A270437 (n + 2)).toNat
+
+end
+
+end A145254.P6527588128851351415
 
 /-!
 # A145255: a(n) = the smallest positive integer that is non-coprime to n and has the same number of 0's in its binary representation as n has.

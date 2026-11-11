@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of ways to orient the edges of a simple labeled graph on [n] having exactly k edges so that there are no vertex descents then color the vertices with exactly n colors c1<c2<...<cn so that there are no color descents, 0<=k<=binomial(n,2), n>=0.",
+  "id": "A401277",
+  "mentions": [
+    "A005329",
+    "A401320"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

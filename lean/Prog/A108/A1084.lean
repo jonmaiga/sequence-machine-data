@@ -5147,23 +5147,20 @@ end
 
 end A108450.P4473310120993012471
 
-/-! ## A108450.P3370983501702408904
+/-! ## A108450.P4503687044706971584
 
-`∑[2*(A108424(n+1)-A027307(n))]`
+`A108453(n+1)+A108453(n+1)`
 -/
 
-namespace A108450.P3370983501702408904
+namespace A108450.P4503687044706971584
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A108424 (n + 1) - A027307 n)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A108453 (n + 1) + A108453 (n + 1)
 
 end
 
-end A108450.P3370983501702408904
+end A108450.P4503687044706971584
 
 /-!
 # A108452: Number of paths from (0,0) to (3n,0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u=(2,1),U=(1,2), or d=(1,-1) and having no pyramids of the first kind (a pyramid of the first kind is a sequence u^pd^p for some positive integer p, starting at the x-axis).
@@ -10416,6 +10413,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A108494.P15391033140391184878
+
+/-! ## A108494.P12231096463478699829
+
+`A080015(n)*A080015(n+1)/A080054(n+1)`
+-/
+
+namespace A108494.P12231096463478699829
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A080015 n * A080015 (n + 1) : ℚ) / (A080054 (n + 1) : ℚ)
+
+end
+
+end A108494.P12231096463478699829
 
 /-! ## A108494.P16164883593683476518
 

@@ -38,7 +38,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
@@ -3209,7 +3208,7 @@ end A327133.P9772694803968877695
 /-!
 # A327136: Numbers k such that sin(2k) > sin(2k+2) < sin(2k+4).
 
-The programs for A327136, the canonical program `A327136.P1348591556349023489` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327136 has offset 1).
+The programs for A327136, the canonical program `A327136.P1348591556349023489` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327136 has offset 1).
 
 The definition of A327136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3297,7 +3296,7 @@ end A327136
 
 `round((A246394(n)-2)/2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A327136
@@ -4258,7 +4257,7 @@ end A327138
 /-!
 # A327139: Numbers k such that cos(2k) > cos(2k+2) < cos(2k+4).
 
-The programs for A327139, the canonical program `A327139.P3482459299308253757` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327139 has offset 1).
+The programs for A327139, the canonical program `A327139.P10035799158716083822` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327139 has offset 1).
 
 The definition of A327139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4341,20 +4340,20 @@ def P3627032674711334028.Spec : Prop :=
 
 end A327139
 
-/-! ## A327139.P3482459299308253757
+/-! ## A327139.P10035799158716083822
 
-`A246388(n)%A257984(n+1)`
+`A246388(n)-A257984(n+1)`
 
 The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327139
 
-/-- `A246388(n)%A257984(n+1)` -/
-def P3482459299308253757.Spec : Prop :=
-  ∀ n, P3482459299308253757.a n = A327139 (n + 1)
+/-- `A246388(n)-A257984(n+1)` -/
+def P10035799158716083822.Spec : Prop :=
+  ∀ n, P10035799158716083822.a n = A327139 (n + 1)
 
-theorem P3482459299308253757.correct : P3482459299308253757.Spec := by
+theorem P10035799158716083822.correct : P10035799158716083822.Spec := by
   intro n
   simp only [A327139, Nat.add_sub_cancel]
 
@@ -4387,6 +4386,35 @@ namespace A327139
 /-- `∪[A246294(n+1), A246297(n+1)]` -/
 def P11197919743637177654.Spec : Prop :=
   ∀ n, (P11197919743637177654.a n : ℤ) = A327139 (n + 1)
+
+end A327139
+
+/-! ## A327139.P8649036166940236974
+
+`A022844(2*n+1)-A257984(n+1)`
+-/
+
+namespace A327139.P8649036166940236974
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022844 (2 * n + 1) - A257984 (n + 1)
+
+end
+
+end A327139.P8649036166940236974
+
+namespace A327139
+
+/-- `A022844(2*n+1)-A257984(n+1)` -/
+def P8649036166940236974.Spec : Prop :=
+  ∀ n, P8649036166940236974.a n = A327139 (n + 1)
+
+theorem P8649036166940236974.correct : P8649036166940236974.Spec := by
+  intro n
+  simp only [A327139, Nat.add_sub_cancel, A327139.P8649036166940236974.a, A327139.P10035799158716083822.a, A022844, A022844.P11976428228251050705.a, A246388, A246388.P8549268326510551473.f1, A246388.P8549268326510551473.a, A257984, A257984.P11345395512467925832.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A327139
 
@@ -4495,29 +4523,6 @@ namespace A327139
 /-- `A292987(2*(n+1))-2` -/
 def P15418633384571237079.Spec : Prop :=
   ∀ n, P15418633384571237079.a n = A327139 (n + 1)
-
-end A327139
-
-/-! ## A327139.P1842675434655469998
-
-`A293137(A352741(n+1))`
--/
-
-namespace A327139.P1842675434655469998
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293137 (A352741 (n + 1)).toNat
-
-end
-
-end A327139.P1842675434655469998
-
-namespace A327139
-
-/-- `A293137(A352741(n+1))` -/
-def P1842675434655469998.Spec : Prop :=
-  ∀ n, P1842675434655469998.a n = A327139 (n + 1)
 
 end A327139
 

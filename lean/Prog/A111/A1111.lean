@@ -2417,6 +2417,51 @@ end
 
 end A111116.P2039919384692663462
 
+/-! ## A111116.P8397912477238126166
+
+`A113318(A043315(n+1))`
+-/
+
+namespace A111116.P8397912477238126166
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113318 (A043315 (n + 1)).toNat
+
+end
+
+end A111116.P8397912477238126166
+
+/-! ## A111116.P18018797986826473133
+
+`A113318(A044912(n+1))`
+-/
+
+namespace A111116.P18018797986826473133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113318 (A044912 (n + 1)).toNat
+
+end
+
+end A111116.P18018797986826473133
+
+/-! ## A111116.P5709187885539502600
+
+`A113318(A055649(n+1))`
+-/
+
+namespace A111116.P5709187885539502600
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113318 (A055649 (n + 1)).toNat
+
+end
+
+end A111116.P5709187885539502600
+
 /-!
 # A111118: a(1) = 1; skipping over integers occurring earlier in the sequence, count down c(n) (c(n) = n-th composite) from a(n) to get a(n+1). If this is <= 0, instead count up from a(n) c(n) positions (skipping already occurring integers) to get a(n+1).
 
@@ -3395,6 +3440,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A111128.P13407411674358821616
+
+/-!
+# A111130: Numerator of (n+2)^(n+2)/(n+1)^(n+1) - (n+1)^(n+1)/n^n.
+
+The programs for A111130, there is no canonical definition to state claims against.
+-/
+
+/-! ## A111130.P11567808515141594911
+
+`n^n*(n+2)^(n+2)-(n+1)^(2*(n+1))`
+-/
+
+namespace A111130.P11567808515141594911
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n ^ n * (n + 2) ^ (n + 2) : ℤ) - ((n + 1) ^ (2 * (n + 1)) : ℤ)
+
+end
+
+end A111130.P11567808515141594911
 
 /-!
 # A111131: Least cube greater than its predecessor such that their difference is a prime or a prime multiplied by a power of two.

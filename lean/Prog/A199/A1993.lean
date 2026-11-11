@@ -153,47 +153,6 @@ theorem P17020320036334192141.correct : P17020320036334192141.Spec := by
 
 end A199300
 
-/-! ## A199300.P1775303964120216377
-
-`14*a(n-1)-49*a(n-2)` with `a(0)=1, a(1)=21`
--/
-
-namespace A199300.P1775303964120216377
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 21] fun n a =>
-  14 * a (n - 1) - 49 * a (n - 2)
-
-end
-
-end A199300.P1775303964120216377
-
-namespace A199300
-
-/-- `14*a(n-1)-49*a(n-2)` -/
-def P1775303964120216377.Spec : Prop :=
-  ∀ n, P1775303964120216377.a n = A199300 n
-
-theorem P1775303964120216377.correct : P1775303964120216377.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A199300, Nat.add_sub_cancel, A199300.P1775303964120216377.a, A199300.P17020320036334192141.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A199300, Nat.add_sub_cancel, A199300.P1775303964120216377.a, A199300.P17020320036334192141.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [h1, h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
-
-end A199300
-
 /-! ## A199300.P978476452336359712
 
 `7^n*record[xor(1, n)]`
@@ -269,6 +228,47 @@ namespace A199300
 /-- `or(1, 7^n*Δ[n²])` -/
 def P5640304133250434196.Spec : Prop :=
   ∀ n, P5640304133250434196.a n = A199300 n
+
+end A199300
+
+/-! ## A199300.P1775303964120216377
+
+`14*a(n-1)-49*a(n-2)` with `a(0)=1, a(1)=21`
+-/
+
+namespace A199300.P1775303964120216377
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 21] fun n a =>
+  14 * a (n - 1) - 49 * a (n - 2)
+
+end
+
+end A199300.P1775303964120216377
+
+namespace A199300
+
+/-- `14*a(n-1)-49*a(n-2)` -/
+def P1775303964120216377.Spec : Prop :=
+  ∀ n, P1775303964120216377.a n = A199300 n
+
+theorem P1775303964120216377.correct : P1775303964120216377.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A199300, Nat.add_sub_cancel, A199300.P1775303964120216377.a, A199300.P17020320036334192141.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A199300, Nat.add_sub_cancel, A199300.P1775303964120216377.a, A199300.P17020320036334192141.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A199300
 

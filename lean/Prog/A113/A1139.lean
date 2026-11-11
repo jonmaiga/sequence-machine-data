@@ -21,6 +21,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -57,6 +58,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,7 +69,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -9689,26 +9691,26 @@ def P15846194540375010002.Spec : Prop :=
 
 end A113998
 
-/-! ## A113998.P2240839795760608484
+/-! ## A113998.P3158543307381901578
 
-`floor(col(n)/(row(n)-col(n)+1))-floor((col(n)-1)/(row(n)-col(n)+1))`
+`floor(col(n)/(row(n)-col(n)+1)-floor((col(n)-1)/(row(n)-col(n)+1)))`
 -/
 
-namespace A113998.P2240839795760608484
+namespace A113998.P3158543307381901578
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(SequenceMachineLib.triCol n : ℚ) / ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ)⌋ - ⌊((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) / ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ)⌋
+  ⌊(SequenceMachineLib.triCol n : ℚ) / ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) - (⌊((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) / ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ)⌋ : ℚ)⌋
 
 end
 
-end A113998.P2240839795760608484
+end A113998.P3158543307381901578
 
 namespace A113998
 
-/-- `floor(col(n)/(row(n)-col(n)+1))-floor((col(n)-1)/(row(n)-col(n)+1))` -/
-def P2240839795760608484.Spec : Prop :=
-  ∀ n, P2240839795760608484.a n = A113998 (n + 1)
+/-- `floor(col(n)/(row(n)-col(n)+1)-floor((col(n)-1)/(row(n)-col(n)+1)))` -/
+def P3158543307381901578.Spec : Prop :=
+  ∀ n, P3158543307381901578.a n = A113998 (n + 1)
 
 end A113998
 

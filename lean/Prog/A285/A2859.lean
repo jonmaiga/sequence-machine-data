@@ -21304,6 +21304,29 @@ def P8490603450084234814.Spec : Prop :=
 
 end A285998
 
+/-! ## A285998.P8743618568616595671
+
+`A144678(A014601(n))`
+-/
+
+namespace A285998.P8743618568616595671
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144678 (A014601 n).toNat
+
+end
+
+end A285998.P8743618568616595671
+
+namespace A285998
+
+/-- `A144678(A014601(n))` -/
+def P8743618568616595671.Spec : Prop :=
+  ∀ n, P8743618568616595671.a n = A285998 (n + 1)
+
+end A285998
+
 /-!
 # A285999: Total number of odd divisors of all positive integers <= n, minus the total number of middle divisors of all positive integers <= n.
 
