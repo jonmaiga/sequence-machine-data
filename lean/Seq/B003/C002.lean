@@ -27807,37 +27807,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1225 terms. -/
 def A166566.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A125131.P14592714030717739392
-
-`∏{d}[1+n, 1-A120007(#)]`
--/
-
-namespace A125131.P14592714030717739392
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), (1 - A120007 d)
-
-end
-
-end A125131.P14592714030717739392
-
-noncomputable section
-
-/-- A125131: Product 1-p, where p ranges over the prime factors of n with multiplicity.
-
-Offset 1, canonical program `A125131.P14592714030717739392`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A125131 (n : ℕ) : ℤ :=
-  A125131.P14592714030717739392.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A125131.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A112298.P13991926760380096719
 
 `A010684(n)*A093829(n+1)`
@@ -28089,6 +28058,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. -/
 def A124203.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A125131.P14592714030717739392
+
+`∏{d}[1+n, 1-A120007(#)]`
+-/
+
+namespace A125131.P14592714030717739392
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ d ∈ Nat.divisors (f1 n), (1 - A120007 d)
+
+end
+
+end A125131.P14592714030717739392
+
+noncomputable section
+
+/-- A125131: Product 1-p, where p ranges over the prime factors of n with multiplicity.
+
+Offset 1, canonical program `A125131.P14592714030717739392`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A125131 (n : ℕ) : ℤ :=
+  A125131.P14592714030717739392.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A125131.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A127246.P14720288942938943665
 
