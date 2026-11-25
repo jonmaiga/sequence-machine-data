@@ -1,0 +1,28 @@
+{
+  "description": "Difference between the integer parts of the square roots of the upper and lower central divisors of n.",
+  "id": "A402106",
+  "mentions": [
+    "A000040",
+    "A000196",
+    "A000290",
+    "A002378",
+    "A033676",
+    "A033677",
+    "A056737",
+    "A381054",
+    "A382286",
+    "A382306",
+    "A383115",
+    "A401528"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

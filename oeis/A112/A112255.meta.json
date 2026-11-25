@@ -2,10 +2,12 @@
   "description": "Decimal expansion of (secant of 1 degree)^(1/4).",
   "id": "A112255",
   "mentions": [
-    "A019898"
+    "A019898",
+    "A111691"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

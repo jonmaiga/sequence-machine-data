@@ -1,0 +1,19 @@
+{
+  "description": "Number of doubly shaded cells in the n X n grid obtained by shading according to the additive orders in the group Z/nZ, using the same horizontal/vertical rule as in A395245.",
+  "id": "A401894",
+  "mentions": [
+    "A395245",
+    "A397137",
+    "A397145",
+    "A398003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

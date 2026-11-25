@@ -1,18 +1,22 @@
 {
-  "description": "Least k such that k*(Mersenne_prime(n)^2) + 1 is prime.",
+  "description": "Least k such that k*(M(n)^2) + 1 is prime where M(n) = A000668(n).",
   "id": "A098819",
   "mentions": [
     "A000043",
     "A000668",
-    "A035092"
+    "A035092",
+    "A098917",
+    "A098918",
+    "A098920"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

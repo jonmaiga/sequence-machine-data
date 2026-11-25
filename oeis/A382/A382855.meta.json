@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimum connected dominating sets in the n-diagonal intersection graph.",
+  "description": "Number of minimum connected dominating sets in the n-polygon diagonal intersection graph.",
   "id": "A382855",
   "mentions": [],
   "tags": [

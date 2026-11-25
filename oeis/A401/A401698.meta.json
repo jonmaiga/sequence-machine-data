@@ -1,0 +1,24 @@
+{
+  "description": "Number of unordered partitions of n into distinct parts such that every 1 in the binary expansion of each part is also a 1 in the binary expansion of n.",
+  "id": "A401698",
+  "mentions": [
+    "A000009",
+    "A000120",
+    "A000265",
+    "A004198",
+    "A018900",
+    "A038573",
+    "A050315",
+    "A401699"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

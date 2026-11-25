@@ -2,6 +2,7 @@
   "description": "Number of integer partitions of n whose greatest part is at most one more than the sum of the other parts.",
   "id": "A336106",
   "mentions": [
+    "A000041",
     "A000670",
     "A003242",
     "A005649",
@@ -21,6 +22,7 @@
     "A336103"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

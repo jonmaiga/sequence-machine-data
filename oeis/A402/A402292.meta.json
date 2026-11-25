@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of regions that can be formed in the plane by drawing n noncrossing unit circles.",
+  "id": "A402292",
+  "mentions": [
+    "A000124",
+    "A047932",
+    "A056105",
+    "A085632",
+    "A085633",
+    "A386480",
+    "A402293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the optimal slope Λ in the spinless modular bootstrap bound Δ_1 <= c/Λ + o(c) on the lightest non-vacuum primary of a unitary, compact 2D CFT with no extra conserved currents.",
+  "id": "A402648",
+  "mentions": [
+    "A002388",
+    "A088367",
+    "A091648",
+    "A355186"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

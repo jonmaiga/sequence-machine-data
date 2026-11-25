@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled vertices with exactly k eccentric vertices.",
+  "id": "A401874",
+  "mentions": [
+    "A001349",
+    "A324244",
+    "A399096",
+    "A401872",
+    "A402524",
+    "A402525"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,13 @@
 {
-  "description": "Sum_{k=0..n} C(n,k)^6*C(n+k,k)^6.",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^6*binomial(n+k,k)^6.",
   "id": "A218689",
   "mentions": [
     "A001850",
     "A005259",
     "A092813",
     "A092814",
-    "A092815"
+    "A092815",
+    "A401869"
   ],
   "tags": [
     "formulas",

@@ -9,7 +9,6 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -19,7 +18,6 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C030
@@ -50,6 +48,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,13 +57,14 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +89,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A310601: Coordination sequence Gal.6.32.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -1324,36 +1323,6 @@ end
 
 end A310634.P12260036187751496446
 
-/-! ## A310634.P2476342644422223832
-
-`A310635(A227549(1+n))`
--/
-
-namespace A310634.P2476342644422223832
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310635 (A227549 (1 + n)).toNat
-
-end
-
-end A310634.P2476342644422223832
-
-/-! ## A310634.P5155163468001961612
-
-`A310635(A396204(n+1))`
--/
-
-namespace A310634.P5155163468001961612
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310635 (A396204 (n + 1)).toNat
-
-end
-
-end A310634.P5155163468001961612
-
 /-!
 # A310635: Coordination sequence Gal.6.139.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
@@ -1771,65 +1740,20 @@ end
 
 end A310642.P5539847780949911990
 
-/-! ## A310642.P14718445245337392379
+/-! ## A310642.P16740667928893531639
 
-`A310643(n)%A053302(n+1)`
+`A310643(n)`
 -/
 
-namespace A310642.P14718445245337392379
+namespace A310642.P16740667928893531639
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A310643 n) (A053302 (n + 1))
+  A310643 n
 
 end
 
-end A310642.P14718445245337392379
-
-/-! ## A310642.P14761306195199091192
-
-`A310643(n)+A184955(A184955(n))`
--/
-
-namespace A310642.P14761306195199091192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310643 n + A184955 (A184955 n).toNat
-
-end
-
-end A310642.P14761306195199091192
-
-/-! ## A310642.P16126272052957855601
-
-`A310643(n)%A057109(A000051(n))`
--/
-
-namespace A310642.P16126272052957855601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A310643 n) (A057109 (A000051 n).toNat)
-
-end
-
-end A310642.P16126272052957855601
-
-/-! ## A310642.P9363128561787815011
-
-`A322860(A006203(n+1))+A310643(n)`
--/
-
-namespace A310642.P9363128561787815011
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322860 (A006203 (n + 1)).toNat + A310643 n
-
-end
-
-end A310642.P9363128561787815011
+end A310642.P16740667928893531639
 
 /-!
 # A310644: Coordination sequence Gal.6.532.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -2507,21 +2431,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A310661.P12489263899392120077
-
-/-! ## A310661.P725120212720323131
-
-`A065033(A250122(n)-(1-A314382(n)))`
--/
-
-namespace A310661.P725120212720323131
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065033 (A250122 n - (1 - A314382 n)).toNat
-
-end
-
-end A310661.P725120212720323131
 
 /-!
 # A310662: Coordination sequence Gal.5.42.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -3233,6 +3142,21 @@ end A310677.P9349366180836334294
 The programs for A310678, there is no canonical definition to state claims against.
 -/
 
+/-! ## A310678.P16717160842009664932
+
+`A186327(A088232(n+1))`
+-/
+
+namespace A310678.P16717160842009664932
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186327 (A088232 (n + 1)).toNat
+
+end
+
+end A310678.P16717160842009664932
+
 /-! ## A310678.P4044323339996058254
 
 `A103762(n+1)+A079066(A000108(n))`
@@ -3262,21 +3186,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A310678.P8934623151613519789
-
-/-! ## A310678.P17721213736576045727
-
-`A186327(A088232(n+1))%A004220(A293797(n+3))`
--/
-
-namespace A310678.P17721213736576045727
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A186327 (A088232 (n + 1)).toNat) (A004220 (A293797 (n + 3)).toNat)
-
-end
-
-end A310678.P17721213736576045727
 
 /-!
 # A310679: Coordination sequence Gal.6.42.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.

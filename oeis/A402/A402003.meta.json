@@ -1,0 +1,23 @@
+{
+  "description": "Number of free n-celled polyominoes that do not contain a copy of the quasi-polyomino {(0,0),(2,2)} (up to translations, rotations, and reflections), i.e., polyominoes that do not contain any two cells at distance sqrt(8).",
+  "id": "A402003",
+  "mentions": [
+    "A000105",
+    "A401400",
+    "A401401",
+    "A401402",
+    "A401403",
+    "A401999",
+    "A402001",
+    "A402002"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

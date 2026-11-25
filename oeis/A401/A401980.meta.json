@@ -1,0 +1,14 @@
+{
+  "description": "Number of tilings of a strip of length n using squares (length 1) and dominoes (length 2) such that each domino has a prime number of squares preceding it.",
+  "id": "A401980",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{x->oo} (Sum_{n <= x} Lambda(n)*(n^(1/n) - 1) - log(x)^2/2), where Lambda is the von Mangoldt function.",
+  "id": "A401565",
+  "mentions": [
+    "A001620",
+    "A014963",
+    "A037077",
+    "A082633",
+    "A401564"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

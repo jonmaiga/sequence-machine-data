@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k, 1 <= k < n, such that the product of digits of n is the sum of the product of digits of k and the product of digits of n-k, or -1 if there is no such k.",
+  "id": "A401802",
+  "mentions": [
+    "A007954",
+    "A400774",
+    "A401862",
+    "A401881"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

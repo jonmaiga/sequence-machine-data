@@ -14,16 +14,16 @@
     "A061954",
     "A061955",
     "A061964",
-    "A061978"
+    "A061978",
+    "A987654"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

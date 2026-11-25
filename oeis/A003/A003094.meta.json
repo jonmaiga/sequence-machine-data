@@ -14,13 +14,12 @@
   "tags": [
     "core",
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

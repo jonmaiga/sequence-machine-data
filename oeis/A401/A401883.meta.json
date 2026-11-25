@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of sqrt(6) in x(n), where x(1) = 1, x(2) = 2 and x(n) = x(n-1) + sqrt(6)*x(n-2).",
+  "id": "A401883",
+  "mentions": [
+    "A010464",
+    "A041006",
+    "A401882"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

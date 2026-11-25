@@ -1,0 +1,19 @@
+{
+  "description": "Number of regions in a disk cut by the chords of a round-mirror billiard: n points equally spaced on the circle, and from point 0, for each k = 1..n-1, a ray joins points j*k and (j+1)*k (mod n) for j = 0, 1, 2, ... until it returns to point 0.",
+  "id": "A400504",
+  "mentions": [
+    "A000010",
+    "A000127",
+    "A006561",
+    "A007678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions of n not comprising a 1-based restricted growth sequence.",
+  "id": "A402138",
+  "mentions": [
+    "A000065",
+    "A008277",
+    "A011782",
+    "A032020",
+    "A047967",
+    "A055932",
+    "A066099",
+    "A080259",
+    "A098133",
+    "A107429",
+    "A119387",
+    "A171682",
+    "A333217",
+    "A356844",
+    "A358135",
+    "A383253",
+    "A383713",
+    "A402139",
+    "A402140",
+    "A402141",
+    "A402142",
+    "A402143"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

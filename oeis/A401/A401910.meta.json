@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct sizes of intervals [a,b] = {c : a <= c <= b}, a < b, in the n X n grid {0,...,n-1}^2 under the partial order (t,x) <= (t',x') iff t' >= t and |x'-x| <= t'-t (with a < b requiring t' > t).",
+  "id": "A401910",
+  "mentions": [
+    "A000982",
+    "A002479"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

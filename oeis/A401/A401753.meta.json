@@ -1,0 +1,19 @@
+{
+  "description": "Escape time of Langton's ant on an n X k rectangular grid: T(n,k) for 1 <= k <= n, read by rows.",
+  "id": "A401753",
+  "mentions": [
+    "A282425"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

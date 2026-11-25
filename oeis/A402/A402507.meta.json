@@ -1,0 +1,21 @@
+{
+  "description": "Least number congruent to 7 modulo 8 that is a quadratic residue modulo the first n odd primes.",
+  "id": "A402507",
+  "mentions": [
+    "A045535",
+    "A102476",
+    "A401305",
+    "A401356",
+    "A402499",
+    "A402502",
+    "A402547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

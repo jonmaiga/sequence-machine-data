@@ -1,0 +1,19 @@
+{
+  "description": "Number of dissections of a rhombus with side length n in a triangular lattice into two identical parts, counting dissections equal under rotation or reflection only once.",
+  "id": "A401875",
+  "mentions": [
+    "A003155",
+    "A113900",
+    "A271741",
+    "A271857"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

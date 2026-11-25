@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k in A025487 such that the equation of x + y = z, can be satisfied by x, y, and z all having the same prime signature as k.",
+  "id": "A401507",
+  "mentions": [
+    "A025487"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -6,20 +6,26 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C022
 import Seq.B000.C031
+import Seq.B000.C051
+import Seq.B001.C000
+import Seq.B001.C010
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C010
 import Seq.Opaque.C012
+import Seq.Opaque.C014
 import Seq.Opaque.C016
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 
@@ -109,6 +115,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400000.P13603725135522253887
+
+/-! ## A400000.P16919202494172768949
+
+`A401750(∑[n+1])`
+-/
+
+namespace A400000.P16919202494172768949
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401750 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A400000.P16919202494172768949
 
 /-!
 # A400002: Start with a set of two adjacent points in a hexagonal lattice. At each iteration, add to the set the lattice points which are adjacent to exactly two points already in the set, but only if those two points are adjacent to each other. The sequence gives the number of points in the set after n iterations.
@@ -392,27 +416,6 @@ end
 
 end A400005.P1020064138424296620
 
-/-! ## A400005.P4501176470274107636
-
-`eq[A049347(3*n+1), A049347(A395649(n))]`
--/
-
-namespace A400005.P4501176470274107636
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049347 (3 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049347 (A395649 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A400005.P4501176470274107636
-
 /-! ## A400005.P8281393000967266707
 
 `A334108(A400511(n+1))+A130483(2*n)`
@@ -427,4 +430,128 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400005.P8281393000967266707
+
+/-!
+# A400043: Maximum number of unit-cube interiors intersected by a plane in an n X n X n subdivision of a cube.
+
+The programs for A400043, the canonical program `A400043.P585359248345907106` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400043 has offset 1).
+
+The definition of A400043 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A400043.P585359248345907106
+
+`ogf((1+5x+5x^2-x^3-x^5)/(1-2x+2x^3-x^4))`
+
+The canonical program, it is in `Seq.B000.C051`.
+-/
+
+namespace A400043
+
+/-- `ogf((1+5x+5x^2-x^3-x^5)/(1-2x+2x^3-x^4))` -/
+def P585359248345907106.Spec : Prop :=
+  ∀ n, P585359248345907106.a n = A400043 (n + 1)
+
+theorem P585359248345907106.correct : P585359248345907106.Spec := by
+  intro n
+  simp only [A400043, Nat.add_sub_cancel]
+
+end A400043
+
+/-! ## A400043.P6821962599184074169
+
+`2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=1, a(1)=7, a(2)=19, a(3)=35, a(4)=57, a(5)=82`
+-/
+
+namespace A400043.P6821962599184074169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 7, 19, 35, 57, 82] fun n a =>
+  2 * a (n - 1) - 2 * a (n - 3) + a (n - 4)
+
+end
+
+end A400043.P6821962599184074169
+
+namespace A400043
+
+/-- `2*a(n-1)-2*a(n-3)+a(n-4)` -/
+def P6821962599184074169.Spec : Prop :=
+  ∀ n, P6821962599184074169.a n = A400043 (n + 1)
+
+end A400043
+
+/-! ## A400043.P3580965493242106793
+
+`A242094(A247428((n+1)²))`
+-/
+
+namespace A400043.P3580965493242106793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242094 (A247428 ((n + 1) ^ 2)).toNat
+
+end
+
+end A400043.P3580965493242106793
+
+namespace A400043
+
+/-- `A242094(A247428((n+1)²))` -/
+def P3580965493242106793.Spec : Prop :=
+  ∀ n, P3580965493242106793.a n = A400043 (n + 1)
+
+end A400043
+
+/-!
+# A400055: Product of the prime bases of the prime powers strictly between prime(n) and prime(n+1).
+
+The programs for A400055, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400055.P38024259987588252
+
+`A099795(n+2)/A056604(n+1)`
+-/
+
+namespace A400055.P38024259987588252
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A099795 (n + 2) : ℚ) / (A056604 (n + 1) : ℚ)
+
+end
+
+end A400055.P38024259987588252
+
+/-! ## A400055.P9412127490059134500
+
+`A006254(n+1)*A109923(n+2)/A056604(n+1)`
+-/
+
+namespace A400055.P9412127490059134500
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A006254 (n + 1) * A109923 (n + 2) : ℚ) / (A056604 (n + 1) : ℚ)
+
+end
+
+end A400055.P9412127490059134500
+
+/-! ## A400055.P187375804686790725
+
+`A099795(n+2)/(A000040(n+1)*A099795(n+1))`
+-/
+
+namespace A400055.P187375804686790725
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A099795 (n + 2) : ℚ) / (A000040 (n + 1) * A099795 (n + 1) : ℚ)
+
+end
+
+end A400055.P187375804686790725
 

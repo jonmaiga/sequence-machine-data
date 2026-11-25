@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + the total remainder when repeatedly taking integer cube roots until 1 is reached.",
+  "id": "A400938",
+  "mentions": [
+    "A048766",
+    "A053186",
+    "A336860"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

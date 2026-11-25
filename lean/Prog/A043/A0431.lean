@@ -31,6 +31,7 @@ import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -45,13 +46,12 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -70,13 +70,10 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A043101: Numbers k such that 0 and 2 occur juxtaposed in the base-4 representation of k but not of k-1.
@@ -768,42 +765,6 @@ end
 
 end A043128.P2168812714206282864
 
-/-! ## A043128.P7135589755483204306
-
-`A043908(C(A331565(n+1), n))`
--/
-
-namespace A043128.P7135589755483204306
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043908 (Nat.choose (A331565 (n + 1)).toNat n)
-
-end
-
-end A043128.P7135589755483204306
-
-/-! ## A043128.P17092585007579678763
-
-`A043908(A002034(record[∑{digits}[n, #!]]))`
--/
-
-namespace A043128.P17092585007579678763
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => Nat.factorial x).sum
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043908 (A002034 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
-
-end
-
-end A043128.P17092585007579678763
-
 /-!
 # A043129: Numbers k such that 3 and 5 occur juxtaposed in the base-6 representation of k but not of k-1.
 
@@ -840,21 +801,6 @@ end
 
 end A043129.P16124511110545554279
 
-/-! ## A043129.P6652172775521995147
-
-`A043909(A327103(2^n)+n)`
--/
-
-namespace A043129.P6652172775521995147
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043909 (A327103 (2 ^ n) + (n : ℤ)).toNat
-
-end
-
-end A043129.P6652172775521995147
-
 /-!
 # A043130: Numbers k such that 4 and 5 occur juxtaposed in the base-6 representation of k but not of k-1.
 
@@ -875,21 +821,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043130.P9852719386411181296
-
-/-! ## A043130.P16020249247185811400
-
-`A043389(5*A078213(n+1))`
--/
-
-namespace A043130.P16020249247185811400
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043389 (5 * A078213 (n + 1)).toNat
-
-end
-
-end A043130.P16020249247185811400
 
 /-! ## A043130.P5012906844978557519
 
@@ -954,59 +885,23 @@ end
 
 end A043132.P17440800230952732191
 
-/-! ## A043132.P14258480098010710312
+/-! ## A043132.P2049462713947871023
 
-`record[A278529(A043134(n+1))]%A184095(n+1)`
+`record[A278529(A043134(n+1))]`
 -/
 
-namespace A043132.P14258480098010710312
+namespace A043132.P2049462713947871023
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A278529 (A043134 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A184095 (n + 1))
-
-end
-
-end A043132.P14258480098010710312
-
-/-! ## A043132.P14643007040613033546
-
-`record[A278529(A043134(n+1)%A184095(n+1))]`
--/
-
-namespace A043132.P14643007040613033546
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278529 (Int.tmod (A043134 (n + 1)) (A184095 (n + 1))).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A043132.P14643007040613033546
-
-/-! ## A043132.P1319662508150872965
-
-`record[A278529(A043134(n+1))]%A098683(n+1)`
--/
-
-namespace A043132.P1319662508150872965
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278529 (A043134 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A098683 (n + 1))
-
-end
-
-end A043132.P1319662508150872965
+end A043132.P2049462713947871023
 
 /-!
 # A043133: Numbers k such that 0 and 3 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -1457,6 +1352,21 @@ end A043139.P11167300005163519470
 The programs for A043140, there is no canonical definition to state claims against.
 -/
 
+/-! ## A043140.P2211365701308541653
+
+`A004526(A044162(n+1))`
+-/
+
+namespace A043140.P2211365701308541653
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (A044162 (n + 1)).toNat
+
+end
+
+end A043140.P2211365701308541653
+
 /-! ## A043140.P3436745786827094490
 
 `floor(A157271(A044186(Δ[n²]))/2)`
@@ -1475,21 +1385,6 @@ end
 
 end A043140.P3436745786827094490
 
-/-! ## A043140.P17188429034820209101
-
-`A004526(A044162(n+1)^A043562(n))`
--/
-
-namespace A043140.P17188429034820209101
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (SequenceMachineLib.roundAway ((A044162 (n + 1) : ℚ) ^ (A043562 n : ℤ))).toNat
-
-end
-
-end A043140.P17188429034820209101
-
 /-! ## A043140.P15709258554082962558
 
 `floor(A157271(A043146(2*(n+1))+A043142(2*n+1))/2)`
@@ -1504,21 +1399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043140.P15709258554082962558
-
-/-! ## A043140.P16222412433831081348
-
-`A290079(A249131(n))+A004526(A044162(n+1))`
--/
-
-namespace A043140.P16222412433831081348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290079 (A249131 n).toNat + A004526 (A044162 (n + 1)).toNat
-
-end
-
-end A043140.P16222412433831081348
 
 /-!
 # A043141: Numbers k such that 1 and 6 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -1616,6 +1496,24 @@ end
 
 end A043142.P16739365832090911315
 
+/-! ## A043142.P9393208800491088980
+
+`record[A142150(0+A043150(n+1))]`
+-/
+
+namespace A043142.P9393208800491088980
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142150 (0 + A043150 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A043142.P9393208800491088980
+
 /-! ## A043142.P3482655250934179640
 
 `record[A078898(A043150(A065033(n)))]`
@@ -1633,24 +1531,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043142.P3482655250934179640
-
-/-! ## A043142.P11812974870238887667
-
-`record[A142150(A135481(2*n)+A043150(n+1))]`
--/
-
-namespace A043142.P11812974870238887667
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 (A135481 (2 * n) + A043150 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043142.P11812974870238887667
 
 /-! ## A043142.P15447345099081810611
 
@@ -1673,24 +1553,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043142.P15447345099081810611
-
-/-! ## A043142.P11936383586504837659
-
-`record[A142150(A142150(2*n+3)+A043150(n+1))]`
--/
-
-namespace A043142.P11936383586504837659
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 (A142150 (2 * n + 3) + A043150 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043142.P11936383586504837659
 
 /-!
 # A043143: Numbers k such that 2 and 4 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -1803,21 +1665,6 @@ end
 
 end A043145.P17834839539510030092
 
-/-! ## A043145.P8929153752717489366
-
-`A004526(A044178(n+1)^A043537(n+1))`
--/
-
-namespace A043145.P8929153752717489366
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (SequenceMachineLib.roundAway ((A044178 (n + 1) : ℚ) ^ (A043537 (n + 1) : ℤ))).toNat
-
-end
-
-end A043145.P8929153752717489366
-
 /-!
 # A043146: Numbers k such that 3 and 4 occur juxtaposed in the base-7 representation of k but not of k-1.
 
@@ -1854,21 +1701,6 @@ end
 
 end A043146.P11689112038637438381
 
-/-! ## A043146.P12085226506344987422
-
-`A043926(A228050(n+1)+1)`
--/
-
-namespace A043146.P12085226506344987422
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043926 (A228050 (n + 1) + 1).toNat
-
-end
-
-end A043146.P12085226506344987422
-
 /-!
 # A043147: Numbers k such that 3 and 5 occur juxtaposed in the base-7 representation of k but not of k-1.
 
@@ -1892,36 +1724,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043147.P7801439238738308413
-
-/-! ## A043147.P2592566925772420189
-
-`A043927(A032551(n+2))`
--/
-
-namespace A043147.P2592566925772420189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043927 (A032551 (n + 2)).toNat
-
-end
-
-end A043147.P2592566925772420189
-
-/-! ## A043147.P15543974680514002447
-
-`A043927(A255985(n)+n)`
--/
-
-namespace A043147.P15543974680514002447
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043927 (A255985 n + (n : ℤ)).toNat
-
-end
-
-end A043147.P15543974680514002447
 
 /-!
 # A043148: Numbers k such that 3 and 6 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -1958,21 +1760,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043148.P6941455613112515068
-
-/-! ## A043148.P14382362785455329121
-
-`A043928(A255985(n)+n)`
--/
-
-namespace A043148.P14382362785455329121
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043928 (A255985 n + (n : ℤ)).toNat
-
-end
-
-end A043148.P14382362785455329121
 
 /-!
 # A043149: Numbers k such that 4 and 5 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -2025,36 +1812,6 @@ end
 
 end A043149.P12749212119555309084
 
-/-! ## A043149.P1342986004569040033
-
-`A043929(A032555(n+1))`
--/
-
-namespace A043149.P1342986004569040033
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043929 (A032555 (n + 1)).toNat
-
-end
-
-end A043149.P1342986004569040033
-
-/-! ## A043149.P7861405839807623593
-
-`A043929(A032559(n+1))`
--/
-
-namespace A043149.P7861405839807623593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043929 (A032559 (n + 1)).toNat
-
-end
-
-end A043149.P7861405839807623593
-
 /-!
 # A043150: Numbers k such that 4 and 6 occur juxtaposed in the base-7 representation of k but not of k-1.
 
@@ -2075,66 +1832,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043150.P12700697327164725668
-
-/-! ## A043150.P9479262231597577544
-
-`A043930(A032559(n+1))`
--/
-
-namespace A043150.P9479262231597577544
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043930 (A032559 (n + 1)).toNat
-
-end
-
-end A043150.P9479262231597577544
-
-/-! ## A043150.P12954503302658618078
-
-`A043930(A077739(n+1))`
--/
-
-namespace A043150.P12954503302658618078
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043930 (A077739 (n + 1)).toNat
-
-end
-
-end A043150.P12954503302658618078
-
-/-! ## A043150.P3375605117013375329
-
-`A043930(A078213(n+1))`
--/
-
-namespace A043150.P3375605117013375329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043930 (A078213 (n + 1)).toNat
-
-end
-
-end A043150.P3375605117013375329
-
-/-! ## A043150.P16223452803943290123
-
-`A043930(A082217(n+1))`
--/
-
-namespace A043150.P16223452803943290123
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043930 (A082217 (n + 1)).toNat
-
-end
-
-end A043150.P16223452803943290123
 
 /-!
 # A043151: Numbers k such that 5 and 6 occur juxtaposed in the base-7 representation of k but not of k-1.
@@ -2214,20 +1911,20 @@ end
 
 end A043152.P17806566211118898129
 
-/-! ## A043152.P11134075002002344736
+/-! ## A043152.P18143221768680772204
 
-`A037471(A043116(n+1))%A112634(3*n+4)`
+`A037471(A043116(n+1))`
 -/
 
-namespace A043152.P11134075002002344736
+namespace A043152.P18143221768680772204
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037471 (A043116 (n + 1)).toNat) (A112634 (3 * n + 4))
+  A037471 (A043116 (n + 1)).toNat
 
 end
 
-end A043152.P11134075002002344736
+end A043152.P18143221768680772204
 
 /-!
 # A043153: Numbers k such that 0 and 2 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -2337,80 +2034,42 @@ end A043153.P9400800372017105805
 The programs for A043154, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043154.P15067678374072004473
+/-! ## A043154.P15024804158368966217
 
-`A185284(A007093(2*(n+1)))+A037474(A043133(n+1))`
+`A037474(A043133(n+1))`
 -/
 
-namespace A043154.P15067678374072004473
+namespace A043154.P15024804158368966217
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A007093 (2 * (n + 1))).toNat + A037474 (A043133 (n + 1)).toNat
+  A037474 (A043133 (n + 1)).toNat
 
 end
 
-end A043154.P15067678374072004473
+end A043154.P15024804158368966217
 
-/-! ## A043154.P17380895036518668556
+/-! ## A043154.P3577697274719255307
 
-`A142150(A185284(3*n+1))+A037474(A043133(n+1))`
+`∩[A037319(n+1), A267298(n+1)]`
 -/
 
-namespace A043154.P17380895036518668556
+namespace A043154.P3577697274719255307
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 (A185284 (3 * n + 1)).toNat + A037474 (A043133 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037319 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267298 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A043154.P17380895036518668556
-
-/-! ## A043154.P9473657147393751891
-
-`A135481(A241197(n+4))+A037474(A043133(n+1))`
--/
-
-namespace A043154.P9473657147393751891
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135481 (A241197 (n + 4)).toNat + A037474 (A043133 (n + 1)).toNat
-
-end
-
-end A043154.P9473657147393751891
-
-/-! ## A043154.P4601624197113004643
-
-`A037474(A043133(n+1))%A352729(A184095(n+1))`
--/
-
-namespace A043154.P4601624197113004643
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043133 (n + 1)).toNat) (A352729 (A184095 (n + 1)).toNat)
-
-end
-
-end A043154.P4601624197113004643
-
-/-! ## A043154.P10541141854896719948
-
-`A185284(A185284(3*n+4))+A037474(A043133(n+1))`
--/
-
-namespace A043154.P10541141854896719948
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A185284 (3 * n + 4)).toNat + A037474 (A043133 (n + 1)).toNat
-
-end
-
-end A043154.P10541141854896719948
+end A043154.P3577697274719255307
 
 /-!
 # A043155: Numbers k such that 0 and 4 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -2715,71 +2374,20 @@ end
 
 end A043159.P17859289162594670355
 
-/-! ## A043159.P12898021127706038949
+/-! ## A043159.P8711267104942544577
 
-`record[A142150(2*n+3)-A166711(A043172(n+1))]`
+`A037474(A043137(n+1))`
 -/
 
-namespace A043159.P12898021127706038949
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 (2 * n + 3) - A166711 (A043172 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043159.P12898021127706038949
-
-/-! ## A043159.P15098744246795677369
-
-`record[A209229(2*n+3)-A166711(A043172(n+1))]`
--/
-
-namespace A043159.P15098744246795677369
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209229 (2 * n + 3) - A166711 (A043172 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043159.P15098744246795677369
-
-/-! ## A043159.P3027750920909754873
-
-`A037474(A043137(n+1))%A352729(A184095(n+1))`
--/
-
-namespace A043159.P3027750920909754873
+namespace A043159.P8711267104942544577
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043137 (n + 1)).toNat) (A352729 (A184095 (n + 1)).toNat)
+  A037474 (A043137 (n + 1)).toNat
 
 end
 
-end A043159.P3027750920909754873
-
-/-! ## A043159.P5588908748216383270
-
-`A185284(A185284(3*n+4))+A037474(A043137(n+1))`
--/
-
-namespace A043159.P5588908748216383270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A185284 (3 * n + 4)).toNat + A037474 (A043137 (n + 1)).toNat
-
-end
-
-end A043159.P5588908748216383270
+end A043159.P8711267104942544577
 
 /-!
 # A043160: Numbers k such that 1 and 3 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -2787,20 +2395,20 @@ end A043159.P5588908748216383270
 The programs for A043160, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043160.P16982723726671083229
+/-! ## A043160.P16402286450923651698
 
-`A185284(A185284(3*n+4))+A037474(A043138(n+1))`
+`A037474(A043138(n+1))`
 -/
 
-namespace A043160.P16982723726671083229
+namespace A043160.P16402286450923651698
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A185284 (3 * n + 4)).toNat + A037474 (A043138 (n + 1)).toNat
+  A037474 (A043138 (n + 1)).toNat
 
 end
 
-end A043160.P16982723726671083229
+end A043160.P16402286450923651698
 
 /-! ## A043160.P15905270938843704103
 
@@ -3120,80 +2728,20 @@ end A043164.P5939260668041370159
 The programs for A043165, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043165.P1750543760497799862
+/-! ## A043165.P17187761446879271248
 
-`A037474(A043142(n+1))%A004809(A120572(3*n+1))`
+`A037474(A043142(n+1))`
 -/
 
-namespace A043165.P1750543760497799862
+namespace A043165.P17187761446879271248
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043142 (n + 1)).toNat) (A004809 (A120572 (3 * n + 1)).toNat)
+  A037474 (A043142 (n + 1)).toNat
 
 end
 
-end A043165.P1750543760497799862
-
-/-! ## A043165.P5538943102720537652
-
-`A135481(A241197(n+4))+A037474(A043142(n+1))`
--/
-
-namespace A043165.P5538943102720537652
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135481 (A241197 (n + 4)).toNat + A037474 (A043142 (n + 1)).toNat
-
-end
-
-end A043165.P5538943102720537652
-
-/-! ## A043165.P3672152745951440683
-
-`A037474(A043142(n+1))%A352729(A184095(n+1))`
--/
-
-namespace A043165.P3672152745951440683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043142 (n + 1)).toNat) (A352729 (A184095 (n + 1)).toNat)
-
-end
-
-end A043165.P3672152745951440683
-
-/-! ## A043165.P6192330070185148961
-
-`A185284(A185284(3*n+4))+A037474(A043142(n+1))`
--/
-
-namespace A043165.P6192330070185148961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A185284 (3 * n + 4)).toNat + A037474 (A043142 (n + 1)).toNat
-
-end
-
-end A043165.P6192330070185148961
-
-/-! ## A043165.P12799446732739485878
-
-`A037474(A043142(n+1)^A309932(n))`
--/
-
-namespace A043165.P12799446732739485878
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (SequenceMachineLib.roundAway ((A043142 (n + 1) : ℚ) ^ (A309932 n : ℤ))).toNat
-
-end
-
-end A043165.P12799446732739485878
+end A043165.P17187761446879271248
 
 /-!
 # A043166: Numbers k such that 2 and 4 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3267,80 +2815,35 @@ end A043166.P2951727371940055974
 The programs for A043167, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043167.P17169697336669760851
+/-! ## A043167.P1416769473821485734
 
-`A037474(A043144(n+1))%A004809(A120572(3*n+1))`
+`A037474(A043144(n+1))`
 -/
 
-namespace A043167.P17169697336669760851
+namespace A043167.P1416769473821485734
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043144 (n + 1)).toNat) (A004809 (A120572 (3 * n + 1)).toNat)
+  A037474 (A043144 (n + 1)).toNat
 
 end
 
-end A043167.P17169697336669760851
+end A043167.P1416769473821485734
 
-/-! ## A043167.P10610981190489017675
+/-! ## A043167.P13926644332067332820
 
-`A185284(A185284(3*n+4))+A037471(A043127(n+1))`
+`A037471(A043127(n+1))`
 -/
 
-namespace A043167.P10610981190489017675
+namespace A043167.P13926644332067332820
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 (A185284 (3 * n + 4)).toNat + A037471 (A043127 (n + 1)).toNat
+  A037471 (A043127 (n + 1)).toNat
 
 end
 
-end A043167.P10610981190489017675
-
-/-! ## A043167.P8323961909645426484
-
-`A037471(A043127(n+1))%A023302(A043935(3*n+1))`
--/
-
-namespace A043167.P8323961909645426484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037471 (A043127 (n + 1)).toNat) (A023302 (A043935 (3 * n + 1)).toNat)
-
-end
-
-end A043167.P8323961909645426484
-
-/-! ## A043167.P7761463322425881963
-
-`A037471(A043127(n+1)%A098683(2*n+1))`
--/
-
-namespace A043167.P7761463322425881963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037471 (Int.tmod (A043127 (n + 1)) (A098683 (2 * n + 1))).toNat
-
-end
-
-end A043167.P7761463322425881963
-
-/-! ## A043167.P4193623991490657672
-
-`A135481(A200553(2*n+3))+A037471(A043127(n+1))`
--/
-
-namespace A043167.P4193623991490657672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135481 (A200553 (2 * n + 3)).toNat + A037471 (A043127 (n + 1)).toNat
-
-end
-
-end A043167.P4193623991490657672
+end A043167.P13926644332067332820
 
 /-!
 # A043168: Numbers k such that 2 and 6 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3528,65 +3031,35 @@ end
 
 end A043170.P16131586499255573774
 
-/-! ## A043170.P15028738521032103047
+/-! ## A043170.P8221558714642930770
 
-`A028903(A043240(n+1))%A005897(A301066(3*(n+1)))`
+`A028903(A043240(n+1))`
 -/
 
-namespace A043170.P15028738521032103047
+namespace A043170.P8221558714642930770
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A028903 (A043240 (n + 1)).toNat) (A005897 (A301066 (3 * (n + 1))).toNat)
+  A028903 (A043240 (n + 1)).toNat
 
 end
 
-end A043170.P15028738521032103047
+end A043170.P8221558714642930770
 
-/-! ## A043170.P7335418080875842531
+/-! ## A043170.P14929595592016621000
 
-`A028903(A043240(n+1))*A348037(A055773(n))`
+`A043950(A032551(n+2))`
 -/
 
-namespace A043170.P7335418080875842531
+namespace A043170.P14929595592016621000
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028903 (A043240 (n + 1)).toNat * A348037 (A055773 n).toNat
+  A043950 (A032551 (n + 2)).toNat
 
 end
 
-end A043170.P7335418080875842531
-
-/-! ## A043170.P5536119452912647605
-
-`A028903(A043240(n+1))*A057427(A000045(n+2))`
--/
-
-namespace A043170.P5536119452912647605
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028903 (A043240 (n + 1)).toNat * A057427 (A000045 (n + 2)).toNat
-
-end
-
-end A043170.P5536119452912647605
-
-/-! ## A043170.P10205712151039742643
-
-`A028903(A043240(n+1))%A038815(A096000(n))`
--/
-
-namespace A043170.P10205712151039742643
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A028903 (A043240 (n + 1)).toNat) (A038815 (A096000 n).toNat)
-
-end
-
-end A043170.P10205712151039742643
+end A043170.P14929595592016621000
 
 /-!
 # A043171: Numbers k such that 3 and 5 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3594,35 +3067,35 @@ end A043170.P10205712151039742643
 The programs for A043171, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043171.P94595358353518231
+/-! ## A043171.P14198039898637836376
 
-`A037471(A043129(n+1))%A032551(A047842(n))`
+`A037471(A043129(n+1))`
 -/
 
-namespace A043171.P94595358353518231
+namespace A043171.P14198039898637836376
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037471 (A043129 (n + 1)).toNat) (A032551 (A047842 n).toNat)
+  A037471 (A043129 (n + 1)).toNat
 
 end
 
-end A043171.P94595358353518231
+end A043171.P14198039898637836376
 
-/-! ## A043171.P672884431286050090
+/-! ## A043171.P5873121385557618904
 
-`A241816(A043172(n+1))%A119630(A301066(n))`
+`A241816(A043172(n+1))`
 -/
 
-namespace A043171.P672884431286050090
+namespace A043171.P5873121385557618904
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A241816 (A043172 (n + 1)).toNat) (A119630 (A301066 n).toNat)
+  A241816 (A043172 (n + 1)).toNat
 
 end
 
-end A043171.P672884431286050090
+end A043171.P5873121385557618904
 
 /-! ## A043171.P5811732169141482214
 
@@ -3638,21 +3111,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043171.P5811732169141482214
-
-/-! ## A043171.P9439734788195979002
-
-`A037474(A118762(n+1)²*A043147(n+1))`
--/
-
-namespace A043171.P9439734788195979002
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (A118762 (n + 1) ^ 2 * A043147 (n + 1)).toNat
-
-end
-
-end A043171.P9439734788195979002
 
 /-!
 # A043172: Numbers k such that 3 and 6 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3726,35 +3184,42 @@ end
 
 end A043173.P14618843352508482240
 
-/-! ## A043173.P4107918220201691262
+/-! ## A043173.P5677731029814388219
 
-`A109680(A043953(n+1))`
+`A043953(n+1)`
 -/
 
-namespace A043173.P4107918220201691262
+namespace A043173.P5677731029814388219
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109680 (A043953 (n + 1)).toNat
+  A043953 (n + 1)
 
 end
 
-end A043173.P4107918220201691262
+end A043173.P5677731029814388219
 
-/-! ## A043173.P5372582820789183379
+/-! ## A043173.P1271288784670287070
 
-`A043953(A032551(n+2))`
+`∩[A067396(n+1), A103543(n+1)]`
 -/
 
-namespace A043173.P5372582820789183379
+namespace A043173.P1271288784670287070
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043953 (A032551 (n + 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103543 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A043173.P5372582820789183379
+end A043173.P1271288784670287070
 
 /-!
 # A043174: Numbers k such that 4 and 5 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3762,80 +3227,35 @@ end A043173.P5372582820789183379
 The programs for A043174, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043174.P401449281062527636
+/-! ## A043174.P12431880074282634201
 
-`A037474(A043149(n+1)^A147454(n+1))`
+`A037474(A043149(n+1))`
 -/
 
-namespace A043174.P401449281062527636
+namespace A043174.P12431880074282634201
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (SequenceMachineLib.roundAway ((A043149 (n + 1) : ℚ) ^ (A147454 (n + 1) : ℤ))).toNat
+  A037474 (A043149 (n + 1)).toNat
 
 end
 
-end A043174.P401449281062527636
+end A043174.P12431880074282634201
 
-/-! ## A043174.P17895679103576266490
+/-! ## A043174.P2691068830495803064
 
-`A037474(C(A043149(n+1), A147454(n+1)))`
+`A043954(A032555(n+1))`
 -/
 
-namespace A043174.P17895679103576266490
+namespace A043174.P2691068830495803064
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (Nat.choose (A043149 (n + 1)).toNat (A147454 (n + 1)).toNat)
+  A043954 (A032555 (n + 1)).toNat
 
 end
 
-end A043174.P17895679103576266490
-
-/-! ## A043174.P6432579849550233171
-
-`A037474(A147454(n+1)²*A043149(n+1))`
--/
-
-namespace A043174.P6432579849550233171
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (A147454 (n + 1) ^ 2 * A043149 (n + 1)).toNat
-
-end
-
-end A043174.P6432579849550233171
-
-/-! ## A043174.P7011781009165938301
-
-`A037474(A043149(n+1))/A147454(A147454(n+1)²)`
--/
-
-namespace A043174.P7011781009165938301
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A037474 (A043149 (n + 1)).toNat : ℚ) / (A147454 (A147454 (n + 1) ^ 2).toNat : ℚ)
-
-end
-
-end A043174.P7011781009165938301
-
-/-! ## A043174.P6274805160826547786
-
-`A037474(A043149(n+1)*A147454(n+1)*A147454(n+1))`
--/
-
-namespace A043174.P6274805160826547786
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037474 (A043149 (n + 1) * A147454 (n + 1) * A147454 (n + 1)).toNat
-
-end
-
-end A043174.P6274805160826547786
+end A043174.P2691068830495803064
 
 /-!
 # A043175: Numbers k such that 4 and 6 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3903,20 +3323,20 @@ end
 
 end A043175.P2145288662204457856
 
-/-! ## A043175.P7208991222701502738
+/-! ## A043175.P1025243943491293439
 
-`A037474(A043150(n+1))%A352729(A184095(n+1))`
+`A037474(A043150(n+1))`
 -/
 
-namespace A043175.P7208991222701502738
+namespace A043175.P1025243943491293439
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A037474 (A043150 (n + 1)).toNat) (A352729 (A184095 (n + 1)).toNat)
+  A037474 (A043150 (n + 1)).toNat
 
 end
 
-end A043175.P7208991222701502738
+end A043175.P1025243943491293439
 
 /-!
 # A043176: Numbers k such that 4 and 7 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -3939,149 +3359,26 @@ end
 
 end A043176.P3603191506556360252
 
-/-! ## A043176.P1477913252207716748
-
-`A043956(A032559(n+1))`
--/
-
-namespace A043176.P1477913252207716748
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043956 (A032559 (n + 1)).toNat
-
-end
-
-end A043176.P1477913252207716748
-
-/-! ## A043176.P13852420940938759670
-
-`A043956(A077739(n+1))`
--/
-
-namespace A043176.P13852420940938759670
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043956 (A077739 (n + 1)).toNat
-
-end
-
-end A043176.P13852420940938759670
-
-/-! ## A043176.P2159758000613707218
-
-`A043956(A078213(n+1))`
--/
-
-namespace A043176.P2159758000613707218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043956 (A078213 (n + 1)).toNat
-
-end
-
-end A043176.P2159758000613707218
-
-/-! ## A043176.P11455445610216462728
-
-`A043956(A082217(n+1))`
--/
-
-namespace A043176.P11455445610216462728
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043956 (A082217 (n + 1)).toNat
-
-end
-
-end A043176.P11455445610216462728
-
 /-!
 # A043177: Numbers k such that 5 and 6 occur juxtaposed in the base-8 representation of k but not of k-1.
 
 The programs for A043177, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043177.P13217150327995308713
+/-! ## A043177.P3625135471185775152
 
-`A043957(A062399(n)+1)`
+`A043957(n+1)`
 -/
 
-namespace A043177.P13217150327995308713
+namespace A043177.P3625135471185775152
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043957 (A062399 n + 1).toNat
+  A043957 (n + 1)
 
 end
 
-end A043177.P13217150327995308713
-
-/-! ## A043177.P16660596946619657826
-
-`A043957(A351870(n)+1)`
--/
-
-namespace A043177.P16660596946619657826
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043957 (A351870 n + 1).toNat
-
-end
-
-end A043177.P16660596946619657826
-
-/-! ## A043177.P7595808104445421817
-
-`A043957(A000005(3^n))`
--/
-
-namespace A043177.P7595808104445421817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043957 (A000005 (3 ^ n)).toNat
-
-end
-
-end A043177.P7595808104445421817
-
-/-! ## A043177.P13326142559185444831
-
-`A043957(A330369(∑[n+1]))`
--/
-
-namespace A043177.P13326142559185444831
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043957 (A330369 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A043177.P13326142559185444831
-
-/-! ## A043177.P7823812012345249288
-
-`A043957(n+1)^A011855(n)!`
--/
-
-namespace A043177.P7823812012345249288
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043957 (n + 1) ^ Nat.factorial (A011855 n).toNat
-
-end
-
-end A043177.P7823812012345249288
+end A043177.P3625135471185775152
 
 /-!
 # A043178: Numbers k such that 5 and 7 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -4089,83 +3386,20 @@ end A043177.P7823812012345249288
 The programs for A043178, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043178.P5098392750509060476
+/-! ## A043178.P6994349989616753507
 
-`A043958(A000005(3^n))`
+`A043958(n+1)`
 -/
 
-namespace A043178.P5098392750509060476
+namespace A043178.P6994349989616753507
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043958 (A000005 (3 ^ n)).toNat
+  A043958 (n + 1)
 
 end
 
-end A043178.P5098392750509060476
-
-/-! ## A043178.P1605499736846134941
-
-`A043958(A330369(∑[n+1]))`
--/
-
-namespace A043178.P1605499736846134941
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043958 (A330369 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A043178.P1605499736846134941
-
-/-! ## A043178.P10765848022483461
-
-`A043958(C(A069799(n+1), n))`
--/
-
-namespace A043178.P10765848022483461
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043958 (Nat.choose (A069799 (n + 1)).toNat n)
-
-end
-
-end A043178.P10765848022483461
-
-/-! ## A043178.P17229492750308141955
-
-`A043958(n+1)^A011855(n)!`
--/
-
-namespace A043178.P17229492750308141955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043958 (n + 1) ^ Nat.factorial (A011855 n).toNat
-
-end
-
-end A043178.P17229492750308141955
-
-/-! ## A043178.P14692090484130427106
-
-`or(A043958(n+1), A280933(n²))`
--/
-
-namespace A043178.P14692090484130427106
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A043958 (n + 1)) (A280933 (n ^ 2))
-
-end
-
-end A043178.P14692090484130427106
+end A043178.P6994349989616753507
 
 /-!
 # A043179: Numbers k such that 6 and 7 occur juxtaposed in the base-8 representation of k but not of k-1.
@@ -4866,86 +4100,38 @@ end A043184.P12469881001250030015
 The programs for A043185, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043185.P2871556743080368097
+/-! ## A043185.P14294962499689478664
 
-`record[A028904(A043221(n+1))]%A198298(n+1)`
+`record[A028904(A043221(n+1))]`
 -/
 
-namespace A043185.P2871556743080368097
+namespace A043185.P14294962499689478664
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A028904 (A043221 (n + 1)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A198298 (n + 1))
-
-end
-
-end A043185.P2871556743080368097
-
-/-! ## A043185.P15925253054522572914
-
-`record[A028904(A043221(n+1)%A198298(n+1))]`
--/
-
-namespace A043185.P15925253054522572914
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (Int.tmod (A043221 (n + 1)) (A198298 (n + 1))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A043185.P15925253054522572914
+end A043185.P14294962499689478664
 
-/-! ## A043185.P1087756926333581823
+/-! ## A043185.P5467922096034776065
 
-`A165878(A165878(n+2))+A028904(A043221(n+1))`
+`A028904(A043221(n+1))`
 -/
 
-namespace A043185.P1087756926333581823
+namespace A043185.P5467922096034776065
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165878 (A165878 (n + 2)).toNat + A028904 (A043221 (n + 1)).toNat
+  A028904 (A043221 (n + 1)).toNat
 
 end
 
-end A043185.P1087756926333581823
-
-/-! ## A043185.P17071281905459690726
-
-`A028904(A043221(n+1))%A004396(A005935(n+5))`
--/
-
-namespace A043185.P17071281905459690726
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A028904 (A043221 (n + 1)).toNat) (A004396 (A005935 (n + 5)).toNat)
-
-end
-
-end A043185.P17071281905459690726
-
-/-! ## A043185.P4552891085068936044
-
-`A028904(A043221(n+1))%A209833(A026300(n))`
--/
-
-namespace A043185.P4552891085068936044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A028904 (A043221 (n + 1)).toNat) (A209833 (A026300 n).toNat)
-
-end
-
-end A043185.P4552891085068936044
+end A043185.P5467922096034776065
 
 /-!
 # A043186: Numbers k such that 0 and 7 occur juxtaposed in the base-9 representation of k but not of k-1.
@@ -5076,23 +4262,23 @@ end
 
 end A043188.P1208274145366599958
 
-/-! ## A043188.P5220162049310923153
+/-! ## A043188.P11277467027972659796
 
-`record[A078898(A043196(n+1))]`
+`record[A032742(A043196(n+1))]`
 -/
 
-namespace A043188.P5220162049310923153
+namespace A043188.P11277467027972659796
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078898 (A043196 (n + 1)).toNat
+  A032742 (A043196 (n + 1)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A043188.P5220162049310923153
+end A043188.P11277467027972659796
 
 /-! ## A043188.P211018401392479388
 
@@ -5147,60 +4333,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043188.P10643087474638755312
-
-/-! ## A043188.P12152091263052548937
-
-`record[A032742(A043196(floor(n/2)+1))]`
--/
-
-namespace A043188.P12152091263052548937
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A043196 (⌊(n : ℚ) / 2⌋ + 1).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043188.P12152091263052548937
-
-/-! ## A043188.P12974314095384184416
-
-`record[A032742(A043196(n+1))%A043165(n+1)]`
--/
-
-namespace A043188.P12974314095384184416
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A032742 (A043196 (n + 1)).toNat) (A043165 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043188.P12974314095384184416
-
-/-! ## A043188.P6167019673228517061
-
-`record[A032742(A043196(n+1))]%A043183(n+4)`
--/
-
-namespace A043188.P6167019673228517061
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A043196 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A043183 (n + 4))
-
-end
-
-end A043188.P6167019673228517061
 
 /-! ## A043188.P16878828346598382775
 
@@ -5369,24 +4501,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043189.P3463139227576019930
-
-/-! ## A043189.P4811556481968484604
-
-`A061395(p?[A073846(A043198(n+1))])`
--/
-
-namespace A043189.P4811556481968484604
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073846 (A043198 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061395 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A043189.P4811556481968484604
 
 /-!
 # A043190: Numbers k such that 1 and 4 occur juxtaposed in the base-9 representation of k but not of k-1.
@@ -5599,21 +4713,6 @@ end
 
 end A043191.P13654265979148476496
 
-/-! ## A043191.P5277351508867602402
-
-`A037477(A043162(n+1)+n*A151839(n))`
--/
-
-namespace A043191.P5277351508867602402
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (A043162 (n + 1) + (n : ℤ) * A151839 n).toNat
-
-end
-
-end A043191.P5277351508867602402
-
 /-! ## A043191.P688902905550699096
 
 `A037477(A151839(n)+A043162(n+1))-A151839(n)`
@@ -5685,39 +4784,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043192.P17850034320738303921
-
-/-! ## A043192.P15186180710133621062
-
-`A037477(Δ[A024662(n)]*A043163(n+1))`
--/
-
-namespace A043192.P15186180710133621062
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024662 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 ((f1 (n + 1) - f1 n) * A043163 (n + 1)).toNat
-
-end
-
-end A043192.P15186180710133621062
-
-/-! ## A043192.P104050114733700328
-
-`A037477(A043163(n+1)^A008618(2*n))`
--/
-
-namespace A043192.P104050114733700328
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (SequenceMachineLib.roundAway ((A043163 (n + 1) : ℚ) ^ (A008618 (2 * n) : ℤ))).toNat
-
-end
-
-end A043192.P104050114733700328
 
 /-!
 # A043193: Numbers k such that 1 and 7 occur juxtaposed in the base-9 representation of k but not of k-1.
@@ -6163,36 +5229,6 @@ end
 
 end A043197.P16713116430202461440
 
-/-! ## A043197.P1644784882025500856
-
-`A037477(C(A043167(n+1), A239526(n)))`
--/
-
-namespace A043197.P1644784882025500856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (Nat.choose (A043167 (n + 1)).toNat (A239526 n).toNat)
-
-end
-
-end A043197.P1644784882025500856
-
-/-! ## A043197.P13749416126743582066
-
-`A037477(A043167(n+1)%A098685(2*n+5))`
--/
-
-namespace A043197.P13749416126743582066
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (Int.tmod (A043167 (n + 1)) (A098685 (2 * n + 5))).toNat
-
-end
-
-end A043197.P13749416126743582066
-
 /-! ## A043197.P12679263904372187045
 
 `A037472(A043127(n+1)^A274843(n))`
@@ -6244,21 +5280,6 @@ end
 
 end A043198.P17080232927456822047
 
-/-! ## A043198.P2283706862416079227
-
-`A037477(C(A043168(n+1), A287656(n)))`
--/
-
-namespace A043198.P2283706862416079227
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (Nat.choose (A043168 (n + 1)).toNat (A287656 n).toNat)
-
-end
-
-end A043198.P2283706862416079227
-
 /-! ## A043198.P1835713588291539758
 
 `A037475(A043145(n+1)^A287656(2*(n+1)))`
@@ -6273,21 +5294,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043198.P1835713588291539758
-
-/-! ## A043198.P5935234416829039599
-
-`A037477(A043168(n+1)%A137390(n+2))`
--/
-
-namespace A043198.P5935234416829039599
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (Int.tmod (A043168 (n + 1)) (A137390 (n + 2))).toNat
-
-end
-
-end A043198.P5935234416829039599
 
 /-!
 # A043199: Numbers k such that 2 and 7 occur juxtaposed in the base-9 representation of k but not of k-1.
@@ -6339,19 +5345,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043199.P9142989026127797686
-
-/-! ## A043199.P13366699056731354892
-
-`A037477(A043169(n+1)^A031280(3*n+4))`
--/
-
-namespace A043199.P13366699056731354892
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (SequenceMachineLib.roundAway ((A043169 (n + 1) : ℚ) ^ (A031280 (3 * n + 4) : ℤ))).toNat
-
-end
-
-end A043199.P13366699056731354892
 

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 3*p# + 1 is prime, where prime(n)# = A002110(n).",
+  "id": "A402456",
+  "mentions": [
+    "A002110",
+    "A402499",
+    "A402501"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Pisot sequence L(9,10).",
   "id": "A048592",
   "mentions": [
-    "A008776"
+    "A008776",
+    "A048590"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

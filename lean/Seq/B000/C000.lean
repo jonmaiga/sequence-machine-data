@@ -15682,7 +15682,7 @@ end A000531.P3974317347879618799
 
 noncomputable section
 
-/-- A000531: From area of cyclic polygon of 2n + 1 sides.
+/-- A000531: Maximum number of (2n + 1)-sided cyclic polygons with specified side lengths.
 
 Offset 1, canonical program `A000531.P3974317347879618799`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A000531 (n : ℕ) : ℤ :=

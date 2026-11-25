@@ -2,17 +2,31 @@
   "description": "Number of pairs of functions f, g from a size n set into itself satisfying f(f(g(x))) = f(f(x)).",
   "id": "A239775",
   "mentions": [
+    "A000949",
     "A181162",
+    "A235325",
+    "A239749",
+    "A239750",
+    "A239752",
+    "A239755",
+    "A239756",
+    "A239759",
+    "A239762",
+    "A239764",
+    "A239766",
     "A239769",
-    "A239773"
+    "A239772",
+    "A239773",
+    "A239781",
+    "A239783",
+    "A239785"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

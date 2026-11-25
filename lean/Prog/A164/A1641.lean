@@ -17,6 +17,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -38,6 +39,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
@@ -60,7 +62,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -81,6 +82,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -790,29 +792,6 @@ def P12041678656450801504.Spec : Prop :=
 
 end A164111
 
-/-! ## A164111.P16114471660862226570
-
-`A009116(2*n-A000035(n))`
--/
-
-namespace A164111.P16114471660862226570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009116 ((2 * n : ℤ) - A000035 n).toNat
-
-end
-
-end A164111.P16114471660862226570
-
-namespace A164111
-
-/-- `A009116(2*n-A000035(n))` -/
-def P16114471660862226570.Spec : Prop :=
-  ∀ n, P16114471660862226570.a n = A164111 n
-
-end A164111
-
 /-! ## A164111.P123817050697180190
 
 `A117575(n+1)*A158780(n+2)`
@@ -833,6 +812,29 @@ namespace A164111
 /-- `A117575(n+1)*A158780(n+2)` -/
 def P123817050697180190.Spec : Prop :=
   ∀ n, P123817050697180190.a n = A164111 n
+
+end A164111
+
+/-! ## A164111.P15452302763206054571
+
+`A056450(A052928(n))*A087960(n)`
+-/
+
+namespace A164111.P15452302763206054571
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056450 (A052928 n).toNat * A087960 n
+
+end
+
+end A164111.P15452302763206054571
+
+namespace A164111
+
+/-- `A056450(A052928(n))*A087960(n)` -/
+def P15452302763206054571.Spec : Prop :=
+  ∀ n, P15452302763206054571.a n = A164111 n
 
 end A164111
 
@@ -1707,21 +1709,6 @@ end
 
 end A164122.P4570625786761482881
 
-/-! ## A164122.P15657306211599108203
-
-`A006530(lcm(2, A164121(n+2))-A164121(n+1))`
--/
-
-namespace A164122.P15657306211599108203
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 ((Int.lcm 2 (A164121 (n + 2)) : ℤ) - A164121 (n + 1)).toNat
-
-end
-
-end A164122.P15657306211599108203
-
 /-! ## A164122.P1841984975993480244
 
 `A218123(A320894(n+2))`
@@ -2048,6 +2035,35 @@ def P16798088351452762299.Spec : Prop :=
 
 end A164123
 
+/-! ## A164123.P4025740100770729384
+
+`∑[∏[4-a(n-1)]]` with `a(0)=1`
+-/
+
+namespace A164123.P4025740100770729384
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.rec [1] fun n f2 =>
+  4 - f2 (n - 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A164123.P4025740100770729384
+
+namespace A164123
+
+/-- `∑[∏[4-a(n-1)]]` -/
+def P4025740100770729384.Spec : Prop :=
+  ∀ n, P4025740100770729384.a n = A164123 (n + 1)
+
+end A164123
+
 /-! ## A164123.P1339179962128086647
 
 `lcm(3, a(n-2))+4` with `a(0)=1, a(1)=4`
@@ -2149,6 +2165,32 @@ def P6404221779565432934.Spec : Prop :=
 
 end A164123
 
+/-! ## A164123.P7416625686700547392
+
+`∑[a(n-2)/(1-2/3)]` with `a(0)=1, a(1)=3`
+-/
+
+namespace A164123.P7416625686700547392
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 3] fun n f1 =>
+  f1 (n - 2) / (1 - (2 : ℚ) / 3)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A164123.P7416625686700547392
+
+namespace A164123
+
+/-- `∑[a(n-2)/(1-2/3)]` -/
+def P7416625686700547392.Spec : Prop :=
+  ∀ n, P7416625686700547392.a n = (A164123 (n + 1) : ℚ)
+
+end A164123
+
 /-! ## A164123.P17562726786753425897
 
 `∏[4-a(n-1)]+a(n-1)` with `a(0)=1`
@@ -2218,58 +2260,6 @@ namespace A164123
 /-- `4-a(n-2)/(2/3-1)` -/
 def P10970999011568578919.Spec : Prop :=
   ∀ n, P10970999011568578919.a n = (A164123 (n + 1) : ℚ)
-
-end A164123
-
-/-! ## A164123.P12776102643065466574
-
-`a(n-gcd(2, n))+a(n-1)+2` with `a(0)=1`
--/
-
-namespace A164123.P12776102643065466574
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - Nat.gcd 2 n) + a (n - 1) + 2
-
-end
-
-end A164123.P12776102643065466574
-
-namespace A164123
-
-/-- `a(n-gcd(2, n))+a(n-1)+2` -/
-def P12776102643065466574.Spec : Prop :=
-  ∀ n, (P12776102643065466574.a n : ℤ) = A164123 (n + 1)
-
-end A164123
-
-/-! ## A164123.P11529166246091883127
-
-`a(n-2)+a(n-2)+a(n-2)+4` with `a(0)=1, a(1)=4`
--/
-
-namespace A164123.P11529166246091883127
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 4] fun n a =>
-  a (n - 2) + (a (n - 2) + a (n - 2)) + 4
-
-end
-
-end A164123.P11529166246091883127
-
-namespace A164123
-
-/-- `a(n-2)+a(n-2)+a(n-2)+4` -/
-def P11529166246091883127.Spec : Prop :=
-  ∀ n, (P11529166246091883127.a n : ℤ) = A164123 (n + 1)
-
-theorem P11529166246091883127.correct : P11529166246091883127.Spec := by
-  intro n
-  simp only [A164123, Nat.add_sub_cancel, A164123.P11529166246091883127.a, A164123.P7954600482302528546.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A164123
 
@@ -2581,32 +2571,6 @@ theorem P2667859251730373307.correct : P2667859251730373307.Spec := by
   simp only [A164126, Nat.add_sub_cancel, A164126.P2667859251730373307.f1, A164126.P2667859251730373307.a, A164126.P5222690194869759477.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
-
-end A164126
-
-/-! ## A164126.P7605193131821600884
-
-`abs(Δ[A006995(A008619(2*n))])`
--/
-
-namespace A164126.P7605193131821600884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006995 (A008619 (2 * n)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |f1 (n + 1) - f1 n|
-
-end
-
-end A164126.P7605193131821600884
-
-namespace A164126
-
-/-- `abs(Δ[A006995(A008619(2*n))])` -/
-def P7605193131821600884.Spec : Prop :=
-  ∀ n, P7605193131821600884.a n = A164126 (n + 1)
 
 end A164126
 
@@ -3913,21 +3877,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164132.P17775195367760066970
-
-/-! ## A164132.P16697589907586975335
-
-`A006530(A075279(n+1))%A031932(n+1)`
--/
-
-namespace A164132.P16697589907586975335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A006530 (A075279 (n + 1)).toNat) (A031932 (n + 1))
-
-end
-
-end A164132.P16697589907586975335
 
 /-! ## A164132.P745258763004157182
 
@@ -5519,35 +5468,35 @@ end
 
 end A164137.P13739699971615929839
 
-/-! ## A164137.P7563301402430350399
+/-! ## A164137.P7656909985635300306
 
-`A156689(or(2^n, A289814(n)))`
+`A330996(A036709(n))`
 -/
 
-namespace A164137.P7563301402430350399
+namespace A164137.P7656909985635300306
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156689 (Int.lor (2 ^ n : ℤ) (A289814 n)).toNat
+  A330996 (A036709 n).toNat
 
 end
 
-end A164137.P7563301402430350399
+end A164137.P7656909985635300306
 
-/-! ## A164137.P4064670370442777939
+/-! ## A164137.P17363172002150895928
 
-`A156689(xor(2^n, A289814(n)))`
+`A364678(A084215(n+1))`
 -/
 
-namespace A164137.P4064670370442777939
+namespace A164137.P17363172002150895928
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156689 (Int.xor (2 ^ n : ℤ) (A289814 n)).toNat
+  A364678 (A084215 (n + 1)).toNat
 
 end
 
-end A164137.P4064670370442777939
+end A164137.P17363172002150895928
 
 /-!
 # A164138: Number of binary strings of length n with equal numbers of 000 and 010 substrings.
@@ -5729,21 +5678,6 @@ end
 
 end A164140.P4960297214977103620
 
-/-! ## A164140.P8990790942037288664
-
-`A003056(A180306(n+1)+A148670(n))`
--/
-
-namespace A164140.P8990790942037288664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A180306 (n + 1) + A148670 n).toNat
-
-end
-
-end A164140.P8990790942037288664
-
 /-! ## A164140.P9227129954000712769
 
 `A072176(n+1)+A001222(A093627(n+1))`
@@ -5758,6 +5692,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164140.P9227129954000712769
+
+/-! ## A164140.P17980494193251341815
+
+`A083277(A014316(n+1))`
+-/
+
+namespace A164140.P17980494193251341815
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083277 (A014316 (n + 1)).toNat
+
+end
+
+end A164140.P17980494193251341815
 
 /-!
 # A164141: Number of binary strings of length n with equal numbers of 001 and 010 substrings.
@@ -6429,24 +6378,6 @@ end
 
 end A164146.P14196548547711271383
 
-/-! ## A164146.P12499028169454726230
-
-`A307796(∑[n-A002264(n+1)])`
--/
-
-namespace A164146.P12499028169454726230
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A002264 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307796 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A164146.P12499028169454726230
-
 /-! ## A164146.P16542255141131604252
 
 `A303696(∑[2+n]-1)`
@@ -6482,60 +6413,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164146.P2917405802076715314
-
-/-! ## A164146.P14868781614925188163
-
-`A307796(A274616(∑[n]))`
--/
-
-namespace A164146.P14868781614925188163
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307796 (A274616 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A164146.P14868781614925188163
-
-/-! ## A164146.P8972172299111655582
-
-`A307796(∑[n]-A002264(∑[n]))`
--/
-
-namespace A164146.P8972172299111655582
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307796 (((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A002264 (∑ j ∈ Finset.range (n + 1), f2 j)).toNat
-
-end
-
-end A164146.P8972172299111655582
-
-/-! ## A164146.P8875472716137987207
-
-`A307796(A008615((n+1)*2*n))`
--/
-
-namespace A164146.P8875472716137987207
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307796 (A008615 ((n + 1) * (2 * n))).toNat
-
-end
-
-end A164146.P8875472716137987207
 
 /-!
 # A164147: Number of binary strings of length n with equal numbers of 0000 and 0001 substrings.
@@ -6641,21 +6518,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164148.P15057447891212553034
-
-/-! ## A164148.P1809854327828761228
-
-`A400220(A078141(n+1))`
--/
-
-namespace A164148.P1809854327828761228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400220 (A078141 (n + 1)).toNat
-
-end
-
-end A164148.P1809854327828761228
 
 /-! ## A164148.P17316005020575415933
 
@@ -6852,21 +6714,6 @@ end
 
 end A164150.P10091305159054158315
 
-/-! ## A164150.P4029766167836039919
-
-`A001462(floor(A001654(n+2)/2))`
--/
-
-namespace A164150.P4029766167836039919
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001462 ⌊(A001654 (n + 2) : ℚ) / 2⌋.toNat
-
-end
-
-end A164150.P4029766167836039919
-
 /-! ## A164150.P14330547488974223738
 
 `A185284(record[lcm(2, n)])+A164387(n)`
@@ -6923,27 +6770,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164151.P5881840357922684858
-
-/-! ## A164151.P17074339020418083962
-
-`A257639(Δ[∑[A242525(n+1)]²])`
--/
-
-namespace A164151.P17074339020418083962
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A242525 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f2 j) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257639 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A164151.P17074339020418083962
 
 /-! ## A164151.P12237747661359847227
 
@@ -7646,80 +7472,20 @@ end A164158
 The programs for A164159, there is no canonical definition to state claims against.
 -/
 
-/-! ## A164159.P13459373311938759033
+/-! ## A164159.P3698688448480248704
 
-`A109680(A164172(n))`
+`A164172(n)`
 -/
 
-namespace A164159.P13459373311938759033
+namespace A164159.P3698688448480248704
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109680 (A164172 n).toNat
+  A164172 n
 
 end
 
-end A164159.P13459373311938759033
-
-/-! ## A164159.P13429971538031923567
-
-`A056926(A164172(n)²)`
--/
-
-namespace A164159.P13429971538031923567
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056926 (A164172 n ^ 2).toNat
-
-end
-
-end A164159.P13429971538031923567
-
-/-! ## A164159.P10434566568281456344
-
-`A262689(A164172(n)²)`
--/
-
-namespace A164159.P10434566568281456344
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262689 (A164172 n ^ 2).toNat
-
-end
-
-end A164159.P10434566568281456344
-
-/-! ## A164159.P6486648731245672563
-
-`A164172(A004892(n+1))`
--/
-
-namespace A164159.P6486648731245672563
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164172 (A004892 (n + 1)).toNat
-
-end
-
-end A164159.P6486648731245672563
-
-/-! ## A164159.P7920942029007764555
-
-`A164172(A004903(n+1))`
--/
-
-namespace A164159.P7920942029007764555
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164172 (A004903 (n + 1)).toNat
-
-end
-
-end A164159.P7920942029007764555
+end A164159.P3698688448480248704
 
 /-!
 # A164160: Number of binary strings of length n with equal numbers of 0001 and 0111 substrings.
@@ -7790,20 +7556,20 @@ end
 
 end A164160.P5052443041876868851
 
-/-! ## A164160.P3347871641164869286
+/-! ## A164160.P9783267543696525306
 
-`A070966(A165184(n))`
+`A284359(A094688(n))`
 -/
 
-namespace A164160.P3347871641164869286
+namespace A164160.P9783267543696525306
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070966 (A165184 n).toNat
+  A284359 (A094688 n).toNat
 
 end
 
-end A164160.P3347871641164869286
+end A164160.P9783267543696525306
 
 /-!
 # A164161: Number of binary strings of length n with equal numbers of 0001 and 1000 substrings.
@@ -8455,21 +8221,6 @@ end
 
 end A164167.P8207437316242841700
 
-/-! ## A164167.P11404371505762561015
-
-`A375815(A057409(n+1))`
--/
-
-namespace A164167.P11404371505762561015
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375815 (A057409 (n + 1)).toNat
-
-end
-
-end A164167.P11404371505762561015
-
 /-!
 # A164168: Number of binary strings of length n with equal numbers of 0010 and 0110 substrings.
 
@@ -8604,72 +8355,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164169.P465870332241894454
-
-/-! ## A164169.P10898419743547858503
-
-`A161205(A100447(n)-1)`
--/
-
-namespace A164169.P10898419743547858503
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A100447 n - 1).toNat
-
-end
-
-end A164169.P10898419743547858503
-
-/-! ## A164169.P5423815246892809762
-
-`A161205(∑[∑[A148845(n)]])`
--/
-
-namespace A164169.P5423815246892809762
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148845 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A164169.P5423815246892809762
-
-/-! ## A164169.P10434806031010619209
-
-`A161205(A008965(2*n+1))`
--/
-
-namespace A164169.P10434806031010619209
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A008965 (2 * n + 1)).toNat
-
-end
-
-end A164169.P10434806031010619209
-
-/-! ## A164169.P12553356294225714874
-
-`A161205(A059966(2*n+1))`
--/
-
-namespace A164169.P12553356294225714874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A059966 (2 * n + 1)).toNat
-
-end
-
-end A164169.P12553356294225714874
 
 /-!
 # A164170: Number of binary strings of length n with equal numbers of 0010 and 1010 substrings.
@@ -9025,21 +8710,6 @@ end
 
 end A164174.P2135828947265824078
 
-/-! ## A164174.P16665630235804135099
-
-`A002024(A316411(n))`
--/
-
-namespace A164174.P16665630235804135099
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A316411 (n + 10)).toNat
-
-end
-
-end A164174.P16665630235804135099
-
 /-! ## A164174.P4793341621583012338
 
 `A235963(A134396(n))`
@@ -9054,6 +8724,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164174.P4793341621583012338
+
+/-! ## A164174.P3640417230401279825
+
+`A123578(A316411(n))`
+-/
+
+namespace A164174.P3640417230401279825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123578 (A316411 (n + 10)).toNat
+
+end
+
+end A164174.P3640417230401279825
 
 /-!
 # A164175: Number of binary strings of length n with equal numbers of 0011 and 1100 substrings.
@@ -9106,21 +8791,6 @@ end
 
 end A164175.P2677252658787117043
 
-/-! ## A164175.P17059933991286846065
-
-`A161205(A088218(n)+A000326(n))`
--/
-
-namespace A164175.P17059933991286846065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A088218 n + A000326 n).toNat
-
-end
-
-end A164175.P17059933991286846065
-
 /-! ## A164175.P15966097224037238741
 
 `A304943(A082307(n))+A016029(n+1)`
@@ -9172,36 +8842,6 @@ end
 
 end A164176.P13428074789048872817
 
-/-! ## A164176.P8612212311609155190
-
-`A161205(A150043(n))`
--/
-
-namespace A164176.P8612212311609155190
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A150043 n).toNat
-
-end
-
-end A164176.P8612212311609155190
-
-/-! ## A164176.P5970094279981071421
-
-`A161205(A048118(n+1))`
--/
-
-namespace A164176.P5970094279981071421
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161205 (A048118 (n + 1)).toNat
-
-end
-
-end A164176.P5970094279981071421
-
 /-! ## A164176.P1138147359053413581
 
 `A321578(A148682(n+1))`
@@ -9216,6 +8856,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164176.P1138147359053413581
+
+/-! ## A164176.P5909713715082499346
+
+`A321211(A360233(n+1))`
+-/
+
+namespace A164176.P5909713715082499346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321211 (A360233 (n + 1)).toNat
+
+end
+
+end A164176.P5909713715082499346
+
+/-! ## A164176.P8476440519725674424
+
+`A307531(A048117(n+2))`
+-/
+
+namespace A164176.P8476440519725674424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307531 (A048117 (n + 2)).toNat
+
+end
+
+end A164176.P8476440519725674424
 
 /-!
 # A164177: Number of binary strings of length n with equal numbers of 0110 and 1001 substrings.
@@ -9349,21 +9019,6 @@ end
 
 end A164178.P4142546304611258400
 
-/-! ## A164178.P1060337079927724491
-
-`A100196(A004277(round(exp(n-γ)))+n)`
--/
-
-namespace A164178.P1060337079927724491
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (A004277 (SequenceMachineLib.roundAway (Real.exp ((n : ℝ) - Real.eulerMascheroniConstant))).toNat + (n : ℤ)).toNat
-
-end
-
-end A164178.P1060337079927724491
-
 /-! ## A164178.P2847083292069236618
 
 `A210021(n)-A267841(A000108(n))`
@@ -9379,20 +9034,20 @@ end
 
 end A164178.P2847083292069236618
 
-/-! ## A164178.P10918485147583246159
+/-! ## A164178.P14417723735941548450
 
-`A100196(A002387(n)+A002387(n)+n)`
+`A103128(A047107(n))`
 -/
 
-namespace A164178.P10918485147583246159
+namespace A164178.P14417723735941548450
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (A002387 n + (A002387 n + (n : ℤ))).toNat
+  A103128 (A047107 n).toNat
 
 end
 
-end A164178.P10918485147583246159
+end A164178.P14417723735941548450
 
 /-!
 # A164179: Number of binary strings of length n with equal numbers of 00000 and 00010 substrings.
@@ -9433,21 +9088,6 @@ end
 
 end A164179.P17352456366125238615
 
-/-! ## A164179.P11999703608198210627
-
-`A100196(A191653(n)-(1-A261235(n)))`
--/
-
-namespace A164179.P11999703608198210627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (A191653 n - (1 - A261235 n)).toNat
-
-end
-
-end A164179.P11999703608198210627
-
 /-! ## A164179.P2878592478576196423
 
 `A164183(n+1)-A157271(A171857(n+1))`
@@ -9463,20 +9103,20 @@ end
 
 end A164179.P2878592478576196423
 
-/-! ## A164179.P2089940961103424967
+/-! ## A164179.P11781435177196054911
 
-`A100196(A165652(3*n+1)+A018035(n))`
+`A164180(n)`
 -/
 
-namespace A164179.P2089940961103424967
+namespace A164179.P11781435177196054911
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (A165652 (3 * n + 1) + A018035 n).toNat
+  A164180 n
 
 end
 
-end A164179.P2089940961103424967
+end A164179.P11781435177196054911
 
 /-!
 # A164180: Number of binary strings of length n with equal numbers of 00000 and 00011 substrings.
@@ -9685,35 +9325,35 @@ end
 
 end A164182.P4481091950520459645
 
-/-! ## A164182.P3361374489129300959
+/-! ## A164182.P7456953041976690369
 
-`A100196(A097134(n)+1)`
+`A164183(n)`
 -/
 
-namespace A164182.P3361374489129300959
+namespace A164182.P7456953041976690369
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (A097134 n + 1).toNat
+  A164183 n
 
 end
 
-end A164182.P3361374489129300959
+end A164182.P7456953041976690369
 
-/-! ## A164182.P8223925155861942061
+/-! ## A164182.P11577357994749938559
 
-`A100196(3*A001906(n)+2)`
+`A073188(A148452(n+1))`
 -/
 
-namespace A164182.P8223925155861942061
+namespace A164182.P11577357994749938559
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100196 (3 * A001906 n + 2).toNat
+  A073188 (A148452 (n + 1)).toNat
 
 end
 
-end A164182.P8223925155861942061
+end A164182.P11577357994749938559
 
 /-!
 # A164183: Number of binary strings of length n with equal numbers of 00000 and 00110 substrings.
@@ -9961,20 +9601,20 @@ end
 
 end A164185.P8369908576352454759
 
-/-! ## A164185.P17723218063474894893
+/-! ## A164185.P6909982643000729940
 
-`A085701(A164189(n))`
+`A164189(n)`
 -/
 
-namespace A164185.P17723218063474894893
+namespace A164185.P6909982643000729940
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085701 (A164189 n).toNat
+  A164189 n
 
 end
 
-end A164185.P17723218063474894893
+end A164185.P6909982643000729940
 
 /-!
 # A164186: Number of binary strings of length n with equal numbers of 00000 and 01011 substrings.
@@ -10414,66 +10054,6 @@ end
 
 end A164192.P8698958688075027545
 
-/-! ## A164192.P10933270100224543811
-
-`A164212(A087036(n))`
--/
-
-namespace A164192.P10933270100224543811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164212 (A087036 n).toNat
-
-end
-
-end A164192.P10933270100224543811
-
-/-! ## A164192.P14227402643417495218
-
-`A164212(A087051(n))`
--/
-
-namespace A164192.P14227402643417495218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164212 (A087051 n).toNat
-
-end
-
-end A164192.P14227402643417495218
-
-/-! ## A164192.P3071831315081155902
-
-`A164212(A004893(n+1))`
--/
-
-namespace A164192.P3071831315081155902
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164212 (A004893 (n + 1)).toNat
-
-end
-
-end A164192.P3071831315081155902
-
-/-! ## A164192.P4394343574857737592
-
-`A164212(A004904(n+1))`
--/
-
-namespace A164192.P4394343574857737592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164212 (A004904 (n + 1)).toNat
-
-end
-
-end A164192.P4394343574857737592
-
 /-!
 # A164194: Number of binary strings of length n with equal numbers of 00001 and 00100 substrings.
 
@@ -10659,66 +10239,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A164196.P3576516666444993772
-
-/-! ## A164196.P430961599154335809
-
-`A164217(A120126(n))`
--/
-
-namespace A164196.P430961599154335809
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164217 (A120126 n).toNat
-
-end
-
-end A164196.P430961599154335809
-
-/-! ## A164196.P3592660383222305259
-
-`A164217(A351870(n))`
--/
-
-namespace A164196.P3592660383222305259
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164217 (A351870 n).toNat
-
-end
-
-end A164196.P3592660383222305259
-
-/-! ## A164196.P2193911484620296465
-
-`A164217(A004894(n+1))`
--/
-
-namespace A164196.P2193911484620296465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164217 (A004894 (n + 1)).toNat
-
-end
-
-end A164196.P2193911484620296465
-
-/-! ## A164196.P13442314790216613718
-
-`A164217(A004905(n+1))`
--/
-
-namespace A164196.P13442314790216613718
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164217 (A004905 (n + 1)).toNat
-
-end
-
-end A164196.P13442314790216613718
 
 /-!
 # A164197: Number of binary strings of length n with equal numbers of 00001 and 01000 substrings.
@@ -10969,20 +10489,20 @@ end
 
 end A164199.P13365806435355128699
 
-/-! ## A164199.P17143351980216827084
+/-! ## A164199.P11093490953561076921
 
-`A085701(A164223(n))`
+`A164223(n)`
 -/
 
-namespace A164199.P17143351980216827084
+namespace A164199.P11093490953561076921
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085701 (A164223 n).toNat
+  A164223 n
 
 end
 
-end A164199.P17143351980216827084
+end A164199.P11093490953561076921
 
 /-! ## A164199.P1488864851259101541
 

@@ -1,0 +1,15 @@
+{
+  "description": "Least number of colors in a coloring of {1, ..., n} such that every 4-term arithmetic progression contains at least three distinct colors.",
+  "id": "A402186",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

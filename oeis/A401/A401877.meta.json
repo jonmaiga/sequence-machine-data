@@ -1,0 +1,40 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order has an odd number of parts, the first and last of which are equal.",
+  "id": "A401877",
+  "mentions": [
+    "A000700",
+    "A001045",
+    "A001969",
+    "A006995",
+    "A016116",
+    "A027357",
+    "A029837",
+    "A034008",
+    "A048700",
+    "A059893",
+    "A066099",
+    "A078008",
+    "A091065",
+    "A098124",
+    "A124767",
+    "A128209",
+    "A154809",
+    "A333381",
+    "A389530",
+    "A389532",
+    "A400763",
+    "A400764",
+    "A400765",
+    "A400766",
+    "A401878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -5,15 +5,17 @@
     "A004051",
     "A163115",
     "A176691",
-    "A192436"
+    "A192436",
+    "A301634"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

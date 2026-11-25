@@ -16,6 +16,7 @@ import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C032
@@ -23,15 +24,16 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
@@ -54,6 +56,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -61,7 +64,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -139,47 +142,20 @@ end
 
 end A020306.P12441779117275752936
 
-/-! ## A020306.P6584872107760940731
+/-! ## A020306.P14229191244484238317
 
-`A020208(eq[A167439(n), A194920(n+1)])`
+`A128462(A285215(n+1))`
 -/
 
-namespace A020306.P6584872107760940731
+namespace A020306.P14229191244484238317
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167439 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194920 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020208 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A128462 (A285215 (n + 1)).toNat
 
 end
 
-end A020306.P6584872107760940731
-
-/-! ## A020306.P10466251013599417441
-
-`A020208(lt[A107855(n+2), A014682(n)])`
--/
-
-namespace A020306.P10466251013599417441
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107855 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014682 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020208 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A020306.P10466251013599417441
+end A020306.P14229191244484238317
 
 /-!
 # A020307: Strong pseudoprimes to base 81.
@@ -281,23 +257,23 @@ end A020315.P11077142962612592007
 The programs for A020316, there is no canonical definition to state claims against.
 -/
 
-/-! ## A020316.P6771355450628572809
+/-! ## A020316.P1880449383355931467
 
-`filter[A020218(2*n+1), A284674(#)]`
+`filter[A020218(2*n+1), A102609(#)]`
 -/
 
-namespace A020316.P6771355450628572809
+namespace A020316.P1880449383355931467
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A020218 (2 * n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A284674 (f1 j).toNat = 1) n)
+  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
 
 end
 
-end A020316.P6771355450628572809
+end A020316.P1880449383355931467
 
 /-!
 # A020325: Strong pseudoprimes to base 99.
@@ -1723,29 +1699,6 @@ def P962766509083921547.Spec : Prop :=
 
 end A020338
 
-/-! ## A020338.P16440877552206737099
-
-`n+1+10^(1+A004216(n+1))*(n+1)`
--/
-
-namespace A020338.P16440877552206737099
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) + (10 : ℚ) ^ (1 + A004216 (n + 1) : ℤ) * (n + 1 : ℚ)
-
-end
-
-end A020338.P16440877552206737099
-
-namespace A020338
-
-/-- `n+1+10^(1+A004216(n+1))*(n+1)` -/
-def P16440877552206737099.Spec : Prop :=
-  ∀ n, P16440877552206737099.a n = (A020338 (n + 1) : ℚ)
-
-end A020338
-
 /-! ## A020338.P9181596089027191634
 
 `A056965(n+1)+A056524(n+1)`
@@ -2289,21 +2242,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A020345.P15159034216995285424
-
-/-! ## A020345.P5385433734623857922
-
-`A103609(A020344(n)+A020344(n)+1)`
--/
-
-namespace A020345.P5385433734623857922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103609 (A020344 n + (A020344 n + 1)).toNat
-
-end
-
-end A020345.P5385433734623857922
 
 /-!
 # A020346: Expansion of 1/((1-5x)(1-8x)(1-10x)).
@@ -3179,48 +3117,6 @@ end
 
 end A020351.P10842903002305092665
 
-/-! ## A020351.P7082993174696467469
-
-`A020725(eq[12, A097853(n+1)])`
--/
-
-namespace A020351.P7082993174696467469
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  12
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097853 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A020351.P7082993174696467469
-
-/-! ## A020351.P17584731858761332186
-
-`A020725(eq[13, A067280(n+1)])`
--/
-
-namespace A020351.P17584731858761332186
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  13
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067280 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A020351.P17584731858761332186
-
 /-!
 # A020352: Numbers k such that the continued fraction for sqrt(k) has period 13.
 
@@ -3443,27 +3339,6 @@ end
 
 end A020353.P2867140780986557776
 
-/-! ## A020353.P5949520349643172544
-
-`A020725(eq[15, A067280(n+1)])`
--/
-
-namespace A020353.P5949520349643172544
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  15
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067280 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A020353.P5949520349643172544
-
 /-!
 # A020354: Numbers k such that the continued fraction for sqrt(k) has period 15.
 
@@ -3664,27 +3539,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020355.P6065662961879060004
-
-/-! ## A020355.P6609707528145998094
-
-`A020725(eq[16, A097853(n+1)])`
--/
-
-namespace A020355.P6609707528145998094
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097853 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A020355.P6609707528145998094
 
 /-!
 # A020356: Numbers k such that the continued fraction for sqrt(k) has period 17.
@@ -3940,27 +3794,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020359.P14718753706307866574
-
-/-! ## A020359.P18155367809633903997
-
-`A020725(eq[20, A097853(n+1)])`
--/
-
-namespace A020359.P18155367809633903997
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  20
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097853 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A020359.P18155367809633903997
 
 /-!
 # A020360: Numbers k such that the continued fraction for sqrt(k) has period 21.

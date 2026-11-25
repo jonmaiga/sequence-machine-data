@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number of lines needed to cover the points of the first n primes in the Ulam spiral.",
+  "id": "A399941",
+  "mentions": [
+    "A214664",
+    "A214665",
+    "A296030"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

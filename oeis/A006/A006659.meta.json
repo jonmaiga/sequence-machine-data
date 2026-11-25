@@ -2,6 +2,7 @@
   "description": "Number of closed meander systems of order n+1 with n components.",
   "id": "A006659",
   "mentions": [
+    "A000051",
     "A001622",
     "A002057",
     "A002694",

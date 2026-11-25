@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that A401736(k) = n.",
+  "id": "A401737",
+  "mentions": [
+    "A401735",
+    "A401736"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

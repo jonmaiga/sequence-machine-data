@@ -3,7 +3,9 @@
   "id": "A014781",
   "mentions": [
     "A001469",
-    "A005439"
+    "A005439",
+    "A297703",
+    "A401504"
   ],
   "tags": [
     "formulas",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
+    "size": 56,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the fixed point of the cosine function when the angle is measured in gradians.",
+  "id": "A401939",
+  "mentions": [
+    "A003957",
+    "A330119"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

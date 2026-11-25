@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 6/e.",
   "id": "A135006",
   "mentions": [
+    "A001113",
     "A135003"
   ],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of acyclic digraphs on n labeled vertices with k arcs, exactly one source and exactly one sink, for n >= 1 and 0 <= k <= binomial(n,2).",
+  "id": "A402605",
+  "mentions": [
+    "A000142",
+    "A081064",
+    "A165950",
+    "A350487",
+    "A350491"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

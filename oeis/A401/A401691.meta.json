@@ -1,0 +1,19 @@
+{
+  "description": "Number of stabilizer states on n qutrits.",
+  "id": "A401691",
+  "mentions": [
+    "A290000",
+    "A323716",
+    "A353196"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

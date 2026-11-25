@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -19,10 +18,8 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
@@ -54,6 +51,7 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B008.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -61,7 +59,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -72,6 +69,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
@@ -106,115 +104,6 @@ end
 
 end A224600.P4932351466048764644
 
-/-! ## A224600.P16771846409529748337
-
-`abs(A224606(A022856(n+5))-2)+2`
--/
-
-namespace A224600.P16771846409529748337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A224606 (A022856 (n + 5)).toNat - 2| + 2
-
-end
-
-end A224600.P16771846409529748337
-
-/-! ## A224600.P3194122514434708836
-
-`or(char[2], A224606(A000217(n+1)+2))`
--/
-
-namespace A224600.P3194122514434708836
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224606 (A000217 (n + 1) + 2).toNat)
-
-end
-
-end A224600.P3194122514434708836
-
-/-! ## A224600.P5829284797715011113
-
-`A224606(A022856(n+5))+A000038(n+1)`
--/
-
-namespace A224600.P5829284797715011113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A022856 (n + 5)).toNat + A000038 (n + 1)
-
-end
-
-end A224600.P5829284797715011113
-
-/-! ## A224600.P2008698061837953125
-
-`A224606(A022856(n+5))%A031877(n+1)`
--/
-
-namespace A224600.P2008698061837953125
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224606 (A022856 (n + 5)).toNat) (A031877 (n + 1))
-
-end
-
-end A224600.P2008698061837953125
-
-/-! ## A224600.P13118922647598366926
-
-`A224606(A000217(n+1)+2)+A139608(n)%2`
--/
-
-namespace A224600.P13118922647598366926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A000217 (n + 1) + 2).toNat + Int.tmod (A139608 n) 2
-
-end
-
-end A224600.P13118922647598366926
-
-/-! ## A224600.P10103558927996712763
-
-`A007318(C(2, n))*A224606(A000217(n+1)+2)`
--/
-
-namespace A224600.P10103558927996712763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) * A224606 (A000217 (n + 1) + 2).toNat
-
-end
-
-end A224600.P10103558927996712763
-
-/-! ## A224600.P2320003379920450963
-
-`and(1, A007318(n))!*A224606(A000217(n+1)+2)`
--/
-
-namespace A224600.P2320003379920450963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (Int.land 1 (A007318 n)).toNat : ℤ) * A224606 (A000217 (n + 1) + 2).toNat
-
-end
-
-end A224600.P2320003379920450963
-
 /-!
 # A224601: Number of (n+2)X5 0..2 matrices with each 3X3 subblock idempotent.
 
@@ -238,134 +127,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224601.P17926878837411385091
-
-/-! ## A224601.P12011681069009318268
-
-`or(char[1], A224606(A167614(n+1)))`
--/
-
-namespace A224601.P12011681069009318268
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224606 (A167614 (n + 1)).toNat)
-
-end
-
-end A224601.P12011681069009318268
-
-/-! ## A224601.P15518323561603898363
-
-`or(char[1], A224606(A055998(n)+6))`
--/
-
-namespace A224601.P15518323561603898363
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224606 (A055998 n + 6).toNat)
-
-end
-
-end A224601.P15518323561603898363
-
-/-! ## A224601.P15220447255118020280
-
-`and(1, n)!*A224606(A167499(n)+n)`
--/
-
-namespace A224601.P15220447255118020280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (Nat.land 1 n) : ℤ) * A224606 (A167499 n + (n : ℤ)).toNat
-
-end
-
-end A224601.P15220447255118020280
-
-/-! ## A224601.P18261208808304379350
-
-`or(A000007(n), A224606(A167499(n)+n))`
--/
-
-namespace A224601.P18261208808304379350
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A224606 (A167499 n + (n : ℤ)).toNat)
-
-end
-
-end A224601.P18261208808304379350
-
-/-! ## A224601.P13692320952223158964
-
-`A007318(C(2, n))*A224606(A167614(n+1))`
--/
-
-namespace A224601.P13692320952223158964
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) * A224606 (A167614 (n + 1)).toNat
-
-end
-
-end A224601.P13692320952223158964
-
-/-! ## A224601.P17018735559078043249
-
-`A224606(A167614(n+1))/A007318(C(n, 2))`
--/
-
-namespace A224601.P17018735559078043249
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A224606 (A167614 (n + 1)).toNat : ℚ) / (A007318 (Nat.choose n 2) : ℚ)
-
-end
-
-end A224601.P17018735559078043249
-
-/-! ## A224601.P11741592808526029642
-
-`A224606(A167614(n+1))%A000032(n+14)`
--/
-
-namespace A224601.P11741592808526029642
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224606 (A167614 (n + 1)).toNat) (A000032 (n + 14))
-
-end
-
-end A224601.P11741592808526029642
-
-/-! ## A224601.P8906684220845212246
-
-`A007318(A014963(2*(n+1)))*A224606(A167614(n+1))`
--/
-
-namespace A224601.P8906684220845212246
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A014963 (2 * (n + 1))).toNat * A224606 (A167614 (n + 1)).toNat
-
-end
-
-end A224601.P8906684220845212246
 
 /-!
 # A224602: Number of (n+2) X 6 0..2 matrices with each 3 X 3 subblock idempotent.
@@ -391,25 +152,6 @@ end
 
 end A224602.P12099217293095042114
 
-/-! ## A224602.P6445925311979232182
-
-`or(char[1], A224606(A000217(n+3)+4))`
--/
-
-namespace A224602.P6445925311979232182
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224606 (A000217 (n + 3) + 4).toNat)
-
-end
-
-end A224602.P6445925311979232182
-
 /-! ## A224602.P16773246625953959317
 
 `record[A224606(A000217(abs(1-n)+1)+4)]`
@@ -427,96 +169,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224602.P16773246625953959317
-
-/-! ## A224602.P17360861885659170732
-
-`abs(2-A224606(A034856(n+2)+6))+2`
--/
-
-namespace A224602.P17360861885659170732
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |2 - A224606 (A034856 (n + 2) + 6).toNat| + 2
-
-end
-
-end A224602.P17360861885659170732
-
-/-! ## A224602.P5718081775181255156
-
-`A007318(C(2, n))*A224606(A000217(n+3)+4)`
--/
-
-namespace A224602.P5718081775181255156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) * A224606 (A000217 (n + 3) + 4).toNat
-
-end
-
-end A224602.P5718081775181255156
-
-/-! ## A224602.P137282033287452821
-
-`A224606(A000217(n+3)+4)+A008683(4*(n+1))`
--/
-
-namespace A224602.P137282033287452821
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A000217 (n + 3) + 4).toNat + A008683 (4 * (n + 1))
-
-end
-
-end A224602.P137282033287452821
-
-/-! ## A224602.P13451215583515535075
-
-`A014963(4*n+10)*A224606(A000217(n+3)+4)`
--/
-
-namespace A224602.P13451215583515535075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (4 * n + 10) * A224606 (A000217 (n + 3) + 4).toNat
-
-end
-
-end A224602.P13451215583515535075
-
-/-! ## A224602.P15687840565665880923
-
-`A000041(C(2, n+2))*A224606(A000217(n+3)+4)`
--/
-
-namespace A224602.P15687840565665880923
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (Nat.choose 2 (n + 2)) * A224606 (A000217 (n + 3) + 4).toNat
-
-end
-
-end A224602.P15687840565665880923
-
-/-! ## A224602.P13388591538121240791
-
-`A000108(C(2, n+2))*A224606(A000217(n+3)+4)`
--/
-
-namespace A224602.P13388591538121240791
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000108 (Nat.choose 2 (n + 2)) * A224606 (A000217 (n + 3) + 4).toNat
-
-end
-
-end A224602.P13388591538121240791
 
 /-!
 # A224603: Number of (n+2) X 7 0..2 matrices with each 3 X 3 subblock idempotent.
@@ -539,66 +191,6 @@ end
 
 end A224603.P10872699988505032906
 
-/-! ## A224603.P15741876629189586316
-
-`A224606(A167499(n+3))`
--/
-
-namespace A224603.P15741876629189586316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A167499 (n + 3)).toNat
-
-end
-
-end A224603.P15741876629189586316
-
-/-! ## A224603.P6735702173767988960
-
-`A224606(A155212(n)+13)`
--/
-
-namespace A224603.P6735702173767988960
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A155212 n + 13).toNat
-
-end
-
-end A224603.P6735702173767988960
-
-/-! ## A224603.P15849546783966042484
-
-`A224606(A056000(n)+15)`
--/
-
-namespace A224603.P15849546783966042484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A056000 n + 15).toNat
-
-end
-
-end A224603.P15849546783966042484
-
-/-! ## A224603.P9554372951633306213
-
-`A224606(A167614(n+3)+2)`
--/
-
-namespace A224603.P9554372951633306213
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A224603.P9554372951633306213
-
 /-!
 # A224604: Number of (n+2) X 8 0..2 matrices with each 3 X 3 subblock idempotent.
 
@@ -620,66 +212,6 @@ end
 
 end A224604.P4380634442278980942
 
-/-! ## A224604.P4775408343840296466
-
-`A224606(A374007(n+1))`
--/
-
-namespace A224604.P4775408343840296466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A374007 (n + 1)).toNat
-
-end
-
-end A224604.P4775408343840296466
-
-/-! ## A224604.P12308655786577273451
-
-`A224606(A166136(n+4))`
--/
-
-namespace A224604.P12308655786577273451
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A166136 (n + 4)).toNat
-
-end
-
-end A224604.P12308655786577273451
-
-/-! ## A224604.P11882454736159595201
-
-`A224606(A056115(n)+21)`
--/
-
-namespace A224604.P11882454736159595201
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A056115 n + 21).toNat
-
-end
-
-end A224604.P11882454736159595201
-
-/-! ## A224604.P766365474535541242
-
-`A224606(1+A167499(n+4))`
--/
-
-namespace A224604.P766365474535541242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (1 + A167499 (n + 4)).toNat
-
-end
-
-end A224604.P766365474535541242
-
 /-!
 # A224605: Number of (n+2) X 9 0..2 matrices with each 3 X 3 subblock idempotent.
 
@@ -700,66 +232,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224605.P10797257476119265918
-
-/-! ## A224605.P3403908310540340930
-
-`A224606(A167487(n+5))`
--/
-
-namespace A224605.P3403908310540340930
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A167487 (n + 5)).toNat
-
-end
-
-end A224605.P3403908310540340930
-
-/-! ## A224605.P10700690330676022764
-
-`A224606(A056119(n)+28)`
--/
-
-namespace A224605.P10700690330676022764
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A056119 n + 28).toNat
-
-end
-
-end A224605.P10700690330676022764
-
-/-! ## A224605.P2525641131081477954
-
-`A224606(4+A167614(5+n))`
--/
-
-namespace A224605.P2525641131081477954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (4 + A167614 (5 + n)).toNat
-
-end
-
-end A224605.P2525641131081477954
-
-/-! ## A224605.P13081781840733431610
-
-`A224606(A000124(n+6)+6)`
--/
-
-namespace A224605.P13081781840733431610
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224606 (A000124 (n + 6) + 6).toNat
-
-end
-
-end A224605.P13081781840733431610
 
 /-!
 # A224607: a(n) = A219331(n^2).
@@ -916,24 +388,6 @@ end
 
 end A224609.P14857952976564428513
 
-/-! ## A224609.P13754501055107258767
-
-`A001281(A238848(p?[A004280(n+1)]))`
--/
-
-namespace A224609.P13754501055107258767
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004280 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001281 (A238848 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat).toNat
-
-end
-
-end A224609.P13754501055107258767
-
 /-!
 # A224610: Smallest j such that j*2*prime(n)^3-1 and j*2*prime(n)*q^2-1 are prime.
 
@@ -1020,78 +474,6 @@ namespace A224613
 /-- `∑{d}[6*(1+n), #]` -/
 def P6370864367853952566.Spec : Prop :=
   ∀ n, (P6370864367853952566.a n : ℤ) = A224613 (n + 1)
-
-end A224613
-
-/-! ## A224613.P15569476256201389391
-
-`∑{d}[A016969(n)+1, #]%A075730(n+1)`
--/
-
-namespace A224613.P15569476256201389391
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016969 n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((∑ d ∈ Nat.divisors (f1 n).natAbs, d : ℕ) : ℤ) (A075730 (n + 1))
-
-end
-
-end A224613.P15569476256201389391
-
-namespace A224613
-
-/-- `∑{d}[A016969(n)+1, #]%A075730(n+1)` -/
-def P15569476256201389391.Spec : Prop :=
-  ∀ n, P15569476256201389391.a n = A224613 (n + 1)
-
-end A224613
-
-/-! ## A224613.P9282460781505136058
-
-`A000203(A016969(n)+1)%A179645(n+1)`
--/
-
-namespace A224613.P9282460781505136058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000203 (A016969 n + 1).toNat) (A179645 (n + 1))
-
-end
-
-end A224613.P9282460781505136058
-
-namespace A224613
-
-/-- `A000203(A016969(n)+1)%A179645(n+1)` -/
-def P9282460781505136058.Spec : Prop :=
-  ∀ n, P9282460781505136058.a n = A224613 (n + 1)
-
-end A224613
-
-/-! ## A224613.P2456303712990110272
-
-`A000203(A008588(n+1))%A044397(n+1)`
--/
-
-namespace A224613.P2456303712990110272
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000203 (A008588 (n + 1)).toNat) (A044397 (n + 1))
-
-end
-
-end A224613.P2456303712990110272
-
-namespace A224613
-
-/-- `A000203(A008588(n+1))%A044397(n+1)` -/
-def P2456303712990110272.Spec : Prop :=
-  ∀ n, P2456303712990110272.a n = A224613 (n + 1)
 
 end A224613
 
@@ -1326,69 +708,6 @@ end
 
 end A224617.P2848863927244017346
 
-/-! ## A224617.P14671270006224724095
-
-`lcm(2, A224625(A001844(n)))`
--/
-
-namespace A224617.P14671270006224724095
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224625 (A001844 n).toNat)
-
-end
-
-end A224617.P14671270006224724095
-
-/-! ## A224617.P6795318609754634063
-
-`A053632(n)*A224625(A001844(n))`
--/
-
-namespace A224617.P6795318609754634063
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053632 n * A224625 (A001844 n).toNat
-
-end
-
-end A224617.P6795318609754634063
-
-/-! ## A224617.P4582189449575419698
-
-`A007318(∑[n])*A224625(A001844(n))`
--/
-
-namespace A224617.P4582189449575419698
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (∑ j ∈ Finset.range (n + 1), f1 j) * A224625 (A001844 n).toNat
-
-end
-
-end A224617.P4582189449575419698
-
-/-! ## A224617.P8753502128240015156
-
-`A224625(A001844(n))-A178986(n+2)`
--/
-
-namespace A224617.P8753502128240015156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A001844 n).toNat - A178986 (n + 2)
-
-end
-
-end A224617.P8753502128240015156
-
 /-!
 # A224618: Number of (n+4)X5 0..2 matrices with each 5X5 subblock idempotent.
 
@@ -1412,66 +731,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224618.P3387715140996581144
-
-/-! ## A224618.P15363140023719794263
-
-`and(-1, A224625(A000124(n)))`
--/
-
-namespace A224618.P15363140023719794263
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-1) (A224625 (A000124 n).toNat)
-
-end
-
-end A224618.P15363140023719794263
-
-/-! ## A224618.P14478273368625679087
-
-`A224625(A000124(n))+A067157(n)`
--/
-
-namespace A224618.P14478273368625679087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A000124 n).toNat + A067157 (n + 10)
-
-end
-
-end A224618.P14478273368625679087
-
-/-! ## A224618.P13478005424618912466
-
-`A369054(n)+A224625(A000124(n))`
--/
-
-namespace A224618.P13478005424618912466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369054 n + A224625 (A000124 n).toNat
-
-end
-
-end A224618.P13478005424618912466
-
-/-! ## A224618.P7179877355786859239
-
-`or(A098108(n), A224625(A000124(n)))`
--/
-
-namespace A224618.P7179877355786859239
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A098108 n) (A224625 (A000124 n).toNat)
-
-end
-
-end A224618.P7179877355786859239
 
 /-!
 # A224619: Number of (n+4)X6 0..2 matrices with each 5X5 subblock idempotent.
@@ -1497,70 +756,6 @@ end
 
 end A224619.P10132381266947163427
 
-/-! ## A224619.P16698769821542508825
-
-`A224625(A000096(n)+3)+char[19]`
--/
-
-namespace A224619.P16698769821542508825
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  19
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A000096 n + 3).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224619.P16698769821542508825
-
-/-! ## A224619.P5366646615437801638
-
-`A224625(A373662(n+1))%A216014(n+1)`
--/
-
-namespace A224619.P5366646615437801638
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224625 (A373662 (n + 1)).toNat) (A216014 (n + 1))
-
-end
-
-end A224619.P5366646615437801638
-
-/-! ## A224619.P6048165222718165102
-
-`A007318(C(2, n))*A224625(A000096(n)+3)`
--/
-
-namespace A224619.P6048165222718165102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) * A224625 (A000096 n + 3).toNat
-
-end
-
-end A224619.P6048165222718165102
-
-/-! ## A224619.P17203063328255528713
-
-`A224625(A000096(n)+3)/A007318(C(n, 2))`
--/
-
-namespace A224619.P17203063328255528713
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A224625 (A000096 n + 3).toNat : ℚ) / (A007318 (Nat.choose n 2) : ℚ)
-
-end
-
-end A224619.P17203063328255528713
-
 /-!
 # A224620: Number of (n+4)X7 0..2 matrices with each 5X5 subblock idempotent.
 
@@ -1584,70 +779,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224620.P3907037855547860430
-
-/-! ## A224620.P4764811248776414211
-
-`A224625(A167614(n+1))+char[20]`
--/
-
-namespace A224620.P4764811248776414211
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  20
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167614 (n + 1)).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224620.P4764811248776414211
-
-/-! ## A224620.P13846748363810962150
-
-`A067157(n)!*A224625(A167614(n+1))`
--/
-
-namespace A224620.P13846748363810962150
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (A067157 (n + 10)).toNat : ℤ) * A224625 (A167614 (n + 1)).toNat
-
-end
-
-end A224620.P13846748363810962150
-
-/-! ## A224620.P5117885411132909793
-
-`A224625(A167614(n+1))%A128286(n+1)`
--/
-
-namespace A224620.P5117885411132909793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224625 (A167614 (n + 1)).toNat) (A128286 (n + 1))
-
-end
-
-end A224620.P5117885411132909793
-
-/-! ## A224620.P739850238711924216
-
-`A007318(C(n, 2))*A224625(A167614(n+1))`
--/
-
-namespace A224620.P739850238711924216
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose n 2) * A224625 (A167614 (n + 1)).toNat
-
-end
-
-end A224620.P739850238711924216
 
 /-!
 # A224621: Number of (n+4) X 8 0..2 matrices with each 5 X 5 subblock idempotent.
@@ -1673,74 +804,6 @@ end
 
 end A224621.P9284200180255636077
 
-/-! ## A224621.P2024789764941677295
-
-`A224625(A167614(n+2)+1)+char[16]`
--/
-
-namespace A224621.P2024789764941677295
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167614 (n + 2) + 1).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224621.P2024789764941677295
-
-/-! ## A224621.P12482664214113435056
-
-`A224625(A166136(n+2)-2)+char[16]`
--/
-
-namespace A224621.P12482664214113435056
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A166136 (n + 2) - 2).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224621.P12482664214113435056
-
-/-! ## A224621.P10752721901702674019
-
-`A224625(A145018(n+4))+A000007(3*n+1)`
--/
-
-namespace A224621.P10752721901702674019
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A145018 (n + 4)).toNat + A000007 (3 * n + 1)
-
-end
-
-end A224621.P10752721901702674019
-
-/-! ## A224621.P16218689213357707296
-
-`A007318(C(n, 2))*A224625(A166136(n+2)-2)`
--/
-
-namespace A224621.P16218689213357707296
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose n 2) * A224625 (A166136 (n + 2) - 2).toNat
-
-end
-
-end A224621.P16218689213357707296
-
 /-!
 # A224622: Number of (n+4) X 9 0..2 matrices with each 5 X 5 subblock idempotent.
 
@@ -1761,66 +824,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224622.P867276545704766558
-
-/-! ## A224622.P7329171171877528904
-
-`A224625(A374005(n+1))`
--/
-
-namespace A224622.P7329171171877528904
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A374005 (n + 1)).toNat
-
-end
-
-end A224622.P7329171171877528904
-
-/-! ## A224622.P16961243266679960532
-
-`A224625(A167499(n+3))`
--/
-
-namespace A224622.P16961243266679960532
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167499 (n + 3)).toNat
-
-end
-
-end A224622.P16961243266679960532
-
-/-! ## A224622.P1451235348372989151
-
-`A224625(A155212(n)+13)`
--/
-
-namespace A224622.P1451235348372989151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A155212 n + 13).toNat
-
-end
-
-end A224622.P1451235348372989151
-
-/-! ## A224622.P16137235102658012254
-
-`A224625(A056000(n)+15)`
--/
-
-namespace A224622.P16137235102658012254
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A056000 n + 15).toNat
-
-end
-
-end A224622.P16137235102658012254
 
 /-!
 # A224623: Number of (n+4) X 10 0..2 matrices with each 5 X 5 subblock idempotent.
@@ -1843,66 +846,6 @@ end
 
 end A224623.P4030719654610008304
 
-/-! ## A224623.P18378384556799963713
-
-`A224625(A166136(n+4))`
--/
-
-namespace A224623.P18378384556799963713
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A166136 (n + 4)).toNat
-
-end
-
-end A224623.P18378384556799963713
-
-/-! ## A224623.P8010820711680865469
-
-`A224625(A056115(n)+21)`
--/
-
-namespace A224623.P8010820711680865469
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A056115 n + 21).toNat
-
-end
-
-end A224623.P8010820711680865469
-
-/-! ## A224623.P13095047974231288843
-
-`A224625(A167499(n+4)+1)`
--/
-
-namespace A224623.P13095047974231288843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167499 (n + 4) + 1).toNat
-
-end
-
-end A224623.P13095047974231288843
-
-/-! ## A224623.P18356412008038875513
-
-`A224625(A167614(n+4)+3)`
--/
-
-namespace A224623.P18356412008038875513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167614 (n + 4) + 3).toNat
-
-end
-
-end A224623.P18356412008038875513
-
 /-!
 # A224624: Number of (n+4) X 11 0..2 matrices with each 5 X 5 subblock idempotent.
 
@@ -1923,72 +866,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224624.P2370754360927028949
-
-/-! ## A224624.P643671539957549033
-
-`A224625(A167487(n+5))`
--/
-
-namespace A224624.P643671539957549033
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A167487 (n + 5)).toNat
-
-end
-
-end A224624.P643671539957549033
-
-/-! ## A224624.P1109116427867026262
-
-`A224625(A056119(n)+28)`
--/
-
-namespace A224624.P1109116427867026262
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A056119 n + 28).toNat
-
-end
-
-end A224624.P1109116427867026262
-
-/-! ## A224624.P18132305078542145436
-
-`A224625(eq[11, A066657(n)])`
--/
-
-namespace A224624.P18132305078542145436
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224624.P18132305078542145436
-
-/-! ## A224624.P13044554511121337654
-
-`A224625(A166136(n+5)+1)`
--/
-
-namespace A224624.P13044554511121337654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224625 (A166136 (n + 5) + 1).toNat
-
-end
-
-end A224624.P13044554511121337654
 
 /-!
 # A224628: Number of (n+5)X(n+5) 0..2 matrices with each 6X6 subblock idempotent.
@@ -2014,36 +891,6 @@ end
 
 end A224628.P13482750674159746151
 
-/-! ## A224628.P13619693647598191411
-
-`lcm(2, A224636(A001844(n)))`
--/
-
-namespace A224628.P13619693647598191411
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224636 (A001844 n).toNat)
-
-end
-
-end A224628.P13619693647598191411
-
-/-! ## A224628.P825916272970445308
-
-`A224636(A001844(n))+A185246(n)`
--/
-
-namespace A224628.P825916272970445308
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A001844 n).toNat + A185246 n
-
-end
-
-end A224628.P825916272970445308
-
 /-!
 # A224629: Number of (n+5)X6 0..2 matrices with each 6X6 subblock idempotent.
 
@@ -2067,66 +914,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224629.P6709948190898965006
-
-/-! ## A224629.P13486521407721986775
-
-`and(-1, A224636(A000124(n)))`
--/
-
-namespace A224629.P13486521407721986775
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-1) (A224636 (A000124 n).toNat)
-
-end
-
-end A224629.P13486521407721986775
-
-/-! ## A224629.P3068881459186122983
-
-`A224636(A000124(n))+A025443(n)`
--/
-
-namespace A224629.P3068881459186122983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A000124 n).toNat + A025443 n
-
-end
-
-end A224629.P3068881459186122983
-
-/-! ## A224629.P1613939649501812332
-
-`A224636(A000124(n))+A025444(n)`
--/
-
-namespace A224629.P1613939649501812332
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A000124 n).toNat + A025444 n
-
-end
-
-end A224629.P1613939649501812332
-
-/-! ## A224629.P5953413651485768038
-
-`A224636(A000124(n))+A067157(n)`
--/
-
-namespace A224629.P5953413651485768038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A000124 n).toNat + A067157 (n + 10)
-
-end
-
-end A224629.P5953413651485768038
 
 /-!
 # A224630: Number of (n+5)X7 0..2 matrices with each 6X6 subblock idempotent.
@@ -2152,54 +939,6 @@ end
 
 end A224630.P13369670545454851184
 
-/-! ## A224630.P16420717376381942510
-
-`lcm(A106400(n), A224636(A000096(n+1)))`
--/
-
-namespace A224630.P16420717376381942510
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A106400 n) (A224636 (A000096 (n + 1)).toNat)
-
-end
-
-end A224630.P16420717376381942510
-
-/-! ## A224630.P1791254443858357454
-
-`A224636(A000096(n+1))+A125005(n+1)`
--/
-
-namespace A224630.P1791254443858357454
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A000096 (n + 1)).toNat + A125005 (n + 1)
-
-end
-
-end A224630.P1791254443858357454
-
-/-! ## A224630.P8147000701171881237
-
-`A000027(A224636(∑[n+2]))`
--/
-
-namespace A224630.P8147000701171881237
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A224636 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A224630.P8147000701171881237
-
 /-!
 # A224631: Number of (n+5)X8 0..2 matrices with each 6X6 subblock idempotent.
 
@@ -2223,70 +962,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224631.P10995484313587113619
-
-/-! ## A224631.P16324450568786341860
-
-`or(char[3], A224636(A167614(n+1)))`
--/
-
-namespace A224631.P16324450568786341860
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224636 (A167614 (n + 1)).toNat)
-
-end
-
-end A224631.P16324450568786341860
-
-/-! ## A224631.P67219213112253052
-
-`A224636(A167614(n+1))+A025443(n)`
--/
-
-namespace A224631.P67219213112253052
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A167614 (n + 1)).toNat + A025443 n
-
-end
-
-end A224631.P67219213112253052
-
-/-! ## A224631.P8932542936619717410
-
-`A224636(A167614(n+1))+A025444(n)`
--/
-
-namespace A224631.P8932542936619717410
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A167614 (n + 1)).toNat + A025444 n
-
-end
-
-end A224631.P8932542936619717410
-
-/-! ## A224631.P8579693021908824598
-
-`A224636(A167614(n+1))+A067157(n)`
--/
-
-namespace A224631.P8579693021908824598
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A167614 (n + 1)).toNat + A067157 (n + 10)
-
-end
-
-end A224631.P8579693021908824598
 
 /-!
 # A224632: Number of (n+5)X9 0..2 matrices with each 6X6 subblock idempotent.
@@ -2312,51 +987,6 @@ end
 
 end A224632.P4472305628203484525
 
-/-! ## A224632.P4038280633422000204
-
-`A224636(A056000(n)+7)+A185274(n)`
--/
-
-namespace A224632.P4038280633422000204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A056000 n + 7).toNat + A185274 n
-
-end
-
-end A224632.P4038280633422000204
-
-/-! ## A224632.P11848117811527413185
-
-`A224636(A027379(n+2))%A224629(n+1)`
--/
-
-namespace A224632.P11848117811527413185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224636 (A027379 (n + 2)).toNat) (A224629 (n + 1))
-
-end
-
-end A224632.P11848117811527413185
-
-/-! ## A224632.P10615468820021022420
-
-`A224636(A055998(n+2))+A015857(3*n+2)`
--/
-
-namespace A224632.P10615468820021022420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A055998 (n + 2)).toNat + A015857 (3 * n + 2)
-
-end
-
-end A224632.P10615468820021022420
-
 /-!
 # A224633: Number of (n+5) X 10 0..2 matrices with each 6 X 6 subblock idempotent.
 
@@ -2380,66 +1010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224633.P11824396989253766238
-
-/-! ## A224633.P16275567308361385683
-
-`A224636(A374005(n+1))`
--/
-
-namespace A224633.P16275567308361385683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A374005 (n + 1)).toNat
-
-end
-
-end A224633.P16275567308361385683
-
-/-! ## A224633.P14583134838289045590
-
-`A224636(A046691(n+3))`
--/
-
-namespace A224633.P14583134838289045590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A046691 (n + 3)).toNat
-
-end
-
-end A224633.P14583134838289045590
-
-/-! ## A224633.P4510677250688999637
-
-`A224636(A167499(n+3))`
--/
-
-namespace A224633.P4510677250688999637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A167499 (n + 3)).toNat
-
-end
-
-end A224633.P4510677250688999637
-
-/-! ## A224633.P18327725033568813666
-
-`A224636(A056115(n)+11)`
--/
-
-namespace A224633.P18327725033568813666
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A056115 n + 11).toNat
-
-end
-
-end A224633.P18327725033568813666
 
 /-!
 # A224634: Number of (n+5)X11 0..2 matrices with each 6X6 subblock idempotent.
@@ -2465,59 +1035,6 @@ end
 
 end A224634.P5117487680061013112
 
-/-! ## A224634.P17455237301499993948
-
-`A224636(A374007(n+1))-char[9]`
--/
-
-namespace A224634.P17455237301499993948
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  9
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A374007 (n + 1)).toNat - ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224634.P17455237301499993948
-
-/-! ## A224634.P12140905943998900002
-
-`A224636(A052905(n+3))+char[9]`
--/
-
-namespace A224634.P12140905943998900002
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  9
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A052905 (n + 3)).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224634.P12140905943998900002
-
-/-! ## A224634.P6811792622841367060
-
-`abs(A224636(A374007(n+1))-A067157(n))`
--/
-
-namespace A224634.P6811792622841367060
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A224636 (A374007 (n + 1)).toNat - A067157 (n + 10)|
-
-end
-
-end A224634.P6811792622841367060
-
 /-!
 # A224635: Number of (n+5)X12 0..2 matrices with each 6X6 subblock idempotent.
 
@@ -2538,36 +1055,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224635.P17081318417851801139
-
-/-! ## A224635.P6623184872528931570
-
-`A224636(A055999(n+4))`
--/
-
-namespace A224635.P6623184872528931570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A055999 (n + 4)).toNat
-
-end
-
-end A224635.P6623184872528931570
-
-/-! ## A224635.P13858427614271951035
-
-`A224636(A056119(n)+28)`
--/
-
-namespace A224635.P13858427614271951035
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224636 (A056119 n + 28).toNat
-
-end
-
-end A224635.P13858427614271951035
 
 /-!
 # A224637: Number of (n+6)X(n+6) 0..2 matrices with each 7X7 subblock idempotent.
@@ -2593,21 +1080,6 @@ end
 
 end A224637.P1269332911024623300
 
-/-! ## A224637.P1597323356066903146
-
-`lcm(2, A224642(A001844(n)))`
--/
-
-namespace A224637.P1597323356066903146
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224642 (A001844 n).toNat)
-
-end
-
-end A224637.P1597323356066903146
-
 /-!
 # A224638: Number of (n+6)X7 0..2 matrices with each 7X7 subblock idempotent.
 
@@ -2631,70 +1103,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224638.P11796345954840785463
-
-/-! ## A224638.P11393757024023594477
-
-`A224642(A000124(n))+char[12]`
--/
-
-namespace A224638.P11393757024023594477
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  12
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (A000124 n).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224638.P11393757024023594477
-
-/-! ## A224638.P3045404593614075575
-
-`A225099(n)+A224642(A000124(n))`
--/
-
-namespace A224638.P3045404593614075575
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225099 n + A224642 (A000124 n).toNat
-
-end
-
-end A224638.P3045404593614075575
-
-/-! ## A224638.P14193864156185667770
-
-`A337605(n)+A224642(A000124(n))`
--/
-
-namespace A224638.P14193864156185667770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337605 n + A224642 (A000124 n).toNat
-
-end
-
-end A224638.P14193864156185667770
-
-/-! ## A224638.P13982670667130538023
-
-`A152848(n)*A224642(A000124(n))`
--/
-
-namespace A224638.P13982670667130538023
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152848 n * A224642 (A000124 n).toNat
-
-end
-
-end A224638.P13982670667130538023
 
 /-!
 # A224639: Number of (n+6)X8 0..2 matrices with each 7X7 subblock idempotent.
@@ -2720,21 +1128,6 @@ end
 
 end A224639.P7656491336500606022
 
-/-! ## A224639.P8570888628541177328
-
-`A007318(A000096(n))*A224642(A000096(n+1))`
--/
-
-namespace A224639.P8570888628541177328
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A000096 n).toNat * A224642 (A000096 (n + 1)).toNat
-
-end
-
-end A224639.P8570888628541177328
-
 /-!
 # A224640: Number of (n+6)X9 0..2 matrices with each 7X7 subblock idempotent.
 
@@ -2759,70 +1152,6 @@ end
 
 end A224640.P2857325519059259359
 
-/-! ## A224640.P1360886760589914808
-
-`A224642(A167614(n+1))+char[10]`
--/
-
-namespace A224640.P1360886760589914808
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (A167614 (n + 1)).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224640.P1360886760589914808
-
-/-! ## A224640.P3697518970884436503
-
-`A225099(n)+A224642(A167614(n+1))`
--/
-
-namespace A224640.P3697518970884436503
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225099 n + A224642 (A167614 (n + 1)).toNat
-
-end
-
-end A224640.P3697518970884436503
-
-/-! ## A224640.P14894988642699833752
-
-`A007318(A000096(n))*A224642(A167614(n+1))`
--/
-
-namespace A224640.P14894988642699833752
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A000096 n).toNat * A224642 (A167614 (n + 1)).toNat
-
-end
-
-end A224640.P14894988642699833752
-
-/-! ## A224640.P9058463609942377492
-
-`A007318(A007318(n))*A224642(A167614(n+1))`
--/
-
-namespace A224640.P9058463609942377492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A007318 n).toNat * A224642 (A167614 (n + 1)).toNat
-
-end
-
-end A224640.P9058463609942377492
-
 /-!
 # A224641: Number of (n+6)X10 0..2 matrices with each 7X7 subblock idempotent.
 
@@ -2844,71 +1173,20 @@ end
 
 end A224641.P3937043675002260946
 
-/-! ## A224641.P7782973352543873719
+/-! ## A224641.P3176642812409984263
 
-`A224642(A052905(n)+9)`
+`A224642(A141214(n+1))`
 -/
 
-namespace A224641.P7782973352543873719
+namespace A224641.P3176642812409984263
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (A052905 n + 9).toNat
+  A224642 (A141214 (n + 1)).toNat
 
 end
 
-end A224641.P7782973352543873719
-
-/-! ## A224641.P3825766549533275569
-
-`A224642(A055999(n)+10)`
--/
-
-namespace A224641.P3825766549533275569
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (A055999 n + 10).toNat
-
-end
-
-end A224641.P3825766549533275569
-
-/-! ## A224641.P8034704324627917041
-
-`A224642(eq[5, A066657(n)])`
--/
-
-namespace A224641.P8034704324627917041
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224641.P8034704324627917041
-
-/-! ## A224641.P15892965208764323270
-
-`A224642(A167614(n+2)+1)`
--/
-
-namespace A224641.P15892965208764323270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224642 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224641.P15892965208764323270
+end A224641.P3176642812409984263
 
 /-!
 # A224643: Number of (n+2)X(n+2) 0..1 matrices with each 3X3 subblock having the same population.
@@ -2933,21 +1211,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224643.P3035432037718954260
-
-/-! ## A224643.P1815080161441926907
-
-`lcm(2, A224651(A001844(n)))`
--/
-
-namespace A224643.P1815080161441926907
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224651 (A001844 n).toNat)
-
-end
-
-end A224643.P1815080161441926907
 
 /-! ## A224643.P12101497673796776210
 
@@ -3045,54 +1308,6 @@ end
 
 end A224644.P7763986099928683756
 
-/-! ## A224644.P16148192062508599553
-
-`lcm(2, A224651(A000124(n)))`
--/
-
-namespace A224644.P16148192062508599553
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224651 (A000124 n).toNat)
-
-end
-
-end A224644.P16148192062508599553
-
-/-! ## A224644.P10830892667382235849
-
-`lcm(4, A224651(∑[A028310(n)]))`
--/
-
-namespace A224644.P10830892667382235849
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 4 (A224651 (∑ j ∈ Finset.range (n + 1), f1 j).toNat)
-
-end
-
-end A224644.P10830892667382235849
-
-/-! ## A224644.P13731757683957361218
-
-`A224651(A000124(n))+A025466(n)`
--/
-
-namespace A224644.P13731757683957361218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A000124 n).toNat + A025466 n
-
-end
-
-end A224644.P13731757683957361218
-
 /-!
 # A224645: Number of (n+2)X4 0..1 matrices with each 3X3 subblock having the same population.
 
@@ -3116,21 +1331,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224645.P11944749838274931405
-
-/-! ## A224645.P4448597938157852466
-
-`lcm(2, A224651(A000096(n)+3))`
--/
-
-namespace A224645.P4448597938157852466
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224651 (A000096 n + 3).toNat)
-
-end
-
-end A224645.P4448597938157852466
 
 /-! ## A224645.P8916005549194720991
 
@@ -3210,36 +1410,6 @@ end
 
 end A224646.P4815041810992352112
 
-/-! ## A224646.P6003989345107906546
-
-`lcm(2, A224651(A167614(n+1)))`
--/
-
-namespace A224646.P6003989345107906546
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224651 (A167614 (n + 1)).toNat)
-
-end
-
-end A224646.P6003989345107906546
-
-/-! ## A224646.P15497703007124357466
-
-`lcm(4, A224651(A055998(n)+6))`
--/
-
-namespace A224646.P15497703007124357466
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 4 (A224651 (A055998 n + 6).toNat)
-
-end
-
-end A224646.P15497703007124357466
-
 /-! ## A224646.P8550642111945568527
 
 `record[A224651(n+4)/A130305(n+1)]`
@@ -3257,21 +1427,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A224646.P8550642111945568527
-
-/-! ## A224646.P14656889635547612977
-
-`A224651(A167614(n+1))+A034563(n+1)`
--/
-
-namespace A224646.P14656889635547612977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A167614 (n + 1)).toNat + A034563 (n + 1)
-
-end
-
-end A224646.P14656889635547612977
 
 /-!
 # A224647: Number of (n+2)X6 0..1 matrices with each 3X3 subblock having the same population.
@@ -3297,66 +1452,6 @@ end
 
 end A224647.P10678495851056185951
 
-/-! ## A224647.P314426842827493463
-
-`lcm(2, A224651(A167614(n+2)+1))`
--/
-
-namespace A224647.P314426842827493463
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224651 (A167614 (n + 2) + 1).toNat)
-
-end
-
-end A224647.P314426842827493463
-
-/-! ## A224647.P15373675625007894950
-
-`A007318(C(n, 2))*A224651(A167614(n+2)+1)`
--/
-
-namespace A224647.P15373675625007894950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose n 2) * A224651 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224647.P15373675625007894950
-
-/-! ## A224647.P9882798335781620446
-
-`ceil(1/A000041(n))*A224651(A167614(n+2)+1)`
--/
-
-namespace A224647.P9882798335781620446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈1 / (A000041 n : ℚ)⌉ * A224651 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224647.P9882798335781620446
-
-/-! ## A224647.P2716509702741029301
-
-`A007318(A007318(2*n))*A224651(A167614(n+2)+1)`
--/
-
-namespace A224647.P2716509702741029301
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (A007318 (2 * n)).toNat * A224651 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224647.P2716509702741029301
-
 /-!
 # A224648: Number of (n+2)X7 0..1 matrices with each 3X3 subblock having the same population.
 
@@ -3378,71 +1473,20 @@ end
 
 end A224648.P9829776154763516306
 
-/-! ## A224648.P10565861623997674329
+/-! ## A224648.P12574005402246006107
 
-`A224651(A155212(n)+13)`
+`A224651(A374005(n+1))`
 -/
 
-namespace A224648.P10565861623997674329
+namespace A224648.P12574005402246006107
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A155212 n + 13).toNat
+  A224651 (A374005 (n + 1)).toNat
 
 end
 
-end A224648.P10565861623997674329
-
-/-! ## A224648.P13423215888874873097
-
-`A224651(A056000(n)+15)`
--/
-
-namespace A224648.P13423215888874873097
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A056000 n + 15).toNat
-
-end
-
-end A224648.P13423215888874873097
-
-/-! ## A224648.P8766942651574622944
-
-`A224651(eq[7, A066657(n)])`
--/
-
-namespace A224648.P8766942651574622944
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224648.P8766942651574622944
-
-/-! ## A224648.P6627542830268028590
-
-`A224651(A167614(n+3)+2)`
--/
-
-namespace A224648.P6627542830268028590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A224648.P6627542830268028590
+end A224648.P12574005402246006107
 
 /-!
 # A224649: Number of (n+2)X8 0..1 matrices with each 3X3 subblock having the same population.
@@ -3465,65 +1509,20 @@ end
 
 end A224649.P6389516862440756253
 
-/-! ## A224649.P9868021556287121493
+/-! ## A224649.P3495597967298783950
 
-`A224651(A056115(n)+21)`
+`A224651(A374007(n+1))`
 -/
 
-namespace A224649.P9868021556287121493
+namespace A224649.P3495597967298783950
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A056115 n + 21).toNat
+  A224651 (A374007 (n + 1)).toNat
 
 end
 
-end A224649.P9868021556287121493
-
-/-! ## A224649.P16625465710575005215
-
-`A224651(A167499(n+4)+1)`
--/
-
-namespace A224649.P16625465710575005215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A167499 (n + 4) + 1).toNat
-
-end
-
-end A224649.P16625465710575005215
-
-/-! ## A224649.P5045564304431268798
-
-`A224651(A000124(n+5)+5)`
--/
-
-namespace A224649.P5045564304431268798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A000124 (n + 5) + 5).toNat
-
-end
-
-end A224649.P5045564304431268798
-
-/-! ## A224649.P562164636479396115
-
-`A224651(A000096(n+4)+7)`
--/
-
-namespace A224649.P562164636479396115
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A000096 (n + 4) + 7).toNat
-
-end
-
-end A224649.P562164636479396115
+end A224649.P3495597967298783950
 
 /-!
 # A224650: Number of (n+2) X 9 0..1 matrices with each 3 X 3 subblock having the same population.
@@ -3552,71 +1551,20 @@ end
 
 end A224650.P6835181281042705754
 
-/-! ## A224650.P3371716891970583722
+/-! ## A224650.P8597184248117715744
 
-`A224651(A166136(n+5)+1)`
+`A224651(A374008(n+1))`
 -/
 
-namespace A224650.P3371716891970583722
+namespace A224650.P8597184248117715744
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A166136 (n + 5) + 1).toNat
+  A224651 (A374008 (n + 1)).toNat
 
 end
 
-end A224650.P3371716891970583722
-
-/-! ## A224650.P15922539185403977082
-
-`A224651(A000217(n+6)+7)`
--/
-
-namespace A224650.P15922539185403977082
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A000217 (n + 6) + 7).toNat
-
-end
-
-end A224650.P15922539185403977082
-
-/-! ## A224650.P1302575937533019406
-
-`A224651(A141214(n+3)+10)`
--/
-
-namespace A224650.P1302575937533019406
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (A141214 (n + 3) + 10).toNat
-
-end
-
-end A224650.P1302575937533019406
-
-/-! ## A224650.P7112663701177177881
-
-`A224651(eq[8, A131818(n+1)])`
--/
-
-namespace A224650.P7112663701177177881
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224651 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224650.P7112663701177177881
+end A224650.P8597184248117715744
 
 /-!
 # A224651: T(n,k)=Number of (n+2)X(k+2) 0..1 matrices with each 3X3 subblock having the same population.
@@ -3665,27 +1613,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224653.P617632855644610297
-
-/-! ## A224653.P11564184389534323638
-
-`A060240(lt[A162011(n+1), A159688(3*n)])`
--/
-
-namespace A224653.P11564184389534323638
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162011 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159688 (3 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060240 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A224653.P11564184389534323638
 
 /-! ## A224653.P1388573519745155472
 
@@ -3746,51 +1673,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224654.P16911699395261674673
-
-/-! ## A224654.P17694789301654974272
-
-`lcm(3, A224658(A000124(n)))`
--/
-
-namespace A224654.P17694789301654974272
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 3 (A224658 (A000124 n).toNat)
-
-end
-
-end A224654.P17694789301654974272
-
-/-! ## A224654.P9095690023978897850
-
-`A224658(A000124(n))+A025469(n)`
--/
-
-namespace A224654.P9095690023978897850
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A000124 n).toNat + A025469 n
-
-end
-
-end A224654.P9095690023978897850
-
-/-! ## A224654.P5520689963891035945
-
-`A224658(A000124(n))+A108782(n)`
--/
-
-namespace A224654.P5520689963891035945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A000124 n).toNat + A108782 n
-
-end
-
-end A224654.P5520689963891035945
 
 /-!
 # A224655: Number of (n+2)X4 0..2 matrices with each 3X3 subblock having the same population.
@@ -3876,66 +1758,6 @@ end
 
 end A224656.P16477945066162834113
 
-/-! ## A224656.P7075488935644871000
-
-`lcm(3, A224658(A167614(n+1)))`
--/
-
-namespace A224656.P7075488935644871000
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 3 (A224658 (A167614 (n + 1)).toNat)
-
-end
-
-end A224656.P7075488935644871000
-
-/-! ## A224656.P9159989314851621398
-
-`A224658(A167614(n+1))+A025466(n)`
--/
-
-namespace A224656.P9159989314851621398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A167614 (n + 1)).toNat + A025466 n
-
-end
-
-end A224656.P9159989314851621398
-
-/-! ## A224656.P13138213707977342442
-
-`A224658(A167614(n+1))+A066568(n)`
--/
-
-namespace A224656.P13138213707977342442
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A167614 (n + 1)).toNat + A066568 n
-
-end
-
-end A224656.P13138213707977342442
-
-/-! ## A224656.P18141698689558535548
-
-`A224658(A167614(n+1))+A070565(n)`
--/
-
-namespace A224656.P18141698689558535548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A167614 (n + 1)).toNat + A070565 n
-
-end
-
-end A224656.P18141698689558535548
-
 /-!
 # A224657: Number of (n+2)X6 0..2 matrices with each 3X3 subblock having the same population.
 
@@ -3957,71 +1779,20 @@ end
 
 end A224657.P9424835384317790595
 
-/-! ## A224657.P15955980296317330389
+/-! ## A224657.P13570322234255304687
 
-`A224658(A052905(n)+9)`
+`A224658(A141214(n+1))`
 -/
 
-namespace A224657.P15955980296317330389
+namespace A224657.P13570322234255304687
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A052905 n + 9).toNat
+  A224658 (A141214 (n + 1)).toNat
 
 end
 
-end A224657.P15955980296317330389
-
-/-! ## A224657.P2833017814363446547
-
-`A224658(A055999(n)+10)`
--/
-
-namespace A224657.P2833017814363446547
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A055999 n + 10).toNat
-
-end
-
-end A224657.P2833017814363446547
-
-/-! ## A224657.P2309117452559901557
-
-`A224658(eq[5, A066657(n)])`
--/
-
-namespace A224657.P2309117452559901557
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224657.P2309117452559901557
-
-/-! ## A224657.P5901101544086836206
-
-`A224658(A167614(n+2)+1)`
--/
-
-namespace A224657.P5901101544086836206
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224658 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224657.P5901101544086836206
+end A224657.P13570322234255304687
 
 /-!
 # A224659: Number of n X n 0..2 matrices with each 2 X 2 subblock idempotent.
@@ -4128,29 +1899,6 @@ def P5701020342648190913.Spec : Prop :=
 
 end A224659
 
-/-! ## A224659.P5744726948881150663
-
-`A224665(A000096(n+1))%A204643(n+1)`
--/
-
-namespace A224659.P5744726948881150663
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224665 (A000096 (n + 1)).toNat) (A204643 (n + 1))
-
-end
-
-end A224659.P5744726948881150663
-
-namespace A224659
-
-/-- `A224665(A000096(n+1))%A204643(n+1)` -/
-def P5744726948881150663.Spec : Prop :=
-  ∀ n, P5744726948881150663.a n = A224659 (n + 1)
-
-end A224659
-
 /-!
 # A224660: Number of n X n 0..3 matrices with each 2 X 2 subblock idempotent.
 
@@ -4193,21 +1941,6 @@ end
 
 end A224660.P4407894771084898367
 
-/-! ## A224660.P10146929762632521229
-
-`A224665(A055999(n)+4)+A297236(n+1)-A297234(n+1)`
--/
-
-namespace A224660.P10146929762632521229
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A055999 n + 4).toNat + (A297236 (n + 1) - A297234 (n + 1))
-
-end
-
-end A224660.P10146929762632521229
-
 /-!
 # A224661: Number of n X n 0..4 matrices with each 2X2 subblock idempotent.
 
@@ -4228,66 +1961,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224661.P1804812202073626044
-
-/-! ## A224661.P7397057949342301970
-
-`A224665(A027379(n+2))`
--/
-
-namespace A224661.P7397057949342301970
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A027379 (n + 2)).toNat
-
-end
-
-end A224661.P7397057949342301970
-
-/-! ## A224661.P6166614143826822763
-
-`A224665(A055998(n+2))`
--/
-
-namespace A224661.P6166614143826822763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A055998 (n + 2)).toNat
-
-end
-
-end A224661.P6166614143826822763
-
-/-! ## A224661.P16286847197821384907
-
-`A224665(A155212(n)+5)`
--/
-
-namespace A224661.P16286847197821384907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A155212 n + 5).toNat
-
-end
-
-end A224661.P16286847197821384907
-
-/-! ## A224661.P17789437866928350889
-
-`A224665(A056000(n)+7)`
--/
-
-namespace A224661.P17789437866928350889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A056000 n + 7).toNat
-
-end
-
-end A224661.P17789437866928350889
 
 /-!
 # A224662: Number of n X n 0..5 matrices with each 2X2 subblock idempotent.
@@ -4313,40 +1986,6 @@ end
 
 end A224662.P6710268987850442598
 
-/-! ## A224662.P1186568947758422812
-
-`lcm(1-and(2, n), A224665(A046691(n+3)))`
--/
-
-namespace A224662.P1186568947758422812
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (1 - (Nat.land 2 n : ℤ)) (A224665 (A046691 (n + 3)).toNat)
-
-end
-
-end A224662.P1186568947758422812
-
-/-! ## A224662.P2806792245853408492
-
-`char[A340272(n)]*A224665(A046691(n+3))`
--/
-
-namespace A224662.P2806792245853408492
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340272 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A224665 (A046691 (n + 3)).toNat
-
-end
-
-end A224662.P2806792245853408492
-
 /-!
 # A224663: Number of n X n 0..6 matrices with each 2X2 subblock idempotent.
 
@@ -4368,84 +2007,6 @@ end
 
 end A224663.P17700059468645986227
 
-/-! ## A224663.P17808456018627342006
-
-`A224665(A056119(n)+16)`
--/
-
-namespace A224663.P17808456018627342006
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A056119 n + 16).toNat
-
-end
-
-end A224663.P17808456018627342006
-
-/-! ## A224663.P9897472744700754601
-
-`A224665(eq[3, A219347(n)])`
--/
-
-namespace A224663.P9897472744700754601
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224663.P9897472744700754601
-
-/-! ## A224663.P5275975872769427098
-
-`A224665(eq[5, A193592(n)])`
--/
-
-namespace A224663.P5275975872769427098
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224663.P5275975872769427098
-
-/-! ## A224663.P1270065754833679487
-
-`A224665(eq[8, A258709(n)])`
--/
-
-namespace A224663.P1270065754833679487
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A258709 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224663.P1270065754833679487
-
 /-!
 # A224664: Number of n X n 0..7 matrices with each 2X2 subblock idempotent.
 
@@ -4466,84 +2027,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224664.P1558667579603622664
-
-/-! ## A224664.P17331502477382894211
-
-`A224665(eq[4, A219347(n)])`
--/
-
-namespace A224664.P17331502477382894211
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224664.P17331502477382894211
-
-/-! ## A224664.P9522059866444598729
-
-`A224665(eq[5, A332954(n)])`
--/
-
-namespace A224664.P9522059866444598729
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224664.P9522059866444598729
-
-/-! ## A224664.P7584253456942702312
-
-`A224665(eq[6, A193592(n)])`
--/
-
-namespace A224664.P7584253456942702312
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A224664.P7584253456942702312
-
-/-! ## A224664.P14999396048619842138
-
-`A224665(A056000(n+3)+4)`
--/
-
-namespace A224664.P14999396048619842138
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224665 (A056000 (n + 3) + 4).toNat
-
-end
-
-end A224664.P14999396048619842138
 
 /-!
 # A224666: Number of 4 X 4 0..n matrices with each 2 X 2 subblock idempotent.
@@ -5390,6 +2873,48 @@ def P14976024440872687600.Spec : Prop :=
 
 end A224667
 
+/-! ## A224667.P315810660514061526
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=196, a(1)=260, a(2)=332`
+-/
+
+namespace A224667.P315810660514061526
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [196, 260, 332] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A224667.P315810660514061526
+
+namespace A224667
+
+/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
+def P315810660514061526.Spec : Prop :=
+  ∀ n, P315810660514061526.a n = A224667 (n + 1)
+
+theorem P315810660514061526.correct : P315810660514061526.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A224667, Nat.add_sub_cancel, A224667.P315810660514061526.a, A224667.P7658239694157705454.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A224667, Nat.add_sub_cancel, A224667.P315810660514061526.a, A224667.P7658239694157705454.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [h1, h2, h3]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A224667
+
 /-! ## A224667.P16844803404226217778
 
 `4*A108195(n+5)`
@@ -5553,6 +3078,48 @@ def P5808746510086250185.Spec : Prop :=
 theorem P5808746510086250185.correct : P5808746510086250185.Spec := by
   intro n
   simp only [A224668, Nat.add_sub_cancel]
+
+end A224668
+
+/-! ## A224668.P11358100090648438610
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=428, a(1)=542, a(2)=668`
+-/
+
+namespace A224668.P11358100090648438610
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [428, 542, 668] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A224668.P11358100090648438610
+
+namespace A224668
+
+/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
+def P11358100090648438610.Spec : Prop :=
+  ∀ n, P11358100090648438610.a n = A224668 (n + 1)
+
+theorem P11358100090648438610.correct : P11358100090648438610.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A224668, Nat.add_sub_cancel, A224668.P11358100090648438610.a, A224668.P5808746510086250185.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A224668, Nat.add_sub_cancel, A224668.P11358100090648438610.a, A224668.P5808746510086250185.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [h1, h2, h3]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A224668
 
@@ -6242,56 +3809,6 @@ def P17263569653668357128.Spec : Prop :=
 
 end A224671
 
-/-! ## A224671.P12984259691949254542
-
-`or(char[4], A224676(A167614(n+1)))`
--/
-
-namespace A224671.P12984259691949254542
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224676 (A167614 (n + 1)).toNat)
-
-end
-
-end A224671.P12984259691949254542
-
-namespace A224671
-
-/-- `or(char[4], A224676(A167614(n+1)))` -/
-def P12984259691949254542.Spec : Prop :=
-  ∀ n, P12984259691949254542.a n = A224671 (n + 1)
-
-end A224671
-
-/-! ## A224671.P7305095928767520888
-
-`lcm(A057077(n), A224676(A167614(n+1)))`
--/
-
-namespace A224671.P7305095928767520888
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A057077 n) (A224676 (A167614 (n + 1)).toNat)
-
-end
-
-end A224671.P7305095928767520888
-
-namespace A224671
-
-/-- `lcm(A057077(n), A224676(A167614(n+1)))` -/
-def P7305095928767520888.Spec : Prop :=
-  ∀ n, (P7305095928767520888.a n : ℤ) = A224671 (n + 1)
-
-end A224671
-
 /-!
 # A224672: Number of (n+1) X 5 0..2 matrices with each 2 X 2 subblock idempotent.
 
@@ -6342,75 +3859,6 @@ namespace A224672
 /-- `A224676(∑[n+3]+7)` -/
 def P3868823001837243422.Spec : Prop :=
   ∀ n, P3868823001837243422.a n = A224672 (n + 1)
-
-end A224672
-
-/-! ## A224672.P15303149805563542673
-
-`lcm((-1)^n, A224676(A055999(n)+10))`
--/
-
-namespace A224672.P15303149805563542673
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm ((-1) ^ n) (A224676 (A055999 n + 10).toNat)
-
-end
-
-end A224672.P15303149805563542673
-
-namespace A224672
-
-/-- `lcm((-1)^n, A224676(A055999(n)+10))` -/
-def P15303149805563542673.Spec : Prop :=
-  ∀ n, (P15303149805563542673.a n : ℤ) = A224672 (n + 1)
-
-end A224672
-
-/-! ## A224672.P8087548503434173310
-
-`A224676(A167614(n+2)+1)+(2*n)%2`
--/
-
-namespace A224672.P8087548503434173310
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A167614 (n + 2) + 1).toNat + ((2 * n % 2 : ℕ) : ℤ)
-
-end
-
-end A224672.P8087548503434173310
-
-namespace A224672
-
-/-- `A224676(A167614(n+2)+1)+(2*n)%2` -/
-def P8087548503434173310.Spec : Prop :=
-  ∀ n, P8087548503434173310.a n = A224672 (n + 1)
-
-end A224672
-
-/-! ## A224672.P5638235866805969058
-
-`lcm(A057077(n), A224676(A167614(n+2)+1))`
--/
-
-namespace A224672.P5638235866805969058
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A057077 n) (A224676 (A167614 (n + 2) + 1).toNat)
-
-end
-
-end A224672.P5638235866805969058
-
-namespace A224672
-
-/-- `lcm(A057077(n), A224676(A167614(n+2)+1))` -/
-def P5638235866805969058.Spec : Prop :=
-  ∀ n, (P5638235866805969058.a n : ℤ) = A224672 (n + 1)
 
 end A224672
 
@@ -6467,75 +3915,6 @@ def P18377748147237189484.Spec : Prop :=
 
 end A224673
 
-/-! ## A224673.P6614624076369845075
-
-`A008966(A000040(n+1))*A224676(A374005(n+1))`
--/
-
-namespace A224673.P6614624076369845075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008966 (A000040 (n + 1)).toNat * A224676 (A374005 (n + 1)).toNat
-
-end
-
-end A224673.P6614624076369845075
-
-namespace A224673
-
-/-- `A008966(A000040(n+1))*A224676(A374005(n+1))` -/
-def P6614624076369845075.Spec : Prop :=
-  ∀ n, P6614624076369845075.a n = A224673 (n + 1)
-
-end A224673
-
-/-! ## A224673.P17295843509154005314
-
-`A008966(A059668(n+1))*A224676(A374005(n+1))`
--/
-
-namespace A224673.P17295843509154005314
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008966 (A059668 (n + 1)).toNat * A224676 (A374005 (n + 1)).toNat
-
-end
-
-end A224673.P17295843509154005314
-
-namespace A224673
-
-/-- `A008966(A059668(n+1))*A224676(A374005(n+1))` -/
-def P17295843509154005314.Spec : Prop :=
-  ∀ n, P17295843509154005314.a n = A224673 (n + 1)
-
-end A224673
-
-/-! ## A224673.P827081961553121965
-
-`A224676(A374005(n+1))%A224676(A374005(n+2))`
--/
-
-namespace A224673.P827081961553121965
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224676 (A374005 (n + 1)).toNat) (A224676 (A374005 (n + 2)).toNat)
-
-end
-
-end A224673.P827081961553121965
-
-namespace A224673
-
-/-- `A224676(A374005(n+1))%A224676(A374005(n+2))` -/
-def P827081961553121965.Spec : Prop :=
-  ∀ n, P827081961553121965.a n = A224673 (n + 1)
-
-end A224673
-
 /-!
 # A224674: Number of (n+1) X 7 0..2 matrices with each 2 X 2 subblock idempotent.
 
@@ -6557,65 +3936,20 @@ end
 
 end A224674.P15579843570297209476
 
-/-! ## A224674.P8459108966419494065
+/-! ## A224674.P13271189990596047674
 
-`A224676(A056115(n)+21)`
+`A224676(A374007(n+1))`
 -/
 
-namespace A224674.P8459108966419494065
+namespace A224674.P13271189990596047674
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A056115 n + 21).toNat
+  A224676 (A374007 (n + 1)).toNat
 
 end
 
-end A224674.P8459108966419494065
-
-/-! ## A224674.P1946857813044812005
-
-`A224676(A167614(n+4)+3)`
--/
-
-namespace A224674.P1946857813044812005
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A167614 (n + 4) + 3).toNat
-
-end
-
-end A224674.P1946857813044812005
-
-/-! ## A224674.P13156978484558691858
-
-`A224676(A000124(n+5)+5)`
--/
-
-namespace A224674.P13156978484558691858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A000124 (n + 5) + 5).toNat
-
-end
-
-end A224674.P13156978484558691858
-
-/-! ## A224674.P16216990082516619547
-
-`A224676(A000096(n+4)+7)`
--/
-
-namespace A224674.P16216990082516619547
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A000096 (n + 4) + 7).toNat
-
-end
-
-end A224674.P16216990082516619547
+end A224674.P13271189990596047674
 
 /-!
 # A224675: Number of (n+1) X 8 0..2 matrices with each 2 X 2 subblock idempotent.
@@ -6638,65 +3972,20 @@ end
 
 end A224675.P6809547202064289914
 
-/-! ## A224675.P7783421535278785453
+/-! ## A224675.P755643729821994833
 
-`A224676(A166136(n+5)+1)`
+`A224676(A374008(n+1))`
 -/
 
-namespace A224675.P7783421535278785453
+namespace A224675.P755643729821994833
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A166136 (n + 5) + 1).toNat
+  A224676 (A374008 (n + 1)).toNat
 
 end
 
-end A224675.P7783421535278785453
-
-/-! ## A224675.P15033679644822500129
-
-`A224676(A167614(n+5)+4)`
--/
-
-namespace A224675.P15033679644822500129
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A167614 (n + 5) + 4).toNat
-
-end
-
-end A224675.P15033679644822500129
-
-/-! ## A224675.P857667306305350595
-
-`A224676(A000124(n+6)+6)`
--/
-
-namespace A224675.P857667306305350595
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A000124 (n + 6) + 6).toNat
-
-end
-
-end A224675.P857667306305350595
-
-/-! ## A224675.P344050853985683576
-
-`A224676(A000096(n+5)+8)`
--/
-
-namespace A224675.P344050853985683576
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224676 (A000096 (n + 5) + 8).toNat
-
-end
-
-end A224675.P344050853985683576
+end A224675.P755643729821994833
 
 /-!
 # A224677: Number of compositions of n*(n+1)/2 into sums of positive triangular numbers.
@@ -6758,42 +4047,6 @@ end
 
 end A224677.P7715412941700251781
 
-/-! ## A224677.P9849564207168527461
-
-`A023361(C(1+n, 2))`
--/
-
-namespace A224677.P9849564207168527461
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023361 (Nat.choose (1 + n) 2)
-
-end
-
-end A224677.P9849564207168527461
-
-/-! ## A224677.P4680479135993125106
-
-`A023361(eq[1, abs(T(n-1,k))])` with `a(0)=1`
--/
-
-namespace A224677.P4680479135993125106
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f2 =>
-  SequenceMachineLib.triUp f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023361 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A224677.P4680479135993125106
-
 /-!
 # A224679: Number of compositions of n^2 into sums of positive triangular numbers.
 
@@ -6814,66 +4067,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224679.P6501696390051866000
-
-/-! ## A224679.P3923789100672927263
-
-`and(-1, A023361(A000290(n)))`
--/
-
-namespace A224679.P3923789100672927263
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-1) (A023361 (A000290 n).toNat)
-
-end
-
-end A224679.P3923789100672927263
-
-/-! ## A224679.P3334343724849347067
-
-`A025444(n)+A023361(A000290(n))`
--/
-
-namespace A224679.P3334343724849347067
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025444 n + A023361 (A000290 n).toNat
-
-end
-
-end A224679.P3334343724849347067
-
-/-! ## A224679.P15702913256354608553
-
-`A023361(A000290(n))-A243833(n)`
--/
-
-namespace A224679.P15702913256354608553
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023361 (A000290 n).toNat - A243833 n
-
-end
-
-end A224679.P15702913256354608553
-
-/-! ## A224679.P14592841622855704178
-
-`A181340(n+1)+A023361(A000290(n))`
--/
-
-namespace A224679.P14592841622855704178
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181340 (n + 1) + A023361 (A000290 n).toNat
-
-end
-
-end A224679.P14592841622855704178
 
 /-!
 # A224680: a(n) = A224678(n^2).
@@ -6934,36 +4127,6 @@ end
 
 end A224680.P1859217258072478999
 
-/-! ## A224680.P12663096594228579445
-
-`or(1, A224678(A123596(2*(n+1))))`
--/
-
-namespace A224680.P12663096594228579445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A224678 (A123596 (2 * (n + 1))).toNat)
-
-end
-
-end A224680.P12663096594228579445
-
-/-! ## A224680.P15269322262455503253
-
-`A224678(A123596(2*(n+1)))%A369478(3*n+2)`
--/
-
-namespace A224680.P15269322262455503253
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224678 (A123596 (2 * (n + 1))).toNat) (A369478 (3 * n + 2))
-
-end
-
-end A224680.P15269322262455503253
-
 /-!
 # A224681: G.f.: exp( Sum_{n>=1} A224678(n^2) * x^n/n ).
 
@@ -7009,69 +4172,6 @@ end
 
 end A224682.P3652757301953205377
 
-/-! ## A224682.P7984127773855360358
-
-`lcm(2, A224690(A001844(n)))`
--/
-
-namespace A224682.P7984127773855360358
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A224690 (A001844 n).toNat)
-
-end
-
-end A224682.P7984127773855360358
-
-/-! ## A224682.P11540550733282260106
-
-`A007318(∑[n])*A224690(A001844(n))`
--/
-
-namespace A224682.P11540550733282260106
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (∑ j ∈ Finset.range (n + 1), f1 j) * A224690 (A001844 n).toNat
-
-end
-
-end A224682.P11540550733282260106
-
-/-! ## A224682.P16630547023810196976
-
-`A224690(A001844(n))+A000007(n+1)`
--/
-
-namespace A224682.P16630547023810196976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A001844 n).toNat + A000007 (n + 1)
-
-end
-
-end A224682.P16630547023810196976
-
-/-! ## A224682.P7712788404675865762
-
-`A224690(A001844(n))%A061604(n+1)`
--/
-
-namespace A224682.P7712788404675865762
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224690 (A001844 n).toNat) (A061604 (n + 1))
-
-end
-
-end A224682.P7712788404675865762
-
 /-!
 # A224683: Number of (n+4)X5 0..1 matrices with each 5X5 subblock idempotent.
 
@@ -7095,104 +4195,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224683.P14748030916730915780
-
-/-! ## A224683.P17820289152273202776
-
-`or(char[1], A224690(A000124(n)))`
--/
-
-namespace A224683.P17820289152273202776
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A000124 n).toNat)
-
-end
-
-end A224683.P17820289152273202776
-
-/-! ## A224683.P11210040480724900370
-
-`lcm(A097807(n), A224690(A000124(n)))`
--/
-
-namespace A224683.P11210040480724900370
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A097807 n) (A224690 (A000124 n).toNat)
-
-end
-
-end A224683.P11210040480724900370
-
-/-! ## A224683.P5494500420253086090
-
-`A224690(A000124(n))+A000038(n+1)`
--/
-
-namespace A224683.P5494500420253086090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000124 n).toNat + A000038 (n + 1)
-
-end
-
-end A224683.P5494500420253086090
-
-/-! ## A224683.P4389431105268876904
-
-`A057427(n+1)*A224690(A000124(n))`
--/
-
-namespace A224683.P4389431105268876904
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057427 (n + 1) * A224690 (A000124 n).toNat
-
-end
-
-end A224683.P4389431105268876904
-
-/-! ## A224683.P4764548976829292998
-
-`A224690(A000124(n))+char[A224690(n+1)]`
--/
-
-namespace A224683.P4764548976829292998
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000124 n).toNat + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A224683.P4764548976829292998
-
-/-! ## A224683.P6036910872248253896
-
-`A224690(A000124(n))+A008683(4*(n+1))`
--/
-
-namespace A224683.P6036910872248253896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000124 n).toNat + A008683 (4 * (n + 1))
-
-end
-
-end A224683.P6036910872248253896
 
 /-!
 # A224684: Number of (n+4)X6 0..1 matrices with each 5X5 subblock idempotent.
@@ -7218,24 +4220,6 @@ end
 
 end A224684.P401160577536245836
 
-/-! ## A224684.P4854571138915737462
-
-`A000027(A224690(∑[n+2]))`
--/
-
-namespace A224684.P4854571138915737462
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A224690 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A224684.P4854571138915737462
-
 /-!
 # A224685: Number of (n+4) X 7 0..1 matrices with each 5 X 5 subblock idempotent.
 
@@ -7259,104 +4243,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224685.P17747404828933519138
-
-/-! ## A224685.P3550152399153777628
-
-`or(char[10], A224690(A167614(n+1)))`
--/
-
-namespace A224685.P3550152399153777628
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A167614 (n + 1)).toNat)
-
-end
-
-end A224685.P3550152399153777628
-
-/-! ## A224685.P13901003025348317051
-
-`or(char[7], A224690(A167499(n)+n))`
--/
-
-namespace A224685.P13901003025348317051
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A167499 n + (n : ℤ)).toNat)
-
-end
-
-end A224685.P13901003025348317051
-
-/-! ## A224685.P428077191451735445
-
-`abs(A033999(n)*A224690(A167499(n)+n))`
--/
-
-namespace A224685.P428077191451735445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A033999 n * A224690 (A167499 n + (n : ℤ)).toNat|
-
-end
-
-end A224685.P428077191451735445
-
-/-! ## A224685.P13214624731955422327
-
-`A224690(A167614(n+1))+A000038(n)%2`
--/
-
-namespace A224685.P13214624731955422327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167614 (n + 1)).toNat + Int.tmod (A000038 n) 2
-
-end
-
-end A224685.P13214624731955422327
-
-/-! ## A224685.P16907895894334638607
-
-`A224690(A167614(n+1))+A008683(8*n+4)`
--/
-
-namespace A224685.P16907895894334638607
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167614 (n + 1)).toNat + A008683 (8 * n + 4)
-
-end
-
-end A224685.P16907895894334638607
-
-/-! ## A224685.P984721384997216300
-
-`A000040(n+2)%2*A224690(A167614(n+1))`
--/
-
-namespace A224685.P984721384997216300
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000040 (n + 2)) 2 * A224690 (A167614 (n + 1)).toNat
-
-end
-
-end A224685.P984721384997216300
 
 /-!
 # A224686: Number of (n+4) X 8 0..1 matrices with each 5 X 5 subblock idempotent.
@@ -7382,149 +4268,6 @@ end
 
 end A224686.P11419691293453226113
 
-/-! ## A224686.P16122070254996862311
-
-`or(char[4], A224690(A167614(n+2)+1))`
--/
-
-namespace A224686.P16122070254996862311
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A167614 (n + 2) + 1).toNat)
-
-end
-
-end A224686.P16122070254996862311
-
-/-! ## A224686.P18327586782739069235
-
-`or(char[4], A224690(A167499(n+2)-1))`
--/
-
-namespace A224686.P18327586782739069235
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A167499 (n + 2) - 1).toNat)
-
-end
-
-end A224686.P18327586782739069235
-
-/-! ## A224686.P7163967724371085367
-
-`A007318(C(2, n))*A224690(A167499(n+2)-1)`
--/
-
-namespace A224686.P7163967724371085367
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) * A224690 (A167499 (n + 2) - 1).toNat
-
-end
-
-end A224686.P7163967724371085367
-
-/-! ## A224686.P2431497863811610508
-
-`(A000041(n)%2)!*A224690(A167499(n+2)-1)`
--/
-
-namespace A224686.P2431497863811610508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (Int.tmod (A000041 n) 2).toNat : ℤ) * A224690 (A167499 (n + 2) - 1).toNat
-
-end
-
-end A224686.P2431497863811610508
-
-/-! ## A224686.P338996852808723876
-
-`and(1, A007318(n))!*A224690(A167499(n+2)-1)`
--/
-
-namespace A224686.P338996852808723876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (Int.land 1 (A007318 n)).toNat : ℤ) * A224690 (A167499 (n + 2) - 1).toNat
-
-end
-
-end A224686.P338996852808723876
-
-/-! ## A224686.P4280592804818345311
-
-`A224690(A167499(n+2)-1)+A008683(4*(n+10))`
--/
-
-namespace A224686.P4280592804818345311
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167499 (n + 2) - 1).toNat + A008683 (4 * (n + 10))
-
-end
-
-end A224686.P4280592804818345311
-
-/-! ## A224686.P7499985015828726755
-
-`A014963(12*n+6)*A224690(A167499(n+2)-1)`
--/
-
-namespace A224686.P7499985015828726755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (12 * n + 6) * A224690 (A167499 (n + 2) - 1).toNat
-
-end
-
-end A224686.P7499985015828726755
-
-/-! ## A224686.P17018003709114219046
-
-`A000005(gcd(n, n+1))*A224690(A167499(n+2)-1)`
--/
-
-namespace A224686.P17018003709114219046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (Nat.gcd n (n + 1)) * A224690 (A167499 (n + 2) - 1).toNat
-
-end
-
-end A224686.P17018003709114219046
-
-/-! ## A224686.P9798575023903449420
-
-`A008683(2*A000040(n+2))*A224690(A167614(n+2)+1)`
--/
-
-namespace A224686.P9798575023903449420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (2 * A000040 (n + 2)).toNat * A224690 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A224686.P9798575023903449420
-
 /-!
 # A224687: Number of (n+4) X 9 0..1 matrices with each 5 X 5 subblock idempotent.
 
@@ -7549,145 +4292,6 @@ end
 
 end A224687.P3368032947436579985
 
-/-! ## A224687.P4599770426149279166
-
-`((n+1)%2)!*A224690(A167499(n+3))`
--/
-
-namespace A224687.P4599770426149279166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial ((n + 1) % 2) : ℤ) * A224690 (A167499 (n + 3)).toNat
-
-end
-
-end A224687.P4599770426149279166
-
-/-! ## A224687.P2872439454113308580
-
-`A224690(A167499(n+3))%A224690(A000124(n))`
--/
-
-namespace A224687.P2872439454113308580
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224690 (A167499 (n + 3)).toNat) (A224690 (A000124 n).toNat)
-
-end
-
-end A224687.P2872439454113308580
-
-/-! ## A224687.P13507182666688443997
-
-`A005171(A001358(n+1))*A224690(A167499(n+3))`
--/
-
-namespace A224687.P13507182666688443997
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005171 (A001358 (n + 1)).toNat * A224690 (A167499 (n + 3)).toNat
-
-end
-
-end A224687.P13507182666688443997
-
-/-! ## A224687.P7754237740520234999
-
-`A001222(A139668(2*n+1))*A224690(A167499(n+3))`
--/
-
-namespace A224687.P7754237740520234999
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A139668 (2 * n + 1)).toNat * A224690 (A167499 (n + 3)).toNat
-
-end
-
-end A224687.P7754237740520234999
-
-/-! ## A224687.P35567198078192972
-
-`or(char[3], A224690(A046691(n+3)))`
--/
-
-namespace A224687.P35567198078192972
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) (A224690 (A046691 (n + 3)).toNat)
-
-end
-
-end A224687.P35567198078192972
-
-/-! ## A224687.P4131635716287703435
-
-`A224690(A046691(n+3))+A063524(n+4)`
--/
-
-namespace A224687.P4131635716287703435
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A046691 (n + 3)).toNat + A063524 (n + 4)
-
-end
-
-end A224687.P4131635716287703435
-
-/-! ## A224687.P7190101922553449524
-
-`A224690(A374005(n+1))%A224683(n+1)`
--/
-
-namespace A224687.P7190101922553449524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224690 (A374005 (n + 1)).toNat) (A224683 (n + 1))
-
-end
-
-end A224687.P7190101922553449524
-
-/-! ## A224687.P9692095955281500693
-
-`A224690(A046691(n+3))%A256356(n+1)`
--/
-
-namespace A224687.P9692095955281500693
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224690 (A046691 (n + 3)).toNat) (A256356 (n + 1))
-
-end
-
-end A224687.P9692095955281500693
-
-/-! ## A224687.P2142562517982404155
-
-`A100897(n)%2*A224690(A046691(n+3))`
--/
-
-namespace A224687.P2142562517982404155
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A100897 n) 2 * A224690 (A046691 (n + 3)).toNat
-
-end
-
-end A224687.P2142562517982404155
-
 /-!
 # A224688: Number of (n+4) X 10 0..1 matrices with each 5 X 5 subblock idempotent.
 
@@ -7709,140 +4313,20 @@ end
 
 end A224688.P3326707403633070645
 
-/-! ## A224688.P16167667647908250914
+/-! ## A224688.P8093535385674403581
 
-`A224690(A056115(n)+21)`
+`A224690(A374007(n+1))`
 -/
 
-namespace A224688.P16167667647908250914
+namespace A224688.P8093535385674403581
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A056115 n + 21).toNat
+  A224690 (A374007 (n + 1)).toNat
 
 end
 
-end A224688.P16167667647908250914
-
-/-! ## A224688.P13865748471266324794
-
-`A224690(A167499(n+4)+1)`
--/
-
-namespace A224688.P13865748471266324794
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167499 (n + 4) + 1).toNat
-
-end
-
-end A224688.P13865748471266324794
-
-/-! ## A224688.P8290167874645487732
-
-`A224690(A133263(n+5)+4)`
--/
-
-namespace A224688.P8290167874645487732
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A133263 (n + 5) + 4).toNat
-
-end
-
-end A224688.P8290167874645487732
-
-/-! ## A224688.P16384024150437004040
-
-`A224690(A000124(n+5)+5)`
--/
-
-namespace A224688.P16384024150437004040
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000124 (n + 5) + 5).toNat
-
-end
-
-end A224688.P16384024150437004040
-
-/-! ## A224688.P2846916844046780515
-
-`A224690(A000096(n+4)+7)`
--/
-
-namespace A224688.P2846916844046780515
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000096 (n + 4) + 7).toNat
-
-end
-
-end A224688.P2846916844046780515
-
-/-! ## A224688.P9407984776545116846
-
-`A224690(A000217(n+5)+6)`
--/
-
-namespace A224688.P9407984776545116846
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A224688.P9407984776545116846
-
-/-! ## A224688.P10532122515875395436
-
-`A224690(A055998(n+3)+9)`
--/
-
-namespace A224688.P10532122515875395436
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A055998 (n + 3) + 9).toNat
-
-end
-
-end A224688.P10532122515875395436
-
-/-! ## A224688.P16697914643023104569
-
-`A224690(A046691(n+3)+10)`
--/
-
-namespace A224688.P16697914643023104569
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A046691 (n + 3) + 10).toNat
-
-end
-
-end A224688.P16697914643023104569
-
-/-! ## A224688.P8327317300603416915
-
-`A224690(A052905(n+2)+11)`
--/
-
-namespace A224688.P8327317300603416915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A052905 (n + 2) + 11).toNat
-
-end
-
-end A224688.P8327317300603416915
+end A224688.P8093535385674403581
 
 /-!
 # A224689: Number of (n+4) X 11 0..1 matrices with each 5 X 5 subblock idempotent.
@@ -7865,140 +4349,20 @@ end
 
 end A224689.P3406028202095205970
 
-/-! ## A224689.P13336249937563271523
+/-! ## A224689.P8845170390369972967
 
-`A224690(A056119(n)+28)`
+`A224690(A374008(n+1))`
 -/
 
-namespace A224689.P13336249937563271523
+namespace A224689.P8845170390369972967
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A056119 n + 28).toNat
+  A224690 (A374008 (n + 1)).toNat
 
 end
 
-end A224689.P13336249937563271523
-
-/-! ## A224689.P5244563928429483075
-
-`A224690(A166136(5+n)+1)`
--/
-
-namespace A224689.P5244563928429483075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A166136 (5 + n) + 1).toNat
-
-end
-
-end A224689.P5244563928429483075
-
-/-! ## A224689.P18054466194731161242
-
-`A224690(A167499(n+5)+2)`
--/
-
-namespace A224689.P18054466194731161242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167499 (n + 5) + 2).toNat
-
-end
-
-end A224689.P18054466194731161242
-
-/-! ## A224689.P3823238336579687634
-
-`A224690(A167614(n+5)+4)`
--/
-
-namespace A224689.P3823238336579687634
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A167614 (n + 5) + 4).toNat
-
-end
-
-end A224689.P3823238336579687634
-
-/-! ## A224689.P18340636565153696329
-
-`A224690(A133263(n+6)+5)`
--/
-
-namespace A224689.P18340636565153696329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A133263 (n + 6) + 5).toNat
-
-end
-
-end A224689.P18340636565153696329
-
-/-! ## A224689.P14271860156570462481
-
-`A224690(A000124(n+6)+6)`
--/
-
-namespace A224689.P14271860156570462481
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000124 (n + 6) + 6).toNat
-
-end
-
-end A224689.P14271860156570462481
-
-/-! ## A224689.P3662627231193293514
-
-`A224690(A000096(n+5)+8)`
--/
-
-namespace A224689.P3662627231193293514
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000096 (n + 5) + 8).toNat
-
-end
-
-end A224689.P3662627231193293514
-
-/-! ## A224689.P14347620970580580815
-
-`A224690(A000217(n+6)+7)`
--/
-
-namespace A224689.P14347620970580580815
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A000217 (n + 6) + 7).toNat
-
-end
-
-end A224689.P14347620970580580815
-
-/-! ## A224689.P11844390112628912229
-
-`A224690(A027379(n+4)+10)`
--/
-
-namespace A224689.P11844390112628912229
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224690 (A027379 (n + 4) + 10).toNat
-
-end
-
-end A224689.P11844390112628912229
+end A224689.P8845170390369972967
 
 /-!
 # A224691: Numbers n such that (13^n - 4^n)/9 is prime.
@@ -8971,50 +5335,20 @@ end A224695.P15328510380867062541
 The programs for A224697, there is no canonical definition to state claims against.
 -/
 
-/-! ## A224697.P15707756435672187874
+/-! ## A224697.P9271048176707424645
 
-`A265359(A052307(n))%A195937(A039634(n+1))`
+`A265359(A052307(n))`
 -/
 
-namespace A224697.P15707756435672187874
+namespace A224697.P9271048176707424645
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A265359 (A052307 n).toNat) (A195937 (A039634 (n + 1)).toNat)
+  A265359 (A052307 n).toNat
 
 end
 
-end A224697.P15707756435672187874
-
-/-! ## A224697.P13718578030621600726
-
-`A265359(A052307(n))+A000007(A003215(n+1))`
--/
-
-namespace A224697.P13718578030621600726
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265359 (A052307 n).toNat + A000007 (A003215 (n + 1)).toNat
-
-end
-
-end A224697.P13718578030621600726
-
-/-! ## A224697.P701155968979110729
-
-`A265359(A052307(n))%A195937(n+1)`
--/
-
-namespace A224697.P701155968979110729
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A265359 (A052307 n).toNat) (A195937 (n + 1))
-
-end
-
-end A224697.P701155968979110729
+end A224697.P9271048176707424645
 
 /-! ## A224697.P3009308407424155030
 

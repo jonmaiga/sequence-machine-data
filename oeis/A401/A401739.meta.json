@@ -1,0 +1,22 @@
+{
+  "description": "Least eventual period of the positions of the 1's in row n of A401735.",
+  "id": "A401739",
+  "mentions": [
+    "A062383",
+    "A399521",
+    "A401735",
+    "A401736",
+    "A401737",
+    "A401738"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

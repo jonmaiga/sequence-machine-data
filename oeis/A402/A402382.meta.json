@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n} binomial(k+4,k) * a(n-k).",
+  "id": "A402382",
+  "mentions": [
+    "A007052",
+    "A145841",
+    "A402380",
+    "A402381"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

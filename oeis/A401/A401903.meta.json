@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) whose n-th row is either the lexicographically first n-tuple p of strictly increasing primes with minimal p(n) for which the set {p(i) + p(j) + p(k) : i < j < k} contains A111384(n) primes, or an n-tuple of zeros if no tuple with this property exists.",
+  "id": "A401903",
+  "mentions": [
+    "A111384",
+    "A401846"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the greedy algorithm for writing k as a sum of positive squares uses more squares than necessary; i.e., numbers k such that A053610(k) > A002828(k).",
+  "id": "A401547",
+  "mentions": [
+    "A002828",
+    "A004215",
+    "A006892",
+    "A053610",
+    "A062535"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

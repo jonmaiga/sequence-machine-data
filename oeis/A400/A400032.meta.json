@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered pairs of noncrossing perfect matchings on 2*n linearly ordered points such that the vertex set of every connected component of their union has a gap.",
+  "id": "A400032",
+  "mentions": [
+    "A000108",
+    "A005315",
+    "A006664"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,14 +2,16 @@
   "description": "Indices of primes in A095134(n).",
   "id": "A095135",
   "mentions": [
-    "A095134"
+    "A095134",
+    "A095138"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of maximal cliques in the Johnson graph J(n,k).",
+  "id": "A401870",
+  "mentions": [
+    "A000125",
+    "A051601",
+    "A055795",
+    "A142974",
+    "A381451",
+    "A401871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

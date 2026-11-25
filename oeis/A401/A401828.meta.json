@@ -1,0 +1,15 @@
+{
+  "description": "Number of firing cells after n generations of a four-state cellular automaton on the infinite square lattice (rule B2/S34/C4, see Comments), starting with two horizontally adjacent firing cells and all other cells ready.",
+  "id": "A401828",
+  "mentions": [
+    "A401829"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

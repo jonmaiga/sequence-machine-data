@@ -2,6 +2,7 @@
   "description": "Number of non-isomorphic achiral multiset partitions of weight n.",
   "id": "A330223",
   "mentions": [
+    "A000041",
     "A001055",
     "A003238",
     "A007716",
@@ -17,12 +18,12 @@
     "A330234"
   ],
   "tags": [
-    "hard",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of -Integral_{x=1..infinity} log(abs(sin(Pi*x)))/x^2 dx.",
+  "id": "A402034",
+  "mentions": [
+    "A001620",
+    "A002162"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

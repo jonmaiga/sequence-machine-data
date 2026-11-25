@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the minimal element of some coset of (Z/kZ)*^2 in (Z/kZ)* is composite, where (Z/kZ)* is the multiplicative group of integers modulo k and (Z/kZ)*^2 is the subgroup of squares.",
+  "id": "A402453",
+  "mentions": [
+    "A033949",
+    "A402418",
+    "A402452"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

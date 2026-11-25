@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first term of A393526 that can be written in exactly n ways as the difference of two squares of primes, or -1 if there is no such term.",
+  "id": "A402104",
+  "mentions": [
+    "A092204",
+    "A393526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

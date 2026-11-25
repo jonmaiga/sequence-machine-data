@@ -1,10 +1,19 @@
 {
-  "description": "A112552 * A128174.",
+  "description": "Triangle read by rows: A112552 * A128174 as infinite lower triangular matrices.",
   "id": "A134510",
   "mentions": [
+    "A000012",
+    "A001628",
     "A001629",
+    "A005672",
+    "A052952",
+    "A054450",
+    "A054451",
+    "A099571",
+    "A099572",
     "A112552",
-    "A128174"
+    "A128174",
+    "A147600"
   ],
   "tags": [
     "formulas",
@@ -13,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 78,
     "source": "joeis"
   }
 }

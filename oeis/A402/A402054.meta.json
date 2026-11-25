@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that d_4(k) is not a 7-smooth number, where d_4 = A007426 is the 4th Piltz function.",
+  "id": "A402054",
+  "mentions": [
+    "A002473",
+    "A007426",
+    "A309092"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

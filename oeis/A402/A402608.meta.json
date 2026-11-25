@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to tile a staircase polyomino consisting of n left-aligned rows of lengths 1, 2, ..., n from top to bottom with squares of integer side lengths so that the side lengths weakly decrease from left to right along every row and from bottom to top along every column.",
+  "id": "A402608",
+  "mentions": [
+    "A335547",
+    "A401338",
+    "A402607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

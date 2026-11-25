@@ -2,9 +2,24 @@
   "description": "Number of pairs of functions f, g from a size n set into itself satisfying f(f(x)) = f(g(f(x))).",
   "id": "A239772",
   "mentions": [
+    "A000949",
     "A181162",
+    "A235325",
+    "A239749",
+    "A239750",
+    "A239752",
+    "A239755",
+    "A239756",
+    "A239759",
+    "A239762",
+    "A239764",
+    "A239766",
     "A239769",
-    "A239773"
+    "A239773",
+    "A239775",
+    "A239781",
+    "A239783",
+    "A239785"
   ],
   "tags": [
     "formulas",

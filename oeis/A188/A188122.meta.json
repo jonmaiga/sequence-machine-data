@@ -2,9 +2,27 @@
   "description": "Table read by downward antidiagonals: T(n,k) is the number of strictly increasing arrangements of n nonzero numbers in -(n+k-2)..(n+k-2) with sum zero.",
   "id": "A188122",
   "mentions": [
-    "A007590"
+    "A000004",
+    "A000027",
+    "A007590",
+    "A188113",
+    "A188114",
+    "A188115",
+    "A188116",
+    "A188117",
+    "A188118",
+    "A188119",
+    "A188120",
+    "A188121",
+    "A188123",
+    "A188124",
+    "A188125",
+    "A188126",
+    "A188127",
+    "A188333"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

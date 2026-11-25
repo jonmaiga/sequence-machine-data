@@ -1,0 +1,19 @@
+{
+  "description": "Absolute values of fundamental discriminant of quadratic fields. Also conductors of real Dirichlet primitive characters.",
+  "id": "A402451",
+  "mentions": [
+    "A003657",
+    "A003658",
+    "A056911",
+    "A114643"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of integers k such that k - reversal of k in base 3 = 2*n.",
+  "id": "A402038",
+  "mentions": [
+    "A030102",
+    "A055947",
+    "A104348"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A345992(k) > A345993(k).",
+  "description": "Numbers k such that gcd(k, A344005(k)) > gcd(k + 1, A344005(k)), where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
   "id": "A345995",
   "mentions": [
     "A344005",
@@ -7,15 +7,17 @@
     "A345993",
     "A345994",
     "A345996",
-    "A354988",
-    "A354989"
+    "A402585",
+    "A402588",
+    "A402589"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

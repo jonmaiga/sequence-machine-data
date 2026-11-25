@@ -1,0 +1,23 @@
+{
+  "description": "Binary encodings of the top-to-bottom column words of the Gosper-Lafitte triangle.",
+  "id": "A401481",
+  "mentions": [
+    "A000360",
+    "A000361",
+    "A002487",
+    "A102283",
+    "A284556",
+    "A401018",
+    "A401309"
+  ],
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

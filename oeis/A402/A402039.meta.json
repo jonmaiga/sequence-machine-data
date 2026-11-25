@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions of n containing all of their distinct multiplicities.",
+  "id": "A402039",
+  "mentions": [
+    "A325705"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

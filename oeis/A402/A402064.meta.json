@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. (1 - 6*x^2 - x^3 - sqrt(1 - 16*x^2 + 2*x^3 + 64*x^4 - 16*x^5 - 15*x^6))/(2*x^2*(1 - 2x - x^2)).",
+  "id": "A402064",
+  "mentions": [
+    "A402063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

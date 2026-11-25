@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 4*p# - 1 is prime, where prime(n)# = A002110(n).",
+  "id": "A402427",
+  "mentions": [
+    "A002110",
+    "A102476",
+    "A228698",
+    "A228699",
+    "A402499"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

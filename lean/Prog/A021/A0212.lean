@@ -606,42 +606,6 @@ end
 
 end A021214.P8113896404623015846
 
-/-! ## A021214.P5320504489629491785
-
-`or(1, ∑[A016309(n)])`
--/
-
-namespace A021214.P5320504489629491785
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016309 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A021214.P5320504489629491785
-
-/-! ## A021214.P15906093913501430048
-
-`floor(∑[A016211(n)/2^-n])`
--/
-
-namespace A021214.P15906093913501430048
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A016211 n : ℚ) / (2 : ℚ) ^ (-(n : ℤ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊∑ j ∈ Finset.range (n + 1), f1 j⌋
-
-end
-
-end A021214.P15906093913501430048
-
 /-! ## A021214.P12194133458564123939
 
 `A016200(n)+12*a(n-1)` with `a(0)=1`
@@ -672,24 +636,6 @@ end
 
 end A021214.P11391725585234421103
 
-/-! ## A021214.P16031463274377763287
-
-`A007318(C(2, n))^n*∑[A016309(n)]`
--/
-
-namespace A021214.P16031463274377763287
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016309 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (Nat.choose 2 n) ^ n * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A021214.P16031463274377763287
-
 /-! ## A021214.P15787046560377731000
 
 `(A021304(n)+A021194(n))/2`
@@ -704,24 +650,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A021214.P15787046560377731000
-
-/-! ## A021214.P12582737198364864095
-
-`∑[A016309(n)]%A222117(n)`
--/
-
-namespace A021214.P12582737198364864095
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016309 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (∑ j ∈ Finset.range (n + 1), f1 j) (A222117 n)
-
-end
-
-end A021214.P12582737198364864095
 
 /-!
 # A021220: Decimal expansion of 1/216.
@@ -2135,32 +2063,6 @@ def P10720709010355044782.Spec : Prop :=
 theorem P10720709010355044782.correct : P10720709010355044782.Spec := by
   intro n
   simp only [A021268]
-
-end A021268
-
-/-! ## A021268.P7807146457536825656
-
-`or(1, ∑[A016317(n)])`
--/
-
-namespace A021268.P7807146457536825656
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016317 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A021268.P7807146457536825656
-
-namespace A021268
-
-/-- `or(1, ∑[A016317(n)])` -/
-def P7807146457536825656.Spec : Prop :=
-  ∀ n, P7807146457536825656.a n = A021268 n
 
 end A021268
 

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A347395(k) is even, where A347395 is the Dirichlet convolution of Liouville's lambda (A008836) with A342001.",
+  "id": "A401918",
+  "mentions": [
+    "A008836",
+    "A059841",
+    "A342001",
+    "A347395",
+    "A401917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

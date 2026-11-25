@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime whose tree of most central Goldbach partitions has height n.",
+  "id": "A402204",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A005602",
+    "A047160",
+    "A112823",
+    "A234345",
+    "A402203"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

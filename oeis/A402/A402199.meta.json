@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of the triangle with vertices (0,0), (n,0), (0,n) by isosceles right triangles with vertices at lattice points, each side of each triangle being parallel or perpendicular to a side of the large triangle.",
+  "id": "A402199",
+  "mentions": [
+    "A401117",
+    "A402198",
+    "A402200"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

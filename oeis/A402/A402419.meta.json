@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: Row n lists the minimal elements of cosets of (Z/NZ)*^2 in (Z/NZ)*, where N = A102476(n), (Z/NZ)* is the multiplicative group of integers modulo N and (Z/NZ)*^2 is the subgroup of squares.",
+  "id": "A402419",
+  "mentions": [
+    "A102476",
+    "A402417",
+    "A402418"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

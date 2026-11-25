@@ -7,11 +7,12 @@
     "A372984"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

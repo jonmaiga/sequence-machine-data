@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the solution x to x^x=7.",
+  "description": "Decimal expansion of the solution x to x^x = 7.",
   "id": "A173161",
   "mentions": [
     "A030437",

@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -15,12 +14,10 @@ import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C027
-import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C009
 import Seq.B001.C011
@@ -46,9 +43,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -213,66 +209,6 @@ end
 
 end A019012.P16798906378611580759
 
-/-! ## A019012.P7942385767011831506
-
-`A019061(A061219(n+1)+1)`
--/
-
-namespace A019012.P7942385767011831506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019061 (A061219 (n + 1) + 1).toNat
-
-end
-
-end A019012.P7942385767011831506
-
-/-! ## A019012.P11013716784727804515
-
-`A019061(A062998(n+1)+1)`
--/
-
-namespace A019012.P11013716784727804515
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019061 (A062998 (n + 1) + 1).toNat
-
-end
-
-end A019012.P11013716784727804515
-
-/-! ## A019012.P17576053358858479281
-
-`A019061(A066492(n+1)+1)`
--/
-
-namespace A019012.P17576053358858479281
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019061 (A066492 (n + 1) + 1).toNat
-
-end
-
-end A019012.P17576053358858479281
-
-/-! ## A019012.P12320512278470739146
-
-`A019061(A077739(n+1)+1)`
--/
-
-namespace A019012.P12320512278470739146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019061 (A077739 (n + 1) + 1).toNat
-
-end
-
-end A019012.P12320512278470739146
-
 /-!
 # A019013: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EDI = Edingtonite Ba2[Al4Si6O20].8H2O starting with a T2 atom.
 
@@ -293,66 +229,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019013.P7050173928894384588
-
-/-! ## A019013.P3388049127437933185
-
-`A019062(A199343(n)+1)`
--/
-
-namespace A019013.P3388049127437933185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019062 (A199343 n + 1).toNat
-
-end
-
-end A019013.P3388049127437933185
-
-/-! ## A019013.P2678283794121654889
-
-`A019062(A183533(n+2))`
--/
-
-namespace A019013.P2678283794121654889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019062 (A183533 (n + 2)).toNat
-
-end
-
-end A019013.P2678283794121654889
-
-/-! ## A019013.P13716832919457562631
-
-`A019062(A032569(n+1)+1)`
--/
-
-namespace A019013.P13716832919457562631
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019062 (A032569 (n + 1) + 1).toNat
-
-end
-
-end A019013.P13716832919457562631
-
-/-! ## A019013.P860523188726320684
-
-`A019062(A114800(n+1)+1)`
--/
-
-namespace A019013.P860523188726320684
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019062 (A114800 (n + 1) + 1).toNat
-
-end
-
-end A019013.P860523188726320684
 
 /-!
 # A019014: Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ERI = Erionite (Na2,Ca..)3.5K2[Al9Si27O72].27H2O starting with a T2 atom.
@@ -1436,65 +1312,20 @@ end A019065.P12471884061139090546
 The programs for A019072, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019072.P10635863099164662966
+/-! ## A019072.P3654471212805092357
 
-`A018851(A019073(n+3)²)`
+`A019073(n+3)`
 -/
 
-namespace A019072.P10635863099164662966
+namespace A019072.P3654471212805092357
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018851 (A019073 (n + 3) ^ 2).toNat
+  A019073 (n + 3)
 
 end
 
-end A019072.P10635863099164662966
-
-/-! ## A019072.P8753407460836083614
-
-`A056926(A019073(n+3)²)`
--/
-
-namespace A019072.P8753407460836083614
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056926 (A019073 (n + 3) ^ 2).toNat
-
-end
-
-end A019072.P8753407460836083614
-
-/-! ## A019072.P10249228812771862135
-
-`A019073(A004869(n+1)+3)`
--/
-
-namespace A019072.P10249228812771862135
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019073 (A004869 (n + 1) + 3).toNat
-
-end
-
-end A019072.P10249228812771862135
-
-/-! ## A019072.P16684428285291071665
-
-`A019073(C(n+3, A065941(n)))`
--/
-
-namespace A019072.P16684428285291071665
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019073 (Nat.choose (n + 3) (A065941 n).toNat)
-
-end
-
-end A019072.P16684428285291071665
+end A019072.P3654471212805092357
 
 /-!
 # A019074: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Na7[Al7Si57O128] starting with a T8 atom.
@@ -1516,51 +1347,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019074.P14485044680780651885
-
-/-! ## A019074.P7767819413498714102
-
-`A019075(A250044(n+2)-5)`
--/
-
-namespace A019074.P7767819413498714102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019075 (A250044 (n + 2) - 5).toNat
-
-end
-
-end A019074.P7767819413498714102
-
-/-! ## A019074.P14653414532450410352
-
-`A019075(A290848(n)+2+n)`
--/
-
-namespace A019074.P14653414532450410352
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019075 (A290848 n + 2 + (n : ℤ)).toNat
-
-end
-
-end A019074.P14653414532450410352
-
-/-! ## A019074.P16925520264667001413
-
-`A019075(C(n+3, A065941(n)))`
--/
-
-namespace A019074.P16925520264667001413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019075 (Nat.choose (n + 3) (A065941 n).toNat)
-
-end
-
-end A019074.P16925520264667001413
 
 /-!
 # A019092: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4[Be8Si20O52(OH)8].8H2O starting with a T2 atom.

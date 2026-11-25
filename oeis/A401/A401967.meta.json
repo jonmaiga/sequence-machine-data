@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n!^2 / 2^(n - A000120(n)).",
+  "id": "A401967",
+  "mentions": [
+    "A000120",
+    "A000142",
+    "A049606",
+    "A060818"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

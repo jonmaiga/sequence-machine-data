@@ -1,9 +1,10 @@
 {
-  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with partial sums summing to k, where k ranges from n to n(n+1)/2.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with partial sums summing to k, where k ranges from n to n*(n+1)/2.",
   "id": "A358194",
   "mentions": [
     "A000009",
     "A000041",
+    "A000217",
     "A029931",
     "A048793",
     "A053632",
@@ -11,6 +12,7 @@
     "A264034",
     "A304818",
     "A318283",
+    "A320387",
     "A325362",
     "A358134",
     "A358136",
@@ -20,12 +22,13 @@
     "A359397"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

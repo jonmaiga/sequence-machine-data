@@ -1,0 +1,18 @@
+{
+  "description": "Order of the symmetry group of the arrangement of n points on the 2-sphere that minimizes the covering radius, i.e., the maximum spherical distance of any point of the sphere from the nearest of the n points (covering of the sphere by n equal caps of minimal radius).",
+  "id": "A401549",
+  "mentions": [
+    "A080865",
+    "A081314"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

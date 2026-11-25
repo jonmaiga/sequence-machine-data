@@ -1,0 +1,30 @@
+{
+  "description": "Sum of divisors d of n such that gcid(d, n/d) is an exponentially odd number, where gcid is the greatest common infinitary divisor.",
+  "id": "A402248",
+  "mentions": [
+    "A049417",
+    "A077609",
+    "A268335",
+    "A365170",
+    "A365174",
+    "A390370",
+    "A400137",
+    "A400141",
+    "A400144",
+    "A400145",
+    "A400146",
+    "A402247",
+    "A402249"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

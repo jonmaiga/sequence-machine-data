@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1..n}, including the empty set, that contain no Pythagorean triple x < y < z with x^2 + y^2 = z^2.",
+  "id": "A401469",
+  "mentions": [
+    "A009003",
+    "A046080",
+    "A272709"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

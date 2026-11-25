@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*(-1)^pi(k), where pi = A000720.",
+  "id": "A401674",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A010051",
+    "A065358",
+    "A071986"
+  ],
+  "tags": [
+    "easy",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

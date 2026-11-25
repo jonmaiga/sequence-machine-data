@@ -1,0 +1,33 @@
+{
+  "description": "Number of divisors d of n such that gcd(d, n/d) is a cube.",
+  "id": "A402239",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A013664",
+    "A034444",
+    "A069733",
+    "A099480",
+    "A306016",
+    "A365171",
+    "A365173",
+    "A365207",
+    "A365208",
+    "A365210",
+    "A365491",
+    "A369310",
+    "A400450",
+    "A400452"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

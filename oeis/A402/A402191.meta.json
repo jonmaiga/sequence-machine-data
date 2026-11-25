@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct hyperplanes through the center of the (n-1)-dimensional permutohedron that are spanned by its ridges (faces of codimension 2).",
+  "id": "A402191",
+  "mentions": [
+    "A001117",
+    "A002426",
+    "A400949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

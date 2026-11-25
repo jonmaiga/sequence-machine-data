@@ -1,0 +1,25 @@
+{
+  "description": "Number of jumps until the n-th return to 0 of the walk on the nonnegative integers that starts at 0 and, on its j-th visit to x, jumps to x - j if j <= x and to j - x - 1 if j > x.",
+  "id": "A401747",
+  "mentions": [
+    "A000217",
+    "A001122",
+    "A002326",
+    "A003558",
+    "A054639",
+    "A057059",
+    "A135303",
+    "A141110",
+    "A358338",
+    "A399658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

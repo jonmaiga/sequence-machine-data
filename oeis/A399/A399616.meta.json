@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polycubes with n cells such that a rotated copy of the polycube can be placed sharing at least one face with it and not overlapping it, in such a way that neither copy can be slid away to infinity along any coordinate axis.",
+  "id": "A399616",
+  "mentions": [
+    "A038119",
+    "A401351"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -6,6 +6,7 @@
     "A000041",
     "A000070",
     "A000213",
+    "A001622",
     "A003242",
     "A027193",
     "A027383",
@@ -30,11 +31,12 @@
     "A351594"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

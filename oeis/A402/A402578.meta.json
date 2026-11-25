@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A052128(n) - A345994(n).",
+  "id": "A402578",
+  "mentions": [
+    "A052128",
+    "A344005",
+    "A345994",
+    "A402579"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

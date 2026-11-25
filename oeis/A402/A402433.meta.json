@@ -1,0 +1,16 @@
+{
+  "description": "Number of integer partitions of n having exactly one part j, up to multiplicity, such that neither j-1 nor j+1 is a part (i.e., for every other part k != j, at least one of k-1 or k+1 is a part).",
+  "id": "A402433",
+  "mentions": [
+    "A355394"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

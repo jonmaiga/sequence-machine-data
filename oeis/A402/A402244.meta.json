@@ -1,0 +1,22 @@
+{
+  "description": "Largest divisor of n that is a term in A252895.",
+  "id": "A402244",
+  "mentions": [
+    "A013662",
+    "A252895",
+    "A365171",
+    "A386469",
+    "A402243"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

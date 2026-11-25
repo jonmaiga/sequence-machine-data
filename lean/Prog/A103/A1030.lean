@@ -30,6 +30,7 @@ import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B006.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
@@ -2172,21 +2173,6 @@ end
 
 end A103049.P17100806514371386237
 
-/-! ## A103049.P2516708625070279907
-
-`A002024(A333221(3*n+1)+A206303(n))`
--/
-
-namespace A103049.P2516708625070279907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A333221 (3 * n + 1) + A206303 n).toNat
-
-end
-
-end A103049.P2516708625070279907
-
 /-!
 # A103050: Numbers k such that 7*10^k + R_k + 2 is prime, where R_k = 11...1 is the repunit (A002275) of length k.
 
@@ -2900,20 +2886,20 @@ end
 
 end A103068.P6245001572957801350
 
-/-! ## A103068.P15488084322588275650
+/-! ## A103068.P13105571606637540941
 
-`2-(or(1, A010054(n))-A101154(A348553(n)))`
+`2-(1-A101154(A348553(n)))`
 -/
 
-namespace A103068.P15488084322588275650
+namespace A103068.P13105571606637540941
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - (Int.lor 1 (A010054 n) - A101154 (A348553 n).toNat)
+  2 - (1 - A101154 (A348553 n).toNat)
 
 end
 
-end A103068.P15488084322588275650
+end A103068.P13105571606637540941
 
 /-!
 # A103069: Numbers k such that 8*10^k + 3 is prime.

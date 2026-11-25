@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{k>=0} (log(3k+1)/(3k+1)-log(3k+2)/(3k+2)).",
+  "description": "Decimal expansion of Sum_{k>=0} (log(3k+1)/(3k+1)-log(3k+2)/(3k+2)).",
   "id": "A242010",
   "mentions": [
     "A073005",

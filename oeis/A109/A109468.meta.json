@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of permutations of (1,2,3,...,n) written in binary such that no adjacent elements share a common 1-bit.",
+  "description": "a(n) is the number of permutations of [n] written in binary such that no adjacent elements share a common 1-bit.",
   "id": "A109468",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
+    "offset": 0,
+    "size": 72,
     "source": "oeis-entry"
   }
 }

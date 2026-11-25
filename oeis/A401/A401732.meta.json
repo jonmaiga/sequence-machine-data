@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k with no p^p-factors, such that A083345(k) is equal to A276085(k), where A083345 is the numerator of the fully additive function with a(p) = 1/p, and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401732",
+  "mentions": [
+    "A048103",
+    "A083345",
+    "A276085",
+    "A276086",
+    "A359550",
+    "A369650",
+    "A373484",
+    "A373485",
+    "A401730",
+    "A401731",
+    "A401935"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

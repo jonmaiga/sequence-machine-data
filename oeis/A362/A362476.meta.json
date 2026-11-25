@@ -1,5 +1,5 @@
 {
-  "description": "Number of vertex cuts in the n-diagonal intersection graph.",
+  "description": "Number of vertex cuts in the n-polygon diagonal intersection graph.",
   "id": "A362476",
   "mentions": [
     "A300528"

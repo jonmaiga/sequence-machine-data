@@ -1,14 +1,17 @@
 {
   "description": "Least k such that (k*Mersenne-prime(n))^2 + 1 is prime.",
   "id": "A098774",
-  "mentions": [],
+  "mentions": [
+    "A132192"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

@@ -38,6 +38,7 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B001.C000
@@ -60,7 +61,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C008
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -79,6 +80,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +95,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -101,6 +102,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -154,36 +156,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288300.P8530769510158790740
-
-/-! ## A288300.P1005463233033472937
-
-`A007088(A000007(n)+A126646(n)-A289529(n))`
--/
-
-namespace A288300.P1005463233033472937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A000007 n + (A126646 n - A289529 n)).toNat
-
-end
-
-end A288300.P1005463233033472937
-
-/-! ## A288300.P14546151646877831540
-
-`A007088(A288303(n)+A289530(n)-A289529(n))`
--/
-
-namespace A288300.P14546151646877831540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A288303 n + (A289530 n - A289529 n)).toNat
-
-end
-
-end A288300.P14546151646877831540
 
 /-!
 # A288301: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 438", based on the 5-celled von Neumann neighborhood.
@@ -566,25 +538,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288306.P15582743524403382350
-
-/-! ## A288306.P16788982955992072390
-
-`char[A288308(A028310(n))-1]*A057427(n)`
--/
-
-namespace A288306.P16788982955992072390
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288308 (A028310 n).toNat - 1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A057427 n
-
-end
-
-end A288306.P16788982955992072390
 
 /-! ## A288306.P14616801115314154585
 
@@ -1592,6 +1545,29 @@ theorem P1008083392219410321.correct : P1008083392219410321.Spec := by
 
 end A288312
 
+/-! ## A288312.P3667179841293255806
+
+`A219859(C(2*n+1, 2)+n)`
+-/
+
+namespace A288312.P3667179841293255806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219859 (Nat.choose (2 * n + 1) 2 + n)
+
+end
+
+end A288312.P3667179841293255806
+
+namespace A288312
+
+/-- `A219859(C(2*n+1, 2)+n)` -/
+def P3667179841293255806.Spec : Prop :=
+  ∀ n, P3667179841293255806.a n = A288312 n
+
+end A288312
+
 /-! ## A288312.P7586070530375763895
 
 `A090657(∑[4*n])`
@@ -1661,29 +1637,6 @@ namespace A288312
 /-- `(1+n)*A390727(n)` -/
 def P10718490194683549778.Spec : Prop :=
   ∀ n, P10718490194683549778.a n = A288312 n
-
-end A288312
-
-/-! ## A288312.P10321261785002782446
-
-`(n+1)!*A390277(n)`
--/
-
-namespace A288312.P10321261785002782446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) : ℤ) * A390277 n
-
-end
-
-end A288312.P10321261785002782446
-
-namespace A288312
-
-/-- `(n+1)!*A390277(n)` -/
-def P10321261785002782446.Spec : Prop :=
-  ∀ n, P10321261785002782446.a n = A288312 n
 
 end A288312
 
@@ -3115,51 +3068,6 @@ end
 
 end A288320.P5067368996648207195
 
-/-! ## A288320.P10522656839024248228
-
-`A288318((A000124(n)+3)%A344184(n+1))`
--/
-
-namespace A288320.P10522656839024248228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288318 (Int.tmod (A000124 n + 3) (A344184 (n + 1))).toNat
-
-end
-
-end A288320.P10522656839024248228
-
-/-! ## A288320.P1962276441998008446
-
-`A288318((A034856(n+1)-A004274(n))%A150598(n))`
--/
-
-namespace A288320.P1962276441998008446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288318 (Int.tmod (A034856 (n + 1) - A004274 n) (A150598 n)).toNat
-
-end
-
-end A288320.P1962276441998008446
-
-/-! ## A288320.P11858468511581111090
-
-`A288318(A133263(n)+A020639(A100777(n+1)))`
--/
-
-namespace A288320.P11858468511581111090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288318 (A133263 n + A020639 (A100777 (n + 1)).toNat).toNat
-
-end
-
-end A288320.P11858468511581111090
-
 /-! ## A288320.P12562266780172480499
 
 `A030047(xor(A029359(n), A030036(n)))`
@@ -3402,21 +3310,6 @@ end
 
 end A288328.P2752274089780566780
 
-/-! ## A288328.P470139369583563579
-
-`A185544(A288330(n)+A288330(n))`
--/
-
-namespace A288328.P470139369583563579
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185544 (A288330 n + A288330 n).toNat
-
-end
-
-end A288328.P470139369583563579
-
 /-!
 # A288329: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 441", based on the 5-celled von Neumann neighborhood.
 
@@ -3453,35 +3346,20 @@ end
 
 end A288329.P10194946764962347551
 
-/-! ## A288329.P7350684246995313393
+/-! ## A288329.P7736592977341755747
 
-`A185544(A288331(n)+A288331(n))`
+`A288200(A222253(n))`
 -/
 
-namespace A288329.P7350684246995313393
+namespace A288329.P7736592977341755747
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185544 (A288331 n + A288331 n).toNat
+  A288200 (A222253 n).toNat
 
 end
 
-end A288329.P7350684246995313393
-
-/-! ## A288329.P17826135259174619199
-
-`A288200(A222253(n))^A288200(A000700(n))`
--/
-
-namespace A288329.P17826135259174619199
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A288200 (A222253 n).toNat : ℚ) ^ (A288200 (A000700 n).toNat : ℤ)
-
-end
-
-end A288329.P17826135259174619199
+end A288329.P7736592977341755747
 
 /-!
 # A288330: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 441", based on the 5-celled von Neumann neighborhood.
@@ -3569,21 +3447,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288332.P461524525426440997
-
-/-! ## A288332.P2008344863693028815
-
-`A288588(A004891(n+1)/A162510(2*n+1))`
--/
-
-namespace A288332.P2008344863693028815
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288588 (SequenceMachineLib.roundAway ((A004891 (n + 1) : ℚ) / (A162510 (2 * n + 1) : ℚ))).toNat
-
-end
-
-end A288332.P2008344863693028815
 
 /-!
 # A288333: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 443", based on the 5-celled von Neumann neighborhood.
@@ -3717,65 +3580,35 @@ end
 
 end A288336.P644752808616112967
 
-/-! ## A288336.P5096536552332696505
+/-! ## A288336.P14328286047740714793
 
-`A007088(A095121(n)+1-A288897(n))`
+`A288805(n)`
 -/
 
-namespace A288336.P5096536552332696505
+namespace A288336.P14328286047740714793
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A095121 n + (1 - A288897 n)).toNat
+  A288805 n
 
 end
 
-end A288336.P5096536552332696505
+end A288336.P14328286047740714793
 
-/-! ## A288336.P515256373055449581
+/-! ## A288336.P11610519220369850655
 
-`A007088(1-(A288897(n)-A095121(n)))`
+`A103181(A338185(n+1))`
 -/
 
-namespace A288336.P515256373055449581
+namespace A288336.P11610519220369850655
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (1 - (A288897 n - A095121 n)).toNat
+  A103181 (A338185 (n + 1)).toNat
 
 end
 
-end A288336.P515256373055449581
-
-/-! ## A288336.P7925220350182409552
-
-`A007088(A288807(n)+A288811(n)-A288897(n))`
--/
-
-namespace A288336.P7925220350182409552
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A288807 n + (A288811 n - A288897 n)).toNat
-
-end
-
-end A288336.P7925220350182409552
-
-/-! ## A288336.P14627618723133770319
-
-`A007088(A288808(n)+A288812(n)-A288897(n))`
--/
-
-namespace A288336.P14627618723133770319
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A288808 n + (A288812 n - A288897 n)).toNat
-
-end
-
-end A288336.P14627618723133770319
+end A288336.P11610519220369850655
 
 /-!
 # A288337: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 446", based on the 5-celled von Neumann neighborhood.
@@ -5005,51 +4838,6 @@ end
 
 end A288346.P13546012320719987859
 
-/-! ## A288346.P12059607306729450942
-
-`A070319(A216124(n+1)+A149884(n))`
--/
-
-namespace A288346.P12059607306729450942
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070319 (A216124 (n + 1) + A149884 n).toNat
-
-end
-
-end A288346.P12059607306729450942
-
-/-! ## A288346.P5053890302445644774
-
-`A070319(A071594(n+1)+A056363(n+3))`
--/
-
-namespace A288346.P5053890302445644774
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070319 (A071594 (n + 1) + A056363 (n + 3)).toNat
-
-end
-
-end A288346.P5053890302445644774
-
-/-! ## A288346.P3390727274134335850
-
-`A070319(A109611(n+1)+A056363(n+3))`
--/
-
-namespace A288346.P3390727274134335850
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070319 (A109611 (n + 1) + A056363 (n + 3)).toNat
-
-end
-
-end A288346.P3390727274134335850
-
 /-!
 # A288347: Median of X^2 + Y^2 where X and Y are independent random variables with B(n, 1/2) distributions.
 
@@ -5184,75 +4972,49 @@ def P2869744916575007198.Spec : Prop :=
 
 end A288348
 
-/-! ## A288348.P12800754561087072506
+/-! ## A288348.P7540062227055872394
 
-`A286756(A079273(n+1)-n)`
+`A286756(A126264(n+1))`
 -/
 
-namespace A288348.P12800754561087072506
+namespace A288348.P7540062227055872394
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286756 (A079273 (n + 1) - (n : ℤ)).toNat
+  A286756 (A126264 (n + 1)).toNat
 
 end
 
-end A288348.P12800754561087072506
+end A288348.P7540062227055872394
 
 namespace A288348
 
-/-- `A286756(A079273(n+1)-n)` -/
-def P12800754561087072506.Spec : Prop :=
-  ∀ n, P12800754561087072506.a n = A288348 n
+/-- `A286756(A126264(n+1))` -/
+def P7540062227055872394.Spec : Prop :=
+  ∀ n, P7540062227055872394.a n = A288348 n
 
 end A288348
 
-/-! ## A288348.P1231268818802571779
+/-! ## A288348.P17172859656711469340
 
-`A286756(A000217(3*n+2)+∑[n])`
+`A000006(A355387(n+1))`
 -/
 
-namespace A288348.P1231268818802571779
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286756 (A000217 (3 * n + 2) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)).toNat
-
-end
-
-end A288348.P1231268818802571779
-
-namespace A288348
-
-/-- `A286756(A000217(3*n+2)+∑[n])` -/
-def P1231268818802571779.Spec : Prop :=
-  ∀ n, P1231268818802571779.a n = A288348 n
-
-end A288348
-
-/-! ## A288348.P9087703734648505427
-
-`A286756(A219190(2*(n+1))-(n+1))`
--/
-
-namespace A288348.P9087703734648505427
+namespace A288348.P17172859656711469340
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286756 (A219190 (2 * (n + 1)) - (n + 1 : ℤ)).toNat
+  A000006 (A355387 (n + 1)).toNat
 
 end
 
-end A288348.P9087703734648505427
+end A288348.P17172859656711469340
 
 namespace A288348
 
-/-- `A286756(A219190(2*(n+1))-(n+1))` -/
-def P9087703734648505427.Spec : Prop :=
-  ∀ n, P9087703734648505427.a n = A288348 n
+/-- `A000006(A355387(n+1))` -/
+def P17172859656711469340.Spec : Prop :=
+  ∀ n, P17172859656711469340.a n = A288348 n
 
 end A288348
 
@@ -5987,78 +5749,18 @@ end
 
 end A288362.P676606022373657286
 
-/-! ## A288362.P2574158772616493386
-
-`A007088(lcm(A107296(n), A286641(n)))`
--/
-
-namespace A288362.P2574158772616493386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (Int.lcm (A107296 n) (A286641 n))
-
-end
-
-end A288362.P2574158772616493386
-
-/-! ## A288362.P11564345507682533238
-
-`A007088(A286641(or(n, A127802(n))))`
--/
-
-namespace A288362.P11564345507682533238
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A286641 (Int.lor (n : ℤ) (A127802 n)).toNat).toNat
-
-end
-
-end A288362.P11564345507682533238
-
-/-! ## A288362.P11852106075168595351
-
-`A007088(A288360(or(n, A127802(n))))`
--/
-
-namespace A288362.P11852106075168595351
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (A288360 (Int.lor (n : ℤ) (A127802 n)).toNat).toNat
-
-end
-
-end A288362.P11852106075168595351
-
-/-! ## A288362.P12938539202747711423
-
-`A007088(or(A158327(n+1), A286641(n)))`
--/
-
-namespace A288362.P12938539202747711423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (Int.lor (A158327 (n + 1)) (A286641 n)).toNat
-
-end
-
-end A288362.P12938539202747711423
-
 /-!
 # A288363: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 451", based on the 5-celled von Neumann neighborhood.
 
 The programs for A288363, there is no canonical definition to state claims against.
 -/
 
-/-! ## A288363.P2801051656775813525
+/-! ## A288363.P1949855037215240014
 
-`A052410(A286640(n)+char[1])`
+`A286640(n)+char[1]`
 -/
 
-namespace A288363.P2801051656775813525
+namespace A288363.P1949855037215240014
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6066,11 +5768,11 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052410 (A286640 n + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)).toNat
+  A286640 n + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
 
 end
 
-end A288363.P2801051656775813525
+end A288363.P1949855037215240014
 
 /-! ## A288363.P16992340879000367235
 
@@ -6087,50 +5789,20 @@ end
 
 end A288363.P16992340879000367235
 
-/-! ## A288363.P2368656955492979406
+/-! ## A288363.P10213168681390696920
 
-`A286640(n)+A010051(A000079(n))`
+`A130481(A286640(n))`
 -/
 
-namespace A288363.P2368656955492979406
+namespace A288363.P10213168681390696920
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286640 n + A010051 (A000079 n).toNat
+  A130481 (A286640 n).toNat
 
 end
 
-end A288363.P2368656955492979406
-
-/-! ## A288363.P11962343682782539938
-
-`A286640(n)+A010051(A003945(n))`
--/
-
-namespace A288363.P11962343682782539938
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286640 n + A010051 (A003945 n).toNat
-
-end
-
-end A288363.P11962343682782539938
-
-/-! ## A288363.P12921390253275138659
-
-`A286640(n)+A036987(A000051(n))`
--/
-
-namespace A288363.P12921390253275138659
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286640 n + A036987 (A000051 n).toNat
-
-end
-
-end A288363.P12921390253275138659
+end A288363.P10213168681390696920
 
 /-!
 # A288364: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 451", based on the 5-celled von Neumann neighborhood.
@@ -6878,36 +6550,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288372.P17772932627775065155
-
-/-! ## A288372.P17074778742540978570
-
-`A287931(n+2)*A287931(A057544(n))`
--/
-
-namespace A288372.P17074778742540978570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287931 (n + 2) * A287931 (A057544 n).toNat
-
-end
-
-end A288372.P17074778742540978570
-
-/-! ## A288372.P16394897650525403298
-
-`A287931(A326178(n+1))*A287931(n+2)`
--/
-
-namespace A288372.P16394897650525403298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287931 (A326178 (n + 1)).toNat * A287931 (n + 2)
-
-end
-
-end A288372.P16394897650525403298
 
 /-!
 # A288373: Positions of 0 in A288372; complement of A288316.
@@ -7746,12 +7388,12 @@ def P6355610819460510268.Spec : Prop :=
 
 end A288375
 
-/-! ## A288375.P9427745581656945851
+/-! ## A288375.P5132815487685432725
 
-`A057428(n+1)+Δ[comp[A288931(2*n+1)]]`
+`-1+Δ[comp[A288931(2*n+1)]]`
 -/
 
-namespace A288375.P9427745581656945851
+namespace A288375.P5132815487685432725
 noncomputable section
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -7762,17 +7404,17 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 (n + 1) + ((f1 (n + 1) : ℤ) - (f1 n : ℤ))
+  -1 + ((f1 (n + 1) : ℤ) - (f1 n : ℤ))
 
 end
 
-end A288375.P9427745581656945851
+end A288375.P5132815487685432725
 
 namespace A288375
 
-/-- `A057428(n+1)+Δ[comp[A288931(2*n+1)]]` -/
-def P9427745581656945851.Spec : Prop :=
-  ∀ n, P9427745581656945851.a n = A288375 (n + 1)
+/-- `-1+Δ[comp[A288931(2*n+1)]]` -/
+def P5132815487685432725.Spec : Prop :=
+  ∀ n, P5132815487685432725.a n = A288375 (n + 1)
 
 end A288375
 
@@ -8919,33 +8561,6 @@ def P8923671777622394718.Spec : Prop :=
 
 end A288381
 
-/-! ## A288381.P10602714812828745235
-
-`and(1, char[A288134(n+1)])`
--/
-
-namespace A288381.P10602714812828745235
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288134 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land 1 (if ∃ j, f1 j = (n : ℤ) then 1 else 0)
-
-end
-
-end A288381.P10602714812828745235
-
-namespace A288381
-
-/-- `and(1, char[A288134(n+1)])` -/
-def P10602714812828745235.Spec : Prop :=
-  ∀ n, (P10602714812828745235.a n : ℤ) = A288381 (n + 1)
-
-end A288381
-
 /-! ## A288381.P2249037082405438484
 
 `1-char[A288382(n+1)-1]`
@@ -9129,35 +8744,6 @@ namespace A288381
 /-- `filter[A285097(n), A374016(#)]` -/
 def P6426158512846674946.Spec : Prop :=
   ∀ n, P6426158512846674946.a n = A288381 (n + 1)
-
-end A288381
-
-/-! ## A288381.P8300798510587299391
-
-`A285097(eq[A285097(n)², A285097(n)])`
--/
-
-namespace A288381.P8300798510587299391
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285097 n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285097 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285097 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A288381.P8300798510587299391
-
-namespace A288381
-
-/-- `A285097(eq[A285097(n)², A285097(n)])` -/
-def P8300798510587299391.Spec : Prop :=
-  ∀ n, P8300798510587299391.a n = A288381 (n + 1)
 
 end A288381
 
@@ -10092,29 +9678,6 @@ def P3433799791887992832.Spec : Prop :=
 
 end A288383
 
-/-! ## A288383.P5922640831738118837
-
-`A000027(A000523(n+1)+n+4)`
--/
-
-namespace A288383.P5922640831738118837
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A000523 (n + 1) + (n + 4 : ℤ)).toNat
-
-end
-
-end A288383.P5922640831738118837
-
-namespace A288383
-
-/-- `A000027(A000523(n+1)+n+4)` -/
-def P5922640831738118837.Spec : Prop :=
-  ∀ n, P5922640831738118837.a n = A288383 (n + 1)
-
-end A288383
-
 /-! ## A288383.P7124621026210795920
 
 `∑[A002265(a(A302436(n)-1)+4)]` with `a(0)=4`
@@ -10265,6 +9828,35 @@ namespace A288383
 /-- `filter[A092942(n+1), A288381(#)]` -/
 def P3003981814440652677.Spec : Prop :=
   ∀ n, P3003981814440652677.a n = A288383 (n + 1)
+
+end A288383
+
+/-! ## A288383.P7426201887470073224
+
+`∑[ratio[A062383(2*n)]]`
+-/
+
+namespace A288383.P7426201887470073224
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062383 (2 * n)
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (f2 (n + 1) : ℚ) / (f2 n : ℚ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A288383.P7426201887470073224
+
+namespace A288383
+
+/-- `∑[ratio[A062383(2*n)]]` -/
+def P7426201887470073224.Spec : Prop :=
+  ∀ n, P7426201887470073224.a n = (A288383 (n + 1) : ℚ)
 
 end A288383
 
@@ -10433,21 +10025,6 @@ end
 
 end A288387.P9287914202982347788
 
-/-! ## A288387.P5808613903270265939
-
-`A059252(round(exp(A065600(n))))`
--/
-
-namespace A288387.P5808613903270265939
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059252 (SequenceMachineLib.roundAway (Real.exp (A065600 n : ℝ))).toNat
-
-end
-
-end A288387.P5808613903270265939
-
 /-! ## A288387.P17058530273576777677
 
 `(A117707(A198261(n))^7)%9`
@@ -10499,20 +10076,20 @@ end
 
 end A288388.P10783162251935883429
 
-/-! ## A288388.P2687596903997884987
+/-! ## A288388.P17611518163548324719
 
-`A184967(A007578(n))`
+`A317709(A059019(n))`
 -/
 
-namespace A288388.P2687596903997884987
+namespace A288388.P17611518163548324719
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184967 (A007578 n).toNat
+  A317709 (A059019 n).toNat
 
 end
 
-end A288388.P2687596903997884987
+end A288388.P17611518163548324719
 
 /-!
 # A288390: Number of Dyck paths of semilength n such that the number of peaks in each positive level is a term of this sequence.
@@ -11149,21 +10726,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288398.P5579438506754126579
-
-/-! ## A288398.P18359705159199778332
-
-`A288009(A201992(n)^A094842(n+4))`
--/
-
-namespace A288398.P18359705159199778332
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288009 (SequenceMachineLib.roundAway ((A201992 n : ℚ) ^ (A094842 (n + 4) : ℤ))).toNat
-
-end
-
-end A288398.P18359705159199778332
 
 /-!
 # A288399: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 457", based on the 5-celled von Neumann neighborhood.

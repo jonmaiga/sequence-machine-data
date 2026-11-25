@@ -1,0 +1,19 @@
+{
+  "description": "Indices m for which the sum of the first m abundant numbers A173107(m) is itself abundant.",
+  "id": "A402265",
+  "mentions": [
+    "A005101",
+    "A173107",
+    "A401272",
+    "A402266"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

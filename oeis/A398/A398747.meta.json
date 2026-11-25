@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-dominating sets in the n X n grid graph.",
+  "id": "A398747",
+  "mentions": [
+    "A133515",
+    "A133793",
+    "A290382",
+    "A398748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

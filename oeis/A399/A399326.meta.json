@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the iteration of T(x) = x^2*(x^2 - 3)^2 collapses every element of GF(p) to 0.",
+  "id": "A399326",
+  "mentions": [
+    "A019434",
+    "A401173"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

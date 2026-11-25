@@ -32,7 +32,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
@@ -61,7 +60,6 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -79,6 +77,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2854,20 +2853,20 @@ end
 
 end A378439.P4576615678063180520
 
-/-! ## A378439.P13432792410849108414
+/-! ## A378439.P9318727569747592967
 
-`gcd(A034432(A329337(3*n+1)), A378440(n+1))`
+`gcd(0, A378440(n+1))`
 -/
 
-namespace A378439.P13432792410849108414
+namespace A378439.P9318727569747592967
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A034432 (A329337 (3 * n + 1)).toNat) (A378440 (n + 1))
+  Int.gcd 0 (A378440 (n + 1))
 
 end
 
-end A378439.P13432792410849108414
+end A378439.P9318727569747592967
 
 /-!
 # A378440: Dirichlet inverse of Möbius transform of A033630, where A033630 is the number of partitions of n into distinct divisors of n.
@@ -3298,7 +3297,7 @@ end A378442.P3087811457818460954
 /-!
 # A378443: Inverse Möbius transform of A372573.
 
-The programs for A378443, the canonical program `A378443.P3282744420953376765` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378443 has offset 1).
+The programs for A378443, the canonical program `A378443.P3282744420953376765` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378443 has offset 1).
 
 The definition of A378443 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A372573, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3307,7 +3306,7 @@ The definition of A378443 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A372573(#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A378443
@@ -4321,35 +4320,20 @@ end
 
 end A378449.P1843810430594216064
 
-/-! ## A378449.P7149021433382130909
+/-! ## A378449.P15338510821826724587
 
-`A378651(A004948(n+1))`
+`A275714(A275714(A083206(n+1)²))`
 -/
 
-namespace A378449.P7149021433382130909
+namespace A378449.P15338510821826724587
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A378651 (A004948 (n + 1)).toNat
+  A275714 (A275714 (A083206 (n + 1) ^ 2).toNat).toNat
 
 end
 
-end A378449.P7149021433382130909
-
-/-! ## A378449.P6534110128203441746
-
-`A378651(A033286(n+1))`
--/
-
-namespace A378449.P6534110128203441746
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A378651 (A033286 (n + 1)).toNat
-
-end
-
-end A378449.P6534110128203441746
+end A378449.P15338510821826724587
 
 /-!
 # A378450: a(n) is the number of positive numbers k <= sigma(n) that are not a sum of any subset of distinct divisors of n.
@@ -4887,21 +4871,6 @@ end
 
 end A378454.P12783388308651567392
 
-/-! ## A378454.P1632315950739910382
-
-`A008683(A377311(n+1)*A377311(n+1))`
--/
-
-namespace A378454.P1632315950739910382
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (A377311 (n + 1) * A377311 (n + 1)).toNat
-
-end
-
-end A378454.P1632315950739910382
-
 /-!
 # A378456: Number of composite numbers between consecutive nonprime prime powers (exclusive).
 
@@ -5234,29 +5203,6 @@ def P9394011907427196486.Spec : Prop :=
 
 end A378457
 
-/-! ## A378457.P1076070199376016177
-
-`A305805(A151800(n))+A276781(n+1)`
--/
-
-namespace A378457.P1076070199376016177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305805 (A151800 n).toNat + A276781 (n + 1)
-
-end
-
-end A378457.P1076070199376016177
-
-namespace A378457
-
-/-- `A305805(A151800(n))+A276781(n+1)` -/
-def P1076070199376016177.Spec : Prop :=
-  ∀ n, P1076070199376016177.a n = A378457 (n + 1)
-
-end A378457
-
 /-! ## A378457.P15971507341365064851
 
 `A007920(A031218(n+1)+A007920(n+1))`
@@ -5415,6 +5361,29 @@ namespace A378457
 /-- `A083800(n+1)%A276781(n+1)` -/
 def P4517560585589234.Spec : Prop :=
   ∀ n, P4517560585589234.a n = A378457 (n + 1)
+
+end A378457
+
+/-! ## A378457.P16520888664562729344
+
+`A070198(n)%A276781(n+1)`
+-/
+
+namespace A378457.P16520888664562729344
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A070198 n) (A276781 (n + 1))
+
+end
+
+end A378457.P16520888664562729344
+
+namespace A378457
+
+/-- `A070198(n)%A276781(n+1)` -/
+def P16520888664562729344.Spec : Prop :=
+  ∀ n, P16520888664562729344.a n = A378457 (n + 1)
 
 end A378457
 

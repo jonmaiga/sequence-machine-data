@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. (sqrt(1 - 14*x^3 + 161*x^6) - 7*x^3 + 14*x^2 - 1)/(14*x^2*(1-2x-x^2)).",
+  "id": "A402063",
+  "mentions": [
+    "A402064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

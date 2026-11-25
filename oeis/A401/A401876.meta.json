@@ -1,0 +1,19 @@
+{
+  "description": "Number of induced cubes in the Kneser graph KG(n,2).",
+  "id": "A401876",
+  "mentions": [
+    "A050534",
+    "A065949",
+    "A161680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

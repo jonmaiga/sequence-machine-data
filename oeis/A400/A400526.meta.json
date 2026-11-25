@@ -1,0 +1,17 @@
+{
+  "description": "The smallest prime divisor of S(n) = Sum_{k=1..n} k^(k^(k^k)).",
+  "id": "A400526",
+  "mentions": [
+    "A175232",
+    "A398930"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

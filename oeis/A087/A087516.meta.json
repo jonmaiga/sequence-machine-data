@@ -1,5 +1,5 @@
 {
-  "description": "Consider pairs (i,j) such that j*P(i)# - P(i+2) and j*P(i)# - P(i+1) are consecutive primes and 0 < j < P(i+1), where P(r) = r-th prime and P(r)# = r-th primorial number (A002110). Sequence gives i values.",
+  "description": "Consider pairs (i,j) such that j*prime(i)# - prime(i+2) and j*prime(i)# - prime(i+1) are consecutive primes and 0 < j < prime(i+1), where prime(r)# = r-th primorial number (A002110). Sequence gives prime(i) values.",
   "id": "A087516",
   "mentions": [
     "A002110",
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 67,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
   }
 }

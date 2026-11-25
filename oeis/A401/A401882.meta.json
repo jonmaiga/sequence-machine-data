@@ -1,0 +1,20 @@
+{
+  "description": "Rational part of x(n), where x(1) = 1, x(2) = 2 and x(n) = x(n-1) + sqrt(6)*x(n-2).",
+  "id": "A401882",
+  "mentions": [
+    "A010464",
+    "A041006",
+    "A048473",
+    "A401883"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

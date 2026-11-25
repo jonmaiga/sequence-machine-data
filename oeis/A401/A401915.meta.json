@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors d of n for which A112622(d)*d is equal to n, where A112622 is multiplicative with a(p^e) = e^e.",
+  "id": "A401915",
+  "mentions": [
+    "A005117",
+    "A112622",
+    "A324539",
+    "A327153",
+    "A327166",
+    "A401723",
+    "A401913",
+    "A401914",
+    "A401916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

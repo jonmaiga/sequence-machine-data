@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of decimal strings of length n with k indispensable digits, with 0 <= k <= n.",
+  "id": "A401397",
+  "mentions": [
+    "A000581",
+    "A011557",
+    "A035927",
+    "A213651",
+    "A279769",
+    "A330381",
+    "A330509",
+    "A330510",
+    "A340620",
+    "A343639"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

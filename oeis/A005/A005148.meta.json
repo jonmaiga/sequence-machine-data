@@ -2,7 +2,9 @@
   "description": "Sequence of coefficients arising in connection with a rapidly converging series for Pi.",
   "id": "A005148",
   "mentions": [
+    "A000120",
     "A005149",
+    "A007814",
     "A018900",
     "A060236",
     "A076657"

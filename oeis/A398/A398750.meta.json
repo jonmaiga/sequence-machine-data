@@ -1,0 +1,23 @@
+{
+  "description": "Nonsquarefree oblong numbers.",
+  "id": "A398750",
+  "mentions": [
+    "A002378",
+    "A007674",
+    "A013929",
+    "A065474",
+    "A126706",
+    "A229882",
+    "A398749"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

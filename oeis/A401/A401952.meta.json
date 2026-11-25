@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled 2-connected graphs with n vertices in which every edge belongs to a triangle.",
+  "id": "A401952",
+  "mentions": [
+    "A396149",
+    "A401950",
+    "A401951"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -25,6 +25,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B006.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -36,9 +37,11 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1321,21 +1324,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031513.P10907620780930346788
-
-/-! ## A031513.P17075877051111010528
-
-`A080530(A020898(n+1)+6)`
--/
-
-namespace A031513.P17075877051111010528
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080530 (A020898 (n + 1) + 6).toNat
-
-end
-
-end A031513.P17075877051111010528
 
 /-!
 # A031521: Numbers k such that the continued fraction for sqrt(k) has even period and if the last term of the periodic part is deleted the central term is 23.

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 2^(n-1)*(3^n-2^(n+1)+1).",
   "id": "A228701",
-  "mentions": [],
+  "mentions": [
+    "A016283"
+  ],
   "tags": [
     "easy",
     "formulas",

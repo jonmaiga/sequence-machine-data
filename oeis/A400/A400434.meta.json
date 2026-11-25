@@ -1,0 +1,23 @@
+{
+  "description": "Sizes of the successive clusters of the hexagonal close-packed (HCP) lattice, centered on a lattice point.",
+  "id": "A400434",
+  "mentions": [
+    "A004012",
+    "A004015",
+    "A005870",
+    "A007202",
+    "A007899",
+    "A119869",
+    "A401221"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

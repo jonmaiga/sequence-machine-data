@@ -2,6 +2,8 @@
   "description": "Number of factorizations of m^3 into at most 3 factors, where m is a product of exactly n distinct primes.",
   "id": "A256493",
   "mentions": [
+    "A011557",
+    "A164094",
     "A256384"
   ],
   "tags": [

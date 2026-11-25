@@ -2,6 +2,7 @@
   "description": "Pseudo-squares: a(n) = the least nonsquare positive integer which is 1 mod 8 and is a (nonzero) quadratic residue modulo the first n odd primes.",
   "id": "A002189",
   "mentions": [
+    "A002224",
     "A018883",
     "A045535",
     "A090983"

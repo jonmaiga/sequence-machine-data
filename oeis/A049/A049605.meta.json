@@ -1,11 +1,13 @@
 {
-  "description": "Smallest k>1 such that k divides sigma(k*n).",
+  "description": "Smallest k > 1 such that k divides sigma(k*n).",
   "id": "A049605",
   "mentions": [
+    "A000203",
     "A028983",
     "A067051",
     "A072862",
-    "A072864"
+    "A072864",
+    "A402533"
   ],
   "tags": [
     "easy",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

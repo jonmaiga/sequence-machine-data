@@ -1,0 +1,22 @@
+{
+  "description": "Horizontal coordinates where successive walks from (0,1) first reach the x-axis, guided by arrows that initially point south and turn 90 degrees counterclockwise each time they are followed.",
+  "id": "A402155",
+  "mentions": [
+    "A049541",
+    "A101465",
+    "A154747",
+    "A239204",
+    "A278928",
+    "A388753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

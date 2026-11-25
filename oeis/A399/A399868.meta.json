@@ -1,0 +1,21 @@
+{
+  "description": "Array read by upwards antidiagonals: T(n,k) is the coefficient of x^n in (1 - (1 - 9*3^k*x)^(3^(-k - 1)))/(3*x) for n >= 0, k >= 0.",
+  "id": "A399868",
+  "mentions": [
+    "A025748",
+    "A029858",
+    "A097193",
+    "A158093"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

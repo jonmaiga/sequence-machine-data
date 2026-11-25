@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(1)=5; for n > 2, a(n) is the smallest odd number j not divisible by 3 such that (3*j+1)/2^k = a(n-1) for some k.",
+  "description": "a(0)=1, a(1)=5; for n >= 2, a(n) is the smallest odd number j not divisible by 3 such that (3*j+1)/2^k = a(n-1) for some k.",
   "id": "A327638",
   "mentions": [
     "A005408",

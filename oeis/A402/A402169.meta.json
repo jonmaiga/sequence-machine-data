@@ -1,0 +1,21 @@
+{
+  "description": "Limiting firing word at a distant square for a stack of coins, when each square with at least two coins simultaneously sends one coin to each of the next two squares on its right at every tick.",
+  "id": "A402169",
+  "mentions": [
+    "A007302",
+    "A027615",
+    "A039724",
+    "A073504",
+    "A101660"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

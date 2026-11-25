@@ -1,7 +1,10 @@
 {
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with all 2X2 subblock sums the same.",
   "id": "A184003",
-  "mentions": [],
+  "mentions": [
+    "A183995",
+    "A183996"
+  ],
   "tags": [
     "formulas",
     "nonn",

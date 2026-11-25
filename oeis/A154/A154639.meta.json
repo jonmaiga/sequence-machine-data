@@ -3,15 +3,17 @@
   "id": "A154639",
   "mentions": [
     "A154638",
+    "A154640",
     "A154645"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

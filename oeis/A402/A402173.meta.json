@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes p < 10^n such that p+2, 2p+1, 2p+3 are also primes.",
+  "id": "A402173",
+  "mentions": [
+    "A066388"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

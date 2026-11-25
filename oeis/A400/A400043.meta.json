@@ -1,0 +1,15 @@
+{
+  "description": "Maximum number of unit-cube interiors intersected by a plane in an n X n X n subdivision of a cube.",
+  "id": "A400043",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

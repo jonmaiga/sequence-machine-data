@@ -12,6 +12,254 @@
         "floor",
         "or"
       ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(sin(acot(cos(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "acot",
+        "sin",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(atan(acot(cos(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "acot",
+        "atan",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(tanh(acot(cos(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "acot",
+        "tanh",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(acot(acot(cos(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "acot",
+        "acot",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "cos(n)/abs(cos(n))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "n",
+        "cos",
+        "abs",
+        "/"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "cos(atan(tan(n))-n)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "tan",
+        "atan",
+        "n",
+        "sub",
+        "cos"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(acot(floor(sin(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "sin",
+        "floor",
+        "acot",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(acot(floor(atan(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "atan",
+        "floor",
+        "acot",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(acot(floor(tanh(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "tanh",
+        "floor",
+        "acot",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(sin(atan(cot(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "cot",
+        "atan",
+        "sin",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(atan(atan(cot(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "cot",
+        "atan",
+        "atan",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "2*ceil(cos(n))-1",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "cos",
+        "ceil",
+        "*",
+        "1",
+        "sub"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "3^ceil(cos(n))-2",
+      "mt": 10000,
+      "px": [
+        "3",
+        "n",
+        "cos",
+        "ceil",
+        "^",
+        "2",
+        "sub"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "-(-1)^ceil(cos(n))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "neg",
+        "n",
+        "cos",
+        "ceil",
+        "^",
+        "neg"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(cos(n*floor(cos(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "n",
+        "cos",
+        "floor",
+        "*",
+        "cos",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(cos(n))^floor(cos(n))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "floor",
+        "n",
+        "cos",
+        "floor",
+        "^"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "cos(n)/root(cos(n)², 2)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "n",
+        "cos",
+        "²",
+        "2",
+        "root",
+        "/"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "or(1, A000480(n))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "A000480",
+        "or"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "A000480(n*A000480(n)²)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "n",
+        "A000480",
+        "²",
+        "*",
+        "A000480"
+      ]
     }
   ]
 }

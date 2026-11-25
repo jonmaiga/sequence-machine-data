@@ -1,0 +1,19 @@
+{
+  "description": "Number of solid standard Young tableaux with n cells and cylindric index 0.",
+  "id": "A402277",
+  "mentions": [
+    "A207542",
+    "A400388",
+    "A401945"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = prime j = A347113(i)-1 in order of appearance.",
+  "description": "a(n) = prime j = A347113(i)+1 in order of appearance.",
   "id": "A349411",
   "mentions": [
     "A347113",

@@ -1,0 +1,21 @@
+{
+  "description": "Take a number k in base 10 and, if possible, rewrite it in base p, where p is the product of its digits. Continue calculating the product of the digits of k in the new base and rewriting k in this base. The sequence lists the numbers that eventually return to base 10.",
+  "id": "A401111",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A007090",
+    "A007095",
+    "A007954",
+    "A052382"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

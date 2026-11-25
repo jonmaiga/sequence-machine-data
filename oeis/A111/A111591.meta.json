@@ -2,10 +2,12 @@
   "description": "Decimal expansion of the cube of cosine of 1 degree.",
   "id": "A111591",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A112247"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

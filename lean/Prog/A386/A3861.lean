@@ -2,7 +2,6 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C008
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
@@ -10,6 +9,7 @@ import Seq.B000.C019
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C028
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -20,8 +20,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
-import Seq.B002.C008
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -39,6 +38,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -52,6 +52,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -62,7 +63,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A386100: Primes having only {1, 2, 6, 8} as digits.
@@ -6272,38 +6272,16 @@ end A386145.P15778926638054767333
 The programs for A386146, there is no canonical definition to state claims against.
 -/
 
-/-! ## A386146.P8825952435778172528
+/-! ## A386146.P17430082855266852998
 
-`∩[A034470(n+1), A386326(n+1)]%A349500(3*n+5)`
+`∩[A034470(n+1), A386326(n+1)]`
 -/
 
-namespace A386146.P8825952435778172528
+namespace A386146.P17430082855266852998
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A034470 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386326 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A349500 (3 * n + 5))
-
-end
-
-end A386146.P8825952435778172528
-
-/-! ## A386146.P17206698883074783595
-
-`∩[A034470(n+1)%A349500(3*n+5), A386326(n+1)]`
--/
-
-namespace A386146.P17206698883074783595
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A034470 (n + 1)) (A349500 (3 * n + 5))
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A386326 (n + 1)
@@ -6314,7 +6292,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A386146.P17206698883074783595
+end A386146.P17430082855266852998
 
 /-!
 # A386147: Primes having only {2, 3, 6, 7} as digits.
@@ -7225,35 +7203,20 @@ end A386161.P997481051904112490
 The programs for A386164, there is no canonical definition to state claims against.
 -/
 
-/-! ## A386164.P9436498064659689977
+/-! ## A386164.P15278232952727146814
 
-`A034470(A083964(n+1))`
+`A034470(2*n+1)`
 -/
 
-namespace A386164.P9436498064659689977
+namespace A386164.P15278232952727146814
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034470 (A083964 (n + 1)).toNat
+  A034470 (2 * n + 1)
 
 end
 
-end A386164.P9436498064659689977
-
-/-! ## A386164.P13664678088548740027
-
-`A006530(A034470(2*n+1)*A060656(n))`
--/
-
-namespace A386164.P13664678088548740027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A034470 (2 * n + 1) * A060656 n).toNat
-
-end
-
-end A386164.P13664678088548740027
+end A386164.P15278232952727146814
 
 /-!
 # A386167: Primes having only {2, 6, 8, 9} as digits.

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that a(n) is the least positive integer j for which gcd(a(n), a(n+j)) > 1.",
+  "id": "A401857",
+  "mentions": [
+    "A026242",
+    "A249064",
+    "A336268",
+    "A381019",
+    "A381167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

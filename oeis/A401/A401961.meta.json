@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct binary words of length n obtained by reading equally spaced entries from left to right within a single row of Pascal's triangle modulo 2.",
+  "id": "A401961",
+  "mentions": [
+    "A003004",
+    "A005598",
+    "A007318",
+    "A047999",
+    "A333994",
+    "A386480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

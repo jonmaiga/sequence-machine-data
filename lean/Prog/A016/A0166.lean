@@ -5,7 +5,7 @@ import Seq.B000.C005
 import Seq.B000.C023
 import Seq.Opaque.C001
 import Seq.Opaque.C018
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -263,21 +263,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016639.P5353718427758021029
-
-/-! ## A016639.P13054611858390357088
-
-`A303658(round(acot(n)+n)+floor(acot(n))-1)`
--/
-
-namespace A016639.P13054611858390357088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303658 (SequenceMachineLib.roundAway (SequenceMachineLib.acot (n : ℝ) + (n : ℝ)) + (⌊SequenceMachineLib.acot (n : ℝ)⌋ - 1)).toNat
-
-end
-
-end A016639.P13054611858390357088
 
 /-!
 # A016655: Decimal expansion of log(32) = 5*log(2).

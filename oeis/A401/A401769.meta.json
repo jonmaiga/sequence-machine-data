@@ -1,0 +1,28 @@
+{
+  "description": "Averages of twin prime pairs that are 2-dense numbers A174973.",
+  "id": "A401769",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A077800",
+    "A174973",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A245092",
+    "A258838",
+    "A262626",
+    "A393795",
+    "A400848"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

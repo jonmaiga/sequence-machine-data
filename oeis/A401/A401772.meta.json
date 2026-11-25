@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows in which row n gives the congruences (mod 2^floor(1+n*log_2(7))) that have an admissible sequence of order n; related to 7x+1 problem.",
+  "id": "A401772",
+  "mentions": [
+    "A174796",
+    "A177789",
+    "A398731"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

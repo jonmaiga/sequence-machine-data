@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that A400943(k) >= n.",
+  "id": "A400625",
+  "mentions": [
+    "A174973",
+    "A400583",
+    "A400943"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

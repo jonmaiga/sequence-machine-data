@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 4*p# + p' is prime, where prime(n)# = A002110(n) and p' is the next prime > p.",
+  "id": "A402428",
+  "mentions": [
+    "A002110",
+    "A102476",
+    "A402422",
+    "A402429"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

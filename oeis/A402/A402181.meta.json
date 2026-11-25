@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the decimal concatenation of the sum and product of the digits of 2^k, in either order (allowing leading zeros), is a power of 2.",
+  "id": "A402181",
+  "mentions": [
+    "A000079",
+    "A001370",
+    "A007377",
+    "A063565",
+    "A095412"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

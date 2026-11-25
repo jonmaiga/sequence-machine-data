@@ -1,0 +1,24 @@
+{
+  "description": "Sum of divisors of n that are terms in A252895.",
+  "id": "A402243",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A013662",
+    "A252895",
+    "A365171",
+    "A386471",
+    "A402244"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonempty convex vertex sets with diameter k in the n X n king graph, 0 <= k < n.",
+  "id": "A401797",
+  "mentions": [
+    "A000290",
+    "A006324",
+    "A401793"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

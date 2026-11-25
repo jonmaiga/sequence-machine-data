@@ -1,0 +1,35 @@
+{
+  "description": "Half the sum of the fourth powers of the hypotenuse and the sum of the legs: a(n) = (p^4 + (u+v)^4)/2, where u and v are the legs of the primitive Pythagorean triangle with hypotenuse p = A002144(n).",
+  "id": "A402007",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A002646",
+    "A007519",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003",
+    "A401004",
+    "A401444",
+    "A401445",
+    "A401446",
+    "A401740",
+    "A401741",
+    "A401742",
+    "A402006",
+    "A402008"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

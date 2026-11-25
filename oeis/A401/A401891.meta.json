@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(2^k + 2).",
+  "id": "A401891",
+  "mentions": [
+    "A052548",
+    "A401892"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

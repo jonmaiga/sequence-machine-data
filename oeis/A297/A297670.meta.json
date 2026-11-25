@@ -1,5 +1,5 @@
 {
-  "description": "Number of chordless cycles in the n-triangular graph.",
+  "description": "Number of chordless cycles in the n-triangular (Johnson) graph.",
   "id": "A297670",
   "mentions": [
     "A000292",

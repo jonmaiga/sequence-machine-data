@@ -1,0 +1,19 @@
+{
+  "description": "Least n-digit integer k such that its largest and second-largest prime factors differ in length by exactly one digit.",
+  "id": "A401692",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A162422",
+    "A398757"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

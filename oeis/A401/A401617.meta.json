@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of consecutive equal digits of n in any base >= 2.",
+  "id": "A401617",
+  "mentions": [
+    "A000225",
+    "A000975",
+    "A171901",
+    "A178905"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

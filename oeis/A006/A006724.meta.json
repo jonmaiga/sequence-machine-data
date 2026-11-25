@@ -2,6 +2,8 @@
   "description": "Number of fixed n-celled self-avoiding polygons on square lattice.",
   "id": "A006724",
   "mentions": [
+    "A000104",
+    "A001168",
     "A002931"
   ],
   "tags": [

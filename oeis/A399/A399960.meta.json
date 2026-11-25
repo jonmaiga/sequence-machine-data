@@ -1,0 +1,18 @@
+{
+  "description": "Terms m of A014574 such that there are no two distinct terms x < y of A014574 with x + y = 2*m.",
+  "id": "A399960",
+  "mentions": [
+    "A014574",
+    "A359556"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

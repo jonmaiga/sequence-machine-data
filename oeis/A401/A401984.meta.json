@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Riordan array ( 1/(1 + 2*x + 3*x^2), x/(1 + 2*x + 3*x^2) ).",
+  "id": "A401984",
+  "mentions": [
+    "A000012",
+    "A088137",
+    "A214733",
+    "A401985"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

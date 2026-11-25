@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4/3)*(L(2) + L'(2)) + L'(1/2)/24, where L(s) = xi'(s)/xi(s) and xi is the Riemann xi function.",
+  "id": "A401976",
+  "mentions": [
+    "A332645"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of primes p <= n, taken in decreasing order starting from the largest, that must be tried before reaching the first one for which 2*n - p is also prime.",
+  "id": "A401759",
+  "mentions": [
+    "A005596",
+    "A005597",
+    "A020481",
+    "A045917",
+    "A047160",
+    "A112823",
+    "A234345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

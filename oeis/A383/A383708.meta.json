@@ -32,12 +32,11 @@
     "A383711"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Narrow class numbers associated with terms of A094847.",
+  "id": "A402312",
+  "mentions": [
+    "A002189",
+    "A094847",
+    "A094848",
+    "A399983"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

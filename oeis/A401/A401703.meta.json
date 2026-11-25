@@ -1,0 +1,23 @@
+{
+  "description": "Primes p for which there exists a noncomposite q <= p such that 3*(p# / q#) == -1 mod r, where p# = A034386(p), and r is the least prime larger than p.",
+  "id": "A401703",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A034386",
+    "A064989",
+    "A401063",
+    "A401700",
+    "A401701",
+    "A401702"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

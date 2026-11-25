@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the binary XOR of the divisors of n (A178910) is a binary palindrome (A006995) and not a power of 2 (A000079).",
+  "description": "Numbers k that are not a power of 2 (A000079) such that the binary XOR of the divisors of k (A178910) is a binary palindrome (A006995).",
   "id": "A226643",
   "mentions": [
     "A000079",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

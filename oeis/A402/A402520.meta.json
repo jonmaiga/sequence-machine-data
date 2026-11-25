@@ -1,0 +1,17 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of minimal hull sets in the grid graph P_m X P_n.",
+  "id": "A402520",
+  "mentions": [
+    "A402521"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

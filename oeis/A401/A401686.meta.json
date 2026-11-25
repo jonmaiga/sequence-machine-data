@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 0, 1, ..., 2*n, giving in row n the parts of a certain partition of A003261(n+1) related to a chain problem.",
+  "id": "A401686",
+  "mentions": [
+    "A003261",
+    "A401685"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

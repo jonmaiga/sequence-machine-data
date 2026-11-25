@@ -1,18 +1,16 @@
 {
-  "description": "A sequence based on the mechanics of A147781: b(n) = Apply[Plus, IntegerDigits( 17982*Sum_{m=0..7} Prime(n+m) )]; a(n) = 1-(b(n) mod 2).",
+  "description": "a(n) = 1 - digitsum(17982 * Sum_{k=0..7} prime(n+k)) mod 2.",
   "id": "A147873",
-  "mentions": [
-    "A147781"
-  ],
+  "mentions": [],
   "tags": [
     "base",
+    "dumb",
     "less",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

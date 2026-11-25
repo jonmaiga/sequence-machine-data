@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonempty convex vertex sets in the n-tetrahedral (Johnson) graph.",
+  "id": "A401799",
+  "mentions": [
+    "A401798"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

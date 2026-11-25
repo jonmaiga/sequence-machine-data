@@ -2,17 +2,26 @@
   "description": "Primes p for which there exists a prime q <= p such that ((p#/p) / (q#/q)) == -1 mod p, where p# = A034386(p).",
   "id": "A401061",
   "mentions": [
+    "A000040",
     "A000720",
     "A002110",
     "A003961",
     "A034386",
     "A058233",
+    "A066735",
     "A400837",
     "A400843",
+    "A401056",
+    "A401057",
     "A401060",
-    "A401063"
+    "A401063",
+    "A401064",
+    "A401065",
+    "A401373",
+    "A401701"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

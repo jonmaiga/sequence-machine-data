@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the number of k < n such that a(k) < n - k <= 3*a(k).",
+  "id": "A401680",
+  "mentions": [
+    "A006949"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

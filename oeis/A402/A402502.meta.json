@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number equal to either prime(n)# + 1 (A006862) or 3*prime(n)# + 1 (A402501) that is congruent to 7 modulo 8, where prime(n)# = A002110(n).",
+  "id": "A402502",
+  "mentions": [
+    "A002110",
+    "A006862",
+    "A066490",
+    "A102476",
+    "A267098",
+    "A402499",
+    "A402501",
+    "A402507"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

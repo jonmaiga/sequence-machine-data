@@ -14,14 +14,11 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -31,14 +28,12 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -49,20 +44,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
-import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -72,9 +65,9 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import SequenceMachineLib.Triangle
@@ -264,39 +257,6 @@ end A195206.P18011166405064672386
 
 The programs for A195207, there is no canonical definition to state claims against.
 -/
-
-/-! ## A195207.P11520642546219801195
-
-`A224980(A000034(n)^A224979(n+1))`
--/
-
-namespace A195207.P11520642546219801195
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224980 (SequenceMachineLib.roundAway ((A000034 n : ℚ) ^ (A224979 (n + 1) : ℤ))).toNat
-
-end
-
-end A195207.P11520642546219801195
-
-/-! ## A195207.P4471315909432066431
-
-`A224980(∑[A165326(n)]^A224979(n+1))`
--/
-
-namespace A195207.P4471315909432066431
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165326 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224980 (SequenceMachineLib.roundAway (((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) ^ (A224979 (n + 1) : ℤ))).toNat
-
-end
-
-end A195207.P4471315909432066431
 
 /-! ## A195207.P2647317645988469424
 
@@ -850,64 +810,6 @@ def P2225935237310332285.Spec : Prop :=
 
 end A195212
 
-/-! ## A195212.P8283804407002368813
-
-`A020725(lt[A300518(n+1), A085392(n+1)])`
--/
-
-namespace A195212.P8283804407002368813
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300518 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085392 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A195212.P8283804407002368813
-
-namespace A195212
-
-/-- `A020725(lt[A300518(n+1), A085392(n+1)])` -/
-def P8283804407002368813.Spec : Prop :=
-  ∀ n, P8283804407002368813.a n = A195212 (n + 1)
-
-end A195212
-
-/-! ## A195212.P4638079877465173461
-
-`A020725(lt[A300518(n+1), A249740(n+1)])`
--/
-
-namespace A195212.P4638079877465173461
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300518 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249740 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A195212.P4638079877465173461
-
-namespace A195212
-
-/-- `A020725(lt[A300518(n+1), A249740(n+1)])` -/
-def P4638079877465173461.Spec : Prop :=
-  ∀ n, P4638079877465173461.a n = A195212 (n + 1)
-
-end A195212
-
 /-!
 # A195213: Number of lower triangles of an n X n integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by 1 or less and triangles differing by a constant counted only once.
 
@@ -1145,57 +1047,6 @@ end
 
 end A195216.P4357463713238792375
 
-/-! ## A195216.P17229115177426938087
-
-`A195220(A056000(n)+7)`
--/
-
-namespace A195216.P17229115177426938087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A056000 n + 7).toNat
-
-end
-
-end A195216.P17229115177426938087
-
-/-! ## A195216.P16553884109818770994
-
-`A195220(eq[3, A193592(n)])`
--/
-
-namespace A195216.P16553884109818770994
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195216.P16553884109818770994
-
-/-! ## A195216.P17992478675858160979
-
-`A195220(A052905(n+1)+2)`
--/
-
-namespace A195216.P17992478675858160979
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A052905 (n + 1) + 2).toNat
-
-end
-
-end A195216.P17992478675858160979
-
 /-!
 # A195217: Number of lower triangles of an n X n integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by 5 or less and triangles differing by a constant counted only once.
 
@@ -1216,27 +1067,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195217.P3955062729829315123
-
-/-! ## A195217.P17867005446908901881
-
-`A195220(eq[4, A193592(n)])`
--/
-
-namespace A195217.P17867005446908901881
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195217.P17867005446908901881
 
 /-!
 # A195218: Number of lower triangles of an n X n integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by 6 or less and triangles differing by a constant counted only once.
@@ -1345,75 +1175,6 @@ def P2512561756065856183.Spec : Prop :=
 
 end A195221
 
-/-! ## A195221.P4092247653496911995
-
-`or(1, A195220(A167614(n+1)))`
--/
-
-namespace A195221.P4092247653496911995
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A195220 (A167614 (n + 1)).toNat)
-
-end
-
-end A195221.P4092247653496911995
-
-namespace A195221
-
-/-- `or(1, A195220(A167614(n+1)))` -/
-def P4092247653496911995.Spec : Prop :=
-  ∀ n, P4092247653496911995.a n = A195221 (n + 1)
-
-end A195221
-
-/-! ## A195221.P4078362062756883279
-
-`A195220(A167614(n+1))+A185284(n)`
--/
-
-namespace A195221.P4078362062756883279
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A167614 (n + 1)).toNat + A185284 n
-
-end
-
-end A195221.P4078362062756883279
-
-namespace A195221
-
-/-- `A195220(A167614(n+1))+A185284(n)` -/
-def P4078362062756883279.Spec : Prop :=
-  ∀ n, P4078362062756883279.a n = A195221 (n + 1)
-
-end A195221
-
-/-! ## A195221.P10766563568999055337
-
-`lcm(A087960(n), A195220(A167614(n+1)))`
--/
-
-namespace A195221.P10766563568999055337
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A087960 n) (A195220 (A167614 (n + 1)).toNat)
-
-end
-
-end A195221.P10766563568999055337
-
-namespace A195221
-
-/-- `lcm(A087960(n), A195220(A167614(n+1)))` -/
-def P10766563568999055337.Spec : Prop :=
-  ∀ n, (P10766563568999055337.a n : ℤ) = A195221 (n + 1)
-
-end A195221
-
 /-!
 # A195222: Number of lower triangles of a 4 X 4 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once.
 
@@ -1435,72 +1196,6 @@ end
 
 end A195222.P16202628582183478106
 
-/-! ## A195222.P14666501988911188468
-
-`A195220(A052905(n)+9)`
--/
-
-namespace A195222.P14666501988911188468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A052905 n + 9).toNat
-
-end
-
-end A195222.P14666501988911188468
-
-/-! ## A195222.P7550402871842301133
-
-`A195220(A055999(n)+10)`
--/
-
-namespace A195222.P7550402871842301133
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A055999 n + 10).toNat
-
-end
-
-end A195222.P7550402871842301133
-
-/-! ## A195222.P14337695688496640119
-
-`A195220(A167614(n+2)+1)`
--/
-
-namespace A195222.P14337695688496640119
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A195222.P14337695688496640119
-
-/-! ## A195222.P6495987054349161135
-
-`A195220(eq[5, A131818(n+1)])`
--/
-
-namespace A195222.P6495987054349161135
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195222.P6495987054349161135
-
 /-!
 # A195223: Number of lower triangles of a 5 X 5 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once.
 
@@ -1521,72 +1216,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195223.P3190160629666785167
-
-/-! ## A195223.P3656786462683613805
-
-`A195220(A056000(n)+15)`
--/
-
-namespace A195223.P3656786462683613805
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A056000 n + 15).toNat
-
-end
-
-end A195223.P3656786462683613805
-
-/-! ## A195223.P7376755775577278361
-
-`A195220(A141214(n+1)+8)`
--/
-
-namespace A195223.P7376755775577278361
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A141214 (n + 1) + 8).toNat
-
-end
-
-end A195223.P7376755775577278361
-
-/-! ## A195223.P16028108549799047298
-
-`A195220(A034856(n+3)+7)`
--/
-
-namespace A195223.P16028108549799047298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (A034856 (n + 3) + 7).toNat
-
-end
-
-end A195223.P16028108549799047298
-
-/-! ## A195223.P2768752574398232212
-
-`A195220(eq[6, A131818(n+1)])`
--/
-
-namespace A195223.P2768752574398232212
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195220 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195223.P2768752574398232212
 
 /-!
 # A195224: Number of lower triangles of a 6 X 6 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once.
@@ -1684,21 +1313,6 @@ end
 
 end A195226.P4483462001332105131
 
-/-! ## A195226.P7838991359293320530
-
-`or(1, A195232(A000096(n+1)))`
--/
-
-namespace A195226.P7838991359293320530
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A195232 (A000096 (n + 1)).toNat)
-
-end
-
-end A195226.P7838991359293320530
-
 /-! ## A195226.P3211353205967997745
 
 `record[A195232(A000096(∏{p}[n+1, #^val(n+1, #²)]))]`
@@ -1719,21 +1333,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195226.P3211353205967997745
-
-/-! ## A195226.P14081717623218477327
-
-`A195232(A000096(n+1))+A000007(n+1)`
--/
-
-namespace A195226.P14081717623218477327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A000096 (n + 1)).toNat + A000007 (n + 1)
-
-end
-
-end A195226.P14081717623218477327
 
 /-!
 # A195227: Number of lower triangles of an n X n 0..3 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
@@ -1798,72 +1397,6 @@ end
 
 end A195228.P10538747562977529584
 
-/-! ## A195228.P14714557781814631679
-
-`A195232(A027379(n+2))`
--/
-
-namespace A195228.P14714557781814631679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A027379 (n + 2)).toNat
-
-end
-
-end A195228.P14714557781814631679
-
-/-! ## A195228.P6228180076830632102
-
-`A195232(A155212(n)+5)`
--/
-
-namespace A195228.P6228180076830632102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A155212 n + 5).toNat
-
-end
-
-end A195228.P6228180076830632102
-
-/-! ## A195228.P9882837569756825953
-
-`A195232(A056000(n)+7)`
--/
-
-namespace A195228.P9882837569756825953
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A056000 n + 7).toNat
-
-end
-
-end A195228.P9882837569756825953
-
-/-! ## A195228.P2419307336784703277
-
-`A195232(eq[3, A193592(n)])`
--/
-
-namespace A195228.P2419307336784703277
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195228.P2419307336784703277
-
 /-!
 # A195229: Number of lower triangles of an n X n 0..5 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
 
@@ -1888,78 +1421,6 @@ end
 
 end A195229.P10184108105075988122
 
-/-! ## A195229.P17016611700799556425
-
-`A195232(eq[4, A193592(n)])`
--/
-
-namespace A195229.P17016611700799556425
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195229.P17016611700799556425
-
-/-! ## A195229.P16957088909955329385
-
-`A195232(Δ[A023545(n+1)])`
--/
-
-namespace A195229.P16957088909955329385
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A195229.P16957088909955329385
-
-/-! ## A195229.P13207745311878665460
-
-`A195232(Δ[A141214(n)+A034857(n+1)])`
--/
-
-namespace A195229.P13207745311878665460
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141214 n + A034857 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A195229.P13207745311878665460
-
-/-! ## A195229.P5372549124889973260
-
-`A195232(A051936(n+4)+A045918(n))`
--/
-
-namespace A195229.P5372549124889973260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A051936 (n + 4) + A045918 n).toNat
-
-end
-
-end A195229.P5372549124889973260
-
 /-!
 # A195230: Number of lower triangles of an n X n 0..6 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
 
@@ -1980,84 +1441,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195230.P5411733583148132130
-
-/-! ## A195230.P6143551721538909224
-
-`A195232(eq[3, A219347(n)])`
--/
-
-namespace A195230.P6143551721538909224
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195230.P6143551721538909224
-
-/-! ## A195230.P9469924172318390468
-
-`A195232(eq[5, A193592(n)])`
--/
-
-namespace A195230.P9469924172318390468
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195230.P9469924172318390468
-
-/-! ## A195230.P7711648069594589878
-
-`A195232(eq[6, A200370(n+1)])`
--/
-
-namespace A195230.P7711648069594589878
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200370 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195230.P7711648069594589878
-
-/-! ## A195230.P12792942006518929406
-
-`A195232(A000217(n+5)+n+1)`
--/
-
-namespace A195230.P12792942006518929406
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195232 (A000217 (n + 5) + (n + 1 : ℤ)).toNat
-
-end
-
-end A195230.P12792942006518929406
 
 /-!
 # A195231: Number of lower triangles of an n X n 0..7 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
@@ -2517,84 +1900,6 @@ end
 
 end A195244.P2695687474510510670
 
-/-! ## A195244.P7446395720325869707
-
-`A195248(A056000(n)+7)`
--/
-
-namespace A195244.P7446395720325869707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (A056000 n + 7).toNat
-
-end
-
-end A195244.P7446395720325869707
-
-/-! ## A195244.P2118779718830046024
-
-`A195248(eq[3, A193592(n)])`
--/
-
-namespace A195244.P2118779718830046024
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195244.P2118779718830046024
-
-/-! ## A195244.P9090062296159188805
-
-`A195248(eq[4, A140996(n)])`
--/
-
-namespace A195244.P9090062296159188805
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140996 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195244.P9090062296159188805
-
-/-! ## A195244.P3688814087375412256
-
-`A195248(eq[4, A057728(n+1)])`
--/
-
-namespace A195244.P3688814087375412256
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057728 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195244.P3688814087375412256
-
 /-!
 # A195245: Number of lower triangles of an n X n 0..5 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less.
 
@@ -2621,81 +1926,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195245.P10041552291868343759
-
-/-! ## A195245.P6472446576954969595
-
-`A195248(eq[4, A193592(n)])`
--/
-
-namespace A195245.P6472446576954969595
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195245.P6472446576954969595
-
-/-! ## A195245.P6902276024983038100
-
-`A195248(eq[8, A140996(n)])`
--/
-
-namespace A195245.P6902276024983038100
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140996 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A195245.P6902276024983038100
-
-/-! ## A195245.P5926841859904310482
-
-`A195248(Δ[A023545(n+1)])`
--/
-
-namespace A195245.P5926841859904310482
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A195245.P5926841859904310482
-
-/-! ## A195245.P1195797555996670240
-
-`A195248(A141214(n+2)-1)`
--/
-
-namespace A195245.P1195797555996670240
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195248 (A141214 (n + 2) - 1).toNat
-
-end
-
-end A195245.P1195797555996670240
 
 /-!
 # A195247: Number of lower triangles of an n X n 0..7 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less.
@@ -3389,24 +2619,6 @@ end
 
 end A195259.P3183023723647286584
 
-/-! ## A195259.P16560186520435475401
-
-`A008619((∑[A008619(n)]-1)*a(n-1))` with `a(0)=1`
--/
-
-namespace A195259.P16560186520435475401
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 n
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A008619 ((∑ j ∈ Finset.range (n + 1), f1 j - 1) * a (n - 1)).toNat
-
-end
-
-end A195259.P16560186520435475401
-
 /-!
 # A195260: G.f.: A(x) = 1 + Sum_{n>=1} x^n*A(x)^(3^n).
 
@@ -3520,21 +2732,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195262.P14626865829218819536
-
-/-! ## A195262.P12363258152072557394
-
-`A107347(lcm(4, A162326(n)))`
--/
-
-namespace A195262.P12363258152072557394
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107347 (Int.lcm 4 (A162326 n))
-
-end
-
-end A195262.P12363258152072557394
 
 /-!
 # A195264: Iterate x -> A080670(x) (replace x with the concatenation of the primes and exponents in its prime factorization) starting at n until reach 1 or a prime (which is then the value of a(n)); or a(n) = -1 if a prime is never reached.
@@ -3823,36 +3020,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195274.P2930386892804845326
-
-/-! ## A195274.P15096334431506901013
-
-`A195278(A155212(n)+5)`
--/
-
-namespace A195274.P15096334431506901013
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A155212 n + 5).toNat
-
-end
-
-end A195274.P15096334431506901013
-
-/-! ## A195274.P15555449989173990018
-
-`A195278(A052905(n+1)+2)`
--/
-
-namespace A195274.P15555449989173990018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A052905 (n + 1) + 2).toNat
-
-end
-
-end A195274.P15555449989173990018
 
 /-!
 # A195276: Number of lower triangles of an n X n integer array with each element differing from all of its vertical and horizontal neighbors by 6 or less and triangles differing by a constant counted only once.
@@ -4151,66 +3318,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195280.P1297037555304865300
-
-/-! ## A195280.P3803942737745117864
-
-`A195278(A052905(n)+9)`
--/
-
-namespace A195280.P3803942737745117864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A052905 n + 9).toNat
-
-end
-
-end A195280.P3803942737745117864
-
-/-! ## A195280.P14257545076499847905
-
-`A195278(A055999(n)+10)`
--/
-
-namespace A195280.P14257545076499847905
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A055999 n + 10).toNat
-
-end
-
-end A195280.P14257545076499847905
-
-/-! ## A195280.P1326855767840072730
-
-`A195278(A167614(n+2)+1)`
--/
-
-namespace A195280.P1326855767840072730
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A195280.P1326855767840072730
-
-/-! ## A195280.P15299932749789886901
-
-`A195278(A115744(n+1)+4)`
--/
-
-namespace A195280.P15299932749789886901
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195278 (A115744 (n + 1) + 4).toNat
-
-end
-
-end A195280.P15299932749789886901
 
 /-!
 # A195284: Decimal expansion of shortest length of segment from side AB through incenter to side AC in right triangle ABC with sidelengths (a,b,c)=(3,4,5); i.e., decimal expansion of 2*sqrt(10)/3.

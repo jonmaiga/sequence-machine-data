@@ -1,0 +1,20 @@
+{
+  "description": "Preperiod of n under Chowla's function (A048050), or -1 if not eventually periodic.",
+  "id": "A402036",
+  "mentions": [
+    "A000203",
+    "A002954",
+    "A005276",
+    "A048050",
+    "A098008",
+    "A153024"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

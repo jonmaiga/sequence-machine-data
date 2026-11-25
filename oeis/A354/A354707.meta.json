@@ -8,13 +8,11 @@
     "A354706"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 69,
     "source": "oeis-entry"
   }
 }

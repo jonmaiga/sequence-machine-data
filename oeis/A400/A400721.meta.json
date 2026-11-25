@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime factor of 3^n - 2^n.",
+  "id": "A400721",
+  "mentions": [
+    "A001047",
+    "A006530",
+    "A089082",
+    "A398834",
+    "A399911",
+    "A400720"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

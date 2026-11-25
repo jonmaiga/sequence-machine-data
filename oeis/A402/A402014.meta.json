@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of L'(1,chi_5)/L(1,chi_5), where chi_5 is the Dirichlet character kronecker(5,.).",
+  "id": "A402014",
+  "mentions": [
+    "A080891",
+    "A402011"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -4,7 +4,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B003.C003
@@ -14,9 +13,7 @@ import Seq.Opaque.C003
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C015
 import Seq.Opaque.C022
 
 /-!
@@ -39,24 +36,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169400.P4301351498383491133
-
-/-! ## A169400.P7075577627863392301
-
-`Δ[A042950(n)-A195842(A034574(n+2)+1)]`
--/
-
-namespace A169400.P7075577627863392301
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042950 n - A195842 (A034574 (n + 2) + 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A169400.P7075577627863392301
 
 /-! ## A169400.P387085774336844455
 
@@ -226,50 +205,20 @@ end
 
 end A169452.P12171483612517907238
 
-/-! ## A169452.P6951130443178042466
+/-! ## A169452.P4811396397944031054
 
-`A168828(n)+A091393(A180274(n+1))`
+`A168828(n)`
 -/
 
-namespace A169452.P6951130443178042466
+namespace A169452.P4811396397944031054
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168828 n + A091393 (A180274 (n + 1)).toNat
+  A168828 n
 
 end
 
-end A169452.P6951130443178042466
-
-/-! ## A169452.P5875816107545207367
-
-`A168828(n)+A091393(A257781(n+1))`
--/
-
-namespace A169452.P5875816107545207367
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168828 n + A091393 (A257781 (n + 1)).toNat
-
-end
-
-end A169452.P5875816107545207367
-
-/-! ## A169452.P219583308266870766
-
-`A168828(n)+A091393(A257827(n+1))`
--/
-
-namespace A169452.P219583308266870766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168828 n + A091393 (A257827 (n + 1)).toNat
-
-end
-
-end A169452.P219583308266870766
+end A169452.P4811396397944031054
 
 /-! ## A169452.P12192295241496402208
 
@@ -285,6 +234,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169452.P12192295241496402208
+
+/-! ## A169452.P16140561174564691866
+
+`record[A151791(n+1)]`
+-/
+
+namespace A169452.P16140561174564691866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151791 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A169452.P16140561174564691866
+
+/-! ## A169452.P576800358301269827
+
+`A033043(A003945(n))`
+-/
+
+namespace A169452.P576800358301269827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033043 (A003945 n).toNat
+
+end
+
+end A169452.P576800358301269827
 
 /-!
 # A169496: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^34 = I.

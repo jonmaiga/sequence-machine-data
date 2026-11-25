@@ -1,10 +1,15 @@
 {
-  "description": "Smallest k such that k*Mersenne_prime(n)^2 -1 (or k*A000668(n)^2 -1) is prime.",
+  "description": "Smallest k such that k*M(n)^2 - 1 is prime where M(n) = A000668(n).",
   "id": "A098818",
   "mentions": [
-    "A000668"
+    "A000043",
+    "A000668",
+    "A098917",
+    "A098919",
+    "A098920"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

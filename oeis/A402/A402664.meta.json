@@ -1,0 +1,32 @@
+{
+  "description": "Number read at step n when, at each step, the top card of an endless deck of cards, all numbered 1 at the start, is read and put back below the next k cards, where k is the number read, and renumbered c+1 if the card now directly above it shows a number c <= k, or 1 otherwise.",
+  "id": "A402664",
+  "mentions": [
+    "A000110",
+    "A001511",
+    "A005493",
+    "A011971",
+    "A040027",
+    "A045499",
+    "A045500",
+    "A045501",
+    "A073003",
+    "A124496",
+    "A138378",
+    "A155167",
+    "A298804",
+    "A354223",
+    "A357081",
+    "A402125"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

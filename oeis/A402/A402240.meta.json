@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {1..n} that contain the bitwise OR of any two of their elements whenever this OR is <= n.",
+  "id": "A402240",
+  "mentions": [
+    "A102894",
+    "A102896",
+    "A102897",
+    "A326080",
+    "A326875",
+    "A359527",
+    "A402241",
+    "A402242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

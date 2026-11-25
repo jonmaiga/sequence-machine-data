@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least term k in A401339 that produces the primitive quotient A401340(n).",
+  "id": "A401341",
+  "mentions": [
+    "A343550",
+    "A343551",
+    "A401339",
+    "A401340"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

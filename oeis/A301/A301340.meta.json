@@ -1,5 +1,5 @@
 {
-  "description": "Number of irredundant sets in the n-polynomial diagonal intersection graph.",
+  "description": "Number of irredundant sets in the n-polygon diagonal intersection graph.",
   "id": "A301340",
   "mentions": [
     "A292925",

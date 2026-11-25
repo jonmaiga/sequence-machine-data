@@ -1,7 +1,9 @@
 {
   "description": "Number of asymmetric types of Boolean functions of n variables under action of complementing group C(n,2).",
   "id": "A051502",
-  "mentions": [],
+  "mentions": [
+    "A022166"
+  ],
   "tags": [
     "easy",
     "formulas",

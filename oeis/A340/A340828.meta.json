@@ -2,6 +2,7 @@
   "description": "Number of strict integer partitions of n whose maximum part is a multiple of their length.",
   "id": "A340828",
   "mentions": [
+    "A000009",
     "A003114",
     "A006141",
     "A008289",
@@ -43,6 +44,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

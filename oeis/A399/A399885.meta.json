@@ -1,0 +1,22 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes, self-loops disallowed, that are reducible for some election of source-SCC headers.",
+  "id": "A399885",
+  "mentions": [
+    "A000273",
+    "A397965",
+    "A397968",
+    "A398465",
+    "A399554",
+    "A400123",
+    "A401321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

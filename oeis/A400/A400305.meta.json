@@ -1,0 +1,20 @@
+{
+  "description": "Cuban primes p such that p-2 is also prime.",
+  "id": "A400305",
+  "mentions": [
+    "A001359",
+    "A002407",
+    "A003215",
+    "A006512",
+    "A028896"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

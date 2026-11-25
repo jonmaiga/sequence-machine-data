@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimal total dominating sets in the n-gon diagonal intersection graph.",
+  "description": "Number of minimal total dominating sets in the n-polygon diagonal intersection graph.",
   "id": "A347920",
   "mentions": [],
   "tags": [

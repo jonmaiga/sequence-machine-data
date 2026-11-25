@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum number of sums needed to obtain all nonnegative integer pairs (a,b) with a + b = n starting from (1,0) and (0,1).",
+  "id": "A401889",
+  "mentions": [
+    "A383330"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

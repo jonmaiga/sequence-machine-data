@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of (5^n - 1)/4.",
+  "id": "A402187",
+  "mentions": [
+    "A003463",
+    "A398834",
+    "A402188",
+    "A402189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

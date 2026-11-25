@@ -1,0 +1,18 @@
+{
+  "description": "Busy Beaver sequence, or Rado's sigma function for 2-state, n-symbol Turing machines: maximal number of nonzero numbers that can be printed on an initially blank tape before halting.",
+  "id": "A399567",
+  "mentions": [
+    "A028444",
+    "A398770"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

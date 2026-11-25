@@ -1,0 +1,24 @@
+{
+  "description": "Number of unordered factorizations of n into its distinct infinitary divisors.",
+  "id": "A401697",
+  "mentions": [
+    "A000961",
+    "A037445",
+    "A077609",
+    "A118914",
+    "A401695",
+    "A401696",
+    "A401698",
+    "A401699"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

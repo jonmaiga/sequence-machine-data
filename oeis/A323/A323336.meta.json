@@ -1,14 +1,18 @@
 {
   "description": "Number of total dominating sets in the n-Bruhat graph.",
   "id": "A323336",
-  "mentions": [],
+  "mentions": [
+    "A317484",
+    "A323337",
+    "A323517"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

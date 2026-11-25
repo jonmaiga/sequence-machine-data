@@ -15,12 +15,13 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 28,
+    "source": "oeis-entry"
   }
 }

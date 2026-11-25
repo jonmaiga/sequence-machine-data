@@ -2,6 +2,7 @@
   "description": "Number of even-length integer partitions y of n such that y_i = y_{i+1} for all even i.",
   "id": "A351012",
   "mentions": [
+    "A000009",
     "A000070",
     "A018819",
     "A027383",
@@ -21,11 +22,12 @@
     "A351008"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

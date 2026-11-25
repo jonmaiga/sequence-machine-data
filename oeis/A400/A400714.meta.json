@@ -1,0 +1,23 @@
+{
+  "description": "Indices of crossings in A377091 (see A400713 for further information).",
+  "id": "A400714",
+  "mentions": [
+    "A377091",
+    "A379728",
+    "A379790",
+    "A379795",
+    "A379797",
+    "A380337",
+    "A380837",
+    "A400106",
+    "A400713"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

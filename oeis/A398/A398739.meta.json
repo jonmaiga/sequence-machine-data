@@ -1,0 +1,19 @@
+{
+  "description": "Maximum length of a cyclic run of primes in a Schick cycle modulo 2n+1.",
+  "id": "A398739",
+  "mentions": [
+    "A003558",
+    "A135303",
+    "A216319",
+    "A332434",
+    "A334430"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

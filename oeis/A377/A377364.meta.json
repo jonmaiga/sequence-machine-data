@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least k such that 2n*3^k-2 is prime, or 0 if no prime is reached.",
+  "description": "a(n) = least k >= 1 such that 2n*3^k+1 is prime, or 0 if no prime is reached.",
   "id": "A377364",
   "mentions": [
     "A000040",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

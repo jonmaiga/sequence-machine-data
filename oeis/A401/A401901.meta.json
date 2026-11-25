@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the term removed at step n from the front of a queue that is initially 1, 2, 3, ..., where after each removal every remaining term j > 1 is replaced by the pair j, j-1.",
+  "id": "A401901",
+  "mentions": [
+    "A079583",
+    "A090822",
+    "A091409",
+    "A153893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

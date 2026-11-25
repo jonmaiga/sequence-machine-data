@@ -2,7 +2,8 @@
   "description": "Largest value held in any register at the end of a halting computation by an n-instruction register Minsky machine.",
   "id": "A081419",
   "mentions": [
-    "A028444"
+    "A028444",
+    "A401603"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

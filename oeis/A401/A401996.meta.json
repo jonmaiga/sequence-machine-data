@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and sigma(k) have the same number and sum of prime factors counted with multiplicity.",
+  "id": "A401996",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A001414",
+    "A067762"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

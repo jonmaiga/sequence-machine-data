@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the entropy per site of the dimer coverings (perfect matchings) of the king's graph (square lattice with both diagonals), i.e., of domicule tilings.",
+  "id": "A401669",
+  "mentions": [
+    "A004003",
+    "A099390",
+    "A143233",
+    "A220638",
+    "A239264",
+    "A239273",
+    "A247413"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the height h of the highest building which can see exactly h earlier buildings.",
+  "id": "A398764",
+  "mentions": [
+    "A000027",
+    "A400000",
+    "A401167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

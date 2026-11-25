@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k such that 2*(k-n) = sigma(k) - n*tau(k).",
+  "id": "A397899",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A401965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

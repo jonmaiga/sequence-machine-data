@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if gcd(n, A344005(n)) > gcd(n + 1, A344005(n)), otherwise 0, where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
+  "id": "A402589",
+  "mentions": [
+    "A344005",
+    "A345992",
+    "A345995",
+    "A354989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to apply one of four moves (see Comments) to a nonempty Dyck word with a cut, where both sides of the cut have lengths at most n+1 and of the same parity as n+1 before the move and at most n after the move.",
+  "id": "A401694",
+  "mentions": [
+    "A000108",
+    "A000682",
+    "A005316",
+    "A007310",
+    "A014137",
+    "A014140",
+    "A401693"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

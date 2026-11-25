@@ -1,7 +1,10 @@
 {
   "description": "T(n,k) = number of (n+1) X (k+1) 0..2 arrays with equal numbers of 2 X 2 subblocks with sum over 4 and with sum under 4.",
   "id": "A183748",
-  "mentions": [],
+  "mentions": [
+    "A183740",
+    "A183741"
+  ],
   "tags": [
     "nonn",
     "tabl"

@@ -2,6 +2,7 @@
   "description": "Square root of floor(A055812(n) / 5).",
   "id": "A204521",
   "mentions": [
+    "A000045",
     "A001353",
     "A001542",
     "A023110",
@@ -16,12 +17,13 @@
     "A204520"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "joeis"
+    "size": 37,
+    "source": "oeis-entry"
   }
 }

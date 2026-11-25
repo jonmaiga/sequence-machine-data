@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1 - Sum_{n>=1} 2^(-floor(n*log_2(3))).",
+  "id": "A401012",
+  "mentions": [
+    "A020857",
+    "A056576"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

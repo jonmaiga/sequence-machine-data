@@ -1,0 +1,27 @@
+{
+  "description": "Number of domino tilings of a 2n X 2n cylindrical grid.",
+  "id": "A402345",
+  "mentions": [
+    "A004003",
+    "A006253",
+    "A006752",
+    "A028477",
+    "A028479",
+    "A028481",
+    "A028483",
+    "A028485",
+    "A028487",
+    "A143233",
+    "A335586",
+    "A402163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

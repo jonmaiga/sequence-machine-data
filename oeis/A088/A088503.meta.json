@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n^2 + 3)/4 is prime.",
+  "description": "Numbers k such that (k^2 + 3)/4 is prime.",
   "id": "A088503",
   "mentions": [
     "A002383",

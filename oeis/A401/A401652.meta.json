@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1: if a(n-1) is odd, a(n) = a(n-1) + n else a(n) = a(n-1) - 1.",
+  "id": "A401652",
+  "mentions": [
+    "A006370",
+    "A400113",
+    "A400485"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

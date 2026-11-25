@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile an n X n square with rectangles of integer side lengths so that both the widths and the heights weakly decrease from left to right along every row and from bottom to top along every column.",
+  "id": "A402657",
+  "mentions": [
+    "A182275",
+    "A401435",
+    "A402607"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

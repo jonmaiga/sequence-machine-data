@@ -1,0 +1,14 @@
+{
+  "description": "Number of tilings of a strip of length n using squares (length 1) and dominoes (length 2) such that the number of dominoes is a Fibonacci number.",
+  "id": "A401979",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

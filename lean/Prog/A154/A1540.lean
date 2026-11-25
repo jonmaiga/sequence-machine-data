@@ -2,7 +2,6 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -12,7 +11,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C032
@@ -35,7 +33,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -215,20 +213,20 @@ end A154003.P12928010869857179250
 The programs for A154004, there is no canonical definition to state claims against.
 -/
 
-/-! ## A154004.P2264562257207313240
+/-! ## A154004.P8653531580969875626
 
-`A028310(or(A153998(n), A154001(n)))`
+`or(A153998(n), A154001(n))`
 -/
 
-namespace A154004.P2264562257207313240
+namespace A154004.P8653531580969875626
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (Int.lor (A153998 n) (A154001 n)).toNat
+  Int.lor (A153998 n) (A154001 n)
 
 end
 
-end A154004.P2264562257207313240
+end A154004.P8653531580969875626
 
 /-! ## A154004.P15200593505274122393
 
@@ -377,7 +375,7 @@ end A154017.P4373687984575551300
 /-!
 # A154021: a(n+2) = 16*a(n+1) - a(n), with a(1)=0, a(2)=4.
 
-The programs for A154021, the canonical program `A154021.P730330555151222283` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154021 has offset 1).
+The programs for A154021, the canonical program `A154021.P730330555151222283` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154021 has offset 1).
 
 The definition of A154021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -386,7 +384,7 @@ The definition of A154021 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(4x/(1-16x+x^2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A154021
@@ -1166,35 +1164,20 @@ end A154052.P7810406724222357988
 The programs for A154097, there is no canonical definition to state claims against.
 -/
 
-/-! ## A154097.P8695620493256564826
+/-! ## A154097.P1244803798049834041
 
-`A089898(A202906(n+1)%A305416(n+1))`
+`A089898(A202906(n+1))`
 -/
 
-namespace A154097.P8695620493256564826
+namespace A154097.P1244803798049834041
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089898 (Int.tmod (A202906 (n + 1)) (A305416 (n + 1))).toNat
+  A089898 (A202906 (n + 1)).toNat
 
 end
 
-end A154097.P8695620493256564826
-
-/-! ## A154097.P11714748501305066306
-
-`A089898(A202906(n+1))%A153714(n+4)`
--/
-
-namespace A154097.P11714748501305066306
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A089898 (A202906 (n + 1)).toNat) (A153714 (n + 4))
-
-end
-
-end A154097.P11714748501305066306
+end A154097.P1244803798049834041
 
 /-!
 # A154099: Maximal number of primes in intervals of size n containing the n-th prime.
@@ -1261,25 +1244,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A154099.P3491228843362500970
-
-/-! ## A154099.P1850547307420616908
-
-`A054897(lt[A089080(3*(n+1)), A306418(n)])`
--/
-
-namespace A154099.P1850547307420616908
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089080 (3 * (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306418 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054897 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A154099.P1850547307420616908
 

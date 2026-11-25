@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with at least two distinct divisors d|k such that A112622(k/d) = d, where A112622 is multiplicative with a(p^e) = e^e.",
+  "id": "A401916",
+  "mentions": [
+    "A013929",
+    "A112622",
+    "A401723",
+    "A401913",
+    "A401915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

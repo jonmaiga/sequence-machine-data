@@ -1,7 +1,6 @@
 import SequenceMachineLib.Basic
 import Mathlib.Tactic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
@@ -12,10 +11,8 @@ import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
-import Seq.Opaque.C007
-import Seq.Opaque.C009
+import Seq.Opaque.C008
 import Seq.Opaque.C013
-import Seq.Opaque.C019
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1239,29 +1236,6 @@ namespace A019687
 /-- `(A019742(n)+A019682(n))/2` -/
 def P10569153267317019588.Spec : Prop :=
   ∀ n, P10569153267317019588.a n = (A019687 n : ℚ)
-
-end A019687
-
-/-! ## A019687.P16447319711122336820
-
-`(A019742(n)+A019682(n))*2^A321804(A007318(n))`
--/
-
-namespace A019687.P16447319711122336820
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A019742 n + A019682 n : ℚ) * (2 : ℚ) ^ (A321804 (A007318 n).toNat : ℤ)
-
-end
-
-end A019687.P16447319711122336820
-
-namespace A019687
-
-/-- `(A019742(n)+A019682(n))*2^A321804(A007318(n))` -/
-def P16447319711122336820.Spec : Prop :=
-  ∀ n, P16447319711122336820.a n = (A019687 n : ℚ)
 
 end A019687
 

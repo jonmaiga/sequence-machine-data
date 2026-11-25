@@ -1,0 +1,32 @@
+{
+  "description": "Primes p for which pi_{8,5}(p) - pi_{8,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A401958",
+  "mentions": [
+    "A295354",
+    "A297355",
+    "A297357",
+    "A297448",
+    "A398234",
+    "A398235",
+    "A398236",
+    "A398377",
+    "A399143",
+    "A399174",
+    "A401243",
+    "A401244",
+    "A401245",
+    "A402193",
+    "A402194",
+    "A402195",
+    "A402196",
+    "A402197"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

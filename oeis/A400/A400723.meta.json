@@ -1,0 +1,20 @@
+{
+  "description": "Least prime factor of (4^n - 1)/3.",
+  "id": "A400723",
+  "mentions": [
+    "A002450",
+    "A020639",
+    "A089082",
+    "A398834",
+    "A400722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

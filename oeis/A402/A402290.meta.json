@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A377091 that end a block of terms of the same sign.",
+  "id": "A402290",
+  "mentions": [
+    "A377091",
+    "A379791",
+    "A379794",
+    "A400714",
+    "A402291"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of fixed points under iteration of the function: 1+sum of squares of base n digits.",
+  "id": "A401461",
+  "mentions": [
+    "A193583",
+    "A193585",
+    "A193586",
+    "A401457",
+    "A401458",
+    "A401459",
+    "A401460",
+    "A401462"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 88,
+    "source": "joeis"
+  }
+}

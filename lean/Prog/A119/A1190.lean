@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -49,8 +48,8 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
@@ -69,16 +68,14 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -357,21 +354,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119004.P11693574806893727988
-
-/-! ## A119004.P1392476113483235117
-
-`A128718(A000081(n+2))`
--/
-
-namespace A119004.P1392476113483235117
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A128718 (A000081 (n + 2)).toNat
-
-end
-
-end A119004.P1392476113483235117
 
 /-!
 # A119005: Number of n X n real symmetric (+1,-1)-matrices having maximal determinant (=A119003(n)).
@@ -764,20 +746,20 @@ end A119012
 The programs for A119013, there is no canonical definition to state claims against.
 -/
 
-/-! ## A119013.P15353533708668693239
+/-! ## A119013.P16545090283708194522
 
-`A028310(A052770(n)+A000262(n))`
+`A052770(n)+A000262(n)`
 -/
 
-namespace A119013.P15353533708668693239
+namespace A119013.P16545090283708194522
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A052770 n + A000262 n).toNat
+  A052770 n + A000262 n
 
 end
 
-end A119013.P15353533708668693239
+end A119013.P16545090283708194522
 
 /-! ## A119013.P1428245288034029618
 
@@ -1046,29 +1028,6 @@ def P4379134619763205000.Spec : Prop :=
 
 end A119016
 
-/-! ## A119016.P7888581491385088754
-
-`A227972(A047269(n+2))`
--/
-
-namespace A119016.P7888581491385088754
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227972 (A047269 (n + 2)).toNat
-
-end
-
-end A119016.P7888581491385088754
-
-namespace A119016
-
-/-- `A227972(A047269(n+2))` -/
-def P7888581491385088754.Spec : Prop :=
-  ∀ n, P7888581491385088754.a n = A119016 n
-
-end A119016
-
 /-! ## A119016.P18220382126058720074
 
 `A002965(n+2)-A002965(n)`
@@ -1161,35 +1120,6 @@ namespace A119016
 /-- `A228405(A165157(n+1))` -/
 def P7257684393021333827.Spec : Prop :=
   ∀ n, P7257684393021333827.a n = A119016 n
-
-end A119016
-
-/-! ## A119016.P15824453261209250405
-
-`A228405(∑[∑[A001057(n)]+1])`
--/
-
-namespace A119016.P15824453261209250405
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001057 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228405 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A119016.P15824453261209250405
-
-namespace A119016
-
-/-- `A228405(∑[∑[A001057(n)]+1])` -/
-def P15824453261209250405.Spec : Prop :=
-  ∀ n, P15824453261209250405.a n = A119016 n
 
 end A119016
 
@@ -1396,21 +1326,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A119022.P13190973209917668361
-
-/-! ## A119022.P1327934101153156179
-
-`A000108(n)*A119020(n)`
--/
-
-namespace A119022.P1327934101153156179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000108 n * A119020 n
-
-end
-
-end A119022.P1327934101153156179
 
 /-! ## A119022.P1485685726998341887
 
@@ -2614,27 +2529,6 @@ end
 
 end A119033.P2567956794281684474
 
-/-! ## A119033.P7070769144703559655
-
-`A000217(record[A119034(gcd(xor(1, n²), ∑[n]))])`
--/
-
-namespace A119033.P7070769144703559655
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119034 (Nat.gcd (Nat.xor 1 (n ^ 2)) (∑ j ∈ Finset.range (n + 1), f2 j))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A119033.P7070769144703559655
-
 /-! ## A119033.P18399153496125653937
 
 `∩[n²-C(n, 2), A007089(n+1)]`
@@ -2678,6 +2572,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119033.P7430143385547441219
+
+/-! ## A119033.P2691669126131992810
+
+`∩[A007089(n), A324600(n+1)]`
+-/
+
+namespace A119033.P2691669126131992810
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007089 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324600 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A119033.P2691669126131992810
 
 /-!
 # A119034: Numbers k such that the k-th triangular number contains only digits {0,1,2}.
@@ -2732,36 +2648,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119034.P9611341054501920625
-
-/-! ## A119034.P4177198614892615878
-
-`round(sqrt(2*A119033(n+1)))%A001579(n)`
--/
-
-namespace A119034.P4177198614892615878
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119033 (n + 1) : ℝ))) (A001579 n)
-
-end
-
-end A119034.P4177198614892615878
-
-/-! ## A119034.P5868016758075539038
-
-`round(A000007(n+1)+sqrt(2*A119033(n+1)))`
--/
-
-namespace A119034.P5868016758075539038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A000007 (n + 1) : ℝ) + Real.sqrt (2 * A119033 (n + 1) : ℝ))
-
-end
-
-end A119034.P5868016758075539038
 
 /-!
 # A119035: Triangular numbers composed of digits {0,1,3}.
@@ -2865,35 +2751,27 @@ end
 
 end A119036.P9114294130423911930
 
-/-! ## A119036.P8427720799547894630
+/-! ## A119036.P17245734399005674031
 
-`ceil(sqrt(2*A119035(n+1))-A161618(n+1))`
+`∩[A095114(n+1), A352148(n+1)]`
 -/
 
-namespace A119036.P8427720799547894630
+namespace A119036.P17245734399005674031
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (2 * A119035 (n + 1) : ℝ) - (A161618 (n + 1) : ℝ)⌉
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095114 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352148 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A119036.P8427720799547894630
-
-/-! ## A119036.P4411040060645172384
-
-`ceil(A033999(2*n+1)+sqrt(2*A119035(n+1)))`
--/
-
-namespace A119036.P4411040060645172384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A033999 (2 * n + 1) : ℝ) + Real.sqrt (2 * A119035 (n + 1) : ℝ)⌉
-
-end
-
-end A119036.P4411040060645172384
+end A119036.P17245734399005674031
 
 /-!
 # A119037: Triangular numbers composed of digits {0,1,4}.
@@ -3084,51 +2962,6 @@ end
 
 end A119040.P5007537079972370739
 
-/-! ## A119040.P5142475021579496160
-
-`round(A056594(2*n)²*sqrt(2*A119039(n+1)))`
--/
-
-namespace A119040.P5142475021579496160
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A056594 (2 * n) ^ 2 : ℝ) * Real.sqrt (2 * A119039 (n + 1) : ℝ))
-
-end
-
-end A119040.P5142475021579496160
-
-/-! ## A119040.P16420411725457835608
-
-`round(A008683(8*(n+1))+sqrt(2*A119039(n+1)))`
--/
-
-namespace A119040.P16420411725457835608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A008683 (8 * (n + 1)) : ℝ) + Real.sqrt (2 * A119039 (n + 1) : ℝ))
-
-end
-
-end A119040.P16420411725457835608
-
-/-! ## A119040.P3408087126391138671
-
-`round(sqrt(2*A119039(n+1))*A011558(5*n+2))`
--/
-
-namespace A119040.P3408087126391138671
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (2 * A119039 (n + 1) : ℝ) * (A011558 (5 * n + 2) : ℝ))
-
-end
-
-end A119040.P3408087126391138671
-
 /-!
 # A119041: Triangular numbers composed of digits {0,1,6}.
 
@@ -3231,21 +3064,6 @@ end
 
 end A119042.P3763527662197349870
 
-/-! ## A119042.P7629019603825836016
-
-`round(sqrt(2*A119041(n+1)))%A184024(n+1)`
--/
-
-namespace A119042.P7629019603825836016
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119041 (n + 1) : ℝ))) (A184024 (n + 1))
-
-end
-
-end A119042.P7629019603825836016
-
 /-! ## A119042.P4883237430119387703
 
 `A294317(A119041(n+1)-1)+1`
@@ -3317,21 +3135,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119044.P10080204880970659822
-
-/-! ## A119044.P15067467339230153804
-
-`A384047(A119043(n+1))+A326446(n)`
--/
-
-namespace A119044.P15067467339230153804
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384047 (A119043 (n + 1)).toNat + A326446 n
-
-end
-
-end A119044.P15067467339230153804
 
 /-!
 # A119045: Triangular numbers composed of digits {0,1,8}.
@@ -3442,51 +3245,6 @@ end
 
 end A119046.P16066914439759922220
 
-/-! ## A119046.P7790654765551683329
-
-`ceil(sqrt(2*A119045(n+1))-A033999(n)²)`
--/
-
-namespace A119046.P7790654765551683329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (2 * A119045 (n + 1) : ℝ) - (A033999 n ^ 2 : ℝ)⌉
-
-end
-
-end A119046.P7790654765551683329
-
-/-! ## A119046.P16691346354710165915
-
-`round(sqrt(2*A119045(n+1))*A057813(n)%2)`
--/
-
-namespace A119046.P16691346354710165915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (2 * A119045 (n + 1) : ℝ) * (Int.tmod (A057813 n) 2 : ℝ))
-
-end
-
-end A119046.P16691346354710165915
-
-/-! ## A119046.P9868275396910589273
-
-`round(sqrt(2*A119045(n+1)))%A332850(n+1)`
--/
-
-namespace A119046.P9868275396910589273
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119045 (n + 1) : ℝ))) (A332850 (n + 1))
-
-end
-
-end A119046.P9868275396910589273
-
 /-!
 # A119047: Triangular numbers composed of digits {0,1,9}.
 
@@ -3522,31 +3280,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119047.P5694177570715617431
-
-/-! ## A119047.P10127714568564593793
-
-`A000217(record[A119048(C(comp[∑[n]]-n, 2)-n)])`
--/
-
-namespace A119047.P10127714568564593793
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f3 j
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119048 (Nat.choose ((SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n : ℤ) - (n : ℤ)).toNat 2 - n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A119047.P10127714568564593793
 
 /-! ## A119047.P3907261582422090704
 
@@ -3599,65 +3332,20 @@ end
 
 end A119048.P803570863006553093
 
-/-! ## A119048.P16460832107862705780
+/-! ## A119048.P15610677778484357581
 
-`round(sqrt(2*A119047(n+1)))%A010903(n)`
+`A080098(A119047(n+1))`
 -/
 
-namespace A119048.P16460832107862705780
+namespace A119048.P15610677778484357581
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119047 (n + 1) : ℝ))) (A010903 n)
+  A080098 (A119047 (n + 1)).toNat
 
 end
 
-end A119048.P16460832107862705780
-
-/-! ## A119048.P16900410647371244345
-
-`round(A000007(n+1)+sqrt(2*A119047(n+1)))`
--/
-
-namespace A119048.P16900410647371244345
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A000007 (n + 1) : ℝ) + Real.sqrt (2 * A119047 (n + 1) : ℝ))
-
-end
-
-end A119048.P16900410647371244345
-
-/-! ## A119048.P10277868449310154879
-
-`round(A000035(2*n)+sqrt(2*A119047(n+1)))`
--/
-
-namespace A119048.P10277868449310154879
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A000035 (2 * n) : ℝ) + Real.sqrt (2 * A119047 (n + 1) : ℝ))
-
-end
-
-end A119048.P10277868449310154879
-
-/-! ## A119048.P13963905087201667408
-
-`ceil(sqrt(2*A119047(n+1))-A050603(4*n))`
--/
-
-namespace A119048.P13963905087201667408
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (2 * A119047 (n + 1) : ℝ) - (A050603 (4 * n) : ℝ)⌉
-
-end
-
-end A119048.P13963905087201667408
+end A119048.P15610677778484357581
 
 /-!
 # A119049: Triangular numbers composed of digits {0,2,3}.
@@ -3787,51 +3475,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119052.P14382076242588211345
-
-/-! ## A119052.P2437965284264726081
-
-`round(A011741(n)+sqrt(2*A119051(n+1)))`
--/
-
-namespace A119052.P2437965284264726081
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A011741 n : ℝ) + Real.sqrt (2 * A119051 (n + 1) : ℝ))
-
-end
-
-end A119052.P2437965284264726081
-
-/-! ## A119052.P17124333882831970463
-
-`round(A025439(n)+sqrt(2*A119051(n+1)))`
--/
-
-namespace A119052.P17124333882831970463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A025439 n : ℝ) + Real.sqrt (2 * A119051 (n + 1) : ℝ))
-
-end
-
-end A119052.P17124333882831970463
-
-/-! ## A119052.P4292898454230544560
-
-`round(A326291(n+1)+sqrt(2*A119051(n+1)))`
--/
-
-namespace A119052.P4292898454230544560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A326291 (n + 1) : ℝ) + Real.sqrt (2 * A119051 (n + 1) : ℝ))
-
-end
-
-end A119052.P4292898454230544560
 
 /-!
 # A119053: Triangular numbers composed of digits {0,2,6}.
@@ -4112,21 +3755,6 @@ end
 
 end A119063.P17752195813226191309
 
-/-! ## A119063.P17899223877600700646
-
-`(A119064(n+1)+A119064(n+1)²)/A296076(n+1)`
--/
-
-namespace A119063.P17899223877600700646
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A119064 (n + 1) + A119064 (n + 1) ^ 2 : ℚ) / (A296076 (n + 1) : ℚ)
-
-end
-
-end A119063.P17899223877600700646
-
 /-! ## A119063.P448111863111055876
 
 `A161680(A119064(n+1)+1)`
@@ -4157,6 +3785,28 @@ end
 
 end A119063.P11784788381478301485
 
+/-! ## A119063.P14462640450650123193
+
+`∩[A062100(n+1), A133869(n+1)]`
+-/
+
+namespace A119063.P14462640450650123193
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062100 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A119063.P14462640450650123193
+
 /-!
 # A119064: Numbers k such that the k-th triangular number contains only digits {0,3,6}.
 
@@ -4178,21 +3828,6 @@ end
 
 end A119064.P1316935243008890131
 
-/-! ## A119064.P6990737037565459523
-
-`round(sqrt(2*A119063(n+1)))%A251802(n+1)`
--/
-
-namespace A119064.P6990737037565459523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119063 (n + 1) : ℝ))) (A251802 (n + 1))
-
-end
-
-end A119064.P6990737037565459523
-
 /-! ## A119064.P8306229424413577100
 
 `A080098(A119063(n+1)+A011741(n))`
@@ -4207,36 +3842,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119064.P8306229424413577100
-
-/-! ## A119064.P12966926345835621149
-
-`A080098(A119063(n+1)+A025439(n))`
--/
-
-namespace A119064.P12966926345835621149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080098 (A119063 (n + 1) + A025439 n).toNat
-
-end
-
-end A119064.P12966926345835621149
-
-/-! ## A119064.P6130238959110902537
-
-`A080098(A119063(n+1)+col(A000217(n)))`
--/
-
-namespace A119064.P6130238959110902537
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080098 (A119063 (n + 1) + (SequenceMachineLib.triCol (A000217 n).toNat : ℤ)).toNat
-
-end
-
-end A119064.P6130238959110902537
 
 /-!
 # A119065: Triangular numbers composed of digits {0,3,7}.
@@ -4438,66 +4043,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119070.P10399291828669553008
-
-/-! ## A119070.P16079534760395211403
-
-`round(A025439(n)+sqrt(2*A119069(n+1)))`
--/
-
-namespace A119070.P16079534760395211403
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A025439 n : ℝ) + Real.sqrt (2 * A119069 (n + 1) : ℝ))
-
-end
-
-end A119070.P16079534760395211403
-
-/-! ## A119070.P15202229564445253440
-
-`round(A185245(n)+sqrt(2*A119069(n+1)))`
--/
-
-namespace A119070.P15202229564445253440
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A185245 n : ℝ) + Real.sqrt (2 * A119069 (n + 1) : ℝ))
-
-end
-
-end A119070.P15202229564445253440
-
-/-! ## A119070.P5233125518626404228
-
-`round(sqrt(2*A119069(n+1))*A057979(2*n))`
--/
-
-namespace A119070.P5233125518626404228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (2 * A119069 (n + 1) : ℝ) * (A057979 (2 * n) : ℝ))
-
-end
-
-end A119070.P5233125518626404228
-
-/-! ## A119070.P14178388369443008615
-
-`round(sqrt(2*A119069(n+1)))+A046092(n)%2`
--/
-
-namespace A119070.P14178388369443008615
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (2 * A119069 (n + 1) : ℝ)) + Int.tmod (A046092 n) 2
-
-end
-
-end A119070.P14178388369443008615
 
 /-!
 # A119071: Triangular numbers composed of digits {0,4,5}.
@@ -5365,51 +4910,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119098.P10758130236634938186
-
-/-! ## A119098.P1552446123596325266
-
-`round(sqrt(2*A119097(n+1)))%A000747(n)`
--/
-
-namespace A119098.P1552446123596325266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (2 * A119097 (n + 1) : ℝ))) (A000747 n)
-
-end
-
-end A119098.P1552446123596325266
-
-/-! ## A119098.P2585560983972598362
-
-`A000027(round(sqrt(2*A119097(n+1))))`
--/
-
-namespace A119098.P2585560983972598362
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (SequenceMachineLib.roundAway (Real.sqrt (2 * A119097 (n + 1) : ℝ))).toNat
-
-end
-
-end A119098.P2585560983972598362
-
-/-! ## A119098.P14042244665152405372
-
-`A028310(round(sqrt(2*A119097(n+1))))`
--/
-
-namespace A119098.P14042244665152405372
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (SequenceMachineLib.roundAway (Real.sqrt (2 * A119097 (n + 1) : ℝ))).toNat
-
-end
-
-end A119098.P14042244665152405372
 
 /-!
 # A119099: Triangular numbers composed of digits {1,2,4}.

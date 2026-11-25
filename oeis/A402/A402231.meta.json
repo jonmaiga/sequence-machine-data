@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed non-backtracking walks of length n starting and ending at a fixed vertex of the face-centered cubic lattice.",
+  "id": "A402231",
+  "mentions": [
+    "A002895",
+    "A002899",
+    "A293237",
+    "A400949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

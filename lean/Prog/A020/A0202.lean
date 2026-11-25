@@ -13,6 +13,7 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B008.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -20,6 +21,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -32,7 +34,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A020201: Pseudoprimes to base 73.
@@ -899,45 +900,6 @@ end
 
 end A020242.P12016281019808706875
 
-/-! ## A020242.P1760056420681898503
-
-`A020136(A078213(∑[val(n+1, 2)%2+1]))`
--/
-
-namespace A020242.P1760056420681898503
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (n + 1) 2 % 2 + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020136 (A078213 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A020242.P1760056420681898503
-
-/-! ## A020242.P11027289882133294922
-
-`A020136(lt[A077608(n+3), A368276(n+1)])`
--/
-
-namespace A020242.P11027289882133294922
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077608 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368276 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020136 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A020242.P11027289882133294922
-
 /-!
 # A020245: Strong pseudoprimes to base 19.
 
@@ -1175,42 +1137,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020275.P12252132259783353619
-
-/-! ## A020275.P5720412693474193081
-
-`A262054(lt[A000079(n), A173681(3*n)])`
--/
-
-namespace A020275.P5720412693474193081
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173681 (3 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262054 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A020275.P5720412693474193081
-
-/-! ## A020275.P14488239138559891592
-
-`A262054(A070124(n+1)%(A139071(3*n+5)+1))`
--/
-
-namespace A020275.P14488239138559891592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262054 (Int.tmod (A070124 (n + 1)) (A139071 (3 * n + 5) + 1)).toNat
-
-end
-
-end A020275.P14488239138559891592
 
 /-!
 # A020283: Strong pseudoprimes to base 57.

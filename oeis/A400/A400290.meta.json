@@ -1,0 +1,16 @@
+{
+  "description": "Least index x*b+y for which the base-b digits of prime(x*b+y) are the reversal of the base-b digits of prime(y*b+x), 0 < x < y < b = A400289(n).",
+  "id": "A400290",
+  "mentions": [
+    "A400289"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

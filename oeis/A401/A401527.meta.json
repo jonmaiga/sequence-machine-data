@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of liminf_{N->oo} log(N)*(P(N) - log_10(2)), where P(N) is the probability that a random integer k in 1..N, chosen with probability proportional to 1/k, has leading decimal digit 1.",
+  "id": "A401527",
+  "mentions": [
+    "A001620",
+    "A007524",
+    "A401525",
+    "A401526"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

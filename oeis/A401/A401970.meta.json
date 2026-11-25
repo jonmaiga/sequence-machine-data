@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator(b(n)), where b(n) = (-1)^m * 2*m * (2^(2*m) - 1)*zeta(1 - 2*m) / (2^n - 1), for n >= 2, and m = floor(n/2). b(0) = 1, b(1) = 1/2.",
+  "id": "A401970",
+  "mentions": [
+    "A000225",
+    "A002445",
+    "A110501",
+    "A198631",
+    "A401969"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

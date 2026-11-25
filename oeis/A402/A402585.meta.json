@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(k, A344005(k)) > gcd(k, 1+A344005(k)), where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
+  "id": "A402585",
+  "mentions": [
+    "A344005",
+    "A345992",
+    "A345993",
+    "A345995",
+    "A354988",
+    "A354989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

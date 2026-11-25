@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of ways that n can be written as x + y, where x >= y, and x * y is in A025487.",
+  "id": "A398765",
+  "mentions": [
+    "A025487",
+    "A077569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

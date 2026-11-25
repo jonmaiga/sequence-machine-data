@@ -1,0 +1,21 @@
+{
+  "description": "Greatest prime factor of 4^n - 3^n.",
+  "id": "A400727",
+  "mentions": [
+    "A005061",
+    "A006530",
+    "A089082",
+    "A398834",
+    "A400722",
+    "A400726"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

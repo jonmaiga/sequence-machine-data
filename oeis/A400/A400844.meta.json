@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k of the form prime(i)*prime(i+1)^m, m > 1.",
+  "id": "A400844",
+  "mentions": [
+    "A000720",
+    "A006094",
+    "A006530",
+    "A126706",
+    "A200511",
+    "A238690",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

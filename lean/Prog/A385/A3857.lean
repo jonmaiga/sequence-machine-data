@@ -25,12 +25,11 @@ import Seq.B000.C032
 import Seq.B000.C037
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C009
@@ -47,6 +46,7 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C004
@@ -70,6 +70,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -77,7 +78,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -134,27 +134,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A385700.P17227578367694060715
-
-/-! ## A385700.P12943128250991962224
-
-`eq[A056594(A082216(n)), A361338(n)]`
--/
-
-namespace A385700.P12943128250991962224
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056594 (A082216 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361338 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A385700.P12943128250991962224
 
 /-! ## A385700.P14805697949547922771
 
@@ -1215,29 +1194,6 @@ def P3485595889204514316.Spec : Prop :=
 
 end A385726
 
-/-! ## A385726.P3055955698887524792
-
-`abs(A000244(n)-A385689(n))`
--/
-
-namespace A385726.P3055955698887524792
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A000244 n - A385689 n|
-
-end
-
-end A385726.P3055955698887524792
-
-namespace A385726
-
-/-- `abs(A000244(n)-A385689(n))` -/
-def P3055955698887524792.Spec : Prop :=
-  ∀ n, P3055955698887524792.a n = A385726 n
-
-end A385726
-
 /-!
 # A385728: Expansion of 1/((1-2*x) * (1-6*x))^(3/2).
 
@@ -2029,21 +1985,6 @@ end
 
 end A385733.P7157561493570867565
 
-/-! ## A385733.P1426248063829732314
-
-`gcd(A026741(A087062(n+1)), A344615(n))`
--/
-
-namespace A385733.P1426248063829732314
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A026741 (A087062 (n + 1)).toNat) (A344615 n)
-
-end
-
-end A385733.P1426248063829732314
-
 /-! ## A385733.P8118254752783810746
 
 `gcd(A399130(A138015(n+1)), A400134(2*(n+2)))`
@@ -2073,6 +2014,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385733.P4589685039981936550
+
+/-! ## A385733.P11706701010465558871
+
+`A050332(A141691(n))`
+-/
+
+namespace A385733.P11706701010465558871
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050332 (A141691 n).toNat
+
+end
+
+end A385733.P11706701010465558871
 
 /-!
 # A385734: Lucas triangle A385732/A385733 mod 2.
@@ -2349,21 +2305,6 @@ def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A385744.P436540816541249752
-
-/-! ## A385744.P13618683794419037503
-
-`1+a(A384247(n+1)-1)` with `a(0)=0`
--/
-
-namespace A385744.P13618683794419037503
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  1 + a (A384247 (n + 1) - 1).toNat
-
-end
-
-end A385744.P13618683794419037503
 
 /-!
 # A385745: The sum of the iterated infinitary analog of the totient function A384247 when started at n.

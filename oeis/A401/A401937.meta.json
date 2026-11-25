@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of ratio 2*n*sigma(A003961(2*n)) / sigma(2*n)*A003961(2*n), where sigma is the sum of divisors of n, and A003961 shifts the prime factorization of n one step towards larger primes.",
+  "id": "A401937",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A341527",
+    "A341627",
+    "A401936",
+    "A402587"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

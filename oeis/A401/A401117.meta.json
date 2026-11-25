@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of an n X n square by isosceles right triangles with vertices at lattice points, each side of each triangle being parallel to a side or a diagonal of the square.",
+  "id": "A401117",
+  "mentions": [
+    "A045846",
+    "A400997",
+    "A402162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

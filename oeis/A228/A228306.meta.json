@@ -2,6 +2,7 @@
   "description": "The Wiener index of the Kneser graph K(n,2) (n>=5).",
   "id": "A228306",
   "mentions": [
+    "A005582",
     "A228307"
   ],
   "tags": [

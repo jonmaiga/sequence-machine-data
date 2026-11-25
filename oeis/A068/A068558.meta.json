@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the smallest solution >0 to cos(x)=cos(x^2).",
+  "description": "Decimal expansion of the smallest solution > 0 to cos(x) = cos(x^2).",
   "id": "A068558",
   "mentions": [],
   "tags": [

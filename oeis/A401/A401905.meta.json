@@ -1,0 +1,22 @@
+{
+  "description": "Least m >= 0 such that k/2^n is a fusible number for every k >= m.",
+  "id": "A401905",
+  "mentions": [
+    "A027556",
+    "A188545",
+    "A283075",
+    "A287012",
+    "A343264",
+    "A383922",
+    "A400927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

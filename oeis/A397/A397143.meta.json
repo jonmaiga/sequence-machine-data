@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k times its decimal digit reversal contains all ten distinct decimal digits.",
+  "id": "A397143",
+  "mentions": [
+    "A004086",
+    "A043537",
+    "A061205",
+    "A178929",
+    "A401895"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

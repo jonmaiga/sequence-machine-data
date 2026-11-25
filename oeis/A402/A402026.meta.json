@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of L'(1,chi_{-23})/L(1,chi_{-23}) negated, where chi_{-23} is the Dirichlet character kronecker(-23,.).",
+  "id": "A402026",
+  "mentions": [
+    "A011586",
+    "A402011"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

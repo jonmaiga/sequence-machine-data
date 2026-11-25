@@ -1,0 +1,18 @@
+{
+  "description": "Side lengths of squares formed by constructing three right triangles corresponding to distinct Pythagorean triples on the sides of a triangle excluding configurations that are integer multiples of previously obtained configurations.",
+  "id": "A401818",
+  "mentions": [
+    "A009000",
+    "A046083",
+    "A046084",
+    "A400178"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

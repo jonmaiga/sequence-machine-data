@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C011
@@ -11,17 +10,16 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C049
-import Seq.B000.C050
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
@@ -29,7 +27,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -49,10 +46,10 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,7 +60,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -72,6 +68,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -293,80 +290,35 @@ end A395808.P866994146616837015
 The programs for A395811, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395811.P9129477417373507904
+/-! ## A395811.P12984581339361169269
 
-`A063962(A126960(n+1)%2+n)+1`
+`1+A063962(n+1)`
 -/
 
-namespace A395811.P9129477417373507904
+namespace A395811.P12984581339361169269
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063962 (Int.tmod (A126960 (n + 1)) 2 + (n : ℤ)).toNat + 1
+  1 + A063962 (n + 1)
 
 end
 
-end A395811.P9129477417373507904
+end A395811.P12984581339361169269
 
-/-! ## A395811.P8624581137138903028
+/-! ## A395811.P9667007046744576233
 
-`A063962(n+1)+A057427(A098859(n))`
+`A083399(A396079(n+1))`
 -/
 
-namespace A395811.P8624581137138903028
+namespace A395811.P9667007046744576233
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063962 (n + 1) + A057427 (A098859 n).toNat
+  A083399 (A396079 (n + 1)).toNat
 
 end
 
-end A395811.P8624581137138903028
-
-/-! ## A395811.P17995552504330782500
-
-`A097325(A185212(n))+A063962(n+1)`
--/
-
-namespace A395811.P17995552504330782500
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097325 (A185212 n).toNat + A063962 (n + 1)
-
-end
-
-end A395811.P17995552504330782500
-
-/-! ## A395811.P677463672066569691
-
-`A063962(n+1)+A001221(A095103(n+1))`
--/
-
-namespace A395811.P677463672066569691
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063962 (n + 1) + A001221 (A095103 (n + 1)).toNat
-
-end
-
-end A395811.P677463672066569691
-
-/-! ## A395811.P3296978595197307483
-
-`A063962(n+1)+A057427(A208932(n+1))`
--/
-
-namespace A395811.P3296978595197307483
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063962 (n + 1) + A057427 (A208932 (n + 1)).toNat
-
-end
-
-end A395811.P3296978595197307483
+end A395811.P9667007046744576233
 
 /-!
 # A395812: Positions of records in A001822.
@@ -941,65 +893,65 @@ end
 
 end A395820.P12725444465317764913
 
-/-! ## A395820.P9374554150122106345
+/-! ## A395820.P9487229671028823185
 
-`A083312(A062509(n+1))`
+`A383972(A115017((n+1)²)²)`
 -/
 
-namespace A395820.P9374554150122106345
+namespace A395820.P9487229671028823185
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083312 (A062509 (n + 1)).toNat
+  A383972 (A115017 ((n + 1) ^ 2) ^ 2).toNat
 
 end
 
-end A395820.P9374554150122106345
+end A395820.P9487229671028823185
 
-/-! ## A395820.P15264162348517488166
+/-! ## A395820.P2941583861911013684
 
-`A083312(A078599(n+1))`
+`A083312(A129196(n))`
 -/
 
-namespace A395820.P15264162348517488166
+namespace A395820.P2941583861911013684
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083312 (A078599 (n + 1)).toNat
+  A083312 (A129196 n).toNat
 
 end
 
-end A395820.P15264162348517488166
+end A395820.P2941583861911013684
 
-/-! ## A395820.P13290589460516804377
+/-! ## A395820.P2517988513351842644
 
-`A083312(A133900(n+1))`
+`A083312((n+1)^3)`
 -/
 
-namespace A395820.P13290589460516804377
+namespace A395820.P2517988513351842644
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083312 (A133900 (n + 1)).toNat
+  A083312 ((n + 1) ^ 3)
 
 end
 
-end A395820.P13290589460516804377
+end A395820.P2517988513351842644
 
-/-! ## A395820.P7497265546091422852
+/-! ## A395820.P17010661282985026716
 
-`A083312(A144872(n+1))`
+`A133829((n+1)^3)-1`
 -/
 
-namespace A395820.P7497265546091422852
+namespace A395820.P17010661282985026716
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083312 (A144872 (n + 1)).toNat
+  A133829 ((n + 1) ^ 3) - 1
 
 end
 
-end A395820.P7497265546091422852
+end A395820.P17010661282985026716
 
 /-!
 # A395822: Degree of the minimal polynomial whose root is the square of the sidelength of the largest n-cube that fits inside a unit (n+1)-cube.
@@ -2215,80 +2167,20 @@ end A395851.P18143945037541811162
 The programs for A395852, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395852.P819613487864988668
+/-! ## A395852.P14315805787899571533
 
-`A068095(n+1)%A002764(n)`
+`A068095(n+1)`
 -/
 
-namespace A395852.P819613487864988668
+namespace A395852.P14315805787899571533
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A068095 (n + 1)) (A002764 n)
+  A068095 (n + 1)
 
 end
 
-end A395852.P819613487864988668
-
-/-! ## A395852.P1374048361765123121
-
-`and(A068095(n+1), A359082(n+1))`
--/
-
-namespace A395852.P1374048361765123121
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A068095 (n + 1)) (A359082 (n + 1))
-
-end
-
-end A395852.P1374048361765123121
-
-/-! ## A395852.P12917040508469167346
-
-`A068095(n+1)+A000007(A329469(n+1))`
--/
-
-namespace A395852.P12917040508469167346
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068095 (n + 1) + A000007 (A329469 (n + 1)).toNat
-
-end
-
-end A395852.P12917040508469167346
-
-/-! ## A395852.P4168641327400805168
-
-`and(A068095(n+1), A117060(n+1))`
--/
-
-namespace A395852.P4168641327400805168
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A068095 (n + 1)) (A117060 (n + 1))
-
-end
-
-end A395852.P4168641327400805168
-
-/-! ## A395852.P8481040432578097143
-
-`and(A068095(n+1), A145038(n+1))`
--/
-
-namespace A395852.P8481040432578097143
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A068095 (n + 1)) (A145038 (n + 1))
-
-end
-
-end A395852.P8481040432578097143
+end A395852.P14315805787899571533
 
 /-!
 # A395853: Numbers that can be written as the sum of a Fibonacci number and the square of a Fibonacci number.
@@ -2470,35 +2362,35 @@ end
 
 end A395862.P5138571107107662126
 
-/-! ## A395862.P6218490315515849769
+/-! ## A395862.P6171471865912060609
 
-`A385816(A136630(n)*A136630(n))`
+`A109375(A111594(n))`
 -/
 
-namespace A395862.P6218490315515849769
+namespace A395862.P6171471865912060609
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385816 (A136630 n * A136630 n).toNat
+  A109375 (A111594 n).toNat
 
 end
 
-end A395862.P6218490315515849769
+end A395862.P6171471865912060609
 
-/-! ## A395862.P6991798884457822296
+/-! ## A395862.P6771523453932984276
 
-`A025428((A136630(n)+A136630(n))²)`
+`A096995(A272774(n))`
 -/
 
-namespace A395862.P6991798884457822296
+namespace A395862.P6771523453932984276
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025428 ((A136630 n + A136630 n) ^ 2).toNat
+  A096995 (A272774 n).toNat
 
 end
 
-end A395862.P6991798884457822296
+end A395862.P6771523453932984276
 
 /-!
 # A395864: Number of not-necessarily-reduced pipe dreams that represent the identity permutation.
@@ -2557,89 +2449,41 @@ end
 
 end A395867.P5628621103620388219
 
-/-! ## A395867.P5341898355976750458
-
-`A197460(n^A062329(2*(n+2)))`
--/
-
-namespace A395867.P5341898355976750458
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197460 (SequenceMachineLib.roundAway ((n : ℚ) ^ (A062329 (2 * (n + 2)) : ℤ))).toNat
-
-end
-
-end A395867.P5341898355976750458
-
-/-! ## A395867.P10508454806949717917
-
-`A197460(n*a(A341097(n)-1))` with `a(0)=1, a(1)=1, a(2)=1`
--/
-
-namespace A395867.P10508454806949717917
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1] fun n a =>
-  A197460 ((n : ℤ) * a (A341097 (n + 58) - 1).toNat).toNat
-
-end
-
-end A395867.P10508454806949717917
-
-/-! ## A395867.P16392155513654630734
-
-`A197460(n*a(A181842(n+1)-1))` with `a(0)=1, a(1)=1, a(2)=1`
--/
-
-namespace A395867.P16392155513654630734
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1] fun n a =>
-  A197460 ((n : ℤ) * a (A181842 (n + 1) - 1).toNat).toNat
-
-end
-
-end A395867.P16392155513654630734
-
 /-!
 # A395868: Number of oriented polyominoes in the {3,8} tessellation of the hyperbolic plane.
 
 The programs for A395868, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395868.P6994400721702763517
+/-! ## A395868.P2877403038371972895
 
-`A001683(A054760(∑[n]))`
+`A001683(n+3)`
 -/
 
-namespace A395868.P6994400721702763517
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001683 (A054760 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A395868.P6994400721702763517
-
-/-! ## A395868.P16567216271371345492
-
-`A001683(n+3)%(A394862(2*n)+1)`
--/
-
-namespace A395868.P16567216271371345492
+namespace A395868.P2877403038371972895
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A001683 (n + 3)) (A394862 (2 * n) + 1)
+  A001683 (n + 3)
 
 end
 
-end A395868.P16567216271371345492
+end A395868.P2877403038371972895
+
+/-! ## A395868.P8012692881769621828
+
+`A401843(A339830(n+1))`
+-/
+
+namespace A395868.P8012692881769621828
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A401843 (A339830 (n + 1)).toNat
+
+end
+
+end A395868.P8012692881769621828
 
 /-! ## A395868.P9455496307472372641
 
@@ -2658,21 +2502,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395868.P9455496307472372641
-
-/-! ## A395868.P5840085798541259861
-
-`A001683(A290544(n)+A122427(n+2))`
--/
-
-namespace A395868.P5840085798541259861
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001683 (A290544 n + A122427 (n + 2)).toNat
-
-end
-
-end A395868.P5840085798541259861
 
 /-!
 # A395869: Number of oriented polyominoes in the {4,5} tessellation of the hyperbolic plane.
@@ -2824,20 +2653,20 @@ end
 
 end A395871.P7033225995604255910
 
-/-! ## A395871.P1507256781965210921
+/-! ## A395871.P17199536172604249410
 
-`A005034(A037442(n+1))`
+`A157271(A046650(n+3))`
 -/
 
-namespace A395871.P1507256781965210921
+namespace A395871.P17199536172604249410
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005034 (A037442 (n + 1)).toNat
+  A157271 (A046650 (n + 3)).toNat
 
 end
 
-end A395871.P1507256781965210921
+end A395871.P17199536172604249410
 
 /-!
 # A395872: Number of oriented polyominoes in the {4,8} tessellation of the hyperbolic plane.
@@ -2845,65 +2674,35 @@ end A395871.P1507256781965210921
 The programs for A395872, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395872.P12259315531751827076
+/-! ## A395872.P13425106006730613856
 
-`A004151(A005034(n+1))`
+`A005034(1+n)`
 -/
 
-namespace A395872.P12259315531751827076
+namespace A395872.P13425106006730613856
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004151 (A005034 (n + 1)).toNat
+  A005034 (1 + n)
 
 end
 
-end A395872.P12259315531751827076
+end A395872.P13425106006730613856
 
-/-! ## A395872.P17533790394732038639
+/-! ## A395872.P3935412030500663098
 
-`A028310(A005034(1+n))`
+`A004525(A046650(n+3))`
 -/
 
-namespace A395872.P17533790394732038639
+namespace A395872.P3935412030500663098
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A005034 (1 + n)).toNat
+  A004525 (A046650 (n + 3)).toNat
 
 end
 
-end A395872.P17533790394732038639
-
-/-! ## A395872.P6855308970328725279
-
-`A005034(A037336(n+1))`
--/
-
-namespace A395872.P6855308970328725279
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005034 (A037336 (n + 1)).toNat
-
-end
-
-end A395872.P6855308970328725279
-
-/-! ## A395872.P7285344861056261378
-
-`A005034(A037443(n+1))`
--/
-
-namespace A395872.P7285344861056261378
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005034 (A037443 (n + 1)).toNat
-
-end
-
-end A395872.P7285344861056261378
+end A395872.P3935412030500663098
 
 /-!
 # A395873: Number of oriented polyominoes in the {5,4} tessellation of the hyperbolic plane.
@@ -3232,62 +3031,20 @@ end A395886.P13466438822176951265
 The programs for A395887, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395887.P2608300479116779227
+/-! ## A395887.P12084472167685493971
 
-`A389561(C(lt[∑{e}[n, n^#], (2*n)²], n))`
+`A389561(n+1)`
 -/
 
-namespace A395887.P2608300479116779227
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f2 n), n ^ Nat.factorization (f2 n) p
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (Nat.choose (SequenceMachineLib.nth (fun j => f1 j < f3 j) n) n)
-
-end
-
-end A395887.P2608300479116779227
-
-/-! ## A395887.P14328501255594144563
-
-`A389561((n+1)^((n+1)/∏{p}[n+1, gcd(n+1, #²)]))`
--/
-
-namespace A395887.P14328501255594144563
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (SequenceMachineLib.roundAway ((n + 1 : ℝ) ^ ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), Nat.gcd (n + 1) (p ^ 2) : ℕ) : ℚ) : ℝ))).toNat
-
-end
-
-end A395887.P14328501255594144563
-
-/-! ## A395887.P11499252634687204829
-
-`A052410(A389561(n+1))`
--/
-
-namespace A395887.P11499252634687204829
+namespace A395887.P12084472167685493971
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052410 (A389561 (n + 1)).toNat
+  A389561 (n + 1)
 
 end
 
-end A395887.P11499252634687204829
+end A395887.P12084472167685493971
 
 /-!
 # A395888: Number of oriented polyominoes in the {7,8} tessellation of the hyperbolic plane.
@@ -3312,57 +3069,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395888.P17366500678548588688
-
-/-! ## A395888.P10274782610953031736
-
-`A389561(A000005(5^n))`
--/
-
-namespace A395888.P10274782610953031736
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (A000005 (5 ^ n)).toNat
-
-end
-
-end A395888.P10274782610953031736
-
-/-! ## A395888.P18293008134531343988
-
-`A389561(A290830(n)+n)`
--/
-
-namespace A395888.P18293008134531343988
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (A290830 n + (n : ℤ)).toNat
-
-end
-
-end A395888.P18293008134531343988
-
-/-! ## A395888.P17911507651398788769
-
-`A389561(∑[∑[A015165(n)]])`
--/
-
-namespace A395888.P17911507651398788769
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015165 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A395888.P17911507651398788769
 
 /-!
 # A395889: Number of oriented polyominoes in the {8,3} tessellation of the hyperbolic plane.
@@ -3463,24 +3169,20 @@ end
 
 end A395892.P10644110131133670805
 
-/-! ## A395892.P3982508931390746627
+/-! ## A395892.P16112135022736481140
 
-`A394862((char[6]+1)²*(n+1))`
+`A389936(A369929(A143554(n))+n)`
 -/
 
-namespace A395892.P3982508931390746627
+namespace A395892.P16112135022736481140
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394862 (((if ∃ j, f1 j = n then 1 else 0) + 1) ^ 2 * (n + 1))
+  A389936 (A369929 (A143554 n).toNat + (n : ℤ)).toNat
 
 end
 
-end A395892.P3982508931390746627
+end A395892.P16112135022736481140
 
 /-!
 # A395893: Number of oriented polyominoes in the {8,7} tessellation of the hyperbolic plane.
@@ -3529,21 +3231,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395893.P9448005214721262795
-
-/-! ## A395893.P3935743856997128915
-
-`A389936(A024641(n)+1)`
--/
-
-namespace A395893.P3935743856997128915
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389936 (A024641 n + 1).toNat
-
-end
-
-end A395893.P3935743856997128915
 
 /-!
 # A395894: Number of oriented polyominoes in the {9,3} tessellation of the hyperbolic plane.

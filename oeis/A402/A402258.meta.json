@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of A037445(k)/A034444(k), the ratio between the number of infinitary divisors and the number of unitary divisors over the positive integers.",
+  "id": "A402258",
+  "mentions": [
+    "A034444",
+    "A037445",
+    "A138302",
+    "A307869",
+    "A382291",
+    "A382293",
+    "A383057",
+    "A383058",
+    "A402259"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -5,7 +5,6 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -29,9 +28,7 @@ import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C045
+import Seq.B000.C041
 import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
@@ -41,42 +38,36 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C004
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
-import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -99,21 +90,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223200.P18313997412532716817
-
-/-! ## A223200.P1744309541263755156
-
-`A223202(A052905(n+3))`
--/
-
-namespace A223200.P1744309541263755156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223202 (A052905 (n + 3)).toNat
-
-end
-
-end A223200.P1744309541263755156
 
 /-!
 # A223201: Rolling cube footprints: number of nX7 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or vertical neighbor moves across a corresponding cube edge.
@@ -187,35 +163,20 @@ end
 
 end A223202.P10039543327705874653
 
-/-! ## A223202.P8377534775892938078
+/-! ## A223202.P17346155779776248642
 
-`A333787(A223263(n+1))`
+`A003962(A185567(n+1))`
 -/
 
-namespace A223202.P8377534775892938078
+namespace A223202.P17346155779776248642
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333787 (A223263 (n + 1)).toNat
+  A003962 (A185567 (n + 1)).toNat
 
 end
 
-end A223202.P8377534775892938078
-
-/-! ## A223202.P8457057599020475384
-
-`A003958(4*A223263(n+1))`
--/
-
-namespace A223202.P8457057599020475384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003958 (4 * A223263 (n + 1)).toNat
-
-end
-
-end A223202.P8457057599020475384
+end A223202.P17346155779776248642
 
 /-!
 # A223203: Rolling icosahedron face footprints: number of n X n 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
@@ -241,21 +202,6 @@ end
 
 end A223203.P6167960597259608511
 
-/-! ## A223203.P8800174319774245739
-
-`or(1, A223209(A001844(n)))`
--/
-
-namespace A223203.P8800174319774245739
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A223209 (A001844 n).toNat)
-
-end
-
-end A223203.P8800174319774245739
-
 /-! ## A223203.P8756238978699402624
 
 `record[gcd(A003987(n), A223209(n+1))]`
@@ -273,36 +219,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A223203.P8756238978699402624
-
-/-! ## A223203.P8374665627136120919
-
-`A223209(A001844(n))+A185284(n)`
--/
-
-namespace A223203.P8374665627136120919
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A001844 n).toNat + A185284 n
-
-end
-
-end A223203.P8374665627136120919
-
-/-! ## A223203.P8285998279542442245
-
-`gcd(A000038(n), A223209(A001844(n)))`
--/
-
-namespace A223203.P8285998279542442245
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000038 n) (A223209 (A001844 n).toNat)
-
-end
-
-end A223203.P8285998279542442245
 
 /-!
 # A223204: Rolling icosahedron face footprints: number of n X 3 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
@@ -380,52 +296,6 @@ def P1391446250843059572.Spec : Prop :=
 
 end A223204
 
-/-! ## A223204.P9306810604277432304
-
-`lcm(3, A223209(A167614(n+1)))`
--/
-
-namespace A223204.P9306810604277432304
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 3 (A223209 (A167614 (n + 1)).toNat)
-
-end
-
-end A223204.P9306810604277432304
-
-namespace A223204
-
-/-- `lcm(3, A223209(A167614(n+1)))` -/
-def P9306810604277432304.Spec : Prop :=
-  ∀ n, (P9306810604277432304.a n : ℤ) = A223204 (n + 1)
-
-end A223204
-
-/-! ## A223204.P3770796315998154658
-
-`or(A000007(n), A223209(A167614(n+1)))`
--/
-
-namespace A223204.P3770796315998154658
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A223209 (A167614 (n + 1)).toNat)
-
-end
-
-end A223204.P3770796315998154658
-
-namespace A223204
-
-/-- `or(A000007(n), A223209(A167614(n+1)))` -/
-def P3770796315998154658.Spec : Prop :=
-  ∀ n, P3770796315998154658.a n = A223204 (n + 1)
-
-end A223204
-
 /-!
 # A223205: Rolling icosahedron face footprints: number of n X 4 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
 
@@ -447,65 +317,20 @@ end
 
 end A223205.P15586132011368017368
 
-/-! ## A223205.P16135066646345764950
+/-! ## A223205.P3092811611439183362
 
-`A223209(A141214(n)+7)`
+`A223209(A141214(n+1))`
 -/
 
-namespace A223205.P16135066646345764950
+namespace A223205.P3092811611439183362
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A141214 n + 7).toNat
+  A223209 (A141214 (n + 1)).toNat
 
 end
 
-end A223205.P16135066646345764950
-
-/-! ## A223205.P13795379792521309587
-
-`A223209(A052905(n)+9)`
--/
-
-namespace A223205.P13795379792521309587
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A052905 n + 9).toNat
-
-end
-
-end A223205.P13795379792521309587
-
-/-! ## A223205.P12432941107174113596
-
-`A223209(A055999(n)+10)`
--/
-
-namespace A223205.P12432941107174113596
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A055999 n + 10).toNat
-
-end
-
-end A223205.P12432941107174113596
-
-/-! ## A223205.P7583621638579974065
-
-`A223209(A167614(n+2)+1)`
--/
-
-namespace A223205.P7583621638579974065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223205.P7583621638579974065
+end A223205.P3092811611439183362
 
 /-!
 # A223206: Rolling icosahedron face footprints: number of nX5 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
@@ -528,78 +353,6 @@ end
 
 end A223206.P8384980042358176699
 
-/-! ## A223206.P8919249486165720909
-
-`A223209(A167499(n+3))`
--/
-
-namespace A223206.P8919249486165720909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A167499 (n + 3)).toNat
-
-end
-
-end A223206.P8919249486165720909
-
-/-! ## A223206.P4052851118696368962
-
-`A223209(A046691(n+3))`
--/
-
-namespace A223206.P4052851118696368962
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A046691 (n + 3)).toNat
-
-end
-
-end A223206.P4052851118696368962
-
-/-! ## A223206.P15536777374355455847
-
-`A223209(eq[4, A193592(n)])`
--/
-
-namespace A223206.P15536777374355455847
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223206.P15536777374355455847
-
-/-! ## A223206.P18148799615294411856
-
-`A223209(eq[8, A140996(n)])`
--/
-
-namespace A223206.P18148799615294411856
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140996 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223206.P18148799615294411856
-
 /-!
 # A223207: Rolling icosahedron face footprints: number of nX6 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
 
@@ -620,78 +373,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223207.P14033832271662506641
-
-/-! ## A223207.P9418491885892410949
-
-`A223209(A167499(n+4)+1)`
--/
-
-namespace A223207.P9418491885892410949
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A167499 (n + 4) + 1).toNat
-
-end
-
-end A223207.P9418491885892410949
-
-/-! ## A223207.P9129502409683400506
-
-`A223209(eq[7, A131818(n+1)])`
--/
-
-namespace A223207.P9129502409683400506
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223207.P9129502409683400506
-
-/-! ## A223207.P18088262345398134058
-
-`A223209(A056119(n)+16)`
--/
-
-namespace A223207.P18088262345398134058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A056119 n + 16).toNat
-
-end
-
-end A223207.P18088262345398134058
-
-/-! ## A223207.P6367111280555717011
-
-`A223209(eq[3, A219347(n)])`
--/
-
-namespace A223207.P6367111280555717011
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223207.P6367111280555717011
 
 /-!
 # A223208: Rolling icosahedron face footprints: number of nX7 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
@@ -714,89 +395,26 @@ end
 
 end A223208.P14757919296392022067
 
-/-! ## A223208.P10840118080005077914
-
-`A223209(eq[8, A131818(n+1)])`
--/
-
-namespace A223208.P10840118080005077914
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223208.P10840118080005077914
-
-/-! ## A223208.P1774257503644490194
-
-`A223209(A055999(n+4))`
--/
-
-namespace A223208.P1774257503644490194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (A055999 (n + 4)).toNat
-
-end
-
-end A223208.P1774257503644490194
-
-/-! ## A223208.P8640530249250915517
-
-`A223209(eq[4, A219347(n)])`
--/
-
-namespace A223208.P8640530249250915517
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223208.P8640530249250915517
-
-/-! ## A223208.P16413926988971002934
-
-`A223209(eq[6, A193592(n)])`
--/
-
-namespace A223208.P16413926988971002934
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223209 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223208.P16413926988971002934
-
 /-!
 # A223209: T(n,k)=Rolling icosahedron face footprints: number of nXk 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal or vertical neighbor moves across an icosahedral edge.
 
 The programs for A223209, there is no canonical definition to state claims against.
 -/
+
+/-! ## A223209.P14257602005169359336
+
+`A003961(A208314(n+1))`
+-/
+
+namespace A223209.P14257602005169359336
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003961 (A208314 (n + 1)).toNat
+
+end
+
+end A223209.P14257602005169359336
 
 /-! ## A223209.P3861914553300070647
 
@@ -828,50 +446,35 @@ end
 
 end A223209.P3388831992268137508
 
-/-! ## A223209.P799138138135128950
+/-! ## A223209.P9656395274532257216
 
-`A318509(lcm(4, A223263(n+1)))`
+`A166586(A222281(n+1))`
 -/
 
-namespace A223209.P799138138135128950
+namespace A223209.P9656395274532257216
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318509 (Int.lcm 4 (A223263 (n + 1)))
+  A166586 (A222281 (n + 1)).toNat
 
 end
 
-end A223209.P799138138135128950
+end A223209.P9656395274532257216
 
-/-! ## A223209.P2986602411321672170
+/-! ## A223209.P5497057132709681682
 
-`A003961(A208314(n+1))%A273599(n+2)`
+`A371221(A231137(n+1))`
 -/
 
-namespace A223209.P2986602411321672170
+namespace A223209.P5497057132709681682
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A003961 (A208314 (n + 1)).toNat) (A273599 (n + 2))
+  A371221 (A231137 (n + 1)).toNat
 
 end
 
-end A223209.P2986602411321672170
-
-/-! ## A223209.P6807697765196747231
-
-`A003961(A208314(n+1)%A118033(3*n+4))`
--/
-
-namespace A223209.P6807697765196747231
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003961 (Int.tmod (A208314 (n + 1)) (A118033 (3 * n + 4))).toNat
-
-end
-
-end A223209.P6807697765196747231
+end A223209.P5497057132709681682
 
 /-!
 # A223210: 3X3X3 triangular graph coloring a rectangular array: number of n X n 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -894,21 +497,6 @@ end
 
 end A223210.P12611449903242708338
 
-/-! ## A223210.P182893959875115937
-
-`lcm(2, A223218(A001844(n)))`
--/
-
-namespace A223210.P182893959875115937
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223218 (A001844 n).toNat)
-
-end
-
-end A223210.P182893959875115937
-
 /-! ## A223210.P9069256954743608798
 
 `record[gcd(A114327(n), A223218(n+1))]`
@@ -926,21 +514,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A223210.P9069256954743608798
-
-/-! ## A223210.P16176552866309829180
-
-`A223218(A001844(n))*A296077(n+1)`
--/
-
-namespace A223210.P16176552866309829180
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A001844 n).toNat * A296077 (n + 1)
-
-end
-
-end A223210.P16176552866309829180
 
 /-!
 # A223211: 3 X 3 X 3 triangular graph coloring a rectangular array: number of n X 1 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -1682,66 +1255,6 @@ end
 
 end A223213.P3410981125175526077
 
-/-! ## A223213.P10066910444506396685
-
-`lcm(2, A223218(A167614(n+1)))`
--/
-
-namespace A223213.P10066910444506396685
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223218 (A167614 (n + 1)).toNat)
-
-end
-
-end A223213.P10066910444506396685
-
-/-! ## A223213.P9458711171908657703
-
-`A223218(A167614(n+1))+A025469(n)`
--/
-
-namespace A223213.P9458711171908657703
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A167614 (n + 1)).toNat + A025469 n
-
-end
-
-end A223213.P9458711171908657703
-
-/-! ## A223213.P1183642476692265803
-
-`gcd(A137579(n), A223218(A167614(n+1)))`
--/
-
-namespace A223213.P1183642476692265803
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A137579 n) (A223218 (A167614 (n + 1)).toNat)
-
-end
-
-end A223213.P1183642476692265803
-
-/-! ## A223213.P3218520102173263661
-
-`A223218(A167614(n+1))%A223214(n+1)`
--/
-
-namespace A223213.P3218520102173263661
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223218 (A167614 (n + 1)).toNat) (A223214 (n + 1))
-
-end
-
-end A223213.P3218520102173263661
-
 /-!
 # A223214: 3X3X3 triangular graph coloring a rectangular array: number of nX4 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -1763,65 +1276,20 @@ end
 
 end A223214.P6688742217021238347
 
-/-! ## A223214.P1146823830964300659
+/-! ## A223214.P3849294060681476462
 
-`A223218(A141214(n)+7)`
+`A223218(A141214(n+1))`
 -/
 
-namespace A223214.P1146823830964300659
+namespace A223214.P3849294060681476462
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A141214 n + 7).toNat
+  A223218 (A141214 (n + 1)).toNat
 
 end
 
-end A223214.P1146823830964300659
-
-/-! ## A223214.P9613673765749913865
-
-`A223218(A052905(n)+9)`
--/
-
-namespace A223214.P9613673765749913865
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A052905 n + 9).toNat
-
-end
-
-end A223214.P9613673765749913865
-
-/-! ## A223214.P17935961453561277475
-
-`A223218(A055999(n)+10)`
--/
-
-namespace A223214.P17935961453561277475
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A055999 n + 10).toNat
-
-end
-
-end A223214.P17935961453561277475
-
-/-! ## A223214.P14421309541695108464
-
-`A223218(A167614(n+2)+1)`
--/
-
-namespace A223214.P14421309541695108464
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223214.P14421309541695108464
+end A223214.P3849294060681476462
 
 /-!
 # A223215: 3X3X3 triangular graph coloring a rectangular array: number of nX5 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -1844,66 +1312,6 @@ end
 
 end A223215.P16222315795889164386
 
-/-! ## A223215.P4716505125947042952
-
-`A223218(A167499(n+3))`
--/
-
-namespace A223215.P4716505125947042952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A167499 (n + 3)).toNat
-
-end
-
-end A223215.P4716505125947042952
-
-/-! ## A223215.P7828629795113729205
-
-`A223218(A155212(n)+13)`
--/
-
-namespace A223215.P7828629795113729205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A155212 n + 13).toNat
-
-end
-
-end A223215.P7828629795113729205
-
-/-! ## A223215.P8490283818762669255
-
-`A223218(A056000(n)+15)`
--/
-
-namespace A223215.P8490283818762669255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A056000 n + 15).toNat
-
-end
-
-end A223215.P8490283818762669255
-
-/-! ## A223215.P13562607206122644109
-
-`A223218(A046691(n+3))`
--/
-
-namespace A223215.P13562607206122644109
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A046691 (n + 3)).toNat
-
-end
-
-end A223215.P13562607206122644109
-
 /-!
 # A223216: 3X3X3 triangular graph coloring a rectangular array: number of nX6 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -1925,78 +1333,6 @@ end
 
 end A223216.P6958506983697071947
 
-/-! ## A223216.P1582692436199395169
-
-`A223218(A141214(n+2)+9)`
--/
-
-namespace A223216.P1582692436199395169
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A141214 (n + 2) + 9).toNat
-
-end
-
-end A223216.P1582692436199395169
-
-/-! ## A223216.P688538853818054719
-
-`A223218(A056119(n)+16)`
--/
-
-namespace A223216.P688538853818054719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (A056119 n + 16).toNat
-
-end
-
-end A223216.P688538853818054719
-
-/-! ## A223216.P16097636199038531626
-
-`A223218(eq[3, A219347(n)])`
--/
-
-namespace A223216.P16097636199038531626
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223216.P16097636199038531626
-
-/-! ## A223216.P5854126254788675578
-
-`A223218(eq[5, A193592(n)])`
--/
-
-namespace A223216.P5854126254788675578
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223216.P5854126254788675578
-
 /-!
 # A223217: 3X3X3 triangular graph coloring a rectangular array: number of nX7 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -2017,69 +1353,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223217.P8578558439599193519
-
-/-! ## A223217.P7698707508032538188
-
-`A223218(eq[4, A219347(n)])`
--/
-
-namespace A223217.P7698707508032538188
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223217.P7698707508032538188
-
-/-! ## A223217.P1274449396317357340
-
-`A223218(eq[6, A193592(n)])`
--/
-
-namespace A223217.P1274449396317357340
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223217.P1274449396317357340
-
-/-! ## A223217.P11995676668531568657
-
-`A223218(eq[10, A185782(n+1)])`
--/
-
-namespace A223217.P11995676668531568657
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185782 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223218 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223217.P11995676668531568657
 
 /-!
 # A223218: T(n,k)=3X3X3 triangular graph coloring a rectangular array: number of nXk 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -2125,21 +1398,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223219.P4070086660600953879
-
-/-! ## A223219.P11157160777440341163
-
-`lcm(2, A223227(A001844(n)))`
--/
-
-namespace A223219.P11157160777440341163
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223227 (A001844 n).toNat)
-
-end
-
-end A223219.P11157160777440341163
 
 /-! ## A223219.P1898700736646267268
 
@@ -2201,80 +1459,23 @@ end
 
 end A223220.P14550309782856487579
 
-/-! ## A223220.P79422670979159664
+/-! ## A223220.P8910036976464731158
 
-`root(A223221(n+1), 2%A017233(n))`
+`A223227(∑[n]+1)`
 -/
 
-namespace A223220.P79422670979159664
+namespace A223220.P8910036976464731158
 noncomputable section
 
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A223221 (n + 1) : ℝ) ^ (1 / (Int.tmod 2 (A017233 n) : ℝ))
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223227 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
 
 end
 
-end A223220.P79422670979159664
-
-/-! ## A223220.P8322687872262066929
-
-`root(A223221(n+1), gcd(2, A001105(n)))`
--/
-
-namespace A223220.P8322687872262066929
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A223221 (n + 1) : ℝ) ^ (1 / (Int.gcd 2 (A001105 n) : ℝ))
-
-end
-
-end A223220.P8322687872262066929
-
-/-! ## A223220.P8915691345569134169
-
-`root(A223221(n+1), A020639(2*(n+2)))`
--/
-
-namespace A223220.P8915691345569134169
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A223221 (n + 1) : ℝ) ^ (1 / (A020639 (2 * (n + 2)) : ℝ))
-
-end
-
-end A223220.P8915691345569134169
-
-/-! ## A223220.P18095574474778166577
-
-`root(A223221(n+1), A302537(3*n+4)%3)`
--/
-
-namespace A223220.P18095574474778166577
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A223221 (n + 1) : ℝ) ^ (1 / (Int.tmod (A302537 (3 * n + 4)) 3 : ℝ))
-
-end
-
-end A223220.P18095574474778166577
-
-/-! ## A223220.P8026150569123290005
-
-`root(A223221(n+1), A001316(A001316(n)))`
--/
-
-namespace A223220.P8026150569123290005
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A223221 (n + 1) : ℝ) ^ (1 / (A001316 (A001316 n).toNat : ℝ))
-
-end
-
-end A223220.P8026150569123290005
+end A223220.P8910036976464731158
 
 /-!
 # A223221: Number of nX2 0..1 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
@@ -2357,81 +1558,6 @@ end
 
 end A223221.P10393583458375933338
 
-/-! ## A223221.P15714460136605466690
-
-`A223220(n+1)*A223220(n+1)*A211422(n)%2`
--/
-
-namespace A223221.P15714460136605466690
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223220 (n + 1) * A223220 (n + 1) * Int.tmod (A211422 n) 2
-
-end
-
-end A223221.P15714460136605466690
-
-/-! ## A223221.P4558267614097531873
-
-`(A000007(n+4)+1)*A223220(n+1)*A223220(n+1)`
--/
-
-namespace A223221.P4558267614097531873
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A000007 (n + 4) + 1) * A223220 (n + 1) * A223220 (n + 1)
-
-end
-
-end A223221.P4558267614097531873
-
-/-! ## A223221.P7236623083851755001
-
-`(A223220(n+1)*A223220(n+1))%(A223403(n+1)+1)`
--/
-
-namespace A223221.P7236623083851755001
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223220 (n + 1) * A223220 (n + 1)) (A223403 (n + 1) + 1)
-
-end
-
-end A223221.P7236623083851755001
-
-/-! ## A223221.P5469090634369656116
-
-`A223220(n+1)*A223220(n+1)*A020639(2*n+1)%2`
--/
-
-namespace A223221.P5469090634369656116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223220 (n + 1) * A223220 (n + 1) * Int.tmod (A020639 (2 * n + 1)) 2
-
-end
-
-end A223221.P5469090634369656116
-
-/-! ## A223221.P2427059018158901980
-
-`A047996(A000925(n))*A223220(n+1)*A223220(n+1)`
--/
-
-namespace A223221.P2427059018158901980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047996 (A000925 n).toNat * A223220 (n + 1) * A223220 (n + 1)
-
-end
-
-end A223221.P2427059018158901980
-
 /-!
 # A223222: Number of nX3 0..1 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
 
@@ -2455,69 +1581,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223222.P3633214122994565126
-
-/-! ## A223222.P7230498067233546274
-
-`lcm(2^∑{e}[n+1, #-1], A223227(A167614(n+1)))`
--/
-
-namespace A223222.P7230498067233546274
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (SequenceMachineLib.roundAway ((2 : ℚ) ^ (∑ p ∈ Nat.primeFactors (f1 n), ((Nat.factorization (f1 n) p : ℤ) - 1) : ℤ))) (A223227 (A167614 (n + 1)).toNat)
-
-end
-
-end A223222.P7230498067233546274
-
-/-! ## A223222.P14018393653990011955
-
-`A223227(A167614(n+1))+A011737(n)`
--/
-
-namespace A223222.P14018393653990011955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A167614 (n + 1)).toNat + A011737 n
-
-end
-
-end A223222.P14018393653990011955
-
-/-! ## A223222.P9177884717629106298
-
-`A223227(A167614(n+1))+A011741(n)`
--/
-
-namespace A223222.P9177884717629106298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A167614 (n + 1)).toNat + A011741 n
-
-end
-
-end A223222.P9177884717629106298
-
-/-! ## A223222.P16372833082241546940
-
-`A223227(A167614(n+1))+A025439(n)`
--/
-
-namespace A223222.P16372833082241546940
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A167614 (n + 1)).toNat + A025439 n
-
-end
-
-end A223222.P16372833082241546940
 
 /-!
 # A223223: Number of nX4 0..1 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
@@ -2564,71 +1627,20 @@ end
 
 end A223224.P10047818123210109941
 
-/-! ## A223224.P702536845180988579
+/-! ## A223224.P8991382928242294288
 
-`A223227(A155212(n)+13)`
+`A223227(A374005(n+1))`
 -/
 
-namespace A223224.P702536845180988579
+namespace A223224.P8991382928242294288
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A155212 n + 13).toNat
+  A223227 (A374005 (n + 1)).toNat
 
 end
 
-end A223224.P702536845180988579
-
-/-! ## A223224.P4300256355798544161
-
-`A223227(A056000(n)+15)`
--/
-
-namespace A223224.P4300256355798544161
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A056000 n + 15).toNat
-
-end
-
-end A223224.P4300256355798544161
-
-/-! ## A223224.P6629025607443501220
-
-`A223227(eq[7, A066657(n)])`
--/
-
-namespace A223224.P6629025607443501220
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223224.P6629025607443501220
-
-/-! ## A223224.P7460561183876438617
-
-`A223227(A166136(n+3)-1)`
--/
-
-namespace A223224.P7460561183876438617
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A166136 (n + 3) - 1).toNat
-
-end
-
-end A223224.P7460561183876438617
+end A223224.P8991382928242294288
 
 /-!
 # A223225: Number of nX6 0..1 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
@@ -2651,71 +1663,20 @@ end
 
 end A223225.P16405819786690946939
 
-/-! ## A223225.P1298471300835654213
+/-! ## A223225.P12325192194052536120
 
-`A223227(A167614(n+4)+3)`
+`A223227(A374007(n+1))`
 -/
 
-namespace A223225.P1298471300835654213
+namespace A223225.P12325192194052536120
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A167614 (n + 4) + 3).toNat
+  A223227 (A374007 (n + 1)).toNat
 
 end
 
-end A223225.P1298471300835654213
-
-/-! ## A223225.P221619572581823280
-
-`A223227(A000096(n+4)+7)`
--/
-
-namespace A223225.P221619572581823280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A000096 (n + 4) + 7).toNat
-
-end
-
-end A223225.P221619572581823280
-
-/-! ## A223225.P8596081714508475704
-
-`A223227(A000217(n+5)+6)`
--/
-
-namespace A223225.P8596081714508475704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A223225.P8596081714508475704
-
-/-! ## A223225.P6558774390401197329
-
-`A223227(eq[7, A131818(n+1)])`
--/
-
-namespace A223225.P6558774390401197329
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223225.P6558774390401197329
+end A223225.P12325192194052536120
 
 /-!
 # A223226: Number of nX7 0..1 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative.
@@ -2737,63 +1698,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223226.P2773827043602341172
-
-/-! ## A223226.P8097842691970887779
-
-`A223227(A302537(n)+27)`
--/
-
-namespace A223226.P8097842691970887779
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (A302537 n + 27).toNat
-
-end
-
-end A223226.P8097842691970887779
-
-/-! ## A223226.P10027264280987877041
-
-`A223227(eq[11, A066657(n)])`
--/
-
-namespace A223226.P10027264280987877041
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223226.P10027264280987877041
-
-/-! ## A223226.P5593828748610466451
-
-`A223227(eq[8, A131818(n+1)])`
--/
-
-namespace A223226.P5593828748610466451
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223227 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223226.P5593828748610466451
 
 /-! ## A223226.P12313697086929861318
 
@@ -2864,21 +1768,6 @@ end
 
 end A223228.P14783686628324071254
 
-/-! ## A223228.P5391230921571658724
-
-`A294929(n+1)+A223233(A034856(n+2))`
--/
-
-namespace A223228.P5391230921571658724
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294929 (n + 1) + A223233 (A034856 (n + 2)).toNat
-
-end
-
-end A223228.P5391230921571658724
-
 /-!
 # A223229: Rolling icosahedron footprints: number of n X 4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
 
@@ -2899,75 +1788,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223229.P2004305699025495887
-
-/-! ## A223229.P6387116268027398276
-
-`A223233(A155212(n)+5)`
--/
-
-namespace A223229.P6387116268027398276
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A155212 n + 5).toNat
-
-end
-
-end A223229.P6387116268027398276
-
-/-! ## A223229.P6998570600378280269
-
-`A223233(eq[3, A193592(n)])`
--/
-
-namespace A223229.P6998570600378280269
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223229.P6998570600378280269
-
-/-! ## A223229.P8279551713229236368
-
-`A223233(Δ[A034857(n+1)])`
--/
-
-namespace A223229.P8279551713229236368
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034857 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223229.P8279551713229236368
-
-/-! ## A223229.P7800851060384730542
-
-`A223233(A052905(n+1)+2)`
--/
-
-namespace A223229.P7800851060384730542
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A052905 (n + 1) + 2).toNat
-
-end
-
-end A223229.P7800851060384730542
 
 /-!
 # A223230: Rolling icosahedron footprints: number of n X 5 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
@@ -2992,81 +1812,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223230.P615117295472981808
-
-/-! ## A223230.P13460649143530743891
-
-`A223233(eq[4, A193592(n)])`
--/
-
-namespace A223230.P13460649143530743891
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223230.P13460649143530743891
-
-/-! ## A223230.P12013475902761164199
-
-`A223233(Δ[A023545(n+1)])`
--/
-
-namespace A223230.P12013475902761164199
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223230.P12013475902761164199
-
-/-! ## A223230.P13598090566154618781
-
-`A223233(A052905(n+2)+1)`
--/
-
-namespace A223230.P13598090566154618781
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A052905 (n + 2) + 1).toNat
-
-end
-
-end A223230.P13598090566154618781
-
-/-! ## A223230.P609915326145888601
-
-`A223233(eq[6, A185782(n+1)])`
--/
-
-namespace A223230.P609915326145888601
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185782 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223230.P609915326145888601
 
 /-!
 # A223231: Rolling icosahedron footprints: number of nX6 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
@@ -3095,66 +1840,6 @@ end
 
 end A223231.P12636240691902394866
 
-/-! ## A223231.P10936070833928363563
-
-`A223233(eq[16, A057728(n+1)])`
--/
-
-namespace A223231.P10936070833928363563
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057728 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223231.P10936070833928363563
-
-/-! ## A223231.P14493575967522670241
-
-`A223233(Δ[Δ[A006504(n+1)]])`
--/
-
-namespace A223231.P14493575967522670241
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006504 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223231.P14493575967522670241
-
-/-! ## A223231.P1254328234321481848
-
-`A223233(Δ[A264443(n+1)]-1)`
--/
-
-namespace A223231.P1254328234321481848
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264443 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (f1 (n + 1) - f1 n - 1).toNat
-
-end
-
-end A223231.P1254328234321481848
-
 /-!
 # A223232: Rolling icosahedron footprints: number of n X 7 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
 
@@ -3175,42 +1860,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223232.P9868840639769183110
-
-/-! ## A223232.P11699119168254718507
-
-`A223233(eq[6, A193592(n)])`
--/
-
-namespace A223232.P11699119168254718507
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223232.P11699119168254718507
-
-/-! ## A223232.P3675278359421174591
-
-`A223233(A000124(n+7)-7)`
--/
-
-namespace A223232.P3675278359421174591
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A000124 (n + 7) - 7).toNat
-
-end
-
-end A223232.P3675278359421174591
 
 /-!
 # A223234: Rolling icosahedron footprints: number of 2 X n 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
@@ -3312,66 +1961,6 @@ end
 
 end A223235.P10150424732936768794
 
-/-! ## A223235.P9367481047452255501
-
-`A223233(A167614(n+1))+A185264(n)`
--/
-
-namespace A223235.P9367481047452255501
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A167614 (n + 1)).toNat + A185264 n
-
-end
-
-end A223235.P9367481047452255501
-
-/-! ## A223235.P10442644350065892024
-
-`A223233(A167614(n+1))+A185284(n)`
--/
-
-namespace A223235.P10442644350065892024
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A167614 (n + 1)).toNat + A185284 n
-
-end
-
-end A223235.P10442644350065892024
-
-/-! ## A223235.P3428836156178444111
-
-`lcm(A033999(n), A223233(A167614(n+1)))`
--/
-
-namespace A223235.P3428836156178444111
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A033999 n) (A223233 (A167614 (n + 1)).toNat)
-
-end
-
-end A223235.P3428836156178444111
-
-/-! ## A223235.P14543366073168224498
-
-`or(A000035(n), A223233(A167614(n+1)))`
--/
-
-namespace A223235.P14543366073168224498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000035 n) (A223233 (A167614 (n + 1)).toNat)
-
-end
-
-end A223235.P14543366073168224498
-
 /-!
 # A223236: Rolling icosahedron footprints: number of 4Xn 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
 
@@ -3392,72 +1981,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223236.P5389799585105677770
-
-/-! ## A223236.P6164887066280626104
-
-`A223233(A052905(n)+9)`
--/
-
-namespace A223236.P6164887066280626104
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A052905 n + 9).toNat
-
-end
-
-end A223236.P6164887066280626104
-
-/-! ## A223236.P4532038227954317276
-
-`A223233(A055999(n)+10)`
--/
-
-namespace A223236.P4532038227954317276
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A055999 n + 10).toNat
-
-end
-
-end A223236.P4532038227954317276
-
-/-! ## A223236.P11923048241024000905
-
-`A223233(eq[5, A066657(n)])`
--/
-
-namespace A223236.P11923048241024000905
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223236.P11923048241024000905
-
-/-! ## A223236.P1895347945400466215
-
-`A223233(A167614(n+2)+1)`
--/
-
-namespace A223236.P1895347945400466215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223236.P1895347945400466215
 
 /-!
 # A223237: Rolling icosahedron footprints: number of 5Xn 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
@@ -3480,72 +2003,6 @@ end
 
 end A223237.P7647323490095438961
 
-/-! ## A223237.P576710629987121954
-
-`A223233(A155212(n)+13)`
--/
-
-namespace A223237.P576710629987121954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A155212 n + 13).toNat
-
-end
-
-end A223237.P576710629987121954
-
-/-! ## A223237.P10223813644716458956
-
-`A223233(eq[7, A066657(n)])`
--/
-
-namespace A223237.P10223813644716458956
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223237.P10223813644716458956
-
-/-! ## A223237.P16445986704514682177
-
-`A223233(A167614(n+3)+2)`
--/
-
-namespace A223237.P16445986704514682177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A223237.P16445986704514682177
-
-/-! ## A223237.P9571819973562910026
-
-`A223233(A000124(n+4)+4)`
--/
-
-namespace A223237.P9571819973562910026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A000124 (n + 4) + 4).toNat
-
-end
-
-end A223237.P9571819973562910026
-
 /-!
 # A223238: Rolling icosahedron footprints: number of 6Xn 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge.
 
@@ -3566,81 +2023,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223238.P17767014031352161536
-
-/-! ## A223238.P5247543778683101426
-
-`A223233(A056115(n)+21)`
--/
-
-namespace A223238.P5247543778683101426
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (A056115 n + 21).toNat
-
-end
-
-end A223238.P5247543778683101426
-
-/-! ## A223238.P8698706832742654637
-
-`A223233(eq[5, A002262(n)]+1)`
--/
-
-namespace A223238.P8698706832742654637
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
-
-end
-
-end A223238.P8698706832742654637
-
-/-! ## A223238.P721960301637710926
-
-`A223233(eq[7, A131818(n+1)])`
--/
-
-namespace A223238.P721960301637710926
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223238.P721960301637710926
-
-/-! ## A223238.P3842648540743931174
-
-`A223233(Δ[A023545(n+1)]+10)`
--/
-
-namespace A223238.P3842648540743931174
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223233 (f1 (n + 1) - f1 n + 10).toNat
-
-end
-
-end A223238.P3842648540743931174
 
 /-!
 # A223239: 3-loop graph coloring a rectangular array: number of n X n 0..6 arrays where 0..6 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -3838,6 +2220,29 @@ def P6828170831053161811.Spec : Prop :=
 
 end A223240
 
+/-! ## A223240.P12012558041456438541
+
+`A140796(n+1)+A133467(n)+A133467(n)`
+-/
+
+namespace A223240.P12012558041456438541
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140796 (n + 1) + A133467 n + A133467 n
+
+end
+
+end A223240.P12012558041456438541
+
+namespace A223240
+
+/-- `A140796(n+1)+A133467(n)+A133467(n)` -/
+def P12012558041456438541.Spec : Prop :=
+  ∀ n, P12012558041456438541.a n = A223240 (n + 1)
+
+end A223240
+
 /-! ## A223240.P10428201407304964313
 
 `A000244(n+1)+A102901(n)+A000244(n+1)`
@@ -4001,29 +2406,6 @@ def P8180560349580554127.Spec : Prop :=
 
 end A223241
 
-/-! ## A223241.P6321780891043747309
-
-`A223247(A238531(n+2))%A085447(n+2)`
--/
-
-namespace A223241.P6321780891043747309
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223247 (A238531 (n + 2)).toNat) (A085447 (n + 2))
-
-end
-
-end A223241.P6321780891043747309
-
-namespace A223241
-
-/-- `A223247(A238531(n+2))%A085447(n+2)` -/
-def P6321780891043747309.Spec : Prop :=
-  ∀ n, P6321780891043747309.a n = A223241 (n + 1)
-
-end A223241
-
 /-!
 # A223242: 3-loop graph coloring a rectangular array: number of n X 3 0..6 arrays where 0..6 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -4048,66 +2430,6 @@ end
 
 end A223242.P4715947874967736741
 
-/-! ## A223242.P14732649939881679717
-
-`lcm(2, A223247(A167614(n+1)))`
--/
-
-namespace A223242.P14732649939881679717
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223247 (A167614 (n + 1)).toNat)
-
-end
-
-end A223242.P14732649939881679717
-
-/-! ## A223242.P1633967292615386269
-
-`A223247(A167614(n+1))+A070202(n+1)`
--/
-
-namespace A223242.P1633967292615386269
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A167614 (n + 1)).toNat + A070202 (n + 1)
-
-end
-
-end A223242.P1633967292615386269
-
-/-! ## A223242.P4768903133801506048
-
-`A223247(A167614(n+1))*A289014(n+1)`
--/
-
-namespace A223242.P4768903133801506048
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A167614 (n + 1)).toNat * A289014 (n + 1)
-
-end
-
-end A223242.P4768903133801506048
-
-/-! ## A223242.P9335534171321132151
-
-`A288707(2*(n+1))+A223247(A167614(n+1))`
--/
-
-namespace A223242.P9335534171321132151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288707 (2 * (n + 1)) + A223247 (A167614 (n + 1)).toNat
-
-end
-
-end A223242.P9335534171321132151
-
 /-!
 # A223243: 3-loop graph coloring a rectangular array: number of n X 4 0..6 arrays where 0..6 label nodes of a graph with edges (0,1), (1,2), (2,0), (0,3), (3,4), (4,0), (0,5), (5,6), and (6,0), and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -4128,51 +2450,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223243.P9585596214404320713
-
-/-! ## A223243.P13348740892567062112
-
-`A223247(A167614(n+2)+1)`
--/
-
-namespace A223243.P13348740892567062112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223243.P13348740892567062112
-
-/-! ## A223243.P16257310111136884798
-
-`A223247(A000124(n+3)+3)`
--/
-
-namespace A223243.P16257310111136884798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A000124 (n + 3) + 3).toNat
-
-end
-
-end A223243.P16257310111136884798
-
-/-! ## A223243.P18352284453385839468
-
-`A223247(A000217(n+4)-n)`
--/
-
-namespace A223243.P18352284453385839468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A000217 (n + 4) - (n : ℤ)).toNat
-
-end
-
-end A223243.P18352284453385839468
 
 /-! ## A223243.P7358250900728868554
 
@@ -4210,65 +2487,20 @@ end
 
 end A223244.P4266407053321114450
 
-/-! ## A223244.P16138641989676533714
+/-! ## A223244.P17601809547540296471
 
-`A223247(A155212(n)+13)`
+`A223247(A374005(n+1))`
 -/
 
-namespace A223244.P16138641989676533714
+namespace A223244.P17601809547540296471
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A155212 n + 13).toNat
+  A223247 (A374005 (n + 1)).toNat
 
 end
 
-end A223244.P16138641989676533714
-
-/-! ## A223244.P3594920592981444502
-
-`A223247(A167614(n+3)+2)`
--/
-
-namespace A223244.P3594920592981444502
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A223244.P3594920592981444502
-
-/-! ## A223244.P16054410478738473768
-
-`A223247(A000124(n+4)+4)`
--/
-
-namespace A223244.P16054410478738473768
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A000124 (n + 4) + 4).toNat
-
-end
-
-end A223244.P16054410478738473768
-
-/-! ## A223244.P6295412039583528788
-
-`A223247(A000217(n+4)+5)`
--/
-
-namespace A223244.P6295412039583528788
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A000217 (n + 4) + 5).toNat
-
-end
-
-end A223244.P6295412039583528788
+end A223244.P17601809547540296471
 
 /-!
 # A223245: 3-loop graph coloring a rectangular array: number of nX6 0..6 arrays where 0..6 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -4291,21 +2523,6 @@ end
 
 end A223245.P4295300457059151156
 
-/-! ## A223245.P11271615288338612088
-
-`A223247(A167499(n+3)+A020715(n))`
--/
-
-namespace A223245.P11271615288338612088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A167499 (n + 3) + A020715 n).toNat
-
-end
-
-end A223245.P11271615288338612088
-
 /-! ## A223245.P16682377321703641696
 
 `A223247(A374007(n+1))`
@@ -4320,42 +2537,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223245.P16682377321703641696
-
-/-! ## A223245.P3673721460154132513
-
-`A223247(A052905(3+n))`
--/
-
-namespace A223245.P3673721460154132513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A052905 (3 + n)).toNat
-
-end
-
-end A223245.P3673721460154132513
-
-/-! ## A223245.P14137396836251452245
-
-`A223247(eq[3, A219347(n)])`
--/
-
-namespace A223245.P14137396836251452245
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223245.P14137396836251452245
 
 /-!
 # A223246: 3-loop graph coloring a rectangular array: number of nX7 0..6 arrays where 0..6 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -4378,21 +2559,6 @@ end
 
 end A223246.P7347403415586558899
 
-/-! ## A223246.P9353532576319535769
-
-`A223247(A000124(n+6)+6)`
--/
-
-namespace A223246.P9353532576319535769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A000124 (n + 6) + 6).toNat
-
-end
-
-end A223246.P9353532576319535769
-
 /-! ## A223246.P13211630463962581560
 
 `A223247(A374008(n+1))`
@@ -4407,42 +2573,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223246.P13211630463962581560
-
-/-! ## A223246.P1627883415656273372
-
-`A223247(A055999(n+4))`
--/
-
-namespace A223246.P1627883415656273372
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (A055999 (n + 4)).toNat
-
-end
-
-end A223246.P1627883415656273372
-
-/-! ## A223246.P6295823516582350802
-
-`A223247(eq[4, A219347(n)])`
--/
-
-namespace A223246.P6295823516582350802
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223247 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223246.P6295823516582350802
 
 /-!
 # A223248: Two-loop graph coloring a rectangular array: number of n X n 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -4521,21 +2651,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223248.P3753387702715742520
-
-/-! ## A223248.P17422789424716509080
-
-`lcm(A001316(n), A223255(A001844(n)))`
--/
-
-namespace A223248.P17422789424716509080
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A001316 n) (A223255 (A001844 n).toNat)
-
-end
-
-end A223248.P17422789424716509080
 
 /-!
 # A223249: Two-loop graph coloring a rectangular array: number of n X 2 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -4847,66 +2962,6 @@ end
 
 end A223250.P13218035517806650628
 
-/-! ## A223250.P12243536023779327393
-
-`lcm(2, A223255(A167614(n+1)))`
--/
-
-namespace A223250.P12243536023779327393
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223255 (A167614 (n + 1)).toNat)
-
-end
-
-end A223250.P12243536023779327393
-
-/-! ## A223250.P5542297386477578034
-
-`A223255(A167614(n+1))+A034576(n+1)`
--/
-
-namespace A223250.P5542297386477578034
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167614 (n + 1)).toNat + A034576 (n + 1)
-
-end
-
-end A223250.P5542297386477578034
-
-/-! ## A223250.P545848947251479456
-
-`A223255(A167614(n+1))%A251033(n+1)`
--/
-
-namespace A223250.P545848947251479456
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223255 (A167614 (n + 1)).toNat) (A251033 (n + 1))
-
-end
-
-end A223250.P545848947251479456
-
-/-! ## A223250.P2786799872423618647
-
-`A223255(A034856(n+2))%A332179(n+1)`
--/
-
-namespace A223250.P2786799872423618647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223255 (A034856 (n + 2)).toNat) (A332179 (n + 1))
-
-end
-
-end A223250.P2786799872423618647
-
 /-!
 # A223251: Two-loop graph coloring a rectangular array: number of n X 4 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -4928,36 +2983,6 @@ end
 
 end A223251.P11176842371501701661
 
-/-! ## A223251.P5734642272209705373
-
-`A223255(A141214(n)+7)`
--/
-
-namespace A223251.P5734642272209705373
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A141214 n + 7).toNat
-
-end
-
-end A223251.P5734642272209705373
-
-/-! ## A223251.P1193236539055864269
-
-`A223255(A167614(n+2)+1)`
--/
-
-namespace A223251.P1193236539055864269
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223251.P1193236539055864269
-
 /-! ## A223251.P6157081109412585137
 
 `A223255(A141214(n+1))`
@@ -4972,21 +2997,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223251.P6157081109412585137
-
-/-! ## A223251.P15933913977512418390
-
-`A223255(A055998(n+2))`
--/
-
-namespace A223251.P15933913977512418390
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A055998 (n + 2)).toNat
-
-end
-
-end A223251.P15933913977512418390
 
 /-!
 # A223252: Two-loop graph coloring a rectangular array: number of nX5 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -5009,66 +3019,6 @@ end
 
 end A223252.P28308170950720351
 
-/-! ## A223252.P10746583105452274563
-
-`A223255(A167499(n+3))`
--/
-
-namespace A223252.P10746583105452274563
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167499 (n + 3)).toNat
-
-end
-
-end A223252.P10746583105452274563
-
-/-! ## A223252.P5487065010154723563
-
-`A223255(A155212(n)+13)`
--/
-
-namespace A223252.P5487065010154723563
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A155212 n + 13).toNat
-
-end
-
-end A223252.P5487065010154723563
-
-/-! ## A223252.P12509396035976765504
-
-`A223255(A167614(n+3)+2)`
--/
-
-namespace A223252.P12509396035976765504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A223252.P12509396035976765504
-
-/-! ## A223252.P13325457141978127704
-
-`A223255(A000217(n+4)+5)`
--/
-
-namespace A223252.P13325457141978127704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A000217 (n + 4) + 5).toNat
-
-end
-
-end A223252.P13325457141978127704
-
 /-!
 # A223253: Two-loop graph coloring a rectangular array: number of nX6 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -5089,72 +3039,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223253.P11304138258913702017
-
-/-! ## A223253.P13931144299671126449
-
-`A223255(A167614(n+4)+3)`
--/
-
-namespace A223253.P13931144299671126449
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167614 (n + 4) + 3).toNat
-
-end
-
-end A223253.P13931144299671126449
-
-/-! ## A223253.P8976027946859872532
-
-`A223255(A141214(n+2)+9)`
--/
-
-namespace A223253.P8976027946859872532
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A141214 (n + 2) + 9).toNat
-
-end
-
-end A223253.P8976027946859872532
-
-/-! ## A223253.P7156248515512967608
-
-`A223255(eq[7, A131818(n+1)])`
--/
-
-namespace A223253.P7156248515512967608
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223253.P7156248515512967608
-
-/-! ## A223253.P8236331341716304429
-
-`A223255(A167499(n+3)+A020715(n))`
--/
-
-namespace A223253.P8236331341716304429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A167499 (n + 3) + A020715 n).toNat
-
-end
-
-end A223253.P8236331341716304429
 
 /-!
 # A223254: Two-loop graph coloring a rectangular array: number of nX7 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -5177,83 +3061,26 @@ end
 
 end A223254.P15198011456374838151
 
-/-! ## A223254.P5557680298757461961
-
-`A223255(A052905(n+3)+12)`
--/
-
-namespace A223254.P5557680298757461961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A052905 (n + 3) + 12).toNat
-
-end
-
-end A223254.P5557680298757461961
-
-/-! ## A223254.P14401066481200285313
-
-`A223255(eq[8, A131818(n+1)])`
--/
-
-namespace A223254.P14401066481200285313
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223254.P14401066481200285313
-
-/-! ## A223254.P9610074953531512890
-
-`A223255(A055999(n+4))`
--/
-
-namespace A223254.P9610074953531512890
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (A055999 (n + 4)).toNat
-
-end
-
-end A223254.P9610074953531512890
-
-/-! ## A223254.P13852835065166604839
-
-`A223255(eq[4, A219347(n)])`
--/
-
-namespace A223254.P13852835065166604839
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223255 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223254.P13852835065166604839
-
 /-!
 # A223256: Triangle read by rows: T(0,0)=1; for n>=1 T(n,k) is the numerator of the coefficient of x^k in the characteristic polynomial of the matrix realizing the transformation to Jacobi coordinates for a system of n particles on a line.
 
 The programs for A223256, there is no canonical definition to state claims against.
 -/
+
+/-! ## A223256.P9844598535475533727
+
+`A328478(A298854(n))`
+-/
+
+namespace A223256.P9844598535475533727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328478 (A298854 n).toNat
+
+end
+
+end A223256.P9844598535475533727
 
 /-! ## A223256.P16270557916567131791
 
@@ -5269,21 +3096,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223256.P16270557916567131791
-
-/-! ## A223256.P1642478381290497464
-
-`A328478(A298854(n))%A172294(2*n+3)`
--/
-
-namespace A223256.P1642478381290497464
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A328478 (A298854 n).toNat) (A172294 (2 * n + 3))
-
-end
-
-end A223256.P1642478381290497464
 
 /-! ## A223256.P588145934311690100
 
@@ -5366,36 +3178,6 @@ end
 
 end A223257.P5274459918492400372
 
-/-! ## A223257.P3435232843863991558
-
-`A047726(A032671(A296405(n+1)²))`
--/
-
-namespace A223257.P3435232843863991558
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047726 (A032671 (A296405 (n + 1) ^ 2).toNat).toNat
-
-end
-
-end A223257.P3435232843863991558
-
-/-! ## A223257.P8956645283336612875
-
-`A047726(A250044(A296974(n+1)²))`
--/
-
-namespace A223257.P8956645283336612875
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047726 (A250044 (A296974 (n + 1) ^ 2).toNat).toNat
-
-end
-
-end A223257.P8956645283336612875
-
 /-! ## A223257.P5211587401926690165
 
 `A155864(lt[A007690(n), A007091(n+2)])`
@@ -5416,6 +3198,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223257.P5211587401926690165
+
+/-! ## A223257.P2842374534948448614
+
+`A047726(A060628(n))`
+-/
+
+namespace A223257.P2842374534948448614
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047726 (A060628 n).toNat
+
+end
+
+end A223257.P2842374534948448614
 
 /-!
 # A223258: Rolling icosahedron footprints: number of n X 3 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
@@ -5456,51 +3253,6 @@ end
 
 end A223258.P1401147091884087683
 
-/-! ## A223258.P15284133145122703286
-
-`lcm(5, A223263(A167614(n+1)))`
--/
-
-namespace A223258.P15284133145122703286
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 5 (A223263 (A167614 (n + 1)).toNat)
-
-end
-
-end A223258.P15284133145122703286
-
-/-! ## A223258.P14093581738281796260
-
-`A223263(A167614(n+1))*A291168(n)`
--/
-
-namespace A223258.P14093581738281796260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A167614 (n + 1)).toNat * A291168 n
-
-end
-
-end A223258.P14093581738281796260
-
-/-! ## A223258.P13584533175690598514
-
-`or(A000007(n), A223263(A167614(n+1)))`
--/
-
-namespace A223258.P13584533175690598514
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A223263 (A167614 (n + 1)).toNat)
-
-end
-
-end A223258.P13584533175690598514
-
 /-!
 # A223259: Rolling icosahedron footprints: number of nX4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
 
@@ -5522,65 +3274,20 @@ end
 
 end A223259.P720489581424275383
 
-/-! ## A223259.P3332019444802316035
+/-! ## A223259.P11757216376579116233
 
-`A223263(A141214(n)+7)`
+`A223263(A141214(n+1))`
 -/
 
-namespace A223259.P3332019444802316035
+namespace A223259.P11757216376579116233
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A141214 n + 7).toNat
+  A223263 (A141214 (n + 1)).toNat
 
 end
 
-end A223259.P3332019444802316035
-
-/-! ## A223259.P11889655864622588928
-
-`A223263(A052905(n)+9)`
--/
-
-namespace A223259.P11889655864622588928
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A052905 n + 9).toNat
-
-end
-
-end A223259.P11889655864622588928
-
-/-! ## A223259.P14404970657967422856
-
-`A223263(A055999(n)+10)`
--/
-
-namespace A223259.P14404970657967422856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A055999 n + 10).toNat
-
-end
-
-end A223259.P14404970657967422856
-
-/-! ## A223259.P8503019128665054014
-
-`A223263(A167614(n+2)+1)`
--/
-
-namespace A223259.P8503019128665054014
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223259.P8503019128665054014
+end A223259.P11757216376579116233
 
 /-!
 # A223260: Rolling icosahedron footprints: number of nX5 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
@@ -5603,54 +3310,6 @@ end
 
 end A223260.P8226393969427337276
 
-/-! ## A223260.P1014335660621648640
-
-`A223263(A167614(n+3)+2)`
--/
-
-namespace A223260.P1014335660621648640
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A167614 (n + 3) + 2).toNat
-
-end
-
-end A223260.P1014335660621648640
-
-/-! ## A223260.P3620279459140553667
-
-`A223263(A000217(n+4)+5)`
--/
-
-namespace A223260.P3620279459140553667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A000217 (n + 4) + 5).toNat
-
-end
-
-end A223260.P3620279459140553667
-
-/-! ## A223260.P7584468909180157702
-
-`A223263(Δ[A023545(n+1)])`
--/
-
-namespace A223260.P7584468909180157702
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223260.P7584468909180157702
-
 /-!
 # A223261: Rolling icosahedron footprints: number of nX6 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
 
@@ -5671,21 +3330,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223261.P2709379285483044791
-
-/-! ## A223261.P1337032042573721864
-
-`A223263(A052905(n+3))`
--/
-
-namespace A223261.P1337032042573721864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223263 (A052905 (n + 3)).toNat
-
-end
-
-end A223261.P1337032042573721864
 
 /-!
 # A223262: Rolling icosahedron footprints: number of nX7 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
@@ -5807,66 +3451,6 @@ end
 
 end A223265.P8477589576284197344
 
-/-! ## A223265.P7053093878564445785
-
-`A223269(A055998(n+2))`
--/
-
-namespace A223265.P7053093878564445785
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A055998 (n + 2)).toNat
-
-end
-
-end A223265.P7053093878564445785
-
-/-! ## A223265.P1663404836897569978
-
-`A223269(A155212(n)+5)`
--/
-
-namespace A223265.P1663404836897569978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A155212 n + 5).toNat
-
-end
-
-end A223265.P1663404836897569978
-
-/-! ## A223265.P2939328152503484983
-
-`A223269(A056000(n)+7)`
--/
-
-namespace A223265.P2939328152503484983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A056000 n + 7).toNat
-
-end
-
-end A223265.P2939328152503484983
-
-/-! ## A223265.P6623086496355162342
-
-`A223269(A052905(n+1)+2)`
--/
-
-namespace A223265.P6623086496355162342
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A052905 (n + 1) + 2).toNat
-
-end
-
-end A223265.P6623086496355162342
-
 /-!
 # A223266: Rolling cube footprints: number of n X 5 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
 
@@ -5891,36 +3475,6 @@ end
 
 end A223266.P10737251996049265014
 
-/-! ## A223266.P11987586204262889254
-
-`A223269(A055999(n+2)+2)`
--/
-
-namespace A223266.P11987586204262889254
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A055999 (n + 2) + 2).toNat
-
-end
-
-end A223266.P11987586204262889254
-
-/-! ## A223266.P2983974523666759231
-
-`A223269(A000217(n+5)-4)`
--/
-
-namespace A223266.P2983974523666759231
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A000217 (n + 5) - 4).toNat
-
-end
-
-end A223266.P2983974523666759231
-
 /-!
 # A223267: Rolling cube footprints: number of nX6 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
 
@@ -5942,69 +3496,6 @@ end
 
 end A223267.P4538770628735978172
 
-/-! ## A223267.P15465724385563094404
-
-`A223269(A155212(n+2)+3)`
--/
-
-namespace A223267.P15465724385563094404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A155212 (n + 2) + 3).toNat
-
-end
-
-end A223267.P15465724385563094404
-
-/-! ## A223267.P8061299533476283513
-
-`A223269(Δ[A023545(n+2)]-1)`
--/
-
-namespace A223267.P8061299533476283513
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (f1 (n + 1) - f1 n - 1).toNat
-
-end
-
-end A223267.P8061299533476283513
-
-/-! ## A223267.P12766276321433203650
-
-`A223269(A000217(n+5)+n+1)`
--/
-
-namespace A223267.P12766276321433203650
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A000217 (n + 5) + (n + 1 : ℤ)).toNat
-
-end
-
-end A223267.P12766276321433203650
-
-/-! ## A223267.P4931594381953690251
-
-`A223269(A167499(n+3)+2*n+1)`
--/
-
-namespace A223267.P4931594381953690251
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A167499 (n + 3) + (2 * n + 1 : ℤ)).toNat
-
-end
-
-end A223267.P4931594381953690251
-
 /-!
 # A223269: T(n,k)=Rolling cube face footprints: number of nXk 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
 
@@ -6025,21 +3516,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223269.P10782839431147839903
-
-/-! ## A223269.P7879083430225653285
-
-`A255588(A232920(n+1)*A317517(n+1))`
--/
-
-namespace A223269.P7879083430225653285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255588 (A232920 (n + 1) * A317517 (n + 1)).toNat
-
-end
-
-end A223269.P7879083430225653285
 
 /-! ## A223269.P4651676534329221462
 
@@ -6070,21 +3546,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223269.P14968821574363276614
-
-/-! ## A223269.P16422620739749235805
-
-`A052126(A232920(n+1)*A317517(n+1))`
--/
-
-namespace A223269.P16422620739749235805
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052126 (A232920 (n + 1) * A317517 (n + 1)).toNat
-
-end
-
-end A223269.P16422620739749235805
 
 /-!
 # A223270: Rolling cube footprints: number of 2 X n 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
@@ -6230,21 +3691,6 @@ end
 
 end A223271.P3058311774022579624
 
-/-! ## A223271.P2521227001049045400
-
-`lcm(2, A223269(A167614(n+1)))`
--/
-
-namespace A223271.P2521227001049045400
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223269 (A167614 (n + 1)).toNat)
-
-end
-
-end A223271.P2521227001049045400
-
 /-! ## A223271.P1675853919371252962
 
 `record[A223269(A167614(C(comp[∑[n]]-n, 2)-n))]`
@@ -6270,36 +3716,6 @@ end
 
 end A223271.P1675853919371252962
 
-/-! ## A223271.P10957758411662889393
-
-`A223269(A167614(n+1))/A195061(n+2)`
--/
-
-namespace A223271.P10957758411662889393
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A223269 (A167614 (n + 1)).toNat : ℚ) / (A195061 (n + 2) : ℚ)
-
-end
-
-end A223271.P10957758411662889393
-
-/-! ## A223271.P16881587320119888332
-
-`A223269(A167614(n+1))%A206314(n+1)`
--/
-
-namespace A223271.P16881587320119888332
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223269 (A167614 (n + 1)).toNat) (A206314 (n + 1))
-
-end
-
-end A223271.P16881587320119888332
-
 /-!
 # A223272: Rolling cube footprints: number of 4Xn 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
 
@@ -6320,66 +3736,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223272.P11996463994915467603
-
-/-! ## A223272.P6168892538931796717
-
-`A223269(A141214(n)+7)`
--/
-
-namespace A223272.P6168892538931796717
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A141214 n + 7).toNat
-
-end
-
-end A223272.P6168892538931796717
-
-/-! ## A223272.P10987846977803564798
-
-`A223269(A052905(n)+9)`
--/
-
-namespace A223272.P10987846977803564798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A052905 n + 9).toNat
-
-end
-
-end A223272.P10987846977803564798
-
-/-! ## A223272.P3656091126651334488
-
-`A223269(A055999(n)+10)`
--/
-
-namespace A223272.P3656091126651334488
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A055999 n + 10).toNat
-
-end
-
-end A223272.P3656091126651334488
-
-/-! ## A223272.P5978824873379052024
-
-`A223269(A167614(n+2)+1)`
--/
-
-namespace A223272.P5978824873379052024
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223272.P5978824873379052024
 
 /-!
 # A223273: Rolling cube footprints: number of 5Xn 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
@@ -6402,51 +3758,6 @@ end
 
 end A223273.P14073184798008117809
 
-/-! ## A223273.P17960857400716182608
-
-`A223269(A000217(n+4)+5)`
--/
-
-namespace A223273.P17960857400716182608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A000217 (n + 4) + 5).toNat
-
-end
-
-end A223273.P17960857400716182608
-
-/-! ## A223273.P1051683205648970637
-
-`A223269(A167614(n+4)-(n+3))`
--/
-
-namespace A223273.P1051683205648970637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A167614 (n + 4) - (n + 3 : ℤ)).toNat
-
-end
-
-end A223273.P1051683205648970637
-
-/-! ## A223273.P1240762851807022890
-
-`A223269(A000124(n+4)+5-A007318(C(2, n)))`
--/
-
-namespace A223273.P1240762851807022890
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A000124 (n + 4) + (5 - A007318 (Nat.choose 2 n))).toNat
-
-end
-
-end A223273.P1240762851807022890
-
 /-!
 # A223274: Rolling cube footprints: number of 6Xn 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
 
@@ -6467,36 +3778,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223274.P4685986131504338408
-
-/-! ## A223274.P8168587152278219846
-
-`A223269(A000217(n+5)+6)`
--/
-
-namespace A223274.P8168587152278219846
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A223274.P8168587152278219846
-
-/-! ## A223274.P7560320122088528499
-
-`A223269(A167499(n+3)+A020715(n))`
--/
-
-namespace A223274.P7560320122088528499
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223269 (A167499 (n + 3) + A020715 n).toNat
-
-end
-
-end A223274.P7560320122088528499
 
 /-!
 # A223275: Rolling cube footprints: number of 7 X n 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across a corresponding cube edge.
@@ -6543,21 +3824,6 @@ end
 
 end A223276.P7874910343933259110
 
-/-! ## A223276.P16286372234068798583
-
-`or(1, A223282(A001844(n)))`
--/
-
-namespace A223276.P16286372234068798583
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A223282 (A001844 n).toNat)
-
-end
-
-end A223276.P16286372234068798583
-
 /-! ## A223276.P14111660070808461504
 
 `record[gcd(A214292(n), A223282(n+1))]`
@@ -6575,36 +3841,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A223276.P14111660070808461504
-
-/-! ## A223276.P13861637444470314010
-
-`lcm(A020985(n), A223282(A001844(n)))`
--/
-
-namespace A223276.P13861637444470314010
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A020985 n) (A223282 (A001844 n).toNat)
-
-end
-
-end A223276.P13861637444470314010
-
-/-! ## A223276.P6733196101612483032
-
-`A223282(A001844(n))+A160990(n+1)`
--/
-
-namespace A223276.P6733196101612483032
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A001844 n).toNat + A160990 (n + 1)
-
-end
-
-end A223276.P6733196101612483032
 
 /-!
 # A223277: Rolling icosahedron face footprints: number of n X 3 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
@@ -6741,51 +3977,6 @@ end
 
 end A223278.P8727260924933304747
 
-/-! ## A223278.P12483471121163230601
-
-`A223282(A055998(n+2))`
--/
-
-namespace A223278.P12483471121163230601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A055998 (n + 2)).toNat
-
-end
-
-end A223278.P12483471121163230601
-
-/-! ## A223278.P1495288204692581714
-
-`A223282(A155212(n)+5)`
--/
-
-namespace A223278.P1495288204692581714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A155212 n + 5).toNat
-
-end
-
-end A223278.P1495288204692581714
-
-/-! ## A223278.P9394752651057287089
-
-`A223282(A056000(n)+7)`
--/
-
-namespace A223278.P9394752651057287089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A056000 n + 7).toNat
-
-end
-
-end A223278.P9394752651057287089
-
 /-!
 # A223279: Rolling icosahedron face footprints: number of n X 5 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -6810,81 +4001,6 @@ end
 
 end A223279.P1944377074965610497
 
-/-! ## A223279.P11447152808015811626
-
-`A223282(A046691(n+3))`
--/
-
-namespace A223279.P11447152808015811626
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A046691 (n + 3)).toNat
-
-end
-
-end A223279.P11447152808015811626
-
-/-! ## A223279.P4793867404950507995
-
-`A223282(eq[4, A193592(n)])`
--/
-
-namespace A223279.P4793867404950507995
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223279.P4793867404950507995
-
-/-! ## A223279.P4474605209619931386
-
-`A223282(eq[8, A140996(n)])`
--/
-
-namespace A223279.P4474605209619931386
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140996 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223279.P4474605209619931386
-
-/-! ## A223279.P1832655698983065902
-
-`A223282(Δ[A023545(n+1)])`
--/
-
-namespace A223279.P1832655698983065902
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223279.P1832655698983065902
-
 /-!
 # A223280: Rolling icosahedron face footprints: number of nX6 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -6906,90 +4022,6 @@ end
 
 end A223280.P1383495943310195613
 
-/-! ## A223280.P6219662160332692895
-
-`A223282(eq[3, A219347(n)])`
--/
-
-namespace A223280.P6219662160332692895
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223280.P6219662160332692895
-
-/-! ## A223280.P10479966034142218910
-
-`A223282(eq[5, A193592(n)])`
--/
-
-namespace A223280.P10479966034142218910
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223280.P10479966034142218910
-
-/-! ## A223280.P4424115430642684537
-
-`A223282(eq[16, A166065(n)])`
--/
-
-namespace A223280.P4424115430642684537
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166065 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223280.P4424115430642684537
-
-/-! ## A223280.P273577578229113862
-
-`A223282(eq[6, A200370(n+1)])`
--/
-
-namespace A223280.P273577578229113862
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200370 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223280.P273577578229113862
-
 /-!
 # A223281: Rolling icosahedron face footprints: number of nX7 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -7010,78 +4042,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223281.P2387965606897089525
-
-/-! ## A223281.P4527322991601102956
-
-`A223282(eq[4, A219347(n)])`
--/
-
-namespace A223281.P4527322991601102956
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223281.P4527322991601102956
-
-/-! ## A223281.P8569009922071284695
-
-`A223282(eq[6, A193592(n)])`
--/
-
-namespace A223281.P8569009922071284695
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223281.P8569009922071284695
-
-/-! ## A223281.P1290689201381980169
-
-`A223282(A141214(n+4)-3)`
--/
-
-namespace A223281.P1290689201381980169
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A141214 (n + 4) - 3).toNat
-
-end
-
-end A223281.P1290689201381980169
-
-/-! ## A223281.P2890538622129248991
-
-`A223282(A056115(n+2)+9)`
--/
-
-namespace A223281.P2890538622129248991
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A056115 (n + 2) + 9).toNat
-
-end
-
-end A223281.P2890538622129248991
 
 /-!
 # A223282: T(n,k)=Rolling icosahedron face footprints: number of nXk 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
@@ -7195,29 +4155,6 @@ def P2703052209387347209.Spec : Prop :=
 
 end A223283
 
-/-! ## A223283.P15943011795200907100
-
-`or(4, A223282(A133263(n+1)))`
--/
-
-namespace A223283.P15943011795200907100
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 4 (A223282 (A133263 (n + 1)).toNat)
-
-end
-
-end A223283.P15943011795200907100
-
-namespace A223283
-
-/-- `or(4, A223282(A133263(n+1)))` -/
-def P15943011795200907100.Spec : Prop :=
-  ∀ n, P15943011795200907100.a n = A223283 (n + 1)
-
-end A223283
-
 /-!
 # A223284: Rolling icosahedron face footprints: number of 3 X n 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -7242,66 +4179,6 @@ end
 
 end A223284.P166358852227163934
 
-/-! ## A223284.P4736502207288256503
-
-`A223282(A167614(n+1))+A185037(n)`
--/
-
-namespace A223284.P4736502207288256503
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A167614 (n + 1)).toNat + A185037 n
-
-end
-
-end A223284.P4736502207288256503
-
-/-! ## A223284.P2166978245868748095
-
-`A223282(A167614(n+1))+A185284(n)`
--/
-
-namespace A223284.P2166978245868748095
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A167614 (n + 1)).toNat + A185284 n
-
-end
-
-end A223284.P2166978245868748095
-
-/-! ## A223284.P6119017944315515801
-
-`lcm(A015343(n), A223282(A167614(n+1)))`
--/
-
-namespace A223284.P6119017944315515801
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A015343 n) (A223282 (A167614 (n + 1)).toNat)
-
-end
-
-end A223284.P6119017944315515801
-
-/-! ## A223284.P7496361933948604075
-
-`or(A000035(n), A223282(A167614(n+1)))`
--/
-
-namespace A223284.P7496361933948604075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000035 n) (A223282 (A167614 (n + 1)).toNat)
-
-end
-
-end A223284.P7496361933948604075
-
 /-!
 # A223285: Rolling icosahedron face footprints: number of 4 X n 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -7322,66 +4199,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223285.P2212864238826416476
-
-/-! ## A223285.P13516275350997999388
-
-`A223282(A052905(n)+9)`
--/
-
-namespace A223285.P13516275350997999388
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A052905 n + 9).toNat
-
-end
-
-end A223285.P13516275350997999388
-
-/-! ## A223285.P10703266349857509075
-
-`A223282(A055999(n)+10)`
--/
-
-namespace A223285.P10703266349857509075
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A055999 n + 10).toNat
-
-end
-
-end A223285.P10703266349857509075
-
-/-! ## A223285.P16354626780263552335
-
-`A223282(A167614(n+2)+1)`
--/
-
-namespace A223285.P16354626780263552335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223285.P16354626780263552335
-
-/-! ## A223285.P14306937561607661263
-
-`A223282(A166136(n+2)-2)`
--/
-
-namespace A223285.P14306937561607661263
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A166136 (n + 2) - 2).toNat
-
-end
-
-end A223285.P14306937561607661263
 
 /-!
 # A223286: Rolling icosahedron face footprints: number of 5Xn 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
@@ -7404,78 +4221,6 @@ end
 
 end A223286.P15272796240216498685
 
-/-! ## A223286.P12960666428397429114
-
-`A223282(A155212(n)+13)`
--/
-
-namespace A223286.P12960666428397429114
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A155212 n + 13).toNat
-
-end
-
-end A223286.P12960666428397429114
-
-/-! ## A223286.P2129692446448544776
-
-`A223282(A056000(n)+15)`
--/
-
-namespace A223286.P2129692446448544776
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A056000 n + 15).toNat
-
-end
-
-end A223286.P2129692446448544776
-
-/-! ## A223286.P5581282717588864346
-
-`A223282(eq[7, A066657(n)])`
--/
-
-namespace A223286.P5581282717588864346
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223286.P5581282717588864346
-
-/-! ## A223286.P5392812370262526373
-
-`A223282(eq[6, A131818(n+1)])`
--/
-
-namespace A223286.P5392812370262526373
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223286.P5392812370262526373
-
 /-!
 # A223287: Rolling icosahedron face footprints: number of 6 X n 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -7497,69 +4242,6 @@ end
 
 end A223287.P10581313809649874910
 
-/-! ## A223287.P9608226284090072335
-
-`A223282(A056115(n)+21)`
--/
-
-namespace A223287.P9608226284090072335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A056115 n + 21).toNat
-
-end
-
-end A223287.P9608226284090072335
-
-/-! ## A223287.P14793214535804669355
-
-`A223282(Δ[A264443(n)]+10)`
--/
-
-namespace A223287.P14793214535804669355
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264443 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (f1 (n + 1) - f1 n + 10).toNat
-
-end
-
-end A223287.P14793214535804669355
-
-/-! ## A223287.P12174936738037218247
-
-`A223282(A000217(n+5)+6)`
--/
-
-namespace A223287.P12174936738037218247
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A223287.P12174936738037218247
-
-/-! ## A223287.P7000802470212738562
-
-`A223282(A152948(n+7)+4)`
--/
-
-namespace A223287.P7000802470212738562
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A152948 (n + 7) + 4).toNat
-
-end
-
-end A223287.P7000802470212738562
-
 /-!
 # A223288: Rolling icosahedron face footprints: number of 7Xn 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.
 
@@ -7580,78 +4262,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223288.P9051266295192621491
-
-/-! ## A223288.P2154272065608163669
-
-`A223282(eq[11, A066657(n)])`
--/
-
-namespace A223288.P2154272065608163669
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223288.P2154272065608163669
-
-/-! ## A223288.P14708754959099763071
-
-`A223282(A167499(n+5)+2)`
--/
-
-namespace A223288.P14708754959099763071
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A167499 (n + 5) + 2).toNat
-
-end
-
-end A223288.P14708754959099763071
-
-/-! ## A223288.P6098056730481244603
-
-`A223282(A000217(n+6)+7)`
--/
-
-namespace A223288.P6098056730481244603
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (A000217 (n + 6) + 7).toNat
-
-end
-
-end A223288.P6098056730481244603
-
-/-! ## A223288.P16407278191136857494
-
-`A223282(eq[8, A131818(n+1)])`
--/
-
-namespace A223288.P16407278191136857494
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223282 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223288.P16407278191136857494
 
 /-!
 # A223289: 4-loop graph coloring a rectangular array: number of n X n 0..8 arrays where 0..8 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 0,7 7,8 8,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -7954,51 +4564,6 @@ end
 
 end A223292.P7655844570334207731
 
-/-! ## A223292.P3277711549860763758
-
-`lcm(2, A223297(A167614(n+1)))`
--/
-
-namespace A223292.P3277711549860763758
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 2 (A223297 (A167614 (n + 1)).toNat)
-
-end
-
-end A223292.P3277711549860763758
-
-/-! ## A223292.P2384253490763156687
-
-`A223297(A167614(n+1))+A025444(n)`
--/
-
-namespace A223292.P2384253490763156687
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A167614 (n + 1)).toNat + A025444 n
-
-end
-
-end A223292.P2384253490763156687
-
-/-! ## A223292.P13362830925594892326
-
-`A223297(A167614(n+1))%A223293(n+1)`
--/
-
-namespace A223292.P13362830925594892326
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A223297 (A167614 (n + 1)).toNat) (A223293 (n + 1))
-
-end
-
-end A223292.P13362830925594892326
-
 /-! ## A223292.P11812848961076388245
 
 `record[A223297(A167614(∑{e}[n+1, #]+1))]`
@@ -8041,65 +4606,20 @@ end
 
 end A223293.P2659174266549054175
 
-/-! ## A223293.P18350641447923427499
+/-! ## A223293.P4862189471738536459
 
-`A223297(A055999(n)+10)`
+`A223297(A141214(n+1))`
 -/
 
-namespace A223293.P18350641447923427499
+namespace A223293.P4862189471738536459
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A055999 n + 10).toNat
+  A223297 (A141214 (n + 1)).toNat
 
 end
 
-end A223293.P18350641447923427499
-
-/-! ## A223293.P768929978655163261
-
-`A223297(A167614(n+2)+1)`
--/
-
-namespace A223293.P768929978655163261
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A223293.P768929978655163261
-
-/-! ## A223293.P2806946467118327515
-
-`A223297(A112355(n+1)+4)`
--/
-
-namespace A223293.P2806946467118327515
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A112355 (n + 1) + 4).toNat
-
-end
-
-end A223293.P2806946467118327515
-
-/-! ## A223293.P17651644750720581702
-
-`A223297(A000217(n+3)+4)`
--/
-
-namespace A223293.P17651644750720581702
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A000217 (n + 3) + 4).toNat
-
-end
-
-end A223293.P17651644750720581702
+end A223293.P4862189471738536459
 
 /-!
 # A223294: 4-loop graph coloring a rectangular array: number of nX5 0..8 arrays where 0..8 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 0,7 7,8 8,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -8122,24 +4642,6 @@ end
 
 end A223294.P7066390803521768322
 
-/-! ## A223294.P8402520591535102441
-
-`A223297(Δ[A023545(n+1)])`
--/
-
-namespace A223294.P8402520591535102441
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223294.P8402520591535102441
-
 /-!
 # A223295: 4-loop graph coloring a rectangular array: number of nX6 0..8 arrays where 0..8 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 0,7 7,8 8,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
@@ -8161,21 +4663,6 @@ end
 
 end A223295.P10585059916228208628
 
-/-! ## A223295.P17221851244985595445
-
-`A223297(A000217(n+5)+6)`
--/
-
-namespace A223295.P17221851244985595445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A223295.P17221851244985595445
-
 /-! ## A223295.P5977880200402906723
 
 `A223297(A374007(n+1))`
@@ -8190,45 +4677,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223295.P5977880200402906723
-
-/-! ## A223295.P17962757496211636169
-
-`A223297(eq[16, A166065(n)])`
--/
-
-namespace A223295.P17962757496211636169
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  16
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166065 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A223295.P17962757496211636169
-
-/-! ## A223295.P6961385644980160046
-
-`A223297(Δ[A023545(n+2)]-1)`
--/
-
-namespace A223295.P6961385644980160046
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (f1 (n + 1) - f1 n - 1).toNat
-
-end
-
-end A223295.P6961385644980160046
 
 /-!
 # A223296: 4-loop graph coloring a rectangular array: number of n X 7 0..8 arrays where 0..8 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 0,5 5,6 6,0 0,7 7,8 8,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
@@ -8271,21 +4719,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223296.P9644913032975336900
-
-/-! ## A223296.P4419410656150876824
-
-`A223297(A000217(n+6)+n+1)`
--/
-
-namespace A223296.P4419410656150876824
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223297 (A000217 (n + 6) + (n + 1 : ℤ)).toNat
-
-end
-
-end A223296.P4419410656150876824
 
 /-!
 # A223298: 4X4X4 triangular graph coloring a rectangular array: number of n X n 0..9 arrays where 0..9 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.

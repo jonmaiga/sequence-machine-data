@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(2^(2^(2*k+1)) - 1).",
+  "id": "A402342",
+  "mentions": [
+    "A048649",
+    "A402343"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least number of Wang tile types that tile an n X n square but not an (n+1) X (n+1) square.",
+  "id": "A402127",
+  "mentions": [
+    "A060843",
+    "A125269",
+    "A327705"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

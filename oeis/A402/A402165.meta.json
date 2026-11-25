@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps to reach 2 starting from n under the map x -> x/lpf(x) + 1, where lpf(x) is the least prime factor of x (A020639).",
+  "id": "A402165",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A052548",
+    "A064097",
+    "A065091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

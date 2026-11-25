@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of regions that can be formed in the plane by drawing n non-overlapping circles.",
+  "id": "A402293",
+  "mentions": [
+    "A296515",
+    "A386480",
+    "A402292"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

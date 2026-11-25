@@ -1,0 +1,19 @@
+{
+  "description": "Position of the first occurrence of n in A342002.",
+  "id": "A401922",
+  "mentions": [
+    "A327860",
+    "A342002",
+    "A401731",
+    "A401921"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

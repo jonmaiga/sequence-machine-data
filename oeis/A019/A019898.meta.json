@@ -2,7 +2,8 @@
   "description": "Decimal expansion of sine of 89 degrees.",
   "id": "A019898",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A112244"
   ],
   "tags": [
     "cons",

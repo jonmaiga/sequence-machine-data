@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n} k^2 * a(n-k).",
+  "id": "A402397",
+  "mentions": [
+    "A033453",
+    "A122367",
+    "A402398",
+    "A402399",
+    "A402400"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

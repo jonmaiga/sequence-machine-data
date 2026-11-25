@@ -2,11 +2,13 @@
   "description": "Number of even-length strict integer partitions of 2n+1.",
   "id": "A343942",
   "mentions": [
+    "A000009",
     "A000041",
     "A000070",
     "A000097",
     "A000290",
     "A005117",
+    "A010815",
     "A027187",
     "A028260",
     "A030229",

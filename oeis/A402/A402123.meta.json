@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to partition the numbers from 1 to n into blocks of consecutive integers such that the sum of the smallest and largest numbers in each block is a perfect square.",
+  "id": "A402123",
+  "mentions": [
+    "A095986"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

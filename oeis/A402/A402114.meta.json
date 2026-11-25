@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of tangential quadrilaterals, up to congruence, with integer side lengths, integer inradius, and semiperimeter n.",
+  "id": "A402114",
+  "mentions": [
+    "A273771",
+    "A402115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

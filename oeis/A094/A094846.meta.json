@@ -2,7 +2,9 @@
   "description": "Records in A001987.",
   "id": "A094846",
   "mentions": [
-    "A001987"
+    "A001987",
+    "A094845",
+    "A399983"
   ],
   "tags": [
     "more",

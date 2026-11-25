@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [(p-1)/2 * (q-1)/2] mod p where p = (n+1)th odd prime, q = n-th odd prime.",
+  "description": "a(n) = ((p-1)/2 * (q-1)/2) mod p where p = (n+1)-th odd prime, q = n-th odd prime.",
   "id": "A087428",
   "mentions": [
     "A087427"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

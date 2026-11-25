@@ -6,14 +6,13 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C036
 import Seq.B000.C040
@@ -24,17 +23,17 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C012
-import Seq.B001.C014
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -49,11 +48,13 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,24 +105,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396300.P12301097760733191933
-
-/-! ## A396300.P14183267684841426006
-
-`A280864(∑[A283832(1+n)])`
--/
-
-namespace A396300.P14183267684841426006
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283832 (1 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280864 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A396300.P14183267684841426006
 
 /-!
 # A396301: a(n) is the value of the first term in the n-th block of A280864.
@@ -290,21 +273,6 @@ end
 
 end A396302.P6279674615540405786
 
-/-! ## A396302.P7152917072591616974
-
-`A054523(gcd(A026793(n+1), A355393(n)))`
--/
-
-namespace A396302.P7152917072591616974
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054523 (Int.gcd (A026793 (n + 1)) (A355393 n))
-
-end
-
-end A396302.P7152917072591616974
-
 /-! ## A396302.P1961131493122825763
 
 `A240328(A250120(abs(2-n²)))+1`
@@ -319,6 +287,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396302.P1961131493122825763
+
+/-! ## A396302.P794311255970872472
+
+`A171905(A156540(n))`
+-/
+
+namespace A396302.P794311255970872472
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171905 (A156540 n).toNat
+
+end
+
+end A396302.P794311255970872472
 
 /-!
 # A396303: Primes that begin a block of terms in A280864.
@@ -1404,20 +1387,20 @@ end
 
 end A396319.P13176680373153979049
 
-/-! ## A396319.P16314414817529889924
+/-! ## A396319.P4515746206615221965
 
-`A000203(A034699(n+2))%A000043(3*n+5)`
+`A000203(A034699(n+2))`
 -/
 
-namespace A396319.P16314414817529889924
+namespace A396319.P4515746206615221965
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000203 (A034699 (n + 2)).toNat) (A000043 (3 * n + 5))
+  A000203 (A034699 (n + 2)).toNat
 
 end
 
-end A396319.P16314414817529889924
+end A396319.P4515746206615221965
 
 /-!
 # A396321: Number of n X n binary matrices with exactly 10 1's such that there are an even number of 1's in every row and column.
@@ -2695,32 +2678,6 @@ def P3079710311546505329.Spec : Prop :=
 
 end A396344
 
-/-! ## A396344.P8615219986897090765
-
-`A396347(record[A396346(n+3)])`
--/
-
-namespace A396344.P8615219986897090765
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396346 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396347 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A396344.P8615219986897090765
-
-namespace A396344
-
-/-- `A396347(record[A396346(n+3)])` -/
-def P8615219986897090765.Spec : Prop :=
-  ∀ n, P8615219986897090765.a n = A396344 (n + 1)
-
-end A396344
-
 /-!
 # A396345: Expansion of x * (3+3*x-8*x^2-3*x^3+2*x^4-3*x^5+4*x^6+x^7-x^8)/((1-x)^2 * (1+x) * (1-3*x^2-x^4+x^6)).
 
@@ -2919,52 +2876,6 @@ namespace A396348
 /-- `A060176(A278818(n))` -/
 def P3604061063505832311.Spec : Prop :=
   ∀ n, P3604061063505832311.a n = A396348 (n + 1)
-
-end A396348
-
-/-! ## A396348.P13092462153322042456
-
-`A060176(A038722(1+n))`
--/
-
-namespace A396348.P13092462153322042456
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060176 (A038722 (1 + n)).toNat
-
-end
-
-end A396348.P13092462153322042456
-
-namespace A396348
-
-/-- `A060176(A038722(1+n))` -/
-def P13092462153322042456.Spec : Prop :=
-  ∀ n, P13092462153322042456.a n = A396348 (n + 1)
-
-end A396348
-
-/-! ## A396348.P9310174807208931916
-
-`A060176(A114327(n)+n+1)`
--/
-
-namespace A396348.P9310174807208931916
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060176 (A114327 n + (n : ℤ) + 1).toNat
-
-end
-
-end A396348.P9310174807208931916
-
-namespace A396348
-
-/-- `A060176(A114327(n)+n+1)` -/
-def P9310174807208931916.Spec : Prop :=
-  ∀ n, P9310174807208931916.a n = A396348 (n + 1)
 
 end A396348
 
@@ -3212,6 +3123,27 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 1] fun n a =>
 end
 
 end A396358.P7396867438168927381
+
+/-!
+# A396363: Numbers k >= 1 for which a record number of trailing digits in 2 different bases are equal.
+
+The programs for A396363, there is no canonical definition to state claims against.
+-/
+
+/-! ## A396363.P18346684095339447496
+
+`A054345(A002920(n))`
+-/
+
+namespace A396363.P18346684095339447496
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054345 (A002920 n).toNat
+
+end
+
+end A396363.P18346684095339447496
 
 /-!
 # A396364: Triangle T(n, k) read by rows: number of graphs in A396149 on n vertices containing exactly k triangles, for n >= 0, 0 <= k <= binomial(n, 3).

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the greedy algorithm for writing k as a sum of positive squares uses the least possible number of squares; i.e., numbers k such that A053610(k) = A002828(k).",
+  "id": "A401548",
+  "mentions": [
+    "A000290",
+    "A002828",
+    "A004215",
+    "A006892",
+    "A053610",
+    "A062535",
+    "A401547"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (6*y + 1) * (6*x + 1) for integers x>0 and y>0.",
+  "id": "A401605",
+  "mentions": [
+    "A070043",
+    "A091300"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

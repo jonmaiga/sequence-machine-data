@@ -2,7 +2,11 @@
   "description": "Least k such that k*M#(n) + 1 is prime where M#(n) is the product of the first n Mersenne primes = Product_{j=1..n} A000668(j).",
   "id": "A098920",
   "mentions": [
-    "A000668"
+    "A000043",
+    "A000668",
+    "A098917",
+    "A098918",
+    "A098919"
   ],
   "tags": [
     "hard",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

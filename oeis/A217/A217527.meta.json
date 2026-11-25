@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 2^(n-2)*(n-2)^2+2^(n-1).",
   "id": "A217527",
-  "mentions": [],
+  "mentions": [
+    "A356888"
+  ],
   "tags": [
     "easy",
     "formulas",

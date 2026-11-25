@@ -1,0 +1,29 @@
+{
+  "description": "Least eventual period of row n of the array T(x,y) = mex{c: T(x-d,y) = T(x,y-d) = T(x-d,y-d) = c for some 1 <= d <= min(x,y)}, x,y >= 0.",
+  "id": "A399521",
+  "mentions": [
+    "A004198",
+    "A006997",
+    "A007814",
+    "A046875",
+    "A047999",
+    "A062383",
+    "A268229",
+    "A296613",
+    "A401735",
+    "A401736",
+    "A401737",
+    "A401738",
+    "A401739"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

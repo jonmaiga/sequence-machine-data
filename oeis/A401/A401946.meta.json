@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integers k such that k - reversal of k in base 2 = n.",
+  "id": "A401946",
+  "mentions": [
+    "A030101",
+    "A055945",
+    "A104348",
+    "A400463"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

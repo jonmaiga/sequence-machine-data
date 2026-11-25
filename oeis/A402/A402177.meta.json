@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct polynomials obtained after n steps starting from P(x) = 1 and repeatedly applying either P -> x*(x*P)' or P -> P(0) + Integral_{t=0..x} ((P(t) - P(0))/t) dt.",
+  "id": "A402177",
+  "mentions": [
+    "A402178"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

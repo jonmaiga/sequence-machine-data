@@ -1,0 +1,19 @@
+{
+  "description": "Primes p > 2 such that either (4/3)*p# - 1 or (8/3)*p# - 1 is prime, where prime(n)# = A002110(n).",
+  "id": "A402432",
+  "mentions": [
+    "A002110",
+    "A102476",
+    "A402499",
+    "A402505"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2^(3*n-1))/(integral_{x=0..1} (1-x^4)^n dx).",
+  "description": "a(n) = (2^(3*n-1))/(Integral_{x=0..1} (1-x^4)^n dx).",
   "id": "A088505",
   "mentions": [
     "A007695",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

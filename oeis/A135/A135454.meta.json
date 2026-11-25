@@ -2,7 +2,8 @@
   "description": "Number of sums payable using exactly n banknotes of denominations 1, 5, 10, 20, 50, 100.",
   "id": "A135454",
   "mentions": [
-    "A135137"
+    "A135137",
+    "A401835"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
-    "source": "oeis-bfile"
+    "size": 48,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the 2-adic rational xi(h(n)), where h is the parity-preserving conjugacy between the Collatz map T = A014682 and Monks' q-analog T_q(x) = x/q if x is even, ((1+q)*x+1)/q if x is odd, on F_2[[q]].",
+  "id": "A401592",
+  "mentions": [
+    "A006666",
+    "A006667",
+    "A014682",
+    "A389685",
+    "A401593"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

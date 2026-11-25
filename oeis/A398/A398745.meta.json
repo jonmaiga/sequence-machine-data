@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p >= 5 with p > n + 1 for which the iteration of K_n(u) = (u^3 - (n^2 + n + 1)*u)/(n*(n + 1)) on GF(p) collapses every element into {-1, 0, 1}, or 0 if no such prime exists.",
+  "id": "A398745",
+  "mentions": [
+    "A001652",
+    "A001653",
+    "A001844",
+    "A002315",
+    "A003215",
+    "A086383",
+    "A401173",
+    "A401667"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

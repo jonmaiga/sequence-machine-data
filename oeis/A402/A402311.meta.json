@@ -1,0 +1,20 @@
+{
+  "description": "Narrow class numbers associated with terms of A401222.",
+  "id": "A402311",
+  "mentions": [
+    "A002189",
+    "A399983",
+    "A400772",
+    "A401222",
+    "A401260"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

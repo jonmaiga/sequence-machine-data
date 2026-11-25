@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 10^n - 3.",
+  "description": "Primes of the form 10^k - 3.",
   "id": "A093172",
   "mentions": [
     "A002275",

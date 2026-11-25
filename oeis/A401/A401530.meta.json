@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + omega(k)^9.",
+  "id": "A401530",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A001615",
+    "A398806",
+    "A399921"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that there is no j with 1 <= j < k such that the product of digits of k is the sum of the product of digits of j and the product of digits of k-j.",
+  "id": "A400774",
+  "mentions": [
+    "A002282",
+    "A002283",
+    "A007954",
+    "A009994",
+    "A059995",
+    "A401802",
+    "A401862",
+    "A401881"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

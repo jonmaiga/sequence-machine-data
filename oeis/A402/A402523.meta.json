@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices whose hull number is equal to the number of simplicial vertices.",
+  "id": "A402523",
+  "mentions": [
+    "A001349",
+    "A401800",
+    "A402522"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

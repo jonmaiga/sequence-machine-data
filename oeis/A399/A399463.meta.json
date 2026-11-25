@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions (ordered partitions) of n such that (greatest part) - (least part) = number of parts.",
+  "id": "A399463",
+  "mentions": [
+    "A011782",
+    "A237832",
+    "A399844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

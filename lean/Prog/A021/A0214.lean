@@ -5,9 +5,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C008
@@ -892,75 +890,6 @@ def P16032803064168811139.Spec : Prop :=
 
 end A021424
 
-/-! ## A021424.P7480043525900565050
-
-`A039755(A052905(n)+8)`
--/
-
-namespace A021424.P7480043525900565050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039755 (A052905 n + 8).toNat
-
-end
-
-end A021424.P7480043525900565050
-
-namespace A021424
-
-/-- `A039755(A052905(n)+8)` -/
-def P7480043525900565050.Spec : Prop :=
-  ∀ n, P7480043525900565050.a n = A021424 n
-
-end A021424
-
-/-! ## A021424.P3643242548635524130
-
-`A039755(A253145(n+2)+3)`
--/
-
-namespace A021424.P3643242548635524130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039755 (A253145 (n + 2) + 3).toNat
-
-end
-
-end A021424.P3643242548635524130
-
-namespace A021424
-
-/-- `A039755(A253145(n+2)+3)` -/
-def P3643242548635524130.Spec : Prop :=
-  ∀ n, P3643242548635524130.a n = A021424 n
-
-end A021424
-
-/-! ## A021424.P3417854820181156546
-
-`A039755(A000096(n+2)+4)`
--/
-
-namespace A021424.P3417854820181156546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039755 (A000096 (n + 2) + 4).toNat
-
-end
-
-end A021424.P3417854820181156546
-
-namespace A021424
-
-/-- `A039755(A000096(n+2)+4)` -/
-def P3417854820181156546.Spec : Prop :=
-  ∀ n, P3417854820181156546.a n = A021424 n
-
-end A021424
-
 /-!
 # A021429: Decimal expansion of 1/425.
 
@@ -1398,29 +1327,6 @@ namespace A021454
 /-- `A016209(n)+9*a(n-1)` -/
 def P4335598733325512496.Spec : Prop :=
   ∀ n, P4335598733325512496.a n = A021454 n
-
-end A021454
-
-/-! ## A021454.P11492017620402028433
-
-`a(n-1)+A017897(n)+A000007(n+1)` with `a(0)=1`
--/
-
-namespace A021454.P11492017620402028433
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (A017897 n + A000007 (n + 1))
-
-end
-
-end A021454.P11492017620402028433
-
-namespace A021454
-
-/-- `a(n-1)+A017897(n)+A000007(n+1)` -/
-def P11492017620402028433.Spec : Prop :=
-  ∀ n, P11492017620402028433.a n = A021454 n
 
 end A021454
 

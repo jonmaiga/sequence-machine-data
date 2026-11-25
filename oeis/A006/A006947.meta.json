@@ -1,13 +1,15 @@
 {
-  "description": "Two-rowed truncated monotone triangles.",
+  "description": "Number of two-rowed truncated monotone triangles of size n.",
   "id": "A006947",
-  "mentions": [],
+  "mentions": [
+    "A005130"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

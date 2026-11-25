@@ -1,0 +1,21 @@
+{
+  "description": "Number of jumps until the n-th return to 0 of the walk on the integers that starts at 0 and, on its j-th visit to an integer x, jumps to x - j if x > 0 and to x + j if x <= 0.",
+  "id": "A399658",
+  "mentions": [
+    "A001122",
+    "A002326",
+    "A054639",
+    "A163782",
+    "A358338",
+    "A401747"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

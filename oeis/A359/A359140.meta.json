@@ -3,11 +3,12 @@
   "id": "A359140",
   "mentions": [],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

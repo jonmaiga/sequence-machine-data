@@ -1,0 +1,24 @@
+{
+  "description": "Number of cycles under iteration (including fixed points) of the function S(x) = 1+sum of squares of base n digits.",
+  "id": "A401460",
+  "mentions": [
+    "A193583",
+    "A193585",
+    "A193586",
+    "A401457",
+    "A401458",
+    "A401459",
+    "A401461",
+    "A401462"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

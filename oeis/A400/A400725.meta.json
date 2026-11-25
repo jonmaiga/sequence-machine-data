@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 4^k - 3^k is squarefree.",
+  "id": "A400725",
+  "mentions": [
+    "A398834",
+    "A400724",
+    "A400726",
+    "A400727"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

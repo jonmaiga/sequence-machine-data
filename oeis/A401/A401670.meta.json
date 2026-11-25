@@ -1,0 +1,20 @@
+{
+  "description": "Number of domicule tilings of a 2n X 2n toroidal grid.",
+  "id": "A401670",
+  "mentions": [
+    "A239264",
+    "A239273",
+    "A335586",
+    "A401669"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "Decimal expansion of the fifth root of cosine of 1 degree.",
   "id": "A111692",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A112256"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the height h of the shortest building which can see exactly h buildings due north and due west of itself, by rules in A400000.",
+  "id": "A401750",
+  "mentions": [
+    "A000070",
+    "A400000",
+    "A402009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

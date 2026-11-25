@@ -1,0 +1,19 @@
+{
+  "description": "Primitive quotients in increasing order, obtained when a primitive term m of A401339 divides the number formed by inserting a 0 between each pair of consecutive digits of this term m.",
+  "id": "A401340",
+  "mentions": [
+    "A051022",
+    "A343550",
+    "A343551",
+    "A401339"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

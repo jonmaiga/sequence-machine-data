@@ -1,0 +1,33 @@
+{
+  "description": "Square roots of the central entries in a six-square 3 X 3 magic-square construction from Pythagorean primes using fourth powers of the hypotenuse and the sum of the legs.",
+  "id": "A402008",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003",
+    "A401004",
+    "A401444",
+    "A401445",
+    "A401446",
+    "A401740",
+    "A401741",
+    "A401742",
+    "A402006",
+    "A402007"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

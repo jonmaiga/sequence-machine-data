@@ -1,0 +1,20 @@
+{
+  "description": "Product_{n>=1} zeta(n*s)^a(n) equals the Dirichlet series of the 5-full numbers.",
+  "id": "A401768",
+  "mentions": [
+    "A069492",
+    "A401758",
+    "A401767",
+    "A401770"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty convex vertex sets in the n X n king graph.",
+  "id": "A401793",
+  "mentions": [
+    "A166189",
+    "A401792",
+    "A401797"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets of three distinct triangulations of a convex n-gon such that the graph formed by the sides of the polygon and the diagonals of the three triangulations is not 4-colorable.",
+  "id": "A402160",
+  "mentions": [
+    "A000108",
+    "A265279"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

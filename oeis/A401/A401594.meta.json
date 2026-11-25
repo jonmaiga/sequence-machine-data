@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the n-th prime that does not contain the string \"k\", with n >= 1, k >= 0.",
+  "id": "A401594",
+  "mentions": [
+    "A000040",
+    "A038603",
+    "A038604",
+    "A038611",
+    "A038612",
+    "A038613",
+    "A038614",
+    "A038615",
+    "A038616",
+    "A038617",
+    "A038618",
+    "A076805",
+    "A401754"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

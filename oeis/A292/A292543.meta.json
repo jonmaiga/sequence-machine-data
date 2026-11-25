@@ -2,6 +2,7 @@
   "description": "Number of 5-cycles in the n-Sierpinski tetrahedron graph.",
   "id": "A292543",
   "mentions": [
+    "A000302",
     "A002023",
     "A292540",
     "A292542",

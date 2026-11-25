@@ -13,11 +13,10 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
-import Seq.Opaque.C019
-import Seq.Opaque.C020
 
 /-!
 # A168824: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^20 = I.
@@ -123,42 +122,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A168825.P16056713568620293100
-
-/-! ## A168825.P15274194084007904524
-
-`Δ[3*(a(n-1)-A010894(A000069(n+2)))]` with `a(0)=1, a(1)=2`
--/
-
-namespace A168825.P15274194084007904524
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n f1 =>
-  3 * (f1 (n - 1) - A010894 ((A000069 (n + 2)).toNat + 21))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A168825.P15274194084007904524
-
-/-! ## A168825.P3657512055815074259
-
-`record[3*(a(n-1)-A004198(A185044(n)))]` with `a(0)=1, a(1)=1, a(2)=4, a(3)=1, a(4)=4`
--/
-
-namespace A168825.P3657512055815074259
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 4, 1, 4] fun n f1 =>
-  3 * (f1 (n - 1) - A004198 (A185044 n).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A168825.P3657512055815074259
 
 /-! ## A168825.P15912813719618423110
 
@@ -435,57 +398,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4] fun n a =>
 end
 
 end A168873.P13685803090948140590
-
-/-! ## A168873.P4291295021835976248
-
-`record[3*(a(n-1)-A004198(A185044(n)))]` with `a(0)=1, a(1)=4, a(2)=1, a(3)=4`
--/
-
-namespace A168873.P4291295021835976248
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 4, 1, 4] fun n f1 =>
-  3 * (f1 (n - 1) - A004198 (A185044 n).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A168873.P4291295021835976248
-
-/-! ## A168873.P14192044268875206641
-
-`record[3*(a(n-1)-A309785(A331562(n)))]` with `a(0)=1, a(1)=4, a(2)=1, a(3)=4`
--/
-
-namespace A168873.P14192044268875206641
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 4, 1, 4] fun n f1 =>
-  3 * (f1 (n - 1) - A309785 (A331562 n).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A168873.P14192044268875206641
-
-/-! ## A168873.P2038862725858876783
-
-`abs(A173452(A236939(n))+A003946(n))`
--/
-
-namespace A168873.P2038862725858876783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A173452 (A236939 (n + 10)).toNat + A003946 n|
-
-end
-
-end A168873.P2038862725858876783
 
 /-!
 # A168874: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^21 = I.

@@ -1,15 +1,18 @@
 {
-  "description": "Twin primes whose digits are primes.",
+  "description": "Lesser twin primes whose digits are primes.",
   "id": "A087367",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A019546"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 34,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
   }
 }

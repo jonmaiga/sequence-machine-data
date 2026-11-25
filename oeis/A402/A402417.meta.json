@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A402416(A102476(n)) is largest minimal element of cosets of (Z/NZ)*^2 in (Z/NZ)*, where N = A102476(n), (Z/NZ)* is the multiplicative group of integers modulo N and (Z/NZ)*^2 is the subgroup of squares.",
+  "id": "A402417",
+  "mentions": [
+    "A102476",
+    "A402416",
+    "A402418",
+    "A402419"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

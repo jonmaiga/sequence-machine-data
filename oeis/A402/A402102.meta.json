@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to earn a score of 1.5*n on the AMC 10 or AMC 12, distinct up to the particular questions answered correctly, left blank, or answered incorrectly. See comments.",
+  "id": "A402102",
+  "mentions": [
+    "A402101"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

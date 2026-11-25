@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n=1..inf} 1/(n^3*binomial(2n,n)).",
+  "description": "Decimal expansion of Sum_{n=1..inf} 1/(n^3*binomial(2n,n)).",
   "id": "A145438",
   "mentions": [
     "A002117",

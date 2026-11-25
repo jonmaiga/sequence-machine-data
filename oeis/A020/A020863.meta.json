@@ -2,6 +2,8 @@
   "description": "Decimal expansion of log_2(11).",
   "id": "A020863",
   "mentions": [
+    "A002162",
+    "A016634",
     "A020857",
     "A020858",
     "A020859",
@@ -23,6 +25,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

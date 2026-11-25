@@ -2,10 +2,12 @@
   "description": "Decimal expansion of (secant of 1 degree)^(1/3).",
   "id": "A112254",
   "mentions": [
-    "A019898"
+    "A019898",
+    "A111664"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

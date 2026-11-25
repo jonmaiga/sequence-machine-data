@@ -1,0 +1,23 @@
+{
+  "description": "Number of coincidence site lattices of index 2n-1 in the cubic lattice Z^3, counted up to the rotations of the cube.",
+  "id": "A401864",
+  "mentions": [
+    "A001615",
+    "A031359",
+    "A031360",
+    "A031361",
+    "A331139",
+    "A331140",
+    "A331141",
+    "A331142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

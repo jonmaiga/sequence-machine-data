@@ -5,15 +5,11 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B001.C000
 import Seq.B001.C001
@@ -658,35 +654,6 @@ def P3578037745448701807.Spec : Prop :=
 
 end A021514
 
-/-! ## A021514.P14463912318271496730
-
-`A080248(eq[2, A165680(n+1)])`
--/
-
-namespace A021514.P14463912318271496730
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165680 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080248 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A021514.P14463912318271496730
-
-namespace A021514
-
-/-- `A080248(eq[2, A165680(n+1)])` -/
-def P14463912318271496730.Spec : Prop :=
-  ∀ n, P14463912318271496730.a n = A021514 n
-
-end A021514
-
 /-!
 # A021522: Decimal expansion of 1/518.
 
@@ -1026,60 +993,6 @@ end
 
 end A021534.P15876613554390037960
 
-/-! ## A021534.P7331110000178970662
-
-`or(∑[A017954(n)], A130706(n))`
--/
-
-namespace A021534.P7331110000178970662
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (∑ j ∈ Finset.range (n + 1), f1 j) (A130706 n)
-
-end
-
-end A021534.P7331110000178970662
-
-/-! ## A021534.P13227098640231462488
-
-`A122434(3*n+2)+∑[A017954(n)]`
--/
-
-namespace A021534.P13227098640231462488
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122434 (3 * n + 2) + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A021534.P13227098640231462488
-
-/-! ## A021534.P14441036274046302642
-
-`∑[A017954(n)]*A033999(2*(n+2))`
--/
-
-namespace A021534.P14441036274046302642
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j) * A033999 (2 * (n + 2))
-
-end
-
-end A021534.P14441036274046302642
-
 /-! ## A021534.P15832748887657754357
 
 `a(n-1)+∑[A171476(n)]*A000244(n)` with `a(0)=1`
@@ -1097,24 +1010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A021534.P15832748887657754357
-
-/-! ## A021534.P5822196656798093676
-
-`∑[A017954(n)]%A017944(2*(n+1))`
--/
-
-namespace A021534.P5822196656798093676
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017954 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (∑ j ∈ Finset.range (n + 1), f1 j) (A017944 (2 * (n + 1)))
-
-end
-
-end A021534.P5822196656798093676
 
 /-!
 # A021544: Expansion of g.f. 1/((1 - x)*(1 - 3*x)*(1 - 7*x)*(1 - 8*x)).

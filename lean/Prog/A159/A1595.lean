@@ -13,7 +13,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
@@ -52,6 +51,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -64,6 +64,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -362,32 +363,6 @@ namespace A159554
 /-- `A159068(n+1)/(n+1)+1` -/
 def P13160774853742600938.Spec : Prop :=
   ∀ n, P13160774853742600938.a n = (A159554 (n + 1) : ℚ)
-
-end A159554
-
-/-! ## A159554.P12800328268310089974
-
-`(n+1)^A033880(Δ[A130568(n)])*A159068(n+1)+1`
--/
-
-namespace A159554.P12800328268310089974
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130568 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (A033880 (f1 (n + 1) - f1 n).toNat : ℤ) * (A159068 (n + 1) : ℚ) + 1
-
-end
-
-end A159554.P12800328268310089974
-
-namespace A159554
-
-/-- `(n+1)^A033880(Δ[A130568(n)])*A159068(n+1)+1` -/
-def P12800328268310089974.Spec : Prop :=
-  ∀ n, P12800328268310089974.a n = (A159554 (n + 1) : ℚ)
 
 end A159554
 
@@ -1978,19 +1953,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159599.P9941286771142488947
-
-/-! ## A159599.P313260926353683141
-
-`A136119(or(A089646(n+1), A230317(n)))`
--/
-
-namespace A159599.P313260926353683141
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136119 (Int.lor (A089646 (n + 1)) (A230317 n)).toNat
-
-end
-
-end A159599.P313260926353683141
 

@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes in the n-th maximal cluster of primes with consecutive gaps at most 10.",
+  "id": "A402276",
+  "mentions": [
+    "A399819",
+    "A399821",
+    "A401908",
+    "A401909",
+    "A402275"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

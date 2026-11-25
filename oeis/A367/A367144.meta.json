@@ -1,5 +1,5 @@
 {
-  "description": "Number of simplical-free simple graphs on n unlabeled vertices.",
+  "description": "Number of simplicial-free simple graphs on n unlabeled vertices.",
   "id": "A367144",
   "mentions": [
     "A366367",

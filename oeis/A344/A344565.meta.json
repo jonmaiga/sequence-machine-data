@@ -2,6 +2,23 @@
   "description": "Triangle read by rows, for 0 <= k <= n: T(n, k) = binomial(n, k) * binomial(binomial(n + 3, 2), 2).",
   "id": "A344565",
   "mentions": [
+    "A000007",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A000581",
+    "A000582",
+    "A001287",
+    "A001288",
+    "A001873",
+    "A003472",
+    "A010965",
+    "A011001",
+    "A050534",
+    "A106440",
+    "A151974",
+    "A253943",
     "A344564",
     "A344678"
   ],
@@ -13,6 +30,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

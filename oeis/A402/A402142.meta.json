@@ -1,0 +1,35 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of k-part integer compositions of n that do not comprise a 1-based restricted growth sequence.",
+  "id": "A402142",
+  "mentions": [
+    "A000041",
+    "A008277",
+    "A008284",
+    "A011782",
+    "A047967",
+    "A055932",
+    "A057716",
+    "A072233",
+    "A097805",
+    "A098133",
+    "A171682",
+    "A325545",
+    "A325548",
+    "A383253",
+    "A383713",
+    "A402138",
+    "A402139",
+    "A402140",
+    "A402141",
+    "A402143"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

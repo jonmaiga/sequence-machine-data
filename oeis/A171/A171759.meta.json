@@ -1,7 +1,12 @@
 {
   "description": "Decimal expansion of limit sqrt(2*sqrt(3*sqrt(5*sqrt(7*sqrt(11*...sqrt(prime(n))...))))).",
   "id": "A171759",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A105546",
+    "A112302"
+  ],
   "tags": [
     "cons",
     "formulas",

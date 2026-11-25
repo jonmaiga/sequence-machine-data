@@ -1,0 +1,23 @@
+{
+  "description": "Card read at step n if, at each step, the top card of the deck 1, 2, 3, ... is read, removed and put back below n - k of the remaining cards, where k is the last earlier step at which this card was read (k = 0 if there is none).",
+  "id": "A402125",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A001511",
+    "A001696",
+    "A045761",
+    "A268107",
+    "A355080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

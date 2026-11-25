@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bit primes of the form 2^i +- 2^j + 1 with i > j >= 2.",
+  "id": "A401981",
+  "mentions": [
+    "A081091",
+    "A095056",
+    "A152449",
+    "A165255"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

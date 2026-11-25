@@ -1,14 +1,17 @@
 {
-  "description": "a(n) = A345993(n) - A345992(n).",
+  "description": "a(n) = gcd(n, 1+A344005(n)) - gcd(n, A344005(n)), otherwise 0, where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
   "id": "A354988",
   "mentions": [
     "A076388",
+    "A344005",
     "A345992",
     "A345993",
-    "A345995",
-    "A354989"
+    "A354989",
+    "A402585",
+    "A402588"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of steps required for the n-th prime to enter a loop when iterating the map: x -> nextprime(x*2) if primepi(x) is odd and x -> nextprime(x/2) otherwise.",
+  "id": "A401687",
+  "mentions": [
+    "A059786",
+    "A079953",
+    "A400414"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

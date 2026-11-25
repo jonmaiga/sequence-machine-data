@@ -1,0 +1,19 @@
+{
+  "description": "Digits of the decimal self-stirring word: start with 1, cycle through labels 0,...,9, skip zero counts, otherwise append the current count followed by its label, updating all counts immediately.",
+  "id": "A402566",
+  "mentions": [
+    "A402567",
+    "A402568"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

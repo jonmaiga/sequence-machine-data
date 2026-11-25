@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of liminf_{N->oo} log(N)*(E - E(N)), where E is the Shannon entropy of Benford's law and E(N) is the Shannon entropy of the leading decimal digit of a random integer k in 1..N chosen with probability proportional to 1/k.",
+  "id": "A401525",
+  "mentions": [
+    "A001620",
+    "A007524",
+    "A401526",
+    "A401527"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

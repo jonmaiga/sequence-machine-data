@@ -101,21 +101,6 @@ end
 
 end A021704.P11798637927040719930
 
-/-! ## A021704.P4580507026361537972
-
-`a(n-1)+A000244(n)*A016208(n)-A000007(n+1)` with `a(0)=1`
--/
-
-namespace A021704.P4580507026361537972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (A000244 n * A016208 n - A000007 (n + 1))
-
-end
-
-end A021704.P4580507026361537972
-
 /-!
 # A021706: Decimal expansion of 1/702.
 

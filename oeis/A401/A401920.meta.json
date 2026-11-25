@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A276085(k) is a multiple of A007947(k), where A276085 is fully additive with a(p) = p#/p, and A007947 is squarefree kernel.",
+  "id": "A401920",
+  "mentions": [
+    "A007947",
+    "A020639",
+    "A048103",
+    "A053669",
+    "A100716",
+    "A276085",
+    "A328571",
+    "A401232",
+    "A401233",
+    "A401237",
+    "A401919"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

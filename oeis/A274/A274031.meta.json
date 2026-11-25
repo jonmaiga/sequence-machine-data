@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of a doubly infinite sum involving harmonic numbers. Curiously, this sum is very close to 1.",
   "id": "A274031",
-  "mentions": [],
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013663"
+  ],
   "tags": [
     "cons",
     "formulas",

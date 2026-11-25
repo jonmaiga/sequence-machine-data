@@ -2,10 +2,12 @@
   "description": "Decimal expansion of e^(secant of 1 degree).",
   "id": "A112257",
   "mentions": [
-    "A019898"
+    "A019898",
+    "A112267"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

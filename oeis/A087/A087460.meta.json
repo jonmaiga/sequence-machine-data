@@ -1,5 +1,5 @@
 {
-  "description": "Least n such that H(n) is closer to an integer than any H(j) with j < n; where H(n) is the harmonic number sum_{i=0..n} 1/i.",
+  "description": "Least n such that H(n) is closer to an integer than any H(j) with j < n; where H(n) is the harmonic number Sum_{i=0..n} 1/i.",
   "id": "A087460",
   "mentions": [
     "A002387",

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + omega(k)^10.",
+  "id": "A399921",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A001615",
+    "A401530"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k in A033949 such that the minimal element of every coset of (Z/kZ)*^2 in (Z/kZ)* is 1 or prime, where (Z/kZ)* is the multiplicative group of integers modulo k and (Z/kZ)*^2 is the subgroup of squares.",
+  "id": "A402452",
+  "mentions": [
+    "A033948",
+    "A033949",
+    "A402418",
+    "A402453"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

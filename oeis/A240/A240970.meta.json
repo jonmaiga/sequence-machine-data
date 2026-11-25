@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of n consecutive positive cubes is a cube for some initial starting number k.",
+  "description": "Numbers m such that the sum of m consecutive positive cubes is a cube for some initial starting number k.",
   "id": "A240970",
   "mentions": [
     "A001032",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

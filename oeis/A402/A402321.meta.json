@@ -1,0 +1,19 @@
+{
+  "description": "Class numbers associated with terms of A102295.",
+  "id": "A402321",
+  "mentions": [
+    "A002189",
+    "A002224",
+    "A102295",
+    "A399983"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Square roots of [A055872/8]: Their square written in base 8, with some digit appended, is again a square.",
   "id": "A204512",
   "mentions": [
+    "A000129",
     "A001075",
     "A001541",
     "A004275",
@@ -25,6 +26,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -2,6 +2,7 @@
   "description": "Products of 7 consecutive integers.",
   "id": "A159083",
   "mentions": [
+    "A000580",
     "A008279",
     "A052762",
     "A052787",

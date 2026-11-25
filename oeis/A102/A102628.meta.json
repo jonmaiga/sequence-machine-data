@@ -1,14 +1,18 @@
 {
   "description": "Number of partitions of n in which the number of parts is relatively prime to n.",
   "id": "A102628",
-  "mentions": [],
+  "mentions": [
+    "A000041",
+    "A008284"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

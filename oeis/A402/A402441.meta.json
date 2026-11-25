@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k in [1,n] coprime to n such that -k is a quadratic residue modulo n.",
+  "id": "A402441",
+  "mentions": [
+    "A002110",
+    "A008784",
+    "A045535",
+    "A102476",
+    "A402439"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

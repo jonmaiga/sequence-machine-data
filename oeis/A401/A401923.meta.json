@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A342002(k) is a multiple of A276150(k).",
+  "id": "A401923",
+  "mentions": [
+    "A049345",
+    "A060735",
+    "A276150",
+    "A342002"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

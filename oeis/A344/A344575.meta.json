@@ -1,10 +1,14 @@
 {
-  "description": "a(n) = Sum_{d|n} d^abs(mu(n/d)).",
+  "description": "a(n) = Sum_{d|n} d^(mu(n/d)^2).",
   "id": "A344575",
   "mentions": [
-    "A008683"
+    "A000005",
+    "A001615",
+    "A008683",
+    "A034444"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

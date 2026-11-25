@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A402439(A102476(n)); largest k in [1,N] coprime to N such that k is a quadratic residue modulo N, N = A102476(n).",
+  "id": "A402440",
+  "mentions": [
+    "A002189",
+    "A045535",
+    "A096103",
+    "A102476",
+    "A303704",
+    "A402439"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

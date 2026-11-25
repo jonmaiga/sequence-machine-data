@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice points on the complete edge skeleton of a stella octangula.",
+  "id": "A401684",
+  "mentions": [
+    "A005914",
+    "A007588",
+    "A142241"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

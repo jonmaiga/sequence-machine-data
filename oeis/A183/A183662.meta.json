@@ -1,7 +1,10 @@
 {
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..5 arrays with every 2 X 2 subblock summing to 10.",
   "id": "A183662",
-  "mentions": [],
+  "mentions": [
+    "A183654",
+    "A183655"
+  ],
   "tags": [
     "formulas",
     "nonn",

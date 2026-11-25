@@ -9,12 +9,11 @@
     "A272301"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

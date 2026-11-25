@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of sum_{k>=0} (-1)^k*(log(4k+1)/(4k+1)+log(4k+3)/(4k+3)).",
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k*(log(4k+1)/(4k+1)+log(4k+3)/(4k+3)).",
   "id": "A242011",
   "mentions": [
+    "A001620",
     "A203142",
     "A203143",
     "A203144",

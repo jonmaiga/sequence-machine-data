@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the signature of the permutation (k mod n, 2*k mod n, ..., (n-1)*k mod n), n >= 1, 1 <= k <= n; T(n,k) = 0 if k is not coprime to n.",
+  "id": "A401152",
+  "mentions": [
+    "A007913",
+    "A033949",
+    "A054521",
+    "A215200",
+    "A401153",
+    "A402232",
+    "A402273"
+  ],
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

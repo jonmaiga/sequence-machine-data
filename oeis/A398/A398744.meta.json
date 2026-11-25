@@ -1,0 +1,14 @@
+{
+  "description": "a(n) represents the number of ways to tile a strip of length n with squares (length 1) and dominos (length 2) such that dominos are only placed on prime-numbered cells (0-based indexing).",
+  "id": "A398744",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

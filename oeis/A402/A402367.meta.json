@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of seven distinct positive 7th powers.",
+  "id": "A402367",
+  "mentions": [
+    "A001015",
+    "A004431",
+    "A024975",
+    "A031971",
+    "A176197",
+    "A402364",
+    "A402365",
+    "A402366",
+    "A402368"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

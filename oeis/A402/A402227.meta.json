@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled Hamiltonian digraphs with n vertices and k arcs, without loops, n >= 2, 0 <= k <= n*(n-1).",
+  "id": "A402227",
+  "mentions": [
+    "A057273",
+    "A123554",
+    "A326219",
+    "A326225"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

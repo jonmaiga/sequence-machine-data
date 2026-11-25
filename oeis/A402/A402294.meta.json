@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of internal crevices between the circles in an optimal arrangement of circles achieving A402292(n).",
+  "id": "A402294",
+  "mentions": [
+    "A402292",
+    "A402293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

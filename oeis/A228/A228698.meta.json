@@ -2,9 +2,13 @@
   "description": "a(n) = 8*(Product{i=1..n} p(i + 1)) - 1, where p(i) = i-th prime.",
   "id": "A228698",
   "mentions": [
+    "A002110",
+    "A045535",
+    "A102476",
     "A228699"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

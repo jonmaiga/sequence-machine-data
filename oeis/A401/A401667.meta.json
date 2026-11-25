@@ -1,0 +1,19 @@
+{
+  "description": "Primes p >= 5 for which the iteration of K(u) = (u^3 - 7*u)/6 on GF(p) collapses every element into {-1, 0, 1}.",
+  "id": "A401667",
+  "mentions": [
+    "A398745",
+    "A401173"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

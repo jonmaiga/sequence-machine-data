@@ -1,0 +1,24 @@
+{
+  "description": "Number of factorizations of n into factors that have the same prime signature.",
+  "id": "A401734",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A005117",
+    "A038041",
+    "A118914",
+    "A162247",
+    "A322794",
+    "A401733"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

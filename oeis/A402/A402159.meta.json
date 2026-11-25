@@ -1,0 +1,19 @@
+{
+  "description": "Largest possible smallest denominator in a representation of 1 as a sum of n distinct unit fractions.",
+  "id": "A402159",
+  "mentions": [
+    "A030659",
+    "A400352"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

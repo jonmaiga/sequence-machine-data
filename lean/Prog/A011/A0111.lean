@@ -13,12 +13,15 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C042
 import Seq.B000.C043
@@ -26,7 +29,6 @@ import Seq.B000.C044
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B002.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
@@ -122,170 +124,6 @@ def P14271081491758160494.Spec : Prop :=
 
 end A011117
 
-/-! ## A011117.P1380574657766946718
-
-`xor(1, xor(1, A104219(A061579(n))))`
--/
-
-namespace A011117.P1380574657766946718
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor 1 (Int.xor 1 (A104219 (A061579 n).toNat))
-
-end
-
-end A011117.P1380574657766946718
-
-namespace A011117
-
-/-- `xor(1, xor(1, A104219(A061579(n))))` -/
-def P1380574657766946718.Spec : Prop :=
-  ∀ n, P1380574657766946718.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P7763974313123757303
-
-`or(A000007(n), A104219(A061579(n)))`
--/
-
-namespace A011117.P7763974313123757303
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A104219 (A061579 n).toNat)
-
-end
-
-end A011117.P7763974313123757303
-
-namespace A011117
-
-/-- `or(A000007(n), A104219(A061579(n)))` -/
-def P7763974313123757303.Spec : Prop :=
-  ∀ n, P7763974313123757303.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P10561840931579961650
-
-`A104219(A061579(n))+A000007(n+1)`
--/
-
-namespace A011117.P10561840931579961650
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104219 (A061579 n).toNat + A000007 (n + 1)
-
-end
-
-end A011117.P10561840931579961650
-
-namespace A011117
-
-/-- `A104219(A061579(n))+A000007(n+1)` -/
-def P10561840931579961650.Spec : Prop :=
-  ∀ n, P10561840931579961650.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P15016310661126930635
-
-`A104219(A061579(n))+A001222(gcd(n, n+1))`
--/
-
-namespace A011117.P15016310661126930635
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104219 (A061579 n).toNat + A001222 (Nat.gcd n (n + 1))
-
-end
-
-end A011117.P15016310661126930635
-
-namespace A011117
-
-/-- `A104219(A061579(n))+A001222(gcd(n, n+1))` -/
-def P15016310661126930635.Spec : Prop :=
-  ∀ n, P15016310661126930635.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P6359581379582880735
-
-`A008966(p?[2*n+1])*A104219(A061579(n))`
--/
-
-namespace A011117.P6359581379582880735
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008966 (f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)) * A104219 (A061579 n).toNat
-
-end
-
-end A011117.P6359581379582880735
-
-namespace A011117
-
-/-- `A008966(p?[2*n+1])*A104219(A061579(n))` -/
-def P6359581379582880735.Spec : Prop :=
-  ∀ n, P6359581379582880735.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P11527023340906312105
-
-`A104219(A061579(n))+A005872(A005872(n))`
--/
-
-namespace A011117.P11527023340906312105
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104219 (A061579 n).toNat + A005872 (A005872 n).toNat
-
-end
-
-end A011117.P11527023340906312105
-
-namespace A011117
-
-/-- `A104219(A061579(n))+A005872(A005872(n))` -/
-def P11527023340906312105.Spec : Prop :=
-  ∀ n, P11527023340906312105.a n = A011117 n
-
-end A011117
-
-/-! ## A011117.P9013331933519888869
-
-`A104219(A061579(n))%A000051(n)`
--/
-
-namespace A011117.P9013331933519888869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A104219 (A061579 n).toNat) (A000051 n)
-
-end
-
-end A011117.P9013331933519888869
-
-namespace A011117
-
-/-- `A104219(A061579(n))%A000051(n)` -/
-def P9013331933519888869.Spec : Prop :=
-  ∀ n, P9013331933519888869.a n = A011117 n
-
-end A011117
-
 /-!
 # A011185: A B_2 sequence: a(n) = least value such that sequence increases and pairwise sums of distinct elements are all distinct.
 
@@ -306,21 +144,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A011185.P206575548360560039
-
-/-! ## A011185.P1916584178826277979
-
-`1+A010672(n)`
--/
-
-namespace A011185.P1916584178826277979
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A010672 n
-
-end
-
-end A011185.P1916584178826277979
 
 /-! ## A011185.P11715240559772419096
 
@@ -351,21 +174,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A011185.P7352269180219369183
-
-/-! ## A011185.P8053612362426321202
-
-`abs(A008683(A007918(n))-A010672(n))`
--/
-
-namespace A011185.P8053612362426321202
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A008683 (A007918 n).toNat - A010672 n|
-
-end
-
-end A011185.P8053612362426321202
 
 /-! ## A011185.P5120901449800422089
 

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: Sprugnoli array ( 1/(1 - x), x*(1 + x)/(1 - x), x/(1 - x^2) ).",
+  "id": "A402061",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A002623",
+    "A002624",
+    "A004526",
+    "A005408",
+    "A008805",
+    "A038163",
+    "A058187",
+    "A189976",
+    "A189980",
+    "A299336",
+    "A299338",
+    "A402062"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

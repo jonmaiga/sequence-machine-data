@@ -17,7 +17,6 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B005.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -638,20 +637,20 @@ end A042639.P14408402485238166451
 The programs for A042644, there is no canonical definition to state claims against.
 -/
 
-/-! ## A042644.P6882508621563690430
+/-! ## A042644.P4712423704080545063
 
-`A348036(A000034(n)*A041396(n+2))`
+`A000034(n)*A041396(n+2)`
 -/
 
-namespace A042644.P6882508621563690430
+namespace A042644.P4712423704080545063
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348036 (A000034 n * A041396 (n + 2)).toNat
+  A000034 n * A041396 (n + 2)
 
 end
 
-end A042644.P6882508621563690430
+end A042644.P4712423704080545063
 
 /-!
 # A042653: Denominators of continued fraction convergents to sqrt(856).

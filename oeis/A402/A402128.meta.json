@@ -1,0 +1,17 @@
+{
+  "description": "Number of plane partitions of n whose row sums and column sums are all pairwise distinct.",
+  "id": "A402128",
+  "mentions": [
+    "A000219",
+    "A306320",
+    "A319646"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

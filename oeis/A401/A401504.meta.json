@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of coefficients of the companion Genocchi-Seidel polynomials, read by rows.",
+  "id": "A401504",
+  "mentions": [
+    "A005439",
+    "A014780",
+    "A014781",
+    "A099959",
+    "A110501",
+    "A401503"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

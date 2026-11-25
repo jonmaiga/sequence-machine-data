@@ -29,36 +29,6 @@ end
 
 end A169114.P2790817570687870447
 
-/-! ## A169114.P114696874608694120
-
-`abs(A003947(n)-A185255(A007843(n)))`
--/
-
-namespace A169114.P114696874608694120
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A003947 n - A185255 (A007843 n).toNat|
-
-end
-
-end A169114.P114696874608694120
-
-/-! ## A169114.P14564259562845022945
-
-`A185255(n)+A003947(n)-A185255(A007843(n))`
--/
-
-namespace A169114.P14564259562845022945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185255 n + (A003947 n - A185255 (A007843 n).toNat)
-
-end
-
-end A169114.P14564259562845022945
-
 /-!
 # A169160: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^27 = I.
 

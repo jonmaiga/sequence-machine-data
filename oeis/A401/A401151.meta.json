@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} log(p) / (p^2 + 1).",
+  "id": "A401151",
+  "mentions": [
+    "A001620",
+    "A073002",
+    "A074962",
+    "A136271",
+    "A261506",
+    "A306016",
+    "A365171",
+    "A402270",
+    "A402271"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

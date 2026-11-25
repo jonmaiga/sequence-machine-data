@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that a majority of free k-celled polyominoes contain a copy of the quasi-polyomino with binary code A401998(n).",
+  "id": "A402000",
+  "mentions": [
+    "A000105",
+    "A401399",
+    "A401998",
+    "A401999",
+    "A402003"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

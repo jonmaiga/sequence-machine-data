@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A341526(A003961(2*n)), where A341526(n) is the numerator of ratio n*sigma(A003961(n)) / sigma(n)*A003961(n), where sigma is the sum of divisors of n, and A003961 shifts the prime factorization of n one step towards larger primes.",
+  "id": "A402586",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A249734",
+    "A341526",
+    "A341528",
+    "A341529",
+    "A341626",
+    "A341627",
+    "A401936",
+    "A402587"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

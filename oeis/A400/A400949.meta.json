@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed non-backtracking walks of length 2n (cyclically non-backtracking, i.e., tailless) starting and ending at a fixed atom of the diamond network.",
+  "id": "A400949",
+  "mentions": [
+    "A002895",
+    "A002899",
+    "A008253",
+    "A008264"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

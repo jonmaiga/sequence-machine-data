@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A345994(k) is not equal to A052128(k).",
+  "id": "A402579",
+  "mentions": [
+    "A052128",
+    "A344005",
+    "A345994",
+    "A346596",
+    "A354933",
+    "A402578"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of solid standard Young tableaux with n cells and cylindric index k.",
+  "id": "A400388",
+  "mentions": [
+    "A176129",
+    "A207542",
+    "A214753",
+    "A379277",
+    "A402277"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

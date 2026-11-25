@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct traces of length n of Wolfram's 2-state 3-symbol Turing machine; i.e., sequences of n (state, symbol read) pairs produced from an arbitrary tape and starting state.",
+  "id": "A401762",
+  "mentions": [
+    "A208229",
+    "A393686",
+    "A393687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

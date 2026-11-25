@@ -4,14 +4,16 @@
   "mentions": [
     "A002392",
     "A019810",
-    "A111511"
+    "A111511",
+    "A111514"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 100,
     "source": "joeis"
   }

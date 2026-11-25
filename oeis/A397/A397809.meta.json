@@ -2,7 +2,6 @@
   "description": "a(n) is the least building visible from A400000(n) with a(1) = 0.",
   "id": "A397809",
   "mentions": [
-    "A395651",
     "A400000",
     "A400134"
   ],

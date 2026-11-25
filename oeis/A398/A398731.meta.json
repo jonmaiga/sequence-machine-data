@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows in which row n gives the congruences (mod 2^floor(1+n*log_2(5))) that have an admissible sequence of order n; related to 5x+1 problem.",
+  "id": "A398731",
+  "mentions": [
+    "A174795",
+    "A177789"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

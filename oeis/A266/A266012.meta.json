@@ -2,7 +2,9 @@
   "description": "T(n,k)=Number of nXk integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
   "id": "A266012",
   "mentions": [
-    "A173259"
+    "A173259",
+    "A266009",
+    "A266010"
   ],
   "tags": [
     "formulas",

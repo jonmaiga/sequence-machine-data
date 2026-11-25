@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(2), negated.",
+  "id": "A402086",
+  "mentions": [
+    "A402081"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

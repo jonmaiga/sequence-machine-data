@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of coefficients of the Genocchi-Seidel polynomials, read by rows.",
+  "id": "A401503",
+  "mentions": [
+    "A005439",
+    "A014780",
+    "A014781",
+    "A110501",
+    "A297703"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

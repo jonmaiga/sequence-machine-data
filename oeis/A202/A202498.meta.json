@@ -2,10 +2,12 @@
   "description": "Decimal expansion of x satisfying x=e^(-2x).",
   "id": "A202498",
   "mentions": [
+    "A196515",
     "A202348"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

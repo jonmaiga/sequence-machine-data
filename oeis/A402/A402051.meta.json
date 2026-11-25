@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that d_3(k) is not a 3-smooth number, where d_3 = A007425 is the 3rd Piltz function.",
+  "id": "A402051",
+  "mentions": [
+    "A003586",
+    "A007425",
+    "A046099",
+    "A354181",
+    "A375145"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

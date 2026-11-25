@@ -2,10 +2,12 @@
   "description": "Decimal expansion of (cos 1)^5.",
   "id": "A117036",
   "mentions": [
-    "A049470"
+    "A049470",
+    "A117044"
   ],
   "tags": [
     "cons",
+    "formulas",
     "less",
     "nonn"
   ],

@@ -1,0 +1,21 @@
+{
+  "description": "Least preperiod of row n of A401735.",
+  "id": "A401738",
+  "mentions": [
+    "A046874",
+    "A399521",
+    "A401735",
+    "A401736",
+    "A401737",
+    "A401739"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

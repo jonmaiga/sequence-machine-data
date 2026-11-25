@@ -1,11 +1,12 @@
 {
-  "description": "Main diagonal of A386363.",
+  "description": "Factorial-weighted convolution of the Euler zig-zag numbers (A000111).",
   "id": "A386381",
   "mentions": [
     "A000010",
     "A000111",
     "A060818",
-    "A386363"
+    "A386363",
+    "A402436"
   ],
   "tags": [
     "formulas",

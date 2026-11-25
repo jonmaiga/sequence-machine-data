@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (2/Pi)log(phi), the exponential rate factor of golden spiral.",
+  "description": "Decimal expansion of (2/Pi)*log(phi), the exponential rate factor of golden spiral.",
   "id": "A212225",
   "mentions": [
     "A001622",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least multiplier k such that either n*k or n*k+1 is a square, and either n*k or n*k+1 is a triangular number, or -1 if no such k exists.",
+  "id": "A400520",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001110",
+    "A182334"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

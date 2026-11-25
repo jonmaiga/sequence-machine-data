@@ -1,0 +1,18 @@
+{
+  "description": "Variation of A400185: the same rules apply except that poles can only see each other if the direct line of sight between their tops is strictly above the tops of all other poles that lie directly on the same line of sight.",
+  "id": "A401467",
+  "mentions": [
+    "A308884",
+    "A331400",
+    "A400000",
+    "A400185"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

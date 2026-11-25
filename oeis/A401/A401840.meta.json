@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the area of the triangle with sides A401839(n)*A120133(n), A401839(n)*A120132(n), A401839(n)*A120131(n).",
+  "id": "A401840",
+  "mentions": [
+    "A072294",
+    "A120131",
+    "A120132",
+    "A120133",
+    "A224301",
+    "A401839",
+    "A401841"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

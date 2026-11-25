@@ -2,20 +2,12 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C018
-import Seq.B000.C022
-import Seq.B000.C028
 import Seq.B000.C034
 import Seq.B000.C039
 import Seq.B001.C002
-import Seq.B001.C008
 import Seq.B003.C005
-import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -38,7 +30,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A159100: Number of permutations of 1..n containing the relative rank sequence { 135462 } at any spacing.
@@ -454,120 +445,6 @@ end
 
 end A159139.P10993020849498419466
 
-/-! ## A159139.P6702552027808975543
-
-`A214152(A166136(n+4))`
--/
-
-namespace A159139.P6702552027808975543
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A166136 (n + 4)).toNat
-
-end
-
-end A159139.P6702552027808975543
-
-/-! ## A159139.P6597177177052483069
-
-`A214152(A167614(n+4)+3)`
--/
-
-namespace A159139.P6597177177052483069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A167614 (n + 4) + 3).toNat
-
-end
-
-end A159139.P6597177177052483069
-
-/-! ## A159139.P3611270406294090329
-
-`A214152(A000217(n+5)+6)`
--/
-
-namespace A159139.P3611270406294090329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A000217 (n + 5) + 6).toNat
-
-end
-
-end A159139.P3611270406294090329
-
-/-! ## A159139.P9892072518953026776
-
-`A214152(A034856(n+4)+8)`
--/
-
-namespace A159139.P9892072518953026776
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A034856 (n + 4) + 8).toNat
-
-end
-
-end A159139.P9892072518953026776
-
-/-! ## A159139.P15686489561800095837
-
-`A214152(eq[7, A131818(n+1)])`
--/
-
-namespace A159139.P15686489561800095837
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A159139.P15686489561800095837
-
-/-! ## A159139.P14243957808261200733
-
-`A214152(Δ[A023545(n+1)]+10)`
--/
-
-namespace A159139.P14243957808261200733
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (f1 (n + 1) - f1 n + 10).toNat
-
-end
-
-end A159139.P14243957808261200733
-
-/-! ## A159139.P6437295099451028068
-
-`A214152(A033999(n)²+A046691(n+3)+9)`
--/
-
-namespace A159139.P6437295099451028068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A033999 n ^ 2 + (A046691 (n + 3) + 9)).toNat
-
-end
-
-end A159139.P6437295099451028068
-
 /-!
 # A159141: Number of permutations of 1..n containing the relative rank sequence { 214365 } at any spacing.
 
@@ -793,57 +670,6 @@ end
 
 end A159175.P6459355932639403639
 
-/-! ## A159175.P3001098859107188637
-
-`A214152(A056119(n)+28)`
--/
-
-namespace A159175.P3001098859107188637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A056119 n + 28).toNat
-
-end
-
-end A159175.P3001098859107188637
-
-/-! ## A159175.P17861736680885487728
-
-`A214152(eq[11, A066657(n)])`
--/
-
-namespace A159175.P17861736680885487728
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066657 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A159175.P17861736680885487728
-
-/-! ## A159175.P2477192490441590239
-
-`A214152(A166136(n+5)+1)`
--/
-
-namespace A159175.P2477192490441590239
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (A166136 (n + 5) + 1).toNat
-
-end
-
-end A159175.P2477192490441590239
-
 /-!
 # A159179: Number of permutations of 1..n containing the relative rank sequence { 1564237 } at any spacing.
 
@@ -1025,51 +851,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A159194.P9445398975886789350
-
-/-! ## A159194.P8366157313380356312
-
-`floor(sqrt(A155985(n-log2(1/2))))`
--/
-
-namespace A159194.P8366157313380356312
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.sqrt (A155985 (SequenceMachineLib.roundAway ((n : ℝ) - Real.logb 2 ((1 : ℚ) / 2 : ℝ))).toNat)
-
-end
-
-end A159194.P8366157313380356312
-
-/-! ## A159194.P14023002387447610831
-
-`ceil(sqrt(A155985(xor(1, 2*n)-n)))`
--/
-
-namespace A159194.P14023002387447610831
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (A155985 (Nat.xor 1 (2 * n) - n) : ℝ)⌉
-
-end
-
-end A159194.P14023002387447610831
-
-/-! ## A159194.P6251277926536695185
-
-`A155985(n+1)^(A014963(6*(n+1))/2)`
--/
-
-namespace A159194.P6251277926536695185
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A155985 (n + 1) : ℝ) ^ ((A014963 (6 * (n + 1)) : ℚ) / 2 : ℝ)
-
-end
-
-end A159194.P6251277926536695185
 
 /-!
 # A159195: Let S_0 = [1]; for n>0 let S_n be obtained from S_{n-1} by applying the morphism t -> |t-1|,t,t+1; sequence gives limiting value of S_{2n+1} as n -> oo.

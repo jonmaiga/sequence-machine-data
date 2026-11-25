@@ -1,0 +1,22 @@
+{
+  "description": "Maximum period of cellular automaton rule 45 in a cyclic universe of width n.",
+  "id": "A401854",
+  "mentions": [
+    "A204371",
+    "A204714",
+    "A334497",
+    "A334508",
+    "A334515",
+    "A357950"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

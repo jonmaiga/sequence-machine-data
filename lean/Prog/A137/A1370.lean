@@ -13,6 +13,7 @@ import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B004.C000
+import Seq.B005.C000
 import Seq.B008.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -23,6 +24,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -31,7 +33,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1338,39 +1339,6 @@ end
 
 end A137074.P4565987574250816461
 
-/-! ## A137074.P4288180674740553922
-
-`A137106(∑[A309049(n)])`
--/
-
-namespace A137074.P4288180674740553922
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A309049 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137106 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A137074.P4288180674740553922
-
-/-! ## A137074.P17644788086324873854
-
-`A137106(A117073(n)+1)`
--/
-
-namespace A137074.P17644788086324873854
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137106 (A117073 n + 1).toNat
-
-end
-
-end A137074.P17644788086324873854
-
 /-!
 # A137075: Numbers k such that k and k^2 use only the digits 2, 3, 4, 7 and 9.
 
@@ -1654,23 +1622,23 @@ end
 
 end A137090.P16479895479028972069
 
-/-! ## A137090.P14771985612144834394
+/-! ## A137090.P18339695135595562898
 
-`A137138(∑[A136170(n)])`
+`filter[A137134(n+1), A020987(#)]`
 -/
 
-namespace A137090.P14771985612144834394
+namespace A137090.P18339695135595562898
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136170 n
+  A137134 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137138 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+  f1 (SequenceMachineLib.nth (fun j => A020987 (f1 j).toNat = 1) n)
 
 end
 
-end A137090.P14771985612144834394
+end A137090.P18339695135595562898
 
 /-!
 # A137093: Numbers k such that k and k^2 use only the digits 2, 4, 5 and 6.

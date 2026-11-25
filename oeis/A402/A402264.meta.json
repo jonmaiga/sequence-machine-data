@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers equal to the sum of the p-th powers of their first k divisors for some positive integers p and k.",
+  "id": "A402264",
+  "mentions": [
+    "A064510",
+    "A185584",
+    "A185960",
+    "A399360"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Triangle by rows: T(n,1) = 1, T(n,k) = (A000217(k-1) + 1) mod n, for k > 1. Row T(n) contains n terms if n is odd, or 2*n terms if n is even.",
+  "id": "A398743",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

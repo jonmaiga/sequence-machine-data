@@ -1,0 +1,16 @@
+{
+  "description": "Number of n X n binary arrays invariant under all rotations and reflections of the square in which every 1 has another 1 as a horizontal, vertical or diagonal neighbor.",
+  "id": "A402110",
+  "mentions": [
+    "A202788"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

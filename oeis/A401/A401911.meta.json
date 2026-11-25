@@ -1,0 +1,25 @@
+{
+  "description": "The greatest common divisor of n and A342001(n), where A342001(n) = A003415(n)/A003557(n).",
+  "id": "A401911",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A085731",
+    "A342001",
+    "A342090",
+    "A369008",
+    "A369009",
+    "A369070",
+    "A401912"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}
