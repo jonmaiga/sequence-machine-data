@@ -23820,34 +23820,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2322 terms. -/
 def A315254.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A329697.P2581860713454041978
-
-`a(A336466(n+1)-1)+A087436(n+1)` with `a(0)=0`
--/
-
-namespace A329697.P2581860713454041978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  a (A336466 (n + 1) - 1).toNat + A087436 (n + 1)
-
-end
-
-end A329697.P2581860713454041978
-
-noncomputable section
-
-/-- A329697: a(n) is the number of iterations needed to reach a power of 2 starting at n and using the map k -> k-(k/p), where p is the largest prime factor of k.
-
-Offset 1, canonical program `A329697.P2581860713454041978`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A336466, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A329697 (n : ℕ) : ℤ :=
-  A329697.P2581860713454041978.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A336466, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A329697.provenance : SequenceMachineLib.Provenance := .conditional
-
 /-! ## A183097.P1372186591988101476
 
 `∑{d}[1+n, #*A112526(#)]`
@@ -29700,6 +29672,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A323644.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A329697.P2581860713454041978
+
+`a(A336466(n+1)-1)+A087436(n+1)` with `a(0)=0`
+-/
+
+namespace A329697.P2581860713454041978
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  a (A336466 (n + 1) - 1).toNat + A087436 (n + 1)
+
+end
+
+end A329697.P2581860713454041978
+
+noncomputable section
+
+/-- A329697: a(n) is the number of iterations needed to reach a power of 2 starting at n and using the map k -> k-(k/p), where p is the largest prime factor of k.
+
+Offset 1, canonical program `A329697.P2581860713454041978`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A336466, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A329697 (n : ℕ) : ℤ :=
+  A329697.P2581860713454041978.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A336466, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A329697.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A329935.P4917152360086528643
 

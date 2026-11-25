@@ -9310,7 +9310,7 @@ end A371097.P9436961266364183932
 
 The programs for A371098, the canonical program `A371098.P1484971539305867927` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371098 has offset 0).
 
-The definition of A371098 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A371098 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(2*n+1, A276086(2*n))` (program `A371098.P1484971539305867927`, by `A371098.P1484971539305867927.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A371098.P3018448202097454328
@@ -9812,7 +9812,7 @@ end A371098
 
 The programs for A371099, the canonical program `A371099.P15014661802858807569` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371099 has offset 0).
 
-The definition of A371099 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A371099 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(36*n+9, A276086(36*n+9))` (program `A371099.P15014661802858807569`, by `A371099.P15014661802858807569.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A371099.P2326464606676642411

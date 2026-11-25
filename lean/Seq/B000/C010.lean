@@ -7130,6 +7130,37 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(C(n+1, 6)/(n+1))` (program `A053643.P16956469957652185926`, by `A053643.P16956469957652185926.correct`). Lean does not check the parsing of the name. -/
 def A053643.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A053669.P10326959857469451860
+
+`1+∑{#}[n, floor((n+1)^(#+1)/(#+1)!)-floor(((n+1)^(#+1)-1)/(#+1)!)]`
+-/
+
+namespace A053669.P10326959857469451860
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + ∑ k ∈ Finset.range (f1 n + 1), (⌊((n + 1) ^ (k + 1) : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋ - ⌊(((n + 1) ^ (k + 1) : ℤ) - 1 : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋)
+
+end
+
+end A053669.P10326959857469451860
+
+noncomputable section
+
+/-- A053669: Smallest prime not dividing n.
+
+Offset 1, canonical program `A053669.P10326959857469451860`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053669.anchor (n : ℕ) (hn : 1 ≤ n) : ∃ p : ℕ, A053669 n = p ∧ IsLeast {q : ℕ | q.Prime ∧ ¬ q ∣ n} p` in `Proof.A053.A053669`. -/
+def A053669 (n : ℕ) : ℤ :=
+  A053669.P10326959857469451860.a (n - 1)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053669.anchor (n : ℕ) (hn : 1 ≤ n) : ∃ p : ℕ, A053669 n = p ∧ IsLeast {q : ℕ | q.Prime ∧ ¬ q ∣ n} p` in `Proof.A053.A053669`. -/
+def A053669.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A053698.P17380684271159484773
 
 `n^3+n²+n+1`
@@ -18107,37 +18138,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A053655.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A053669.P10326959857469451860
-
-`1+∑{#}[n, floor((n+1)^(#+1)/(#+1)!)-floor(((n+1)^(#+1)-1)/(#+1)!)]`
--/
-
-namespace A053669.P10326959857469451860
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ∑ k ∈ Finset.range (f1 n + 1), (⌊((n + 1) ^ (k + 1) : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋ - ⌊(((n + 1) ^ (k + 1) : ℤ) - 1 : ℚ) / (Nat.factorial (k + 1) : ℚ)⌋)
-
-end
-
-end A053669.P10326959857469451860
-
-noncomputable section
-
-/-- A053669: Smallest prime not dividing n.
-
-Offset 1, canonical program `A053669.P10326959857469451860`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A053669 (n : ℕ) : ℤ :=
-  A053669.P10326959857469451860.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A053669.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A053700.P8220208722035167033
 

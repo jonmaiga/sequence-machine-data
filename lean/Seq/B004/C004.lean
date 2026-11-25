@@ -566,14 +566,14 @@ noncomputable section
 
 /-- A371098: a(n) = gcd(2n+1, A276086(2n+1)), where A276086 is the primorial base exp-function.
 
-Offset 0, canonical program `A371098.P1484971539305867927`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A371098.P1484971539305867927`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(2*n+1, A276086(2*n))` (program `A371098.P1484971539305867927`, by `A371098.P1484971539305867927.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A371098 (n : ℕ) : ℤ :=
   (A371098.P1484971539305867927.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A371098.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(2*n+1, A276086(2*n))` (program `A371098.P1484971539305867927`, by `A371098.P1484971539305867927.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A371098.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A371099.P15014661802858807569
 
@@ -596,14 +596,14 @@ noncomputable section
 
 /-- A371099: a(n) = gcd(36*n+9, A276086(36*n+9)), where A276086 is the primorial base exp-function.
 
-Offset 0, canonical program `A371099.P15014661802858807569`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A371099.P15014661802858807569`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(36*n+9, A276086(36*n+9))` (program `A371099.P15014661802858807569`, by `A371099.P15014661802858807569.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A371099 (n : ℕ) : ℤ :=
   (A371099.P15014661802858807569.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A371099.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(36*n+9, A276086(36*n+9))` (program `A371099.P15014661802858807569`, by `A371099.P15014661802858807569.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A371099.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A371357.P11199775498877504883
 
@@ -794,14 +794,14 @@ noncomputable section
 
 /-- A373844: Triangle read by rows: T(n,k) = A276086(1 + A002110(n) + A002110(k)), 1 <= k <= n, where A276086 is the primorial base exp-function.
 
-Offset 1, canonical program `A373844.P12610855575797094746`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A373844.P12610855575797094746`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(1+A002110(row(n)+1)+A002110(col(n)+1))` (program `A373844.P12610855575797094746`, by `A373844.P12610855575797094746.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A373844 (n : ℕ) : ℤ :=
   A373844.P12610855575797094746.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A373844.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(1+A002110(row(n)+1)+A002110(col(n)+1))` (program `A373844.P12610855575797094746`, by `A373844.P12610855575797094746.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A373844.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A374348.P7186734061745376650
 
@@ -939,14 +939,14 @@ noncomputable section
 
 /-- A379493: a(n) = A276086(A001065(n)), where A276086 is the primorial base exp-function, and A001065 is the sum of proper divisors of n.
 
-Offset 1, canonical program `A379493.P1723010228938902965`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A379493.P1723010228938902965`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A001065(n+1))` (program `A379493.P1723010228938902965`, by `A379493.P1723010228938902965.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A379493 (n : ℕ) : ℤ :=
   A379493.P1723010228938902965.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A379493.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A001065(n+1))` (program `A379493.P1723010228938902965`, by `A379493.P1723010228938902965.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A379493.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A379494.P5155282194616770280
 
@@ -969,14 +969,14 @@ noncomputable section
 
 /-- A379494: a(n) = 2*A276086(n) - A276086(A001065(n)), where A276086 is the primorial base exp-function, and A001065 is the sum of proper divisors of n.
 
-Offset 1, canonical program `A379494.P5155282194616770280`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A379494.P5155282194616770280`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*A276086(n+1)-A276086(A001065(n+1))` (program `A379494.P5155282194616770280`, by `A379494.P5155282194616770280.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A379494 (n : ℕ) : ℤ :=
   A379494.P5155282194616770280.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A379494.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*A276086(n+1)-A276086(A001065(n+1))` (program `A379494.P5155282194616770280`, by `A379494.P5155282194616770280.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A379494.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A379498.P14632226456217932407
 
@@ -999,14 +999,14 @@ noncomputable section
 
 /-- A379498: a(n) = A276086(1+n) - A276086(A001065(n)), where A276086 is the primorial base exp-function, and A001065 is the sum of proper divisors of n.
 
-Offset 1, canonical program `A379498.P14632226456217932407`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A379498.P14632226456217932407`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(1+n+1)-A276086(A001065(n+1))` (program `A379498.P14632226456217932407`, by `A379498.P14632226456217932407.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A379498 (n : ℕ) : ℤ :=
   A379498.P14632226456217932407.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A379498.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(1+n+1)-A276086(A001065(n+1))` (program `A379498.P14632226456217932407`, by `A379498.P14632226456217932407.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A379498.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A379715.P5673123717441379169
 
@@ -1200,14 +1200,14 @@ noncomputable section
 
 /-- A388018: a(n) = A276086(floor(sigma(n)/2)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388018.P11038215183650310967`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388018.P11038215183650310967`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(floor(A000203(n+1)/2))` (program `A388018.P11038215183650310967`, by `A388018.P11038215183650310967.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388018 (n : ℕ) : ℤ :=
   A388018.P11038215183650310967.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388018.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(floor(A000203(n+1)/2))` (program `A388018.P11038215183650310967`, by `A388018.P11038215183650310967.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388018.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388021.P157890752316447162
 
@@ -1230,14 +1230,14 @@ noncomputable section
 
 /-- A388021: a(n) = gcd(A276086(floor(sigma(n)/2)), A276086(n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388021.P157890752316447162`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388021.P157890752316447162`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(floor(A000203(n+1)/2)), A276086(n+1))` (program `A388021.P157890752316447162`, by `A388021.P157890752316447162.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388021 (n : ℕ) : ℤ :=
   (A388021.P157890752316447162.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388021.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(floor(A000203(n+1)/2)), A276086(n+1))` (program `A388021.P157890752316447162`, by `A388021.P157890752316447162.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388021.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388031.P9747482596570530976
 
@@ -1260,14 +1260,14 @@ noncomputable section
 
 /-- A388031: a(n) = A276086(sigma(n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388031.P9747482596570530976`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388031.P9747482596570530976`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A000203(n+1))` (program `A388031.P9747482596570530976`, by `A388031.P9747482596570530976.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388031 (n : ℕ) : ℤ :=
   A388031.P9747482596570530976.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388031.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A000203(n+1))` (program `A388031.P9747482596570530976`, by `A388031.P9747482596570530976.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388031.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388032.P10905813676013906744
 
@@ -1290,14 +1290,14 @@ noncomputable section
 
 /-- A388032: a(n) = gcd(A276086(sigma(n)), A276086(2*n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388032.P10905813676013906744`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388032.P10905813676013906744`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(2*(n+1)))` (program `A388032.P10905813676013906744`, by `A388032.P10905813676013906744.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388032 (n : ℕ) : ℤ :=
   (A388032.P10905813676013906744.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388032.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(2*(n+1)))` (program `A388032.P10905813676013906744`, by `A388032.P10905813676013906744.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388032.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388033.P14720664566435617461
 
@@ -1320,14 +1320,14 @@ noncomputable section
 
 /-- A388033: a(n) = gcd(A276086(sigma(n)), A276086(3*n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388033.P14720664566435617461`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388033.P14720664566435617461`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(3*(n+1)))` (program `A388033.P14720664566435617461`, by `A388033.P14720664566435617461.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388033 (n : ℕ) : ℤ :=
   (A388033.P14720664566435617461.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388033.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(3*(n+1)))` (program `A388033.P14720664566435617461`, by `A388033.P14720664566435617461.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388033.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388264.P9362685053159324435
 
@@ -1350,14 +1350,14 @@ noncomputable section
 
 /-- A388264: a(n) = gcd(A276086(n), A276086(sigma(n)-n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388264.P9362685053159324435`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388264.P9362685053159324435`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(n+1), A276086(A000203(n+1)-(n+1)))` (program `A388264.P9362685053159324435`, by `A388264.P9362685053159324435.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388264 (n : ℕ) : ℤ :=
   (A388264.P9362685053159324435.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388264.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(n+1), A276086(A000203(n+1)-(n+1)))` (program `A388264.P9362685053159324435`, by `A388264.P9362685053159324435.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388264.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388278.P45431919474992745
 
@@ -1380,14 +1380,14 @@ noncomputable section
 
 /-- A388278: a(n) = gcd(sigma(n), A276086(sigma(n))), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388278.P45431919474992745`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388278.P45431919474992745`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A000203(n+1), A276086(A000203(n+1)))` (program `A388278.P45431919474992745`, by `A388278.P45431919474992745.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388278 (n : ℕ) : ℤ :=
   (A388278.P45431919474992745.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388278.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A000203(n+1), A276086(A000203(n+1)))` (program `A388278.P45431919474992745`, by `A388278.P45431919474992745.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388278.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388281.P10751153511483400946
 
@@ -1410,14 +1410,14 @@ noncomputable section
 
 /-- A388281: a(n) = A276086(n)*A276086(sigma(n)-n) - A276086(sigma(n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388281.P10751153511483400946`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388281.P10751153511483400946`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n+1)*A276086(A000203(n+1)-(n+1))-A276086(A000203(n+1))` (program `A388281.P10751153511483400946`, by `A388281.P10751153511483400946.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388281 (n : ℕ) : ℤ :=
   A388281.P10751153511483400946.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388281.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n+1)*A276086(A000203(n+1)-(n+1))-A276086(A000203(n+1))` (program `A388281.P10751153511483400946`, by `A388281.P10751153511483400946.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388281.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A388282.P4645080312831076640
 
@@ -1440,14 +1440,14 @@ noncomputable section
 
 /-- A388282: a(n) = A276086(n) * A276086(sigma(n)-n), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
-Offset 1, canonical program `A388282.P4645080312831076640`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A388282.P4645080312831076640`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n+1)*A276086(A000203(n+1)-(n+1))` (program `A388282.P4645080312831076640`, by `A388282.P4645080312831076640.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A388282 (n : ℕ) : ℤ :=
   A388282.P4645080312831076640.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A388282.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n+1)*A276086(A000203(n+1)-(n+1))` (program `A388282.P4645080312831076640`, by `A388282.P4645080312831076640.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A388282.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A389447.P10658135204883957213
 
@@ -1834,14 +1834,14 @@ noncomputable section
 
 /-- A392596: a(n) = A276086(n) mod 360, where A276086 is the primorial base exp-function.
 
-Offset 0, canonical program `A392596.P4976257997501742737`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A392596.P4976257997501742737`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n)%360` (program `A392596.P4976257997501742737`, by `A392596.P4976257997501742737.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A392596 (n : ℕ) : ℤ :=
   A392596.P4976257997501742737.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A392596.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(n)%360` (program `A392596.P4976257997501742737`, by `A392596.P4976257997501742737.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
+def A392596.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A358227.P15579769993062434402
 

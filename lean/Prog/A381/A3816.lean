@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -83,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A381600: G.f. A(x) satisfies A(x) = 1/(1 - x * A(x)^2 * A(x*A(x)^2)^2).
@@ -5090,6 +5095,12 @@ namespace A381677
 /-- `floor(3/2*a(n-1))` -/
 def P10690238450265664538.Spec : Prop :=
   ∀ n, P10690238450265664538.a n = A381677 (n + 1)
+
+theorem P10690238450265664538.correct : P10690238450265664538.Spec := by
+  intro n
+  simp only [A381677, Nat.add_sub_cancel, A381677.P10690238450265664538.a, A381677.P16545137202494766611.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A381677
 

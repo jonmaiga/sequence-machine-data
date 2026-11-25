@@ -1908,14 +1908,14 @@ noncomputable section
 
 /-- A276086: Primorial base exp-function: digits in primorial base representation of n become the exponents of successive prime factors whose product a(n) is.
 
-Offset 0, canonical program `A276086.P2628529171982043184`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A276086.P2628529171982043184`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A276086.anchor (n : ℕ) : A276086 n = ∏ i ∈ Finset.range n, (Nat.nth Nat.Prime i : ℤ) ^ ((n / ∏ j ∈ Finset.range i, Nat.nth Nat.Prime j) % Nat.nth Nat.Prime i)` in `Proof.A276.A276086`. -/
 def A276086 (n : ℕ) : ℤ :=
   A276086.P2628529171982043184.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A276086.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A276086.anchor (n : ℕ) : A276086 n = ∏ i ∈ Finset.range n, (Nat.nth Nat.Prime i : ℤ) ^ ((n / ∏ j ∈ Finset.range i, Nat.nth Nat.Prime j) % Nat.nth Nat.Prime i)` in `Proof.A276.A276086`. -/
+def A276086.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A276833.P16656895024889721168
 

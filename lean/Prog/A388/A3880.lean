@@ -1095,7 +1095,7 @@ end A388016.P15954150306519341627
 
 The programs for A388018, the canonical program `A388018.P11038215183650310967` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388018 has offset 1).
 
-The definition of A388018 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388018 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(floor(A000203(n+1)/2))` (program `A388018.P11038215183650310967`, by `A388018.P11038215183650310967.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388018.P11038215183650310967
@@ -1493,7 +1493,7 @@ end A388020.P5771226781615544511
 
 The programs for A388021, the canonical program `A388021.P157890752316447162` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388021 has offset 1).
 
-The definition of A388021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388021 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(floor(A000203(n+1)/2)), A276086(n+1))` (program `A388021.P157890752316447162`, by `A388021.P157890752316447162.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388021.P14338280165165431389
@@ -1705,7 +1705,7 @@ end A388030.P6776764758923494412
 
 The programs for A388031, the canonical program `A388031.P9747482596570530976` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388031 has offset 1).
 
-The definition of A388031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388031 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A000203(n+1))` (program `A388031.P9747482596570530976`, by `A388031.P9747482596570530976.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388031.P9747482596570530976
@@ -1874,7 +1874,7 @@ end A388031
 
 The programs for A388032, the canonical program `A388032.P10905813676013906744` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388032 has offset 1).
 
-The definition of A388032 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388032 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(2*(n+1)))` (program `A388032.P10905813676013906744`, by `A388032.P10905813676013906744.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388032.P14282694286225666806
@@ -1950,7 +1950,7 @@ end A388032
 
 The programs for A388033, the canonical program `A388033.P14720664566435617461` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388033 has offset 1).
 
-The definition of A388033 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388033 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A276086(A000203(n+1)), A276086(3*(n+1)))` (program `A388033.P14720664566435617461`, by `A388033.P14720664566435617461.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388033.P1909377925171151161

@@ -13963,7 +13963,7 @@ end A053668
 
 The programs for A053669, the canonical program `A053669.P10326959857469451860` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053669 has offset 1).
 
-The definition of A053669 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A053669 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053669.anchor (n : ℕ) (hn : 1 ≤ n) : ∃ p : ℕ, A053669 n = p ∧ IsLeast {q : ℕ | q.Prime ∧ ¬ q ∣ n} p` in `Proof.A053.A053669`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A053669.P9416824264459256823

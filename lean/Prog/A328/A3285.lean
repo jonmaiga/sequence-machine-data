@@ -5022,7 +5022,7 @@ end A328570
 
 The programs for A328571, the canonical program `A328571.P17428060287857329180` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328571 has offset 0).
 
-The definition of A328571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A328571 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A007947(A276086(n))` (program `A328571.P17428060287857329180`, by `A328571.P17428060287857329180.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A328571.P6821298350951900465
@@ -5486,7 +5486,7 @@ end A328571
 
 The programs for A328572, the canonical program `A328572.P15995132229035641312` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328572 has offset 0).
 
-The definition of A328572 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A328572 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A003557(A276086(n))` (program `A328572.P15995132229035641312`, by `A328572.P15995132229035641312.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A328572.P8585431959010708627
@@ -6913,7 +6913,7 @@ end A328578
 
 The programs for A328579, the canonical program `A328579.P2368772477838411020` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328579 has offset 0).
 
-The definition of A328579 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A328579 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A053669(A276086(A276086(n)))` (program `A328579.P2368772477838411020`, by `A328579.P2368772477838411020.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A328579.P483704390716361552
