@@ -1,0 +1,23 @@
+{
+  "description": "If n is a prime power of the form p^k, k >= 1, then a(n) = -p, otherwise a(n) is the position of n in A361102, numbers that are not prime powers.",
+  "id": "A401924",
+  "mentions": [
+    "A010055",
+    "A065515",
+    "A085970",
+    "A246655",
+    "A305974",
+    "A361102",
+    "A401925"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

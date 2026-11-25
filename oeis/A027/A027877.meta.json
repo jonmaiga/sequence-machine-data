@@ -16,12 +16,13 @@
     "A132037"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

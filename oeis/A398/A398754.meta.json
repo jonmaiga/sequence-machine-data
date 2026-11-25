@@ -1,0 +1,24 @@
+{
+  "description": "Union of squarefree numbers k (in A005117) and products m = lpf(k)*k (in A397710), where lpf(k) is the smallest prime factor of k.",
+  "id": "A398754",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A005117",
+    "A008479",
+    "A020639",
+    "A120944",
+    "A285332",
+    "A366825",
+    "A397710"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n=1..inf} n^2*(n!)^2/(2n)!.",
+  "description": "Decimal expansion of Sum_{n=1..inf} n^2*(n!)^2/(2n)!.",
   "id": "A145430",
   "mentions": [],
   "tags": [
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

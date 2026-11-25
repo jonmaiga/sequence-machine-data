@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the signature of the permutation (m mod n, 2*m mod n, ..., (n-1)*m mod n), where m = A038566(n,k) is the k-th number coprime to n, n >= 1.",
+  "id": "A401153",
+  "mentions": [
+    "A038566",
+    "A401152",
+    "A402232"
+  ],
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the iteration of T(x) = (x^2 - 2)^4 collapses every element of GF(p) to 1.",
+  "id": "A399684",
+  "mentions": [
+    "A019434",
+    "A399326",
+    "A401173"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

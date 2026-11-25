@@ -1,0 +1,23 @@
+{
+  "description": "Number of free n-celled polyominoes that do not contain a copy of the quasi-polyomino {(0,0),(1,1),(2,0)} (up to translations, rotations, and reflections).",
+  "id": "A402001",
+  "mentions": [
+    "A000105",
+    "A401400",
+    "A401401",
+    "A401402",
+    "A401403",
+    "A401999",
+    "A402002",
+    "A402003"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

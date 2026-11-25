@@ -27,7 +27,7 @@ import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C049
@@ -53,20 +53,20 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -572,20 +572,20 @@ end
 
 end A374617.P752248005441458545
 
-/-! ## A374617.P5553552890220411870
+/-! ## A374617.P3660512242036278206
 
-`A161336(A007476(n))`
+`A328451(A003724(n))`
 -/
 
-namespace A374617.P5553552890220411870
+namespace A374617.P3660512242036278206
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161336 (A007476 n).toNat
+  A328451 (A003724 n).toNat
 
 end
 
-end A374617.P5553552890220411870
+end A374617.P3660512242036278206
 
 /-!
 # A374618: a(n) is the number of distinct values of the determinant of an n X n symmetric Toeplitz matrix having 0 on the main diagonal and all the integers 1, 2, ..., n-1 off-diagonal.
@@ -623,20 +623,20 @@ end
 
 end A374618.P4978101907624848815
 
-/-! ## A374618.P6740725199178044651
+/-! ## A374618.P15638546605798502615
 
-`A347625(A000105(n))`
+`A265522(A108146(n))`
 -/
 
-namespace A374618.P6740725199178044651
+namespace A374618.P15638546605798502615
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347625 (A000105 n).toNat
+  A265522 (A108146 n).toNat
 
 end
 
-end A374618.P6740725199178044651
+end A374618.P15638546605798502615
 
 /-!
 # A374619: a(n) is the number of distinct values of the determinant of an n X n symmetric Toeplitz matrix having 1 on the main diagonal and all the first n-1 primes off-diagonal.
@@ -673,21 +673,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374619.P15626879699553628279
-
-/-! ## A374619.P3715351532749516263
-
-`A374620(n)-A326034(A242530(n+1))`
--/
-
-namespace A374619.P3715351532749516263
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374620 n - A326034 (A242530 (n + 1)).toNat
-
-end
-
-end A374619.P3715351532749516263
 
 /-! ## A374619.P6440067347240396802
 
@@ -1174,6 +1159,24 @@ end A374626.P11946729012555065442
 The programs for A374627, there is no canonical definition to state claims against.
 -/
 
+/-! ## A374627.P16745239638526671132
+
+`∑[A189374(n)]`
+-/
+
+namespace A374627.P16745239638526671132
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189374 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A374627.P16745239638526671132
+
 /-! ## A374627.P602632692661927354
 
 `∑[∑[A237433(10^floor(n/3))]]`
@@ -1236,42 +1239,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374627.P9522262377939927672
-
-/-! ## A374627.P12931544595952780652
-
-`∑[A189374(n)%A024774(n+1)]`
--/
-
-namespace A374627.P12931544595952780652
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A189374 n) (A024774 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A374627.P12931544595952780652
-
-/-! ## A374627.P5212514243162587580
-
-`∑[A189374(n)]%A071380(n+1)`
--/
-
-namespace A374627.P5212514243162587580
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189374 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (∑ j ∈ Finset.range (n + 1), f1 j) (A071380 (n + 1))
-
-end
-
-end A374627.P5212514243162587580
 
 /-!
 # A374629: Irregular triangle listing the leaders of maximal weakly increasing runs in the n-th composition in standard order.
@@ -1339,45 +1306,35 @@ end
 
 end A374629.P10380186716056991881
 
-/-! ## A374629.P125005997398155834
+/-! ## A374629.P3382213332728286752
 
-`A036037(comp[A213954(2*(n+2))-A244020(n+1)])`
+`A283325(A129987(n))`
 -/
 
-namespace A374629.P125005997398155834
+namespace A374629.P3382213332728286752
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213954 (2 * (n + 2)) - A244020 (n + 1)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036037 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A283325 (A129987 n).toNat
 
 end
 
-end A374629.P125005997398155834
+end A374629.P3382213332728286752
 
-/-! ## A374629.P10257222924130381239
+/-! ## A374629.P16278673642115830372
 
-`A080577(lt[A212122(n+2), A378987(2*(n+1))])`
+`A374515(A072568(n+2))`
 -/
 
-namespace A374629.P10257222924130381239
+namespace A374629.P16278673642115830372
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212122 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A378987 (2 * (n + 1))
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080577 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+  A374515 (A072568 (n + 2)).toNat
 
 end
 
-end A374629.P10257222924130381239
+end A374629.P16278673642115830372
 
 /-!
 # A374630: Sum of leaders of weakly increasing runs in the n-th composition in standard order.
@@ -2245,69 +2202,6 @@ end
 
 end A374638.P2836819639624242207
 
-/-! ## A374638.P4074060374819774211
-
-`lt[A124762(A375127(n)), A057427(3*n+1)]`
--/
-
-namespace A374638.P4074060374819774211
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124762 (A375127 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057427 (3 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A374638.P4074060374819774211
-
-/-! ## A374638.P10594972227715462117
-
-`lt[A373954(A375127(n)), A000035(2*n+3)]`
--/
-
-namespace A374638.P10594972227715462117
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373954 (A375127 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (2 * n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A374638.P10594972227715462117
-
-/-! ## A374638.P5220247319758490378
-
-`eq[A033322(3*n+4), A373954(A375127(n))]`
--/
-
-namespace A374638.P5220247319758490378
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033322 (3 * n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373954 (A375127 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A374638.P5220247319758490378
-
 /-!
 # A374639: Numbers k such that the leaders of maximal anti-runs in the k-th composition in standard order (A066099) are not distinct.
 
@@ -2443,21 +2337,6 @@ end
 
 end A374640.P3037132569536910018
 
-/-! ## A374640.P6671450827172781101
-
-`abs(A011782(n)-A374517(n))`
--/
-
-namespace A374640.P6671450827172781101
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A011782 n - A374517 n|
-
-end
-
-end A374640.P6671450827172781101
-
 /-! ## A374640.P15672683567932908622
 
 `A008615(A007283(n))%A374517(n)`
@@ -2502,6 +2381,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374640.P17275708891184800730
+
+/-! ## A374640.P4023114501171255099
+
+`A266715(A042047(n))`
+-/
+
+namespace A374640.P4023114501171255099
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266715 (A042047 n).toNat
+
+end
+
+end A374640.P4023114501171255099
 
 /-!
 # A374646: Paradiddle version of Thue-Morse sequence.
@@ -2757,29 +2651,6 @@ namespace A374646
 /-- `A010059(A006068(A213064(2*n)))` -/
 def P1223288734362268180.Spec : Prop :=
   ∀ n, P1223288734362268180.a n = A374646 n
-
-end A374646
-
-/-! ## A374646.P4164964220196596519
-
-`A010059(A006068(A048724(n)+n))`
--/
-
-namespace A374646.P4164964220196596519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010059 (A006068 (A048724 n + (n : ℤ)).toNat).toNat
-
-end
-
-end A374646.P4164964220196596519
-
-namespace A374646
-
-/-- `A010059(A006068(A048724(n)+n))` -/
-def P4164964220196596519.Spec : Prop :=
-  ∀ n, P4164964220196596519.a n = A374646 n
 
 end A374646
 
@@ -4774,21 +4645,6 @@ end
 
 end A374669.P12265705388069801772
 
-/-! ## A374669.P8320038590736403303
-
-`abs(A374376(A000096(n+1)))`
--/
-
-namespace A374669.P8320038590736403303
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A374376 (A000096 (n + 1)).toNat|
-
-end
-
-end A374669.P8320038590736403303
-
 /-! ## A374669.P12479511284604897406
 
 `abs(A374376(lt[A374376(n+1), n]))`
@@ -4903,21 +4759,6 @@ end
 
 end A374678.P17281852193840224057
 
-/-! ## A374678.P10388619268887898711
-
-`abs(A011782(n)-A374518(n))`
--/
-
-namespace A374678.P10388619268887898711
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A011782 n - A374518 n|
-
-end
-
-end A374678.P10388619268887898711
-
 /-! ## A374678.P15135619360151092343
 
 `A000079(n)-A131577(n)-A000027(A374518(n))`
@@ -4962,6 +4803,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 1, 1] fun n a =>
 end
 
 end A374678.P8296220890186329550
+
+/-! ## A374678.P8935150416092967581
+
+`A135660(A149008(n))`
+-/
+
+namespace A374678.P8935150416092967581
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135660 (A149008 n).toNat
+
+end
+
+end A374678.P8935150416092967581
 
 /-!
 # A374679: Number of integer compositions of n whose leaders of anti-runs are strictly increasing.
@@ -5146,51 +5002,6 @@ end
 
 end A374681.P5017168518677763016
 
-/-! ## A374681.P7406665899386086439
-
-`A287864(A164183(n))`
--/
-
-namespace A374681.P7406665899386086439
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287864 (A164183 n).toNat
-
-end
-
-end A374681.P7406665899386086439
-
-/-! ## A374681.P744858110483963524
-
-`A287864(A164184(n))`
--/
-
-namespace A374681.P744858110483963524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287864 (A164184 n).toNat
-
-end
-
-end A374681.P744858110483963524
-
-/-! ## A374681.P3445160759919264652
-
-`A287864(A164190(n))`
--/
-
-namespace A374681.P3445160759919264652
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287864 (A164190 n).toNat
-
-end
-
-end A374681.P3445160759919264652
-
 /-! ## A374681.P1397778974865326842
 
 `A235963(A246653(n))`
@@ -5205,6 +5016,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374681.P1397778974865326842
+
+/-! ## A374681.P5380294530177314611
+
+`A349898(A182746(n))`
+-/
+
+namespace A374681.P5380294530177314611
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349898 (A182746 n).toNat
+
+end
+
+end A374681.P5380294530177314611
+
+/-! ## A374681.P374430280743910280
+
+`A194339(A374703(n))`
+-/
+
+namespace A374681.P374430280743910280
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194339 (A374703 n).toNat
+
+end
+
+end A374681.P374430280743910280
+
+/-! ## A374681.P13753955939091904644
+
+`A337125(A243084(n))`
+-/
+
+namespace A374681.P13753955939091904644
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337125 (A243084 n).toNat
+
+end
+
+end A374681.P13753955939091904644
 
 /-!
 # A374682: Number of integer compositions of n whose leaders of anti-runs are weakly decreasing.
@@ -5342,21 +5198,6 @@ end
 
 end A374683.P7428619076734095792
 
-/-! ## A374683.P14362879111096461253
-
-`A066099(A031980(n+1)%A344899(2*n+5))`
--/
-
-namespace A374683.P14362879111096461253
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066099 (Int.tmod (A031980 (n + 1)) (A344899 (2 * n + 5))).toNat
-
-end
-
-end A374683.P14362879111096461253
-
 /-! ## A374683.P5605683940566687068
 
 `A374515(A356237(3*n+5)-2)`
@@ -5371,6 +5212,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374683.P5605683940566687068
+
+/-! ## A374683.P14646246810304330354
+
+`A329359(A333386(n+1))`
+-/
+
+namespace A374683.P14646246810304330354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329359 (A333386 (n + 1)).toNat
+
+end
+
+end A374683.P14646246810304330354
 
 /-!
 # A374684: Sum of leaders of strictly increasing runs in the n-th composition in standard order.
@@ -5886,50 +5742,50 @@ end
 
 end A374690.P3671329960537552151
 
-/-! ## A374690.P11134111116345443455
+/-! ## A374690.P9626706818592666344
 
-`A202304(A148345(n))`
+`A235963(A148559(n))`
 -/
 
-namespace A374690.P11134111116345443455
+namespace A374690.P9626706818592666344
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202304 (A148345 n).toNat
+  A235963 (A148559 n).toNat
 
 end
 
-end A374690.P11134111116345443455
+end A374690.P9626706818592666344
 
-/-! ## A374690.P15886430525455757859
+/-! ## A374690.P15385479781475598258
 
-`A202304(A148346(n))`
+`A225687(A217664(n))`
 -/
 
-namespace A374690.P15886430525455757859
+namespace A374690.P15385479781475598258
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202304 (A148346 n).toNat
+  A225687 (A217664 n).toNat
 
 end
 
-end A374690.P15886430525455757859
+end A374690.P15385479781475598258
 
-/-! ## A374690.P18006760154913826642
+/-! ## A374690.P10291675765780636344
 
-`A202304(A148347(n))`
+`A055086(A390134(n))`
 -/
 
-namespace A374690.P18006760154913826642
+namespace A374690.P10291675765780636344
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A202304 (A148347 n).toNat
+  A055086 (A390134 n).toNat
 
 end
 
-end A374690.P18006760154913826642
+end A374690.P10291675765780636344
 
 /-!
 # A374691: The smallest m+k such that n can be written as n=binomial(m,k).
@@ -6114,21 +5970,6 @@ end
 
 end A374697.P5654517305077183407
 
-/-! ## A374697.P16327780915788106059
-
-`abs(A011782(n)-A375135(n))`
--/
-
-namespace A374697.P16327780915788106059
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A011782 n - A375135 n|
-
-end
-
-end A374697.P16327780915788106059
-
 /-! ## A374697.P15820698234945643620
 
 `A189076(n)+A374636(n)-A375135(n)`
@@ -6143,21 +5984,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374697.P15820698234945643620
-
-/-! ## A374697.P2818684128067777173
-
-`A000027(A011782(n)-A375135(n))`
--/
-
-namespace A374697.P2818684128067777173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A011782 n - A375135 n).toNat
-
-end
-
-end A374697.P2818684128067777173
 
 /-! ## A374697.P17128524833915003944
 
@@ -6174,32 +6000,35 @@ end
 
 end A374697.P17128524833915003944
 
-/-!
-# A374698: Numbers k such that the leaders of strictly increasing runs in the k-th composition in standard order are distinct.
+/-! ## A374697.P2458585576787459206
 
-The programs for A374698, there is no canonical definition to state claims against.
+`A316355(A000958(n+1))`
 -/
 
-/-! ## A374698.P1149021443467359217
-
-`eq[A124762(n), A351356(A365426(3*n))]`
--/
-
-namespace A374698.P1149021443467359217
+namespace A374697.P2458585576787459206
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124762 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351356 (A365426 (3 * n)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316355 (A000958 (n + 1)).toNat
 
 end
 
-end A374698.P1149021443467359217
+end A374697.P2458585576787459206
+
+/-! ## A374697.P10211801628320118394
+
+`A055086(A289592(n+1))`
+-/
+
+namespace A374697.P10211801628320118394
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055086 (A289592 (n + 1)).toNat
+
+end
+
+end A374697.P10211801628320118394
 
 /-!
 # A374699: Number of integer compositions of n whose leaders of maximal anti-runs are not weakly decreasing.

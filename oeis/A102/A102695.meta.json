@@ -1,5 +1,5 @@
 {
-  "description": "Making the absolute difference between the last two digits of a(n) gives the n-t h digit of the sequence; a(n) < a(n+1).",
+  "description": "Making the absolute difference between the last two digits of a(n) gives the n-th digit of the sequence; a(n) < a(n+1).",
   "id": "A102695",
   "mentions": [],
   "tags": [

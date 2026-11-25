@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: among the lists of n positive integers that contain no earlier row as a subsequence, row n has the smallest possible largest term and, among those, is the lexicographically smallest.",
+  "id": "A402288",
+  "mentions": [
+    "A004119",
+    "A093382",
+    "A094091",
+    "A402229",
+    "A402230",
+    "A402289"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

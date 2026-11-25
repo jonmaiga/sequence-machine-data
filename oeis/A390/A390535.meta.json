@@ -2,6 +2,7 @@
   "description": "Smallest integer > 1 whose radix-A013929(n) congruence speed never stabilizes.",
   "id": "A390535",
   "mentions": [
+    "A007947",
     "A013929",
     "A317905",
     "A373387",

@@ -2,6 +2,8 @@
   "description": "Least period of the outer billiards orbit of (2n-1,1) relative to the Penrose kite with vertices (-1,0), (0,-1), (sqrt(5)-2,0), (0,1).",
   "id": "A401756",
   "mentions": [
+    "A000045",
+    "A107839",
     "A401809",
     "A401810"
   ],

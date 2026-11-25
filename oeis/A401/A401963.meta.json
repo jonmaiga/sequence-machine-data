@@ -1,0 +1,21 @@
+{
+  "description": "Period of row 2^m - 1 - n in the Laver table of size 2^m, for any m such that 2^m > n + 1.",
+  "id": "A401963",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A018819",
+    "A098820",
+    "A143796"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

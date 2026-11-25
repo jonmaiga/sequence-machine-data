@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the total perimeter of the trefoil curve.",
+  "id": "A402135",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

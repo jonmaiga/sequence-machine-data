@@ -1,0 +1,24 @@
+{
+  "description": "Number of sites that topple when the 2n-th grain is added at the origin of an initially empty sandpile on the first quadrant, where a site (x, y) with at least 2 grains topples by sending one grain to each of (x+1, y) and (x, y+1).",
+  "id": "A401902",
+  "mentions": [
+    "A000108",
+    "A010503",
+    "A038712",
+    "A188582",
+    "A352226",
+    "A389565",
+    "A390129",
+    "A390355"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

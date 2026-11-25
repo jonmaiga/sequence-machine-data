@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to tile a size n staircase polyomino with squares of integer side lengths.",
+  "id": "A401338",
+  "mentions": [
+    "A045846",
+    "A335547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

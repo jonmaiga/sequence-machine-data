@@ -1,0 +1,19 @@
+{
+  "description": "Number of acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 2 and there is exactly one source and exactly one sink.",
+  "id": "A402237",
+  "mentions": [
+    "A000142",
+    "A165950",
+    "A195737",
+    "A397711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

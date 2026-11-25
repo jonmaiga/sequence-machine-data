@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct time intervals measurable by burning n non-uniform ropes, each burning for 1 unit of time, extinguishing allowed, as measured between any two state transitions.",
+  "id": "A400926",
+  "mentions": [
+    "A137153",
+    "A287012",
+    "A400927"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

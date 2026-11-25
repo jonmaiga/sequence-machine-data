@@ -18,16 +18,18 @@ import Seq.B000.C036
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C012
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C002
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
@@ -37,12 +39,10 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -224,21 +224,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042208.P11141406381600529170
-
-/-! ## A042208.P14954433855977372092
-
-`or(1, A041122(A004483(3*n)))`
--/
-
-namespace A042208.P14954433855977372092
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A041122 (A004483 (3 * n)).toNat)
-
-end
-
-end A042208.P14954433855977372092
 
 /-! ## A042208.P10468744083542211678
 

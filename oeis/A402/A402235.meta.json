@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 2 and the longest directed path has k arcs, n >= 1, 0 <= k <= n-1.",
+  "id": "A402235",
+  "mentions": [
+    "A010790",
+    "A395247",
+    "A397711",
+    "A402234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

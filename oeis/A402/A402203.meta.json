@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime whose tree of most central Goldbach partitions has height n.",
+  "id": "A402203",
+  "mentions": [
+    "A000040",
+    "A047160",
+    "A112823",
+    "A234345",
+    "A402202",
+    "A402204"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

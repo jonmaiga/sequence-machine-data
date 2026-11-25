@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of 4^n - 3^n.",
+  "id": "A400724",
+  "mentions": [
+    "A000005",
+    "A005061",
+    "A398834"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

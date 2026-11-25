@@ -2,7 +2,8 @@
   "description": "Half the number of n X 3 binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors.",
   "id": "A183304",
   "mentions": [
-    "A183312"
+    "A183312",
+    "A214260"
   ],
   "tags": [
     "formulas",

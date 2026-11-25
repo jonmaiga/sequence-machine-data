@@ -1,0 +1,22 @@
+{
+  "description": "Powerful oblong numbers (oblong Achilles numbers).",
+  "id": "A398749",
+  "mentions": [
+    "A001694",
+    "A002378",
+    "A052486",
+    "A060355",
+    "A286708",
+    "A363216",
+    "A390952"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

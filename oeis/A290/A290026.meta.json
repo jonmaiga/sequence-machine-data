@@ -2,6 +2,7 @@
   "description": "Number of 3-cycles in the n-halved cube graph.",
   "id": "A290026",
   "mentions": [
+    "A001789",
     "A290027",
     "A290028",
     "A290029"

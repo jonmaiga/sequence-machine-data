@@ -1,5 +1,5 @@
 {
-  "description": "Filter-sequence for factorial base (digit values): least number with the same prime signature as A276076(n).",
+  "description": "The smallest number with same prime signature as A276076(n) has, where A276076 is the factorial base exp-function.",
   "id": "A278236",
   "mentions": [
     "A007623",
@@ -7,6 +7,7 @@
     "A046523",
     "A060130",
     "A069877",
+    "A181819",
     "A181821",
     "A227153",
     "A227154",
@@ -32,6 +33,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

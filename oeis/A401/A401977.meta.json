@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 2; for n >= 1, T(n,0) = 1, T(n,n) = (-1)^n*prime(n+1), and T(n,k) = T(n-1,k-1) + T(n-1,k) for 0 < k < n.",
+  "id": "A401977",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A036467"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

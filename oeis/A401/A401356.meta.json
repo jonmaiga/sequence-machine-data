@@ -1,0 +1,21 @@
+{
+  "description": "Least number congruent to 17 modulo 24 that is a quadratic residue modulo the first n-1 primes greater than 3.",
+  "id": "A401356",
+  "mentions": [
+    "A045535",
+    "A102476",
+    "A401305",
+    "A402499",
+    "A402500",
+    "A402507",
+    "A402547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

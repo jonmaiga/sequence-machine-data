@@ -2,17 +2,19 @@
   "description": "Number of minimal dominating sets in the n-prism graph.",
   "id": "A290336",
   "mentions": [
+    "A004524",
     "A284702",
     "A290337",
     "A290379"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 31,
+    "size": 32,
     "source": "joeis"
   }
 }

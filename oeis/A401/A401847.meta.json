@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of {1..n} such that all primes are adjacent (form a single contiguous block).",
+  "id": "A401847",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A062298",
+    "A132369",
+    "A401790",
+    "A401831"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

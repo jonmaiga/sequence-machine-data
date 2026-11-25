@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are the sum of more consecutive primes than any smaller primes.",
+  "id": "A400296",
+  "mentions": [
+    "A070281",
+    "A400297"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

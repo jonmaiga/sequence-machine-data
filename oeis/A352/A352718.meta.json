@@ -2,15 +2,18 @@
   "description": "a(n) = floor(n^(3/2)) - floor(n^(1/2))^3.",
   "id": "A352718",
   "mentions": [
-    "A000093"
+    "A000093",
+    "A032766",
+    "A398924"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

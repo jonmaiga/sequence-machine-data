@@ -10,11 +10,8 @@ import Seq.B000.C011
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B004.C003
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C010
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -233,36 +230,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021304.P17480589796399667436
-
-/-! ## A021304.P8017012553548334851
-
-`a(n-1)+A056594(A187217(n))²*A016324(n)` with `a(0)=1`
--/
-
-namespace A021304.P8017012553548334851
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + A056594 (A187217 n).toNat ^ 2 * A016324 n
-
-end
-
-end A021304.P8017012553548334851
-
-/-! ## A021304.P16543293038504005869
-
-`a(n-1)+A016324(n)*A285097(A044399(n+1))` with `a(0)=1`
--/
-
-namespace A021304.P16543293038504005869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + A016324 n * A285097 (A044399 (n + 1)).toNat
-
-end
-
-end A021304.P16543293038504005869
 
 /-!
 # A021307: Decimal expansion of 1/303.
@@ -738,24 +705,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021324.P1795836379738212168
-
-/-! ## A021324.P6447494298091010207
-
-`or(1, ∑[A016326(n)])`
--/
-
-namespace A021324.P6447494298091010207
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016326 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A021324.P6447494298091010207
 
 /-! ## A021324.P15584962570086926619
 

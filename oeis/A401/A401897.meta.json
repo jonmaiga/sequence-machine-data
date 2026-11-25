@@ -1,0 +1,17 @@
+{
+  "description": "Number of Gaussian integers w with N(w) < N(z) that are visible from z, where z = a+b*i is the n-th nonzero Gaussian integer with 0 <= b <= a, ordered by norm and then by b.",
+  "id": "A401897",
+  "mentions": [
+    "A057655",
+    "A401675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

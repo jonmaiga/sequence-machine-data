@@ -1,8 +1,10 @@
 {
-  "description": "Number of free polyominoes of size 2n for which there exists at least one closed path that passes through each square exactly once.",
+  "description": "Number of free polyominoes of size 2*n for which there exists at least one closed path that passes through each square exactly once.",
   "id": "A361288",
   "mentions": [
-    "A266549"
+    "A252653",
+    "A266549",
+    "A399931"
   ],
   "tags": [
     "hard",

@@ -3,13 +3,13 @@
   "id": "A092088",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

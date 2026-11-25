@@ -1,0 +1,17 @@
+{
+  "description": "Number of Dyck paths of semilength n with distinct peak heights and distinct valley heights.",
+  "id": "A399890",
+  "mentions": [
+    "A000108",
+    "A281874"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Image of 0 under repeated application of the map k -> (3k, 3k+2, 3k, 3k+2).",
+  "id": "A401625",
+  "mentions": [
+    "A000302",
+    "A005823",
+    "A105220",
+    "A289813",
+    "A356248"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -32,7 +32,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -47,11 +46,9 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -59,6 +56,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,20 +103,20 @@ end
 
 end A106900.P8273036128639653498
 
-/-! ## A106900.P9045859414487729607
+/-! ## A106900.P11189800895316453233
 
-`A033232(A033271(n+1)+A032559(n+1))`
+`A033232(A032555(n+2))`
 -/
 
-namespace A106900.P9045859414487729607
+namespace A106900.P11189800895316453233
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033232 (A033271 (n + 1) + A032559 (n + 1)).toNat
+  A033232 (A032555 (n + 2)).toNat
 
 end
 
-end A106900.P9045859414487729607
+end A106900.P11189800895316453233
 
 /-!
 # A106901: Primes of the form 3x^2+3xy+5y^2, with x and y nonnegative.
@@ -1281,27 +1279,6 @@ end
 
 end A106909.P10949918970300293578
 
-/-! ## A106909.P9124254752257323175
-
-`A106908(lt[A217424(n+3), A088614(n+1)])`
--/
-
-namespace A106909.P9124254752257323175
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217424 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088614 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106908 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A106909.P9124254752257323175
-
 /-!
 # A106910: Primes of the form 2x^2+xy+7y^2, with x and y nonnegative.
 
@@ -1839,65 +1816,20 @@ end A106912.P12075419563767355161
 The programs for A106913, there is no canonical definition to state claims against.
 -/
 
-/-! ## A106913.P11105109644387639911
+/-! ## A106913.P6793352197331807090
 
-`A033235(A229300(n+1)^A008835(n+1))`
+`A033235(A229300(n+1))`
 -/
 
-namespace A106913.P11105109644387639911
+namespace A106913.P6793352197331807090
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033235 (SequenceMachineLib.roundAway ((A229300 (n + 1) : ℚ) ^ (A008835 (n + 1) : ℤ))).toNat
+  A033235 (A229300 (n + 1)).toNat
 
 end
 
-end A106913.P11105109644387639911
-
-/-! ## A106913.P17322837037201773325
-
-`A033235(A229300(n+1)%A014891(n+1))`
--/
-
-namespace A106913.P17322837037201773325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033235 (Int.tmod (A229300 (n + 1)) (A014891 (n + 1))).toNat
-
-end
-
-end A106913.P17322837037201773325
-
-/-! ## A106913.P3442780370202865307
-
-`A033235(A008835(n+1)²²*A229300(n+1))`
--/
-
-namespace A106913.P3442780370202865307
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033235 ((A008835 (n + 1) ^ 2) ^ 2 * A229300 (n + 1)).toNat
-
-end
-
-end A106913.P3442780370202865307
-
-/-! ## A106913.P9292379217316565522
-
-`A033235(A229300(n+1))/A229300(A008835(n+1)²)`
--/
-
-namespace A106913.P9292379217316565522
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A033235 (A229300 (n + 1)).toNat : ℚ) / (A229300 (A008835 (n + 1) ^ 2).toNat : ℚ)
-
-end
-
-end A106913.P9292379217316565522
+end A106913.P6793352197331807090
 
 /-!
 # A106914: Primes of the form 3x^2+2xy+5y^2, with x and y nonnegative.
@@ -3202,21 +3134,6 @@ end
 
 end A106921.P16980643516787675410
 
-/-! ## A106921.P5708703878330126103
-
-`A106922(floor(atan(A107112(n)))+n+1)`
--/
-
-namespace A106921.P5708703878330126103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106922 (⌊Real.arctan (A107112 n : ℝ)⌋ + (n + 1 : ℤ)).toNat
-
-end
-
-end A106921.P5708703878330126103
-
 /-! ## A106921.P10128473078112012385
 
 `A106922(floor(atan(A106684(n)))+n+1)`
@@ -3231,6 +3148,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106921.P10128473078112012385
+
+/-! ## A106921.P1356173210647144024
+
+`∩[A106922(n+1), A140549(n+1)]`
+-/
+
+namespace A106921.P1356173210647144024
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106922 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140549 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106921.P1356173210647144024
 
 /-!
 # A106922: Primes of the form x^2-xy+15y^2, with x and y nonnegative.
@@ -4469,24 +4408,6 @@ end
 
 end A106929.P11464754737117240331
 
-/-! ## A106929.P15321887778986543008
-
-`A106930(record[A319225(A157282(n+1))])`
--/
-
-namespace A106929.P15321887778986543008
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319225 (A157282 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106930 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A106929.P15321887778986543008
-
 /-! ## A106929.P7718442431972235890
 
 `p?[A106930(n+1)*A124778(2*n+1)]`
@@ -4504,21 +4425,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106929.P7718442431972235890
-
-/-! ## A106929.P3187610646758099369
-
-`A106930(A124778(A062399(n))+n)`
--/
-
-namespace A106929.P3187610646758099369
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106930 (A124778 (A062399 n).toNat + (n : ℤ)).toNat
-
-end
-
-end A106929.P3187610646758099369
 
 /-!
 # A106930: Primes of the form x^2 - xy + 16y^2, with x and y nonnegative.
@@ -5782,21 +5688,6 @@ end
 
 end A106936.P14856941746097149219
 
-/-! ## A106936.P7782020952109668692
-
-`A152451(A241820(n+4)*A348717(n+1))`
--/
-
-namespace A106936.P7782020952109668692
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152451 (A241820 (n + 4) * A348717 (n + 1)).toNat
-
-end
-
-end A106936.P7782020952109668692
-
 /-!
 # A106937: Primes of the form 2x^2+2xy+9y^2, with x and y nonnegative.
 
@@ -5847,21 +5738,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106937.P2041068717833642175
-
-/-! ## A106937.P16504469387560912520
-
-`A106938(A207539(n)²²*A141807(n+1))`
--/
-
-namespace A106937.P16504469387560912520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106938 ((A207539 n ^ 2) ^ 2 * A141807 (n + 1)).toNat
-
-end
-
-end A106937.P16504469387560912520
 
 /-!
 # A106938: Primes of the form 2x^2-2xy+9y^2, with x and y nonnegative.
@@ -5949,21 +5825,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106938.P10890948495437661744
-
-/-! ## A106938.P15182183144951688300
-
-`A106937(A032559(n+1))`
--/
-
-namespace A106938.P15182183144951688300
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106937 (A032559 (n + 1)).toNat
-
-end
-
-end A106938.P15182183144951688300
 
 /-!
 # A106940: Primes of the form 4x^2+3xy+5y^2, with x and y any integer.
@@ -7432,27 +7293,6 @@ end
 
 end A106951.P8674134763507811224
 
-/-! ## A106951.P881636533485513848
-
-`A023212(lt[A023189(n+2), A023165(n+1)])`
--/
-
-namespace A106951.P881636533485513848
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023189 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023165 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023212 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A106951.P881636533485513848
-
 /-! ## A106951.P11928482076383484335
 
 `record[A023212(A374994(n+1))]`
@@ -7491,6 +7331,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A106951.P9458431670578403585
+
+/-! ## A106951.P10932201903304722136
+
+`∩[A023212(n+1), A233998(n+1)]`
+-/
+
+namespace A106951.P10932201903304722136
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023212 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233998 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106951.P10932201903304722136
 
 /-!
 # A106952: Primes of the form 3x^2-3xy+7y^2, with x and y nonnegative.

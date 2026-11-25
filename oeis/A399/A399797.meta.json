@@ -1,0 +1,18 @@
+{
+  "description": "Nontrivial cycle starting with 5 under the map: x -> A063655(x) if x is composite, x -> A072055(m) if x is the m-th prime.",
+  "id": "A399797",
+  "mentions": [
+    "A010709",
+    "A063655",
+    "A072055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

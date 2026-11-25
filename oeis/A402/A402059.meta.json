@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that gcd(d_4(k), 6) = 1, where d_4 = A007426 is the 4th Piltz function.",
+  "id": "A402059",
+  "mentions": [
+    "A000583",
+    "A007310",
+    "A007426",
+    "A013662",
+    "A377022",
+    "A402060"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

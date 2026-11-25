@@ -1,0 +1,18 @@
+{
+  "description": "Largest possible gap between adjacent elements of cyclic planar difference sets over Z_(m^2+m+1), m = A000961(n).",
+  "id": "A401165",
+  "mentions": [
+    "A000961",
+    "A333852",
+    "A333865",
+    "A335866"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

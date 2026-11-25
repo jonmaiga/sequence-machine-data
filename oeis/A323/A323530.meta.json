@@ -13,11 +13,12 @@
     "A323531"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

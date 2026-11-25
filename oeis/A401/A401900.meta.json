@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle of palindromic numerator coefficients for the nonsymmetric Horn companion of the Gross-Witten-Wadia generating function, read by rows.",
+  "id": "A401900",
+  "mentions": [
+    "A000108",
+    "A000309",
+    "A111910",
+    "A140136",
+    "A336110"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

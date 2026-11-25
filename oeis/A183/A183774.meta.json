@@ -2,6 +2,7 @@
   "description": "Half the number of (n+1) X 2 binary arrays with no 2X2 subblock having exactly 2 ones.",
   "id": "A183774",
   "mentions": [
+    "A006131",
     "A183782"
   ],
   "tags": [

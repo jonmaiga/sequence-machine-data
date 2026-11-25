@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {1..n} that contain the bitwise XOR of any two distinct elements whenever this XOR is <= n.",
+  "id": "A402242",
+  "mentions": [
+    "A006116",
+    "A190939",
+    "A326080",
+    "A326083",
+    "A402240",
+    "A402241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

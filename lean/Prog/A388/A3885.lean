@@ -6,9 +6,9 @@ import Seq.B000.C022
 import Seq.B000.C048
 import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B002.C008
+import Seq.B002.C007
 import Seq.B005.C002
-import Seq.Opaque.C001
+import Seq.B005.C003
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -16,7 +16,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -364,7 +363,7 @@ end A388538
 /-!
 # A388539: Sum of decimal digits of Fibonacci(n)^2.
 
-The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
+The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
 
 The definition of A388539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -373,7 +372,7 @@ The definition of A388539 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A007598(n))`
 
-The canonical program, it is in `Seq.B002.C008`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A388539
@@ -460,32 +459,6 @@ namespace A388539
 /-- `∑{digits}[A000045(n)², #]` -/
 def P17085724409366822242.Spec : Prop :=
   ∀ n, (P17085724409366822242.a n : ℤ) = A388539 n
-
-end A388539
-
-/-! ## A388539.P4604155222024768438
-
-`∑{digits}[A000045(n)^A020639(2*(n+2)), #]`
--/
-
-namespace A388539.P4604155222024768438
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000045 n : ℚ) ^ (A020639 (2 * (n + 2)) : ℤ)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (SequenceMachineLib.roundAway (f1 n)).natAbs).map fun (x : ℕ) => x).sum
-
-end
-
-end A388539.P4604155222024768438
-
-namespace A388539
-
-/-- `∑{digits}[A000045(n)^A020639(2*(n+2)), #]` -/
-def P4604155222024768438.Spec : Prop :=
-  ∀ n, (P4604155222024768438.a n : ℤ) = A388539 n
 
 end A388539
 

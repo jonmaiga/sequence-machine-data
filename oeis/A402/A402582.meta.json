@@ -1,0 +1,20 @@
+{
+  "description": "Variant of primorial base mongrel derivative A402581: Compute otherwise like A342002, but take the exponents e from the prime factorization of n, like A342001 (arithmetic derivative without its inherited divisor) does.",
+  "id": "A402582",
+  "mentions": [
+    "A342001",
+    "A342002",
+    "A402581",
+    "A402583"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

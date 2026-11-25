@@ -16541,33 +16541,35 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*a(n-1)+n+1` (program `A014831.P15083714595225687828`, by `A014831.P15083714595225687828.correct`). Lean does not check the parsing of the name. -/
 def A014831.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A008612.P16648533606768999186
+/-! ## A014832.P16119270779884186029
 
-`a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=0, a(2)=0, a(3)=1, a(4)=1`
+`9*a(n-1)+n+1` with `a(0)=1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A008612.P16648533606768999186
+namespace A014832.P16119270779884186029
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0, 0, 1, 1] fun n a =>
-  a (n - 2) + a (n - 3) - a (n - 5)
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  9 * a (n - 1) + (n + 1)
 
 end
 
-end A008612.P16648533606768999186
+end A014832.P16119270779884186029
 
 noncomputable section
 
-/-- A008612: Molien series of 2-dimensional representation of SL(2,3).
+/-- A014832: a(1)=1; for n>1, a(n) = 9*a(n-1) + n.
 
-Offset 0, canonical program `A008612.P16648533606768999186`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A008612 (n : ℕ) : ℤ :=
-  A008612.P16648533606768999186.a n
+Offset 1, canonical program `A014832.P16119270779884186029`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*a(n-1)+n+1` (program `A014832.P16119270779884186029`, by `A014832.P16119270779884186029.correct`). Lean does not check the parsing of the name. -/
+def A014832 (n : ℕ) : ℤ :=
+  (A014832.P16119270779884186029.a (n - 1) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A008612.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*a(n-1)+n+1` (program `A014832.P16119270779884186029`, by `A014832.P16119270779884186029.correct`). Lean does not check the parsing of the name. -/
+def A014832.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A008613.P5484530525919588035
 
@@ -20919,28 +20921,28 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A010551.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A010552.P2411443693945560636
+/-! ## A010552.P6574515605083764491
 
-`a(n-1)*floor(sqrt(2*n)+1/2)` with `a(0)=1`
+`a(n-1)*floor(sqrt(2*n)+1/2)` with `a(0)=1, a(1)=1`
 -/
 
-namespace A010552.P2411443693945560636
+namespace A010552.P6574515605083764491
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
   a (n - 1) * ⌊Real.sqrt (2 * n : ℝ) + ((1 : ℚ) / 2 : ℝ)⌋
 
 end
 
-end A010552.P2411443693945560636
+end A010552.P6574515605083764491
 
 noncomputable section
 
 /-- A010552: Multiply successively by 1 (once), 2 (twice), 3 (thrice), etc.
 
-Offset 0, canonical program `A010552.P2411443693945560636`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A010552.P6574515605083764491`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A010552 (n : ℕ) : ℤ :=
-  A010552.P2411443693945560636.a n
+  A010552.P6574515605083764491.a n
 
 end
 

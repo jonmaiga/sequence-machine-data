@@ -2,15 +2,17 @@
   "description": "Number of refactorable numbers (A033950) <= 10^n.",
   "id": "A111291",
   "mentions": [
+    "A000720",
     "A033950"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

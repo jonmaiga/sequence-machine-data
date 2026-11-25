@@ -1,0 +1,20 @@
+{
+  "description": "A multidimensional generalization of the city building sequence A400000, giving the height of buildings located at (x_1, ..., x_k, 0, 0, ...) for partitions (x_1, ..., x_k) in the order given by A080577.",
+  "id": "A402009",
+  "mentions": [
+    "A000070",
+    "A080577",
+    "A400000",
+    "A401750",
+    "A402010"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

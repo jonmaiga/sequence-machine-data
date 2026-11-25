@@ -2,6 +2,10 @@
   "description": "Start with two vertices and draw a circle around each whose radius is the distance between the vertices. The sequence gives the number of vertices constructed after n iterations of drawing circles with this same radius around every new vertex created from all circles' intersections. See the Comments.",
   "id": "A374338",
   "mentions": [
+    "A008458",
+    "A264788",
+    "A265676",
+    "A338097",
     "A359569",
     "A371254",
     "A371373",

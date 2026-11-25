@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible naturally labeled posets on {1,2,...,n}.",
+  "id": "A398778",
+  "mentions": [
+    "A006455",
+    "A046908",
+    "A323502",
+    "A354615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

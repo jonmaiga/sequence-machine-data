@@ -1,0 +1,18 @@
+{
+  "description": "Bisection of A007913: a(n) = A007913(2*n+1).",
+  "id": "A402273",
+  "mentions": [
+    "A007913",
+    "A099984",
+    "A402272"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

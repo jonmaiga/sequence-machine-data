@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is half the number of words of length 4*n over the alphabet [4] such that c(2) = c(3) = c(4), any prefix satisfies c(1) >= c(2), c(1) >= c(3), c(2) >= c(4), c(3) >= c(4), no proper prefix satisfies c(1) = c(2) = c(3) = c(4), and the maximum value of c(1) - c(4) = k for some prefix. Here c(i) is the number of occurrences of the letter i.",
+  "id": "A401945",
+  "mentions": [
+    "A114714",
+    "A384725",
+    "A399293"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

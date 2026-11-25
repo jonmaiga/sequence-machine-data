@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{k>=1} x^(k^2) / Product_{j=1..4*k} (1 - x^j).",
+  "id": "A402471",
+  "mentions": [
+    "A003114",
+    "A122129",
+    "A350896",
+    "A402472"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

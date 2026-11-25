@@ -1,0 +1,28 @@
+{
+  "description": "Perfect powers that have exactly 2 distinct prime factors.",
+  "id": "A402531",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A006881",
+    "A007774",
+    "A008683",
+    "A025478",
+    "A033845",
+    "A084227",
+    "A200511",
+    "A303661",
+    "A355462",
+    "A393816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

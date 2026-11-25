@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order has an even number of parts, the first and last of which are equal.",
+  "id": "A401878",
+  "mentions": [
+    "A000700",
+    "A001045",
+    "A001969",
+    "A006995",
+    "A016116",
+    "A027357",
+    "A029837",
+    "A034008",
+    "A066099",
+    "A077957",
+    "A078008",
+    "A091065",
+    "A098124",
+    "A124767",
+    "A128209",
+    "A264619",
+    "A389530",
+    "A389532",
+    "A400763",
+    "A400764",
+    "A400765",
+    "A400766",
+    "A401877"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

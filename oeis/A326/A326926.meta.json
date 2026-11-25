@@ -2,9 +2,13 @@
   "description": "Triangular array read by rows: row n shows the coefficients of this polynomial of degree n: (1/n!)*(numerator of n-th derivative of 1/(1-x+x^2)).",
   "id": "A326926",
   "mentions": [
+    "A000748",
+    "A049347",
+    "A099450",
     "A326933"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

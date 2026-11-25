@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of e*Pi*phi, where phi = (sqrt(5) + 1)/2.",
+  "description": "Decimal expansion of e*Pi*phi, where phi = (1 + sqrt(5))/2.",
   "id": "A131563",
   "mentions": [
     "A000796",
@@ -7,10 +7,12 @@
     "A001622",
     "A019609",
     "A094885",
-    "A094886"
+    "A094886",
+    "A135155"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

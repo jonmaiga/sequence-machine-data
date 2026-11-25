@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Riordan array ( (1 - 2*x - sqrt(1 - 4*x - 8*x^2))/(6*x^2), (1 - 2*x - sqrt(1 - 4*x - 8*x^2))/(6*x) ).",
+  "id": "A401985",
+  "mentions": [
+    "A000012",
+    "A122871",
+    "A401984",
+    "A401986"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

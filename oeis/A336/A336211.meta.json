@@ -1,7 +1,12 @@
 {
   "description": "Sum of an infinite series involving generalized harmonic numbers of order 2.",
   "id": "A336211",
-  "mentions": [],
+  "mentions": [
+    "A006752",
+    "A007406",
+    "A007407",
+    "A175572"
+  ],
   "tags": [
     "cons",
     "formulas",

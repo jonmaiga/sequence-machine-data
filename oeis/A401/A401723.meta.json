@@ -1,0 +1,25 @@
+{
+  "description": "Multiplicative with a(p^e) = (e*p)^e.",
+  "id": "A401723",
+  "mentions": [
+    "A000027",
+    "A005117",
+    "A112622",
+    "A133482",
+    "A401715",
+    "A401913",
+    "A401914",
+    "A401916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

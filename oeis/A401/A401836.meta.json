@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that two distinct numbers can be removed from 1 through k so that the sum of their squares equals the sum of the remaining numbers.",
+  "id": "A401836",
+  "mentions": [
+    "A000161",
+    "A000217",
+    "A001652",
+    "A002061",
+    "A401837",
+    "A401838"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

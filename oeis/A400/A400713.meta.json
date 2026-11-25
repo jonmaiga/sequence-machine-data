@@ -1,0 +1,27 @@
+{
+  "description": "Let b(k) denote A377091(k). A \"crossing\" in A377091 is a pair of terms b(k), b(k+1) with opposite signs, and the \"root\" of this crossing is sqrt(|b(k)-b(k+1)|); then a(n) = number of crossings with root n.",
+  "id": "A400713",
+  "mentions": [
+    "A377091",
+    "A379728",
+    "A379789",
+    "A379790",
+    "A379791",
+    "A379793",
+    "A379794",
+    "A379795",
+    "A379797",
+    "A380337",
+    "A380837",
+    "A400106",
+    "A400714"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

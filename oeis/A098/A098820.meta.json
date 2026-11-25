@@ -1,7 +1,9 @@
 {
-  "description": "Periodicity of entries in the first row of a Laver Table of size 2^n.",
+  "description": "Periodicity of entries in the first row of a Laver table of size 2^n.",
   "id": "A098820",
-  "mentions": [],
+  "mentions": [
+    "A401963"
+  ],
   "tags": [
     "nonn"
   ],

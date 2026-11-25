@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the walk on the square lattice encoded by the binary expansion of k ends at a point not reached by the walk of any smaller positive integer.",
+  "id": "A402282",
+  "mentions": [
+    "A006068",
+    "A344022",
+    "A402295"
+  ],
+  "tags": [
+    "base",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

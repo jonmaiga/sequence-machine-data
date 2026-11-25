@@ -9,7 +9,7 @@ import Seq.B000.C011
 import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C002
@@ -21,7 +21,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
-import Seq.Opaque.C022
+import Seq.Opaque.C021
 
 /-!
 # A021100: Decimal expansion of 1/96.
@@ -168,24 +168,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A021104.P5850333676954210834
-
-/-! ## A021104.P10773272065537344770
-
-`or(1, ∑[A016294(n)])`
--/
-
-namespace A021104.P10773272065537344770
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016294 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A021104.P10773272065537344770
 
 /-! ## A021104.P11079675663607799619
 

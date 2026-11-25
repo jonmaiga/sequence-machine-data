@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n} k! * a(n-k).",
+  "id": "A401048",
+  "mentions": [
+    "A051296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

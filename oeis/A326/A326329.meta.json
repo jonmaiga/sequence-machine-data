@@ -2,6 +2,7 @@
   "description": "Number of simple graphs covering {1..n} with no crossing or nesting edges.",
   "id": "A326329",
   "mentions": [
+    "A000073",
     "A000108",
     "A001519",
     "A006125",
@@ -17,12 +18,13 @@
     "A326293"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 27,
     "source": "joeis"
   }
 }

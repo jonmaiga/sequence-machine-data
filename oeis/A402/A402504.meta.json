@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*prime(n)# + 1, where prime(n)# = A002110(n).",
+  "id": "A402504",
+  "mentions": [
+    "A002110",
+    "A002189",
+    "A215658",
+    "A402440",
+    "A402499"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

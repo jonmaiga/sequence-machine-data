@@ -2,6 +2,7 @@
   "description": "Diagonal of A354704.",
   "id": "A354706",
   "mentions": [
+    "A235204",
     "A293330",
     "A354704",
     "A354705",
@@ -9,12 +10,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

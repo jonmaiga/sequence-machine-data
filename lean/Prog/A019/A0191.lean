@@ -1,24 +1,17 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C021
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B001.C010
-import Seq.B001.C014
 import Seq.B006.C000
 import Seq.B010.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
-import Seq.Opaque.C005
-import Seq.Opaque.C007
 import Seq.Opaque.C010
-import Seq.Opaque.C011
-import Seq.Opaque.C017
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 
 /-!
 # A019129: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan[AlnSi112-nO224] starting with a T10 atom.
@@ -167,38 +160,20 @@ end A019169.P10313955376387083914
 The programs for A019186, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019186.P1012360318387739373
+/-! ## A019186.P14019050702313625128
 
-`A019187(A054760(∑[n]))`
+`A019187(n+3)`
 -/
 
-namespace A019186.P1012360318387739373
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019187 (A054760 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A019186.P1012360318387739373
-
-/-! ## A019186.P12755948199438592118
-
-`A019187(A024647(n)+3)`
--/
-
-namespace A019186.P12755948199438592118
+namespace A019186.P14019050702313625128
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019187 (A024647 n + 3).toNat
+  A019187 (n + 3)
 
 end
 
-end A019186.P12755948199438592118
+end A019186.P14019050702313625128
 
 /-! ## A019186.P2587389919141347275
 
@@ -215,86 +190,26 @@ end
 
 end A019186.P2587389919141347275
 
-/-! ## A019186.P1643378963685205017
-
-`A069843(A000142(n))+A019187(n+3)`
--/
-
-namespace A019186.P1643378963685205017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069843 (A000142 n).toNat + A019187 (n + 3)
-
-end
-
-end A019186.P1643378963685205017
-
 /-!
 # A019189: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T4 atom.
 
 The programs for A019189, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019189.P334519048024909156
+/-! ## A019189.P17276857798339501409
 
-`A019244(A024658(n)+3)`
+`A019244(n+3)`
 -/
 
-namespace A019189.P334519048024909156
+namespace A019189.P17276857798339501409
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019244 (A024658 n + 3).toNat
+  A019244 (n + 3)
 
 end
 
-end A019189.P334519048024909156
-
-/-! ## A019189.P1172101720900021906
-
-`A019244(A046469(n)+3)`
--/
-
-namespace A019189.P1172101720900021906
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019244 (A046469 n + 3).toNat
-
-end
-
-end A019189.P1172101720900021906
-
-/-! ## A019189.P1172165081246372470
-
-`A130891(A019244(n+3))`
--/
-
-namespace A019189.P1172165081246372470
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130891 (A019244 (n + 3)).toNat
-
-end
-
-end A019189.P1172165081246372470
-
-/-! ## A019189.P8618657338907118156
-
-`A019244(A085908(n+1)+2)`
--/
-
-namespace A019189.P8618657338907118156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019244 (A085908 (n + 1) + 2).toNat
-
-end
-
-end A019189.P8618657338907118156
+end A019189.P17276857798339501409
 
 /-!
 # A019192: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T7 atom.
@@ -317,48 +232,18 @@ end
 
 end A019192.P629264887860485185
 
-/-! ## A019192.P5002917458653577519
+/-! ## A019192.P12122473093149595703
 
-`A019246(A024647(n)+3)`
+`A019246(n+3)`
 -/
 
-namespace A019192.P5002917458653577519
+namespace A019192.P12122473093149595703
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019246 (A024647 n + 3).toNat
+  A019246 (n + 3)
 
 end
 
-end A019192.P5002917458653577519
-
-/-! ## A019192.P11000338872506882922
-
-`A094716(A019246(n+3))`
--/
-
-namespace A019192.P11000338872506882922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094716 (A019246 (n + 3)).toNat
-
-end
-
-end A019192.P11000338872506882922
-
-/-! ## A019192.P14770938984424268369
-
-`A019246(n+3)*A375706(A293510(n))`
--/
-
-namespace A019192.P14770938984424268369
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019246 (n + 3) * A375706 (A293510 n).toNat
-
-end
-
-end A019192.P14770938984424268369
+end A019192.P12122473093149595703
 

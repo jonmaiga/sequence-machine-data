@@ -31,6 +31,7 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B001.C000
@@ -46,6 +47,7 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
@@ -66,6 +68,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -114,20 +117,20 @@ end
 
 end A357300.P8908827998832092870
 
-/-! ## A357300.P17123185767256106296
+/-! ## A357300.P17132946345994062892
 
-`A355592((n-5)*n*((n-1-(2-n)²)²-1)-xor(n, -1))`
+`A355592(n+1)`
 -/
 
-namespace A357300.P17123185767256106296
+namespace A357300.P17132946345994062892
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355592 (((n : ℤ) - 5) * ((n : ℤ) * (((n : ℤ) - 1 - (2 - (n : ℤ)) ^ 2) ^ 2 - 1)) - Int.xor (n : ℤ) (-1)).toNat
+  A355592 (n + 1)
 
 end
 
-end A357300.P17123185767256106296
+end A357300.P17132946345994062892
 
 /-!
 # A357301: a(n) is the number of distinct radii of circles passing through at least three points in a square grid of n X n points.
@@ -186,42 +189,6 @@ end
 
 end A357302.P6932039815065645398
 
-/-! ## A357302.P17064175248495690017
-
-`A343771(record[A232559(n+1)])`
--/
-
-namespace A357302.P17064175248495690017
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232559 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343771 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A357302.P17064175248495690017
-
-/-! ## A357302.P3317547663168747331
-
-`A343771(record[A338669(n+1)])`
--/
-
-namespace A357302.P3317547663168747331
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A338669 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343771 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A357302.P3317547663168747331
-
 /-! ## A357302.P15677831173233960436
 
 `A166669(A188597(n+1))`
@@ -236,6 +203,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357302.P15677831173233960436
+
+/-! ## A357302.P5576838212177014015
+
+`filter[A344473(n+1), A359471(#)]`
+-/
+
+namespace A357302.P5576838212177014015
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344473 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359471 (f1 j).toNat = 1) n)
+
+end
+
+end A357302.P5576838212177014015
+
+/-! ## A357302.P7028234976613247313
+
+`filter[A230655(n+2), A359471(#)]`
+-/
+
+namespace A357302.P7028234976613247313
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230655 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359471 (f1 j).toNat = 1) n)
+
+end
+
+end A357302.P7028234976613247313
 
 /-!
 # A357304: Records of the Hamming weight of squares.
@@ -424,66 +427,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357309.P17722855829199621262
-
-/-! ## A357309.P8030209749222463672
-
-`A175579(A028310(2*n²))`
--/
-
-namespace A357309.P8030209749222463672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175579 (A028310 (2 * n ^ 2)).toNat
-
-end
-
-end A357309.P8030209749222463672
-
-/-! ## A357309.P14170538407858483248
-
-`A175579(A028310(n)+abs(n*(1-2*n)))`
--/
-
-namespace A357309.P14170538407858483248
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175579 (A028310 n + |(n : ℤ) * (1 - (2 * n : ℤ))|).toNat
-
-end
-
-end A357309.P14170538407858483248
-
-/-! ## A357309.P14215435907736379983
-
-`A175579(A004277(n)*A028310(n))`
--/
-
-namespace A357309.P14215435907736379983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175579 (A004277 n * A028310 n).toNat
-
-end
-
-end A357309.P14215435907736379983
-
-/-! ## A357309.P13347532941342309411
-
-`A175579(A175567(3*n+2)+A001105(n))`
--/
-
-namespace A357309.P13347532941342309411
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175579 (A175567 (3 * n + 2) + A001105 n).toNat
-
-end
-
-end A357309.P13347532941342309411
 
 /-!
 # A357310: a(n) is the number of j in the range 1 <= j <= n with the same maximal exponent in prime factorization as n.
@@ -707,36 +650,6 @@ end
 
 end A357313.P3360169817486449572
 
-/-! ## A357313.P15681609351993348205
-
-`A135245(A057709(n+1))%A063990(n+1)`
--/
-
-namespace A357313.P15681609351993348205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A135245 (A057709 (n + 1)).toNat) (A063990 (n + 1))
-
-end
-
-end A357313.P15681609351993348205
-
-/-! ## A357313.P302177162675779853
-
-`A336563(A122565(n+1))+A135245(A057709(n+1))`
--/
-
-namespace A357313.P302177162675779853
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336563 (A122565 (n + 1)).toNat + A135245 (A057709 (n + 1)).toNat
-
-end
-
-end A357313.P302177162675779853
-
 /-!
 # A357315: Numbers m such that for all k < m, at least one of m*k - 1 and m*k + 1 is squarefree.
 
@@ -932,21 +845,6 @@ end
 
 end A357324.P1657336908790448737
 
-/-! ## A357324.P11469388966627564855
-
-`A063919(A357325(2*n+1-n))`
--/
-
-namespace A357324.P11469388966627564855
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063919 (A357325 (2 * n + 1 - n)).toNat
-
-end
-
-end A357324.P11469388966627564855
-
 /-! ## A357324.P7027651704661980872
 
 `record[A063919(A357325(floor(n/(n%2+2))+1))]`
@@ -964,24 +862,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357324.P7027651704661980872
-
-/-! ## A357324.P6622388340714227271
-
-`A063919(lcm((-1)^∑{e}[n+1, #], A357325(n+1)))`
--/
-
-namespace A357324.P6622388340714227271
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063919 (Int.lcm ((-1) ^ (∑ p ∈ Nat.primeFactors (f1 n), Nat.factorization (f1 n) p)) (A357325 (n + 1)))
-
-end
-
-end A357324.P6622388340714227271
 
 /-!
 # A357325: a(n) is the unique number m such that A034460(m) = A357324(n).
@@ -2963,23 +2843,23 @@ end
 
 end A357375.P2113486503192931722
 
-/-! ## A357375.P17756058838476894830
+/-! ## A357375.P363878487498615717
 
-`and(A318953(n+1), A320655((n+1)²/∏{p}[n+1, #]))`
+`A320655((n+1)²/∏{p}[n+1, #])`
 -/
 
-namespace A357375.P17756058838476894830
+namespace A357375.P363878487498615717
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A318953 (n + 1)) (A320655 (SequenceMachineLib.roundAway (((n + 1) ^ 2 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ))).toNat)
+  A320655 (SequenceMachineLib.roundAway (((n + 1) ^ 2 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ))).toNat
 
 end
 
-end A357375.P17756058838476894830
+end A357375.P363878487498615717
 
 /-!
 # A357379: a(n) = A357378(floor(n/2)) * A357378(n).
@@ -3199,20 +3079,20 @@ end
 
 end A357382.P4167858258098062524
 
-/-! ## A357382.P3870971379341876298
+/-! ## A357382.P9458598244041744691
 
-`A008683(A123498(n)+A037444(n))`
+`A014779(A323110(n))`
 -/
 
-namespace A357382.P3870971379341876298
+namespace A357382.P9458598244041744691
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (A123498 n + A037444 n).toNat
+  A014779 (A323110 n).toNat
 
 end
 
-end A357382.P3870971379341876298
+end A357382.P9458598244041744691
 
 /-!
 # A357383: Expansion of Product_{k>=1} 1 / (1 + x^Lucas(k)).
@@ -3285,21 +3165,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357384.P3210298533035551684
-
-/-! ## A357384.P10479224593291392180
-
-`A204560(2*A036610(n))`
--/
-
-namespace A357384.P10479224593291392180
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204560 (2 * A036610 n).toNat
-
-end
-
-end A357384.P10479224593291392180
 
 /-! ## A357384.P11720227905336396599
 

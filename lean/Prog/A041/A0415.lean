@@ -33,14 +33,15 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -1841,21 +1842,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A041569.P11580991122356114274
-
-/-! ## A041569.P6158668587156771789
-
-`A093873(A099969(n)/2)`
--/
-
-namespace A041569.P6158668587156771789
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093873 (SequenceMachineLib.roundAway ((A099969 n : ℚ) / 2)).toNat
-
-end
-
-end A041569.P6158668587156771789
 
 /-!
 # A041571: Denominators of continued fraction convergents to sqrt(303).

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of k-element sets of line sizes that can arise from configurations of n distinct points in the real plane, for n >= 1 and 0 <= k <= floor(sqrt(4*n+3)) - 2.",
+  "id": "A401947",
+  "mentions": [
+    "A401948"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

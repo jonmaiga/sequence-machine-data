@@ -1,0 +1,17 @@
+{
+  "description": "Class numbers associated with terms of A045535.",
+  "id": "A402314",
+  "mentions": [
+    "A002189",
+    "A045535",
+    "A399983"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

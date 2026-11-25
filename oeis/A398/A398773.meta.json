@@ -1,0 +1,21 @@
+{
+  "description": "Half the number of changes in the stable cyclic row words of the Gosper-Lafitte triangle.",
+  "id": "A398773",
+  "mentions": [
+    "A000120",
+    "A000360",
+    "A001045",
+    "A001316",
+    "A401018",
+    "A401309"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

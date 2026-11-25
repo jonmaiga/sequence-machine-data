@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimal edge covers for the n-diagonal intersection graph.",
+  "description": "Number of minimal edge covers for the n-polygon diagonal intersection graph.",
   "id": "A351590",
   "mentions": [],
   "tags": [

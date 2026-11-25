@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers k where n^2 < k < (n+1)^2 such that the period of the continued fraction of the square root of k is an odd number.",
+  "id": "A401843",
+  "mentions": [
+    "A003285",
+    "A013943",
+    "A401844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

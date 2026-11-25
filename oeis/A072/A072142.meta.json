@@ -7,7 +7,8 @@
     "A072141",
     "A072143",
     "A072718",
-    "A072719"
+    "A072719",
+    "A215669"
   ],
   "tags": [
     "base",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} coth(Pi*k)/k^11 = (1453/425675250)*Pi^11.",
+  "id": "A402119",
+  "mentions": [
+    "A057866",
+    "A057867",
+    "A084258",
+    "A247671"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

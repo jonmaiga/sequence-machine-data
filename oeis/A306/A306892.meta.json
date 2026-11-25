@@ -6,12 +6,11 @@
     "A306827"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

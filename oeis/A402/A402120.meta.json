@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the sum of distinct sums i^3 + j^3 + k^3 for 0<=i<=j<=k<=n.",
+  "id": "A402120",
+  "mentions": [
+    "A374710"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

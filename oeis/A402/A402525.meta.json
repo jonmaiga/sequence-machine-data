@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices whose eccentric vertices are all peripheral.",
+  "id": "A402525",
+  "mentions": [
+    "A001349",
+    "A324264",
+    "A399096",
+    "A401874",
+    "A402524"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

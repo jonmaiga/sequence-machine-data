@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of prime quadruplets (q, q+2, q+6, q+8) with q strictly between p+8 and 2*(p+8), where p = A007530(n).",
+  "id": "A401787",
+  "mentions": [
+    "A007530",
+    "A113404",
+    "A136162",
+    "A159910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

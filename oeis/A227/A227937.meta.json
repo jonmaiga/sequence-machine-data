@@ -1,5 +1,5 @@
 {
-  "description": "Partitions of n labeled elements into subsets of two or three elements.",
+  "description": "Number of partitions of n labeled elements into subsets of two or three elements.",
   "id": "A227937",
   "mentions": [
     "A000296",

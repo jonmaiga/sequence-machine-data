@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that both 3^n+2 and 2^n+3 are primes.",
+  "description": "Numbers k such that both 3^k+2 and 2^k+3 are primes.",
   "id": "A134916",
   "mentions": [
     "A051783",
     "A057732"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

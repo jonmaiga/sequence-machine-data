@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = [x^n] -3/(2*x - 1)^5.",
+  "description": "a(n) = [x^n] 3/(1 - 2*x)^5.",
   "id": "A344564",
   "mentions": [
+    "A003472",
+    "A080951",
     "A344565"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

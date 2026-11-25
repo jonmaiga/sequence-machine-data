@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(m,j) is the number of nonnegative integers k for which (2j-1)/2^m + k/2 is not a fusible number, for m >= 2 and 1 <= j <= 2^(m-2).",
+  "id": "A400972",
+  "mentions": [
+    "A001891",
+    "A008466",
+    "A188545",
+    "A343264",
+    "A383922",
+    "A401905"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

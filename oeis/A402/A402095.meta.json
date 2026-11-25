@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of tan(6), negated.",
+  "id": "A402095",
+  "mentions": [
+    "A402081"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

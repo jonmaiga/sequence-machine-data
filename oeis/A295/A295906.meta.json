@@ -1,7 +1,9 @@
 {
   "description": "Number of (not necessarily maximal) cliques in the n X n king graph.",
   "id": "A295906",
-  "mentions": [],
+  "mentions": [
+    "A273982"
+  ],
   "tags": [
     "easy",
     "formulas",

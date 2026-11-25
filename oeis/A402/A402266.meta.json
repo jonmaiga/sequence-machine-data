@@ -1,0 +1,19 @@
+{
+  "description": "Indices m for which the sum of the first m deficient numbers A173106(m) is itself deficient.",
+  "id": "A402266",
+  "mentions": [
+    "A005100",
+    "A173106",
+    "A401273",
+    "A402265"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

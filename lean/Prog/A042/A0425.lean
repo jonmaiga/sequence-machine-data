@@ -19,10 +19,10 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C001
+import Seq.B003.C004
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -30,16 +30,13 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -1484,56 +1481,44 @@ end
 
 end A042580.P8169209427074425491
 
-/-! ## A042580.P2189524631579860975
+/-! ## A042580.P14044372931331365842
 
-`A022398(A087051(n)+1)`
+`A022398(n+1)`
 -/
 
-namespace A042580.P2189524631579860975
+namespace A042580.P14044372931331365842
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022398 (A087051 n + 1).toNat
+  A022398 (n + 1)
 
 end
 
-end A042580.P2189524631579860975
+end A042580.P14044372931331365842
 
-/-! ## A042580.P11719944104796820128
+/-! ## A042580.P3176646905164861202
 
-`A022398(A120126(n+1))`
+`filter[A022398(n), A316824(#)]`
 -/
 
-namespace A042580.P11719944104796820128
+namespace A042580.P3176646905164861202
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022398 n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022398 (A120126 (n + 1)).toNat
+  f1 (SequenceMachineLib.nth (fun j => A316824 (f1 j).toNat = 1) n)
 
 end
 
-end A042580.P11719944104796820128
+end A042580.P3176646905164861202
 
 /-!
 # A042583: Denominators of continued fraction convergents to sqrt(820).
 
 The programs for A042583, there is no canonical definition to state claims against.
 -/
-
-/-! ## A042583.P13613272564328812005
-
-`A325835(A056471(n+1))+A316500(n+1)`
--/
-
-namespace A042583.P13613272564328812005
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325835 (A056471 (n + 1)).toNat + A316500 (n + 1)
-
-end
-
-end A042583.P13613272564328812005
 
 /-! ## A042583.P15643158817011972073
 

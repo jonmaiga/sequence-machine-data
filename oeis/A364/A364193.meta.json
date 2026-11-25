@@ -11,6 +11,7 @@
     "A171979",
     "A237984",
     "A240303",
+    "A241131",
     "A327472",
     "A356862",
     "A359178",
@@ -35,11 +36,12 @@
     "A364160"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of cliques in the Johnson graph J(n,k).",
+  "id": "A401871",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A007395",
+    "A129533",
+    "A289837",
+    "A290056"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

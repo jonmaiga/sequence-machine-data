@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = c_4(n)/n, where c_4(n) are the Fourier coefficients of the level-2 K3 meromorphic modular form C_4 defined below.",
+  "id": "A400691",
+  "mentions": [
+    "A014103",
+    "A104794",
+    "A398186",
+    "A398383",
+    "A398901"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

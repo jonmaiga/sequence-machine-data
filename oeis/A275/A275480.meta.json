@@ -2,7 +2,9 @@
   "description": "Decimal expansion of B, a constant appearing in an asymptotic formula related to the exponential divisor function sigma^(e).",
   "id": "A275480",
   "mentions": [
-    "A072691"
+    "A051377",
+    "A072691",
+    "A307042"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,18 @@
+{
+  "description": "Position of records in A401489: integers m whose number of divisors d that are brilliant sets a new record.",
+  "id": "A401990",
+  "mentions": [
+    "A350424",
+    "A401489",
+    "A401490"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least prime of the form (3^k - 1)/2.",
+  "id": "A399476",
+  "mentions": [
+    "A074477",
+    "A398834"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

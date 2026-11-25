@@ -2,14 +2,16 @@
   "description": "Odd primes which set records for smallest absolute value of a quadratic nonresidue.",
   "id": "A102295",
   "mentions": [
-    "A002224"
+    "A002189",
+    "A002224",
+    "A399983"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

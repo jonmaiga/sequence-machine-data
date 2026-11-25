@@ -1,16 +1,18 @@
 {
-  "description": "Number of Frobenius partitions of 2n wherein the number of columns plus the weight on the top row is strictly less than the weight on the bottom row.",
+  "description": "Number of Frobenius partitions of 2*n wherein the number of columns plus the weight on the top row is strictly less than the weight on the bottom row.",
   "id": "A363936",
   "mentions": [
-    "A000569"
+    "A000569",
+    "A342208",
+    "A382864"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
+    "offset": 0,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

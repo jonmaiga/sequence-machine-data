@@ -16,9 +16,10 @@ import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C038
@@ -26,7 +27,6 @@ import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C006
@@ -38,7 +38,7 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -48,7 +48,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -76,69 +75,6 @@ end
 
 end A035837.P17910850595513026513
 
-/-! ## A035837.P6273989086255815255
-
-`A103881(A000124(n+11)-11)`
--/
-
-namespace A035837.P6273989086255815255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 11) - 11).toNat
-
-end
-
-end A035837.P6273989086255815255
-
-/-! ## A035837.P3891957160134208646
-
-`A103881(A000096(n+9)+n+2)`
--/
-
-namespace A035837.P3891957160134208646
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000096 (n + 9) + (n + 2 : ℤ)).toNat
-
-end
-
-end A035837.P3891957160134208646
-
-/-! ## A035837.P3122036056271680605
-
-`A103881(A000217(n+10)+n+1)`
--/
-
-namespace A035837.P3122036056271680605
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000217 (n + 10) + (n : ℤ) + 1).toNat
-
-end
-
-end A035837.P3122036056271680605
-
-/-! ## A035837.P7042196739335167066
-
-`A103881(A008593(n+5)+∑[n]+1)`
--/
-
-namespace A035837.P7042196739335167066
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A008593 (n + 5) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) + 1).toNat
-
-end
-
-end A035837.P7042196739335167066
-
 /-!
 # A035838: Coordination sequence for A_12 lattice.
 
@@ -159,66 +95,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035838.P5971706082486359467
-
-/-! ## A035838.P8141311246981643995
-
-`A103881(A000124(n+12)-12)`
--/
-
-namespace A035838.P8141311246981643995
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 12) - 12).toNat
-
-end
-
-end A035838.P8141311246981643995
-
-/-! ## A035838.P12770700132310303088
-
-`A103881(A133263(n+8)+A016813(n+7))`
--/
-
-namespace A035838.P12770700132310303088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A133263 (n + 8) + A016813 (n + 7)).toNat
-
-end
-
-end A035838.P12770700132310303088
-
-/-! ## A035838.P2739456556313857374
-
-`A103881(A034856(n+9)+A005843(n+7))`
--/
-
-namespace A035838.P2739456556313857374
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A034856 (n + 9) + A005843 (n + 7)).toNat
-
-end
-
-end A035838.P2739456556313857374
-
-/-! ## A035838.P3155455659733056040
-
-`A103881(A317107(n+9)+A052905(n+7))`
--/
-
-namespace A035838.P3155455659733056040
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A317107 (n + 9) + A052905 (n + 7)).toNat
-
-end
-
-end A035838.P3155455659733056040
 
 /-!
 # A035839: Coordination sequence for A_13 lattice.
@@ -247,66 +123,6 @@ end
 
 end A035839.P5379111688812211847
 
-/-! ## A035839.P9665418928274544026
-
-`A103881(A000124(n+12)+n)`
--/
-
-namespace A035839.P9665418928274544026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 12) + (n : ℤ)).toNat
-
-end
-
-end A035839.P9665418928274544026
-
-/-! ## A035839.P7873064616307979489
-
-`A103881(A167614(n+10)+A005843(n+5))`
--/
-
-namespace A035839.P7873064616307979489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A167614 (n + 10) + A005843 (n + 5)).toNat
-
-end
-
-end A035839.P7873064616307979489
-
-/-! ## A035839.P18305386102773586294
-
-`A103881(A004767(n+8)+A000096(n+8))`
--/
-
-namespace A035839.P18305386102773586294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A004767 (n + 8) + A000096 (n + 8)).toNat
-
-end
-
-end A035839.P18305386102773586294
-
-/-! ## A035839.P6834835898444042357
-
-`A103881(A005408(n)+A000217(n+11)+12)`
--/
-
-namespace A035839.P6834835898444042357
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A005408 n + (A000217 (n + 11) + 12)).toNat
-
-end
-
-end A035839.P6834835898444042357
-
 /-!
 # A035840: Coordination sequence for A_14 lattice.
 
@@ -333,66 +149,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035840.P15355402129360816417
-
-/-! ## A035840.P2247407334670211092
-
-`A103881(A056121(n+8)-n)`
--/
-
-namespace A035840.P2247407334670211092
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A056121 (n + 8) - (n : ℤ)).toNat
-
-end
-
-end A035840.P2247407334670211092
-
-/-! ## A035840.P10938515600808742298
-
-`A103881(A000124(n+13)+n)`
--/
-
-namespace A035840.P10938515600808742298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 13) + (n : ℤ)).toNat
-
-end
-
-end A035840.P10938515600808742298
-
-/-! ## A035840.P10478781131655870910
-
-`A103881(A317107(n+10)+A052905(n+9))`
--/
-
-namespace A035840.P10478781131655870910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A317107 (n + 10) + A052905 (n + 9)).toNat
-
-end
-
-end A035840.P10478781131655870910
-
-/-! ## A035840.P5196969828806691783
-
-`A103881(A005843(n+1)+A000096(n+12)-n)`
--/
-
-namespace A035840.P5196969828806691783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A005843 (n + 1) + (A000096 (n + 12) - (n : ℤ))).toNat
-
-end
-
-end A035840.P5196969828806691783
 
 /-!
 # A035841: Coordination sequence for A_15 lattice.
@@ -421,72 +177,6 @@ end
 
 end A035841.P15536586273248426768
 
-/-! ## A035841.P10359762666860865604
-
-`A103881(eq[22, A219347(n)])`
--/
-
-namespace A035841.P10359762666860865604
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  22
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035841.P10359762666860865604
-
-/-! ## A035841.P13607464274080931633
-
-`A103881(A056115(n+10)+1)`
--/
-
-namespace A035841.P13607464274080931633
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A056115 (n + 10) + 1).toNat
-
-end
-
-end A035841.P13607464274080931633
-
-/-! ## A035841.P1325407232580401189
-
-`A103881(A000124(n+14)+n)`
--/
-
-namespace A035841.P1325407232580401189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 14) + (n : ℤ)).toNat
-
-end
-
-end A035841.P1325407232580401189
-
-/-! ## A035841.P14106600709776243649
-
-`A103881(A056121(n+9)-(n+2))`
--/
-
-namespace A035841.P14106600709776243649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A056121 (n + 9) - (n + 2 : ℤ)).toNat
-
-end
-
-end A035841.P14106600709776243649
-
 /-!
 # A035842: Coordination sequence for A_16 lattice.
 
@@ -507,78 +197,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035842.P11049568970205723468
-
-/-! ## A035842.P6184908439528446862
-
-`A103881(eq[15, A193592(n)])`
--/
-
-namespace A035842.P6184908439528446862
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  15
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193592 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035842.P6184908439528446862
-
-/-! ## A035842.P5240953226229047564
-
-`A103881(eq[27, A219347(n)])`
--/
-
-namespace A035842.P5240953226229047564
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  27
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035842.P5240953226229047564
-
-/-! ## A035842.P2837247213180434504
-
-`A103881(A000124(n+15)+n)`
--/
-
-namespace A035842.P2837247213180434504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (n + 15) + (n : ℤ)).toNat
-
-end
-
-end A035842.P2837247213180434504
-
-/-! ## A035842.P8686802918201534796
-
-`A103881(A133263(n+12)+A016813(n+10))`
--/
-
-namespace A035842.P8686802918201534796
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A133263 (n + 12) + A016813 (n + 10)).toNat
-
-end
-
-end A035842.P8686802918201534796
 
 /-!
 # A035843: Coordination sequence for A_17 lattice.
@@ -607,63 +225,6 @@ end
 
 end A035843.P4293364750380701868
 
-/-! ## A035843.P10648697974394990021
-
-`A103881(eq[32, A219347(n)])`
--/
-
-namespace A035843.P10648697974394990021
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  32
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035843.P10648697974394990021
-
-/-! ## A035843.P6607043148494652538
-
-`A103881(eq[30, A185782(n+1)])`
--/
-
-namespace A035843.P6607043148494652538
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  30
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185782 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035843.P6607043148494652538
-
-/-! ## A035843.P379575382116544698
-
-`A103881(A002378(n+13)-A161680(n+10))`
--/
-
-namespace A035843.P379575382116544698
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A002378 (n + 13) - A161680 (n + 10)).toNat
-
-end
-
-end A035843.P379575382116544698
-
 /-!
 # A035844: Coordination sequence for A_18 lattice.
 
@@ -690,27 +251,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035844.P5296203919972380546
-
-/-! ## A035844.P12260479625858188527
-
-`A103881(eq[32, A185782(n+1)])`
--/
-
-namespace A035844.P12260479625858188527
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  32
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185782 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035844.P12260479625858188527
 
 /-!
 # A035845: Coordination sequence for A_19 lattice.
@@ -766,21 +306,6 @@ end
 
 end A035846.P7005174840386496553
 
-/-! ## A035846.P16365531505270611546
-
-`A103881(A000124(19+n)+n)`
--/
-
-namespace A035846.P16365531505270611546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (A000124 (19 + n) + (n : ℤ)).toNat
-
-end
-
-end A035846.P16365531505270611546
-
 /-!
 # A035847: Coordination sequence for A_21 lattice.
 
@@ -807,27 +332,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035847.P8420225482221626083
-
-/-! ## A035847.P9649902423154057900
-
-`A103881(eq[64, A219347(n)])`
--/
-
-namespace A035847.P9649902423154057900
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  64
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219347 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035847.P9649902423154057900
 
 /-!
 # A035848: Coordination sequence for A_22 lattice.
@@ -909,27 +413,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035852.P2382158408359210386
-
-/-! ## A035852.P13091355142833793613
-
-`A103881(eq[48, A185782(n+1)])`
--/
-
-namespace A035852.P13091355142833793613
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  48
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185782 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103881 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A035852.P13091355142833793613
 
 /-!
 # A035854: Coordination sequence for A_28 lattice.

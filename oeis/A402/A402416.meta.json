@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest minimal element of cosets of (Z/nZ)*^2 in (Z/nZ)*, where (Z/nZ)* is the multiplicative group of integers modulo n and (Z/nZ)*^2 is the subgroup of squares.",
+  "id": "A402416",
+  "mentions": [
+    "A053760",
+    "A402418"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

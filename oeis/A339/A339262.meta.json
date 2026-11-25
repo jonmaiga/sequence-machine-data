@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the conjecturally maximum possible volume of a polyhedron with 10 vertices inscribed in the unit sphere.",
+  "description": "Decimal expansion of the maximum possible volume of a polyhedron with 10 vertices inscribed in the unit sphere.",
   "id": "A339262",
   "mentions": [
     "A010527",

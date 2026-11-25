@@ -1,7 +1,8 @@
 {
-  "description": "Numbers such that floor(a(n)^2 / 5) is a square.",
+  "description": "Numbers k such that floor(k^2 / 5) is a square.",
   "id": "A204520",
   "mentions": [
+    "A000032",
     "A001075",
     "A001541",
     "A004275",
@@ -10,15 +11,17 @@
     "A204502",
     "A204514",
     "A204516",
-    "A204518"
+    "A204518",
+    "A204521"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

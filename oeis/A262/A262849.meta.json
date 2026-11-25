@@ -2,7 +2,9 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with each row divisible by 7 and column not divisible by 7, read as a binary number with top and left being the most significant bits.",
   "id": "A262849",
   "mentions": [
-    "A033129"
+    "A033129",
+    "A262844",
+    "A262845"
   ],
   "tags": [
     "formulas",

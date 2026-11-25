@@ -1,0 +1,16 @@
+{
+  "description": "Number of plane partitions of n with no repeated rows or columns, whose rows and columns are independently labeled.",
+  "id": "A402121",
+  "mentions": [
+    "A319646"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

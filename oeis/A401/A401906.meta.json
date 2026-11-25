@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not of the form abs(k - reversal of k in base 2) for at least one k (written in base 10).",
+  "id": "A401906",
+  "mentions": [
+    "A030101",
+    "A055945",
+    "A335978",
+    "A400463"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -8,13 +8,12 @@
     "A076907"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

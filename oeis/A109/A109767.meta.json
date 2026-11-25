@@ -2,9 +2,14 @@
   "description": "Triangle T(n,k), 0 <= k <= n, defined by T(n,k) = 2^k*A001497(n,k).",
   "id": "A109767",
   "mentions": [
+    "A000079",
+    "A000407",
     "A001497",
+    "A001788",
     "A001813",
-    "A128099"
+    "A001814",
+    "A128099",
+    "A344564"
   ],
   "tags": [
     "formulas",
@@ -14,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

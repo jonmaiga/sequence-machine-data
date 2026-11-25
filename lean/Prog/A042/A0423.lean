@@ -21,6 +21,7 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -32,8 +33,8 @@ import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
-import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -46,7 +47,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -80,26 +80,26 @@ theorem P173315665210422375.correct : P173315665210422375.Spec := by
 
 end A042300
 
-/-! ## A042300.P268556641272884584
+/-! ## A042300.P16111063350642154747
 
-`A042301(n+1)-A040156(n+1)*A042301(n)`
+`A042301(n+1)-26*A042301(n)`
 -/
 
-namespace A042300.P268556641272884584
+namespace A042300.P16111063350642154747
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042301 (n + 1) - A040156 (n + 1) * A042301 n
+  A042301 (n + 1) - 26 * A042301 n
 
 end
 
-end A042300.P268556641272884584
+end A042300.P16111063350642154747
 
 namespace A042300
 
-/-- `A042301(n+1)-A040156(n+1)*A042301(n)` -/
-def P268556641272884584.Spec : Prop :=
-  ∀ n, P268556641272884584.a n = A042300 n
+/-- `A042301(n+1)-26*A042301(n)` -/
+def P16111063350642154747.Spec : Prop :=
+  ∀ n, P16111063350642154747.a n = A042300 n
 
 end A042300
 
@@ -1316,21 +1316,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042385.P7027391851238513735
-
-/-! ## A042385.P12565606436556905011
-
-`A066628(C(A022383(n), A357299(n+1)))`
--/
-
-namespace A042385.P12565606436556905011
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066628 (Nat.choose (A022383 n).toNat (A357299 (n + 1)).toNat)
-
-end
-
-end A042385.P12565606436556905011
 
 /-!
 # A042386: Numerators of continued fraction convergents to sqrt(720).

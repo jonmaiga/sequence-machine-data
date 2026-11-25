@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(n,0) = T(0,k) = 1, and for n, k >= 1, T(n,k) is the least positive integer such that T(i,j)*T(n,k) != T(i,k)*T(n,j) for all 0 <= i < n and 0 <= j < k.",
+  "id": "A402170",
+  "mentions": [
+    "A003983",
+    "A003987",
+    "A051775",
+    "A280172",
+    "A335174"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

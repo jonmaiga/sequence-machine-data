@@ -14,7 +14,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
@@ -24,7 +23,7 @@ import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
@@ -34,7 +33,6 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C006
@@ -52,6 +50,7 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2170,21 +2169,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301189.P11888691717930471954
-
-/-! ## A301189.P10879521787376407167
-
-`A003056(A138573(n+2)+A000578(2*n))`
--/
-
-namespace A301189.P10879521787376407167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A138573 (n + 2) + A000578 (2 * n)).toNat
-
-end
-
-end A301189.P10879521787376407167
 
 /-!
 # A301191: Coordination sequence T5 for Zeolite Code SFN.

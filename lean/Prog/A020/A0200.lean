@@ -33,7 +33,7 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
@@ -57,14 +57,15 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -832,21 +833,6 @@ end
 
 end A020009.P6774223274221117626
 
-/-! ## A020009.P17510645220256372003
-
-`A028310(A020099(n)-A036987(n))`
--/
-
-namespace A020009.P17510645220256372003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A020099 n - A036987 n).toNat
-
-end
-
-end A020009.P17510645220256372003
-
 /-! ## A020009.P17805686850535134830
 
 `A020099(n)-A024360(A309845(n))`
@@ -861,21 +847,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020009.P17805686850535134830
-
-/-! ## A020009.P7476923259440987655
-
-`A028310(A020054(n)+1-A036987(n))`
--/
-
-namespace A020009.P7476923259440987655
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A020054 n + (1 - A036987 n)).toNat
-
-end
-
-end A020009.P7476923259440987655
 
 /-!
 # A020010: Nearest integer to Gamma(n + 5/11)/Gamma(5/11).
@@ -1192,21 +1163,6 @@ end A020013.P16724056637598615292
 The programs for A020014, there is no canonical definition to state claims against.
 -/
 
-/-! ## A020014.P18341570019929537179
-
-`A020104(n)-A121262(A020085(n))`
--/
-
-namespace A020014.P18341570019929537179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020104 n - A121262 (A020085 n).toNat
-
-end
-
-end A020014.P18341570019929537179
-
 /-! ## A020014.P301819161568858731
 
 `or(A020059(n), A052409(A020103(n)))`
@@ -1236,6 +1192,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020014.P5493200933482309508
+
+/-! ## A020014.P18341570019929537179
+
+`A020104(n)-A121262(A020085(n))`
+-/
+
+namespace A020014.P18341570019929537179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020104 n - A121262 (A020085 n).toNat
+
+end
+
+end A020014.P18341570019929537179
 
 /-!
 # A020015: Nearest integer to Gamma(n + 9/10)/Gamma(9/10).
@@ -1287,21 +1258,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020015.P6351452430388552254
-
-/-! ## A020015.P3405502462508430624
-
-`A020105(n)-A121262(A020105(n))`
--/
-
-namespace A020015.P3405502462508430624
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020105 n - A121262 (A020105 n).toNat
-
-end
-
-end A020015.P3405502462508430624
 
 /-! ## A020015.P14677596088624317166
 
@@ -3112,21 +3068,6 @@ end
 
 end A020038.P10949651327177140998
 
-/-! ## A020038.P1858905156571198348
-
-`A121262(A020047(n))+A020128(n)-A057427(n)`
--/
-
-namespace A020038.P1858905156571198348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121262 (A020047 n).toNat + (A020128 n - A057427 n)
-
-end
-
-end A020038.P1858905156571198348
-
 /-!
 # A020039: Nearest integer to Gamma(n + 2/5)/Gamma(2/5).
 
@@ -3472,6 +3413,21 @@ end
 
 end A020043.P6993676023118290153
 
+/-! ## A020043.P11584970791162135661
+
+`or(A020088(n), A053692(n))`
+-/
+
+namespace A020043.P11584970791162135661
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A020088 n) (A053692 n)
+
+end
+
+end A020043.P11584970791162135661
+
 /-! ## A020043.P13701021368138217378
 
 `or(A010054(A020069(n)), A020088(n))`
@@ -3501,21 +3457,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020043.P3158649797739184815
-
-/-! ## A020043.P7336240583902889789
-
-`A000027(or(A020088(n), A053692(n)))`
--/
-
-namespace A020043.P7336240583902889789
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (Int.lor (A020088 n) (A053692 n)).toNat
-
-end
-
-end A020043.P7336240583902889789
 
 /-! ## A020043.P8560377069802218493
 
@@ -3672,36 +3613,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020045.P2077972145205806254
-
-/-! ## A020045.P14405485597475987986
-
-`round(A001147(n)/2^n)^A178334(n)`
--/
-
-namespace A020045.P14405485597475987986
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.roundAway ((A001147 n : ℚ) / (2 ^ n : ℚ)) : ℚ) ^ (A178334 n : ℤ)
-
-end
-
-end A020045.P14405485597475987986
-
-/-! ## A020045.P13891924764973247217
-
-`or(round(A001147(n)/2^n), A000007(n))`
--/
-
-namespace A020045.P13891924764973247217
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (SequenceMachineLib.roundAway ((A001147 n : ℚ) / (2 ^ n : ℚ))) (A000007 n)
-
-end
-
-end A020045.P13891924764973247217
 
 /-!
 # A020046: a(n) = floor(Gamma(n+11/12)/Gamma(11/12)).
@@ -4218,36 +4129,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A020050.P2371778847709434257
-
-/-! ## A020050.P11275614595322946355
-
-`abs(A020095(n)-A057427(n))`
--/
-
-namespace A020050.P11275614595322946355
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A020095 n - A057427 n|
-
-end
-
-end A020050.P11275614595322946355
-
-/-! ## A020050.P5473470779615606260
-
-`abs(A020095(n)-A178334(n))`
--/
-
-namespace A020050.P5473470779615606260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A020095 n - A178334 n|
-
-end
-
-end A020050.P5473470779615606260
 
 /-!
 # A020051: a(n) = floor(Gamma(n+9/11)/Gamma(9/11)).

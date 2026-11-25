@@ -1,5 +1,4 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C000
 import Seq.B000.C028
 import Seq.Opaque.C001
 import Seq.Opaque.C009
@@ -45,21 +44,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A170012.P17279731077578968951
-
-/-! ## A170012.P9722999067174796245
-
-`abs(A003945(n)-A169585(A031285(n)))`
--/
-
-namespace A170012.P9722999067174796245
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A003945 n - A169585 (A031285 n).toNat|
-
-end
-
-end A170012.P9722999067174796245
 
 /-! ## A170012.P4813035115828749208
 

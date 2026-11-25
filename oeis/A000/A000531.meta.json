@@ -1,5 +1,5 @@
 {
-  "description": "From area of cyclic polygon of 2n + 1 sides.",
+  "description": "Maximum number of (2n + 1)-sided cyclic polygons with specified side lengths.",
   "id": "A000531",
   "mentions": [
     "A000108",

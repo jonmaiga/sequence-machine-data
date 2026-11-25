@@ -2,6 +2,8 @@
   "description": "Sum of even entries in row n of Pascal's triangle.",
   "id": "A088504",
   "mentions": [
+    "A000225",
+    "A000918",
     "A048967",
     "A085814",
     "A088560"
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

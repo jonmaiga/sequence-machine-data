@@ -26,6 +26,7 @@
     "A238874",
     "A238875",
     "A257990",
+    "A259361",
     "A300788",
     "A352522",
     "A352524",
@@ -36,12 +37,14 @@
     "A353319"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 74,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

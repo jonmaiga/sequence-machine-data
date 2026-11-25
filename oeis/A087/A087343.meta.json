@@ -2,7 +2,7 @@
   "description": "Smallest k such that the concatenation of the n numbers k, k-1, k-2, k-3,... k-n+1 (the concatenation of n successive numbers in descending order) is divisible by n, or 0 if no such number exists.",
   "id": "A087343",
   "mentions": [
-    "A087342"
+    "A083468"
   ],
   "tags": [
     "base",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

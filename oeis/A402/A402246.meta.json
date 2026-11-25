@@ -1,0 +1,21 @@
+{
+  "description": "Maximum exponent in the prime factorization of the numbers whose prime factorization has a second-largest exponent that equals 1.",
+  "id": "A402246",
+  "mentions": [
+    "A051903",
+    "A072776",
+    "A375341",
+    "A375342",
+    "A375934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

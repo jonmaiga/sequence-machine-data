@@ -1,17 +1,20 @@
 {
-  "description": "Filter sequence for a(prime^k) = constant sequences.",
+  "description": "a(1) = 1, and for n > 1, if n is a prime power, p^k with k >= 1, a(n) = 2, otherwise a(n) is one more than the position of n in A361102, numbers that are not prime powers.",
   "id": "A305976",
   "mentions": [
-    "A000961",
+    "A001221",
     "A010055",
     "A065515",
     "A085970",
     "A246655",
     "A305800",
     "A305975",
-    "A305979"
+    "A305979",
+    "A361102",
+    "A401925"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

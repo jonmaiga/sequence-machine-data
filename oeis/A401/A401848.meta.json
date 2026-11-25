@@ -1,0 +1,17 @@
+{
+  "description": "Trajectory of 30 under the map x -> x^(omega(x)-1) + 1, where omega(x) is the number of distinct prime divisors of x.",
+  "id": "A401848",
+  "mentions": [
+    "A001221",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

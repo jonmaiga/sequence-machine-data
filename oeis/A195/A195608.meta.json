@@ -1,12 +1,14 @@
 {
-  "description": "Numbers n such that Sum_{i=1..n} A(i) = A(n)*A(n+1)/4, where A(n) = A001969(n).",
+  "description": "Numbers k such that Sum_{i=1..k} A(i) = A(k)*A(k+1)/4, where A(k) = A001969(k).",
   "id": "A195608",
   "mentions": [
     "A001969",
+    "A010060",
     "A195467"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

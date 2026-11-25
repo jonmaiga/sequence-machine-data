@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of sqrt(e^2 + e^2): hypotenuse in the right triangle with legs e and e.",
   "id": "A105722",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A002193"
+  ],
   "tags": [
     "cons",
     "formulas",

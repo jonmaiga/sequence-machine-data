@@ -16,6 +16,233 @@
         "proven",
         "definition"
       ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(2^sin(n))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "sin",
+        "^",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "ceil(cos(n+11))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "11",
+        "+",
+        "cos",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "ceil(sin(n))^n",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "ceil",
+        "n",
+        "^"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(sqrt(exp(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "exp",
+        "sqrt",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(exp(floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "floor",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(cos(floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "floor",
+        "cos",
+        "floor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "sin(acos(floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "floor",
+        "acos",
+        "sin"
+      ]
+    },
+    {
+      "d": "2026-11-25",
+      "ix": "ceil(sin(acot(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "acot",
+        "sin",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "1-abs(floor(sin(n)))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "abs",
+        "sub"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "1-floor(sin(n))²",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "²",
+        "sub"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "round(exp(sin(n))/2)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "exp",
+        "2",
+        "/",
+        "round"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "1-dr(floor(sin(n)))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "dr",
+        "sub"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "xor(1, abs(floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "abs",
+        "xor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "xor(1, -floor(sin(n)))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "neg",
+        "xor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "xor(1, floor(sin(n))²)",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "²",
+        "xor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "log2(gcd(2, floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "sin",
+        "floor",
+        "gcd",
+        "log2"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "xor(1, dr(floor(sin(n))))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "sin",
+        "floor",
+        "dr",
+        "xor"
+      ]
+    },
+    {
+      "d": "2026-11-24",
+      "ix": "floor(2/(2-sin(n)))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "2",
+        "n",
+        "sin",
+        "sub",
+        "/",
+        "floor"
+      ]
     }
   ]
 }

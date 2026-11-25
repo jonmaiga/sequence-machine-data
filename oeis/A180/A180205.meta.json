@@ -1,14 +1,22 @@
 {
   "description": "Number of permutations of 0..(n-1) representable as consecutive sums of 2 adjacent elements of a sequence of n+1 nonnegative integers.",
   "id": "A180205",
-  "mentions": [],
+  "mentions": [
+    "A180206",
+    "A180207",
+    "A180208",
+    "A180209",
+    "A180210",
+    "A180211",
+    "A180212"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

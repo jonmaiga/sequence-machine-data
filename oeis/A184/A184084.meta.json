@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of product_{p=primes} (1-1/(2^p+1)).",
+  "description": "Decimal expansion of Product_{p=primes} (1-1/(2^p+1)).",
   "id": "A184084",
   "mentions": [
     "A000040",

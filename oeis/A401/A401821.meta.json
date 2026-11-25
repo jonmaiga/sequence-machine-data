@@ -1,0 +1,17 @@
+{
+  "description": "Least m such that Sum_{k=1..m} sin(1/k) > n (angles in radians).",
+  "id": "A401821",
+  "mentions": [
+    "A004080",
+    "A249022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

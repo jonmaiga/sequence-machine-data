@@ -1,0 +1,19 @@
+{
+  "description": "Number of states of the minimal deterministic finite automaton with output, insensitive to leading zeros, that computes [x^k] F(x) mod 2^n from the binary digits of k read least significant first, where F(x) is the power series with F(0) = 0 satisfying x^2*F(x)^2 + (1 + x + x^2)*F(x) + x^2 = 0.",
+  "id": "A401773",
+  "mentions": [
+    "A006127",
+    "A354297"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

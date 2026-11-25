@@ -1,0 +1,16 @@
+{
+  "description": "Net change in the firing population from generation n to generation n+1 of a four-state cellular automaton on the infinite square lattice (rule B2/S34/C4, see Comments), starting with two horizontally adjacent firing cells and all other cells ready.",
+  "id": "A401829",
+  "mentions": [
+    "A401828"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

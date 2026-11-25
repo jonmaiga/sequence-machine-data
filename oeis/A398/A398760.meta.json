@@ -1,0 +1,20 @@
+{
+  "description": "Sieve: delete every 3rd term of the positive integers, then every 4th term of what remains, then every 5th term, and so on; a(n) is the n-th survivor.",
+  "id": "A398760",
+  "mentions": [
+    "A000960",
+    "A002491",
+    "A007952",
+    "A399807"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

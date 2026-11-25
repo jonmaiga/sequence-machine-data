@@ -1,0 +1,33 @@
+{
+  "description": "Number of finite sequences of length n that cover an initial interval of positive integers but do not have 1-based restricted growth.",
+  "id": "A402144",
+  "mentions": [
+    "A000009",
+    "A000110",
+    "A000670",
+    "A008277",
+    "A047967",
+    "A055932",
+    "A080259",
+    "A098133",
+    "A171682",
+    "A383253",
+    "A383713",
+    "A402138",
+    "A402139",
+    "A402140",
+    "A402141",
+    "A402142",
+    "A402143"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

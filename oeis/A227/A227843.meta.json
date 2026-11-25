@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the binary XOR of the divisors of n (A178910(n)) is a binary repunit (A000225).",
+  "description": "Numbers k such that the binary XOR of the divisors of k (A178910(k)) is a binary repunit (A000225).",
   "id": "A227843",
   "mentions": [
     "A000225",

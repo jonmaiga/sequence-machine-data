@@ -1,0 +1,18 @@
+{
+  "description": "Number of sets of clues, of minimum size, that define a Numbrix puzzle on an n X n grid, up to rotations and reflections.",
+  "id": "A402224",
+  "mentions": [
+    "A096969",
+    "A400942"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

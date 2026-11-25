@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers k such that the Antihydra iteration starting from k halts (conjectural).",
+  "id": "A398746",
+  "mentions": [
+    "A001764",
+    "A385902",
+    "A386792"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

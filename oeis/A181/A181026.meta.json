@@ -2,15 +2,19 @@
   "description": "Maximum number of 1s in an nX(n+2) binary matrix with no four 1s adjacent in a line along a row, column or diagonally.",
   "id": "A181026",
   "mentions": [
-    "A181024"
+    "A181023",
+    "A181024",
+    "A181025",
+    "A181027"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

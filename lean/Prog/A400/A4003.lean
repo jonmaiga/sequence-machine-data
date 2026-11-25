@@ -29,11 +29,9 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
-import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -190,6 +188,122 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400303.P9370135392549424777
+
+/-!
+# A400305: Cuban primes p such that p-2 is also prime.
+
+The programs for A400305, there is no canonical definition to state claims against.
+-/
+
+/-! ## A400305.P9870800474953641699
+
+`∩[A003215(n), A006512(n+1)]`
+-/
+
+namespace A400305.P9870800474953641699
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003215 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006512 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A400305.P9870800474953641699
+
+/-! ## A400305.P9020221072916434835
+
+`∩[A006512(n+1), A007980(n)]`
+-/
+
+namespace A400305.P9020221072916434835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006512 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007980 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A400305.P9020221072916434835
+
+/-! ## A400305.P957474107417540241
+
+`∩[A003215(n), A067829(n+1)]`
+-/
+
+namespace A400305.P957474107417540241
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003215 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067829 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A400305.P957474107417540241
+
+/-! ## A400305.P4872064449634931971
+
+`∩[A007980(n), A067829(n+1)]`
+-/
+
+namespace A400305.P4872064449634931971
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007980 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067829 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A400305.P4872064449634931971
+
+/-! ## A400305.P4742900624549727878
+
+`∩[A006512(n+1), A077043(n)]`
+-/
+
+namespace A400305.P4742900624549727878
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006512 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077043 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A400305.P4742900624549727878
 
 /-!
 # A400313: G.f. A(x) satisfies A(x) = A(x^3/(1 - x)^2) / (1 - x), with A(0) = 1.
@@ -1112,21 +1226,6 @@ end
 
 end A400343.P18245082932228507456
 
-/-! ## A400343.P1714640364802151622
-
-`A134361(A175841(n+1))`
--/
-
-namespace A400343.P1714640364802151622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134361 (A175841 (n + 1)).toNat
-
-end
-
-end A400343.P1714640364802151622
-
 /-! ## A400343.P1583945668433957599
 
 `A279667(A347786(n+1))`
@@ -1177,6 +1276,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400343.P3963568175299502614
+
+/-! ## A400343.P4995497965883017192
+
+`A025487(A085082(A077569(A025487(n+1))))`
+-/
+
+namespace A400343.P4995497965883017192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025487 (A085082 (A077569 (A025487 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A400343.P4995497965883017192
 
 /-!
 # A400344: Number of upper triangular n X n binary matrices having all row and column sums in {0,1,2}.
@@ -1331,7 +1445,7 @@ end A400358.P14246706906407508851
 /-!
 # A400361: a(n) = A018804(n) - A384628(n).
 
-The programs for A400361, the canonical program `A400361.P1889396071312864242` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400361 has offset 1).
+The programs for A400361, the canonical program `A400361.P1889396071312864242` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400361 has offset 1).
 
 The definition of A400361 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A018804(n+1)-A384628(n+1)` (program `A400361.P1889396071312864242`, by `A400361.P1889396071312864242.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1340,7 +1454,7 @@ The definition of A400361 is `verified`: the Lean definition is proven equivalen
 
 `A018804(n+1)-A384628(n+1)`
 
-The canonical program, it is in `Seq.B001.C015`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A400361
@@ -1789,27 +1903,6 @@ end
 
 end A400362.P8853989444674153911
 
-/-! ## A400362.P8891163971880910505
-
-`A059711(lt[A059711(n), n-1])`
--/
-
-namespace A400362.P8891163971880910505
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059711 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059711 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A400362.P8891163971880910505
-
 /-!
 # A400363: Pythagorean primes p such that the sum of the fourth powers of the legs of the primitive Pythagorean triangle with hypotenuse p is prime.
 
@@ -2035,6 +2128,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A400365.P2688957166217575412
+
+/-! ## A400365.P13774366007129998039
+
+`A400364(n+1)*A402008(n+1)/A402007(n+1)`
+-/
+
+namespace A400365.P13774366007129998039
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A400364 (n + 1) * A402008 (n + 1) : ℚ) / (A402007 (n + 1) : ℚ)
+
+end
+
+end A400365.P13774366007129998039
 
 /-! ## A400365.P11927356922405637544
 
@@ -2355,21 +2463,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400372.P11051059451008303919
-
-/-! ## A400372.P6476231396129665020
-
-`A353846(A194357(n)+A194357(n))`
--/
-
-namespace A400372.P6476231396129665020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353846 (A194357 n + A194357 n).toNat
-
-end
-
-end A400372.P6476231396129665020
 
 /-!
 # A400376: Expansion of e.g.f. 1/(1 + log(1 - x) * sin(x)).
@@ -2932,50 +3025,20 @@ end
 
 end A400392.P17352401160932440498
 
-/-! ## A400392.P7643556059075597437
+/-! ## A400392.P18146327158187035214
 
-`A400393(A083434(n+1))`
+`A400393(n+1)`
 -/
 
-namespace A400392.P7643556059075597437
+namespace A400392.P18146327158187035214
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400393 (A083434 (n + 1)).toNat
+  A400393 (n + 1)
 
 end
 
-end A400392.P7643556059075597437
-
-/-! ## A400392.P13461653206425581801
-
-`A400393(A187829(n+1))`
--/
-
-namespace A400392.P13461653206425581801
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400393 (A187829 (n + 1)).toNat
-
-end
-
-end A400392.P13461653206425581801
-
-/-! ## A400392.P2480418602207397095
-
-`A342001(3^A400393(n+1))`
--/
-
-namespace A400392.P2480418602207397095
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342001 (SequenceMachineLib.roundAway ((3 : ℚ) ^ (A400393 (n + 1) : ℤ))).toNat
-
-end
-
-end A400392.P2480418602207397095
+end A400392.P18146327158187035214
 
 /-!
 # A400398: a(n) = Sum_{d|n} gcd(d, n/d) / gcud(d, n/d), where gcud is the greatest common unitary divisor.
@@ -2983,65 +3046,20 @@ end A400392.P2480418602207397095
 The programs for A400398, there is no canonical definition to state claims against.
 -/
 
-/-! ## A400398.P14621123261586820013
+/-! ## A400398.P5966379604490439257
 
-`A091202(A293442(n+1)%A083629(n+1))`
+`A091202(A293442(n+1))`
 -/
 
-namespace A400398.P14621123261586820013
+namespace A400398.P5966379604490439257
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091202 (Int.tmod (A293442 (n + 1)) (A083629 (n + 1))).toNat
+  A091202 (A293442 (n + 1)).toNat
 
 end
 
-end A400398.P14621123261586820013
-
-/-! ## A400398.P983620911684665522
-
-`A091202(A293442(n+1))%A000043(2*n+1)`
--/
-
-namespace A400398.P983620911684665522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A091202 (A293442 (n + 1)).toNat) (A000043 (2 * n + 1))
-
-end
-
-end A400398.P983620911684665522
-
-/-! ## A400398.P16831479672036348976
-
-`A091202(A293442(n+1))%A382996(n+1)`
--/
-
-namespace A400398.P16831479672036348976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A091202 (A293442 (n + 1)).toNat) (A382996 (n + 1))
-
-end
-
-end A400398.P16831479672036348976
-
-/-! ## A400398.P17484117722404151556
-
-`A091202(A293442(n+1))%A248350(n+1)`
--/
-
-namespace A400398.P17484117722404151556
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A091202 (A293442 (n + 1)).toNat) (A248350 (n + 1))
-
-end
-
-end A400398.P17484117722404151556
+end A400398.P5966379604490439257
 
 /-! ## A400398.P14411535648700459632
 
@@ -3060,6 +3078,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A400398.P14411535648700459632
+
+/-! ## A400398.P14715284876973271468
+
+`A235122(A061200(n+1))`
+-/
+
+namespace A400398.P14715284876973271468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235122 (A061200 (n + 1)).toNat
+
+end
+
+end A400398.P14715284876973271468
 
 /-!
 # A400399: Value of k that maximizes P(X < Y), where X and Y are independent binomial random variables with k trials and success probabilities 1/n and 1/(2*n), respectively. In case of ties, choose the largest k.

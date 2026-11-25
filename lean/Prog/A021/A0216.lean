@@ -1,5 +1,4 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C000
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
@@ -12,8 +11,7 @@ import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C008
 import Seq.Opaque.C001
-import Seq.Opaque.C007
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 
 /-!
 # A021604: Expansion of 1/((1-x)*(1-3*x)*(1-7*x)*(1-10*x)).
@@ -578,21 +576,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A021629.P16320372936471388694
-
-/-! ## A021629.P1326791257316765923
-
-`(A022456(n)+A021484(n))*2^A133574(A001316(n))`
--/
-
-namespace A021629.P1326791257316765923
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A022456 n + A021484 n : ℚ) * (2 : ℚ) ^ (A133574 (A001316 n).toNat : ℤ)
-
-end
-
-end A021629.P1326791257316765923
 
 /-!
 # A021634: Expansion of 1/((1-x)(1-3x)(1-8x)(1-9x)).

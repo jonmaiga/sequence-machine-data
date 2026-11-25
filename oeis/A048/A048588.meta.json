@@ -2,9 +2,13 @@
   "description": "Pisot sequence L(7,8).",
   "id": "A048588",
   "mentions": [
-    "A008776"
+    "A008776",
+    "A048585",
+    "A048589",
+    "A048591"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

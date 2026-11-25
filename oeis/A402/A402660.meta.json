@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of E_4^(n + 1) in the 2*n-th derivative of E_4 under the normalized Ramanujan derivation 12*q*d/dq, evaluated at E_2 = E_6 = 0.",
+  "id": "A402660",
+  "mentions": [
+    "A000594",
+    "A004009",
+    "A006352",
+    "A013973",
+    "A296920"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

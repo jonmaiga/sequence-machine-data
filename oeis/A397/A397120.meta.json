@@ -2,11 +2,17 @@
   "description": "Size of Type A Megastars of star triples in the Spectre aperiodic monotile tiling.",
   "id": "A397120",
   "mentions": [
+    "A033887",
+    "A076765",
     "A397115",
     "A397116",
     "A397117",
     "A397118",
-    "A397119"
+    "A397119",
+    "A400810",
+    "A400811",
+    "A400812",
+    "A400820"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = C(n+1,k+1)*F([k-n, k-n-1], [-n-1], -1), where F is the generalized hypergeometric function, for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows, T(n, k) = C(n+1, k+1)*F([k-n, k-n-1], [-n-1], -1), where F is the generalized hypergeometric function, for n >= 0 and 0 <= k <= n.",
   "id": "A272099",
   "mentions": [
     "A001787",
@@ -10,6 +10,7 @@
     "A258109"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

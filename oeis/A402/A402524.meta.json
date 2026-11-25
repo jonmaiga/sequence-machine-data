@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices with n eccentric vertices.",
+  "id": "A402524",
+  "mentions": [
+    "A001349",
+    "A324264",
+    "A401874",
+    "A402525"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

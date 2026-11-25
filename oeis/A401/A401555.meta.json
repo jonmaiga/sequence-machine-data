@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that A401383(k) = n, or -1 if n doesn't appear in A401383.",
+  "id": "A401555",
+  "mentions": [
+    "A002640",
+    "A240971",
+    "A401383"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

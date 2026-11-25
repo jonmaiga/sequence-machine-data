@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect matchings in the 2n X 2n grid graph with the diagonal edges from (i,j) to (i+1,j+1) added, i.e., in a 2n X 2n rhombus of the triangular lattice.",
+  "id": "A401988",
+  "mentions": [
+    "A004003",
+    "A220546",
+    "A239273",
+    "A309117",
+    "A401671"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n,k), n >= 3, k >= 2, read by antidiagonals: number of unit cubes in the k^n cubic grid.",
+  "id": "A401760",
+  "mentions": [
+    "A000578",
+    "A001789",
+    "A400505",
+    "A401120",
+    "A401367"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

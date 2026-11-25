@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of sqrt[3]*e^2/4: area of the regular triangle with side e.",
+  "description": "Decimal expansion of sqrt(3)*e^2/4: area of the regular triangle with side e.",
   "id": "A105729",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "cons",
     "formulas",

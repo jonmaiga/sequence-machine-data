@@ -2,6 +2,9 @@
   "description": "Least separator of first n Egyptian fractions; i.e., least k for which the integers floor(k/m) for m=1,2,...,n are distinct.",
   "id": "A043548",
   "mentions": [
+    "A000267",
+    "A083479",
+    "A122197",
     "A257213"
   ],
   "tags": [
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 60,
     "source": "joeis"
   }
 }

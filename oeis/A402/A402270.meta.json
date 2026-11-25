@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} log(p) / (p^3 + 1).",
+  "id": "A402270",
+  "mentions": [
+    "A244115",
+    "A303493",
+    "A401151",
+    "A402271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

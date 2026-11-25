@@ -1,0 +1,16 @@
+{
+  "description": "Minimum possible size of a maximum cut in a triangle-free simple graph with n edges.",
+  "id": "A401972",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

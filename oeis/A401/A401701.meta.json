@@ -1,0 +1,24 @@
+{
+  "description": "Noncomposites p for which there exists a noncomposite q <= p such that (p# / q#) == -1 mod r, where p# = A034386(p), and r is the least prime larger than p.",
+  "id": "A401701",
+  "mentions": [
+    "A000040",
+    "A034386",
+    "A058233",
+    "A064989",
+    "A401061",
+    "A401065",
+    "A401700",
+    "A401702",
+    "A401703"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(bigomega(n) + omega(n), omega(n)) - tau(n), where bigomega = A001222, omega = A001221, and tau = A000005.",
+  "id": "A402180",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A006881",
+    "A108958",
+    "A376567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

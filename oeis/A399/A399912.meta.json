@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th cyclotomic polynomial evaluated at 10 (=A019328(k)) is not coprime to k.",
+  "id": "A399912",
+  "mentions": [
+    "A019328",
+    "A093106",
+    "A093107",
+    "A204847",
+    "A323748"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

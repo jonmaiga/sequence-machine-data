@@ -1,0 +1,13 @@
+{
+  "description": "a(1)=1; for n>1, a(n) is the smallest number in a square spiral that is not touching any neighbor of a previous term, including diagonals.",
+  "id": "A399689",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

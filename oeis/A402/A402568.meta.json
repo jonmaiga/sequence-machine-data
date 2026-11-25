@@ -1,0 +1,19 @@
+{
+  "description": "Length after n rounds of the decimal self-stirring word: start with 1; each round visits 0,...,9, skipping zero counts and otherwise appending the current count followed by its label, with immediate count updates.",
+  "id": "A402568",
+  "mentions": [
+    "A402566",
+    "A402567"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

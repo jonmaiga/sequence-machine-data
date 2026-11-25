@@ -1,14 +1,16 @@
 {
-  "description": "Numbers of spanning trees of the triangular graphs.",
+  "description": "Number of spanning trees in the n-triangular (Johnson) graph.",
   "id": "A193154",
-  "mentions": [],
+  "mentions": [
+    "A401868"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 9,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

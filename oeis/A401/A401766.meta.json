@@ -1,0 +1,21 @@
+{
+  "description": "The least starting number that first reaches 2 after exactly n iterations of the decimal digit-product map.",
+  "id": "A401766",
+  "mentions": [
+    "A002473",
+    "A003001",
+    "A031346",
+    "A031347",
+    "A034049",
+    "A121111"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

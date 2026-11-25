@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest k less than 2^n for which A342001(k) = n, or 0 if no such k exists.",
+  "id": "A401932",
+  "mentions": [
+    "A342001",
+    "A361102",
+    "A401930",
+    "A401931"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

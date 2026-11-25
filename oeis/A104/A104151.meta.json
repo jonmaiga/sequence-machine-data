@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 6^n-4^n+11.",
+  "description": "Primes of the form 6^k-4^k+11.",
   "id": "A104151",
   "mentions": [],
   "tags": [

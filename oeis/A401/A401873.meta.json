@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices with exactly 2 contour vertices.",
+  "id": "A401873",
+  "mentions": [
+    "A324263",
+    "A401872"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

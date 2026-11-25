@@ -1,0 +1,15 @@
+{
+  "description": "Primes p for which there exists an even number d with p + d < d^2 < p + 2d such that p+d, p+2d and p+3d are also prime.",
+  "id": "A401148",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

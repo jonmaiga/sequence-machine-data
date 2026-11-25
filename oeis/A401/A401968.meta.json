@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = denominator(r(n)), where r(n) = euler(2*n-3, 1)*(1-n)/(1-2^(2*n-1)) for n >= 2, r(1) = 1/2.",
+  "id": "A401968",
+  "mentions": [
+    "A401970"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

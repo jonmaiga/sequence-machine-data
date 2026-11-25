@@ -1,0 +1,28 @@
+{
+  "description": "Number of unordered factorizations of n into its distinct and pairwise infinitarily coprime infinitary divisors.",
+  "id": "A401695",
+  "mentions": [
+    "A000110",
+    "A037445",
+    "A064379",
+    "A064380",
+    "A064547",
+    "A077609",
+    "A259936",
+    "A400137",
+    "A401696",
+    "A401697",
+    "A401698",
+    "A401699"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

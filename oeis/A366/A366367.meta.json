@@ -2,7 +2,8 @@
   "description": "Number of simplicial-free connected simple graphs on n unlabeled vertices.",
   "id": "A366367",
   "mentions": [
-    "A367144"
+    "A367144",
+    "A402522"
   ],
   "tags": [
     "more",

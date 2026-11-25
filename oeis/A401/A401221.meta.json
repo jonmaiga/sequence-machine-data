@@ -1,0 +1,22 @@
+{
+  "description": "Sizes of the successive shells of the hexagonal close-packed (HCP) lattice, centered on a lattice point.",
+  "id": "A401221",
+  "mentions": [
+    "A004012",
+    "A004015",
+    "A005870",
+    "A007202",
+    "A007899",
+    "A400434"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

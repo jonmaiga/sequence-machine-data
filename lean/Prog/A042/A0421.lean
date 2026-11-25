@@ -3,10 +3,8 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
@@ -34,29 +32,28 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C024
 
 /-!
@@ -367,21 +364,6 @@ end
 
 end A042106.P15920211093860223341
 
-/-! ## A042106.P3059807294496620989
-
-`A143607(8*n+7-A000035(n))`
--/
-
-namespace A042106.P3059807294496620989
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143607 ((8 * n + 7 : ℤ) - A000035 n).toNat
-
-end
-
-end A042106.P3059807294496620989
-
 /-! ## A042106.P7809235520119854338
 
 `A082766(A004768(n)-A000035(n))`
@@ -396,81 +378,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042106.P7809235520119854338
-
-/-! ## A042106.P108237779433534454
-
-`A082766(xor(A000035(n), A004768(n)))`
--/
-
-namespace A042106.P108237779433534454
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082766 (Int.xor (A000035 n) (A004768 n)).toNat
-
-end
-
-end A042106.P108237779433534454
-
-/-! ## A042106.P8013979837385374455
-
-`A082766(A017509(n)-A007310(n+1))`
--/
-
-namespace A042106.P8013979837385374455
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082766 (A017509 n - A007310 (n + 1)).toNat
-
-end
-
-end A042106.P8013979837385374455
-
-/-! ## A042106.P4337411621446430163
-
-`A082766(A053438(n+1)+A016921(n+1))`
--/
-
-namespace A042106.P4337411621446430163
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082766 (A053438 (n + 1) + A016921 (n + 1)).toNat
-
-end
-
-end A042106.P4337411621446430163
-
-/-! ## A042106.P9281798122616415020
-
-`A082766(A271114(n+1)+A053438(n+1))`
--/
-
-namespace A042106.P9281798122616415020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082766 (A271114 (n + 1) + A053438 (n + 1)).toNat
-
-end
-
-end A042106.P9281798122616415020
-
-/-! ## A042106.P3104742660345764343
-
-`A119016(A271114(n+1)+A053438(n+1))`
--/
-
-namespace A042106.P3104742660345764343
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119016 (A271114 (n + 1) + A053438 (n + 1)).toNat
-
-end
-
-end A042106.P3104742660345764343
 
 /-!
 # A042110: Numerators of continued fraction convergents to sqrt(580).
@@ -2273,20 +2180,20 @@ end
 
 end A042162.P3673787849575019749
 
-/-! ## A042162.P6480722199535611010
+/-! ## A042162.P17137759707349785996
 
-`A022394(A064094(n)+A004891(n+1))`
+`A022394(n+1)`
 -/
 
-namespace A042162.P6480722199535611010
+namespace A042162.P17137759707349785996
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022394 (A064094 n + A004891 (n + 1)).toNat
+  A022394 (n + 1)
 
 end
 
-end A042162.P6480722199535611010
+end A042162.P17137759707349785996
 
 /-!
 # A042163: Denominators of continued fraction convergents to sqrt(606).
@@ -2339,21 +2246,6 @@ end
 
 end A042163.P1472625247953371478
 
-/-! ## A042163.P6533298298922660280
-
-`A271315(A194153(n+2))`
--/
-
-namespace A042163.P6533298298922660280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271315 (A194153 (n + 2)).toNat
-
-end
-
-end A042163.P6533298298922660280
-
 /-!
 # A042171: Denominators of continued fraction convergents to sqrt(610).
 
@@ -2398,21 +2290,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042173.P9472196559117353079
-
-/-! ## A042173.P10519456383219722201
-
-`A093873(A099970(n)-A053644(n))`
--/
-
-namespace A042173.P10519456383219722201
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093873 (A099970 n - A053644 n).toNat
-
-end
-
-end A042173.P10519456383219722201
 
 /-!
 # A042174: Numerators of continued fraction convergents to sqrt(612).

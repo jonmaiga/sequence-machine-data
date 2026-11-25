@@ -1,18 +1,25 @@
 {
-  "description": "Primes p such that p#+1 is divisible by the next prime after p.",
+  "description": "Primes p such that p#+1 is divisible by the next prime after p, where p# = A034386(p).",
   "id": "A058233",
   "mentions": [
+    "A000040",
     "A000720",
     "A006862",
+    "A034386",
+    "A062347",
+    "A064989",
     "A066735",
+    "A151800",
     "A300898",
     "A300899",
     "A302143",
     "A302144",
+    "A338543",
     "A341804",
     "A341812",
     "A400266",
-    "A400836"
+    "A400836",
+    "A401701"
   ],
   "tags": [
     "formulas",

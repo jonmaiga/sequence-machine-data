@@ -1,5 +1,5 @@
 {
-  "description": "Number of reducible permutations.",
+  "description": "Number of reducible (or decomposable) permutations.",
   "id": "A356291",
   "mentions": [
     "A000142",

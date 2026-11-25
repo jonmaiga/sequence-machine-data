@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A401924(i) = A401924(j), for all i, j >= 1, where A401924(n) = -p if n is a prime power of the form p^k, k >= 1, otherwise A401924(n) is the position of n in A361102, numbers that are not prime powers.",
+  "id": "A401925",
+  "mentions": [
+    "A010055",
+    "A065515",
+    "A085970",
+    "A305975",
+    "A305976",
+    "A324400",
+    "A361102",
+    "A401924"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

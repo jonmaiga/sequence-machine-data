@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(1 - mu(d)^2).",
+  "id": "A402184",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005117",
+    "A007947",
+    "A008683",
+    "A034444",
+    "A048250",
+    "A065608",
+    "A107078",
+    "A344465",
+    "A402379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

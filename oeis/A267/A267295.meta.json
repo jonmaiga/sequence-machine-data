@@ -7,13 +7,14 @@
     "A267296"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

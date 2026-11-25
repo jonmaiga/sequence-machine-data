@@ -1,0 +1,31 @@
+{
+  "description": "Central (largest) coefficient of (1 + x + x^2 + ... + x^15)^n.",
+  "id": "A402341",
+  "mentions": [
+    "A000120",
+    "A005190",
+    "A005191",
+    "A018901",
+    "A025012",
+    "A025013",
+    "A025014",
+    "A025015",
+    "A077042",
+    "A201549",
+    "A201550",
+    "A201551",
+    "A201552",
+    "A225779",
+    "A273975"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

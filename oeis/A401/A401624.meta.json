@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p < 10^n such 2*p-1 is also prime.",
+  "id": "A401624",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A092816"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

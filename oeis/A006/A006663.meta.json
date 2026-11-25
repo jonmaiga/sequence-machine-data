@@ -5,13 +5,12 @@
     "A005316"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

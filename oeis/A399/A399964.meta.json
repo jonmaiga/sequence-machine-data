@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of pairs of subspaces (U,W) of F_2^n such that U has dimension k and W has codimension 1 in U, 1 <= k <= n.",
+  "id": "A399964",
+  "mentions": [
+    "A022166",
+    "A289383",
+    "A400017"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

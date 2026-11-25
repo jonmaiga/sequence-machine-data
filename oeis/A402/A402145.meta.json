@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer compositions of n that have 1-based restricted growth and whose reverse also has 1-based restricted growth.",
+  "id": "A402145",
+  "mentions": [
+    "A007476",
+    "A008277",
+    "A011782",
+    "A032020",
+    "A047967",
+    "A055932",
+    "A097805",
+    "A098133",
+    "A107429",
+    "A171682",
+    "A333217",
+    "A383253",
+    "A383713",
+    "A402138",
+    "A402139",
+    "A402140",
+    "A402141",
+    "A402142",
+    "A402143",
+    "A402146",
+    "A402148"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

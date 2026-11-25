@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 11^k in contains in its decimal representation 11*k as a substring.",
+  "id": "A402136",
+  "mentions": [
+    "A001020",
+    "A008593",
+    "A049329",
+    "A059734"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

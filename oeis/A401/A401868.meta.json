@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of spanning trees in the Johnson graph J(n,k).",
+  "id": "A401868",
+  "mentions": [
+    "A000012",
+    "A000272",
+    "A193154"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

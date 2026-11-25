@@ -1,7 +1,8 @@
 {
-  "description": "a(n) is the number of integers m such that m -(digit reversal of m) = 9*n.",
+  "description": "a(n) is the number of integers m such that m - (digit reversal of m) = 9*n.",
   "id": "A104348",
   "mentions": [
+    "A004086",
     "A104347"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 94,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

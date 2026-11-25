@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct decimal digits in the product of n and its digit reversal.",
+  "id": "A401895",
+  "mentions": [
+    "A004086",
+    "A043537",
+    "A061205"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

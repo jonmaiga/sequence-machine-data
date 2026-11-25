@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of integers >= 2 such that no two adjacent blocks of terms have the same product.",
+  "id": "A402124",
+  "mentions": [
+    "A000452",
+    "A007814",
+    "A085058",
+    "A094290",
+    "A236313",
+    "A333559"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

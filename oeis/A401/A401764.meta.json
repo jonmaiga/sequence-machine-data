@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the positive real root of x^(x+1) = x^2 + 1.",
+  "id": "A401764",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

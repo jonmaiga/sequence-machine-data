@@ -1,20 +1,22 @@
 {
-  "description": "Record differences between the numbers n such that 4*n^2 + 1 is prime.",
+  "description": "Record differences between the numbers k such that 4*k^2 + 1 is prime.",
   "id": "A214518",
   "mentions": [
     "A001912",
     "A121326",
     "A214517",
-    "A214519"
+    "A214519",
+    "A308987"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,19 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock summing to less than 4.",
+  "description": "T(n,k) = number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock summing to less than 4.",
   "id": "A184564",
-  "mentions": [],
+  "mentions": [
+    "A183632",
+    "A184497",
+    "A184555",
+    "A184556",
+    "A184557",
+    "A184558",
+    "A184559",
+    "A184560",
+    "A184561",
+    "A184562",
+    "A184673"
+  ],
   "tags": [
     "nonn",
     "tabl"

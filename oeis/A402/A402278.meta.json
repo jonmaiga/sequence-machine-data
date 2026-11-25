@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of the constant A401012 = 1 - Sum_{n>=1} 2^(-floor(n*log_2(3))).",
+  "id": "A402278",
+  "mentions": [
+    "A005663",
+    "A028507",
+    "A401012"
+  ],
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

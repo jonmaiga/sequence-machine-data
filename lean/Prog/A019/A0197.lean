@@ -6,7 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C014
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B006.C000
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
@@ -727,32 +727,6 @@ def P6818515198035850473.Spec : Prop :=
 
 end A019757
 
-/-! ## A019757.P5869700004101974334
-
-`A193685(∑[2+n]+3)`
--/
-
-namespace A019757.P5869700004101974334
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193685 (∑ j ∈ Finset.range (n + 1), f1 j + 3)
-
-end
-
-end A019757.P5869700004101974334
-
-namespace A019757
-
-/-- `A193685(∑[2+n]+3)` -/
-def P5869700004101974334.Spec : Prop :=
-  ∀ n, P5869700004101974334.a n = A019757 n
-
-end A019757
-
 /-!
 # A019775: Decimal expansion of sqrt(e)/2.
 
@@ -865,29 +839,6 @@ namespace A019783
 /-- `Δ[A016243(n)-A016233(n)]` -/
 def P3992261441130320658.Spec : Prop :=
   ∀ n, P3992261441130320658.a n = A019783 n
-
-end A019783
-
-/-! ## A019783.P12853440269190386776
-
-`round((A019928(n)+A019757(n))/2)`
--/
-
-namespace A019783.P12853440269190386776
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A019928 n + A019757 n : ℚ) / 2)
-
-end
-
-end A019783.P12853440269190386776
-
-namespace A019783
-
-/-- `round((A019928(n)+A019757(n))/2)` -/
-def P12853440269190386776.Spec : Prop :=
-  ∀ n, P12853440269190386776.a n = A019783 n
 
 end A019783
 

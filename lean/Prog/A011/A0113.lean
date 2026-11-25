@@ -3,11 +3,9 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C015
 import Seq.B000.C029
 import Seq.B000.C035
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B002.C000
@@ -1160,6 +1158,32 @@ def P13974352669866988874.Spec : Prop :=
 
 end A011377
 
+/-! ## A011377.P11490415363585333248
+
+`∑[xor(2^n, a(n-2))]` with `a(0)=1, a(1)=2`
+-/
+
+namespace A011377.P11490415363585333248
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 2] fun n f1 =>
+  Nat.xor (2 ^ n) (f1 (n - 2))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A011377.P11490415363585333248
+
+namespace A011377
+
+/-- `∑[xor(2^n, a(n-2))]` -/
+def P11490415363585333248.Spec : Prop :=
+  ∀ n, (P11490415363585333248.a n : ℤ) = A011377 n
+
+end A011377
+
 /-! ## A011377.P9084873084486591938
 
 `∑[∑[2^n-a(n-1)]]` with `a(0)=1`
@@ -1186,6 +1210,35 @@ namespace A011377
 /-- `∑[∑[2^n-a(n-1)]]` -/
 def P9084873084486591938.Spec : Prop :=
   ∀ n, P9084873084486591938.a n = A011377 n
+
+end A011377
+
+/-! ## A011377.P7910304705565420770
+
+`∑[floor(∑[2*a(n-1)]/3)]` with `a(0)=3, a(1)=4`
+-/
+
+namespace A011377.P7910304705565420770
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.rec [3, 4] fun n f2 =>
+  2 * f2 (n - 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℚ) / 3⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A011377.P7910304705565420770
+
+namespace A011377
+
+/-- `∑[floor(∑[2*a(n-1)]/3)]` -/
+def P7910304705565420770.Spec : Prop :=
+  ∀ n, P7910304705565420770.a n = A011377 n
 
 end A011377
 
@@ -1262,6 +1315,32 @@ namespace A011377
 /-- `floor(n/2+2*a(n-1))+1` -/
 def P5288180046354826954.Spec : Prop :=
   ∀ n, P5288180046354826954.a n = A011377 n
+
+end A011377
+
+/-! ## A011377.P10427876911161277326
+
+`∑[and(1, n+1)+2*a(n-1)]` with `a(0)=1`
+-/
+
+namespace A011377.P10427876911161277326
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f1 =>
+  Nat.land 1 (n + 1) + 2 * f1 (n - 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A011377.P10427876911161277326
+
+namespace A011377
+
+/-- `∑[and(1, n+1)+2*a(n-1)]` -/
+def P10427876911161277326.Spec : Prop :=
+  ∀ n, (P10427876911161277326.a n : ℤ) = A011377 n
 
 end A011377
 
@@ -1426,84 +1505,6 @@ namespace A011377
 /-- `A178420(n+2)` -/
 def P6303255447023759843.Spec : Prop :=
   ∀ n, P6303255447023759843.a n = A011377 n
-
-end A011377
-
-/-! ## A011377.P13602004454475165621
-
-`∑[A000975(n+1)]`
--/
-
-namespace A011377.P13602004454475165621
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000975 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A011377.P13602004454475165621
-
-namespace A011377
-
-/-- `∑[A000975(n+1)]` -/
-def P13602004454475165621.Spec : Prop :=
-  ∀ n, P13602004454475165621.a n = A011377 n
-
-end A011377
-
-/-! ## A011377.P1802523017909083724
-
-`∑[A084639(n)+1]`
--/
-
-namespace A011377.P1802523017909083724
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084639 n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A011377.P1802523017909083724
-
-namespace A011377
-
-/-- `∑[A084639(n)+1]` -/
-def P1802523017909083724.Spec : Prop :=
-  ∀ n, P1802523017909083724.a n = A011377 n
-
-end A011377
-
-/-! ## A011377.P14036003364534278303
-
-`∑[A287744(2*n)]`
--/
-
-namespace A011377.P14036003364534278303
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287744 (2 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A011377.P14036003364534278303
-
-namespace A011377
-
-/-- `∑[A287744(2*n)]` -/
-def P14036003364534278303.Spec : Prop :=
-  ∀ n, P14036003364534278303.a n = A011377 n
 
 end A011377
 

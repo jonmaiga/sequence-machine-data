@@ -1,0 +1,21 @@
+{
+  "description": "Primorial base mongrel derivative: Compute otherwise like A327860, but take the exponents e from the prime factorization of n, like A003415 (arithmetic derivative) does.",
+  "id": "A402581",
+  "mentions": [
+    "A003415",
+    "A085731",
+    "A327860",
+    "A402582",
+    "A402583"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

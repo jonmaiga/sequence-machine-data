@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that gcd(d_3(k), 30) = 1, where d_3 = A007425 is the 3rd Piltz function.",
+  "id": "A402057",
+  "mentions": [
+    "A000578",
+    "A007425",
+    "A007775",
+    "A014601",
+    "A047212",
+    "A252849",
+    "A252895",
+    "A354178",
+    "A402055",
+    "A402058"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

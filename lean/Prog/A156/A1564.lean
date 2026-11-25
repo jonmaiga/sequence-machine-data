@@ -13,13 +13,12 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C043
 import Seq.B001.C000
-import Seq.B001.C009
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C007
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C005
@@ -722,24 +721,6 @@ end
 
 end A156464.P2447940939635352668
 
-/-! ## A156464.P762134596316895109
-
-`A280470(∑[A208355(n)²])`
--/
-
-namespace A156464.P762134596316895109
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208355 n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280470 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A156464.P762134596316895109
-
 /-!
 # A156465: Number of n X n arrays of squares of integers, symmetric under 90 degree rotation, with all rows summing to 16.
 
@@ -853,21 +834,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A156493.P11274233950877567480
-
-/-! ## A156493.P2635573325944935836
-
-`A004086(A001499(n)*A181971(n))`
--/
-
-namespace A156493.P2635573325944935836
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A001499 n * A181971 n).toNat
-
-end
-
-end A156493.P2635573325944935836
 
 /-!
 # A156497: Number of n X n arrays of squares of integers, symmetric about main diagonal, with all rows summing to 36.

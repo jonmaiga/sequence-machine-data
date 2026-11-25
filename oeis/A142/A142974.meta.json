@@ -1,17 +1,19 @@
 {
-  "description": "A007318 * [1, 1, -1, 1, 1, 1, ...].",
+  "description": "a(n) = 2^n - n*(n-1).",
   "id": "A142974",
   "mentions": [
     "A000217",
-    "A007318"
+    "A176776",
+    "A176777"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 32,
-    "source": "joeis"
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

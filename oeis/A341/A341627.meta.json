@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k) = A341527(A246278(n,k)), read by falling antidiagonals; denominators of the columnwise first quotients of A341605/A341606.",
+  "description": "Square array A(n,k) = A341527(A246278(n,k)), read by falling antidiagonals; Denominators of the columnwise first quotients of A341605/A341606.",
   "id": "A341627",
   "mentions": [
     "A003961",
@@ -10,9 +10,12 @@
     "A341605",
     "A341606",
     "A341626",
-    "A341628"
+    "A341628",
+    "A401937",
+    "A402587"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn",

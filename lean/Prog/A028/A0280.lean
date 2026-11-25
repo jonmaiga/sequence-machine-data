@@ -15,7 +15,6 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C010
-import Seq.Opaque.C000
 import Seq.Opaque.C001
 
 /-!
@@ -6014,29 +6013,6 @@ namespace A028037
 /-- `2*A025970(n)-A025942(n)` -/
 def P8683872574533507710.Spec : Prop :=
   ∀ n, P8683872574533507710.a n = A028037 n
-
-end A028037
-
-/-! ## A028037.P8404124849006426289
-
-`floor(A001241(n+1)/A000079(n))`
--/
-
-namespace A028037.P8404124849006426289
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A001241 (n + 1) : ℚ) / (A000079 n : ℚ)⌋
-
-end
-
-end A028037.P8404124849006426289
-
-namespace A028037
-
-/-- `floor(A001241(n+1)/A000079(n))` -/
-def P8404124849006426289.Spec : Prop :=
-  ∀ n, P8404124849006426289.a n = A028037 n
 
 end A028037
 

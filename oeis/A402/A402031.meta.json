@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: inverse of Sprugnoli array A402029.",
+  "id": "A402031",
+  "mentions": [
+    "A000012",
+    "A402029",
+    "A402032"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Pythagorean primes p for which the semiperimeter s and inradius r of the primitive Pythagorean triangle with hypotenuse p give another Pythagorean prime q = s^2 + r^2.",
+  "id": "A401740",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A068228",
+    "A088544",
+    "A400363",
+    "A400364",
+    "A400365",
+    "A401002",
+    "A401003",
+    "A401004",
+    "A401444",
+    "A401445",
+    "A401446",
+    "A401741",
+    "A401742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

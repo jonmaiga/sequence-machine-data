@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order covers an initial interval of positive integers but is not a 1-based restricted growth sequence.",
+  "id": "A402143",
+  "mentions": [
+    "A008965",
+    "A011782",
+    "A032020",
+    "A047967",
+    "A055932",
+    "A057716",
+    "A066099",
+    "A080259",
+    "A107429",
+    "A333217",
+    "A333755",
+    "A335126",
+    "A345163",
+    "A383253",
+    "A383713",
+    "A402138",
+    "A402139",
+    "A402140",
+    "A402141",
+    "A402142"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

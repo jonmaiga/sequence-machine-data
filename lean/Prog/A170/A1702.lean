@@ -5,33 +5,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C009
 
 /-!
-# A170204: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^40 = I.
-
-The programs for A170204, there is no canonical definition to state claims against.
--/
-
-/-! ## A170204.P16866300236863874476
-
-`Δ[Δ[A003945(n)-A112316(A076303(n+1))]]`
--/
-
-namespace A170204.P16866300236863874476
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003945 n - A112316 (A076303 (n + 1)).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A170204.P16866300236863874476
-
-/-!
 # A170231: Number of reduced words of length n in Coxeter group on 30 generators S_i with relations (S_i)^2 = (S_i S_j)^40 = I.
 
 The programs for A170231, there is no canonical definition to state claims against.

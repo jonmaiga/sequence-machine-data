@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the two-dimensional series sum_{i,j=-infinity..infinity} (-1)^(i+j)/(i^2+(3*j+1)^2).",
+  "description": "Decimal expansion of the two-dimensional series Sum_{i,j=-infinity..infinity} (-1)^(i+j)/(i^2+(3*j+1)^2).",
   "id": "A242001",
   "mentions": [],
   "tags": [
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 104,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -2,14 +2,19 @@
   "description": "Least number k such that the first n primes have Kronecker symbol (p|k) = -1.",
   "id": "A191088",
   "mentions": [
-    "A191089"
+    "A094841",
+    "A094847",
+    "A191089",
+    "A399983",
+    "A402376"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

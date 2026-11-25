@@ -1,0 +1,16 @@
+{
+  "description": "Number of odd primes p < 2n such that 2n - p is not prime and 4n - p is prime, for n >= 2.",
+  "id": "A400895",
+  "mentions": [
+    "A002375",
+    "A045917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

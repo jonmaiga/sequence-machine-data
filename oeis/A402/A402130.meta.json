@@ -1,0 +1,16 @@
+{
+  "description": "Number of plane partitions of n with equal corresponding row and column sums.",
+  "id": "A402130",
+  "mentions": [
+    "A000219",
+    "A005987"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

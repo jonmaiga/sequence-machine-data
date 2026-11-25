@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that the first n primes have Kronecker symbol (p|k) = 1.",
+  "id": "A402376",
+  "mentions": [
+    "A002189",
+    "A045535",
+    "A147972",
+    "A191088",
+    "A399983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

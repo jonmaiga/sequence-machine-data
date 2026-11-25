@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n {0,1}-matrices of rank 5 over the real numbers.",
+  "id": "A401077",
+  "mentions": [
+    "A064230"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

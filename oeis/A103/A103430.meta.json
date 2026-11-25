@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of integral(1/(n*log(n))^(3/2),n=2..Inf).",
+  "description": "Decimal expansion of Integral_{x>=2} (1/(x*log(x))^(3/2)) dx.",
   "id": "A103430",
   "mentions": [
     "A103359"

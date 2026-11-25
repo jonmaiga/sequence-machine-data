@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest deficient number that is equal to the sum of n distinct deficient numbers.",
+  "id": "A401273",
+  "mentions": [
+    "A005100",
+    "A173106",
+    "A401272"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

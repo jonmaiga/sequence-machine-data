@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (n-3)*(n-2)^2*(n-1)^2*n/24.",
   "id": "A292061",
-  "mentions": [],
+  "mentions": [
+    "A006542"
+  ],
   "tags": [
     "easy",
     "formulas",

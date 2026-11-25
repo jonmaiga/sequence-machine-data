@@ -1,0 +1,16 @@
+{
+  "description": "Odd numbers k such that k is a multiple of (product of digits of k) * (sum of digits of k).",
+  "id": "A398769",
+  "mentions": [
+    "A049102"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the n-th nonnegative integer that does not contain the string \"k\", with n >= 1, k >= 0.",
+  "id": "A401754",
+  "mentions": [
+    "A000007",
+    "A001477",
+    "A007095",
+    "A052382",
+    "A052383",
+    "A052404",
+    "A052405",
+    "A052406",
+    "A052413",
+    "A052414",
+    "A052419",
+    "A052421",
+    "A141044",
+    "A401594"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k times its decimal digit reversal contains exactly two distinct decimal digits.",
+  "id": "A401938",
+  "mentions": [
+    "A004086",
+    "A043537",
+    "A061205",
+    "A397143",
+    "A401895"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

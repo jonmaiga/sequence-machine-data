@@ -1,14 +1,17 @@
 {
-  "description": "The matrix product A127773 * A001263 of infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = (n+1)*binomial(n,k-1)*binomial(n,k)/2.",
   "id": "A132818",
   "mentions": [
     "A000217",
     "A001263",
     "A002457",
     "A002695",
+    "A006011",
     "A006472",
     "A008459",
-    "A127773"
+    "A127773",
+    "A174116",
+    "A292061"
   ],
   "tags": [
     "easy",
@@ -18,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 55,
     "source": "joeis"
   }
 }

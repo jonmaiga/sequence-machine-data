@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 5/4 + A065442/2.",
+  "id": "A401890",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A065442",
+    "A401892"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

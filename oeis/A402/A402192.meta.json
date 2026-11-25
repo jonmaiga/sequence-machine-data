@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to remove n unit triangles from an equilateral triangle of side n so that the rest can be tiled by lozenges.",
+  "id": "A402192",
+  "mentions": [
+    "A014068",
+    "A122722"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

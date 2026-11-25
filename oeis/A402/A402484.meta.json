@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that (greatest part) / (least part) = number of parts.",
+  "id": "A402484",
+  "mentions": [
+    "A116900",
+    "A237832",
+    "A237869",
+    "A402485",
+    "A402486"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences of at least two pairwise distinct points of an n X n grid such that every grid point strictly between two consecutive points has already appeared earlier in the sequence.",
+  "id": "A398116",
+  "mentions": [
+    "A163889"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{p = primes = A000040} 1/(p*2^p).",
+  "description": "Decimal expansion of Sum_{p = primes = A000040} 1/(p*2^p).",
   "id": "A157413",
   "mentions": [
     "A000040",

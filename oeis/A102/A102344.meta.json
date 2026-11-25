@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Diophantine equation (x+2)^3-x^3=2*n^2 has solutions.",
+  "description": "Numbers k such that the Diophantine equation (x+2)^3-x^3 = 2*k^2 has solutions.",
   "id": "A102344",
   "mentions": [
     "A007655",

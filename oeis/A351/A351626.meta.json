@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with both the largest and second largest value of all previous terms.",
+  "description": "a(1) = 1, a(2) = 2, a(3) = 4; for n > 3, a(n) is the smallest positive number that has not appeared that shares a factor with both the largest and second largest value of all previous terms.",
   "id": "A351626",
   "mentions": [
     "A064413",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

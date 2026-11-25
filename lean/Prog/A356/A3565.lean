@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,7 +18,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
@@ -58,7 +56,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -73,6 +70,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -164,42 +162,6 @@ end
 
 end A356504.P8255097817612204244
 
-/-! ## A356504.P3984941400468307176
-
-`A356500(A005448(2*n+1))`
--/
-
-namespace A356504.P3984941400468307176
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356500 (A005448 (2 * n + 1)).toNat
-
-end
-
-end A356504.P3984941400468307176
-
-/-! ## A356504.P3301044749542551045
-
-`A356500(∑[record[A016945(n)^(n%2)]])`
--/
-
-namespace A356504.P3301044749542551045
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016945 n ^ (n % 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356500 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A356504.P3301044749542551045
-
 /-!
 # A356505: a(n) = A356500(2*n+1, 2*n) for n >= 0.
 
@@ -238,42 +200,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356505.P5348826643792486045
-
-/-! ## A356505.P2360680330248153751
-
-`A356501(A115067(n+1))`
--/
-
-namespace A356505.P2360680330248153751
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356501 (A115067 (n + 1)).toNat
-
-end
-
-end A356505.P2360680330248153751
-
-/-! ## A356505.P15986345597876148020
-
-`A356501(eq[0, A355870(n+1)])`
--/
-
-namespace A356505.P15986345597876148020
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355870 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356501 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A356505.P15986345597876148020
 
 /-! ## A356505.P16644233314365251201
 
@@ -349,21 +275,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356506.P10960474534873453276
-
-/-! ## A356506.P17052851189560730376
-
-`A356501(A005448(n+1))%A356504(n+1)`
--/
-
-namespace A356506.P17052851189560730376
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A356501 (A005448 (n + 1)).toNat) (A356504 (n + 1))
-
-end
-
-end A356506.P17052851189560730376
 
 /-!
 # A356507: G.f.: Sum_{n>=0} x^(n*(n+1)/2) * P(x)^n, where P(x) is the partition function (A000041).
@@ -487,21 +398,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356511.P16413353400183746750
-
-/-! ## A356511.P233460041682016443
-
-`A002024(A264608(n)+A228088(n+1))`
--/
-
-namespace A356511.P233460041682016443
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A264608 n + A228088 (n + 1)).toNat
-
-end
-
-end A356511.P233460041682016443
 
 /-! ## A356511.P2921880686825066752
 
@@ -653,27 +549,6 @@ end
 
 end A356515.P12599062789153889392
 
-/-! ## A356515.P10454340151278888721
-
-`A008611(∑[1-∑{e}[or(n, -n), #]])`
--/
-
-namespace A356515.P10454340151278888721
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (n : ℤ) (-(n : ℤ))
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ((∑ p ∈ Nat.primeFactors (f2 n).natAbs, Nat.factorization (f2 n).natAbs p : ℕ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008611 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A356515.P10454340151278888721
-
 /-! ## A356515.P12938904779464662923
 
 `A112779(∑[∏{e}[and(n, -n), 1-#]])`
@@ -773,44 +648,50 @@ end
 
 end A356515.P17099576841041263683
 
-/-! ## A356515.P14583568617376044386
+/-! ## A356515.P10385056282363214995
 
-`A112779(∏{e}[2*a(and(n, n-1)), #])` with `a(0)=2`
+`A084115(A048883(n))`
 -/
 
-namespace A356515.P14583568617376044386
+namespace A356515.P10385056282363214995
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [2] fun n f1 =>
-  2 * f1 (Int.land (n : ℤ) ((n : ℤ) - 1)).toNat
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112779 (∏ p ∈ Nat.primeFactors (f1 n), Nat.factorization (f1 n) p)
+  A084115 (A048883 n).toNat
 
 end
 
-end A356515.P14583568617376044386
+end A356515.P10385056282363214995
 
-/-! ## A356515.P14090784374985631933
+/-! ## A356515.P3934534032157519016
 
-`A005811(∑[1-∑{e}[or(n, -n), #]]-1)`
+`A095774(A131762(n))`
 -/
 
-namespace A356515.P14090784374985631933
+namespace A356515.P3934534032157519016
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (n : ℤ) (-(n : ℤ))
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ((∑ p ∈ Nat.primeFactors (f2 n).natAbs, Nat.factorization (f2 n).natAbs p : ℕ) : ℤ)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005811 (∑ j ∈ Finset.range (n + 1), f1 j - 1).toNat
+  A095774 (A131762 n).toNat
 
 end
 
-end A356515.P14090784374985631933
+end A356515.P3934534032157519016
+
+/-! ## A356515.P4527855681646389164
+
+`A005812(A324467(n))`
+-/
+
+namespace A356515.P4527855681646389164
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005812 (A324467 n).toNat
+
+end
+
+end A356515.P4527855681646389164
 
 /-!
 # A356516: a(n) is the least k such that A356515(k) = n.
@@ -1603,35 +1484,20 @@ end A356529
 The programs for A356530, there is no canonical definition to state claims against.
 -/
 
-/-! ## A356530.P4012391609691413729
+/-! ## A356530.P12929999663059909425
 
-`A028310(A356560(n))`
+`A356560(n)`
 -/
 
-namespace A356530.P4012391609691413729
+namespace A356530.P12929999663059909425
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A356560 n).toNat
+  A356560 n
 
 end
 
-end A356530.P4012391609691413729
-
-/-! ## A356530.P7657137835446839869
-
-`A002322(A356560(n)+1)`
--/
-
-namespace A356530.P7657137835446839869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002322 (A356560 n + 1).toNat
-
-end
-
-end A356530.P7657137835446839869
+end A356530.P12929999663059909425
 
 /-!
 # A356531: Primes p == 1 (mod 23) which are norms of elements in the 23rd cyclotomic field.
@@ -3719,21 +3585,6 @@ end
 
 end A356540.P10023165363860315100
 
-/-! ## A356540.P3434029558287776873
-
-`A047994(A357225(n)+A141021(n))`
--/
-
-namespace A356540.P3434029558287776873
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047994 (A357225 n + A141021 n).toNat
-
-end
-
-end A356540.P3434029558287776873
-
 /-!
 # A356541: a(n) = Sum_{d|n} d * (d!)^(n/d-1).
 
@@ -4626,21 +4477,6 @@ end
 
 end A356552.P16104136768249119385
 
-/-! ## A356552.P13239792637261584341
-
-`A020639(A347535(n+1)%A347532(3*(n+1)))`
--/
-
-namespace A356552.P13239792637261584341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (Int.tmod (A347535 (n + 1)) (A347532 (3 * (n + 1)))).toNat
-
-end
-
-end A356552.P13239792637261584341
-
 /-! ## A356552.P13005229179956012776
 
 `A354945(gcd(A354945(n+1), A354957(3*(n+1))))`
@@ -4655,6 +4491,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356552.P13005229179956012776
+
+/-! ## A356552.P1834943000947667932
+
+`A079879(Δ[(n²+n)²])`
+-/
+
+namespace A356552.P1834943000947667932
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n ^ 2 + n) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079879 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+
+end
+
+end A356552.P1834943000947667932
 
 /-!
 # A356553: For any n > 0, let b > 1 be the least base where the sum of digits of n divides n; a(n) is the sum of digits of n in base b.

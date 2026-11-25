@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: A(n,r) = Sum_{j=0..n} binomial(n,j)^r*binomial(n+j,j)^r.",
+  "id": "A401869",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000051",
+    "A001850",
+    "A005259",
+    "A092813",
+    "A092814",
+    "A092815",
+    "A094424",
+    "A199317",
+    "A218689",
+    "A336873"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

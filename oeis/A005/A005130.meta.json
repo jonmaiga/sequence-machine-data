@@ -2,6 +2,7 @@
   "description": "Robbins numbers: a(n) = Product_{k=0..n-1} (3k+1)!/(n+k)!; also the number of descending plane partitions whose parts do not exceed n; also the number of n X n alternating sign matrices (ASM's).",
   "id": "A005130",
   "mentions": [
+    "A000292",
     "A001045",
     "A003827",
     "A005156",
@@ -14,6 +15,7 @@
     "A049503",
     "A050204",
     "A194827",
+    "A214564",
     "A227833",
     "A387943"
   ],

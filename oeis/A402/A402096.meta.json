@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes of Z[sqrt(2)] reachable from 0 by steps of length at most sqrt(A001481(n)), stepping only on primes.",
+  "id": "A402096",
+  "mentions": [
+    "A001481",
+    "A055025",
+    "A055673",
+    "A401602"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

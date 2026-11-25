@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k >= 1 for which a record number of trailing digits in 2 different bases are equal.",
+  "id": "A396363",
+  "mentions": [
+    "A169828"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

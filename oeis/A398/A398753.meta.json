@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree composite numbers that are not also oblong.",
+  "id": "A398753",
+  "mentions": [
+    "A002378",
+    "A005117",
+    "A120944",
+    "A229882"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

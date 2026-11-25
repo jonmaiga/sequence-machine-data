@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no three of the points (n, a(n)) are collinear and no point (n, a(n)) lies inside or on the circle through any three earlier points.",
+  "id": "A398738",
+  "mentions": [
+    "A236335",
+    "A305921"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

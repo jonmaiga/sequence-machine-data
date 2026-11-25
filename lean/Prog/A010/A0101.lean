@@ -7,22 +7,19 @@ import Seq.B000.C005
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C035
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B002.C000
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B005.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -32,16 +29,12 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C020
-import Seq.Opaque.C022
 
 /-!
 # A010100: a(n) = a(n-1)*a(n-2) with a(0)=1, a(1)=10.
@@ -201,80 +194,20 @@ end A010102.P12419489945573924117
 The programs for A010103, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010103.P9400563466530273487
+/-! ## A010103.P3402173495044063068
 
-`A010106(A272574(n))%A141214(n+1)`
+`A010106(A272574(n))`
 -/
 
-namespace A010103.P9400563466530273487
+namespace A010103.P3402173495044063068
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010106 (A272574 n).toNat) (A141214 (n + 1))
+  A010106 (A272574 n).toNat
 
 end
 
-end A010103.P9400563466530273487
-
-/-! ## A010103.P8238772981266541426
-
-`A000034(A173068(n))*A010106(A272574(n))`
--/
-
-namespace A010103.P8238772981266541426
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000034 (A173068 n).toNat * A010106 (A272574 n).toNat
-
-end
-
-end A010103.P8238772981266541426
-
-/-! ## A010103.P14305568583965679151
-
-`A010106(A272574(n))*A124778(A224212(n))`
--/
-
-namespace A010103.P14305568583965679151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010106 (A272574 n).toNat * A124778 (A224212 n).toNat
-
-end
-
-end A010103.P14305568583965679151
-
-/-! ## A010103.P9438391815658890594
-
-`A010106(A272574(n)%A090669(n+1))`
--/
-
-namespace A010103.P9438391815658890594
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010106 (Int.tmod (A272574 n) (A090669 (n + 1))).toNat
-
-end
-
-end A010103.P9438391815658890594
-
-/-! ## A010103.P3695765916609632883
-
-`A010106(A272574(n))/A000034(A173068(n+1))`
--/
-
-namespace A010103.P3695765916609632883
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A010106 (A272574 n).toNat : ℚ) / (A000034 (A173068 (n + 1)).toNat : ℚ)
-
-end
-
-end A010103.P3695765916609632883
+end A010103.P3402173495044063068
 
 /-!
 # A010105: Spontaneous magnetization coefficients for square lattice spin 3/2 Ising model.
@@ -865,20 +798,20 @@ end A010106.P4452779588677383219
 The programs for A010108, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010108.P2284681299695033847
+/-! ## A010108.P4154173162279087102
 
-`A056620(A047260(n+1)%A089553(n+7))`
+`A056620(A047260(n+1))`
 -/
 
-namespace A010108.P2284681299695033847
+namespace A010108.P4154173162279087102
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (Int.tmod (A047260 (n + 1)) (A089553 (n + 7))).toNat
+  A056620 (A047260 (n + 1)).toNat
 
 end
 
-end A010108.P2284681299695033847
+end A010108.P4154173162279087102
 
 /-! ## A010108.P14336077957335899684
 
@@ -901,21 +834,6 @@ end
 
 end A010108.P14336077957335899684
 
-/-! ## A010108.P4091622738902967409
-
-`A056620(A047260(n+1))+A000038(A052552(n))`
--/
-
-namespace A010108.P4091622738902967409
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (A047260 (n + 1)).toNat + A000038 (A052552 n).toNat
-
-end
-
-end A010108.P4091622738902967409
-
 /-! ## A010108.P14764542500640298203
 
 `A010109(lt[1, A091694(3*n+2)])`
@@ -937,86 +855,26 @@ end
 
 end A010108.P14764542500640298203
 
-/-! ## A010108.P5199483990255043679
-
-`A056620(A047260(n+1))%A112382(A007064(n+2))`
--/
-
-namespace A010108.P5199483990255043679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A056620 (A047260 (n + 1)).toNat) (A112382 (A007064 (n + 2)).toNat)
-
-end
-
-end A010108.P5199483990255043679
-
 /-!
 # A010109: Partition function coefficients for square lattice spin 5/2 Ising model.
 
 The programs for A010109, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010109.P3577703215921106341
+/-! ## A010109.P11823745259713858922
 
-`A056620(A045681(n)%A115697(n+1))`
+`A056620(A045681(n))`
 -/
 
-namespace A010109.P3577703215921106341
+namespace A010109.P11823745259713858922
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (Int.tmod (A045681 n) (A115697 (n + 1))).toNat
+  A056620 (A045681 n).toNat
 
 end
 
-end A010109.P3577703215921106341
-
-/-! ## A010109.P7267908601944204091
-
-`A056620(A151988(n)%A115697(n+1))`
--/
-
-namespace A010109.P7267908601944204091
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (Int.tmod (A151988 n) (A115697 (n + 1))).toNat
-
-end
-
-end A010109.P7267908601944204091
-
-/-! ## A010109.P17410714465550889863
-
-`A056620(A151988(n))%A287212(n+1)`
--/
-
-namespace A010109.P17410714465550889863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A056620 (A151988 n).toNat) (A287212 (n + 1))
-
-end
-
-end A010109.P17410714465550889863
-
-/-! ## A010109.P12621912104133514666
-
-`A056620(A045681(n))*A327502(A008778(n))`
--/
-
-namespace A010109.P12621912104133514666
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (A045681 n).toNat * A327502 (A008778 n).toNat
-
-end
-
-end A010109.P12621912104133514666
+end A010109.P11823745259713858922
 
 /-!
 # A010110: Partition function coefficients for square lattice spin 3/2 Ising model.
@@ -1024,80 +882,20 @@ end A010109.P12621912104133514666
 The programs for A010110, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010110.P6093085654325707457
+/-! ## A010110.P14804064775381817603
 
-`A010109(A037468(n)%A289926(n))`
+`A010109(A037468(n))`
 -/
 
-namespace A010110.P6093085654325707457
+namespace A010110.P14804064775381817603
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010109 (Int.tmod (A037468 n) (A289926 n)).toNat
+  A010109 (A037468 n).toNat
 
 end
 
-end A010110.P6093085654325707457
-
-/-! ## A010110.P12489358643342800413
-
-`A010109(A037468(n))%A294121(n+1)`
--/
-
-namespace A010110.P12489358643342800413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010109 (A037468 n).toNat) (A294121 (n + 1))
-
-end
-
-end A010110.P12489358643342800413
-
-/-! ## A010110.P10704478399431739865
-
-`A010109(A037468(n*A254730(n)))`
--/
-
-namespace A010110.P10704478399431739865
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010109 (A037468 ((n : ℤ) * A254730 n).toNat).toNat
-
-end
-
-end A010110.P10704478399431739865
-
-/-! ## A010110.P2535698826458144726
-
-`A010109(A037468(n)^A254730(n))`
--/
-
-namespace A010110.P2535698826458144726
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010109 (SequenceMachineLib.roundAway ((A037468 n : ℚ) ^ (A254730 n : ℤ))).toNat
-
-end
-
-end A010110.P2535698826458144726
-
-/-! ## A010110.P6570172359982956327
-
-`A010109(C(A037468(n), A254730(n)))`
--/
-
-namespace A010110.P6570172359982956327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010109 (Nat.choose (A037468 n).toNat (A254730 n).toNat)
-
-end
-
-end A010110.P6570172359982956327
+end A010110.P14804064775381817603
 
 /-!
 # A010112: Specific heat coefficients for square lattice spin 2 Ising model.
@@ -1177,86 +975,20 @@ end A010113.P8589836859483424126
 The programs for A010116, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010116.P7508477762601809222
+/-! ## A010116.P12549486519211423658
 
-`A010117(A007092(n)%A280558(n+1))`
+`A010117(A007092(n))`
 -/
 
-namespace A010116.P7508477762601809222
+namespace A010116.P12549486519211423658
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (Int.tmod (A007092 n) (A280558 (n + 1))).toNat
+  A010117 (A007092 n).toNat
 
 end
 
-end A010116.P7508477762601809222
-
-/-! ## A010116.P5442689262087409272
-
-`A010117(A007092(n))%Δ[A059622(n+1)]`
--/
-
-namespace A010116.P5442689262087409272
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059622 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010117 (A007092 n).toNat) (f1 (n + 1) - f1 n)
-
-end
-
-end A010116.P5442689262087409272
-
-/-! ## A010116.P18410142708839326755
-
-`A005171(A005903(2*n))*A010117(A007092(n))`
--/
-
-namespace A010116.P18410142708839326755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005171 (A005903 (2 * n)).toNat * A010117 (A007092 n).toNat
-
-end
-
-end A010116.P18410142708839326755
-
-/-! ## A010116.P9741681359820065007
-
-`A010117(A007092(n)%record[A010117(n)])`
--/
-
-namespace A010116.P9741681359820065007
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (Int.tmod (A007092 n) (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
-
-end
-
-end A010116.P9741681359820065007
-
-/-! ## A010116.P10499763824374186267
-
-`A005171(A068889(n+1))*A010117(A007092(n))`
--/
-
-namespace A010116.P10499763824374186267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005171 (A068889 (n + 1)).toNat * A010117 (A007092 n).toNat
-
-end
-
-end A010116.P10499763824374186267
+end A010116.P12549486519211423658
 
 /-!
 # A010118: Magnetic susceptibility coefficients for square lattice spin 3/2 Ising model.
@@ -1264,35 +996,20 @@ end A010116.P10499763824374186267
 The programs for A010118, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010118.P1694889811999761096
+/-! ## A010118.P9465266254433289860
 
-`A010119(A047205(n+1)%A123062(n+1))`
+`A010119(A047205(n+1))`
 -/
 
-namespace A010118.P1694889811999761096
+namespace A010118.P9465266254433289860
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010119 (Int.tmod (A047205 (n + 1)) (A123062 (n + 1))).toNat
+  A010119 (A047205 (n + 1)).toNat
 
 end
 
-end A010118.P1694889811999761096
-
-/-! ## A010118.P16690226646403261286
-
-`A010119(A047205(n+1))%A250238(n+1)`
--/
-
-namespace A010118.P16690226646403261286
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010119 (A047205 (n + 1)).toNat) (A250238 (n + 1))
-
-end
-
-end A010118.P16690226646403261286
+end A010118.P9465266254433289860
 
 /-! ## A010118.P15631404716894857135
 
@@ -1312,125 +1029,26 @@ end
 
 end A010118.P15631404716894857135
 
-/-! ## A010118.P15944031931458435744
-
-`A010119(ceil(log2(A273924(3*n+1))))`
--/
-
-namespace A010118.P15944031931458435744
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010119 ⌈Real.logb 2 (A273924 (3 * n + 1) : ℝ)⌉.toNat
-
-end
-
-end A010118.P15944031931458435744
-
-/-! ## A010118.P15061536846534307319
-
-`A010119(eq[A010164(n+3), A362113(n)])`
--/
-
-namespace A010118.P15061536846534307319
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010164 (n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362113 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010119 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A010118.P15061536846534307319
-
 /-!
 # A010119: Magnetic susceptibility coefficients for square lattice spin 5/2 Ising model.
 
 The programs for A010119, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010119.P451852519141800448
+/-! ## A010119.P11253791639674300548
 
-`A010117(A007094(n)%Δ[A326079(n)])`
+`A010117(A007094(n))`
 -/
 
-namespace A010119.P451852519141800448
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326079 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (Int.tmod (A007094 n) (f1 (n + 1) - f1 n)).toNat
-
-end
-
-end A010119.P451852519141800448
-
-/-! ## A010119.P4291200702795443926
-
-`A010117(A007094(n))%A091114(n+1)`
--/
-
-namespace A010119.P4291200702795443926
+namespace A010119.P11253791639674300548
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010117 (A007094 n).toNat) (A091114 (n + 1))
+  A010117 (A007094 n).toNat
 
 end
 
-end A010119.P4291200702795443926
-
-/-! ## A010119.P2525957017202442719
-
-`A010117(A007094(n))+A000038(A000125(n))`
--/
-
-namespace A010119.P2525957017202442719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (A007094 n).toNat + A000038 (A000125 n).toNat
-
-end
-
-end A010119.P2525957017202442719
-
-/-! ## A010119.P6484826548828072606
-
-`A010117(A007094(n))%A326079(A109613(n))`
--/
-
-namespace A010119.P6484826548828072606
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A010117 (A007094 n).toNat) (A326079 (A109613 n).toNat)
-
-end
-
-end A010119.P6484826548828072606
-
-/-! ## A010119.P8381130354678912091
-
-`A010117(A007094(n))^A014963(A264354(n+1))`
--/
-
-namespace A010119.P8381130354678912091
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A010117 (A007094 n).toNat : ℚ) ^ (A014963 (A264354 (n + 1)).toNat : ℤ)
-
-end
-
-end A010119.P8381130354678912091
+end A010119.P11253791639674300548
 
 /-!
 # A010120: Smallest start for a '3x+1' sequence containing 2^n.
@@ -1489,35 +1107,20 @@ end
 
 end A010120.P9688100739435080537
 
-/-! ## A010120.P17269461255943223184
+/-! ## A010120.P4374580435455976591
 
-`A070167(A225124(n))`
+`A070167(2^n)`
 -/
 
-namespace A010120.P17269461255943223184
+namespace A010120.P4374580435455976591
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070167 (A225124 n).toNat
+  A070167 (2 ^ n)
 
 end
 
-end A010120.P17269461255943223184
-
-/-! ## A010120.P5299944933948800406
-
-`A070167(A231610(n))`
--/
-
-namespace A010120.P5299944933948800406
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070167 (A231610 n).toNat
-
-end
-
-end A010120.P5299944933948800406
+end A010120.P4374580435455976591
 
 /-!
 # A010121: Continued fraction for sqrt(7).

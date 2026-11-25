@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n-1)*(91/81)-n*10^n/9.",
+  "description": "a(n) = (10^n-1)*(91/81) - n*10^n/9.",
   "id": "A064616",
   "mentions": [
     "A002275",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

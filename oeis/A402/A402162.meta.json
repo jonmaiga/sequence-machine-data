@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of an n X n square by isosceles right triangles, each formed by joining some of the 4*n^2 elementary triangles obtained by drawing both diagonals of every unit square in the grid.",
+  "id": "A402162",
+  "mentions": [
+    "A045846",
+    "A400997",
+    "A401117"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

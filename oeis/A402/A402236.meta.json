@@ -1,0 +1,18 @@
+{
+  "description": "Number of weakly connected acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 2.",
+  "id": "A402236",
+  "mentions": [
+    "A000169",
+    "A082402",
+    "A397711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

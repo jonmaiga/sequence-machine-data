@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither squarefree, prime powers, nor highly composite.",
+  "id": "A402349",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A367268",
+    "A368089"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

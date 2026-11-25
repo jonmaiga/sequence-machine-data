@@ -1,9 +1,5 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C005
-import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C039
-import Seq.B001.C008
 import Seq.Opaque.C000
 import Seq.Opaque.C005
 import Seq.Opaque.C011
@@ -113,67 +109,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172743.P415855535024945834
-
-/-! ## A172743.P10795923687352178354
-
-`A333901(A046691(n+3))`
--/
-
-namespace A172743.P10795923687352178354
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333901 (A046691 (n + 3)).toNat
-
-end
-
-end A172743.P10795923687352178354
-
-/-! ## A172743.P4118676074215300430
-
-`A333901(A167614(n+3))`
--/
-
-namespace A172743.P4118676074215300430
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333901 (A167614 (n + 3)).toNat
-
-end
-
-end A172743.P4118676074215300430
-
-/-! ## A172743.P4934919555844319151
-
-`A333901(A056000(n)+13)`
--/
-
-namespace A172743.P4934919555844319151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333901 (A056000 n + 13).toNat
-
-end
-
-end A172743.P4934919555844319151
-
-/-! ## A172743.P877636460171323915
-
-`A333901(Δ[A023545(n+1)])`
--/
-
-namespace A172743.P877636460171323915
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023545 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333901 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A172743.P877636460171323915
 

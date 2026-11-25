@@ -1,0 +1,16 @@
+{
+  "description": "Two-column array read by rows: list of points (x,y) arising in A402282.",
+  "id": "A402295",
+  "mentions": [
+    "A402282"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

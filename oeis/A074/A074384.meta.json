@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to mod(sigma(x), 6) = 5.",
+  "description": "Solutions to sigma(x) == 5 (mod 6).",
   "id": "A074384",
   "mentions": [
     "A000203",

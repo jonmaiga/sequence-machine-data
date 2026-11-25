@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of finite sequences of length n satisfying the A400000 visibility criterion.",
+  "id": "A401749",
+  "mentions": [
+    "A399977",
+    "A400000",
+    "A401606",
+    "A401748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

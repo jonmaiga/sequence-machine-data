@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n} binomial(n+k-1,k) * a(n-k).",
+  "id": "A402261",
+  "mentions": [
+    "A213048",
+    "A402260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

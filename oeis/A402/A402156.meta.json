@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/(2*(1 - arccos((1 - r)/2)/Pi)), where r = A357471.",
+  "id": "A402156",
+  "mentions": [
+    "A010521",
+    "A357471"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

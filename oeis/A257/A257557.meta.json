@@ -1,8 +1,9 @@
 {
-  "description": "Expansion (x-1)/(x^5+2*x^3+2*x-1).",
+  "description": "Expansion of g.f. (x-1)/(x^5+2*x^3+2*x-1).",
   "id": "A257557",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

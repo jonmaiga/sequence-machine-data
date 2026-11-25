@@ -15,7 +15,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -34,7 +34,7 @@ import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C003
-import Seq.Opaque.C001
+import Seq.B011.C000
 import Seq.Opaque.C010
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -1862,98 +1862,6 @@ namespace A037709
 /-- `xor(A000975(2*(n+1)), A037772(n+1))` -/
 def P1901724576043995882.Spec : Prop :=
   ∀ n, P1901724576043995882.a n = A037709 (n + 1)
-
-end A037709
-
-/-! ## A037709.P9800415548774082003
-
-`max(A224520(2*n), A224520(2*n+1))`
--/
-
-namespace A037709.P9800415548774082003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  max (A224520 (2 * n)) (A224520 (2 * n + 1))
-
-end
-
-end A037709.P9800415548774082003
-
-namespace A037709
-
-/-- `max(A224520(2*n), A224520(2*n+1))` -/
-def P9800415548774082003.Spec : Prop :=
-  ∀ n, P9800415548774082003.a n = A037709 (n + 1)
-
-end A037709
-
-/-! ## A037709.P9221899862656627413
-
-`min(A224520(2*n+1), A224520(2*(n+1)))`
--/
-
-namespace A037709.P9221899862656627413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  min (A224520 (2 * n + 1)) (A224520 (2 * (n + 1)))
-
-end
-
-end A037709.P9221899862656627413
-
-namespace A037709
-
-/-- `min(A224520(2*n+1), A224520(2*(n+1)))` -/
-def P9221899862656627413.Spec : Prop :=
-  ∀ n, P9221899862656627413.a n = A037709 (n + 1)
-
-end A037709
-
-/-! ## A037709.P2696270925619518434
-
-`xor(A224520(2*n+1)+2*A000079(n)², 2*A000079(n)²)`
--/
-
-namespace A037709.P2696270925619518434
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A224520 (2 * n + 1) + 2 * A000079 n ^ 2) (2 * A000079 n ^ 2)
-
-end
-
-end A037709.P2696270925619518434
-
-namespace A037709
-
-/-- `xor(A224520(2*n+1)+2*A000079(n)², 2*A000079(n)²)` -/
-def P2696270925619518434.Spec : Prop :=
-  ∀ n, P2696270925619518434.a n = A037709 (n + 1)
-
-end A037709
-
-/-! ## A037709.P16007644234660114189
-
-`xor(A224520(2*n+1)+A000079(2*n+1), A000079(2*n+1))`
--/
-
-namespace A037709.P16007644234660114189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A224520 (2 * n + 1) + A000079 (2 * n + 1)) (A000079 (2 * n + 1))
-
-end
-
-end A037709.P16007644234660114189
-
-namespace A037709
-
-/-- `xor(A224520(2*n+1)+A000079(2*n+1), A000079(2*n+1))` -/
-def P16007644234660114189.Spec : Prop :=
-  ∀ n, P16007644234660114189.a n = A037709 (n + 1)
 
 end A037709
 

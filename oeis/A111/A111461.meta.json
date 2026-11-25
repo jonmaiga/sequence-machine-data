@@ -2,10 +2,12 @@
   "description": "Decimal expansion of the fourth root of sine of 1 degree.",
   "id": "A111461",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A110945"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

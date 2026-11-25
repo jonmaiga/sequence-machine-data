@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} log(p) / (p^4 + 1).",
+  "id": "A402271",
+  "mentions": [
+    "A261506",
+    "A303494",
+    "A401151",
+    "A402270"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

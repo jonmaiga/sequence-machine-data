@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of -Sum( n>=2, (-1)^n*log(1 - 1/(n*(n-1))) ).",
+  "description": "Decimal expansion of -Sum_{n>=2} (-1)^n*log(1 - 1/(n*(n-1))).",
   "id": "A217706",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
     "cons",
     "nonn"

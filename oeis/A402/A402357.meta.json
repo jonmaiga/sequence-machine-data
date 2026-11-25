@@ -1,0 +1,22 @@
+{
+  "description": "Number of strongly connected digraphs on n unlabeled nodes such that for every node h, every strongly connected component of D - h receives exactly one edge from outside.",
+  "id": "A402357",
+  "mentions": [
+    "A002773",
+    "A052873",
+    "A397968",
+    "A398465",
+    "A399885",
+    "A400123",
+    "A401321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

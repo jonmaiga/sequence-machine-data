@@ -2,12 +2,19 @@
   "description": "Numerators of squared radii of circumcircles of non-degenerate triangles with integer vertex coordinates.",
   "id": "A192493",
   "mentions": [
+    "A004614",
     "A128006",
     "A128007",
     "A192494",
+    "A339952",
+    "A346124",
     "A346993",
     "A346994",
-    "A346995"
+    "A346995",
+    "A348469",
+    "A355884",
+    "A357301",
+    "A402407"
   ],
   "tags": [
     "frac",
@@ -15,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 81,
+    "size": 63,
     "source": "oeis-bfile"
   }
 }

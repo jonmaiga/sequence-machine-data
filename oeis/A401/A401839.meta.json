@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least positive integer k such that each side of the triangle with sides k*A120133(n), k*A120132(n), k*A120131(n) divides its area.",
+  "id": "A401839",
+  "mentions": [
+    "A008784",
+    "A072294",
+    "A120131",
+    "A120132",
+    "A120133",
+    "A401840",
+    "A401841"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

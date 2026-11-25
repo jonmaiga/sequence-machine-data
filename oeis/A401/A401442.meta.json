@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered rooted trees with n nodes such that no two sibling subtrees are isomorphic as unordered rooted trees.",
+  "id": "A401442",
+  "mentions": [
+    "A000601",
+    "A001752",
+    "A002620",
+    "A004111",
+    "A032027",
+    "A087811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

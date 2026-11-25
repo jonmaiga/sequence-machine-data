@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of tangent of 1 degree.",
   "id": "A019899",
-  "mentions": [],
+  "mentions": [
+    "A019987"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

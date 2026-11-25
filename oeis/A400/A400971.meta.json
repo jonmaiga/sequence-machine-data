@@ -1,0 +1,14 @@
+{
+  "description": "Number of ordered pairs of distinct subsets A,B of {1,...,n} with equal sums of elements and equal sums of cubes of elements.",
+  "id": "A400971",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

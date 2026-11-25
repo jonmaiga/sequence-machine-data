@@ -2,6 +2,7 @@
   "description": "Number of integer partitions of n whose unsigned differences have a different GCD than the GCD of their parts all minus 1.",
   "id": "A328163",
   "mentions": [
+    "A000041",
     "A000837",
     "A018783",
     "A175342",
@@ -15,11 +16,12 @@
     "A328170"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Product of 8 consecutive integers. a(n) = RisingFactorial(n, 8).",
   "id": "A239035",
   "mentions": [
+    "A000581",
     "A002378",
     "A007531",
     "A052762",

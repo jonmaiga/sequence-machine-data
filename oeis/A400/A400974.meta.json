@@ -1,0 +1,26 @@
+{
+  "description": "Number of terms in the central 2-dense sublist of divisors of n, or 0 if such a sublist does not exist.",
+  "id": "A400974",
+  "mentions": [
+    "A001511",
+    "A067742",
+    "A071561",
+    "A071562",
+    "A174973",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A384222",
+    "A384230",
+    "A400194"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,16 @@
 {
   "description": "Coordination sequence for 5-dimensional lonsdaleite.",
   "id": "A008525",
-  "mentions": [],
+  "mentions": [
+    "A008264",
+    "A008526"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "joeis"
   }
 }

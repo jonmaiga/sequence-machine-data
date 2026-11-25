@@ -1,14 +1,15 @@
 {
-  "description": "Primes p with the property that p-q does not divide p+q for all primes q < p.",
+  "description": "Greater members in pairs of primes (p,q) such that p-q does not divide p+q.",
   "id": "A087525",
   "mentions": [],
   "tags": [
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

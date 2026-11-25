@@ -11,12 +11,14 @@
     "A213184"
   ],
   "tags": [
+    "base",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

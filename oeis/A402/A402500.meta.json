@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number equal to either (4/3)*prime(n)# + 1 or (8/3)*prime(n)# + 1 that is not divisible by 3, where prime(n)# = A002110(n).",
+  "id": "A402500",
+  "mentions": [
+    "A002110",
+    "A102476",
+    "A340764",
+    "A401356",
+    "A402431",
+    "A402499",
+    "A402505"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

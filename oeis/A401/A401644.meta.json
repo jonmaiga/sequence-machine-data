@@ -1,0 +1,20 @@
+{
+  "description": "Sum of semiprimes < 10^n.",
+  "id": "A401644",
+  "mentions": [
+    "A001358",
+    "A046731",
+    "A062198",
+    "A066265",
+    "A072000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Compute otherwise like A328571, but take the exponents e from the prime factorization of n; denominators of fractions whose numerators are given by A402582.",
+  "id": "A402583",
+  "mentions": [
+    "A083345",
+    "A328571",
+    "A402581",
+    "A402582"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

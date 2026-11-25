@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A007947(i) = A007947(j) and A328571(i) = A328571(j) for all i, j >= 1, where A328571(n) = A007947(A276086(n)), i.e., the squarefree kernel of the primorial base exp-function.",
+  "id": "A401929",
+  "mentions": [
+    "A007947",
+    "A276086",
+    "A328571",
+    "A392608",
+    "A401928"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

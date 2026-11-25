@@ -1,0 +1,18 @@
+{
+  "description": "3-smooth numbers k > 1 such that 3*k^2 - 3*k + 1 is prime.",
+  "id": "A401944",
+  "mentions": [
+    "A002407",
+    "A002504",
+    "A003586",
+    "A401943"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

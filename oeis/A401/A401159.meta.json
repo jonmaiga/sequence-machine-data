@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,m) read by rows: the number of binary n X m matrices with at most two 1's in each row or column.",
+  "id": "A401159",
+  "mentions": [
+    "A000124",
+    "A086601",
+    "A086885",
+    "A197458",
+    "A247158"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

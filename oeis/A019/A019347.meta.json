@@ -1,7 +1,10 @@
 {
   "description": "Primes with primitive root 20.",
   "id": "A019347",
-  "mentions": [],
+  "mentions": [
+    "A005596",
+    "A019335"
+  ],
   "tags": [
     "nonn"
   ],

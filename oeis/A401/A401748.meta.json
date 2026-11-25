@@ -1,0 +1,18 @@
+{
+  "description": "Finite sequences satisfying the A400000 visibility criterion, sorted first by length then lexicographically.",
+  "id": "A401748",
+  "mentions": [
+    "A399977",
+    "A400000",
+    "A401749"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

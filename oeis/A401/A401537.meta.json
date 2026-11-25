@@ -1,0 +1,19 @@
+{
+  "description": "Number of spanning trees of the 3 X n Klein bottle grid graph using exactly 1 twist edge.",
+  "id": "A401537",
+  "mentions": [
+    "A006235",
+    "A020871",
+    "A400234"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

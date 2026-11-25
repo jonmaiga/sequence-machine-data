@@ -3,17 +3,20 @@
   "id": "A252653",
   "mentions": [
     "A000105",
+    "A056785",
     "A213376",
-    "A283162"
+    "A283162",
+    "A361288"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

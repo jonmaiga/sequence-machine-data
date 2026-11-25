@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers that are equal to the concatenation of the primes and exponents in their canonical prime factorizations in some bijective base.",
+  "id": "A400300",
+  "mentions": [
+    "A368107",
+    "A384537",
+    "A384540"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

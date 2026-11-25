@@ -1,0 +1,16 @@
+{
+  "description": "Number of perfect matchings in the graph on 2n vertices (0..2n-1) with i and j adjacent if and only if |i-j| is a Fibonacci number.",
+  "id": "A398733",
+  "mentions": [
+    "A000045",
+    "A006190"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

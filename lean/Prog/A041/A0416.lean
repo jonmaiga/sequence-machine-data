@@ -42,6 +42,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -523,52 +524,6 @@ namespace A041612
 /-- `Δ[floor(∑[A006497(3*n)/2])]` -/
 def P14861424116505132452.Spec : Prop :=
   ∀ n, P14861424116505132452.a n = A041612 n
-
-end A041612
-
-/-! ## A041612.P10537398867697229270
-
-`lcm(A033999(n), A041018(A016897(n)))`
--/
-
-namespace A041612.P10537398867697229270
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A033999 n) (A041018 (A016897 n).toNat)
-
-end
-
-end A041612.P10537398867697229270
-
-namespace A041612
-
-/-- `lcm(A033999(n), A041018(A016897(n)))` -/
-def P10537398867697229270.Spec : Prop :=
-  ∀ n, (P10537398867697229270.a n : ℤ) = A041612 n
-
-end A041612
-
-/-! ## A041612.P6666279221759641523
-
-`A019425(A051890(n))*A041018(A016897(n))`
--/
-
-namespace A041612.P6666279221759641523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019425 (A051890 n).toNat * A041018 (A016897 n).toNat
-
-end
-
-end A041612.P6666279221759641523
-
-namespace A041612
-
-/-- `A019425(A051890(n))*A041018(A016897(n))` -/
-def P6666279221759641523.Spec : Prop :=
-  ∀ n, P6666279221759641523.a n = A041612 n
 
 end A041612
 

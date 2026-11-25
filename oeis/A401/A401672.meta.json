@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n^2 + k^2 + n*k + n + k, 1 <= k <= n.",
+  "id": "A401672",
+  "mentions": [
+    "A002522",
+    "A027689",
+    "A045944",
+    "A108872",
+    "A132111",
+    "A189833",
+    "A215631",
+    "A241851"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

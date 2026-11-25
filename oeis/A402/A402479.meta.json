@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{k>=1} x^(k*(k+1)) * Product_{j=1..4*k} (1 + x^j).",
+  "id": "A402479",
+  "mentions": [
+    "A333179",
+    "A402468",
+    "A402480",
+    "A402481"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

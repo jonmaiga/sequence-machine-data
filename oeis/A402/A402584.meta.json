@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n - A345998(n), where A345998(n) = A344005(n)/gcd(A344005(n), n), and A344005(n) is the smallest positive integer m such that n divides m*(m+1).",
+  "id": "A402584",
+  "mentions": [
+    "A246655",
+    "A344005",
+    "A345998"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

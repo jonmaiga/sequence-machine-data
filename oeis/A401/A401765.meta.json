@@ -1,0 +1,21 @@
+{
+  "description": "Largest m such that an n X m rectangle can be tiled with Culik's 13 Wang tiles so that every column wraps around (its bottom edge matches its top edge).",
+  "id": "A401765",
+  "mentions": [
+    "A005663",
+    "A005664",
+    "A028507",
+    "A152683"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

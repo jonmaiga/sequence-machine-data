@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A342002(k) is a multiple of k, where A342002(k) = A342001(A276086(k)).",
+  "id": "A401729",
+  "mentions": [
+    "A276085",
+    "A276086",
+    "A328110",
+    "A342001",
+    "A342002",
+    "A351087",
+    "A400155",
+    "A401718",
+    "A401730",
+    "A401731"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

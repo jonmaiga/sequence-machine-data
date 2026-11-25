@@ -1,7 +1,10 @@
 {
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays with every 2 X 2 subblock nonsingular.",
   "id": "A183710",
-  "mentions": [],
+  "mentions": [
+    "A183702",
+    "A183703"
+  ],
   "tags": [
     "nonn",
     "tabl"

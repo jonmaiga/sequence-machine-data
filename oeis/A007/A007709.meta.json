@@ -1,5 +1,5 @@
 {
-  "description": "Number of winning (or reformed) decks at Mousetrap.",
+  "description": "Number of winning (or reformed) decks with n cards at Mousetrap.",
   "id": "A007709",
   "mentions": [
     "A002467",

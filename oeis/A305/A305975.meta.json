@@ -1,5 +1,5 @@
 {
-  "description": "Filter sequence: All prime powers p^k, k >= 1, are allotted to distinct equivalence classes according to their exponent k, while all other numbers occur in singular equivalence classes of their own.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A305974(i) = A305974(j), for all i, j >= 1, where A305974(1) = 1; and for n > 1, if n = p^k for some prime p and exponent k >= 1, then A305974(n) = -k, otherwise A305974(n) is the position of n in A361102, numbers that are not prime powers.",
   "id": "A305975",
   "mentions": [
     "A000961",
@@ -9,9 +9,13 @@
     "A305800",
     "A305974",
     "A305976",
-    "A305979"
+    "A305979",
+    "A342001",
+    "A361102",
+    "A401925"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of the triangle with vertices (0,0), (n,0), (0,n) by isosceles right triangles, each a union of some of the 2*n^2 elementary triangles lying inside the large triangle after both diagonals are drawn in every unit square of the grid.",
+  "id": "A402200",
+  "mentions": [
+    "A402162",
+    "A402198",
+    "A402199"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

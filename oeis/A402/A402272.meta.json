@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the label of the Dirichlet character Jacobi(.,2*n+1) modulo 2*n+1 in the Conrey labeling system.",
+  "id": "A402272",
+  "mentions": [
+    "A376218",
+    "A402232",
+    "A402273"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -9,7 +9,7 @@ import Seq.B001.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C010
 import Seq.Opaque.C014
-import Seq.Opaque.C018
+import Seq.Opaque.C017
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -150,6 +150,48 @@ def P13373449803310149527.Spec : Prop :=
 theorem P13373449803310149527.correct : P13373449803310149527.Spec := by
   intro n
   simp only [A019839]
+
+end A019839
+
+/-! ## A019839.P1570259706325000964
+
+`21*a(n-1)-140*a(n-2)+300*a(n-3)` with `a(0)=1, a(1)=21, a(2)=301`
+-/
+
+namespace A019839.P1570259706325000964
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 21, 301] fun n a =>
+  21 * a (n - 1) - 140 * a (n - 2) + 300 * a (n - 3)
+
+end
+
+end A019839.P1570259706325000964
+
+namespace A019839
+
+/-- `21*a(n-1)-140*a(n-2)+300*a(n-3)` -/
+def P1570259706325000964.Spec : Prop :=
+  ∀ n, P1570259706325000964.a n = A019839 n
+
+theorem P1570259706325000964.correct : P1570259706325000964.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A019839, Nat.add_sub_cancel, A019839.P1570259706325000964.a, A019839.P13373449803310149527.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A019839, Nat.add_sub_cancel, A019839.P1570259706325000964.a, A019839.P13373449803310149527.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [h1, h2, h3]
+      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019839
 

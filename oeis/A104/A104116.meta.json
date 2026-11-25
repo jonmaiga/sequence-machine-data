@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 6^n+13.",
+  "description": "Primes of the form 6^k+13.",
   "id": "A104116",
   "mentions": [
     "A078303"

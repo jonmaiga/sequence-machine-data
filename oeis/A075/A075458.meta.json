@@ -1,5 +1,5 @@
 {
-  "description": "Domination number for queens' graph Q(n).",
+  "description": "Domination number for queen's graph Q(n).",
   "id": "A075458",
   "mentions": [
     "A002563",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 46,
     "source": "oeis-entry"
   }
 }

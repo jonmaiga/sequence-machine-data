@@ -1,15 +1,16 @@
 {
-  "description": "j values from A087516.",
+  "description": "Consider pairs (i,j) such that j*prime(i)# - prime(i+2) and j*prime(i)# - prime(i+1) are consecutive primes and 0 < j < prime(i+1), where prime(r)# = r-th primorial number (A002110). Sequence gives j values.",
   "id": "A087517",
   "mentions": [
+    "A002110",
     "A087516"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 77,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
   }
 }

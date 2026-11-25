@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of ways to place mirrors between neighboring dots of an n X k grid of dots so that the mirror curve is a single closed loop.",
+  "id": "A400778",
+  "mentions": [
+    "A000012",
+    "A000302",
+    "A001353",
+    "A118185"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k with no p^p-factors, such that A083345(k) is a multiple of A276085(k), where A083345 is the numerator of the fully additive function with a(p) = 1/p, and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A401730",
+  "mentions": [
+    "A048103",
+    "A083345",
+    "A276085",
+    "A276086",
+    "A342001",
+    "A342002",
+    "A359550",
+    "A401726",
+    "A401728",
+    "A401729",
+    "A401732"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

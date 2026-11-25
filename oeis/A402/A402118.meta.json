@@ -1,0 +1,19 @@
+{
+  "description": "Left-truncatable emirpimes in base 10, stopping at two digits.",
+  "id": "A402118",
+  "mentions": [
+    "A097393",
+    "A402116"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

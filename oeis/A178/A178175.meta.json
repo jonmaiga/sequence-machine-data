@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n - 47 is prime.",
+  "description": "Numbers k such that 10^k - 47 is prime.",
   "id": "A178175",
   "mentions": [
     "A108328",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

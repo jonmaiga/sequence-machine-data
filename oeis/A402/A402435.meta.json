@@ -1,0 +1,20 @@
+{
+  "description": "A conjecture about the 2-adic valuation of A386381. See the Maple function for the definition.",
+  "id": "A402435",
+  "mentions": [
+    "A007814",
+    "A060818",
+    "A386363",
+    "A386381",
+    "A402436"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

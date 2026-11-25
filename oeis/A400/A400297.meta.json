@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the maximum number of consecutive primes that sum up to A400296(n), the least prime establishing a new record for that number.",
+  "id": "A400297",
+  "mentions": [
+    "A070281",
+    "A400296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

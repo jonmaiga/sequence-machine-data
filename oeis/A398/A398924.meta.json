@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A352718(n^2-1).",
+  "id": "A398924",
+  "mentions": [
+    "A352718"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

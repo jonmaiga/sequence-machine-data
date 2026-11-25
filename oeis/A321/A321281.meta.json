@@ -2,7 +2,10 @@
   "description": "a(n) is the number of primes of the form p*10^n + q, where p, q are the digits from 1 to 9.",
   "id": "A321281",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A069675",
+    "A085824",
+    "A359983"
   ],
   "tags": [
     "base",

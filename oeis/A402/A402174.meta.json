@@ -1,0 +1,18 @@
+{
+  "description": "Number of groups G of order n such that Aut(G) is isomorphic to G.",
+  "id": "A402174",
+  "mentions": [
+    "A341298",
+    "A341825",
+    "A372011",
+    "A401668"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

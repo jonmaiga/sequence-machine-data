@@ -1,0 +1,21 @@
+{
+  "description": "Least prime factor of 4^n - 3^n.",
+  "id": "A400726",
+  "mentions": [
+    "A005061",
+    "A020639",
+    "A089082",
+    "A398834",
+    "A400722",
+    "A400727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

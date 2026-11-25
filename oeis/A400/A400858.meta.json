@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: the stretched Riordan array ( 1/(1 - x), x^2/(1 - x - x^2) ).",
+  "id": "A400858",
+  "mentions": [
+    "A005578",
+    "A008619",
+    "A115524"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of L'(1,chi_13)/L(1,chi_13), where chi_13 is the Dirichlet character kronecker(13,.).",
+  "id": "A402020",
+  "mentions": [
+    "A011583",
+    "A402011"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

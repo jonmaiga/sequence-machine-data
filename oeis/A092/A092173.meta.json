@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Pi^(2*e).",
   "id": "A092173",
   "mentions": [
-    "A059850"
+    "A059850",
+    "A092172"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

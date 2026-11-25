@@ -11,14 +11,13 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -26,13 +25,13 @@ import Seq.B000.C036
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C045
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
@@ -43,6 +42,7 @@ import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -56,6 +56,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -64,7 +65,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A009300: Expansion of exp(x/cos(x)).
@@ -402,21 +402,6 @@ end
 
 end A009314.P14891565507650375578
 
-/-! ## A009314.P6751735951433914713
-
-`(A009318(n)+A009315(n))*2^A008683(A007304(n+1))`
--/
-
-namespace A009314.P6751735951433914713
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A009318 n + A009315 n : ℚ) * (2 : ℚ) ^ (A008683 (A007304 (n + 1)).toNat : ℤ)
-
-end
-
-end A009314.P6751735951433914713
-
 /-!
 # A009315: Expansion of log(1+log(1+x))*exp(x).
 
@@ -618,21 +603,6 @@ end
 
 end A009325.P1894032465134836806
 
-/-! ## A009325.P7926599508647460394
-
-`A024329(n)+A024329(n)+A004514(A004514(n))`
--/
-
-namespace A009325.P7926599508647460394
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024329 n + (A024329 n + A004514 (A004514 n).toNat)
-
-end
-
-end A009325.P7926599508647460394
-
 /-! ## A009325.P15275228596015241629
 
 `A024329(n)+A024329(n)/A019429(A062355(n+1))`
@@ -690,77 +660,26 @@ end A009326.P8892159069198840203
 The programs for A009329, there is no canonical definition to state claims against.
 -/
 
-/-! ## A009329.P10809219146367436709
+/-! ## A009329.P4474985247168648319
 
-`A009364(A159083(n)+n)`
+`A009364(n)`
 -/
 
-namespace A009329.P10809219146367436709
+namespace A009329.P4474985247168648319
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009364 (A159083 n + (n : ℤ)).toNat
+  A009364 n
 
 end
 
-end A009329.P10809219146367436709
-
-/-! ## A009329.P13464706803598595004
-
-`A009364(n*A361675(n))`
--/
-
-namespace A009329.P13464706803598595004
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009364 ((n : ℤ) * A361675 n).toNat
-
-end
-
-end A009329.P13464706803598595004
-
-/-! ## A009329.P9932674870268841102
-
-`A009364(n)^A010286(n)`
--/
-
-namespace A009329.P9932674870268841102
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A009364 n : ℚ) ^ (A010286 n : ℤ)
-
-end
-
-end A009329.P9932674870268841102
+end A009329.P4474985247168648319
 
 /-!
 # A009331: If a, b in sequence, so is ab+8.
 
 The programs for A009331, there is no canonical definition to state claims against.
 -/
-
-/-! ## A009331.P2296812221028085077
-
-`A168457(lt[(n+1)/2^val(n+1, 2), A346651(n+1)])`
--/
-
-namespace A009331.P2296812221028085077
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (2 ^ SequenceMachineLib.valuation (n + 1) 2 : ℚ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346651 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168457 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℚ)) n)
-
-end
-
-end A009331.P2296812221028085077
 
 /-! ## A009331.P13346864402674633309
 
@@ -921,21 +840,6 @@ end
 
 end A009341.P11330910454514402005
 
-/-! ## A009341.P14049946795463381473
-
-`A024286(n)+A024286(n)/A071936(n+1)²`
--/
-
-namespace A009341.P14049946795463381473
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A024286 n : ℚ) + (A024286 n : ℚ) / (A071936 (n + 1) ^ 2 : ℚ)
-
-end
-
-end A009341.P14049946795463381473
-
 /-! ## A009341.P4575407046874190425
 
 `A024286(A004916(n+1))+A024286(n)`
@@ -1053,21 +957,6 @@ end
 
 end A009344.P15854505587105888102
 
-/-! ## A009344.P10111399448806148654
-
-`A024293(n)/2^A008683(A020484(n))`
--/
-
-namespace A009344.P10111399448806148654
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A024293 n : ℚ) / (2 : ℚ) ^ (A008683 (A020484 n).toNat : ℤ)
-
-end
-
-end A009344.P10111399448806148654
-
 /-!
 # A009345: Expansion of log(1+sinh(log(1+x))).
 
@@ -1147,50 +1036,20 @@ end A009345.P18029772011527481634
 The programs for A009348, there is no canonical definition to state claims against.
 -/
 
-/-! ## A009348.P15403169211645982471
+/-! ## A009348.P14076802408827179622
 
-`A009365(A004901(n+1))`
+`A009365(n)`
 -/
 
-namespace A009348.P15403169211645982471
+namespace A009348.P14076802408827179622
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009365 (A004901 (n + 1)).toNat
+  A009365 n
 
 end
 
-end A009348.P15403169211645982471
-
-/-! ## A009348.P6569756950744741514
-
-`A009365(A004912(n+1))`
--/
-
-namespace A009348.P6569756950744741514
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009365 (A004912 (n + 1)).toNat
-
-end
-
-end A009348.P6569756950744741514
-
-/-! ## A009348.P14923995800045458416
-
-`A009365(n)^A010286(n)`
--/
-
-namespace A009348.P14923995800045458416
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A009365 n : ℚ) ^ (A010286 n : ℤ)
-
-end
-
-end A009348.P14923995800045458416
+end A009348.P14076802408827179622
 
 /-!
 # A009350: If x and y are terms, so is x*y + 9.
@@ -1233,21 +1092,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A009352.P14079896217337522179
-
-/-! ## A009352.P4199064672884189130
-
-`(A009356(n)+A009353(n))*2^A008683(A104887(n+1))`
--/
-
-namespace A009352.P4199064672884189130
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A009356 n + A009353 n : ℚ) * (2 : ℚ) ^ (A008683 (A104887 (n + 1)).toNat : ℤ)
-
-end
-
-end A009352.P4199064672884189130
 
 /-!
 # A009353: Expansion of log(1+sinh(x))*exp(x).
@@ -1660,21 +1504,6 @@ end
 
 end A009371.P7662531229870241457
 
-/-! ## A009371.P541367278033560617
-
-`2*A009370(n)+A009374(n)*A153881(n+2)`
--/
-
-namespace A009371.P541367278033560617
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A009370 n + A009374 n * A153881 (n + 2)
-
-end
-
-end A009371.P541367278033560617
-
 /-! ## A009371.P8097589450037952109
 
 `A296439(n)-A056557(A365894(2*n+1))`
@@ -1944,21 +1773,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009378.P12877017155038038986
-
-/-! ## A009378.P2905714857645576644
-
-`A024296(n)+A051516(A154935(n+1))+A024296(n)`
--/
-
-namespace A009378.P2905714857645576644
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024296 n + (A051516 (A154935 (n + 1)).toNat + A024296 n)
-
-end
-
-end A009378.P2905714857645576644
 
 /-!
 # A009379: Expansion of log(1+tan(x)*x).
@@ -2547,36 +2361,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009396.P10772976229154192694
-
-/-! ## A009396.P9608103411399908710
-
-`A000038(n+1)+A024298(n)+A024298(n)`
--/
-
-namespace A009396.P9608103411399908710
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000038 (n + 1) + (A024298 n + A024298 n)
-
-end
-
-end A009396.P9608103411399908710
-
-/-! ## A009396.P5842300542665424392
-
-`A024298(n)+A024298(n)/A008836(n+1)²`
--/
-
-namespace A009396.P5842300542665424392
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A024298 n : ℚ) + (A024298 n : ℚ) / (A008836 (n + 1) ^ 2 : ℚ)
-
-end
-
-end A009396.P5842300542665424392
 
 /-! ## A009396.P14440127309773189485
 

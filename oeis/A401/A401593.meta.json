@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the 2-adic rational xi(h(n)), with h as in A401592.",
+  "id": "A401593",
+  "mentions": [
+    "A006666",
+    "A006667",
+    "A014682",
+    "A389685",
+    "A401592"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

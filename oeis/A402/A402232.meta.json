@@ -1,0 +1,20 @@
+{
+  "description": "Let chi be the Dirichlet character modulo n sending k coprime to n to the signature of the permutation (k mod n, 2*k mod n, ..., (n-1)*k mod n). Then a(n) is the label of chi in the Conrey labeling system.",
+  "id": "A402232",
+  "mentions": [
+    "A376218",
+    "A401152",
+    "A401153",
+    "A402272"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

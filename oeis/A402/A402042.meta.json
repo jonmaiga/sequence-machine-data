@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of the convergents of A402040.",
+  "id": "A402042",
+  "mentions": [
+    "A402040",
+    "A402041"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

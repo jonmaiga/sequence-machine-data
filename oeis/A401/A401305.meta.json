@@ -1,0 +1,20 @@
+{
+  "description": "Least number congruent to 5 modulo 8 that is a quadratic residue modulo the first n odd primes.",
+  "id": "A401305",
+  "mentions": [
+    "A045535",
+    "A102476",
+    "A401356",
+    "A402499",
+    "A402507",
+    "A402547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

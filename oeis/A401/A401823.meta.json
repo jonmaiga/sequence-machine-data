@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of parking permutations avoiding the pattern 312 with lucky set {1,2,...,k}.",
+  "id": "A401823",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A000272",
+    "A057427",
+    "A140090",
+    "A289612",
+    "A299174",
+    "A401822"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

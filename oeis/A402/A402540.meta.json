@@ -1,0 +1,15 @@
+{
+  "description": "Number of primes p such that p*(p+1) divides A126798(n).",
+  "id": "A402540",
+  "mentions": [
+    "A126798"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

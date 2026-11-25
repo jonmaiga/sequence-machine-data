@@ -1,0 +1,18 @@
+{
+  "description": "Narrow class numbers associated with terms of A002189.",
+  "id": "A400772",
+  "mentions": [
+    "A002189",
+    "A399983",
+    "A400301"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of double total dominating sets in the n X n grid graph: vertex subsets S such that every vertex of the grid, whether in S or not, has at least two neighbors in S.",
+  "id": "A398748",
+  "mentions": [
+    "A133515",
+    "A133793",
+    "A290382",
+    "A398747"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

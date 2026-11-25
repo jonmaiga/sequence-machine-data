@@ -1,7 +1,11 @@
 {
   "description": "Prime numbers p1 such that p1*p2 + (p2 mod p1) is a prime, where p2 is the next prime after p1.",
   "id": "A138170",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A006094"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} k^5 * a(n-k).",
+  "id": "A402401",
+  "mentions": [
+    "A402400"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

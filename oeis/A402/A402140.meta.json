@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions of n that cover an initial interval of positive integers but are not a 1-based restricted growth sequence.",
+  "id": "A402140",
+  "mentions": [
+    "A000120",
+    "A002293",
+    "A008965",
+    "A011782",
+    "A032020",
+    "A047967",
+    "A055932",
+    "A080259",
+    "A107429",
+    "A111133",
+    "A114901",
+    "A333217",
+    "A333755",
+    "A344604",
+    "A345162",
+    "A345163",
+    "A383253",
+    "A383713",
+    "A402138",
+    "A402139",
+    "A402141",
+    "A402142",
+    "A402143"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

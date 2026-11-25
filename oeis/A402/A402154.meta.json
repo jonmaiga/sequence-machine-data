@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt((17 - sqrt(145))/3).",
+  "id": "A402154",
+  "mentions": [
+    "A176910"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

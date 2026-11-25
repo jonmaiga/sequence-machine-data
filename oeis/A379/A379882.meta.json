@@ -2,7 +2,9 @@
   "description": "a(n) is the length of the n-th maximal run of consecutive terms of A377091 with the same sign.",
   "id": "A379882",
   "mentions": [
-    "A377091"
+    "A377091",
+    "A379795",
+    "A379796"
   ],
   "tags": [
     "nonn"

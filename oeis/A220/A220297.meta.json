@@ -2,7 +2,8 @@
   "description": "Number of ways to cut a 4 X n rectangle into rectangles with integer sides.",
   "id": "A220297",
   "mentions": [
-    "A116694"
+    "A116694",
+    "A361526"
   ],
   "tags": [
     "easy",

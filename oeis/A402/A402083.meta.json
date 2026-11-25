@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sin(4), negated.",
+  "id": "A402083",
+  "mentions": [
+    "A402081"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

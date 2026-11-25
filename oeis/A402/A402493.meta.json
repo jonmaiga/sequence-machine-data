@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = least k >= 1 such that prime(n)*prime(n+1) + k*(prime(n+1) - prime(n)) is prime.",
+  "id": "A402493",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A006094",
+    "A138170"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

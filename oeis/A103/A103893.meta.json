@@ -4,7 +4,8 @@
   "mentions": [
     "A001221",
     "A103858",
-    "A103890"
+    "A103890",
+    "A103894"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

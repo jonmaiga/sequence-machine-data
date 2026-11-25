@@ -1,11 +1,13 @@
 {
-  "description": "a(n) = 1 if A345993(n) < A345992(n), otherwise 0.",
+  "description": "a(n) = 1 if gcd(n, 1+A344005(n)) < gcd(n, A344005(n)), otherwise 0, where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
   "id": "A354989",
   "mentions": [
+    "A344005",
     "A345992",
     "A345993",
-    "A345995",
-    "A354988"
+    "A354988",
+    "A402585",
+    "A402589"
   ],
   "tags": [
     "formulas",

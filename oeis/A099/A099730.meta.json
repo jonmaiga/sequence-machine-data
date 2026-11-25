@@ -1,19 +1,21 @@
 {
-  "description": "Array read by antidiagonals. Rows contain odd numbers reaching same odd successor in Collatz function iteration.",
+  "description": "Square array with T(n,0) = least odd number not in earlier rows, T(n,k+1) = 4*T(n,k)+1 (all having the same odd successor under 3x+1 iterations); n, k >= 0; read by falling antidiagonals.",
   "id": "A099730",
   "mentions": [
     "A002450",
     "A072197",
-    "A072261"
+    "A072261",
+    "A075677"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

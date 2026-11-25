@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 2; a(n+1) is the number of preceding bars visible from the top of bar n, where bar k has height a(k).",
+  "id": "A402287",
+  "mentions": [
+    "A398764",
+    "A400000",
+    "A401167",
+    "A402286"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

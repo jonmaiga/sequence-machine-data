@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Index of A077569(n) in A025487.",
+  "id": "A402356",
+  "mentions": [
+    "A025487",
+    "A077569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

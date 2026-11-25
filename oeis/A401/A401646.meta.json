@@ -1,0 +1,19 @@
+{
+  "description": "Total number of symmetric peaks over all Dyck paths of semilength n.",
+  "id": "A401646",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A189176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

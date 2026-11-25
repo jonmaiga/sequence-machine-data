@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = smallest number x such that Mod(sigma(x),n)=k.",
+  "description": "Triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = smallest number x such that sigma(x) == k (mod n).",
   "id": "A074625",
   "mentions": [
     "A000012",

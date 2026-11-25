@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of L'(1,chi_{-3})/L(1,chi_{-3}), where chi_{-3} is the Dirichlet character kronecker(-3,.).",
+  "id": "A402012",
+  "mentions": [
+    "A102283",
+    "A402011"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

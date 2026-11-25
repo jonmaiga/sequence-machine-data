@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of k with 1 <= k <= n/2 such that the product of digits of n is the sum of the product of digits of k and the product of digits of n-k.",
+  "id": "A401862",
+  "mentions": [
+    "A007954",
+    "A400774",
+    "A401802",
+    "A401881"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

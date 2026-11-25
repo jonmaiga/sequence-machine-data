@@ -1,5 +1,5 @@
 {
-  "description": "Indices of prime Fibonacci 5-step numbers, A001591.",
+  "description": "Indices minus 3 of prime Fibonacci 5-step numbers, A001591.",
   "id": "A105756",
   "mentions": [
     "A001591",
@@ -7,12 +7,13 @@
     "A248757"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }
