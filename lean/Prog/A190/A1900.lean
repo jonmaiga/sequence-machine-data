@@ -1482,7 +1482,7 @@ end A190007
 /-!
 # A190008: a(n) = n + [n*r/t] + [n*s/t]; r=1, s=sin(Pi/3), t=csc(Pi/3).
 
-The programs for A190008, the canonical program `A190008.P15330482503549292457` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190008 has offset 1).
+The programs for A190008, the canonical program `A190008.P15330482503549292457` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190008 has offset 1).
 
 The definition of A190008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5774 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1491,7 +1491,7 @@ The definition of A190008 is `conjectured`: the Lean definition is a formula tha
 
 `A047293(n+1)+A008619(A022838(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A190008

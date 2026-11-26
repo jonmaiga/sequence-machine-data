@@ -54,6 +54,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -61,6 +62,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -10822,7 +10824,7 @@ end A166546
 /-!
 # A166547: Primes of the form 100*k+7.
 
-The programs for A166547, the canonical program `A166547.P12175533422904995910` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166547 has offset 1).
+The programs for A166547, the canonical program `A166547.P12175533422904995910` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166547 has offset 1).
 
 The definition of A166547 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A166547.anchor (n : ℕ) (hn : 1 ≤ n) : A166547 n = (Nat.nth (fun p => p.Prime ∧ p % 100 ∈ ({7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A166.A166547`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10831,7 +10833,7 @@ The definition of A166547 is `verified`: an anchor theorem with a hand-written p
 
 `∩[A141882(n+1), A141932(n+1)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166547
@@ -11685,7 +11687,7 @@ end A166549.P7668357127710140479
 /-!
 # A166550: Numbers n with property that n^2 and n-th prime have the same sum of digits.
 
-The programs for A166550, the canonical program `A166550.P9048680061311345364` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166550 has offset 1).
+The programs for A166550, the canonical program `A166550.P9048680061311345364` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166550 has offset 1).
 
 The definition of A166550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11694,7 +11696,7 @@ The definition of A166550 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A004159(n+1), A007605(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A166550
@@ -13935,7 +13937,7 @@ end A166560.P12043916703661342915
 /-!
 # A166561: Primes p such that sum of digits + 1 is prime.
 
-The programs for A166561, the canonical program `A166561.P14281956629878694271` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166561 has offset 1).
+The programs for A166561, the canonical program `A166561.P14281956629878694271` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166561 has offset 1).
 
 The definition of A166561 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2252 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13944,7 +13946,7 @@ The definition of A166561 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A000040(n+1)*A001222(A007605(n+1)+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A166561

@@ -938,7 +938,7 @@ end A156606.P10790550832058328163
 /-!
 # A156607: a(n) = number of odd decimal digits of n-th prime + number of prime decimal digits of n-th prime.
 
-The programs for A156607, the canonical program `A156607.P10129258563701118720` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156607 has offset 1).
+The programs for A156607, the canonical program `A156607.P10129258563701118720` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156607 has offset 1).
 
 The definition of A156607 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -970,7 +970,7 @@ end A156607
 
 `∑{digits}[A000040(n+1), A101660(2*#²-#)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156607
@@ -1300,7 +1300,7 @@ end A156609.P1655350349389639352
 /-!
 # A156611: a(1) = 2, a(n+1) is smallest prime >= a(n)+2*n.
 
-The programs for A156611, the canonical program `A156611.P13062868264229254532` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156611 has offset 1).
+The programs for A156611, the canonical program `A156611.P13062868264229254532` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156611 has offset 1).
 
 The definition of A156611 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1309,7 +1309,7 @@ The definition of A156611 is `conjectured`: the Lean definition is a formula tha
 
 `A151800(a(n-1)+2*n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156611
@@ -11829,7 +11829,7 @@ end A156687.P16034381770077822519
 /-!
 # A156688: The total number of distinct Pythagorean triples with an area numerically equal to n times their perimeters.
 
-The programs for A156688, the canonical program `A156688.P15753806741140365688` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156688 has offset 1).
+The programs for A156688, the canonical program `A156688.P15753806741140365688` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156688 has offset 1).
 
 The definition of A156688 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11861,7 +11861,7 @@ end A156688
 
 `A000005(8*(n+1)²)/2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156688

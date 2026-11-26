@@ -26004,6 +26004,38 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A056308.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A050941.P16076396418149710583
+
+`comp[T(n-1,k)+n-col(n)]` with `a(0)=0`
+-/
+
+namespace A050941.P16076396418149710583
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [0] fun n f1 =>
+  SequenceMachineLib.triUp f1 n + ((n : ℤ) - (SequenceMachineLib.triCol n : ℤ))
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A050941.P16076396418149710583
+
+noncomputable section
+
+/-- A050941: Numbers that are not the sum of consecutive triangular numbers.
+
+Offset 1, canonical program `A050941.P16076396418149710583`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A050941 (n : ℕ) : ℤ :=
+  (A050941.P16076396418149710583.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A050941.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A051066.P11180252852596779216
 
 `∑[(a(floor(n/3))+n)%2]` with `a(0)=0`
@@ -29043,32 +29075,4 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A054897.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A054899.P10770181254942084517
-
-`floor(n/10)+a(floor(n/10))` with `a(0)=0`
--/
-
-namespace A054899.P10770181254942084517
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  ⌊(n : ℚ) / 10⌋ + a ⌊(n : ℚ) / 10⌋.toNat
-
-end
-
-end A054899.P10770181254942084517
-
-noncomputable section
-
-/-- A054899: a(n) = Sum_{k>0} floor(n/10^k).
-
-Offset 0, canonical program `A054899.P10770181254942084517`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A054899 (n : ℕ) : ℤ :=
-  A054899.P10770181254942084517.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A054899.provenance : SequenceMachineLib.Provenance := .conjectured
 

@@ -46,9 +46,10 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4696,7 +4697,7 @@ end A327446.P12177316433118355315
 /-!
 # A327447: a(n) = 4*p(n-1)*p(n+1) - p(n)^2, where p(k) = k-th prime.
 
-The programs for A327447, the canonical program `A327447.P12716650264261087604` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327447 has offset 2).
+The programs for A327447, the canonical program `A327447.P12716650264261087604` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327447 has offset 2).
 
 The definition of A327447 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*A000040(n+1)*A000040(n+3)-A000040(n+2)²` (program `A327447.P12716650264261087604`, by `A327447.P12716650264261087604.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4705,7 +4706,7 @@ The definition of A327447 is `verified`: the Lean definition is proven equivalen
 
 `4*A000040(n+1)*A000040(n+3)-A000040(n+2)²`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327447
@@ -5640,7 +5641,7 @@ end A327460.P17563702288502906204
 /-!
 # A327461: Maximal size of a Binary Decision Diagram (or BDD) of index n.
 
-The programs for A327461, the canonical program `A327461.P12336137143379392535` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327461 has offset 1).
+The programs for A327461, the canonical program `A327461.P12336137143379392535` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327461 has offset 1).
 
 The definition of A327461 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5649,7 +5650,7 @@ The definition of A327461 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n+1-A284248(n+1))+2^2^A284248(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327461
@@ -7687,7 +7688,7 @@ end A327485
 /-!
 # A327486: Product of Omegas of positive integers from 2 to n.
 
-The programs for A327486, the canonical program `A327486.P4612159014744352901` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327486 has offset 1).
+The programs for A327486, the canonical program `A327486.P4612159014744352901` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327486 has offset 1).
 
 The definition of A327486 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7696,7 +7697,7 @@ The definition of A327486 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*A001222(n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327486
@@ -8998,7 +8999,7 @@ end A327491
 /-!
 # A327492: Partial sums of A327491.
 
-The programs for A327492, the canonical program `A327492.P12587166799631753364` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327492 has offset 0).
+The programs for A327492, the canonical program `A327492.P12587166799631753364` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327492 has offset 0).
 
 The definition of A327492 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9007,7 +9008,7 @@ The definition of A327492 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005187(n)+n%2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327492

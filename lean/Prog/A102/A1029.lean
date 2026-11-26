@@ -35,7 +35,7 @@ import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C012
@@ -1745,7 +1745,7 @@ end A102904.P14212392954726216484
 /-!
 # A102905: a(n) = A113655(Fibonacci(n+1)).
 
-The programs for A102905, the canonical program `A102905.P4364024785643774674` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102905 has offset 0).
+The programs for A102905, the canonical program `A102905.P4364024785643774674` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102905 has offset 0).
 
 The definition of A102905 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1777,7 +1777,7 @@ end A102905
 
 `A113655(A000045(n+1))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102905
@@ -2554,7 +2554,7 @@ end A102911.P11333410820913507741
 /-!
 # A102915: Numbers n such that n3 is prime and n is a multiple of 10.
 
-The programs for A102915, the canonical program `A102915.P15611743159972465981` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102915 has offset 1).
+The programs for A102915, the canonical program `A102915.P15611743159972465981` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102915 has offset 1).
 
 The definition of A102915 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2563,7 +2563,7 @@ The definition of A102915 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A101780(1+n)/10)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102915

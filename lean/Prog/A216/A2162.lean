@@ -58,7 +58,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1549,7 +1549,7 @@ end A216220
 /-!
 # A216223: Distance from Fibonacci(n) to the next perfect square.
 
-The programs for A216223, the canonical program `A216223.P10131538684451385599` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216223 has offset 0).
+The programs for A216223, the canonical program `A216223.P10131538684451385599` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216223 has offset 0).
 
 The definition of A216223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 481 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1558,7 +1558,7 @@ The definition of A216223 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(A000045(n)))²-A000045(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216223
@@ -1956,7 +1956,7 @@ end A216225.P11022910426156411988
 /-!
 # A216226: Square array T, read by antidiagonals: T(n,k) = 0 if n-k>=1 or if k-n>=4, T(0,0) = T(0,1) = T(0,2) = T(0,3) = 1, T(n,k) = T(n-1,k) + T(n,k-1).
 
-The programs for A216226, the canonical program `A216226.P5140723602891828750` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216226 has offset 0).
+The programs for A216226, the canonical program `A216226.P5140723602891828750` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216226 has offset 0).
 
 The definition of A216226 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1988,7 +1988,7 @@ end A216226
 
 `(n+1+A078446(2*n+3))%2*(T(n-1,k)+T(n-1,k-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216226
@@ -2161,7 +2161,7 @@ end A216227.P9021595205378531308
 /-!
 # A216228: Square array T, read by antidiagonals: T(n,k) = 0 if n-k>=1 or if k-n>=3, T(0,0) = T(0,1) = T(0,2) = 1, T(n,k) = T(n-1,k) + T(n,k-1).
 
-The programs for A216228, the canonical program `A216228.P9384540618623435211` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216228 has offset 0).
+The programs for A216228, the canonical program `A216228.P9384540618623435211` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216228 has offset 0).
 
 The definition of A216228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2216,7 +2216,7 @@ end A216228
 
 `A216218(A083920(n))-char[2]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216228
@@ -3356,7 +3356,7 @@ end A216237.P3399844325759622155
 /-!
 # A216238: Square array T, read by antidiagonals: T(n,k) = 0 if n-k>=1 or if k-n>=5, T(0,0) = T(0,1) = T(0,2) = T(0,3) = T(0,4) = 1, T(n,k) = T(n-1,k) + T(n,k-1).
 
-The programs for A216238, the canonical program `A216238.P1087461425349367447` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216238 has offset 0).
+The programs for A216238, the canonical program `A216238.P1087461425349367447` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216238 has offset 0).
 
 The definition of A216238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3365,7 +3365,7 @@ The definition of A216238 is `conjectured`: the Lean definition is a formula tha
 
 `A216230(n)+floor(A216216(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216238
@@ -3475,7 +3475,7 @@ end A216238
 /-!
 # A216239: Total number of inversions in all derangement permutations of [n].
 
-The programs for A216239, the canonical program `A216239.P12053647142512293104` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216239 has offset 0).
+The programs for A216239, the canonical program `A216239.P12053647142512293104` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216239 has offset 0).
 
 The definition of A216239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3484,7 +3484,7 @@ The definition of A216239 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((3*n²-n+1)*A000166(n)+(n-1)*(-1)^n)/12`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216239
@@ -4972,7 +4972,7 @@ end A216253.P13529272847372699357
 /-!
 # A216255: Triangle read by rows: T(n,k) is the number of labeled rooted trees of height at most 2 that have exactly k nodes at a distance 2 from the root; n>=1, 0<=k<=n-1.
 
-The programs for A216255, the canonical program `A216255.P12735951631353562339` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216255 has offset 1).
+The programs for A216255, the canonical program `A216255.P12735951631353562339` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216255 has offset 1).
 
 The definition of A216255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3374 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5014,7 +5014,7 @@ end A216255
 
 `A003506(1+n)*A003992(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216255
@@ -6505,7 +6505,7 @@ end A216265.P1524592978062664088
 /-!
 # A216266: Number of primes between n^3 and n^3+n (inclusive).
 
-The programs for A216266, the canonical program `A216266.P3752529895480230407` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216266 has offset 1).
+The programs for A216266, the canonical program `A216266.P3752529895480230407` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216266 has offset 1).
 
 The definition of A216266 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6514,7 +6514,7 @@ The definition of A216266 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720((n+1)^3+n+1)-A000720((n+1)^3)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216266
@@ -7309,7 +7309,7 @@ end A216273.P12262727148517259931
 /-!
 # A216274: Square array A(n,k) = maximal number of regions into which k-space can be divided by n hyperplanes (k >= 1, n >= 0), read by antidiagonals.
 
-The programs for A216274, the canonical program `A216274.P16706916182645282524` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216274 has offset 0).
+The programs for A216274, the canonical program `A216274.P16706916182645282524` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216274 has offset 0).
 
 The definition of A216274 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7341,7 +7341,7 @@ end A216274
 
 `A054124(n)+T(n-1,k-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216274

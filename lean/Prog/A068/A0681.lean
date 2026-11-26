@@ -2281,7 +2281,7 @@ end A068129.P6533472917637092026
 /-!
 # A068130: Triangular numbers with sum of digits = 15.
 
-The programs for A068130, the canonical program `A068130.P8380932321966618756` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068130 has offset 1).
+The programs for A068130, the canonical program `A068130.P8380932321966618756` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068130 has offset 1).
 
 The definition of A068130 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2290,7 +2290,7 @@ The definition of A068130 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[15, A004157(n)])`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A068130
@@ -2577,7 +2577,7 @@ end A068130
 /-!
 # A068131: Triangular numbers with sum of digits = 21.
 
-The programs for A068131, the canonical program `A068131.P296359315164383935` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068131 has offset 1).
+The programs for A068131, the canonical program `A068131.P296359315164383935` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068131 has offset 1).
 
 The definition of A068131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2638,7 +2638,7 @@ end A068131
 
 `A000217(eq[21, A004157(n)])`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A068131
@@ -2711,7 +2711,7 @@ def P1019628545848386249.Spec : Prop :=
 
 theorem P1019628545848386249.correct : P1019628545848386249.Spec := by
   intro n
-  simp only [A068131, Nat.add_sub_cancel, A068131.P1019628545848386249.f1, A068131.P1019628545848386249.f2, A068131.P1019628545848386249.a, A068131.P296359315164383935.f1, A068131.P296359315164383935.f2, A068131.P296359315164383935.a, A000217, A000217.P10269402890581615239.a, A002378, A002378.P6342434596694243671.a, A004157, A004157.P5529880660930307136.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A068131, Nat.add_sub_cancel, A068131.P1019628545848386249.f1, A068131.P1019628545848386249.f2, A068131.P1019628545848386249.a, A068131.P296359315164383935.f1, A068131.P296359315164383935.f2, A068131.P296359315164383935.a, A000217, A000217.P10269402890581615239.a, A002378, A002378.P6342434596694243671.a, A004157, A004157.P5529880660930307136.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -2720,7 +2720,7 @@ end A068131
 /-!
 # A068132: Triangular numbers with sum of digits = 28.
 
-The programs for A068132, the canonical program `A068132.P10501098146319111768` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068132 has offset 1).
+The programs for A068132, the canonical program `A068132.P10501098146319111768` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068132 has offset 1).
 
 The definition of A068132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1185 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2729,7 +2729,7 @@ The definition of A068132 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[28, A004157(n)])`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A068132

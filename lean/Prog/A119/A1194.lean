@@ -4222,7 +4222,7 @@ end A119447.P9351110291308707244
 /-!
 # A119449: Primes with even digit sum.
 
-The programs for A119449, the canonical program `A119449.P14032157784951920134` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119449 has offset 1).
+The programs for A119449, the canonical program `A119449.P14032157784951920134` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119449 has offset 1).
 
 The definition of A119449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4925 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4281,7 +4281,7 @@ end A119449
 
 `p?[A000040(n+1)+A007605(n+1)%2]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A119449

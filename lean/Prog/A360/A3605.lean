@@ -48,6 +48,7 @@ import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,6 +57,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2901,7 +2903,7 @@ end A360539
 /-!
 # A360540: a(n) is the cubefull part of n: the largest divisor of n that is a cubefull number (A036966).
 
-The programs for A360540, the canonical program `A360540.P10431117392450693366` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360540 has offset 1).
+The programs for A360540, the canonical program `A360540.P10431117392450693366` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360540 has offset 1).
 
 The definition of A360540 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A360539, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2910,7 +2912,7 @@ The definition of A360540 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)/A360539(n+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360540
@@ -3364,7 +3366,7 @@ end A360540
 /-!
 # A360541: a(n) is the least number k such that k*n is a cubefull number (A036966).
 
-The programs for A360541, the canonical program `A360541.P12373004355754066143` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360541 has offset 1).
+The programs for A360541, the canonical program `A360541.P12373004355754066143` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360541 has offset 1).
 
 The definition of A360541 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A356193, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3373,7 +3375,7 @@ The definition of A360541 is `conditional`: the Lean definition is an OEIS formu
 
 `A356193(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360541
@@ -6379,7 +6381,7 @@ end A360566.P2567752335616839116
 /-!
 # A360567: Primes p such that the nearest integer to sqrt(p) is also prime.
 
-The programs for A360567, the canonical program `A360567.P16353749552312502386` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360567 has offset 1).
+The programs for A360567, the canonical program `A360567.P16353749552312502386` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360567 has offset 1).
 
 The definition of A360567 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6388,7 +6390,7 @@ The definition of A360567 is `conjectured`: the Lean definition is a formula tha
 
 `p?[∑[2-Δ[A143536(n+1)]]+2]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360567
@@ -6728,7 +6730,7 @@ end A360568.P15156677613267945773
 /-!
 # A360569: a(n) = floor(Product_{k=1..n} log(prime(k))).
 
-The programs for A360569, the canonical program `A360569.P11790034782828991131` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360569 has offset 1).
+The programs for A360569, the canonical program `A360569.P11790034782828991131` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360569 has offset 1).
 
 The definition of A360569 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6737,7 +6739,7 @@ The definition of A360569 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∏[log(A000040(1+n))])`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360569
@@ -7970,7 +7972,7 @@ end A360590.P1980215866385135265
 /-!
 # A360591: Primes in A360464.
 
-The programs for A360591, the canonical program `A360591.P17351996970423497636` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360591 has offset 1).
+The programs for A360591, the canonical program `A360591.P17351996970423497636` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360591 has offset 1).
 
 The definition of A360591 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7979,7 +7981,7 @@ The definition of A360591 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A360464(n+1)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360591

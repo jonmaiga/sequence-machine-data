@@ -2536,7 +2536,7 @@ end A358976
 /-!
 # A358977: Numbers that are coprime to the sum of their primorial base digits (A276150).
 
-The programs for A358977, the canonical program `A358977.P3842764694478648946` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358977 has offset 1).
+The programs for A358977, the canonical program `A358977.P3842764694478648946` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358977 has offset 1).
 
 The definition of A358977 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2574,7 +2574,7 @@ end A358977
 
 `eq[1, gcd(n, A276150(n))]`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358977

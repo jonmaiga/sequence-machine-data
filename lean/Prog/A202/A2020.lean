@@ -47,6 +47,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -6196,7 +6197,7 @@ end A202088.P5945091625729428620
 /-!
 # A202089: Numbers n such that n^2 and (n+1)^2 have same digit sum.
 
-The programs for A202089, the canonical program `A202089.P7430434944876183357` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202089 has offset 1).
+The programs for A202089, the canonical program `A202089.P7430434944876183357` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202089 has offset 1).
 
 The definition of A202089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6234,7 +6235,7 @@ end A202089
 
 `eq[A004159(n+1), A004159(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A202089

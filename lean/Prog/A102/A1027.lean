@@ -50,7 +50,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
@@ -111,7 +110,7 @@ set_option linter.unreachableTactic false
 /-!
 # A102700: Numbers k such that 10*k + 9 is prime.
 
-The programs for A102700, the canonical program `A102700.P373409811137575195` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102700 has offset 1).
+The programs for A102700, the canonical program `A102700.P373409811137575195` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102700 has offset 1).
 
 The definition of A102700 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -120,7 +119,7 @@ The definition of A102700 is `conjectured`: the Lean definition is a formula tha
 
 `A105042(1+n)-1`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102700
@@ -3419,7 +3418,7 @@ end A102715
 /-!
 # A102716: Triangle read by rows: T(n,k) = sigma(binomial(n,k)) (0 <= k <= n), where sigma(m) is the sum of the positive divisors of m.
 
-The programs for A102716, the canonical program `A102716.P17421779357386241539` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102716 has offset 0).
+The programs for A102716, the canonical program `A102716.P17421779357386241539` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102716 has offset 0).
 
 The definition of A102716 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(C(row(n), col(n)))` (program `A102716.P17421779357386241539`, by `A102716.P17421779357386241539.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3428,7 +3427,7 @@ The definition of A102716 is `verified`: the Lean definition is proven equivalen
 
 `A000203(C(row(n), col(n)))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102716
@@ -6017,7 +6016,7 @@ end A102731
 /-!
 # A102732: Primes of the form 13n+5.
 
-The programs for A102732, the canonical program `A102732.P17968271667745353129` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102732 has offset 1).
+The programs for A102732, the canonical program `A102732.P17968271667745353129` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102732 has offset 1).
 
 The definition of A102732 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A102732.anchor (n : ℕ) (hn : 1 ≤ n) : A102732 n = (Nat.nth (fun p => p.Prime ∧ p % 13 ∈ ({5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A102.A102732`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6026,7 +6025,7 @@ The definition of A102732 is `verified`: an anchor theorem with a hand-written p
 
 `∪[A142162(n+1), A142177(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102732
@@ -9634,7 +9633,7 @@ end A102760.P14408440869727380443
 /-!
 # A102761: Same as A000179, except that a(0) = 2.
 
-The programs for A102761, the canonical program `A102761.P3229534643039108365` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102761 has offset 0).
+The programs for A102761, the canonical program `A102761.P3229534643039108365` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102761 has offset 0).
 
 The definition of A102761 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9643,7 +9642,7 @@ The definition of A102761 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A127672(C(n+1, 2)+#)*A000023(#)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102761
@@ -10690,7 +10689,7 @@ end A102767.P5106943424979185012
 /-!
 # A102768: Numbers k such that 23*k + 11 is prime.
 
-The programs for A102768, the canonical program `A102768.P1129723811227511314` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102768 has offset 1).
+The programs for A102768, the canonical program `A102768.P1129723811227511314` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102768 has offset 1).
 
 The definition of A102768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10699,7 +10698,7 @@ The definition of A102768 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A141915(n+1)/23)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102768
@@ -11521,7 +11520,7 @@ end A102780.P3961261715093917821
 /-!
 # A102781: Number of positive even numbers less than the n-th prime.
 
-The programs for A102781, the canonical program `A102781.P207369099020695367` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102781 has offset 1).
+The programs for A102781, the canonical program `A102781.P207369099020695367` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102781 has offset 1).
 
 The definition of A102781 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11530,7 +11529,7 @@ The definition of A102781 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1)-floor(A000040(n+1)/2)-1`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102781

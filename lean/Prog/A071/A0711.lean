@@ -35,9 +35,11 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2236,7 +2238,7 @@ end A071121
 /-!
 # A071122: a(n) = a(n-1) + sum of decimal digits of 2^n.
 
-The programs for A071122, the canonical program `A071122.P15622955886049296024` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071122 has offset 1).
+The programs for A071122, the canonical program `A071122.P15622955886049296024` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071122 has offset 1).
 
 The definition of A071122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2245,7 +2247,7 @@ The definition of A071122 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A001370(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A071122
@@ -2315,6 +2317,12 @@ namespace A071122
 /-- `∑[∑{digits}[2^(n+1), #]]` -/
 def P17637106119339641693.Spec : Prop :=
   ∀ n, (P17637106119339641693.a n : ℤ) = A071122 (n + 1)
+
+theorem P17637106119339641693.correct : P17637106119339641693.Spec := by
+  intro n
+  simp only [A071122, Nat.add_sub_cancel, A071122.P17637106119339641693.f2, A071122.P17637106119339641693.f1, A071122.P17637106119339641693.a, A071122.P15622955886049296024.f1, A071122.P15622955886049296024.a, A001370, A001370.P17131759642291135112.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A071122
 

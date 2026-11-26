@@ -51,13 +51,11 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
@@ -70,7 +68,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C004
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -11836,7 +11834,7 @@ end A302598.P5230708858312147042
 /-!
 # A302599: Numbers k such that digit_sum(k) > digit_sum(2k).
 
-The programs for A302599, the canonical program `A302599.P10102814595459792599` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302599 has offset 1).
+The programs for A302599, the canonical program `A302599.P10102814595459792599` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302599 has offset 1).
 
 The definition of A302599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4604 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11845,7 +11843,7 @@ The definition of A302599 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A004092(n), A007953(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A302599
@@ -12009,6 +12007,12 @@ namespace A302599
 def P9162177914284459964.Spec : Prop :=
   ∀ n, (P9162177914284459964.a n : ℤ) = A302599 (n + 1)
 
+theorem P9162177914284459964.correct : P9162177914284459964.Spec := by
+  intro n
+  simp only [A302599, Nat.add_sub_cancel, A302599.P9162177914284459964.f1, A302599.P9162177914284459964.f3, A302599.P9162177914284459964.f2, A302599.P9162177914284459964.a, A302599.P10102814595459792599.f1, A302599.P10102814595459792599.f2, A302599.P10102814595459792599.a, A004092, A004092.P17027968154304682565.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A302599
 
 /-! ## A302599.P8077522320129972547
@@ -12040,7 +12044,7 @@ def P8077522320129972547.Spec : Prop :=
 
 theorem P8077522320129972547.correct : P8077522320129972547.Spec := by
   intro n
-  simp only [A302599, Nat.add_sub_cancel, A302599.P8077522320129972547.f1, A302599.P8077522320129972547.f2, A302599.P8077522320129972547.a, A302599.P10102814595459792599.f1, A302599.P10102814595459792599.f2, A302599.P10102814595459792599.a, A004092, A004092.P17027968154304682565.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A302599, Nat.add_sub_cancel, A302599.P8077522320129972547.f1, A302599.P8077522320129972547.f2, A302599.P8077522320129972547.a, A302599.P10102814595459792599.f1, A302599.P10102814595459792599.f2, A302599.P10102814595459792599.a, A004092, A004092.P17027968154304682565.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

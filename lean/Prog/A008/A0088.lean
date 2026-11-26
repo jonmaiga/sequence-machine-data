@@ -10673,7 +10673,7 @@ end A008835
 
 The programs for A008836, the canonical program `A008836.P691704047226663751` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008836 has offset 1).
 
-The definition of A008836 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008836 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008836.anchor (n : ℕ) (hn : 1 ≤ n) : A008836 n = (-1) ^ ArithmeticFunction.cardFactors n` in `Proof.A008.A008836`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008836.P5894594435870694106

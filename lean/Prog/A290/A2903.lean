@@ -47,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
@@ -364,7 +365,7 @@ end A290305.P6748281314804759412
 /-!
 # A290306: Number of permutations of the multiset {1,1,2,2,...,2n,2n} having exactly n ascents and no number smaller than k between the two occurrences of any number k.
 
-The programs for A290306, the canonical program `A290306.P12430961846037324966` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290306 has offset 0).
+The programs for A290306, the canonical program `A290306.P12430961846037324966` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290306 has offset 0).
 
 The definition of A290306 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A201637, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -373,7 +374,7 @@ The definition of A290306 is `conditional`: the Lean definition is an OEIS formu
 
 `A201637(C(2*n+1, 2)+n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290306
@@ -4729,7 +4730,7 @@ end A290379
 /-!
 # A290380: Analog of Motzkin sums for Coxeter type D.
 
-The programs for A290380, the canonical program `A290380.P2092588369032190990` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290380 has offset 3).
+The programs for A290380, the canonical program `A290380.P2092588369032190990` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290380 has offset 3).
 
 The definition of A290380 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4738,7 +4739,7 @@ The definition of A290380 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A001006(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290380

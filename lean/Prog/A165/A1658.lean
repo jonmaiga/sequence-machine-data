@@ -40,9 +40,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
@@ -20473,7 +20471,7 @@ end A165867
 /-!
 # A165868: Totally multiplicative sequence with a(p) = 47.
 
-The programs for A165868, the canonical program `A165868.P14978725313786192994` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165868 has offset 1).
+The programs for A165868, the canonical program `A165868.P14978725313786192994` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165868 has offset 1).
 
 The definition of A165868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20505,7 +20503,7 @@ end A165868
 
 `A009991(A001222(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A165868
@@ -20624,7 +20622,7 @@ end A165868
 /-!
 # A165869: Totally multiplicative sequence with a(p) = 48.
 
-The programs for A165869, the canonical program `A165869.P11993690607599438549` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165869 has offset 1).
+The programs for A165869, the canonical program `A165869.P11993690607599438549` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165869 has offset 1).
 
 The definition of A165869 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20656,7 +20654,7 @@ end A165869
 
 `A009992(A001222(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A165869
@@ -21100,7 +21098,7 @@ end A165869
 /-!
 # A165870: Totally multiplicative sequence with a(p) = 49.
 
-The programs for A165870, the canonical program `A165870.P12113986638084041405` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165870 has offset 1).
+The programs for A165870, the canonical program `A165870.P12113986638084041405` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165870 has offset 1).
 
 The definition of A165870 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21132,7 +21130,7 @@ end A165870
 
 `A087752(A001222(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A165870
@@ -21579,7 +21577,7 @@ end A165870
 /-!
 # A165871: Totally multiplicative sequence with a(p) = 50.
 
-The programs for A165871, the canonical program `A165871.P13269622015636055377` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165871 has offset 1).
+The programs for A165871, the canonical program `A165871.P13269622015636055377` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165871 has offset 1).
 
 The definition of A165871 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21611,7 +21609,7 @@ end A165871
 
 `A165800(A001222(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A165871
@@ -21960,7 +21958,7 @@ end A165871
 /-!
 # A165872: Totally multiplicative sequence with a(p^e) = (-2)^e.
 
-The programs for A165872, the canonical program `A165872.P161038239831318740` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165872 has offset 1).
+The programs for A165872, the canonical program `A165872.P161038239831318740` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165872 has offset 1).
 
 The definition of A165872 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21992,7 +21990,7 @@ end A165872
 
 `A122803(A001222(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A165872

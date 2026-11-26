@@ -10,7 +10,7 @@ import Seq.B000.C048
 import Seq.B000.C051
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -1463,7 +1463,7 @@ end A402290.P1315535548524899535
 /-!
 # A402292: Maximum number of regions that can be formed in the plane by drawing n noncrossing unit circles.
 
-The programs for A402292, the canonical program `A402292.P139546155512675331` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402292 has offset 0).
+The programs for A402292, the canonical program `A402292.P139546155512675331` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402292 has offset 0).
 
 The definition of A402292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1472,7 +1472,7 @@ The definition of A402292 is `conjectured`: the Lean definition is a formula tha
 
 `A047931(n)+a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A402292

@@ -29,6 +29,7 @@ import Seq.B000.C039
 import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B001.C000
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
@@ -38,13 +39,14 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C003
+import Seq.B003.C005
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -3422,16 +3424,16 @@ end A352373
 /-!
 # A352375: Sum of digits of A007618.
 
-The programs for A352375, the canonical program `A352375.P700649589614720325` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352375 has offset 1).
+The programs for A352375, the canonical program `A352375.P700649589614720325` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352375 has offset 1).
 
-The definition of A352375 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007618, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A352375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A352375.P700649589614720325
 
 `A007618(n+2)-A007618(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A352375
@@ -3579,7 +3581,7 @@ def P12492811578074509758.Spec : Prop :=
 
 theorem P12492811578074509758.correct : P12492811578074509758.Spec := by
   intro n
-  simp only [A352375, Nat.add_sub_cancel, A352375.P12492811578074509758.f1, A352375.P12492811578074509758.a, A352375.P700649589614720325.a, A007618, A007618.P6018863421737465196.a, A062028, A062028.P8420805724104474199.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A352375, Nat.add_sub_cancel, A352375.P12492811578074509758.f1, A352375.P12492811578074509758.a, A352375.P700649589614720325.a, A007618, A007618.P6018863421737465196.a, A062028, A062028.P8420805724104474199.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

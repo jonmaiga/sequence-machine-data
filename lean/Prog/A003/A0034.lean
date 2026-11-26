@@ -2962,7 +2962,7 @@ end A003414.P4803936292061751259
 
 The programs for A003415, the canonical program `A003415.P13310047267010681054` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003415 has offset 0).
 
-The definition of A003415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A003415 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A003415.anchor : A003415 0 = 0 ∧ A003415 1 = 0 ∧ (∀ p : ℕ, p.Prime → A003415 p = 1) ∧ ∀ m n : ℕ, A003415 (m * n) = m * A003415 n + n * A003415 m` in `Proof.A003.A003415`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A003415.P13310047267010681054

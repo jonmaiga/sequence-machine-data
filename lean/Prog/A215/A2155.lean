@@ -5124,7 +5124,7 @@ end A215544
 /-!
 # A215545: Number of standard Young tableaux of shape [5*n,5].
 
-The programs for A215545, the canonical program `A215545.P11920796599783061454` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215545 has offset 0).
+The programs for A215545, the canonical program `A215545.P11920796599783061454` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215545 has offset 0).
 
 The definition of A215545 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5133,7 +5133,7 @@ The definition of A215545 is `conjectured`: the Lean definition is a formula tha
 
 `record[A000389(5*n)-A000332(5*n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A215545

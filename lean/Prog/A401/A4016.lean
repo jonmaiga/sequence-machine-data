@@ -29,7 +29,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C013
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
@@ -1530,7 +1530,7 @@ end A401673.P6702494517805093943
 /-!
 # A401674: a(n) = Sum_{k=1..n} k*(-1)^pi(k), where pi = A000720.
 
-The programs for A401674, the canonical program `A401674.P12182739136436178416` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401674 has offset 0).
+The programs for A401674, the canonical program `A401674.P12182739136436178416` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401674 has offset 0).
 
 The definition of A401674 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1539,7 +1539,7 @@ The definition of A401674 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+n*(-1)^A000720(n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401674
@@ -1960,7 +1960,7 @@ end A401691
 /-!
 # A401693: Number of ways to cut a nonempty Dyck word into a prefix and a suffix with both lengths at most n and of the same parity as n.
 
-The programs for A401693, the canonical program `A401693.P15368255342229218036` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401693 has offset 1).
+The programs for A401693, the canonical program `A401693.P15368255342229218036` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401693 has offset 1).
 
 The definition of A401693 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1969,7 +1969,7 @@ The definition of A401693 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (1+min(#+1-(n+1)%2, n+1-(#+1)))*A000108(#+1)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401693

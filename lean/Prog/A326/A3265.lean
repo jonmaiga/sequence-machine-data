@@ -47,7 +47,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -6669,7 +6669,7 @@ end A326582.P15685574078054911404
 /-!
 # A326583: Integers k >= 0 such that 2*k + 1 is prime or square.
 
-The programs for A326583, the canonical program `A326583.P3832413435923284178` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326583 has offset 1).
+The programs for A326583, the canonical program `A326583.P3832413435923284178` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326583 has offset 1).
 
 The definition of A326583 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6678,7 +6678,7 @@ The definition of A326583 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A326581(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A326583

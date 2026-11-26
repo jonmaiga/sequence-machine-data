@@ -42,6 +42,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C014
@@ -4399,7 +4400,7 @@ end A157528
 /-!
 # A157529: Composite numbers whose first digit is equal to the sum of all the other digits.
 
-The programs for A157529, the canonical program `A157529.P6599670001113276478` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157529 has offset 1).
+The programs for A157529, the canonical program `A157529.P6599670001113276478` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157529 has offset 1).
 
 The definition of A157529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 451 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4434,7 +4435,7 @@ end A157529
 
 `filter[A193772(n+2), A066247(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A157529

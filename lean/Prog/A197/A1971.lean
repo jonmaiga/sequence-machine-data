@@ -34,7 +34,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -1166,7 +1165,7 @@ end A197122.P5514844025844611024
 /-!
 # A197125: Numbers such that sum of digits and sum of the square of digits are both a square.
 
-The programs for A197125, the canonical program `A197125.P18255023952800122517` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197125 has offset 1).
+The programs for A197125, the canonical program `A197125.P18255023952800122517` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197125 has offset 1).
 
 The definition of A197125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 499 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1175,7 +1174,7 @@ The definition of A197125 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A028839(n+1), A175396(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A197125
@@ -1595,7 +1594,7 @@ end A197128.P12894553878543015210
 /-!
 # A197129: Numbers such that the sum, sum of the squares, and sum of the cubes of the decimal digits are each a perfect square.
 
-The programs for A197129, the canonical program `A197129.P9586474388136463062` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197129 has offset 1).
+The programs for A197129, the canonical program `A197129.P9586474388136463062` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197129 has offset 1).
 
 The definition of A197129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1634,7 +1633,7 @@ end A197129
 
 `∩[A197039(n+1), A197125(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A197129

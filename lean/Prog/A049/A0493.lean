@@ -57,7 +57,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -3779,7 +3778,7 @@ end A049342
 /-!
 # A049343: Numbers m such that 2m and m^2 have same digit sum.
 
-The programs for A049343, the canonical program `A049343.P4245191771258133539` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049343 has offset 1).
+The programs for A049343, the canonical program `A049343.P4245191771258133539` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049343 has offset 1).
 
 The definition of A049343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3788,7 +3787,7 @@ The definition of A049343 is `conjectured`: the Lean definition is a formula tha
 
 `eq[∑{digits}[n², #], A004092(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A049343
@@ -3887,6 +3886,12 @@ namespace A049343
 /-- `eq[A004159(n), A007953(2*n)]` -/
 def P8861976928018882420.Spec : Prop :=
   ∀ n, (P8861976928018882420.a n : ℤ) = A049343 (n + 1)
+
+theorem P8861976928018882420.correct : P8861976928018882420.Spec := by
+  intro n
+  simp only [A049343, Nat.add_sub_cancel, A049343.P8861976928018882420.f1, A049343.P8861976928018882420.f2, A049343.P8861976928018882420.a, A049343.P4245191771258133539.f2, A049343.P4245191771258133539.f1, A049343.P4245191771258133539.f3, A049343.P4245191771258133539.a, A004092, A004092.P17027968154304682565.a, A004159, A004159.P12894520007403696170.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A049343
 

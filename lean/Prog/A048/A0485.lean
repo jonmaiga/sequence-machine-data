@@ -49,11 +49,11 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -3400,7 +3400,7 @@ end A048516.P15828692090642414120
 /-!
 # A048517: Primes whose sum of digits is the perfect number 28.
 
-The programs for A048517, the canonical program `A048517.P16047989077348899026` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048517 has offset 1).
+The programs for A048517, the canonical program `A048517.P16047989077348899026` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048517 has offset 1).
 
 The definition of A048517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5550 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3409,7 +3409,7 @@ The definition of A048517 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A062336(n+1), A117674(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A048517
@@ -3719,7 +3719,7 @@ end A048517
 /-!
 # A048519: Prime plus its digit sum equals a prime.
 
-The programs for A048519, the canonical program `A048519.P10135432408505313688` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048519 has offset 1).
+The programs for A048519, the canonical program `A048519.P10135432408505313688` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048519 has offset 1).
 
 The definition of A048519 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3728,7 +3728,7 @@ The definition of A048519 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A047791(n+1)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A048519
@@ -8507,7 +8507,7 @@ end A048571
 /-!
 # A048572: a(n) = sum of digits of a(n-1)*a(n-2).
 
-The programs for A048572, the canonical program `A048572.P13017132504727043006` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048572 has offset 1).
+The programs for A048572, the canonical program `A048572.P13017132504727043006` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048572 has offset 1).
 
 The definition of A048572 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8516,7 +8516,7 @@ The definition of A048572 is `conjectured`: the Lean definition is a formula tha
 
 `A007953(a(n-1)*a(n-2))` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A048572

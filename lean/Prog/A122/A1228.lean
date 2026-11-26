@@ -4210,7 +4210,7 @@ end A122831.P4596053905189738972
 /-!
 # A122832: Exponential Riordan array (e^(x(1+x)),x).
 
-The programs for A122832, the canonical program `A122832.P5038475168336746423` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122832 has offset 0).
+The programs for A122832, the canonical program `A122832.P5038475168336746423` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122832 has offset 0).
 
 The definition of A122832 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4219,7 +4219,7 @@ The definition of A122832 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(row(n), col(n))*A047974(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122832
@@ -4306,7 +4306,7 @@ end A122832
 /-!
 # A122833: Exponential Riordan array (e^(-x(1+x)),x).
 
-The programs for A122833, the canonical program `A122833.P6067438618774959258` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122833 has offset 0).
+The programs for A122833, the canonical program `A122833.P6067438618774959258` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122833 has offset 0).
 
 The definition of A122833 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5362 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4361,7 +4361,7 @@ end A122833
 
 `A007318(n)*A000321(A025581(n))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122833
@@ -6375,7 +6375,7 @@ end A122849.P7243770786492063889
 /-!
 # A122850: Exponential Riordan array (1, sqrt(1+2x)-1).
 
-The programs for A122850, the canonical program `A122850.P1955677665369920197` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122850 has offset 0).
+The programs for A122850, the canonical program `A122850.P1955677665369920197` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122850 has offset 0).
 
 The definition of A122850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6384,7 +6384,7 @@ The definition of A122850 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(row(n)-col(n))*A132062(C(row(n)+1, 2)+col(n))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122850
@@ -8931,7 +8931,7 @@ end A122859.P10491562036423234148
 /-!
 # A122860: Expansion of (1 - phi(-q)^3 / phi(-q^3)) / 6 in powers of q where phi() is a Ramanujan theta function.
 
-The programs for A122860, the canonical program `A122860.P11540737575163240451` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122860 has offset 1).
+The programs for A122860, the canonical program `A122860.P11540737575163240451` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122860 has offset 1).
 
 The definition of A122860 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9366,7 +9366,7 @@ end A122860
 
 `∑{d}[n+1, A033999(#-1)*A049347((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122860
@@ -10609,7 +10609,7 @@ end A122865
 /-!
 # A122868: Expansion of 1/sqrt(1-6x-3x^2).
 
-The programs for A122868, the canonical program `A122868.P7859022551861563258` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122868 has offset 0).
+The programs for A122868, the canonical program `A122868.P7859022551861563258` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122868 has offset 0).
 
 The definition of A122868 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10618,7 +10618,7 @@ The definition of A122868 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[n, C(n, #)*A084609(#)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122868
@@ -12196,7 +12196,7 @@ end A122871
 /-!
 # A122872: Table by antidiagonals, T(n,k) is k-th number that starts with n in binary representation.
 
-The programs for A122872, the canonical program `A122872.P183094974031716195` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122872 has offset 1).
+The programs for A122872, the canonical program `A122872.P183094974031716195` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122872 has offset 1).
 
 The definition of A122872 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12228,7 +12228,7 @@ end A122872
 
 `row(n)-col(n)+1+col(n)*A053644(row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122872
@@ -13062,7 +13062,7 @@ end A122879
 /-!
 # A122880: Catalan numbers minus odd-indexed Fibonacci numbers.
 
-The programs for A122880, the canonical program `A122880.P9603902106566322994` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122880 has offset 1).
+The programs for A122880, the canonical program `A122880.P9603902106566322994` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122880 has offset 1).
 
 The definition of A122880 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13071,7 +13071,7 @@ The definition of A122880 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n+1)-A001519(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122880

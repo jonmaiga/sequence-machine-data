@@ -33,6 +33,7 @@ import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -3258,7 +3259,7 @@ end A401974.P1261240219605914251
 /-!
 # A401979: Number of tilings of a strip of length n using squares (length 1) and dominoes (length 2) such that the number of dominoes is a Fibonacci number.
 
-The programs for A401979, the canonical program `A401979.P11378696931870036672` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401979 has offset 0).
+The programs for A401979, the canonical program `A401979.P11378696931870036672` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401979 has offset 0).
 
 The definition of A401979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 408 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3267,7 +3268,7 @@ The definition of A401979 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[floor(n/2), C(n-#, #)*A010056(#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401979

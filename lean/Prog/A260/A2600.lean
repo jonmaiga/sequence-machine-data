@@ -33,10 +33,12 @@ import Seq.B000.C048
 import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1300,7 +1302,7 @@ end A260021.P11057161395733360902
 /-!
 # A260022: A bisection of A006921.
 
-The programs for A260022, the canonical program `A260022.P9051072500523275687` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260022 has offset 0).
+The programs for A260022, the canonical program `A260022.P9051072500523275687` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260022 has offset 0).
 
 The definition of A260022 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006921, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1309,7 +1311,7 @@ The definition of A260022 is `conditional`: the Lean definition is an OEIS formu
 
 `A006921(2*n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260022
@@ -3918,7 +3920,7 @@ end A260074
 /-!
 # A260076: Cyclotomic polynomial value Phi(9,n!).
 
-The programs for A260076, the canonical program `A260076.P13301301169531904052` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260076 has offset 0).
+The programs for A260076, the canonical program `A260076.P13301301169531904052` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260076 has offset 0).
 
 The definition of A260076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3927,7 +3929,7 @@ The definition of A260076 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A060883(n!)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260076
@@ -3997,7 +3999,7 @@ end A260076
 /-!
 # A260077: Cyclotomic polynomial value Phi(10,n!).
 
-The programs for A260077, the canonical program `A260077.P8889522141968118746` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260077 has offset 0).
+The programs for A260077, the canonical program `A260077.P8889522141968118746` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260077 has offset 0).
 
 The definition of A260077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4006,7 +4008,7 @@ The definition of A260077 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A060884(n!)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260077
@@ -5025,7 +5027,7 @@ end A260089
 /-!
 # A260090: Maximum number of kings on an n X n chessboard such that no king attacks more than one other king.
 
-The programs for A260090, the canonical program `A260090.P12332897358441787934` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260090 has offset 1).
+The programs for A260090, the canonical program `A260090.P12332897358441787934` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260090 has offset 1).
 
 The definition of A260090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5034,7 +5036,7 @@ The definition of A260090 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+n+1-A103469(n-1)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260090

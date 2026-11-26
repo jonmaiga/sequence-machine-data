@@ -52,9 +52,8 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -7363,7 +7362,7 @@ end A254065
 /-!
 # A254066: Primitive numbers n such that the sums of the digits of n and n^2 coincide.
 
-The programs for A254066, the canonical program `A254066.P6804668024201466388` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254066 has offset 1).
+The programs for A254066, the canonical program `A254066.P6804668024201466388` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254066 has offset 1).
 
 The definition of A254066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7372,7 +7371,7 @@ The definition of A254066 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A058369(n+1), A067251(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A254066

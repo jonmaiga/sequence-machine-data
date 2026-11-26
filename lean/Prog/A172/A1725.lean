@@ -44,7 +44,6 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -471,7 +470,7 @@ end A172501
 /-!
 # A172502: Denominator of fraction whose decimal representation has form 0.(n)(n)(n)...with repeating part n.
 
-The programs for A172502, the canonical program `A172502.P9043156190337301137` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172502 has offset 1).
+The programs for A172502, the canonical program `A172502.P9043156190337301137` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172502 has offset 1).
 
 The definition of A172502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -503,7 +502,7 @@ end A172502
 
 `lcm(n+1, A061601(n+1)+n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A172502
@@ -2359,7 +2358,7 @@ end A172521.P1368465950538284273
 /-!
 # A172522: Partial sums of A049094.
 
-The programs for A172522, the canonical program `A172522.P1128498458656736197` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172522 has offset 1).
+The programs for A172522, the canonical program `A172522.P1128498458656736197` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172522 has offset 1).
 
 The definition of A172522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 295 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2368,7 +2367,7 @@ The definition of A172522 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A049094(1+n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A172522

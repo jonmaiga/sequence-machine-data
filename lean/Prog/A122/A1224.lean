@@ -7559,7 +7559,7 @@ end A122479.P916318007775958036
 /-!
 # A122481: a(n) = if n < 10 then n else a(digitsum(n)) + digitsum(n), where digitsum(n) = A007953(n), the sum of digits in decimal representation of n.
 
-The programs for A122481, the canonical program `A122481.P10813076060662499941` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122481 has offset 0).
+The programs for A122481, the canonical program `A122481.P10813076060662499941` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122481 has offset 0).
 
 The definition of A122481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7568,7 +7568,7 @@ The definition of A122481 is `conjectured`: the Lean definition is a formula tha
 
 `A381964(n)+A010888(n)-n`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A122481

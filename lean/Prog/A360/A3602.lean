@@ -51,6 +51,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -733,7 +734,7 @@ end A360205.P17893709210849445718
 /-!
 # A360206: Triangular array T(m,n) read by antidiagonals: T(m,n) = prime(m+n) - prime(m) - prime(n).
 
-The programs for A360206, the canonical program `A360206.P6852221114332340223` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360206 has offset 1).
+The programs for A360206, the canonical program `A360206.P6852221114332340223` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360206 has offset 1).
 
 The definition of A360206 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(row(n)+1+col(n)+1)-A000040(row(n)+1)-A000040(col(n)+1)` (program `A360206.P6852221114332340223`, by `A360206.P6852221114332340223.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -742,7 +743,7 @@ The definition of A360206 is `verified`: the Lean definition is proven equivalen
 
 `A000040(row(n)+1+col(n)+1)-A000040(row(n)+1)-A000040(col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360206
@@ -760,7 +761,7 @@ end A360206
 /-!
 # A360208: Triangular array T(n,k) read by antidiagonals T(n,k) = F(n)!/(F(k)!*F(n-k)!), where F(m) = A000045(m) = m-th Fibonacci number.
 
-The programs for A360208, the canonical program `A360208.P16788798629949438644` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360208 has offset 0).
+The programs for A360208, the canonical program `A360208.P16788798629949438644` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360208 has offset 0).
 
 The definition of A360208 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -769,7 +770,7 @@ The definition of A360208 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000045(row(n))!/(A000045(col(n))!*A000045(row(n)-col(n))!)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360208
@@ -4070,7 +4071,7 @@ end A360269.P16336970372702900024
 /-!
 # A360271: a(n) = Sum_{k=0..floor(n/4)} (-1)^k * binomial(n-3*k,k) * Catalan(n-3*k).
 
-The programs for A360271, the canonical program `A360271.P15960655669518817293` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360271 has offset 0).
+The programs for A360271, the canonical program `A360271.P15960655669518817293` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360271 has offset 0).
 
 The definition of A360271 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[floor(n/4), (-1)^#*C(n-3*#, #)*A000108(n-3*#)]` (program `A360271.P15960655669518817293`, by `A360271.P15960655669518817293.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4079,7 +4080,7 @@ The definition of A360271 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[floor(n/4), (-1)^#*C(n-3*#, #)*A000108(n-3*#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360271
@@ -4166,7 +4167,7 @@ end A360271
 /-!
 # A360272: a(n) = Sum_{k=0..floor(n/4)} binomial(n-3*k,k) * Catalan(n-3*k).
 
-The programs for A360272, the canonical program `A360272.P4520247131545780493` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360272 has offset 0).
+The programs for A360272, the canonical program `A360272.P4520247131545780493` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360272 has offset 0).
 
 The definition of A360272 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[floor(n/4), C(n-3*#, #)*A000108(n-3*#)]` (program `A360272.P4520247131545780493`, by `A360272.P4520247131545780493.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4175,7 +4176,7 @@ The definition of A360272 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[floor(n/4), C(n-3*#, #)*A000108(n-3*#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360272
@@ -4239,7 +4240,7 @@ end A360272
 /-!
 # A360273: a(n) = Sum_{k=0..floor(n/2)} Catalan(n-2*k).
 
-The programs for A360273, the canonical program `A360273.P10164413131423928757` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360273 has offset 0).
+The programs for A360273, the canonical program `A360273.P10164413131423928757` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360273 has offset 0).
 
 The definition of A360273 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[floor(n/2), A000108(n-2*#)]` (program `A360273.P10164413131423928757`, by `A360273.P10164413131423928757.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4248,7 +4249,7 @@ The definition of A360273 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[floor(n/2), A000108(n-2*#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360273
@@ -4743,7 +4744,7 @@ end A360273
 /-!
 # A360274: a(n) = Sum_{k=0..floor(n/3)} Catalan(n-3*k).
 
-The programs for A360274, the canonical program `A360274.P54757150428074867` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360274 has offset 0).
+The programs for A360274, the canonical program `A360274.P54757150428074867` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360274 has offset 0).
 
 The definition of A360274 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[floor(n/3), A000108(n-3*#)]` (program `A360274.P54757150428074867`, by `A360274.P54757150428074867.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4752,7 +4753,7 @@ The definition of A360274 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[floor(n/3), A000108(n-3*#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360274
@@ -5791,7 +5792,7 @@ end A360280
 /-!
 # A360282: Triangle read by rows. T(n, k) = (1/2) * binomial(2*(n - k + 1), n - k + 1) * binomial(2*n - k, k - 1) for n > 0, T(0, 0) = 1.
 
-The programs for A360282, the canonical program `A360282.P12012788412935324034` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360282 has offset 0).
+The programs for A360282, the canonical program `A360282.P12012788412935324034` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360282 has offset 0).
 
 The definition of A360282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5800,7 +5801,7 @@ The definition of A360282 is `conjectured`: the Lean definition is a formula tha
 
 `A092392(n)*A198321(n)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360282

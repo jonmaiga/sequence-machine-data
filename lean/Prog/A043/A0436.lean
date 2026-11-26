@@ -4787,7 +4787,7 @@ end A043652.P17448410377166524556
 /-!
 # A043657: Numbers whose base-13 representation has exactly 2 runs.
 
-The programs for A043657, the canonical program `A043657.P15373386044399632815` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043657 has offset 1).
+The programs for A043657, the canonical program `A043657.P15373386044399632815` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043657 has offset 1).
 
 The definition of A043657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 570 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4796,7 +4796,7 @@ The definition of A043657 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A043565(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A043657

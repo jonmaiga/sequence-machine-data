@@ -32,7 +32,7 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C011
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
@@ -405,7 +405,7 @@ end A399430
 /-!
 # A399431: a(n) = (2^prime(n) - 2)/prime(n) + 2.
 
-The programs for A399431, the canonical program `A399431.P9696602572664343429` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399431 has offset 1).
+The programs for A399431, the canonical program `A399431.P9696602572664343429` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399431 has offset 1).
 
 The definition of A399431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -414,7 +414,7 @@ The definition of A399431 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^A000040(n+1)-2)/A000040(n+1)+2`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399431

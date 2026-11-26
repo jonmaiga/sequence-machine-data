@@ -576,7 +576,7 @@ end A291905.P702897827957523266
 /-!
 # A291907: Numbers such that the nonzero digits in the base 3 expansion consists of two 1s and one 2.
 
-The programs for A291907, the canonical program `A291907.P1519353443668877122` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291907 has offset 1).
+The programs for A291907, the canonical program `A291907.P1519353443668877122` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291907 has offset 1).
 
 The definition of A291907 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 360 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -585,7 +585,7 @@ The definition of A291907 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A023693(n+1), A023699(n+1)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291907
@@ -2880,7 +2880,7 @@ end A291932.P6502275473876104674
 /-!
 # A291933: a(1)=2; a(n) is the sum of prime(n) and the last digit of previous term.
 
-The programs for A291933, the canonical program `A291933.P13043895663212954923` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291933 has offset 1).
+The programs for A291933, the canonical program `A291933.P13043895663212954923` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291933 has offset 1).
 
 The definition of A291933 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2889,7 +2889,7 @@ The definition of A291933 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1)+a(n-1)%10` with `a(0)=2`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291933
@@ -3736,7 +3736,7 @@ end A291941.P4589148527017066602
 /-!
 # A291943: a(0)=0; for n>0, a(n) = (2n)-th digit after the decimal point in the decimal expansion of 1/(2n+1).
 
-The programs for A291943, the canonical program `A291943.P17363246763667408643` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291943 has offset 0).
+The programs for A291943, the canonical program `A291943.P17363246763667408643` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291943 has offset 0).
 
 The definition of A291943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3745,7 +3745,7 @@ The definition of A291943 is `conjectured`: the Lean definition is a formula tha
 
 `A369841(2*n+1)-A000007(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291943
@@ -3809,7 +3809,7 @@ end A291943
 /-!
 # A291945: Powers of 1111.
 
-The programs for A291945, the canonical program `A291945.P15300096953576282081` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291945 has offset 0).
+The programs for A291945, the canonical program `A291945.P15300096953576282081` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291945 has offset 0).
 
 The definition of A291945 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3818,7 +3818,7 @@ The definition of A291945 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001020(n)*A096884(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291945

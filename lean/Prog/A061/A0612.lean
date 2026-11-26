@@ -2851,7 +2851,7 @@ end A061213
 /-!
 # A061214: Product of composite numbers between the n-th and (n+1)st primes.
 
-The programs for A061214, the canonical program `A061214.P7723433899822060398` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061214 has offset 1).
+The programs for A061214, the canonical program `A061214.P7723433899822060398` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061214 has offset 1).
 
 The definition of A061214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 216 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2883,7 +2883,7 @@ end A061214
 
 `A072472(n+1)/p?[A004273(n)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A061214

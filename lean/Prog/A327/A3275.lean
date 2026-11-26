@@ -44,6 +44,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -7305,7 +7306,7 @@ end A327566.P1609171511767860133
 /-!
 # A327567: Number of r X s rectangles with squarefree side lengths such that r <= s, r + s = 2n and r | s.
 
-The programs for A327567, the canonical program `A327567.P2058715740768295756` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327567 has offset 1).
+The programs for A327567, the canonical program `A327567.P2058715740768295756` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327567 has offset 1).
 
 The definition of A327567 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7314,7 +7315,7 @@ The definition of A327567 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008966(2*(n+1)-#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327567
@@ -8449,7 +8450,7 @@ end A327572.P1527236250550158531
 /-!
 # A327573: Partial sums of the number of infinitary divisors function: a(n) = Sum_{k=1..n} id(k), where id is A037445.
 
-The programs for A327573, the canonical program `A327573.P16422618072216358095` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327573 has offset 1).
+The programs for A327573, the canonical program `A327573.P16422618072216358095` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327573 has offset 1).
 
 The definition of A327573 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8655,7 +8656,7 @@ end A327573
 
 `∑[A000079(∑{e}[n+1, #-val(#!, 2)])]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327573

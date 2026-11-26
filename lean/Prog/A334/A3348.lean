@@ -53,11 +53,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4086,7 +4084,7 @@ end A334853.P9518101291245141934
 /-!
 # A334854: E.g.f. A(x) satisfies: A(x) = arctan(x * exp(A(x))).
 
-The programs for A334854, the canonical program `A334854.P9741004309680087151` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334854 has offset 1).
+The programs for A334854, the canonical program `A334854.P9741004309680087151` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334854 has offset 1).
 
 The definition of A334854 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049218, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4095,7 +4093,7 @@ The definition of A334854 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{#}[n, A049218(C(n+1, 2)+#+1)*(n+1)^#]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A334854
@@ -6014,7 +6012,7 @@ end A334878.P5823529239318542873
 /-!
 # A334880: Numbers k such that gcd(k, k-th composite number) > 1.
 
-The programs for A334880, the canonical program `A334880.P11930168278696587315` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334880 has offset 1).
+The programs for A334880, the canonical program `A334880.P11930168278696587315` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334880 has offset 1).
 
 The definition of A334880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6079,7 +6077,7 @@ end A334880
 
 `lt[1, gcd(n, A018252(n+1))]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A334880

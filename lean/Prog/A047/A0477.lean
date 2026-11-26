@@ -10403,7 +10403,7 @@ end A047790
 /-!
 # A047791: Numbers n such that n plus digit sum of n (A007953) equals a prime.
 
-The programs for A047791, the canonical program `A047791.P9707445729224729229` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047791 has offset 1).
+The programs for A047791, the canonical program `A047791.P9707445729224729229` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047791 has offset 1).
 
 The definition of A047791 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1234 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10560,7 +10560,7 @@ end A047791
 
 `record[(n+1)*A010051(A062028(n+1))]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A047791
@@ -10659,7 +10659,7 @@ def P9616289329095820549.Spec : Prop :=
 
 theorem P9616289329095820549.correct : P9616289329095820549.Spec := by
   intro n
-  simp only [A047791, Nat.add_sub_cancel, A047791.P9616289329095820549.f1, A047791.P9616289329095820549.a, A047791.P9707445729224729229.f1, A047791.P9707445729224729229.a, A007953, A007953.P3472751987379697826.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, A062028, A062028.P8420805724104474199.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A047791, Nat.add_sub_cancel, A047791.P9616289329095820549.f1, A047791.P9616289329095820549.a, A047791.P9707445729224729229.f1, A047791.P9707445729224729229.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A010051, A010051.P2964579406648181973.f1, A010051.P2964579406648181973.a, A062028, A062028.P8420805724104474199.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 

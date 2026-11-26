@@ -60,7 +60,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -9388,7 +9388,7 @@ end A093992.P9366113528870691150
 /-!
 # A093993: Number of divisors of n with a prime digital sum.
 
-The programs for A093993, the canonical program `A093993.P16541618475692730826` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093993 has offset 1).
+The programs for A093993, the canonical program `A093993.P16541618475692730826` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093993 has offset 1).
 
 The definition of A093993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9397,7 +9397,7 @@ The definition of A093993 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[1+n, A010051(A007953(#))]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A093993

@@ -37,7 +37,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -2134,7 +2133,7 @@ end A034447.P16870339342619802284
 
 The programs for A034448, the canonical program `A034448.P10900256174600810407` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034448 has offset 1).
 
-The definition of A034448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A034448 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A034448.anchor (n : ℕ) (hn : 1 ≤ n) : A034448 n = ∑ d ∈ n.divisors with d.Coprime (n / d), (d : ℤ)` in `Proof.A034.A034448`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A034448.P2035135545707285479
@@ -3030,7 +3029,7 @@ end A034459.P6800197203913057595
 
 The programs for A034460, the canonical program `A034460.P1958235575820581513` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034460 has offset 1).
 
-The definition of A034460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A034460 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A034448(n+1)-(n+1)` (program `A034460.P1958235575820581513`, by `A034460.P1958235575820581513.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A034460.P1958235575820581513

@@ -63,7 +63,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C004
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -449,7 +449,7 @@ end A169702.P258579085018448455
 /-!
 # A169703: Total number of ON cells at stage n of two-dimensional cellular automaton defined by "Rule 174".
 
-The programs for A169703, the canonical program `A169703.P13390613285210414476` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169703 has offset 0).
+The programs for A169703, the canonical program `A169703.P13390613285210414476` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169703 has offset 0).
 
 The definition of A169703 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -527,7 +527,7 @@ end A169703
 
 `A160410(A110654(n))+A147582(A029579(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A169703

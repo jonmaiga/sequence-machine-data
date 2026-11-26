@@ -55,6 +55,8 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -3043,7 +3045,7 @@ end A176717.P4198592594463061613
 /-!
 # A176718: Partial sums of A004207.
 
-The programs for A176718, the canonical program `A176718.P17709274811728577594` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176718 has offset 0).
+The programs for A176718, the canonical program `A176718.P17709274811728577594` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176718 has offset 0).
 
 The definition of A176718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3052,7 +3054,7 @@ The definition of A176718 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A004207(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A176718

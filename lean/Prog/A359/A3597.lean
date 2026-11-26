@@ -54,6 +54,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -70,7 +71,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B005.C003
@@ -2260,7 +2260,7 @@ end A359758.P11359154077290465713
 /-!
 # A359760: Triangle read by rows. The Kummer triangle, the coefficients of the Kummer polynomials. K(n, k) = binomial(n, k) * oddfactorial(k/2) if k is even, otherwise 0, where oddfactorial(z) := (2*z)!/(2^z*z!).
 
-The programs for A359760, the canonical program `A359760.P9277813428666487352` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359760 has offset 0).
+The programs for A359760, the canonical program `A359760.P9277813428666487352` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359760 has offset 0).
 
 The definition of A359760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7021 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2315,7 +2315,7 @@ end A359760
 
 `A099174(∑[2*n]%comp[∑[n]])`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A359760
@@ -2451,7 +2451,7 @@ end A359760
 /-!
 # A359761: a(n) = binomial(4*n, 2*n)*(2*n)!/(2^n*n!).
 
-The programs for A359761, the canonical program `A359761.P4485789682696231522` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359761 has offset 0).
+The programs for A359761, the canonical program `A359761.P4485789682696231522` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359761 has offset 0).
 
 The definition of A359761 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2460,7 +2460,7 @@ The definition of A359761 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001448(n)*A001147(n)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A359761
@@ -9180,7 +9180,7 @@ end A359792
 /-!
 # A359794: Union of odd numbers and numbers with an odd 2-adic valuation.
 
-The programs for A359794, the canonical program `A359794.P10986045244091442219` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359794 has offset 1).
+The programs for A359794, the canonical program `A359794.P10986045244091442219` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359794 has offset 1).
 
 The definition of A359794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9552,7 +9552,7 @@ end A359794
 
 `lt[A191254(n+1), 2]+1`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A359794

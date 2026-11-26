@@ -8533,16 +8533,16 @@ end A230285
 /-!
 # A230286: a(n) = A016052(n)/3.
 
-The programs for A230286, the canonical program `A230286.P917926184221838479` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230286 has offset 1).
+The programs for A230286, the canonical program `A230286.P917926184221838479` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230286 has offset 1).
 
-The definition of A230286 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A016052, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A230286 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A230286.P917926184221838479
 
 `A016052(n+1)/3`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A230286
@@ -8784,7 +8784,7 @@ end A230286
 /-!
 # A230287: First differences of A016052/3 (= A230286).
 
-The programs for A230287, the canonical program `A230287.P7459439627190970410` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230287 has offset 1).
+The programs for A230287, the canonical program `A230287.P7459439627190970410` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230287 has offset 1).
 
 The definition of A230287 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8793,7 +8793,7 @@ The definition of A230287 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A230286(1+n)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A230287

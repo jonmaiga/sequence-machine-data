@@ -53,7 +53,6 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2283,7 +2282,7 @@ end A268619
 /-!
 # A268620: Numbers whose digital sum is a multiple of 4.
 
-The programs for A268620, the canonical program `A268620.P7863683315715092206` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268620 has offset 1).
+The programs for A268620, the canonical program `A268620.P7863683315715092206` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268620 has offset 1).
 
 The definition of A268620 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2498 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2292,7 +2291,7 @@ The definition of A268620 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A007953(n)%4]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A268620

@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
@@ -1204,7 +1205,7 @@ end A291306
 /-!
 # A291307: The arithmetic function v_6(n,2).
 
-The programs for A291307, the canonical program `A291307.P15942804374896408033` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291307 has offset 2).
+The programs for A291307, the canonical program `A291307.P15942804374896408033` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291307 has offset 2).
 
 The definition of A291307 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1236,7 +1237,7 @@ end A291307
 
 `A291306(n+2)/2`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291307
@@ -6446,7 +6447,7 @@ end A291384
 /-!
 # A291385: a(n) = (1/4)*A073388(n+1).
 
-The programs for A291385, the canonical program `A291385.P5437536221905050948` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291385 has offset 0).
+The programs for A291385, the canonical program `A291385.P5437536221905050948` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291385 has offset 0).
 
 The definition of A291385 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6478,7 +6479,7 @@ end A291385
 
 `1/4*A073388(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291385

@@ -53,6 +53,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -6600,7 +6601,7 @@ end A216161.P11969489143220886912
 /-!
 # A216162: Sequences A006452 and A216134 interlaced.
 
-The programs for A216162, the canonical program `A216162.P16698667562609771538` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216162 has offset 0).
+The programs for A216162, the canonical program `A216162.P16698667562609771538` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216162 has offset 0).
 
 The definition of A216162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 523 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6609,7 +6610,7 @@ The definition of A216162 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A266504(A080412(n))/2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216162
@@ -8478,7 +8479,7 @@ end A216172
 /-!
 # A216173: Number of all possible tetrahedra of any size and orientation, formed when intersecting the original regular tetrahedron by planes parallel to its sides and dividing its edges into n equal parts.
 
-The programs for A216173, the canonical program `A216173.P1512218337134807179` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216173 has offset 1).
+The programs for A216173, the canonical program `A216173.P1512218337134807179` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216173 has offset 1).
 
 The definition of A216173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8533,7 +8534,7 @@ end A216173
 
 `A000332(n+4)+A216172(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216173
@@ -9662,7 +9663,7 @@ end A216179
 /-!
 # A216182: Riordan array ((1+x)/(1-x)^2, x(1+x)^2/(1-x)^2).
 
-The programs for A216182, the canonical program `A216182.P7538114919619835934` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216182 has offset 0).
+The programs for A216182, the canonical program `A216182.P7538114919619835934` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216182 has offset 0).
 
 The definition of A216182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9694,7 +9695,7 @@ end A216182
 
 `A112743(A185869(1+n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216182

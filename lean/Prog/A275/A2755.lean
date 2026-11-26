@@ -2017,7 +2017,7 @@ end A275535.P14650098235517675387
 /-!
 # A275536: Differences of the exponents of the adjacent distinct powers of 2 in the binary representation of n (with -1 subtracted from the least exponent present) are concatenated as decimal digits in reverse order.
 
-The programs for A275536, the canonical program `A275536.P7004998488035629672` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275536 has offset 1).
+The programs for A275536, the canonical program `A275536.P7004998488035629672` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275536 has offset 1).
 
 The definition of A275536 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 511 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2118,7 +2118,7 @@ end A275536
 
 `∑{digits}[A096299(n+1), A178501(#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A275536

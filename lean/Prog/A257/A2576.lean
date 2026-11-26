@@ -9221,7 +9221,7 @@ end A257686
 /-!
 # A257687: Discard the most significant digit from factorial base representation of n, then convert back to decimal: a(n) = n - A257686(n).
 
-The programs for A257687, the canonical program `A257687.P7012285749589745258` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257687 has offset 0).
+The programs for A257687, the canonical program `A257687.P7012285749589745258` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257687 has offset 0).
 
 The definition of A257687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9291,7 +9291,7 @@ end A257687
 
 `n%A084558(n)!`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A257687

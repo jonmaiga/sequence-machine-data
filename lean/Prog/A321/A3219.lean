@@ -5790,16 +5790,16 @@ end A321998.P1354985098619438431
 /-!
 # A321999: Sum of digits of n minus the number of digits of n.
 
-The programs for A321999, the canonical program `A321999.P11799069889241874774` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321999 has offset 0).
+The programs for A321999, the canonical program `A321999.P11799069889241874774` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321999 has offset 0).
 
-The definition of A321999 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004218, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A321999 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004218, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A321999.P11799069889241874774
 
 `A007953(n)-A004218(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A321999

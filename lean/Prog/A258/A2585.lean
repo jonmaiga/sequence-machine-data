@@ -3519,7 +3519,7 @@ end A258571.P14247451879915430072
 /-!
 # A258574: Numbers n such that Fibonacci(n)+Lucas(n) is squarefree.
 
-The programs for A258574, the canonical program `A258574.P2847765918182222995` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258574 has offset 1).
+The programs for A258574, the canonical program `A258574.P2847765918182222995` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258574 has offset 1).
 
 The definition of A258574 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 611 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3528,7 +3528,7 @@ The definition of A258574 is `conjectured`: the Lean definition is a formula tha
 
 `record[A260316(A037918(1+n))]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258574
@@ -3983,7 +3983,7 @@ end A258576.P14061589344342452784
 /-!
 # A258578: Primes p such that difference between p and next prime after p is multiple of 6.
 
-The programs for A258578, the canonical program `A258578.P9086836739890069373` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258578 has offset 1).
+The programs for A258578, the canonical program `A258578.P9086836739890069373` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258578 has offset 1).
 
 The definition of A258578 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4022 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3992,7 +3992,7 @@ The definition of A258578 is `conjectured`: the Lean definition is a formula tha
 
 `A071621(A269399(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258578
@@ -4806,7 +4806,7 @@ end A258586.P6253806774946444919
 /-!
 # A258587: Expansion of f(-x, -x) * f(x^2, x^10) in powers of x where f(, ) is Ramanujan's general theta function.
 
-The programs for A258587, the canonical program `A258587.P16036034608619389317` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258587 has offset 0).
+The programs for A258587, the canonical program `A258587.P16036034608619389317` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258587 has offset 0).
 
 The definition of A258587 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A263548, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4815,7 +4815,7 @@ The definition of A258587 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A263548(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258587

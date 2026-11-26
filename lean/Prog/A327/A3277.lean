@@ -47,12 +47,12 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -2626,7 +2626,7 @@ end A327722.P10898485725889637812
 /-!
 # A327724: Product of A003059 and A071797.
 
-The programs for A327724, the canonical program `A327724.P6706824466192336662` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327724 has offset 1).
+The programs for A327724, the canonical program `A327724.P6706824466192336662` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327724 has offset 1).
 
 The definition of A327724 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2635,7 +2635,7 @@ The definition of A327724 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+A000196(n))*(n+1-A000196(n)²)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327724
@@ -2865,7 +2865,7 @@ end A327727.P7625278278355349488
 /-!
 # A327728: Number of unlabeled multigraphs with loops allowed and n edges covering three vertices.
 
-The programs for A327728, the canonical program `A327728.P1727755471504395487` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327728 has offset 1).
+The programs for A327728, the canonical program `A327728.P1727755471504395487` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327728 has offset 1).
 
 The definition of A327728 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2897,7 +2897,7 @@ end A327728
 
 `A050531(n+1)-A002620(n+3)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327728
@@ -5516,7 +5516,7 @@ end A327751.P10182934426711613407
 /-!
 # A327752: Primes powers (A246655) congruent to 1 mod 5.
 
-The programs for A327752, the canonical program `A327752.P6389492624928042465` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327752 has offset 1).
+The programs for A327752, the canonical program `A327752.P6389492624928042465` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327752 has offset 1).
 
 The definition of A327752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5615,7 +5615,7 @@ end A327752
 
 `record[A008475(5*n+11)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327752
@@ -6088,7 +6088,7 @@ end A327752
 /-!
 # A327753: Primes powers (A246655) congruent to 4 mod 5.
 
-The programs for A327753, the canonical program `A327753.P1018549127462246212` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327753 has offset 1).
+The programs for A327753, the canonical program `A327753.P1018549127462246212` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327753 has offset 1).
 
 The definition of A327753 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6157,7 +6157,7 @@ end A327753
 
 `record[A008475(5*n+4)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327753

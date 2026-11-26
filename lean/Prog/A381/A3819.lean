@@ -49,7 +49,7 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -4793,7 +4793,7 @@ end A381963.P13536038150894027835
 /-!
 # A381964: Row sums of A381963.
 
-The programs for A381964, the canonical program `A381964.P10364556719248759168` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381964 has offset 0).
+The programs for A381964, the canonical program `A381964.P10364556719248759168` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381964 has offset 0).
 
 The definition of A381964 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4802,7 +4802,7 @@ The definition of A381964 is `conjectured`: the Lean definition is a formula tha
 
 `a(A007953(n)%n)+n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A381964

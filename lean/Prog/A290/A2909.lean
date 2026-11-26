@@ -51,7 +51,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -3665,7 +3664,7 @@ end A290918
 /-!
 # A290919: p-INVERT of the positive integers, where p(S) = (1 - S)^4.
 
-The programs for A290919, the canonical program `A290919.P18185526587523893197` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290919 has offset 0).
+The programs for A290919, the canonical program `A290919.P18185526587523893197` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290919 has offset 0).
 
 The definition of A290919 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3697,7 +3696,7 @@ end A290919
 
 `A204533(A167499(4+n)-1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290919
@@ -3715,7 +3714,7 @@ end A290919
 /-!
 # A290920: p-INVERT of the positive integers, where p(S) = (1 - S)^5.
 
-The programs for A290920, the canonical program `A290920.P3911317549399574294` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290920 has offset 0).
+The programs for A290920, the canonical program `A290920.P3911317549399574294` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290920 has offset 0).
 
 The definition of A290920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3724,7 +3723,7 @@ The definition of A290920 is `conjectured`: the Lean definition is a formula tha
 
 `A204533(A167499(n+5))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290920
@@ -3742,7 +3741,7 @@ end A290920
 /-!
 # A290921: p-INVERT of the positive integers, where p(S) = (1 - S)^6.
 
-The programs for A290921, the canonical program `A290921.P15818627159412460858` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290921 has offset 0).
+The programs for A290921, the canonical program `A290921.P15818627159412460858` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290921 has offset 0).
 
 The definition of A290921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3751,7 +3750,7 @@ The definition of A290921 is `conjectured`: the Lean definition is a formula tha
 
 `A204533(A167499(n+6)+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290921

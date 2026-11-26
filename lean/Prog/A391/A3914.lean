@@ -50,6 +50,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -179,7 +180,7 @@ end A391401.P2485735287728458172
 /-!
 # A391403: Triangle read by rows: T(n,k) is k-th entry of the gamma-vector of the n-dimensional cyclohedron, 0 <= k <= floor(n/2).
 
-The programs for A391403, the canonical program `A391403.P4218804131166072041` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391403 has offset 0).
+The programs for A391403, the canonical program `A391403.P4218804131166072041` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391403 has offset 0).
 
 The definition of A391403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -188,7 +189,7 @@ The definition of A391403 is `conjectured`: the Lean definition is a formula tha
 
 `A011973(n)*A034868(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391403
@@ -5660,7 +5661,7 @@ end A391458.P3885081346048529835
 /-!
 # A391459: Expansion of g/(2 - g^2), where g = 1+x*g^2 is the g.f. of A000108.
 
-The programs for A391459, the canonical program `A391459.P12819383372019779551` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391459 has offset 0).
+The programs for A391459, the canonical program `A391459.P12819383372019779551` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391459 has offset 0).
 
 The definition of A391459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5669,7 +5670,7 @@ The definition of A391459 is `conjectured`: the Lean definition is a formula tha
 
 `A399989(1+n)+A399989(n)-A000108(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391459

@@ -9711,7 +9711,7 @@ end A161463
 /-!
 # A161464: Sum of all digits of primes from n-th prime to (2*n-1)-th prime.
 
-The programs for A161464, the canonical program `A161464.P870720688420773945` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161464 has offset 1).
+The programs for A161464, the canonical program `A161464.P870720688420773945` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161464 has offset 1).
 
 The definition of A161464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9720,7 +9720,7 @@ The definition of A161464 is `conjectured`: the Lean definition is a formula tha
 
 `A051351(Δ[n²])-A051351(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A161464

@@ -65,7 +65,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
@@ -6655,7 +6654,7 @@ end A331474.P7129681713611998473
 /-!
 # A331476: The (10^n)-th even-digit number.
 
-The programs for A331476, the canonical program `A331476.P4019166169547797384` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331476 has offset 0).
+The programs for A331476, the canonical program `A331476.P4019166169547797384` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331476 has offset 0).
 
 The definition of A331476 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014263, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6664,7 +6663,7 @@ The definition of A331476 is `conditional`: the Lean definition is an OEIS formu
 
 `A014263(10^n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A331476

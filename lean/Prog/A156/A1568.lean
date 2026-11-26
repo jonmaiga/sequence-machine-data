@@ -2415,7 +2415,7 @@ end A156827
 /-!
 # A156828: a(1) = 2. a(n) = the smallest prime >= a(n-1) + 4.
 
-The programs for A156828, the canonical program `A156828.P15724997614100665907` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156828 has offset 1).
+The programs for A156828, the canonical program `A156828.P15724997614100665907` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156828 has offset 1).
 
 The definition of A156828 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8369 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2424,7 +2424,7 @@ The definition of A156828 is `conjectured`: the Lean definition is a formula tha
 
 `A151800(3+a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156828
@@ -3055,7 +3055,7 @@ end A156829.P15663928192665037336
 /-!
 # A156830: a(1) = 2. For n >= 2, a(n) = the smallest prime > a(n-1) + p(n) - p(n-1), where p(n) is the n-th prime.
 
-The programs for A156830, the canonical program `A156830.P10692267835057899737` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156830 has offset 1).
+The programs for A156830, the canonical program `A156830.P10692267835057899737` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156830 has offset 1).
 
 The definition of A156830 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3064,7 +3064,7 @@ The definition of A156830 is `conjectured`: the Lean definition is a formula tha
 
 `A151800(a(n-1)+A001223(n))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156830
@@ -6902,7 +6902,7 @@ end A156874
 /-!
 # A156875: Number of safe primes <= n.
 
-The programs for A156875, the canonical program `A156875.P16393528994180891018` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156875 has offset 1).
+The programs for A156875, the canonical program `A156875.P16393528994180891018` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156875 has offset 1).
 
 The definition of A156875 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6911,7 +6911,7 @@ The definition of A156875 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A156659(1+n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156875

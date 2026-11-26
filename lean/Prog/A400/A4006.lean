@@ -55,6 +55,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3347,7 +3348,7 @@ end A400686.P11847561107422256024
 /-!
 # A400687: a(n) = Sum_{k=1..n} gcd(k!, k*(k+1)/2)^2.
 
-The programs for A400687, the canonical program `A400687.P16773137454345729550` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400687 has offset 1).
+The programs for A400687, the canonical program `A400687.P16773137454345729550` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400687 has offset 1).
 
 The definition of A400687 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3356,7 +3357,7 @@ The definition of A400687 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+A069268(n+1)²` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400687
@@ -3660,7 +3661,7 @@ end A400692.P16935231141990459599
 /-!
 # A400693: Sum of cubes of A069268: a(n) = Sum_{k=1..n} gcd(k!, k*(k+1)/2)^3.
 
-The programs for A400693, the canonical program `A400693.P5789945913233644557` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400693 has offset 1).
+The programs for A400693, the canonical program `A400693.P5789945913233644557` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400693 has offset 1).
 
 The definition of A400693 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9431 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3669,7 +3670,7 @@ The definition of A400693 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A069268(n+1)^3]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400693
@@ -3742,7 +3743,7 @@ end A400693
 /-!
 # A400694: a(n) = mu(n^2 + 2).
 
-The programs for A400694, the canonical program `A400694.P3850939055037617322` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400694 has offset 0).
+The programs for A400694, the canonical program `A400694.P3850939055037617322` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400694 has offset 0).
 
 The definition of A400694 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008683(n²+2)` (program `A400694.P3850939055037617322`, by `A400694.P3850939055037617322.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3751,7 +3752,7 @@ The definition of A400694 is `verified`: the Lean definition is proven equivalen
 
 `A008683(n²+2)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400694
@@ -3974,7 +3975,7 @@ end A400694
 /-!
 # A400695: a(n) = mu(n^2 + 3).
 
-The programs for A400695, the canonical program `A400695.P9639119796023989076` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400695 has offset 0).
+The programs for A400695, the canonical program `A400695.P9639119796023989076` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400695 has offset 0).
 
 The definition of A400695 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008683(n²+3)` (program `A400695.P9639119796023989076`, by `A400695.P9639119796023989076.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3983,7 +3984,7 @@ The definition of A400695 is `verified`: the Lean definition is proven equivalen
 
 `A008683(n²+3)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400695
@@ -4361,7 +4362,7 @@ end A400695
 /-!
 # A400696: a(n) = A008966(n^2 + 2).
 
-The programs for A400696, the canonical program `A400696.P2770596567942535513` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400696 has offset 0).
+The programs for A400696, the canonical program `A400696.P2770596567942535513` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400696 has offset 0).
 
 The definition of A400696 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008966(n²+2)` (program `A400696.P2770596567942535513`, by `A400696.P2770596567942535513.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4370,7 +4371,7 @@ The definition of A400696 is `verified`: the Lean definition is proven equivalen
 
 `A008966(n²+2)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400696
@@ -4846,7 +4847,7 @@ end A400696
 /-!
 # A400697: a(n) = A008966(n^2 + 3).
 
-The programs for A400697, the canonical program `A400697.P17424689115559816129` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400697 has offset 0).
+The programs for A400697, the canonical program `A400697.P17424689115559816129` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400697 has offset 0).
 
 The definition of A400697 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A008966(n²+3)` (program `A400697.P17424689115559816129`, by `A400697.P17424689115559816129.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4855,7 +4856,7 @@ The definition of A400697 is `verified`: the Lean definition is proven equivalen
 
 `A008966(n²+3)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400697

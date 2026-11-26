@@ -21474,7 +21474,7 @@ end A017354
 /-!
 # A017355: a(n) = (10*n + 7)^3.
 
-The programs for A017355, the canonical program `A017355.P12001329552188820011` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017355 has offset 0).
+The programs for A017355, the canonical program `A017355.P12001329552188820011` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017355 has offset 0).
 
 The definition of A017355 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10*n+7)^3` (program `A017355.P12001329552188820011`, by `A017355.P12001329552188820011.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21483,7 +21483,7 @@ The definition of A017355 is `verified`: the Lean definition is proven equivalen
 
 `(10*n+7)^3`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017355

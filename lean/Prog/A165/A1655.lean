@@ -66,7 +66,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -234,7 +233,7 @@ end A165501.P2366435616146515701
 /-!
 # A165502: Primes p where the digital sum of p^2 is equal to 31.
 
-The programs for A165502, the canonical program `A165502.P13417243480787722624` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165502 has offset 1).
+The programs for A165502, the canonical program `A165502.P13417243480787722624` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165502 has offset 1).
 
 The definition of A165502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -243,7 +242,7 @@ The definition of A165502 is `conjectured`: the Lean definition is a formula tha
 
 `p?[eq[31, A004159(n)]]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A165502
@@ -261,7 +260,7 @@ end A165502
 /-!
 # A165503: Primes p with a digits sum of p^2 equal to 37.
 
-The programs for A165503, the canonical program `A165503.P17759622746799329389` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165503 has offset 1).
+The programs for A165503, the canonical program `A165503.P17759622746799329389` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165503 has offset 1).
 
 The definition of A165503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 150 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -270,7 +269,7 @@ The definition of A165503 is `conjectured`: the Lean definition is a formula tha
 
 `p?[eq[37, A004159(n)]]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A165503

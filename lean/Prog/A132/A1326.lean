@@ -998,7 +998,7 @@ end A132627.P11709077170814264010
 /-!
 # A132628: Numbers k for which the sum of their digits divides sigma(k).
 
-The programs for A132628, the canonical program `A132628.P1682638940278180444` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132628 has offset 1).
+The programs for A132628, the canonical program `A132628.P1682638940278180444` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132628 has offset 1).
 
 The definition of A132628 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1035,7 +1035,7 @@ def P1068919014811185820.Spec : Prop :=
 
 theorem P1068919014811185820.correct : P1068919014811185820.Spec := by
   intro n
-  simp only [A132628, Nat.add_sub_cancel, A132628.P1068919014811185820.f2, A132628.P1068919014811185820.f1, A132628.P1068919014811185820.f3, A132628.P1068919014811185820.a, A132628.P1682638940278180444.f1, A132628.P1682638940278180444.f2, A132628.P1682638940278180444.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A132628, Nat.add_sub_cancel, A132628.P1068919014811185820.f2, A132628.P1068919014811185820.f1, A132628.P1068919014811185820.f3, A132628.P1068919014811185820.a, A132628.P1682638940278180444.f1, A132628.P1682638940278180444.f2, A132628.P1682638940278180444.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -1045,7 +1045,7 @@ end A132628
 
 `lt[A000203(n+1)%A007953(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A132628

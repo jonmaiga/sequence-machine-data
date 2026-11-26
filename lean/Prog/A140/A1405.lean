@@ -16289,7 +16289,7 @@ end A140587
 
 The programs for A140588, the canonical program `A140588.P2818246706008230909` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140588 has offset 0).
 
-The definition of A140588 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A140588 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000110(n)*A000045(n)` (program `A140588.P2818246706008230909`, by `A140588.P2818246706008230909.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140588.P2818246706008230909
@@ -16513,7 +16513,7 @@ end A140588
 /-!
 # A140589: Triangle A(k,n) = (-2)^k+2^n read by rows.
 
-The programs for A140589, the canonical program `A140589.P6489834960624112425` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140589 has offset 0).
+The programs for A140589, the canonical program `A140589.P6489834960624112425` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140589 has offset 0).
 
 The definition of A140589 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(-2)^row(n)+2^col(n)` (program `A140589.P100566478592616006`, by `A140589.P100566478592616006.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16553,7 +16553,7 @@ end A140589
 
 `A000079(col(n))+A122803(row(n))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140589
@@ -17684,7 +17684,7 @@ end A140592
 /-!
 # A140593: Primes congruent to 37 or 173 mod 210.
 
-The programs for A140593, the canonical program `A140593.P10671109267607141112` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140593 has offset 1).
+The programs for A140593, the canonical program `A140593.P10671109267607141112` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140593 has offset 1).
 
 The definition of A140593 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17693,7 +17693,7 @@ The definition of A140593 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A053741(n)+A017581(A032793(n+1))]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140593

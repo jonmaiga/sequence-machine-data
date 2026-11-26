@@ -49,7 +49,6 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -1000,7 +999,7 @@ end A065712.P7116223112002464078
 /-!
 # A065713: Sum of digits of 4^n.
 
-The programs for A065713, the canonical program `A065713.P2914558267731047984` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065713 has offset 0).
+The programs for A065713, the canonical program `A065713.P2914558267731047984` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065713 has offset 0).
 
 The definition of A065713 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1009,7 +1008,7 @@ The definition of A065713 is `conjectured`: the Lean definition is a formula tha
 
 `A001370(2*n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A065713

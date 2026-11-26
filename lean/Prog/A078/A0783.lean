@@ -318,7 +318,7 @@ end A078304
 /-!
 # A078306: a(n) = Sum_{d divides n} (-1)^(n/d+1)*d^2.
 
-The programs for A078306, the canonical program `A078306.P7255771743428390491` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078306 has offset 1).
+The programs for A078306, the canonical program `A078306.P7255771743428390491` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078306 has offset 1).
 
 The definition of A078306 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -405,7 +405,7 @@ end A078306
 
 `∑{d}[n+1, #*A026741(#)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A078306

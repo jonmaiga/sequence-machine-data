@@ -80,7 +80,6 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -4170,7 +4169,7 @@ end A140618
 /-!
 # A140619: Primes of the form 19x^2+4xy+28y^2.
 
-The programs for A140619, the canonical program `A140619.P10258335897419128005` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140619 has offset 1).
+The programs for A140619, the canonical program `A140619.P10258335897419128005` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140619 has offset 1).
 
 The definition of A140619 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4991 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4269,7 +4268,7 @@ end A140619
 
 `∩[A107201(n+1), A141373(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140619
@@ -12190,7 +12189,7 @@ end A140639.P95302255533702937
 /-!
 # A140640: Primes congruent to 43 or 167 mod 210.
 
-The programs for A140640, the canonical program `A140640.P18207931973337898726` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140640 has offset 1).
+The programs for A140640, the canonical program `A140640.P18207931973337898726` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140640 has offset 1).
 
 The definition of A140640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12199,7 +12198,7 @@ The definition of A140640 is `conjectured`: the Lean definition is a formula tha
 
 `p?[5*A247128(n+1)-(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140640
@@ -12451,7 +12450,7 @@ end A140640
 /-!
 # A140641: Primes congruent to 47 or 163 mod 210.
 
-The programs for A140641, the canonical program `A140641.P4247190238463387378` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140641 has offset 1).
+The programs for A140641, the canonical program `A140641.P4247190238463387378` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140641 has offset 1).
 
 The definition of A140641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 571 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12460,7 +12459,7 @@ The definition of A140641 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A248474(A017029(n))]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140641
@@ -14945,7 +14944,7 @@ end A140653
 /-!
 # A140655: Primes congruent to 53 or 157 mod 210.
 
-The programs for A140655, the canonical program `A140655.P7745099200111804392` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140655 has offset 1).
+The programs for A140655, the canonical program `A140655.P7745099200111804392` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140655 has offset 1).
 
 The definition of A140655 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1809 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14954,7 +14953,7 @@ The definition of A140655 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A304840(2*n+1)+A109613(n+2)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140655
@@ -15904,7 +15903,7 @@ end A140658.P6236226007359535193
 /-!
 # A140659: a(n) = floor(A140657(n+2)/10).
 
-The programs for A140659, the canonical program `A140659.P2374754563002886907` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140659 has offset 0).
+The programs for A140659, the canonical program `A140659.P2374754563002886907` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140659 has offset 0).
 
 The definition of A140659 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15913,7 +15912,7 @@ The definition of A140659 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(A140657(n+2)/10)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140659
@@ -17120,7 +17119,7 @@ end A140661.P2406220047732039544
 /-!
 # A140662: Number of possible column states for self-avoiding polygons in a slit of width n.
 
-The programs for A140662, the canonical program `A140662.P10525022962344994397` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140662 has offset 1).
+The programs for A140662, the canonical program `A140662.P10525022962344994397` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140662 has offset 1).
 
 The definition of A140662 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17129,7 +17128,7 @@ The definition of A140662 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001006(n+2)-1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140662
@@ -25882,7 +25881,7 @@ end A140685
 /-!
 # A140687: Primes congruent to 59 or 151 mod 210.
 
-The programs for A140687, the canonical program `A140687.P11626312443094119930` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140687 has offset 1).
+The programs for A140687, the canonical program `A140687.P11626312443094119930` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140687 has offset 1).
 
 The definition of A140687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1787 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -25891,7 +25890,7 @@ The definition of A140687 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*A155107(n+1)-A065033(n)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A140687

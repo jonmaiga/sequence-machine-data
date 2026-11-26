@@ -38,7 +38,7 @@ import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1094,7 +1094,7 @@ end A400811
 /-!
 # A400812: Number of star triples in the level-n supertile of the Spectre tiling.
 
-The programs for A400812, the canonical program `A400812.P2266788064144703415` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400812 has offset 0).
+The programs for A400812, the canonical program `A400812.P2266788064144703415` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400812 has offset 0).
 
 The definition of A400812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A400813, A400814, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1103,7 +1103,7 @@ The definition of A400812 is `conditional`: the Lean definition is an OEIS formu
 
 `A400813(n)+A400814(n)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400812
@@ -3784,7 +3784,7 @@ end A400888.P7159984411029985628
 /-!
 # A400890: Numbers k such that the 2-adic valuation of 3*k+2 is odd.
 
-The programs for A400890, the canonical program `A400890.P15796363409859546705` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400890 has offset 1).
+The programs for A400890, the canonical program `A400890.P15796363409859546705` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400890 has offset 1).
 
 The definition of A400890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5004 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3793,7 +3793,7 @@ The definition of A400890 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A400891(1+n)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400890
@@ -4555,7 +4555,7 @@ end A400893
 /-!
 # A400894: Bipartition of the positive odd numbers depending on the parity of the 2-adic valuation A007814(3*k + 2). Here the part with even valuation based on A400891.
 
-The programs for A400894, the canonical program `A400894.P15283623408944251719` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400894 has offset 1).
+The programs for A400894, the canonical program `A400894.P15283623408944251719` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400894 has offset 1).
 
 The definition of A400894 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A400891, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4564,7 +4564,7 @@ The definition of A400894 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A400891(n+1)+1`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400894

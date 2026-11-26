@@ -6752,7 +6752,7 @@ end A110650
 /-!
 # A110651: n^2 followed by n^4 followed by n^3 followed by n.
 
-The programs for A110651, the canonical program `A110651.P10291907235345254237` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110651 has offset 1).
+The programs for A110651, the canonical program `A110651.P10291907235345254237` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110651 has offset 1).
 
 The definition of A110651 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6761,7 +6761,7 @@ The definition of A110651 is `conjectured`: the Lean definition is a formula tha
 
 `A110004(xor(3, n)+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A110651
@@ -10791,7 +10791,7 @@ end A110662
 /-!
 # A110663: Triangle read by rows: T(n,k) = Sum_{j=k..n} phi(j) (1<=k<=n), where phi is Euler's totient function.
 
-The programs for A110663, the canonical program `A110663.P4778225065267827668` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110663 has offset 1).
+The programs for A110663, the canonical program `A110663.P4778225065267827668` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110663 has offset 1).
 
 The definition of A110663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10800,7 +10800,7 @@ The definition of A110663 is `conjectured`: the Lean definition is a formula tha
 
 `A000010(row(n)+1)+T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A110663
@@ -13375,7 +13375,7 @@ end A110671
 /-!
 # A110672: Sequence is {a(7,n)}, where a(m,n) is defined in sequence A110665.
 
-The programs for A110672, the canonical program `A110672.P13064412979197654835` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110672 has offset 0).
+The programs for A110672, the canonical program `A110672.P13064412979197654835` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110672 has offset 0).
 
 The definition of A110672 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13384,7 +13384,7 @@ The definition of A110672 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A110671(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A110672

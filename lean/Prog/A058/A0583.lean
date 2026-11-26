@@ -51,6 +51,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -67,7 +68,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -7937,7 +7937,7 @@ end A058368
 /-!
 # A058369: Numbers k such that k and k^2 have same digit sum.
 
-The programs for A058369, the canonical program `A058369.P43549229018123999` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058369 has offset 1).
+The programs for A058369, the canonical program `A058369.P43549229018123999` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058369 has offset 1).
 
 The definition of A058369 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7946,7 +7946,7 @@ The definition of A058369 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A004159(n), A007953(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A058369
@@ -8222,7 +8222,7 @@ def P1728493592372015915.Spec : Prop :=
 
 theorem P1728493592372015915.correct : P1728493592372015915.Spec := by
   intro n
-  simp only [A058369, Nat.add_sub_cancel, A058369.P1728493592372015915.f1, A058369.P1728493592372015915.f2, A058369.P1728493592372015915.a, A058369.P43549229018123999.f1, A058369.P43549229018123999.f2, A058369.P43549229018123999.a, A004159, A004159.P12894520007403696170.a, A007953, A007953.P3472751987379697826.a, A224977, A224977.P2433633673610591437.a, A000290, A000290.P12206242496348924484.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A058369, Nat.add_sub_cancel, A058369.P1728493592372015915.f1, A058369.P1728493592372015915.f2, A058369.P1728493592372015915.a, A058369.P43549229018123999.f1, A058369.P43549229018123999.f2, A058369.P43549229018123999.a, A004159, A004159.P12894520007403696170.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A224977, A224977.P2433633673610591437.a, A000290, A000290.P12206242496348924484.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8260,7 +8260,7 @@ end A058369
 /-!
 # A058370: Primes p such that p and p^2 have same digit sum.
 
-The programs for A058370, the canonical program `A058370.P2006344636146154017` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058370 has offset 1).
+The programs for A058370, the canonical program `A058370.P2006344636146154017` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058370 has offset 1).
 
 The definition of A058370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8269,7 +8269,7 @@ The definition of A058370 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A058369(n+1)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A058370

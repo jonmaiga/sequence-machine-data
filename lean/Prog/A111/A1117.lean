@@ -51,6 +51,7 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4758,7 +4759,7 @@ end A111734
 /-!
 # A111735: Distance between k*(n-th prime) and next prime, k=3 case.
 
-The programs for A111735, the canonical program `A111735.P13841724041236737776` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111735 has offset 1).
+The programs for A111735, the canonical program `A111735.P13841724041236737776` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111735 has offset 1).
 
 The definition of A111735 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4767,7 +4768,7 @@ The definition of A111735 is `conjectured`: the Lean definition is a formula tha
 
 `A370009(n+1)-A001748(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A111735
@@ -5034,7 +5035,7 @@ end A111737
 /-!
 # A111738: Distance between k*(n-th prime) and next prime, k=6 case.
 
-The programs for A111738, the canonical program `A111738.P5078444431760926607` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111738 has offset 1).
+The programs for A111738, the canonical program `A111738.P5078444431760926607` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111738 has offset 1).
 
 The definition of A111738 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 470 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5043,7 +5044,7 @@ The definition of A111738 is `conjectured`: the Lean definition is a formula tha
 
 `A060266(3*p?[abs(xor(n, -2))])`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A111738

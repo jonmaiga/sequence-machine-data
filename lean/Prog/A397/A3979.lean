@@ -56,6 +56,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -12056,7 +12057,7 @@ end A397990
 /-!
 # A397991: Array read by ascending antidiagonals: A(n,k) = floor(1+k*n/(k-1)) with k >= 2.
 
-The programs for A397991, the canonical program `A397991.P10536708789882532052` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397991 has offset 0).
+The programs for A397991, the canonical program `A397991.P10536708789882532052` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397991 has offset 0).
 
 The definition of A397991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12065,7 +12066,7 @@ The definition of A397991 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A127738(n+1)/(col(n)+1))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397991

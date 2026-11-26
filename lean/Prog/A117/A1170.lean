@@ -42,7 +42,7 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,7 +57,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C004
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4822,7 +4822,7 @@ end A117060.P80093353743570060
 /-!
 # A117061: a(n) = (s(n-1))^2+n, with a(1) = 1 and s(k) = A007953(a(k)).
 
-The programs for A117061, the canonical program `A117061.P946602290302645049` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117061 has offset 1).
+The programs for A117061, the canonical program `A117061.P946602290302645049` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117061 has offset 1).
 
 The definition of A117061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4850,7 +4850,7 @@ def P37782107329750188.Spec : Prop :=
 
 theorem P37782107329750188.correct : P37782107329750188.Spec := by
   intro n
-  simp only [A117061, Nat.add_sub_cancel, A117061.P37782107329750188.a, A117061.P946602290302645049.a, A007953, A007953.P3472751987379697826.a, A118881, A118881.P8524186405013838056.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A117061, Nat.add_sub_cancel, A117061.P37782107329750188.a, A117061.P946602290302645049.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A118881, A118881.P8524186405013838056.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -4860,7 +4860,7 @@ end A117061
 
 `A007953(a(n-1))²+1+n` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A117061

@@ -74,7 +74,6 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1241,16 +1240,16 @@ end A007604
 /-!
 # A007605: Sum of digits of n-th prime.
 
-The programs for A007605, the canonical program `A007605.P14521423581831153617` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007605 has offset 1).
+The programs for A007605, the canonical program `A007605.P14521423581831153617` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007605 has offset 1).
 
-The definition of A007605 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A007605 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A007605.P14521423581831153617
 
 `A007953(A000040(n+1))`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A007605
@@ -1707,7 +1706,7 @@ def P5806365766988802790.Spec : Prop :=
 
 theorem P5806365766988802790.correct : P5806365766988802790.Spec := by
   intro n
-  simp only [A007605, Nat.add_sub_cancel, A007605.P5806365766988802790.a, A007605.P14521423581831153617.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007953, A007953.P3472751987379697826.a, A104260, A104260.P17281038735353621208.f1, A104260.P17281038735353621208.a, A104261, A104261.P6514449015023123147.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A007605, Nat.add_sub_cancel, A007605.P5806365766988802790.a, A007605.P14521423581831153617.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A104260, A104260.P17281038735353621208.f1, A104260.P17281038735353621208.a, A104261, A104261.P6514449015023123147.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -1759,7 +1758,7 @@ def P15995861599812116499.Spec : Prop :=
 
 theorem P15995861599812116499.correct : P15995861599812116499.Spec := by
   intro n
-  simp only [A007605, Nat.add_sub_cancel, A007605.P15995861599812116499.a, A007605.P14521423581831153617.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007953, A007953.P3472751987379697826.a, A068395, A068395.P13008118586817300563.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A007605, Nat.add_sub_cancel, A007605.P15995861599812116499.a, A007605.P14521423581831153617.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A068395, A068395.P13008118586817300563.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -5433,16 +5432,16 @@ end A007617
 /-!
 # A007618: a(n) = a(n-1) + sum of digits of a(n-1), a(1) = 5.
 
-The programs for A007618, the canonical program `A007618.P6018863421737465196` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007618 has offset 1).
+The programs for A007618, the canonical program `A007618.P6018863421737465196` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007618 has offset 1).
 
-The definition of A007618 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A007618 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A007618.P6018863421737465196
 
 `A062028(a(n-1))` with `a(0)=5`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A007618
