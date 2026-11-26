@@ -50,6 +50,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1524,7 +1525,7 @@ end A217322.P17681504527947638919
 /-!
 # A217323: Number of self-inverse permutations in S_n with longest increasing subsequence of length 3.
 
-The programs for A217323, the canonical program `A217323.P5893074591576963473` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217323 has offset 3).
+The programs for A217323, the canonical program `A217323.P5893074591576963473` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217323 has offset 3).
 
 The definition of A217323 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1533,7 +1534,7 @@ The definition of A217323 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001006(n+3)-A001405(n+3)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217323
@@ -3881,7 +3882,7 @@ end A217358.P6182215288330793350
 /-!
 # A217360: a(n) = 2^n*binomial(4*n, n)/(3*n+1).
 
-The programs for A217360, the canonical program `A217360.P18313722497906122328` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217360 has offset 0).
+The programs for A217360, the canonical program `A217360.P18313722497906122328` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217360 has offset 0).
 
 The definition of A217360 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3938,7 +3939,7 @@ end A217360
 
 `8^n*A060706(n)/A100089(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217360
@@ -4143,7 +4144,7 @@ end A217362.P18292792108933660211
 /-!
 # A217363: Series reversion of x - 3*x^3.
 
-The programs for A217363, the canonical program `A217363.P13716447321066378103` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217363 has offset 1).
+The programs for A217363, the canonical program `A217363.P13716447321066378103` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217363 has offset 1).
 
 The definition of A217363 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4152,7 +4153,7 @@ The definition of A217363 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^n*A001764(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217363

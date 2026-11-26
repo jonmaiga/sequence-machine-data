@@ -54,7 +54,6 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -7858,7 +7857,7 @@ end A186774.P1392539146010648979
 /-!
 # A186775: Numbers k such that digitsum(2^k) > digitsum(2^(k+1)).
 
-The programs for A186775, the canonical program `A186775.P3396256789162687716` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186775 has offset 1).
+The programs for A186775, the canonical program `A186775.P3396256789162687716` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186775 has offset 1).
 
 The definition of A186775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4919 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7867,7 +7866,7 @@ The definition of A186775 is `conjectured`: the Lean definition is a formula tha
 
 `lt[Δ[A001370(n)], 0]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A186775
@@ -7943,6 +7942,12 @@ namespace A186775
 /-- `lt[Δ[∑{digits}[2^n, #]], 0]` -/
 def P11794705246253304340.Spec : Prop :=
   ∀ n, (P11794705246253304340.a n : ℤ) = A186775 (n + 1)
+
+theorem P11794705246253304340.correct : P11794705246253304340.Spec := by
+  intro n
+  simp only [A186775, Nat.add_sub_cancel, A186775.P11794705246253304340.f3, A186775.P11794705246253304340.f2, A186775.P11794705246253304340.f1, A186775.P11794705246253304340.f4, A186775.P11794705246253304340.a, A186775.P3396256789162687716.f2, A186775.P3396256789162687716.f1, A186775.P3396256789162687716.f3, A186775.P3396256789162687716.a, A001370, A001370.P17131759642291135112.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A186775
 

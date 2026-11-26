@@ -992,7 +992,7 @@ end A259920.P5807474731190187110
 /-!
 # A259923: a(n) = prime(n)^pi(n).
 
-The programs for A259923, the canonical program `A259923.P16057684249123722244` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259923 has offset 1).
+The programs for A259923, the canonical program `A259923.P16057684249123722244` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259923 has offset 1).
 
 The definition of A259923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1001,7 +1001,7 @@ The definition of A259923 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1)^A000720(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A259923
@@ -2608,7 +2608,7 @@ end A259935.P15894828382261979823
 /-!
 # A259936: Number of ways to express the integer n as a product of its unitary divisors (A034444).
 
-The programs for A259936, the canonical program `A259936.P1029624414517742943` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259936 has offset 1).
+The programs for A259936, the canonical program `A259936.P1029624414517742943` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259936 has offset 1).
 
 The definition of A259936 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2617,7 +2617,7 @@ The definition of A259936 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(A001221(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A259936
@@ -8562,7 +8562,7 @@ end A259986.P8625282722538619789
 /-!
 # A259987: This sequence and A259986 are base 6 analogs of A007185 and A016090, written in base 10.
 
-The programs for A259987, the canonical program `A259987.P3220040021666601922` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259987 has offset 1).
+The programs for A259987, the canonical program `A259987.P3220040021666601922` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259987 has offset 1).
 
 The definition of A259987 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8597,7 +8597,7 @@ end A259987
 
 `2^(n+1)*A283754(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A259987

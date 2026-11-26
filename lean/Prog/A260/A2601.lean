@@ -1737,7 +1737,7 @@ end A260118
 /-!
 # A260122: a(n) = floor( Product_{k = 1..n} k^(k/2) ).
 
-The programs for A260122, the canonical program `A260122.P13127268932523240348` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260122 has offset 1).
+The programs for A260122, the canonical program `A260122.P13127268932523240348` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260122 has offset 1).
 
 The definition of A260122 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1746,7 +1746,7 @@ The definition of A260122 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(A002109(n+1)))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260122
@@ -4327,7 +4327,7 @@ end A260131
 /-!
 # A260132: Number of (n+2) X (2+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.
 
-The programs for A260132, the canonical program `A260132.P1656730082743688597` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260132 has offset 1).
+The programs for A260132, the canonical program `A260132.P1656730082743688597` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260132 has offset 1).
 
 The definition of A260132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 271 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4336,7 +4336,7 @@ The definition of A260132 is `conjectured`: the Lean definition is a formula tha
 
 `2*A259636(1+n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260132

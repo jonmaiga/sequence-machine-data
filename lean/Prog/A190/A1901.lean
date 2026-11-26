@@ -316,7 +316,7 @@ end A190104.P8529160064005003327
 /-!
 # A190105: a(n) = (3*A002145(n) - 1)/4.
 
-The programs for A190105, the canonical program `A190105.P11754340986500372395` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190105 has offset 1).
+The programs for A190105, the canonical program `A190105.P11754340986500372395` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190105 has offset 1).
 
 The definition of A190105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -325,7 +325,7 @@ The definition of A190105 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*A002145(n+1)-1)/4`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A190105
@@ -6292,7 +6292,7 @@ end A190156
 /-!
 # A190158: Positions of 2 in A189463.
 
-The programs for A190158, the canonical program `A190158.P6937184412483478574` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190158 has offset 1).
+The programs for A190158, the canonical program `A190158.P6937184412483478574` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190158 has offset 1).
 
 The definition of A190158 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6301,7 +6301,7 @@ The definition of A190158 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A189463(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A190158
@@ -7490,7 +7490,7 @@ end A190171.P17893237954553838184
 /-!
 # A190173: a(n) = Sum_{1 <= i < j <= n} F(i)*F(j), where F(k) is the k-th Fibonacci number.
 
-The programs for A190173, the canonical program `A190173.P9804742847893681914` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190173 has offset 1).
+The programs for A190173, the canonical program `A190173.P9804742847893681914` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190173 has offset 1).
 
 The definition of A190173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7522,7 +7522,7 @@ end A190173
 
 `A000045(n+2)²-A000045(n+3)+(n+1)%2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A190173
@@ -9611,7 +9611,7 @@ end A190192
 /-!
 # A190193: Positions of 1 in A190191; complement of A190192.
 
-The programs for A190193, the canonical program `A190193.P3592298350612327416` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190193 has offset 1).
+The programs for A190193, the canonical program `A190193.P3592298350612327416` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190193 has offset 1).
 
 The definition of A190193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9677,7 +9677,7 @@ end A190193
 
 `eq[1, A190191(1+n)]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A190193

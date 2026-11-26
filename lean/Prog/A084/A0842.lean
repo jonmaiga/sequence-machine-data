@@ -4292,7 +4292,7 @@ end A084227
 /-!
 # A084228: a(1)=1, a(2)=2; thereafter a(n) = sum of digits of (a(1)+a(2)+a(3)+...+a(n-1)).
 
-The programs for A084228, the canonical program `A084228.P11895831632362515159` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084228 has offset 1).
+The programs for A084228, the canonical program `A084228.P11895831632362515159` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084228 has offset 1).
 
 The definition of A084228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4301,7 +4301,7 @@ The definition of A084228 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A160939(a(n-1)+1)-1, #]` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A084228

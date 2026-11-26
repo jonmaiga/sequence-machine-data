@@ -8377,7 +8377,7 @@ end A075174.P5355601443808953436
 /-!
 # A075177: Indices of additive primes, see A046704.
 
-The programs for A075177, the canonical program `A075177.P14538536249306811539` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075177 has offset 1).
+The programs for A075177, the canonical program `A075177.P14538536249306811539` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075177 has offset 1).
 
 The definition of A075177 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046704, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8386,7 +8386,7 @@ The definition of A075177 is `conditional`: the Lean definition is an OEIS formu
 
 `A000720(A046704(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A075177

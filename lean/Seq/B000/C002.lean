@@ -3900,6 +3900,38 @@ end
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010051.anchor (n : ℕ) (hn : 1 ≤ n) : A010051 n = if n.Prime then 1 else 0` in `Proof.A010.A010051`. -/
 def A010051.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A010052.P917763524850441347
+
+`char[n²]`
+-/
+
+namespace A010052.P917763524850441347
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = n then 1 else 0
+
+end
+
+end A010052.P917763524850441347
+
+noncomputable section
+
+/-- A010052: Characteristic function of squares: a(n) = 1 if n is a square, otherwise 0.
+
+Offset 0, canonical program `A010052.P917763524850441347`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010052.anchor (n : ℕ) : A010052 n = if IsSquare n then 1 else 0` in `Proof.A010.A010052`. -/
+def A010052 (n : ℕ) : ℤ :=
+  (A010052.P917763524850441347.a n : ℤ)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010052.anchor (n : ℕ) : A010052 n = if IsSquare n then 1 else 0` in `Proof.A010.A010052`. -/
+def A010052.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A010098.P6725421239295073081
 
 `a(n-1)*a(n-2)` with `a(0)=1, a(1)=3`
@@ -16541,35 +16573,33 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*a(n-1)+n+1` (program `A014831.P15083714595225687828`, by `A014831.P15083714595225687828.correct`). Lean does not check the parsing of the name. -/
 def A014831.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A014832.P16119270779884186029
+/-! ## A008612.P16648533606768999186
 
-`9*a(n-1)+n+1` with `a(0)=1`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+`a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=0, a(2)=0, a(3)=1, a(4)=1`
 -/
 
-namespace A014832.P16119270779884186029
+namespace A008612.P16648533606768999186
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  9 * a (n - 1) + (n + 1)
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0, 0, 1, 1] fun n a =>
+  a (n - 2) + a (n - 3) - a (n - 5)
 
 end
 
-end A014832.P16119270779884186029
+end A008612.P16648533606768999186
 
 noncomputable section
 
-/-- A014832: a(1)=1; for n>1, a(n) = 9*a(n-1) + n.
+/-- A008612: Molien series of 2-dimensional representation of SL(2,3).
 
-Offset 1, canonical program `A014832.P16119270779884186029`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*a(n-1)+n+1` (program `A014832.P16119270779884186029`, by `A014832.P16119270779884186029.correct`). Lean does not check the parsing of the name. -/
-def A014832 (n : ℕ) : ℤ :=
-  (A014832.P16119270779884186029.a (n - 1) : ℤ)
+Offset 0, canonical program `A008612.P16648533606768999186`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A008612 (n : ℕ) : ℤ :=
+  A008612.P16648533606768999186.a n
 
 end
 
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*a(n-1)+n+1` (program `A014832.P16119270779884186029`, by `A014832.P16119270779884186029.correct`). Lean does not check the parsing of the name. -/
-def A014832.provenance : SequenceMachineLib.Provenance := .verified
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A008612.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A008613.P5484530525919588035
 
@@ -26450,38 +26480,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A009279.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A010052.P917763524850441347
-
-`char[n²]`
--/
-
-namespace A010052.P917763524850441347
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A010052.P917763524850441347
-
-noncomputable section
-
-/-- A010052: Characteristic function of squares: a(n) = 1 if n is a square, otherwise 0.
-
-Offset 0, canonical program `A010052.P917763524850441347`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A010052 (n : ℕ) : ℤ :=
-  (A010052.P917763524850441347.a n : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A010052.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A010055.P13257247064813316035
 

@@ -45,7 +45,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1675,7 +1675,7 @@ end A400137.P4572869383660455500
 /-!
 # A400138: The number of divisors d of n such that gcid(d, n/d) is squarefree, where gcid is the greatest common infinitary divisor.
 
-The programs for A400138, the canonical program `A400138.P7100333575480106552` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400138 has offset 1).
+The programs for A400138, the canonical program `A400138.P7100333575480106552` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400138 has offset 1).
 
 The definition of A400138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1710,7 +1710,7 @@ end A400138
 
 `∑{d}[n+1, A008966(#)*A358260((n+1)/#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400138
@@ -2968,7 +2968,7 @@ end A400150
 
 The programs for A400151, the canonical program `A400151.P12638623928893939596` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400151 has offset 0).
 
-The definition of A400151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A400151 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A328571(A003415(n))` (program `A400151.P12638623928893939596`, by `A400151.P12638623928893939596.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A400151.P12638623928893939596
@@ -5403,7 +5403,7 @@ end A400177.P16773915957389500789
 /-!
 # A400179: a(n) = number of iterations of the map n -> A053188(n) needed to reach 0, starting from n.
 
-The programs for A400179, the canonical program `A400179.P4702326977669117953` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400179 has offset 0).
+The programs for A400179, the canonical program `A400179.P4702326977669117953` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400179 has offset 0).
 
 The definition of A400179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5412,7 +5412,7 @@ The definition of A400179 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+a(A053188(n))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400179

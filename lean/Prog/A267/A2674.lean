@@ -2071,7 +2071,7 @@ end A267429.P10189229552534868715
 /-!
 # A267430: Squares whose digit sum is not a prime.
 
-The programs for A267430, the canonical program `A267430.P7614672471199093547` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267430 has offset 1).
+The programs for A267430, the canonical program `A267430.P7614672471199093547` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267430 has offset 1).
 
 The definition of A267430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7395 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2109,7 +2109,7 @@ end A267430
 
 `eq[0, A105700(A004159(n)²)]²`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A267430

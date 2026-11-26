@@ -49,19 +49,17 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -2834,7 +2832,7 @@ end A343222.P3656784977323954746
 
 The programs for A343223, the canonical program `A343223.P16005087766060085566` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343223 has offset 1).
 
-The definition of A343223 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A343223 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A003415(n+1), A003415(A000203(n+1))-(n+1))` (program `A343223.P16005087766060085566`, by `A343223.P16005087766060085566.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A343223.P2053338188029488254
@@ -2956,7 +2954,7 @@ end A343223
 
 The programs for A343224, the canonical program `A343224.P18101851413978261599` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343224 has offset 1).
 
-The definition of A343224 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A343224 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(n+1)-A003415(n+1)` (program `A343224.P18101851413978261599`, by `A343224.P18101851413978261599.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A343224.P18101851413978261599
@@ -3639,7 +3637,7 @@ end A343225.P16234051245328142882
 
 The programs for A343226, the canonical program `A343226.P5865503827985673324` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343226 has offset 1).
 
-The definition of A343226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A343226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `gcd(A000203(n+1), n+1+A003415(n+1))` (program `A343226.P5865503827985673324`, by `A343226.P5865503827985673324.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A343226.P13126474136555164669
@@ -4405,6 +4403,12 @@ namespace A343228
 def P13822759521168556480.Spec : Prop :=
   ∀ n, P13822759521168556480.a n = A343228 n
 
+theorem P13822759521168556480.correct : P13822759521168556480.Spec := by
+  intro n
+  simp only [A343228, Nat.add_sub_cancel, A343228.P13822759521168556480.a, A343228.P395779845011442952.a, A060372, A060372.P13562167118752793562.a, A289831, A289831.P1355285298190598776.a, A343229, A343229.P18291780148970798749.a, A343231, A343231.P10441655631567260462.a, A060373, A060373.P1941735290763042490.a, A289813, A289813.P9011554254818249259.a, A289814, A289814.P11371932108795153936.a, A338242, A338242.P14287517740341381952.a, A374362, A374362.P13095679311797135054.a, A004488, A004488.P15486159278781190577.a, A005836, A005836.P12367569128854000442.a, A338241, A338241.P14160391239294064305.a, A001057, A001057.P5698194758103254717.a, A128173, A128173.P11177856239651542119.a, A168237, A168237.P12346762420407185560.a, A300222, A300222.P16406266268068730929.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A343228
 
 /-! ## A343228.P17439964020699670183
@@ -4822,6 +4826,12 @@ namespace A343229
 /-- `A343231(n)-A343228(n)` -/
 def P17373463223881416462.Spec : Prop :=
   ∀ n, P17373463223881416462.a n = A343229 n
+
+theorem P17373463223881416462.correct : P17373463223881416462.Spec := by
+  intro n
+  simp only [A343229, Nat.add_sub_cancel, A343229.P17373463223881416462.a, A343229.P18291780148970798749.a, A060373, A060373.P1941735290763042490.a, A289831, A289831.P1355285298190598776.a, A343228, A343228.P395779845011442952.a, A343231, A343231.P10441655631567260462.a, A060372, A060372.P13562167118752793562.a, A289813, A289813.P9011554254818249259.a, A289814, A289814.P11371932108795153936.a, A004488, A004488.P15486159278781190577.a, A338242, A338242.P14287517740341381952.a, A374362, A374362.P13095679311797135054.a, A005836, A005836.P12367569128854000442.a, A168237, A168237.P12346762420407185560.a, A300222, A300222.P16406266268068730929.a, A338241, A338241.P14160391239294064305.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A343229
 

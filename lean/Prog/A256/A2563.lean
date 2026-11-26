@@ -8658,7 +8658,7 @@ end A256385.P491164440170430929
 /-!
 # A256387: Numbers n such that no prime can be the arithmetic mean of 2 semiprimes whose difference is 2*n.
 
-The programs for A256387, the canonical program `A256387.P14802549228098332035` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256387 has offset 1).
+The programs for A256387, the canonical program `A256387.P14802549228098332035` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256387 has offset 1).
 
 The definition of A256387 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8717,7 +8717,7 @@ end A256387
 
 `2*lt[2, A166597(2*n)]-3`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A256387

@@ -2303,6 +2303,12 @@ namespace A108033
 def P16304595881035037373.Spec : Prop :=
   ∀ n, P16304595881035037373.a n = (A108033 (n + 2) : ℚ)
 
+theorem P16304595881035037373.correct : P16304595881035037373.Spec := by
+  intro n
+  simp only [A108033, Nat.add_sub_cancel, A108033.P16304595881035037373.a, A108033.P10796284203387221337.a, A005990, A005990.P5614405367492200438.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A108033
 
 /-! ## A108033.P842561106580290599

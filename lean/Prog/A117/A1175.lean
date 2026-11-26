@@ -50,7 +50,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -64,7 +63,6 @@ import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -909,7 +907,7 @@ end A117509.P8104277681393915331
 /-!
 # A117511: Triangular numbers for which the sum of the digits equals the sum of the digits of the next triangular number.
 
-The programs for A117511, the canonical program `A117511.P13071202074021553455` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117511 has offset 1).
+The programs for A117511, the canonical program `A117511.P13071202074021553455` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117511 has offset 1).
 
 The definition of A117511 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 491 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -918,7 +916,7 @@ The definition of A117511 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[A004157(n+1), A004157(n)])`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A117511

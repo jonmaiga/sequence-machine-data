@@ -40,7 +40,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -3482,7 +3481,7 @@ end A239936.P214323815378153931
 /-!
 # A239937: Numbers k such that digsum(k^2) > digsum((k+1)^2).
 
-The programs for A239937, the canonical program `A239937.P16644113360716350106` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239937 has offset 1).
+The programs for A239937, the canonical program `A239937.P16644113360716350106` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239937 has offset 1).
 
 The definition of A239937 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4651 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3520,13 +3519,19 @@ namespace A239937
 def P1265618449503914246.Spec : Prop :=
   ∀ n, (P1265618449503914246.a n : ℤ) = A239937 (n + 1)
 
+theorem P1265618449503914246.correct : P1265618449503914246.Spec := by
+  intro n
+  simp only [A239937, Nat.add_sub_cancel, A239937.P1265618449503914246.f3, A239937.P1265618449503914246.f2, A239937.P1265618449503914246.f1, A239937.P1265618449503914246.f4, A239937.P1265618449503914246.a, A239937.P16644113360716350106.f2, A239937.P16644113360716350106.f1, A239937.P16644113360716350106.f3, A239937.P16644113360716350106.a, A004159, A004159.P12894520007403696170.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A239937
 
 /-! ## A239937.P16644113360716350106
 
 `lt[Δ[A004159(n)], 0]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A239937
@@ -3570,7 +3575,7 @@ def P293640841931218464.Spec : Prop :=
 
 theorem P293640841931218464.correct : P293640841931218464.Spec := by
   intro n
-  simp only [A239937, Nat.add_sub_cancel, A239937.P293640841931218464.f1, A239937.P293640841931218464.f2, A239937.P293640841931218464.a, A239937.P16644113360716350106.f2, A239937.P16644113360716350106.f1, A239937.P16644113360716350106.f3, A239937.P16644113360716350106.a, A004159, A004159.P12894520007403696170.a, A240752, A240752.P1774461778050441165.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A239937, Nat.add_sub_cancel, A239937.P293640841931218464.f1, A239937.P293640841931218464.f2, A239937.P293640841931218464.a, A239937.P16644113360716350106.f2, A239937.P16644113360716350106.f1, A239937.P16644113360716350106.f3, A239937.P16644113360716350106.a, A004159, A004159.P12894520007403696170.a, A240752, A240752.P1774461778050441165.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

@@ -2409,7 +2409,7 @@ end A273719.P16308756315972030775
 /-!
 # A273720: Number of horizontal steps in the peaks of all bargraphs having semiperimeter n (n>=2).
 
-The programs for A273720, the canonical program `A273720.P12744235909433365831` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273720 has offset 2).
+The programs for A273720, the canonical program `A273720.P12744235909433365831` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273720 has offset 2).
 
 The definition of A273720 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2444,7 +2444,7 @@ end A273720
 
 `∑[∑[A273716(2+n)]]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A273720

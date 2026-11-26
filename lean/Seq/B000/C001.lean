@@ -9406,6 +9406,37 @@ end
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A007947.anchor (n : ℕ) (hn : 1 ≤ n) : A007947 n = ((UniqueFactorizationMonoid.radical n : ℕ) : ℤ)` in `Proof.A007.A007947`. -/
 def A007947.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A007953.P17470406891730602483
+
+`∑{digits}[n, #]`
+-/
+
+namespace A007953.P17470406891730602483
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).sum
+
+end
+
+end A007953.P17470406891730602483
+
+noncomputable section
+
+/-- A007953: Digital sum (i.e., sum of digits) of n; also called digsum(n).
+
+Offset 0, canonical program `A007953.P17470406891730602483`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A007953.anchor (n : ℕ) : A007953 n = ((Nat.digits 10 n).sum : ℤ)` in `Proof.A007.A007953`. -/
+def A007953 (n : ℕ) : ℤ :=
+  (A007953.P17470406891730602483.a n : ℤ)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A007953.anchor (n : ℕ) : A007953 n = ((Nat.digits 10 n).sum : ℤ)` in `Proof.A007.A007953`. -/
+def A007953.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A007979.P12531594186640200208
 
 `ogf((1+x^2+x^4+x^6)/(1-2x+x^3+x^4-2x^6+x^7))`
@@ -25907,34 +25938,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A008610.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A008612.P16648533606768999186
-
-`a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=0, a(2)=0, a(3)=1, a(4)=1`
--/
-
-namespace A008612.P16648533606768999186
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0, 0, 1, 1] fun n a =>
-  a (n - 2) + a (n - 3) - a (n - 5)
-
-end
-
-end A008612.P16648533606768999186
-
-noncomputable section
-
-/-- A008612: Molien series of 2-dimensional representation of SL(2,3).
-
-Offset 0, canonical program `A008612.P16648533606768999186`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A008612 (n : ℕ) : ℤ :=
-  A008612.P16648533606768999186.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A008612.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A004454.P13525141591151696075
 

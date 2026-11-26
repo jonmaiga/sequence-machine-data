@@ -46,7 +46,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -6855,7 +6854,7 @@ end A104246.P5257457651981796839
 /-!
 # A104247: Primes that are the sum of digits of the first k primes for some k.
 
-The programs for A104247, the canonical program `A104247.P9484724603255366417` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104247 has offset 1).
+The programs for A104247, the canonical program `A104247.P9484724603255366417` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104247 has offset 1).
 
 The definition of A104247 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 934 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6864,7 +6863,7 @@ The definition of A104247 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A051351(n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A104247
@@ -9192,7 +9191,7 @@ def P15034565987008451085.Spec : Prop :=
 
 theorem P15034565987008451085.correct : P15034565987008451085.Spec := by
   intro n
-  simp only [A104260, Nat.add_sub_cancel, A104260.P15034565987008451085.a, A104260.P17281038735353621208.f1, A104260.P17281038735353621208.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007605, A007605.P14521423581831153617.a, A104261, A104261.P6514449015023123147.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A104260, Nat.add_sub_cancel, A104260.P15034565987008451085.a, A104260.P17281038735353621208.f1, A104260.P17281038735353621208.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007605, A007605.P14521423581831153617.a, A104261, A104261.P6514449015023123147.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -9350,16 +9349,16 @@ end A104260
 /-!
 # A104261: Sum of even digits (0,2,4,6,8) of n-th prime.
 
-The programs for A104261, the canonical program `A104261.P6514449015023123147` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104261 has offset 1).
+The programs for A104261, the canonical program `A104261.P6514449015023123147` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104261 has offset 1).
 
-The definition of A104261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007605, A104260, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A104261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A104260, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A104261.P6514449015023123147
 
 `A007605(n+1)-A104260(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A104261

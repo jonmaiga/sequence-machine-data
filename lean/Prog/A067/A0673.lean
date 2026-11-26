@@ -50,6 +50,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -6180,16 +6181,16 @@ end A067341.P12452382449649550558
 /-!
 # A067342: Sum of decimal digits of sum of divisors of n.
 
-The programs for A067342, the canonical program `A067342.P529008459942700744` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067342 has offset 1).
+The programs for A067342, the canonical program `A067342.P529008459942700744` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067342 has offset 1).
 
-The definition of A067342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A067342 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A067342.P529008459942700744
 
 `A007953(A000203(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A067342
@@ -6713,7 +6714,7 @@ end A067342
 /-!
 # A067343: Sum of decimal digits of n equals sum of decimal digits of sum of divisors of n.
 
-The programs for A067343, the canonical program `A067343.P8902143204584263014` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067343 has offset 1).
+The programs for A067343, the canonical program `A067343.P8902143204584263014` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067343 has offset 1).
 
 The definition of A067343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 459 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6722,7 +6723,7 @@ The definition of A067343 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007953(n), A067342(A028310(n))]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A067343

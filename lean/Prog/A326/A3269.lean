@@ -1640,7 +1640,7 @@ end A326918.P1208270757024702441
 /-!
 # A326920: Constant term in the expansion of (-1 + Product_{k=1..n} (1 + x_k + 1/x_k))^n.
 
-The programs for A326920, the canonical program `A326920.P11332022772373846301` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326920 has offset 0).
+The programs for A326920, the canonical program `A326920.P11332022772373846301` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326920 has offset 0).
 
 The definition of A326920 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1649,7 +1649,7 @@ The definition of A326920 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (-1)^(n-#)*C(n, #)*A002426(#)^n]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A326920
@@ -2027,7 +2027,7 @@ end A326929.P6813985337063235715
 /-!
 # A326933: Number of nonconstant irreducible polynomial divisors of the n-th polynomial given in A326926.
 
-The programs for A326933, the canonical program `A326933.P3000388639644636097` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326933 has offset 0).
+The programs for A326933, the canonical program `A326933.P3000388639644636097` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326933 has offset 0).
 
 The definition of A326933 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2049 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2143,7 +2143,7 @@ end A326933
 
 `∑{d}[n+1, A101825(#-1)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A326933
@@ -7063,7 +7063,7 @@ end A326987
 /-!
 # A326988: Sum of nonpowers of 2 dividing n.
 
-The programs for A326988, the canonical program `A326988.P10350462572344602994` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326988 has offset 1).
+The programs for A326988, the canonical program `A326988.P10350462572344602994` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326988 has offset 1).
 
 The definition of A326988 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7072,7 +7072,7 @@ The definition of A326988 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(n+1)-A038712(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A326988
@@ -7587,7 +7587,7 @@ end A326989.P9982973233921756871
 /-!
 # A326990: Sum of odd divisors of n that are greater than 1.
 
-The programs for A326990, the canonical program `A326990.P6670757131686068120` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326990 has offset 1).
+The programs for A326990, the canonical program `A326990.P6670757131686068120` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326990 has offset 1).
 
 The definition of A326990 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7596,7 +7596,7 @@ The definition of A326990 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000593(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A326990

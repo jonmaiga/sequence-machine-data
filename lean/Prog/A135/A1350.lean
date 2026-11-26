@@ -7809,7 +7809,7 @@ end A135075.P6286669721114944509
 /-!
 # A135076: Primes appearing in A001370.
 
-The programs for A135076, the canonical program `A135076.P11264756244026486480` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135076 has offset 1).
+The programs for A135076, the canonical program `A135076.P11264756244026486480` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135076 has offset 1).
 
 The definition of A135076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7818,7 +7818,7 @@ The definition of A135076 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A001370(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A135076
@@ -8532,7 +8532,7 @@ end A135084.P1814449179907930322
 
 The programs for A135085, the canonical program `A135085.P12997960903675418304` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135085 has offset 0).
 
-The definition of A135085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A135085 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000110(2^n)` (program `A135085.P12997960903675418304`, by `A135085.P12997960903675418304.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A135085.P12997960903675418304

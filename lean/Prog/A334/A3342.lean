@@ -44,6 +44,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -1409,7 +1410,7 @@ end A334206.P14117990587632710787
 /-!
 # A334207: Number of ways to write 2n as the sum of two nonprime positive integers.
 
-The programs for A334207, the canonical program `A334207.P17843764206800091319` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334207 has offset 1).
+The programs for A334207, the canonical program `A334207.P17843764206800091319` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334207 has offset 1).
 
 The definition of A334207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1487,7 +1488,7 @@ end A334207
 
 `A062610(2*(1+n))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A334207

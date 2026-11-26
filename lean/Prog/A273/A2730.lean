@@ -46,6 +46,7 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -59,11 +60,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1929,7 +1928,7 @@ end A273019
 /-!
 # A273020: a(n) = Sum_{k=0..n} C(n,k)*((-1)^n*(C(k,n-k)-C(k,n-k-1))+C(n-k,k+1)).
 
-The programs for A273020, the canonical program `A273020.P8082277504351008940` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273020 has offset 0).
+The programs for A273020, the canonical program `A273020.P8082277504351008940` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273020 has offset 0).
 
 The definition of A273020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1938,7 +1937,7 @@ The definition of A273020 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A097861(n)+∑[A099323(n)]]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A273020
@@ -5969,7 +5968,7 @@ end A273059.P2284571010174115326
 /-!
 # A273060: a(n) = phi(n!)/phi(n).
 
-The programs for A273060, the canonical program `A273060.P12650829157669879632` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273060 has offset 1).
+The programs for A273060, the canonical program `A273060.P12650829157669879632` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273060 has offset 1).
 
 The definition of A273060 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5978,7 +5977,7 @@ The definition of A273060 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A048855(n+1)/A000010(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A273060

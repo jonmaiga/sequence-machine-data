@@ -40,6 +40,7 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1133,7 +1134,7 @@ end A399732
 
 The programs for A399733, the canonical program `A399733.P11103501656133543636` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399733 has offset 1).
 
-The definition of A399733 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A363289, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A399733 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363289, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A399733.P11103501656133543636
@@ -1271,7 +1272,7 @@ end A399733
 
 The programs for A399734, the canonical program `A399734.P6634302789312156605` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399734 has offset 1).
 
-The definition of A399734 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A399732, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A399734 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A399732, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A399734.P6634302789312156605
@@ -1574,7 +1575,7 @@ end A399735
 
 The programs for A399736, the canonical program `A399736.P2270532128408335001` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399736 has offset 1).
 
-The definition of A399736 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A399735, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A399736 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A399735, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A399736.P2270532128408335001
@@ -2137,7 +2138,7 @@ end A399738
 
 The programs for A399739, the canonical program `A399739.P5287244572555997203` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399739 has offset 1).
 
-The definition of A399739 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A399738, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A399739 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A399738, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A399739.P5287244572555997203
@@ -2640,7 +2641,7 @@ end A399740.P676649806269320168
 /-!
 # A399742: Table of B(n, m) read by antidiagonals: B(n, m) = Sum_{k=0..m-1} binomial(k+n, n) * 2^k and B(n, 0) = 0, for n >= 0, m >= 0.
 
-The programs for A399742, the canonical program `A399742.P12674386564686535397` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399742 has offset 0).
+The programs for A399742, the canonical program `A399742.P12674386564686535397` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399742 has offset 0).
 
 The definition of A399742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2771,7 +2772,7 @@ end A399742
 
 `A193845(n)-A038207(n)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399742

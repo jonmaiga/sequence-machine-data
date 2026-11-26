@@ -58,20 +58,17 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -1754,7 +1751,7 @@ end A333813
 /-!
 # A333814: Multiples of 12 whose sum of digits is 12.
 
-The programs for A333814, the canonical program `A333814.P13105421635871502220` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333814 has offset 1).
+The programs for A333814, the canonical program `A333814.P13105421635871502220` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333814 has offset 1).
 
 The definition of A333814 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 852 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1763,7 +1760,7 @@ The definition of A333814 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A062753(n+1), A019557(n)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A333814
@@ -6358,7 +6355,7 @@ end A333867.P886229893160455259
 /-!
 # A333869: Perimeters of integer-sided triangles with at least one prime altitude.
 
-The programs for A333869, the canonical program `A333869.P12729571298558811765` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333869 has offset 1).
+The programs for A333869, the canonical program `A333869.P12729571298558811765` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333869 has offset 1).
 
 The definition of A333869 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 292 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6367,7 +6364,7 @@ The definition of A333869 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A036690(n+2), A079704(n+2)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A333869

@@ -805,16 +805,16 @@ end A372923.P14935095320695515478
 /-!
 # A372924: a(n) = (sum_digits(n^3)-n)/3.
 
-The programs for A372924, the canonical program `A372924.P2536163758219034350` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372924 has offset 0).
+The programs for A372924, the canonical program `A372924.P2536163758219034350` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372924 has offset 0).
 
-The definition of A372924 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004164, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A372924 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A372924.P2536163758219034350
 
 `(A004164(n)-n)/3`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A372924

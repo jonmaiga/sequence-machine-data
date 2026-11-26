@@ -43,6 +43,7 @@ import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
@@ -51,7 +52,6 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5369,7 +5369,7 @@ end A279767
 /-!
 # A279768: Numbers n such that the sum of digits of 8n equals 16.
 
-The programs for A279768, the canonical program `A279768.P17710633787375653040` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279768 has offset 1).
+The programs for A279768, the canonical program `A279768.P17710633787375653040` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279768 has offset 1).
 
 The definition of A279768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5378,7 +5378,7 @@ The definition of A279768 is `conjectured`: the Lean definition is a formula tha
 
 `eq[16, A004092(A008574(n))]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279768
@@ -6376,7 +6376,7 @@ end A279774.P12744789025153728922
 /-!
 # A279775: Numbers k such that the sum of digits of 5k equals 10.
 
-The programs for A279775, the canonical program `A279775.P51189756934604812` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279775 has offset 1).
+The programs for A279775, the canonical program `A279775.P51189756934604812` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279775 has offset 1).
 
 The definition of A279775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6385,7 +6385,7 @@ The definition of A279775 is `conjectured`: the Lean definition is a formula tha
 
 `eq[10, A326746(5*n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279775
@@ -6519,7 +6519,7 @@ end A279775
 /-!
 # A279776: Numbers n such that the sum of digits of 6n equals 12.
 
-The programs for A279776, the canonical program `A279776.P18021118608583568116` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279776 has offset 1).
+The programs for A279776, the canonical program `A279776.P18021118608583568116` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279776 has offset 1).
 
 The definition of A279776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 981 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6528,7 +6528,7 @@ The definition of A279776 is `conjectured`: the Lean definition is a formula tha
 
 `∩[2*n, A235151(n+1)]/6`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A279776

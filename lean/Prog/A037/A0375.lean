@@ -13369,7 +13369,7 @@ end A037539
 /-!
 # A037540: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,1.
 
-The programs for A037540, the canonical program `A037540.P9383526262443881977` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037540 has offset 1).
+The programs for A037540, the canonical program `A037540.P9383526262443881977` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037540 has offset 1).
 
 The definition of A037540 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13378,7 +13378,7 @@ The definition of A037540 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+x^2)/(1-7x-x^3+7x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037540

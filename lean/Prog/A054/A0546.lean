@@ -2420,6 +2420,12 @@ namespace A054607
 def P7245823289083427972.Spec : Prop :=
   ∀ n, P7245823289083427972.a n = A054607 n
 
+theorem P7245823289083427972.correct : P7245823289083427972.Spec := by
+  intro n
+  simp only [A054607, Nat.add_sub_cancel, A054607.P7245823289083427972.a, A054607.P2335421051674643389.a, A168179, A168179.P8566416021942520231.a, A021003, A021003.P1631402243745340027.a, A071252, A071252.P13937739183146272210.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A054607
 
 /-! ## A054607.P14070502604114595079

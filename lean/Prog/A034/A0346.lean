@@ -36,16 +36,15 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -4856,7 +4855,7 @@ end A034689
 /-!
 # A034690: Sum of digits of all the divisors of n.
 
-The programs for A034690, the canonical program `A034690.P17563820715666541264` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034690 has offset 1).
+The programs for A034690, the canonical program `A034690.P17563820715666541264` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034690 has offset 1).
 
 The definition of A034690 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4865,7 +4864,7 @@ The definition of A034690 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[1+n, A007953(#)]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A034690
@@ -4932,7 +4931,7 @@ def P7172237674685171025.Spec : Prop :=
 
 theorem P7172237674685171025.correct : P7172237674685171025.Spec := by
   intro n
-  simp only [A034690, Nat.add_sub_cancel, A034690.P7172237674685171025.f1, A034690.P7172237674685171025.a, A034690.P17563820715666541264.f1, A034690.P17563820715666541264.a, A007953, A007953.P3472751987379697826.a, A062028, A062028.P8420805724104474199.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A034690, Nat.add_sub_cancel, A034690.P7172237674685171025.f1, A034690.P7172237674685171025.a, A034690.P17563820715666541264.f1, A034690.P17563820715666541264.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A062028, A062028.P8420805724104474199.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

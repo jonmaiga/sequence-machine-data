@@ -10196,7 +10196,7 @@ end A010051
 
 The programs for A010052, the canonical program `A010052.P917763524850441347` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010052 has offset 0).
 
-The definition of A010052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A010052 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010052.anchor (n : ℕ) : A010052 n = if IsSquare n then 1 else 0` in `Proof.A010.A010052`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010052.P917763524850441347

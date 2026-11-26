@@ -36,6 +36,7 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
@@ -55,7 +56,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -15987,7 +15987,7 @@ end A166672.P9854943681815413918
 /-!
 # A166673: Totally multiplicative sequence with a(p) = 3p+2 for prime p.
 
-The programs for A166673, the canonical program `A166673.P4650330979156642246` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166673 has offset 1).
+The programs for A166673, the canonical program `A166673.P4650330979156642246` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166673 has offset 1).
 
 The definition of A166673 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15996,7 +15996,7 @@ The definition of A166673 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n+1, A016789(#)^val(n+1, #)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166673
@@ -19053,7 +19053,7 @@ end A166696.P1337190099169358280
 /-!
 # A166697: A "Morgan Voyce" transform of A103210.
 
-The programs for A166697, the canonical program `A166697.P14572774445415886194` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166697 has offset 0).
+The programs for A166697, the canonical program `A166697.P14572774445415886194` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166697 has offset 0).
 
 The definition of A166697 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19062,7 +19062,7 @@ The definition of A166697 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A085478(C(n+1, 2)+#)*A103210(#)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166697

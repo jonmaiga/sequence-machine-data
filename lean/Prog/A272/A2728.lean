@@ -55,6 +55,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
@@ -6359,7 +6360,7 @@ end A272871
 /-!
 # A272872: Numbers k such that k+1 is divisible by number of divisors of k.
 
-The programs for A272872, the canonical program `A272872.P8682304153885623018` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272872 has offset 1).
+The programs for A272872, the canonical program `A272872.P8682304153885623018` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272872 has offset 1).
 
 The definition of A272872 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6368,7 +6369,7 @@ The definition of A272872 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(n+2)%A000005(1+n), 1]+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A272872

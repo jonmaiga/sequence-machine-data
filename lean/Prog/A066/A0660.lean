@@ -464,7 +464,7 @@ end A066003
 /-!
 # A066004: Sum of digits of 8^n.
 
-The programs for A066004, the canonical program `A066004.P14525788820147274037` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A066004 has offset 0).
+The programs for A066004, the canonical program `A066004.P14525788820147274037` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A066004 has offset 0).
 
 The definition of A066004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -473,7 +473,7 @@ The definition of A066004 is `conjectured`: the Lean definition is a formula tha
 
 `A001370(3*n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A066004
@@ -560,7 +560,7 @@ def P14117961818523237306.Spec : Prop :=
 
 theorem P14117961818523237306.correct : P14117961818523237306.Spec := by
   intro n
-  simp only [A066004, Nat.add_sub_cancel, A066004.P14117961818523237306.a, A066004.P14525788820147274037.a, A001370, A001370.P17131759642291135112.a, A004164, A004164.P6725332808826144637.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A066004, Nat.add_sub_cancel, A066004.P14117961818523237306.a, A066004.P14525788820147274037.a, A001370, A001370.P17131759642291135112.a, A004164, A004164.P6725332808826144637.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

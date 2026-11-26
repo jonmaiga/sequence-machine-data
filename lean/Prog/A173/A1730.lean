@@ -50,7 +50,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -3720,7 +3719,7 @@ end A173024
 /-!
 # A173025: Numbers whose binary representation contains no isolated digits "11".
 
-The programs for A173025, the canonical program `A173025.P5198389285230754889` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173025 has offset 1).
+The programs for A173025, the canonical program `A173025.P5198389285230754889` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173025 has offset 1).
 
 The definition of A173025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3956,7 +3955,7 @@ end A173025
 
 `eq[A048733(A048735(n)), A048735(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A173025

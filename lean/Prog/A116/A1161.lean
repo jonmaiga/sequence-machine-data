@@ -815,7 +815,7 @@ end A116124.P8927099281266202274
 /-!
 # A116127: Number of numbers that are congruent to {2, 4} mod 6 between prime(n) and prime(n+1) inclusive.
 
-The programs for A116127, the canonical program `A116127.P12388645020949059147` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116127 has offset 1).
+The programs for A116127, the canonical program `A116127.P12388645020949059147` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116127 has offset 1).
 
 The definition of A116127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -824,7 +824,7 @@ The definition of A116127 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(A055670(1+n)/3)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116127

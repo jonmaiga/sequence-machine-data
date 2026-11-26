@@ -42,8 +42,8 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1131,7 +1131,7 @@ end A399033.P3468460947291805648
 /-!
 # A399035: The unique sequence a(n) such that A000296(n) = a(n) + a(n+1).
 
-The programs for A399035, the canonical program `A399035.P1234000300610669650` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399035 has offset 0).
+The programs for A399035, the canonical program `A399035.P1234000300610669650` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399035 has offset 0).
 
 The definition of A399035 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1140,7 +1140,7 @@ The definition of A399035 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n-2)-2*a(n-1)-a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399035
@@ -2084,7 +2084,7 @@ end A399050.P6117343476526435286
 /-!
 # A399053: Sum of cubefree numbers <= n.
 
-The programs for A399053, the canonical program `A399053.P357460627173344980` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399053 has offset 1).
+The programs for A399053, the canonical program `A399053.P357460627173344980` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399053 has offset 1).
 
 The definition of A399053 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2093,7 +2093,7 @@ The definition of A399053 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor((n+1)^(1/3))-1, A008683(#+1)*(#+1)^3*C(floor((n+1)/(#+1)^3)+1, 2)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399053
@@ -2572,7 +2572,7 @@ end A399055.P925998904664244044
 /-!
 # A399056: a(n) = (number of nonprimes <= n^2) - (number of primes <= n^2).
 
-The programs for A399056, the canonical program `A399056.P5606043138281039820` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399056 has offset 1).
+The programs for A399056, the canonical program `A399056.P5606043138281039820` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399056 has offset 1).
 
 The definition of A399056 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2604,7 +2604,7 @@ end A399056
 
 `(n+1)²-2*A000720((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399056
@@ -3475,7 +3475,7 @@ end A399079.P4180105206124473532
 /-!
 # A399081: Triangle read by rows: T(n,k) = Product_{p odd prime, 3 <= p <= n} p^(floor(log(n) /log(p)) - v_p(k)), where v_p(k) - p-adic valuation and T(1,1) = T(2,1) = T(2,2) = 1.
 
-The programs for A399081, the canonical program `A399081.P16471427921113068956` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399081 has offset 1).
+The programs for A399081, the canonical program `A399081.P16471427921113068956` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399081 has offset 1).
 
 The definition of A399081 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3507,7 +3507,7 @@ end A399081
 
 `A000265(A003418(row(n)+1)/(col(n)+1))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399081

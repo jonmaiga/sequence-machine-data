@@ -289,7 +289,7 @@ end A141100
 /-!
 # A141101: a(n) = prime(2*n) - 2*n.
 
-The programs for A141101, the canonical program `A141101.P16887844390166522487` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141101 has offset 1).
+The programs for A141101, the canonical program `A141101.P16887844390166522487` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141101 has offset 1).
 
 The definition of A141101 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(2*(n+1))-2*(n+1)` (program `A141101.P16887844390166522487`, by `A141101.P16887844390166522487.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -327,7 +327,7 @@ end A141101
 
 `A000040(2*(n+1))-2*(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A141101
@@ -821,7 +821,7 @@ end A141101
 /-!
 # A141102: a(n) = prime(2^n) - n^2.
 
-The programs for A141102, the canonical program `A141102.P60375567433698693` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141102 has offset 1).
+The programs for A141102, the canonical program `A141102.P60375567433698693` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141102 has offset 1).
 
 The definition of A141102 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(2^(n+1))-(n+1)²` (program `A141102.P60375567433698693`, by `A141102.P60375567433698693.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -830,7 +830,7 @@ The definition of A141102 is `verified`: the Lean definition is proven equivalen
 
 `A000040(2^(n+1))-(n+1)²`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A141102
@@ -964,7 +964,7 @@ end A141102
 /-!
 # A141103: a(n) = prime(n^n) - n^n.
 
-The programs for A141103, the canonical program `A141103.P13943151980029966926` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141103 has offset 1).
+The programs for A141103, the canonical program `A141103.P13943151980029966926` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141103 has offset 1).
 
 The definition of A141103 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040((n+1)^(n+1))-(n+1)^(n+1)` (program `A141103.P13943151980029966926`, by `A141103.P13943151980029966926.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -973,7 +973,7 @@ The definition of A141103 is `verified`: the Lean definition is proven equivalen
 
 `A000040((n+1)^(n+1))-(n+1)^(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A141103

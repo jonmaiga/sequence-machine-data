@@ -3227,6 +3227,34 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006512, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A165242.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A166173.P17158240679124746959
+
+`A007953(A001359(n+1))+A007953(A006512(n+1))`
+-/
+
+namespace A166173.P17158240679124746959
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A001359 (n + 1)).toNat + A007953 (A006512 (n + 1)).toNat
+
+end
+
+end A166173.P17158240679124746959
+
+noncomputable section
+
+/-- A166173: Digit sum of n-th twin prime pair.
+
+Offset 1, canonical program `A166173.P17158240679124746959`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A166173 (n : ℕ) : ℤ :=
+  A166173.P17158240679124746959.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A166173.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A167132.P340755037681699501
 
 `A001359(n+2)-A006512(n+1)`
@@ -9612,34 +9640,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003963, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A163830.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A166173.P17158240679124746959
-
-`A007953(A001359(n+1))+A007953(A006512(n+1))`
--/
-
-namespace A166173.P17158240679124746959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007953 (A001359 (n + 1)).toNat + A007953 (A006512 (n + 1)).toNat
-
-end
-
-end A166173.P17158240679124746959
-
-noncomputable section
-
-/-- A166173: Digit sum of n-th twin prime pair.
-
-Offset 1, canonical program `A166173.P17158240679124746959`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A166173 (n : ℕ) : ℤ :=
-  A166173.P17158240679124746959.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A166173.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A175508.P778312085289733419
 

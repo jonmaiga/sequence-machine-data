@@ -2279,7 +2279,7 @@ end A217028.P11070068561101567472
 /-!
 # A217029: Array T(i,j) read by antidiagonals, where T(i,j) is the height of i/j, that is max(|m|,|n|) with m/n = i/j and gcd(m, n) = 1.
 
-The programs for A217029, the canonical program `A217029.P14938499860737606038` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217029 has offset 1).
+The programs for A217029, the canonical program `A217029.P14938499860737606038` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217029 has offset 1).
 
 The definition of A217029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2288,7 +2288,7 @@ The definition of A217029 is `conjectured`: the Lean definition is a formula tha
 
 `A003990(n+1)/A003983(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217029

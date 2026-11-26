@@ -52,6 +52,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -11652,7 +11653,7 @@ end A139761
 /-!
 # A139762: a(n)=Sum_digits_of_a(n-1)+Sum_digits_of(n).
 
-The programs for A139762, the canonical program `A139762.P8061600169167864390` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139762 has offset 0).
+The programs for A139762, the canonical program `A139762.P8061600169167864390` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139762 has offset 0).
 
 The definition of A139762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11661,7 +11662,7 @@ The definition of A139762 is `conjectured`: the Lean definition is a formula tha
 
 `A007953(a(n-1))+A007953(n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A139762

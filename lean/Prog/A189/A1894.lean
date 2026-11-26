@@ -63,7 +63,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -6950,7 +6949,7 @@ end A189464
 /-!
 # A189465: Positions of 1 in A189463.
 
-The programs for A189465, the canonical program `A189465.P12803094612992992419` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189465 has offset 1).
+The programs for A189465, the canonical program `A189465.P12803094612992992419` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189465 has offset 1).
 
 The definition of A189465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6959,7 +6958,7 @@ The definition of A189465 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A189463(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189465

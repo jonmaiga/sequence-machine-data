@@ -4582,7 +4582,7 @@ end A332456
 /-!
 # A332457: Numbers k such that sigma(k) == 2 modulo 8 and sigma(sigma(k)) == 6 modulo 8.
 
-The programs for A332457, the canonical program `A332457.P13672119517976752287` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332457 has offset 1).
+The programs for A332457, the canonical program `A332457.P13672119517976752287` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332457 has offset 1).
 
 The definition of A332457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4591,7 +4591,7 @@ The definition of A332457 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A332226(n+1), A332456(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A332457
@@ -11490,7 +11490,7 @@ end A332495
 /-!
 # A332496: Triangular array T(n,k): the number of not necessarily proper colorings of the complete graph on n unlabeled vertices minus an edge using exactly k colors.
 
-The programs for A332496, the canonical program `A332496.P9101858789091568414` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332496 has offset 1).
+The programs for A332496, the canonical program `A332496.P9101858789091568414` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332496 has offset 1).
 
 The definition of A332496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11499,7 +11499,7 @@ The definition of A332496 is `conjectured`: the Lean definition is a formula tha
 
 `A124847(n+1)-A127954(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A332496

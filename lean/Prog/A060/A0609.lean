@@ -10666,7 +10666,7 @@ end A060978
 /-!
 # A060979: |First digit - second digit + third digit - fourth digit ...| = 11.
 
-The programs for A060979, the canonical program `A060979.P5913686302778209989` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060979 has offset 1).
+The programs for A060979, the canonical program `A060979.P5913686302778209989` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060979 has offset 1).
 
 The definition of A060979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4374 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10704,7 +10704,7 @@ end A060979
 
 `11*eq[A000007(n), A142150(A245627(n))]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A060979

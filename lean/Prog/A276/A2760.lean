@@ -9059,7 +9059,7 @@ end A276075
 /-!
 # A276076: Factorial base exp-function: digits in factorial base representation of n become the exponents of successive prime factors whose product a(n) is.
 
-The programs for A276076, the canonical program `A276076.P9396357468648609114` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276076 has offset 0).
+The programs for A276076, the canonical program `A276076.P9396357468648609114` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276076 has offset 0).
 
 The definition of A276076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A084558, A099563, A257687, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9091,7 +9091,7 @@ end A276076
 
 `a(A257687(n))*A000040(A084558(n))^A099563(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A276076
@@ -11003,7 +11003,7 @@ end A276085
 
 The programs for A276086, the canonical program `A276086.P2628529171982043184` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276086 has offset 0).
 
-The definition of A276086 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A276086 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A276086.anchor (n : ℕ) : A276086 n = ∏ i ∈ Finset.range n, (Nat.nth Nat.Prime i : ℤ) ^ ((n / ∏ j ∈ Finset.range i, Nat.nth Nat.Prime j) % Nat.nth Nat.Prime i)` in `Proof.A276.A276086`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A276086.P16376435112952255847
@@ -11497,7 +11497,7 @@ end A276086
 
 The programs for A276087, the canonical program `A276087.P17592427309525219855` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276087 has offset 0).
 
-The definition of A276087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A276087 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A276086(A276086(n))` (program `A276087.P17592427309525219855`, by `A276087.P17592427309525219855.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A276087.P17592427309525219855

@@ -404,7 +404,7 @@ end A042938.P17227378641855721978
 /-!
 # A042939: Absolute values between digits of primes.
 
-The programs for A042939, the canonical program `A042939.P563178382816472669` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A042939 has offset 1).
+The programs for A042939, the canonical program `A042939.P563178382816472669` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A042939 has offset 1).
 
 The definition of A042939 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A040997, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -413,7 +413,7 @@ The definition of A042939 is `conditional`: the Lean definition is an OEIS formu
 
 `A040997(A000040(n+1))`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A042939
@@ -6212,7 +6212,7 @@ end A042973.P6267351230803314534
 
 The programs for A042974, the canonical program `A042974.P8983967838137525776` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A042974 has offset 1).
 
-The definition of A042974 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010052, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A042974 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A042974.P8983967838137525776

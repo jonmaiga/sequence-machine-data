@@ -23,7 +23,9 @@ import Seq.B001.C000
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B002.C007
@@ -72,7 +74,7 @@ set_option linter.unreachableTactic false
 /-!
 # A401501: Triangle read by rows: T(n, k) is the number of partitions of the set {1, 2,..., 2*n-k} into n-k nonempty lists, such that the smallest element of each list is not in the initial position. The lists themselves are unordered.
 
-The programs for A401501, the canonical program `A401501.P17358560477405179724` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401501 has offset 0).
+The programs for A401501, the canonical program `A401501.P17358560477405179724` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401501 has offset 0).
 
 The definition of A401501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -81,7 +83,7 @@ The definition of A401501 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A401502(C(row(n)+1, 2)+row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401501

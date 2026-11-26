@@ -50,6 +50,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -744,7 +745,7 @@ end A260611
 /-!
 # A260613: Triangle read by rows: T(n, k) = coefficient of x^(n-k) in Product_{m=1..n} (x+prime(m)); 0 <= k <= n, n >= 0.
 
-The programs for A260613, the canonical program `A260613.P13688969119858045563` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260613 has offset 0).
+The programs for A260613, the canonical program `A260613.P13688969119858045563` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260613 has offset 0).
 
 The definition of A260613 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1535 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -753,7 +754,7 @@ The definition of A260613 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(row(n))*T(n-1,k-1)+T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260613
@@ -4014,7 +4015,7 @@ end A260653.P12420307309103520765
 /-!
 # A260655: a(n) = 4*36^n*Gamma(n+3/2)/(sqrt(Pi)*(n+2)!).
 
-The programs for A260655, the canonical program `A260655.P1454264924499781841` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260655 has offset 0).
+The programs for A260655, the canonical program `A260655.P1454264924499781841` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260655 has offset 0).
 
 The definition of A260655 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4023,7 +4024,7 @@ The definition of A260655 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9^n*A000108(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260655
@@ -4325,7 +4326,7 @@ end A260656.P14084937002401949461
 /-!
 # A260657: Rounded error in Stirling's formula: a(n) = round(n! - exp(-n)*n^(n+1/2)*sqrt(2*Pi)).
 
-The programs for A260657, the canonical program `A260657.P11255028026321949958` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260657 has offset 0).
+The programs for A260657, the canonical program `A260657.P11255028026321949958` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260657 has offset 0).
 
 The definition of A260657 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4334,7 +4335,7 @@ The definition of A260657 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000142(n)-A005394(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260657
@@ -4452,7 +4453,7 @@ end A260657
 /-!
 # A260658: Numerators of a BBP-like formula for 4*Pi/sqrt(27).
 
-The programs for A260658, the canonical program `A260658.P2171500633036475055` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260658 has offset 0).
+The programs for A260658, the canonical program `A260658.P2171500633036475055` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260658 has offset 0).
 
 The definition of A260658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4461,7 +4462,7 @@ The definition of A260658 is `conjectured`: the Lean definition is a formula tha
 
 `(-1)^n*A000265(9*n+5)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A260658

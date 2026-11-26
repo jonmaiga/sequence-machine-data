@@ -29,7 +29,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C013
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -844,7 +844,7 @@ end A401121.P7567353413921151459
 /-!
 # A401122: a(n) is the size of the annular Jones monoid of degree n.
 
-The programs for A401122, the canonical program `A401122.P1083847370963079364` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401122 has offset 1).
+The programs for A401122, the canonical program `A401122.P1083847370963079364` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401122 has offset 1).
 
 The definition of A401122 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -853,7 +853,7 @@ The definition of A401122 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*C(n, floor(n/2))²+(1+(-1)^(n+1))*A000108(floor((n+1)/2))²/2`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401122
@@ -2222,7 +2222,7 @@ end A401189.P10338795022719236363
 /-!
 # A401191: a(0)=a(1)=1, a(n) = a(n-1) + 1 + per(a(n-2)), where per(n) is the multiplicative persistence of n.
 
-The programs for A401191, the canonical program `A401191.P5971859324744171854` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401191 has offset 0).
+The programs for A401191, the canonical program `A401191.P5971859324744171854` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401191 has offset 0).
 
 The definition of A401191 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A031346, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2231,7 +2231,7 @@ The definition of A401191 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+1+A031346(a(n-2))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401191

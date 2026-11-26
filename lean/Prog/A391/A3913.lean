@@ -52,6 +52,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -144,7 +145,7 @@ end A391300.P11048089589106134360
 /-!
 # A391301: Expansion of g^2/(1 + x^2*g^4), where g = 1+x*g^3 is the g.f. of A001764.
 
-The programs for A391301, the canonical program `A391301.P13646111907161465819` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391301 has offset 0).
+The programs for A391301, the canonical program `A391301.P13646111907161465819` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391301 has offset 0).
 
 The definition of A391301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -179,7 +180,7 @@ end A391301
 
 `(A007226(A000007(n)+n)+a(n-1))/2` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391301
@@ -8370,7 +8371,7 @@ end A391379
 /-!
 # A391380: Expansion of g*(1 + x*g), where g = 1+x*g^3 is the g.f. of A001764.
 
-The programs for A391380, the canonical program `A391380.P8855859782900790221` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391380 has offset 0).
+The programs for A391380, the canonical program `A391380.P8855859782900790221` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391380 has offset 0).
 
 The definition of A391380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8379,7 +8380,7 @@ The definition of A391380 is `conjectured`: the Lean definition is a formula tha
 
 `record[A047749(n)+A047749(n+1)*n%2]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391380

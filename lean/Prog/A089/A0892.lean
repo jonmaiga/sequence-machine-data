@@ -52,7 +52,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -3722,7 +3721,7 @@ end A089226.P16808698867006016496
 /-!
 # A089227: Numbers k such that 1 + k*ds(k) is prime, where ds(k) is the sum of digits of k.
 
-The programs for A089227, the canonical program `A089227.P4238158558686104572` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089227 has offset 1).
+The programs for A089227, the canonical program `A089227.P4238158558686104572` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089227 has offset 1).
 
 The definition of A089227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 960 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3760,7 +3759,7 @@ end A089227
 
 `eq[1, A010051(n*A007953(n)+1)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089227

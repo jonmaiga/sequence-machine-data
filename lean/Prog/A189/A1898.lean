@@ -49,7 +49,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -3908,7 +3907,7 @@ end A189823.P10384225631015661877
 /-!
 # A189824: Decimal expansion of Pogson's ratio 100^(1/5).
 
-The programs for A189824, the canonical program `A189824.P12664580951343748584` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189824 has offset 1).
+The programs for A189824, the canonical program `A189824.P12664580951343748584` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189824 has offset 1).
 
 The definition of A189824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3917,7 +3916,7 @@ The definition of A189824 is `conjectured`: the Lean definition is a formula tha
 
 `A018141(A016873(n))%10`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189824
@@ -9249,7 +9248,7 @@ end A189893.P6740703370519504428
 /-!
 # A189894: Number of isosceles right triangles on a 2n X (n+1) grid.
 
-The programs for A189894, the canonical program `A189894.P18078749706703020444` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189894 has offset 1).
+The programs for A189894, the canonical program `A189894.P18078749706703020444` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189894 has offset 1).
 
 The definition of A189894 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9258,7 +9257,7 @@ The definition of A189894 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[∑[A000035(n)+33*n+4]]]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189894

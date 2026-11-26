@@ -49,6 +49,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -5201,7 +5202,7 @@ end A361040
 /-!
 # A361041: a(n) = 1680*(3*n)!/(n!*(2*n + 4)!).
 
-The programs for A361041, the canonical program `A361041.P11492204058538399731` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361041 has offset 0).
+The programs for A361041, the canonical program `A361041.P11492204058538399731` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361041 has offset 0).
 
 The definition of A361041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5210,7 +5211,7 @@ The definition of A361041 is `conjectured`: the Lean definition is a formula tha
 
 `A361040(n)/(n/2+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361041
@@ -5780,7 +5781,7 @@ end A361057.P17788568399606425896
 /-!
 # A361063: Multiplicative with a(p^e) = sigma_2(e), where sigma_2 = A001157.
 
-The programs for A361063, the canonical program `A361063.P11295719605485577875` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361063 has offset 1).
+The programs for A361063, the canonical program `A361063.P11295719605485577875` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361063 has offset 1).
 
 The definition of A361063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5789,7 +5790,7 @@ The definition of A361063 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[1+n, A001157(#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361063
@@ -5908,7 +5909,7 @@ end A361063
 /-!
 # A361064: Multiplicative with a(p^e) = sigma_3(e), where sigma_3 = A001158.
 
-The programs for A361064, the canonical program `A361064.P7423494448285123094` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361064 has offset 1).
+The programs for A361064, the canonical program `A361064.P7423494448285123094` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361064 has offset 1).
 
 The definition of A361064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5917,7 +5918,7 @@ The definition of A361064 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[1+n, A001158(#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361064
@@ -6311,7 +6312,7 @@ end A361076.P3893428689771129670
 /-!
 # A361077: a(n) = largest sqrt(2*n)-smooth divisor of binomial(2*n, n).
 
-The programs for A361077, the canonical program `A361077.P18103522662068847594` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361077 has offset 0).
+The programs for A361077, the canonical program `A361077.P18103522662068847594` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361077 has offset 0).
 
 The definition of A361077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6343,7 +6344,7 @@ end A361077
 
 `gcd(A000984(n), A010552(n))`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361077

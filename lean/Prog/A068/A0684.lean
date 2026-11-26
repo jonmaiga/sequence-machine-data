@@ -62,6 +62,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -8021,7 +8022,7 @@ end A068497
 /-!
 # A068498: Fibonacci numbers whose sum of decimal digits is greater than its index.
 
-The programs for A068498, the canonical program `A068498.P10147595051279811510` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068498 has offset 1).
+The programs for A068498, the canonical program `A068498.P10147595051279811510` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068498 has offset 1).
 
 The definition of A068498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 117 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8030,7 +8031,7 @@ The definition of A068498 is `conjectured`: the Lean definition is a formula tha
 
 `A000045(lt[A280185(n), 0])`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A068498

@@ -3561,7 +3561,7 @@ end A156341
 /-!
 # A156343: Primes with equal number of prime and nonprime digits.
 
-The programs for A156343, the canonical program `A156343.P612256446000310729` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156343 has offset 1).
+The programs for A156343, the canonical program `A156343.P612256446000310729` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156343 has offset 1).
 
 The definition of A156343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1037 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3570,7 +3570,7 @@ The definition of A156343 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A085556(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156343
@@ -5200,7 +5200,7 @@ end A156351
 /-!
 # A156352: a(n)=A078649(A054353(n)-n+1)-A054353(n).
 
-The programs for A156352, the canonical program `A156352.P2115846142684251298` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156352 has offset 1).
+The programs for A156352, the canonical program `A156352.P2115846142684251298` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156352 has offset 1).
 
 The definition of A156352 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A054353, A078649, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5209,7 +5209,7 @@ The definition of A156352 is `conditional`: the Lean definition is an OEIS formu
 
 `A078649(A054353(n+1)-(n+1)+1)-A054353(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156352

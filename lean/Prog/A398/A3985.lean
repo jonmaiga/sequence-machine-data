@@ -34,8 +34,9 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B001.C014
+import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C015
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C007
@@ -2071,7 +2072,7 @@ end A398520
 /-!
 # A398524: a(n) = Sum_{k=1..n} mu(floor(n/k))^2, where mu = A008683 is the Möbius function.
 
-The programs for A398524, the canonical program `A398524.P15977062120974542991` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398524 has offset 1).
+The programs for A398524, the canonical program `A398524.P15977062120974542991` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398524 has offset 1).
 
 The definition of A398524 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, A008683(floor((n+1)/(#+1)))²]` (program `A398524.P15977062120974542991`, by `A398524.P15977062120974542991.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2080,7 +2081,7 @@ The definition of A398524 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, A008683(floor((n+1)/(#+1)))²]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398524
@@ -2197,7 +2198,7 @@ end A398526
 /-!
 # A398528: a(n) = Sum_{k=1..n} omega(floor(n/k)), where omega(n) = A001221(n) is the number of distinct primes dividing n.
 
-The programs for A398528, the canonical program `A398528.P8306073796892616151` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398528 has offset 1).
+The programs for A398528, the canonical program `A398528.P8306073796892616151` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398528 has offset 1).
 
 The definition of A398528 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, A001221(floor((n+1)/(#+1)))]` (program `A398528.P8306073796892616151`, by `A398528.P8306073796892616151.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2206,7 +2207,7 @@ The definition of A398528 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, A001221(floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398528
@@ -3228,7 +3229,7 @@ end A398562
 /-!
 # A398564: Triangle read by rows: T(n,k) is the greatest common divisor of the numbers of ways to form j simultaneous cross-team handshakes between teams of n and k distinct people, with each person participating in at most one handshake, for 1 <= j <= k <= n.
 
-The programs for A398564, the canonical program `A398564.P7925307628146078000` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398564 has offset 1).
+The programs for A398564, the canonical program `A398564.P7925307628146078000` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398564 has offset 1).
 
 The definition of A398564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3237,7 +3238,7 @@ The definition of A398564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)+1)*(col(n)+1)/A007947(gcd(row(n)+1, col(n)+1))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398564

@@ -7,6 +7,36 @@ import SequenceMachineLib.Triangle
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
+/-! ## A017355.P12001329552188820011
+
+`(10*n+7)^3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A017355.P12001329552188820011
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (10 * n + 7) ^ 3
+
+end
+
+end A017355.P12001329552188820011
+
+noncomputable section
+
+/-- A017355: a(n) = (10*n + 7)^3.
+
+Offset 0, canonical program `A017355.P12001329552188820011`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10*n+7)^3` (program `A017355.P12001329552188820011`, by `A017355.P12001329552188820011.correct`). Lean does not check the parsing of the name. -/
+def A017355 (n : ℕ) : ℤ :=
+  (A017355.P12001329552188820011.a n : ℤ)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10*n+7)^3` (program `A017355.P12001329552188820011`, by `A017355.P12001329552188820011.correct`). Lean does not check the parsing of the name. -/
+def A017355.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A017356.P7854101225273112733
 
 `(10*n+7)^4`
@@ -14797,34 +14827,6 @@ end
 
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021067.anchor (n : ℕ) : A021067 n = ((10 ^ (n + 1) / 63 % 10 : ℕ) : ℤ)` in `Proof.A021.A021067`. -/
 def A021067.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A021068.P1258756413652626306
-
-`a(n-1)` with `a(0)=0, a(1)=1, a(2)=5, a(3)=6, a(4)=2, a(5)=5, a(6)=0`
--/
-
-namespace A021068.P1258756413652626306
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1, 5, 6, 2, 5, 0] fun n a =>
-  a (n - 1)
-
-end
-
-end A021068.P1258756413652626306
-
-noncomputable section
-
-/-- A021068: Decimal expansion of 1/64.
-
-Offset 0, canonical program `A021068.P1258756413652626306`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021068.anchor (n : ℕ) : A021068 n = ((10 ^ (n + 1) / 64 % 10 : ℕ) : ℤ)` in `Proof.A021.A021068`. -/
-def A021068 (n : ℕ) : ℤ :=
-  (A021068.P1258756413652626306.a n : ℤ)
-
-end
-
-/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A021068.anchor (n : ℕ) : A021068 n = ((10 ^ (n + 1) / 64 % 10 : ℕ) : ℤ)` in `Proof.A021.A021068`. -/
-def A021068.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A017389.P6948157244928272072
 

@@ -8634,7 +8634,7 @@ end A053833
 /-!
 # A053834: Sum of digits of n written in base 14.
 
-The programs for A053834, the canonical program `A053834.P7687178758272888330` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053834 has offset 0).
+The programs for A053834, the canonical program `A053834.P7687178758272888330` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053834 has offset 0).
 
 The definition of A053834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8643,7 +8643,7 @@ The definition of A053834 is `conjectured`: the Lean definition is a formula tha
 
 `A055647(n)%99`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A053834
@@ -9087,9 +9087,9 @@ end A053836
 /-!
 # A053837: Sum of digits of n modulo 10.
 
-The programs for A053837, the canonical program `A053837.P1951223835563838367` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053837 has offset 0).
+The programs for A053837, the canonical program `A053837.P1951223835563838367` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053837 has offset 0).
 
-The definition of A053837 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A053837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A053837.P7135509202729628170
@@ -9142,7 +9142,7 @@ end A053837
 
 `A010879(A007953(n))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A053837

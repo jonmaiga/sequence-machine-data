@@ -2536,7 +2536,7 @@ end A109933.P12800512096953629497
 /-!
 # A109934: Composite numbers which are not the sum of two distinct primes.
 
-The programs for A109934, the canonical program `A109934.P3244788996490462794` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109934 has offset 1).
+The programs for A109934, the canonical program `A109934.P3244788996490462794` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109934 has offset 1).
 
 The definition of A109934 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2545,7 +2545,7 @@ The definition of A109934 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A166081(1+n), A066247(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A109934
@@ -3392,7 +3392,7 @@ end A109938.P13663575527141177615
 /-!
 # A109940: Largest k-digit multiple of n where k is the number of digits in n.
 
-The programs for A109940, the canonical program `A109940.P11561411005126974692` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109940 has offset 1).
+The programs for A109940, the canonical program `A109940.P11561411005126974692` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109940 has offset 1).
 
 The definition of A109940 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3401,7 +3401,7 @@ The definition of A109940 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A097326(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A109940
@@ -8461,7 +8461,7 @@ end A109980.P15516916150489657145
 /-!
 # A109981: Primes such that both the sum of digits and the number of digits are primes.
 
-The programs for A109981, the canonical program `A109981.P17615118613321248785` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109981 has offset 1).
+The programs for A109981, the canonical program `A109981.P17615118613321248785` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109981 has offset 1).
 
 The definition of A109981 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3378 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8470,7 +8470,7 @@ The definition of A109981 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A046704(n+1), A120533(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A109981
@@ -8601,7 +8601,7 @@ end A109981
 /-!
 # A109982: Primes p such that index of p, the sum of p's digits and the number of p's digits are all primes.
 
-The programs for A109982, the canonical program `A109982.P7731114705280804703` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109982 has offset 1).
+The programs for A109982, the canonical program `A109982.P7731114705280804703` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109982 has offset 1).
 
 The definition of A109982 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8610,7 +8610,7 @@ The definition of A109982 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A006450(n+1), A109981(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A109982

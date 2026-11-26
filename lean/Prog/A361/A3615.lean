@@ -40,12 +40,12 @@ import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3394,7 +3394,7 @@ end A361558.P14272824419120033621
 /-!
 # A361559: a(n) = Sum_{k=1..prime(n)-1} floor(k^5/prime(n)).
 
-The programs for A361559, the canonical program `A361559.P394873779684351699` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361559 has offset 1).
+The programs for A361559, the canonical program `A361559.P394873779684351699` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361559 has offset 1).
 
 The definition of A361559 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[A000040(n+1)-2, floor((#+1)^5/A000040(n+1))]` (program `A361559.P394873779684351699`, by `A361559.P394873779684351699.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3403,7 +3403,7 @@ The definition of A361559 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[A000040(n+1)-2, floor((#+1)^5/A000040(n+1))]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A361559
