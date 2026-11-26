@@ -4235,7 +4235,7 @@ end A327665.P14223907571667572174
 /-!
 # A327666: a(n) = Sum_{k = 1..n} (-1)^(Omega(k) - omega(k)), where Omega(k) counts prime factors of k with multiplicity and omega(k) counts distinct prime factors.
 
-The programs for A327666, the canonical program `A327666.P16743006724816027714` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327666 has offset 1).
+The programs for A327666, the canonical program `A327666.P16743006724816027714` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327666 has offset 1).
 
 The definition of A327666 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4244,7 +4244,7 @@ The definition of A327666 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+(-1)^(A001222(n+1)-A001221(n+1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327666
@@ -4698,7 +4698,7 @@ end A327667.P1148003705686312265
 /-!
 # A327668: a(n) = n * Sum_{d|n} (-1)^(bigomega(d) - omega(d)) / d.
 
-The programs for A327668, the canonical program `A327668.P9892907711820419699` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327668 has offset 1).
+The programs for A327668, the canonical program `A327668.P9892907711820419699` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327668 has offset 1).
 
 The definition of A327668 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4707,7 +4707,7 @@ The definition of A327668 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*∑{d}[n+1, (-1)^(A001222(#)-A001221(#))/#]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A327668

@@ -29,9 +29,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -1445,7 +1447,7 @@ end A400358.P14246706906407508851
 /-!
 # A400361: a(n) = A018804(n) - A384628(n).
 
-The programs for A400361, the canonical program `A400361.P1889396071312864242` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400361 has offset 1).
+The programs for A400361, the canonical program `A400361.P1889396071312864242` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400361 has offset 1).
 
 The definition of A400361 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A018804(n+1)-A384628(n+1)` (program `A400361.P1889396071312864242`, by `A400361.P1889396071312864242.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1454,7 +1456,7 @@ The definition of A400361 is `verified`: the Lean definition is proven equivalen
 
 `A018804(n+1)-A384628(n+1)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400361

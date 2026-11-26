@@ -28,6 +28,7 @@ import Seq.B001.C006
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -325,7 +326,7 @@ end A401823.P12464414616595915107
 /-!
 # A401824: a(n) = Sum_{d|n} d * pi(d), where pi = A000720.
 
-The programs for A401824, the canonical program `A401824.P11099415610956316471` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401824 has offset 1).
+The programs for A401824, the canonical program `A401824.P11099415610956316471` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401824 has offset 1).
 
 The definition of A401824 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{d}[n+1, #*A000720(#)]` (program `A401824.P11099415610956316471`, by `A401824.P11099415610956316471.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -334,7 +335,7 @@ The definition of A401824 is `verified`: the Lean definition is proven equivalen
 
 `∑{d}[n+1, #*A000720(#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401824
@@ -1923,7 +1924,7 @@ end A401884.P3860129234437999802
 /-!
 # A401886: Maximum size of a subset S of {1, ..., n} such that x*y is not squarefree for all x, y in S.
 
-The programs for A401886, the canonical program `A401886.P9259305142288146394` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401886 has offset 1).
+The programs for A401886, the canonical program `A401886.P9259305142288146394` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401886 has offset 1).
 
 The definition of A401886 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1958,7 +1959,7 @@ end A401886
 
 `∑[A087049(2*(n+1))]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401886

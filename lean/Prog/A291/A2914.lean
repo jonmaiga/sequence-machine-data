@@ -32,6 +32,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -2050,7 +2051,7 @@ end A291438.P1064998100809897895
 /-!
 # A291440: a(n) = pi(n^2) - pi(n)^2, where pi(n) = A000720(n).
 
-The programs for A291440, the canonical program `A291440.P5300707734010347566` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291440 has offset 1).
+The programs for A291440, the canonical program `A291440.P5300707734010347566` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291440 has offset 1).
 
 The definition of A291440 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000720((n+1)²)-A000720(n+1)²` (program `A291440.P5300707734010347566`, by `A291440.P5300707734010347566.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2059,7 +2060,7 @@ The definition of A291440 is `verified`: the Lean definition is proven equivalen
 
 `A000720((n+1)²)-A000720(n+1)²`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291440
@@ -4252,7 +4253,7 @@ end A291497
 /-!
 # A291498: The arithmetic function uhat(n,1,4).
 
-The programs for A291498, the canonical program `A291498.P10614475688955058972` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291498 has offset 1).
+The programs for A291498, the canonical program `A291498.P10614475688955058972` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291498 has offset 1).
 
 The definition of A291498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4261,7 +4262,7 @@ The definition of A291498 is `conjectured`: the Lean definition is a formula tha
 
 `A023453(n)-A204502(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291498

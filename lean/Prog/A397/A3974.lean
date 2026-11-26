@@ -46,6 +46,7 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -6473,7 +6474,7 @@ end A397489.P5137828388442936433
 /-!
 # A397491: a(n) = (n^13 - n)/2730.
 
-The programs for A397491, the canonical program `A397491.P13383591952212142653` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397491 has offset 0).
+The programs for A397491, the canonical program `A397491.P13383591952212142653` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397491 has offset 0).
 
 The definition of A397491 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6482,7 +6483,7 @@ The definition of A397491 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A366489(n)/210`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397491

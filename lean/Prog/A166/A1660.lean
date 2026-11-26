@@ -54,7 +54,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -1904,7 +1903,7 @@ end A166009
 /-!
 # A166010: a(n) = prime(n)^2-4.
 
-The programs for A166010, the canonical program `A166010.P2375559703123786713` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166010 has offset 1).
+The programs for A166010, the canonical program `A166010.P2375559703123786713` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166010 has offset 1).
 
 The definition of A166010 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)²-4` (program `A166010.P2375559703123786713`, by `A166010.P2375559703123786713.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1936,7 +1935,7 @@ end A166010
 
 `A000040(n+1)²-4`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166010
@@ -2475,7 +2474,7 @@ end A166010
 /-!
 # A166011: Least common multiple of prime(n)-3 and prime(n)+3.
 
-The programs for A166011, the canonical program `A166011.P17633060703893177267` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166011 has offset 1).
+The programs for A166011, the canonical program `A166011.P17633060703893177267` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166011 has offset 1).
 
 The definition of A166011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2484,7 +2483,7 @@ The definition of A166011 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `lcm(A000040(n+1)+3, A000040(n+1)-3)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166011
@@ -2670,7 +2669,7 @@ end A166011
 /-!
 # A166012: a(n) = 2*(A000045(n)-(n mod 2)) + 1 + (n mod 2).
 
-The programs for A166012, the canonical program `A166012.P10033186573613903418` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166012 has offset 0).
+The programs for A166012, the canonical program `A166012.P10033186573613903418` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166012 has offset 0).
 
 The definition of A166012 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(A000045(n)-n%2)+1+n%2` (program `A166012.P10033186573613903418`, by `A166012.P10033186573613903418.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2771,7 +2770,7 @@ end A166012
 
 `2*(A000045(n)-n%2)+1+n%2`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166012
@@ -4512,7 +4511,7 @@ end A166023
 /-!
 # A166025: a(0) = 6, a(1) = 17, a(n+1) = a(n) + a(n-1) for n>0.
 
-The programs for A166025, the canonical program `A166025.P6999648749179387122` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166025 has offset 0).
+The programs for A166025, the canonical program `A166025.P6999648749179387122` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166025 has offset 0).
 
 The definition of A166025 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4544,7 +4543,7 @@ end A166025
 
 `6*A000045(n+1)+11*A000045(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166025
@@ -11653,7 +11652,7 @@ end A166077
 /-!
 # A166078: Expansion of (3(1-x)-sqrt(1+6x-7x^2))/(2(1-x)(1-2x)).
 
-The programs for A166078, the canonical program `A166078.P5485767345940253632` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166078 has offset 0).
+The programs for A166078, the canonical program `A166078.P5485767345940253632` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166078 has offset 0).
 
 The definition of A166078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11662,7 +11661,7 @@ The definition of A166078 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[n, C(n, #)*A114191(#)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166078

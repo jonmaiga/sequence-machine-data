@@ -4416,7 +4416,7 @@ end A261454.P11318388708784567034
 /-!
 # A261456: Prime numbers whose sum of digits is not a power of 2.
 
-The programs for A261456, the canonical program `A261456.P17740723349919891104` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261456 has offset 1).
+The programs for A261456, the canonical program `A261456.P17740723349919891104` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261456 has offset 1).
 
 The definition of A261456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1995 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4425,7 +4425,7 @@ The definition of A261456 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A005408(n)*A043545(A004092(n))]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A261456

@@ -5362,7 +5362,7 @@ end A208270.P8887044853505072203
 /-!
 # A208271: Nonprime numbers containing a digit 1.
 
-The programs for A208271, the canonical program `A208271.P9303695278166639527` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208271 has offset 1).
+The programs for A208271, the canonical program `A208271.P9303695278166639527` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208271 has offset 1).
 
 The definition of A208271 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8754 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5371,7 +5371,7 @@ The definition of A208271 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A011531(n+1), A005171(#)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208271

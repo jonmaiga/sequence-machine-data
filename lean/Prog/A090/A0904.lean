@@ -6055,7 +6055,7 @@ end A090431
 /-!
 # A090432: Primes prime(k) having a greater sum of digits than does k.
 
-The programs for A090432, the canonical program `A090432.P416990136523759619` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090432 has offset 1).
+The programs for A090432, the canonical program `A090432.P416990136523759619` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090432 has offset 1).
 
 The definition of A090432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6908 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6064,7 +6064,7 @@ The definition of A090432 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(lt[A007953(n+1), A007605(n+1)]+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A090432
@@ -6192,7 +6192,7 @@ end A090432
 /-!
 # A090433: Primes p(k) having a smaller sum of digits than k.
 
-The programs for A090433, the canonical program `A090433.P14932557216655475882` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090433 has offset 1).
+The programs for A090433, the canonical program `A090433.P14932557216655475882` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090433 has offset 1).
 
 The definition of A090433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6201,7 +6201,7 @@ The definition of A090433 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(A154311(1+n))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A090433

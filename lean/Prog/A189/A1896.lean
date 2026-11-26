@@ -107,7 +107,7 @@ set_option linter.unreachableTactic false
 /-!
 # A189600: Number of permutations of 1..n with displacements restricted to {-7,-6,-5,-4,-3,-2,0,1}.
 
-The programs for A189600, the canonical program `A189600.P5523603604027758349` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189600 has offset 1).
+The programs for A189600, the canonical program `A189600.P5523603604027758349` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189600 has offset 1).
 
 The definition of A189600 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 415 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -139,7 +139,7 @@ end A189600
 
 `A079960(n+1)-a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189600
@@ -3234,7 +3234,7 @@ end A189628
 /-!
 # A189629: Positions of 0 in A189628; complement of A189630.
 
-The programs for A189629, the canonical program `A189629.P4801279269901383408` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189629 has offset 1).
+The programs for A189629, the canonical program `A189629.P4801279269901383408` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189629 has offset 1).
 
 The definition of A189629 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3266,7 +3266,7 @@ end A189629
 
 `ceil(A284884(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189629
@@ -3682,7 +3682,7 @@ end A189629
 /-!
 # A189630: Positions of 1 in A189628; complement of A189629.
 
-The programs for A189630, the canonical program `A189630.P2663930822857088844` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189630 has offset 1).
+The programs for A189630, the canonical program `A189630.P2663930822857088844` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189630 has offset 1).
 
 The definition of A189630 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3714,7 +3714,7 @@ end A189630
 
 `3*(n+1)-A189628(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189630
@@ -4115,7 +4115,7 @@ end A189630
 /-!
 # A189631: Partial sums of A189628.
 
-The programs for A189631, the canonical program `A189631.P229276549313710375` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189631 has offset 1).
+The programs for A189631, the canonical program `A189631.P229276549313710375` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189631 has offset 1).
 
 The definition of A189631 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4150,7 +4150,7 @@ end A189631
 
 `∑[A189628(1+n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189631
@@ -5097,7 +5097,7 @@ end A189632
 /-!
 # A189633: Positions of 0 in A189632; complement of A189634.
 
-The programs for A189633, the canonical program `A189633.P179509301148812189` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189633 has offset 1).
+The programs for A189633, the canonical program `A189633.P179509301148812189` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189633 has offset 1).
 
 The definition of A189633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5253,7 +5253,7 @@ end A189633
 
 `A008619(n)+A189632(A008619(n))+n`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189633
@@ -6152,7 +6152,7 @@ end A189634
 /-!
 # A189635: Partial sums of A189632.
 
-The programs for A189635, the canonical program `A189635.P4195544116930492593` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189635 has offset 1).
+The programs for A189635, the canonical program `A189635.P4195544116930492593` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189635 has offset 1).
 
 The definition of A189635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6161,7 +6161,7 @@ The definition of A189635 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A189632(1+n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189635
@@ -6491,7 +6491,7 @@ end A189635
 /-!
 # A189636: Positions of 0 in A116178; complement of A189637.
 
-The programs for A189636, the canonical program `A189636.P992378438989201092` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189636 has offset 1).
+The programs for A189636, the canonical program `A189636.P992378438989201092` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189636 has offset 1).
 
 The definition of A189636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6526,7 +6526,7 @@ end A189636
 
 `A138670(n)+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189636
@@ -7003,7 +7003,7 @@ end A189636
 /-!
 # A189637: Positions of 1 in A116178; complement of A189636.
 
-The programs for A189637, the canonical program `A189637.P3446270201682603484` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189637 has offset 1).
+The programs for A189637, the canonical program `A189637.P3446270201682603484` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189637 has offset 1).
 
 The definition of A189637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7012,7 +7012,7 @@ The definition of A189637 is `conjectured`: the Lean definition is a formula tha
 
 `A138671(n)+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189637
@@ -7521,7 +7521,7 @@ end A189637
 /-!
 # A189638: Partial sums of A116178.
 
-The programs for A189638, the canonical program `A189638.P15037763071711005940` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189638 has offset 1).
+The programs for A189638, the canonical program `A189638.P15037763071711005940` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189638 has offset 1).
 
 The definition of A189638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7553,7 +7553,7 @@ end A189638
 
 `∑[A116178(n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189638
@@ -8966,7 +8966,7 @@ end A189641
 /-!
 # A189642: Numerator of H(n+4) - H(n), where H(n) = Sum_{k=1..n} 1/k.
 
-The programs for A189642, the canonical program `A189642.P401202128290837100` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189642 has offset 0).
+The programs for A189642, the canonical program `A189642.P401202128290837100` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189642 has offset 0).
 
 The definition of A189642 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8975,7 +8975,7 @@ The definition of A189642 is `conjectured`: the Lean definition is a formula tha
 
 `A165676(n+1)/gcd(A165676(n+1), A165677(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189642
@@ -10329,7 +10329,7 @@ end A189659
 /-!
 # A189660: Partial sums of A064990.
 
-The programs for A189660, the canonical program `A189660.P4547749914452871862` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189660 has offset 1).
+The programs for A189660, the canonical program `A189660.P4547749914452871862` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189660 has offset 1).
 
 The definition of A189660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10338,7 +10338,7 @@ The definition of A189660 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A064990(n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189660
@@ -10840,7 +10840,7 @@ end A189660
 /-!
 # A189661: Fixed point of the morphism 0->010, 1->10 starting with 0.
 
-The programs for A189661, the canonical program `A189661.P11079895270296849068` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189661 has offset 1).
+The programs for A189661, the canonical program `A189661.P11079895270296849068` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189661 has offset 1).
 
 The definition of A189661 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11324,7 +11324,7 @@ end A189661
 
 `A003849(abs(2-n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189661
@@ -14609,7 +14609,7 @@ end A189668
 /-!
 # A189669: Positions of 0 in A189668; complement of A189679.
 
-The programs for A189669, the canonical program `A189669.P962645693037667387` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189669 has offset 1).
+The programs for A189669, the canonical program `A189669.P962645693037667387` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189669 has offset 1).
 
 The definition of A189669 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14644,7 +14644,7 @@ end A189669
 
 `comp[A285353(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189669
@@ -15088,7 +15088,7 @@ end A189669
 /-!
 # A189670: Positions of 1 in A189668; complement of A189669.
 
-The programs for A189670, the canonical program `A189670.P13812974504116450926` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189670 has offset 1).
+The programs for A189670, the canonical program `A189670.P13812974504116450926` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189670 has offset 1).
 
 The definition of A189670 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15166,7 +15166,7 @@ end A189670
 
 `3*n+2-A189668(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189670
@@ -17583,7 +17583,7 @@ end A189675
 /-!
 # A189676: a(n) = n + [nr/s] + [nt/s]; r=Pi/2, s=arcsin(3/5), t=arcsin(4/5).
 
-The programs for A189676, the canonical program `A189676.P9275464916315744742` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189676 has offset 1).
+The programs for A189676, the canonical program `A189676.P9275464916315744742` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189676 has offset 1).
 
 The definition of A189676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17592,7 +17592,7 @@ The definition of A189676 is `conjectured`: the Lean definition is a formula tha
 
 `2*A189681(1+n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189676
@@ -17993,7 +17993,7 @@ end A189679
 /-!
 # A189680: a(n) = n + [nr/t] + [ns/t]; r=Pi/2, s=arcsin(3/5), t=arcsin(4/5).
 
-The programs for A189680, the canonical program `A189680.P5623634359219258761` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189680 has offset 1).
+The programs for A189680, the canonical program `A189680.P5623634359219258761` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189680 has offset 1).
 
 The definition of A189680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18002,7 +18002,7 @@ The definition of A189680 is `conjectured`: the Lean definition is a formula tha
 
 `2*A189682(1+n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189680
@@ -18888,7 +18888,7 @@ end A189686.P3158356966509133650
 /-!
 # A189687: Fixed point of the morphism 0->011, 1->01.
 
-The programs for A189687, the canonical program `A189687.P9513672944079827705` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189687 has offset 1).
+The programs for A189687, the canonical program `A189687.P9513672944079827705` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189687 has offset 1).
 
 The definition of A189687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18920,7 +18920,7 @@ end A189687
 
 `2-Δ[A001953(n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189687
@@ -19345,7 +19345,7 @@ end A189687
 /-!
 # A189688: Partial sums of A189687.
 
-The programs for A189688, the canonical program `A189688.P13233593620070041608` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189688 has offset 1).
+The programs for A189688, the canonical program `A189688.P13233593620070041608` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189688 has offset 1).
 
 The definition of A189688 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19513,7 +19513,7 @@ end A189688
 
 `∑[2-Δ[A001953(n)]]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A189688

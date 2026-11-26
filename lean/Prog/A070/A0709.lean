@@ -53,12 +53,12 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -8459,7 +8459,7 @@ end A070957.P3279948240935858020
 /-!
 # A070958: Numbers n such that the largest digit of n is the same as the largest digit of (sum of digits of n).
 
-The programs for A070958, the canonical program `A070958.P2058158255106177248` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070958 has offset 1).
+The programs for A070958, the canonical program `A070958.P2058158255106177248` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070958 has offset 1).
 
 The definition of A070958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 970 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8497,7 +8497,7 @@ end A070958
 
 `eq[A010879(A007953(n)), A054055(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A070958
@@ -8570,7 +8570,7 @@ def P7568690070408518746.Spec : Prop :=
 
 theorem P7568690070408518746.correct : P7568690070408518746.Spec := by
   intro n
-  simp only [A070958, Nat.add_sub_cancel, A070958.P7568690070408518746.f1, A070958.P7568690070408518746.f2, A070958.P7568690070408518746.a, A070958.P2058158255106177248.f1, A070958.P2058158255106177248.f2, A070958.P2058158255106177248.a, A007953, A007953.P3472751987379697826.a, A010879, A010879.P10561743211919002802.a, A053837, A053837.P1951223835563838367.a, A054055, A054055.P9530533000838630807.f2, A054055.P9530533000838630807.f1, A054055.P9530533000838630807.f3, A054055.P9530533000838630807.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A070958, Nat.add_sub_cancel, A070958.P7568690070408518746.f1, A070958.P7568690070408518746.f2, A070958.P7568690070408518746.a, A070958.P2058158255106177248.f1, A070958.P2058158255106177248.f2, A070958.P2058158255106177248.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A010879, A010879.P10561743211919002802.a, A053837, A053837.P1951223835563838367.a, A054055, A054055.P9530533000838630807.f2, A054055.P9530533000838630807.f1, A054055.P9530533000838630807.f3, A054055.P9530533000838630807.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

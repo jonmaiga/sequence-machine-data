@@ -47,6 +47,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,7 +60,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
@@ -5013,7 +5013,7 @@ end A258375.P16711167069848069008
 /-!
 # A258376: Number of edges connecting the subgraph on {1, ..., n} with the complement in the minimal graph on positive natural numbers where degree(n) equals n.
 
-The programs for A258376, the canonical program `A258376.P5397532955847838472` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258376 has offset 1).
+The programs for A258376, the canonical program `A258376.P5397532955847838472` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258376 has offset 1).
 
 The definition of A258376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5048,7 +5048,7 @@ end A258376
 
 `∑[2*A005206(n+1)]-∑[n+1]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A258376
@@ -6598,7 +6598,7 @@ end A258389
 /-!
 # A258390: Number of 2n-length strings of balanced parentheses of exactly 2 different types that are introduced in ascending order.
 
-The programs for A258390, the canonical program `A258390.P12661270623323865303` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258390 has offset 2).
+The programs for A258390, the canonical program `A258390.P12661270623323865303` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258390 has offset 2).
 
 The definition of A258390 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6607,7 +6607,7 @@ The definition of A258390 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^(n+1)-1)*A000108(n+2)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A258390
@@ -7324,7 +7324,7 @@ end A258398.P5627812177351490793
 /-!
 # A258399: Number of 4n-length strings of balanced parentheses of exactly n different types that are introduced in ascending order.
 
-The programs for A258399, the canonical program `A258399.P1254666260091511920` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258399 has offset 0).
+The programs for A258399, the canonical program `A258399.P1254666260091511920` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258399 has offset 0).
 
 The definition of A258399 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A253180, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7333,7 +7333,7 @@ The definition of A258399 is `conditional`: the Lean definition is an OEIS formu
 
 `A253180(C(2*n+1, 2)+n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258399

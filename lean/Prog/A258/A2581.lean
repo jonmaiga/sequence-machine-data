@@ -51,12 +51,14 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -4025,7 +4027,7 @@ end A258141.P5416588961830821590
 /-!
 # A258143: Row sums of A257241, Stifel's version of the arithmetical triangle.
 
-The programs for A258143, the canonical program `A258143.P7349125463556418444` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258143 has offset 1).
+The programs for A258143, the canonical program `A258143.P7349125463556418444` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258143 has offset 1).
 
 The definition of A258143 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A116406, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4034,7 +4036,7 @@ The definition of A258143 is `conditional`: the Lean definition is an OEIS formu
 
 `A116406(n+2)-1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258143
@@ -4501,7 +4503,7 @@ end A258143
 /-!
 # A258144: Alternating row sums of A257241, Stifel's version of the arithmetical triangle.
 
-The programs for A258144, the canonical program `A258144.P1022446271885043442` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258144 has offset 1).
+The programs for A258144, the canonical program `A258144.P1022446271885043442` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258144 has offset 1).
 
 The definition of A258144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4533,7 +4535,7 @@ end A258144
 
 `A026741(n)*A106181(n)+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258144
@@ -7250,9 +7252,9 @@ end A258170.P159940086321585787
 /-!
 # A258171: a(n) = Sum_{d|n} phi(d)*Bell(n/d) for n>0, a(0) = 0.
 
-The programs for A258171, the canonical program `A258171.P1564304572090917568` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258171 has offset 0).
+The programs for A258171, the canonical program `A258171.P1564304572090917568` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258171 has offset 0).
 
-The definition of A258171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A258171 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{d}[n, A000010(#)*A000110(n/#)]` (program `A258171.P1564304572090917568`, by `A258171.P1564304572090917568.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A258171.P10317652264181816245
@@ -7311,7 +7313,7 @@ end A258171
 
 `∑{d}[n, A000010(#)*A000110(n/#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A258171

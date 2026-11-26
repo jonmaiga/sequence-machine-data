@@ -3753,7 +3753,7 @@ end A343138.P1873820456522682592
 /-!
 # A343139: Numbers k that satisfy the condition digitsum(k) = digitsum(pi(k)) where pi is the prime counting function.
 
-The programs for A343139, the canonical program `A343139.P3741231387831550113` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343139 has offset 1).
+The programs for A343139, the canonical program `A343139.P3741231387831550113` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343139 has offset 1).
 
 The definition of A343139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 497 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3762,7 +3762,7 @@ The definition of A343139 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007953(A000720(n+2)), A007953(n+2)]+2`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A343139

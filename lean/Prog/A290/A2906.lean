@@ -594,7 +594,7 @@ end A290604
 /-!
 # A290605: Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of 2/(1 + sqrt(1 - 4*k*x)).
 
-The programs for A290605, the canonical program `A290605.P11368933785486592335` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290605 has offset 0).
+The programs for A290605, the canonical program `A290605.P11368933785486592335` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290605 has offset 0).
 
 The definition of A290605 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -603,7 +603,7 @@ The definition of A290605 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)-col(n))^col(n)*A000108(col(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290605
@@ -4641,7 +4641,7 @@ end A290659.P3981659931933190121
 /-!
 # A290660: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 899", based on the 5-celled von Neumann neighborhood.
 
-The programs for A290660, the canonical program `A290660.P15163917206572821738` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290660 has offset 0).
+The programs for A290660, the canonical program `A290660.P15163917206572821738` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290660 has offset 0).
 
 The definition of A290660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4719,7 +4719,7 @@ end A290660
 
 `A002275(n+1)-a(gcd(2, n)-1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290660

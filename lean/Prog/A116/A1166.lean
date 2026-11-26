@@ -56,7 +56,6 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -485,7 +484,7 @@ end A116601
 /-!
 # A116602: Values n such that prime(2*n) mod 12 == 5.
 
-The programs for A116602, the canonical program `A116602.P13006145556663672467` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116602 has offset 1).
+The programs for A116602, the canonical program `A116602.P13006145556663672467` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116602 has offset 1).
 
 The definition of A116602 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1304 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -523,7 +522,7 @@ end A116602
 
 `eq[5, A039710(2*(n+1))]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116602
@@ -1730,7 +1729,7 @@ end A116609
 /-!
 # A116610: Values of n such that prime(2*n) mod 12 = 11.
 
-The programs for A116610, the canonical program `A116610.P5202349679165974166` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116610 has offset 1).
+The programs for A116610, the canonical program `A116610.P5202349679165974166` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116610 has offset 1).
 
 The definition of A116610 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1223 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1739,7 +1738,7 @@ The definition of A116610 is `conjectured`: the Lean definition is a formula tha
 
 `lt[3, A068227(2*(n+1))]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116610
@@ -2112,7 +2111,7 @@ end A116611.P13265270697820299051
 /-!
 # A116612: Values of n such that p(2n+1) mod 12 = 1, where p(j) denotes the j-th prime.
 
-The programs for A116612, the canonical program `A116612.P12167759706740848563` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116612 has offset 1).
+The programs for A116612, the canonical program `A116612.P12167759706740848563` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116612 has offset 1).
 
 The definition of A116612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2121,7 +2120,7 @@ The definition of A116612 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A039710(1+2*n)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116612
@@ -2487,7 +2486,7 @@ end A116612
 /-!
 # A116613: Values of n such that prime(2n+1) mod 12 = 5.
 
-The programs for A116613, the canonical program `A116613.P9128618355075332114` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116613 has offset 1).
+The programs for A116613, the canonical program `A116613.P9128618355075332114` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116613 has offset 1).
 
 The definition of A116613 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1203 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2554,7 +2553,7 @@ end A116613
 
 `eq[5, A039710(2*n+1)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116613
@@ -2743,7 +2742,7 @@ end A116613
 /-!
 # A116614: Values of n such that prime(2n) mod 12 = 1.
 
-The programs for A116614, the canonical program `A116614.P7124806835608261155` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116614 has offset 1).
+The programs for A116614, the canonical program `A116614.P7124806835608261155` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116614 has offset 1).
 
 The definition of A116614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2497 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2752,7 +2751,7 @@ The definition of A116614 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A031215(n+1)%12]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116614

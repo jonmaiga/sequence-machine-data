@@ -18371,7 +18371,7 @@ end A132790
 /-!
 # A132791: Numbers k such that the sum of the digits of 4^k is prime.
 
-The programs for A132791, the canonical program `A132791.P2807201736206907755` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132791 has offset 1).
+The programs for A132791, the canonical program `A132791.P2807201736206907755` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132791 has offset 1).
 
 The definition of A132791 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1621 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18380,7 +18380,7 @@ The definition of A132791 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A005171(A065713(n))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A132791

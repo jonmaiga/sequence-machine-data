@@ -8673,7 +8673,7 @@ end A167876
 /-!
 # A167877: Largest m<=n such that no carry occurs when adding m to n in ternary arithmetic.
 
-The programs for A167877, the canonical program `A167877.P15007258767365749686` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167877 has offset 0).
+The programs for A167877, the canonical program `A167877.P15007258767365749686` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167877 has offset 0).
 
 The definition of A167877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8711,7 +8711,7 @@ end A167877
 
 `A005823(A081611(n))-n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A167877

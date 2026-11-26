@@ -13849,6 +13849,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)-a(n-3)` (program `A050935.P3233222883992199911`, by `A050935.P3233222883992199911.correct`). Lean does not check the parsing of the name. -/
 def A050935.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A045720.P10690075790008833440
+
+`(n+5)*C(2*(n+3), n+3)/4-3*2^(2*n+3)`
+-/
+
+namespace A045720.P10690075790008833440
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 5) * Nat.choose (2 * (n + 3)) (n + 3) : ℚ) / 4 - (3 * 2 ^ (2 * n + 3) : ℚ)
+
+end
+
+end A045720.P10690075790008833440
+
+noncomputable section
+
+/-- A045720: 3-fold convolution of A001700(n), n >= 0.
+
+Offset 0, canonical program `A045720.P10690075790008833440`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A045720 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A045720.P10690075790008833440.a n)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A045720.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A045794.P10600491498430848618
 
 `3*a(n-3)+a(n-6)+a(n-9)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=3, a(4)=3, a(5)=4, a(6)=9, a(7)=11, a(8)=13`
@@ -28426,36 +28454,4 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. -/
 def A050612.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A050941.P16076396418149710583
-
-`comp[T(n-1,k)+n-col(n)]` with `a(0)=0`
--/
-
-namespace A050941.P16076396418149710583
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0] fun n f1 =>
-  SequenceMachineLib.triUp f1 n + ((n : ℤ) - (SequenceMachineLib.triCol n : ℤ))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A050941.P16076396418149710583
-
-noncomputable section
-
-/-- A050941: Numbers that are not the sum of consecutive triangular numbers.
-
-Offset 1, canonical program `A050941.P16076396418149710583`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A050941 (n : ℕ) : ℤ :=
-  (A050941.P16076396418149710583.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A050941.provenance : SequenceMachineLib.Provenance := .conjectured
 

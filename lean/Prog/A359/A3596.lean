@@ -56,7 +56,6 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -2437,7 +2436,7 @@ end A359646
 /-!
 # A359647: a(n) = [x^n] hypergeom([1/4, 3/4], [2], 64*x). The central terms of the Motzkin triangle A359364 without zeros.
 
-The programs for A359647, the canonical program `A359647.P17524220049966486840` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359647 has offset 0).
+The programs for A359647, the canonical program `A359647.P17524220049966486840` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359647 has offset 0).
 
 The definition of A359647 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2492,7 +2491,7 @@ end A359647
 
 `A000108(n)*A001448(n)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A359647
@@ -3311,7 +3310,7 @@ end A359658
 /-!
 # A359659: a(n) = Sum_{k=0..n} k^(k * (n-k+1)).
 
-The programs for A359659, the canonical program `A359659.P15545951167323682886` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359659 has offset 0).
+The programs for A359659, the canonical program `A359659.P15545951167323682886` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359659 has offset 0).
 
 The definition of A359659 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3348,7 +3347,7 @@ end A359659
 
 `A349893(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A359659

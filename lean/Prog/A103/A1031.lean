@@ -42,12 +42,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -60,6 +60,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1405,7 +1406,7 @@ end A103116
 /-!
 # A103118: Numbers k such that 100*k + 57 is prime.
 
-The programs for A103118, the canonical program `A103118.P10702072525714284161` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103118 has offset 1).
+The programs for A103118, the canonical program `A103118.P10702072525714284161` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103118 has offset 1).
 
 The definition of A103118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1414,7 +1415,7 @@ The definition of A103118 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A001222(50*(2*n+1)+7), 2]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A103118
@@ -3714,7 +3715,7 @@ end A103131
 /-!
 # A103134: a(n) = Fibonacci(6n+4).
 
-The programs for A103134, the canonical program `A103134.P11306793549003106880` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103134 has offset 0).
+The programs for A103134, the canonical program `A103134.P11306793549003106880` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103134 has offset 0).
 
 The definition of A103134 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(6*n+4)` (program `A103134.P11306793549003106880`, by `A103134.P11306793549003106880.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3769,7 +3770,7 @@ end A103134
 
 `A000045(6*n+4)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A103134
@@ -9437,7 +9438,7 @@ end A103192.P4193707427420198976
 /-!
 # A103194: LAH transform of squares.
 
-The programs for A103194, the canonical program `A103194.P3023715330219934413` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103194 has offset 0).
+The programs for A103194, the canonical program `A103194.P3023715330219934413` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103194 has offset 0).
 
 The definition of A103194 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9472,7 +9473,7 @@ end A103194
 
 `n*A000262(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A103194

@@ -22,7 +22,6 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C012
 import Seq.B002.C000
@@ -34,7 +33,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
@@ -87,7 +85,7 @@ end A095400.P9844944100204092225
 /-!
 # A095402: Sum of digits of all distinct prime factors of n.
 
-The programs for A095402, the canonical program `A095402.P1191208057161078157` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095402 has offset 1).
+The programs for A095402, the canonical program `A095402.P1191208057161078157` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095402 has offset 1).
 
 The definition of A095402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -96,7 +94,7 @@ The definition of A095402 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[1+n, A007953(#)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A095402
@@ -238,7 +236,7 @@ def P17545568750665724477.Spec : Prop :=
 
 theorem P17545568750665724477.correct : P17545568750665724477.Spec := by
   intro n
-  simp only [A095402, Nat.add_sub_cancel, A095402.P17545568750665724477.a, A095402.P1191208057161078157.f1, A095402.P1191208057161078157.a, A007953, A007953.P3472751987379697826.a, A095403, A095403.P6923104078230111594.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A095402, Nat.add_sub_cancel, A095402.P17545568750665724477.a, A095402.P1191208057161078157.f1, A095402.P1191208057161078157.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A095403, A095403.P6923104078230111594.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -293,16 +291,16 @@ end A095402
 /-!
 # A095403: Sum of digits of n minus the sum of digits of all distinct prime factors of n.
 
-The programs for A095403, the canonical program `A095403.P6923104078230111594` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095403 has offset 1).
+The programs for A095403, the canonical program `A095403.P6923104078230111594` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095403 has offset 1).
 
-The definition of A095403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, A095402, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A095403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A095402, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A095403.P6923104078230111594
 
 `A007953(n+1)-A095402(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A095403
@@ -488,7 +486,7 @@ def P2456621769943728192.Spec : Prop :=
 
 theorem P2456621769943728192.correct : P2456621769943728192.Spec := by
   intro n
-  simp only [A095403, Nat.add_sub_cancel, A095403.P2456621769943728192.f1, A095403.P2456621769943728192.a, A095403.P6923104078230111594.a, A007953, A007953.P3472751987379697826.a, A095402, A095402.P1191208057161078157.f1, A095402.P1191208057161078157.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A095403, Nat.add_sub_cancel, A095403.P2456621769943728192.f1, A095403.P2456621769943728192.a, A095403.P6923104078230111594.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A095402, A095402.P1191208057161078157.f1, A095402.P1191208057161078157.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -566,7 +564,7 @@ end A095403
 /-!
 # A095404: Numbers whose sum of digits is greater than the sum of the digits of all of its distinct prime factors.
 
-The programs for A095404, the canonical program `A095404.P9061338840450113737` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095404 has offset 1).
+The programs for A095404, the canonical program `A095404.P9061338840450113737` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095404 has offset 1).
 
 The definition of A095404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4371 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -604,7 +602,7 @@ end A095404
 
 `lt[∑{p}[n, A007953(#)], A007953(n)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A095404
@@ -709,7 +707,7 @@ end A095404
 /-!
 # A095405: Numbers n such that Sum-of-digits-of-n = Sum-of-digits-of-all-distinct-prime-factors-of-n.
 
-The programs for A095405, the canonical program `A095405.P11816244363081990498` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
+The programs for A095405, the canonical program `A095405.P11816244363081990498` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
 
 The definition of A095405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -718,7 +716,7 @@ The definition of A095405 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A095403(1+n)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A095405
@@ -887,7 +885,7 @@ end A095405
 /-!
 # A095406: Numbers k such that Sum-of-digits-of-k < Sum-of-digits-of-all-distinct-prime-factors-of-k.
 
-The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
+The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
 
 The definition of A095406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3908 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -925,7 +923,7 @@ end A095406
 
 `lt[A095403(A028310(n)), 0]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A095406

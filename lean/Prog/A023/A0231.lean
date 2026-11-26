@@ -864,7 +864,7 @@ end A023109.P1511192492976974878
 /-!
 # A023110: Squares which remain squares when the last digit is removed.
 
-The programs for A023110, the canonical program `A023110.P12853904010065431541` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023110 has offset 1).
+The programs for A023110, the canonical program `A023110.P12853904010065431541` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023110 has offset 1).
 
 The definition of A023110 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A031149, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -873,7 +873,7 @@ The definition of A023110 is `conditional`: the Lean definition is an OEIS formu
 
 `A031149(n+1)²`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A023110
@@ -7281,7 +7281,7 @@ end A023195.P14369150345484053190
 /-!
 # A023196: Nondeficient numbers: numbers k such that sigma(k) >= 2k; union of A000396 and A005101.
 
-The programs for A023196, the canonical program `A023196.P11305018750547605188` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023196 has offset 1).
+The programs for A023196, the canonical program `A023196.P11305018750547605188` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023196 has offset 1).
 
 The definition of A023196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7522,7 +7522,7 @@ end A023196
 
 `lt[2*n+1, A000203(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A023196

@@ -31,6 +31,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
@@ -953,7 +954,7 @@ end A397711.P1442832148510990887
 /-!
 # A397713: Triangle read by rows: T(n,k) is the number of binary digits in binomial(n,k).
 
-The programs for A397713, the canonical program `A397713.P732737537006810765` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397713 has offset 0).
+The programs for A397713, the canonical program `A397713.P732737537006810765` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397713 has offset 0).
 
 The definition of A397713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -962,7 +963,7 @@ The definition of A397713 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A070939(A007318(n))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397713
@@ -1325,7 +1326,7 @@ end A397713
 /-!
 # A397715: Self-convolution of hyperfactorials (A002109).
 
-The programs for A397715, the canonical program `A397715.P8063238104841521262` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397715 has offset 0).
+The programs for A397715, the canonical program `A397715.P8063238104841521262` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397715 has offset 0).
 
 The definition of A397715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1334,7 +1335,7 @@ The definition of A397715 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A002109(#)*A002109(n-#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397715
@@ -1408,7 +1409,7 @@ end A397716
 /-!
 # A397717: Convolution of hyperfactorials and superfactorials.
 
-The programs for A397717, the canonical program `A397717.P3044417372378662278` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397717 has offset 0).
+The programs for A397717, the canonical program `A397717.P3044417372378662278` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397717 has offset 0).
 
 The definition of A397717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1417,7 +1418,7 @@ The definition of A397717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A002109(#)*A000178(n-#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397717
@@ -1435,7 +1436,7 @@ end A397717
 /-!
 # A397718: Self-convolution of superfactorials (A000178).
 
-The programs for A397718, the canonical program `A397718.P14206182388537485238` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397718 has offset 0).
+The programs for A397718, the canonical program `A397718.P14206182388537485238` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397718 has offset 0).
 
 The definition of A397718 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1444,7 +1445,7 @@ The definition of A397718 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A000178(#)*A000178(n-#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397718
@@ -1669,7 +1670,7 @@ end A397733
 /-!
 # A397736: a(n) is the number of Motzkin paths of length n in which level steps on even levels come in 2 colors.
 
-The programs for A397736, the canonical program `A397736.P9033363532700325613` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397736 has offset 0).
+The programs for A397736, the canonical program `A397736.P9033363532700325613` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397736 has offset 0).
 
 The definition of A397736 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 187 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1678,7 +1679,7 @@ The definition of A397736 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[n, C(n, #)*A090344(#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A397736

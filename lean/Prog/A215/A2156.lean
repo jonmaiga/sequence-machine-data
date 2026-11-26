@@ -53,6 +53,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -154,7 +155,7 @@ end A215601.P17790651849945927380
 /-!
 # A215602: a(n) = L(n)*L(n+1), where L = A000032 (Lucas numbers).
 
-The programs for A215602, the canonical program `A215602.P476152105316514316` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215602 has offset 0).
+The programs for A215602, the canonical program `A215602.P476152105316514316` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215602 has offset 0).
 
 The definition of A215602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -186,7 +187,7 @@ end A215602
 
 `A002878(n)+(-1)^n`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A215602
@@ -4127,7 +4128,7 @@ end A215649.P16214927788814496799
 /-!
 # A215652: Exponential Riordan array [exp(x*exp(-x)),x].
 
-The programs for A215652, the canonical program `A215652.P8169846766172841681` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215652 has offset 0).
+The programs for A215652, the canonical program `A215652.P8169846766172841681` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215652 has offset 0).
 
 The definition of A215652 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4136,7 +4137,7 @@ The definition of A215652 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(row(n), col(n))*A003725(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A215652
@@ -6645,7 +6646,7 @@ end A215673
 /-!
 # A215675: a(1) = 1, a(n) = 2 if 1<n<=3, a(2n+1) = a(n)+1, a(2n+2) = a(n)+a(n+1)+1 otherwise.
 
-The programs for A215675, the canonical program `A215675.P2158629537896342480` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215675 has offset 1).
+The programs for A215675, the canonical program `A215675.P2158629537896342480` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215675 has offset 1).
 
 The definition of A215675 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6654,7 +6655,7 @@ The definition of A215675 is `conjectured`: the Lean definition is a formula tha
 
 `a(lcm(2, n)/2-1)+a(A152271(n)-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A215675

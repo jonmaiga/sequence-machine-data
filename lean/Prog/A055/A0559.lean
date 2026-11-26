@@ -55,6 +55,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -3052,7 +3053,7 @@ end A055932.P827984324639598670
 /-!
 # A055933: Product of digits (not counting zeros) of n divides sum of digits of n.
 
-The programs for A055933, the canonical program `A055933.P1168599586007844264` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055933 has offset 1).
+The programs for A055933, the canonical program `A055933.P1168599586007844264` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055933 has offset 1).
 
 The definition of A055933 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3061,7 +3062,7 @@ The definition of A055933 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007953(n)%A051801(n), A000007(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A055933

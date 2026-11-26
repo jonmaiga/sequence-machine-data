@@ -44,12 +44,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -1675,7 +1677,7 @@ end A332619
 /-!
 # A332620: a(n) = Sum_{k=1..n} n^(n/gcd(n, k)).
 
-The programs for A332620, the canonical program `A332620.P9818349894681788199` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332620 has offset 1).
+The programs for A332620, the canonical program `A332620.P9818349894681788199` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332620 has offset 1).
 
 The definition of A332620 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1789,7 +1791,7 @@ end A332620
 
 `∑{d}[n+1, A000010(#)*(n+1)^#]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A332620
@@ -5702,7 +5704,7 @@ end A332673.P15914194817965563672
 /-!
 # A332674: Prime numbers p_k such that p_k == 1 (mod 10) and p_(k+1) == 9 (mod 10).
 
-The programs for A332674, the canonical program `A332674.P11479518678889470787` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332674 has offset 1).
+The programs for A332674, the canonical program `A332674.P11479518678889470787` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332674 has offset 1).
 
 The definition of A332674 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5850,7 +5852,7 @@ end A332674
 
 `∩[A045453(n+1), A253970(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A332674
@@ -7778,7 +7780,7 @@ end A332685
 /-!
 # A332686: a(n) = Sum_{k=1..n} phi(k/gcd(n, k)).
 
-The programs for A332686, the canonical program `A332686.P11805759045295753798` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332686 has offset 1).
+The programs for A332686, the canonical program `A332686.P11805759045295753798` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332686 has offset 1).
 
 The definition of A332686 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, A000010((#+1)/gcd(n+1, #+1))]` (program `A332686.P11805759045295753798`, by `A332686.P11805759045295753798.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7839,7 +7841,7 @@ end A332686
 
 `∑{#}[n, A000010((#+1)/gcd(n+1, #+1))]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A332686

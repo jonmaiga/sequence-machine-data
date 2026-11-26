@@ -48,8 +48,8 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -168,7 +168,7 @@ end A360101.P15453165791173365857
 /-!
 # A360102: a(n) = Sum_{k=0..n} binomial(n+2*k,n-k) * Catalan(k).
 
-The programs for A360102, the canonical program `A360102.P5397151178440204743` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360102 has offset 0).
+The programs for A360102, the canonical program `A360102.P5397151178440204743` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360102 has offset 0).
 
 The definition of A360102 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(n+2*#, n-#)*A000108(#)]` (program `A360102.P5397151178440204743`, by `A360102.P5397151178440204743.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -177,7 +177,7 @@ The definition of A360102 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, C(n+2*#, n-#)*A000108(#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360102
@@ -325,7 +325,7 @@ end A360102
 /-!
 # A360103: a(n) = Sum_{k=0..n} binomial(n+4*k,n-k) * Catalan(k).
 
-The programs for A360103, the canonical program `A360103.P8150630783788936650` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360103 has offset 0).
+The programs for A360103, the canonical program `A360103.P8150630783788936650` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360103 has offset 0).
 
 The definition of A360103 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(n+4*#, n-#)*A000108(#)]` (program `A360103.P8150630783788936650`, by `A360103.P8150630783788936650.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -334,7 +334,7 @@ The definition of A360103 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, C(n+4*#, n-#)*A000108(#)]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360103

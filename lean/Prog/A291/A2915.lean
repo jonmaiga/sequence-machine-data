@@ -46,7 +46,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -59,7 +58,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -465,7 +463,7 @@ end A291515
 /-!
 # A291516: The arithmetic function uhat(n,3,7), negated.
 
-The programs for A291516, the canonical program `A291516.P17216869788137027425` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291516 has offset 1).
+The programs for A291516, the canonical program `A291516.P17216869788137027425` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291516 has offset 1).
 
 The definition of A291516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -474,7 +472,7 @@ The definition of A291516 is `conjectured`: the Lean definition is a formula tha
 
 `abs(3*A291514(1+n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291516
@@ -1647,7 +1645,7 @@ end A291537
 /-!
 # A291538: a(n) = PrimePi(n^3) - PrimePi(n)^3, where PrimePi = A000720.
 
-The programs for A291538, the canonical program `A291538.P953882341911641675` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291538 has offset 1).
+The programs for A291538, the canonical program `A291538.P953882341911641675` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291538 has offset 1).
 
 The definition of A291538 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000720((n+1)^3)-A000720(n+1)^3` (program `A291538.P953882341911641675`, by `A291538.P953882341911641675.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1685,7 +1683,7 @@ end A291538
 
 `A000720((n+1)^3)-A000720(n+1)^3`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291538
@@ -1913,7 +1911,7 @@ end A291538
 /-!
 # A291539: a(n) = PrimePi(n^3) - PrimePi(n) * PrimePi(n^2), where PrimePi = A000720.
 
-The programs for A291539, the canonical program `A291539.P7151993203524073242` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291539 has offset 1).
+The programs for A291539, the canonical program `A291539.P7151993203524073242` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291539 has offset 1).
 
 The definition of A291539 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000720((n+1)^3)-A000720(n+1)*A000720((n+1)²)` (program `A291539.P7151993203524073242`, by `A291539.P7151993203524073242.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1951,7 +1949,7 @@ end A291539
 
 `A000720((n+1)^3)-A000720(n+1)*A000720((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291539
@@ -2168,7 +2166,7 @@ end A291539
 /-!
 # A291540: a(n) = PrimePi(n) * PrimePi(n^2) - PrimePi(n)^3, where PrimePi = A000720.
 
-The programs for A291540, the canonical program `A291540.P1811634934002939262` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291540 has offset 1).
+The programs for A291540, the canonical program `A291540.P1811634934002939262` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291540 has offset 1).
 
 The definition of A291540 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000720(n+1)*A000720((n+1)²)-A000720(n+1)^3` (program `A291540.P1811634934002939262`, by `A291540.P1811634934002939262.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2177,7 +2175,7 @@ The definition of A291540 is `verified`: the Lean definition is proven equivalen
 
 `A000720(n+1)*A000720((n+1)²)-A000720(n+1)^3`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291540
@@ -2523,7 +2521,7 @@ end A291540
 /-!
 # A291541: a(n) = prime(n) * prime(n^2) - prime(n^3).
 
-The programs for A291541, the canonical program `A291541.P15414953369165611831` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291541 has offset 1).
+The programs for A291541, the canonical program `A291541.P15414953369165611831` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291541 has offset 1).
 
 The definition of A291541 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)*A000040((n+1)²)-A000040((n+1)^3)` (program `A291541.P15414953369165611831`, by `A291541.P15414953369165611831.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2532,7 +2530,7 @@ The definition of A291541 is `verified`: the Lean definition is proven equivalen
 
 `A000040(n+1)*A000040((n+1)²)-A000040((n+1)^3)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291541
@@ -2680,7 +2678,7 @@ end A291541
 /-!
 # A291542: a(n) = prime(n)^3 - prime(n) * prime(n^2).
 
-The programs for A291542, the canonical program `A291542.P11341905494705326156` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291542 has offset 1).
+The programs for A291542, the canonical program `A291542.P11341905494705326156` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291542 has offset 1).
 
 The definition of A291542 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)^3-A000040(n+1)*A000040((n+1)²)` (program `A291542.P11341905494705326156`, by `A291542.P11341905494705326156.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2689,7 +2687,7 @@ The definition of A291542 is `verified`: the Lean definition is proven equivalen
 
 `A000040(n+1)^3-A000040(n+1)*A000040((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291542

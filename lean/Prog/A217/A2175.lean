@@ -5061,7 +5061,7 @@ end A217569.P949459177849899592
 /-!
 # A217570: Numbers n such that floor(sqrt(n)) = floor(n/(floor(sqrt(n))-1))-1.
 
-The programs for A217570, the canonical program `A217570.P4492516139347858203` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217570 has offset 1).
+The programs for A217570, the canonical program `A217570.P4492516139347858203` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217570 has offset 1).
 
 The definition of A217570 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5426,7 +5426,7 @@ end A217570
 
 `A002262(n)+A052938(A131507(n))²`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217570
@@ -8773,7 +8773,7 @@ end A217587
 /-!
 # A217588: Primes of the form 2520k + 1 for some k.
 
-The programs for A217588, the canonical program `A217588.P3017189928646110220` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217588 has offset 1).
+The programs for A217588, the canonical program `A217588.P3017189928646110220` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217588 has offset 1).
 
 The definition of A217588 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217588.anchor (n : ℕ) (hn : 1 ≤ n) : A217588 n = (Nat.nth (fun p => p.Prime ∧ p % 2520 ∈ ({1} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A217.A217588`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8842,7 +8842,7 @@ end A217588
 
 `∩[A142312(n+1), A142641(n+1)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217588

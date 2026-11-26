@@ -65,7 +65,6 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -4875,7 +4874,7 @@ end A249042.P16463845303689394773
 /-!
 # A249043: a(1) = 42; a(n+1) = a(n) + sum of decimal digits of a(n).
 
-The programs for A249043, the canonical program `A249043.P15231578259827823311` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249043 has offset 1).
+The programs for A249043, the canonical program `A249043.P15231578259827823311` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249043 has offset 1).
 
 The definition of A249043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 582 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4884,7 +4883,7 @@ The definition of A249043 is `conjectured`: the Lean definition is a formula tha
 
 `A062028(a(n-1))` with `a(0)=42`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A249043

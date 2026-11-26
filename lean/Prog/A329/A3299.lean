@@ -53,6 +53,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -3028,7 +3029,7 @@ end A329930
 /-!
 # A329935: Numbers k such that k and k+1 are both hoax numbers (A019506).
 
-The programs for A329935, the canonical program `A329935.P4917152360086528643` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329935 has offset 1).
+The programs for A329935, the canonical program `A329935.P4917152360086528643` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329935 has offset 1).
 
 The definition of A329935 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 308 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3037,7 +3038,7 @@ The definition of A329935 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A019506(n+1)-1, A019506(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A329935

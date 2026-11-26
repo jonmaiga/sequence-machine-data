@@ -5989,7 +5989,7 @@ end A289867.P5473089496959554079
 /-!
 # A289869: Square array T(n,k) (n>=0, k>=0) read by antidiagonals downwards: T(n,k) = A005836(n) + 2*A005836(k).
 
-The programs for A289869, the canonical program `A289869.P7408027565443424072` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289869 has offset 1).
+The programs for A289869, the canonical program `A289869.P7408027565443424072` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289869 has offset 1).
 
 The definition of A289869 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5998,7 +5998,7 @@ The definition of A289869 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005836(col(n)+1)+2*A005836(row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A289869
@@ -6108,7 +6108,7 @@ end A289869
 /-!
 # A289870: a(n) = n*(n + 1) for n odd, otherwise a(n) = (n - 1)*(n + 1).
 
-The programs for A289870, the canonical program `A289870.P8136116674077468676` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289870 has offset 0).
+The programs for A289870, the canonical program `A289870.P8136116674077468676` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289870 has offset 0).
 
 The definition of A289870 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6186,7 +6186,7 @@ end A289870
 
 `A002378(n)-A193356(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A289870
@@ -6771,7 +6771,7 @@ end A289872.P8623537589822148830
 /-!
 # A289873: Related to perfect Wichmann rulers: a(n) = ( n^2 - (mod(n, 6) - 3)^2 ) / 3.
 
-The programs for A289873, the canonical program `A289873.P1117904609125433666` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289873 has offset 2).
+The programs for A289873, the canonical program `A289873.P1117904609125433666` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289873 has offset 2).
 
 The definition of A289873 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6805,7 +6805,7 @@ end A289873
 
 `A289761(n+2)-(n+2)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A289873

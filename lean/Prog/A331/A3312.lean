@@ -56,7 +56,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -3581,7 +3580,7 @@ end A331256.P8397869906945449513
 /-!
 # A331259: Numerator of harmonic mean of 3 consecutive primes. Denominators are A331260.
 
-The programs for A331259, the canonical program `A331259.P10309097593094092739` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331259 has offset 1).
+The programs for A331259, the canonical program `A331259.P10309097593094092739` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331259 has offset 1).
 
 The definition of A331259 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3590,7 +3589,7 @@ The definition of A331259 is `conjectured`: the Lean definition is a formula tha
 
 `A331260(n+1)%4*A046301(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A331259

@@ -38,6 +38,7 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -4966,7 +4967,7 @@ end A290558.P2586761750931281799
 /-!
 # A290559: One of the two successive approximations up to 7^n for the 7-adic integer sqrt(2). These are the numbers congruent to 4 mod 7 (except for the initial 0).
 
-The programs for A290559, the canonical program `A290559.P16268040871151256030` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290559 has offset 0).
+The programs for A290559, the canonical program `A290559.P16268040871151256030` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290559 has offset 0).
 
 The definition of A290559 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4975,7 +4976,7 @@ The definition of A290559 is `conjectured`: the Lean definition is a formula tha
 
 `A000420(n)-(A290557(n)+A000007(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290559
@@ -6082,7 +6083,7 @@ end A290563.P16073927996726562655
 /-!
 # A290564: Number of primes between n^2 and 2*n^2.
 
-The programs for A290564, the canonical program `A290564.P15092695203711350543` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290564 has offset 1).
+The programs for A290564, the canonical program `A290564.P15092695203711350543` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290564 has offset 1).
 
 The definition of A290564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6091,7 +6092,7 @@ The definition of A290564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720(2*(n+1)²)-A000720((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290564

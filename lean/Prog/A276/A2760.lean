@@ -9059,7 +9059,7 @@ end A276075
 /-!
 # A276076: Factorial base exp-function: digits in factorial base representation of n become the exponents of successive prime factors whose product a(n) is.
 
-The programs for A276076, the canonical program `A276076.P9396357468648609114` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276076 has offset 0).
+The programs for A276076, the canonical program `A276076.P9396357468648609114` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276076 has offset 0).
 
 The definition of A276076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A084558, A099563, A257687, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9091,7 +9091,7 @@ end A276076
 
 `a(A257687(n))*A000040(A084558(n))^A099563(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A276076

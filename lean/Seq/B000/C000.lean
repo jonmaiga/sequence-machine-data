@@ -360,6 +360,37 @@ end
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000108.anchor (n : ℕ) : A000108 n = (catalan n : ℤ)` in `Proof.A000.A000108`. -/
 def A000108.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A000110.P10669528326230861424
+
+`1+floor(exp(-1)*∑{#}[2*n-1, (#+1)^n/(#+1)!])`
+-/
+
+namespace A000110.P10669528326230861424
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n : ℤ) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + ⌊Real.exp (-1 : ℝ) * ((∑ k ∈ Finset.range (f1 n + 1).toNat, ((k + 1) ^ n : ℚ) / (Nat.factorial (k + 1) : ℚ) : ℚ) : ℝ)⌋
+
+end
+
+end A000110.P10669528326230861424
+
+noncomputable section
+
+/-- A000110: Bell or exponential numbers: number of ways to partition a set of n labeled elements.
+
+Offset 0, canonical program `A000110.P10669528326230861424`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000110.anchor (n : ℕ) : A000110 n = (Nat.bell n : ℤ)` in `Proof.A000.A000110`. -/
+def A000110 (n : ℕ) : ℤ :=
+  A000110.P10669528326230861424.a n
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000110.anchor (n : ℕ) : A000110 n = (Nat.bell n : ℤ)` in `Proof.A000.A000110`. -/
+def A000110.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A000124.P675563980313077261
 
 `a(n-1)+n` with `a(0)=1`
@@ -659,6 +690,34 @@ end
 
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000188.anchor (n : ℕ) (hn : 1 ≤ n) : ∃ k : ℕ, A000188 n = k ∧ IsGreatest {d : ℕ | d ^ 2 ∣ n} k` in `Proof.A000.A000188`. -/
 def A000188.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A000196.P15434771586934192083
+
+`floor(sqrt(n))`
+-/
+
+namespace A000196.P15434771586934192083
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt n
+
+end
+
+end A000196.P15434771586934192083
+
+noncomputable section
+
+/-- A000196: Integer part of square root of n. Or, number of positive squares <= n. Or, n appears 2n+1 times.
+
+Offset 0, canonical program `A000196.P15434771586934192083`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000196.anchor (n : ℕ) : A000196 n = ⌊Real.sqrt n⌋` in `Proof.A000.A000196`. -/
+def A000196 (n : ℕ) : ℤ :=
+  (A000196.P15434771586934192083.a n : ℤ)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000196.anchor (n : ℕ) : A000196 n = ⌊Real.sqrt n⌋` in `Proof.A000.A000196`. -/
+def A000196.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A000203.P15001602795509372896
 
@@ -13804,37 +13863,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A000102.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A000110.P10669528326230861424
-
-`1+floor(exp(-1)*∑{#}[2*n-1, (#+1)^n/(#+1)!])`
--/
-
-namespace A000110.P10669528326230861424
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n : ℤ) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ⌊Real.exp (-1 : ℝ) * ((∑ k ∈ Finset.range (f1 n + 1).toNat, ((k + 1) ^ n : ℚ) / (Nat.factorial (k + 1) : ℚ) : ℚ) : ℝ)⌋
-
-end
-
-end A000110.P10669528326230861424
-
-noncomputable section
-
-/-- A000110: Bell or exponential numbers: number of ways to partition a set of n labeled elements.
-
-Offset 0, canonical program `A000110.P10669528326230861424`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000110 (n : ℕ) : ℤ :=
-  A000110.P10669528326230861424.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000110.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A000115.P11449412903321542619
 
 `round((n+4)²/20)`
@@ -14256,34 +14284,6 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log(n+1))` (program `A000195.P8688712411297485984`, by `A000195.P8688712411297485984.correct`). Lean does not check the parsing of the name. -/
 def A000195.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A000196.P15434771586934192083
-
-`floor(sqrt(n))`
--/
-
-namespace A000196.P15434771586934192083
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.sqrt n
-
-end
-
-end A000196.P15434771586934192083
-
-noncomputable section
-
-/-- A000196: Integer part of square root of n. Or, number of positive squares <= n. Or, n appears 2n+1 times.
-
-Offset 0, canonical program `A000196.P15434771586934192083`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000196 (n : ℕ) : ℤ :=
-  (A000196.P15434771586934192083.a n : ℤ)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000196.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A000201.P2935798382643029248
 

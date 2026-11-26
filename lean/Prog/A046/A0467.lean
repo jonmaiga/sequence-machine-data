@@ -556,7 +556,7 @@ end A046703.P10468650855927753021
 /-!
 # A046704: Additive primes: sum of digits is a prime.
 
-The programs for A046704, the canonical program `A046704.P5960300289646636336` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046704 has offset 1).
+The programs for A046704, the canonical program `A046704.P5960300289646636336` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046704 has offset 1).
 
 The definition of A046704 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4086 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -588,7 +588,7 @@ end A046704
 
 `p?[A000040(n+1)*A001222(A007605(n+1))]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A046704

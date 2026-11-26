@@ -66,7 +66,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -3235,16 +3234,16 @@ end A050222.P406135181833708002
 /-!
 # A050223: Digit sums of hoax numbers A019506.
 
-The programs for A050223, the canonical program `A050223.P13683550059284488781` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050223 has offset 1).
+The programs for A050223, the canonical program `A050223.P13683550059284488781` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050223 has offset 1).
 
-The definition of A050223 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, A019506, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A050223 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019506, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A050223.P13683550059284488781
 
 `A007953(A019506(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A050223

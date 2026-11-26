@@ -2737,7 +2737,7 @@ end A333045.P14925124684229115711
 /-!
 # A333046: a(1) = 1; a(n) = n * Sum_{d|n, d < n, gcd(d, n/d) = 1} a(d) / d.
 
-The programs for A333046, the canonical program `A333046.P5833979517361446591` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
+The programs for A333046, the canonical program `A333046.P5833979517361446591` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
 
 The definition of A333046 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2746,7 +2746,7 @@ The definition of A333046 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A000670(A001221(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A333046

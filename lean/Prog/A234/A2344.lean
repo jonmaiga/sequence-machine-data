@@ -3333,7 +3333,7 @@ end A234472.P16114951731199060551
 /-!
 # A234474: Numbers that are divisible by their digital sum and digital root.
 
-The programs for A234474, the canonical program `A234474.P6254020789503827840` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234474 has offset 1).
+The programs for A234474, the canonical program `A234474.P6254020789503827840` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234474 has offset 1).
 
 The definition of A234474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3368,7 +3368,7 @@ end A234474
 
 `filter[A064807(1+n), A188641(#)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A234474

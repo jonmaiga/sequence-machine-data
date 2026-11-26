@@ -72,7 +72,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4587,16 +4586,16 @@ end A065038.P5171205332052343749
 /-!
 # A065039: If n in base 10 is d_1 d_2 ... d_k then a(n) = d_1 + d_1.d_2 + d_1.d_2.d_3 + ... + d_1. ... .d_k, where the dot means the concatenation operation.
 
-The programs for A065039, the canonical program `A065039.P4788194488470715228` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065039 has offset 0).
+The programs for A065039, the canonical program `A065039.P4788194488470715228` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065039 has offset 0).
 
-The definition of A065039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A054899, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A065039.P4788194488470715228
 
 `n+A054899(n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A065039
@@ -4808,7 +4807,7 @@ def P6872864847272280449.Spec : Prop :=
 
 theorem P6872864847272280449.correct : P6872864847272280449.Spec := by
   intro n
-  simp only [A065039, Nat.add_sub_cancel, A065039.P6872864847272280449.a, A065039.P4788194488470715228.a, A001489, A001489.P15233530513763566776.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A065039, Nat.add_sub_cancel, A065039.P6872864847272280449.a, A065039.P4788194488470715228.a, A001489, A001489.P15233530513763566776.a, A054899, A054899.P8190915563877692656.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -9756,16 +9755,16 @@ end A065072.P16933762559352286855
 /-!
 # A065073: a(n) = prime(n) + (sum of digits of prime(n)).
 
-The programs for A065073, the canonical program `A065073.P8599182111085404624` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065073 has offset 1).
+The programs for A065073, the canonical program `A065073.P8599182111085404624` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065073 has offset 1).
 
-The definition of A065073 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A065073 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A065073.P8599182111085404624
 
 `A062028(A000040(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A065073
@@ -10351,7 +10350,7 @@ end A065074.P9909823873351292201
 /-!
 # A065075: Sum of digits of the sum of the preceding numbers.
 
-The programs for A065075, the canonical program `A065075.P5743143580939958103` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065075 has offset 1).
+The programs for A065075, the canonical program `A065075.P5743143580939958103` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065075 has offset 1).
 
 The definition of A065075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10360,7 +10359,7 @@ The definition of A065075 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A004207(n), #]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A065075
@@ -10730,7 +10729,7 @@ end A065075
 /-!
 # A065076: a(0) = 0, a(1) = 1, a(n) = (sum of digits of a(n-1)) + a(n-2).
 
-The programs for A065076, the canonical program `A065076.P12545874303154124249` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065076 has offset 0).
+The programs for A065076, the canonical program `A065076.P12545874303154124249` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065076 has offset 0).
 
 The definition of A065076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1179 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10739,7 +10738,7 @@ The definition of A065076 is `conjectured`: the Lean definition is a formula tha
 
 `A007953(a(n-1))+a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A065076

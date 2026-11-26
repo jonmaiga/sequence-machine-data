@@ -9563,7 +9563,7 @@ end A070277.P1778074403007675223
 /-!
 # A070279: Sum of digits of n equals the sum of digits of 2n.
 
-The programs for A070279, the canonical program `A070279.P16026357053581798392` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070279 has offset 1).
+The programs for A070279, the canonical program `A070279.P16026357053581798392` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070279 has offset 1).
 
 The definition of A070279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 791 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10123,7 +10123,7 @@ end A070279
 
 `eq[A004092(n+1), A007953(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A070279
@@ -10525,6 +10525,12 @@ namespace A070280
 /-- `∑[A007953(n)-A062329(n)]+1` -/
 def P10589381227512687309.Spec : Prop :=
   ∀ n, P10589381227512687309.a n = A070280 (n + 1)
+
+theorem P10589381227512687309.correct : P10589381227512687309.Spec := by
+  intro n
+  simp only [A070280, Nat.add_sub_cancel, A070280.P10589381227512687309.f1, A070280.P10589381227512687309.a, A070280.P15438694526545371023.f2, A070280.P15438694526545371023.f1, A070280.P15438694526545371023.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, A062329, A062329.P1617940940404348921.f1, A062329.P1617940940404348921.f2, A062329.P1617940940404348921.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A070280
 

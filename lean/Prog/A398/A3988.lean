@@ -54,12 +54,13 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -396,7 +397,7 @@ end A398807
 /-!
 # A398808: a(n) = 27^n * [z^n] 2F1(1/3, 1/3; 1; z)^2.
 
-The programs for A398808, the canonical program `A398808.P3237987185005976780` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398808 has offset 0).
+The programs for A398808, the canonical program `A398808.P3237987185005976780` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398808 has offset 0).
 
 The definition of A398808 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -405,7 +406,7 @@ The definition of A398808 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, A276018(#)*A276018(n-#)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398808
@@ -6318,7 +6319,7 @@ end A398843
 /-!
 # A398844: Lower (1/2, 1/3)-midsequence of triangular numbers (A000217) and pentagonal numbers (A000326); see Comments.
 
-The programs for A398844, the canonical program `A398844.P8131316336226091348` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398844 has offset 0).
+The programs for A398844, the canonical program `A398844.P8131316336226091348` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398844 has offset 0).
 
 The definition of A398844 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6350,7 +6351,7 @@ end A398844
 
 `A398850(n)+∑[n]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398844
@@ -14592,7 +14593,7 @@ end A398893.P14962946757561008557
 /-!
 # A398894: Minimum value of k such that there exists a subset S of {1, ..., k} of size n for which the average of every nonempty subset of S is an integer.
 
-The programs for A398894, the canonical program `A398894.P12466504130326028723` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398894 has offset 1).
+The programs for A398894, the canonical program `A398894.P12466504130326028723` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398894 has offset 1).
 
 The definition of A398894 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14676,7 +14677,7 @@ end A398894
 
 `n*A003418(A254667(n))+1`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398894

@@ -7294,7 +7294,7 @@ end A111156.P210584936903673953
 /-!
 # A111159: Numbers k such that A111075(k) is odd.
 
-The programs for A111159, the canonical program `A111159.P278081500121415465` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111159 has offset 1).
+The programs for A111159, the canonical program `A111159.P278081500121415465` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111159 has offset 1).
 
 The definition of A111159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7303,7 +7303,7 @@ The definition of A111159 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A087507(n), A235872(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A111159
@@ -8476,7 +8476,7 @@ end A111167.P381997900924784590
 /-!
 # A111168: Semiprimes n such that 2*n - 1 is also a semiprime.
 
-The programs for A111168, the canonical program `A111168.P7168529837170573831` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111168 has offset 1).
+The programs for A111168, the canonical program `A111168.P7168529837170573831` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111168 has offset 1).
 
 The definition of A111168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8511,7 +8511,7 @@ end A111168
 
 `filter[A114455(1+n), A065043(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A111168

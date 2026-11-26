@@ -63,6 +63,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -3671,7 +3672,7 @@ end A330739.P10394073314372121707
 /-!
 # A330740: a(n) = min(n, A004488(n)), where A004488(n) is base-3 sum n+n without carries.
 
-The programs for A330740, the canonical program `A330740.P4131874006748430778` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330740 has offset 0).
+The programs for A330740, the canonical program `A330740.P4131874006748430778` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330740 has offset 0).
 
 The definition of A330740 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004488, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3680,7 +3681,7 @@ The definition of A330740 is `conditional`: the Lean definition is an OEIS formu
 
 `min(n, A004488(n))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A330740
@@ -6712,7 +6713,7 @@ end A330789.P8763226789516655285
 /-!
 # A330790: Numbers k where 2^k in decimal has a record number of zeros.
 
-The programs for A330790, the canonical program `A330790.P17636991148221507613` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330790 has offset 1).
+The programs for A330790, the canonical program `A330790.P17636991148221507613` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330790 has offset 1).
 
 The definition of A330790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 153 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6721,7 +6722,7 @@ The definition of A330790 is `conjectured`: the Lean definition is a formula tha
 
 `A031146(record[A027870(n)])`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A330790

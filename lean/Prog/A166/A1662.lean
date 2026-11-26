@@ -436,7 +436,7 @@ end A166214.P1056434688850867439
 /-!
 # A166226: Bell number n modulo n.
 
-The programs for A166226, the canonical program `A166226.P4027427936437726870` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166226 has offset 1).
+The programs for A166226, the canonical program `A166226.P4027427936437726870` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166226 has offset 1).
 
 The definition of A166226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -445,7 +445,7 @@ The definition of A166226 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000110(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166226
@@ -1069,7 +1069,7 @@ end A166228
 /-!
 # A166229: Expansion of (1-2x-sqrt(1-8x+8x^2))/(2x).
 
-The programs for A166229, the canonical program `A166229.P13744087807733818278` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166229 has offset 0).
+The programs for A166229, the canonical program `A166229.P13744087807733818278` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166229 has offset 0).
 
 The definition of A166229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1202,7 +1202,7 @@ end A166229
 
 `(2-A000007(n))*A068764(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166229
@@ -1430,7 +1430,7 @@ end A166229
 /-!
 # A166231: a(n) = 2^C(n+1,2)*A006012(n).
 
-The programs for A166231, the canonical program `A166231.P11317312831400850727` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166231 has offset 0).
+The programs for A166231, the canonical program `A166231.P11317312831400850727` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166231 has offset 0).
 
 The definition of A166231 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^C(n+1, 2)*A006012(n)` (program `A166231.P11317312831400850727`, by `A166231.P11317312831400850727.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1462,7 +1462,7 @@ end A166231
 
 `2^C(n+1, 2)*A006012(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166231
@@ -9551,7 +9551,7 @@ end A166279
 /-!
 # A166280: Stirling2 triangle mod 2, T(n,k) = A008277(n,k) mod 2.
 
-The programs for A166280, the canonical program `A166280.P18195190870057077786` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166280 has offset 0).
+The programs for A166280, the canonical program `A166280.P18195190870057077786` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166280 has offset 0).
 
 The definition of A166280 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008277, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9560,7 +9560,7 @@ The definition of A166280 is `conditional`: the Lean definition is an OEIS formu
 
 `A008277(C(row(n)+1, 2)+col(n)+1)%2`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A166280

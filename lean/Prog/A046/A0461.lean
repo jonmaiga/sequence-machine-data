@@ -74,7 +74,6 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -13137,7 +13136,7 @@ end A046160
 /-!
 # A046161: a(n) = denominator of binomial(2n,n)/4^n.
 
-The programs for A046161, the canonical program `A046161.P11774724709527425901` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046161 has offset 0).
+The programs for A046161, the canonical program `A046161.P11774724709527425901` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046161 has offset 0).
 
 The definition of A046161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13146,7 +13145,7 @@ The definition of A046161 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^A005187(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A046161
@@ -16275,7 +16274,7 @@ end A046176
 /-!
 # A046177: Squares (A000290) which are also hexagonal numbers (A000384).
 
-The programs for A046177, the canonical program `A046177.P8767503573281854959` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046177 has offset 1).
+The programs for A046177, the canonical program `A046177.P8767503573281854959` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046177 has offset 1).
 
 The definition of A046177 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16284,7 +16283,7 @@ The definition of A046177 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001110(2*(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A046177
@@ -18147,7 +18146,7 @@ end A046192.P17405775265154661842
 /-!
 # A046193: Indices of heptagonal numbers (A000566) which are also triangular numbers (A000217).
 
-The programs for A046193, the canonical program `A046193.P10244875722957354228` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046193 has offset 1).
+The programs for A046193, the canonical program `A046193.P10244875722957354228` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046193 has offset 1).
 
 The definition of A046193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18156,7 +18155,7 @@ The definition of A046193 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000045(3*(n+1)-1+(n+1)%2)*A000045(3*(n+1)-3+(n+1)%2)/2`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A046193

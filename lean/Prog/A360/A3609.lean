@@ -7312,7 +7312,7 @@ end A360998.P1696140139610543056
 /-!
 # A360999: Number of tilings of an n X 2 rectangle by integer-sided rectangular pieces that cannot be rearranged to produce a different tiling of the rectangle (including rotations and reflections of the original tiling).
 
-The programs for A360999, the canonical program `A360999.P16342541274025162897` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360999 has offset 1).
+The programs for A360999, the canonical program `A360999.P16342541274025162897` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360999 has offset 1).
 
 The definition of A360999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7393,7 +7393,7 @@ end A360999
 
 `A000007(n)+∑{d}[n+1, (2%#)!]`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360999

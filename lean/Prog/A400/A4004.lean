@@ -22,13 +22,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B002.C007
-import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B003.C005
@@ -309,7 +308,7 @@ end A400415
 /-!
 # A400418: a(n) = Sum_{k=1..n} A007947(floor(n/k)).
 
-The programs for A400418, the canonical program `A400418.P16782049149117832626` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400418 has offset 1).
+The programs for A400418, the canonical program `A400418.P16782049149117832626` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400418 has offset 1).
 
 The definition of A400418 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, A007947(floor((n+1)/(#+1)))]` (program `A400418.P16782049149117832626`, by `A400418.P16782049149117832626.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -318,7 +317,7 @@ The definition of A400418 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, A007947(floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400418
@@ -3235,16 +3234,16 @@ end A400473.P6263905117941640034
 /-!
 # A400478: a(1)=1, a(2)=2; thereafter a(n) = (a(n-1)-a(n-2))*sum of digits(a(n-1)+a(n-2)).
 
-The programs for A400478, the canonical program `A400478.P8710240923367081991` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400478 has offset 1).
+The programs for A400478, the canonical program `A400478.P8710240923367081991` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400478 has offset 1).
 
-The definition of A400478 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A400478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A400478.P8710240923367081991
 
 `(a(n-1)-a(n-2))*A007953(a(n-1)+a(n-2))` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B002.C008`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400478
@@ -3306,7 +3305,7 @@ end A400479.P5522935876192992622
 /-!
 # A400485: a(1) = 1; for n > 1: if a(n-1) + n is odd, a(n) = a(n-1) + n else a(n) = (a(n-1) + n)/2.
 
-The programs for A400485, the canonical program `A400485.P3529086219494941568` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400485 has offset 1).
+The programs for A400485, the canonical program `A400485.P3529086219494941568` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400485 has offset 1).
 
 The definition of A400485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3338,7 +3337,7 @@ end A400485
 
 `n+A135287(n)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A400485

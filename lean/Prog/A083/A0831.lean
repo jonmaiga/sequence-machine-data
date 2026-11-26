@@ -5995,7 +5995,7 @@ end A083173
 /-!
 # A083174: Leading diagonal of A083173.
 
-The programs for A083174, the canonical program `A083174.P3712066604536312936` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083174 has offset 1).
+The programs for A083174, the canonical program `A083174.P3712066604536312936` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083174 has offset 1).
 
 The definition of A083174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6079,7 +6079,7 @@ end A083174
 
 `p?[xor(1, n)+1]*A080512(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A083174
@@ -6366,7 +6366,7 @@ end A083175
 /-!
 # A083176: Arithmetic means of rows of A083173.
 
-The programs for A083176, the canonical program `A083176.P12552362125242154043` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083176 has offset 1).
+The programs for A083176, the canonical program `A083176.P12552362125242154043` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083176 has offset 1).
 
 The definition of A083176 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A083175, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6375,7 +6375,7 @@ The definition of A083176 is `conditional`: the Lean definition is an OEIS formu
 
 `A083175(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A083176

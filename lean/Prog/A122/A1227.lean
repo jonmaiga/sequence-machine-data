@@ -13295,7 +13295,7 @@ end A122798
 /-!
 # A122799: A P_7-stuttered arithmetic progression with a(n+1)=a(n) if n is not a heptagonal number, a(n+1)=a(n)+2 otherwise.
 
-The programs for A122799, the canonical program `A122799.P10680246314926975861` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122799 has offset 1).
+The programs for A122799, the canonical program `A122799.P10680246314926975861` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122799 has offset 1).
 
 The definition of A122799 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13304,7 +13304,7 @@ The definition of A122799 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A045930(n+1)-n`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A122799

@@ -62,6 +62,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1453,7 +1454,7 @@ end A390322.P15985841657672308024
 /-!
 # A390323: Sum of composite numbers coprime to n in the range 1 < k < n.
 
-The programs for A390323, the canonical program `A390323.P3785006267349611144` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390323 has offset 1).
+The programs for A390323, the canonical program `A390323.P3785006267349611144` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390323 has offset 1).
 
 The definition of A390323 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023896, A034387, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1462,7 +1463,7 @@ The definition of A390323 is `conditional`: the Lean definition is an OEIS formu
 
 `A023896(n+1)-A034387(n+1)+A008472(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A390323
@@ -2487,7 +2488,7 @@ end A390328
 /-!
 # A390329: Numbers k such that the number of distinct prime divisors of binomial(2k, k) is even.
 
-The programs for A390329, the canonical program `A390329.P2105305109020500693` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390329 has offset 1).
+The programs for A390329, the canonical program `A390329.P2105305109020500693` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390329 has offset 1).
 
 The definition of A390329 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 264 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2523,7 +2524,7 @@ end A390329
 
 `lt[A067434(1+n)%2, 1]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A390329
@@ -2628,7 +2629,7 @@ end A390329
 /-!
 # A390330: Numbers k such that the number of distinct prime divisors of binomial(2k, k) is odd.
 
-The programs for A390330, the canonical program `A390330.P15860536857581709408` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390330 has offset 0).
+The programs for A390330, the canonical program `A390330.P15860536857581709408` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390330 has offset 0).
 
 The definition of A390330 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 321 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2637,7 +2638,7 @@ The definition of A390330 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A067434(n+1)%2]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A390330

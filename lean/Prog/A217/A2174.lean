@@ -46,7 +46,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -3977,7 +3976,7 @@ end A217466.P17427641840910093252
 /-!
 # A217467: a(1) = 1; for n > 1, the maximum exponent k such that n^k divides the double factorial n!!.
 
-The programs for A217467, the canonical program `A217467.P1457232228138321781` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217467 has offset 1).
+The programs for A217467, the canonical program `A217467.P1457232228138321781` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217467 has offset 1).
 
 The definition of A217467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3986,7 +3985,7 @@ The definition of A217467 is `conjectured`: the Lean definition is a formula tha
 
 `val(A006882(abs(1-n)+2), abs(1-n)+2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217467

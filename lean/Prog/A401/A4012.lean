@@ -30,6 +30,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C007
@@ -41,7 +42,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -86,7 +86,7 @@ set_option linter.unreachableTactic false
 /-!
 # A401204: Number of spanning trees of the graph formed by n triangles arranged in a ring, with corresponding vertices of consecutive triangles joined and the ring closed by a cyclic shift of the vertices.
 
-The programs for A401204, the canonical program `A401204.P3482120195419209640` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401204 has offset 1).
+The programs for A401204, the canonical program `A401204.P3482120195419209640` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401204 has offset 1).
 
 The definition of A401204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -95,7 +95,7 @@ The definition of A401204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*(A003501(n+1)+1)²/3`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401204
@@ -3228,7 +3228,7 @@ end A401290
 /-!
 # A401293: Number of orange squares after n unfoldings in the edge-memory unfolding array.
 
-The programs for A401293, the canonical program `A401293.P6153701285358072561` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401293 has offset 0).
+The programs for A401293, the canonical program `A401293.P6153701285358072561` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401293 has offset 0).
 
 The definition of A401293 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3237,7 +3237,7 @@ The definition of A401293 is `conjectured`: the Lean definition is a formula tha
 
 `2^n-A401290(n)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A401293

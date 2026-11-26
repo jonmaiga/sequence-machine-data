@@ -51,7 +51,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
@@ -595,7 +595,7 @@ end A171005
 /-!
 # A171008: Write the n-th prime in binary and change all 0's to 1's and all 1's to 0's.
 
-The programs for A171008, the canonical program `A171008.P1773118590492637436` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171008 has offset 1).
+The programs for A171008, the canonical program `A171008.P1773118590492637436` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171008 has offset 1).
 
 The definition of A171008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -604,7 +604,7 @@ The definition of A171008 is `conjectured`: the Lean definition is a formula tha
 
 `A256078(Δ[A007504(n)])`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A171008

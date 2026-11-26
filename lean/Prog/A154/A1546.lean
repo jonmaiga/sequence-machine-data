@@ -9758,7 +9758,7 @@ end A154677.P2101588767824392479
 /-!
 # A154679: Primes p such that the sum of digits of p+2 is a composite number.
 
-The programs for A154679, the canonical program `A154679.P10868027328669372929` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154679 has offset 1).
+The programs for A154679, the canonical program `A154679.P10868027328669372929` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154679 has offset 1).
 
 The definition of A154679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1791 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9767,7 +9767,7 @@ The definition of A154679 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A004277(n)-A005171(A004155(n))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A154679

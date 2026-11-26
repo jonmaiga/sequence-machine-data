@@ -52,6 +52,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -65,6 +66,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -4912,7 +4914,7 @@ end A257055
 /-!
 # A257056: Numbers k such that (# squares) < (# nonsquares) in the quarter-squares representation of k.
 
-The programs for A257056, the canonical program `A257056.P301610477660585190` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257056 has offset 1).
+The programs for A257056, the canonical program `A257056.P301610477660585190` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257056 has offset 1).
 
 The definition of A257056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 367 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4921,7 +4923,7 @@ The definition of A257056 is `conjectured`: the Lean definition is a formula tha
 
 `lt[2*A257024(n), A257023(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A257056
@@ -5058,7 +5060,7 @@ end A257056
 /-!
 # A257057: Numbers k such that (# squares) = (# nonsquares) in the quarter-squares representation of k.
 
-The programs for A257057, the canonical program `A257057.P5022482749384390525` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257057 has offset 1).
+The programs for A257057, the canonical program `A257057.P5022482749384390525` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257057 has offset 1).
 
 The definition of A257057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 226 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5067,7 +5069,7 @@ The definition of A257057 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2*A257024(n), A257023(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A257057

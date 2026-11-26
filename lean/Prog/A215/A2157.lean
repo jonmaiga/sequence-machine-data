@@ -36,7 +36,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -2823,7 +2822,7 @@ end A215746.P3458985601760369136
 /-!
 # A215747: a(n) = (-2)^n mod n.
 
-The programs for A215747, the canonical program `A215747.P14723553648550715807` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215747 has offset 1).
+The programs for A215747, the canonical program `A215747.P14723553648550715807` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215747 has offset 1).
 
 The definition of A215747 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2832,7 +2831,7 @@ The definition of A215747 is `conjectured`: the Lean definition is a formula tha
 
 `(xor(1, n+1)*A015910(n+1))%(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A215747

@@ -59,7 +59,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -5494,7 +5493,7 @@ end A333355
 /-!
 # A333357: Integers that cannot be expressed as the ratio of 2 Fibonacci numbers.
 
-The programs for A333357, the canonical program `A333357.P13297053389099279185` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333357 has offset 1).
+The programs for A333357, the canonical program `A333357.P13297053389099279185` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333357 has offset 1).
 
 The definition of A333357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5557,7 +5556,7 @@ end A333357
 
 `comp[A028412(n)*A057427(n)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A333357

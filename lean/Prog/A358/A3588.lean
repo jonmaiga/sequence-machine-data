@@ -35,7 +35,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B002.C000
@@ -1747,7 +1746,7 @@ end A358838.P13700264402669779946
 /-!
 # A358839: Dirichlet inverse of A353627, the characteristic function of the squarefree numbers multiplied by binary powers.
 
-The programs for A358839, the canonical program `A358839.P16533912957850485554` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358839 has offset 1).
+The programs for A358839, the canonical program `A358839.P16533912957850485554` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358839 has offset 1).
 
 The definition of A358839 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A359370, A359372, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1756,7 +1755,7 @@ The definition of A358839 is `conditional`: the Lean definition is an OEIS formu
 
 `A359370(n+1)-A359372(n+1)`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358839
@@ -2251,7 +2250,7 @@ end A358839
 /-!
 # A358840: Primorial base exp-function reduced modulo 6.
 
-The programs for A358840, the canonical program `A358840.P10818825119862171427` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358840 has offset 0).
+The programs for A358840, the canonical program `A358840.P10818825119862171427` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358840 has offset 0).
 
 The definition of A358840 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2260,7 +2259,7 @@ The definition of A358840 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A276086(n)%6`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358840
@@ -5671,7 +5670,7 @@ end A358849.P8559483946552905183
 /-!
 # A358850: Primorial base exp-function reduced modulo 12.
 
-The programs for A358850, the canonical program `A358850.P6468020453041457067` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358850 has offset 0).
+The programs for A358850, the canonical program `A358850.P6468020453041457067` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358850 has offset 0).
 
 The definition of A358850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5680,7 +5679,7 @@ The definition of A358850 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A276086(n)%12`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358850

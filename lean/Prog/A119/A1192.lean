@@ -6125,16 +6125,16 @@ end A119275
 /-!
 # A119281: Number of counting rods to represent n in the ancient Chinese rod numeral system.
 
-The programs for A119281, the canonical program `A119281.P4500062069654907476` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119281 has offset 0).
+The programs for A119281, the canonical program `A119281.P4500062069654907476` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119281 has offset 0).
 
-The definition of A119281 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, A102677, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A119281 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A102677, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A119281.P4500062069654907476
 
 `A007953(n)-4*A102677(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A119281

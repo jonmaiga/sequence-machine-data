@@ -154,7 +154,7 @@ end A076201.P18357381355951775670
 /-!
 # A076203: Numbers n such that the sum of the digits of 2^n is prime.
 
-The programs for A076203, the canonical program `A076203.P5595011529543371954` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076203 has offset 1).
+The programs for A076203, the canonical program `A076203.P5595011529543371954` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076203 has offset 1).
 
 The definition of A076203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -250,7 +250,7 @@ end A076203
 
 `lt[A010051(2*(n+1)), A010051(A001370(n))]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A076203

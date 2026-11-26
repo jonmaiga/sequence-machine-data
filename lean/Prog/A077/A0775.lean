@@ -69,7 +69,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3164,7 +3163,7 @@ end A077539.P17270877708000267344
 /-!
 # A077542: Least number of terms required in the product (k+1)*(k+2)*... to make it a multiple of the product of next n numbers, where k = n*(n+1)/2.
 
-The programs for A077542, the canonical program `A077542.P10484935026448224365` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077542 has offset 1).
+The programs for A077542, the canonical program `A077542.P10484935026448224365` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077542 has offset 1).
 
 The definition of A077542 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3173,7 +3172,7 @@ The definition of A077542 is `conjectured`: the Lean definition is a formula tha
 
 `record[A175856(n+1)/A130321(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077542

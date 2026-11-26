@@ -52,6 +52,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1546,7 +1547,7 @@ end A360615.P7118716508957160388
 /-!
 # A360616: Half the number of prime factors of n (counted with multiplicity, A001222), rounded down.
 
-The programs for A360616, the canonical program `A360616.P5671857912814472833` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360616 has offset 1).
+The programs for A360616, the canonical program `A360616.P5671857912814472833` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360616 has offset 1).
 
 The definition of A360616 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1555,7 +1556,7 @@ The definition of A360616 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(A001222(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360616
@@ -2028,7 +2029,7 @@ end A360616
 /-!
 # A360617: Half the number of prime factors of n (counted with multiplicity, A001222), rounded up.
 
-The programs for A360617, the canonical program `A360617.P3890021096937118540` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360617 has offset 1).
+The programs for A360617, the canonical program `A360617.P3890021096937118540` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360617 has offset 1).
 
 The definition of A360617 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2037,7 +2038,7 @@ The definition of A360617 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(A001222(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360617
@@ -3978,7 +3979,7 @@ end A360650.P10407199845509834416
 /-!
 # A360651: Triangle T(n, m) = (n - m + 1)*C(2*n + 1, m)*C(2*n - m + 2, n - m + 1)/(2*n - m + 2).
 
-The programs for A360651, the canonical program `A360651.P6470989573251510136` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360651 has offset 0).
+The programs for A360651, the canonical program `A360651.P6470989573251510136` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360651 has offset 0).
 
 The definition of A360651 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3987,7 +3988,7 @@ The definition of A360651 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(row(n), col(n))*A000108(row(n))*(2*row(n)+1)`
 
-The canonical program, it is in `Seq.B001.C013`.
+The canonical program, it is in `Seq.B001.C014`.
 -/
 
 namespace A360651

@@ -29,7 +29,6 @@ import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
@@ -2446,7 +2445,7 @@ end A102141.P10294458829359519251
 /-!
 # A102146: a(n) = sigma(10^n - 1), where sigma(n) is the sum of positive divisors of n.
 
-The programs for A102146, the canonical program `A102146.P11194431520238517738` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102146 has offset 1).
+The programs for A102146, the canonical program `A102146.P11194431520238517738` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102146 has offset 1).
 
 The definition of A102146 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(10^(n+1)-1)` (program `A102146.P11194431520238517738`, by `A102146.P11194431520238517738.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2455,7 +2454,7 @@ The definition of A102146 is `verified`: the Lean definition is proven equivalen
 
 `A000203(10^(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A102146

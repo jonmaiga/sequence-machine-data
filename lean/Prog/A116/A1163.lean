@@ -5420,7 +5420,7 @@ end A116382.P10218578616458226450
 /-!
 # A116383: Row sums of number triangle A116382.
 
-The programs for A116383, the canonical program `A116383.P5849049241800975913` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116383 has offset 0).
+The programs for A116383, the canonical program `A116383.P5849049241800975913` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116383 has offset 0).
 
 The definition of A116383 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5429,7 +5429,7 @@ The definition of A116383 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[n, (-1)^(n-#)*C(n, #)*A116387(#)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116383
@@ -6335,7 +6335,7 @@ end A116390.P18034664266092763908
 /-!
 # A116391: Expansion of 1/((1+x)*(sqrt(1-4*x^2)-x)).
 
-The programs for A116391, the canonical program `A116391.P13583395637639638585` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116391 has offset 0).
+The programs for A116391, the canonical program `A116391.P13583395637639638585` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116391 has offset 0).
 
 The definition of A116391 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 288 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6344,7 +6344,7 @@ The definition of A116391 is `conjectured`: the Lean definition is a formula tha
 
 `A098615(n)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116391

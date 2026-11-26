@@ -33,12 +33,14 @@ import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2293,7 +2295,7 @@ end A217139
 /-!
 # A217140: a(n) = m/n where m is the least number divisible by n such that phi(m) = phi(m+6n).
 
-The programs for A217140, the canonical program `A217140.P13825173608988806211` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217140 has offset 1).
+The programs for A217140, the canonical program `A217140.P13825173608988806211` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217140 has offset 1).
 
 The definition of A217140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2325,7 +2327,7 @@ end A217140
 
 `2*(3*A053669(A016957(n)+2)-3)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217140
@@ -2716,7 +2718,7 @@ end A217143.P15485131115875472193
 /-!
 # A217144: Alternating sums of squares of Bell numbers (A000110).
 
-The programs for A217144, the canonical program `A217144.P8986900090101393987` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217144 has offset 0).
+The programs for A217144, the canonical program `A217144.P8986900090101393987` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217144 has offset 0).
 
 The definition of A217144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2725,7 +2727,7 @@ The definition of A217144 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (-1)^(n-#)*A000110(#)²]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A217144

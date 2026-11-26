@@ -6827,7 +6827,7 @@ end A273282.P11648203618068824315
 /-!
 # A273283: Least prime not less than the geometric mean of all prime divisors of n counted with multiplicity.
 
-The programs for A273283, the canonical program `A273283.P12673250565840435264` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273283 has offset 2).
+The programs for A273283, the canonical program `A273283.P12673250565840435264` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273283 has offset 2).
 
 The definition of A273283 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, A079870, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6836,7 +6836,7 @@ The definition of A273283 is `conditional`: the Lean definition is an OEIS formu
 
 `A007918(A079870(n+2))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A273283

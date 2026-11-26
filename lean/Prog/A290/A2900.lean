@@ -49,6 +49,7 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -68,7 +69,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4259,7 +4259,7 @@ end A290058.P9850207720004849035
 /-!
 # A290059: a(n) = binomial(2*prime(n)-1, prime(n)-1) where prime(n) is the n-th prime.
 
-The programs for A290059, the canonical program `A290059.P1064016935964577377` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290059 has offset 1).
+The programs for A290059, the canonical program `A290059.P1064016935964577377` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290059 has offset 1).
 
 The definition of A290059 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2*A000040(n+1)-1, A000040(n+1))` (program `A290059.P1064016935964577377`, by `A290059.P1064016935964577377.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4268,7 +4268,7 @@ The definition of A290059 is `verified`: the Lean definition is proven equivalen
 
 `C(2*A000040(n+1)-1, A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290059
@@ -5555,7 +5555,7 @@ end A290069.P3226155585408912931
 /-!
 # A290070: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 
-The programs for A290070, the canonical program `A290070.P6745444455141305829` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290070 has offset 0).
+The programs for A290070, the canonical program `A290070.P6745444455141305829` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290070 has offset 0).
 
 The definition of A290070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5587,7 +5587,7 @@ end A290070
 
 `A290111(n)-n%2`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290070
@@ -5844,7 +5844,7 @@ end A290071
 /-!
 # A290072: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 
-The programs for A290072, the canonical program `A290072.P12916737471976448683` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290072 has offset 0).
+The programs for A290072, the canonical program `A290072.P12916737471976448683` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290072 has offset 0).
 
 The definition of A290072 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5876,7 +5876,7 @@ end A290072
 
 `or(1, A283505(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A290072

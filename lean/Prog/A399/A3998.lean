@@ -30,6 +30,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
@@ -37,6 +38,7 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
@@ -1633,7 +1635,7 @@ end A399839.P13106233240255986992
 /-!
 # A399840: a(n) = A050443(n) mod n.
 
-The programs for A399840, the canonical program `A399840.P17099530196109704425` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399840 has offset 1).
+The programs for A399840, the canonical program `A399840.P17099530196109704425` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399840 has offset 1).
 
 The definition of A399840 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A050443(n+1)%(n+1)` (program `A399840.P17099530196109704425`, by `A399840.P17099530196109704425.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1642,7 +1644,7 @@ The definition of A399840 is `verified`: the Lean definition is proven equivalen
 
 `A050443(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399840
@@ -1660,7 +1662,7 @@ end A399840
 /-!
 # A399841: a(n) = A087935(n) mod n.
 
-The programs for A399841, the canonical program `A399841.P8409433032057062939` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399841 has offset 1).
+The programs for A399841, the canonical program `A399841.P8409433032057062939` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399841 has offset 1).
 
 The definition of A399841 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1669,7 +1671,7 @@ The definition of A399841 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A087935(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399841

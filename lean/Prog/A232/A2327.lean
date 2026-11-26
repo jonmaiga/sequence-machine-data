@@ -513,7 +513,7 @@ end A232707.P2517903622030578095
 /-!
 # A232709: Nonnegative integers such that the sum of digits mod 10 equals the product of digits mod 10.
 
-The programs for A232709, the canonical program `A232709.P8146322751901021874` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232709 has offset 1).
+The programs for A232709, the canonical program `A232709.P8146322751901021874` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232709 has offset 1).
 
 The definition of A232709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 926 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -609,7 +609,7 @@ end A232709
 
 `eq[A010879(A007954(n)), A053837(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A232709

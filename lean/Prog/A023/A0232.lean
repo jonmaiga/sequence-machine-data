@@ -11370,7 +11370,7 @@ end A023223
 /-!
 # A023224: Primes p such that 7*p + 4 is also prime.
 
-The programs for A023224, the canonical program `A023224.P3715858878049786222` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023224 has offset 1).
+The programs for A023224, the canonical program `A023224.P3715858878049786222` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023224 has offset 1).
 
 The definition of A023224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2469 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11379,7 +11379,7 @@ The definition of A023224 is `conjectured`: the Lean definition is a formula tha
 
 `p?[floor(A141893(n+1)/7)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A023224

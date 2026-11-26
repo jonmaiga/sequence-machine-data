@@ -44,10 +44,8 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -7072,7 +7070,7 @@ end A216883.P535806950042939250
 /-!
 # A216884: Primes p such that x^61 = 2 has a solution mod p.
 
-The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
+The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
 
 The definition of A216884 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7110,7 +7108,7 @@ end A216884
 
 `A000040(A323048(n+1)+char[A323048(n+1)])`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A216884

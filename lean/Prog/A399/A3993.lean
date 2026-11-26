@@ -33,7 +33,7 @@ import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C006
@@ -194,7 +194,7 @@ end A399304.P13475811472511969205
 /-!
 # A399305: Integers whose minimal Lucas representation (A130310) ends in a 0 which if removed results in a valid minimal Lucas representation of another integer.
 
-The programs for A399305, the canonical program `A399305.P13457833435346331970` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399305 has offset 1).
+The programs for A399305, the canonical program `A399305.P13457833435346331970` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399305 has offset 1).
 
 The definition of A399305 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8540 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -346,7 +346,7 @@ end A399305
 
 `A063732(A187945(2+n))`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A399305

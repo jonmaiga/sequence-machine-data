@@ -13194,7 +13194,7 @@ end A111278.P10436969911564299715
 /-!
 # A111279: Number of permutations avoiding the patterns {3241,3421,4321}; number of weak sorting class based on 3241.
 
-The programs for A111279, the canonical program `A111279.P17822418939047922619` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111279 has offset 0).
+The programs for A111279, the canonical program `A111279.P17822418939047922619` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111279 has offset 0).
 
 The definition of A111279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13203,7 +13203,7 @@ The definition of A111279 is `conjectured`: the Lean definition is a formula tha
 
 `A026737((n-1)%(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A111279

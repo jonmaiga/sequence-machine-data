@@ -57,13 +57,12 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -2116,7 +2115,7 @@ end A051407
 /-!
 # A051408: a(n+1) = a(n) + sum of digits of (a(n)^3).
 
-The programs for A051408, the canonical program `A051408.P15079108207671988781` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051408 has offset 1).
+The programs for A051408, the canonical program `A051408.P15079108207671988781` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051408 has offset 1).
 
 The definition of A051408 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2125,7 +2124,7 @@ The definition of A051408 is `conjectured`: the Lean definition is a formula tha
 
 `A004164(a(n-1))+a(n-1)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051408
@@ -2172,7 +2171,7 @@ end A051408
 /-!
 # A051409: a(n+1) = a(n) + sum of digits of (a(n)^3).
 
-The programs for A051409, the canonical program `A051409.P11390321377571457585` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051409 has offset 1).
+The programs for A051409, the canonical program `A051409.P11390321377571457585` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051409 has offset 1).
 
 The definition of A051409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 217 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2181,7 +2180,7 @@ The definition of A051409 is `conjectured`: the Lean definition is a formula tha
 
 `A004164(a(n-1))+a(n-1)` with `a(0)=4`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051409
@@ -2199,7 +2198,7 @@ end A051409
 /-!
 # A051410: a(n+1) = a(n) + sum of digits of a(n)^3.
 
-The programs for A051410, the canonical program `A051410.P16283429953950596313` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051410 has offset 1).
+The programs for A051410, the canonical program `A051410.P16283429953950596313` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051410 has offset 1).
 
 The definition of A051410 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2208,7 +2207,7 @@ The definition of A051410 is `conjectured`: the Lean definition is a formula tha
 
 `A004164(a(n-1))+a(n-1)` with `a(0)=6`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051410
@@ -2255,7 +2254,7 @@ end A051410
 /-!
 # A051411: a(n+1) = a(n) + sum of digits of a(n)^3.
 
-The programs for A051411, the canonical program `A051411.P15164664904360530703` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051411 has offset 1).
+The programs for A051411, the canonical program `A051411.P15164664904360530703` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051411 has offset 1).
 
 The definition of A051411 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 217 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2264,7 +2263,7 @@ The definition of A051411 is `conjectured`: the Lean definition is a formula tha
 
 `A004164(a(n-1))+a(n-1)` with `a(0)=7`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051411
@@ -2305,7 +2304,7 @@ end A051411
 /-!
 # A051412: a(n+1) = a(n) + sum of digits of a(n)^3.
 
-The programs for A051412, the canonical program `A051412.P8533835990491713621` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051412 has offset 1).
+The programs for A051412, the canonical program `A051412.P8533835990491713621` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051412 has offset 1).
 
 The definition of A051412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2314,7 +2313,7 @@ The definition of A051412 is `conjectured`: the Lean definition is a formula tha
 
 `A004164(a(n-1))+a(n-1)` with `a(0)=9`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051412

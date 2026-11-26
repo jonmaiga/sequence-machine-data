@@ -6673,7 +6673,7 @@ end A025821
 /-!
 # A025822: Expansion of 1/((1-x^2)*(1-x^8)*(1-x^11)).
 
-The programs for A025822, the canonical program `A025822.P8162646908997571034` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025822 has offset 0).
+The programs for A025822, the canonical program `A025822.P8162646908997571034` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025822 has offset 0).
 
 The definition of A025822 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^2-x^8+x^10-x^11+x^13+x^19-x^21))` (program `A025822.P8162646908997571034`, by `A025822.P8162646908997571034.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6682,7 +6682,7 @@ The definition of A025822 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x^2-x^8+x^10-x^11+x^13+x^19-x^21))`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A025822

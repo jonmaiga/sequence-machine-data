@@ -73,9 +73,8 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B011.C000
@@ -8958,7 +8957,7 @@ end A202391
 /-!
 # A202393: Digital root of Hoax Numbers A019506.
 
-The programs for A202393, the canonical program `A202393.P11597859668486268077` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202393 has offset 1).
+The programs for A202393, the canonical program `A202393.P11597859668486268077` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202393 has offset 1).
 
 The definition of A202393 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019506, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8967,7 +8966,7 @@ The definition of A202393 is `conditional`: the Lean definition is an OEIS formu
 
 `A010888(A019506(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A202393

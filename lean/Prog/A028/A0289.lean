@@ -46,7 +46,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B001.C014
@@ -205,7 +205,7 @@ end A028900.P8996673340888018000
 /-!
 # A028901: Map n = Sum c_i*10^i to a(n) = Sum c_i*6^i.
 
-The programs for A028901, the canonical program `A028901.P17639925628852123829` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028901 has offset 0).
+The programs for A028901, the canonical program `A028901.P17639925628852123829` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028901 has offset 0).
 
 The definition of A028901 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -260,7 +260,7 @@ end A028901
 
 `A054899(n)+A081599(A054899(n))+A028897(A051022(n))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A028901

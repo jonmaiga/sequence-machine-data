@@ -4533,7 +4533,7 @@ end A256059.P3225458584240717016
 /-!
 # A256061: Number T(n,k) of 2n-length strings of balanced parentheses of exactly k different types; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
-The programs for A256061, the canonical program `A256061.P10325466053515508797` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256061 has offset 0).
+The programs for A256061, the canonical program `A256061.P10325466053515508797` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256061 has offset 0).
 
 The definition of A256061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A253180, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4542,7 +4542,7 @@ The definition of A256061 is `conditional`: the Lean definition is an OEIS formu
 
 `col(n)!*A253180(C(row(n)+1, 2)+col(n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A256061

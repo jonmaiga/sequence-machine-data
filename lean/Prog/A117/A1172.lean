@@ -47,7 +47,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -5365,7 +5364,7 @@ end A117223.P15951374412308218735
 /-!
 # A117224: Numbers for which the square and the cube have the same digital sum.
 
-The programs for A117224, the canonical program `A117224.P6444175390300152224` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117224 has offset 1).
+The programs for A117224, the canonical program `A117224.P6444175390300152224` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117224 has offset 1).
 
 The definition of A117224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 522 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5374,7 +5373,7 @@ The definition of A117224 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A004159(n), A004164(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A117224

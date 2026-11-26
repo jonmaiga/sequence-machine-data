@@ -48,7 +48,6 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -5245,7 +5244,7 @@ end A217972.P4039613899577077557
 /-!
 # A217973: Niven (or Harshad) numbers not containing the digit 0.
 
-The programs for A217973, the canonical program `A217973.P11846285657803405566` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217973 has offset 1).
+The programs for A217973, the canonical program `A217973.P11846285657803405566` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217973 has offset 1).
 
 The definition of A217973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 841 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5392,7 +5391,7 @@ end A217973
 
 `filter[A052382(n+1), A188641(#)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A217973

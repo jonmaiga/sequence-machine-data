@@ -27,10 +27,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -39,7 +40,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -7829,7 +7829,7 @@ end A037332
 /-!
 # A037333: Numbers whose base-7 and base-10 expansions have the same digit sum.
 
-The programs for A037333, the canonical program `A037333.P9690759292249465831` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037333 has offset 1).
+The programs for A037333, the canonical program `A037333.P9690759292249465831` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037333 has offset 1).
 
 The definition of A037333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1461 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7838,7 +7838,7 @@ The definition of A037333 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007953(n+1), A053828(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A037333
@@ -8606,7 +8606,7 @@ end A037335
 /-!
 # A037336: Numbers whose base-9 and base-10 expansions have the same digit sum.
 
-The programs for A037336, the canonical program `A037336.P7361509405523581352` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037336 has offset 1).
+The programs for A037336, the canonical program `A037336.P7361509405523581352` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037336 has offset 1).
 
 The definition of A037336 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 498 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8615,7 +8615,7 @@ The definition of A037336 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007953(n+1), A053830(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A037336

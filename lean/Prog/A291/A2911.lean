@@ -50,10 +50,12 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
@@ -7322,7 +7324,7 @@ end A291196
 /-!
 # A291197: Second differences of frac(n/log(n)) rounded, n >= 2.
 
-The programs for A291197, the canonical program `A291197.P12306781684361658534` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291197 has offset 2).
+The programs for A291197, the canonical program `A291197.P12306781684361658534` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291197 has offset 2).
 
 The definition of A291197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7331,7 +7333,7 @@ The definition of A291197 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[Δ[-A050500(n+2)]]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A291197

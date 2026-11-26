@@ -18042,37 +18042,23 @@ end A054898
 /-!
 # A054899: a(n) = Sum_{k>0} floor(n/10^k).
 
-The programs for A054899, the canonical program `A054899.P10770181254942084517` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054899 has offset 0).
+The programs for A054899, the canonical program `A054899.P8190915563877692656` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054899 has offset 0).
 
-The definition of A054899 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A054899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A054899.P8190915563877692656
 
 `(n-A007953(n))/9`
+
+The canonical program, it is in `Seq.B001.C002`.
 -/
-
-namespace A054899.P8190915563877692656
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - A007953 n : ℚ) / 9
-
-end
-
-end A054899.P8190915563877692656
 
 namespace A054899
 
 /-- `(n-A007953(n))/9` -/
 def P8190915563877692656.Spec : Prop :=
   ∀ n, P8190915563877692656.a n = (A054899 n : ℚ)
-
-theorem P8190915563877692656.correct : P8190915563877692656.Spec := by
-  intro n
-  simp only [A054899, Nat.add_sub_cancel, A054899.P8190915563877692656.a, A054899.P10770181254942084517.a, A007953, A007953.P3472751987379697826.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A054899
 
@@ -18235,19 +18221,23 @@ end A054899
 /-! ## A054899.P10770181254942084517
 
 `floor(n/10)+a(floor(n/10))` with `a(0)=0`
-
-The canonical program, it is in `Seq.B000.C010`.
 -/
+
+namespace A054899.P10770181254942084517
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  ⌊(n : ℚ) / 10⌋ + a ⌊(n : ℚ) / 10⌋.toNat
+
+end
+
+end A054899.P10770181254942084517
 
 namespace A054899
 
 /-- `floor(n/10)+a(floor(n/10))` -/
 def P10770181254942084517.Spec : Prop :=
   ∀ n, P10770181254942084517.a n = A054899 n
-
-theorem P10770181254942084517.correct : P10770181254942084517.Spec := by
-  intro n
-  simp only [A054899]
 
 end A054899
 
@@ -18298,12 +18288,6 @@ namespace A054899
 def P11375513789650857419.Spec : Prop :=
   ∀ n, P11375513789650857419.a n = (A054899 n : ℚ)
 
-theorem P11375513789650857419.correct : P11375513789650857419.Spec := by
-  intro n
-  simp only [A054899, Nat.add_sub_cancel, A054899.P11375513789650857419.a, A054899.P10770181254942084517.a, A066568, A066568.P9469533663660008085.a, A007953, A007953.P3472751987379697826.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A054899
 
 /-! ## A054899.P2258895383010085230
@@ -18326,12 +18310,6 @@ namespace A054899
 /-- `A065039(n)-n` -/
 def P2258895383010085230.Spec : Prop :=
   ∀ n, P2258895383010085230.a n = A054899 n
-
-theorem P2258895383010085230.correct : P2258895383010085230.Spec := by
-  intro n
-  simp only [A054899, Nat.add_sub_cancel, A054899.P2258895383010085230.a, A054899.P10770181254942084517.a, A065039, A065039.P4788194488470715228.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A054899
 

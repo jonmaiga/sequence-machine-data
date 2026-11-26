@@ -6426,7 +6426,7 @@ end A045719.P4226407281096737309
 /-!
 # A045720: 3-fold convolution of A001700(n), n >= 0.
 
-The programs for A045720, the canonical program `A045720.P10690075790008833440` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045720 has offset 0).
+The programs for A045720, the canonical program `A045720.P10690075790008833440` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045720 has offset 0).
 
 The definition of A045720 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6435,7 +6435,7 @@ The definition of A045720 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+5)*C(2*(n+3), n+3)/4-3*2^(2*n+3)`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A045720
@@ -15679,7 +15679,7 @@ end A045775.P10349181063934500230
 /-!
 # A045776: a(n+1) is smallest multiple of (sum of digits of a(n)) which is > a(n).
 
-The programs for A045776, the canonical program `A045776.P5877182421305232441` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045776 has offset 0).
+The programs for A045776, the canonical program `A045776.P5877182421305232441` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045776 has offset 0).
 
 The definition of A045776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 670 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15688,7 +15688,7 @@ The definition of A045776 is `conjectured`: the Lean definition is a formula tha
 
 `A062028(a(n-1))-a(n-1)%A007953(a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045776

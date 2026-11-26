@@ -45,6 +45,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
@@ -52,7 +53,6 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -3214,16 +3214,16 @@ end A240751.P1125117718694885820
 /-!
 # A240752: First differences of digit sums of squares, cf. A004159.
 
-The programs for A240752, the canonical program `A240752.P1774461778050441165` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240752 has offset 1).
+The programs for A240752, the canonical program `A240752.P1774461778050441165` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240752 has offset 1).
 
-The definition of A240752 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A240752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A240752.P1774461778050441165
 
 `A004159(n+1)-A004159(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A240752
@@ -3433,6 +3433,12 @@ namespace A240752
 def P12644637050271241371.Spec : Prop :=
   ∀ n, P12644637050271241371.a n = A240752 (n + 1)
 
+theorem P12644637050271241371.correct : P12644637050271241371.Spec := by
+  intro n
+  simp only [A240752, Nat.add_sub_cancel, A240752.P12644637050271241371.f2, A240752.P12644637050271241371.f1, A240752.P12644637050271241371.a, A240752.P1774461778050441165.a, A004159, A004159.P12894520007403696170.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A240752
 
 /-! ## A240752.P13928168084248478848
@@ -3489,6 +3495,12 @@ namespace A240752
 def P12246621098012739884.Spec : Prop :=
   ∀ n, P12246621098012739884.a n = A240752 (n + 1)
 
+theorem P12246621098012739884.correct : P12246621098012739884.Spec := by
+  intro n
+  simp only [A240752, Nat.add_sub_cancel, A240752.P12246621098012739884.f1, A240752.P12246621098012739884.a, A240752.P1774461778050441165.a, A004159, A004159.P12894520007403696170.a, A171613, A171613.P13040255884319598005.f1, A171613.P13040255884319598005.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A240752
 
 /-! ## A240752.P14687076331781498757
@@ -3517,7 +3529,7 @@ def P14687076331781498757.Spec : Prop :=
 
 theorem P14687076331781498757.correct : P14687076331781498757.Spec := by
   intro n
-  simp only [A240752, Nat.add_sub_cancel, A240752.P14687076331781498757.f1, A240752.P14687076331781498757.a, A240752.P1774461778050441165.a, A004159, A004159.P12894520007403696170.a, A224977, A224977.P2433633673610591437.a, A000290, A000290.P12206242496348924484.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  simp only [A240752, Nat.add_sub_cancel, A240752.P14687076331781498757.f1, A240752.P14687076331781498757.a, A240752.P1774461778050441165.a, A004159, A004159.P12894520007403696170.a, A224977, A224977.P2433633673610591437.a, A000290, A000290.P12206242496348924484.a, A007953, A007953.P17470406891730602483.f1, A007953.P17470406891730602483.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -3685,7 +3697,7 @@ end A240753.P2905474156757241096
 /-!
 # A240754: Numbers k with digit_sum(k*k) - 1 = digit_sum((k+1)*(k+1)).
 
-The programs for A240754, the canonical program `A240754.P6827576315638044596` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240754 has offset 1).
+The programs for A240754, the canonical program `A240754.P6827576315638044596` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240754 has offset 1).
 
 The definition of A240754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 449 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3694,7 +3706,7 @@ The definition of A240754 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A240752(n+1)+2]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A240754

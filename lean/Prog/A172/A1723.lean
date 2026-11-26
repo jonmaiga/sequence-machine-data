@@ -63,6 +63,7 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -6710,7 +6711,7 @@ end A172368.P12238092202403141641
 /-!
 # A172370: Mirrored triangle A120072 read by rows.
 
-The programs for A172370, the canonical program `A172370.P12160375368130657257` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172370 has offset 2).
+The programs for A172370, the canonical program `A172370.P12160375368130657257` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172370 has offset 2).
 
 The definition of A172370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6719,7 +6720,7 @@ The definition of A172370 is `conjectured`: the Lean definition is a formula tha
 
 `A120072(∑[char[∑[n]]]²-n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A172370

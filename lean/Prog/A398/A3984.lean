@@ -29,6 +29,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C007
@@ -2422,7 +2423,7 @@ end A398469.P15986859187154673827
 /-!
 # A398470: Number of increasing 3-term arithmetic progressions in an n^3 cube.
 
-The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
+The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
 
 The definition of A398470 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2431,7 +2432,7 @@ The definition of A398470 is `conjectured`: the Lean definition is a formula tha
 
 `A036486(A000982(n+1))-A036486(n+1)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398470
@@ -3140,7 +3141,7 @@ end A398485.P193858165634938053
 /-!
 # A398486: Numbers k such that cos(k) > cos(k+1) > cos(k+2) > cos(k+3) > cos(k+4).
 
-The programs for A398486, the canonical program `A398486.P15435245625190870226` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398486 has offset 1).
+The programs for A398486, the canonical program `A398486.P15435245625190870226` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398486 has offset 1).
 
 The definition of A398486 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 225 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3172,7 +3173,7 @@ end A398486
 
 `∩[A023445(A026311(n+1)), A026311(n+1)]`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398486

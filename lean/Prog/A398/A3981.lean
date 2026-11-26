@@ -48,6 +48,7 @@ import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -372,7 +373,7 @@ end A398104
 /-!
 # A398105: Number of minimal dominating sets in the 4 X n king graph.
 
-The programs for A398105, the canonical program `A398105.P14381521786893344065` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398105 has offset 0).
+The programs for A398105, the canonical program `A398105.P14381521786893344065` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398105 has offset 0).
 
 The definition of A398105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 182 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -381,7 +382,7 @@ The definition of A398105 is `conjectured`: the Lean definition is a formula tha
 
 `A286850(n)²`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398105
@@ -5786,7 +5787,7 @@ end A398179.P14332087943653919127
 /-!
 # A398182: Degree of the minimal polynomial whose root is the sidelength of the largest n-cube that fits inside a unit (n+1)-cube.
 
-The programs for A398182, the canonical program `A398182.P11134999281923761976` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398182 has offset 0).
+The programs for A398182, the canonical program `A398182.P11134999281923761976` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398182 has offset 0).
 
 The definition of A398182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5795,7 +5796,7 @@ The definition of A398182 is `conjectured`: the Lean definition is a formula tha
 
 `2*A395822(n)`
 
-The canonical program, it is in `Seq.B001.C014`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A398182

@@ -8372,7 +8372,7 @@ end A155497
 /-!
 # A155498: Number of odd digits in the concatenation of first n primes.
 
-The programs for A155498, the canonical program `A155498.P15085465997333375790` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155498 has offset 1).
+The programs for A155498, the canonical program `A155498.P15085465997333375790` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155498 has offset 1).
 
 The definition of A155498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8381,7 +8381,7 @@ The definition of A155498 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A104638(1+n)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155498

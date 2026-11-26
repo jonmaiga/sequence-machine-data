@@ -54,7 +54,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,7 +63,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -96,7 +95,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A046200: Odd numbers in the triangle of denominators in Leibniz's Harmonic Triangle.
 
-The programs for A046200, the canonical program `A046200.P11881798545890118364` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046200 has offset 1).
+The programs for A046200, the canonical program `A046200.P11881798545890118364` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046200 has offset 1).
 
 The definition of A046200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 764 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -105,7 +104,7 @@ The definition of A046200 is `conjectured`: the Lean definition is a formula tha
 
 `A003506(eq[1, A003506(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A046200
