@@ -4550,6 +4550,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1/2!*3^(n+1)*(n+4)*(n+1)` (program `A288835.P17492186856037625366`, by `A288835.P17492186856037625366.correct`). Lean does not check the parsing of the name. -/
 def A288835.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A288870.P14700068043003361804
+
+`(2*col(n)+1)*2^(row(n)-col(n))+1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A288870.P14700068043003361804
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * SequenceMachineLib.triCol n + 1 : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) + 1
+
+end
+
+end A288870.P14700068043003361804
+
+noncomputable section
+
+/-- A288870: Triangle T from array A(k,n) = (2*k+1)*2^n + 1, k >=0, n >= 0 read by downwards antidiagonals.
+
+Offset 0, canonical program `A288870.P14700068043003361804`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A288870.anchor (n : ℕ) : (A288870 n : ℚ) = (2 * SequenceMachineLib.triCol n + 1 : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) + 1` in `Proof.A288.A288870`. -/
+def A288870 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A288870.P14700068043003361804.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A288870.anchor (n : ℕ) : (A288870 n : ℚ) = (2 * SequenceMachineLib.triCol n + 1 : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) + 1` in `Proof.A288.A288870`. -/
+def A288870.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A288876.P285765633794888374
 
 `C(n+4, n)²`
@@ -16100,36 +16130,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A288838.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A288870.P14700068043003361804
-
-`(2*col(n)+1)*2^(row(n)-col(n))+1`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A288870.P14700068043003361804
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 * SequenceMachineLib.triCol n + 1 : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) + 1
-
-end
-
-end A288870.P14700068043003361804
-
-noncomputable section
-
-/-- A288870: Triangle T from array A(k,n) = (2*k+1)*2^n + 1, k >=0, n >= 0 read by downwards antidiagonals.
-
-Offset 0, canonical program `A288870.P14700068043003361804`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A288870 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A288870.P14700068043003361804.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A288870.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A288871.P10311782980894230392
 

@@ -159,7 +159,7 @@ end A081700.P18208961657248872064
 
 The programs for A081701, the canonical program `A081701.P214869542892994214` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081701 has offset 1).
 
-The definition of A081701 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A081701 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A081701.anchor (n : ℕ) : (A081701 (n + 1) : ℚ) = (A000040 (n + 1) : ℚ) * (A000040 (n + 1) - 1 : ℚ) ^ (A000040 (n + 1) - 1 : ℤ)` in `Proof.A081.A081701`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A081701.P214869542892994214

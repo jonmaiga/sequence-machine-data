@@ -3140,7 +3140,7 @@ end A063438
 
 The programs for A063439, the canonical program `A063439.P4897053312309804090` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063439 has offset 1).
 
-The definition of A063439 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A063439 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A063439.anchor (n : ℕ) : (A063439 (n + 1) : ℚ) = (A000010 (n + 1) : ℚ) ^ (A000010 (n + 1) : ℤ)` in `Proof.A063.A063439`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A063439.P4897053312309804090

@@ -9283,7 +9283,7 @@ end A075472.P2731561882464087075
 
 The programs for A075473, the canonical program `A075473.P11458697594015001837` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075473 has offset 0).
 
-The definition of A075473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A075473 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A075473.anchor (n : ℕ) : (A075473 n : ℚ) = (n ^ n + Nat.factorial n : ℚ) - 2 * (n + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A075.A075473`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A075473.P11458697594015001837

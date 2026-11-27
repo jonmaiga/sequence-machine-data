@@ -9830,6 +9830,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3*12^n-8^n)/2` (program `A165152.P15021119148386159389`, by `A165152.P15021119148386159389.correct`). Lean does not check the parsing of the name. -/
 def A165152.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A165156.P14391297112090654770
+
+`(n+1)^(2*(n+1)-1)-(2*(n+1)-1)^(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A165156.P14391297112090654770
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - (((2 * (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ)
+
+end
+
+end A165156.P14391297112090654770
+
+noncomputable section
+
+/-- A165156: a(n) = n^(2*n-1)-(2*n-1)^n.
+
+Offset 1, canonical program `A165156.P14391297112090654770`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A165156.anchor (n : ℕ) : (A165156 (n + 1) : ℚ) = (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - (((2 * (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ)` in `Proof.A165.A165156`. -/
+def A165156 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A165156.P14391297112090654770.a (n - 1))
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A165156.anchor (n : ℕ) : (A165156 (n + 1) : ℚ) = (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - (((2 * (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ)` in `Proof.A165.A165156`. -/
+def A165156.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A165192.P5693163484177958761
 
 `a(n-1)-a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
@@ -24655,36 +24685,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A165155.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A165156.P14391297112090654770
-
-`(n+1)^(2*(n+1)-1)-(2*(n+1)-1)^(n+1)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A165156.P14391297112090654770
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - (((2 * (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ)
-
-end
-
-end A165156.P14391297112090654770
-
-noncomputable section
-
-/-- A165156: a(n) = n^(2*n-1)-(2*n-1)^n.
-
-Offset 1, canonical program `A165156.P14391297112090654770`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A165156 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A165156.P14391297112090654770.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A165156.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A165157.P4182987027322002924
 

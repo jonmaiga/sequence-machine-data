@@ -301,7 +301,7 @@ end A349901
 
 The programs for A349902, the canonical program `A349902.P6682733657055324470` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349902 has offset 0).
 
-The definition of A349902 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A349902 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A349902.anchor (n : ℕ) : (A349902 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (k ^ (3 * n) : ℚ)` in `Proof.A349.A349902`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A349902.P6682733657055324470
@@ -7302,7 +7302,7 @@ end A349968.P14251269710205010649
 
 The programs for A349969, the canonical program `A349969.P6730298649885048716` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349969 has offset 0).
 
-The definition of A349969 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A349969 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A349969.anchor (n : ℕ) : (A349969 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (k * n : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A349.A349969`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A349969.P6730298649885048716
@@ -7348,7 +7348,7 @@ end A349969
 
 The programs for A349970, the canonical program `A349970.P2892155782804301576` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349970 has offset 0).
 
-The definition of A349970 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A349970 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A349970.anchor (n : ℕ) : (A349970 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (2 * k : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A349.A349970`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A349970.P2892155782804301576

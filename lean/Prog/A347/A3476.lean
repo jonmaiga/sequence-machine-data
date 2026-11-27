@@ -808,7 +808,7 @@ end A347612.P1217911252898552933
 
 The programs for A347614, the canonical program `A347614.P11670207612564000745` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347614 has offset 1).
 
-The definition of A347614 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A347614 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A347614.anchor (n : ℕ) : (A347614 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (n + 1 : ℚ) ^ (A001222 (k + 1) : ℤ)` in `Proof.A347.A347614`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A347614.P11670207612564000745

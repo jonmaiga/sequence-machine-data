@@ -572,7 +572,7 @@ end A152100
 
 The programs for A152101, the canonical program `A152101.P262158236683253562` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152101 has offset 1).
 
-The definition of A152101 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A152101 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A152101.anchor (n : ℕ) : (A152101 (n + 1) : ℚ) = (16 ^ (n + 1) : ℚ) - 3 * (2 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - 1` in `Proof.A152.A152101`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A152101.P262158236683253562

@@ -6848,7 +6848,7 @@ end A359153
 
 The programs for A359154, the canonical program `A359154.P14645597383295465287` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359154 has offset 1).
 
-The definition of A359154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A359154 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A359154.anchor (n : ℕ) : (A359154 (n + 1) : ℚ) = (-1 : ℚ) ^ (A001414 (n + 1) : ℤ)` in `Proof.A359.A359154`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A359154.P14645597383295465287

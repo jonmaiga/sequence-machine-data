@@ -322,6 +322,34 @@ end
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000069.anchor (n : ℕ) (hn : 1 ≤ n) : A000069 n = (Nat.nth (fun k => Odd (Nat.digits 2 k).sum) (n - 1) : ℤ)` in `Proof.A000.A000069`. -/
 def A000069.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A000555.P14295671492867056046
+
+`A000551(n+5)-(n+5)*(n+4)*(2^(n+3)-1)`
+-/
+
+namespace A000555.P14295671492867056046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000551 (n + 5) - ((n + 5) * (n + 4) : ℤ) * ((2 ^ (n + 3) : ℤ) - 1)
+
+end
+
+end A000555.P14295671492867056046
+
+noncomputable section
+
+/-- A000555: Number of labeled trees of diameter 4 with n nodes.
+
+Offset 5, canonical program `A000555.P14295671492867056046`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A000555 (n : ℕ) : ℤ :=
+  A000555.P14295671492867056046.a (n - 5)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A000555.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A000849.P3482926112530532576
 
 `A000720(A002110(n))`
@@ -3892,34 +3920,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A000360.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A000555.P14295671492867056046
-
-`A000551(n+5)-(n+5)*(n+4)*(2^(n+3)-1)`
--/
-
-namespace A000555.P14295671492867056046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000551 (n + 5) - ((n + 5) * (n + 4) : ℤ) * ((2 ^ (n + 3) : ℤ) - 1)
-
-end
-
-end A000555.P14295671492867056046
-
-noncomputable section
-
-/-- A000555: Number of labeled trees of diameter 4 with n nodes.
-
-Offset 5, canonical program `A000555.P14295671492867056046`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000555 (n : ℕ) : ℤ :=
-  A000555.P14295671492867056046.a (n - 5)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000555.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A000670.P17492951284329218794
 

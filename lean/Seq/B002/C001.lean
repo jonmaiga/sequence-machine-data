@@ -1608,6 +1608,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A055491.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A055669.P6290050088216304237
+
+`24*A055670(n+1)`
+-/
+
+namespace A055669.P6290050088216304237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  24 * A055670 (n + 1)
+
+end
+
+end A055669.P6290050088216304237
+
+noncomputable section
+
+/-- A055669: Number of prime Hurwitz quaternions of norm prime(n).
+
+Offset 1, canonical program `A055669.P6290050088216304237`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A055669 (n : ℕ) : ℤ :=
+  A055669.P6290050088216304237.a (n - 1)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A055669.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A055684.P4777645842216541427
 
 `A023022(n+3)-1`
@@ -7228,34 +7256,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A054563.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A055669.P6290050088216304237
-
-`24*A055670(n+1)`
--/
-
-namespace A055669.P6290050088216304237
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  24 * A055670 (n + 1)
-
-end
-
-end A055669.P6290050088216304237
-
-noncomputable section
-
-/-- A055669: Number of prime Hurwitz quaternions of norm prime(n).
-
-Offset 1, canonical program `A055669.P6290050088216304237`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A055669 (n : ℕ) : ℤ :=
-  A055669.P6290050088216304237.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A055669.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A056328.P13611939948640542517
 

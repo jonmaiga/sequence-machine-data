@@ -9154,7 +9154,7 @@ end A008464.P14241072922731112282
 
 The programs for A008465, the canonical program `A008465.P16798057664957061300` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008465 has offset 3).
 
-The definition of A008465 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008465 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A008465.anchor (n : ℕ) : (A008465 (n + 3) : ℚ) = (2 : ℚ) ^ ((2 * (n + 3) : ℤ) - 6 : ℤ) * (Nat.choose (n + 3) 3 : ℚ) - (2 ^ (n + 1) * Nat.choose (n + 3) 4 : ℚ)` in `Proof.A008.A008465`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A008465.P16798057664957061300

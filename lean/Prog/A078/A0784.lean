@@ -3520,7 +3520,7 @@ end A078417.P13949838331557424114
 
 The programs for A078422, the canonical program `A078422.P12376503140112654654` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078422 has offset 1).
 
-The definition of A078422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A078422 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A078422.anchor (n : ℕ) : (A078422 (n + 1) : ℚ) = (A000040 (n + 2) : ℚ) ^ (A000040 (n + 1) : ℤ)` in `Proof.A078.A078422`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A078422.P12376503140112654654

@@ -67,6 +67,39 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(n*(2*n+3))` (program `A121913.P13311321548365192136`, by `A121913.P13311321548365192136.correct`). Lean does not check the parsing of the name. -/
 def A121913.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A121945.P283086472135262416
+
+`∑{#}[n, (#+1)!^(n+1-#)]`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A121945.P283086472135262416
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (k + 1) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
+
+end
+
+end A121945.P283086472135262416
+
+noncomputable section
+
+/-- A121945: a(n) is the sum of the first n factorials in decreasing powers from n to 1. a(n) = Sum_{k = 1..n} k!^(n-k+1).
+
+Offset 1, canonical program `A121945.P283086472135262416`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A121945.anchor (n : ℕ) : (A121945 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.factorial (k + 1) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)` in `Proof.A121.A121945`. -/
+def A121945 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A121945.P283086472135262416.a (n - 1))
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A121945.anchor (n : ℕ) : (A121945 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.factorial (k + 1) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)` in `Proof.A121.A121945`. -/
+def A121945.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A121953.P10000235442565009127
 
 `(n-1)*a(n-2)+a(n-3)` with `a(0)=0, a(1)=1, a(2)=1`
@@ -10663,39 +10696,6 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n*(e^π-π^e))` (program `A121930.P10942907542367929480`, by `A121930.P10942907542367929480.correct`). Lean does not check the parsing of the name. -/
 def A121930.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A121945.P283086472135262416
-
-`∑{#}[n, (#+1)!^(n+1-#)]`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A121945.P283086472135262416
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.factorial (k + 1) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)
-
-end
-
-end A121945.P283086472135262416
-
-noncomputable section
-
-/-- A121945: a(n) is the sum of the first n factorials in decreasing powers from n to 1. a(n) = Sum_{k = 1..n} k!^(n-k+1).
-
-Offset 1, canonical program `A121945.P283086472135262416`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A121945 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A121945.P283086472135262416.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A121945.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A121960.P11350275140019188531
 

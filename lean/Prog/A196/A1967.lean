@@ -6409,7 +6409,7 @@ end A196793
 
 The programs for A196794, the canonical program `A196794.P16756351322128412184` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196794 has offset 0).
 
-The definition of A196794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A196794 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A196794.anchor (n : ℕ) : (A196794 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k * 2 ^ k : ℚ) * (k + 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A196.A196794`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A196794.P16756351322128412184
@@ -6455,7 +6455,7 @@ end A196794
 
 The programs for A196795, the canonical program `A196795.P14106659154098931927` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196795 has offset 0).
 
-The definition of A196795 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A196795 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A196795.anchor (n : ℕ) : (A196795 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k * 3 ^ k : ℚ) * (k + 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A196.A196795`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A196795.P14106659154098931927

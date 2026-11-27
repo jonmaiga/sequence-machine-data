@@ -12390,6 +12390,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2*n+1, n+1)*C(2*n+6, n)` (program `A114201.P13583936649879565724`, by `A114201.P13583936649879565724.correct`). Lean does not check the parsing of the name. -/
 def A114201.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A114219.P16477603646240172316
+
+`col(n)-(col(n)-1)*0^(row(n)-col(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A114219.P16477603646240172316
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.triCol n : ℚ) - ((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) * (0 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)
+
+end
+
+end A114219.P16477603646240172316
+
+noncomputable section
+
+/-- A114219: Number triangle T(n,k) = (k-(k-1)*0^(n-k))*[k<=n].
+
+Offset 0, canonical program `A114219.P16477603646240172316`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A114219.anchor (n : ℕ) : (A114219 n : ℚ) = (SequenceMachineLib.triCol n : ℚ) - ((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) * (0 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A114.A114219`. -/
+def A114219 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A114219.P16477603646240172316.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A114219.anchor (n : ℕ) : (A114219 n : ℚ) = (SequenceMachineLib.triCol n : ℚ) - ((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) * (0 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A114.A114219`. -/
+def A114219.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A114238.P5442092469993467284
 
 `C(2+2*n, 2+n)*C(7+2*n, n)`
@@ -25134,36 +25164,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A114215.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A114219.P16477603646240172316
-
-`col(n)-(col(n)-1)*0^(row(n)-col(n))`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A114219.P16477603646240172316
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.triCol n : ℚ) - ((SequenceMachineLib.triCol n : ℤ) - 1 : ℚ) * (0 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)
-
-end
-
-end A114219.P16477603646240172316
-
-noncomputable section
-
-/-- A114219: Number triangle T(n,k) = (k-(k-1)*0^(n-k))*[k<=n].
-
-Offset 0, canonical program `A114219.P16477603646240172316`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A114219 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A114219.P16477603646240172316.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A114219.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A114220.P6090057398799714214
 

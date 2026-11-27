@@ -2073,7 +2073,7 @@ end A343424.P12478505096096677080
 
 The programs for A343425, the canonical program `A343425.P8583703250621099490` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343425 has offset 1).
 
-The definition of A343425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A343425 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A343425.anchor (n : ℕ) : (A343425 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (A008683 (k + 1) : ℚ) * (n + 1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ)` in `Proof.A343.A343425`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A343425.P8583703250621099490

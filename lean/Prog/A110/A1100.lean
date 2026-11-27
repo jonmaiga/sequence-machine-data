@@ -8629,7 +8629,7 @@ end A110087
 
 The programs for A110088, the canonical program `A110088.P8337879305070338118` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110088 has offset 1).
 
-The definition of A110088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A110088 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A110088.anchor (n : ℕ) : (A110088 (n + 1) : ℚ) = (A000005 (n + 1) : ℚ) ^ (A001221 (n + 1) : ℤ)` in `Proof.A110.A110088`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A110088.P8337879305070338118

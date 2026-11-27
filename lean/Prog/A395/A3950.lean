@@ -4608,7 +4608,7 @@ end A395073.P7119171782032954414
 
 The programs for A395078, the canonical program `A395078.P9459863737539253753` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395078 has offset 0).
 
-The definition of A395078 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A395078 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A395078.anchor (n : ℕ) : (A395078 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k * k ^ (n + k) : ℚ) * (1 - (k : ℤ) : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A395.A395078`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A395078.P9459863737539253753

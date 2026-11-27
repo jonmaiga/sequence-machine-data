@@ -107,7 +107,7 @@ set_option linter.unreachableTactic false
 
 The programs for A175700, the canonical program `A175700.P1814982992144062250` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175700 has offset 1).
 
-The definition of A175700 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A175700 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A175700.anchor (n : ℕ) : (A175700 (n + 1) : ℚ) = (n + 1 : ℚ) ^ (A000010 (n + 2) : ℤ)` in `Proof.A175.A175700`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A175700.P1814982992144062250

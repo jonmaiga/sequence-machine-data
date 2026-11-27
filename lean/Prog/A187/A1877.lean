@@ -7826,7 +7826,7 @@ end A187779.P1013368422774889474
 
 The programs for A187780, the canonical program `A187780.P6102945526284017411` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187780 has offset 0).
 
-The definition of A187780 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A187780 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A187780.anchor (n : ℕ) : (A187780 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (A000032 k : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A187.A187780`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A187780.P6102945526284017411

@@ -6301,7 +6301,7 @@ end A058888.P8635285328768252793
 
 The programs for A058891, the canonical program `A058891.P13289349370227338542` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058891 has offset 1).
 
-The definition of A058891 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A058891 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A058891.anchor (n : ℕ) : (A058891 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ)` in `Proof.A058.A058891`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A058891.P13289349370227338542

@@ -207,7 +207,7 @@ end A349602.P6710496045289534715
 
 The programs for A349603, the canonical program `A349603.P1754888039411515147` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349603 has offset 0).
 
-The definition of A349603 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A349603 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A349603.anchor (n : ℕ) : (A349603 n : ℚ) = ∑ k ∈ Finset.range (n + 1), ((Nat.choose n k : ℤ) * A000108 k : ℚ) * (k : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A349.A349603`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A349603.P1754888039411515147

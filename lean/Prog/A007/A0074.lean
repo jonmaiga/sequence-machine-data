@@ -793,7 +793,7 @@ end A007401
 
 The programs for A007403, the canonical program `A007403.P7148506689461363495` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007403 has offset 0).
 
-The definition of A007403 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A007403 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A007403.anchor (n : ℕ) : (A007403 n : ℚ) = (n + 2 : ℚ) * (2 : ℚ) ^ ((3 * n : ℤ) - 1 : ℤ) - 3 * (2 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (n : ℚ) * (Nat.choose (2 * n) n : ℚ)` in `Proof.A007.A007403`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A007403.P7148506689461363495

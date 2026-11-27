@@ -6070,7 +6070,7 @@ end A346180
 
 The programs for A346181, the canonical program `A346181.P2438633306414136552` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346181 has offset 0).
 
-The definition of A346181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A346181 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A346181.anchor (n : ℕ) : (A346181 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k * k ^ n : ℚ) * (k + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A346.A346181`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A346181.P2438633306414136552

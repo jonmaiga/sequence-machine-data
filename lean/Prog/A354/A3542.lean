@@ -4282,7 +4282,7 @@ end A354272.P17599822932408089799
 
 The programs for A354273, the canonical program `A354273.P7655324750491338801` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354273 has offset 1).
 
-The definition of A354273 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A354273 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A354273.anchor (n : ℕ) : (A354273 (n + 1) : ℚ) = (SequenceMachineLib.triCol n + 1 : ℚ) ^ (A001222 ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1).toNat : ℤ)` in `Proof.A354.A354273`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A354273.P7655324750491338801

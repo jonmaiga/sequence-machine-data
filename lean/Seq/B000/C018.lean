@@ -5428,6 +5428,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x+x^3-x^4+x^6+2x^7-3x^8+2x^10-2x^12)/(1-x-x^8+x^9-2x^12+2x^13))` (program `A103648.P1819558966130567441`, by `A103648.P1819558966130567441.correct`). Lean does not check the parsing of the name. -/
 def A103648.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A103743.P1218966639035620035
+
+`2^(2^n-1)-2^n-1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A103743.P1218966639035620035
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) - (2 ^ n : ℚ) - 1
+
+end
+
+end A103743.P1218966639035620035
+
+noncomputable section
+
+/-- A103743: a(n) = 2^(2^n-1) - 2^n - 1.
+
+Offset 0, canonical program `A103743.P1218966639035620035`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A103743.anchor (n : ℕ) : (A103743 n : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) - (2 ^ n : ℚ) - 1` in `Proof.A103.A103743`. -/
+def A103743 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A103743.P1218966639035620035.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A103743.anchor (n : ℕ) : (A103743 n : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) - (2 ^ n : ℚ) - 1` in `Proof.A103.A103743`. -/
+def A103743.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A103749.P5060165208486788788
 
 `ogf((x+2x^2)/(1+x+x^2-2x^3))`
@@ -18283,36 +18313,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A103737.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A103743.P1218966639035620035
-
-`2^(2^n-1)-2^n-1`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A103743.P1218966639035620035
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) - (2 ^ n : ℚ) - 1
-
-end
-
-end A103743.P1218966639035620035
-
-noncomputable section
-
-/-- A103743: a(n) = 2^(2^n-1) - 2^n - 1.
-
-Offset 0, canonical program `A103743.P1218966639035620035`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A103743 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A103743.P1218966639035620035.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A103743.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A103762.P7031636312920790194
 

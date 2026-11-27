@@ -4971,7 +4971,7 @@ end A274243.P8108705896661677253
 
 The programs for A274246, the canonical program `A274246.P3685447373455217666` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274246 has offset 0).
 
-The definition of A274246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A274246 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A274246.anchor (n : ℕ) : (A274246 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k ^ 3 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.factorial k : ℚ)` in `Proof.A274.A274246`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A274246.P3685447373455217666

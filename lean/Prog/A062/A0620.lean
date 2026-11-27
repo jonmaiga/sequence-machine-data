@@ -14468,7 +14468,7 @@ end A062075
 
 The programs for A062076, the canonical program `A062076.P7846807602669552122` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062076 has offset 1).
 
-The definition of A062076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062076 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062076.anchor (n : ℕ) : (A062076 (n + 1) : ℚ) = (((2 * (n + 1) : ℤ) - 1) ^ (n + 1) : ℚ) * (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ)` in `Proof.A062.A062076`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062076.P7846807602669552122
@@ -14875,7 +14875,7 @@ end A062081.P9804248762641407593
 
 The programs for A062082, the canonical program `A062082.P15999888375317006422` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062082 has offset 1).
 
-The definition of A062082 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062082 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062082.anchor (n : ℕ) : (A062082 (n + 1) : ℚ) = (A000040 (n + 1) ^ (n + 1) : ℚ) * (n + 1 : ℚ) ^ (A000040 (n + 1) : ℤ)` in `Proof.A062.A062082`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062082.P15999888375317006422

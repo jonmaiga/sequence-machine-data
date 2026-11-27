@@ -994,7 +994,7 @@ end A259920.P5807474731190187110
 
 The programs for A259923, the canonical program `A259923.P16057684249123722244` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259923 has offset 1).
 
-The definition of A259923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A259923 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A259923.anchor (n : ℕ) : (A259923 (n + 1) : ℚ) = (A000040 (n + 1) : ℚ) ^ (A000720 (n + 1) : ℤ)` in `Proof.A259.A259923`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A259923.P16057684249123722244
@@ -1631,7 +1631,7 @@ end A259925
 
 The programs for A259926, the canonical program `A259926.P13988662505080891204` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259926 has offset 1).
 
-The definition of A259926 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A259926 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A259926.anchor (n : ℕ) : (A259926 (n + 1) : ℚ) = ((n + 1) ^ (2 * (n + 1)) : ℚ) - (n + 1 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ)` in `Proof.A259.A259926`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A259926.P13988662505080891204

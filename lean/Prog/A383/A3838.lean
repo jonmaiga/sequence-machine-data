@@ -3481,7 +3481,7 @@ end A383867.P3876002790510710089
 
 The programs for A383868, the canonical program `A383868.P9420525451582998741` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383868 has offset 0).
 
-The definition of A383868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A383868 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A383868.anchor (n : ℕ) : (A383868 n : ℚ) = (2 : ℚ) ^ ((n : ℤ) - 3 : ℤ) * (3 * Nat.choose n 4 + 4 * Nat.choose n 2 + 8 : ℚ)` in `Proof.A383.A383868`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A383868.P9420525451582998741

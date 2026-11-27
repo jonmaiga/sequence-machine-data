@@ -730,7 +730,7 @@ end A053506
 
 The programs for A053507, the canonical program `A053507.P5538552702493627726` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053507 has offset 1).
 
-The definition of A053507 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A053507 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053507.anchor (n : ℕ) : (A053507 (n + 1) : ℚ) = (Nat.choose n 2 : ℚ) * (n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ)` in `Proof.A053.A053507`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A053507.P5538552702493627726
@@ -828,7 +828,7 @@ end A053507
 
 The programs for A053508, the canonical program `A053508.P15110467573037274044` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053508 has offset 1).
 
-The definition of A053508 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A053508 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053508.anchor (n : ℕ) : (A053508 (n + 1) : ℚ) = (Nat.choose n 3 : ℚ) * (n + 1 : ℚ) ^ ((n : ℤ) - 3 : ℤ)` in `Proof.A053.A053508`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A053508.P15110467573037274044
@@ -926,7 +926,7 @@ end A053508
 
 The programs for A053509, the canonical program `A053509.P9328011824106558257` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053509 has offset 1).
 
-The definition of A053509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A053509 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A053509.anchor (n : ℕ) : (A053509 (n + 1) : ℚ) = (Nat.choose n 4 : ℚ) * (n + 1 : ℚ) ^ ((n : ℤ) - 4 : ℤ)` in `Proof.A053.A053509`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A053509.P9328011824106558257

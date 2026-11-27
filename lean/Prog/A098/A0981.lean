@@ -145,7 +145,7 @@ end A098100.P8941607445793980706
 
 The programs for A098102, the canonical program `A098102.P4278518476193835371` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098102 has offset 1).
 
-The definition of A098102 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A098102 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A098102.anchor (n : ℕ) : (A098102 (n + 1) : ℚ) = (2 : ℚ) ^ (A000040 (n + 1) - 1 : ℤ) - 1` in `Proof.A098.A098102`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A098102.P4278518476193835371

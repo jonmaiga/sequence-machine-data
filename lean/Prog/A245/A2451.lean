@@ -448,7 +448,7 @@ end A245105
 
 The programs for A245106, the canonical program `A245106.P3884523459461983124` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245106 has offset 0).
 
-The definition of A245106 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A245106 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A245106.anchor (n : ℕ) : (A245106 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k : ℚ) * (2 : ℚ) ^ (((n : ℤ) - (k : ℤ)) ^ 2 : ℤ) * (3 ^ k ^ 2 : ℚ)` in `Proof.A245.A245106`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A245106.P3884523459461983124

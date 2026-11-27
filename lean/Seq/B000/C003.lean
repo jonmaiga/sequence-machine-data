@@ -3837,6 +3837,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x+x^4)/(1-3x+3x^2-x^3))` (program `A016028.P4937296423029911129`, by `A016028.P4937296423029911129.correct`). Lean does not check the parsing of the name. -/
 def A016028.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A016031.P3105703537309694969
+
+`2^(2^n-(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A016031.P3105703537309694969
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((2 ^ n : ℤ) - (n + 1 : ℤ) : ℤ)
+
+end
+
+end A016031.P3105703537309694969
+
+noncomputable section
+
+/-- A016031: De Bruijn's sequence: 2^(2^(n-1) - n): number of ways of arranging 2^n bits in circle so all 2^n consecutive strings of length n are distinct.
+
+Offset 1, canonical program `A016031.P3105703537309694969`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A016031.anchor (n : ℕ) : (A016031 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - (n + 1 : ℤ) : ℤ)` in `Proof.A016.A016031`. -/
+def A016031 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A016031.P3105703537309694969.a (n - 1))
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A016031.anchor (n : ℕ) : (A016031 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - (n + 1 : ℤ) : ℤ)` in `Proof.A016.A016031`. -/
+def A016031.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A016123.P12151105359055444619
 
 `1+11*a(n-1)` with `a(0)=1`
@@ -25698,36 +25728,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A016029.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A016031.P3105703537309694969
-
-`2^(2^n-(n+1))`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A016031.P3105703537309694969
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ ((2 ^ n : ℤ) - (n + 1 : ℤ) : ℤ)
-
-end
-
-end A016031.P3105703537309694969
-
-noncomputable section
-
-/-- A016031: De Bruijn's sequence: 2^(2^(n-1) - n): number of ways of arranging 2^n bits in circle so all 2^n consecutive strings of length n are distinct.
-
-Offset 1, canonical program `A016031.P3105703537309694969`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016031 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A016031.P3105703537309694969.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016031.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A016051.P7470134516956408217
 

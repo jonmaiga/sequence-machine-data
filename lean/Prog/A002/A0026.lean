@@ -13892,7 +13892,7 @@ end A002697
 
 The programs for A002698, the canonical program `A002698.P15893764331427218743` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002698 has offset 2).
 
-The definition of A002698 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A002698 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A002698.anchor (n : ℕ) : (A002698 (n + 2) : ℚ) = ((n + 2 : ℤ) * ((2 * (n + 2) : ℤ) - 3) : ℚ) * (2 : ℚ) ^ ((2 * (n + 2) : ℤ) - 5 : ℤ)` in `Proof.A002.A002698`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A002698.P15893764331427218743

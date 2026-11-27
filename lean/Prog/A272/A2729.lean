@@ -1730,7 +1730,7 @@ end A272912
 
 The programs for A272913, the canonical program `A272913.P171651785507283709` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272913 has offset 0).
 
-The definition of A272913 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A272913 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A272913.anchor (n : ℕ) : (A272913 n : ℚ) = 3 * (2 : ℚ) ^ ((2 * n : ℤ) - 1 : ℤ) * ((n : ℤ) - 1 : ℚ) * (n ^ 3 : ℚ) * (Nat.choose (2 * n) n ^ 2 : ℚ)` in `Proof.A272.A272913`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A272913.P171651785507283709

@@ -10757,7 +10757,7 @@ end A060850.P11201337993102983480
 
 The programs for A060851, the canonical program `A060851.P13873616358178783921` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060851 has offset 1).
 
-The definition of A060851 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A060851 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A060851.anchor (n : ℕ) : (A060851 (n + 1) : ℚ) = ((2 * (n + 1) : ℤ) - 1 : ℚ) * (3 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ)` in `Proof.A060.A060851`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A060851.P11928765948091670665

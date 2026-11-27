@@ -12547,7 +12547,7 @@ end A055786
 
 The programs for A055787, the canonical program `A055787.P8606163969950535828` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055787 has offset 0).
 
-The definition of A055787 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A055787 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A055787.anchor (n : ℕ) : (A055787 n : ℚ) = (2 : ℚ) ^ ((4 * n : ℤ) - 1 : ℤ) - (2 : ℚ) ^ ((2 * n : ℤ) - 1 : ℤ) * (Nat.choose (2 * n) n : ℚ)` in `Proof.A055.A055787`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A055787.P14958204631432037437

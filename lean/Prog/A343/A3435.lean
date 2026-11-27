@@ -6917,7 +6917,7 @@ end A343560
 
 The programs for A343561, the canonical program `A343561.P3669670158909436423` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343561 has offset 0).
 
-The definition of A343561 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A343561 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A343561.anchor (n : ℕ) : (A343561 n : ℚ) = (n ^ 2 + 15 * n + 32 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 3 : ℤ)` in `Proof.A343.A343561`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A343561.P3669670158909436423

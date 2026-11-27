@@ -260,7 +260,7 @@ end A383002.P15907007830769827862
 
 The programs for A383003, the canonical program `A383003.P10010423534835484146` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383003 has offset 1).
 
-The definition of A383003 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A383003 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A383003.anchor (n : ℕ) : (A383003 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (-(n + 1 : ℤ) : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A383.A383003`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A383003.P10010423534835484146

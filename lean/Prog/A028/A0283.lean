@@ -11269,7 +11269,7 @@ end A028368.P6717932336457882298
 
 The programs for A028369, the canonical program `A028369.P12360185598682513676` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028369 has offset 1).
 
-The definition of A028369 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A028369 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A028369.anchor (n : ℕ) : (A028369 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 ^ n + (n + 1) : ℤ) - 2 : ℤ)` in `Proof.A028.A028369`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A028369.P12360185598682513676

@@ -606,7 +606,7 @@ end A365308.P15022931117620333831
 
 The programs for A365310, the canonical program `A365310.P9363571024602279806` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365310 has offset 0).
 
-The definition of A365310 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A365310 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A365310.anchor (n : ℕ) : (A365310 n : ℚ) = (2 ^ 2 ^ n : ℚ) + (2 : ℚ) ^ ((2 ^ (n + 1) : ℤ) - 1 : ℤ)` in `Proof.A365.A365310`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A365310.P9363571024602279806

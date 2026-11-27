@@ -3129,7 +3129,7 @@ end A348331.P17396523429793547282
 
 The programs for A348332, the canonical program `A348332.P12436743131677701112` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348332 has offset 1).
 
-The definition of A348332 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A348332 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A348332.anchor (n : ℕ) : (A348332 (n + 1) : ℚ) = ((2 ^ (n + 1) : ℤ) - 1 : ℚ) * (2 : ℚ) ^ ((2 ^ (n + 1) : ℤ) - (n + 1 : ℤ) : ℤ)` in `Proof.A348.A348332`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A348332.P12436743131677701112

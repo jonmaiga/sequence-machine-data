@@ -2711,7 +2711,7 @@ end A371638
 
 The programs for A371640, the canonical program `A371640.P6272718172563112277` is in `Seq.B001.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371640 has offset 1).
 
-The definition of A371640 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A371640 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A371640.anchor (n : ℕ) : (A371640 (n + 1) : ℚ) = (3 : ℚ) ^ (A371638 (n + 1) : ℤ)` in `Proof.A371.A371640`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A371640.P7503199325995250729

@@ -6287,7 +6287,7 @@ end A121944
 
 The programs for A121945, the canonical program `A121945.P283086472135262416` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121945 has offset 1).
 
-The definition of A121945 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A121945 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A121945.anchor (n : ℕ) : (A121945 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.factorial (k + 1) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)` in `Proof.A121.A121945`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A121945.P283086472135262416

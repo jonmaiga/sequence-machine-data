@@ -265,6 +265,39 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(A000110(n)))` (program `A192570.P3264216904116815413`, by `A192570.P3264216904116815413.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A192570.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A192572.P13463386698653688670
+
+`∑{#}[n, (-1)^(n-#)*floor(sqrt(A000110(#)))]`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A192572.P13463386698653688670
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Int.sqrt (A000110 k) : ℚ)
+
+end
+
+end A192572.P13463386698653688670
+
+noncomputable section
+
+/-- A192572: a(n) = Sum_{k=0..n} (-1)^(n-k)*floor(sqrt(Bell(k))).
+
+Offset 0, canonical program `A192572.P13463386698653688670`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A192572.anchor (n : ℕ) : (A192572 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Int.sqrt (A000110 k) : ℚ)` in `Proof.A192.A192572`. -/
+def A192572 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A192572.P13463386698653688670.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A192572.anchor (n : ℕ) : (A192572 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Int.sqrt (A000110 k) : ℚ)` in `Proof.A192.A192572`. -/
+def A192572.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A192573.P15175568500512311678
 
 `∑{#}[n, floor(sqrt(A000110(#)))*floor(sqrt(A000110(n-#)))]`
@@ -3346,39 +3379,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A192555.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A192572.P13463386698653688670
-
-`∑{#}[n, (-1)^(n-#)*floor(sqrt(A000110(#)))]`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A192572.P13463386698653688670
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Int.sqrt (A000110 k) : ℚ)
-
-end
-
-end A192572.P13463386698653688670
-
-noncomputable section
-
-/-- A192572: a(n) = Sum_{k=0..n} (-1)^(n-k)*floor(sqrt(Bell(k))).
-
-Offset 0, canonical program `A192572.P13463386698653688670`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A192572 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A192572.P13463386698653688670.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A192572.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A192654.P3211416494590440823
 

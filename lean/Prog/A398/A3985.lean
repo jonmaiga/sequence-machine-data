@@ -3346,7 +3346,7 @@ end A398564
 
 The programs for A398565, the canonical program `A398565.P17286952794565849304` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398565 has offset 0).
 
-The definition of A398565 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A398565 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A398565.anchor (n : ℕ) : (A398565 n : ℚ) = (3 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ)` in `Proof.A398.A398565`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A398565.P17286952794565849304

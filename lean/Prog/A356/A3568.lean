@@ -322,7 +322,7 @@ end A356804.P10764840888867832831
 
 The programs for A356806, the canonical program `A356806.P6989872950399668225` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356806 has offset 0).
 
-The definition of A356806 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356806 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A356806.anchor (n : ℕ) : (A356806 n : ℚ) = ∑ k ∈ Finset.range (n + 1), ((k * n : ℤ) - 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ)` in `Proof.A356.A356806`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356806.P6989872950399668225
@@ -571,7 +571,7 @@ end A356809.P16218690899374396262
 
 The programs for A356811, the canonical program `A356811.P17598295726246357337` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356811 has offset 0).
 
-The definition of A356811 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356811 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A356811.anchor (n : ℕ) : (A356811 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (k * n + 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ)` in `Proof.A356.A356811`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356811.P17598295726246357337
@@ -663,7 +663,7 @@ end A356813
 
 The programs for A356814, the canonical program `A356814.P3848326404298917559` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356814 has offset 0).
 
-The definition of A356814 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356814 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A356814.anchor (n : ℕ) : (A356814 n : ℚ) = ∑ k ∈ Finset.range (n + 1), ((-1) ^ k : ℚ) * (k * n + 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ)` in `Proof.A356.A356814`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356814.P3848326404298917559
@@ -732,7 +732,7 @@ end A356816
 
 The programs for A356817, the canonical program `A356817.P7887561986601385796` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356817 has offset 0).
 
-The definition of A356817 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356817 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A356817.anchor (n : ℕ) : (A356817 n : ℚ) = ∑ k ∈ Finset.range (n + 1), ((-1) ^ k : ℚ) * ((k * n : ℤ) - 1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ)` in `Proof.A356.A356817`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356817.P7887561986601385796

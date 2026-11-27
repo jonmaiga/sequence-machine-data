@@ -6744,7 +6744,7 @@ end A278564.P9563686530482352582
 
 The programs for A278565, the canonical program `A278565.P10374737846078063041` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278565 has offset 0).
 
-The definition of A278565 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A278565 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A278565.anchor (n : ℕ) : (A278565 n : ℚ) = ∑ k ∈ Finset.range (((n : ℤ) - 1) + 1).toNat, (Nat.choose n (k + 1) : ℚ) * (k + 1 : ℚ) ^ (1 + ((n : ℤ) - (k + 1 : ℤ)) ^ 2 : ℤ)` in `Proof.A278.A278565`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A278565.P10374737846078063041

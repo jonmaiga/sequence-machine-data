@@ -7017,7 +7017,7 @@ end A339679.P12690640454740737180
 
 The programs for A339684, the canonical program `A339684.P6484221370213892322` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339684 has offset 1).
 
-The definition of A339684 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339684 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339684.anchor (n : ℕ) : (A339684 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (4 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339684`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339684.P6484221370213892322
@@ -7144,7 +7144,7 @@ end A339684
 
 The programs for A339685, the canonical program `A339685.P12837176683981659217` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339685 has offset 1).
 
-The definition of A339685 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339685 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339685.anchor (n : ℕ) : (A339685 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (5 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339685`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339685.P12837176683981659217
@@ -7268,7 +7268,7 @@ end A339685
 
 The programs for A339686, the canonical program `A339686.P16502510872565663406` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339686 has offset 1).
 
-The definition of A339686 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339686 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339686.anchor (n : ℕ) : (A339686 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (6 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339686`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339686.P16502510872565663406
@@ -7401,7 +7401,7 @@ end A339686
 
 The programs for A339687, the canonical program `A339687.P603015872897190598` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339687 has offset 1).
 
-The definition of A339687 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339687 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339687.anchor (n : ℕ) : (A339687 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (7 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339687`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339687.P603015872897190598
@@ -7560,7 +7560,7 @@ end A339687
 
 The programs for A339688, the canonical program `A339688.P9944499641036360778` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339688 has offset 1).
 
-The definition of A339688 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339688 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339688.anchor (n : ℕ) : (A339688 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (8 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339688`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339688.P9944499641036360778
@@ -7678,7 +7678,7 @@ end A339688
 
 The programs for A339689, the canonical program `A339689.P17558829524981321897` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339689 has offset 1).
 
-The definition of A339689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A339689 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A339689.anchor (n : ℕ) : (A339689 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (9 : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A339.A339689`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A339689.P17558829524981321897

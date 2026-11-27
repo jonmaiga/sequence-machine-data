@@ -242,6 +242,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2-A000002(n+1)` (program `A078650.P371792363212749957`, by `A078650.P371792363212749957.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A078650.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A102376.P15707539213794308439
+
+`4^A000120(n)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A102376.P15707539213794308439
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (4 : ℚ) ^ (A000120 n : ℤ)
+
+end
+
+end A102376.P15707539213794308439
+
+noncomputable section
+
+/-- A102376: a(n) = 4^A000120(n).
+
+Offset 0, canonical program `A102376.P15707539213794308439`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A102376.anchor (n : ℕ) : (A102376 n : ℚ) = (4 : ℚ) ^ (A000120 n : ℤ)` in `Proof.A102.A102376`. -/
+def A102376 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A102376.P15707539213794308439.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A102376.anchor (n : ℕ) : (A102376 n : ℚ) = (4 : ℚ) ^ (A000120 n : ℤ)` in `Proof.A102.A102376`. -/
+def A102376.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A102564.P14718973119229357206
 
 `A000120(A078008(n))-A078008(A000120(n))`
@@ -1799,6 +1829,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A083558.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A083696.P18431486069192656597
+
+`a(n-1)²+5*A083697(n-1)²` with `a(0)=1`
+-/
+
+namespace A083696.P18431486069192656597
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) ^ 2 + 5 * A083697 (n - 1) ^ 2
+
+end
+
+end A083696.P18431486069192656597
+
+noncomputable section
+
+/-- A083696: a(n) = Sum_{r=0..2^(n-1)} (5^r/(2r)!)*Product_{k=0..2r-1} (2^n - k).
+
+Offset 0, canonical program `A083696.P18431486069192656597`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A083696 (n : ℕ) : ℤ :=
+  A083696.P18431486069192656597.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A083696.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A084296.P9456878335841744486
 
@@ -4453,36 +4511,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A101926.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A102376.P15707539213794308439
-
-`4^A000120(n)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A102376.P15707539213794308439
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 : ℚ) ^ (A000120 n : ℤ)
-
-end
-
-end A102376.P15707539213794308439
-
-noncomputable section
-
-/-- A102376: a(n) = 4^A000120(n).
-
-Offset 0, canonical program `A102376.P15707539213794308439`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A102376 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A102376.P15707539213794308439.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A102376.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A102377.P13436876123217032879
 
 `10^A000120(n)`
@@ -6398,34 +6426,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A083402.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A083696.P18431486069192656597
-
-`a(n-1)²+5*A083697(n-1)²` with `a(0)=1`
--/
-
-namespace A083696.P18431486069192656597
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) ^ 2 + 5 * A083697 (n - 1) ^ 2
-
-end
-
-end A083696.P18431486069192656597
-
-noncomputable section
-
-/-- A083696: a(n) = Sum_{r=0..2^(n-1)} (5^r/(2r)!)*Product_{k=0..2r-1} (2^n - k).
-
-Offset 0, canonical program `A083696.P18431486069192656597`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A083696 (n : ℕ) : ℤ :=
-  A083696.P18431486069192656597.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A083696.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A084854.P13726695903674628097
 

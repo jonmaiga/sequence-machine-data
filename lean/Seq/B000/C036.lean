@@ -1452,6 +1452,36 @@ end
 /-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A230390.anchor (n : ℕ) : (A230390 n : ℚ) = (5 * Nat.choose (8 * n + 10) n : ℚ) / (4 * n + 5 : ℚ)` in `Proof.A230.A230390`. -/
 def A230390.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A230445.P3606253614193020080
+
+`3^col(n)*2^(row(n)-col(n))-1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A230445.P3606253614193020080
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 ^ SequenceMachineLib.triCol n : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) - 1
+
+end
+
+end A230445.P3606253614193020080
+
+noncomputable section
+
+/-- A230445: Triangle read by rows: T(n,m) = 3^m*2^(n-m)-1, the number of neighbors in an n-dimensional cubic array.
+
+Offset 0, canonical program `A230445.P3606253614193020080`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A230445.anchor (n : ℕ) : (A230445 n : ℚ) = (3 ^ SequenceMachineLib.triCol n : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) - 1` in `Proof.A230.A230445`. -/
+def A230445 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A230445.P3606253614193020080.a n)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A230445.anchor (n : ℕ) : (A230445 n : ℚ) = (3 ^ SequenceMachineLib.triCol n : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) - 1` in `Proof.A230.A230445`. -/
+def A230445.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A230462.P12356570533561547931
 
 `a(n-6)+30` with `a(0)=1, a(1)=11, a(2)=13, a(3)=17, a(4)=19, a(5)=29`
@@ -9977,36 +10007,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A230435.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A230445.P3606253614193020080
-
-`3^col(n)*2^(row(n)-col(n))-1`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A230445.P3606253614193020080
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 ^ SequenceMachineLib.triCol n : ℚ) * (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) - 1
-
-end
-
-end A230445.P3606253614193020080
-
-noncomputable section
-
-/-- A230445: Triangle read by rows: T(n,m) = 3^m*2^(n-m)-1, the number of neighbors in an n-dimensional cubic array.
-
-Offset 0, canonical program `A230445.P3606253614193020080`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A230445 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A230445.P3606253614193020080.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A230445.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A230584.P1388991491743192012
 

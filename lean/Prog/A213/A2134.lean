@@ -1878,7 +1878,7 @@ end A213430.P7605410127641334186
 
 The programs for A213432, the canonical program `A213432.P8998872411591045958` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213432 has offset 0).
 
-The definition of A213432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A213432 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A213432.anchor (n : ℕ) : (A213432 n : ℚ) = (2 : ℚ) ^ ((n : ℤ) - 3 : ℤ) * (Nat.choose n 4 : ℚ)` in `Proof.A213.A213432`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A213432.P8998872411591045958

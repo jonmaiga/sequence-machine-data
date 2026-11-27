@@ -3733,7 +3733,7 @@ end A325937
 
 The programs for A325938, the canonical program `A325938.P14006727487049740035` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325938 has offset 1).
 
-The definition of A325938 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A325938 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A325938.anchor (n : ℕ) : (A325938 (n + 1) : ℚ) = (A001221 (n + 1) : ℚ) ^ (A000005 (n + 1) : ℤ)` in `Proof.A325.A325938`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A325938.P14006727487049740035

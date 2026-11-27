@@ -2213,6 +2213,39 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*A104720(n)+ceil(n/2)` (program `A319842.P8477965333211123551`, by `A319842.P8477965333211123551.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A319842.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A320568.P441633359264224908
+
+`∑{#}[n, (-1)^(n+1-(#+1))*C(n+1, #+1)*A000203(#+1)]`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A320568.P441633359264224908
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (Nat.choose (n + 1) (k + 1) : ℚ) * (A000203 (k + 1) : ℚ)
+
+end
+
+end A320568.P441633359264224908
+
+noncomputable section
+
+/-- A320568: a(n) = Sum_{k=1..n} (-1)^(n-k)*binomial(n,k)*sigma(k).
+
+Offset 1, canonical program `A320568.P441633359264224908`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A320568.anchor (n : ℕ) : (A320568 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (Nat.choose (n + 1) (k + 1) : ℚ) * (A000203 (k + 1) : ℚ)` in `Proof.A320.A320568`. -/
+def A320568 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A320568.P441633359264224908.a (n - 1))
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A320568.anchor (n : ℕ) : (A320568 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (Nat.choose (n + 1) (k + 1) : ℚ) * (A000203 (k + 1) : ℚ)` in `Proof.A320.A320568`. -/
+def A320568.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A321017.P10204127196828355610
 
 `floor(A000720(n+1)/2)`
@@ -10676,39 +10709,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A320555.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A320568.P441633359264224908
-
-`∑{#}[n, (-1)^(n+1-(#+1))*C(n+1, #+1)*A000203(#+1)]`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A320568.P441633359264224908
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (-1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (Nat.choose (n + 1) (k + 1) : ℚ) * (A000203 (k + 1) : ℚ)
-
-end
-
-end A320568.P441633359264224908
-
-noncomputable section
-
-/-- A320568: a(n) = Sum_{k=1..n} (-1)^(n-k)*binomial(n,k)*sigma(k).
-
-Offset 1, canonical program `A320568.P441633359264224908`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A320568 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A320568.P441633359264224908.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A320568.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A320586.P17623586666106870199
 

@@ -4820,7 +4820,7 @@ end A123245.P10618860682895551004
 
 The programs for A123246, the canonical program `A123246.P9440738482151598640` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123246 has offset 1).
 
-The definition of A123246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A123246 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A123246.anchor (n : ℕ) : (A123246 (n + 1) : ℚ) = (A000720 (n + 1) : ℚ) + (-1 : ℚ) ^ (A000720 (n + 1) + 1 : ℤ)` in `Proof.A123.A123246`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A123246.P9440738482151598640

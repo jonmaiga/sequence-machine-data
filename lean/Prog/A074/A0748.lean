@@ -1084,7 +1084,7 @@ end A074813.P7989616774898613909
 
 The programs for A074816, the canonical program `A074816.P6381608744235882068` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074816 has offset 1).
 
-The definition of A074816 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074816 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A074816.anchor (n : ℕ) : (A074816 (n + 1) : ℚ) = (3 : ℚ) ^ (A001221 (n + 1) : ℤ)` in `Proof.A074.A074816`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074816.P6381608744235882068
@@ -8587,7 +8587,7 @@ end A074853.P12250595148216422095
 
 The programs for A074854, the canonical program `A074854.P10557273230699174919` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074854 has offset 1).
 
-The definition of A074854 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074854 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A074854.anchor (n : ℕ) : (A074854 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (2 : ℚ) ^ ((n + 1 : ℤ) - (d : ℤ) : ℤ)` in `Proof.A074.A074854`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074854.P10557273230699174919

@@ -222,7 +222,7 @@ end A342402.P12596797915946028184
 
 The programs for A342404, the canonical program `A342404.P9738542168340488170` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342404 has offset 0).
 
-The definition of A342404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A342404 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A342404.anchor (n : ℕ) : (A342404 n : ℚ) = (Nat.choose n 2 : ℚ) * ((2 : ℚ) ^ ((n : ℤ) - 2 : ℤ) - (n : ℚ) + 1)` in `Proof.A342.A342404`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A342404.P9738542168340488170
@@ -3282,7 +3282,7 @@ end A342431.P11938704648192596304
 
 The programs for A342432, the canonical program `A342432.P13102184525081734136` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342432 has offset 1).
 
-The definition of A342432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A342432 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A342432.anchor (n : ℕ) : (A342432 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.gcd (k + 1) (n + 1) : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A342.A342432`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A342432.P13102184525081734136
@@ -8054,7 +8054,7 @@ end A342488
 
 The programs for A342489, the canonical program `A342489.P14892594995084121903` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342489 has offset 1).
 
-The definition of A342489 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A342489 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A342489.anchor (n : ℕ) : (A342489 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (A000010 d : ℚ) ^ ((d : ℤ) - 1 : ℤ)` in `Proof.A342.A342489`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A342489.P14892594995084121903

@@ -4226,7 +4226,7 @@ end A119570.P17671062024256804515
 
 The programs for A119571, the canonical program `A119571.P17465059737676069611` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119571 has offset 0).
 
-The definition of A119571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A119571 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A119571.anchor (n : ℕ) : (A119571 n : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) + (2 : ℚ) ^ ((2 ^ (n + 1) : ℤ) - 1 : ℤ) + 1` in `Proof.A119.A119571`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A119571.P17465059737676069611

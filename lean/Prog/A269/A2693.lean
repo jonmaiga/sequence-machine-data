@@ -1192,7 +1192,7 @@ end A269326.P2133301303307156815
 
 The programs for A269327, the canonical program `A269327.P12691883733270740652` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269327 has offset 1).
 
-The definition of A269327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A269327 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A269327.anchor (n : ℕ) : (A269327 (n + 1) : ℚ) = (7 : ℚ) ^ (A000040 (n + 1) : ℤ)` in `Proof.A269.A269327`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A269327.P12691883733270740652

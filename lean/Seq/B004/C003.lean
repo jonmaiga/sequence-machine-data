@@ -6496,14 +6496,14 @@ noncomputable section
 
 /-- A325938: a(n) = omega(n)^tau(n), where omega=A001221 and tau=A000005.
 
-Offset 1, canonical program `A325938.P14006727487049740035`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A325938.P14006727487049740035`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A325938.anchor (n : ℕ) : (A325938 (n + 1) : ℚ) = (A001221 (n + 1) : ℚ) ^ (A000005 (n + 1) : ℤ)` in `Proof.A325.A325938`. -/
 def A325938 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A325938.P14006727487049740035.a (n - 1))
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A325938.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A325938.anchor (n : ℕ) : (A325938 (n + 1) : ℚ) = (A001221 (n + 1) : ℚ) ^ (A000005 (n + 1) : ℤ)` in `Proof.A325.A325938`. -/
+def A325938.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A326417.P12070736544314297491
 
@@ -8247,14 +8247,14 @@ noncomputable section
 
 /-- A345271: a(n) = Sum_{d|n} n^tau(d).
 
-Offset 1, canonical program `A345271.P9011616503951983063`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A345271.P9011616503951983063`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345271.anchor (n : ℕ) : (A345271 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (n + 1 : ℚ) ^ (A000005 d : ℤ)` in `Proof.A345.A345271`. -/
 def A345271 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A345271.P9011616503951983063.a (n - 1))
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A345271.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345271.anchor (n : ℕ) : (A345271 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (n + 1 : ℚ) ^ (A000005 d : ℤ)` in `Proof.A345.A345271`. -/
+def A345271.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A345273.P16033558317031481753
 
@@ -8280,14 +8280,14 @@ noncomputable section
 
 /-- A345273: a(n) = Sum_{d|n} (n-d)^tau(d).
 
-Offset 1, canonical program `A345273.P16033558317031481753`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A345273.P16033558317031481753`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345273.anchor (n : ℕ) : (A345273 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), ((n + 1 : ℤ) - (d : ℤ) : ℚ) ^ (A000005 d : ℤ)` in `Proof.A345.A345273`. -/
 def A345273 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A345273.P16033558317031481753.a (n - 1))
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A345273.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345273.anchor (n : ℕ) : (A345273 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), ((n + 1 : ℤ) - (d : ℤ) : ℚ) ^ (A000005 d : ℤ)` in `Proof.A345.A345273`. -/
+def A345273.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A345274.P3409178840986352615
 

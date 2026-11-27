@@ -3050,14 +3050,14 @@ noncomputable section
 
 /-- A161845: a(n) = A002808(n)^A141468(n).
 
-Offset 1, canonical program `A161845.P15767429707514864025`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 1, canonical program `A161845.P15767429707514864025`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A161845.anchor (n : ℕ) : (A161845 (n + 1) : ℚ) = (A002808 (n + 1) : ℚ) ^ (A141468 (n + 1) : ℤ)` in `Proof.A161.A161845`. -/
 def A161845 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A161845.P15767429707514864025.a (n - 1))
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A161845.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A161845.anchor (n : ℕ) : (A161845 (n + 1) : ℚ) = (A002808 (n + 1) : ℚ) ^ (A141468 (n + 1) : ℤ)` in `Proof.A161.A161845`. -/
+def A161845.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A161912.P2457371058280528067
 

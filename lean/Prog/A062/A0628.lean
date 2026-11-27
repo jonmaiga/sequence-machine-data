@@ -1414,7 +1414,7 @@ end A062804.P1649124834779036441
 
 The programs for A062805, the canonical program `A062805.P11570257814676792295` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062805 has offset 0).
 
-The definition of A062805 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062805 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062805.anchor (n : ℕ) : (A062805 n : ℚ) = ∑ k ∈ Finset.range (((n : ℤ) - 1) + 1).toNat, (k + 1 : ℚ) * (n : ℚ) ^ ((n : ℤ) - (k + 1 : ℤ) : ℤ)` in `Proof.A062.A062805`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062805.P11570257814676792295
@@ -2655,7 +2655,7 @@ end A062810
 
 The programs for A062811, the canonical program `A062811.P12635866909966758684` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062811 has offset 1).
 
-The definition of A062811 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062811 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062811.anchor (n : ℕ) : (A062811 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), ((k + 1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) + (((k + 1 : ℤ) - (n + 1 : ℤ)) ^ (k + 1) : ℚ))` in `Proof.A062.A062811`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062811.P12635866909966758684
@@ -2819,7 +2819,7 @@ end A062811
 
 The programs for A062812, the canonical program `A062812.P7440165262132673020` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062812 has offset 1).
 
-The definition of A062812 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062812 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062812.anchor (n : ℕ) : (A062812 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), ((k + 1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) + (-1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (((n + 1 : ℤ) - (k + 1 : ℤ)) ^ (k + 1) : ℚ))` in `Proof.A062.A062812`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062812.P7440165262132673020
@@ -3088,7 +3088,7 @@ end A062813
 
 The programs for A062814, the canonical program `A062814.P4556592945053712800` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062814 has offset 1).
 
-The definition of A062814 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062814 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062814.anchor (n : ℕ) : (A062814 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (k : ℚ) * ((n + 1 : ℤ) - (k : ℤ) : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ)` in `Proof.A062.A062814`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062814.P4556592945053712800
@@ -3717,7 +3717,7 @@ end A062816
 
 The programs for A062817, the canonical program `A062817.P5007318974667421147` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062817 has offset 1).
 
-The definition of A062817 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A062817 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A062817.anchor (n : ℕ) : (A062817 (n + 1) : ℚ) = ∑ k ∈ Finset.range ((n + 1) + 1), (k : ℚ) ^ ((n + 1 : ℤ) - (k : ℤ) : ℤ) * (((n + 1 : ℤ) - (k : ℤ)) ^ k : ℚ)` in `Proof.A062.A062817`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A062817.P5007318974667421147

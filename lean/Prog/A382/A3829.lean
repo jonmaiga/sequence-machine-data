@@ -2638,7 +2638,7 @@ end A382932.P16310220229170833773
 
 The programs for A382934, the canonical program `A382934.P13227624411381248246` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382934 has offset 0).
 
-The definition of A382934 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A382934 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A382934.anchor (n : ℕ) : (A382934 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (Nat.choose n k * Nat.choose (n + k) k * Nat.choose (n + 2 * k) k : ℚ) * (2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ)` in `Proof.A382.A382934`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A382934.P13227624411381248246
